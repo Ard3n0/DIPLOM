@@ -1,144 +1,123 @@
-import spacy
-import random
+#Для быстрого обучения лучше запустить в Colab с графическим процессором Т4
+#https://colab.research.google.com/drive/1dbbTGjTkn5Vp5WcdzlOLN9-MK9NRaPty?usp=sharing
+
+
 import os
-import logging
-from spacy.training import Example
-from spacy.util import minibatch, compounding
+import json
+import torch
+from torch.utils.data import Dataset, DataLoader
+from transformers import AutoTokenizer, AutoModelForTokenClassification, AdamW
+from tqdm import tqdm
 
-import config
-from data_loader import load_label_studio_data
+DATA_PATH = "dataset.json"
+MODEL_NAME = "cointegrated/rubert-tiny2"
+EPOCHS = 3
+BATCH_SIZE = 8 
 
-# Настройка простого логирования для консоли
-logging.basicConfig(level=logging.INFO, format="%(message)s")
-logger = logging.getLogger(__name__)
+label2id = {
+    "O": 0, 
+    "B-TERM": 1, "I-TERM": 2, 
+    "B-FORMULA": 3, "I-FORMULA": 4, 
+    "B-NAME": 5, "I-NAME": 6
+}
+id2label = {v: k for k, v in label2id.items()}
 
-def make_examples(nlp_model, data_list):
-    """Преобразует текстовые данные в формат Example, понятный для spaCy."""
-    examples = []
-    for text, ann in data_list:
-        pred_doc = nlp_model.make_doc(text)
-        ref_doc = nlp_model.make_doc(text)
-        spans = []
+class NERDataset(Dataset):
+    def __init__(self, data, tokenizer, max_len=128):
+        self.data = data
+        self.tokenizer = tokenizer
+        self.max_len = max_len
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        item = self.data[idx]
+        text = item['text']
+        entities = item['entities']
+
+        encoding = self.tokenizer(
+            text,
+            padding='max_length',
+            truncation=True,
+            max_length=self.max_len,
+            return_offsets_mapping=True,
+            return_tensors='pt'
+        )
         
-        for start, end, label in ann.get("entities", []):
-            span = ref_doc.char_span(start, end, label=label)
-            if span is not None:
-                spans.append(span)
+        labels = torch.ones(self.max_len, dtype=torch.long) * -100
+        offsets = encoding.pop('offset_mapping')[0]
         
-        ref_doc.spans[config.SPANS_KEY] = spans
-        examples.append(Example(pred_doc, ref_doc))
-    return examples
+        for i, (start_char, end_char) in enumerate(offsets):
+            if start_char == 0 and end_char == 0:
+                continue
+                
+            labels[i] = label2id["O"]
+            
+            for ent in entities:
+                ent_label = ent.get('label', 'TERM') # Читаем метку из нашего умного датасета
+                
+                if start_char == ent['start']:
+                    labels[i] = label2id[f"B-{ent_label}"]
+                elif ent['start'] < start_char < ent['end']:
+                    labels[i] = label2id[f"I-{ent_label}"]
+                
+        item_tensors = {key: val[0] for key, val in encoding.items()}
+        item_tensors['labels'] = labels
+        return item_tensors
 
 def train_model():
-    logger.info("--- Шаг 1: Загрузка обучающих данных ---")
-    data = load_label_studio_data(config.ANNOTATIONS_FILE)
-    
-    if not data:
-        logger.info("Критическая ошибка: Файл с данными пуст или не найден.")
-        return
+    print("⏳ Читаю датасет...")
+    with open(DATA_PATH, 'r', encoding='utf-8') as f:
+        dataset_json = json.load(f)
 
-    # Перемешиваем и делим данные на обучение и проверку
-    random.seed(config.SEED) 
-    random.shuffle(data)
+    print("⏳ Загружаю токенизатор...")
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     
-    split_idx = int(len(data) * config.TRAIN_SPLIT)
-    train_data = data[:split_idx]
-    dev_data = data[split_idx:]
-    
-    logger.info(f"Всего предложений: {len(data)}. На обучение: {len(train_data)}, на проверку: {len(dev_data)}")
+    print("🧠 Загружаю саму нейросеть RuBERT-tiny2...")
+    model = AutoModelForTokenClassification.from_pretrained(
+        MODEL_NAME, 
+        num_labels=7, 
+        id2label=id2label, 
+        label2id=label2id
+    )
 
-    logger.info("\n--- Шаг 2: Подготовка базовой языковой модели ---")
-    try:
-        nlp = spacy.load("ru_core_news_lg")
-    except OSError:
-        logger.info("Ошибка: Не найдена базовая модель. Выполните в консоли: python -m spacy download ru_core_news_lg")
-        return
-    
-    # Очищаем модель от лишних функций
-    for pipe in list(nlp.pipe_names):
-        nlp.remove_pipe(pipe)
-    
-    # Добавляем наш модуль для поиска вложенных терминов
-    if "spancat" not in nlp.pipe_names:
-        nlp.add_pipe("spancat", config={
-            "threshold": 0.2,
-            "spans_key": config.SPANS_KEY,
-            "suggester": {
-                "@misc": "spacy.ngram_suggester.v1", 
-                "sizes": [1, 2, 3, 4, 5, 6, 7, 8, 10, 15]
-            }
-        })
-    
-    spancat = nlp.get_pipe("spancat")
+    dataset = NERDataset(dataset_json, tokenizer)
+    dataloader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True)
 
-    # Регистрируем категории терминов
-    for _, annotations in train_data:
-        for ent in annotations.get("entities", []):
-            spancat.add_label(ent[2])
+    optimizer = AdamW(model.parameters(), lr=5e-5)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print(f"🚀 Обучение будет проходить на: {device}")
+    model.to(device)
+
+    model.train()
+    for epoch in range(EPOCHS):
+        print(f"\nЭпоха {epoch + 1}/{EPOCHS}")
+        total_loss = 0
+        
+        progress_bar = tqdm(dataloader, desc="Обучение")
+        for batch in progress_bar:
+            optimizer.zero_grad()
             
-    logger.info(f"Модель настроена. Категории: {', '.join(spancat.labels)}")
-
-    train_examples = make_examples(nlp, train_data)
-    
-    logger.info("\n--- Шаг 3: Начало обучения нейросети ---")
-    optimizer = nlp.begin_training()
-    
-    for i in range(config.N_ITER):
-        random.shuffle(train_examples)
-        losses = {}
-        
-        # Разбиваем данные на пакеты
-        batches = minibatch(train_examples, size=compounding(
-            config.BATCH_START, config.BATCH_STOP, config.BATCH_COMPOUND
-        ))
-        
-        for batch in batches:
-            nlp.update(batch, drop=config.DROPOUT, losses=losses, sgd=optimizer)
+            input_ids = batch['input_ids'].to(device)
+            attention_mask = batch['attention_mask'].to(device)
+            labels = batch['labels'].to(device)
             
-        if (i + 1) % 10 == 0 or i == 0:
-            logger.info(f"Эпоха {i+1:3} из {config.N_ITER} | Ошибка модели: {losses.get('spancat', 0):.4f}")
+            outputs = model(input_ids, attention_mask=attention_mask, labels=labels)
+            loss = outputs.loss
+            
+            loss.backward()
+            optimizer.step()
+            
+            total_loss += loss.item()
+            progress_bar.set_postfix({'loss': f"{loss.item():.4f}"})
+            
+        print(f"Средняя ошибка (loss) за эпоху: {total_loss / len(dataloader):.4f}")
 
-    logger.info("\n--- Шаг 4: Проверка знаний (Экзамен модели) ---")
-    total_gold = 0
-    total_pred = 0
-    correct = 0
-
-    eval_examples = make_examples(nlp, dev_data)
-    
-    for ex in eval_examples:
-        pred_doc = nlp(ex.reference.text)
-        
-        gold_spans = set((s.start_char, s.end_char, s.label_) for s in ex.reference.spans.get(config.SPANS_KEY, []))
-        pred_spans = set((s.start_char, s.end_char, s.label_) for s in pred_doc.spans.get(config.SPANS_KEY, []))
-        
-        total_gold += len(gold_spans)
-        total_pred += len(pred_spans)
-        correct += len(gold_spans.intersection(pred_spans))
-
-    precision = correct / total_pred if total_pred > 0 else 0
-    recall = correct / total_gold if total_gold > 0 else 0
-    f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-
-    logger.info(f"Точность (не берет лишнее): {precision:.3f}")
-    logger.info(f"Полнота (находит всё нужное): {recall:.3f}")
-    logger.info(f"Общая оценка (F1-Score):      {f1:.3f}")
-
-    logger.info("\n--- Шаг 5: Наглядная проверка ---")
-    for ex in eval_examples[:3]:
-        text = ex.reference.text
-        pred_doc = nlp(text)
-        
-        gold = [(s.text, s.label_) for s in ex.reference.spans.get(config.SPANS_KEY, [])]
-        pred = [(s.text, s.label_) for s in pred_doc.spans.get(config.SPANS_KEY, [])]
-        
-        logger.info(f"\nТекст: {text[:80]}...")
-        logger.info(f"Правильные ответы: {gold}")
-        logger.info(f"Ответы модели:     {pred}")
-
-    if not os.path.exists(config.MODEL_OUTPUT_DIR):
-        os.makedirs(config.MODEL_OUTPUT_DIR)
-    nlp.to_disk(config.MODEL_OUTPUT_DIR)
-    logger.info(f"\nУспех! Обученная модель сохранена в папку: {config.MODEL_OUTPUT_DIR}")
+    print("✅ Обучение завершено! Сохраняю модель...")
+    model.save_pretrained("./saved_model")
+    tokenizer.save_pretrained("./saved_model")
+    print("🎉 Модель успешно сохранена в папку ./saved_model")
 
 if __name__ == "__main__":
     train_model()
