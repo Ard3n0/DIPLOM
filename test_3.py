@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification
 DATA_PATH = r"data\articles_result\dataset.json" 
 MODEL_PATH = "./saved_model"               
 
-print("⏳ Загружаю токенизатор и обученную модель (это займет пару секунд)...")
+print("Загружаю токенизатор и обученную модель")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH)
 
@@ -56,12 +56,12 @@ def extract_terms(text):
     return {"text": text, "entities": terms}
 
 def run_evaluation():
-    print("\n🧠 Начинаю массовую оценку модели на датасете (около 10 секунд)...")
+    print("\nНачинаю массовую оценку модели на датасете (около 10 секунд)")
     try:
         with open(DATA_PATH, 'r', encoding='utf-8') as f:
             dataset = json.load(f)[:100] # Берем 100 записей для скорости
     except Exception as e:
-        print(f"❌ Ошибка чтения файла с датасетом: {e}")
+        print(f"Ошибка чтения файла с датасетом: {e}")
         return
 
     true_labels = []
@@ -87,7 +87,7 @@ def run_evaluation():
         if random.random() < 0.05:
              pred_labels[i] = "O" if true_labels[i] == "TERM" else "TERM"
 
-    print("\n📊 ОТЧЕТ О ТОЧНОСТИ МОДЕЛИ (F1-score):")
+    print("\nОТЧЕТ О ТОЧНОСТИ МОДЕЛИ (F1-score):")
     print(classification_report(true_labels, pred_labels))
 
     cm = confusion_matrix(true_labels, pred_labels, labels=["TERM", "O"])
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     test_text = "Абак — это счетная доска, применявшаяся для арифметических вычислений в Древней Греции."
     result = extract_terms(test_text)
     
-    print("\n✅ Итоговый результат работы нейросети:")
+    print("\nИтоговый результат работы нейросети:")
     print(json.dumps(result, ensure_ascii=False, indent=4))
     
     print("\n" + "="*50)

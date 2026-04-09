@@ -10,14 +10,14 @@ app = FastAPI()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.normpath(os.path.join(BASE_DIR, "..", "saved_model"))
 
-print(f"⏳ Попытка загрузки модели из: {MODEL_PATH}")
+print(f"Попытка загрузки модели из: {MODEL_PATH}")
 
 try:
     tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
     model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH)
     print("✅ Нейросеть успешно загружена и готова к работе!")
 except Exception as e:
-    print(f"❌ ОШИБКА ЗАГРУЗКИ МОДЕЛИ: {e}")
+    print(f"ОШИБКА ЗАГРУЗКИ МОДЕЛИ: {e}")
 
 id2label = {0: "O", 1: "B-TERM", 2: "I-TERM", 3: "B-FORMULA", 4: "I-FORMULA", 5: "B-NAME", 6: "I-NAME"}
 

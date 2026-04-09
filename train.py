@@ -67,14 +67,14 @@ class NERDataset(Dataset):
         return item_tensors
 
 def train_model():
-    print("⏳ Читаю датасет...")
+    print("Читаю датасет")
     with open(DATA_PATH, 'r', encoding='utf-8') as f:
         dataset_json = json.load(f)
 
-    print("⏳ Загружаю токенизатор...")
+    print("Загружаю токенизатор")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     
-    print("🧠 Загружаю саму нейросеть RuBERT-tiny2...")
+    print("Загружаю саму нейросеть RuBERT-tiny2")
     model = AutoModelForTokenClassification.from_pretrained(
         MODEL_NAME, 
         num_labels=7, 
@@ -87,7 +87,7 @@ def train_model():
 
     optimizer = AdamW(model.parameters(), lr=5e-5)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    print(f"🚀 Обучение будет проходить на: {device}")
+    print(f"Обучение будет проходить на: {device}")
     model.to(device)
 
     model.train()
@@ -114,10 +114,10 @@ def train_model():
             
         print(f"Средняя ошибка (loss) за эпоху: {total_loss / len(dataloader):.4f}")
 
-    print("✅ Обучение завершено! Сохраняю модель...")
+    print("Обучение завершено! Сохраняю модель")
     model.save_pretrained("./saved_model")
     tokenizer.save_pretrained("./saved_model")
-    print("🎉 Модель успешно сохранена в папку ./saved_model")
+    print("Модель успешно сохранена в папку ./saved_model")
 
 if __name__ == "__main__":
     train_model()

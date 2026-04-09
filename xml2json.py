@@ -14,16 +14,16 @@ def process_xml_dataset():
     dataset = []
     uri_pattern = re.compile(r'URI\[\[(.*?)\]\]/URI')
 
-    print(f"👀 Ищу файлы вот в этой папке:\n{XML_FOLDER_PATH}")
+    print(f"Ищу файлы вот в этой папке:\n{XML_FOLDER_PATH}")
     
     search_path = os.path.join(XML_FOLDER_PATH, "*.xml")
     xml_files = glob.glob(search_path)
     
     if not xml_files:
-        print("❌ Ошибка: В этой папке нет XML файлов! Проверь, правильно ли названа папка.")
+        print("Ошибка: В этой папке нет XML файлов! Проверь, правильно ли названа папка.")
         return
 
-    print(f"✅ Найдено файлов: {len(xml_files)}. Начинаю обработку...")
+    print(f"Найдено файлов: {len(xml_files)}. Начинаю обработку...")
 
     for filepath in xml_files:
         try:
@@ -103,7 +103,7 @@ def process_xml_dataset():
     with open(OUTPUT_JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(dataset, f, ensure_ascii=False, indent=4)
         
-    print(f"🎉 Готово! Создан умный файл: {OUTPUT_JSON_PATH}")
+    print(f"Готово! Создан умный файл: {OUTPUT_JSON_PATH}")
 
 if __name__ == "__main__":
     process_xml_dataset()
