@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR: str = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR: str = os.path.join(BASE_DIR, "data")
 ANNOTATIONS_FILE: str = os.path.join(DATA_DIR, "annotations.json")
-MODEL_OUTPUT_DIR: str = os.path.join(BASE_DIR, "models", "my_spancat_model")
+MODEL_OUTPUT_DIR: str = os.path.join(BASE_DIR, "my_massbert_model")
 
 # Базовые параметры NLP-конвейера
 LANG: str = "ru"

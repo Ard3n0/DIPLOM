@@ -1,119 +1,122 @@
+from fastapi import FastAPI, BackgroundTasks, Form, File, UploadFile
+from fastapi.responses import FileResponse
+from typing import Optional
+import json
 import os
-import re
 import torch
-from fastapi import FastAPI, File, UploadFile, Form
-from fastapi.responses import HTMLResponse
-from transformers import AutoTokenizer, AutoModelForTokenClassification
+import torch.nn.functional as F
+import datetime
+from transformers import AutoTokenizer, AutoModelForTokenClassification, TrainingArguments, Trainer
+from datasets import Dataset
 
 app = FastAPI()
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.normpath(os.path.join(BASE_DIR, "..", "saved_model"))
+DIPLOMA_PATH = "D:/Диплом"
+BASE_MODEL_PATH = os.path.join(DIPLOMA_PATH, "saved_model")
+HIDDEN_DATA_FILE = "autonomous_dataset.jsonl"
 
-print(f"Попытка загрузки модели из: {MODEL_PATH}")
+def get_latest_model_path():
+    if not os.path.exists(DIPLOMA_PATH): return BASE_MODEL_PATH
+    all_folders = [os.path.join(DIPLOMA_PATH, d) for d in os.listdir(DIPLOMA_PATH) 
+                   if os.path.isdir(os.path.join(DIPLOMA_PATH, d))]
+    checkpoints = [d for d in all_folders if "model_checkpoint_" in d]
+    return max(checkpoints, key=os.path.getmtime) if checkpoints else BASE_MODEL_PATH
 
-try:
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-    model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH)
-    print("✅ Нейросеть успешно загружена и готова к работе!")
-except Exception as e:
-    print(f"ОШИБКА ЗАГРУЗКИ МОДЕЛИ: {e}")
+CURRENT_MODEL_PATH = get_latest_model_path()
+CONFIDENCE_THRESHOLD = 0.85 # Порог для записи в датасет
+RETRAIN_LIMIT = 100
 
-id2label = {0: "O", 1: "B-TERM", 2: "I-TERM", 3: "B-FORMULA", 4: "I-FORMULA", 5: "B-NAME", 6: "I-NAME"}
+print(f">>> Загрузка модели из: {CURRENT_MODEL_PATH}")
+tokenizer = AutoTokenizer.from_pretrained(CURRENT_MODEL_PATH)
+model = AutoModelForTokenClassification.from_pretrained(CURRENT_MODEL_PATH)
 
-def classify_sub_type(word, category):
-    """Определяет точный подтип и фильтрует мусорные слова"""
-    w = word.lower().strip(".,!?;:() ")
+def background_retrain_task():
+    print(">>> [ОБУЧЕНИЕ] Запуск...")
+    if not os.path.exists(HIDDEN_DATA_FILE) or os.stat(HIDDEN_DATA_FILE).st_size == 0: return
+    tokens_list, tags_list = [], []
+    with open(HIDDEN_DATA_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            if line.strip():
+                data = json.loads(line)
+                tokens_list.append(data["tokens"])
+                tags_list.append(data["ner_tags"])
     
-    trash = {
-        "рассмотрим", "который", "которую", "часто", "называют", "устанавливает", 
-        "связь", "между", "применяется", "используем", "выполняется", "стоит", 
-        "упомянуть", "играют", "роль", "виде", "закона", "порядка", "проверке",
-        "фундаментальную", "исследовании", "некоторой", "области"
-    }
+    train_ds = Dataset.from_dict({"tokens": tokens_list, "ner_tags": tags_list})
+    def tokenize_and_align(ex):
+        tok = tokenizer(ex["tokens"], truncation=True, padding="max_length", is_split_into_words=True, max_length=128)
+        labels = []
+        for i, label in enumerate(ex["ner_tags"]):
+            word_ids = tok.word_ids(batch_index=i)
+            previous_idx, label_ids = None, []
+            for w_idx in word_ids:
+                if w_idx is None: label_ids.append(-100)
+                elif w_idx != previous_idx: label_ids.append(label[w_idx])
+                else: label_ids.append(-100)
+                previous_idx = w_idx
+            labels.append(label_ids)
+        tok["labels"] = labels
+        return tok
+
+    tds = train_ds.map(tokenize_and_align, batched=True)
+    ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    NEW_PATH = os.path.join(DIPLOMA_PATH, f"model_checkpoint_{ts}")
     
-    if w in trash or len(w) < 3:
-        return None
+    args = TrainingArguments(output_dir=NEW_PATH, num_train_epochs=3, per_device_train_batch_size=2, save_strategy="no", report_to="none")
+    trainer = Trainer(model=model, args=args, train_dataset=tds, processing_class=tokenizer)
+    trainer.train()
+    trainer.save_model(NEW_PATH)
+    tokenizer.save_pretrained(NEW_PATH)
+    with open(HIDDEN_DATA_FILE, "w", encoding="utf-8") as f: f.truncate(0)
+    print(f">>> Обучение завершено. Новая модель: {NEW_PATH}")
 
-    if category == "NAME": return "УЧЕНЫЙ"
-    if category == "FORMULA" or "$" in word: return "ФОРМУЛА"
-    
-    if any(x in w for x in ["теорем", "лемма", "аксиом", "следстви"]): return "ТЕОРЕМА"
-    if any(x in w for x in ["метод", "алгоритм", "способ", "правило"]): return "МЕТОД"
-    if any(x in w for x in ["пространств", "множеств", "поле", "групп"]): return "ОБЪЕКТ"
-    if any(x in w for x in ["интеграл", "производн", "дифференц", "сумм", "операц"]): return "ОПЕРАЦИЯ"
-    if any(x in w for x in ["аналитическ", "неравенство", "сходимост"]): return "СВОЙСТВО"
-    
-    return "ТЕРМИН"
-
-def extract_entities(text):
-    sentences = re.split(r'(?<=[.!?])\s+', text)
-    all_entities = []
-    global_offset = 0
-
-    for sentence in sentences:
-        if not sentence.strip(): continue
-        
-        inputs = tokenizer(sentence, return_tensors="pt", return_offsets_mapping=True, truncation=True, max_length=512)
-        offsets = inputs.pop("offset_mapping")[0].tolist()
-
-        with torch.no_grad():
-            outputs = model(**inputs)
-        predictions = torch.argmax(outputs.logits, dim=2)[0].tolist()
-
-        current_ent = None
-        for idx, pred_id in enumerate(predictions):
-            label_str = id2label.get(pred_id, "O")
-            start, end = offsets[idx]
-            if start == 0 and end == 0: continue 
-
-            if label_str != "O":
-                cat = label_str.split("-")[1]
-                if current_ent and (cat == current_ent["category"]) and (start <= (current_ent["end"] - global_offset) + 1):
-                    current_ent["end"] = global_offset + end
-                else:
-                    if current_ent: all_entities.append(current_ent)
-                    current_ent = {"category": cat, "start": global_offset + start, "end": global_offset + end}
-            else:
-                if current_ent:
-                    all_entities.append(current_ent)
-                    current_ent = None
-        
-        if current_ent: all_entities.append(current_ent)
-        global_offset += len(sentence) + 1
-
-    final_res = []
-    for ent in all_entities:
-        s, e = ent["start"], ent["end"]
-        while e < len(text) and not text[e].isspace() and text[e] not in ".,!?;:()":
-            e += 1
-            
-        word = text[s:e].strip(".,!?;:() ")
-        sub_type = classify_sub_type(word, ent["category"])
-        
-        if sub_type:
-            final_res.append({"word": word, "type": sub_type, "start": s, "end": e})
-
-    return {"text": text, "entities": final_res}
-
-@app.get("/", response_class=HTMLResponse)
-async def read_index():
-    index_path = os.path.join(BASE_DIR, "index.html")
-    if not os.path.exists(index_path):
-        return f"<h3>Ошибка: Файл index.html не найден по пути {index_path}</h3>"
-    with open(index_path, "r", encoding="utf-8") as f:
-        return f.read()
+@app.get("/")
+async def serve_frontend(): return FileResponse("index.html")
 
 @app.post("/extract")
-async def extract_api(text: str = Form(None), file: UploadFile = File(None)):
-    target_text = ""
-    if file and file.filename:
-        content = await file.read()
-        target_text = content.decode("utf-8")
-    elif text:
-        target_text = text
+async def analyze_text(bg_tasks: BackgroundTasks, text: Optional[str] = Form(None), file: Optional[UploadFile] = File(None)):
+    if file: text = (await file.read()).decode("utf-8")
+    if not text: return {"error": "Нет текста"}
     
-    if not target_text:
-        return {"error": "Текст не предоставлен"}
+    inputs = tokenizer(text, return_tensors="pt", return_offsets_mapping=True, truncation=True, max_length=512)
+    offsets = inputs.pop("offset_mapping")[0]
+    with torch.no_grad(): outputs = model(**inputs)
+    
+    probs = F.softmax(outputs.logits[0], dim=1)
+    preds = torch.argmax(probs, dim=1)
+    id2label = model.config.id2label
+    
+    final_entities, current, min_conf = [], None, 1.0
+    for idx, (pred, prob_t, off) in enumerate(zip(preds, probs, offsets)):
+        s, e = off.tolist()
+        if s == 0 and e == 0: continue
+        label = id2label[pred.item()]
+        p = prob_t[pred.item()].item()
         
-    return extract_entities(target_text)
+        if p < 0.95 and label != "O": continue
+        min_conf = min(min_conf, p)
+        
+        if label == "O":
+            if current: final_entities.append(current)
+            current = None
+        else:
+            t = label.split("-")[-1]
+            if label.startswith("B-") or not current or current["type"] != t:
+                if current: final_entities.append(current)
+                current = {"word": text[s:e], "type": t, "start": s, "end": e}
+            else:
+                current["word"] = text[current["start"]:e]; current["end"] = e
+    if current: final_entities.append(current)
+
+    if min_conf >= CONFIDENCE_THRESHOLD:
+        t_l, g_l = [], []
+        for idx, off in enumerate(offsets):
+            s, e = off.tolist()
+            if s == 0 and e == 0: continue
+            t_l.append(text[s:e]); g_l.append(preds[idx].item())
+        with open(HIDDEN_DATA_FILE, "a", encoding="utf-8") as f:
+            f.write(json.dumps({"tokens": t_l, "ner_tags": g_l}, ensure_ascii=False) + "\n")
+            f.flush()
+        with open(HIDDEN_DATA_FILE, "r", encoding="utf-8") as f:
+            if sum(1 for _ in f if _.strip()) >= RETRAIN_LIMIT: bg_tasks.add_task(background_retrain_task)
+
+    return {"status": "success", "text": text, "entities": final_entities}

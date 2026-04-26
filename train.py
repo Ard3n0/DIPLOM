@@ -1,7 +1,6 @@
 #Для быстрого обучения лучше запустить в Colab с графическим процессором Т4
 #https://colab.research.google.com/drive/1dbbTGjTkn5Vp5WcdzlOLN9-MK9NRaPty?usp=sharing
 
-
 import os
 import json
 import torch
@@ -10,7 +9,7 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification, AdamW
 from tqdm import tqdm
 
 DATA_PATH = "dataset.json"
-MODEL_NAME = "cointegrated/rubert-tiny2"
+MODEL_NAME = "DeepPavlov/rubert-base-cased"
 EPOCHS = 3
 BATCH_SIZE = 8 
 
@@ -74,7 +73,7 @@ def train_model():
     print("Загружаю токенизатор")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     
-    print("Загружаю саму нейросеть RuBERT-tiny2")
+    print("Загружаю саму нейросеть MassBERT")
     model = AutoModelForTokenClassification.from_pretrained(
         MODEL_NAME, 
         num_labels=7, 
@@ -114,10 +113,10 @@ def train_model():
             
         print(f"Средняя ошибка (loss) за эпоху: {total_loss / len(dataloader):.4f}")
 
-    print("Обучение завершено! Сохраняю модель")
-    model.save_pretrained("./saved_model")
-    tokenizer.save_pretrained("./saved_model")
-    print("Модель успешно сохранена в папку ./saved_model")
+    print("Обучение завершено. Сохраняю модель")
+    model.save_pretrained("./my_massbert_model")
+    tokenizer.save_pretrained("./my_massbert_model")
+    print("Модель успешно сохранена в папку ./my_massbert_model")
 
 if __name__ == "__main__":
     train_model()

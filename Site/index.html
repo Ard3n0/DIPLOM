@@ -4,95 +4,73 @@
     <meta charset="UTF-8">
     <title>NER Математика PRO</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; max-width: 1000px; margin: 30px auto; background: #fdfdfd; color: #333; }
+        body { font-family: 'Segoe UI', sans-serif; max-width: 1000px; margin: 30px auto; background: #fdfdfd; }
         .box { background: white; padding: 30px; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        textarea { width: 100%; height: 150px; padding: 12px; border-radius: 8px; border: 1px solid #ccc; box-sizing: border-box; font-size: 16px; }
-        .controls { margin-top: 20px; display: flex; gap: 15px; align-items: center; background: #f8f9fa; padding: 15px; border-radius: 8px; }
+        textarea { width: 100%; height: 150px; padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; }
+        .controls { margin-top: 10px; display: flex; gap: 15px; background: #f8f9fa; padding: 15px; border-radius: 8px; }
         button { background: #1a73e8; color: white; border: none; padding: 10px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; }
-        
         #output { margin-top: 30px; display: none; }
-        .text-preview { background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 10px; line-height: 1.8; font-size: 17px; margin-bottom: 25px; }
-        .highlight { background: #fff3cd; border-bottom: 2px solid #ffc107; padding: 2px 0; }
-
-        .category-block { margin-bottom: 25px; }
-        .category-title { font-weight: bold; font-size: 1.1em; margin-bottom: 12px; padding-bottom: 5px; border-bottom: 2px solid; text-transform: uppercase; }
-        .badge-list { display: flex; flex-wrap: wrap; gap: 10px; }
-        .badge { color: white; padding: 6px 15px; border-radius: 20px; font-size: 14px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-
-        .color-ТЕОРЕМА { color: #2980b9; border-color: #2980b9; } .bg-ТЕОРЕМА { background: #2980b9; }
-        .color-МЕТОД { color: #16a085; border-color: #16a085; } .bg-МЕТОД { background: #16a085; }
-        .color-УЧЕНЫЙ { color: #8e44ad; border-color: #8e44ad; } .bg-УЧЕНЫЙ { background: #8e44ad; }
-        .color-ФОРМУЛА { color: #c0392b; border-color: #c0392b; } .bg-ФОРМУЛА { background: #c0392b; }
-        .color-ОПЕРАЦИЯ { color: #f39c12; border-color: #f39c12; } .bg-ОПЕРАЦИЯ { background: #f39c12; }
-        .color-ОБЪЕКТ { color: #2c3e50; border-color: #2c3e50; } .bg-ОБЪЕКТ { background: #2c3e50; }
-        .color-СВОЙСТВО { color: #27ae60; border-color: #27ae60; } .bg-СВОЙСТВО { background: #27ae60; }
-        .color-ТЕРМИН { color: #7f8c8d; border-color: #7f8c8d; } .bg-ТЕРМИН { background: #7f8c8d; }
+        .text-preview { background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 10px; line-height: 1.8; font-size: 17px; }
+        .highlight { background: #fff3cd; border-bottom: 2px solid #ffc107; }
+        .category-block { margin-top: 20px; }
+        .category-title { font-weight: bold; text-transform: uppercase; padding-bottom: 5px; margin-bottom: 10px; }
+        .badge-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .badge { padding: 5px 12px; border-radius: 15px; font-size: 13px; font-weight: bold; }
     </style>
 </head>
 <body>
     <div class="box">
-        <h2>NER Анализатор: Группировка по категориям</h2>
+        <h2>Разметка</h2>
         <form id="f">
-            <textarea id="t" placeholder="Вставьте текст или выберите файл..."></textarea>
+            <textarea id="t" placeholder="Введите текст..."></textarea>
             <div class="controls">
                 <input type="file" id="i" accept=".txt">
                 <button type="submit">Анализировать</button>
             </div>
         </form>
-
         <div id="output">
             <div class="text-preview" id="text-out"></div>
-            <div id="categories-container"></div>
+            <div id="cats"></div>
         </div>
     </div>
 
     <script>
         document.getElementById('f').onsubmit = async (e) => {
             e.preventDefault();
-            const outBox = document.getElementById('output');
-            const textOut = document.getElementById('text-out');
-            const catsContainer = document.getElementById('categories-container');
-            
-            const file = document.getElementById('i').files[0];
             const formData = new FormData();
+            const file = document.getElementById('i').files[0];
             if (file) formData.append("file", file);
             else formData.append("text", document.getElementById('t').value);
 
-            const r = await fetch('/extract', {method: 'POST', body: formData});
+            const r = await fetch('/extract', { method: 'POST', body: formData });
             const d = await r.json();
 
-            let htmlText = d.text;
-            const sortedEnts = [...d.entities].sort((a,b) => b.start - a.start);
-            sortedEnts.forEach(ent => {
-                const word = htmlText.substring(ent.start, ent.end);
-                htmlText = htmlText.substring(0, ent.start) + `<span class="highlight">${word}</span>` + htmlText.substring(ent.end);
+            let txt = d.text;
+            [...d.entities].sort((a,b) => b.start - a.start).forEach(en => {
+                txt = txt.slice(0, en.start) + `<span class="highlight">${txt.slice(en.start, en.end)}</span>` + txt.slice(en.end);
             });
-            textOut.innerHTML = `<strong>Размеченный текст:</strong><br>${htmlText}`;
+            document.getElementById('text-out').innerHTML = txt;
 
             const groups = {};
-            d.entities.forEach(ent => {
-                if (!groups[ent.type]) groups[ent.type] = [];
-                if (!groups[ent.type].includes(ent.word)) groups[ent.type].push(ent.word);
+            const labelsMap = { "NAME": "ОСНОВНОЕ ПОНЯТИЕ", "TERM": "МАТЕМАТИЧЕСКИЙ ТЕРМИН" };
+
+            d.entities.forEach(en => {
+                if (en.word.length < 3) return;
+                const type = labelsMap[en.type.replace(/[BI]-/, "")] || en.type;
+                if (!groups[type]) groups[type] = [];
+                if (!groups[type].includes(en.word)) groups[type].push(en.word);
             });
 
-            catsContainer.innerHTML = '';
-            const typeOrder = ['УЧЕНЫЙ', 'ТЕОРЕМА', 'МЕТОД', 'ФОРМУЛА', 'ОПЕРАЦИЯ', 'ОБЪЕКТ', 'СВОЙСТВО', 'ТЕРМИН'];
-            
-            typeOrder.forEach(type => {
-                if (groups[type]) {
-                    const section = document.createElement('div');
-                    section.className = 'category-block';
-                    section.innerHTML = `
-                        <div class="category-title color-${type}">${type}</div>
-                        <div class="badge-list">
-                            ${groups[type].map(word => `<span class="badge bg-${type}">${word}</span>`).join('')}
-                        </div>
-                    `;
-                    catsContainer.appendChild(section);
-                }
+            const cont = document.getElementById('cats');
+            cont.innerHTML = '';
+            Object.keys(groups).forEach(type => {
+                cont.innerHTML += `
+                    <div class="category-block">
+                        <div class="category-title" style="color:#1a73e8; border-bottom:2px solid #1a73e8">${type}</div>
+                        <div class="badge-list">${groups[type].map(w => `<span class="badge" style="background:#e8f0fe; color:#1a73e8; border:1px solid #1a73e8">${w}</span>`).join('')}</div>
+                    </div>`;
             });
-
-            outBox.style.display = 'block';
+            document.getElementById('output').style.display = 'block';
         };
     </script>
 </body>
