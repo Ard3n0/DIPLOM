@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>NER Математика PRO</title>
+    <title>Math NER PRO</title>
     <style>
         body { font-family: 'Segoe UI', sans-serif; max-width: 1000px; margin: 30px auto; background: #fdfdfd; }
         .box { background: white; padding: 30px; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
@@ -12,17 +12,27 @@
         #output { margin-top: 30px; display: none; }
         .text-preview { background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 10px; line-height: 1.8; font-size: 17px; }
         .highlight { background: #fff3cd; border-bottom: 2px solid #ffc107; }
-        .category-block { margin-top: 20px; }
-        .category-title { font-weight: bold; text-transform: uppercase; padding-bottom: 5px; margin-bottom: 10px; }
+        .category-block { margin-top: 25px; }
+        .category-title { font-weight: bold; text-transform: uppercase; padding-bottom: 5px; margin-bottom: 12px; font-size: 1.1em; }
         .badge-list { display: flex; flex-wrap: wrap; gap: 8px; }
-        .badge { padding: 5px 12px; border-radius: 15px; font-size: 13px; font-weight: bold; }
+        .badge { padding: 6px 14px; border-radius: 15px; font-size: 14px; font-weight: bold; }
+        
+
+        .color-TERM { color: #0f9d58; border-bottom: 2px solid #0f9d58; }
+        .bg-TERM { background: #e6f4ea; color: #0f9d58; border: 1px solid #0f9d58; }
+        
+        .color-NAME { color: #1a73e8; border-bottom: 2px solid #1a73e8; }
+        .bg-NAME { background: #e8f0fe; color: #1a73e8; border: 1px solid #1a73e8; }
+        
+        .color-FORMULA { color: #9c27b0; border-bottom: 2px solid #9c27b0; }
+        .bg-FORMULA { background: #f3e5f5; color: #9c27b0; border: 1px solid #9c27b0; }
     </style>
 </head>
 <body>
     <div class="box">
-        <h2>Разметка</h2>
+        <h2>Математический NER Анализатор</h2>
         <form id="f">
-            <textarea id="t" placeholder="Введите текст..."></textarea>
+            <textarea id="t" placeholder="Вставьте математический текст с теоремами, терминами и формулами..."></textarea>
             <div class="controls">
                 <input type="file" id="i" accept=".txt">
                 <button type="submit">Анализировать</button>
@@ -52,23 +62,38 @@
             document.getElementById('text-out').innerHTML = txt;
 
             const groups = {};
-            const labelsMap = { "NAME": "ОСНОВНОЕ ПОНЯТИЕ", "TERM": "МАТЕМАТИЧЕСКИЙ ТЕРМИН" };
+            const labelsMap = { 
+                "TERM": "МАТЕМАТИЧЕСКИЙ ТЕРМИН", 
+                "NAME": "УЧЕНЫЙ / АВТОР", 
+                "FORMULA": "ФОРМУЛА / ВЫРАЖЕНИЕ" 
+            };
 
             d.entities.forEach(en => {
-                if (en.word.length < 3) return;
-                const type = labelsMap[en.type.replace(/[BI]-/, "")] || en.type;
-                if (!groups[type]) groups[type] = [];
-                if (!groups[type].includes(en.word)) groups[type].push(en.word);
+                if (en.word.length < 2) return; // Убираем одиночные буквы, если это не формула
+                const rawType = en.type.replace(/[BI]-/, "");
+                const prettyType = labelsMap[rawType] || rawType;
+                
+                if (!groups[rawType]) groups[rawType] = { name: prettyType, words: [] };
+                if (!groups[rawType].words.includes(en.word)) groups[rawType].words.push(en.word);
             });
 
             const cont = document.getElementById('cats');
             cont.innerHTML = '';
-            Object.keys(groups).forEach(type => {
-                cont.innerHTML += `
-                    <div class="category-block">
-                        <div class="category-title" style="color:#1a73e8; border-bottom:2px solid #1a73e8">${type}</div>
-                        <div class="badge-list">${groups[type].map(w => `<span class="badge" style="background:#e8f0fe; color:#1a73e8; border:1px solid #1a73e8">${w}</span>`).join('')}</div>
-                    </div>`;
+            
+
+            const order = ["NAME", "TERM", "FORMULA"];
+            
+            order.forEach(typeKey => {
+                if (groups[typeKey]) {
+                    const data = groups[typeKey];
+                    cont.innerHTML += `
+                        <div class="category-block">
+                            <div class="category-title color-${typeKey}">${data.name}</div>
+                            <div class="badge-list">
+                                ${data.words.map(w => `<span class="badge bg-${typeKey}">${w}</span>`).join('')}
+                            </div>
+                        </div>`;
+                }
             });
             document.getElementById('output').style.display = 'block';
         };
