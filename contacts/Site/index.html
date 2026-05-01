@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Математический NER Анализатор</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 1000px; margin: 30px auto; background: #fdfdfd; color: #333; }
+        .box { background: white; padding: 30px; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        textarea { width: 100%; height: 180px; padding: 15px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; line-height: 1.5; resize: vertical; margin-bottom: 15px; }
+        .controls { display: flex; gap: 15px; background: #f8f9fa; padding: 15px; border-radius: 8px; align-items: center; }
+        button { background: #1a73e8; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 15px; transition: 0.2s; }
+        button:hover { background: #1557b0; box-shadow: 0 2px 8px rgba(26,115,232,0.3); }
+        #output { margin-top: 35px; display: none; }
+        .text-preview { background: #fff; padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px; line-height: 2; font-size: 18px; }
+        .highlight { border-bottom: 3px solid #ffc107; background: rgba(255, 193, 7, 0.1); padding: 2px 0; border-radius: 2px; }
+        .category-block { margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; }
+        .category-title { font-weight: bold; text-transform: uppercase; margin-bottom: 15px; font-size: 0.9em; letter-spacing: 1px; }
+        .badge-list { display: flex; flex-wrap: wrap; gap: 10px; }
+        .badge { padding: 6px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; }
+        
+        .color-TERM { color: #2e7d32; } .bg-TERM { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+        .color-NAME { color: #1565c0; } .bg-NAME { background: #e3f2fd; color: #1565c0; border: 1px solid #90caf9; }
+        .color-FORMULA { color: #7b1fa2; } .bg-FORMULA { background: #f3e5f5; color: #7b1fa2; border: 1px solid #ce93d8; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Математический NER Анализатор</h2>
+        <form id="ner-form">
+            <textarea id="input-text" placeholder="Введите текст... Пример: Эйлер вывел формулу e^(ix)=cos(x)+isin(x)"></textarea>
+            <div class="controls">
+                <input type="file" id="file-input" accept=".txt">
+                <button type="submit">Анализировать текст</button>
+            </div>
+        </form>
+        <div id="output">
+            <div class="text-preview" id="text-out"></div>
+            <div id="entities-container"></div>
+        </div>
+    </div>
+
+    <script>
+        const LABELS = { "TERM": "Математический термин", "NAME": "Ученый / Автор", "FORMULA": "Формула / Выражение" };
+        const ORDER = ["NAME", "TERM", "FORMULA"];
+
+        document.getElementById('ner-form').onsubmit = async (e) => {
+            e.preventDefault();
+            const formData = new FormData();
+            const file = document.getElementById('file-input').files[0];
+            if (file) formData.append("file", file);
+            else formData.append("text", document.getElementById('input-text').value);
+
+            const response = await fetch('/extract', { method: 'POST', body: formData });
+            const data = await response.json();
+
+            if (data.error) { alert(data.error); return; }
+
+            let highlighted = data.text;
+            [...data.entities].sort((a,b) => b.start - a.start).forEach(en => {
+                highlighted = highlighted.slice(0, en.start) + `<span class="highlight">${highlighted.slice(en.start, en.end)}</span>` + highlighted.slice(en.end);
+            });
+            document.getElementById('text-out').innerHTML = highlighted;
+
+            const groups = {};
+            data.entities.forEach(en => {
+                if (!groups[en.type]) groups[en.type] = [];
+                if (!groups[en.type].includes(en.word)) groups[en.type].push(en.word);
+            });
+
+            const container = document.getElementById('entities-container');
+            container.innerHTML = '';
+            ORDER.forEach(type => {
+                if (groups[type]) {
+                    container.innerHTML += `
+                        <div class="category-block">
+                            <div class="category-title color-${type}">${LABELS[type]}</div>
+                            <div class="badge-list">
+                                ${groups[type].map(w => `<span class="badge bg-${type}">${w}</span>`).join('')}
+                            </div>
+                        </div>`;
+                }
+            });
+            document.getElementById('output').style.display = 'block';
+        };
+    </script>
+</body>
+</html>

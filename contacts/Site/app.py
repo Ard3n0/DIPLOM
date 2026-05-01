@@ -12,14 +12,11 @@ from datasets import Dataset
 
 app = FastAPI()
 
-APP_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.dirname(APP_DIR)
+DIPLOMA_PATH = "D:/Диплом"
+BASE_MODEL_PATH = os.path.join(DIPLOMA_PATH, "saved_model")
+HIDDEN_DATA_FILE = "autonomous_dataset.jsonl"
 
-BASE_MODEL_PATH = os.path.join(DATA_DIR, "saved_model")
-HIDDEN_DATA_FILE = os.path.join(DATA_DIR, "autonomous_dataset.jsonl")
-FRONTEND_FILE = os.path.join(APP_DIR, "index.html")
-
-CONFIDENCE_THRESHOLD = 0.50
+CONFIDENCE_THRESHOLD = 0.0
 RETRAIN_LIMIT = 50
 
 LABEL_LIST = ["O", "B-TERM", "I-TERM", "B-NAME", "I-NAME", "B-FORMULA", "I-FORMULA"]
@@ -27,16 +24,13 @@ LABEL2ID = {l: i for i, l in enumerate(LABEL_LIST)}
 ID2LABEL = {i: l for i, l in enumerate(LABEL_LIST)}
 
 def get_latest_model_path():
-    if not os.path.exists(DATA_DIR): return BASE_MODEL_PATH
-    folders = [os.path.join(DATA_DIR, d) for d in os.listdir(DATA_DIR) if "model_checkpoint_" in d]
+    if not os.path.exists(DIPLOMA_PATH): return BASE_MODEL_PATH
+    folders = [os.path.join(DIPLOMA_PATH, d) for d in os.listdir(DIPLOMA_PATH) if "model_checkpoint_" in d]
     if folders:
         return max(folders, key=os.path.getmtime)
     return BASE_MODEL_PATH
 
 CURRENT_MODEL_PATH = get_latest_model_path()
-
-if not os.path.exists(CURRENT_MODEL_PATH):
-    raise FileNotFoundError(f"Directory not found: {CURRENT_MODEL_PATH}")
 
 tokenizer = AutoTokenizer.from_pretrained(CURRENT_MODEL_PATH)
 model = AutoModelForTokenClassification.from_pretrained(
@@ -81,7 +75,7 @@ def background_retrain_task():
 
     tds = train_ds.map(tokenize_and_align, batched=True)
     ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    NEW_PATH = os.path.join(DATA_DIR, f"model_checkpoint_{ts}")
+    NEW_PATH = os.path.join(DIPLOMA_PATH, f"model_checkpoint_{ts}")
 
     args = TrainingArguments(
         output_dir=NEW_PATH,
@@ -102,14 +96,12 @@ def background_retrain_task():
 
 @app.get("/")
 async def serve_frontend(): 
-    if not os.path.exists(FRONTEND_FILE):
-        return {"error": f"Not found: {FRONTEND_FILE}"}
-    return FileResponse(FRONTEND_FILE)
+    return FileResponse("index.html")
 
 @app.post("/extract")
 async def analyze_text(bg_tasks: BackgroundTasks, text: Optional[str] = Form(None), file: Optional[UploadFile] = File(None)):
     if file: text = (await file.read()).decode("utf-8")
-    if not text: return {"error": "No text provided"}
+    if not text: return {"error": "Текст не предоставлен"}
 
     text = text.replace("<", "＜").replace(">", "＞")
 
