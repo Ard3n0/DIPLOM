@@ -11,7 +11,7 @@ DATA_PATH = "dataset.json"
 MAX_LENGTH = 512
 BATCH_SIZE = 8 
 
-print(f"[*] Инициализация валидатора. Модель: {MODEL_PATH}")
+print(f"Инициализация валидатора. Модель: {MODEL_PATH}")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH)
 model.eval()
@@ -58,7 +58,7 @@ def tokenize_and_align(examples):
     tokenized_inputs["labels"] = labels
     return tokenized_inputs
 
-print("[*] Перезапуск токенизации с выравниванием...")
+print("Перезапуск токенизации с выравниванием")
 test_dataset = test_raw.map(
     tokenize_and_align,
     batched=True,
@@ -67,7 +67,7 @@ test_dataset = test_raw.map(
 )
 test_dataset.set_format("torch")
 
-print("[*] Токенизация тестового сплита (эти данные модель не видела)...")
+print("Токенизация")
 test_dataset = test_raw.map(tokenize_and_align, batched=True, remove_columns=raw_ds.column_names)
 test_dataset.set_format("torch")
 
@@ -78,7 +78,7 @@ test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=BATCH_SIZE, c
 all_preds = []
 all_labels = []
 
-print("[*] Прогон через нейросеть...")
+print("Прогон через нейросеть")
 for batch in tqdm(test_loader):
     with torch.no_grad():
         inputs = {k: v.to(model.device) for k, v in batch.items() if k != "labels"}
@@ -96,7 +96,7 @@ for batch in tqdm(test_loader):
 results = metric.compute(predictions=all_preds, references=all_labels)
 
 print("\n" + "="*50)
-print("ДАННЫЕ ДЛЯ ЗАЩИТЫ ДИПЛОМА (30% HOLD-OUT DATA):")
+print("Результаты")
 print(f"Общая точность (Precision): {results['overall_precision']:.4f}")
 print(f"Полнота (Recall):           {results['overall_recall']:.4f}")
 print(f"F1-мера (F1-Score):        {results['overall_f1']:.4f}")

@@ -3,7 +3,7 @@ import json
 DATA_PATH = "dataset.json"
 
 def find_json_break():
-    print(f"Сканирование {DATA_PATH} на предмет структурных повреждений")
+    print(f"Сканирование {DATA_PATH}")
     try:
         with open(DATA_PATH, 'r', encoding='utf-8') as f:
             line_idx = 0
