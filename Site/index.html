@@ -4,41 +4,59 @@
     <meta charset="UTF-8">
     <title>Math NER PRO</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; max-width: 1000px; margin: 30px auto; background: #fdfdfd; }
+        body { font-family: 'Segoe UI', sans-serif; max-width: 1000px; margin: 30px auto; background: #fdfdfd; color: #333; }
         .box { background: white; padding: 30px; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        textarea { width: 100%; height: 150px; padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; }
-        .controls { margin-top: 10px; display: flex; gap: 15px; background: #f8f9fa; padding: 15px; border-radius: 8px; }
-        button { background: #1a73e8; color: white; border: none; padding: 10px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; }
+        textarea { width: 100%; height: 150px; padding: 12px; border-radius: 8px; border: 1px solid #ccc; font-size: 16px; box-sizing: border-box; }
+        .controls { margin-top: 15px; display: flex; gap: 15px; background: #f8f9fa; padding: 15px; border-radius: 8px; }
+        button { background: #1a73e8; color: white; border: none; padding: 10px 25px; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 15px; }
         #output { margin-top: 30px; display: none; }
-        .text-preview { background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 10px; line-height: 1.8; font-size: 17px; }
-        .highlight { background: #fff3cd; border-bottom: 2px solid #ffc107; }
-        .category-block { margin-top: 25px; }
-        .category-title { font-weight: bold; text-transform: uppercase; padding-bottom: 5px; margin-bottom: 12px; font-size: 1.1em; }
-        .badge-list { display: flex; flex-wrap: wrap; gap: 8px; }
-        .badge { padding: 6px 14px; border-radius: 15px; font-size: 14px; font-weight: bold; }
+        .text-preview { background: #fff; padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px; line-height: 2.2; font-size: 18px; }
         
+        .hl-entity { padding: 2px 6px; border-radius: 4px; font-weight: bold; margin: 0 2px; }
+        
+        .hl-FORMULA { background: #f3e5f5; color: #9c27b0; border: 1px solid #9c27b0; }
+        .hl-OPERATOR { background: #e1f5fe; color: #0288d1; border: 1px solid #0288d1; }
+        .hl-VAR { background: #fff8e1; color: #f57f17; border: 1px solid #f57f17; }
+        .hl-TERM { background: #e8f5e9; color: #2e7d32; border: 1px solid #2e7d32; }
+        .hl-THEOREM { background: #fbe9e7; color: #d84315; border: 1px solid #d84315; }
+        .hl-NAME { background: #e8f0fe; color: #1a73e8; border: 1px solid #1a73e8; }
 
-        .color-TERM { color: #0f9d58; border-bottom: 2px solid #0f9d58; }
-        .bg-TERM { background: #e6f4ea; color: #0f9d58; border: 1px solid #0f9d58; }
+        .category-block { margin-top: 20px; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px solid #f0f0f0; }
+        .category-title { font-weight: bold; text-transform: uppercase; margin-bottom: 10px; font-size: 13px; letter-spacing: 0.5px; }
+        .badge-list { display: flex; flex-wrap: wrap; gap: 8px; }
+        .badge { padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: bold; }
         
-        .color-NAME { color: #1a73e8; border-bottom: 2px solid #1a73e8; }
-        .bg-NAME { background: #e8f0fe; color: #1a73e8; border: 1px solid #1a73e8; }
-        
-        .color-FORMULA { color: #9c27b0; border-bottom: 2px solid #9c27b0; }
+        .color-FORMULA { color: #9c27b0; }
         .bg-FORMULA { background: #f3e5f5; color: #9c27b0; border: 1px solid #9c27b0; }
+        
+        .color-OPERATOR { color: #0288d1; }
+        .bg-OPERATOR { background: #e1f5fe; color: #0288d1; border: 1px solid #0288d1; }
+        
+        .color-VAR { color: #f57f17; }
+        .bg-VAR { background: #fff8e1; color: #f57f17; border: 1px solid #f57f17; }
+        
+        .color-TERM { color: #2e7d32; }
+        .bg-TERM { background: #e8f5e9; color: #2e7d32; border: 1px solid #2e7d32; }
+        
+        .color-THEOREM { color: #d84315; }
+        .bg-THEOREM { background: #fbe9e7; color: #d84315; border: 1px solid #d84315; }
+        
+        .color-NAME { color: #1a73e8; }
+        .bg-NAME { background: #e8f0fe; color: #1a73e8; border: 1px solid #1a73e8; }
     </style>
 </head>
 <body>
     <div class="box">
         <h2>Математический NER Анализатор</h2>
         <form id="f">
-            <textarea id="t" placeholder="Вставьте математический текст с теоремами, терминами и формулами..."></textarea>
+            <textarea id="t" placeholder="Введите текст"></textarea>
             <div class="controls">
                 <input type="file" id="i" accept=".txt">
                 <button type="submit">Анализировать</button>
             </div>
         </form>
         <div id="output">
+            <h3>Результат разметки:</h3>
             <div class="text-preview" id="text-out"></div>
             <div id="cats"></div>
         </div>
@@ -56,41 +74,46 @@
             const d = await r.json();
 
             let txt = d.text;
-            [...d.entities].sort((a,b) => b.start - a.start).forEach(en => {
-                txt = txt.slice(0, en.start) + `<span class="highlight">${txt.slice(en.start, en.end)}</span>` + txt.slice(en.end);
+            const sortedEntities = [...d.entities].sort((a, b) => b.start - a.start);
+            sortedEntities.forEach(en => {
+                const prefix = `<span class="hl-entity hl-${en.type.toUpperCase()}">`;
+                const suffix = `</span>`;
+                txt = txt.slice(0, en.start) + prefix + txt.slice(en.start, en.end) + suffix + txt.slice(en.end);
             });
             document.getElementById('text-out').innerHTML = txt;
 
             const groups = {};
             const labelsMap = { 
-                "TERM": "МАТЕМАТИЧЕСКИЙ ТЕРМИН", 
-                "NAME": "УЧЕНЫЙ / АВТОР", 
-                "FORMULA": "ФОРМУЛА / ВЫРАЖЕНИЕ" 
+                "FORMULA": "ФОРМУЛЫ И МАТЕМАТИЧЕСКИЕ ВЫРАЖЕНИЯ",
+                "OPERATOR": "МАТЕМАТИЧЕСКИЕ ОПЕРАТОРЫ",
+                "VAR": "МАТЕМАТИЧЕСКИЕ ПЕРЕМЕННЫЕ",
+                "TERM": "ПРОФИЛЬНЫЕ НАУЧНЫЕ ТЕРМИНЫ", 
+                "THEOREM": "ТЕОРЕМЫ, АКСИОМЫ И ЛЕММЫ",
+                "NAME": "УЧЕНЫЕ И АВТОРЫ ПУБЛИКАЦИЙ"
             };
 
             d.entities.forEach(en => {
-                if (en.word.length < 2) return; // Убираем одиночные буквы, если это не формула
-                const rawType = en.type.replace(/[BI]-/, "");
-                const prettyType = labelsMap[rawType] || rawType;
-                
-                if (!groups[rawType]) groups[rawType] = { name: prettyType, words: [] };
-                if (!groups[rawType].words.includes(en.word)) groups[rawType].words.push(en.word);
+                const tKey = en.type.toUpperCase().strip ? en.type.toUpperCase().strip() : en.type.toUpperCase();
+                if (!groups[tKey]) {
+                    groups[tKey] = { name: labelsMap[tKey] || tKey, words: [] };
+                }
+                const cleanWord = en.word.replace(/\$/g, "").trim();
+                if (cleanWord && !groups[tKey].words.includes(cleanWord)) {
+                    groups[tKey].words.push(cleanWord);
+                }
             });
 
             const cont = document.getElementById('cats');
             cont.innerHTML = '';
             
-
-            const order = ["NAME", "TERM", "FORMULA"];
-            
+            const order = ["FORMULA", "OPERATOR", "VAR", "TERM", "THEOREM", "NAME"];
             order.forEach(typeKey => {
-                if (groups[typeKey]) {
-                    const data = groups[typeKey];
+                if (groups[typeKey] && groups[typeKey].words.length > 0) {
                     cont.innerHTML += `
                         <div class="category-block">
-                            <div class="category-title color-${typeKey}">${data.name}</div>
+                            <div class="category-title color-${typeKey}">${groups[typeKey].name}</div>
                             <div class="badge-list">
-                                ${data.words.map(w => `<span class="badge bg-${typeKey}">${w}</span>`).join('')}
+                                ${groups[typeKey].words.map(w => `<span class="badge bg-${typeKey}">${w}</span>`).join('')}
                             </div>
                         </div>`;
                 }

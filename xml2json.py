@@ -12,7 +12,7 @@ else:
     exit()
 
 print(f"Найдена папка с данными")
-OUTPUT_FILE = Path("dataset_restored.json")
+OUTPUT_FILE = Path("dataset.json")
 
 def build_ner_dataset():
     dataset = []

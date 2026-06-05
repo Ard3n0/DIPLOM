@@ -22,7 +22,7 @@ DATA_PATH = "dataset.json"
 OUTPUT_DIR = "./math_ner_weighted"       
 MAX_LENGTH = 512
 BATCH_SIZE = 8
-EPOCHS = 4                              
+EPOCHS = 15                              
 LEARNING_RATE = 2e-5
 
 set_seed(42)
@@ -79,7 +79,15 @@ def main():
     )
 
     raw_ds = Dataset.from_list(raw_data)
-    ds_split = raw_ds.train_test_split(test_size=0.3, seed=42)
+    ds_train_and_temp = raw_ds.train_test_split(test_size=0.3, seed=42)
+    ds_val_and_test = ds_train_and_temp["test"].train_test_split(test_size=0.5, seed=42)
+
+    from datasets import DatasetDict
+    ds_split = DatasetDict({
+        "train": ds_train_and_temp["train"],
+        "validation": ds_val_and_test["train"],
+        "test": ds_val_and_test["test"]
+    })
 
     def tokenize_and_align(examples):
         tokenized_inputs = tokenizer(
@@ -175,7 +183,7 @@ def main():
         model=model,
         args=training_args,
         train_dataset=tokenized_ds["train"],
-        eval_dataset=tokenized_ds["test"],
+        eval_dataset=tokenized_ds["validation"],
         data_collator=data_collator,
         compute_metrics=compute_metrics
     )
