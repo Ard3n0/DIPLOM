@@ -15,7 +15,7 @@ from datasets import Dataset
 APP_DIR = Path(__file__).resolve().parent
 BASE_DIR = APP_DIR.parent
 
-MODEL_DIR = BASE_DIR / "math_ner_weighted" 
+MODEL_DIR = BASE_DIR / "models" 
 HIDDEN_DATA_FILE = BASE_DIR / "autonomous_dataset.jsonl"
 FRONTEND_FILE = APP_DIR / "index.html"
 

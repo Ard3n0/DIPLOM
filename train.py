@@ -19,7 +19,7 @@ from transformers import (
 
 MODEL_NAME = "cointegrated/rubert-tiny2"
 DATA_PATH = "dataset.json"              
-OUTPUT_DIR = "./math_ner_weighted"       
+OUTPUT_DIR = "./models"       
 MAX_LENGTH = 512
 BATCH_SIZE = 8
 EPOCHS = 15                              

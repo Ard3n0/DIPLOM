@@ -6,7 +6,7 @@ from datasets import Dataset
 import evaluate
 import numpy as np
 
-MODEL_PATH = "./math_ner_weighted"
+MODEL_PATH = "./models"
 DATA_PATH = "dataset.json"
 MAX_LENGTH = 512
 BATCH_SIZE = 8 
@@ -25,6 +25,7 @@ label2id = model.config.label2id
 print("Загрузка данных")
 raw_ds = Dataset.from_json(DATA_PATH)
 ds_split = raw_ds.train_test_split(test_size=0.3, seed=42)
+ds_val_and_test = ds_split["test"].train_test_split(test_size=0.5, seed=42)
 test_raw = ds_split["test"]
 
 def tokenize_and_align(examples):
@@ -95,13 +96,14 @@ for batch in tqdm(test_loader):
 
 results = metric.compute(predictions=all_preds, references=all_labels)
 
-print("\n" + "="*50)
-print("Результаты")
-print(f"Общая точность (Precision): {results['overall_precision']:.4f}")
-print(f"Полнота (Recall):           {results['overall_recall']:.4f}")
-print(f"F1-мера (F1-Score):        {results['overall_f1']:.4f}")
-print(f"Accuracy:                  {results['overall_accuracy']:.4f}")
-print("="*50)
+if "REF" not in results:
+    results["REF"] = {"f1": 0.0, "precision": 0.0, "recall": 0.0, "number": 0}
+
+
+print(f"Precision: {results['overall_precision']:.4f}")
+print(f"Recall:    {results['overall_recall']:.4f}")
+print(f"F1-Score:  {results['overall_f1']:.4f}")
+print(f"Accuracy:  {results['overall_accuracy']:.4f}")
 
 for key, value in results.items():
     if isinstance(value, dict):
