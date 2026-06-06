@@ -6,10 +6,13 @@ from datasets import Dataset
 import evaluate
 import numpy as np
 
+import datasets.formatting.torch_formatter as tg
+tg.config.TORCHVISION_AVAILABLE = False
+
 MODEL_PATH = "./models"
 DATA_PATH = "dataset.json"
 MAX_LENGTH = 512
-BATCH_SIZE = 8 
+BATCH_SIZE = 8
 
 print(f"Инициализация валидатора. Модель: {MODEL_PATH}")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
@@ -26,10 +29,9 @@ print("Загрузка данных")
 raw_ds = Dataset.from_json(DATA_PATH)
 ds_split = raw_ds.train_test_split(test_size=0.3, seed=42)
 ds_val_and_test = ds_split["test"].train_test_split(test_size=0.5, seed=42)
-test_raw = ds_split["test"]
+test_raw = ds_val_and_test["test"]
 
 def tokenize_and_align(examples):
-
     tokenized_inputs = tokenizer(
         examples["text"],
         truncation=True,
@@ -44,7 +46,6 @@ def tokenize_and_align(examples):
         entities = examples["entities"][i]
 
         for idx, (start, end) in enumerate(offsets):
-
             if start == end == 0:
                 doc_labels[idx] = -100
                 continue
@@ -66,10 +67,6 @@ test_dataset = test_raw.map(
     remove_columns=raw_ds.column_names,
     load_from_cache_file=False
 )
-test_dataset.set_format("torch")
-
-print("Токенизация")
-test_dataset = test_raw.map(tokenize_and_align, batched=True, remove_columns=raw_ds.column_names)
 test_dataset.set_format("torch")
 
 metric = evaluate.load("seqeval")
@@ -95,10 +92,6 @@ for batch in tqdm(test_loader):
         all_labels.append(true_l)
 
 results = metric.compute(predictions=all_preds, references=all_labels)
-
-if "REF" not in results:
-    results["REF"] = {"f1": 0.0, "precision": 0.0, "recall": 0.0, "number": 0}
-
 
 print(f"Precision: {results['overall_precision']:.4f}")
 print(f"Recall:    {results['overall_recall']:.4f}")
