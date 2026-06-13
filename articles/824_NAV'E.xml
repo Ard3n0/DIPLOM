@@ -1,0 +1,519 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/824_NAV'E" alphabetic_pos="824">
+  <title>НАВЬЕ - СТОКСА УРАВНЕНИЯ</title>
+  <authors>
+    <author>B. М. Пасконов</author>
+  </authors>
+  <pages>
+    <start>425</start>
+    <end>428</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] N a v i e r, «mém. Acad., sci.&quot;, 1827, t. 7, p. 375-94; [2] Po is s on S. D., &quot;j. Ecole polytechn.&quot;, 1831, t. 13, p. 1-174; G. G., &quot;trans. Cambr. Phil. Soc.», 1849, v. 8, p. 287-319; [5] Iii ли и т и н $\boldsymbol{\text { г }}$ Г., теория пограничного слоя, пер. с нем., М., 1974; [6] т о м А., Э й п л т К., Числовые расчеты полей в технике и физике, пер. с англ., М. -Л., 1964; [7] Б р а и л о ввычислительные методы и программирование, в. 11, м., 1968, c. 3-18; [8] Я н е н к о Н. Н., Методы дробных шагов решения многомерных задач математической физики, Новосиб., 1967; 1974 , т. 219 , N2 2, c. $301-04$; [10] С a м а р с к и й А. А., «ж. вычисл. матем. и матем. физики», 1965 , т. 5, с. 548-51; [11] К о в е н я В. М., Я н е н к о Н. Н., Метод расщепления в задачах газовой динамики, Новосиб.. 1981; [12] Толстых А. И.,![](https://cdn.mathpix.com/cropped/2023_07_08_9a355b7b0893e4c785b0g-1.jpg?height=47&amp;width=836&amp;top_left_y=2070&amp;top_left_x=986)П а с к о н о в В. М., Численное исследование сверхзвукового обтекания тел вязким газом, М., 1980; [14] Т е м а м Р., Уравнения Навье - Стокса. Теория и численный анализ, пер. с англ., М., 1981 ; [15] Численно е исследование современных задач газовой динамики, М., 1974; [16] Р о уч П. Д ж., Вычи-![](https://cdn.mathpix.com/cropped/2023_07_08_9a355b7b0893e4c785b0g-1.jpg?height=47&amp;width=838&amp;top_left_y=2224&amp;top_left_x=985)R e y r e t R., V i v i a n d H., &quot;lect. Notes Comput. Sci.»,1974 , № 11, p. 160-84; [18] B u rg g r a f O. R., «lect. Notes Phys.», 1976, [№ 59], p. 52-64. $\quad$</literature_orig>
+    <unit>
+      <title>N a v i e r</title>
+      <publication>sci.&quot;</publication>
+      <year>1827</year>
+      <other>«mém. Acad., t. 7, p. 375-94</other>
+    </unit>
+    <unit>
+      <author>Poisson S. D.</author>
+      <title>&quot;j. Ecole polytechn.&quot;</title>
+      <publication/>
+      <year>1831</year>
+      <other>t. 13, p. 1-174; G. G., &quot;trans. Cambr. Phil. Soc.», 1849, v. 8, p. 287-319; [5] Iii ли и т и н $\boldsymbol{\text { г }}$ Г., теория пограничного слоя, пер. с нем., М., 1974; [6] т о м А., Э й п л т К., Числовые расчеты полей в технике и физике, пер. с англ., М. -Л., 1964; [7] Б р а и л о ввычислительные методы и программирование, в. 11, м., 1968, c. 3-18; [8] Я н е н к о Н. Н., Методы дробных шагов решения многомерных задач математической физики, Новосиб., 1967; 1974, т. 219, N2 2, c. $301-04$; [10] С a м а р с к и й А. А., «ж. вычисл. матем. и матем. физики», 1965, т. 5, с. 548-51; [11] К о в е н я В. М., Я н е н к о Н. Н., Метод расщепления в задачах газовой динамики, Новосиб.. 1981; [12] Толстых А. И., ![](https://cdn.mathpix.com/cropped/2023_07_08_9a355b7b0893e4c785b0g-1.jpg?height=47&amp;width=836&amp;top_left_y=2070&amp;top_left_x=986)П а с к о н о в В. М., Численное исследование сверхзвукового обтекания тел вязким газом, М., 1980; [14] Т е м а м Р., Уравнения Навье - Стокса. Теория и численный анализ, пер. с англ., М., 1981 ; [15] Численно е исследование современных задач газовой динамики, М., 1974; [16] Р о уч П. Д ж., Вычи-![](https://cdn.mathpix.com/cropped/2023_07_08_9a355b7b0893e4c785b0g-1.jpg?height=47&amp;width=838&amp;top_left_y=2224&amp;top_left_x=985)R e y r e t R., V i v i a n d H., &quot;lect. Notes Comput. Sci.», 1974, № 11, p. 160-84; [18] B u rg g r a f O. R., «lect. Notes Phys.», 1976, [№ 59], p. 52-64. $\quad$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/824_1_NAV'E">\left.\begin{array}{c}\rho \frac{d u}{d t}=X-\frac{\partial p}{\partial x}+\frac{\partial}{\partial x}\left[\mu\left(2 \frac{\partial u}{\partial x}-\frac{2}{3} \operatorname{div} \boldsymbol{w}\right)\right]+ \\+\frac{\partial}{\partial y}\left[\mu\left(\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}\right)\right]+\frac{\partial}{\partial z}\left[\mu\left(\frac{\partial w}{\partial x}+\frac{\partial u}{\partial z}\right)\right], \\\rho \frac{d v}{d t}=Y-\frac{\partial p}{\partial y}+\frac{\partial}{\partial y}\left[\mu\left(2 \frac{\partial v}{\partial y}-\frac{2}{3} \operatorname{div} w\right)\right]+ \\+\frac{\partial}{\partial z}\left[\mu\left(\frac{\partial v}{\partial z}+\frac{\partial w}{\partial y}\right)\right]+\frac{\partial}{\partial x}\left[\mu\left(\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}\right)\right], \\\rho \frac{d w}{d t}=Z-\frac{\partial p}{\partial z}+\frac{\partial}{\partial z}\left[\mu\left(2 \frac{\partial w}{\partial z}-\frac{2}{3} \operatorname{div} w\right)\right]+ \\+\frac{\partial}{\partial x}\left[\mu\left(\frac{\partial w}{\partial x}+\frac{\partial u}{\partial z}\right)\right]+\frac{\partial}{\partial y}\left[\mu\left(\frac{\partial v}{\partial z}+\frac{\partial w}{\partial y}\right)\right], \\\frac{\partial \rho}{\partial t}+\frac{\partial(\rho u)}{\partial x}+\frac{\partial(\rho v)}{\partial y}+\frac{\partial(\rho w)}{\partial z}=0,\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_2_NAV'E">\operatorname{Re}=\rho V l / \mu=V l / v,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_3_NAV'E">\begin{gathered}\frac{\partial \xi}{\partial t}+\frac{\partial \psi}{\partial y} \frac{\partial \xi}{\partial x}-\frac{\partial \psi}{\partial x} \frac{\partial \xi}{\partial y}=\frac{1}{\operatorname{Re}} \Delta \xi, \\\Delta \psi=-\xi,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_4_NAV'E">u=\frac{\partial \psi}{\partial y}, v=-\frac{\partial \psi}{\partial x}, \quad \xi=\frac{\partial v}{\partial x}-\frac{\partial u}{\partial y} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_5_NAV'E">\begin{gathered}\frac{\xi^{n+1 / 2}-\xi^{n}}{0,5 \tau}=L_{1} \xi^{n+1 / 2}+L_{2} \xi^{n}, \\\frac{\xi^{n+1}-\xi^{n+1 / 2}}{0,5 \tau}=L_{1} \xi^{n+1 / 2}+L_{2 \xi} \xi^{n+1}, \\\frac{\psi^{s+1 / 2, n+1}-\psi^{s, n+1}}{0,5 \sigma}+ \\+L_{1 \psi} \psi^{s+1 / 2, n+1}+L_{2} \psi \psi^{s, n+1}=-\xi^{n+1}, \\\frac{\psi^{s+1, n+1}-\psi^{s+1 / 2, n+1}}{0,5 \sigma}+ \\+L_{1 \psi} \varphi^{s+1 / 2, n+1}+L_{2} \psi \psi^{s+1, n+1}=-\xi^{n+1},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_6_NAV'E">\begin{gathered}L_{1 \xi}=\frac{\delta^{2} \xi}{\delta x^{2}}-\frac{\delta \psi}{\delta y} \frac{\delta_{\xi}}{\delta x}, \quad L_{2 \xi}=\frac{\delta^{2} \xi}{\delta y^{2}}+\frac{\delta \psi}{\delta x} \frac{\delta \xi}{\delta y}, \\L_{1 \psi}=\frac{\delta^{2} \psi}{\delta x^{2}}, \quad L_{2 \psi}=\frac{\delta^{2} \psi}{\delta y^{2}} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_7_NAV'E">\left.\begin{array}{c}\frac{\xi^{n+1}-\xi^{n}}{\tau}+\frac{u-|u|}{2}\left(\frac{\delta \xi}{\delta x}\right)^{+}+\frac{u+|u|}{2}\left(\frac{\delta \xi}{\delta x}\right)^{-}+ \\+\frac{v-|v|}{2}\left(\frac{\delta \xi}{\delta y}\right)^{+}+\frac{v+|v|}{2}\left(\frac{\delta \xi}{\delta y}\right)^{-}= \\=\frac{1}{\operatorname{Re}}\left(\frac{1}{1+\frac{|u| h}{2}} \frac{\delta^{2} \xi}{\delta x^{2}}+\frac{1}{1+\frac{|v| l}{2} \frac{\delta^{2} \xi}{\delta y^{2}}}\right),\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_8_NAV'E">\begin{aligned}&amp;\left(\frac{\delta \xi}{\delta x}\right)^{+}= \frac{\xi_{i+1}^{n+1}-\xi_{i, j}^{n+1}}{h},\left(\frac{\delta \xi}{\delta x}\right)^{-}=\frac{\xi_{i, j}^{n+1}-\xi_{i-1, j}^{n+1}}{h}, \\&amp;\left(\frac{\delta \xi}{\delta y}\right)^{+}=\frac{\xi_{i, j+1}^{n+1}-\xi_{i, j}^{n+1}}{l},\left(\frac{\delta \xi}{\delta y}\right)^{-}=\frac{\xi_{i, j}^{n+1}-\xi_{i, j-1}^{n+1}}{l} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_9_NAV'E">\frac{\partial u}{\partial t}=a \frac{\partial u}{\partial x}+v \frac{\partial^{2} u}{\partial x^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/824_10_NAV'E">\frac{u_{m+1}^{n+1}-u_{m}^{n}}{\tau}=a \frac{u_{m+1}^{n}-u_{m-1}^{n+1}}{2 h}+v \frac{u_{m+1}^{n}-2 u_{m}^{n+1}+u_{m-1}^{n+1}}{h^{2}} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_1_NAV'E">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_2_NAV'E">u, v, w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_3_NAV'E">x, y, z ; p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_4_NAV'E">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_5_NAV'E">\mu-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_6_NAV'E">x, Y, Z-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_7_NAV'E">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_8_NAV'E">\frac{d w}{d t}=\frac{\partial w}{\partial t}+w \operatorname{grad} w-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_9_NAV'E">\rho=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_10_NAV'E">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_11_NAV'E">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_12_NAV'E">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_13_NAV'E">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_14_NAV'E">\xi-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_15_NAV'E">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_16_NAV'E">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_17_NAV'E">(\operatorname{re} \ll 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_18_NAV'E">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_19_NAV'E">l_{1 \xi}, L_{2 \xi}, L_{1 \psi}, L_{2 \psi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_20_NAV'E">\tau-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_21_NAV'E">\sigma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_22_NAV'E">s, s+1 / 2, s+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_23_NAV'E">(n+1)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_24_NAV'E">\frac{\delta^{2}}{\delta x^{2}}, \frac{\delta^{2}}{\delta y^{2}}, \frac{\delta}{\delta x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_25_NAV'E">\frac{\delta}{\delta y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_26_NAV'E">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_27_NAV'E">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_28_NAV'E">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_29_NAV'E">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_30_NAV'E">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_31_NAV'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_32_NAV'E">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_33_NAV'E">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_34_NAV'E">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_35_NAV'E">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_36_NAV'E">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_37_NAV'E">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_38_NAV'E">o\left(h^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_39_NAV'E">\tau&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_40_NAV'E">&lt;h / a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/824_41_NAV'E">v</formula>
+  </formulas_aux>
+  <relations n="56">
+    <relation uri="http://libmeta.ru/me/relation/824_1_NAV'E">
+      <rel_text>Первоначально</rel_text>
+      <target>http://libmeta.ru/me/article/217_PERVOOBRAZNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_2_NAV'E">
+      <rel_text>Гидродинамики математические задачи</rel_text>
+      <target>http://libmeta.ru/me/article/1025_GIDRODINAMIKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_3_NAV'E">
+      <rel_text>предполагались</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_4_NAV'E">
+      <rel_text>Перечисленные</rel_text>
+      <target>http://libmeta.ru/me/article/223_PEREDATOChNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_5_NAV'E">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_6_NAV'E">
+      <rel_text>волны</rel_text>
+      <target>http://libmeta.ru/me/article/776_VOLN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_7_NAV'E">
+      <rel_text>пограничного</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_8_NAV'E">
+      <rel_text>Рассмотрены</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_9_NAV'E">
+      <rel_text>цилиндр</rel_text>
+      <target>http://libmeta.ru/me/article/938_TsILIND</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_10_NAV'E">
+      <rel_text>сфера</rel_text>
+      <target>http://libmeta.ru/me/article/318_SFER</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_11_NAV'E">
+      <rel_text>конус</rel_text>
+      <target>http://libmeta.ru/me/article/1088_KONU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_12_NAV'E">
+      <rel_text>сфера</rel_text>
+      <target>http://libmeta.ru/me/article/318_SFER</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_13_NAV'E">
+      <rel_text>цилиндра</rel_text>
+      <target>http://libmeta.ru/me/article/938_TsILIND</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_14_NAV'E">
+      <rel_text>сверхзвукового</rel_text>
+      <target>http://libmeta.ru/me/article/1197_SVERHSHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_15_NAV'E">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_16_NAV'E">
+      <rel_text>динамики</rel_text>
+      <target>http://libmeta.ru/me/article/175_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_17_NAV'E">
+      <rel_text>Разностные методы</rel_text>
+      <target>http://libmeta.ru/me/article/904_RAZNOSTNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_18_NAV'E">
+      <rel_text>перекрываюшихся</rel_text>
+      <target>http://libmeta.ru/me/article/226_PERENORMIROVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_19_NAV'E">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_20_NAV'E">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_21_NAV'E">
+      <rel_text>подробных</rel_text>
+      <target>http://libmeta.ru/me/article/372_PODREShETK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_22_NAV'E">
+      <rel_text>сложной</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_23_NAV'E">
+      <rel_text>связано</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_24_NAV'E">
+      <rel_text>Численное</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_25_NAV'E">
+      <rel_text>пространству</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_26_NAV'E">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_27_NAV'E">
+      <rel_text>дивергентные</rel_text>
+      <target>http://libmeta.ru/me/article/157_DIVERGENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_28_NAV'E">
+      <rel_text>полной</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_29_NAV'E">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_30_NAV'E">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_31_NAV'E">
+      <rel_text>сочетании</rel_text>
+      <target>http://libmeta.ru/me/article/102_SOChETANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_32_NAV'E">
+      <rel_text>линейных уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/366_LINEINOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_33_NAV'E">
+      <rel_text>условие устойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/617_USLOVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_34_NAV'E">
+      <rel_text>Условие устойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/617_USLOVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_35_NAV'E">
+      <rel_text>порядком</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_36_NAV'E">
+      <rel_text>постоянными коэфффициентами</rel_text>
+      <target>http://libmeta.ru/me/article/353_LINEINOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_37_NAV'E">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_38_NAV'E">
+      <rel_text>алгоритмам</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_39_NAV'E">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_40_NAV'E">
+      <rel_text>предъ-</rel_text>
+      <target>http://libmeta.ru/me/article/585_PREDE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_41_NAV'E">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_42_NAV'E">
+      <rel_text>Сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_43_NAV'E">
+      <rel_text>невязких</rel_text>
+      <target>http://libmeta.ru/me/article/882_NEVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_44_NAV'E">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_45_NAV'E">
+      <rel_text>пограничных</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_46_NAV'E">
+      <rel_text>связано</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_47_NAV'E">
+      <rel_text>сравнению</rel_text>
+      <target>http://libmeta.ru/me/article/156_SRAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_48_NAV'E">
+      <rel_text>полных</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_49_NAV'E">
+      <rel_text>разностных методов</rel_text>
+      <target>http://libmeta.ru/me/article/904_RAZNOSTNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_50_NAV'E">
+      <rel_text>поверхностью</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_51_NAV'E">
+      <rel_text>цилиндрич</rel_text>
+      <target>http://libmeta.ru/me/article/945_TsILITsTsROI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_52_NAV'E">
+      <rel_text>цилиндрич</rel_text>
+      <target>http://libmeta.ru/me/article/945_TsILITsTsROI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_53_NAV'E">
+      <rel_text>цилиндра</rel_text>
+      <target>http://libmeta.ru/me/article/938_TsILIND</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_54_NAV'E">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_55_NAV'E">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/824_56_NAV'E">
+      <rel_text>разностных методов</rel_text>
+      <target>http://libmeta.ru/me/article/904_RAZNOSTNYE</target>
+    </relation>
+  </relations>
+  <text>основные уравнения движения вязкой жидкости, представляющие математическое выражение законов сохранения импульса и массы. Для неустановившегося течения сжимаемой жидкости Н.- С. у. в декартовой системе координат могут быть записаны в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_1_NAV'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/824_1_NAV'E]]/URI$ - вектор скорости с проекциями $URI[[http://libmeta.ru/me/formula/aux/824_2_NAV'E]]/URI$ на соответствующие оси координат $URI[[http://libmeta.ru/me/formula/aux/824_3_NAV'E]]/URI$ - давление, $URI[[http://libmeta.ru/me/formula/aux/824_4_NAV'E]]/URI$ плотность, $URI[[http://libmeta.ru/me/formula/aux/824_5_NAV'E]]/URI$ коәффициент вязкости; $URI[[http://libmeta.ru/me/formula/aux/824_6_NAV'E]]/URI$ проекции вектора массовой силы $URI[[http://libmeta.ru/me/formula/aux/824_7_NAV'E]]/URI$ на координатные оси; $URI[[http://libmeta.ru/me/formula/aux/824_8_NAV'E]]/URI$ субстанциональная производная. При выводе уравнений (1) использован обобщенный закон трения Ньютона, предполагающий, что для движущихся жидкостей и газов напряжения пропорциональны скоростям деформаций. Для исследования сжимаемых течений к уравнениям (1) необходимо добавить уравнение состояния, связывающее между собой давление, плотность и температуру, и уравнение әнергии.
+
+Уравнения (1), составляіощие основу гидродинамики, впервые были получены П. Навье [1] и С. Пуассоном [2] на основе соображеншй о действии межмолекулярных сил. Б. Сен-Венан [3] и Дж. Г. Стокс [4] вывели эти уравнения, допуская только, что нормальные и касательные напряжения линейно связаны со скоростями деформаций.
+
+Для течений несжимаемой изотермич. жидкости ( $URI[[http://libmeta.ru/me/formula/aux/824_9_NAV'E]]/URI$ const) уравнения (1) в векторной форме могут быть представлены в виде
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_bba359af1e0dd3aa1146g-1.jpg?height=107&amp;width=442&amp;top_left_y=433&amp;top_left_x=315)
+
+При анализе H. - С. у., как правпло, рассматриваются в безразмерной форме, к-рая получается путем отнесения всех величин, входящих в уравнения, к соответствующим характерным величинам. Так, в случае стационарных течений несжимаемой жидкости при отсутствии массовых сил в Н. - С. у. появляется один опредөляющий безразмерный параметр, наз. Рейнольдса числом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_2_NAV'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/824_10_NAV'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/824_11_NAV'E]]/URI$ - характерные скорости и линейный размер, $URI[[http://libmeta.ru/me/formula/aux/824_12_NAV'E]]/URI$ - кинематическая вязкость.
+
+Для исследования двумерных несжимаемых течений часто используются Н. - С. у. в форме Гельмгольца:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_3_NAV'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/824_13_NAV'E]]/URI$ - функция тока и $URI[[http://libmeta.ru/me/formula/aux/824_14_NAV'E]]/URI$ віхрь связаны с проекциями скорости $URI[[http://libmeta.ru/me/formula/aux/824_15_NAV'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/824_16_NAV'E]]/URI$ следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_4_NAV'E]]/URI
+\]
+
+Основные краевые задачи для стационарных Н. - С. у. связаны с исследованием течений в замкнутых полостях, каналах, течений со свободными поверхностями, с обтеканием тел, течений в струях и следах за телами. При этом интегрирование Н.- С. у. проводится в областях (конечных или бесконечных), на границе к-рых ставятся условия из соображений физич. характера (условия прилипания или скольжения на поверхности тел, вдува или отсоса на проницаемых поверхностях, условия внешнего потока вдали от обтекаемого тела, условия на свободной границе и др.). Для нестационарных задач помимо граничных условий должны задаваться начальные условия.
+
+Строгий математич. анализ разрешимости краевых задач гидроаәромеханики для Н.- С. у. сжимаемого газа отсутствует (1982). Имеются нек-рые результаты в математич. теории динамики вязкой несжимаемой жидкости (см. URI[[http://libmeta.ru/me/relation/824_2_NAV'E]]/URI).
+
+URI[[http://libmeta.ru/me/relation/824_1_NAV'E]]/URI усилия исследователей были направлены на отыскание точных решений. Напр., для несжимаемой жидкости имеются точные решения для установившихся течений: в плоском канале при заданном постоянном перепаде давления (т е ч е н и е П у а3 ё й л я); между двумя параллельными плоскими стенками, одна из к-рых покоится, а другая движется в своей плоскости с постоянной скоростью (т е ч е н и е К у ә т т а); в прямолинейной трубе с круглым поперечным сечением при постоянном перепаде давления (т еч е н и е X а г е н - П у а з ё й л я). Найдены также нек-рые автомодельные решения, среди них: плоскопараллельное (и осесимметричное) течение вблизи критической точки (т е ч е н и е X о у а р т а); течения в суживающемся и расширяющемся каналах (т е ч е н и е Гамеля).
+
+П ри бли жен ны е р ешения Н. - С. у. основаны на упрощающих предположениях. Здесь сле- дует отметить решения при очень малых числах Рейнольдса $URI[[http://libmeta.ru/me/formula/aux/824_17_NAV'E]]/URI$, соответствующие так наз. ползущим движениям, среди к-рых наиболее известно т е ч е н и е С т о к с а около шара. Предельный случай очень больших чисел Рейнольдса приводит к теории гидродинамического пограничного слоя. Уравнения пограничного слоя позволили решить большой круг практически важных задач на основе широко разработанных приближен ных и численных методов.
+
+Для решения нек-рых классов задач динамики вязких жидкостей и газов разработаны достаточно әфффективные алгоритмы, основанные на использовании разностных схем. Напр., для задачи расчета ламинарных течений вязких несжимаемых жидкостей в областях простой формы (или около тел простой формы). Наибольшее распространение здесь получили разностные методы для уравнений в форме (3), хотя для этой системы и имеются трудности, связанные с определением граничных условиі̆ для $URI[[http://libmeta.ru/me/formula/aux/824_18_NAV'E]]/URI$. Первые результаты по решению стационарного варігата системы (3) были получены с помощью простейших явных пятиточечных схем и итерационных методов (см. [6]). Решение стационарных задач динамики вязкой несжимаемой жидкости болышей частью основано на использовании метода установления и применении явных и неявных схем для системы (3). Среди явных схем используются двухслойные по времени схемы с симметричной аппроксимацией первых производных центральными разностями и решением второго уравнения из (3) на каждом временном слое с помоцью метода Зейделя, а также трехслойная схема, в к-рой конвективные члены аппроксимируются по схеме «крест», а диффузионные - по схеме Дюфорта Франкеля. С помощью уже әтих схем были получены нек-рые результаты при решении стационарных задач о ламинарных двумерных течениях в суживающемся и расширяющемся каналах, в прямоугольной выемке с движущейся крышкой, а также нестационарной задаче обтекания в канале плоской пластины, расположенной перпендикулярно к направлению потока.
+
+Неявные схемы, как правило, основаны на применении метода дробных шагов (см. [8]). Общая структура таких схем для уравнения (3) может быть представлена, напр., в віде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_5_NAV'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/824_19_NAV'E]]/URI$ - разностные одномерные операторы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_6_NAV'E]]/URI
+\]
+
+В этих формулах $URI[[http://libmeta.ru/me/formula/aux/824_20_NAV'E]]/URI$ временной шаг, $URI[[http://libmeta.ru/me/formula/aux/824_21_NAV'E]]/URI$ итерационный параметр, $URI[[http://libmeta.ru/me/formula/aux/824_22_NAV'E]]/URI$ - итерационные индексы при решении уравнения Пуассона из (3) на $URI[[http://libmeta.ru/me/formula/aux/824_23_NAV'E]]/URI$ временном слое итерационшым методом; $URI[[http://libmeta.ru/me/formula/aux/824_24_NAV'E]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/824_25_NAV'E]]/URI$ - разностные операторы, аппроксимирующие соответствующие вторые и первые производные. Первое уравнение из (3) используется для нахождения значе- ний $URI[[http://libmeta.ru/me/formula/aux/824_26_NAV'E]]/URI$, а второе - значений $URI[[http://libmeta.ru/me/formula/aux/824_27_NAV'E]]/URI$ на последующем временном слое. Аппроксимация вторых производных, как правило, симметричная, а аппроксимация первых производных в уравнении для $URI[[http://libmeta.ru/me/formula/aux/824_28_NAV'E]]/URI$ проводится или симметричными разностями, или односторонними разностями против потока с учетом знака скорости. Хорошо зарекомендовала себя схема в [9] с применением монотонной аппроксимации (см. [10]). Эта схема для первого уравнения (3) имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_7_NAV'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/824_29_NAV'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/824_30_NAV'E]]/URI$ - шаги сетки по $URI[[http://libmeta.ru/me/formula/aux/824_31_NAV'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/824_32_NAV'E]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_8_NAV'E]]/URI
+\]
+
+Разностные уравнения (4) обычно приводятся к трехдиагональному виду и совместно с соотношениями, аппроксимирующими граничные условия, решаются методом прогонки. При решении стационарных задач методом установления может применяться либо поочередное решение уравнений (4) (без внутренних итераций для определения $URI[[http://libmeta.ru/me/formula/aux/824_33_NAV'E]]/URI$ ), либо одновременное решение соответствующих уравнений из (4) для совместного нахождения $URI[[http://libmeta.ru/me/formula/aux/824_34_NAV'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/824_35_NAV'E]]/URI$ с помощью векторной прогонки. Трудности, связанные с постановкой граничных условий для уравнений (3), заключаются в том, что обычные граничные условия прилипания на твердых стенках для Н. - С. У. дают условия только для $URI[[http://libmeta.ru/me/formula/aux/824_36_NAV'E]]/URI$. Для численного решения уравнения для $URI[[http://libmeta.ru/me/formula/aux/824_37_NAV'E]]/URI$ формально требуют граничные условия для вихря. Эти условия могут быть получены на каждом временном слое либо приближенно на границе области, либо путем интегрирования уравнения для है только в области, расположенной внутри основной области интегрирования [9].
+
+Для исследования двумерных течений уравнения в форме (2) используются реже и, как правило, с некоторой регуляризацией уравнения неразрывности. Вариационно-сеточные методы, и в частности метод конечных әлементов, нашли свое применение для решения уравнений динамики вязкой жидкости в форме (2) и (3).
+
+С помощью URI[[http://libmeta.ru/me/relation/824_56_NAV'E]]/URI исследовались разнообразные URI[[http://libmeta.ru/me/relation/824_55_NAV'E]]/URI течения вязких несжимаемых жидкостей. Среди них URI[[http://libmeta.ru/me/relation/824_54_NAV'E]]/URI обтекания эллиптического и кругового URI[[http://libmeta.ru/me/relation/824_53_NAV'E]]/URI (в том числе вращающегося), пластины конечной толщины (в том числе под углом атаки), URI[[http://libmeta.ru/me/relation/824_52_NAV'E]]/URI. торца, капли, плоской ступени и др. Изучались также течения в каверне, в плоском и URI[[http://libmeta.ru/me/relation/824_51_NAV'E]]/URI. канале, в канале с препятствиями на стенках, течения со свободной URI[[http://libmeta.ru/me/relation/824_50_NAV'E]]/URI, течения естественной, вынужденной и смешанной конвекции.
+
+Применение URI[[http://libmeta.ru/me/relation/824_49_NAV'E]]/URI для расчета течений вязкого сжимаемого газа на основе URI[[http://libmeta.ru/me/relation/824_48_NAV'E]]/URI Н. - С. у. сопряжено с нек-рыми дополнительными трудностями по URI[[http://libmeta.ru/me/relation/824_47_NAV'E]]/URI с расчетами течений несжимаемой вязкой жидкости. Это URI[[http://libmeta.ru/me/relation/824_46_NAV'E]]/URI с тем, чт о в течениях сжимаемого газа существуют не только области URI[[http://libmeta.ru/me/relation/824_45_NAV'E]]/URI слоев, но и другие области больших градиентов искомых URI[[http://libmeta.ru/me/relation/824_44_NAV'E]]/URI, к-рые соответствуют ударным волнам и волнам разрежения в URI[[http://libmeta.ru/me/relation/824_43_NAV'E]]/URI течениях газа. URI[[http://libmeta.ru/me/relation/824_42_NAV'E]]/URI самой URI[[http://libmeta.ru/me/relation/824_41_NAV'E]]/URI Н. - С. у. для сжимаемого вязкого газа URI[[http://libmeta.ru/me/relation/824_40_NAV'E]]/URI являет повышенные требования к быстродействию и памяти URI[[http://libmeta.ru/me/relation/824_39_NAV'E]]/URI. Использование явных схем в этом случає приводит к более простым URI[[http://libmeta.ru/me/relation/824_38_NAV'E]]/URI. Примером явной схемы, хорошо зарекомендовавшей себя для расчета стационарных течений методом установления, является схема, к-рая для простого модельного URI[[http://libmeta.ru/me/relation/824_37_NAV'E]]/URI с URI[[http://libmeta.ru/me/relation/824_36_NAV'E]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_9_NAV'E]]/URI
+\]
+
+может быть записана в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/824_10_NAV'E]]/URI
+\]
+
+Эта схема аппроксимирует (5) на гладком установившемся решении с URI[[http://libmeta.ru/me/relation/824_35_NAV'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/824_38_NAV'E]]/URI$ и устойчива при $URI[[http://libmeta.ru/me/formula/aux/824_39_NAV'E]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/824_40_NAV'E]]/URI$. URI[[http://libmeta.ru/me/relation/824_34_NAV'E]]/URI не зависит от $URI[[http://libmeta.ru/me/formula/aux/824_41_NAV'E]]/URI$. Это означает, что при применении этой схемы к Н. - С. у. URI[[http://libmeta.ru/me/relation/824_33_NAV'E]]/URI не зависит от числа Рейнольдса. Тем не менее ограничение на итерационный шаг по времени для явных схем является существенным. Неявные схемы, как правило, не обладают такими ограничениями и абсолютно устойчивы для соответствующих URI[[http://libmeta.ru/me/relation/824_32_NAV'E]]/URI с постоянными коэфффициентами. Неявные схемы для расчета двумерных течений вязкого газа используются в URI[[http://libmeta.ru/me/relation/824_31_NAV'E]]/URI с методом дробных шагов. Построены (1982) различные разностные схемы URI[[http://libmeta.ru/me/relation/824_30_NAV'E]]/URI URI[[http://libmeta.ru/me/relation/824_29_NAV'E]]/URI направлений: с URI[[http://libmeta.ru/me/relation/824_28_NAV'E]]/URI и неполной аппроксимацией на промежуточных слоях, URI[[http://libmeta.ru/me/relation/824_27_NAV'E]]/URI и недивергентные (см. [11]), схемы повышенного URI[[http://libmeta.ru/me/relation/824_26_NAV'E]]/URI точности (выше второго) относительно шагов сетки по URI[[http://libmeta.ru/me/relation/824_25_NAV'E]]/URI (см. [12]). URI[[http://libmeta.ru/me/relation/824_24_NAV'E]]/URI моделирование течений вязкого газа на основе Н.- С. У. URI[[http://libmeta.ru/me/relation/824_23_NAV'E]]/URI с расчетом течений URI[[http://libmeta.ru/me/relation/824_22_NAV'E]]/URI структуры и с использованием достаточно URI[[http://libmeta.ru/me/relation/824_21_NAV'E]]/URI сеток, что невозможно в силу ограниченности памяти URI[[http://libmeta.ru/me/relation/824_20_NAV'E]]/URI без применения URI[[http://libmeta.ru/me/relation/824_19_NAV'E]]/URI взаимно URI[[http://libmeta.ru/me/relation/824_18_NAV'E]]/URI областей (см. [13]). URI[[http://libmeta.ru/me/relation/824_17_NAV'E]]/URI решения Н. - С. у. применялись для исследования большого числа задач URI[[http://libmeta.ru/me/relation/824_16_NAV'E]]/URI вязкого газа. Среди них URI[[http://libmeta.ru/me/relation/824_15_NAV'E]]/URI - URI[[http://libmeta.ru/me/relation/824_14_NAV'E]]/URI обтекания затупленных тел (сферы, торца кругового URI[[http://libmeta.ru/me/relation/824_13_NAV'E]]/URI), составных тел (URI[[http://libmeta.ru/me/relation/824_12_NAV'E]]/URI - URI[[http://libmeta.ru/me/relation/824_11_NAV'E]]/URI, URI[[http://libmeta.ru/me/relation/824_10_NAV'E]]/URI - URI[[http://libmeta.ru/me/relation/824_9_NAV'E]]/URI), клина, передней кромки плоской пластины. URI[[http://libmeta.ru/me/relation/824_8_NAV'E]]/URI также течения в следах за телами конечных размеров, течения в соплах и воздухозаборниках, течения в полости при внешнем до- и сверхзвуковом потоке, исследовалось взаимодействие URI[[http://libmeta.ru/me/relation/824_7_NAV'E]]/URI слоя с ударной волной, структура ударной URI[[http://libmeta.ru/me/relation/824_6_NAV'E]]/URI в плазме и др. URI[[http://libmeta.ru/me/relation/824_5_NAV'E]]/URI. URI[[http://libmeta.ru/me/relation/824_4_NAV'E]]/URI течения URI[[http://libmeta.ru/me/relation/824_3_NAV'E]]/URI, как правило, ламинарными.</text>
+  <text_orig>основные уравнения движения вязкой жидкости, представляющие математическое выражение законов сохранения импульса и массы. Для неустановившегося течения сжимаемой жидкости Н.- С. у. в декартовой системе координат могут быть записаны в виде
+
+\[
+\left.\begin{array}{c}
+\rho \frac{d u}{d t}=X-\frac{\partial p}{\partial x}+\frac{\partial}{\partial x}\left[\mu\left(2 \frac{\partial u}{\partial x}-\frac{2}{3} \operatorname{div} \boldsymbol{w}\right)\right]+ \\
++\frac{\partial}{\partial y}\left[\mu\left(\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}\right)\right]+\frac{\partial}{\partial z}\left[\mu\left(\frac{\partial w}{\partial x}+\frac{\partial u}{\partial z}\right)\right], \\
+\rho \frac{d v}{d t}=Y-\frac{\partial p}{\partial y}+\frac{\partial}{\partial y}\left[\mu\left(2 \frac{\partial v}{\partial y}-\frac{2}{3} \operatorname{div} w\right)\right]+ \\
++\frac{\partial}{\partial z}\left[\mu\left(\frac{\partial v}{\partial z}+\frac{\partial w}{\partial y}\right)\right]+\frac{\partial}{\partial x}\left[\mu\left(\frac{\partial u}{\partial y}+\frac{\partial v}{\partial x}\right)\right], \\
+\rho \frac{d w}{d t}=Z-\frac{\partial p}{\partial z}+\frac{\partial}{\partial z}\left[\mu\left(2 \frac{\partial w}{\partial z}-\frac{2}{3} \operatorname{div} w\right)\right]+ \\
++\frac{\partial}{\partial x}\left[\mu\left(\frac{\partial w}{\partial x}+\frac{\partial u}{\partial z}\right)\right]+\frac{\partial}{\partial y}\left[\mu\left(\frac{\partial v}{\partial z}+\frac{\partial w}{\partial y}\right)\right], \\
+\frac{\partial \rho}{\partial t}+\frac{\partial(\rho u)}{\partial x}+\frac{\partial(\rho v)}{\partial y}+\frac{\partial(\rho w)}{\partial z}=0,
+\end{array}\right\}
+\]
+
+где $\boldsymbol{v}$ - вектор скорости с проекциями $u, v, w$ на соответствующие оси координат $x, y, z ; p$ - давление, $\rho$ плотность, $\mu-$ коәффициент вязкости; $X, Y, Z-$ проекции вектора массовой силы $K$ на координатные оси; $\frac{d w}{d t}=\frac{\partial w}{\partial t}+w \operatorname{grad} w-$ субстанциональная производная. При выводе уравнений (1) использован обобщенный закон трения Ньютона, предполагающий, что для движущихся жидкостей и газов напряжения пропорциональны скоростям деформаций. Для исследования сжимаемых течений к уравнениям (1) необходимо добавить уравнение состояния, связывающее между собой давление, плотность и температуру, и уравнение әнергии.
+
+Уравнения (1), составляіощие основу гидродинамики, впервые были получены П. Навье [1] и С. Пуассоном [2] на основе соображеншй о действии межмолекулярных сил. Б. Сен-Венан [3] и Дж. Г. Стокс [4] вывели эти уравнения, допуская только, что нормальные и касательные напряжения линейно связаны со скоростями деформаций.
+
+Для течений несжимаемой изотермич. жидкости ( $\rho=$ const) уравнения (1) в векторной форме могут быть представлены в виде
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_bba359af1e0dd3aa1146g-1.jpg?height=107&amp;width=442&amp;top_left_y=433&amp;top_left_x=315)
+
+При анализе H. - С. у., как правпло, рассматриваются в безразмерной форме, к-рая получается путем отнесения всех величин, входящих в уравнения, к соответствующим характерным величинам. Так, в случае стационарных течений несжимаемой жидкости при отсутствии массовых сил в Н. - С. у. появляется один опредөляющий безразмерный параметр, наз. Рейнольдса числом:
+
+\[
+\operatorname{Re}=\rho V l / \mu=V l / v,
+\]
+
+где $V$ и $l$ - характерные скорости и линейный размер, $\boldsymbol{v}$ - кинематическая вязкость.
+
+Для исследования двумерных несжимаемых течений часто используются Н. - С. у. в форме Гельмгольца:
+
+\[
+\begin{gathered}
+\frac{\partial \xi}{\partial t}+\frac{\partial \psi}{\partial y} \frac{\partial \xi}{\partial x}-\frac{\partial \psi}{\partial x} \frac{\partial \xi}{\partial y}=\frac{1}{\operatorname{Re}} \Delta \xi, \\
+\Delta \psi=-\xi,
+\end{gathered}
+\]
+
+где $\psi$ - функция тока и $\xi-$ віхрь связаны с проекциями скорости $u$ и $v$ следующим образом:
+
+\[
+u=\frac{\partial \psi}{\partial y}, v=-\frac{\partial \psi}{\partial x}, \quad \xi=\frac{\partial v}{\partial x}-\frac{\partial u}{\partial y} .
+\]
+
+Основные краевые задачи для стационарных Н. - С. у. связаны с исследованием течений в замкнутых полостях, каналах, течений со свободными поверхностями, с обтеканием тел, течений в струях и следах за телами. При этом интегрирование Н.- С. у. проводится в областях (конечных или бесконечных), на границе к-рых ставятся условия из соображений физич. характера (условия прилипания или скольжения на поверхности тел, вдува или отсоса на проницаемых поверхностях, условия внешнего потока вдали от обтекаемого тела, условия на свободной границе и др.). Для нестационарных задач помимо граничных условий должны задаваться начальные условия.
+
+Строгий математич. анализ разрешимости краевых задач гидроаәромеханики для Н.- С. у. сжимаемого газа отсутствует (1982). Имеются нек-рые результаты в математич. теории динамики вязкой несжимаемой жидкости (см. Гидродинамики математические задачи).
+
+Первоначально усилия исследователей были направлены на отыскание точных решений. Напр., для несжимаемой жидкости имеются точные решения для установившихся течений: в плоском канале при заданном постоянном перепаде давления (т е ч е н и е П у а3 ё й л я); между двумя параллельными плоскими стенками, одна из к-рых покоится, а другая движется в своей плоскости с постоянной скоростью (т е ч е н и е К у ә т т а); в прямолинейной трубе с круглым поперечным сечением при постоянном перепаде давления (т еч е н и е X а г е н - П у а з ё й л я). Найдены также нек-рые автомодельные решения, среди них: плоскопараллельное (и осесимметричное) течение вблизи критической точки (т е ч е н и е X о у а р т а); течения в суживающемся и расширяющемся каналах (т е ч е н и е Гамеля).
+
+П ри бли жен ны е р ешения Н. - С. у. основаны на упрощающих предположениях. Здесь сле- дует отметить решения при очень малых числах Рейнольдса $(\operatorname{Re} \ll 1)$, соответствующие так наз. ползущим движениям, среди к-рых наиболее известно т е ч е н и е С т о к с а около шара. Предельный случай очень больших чисел Рейнольдса приводит к теории гидродинамического пограничного слоя. Уравнения пограничного слоя позволили решить большой круг практически важных задач на основе широко разработанных приближен ных и численных методов.
+
+Для решения нек-рых классов задач динамики вязких жидкостей и газов разработаны достаточно әфффективные алгоритмы, основанные на использовании разностных схем. Напр., для задачи расчета ламинарных течений вязких несжимаемых жидкостей в областях простой формы (или около тел простой формы). Наибольшее распространение здесь получили разностные методы для уравнений в форме (3), хотя для этой системы и имеются трудности, связанные с определением граничных условиі̆ для $\xi$. Первые результаты по решению стационарного варігата системы (3) были получены с помощью простейших явных пятиточечных схем и итерационных методов (см. [6]). Решение стационарных задач динамики вязкой несжимаемой жидкости болышей частью основано на использовании метода установления и применении явных и неявных схем для системы (3). Среди явных схем используются двухслойные по времени схемы с симметричной аппроксимацией первых производных центральными разностями и решением второго уравнения из (3) на каждом временном слое с помоцью метода Зейделя, а также трехслойная схема, в к-рой конвективные члены аппроксимируются по схеме «крест», а диффузионные - по схеме Дюфорта Франкеля. С помощью уже әтих схем были получены нек-рые результаты при решении стационарных задач о ламинарных двумерных течениях в суживающемся и расширяющемся каналах, в прямоугольной выемке с движущейся крышкой, а также нестационарной задаче обтекания в канале плоской пластины, расположенной перпендикулярно к направлению потока.
+
+Неявные схемы, как правило, основаны на применении метода дробных шагов (см. [8]). Общая структура таких схем для уравнения (3) может быть представлена, напр., в віде
+
+\[
+\begin{gathered}
+\frac{\xi^{n+1 / 2}-\xi^{n}}{0,5 \tau}=L_{1} \xi^{n+1 / 2}+L_{2} \xi^{n}, \\
+\frac{\xi^{n+1}-\xi^{n+1 / 2}}{0,5 \tau}=L_{1} \xi^{n+1 / 2}+L_{2 \xi} \xi^{n+1}, \\
+\frac{\psi^{s+1 / 2, n+1}-\psi^{s, n+1}}{0,5 \sigma}+ \\
++L_{1 \psi} \psi^{s+1 / 2, n+1}+L_{2} \psi \psi^{s, n+1}=-\xi^{n+1}, \\
+\frac{\psi^{s+1, n+1}-\psi^{s+1 / 2, n+1}}{0,5 \sigma}+ \\
++L_{1 \psi} \varphi^{s+1 / 2, n+1}+L_{2} \psi \psi^{s+1, n+1}=-\xi^{n+1},
+\end{gathered}
+\]
+
+где $L_{1 \xi}, L_{2 \xi}, L_{1 \psi}, L_{2 \psi}$ - разностные одномерные операторы:
+
+\[
+\begin{gathered}
+L_{1 \xi}=\frac{\delta^{2} \xi}{\delta x^{2}}-\frac{\delta \psi}{\delta y} \frac{\delta_{\xi}}{\delta x}, \quad L_{2 \xi}=\frac{\delta^{2} \xi}{\delta y^{2}}+\frac{\delta \psi}{\delta x} \frac{\delta \xi}{\delta y}, \\
+L_{1 \psi}=\frac{\delta^{2} \psi}{\delta x^{2}}, \quad L_{2 \psi}=\frac{\delta^{2} \psi}{\delta y^{2}} .
+\end{gathered}
+\]
+
+В этих формулах $\tau-$ временной шаг, $\sigma-$ итерационный параметр, $s, s+1 / 2, s+1$ - итерационные индексы при решении уравнения Пуассона из (3) на $(n+1)-$ временном слое итерационшым методом; $\frac{\delta^{2}}{\delta x^{2}}, \frac{\delta^{2}}{\delta y^{2}}, \frac{\delta}{\delta x}$, $\frac{\delta}{\delta y}$ - разностные операторы, аппроксимирующие соответствующие вторые и первые производные. Первое уравнение из (3) используется для нахождения значе- ний $\xi$, а второе - значений $\psi$ на последующем временном слое. Аппроксимация вторых производных, как правило, симметричная, а аппроксимация первых производных в уравнении для $\xi$ проводится или симметричными разностями, или односторонними разностями против потока с учетом знака скорости. Хорошо зарекомендовала себя схема в [9] с применением монотонной аппроксимации (см. [10]). Эта схема для первого уравнения (3) имеет вид
+
+\[
+\left.\begin{array}{c}
+\frac{\xi^{n+1}-\xi^{n}}{\tau}+\frac{u-|u|}{2}\left(\frac{\delta \xi}{\delta x}\right)^{+}+\frac{u+|u|}{2}\left(\frac{\delta \xi}{\delta x}\right)^{-}+ \\
++\frac{v-|v|}{2}\left(\frac{\delta \xi}{\delta y}\right)^{+}+\frac{v+|v|}{2}\left(\frac{\delta \xi}{\delta y}\right)^{-}= \\
+=\frac{1}{\operatorname{Re}}\left(\frac{1}{1+\frac{|u| h}{2}} \frac{\delta^{2} \xi}{\delta x^{2}}+\frac{1}{1+\frac{|v| l}{2} \frac{\delta^{2} \xi}{\delta y^{2}}}\right),
+\end{array}\right\}
+\]
+
+где $h$ и $l$ - шаги сетки по $x$ и $y$,
+
+\[
+\begin{aligned}
+&amp;\left(\frac{\delta \xi}{\delta x}\right)^{+}= \frac{\xi_{i+1}^{n+1}-\xi_{i, j}^{n+1}}{h},\left(\frac{\delta \xi}{\delta x}\right)^{-}=\frac{\xi_{i, j}^{n+1}-\xi_{i-1, j}^{n+1}}{h}, \\
+&amp;\left(\frac{\delta \xi}{\delta y}\right)^{+}=\frac{\xi_{i, j+1}^{n+1}-\xi_{i, j}^{n+1}}{l},\left(\frac{\delta \xi}{\delta y}\right)^{-}=\frac{\xi_{i, j}^{n+1}-\xi_{i, j-1}^{n+1}}{l} .
+\end{aligned}
+\]
+
+Разностные уравнения (4) обычно приводятся к трехдиагональному виду и совместно с соотношениями, аппроксимирующими граничные условия, решаются методом прогонки. При решении стационарных задач методом установления может применяться либо поочередное решение уравнений (4) (без внутренних итераций для определения $\psi$ ), либо одновременное решение соответствующих уравнений из (4) для совместного нахождения $\xi$ и $\psi$ с помощью векторной прогонки. Трудности, связанные с постановкой граничных условий для уравнений (3), заключаются в том, что обычные граничные условия прилипания на твердых стенках для Н. - С. У. дают условия только для $\psi$. Для численного решения уравнения для $\xi$ формально требуют граничные условия для вихря. Эти условия могут быть получены на каждом временном слое либо приближенно на границе области, либо путем интегрирования уравнения для है только в области, расположенной внутри основной области интегрирования [9].
+
+Для исследования двумерных течений уравнения в форме (2) используются реже и, как правило, с некоторой регуляризацией уравнения неразрывности. Вариационно-сеточные методы, и в частности метод конечных әлементов, нашли свое применение для решения уравнений динамики вязкой жидкости в форме (2) и (3).
+
+С помощью разностных методов исследовались разнообразные задачи течения вязких несжимаемых жидкостей. Среди них задачи обтекания эллиптического и кругового цилиндра (в том числе вращающегося), пластины конечной толщины (в том числе под углом атаки), цилиндрич. торца, капли, плоской ступени и др. Изучались также течения в каверне, в плоском и цилиндрич. канале, в канале с препятствиями на стенках, течения со свободной поверхностью, течения естественной, вынужденной и смешанной конвекции.
+
+Применение разностных методов для расчета течений вязкого сжимаемого газа на основе полных Н. - С. у. сопряжено с нек-рыми дополнительными трудностями по сравнению с расчетами течений несжимаемой вязкой жидкости. Это связано с тем, чт о в течениях сжимаемого газа существуют не только области пограничных слоев, но и другие области больших градиентов искомых функций, к-рые соответствуют ударным волнам и волнам разрежения в невязких течениях газа. Сложность самой системы Н. - С. у. для сжимаемого вязкого газа предъ- являет повышенные требования к быстродействию и памяти ЭВМ. Использование явных схем в этом случає приводит к более простым алгоритмам. Примером явной схемы, хорошо зарекомендовавшей себя для расчета стационарных течений методом установления, является схема, к-рая для простого модельного уравнения с постоянными коэфффициентами
+
+\[
+\frac{\partial u}{\partial t}=a \frac{\partial u}{\partial x}+v \frac{\partial^{2} u}{\partial x^{2}}
+\]
+
+может быть записана в виде
+
+\[
+\frac{u_{m+1}^{n+1}-u_{m}^{n}}{\tau}=a \frac{u_{m+1}^{n}-u_{m-1}^{n+1}}{2 h}+v \frac{u_{m+1}^{n}-2 u_{m}^{n+1}+u_{m-1}^{n+1}}{h^{2}} .
+\]
+
+Эта схема аппроксимирует (5) на гладком установившемся решении с порядком $O\left(h^{2}\right)$ и устойчива при $\tau&lt;$ $&lt;h / a$. Условие устойчивости не зависит от $v$. Это означает, что при применении этой схемы к Н. - С. у. условие устойчивости не зависит от числа Рейнольдса. Тем не менее ограничение на итерационный шаг по времени для явных схем является существенным. Неявные схемы, как правило, не обладают такими ограничениями и абсолютно устойчивы для соответствующих линейных уравнений с постоянными коэфффициентами. Неявные схемы для расчета двумерных течений вязкого газа используются в сочетании с методом дробных шагов. Построены (1982) различные разностные схемы метода переменных направлений: с полной и неполной аппроксимацией на промежуточных слоях, дивергентные и недивергентные (см. [11]), схемы повышенного порядка точности (выше второго) относительно шагов сетки по пространству (см. [12]). Численное моделирование течений вязкого газа на основе Н.- С. У. связано с расчетом течений сложной структуры и с использованием достаточно подробных сеток, что невозможно в силу ограниченности памяти ЭВМ без применения метода взаимно перекрываюшихся областей (см. [13]). Разностные методы решения Н. - С. у. применялись для исследования большого числа задач динамики вязкого газа. Среди них задачи - сверхзвукового обтекания затупленных тел (сферы, торца кругового цилиндра), составных тел (сфера - конус, сфера - цилиндр), клина, передней кромки плоской пластины. Рассмотрены также течения в следах за телами конечных размеров, течения в соплах и воздухозаборниках, течения в полости при внешнем до- и сверхзвуковом потоке, исследовалось взаимодействие пограничного слоя с ударной волной, структура ударной волны в плазме и др. задачи. Перечисленные течения предполагались, как правило, ламинарными.
+
+Jum.: [1] N a v i e r, «Mém. Acad., sci.&quot;, 1827, t. 7, p. 375-94; [2] Po is s on S. D., &quot;J. Ecole polytechn.&quot;, 1831, t. 13, p. 1-174; G. G., &quot;Trans. Cambr. Phil. Soc.», 1849, v. 8, p. 287-319; [5] III ли и т и н $\boldsymbol{\text { г }}$ Г., теория пограничного слоя, пер. с нем., М., 1974; [6] т о м А., Э й п л т К., Числовые расчеты полей в технике и физике, пер. с англ., М. -Л., 1964; [7] Б р а и л о вВычислительные методы и программирование, в. 11, м., 1968, c. 3-18; [8] Я н е н к о Н. Н., Методы дробных шагов решения многомерных задач математической физики, Новосиб., 1967; 1974 , т. 219 , N2 2, c. $301-04$; [10] С a м а р с к и й А. А., «Ж. вычисл. матем. и матем. физики», 1965 , т. 5, с. 548-51; [11] К о в е н я В. М., Я н е н к о Н. Н., Метод расщепления в задачах газовой динамики, Новосиб.. 1981; [12] Толстых А. И.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9a355b7b0893e4c785b0g-1.jpg?height=47&amp;width=836&amp;top_left_y=2070&amp;top_left_x=986)
+П а с к о н о в В. М., Численное исследование сверхзвукового обтекания тел вязким газом, М., 1980; [14] Т е м а м Р., Уравнения Навье - Стокса. Теория и численный анализ, пер. с англ., М., 1981 ; [15] Численно е исследование современных задач газовой динамики, М., 1974; [16] Р о уч П. Д ж., Вычи-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9a355b7b0893e4c785b0g-1.jpg?height=47&amp;width=838&amp;top_left_y=2224&amp;top_left_x=985)
+R e y r e t R., V i v i a n d H., &quot;Lect. Notes Comput. Sci.»,
+1974 , № 11, p. 160-84; [18] B u rg g r a f O. R., «Lect. Notes Phys.», 1976, [№ 59], p. 52-64. $\quad$ B. М. Пасконов.</text_orig>
+</article>

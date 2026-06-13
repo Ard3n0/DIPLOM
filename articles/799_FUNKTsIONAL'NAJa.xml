@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/799_FUNKTsIONAL'NAJa" alphabetic_pos="799">
+  <title>ФУНКЦИОНАЛЬНАЯ ПРОИЗВОДНАЯ</title>
+  <authors>
+    <author>И. Б. Вапнярский</author>
+  </authors>
+  <pages>
+    <start>348</start>
+    <end>348</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/799_1_FUNKTsIONAL'NAJa">\lim _{\sigma \rightarrow 0, x_{0}, b \rightarrow x_{0}} \frac{I\left(y_{1}\right)-I\left(y_{0}\right)}{\sigma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/799_2_FUNKTsIONAL'NAJa">I(y)=\int_{x_{1}}^{x_{2}} F(x, y, \dot{y}) d x</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_1_FUNKTsIONAL'NAJa">i(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_2_FUNKTsIONAL'NAJa">y(x) ; x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_3_FUNKTsIONAL'NAJa">\left[x_{1}, x_{2}\right] ; y_{1}(x)=y_{0}(x)+\delta y(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_4_FUNKTsIONAL'NAJa">\delta y(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_5_FUNKTsIONAL'NAJa">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_6_FUNKTsIONAL'NAJa">x_{0} ; \sigma=\int_{a}^{b} \delta y(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_7_FUNKTsIONAL'NAJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_8_FUNKTsIONAL'NAJa">\left.\frac{\delta I\left(y_{0}\right)}{\delta y}\right|_{x=x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_9_FUNKTsIONAL'NAJa">\left.\frac{\delta I\left(y_{0}\right)}{\delta y}\right|_{x=x_{0}}=\frac{\partial F\left(x_{0}, y_{0}\left(x_{0}\right), \dot{y}_{0}\left(x_{0}\right)\right)}{\partial y}-\frac{d}{d x} \frac{F\left(x_{0}, y\left(x_{0}\right), \dot{y}\left(x_{0}\right)\right)}{\partial \dot{y}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/799_10_FUNKTsIONAL'NAJa">i(y)</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/799_1_FUNKTsIONAL'NAJa">
+      <rel_text>численные</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/799_2_FUNKTsIONAL'NAJa">
+      <rel_text>Вариационное исчисление</rel_text>
+      <target>http://libmeta.ru/me/article/598_VARIATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/799_3_FUNKTsIONAL'NAJa">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/799_4_FUNKTsIONAL'NAJa">
+      <rel_text>вариационного исчисления</rel_text>
+      <target>http://libmeta.ru/me/article/598_VARIATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/799_5_FUNKTsIONAL'NAJa">
+      <rel_text>производной</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/799_6_FUNKTsIONAL'NAJa">
+      <rel_text>производной</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/799_7_FUNKTsIONAL'NAJa">
+      <rel_text>интерес</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/799_8_FUNKTsIONAL'NAJa">
+      <rel_text>историч</rel_text>
+      <target>http://libmeta.ru/me/article/682_ISTOChNI</target>
+    </relation>
+  </relations>
+  <text>п р о и зв о д н а я В о ль т е р р а, -одно из первых понятий производной в бесконечномерном пространстве. Пусть $URI[[http://libmeta.ru/me/formula/aux/799_1_FUNKTsIONAL'NAJa]]/URI$ - нек-рый функционал от непрерывной функции одного переменного $URI[[http://libmeta.ru/me/formula/aux/799_2_FUNKTsIONAL'NAJa]]/URI$-нек-рая внутренняя точка отрезка $URI[[http://libmeta.ru/me/formula/aux/799_3_FUNKTsIONAL'NAJa]]/URI$, где вариация $URI[[http://libmeta.ru/me/formula/aux/799_4_FUNKTsIONAL'NAJa]]/URI$ отлична от нуля в малой окрестности $URI[[http://libmeta.ru/me/formula/aux/799_5_FUNKTsIONAL'NAJa]]/URI$ тотки $URI[[http://libmeta.ru/me/formula/aux/799_6_FUNKTsIONAL'NAJa]]/URI$. Предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/799_1_FUNKTsIONAL'NAJa]]/URI
+\]
+
+в предположении, что он существует, наз. Ф у н к ц и она ль о о й п р о и в в о д о й фуннкционала $URI[[http://libmeta.ru/me/formula/aux/799_7_FUNKTsIONAL'NAJa]]/URI$ и обозначается $URI[[http://libmeta.ru/me/formula/aux/799_8_FUNKTsIONAL'NAJa]]/URI$. Напр., для простейшего функционала классического вариационного исчисления
+
+\[
+URI[[http://libmeta.ru/me/formula/main/799_2_FUNKTsIONAL'NAJa]]/URI
+\]
+
+его Ф. П. имеет вид
+
+$URI[[http://libmeta.ru/me/formula/aux/799_9_FUNKTsIONAL'NAJa]]/URI$,
+
+т. е. представляет собой левую часть уравнения Эйлера, являющегося необходимым условием минимума функционала $URI[[http://libmeta.ru/me/formula/aux/799_10_FUNKTsIONAL'NAJa]]/URI$.
+
+В теоретич. вопросах понятие Ф. П. имеет лишь URI[[http://libmeta.ru/me/relation/799_8_FUNKTsIONAL'NAJa]]/URI. URI[[http://libmeta.ru/me/relation/799_7_FUNKTsIONAL'NAJa]]/URI и практически вытеснено понятиями Гато URI[[http://libmeta.ru/me/relation/799_6_FUNKTsIONAL'NAJa]]/URI и Фреше URI[[http://libmeta.ru/me/relation/799_5_FUNKTsIONAL'NAJa]]/URI. Однако понятие Ф. п. с успехом применяется в тисленных методах классического URI[[http://libmeta.ru/me/relation/799_4_FUNKTsIONAL'NAJa]]/URI (см. URI[[http://libmeta.ru/me/relation/799_2_FUNKTsIONAL'NAJa]]/URI; URI[[http://libmeta.ru/me/relation/799_1_FUNKTsIONAL'NAJa]]/URI URI[[http://libmeta.ru/me/relation/799_3_FUNKTsIONAL'NAJa]]/URI).</text>
+  <text_orig>п р о и зв о д н а я В о ль т е р р а, -одно из первых понятий производной в бесконечномерном пространстве. Пусть $I(y)$ - нек-рый функционал от непрерывной функции одного переменного $y(x) ; x_{0}$-нек-рая внутренняя точка отрезка $\left[x_{1}, x_{2}\right] ; y_{1}(x)=y_{0}(x)+\delta y(x)$, где вариация $\delta y(x)$ отлична от нуля в малой окрестности $[a, b]$ тотки $x_{0} ; \sigma=\int_{a}^{b} \delta y(x) d x$. Предел
+
+\[
+\lim _{\sigma \rightarrow 0, x_{0}, b \rightarrow x_{0}} \frac{I\left(y_{1}\right)-I\left(y_{0}\right)}{\sigma}
+\]
+
+в предположении, что он существует, наз. Ф у н к ц и она ль о о й п р о и в в о д о й фуннкционала $I$ и обозначается $\left.\frac{\delta I\left(y_{0}\right)}{\delta y}\right|_{x=x_{0}}$. Напр., для простейшего функционала классического вариационного исчисления
+
+\[
+I(y)=\int_{x_{1}}^{x_{2}} F(x, y, \dot{y}) d x
+\]
+
+его Ф. П. имеет вид
+
+$\left.\frac{\delta I\left(y_{0}\right)}{\delta y}\right|_{x=x_{0}}=\frac{\partial F\left(x_{0}, y_{0}\left(x_{0}\right), \dot{y}_{0}\left(x_{0}\right)\right)}{\partial y}-\frac{d}{d x} \frac{F\left(x_{0}, y\left(x_{0}\right), \dot{y}\left(x_{0}\right)\right)}{\partial \dot{y}}$,
+
+т. е. представляет собой левую часть уравнения Эйлера, являющегося необходимым условием минимума функционала $I(y)$.
+
+В теоретич. вопросах понятие Ф. П. имеет лишь историч. интерес и практически вытеснено понятиями Гато производной и Фреше производной. Однако понятие Ф. п. с успехом применяется в тисленных методах классического вариационного исчисления (см. Вариационное исчисление; численные методы). И. Б. Вапнярский.</text_orig>
+</article>

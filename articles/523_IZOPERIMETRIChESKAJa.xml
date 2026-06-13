@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/523_IZOPERIMETRIChESKAJa" alphabetic_pos="523">
+  <title>ИЗОПЕРИМЕТРИЧЕСКАЯ ЗАДАЧА</title>
+  <authors/>
+  <pages>
+    <start>257</start>
+    <end>258</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б ли с с Г. А., Лекции по вариационному исчислению, пер. с англ., М., 1950; [2] Ц л а ф Л. Я., Вариационное исчисление и интегральные уравнения, 2 изд., М., 1970[3] Л а в р е н т в е в М. А., Л ю с т е р н и к Л. А., Курс вариационного исчисления, 2 изд., М. - Ј., 1950 .</literature_orig>
+    <unit>
+      <author>Блисс Г. А.</author>
+      <title>Лекции по вариационному исчислению</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Цлаф Л. Я.</author>
+      <title>Вариационное исчисление и интегральные уравнения</title>
+      <publication>2 изд., М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Лаврентвев М. А.</author>
+      <author>Люстерник Л. А.</author>
+      <title>Курс вариационного исчисления</title>
+      <publication>2 изд., М. - Ј.</publication>
+      <year>1950</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/523_1_IZOPERIMETRIChESKAJa">J_{0}(y)=\int_{x_{1}}^{x_{2}} f_{0}\left(x, y, y^{\prime}\right) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/523_2_IZOPERIMETRIChESKAJa">\begin{gathered}J_{i}(y)=\int_{x_{1}}^{x_{2}} f_{i}\left(x, y, y^{\prime}\right) d x=c_{i} ; f_{i}: \mathbb{R} \times \mathbb{R}{ }^{n} \times \mathbb{R} n \longrightarrow \mathbb{R}, \\i=1, \ldots, m,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/523_3_IZOPERIMETRIChESKAJa">\dot{z}_{i}=f_{i}\left(x, y, y^{\prime}\right), i=1, \ldots, m,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/523_4_IZOPERIMETRIChESKAJa">z_{i}\left(x_{1}\right)=0, z_{i}\left(x_{2}\right)=c_{i}, i=1, \ldots, m .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/523_5_IZOPERIMETRIChESKAJa">L\left(x, y, y^{\prime}, \lambda_{0}, \ldots, \lambda_{m}\right)=\sum_{i=0}^{m} \lambda_{i} f_{i}\left(x, y, y^{\prime}\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/523_1_IZOPERIMETRIChESKAJa">z_{i}</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/me/relation/523_1_IZOPERIMETRIChESKAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/523_2_IZOPERIMETRIChESKAJa">
+      <rel_text>происходит</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/523_3_IZOPERIMETRIChESKAJa">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/523_4_IZOPERIMETRIChESKAJa">
+      <rel_text>вариационного исчисления</rel_text>
+      <target>http://libmeta.ru/me/article/598_VARIATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/523_5_IZOPERIMETRIChESKAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/523_6_IZOPERIMETRIChESKAJa">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/523_7_IZOPERIMETRIChESKAJa">
+      <rel_text>Необходимые условия</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+  </relations>
+  <text>одна Из основных задач классического вариационного исчисления. И. з. состоит в минимизации функционала:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/523_1_IZOPERIMETRIChESKAJa]]/URI
+\]
+
+при ограничениях вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/523_2_IZOPERIMETRIChESKAJa]]/URI
+\]
+
+и нек-рых краевых условиях.
+
+И. 3. приводится к Лагранжа задаче при помощи введения новых переменных $URI[[http://libmeta.ru/me/formula/aux/523_1_IZOPERIMETRIChESKAJa]]/URI$, удовлетворяющих дифференциальным уравнениям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/523_3_IZOPERIMETRIChESKAJa]]/URI
+\]
+
+и граничным условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/523_4_IZOPERIMETRIChESKAJa]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/523_7_IZOPERIMETRIChESKAJa]]/URI оптимальности И. з. имеют тот же URI[[http://libmeta.ru/me/relation/523_6_IZOPERIMETRIChESKAJa]]/URI, что и для простейшей URI[[http://libmeta.ru/me/relation/523_5_IZOPERIMETRIChESKAJa]]/URI URI[[http://libmeta.ru/me/relation/523_4_IZOPERIMETRIChESKAJa]]/URI относительно Лагранжа URI[[http://libmeta.ru/me/relation/523_3_IZOPERIMETRIChESKAJa]]/URI:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/523_5_IZOPERIMETRIChESKAJa]]/URI
+\]
+
+Название «и. з.» URI[[http://libmeta.ru/me/relation/523_2_IZOPERIMETRIChESKAJa]]/URI от следующей классической URI[[http://libmeta.ru/me/relation/523_1_IZOPERIMETRIChESKAJa]]/URI: среди всех замкнутых линий на плоскости с заданным периметром найти линию, к-рая ограничивает наибольшую площадь.</text>
+  <text_orig>одНа ИЗ основных задач классического вариационного исчисления. И. з. состоит в минимизации функционала:
+
+\[
+J_{0}(y)=\int_{x_{1}}^{x_{2}} f_{0}\left(x, y, y^{\prime}\right) d x
+\]
+
+при ограничениях вида
+
+\[
+\begin{gathered}
+J_{i}(y)=\int_{x_{1}}^{x_{2}} f_{i}\left(x, y, y^{\prime}\right) d x=c_{i} ; f_{i}: \mathbb{R} \times \mathbb{R}{ }^{n} \times \mathbb{R} n \longrightarrow \mathbb{R}, \\
+i=1, \ldots, m,
+\end{gathered}
+\]
+
+и нек-рых краевых условиях.
+
+И. 3. приводится к Лагранжа задаче при помощи введения новых переменных $z_{i}$, удовлетворяющих дифференциальным уравнениям
+
+\[
+\dot{z}_{i}=f_{i}\left(x, y, y^{\prime}\right), i=1, \ldots, m,
+\]
+
+и граничным условиям
+
+\[
+z_{i}\left(x_{1}\right)=0, z_{i}\left(x_{2}\right)=c_{i}, i=1, \ldots, m .
+\]
+
+Необходимые условия оптимальности И. з. имеют тот же вид, что и для простейшей задачи вариационного исчисления относительно Лагранжа функции:
+
+\[
+L\left(x, y, y^{\prime}, \lambda_{0}, \ldots, \lambda_{m}\right)=\sum_{i=0}^{m} \lambda_{i} f_{i}\left(x, y, y^{\prime}\right) .
+\]
+
+Название «И. з.» происходит от следующей классической задачи: среди всех замкнутых линий на плоскости с заданным периметром найти линию, к-рая ограничивает наибольшую площадь. Лит.: [1] Б ли с с Г. А., Лекции по вариационному исчислению, пер. с англ., М., 1950; [2] Ц л а ф Л. Я., Вариационное исчисление и интегральные уравнения, 2 изд., М., 1970
+[3] Л а в р е н т в е в М. А., Л ю с т е р н и к Л. А., Курс вариационного исчисления, 2 изд., М. - Ј., 1950 .</text_orig>
+</article>

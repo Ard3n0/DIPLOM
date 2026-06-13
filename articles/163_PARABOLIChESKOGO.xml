@@ -1,0 +1,507 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/163_PARABOLIChESKOGO" alphabetic_pos="163">
+  <title>ПАРАБОЛИЧЕСКОГО ТИПА УРАВНЕНИЕ</title>
+  <authors>
+    <author>А. В. Гулик</author>
+  </authors>
+  <pages>
+    <start>99</start>
+    <end>100</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] С а м а р с к и Н А. А., Теория разностных схем, М., 1977; [2] С а у л в е в В. К., Интегрирование уравнений с к и й А. А., Г у ли н А. В., Устойчивость разностных схем, М., 1973; [4] Фр я з и н о в И. В. “ж. вычислит. матем. и матсм. физ.&quot;, 1971, т. $11, \mathcal{N}_{2} 5$, с. $1219-28 ;$; 2 М а p-![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=45&amp;width=819&amp;top_left_y=1756&amp;top_left_x=982)числит. матем. и матем. физ.&quot;, 1963, т. $3, N_{2} 4$, с. $702-19 ;[7]$ Я н е н к Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосиб., 1967; [8] С а м а pс к и й А. А., &quot;ж. вычислит. матем. и матем. физ.&quot;, 1962,![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=42&amp;width=819&amp;top_left_y=1889&amp;top_left_x=985)числит. матем. и матем. физ.&quot;, 1962, т. $2, \mathrm{No}_{2}$, c. $548-68$; [11]![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=47&amp;width=812&amp;top_left_y=1938&amp;top_left_x=987)![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=47&amp;width=809&amp;top_left_y=1971&amp;top_left_x=985)&quot;дифференц. уравнения&quot;, 1980 , т. 16, № 7, с. 1332-43; [13] шения сеточных уравнений, М., 1978.</literature_orig>
+    <unit>
+      <author>Самарски Н А. А.</author>
+      <title>Теория разностных схем</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Саулвев В. К.</author>
+      <author>Интегрированиеуравненийский А. А.</author>
+      <author>Гулин А. В.</author>
+      <title>Устойчивость разностных схем</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other>1971, т. $11, \mathcal{N}_{2} 5$, с. $1219-28 ;$; 2 М а p-![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=45&amp;width=819&amp;top_left_y=1756&amp;top_left_x=982)числит. матем. и матем. физ.&quot;, 1963, т. $3, N_{2} 4$, с. $702-19 ;[7]$ Я н е н к Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосиб., 1967; [8] С а м а pс к и й А. А., &quot;ж. вычислит. матем. и матем. физ.&quot;, 1962, ![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=42&amp;width=819&amp;top_left_y=1889&amp;top_left_x=985)числит. матем. и матем. физ.&quot;, 1962, т. $2, \mathrm{No}_{2}$, c. $548-68$; [11]![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=47&amp;width=812&amp;top_left_y=1938&amp;top_left_x=987)![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=47&amp;width=809&amp;top_left_y=1971&amp;top_left_x=985)&quot;дифференц. уравнения&quot;, 1980, т. 16, № 7, с. 1332-43; [13] шения сеточных уравнений, М., 1978.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/163_1_PARABOLIChESKOGO">\frac{\partial u}{\partial t}=\frac{\partial^{2} u}{\partial x^{2}}+f(x, t), \quad t&gt;0, \quad 0&lt;x&lt;l,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_2_PARABOLIChESKOGO">u(0, t)=\mu_{1}(t), u(l, t)=\mu_{2}(t), u(x, 0)=u_{0}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_3_PARABOLIChESKOGO">\begin{gathered}y_{i}^{n}=y\left(x_{i}, t_{n}\right), y_{t, i}=\left(y_{i}^{n+1}-y_{i}^{n}\right) / \tau, \\y \frac{n}{x_{1} i}=\left(y_{i}^{n}-y_{i-1}^{n}\right) / h, y_{x, i}^{n}=\left(y_{i+1}^{n}-y_{i}^{n}\right) / h, \\y \frac{n}{x x, i}=\left(y_{i+1}^{n}-2 y_{i}^{n}+y_{i-1}^{n}\right) / h^{2} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_4_PARABOLIChESKOGO">\max _{0&lt;i&lt;\mathrm{N}}\left|y_{i}^{n}-u\left(x_{i}, t_{n}\right)\right| \leqslant M\left(\tau^{2}+h^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_5_PARABOLIChESKOGO">\frac{\partial u}{\partial x}(0, t)-\beta u(0, t)=\mu(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_6_PARABOLIChESKOGO">=0,5 h\left(y_{t, 0}^{n}-\varphi_{0}^{n}\right), \mu^{n}=\mu\left(t_{n}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_7_PARABOLIChESKOGO">\frac{\partial u}{\partial t}=\frac{1}{r^{m}} \frac{\partial}{\partial r}\left(r^{m} \frac{\partial u}{\partial r}\right), m=1,2,0&lt;r&lt;R,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_8_PARABOLIChESKOGO">y_{t, i}^{n}=\Lambda_{r}^{(m)}\left(\sigma y_{i}^{n+1}+(1-\sigma) y_{i}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_9_PARABOLIChESKOGO">\Lambda_{r}^{(m)} y_{0}^{n}=\frac{1}{r_{0}^{m}}\left(\bar{r}_{1}^{m} \frac{y_{1}^{n}-y_{0}^{n}}{h}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_10_PARABOLIChESKOGO">\Lambda_{r}^{(m)} y_{i}^{n}=\frac{1}{r_{i}^{m}} \frac{1}{h}\left(\bar{r}_{i+1}^{m} \frac{y_{i+1}^{n}-y_{i}^{n}}{h}-\bar{r}_{i}^{m} \frac{y_{i}^{n}-y_{i-1}^{n}}{h}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_11_PARABOLIChESKOGO">\frac{\partial u}{\partial t}=\frac{\partial}{\partial x}\left(k(x, t) \frac{\partial u}{\partial x}\right)+f(x, t), 0&lt;x&lt;l, t&gt;0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_12_PARABOLIChESKOGO">y_{t, i}^{n}=\left(a\left(\sigma y^{n+1}+(1-\sigma) y^{n}\right)_{\bar{x}}\right)_{x, i}+\varphi_{i}^{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_13_PARABOLIChESKOGO">a=a_{i}^{n}=k\left(x_{i}-0,5 h, t_{n}+0,5 \tau\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_14_PARABOLIChESKOGO">\frac{\partial u}{\partial t}=\frac{\partial}{\partial x}\left(k(u) \frac{\partial u}{\partial x}\right), k(u)&gt;0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_15_PARABOLIChESKOGO">\begin{gathered}y_{t, i}^{n}=\left(a\left(y_{i}^{n+1}\right) y_{\bar{x}}^{n+1}\right)_{x, i}, \\a\left(y_{i}^{n+1}\right)=0,5\left(k\left(y_{i}^{n+1}\right)-\vdash k\left(y_{i-1}^{n+1}\right)\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_16_PARABOLIChESKOGO">y_{i}^{(0)}=y_{i}^{n}, \quad y_{i}^{(m+1)}=y_{i}^{n+1} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_17_PARABOLIChESKOGO">\begin{gathered}y_{i}^{n+1 / 2}=y_{i}^{n}+0,5 \tau\left(a\left(y_{i}^{n}\right) y_{\bar{x}}^{n+1 / 2}\right)_{x, i}, \\y_{i}^{n+1}=y_{i}^{n}+0,5 \tau\left(a\left(y_{i}^{n+1 / 2}\right)\left(y^{n+1}+y^{n}\right)_{\bar{x}}\right)_{x, i} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_18_PARABOLIChESKOGO">\frac{\partial \|}{\partial t}=\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}},\left(x_{1}, x_{2}\right) \in G, t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_19_PARABOLIChESKOGO">\begin{gathered}y_{i j}^{n}=y\left(x_{i j}, t_{n}\right), y_{i j}^{n+1 / 2}=y\left(x_{i j}, t_{n}+0,5 \tau\right), \\\Lambda_{1} y_{i j}^{n}=\left(y_{i+1, j}^{n}-2 y_{i, j}^{n}+y_{i-1, j}^{n}\right) / h_{1}^{2}, \\\Lambda_{2} y_{i j}^{n}=\left(y_{i, j+1}^{n}-2 y_{i j}^{n}+y_{i, j-1}^{n}\right) / h_{2}^{2} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/163_20_PARABOLIChESKOGO">\begin{aligned}&amp; \frac{y_{i j}^{n+1 / 2}-y_{i j}^{n}}{0,5 \tau}=\Lambda_{1} y_{i j}^{n+1 / 2}+\Lambda_{2} y_{i j}^{n}, \\&amp; \frac{y_{i j}^{n+1}-y_{i j}^{n+1 / 2}}{0,5 \tau}=\Lambda_{1} y_{i j}^{n+1 / 2}+\Lambda_{2} y_{i j}^{n+1} .\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_1_PARABOLIChESKOGO">\left(x_{i}, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_2_PARABOLIChESKOGO">x_{i}-i h, i=0,1, \ldots, N, h N=l, t_{n}=n \tau, n=0,1, \ldots ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_3_PARABOLIChESKOGO">y_{t, i}^{n}=\sigma y_{\bar{x} x, i}^{n+1}+(1-\sigma) y_{\bar{x} x, i}^{n}+\varphi_{i}^{n}, i=1,2, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_4_PARABOLIChESKOGO">y_{0}^{n}=\mu_{1}\left(t_{n}\right), y_{N}^{n}=\mu_{2}\left(t_{n}\right), y_{i}^{0}=u_{0}\left(x_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_5_PARABOLIChESKOGO">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_6_PARABOLIChESKOGO">\varphi_{i}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_7_PARABOLIChESKOGO">f(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_8_PARABOLIChESKOGO">\varphi_{i}^{n}=f\left(x_{i}, t_{n}-1-0,5 \tau\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_9_PARABOLIChESKOGO">n=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_10_PARABOLIChESKOGO">y_{i}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_11_PARABOLIChESKOGO">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_12_PARABOLIChESKOGO">y_{i}^{n+1}, i=1,2, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_13_PARABOLIChESKOGO">\sigma=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_14_PARABOLIChESKOGO">y_{i}^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_15_PARABOLIChESKOGO">y_{i}^{n}, \varphi_{i}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_16_PARABOLIChESKOGO">\sigma \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_17_PARABOLIChESKOGO">y_{i}^{n+1}, i=1,2, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_18_PARABOLIChESKOGO">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_19_PARABOLIChESKOGO">\tau \leqslant 0,5 h^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_20_PARABOLIChESKOGO">\sigma \geqslant 0,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_21_PARABOLIChESKOGO">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_22_PARABOLIChESKOGO">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_23_PARABOLIChESKOGO">\varphi_{i}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_24_PARABOLIChESKOGO">f(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_25_PARABOLIChESKOGO">h, \tau \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_26_PARABOLIChESKOGO">y_{i}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_27_PARABOLIChESKOGO">u\left(x_{i}, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_28_PARABOLIChESKOGO">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_29_PARABOLIChESKOGO">\left(\sigma=0,5, \varphi_{i}^{n} \cdot f\left(x_{i}, t_{n}+0,5 \tau\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_30_PARABOLIChESKOGO">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_31_PARABOLIChESKOGO">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_32_PARABOLIChESKOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_33_PARABOLIChESKOGO">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_34_PARABOLIChESKOGO">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_35_PARABOLIChESKOGO">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_36_PARABOLIChESKOGO">\sigma=0,5-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_37_PARABOLIChESKOGO">-h^{2} /(12 \tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_38_PARABOLIChESKOGO">\varphi_{i}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_39_PARABOLIChESKOGO">o\left(\tau^{2}+h^{4}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_40_PARABOLIChESKOGO">\sigma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_41_PARABOLIChESKOGO">o\left(\tau+h^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_42_PARABOLIChESKOGO">f(x, t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_43_PARABOLIChESKOGO">\mu_{1}(t)=\mu_{2}(t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_44_PARABOLIChESKOGO">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_45_PARABOLIChESKOGO">e^{-\lambda_{1} t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_46_PARABOLIChESKOGO">\lambda_{1}=\pi^{2} / l^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_47_PARABOLIChESKOGO">(\sigma=0,5)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_48_PARABOLIChESKOGO">\tau \leqslant l h / \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_49_PARABOLIChESKOGO">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_50_PARABOLIChESKOGO">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_51_PARABOLIChESKOGO">o\left(h^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_52_PARABOLIChESKOGO">\sigma\left(y_{x, 0}^{n+1}-\left(\beta y_{0}^{n+1}+\mu^{n+1}\right)\right)+(1-\sigma)\left(y_{x, 0}^{n}-\left(\beta y_{0}^{n}+\mu^{n}\right)\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_53_PARABOLIChESKOGO">\left(r_{i}, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_54_PARABOLIChESKOGO">t_{n}=n \tau, n=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_55_PARABOLIChESKOGO">r_{i}=\left(i+\frac{m}{2}\right) h, i=0,1, \ldots, N, h=\frac{R}{N+0,5 m}, m=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_56_PARABOLIChESKOGO">\overline{r_{i}}=0,5\left(r_{i}+r_{i+1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_57_PARABOLIChESKOGO">m=1, \bar{r}_{i}=\sqrt{r_{i} r_{i-1}} \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_58_PARABOLIChESKOGO">m=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_59_PARABOLIChESKOGO">i=1,2, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_60_PARABOLIChESKOGO">y^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_61_PARABOLIChESKOGO">y^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_62_PARABOLIChESKOGO">s-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_63_PARABOLIChESKOGO">y_{i}^{(s+1)}=y_{i}^{n}+\tau\left(a\left(y_{i}^{(s)}\right) y_{\bar{\chi}}^{(s+1)}\right)_{x, i}, s=0,1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_64_PARABOLIChESKOGO">y_{i}^{(s+1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_65_PARABOLIChESKOGO">t_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_66_PARABOLIChESKOGO">g\left\{0&lt;x_{\alpha}&lt;l_{\alpha}, \alpha=1,2\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_67_PARABOLIChESKOGO">x_{i j}=\left(x_{1}^{(i)}, x_{2}^{(j)}\right), x_{1}^{(i)}=i h_{1}, i=0,1, \ldots, N_{1}, \quad h_{1} N_{1}=l_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_68_PARABOLIChESKOGO">x_{2}^{(j)}=j h_{2}, j=0,1, \ldots, N_{2}, h_{2} N_{2}=l_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_69_PARABOLIChESKOGO">i=1, \ldots, N_{1}-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_70_PARABOLIChESKOGO">j=1, \ldots, N_{2}-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_71_PARABOLIChESKOGO">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_72_PARABOLIChESKOGO">j=1,2, \ldots, N_{2}-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_73_PARABOLIChESKOGO">y_{i j}^{n+1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_74_PARABOLIChESKOGO">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_75_PARABOLIChESKOGO">i=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_76_PARABOLIChESKOGO">n_{1}-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/163_77_PARABOLIChESKOGO">y_{i j}^{n+1}</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/163_1_PARABOLIChESKOGO">
+      <rel_text>дискретного</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/163_2_PARABOLIChESKOGO">
+      <rel_text>алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/163_3_PARABOLIChESKOGO">
+      <rel_text>метод разделения переменных</rel_text>
+      <target>http://libmeta.ru/me/article/885_RAZDELENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/163_4_PARABOLIChESKOGO">
+      <rel_text>разностных краевых</rel_text>
+      <target>http://libmeta.ru/me/article/244_AІІROKSIMADIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/163_5_PARABOLIChESKOGO">
+      <rel_text>итерациоввые методы</rel_text>
+      <target>http://libmeta.ru/me/article/687_ITERATsIONNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/163_6_PARABOLIChESKOGO">
+      <rel_text>многомерного</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/163_7_PARABOLIChESKOGO">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/163_8_PARABOLIChESKOGO">
+      <rel_text>строятся</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+  </relations>
+  <text>ч И сле н ны е ме т о ды ре ше ни я- методы решения уравненшй параболич. тиша на основе вычислительных алгоритмов. Для решения П. т. у. часто применяются приближенные численные методы, рассчитанные на использование быстродействующих Јвм. Наиболее универсальным является ме тод с с то к (к о н е чн 0 p а 3 н о с т ны й м с т о д).
+
+Ниже рассмотрен метод сеток на иримере уравнения тешлошроводности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_1_PARABOLIChESKOGO]]/URI
+\]
+
+с краевыми условиями 1-го рода
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_2_PARABOLIChESKOGO]]/URI
+\]
+
+Вводится равномерная сетка узлов $URI[[http://libmeta.ru/me/formula/aux/163_1_PARABOLIChESKOGO]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/163_2_PARABOLIChESKOGO]]/URI$
+
+If обозначения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_3_PARABOLIChESKOGO]]/URI
+\]
+
+Метод сеток состоит в том, что уравнение (1) приближенно заменяется системой линейных алгебраич. уравнений (разностной схемой)
+
+$URI[[http://libmeta.ru/me/formula/aux/163_3_PARABOLIChESKOGO]]/URI$,
+$URI[[http://libmeta.ru/me/formula/aux/163_4_PARABOLIChESKOGO]]/URI$,
+
+гцс $URI[[http://libmeta.ru/me/formula/aux/163_5_PARABOLIChESKOGO]]/URI$ - числової параметр й $URI[[http://libmeta.ru/me/formula/aux/163_6_PARABOLIChESKOGO]]/URI$ - сеточная аıицоксимация фұункции $URI[[http://libmeta.ru/me/formula/aux/163_7_PARABOLIChESKOGO]]/URI$, напр. $URI[[http://libmeta.ru/me/formula/aux/163_8_PARABOLIChESKOGO]]/URI$. Система уравнений (2) репается по слоям, т. е. іля каждого $URI[[http://libmeta.ru/me/formula/aux/163_9_PARABOLIChESKOGO]]/URI$ по известным значениям $URI[[http://libmeta.ru/me/formula/aux/163_10_PARABOLIChESKOGO]]/URI$, œ $URI[[http://libmeta.ru/me/formula/aux/163_11_PARABOLIChESKOGO]]/URI$ находятся новыс значения $URI[[http://libmeta.ru/me/formula/aux/163_12_PARABOLIChESKOGO]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/163_13_PARABOLIChESKOGO]]/URI$ (лвная схема), то $URI[[http://libmeta.ru/me/formula/aux/163_14_PARABOLIChESKOGO]]/URI$ выражкаются явным образом через $URI[[http://libmeta.ru/me/formula/aux/163_15_PARABOLIChESKOGO]]/URI$. Если же $URI[[http://libmeta.ru/me/formula/aux/163_16_PARABOLIChESKOGO]]/URI$ (неявныс схемы), то относительно $URI[[http://libmeta.ru/me/formula/aux/163_17_PARABOLIChESKOGO]]/URI$, возникает система уравнений, имеющая трехдиагональную матрицу. Эта система уравнений решается прогонки методом. Недостатком явной схемы является сильное ограничение на лшаг $URI[[http://libmeta.ru/me/formula/aux/163_18_PARABOLIChESKOGO]]/URI$, возникающее из условия устойчивости, а именно $URI[[http://libmeta.ru/me/formula/aux/163_19_PARABOLIChESKOGO]]/URI$. Неявные схемы при $URI[[http://libmeta.ru/me/formula/aux/163_20_PARABOLIChESKOGO]]/URI$ абсолютно устойчивы, т. е. устойчивы при любых шагах $URI[[http://libmeta.ru/me/formula/aux/163_21_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/163_22_PARABOLIChESKOGO]]/URI$. Известны и другие разностные схемы для уравнения (1) (см. [1], [2]).
+
+Если схема (2) устойчива и $URI[[http://libmeta.ru/me/formula/aux/163_23_PARABOLIChESKOGO]]/URI$ ашпроксимирует $URI[[http://libmeta.ru/me/formula/aux/163_24_PARABOLIChESKOGO]]/URI$, то при $URI[[http://libmeta.ru/me/formula/aux/163_25_PARABOLIChESKOGO]]/URI$ решение $URI[[http://libmeta.ru/me/formula/aux/163_26_PARABOLIChESKOGO]]/URI$ разностной задачи сходится к решению $URI[[http://libmeta.ru/me/formula/aux/163_27_PARABOLIChESKOGO]]/URI$ исходной задачи (см. [1]). Порядок точности зависит от параметра $URI[[http://libmeta.ru/me/formula/aux/163_28_PARABOLIChESKOGO]]/URI$. Так, симметритная схема $URI[[http://libmeta.ru/me/formula/aux/163_29_PARABOLIChESKOGO]]/URI$ имеет второй порядок точности по $URI[[http://libmeta.ru/me/formula/aux/163_30_PARABOLIChESKOGO]]/URI$ іl по $URI[[http://libmeta.ru/me/formula/aux/163_31_PARABOLIChESKOGO]]/URI$, т. е. для гаждого $URI[[http://libmeta.ru/me/formula/aux/163_32_PARABOLIChESKOGO]]/URI$ выполняется оценка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_4_PARABOLIChESKOGO]]/URI
+\]
+
+с константой $URI[[http://libmeta.ru/me/formula/aux/163_33_PARABOLIChESKOGO]]/URI$, не зависнщей от $URI[[http://libmeta.ru/me/formula/aux/163_34_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/163_35_PARABOLIChESKOGO]]/URI$. Ii ри $URI[[http://libmeta.ru/me/formula/aux/163_36_PARABOLIChESKOGO]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/163_37_PARABOLIChESKOGO]]/URI$ и специальном выборе $URI[[http://libmeta.ru/me/formula/aux/163_38_PARABOLIChESKOGO]]/URI$ схема (2) имеет точность $URI[[http://libmeta.ru/me/formula/aux/163_39_PARABOLIChESKOGO]]/URI$. Для остальных $URI[[http://libmeta.ru/me/formula/aux/163_40_PARABOLIChESKOGO]]/URI$ тотность $URI[[http://libmeta.ru/me/formula/aux/163_41_PARABOLIChESKOGO]]/URI$
+
+При решении П. т. у. на больших отрезках времени существенное значение имеет асимптотич. устойчивость разностной схемы. Решение уравнения (1) с $URI[[http://libmeta.ru/me/formula/aux/163_42_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/163_43_PARABOLIChESKOGO]]/URI$ ведет себя при $URI[[http://libmeta.ru/me/formula/aux/163_44_PARABOLIChESKOGO]]/URI$ как $URI[[http://libmeta.ru/me/formula/aux/163_45_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/163_46_PARABOLIChESKOGO]]/URI$. Этим свойством обладает не всякая разностная схема, аппроксимирующая уравнение (1). Напр., симметричная схема $URI[[http://libmeta.ru/me/formula/aux/163_47_PARABOLIChESKOGO]]/URI$ асимптотически устойчива при условии $URI[[http://libmeta.ru/me/formula/aux/163_48_PARABOLIChESKOGO]]/URI$. Построены схемы 2-го порядка точности, асимптотически устойчивые при любых $URI[[http://libmeta.ru/me/formula/aux/163_49_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/163_50_PARABOLIChESKOGO]]/URI$, однако они не входят в семейство (2) (см. [3]).
+
+Краевые условия 3-го рода
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_5_PARABOLIChESKOGO]]/URI
+\]
+
+апороксимируются с порядком $URI[[http://libmeta.ru/me/formula/aux/163_51_PARABOLIChESKOGO]]/URI$ разностными у равнениями
+
+$URI[[http://libmeta.ru/me/formula/aux/163_52_PARABOLIChESKOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_6_PARABOLIChESKOGO]]/URI
+\]
+
+Для уравнсния теплопроводности в цилиндрич. и сферич. координатах
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_7_PARABOLIChESKOGO]]/URI
+\]
+
+вводятся сетки $URI[[http://libmeta.ru/me/formula/aux/163_53_PARABOLIChESKOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/163_54_PARABOLIChESKOGO]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/163_55_PARABOLIChESKOGO]]/URI$, и рассматриваются разностные уравнения (см. [4])
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_8_PARABOLIChESKOGO]]/URI
+\]
+
+г де
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_9_PARABOLIChESKOGO]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/163_10_PARABOLIChESKOGO]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/163_56_PARABOLIChESKOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/163_57_PARABOLIChESKOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/163_58_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/163_59_PARABOLIChESKOGO]]/URI$. Для решения П. т. у. с переменными коэфффициентамі применяются однородные консервативные разностные схемы, выражающие на сетке законы сох ранения, присупие псходному дифференциальному уравнснию (см. [1], [5]). При шостроении разностных схем для П. т. У. с переменными коэффициентами шрименяются методы: баланса, вариационный, конечных әлементов. Напр., для уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_11_PARABOLIChESKOGO]]/URI
+\]
+
+используются разностные схемы с весами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_12_PARABOLIChESKOGO]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_13_PARABOLIChESKOGO]]/URI
+\]
+
+Доказана сходимость и получены оценки погрешности однородных консервативных разностных схем для П. т. у. как в случае непрерывных, так и в случае разрывных коэффициентов (см. [1]).
+
+Для решения систем уравнений параболич. типа, содержащих одну пространственную переменную, применяются те же разностные схемы, что и для одного уравнения. Вектор $URI[[http://libmeta.ru/me/formula/aux/163_60_PARABOLIChESKOGO]]/URI$ решения на новом слое находится матричной факторизации методом.
+
+При решении квазиливейного П. т. у. используются неявныс абсолютно устойчивые разностные схемы. Решение $URI[[http://libmeta.ru/me/formula/aux/163_61_PARABOLIChESKOGO]]/URI$ разностного уравнения находится итерационным методом с использованием чрогонки. Наир., для уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_14_PARABOLIChESKOGO]]/URI
+\]
+
+применяют тисто неявную разностную схему
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_15_PARABOLIChESKOGO]]/URI
+\]
+
+к-рую решают с помощью итерационного метода ( $URI[[http://libmeta.ru/me/formula/aux/163_62_PARABOLIChESKOGO]]/URI$ номер итерации):
+
+$URI[[http://libmeta.ru/me/formula/aux/163_63_PARABOLIChESKOGO]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_16_PARABOLIChESKOGO]]/URI
+\]
+
+Решение $URI[[http://libmeta.ru/me/formula/aux/163_64_PARABOLIChESKOGO]]/URI$ на каждой итерации находится методом прогонки. При решении нелинсйного П. т. у. нашли также применение схемы, основанные на идее Рунге Кутта метода. Так, для уравнения (3) используется двухәтапный метод
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_17_PARABOLIChESKOGO]]/URI
+\]
+
+Тестпрование іл проверка качества разностных схем для нелинейного П. т. У. проводится путем сравневия с точными автомодельными решениями, такими, напр., как решение тина температурной волны (см. [6]).
+
+При решении многомерного П. т. у. используются переменных направлений методы, к-рые позволяют свести решение многомерной задачи к решению послөдовательности одномерных задач (см. [1], [7]-[10]). Предложено и исследовано значительное число абсолютно устойчивых алгоритмов переменных направлений. Эти алгоритмы являются экономичными в том смысле, что число арифметич. действий, необходимых для вычисления решения на новом временно́м слое $URI[[http://libmeta.ru/me/formula/aux/163_65_PARABOLIChESKOGO]]/URI$, имеет порядок числа узлов пространственной сетки. Ниже рассмотрен пример схемы переменных направлевий для уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_18_PARABOLIChESKOGO]]/URI
+\]
+
+в прямоугольнике $URI[[http://libmeta.ru/me/formula/aux/163_66_PARABOLIChESKOGO]]/URI$. Вводится сетка
+
+$URI[[http://libmeta.ru/me/formula/aux/163_67_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/163_68_PARABOLIChESKOGO]]/URI$
+
+и обозначения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_19_PARABOLIChESKOGO]]/URI
+\]
+
+Уравнение (4) решается с помощью следующеӥ разностной схемы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/163_20_PARABOLIChESKOGO]]/URI
+\]
+
+Эти уравнения записываются при $URI[[http://libmeta.ru/me/formula/aux/163_69_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/163_70_PARABOLIChESKOGO]]/URI$ и доопределяются соответствующими граничными условиями. Из первого уравнения прогонкой по направлению $URI[[http://libmeta.ru/me/formula/aux/163_71_PARABOLIChESKOGO]]/URI$ для каждого $URI[[http://libmeta.ru/me/formula/aux/163_72_PARABOLIChESKOGO]]/URI$ находится $URI[[http://libmeta.ru/me/formula/aux/163_73_PARABOLIChESKOGO]]/URI$, а затем из второго уравнения прогонкой по направлению $URI[[http://libmeta.ru/me/formula/aux/163_74_PARABOLIChESKOGO]]/URI$ для каждого $URI[[http://libmeta.ru/me/formula/aux/163_75_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/163_76_PARABOLIChESKOGO]]/URI$ находится $URI[[http://libmeta.ru/me/formula/aux/163_77_PARABOLIChESKOGO]]/URI$. Таким образом, вычислительный алгоритм состоит в последовательном применениі одномерных прогонок.
+
+Теоретич. основой построения и исследования экономичных разностных схем для многомерного П. т. у. является метод суммарной аппрокскмации (см. [1], [8], [9]). Обобщением методов переменных направлений явились аддитивные экономичные схемы с ураввениями на графах и векторные схемы (см. [11]).
+
+В случае нерегулярных пространственных сеток разностные схөмы для П. т. у. URI[[http://libmeta.ru/me/relation/163_8_PARABOLIChESKOGO]]/URI методом конечных әлементов и методом баланса (см. [12]).
+
+Для решения сеточных URI[[http://libmeta.ru/me/relation/163_7_PARABOLIChESKOGO]]/URI, возникающих при аппроксимации URI[[http://libmeta.ru/me/relation/163_6_PARABOLIChESKOGO]]/URI П. т. У. неявными разностными схемами, применяются эффективные прямые и URI[[http://libmeta.ru/me/relation/163_5_PARABOLIChESKOGO]]/URI, разработанные для эллиптических URI[[http://libmeta.ru/me/relation/163_4_PARABOLIChESKOGO]]/URI задач: URI[[http://libmeta.ru/me/relation/163_3_PARABOLIChESKOGO]]/URI, использующий URI[[http://libmeta.ru/me/relation/163_2_PARABOLIChESKOGO]]/URI быстрого URI[[http://libmeta.ru/me/relation/163_1_PARABOLIChESKOGO]]/URI преобразования Фурье, метод циклич. редукции, попеременно-треугольный итерациовный метод и др. (см. [13]).</text>
+  <text_orig>ч И сле н ны е ме т о ды ре ше ни я- методы решения уравненшй параболич. тиша на основе вычислительных алгоритмов. Для решения П. т. у. часто применяются приближенные численные методы, рассчитанные на использование быстродействующих ЈВМ. Наиболее универсальным является ме тод с с то к (к о н е чн 0 p а 3 н о с т ны й м с т о д).
+
+Ниже рассмотрен метод сеток на иримере уравнения тешлошроводности
+
+\[
+\frac{\partial u}{\partial t}=\frac{\partial^{2} u}{\partial x^{2}}+f(x, t), \quad t&gt;0, \quad 0&lt;x&lt;l,
+\]
+
+с краевыми условиями 1-го рода
+
+\[
+u(0, t)=\mu_{1}(t), u(l, t)=\mu_{2}(t), u(x, 0)=u_{0}(x) .
+\]
+
+Вводится равномерная сетка узлов $\left(x_{i}, t_{n}\right)$,
+
+$x_{i}-i h, i=0,1, \ldots, N, h N=l, t_{n}=n \tau, n=0,1, \ldots ;$
+
+If обозначения
+
+\[
+\begin{gathered}
+y_{i}^{n}=y\left(x_{i}, t_{n}\right), y_{t, i}=\left(y_{i}^{n+1}-y_{i}^{n}\right) / \tau, \\
+y \frac{n}{x_{1} i}=\left(y_{i}^{n}-y_{i-1}^{n}\right) / h, y_{x, i}^{n}=\left(y_{i+1}^{n}-y_{i}^{n}\right) / h, \\
+y \frac{n}{x x, i}=\left(y_{i+1}^{n}-2 y_{i}^{n}+y_{i-1}^{n}\right) / h^{2} .
+\end{gathered}
+\]
+
+Метод сеток состоит в том, что уравнение (1) приближенно заменяется системой линейных алгебраич. уравнений (разностной схемой)
+
+$y_{t, i}^{n}=\sigma y_{\bar{x} x, i}^{n+1}+(1-\sigma) y_{\bar{x} x, i}^{n}+\varphi_{i}^{n}, i=1,2, \ldots, N-1$,
+$y_{0}^{n}=\mu_{1}\left(t_{n}\right), y_{N}^{n}=\mu_{2}\left(t_{n}\right), y_{i}^{0}=u_{0}\left(x_{i}\right)$,
+
+гцс $\sigma$ - числової параметр й $\varphi_{i}^{n}$ - сеточная аıицоксимация фұункции $f(x, t)$, напр. $\varphi_{i}^{n}=f\left(x_{i}, t_{n}-1-0,5 \tau\right)$. Система уравнений (2) репается по слоям, т. е. іля каждого $n=0,1, \ldots$ по известным значениям $y_{i}^{n}$, œ $i$ находятся новыс значения $y_{i}^{n+1}, i=1,2, \ldots, N-1$. Если $\sigma=0$ (лвная схема), то $y_{i}^{n+1}$ выражкаются явным образом через $y_{i}^{n}, \varphi_{i}^{n}$. Если же $\sigma \neq 0$ (неявныс схемы), то относительно $y_{i}^{n+1}, i=1,2, \ldots, N-1$, возникает система уравнений, имеющая трехдиагональную матрицу. Эта система уравнений решается прогонки методом. Недостатком явной схемы является сильное ограничение на лшаг $\tau$, возникающее из условия устойчивости, а именно $\tau \leqslant 0,5 h^{2}$. Неявные схемы при $\sigma \geqslant 0,5$ абсолютно устойчивы, т. е. устойчивы при любых шагах $h$ и $\tau$. Известны и другие разностные схемы для уравнения (1) (см. [1], [2]).
+
+Если схема (2) устойчива и $\varphi_{i}^{n}$ ашпроксимирует $f(x, t)$, то при $h, \tau \rightarrow 0$ решение $y_{i}^{n}$ разностной задачи сходится к решению $u\left(x_{i}, t_{n}\right)$ исходной задачи (см. [1]). Порядок точности зависит от параметра $\sigma$. Так, симметритная схема $\left(\sigma=0,5, \varphi_{i}^{n} \cdot f\left(x_{i}, t_{n}+0,5 \tau\right)\right)$ имеет второй порядок точности по $\tau$ іl по $h$, т. е. для гаждого $n$ выполняется оценка
+
+\[
+\max _{0&lt;i&lt;\mathrm{N}}\left|y_{i}^{n}-u\left(x_{i}, t_{n}\right)\right| \leqslant M\left(\tau^{2}+h^{2}\right)
+\]
+
+с константой $M$, не зависнщей от $h$ и $\tau$. II ри $\sigma=0,5-$ $-h^{2} /(12 \tau)$ и специальном выборе $\varphi_{i}^{n}$ схема (2) имеет точность $O\left(\tau^{2}+h^{4}\right)$. Для остальных $\sigma-$ тотность $O\left(\tau+h^{2}\right)$
+
+При решении П. т. у. на больших отрезках времени существенное значение имеет асимптотич. устойчивость разностной схемы. Решение уравнения (1) с $f(x, t)=0$, $\mu_{1}(t)=\mu_{2}(t)=0$ ведет себя при $t \rightarrow \infty$ как $e^{-\lambda_{1} t}$, $\lambda_{1}=\pi^{2} / l^{2}$. Этим свойством обладает не всякая разностная схема, аппроксимирующая уравнение (1). Напр., симметричная схема $(\sigma=0,5)$ асимптотически устойчива при условии $\tau \leqslant l h / \pi$. Построены схемы 2-го порядка точности, асимптотически устойчивые при любых $\tau$, $h$, однако они не входят в семейство (2) (см. [3]).
+
+Краевые условия 3-го рода
+
+\[
+\frac{\partial u}{\partial x}(0, t)-\beta u(0, t)=\mu(t)
+\]
+
+апороксимируются с порядком $O\left(h^{2}\right)$ разностными у равнениями
+
+$\sigma\left(y_{x, 0}^{n+1}-\left(\beta y_{0}^{n+1}+\mu^{n+1}\right)\right)+(1-\sigma)\left(y_{x, 0}^{n}-\left(\beta y_{0}^{n}+\mu^{n}\right)\right)=$
+
+\[
+=0,5 h\left(y_{t, 0}^{n}-\varphi_{0}^{n}\right), \mu^{n}=\mu\left(t_{n}\right) \text {. }
+\]
+
+Для уравнсния теплопроводности в цилиндрич. и сферич. координатах
+
+\[
+\frac{\partial u}{\partial t}=\frac{1}{r^{m}} \frac{\partial}{\partial r}\left(r^{m} \frac{\partial u}{\partial r}\right), m=1,2,0&lt;r&lt;R,
+\]
+
+вводятся сетки $\left(r_{i}, t_{n}\right)$, где $t_{n}=n \tau, n=0,1, \ldots$,
+
+$r_{i}=\left(i+\frac{m}{2}\right) h, i=0,1, \ldots, N, h=\frac{R}{N+0,5 m}, m=1,2$, и рассматриваются разностные уравнения (см. [4])
+
+\[
+y_{t, i}^{n}=\Lambda_{r}^{(m)}\left(\sigma y_{i}^{n+1}+(1-\sigma) y_{i}^{n}\right)
+\]
+
+г де
+
+\[
+\Lambda_{r}^{(m)} y_{0}^{n}=\frac{1}{r_{0}^{m}}\left(\bar{r}_{1}^{m} \frac{y_{1}^{n}-y_{0}^{n}}{h}\right)
+\]\[
+\Lambda_{r}^{(m)} y_{i}^{n}=\frac{1}{r_{i}^{m}} \frac{1}{h}\left(\bar{r}_{i+1}^{m} \frac{y_{i+1}^{n}-y_{i}^{n}}{h}-\bar{r}_{i}^{m} \frac{y_{i}^{n}-y_{i-1}^{n}}{h}\right),
+\]
+
+$\overline{r_{i}}=0,5\left(r_{i}+r_{i+1}\right)$ при $m=1, \bar{r}_{i}=\sqrt{r_{i} r_{i-1}} \quad$ при $m=2$, $i=1,2, \ldots, N-1$. Для решения П. т. у. с переменными коэфффициентамі применяются однородные консервативные разностные схемы, выражающие на сетке законы сох ранения, присупие псходному дифференциальному уравнснию (см. [1], [5]). При шостроении разностных схем для П. т. У. с переменными коэффициентами шрименяются методы: баланса, вариационный, конечных әлементов. Напр., для уравнения
+
+\[
+\frac{\partial u}{\partial t}=\frac{\partial}{\partial x}\left(k(x, t) \frac{\partial u}{\partial x}\right)+f(x, t), 0&lt;x&lt;l, t&gt;0,
+\]
+
+используются разностные схемы с весами
+
+\[
+y_{t, i}^{n}=\left(a\left(\sigma y^{n+1}+(1-\sigma) y^{n}\right)_{\bar{x}}\right)_{x, i}+\varphi_{i}^{n},
+\]
+
+где
+
+\[
+a=a_{i}^{n}=k\left(x_{i}-0,5 h, t_{n}+0,5 \tau\right) .
+\]
+
+Доказана сходимость и получены оценки погрешности однородных консервативных разностных схем для П. т. у. как в случае непрерывных, так и в случае разрывных коэффициентов (см. [1]).
+
+Для решения систем уравнений параболич. типа, содержащих одну пространственную переменную, применяются те же разностные схемы, что и для одного уравнения. Вектор $y^{n+1}$ решения на новом слое находится матричной факторизации методом.
+
+При решении квазиливейного П. т. у. используются неявныс абсолютно устойчивые разностные схемы. Решение $y^{n+1}$ разностного уравнения находится итерационным методом с использованием чрогонки. Наир., для уравнения
+
+\[
+\frac{\partial u}{\partial t}=\frac{\partial}{\partial x}\left(k(u) \frac{\partial u}{\partial x}\right), k(u)&gt;0,
+\]
+
+применяют тисто неявную разностную схему
+
+\[
+\begin{gathered}
+y_{t, i}^{n}=\left(a\left(y_{i}^{n+1}\right) y_{\bar{x}}^{n+1}\right)_{x, i}, \\
+a\left(y_{i}^{n+1}\right)=0,5\left(k\left(y_{i}^{n+1}\right)-\vdash k\left(y_{i-1}^{n+1}\right)\right),
+\end{gathered}
+\]
+
+к-рую решают с помощью итерационного метода ( $s-$ номер итерации):
+
+$y_{i}^{(s+1)}=y_{i}^{n}+\tau\left(a\left(y_{i}^{(s)}\right) y_{\bar{\chi}}^{(s+1)}\right)_{x, i}, s=0,1, \ldots, m$,
+
+\[
+y_{i}^{(0)}=y_{i}^{n}, \quad y_{i}^{(m+1)}=y_{i}^{n+1} \text {. }
+\]
+
+Решение $y_{i}^{(s+1)}$ на каждой итерации находится методом прогонки. При решении нелинсйного П. т. у. нашли также применение схемы, основанные на идее Рунге Кутта метода. Так, для уравнения (3) используется двухәтапный метод
+
+\[
+\begin{gathered}
+y_{i}^{n+1 / 2}=y_{i}^{n}+0,5 \tau\left(a\left(y_{i}^{n}\right) y_{\bar{x}}^{n+1 / 2}\right)_{x, i}, \\
+y_{i}^{n+1}=y_{i}^{n}+0,5 \tau\left(a\left(y_{i}^{n+1 / 2}\right)\left(y^{n+1}+y^{n}\right)_{\bar{x}}\right)_{x, i} .
+\end{gathered}
+\]
+
+Тестпрование іл проверка качества разностных схем для нелинейного П. т. У. проводится путем сравневия с точными автомодельными решениями, такими, напр., как решение тина температурной волны (см. [6]).
+
+При решении многомерного П. т. у. используются переменных направлений методы, к-рые позволяют свести решение многомерной задачи к решению послөдовательности одномерных задач (см. [1], [7]-[10]). Предложено и исследовано значительное число абсолютно устойчивых алгоритмов переменных направлений. Эти алгоритмы являются экономичными в том смысле, что число арифметич. действий, необходимых для вычисления решения на новом временно́м слое $t_{n+1}$, имеет порядок числа узлов пространственной сетки. Ниже рассмотрен пример схемы переменных направлевий для уравнения
+
+\[
+\frac{\partial \|}{\partial t}=\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}},\left(x_{1}, x_{2}\right) \in G, t&gt;0
+\]
+
+в прямоугольнике $G\left\{0&lt;x_{\alpha}&lt;l_{\alpha}, \alpha=1,2\right\}$. Вводится сетка
+
+$x_{i j}=\left(x_{1}^{(i)}, x_{2}^{(j)}\right), x_{1}^{(i)}=i h_{1}, i=0,1, \ldots, N_{1}, \quad h_{1} N_{1}=l_{1}$, $x_{2}^{(j)}=j h_{2}, j=0,1, \ldots, N_{2}, h_{2} N_{2}=l_{2}$
+
+и обозначения
+
+\[
+\begin{gathered}
+y_{i j}^{n}=y\left(x_{i j}, t_{n}\right), y_{i j}^{n+1 / 2}=y\left(x_{i j}, t_{n}+0,5 \tau\right), \\
+\Lambda_{1} y_{i j}^{n}=\left(y_{i+1, j}^{n}-2 y_{i, j}^{n}+y_{i-1, j}^{n}\right) / h_{1}^{2}, \\
+\Lambda_{2} y_{i j}^{n}=\left(y_{i, j+1}^{n}-2 y_{i j}^{n}+y_{i, j-1}^{n}\right) / h_{2}^{2} .
+\end{gathered}
+\]
+
+Уравнение (4) решается с помощью следующеӥ разностной схемы
+
+\[
+\begin{aligned}
+&amp; \frac{y_{i j}^{n+1 / 2}-y_{i j}^{n}}{0,5 \tau}=\Lambda_{1} y_{i j}^{n+1 / 2}+\Lambda_{2} y_{i j}^{n}, \\
+&amp; \frac{y_{i j}^{n+1}-y_{i j}^{n+1 / 2}}{0,5 \tau}=\Lambda_{1} y_{i j}^{n+1 / 2}+\Lambda_{2} y_{i j}^{n+1} .
+\end{aligned}
+\]
+
+Эти уравнения записываются при $i=1, \ldots, N_{1}-1$, $j=1, \ldots, N_{2}-1$ и доопределяются соответствующими граничными условиями. Из первого уравнения прогонкой по направлению $x_{1}$ для каждого $j=1,2, \ldots, N_{2}-1$ находится $y_{i j}^{n+1 / 2}$, а затем из второго уравнения прогонкой по направлению $x_{2}$ для каждого $i=1,2, \ldots$, $N_{1}-1$ находится $y_{i j}^{n+1}$. Таким образом, вычислительный алгоритм состоит в последовательном применениі одномерных прогонок.
+
+Теоретич. основой построения и исследования экономичных разностных схем для многомерного П. т. у. является метод суммарной аппрокскмации (см. [1], [8], [9]). Обобщением методов переменных направлений явились аддитивные экономичные схемы с ураввениями на графах и векторные схемы (см. [11]).
+
+В случае нерегулярных пространственных сеток разностные схөмы для П. т. у. строятся методом конечных әлементов и методом баланса (см. [12]).
+
+Для решения сеточных уравнений, возникающих при аппроксимации многомерного П. т. У. неявными разностными схемами, применяются эффективные прямые и итерациоввые методы, разработанные для эллиптических разностных краевых задач: метод разделения переменных, использующий алгоритм быстрого дискретного преобразования Фурье, метод циклич. редукции, попеременно-треугольный итерациовный метод и др. (см. [13]).
+
+Лum.: [1] С а м а р с к и Н А. А., Теория разностных схем, М., 1977; [2] С а у л в е в В. К., Интегрирование уравнений с к и й А. А., Г у ли н А. В., Устойчивость разностных схем, М., 1973; [4] Фр я з и н о в И. В. “Ж. вычислит. матем. и матсм. физ.&quot;, 1971, т. $11, \mathcal{N}_{2} 5$, с. $1219-28 ;$; 2 М а p-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=45&amp;width=819&amp;top_left_y=1756&amp;top_left_x=982)
+числит. матем. и матем. физ.&quot;, 1963, т. $3, N_{2} 4$, с. $702-19 ;[7]$ Я н е н к Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосиб., 1967; [8] С а м а pс к и й А. А., &quot;Ж. вычислит. матем. и матем. физ.&quot;, 1962,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=42&amp;width=819&amp;top_left_y=1889&amp;top_left_x=985)
+числит. матем. и матем. физ.&quot;, 1962, т. $2, \mathrm{No}_{2}$, c. $548-68$; [11]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=47&amp;width=812&amp;top_left_y=1938&amp;top_left_x=987)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cdceff03e9fb4126b197g-1.jpg?height=47&amp;width=809&amp;top_left_y=1971&amp;top_left_x=985)
+&quot;Дифференц. уравнения&quot;, 1980 , т. 16, № 7, с. 1332-43; [13] шения сеточных уравнений, М., 1978. А. В. Гулик.</text_orig>
+</article>

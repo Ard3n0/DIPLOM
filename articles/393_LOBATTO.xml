@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/393_LOBATTO" alphabetic_pos="393">
+  <title>ЛОБАТТО КВАДРАТУ РНАЯ ФОРМУЛА</title>
+  <authors>
+    <author>H. П. Мысовскux</author>
+  </authors>
+  <pages>
+    <start>200</start>
+    <end>200</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] L o b a t t o R., Lessen over de differential en integral-rekening, v. 1-2, S'gravenhage, 1851-52; [2] K $\mathrm{k}$ ло в В. И., Приближенное вычисление интегралов, 2 изд., M., 1967; 237 - Mi ch e Is H. H., &quot;math. Comp.&quot;, 1963, v. 17,</literature_orig>
+    <unit>
+      <author>Lobatto R.</author>
+      <title>Lessen over de differential en integral-rekening, v. 1-2, S'gravenhage</title>
+      <publication/>
+      <year>1851</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>K$\mathrm{k}$лов В. И.</author>
+      <title>Приближенное вычисление интегралов</title>
+      <publication>2 изд., M.</publication>
+      <year>1967</year>
+      <other>&quot;math. Comp.&quot;, 1963, v. 17</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/393_1_LOBATTO">\int_{-1}^{1} f(x) d x \cong A[f(-1)+f(1)]+\sum_{j=1}^{n} C_{j} f\left(x_{j}\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_1_LOBATTO">[a, b]=[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_2_LOBATTO">p(x)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_3_LOBATTO">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_4_LOBATTO">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_5_LOBATTO">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_6_LOBATTO">1-x^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_7_LOBATTO">p_{n}^{(1,1)}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_8_LOBATTO">a=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_9_LOBATTO">=2 /(n+1)(n+2), C_{j}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_10_LOBATTO">2 n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_11_LOBATTO">n=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/393_12_LOBATTO">n</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/393_1_LOBATTO">
+      <rel_text>Формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+  </relations>
+  <text>наивысшей алгебраич. степени точности квадратурная формула для промежутка $URI[[http://libmeta.ru/me/formula/aux/393_1_LOBATTO]]/URI$ и веса $URI[[http://libmeta.ru/me/formula/aux/393_2_LOBATTO]]/URI$ с двумя фиксированными узлами - концами промежутка $URI[[http://libmeta.ru/me/formula/aux/393_3_LOBATTO]]/URI$. Л. к. ф. имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/393_1_LOBATTO]]/URI
+\]
+
+Узлы $URI[[http://libmeta.ru/me/formula/aux/393_4_LOBATTO]]/URI$ - корни ортогонального на $URI[[http://libmeta.ru/me/formula/aux/393_5_LOBATTO]]/URI$ с весом $URI[[http://libmeta.ru/me/formula/aux/393_6_LOBATTO]]/URI$ многочлена $URI[[http://libmeta.ru/me/formula/aux/393_7_LOBATTO]]/URI$ (многочлена Якоби), $URI[[http://libmeta.ru/me/formula/aux/393_8_LOBATTO]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/393_9_LOBATTO]]/URI$. Алгебраич. степень точности равна $URI[[http://libmeta.ru/me/formula/aux/393_10_LOBATTO]]/URI$. Таблица узлов и коэфффициентов Л. к. ф. для $URI[[http://libmeta.ru/me/formula/aux/393_11_LOBATTO]]/URI$ (1) 15 ( $URI[[http://libmeta.ru/me/formula/aux/393_12_LOBATTO]]/URI$ меняется от 1 до 15 с интервалом 1) приведена в [2] (см. также [3]).
+
+URI[[http://libmeta.ru/me/relation/393_1_LOBATTO]]/URI установлена Р. Лобатто (см. [1]).</text>
+  <text_orig>наивЫсшей алгебраич. степени точности квадратурная формула для промежутка $[a, b]=[-1,1]$ и веса $p(x)=1$ с двумя фиксированными узлами - концами промежутка $[-1,1]$. Л. к. ф. имеет вид
+
+\[
+\int_{-1}^{1} f(x) d x \cong A[f(-1)+f(1)]+\sum_{j=1}^{n} C_{j} f\left(x_{j}\right) .
+\]
+
+Узлы $x_{j}$ - корни ортогонального на $[-1,1]$ с весом $1-x^{2}$ многочлена $P_{n}^{(1,1)}(x)$ (многочлена Якоби), $A=$ $=2 /(n+1)(n+2), C_{j}&gt;0$. Алгебраич. степень точности равна $2 n+1$. Таблица узлов и коэфффициентов Л. к. ф. для $n=1$ (1) 15 ( $n$ меняется от 1 до 15 с интервалом 1) приведена в [2] (см. также [3]).
+
+Формула установлена Р. Лобатто (см. [1]).
+
+Jum.: [1] L o b a t t o R., Lessen over de differential en integral-rekening, v. 1-2, S'Gravenhage, 1851-52; [2] K $\mathrm{K}$ ло в В. И., Приближенное вычисление интегралов, 2 изд., M., 1967; 237 - Mi ch e Is H. H., &quot;Math. Comp.&quot;, 1963, v. 17,
+H. П. Мысовскux.</text_orig>
+</article>

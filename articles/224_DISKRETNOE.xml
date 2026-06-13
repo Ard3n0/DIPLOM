@@ -1,0 +1,553 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/224_DISKRETNOE" alphabetic_pos="224">
+  <title>ДИСКРЕТНОЕ ПРОГРАММИРОВАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>103</start>
+    <end>104</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/224_1_DISKRETNOE">\begin{aligned}&amp; \underset{x \in M}{f(x)} \longrightarrow \operatorname{extr}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/224_2_DISKRETNOE">(m-1) ! \sim c \sqrt{m}\left(\frac{m-1}{e}\right)^{m-1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/224_3_DISKRETNOE">\left\{Z^{\prime}\right\}=U_{n=1}^{\infty}\left\{Z^{\prime}\right\}_{n}, \quad\left\{Z^{\prime}\right\}_{n} \subset\{Z\}_{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/224_4_DISKRETNOE">\lim _{n \rightarrow \infty} \frac{\left|\left\{Z^{\prime}\right\}_{n}\right|}{|\{Z\}|}=1</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_1_DISKRETNOE">m=\left\{a_{1}, a_{2}, \ldots, a_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_2_DISKRETNOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_3_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_4_DISKRETNOE">a_{j} \in M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_5_DISKRETNOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_6_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_7_DISKRETNOE">n=|\dot{m}|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_8_DISKRETNOE">f\left(a_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_9_DISKRETNOE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_10_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_11_DISKRETNOE">|m|&gt;2^{2 n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_12_DISKRETNOE">a_{i} \in M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_13_DISKRETNOE">s\left(a_{i}, M\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_14_DISKRETNOE">\left|s\left(a_{i}, M\right)\right| \ll|M|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_15_DISKRETNOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_16_DISKRETNOE">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_17_DISKRETNOE">f\left(a_{i}\right)=\operatorname{extr} f(x), \quad x \in S\left(a_{i}, M\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_18_DISKRETNOE">x_{1}, \ldots, x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_19_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_20_DISKRETNOE">2^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_21_DISKRETNOE">\frac{2 k}{\sqrt{k}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_22_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_23_DISKRETNOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_24_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_25_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_26_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_27_DISKRETNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_28_DISKRETNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_29_DISKRETNOE">\{z\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_30_DISKRETNOE">\{z\}=\bigcup_{n=1}^{\infty}\{z\}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_31_DISKRETNOE">\left|\{z\}_{i}\right|&gt;\left|\{z\}_{j}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_32_DISKRETNOE">i&gt;j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_33_DISKRETNOE">\left|\{z\}_{n}\right| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_34_DISKRETNOE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_35_DISKRETNOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_36_DISKRETNOE">\left\{z^{\prime}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_37_DISKRETNOE">\{z\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_38_DISKRETNOE">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_39_DISKRETNOE">k \cdot l&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_40_DISKRETNOE">\cdot 2^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_41_DISKRETNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_42_DISKRETNOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/224_43_DISKRETNOE">k=2, l=1</formula>
+  </formulas_aux>
+  <relations n="101">
+    <relation uri="http://libmeta.ru/me/relation/224_1_DISKRETNOE">
+      <rel_text>Графов</rel_text>
+      <target>http://libmeta.ru/me/article/1154_GRADU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_2_DISKRETNOE">
+      <rel_text>Расписаний теория</rel_text>
+      <target>http://libmeta.ru/me/article/948_RASPISANIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_3_DISKRETNOE">
+      <rel_text>кибернетики</rel_text>
+      <target>http://libmeta.ru/me/article/882_KIBERNETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_4_DISKRETNOE">
+      <rel_text>математические</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_5_DISKRETNOE">
+      <rel_text>Дискретная</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_6_DISKRETNOE">
+      <rel_text>программирования</rel_text>
+      <target>http://libmeta.ru/me/article/668_PROGRAMMIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_7_DISKRETNOE">
+      <rel_text>дискретного</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_8_DISKRETNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_9_DISKRETNOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_10_DISKRETNOE">
+      <rel_text>кибернетики&quot;</rel_text>
+      <target>http://libmeta.ru/me/article/882_KIBERNETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_11_DISKRETNOE">
+      <rel_text>программирование</rel_text>
+      <target>http://libmeta.ru/me/article/668_PROGRAMMIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_12_DISKRETNOE">
+      <rel_text>Дискретное</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_13_DISKRETNOE">
+      <rel_text>покрытий</rel_text>
+      <target>http://libmeta.ru/me/article/387_POKRYTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_14_DISKRETNOE">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_15_DISKRETNOE">
+      <rel_text>графах</rel_text>
+      <target>http://libmeta.ru/me/article/1154_GRADU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_16_DISKRETNOE">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_17_DISKRETNOE">
+      <rel_text>задачам</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_18_DISKRETNOE">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_19_DISKRETNOE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_20_DISKRETNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_21_DISKRETNOE">
+      <rel_text>алгоритма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_22_DISKRETNOE">
+      <rel_text>локального</rel_text>
+      <target>http://libmeta.ru/me/article/425_LOKALIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_23_DISKRETNOE">
+      <rel_text>индекс</rel_text>
+      <target>http://libmeta.ru/me/article/566_INDEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_24_DISKRETNOE">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_25_DISKRETNOE">
+      <rel_text>неразрешима</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_26_DISKRETNOE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_27_DISKRETNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_28_DISKRETNOE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_29_DISKRETNOE">
+      <rel_text>минимизации булевых функций</rel_text>
+      <target>http://libmeta.ru/me/article/568_BULEVYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_30_DISKRETNOE">
+      <rel_text>оптимальных управляющих</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_31_DISKRETNOE">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_32_DISKRETNOE">
+      <rel_text>экстремуму</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_33_DISKRETNOE">
+      <rel_text>приближения</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_34_DISKRETNOE">
+      <rel_text>экстремума</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_35_DISKRETNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_36_DISKRETNOE">
+      <rel_text>представить</rel_text>
+      <target>http://libmeta.ru/me/article/606_PREDPORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_37_DISKRETNOE">
+      <rel_text>задачам</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_38_DISKRETNOE">
+      <rel_text>приближенных</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_39_DISKRETNOE">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_40_DISKRETNOE">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_41_DISKRETNOE">
+      <rel_text>непрерывных функций</rel_text>
+      <target>http://libmeta.ru/me/article/947_NEPRERYShNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_42_DISKRETNOE">
+      <rel_text>экстремумов</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_43_DISKRETNOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_44_DISKRETNOE">
+      <rel_text>приближенных</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_45_DISKRETNOE">
+      <rel_text>развитии</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_46_DISKRETNOE">
+      <rel_text>дискретных</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_47_DISKRETNOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_48_DISKRETNOE">
+      <rel_text>функцій</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_49_DISKRETNOE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_50_DISKRETNOE">
+      <rel_text>представления</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_51_DISKRETNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_52_DISKRETNOE">
+      <rel_text>теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_53_DISKRETNOE">
+      <rel_text>графах</rel_text>
+      <target>http://libmeta.ru/me/article/1154_GRADU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_54_DISKRETNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_55_DISKRETNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_56_DISKRETNOE">
+      <rel_text>целочисленное программирование</rel_text>
+      <target>http://libmeta.ru/me/article/908_TsELOChJLENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_57_DISKRETNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_58_DISKRETNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_59_DISKRETNOE">
+      <rel_text>транспортная</rel_text>
+      <target>http://libmeta.ru/me/article/458_TRANSVEKTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_60_DISKRETNOE">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_61_DISKRETNOE">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_62_DISKRETNOE">
+      <rel_text>перечисления</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_63_DISKRETNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_64_DISKRETNOE">
+      <rel_text>задания</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_65_DISKRETNOE">
+      <rel_text>сложных</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_66_DISKRETNOE">
+      <rel_text>линейных неравенств</rel_text>
+      <target>http://libmeta.ru/me/article/358_LINEINOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_67_DISKRETNOE">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_68_DISKRETNOE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_69_DISKRETNOE">
+      <rel_text>программирования</rel_text>
+      <target>http://libmeta.ru/me/article/668_PROGRAMMIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_70_DISKRETNOE">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_71_DISKRETNOE">
+      <rel_text>экстремум</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_72_DISKRETNOE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_73_DISKRETNOE">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_74_DISKRETNOE">
+      <rel_text>источник</rel_text>
+      <target>http://libmeta.ru/me/article/682_ISTOChNI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_75_DISKRETNOE">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_76_DISKRETNOE">
+      <rel_text>направленного</rel_text>
+      <target>http://libmeta.ru/me/article/859_NAPRAVLENNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_77_DISKRETNOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_78_DISKRETNOE">
+      <rel_text>направленного</rel_text>
+      <target>http://libmeta.ru/me/article/859_NAPRAVLENNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_79_DISKRETNOE">
+      <rel_text>модификации</rel_text>
+      <target>http://libmeta.ru/me/article/743_MODIFIKATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_80_DISKRETNOE">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_81_DISKRETNOE">
+      <rel_text>Методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_82_DISKRETNOE">
+      <rel_text>Алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_83_DISKRETNOE">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_84_DISKRETNOE">
+      <rel_text>минимизации булевых функций</rel_text>
+      <target>http://libmeta.ru/me/article/568_BULEVYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_85_DISKRETNOE">
+      <rel_text>экстремумов</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_86_DISKRETNOE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_87_DISKRETNOE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_88_DISKRETNOE">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_89_DISKRETNOE">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_90_DISKRETNOE">
+      <rel_text>переменными</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_91_DISKRETNOE">
+      <rel_text>программирования</rel_text>
+      <target>http://libmeta.ru/me/article/668_PROGRAMMIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_92_DISKRETNOE">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_93_DISKRETNOE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_94_DISKRETNOE">
+      <rel_text>экстремумов</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_95_DISKRETNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_96_DISKRETNOE">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_97_DISKRETNOE">
+      <rel_text>экстремум</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_98_DISKRETNOE">
+      <rel_text>алгоритма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_99_DISKRETNOE">
+      <rel_text>Задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_100_DISKRETNOE">
+      <rel_text>регулярной</rel_text>
+      <target>http://libmeta.ru/me/article/1037_REGULJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/224_101_DISKRETNOE">
+      <rel_text>Задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+  </relations>
+  <text>область математики, занимающаяся исследованием и решением экстремальных задач на конечных множествах. Пусть $URI[[http://libmeta.ru/me/formula/aux/224_1_DISKRETNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/224_2_DISKRETNOE]]/URI$ - числовая функция, определенная на элементах множества $URI[[http://libmeta.ru/me/formula/aux/224_3_DISKRETNOE]]/URI$. Требуется найти элемент $URI[[http://libmeta.ru/me/formula/aux/224_4_DISKRETNOE]]/URI$, на к-ром достигается абсолютный минимум (или абсолютный максимум) $URI[[http://libmeta.ru/me/formula/aux/224_5_DISKRETNOE]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/224_6_DISKRETNOE]]/URI$. Сокращенно такие задачи записываются:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/224_1_DISKRETNOE]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d6cded72677721029d77g-1.jpg?height=72&amp;width=536&amp;top_left_y=703&amp;top_left_x=1131)
+
+Из указанного класса задач Д. П. исследует только нетривиальные задачи, выделяемые следующими дополнительными условиями.
+
+1. Число $URI[[http://libmeta.ru/me/formula/aux/224_7_DISKRETNOE]]/URI$ должно быть достаточно большим настолько, чтобы задача не решалась непосредственным просмотром значений $URI[[http://libmeta.ru/me/formula/aux/224_8_DISKRETNOE]]/URI$ вручную или на Эвм. Так, в задаче коммивояжера, к-рая является типичной задачей Д. п., число вариантов $URI[[http://libmeta.ru/me/formula/aux/224_9_DISKRETNOE]]/URI$ при обходе $URI[[http://libmeta.ru/me/formula/aux/224_10_DISKRETNOE]]/URI$ пунктов равно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/224_2_DISKRETNOE]]/URI
+\]
+
+В задачах минимизации булевых функций (см. Булевых бункчий минимизачия, Булевых бункций метрическая теория) $URI[[http://libmeta.ru/me/formula/aux/224_11_DISKRETNOE]]/URI$.
+
+2. URI[[http://libmeta.ru/me/relation/224_101_DISKRETNOE]]/URI не должна быть URI[[http://libmeta.ru/me/relation/224_100_DISKRETNOE]]/URI. URI[[http://libmeta.ru/me/relation/224_99_DISKRETNOE]]/URI наз. р е г у л я р н о й, если: а) для каждого $URI[[http://libmeta.ru/me/formula/aux/224_12_DISKRETNOE]]/URI$ определена непустая окрестность $URI[[http://libmeta.ru/me/formula/aux/224_13_DISKRETNOE]]/URI$, і $URI[[http://libmeta.ru/me/formula/aux/224_14_DISKRETNOE]]/URI$; б) локальный әкстремум $URI[[http://libmeta.ru/me/formula/aux/224_15_DISKRETNOE]]/URI$, т. е. точка $URI[[http://libmeta.ru/me/formula/aux/224_16_DISKRETNOE]]/URI$ такая, что $URI[[http://libmeta.ru/me/formula/aux/224_17_DISKRETNOE]]/URI$, определяется при помощи простого URI[[http://libmeta.ru/me/relation/224_98_DISKRETNOE]]/URI, в) локальный URI[[http://libmeta.ru/me/relation/224_97_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_96_DISKRETNOE]]/URI хотя бы с одним глобальным.
+
+Таким образом, Д. П. рассматривает URI[[http://libmeta.ru/me/relation/224_95_DISKRETNOE]]/URI, имеющие, вообще говоря, несколько локальных URI[[http://libmeta.ru/me/relation/224_94_DISKRETNOE]]/URI. В типичных случаях URI[[http://libmeta.ru/me/relation/224_93_DISKRETNOE]]/URI локальных әкстремумов весьма велико. Напр., в URI[[http://libmeta.ru/me/relation/224_92_DISKRETNOE]]/URI целочисленного линейного URI[[http://libmeta.ru/me/relation/224_91_DISKRETNOE]]/URI с булевыми URI[[http://libmeta.ru/me/relation/224_90_DISKRETNOE]]/URI, в к-рых URI[[http://libmeta.ru/me/relation/224_89_DISKRETNOE]]/URI и ограничения зависят от URI[[http://libmeta.ru/me/relation/224_88_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_18_DISKRETNOE]]/URI$, URI[[http://libmeta.ru/me/relation/224_87_DISKRETNOE]]/URI элементов в $URI[[http://libmeta.ru/me/formula/aux/224_19_DISKRETNOE]]/URI$ не больше $URI[[http://libmeta.ru/me/formula/aux/224_20_DISKRETNOE]]/URI$, а URI[[http://libmeta.ru/me/relation/224_86_DISKRETNOE]]/URI локальных әкстремумов может быть равным const. $URI[[http://libmeta.ru/me/formula/aux/224_21_DISKRETNOE]]/URI$ (см. [2]). Трудность решения задач Д. п. и определяется наличием большого числа локальных URI[[http://libmeta.ru/me/relation/224_85_DISKRETNOE]]/URI. Универсальных эффективных методов решения задач Д. П. не создано (1978). Как показывают исследования По URI[[http://libmeta.ru/me/relation/224_84_DISKRETNOE]]/URI - хорошо исследованной модельной URI[[http://libmeta.ru/me/relation/224_83_DISKRETNOE]]/URI Д. П. (см. также URI[[http://libmeta.ru/me/relation/224_82_DISKRETNOE]]/URI локальный), создание таких методов, по-видимому, невозможно. URI[[http://libmeta.ru/me/relation/224_81_DISKRETNOE]]/URI, в достаточной URI[[http://libmeta.ru/me/relation/224_80_DISKRETNOE]]/URI универсальные, такие, как м е т о д в е т в е й и г р ан и ц (см. [1]) и его различные URI[[http://libmeta.ru/me/relation/224_79_DISKRETNOE]]/URI, являются методами URI[[http://libmeta.ru/me/relation/224_78_DISKRETNOE]]/URI перебора. Они эффективно применяются для решения специализированных задач Д. п. Однако для каждого из таких методов существуют обширные классы задач, для к-рых URI[[http://libmeta.ru/me/relation/224_77_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_76_DISKRETNOE]]/URI перебора мало отличаются по URI[[http://libmeta.ru/me/relation/224_75_DISKRETNOE]]/URI от методов полного перебора. Другой URI[[http://libmeta.ru/me/relation/224_74_DISKRETNOE]]/URI математич. трудностей в URI[[http://libmeta.ru/me/relation/224_73_DISKRETNOE]]/URI Д. П. состонт в том, что URI[[http://libmeta.ru/me/relation/224_72_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_22_DISKRETNOE]]/URI$, на к-ром ищется URI[[http://libmeta.ru/me/relation/224_71_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_23_DISKRETNOE]]/URI$, часто задается в неявной форме. Так, в URI[[http://libmeta.ru/me/relation/224_70_DISKRETNOE]]/URI целочисленного линейного URI[[http://libmeta.ru/me/relation/224_69_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_68_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_24_DISKRETNOE]]/URI$ определяется как со- вокупность целочисленных решений URI[[http://libmeta.ru/me/relation/224_67_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_66_DISKRETNOE]]/URI. При таком и более URI[[http://libmeta.ru/me/relation/224_65_DISKRETNOE]]/URI способах URI[[http://libmeta.ru/me/relation/224_64_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_25_DISKRETNOE]]/URI$ нетривиальной становится не только URI[[http://libmeta.ru/me/relation/224_63_DISKRETNOE]]/URI полного URI[[http://libmeta.ru/me/relation/224_62_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_26_DISKRETNOE]]/URI$, но и указания хотя бы одного элемента из $URI[[http://libmeta.ru/me/formula/aux/224_27_DISKRETNOE]]/URI$. В силу изложенного, основные URI[[http://libmeta.ru/me/relation/224_61_DISKRETNOE]]/URI Д. п. URI[[http://libmeta.ru/me/relation/224_60_DISKRETNOE]]/URI при решении и исследовании более узких классов задач. К таким классам относятся URI[[http://libmeta.ru/me/relation/224_59_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_58_DISKRETNOE]]/URI, URI[[http://libmeta.ru/me/relation/224_57_DISKRETNOE]]/URI о коммивояжере и нескольких коммивояжерах, линейное URI[[http://libmeta.ru/me/relation/224_56_DISKRETNOE]]/URI, URI[[http://libmeta.ru/me/relation/224_55_DISKRETNOE]]/URI о распісаниях (см. URI[[http://libmeta.ru/me/relation/224_2_DISKRETNOE]]/URI), әкстремальные URI[[http://libmeta.ru/me/relation/224_54_DISKRETNOE]]/URI на URI[[http://libmeta.ru/me/relation/224_53_DISKRETNOE]]/URI (см. URI[[http://libmeta.ru/me/relation/224_1_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_52_DISKRETNOE]]/URI), URI[[http://libmeta.ru/me/relation/224_51_DISKRETNOE]]/URI минимального URI[[http://libmeta.ru/me/relation/224_50_DISKRETNOE]]/URI булевых URI[[http://libmeta.ru/me/relation/224_49_DISKRETNOE]]/URI и URI[[http://libmeta.ru/me/relation/224_48_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_28_DISKRETNOE]]/URI$-значной логики и т. д.
+
+Другое направление в URI[[http://libmeta.ru/me/relation/224_47_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_46_DISKRETNOE]]/URI экстремальных задач состолт в URI[[http://libmeta.ru/me/relation/224_45_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_44_DISKRETNOE]]/URI методов, обычно применяемых при решении практич. задач большой размерности. Принципиально эти URI[[http://libmeta.ru/me/relation/224_43_DISKRETNOE]]/URI не отличаются от соответствующих методов поиска URI[[http://libmeta.ru/me/relation/224_42_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_41_DISKRETNOE]]/URI и функционалов. В Д. п. используются аналоги URI[[http://libmeta.ru/me/relation/224_40_DISKRETNOE]]/URI локальной оптимизации, URI[[http://libmeta.ru/me/relation/224_39_DISKRETNOE]]/URI спуска, случайного поиска и т. п. (см. обзор URI[[http://libmeta.ru/me/relation/224_38_DISKRETNOE]]/URI методов решения задач Д. п. в [3]).
+
+Интересным как с теоретич. точки зрения, так и в решении прикладных задач является с т а т и с т и ч ес к и й П о д х о д к URI[[http://libmeta.ru/me/relation/224_37_DISKRETNOE]]/URI Д. П. Пусть совокупность задач $URI[[http://libmeta.ru/me/formula/aux/224_29_DISKRETNOE]]/URI$ можно URI[[http://libmeta.ru/me/relation/224_36_DISKRETNOE]]/URI в виде $URI[[http://libmeta.ru/me/formula/aux/224_30_DISKRETNOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/224_31_DISKRETNOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/224_32_DISKRETNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/224_33_DISKRETNOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/224_34_DISKRETNOE]]/URI$. Говорят, что подмножество
+
+\[
+URI[[http://libmeta.ru/me/formula/main/224_3_DISKRETNOE]]/URI
+\]
+
+составляет п о т и в с е URI[[http://libmeta.ru/me/relation/224_35_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_35_DISKRETNOE]]/URI$, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/224_4_DISKRETNOE]]/URI
+\]
+
+Для различных классов задач Д. П. имеет место следующий факт: существует (а часто и эффективно описывается) совокупность $URI[[http://libmeta.ru/me/formula/aux/224_36_DISKRETNOE]]/URI$ почти всех задач $URI[[http://libmeta.ru/me/formula/aux/224_37_DISKRETNOE]]/URI$, для к-рых нахождение URI[[http://libmeta.ru/me/relation/224_34_DISKRETNOE]]/URI или хорошего URI[[http://libmeta.ru/me/relation/224_33_DISKRETNOE]]/URI к URI[[http://libmeta.ru/me/relation/224_32_DISKRETNOE]]/URI возможно в классе простых URI[[http://libmeta.ru/me/relation/224_31_DISKRETNOE]]/URI. Это было замечено впервые при решении задач синтеза URI[[http://libmeta.ru/me/relation/224_30_DISKRETNOE]]/URI систем, напр. в URI[[http://libmeta.ru/me/relation/224_29_DISKRETNOE]]/URI в классе дизъюнктивных нормальных форм, см. Булевых URI[[http://libmeta.ru/me/relation/224_28_DISKRETNOE]]/URI норлальные бормы, а также [4]. Напр., URI[[http://libmeta.ru/me/relation/224_27_DISKRETNOE]]/URI выделения экстремальных конъюнкций, входящих хотя бы в одну минимальную дизъюнктивную нормальную форму булевой URI[[http://libmeta.ru/me/relation/224_26_DISKRETNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/224_38_DISKRETNOE]]/URI$, URI[[http://libmeta.ru/me/relation/224_25_DISKRETNOE]]/URI в классе локальных URI[[http://libmeta.ru/me/relation/224_24_DISKRETNOE]]/URI при $URI[[http://libmeta.ru/me/formula/aux/224_39_DISKRETNOE]]/URI$ const $URI[[http://libmeta.ru/me/formula/aux/224_40_DISKRETNOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/224_41_DISKRETNOE]]/URI$ - URI[[http://libmeta.ru/me/relation/224_23_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_22_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_21_DISKRETNOE]]/URI, $URI[[http://libmeta.ru/me/formula/aux/224_42_DISKRETNOE]]/URI$ - величина памяти. В то же время URI[[http://libmeta.ru/me/relation/224_20_DISKRETNOE]]/URI выделения элементарных конъюнкций, входящих хотя бы в одну «почти минимальную&quot; дизъюнктивную нормальную форму для почти всех булевых URI[[http://libmeta.ru/me/relation/224_19_DISKRETNOE]]/URI, разрешима в классе локальных URI[[http://libmeta.ru/me/relation/224_18_DISKRETNOE]]/URI при $URI[[http://libmeta.ru/me/formula/aux/224_43_DISKRETNOE]]/URI$ (см. [5]). Столь же значительное сокращение трудоемкости при переходе к почти всем URI[[http://libmeta.ru/me/relation/224_17_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_16_DISKRETNOE]]/URI для экстремальных задач на URI[[http://libmeta.ru/me/relation/224_15_DISKRETNOE]]/URI, в URI[[http://libmeta.ru/me/relation/224_14_DISKRETNOE]]/URI о построении оптимальных URI[[http://libmeta.ru/me/relation/224_13_DISKRETNOE]]/URI и т. Д.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fe3f7bb65f07d43c5ec5g-1.jpg?height=37&amp;width=796&amp;top_left_y=1897&amp;top_left_x=158)
+URI[[http://libmeta.ru/me/relation/224_12_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_11_DISKRETNOE]]/URI, М., 1969; 12] К ор обк о в Ф. К., &quot;проблемы URI[[http://libmeta.ru/me/relation/224_10_DISKRETNOE]]/URI, &quot;рибл, в. 14, с. URI[[http://libmeta.ru/me/relation/224_9_DISKRETNOE]]/URI и прикладные URI[[http://libmeta.ru/me/relation/224_8_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_7_DISKRETNOE]]/URI URI[[http://libmeta.ru/me/relation/224_6_DISKRETNOE]]/URI, М., 1976; [4] URI[[http://libmeta.ru/me/relation/224_5_DISKRETNOE]]/URI математика и URI[[http://libmeta.ru/me/relation/224_4_DISKRETNOE]]/URI вопросы URI[[http://libmeta.ru/me/relation/224_3_DISKRETNOE]]/URI,
+т. 1, М., 1974; [5] Ж у р а в л е в Ю. И., «дискретный анализ&quot;, Т. 1, М., 1974; [5] Ж у р а в л е в Ю. И., “дискретный анализ»,</text>
+  <text_orig>область математики, занимающаяся исследованием и решением экстремальных задач на конечных множествах. Пусть $M=\left\{a_{1}, a_{2}, \ldots, a_{n}\right\}$ и $f$ - числовая функция, определенная на элементах множества $M$. Требуется найти элемент $a_{j} \in M$, на к-ром достигается абсолютный минимум (или абсолютный максимум) $f$ на $M$. Сокращенно такие задачи записываются:
+
+\[
+\begin{aligned}
+&amp; \underset{x \in M}{f(x)} \longrightarrow \operatorname{extr}
+\end{aligned}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d6cded72677721029d77g-1.jpg?height=72&amp;width=536&amp;top_left_y=703&amp;top_left_x=1131)
+
+Из указанного класса задач Д. П. исследует только нетривиальные задачи, выделяемые следующими дополнительными условиями.
+
+1. Число $n=|\dot{M}|$ должно быть достаточно большим настолько, чтобы задача не решалась непосредственным просмотром значений $f\left(a_{i}\right)$ вручную или на ЭВМ. Так, в задаче коммивояжера, к-рая является типичной задачей Д. п., число вариантов $Q$ при обходе $m$ пунктов равно
+
+\[
+(m-1) ! \sim c \sqrt{m}\left(\frac{m-1}{e}\right)^{m-1} .
+\]
+
+В задачах минимизации булевых функций (см. Булевых бункчий минимизачия, Булевых бункций метрическая теория) $|M|&gt;2^{2 n}$.
+
+2. Задача не должна быть регулярной. Задача наз. р е г у л я р н о й, если: а) для каждого $a_{i} \in M$ определена непустая окрестность $S\left(a_{i}, M\right)$, і $\left|S\left(a_{i}, M\right)\right| \ll|M|$; б) локальный әкстремум $f$, т. е. точка $a_{i}$ такая, что $f\left(a_{i}\right)=\operatorname{extr} f(x), \quad x \in S\left(a_{i}, M\right)$, определяется при помощи простого алгоритма, в) локальный экстремум совпадает хотя бы с одним глобальным.
+
+Таким образом, Д. П. рассматривает задачи, имеющие, вообще говоря, несколько локальных экстремумов. В типичных случаях число локальных әкстремумов весьма велико. Напр., в задачах целочисленного линейного программирования с булевыми переменными, в к-рых функционал и ограничения зависят от переменных $x_{1}, \ldots, x_{k}$, число элементов в $M$ не больше $2^{k}$, а число локальных әкстремумов может быть равным const. $\frac{2 k}{\sqrt{k}}$ (см. [2]). Трудность решения задач Д. п. и определяется наличием большого числа локальных экстремумов. Универсальных эффективных методов решения задач Д. П. не создано (1978). Как показывают исследования По минимизации булевых функций - хорошо исследованной модельной задаче Д. П. (см. также Алгоритм локальный), создание таких методов, по-видимому, невозможно. Методы, в достаточной степени универсальные, такие, как м е т о д в е т в е й и г р ан и ц (см. [1]) и его различные модификации, являются методами направленного перебора. Они эффективно применяются для решения специализированных задач Д. п. Однако для каждого из таких методов существуют обширные классы задач, для к-рых методы направленного перебора мало отличаются по сложности от методов полного перебора. Другой источник математич. трудностей в задачах Д. П. состонт в том, что множество $M$, на к-ром ищется экстремум $f$, часто задается в неявной форме. Так, в задачах целочисленного линейного программирования множество $M$ определяется как со- вокупность целочисленных решений системы линейных неравенств. При таком и более сложных способах задания $M$ нетривиальной становится не только задача полного перечисления $M$, но и указания хотя бы одного элемента из $M$. В силу изложенного, основные результаты Д. п. получены при решении и исследовании более узких классов задач. К таким классам относятся транспортная задача, задача о коммивояжере и нескольких коммивояжерах, линейное целочисленное программирование, задача о распісаниях (см. Расписаний теория), әкстремальные задачи на графах (см. Графов теория), задачи минимального представления булевых функций и функцій $k$-значной логики и т. д.
+
+Другое направление в теории дискретных экстремальных задач состолт в развитии приближенных методов, обычно применяемых при решении практич. задач большой размерности. Принципиально эти методы не отличаются от соответствующих методов поиска экстремумов непрерывных функций и функционалов. В Д. п. используются аналоги алгоритмов локальной оптимизации, алгоритмов спуска, случайного поиска и т. п. (см. обзор приближенных методов решения задач Д. п. в [3]).
+
+Интересным как с теоретич. точки зрения, так и в решении прикладных задач является с т а т и с т и ч ес к и й П о д х о д к задачам Д. П. Пусть совокупность задач $\{Z\}$ можно представить в виде $\{Z\}=\bigcup_{n=1}^{\infty}\{Z\}_{n}$, где $\left|\{Z\}_{i}\right|&gt;\left|\{Z\}_{j}\right|$ при $i&gt;j$ и $\left|\{Z\}_{n}\right| \rightarrow \infty$ при $n \rightarrow \infty$. Говорят, что подмножество
+
+\[
+\left\{Z^{\prime}\right\}=U_{n=1}^{\infty}\left\{Z^{\prime}\right\}_{n}, \quad\left\{Z^{\prime}\right\}_{n} \subset\{Z\}_{n},
+\]
+
+составляет п о т и в с е задачи $Z$, если
+
+\[
+\lim _{n \rightarrow \infty} \frac{\left|\left\{Z^{\prime}\right\}_{n}\right|}{|\{Z\}|}=1
+\]
+
+Для различных классов задач Д. П. имеет место следующий факт: существует (а часто и эффективно описывается) совокупность $\left\{Z^{\prime}\right\}$ почти всех задач $\{Z\}$, для к-рых нахождение экстремума или хорошего приближения к экстремуму возможно в классе простых алгоритмов. Это было замечено впервые при решении задач синтеза оптимальных управляющих систем, напр. в минимизации булевых функций в классе дизъюнктивных нормальных форм, см. Булевых функций норлальные бормы, а также [4]. Напр., задача выделения экстремальных конъюнкций, входящих хотя бы в одну минимальную дизъюнктивную нормальную форму булевой функции $f\left(x_{1}, \ldots, x_{n}\right)$, неразрешима в классе локальных алгоритмов при $k \cdot l&lt;$ const $\cdot 2^{n}$, где $k$ - индекс локального алгоритма, $l$ - величина памяти. В то же время задача выделения элементарных конъюнкций, входящих хотя бы в одну «почти минимальную&quot; дизъюнктивную нормальную форму для почти всех булевых функций, разрешима в классе локальных алгоритмов при $k=2, l=1$ (см. [5]). Столь же значительное сокращение трудоемкости при переходе к почти всем задачам получается для экстремальных задач на графах, в задаче о построении оптимальных покрытий и т. Д.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fe3f7bb65f07d43c5ec5g-1.jpg?height=37&amp;width=796&amp;top_left_y=1897&amp;top_left_x=158)
+Дискретное программирование, М., 1969; 12] К ор обк о в Ф. К., &quot;Проблемы кибернетики&quot;, &quot;рибл, в. 14, с. методы и прикладные задачи дискретного программирования, М., 1976; [4] Дискретная математика и математические вопросы кибернетики,
+т. 1, М., 1974; [5] Ж у р а в л е в Ю. И., «Дискретный анализ&quot;, Т. 1, М., 1974; [5] Ж у р а в л е в Ю. И., “Дискретный анализ»,</text_orig>
+</article>

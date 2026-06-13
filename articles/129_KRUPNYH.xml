@@ -1,0 +1,361 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/129_KRUPNYH" alphabetic_pos="129">
+  <title>КРУПНЫХ ЧАТТИ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>64</start>
+    <end>66</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б е ло о е р к о в с к й й О. М., Д а в ыд о в Ю. М., «ж. вычисл. матем. И матем. физ.&quot;, 1971, т. 11, № 1, с. 182-207; [2] Д а в ы д о в Ю. М., там же, № 4,с. 1056новосиб., $1973 ;$ [4] Б е лоце р к о в с к й й О. М., Д а в д о в Ю. М., Исследование схем метода &quot;крупных частиц&quot; прикладной матекатики и механики, М., 1971, с. $145-55$.</literature_orig>
+    <unit>
+      <author>Белооерковскйй О. М.</author>
+      <author>Давыдов Ю. М.</author>
+      <title>«ж. вычисл. матем. И матем. физ.&quot;</title>
+      <publication/>
+      <year>1971</year>
+      <other>т. 11, № 1, с. 182-207</other>
+    </unit>
+    <unit>
+      <author>Давыдов Ю. М.</author>
+      <title>там же, № 4</title>
+      <publication/>
+      <year>1056</year>
+      <other>$1973 ;$ [4] Б е лоце р к о в с к й й О. М., Д а в д о в Ю. М., Исследование схем метода &quot;крупных частиц&quot; прикладной матекатики и механики, М., 1971, с. $145-55$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/129_1_KRUPNYH">\left.\begin{array}{l}\frac{\partial \rho}{\partial t}+\operatorname{div}(\rho v)=0, \\\frac{\partial \rho u_{i}}{\partial t}+\operatorname{div}\left(\rho v u_{i}\right)+\frac{\partial P}{\partial x_{i}}=0, \\\frac{\partial \rho E}{\partial t}+\operatorname{div}(\rho E v)+\operatorname{div}(P \boldsymbol{v})=0 .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_2_KRUPNYH">P=P(\rho, J)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_3_KRUPNYH">J=E-\frac{1}{2}|\boldsymbol{v}|^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_4_KRUPNYH">\begin{gathered}\tilde{u}_{i, j}^{n}=u_{i, j}^{n}-\frac{P_{i+1 / 2, j}^{n}-P_{i-1 / 2, j}^{n}}{\Delta x} \frac{\Delta t}{\rho_{i, j}^{n}}, \\\tilde{v}_{i, j}^{n}=v_{i, j}^{n}-\frac{P_{i, j+1 / 2}^{n}-P_{i, j-1 / 2}^{n}}{\Delta y} \frac{\Delta t}{\rho_{i, j}^{n}}, \\-\left[\frac{\tilde{E}_{i+1 / 2}^{n}, j=\tilde{u}_{i+1 / 2, j}^{n}-P_{i-1 / 2, j}^{n} \tilde{u}_{i-1 / 2, j}^{n}}{\Delta x}+\right. \\\left.+\frac{\left.P_{i, j+1 / 2}^{n} \tilde{v}_{i, j+1 / 2}^{n}-P_{i, j+1 / 2}^{n} \tilde{v}_{i, j-1 / 2}^{n}\right]}{\Delta y}\right] \frac{\Delta t}{\rho_{i, j}^{n}} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_5_KRUPNYH">u_{i+1 / 2}^{n}, j=\frac{u_{i, j}^{n}+u_{i+1, j}^{n}}{2}, P_{i-1 / 2, j}^{n}=\frac{P_{i-1, j}^{n}+P_{i, j}^{n}}{2}, \ldots ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_6_KRUPNYH">f=\int_{V} \rho u d \tau, \quad \vartheta=\int_{V} \rho v d \tau, \quad \psi=\int_{V} \rho E d \tau .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_7_KRUPNYH">\Delta M_{i+1 / 2, j}^{n}=\left\langle\rho_{i+1 / 2, j}^{n}\right\rangle\left\langle u_{i+1 / 2, j}^{n}\right\rangle \Delta y \Delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_8_KRUPNYH">\begin{aligned}&amp; \rho_{i, j}^{n+1}=\rho_{i, j}^{n}+ \\&amp; +\frac{\Delta M_{i-1 / 2, j}^{n}+\Delta M_{i, j-1 / 2}^{n}-\Delta M_{i, j+1 / 2}^{n}-\Delta M_{i+1 / 2, j}^{n}}{\Delta x \Delta y} \\&amp; X_{i, j}^{n+1}= \\&amp; =\frac{\rho_{i, j}^{n}}{\rho_{i, j}^{n+1}} \tilde{X}_{i, j}^{n}+\frac{\tilde{X}_{i-1, j}^{n} \Delta M_{i-1 / 2, j}^{n}+\tilde{X}_{i, j-1}^{n} \Delta M_{i, j-1 / 2}^{n}}{\rho_{i, j}^{n+1} \Delta x \Delta y}+ \\&amp; +\frac{-\tilde{X}_{i, j}^{n} \Delta M_{i+1 / 2, j}^{n}-\tilde{X}_{i, j}^{n} \Delta M_{i, j+1 / 2}^{n}}{\rho_{i, j}^{n+1} \Delta x \Delta y} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/129_9_KRUPNYH">\left\{\begin{array}{c}\rho \\E\end{array}\right\}_{\alpha}=\sum S_{\beta_{i}}\left\{\begin{array}{c}\rho \\E\end{array}\right\}_{i}, \quad\left\{\begin{array}{l}u \\v\end{array}\right\}_{\alpha}=-\sum S_{\beta_{i}}\left\{\begin{array}{l}u \\v\end{array}\right\}_{i} \cdot</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_1_KRUPNYH">x_{i}=\{x, y, z\}, t-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_2_KRUPNYH">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_3_KRUPNYH">\boldsymbol{v}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_4_KRUPNYH">=\left\{u_{i}\right\}=\{u, v, w\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_5_KRUPNYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_6_KRUPNYH">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_7_KRUPNYH">\operatorname{div}(\psi \rho v), \psi=(1, u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_8_KRUPNYH">v, E)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_9_KRUPNYH">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_10_KRUPNYH">u, v, E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_11_KRUPNYH">\rho \frac{\partial u}{\partial t}+\frac{\partial P}{\partial x}=0, \rho \frac{\partial v}{\partial t}+\frac{\partial P}{\partial y}=0, \rho \frac{\partial E}{\partial t}+\operatorname{div}(P \boldsymbol{v})=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_12_KRUPNYH">\tilde{u}, \tilde{v}, \tilde{E}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_13_KRUPNYH">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_14_KRUPNYH">t^{n}+\delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_15_KRUPNYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_16_KRUPNYH">t^{n}+\delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_17_KRUPNYH">&lt;&gt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_18_KRUPNYH">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_19_KRUPNYH">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_20_KRUPNYH">\delta M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_21_KRUPNYH">\delta M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_22_KRUPNYH">t^{n+1}=t^{n}+\delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_23_KRUPNYH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_24_KRUPNYH">\boldsymbol{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_25_KRUPNYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_26_KRUPNYH">m^{n+1}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_27_KRUPNYH">=m^{n}+\sigma \Delta M^{n}, \quad \boldsymbol{p}^{n+1}=\boldsymbol{p}^{n}+\Sigma \Delta \boldsymbol{p}^{n}, \quad E^{n+1}=E^{n}+\Sigma \Delta E^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_28_KRUPNYH">\rho, X=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_29_KRUPNYH">=\{u, v, E\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_30_KRUPNYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_31_KRUPNYH">s, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_32_KRUPNYH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_33_KRUPNYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_34_KRUPNYH">k-k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_35_KRUPNYH">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_36_KRUPNYH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_37_KRUPNYH">k-k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_38_KRUPNYH">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_39_KRUPNYH">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_40_KRUPNYH">g_{\beta}=\sigma_{i} S_{\beta_{i}} g_{i}\left(\Sigma_{i} S_{\beta_{i}}=1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_41_KRUPNYH">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_42_KRUPNYH">s_{\beta_{i}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_43_KRUPNYH">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_44_KRUPNYH">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_45_KRUPNYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_46_KRUPNYH">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_47_KRUPNYH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_48_KRUPNYH">a_{i-1 / 2}, j, A_{i, j-1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_49_KRUPNYH">a_{i+1 / 2}, j, A_{i, j+1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_50_KRUPNYH">f_{i, j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_51_KRUPNYH">f_{i, j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_52_KRUPNYH">\delta x \Delta y, A_{i-1 / 2, j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_53_KRUPNYH">(i-1 / 2, j)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_54_KRUPNYH">0,2 \cdot \Delta r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_55_KRUPNYH">c \frac{\Delta t}{\Delta \lambda}&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_56_KRUPNYH">\lambda-x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_57_KRUPNYH">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_58_KRUPNYH">f&lt;f_{\min \text { уст. присоединяются к соседним }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_59_KRUPNYH">a_{i-1 / 2}, j \geqslant 1, A_{i, j-1 / 2} \geqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/129_60_KRUPNYH">\geqslant 1, \ldots ., f_{i j}&gt;1</formula>
+  </formulas_aux>
+  <relations n="13">
+    <relation uri="http://libmeta.ru/me/relation/129_1_KRUPNYH">
+      <rel_text>приближений</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_2_KRUPNYH">
+      <rel_text>дифференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_3_KRUPNYH">
+      <rel_text>устойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/631_UsTOJChIVOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_4_KRUPNYH">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_5_KRUPNYH">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_6_KRUPNYH">
+      <rel_text>симметрии</rel_text>
+      <target>http://libmeta.ru/me/article/1306_SIMMTTRIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_7_KRUPNYH">
+      <rel_text>ячейки</rel_text>
+      <target>http://libmeta.ru/me/article/1246_JaChEJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_8_KRUPNYH">
+      <rel_text>расстояния</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_9_KRUPNYH">
+      <rel_text>произвести</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_10_KRUPNYH">
+      <rel_text>измерением</rel_text>
+      <target>http://libmeta.ru/me/article/502_IZMEL'ChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_11_KRUPNYH">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_12_KRUPNYH">
+      <rel_text>характеристики</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/129_13_KRUPNYH">
+      <rel_text>геометрич</rel_text>
+      <target>http://libmeta.ru/me/article/1012_GEOMETRI</target>
+    </relation>
+  </relations>
+  <text>Л. А. Скорняков сжимаемых течений сплошной среды [1]. К. ч. м. основывается на расщеплении исходной системы дифференциальных уравнений по физическим процессам (см. [3]). Им решается эволюционная система уравнений. Допускается стационарное решение в результате установления. К. ч. м. является развитием метода «частиц в ячейках&quot; Харлоу.
+
+К. ч. м. широко исшользуется для исследования аэрогазодинамич. течений, цифракционных задач, трансзвуковых потоков, явлений взаимодействия излучения с веществом и др.
+
+Разностная схема К. ч. м. может быть описана на примере движения идеального сжимаемого газа (уравнения неразрывности, импульса и энергии):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_1_KRUPNYH]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/129_1_KRUPNYH]]/URI$ время, $URI[[http://libmeta.ru/me/formula/aux/129_2_KRUPNYH]]/URI$ - плотность, $URI[[http://libmeta.ru/me/formula/aux/129_3_KRUPNYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/129_4_KRUPNYH]]/URI$ - скорость, $URI[[http://libmeta.ru/me/formula/aux/129_5_KRUPNYH]]/URI$ - полная удельная энергия, $URI[[http://libmeta.ru/me/formula/aux/129_6_KRUPNYH]]/URI$ - давление. Для замыкания системы (1) используется уравнение состояния
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_2_KRUPNYH]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_3_KRUPNYH]]/URI
+\]
+
+- внутренняя удельная энергия.
+
+Процесс решения эволюционной системы (1) разбивается на шаги по времени, каждый из к-рых состоит из трех этапов: эйлерова, лагранжева и заключительного. Вначале рассматривается изменение внутреннего состояния подсистемы - «крупной частицы&quot; (эйлеров этап), а затем-перемещение этой подсистемы без изменения внутреннего состояния (лагранжев и заключительный әтапы).
+
+Э й л е р о в вается неподвшжнй (эйлеровой) разностной сеткой про- извольной формы [для краткости изложения рассматривается прямоугольная сетка в двумерной (плоскойі) области (см. рис.)]. На этом этапе расчета изменяются лишь величины, относящиеся к ячейке в целом, а жидкость предполагается моментально заторможенної.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d217311b7a2acf3ccd8dg-1.jpg?height=427&amp;width=620&amp;top_left_y=350&amp;top_left_x=1092)
+
+Поэтому конвективные члены вида $URI[[http://libmeta.ru/me/formula/aux/129_7_KRUPNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/129_8_KRUPNYH]]/URI$, соответствующие эффектам перемещения, из уравнений (1) опускаются. В оставшихся уравнениях (1) $URI[[http://libmeta.ru/me/formula/aux/129_9_KRUPNYH]]/URI$ выносится из-под знака дифференциала, и уравнения (1) разрешаются относительно временных производных от $URI[[http://libmeta.ru/me/formula/aux/129_10_KRUPNYH]]/URI$ :
+
+$URI[[http://libmeta.ru/me/formula/aux/129_11_KRUPNYH]]/URI$.
+
+Простейшая конечноразностная аппроксимация (центральные разности) приводит к следующим выражениям:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_4_KRUPNYH]]/URI
+\]
+
+Здесь величины с дробными индексами относятся к границам ячеек, напр.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_5_KRUPNYH]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/129_12_KRUPNYH]]/URI$ промеякуточые значения параметров потока, полученные в предположении «замороженности» поля $URI[[http://libmeta.ru/me/formula/aux/129_13_KRUPNYH]]/URI$ на слое $URI[[http://libmeta.ru/me/formula/aux/129_14_KRUPNYH]]/URI$. Хотя схема әйлерова этапа в данном виде неустойчива, при определенных формах записи последующих этапов вся схема в пелом - устойчива. Устойчивости әйлерова этапа можно достигнуть, напр., путем введения в него элементов интегральны $URI[[http://libmeta.ru/me/formula/aux/129_15_KRUPNYH]]/URI$ соотноцений метода. При әтом аппроксимация подинтегральных функций производится в направлении, иараллельном оси тела (см. рис.), т. е. как в схеме 1 метода интегральных соотношений: исходная система уравнений берется в интегральном виде, в ней аппроксимируются интегралы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_6_KRUPNYH]]/URI
+\]
+
+Л а г р а н ж е в ә т а п. На данном этапе находятся при $URI[[http://libmeta.ru/me/formula/aux/129_16_KRUPNYH]]/URI$ потоки массы через границы ячеек. Iiри этом полагалот, что масса крупной частицы переносится только за счет нормальной к границе составляющей скорости. Так, напр.,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_7_KRUPNYH]]/URI
+\]
+
+и т. д. Знак $URI[[http://libmeta.ru/me/formula/aux/129_17_KRUPNYH]]/URI$ определяет параметры $URI[[http://libmeta.ru/me/formula/aux/129_18_KRUPNYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/129_19_KRUPNYH]]/URI$ на границе ячейки. Выбор этих величин имеет важное значение, так как сильно влияет на устойчивость и точность счета. Возможны различные разностные прецставления для $URI[[http://libmeta.ru/me/formula/aux/129_20_KRUPNYH]]/URI$ : разного порядка точности, с учетом и без учета направления потока, центральные разности, Zip-аппроксимации и т. Д. Потокі импульса (энергии) равны произведению $URI[[http://libmeta.ru/me/formula/aux/129_21_KRUPNYH]]/URI$ на соответствующие значения скорости (полной удельной энергии). Проводились также аппроксимации не только потоков массы, но и потоков импульса и энергии.
+
+3 а л ю ч и т е ль н ы й э т а п. На этом этапе находятся окончательные поля эйлеровых параметров потока в момент $URI[[http://libmeta.ru/me/formula/aux/129_22_KRUPNYH]]/URI$. Уравнения этого этапа гредставляют собої законы сохранения массы $URI[[http://libmeta.ru/me/formula/aux/129_23_KRUPNYH]]/URI$, импульса $URI[[http://libmeta.ru/me/formula/aux/129_24_KRUPNYH]]/URI$ и полной әнергии $URI[[http://libmeta.ru/me/formula/aux/129_25_KRUPNYH]]/URI$, записанные для данной ячейки (крупной частицы) в разностной форме $URI[[http://libmeta.ru/me/formula/aux/129_26_KRUPNYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/129_27_KRUPNYH]]/URI$. Окончательные значения параметров потока $URI[[http://libmeta.ru/me/formula/aux/129_28_KRUPNYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/129_29_KRUPNYH]]/URI$ на следующем временном слое вычисляются по формулам (поток течет слева направо и снизу вверх):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_8_KRUPNYH]]/URI
+\]
+
+Консервативность и полную дивергентность разностной схемы (схема дивергентно-консервативная) обеспечивает уравнение для полной энергии $URI[[http://libmeta.ru/me/formula/aux/129_30_KRUPNYH]]/URI$. На заключительном этапе (в случае использования дискретной модели среды) целесообразно производить дополнительный пересчет плотности, что сглаживает флуктуации и повышает точность вычислений. Комбинируя различные представления этапов, получают серию разностных схем К.ч. м., что позволяет осуществить широкий класс численных экспериментов.
+
+К. ч. м. допускает трактовку с различных точек зрения: метод расщепления, смешанный эйлерово-лагранжевый метод, расчет в локально лагранжевых координатах (эйлеров этап) с пересчетом на прежнюю сетку (лагранжев и заключительный әтапы), разностная запись законов сохранения для элемента жидкости «крупной частицы», эйлерова разностная схема.
+
+Граничные условия ставятся с помощью рядов фиктивных ячеек (чтобы каждую расчетную точку сделать внутренней и сохранить единый алгоритм для всех ячеек). Для схемы 1-го порядка аппроксимации достаточно одного слоя, для 2-го порядка - два слоя и т. Д. Пусть, напр., рассматривается задача о расчете обтекания осесимметричных и плоских тел с образующей произвольной формы (см. рис.). Приведенные ранее расчетные формулы справедливы для внутренних ячеек поля, со всех сторон окруженных жидкостью, и для ячеек, прилегающих к твердому телу, контур к-рого совпадает с границами ячеек.
+
+При расчете обтекания тел конечноразностными методами можно использовать два подхода: расчет в коор- динатах $URI[[http://libmeta.ru/me/formula/aux/129_31_KRUPNYH]]/URI$; введение в рассмотрение дробных ячеек (см. [2]). В первом случае затруднительно рассчитывать тела с изломами и с вогнутостями. Второй подход свободен от этих недостатков.
+
+Граничные условия на теле в случае дробных ячеек ставятся, как и в случае целых ячеек, с помощью введения фиктивных ячеек. Внутри тела формируется слой фиктивных ячеек, прилегатощих к дробным ячейкам. Для определения параметров газа в этих фиктивных ячейках из центра фиктивной ячейки $URI[[http://libmeta.ru/me/formula/aux/129_32_KRUPNYH]]/URI$ на контур тела опускают нормаль и в точке их пересе чения $URI[[http://libmeta.ru/me/formula/aux/129_33_KRUPNYH]]/URI$ проводят кас ательную $URI[[http://libmeta.ru/me/formula/aux/129_34_KRUPNYH]]/URI$ (см. рис.). Затем в поле теченія строят нек-рую ячейку $URI[[http://libmeta.ru/me/formula/aux/129_35_KRUPNYH]]/URI$, симметричную данной фиктивної ячейке $URI[[http://libmeta.ru/me/formula/aux/129_36_KRUPNYH]]/URI$ относительно касательной $URI[[http://libmeta.ru/me/formula/aux/129_37_KRUPNYH]]/URI$. Газодинамич. параметры $URI[[http://libmeta.ru/me/formula/aux/129_38_KRUPNYH]]/URI$ в ячейке $URI[[http://libmeta.ru/me/formula/aux/129_39_KRUPNYH]]/URI$ определяют путем «взвешивания&quot; $URI[[http://libmeta.ru/me/formula/aux/129_40_KRUPNYH]]/URI$, где суммированіе производится по тем ячейкам $URI[[http://libmeta.ru/me/formula/aux/129_41_KRUPNYH]]/URI$, часть площади $URI[[http://libmeta.ru/me/formula/aux/129_42_KRUPNYH]]/URI$ к-рых попала в ячейку $URI[[http://libmeta.ru/me/formula/aux/129_43_KRUPNYH]]/URI$. Постановка условий непротекания требует для каждой фиктивной ячейки задания еще одного параметра $URI[[http://libmeta.ru/me/formula/aux/129_44_KRUPNYH]]/URI$ : угла наклона радиус-вектора, пересекающего контур тела в точке $URI[[http://libmeta.ru/me/formula/aux/129_45_KRUPNYH]]/URI$. При использовании условий прилипания (обе компоненты скорости при переходе через поверхность тела меняют знак) не требуется задания дополнительного параметра $URI[[http://libmeta.ru/me/formula/aux/129_46_KRUPNYH]]/URI$. Параметры газа в фиктивной ячейке $URI[[http://libmeta.ru/me/formula/aux/129_47_KRUPNYH]]/URI$ тогда будут
+
+\[
+URI[[http://libmeta.ru/me/formula/main/129_9_KRUPNYH]]/URI
+\]
+
+Граничные условия для тела, контур к-рого совпадает с границами ячеек, являются частным случаем изложенных здесь граничных условий.
+
+Для каждой дробной ячейки (см. рис.) необходимо знать 5 геометрич. характеристик: $URI[[http://libmeta.ru/me/formula/aux/129_48_KRUPNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/129_49_KRUPNYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/129_50_KRUPNYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/129_51_KRUPNYH]]/URI$ - доля объема дроб̈ной ячейки по отношению к объему полной ячейки $URI[[http://libmeta.ru/me/formula/aux/129_52_KRUPNYH]]/URI$ - часть площади стороны $URI[[http://libmeta.ru/me/formula/aux/129_53_KRUPNYH]]/URI$, открытой для течения жидкості, и т. п.
+
+Размепение твердой границы внутри ячейки вносит две особенности: оно смещает центр масс из геометрич. центра ячейки ближе к границе и уменьшает реальные размеры ячейки. При рассмотрении как целых, так и дробных ячеек все параметры потока относятся к центру массы. Именно между центрами масс производится интерполяция газодинамич. функций. В случае целых ячеек центр масс либо совпадаєт с геометрич. центром ячеек (плоская декартова система координат), либо близок к нему (цилиндрич. система координат). В реальных расчетах разница даже для прилегающего к оси ряда ячеек не превышает $URI[[http://libmeta.ru/me/formula/aux/129_54_KRUPNYH]]/URI$. В результаты расчетов это обстоятельство не вносит существенных искажений. При надлежащем введении дробных ячеек смещение центра массы отпосительно геометрич. центра также не превышает этой величины. Более серъезным является вопрос, связанный с уменьшением эффективных размеров ячейки. Чтобы при уменьшении размеров ячейки не нарушалось условие устойчивости $URI[[http://libmeta.ru/me/formula/aux/129_55_KRUPNYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/129_56_KRUPNYH]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/129_57_KRUPNYH]]/URI$, ячейки с $URI[[http://libmeta.ru/me/formula/aux/129_58_KRUPNYH]]/URI$ целым ячейкам внутри потока и полученные комплексы рассчитываются по формулам дробных ячеек. В этом случае геометрич. размеры укрупненной ячейки не меньше размеров целой ячейки: $URI[[http://libmeta.ru/me/formula/aux/129_59_KRUPNYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/129_60_KRUPNYH]]/URI$, поэтому вопрос об устойчивости дробных ячеек снят.
+
+В плоском случае URI[[http://libmeta.ru/me/relation/129_13_KRUPNYH]]/URI. URI[[http://libmeta.ru/me/relation/129_12_KRUPNYH]]/URI дробных ячеек можно URI[[http://libmeta.ru/me/relation/129_11_KRUPNYH]]/URI непосредственным URI[[http://libmeta.ru/me/relation/129_10_KRUPNYH]]/URI. В осесимметричном случае необходимо URI[[http://libmeta.ru/me/relation/129_9_KRUPNYH]]/URI дополнительный пересчет с учетом URI[[http://libmeta.ru/me/relation/129_8_KRUPNYH]]/URI данной дробной URI[[http://libmeta.ru/me/relation/129_7_KRUPNYH]]/URI до оси URI[[http://libmeta.ru/me/relation/129_6_KRUPNYH]]/URI. Разностные URI[[http://libmeta.ru/me/relation/129_5_KRUPNYH]]/URI для дробных ячеек URI[[http://libmeta.ru/me/relation/129_4_KRUPNYH]]/URI путем незначи- тельного изменения разностных выражений для целых ячеек.
+
+Исследование разностных схем К. ч. м. (аппроксимации, вязкостных эффектов, URI[[http://libmeta.ru/me/relation/129_3_KRUPNYH]]/URI) проводилось с помощью URI[[http://libmeta.ru/me/relation/129_2_KRUPNYH]]/URI URI[[http://libmeta.ru/me/relation/129_1_KRUPNYH]]/URI (см. [4]). Проведено обобщение К. ч. М. на пространственнотрехмерный случай.</text>
+  <text_orig>Л. А. Скорняков сжимаемых течений сплошной среды [1]. К. ч. м. основывается на расщеплении исходной системы дифференциальных уравнений по физическим процессам (см. [3]). Им решается эволюционная система уравнений. Допускается стационарное решение в результате установления. К. ч. м. является развитием метода «частиц в ячейках&quot; Харлоу.
+
+К. ч. м. широко исшользуется для исследования аэрогазодинамич. течений, цифракционных задач, трансзвуковых потоков, явлений взаимодействия излучения с веществом и др.
+
+Разностная схема К. ч. м. может быть описана на примере движения идеального сжимаемого газа (уравнения неразрывности, импульса и энергии):
+
+\[
+\left.\begin{array}{l}
+\frac{\partial \rho}{\partial t}+\operatorname{div}(\rho v)=0, \\
+\frac{\partial \rho u_{i}}{\partial t}+\operatorname{div}\left(\rho v u_{i}\right)+\frac{\partial P}{\partial x_{i}}=0, \\
+\frac{\partial \rho E}{\partial t}+\operatorname{div}(\rho E v)+\operatorname{div}(P \boldsymbol{v})=0 .
+\end{array}\right\}
+\]
+
+Здесь $x_{i}=\{x, y, z\}, t-$ время, $\rho$ - плотность, $\boldsymbol{v}=$ $=\left\{u_{i}\right\}=\{u, v, w\}$ - скорость, $E$ - полная удельная энергия, $P$ - давление. Для замыкания системы (1) используется уравнение состояния
+
+\[
+P=P(\rho, J)
+\]
+
+где
+
+\[
+J=E-\frac{1}{2}|\boldsymbol{v}|^{2}
+\]
+
+- внутренняя удельная энергия.
+
+Процесс решения эволюционной системы (1) разбивается на шаги по времени, каждый из к-рых состоит из трех этапов: эйлерова, лагранжева и заключительного. Вначале рассматривается изменение внутреннего состояния подсистемы - «крупной частицы&quot; (эйлеров этап), а затем-перемещение этой подсистемы без изменения внутреннего состояния (лагранжев и заключительный әтапы).
+
+Э й л е р о в вается неподвшжнй (эйлеровой) разностной сеткой про- извольной формы [для краткости изложения рассматривается прямоугольная сетка в двумерной (плоскойі) области (см. рис.)]. На этом этапе расчета изменяются лишь величины, относящиеся к ячейке в целом, а жидкость предполагается моментально заторможенної.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d217311b7a2acf3ccd8dg-1.jpg?height=427&amp;width=620&amp;top_left_y=350&amp;top_left_x=1092)
+
+Поэтому конвективные члены вида $\operatorname{div}(\psi \rho v), \psi=(1, u$, $v, E)$, соответствующие эффектам перемещения, из уравнений (1) опускаются. В оставшихся уравнениях (1) $\rho$ выносится из-под знака дифференциала, и уравнения (1) разрешаются относительно временных производных от $u, v, E$ :
+
+$\rho \frac{\partial u}{\partial t}+\frac{\partial P}{\partial x}=0, \rho \frac{\partial v}{\partial t}+\frac{\partial P}{\partial y}=0, \rho \frac{\partial E}{\partial t}+\operatorname{div}(P \boldsymbol{v})=0$.
+
+Простейшая конечноразностная аппроксимация (центральные разности) приводит к следующим выражениям:
+
+\[
+\begin{gathered}
+\tilde{u}_{i, j}^{n}=u_{i, j}^{n}-\frac{P_{i+1 / 2, j}^{n}-P_{i-1 / 2, j}^{n}}{\Delta x} \frac{\Delta t}{\rho_{i, j}^{n}}, \\
+\tilde{v}_{i, j}^{n}=v_{i, j}^{n}-\frac{P_{i, j+1 / 2}^{n}-P_{i, j-1 / 2}^{n}}{\Delta y} \frac{\Delta t}{\rho_{i, j}^{n}}, \\
+-\left[\frac{\tilde{E}_{i+1 / 2}^{n}, j=\tilde{u}_{i+1 / 2, j}^{n}-P_{i-1 / 2, j}^{n} \tilde{u}_{i-1 / 2, j}^{n}}{\Delta x}+\right. \\
+\left.+\frac{\left.P_{i, j+1 / 2}^{n} \tilde{v}_{i, j+1 / 2}^{n}-P_{i, j+1 / 2}^{n} \tilde{v}_{i, j-1 / 2}^{n}\right]}{\Delta y}\right] \frac{\Delta t}{\rho_{i, j}^{n}} .
+\end{gathered}
+\]
+
+Здесь величины с дробными индексами относятся к границам ячеек, напр.
+
+\[
+u_{i+1 / 2}^{n}, j=\frac{u_{i, j}^{n}+u_{i+1, j}^{n}}{2}, P_{i-1 / 2, j}^{n}=\frac{P_{i-1, j}^{n}+P_{i, j}^{n}}{2}, \ldots ;
+\]
+
+$\tilde{u}, \tilde{v}, \tilde{E}-$ промеякуточые значения параметров потока, полученные в предположении «замороженности» поля $\rho$ на слое $t^{n}+\Delta t$. Хотя схема әйлерова этапа в данном виде неустойчива, при определенных формах записи последующих этапов вся схема в пелом - устойчива. Устойчивости әйлерова этапа можно достигнуть, напр., путем введения в него элементов интегральны $x$ соотноцений метода. При әтом аппроксимация подинтегральных функций производится в направлении, иараллельном оси тела (см. рис.), т. е. как в схеме 1 метода интегральных соотношений: исходная система уравнений берется в интегральном виде, в ней аппроксимируются интегралы
+
+\[
+f=\int_{V} \rho u d \tau, \quad \vartheta=\int_{V} \rho v d \tau, \quad \psi=\int_{V} \rho E d \tau .
+\]
+
+Л а г р а н ж е в ә т а п. На данном этапе находятся при $t^{n}+\Delta t$ потоки массы через границы ячеек. IIри этом полагалот, что масса крупной частицы переносится только за счет нормальной к границе составляющей скорости. Так, напр.,
+
+\[
+\Delta M_{i+1 / 2, j}^{n}=\left\langle\rho_{i+1 / 2, j}^{n}\right\rangle\left\langle u_{i+1 / 2, j}^{n}\right\rangle \Delta y \Delta t
+\]
+
+и т. д. Знак $&lt;&gt;$ определяет параметры $\rho$ и $u$ на границе ячейки. Выбор этих величин имеет важное значение, так как сильно влияет на устойчивость и точность счета. Возможны различные разностные прецставления для $\Delta M^{n}$ : разного порядка точности, с учетом и без учета направления потока, центральные разности, ZIP-аппроксимации и т. Д. Потокі импульса (энергии) равны произведению $\Delta M^{n}$ на соответствующие значения скорости (полной удельной энергии). Проводились также аппроксимации не только потоков массы, но и потоков импульса и энергии.
+
+3 а л ю ч и т е ль н ы й э т а п. На этом этапе находятся окончательные поля эйлеровых параметров потока в момент $t^{n+1}=t^{n}+\Delta t$. Уравнения этого этапа гредставляют собої законы сохранения массы $M$, импульса $\boldsymbol{p}$ и полной әнергии $E$, записанные для данной ячейки (крупной частицы) в разностной форме $M^{n+1}=$ $=M^{n}+\Sigma \Delta M^{n}, \quad \boldsymbol{p}^{n+1}=\boldsymbol{p}^{n}+\Sigma \Delta \boldsymbol{p}^{n}, \quad E^{n+1}=E^{n}+\Sigma \Delta E^{n}$. Окончательные значения параметров потока $\rho, X=$ $=\{u, v, E\}$ на следующем временном слое вычисляются по формулам (поток течет слева направо и снизу вверх):
+
+\[
+\begin{aligned}
+&amp; \rho_{i, j}^{n+1}=\rho_{i, j}^{n}+ \\
+&amp; +\frac{\Delta M_{i-1 / 2, j}^{n}+\Delta M_{i, j-1 / 2}^{n}-\Delta M_{i, j+1 / 2}^{n}-\Delta M_{i+1 / 2, j}^{n}}{\Delta x \Delta y} \\
+&amp; X_{i, j}^{n+1}= \\
+&amp; =\frac{\rho_{i, j}^{n}}{\rho_{i, j}^{n+1}} \tilde{X}_{i, j}^{n}+\frac{\tilde{X}_{i-1, j}^{n} \Delta M_{i-1 / 2, j}^{n}+\tilde{X}_{i, j-1}^{n} \Delta M_{i, j-1 / 2}^{n}}{\rho_{i, j}^{n+1} \Delta x \Delta y}+ \\
+&amp; +\frac{-\tilde{X}_{i, j}^{n} \Delta M_{i+1 / 2, j}^{n}-\tilde{X}_{i, j}^{n} \Delta M_{i, j+1 / 2}^{n}}{\rho_{i, j}^{n+1} \Delta x \Delta y} .
+\end{aligned}
+\]
+
+Консервативность и полную дивергентность разностной схемы (схема дивергентно-консервативная) обеспечивает уравнение для полной энергии $E$. На заключительном этапе (в случае использования дискретной модели среды) целесообразно производить дополнительный пересчет плотности, что сглаживает флуктуации и повышает точность вычислений. Комбинируя различные представления этапов, получают серию разностных схем К.ч. м., что позволяет осуществить широкий класс численных экспериментов.
+
+К. ч. м. допускает трактовку с различных точек зрения: метод расщепления, смешанный эйлерово-лагранжевый метод, расчет в локально лагранжевых координатах (эйлеров этап) с пересчетом на прежнюю сетку (лагранжев и заключительный әтапы), разностная запись законов сохранения для элемента жидкости «крупной частицы», эйлерова разностная схема.
+
+Граничные условия ставятся с помощью рядов фиктивных ячеек (чтобы каждую расчетную точку сделать внутренней и сохранить единый алгоритм для всех ячеек). Для схемы 1-го порядка аппроксимации достаточно одного слоя, для 2-го порядка - два слоя и т. Д. Пусть, напр., рассматривается задача о расчете обтекания осесимметричных и плоских тел с образующей произвольной формы (см. рис.). Приведенные ранее расчетные формулы справедливы для внутренних ячеек поля, со всех сторон окруженных жидкостью, и для ячеек, прилегающих к твердому телу, контур к-рого совпадает с границами ячеек.
+
+При расчете обтекания тел конечноразностными методами можно использовать два подхода: расчет в коор- динатах $s, n$; введение в рассмотрение дробных ячеек (см. [2]). В первом случае затруднительно рассчитывать тела с изломами и с вогнутостями. Второй подход свободен от этих недостатков.
+
+Граничные условия на теле в случае дробных ячеек ставятся, как и в случае целых ячеек, с помощью введения фиктивных ячеек. Внутри тела формируется слой фиктивных ячеек, прилегатощих к дробным ячейкам. Для определения параметров газа в этих фиктивных ячейках из центра фиктивной ячейки $\alpha$ на контур тела опускают нормаль и в точке их пересе чения $A$ проводят кас ательную $k-k$ (см. рис.). Затем в поле теченія строят нек-рую ячейку $\beta$, симметричную данной фиктивної ячейке $\alpha$ относительно касательной $k-k$. Газодинамич. параметры $g$ в ячейке $\beta$ определяют путем «взвешивания&quot; $g_{\beta}=\Sigma_{i} S_{\beta_{i}} g_{i}\left(\Sigma_{i} S_{\beta_{i}}=1\right)$, где суммированіе производится по тем ячейкам $i$, часть площади $S_{\beta_{i}}$ к-рых попала в ячейку $\beta$. Постановка условий непротекания требует для каждой фиктивной ячейки задания еще одного параметра $\gamma$ : угла наклона радиус-вектора, пересекающего контур тела в точке $A$. При использовании условий прилипания (обе компоненты скорости при переходе через поверхность тела меняют знак) не требуется задания дополнительного параметра $\gamma$. Параметры газа в фиктивной ячейке $\alpha$ тогда будут
+
+\[
+\left\{\begin{array}{c}
+\rho \\
+E
+\end{array}\right\}_{\alpha}=\sum S_{\beta_{i}}\left\{\begin{array}{c}
+\rho \\
+E
+\end{array}\right\}_{i}, \quad\left\{\begin{array}{l}
+u \\
+v
+\end{array}\right\}_{\alpha}=-\sum S_{\beta_{i}}\left\{\begin{array}{l}
+u \\
+v
+\end{array}\right\}_{i} \cdot
+\]
+
+Граничные условия для тела, контур к-рого совпадает с границами ячеек, являются частным случаем изложенных здесь граничных условий.
+
+Для каждой дробной ячейки (см. рис.) необходимо знать 5 геометрич. характеристик: $A_{i-1 / 2}, j, A_{i, j-1 / 2}$, $A_{i+1 / 2}, j, A_{i, j+1 / 2}$ и $f_{i, j}$, где $f_{i, j}$ - доля объема дроб̈ной ячейки по отношению к объему полной ячейки $\Delta x \Delta y, A_{i-1 / 2, j}$ - часть площади стороны $(i-1 / 2, j)$, открытой для течения жидкості, и т. п.
+
+Размепение твердой границы внутри ячейки вносит две особенности: оно смещает центр масс из геометрич. центра ячейки ближе к границе и уменьшает реальные размеры ячейки. При рассмотрении как целых, так и дробных ячеек все параметры потока относятся к центру массы. Именно между центрами масс производится интерполяция газодинамич. функций. В случае целых ячеек центр масс либо совпадаєт с геометрич. центром ячеек (плоская декартова система координат), либо близок к нему (цилиндрич. система координат). В реальных расчетах разница даже для прилегающего к оси ряда ячеек не превышает $0,2 \cdot \Delta r$. В результаты расчетов это обстоятельство не вносит существенных искажений. При надлежащем введении дробных ячеек смещение центра массы отпосительно геометрич. центра также не превышает этой величины. Более серъезным является вопрос, связанный с уменьшением эффективных размеров ячейки. Чтобы при уменьшении размеров ячейки не нарушалось условие устойчивости $c \frac{\Delta t}{\Delta \lambda}&lt;1$, где $\lambda-x$ или $y$, ячейки с $f&lt;f_{\min \text { уст. присоединяются к соседним }}$ целым ячейкам внутри потока и полученные комплексы рассчитываются по формулам дробных ячеек. В этом случае геометрич. размеры укрупненной ячейки не меньше размеров целой ячейки: $A_{i-1 / 2}, j \geqslant 1, A_{i, j-1 / 2} \geqslant$ $\geqslant 1, \ldots ., f_{i j}&gt;1$, поэтому вопрос об устойчивости дробных ячеек снят.
+
+В плоском случае геометрич. характеристики дробных ячеек можно получить непосредственным измерением. В осесимметричном случае необходимо произвести дополнительный пересчет с учетом расстояния данной дробной ячейки до оси симметрии. Разностные формулы для дробных ячеек получаются путем незначи- тельного изменения разностных выражений для целых ячеек.
+
+Исследование разностных схем К. ч. м. (аппроксимации, вязкостных эффектов, устойчивости) проводилось с помощью дифференциальных приближений (см. [4]). Проведено обобщение К. ч. М. на пространственнотрехмерный случай.
+
+Лum.: [1] Б е ло о е р к о в с к й й О. М., Д а в ыд о в Ю. М., «Ж. вычисл. матем. И матем. физ.&quot;, 1971, т. 11, № 1, с. 182-207; [2] Д а в ы д о в Ю. М., там же, № 4,с. 1056Новосиб., $1973 ;$ [4] Б е лоце р к о в с к й й О. М., Д а в д о в Ю. М., Исследование схем метода &quot;крупных частиц&quot; прикладной матекатики и механики, М., 1971, с. $145-55$.</text_orig>
+</article>

@@ -1,0 +1,409 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/988_KOMBINATORNYE" alphabetic_pos="988">
+  <title>КОМБИНАТОРНЫЕ ЗАДАЧИ</title>
+  <authors/>
+  <pages>
+    <start>487</start>
+    <end>488</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] П о с т н и к о в М. М., Магические квадраты, M., 1964; [2] Х о л л M., Комбинаторика, пер. с англ., М., 1970; [3] О р е О., Теория графов, пер. с англ., М., 1968; [4] Р и о р д а н Ii ж., Введение в комбинаторный анализ, пер. с англ., М., 1963; [5] X а р а р и Ф., Теория графов, пер. с</literature_orig>
+    <unit>
+      <author>Постников М. М.</author>
+      <title>Магические квадраты</title>
+      <publication>M.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Холл M.</author>
+      <title>Комбинаторика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Оре О.</author>
+      <title>Теория графов</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Р и о р д а н Ii ж., Введение в комбинаторный анализ</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Xарари Ф.</author>
+      <title>Теория графов</title>
+      <publication/>
+      <year/>
+      <other>пер. с</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/988_1_KOMBINATORNYE">\begin{array}{lll}4 &amp; 9 &amp; 2 \\3 &amp; 5 &amp; 7 \\8 &amp; 1 &amp; 6\end{array}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_2_KOMBINATORNYE">\rho\left(s, s^{\prime}\right)=\left|\left\{x: s(x) \neq s^{\prime}(x), x \in X\right\}\right|, \quad s, s^{\prime} \in S_{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_3_KOMBINATORNYE">D_{n r}=\left|\left\{s: \rho\left(s, s^{\prime}\right)=n-r, s \in S_{n}\right\}\right|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_4_KOMBINATORNYE">D_{n r}=\frac{n !}{r !} \sum_{k=0}^{n-r}(-1)^{k} \frac{1}{k !}, \quad r=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_5_KOMBINATORNYE">U_{n}=n ! \sum_{k=0}^{n}(-1)^{k} \frac{2 n}{2 n-k}\left(\begin{array}{c}2 n-k \\k\end{array}\right)(n-k) !</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_6_KOMBINATORNYE">U_{n}\left(s_{1}, s_{2}\right)=\left|\left\{s: \rho\left(s, s_{1}\right)=n, \rho\left(s, s_{2}\right)=n, \quad s \in S_{n}\right\}\right|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_7_KOMBINATORNYE">\begin{gathered}L_{1 n}=n !, \quad L_{2 n}=D_{n} \cdot n !, \quad D_{n}=D_{n 0} \\L_{3 n}=n ! \sum_{k=0}^{[n / 2]}\left(\begin{array}{l}n \\k\end{array}\right) D_{k} D_{n-k} U_{n-2 k}, \quad U_{0}=D_{0}=1\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_8_KOMBINATORNYE">L_{k n}=(n !)^{k} \cdot e^{-\left(\begin{array}{c}k \\2\end{array}\right)}\left(1+\delta_{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_9_KOMBINATORNYE">C_{n m}(r)=\left(\begin{array}{l}n \\r\end{array}\right) \Delta^{n-r 0^{m}}, \quad r=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_10_KOMBINATORNYE">\Delta^{k} 0^{m}=\sum_{j=0}^{k}(-1)^{j}\left(\begin{array}{l}k \\j\end{array}\right)(k-j)^{m} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_1_KOMBINATORNYE">n^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_2_KOMBINATORNYE">n \times n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_3_KOMBINATORNYE">n=3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_4_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_5_KOMBINATORNYE">n&gt;4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_6_KOMBINATORNYE">о 236</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_7_KOMBINATORNYE">6 \times 6</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_8_KOMBINATORNYE">n \times n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_9_KOMBINATORNYE">1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_10_KOMBINATORNYE">n^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_11_KOMBINATORNYE">n=4 k+2, k=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_12_KOMBINATORNYE">1900 \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_13_KOMBINATORNYE">n=6</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_14_KOMBINATORNYE">n=4 k+2, k=2,3, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_15_KOMBINATORNYE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_16_KOMBINATORNYE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_17_KOMBINATORNYE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_18_KOMBINATORNYE">v \leqslant 15</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_19_KOMBINATORNYE">v=3,7,9</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_20_KOMBINATORNYE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_21_KOMBINATORNYE">v=13</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_22_KOMBINATORNYE">v=15</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_23_KOMBINATORNYE">v&gt;15</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_24_KOMBINATORNYE">v&gt;3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_25_KOMBINATORNYE">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_26_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_27_KOMBINATORNYE">d_{n r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_28_KOMBINATORNYE">r=0,1, \ldots, n,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_29_KOMBINATORNYE">r, r=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_30_KOMBINATORNYE">r=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_31_KOMBINATORNYE">d_{n o}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_32_KOMBINATORNYE">s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_33_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_34_KOMBINATORNYE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_35_KOMBINATORNYE">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_36_KOMBINATORNYE">m_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_37_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_38_KOMBINATORNYE">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_39_KOMBINATORNYE">m_{n}=2 \cdot n ! U_{n}, \quad U_{n}=\left|\left\{s: \rho(s, e)=n, \rho(s, c)=n, s \in S_{n}\right\}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_40_KOMBINATORNYE">e-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_41_KOMBINATORNYE">c=(1,2, \ldots, n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_42_KOMBINATORNYE">u_{n}\left(s_{1}, s_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_43_KOMBINATORNYE">s_{1}^{-1} s_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_44_KOMBINATORNYE">l_{k n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_45_KOMBINATORNYE">\boldsymbol{\kappa} о в \quad k \times</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_46_KOMBINATORNYE">l_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_47_KOMBINATORNYE">k \times n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_48_KOMBINATORNYE">s_{1}, s_{2}, \ldots, s_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_49_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_50_KOMBINATORNYE">\rho\left(s_{i}, s_{j}\right)=n, i \neq j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_51_KOMBINATORNYE">k&lt;n^{1 / 3-\varepsilon}, \varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_52_KOMBINATORNYE">\delta_{n} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_53_KOMBINATORNYE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_54_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_55_KOMBINATORNYE">n=9</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_56_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_57_KOMBINATORNYE">m+n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_58_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_59_KOMBINATORNYE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_60_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_61_KOMBINATORNYE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_62_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_63_KOMBINATORNYE">m+\left(\begin{array}{c}n+1 \\ 2\end{array}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_64_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_65_KOMBINATORNYE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_66_KOMBINATORNYE">c_{n m}(r)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_67_KOMBINATORNYE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_68_KOMBINATORNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_69_KOMBINATORNYE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_70_KOMBINATORNYE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_71_KOMBINATORNYE">n</formula>
+  </formulas_aux>
+  <relations n="15">
+    <relation uri="http://libmeta.ru/me/relation/988_1_KOMBINATORNYE">
+      <rel_text>Графа обход</rel_text>
+      <target>http://libmeta.ru/me/article/1181_GRAFA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_2_KOMBINATORNYE">
+      <rel_text>результатов</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_3_KOMBINATORNYE">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_4_KOMBINATORNYE">
+      <rel_text>касается</rel_text>
+      <target>http://libmeta.ru/me/article/773_KASANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_5_KOMBINATORNYE">
+      <rel_text>Получено</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_6_KOMBINATORNYE">
+      <rel_text>ячейках</rel_text>
+      <target>http://libmeta.ru/me/article/1246_JaChEJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_7_KOMBINATORNYE">
+      <rel_text>предметов</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_8_KOMBINATORNYE">
+      <rel_text>разбиений</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_9_KOMBINATORNYE">
+      <rel_text>разбиений</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_10_KOMBINATORNYE">
+      <rel_text>разбиений</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_11_KOMBINATORNYE">
+      <rel_text>разбиений</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_12_KOMBINATORNYE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_13_KOMBINATORNYE">
+      <rel_text>бесконечных произведений</rel_text>
+      <target>http://libmeta.ru/me/article/424_BESKONEChNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_14_KOMBINATORNYE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_15_KOMBINATORNYE">
+      <rel_text>производящие</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+  </relations>
+  <text>к л а с с и ч е с к и езадачи выбора и расположения элементов конечного множества, имеющие в качестве исходной нек-рую формулировку развлекательного содержания типа головоломок.
+
+Одной из классических К. з., фигурирующей еще в мифах Древнего Востока, является построение м аг и ч е с к о г о к в а д р а т а, т. е. расположение первых $URI[[http://libmeta.ru/me/formula/aux/988_1_KOMBINATORNYE]]/URI$ натуральных чисел в квадрате $URI[[http://libmeta.ru/me/formula/aux/988_2_KOMBINATORNYE]]/URI$ так, чтобы все суммы по строкам, столбцам и диагоналям были равны одному и тому же числу. Напр.,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_1_KOMBINATORNYE]]/URI
+\]
+
+- магический квадрат при $URI[[http://libmeta.ru/me/formula/aux/988_3_KOMBINATORNYE]]/URI$. Известен ряд методов построения таких квадратов (см., напр., [1]). Определение числа магических квадратов порядка $URI[[http://libmeta.ru/me/formula/aux/988_4_KOMBINATORNYE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/988_5_KOMBINATORNYE]]/URI$ представляет трудную еще нерешенную (1978) задачу.
+
+Ряд К. з. был рассмотрен Л. Эйлером (l. Euler). Одна из них - з а д а ч а $URI[[http://libmeta.ru/me/formula/aux/988_6_KOMBINATORNYE]]/URI$ о ф и ц е р а х, состоящая в том, чтобы указанное число офицеров 6 различных воинских званий и из 6 различных полков так расположить в ячейках квадрата $URI[[http://libmeta.ru/me/formula/aux/988_7_KOMBINATORNYE]]/URI$ (каре), чтобы каждая колонна и каждая шеренга содержали одновременно одного и только одного офицера каждого ранга и каждого полка. Квадрат размером $URI[[http://libmeta.ru/me/formula/aux/988_8_KOMBINATORNYE]]/URI$, содержащий в ячейках элементы $URI[[http://libmeta.ru/me/formula/aux/988_9_KOMBINATORNYE]]/URI$, наз. л а т и н с к и м, если элементы в каждой строке и каждом столбце различны. Два латинских квадрата наз. о р т о г о н а л ьн ы м и, если при их наложении все $URI[[http://libmeta.ru/me/formula/aux/988_10_KOMBINATORNYE]]/URI$ пар элементов в ячейках различны. Задача о 36 офицерах эквивалентна задаче о существовании пары ортогональных латинских квадратов порядка 6. Л. Эйлер высказал гипотезу о несуществовании ортогональных латинских квадратов порядка $URI[[http://libmeta.ru/me/formula/aux/988_11_KOMBINATORNYE]]/URI$ В $URI[[http://libmeta.ru/me/formula/aux/988_12_KOMBINATORNYE]]/URI$. Тарри (g. Tarry) подтвердил эту гипотезу для $URI[[http://libmeta.ru/me/formula/aux/988_13_KOMBINATORNYE]]/URI$ и тем самым доказал, что задача о 36 офицерах не имеет решения. В 1959-60 была доказана теорема о существовании пары ортогональных латинских квадратов для каждого $URI[[http://libmeta.ru/me/formula/aux/988_14_KOMBINATORNYE]]/URI$ (см. [2]).
+
+Другая задача, рассмотренная Л. Әйлером,- 3 а д ач a 0 к ё н и г с б е р г с ки и м о с т а х, формулируемая следующим образом. Имеется семь мостов, соединяющих берега реки, протекающей через город,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_ab20e83095e9e0f58f4cg-1.jpg?height=256&amp;width=218&amp;top_left_y=1708&amp;top_left_x=119)
+
+Рис. 1. и два острова, расположенные на ней. Спрашивается, можно ли обойти все мосты, проходя по каждому только один раз, и возвратиться в исходную точку. Полагая, что вершины соответствуют районам суши, а ребра - мостам, эту задачу можно сформулировать в виде вопроса о возможности последовательного обхода графа, изображенного на рис. 1, с условием однократного использования его ребер и возв ращения в исход-
+
+ную точку (см. URI[[http://libmeta.ru/me/relation/988_1_KOMBINATORNYE]]/URI). Если в графе такой обход возможен, то говорят, что он обладает эйлеровым циклом. Л. Әйлер установил, что такой цикл в графе существует тогда и только тогда, когда он связен, и число ребер, инцидентных каждой вершине, четно. Так как граф на рис. 1 не удовлетворяет әтому требованию, то задача о кёнигсбергских мостах неразрешима. Она неразрешима и в том случае, если отбросить требование совпадения точек начала и конца обхода. В этом случае решается вопрос о существовании әйле- ровой цепи в графе. Граф обладает э й л е р о в о й ц е п ь ю тогда и только тогда, когда он связен и число вершин, инцидентных нечетному числу ребер, равно 0 или 2. Граф на рис. 1 не удовлетворяет и этому условию (см. [3]).
+
+В 1859 У. Гамильтон (w. Hamilton) придумал игру «кругосветное путешествие», состоящую в отыскании такого пути, проходящего через все вершины (города́) графа, изображенного на рис. 2 , чтобы посетить каждую вершину однократно и вернуться в исходную. Пути в графах, обладающие таким свойством, наз. г а м и л ь т он о в ым и ци кл а м и. Необходимые и достаточные условия существования гамильтонова цикла в графе пока (1978) неизвестны (см. [3]).
+
+Задача о гамильтоновых цик-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_ab20e83095e9e0f58f4cg-1.jpg?height=292&amp;width=290&amp;top_left_y=437&amp;top_left_x=1522)
+
+Рис. 2. лах в графе получила различные обобщения. Одно из этих обобщений з а д а ч а к о м и в о я ж е р а, имеющая ряд приложений в исследовании операций, в частности при решении нек-рых транспортных проблем. Она состоит в следующем: имеется нек-рое количество городов, расстояния между к-рыми известны; нужно найти кратчайший путь, проходящий через все города и возвращающийся в исходный.
+
+В 1847 P. Киркман (r. Th. Kirkman) поставил и
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_ab20e83095e9e0f58f4cg-1.jpg?height=40&amp;width=834&amp;top_left_y=1047&amp;top_left_x=987)
+должны были гулять ежедневно пятью группами по три в каждой группе. При этом необходимо было так составить расписание для их прогулок, чтобы каждая школьница в течение семи дней смогла точно один раз попасть в одну группу с каждой из остальных. Эта задача связана с задачей построения системы троек, поставленной Я. Штейнером (j. Steiner, 1853). С и с т ем о й т р о е к Iii т е й н е $URI[[http://libmeta.ru/me/formula/aux/988_15_KOMBINATORNYE]]/URI$ а порядка $URI[[http://libmeta.ru/me/formula/aux/988_16_KOMBINATORNYE]]/URI$ наз. такой набор троек из множества, содержащего $URI[[http://libmeta.ru/me/formula/aux/988_17_KOMBINATORNYE]]/URI$ элементов, что каждая пара элементов входит точно в одну тройку. Системы троек Штейнера описаны для $URI[[http://libmeta.ru/me/formula/aux/988_18_KOMBINATORNYE]]/URI$. Оказывается, что для $URI[[http://libmeta.ru/me/formula/aux/988_19_KOMBINATORNYE]]/URI$ системы троек единственны с точностью до эквивалентності (подстановка $URI[[http://libmeta.ru/me/formula/aux/988_20_KOMBINATORNYE]]/URI$ элементов, перестановка троек); для $URI[[http://libmeta.ru/me/formula/aux/988_21_KOMBINATORNYE]]/URI$ существуют две неэквивалентные системы троек; при $URI[[http://libmeta.ru/me/formula/aux/988_22_KOMBINATORNYE]]/URI$ таких троек 80. Для $URI[[http://libmeta.ru/me/formula/aux/988_23_KOMBINATORNYE]]/URI$ число различных систем троек Штейнера пока (1978) неизвестно. При $URI[[http://libmeta.ru/me/formula/aux/988_24_KOMBINATORNYE]]/URI$ система троек Штейнера является частным случаем неполной частично уравновешенной блок-схемь.
+
+Классическая 3 а д а ч a 0 в с т р е ч a $URI[[http://libmeta.ru/me/formula/aux/988_25_KOMBINATORNYE]]/URI$ состоит в следующем. Имеются две одинаковые колоды из $URI[[http://libmeta.ru/me/formula/aux/988_26_KOMBINATORNYE]]/URI$ различных карт каждая. Необходимо определить $URI[[http://libmeta.ru/me/formula/aux/988_27_KOMBINATORNYE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/988_28_KOMBINATORNYE]]/URI$ число расположений карт во второй колоде таких, что при сравнении соответствующих карт первой и второй колоды число совпадений равно $URI[[http://libmeta.ru/me/formula/aux/988_29_KOMBINATORNYE]]/URI$. Частный случай этой задачи при $URI[[http://libmeta.ru/me/formula/aux/988_30_KOMBINATORNYE]]/URI$ впервые был сформулирован П. Монмором (р. Montmort, 1708). Л. Эйлер рассматривал задачу отыскания числа членов определителя, не имеющих общих әлементов с главной диагональю, эквивалентную определению $URI[[http://libmeta.ru/me/formula/aux/988_31_KOMBINATORNYE]]/URI$.
+
+Задача о встречах была исходным пунктом для возникновения раздела комбинаторного анализа, связанного с исследованием перестановок с ограниченными позициями. На совокупности $URI[[http://libmeta.ru/me/formula/aux/988_32_KOMBINATORNYE]]/URI$ подстановок степени $URI[[http://libmeta.ru/me/formula/aux/988_33_KOMBINATORNYE]]/URI$, действующих на множестве $URI[[http://libmeta.ru/me/formula/aux/988_34_KOMBINATORNYE]]/URI$, можно ввести расстояние $URI[[http://libmeta.ru/me/formula/aux/988_35_KOMBINATORNYE]]/URI$, полагая
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_2_KOMBINATORNYE]]/URI
+\]
+
+Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_3_KOMBINATORNYE]]/URI
+\] причем
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_4_KOMBINATORNYE]]/URI
+\]
+
+В терминах расстояний между подстановками можно сформулировать и другую классическую К. з., называемую обычно з а д а ч е й о с у п р у ж е с к и х п а р а х. Она состоит в определении числа $URI[[http://libmeta.ru/me/formula/aux/988_36_KOMBINATORNYE]]/URI$ рассаживаний $URI[[http://libmeta.ru/me/formula/aux/988_37_KOMBINATORNYE]]/URI$ супружеских пар на $URI[[http://libmeta.ru/me/formula/aux/988_38_KOMBINATORNYE]]/URI$ местах за круглым столом так, чтобы ни один муж не сидел рядом со своей женой. Тогда
+
+$URI[[http://libmeta.ru/me/formula/aux/988_39_KOMBINATORNYE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/988_40_KOMBINATORNYE]]/URI$ единичная подстановка, а $URI[[http://libmeta.ru/me/formula/aux/988_41_KOMBINATORNYE]]/URI$. Получена формула:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_5_KOMBINATORNYE]]/URI
+\]
+
+Если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_6_KOMBINATORNYE]]/URI
+\]
+
+то величина $URI[[http://libmeta.ru/me/formula/aux/988_42_KOMBINATORNYE]]/URI$ зависит только от цикловой структуры $URI[[http://libmeta.ru/me/formula/aux/988_43_KOMBINATORNYE]]/URI$ и может быть выражена в виде формулы с использованием Чебышева многочленов (см. [4]).
+
+Тесную связь с приведенными задачами имеет проблөма определения числа $URI[[http://libmeta.ru/me/formula/aux/988_44_KOMBINATORNYE]]/URI$ латинских прямоугольни$URI[[http://libmeta.ru/me/formula/aux/988_45_KOMBINATORNYE]]/URI$ и числа $URI[[http://libmeta.ru/me/formula/aux/988_46_KOMBINATORNYE]]/URI$ латинских квадратов. Латинский прямоугольник $URI[[http://libmeta.ru/me/formula/aux/988_47_KOMBINATORNYE]]/URI$ может рассматриваться как упорядоченный набор подстановок $URI[[http://libmeta.ru/me/formula/aux/988_48_KOMBINATORNYE]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/988_49_KOMBINATORNYE]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/988_50_KOMBINATORNYE]]/URI$. Показано, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_7_KOMBINATORNYE]]/URI
+\]
+
+Установлено, что при $URI[[http://libmeta.ru/me/formula/aux/988_51_KOMBINATORNYE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_8_KOMBINATORNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/988_52_KOMBINATORNYE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/988_53_KOMBINATORNYE]]/URI$. Число латинских квадратов порядка $URI[[http://libmeta.ru/me/formula/aux/988_54_KOMBINATORNYE]]/URI$ известно до $URI[[http://libmeta.ru/me/formula/aux/988_55_KOMBINATORNYE]]/URI$ включительно.
+
+3 ад ач a o числ е ра б биенй й на т ура л ь н о г о ч и с л а $URI[[http://libmeta.ru/me/formula/aux/988_56_KOMBINATORNYE]]/URI$ на слагаемые впервые появилась в письме Г. Лейбница (g. Leibniz) к Я. Бернулли (j. Bernoulli) в 1669. Однако разработка методов решения целого класса задач такого типа была осуществлена Л. Эйлером, к-рый әффективно использовал для этой цели URI[[http://libmeta.ru/me/relation/988_15_KOMBINATORNYE]]/URI URI[[http://libmeta.ru/me/relation/988_14_KOMBINATORNYE]]/URI, задаваемые в виде URI[[http://libmeta.ru/me/relation/988_13_KOMBINATORNYE]]/URI. Он, в частности, установил, что URI[[http://libmeta.ru/me/relation/988_12_KOMBINATORNYE]]/URI URI[[http://libmeta.ru/me/relation/988_11_KOMBINATORNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/988_57_KOMBINATORNYE]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/988_58_KOMBINATORNYE]]/URI$ слагаемых равно числу URI[[http://libmeta.ru/me/relation/988_10_KOMBINATORNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/988_59_KOMBINATORNYE]]/URI$ на не более чем $URI[[http://libmeta.ru/me/formula/aux/988_60_KOMBINATORNYE]]/URI$ слагаемых, равно числу URI[[http://libmeta.ru/me/relation/988_9_KOMBINATORNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/988_61_KOMBINATORNYE]]/URI$ на слагаемые, не превосходящие $URI[[http://libmeta.ru/me/formula/aux/988_62_KOMBINATORNYE]]/URI$, и' равно числу URI[[http://libmeta.ru/me/relation/988_8_KOMBINATORNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/988_63_KOMBINATORNYE]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/988_64_KOMBINATORNYE]]/URI$ различных слагаемых.
+
+Классическая 3 а д а ч а $URI[[http://libmeta.ru/me/formula/aux/988_65_KOMBINATORNYE]]/URI$ а 3 м е е н и я состоит в определении числа $URI[[http://libmeta.ru/me/formula/aux/988_66_KOMBINATORNYE]]/URI$ способов размещения $URI[[http://libmeta.ru/me/formula/aux/988_67_KOMBINATORNYE]]/URI$ различных URI[[http://libmeta.ru/me/relation/988_7_KOMBINATORNYE]]/URI в $URI[[http://libmeta.ru/me/formula/aux/988_68_KOMBINATORNYE]]/URI$ различных URI[[http://libmeta.ru/me/relation/988_6_KOMBINATORNYE]]/URI с заданным числом $URI[[http://libmeta.ru/me/formula/aux/988_69_KOMBINATORNYE]]/URI$ пустых ячеек. URI[[http://libmeta.ru/me/relation/988_5_KOMBINATORNYE]]/URI, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_9_KOMBINATORNYE]]/URI
+\]
+
+гдө
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_10_KOMBINATORNYE]]/URI
+\]
+
+Исследования здесь велись в плане теоретико-вероятностных приложений, включая разнообразные обобщения и модиф্фикации. Наиболее интересная часть этих исследований URI[[http://libmeta.ru/me/relation/988_4_KOMBINATORNYE]]/URI URI[[http://libmeta.ru/me/relation/988_3_KOMBINATORNYE]]/URI различных асимптотических URI[[http://libmeta.ru/me/relation/988_2_KOMBINATORNYE]]/URI, когда $URI[[http://libmeta.ru/me/formula/aux/988_70_KOMBINATORNYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/988_71_KOMBINATORNYE]]/URI$ неограниченно возрастают.</text>
+  <text_orig>к л а с с и ч е с к и езадачи выбора и расположения элементов конечного множества, имеющие в качестве исходной нек-рую формулировку развлекательного содержания типа головоломок.
+
+Одной из классических К. з., фигурирующей еще в мифах Древнего Востока, является построение м аг и ч е с к о г о к в а д р а т а, т. е. расположение первых $n^{2}$ натуральных чисел в квадрате $n \times n$ так, чтобы все суммы по строкам, столбцам и диагоналям были равны одному и тому же числу. Напр.,
+
+\[
+\begin{array}{lll}
+4 &amp; 9 &amp; 2 \\
+3 &amp; 5 &amp; 7 \\
+8 &amp; 1 &amp; 6
+\end{array}
+\]
+
+- магический квадрат при $n=3$. Известен ряд методов построения таких квадратов (см., напр., [1]). Определение числа магических квадратов порядка $n$ при $n&gt;4$ представляет трудную еще нерешенную (1978) задачу.
+
+Ряд К. з. был рассмотрен Л. Эйлером (L. Euler). Одна из них - з а д а ч а $о 236$ о ф и ц е р а х, состоящая в том, чтобы указанное число офицеров 6 различных воинских званий и из 6 различных полков так расположить в ячейках квадрата $6 \times 6$ (каре), чтобы каждая колонна и каждая шеренга содержали одновременно одного и только одного офицера каждого ранга и каждого полка. Квадрат размером $n \times n$, содержащий в ячейках элементы $1,2, \ldots, n$, наз. л а т и н с к и м, если элементы в каждой строке и каждом столбце различны. Два латинских квадрата наз. о р т о г о н а л ьн ы м и, если при их наложении все $n^{2}$ пар элементов в ячейках различны. Задача о 36 офицерах эквивалентна задаче о существовании пары ортогональных латинских квадратов порядка 6. Л. Эйлер высказал гипотезу о несуществовании ортогональных латинских квадратов порядка $n=4 k+2, k=1,2, \ldots$ В $1900 \Gamma$. Тарри (G. Tarry) подтвердил эту гипотезу для $n=6$ и тем самым доказал, что задача о 36 офицерах не имеет решения. В 1959-60 была доказана теорема о существовании пары ортогональных латинских квадратов для каждого $n=4 k+2, k=2,3, \ldots$ (см. [2]).
+
+Другая задача, рассмотренная Л. Әйлером,- 3 а д ач a 0 к ё н и г с б е р г с ки и м о с т а х, формулируемая следующим образом. Имеется семь мостов, соединяющих берега реки, протекающей через город,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_ab20e83095e9e0f58f4cg-1.jpg?height=256&amp;width=218&amp;top_left_y=1708&amp;top_left_x=119)
+
+Рис. 1. и два острова, расположенные на ней. Спрашивается, можно ли обойти все мосты, проходя по каждому только один раз, и возвратиться в исходную точку. Полагая, что вершины соответствуют районам суши, а ребра - мостам, эту задачу можно сформулировать в виде вопроса о возможности последовательного обхода графа, изображенного на рис. 1, с условием однократного использования его ребер и возв ращения в исход-
+
+ную точку (см. Графа обход). Если в графе такой обход возможен, то говорят, что он обладает эйлеровым циклом. Л. Әйлер установил, что такой цикл в графе существует тогда и только тогда, когда он связен, и число ребер, инцидентных каждой вершине, четно. Так как граф на рис. 1 не удовлетворяет әтому требованию, то задача о кёнигсбергских мостах неразрешима. Она неразрешима и в том случае, если отбросить требование совпадения точек начала и конца обхода. В этом случае решается вопрос о существовании әйле- ровой цепи в графе. Граф обладает э й л е р о в о й ц е п ь ю тогда и только тогда, когда он связен и число вершин, инцидентных нечетному числу ребер, равно 0 или 2. Граф на рис. 1 не удовлетворяет и этому условию (см. [3]).
+
+В 1859 У. Гамильтон (W. Hamilton) придумал игру «Кругосветное путешествие», состоящую в отыскании такого пути, проходящего через все вершины (города́) графа, изображенного на рис. 2 , чтобы посетить каждую вершину однократно и вернуться в исходную. Пути в графах, обладающие таким свойством, наз. г а м и л ь т он о в ым и ци кл а м и. Необходимые и достаточные условия существования гамильтонова цикла в графе пока (1978) неизвестны (см. [3]).
+
+Задача о гамильтоновых цик-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_ab20e83095e9e0f58f4cg-1.jpg?height=292&amp;width=290&amp;top_left_y=437&amp;top_left_x=1522)
+
+Рис. 2. лах в графе получила различные обобщения. Одно из этих обобщений з а д а ч а к о м и в о я ж е р а, имеющая ряд приложений в исследовании операций, в частности при решении нек-рых транспортных проблем. Она состоит в следующем: имеется нек-рое количество городов, расстояния между к-рыми известны; нужно найти кратчайший путь, проходящий через все города и возвращающийся в исходный.
+
+В 1847 P. Киркман (R. Th. Kirkman) поставил и
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_ab20e83095e9e0f58f4cg-1.jpg?height=40&amp;width=834&amp;top_left_y=1047&amp;top_left_x=987)
+должны были гулять ежедневно пятью группами по три в каждой группе. При этом необходимо было так составить расписание для их прогулок, чтобы каждая школьница в течение семи дней смогла точно один раз попасть в одну группу с каждой из остальных. Эта задача связана с задачей построения системы троек, поставленной Я. Штейнером (J. Steiner, 1853). С и с т ем о й т р о е к III т е й н е $\mathrm{p}$ а порядка $v$ наз. такой набор троек из множества, содержащего $v$ элементов, что каждая пара элементов входит точно в одну тройку. Системы троек Штейнера описаны для $v \leqslant 15$. Оказывается, что для $v=3,7,9$ системы троек единственны с точностью до эквивалентності (подстановка $v$ элементов, перестановка троек); для $v=13$ существуют две неэквивалентные системы троек; при $v=15$ таких троек 80. Для $v&gt;15$ число различных систем троек Штейнера пока (1978) неизвестно. При $v&gt;3$ система троек Штейнера является частным случаем неполной частично уравновешенной блок-схемь.
+
+Классическая 3 а д а ч a 0 в с т р е ч a $\mathbf{x}$ состоит в следующем. Имеются две одинаковые колоды из $n$ различных карт каждая. Необходимо определить $D_{n r}$, $r=0,1, \ldots, n,-$ число расположений карт во второй колоде таких, что при сравнении соответствующих карт первой и второй колоды число совпадений равно $r, r=0,1, \ldots, n$. Частный случай этой задачи при $r=0$ впервые был сформулирован П. Монмором (Р. Montmort, 1708). Л. Эйлер рассматривал задачу отыскания числа членов определителя, не имеющих общих әлементов с главной диагональю, эквивалентную определению $D_{n o}$.
+
+Задача о встречах была исходным пунктом для возникновения раздела комбинаторного анализа, связанного с исследованием перестановок с ограниченными позициями. На совокупности $S_{n}$ подстановок степени $n$, действующих на множестве $X$, можно ввести расстояние $\rho$, полагая
+
+\[
+\rho\left(s, s^{\prime}\right)=\left|\left\{x: s(x) \neq s^{\prime}(x), x \in X\right\}\right|, \quad s, s^{\prime} \in S_{n} .
+\]
+
+Тогда
+
+\[
+D_{n r}=\left|\left\{s: \rho\left(s, s^{\prime}\right)=n-r, s \in S_{n}\right\}\right|,
+\] причем
+
+\[
+D_{n r}=\frac{n !}{r !} \sum_{k=0}^{n-r}(-1)^{k} \frac{1}{k !}, \quad r=0,1, \ldots, n
+\]
+
+В терминах расстояний между подстановками можно сформулировать и другую классическую К. з., называемую обычно з а д а ч е й о с у п р у ж е с к и х п а р а х. Она состоит в определении числа $M_{n}$ рассаживаний $n$ супружеских пар на $2 n$ местах за круглым столом так, чтобы ни один муж не сидел рядом со своей женой. Тогда
+
+$M_{n}=2 \cdot n ! U_{n}, \quad U_{n}=\left|\left\{s: \rho(s, e)=n, \rho(s, c)=n, s \in S_{n}\right\}\right|$, где $e-$ единичная подстановка, а $c=(1,2, \ldots, n)$. Получена формула:
+
+\[
+U_{n}=n ! \sum_{k=0}^{n}(-1)^{k} \frac{2 n}{2 n-k}\left(\begin{array}{c}
+2 n-k \\
+k
+\end{array}\right)(n-k) !
+\]
+
+Если
+
+\[
+U_{n}\left(s_{1}, s_{2}\right)=\left|\left\{s: \rho\left(s, s_{1}\right)=n, \rho\left(s, s_{2}\right)=n, \quad s \in S_{n}\right\}\right|,
+\]
+
+то величина $U_{n}\left(s_{1}, s_{2}\right)$ зависит только от цикловой структуры $s_{1}^{-1} s_{2}$ и может быть выражена в виде формулы с использованием Чебышева многочленов (см. [4]).
+
+Тесную связь с приведенными задачами имеет проблөма определения числа $L_{k n}$ латинских прямоугольни$\boldsymbol{\kappa} о в \quad k \times$ и числа $L_{n}$ латинских квадратов. Латинский прямоугольник $k \times n$ может рассматриваться как упорядоченный набор подстановок $s_{1}, s_{2}, \ldots, s_{k}$ степени $n$ таких, что $\rho\left(s_{i}, s_{j}\right)=n, i \neq j$. Показано, что
+
+\[
+\begin{gathered}
+L_{1 n}=n !, \quad L_{2 n}=D_{n} \cdot n !, \quad D_{n}=D_{n 0} \\
+L_{3 n}=n ! \sum_{k=0}^{[n / 2]}\left(\begin{array}{l}
+n \\
+k
+\end{array}\right) D_{k} D_{n-k} U_{n-2 k}, \quad U_{0}=D_{0}=1
+\end{gathered}
+\]
+
+Установлено, что при $k&lt;n^{1 / 3-\varepsilon}, \varepsilon&gt;0$,
+
+\[
+L_{k n}=(n !)^{k} \cdot e^{-\left(\begin{array}{c}
+k \\
+2
+\end{array}\right)}\left(1+\delta_{n}\right),
+\]
+
+где $\delta_{n} \rightarrow 0$ при $n \rightarrow \infty$. Число латинских квадратов порядка $n$ известно до $n=9$ включительно.
+
+3 ад ач a o числ е ра б биенй й на т ура л ь н о г о ч и с л а $n$ на слагаемые впервые появилась в письме Г. Лейбница (G. Leibniz) к Я. Бернулли (J. Bernoulli) в 1669. Однако разработка методов решения целого класса задач такого типа была осуществлена Л. Эйлером, к-рый әффективно использовал для этой цели производящие функции, задаваемые в виде бесконечных произведений. Он, в частности, установил, что число разбиений $m+n$ на $n$ слагаемых равно числу разбиений $m$ на не более чем $n$ слагаемых, равно числу разбиений $m$ на слагаемые, не превосходящие $n$, и' равно числу разбиений $m+\left(\begin{array}{c}n+1 \\ 2\end{array}\right)$ на $n$ различных слагаемых.
+
+Классическая 3 а д а ч а $\mathrm{p}$ а 3 м е е н и я состоит в определении числа $C_{n m}(r)$ способов размещения $m$ различных предметов в $n$ различных ячейках с заданным числом $r$ пустых ячеек. Получено, что
+
+\[
+C_{n m}(r)=\left(\begin{array}{l}
+n \\
+r
+\end{array}\right) \Delta^{n-r 0^{m}}, \quad r=0,1, \ldots, n
+\]
+
+гдө
+
+\[
+\Delta^{k} 0^{m}=\sum_{j=0}^{k}(-1)^{j}\left(\begin{array}{l}
+k \\
+j
+\end{array}\right)(k-j)^{m} .
+\]
+
+Исследования здесь велись в плане теоретико-вероятностных приложений, включая разнообразные обобщения и модиф্фикации. Наиболее интересная часть этих исследований касается получения различных асимптотических результатов, когда $m$ и $n$ неограниченно возрастают.
+
+Лит.: [1] П о с т н и к о в М. М., Магические квадраты, M., 1964; [2] Х о л л M., Комбинаторика, пер. с англ., М., 1970; [3] О р е О., Теория графов, пер. с англ., М., 1968; [4] Р и о р д а н II ж., Введение в комбинаторный анализ, пер. с англ., М., 1963; [5] X а р а р и Ф., Теория графов, пер. с</text_orig>
+</article>

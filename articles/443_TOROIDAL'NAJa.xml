@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/443_TOROIDAL'NAJa" alphabetic_pos="443">
+  <title>ТОРОИДАЛЬНАЯ ГАРМОНИКА</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>205</start>
+    <end>205</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Т их о нов А. Н., С а ма р с к и й А. А. Уравнения математической физики, 5 изд., М., 1977; [2] М о р с Ф. М., Ф е ш б а х Г., Методы теоретической физики, пер. с англ., т. 1-2, М., 1960 .</literature_orig>
+    <unit>
+      <author>Тихонов А. Н.</author>
+      <title>С а ма р с к и й А. А. Уравнения математической физики</title>
+      <publication>5 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Морс Ф. М.</author>
+      <author>Фешбах Г.</author>
+      <title>Методы теоретической физики</title>
+      <publication>пер. с англ., т. 1-2, М.</publication>
+      <year>1960</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/443_1_TOROIDAL'NAJa">\begin{gathered}h=\sqrt{\operatorname{ch} \tau-\cos \sigma} \sum_{j, k=0}^{\infty}\left[A_{j k} P_{j-1 / 2}^{(k)}(\operatorname{ch} \tau)+\right. \\\left.+B_{j k} Q_{j-1 / 2}^{(k)}(\operatorname{ch} \tau)\right]\left(a_{k} \cos k \sigma+b_{k} \sin k \sigma\right) \times \\\times\left(c_{j} \cos j \varphi+d_{j} \sin j \varphi\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/443_2_TOROIDAL'NAJa">\frac{1}{\sqrt{\operatorname{ch} \tau-\cos \sigma}}=\frac{\sqrt{2}}{\pi} \sum_{k=0}^{\infty} Q_{k-1 / 2}(\operatorname{ch} \tau) \cos k \sigma</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/443_1_TOROIDAL'NAJa">(\sigma, \tau, \varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/443_2_TOROIDAL'NAJa">h=h(\sigma, \tau, \varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/443_3_TOROIDAL'NAJa">p_{j-1 / 2}^{(k)}, Q_{j-1 / 2}^{(k)}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/443_4_TOROIDAL'NAJa">\tau=\tau_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/443_5_TOROIDAL'NAJa">(\sigma, \tau, \varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/443_6_TOROIDAL'NAJa">q_{k-1 / 2}-</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/443_1_TOROIDAL'NAJa">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/443_2_TOROIDAL'NAJa">
+      <rel_text>тороидальных координатах</rel_text>
+      <target>http://libmeta.ru/me/article/444_TOROIDAL'NYE</target>
+    </relation>
+  </relations>
+  <text>функция точки на торе, появляющаяся при решении уравнения Лапласа методом разделения переменных в тороидальных координатах $URI[[http://libmeta.ru/me/formula/aux/443_1_TOROIDAL'NAJa]]/URI$. Гармонич. функция $URI[[http://libmeta.ru/me/formula/aux/443_2_TOROIDAL'NAJa]]/URI$, являющаяся решением уравнения Лапласа, записывается в виде ряда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/443_1_TOROIDAL'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/443_3_TOROIDAL'NAJa]]/URI$ присоединенные функции Лежандра с полуцелым индексом. Полагая здесь $URI[[http://libmeta.ru/me/formula/aux/443_4_TOROIDAL'NAJa]]/URI$, получают Т. г., или, иначе, по о в е р х н о с т н у ю Т. Г., в отличие от членов ряда (*), зависящих от трех переменных $URI[[http://libmeta.ru/me/formula/aux/443_5_TOROIDAL'NAJa]]/URI$, к-рые иногда наз. П р о с т р а н с т в е нн ы м и Т. Г.
+
+Ряд (*) используется при решении краевых задач в URI[[http://libmeta.ru/me/relation/443_2_TOROIDAL'NAJa]]/URI с учетом разложения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/443_2_TOROIDAL'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/443_6_TOROIDAL'NAJa]]/URI$ URI[[http://libmeta.ru/me/relation/443_1_TOROIDAL'NAJa]]/URI Лежандра 2-го рода.</text>
+  <text_orig>функция точки на торе, появляющаяся при решении уравнения Лапласа методом разделения переменных в тороидальных координатах $(\sigma, \tau, \varphi)$. Гармонич. функция $h=h(\sigma, \tau, \varphi)$, являющаяся решением уравнения Лапласа, записывается в виде ряда
+
+\[
+\begin{gathered}
+h=\sqrt{\operatorname{ch} \tau-\cos \sigma} \sum_{j, k=0}^{\infty}\left[A_{j k} P_{j-1 / 2}^{(k)}(\operatorname{ch} \tau)+\right. \\
+\left.+B_{j k} Q_{j-1 / 2}^{(k)}(\operatorname{ch} \tau)\right]\left(a_{k} \cos k \sigma+b_{k} \sin k \sigma\right) \times \\
+\times\left(c_{j} \cos j \varphi+d_{j} \sin j \varphi\right),
+\end{gathered}
+\]
+
+где $P_{j-1 / 2}^{(k)}, Q_{j-1 / 2}^{(k)}-$ присоединенные функции Лежандра с полуцелым индексом. Полагая здесь $\tau=\tau_{0}$, получают Т. г., или, иначе, по о в е р х н о с т н у ю Т. Г., в отличие от членов ряда (*), зависящих от трех переменных $(\sigma, \tau, \varphi)$, к-рые иногда наз. П р о с т р а н с т в е нн ы м и Т. Г.
+
+Ряд (*) используется при решении краевых задач в тороидальных координатах с учетом разложения
+
+\[
+\frac{1}{\sqrt{\operatorname{ch} \tau-\cos \sigma}}=\frac{\sqrt{2}}{\pi} \sum_{k=0}^{\infty} Q_{k-1 / 2}(\operatorname{ch} \tau) \cos k \sigma
+\]
+
+где $Q_{k-1 / 2}-$ функции Лежандра 2-го рода.
+
+Лum.: [1] Т их о нов А. Н., С а ма р с к и й А. А. Уравнения математической физики, 5 изд., М., 1977; [2] М о р с Ф. М., Ф е ш б а х Г., Методы теоретической физики, пер. с англ., т. 1-2, М., 1960 . Е. Д. Соломенцев.</text_orig>
+</article>

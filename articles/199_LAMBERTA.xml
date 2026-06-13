@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/199_LAMBERTA" alphabetic_pos="199">
+  <title>ЛАМБЕРТА МЕТОД СУММИРОВАНИЯ</title>
+  <authors/>
+  <pages>
+    <start>94</start>
+    <end>95</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] L a m b e r t J. H., Anlage zur Architektonik, Bd 2, Ríga, 1771; [2] X a p д и Г., Расходящиеся ряды, пер.</literature_orig>
+    <unit>
+      <author>Lambert J. H.</author>
+      <title>Anlage zur Architektonik, Bd 2, Ríga</title>
+      <publication/>
+      <year>1771</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Xapди Г.</author>
+      <title>Расходящиеся ряды</title>
+      <publication/>
+      <year/>
+      <other>пер.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/199_1_LAMBERTA">\sum_{n=1}^{\infty} a_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/199_2_LAMBERTA">\lim _{y \rightarrow+0} F(y)=S,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/199_3_LAMBERTA">F(y)=\sum_{n=1}^{\infty} a_{n} \frac{n y e^{-n y}}{1-e^{-n y}} \text { при } y&gt;0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/199_1_LAMBERTA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/199_2_LAMBERTA">(c, k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/199_3_LAMBERTA">k&gt;-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/199_4_LAMBERTA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/199_5_LAMBERTA">s</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/199_1_LAMBERTA">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/199_2_LAMBERTA">
+      <rel_text>регулярен</rel_text>
+      <target>http://libmeta.ru/me/article/1037_REGULJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/199_3_LAMBERTA">
+      <rel_text>методом суммирования</rel_text>
+      <target>http://libmeta.ru/me/article/295_SUMMIROVANIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/199_4_LAMBERTA">
+      <rel_text>Чезаро методом суммирования</rel_text>
+      <target>http://libmeta.ru/me/article/986_ChEZARO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/199_5_LAMBERTA">
+      <rel_text>предложен</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+  </relations>
+  <text>один из методов суммирования числовых рядов. Ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/199_1_LAMBERTA]]/URI
+\]
+
+суммируем методом Ламберта кчислу $URI[[http://libmeta.ru/me/formula/aux/199_1_LAMBERTA]]/URI$, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/199_2_LAMBERTA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/199_3_LAMBERTA]]/URI
+\] и ряд справа сходится. Метод URI[[http://libmeta.ru/me/relation/199_5_LAMBERTA]]/URI И. Ламбертом (1). Из суммируемости ряда URI[[http://libmeta.ru/me/relation/199_4_LAMBERTA]]/URI $URI[[http://libmeta.ru/me/formula/aux/199_2_LAMBERTA]]/URI$ для нек-рого $URI[[http://libmeta.ru/me/formula/aux/199_3_LAMBERTA]]/URI$ к сумме $URI[[http://libmeta.ru/me/formula/aux/199_4_LAMBERTA]]/URI$ следует его суммируемость Л. м. с. к той же сумме, и если ряд суммируем Л. м. с. к сумме $URI[[http://libmeta.ru/me/formula/aux/199_5_LAMBERTA]]/URI$, то он суммируем и Абеля URI[[http://libmeta.ru/me/relation/199_3_LAMBERTA]]/URI к той же сумме. Л. м. с. URI[[http://libmeta.ru/me/relation/199_2_LAMBERTA]]/URI (см. Реәулярные URI[[http://libmeta.ru/me/relation/199_1_LAMBERTA]]/URI суммирования).</text>
+  <text_orig>один из методов суммирования числовых рядов. Ряд
+
+\[
+\sum_{n=1}^{\infty} a_{n}
+\]
+
+суммируем методом Ламберта кчислу $S$, если
+
+\[
+\lim _{y \rightarrow+0} F(y)=S,
+\]
+
+где
+
+\[
+F(y)=\sum_{n=1}^{\infty} a_{n} \frac{n y e^{-n y}}{1-e^{-n y}} \text { при } y&gt;0
+\] и ряд справа сходится. Метод предложен И. Ламбертом (1). Из суммируемости ряда Чезаро методом суммирования $(C, k)$ для нек-рого $k&gt;-1$ к сумме $S$ следует его суммируемость Л. м. с. к той же сумме, и если ряд суммируем Л. м. с. к сумме $S$, то он суммируем и Абеля методом суммирования к той же сумме. Л. м. с. регулярен (см. Реәулярные методы суммирования). Jum.: [1] L a m b e r t J. H., Anlage zur Architektonik, Bd 2, Ríga, 1771; [2] X a p д и Г., Расходящиеся ряды, пер.</text_orig>
+</article>

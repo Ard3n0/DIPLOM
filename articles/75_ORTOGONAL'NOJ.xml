@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/75_ORTOGONAL'NOJ" alphabetic_pos="75">
+  <title>ОРТОГОНАЛЬНОЙ ПРОГОНКИ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>45</start>
+    <end>46</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б а х в а л о в Н. С., Численные методы, 2 изд., т. 1, М., 1975; [2] К р ы ло в В. К., Бо б ко в В. В., М о н а ст ы р н ы й П. И., Вычислительные методы высшей математики,т. 2, Минск, $1975 ; \quad$ [3] С а м а р с к и й А. А., Н и к от. 2, Минск, 1975; [3] С а ма р с к и й А. А., Н и кл а е в Е. С., Методы решения сеточных уравнений, М., 1978 .</literature_orig>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., т. 1, М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Крылов В. К.</author>
+      <author>Бобков В. В.</author>
+      <author>Монастырный П. И.</author>
+      <title>Вычислительные методы высшей математики</title>
+      <publication>Минск</publication>
+      <year>1975</year>
+      <other>т. 2</other>
+    </unit>
+    <unit>
+      <author>Самарский А. А.</author>
+      <title>Н и к от. 2, Минск</title>
+      <publication/>
+      <year>1975</year>
+      <other>Н и кл а е в Е. С., Методы решения сеточных уравнений, М., 1978 .</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/75_1_ORTOGONAL'NOJ">\begin{aligned}&amp; y^{\prime}(x)=a_{1}(x) y(x)+b_{1}(x) z(x)+f_{1}(x), \\&amp; z^{\prime}(x)=a_{2}(x) y(x)+b_{2}(x) z(x)+f_{2}(x)\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_2_ORTOGONAL'NOJ">\begin{array}{ll}\alpha_{1} y(a)+\beta_{1} z(a)=\gamma_{1}, &amp; \alpha_{1}^{2}+\beta_{1}^{2}=1, \\\alpha_{2} y(b)+\beta_{2} z(b)=\gamma_{2}, &amp; \alpha_{2}^{2}+\beta_{2}^{2}=1 .\end{array}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_3_ORTOGONAL'NOJ">u^{\prime}(x)=\bar{a}_{1}(x) u(x)+\bar{f}_{1}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_4_ORTOGONAL'NOJ">s(a)=\alpha_{1}, c(a)=\beta_{1}, u(a)=\gamma_{1} \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_5_ORTOGONAL'NOJ">\begin{aligned}&amp; v^{\prime}(x)=\bar{a}_{2}(x) u(x)+\bar{b}_{2}(x) v(x)+\bar{f}_{2}(x), \\&amp; v(b)=\left\{\gamma_{2}-\left[\alpha_{2} s(b)+\beta_{2} c(b)\right] u(b)\right\} / \Delta,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_6_ORTOGONAL'NOJ">\bar{a}_{2}(x)=2\left(a_{1}(x)-b_{2}(x)\right) s(x) c(x)+</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_7_ORTOGONAL'NOJ">+\left(b_{1}(x)+a_{2}(x)\right)\left(c^{2}(x)-s^{2}(x)\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_8_ORTOGONAL'NOJ">\begin{aligned}&amp; y(x)=s(x) u(x)+c(x) v(x), \\&amp; z(x)=c(x) u(x)-s(x) v(x) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_9_ORTOGONAL'NOJ">\begin{gathered}y_{k+1}=A_{k} y_{k}+B_{k} z_{k}+F_{k}, \\z_{k+1}=C_{k} y_{k}+D_{k} z_{k}+G_{k}, k=0,1, \ldots, n-1, \\\alpha_{0} y_{0}+\beta_{0} z_{0}=\gamma_{0}, \\\alpha_{n} y_{n}+\beta_{n} z_{n}=\gamma_{n},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_10_ORTOGONAL'NOJ">\begin{gathered}s_{k+1}=\left(C_{k} c_{k}-D_{k} s_{k}\right) / \rho_{k}, \\c_{k+1}=\left(B_{k} s_{k}-A_{k} c_{k}\right) / \rho_{k}, \\\rho_{k}=\sqrt{\left[\left(C_{k} c_{k}-D_{k} s_{k}\right)^{2}+\left(B_{k} s_{k}-A_{k} c_{k}\right)^{2}\right]}, \\u_{k+1}=\left(A_{k} s_{k} s_{k+1}+B_{k} c_{k} s_{k+1}+C_{k} s_{k} c_{k+1}+D_{k} c_{k} c_{k+1}\right) u_{k}+ \\+\left(F_{k} s_{k+1}+G_{k} c_{k+1}\right) \\s_{0}=\alpha_{0}, \quad c_{0}=\beta_{0}, \quad u_{0}=\gamma_{0},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_11_ORTOGONAL'NOJ">\begin{gathered}v_{n}=\left[\gamma_{n}-\left(\alpha_{n} s_{n}+\beta_{n} c_{n}\right) u_{n}\right] / \Delta_{n} \\v_{k}=\left\{v_{k+1}+\left[\left(C_{k} s_{k}+D_{k} c_{k}\right) s_{k+1}-\left(A_{k} s_{k}+B_{k} c_{k}\right) c_{k+1}\right] u_{k}+\right. \\\left.+\left(G_{k} s_{k+1}-F_{k} c_{k+1}\right)\right\} / \rho_{k}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/75_12_ORTOGONAL'NOJ">y_{k}=u_{k} s_{k}+v_{k} c_{k}, \quad z_{k}=u_{k} c_{k}-v_{k} s_{k} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_1_ORTOGONAL'NOJ">a \leqslant x \leqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_2_ORTOGONAL'NOJ">a_{i}(x), b_{i}(x), f_{i}(x), i=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_3_ORTOGONAL'NOJ">a \leqslant x \leqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_4_ORTOGONAL'NOJ">s^{\prime}(x)=c(x) r(x), \quad c^{\prime}(x)=-s(x) r(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_5_ORTOGONAL'NOJ">r(x)=s^{2}(x) b_{1}(x)+s(x) c(x)\left(b_{2}(x)-a_{1}(x)\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_6_ORTOGONAL'NOJ">-c^{2}(x) a_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_7_ORTOGONAL'NOJ">\overline{a_{1}}(x)=a_{1}(x) s^{2}(x)+b_{2}(x) c^{2}(x)+\left(b_{1}(x)+a_{2}(x)\right) s(x) c(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_8_ORTOGONAL'NOJ">f_{1}(x)=f_{1}(x) s(x)+f_{2}(x) c(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_9_ORTOGONAL'NOJ">\delta=\alpha_{2} c(b)-\beta_{2} s(b) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_10_ORTOGONAL'NOJ">x=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_11_ORTOGONAL'NOJ">x=a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_12_ORTOGONAL'NOJ">\bar{b}_{2}(x)=a_{1}(x) c^{2}(x)+b_{2}(x) s^{2}(x)-\left(b_{1}(x)+a_{2}(x)\right) s(x) c(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_13_ORTOGONAL'NOJ">\vec{f}_{2}(x)=f_{1}(x) c(x)-f_{2}(x) s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_14_ORTOGONAL'NOJ">y(x), z(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_15_ORTOGONAL'NOJ">\delta \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_16_ORTOGONAL'NOJ">a_{k} D_{k} \neq B_{k} C_{k}, \quad \alpha_{0}^{2}+\beta_{0}^{2}=1, \quad \alpha_{n}^{2}+\beta_{n}^{2}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_17_ORTOGONAL'NOJ">s_{k+1}, c_{k+1}, u_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_18_ORTOGONAL'NOJ">k=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_19_ORTOGONAL'NOJ">\ldots, n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_20_ORTOGONAL'NOJ">\delta_{n}=\alpha_{n} c_{n}-\beta_{n} s_{n} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_21_ORTOGONAL'NOJ">k=n-1, n-2, \ldots, 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/75_22_ORTOGONAL'NOJ">n p u</formula>
+  </formulas_aux>
+  <relations n="12">
+    <relation uri="http://libmeta.ru/me/relation/75_1_ORTOGONAL'NOJ">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_2_ORTOGONAL'NOJ">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_3_ORTOGONAL'NOJ">
+      <rel_text>граничных условий</rel_text>
+      <target>http://libmeta.ru/me/article/1169_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_4_ORTOGONAL'NOJ">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_5_ORTOGONAL'NOJ">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_6_ORTOGONAL'NOJ">
+      <rel_text>фундаментальной системы</rel_text>
+      <target>http://libmeta.ru/me/article/784_FUNDAMENTAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_7_ORTOGONAL'NOJ">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_8_ORTOGONAL'NOJ">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_9_ORTOGONAL'NOJ">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_10_ORTOGONAL'NOJ">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_11_ORTOGONAL'NOJ">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/75_12_ORTOGONAL'NOJ">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+  </relations>
+  <text>вариант метода прогонки, основанный на ортогональном преобразовании неизвестных. Пусть при $URI[[http://libmeta.ru/me/formula/aux/75_1_ORTOGONAL'NOJ]]/URI$ рассматривается граничная задача для пары линейных обыкновенных дифференциальных уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_1_ORTOGONAL'NOJ]]/URI
+\]
+
+с условиями вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_2_ORTOGONAL'NOJ]]/URI
+\]
+
+Пусть данные функции $URI[[http://libmeta.ru/me/formula/aux/75_2_ORTOGONAL'NOJ]]/URI$, непрерывны на отрезке $URI[[http://libmeta.ru/me/formula/aux/75_3_ORTOGONAL'NOJ]]/URI$. Решение граничной задачи (1) -(4) О. п. м. осуществляется следующим путем.
+
+I. Решается вспомогательная задача Коши
+
+$URI[[http://libmeta.ru/me/formula/aux/75_4_ORTOGONAL'NOJ]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/75_5_ORTOGONAL'NOJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/75_6_ORTOGONAL'NOJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_3_ORTOGONAL'NOJ]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/75_4_ORTOGONAL'NOJ]]/URI
+\]
+
+где
+
+$URI[[http://libmeta.ru/me/formula/aux/75_7_ORTOGONAL'NOJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/75_8_ORTOGONAL'NOJ]]/URI$
+
+(п р я м й ход п р огонки).
+
+Ii. Проверяется условие $URI[[http://libmeta.ru/me/formula/aux/75_9_ORTOGONAL'NOJ]]/URI$, и если оно выполняется, то в направлении от точки $URI[[http://libmeta.ru/me/formula/aux/75_10_ORTOGONAL'NOJ]]/URI$ к точке $URI[[http://libmeta.ru/me/formula/aux/75_11_ORTOGONAL'NOJ]]/URI$ решается задача Коши
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_5_ORTOGONAL'NOJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_6_ORTOGONAL'NOJ]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/75_7_ORTOGONAL'NOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/75_12_ORTOGONAL'NOJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/75_13_ORTOGONAL'NOJ]]/URI$
+
+(об р а тны ї ход п рогонки).
+
+Iii. Искомые функции вычисляются по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_8_ORTOGONAL'NOJ]]/URI
+\]
+
+Если решение $URI[[http://libmeta.ru/me/formula/aux/75_14_ORTOGONAL'NOJ]]/URI$ граничной задачи (1)-(4) существует, единственно и устойчиво относительно малых изменений коәфффициентов и свободных членов, определяющих ее, то $URI[[http://libmeta.ru/me/formula/aux/75_15_ORTOGONAL'NOJ]]/URI$ и рассмотренный метод также устойчив (cм. [2]).
+
+Система линейных алгебраических уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_9_ORTOGONAL'NOJ]]/URI
+\] где $URI[[http://libmeta.ru/me/formula/aux/75_16_ORTOGONAL'NOJ]]/URI$, решается по следующим правилам.
+
+1) Используя формулы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_10_ORTOGONAL'NOJ]]/URI
+\]
+
+последовательно вычисляют $URI[[http://libmeta.ru/me/formula/aux/75_17_ORTOGONAL'NOJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/75_18_ORTOGONAL'NOJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/75_19_ORTOGONAL'NOJ]]/URI$ (п р я м о й ход п р о го Нк и).
+
+2) Проверяется условие $URI[[http://libmeta.ru/me/formula/aux/75_20_ORTOGONAL'NOJ]]/URI$, и если оно выполняется, то вычисляют
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_11_ORTOGONAL'NOJ]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/75_21_ORTOGONAL'NOJ]]/URI$ (о б р а тный ход пр ог о н к и).
+
+3) Значения искомого решения URI[[http://libmeta.ru/me/relation/75_12_ORTOGONAL'NOJ]]/URI URI[[http://libmeta.ru/me/relation/75_11_ORTOGONAL'NOJ]]/URI (10) - (13) вычисляются по URI[[http://libmeta.ru/me/relation/75_10_ORTOGONAL'NOJ]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/75_12_ORTOGONAL'NOJ]]/URI
+\]
+
+Если решение URI[[http://libmeta.ru/me/relation/75_9_ORTOGONAL'NOJ]]/URI URI[[http://libmeta.ru/me/relation/75_8_ORTOGONAL'NOJ]]/URI (10)-(13) существует, единственно и устойчиво относительно малых изменений коэффициентов и свободных членов, то и рассмотренный О. П. м. также устойчив (см. [2]).
+
+Иногда о р т о г о а л ь н о й п р о г о н к о й наз. URI[[http://libmeta.ru/me/relation/75_7_ORTOGONAL'NOJ]]/URI, основанные на использовании URI[[http://libmeta.ru/me/relation/75_6_ORTOGONAL'NOJ]]/URI решений однородной URI[[http://libmeta.ru/me/relation/75_5_ORTOGONAL'NOJ]]/URI URI[[http://libmeta.ru/me/relation/75_4_ORTOGONAL'NOJ]]/URI для целей переноса URI[[http://libmeta.ru/me/relation/75_3_ORTOGONAL'NOJ]]/URI (см. [1], [3]). Однако эти URI[[http://libmeta.ru/me/relation/75_2_ORTOGONAL'NOJ]]/URI являются скорее вариантами $URI[[http://libmeta.ru/me/formula/aux/75_22_ORTOGONAL'NOJ]]/URI$ стрелки URI[[http://libmeta.ru/me/relation/75_1_ORTOGONAL'NOJ]]/URI.</text>
+  <text_orig>варианТ метода прогонки, основанный на ортогональном преобразовании неизвестных. Пусть при $a \leqslant x \leqslant b$ рассматривается граничная задача для пары линейных обыкновенных дифференциальных уравнений
+
+\[
+\begin{aligned}
+&amp; y^{\prime}(x)=a_{1}(x) y(x)+b_{1}(x) z(x)+f_{1}(x), \\
+&amp; z^{\prime}(x)=a_{2}(x) y(x)+b_{2}(x) z(x)+f_{2}(x)
+\end{aligned}
+\]
+
+с условиями вида
+
+\[
+\begin{array}{ll}
+\alpha_{1} y(a)+\beta_{1} z(a)=\gamma_{1}, &amp; \alpha_{1}^{2}+\beta_{1}^{2}=1, \\
+\alpha_{2} y(b)+\beta_{2} z(b)=\gamma_{2}, &amp; \alpha_{2}^{2}+\beta_{2}^{2}=1 .
+\end{array}
+\]
+
+Пусть данные функции $a_{i}(x), b_{i}(x), f_{i}(x), i=1,2$, непрерывны на отрезке $a \leqslant x \leqslant b$. Решение граничной задачи (1) -(4) О. п. м. осуществляется следующим путем.
+
+I. Решается вспомогательная задача Коши
+
+$s^{\prime}(x)=c(x) r(x), \quad c^{\prime}(x)=-s(x) r(x)$,
+
+$r(x)=s^{2}(x) b_{1}(x)+s(x) c(x)\left(b_{2}(x)-a_{1}(x)\right)-$ $-c^{2}(x) a_{2}(x)$
+
+\[
+u^{\prime}(x)=\bar{a}_{1}(x) u(x)+\bar{f}_{1}(x),
+\]\[
+s(a)=\alpha_{1}, c(a)=\beta_{1}, u(a)=\gamma_{1} \text {, }
+\]
+
+где
+
+$\overline{a_{1}}(x)=a_{1}(x) s^{2}(x)+b_{2}(x) c^{2}(x)+\left(b_{1}(x)+a_{2}(x)\right) s(x) c(x)$, $f_{1}(x)=f_{1}(x) s(x)+f_{2}(x) c(x)$
+
+(п р я м й ход п р огонки).
+
+II. Проверяется условие $\Delta=\alpha_{2} c(b)-\beta_{2} s(b) \neq 0$, и если оно выполняется, то в направлении от точки $x=b$ к точке $x=a$ решается задача Коши
+
+\[
+\begin{aligned}
+&amp; v^{\prime}(x)=\bar{a}_{2}(x) u(x)+\bar{b}_{2}(x) v(x)+\bar{f}_{2}(x), \\
+&amp; v(b)=\left\{\gamma_{2}-\left[\alpha_{2} s(b)+\beta_{2} c(b)\right] u(b)\right\} / \Delta,
+\end{aligned}
+\]
+
+где
+
+\[
+\bar{a}_{2}(x)=2\left(a_{1}(x)-b_{2}(x)\right) s(x) c(x)+
+\]\[
++\left(b_{1}(x)+a_{2}(x)\right)\left(c^{2}(x)-s^{2}(x)\right) \text {, }
+\]
+
+$\bar{b}_{2}(x)=a_{1}(x) c^{2}(x)+b_{2}(x) s^{2}(x)-\left(b_{1}(x)+a_{2}(x)\right) s(x) c(x)$, $\vec{f}_{2}(x)=f_{1}(x) c(x)-f_{2}(x) s(x)$
+
+(об р а тны ї ход п рогонки).
+
+III. Искомые функции вычисляются по формулам
+
+\[
+\begin{aligned}
+&amp; y(x)=s(x) u(x)+c(x) v(x), \\
+&amp; z(x)=c(x) u(x)-s(x) v(x) .
+\end{aligned}
+\]
+
+Если решение $y(x), z(x)$ граничной задачи (1)-(4) существует, единственно и устойчиво относительно малых изменений коәфффициентов и свободных членов, определяющих ее, то $\Delta \neq 0$ и рассмотренный метод также устойчив (cм. [2]).
+
+Система линейных алгебраических уравнений
+
+\[
+\begin{gathered}
+y_{k+1}=A_{k} y_{k}+B_{k} z_{k}+F_{k}, \\
+z_{k+1}=C_{k} y_{k}+D_{k} z_{k}+G_{k}, k=0,1, \ldots, n-1, \\
+\alpha_{0} y_{0}+\beta_{0} z_{0}=\gamma_{0}, \\
+\alpha_{n} y_{n}+\beta_{n} z_{n}=\gamma_{n},
+\end{gathered}
+\] где $A_{k} D_{k} \neq B_{k} C_{k}, \quad \alpha_{0}^{2}+\beta_{0}^{2}=1, \quad \alpha_{n}^{2}+\beta_{n}^{2}=1$, решается по следующим правилам.
+
+1) Используя формулы
+
+\[
+\begin{gathered}
+s_{k+1}=\left(C_{k} c_{k}-D_{k} s_{k}\right) / \rho_{k}, \\
+c_{k+1}=\left(B_{k} s_{k}-A_{k} c_{k}\right) / \rho_{k}, \\
+\rho_{k}=\sqrt{\left[\left(C_{k} c_{k}-D_{k} s_{k}\right)^{2}+\left(B_{k} s_{k}-A_{k} c_{k}\right)^{2}\right]}, \\
+u_{k+1}=\left(A_{k} s_{k} s_{k+1}+B_{k} c_{k} s_{k+1}+C_{k} s_{k} c_{k+1}+D_{k} c_{k} c_{k+1}\right) u_{k}+ \\
++\left(F_{k} s_{k+1}+G_{k} c_{k+1}\right) \\
+s_{0}=\alpha_{0}, \quad c_{0}=\beta_{0}, \quad u_{0}=\gamma_{0},
+\end{gathered}
+\]
+
+последовательно вычисляют $s_{k+1}, c_{k+1}, u_{k+1}$ при $k=0$, $\ldots, n-1$ (п р я м о й ход п р о го Нк и).
+
+2) Проверяется условие $\Delta_{n}=\alpha_{n} c_{n}-\beta_{n} s_{n} \neq 0$, и если оно выполняется, то вычисляют
+
+\[
+\begin{gathered}
+v_{n}=\left[\gamma_{n}-\left(\alpha_{n} s_{n}+\beta_{n} c_{n}\right) u_{n}\right] / \Delta_{n} \\
+v_{k}=\left\{v_{k+1}+\left[\left(C_{k} s_{k}+D_{k} c_{k}\right) s_{k+1}-\left(A_{k} s_{k}+B_{k} c_{k}\right) c_{k+1}\right] u_{k}+\right. \\
+\left.+\left(G_{k} s_{k+1}-F_{k} c_{k+1}\right)\right\} / \rho_{k}
+\end{gathered}
+\]
+
+при $k=n-1, n-2, \ldots, 1$ (о б р а тный ход пр ог о н к и).
+
+3) Значения искомого решения системы уравнений (10) - (13) вычисляются по формулам
+
+\[
+y_{k}=u_{k} s_{k}+v_{k} c_{k}, \quad z_{k}=u_{k} c_{k}-v_{k} s_{k} .
+\]
+
+Если решение системы уравнений (10)-(13) существует, единственно и устойчиво относительно малых изменений коэффициентов и свободных членов, то и рассмотренный О. П. м. также устойчив (см. [2]).
+
+Иногда о р т о г о а л ь н о й п р о г о н к о й наз. методы, основанные на использовании фундаментальной системы решений однородной системы уравнений для целей переноса граничных условий (см. [1], [3]). Однако эти методы являются скорее вариантами $n p u$ стрелки метода.
+
+Лum.: [1] Б а х в а л о в Н. С., Численные методы, 2 изд., т. 1, М., 1975; [2] К р ы ло в В. К., Бо б ко в В. В., М о н а ст ы р н ы й П. И., Вычислительные методы высшей математики,
+т. 2, Минск, $1975 ; \quad$ [3] С а м а р с к и й А. А., Н и к от. 2, Минск, 1975; [3] С а ма р с к и й А. А., Н и к
+л а е в Е. С., Методы решения сеточных уравнений, М., 1978 .</text_orig>
+</article>

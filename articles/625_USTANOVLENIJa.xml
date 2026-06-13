@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/625_USTANOVLENIJa" alphabetic_pos="625">
+  <title>УСТАНОВЛЕНИЯ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>279</start>
+    <end>280</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/625_1_USTANOVLENIJa">A u=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/625_2_USTANOVLENIJa">\begin{gathered}\sum_{i=1}^{m} C_{i} \frac{d^{i} u(t)}{d t^{i}}=f-A u(t), \\\left.\frac{d^{k} u}{d t^{k}}\right|_{t=0}=u_{0 k}, \quad k=0,1, \ldots, m-1,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/625_3_USTANOVLENIJa">C_{1} \frac{u\left(t_{n+1}\right)-u\left(t_{n}\right)}{\tau_{n}}=f-A u\left(t_{n}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_1_USTANOVLENIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_2_USTANOVLENIJa">t \rightarrow \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_3_USTANOVLENIJa">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_4_USTANOVLENIJa">u(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_5_USTANOVLENIJa">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_6_USTANOVLENIJa">c_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_7_USTANOVLENIJa">\lim u(t)=u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_8_USTANOVLENIJa">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_9_USTANOVLENIJa">m=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_10_USTANOVLENIJa">\tau_{n}=t_{n+1}-t_{n}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_11_USTANOVLENIJa">c_{1}\left(u^{n+1}-u^{n}\right)=\tau_{n}\left(f-A u^{n}\right), \quad n=0,1, \ldots, u^{0}=u_{00}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_12_USTANOVLENIJa">c_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_13_USTANOVLENIJa">\tau_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_14_USTANOVLENIJa">c_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_15_USTANOVLENIJa">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/625_16_USTANOVLENIJa">\gamma</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/625_1_USTANOVLENIJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/625_2_USTANOVLENIJa">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+  </relations>
+  <text>метод, заключающийся в том, что решение $URI[[http://libmeta.ru/me/formula/aux/625_1_USTANOVLENIJa]]/URI$ нек-рых стационарных задач
+
+\[
+URI[[http://libmeta.ru/me/formula/main/625_1_USTANOVLENIJa]]/URI
+\]
+
+можно рассматривать как результат установления (при $URI[[http://libmeta.ru/me/formula/aux/625_2_USTANOVLENIJa]]/URI$ развивающегося во времени $URI[[http://libmeta.ru/me/formula/aux/625_3_USTANOVLENIJa]]/URI$ процесса $URI[[http://libmeta.ru/me/formula/aux/625_4_USTANOVLENIJa]]/URI$ решениях Коши задачи для нек-рого нестационарного эволюционного уравнения с тем же оператором $URI[[http://libmeta.ru/me/formula/aux/625_5_USTANOVLENIJa]]/URI$, напр. вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/625_2_USTANOVLENIJa]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/me/formula/aux/625_6_USTANOVLENIJa]]/URI$-нек-рые операторы, гарантирующие существование процесса установления: $URI[[http://libmeta.ru/me/formula/aux/625_7_USTANOVLENIJa]]/URI$.
+
+Эффект установления позволяет использовать приближенныс методы решения задачи (2) для построения итерационных алгоритмов решения уравненія (1). Так, если для нестационарного уравнения (2) определен разностныйі по $URI[[http://libmeta.ru/me/formula/aux/625_8_USTANOVLENIJa]]/URI$ метод репения, обеспечивающий сходимость и устойчивость приближенного решения, нашр. при $URI[[http://libmeta.ru/me/formula/aux/625_9_USTANOVLENIJa]]/URI$ явный метод вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/625_3_USTANOVLENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/625_10_USTANOVLENIJa]]/URI$, то атот метод можно интерпретировать как итерационный алгоритм
+
+$URI[[http://libmeta.ru/me/formula/aux/625_11_USTANOVLENIJa]]/URI$,
+
+лля решения уравнения (1), в к-ром $URI[[http://libmeta.ru/me/formula/aux/625_12_USTANOVLENIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/625_13_USTANOVLENIJa]]/URI$ рассматриваются уже как характеристики метода.
+
+Варьирование вида операторов $URI[[http://libmeta.ru/me/formula/aux/625_14_USTANOVLENIJa]]/URI$ и рассмотрение различных аппроксимаций по $URI[[http://libmeta.ru/me/formula/aux/625_15_USTANOVLENIJa]]/URI$ в уравнении (2) (явные, неявные схемы, схемы расщепления и т. п.) дают возможность получать достаточно разнообразные семейства итерационных методов решения уравнения (1). Для этих методов уравнение (2) будет замыканием вычислительного алгоритма.
+
+Обобщением У. м. является продолжения по параметpу метод.
+
+Лum: [1] Б а х в а л о в Н. С., Численные методы, 2 изд.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_144368f6f362f1db3a12g-1.jpg?height=50&amp;width=821&amp;top_left_y=2225&amp;top_left_x=984)
+ностные схемы, 2 изд., М., 1977 , [3] М а р ч у к $URI[[http://libmeta.ru/me/formula/aux/625_16_USTANOVLENIJa]]/URI$. И., Л е 6 e-
+д е в В. И, Численные методы в теории переноса нейтронов,
+
+М. е в В. И, Яисленные URI[[http://libmeta.ru/me/relation/625_2_USTANOVLENIJa]]/URI в URI[[http://libmeta.ru/me/relation/625_1_USTANOVLENIJa]]/URI переноса нейтронов,
+В. И. Лебедев.
+1971.</text>
+  <text_orig>метод, заключающийся в том, что решение $u$ нек-рых стационарных задач
+
+\[
+A u=f
+\]
+
+можно рассматривать как результат установления (при $t \rightarrow \infty)$ развивающегося во времени $t&gt;0$ процесса $u(t)-$ решениях Коши задачи для нек-рого нестационарного эволюционного уравнения с тем же оператором $A$, напр. вида
+
+\[
+\begin{gathered}
+\sum_{i=1}^{m} C_{i} \frac{d^{i} u(t)}{d t^{i}}=f-A u(t), \\
+\left.\frac{d^{k} u}{d t^{k}}\right|_{t=0}=u_{0 k}, \quad k=0,1, \ldots, m-1,
+\end{gathered}
+\]
+
+здесь $C_{i}$-нек-рые операторы, гарантирующие существование процесса установления: $\lim u(t)=u$.
+
+Эффект установления позволяет использовать приближенныс методы решения задачи (2) для построения итерационных алгоритмов решения уравненія (1). Так, если для нестационарного уравнения (2) определен разностныйі по $t$ метод репения, обеспечивающий сходимость и устойчивость приближенного решения, нашр. при $m=1$ явный метод вида
+
+\[
+C_{1} \frac{u\left(t_{n+1}\right)-u\left(t_{n}\right)}{\tau_{n}}=f-A u\left(t_{n}\right),
+\]
+
+где $\tau_{n}=t_{n+1}-t_{n}&gt;0$, то атот метод можно интерпретировать как итерационный алгоритм
+
+$C_{1}\left(u^{n+1}-u^{n}\right)=\tau_{n}\left(f-A u^{n}\right), \quad n=0,1, \ldots, u^{0}=u_{00}$,
+
+лля решения уравнения (1), в к-ром $C_{1}$ и $\tau_{n}$ рассматриваются уже как характеристики метода.
+
+Варьирование вида операторов $C_{i}$ и рассмотрение различных аппроксимаций по $t$ в уравнении (2) (явные, неявные схемы, схемы расщепления и т. п.) дают возможность получать достаточно разнообразные семейства итерационных методов решения уравнения (1). Для этих методов уравнение (2) будет замыканием вычислительного алгоритма.
+
+Обобщением У. м. является продолжения по параметpу метод.
+
+Лum: [1] Б а х в а л о в Н. С., Численные методы, 2 изд.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_144368f6f362f1db3a12g-1.jpg?height=50&amp;width=821&amp;top_left_y=2225&amp;top_left_x=984)
+ностные схемы, 2 изд., М., 1977 , [3] М а р ч у к $\Gamma$. И., Л е 6 e-
+д е в В. И, Численные методы в теории переноса нейтронов,
+
+М. е в В. И, Яисленные методы в теории переноса нейтронов,
+В. И. Лебедев.
+1971.</text_orig>
+</article>

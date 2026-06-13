@@ -1,0 +1,380 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/462_TRANSVERSAL'NOSTI" alphabetic_pos="462">
+  <title>ТРАНСВЕРСАЛЬНОСТИ УСЛОВИЕ</title>
+  <authors/>
+  <pages>
+    <start>208</start>
+    <end>209</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б л и с с Г. А., Лекщии по вариационному исчислению, пер. с англ., М., 1950; [2] Л а в р е н т ь е в М. А., Ј ю с т е р н и к Ј. А.,, Курс вариационного исчисления,</literature_orig>
+    <unit>
+      <author>Блисс Г. А.</author>
+      <title>Лекщии по вариационному исчислению</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Лаврентьев М. А.</author>
+      <author>ЈюстерникЈ. А.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Курс вариационного исчисления</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/462_1_TRANSVERSAL'NOSTI">J(x)=\int_{t_{1}}^{t_{2}} F(t, x, \dot{x}) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_2_TRANSVERSAL'NOSTI">\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)=\left(t_{1}, x_{1}, t_{2}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_3_TRANSVERSAL'NOSTI">\left[\left(F-\dot{x} F_{\dot{x}}\right) d t+F_{\dot{x}} d x\right]_{1}^{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_4_TRANSVERSAL'NOSTI">d x_{1}=\dot{\varphi}_{1}(t) d t_{1}, d x_{2}=\dot{\varphi}_{2}(t) d t_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_5_TRANSVERSAL'NOSTI">\left.\begin{array}{l}F\left(t_{1}, x_{1}, \dot{x}_{1}\right)-\left[\dot{\varphi}_{1}\left(t_{1}\right)-\dot{x}_{1}\right] F \dot{x}\left(t_{1}, x_{1}, \dot{x}_{1}\right)=0, \\F\left(t_{2}, x_{2}, \dot{x}_{2}\right)+\left[\dot{\varphi}_{2}\left(t_{2}\right)-\dot{x}_{2}\right] F \dot{x}\left(t_{2}, x_{2}, \dot{x}_{2}\right)=0 .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_6_TRANSVERSAL'NOSTI">\left.\begin{array}{l}\frac{F-\dot{x} \dot{x}^{\prime}}{\omega_{1 t}}=\frac{F \dot{x}}{\omega_{1 x}} \text { на левом конце, } \\\frac{F-\dot{x} \dot{x}^{\prime}}{\omega_{2 t}}=\frac{F \dot{x}}{\omega_{2} x} \text { на правом конце. }\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_7_TRANSVERSAL'NOSTI">F=0, F_{\dot{x}}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_8_TRANSVERSAL'NOSTI">\left.\begin{array}{l}J(x)=\int_{t_{1}}^{t_{2}} f(t, x, \dot{x}) d t+g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right), \\f: \mathbb{R} \times \mathbb{R} n \times \mathbb{R} n \rightarrow \mathbb{R}, g: \mathbb{R} \times \mathbb{R} n \times \mathbb{R} \times \mathbb{R}^{n} \rightarrow \mathbb{R},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_9_TRANSVERSAL'NOSTI">\varphi(t, x, \dot{x})=0, \varphi: R \times R^{n} \times R^{n} \rightarrow R^{m}, m&lt;n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_10_TRANSVERSAL'NOSTI">\begin{gathered}\psi\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)=0, \\\psi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R} \times \mathbb{R} n \longrightarrow \mathbb{R} p, p \leqslant 2 n+2 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_11_TRANSVERSAL'NOSTI">\begin{gathered}{\left[\left(F-\sum_{i=1}^{n} \dot{x}^{i} F_{x_{i}}\right) d t+\sum_{i=1}^{n} F_{\dot{x} i} d x^{i}\right]_{1}^{2}+} \\+\lambda_{0} d g+\sum_{\mu=1}^{p} e_{\mu} d \psi_{\mu}=0\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_12_TRANSVERSAL'NOSTI">d t_{\mathbf{1}}, d x_{\mathbf{1}}^{i}, d t_{\mathbf{2}}, d x_{2}^{i}, i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_13_TRANSVERSAL'NOSTI">\begin{gathered}F=F(t, x, \dot{x}, \lambda)=\lambda_{0} f(t, x, \dot{x})+ \\+\sum_{i=1}^{m} \lambda_{i}(t) \varphi_{i}(t, x, \dot{x}) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_14_TRANSVERSAL'NOSTI">F_{x^{i}}-\frac{d}{d t} F_{\dot{x}^{i}}=0, i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_15_TRANSVERSAL'NOSTI">\varphi_{i}(t, x, \dot{x})=0, i=1, \ldots, m .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_16_TRANSVERSAL'NOSTI">\dot{x}^{i}=u_{i}, i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_17_TRANSVERSAL'NOSTI">\varphi_{i}(t, x, u)=0, i=1, \ldots, m .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/462_18_TRANSVERSAL'NOSTI">F-\sum_{i=1}^{n} \dot{x}^{i} F_{\dot{x} i} \text { и } F_{\dot{x} i}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_1_TRANSVERSAL'NOSTI">d t_{1}, d x_{1}, d t_{2}, d x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_2_TRANSVERSAL'NOSTI">x=\varphi_{1}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_3_TRANSVERSAL'NOSTI">x=\varphi_{2}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_4_TRANSVERSAL'NOSTI">d t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_5_TRANSVERSAL'NOSTI">d t_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_6_TRANSVERSAL'NOSTI">\omega_{1}(t, x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_7_TRANSVERSAL'NOSTI">\omega_{2}(t, x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_8_TRANSVERSAL'NOSTI">d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_9_TRANSVERSAL'NOSTI">d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_10_TRANSVERSAL'NOSTI">p&lt;2 n+2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_11_TRANSVERSAL'NOSTI">\left(t_{1}, x_{1}^{\mathbf{1}}, \ldots, x_{1}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_12_TRANSVERSAL'NOSTI">\left(t_{2}, x_{2}^{\mathbf{1}}, \ldots, x_{2}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_13_TRANSVERSAL'NOSTI">\psi_{\mu}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_14_TRANSVERSAL'NOSTI">\mu=1, \ldots, p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_15_TRANSVERSAL'NOSTI">e_{\mu}, \mu=1, \ldots, p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_16_TRANSVERSAL'NOSTI">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_17_TRANSVERSAL'NOSTI">\lambda_{i}(t), i=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_18_TRANSVERSAL'NOSTI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_19_TRANSVERSAL'NOSTI">\lambda_{0}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_20_TRANSVERSAL'NOSTI">\lambda_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_21_TRANSVERSAL'NOSTI">\lambda_{i}(t), i=1, \ldots ., m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_22_TRANSVERSAL'NOSTI">x^{i}(t), i=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_23_TRANSVERSAL'NOSTI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_24_TRANSVERSAL'NOSTI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_25_TRANSVERSAL'NOSTI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_26_TRANSVERSAL'NOSTI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_27_TRANSVERSAL'NOSTI">n+m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_28_TRANSVERSAL'NOSTI">x^{i}(t), i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_29_TRANSVERSAL'NOSTI">\lambda_{i}(t), i=1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_30_TRANSVERSAL'NOSTI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_31_TRANSVERSAL'NOSTI">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_32_TRANSVERSAL'NOSTI">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_33_TRANSVERSAL'NOSTI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_34_TRANSVERSAL'NOSTI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_35_TRANSVERSAL'NOSTI">u_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_36_TRANSVERSAL'NOSTI">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_37_TRANSVERSAL'NOSTI">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_38_TRANSVERSAL'NOSTI">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_39_TRANSVERSAL'NOSTI">t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_40_TRANSVERSAL'NOSTI">t_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_41_TRANSVERSAL'NOSTI">2 n+2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_42_TRANSVERSAL'NOSTI">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/462_43_TRANSVERSAL'NOSTI">\psi_{i}</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/me/relation/462_1_TRANSVERSAL'NOSTI">
+      <rel_text>вариационной задачи</rel_text>
+      <target>http://libmeta.ru/me/article/597_VARIATsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/462_2_TRANSVERSAL'NOSTI">
+      <rel_text>краевой задачи</rel_text>
+      <target>http://libmeta.ru/me/article/68_KRAEVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/462_3_TRANSVERSAL'NOSTI">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/462_4_TRANSVERSAL'NOSTI">
+      <rel_text>граничные условия</rel_text>
+      <target>http://libmeta.ru/me/article/1169_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/462_5_TRANSVERSAL'NOSTI">
+      <rel_text>получать</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/462_6_TRANSVERSAL'NOSTI">
+      <rel_text>переменные</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/462_7_TRANSVERSAL'NOSTI">
+      <rel_text>гамильтониан</rel_text>
+      <target>http://libmeta.ru/me/article/919_GAMIL'TONI</target>
+    </relation>
+  </relations>
+  <text>необходимое условие оптимальности в вариационных задачах с подвижными концами. С помощью Т. у. определяются произвольные постоянные, от к-рых зависит решение уравнений Эйлера. Т. у. является необходимым условием обращения в нуль первой вариации функционала.
+
+Для простейшей задачи вариационного исчисления с подвижными концами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_1_TRANSVERSAL'NOSTI]]/URI
+\]
+
+в к-рой точка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_2_TRANSVERSAL'NOSTI]]/URI
+\]
+
+не фиксируется, а может принадлежать нек-рому множеству, Т. У. записывается в виде соотношения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_3_TRANSVERSAL'NOSTI]]/URI
+\]
+
+к-рое должно выполняться при любых значениях дифференциалов $URI[[http://libmeta.ru/me/formula/aux/462_1_TRANSVERSAL'NOSTI]]/URI$, удовлетвөряющих проварьированным граничным условиям.
+
+Если левый и правый концы әкстремали могут смещаться вдоль заданных линий $URI[[http://libmeta.ru/me/formula/aux/462_2_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_3_TRANSVERSAL'NOSTI]]/URI$, то в силу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_4_TRANSVERSAL'NOSTI]]/URI
+\]
+
+и независимости вариаций $URI[[http://libmeta.ru/me/formula/aux/462_4_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_5_TRANSVERSAL'NOSTI]]/URI$ из (1) получают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_5_TRANSVERSAL'NOSTI]]/URI
+\]
+
+Если уравнения линий, вдоль к-рых смещаются левый и правый концы әкстремали, заданы в неявном виде: $URI[[http://libmeta.ru/me/formula/aux/462_6_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_7_TRANSVERSAL'NOSTI]]/URI$, то Т. у. (1) записывается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_6_TRANSVERSAL'NOSTI]]/URI
+\]
+
+Если на один из концов экстремали не наложено никаких ограничений, то на этом конце, в силу независимости соответствующих концевых вариаций $URI[[http://libmeta.ru/me/formula/aux/462_8_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_9_TRANSVERSAL'NOSTI]]/URI$, Т. у. (1) принимает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_7_TRANSVERSAL'NOSTI]]/URI
+\]
+
+Соотнотения (2), (3), (4) наз. у с л о в и я м и т р а н св е р с а л ь н о с т и.
+
+Ниже приводятся Т. у. в более общем случае вариационной задачи на условный экстремум. Пусть имеется Больца задача, состоящая в минимизации функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_8_TRANSVERSAL'NOSTI]]/URI
+\]
+
+при наличии дифференциальных ограничений типа равенств
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_9_TRANSVERSAL'NOSTI]]/URI
+\]
+
+и граничных условий
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_10_TRANSVERSAL'NOSTI]]/URI
+\]
+
+В этой задаче при $URI[[http://libmeta.ru/me/formula/aux/462_10_TRANSVERSAL'NOSTI]]/URI$ концы $URI[[http://libmeta.ru/me/formula/aux/462_11_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_12_TRANSVERSAL'NOSTI]]/URI$ экстремали не закреплены, а могут смещаться вдоль заданных гиперповерхностей $URI[[http://libmeta.ru/me/formula/aux/462_13_TRANSVERSAL'NOSTI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/462_14_TRANSVERSAL'NOSTI]]/URI$.
+
+Согласно Т. У., существуют такие постоянные (м н ожи т е л и Л а г р а н ж а) $URI[[http://libmeta.ru/me/formula/aux/462_15_TRANSVERSAL'NOSTI]]/URI$, а такжө такие множители $URI[[http://libmeta.ru/me/formula/aux/462_16_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_17_TRANSVERSAL'NOSTI]]/URI$, что на концах экстремали помимо граничных условий (7) выполняется соотношение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_11_TRANSVERSAL'NOSTI]]/URI
+\]
+
+к-рое должно иметь место при любом выборе дифференциалов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_12_TRANSVERSAL'NOSTI]]/URI
+\] Черев $URI[[http://libmeta.ru/me/formula/aux/462_18_TRANSVERSAL'NOSTI]]/URI$ в (8) обозначено
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_13_TRANSVERSAL'NOSTI]]/URI
+\]
+
+В большинстве практич. задач для нормировки множителей Лагранжа полагают $URI[[http://libmeta.ru/me/formula/aux/462_19_TRANSVERSAL'NOSTI]]/URI$ (значение $URI[[http://libmeta.ru/me/formula/aux/462_20_TRANSVERSAL'NOSTI]]/URI$ соответствует анормальному случаю, см. [1]). Множители $URI[[http://libmeta.ru/me/formula/aux/462_21_TRANSVERSAL'NOSTI]]/URI$, определяются вместе с $URI[[http://libmeta.ru/me/formula/aux/462_22_TRANSVERSAL'NOSTI]]/URI$, ..., $URI[[http://libmeta.ru/me/formula/aux/462_23_TRANSVERSAL'NOSTI]]/URI$, из решения системы дифференциальных уравнений Әйлера
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_14_TRANSVERSAL'NOSTI]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/462_24_TRANSVERSAL'NOSTI]]/URI$ уравнений вида (6):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_15_TRANSVERSAL'NOSTI]]/URI
+\]
+
+Общее решение полученной системы из $URI[[http://libmeta.ru/me/formula/aux/462_25_TRANSVERSAL'NOSTI]]/URI$ диффференциальных уравнений 2-го порядка и $URI[[http://libmeta.ru/me/formula/aux/462_26_TRANSVERSAL'NOSTI]]/URI$ дифференциальных уравнений 1-го порядка относительно $URI[[http://libmeta.ru/me/formula/aux/462_27_TRANSVERSAL'NOSTI]]/URI$ неизвестных функций $URI[[http://libmeta.ru/me/formula/aux/462_28_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_29_TRANSVERSAL'NOSTI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/462_30_TRANSVERSAL'NOSTI]]/URI$, вависит от $URI[[http://libmeta.ru/me/formula/aux/462_31_TRANSVERSAL'NOSTI]]/URI$ произвольных постоянных. Действительно, если обозначить
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_16_TRANSVERSAL'NOSTI]]/URI
+\]
+
+то получается система (11), (12) $URI[[http://libmeta.ru/me/formula/aux/462_32_TRANSVERSAL'NOSTI]]/URI$ дифференциальных уравнений 1-го порядка и $URI[[http://libmeta.ru/me/formula/aux/462_33_TRANSVERSAL'NOSTI]]/URI$ конечных соотношений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_17_TRANSVERSAL'NOSTI]]/URI
+\]
+
+Выражая из (13) нек-рые $URI[[http://libmeta.ru/me/formula/aux/462_34_TRANSVERSAL'NOSTI]]/URI$ функций $URI[[http://libmeta.ru/me/formula/aux/462_35_TRANSVERSAL'NOSTI]]/URI$ через остальные (в предположении, что соответствующий функциональный определитель отличен от нуля) и подставляя их в (11), (12), получают систему $URI[[http://libmeta.ru/me/formula/aux/462_36_TRANSVERSAL'NOSTI]]/URI$ диффференциальных уравнений 1-го порядка с $URI[[http://libmeta.ru/me/formula/aux/462_37_TRANSVERSAL'NOSTI]]/URI$ неизвестными функциями, общее решение к-рой зависит от $URI[[http://libmeta.ru/me/formula/aux/462_38_TRANSVERSAL'NOSTI]]/URI$ произвольных постоянных. Вместе со значениями $URI[[http://libmeta.ru/me/formula/aux/462_39_TRANSVERSAL'NOSTI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/462_40_TRANSVERSAL'NOSTI]]/URI$ это дает $URI[[http://libmeta.ru/me/formula/aux/462_41_TRANSVERSAL'NOSTI]]/URI$ произвольных постоянных, определяющих решение вариационной задачи (5) - (7). С помощью Т. у. получают ровно столько же соотношений, позволяющих определить эти произвольные постоянные.
+
+В задачах оптимального управления и в принципе максимума Понтрягина необходимое Т. у. записывается аналогично (8), только вместо
+
+\[
+URI[[http://libmeta.ru/me/formula/main/462_18_TRANSVERSAL'NOSTI]]/URI
+\]
+
+в (8) следует подставлять URI[[http://libmeta.ru/me/relation/462_7_TRANSVERSAL'NOSTI]]/URI $URI[[http://libmeta.ru/me/formula/aux/462_42_TRANSVERSAL'NOSTI]]/URI$, взятый с обратным знаком, и сопряженные URI[[http://libmeta.ru/me/relation/462_6_TRANSVERSAL'NOSTI]]/URI $URI[[http://libmeta.ru/me/formula/aux/462_43_TRANSVERSAL'NOSTI]]/URI$.
+
+Необходимое Т. у. позволяет URI[[http://libmeta.ru/me/relation/462_5_TRANSVERSAL'NOSTI]]/URI недостающие URI[[http://libmeta.ru/me/relation/462_4_TRANSVERSAL'NOSTI]]/URI для URI[[http://libmeta.ru/me/relation/462_3_TRANSVERSAL'NOSTI]]/URI замкнутой URI[[http://libmeta.ru/me/relation/462_2_TRANSVERSAL'NOSTI]]/URI, к к-рой сводится решение URI[[http://libmeta.ru/me/relation/462_1_TRANSVERSAL'NOSTI]]/URI с подвижными концами.</text>
+  <text_orig>необходимое условие оптимальности в вариационных задачах с подвижными концами. С помощью Т. у. определяются произвольные постоянные, от к-рых зависит решение уравнений Эйлера. Т. у. является необходимым условием обращения в нуль первой вариации функционала.
+
+Для простейшей задачи вариационного исчисления с подвижными концами
+
+\[
+J(x)=\int_{t_{1}}^{t_{2}} F(t, x, \dot{x}) d t
+\]
+
+в к-рой точка
+
+\[
+\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)=\left(t_{1}, x_{1}, t_{2}, x_{2}\right)
+\]
+
+не фиксируется, а может принадлежать нек-рому множеству, Т. У. записывается в виде соотношения
+
+\[
+\left[\left(F-\dot{x} F_{\dot{x}}\right) d t+F_{\dot{x}} d x\right]_{1}^{2}=0
+\]
+
+к-рое должно выполняться при любых значениях дифференциалов $d t_{1}, d x_{1}, d t_{2}, d x_{2}$, удовлетвөряющих проварьированным граничным условиям.
+
+Если левый и правый концы әкстремали могут смещаться вдоль заданных линий $x=\varphi_{1}(t)$ и $x=\varphi_{2}(t)$, то в силу
+
+\[
+d x_{1}=\dot{\varphi}_{1}(t) d t_{1}, d x_{2}=\dot{\varphi}_{2}(t) d t_{2}
+\]
+
+и независимости вариаций $d t_{1}$ и $d t_{2}$ из (1) получают
+
+\[
+\left.\begin{array}{l}
+F\left(t_{1}, x_{1}, \dot{x}_{1}\right)-\left[\dot{\varphi}_{1}\left(t_{1}\right)-\dot{x}_{1}\right] F \dot{x}\left(t_{1}, x_{1}, \dot{x}_{1}\right)=0, \\
+F\left(t_{2}, x_{2}, \dot{x}_{2}\right)+\left[\dot{\varphi}_{2}\left(t_{2}\right)-\dot{x}_{2}\right] F \dot{x}\left(t_{2}, x_{2}, \dot{x}_{2}\right)=0 .
+\end{array}\right\}
+\]
+
+Если уравнения линий, вдоль к-рых смещаются левый и правый концы әкстремали, заданы в неявном виде: $\omega_{1}(t, x)=0$ и $\omega_{2}(t, x)=0$, то Т. у. (1) записывается в виде
+
+\[
+\left.\begin{array}{l}
+\frac{F-\dot{x} \dot{x}^{\prime}}{\omega_{1 t}}=\frac{F \dot{x}}{\omega_{1 x}} \text { на левом конце, } \\
+\frac{F-\dot{x} \dot{x}^{\prime}}{\omega_{2 t}}=\frac{F \dot{x}}{\omega_{2} x} \text { на правом конце. }
+\end{array}\right\}
+\]
+
+Если на один из концов экстремали не наложено никаких ограничений, то на этом конце, в силу независимости соответствующих концевых вариаций $d t$ и $d x$, Т. у. (1) принимает вид
+
+\[
+F=0, F_{\dot{x}}=0 .
+\]
+
+Соотнотения (2), (3), (4) наз. у с л о в и я м и т р а н св е р с а л ь н о с т и.
+
+Ниже приводятся Т. у. в более общем случае вариационной задачи на условный экстремум. Пусть имеется Больца задача, состоящая в минимизации функционала
+
+\[
+\left.\begin{array}{l}
+J(x)=\int_{t_{1}}^{t_{2}} f(t, x, \dot{x}) d t+g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right), \\
+f: \mathbb{R} \times \mathbb{R} n \times \mathbb{R} n \rightarrow \mathbb{R}, g: \mathbb{R} \times \mathbb{R} n \times \mathbb{R} \times \mathbb{R}^{n} \rightarrow \mathbb{R},
+\end{array}\right\}
+\]
+
+при наличии дифференциальных ограничений типа равенств
+
+\[
+\varphi(t, x, \dot{x})=0, \varphi: R \times R^{n} \times R^{n} \rightarrow R^{m}, m&lt;n,
+\]
+
+и граничных условий
+
+\[
+\begin{gathered}
+\psi\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)=0, \\
+\psi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R} \times \mathbb{R} n \longrightarrow \mathbb{R} p, p \leqslant 2 n+2 .
+\end{gathered}
+\]
+
+В этой задаче при $p&lt;2 n+2$ концы $\left(t_{1}, x_{1}^{\mathbf{1}}, \ldots, x_{1}^{n}\right)$ и $\left(t_{2}, x_{2}^{\mathbf{1}}, \ldots, x_{2}^{n}\right)$ экстремали не закреплены, а могут смещаться вдоль заданных гиперповерхностей $\psi_{\mu}=0$, $\mu=1, \ldots, p$.
+
+Согласно Т. У., существуют такие постоянные (м н ожи т е л и Л а г р а н ж а) $e_{\mu}, \mu=1, \ldots, p$, а такжө такие множители $\lambda_{0}$ и $\lambda_{i}(t), i=1, \ldots, m$, что на концах экстремали помимо граничных условий (7) выполняется соотношение
+
+\[
+\begin{gathered}
+{\left[\left(F-\sum_{i=1}^{n} \dot{x}^{i} F_{x_{i}}\right) d t+\sum_{i=1}^{n} F_{\dot{x} i} d x^{i}\right]_{1}^{2}+} \\
++\lambda_{0} d g+\sum_{\mu=1}^{p} e_{\mu} d \psi_{\mu}=0
+\end{gathered}
+\]
+
+к-рое должно иметь место при любом выборе дифференциалов
+
+\[
+d t_{\mathbf{1}}, d x_{\mathbf{1}}^{i}, d t_{\mathbf{2}}, d x_{2}^{i}, i=1, \ldots, n
+\] Черев $F$ в (8) обозначено
+
+\[
+\begin{gathered}
+F=F(t, x, \dot{x}, \lambda)=\lambda_{0} f(t, x, \dot{x})+ \\
++\sum_{i=1}^{m} \lambda_{i}(t) \varphi_{i}(t, x, \dot{x}) .
+\end{gathered}
+\]
+
+В большинстве практич. задач для нормировки множителей Лагранжа полагают $\lambda_{0}=1$ (значение $\lambda_{0}=0$ соответствует анормальному случаю, см. [1]). Множители $\lambda_{i}(t), i=1, \ldots ., m$, определяются вместе с $x^{i}(t), i=1$, ..., $m$, из решения системы дифференциальных уравнений Әйлера
+
+\[
+F_{x^{i}}-\frac{d}{d t} F_{\dot{x}^{i}}=0, i=1, \ldots, n,
+\]
+
+и $m$ уравнений вида (6):
+
+\[
+\varphi_{i}(t, x, \dot{x})=0, i=1, \ldots, m .
+\]
+
+Общее решение полученной системы из $n$ диффференциальных уравнений 2-го порядка и $m$ дифференциальных уравнений 1-го порядка относительно $n+m$ неизвестных функций $x^{i}(t), i=1, \ldots, n$ и $\lambda_{i}(t), i=1, \ldots$, $m$, вависит от $2 n$ произвольных постоянных. Действительно, если обозначить
+
+\[
+\dot{x}^{i}=u_{i}, i=1, \ldots, n,
+\]
+
+то получается система (11), (12) $2 n$ дифференциальных уравнений 1-го порядка и $m$ конечных соотношений
+
+\[
+\varphi_{i}(t, x, u)=0, i=1, \ldots, m .
+\]
+
+Выражая из (13) нек-рые $m$ функций $u_{i}$ через остальные (в предположении, что соответствующий функциональный определитель отличен от нуля) и подставляя их в (11), (12), получают систему $2 n$ диффференциальных уравнений 1-го порядка с $2 n$ неизвестными функциями, общее решение к-рой зависит от $2 n$ произвольных постоянных. Вместе со значениями $t_{1}$ и $t_{2}$ это дает $2 n+2$ произвольных постоянных, определяющих решение вариационной задачи (5) - (7). С помощью Т. у. получают ровно столько же соотношений, позволяющих определить эти произвольные постоянные.
+
+В задачах оптимального управления и в принципе максимума Понтрягина необходимое Т. у. записывается аналогично (8), только вместо
+
+\[
+F-\sum_{i=1}^{n} \dot{x}^{i} F_{\dot{x} i} \text { и } F_{\dot{x} i}
+\]
+
+в (8) следует подставлять гамильтониан $H$, взятый с обратным знаком, и сопряженные переменные $\psi_{i}$.
+
+Необходимое Т. у. позволяет получать недостающие граничные условия для получения замкнутой краевой задачи, к к-рой сводится решение вариационной задачи с подвижными концами.
+
+Лum.: [1] Б л и с с Г. А., Лекщии по вариационному исчислению, пер. с англ., М., 1950; [2] Л а в р е н т ь е в М. А., Ј ю с т е р н и к Ј. А.,, Курс вариационного исчисления,</text_orig>
+</article>

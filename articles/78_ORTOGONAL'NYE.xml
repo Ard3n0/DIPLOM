@@ -1,0 +1,858 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/78_ORTOGONAL'NYE" alphabetic_pos="78">
+  <title>ОРТОГОНАЛЬНЫЕ МНОГОЧЛЕНЫ</title>
+  <authors/>
+  <pages>
+    <start>47</start>
+    <end>50</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] ч е б ы ш е в П. Л., Полн. собр. соч., т. 2, М.-Л., 1947 , с. $103-26,314-34,335-41,357-74 ;$ [2] Б е р н ші т е й н C. H., Собр. соч., т. 2, M., 1954, с. 7-106; [3] $\gamma$ e p o н и м у с Я. Ј.,, Теория ортогональных многочленов, М.-Л., 1950; [4] С у е т и н П. К., Классические ортогональные многочлены, 2 изд., М., 1979; [5] Н и к и фо р о в А. Ф., У в а р о в В. Б. Специальные функции математической физики, М., 1978; [6] Б е й т м е н Г., Э р д ей и А., Высшие трансцендентные функции, т. 2 - Функции Бесселя, функции параболического цилиндра, ортогональные многочлены, пер. с англ., 2 изд., М., $1974 ;$ [7] Д ж е к с о н Д., Ряды Фурье и ортогональные полиномы, пер. с англ., М., 1948; [8] С е г е Г., Ортогональные многочлены, пер. с англ., М., 1962; [9] Справочник по специальным функциям..., пер.с англ., М., 1979; [10] S h o h a t J. A., H i l1 e E., Wall s $\mathrm{h}$. L., A bibliography on orthogonal polynomials,'wash., 1940.</literature_orig>
+    <unit>
+      <author>чебышев П. Л.</author>
+      <title>Полн. собр. соч.</title>
+      <publication>М.-Л.</publication>
+      <year>1947</year>
+      <other>т. 2, с. $103-26, 314-34, 335-41, 357-74 ;$</other>
+    </unit>
+    <unit>
+      <author>Берншітейн C. H.</author>
+      <title>Собр. соч.</title>
+      <publication>M.</publication>
+      <year>1954</year>
+      <other>т. 2, с. 7-106</other>
+    </unit>
+    <unit>
+      <title>$\gamma$ e p o н и м у с Я. Ј., Теория ортогональных многочленов, М.-Л.</title>
+      <publication/>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Суетин П. К.</author>
+      <title>Классические ортогональные многочлены</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Никифоров А. Ф.</author>
+      <title>У в а р о в В. Б. Специальные функции математической физики</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бейтмен Г.</author>
+      <author>Эрдейи А.</author>
+      <title>Высшие трансцендентные функции</title>
+      <publication>функции параболического цилиндра, ортогональные многочлены, пер. с англ., 2 изд., М.</publication>
+      <year>1974</year>
+      <other>т. 2 - Функции Бесселя</other>
+    </unit>
+    <unit>
+      <author>Джексон Д.</author>
+      <title>Ряды Фурье и ортогональные полиномы</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1948</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Сеге Г.</author>
+      <title>Ортогональные многочлены</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Справочник по специальным функциям...</title>
+      <publication>пер.с англ., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Shohat J. A.</author>
+      <author>Hil1e E.</author>
+      <author>Walls$\mathrm{h}$. L.</author>
+      <title>A bibliography on orthogonal polynomials, 'wash.</title>
+      <publication/>
+      <year>1940</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/78_1_ORTOGONAL'NYE">\int_{a}^{b} P_{n}(x) P_{m}(x) h(x) d x=0, n \neq m,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_2_ORTOGONAL'NYE">\int_{a}^{b} \hat{P}_{n}^{2}(x) h(x) d x=1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_3_ORTOGONAL'NYE">h_{n}=\int_{a}^{b} x^{n} h(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_4_ORTOGONAL'NYE">\int_{a}^{b} P_{n}(x) Q_{m}(x) h(x) d x=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_5_ORTOGONAL'NYE">P_{n}(-x) \equiv(-1)^{n} P_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_6_ORTOGONAL'NYE">P_{n+1}(x)=\left(a_{n} x+b_{n}\right) P_{n}(x)-c_{n} P_{n-1}(x), n=1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_7_ORTOGONAL'NYE">\begin{gathered}P_{1}(x)=\mu_{1} x+v_{1}, \ldots, \\P_{n}(x)=\mu_{n} x^{n}+v_{n} x^{n-1}+\ldots, \\a_{n}=\mu_{n+1} / \mu_{n}, b_{n}=a_{n}\left(v_{n+1} / \mu_{n+1}-v_{n} / \mu_{n}\right), \\c_{n}=\frac{\mu_{n+1} \mu_{n-1}}{\mu_{n}^{2}} \cdot \frac{d_{n}^{2}}{d_{n-1}^{2}}, d_{n}^{2}=\int_{a}^{b} P_{n}^{2}(x) h(x) d x .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_8_ORTOGONAL'NYE">d_{n}^{-1} P_{n}(x)=\hat{P}_{n}(x) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_9_ORTOGONAL'NYE">\begin{gathered}\sum_{k=0}^{n} \frac{1}{d_{k}^{2}} P_{k}(x) P_{k}(t)= \\=\frac{1}{d_{n}^{2}} \frac{\mu_{n}}{\mu_{n+1}} \frac{P_{n+1}(x) P_{n}(t)-P_{n}(x) P_{n+1}(t)}{x-t} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_10_ORTOGONAL'NYE">P_{n}(x)=\frac{1}{\sqrt{\Delta_{n-1} \Delta_{n}}} \psi_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_11_ORTOGONAL'NYE">\psi_{n}(x)=\left|\begin{array}{llll}h_{0} &amp; h_{1} &amp; \ldots &amp; h_{n} \\n_{1} &amp; h_{2} &amp; \ldots &amp; h_{n+1} \\\ldots &amp; \cdots &amp; \ldots &amp; . . \\h_{n-1} &amp; h_{n-2} &amp; \ldots &amp; h_{2 n-1} \\1 &amp; x &amp; \ldots &amp; x^{n}\end{array}\right|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_12_ORTOGONAL'NYE">F\left(\tilde{Q}_{n}\right)=\int_{a}^{b} \tilde{Q}_{n}^{2}(x) h(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_13_ORTOGONAL'NYE">\tilde{Q}_{n}(x) \equiv \tilde{P}_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_14_ORTOGONAL'NYE">\hat{Q}_{n}(t)=\sqrt{p} \hat{P}_{n}(p t+q), \quad n=0,1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_15_ORTOGONAL'NYE">\frac{h^{\prime}(x)}{h(x)}=\frac{p_{0}+p_{1} x}{q_{0}+q_{1} x+q_{2} x^{2}}=\frac{A(x)}{B(x)}, x \in(a, b),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_16_ORTOGONAL'NYE">\lim _{x \rightarrow a+0} h(x) B(x)=\lim _{x \rightarrow b-0} h(x) B(x)=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_17_ORTOGONAL'NYE">K_{n}(x)=\frac{c_{n}}{h(x)} \frac{d^{n}}{d x^{n}}\left[h(x) B^{n}(x)\right],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_18_ORTOGONAL'NYE">\begin{gathered}P_{n}(x ; \alpha, \beta)=\left(\begin{array}{c}n+\alpha \\n\end{array}\right) F\left(-n, n+\alpha+\beta+1 ; \alpha+1 ; \frac{1-x}{2}\right), \\P_{n}(x)=F\left(-n, n+1 ; 1 ; \frac{1-x}{2}\right), \\T_{n}(x)=F\left(-n, n ; \frac{1}{2} ; \frac{1-x}{2}\right), \\U_{n}(x)=(n+1) F\left(-n, n+2 ; \frac{3}{2}, \frac{1-x}{2}\right)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_19_ORTOGONAL'NYE">\begin{gathered}L_{n}(x)=n ! \Phi(-n ; 1 ; x), \\H_{2 n}(x)=(-1)^{n} \frac{(2 n) !}{n !} \Phi\left(-n ; \frac{1}{2} ; x^{2}\right), \\H_{2 n+1}(x)=(-1)^{n} \frac{(2 n+1) !}{n !} \Phi\left(-n ; \frac{3}{2} ; x^{2}\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_20_ORTOGONAL'NYE">\int_{a}^{b} \frac{h(t)}{x-t} d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_21_ORTOGONAL'NYE">h(x)=\frac{h_{0}(x)}{\sqrt{1-x^{2}}}, x \in(-1,1),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_22_ORTOGONAL'NYE">0&lt;c_{1} \leqslant h_{0}(x) \leqslant c_{2}&lt;\infty .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_23_ORTOGONAL'NYE">\left|h_{0}(x+\delta)-h_{0}(x)\right| \leqslant \frac{M}{|\ln | \delta||^{\gamma}}, x, x+\delta \in[-1,1],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_24_ORTOGONAL'NYE">\hat{\boldsymbol{P}}_{n}(x)=\sqrt{\frac{2}{\pi h_{0}(x)}} \cos (n \theta+q)+O\left[\frac{1}{(\ln n)^{\varepsilon}}\right],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_25_ORTOGONAL'NYE">\left|\hat{P}_{n}(x)\right| \leqslant M, x \in A \subseteq[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_26_ORTOGONAL'NYE">h_{0}(x) \geqslant c_{3}&gt;0, \quad x \in A \subseteq[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_27_ORTOGONAL'NYE">\left|\hat{P}_{n}(x)\right| \leqslant \varepsilon_{n} \sqrt{n}, \varepsilon_{n} \longrightarrow 0, x \in[-1,1] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_28_ORTOGONAL'NYE">h(x)=\frac{h_{1}(x)}{\sqrt{1-x^{2}}} \prod_{k=1}^{m}\left|x-x_{k}\right|^{\gamma_{k}}, \gamma_{k}&gt;0, x_{k} \in(-1,1) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_29_ORTOGONAL'NYE">\left|\hat{P}_{n}\left(x_{k}\right)\right| \leqslant c_{4}(n+1)^{\gamma / 2}, k=1,2, \ldots, m .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_30_ORTOGONAL'NYE">h(x)=h_{1}(x)(1-x)^{\alpha}(1+x)^{\beta}, x \in[-1,1],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_31_ORTOGONAL'NYE">(1-x)^{\alpha / 2+1 / 4}(1+x)^{\beta / 2+1 / 4}\left|\hat{P}_{n}(x)\right| \leqslant c_{5}, x \in[-1,1],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/78_32_ORTOGONAL'NYE">\frac{1}{Q_{m}(x) \sqrt{1-x^{2}}}, \frac{\sqrt{1-x^{2}}}{Q_{m(x)}}, \sqrt{\frac{1-x}{1+x}} \frac{1}{Q_{m(x)}},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_1_ORTOGONAL'NYE">\left\{p_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_2_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_3_ORTOGONAL'NYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_4_ORTOGONAL'NYE">h(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_5_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_6_ORTOGONAL'NYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_7_ORTOGONAL'NYE">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_8_ORTOGONAL'NYE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_9_ORTOGONAL'NYE">\mathrm{p} о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_10_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_11_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_12_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_13_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_14_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_15_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_16_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_17_ORTOGONAL'NYE">d \sigma(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_18_ORTOGONAL'NYE">\sigma(x)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_19_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_20_ORTOGONAL'NYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_21_ORTOGONAL'NYE">\left\{p_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_22_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_23_ORTOGONAL'NYE">q_{m}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_24_ORTOGONAL'NYE">m&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_25_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_26_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_27_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_28_ORTOGONAL'NYE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_29_ORTOGONAL'NYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_30_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_31_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_32_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_33_ORTOGONAL'NYE">p_{n-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_34_ORTOGONAL'NYE">p_{0}(x)=\mu_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_35_ORTOGONAL'NYE">d_{n}^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_36_ORTOGONAL'NYE">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_37_ORTOGONAL'NYE">\left\{d_{n}^{-1} P_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_38_ORTOGONAL'NYE">\left\{h_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_39_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_40_ORTOGONAL'NYE">\delta_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_41_ORTOGONAL'NYE">\psi_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_42_ORTOGONAL'NYE">\delta_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_43_ORTOGONAL'NYE">\tilde{q}_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_44_ORTOGONAL'NYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_45_ORTOGONAL'NYE">\mu_{n}^{-2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_46_ORTOGONAL'NYE">\left\{\hat{p_{n}}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_47_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_48_ORTOGONAL'NYE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_49_ORTOGONAL'NYE">p&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_50_ORTOGONAL'NYE">h(p t+q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_51_ORTOGONAL'NYE">[a, B]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_52_ORTOGONAL'NYE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_53_ORTOGONAL'NYE">x=p t+q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_54_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_55_ORTOGONAL'NYE">\left\{l_{n}(x ; \alpha)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_56_ORTOGONAL'NYE">h(x)=x^{\alpha} e^{-x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_57_ORTOGONAL'NYE">\alpha&gt;-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_58_ORTOGONAL'NYE">(0, \infty)) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_59_ORTOGONAL'NYE">\left\{h_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_60_ORTOGONAL'NYE">h(x)=\exp \left(-x^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_61_ORTOGONAL'NYE">(-\infty, \infty)) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_62_ORTOGONAL'NYE">\left\{p_{n}(x ; \alpha, \beta)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_63_ORTOGONAL'NYE">h(x)=(1-x)^{\alpha}(1+x)^{\beta}, \alpha&gt;-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_64_ORTOGONAL'NYE">\beta&gt;-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_65_ORTOGONAL'NYE">[-1,1])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_66_ORTOGONAL'NYE">\left\{p_{n}(x, \alpha)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_67_ORTOGONAL'NYE">\alpha=\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_68_ORTOGONAL'NYE">\left\{p_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_69_ORTOGONAL'NYE">\alpha=\beta=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_70_ORTOGONAL'NYE">\left\{t_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_71_ORTOGONAL'NYE">\alpha=\beta=-1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_72_ORTOGONAL'NYE">\left\{u_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_73_ORTOGONAL'NYE">\alpha=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_74_ORTOGONAL'NYE">=\beta=1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_75_ORTOGONAL'NYE">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_76_ORTOGONAL'NYE">\left\{k_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_77_ORTOGONAL'NYE">y=k_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_78_ORTOGONAL'NYE">b(x) y^{\prime \prime}+\left[A(x)+B^{\prime}(x)\right] y^{\prime}-n\left[p_{1}+(n+1) q_{2}\right] y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_79_ORTOGONAL'NYE">c_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_80_ORTOGONAL'NYE">\frac{d}{d x} L_{n}(x ; \alpha)=-L_{n-1}(x ; \alpha+1), \quad \frac{d}{d x} H_{n}(x)=2 n H_{n-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_81_ORTOGONAL'NYE">\frac{d}{d x} P_{n}(x ; \alpha, \beta)=\frac{1}{2}(\alpha+\beta+n+1) P_{n-1}(x ; \alpha+1, \beta+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_82_ORTOGONAL'NYE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_83_ORTOGONAL'NYE">h(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_84_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_85_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_86_ORTOGONAL'NYE">h_{0}(x), \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_87_ORTOGONAL'NYE">h_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_88_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_89_ORTOGONAL'NYE">\gamma=1+\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_90_ORTOGONAL'NYE">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_91_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_92_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_93_ORTOGONAL'NYE">\theta=\arccos x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_94_ORTOGONAL'NYE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_95_ORTOGONAL'NYE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_96_ORTOGONAL'NYE">a \subset[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_97_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_98_ORTOGONAL'NYE">h_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_99_ORTOGONAL'NYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_100_ORTOGONAL'NYE">a=[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_101_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_102_ORTOGONAL'NYE">h_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_103_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_104_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_105_ORTOGONAL'NYE">[a, b] \subset</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_106_ORTOGONAL'NYE">\subset[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_107_ORTOGONAL'NYE">\left\{x_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_108_ORTOGONAL'NYE">h_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_109_ORTOGONAL'NYE">\alpha&gt;-1 / 2, \beta&gt;-1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_110_ORTOGONAL'NYE">x= \pm 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_111_ORTOGONAL'NYE">n^{\alpha+1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_112_ORTOGONAL'NYE">n^{\beta+1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_113_ORTOGONAL'NYE">\left\{\hat{\omega}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_114_ORTOGONAL'NYE">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_115_ORTOGONAL'NYE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_116_ORTOGONAL'NYE">a \subset[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_117_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_118_ORTOGONAL'NYE">h(x)=p(x) q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_119_ORTOGONAL'NYE">q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_120_ORTOGONAL'NYE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_121_ORTOGONAL'NYE">\alpha=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_122_ORTOGONAL'NYE">q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_123_ORTOGONAL'NYE">\left\{\hat{\omega}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_124_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_125_ORTOGONAL'NYE">q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_126_ORTOGONAL'NYE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_127_ORTOGONAL'NYE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_128_ORTOGONAL'NYE">\left\{\hat{p}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_129_ORTOGONAL'NYE">\left\{\hat{\omega}_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_130_ORTOGONAL'NYE">m+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_131_ORTOGONAL'NYE">q_{m}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_132_ORTOGONAL'NYE">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/78_133_ORTOGONAL'NYE">n</formula>
+  </formulas_aux>
+  <relations n="32">
+    <relation uri="http://libmeta.ru/me/relation/78_1_ORTOGONAL'NYE">
+      <rel_text>вычисление</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_2_ORTOGONAL'NYE">
+      <rel_text>многочлен</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_3_ORTOGONAL'NYE">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_4_ORTOGONAL'NYE">
+      <rel_text>произвольный</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_5_ORTOGONAL'NYE">
+      <rel_text>весовых функций</rel_text>
+      <target>http://libmeta.ru/me/article/684_VESOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_6_ORTOGONAL'NYE">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_7_ORTOGONAL'NYE">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_8_ORTOGONAL'NYE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_9_ORTOGONAL'NYE">
+      <rel_text>многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_10_ORTOGONAL'NYE">
+      <rel_text>представляются</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_11_ORTOGONAL'NYE">
+      <rel_text>многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_12_ORTOGONAL'NYE">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_13_ORTOGONAL'NYE">
+      <rel_text>многочлен</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_14_ORTOGONAL'NYE">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_15_ORTOGONAL'NYE">
+      <rel_text>множитель</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_16_ORTOGONAL'NYE">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_17_ORTOGONAL'NYE">
+      <rel_text>переносятся</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_18_ORTOGONAL'NYE">
+      <rel_text>систему</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_19_ORTOGONAL'NYE">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_20_ORTOGONAL'NYE">
+      <rel_text>множитель</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_21_ORTOGONAL'NYE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_22_ORTOGONAL'NYE">
+      <rel_text>условию Липшшца</rel_text>
+      <target>http://libmeta.ru/me/article/380_LIPShІTsA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_23_ORTOGONAL'NYE">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_24_ORTOGONAL'NYE">
+      <rel_text>множитель</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_25_ORTOGONAL'NYE">
+      <rel_text>многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_26_ORTOGONAL'NYE">
+      <rel_text>множестве</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_27_ORTOGONAL'NYE">
+      <rel_text>множестве</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_28_ORTOGONAL'NYE">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_29_ORTOGONAL'NYE">
+      <rel_text>многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_30_ORTOGONAL'NYE">
+      <rel_text>сравнения</rel_text>
+      <target>http://libmeta.ru/me/article/156_SRAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_31_ORTOGONAL'NYE">
+      <rel_text>теоремы</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/78_32_ORTOGONAL'NYE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>система Многочленов $URI[[http://libmeta.ru/me/formula/aux/78_1_ORTOGONAL'NYE]]/URI$, удовлетворяюгих условию ортогональности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_1_ORTOGONAL'NYE]]/URI
+\]
+
+причем степень каждого многочлена $URI[[http://libmeta.ru/me/formula/aux/78_2_ORTOGONAL'NYE]]/URI$ равна его Iиндексу $URI[[http://libmeta.ru/me/formula/aux/78_3_ORTOGONAL'NYE]]/URI$, а весовая функция (вес) $URI[[http://libmeta.ru/me/formula/aux/78_4_ORTOGONAL'NYE]]/URI$ на интервале $URI[[http://libmeta.ru/me/formula/aux/78_5_ORTOGONAL'NYE]]/URI$ или (в случае конечности $URI[[http://libmeta.ru/me/formula/aux/78_6_ORTOGONAL'NYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/78_7_ORTOGONAL'NYE]]/URI$ ) на отрез- ке $URI[[http://libmeta.ru/me/formula/aux/78_8_ORTOGONAL'NYE]]/URI$. О, м. наз. о р т о в о р м и $URI[[http://libmeta.ru/me/formula/aux/78_9_ORTOGONAL'NYE]]/URI$ в а н н ы м и и обозначаются $URI[[http://libmeta.ru/me/formula/aux/78_10_ORTOGONAL'NYE]]/URI$, если каждый многочлен имеет положительный старший коэффициент и выполняется услов и е но рми рован ност и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_2_ORTOGONAL'NYE]]/URI
+\]
+
+А если старший коэффициент каждого многочлена равен 1, то система О. м. обозначается $URI[[http://libmeta.ru/me/formula/aux/78_11_ORTOGONAL'NYE]]/URI$.
+
+Система О. м. $URI[[http://libmeta.ru/me/formula/aux/78_12_ORTOGONAL'NYE]]/URI$ определяется однозначно, если весовая функция (д и фф е р е в ц и а л ь н ы ї в е c) $URI[[http://libmeta.ru/me/formula/aux/78_13_ORTOGONAL'NYE]]/URI$ интегрируема по Леб̈егу на $URI[[http://libmeta.ru/me/formula/aux/78_14_ORTOGONAL'NYE]]/URI$, не эквівалентна нулю и, в случае неограниченного интервала $URI[[http://libmeta.ru/me/formula/aux/78_15_ORTOGONAL'NYE]]/URI$, имеет конечные степенные моменты
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_3_ORTOGONAL'NYE]]/URI
+\]
+
+Вместо дифференциального веса $URI[[http://libmeta.ru/me/formula/aux/78_16_ORTOGONAL'NYE]]/URI$ мокно рассматривать и н те г р а лы в ы й в в с $URI[[http://libmeta.ru/me/formula/aux/78_17_ORTOGONAL'NYE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/78_18_ORTOGONAL'NYE]]/URI$ ограниченная неубывающая функция с бесконечным множеством точек роста (б этом случае в условии ортогональности интеграл понимается в смысле Лебега - Стилтьеса).
+
+Для того чтобы многочлен $URI[[http://libmeta.ru/me/formula/aux/78_19_ORTOGONAL'NYE]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/78_20_ORTOGONAL'NYE]]/URI$ входил в систему О. м. $URI[[http://libmeta.ru/me/formula/aux/78_21_ORTOGONAL'NYE]]/URI$ с весом $URI[[http://libmeta.ru/me/formula/aux/78_22_ORTOGONAL'NYE]]/URI$, необходимо и достаточно, чтобы для любого многочлена $URI[[http://libmeta.ru/me/formula/aux/78_23_ORTOGONAL'NYE]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/78_24_ORTOGONAL'NYE]]/URI$ выполнялось условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_4_ORTOGONAL'NYE]]/URI
+\]
+
+Если интервал ортогональности $URI[[http://libmeta.ru/me/formula/aux/78_25_ORTOGONAL'NYE]]/URI$ симметричен относительно начала координат, а весовая функция $URI[[http://libmeta.ru/me/formula/aux/78_26_ORTOGONAL'NYE]]/URI$ четна, то каждый многочлен $URI[[http://libmeta.ru/me/formula/aux/78_27_ORTOGONAL'NYE]]/URI$ содержит только те степени $URI[[http://libmeta.ru/me/formula/aux/78_28_ORTOGONAL'NYE]]/URI$, к-рые имеют одинаковую с номером $URI[[http://libmeta.ru/me/formula/aux/78_29_ORTOGONAL'NYE]]/URI$ четность, т. е. имеет место тождество
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_5_ORTOGONAL'NYE]]/URI
+\]
+
+Нули О. м. в случае ортогональности по интервалу $URI[[http://libmeta.ru/me/formula/aux/78_30_ORTOGONAL'NYE]]/URI$ все действительны, различны и расположены внутри $URI[[http://libmeta.ru/me/formula/aux/78_31_ORTOGONAL'NYE]]/URI$, причем между двумя соседними нулями многочлена $URI[[http://libmeta.ru/me/formula/aux/78_32_ORTOGONAL'NYE]]/URI$ есть один нуль многочлена $URI[[http://libmeta.ru/me/formula/aux/78_33_ORTOGONAL'NYE]]/URI$. Нули О. м. часто применяются в качестве узлов интерполяционных и квадратурных формул.
+
+Любые три последоватөльных многочлена системы О. м. связаны рекуррентной формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_6_ORTOGONAL'NYE]]/URI
+\]
+где $URI[[http://libmeta.ru/me/formula/aux/78_34_ORTOGONAL'NYE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_7_ORTOGONAL'NYE]]/URI
+\]
+
+Число $URI[[http://libmeta.ru/me/formula/aux/78_35_ORTOGONAL'NYE]]/URI$ - нормирующий множитель многочлена $URI[[http://libmeta.ru/me/formula/aux/78_36_ORTOGONAL'NYE]]/URI$, так что система $URI[[http://libmeta.ru/me/formula/aux/78_37_ORTOGONAL'NYE]]/URI$ ортонормирована, T. e.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_8_ORTOGONAL'NYE]]/URI
+\]
+
+Для О. м. имеет место фо р му ла К р и с т о ффе л я - Д а р б у
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_9_ORTOGONAL'NYE]]/URI
+\]
+
+О. м. представляются через степенные моменты $URI[[http://libmeta.ru/me/formula/aux/78_38_ORTOGONAL'NYE]]/URI$ весовой функции $URI[[http://libmeta.ru/me/formula/aux/78_39_ORTOGONAL'NYE]]/URI$ по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_10_ORTOGONAL'NYE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_11_ORTOGONAL'NYE]]/URI
+\]
+
+а определитель $URI[[http://libmeta.ru/me/formula/aux/78_40_ORTOGONAL'NYE]]/URI$ получается из $URI[[http://libmeta.ru/me/formula/aux/78_41_ORTOGONAL'NYE]]/URI$ вычеркиванием последних строки и столбца, $URI[[http://libmeta.ru/me/formula/aux/78_42_ORTOGONAL'NYE]]/URI$ определяется аналогично.
+
+На множестве многочленов $URI[[http://libmeta.ru/me/formula/aux/78_43_ORTOGONAL'NYE]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/78_44_ORTOGONAL'NYE]]/URI$ с единичным старшим коэффициентом минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_12_ORTOGONAL'NYE]]/URI
+\]
+
+достигается тогда и только тогда, когда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_13_ORTOGONAL'NYE]]/URI
+\]
+
+причем этот минимум равев $URI[[http://libmeta.ru/me/formula/aux/78_45_ORTOGONAL'NYE]]/URI$.
+
+Если многочлены $URI[[http://libmeta.ru/me/formula/aux/78_46_ORTOGONAL'NYE]]/URI$ ортонормировавы с весом $URI[[http://libmeta.ru/me/formula/aux/78_47_ORTOGONAL'NYE]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/78_48_ORTOGONAL'NYE]]/URI$, то при $URI[[http://libmeta.ru/me/formula/aux/78_49_ORTOGONAL'NYE]]/URI$ многочлены
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_14_ORTOGONAL'NYE]]/URI
+\]
+
+ортовормированы с весом $URI[[http://libmeta.ru/me/formula/aux/78_50_ORTOGONAL'NYE]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/78_51_ORTOGONAL'NYE]]/URI$, к-рый переходит в отрезок $URI[[http://libmeta.ru/me/formula/aux/78_52_ORTOGONAL'NYE]]/URI$ в результате линейного преобразования $URI[[http://libmeta.ru/me/formula/aux/78_53_ORTOGONAL'NYE]]/URI$. Поэтому при изучении асимптотич. свойств ортогональных многочленов сначала рассматривается случай стандартного отрезка $URI[[http://libmeta.ru/me/formula/aux/78_54_ORTOGONAL'NYE]]/URI$, а затем полученные результаты распространяются на другиө случаи.
+
+Наиболее важный класс 0 . м., встречающихся при решении краевых задач математич. физики, составляют т. н. классические ортогональные многочлены: Лагерра многочлены $URI[[http://libmeta.ru/me/formula/aux/78_55_ORTOGONAL'NYE]]/URI$ (для них $URI[[http://libmeta.ru/me/formula/aux/78_56_ORTOGONAL'NYE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/78_57_ORTOGONAL'NYE]]/URI$, интервал ортогональности $URI[[http://libmeta.ru/me/formula/aux/78_58_ORTOGONAL'NYE]]/URI$ Эрмита многочлень $URI[[http://libmeta.ru/me/formula/aux/78_59_ORTOGONAL'NYE]]/URI$ (для вих $URI[[http://libmeta.ru/me/formula/aux/78_60_ORTOGONAL'NYE]]/URI$, ивтервал ортогональности $URI[[http://libmeta.ru/me/formula/aux/78_61_ORTOGONAL'NYE]]/URI$ Якоби многочлень $URI[[http://libmeta.ru/me/formula/aux/78_62_ORTOGONAL'NYE]]/URI$ (для них $URI[[http://libmeta.ru/me/formula/aux/78_63_ORTOGONAL'NYE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/78_64_ORTOGONAL'NYE]]/URI$, отрезок ортогональности $URI[[http://libmeta.ru/me/formula/aux/78_65_ORTOGONAL'NYE]]/URI$ и их частные случап: ультрасферические многочлены, или мвогочлены Гегенбауэра $URI[[http://libmeta.ru/me/formula/aux/78_66_ORTOGONAL'NYE]]/URI$ (для них $URI[[http://libmeta.ru/me/formula/aux/78_67_ORTOGONAL'NYE]]/URI$ ), Лeжандра жногочлены $URI[[http://libmeta.ru/me/formula/aux/78_68_ORTOGONAL'NYE]]/URI$ (для них $URI[[http://libmeta.ru/me/formula/aux/78_69_ORTOGONAL'NYE]]/URI$ ), Чeбышева многочлены первого рода $URI[[http://libmeta.ru/me/formula/aux/78_70_ORTOGONAL'NYE]]/URI$ (для них $URI[[http://libmeta.ru/me/formula/aux/78_71_ORTOGONAL'NYE]]/URI$ ) п второго рода $URI[[http://libmeta.ru/me/formula/aux/78_72_ORTOGONAL'NYE]]/URI$ (для них $URI[[http://libmeta.ru/me/formula/aux/78_73_ORTOGONAL'NYE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/78_74_ORTOGONAL'NYE]]/URI$ ).
+
+Весовая функция $URI[[http://libmeta.ru/me/formula/aux/78_75_ORTOGONAL'NYE]]/URI$ классических О.м. $URI[[http://libmeta.ru/me/formula/aux/78_76_ORTOGONAL'NYE]]/URI$ удовлетворяет д иффф е р е вц и а ль н о му у у аввени ю П и р с он а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_15_ORTOGONAL'NYE]]/URI
+\]
+
+причем на концах пнтервала ортогональности выполняются условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_16_ORTOGONAL'NYE]]/URI
+\]
+
+Многочлен $URI[[http://libmeta.ru/me/formula/aux/78_77_ORTOGONAL'NYE]]/URI$ удовлетворяет диффференциальному уравнению
+
+$URI[[http://libmeta.ru/me/formula/aux/78_78_ORTOGONAL'NYE]]/URI$.
+
+Для классич. О. м. имеют место о бо б щ е в н а я фо о мул а Р од ри г а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_17_ORTOGONAL'NYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/78_79_ORTOGONAL'NYE]]/URI$ - нормировочный коэффициент, и формулы дифференцировавия
+
+$URI[[http://libmeta.ru/me/formula/aux/78_80_ORTOGONAL'NYE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/78_81_ORTOGONAL'NYE]]/URI$. Для частных случаев классических О. м. имеют место представления через гипергеометрич. функцию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_18_ORTOGONAL'NYE]]/URI
+\]
+
+и через вырожденную гипергеометрич. функцию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_19_ORTOGONAL'NYE]]/URI
+\]
+
+Исторически первым примером О.м. были многочлены Лежандра. Затем были введены многочлены Чебышева, общие многочлены Якоби, многочлены Эрмита и Лагерра. Все эти классич. О. м. играют важную роль во многих прикладных вопросах.
+
+Общая теория О. м. была построена П. Л. Чебышевым. При этом в качестве основного аппарата исследования применялось разложение интеграла
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_20_ORTOGONAL'NYE]]/URI
+\]
+
+в цепную дробь; знаменатели подходящих дробей этой цепной дроби образуют систему О.м. на интервале $URI[[http://libmeta.ru/me/formula/aux/78_82_ORTOGONAL'NYE]]/URI$ с весом $URI[[http://libmeta.ru/me/formula/aux/78_83_ORTOGONAL'NYE]]/URI$.
+
+При изучении О. м. большое внимание уделяется их асимптотич. свойствам, ибо от этих свойств зависят условия сходимости рядов Фурье по О. м.
+
+Асимптотич. свойства классических О. м. впервые исследовал В. А. Стеклов в 1907 (см. [8], с. 218). При этом он применил и усовершенствовал метод Лиувилля, к-рый ранее использовался для изучения рептений уравнения Штурма - Лиувилля. В дальнейшем метод Лиувилля - Стеклова применялся во многих работах, в результате чего к настоящему времени (1983) подробно изучены асимптотич. свойства О. м. Якоби, Эрмита, Лагерра.
+
+В общем случае ортогональности на отрезке $URI[[http://libmeta.ru/me/formula/aux/78_84_ORTOGONAL'NYE]]/URI$ с произвольным весом, удовлетворяющим нек-рым качественным условиям, асимптотич. формулы для O. м. впервые получил Г. Cerë (g. Szegö) в 1920-24. При этом он ввел многочлены, ортогональные на окружности, изучил их основные свойства и нашел весьма важную формулу, представляющую многоqлены, ортогональные на отрезке $URI[[http://libmeta.ru/me/formula/aux/78_85_ORTOGONAL'NYE]]/URI$, через многочлены, ортогональные на окружности. А для исследования асимптотич. свойств многочленов, ортогональных на окружности, Г. Сегё разработал метод, основанный на специальном обобщении теоремы Фейера о представлении неотрицательных тригонометрич. полиномов с использованием методов и результатов теории аналитич. фунқций.
+
+В 1930 С. Н. Бернптейн [2] для исследования асимптотич. свойств О. м. применил методы и результаты теории приближения фушкций. Он рассмотрел случай весовой функции вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_21_ORTOGONAL'NYE]]/URI
+\]
+
+где функция $URI[[http://libmeta.ru/me/formula/aux/78_86_ORTOGONAL'NYE]]/URI$ наз. т р и г о н о ме т р и ч ес к и м в е с о м, удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_22_ORTOGONAL'NYE]]/URI
+\]
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/78_87_ORTOGONAL'NYE]]/URI$ на всем отрезке $URI[[http://libmeta.ru/me/formula/aux/78_88_ORTOGONAL'NYE]]/URI$ удовлетворяет усло в и ю Д ин и - Л и пши ца порядка $URI[[http://libmeta.ru/me/formula/aux/78_89_ORTOGONAL'NYE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/78_90_ORTOGONAL'NYE]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_23_ORTOGONAL'NYE]]/URI
+\]
+
+то для многочленов $URI[[http://libmeta.ru/me/formula/aux/78_91_ORTOGONAL'NYE]]/URI$, ортонормировавных с весом (1) на всем отрезке $URI[[http://libmeta.ru/me/formula/aux/78_92_ORTOGONAL'NYE]]/URI$, имеет место асимптотич. формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_24_ORTOGONAL'NYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/78_93_ORTOGONAL'NYE]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/78_94_ORTOGONAL'NYE]]/URI$ зависит от $URI[[http://libmeta.ru/me/formula/aux/78_95_ORTOGONAL'NYE]]/URI$.
+
+При исследовании сходимости рядов Фурье по О. м. возникает вопрос об условиях ограниченности О. м. либо в отдельной точке, либо на нек-ром множестве $URI[[http://libmeta.ru/me/formula/aux/78_96_ORTOGONAL'NYE]]/URI$, либо на всем отрезке ортогональности $URI[[http://libmeta.ru/me/formula/aux/78_97_ORTOGONAL'NYE]]/URI$, т. е. рассматриваются условия, при к-рых имеет место неравенство типа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_25_ORTOGONAL'NYE]]/URI
+\]
+
+Впервые такой вопрос поставил В. А. Стеклов (1921). Если тригонометрич. вес $URI[[http://libmeta.ru/me/formula/aux/78_98_ORTOGONAL'NYE]]/URI$ на множестве $URI[[http://libmeta.ru/me/formula/aux/78_99_ORTOGONAL'NYE]]/URI$ ограничен от нуля, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_26_ORTOGONAL'NYE]]/URI
+\]
+
+и удовлетворяет нек-рым дополнительным условиям, то неравенство (2) имеет место. А в общем случае из неравенства (3) при $URI[[http://libmeta.ru/me/formula/aux/78_100_ORTOGONAL'NYE]]/URI$ без дополнительных условий следует оценка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_27_ORTOGONAL'NYE]]/URI
+\]
+
+Нули весовой функции являются особыми точкамі в том смысле, что свойства последовательности $URI[[http://libmeta.ru/me/formula/aux/78_101_ORTOGONAL'NYE]]/URI$ существенно различны в нулях и в других точках интервала ортогональности. Пусть, напр., весовая функция имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_28_ORTOGONAL'NYE]]/URI
+\]
+
+Тогда если функция $URI[[http://libmeta.ru/me/formula/aux/78_102_ORTOGONAL'NYE]]/URI$ положительна и удовлетворяет условию Липшица на $URI[[http://libmeta.ru/me/formula/aux/78_103_ORTOGONAL'NYE]]/URI$, то последовательность $URI[[http://libmeta.ru/me/formula/aux/78_104_ORTOGONAL'NYE]]/URI$ ограничена на всяком отрезке $URI[[http://libmeta.ru/me/formula/aux/78_105_ORTOGONAL'NYE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/78_106_ORTOGONAL'NYE]]/URI$, не содержащем точек $URI[[http://libmeta.ru/me/formula/aux/78_107_ORTOGONAL'NYE]]/URI$, а в нулях выполняются неравенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_29_ORTOGONAL'NYE]]/URI
+\]
+
+Случай, когда нули весовой функции расположены на концах отрезка ортогональности, рассмотрел С. Н. Берніптейн [2]. Один из его результатов заключается в том, что если весовая функция имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_30_ORTOGONAL'NYE]]/URI
+\]
+
+где функция $URI[[http://libmeta.ru/me/formula/aux/78_108_ORTOGONAL'NYE]]/URI$ положительна и удовлетворяет условию Липшица, то при $URI[[http://libmeta.ru/me/formula/aux/78_109_ORTOGONAL'NYE]]/URI$ О. м. допускают весовую оценку
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_31_ORTOGONAL'NYE]]/URI
+\]
+
+а в точках $URI[[http://libmeta.ru/me/formula/aux/78_110_ORTOGONAL'NYE]]/URI$ возрастают со скоростью $URI[[http://libmeta.ru/me/formula/aux/78_111_ORTOGONAL'NYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/78_112_ORTOGONAL'NYE]]/URI$ соответственно.
+
+В URI[[http://libmeta.ru/me/relation/78_32_ORTOGONAL'NYE]]/URI О. м. часто рассматриваются т. н. URI[[http://libmeta.ru/me/relation/78_31_ORTOGONAL'NYE]]/URI URI[[http://libmeta.ru/me/relation/78_30_ORTOGONAL'NYE]]/URI. Так, напр., т е о р е м а с р а в в е в и я К о р а у с а: если URI[[http://libmeta.ru/me/relation/78_29_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_113_ORTOGONAL'NYE]]/URI$, ортогональные с весом $URI[[http://libmeta.ru/me/formula/aux/78_114_ORTOGONAL'NYE]]/URI$ на URI[[http://libmeta.ru/me/relation/78_28_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_115_ORTOGONAL'NYE]]/URI$, равномерно ограничены на нек-ром URI[[http://libmeta.ru/me/relation/78_27_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_116_ORTOGONAL'NYE]]/URI$, то на этом URI[[http://libmeta.ru/me/relation/78_26_ORTOGONAL'NYE]]/URI ограничены также и URI[[http://libmeta.ru/me/relation/78_25_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_117_ORTOGONAL'NYE]]/URI$, ортогональные с весом $URI[[http://libmeta.ru/me/formula/aux/78_118_ORTOGONAL'NYE]]/URI$, где URI[[http://libmeta.ru/me/relation/78_24_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_119_ORTOGONAL'NYE]]/URI$ положителен и удовлетворяет на URI[[http://libmeta.ru/me/relation/78_23_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_120_ORTOGONAL'NYE]]/URI$ URI[[http://libmeta.ru/me/relation/78_22_ORTOGONAL'NYE]]/URI URI[[http://libmeta.ru/me/relation/78_21_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_121_ORTOGONAL'NYE]]/URI$. Аналогтчно, при нек-рых условиях на URI[[http://libmeta.ru/me/relation/78_20_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_122_ORTOGONAL'NYE]]/URI$ с URI[[http://libmeta.ru/me/relation/78_19_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_123_ORTOGONAL'NYE]]/URI$ на URI[[http://libmeta.ru/me/relation/78_18_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_124_ORTOGONAL'NYE]]/URI$ URI[[http://libmeta.ru/me/relation/78_17_ORTOGONAL'NYE]]/URI асимптотич. URI[[http://libmeta.ru/me/relation/78_16_ORTOGONAL'NYE]]/URI или другие асимптотич. свойства. Более того, если URI[[http://libmeta.ru/me/relation/78_15_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_125_ORTOGONAL'NYE]]/URI$ есть неотрицательный на URI[[http://libmeta.ru/me/relation/78_14_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_126_ORTOGONAL'NYE]]/URI$ URI[[http://libmeta.ru/me/relation/78_13_ORTOGONAL'NYE]]/URI URI[[http://libmeta.ru/me/relation/78_12_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_127_ORTOGONAL'NYE]]/URI$, то URI[[http://libmeta.ru/me/relation/78_11_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_128_ORTOGONAL'NYE]]/URI$ URI[[http://libmeta.ru/me/relation/78_10_ORTOGONAL'NYE]]/URI через URI[[http://libmeta.ru/me/relation/78_9_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_129_ORTOGONAL'NYE]]/URI$ с помощью определителей URI[[http://libmeta.ru/me/relation/78_8_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_130_ORTOGONAL'NYE]]/URI$ (см. [8] с. 42). Эфффективные URI[[http://libmeta.ru/me/relation/78_7_ORTOGONAL'NYE]]/URI для О. м. URI[[http://libmeta.ru/me/relation/78_6_ORTOGONAL'NYE]]/URI также в случае URI[[http://libmeta.ru/me/relation/78_5_ORTOGONAL'NYE]]/URI вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/78_32_ORTOGONAL'NYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/78_131_ORTOGONAL'NYE]]/URI$ - URI[[http://libmeta.ru/me/relation/78_4_ORTOGONAL'NYE]]/URI положительный на URI[[http://libmeta.ru/me/relation/78_3_ORTOGONAL'NYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/78_132_ORTOGONAL'NYE]]/URI$ URI[[http://libmeta.ru/me/relation/78_2_ORTOGONAL'NYE]]/URI (см. [8] с. 44). А в большинстве случаев URI[[http://libmeta.ru/me/relation/78_1_ORTOGONAL'NYE]]/URI О. м. произвольного веса прі больших номерах $URI[[http://libmeta.ru/me/formula/aux/78_133_ORTOGONAL'NYE]]/URI$ затруднительно.</text>
+  <text_orig>система Многочленов $\left\{P_{n}(x)\right\}$, удовлетворяюгих условию ортогональности
+
+\[
+\int_{a}^{b} P_{n}(x) P_{m}(x) h(x) d x=0, n \neq m,
+\]
+
+причем степень каждого многочлена $P_{n}(x)$ равна его Iиндексу $n$, а весовая функция (вес) $h(x) \geqslant 0$ на интервале $(a, b)$ или (в случае конечности $a$ и $b$ ) на отрез- ке $[a, b]$. О, м. наз. о р т о в о р м и $\mathrm{p} о$ в а н н ы м и и обозначаются $\left\{\hat{P}_{n}(x)\right\}$, если каждый многочлен имеет положительный старший коэффициент и выполняется услов и е но рми рован ност и
+
+\[
+\int_{a}^{b} \hat{P}_{n}^{2}(x) h(x) d x=1 .
+\]
+
+А если старший коэффициент каждого многочлена равен 1, то система О. м. обозначается $\left\{\hat{P}_{n}(x)\right\}$.
+
+Система О. м. $\left\{\hat{P}_{n}(x)\right\}$ определяется однозначно, если весовая функция (д и фф е р е в ц и а л ь н ы ї в е c) $h(x)$ интегрируема по Леб̈егу на $(a, b)$, не эквівалентна нулю и, в случае неограниченного интервала $(a, b)$, имеет конечные степенные моменты
+
+\[
+h_{n}=\int_{a}^{b} x^{n} h(x) d x
+\]
+
+Вместо дифференциального веса $h(x)$ мокно рассматривать и н те г р а лы в ы й в в с $d \sigma(x)$, где $\sigma(x)-$ ограниченная неубывающая функция с бесконечным множеством точек роста (Б этом случае в условии ортогональности интеграл понимается в смысле Лебега - Стилтьеса).
+
+Для того чтобы многочлен $P_{n}(x)$ степени $n$ входил в систему О. м. $\left\{P_{n}(x)\right\}$ с весом $h(x)$, необходимо и достаточно, чтобы для любого многочлена $Q_{m}(x)$ степени $m&lt;n$ выполнялось условие
+
+\[
+\int_{a}^{b} P_{n}(x) Q_{m}(x) h(x) d x=0 .
+\]
+
+Если интервал ортогональности $(a, b)$ симметричен относительно начала координат, а весовая функция $h(x)$ четна, то каждый многочлен $P_{n}(x)$ содержит только те степени $x$, к-рые имеют одинаковую с номером $n$ четность, т. е. имеет место тождество
+
+\[
+P_{n}(-x) \equiv(-1)^{n} P_{n}(x)
+\]
+
+Нули О. м. в случае ортогональности по интервалу $(a, b)$ все действительны, различны и расположены внутри $(a, b)$, причем между двумя соседними нулями многочлена $P_{n}(x)$ есть один нуль многочлена $P_{n-1}(x)$. Нули О. м. часто применяются в качестве узлов интерполяционных и квадратурных формул.
+
+Любые три последоватөльных многочлена системы О. м. связаны рекуррентной формулой
+
+\[
+P_{n+1}(x)=\left(a_{n} x+b_{n}\right) P_{n}(x)-c_{n} P_{n-1}(x), n=1,2, \ldots,
+\]
+где $P_{0}(x)=\mu_{0}$,
+
+\[
+\begin{gathered}
+P_{1}(x)=\mu_{1} x+v_{1}, \ldots, \\
+P_{n}(x)=\mu_{n} x^{n}+v_{n} x^{n-1}+\ldots, \\
+a_{n}=\mu_{n+1} / \mu_{n}, b_{n}=a_{n}\left(v_{n+1} / \mu_{n+1}-v_{n} / \mu_{n}\right), \\
+c_{n}=\frac{\mu_{n+1} \mu_{n-1}}{\mu_{n}^{2}} \cdot \frac{d_{n}^{2}}{d_{n-1}^{2}}, d_{n}^{2}=\int_{a}^{b} P_{n}^{2}(x) h(x) d x .
+\end{gathered}
+\]
+
+Число $d_{n}^{-1}$ - нормирующий множитель многочлена $P_{n}(x)$, так что система $\left\{d_{n}^{-1} P_{n}(x)\right\}$ ортонормирована, T. e.
+
+\[
+d_{n}^{-1} P_{n}(x)=\hat{P}_{n}(x) \text {. }
+\]
+
+Для О. м. имеет место фо р му ла К р и с т о ффе л я - Д а р б у
+
+\[
+\begin{gathered}
+\sum_{k=0}^{n} \frac{1}{d_{k}^{2}} P_{k}(x) P_{k}(t)= \\
+=\frac{1}{d_{n}^{2}} \frac{\mu_{n}}{\mu_{n+1}} \frac{P_{n+1}(x) P_{n}(t)-P_{n}(x) P_{n+1}(t)}{x-t} .
+\end{gathered}
+\]
+
+О. м. представляются через степенные моменты $\left\{h_{k}\right\}$ весовой функции $h(x)$ по формуле
+
+\[
+P_{n}(x)=\frac{1}{\sqrt{\Delta_{n-1} \Delta_{n}}} \psi_{n}(x)
+\]
+
+\[
+\psi_{n}(x)=\left|\begin{array}{llll}
+h_{0} &amp; h_{1} &amp; \ldots &amp; h_{n} \\
+n_{1} &amp; h_{2} &amp; \ldots &amp; h_{n+1} \\
+\ldots &amp; \cdots &amp; \ldots &amp; . . \\
+h_{n-1} &amp; h_{n-2} &amp; \ldots &amp; h_{2 n-1} \\
+1 &amp; x &amp; \ldots &amp; x^{n}
+\end{array}\right|,
+\]
+
+а определитель $\Delta_{n-1}$ получается из $\psi_{n}(x)$ вычеркиванием последних строки и столбца, $\Delta_{n}$ определяется аналогично.
+
+На множестве многочленов $\tilde{Q}_{n}(x)$ степени $n$ с единичным старшим коэффициентом минимум функционала
+
+\[
+F\left(\tilde{Q}_{n}\right)=\int_{a}^{b} \tilde{Q}_{n}^{2}(x) h(x) d x
+\]
+
+достигается тогда и только тогда, когда
+
+\[
+\tilde{Q}_{n}(x) \equiv \tilde{P}_{n}(x)
+\]
+
+причем этот минимум равев $\mu_{n}^{-2}$.
+
+Если многочлены $\left\{\hat{P_{n}}(x)\right\}$ ортонормировавы с весом $h(x)$ на отрезке $[a, b]$, то при $p&gt;0$ многочлены
+
+\[
+\hat{Q}_{n}(t)=\sqrt{p} \hat{P}_{n}(p t+q), \quad n=0,1,2, \ldots,
+\]
+
+ортовормированы с весом $h(p t+q)$ на отрезке $[A, B]$, к-рый переходит в отрезок $[a, b]$ в результате линейного преобразования $x=p t+q$. Поэтому при изучении асимптотич. свойств ортогональных многочленов сначала рассматривается случай стандартного отрезка $[-1,1]$, а затем полученные результаты распространяются на другиө случаи.
+
+Наиболее важный класс 0 . м., встречающихся при решении краевых задач математич. физики, составЛяют т. н. классические ортогональные многочлены: Лагерра многочлены $\left\{L_{n}(x ; \alpha)\right\}$ (для них $h(x)=x^{\alpha} e^{-x}$ $\alpha&gt;-1$, интервал ортогональности $(0, \infty)) ;$ Эрмита многочлень $\left\{H_{n}(x)\right\}$ (для вих $h(x)=\exp \left(-x^{2}\right)$, ивтервал ортогональности $(-\infty, \infty)) ;$ Якоби многочлень $\left\{P_{n}(x ; \alpha, \beta)\right\}$ (для них $h(x)=(1-x)^{\alpha}(1+x)^{\beta}, \alpha&gt;-1$, $\beta&gt;-1$, отрезок ортогональности $[-1,1])$ и их частные случап: ультрасферические многочлены, или мвогочлены Гегенбауэра $\left\{P_{n}(x, \alpha)\right\}$ (для них $\alpha=\beta$ ), Лeжандра жногочлены $\left\{P_{n}(x)\right\}$ (для них $\alpha=\beta=0$ ), Чeбышева многочлены первого рода $\left\{T_{n}(x)\right\}$ (для них $\alpha=\beta=-1 / 2$ ) п второго рода $\left\{U_{n}(x)\right\}$ (для них $\alpha=$ $=\beta=1 / 2$ ).
+
+Весовая функция $h(x)$ классических О.м. $\left\{K_{n}(x)\right\}$ удовлетворяет д иффф е р е вц и а ль н о му у у аввени ю П и р с он а
+
+\[
+\frac{h^{\prime}(x)}{h(x)}=\frac{p_{0}+p_{1} x}{q_{0}+q_{1} x+q_{2} x^{2}}=\frac{A(x)}{B(x)}, x \in(a, b),
+\]
+
+причем на концах пнтервала ортогональности выполняются условия
+
+\[
+\lim _{x \rightarrow a+0} h(x) B(x)=\lim _{x \rightarrow b-0} h(x) B(x)=0 .
+\]
+
+Многочлен $y=K_{n}(x)$ удовлетворяет диффференциальному уравнению
+
+$B(x) y^{\prime \prime}+\left[A(x)+B^{\prime}(x)\right] y^{\prime}-n\left[p_{1}+(n+1) q_{2}\right] y=0$.
+
+Для классич. О. м. имеют место о бо б щ е в н а я фо о мул а Р од ри г а
+
+\[
+K_{n}(x)=\frac{c_{n}}{h(x)} \frac{d^{n}}{d x^{n}}\left[h(x) B^{n}(x)\right],
+\]
+
+где $c_{n}$ - нормировочный коэффициент, и формулы дифференцировавия
+
+$\frac{d}{d x} L_{n}(x ; \alpha)=-L_{n-1}(x ; \alpha+1), \quad \frac{d}{d x} H_{n}(x)=2 n H_{n-1}(x)$, $\frac{d}{d x} P_{n}(x ; \alpha, \beta)=\frac{1}{2}(\alpha+\beta+n+1) P_{n-1}(x ; \alpha+1, \beta+1)$. Для частных случаев классических О. м. имеют место представления через гипергеометрич. функцию
+
+\[
+\begin{gathered}
+P_{n}(x ; \alpha, \beta)=\left(\begin{array}{c}
+n+\alpha \\
+n
+\end{array}\right) F\left(-n, n+\alpha+\beta+1 ; \alpha+1 ; \frac{1-x}{2}\right), \\
+P_{n}(x)=F\left(-n, n+1 ; 1 ; \frac{1-x}{2}\right), \\
+T_{n}(x)=F\left(-n, n ; \frac{1}{2} ; \frac{1-x}{2}\right), \\
+U_{n}(x)=(n+1) F\left(-n, n+2 ; \frac{3}{2}, \frac{1-x}{2}\right)
+\end{gathered}
+\]
+
+и через вырожденную гипергеометрич. функцию
+
+\[
+\begin{gathered}
+L_{n}(x)=n ! \Phi(-n ; 1 ; x), \\
+H_{2 n}(x)=(-1)^{n} \frac{(2 n) !}{n !} \Phi\left(-n ; \frac{1}{2} ; x^{2}\right), \\
+H_{2 n+1}(x)=(-1)^{n} \frac{(2 n+1) !}{n !} \Phi\left(-n ; \frac{3}{2} ; x^{2}\right) .
+\end{gathered}
+\]
+
+Исторически первым примером О.м. были многочлены Лежандра. Затем были введены многочлены Чебышева, общие многочлены Якоби, многочлены Эрмита и Лагерра. Все эти классич. О. м. играют важную роль во многих прикладных вопросах.
+
+Общая теория О. м. была построена П. Л. Чебышевым. При этом в качестве основного аппарата исследования применялось разложение интеграла
+
+\[
+\int_{a}^{b} \frac{h(t)}{x-t} d t
+\]
+
+в цепную дробь; знаменатели подходящих дробей этой цепной дроби образуют систему О.м. на интервале $(a, b)$ с весом $h(t)$.
+
+При изучении О. м. большое внимание уделяется их асимптотич. свойствам, ибо от этих свойств зависят условия сходимости рядов Фурье по О. м.
+
+Асимптотич. свойства классических О. м. впервые исследовал В. А. Стеклов в 1907 (см. [8], с. 218). При этом он применил и усовершенствовал метод Лиувилля, к-рый ранее использовался для изучения рептений уравнения Штурма - Лиувилля. В дальнейшем метод Лиувилля - Стеклова применялся во многих работах, в результате чего к настоящему времени (1983) подробно изучены асимптотич. свойства О. м. Якоби, Эрмита, Лагерра.
+
+В общем случае ортогональности на отрезке $[-1,1]$ с произвольным весом, удовлетворяющим нек-рым качественным условиям, асимптотич. формулы для O. м. впервые получил Г. Cerë (G. Szegö) в 1920-24. При этом он ввел многочлены, ортогональные на окружности, изучил их основные свойства и нашел весьма важную формулу, представляющую многоqлены, ортогональные на отрезке $[-1,1]$, через многочлены, ортогональные на окружности. А для исследования асимптотич. свойств многочленов, ортогональных на окружности, Г. Сегё разработал метод, основанный на специальном обобщении теоремы Фейера о представлении неотрицательных тригонометрич. полиномов с использованием методов и результатов теории аналитич. фунқций.
+
+В 1930 С. Н. Бернптейн [2] для исследования асимптотич. свойств О. м. применил методы и результаты теории приближения фушкций. Он рассмотрел случай весовой функции вида
+
+\[
+h(x)=\frac{h_{0}(x)}{\sqrt{1-x^{2}}}, x \in(-1,1),
+\]
+
+где функция $h_{0}(x), \quad$ наз. т р и г о н о ме т р и ч ес к и м в е с о м, удовлетворяет условию
+
+\[
+0&lt;c_{1} \leqslant h_{0}(x) \leqslant c_{2}&lt;\infty .
+\]
+
+Если функция $h_{0}(x)$ на всем отрезке $[-1,1]$ удовлетворяет усло в и ю Д ин и - Л и пши ца порядка $\gamma=1+\varepsilon$, где $\varepsilon&gt;0$, то есть
+
+\[
+\left|h_{0}(x+\delta)-h_{0}(x)\right| \leqslant \frac{M}{|\ln | \delta||^{\gamma}}, x, x+\delta \in[-1,1],
+\]
+
+то для многочленов $\left\{\hat{P}_{n}(x)\right\}$, ортонормировавных с весом (1) на всем отрезке $[-1,1]$, имеет место асимптотич. формула
+
+\[
+\hat{\boldsymbol{P}}_{n}(x)=\sqrt{\frac{2}{\pi h_{0}(x)}} \cos (n \theta+q)+O\left[\frac{1}{(\ln n)^{\varepsilon}}\right],
+\]
+
+где $\theta=\arccos x$, а $q$ зависит от $\theta$.
+
+При исследовании сходимости рядов Фурье по О. м. возникает вопрос об условиях ограниченности О. м. либо в отдельной точке, либо на нек-ром множестве $A \subset[-1,1]$, либо на всем отрезке ортогональности $[-1,1]$, т. е. рассматриваются условия, при к-рых имеет место неравенство типа
+
+\[
+\left|\hat{P}_{n}(x)\right| \leqslant M, x \in A \subseteq[-1,1]
+\]
+
+Впервые такой вопрос поставил В. А. Стеклов (1921). Если тригонометрич. вес $h_{0}(x)$ на множестве $A$ ограничен от нуля, т. е.
+
+\[
+h_{0}(x) \geqslant c_{3}&gt;0, \quad x \in A \subseteq[-1,1]
+\]
+
+и удовлетворяет нек-рым дополнительным условиям, то неравенство (2) имеет место. А в общем случае из неравенства (3) при $A=[-1,1]$ без дополнительных условий следует оценка
+
+\[
+\left|\hat{P}_{n}(x)\right| \leqslant \varepsilon_{n} \sqrt{n}, \varepsilon_{n} \longrightarrow 0, x \in[-1,1] .
+\]
+
+Нули весовой функции являются особыми точкамі в том смысле, что свойства последовательности $\left\{\hat{P}_{n}(x)\right\}$ существенно различны в нулях и в других точках интервала ортогональности. Пусть, напр., весовая функция имеет вид
+
+\[
+h(x)=\frac{h_{1}(x)}{\sqrt{1-x^{2}}} \prod_{k=1}^{m}\left|x-x_{k}\right|^{\gamma_{k}}, \gamma_{k}&gt;0, x_{k} \in(-1,1) .
+\]
+
+Тогда если функция $h_{1}(x)$ положительна и удовлетворяет условию Липшица на $[-1,1]$, то последовательность $\left\{\hat{P}_{n}(x)\right\}$ ограничена на всяком отрезке $[a, b] \subset$ $\subset[-1,1]$, не содержащем точек $\left\{x_{k}\right\}$, а в нулях выполняются неравенства
+
+\[
+\left|\hat{P}_{n}\left(x_{k}\right)\right| \leqslant c_{4}(n+1)^{\gamma / 2}, k=1,2, \ldots, m .
+\]
+
+Случай, когда нули весовой функции расположены на концах отрезка ортогональности, рассмотрел С. Н. Берніптейн [2]. Один из его результатов заключается в том, что если весовая функция имеет вид
+
+\[
+h(x)=h_{1}(x)(1-x)^{\alpha}(1+x)^{\beta}, x \in[-1,1],
+\]
+
+где функция $h_{1}(x)$ положительна и удовлетворяет условию Липшица, то при $\alpha&gt;-1 / 2, \beta&gt;-1 / 2$ О. м. допускают весовую оценку
+
+\[
+(1-x)^{\alpha / 2+1 / 4}(1+x)^{\beta / 2+1 / 4}\left|\hat{P}_{n}(x)\right| \leqslant c_{5}, x \in[-1,1],
+\]
+
+а в точках $x= \pm 1$ возрастают со скоростью $n^{\alpha+1 / 2}$ и $n^{\beta+1 / 2}$ соответственно.
+
+В теории О. м. часто рассматриваются т. н. теоремы сравнения. Так, напр., т е о р е м а с р а в в е в и я К о р а у с а: если многочлены $\left\{\hat{\omega}_{n}(x)\right\}$, ортогональные с весом $p(x)$ на отрезке $[a, b]$, равномерно ограничены на нек-ром множестве $A \subset[a, b]$, то на этом множестве ограничены также и многочлены $\left\{\hat{P}_{n}(x)\right\}$, ортогональные с весом $h(x)=p(x) q(x)$, где множитель $q(x)$ положителен и удовлетворяет на отрезке $[a, b]$ условию Липшшца порядка $\alpha=1$. Аналогтчно, при нек-рых условиях на множитель $q(x)$ с системы $\left\{\hat{\omega}_{n}(x)\right\}$ на систему $\left\{\hat{P}_{n}(x)\right\}$ переносятся асимптотич. формулы или другие асимптотич. свойства. Более того, если множитель $q(x)$ есть неотрицательный на отрезке $[a, b]$ многочлен степени $m$, то многочлены $\left\{\hat{P}_{n}(x)\right\}$ представляются через многочлены $\left\{\hat{\omega}_{n}(x)\right\}$ с помощью определителей порядка $m+1$ (см. [8] с. 42). Эфффективные формулы для О. м. получены также в случае весовых функций вида
+
+\[
+\frac{1}{Q_{m}(x) \sqrt{1-x^{2}}}, \frac{\sqrt{1-x^{2}}}{Q_{m(x)}}, \sqrt{\frac{1-x}{1+x}} \frac{1}{Q_{m(x)}},
+\]
+
+где $Q_{m}(x)$ - произвольный положительный на отрезке $[-1,1]$ многочлен (см. [8] с. 44). А в большинстве случаев вычисление О. м. произвольного веса прі больших номерах $n$ затруднительно.
+
+Лит.: [1] ч е б ы ш е в П. Л., Полн. собр. соч., т. 2, М.-Л., 1947 , с. $103-26,314-34,335-41,357-74 ;$ [2] Б е р н ші т е й н C. H., Собр. соч., т. 2, M., 1954, с. 7-106; [3] $\Gamma$ e p o н и м у с Я. Ј.,, Теория ортогональных многочленов, М.-Л., 1950; [4] С у е т и н П. К., Классические ортогональные многочлены, 2 изд., М., 1979; [5] Н и к и фо р о в А. Ф., У в а р о в В. Б. Специальные функции математической физики, М., 1978; [6] Б е й т м е н Г., Э р д ей и А., Высшие трансцендентные функции, т. 2 - Функции Бесселя, функции параболического цилиндра, ортогональные многочлены, пер. с англ., 2 изд., М., $1974 ;$ [7] Д ж е к с о н Д., Ряды Фурье и ортогональные полиномы, пер. с англ., М., 1948; [8] С е г е Г., Ортогональные многочлены, пер. с англ., М., 1962; [9] Справочник по специальным функциям..., пер.с англ., М., 1979; [10] S h o h a t J. A., H i l1 e E., Wall s $\mathrm{h}$. L., A bibliography on orthogonal polynomials,'Wash., 1940.</text_orig>
+</article>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/819_IIU" alphabetic_pos="819">
+  <title>IIУ ССОНА ФОРМУЛА СУММИРОВАНИЯ</title>
+  <authors>
+    <author>И. И. Волков</author>
+  </authors>
+  <pages>
+    <start>383</start>
+    <end>383</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] 3 и г м у н Д А., Тригонометршческие ряды, пер. с англ., т. 1, М., 1965; [2] Т и т ч м а p ш Е., Введение в теорию интегралов Фурье, пер. с англ., М.- Л., 1948.</literature_orig>
+    <unit>
+      <author>3игмун Д А.</author>
+      <title>Тригонометршческие ряды</title>
+      <publication>пер. с англ., т. 1, М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Титчмаpш Е.</author>
+      <title>Введение в теорию интегралов Фурье</title>
+      <publication>пер. с англ., М.- Л.</publication>
+      <year>1948</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/819_1_IIU">\sum_{k=-\infty}^{+\infty} g(2 k \pi)=\sum_{k=-\infty}^{+\infty} \frac{1}{2 \pi} \int_{-\infty}^{+\infty} g(x) e^{-i k x} d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/819_2_IIU">\sqrt{\bar{a}} \sum_{k=-\infty}^{+\infty} g(a k)=\sqrt{b} \sum_{k=-\infty}^{+\infty} \chi(b k),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/819_3_IIU">\chi(u)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} g(x) e^{-i u x} d x .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_1_IIU">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_2_IIU">(-\infty,+\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_3_IIU">2 \mathrm{~g}(x)=g(x+0)+g(x-0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_4_IIU">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_5_IIU">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_6_IIU">a b=2 \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_7_IIU">\chi(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/819_8_IIU">g</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/819_1_IIU">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/819_2_IIU">
+      <rel_text>абсолютно интегрируема</rel_text>
+      <target>http://libmeta.ru/me/article/25_ABSOLJuTNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/819_3_IIU">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>мула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/819_1_IIU]]/URI
+\]
+
+П. ф. с. имеет место, если, напр., URI[[http://libmeta.ru/me/relation/819_3_IIU]]/URI $URI[[http://libmeta.ru/me/formula/aux/819_1_IIU]]/URI$ URI[[http://libmeta.ru/me/relation/819_2_IIU]]/URI на ивтервале $URI[[http://libmeta.ru/me/formula/aux/819_2_IIU]]/URI$, имеет ограниченное изменение и $URI[[http://libmeta.ru/me/formula/aux/819_3_IIU]]/URI$. П. ф. с. записывается также в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/819_2_IIU]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/819_4_IIU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/819_5_IIU]]/URI$ - любые два положительных числа, удовлетворяющие условию $URI[[http://libmeta.ru/me/formula/aux/819_6_IIU]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/819_7_IIU]]/URI$ есть преобразование Фурье URI[[http://libmeta.ru/me/relation/819_1_IIU]]/URI $URI[[http://libmeta.ru/me/formula/aux/819_8_IIU]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/819_3_IIU]]/URI
+\]</text>
+  <text_orig>мула
+
+\[
+\sum_{k=-\infty}^{+\infty} g(2 k \pi)=\sum_{k=-\infty}^{+\infty} \frac{1}{2 \pi} \int_{-\infty}^{+\infty} g(x) e^{-i k x} d x .
+\]
+
+П. ф. с. имеет место, если, напр., функция $g(x)$ абсолютно интегрируема на ивтервале $(-\infty,+\infty)$, имеет ограниченное изменение и $2 \mathrm{~g}(x)=g(x+0)+g(x-0)$. П. ф. с. записывается также в виде
+
+\[
+\sqrt{\bar{a}} \sum_{k=-\infty}^{+\infty} g(a k)=\sqrt{b} \sum_{k=-\infty}^{+\infty} \chi(b k),
+\]
+
+где $a$ и $b$ - любые два положительных числа, удовлетворяющие условию $a b=2 \pi$, а $\chi(u)$ есть преобразование Фурье функции $g$ :
+
+\[
+\chi(u)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} g(x) e^{-i u x} d x .
+\]
+
+Лum.: [1] 3 и г м у н Д А., Тригонометршческие ряды, пер. с англ., т. 1, М., 1965; [2] Т и т ч м а p ш Е., Введение в теорию интегралов Фурье, пер. с англ., М.- Л., 1948. И. И. Волков.</text_orig>
+</article>

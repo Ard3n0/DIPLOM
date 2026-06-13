@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/452_ZEIDELJa" alphabetic_pos="452">
+  <title>ЗЕИДЕЛЯ МЕТОД</title>
+  <authors>
+    <author>Г. Д. Ким</author>
+  </authors>
+  <pages>
+    <start>226</start>
+    <end>227</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] S e i d e l L., &quot;abhandl. Bayer. Akad. Wiss. Math.-naturwiss. Kl.&quot;, 1874, Bd $11, \mathrm{~N}_{2} 3$, S. 81-108; [2] 5 a Xв а л о в Н. С., Численные методы, 2 изд., М., 1975; [3] Б ер е з ин И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., Вычислительные методы линейной алгебры, 2 изд., М.- Л., 1963.</literature_orig>
+    <unit>
+      <author>Seidel L.</author>
+      <title>&quot;abhandl. Bayer. Akad. Wiss. Math.-naturwiss. Kl.&quot;</title>
+      <publication/>
+      <year>1874</year>
+      <other>Bd $11, \mathrm{~N}_{2} 3$, S. 81-108</other>
+    </unit>
+    <unit>
+      <author>5a Xвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., Вычислительные методы линейной алгебры, 2 изд., М.- Л.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/452_1_ZEIDELJa">x^{(k)}=\left(x_{1}^{(k)}, x_{2}^{(k)}, \ldots, x_{n}^{(k)}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/452_2_ZEIDELJa">\begin{gathered}x_{i}^{(k)}=-\sum_{j=1}^{i-1} \frac{a_{i j}}{a_{i i}} x_{j}^{(k)}-\sum_{j=i+1}^{n} \frac{a_{i j}}{a_{i i}} x_{j}^{(k-1)} \div \frac{b_{i}}{a_{i i}}, \quad(*) \\i=1,2, \ldots, n,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/452_3_ZEIDELJa">\left\|x^{(k)}-x^{k}\right\|_{1} \leqslant q\left\|x^{(k-1)}-x^{*}\right\|, \quad\|x\|_{1}=\max _{1 \leqslant i \leqslant n}\left|x_{i}\right| .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_1_ZEIDELJa">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_2_ZEIDELJa">a_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_3_ZEIDELJa">a, b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_4_ZEIDELJa">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_5_ZEIDELJa">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_6_ZEIDELJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_7_ZEIDELJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_8_ZEIDELJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_9_ZEIDELJa">(i-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_10_ZEIDELJa">a=b+c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_11_ZEIDELJa">b=\left\|\begin{array}{llll}a_{11} &amp; 0 &amp; \ldots &amp; 0 \\ a_{21} &amp; a_{22} &amp; \ldots &amp; 0 \\ \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\ a_{n 1} &amp; a_{n 2} &amp; \ldots &amp; a_{n n}\end{array}\right\|, C=\left\|\begin{array}{ccccc}0 &amp; a_{12} &amp; a_{13} &amp; \ldots &amp; a_{1 n} \\ 0 &amp; 0 &amp; a_{23} &amp; \ldots &amp; a_{2 n} \\ \ldots &amp; \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\ 0 &amp; 0 &amp; 0 &amp; \ldots &amp; 0\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_12_ZEIDELJa">(*)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_13_ZEIDELJa">x^{(k)}=-B^{-1} C x^{(k-1)}+B^{-1} b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_14_ZEIDELJa">x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_15_ZEIDELJa">=-B^{-1} C x+B^{-1} b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_16_ZEIDELJa">b^{-1} C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_17_ZEIDELJa">\operatorname{det}(c+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_18_ZEIDELJa">+b \lambda)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_19_ZEIDELJa">i, 1 \leqslant i&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_20_ZEIDELJa">\sum_{i \neq j}\left|a_{i j}\right| \leqslant q\left|a_{i i}\right|, q&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_21_ZEIDELJa">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/452_22_ZEIDELJa">x=m x+f</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/452_1_ZEIDELJa">
+      <rel_text>предложен</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/452_2_ZEIDELJa">
+      <rel_text>систему</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/452_3_ZEIDELJa">
+      <rel_text>предварительное</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/452_4_ZEIDELJa">
+      <rel_text>модификациі</rel_text>
+      <target>http://libmeta.ru/me/article/743_MODIFIKATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/452_5_ZEIDELJa">
+      <rel_text>сверхрелаксации</rel_text>
+      <target>http://libmeta.ru/me/article/1197_SVERHSHODIMOST</target>
+    </relation>
+  </relations>
+  <text>итерационный метод решения шение системы $URI[[http://libmeta.ru/me/formula/aux/452_1_ZEIDELJa]]/URI$ находится как предел последовательности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/452_1_ZEIDELJa]]/URI
+\]
+
+вычис ляемой по правилу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/452_2_ZEIDELJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/452_2_ZEIDELJa]]/URI$ - элемснты матрицы $URI[[http://libmeta.ru/me/formula/aux/452_3_ZEIDELJa]]/URI$ - компоненты вектора $URI[[http://libmeta.ru/me/formula/aux/452_4_ZEIDELJa]]/URI$; диагональные әлементы матрицы $URI[[http://libmeta.ru/me/formula/aux/452_5_ZEIDELJa]]/URI$ предполагаются отличными от нуля. Вычисления (*) отличаются от простой итерации метода лишь тем, что на $URI[[http://libmeta.ru/me/formula/aux/452_6_ZEIDELJa]]/URI$-м шаге при вычислении $URI[[http://libmeta.ru/me/formula/aux/452_7_ZEIDELJa]]/URI$-Iі компоненты учітываются вычисленные $URI[[http://libmeta.ru/me/formula/aux/452_8_ZEIDELJa]]/URI$-е приближения первых $URI[[http://libmeta.ru/me/formula/aux/452_9_ZEIDELJa]]/URI$ компонент.
+
+В матричной записи 3. м. представляется следующим образом. Если $URI[[http://libmeta.ru/me/formula/aux/452_10_ZEIDELJa]]/URI$, где
+
+$URI[[http://libmeta.ru/me/formula/aux/452_11_ZEIDELJa]]/URI$,
+
+то соотношение $URI[[http://libmeta.ru/me/formula/aux/452_12_ZEIDELJa]]/URI$ соответствует матричному соотношению $URI[[http://libmeta.ru/me/formula/aux/452_13_ZEIDELJa]]/URI$. 3. м. равносилен методу простой итерации, примененному к системе $URI[[http://libmeta.ru/me/formula/aux/452_14_ZEIDELJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/452_15_ZEIDELJa]]/URI$, эквивалентной исходной. Для сходимости 3. м. необходимо и достаточно, чтобы все собственные значения матрицы $URI[[http://libmeta.ru/me/formula/aux/452_16_ZEIDELJa]]/URI$ по модулю были меньше 1. Иначе, чтобы все корни уравнения $URI[[http://libmeta.ru/me/formula/aux/452_17_ZEIDELJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/452_18_ZEIDELJa]]/URI$ были по модулю меньше 1 .
+
+А15 Математическая әнц., т. 2 На практике более удобны следующие достаточные условия сходимости 3. м. 1) Пусть при всех $URI[[http://libmeta.ru/me/formula/aux/452_19_ZEIDELJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/452_20_ZEIDELJa]]/URI$. Тогда 3. м. сходится и для скорости сходимости имеет место оценка:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/452_3_ZEIDELJa]]/URI
+\]
+
+2) Пусть $URI[[http://libmeta.ru/me/formula/aux/452_21_ZEIDELJa]]/URI$ - эрмитова положительно определенная матрица. Тогда 3. м. сходится.
+
+3. м. относится к классу релаксации методов, наиболее употребительным из к-рых является URI[[http://libmeta.ru/me/relation/452_5_ZEIDELJa]]/URI метод.
+
+Пзвестны URI[[http://libmeta.ru/me/relation/452_4_ZEIDELJa]]/URI 3. м., использующие URI[[http://libmeta.ru/me/relation/452_3_ZEIDELJa]]/URI преобразование исходной сістемы в эквивалентную ей URI[[http://libmeta.ru/me/relation/452_2_ZEIDELJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/452_22_ZEIDELJa]]/URI$ (см. [4]).
+
+Метод URI[[http://libmeta.ru/me/relation/452_1_ZEIDELJa]]/URI Л. Зейделем в [1].</text>
+  <text_orig>итерационный метод решения шение системы $x^{*}$ находится как предел последовательности
+
+\[
+x^{(k)}=\left(x_{1}^{(k)}, x_{2}^{(k)}, \ldots, x_{n}^{(k)}\right),
+\]
+
+вычис ляемой по правилу
+
+\[
+\begin{gathered}
+x_{i}^{(k)}=-\sum_{j=1}^{i-1} \frac{a_{i j}}{a_{i i}} x_{j}^{(k)}-\sum_{j=i+1}^{n} \frac{a_{i j}}{a_{i i}} x_{j}^{(k-1)} \div \frac{b_{i}}{a_{i i}}, \quad(*) \\
+i=1,2, \ldots, n,
+\end{gathered}
+\]
+
+где $a_{i j}$ - элемснты матрицы $A, b_{i}$ - компоненты вектора $b$; диагональные әлементы матрицы $A$ предполагаются отличными от нуля. Вычисления (*) отличаются от простой итерации метода лишь тем, что на $k$-м шаге при вычислении $i$-Iі компоненты учітываются вычисленные $k$-е приближения первых $(i-1)$ компонент.
+
+В матричной записи 3. м. представляется следующим образом. Если $A=B+C$, где
+
+$B=\left\|\begin{array}{llll}a_{11} &amp; 0 &amp; \ldots &amp; 0 \\ a_{21} &amp; a_{22} &amp; \ldots &amp; 0 \\ \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\ a_{n 1} &amp; a_{n 2} &amp; \ldots &amp; a_{n n}\end{array}\right\|, C=\left\|\begin{array}{ccccc}0 &amp; a_{12} &amp; a_{13} &amp; \ldots &amp; a_{1 n} \\ 0 &amp; 0 &amp; a_{23} &amp; \ldots &amp; a_{2 n} \\ \ldots &amp; \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\ 0 &amp; 0 &amp; 0 &amp; \ldots &amp; 0\end{array}\right\|$,
+
+то соотношение $(*)$ соответствует матричному соотношению $x^{(k)}=-B^{-1} C x^{(k-1)}+B^{-1} b$. 3. м. равносилен методу простой итерации, примененному к системе $x=$ $=-B^{-1} C x+B^{-1} b$, эквивалентной исходной. Для сходимости 3. м. необходимо и достаточно, чтобы все собственные значения матрицы $B^{-1} C$ по модулю были меньше 1. Иначе, чтобы все корни уравнения $\operatorname{det}(C+$ $+B \lambda)=0$ были по модулю меньше 1 .
+
+А15 Математическая әнц., т. 2 На практике более удобны следующие достаточные условия сходимости 3. м. 1) Пусть при всех $i, 1 \leqslant i&lt;n$, $\sum_{i \neq j}\left|a_{i j}\right| \leqslant q\left|a_{i i}\right|, q&lt;1$. Тогда 3. м. сходится и для скорости сходимости имеет место оценка:
+
+\[
+\left\|x^{(k)}-x^{k}\right\|_{1} \leqslant q\left\|x^{(k-1)}-x^{*}\right\|, \quad\|x\|_{1}=\max _{1 \leqslant i \leqslant n}\left|x_{i}\right| .
+\]
+
+2) Пусть $A$ - эрмитова положительно определенная матрица. Тогда 3. м. сходится.
+
+3. м. относится к классу релаксации методов, наиболее употребительным из к-рых является сверхрелаксации метод.
+
+Пзвестны модификациі 3. м., использующие предварительное преобразование исходной сістемы в эквивалентную ей систему $x=M x+f$ (см. [4]).
+
+Метод предложен Л. Зейделем в [1].
+
+Jum.: [1] S e i d e l L., &quot;Abhandl. Bayer. Akad. Wiss. Math.-naturwiss. Kl.&quot;, 1874, Bd $11, \mathrm{~N}_{2} 3$, S. 81-108; [2] 5 a Xв а л о в Н. С., Численные методы, 2 изд., М., 1975; [3] Б ер е з ин И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., Вычислительные методы линейной алгебры, 2 изд., М.- Л., 1963.
+
+Г. Д. Ким.</text_orig>
+</article>

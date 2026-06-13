@@ -1,0 +1,356 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/71_ORTOGONAL'NAJa" alphabetic_pos="71">
+  <title>ОРТОГОНАЛЬНАЯ СИСТЕМА</title>
+  <authors>
+    <author>А. А. Талалян</author>
+  </authors>
+  <pages>
+    <start>44</start>
+    <end>45</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] К а ч м а ж С., Iii т е й нг а у з Г., Теория ортогональных рядов, пер. с нем., М., 1958; [2] Итоги науки. Матема тический анализ, 1970 , М., 1971, с. 109-46; [3] там же, с. 147$202 ;$ [4] Д у б Д ж., Вероятностные прошессы, пер. с англ., М., [6] 3 и г м у н д А., Тригонометрические ряды, пер. с англ., т. 1-2, М., 1965 .</literature_orig>
+    <unit>
+      <author>Качмаж С.</author>
+      <author>Iiiтейнгауз Г.</author>
+      <title>Теория ортогональных рядов</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1958</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Итоги науки. Матема тический анализ</title>
+      <publication/>
+      <year>1970</year>
+      <other>М., 1971, с. 109-46</other>
+    </unit>
+    <unit>
+      <title/>
+      <publication/>
+      <year/>
+      <other>там же, с. 147$202 ;$</other>
+    </unit>
+    <unit>
+      <title>Д у б Д ж., Вероятностные прошессы</title>
+      <publication>пер. с англ., М., [6] 3 и г м у н д А., Тригонометрические ряды, пер. с англ., т. 1-2, М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/71_1_ORTOGONAL'NAJa">\begin{aligned}L_{u} &amp; =\sqrt{(\partial x / \partial u)^{2}+(\partial y / \partial u)^{2}+(\partial z / \partial u)^{2}}, \\L_{v} &amp; =\sqrt{(\partial x / \partial v)^{2}+(\partial y / \partial v)^{2}+(\partial z / \partial v)^{2}}, \\L_{w} &amp; =\sqrt{(\partial x / \partial w)^{2}+(\partial y / \partial w)^{2}+(\partial z / \partial w)^{2}},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_2_ORTOGONAL'NAJa">d s=\sqrt{L_{u}^{2} d u^{2}+L_{v}^{2} d v^{2}+L_{w}^{2} d w^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_3_ORTOGONAL'NAJa">d V=L_{u} L_{v} L_{w} d u d v d u,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_4_ORTOGONAL'NAJa">\begin{aligned}&amp; \operatorname{grad}_{u} \varphi=\frac{1}{L_{u}} \frac{\partial \varphi}{\partial u}, \operatorname{grad}_{v} \varphi=\frac{1}{L_{v}} \frac{\partial \varphi}{\partial v}, \operatorname{grad}_{w} \varphi=\frac{1}{L_{w}} \frac{\partial \varphi}{\partial w}, \\&amp; \operatorname{div} \boldsymbol{a}=\frac{1}{L_{u} L_{v} L_{w}}\left[\frac{\partial}{\partial u}\left(a_{u} L_{v} L_{w}\right)+\frac{\partial}{\partial v}\left(a_{v} L_{u} L_{w}\right)+\right. \\&amp; \left.+\frac{\partial}{\partial w}\left(a_{w} L_{u} L_{v}\right)\right] \\&amp; \operatorname{rot}_{u} \boldsymbol{a}=\frac{1}{L_{v} L_{w}}\left[\frac{\partial}{\partial v}\left(a_{w} L_{w}\right)-\frac{\partial}{\partial w} i\left(a_{v} L_{v}\right)\right], \\&amp; \operatorname{rot}_{v} \boldsymbol{a}=\frac{1}{L_{u} L_{w}}\left[\frac{\partial}{\partial w}\left(a_{u} L_{u}\right)-\frac{\partial}{\partial u}\left(a_{w} L_{w}\right)\right] \text {. } \\&amp; \operatorname{rot}_{w} \boldsymbol{a}=\frac{1}{L_{u} L_{\imath^{\prime}}}\left[\frac{\partial}{\partial u}\left(a_{v} L_{v}\right)-\frac{\partial}{\partial v}\left(a_{u} L_{u}\right)\right], \\&amp; \Delta \varphi=\frac{1}{L_{u} L_{v} L_{w^{\prime}}}\left[\frac{\partial}{\partial u}\left(\frac{L_{v} L_{w}}{L_{u}} \frac{\partial \varphi}{\partial u}\right)+\frac{\partial}{\partial v}\left(\frac{L_{u} L_{w}}{L_{v}} \frac{\partial \varphi}{\partial v}\right)+\right. \\&amp; \left.+\frac{\partial}{\partial w}\left(\frac{L_{u} L_{\tilde{v}}}{L_{w}} \frac{\partial \varphi}{\partial w}\right)\right] \text {. }\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_5_ORTOGONAL'NAJa">\bigcup_{X} \psi_{i}(x) \bar{\varphi}_{j}(x) d \mu(x)=\left\{\begin{array}{lr}0 &amp; \text { при } i \neq j, \\\lambda_{i}&gt;0 &amp; \text { при } i=j .\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_6_ORTOGONAL'NAJa">c_{n}=\int_{X} \bar{\varphi}_{n} d \mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_7_ORTOGONAL'NAJa">\chi_{m}(x)=\left\{\begin{array}{c}\sqrt{2^{n}} \text { при } x \in\left(\frac{2 k-2}{2^{n+1}}, \frac{2 k-1}{2^{n+1}}\right), \\-\sqrt{2^{n}} \text { при } x \in\left(\frac{2 k-1}{2^{n+1}}, \frac{2 k}{2^{n+1}}\right), \\0 \text { в остальных точках отрезка }[0,1],\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_8_ORTOGONAL'NAJa">r_{n}(x)=\operatorname{sign} \sin 2^{n+1} \pi x, \quad x \in[0,1],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_9_ORTOGONAL'NAJa">W_{0}(x)=1, W_{n}(x)=\prod_{k=0}^{m}\left[r_{k}(x)\right]^{q}, x \in[0,1],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_10_ORTOGONAL'NAJa">n=\sum_{k=0}^{m} q_{k} 2^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_11_ORTOGONAL'NAJa">\begin{gathered}u_{1}(x)=x, u_{2}(x)=1-x, u_{n}(x)=\int_{0}^{x} \chi_{n-1}(t) d t, \\n \geqslant 3, \quad x \in[0,1] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/71_12_ORTOGONAL'NAJa">\begin{gathered}\varphi_{n_{i}}\left(x_{1}\right) \cdot \varphi_{n_{2}}\left(x_{2}\right) \cdots \varphi_{n_{m}}\left(x_{m}\right), x_{i} \in[a, b], 1 \leqslant i \leqslant m, \\n_{i}=1,2, \ldots,\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_1_ORTOGONAL'NAJa">\left\{x_{\alpha}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_2_ORTOGONAL'NAJa">(\cdot, \cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_3_ORTOGONAL'NAJa">\left(x_{\alpha}, x_{\beta}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_4_ORTOGONAL'NAJa">\alpha \neq \beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_5_ORTOGONAL'NAJa">\left\{x_{\alpha}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_6_ORTOGONAL'NAJa">\left\{x_{\alpha}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_7_ORTOGONAL'NAJa">g_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_8_ORTOGONAL'NAJa">g_{i i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_9_ORTOGONAL'NAJa">x, y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_10_ORTOGONAL'NAJa">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_11_ORTOGONAL'NAJa">d \sigma=\sqrt{\left(L_{u} L_{v} d u d v\right)^{2}+\left(L_{u} L_{w} d u d w\right)^{2}+\left(L_{v} L_{w} d v d w\right)^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_12_ORTOGONAL'NAJa">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_13_ORTOGONAL'NAJa">l^{2}(x, S, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_14_ORTOGONAL'NAJa">\lambda_{i}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_15_ORTOGONAL'NAJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_16_ORTOGONAL'NAJa">\mu(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_17_ORTOGONAL'NAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_18_ORTOGONAL'NAJa">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_19_ORTOGONAL'NAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_20_ORTOGONAL'NAJa">\mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_21_ORTOGONAL'NAJa">(x, S, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_22_ORTOGONAL'NAJa">\left\{\varphi_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_23_ORTOGONAL'NAJa">f(x) \in L^{2}(X, S, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_24_ORTOGONAL'NAJa">\sum_{c_{n}} \varphi_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_25_ORTOGONAL'NAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_26_ORTOGONAL'NAJa">l^{2}(x, S, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_27_ORTOGONAL'NAJa">c_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_28_ORTOGONAL'NAJa">l^{2}(x, S, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_29_ORTOGONAL'NAJa">l^{2}(s, X, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_30_ORTOGONAL'NAJa">l^{2}[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_31_ORTOGONAL'NAJa">x=[a, b], S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_32_ORTOGONAL'NAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_33_ORTOGONAL'NAJa">\sum a_{n} \varphi_{n}(x), \sum a_{n}^{2}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_34_ORTOGONAL'NAJa">\left\{\varphi_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_35_ORTOGONAL'NAJa">l^{2}[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_36_ORTOGONAL'NAJa">l^{2}(x, S, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_37_ORTOGONAL'NAJa">\mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_38_ORTOGONAL'NAJa">\left\{\chi_{n}(x)\right\}_{n=1}^{\infty}: \quad \chi_{1}(x)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_39_ORTOGONAL'NAJa">x \in[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_40_ORTOGONAL'NAJa">m=2^{n}+k, 1 \leqslant k \leqslant 2^{n}, m=2,3, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_41_ORTOGONAL'NAJa">\left\{\chi_{n}(x)\right\}_{n=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_42_ORTOGONAL'NAJa">l^{p}[0,1], p \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_43_ORTOGONAL'NAJa">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_44_ORTOGONAL'NAJa">\left\{r_{n}(x)\right\}_{n=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_45_ORTOGONAL'NAJa">\left\{w_{n}(x)\right\}_{n=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_46_ORTOGONAL'NAJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_47_ORTOGONAL'NAJa">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_48_ORTOGONAL'NAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_49_ORTOGONAL'NAJa">\phi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_50_ORTOGONAL'NAJa">\left\{\phi_{n}(x)\right\}_{n=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_51_ORTOGONAL'NAJa">c[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_52_ORTOGONAL'NAJa">\left\{\varphi_{n}(x)\right\}_{n=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_53_ORTOGONAL'NAJa">l^{2}[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_54_ORTOGONAL'NAJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_55_ORTOGONAL'NAJa">j^{m}=[a, b] \times \ldots \times[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/71_56_ORTOGONAL'NAJa">\left\{\varphi_{n}(x)\right\}</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/71_1_ORTOGONAL'NAJa">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/71_2_ORTOGONAL'NAJa">
+      <rel_text>ортонормированы</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/71_3_ORTOGONAL'NAJa">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/71_4_ORTOGONAL'NAJa">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/71_5_ORTOGONAL'NAJa">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/71_6_ORTOGONAL'NAJa">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/71_7_ORTOGONAL'NAJa">
+      <rel_text>кратных</rel_text>
+      <target>http://libmeta.ru/me/article/82_KRATNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/71_8_ORTOGONAL'NAJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>1) О. с. в е к т ор о в - множество $URI[[http://libmeta.ru/me/formula/aux/71_1_ORTOGONAL'NAJa]]/URI$ венулевых векторов евклидова (гильбертова) пространства со скалярным произведением $URI[[http://libmeta.ru/me/formula/aux/71_2_ORTOGONAL'NAJa]]/URI$ такое, что $URI[[http://libmeta.ru/me/formula/aux/71_3_ORTOGONAL'NAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/71_4_ORTOGONAL'NAJa]]/URI$. Если при этом норма каждого вектора равна единице, то система $URI[[http://libmeta.ru/me/formula/aux/71_5_ORTOGONAL'NAJa]]/URI$ наз. о р т о н о р и и р в а н н о й. Полная О. с. $URI[[http://libmeta.ru/me/formula/aux/71_6_ORTOGONAL'NAJa]]/URI$ наз. о р тогон алы ны м (ортонор ми-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6822d4b68da5a18c21bbg-1.jpg?height=35&amp;width=799&amp;top_left_y=675&amp;top_left_x=156)
+
+2) О.с. ко о р д и н а т-система координат, в к-рой координатные линии (или поверхности) пересекаются под прямым углом. О. с. координат сушествуют в любом евкјидовом пространстве, но, вообще говоря, не существуют в произвольном пространстве. В двумерном гладком афффинном пространстве О. с. всегда можно ввести по крайней мере в достаточно малой окрестности каждой точки. Иногда возможно введеніе О. с. координат в целом. В О. с. метрич. тензор $URI[[http://libmeta.ru/me/formula/aux/71_7_ORTOGONAL'NAJa]]/URI$ диагонален; диагональные компоненты $URI[[http://libmeta.ru/me/formula/aux/71_8_ORTOGONAL'NAJa]]/URI$ прьнято наз. коэффицие т т а м Л Л а е. Ламе коэффициент О. с. в пространстве выражағтся формулами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_1_ORTOGONAL'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/71_9_ORTOGONAL'NAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/71_10_ORTOGONAL'NAJa]]/URI$ - декартовы прямоугольные координаты. Черев коэффициенты Ламе выражаются әлемент длины:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_2_ORTOGONAL'NAJa]]/URI
+\]
+
+элемент площади поверхности:
+
+$URI[[http://libmeta.ru/me/formula/aux/71_11_ORTOGONAL'NAJa]]/URI$, элемент объема:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_3_ORTOGONAL'NAJa]]/URI
+\]
+
+векторные дифференциальные операции:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_4_ORTOGONAL'NAJa]]/URI
+\]
+
+Наиболее часто используемые О. с. координат: на плоскости - декартовы, полярные, эллиптические, параболические; в пространстве - сферические, цилиндрические, параболоидальные, бицилиндрические, биполярные. д. д. Соколов.
+
+3) О. с. ф у н к ц и й - конечная или счетная система $URI[[http://libmeta.ru/me/formula/aux/71_12_ORTOGONAL'NAJa]]/URI$ функций, принадлежащих пространству $URI[[http://libmeta.ru/me/formula/aux/71_13_ORTOGONAL'NAJa]]/URI$ I удовлетворяющих условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_5_ORTOGONAL'NAJa]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/71_14_ORTOGONAL'NAJa]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/71_15_ORTOGONAL'NAJa]]/URI$, то система наз. о р т о н о рм и р о в а н в о й. При этом предполагается, что мера $URI[[http://libmeta.ru/me/formula/aux/71_16_ORTOGONAL'NAJa]]/URI$, определенная на $URI[[http://libmeta.ru/me/formula/aux/71_17_ORTOGONAL'NAJa]]/URI$-алгебре $URI[[http://libmeta.ru/me/formula/aux/71_18_ORTOGONAL'NAJa]]/URI$ подмножеств множества $URI[[http://libmeta.ru/me/formula/aux/71_19_ORTOGONAL'NAJa]]/URI$, счетно аддитивна, полна и имеет счетную базу. Это определение О. с. включает все рассматриваемые в современном анализе 0. с.; они получаются при различных конкретных реализация $URI[[http://libmeta.ru/me/formula/aux/71_20_ORTOGONAL'NAJa]]/URI$ пространства с мерой $URI[[http://libmeta.ru/me/formula/aux/71_21_ORTOGONAL'NAJa]]/URI$.
+
+Наибольший интерес представляют полные ортонормированные системы $URI[[http://libmeta.ru/me/formula/aux/71_22_ORTOGONAL'NAJa]]/URI$, обладающие тем свойством, что для любой функции $URI[[http://libmeta.ru/me/formula/aux/71_23_ORTOGONAL'NAJa]]/URI$ существует единственный ряд $URI[[http://libmeta.ru/me/formula/aux/71_24_ORTOGONAL'NAJa]]/URI$, сходящийся к $URI[[http://libmeta.ru/me/formula/aux/71_25_ORTOGONAL'NAJa]]/URI$ в метрике простравства $URI[[http://libmeta.ru/me/formula/aux/71_26_ORTOGONAL'NAJa]]/URI$, при этом коэффициенты $URI[[http://libmeta.ru/me/formula/aux/71_27_ORTOGONAL'NAJa]]/URI$ определяются формулами Фурье
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_6_ORTOGONAL'NAJa]]/URI
+\]
+
+Такие системы суцествуют в силу сепарабельности пространства $URI[[http://libmeta.ru/me/formula/aux/71_28_ORTOGONAL'NAJa]]/URI$. Универсальный способ построения полных ортонормированных систем дает метод ортоговализации Шмидта. Для этого достаточно применить его к нек-рой полной в $URI[[http://libmeta.ru/me/formula/aux/71_29_ORTOGONAL'NAJa]]/URI$ системе линейно независимых функций.
+
+В теорий ортогональных рядов в основном рассматриваются О. с. простра甘ства $URI[[http://libmeta.ru/me/formula/aux/71_30_ORTOGONAL'NAJa]]/URI$ (тот частный случай, когда $URI[[http://libmeta.ru/me/formula/aux/71_31_ORTOGONAL'NAJa]]/URI$ - система мвожеств, измеримых по Лебегу, и $URI[[http://libmeta.ru/me/formula/aux/71_32_ORTOGONAL'NAJa]]/URI$ - мера Лебега). Многие теоремы о сходимости или суммируемости рядов $URI[[http://libmeta.ru/me/formula/aux/71_33_ORTOGONAL'NAJa]]/URI$, по общим О. с. $URI[[http://libmeta.ru/me/formula/aux/71_34_ORTOGONAL'NAJa]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/71_35_ORTOGONAL'NAJa]]/URI$ верны и для рядов по ортонормированным системам пространства $URI[[http://libmeta.ru/me/formula/aux/71_36_ORTOGONAL'NAJa]]/URI$. Вместе с тем в этом частном случае построены пнтересные конкретные О.с., обладающие теми или ивыми хорошими свойствами. Таковы, например, системы Хаара, Радемахера, Уолша-Пәли, Франклина.
+
+1) С и с т е м а $URI[[http://libmeta.ru/me/formula/aux/71_37_ORTOGONAL'NAJa]]/URI$ a a p a $URI[[http://libmeta.ru/me/formula/aux/71_38_ORTOGONAL'NAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/71_39_ORTOGONAL'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_7_ORTOGONAL'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/71_40_ORTOGONAL'NAJa]]/URI$. Ряды по системе Хаара представляют типичный пример мартингалов и для них верны общие теоремы из теорий мартингалов. Кроме того, система $URI[[http://libmeta.ru/me/formula/aux/71_41_ORTOGONAL'NAJa]]/URI$ является базисом в $URI[[http://libmeta.ru/me/formula/aux/71_42_ORTOGONAL'NAJa]]/URI$, и ряд Фурье по системе Хаара любой пнтегрируемой функции почти всюду сходится.
+
+2) С ил с те м а $URI[[http://libmeta.ru/me/formula/aux/71_43_ORTOGONAL'NAJa]]/URI$ а де м а хе р a $URI[[http://libmeta.ru/me/formula/aux/71_44_ORTOGONAL'NAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_8_ORTOGONAL'NAJa]]/URI
+\]
+
+представляет собой важный пример О. с. независимых функций и имеет применения как в теории вероятностей, так и в теории ортогональных и общих функциональных рядов.
+
+3) Си с тема уоліп а - П эли $URI[[http://libmeta.ru/me/formula/aux/71_45_ORTOGONAL'NAJa]]/URI$ определяется через функции Радемахера:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_9_ORTOGONAL'NAJa]]/URI
+\]
+
+где числа $URI[[http://libmeta.ru/me/formula/aux/71_46_ORTOGONAL'NAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/71_47_ORTOGONAL'NAJa]]/URI$ определяются из двоичного разложения чіiла $URI[[http://libmeta.ru/me/formula/aux/71_48_ORTOGONAL'NAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_10_ORTOGONAL'NAJa]]/URI
+\] 4) С й с те м а $URI[[http://libmeta.ru/me/formula/aux/71_49_ORTOGONAL'NAJa]]/URI$ р а н к ли и а $URI[[http://libmeta.ru/me/formula/aux/71_50_ORTOGONAL'NAJa]]/URI$ получается ортогонализацией методом Шмидта последовательвости функций
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_11_ORTOGONAL'NAJa]]/URI
+\]
+
+Она является примером ортогонального базиса пространства $URI[[http://libmeta.ru/me/formula/aux/71_51_ORTOGONAL'NAJa]]/URI$ непрерывных функций.
+
+В URI[[http://libmeta.ru/me/relation/71_8_ORTOGONAL'NAJa]]/URI URI[[http://libmeta.ru/me/relation/71_7_ORTOGONAL'NAJa]]/URI ортогональных рядов рассматриваются URI[[http://libmeta.ru/me/relation/71_6_ORTOGONAL'NAJa]]/URI URI[[http://libmeta.ru/me/relation/71_5_ORTOGONAL'NAJa]]/URI вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/71_12_ORTOGONAL'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/71_52_ORTOGONAL'NAJa]]/URI$ - ортонормированная URI[[http://libmeta.ru/me/relation/71_4_ORTOGONAL'NAJa]]/URI в $URI[[http://libmeta.ru/me/formula/aux/71_53_ORTOGONAL'NAJa]]/URI$. Такие URI[[http://libmeta.ru/me/relation/71_3_ORTOGONAL'NAJa]]/URI URI[[http://libmeta.ru/me/relation/71_2_ORTOGONAL'NAJa]]/URI на $URI[[http://libmeta.ru/me/formula/aux/71_54_ORTOGONAL'NAJa]]/URI$-мерном кубе $URI[[http://libmeta.ru/me/formula/aux/71_55_ORTOGONAL'NAJa]]/URI$ и полны, если полна URI[[http://libmeta.ru/me/relation/71_1_ORTOGONAL'NAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/71_56_ORTOGONAL'NAJa]]/URI$.</text>
+  <text_orig>1) О. с. в е к т ор о в - множество $\left\{x_{\alpha}\right\}$ венулевых векторов евклидова (гильбертова) пространства со скалярным произведением $(\cdot, \cdot)$ такое, что $\left(x_{\alpha}, x_{\beta}\right)=0$ при $\alpha \neq \beta$. Если при этом норма каждого вектора равна единице, то система $\left\{x_{\alpha}\right\}$ наз. о р т о н о р и и р в а н н о й. Полная О. с. $\left\{x_{\alpha}\right\}$ наз. о р тогон алы ны м (ортонор ми-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6822d4b68da5a18c21bbg-1.jpg?height=35&amp;width=799&amp;top_left_y=675&amp;top_left_x=156)
+
+2) О.с. ко о р д и н а т-система координат, в к-рой координатные линии (или поверхности) пересекаются под прямым углом. О. с. координат сушествуют в любом евкјидовом пространстве, но, вообще говоря, не существуют в произвольном пространстве. В двумерном гладком афффинном пространстве О. с. всегда можно ввести по крайней мере в достаточно малой окрестности каждой точки. Иногда возможно введеніе О. с. координат в целом. В О. с. метрич. тензор $g_{i j}$ диагонален; диагональные компоненты $g_{i i}$ прьнято наз. коэффицие т т а м Л Л а е. Ламе коэффициент О. с. в пространстве выражағтся формулами
+
+\[
+\begin{aligned}
+L_{u} &amp; =\sqrt{(\partial x / \partial u)^{2}+(\partial y / \partial u)^{2}+(\partial z / \partial u)^{2}}, \\
+L_{v} &amp; =\sqrt{(\partial x / \partial v)^{2}+(\partial y / \partial v)^{2}+(\partial z / \partial v)^{2}}, \\
+L_{w} &amp; =\sqrt{(\partial x / \partial w)^{2}+(\partial y / \partial w)^{2}+(\partial z / \partial w)^{2}},
+\end{aligned}
+\]
+
+где $x, y$ и $z$ - декартовы прямоугольные координаты. Черев коэффициенты Ламе выражаются әлемент длины:
+
+\[
+d s=\sqrt{L_{u}^{2} d u^{2}+L_{v}^{2} d v^{2}+L_{w}^{2} d w^{2}}
+\]
+
+элемент площади поверхности:
+
+$d \sigma=\sqrt{\left(L_{u} L_{v} d u d v\right)^{2}+\left(L_{u} L_{w} d u d w\right)^{2}+\left(L_{v} L_{w} d v d w\right)^{2}}$, элемент объема:
+
+\[
+d V=L_{u} L_{v} L_{w} d u d v d u,
+\]
+
+векторные дифференциальные операции:
+
+\[
+\begin{aligned}
+&amp; \operatorname{grad}_{u} \varphi=\frac{1}{L_{u}} \frac{\partial \varphi}{\partial u}, \operatorname{grad}_{v} \varphi=\frac{1}{L_{v}} \frac{\partial \varphi}{\partial v}, \operatorname{grad}_{w} \varphi=\frac{1}{L_{w}} \frac{\partial \varphi}{\partial w}, \\
+&amp; \operatorname{div} \boldsymbol{a}=\frac{1}{L_{u} L_{v} L_{w}}\left[\frac{\partial}{\partial u}\left(a_{u} L_{v} L_{w}\right)+\frac{\partial}{\partial v}\left(a_{v} L_{u} L_{w}\right)+\right. \\
+&amp; \left.+\frac{\partial}{\partial w}\left(a_{w} L_{u} L_{v}\right)\right] \\
+&amp; \operatorname{rot}_{u} \boldsymbol{a}=\frac{1}{L_{v} L_{w}}\left[\frac{\partial}{\partial v}\left(a_{w} L_{w}\right)-\frac{\partial}{\partial w} i\left(a_{v} L_{v}\right)\right], \\
+&amp; \operatorname{rot}_{v} \boldsymbol{a}=\frac{1}{L_{u} L_{w}}\left[\frac{\partial}{\partial w}\left(a_{u} L_{u}\right)-\frac{\partial}{\partial u}\left(a_{w} L_{w}\right)\right] \text {. } \\
+&amp; \operatorname{rot}_{w} \boldsymbol{a}=\frac{1}{L_{u} L_{\imath^{\prime}}}\left[\frac{\partial}{\partial u}\left(a_{v} L_{v}\right)-\frac{\partial}{\partial v}\left(a_{u} L_{u}\right)\right], \\
+&amp; \Delta \varphi=\frac{1}{L_{u} L_{v} L_{w^{\prime}}}\left[\frac{\partial}{\partial u}\left(\frac{L_{v} L_{w}}{L_{u}} \frac{\partial \varphi}{\partial u}\right)+\frac{\partial}{\partial v}\left(\frac{L_{u} L_{w}}{L_{v}} \frac{\partial \varphi}{\partial v}\right)+\right. \\
+&amp; \left.+\frac{\partial}{\partial w}\left(\frac{L_{u} L_{\tilde{v}}}{L_{w}} \frac{\partial \varphi}{\partial w}\right)\right] \text {. }
+\end{aligned}
+\]
+
+Наиболее часто используемые О. с. координат: на плоскости - декартовы, полярные, эллиптические, параболические; в пространстве - сферические, цилиндрические, параболоидальные, бицилиндрические, биполярные. д. д. Соколов.
+
+3) О. с. ф у н к ц и й - конечная или счетная система $\left\{\varphi_{i}(x)\right\}$ функций, принадлежащих пространству $L^{2}(X, S, \mu)$ I удовлетворяющих условиям
+
+\[
+\bigcup_{X} \psi_{i}(x) \bar{\varphi}_{j}(x) d \mu(x)=\left\{\begin{array}{lr}
+0 &amp; \text { при } i \neq j, \\
+\lambda_{i}&gt;0 &amp; \text { при } i=j .
+\end{array}\right.
+\]
+
+Если $\lambda_{i}=1$ для всех $i$, то система наз. о р т о н о рм и р о в а н в о й. При этом предполагается, что мера $\mu(x)$, определенная на $\sigma$-алгебре $S$ подмножеств множества $X$, счетно аддитивна, полна и имеет счетную базу. Это определение О. с. включает все рассматриваемые в современном анализе 0. с.; они получаются при различных конкретных реализация $\mathrm{x}$ пространства с мерой $(X, S, \mu)$.
+
+Наибольший интерес представляют полные ортонормированные системы $\left\{\varphi_{n}(x)\right\}$, обладающие тем свойством, что для любой функции $f(x) \in L^{2}(X, S, \mu)$ существует единственный ряд $\sum_{c_{n}} \varphi_{n}(x)$, сходящийся к $f(x)$ в метрике простравства $L^{2}(X, S, \mu)$, при этом коэффициенты $c_{n}$ определяются формулами Фурье
+
+\[
+c_{n}=\int_{X} \bar{\varphi}_{n} d \mu
+\]
+
+Такие системы суцествуют в силу сепарабельности пространства $L^{2}(X, S, \mu)$. Универсальный способ построения полных ортонормированных систем дает метод ортоговализации Шмидта. Для этого достаточно применить его к нек-рой полной в $L^{2}(S, X, \mu)$ системе линейно независимых функций.
+
+В теорий ортогональных рядов в основном рассматриваются О. с. простра甘ства $L^{2}[a, b]$ (тот частный случай, когда $X=[a, b], S$ - система мвожеств, измеримых по Лебегу, и $\mu$ - мера Лебега). Многие теоремы о сходимости или суммируемости рядов $\sum a_{n} \varphi_{n}(x), \sum a_{n}^{2}&lt;\infty$, по общим О. с. $\left\{\varphi_{n}(x)\right\}$ пространства $L^{2}[a, b]$ верны и для рядов по ортонормированным системам пространства $L^{2}(X, S, \mu)$. Вместе с тем в этом частном случае построены пнтересные конкретные О.с., обладающие теми или ивыми хорошими свойствами. Таковы, например, системы Хаара, Радемахера, Уолша-Пәли, Франклина.
+
+1) С и с т е м а $\mathrm{X}$ a a p a $\left\{\chi_{n}(x)\right\}_{n=1}^{\infty}: \quad \chi_{1}(x)=1$, $x \in[0,1]$
+
+\[
+\chi_{m}(x)=\left\{\begin{array}{c}
+\sqrt{2^{n}} \text { при } x \in\left(\frac{2 k-2}{2^{n+1}}, \frac{2 k-1}{2^{n+1}}\right), \\
+-\sqrt{2^{n}} \text { при } x \in\left(\frac{2 k-1}{2^{n+1}}, \frac{2 k}{2^{n+1}}\right), \\
+0 \text { в остальных точках отрезка }[0,1],
+\end{array}\right.
+\]
+
+где $m=2^{n}+k, 1 \leqslant k \leqslant 2^{n}, m=2,3, \ldots$. Ряды по системе Хаара представляют типичный пример мартингалов и для них верны общие теоремы из теорий мартингалов. Кроме того, система $\left\{\chi_{n}(x)\right\}_{n=1}^{\infty}$ является базисом в $L^{p}[0,1], p \geqslant 1$, и ряд Фурье по системе Хаара любой пнтегрируемой функции почти всюду сходится.
+
+2) С ил с те м а $\mathrm{P}$ а де м а хе р a $\left\{r_{n}(x)\right\}_{n=1}^{\infty}$ :
+
+\[
+r_{n}(x)=\operatorname{sign} \sin 2^{n+1} \pi x, \quad x \in[0,1],
+\]
+
+представляет собой важный пример О. с. независимых функций и имеет применения как в теории вероятностей, так и в теории ортогональных и общих функциональных рядов.
+
+3) Си с тема уоліп а - П эли $\left\{W_{n}(x)\right\}_{n=1}^{\infty}$ определяется через функции Радемахера:
+
+\[
+W_{0}(x)=1, W_{n}(x)=\prod_{k=0}^{m}\left[r_{k}(x)\right]^{q}, x \in[0,1],
+\]
+
+где числа $m$ и $q_{k}$ определяются из двоичного разложения чіIла $n$ :
+
+\[
+n=\sum_{k=0}^{m} q_{k} 2^{k}
+\] 4) С й с те м а $\Phi$ р а н к ли и а $\left\{\Phi_{n}(x)\right\}_{n=1}^{\infty}$ получается ортогонализацией методом Шмидта последовательвости функций
+
+\[
+\begin{gathered}
+u_{1}(x)=x, u_{2}(x)=1-x, u_{n}(x)=\int_{0}^{x} \chi_{n-1}(t) d t, \\
+n \geqslant 3, \quad x \in[0,1] .
+\end{gathered}
+\]
+
+Она является примером ортогонального базиса пространства $C[0,1]$ непрерывных функций.
+
+В теории кратных ортогональных рядов рассматриваются системы функций вида
+
+\[
+\begin{gathered}
+\varphi_{n_{i}}\left(x_{1}\right) \cdot \varphi_{n_{2}}\left(x_{2}\right) \cdots \varphi_{n_{m}}\left(x_{m}\right), x_{i} \in[a, b], 1 \leqslant i \leqslant m, \\
+n_{i}=1,2, \ldots,
+\end{gathered}
+\]
+
+где $\left\{\varphi_{n}(x)\right\}_{n=1}^{\infty}$ - ортонормированная система в $L^{2}[a, b]$. Такие системы ортонормированы на $m$-мерном кубе $J^{m}=[a, b] \times \ldots \times[a, b]$ и полны, если полна система $\left\{\varphi_{n}(x)\right\}$.
+
+Лum.: [1] К а ч м а ж С., III т е й нг а у з Г., Теория ортогональных рядов, пер. с нем., М., 1958; [2] Итоги науки. Матема тический анализ, 1970 , М., 1971, с. 109-46; [3] там же, с. 147$202 ;$ [4] Д у б Д ж., Вероятностные прошессы, пер. с англ., М., [6] 3 и г м у н д А., Тригонометрические ряды, пер. с англ., т. 1-2, М., 1965 . А. А. Талалян.</text_orig>
+</article>

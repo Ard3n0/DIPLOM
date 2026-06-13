@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/818_PUASSONA" alphabetic_pos="818">
+  <title>ПУАССОНА ФОРМУЛА</title>
+  <authors>
+    <author>Е. Д. Соломенцев</author>
+  </authors>
+  <pages>
+    <start>382</start>
+    <end>383</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] P o is s o n S. D., &quot;mém. Acad. sci.», 1818, t. 3,![](https://cdn.mathpix.com/cropped/2023_07_08_e4ccd5c07d036f3d852eg-1.jpg?height=44&amp;width=811&amp;top_left_y=1154&amp;top_left_x=140)д и м и р о в В. С., Уравнения математической физики, 4 изд.,</literature_orig>
+    <unit>
+      <author>Poisson S. D.</author>
+      <title>&quot;mém. Acad. sci.»</title>
+      <publication/>
+      <year>1818</year>
+      <other>t. 3, ![](https://cdn.mathpix.com/cropped/2023_07_08_e4ccd5c07d036f3d852eg-1.jpg?height=44&amp;width=811&amp;top_left_y=1154&amp;top_left_x=140)д и м и р о в В. С., Уравнения математической физики, 4 изд.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/818_1_PUASSONA">\begin{gathered}\frac{\partial^{2} u}{\partial t^{2}}-a^{2} \Delta u=0, t&gt;0, M=(x, y, z), \\-\infty&lt;x, y, z&lt;+\infty \\u(M, 0)=\varphi(M), \frac{\partial u(M, 0)}{\partial t}=\psi(M)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_2_PUASSONA">u(M, t)=\frac{\partial}{\partial t}\left\{t \Gamma_{a t}(\varphi)\right\}+t \Gamma_{a t}(\psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_3_PUASSONA">\Gamma_{a t}(\varphi)=\frac{1}{4 \pi} \int_{S_{a t}} \varphi(P) d \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_4_PUASSONA">\begin{gathered}\frac{\partial u}{\partial t}-a^{2} \Delta u=0, t&gt;0, M=(x, y, z), \\-\infty&lt;x, y, z&lt;+\infty, \\u(M, 0)=\varphi(M),\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_1_PUASSONA">\mathbb{r}^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_2_PUASSONA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_3_PUASSONA">s_{a t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_4_PUASSONA">(x, y, z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_5_PUASSONA">m, d \Omega-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_6_PUASSONA">\mathbb{r}^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_7_PUASSONA">u(m, t)=\frac{1}{\left(2 \sqrt{\pi a^{2} t}\right)^{3}} \int_{\mathbb{R}_{3}} \varphi(P) e^{-\frac{|M P|^{3}}{4 a^{2} t}} d \sigma(P)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_8_PUASSONA">n \geqslant 1</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/818_1_PUASSONA">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/818_2_PUASSONA">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/818_3_PUASSONA">
+      <rel_text>Формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+  </relations>
+  <text>1) То же, что Пуассона интеграл.
+
+2) Формула, дающая интегральное представление решения задачи Коши для волнового уравнения в пространстве $URI[[http://libmeta.ru/me/formula/aux/818_1_PUASSONA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_1_PUASSONA]]/URI
+\] и имеющая вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_2_PUASSONA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_3_PUASSONA]]/URI
+\]
+
+- среднее значение функции $URI[[http://libmeta.ru/me/formula/aux/818_2_PUASSONA]]/URI$ на сфере $URI[[http://libmeta.ru/me/formula/aux/818_3_PUASSONA]]/URI$ в пространстве $URI[[http://libmeta.ru/me/formula/aux/818_4_PUASSONA]]/URI$ радиуса at с дентром в точке $URI[[http://libmeta.ru/me/formula/aux/818_5_PUASSONA]]/URI$ элемент площади единичной сферы. В случае неоднородного волнового уравнения в формуле (1) добавляется третье слагаемое (см. [2]).
+
+Из формулы (1) спуска методом получаются формулы решения задачи Коши для случая двух (п у а с с о в а ф о р м у л а) и одного (д'а ла м б е р a фо р м ул а) пространственного переменного (см.[2]). См. также Кирхаоба формула.
+
+3) Иногда П. ф. наз. интегральное представление решения задачи Коши для уравнения теплопроводности в пространстве $URI[[http://libmeta.ru/me/formula/aux/818_6_PUASSONA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_4_PUASSONA]]/URI
+\]
+
+имеющее вид
+
+$URI[[http://libmeta.ru/me/formula/aux/818_7_PUASSONA]]/URI$.
+
+URI[[http://libmeta.ru/me/relation/818_3_PUASSONA]]/URI (2) непосредственно обобщается на любоө URI[[http://libmeta.ru/me/relation/818_2_PUASSONA]]/URI пространственных URI[[http://libmeta.ru/me/relation/818_1_PUASSONA]]/URI $URI[[http://libmeta.ru/me/formula/aux/818_8_PUASSONA]]/URI$.</text>
+  <text_orig>1) То же, что Пуассона интеграл.
+
+2) Формула, дающая интегральное представление решения задачи Коши для волнового уравнения в пространстве $\mathbb{R}^{3}$ :
+
+\[
+\begin{gathered}
+\frac{\partial^{2} u}{\partial t^{2}}-a^{2} \Delta u=0, t&gt;0, M=(x, y, z), \\
+-\infty&lt;x, y, z&lt;+\infty \\
+u(M, 0)=\varphi(M), \frac{\partial u(M, 0)}{\partial t}=\psi(M)
+\end{gathered}
+\] и имеющая вид
+
+\[
+u(M, t)=\frac{\partial}{\partial t}\left\{t \Gamma_{a t}(\varphi)\right\}+t \Gamma_{a t}(\psi)
+\]
+
+где
+
+\[
+\Gamma_{a t}(\varphi)=\frac{1}{4 \pi} \int_{S_{a t}} \varphi(P) d \Omega
+\]
+
+- среднее значение функции $\varphi$ на сфере $S_{a t}$ в пространстве $(x, y, z)$ радиуса at с дентром в точке $M, d \Omega-$ элемент площади единичной сферы. В случае неоднородного волнового уравнения в формуле (1) добавляется третье слагаемое (см. [2]).
+
+Из формулы (1) спуска методом получаются формулы решения задачи Коши для случая двух (П у а с с о в а ф о р м у л а) и одного (Д'А ла м б е р a фо р м ул а) пространственного переменного (см.[2]). См. также Кирхаоба формула.
+
+3) Иногда П. ф. наз. интегральное представление решения задачи Коши для уравнения теплопроводности в пространстве $\mathbb{R}^{3}$ :
+
+\[
+\begin{gathered}
+\frac{\partial u}{\partial t}-a^{2} \Delta u=0, t&gt;0, M=(x, y, z), \\
+-\infty&lt;x, y, z&lt;+\infty, \\
+u(M, 0)=\varphi(M),
+\end{gathered}
+\]
+
+имеющее вид
+
+$u(M, t)=\frac{1}{\left(2 \sqrt{\pi a^{2} t}\right)^{3}} \int_{\mathbb{R}_{3}} \varphi(P) e^{-\frac{|M P|^{3}}{4 a^{2} t}} d \sigma(P)$.
+
+Формула (2) непосредственно обобщается на любоө число пространственных переменных $n \geqslant 1$.
+
+Jum.: [1] P o is s o n S. D., &quot;Mém. Acad. sci.», 1818, t. 3,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_e4ccd5c07d036f3d852eg-1.jpg?height=44&amp;width=811&amp;top_left_y=1154&amp;top_left_x=140)
+д и м и р о в В. С., Уравнения математической физики, 4 изд.,
+
+Е. Д. Соломенцев.</text_orig>
+</article>

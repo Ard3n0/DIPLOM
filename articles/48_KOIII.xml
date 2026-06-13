@@ -1,0 +1,940 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/48_KOIII" alphabetic_pos="48">
+  <title>КОIII ИНТЕГРА Л</title>
+  <authors/>
+  <pages>
+    <start>27</start>
+    <end>29</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] C a u c h y A. L., Sur la mécanique céleste et sur un nouveau calcul appelé calcul des limites, Turin, 1831 (или Euvres completes, ser. 1, t. 8, P., 1892); [2] Iii a 6 a т Б. B.,Введение в комплексный анализ, 2 изд., ч. 1-2, 1976; [3] м а pк у Ii е в и ч А. И., Теория аналитических функций, 2 изд., т. 1, М., 1967; [4] М у с х е л и Ii ви л и Н. И.. Сингулярные интегралыные уравнения, 3 изд., М., 1968; [5] В л а д и м ир о в В. С., методы теории функций многих комплексных переменных, М., 1964; [6] П р и в а л о в И. И., Интеграл Саuchy, Саратов, 1918; [7] е г о ж е, Граничные свойства аналитических функцй, 2 изд., М. - Л., 1950; [8] Х а в и н с о н С. Я.,в кн.: Ктоги науки. Математический анализ. 1963, М., 1965, в кн.: Итоги науки. Математический анализ. 1963, М., 1965,с. $5-80 ;$ [9] X в е д е л и д з е Б. В., в кн.: «современные прослемы математики&quot;, т. 7, M., 1975, c. 5-162; [10] C a ld e-r ón A. P., &quot;proc. Nat. Acad. Sci. Usa&quot;, 1977, v. 74, Nr 4, r ón A. P., &quot;proc. Nat. Acad. Sci. Usa», 1977, v. 74, Nㅏ 4,p. 1324-27.</literature_orig>
+    <unit>
+      <author>Cauchy A. L.</author>
+      <title>Sur la mécanique céleste et sur un nouveau calcul appelé calcul des limites, Turin</title>
+      <publication/>
+      <year>1831</year>
+      <other>ser. 1, t. 8, P., 1892)</other>
+    </unit>
+    <unit>
+      <author>Iiia6aт Б. B.</author>
+      <title>Введение в комплексный анализ</title>
+      <publication>2 изд., ч. 1-2</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>маpку Iiевич А. И.</author>
+      <title>Теория аналитических функций</title>
+      <publication>2 изд., т. 1, М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>М у с х е л и Ii ви л и Н. И.. Сингулярные интегралыные уравнения</title>
+      <publication>3 изд., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>методы теории функций многих комплексных переменных</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Привалов И. И.</author>
+      <title>Интеграл Саuchy, Саратов</title>
+      <publication/>
+      <year>1918</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>е г о ж е, Граничные свойства аналитических функцй</title>
+      <publication>2 изд., М. - Л.</publication>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хавинсон С. Я.</author>
+      <title>в кн.: Ктоги науки. Математический анализ. 1963</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other>в кн.: Итоги науки. Математический анализ. 1963, М., 1965, с. $5-80 ;$</other>
+    </unit>
+    <unit>
+      <author>Xведелидзе Б. В.</author>
+      <title>в кн.: «современные прослемы математики&quot;</title>
+      <publication>M.</publication>
+      <year>1975</year>
+      <other>т. 7, c. 5-162</other>
+    </unit>
+    <unit>
+      <author>Calde-rón A. P.</author>
+      <title>&quot;proc. Nat. Acad. Sci. Usa&quot;</title>
+      <publication/>
+      <year>1977</year>
+      <other>v. 74, Nr 4, r ón A. P., &quot;proc. Nat. Acad. Sci. Usa», 1977, v. 74, Nㅏ 4, p. 1324-27.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/48_1_KOIII">\lim _{\max \Delta x_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i-1}\right) \Delta x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_2_KOIII">\int_{a}^{b} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_3_KOIII">\frac{1}{2 \pi i(\zeta-z)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_4_KOIII">f(z)=\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \zeta}{\zeta-z} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_5_KOIII">\frac{f(\zeta)}{2 \pi i(\zeta-z)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_6_KOIII">\frac{1}{2 \pi i} \int_{L} \frac{f(\xi) d \xi}{\xi-z}=0, \quad z \in C \bar{G} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_7_KOIII">L=\left\{\zeta=z+\rho e^{i \theta} ; \quad 0 \leqslant \theta&lt;2 \pi\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_8_KOIII">f(z)=\frac{1}{2 \pi i} \int_{0}^{2 \pi} f\left(z+\rho^{i \theta}\right) d \theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_9_KOIII">f(\infty)=\lim _{z \rightarrow \infty} f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_10_KOIII">\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \zeta}{\zeta-z}= \begin{cases}f(\infty)-f(z), &amp; z \in C \bar{G} ; \\ f(\infty), &amp; z \in G .\end{cases}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_11_KOIII">F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-z}, z \notin \Gamma .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_12_KOIII">F^{(n)}(z)=\frac{n !}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \zeta}{(\zeta-z)^{n+1}}, \quad z \notin \Gamma ; \quad n=0,1, \ldots ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_13_KOIII">\lim _{\varepsilon \rightarrow 0} \frac{1}{2 \pi i} \int_{\Gamma_{\varepsilon}} \frac{\varphi(\xi) d \xi}{\zeta-\xi_{0}}=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-\xi_{0}}, \quad \zeta_{0} \in \Gamma,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_14_KOIII">\left|\varphi\left(\zeta^{\prime}\right)-\varphi\left(\zeta^{\prime \prime}\right)\right| \leqslant C\left|\zeta^{\prime}-\zeta^{\prime \prime}\right|^{\mu}, \quad \mu&gt;0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_15_KOIII">F^{ \pm}\left(\zeta_{0}\right)= \pm \frac{1}{2} \varphi\left(\zeta_{0}\right)+\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-\zeta_{0}}, \quad \zeta_{0} \in \Gamma,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_16_KOIII">\begin{gathered}F^{+}\left(\zeta_{0}\right)-F^{-}\left(\zeta_{0}\right)=\varphi\left(\zeta_{0}\right), \\F^{+}\left(\zeta_{0}\right)+F^{-}\left(\zeta_{0}\right)=\frac{1}{\pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \zeta}{\zeta-\zeta_{0}}, \quad \zeta_{0} \in \Gamma .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_17_KOIII">F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{e^{i \psi} d \Phi(s)}{\zeta-z}, \zeta=\zeta(s), z \notin \Gamma,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_18_KOIII">F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-z}, z \notin \Gamma,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_19_KOIII">W\left(\zeta_{0} ; \varepsilon, \alpha_{0}\right)=\frac{1}{2 \pi i}\left[\int_{\Gamma} \frac{e^{i \psi_{d} \Phi(s)}}{\zeta-z}-\int_{\Gamma_{\varepsilon}} \frac{e^{i \psi_{d} \Phi(s)}}{\zeta-\zeta_{0}}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_20_KOIII">\lim _{\varepsilon \rightarrow 0} W\left(\zeta_{0} ; \varepsilon, \alpha_{0}\right)= \pm \Phi^{\prime}\left(\zeta_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_21_KOIII">F^{ \pm}\left(\zeta_{0}\right)= \pm \frac{1}{2} \Phi^{\prime}\left(s_{0}\right)+\frac{1}{2 \pi i} \int_{\Gamma} \frac{e^{i \psi_{d} \Phi(s)}}{\zeta-\zeta_{0}}, \zeta_{0} \in \Gamma .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_22_KOIII">F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \zeta}{\zeta-z},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_23_KOIII">\int_{\Gamma} \zeta^{n} \varphi(\zeta) d \zeta=0, \quad n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_24_KOIII">\int_{\Gamma} \zeta^{n} e^{i \Psi} d \Phi(s)=0, \quad n=0,1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_25_KOIII">F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{e^{i \Psi} d \Phi(s)}{\zeta-z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_26_KOIII">F(z)=\frac{1}{2 \pi} \int_{0}^{2 \pi} \frac{\zeta d \Phi(\theta)}{\zeta-z},|z|&lt;1, \quad \zeta=e^{i \theta},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_27_KOIII">\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \xi}{\zeta-z}-\frac{1}{\pi} \iint_{D} \frac{\partial f}{\partial \bar{\zeta}} \frac{d \zeta d \eta}{\zeta-z}= \begin{cases}f(z), &amp; z \in D \\ 0, &amp; z \in C \bar{D}\end{cases}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_28_KOIII">\frac{\partial f}{\partial \bar{\zeta}}=\frac{1}{2}\left(\frac{\partial f}{\partial \xi}+i \frac{\partial f}{\partial \eta}\right), \quad \zeta=\xi+i \eta .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_29_KOIII">f(z)=\frac{1}{(2 \pi i)^{n}} \int_{T} \frac{f(\zeta) d \xi}{\zeta-z}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_1_KOIII">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_2_KOIII">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_3_KOIII">a=x_{0}&lt;x_{1}&lt;\ldots&lt;x_{i-1}&lt;x_{i}&lt;\ldots&lt;x_{n}=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_4_KOIII">\delta x_{i}=x_{i}-x_{i-1}, i=1,2, \ldots, n ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_5_KOIII">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_6_KOIII">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_7_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_8_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_9_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_10_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_11_KOIII">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_12_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_13_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_14_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_15_KOIII">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_16_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_17_KOIII">l ; 2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_18_KOIII">\zeta \in L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_19_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_20_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_21_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_22_KOIII">z \in C \bar{G}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_23_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_24_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_25_KOIII">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_26_KOIII">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_27_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_28_KOIII">z \in D</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_29_KOIII">l \subset D</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_30_KOIII">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_31_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_32_KOIII">c \bar{G}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_33_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_34_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_35_KOIII">z \neq \infty, \varphi(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_36_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_37_KOIII">z-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_38_KOIII">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_39_KOIII">\varphi(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_40_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_41_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_42_KOIII">f^{(n)}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_43_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_44_KOIII">f(\infty)=0, F(z)=O(1 / z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_45_KOIII">z \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_46_KOIII">\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_47_KOIII">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_48_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_49_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_50_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_51_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_52_KOIII">f^{+}\left(\zeta_{0}\right)=f\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_53_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_54_KOIII">\zeta_{0} \in L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_55_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_56_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_57_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_58_KOIII">f-\left(\zeta_{0}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_59_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_60_KOIII">\zeta_{0} \in L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_61_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_62_KOIII">f+\left(\zeta_{0}\right)-F-\left(\zeta_{0}\right)=f\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_63_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_64_KOIII">\zeta=\zeta(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_65_KOIII">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_66_KOIII">\zeta_{0}=\zeta\left(s_{0}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_67_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_68_KOIII">\gamma_{\varepsilon}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_69_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_70_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_71_KOIII">\zeta\left(s_{0}-\varepsilon\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_72_KOIII">\zeta\left(s_{0}+\varepsilon\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_73_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_74_KOIII">\zeta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_75_KOIII">\varphi(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_76_KOIII">f^{+}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_77_KOIII">f^{-(z)}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_78_KOIII">\zeta_{0} \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_79_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_80_KOIII">\frac{f\left(\zeta_{0}\right)}{2}, F+\left(\zeta_{0}\right)-F-\left(\zeta_{0}\right)=f\left(\zeta_{0}\right), F+\left(\zeta_{0}\right)+F-\left(\zeta_{0}\right)=f\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_81_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_82_KOIII">l, \psi=\psi(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_83_KOIII">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_84_KOIII">к \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_85_KOIII">\zeta=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_86_KOIII">=\zeta(s) \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_87_KOIII">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_88_KOIII">\phi(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_89_KOIII">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_90_KOIII">[0, l]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_91_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_92_KOIII">\phi(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_93_KOIII">\varphi(\zeta)=\varphi[\zeta(s)]=\phi^{\prime}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_94_KOIII">\zeta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_95_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_96_KOIII">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_97_KOIII">\psi_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_98_KOIII">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_99_KOIII">\zeta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_100_KOIII">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_101_KOIII">\left|z-\zeta_{0}\right|=\varepsilon, \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_102_KOIII">z=\zeta_{0} \pm \varepsilon i e^{i\left(\varpi_{0}+\alpha_{0}\right)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_103_KOIII">\gamma_{\varepsilon}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_104_KOIII">\zeta_{0} \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_105_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_106_KOIII">\mathbf{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_107_KOIII">\zeta_{0} \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_108_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_109_KOIII">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_110_KOIII">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_111_KOIII">\left|\alpha_{0}\right|&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_112_KOIII">&lt;\pi / 2-\delta, \delta&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_113_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_114_KOIII">f^{ \pm}\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_115_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_116_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_117_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_118_KOIII">\zeta_{0} \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_119_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_120_KOIII">\bar{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_121_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_122_KOIII">\varphi(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_123_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_124_KOIII">\left|\varphi\left(\zeta^{\prime}\right)-\varphi\left(\zeta^{\prime \prime}\right)\right| \leqslant C\left|\zeta^{\prime}-\zeta^{\prime \prime}\right|, \quad \zeta^{\prime}, \zeta^{\prime \prime} \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_125_KOIII">\mathbf{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_126_KOIII">f^{+}\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_127_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_128_KOIII">\varphi\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_129_KOIII">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_130_KOIII">\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_131_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_132_KOIII">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_133_KOIII">\varphi(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_134_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_135_KOIII">f^{+}\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_136_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_137_KOIII">\phi^{\prime}\left(s_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_138_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_139_KOIII">f^{-}\left(\zeta_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_140_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_141_KOIII">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_142_KOIII">\phi(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_143_KOIII">[0, l]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_144_KOIII">\varphi(\zeta)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_145_KOIII">=\varphi[\zeta(s)]=\phi^{\prime}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_146_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_147_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_148_KOIII">a(d), B(D)=H_{\infty}(D), H_{p}(D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_149_KOIII">n *(D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_150_KOIII">d=\{z:|z|&lt;1\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_151_KOIII">\gamma=\{z:|z|=1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_152_KOIII">h_{p}, 0&lt;p&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_153_KOIII">h_{p}, 0&lt;p&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_154_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_155_KOIII">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_156_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_157_KOIII">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_158_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_159_KOIII">e_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_160_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_161_KOIII">c^{\mathbf{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_162_KOIII">\bar{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_163_KOIII">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_164_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_165_KOIII">z=\left(z_{1}, \ldots, z_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_166_KOIII">\bar{d}, D=\left\{z \in \mathbb{C}^{n}:\left|z_{v}-a_{v}\right|&lt;r_{v}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_167_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_168_KOIII">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_169_KOIII">t=\left\{\zeta \in \mathbb{C}^{n}:\left|\zeta_{v}-a_{v}\right|=r_{v}, \quad v=1, \ldots, n\right\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_170_KOIII">\zeta=\left(\zeta_{1}, \ldots, \zeta_{n}\right), d \zeta=d \zeta_{1} . . d \zeta_{n}, \quad \zeta-z=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_171_KOIII">=\left(\zeta_{1}-z_{1}\right) \ldots\left(\zeta_{n}-z_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_172_KOIII">l=\{z \in \mathbb{C}:|z-a|=r\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_173_KOIII">n&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_174_KOIII">d=d_{1} \times D_{2} \times \ldots \times D_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_175_KOIII">\mathbb{c}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_176_KOIII">d_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_177_KOIII">\partial D_{v}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_178_KOIII">=\left\{z_{v}=z_{v}\left(t_{v}\right), 0 \leqslant t_{v} \leqslant 1\right\}, \quad T=\partial D_{1} \times \partial D_{2} \times \ldots \partial D_{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_179_KOIII">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_180_KOIII">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_181_KOIII">n&gt;1</formula>
+  </formulas_aux>
+  <relations n="53">
+    <relation uri="http://libmeta.ru/me/relation/48_1_KOIII">
+      <rel_text>Граничные свойства</rel_text>
+      <target>http://libmeta.ru/me/article/1168_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_2_KOIII">
+      <rel_text>Граничные свойства</rel_text>
+      <target>http://libmeta.ru/me/article/1168_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_3_KOIII">
+      <rel_text>представлений</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_4_KOIII">
+      <rel_text>интегральных</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_5_KOIII">
+      <rel_text>граничные свойства</rel_text>
+      <target>http://libmeta.ru/me/article/1168_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_6_KOIII">
+      <rel_text>представление</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_7_KOIII">
+      <rel_text>Мартинелли</rel_text>
+      <target>http://libmeta.ru/me/article/572_MARTINGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_8_KOIII">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_9_KOIII">
+      <rel_text>интегральной</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_10_KOIII">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_11_KOIII">
+      <rel_text>комплексных</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_12_KOIII">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_13_KOIII">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_14_KOIII">
+      <rel_text>Формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_15_KOIII">
+      <rel_text>многообразие</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_16_KOIII">
+      <rel_text>представляющий</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_17_KOIII">
+      <rel_text>произведение</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_18_KOIII">
+      <rel_text>поликруга</rel_text>
+      <target>http://libmeta.ru/me/article/395_POLIVEKTOR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_19_KOIII">
+      <rel_text>границу</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_20_KOIII">
+      <rel_text>распространено</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_21_KOIII">
+      <rel_text>интегрирование</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_22_KOIII">
+      <rel_text>окружности</rel_text>
+      <target>http://libmeta.ru/me/article/6_OKRUGLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_23_KOIII">
+      <rel_text>Формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_24_KOIII">
+      <rel_text>поликруга</rel_text>
+      <target>http://libmeta.ru/me/article/395_POLIVEKTOR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_25_KOIII">
+      <rel_text>представима</rel_text>
+      <target>http://libmeta.ru/me/article/606_PREDPORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_26_KOIII">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_27_KOIII">
+      <rel_text>поликруге</rel_text>
+      <target>http://libmeta.ru/me/article/395_POLIVEKTOR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_28_KOIII">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_29_KOIII">
+      <rel_text>комплексных</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_30_KOIII">
+      <rel_text>Функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_31_KOIII">
+      <rel_text>регулярная</rel_text>
+      <target>http://libmeta.ru/me/article/1037_REGULJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_32_KOIII">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_33_KOIII">
+      <rel_text>интегральных</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_34_KOIII">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_35_KOIII">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_36_KOIII">
+      <rel_text>многочисленные</rel_text>
+      <target>http://libmeta.ru/me/article/725_MNOGOUGOL'NI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_37_KOIII">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_38_KOIII">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_39_KOIII">
+      <rel_text>кривой</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_40_KOIII">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_41_KOIII">
+      <rel_text>произвольная</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_42_KOIII">
+      <rel_text>сложнее</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_43_KOIII">
+      <rel_text>представимых</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_44_KOIII">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_45_KOIII">
+      <rel_text>Характеристики</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_46_KOIII">
+      <rel_text>аналитических функций</rel_text>
+      <target>http://libmeta.ru/me/article/183_ANALITIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_47_KOIII">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_48_KOIII">
+      <rel_text>представимых</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_49_KOIII">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_50_KOIII">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_51_KOIII">
+      <rel_text>спрямляемой кривой</rel_text>
+      <target>http://libmeta.ru/me/article/153_SPRJaMLJaEMAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_52_KOIII">
+      <rel_text>односвязной области</rel_text>
+      <target>http://libmeta.ru/me/article/1185_ODNOSVJaZNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_53_KOIII">
+      <rel_text>произвольной</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+  </relations>
+  <text>1) К. и.- определенный теграл от непрерывной функции одного действительного переменного. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/48_1_KOIII]]/URI$ непрерывна на отрезке $URI[[http://libmeta.ru/me/formula/aux/48_2_KOIII]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_3_KOIII]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/48_4_KOIII]]/URI$ предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_1_KOIII]]/URI
+\]
+
+наз. о п р е д ле н ным интегралом по К о ши от функции $URI[[http://libmeta.ru/me/formula/aux/48_5_KOIII]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/48_6_KOIII]]/URI$ и обозначают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_2_KOIII]]/URI
+\]
+
+К. И.- частный случай Римана интеграла. Определение дано О. Коши в [1].
+
+Jum.: [1] C a u c h y A. L., Résumé des leçons données à l'ecole Royale Polytechnique sur le calcul infinitésimal, t. 1,
+
+2) К. и. - интеграл с я д р о м К о ши
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_3_KOIII]]/URI
+\]
+
+выражающий значения регулярной аналитич. функции $URI[[http://libmeta.ru/me/formula/aux/48_7_KOIII]]/URI$ внутри контура $URI[[http://libmeta.ru/me/formula/aux/48_8_KOIII]]/URI$ через ее значения на $URI[[http://libmeta.ru/me/formula/aux/48_9_KOIII]]/URI$. Точнее, пусть $URI[[http://libmeta.ru/me/formula/aux/48_10_KOIII]]/URI$ - регулярная аналитич. функция комплексного переменного $URI[[http://libmeta.ru/me/formula/aux/48_11_KOIII]]/URI$ в области $URI[[http://libmeta.ru/me/formula/aux/48_12_KOIII]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_13_KOIII]]/URI$ - замкнутая кусочно гладкая жорданова кривая, расположенная в $URI[[http://libmeta.ru/me/formula/aux/48_14_KOIII]]/URI$ вместе со своей внутренностью $URI[[http://libmeta.ru/me/formula/aux/48_15_KOIII]]/URI$, причем обход $URI[[http://libmeta.ru/me/formula/aux/48_16_KOIII]]/URI$ совершается против часовой стрелки. Тогда справедлива основная в теории аналитпч. функций одного комплекгного переменного ин т е г р а льн а я ф о р му ла К о ши:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_4_KOIII]]/URI
+\]
+
+Стоящий справа в формуле (1) интеграл и наз. и н т е гр а ло м К о ши.
+
+Впервые, по-видимому, К. и., применительно к частным ситуациям, появляется в работах О. Коши [1].
+
+К. и. характеризуется, таким образом, двумя условиями: 1) К. и. берется по замкнутой гладкой или хотя бы кусочно гладкой кривой $URI[[http://libmeta.ru/me/formula/aux/48_17_KOIII]]/URI$ подинтегральная функция К. и. имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_5_KOIII]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/48_18_KOIII]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/48_19_KOIII]]/URI$ - регулярная аналитич. функция на $URI[[http://libmeta.ru/me/formula/aux/48_20_KOIII]]/URI$ и внутри $URI[[http://libmeta.ru/me/formula/aux/48_21_KOIII]]/URI$. Если в К. и. $URI[[http://libmeta.ru/me/formula/aux/48_22_KOIII]]/URI$, т. е. если z расположена во внешности кривой $URI[[http://libmeta.ru/me/formula/aux/48_23_KOIII]]/URI$, то при сохранении условий 1) и 2):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_6_KOIII]]/URI
+\]
+
+В частности, если $URI[[http://libmeta.ru/me/formula/aux/48_24_KOIII]]/URI$ - окружность радиуса $URI[[http://libmeta.ru/me/formula/aux/48_25_KOIII]]/URI$ с центром $URI[[http://libmeta.ru/me/formula/aux/48_26_KOIII]]/URI$, T. e.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_7_KOIII]]/URI
+\]
+
+то из (1) следует
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_8_KOIII]]/URI
+\]
+
+т. е. значение $URI[[http://libmeta.ru/me/formula/aux/48_27_KOIII]]/URI$ в любой точке $URI[[http://libmeta.ru/me/formula/aux/48_28_KOIII]]/URI$ равно среднему арифметическому ее значений на любой достаточно малой окружности $URI[[http://libmeta.ru/me/formula/aux/48_29_KOIII]]/URI$ с центром $URI[[http://libmeta.ru/me/formula/aux/48_30_KOIII]]/URI$. Формула (1) позво- ляет получить и все остальные элементарные свойства аналитич. функций.
+
+Если, с другой стороны, $URI[[http://libmeta.ru/me/formula/aux/48_31_KOIII]]/URI$ является регулярной аналитич. функцией в бесконечной области $URI[[http://libmeta.ru/me/formula/aux/48_32_KOIII]]/URI$ внешности замкнутой кривой $URI[[http://libmeta.ru/me/formula/aux/48_33_KOIII]]/URI$ и на $URI[[http://libmeta.ru/me/formula/aux/48_34_KOIII]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_9_KOIII]]/URI
+\]
+
+то справедлива инте г р л ьная фо о м у ла Коши для бесконечно й обл а сти:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_10_KOIII]]/URI
+\]
+
+Пусть теперь Г- некоторая, не обязательно замкнутая, кусочно гладкая кривая, расположенная в конечной плоскости $URI[[http://libmeta.ru/me/formula/aux/48_35_KOIII]]/URI$ - непрерывная комплексная функция на $URI[[http://libmeta.ru/me/formula/aux/48_36_KOIII]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_37_KOIII]]/URI$ точка, не лежащая на $URI[[http://libmeta.ru/me/formula/aux/48_38_KOIII]]/URI$. И нте гра лом ти п а К о и и (и. т. К.) наз. обобцение К. и. в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_11_KOIII]]/URI
+\]
+
+Функцию $URI[[http://libmeta.ru/me/formula/aux/48_39_KOIII]]/URI$ наз. иногда п л о т н о с т ь ю и н т е гр а л а т и п а К о ш и. Простейшие свойства и. т. К.: 1) $URI[[http://libmeta.ru/me/formula/aux/48_40_KOIII]]/URI$ - регулярная аналитич. функция переменного z в любой области, не содержащей точек $URI[[http://libmeta.ru/me/formula/aux/48_41_KOIII]]/URI$;
+
+2) производные $URI[[http://libmeta.ru/me/formula/aux/48_42_KOIII]]/URI$ выражаются формулами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_12_KOIII]]/URI
+\]
+
+3) функция $URI[[http://libmeta.ru/me/formula/aux/48_43_KOIII]]/URI$ регулярна в бесконечности, причем $URI[[http://libmeta.ru/me/formula/aux/48_44_KOIII]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/48_45_KOIII]]/URI$.
+
+$URI[[http://libmeta.ru/me/formula/aux/48_46_KOIII]]/URI$ точки зрения общей теории аналитич. Функций и применений $URI[[http://libmeta.ru/me/formula/aux/48_47_KOIII]]/URI$ механике и физике, основное значение имеет вопрос о существовании граничных значений и. т. К. при приближении к Г и об их аналитич. выражении. К.и. (1) всюду внутри $URI[[http://libmeta.ru/me/formula/aux/48_48_KOIII]]/URI$ равен $URI[[http://libmeta.ru/me/formula/aux/48_49_KOIII]]/URI$, а во внешности он тождественно равен нулю. Поэтому, когда и.т.К. (3) обращается в К. и., т. е. когда выполняются условия 1) и 2), функция $URI[[http://libmeta.ru/me/formula/aux/48_50_KOIII]]/URI$ при приближении к $URI[[http://libmeta.ru/me/formula/aux/48_51_KOIII]]/URI$ слева (т. е. изнутри) имеет граничные значения $URI[[http://libmeta.ru/me/formula/aux/48_52_KOIII]]/URI$, и при этих значениях на $URI[[http://libmeta.ru/me/formula/aux/48_53_KOIII]]/URI$ она непрерывна в каждой точке $URI[[http://libmeta.ru/me/formula/aux/48_54_KOIII]]/URI$ слева от $URI[[http://libmeta.ru/me/formula/aux/48_55_KOIII]]/URI$; при приближении к $URI[[http://libmeta.ru/me/formula/aux/48_56_KOIII]]/URI$ справа (т. е. извне) $URI[[http://libmeta.ru/me/formula/aux/48_57_KOIII]]/URI$ имеет граничные значения нуль, $URI[[http://libmeta.ru/me/formula/aux/48_58_KOIII]]/URI$, и при этих значениях на $URI[[http://libmeta.ru/me/formula/aux/48_59_KOIII]]/URI$ она непрерывна в каждой точке $URI[[http://libmeta.ru/me/formula/aux/48_60_KOIII]]/URI$ справа от $URI[[http://libmeta.ru/me/formula/aux/48_61_KOIII]]/URI$. Т. обр., для К. и. $URI[[http://libmeta.ru/me/formula/aux/48_62_KOIII]]/URI$.
+
+Для и. т. К. общего вида дело обстоит несколько сложнее. Пусть кривая $URI[[http://libmeta.ru/me/formula/aux/48_63_KOIII]]/URI$ задана уравнением $URI[[http://libmeta.ru/me/formula/aux/48_64_KOIII]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/48_65_KOIII]]/URI$ - длина ее дуги, отсчитываемая от какой-либо фиксированной точки, $URI[[http://libmeta.ru/me/formula/aux/48_66_KOIII]]/URI$ произвольно фиксированная точка на $URI[[http://libmeta.ru/me/formula/aux/48_67_KOIII]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_68_KOIII]]/URI$ та часть кривой $URI[[http://libmeta.ru/me/formula/aux/48_69_KOIII]]/URI$, к-рая остается после удаления из $URI[[http://libmeta.ru/me/formula/aux/48_70_KOIII]]/URI$ меньшей дуги с концами $URI[[http://libmeta.ru/me/formula/aux/48_71_KOIII]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_72_KOIII]]/URI$. Если существует конечный предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_13_KOIII]]/URI
+\]
+
+то он наз. с ин гуля рным, или о с о бым, и нт е г р а л о м. Доказано, напр., что сингулярный интеграл (4) существует, если кривая Г гладкая в окрестности отличной от концов $URI[[http://libmeta.ru/me/formula/aux/48_73_KOIII]]/URI$ точки $URI[[http://libmeta.ru/me/formula/aux/48_74_KOIII]]/URI$, а плотность $URI[[http://libmeta.ru/me/formula/aux/48_75_KOIII]]/URI$ удовлетворяет условию Гёльдера
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_14_KOIII]]/URI
+\]
+
+При этих условиях существуют и граничные значения, к-рые выражаются фо о м у л а м и С о о цк 0 г 0 :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_15_KOIII]]/URI
+\]
+
+а функции $URI[[http://libmeta.ru/me/formula/aux/48_76_KOIII]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_77_KOIII]]/URI$ непрерывны в окрестности $URI[[http://libmeta.ru/me/formula/aux/48_78_KOIII]]/URI$ соответственно слева и справа от $URI[[http://libmeta.ru/me/formula/aux/48_79_KOIII]]/URI$. В случае К. и. сингулярный интеграл равен $URI[[http://libmeta.ru/me/formula/aux/48_80_KOIII]]/URI$. В әквивалентной форме формулы (5) записываются так:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_16_KOIII]]/URI
+\]
+
+Формулы Сохоцкого (5) - (7) имеют основное значение при решении граничных задач теории аналитических функций, сингулярных интегральных уравнений, связанных с и. т. К., а также при решении ряда задач гидродинамики, теории упругости и др.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/48_81_KOIII]]/URI$ - произвольная, для простоты замкнутая, спрямляемая кривая длины $URI[[http://libmeta.ru/me/formula/aux/48_82_KOIII]]/URI$ - угол между направлением оси $URI[[http://libmeta.ru/me/formula/aux/48_83_KOIII]]/URI$ и касательной $URI[[http://libmeta.ru/me/formula/aux/48_84_KOIII]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/48_85_KOIII]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/48_86_KOIII]]/URI$, рассматриваемый как функция длины дуги $URI[[http://libmeta.ru/me/formula/aux/48_87_KOIII]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/48_88_KOIII]]/URI$ - комплексная функция длины дуги $URI[[http://libmeta.ru/me/formula/aux/48_89_KOIII]]/URI$ ограниченной вариации на $URI[[http://libmeta.ru/me/formula/aux/48_90_KOIII]]/URI$. Выражение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_17_KOIII]]/URI
+\]
+
+наз. и нте г е с а (и. т. К.-С.). Иначе говоря, И. т. К. - С. есть и. т. К. по произвольной конечной комплексной борелевской мере, сосредоточенной на $URI[[http://libmeta.ru/me/formula/aux/48_91_KOIII]]/URI$. Если функция $URI[[http://libmeta.ru/me/formula/aux/48_92_KOIII]]/URI$ абсолютно непрерывна, то и. т. К.-С. превращается в ин т е грал ти па Коши-Л е бега (и. т. К.-Л.), часто называемый также просто и нте г ралом ти па К оши:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_18_KOIII]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/48_93_KOIII]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/48_94_KOIII]]/URI$-точка $URI[[http://libmeta.ru/me/formula/aux/48_95_KOIII]]/URI$, в к-рой существует определенная касательная, наклоненная к оси $URI[[http://libmeta.ru/me/formula/aux/48_96_KOIII]]/URI$ под углом $URI[[http://libmeta.ru/me/formula/aux/48_97_KOIII]]/URI$; такие точки имеются на спрямляемой кривой почти всюду. Пусть точка $URI[[http://libmeta.ru/me/formula/aux/48_98_KOIII]]/URI$ находится на нек-рой прямой, проходящей через $URI[[http://libmeta.ru/me/formula/aux/48_99_KOIII]]/URI$ и наклоненной к нормали под углом $URI[[http://libmeta.ru/me/formula/aux/48_100_KOIII]]/URI$, на расстоянии $URI[[http://libmeta.ru/me/formula/aux/48_101_KOIII]]/URI$ т. е. $URI[[http://libmeta.ru/me/formula/aux/48_102_KOIII]]/URI$. Разность между и.т. К. - С. (8) и интегралом по $URI[[http://libmeta.ru/me/formula/aux/48_103_KOIII]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_19_KOIII]]/URI
+\]
+
+определена во всех точках $URI[[http://libmeta.ru/me/formula/aux/48_104_KOIII]]/URI$, в к-рых существует определенная касательная, т. е. почти всюду на $URI[[http://libmeta.ru/me/formula/aux/48_105_KOIII]]/URI$. В теории и. т. К. - С. важное значение имеет о с н о в в $URI[[http://libmeta.ru/me/formula/aux/48_106_KOIII]]/URI$ я л е м м а П р и в а л о в а: предельный переход
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_20_KOIII]]/URI
+\]
+
+осуществляется для всех точек $URI[[http://libmeta.ru/me/formula/aux/48_107_KOIII]]/URI$, кроме, быть может, точек множества меры нуль на $URI[[http://libmeta.ru/me/formula/aux/48_108_KOIII]]/URI$, не зависящего от $URI[[http://libmeta.ru/me/formula/aux/48_109_KOIII]]/URI$, равномерно относительно $URI[[http://libmeta.ru/me/formula/aux/48_110_KOIII]]/URI$ в любом угле $URI[[http://libmeta.ru/me/formula/aux/48_111_KOIII]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/48_112_KOIII]]/URI$. Если сингулярный интеграл существует почти всюду на Г, то и. т. К.-С. имеет почти всюду на $URI[[http://libmeta.ru/me/formula/aux/48_113_KOIII]]/URI$ угловые граничные значения $URI[[http://libmeta.ru/me/formula/aux/48_114_KOIII]]/URI$, для к-рых справедливы фо о м у лы С о х о ц к о го:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_21_KOIII]]/URI
+\]
+
+Верно и обратное: если и. т. К.-С. почти всюду на $URI[[http://libmeta.ru/me/formula/aux/48_115_KOIII]]/URI$ имеет угловые граничные значения изнутри и извне $URI[[http://libmeta.ru/me/formula/aux/48_116_KOIII]]/URI$, то сингулярный интеграл существует и формулы (10) справедливы почти всюду на Г. Полного решения проблемы необходимых и достаточных условий существования граничных значений в достаточно простых терминах для и. Т. К. -С. и даже для и. т. К.-Ј. пока (1982) не получено. В отличие от рассмотренного выше случая и. т.К. по гладкой кривой $URI[[http://libmeta.ru/me/formula/aux/48_117_KOIII]]/URI$, даже при наличии угловых граничных значений, и. т. К.-С. уже, вообще говоря, не является непрерывной функцией в окрестности точки $URI[[http://libmeta.ru/me/formula/aux/48_118_KOIII]]/URI$ слева или справа от $URI[[http://libmeta.ru/me/formula/aux/48_119_KOIII]]/URI$. Здесь известно, напр., что и. т. К.-J. (9) непрерывен в замкнутой области $URI[[http://libmeta.ru/me/formula/aux/48_120_KOIII]]/URI$, ограниченной спрямляемым контуром $URI[[http://libmeta.ru/me/formula/aux/48_121_KOIII]]/URI$, при дополнительном условии, что его плотность $URI[[http://libmeta.ru/me/formula/aux/48_122_KOIII]]/URI$ удовлетворяет на $URI[[http://libmeta.ru/me/formula/aux/48_123_KOIII]]/URI$ условию Липшица
+
+$URI[[http://libmeta.ru/me/formula/aux/48_124_KOIII]]/URI$.
+
+Относительно и. т. К.-Л. (9) говорят, что он обращается в $URI[[http://libmeta.ru/me/formula/aux/48_125_KOIII]]/URI$. и.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_22_KOIII]]/URI
+\]
+
+понимаемый в смысле Лебега, если угловые граничные значения $URI[[http://libmeta.ru/me/formula/aux/48_126_KOIII]]/URI$ изнутри $URI[[http://libmeta.ru/me/formula/aux/48_127_KOIII]]/URI$ совпадают с $URI[[http://libmeta.ru/me/formula/aux/48_128_KOIII]]/URI$ почти всюду на контуре Г. Иначе говоря, интеграл (9) обращается в K. и. (11), если угловые граничные значения $URI[[http://libmeta.ru/me/formula/aux/48_129_KOIII]]/URI$ - $URI[[http://libmeta.ru/me/formula/aux/48_130_KOIII]]/URI$ извне $URI[[http://libmeta.ru/me/formula/aux/48_131_KOIII]]/URI$ равны нулю почти всюду на $URI[[http://libmeta.ru/me/formula/aux/48_132_KOIII]]/URI$. Относящаяся сюда те о рем а гласит: суммируемая функция $URI[[http://libmeta.ru/me/formula/aux/48_133_KOIII]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/48_134_KOIII]]/URI$ тогда и только тогда представляет собой угловые граничные значения нек-рого К. и. изнутри Г, когда равны нулю все моменты
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_23_KOIII]]/URI
+\]
+
+Если выполнены аналогичные (12) условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_24_KOIII]]/URI
+\]
+
+то и. т. К. - С. (8) обращается в и н т е г р а л К оши - С ти л т в е с а (и. К. - С.):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_25_KOIII]]/URI
+\]
+
+т. е. угловые граничные значения $URI[[http://libmeta.ru/me/formula/aux/48_135_KOIII]]/URI$ изнутри $URI[[http://libmeta.ru/me/formula/aux/48_136_KOIII]]/URI$ совпадают с производной $URI[[http://libmeta.ru/me/formula/aux/48_137_KOIII]]/URI$ почти всюду на $URI[[http://libmeta.ru/me/formula/aux/48_138_KOIII]]/URI$ или, иначе говоря, угловые граничные значения $URI[[http://libmeta.ru/me/formula/aux/48_139_KOIII]]/URI$ извне $URI[[http://libmeta.ru/me/formula/aux/48_140_KOIII]]/URI$ равны нулю почти всюду на $URI[[http://libmeta.ru/me/formula/aux/48_141_KOIII]]/URI$. Условия (13) сразу обеспечивают абсолютную непрерывность функции $URI[[http://libmeta.ru/me/formula/aux/48_142_KOIII]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/48_143_KOIII]]/URI$, а следовательно, га самом деле в этом случае и. К.-С. (14) является и н т е г р а л о м К о ш и- Л е б е г а (и. К.-Л.) с плотностью $URI[[http://libmeta.ru/me/formula/aux/48_144_KOIII]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/48_145_KOIII]]/URI$. Таким образом, класс функций, представимых и. К. - С., совпадает с классом функций, представимых и. К.-Л.
+
+Важной задачей представляется внутренняя характеризация классов функций, регулярных в области $URI[[http://libmeta.ru/me/formula/aux/48_146_KOIII]]/URI$, ограниченной замкнутой спрямляемой кривой $URI[[http://libmeta.ru/me/formula/aux/48_147_KOIII]]/URI$, и представимых К. и. (11), и. т. К.-Ј. (9) или и. т. К. - С. (8) (о наиболее важных классах $URI[[http://libmeta.ru/me/formula/aux/48_148_KOIII]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_149_KOIII]]/URI$ см. в ст. URI[[http://libmeta.ru/me/relation/48_2_KOIII]]/URI аналитических бункций).
+
+В простейшем случае, когда $URI[[http://libmeta.ru/me/formula/aux/48_150_KOIII]]/URI$ единичный круг и $URI[[http://libmeta.ru/me/formula/aux/48_151_KOIII]]/URI$ - единичная окружность, и. т. К. - С., принимающий в этом случае вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_26_KOIII]]/URI
+\]
+
+изображает всегда функцию класса $URI[[http://libmeta.ru/me/formula/aux/48_152_KOIII]]/URI$. Обратная теорема неверна: совокупность функций классов $URI[[http://libmeta.ru/me/formula/aux/48_153_KOIII]]/URI$, шире, чем совокупность функций, представимых в виде (15). Напротив, совокупность функций, представимых в $URI[[http://libmeta.ru/me/formula/aux/48_154_KOIII]]/URI$ и. К.-С. или К. и., совпадает с классом $URI[[http://libmeta.ru/me/formula/aux/48_155_KOIII]]/URI$.
+
+В случае URI[[http://libmeta.ru/me/relation/48_53_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_52_KOIII]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_156_KOIII]]/URI$, ограниченной URI[[http://libmeta.ru/me/relation/48_51_KOIII]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_157_KOIII]]/URI$, URI[[http://libmeta.ru/me/relation/48_50_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_49_KOIII]]/URI, URI[[http://libmeta.ru/me/relation/48_48_KOIII]]/URI в $URI[[http://libmeta.ru/me/formula/aux/48_158_KOIII]]/URI$ и. K.-С. или К. и., URI[[http://libmeta.ru/me/relation/48_47_KOIII]]/URI с классом Смирнова $URI[[http://libmeta.ru/me/formula/aux/48_159_KOIII]]/URI$ (см. URI[[http://libmeta.ru/me/relation/48_1_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_46_KOIII]]/URI). URI[[http://libmeta.ru/me/relation/48_45_KOIII]]/URI классов URI[[http://libmeta.ru/me/relation/48_44_KOIII]]/URI, URI[[http://libmeta.ru/me/relation/48_43_KOIII]]/URI и. т. К.-С. или и. т. К.一л., значительно URI[[http://libmeta.ru/me/relation/48_42_KOIII]]/URI.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/48_160_KOIII]]/URI$ - URI[[http://libmeta.ru/me/relation/48_41_KOIII]]/URI (не аналитическая) URI[[http://libmeta.ru/me/relation/48_40_KOIII]]/URI класса $URI[[http://libmeta.ru/me/formula/aux/48_161_KOIII]]/URI$ в конечной замкнутой области $URI[[http://libmeta.ru/me/formula/aux/48_162_KOIII]]/URI$, ограниченной кусочно гладкой жордановой URI[[http://libmeta.ru/me/relation/48_39_KOIII]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_163_KOIII]]/URI$. Иногда и н те г ра льной фо рму ло й К о ши наз. также следующее обобщение классич. URI[[http://libmeta.ru/me/relation/48_38_KOIII]]/URI (1):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_27_KOIII]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_28_KOIII]]/URI
+\]
+
+Эта URI[[http://libmeta.ru/me/relation/48_37_KOIII]]/URI встречается, начиная, по-видимому, с работ Д. Помпею (d. Pompeiu, 1912). Она известна также как фор м ул а Пом п е ю, фо р м л а Бор еля - Помпе ю, форм ула Ко ши ии находит URI[[http://libmeta.ru/me/relation/48_36_KOIII]]/URI приложения в URI[[http://libmeta.ru/me/relation/48_35_KOIII]]/URI обобщенных аналитич. URI[[http://libmeta.ru/me/relation/48_34_KOIII]]/URI, сингулярных URI[[http://libmeta.ru/me/relation/48_33_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_32_KOIII]]/URI и в различных прикладных вопросах.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/48_164_KOIII]]/URI$ - URI[[http://libmeta.ru/me/relation/48_31_KOIII]]/URI аналитич. URI[[http://libmeta.ru/me/relation/48_30_KOIII]]/URI многих URI[[http://libmeta.ru/me/relation/48_29_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_28_KOIII]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_165_KOIII]]/URI$ в замкнутом URI[[http://libmeta.ru/me/relation/48_27_KOIII]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_166_KOIII]]/URI$. Тогда в каждой точке $URI[[http://libmeta.ru/me/formula/aux/48_167_KOIII]]/URI$ URI[[http://libmeta.ru/me/relation/48_26_KOIII]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_168_KOIII]]/URI$ URI[[http://libmeta.ru/me/relation/48_25_KOIII]]/URI к р а т ны м и нте г ралом К о пा и:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_29_KOIII]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/48_169_KOIII]]/URI$ остов URI[[http://libmeta.ru/me/relation/48_24_KOIII]]/URI, $URI[[http://libmeta.ru/me/formula/aux/48_170_KOIII]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/48_171_KOIII]]/URI$. URI[[http://libmeta.ru/me/relation/48_23_KOIII]]/URI (17) дает простейший аналог К. и. для URI[[http://libmeta.ru/me/relation/48_22_KOIII]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_172_KOIII]]/URI$, но при $URI[[http://libmeta.ru/me/formula/aux/48_173_KOIII]]/URI$ URI[[http://libmeta.ru/me/relation/48_21_KOIII]]/URI в (17) URI[[http://libmeta.ru/me/relation/48_20_KOIII]]/URI уже не на всю URI[[http://libmeta.ru/me/relation/48_19_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_18_KOIII]]/URI, а лишь на его остов. Вообще, пусть $URI[[http://libmeta.ru/me/formula/aux/48_174_KOIII]]/URI$ - поликруговая область в $URI[[http://libmeta.ru/me/formula/aux/48_175_KOIII]]/URI$, составленная как URI[[http://libmeta.ru/me/relation/48_17_KOIII]]/URI односвязных плоских областей $URI[[http://libmeta.ru/me/formula/aux/48_176_KOIII]]/URI$ с гладкими границами $URI[[http://libmeta.ru/me/formula/aux/48_177_KOIII]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/48_178_KOIII]]/URI$ ocтов $URI[[http://libmeta.ru/me/formula/aux/48_179_KOIII]]/URI$, URI[[http://libmeta.ru/me/relation/48_16_KOIII]]/URI собой гладкое $URI[[http://libmeta.ru/me/formula/aux/48_180_KOIII]]/URI$-мерное URI[[http://libmeta.ru/me/relation/48_15_KOIII]]/URI. URI[[http://libmeta.ru/me/relation/48_14_KOIII]]/URI (17) распространяется и на этот случай.
+
+Большое значение в URI[[http://libmeta.ru/me/relation/48_13_KOIII]]/URI аналитич. URI[[http://libmeta.ru/me/relation/48_12_KOIII]]/URI многих URI[[http://libmeta.ru/me/relation/48_11_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_10_KOIII]]/URI имеют более глубокие обобщения URI[[http://libmeta.ru/me/relation/48_9_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_8_KOIII]]/URI Коши, в первую очередь такие, как Лере форжула, названная самим Ж. Лере (j. Leray) ф о р м у ло й К о пі и - Фан т а п ь е, и Бохнера - URI[[http://libmeta.ru/me/relation/48_7_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_6_KOIII]]/URI. В связи с этим при $URI[[http://libmeta.ru/me/formula/aux/48_181_KOIII]]/URI$ изучаются в основном URI[[http://libmeta.ru/me/relation/48_5_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_4_KOIII]]/URI URI[[http://libmeta.ru/me/relation/48_3_KOIII]]/URI, отличных от (17).</text>
+  <text_orig>1) К. и.- определенный теграл от непрерывной функции одного действительного переменного. Пусть функция $f(x)$ непрерывна на отрезке $[a, b]$ и $a=x_{0}&lt;x_{1}&lt;\ldots&lt;x_{i-1}&lt;x_{i}&lt;\ldots&lt;x_{n}=b$, $\Delta x_{i}=x_{i}-x_{i-1}, i=1,2, \ldots, n ;$ предел
+
+\[
+\lim _{\max \Delta x_{i} \rightarrow 0} \sum_{i=1}^{n} f\left(x_{i-1}\right) \Delta x_{i}
+\]
+
+наз. о п р е д ле н ным интегралом по К о ши от функции $f(x)$ на отрезке $[a, b]$ и обозначают
+
+\[
+\int_{a}^{b} f(x) d x
+\]
+
+К. И.- частный случай Римана интеграла. Определение дано О. Коши в [1].
+
+Jum.: [1] C a u c h y A. L., Résumé des leçons données à l'Ecole Royale Polytechnique sur le calcul infinitésimal, t. 1,
+
+2) К. и. - интеграл с я д р о м К о ши
+
+\[
+\frac{1}{2 \pi i(\zeta-z)}
+\]
+
+выражающий значения регулярной аналитич. функции $f(z)$ внутри контура $L$ через ее значения на $L$. Точнее, пусть $f(z)$ - регулярная аналитич. функция комплексного переменного $z$ в области $D$ и $L$ - замкнутая кусочно гладкая жорданова кривая, расположенная в $D$ вместе со своей внутренностью $G$, причем обход $L$ совершается против часовой стрелки. Тогда справедлива основная в теории аналитпч. функций одного комплекгного переменного ин т е г р а льн а я ф о р му ла К о ши:
+
+\[
+f(z)=\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \zeta}{\zeta-z} .
+\]
+
+Стоящий справа в формуле (1) интеграл и наз. и н т е гр а ло м К о ши.
+
+Впервые, по-видимому, К. и., применительно к частным ситуациям, появляется в работах О. Коши [1].
+
+К. и. характеризуется, таким образом, двумя условиями: 1) К. и. берется по замкнутой гладкой или хотя бы кусочно гладкой кривой $L ; 2)$ подинтегральная функция К. и. имеет вид
+
+\[
+\frac{f(\zeta)}{2 \pi i(\zeta-z)}
+\]
+
+где $\zeta \in L$, а $f(z)$ - регулярная аналитич. функция на $L$ и внутри $L$. Если в К. и. $z \in C \bar{G}$, т. е. если z расположена во внешности кривой $L$, то при сохранении условий 1) и 2):
+
+\[
+\frac{1}{2 \pi i} \int_{L} \frac{f(\xi) d \xi}{\xi-z}=0, \quad z \in C \bar{G} .
+\]
+
+В частности, если $L$ - окружность радиуса $\rho$ с центром $z$, T. e.
+
+\[
+L=\left\{\zeta=z+\rho e^{i \theta} ; \quad 0 \leqslant \theta&lt;2 \pi\right\}
+\]
+
+то из (1) следует
+
+\[
+f(z)=\frac{1}{2 \pi i} \int_{0}^{2 \pi} f\left(z+\rho^{i \theta}\right) d \theta
+\]
+
+т. е. значение $f(z)$ в любой точке $z \in D$ равно среднему арифметическому ее значений на любой достаточно малой окружности $L \subset D$ с центром $z$. Формула (1) позво- ляет получить и все остальные элементарные свойства аналитич. функций.
+
+Если, с другой стороны, $f(z)$ является регулярной аналитич. функцией в бесконечной области $C \bar{G}-$ внешности замкнутой кривой $L$ и на $L$,
+
+\[
+f(\infty)=\lim _{z \rightarrow \infty} f(z)
+\]
+
+то справедлива инте г р л ьная фо о м у ла Коши для бесконечно й обл а сти:
+
+\[
+\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \zeta}{\zeta-z}= \begin{cases}f(\infty)-f(z), &amp; z \in C \bar{G} ; \\ f(\infty), &amp; z \in G .\end{cases}
+\]
+
+Пусть теперь Г- некоторая, не обязательно замкнутая, кусочно гладкая кривая, расположенная в конечной плоскости $z \neq \infty, \varphi(\zeta)$ - непрерывная комплексная функция на $\Gamma$ и $z-$ точка, не лежащая на $Г$. И нте гра лом ти п а К о и и (и. т. К.) наз. обобцение К. и. в виде
+
+\[
+F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-z}, z \notin \Gamma .
+\]
+
+Функцию $\varphi(\zeta)$ наз. иногда п л о т н о с т ь ю и н т е гр а л а т и п а К о ш и. Простейшие свойства и. т. К.: 1) $F(z)$ - регулярная аналитич. функция переменного z в любой области, не содержащей точек $\Gamma$;
+
+2) производные $F^{(n)}(z)$ выражаются формулами
+
+\[
+F^{(n)}(z)=\frac{n !}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \zeta}{(\zeta-z)^{n+1}}, \quad z \notin \Gamma ; \quad n=0,1, \ldots ;
+\]
+
+3) функция $F(z)$ регулярна в бесконечности, причем $F(\infty)=0, F(z)=O(1 / z)$ при $z \rightarrow \infty$.
+
+$\mathrm{C}$ точки зрения общей теории аналитич. Функций и применений $к$ механике и физике, основное значение имеет вопрос о существовании граничных значений и. т. К. при приближении к Г и об их аналитич. выражении. К.и. (1) всюду внутри $L$ равен $f(z)$, а во внешности он тождественно равен нулю. Поэтому, когда и.т.К. (3) обращается в К. и., т. е. когда выполняются условия 1) и 2), функция $F(z)$ при приближении к $L$ слева (т. е. изнутри) имеет граничные значения $F^{+}\left(\zeta_{0}\right)=f\left(\zeta_{0}\right)$, и при этих значениях на $L$ она непрерывна в каждой точке $\zeta_{0} \in L$ слева от $L$; при приближении к $L$ справа (т. е. извне) $F(z)$ имеет граничные значения нуль, $F-\left(\zeta_{0}\right)=0$, и при этих значениях на $L$ она непрерывна в каждой точке $\zeta_{0} \in L$ справа от $L$. Т. обр., для К. и. $F+\left(\zeta_{0}\right)-F-\left(\zeta_{0}\right)=f\left(\zeta_{0}\right)$.
+
+Для и. т. К. общего вида дело обстоит несколько сложнее. Пусть кривая $\Gamma$ задана уравнением $\zeta=\zeta(s)$, $s$ - длина ее дуги, отсчитываемая от какой-либо фиксированной точки, $\zeta_{0}=\zeta\left(s_{0}\right)-$ произвольно фиксированная точка на $\Gamma$ и $\Gamma_{\varepsilon}-$ та часть кривой $\Gamma$, к-рая остается после удаления из $\Gamma$ меньшей дуги с концами $\zeta\left(s_{0}-\varepsilon\right)$ и $\zeta\left(s_{0}+\varepsilon\right)$. Если существует конечный предел
+
+\[
+\lim _{\varepsilon \rightarrow 0} \frac{1}{2 \pi i} \int_{\Gamma_{\varepsilon}} \frac{\varphi(\xi) d \xi}{\zeta-\xi_{0}}=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-\xi_{0}}, \quad \zeta_{0} \in \Gamma,
+\]
+
+то он наз. с ин гуля рным, или о с о бым, и нт е г р а л о м. Доказано, напр., что сингулярный интеграл (4) существует, если кривая Г гладкая в окрестности отличной от концов $\Gamma$ точки $\zeta_{0}$, а плотность $\varphi(\zeta)$ удовлетворяет условию Гёльдера
+
+\[
+\left|\varphi\left(\zeta^{\prime}\right)-\varphi\left(\zeta^{\prime \prime}\right)\right| \leqslant C\left|\zeta^{\prime}-\zeta^{\prime \prime}\right|^{\mu}, \quad \mu&gt;0 .
+\]
+
+При этих условиях существуют и граничные значения, к-рые выражаются фо о м у л а м и С о о цК 0 г 0 :
+
+\[
+F^{ \pm}\left(\zeta_{0}\right)= \pm \frac{1}{2} \varphi\left(\zeta_{0}\right)+\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-\zeta_{0}}, \quad \zeta_{0} \in \Gamma,
+\]
+
+а функции $F^{+}(z)$ и $F^{-(z)}-$ непрерывны в окрестности $\zeta_{0} \in \Gamma$ соответственно слева и справа от $\Gamma$. В случае К. и. сингулярный интеграл равен $\frac{f\left(\zeta_{0}\right)}{2}, F+\left(\zeta_{0}\right)-F-\left(\zeta_{0}\right)=f\left(\zeta_{0}\right), F+\left(\zeta_{0}\right)+F-\left(\zeta_{0}\right)=f\left(\zeta_{0}\right)$. В әквивалентной форме формулы (5) записываются так:
+
+\[
+\begin{gathered}
+F^{+}\left(\zeta_{0}\right)-F^{-}\left(\zeta_{0}\right)=\varphi\left(\zeta_{0}\right), \\
+F^{+}\left(\zeta_{0}\right)+F^{-}\left(\zeta_{0}\right)=\frac{1}{\pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \zeta}{\zeta-\zeta_{0}}, \quad \zeta_{0} \in \Gamma .
+\end{gathered}
+\]
+
+Формулы Сохоцкого (5) - (7) имеют основное значение при решении граничных задач теории аналитических функций, сингулярных интегральных уравнений, связанных с и. т. К., а также при решении ряда задач гидродинамики, теории упругости и др.
+
+Пусть $\Gamma$ - произвольная, для простоты замкнутая, спрямляемая кривая длины $l, \psi=\psi(s)$ - угол между направлением оси $O x$ и касательной $к \Gamma$ в точке $\zeta=$ $=\zeta(s) \in \Gamma$, рассматриваемый как функция длины дуги $s$, $\Phi(s)$ - комплексная функция длины дуги $s$ ограниченной вариации на $[0, l]$. Выражение
+
+\[
+F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{e^{i \psi} d \Phi(s)}{\zeta-z}, \zeta=\zeta(s), z \notin \Gamma,
+\]
+
+наз. и нте г е с а (и. т. К.-С.). Иначе говоря, И. т. К. - С. есть и. т. К. по произвольной конечной комплексной борелевской мере, сосредоточенной на $\Gamma$. Если функция $\Phi(s)$ абсолютно непрерывна, то и. т. К.-С. превращается в ин т е грал ти па Коши-Л е бега (и. т. К.-Л.), часто называемый также просто и нте г ралом ти па К оши:
+
+\[
+F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \xi}{\zeta-z}, z \notin \Gamma,
+\]
+
+где $\varphi(\zeta)=\varphi[\zeta(s)]=\Phi^{\prime}(s)$.
+
+Пусть $\zeta_{0}$-точка $\Gamma$, в к-рой существует определенная касательная, наклоненная к оси $O x$ под углом $\psi_{0}$; такие точки имеются на спрямляемой кривой почти всюду. Пусть точка $z$ находится на нек-рой прямой, проходящей через $\zeta_{0}$ и наклоненной к нормали под углом $\alpha_{0}$, на расстоянии $\left|z-\zeta_{0}\right|=\varepsilon, \quad$ т. е. $z=\zeta_{0} \pm \varepsilon i e^{i\left(\varpi_{0}+\alpha_{0}\right)}$. Разность между и.т. К. - С. (8) и интегралом по $\Gamma_{\varepsilon}$
+
+\[
+W\left(\zeta_{0} ; \varepsilon, \alpha_{0}\right)=\frac{1}{2 \pi i}\left[\int_{\Gamma} \frac{e^{i \psi_{d} \Phi(s)}}{\zeta-z}-\int_{\Gamma_{\varepsilon}} \frac{e^{i \psi_{d} \Phi(s)}}{\zeta-\zeta_{0}}\right]
+\]
+
+определена во всех точках $\zeta_{0} \in \Gamma$, в к-рых существует определенная касательная, т. е. почти всюду на $\Gamma$. В теории и. т. К. - С. важное значение имеет о с н о в в $\mathbf{a}$ я л е м м а П р и в а л о в а: предельный переход
+
+\[
+\lim _{\varepsilon \rightarrow 0} W\left(\zeta_{0} ; \varepsilon, \alpha_{0}\right)= \pm \Phi^{\prime}\left(\zeta_{n}\right)
+\]
+
+осуществляется для всех точек $\zeta_{0} \in \Gamma$, кроме, быть может, точек множества меры нуль на $\Gamma$, не зависящего от $\alpha_{0}$, равномерно относительно $\alpha_{0}$ в любом угле $\left|\alpha_{0}\right|&lt;$ $&lt;\pi / 2-\delta, \delta&gt;0$. Если сингулярный интеграл существует почти всюду на Г, то и. т. К.-С. имеет почти всюду на $\Gamma$ угловые граничные значения $F^{ \pm}\left(\zeta_{0}\right)$, для к-рых справедливы фо о м у лы С о х о ц к о го:
+
+\[
+F^{ \pm}\left(\zeta_{0}\right)= \pm \frac{1}{2} \Phi^{\prime}\left(s_{0}\right)+\frac{1}{2 \pi i} \int_{\Gamma} \frac{e^{i \psi_{d} \Phi(s)}}{\zeta-\zeta_{0}}, \zeta_{0} \in \Gamma .
+\]
+
+Верно и обратное: если и. т. К.-С. почти всюду на $\Gamma$ имеет угловые граничные значения изнутри и извне $\Gamma$, то сингулярный интеграл существует и формулы (10) справедливы почти всюду на Г. Полного решения проблемы необходимых и достаточных условий существования граничных значений в достаточно простых терминах для и. Т. К. -С. и даже для и. т. К.-Ј. пока (1982) не получено. В отличие от рассмотренного выше случая и. т.К. по гладкой кривой $\Gamma$, даже при наличии угловых граничных значений, и. т. К.-С. уже, вообще говоря, не является непрерывной функцией в окрестности точки $\zeta_{0} \in \Gamma$ слева или справа от $\Gamma$. Здесь известно, напр., что и. т. К.-J. (9) непрерывен в замкнутой области $\bar{D}$, ограниченной спрямляемым контуром $\Gamma$, при дополнительном условии, что его плотность $\varphi(\zeta)$ удовлетворяет на $\Gamma$ условию Липшица
+
+$\left|\varphi\left(\zeta^{\prime}\right)-\varphi\left(\zeta^{\prime \prime}\right)\right| \leqslant C\left|\zeta^{\prime}-\zeta^{\prime \prime}\right|, \quad \zeta^{\prime}, \zeta^{\prime \prime} \in \Gamma$.
+
+Относительно и. т. К.-Л. (9) говорят, что он обращается в $\mathbf{K}$. и.
+
+\[
+F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{\varphi(\zeta) d \zeta}{\zeta-z},
+\]
+
+понимаемый в смысле Лебега, если угловые граничные значения $F^{+}\left(\zeta_{0}\right)$ изнутри $\Gamma$ совпадают с $\varphi\left(\zeta_{0}\right)$ почти всюду на контуре Г. Иначе говоря, интеграл (9) обращается в K. и. (11), если угловые граничные значения $F$ - $\left(\zeta_{0}\right)$ извне $\Gamma$ равны нулю почти всюду на $Г$. Относящаяся сюда те о рем а гласит: суммируемая функция $\varphi(\zeta)$ на $\Gamma$ тогда и только тогда представляет собой угловые граничные значения нек-рого К. и. изнутри Г, когда равны нулю все моменты
+
+\[
+\int_{\Gamma} \zeta^{n} \varphi(\zeta) d \zeta=0, \quad n=0,1,2, \ldots
+\]
+
+Если выполнены аналогичные (12) условия
+
+\[
+\int_{\Gamma} \zeta^{n} e^{i \Psi} d \Phi(s)=0, \quad n=0,1,2, \ldots,
+\]
+
+то и. т. К. - С. (8) обращается в и н т е г р а л К оши - С ти л т в е с а (и. К. - С.):
+
+\[
+F(z)=\frac{1}{2 \pi i} \int_{\Gamma} \frac{e^{i \Psi} d \Phi(s)}{\zeta-z}
+\]
+
+т. е. угловые граничные значения $F^{+}\left(\zeta_{0}\right)$ изнутри $\Gamma$ совпадают с производной $\Phi^{\prime}\left(s_{0}\right)$ почти всюду на $\Gamma$ или, иначе говоря, угловые граничные значения $F^{-}\left(\zeta_{0}\right)$ извне $\Gamma$ равны нулю почти всюду на $Г$. Условия (13) сразу обеспечивают абсолютную непрерывность функции $\Phi(s)$ на отрезке $[0, l]$, а следовательно, га самом деле в этом случае и. К.-С. (14) является и н т е г р а л о м К о ш и- Л е б е г а (и. К.-Л.) с плотностью $\varphi(\zeta)=$ $=\varphi[\zeta(s)]=\Phi^{\prime}(s)$. Таким образом, класс функций, представимых и. К. - С., совпадает с классом функций, представимых и. К.-Л.
+
+Важной задачей представляется внутренняя характеризация классов функций, регулярных в области $D$, ограниченной замкнутой спрямляемой кривой $\Gamma$, и представимых К. и. (11), и. т. К.-Ј. (9) или и. т. К. - С. (8) (о наиболее важных классах $A(D), B(D)=H_{\infty}(D), H_{p}(D)$ и $N *(D)$ см. в ст. Граничные свойства аналитических бункций).
+
+В простейшем случае, когда $D=\{z:|z|&lt;1\}-$ единичный круг и $\Gamma=\{z:|z|=1\}$ - единичная окружность, и. т. К. - С., принимающий в этом случае вид
+
+\[
+F(z)=\frac{1}{2 \pi} \int_{0}^{2 \pi} \frac{\zeta d \Phi(\theta)}{\zeta-z},|z|&lt;1, \quad \zeta=e^{i \theta},
+\]
+
+изображает всегда функцию класса $H_{p}, 0&lt;p&lt;1$. Обратная теорема неверна: совокупность функций классов $H_{p}, 0&lt;p&lt;1$, шире, чем совокупность функций, представимых в виде (15). Напротив, совокупность функций, представимых в $D$ и. К.-С. или К. и., совпадает с классом $H_{1}$.
+
+В случае произвольной односвязной области $D$, ограниченной спрямляемой кривой $\Gamma$, класс функций, представимых в $D$ и. K.-С. или К. и., совпадает с классом Смирнова $E_{1}$ (см. Граничные свойства аналитических функций). Характеристики классов функций, представимых и. т. К.-С. или и. т. К.一Л., значительно сложнее.
+
+Пусть $f(z)$ - произвольная (не аналитическая) функция класса $C^{\mathbf{1}}$ в конечной замкнутой области $\bar{D}$, ограниченной кусочно гладкой жордановой кривой $L$. Иногда и н те г ра льной фо рму ло й К о ши наз. также следующее обобщение классич. формулы (1):
+
+\[
+\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \xi}{\zeta-z}-\frac{1}{\pi} \iint_{D} \frac{\partial f}{\partial \bar{\zeta}} \frac{d \zeta d \eta}{\zeta-z}= \begin{cases}f(z), &amp; z \in D \\ 0, &amp; z \in C \bar{D}\end{cases}
+\]
+
+где
+
+\[
+\frac{\partial f}{\partial \bar{\zeta}}=\frac{1}{2}\left(\frac{\partial f}{\partial \xi}+i \frac{\partial f}{\partial \eta}\right), \quad \zeta=\xi+i \eta .
+\]
+
+Эта формула встречается, начиная, по-видимому, с работ Д. Помпею (D. Pompeiu, 1912). Она известна также как фор м ул а Пом п е ю, фо р м л а Бор еля - Помпе ю, форм ула Ко ши ии находит многочисленные приложения в теории обобщенных аналитич. функций, сингулярных интегральных уравнений и в различных прикладных вопросах.
+
+Пусть $f(z)$ - регулярная аналитич. Функция многих комплексных переменных $z=\left(z_{1}, \ldots, z_{n}\right)$ в замкнутом поликруге $\bar{D}, D=\left\{z \in \mathbb{C}^{n}:\left|z_{v}-a_{v}\right|&lt;r_{v}\right\}$. Тогда в каждой точке $D$ функция $f(z)$ представима к р а т ны м и нте г ралом К о пा и:
+
+\[
+f(z)=\frac{1}{(2 \pi i)^{n}} \int_{T} \frac{f(\zeta) d \xi}{\zeta-z}
+\]
+
+где $T=\left\{\zeta \in \mathbb{C}^{n}:\left|\zeta_{v}-a_{v}\right|=r_{v}, \quad v=1, \ldots, n\right\}-$ остов поликруга, $\zeta=\left(\zeta_{1}, \ldots, \zeta_{n}\right), d \zeta=d \zeta_{1} . . d \zeta_{n}, \quad \zeta-z=$ $=\left(\zeta_{1}-z_{1}\right) \ldots\left(\zeta_{n}-z_{n}\right)$. Формула (17) дает простейший аналог К. и. для окружности $L=\{z \in \mathbb{C}:|z-a|=r\}$, но при $n&gt;1$ интегрирование в (17) распространено уже не на всю границу поликруга, а лишь на его остов. Вообще, пусть $D=D_{1} \times D_{2} \times \ldots \times D_{n}$ - поликруговая область в $\mathbb{C}^{n}$, составленная как произведение односвязных плоских областей $D_{v}$ с гладкими границами $\partial D_{v}=$ $=\left\{z_{v}=z_{v}\left(t_{v}\right), 0 \leqslant t_{v} \leqslant 1\right\}, \quad T=\partial D_{1} \times \partial D_{2} \times \ldots \partial D_{n}-$ ocтов $D$, представляющий собой гладкое $n$-мерное многообразие. Формула (17) распространяется и на этот случай.
+
+Большое значение в теории аналитич. функций многих комплексных переменных имеют более глубокие обобщения интегральной формулы Коши, в первую очередь такие, как ЛЕре форжула, названная самим Ж. Лере (J. Leray) ф о р м у ло й К о пі и - Фан т а п ь е, и Бохнера - Мартинелли представление. В связи с этим при $n&gt;1$ изучаются в основном граничные свойства интегральных представлений, отличных от (17).
+
+Jum.: [1] C a u c h y A. L., Sur la mécanique céleste et sur un nouveau calcul appelé calcul des limites, Turin, 1831 (или Euvres completes, ser. 1, t. 8, P., 1892); [2] III a 6 a т Б. B.,
+Введение в комплексный анализ, 2 изд., ч. 1-2, 1976; [3] м а pк у II е в и ч А. И., Теория аналитических функций, 2 изд., т. 1, М., 1967; [4] М у с х е л и II ви л и Н. И.. Сингулярные интегралыные уравнения, 3 изд., М., 1968; [5] В л а д и м ир о в В. С., методы теории функций многих комплексных переменных, М., 1964; [6] П р и в а л о в И. И., Интеграл Саuchy, Саратов, 1918; [7] е г о ж е, Граничные свойства аналитических функцй, 2 изд., М. - Л., 1950; [8] Х а в и н с о н С. Я.,
+в кн.: Ктоги науки. Математический анализ. 1963, М., 1965, в кн.: Итоги науки. Математический анализ. 1963, М., 1965,
+с. $5-80 ;$ [9] X в е д е л и д з е Б. В., в кн.: «Современные прослемы математики&quot;, т. 7, M., 1975, c. 5-162; [10] C a ld e-
+r ón A. P., &quot;Proc. Nat. Acad. Sci. USA&quot;, 1977, v. 74, NR 4, r ón A. P., &quot;Proc. Nat. Acad. Sci. USA», 1977, v. 74, Nㅏ 4,
+p. 1324-27.</text_orig>
+</article>

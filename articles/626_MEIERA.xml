@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/626_MEIERA" alphabetic_pos="626">
+  <title>МЕИЕРА ПРЕОБРАЗОВАНИЕ</title>
+  <authors>
+    <author>Ю. А. Брычков</author>
+    <author>А. П. Прудников</author>
+  </authors>
+  <pages>
+    <start>317</start>
+    <end>318</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] M e i j e r C. S., &quot;proc. Koninkl. Nederl. acad. wet.&quot;, $1941, \mathrm{v} .44$, p. $727-37 ;[2]$ е го же, там же, 1940, v. 43, p. 599608, 702-11; [3] Б р ч ч к о в Ю.А., П р у дн иков А. А., Интегральные преобразования обобщенных функций, М., 1977; 82.</literature_orig>
+    <unit>
+      <author>Meijer C. S.</author>
+      <title>&quot;proc. Koninkl. Nederl. acad. wet.&quot;</title>
+      <publication/>
+      <year>1941</year>
+      <other>\mathrm{v} .44$, p. $727-37</other>
+    </unit>
+    <unit>
+      <title>$ е го же, там же</title>
+      <publication/>
+      <year>1940</year>
+      <other>v. 43, p. 599608, 702-11</other>
+    </unit>
+    <unit>
+      <author>Брччков Ю. А.</author>
+      <author>Прудников А. А.</author>
+      <title>Интегральные преобразования обобщенных функций</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/626_1_MEIERA">\begin{gathered}f(t)=\lim _{\lambda \rightarrow+\infty} \frac{1}{2 \pi i} \frac{\Gamma(1-\mu+v)}{\Gamma(1+2 v)} \times \\\times \int_{\beta-i \lambda}^{\beta+i \lambda} e^{x t / 2}(x t)^{\mu-1 / 2} M_{\mu-1 / 2, v}(x t) F(x) d x,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/626_2_MEIERA">F(x)=\frac{1}{\sqrt{\pi}} \int_{0}^{\infty} e^{-x t / 2}(x t)^{1 / 2} K_{v}(x t / 2) f(t) d t,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/626_3_MEIERA">F(x)=\int_{0}^{\infty}(x t)^{v-1 / 2} e^{-x t / 2} W_{\mu, v}(x t) f(t) d t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/626_4_MEIERA">F(x)=\sqrt{\frac{2}{\pi}} \int_{0}^{\infty} K_{v}(x t) \sqrt{x t} f(t) d t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/626_5_MEIERA">\int_{0}^{\infty} e^{-\beta t}|f(t)| d t, \beta&gt;\alpha \geqslant 0,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_1_MEIERA">f(x)=\int_{0}^{\infty} e^{-x t / 2}(x t)^{-\mu-1 / 2} W_{\mu+1 / 2, v}(x t) f(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_2_MEIERA">w_{\mu, v}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_3_MEIERA">m_{\mu, v}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_4_MEIERA">\mu= \pm v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_5_MEIERA">\mu=-1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_6_MEIERA">k_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_7_MEIERA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_8_MEIERA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_9_MEIERA">(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_10_MEIERA">t=t_{0}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_11_MEIERA">\frac{f\left(t_{0}+0\right)+f\left(t_{0}-0\right)}{2}=\frac{1}{i \sqrt{2 \pi}} \int_{\beta-i \lambda}^{\beta+i \lambda} I_{v}\left(t_{0} x\right)\left(t_{0} x\right)^{1 / 2} F(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/626_12_MEIERA">v= \pm 1 / 2</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>интегральное преобразование вида
+
+$URI[[http://libmeta.ru/me/formula/aux/626_1_MEIERA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/626_2_MEIERA]]/URI$ - Уиттекера бункция. Формула обращения имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/626_1_MEIERA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/626_3_MEIERA]]/URI$ - функция Уиттекера. При $URI[[http://libmeta.ru/me/formula/aux/626_4_MEIERA]]/URI$ М. П. переходит в Лапласа преобразование; при $URI[[http://libmeta.ru/me/formula/aux/626_5_MEIERA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/626_6_MEIERA]]/URI$-преобразование:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/626_2_MEIERA]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0149d7108abcb9f51765g-1.jpg?height=37&amp;width=560&amp;top_left_y=319&amp;top_left_x=122)
+
+К М. П. сводится п р е об ра зов ан и е В а рm a:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/626_3_MEIERA]]/URI
+\]
+
+М е й е р а $URI[[http://libmeta.ru/me/formula/aux/626_7_MEIERA]]/URI$ - п р е об р а зов ани е (м е й ера-Бе с селя пре об ра зование )-интегральное преобразование вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/626_4_MEIERA]]/URI
+\]
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/626_8_MEIERA]]/URI$ локально интегрируема на $URI[[http://libmeta.ru/me/formula/aux/626_9_MEIERA]]/URI$, имеет ограниченное изменение в окрестности точки $URI[[http://libmeta.ru/me/formula/aux/626_10_MEIERA]]/URI$ и сходится интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/626_5_MEIERA]]/URI
+\]
+
+то имеет место формула обращения
+
+$URI[[http://libmeta.ru/me/formula/aux/626_11_MEIERA]]/URI$.
+
+При $URI[[http://libmeta.ru/me/formula/aux/626_12_MEIERA]]/URI$ K-преобразование Мейера переходит в преобразование Лапласа.
+
+M. п. введено K. Мейером [1], K-преобразование Мейера - им же [2].</text>
+  <text_orig>интегральное преобразование вида
+
+$F(x)=\int_{0}^{\infty} e^{-x t / 2}(x t)^{-\mu-1 / 2} W_{\mu+1 / 2, v}(x t) f(t) d t$, где $W_{\mu, v}(x)$ - Уиттекера бункция. Формула обращения имеет вид
+
+\[
+\begin{gathered}
+f(t)=\lim _{\lambda \rightarrow+\infty} \frac{1}{2 \pi i} \frac{\Gamma(1-\mu+v)}{\Gamma(1+2 v)} \times \\
+\times \int_{\beta-i \lambda}^{\beta+i \lambda} e^{x t / 2}(x t)^{\mu-1 / 2} M_{\mu-1 / 2, v}(x t) F(x) d x,
+\end{gathered}
+\]
+
+где $M_{\mu, v}(x)$ - функция Уиттекера. При $\mu= \pm v$ М. П. переходит в Лапласа преобразование; при $\mu=-1 / 2$ в $K_{v}$-преобразование:
+
+\[
+F(x)=\frac{1}{\sqrt{\pi}} \int_{0}^{\infty} e^{-x t / 2}(x t)^{1 / 2} K_{v}(x t / 2) f(t) d t,
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0149d7108abcb9f51765g-1.jpg?height=37&amp;width=560&amp;top_left_y=319&amp;top_left_x=122)
+
+К М. П. сводится п р е об ра зов ан и е В а рM a:
+
+\[
+F(x)=\int_{0}^{\infty}(x t)^{v-1 / 2} e^{-x t / 2} W_{\mu, v}(x t) f(t) d t .
+\]
+
+М е й е р а $K$ - п р е об р а зов ани е (М е й ера-Бе с селя пре об ра зование )-интегральное преобразование вида
+
+\[
+F(x)=\sqrt{\frac{2}{\pi}} \int_{0}^{\infty} K_{v}(x t) \sqrt{x t} f(t) d t .
+\]
+
+Если функция $f(t)$ локально интегрируема на $(0, \infty)$, имеет ограниченное изменение в окрестности точки $t=t_{0}&gt;0$ и сходится интеграл
+
+\[
+\int_{0}^{\infty} e^{-\beta t}|f(t)| d t, \beta&gt;\alpha \geqslant 0,
+\]
+
+то имеет место формула обращения
+
+$\frac{f\left(t_{0}+0\right)+f\left(t_{0}-0\right)}{2}=\frac{1}{i \sqrt{2 \pi}} \int_{\beta-i \lambda}^{\beta+i \lambda} I_{v}\left(t_{0} x\right)\left(t_{0} x\right)^{1 / 2} F(x) d x$.
+
+При $v= \pm 1 / 2$ K-преобразование Мейера переходит в преобразование Лапласа.
+
+M. п. введено K. Мейером [1], K-преобразование Мейера - им же [2].
+
+Jum.: [1] M e i j e r C. S., &quot;Proc. Koninkl. Nederl. acad. wet.&quot;, $1941, \mathrm{v} .44$, p. $727-37 ;[2]$ е го же, там же, 1940, v. 43, p. 599608, 702-11; [3] Б р ч ч к о в Ю.А., П р у дн иков А. А., Интегральные преобразования обобщенных функций, М., 1977; 82. Ю. А. Брычков, А. П. Прудников.</text_orig>
+</article>

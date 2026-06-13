@@ -1,0 +1,426 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/816_FUR'E" alphabetic_pos="816">
+  <title>ФУРЬЕ ПРЕОБРАЗОВАНИЕ ДИСКРЕТНОЕ</title>
+  <authors/>
+  <pages>
+    <start>366</start>
+    <end>367</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] С е г е Г., Ортогональные многочлены, пер. с англ., М., 1962; [2] Г е p о н и м у с Я Ji., Многочлены, ортот и н Ii. К , Классические ортогональные многочлены, 2 изд., М., 1979 , см. также лит. при ст. Ортогональжые многочлениі.</literature_orig>
+    <unit>
+      <author>Сеге Г.</author>
+      <title>Ортогональные многочлены</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Г е p о н и м у с Я Ji., Многочлены, ортот и н Ii. К, Классические ортогональные многочлены</title>
+      <publication>2 изд., М.</publication>
+      <year>1979</year>
+      <other>см. также лит. при ст. Ортогональжые многочлениі.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/816_1_FUR'E">\exp \left\{-2 \pi i \omega_{m} t_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_2_FUR'E">\sum_{n=0}^{\infty} a_{n} P_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_3_FUR'E">a_{n}=\int_{a}^{b} h(x) f(x) P_{n}(x) d x,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_4_FUR'E">\lim _{n \rightarrow \infty} a_{n}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_5_FUR'E">\varphi_{x}(t)=\frac{f(x)-f(t)}{x-t}, t \in(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_6_FUR'E">\left|f(x)-\sum_{k=0}^{n} a_{k} P_{k}(x)\right| \leqslant\left[1+L_{n}(x)\right] E_{n}(f), x \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_7_FUR'E">L_{n}(x)=\int_{a}^{b} h(t)\left|\sum_{k=0}^{n} P_{k}(x) P_{k}(t)\right| d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_8_FUR'E">L_{n}=\max _{x \in[a, b]} L_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_9_FUR'E">\lim _{n \rightarrow \infty} L_{n} E_{n}(f)=0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_1_FUR'E">t_{k}=k \Delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_2_FUR'E">x_{k}, k=\overline{0, N-1}, \Delta t=T / N, T&gt;0-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_3_FUR'E">x=\left(x_{0}, x_{1}, \ldots, x_{N-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_4_FUR'E">\hat{x}=f x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_5_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_6_FUR'E">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_7_FUR'E">\omega_{m}=m \Delta \omega, \quad m=\overline{0, \quad N-1}, \quad \Delta \omega=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_8_FUR'E">=1 / T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_9_FUR'E">\hat{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_10_FUR'E">n^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_11_FUR'E">n=n_{1} n_{2} \ldots n_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_12_FUR'E">n\left(n_{1}+n_{2}+\ldots+n_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_13_FUR'E">n=2^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_14_FUR'E">\left\{p_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_15_FUR'E">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_16_FUR'E">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_17_FUR'E">\left\{a_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_18_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_19_FUR'E">l_{2}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_20_FUR'E">=l_{2}[a, b, h(x)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_21_FUR'E">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_22_FUR'E">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_23_FUR'E">\left\{s_{n}(x, f)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_24_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_25_FUR'E">l_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_26_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_27_FUR'E">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_28_FUR'E">f(x)-s_{n}(x, f)=\mu_{n}\left[a_{n}\left(\varphi_{x}\right) P_{n+1}(x)-a_{n+1}\left(\varphi_{x}\right) P_{n}(x)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_29_FUR'E">\left\{a_{n}\left(\varphi_{x}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_30_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_31_FUR'E">\mu_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_32_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_33_FUR'E">\varphi_{x}(t) \in L_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_34_FUR'E">\left\{p_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_35_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_36_FUR'E">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_37_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_38_FUR'E">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_39_FUR'E">l_{1}=l_{1}[a, b, h(t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_40_FUR'E">h(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_41_FUR'E">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_42_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_43_FUR'E">f(t) \in L_{1}=L_{1}[a, b, \quad h(t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_44_FUR'E">\left\{p_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_45_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_46_FUR'E">x \in[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_47_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_48_FUR'E">\varphi_{x}(t) \in L_{1}[a, b, h(t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_49_FUR'E">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_50_FUR'E">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_51_FUR'E">\left\{p_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_52_FUR'E">b=[a, b] \backslash A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_53_FUR'E">l_{p}(a)=l_{p}[a, h(t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_54_FUR'E">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_55_FUR'E">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_56_FUR'E">h(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_57_FUR'E">x \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_58_FUR'E">\varphi_{x}(t) \in L_{1}(A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_59_FUR'E">\varphi_{x}(t) \in L_{2}(B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_60_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_61_FUR'E">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_62_FUR'E">g(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_63_FUR'E">l_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_64_FUR'E">(x-\delta, x+\delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_65_FUR'E">x \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_66_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_67_FUR'E">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_68_FUR'E">g(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_69_FUR'E">l_{1}(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_70_FUR'E">l_{2}(b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_71_FUR'E">x \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_72_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_73_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_74_FUR'E">e_{n}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_75_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_76_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_77_FUR'E">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_78_FUR'E">h(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_79_FUR'E">\left\{l_{n}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_80_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_81_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_82_FUR'E">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_83_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_84_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_85_FUR'E">\left\{e_{n}(f)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_86_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_87_FUR'E">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_88_FUR'E">n \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="37">
+    <relation uri="http://libmeta.ru/me/relation/816_1_FUR'E">
+      <rel_text>Равносходящиеся</rel_text>
+      <target>http://libmeta.ru/me/article/860_RAVNOSIL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_2_FUR'E">
+      <rel_text>Oртогопальнысе</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_3_FUR'E">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_4_FUR'E">
+      <rel_text>ортогональных многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/78_ORTOGONAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_5_FUR'E">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_6_FUR'E">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_7_FUR'E">
+      <rel_text>Якоби многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/1235_JaKOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_8_FUR'E">
+      <rel_text>Чебышева многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/967_ChEBYІІEVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_9_FUR'E">
+      <rel_text>Лежандра многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/255_LEZhANDRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_10_FUR'E">
+      <rel_text>неравенства</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_11_FUR'E">
+      <rel_text>свойств функции</rel_text>
+      <target>http://libmeta.ru/me/article/1168_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_12_FUR'E">
+      <rel_text>дифференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_13_FUR'E">
+      <rel_text>последовательности</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_14_FUR'E">
+      <rel_text>скорость сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/331_SHODIMOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_15_FUR'E">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_16_FUR'E">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_17_FUR'E">
+      <rel_text>неравенства</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_18_FUR'E">
+      <rel_text>ортогональных многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/78_ORTOGONAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_19_FUR'E">
+      <rel_text>различных систем</rel_text>
+      <target>http://libmeta.ru/me/article/889_RAZLIChNYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_20_FUR'E">
+      <rel_text>отрезка</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_21_FUR'E">
+      <rel_text>отрезка</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_22_FUR'E">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_23_FUR'E">
+      <rel_text>последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_24_FUR'E">
+      <rel_text>весовой функции</rel_text>
+      <target>http://libmeta.ru/me/article/684_VESOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_25_FUR'E">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_26_FUR'E">
+      <rel_text>многочленами</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_27_FUR'E">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_28_FUR'E">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_29_FUR'E">
+      <rel_text>приближение</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_30_FUR'E">
+      <rel_text>равномерное</rel_text>
+      <target>http://libmeta.ru/me/article/766_RAVNOVELIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_31_FUR'E">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_32_FUR'E">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_33_FUR'E">
+      <rel_text>неравенства</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_34_FUR'E">
+      <rel_text>ортогональности</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_35_FUR'E">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_36_FUR'E">
+      <rel_text>сходимость</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_37_FUR'E">
+      <rel_text>Равномерная</rel_text>
+      <target>http://libmeta.ru/me/article/766_RAVNOVELIKA</target>
+    </relation>
+  </relations>
+  <text>Преобразование, используемое для гармонич. анализа функций, заданных на дискретном множестве точек.
+
+Если на множестве точек $URI[[http://libmeta.ru/me/formula/aux/816_1_FUR'E]]/URI$ фуунцня задана своими значениями $URI[[http://libmeta.ru/me/formula/aux/816_2_FUR'E]]/URI$ период функции, то Ф. п. д. вектора $URI[[http://libmeta.ru/me/formula/aux/816_3_FUR'E]]/URI$ есть вектор $URI[[http://libmeta.ru/me/formula/aux/816_4_FUR'E]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/816_5_FUR'E]]/URI$-матрица с әлементами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_1_FUR'E]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/816_6_FUR'E]]/URI$ - мнимая единица, $URI[[http://libmeta.ru/me/formula/aux/816_7_FUR'E]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/816_8_FUR'E]]/URI$. Компоненты вектора $URI[[http://libmeta.ru/me/formula/aux/816_9_FUR'E]]/URI$ аналогичны коэффициентам Фурье в обычных тригонометрич. разложениях. Ф. п. Д. используется для приближенного вычисления этих коэффициентов, спектров, авто- и взаимно корреляционных функций и т. п. Прямое вытислениө Ф. п. Д. требует выполнения около $URI[[http://libmeta.ru/me/formula/aux/816_10_FUR'E]]/URI$ арифметич. операций и большой затраты машинного времени. Метод быстрого преобразования Фурье (см. [1]) повволил существенно сократить число операций. При $URI[[http://libmeta.ru/me/formula/aux/816_11_FUR'E]]/URI$ этот метод выполняет Ф. п. д. приблизительно за $URI[[http://libmeta.ru/me/formula/aux/816_12_FUR'E]]/URI$ операций, повышая точность вычислений. Особенно удобные для реализации алгоритмы получаются при $URI[[http://libmeta.ru/me/formula/aux/816_13_FUR'E]]/URI$. Имеется значительное число программ, реализующих или использующих быстрое преобразование Фурье для решения прикладных задач. Метод быстрого преобразования Фурье включает в себя широко известные әкономичные способы вычисления Ф. П. Д., напр. метод Рунге (см. [2]).
+
+Лum.: [1] C o o l e y J., T u k e y J., &quot;math. Comput.», 1965 , v. 19, p. 297-301; [2] R ung e C. Z., &quot;math. Phys.»&quot;,
+1903 , v. 48, p. 443. ![](https://cdn.mathpix.com/cropped/2023_07_09_9b616cf8c5151fb2c05eg-1.jpg?height=39&amp;width=784&amp;top_left_y=179&amp;top_left_x=174)
+ч л е н а м - ряд вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_2_FUR'E]]/URI
+\]
+
+где многочлены $URI[[http://libmeta.ru/me/formula/aux/816_14_FUR'E]]/URI$ ортонормированы на интервале $URI[[http://libmeta.ru/me/formula/aux/816_15_FUR'E]]/URI$ с весом $URI[[http://libmeta.ru/me/formula/aux/816_16_FUR'E]]/URI$ (см. URI[[http://libmeta.ru/me/relation/816_2_FUR'E]]/URI многочлены), а коәфффииенты $URI[[http://libmeta.ru/me/formula/aux/816_17_FUR'E]]/URI$ вычисляются по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_3_FUR'E]]/URI
+\]
+
+причем функция $URI[[http://libmeta.ru/me/formula/aux/816_18_FUR'E]]/URI$ входит в класс функций $URI[[http://libmeta.ru/me/formula/aux/816_19_FUR'E]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/816_20_FUR'E]]/URI$, квадрат к-рых суммируем (интегрируем по Јебегу) с весовой функцией $URI[[http://libmeta.ru/me/formula/aux/816_21_FUR'E]]/URI$ по интервалу ортогональности $URI[[http://libmeta.ru/me/formula/aux/816_22_FUR'E]]/URI$.
+
+Как и у любого ортогонального ряда, частичные суммы $URI[[http://libmeta.ru/me/formula/aux/816_23_FUR'E]]/URI$ ряда (1) приближают функцию $URI[[http://libmeta.ru/me/formula/aux/816_24_FUR'E]]/URI$ наилучшим образом в метрике пространства $URI[[http://libmeta.ru/me/formula/aux/816_25_FUR'E]]/URI$ и выполняется условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_4_FUR'E]]/URI
+\]
+
+Для доказательства сходимости ряда (1) в отдельной точке $URI[[http://libmeta.ru/me/formula/aux/816_26_FUR'E]]/URI$ или на нек-ром множестве из $URI[[http://libmeta.ru/me/formula/aux/816_27_FUR'E]]/URI$ обычно применяется равенство
+
+$URI[[http://libmeta.ru/me/formula/aux/816_28_FUR'E]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/816_29_FUR'E]]/URI$ - коәффициенты Фурье вспомогательной функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_5_FUR'E]]/URI
+\]
+
+при фиксированном $URI[[http://libmeta.ru/me/formula/aux/816_30_FUR'E]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/816_31_FUR'E]]/URI$-коэфффициент из формулы Кристоффеля - Дарбу. Если отревок ортогональности $URI[[http://libmeta.ru/me/formula/aux/816_32_FUR'E]]/URI$ конечен, $URI[[http://libmeta.ru/me/formula/aux/816_33_FUR'E]]/URI$ и последовательность $URI[[http://libmeta.ru/me/formula/aux/816_34_FUR'E]]/URI$ ограничена в данной точке $URI[[http://libmeta.ru/me/formula/aux/816_35_FUR'E]]/URI$, то ряд (1) сходится $URI[[http://libmeta.ru/me/formula/aux/816_36_FUR'E]]/URI$ вначению $URI[[http://libmeta.ru/me/formula/aux/816_37_FUR'E]]/URI$.
+
+Коәфф্цициенты (2) можно определять и для функции $URI[[http://libmeta.ru/me/formula/aux/816_38_FUR'E]]/URI$ из класса $URI[[http://libmeta.ru/me/formula/aux/816_39_FUR'E]]/URI$, т. е. для фурнкций, суммируемых с весом $URI[[http://libmeta.ru/me/formula/aux/816_40_FUR'E]]/URI$ на интервале $URI[[http://libmeta.ru/me/formula/aux/816_41_FUR'E]]/URI$. В случае конечного отрезка $URI[[http://libmeta.ru/me/formula/aux/816_42_FUR'E]]/URI$ условие (3) имеет место, если $URI[[http://libmeta.ru/me/formula/aux/816_43_FUR'E]]/URI$, а последовательность $URI[[http://libmeta.ru/me/formula/aux/816_44_FUR'E]]/URI$ ограничена равномерно на всем отрезке $URI[[http://libmeta.ru/me/formula/aux/816_45_FUR'E]]/URI$. При этих условиях ряд (1) сходится в нек-рой точке $URI[[http://libmeta.ru/me/formula/aux/816_46_FUR'E]]/URI$ к значению $URI[[http://libmeta.ru/me/formula/aux/816_47_FUR'E]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/816_48_FUR'E]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/816_49_FUR'E]]/URI$-та часть интервала $URI[[http://libmeta.ru/me/formula/aux/816_50_FUR'E]]/URI$, где последовательность $URI[[http://libmeta.ru/me/formula/aux/816_51_FUR'E]]/URI$ ограничена равномерно, $URI[[http://libmeta.ru/me/formula/aux/816_52_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/816_53_FUR'E]]/URI$-класс функций, суммируемых в степени $URI[[http://libmeta.ru/me/formula/aux/816_54_FUR'E]]/URI$ по множеству $URI[[http://libmeta.ru/me/formula/aux/816_55_FUR'E]]/URI$ с весом $URI[[http://libmeta.ru/me/formula/aux/816_56_FUR'E]]/URI$. Если при фиксированном $URI[[http://libmeta.ru/me/formula/aux/816_57_FUR'E]]/URI$ имеем $URI[[http://libmeta.ru/me/formula/aux/816_58_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/816_59_FUR'E]]/URI$, то ряд (1) сходится к $URI[[http://libmeta.ru/me/formula/aux/816_60_FUR'E]]/URI$.
+
+Для рядов (1) имеет место принцип локализации условий сходимости: если две функции $URI[[http://libmeta.ru/me/formula/aux/816_61_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/816_62_FUR'E]]/URI$ из пространства $URI[[http://libmeta.ru/me/formula/aux/816_63_FUR'E]]/URI$ совпадают в интервале $URI[[http://libmeta.ru/me/formula/aux/816_64_FUR'E]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/816_65_FUR'E]]/URI$, то Ф. р. по ортогональным многочленам этих двух функций в тотке $URI[[http://libmeta.ru/me/formula/aux/816_66_FUR'E]]/URI$ сходятся или расходятся одновременно. Аналогичное утверждение справедливо, если $URI[[http://libmeta.ru/me/formula/aux/816_67_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/816_68_FUR'E]]/URI$ входят в пространства $URI[[http://libmeta.ru/me/formula/aux/816_69_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/816_70_FUR'E]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/816_71_FUR'E]]/URI$.
+
+Для классических ортогональных многочленов имеют место теоремы о равносходимости ряда (1) с нек-рым ассоциированным тригонометрич. рядом Фурье (см. URI[[http://libmeta.ru/me/relation/816_1_FUR'E]]/URI ряди).
+
+URI[[http://libmeta.ru/me/relation/816_37_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_36_FUR'E]]/URI ряда (1) на всем конечном URI[[http://libmeta.ru/me/relation/816_35_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_34_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_72_FUR'E]]/URI$ или на части его обычно исследуется с помощью URI[[http://libmeta.ru/me/relation/816_33_FUR'E]]/URI Лебега
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_6_FUR'E]]/URI
+\]
+где URI[[http://libmeta.ru/me/relation/816_32_FUR'E]]/URI Лебега
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_7_FUR'E]]/URI
+\]
+
+не зависит от URI[[http://libmeta.ru/me/relation/816_31_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_73_FUR'E]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/816_74_FUR'E]]/URI$ - наилучшее URI[[http://libmeta.ru/me/relation/816_30_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_29_FUR'E]]/URI неп рерывной URI[[http://libmeta.ru/me/relation/816_28_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_75_FUR'E]]/URI$ на URI[[http://libmeta.ru/me/relation/816_27_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_76_FUR'E]]/URI$ URI[[http://libmeta.ru/me/relation/816_26_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_25_FUR'E]]/URI не выше $URI[[http://libmeta.ru/me/formula/aux/816_77_FUR'E]]/URI$. В зависимости от свойств URI[[http://libmeta.ru/me/relation/816_24_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_78_FUR'E]]/URI$ URI[[http://libmeta.ru/me/relation/816_23_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_22_FUR'E]]/URI Лебега $URI[[http://libmeta.ru/me/formula/aux/816_79_FUR'E]]/URI$ в разных точках URI[[http://libmeta.ru/me/relation/816_21_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_80_FUR'E]]/URI$ может возрастать с различной скоростью. А для всего URI[[http://libmeta.ru/me/relation/816_20_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_81_FUR'E]]/URI$ вводятся постоянные Лебега
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_8_FUR'E]]/URI
+\]
+
+к-рые возрастают неограниченно при $URI[[http://libmeta.ru/me/formula/aux/816_82_FUR'E]]/URI$, причем для URI[[http://libmeta.ru/me/relation/816_19_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_18_FUR'E]]/URI постоянные Лебега могут возрастать с различноӥ скоростью. Из URI[[http://libmeta.ru/me/relation/816_17_FUR'E]]/URI Лебега следует, что если выполняется условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_9_FUR'E]]/URI
+\]
+
+то ряд (1) сходится к URI[[http://libmeta.ru/me/relation/816_16_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_83_FUR'E]]/URI$ равномерно на всем URI[[http://libmeta.ru/me/relation/816_15_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_84_FUR'E]]/URI$. С другой стороны, URI[[http://libmeta.ru/me/relation/816_14_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_13_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_85_FUR'E]]/URI$ к нулю зависит от URI[[http://libmeta.ru/me/relation/816_12_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_11_FUR'E]]/URI $URI[[http://libmeta.ru/me/formula/aux/816_86_FUR'E]]/URI$. Поэтому во многих случаях нетрудно сформулировать достаточные условия, при к-рых правая часть URI[[http://libmeta.ru/me/relation/816_10_FUR'E]]/URI Лебега стремится $URI[[http://libmeta.ru/me/formula/aux/816_87_FUR'E]]/URI$ нулю при $URI[[http://libmeta.ru/me/formula/aux/816_88_FUR'E]]/URI$ (см., напр., URI[[http://libmeta.ru/me/relation/816_9_FUR'E]]/URI, URI[[http://libmeta.ru/me/relation/816_8_FUR'E]]/URI, URI[[http://libmeta.ru/me/relation/816_7_FUR'E]]/URI). В общем случае произвольного веса конкретные URI[[http://libmeta.ru/me/relation/816_6_FUR'E]]/URI URI[[http://libmeta.ru/me/relation/816_5_FUR'E]]/URI, если для рассматриваемых URI[[http://libmeta.ru/me/relation/816_4_FUR'E]]/URI известны асимптотич. URI[[http://libmeta.ru/me/relation/816_3_FUR'E]]/URI или оценки.</text>
+  <text_orig>Преобразование, используемое для гармонич. анализа функций, заданных на дискретном множестве точек.
+
+Если на множестве точек $t_{k}=k \Delta t$ фуунцня задана своими значениями $x_{k}, k=\overline{0, N-1}, \Delta t=T / N, T&gt;0-$ период функции, то Ф. п. д. вектора $x=\left(x_{0}, x_{1}, \ldots, x_{N-1}\right)$ есть вектор $\hat{x}=F x$, где $F$-матрица с әлементами
+
+\[
+\exp \left\{-2 \pi i \omega_{m} t_{k}\right\}
+\]
+
+$i$ - мнимая единица, $\omega_{m}=m \Delta \omega, \quad m=\overline{0, \quad N-1}, \quad \Delta \omega=$ $=1 / T$. Компоненты вектора $\hat{x}$ аналогичны коэффициентам Фурье в обычных тригонометрич. разложениях. Ф. п. Д. используется для приближенного вычисления этих коэффициентов, спектров, авто- и взаимно корреляционных функций и т. п. Прямое вытислениө Ф. п. Д. требует выполнения около $N^{2}$ арифметич. операций и большой затраты машинного времени. Метод быстрого преобразования Фурье (см. [1]) повволил существенно сократить число операций. При $N=n_{1} n_{2} \ldots n_{m}$ этот метод выполняет Ф. п. д. приблизительно за $N\left(n_{1}+n_{2}+\ldots+n_{m}\right)$ операций, повышая точность вычислений. Особенно удобные для реализации алгоритмы получаются при $N=2^{m}$. Имеется значительное число программ, реализующих или использующих быстрое преобразование Фурье для решения прикладных задач. Метод быстрого преобразования Фурье включает в себя широко известные әкономичные способы вычисления Ф. П. Д., напр. метод Рунге (см. [2]).
+
+Лum.: [1] C o o l e y J., T u k e y J., &quot;Math. Comput.», 1965 , v. 19, p. 297-301; [2] R ung e C. Z., &quot;Math. Phys.»&quot;,
+1903 , v. 48, p. 443. ![](https://cdn.mathpix.com/cropped/2023_07_09_9b616cf8c5151fb2c05eg-1.jpg?height=39&amp;width=784&amp;top_left_y=179&amp;top_left_x=174)
+ч л е н а м - ряд вида
+
+\[
+\sum_{n=0}^{\infty} a_{n} P_{n}(x)
+\]
+
+где многочлены $\left\{P_{n}(x)\right\}$ ортонормированы на интервале $(a, b)$ с весом $h(x)$ (см. Oртогопальнысе многочлены), а коәфффииенты $\left\{a_{n}\right\}$ вычисляются по формуле
+
+\[
+a_{n}=\int_{a}^{b} h(x) f(x) P_{n}(x) d x,
+\]
+
+причем функция $f(x)$ входит в класс функций $L_{2}=$ $=L_{2}[a, b, h(x)]$, квадрат к-рых суммируем (интегрируем по Јебегу) с весовой функцией $h(x)$ по интервалу ортогональности $(a, b)$.
+
+Как и у любого ортогонального ряда, частичные суммы $\left\{s_{n}(x, f)\right\}$ ряда (1) приближают функцию $f(x)$ наилучшим образом в метрике пространства $L_{2}$ и выполняется условие
+
+\[
+\lim _{n \rightarrow \infty} a_{n}=0
+\]
+
+Для доказательства сходимости ряда (1) в отдельной точке $x$ или на нек-ром множестве из $(a, b)$ обычно применяется равенство
+
+$f(x)-s_{n}(x, f)=\mu_{n}\left[a_{n}\left(\varphi_{x}\right) P_{n+1}(x)-a_{n+1}\left(\varphi_{x}\right) P_{n}(x)\right]$, где $\left\{a_{n}\left(\varphi_{x}\right)\right\}$ - коәффициенты Фурье вспомогательной функции
+
+\[
+\varphi_{x}(t)=\frac{f(x)-f(t)}{x-t}, t \in(a, b)
+\]
+
+при фиксированном $x$, а $\mu_{n}$-коэфффициент из формулы Кристоффеля - Дарбу. Если отревок ортогональности $[a, b]$ конечен, $\varphi_{x}(t) \in L_{2}$ и последовательность $\left\{P_{n}(x)\right\}$ ограничена в данной точке $x$, то ряд (1) сходится $\mathrm{k}$ вначению $f(x)$.
+
+Коәфф্цициенты (2) можно определять и для функции $f(t)$ из класса $L_{1}=L_{1}[a, b, h(t)]$, т. е. для фурнкций, суммируемых с весом $h(t)$ на интервале $(a, b)$. В случае конечного отрезка $[a, b]$ условие (3) имеет место, если $f(t) \in L_{1}=L_{1}[a, b, \quad h(t)]$, а последовательность $\left\{P_{n}(t)\right\}$ ограничена равномерно на всем отрезке $[a, b]$. При этих условиях ряд (1) сходится в нек-рой точке $x \in[a, b]$ к значению $f(x)$, если $\varphi_{x}(t) \in L_{1}[a, b, h(t)]$.
+
+Пусть $A$-та часть интервала $(a, b)$, где последовательность $\left\{P_{n}(t)\right\}$ ограничена равномерно, $B=[a, b] \backslash A$ и $L_{p}(A)=L_{p}[A, h(t)]$-класс функций, суммируемых в степени $p$ по множеству $A$ с весом $h(t)$. Если при фиксированном $x \in A$ имеем $\varphi_{x}(t) \in L_{1}(A)$ и $\varphi_{x}(t) \in L_{2}(B)$, то ряд (1) сходится к $f(x)$.
+
+Для рядов (1) имеет место принцип локализации условий сходимости: если две функции $f(t)$ и $g(t)$ из пространства $L_{2}$ совпадают в интервале $(x-\delta, x+\delta)$, где $x \in A$, то Ф. р. по ортогональным многочленам этих двух функций в тотке $x$ сходятся или расходятся одновременно. Аналогичное утверждение справедливо, если $f(t)$ и $g(t)$ входят в пространства $L_{1}(A)$ и $L_{2}(B)$, причем $x \in A$.
+
+Для классических ортогональных многочленов имеют место теоремы о равносходимости ряда (1) с нек-рым ассоциированным тригонометрич. рядом Фурье (см. Равносходящиеся ряди).
+
+Равномерная сходимость ряда (1) на всем конечном отрезке ортогональности $[a, b]$ или на части его обычно исследуется с помощью неравенства Лебега
+
+\[
+\left|f(x)-\sum_{k=0}^{n} a_{k} P_{k}(x)\right| \leqslant\left[1+L_{n}(x)\right] E_{n}(f), x \in[a, b],
+\]
+где функция Лебега
+
+\[
+L_{n}(x)=\int_{a}^{b} h(t)\left|\sum_{k=0}^{n} P_{k}(x) P_{k}(t)\right| d t
+\]
+
+не зависит от функции $f(x)$, а $E_{n}(f)$ - наилучшее равномерное приближение неп рерывной функции $f(x)$ на отрезке $[a, b]$ многочленами степени не выше $n$. В зависимости от свойств весовой функции $h(x)$ последовательность функций Лебега $\left\{L_{n}(x)\right\}$ в разных точках отрезка $[a, b]$ может возрастать с различной скоростью. А для всего отрезка $[a, b]$ вводятся постоянные Лебега
+
+\[
+L_{n}=\max _{x \in[a, b]} L_{n}(x)
+\]
+
+к-рые возрастают неограниченно при $n \rightarrow \infty$, причем для различных систем ортогональных многочленов постоянные Лебега могут возрастать с различноӥ скоростью. Из неравенства Лебега следует, что если выполняется условие
+
+\[
+\lim _{n \rightarrow \infty} L_{n} E_{n}(f)=0
+\]
+
+то ряд (1) сходится к функции $f(x)$ равномерно на всем отрезке $[a, b]$. С другой стороны, скорость сходимости последовательности $\left\{E_{n}(f)\right\}$ к нулю зависит от дифференциальных свойств функции $f(x)$. Поэтому во многих случаях нетрудно сформулировать достаточные условия, при к-рых правая часть неравенства Лебега стремится $\mathrm{k}$ нулю при $n \rightarrow \infty$ (см., напр., Лежандра многочлены, Чебышева многочлены, Якоби многочлены). В общем случае произвольного веса конкретные результаты получаются, если для рассматриваемых ортогональных многочленов известны асимптотич. формулы или оценки.
+
+Лит.: [1] С е г е Г., Ортогональные многочлены, пер. с англ., М., 1962; [2] Г е p о н и м у с Я JI., Многочлены, ортот и н II. К , Классические ортогональные многочлены, 2 изд., М., 1979 , см. также лит. при ст. Ортогональжые многочлениі.</text_orig>
+</article>

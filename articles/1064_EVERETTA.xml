@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1064_EVERETTA" alphabetic_pos="1064">
+  <title>ЭВЕРЕТТА ИНТЕРПОЛЯЦИОННАЯ ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>462</start>
+    <end>462</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а ло о в Н. С.,</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалоов Н. С.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_1_EVERETTA">\begin{gathered}G_{2 n+1}(x)=G_{2 n+1}\left(x_{0}+t h\right)=f_{0}+t f_{1 / 2}^{\prime}+\frac{t(t-1)}{2 !} f_{0}^{2}+\ldots \\\ldots+\frac{t\left(t^{2}-1\right) \ldots\left[t^{2}-(n-1)^{2}\right\rceil\left(t^{2}-n^{2}\right)}{(2 n+1) !} f_{1 / 2}^{2 n+1}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_2_EVERETTA">f_{1 / 2}^{2 k+1}=f_{1}^{2 k}-f_{0}^{2 k} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_3_EVERETTA">\begin{aligned}&amp; E_{2 n+1}\left(x_{0}+t h\right)=S_{0}(u)+S_{1}(t), \\&amp; \text { где } u=1-t, \\&amp; \quad S_{q}(t)=f_{q} t+f_{q}^{2} \frac{t\left(t^{2}-1\right)}{3 !}+\ldots+f_{q}^{2 n} \frac{t\left(t^{2}-1\right) \ldots\left(t^{2}-n^{2}\right)}{(2 n+1) !} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_4_EVERETTA">f\left(x_{0}-t h\right)=S_{0}(u)+S_{-1}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_5_EVERETTA">-k \frac{t\left(t^{2}-1\right)}{3 !}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_6_EVERETTA">\bar{S}_{q}(t)=f_{q} t+\left(f_{q}^{2}-\frac{k}{20} f_{q}^{4}\right) \frac{t\left(t^{2}-1\right)}{3 !} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_7_EVERETTA">\sup \left|E_{5}\left(x_{0}+t h\right)-\bar{E}_{5}\left(x_{0}+t h\right)\right|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1064_8_EVERETTA">\bar{E}_{5}\left(x_{0}+t \dot{h}\right)=\bar{S}_{0}(u)+\overline{S_{1}}(t), u=1-t .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_1_EVERETTA">x_{0}, x_{0}+h, x_{0}-h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_2_EVERETTA">\ldots, x_{0}+n h, x_{0}-n h, x_{0}+(n+1) h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_3_EVERETTA">x=x_{0}+t h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_4_EVERETTA">x_{0}+k h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_5_EVERETTA">x_{0}+k h^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_6_EVERETTA">h^{\prime}=h / l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_7_EVERETTA">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_8_EVERETTA">f\left(x_{0}-t h\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_9_EVERETTA">0&lt;t&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_10_EVERETTA">s_{0}(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_11_EVERETTA">f\left(x_{0} \pm t h\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_12_EVERETTA">n=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_13_EVERETTA">f_{q}^{4}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_14_EVERETTA">s_{q}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_15_EVERETTA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1064_16_EVERETTA">k=3,6785</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>способ записи интерполяционного многочлена, получающегося из Гаусса интерполячионной формулы для пнтерполирования вперед по узлам $URI[[http://libmeta.ru/me/formula/aux/1064_1_EVERETTA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1064_2_EVERETTA]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/1064_3_EVERETTA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_1_EVERETTA]]/URI
+\]
+
+исключением конечных разностей нечетного порядка при помощи соотношения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_2_EVERETTA]]/URI
+\]
+
+После приведения подобных членов получается Э. и. ф.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_3_EVERETTA]]/URI
+\]
+
+Формула [1] примерно вдвое сокращает работу по сравнению с другими записями интершоляционного многочлена при репении задачи уплотнения таблиц, т. е. когда из данної таблицы значений функции с узлами $URI[[http://libmeta.ru/me/formula/aux/1064_4_EVERETTA]]/URI$ требуется составить таблицу значений функции с узлами $URI[[http://libmeta.ru/me/formula/aux/1064_5_EVERETTA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1064_6_EVERETTA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1064_7_EVERETTA]]/URI$ - целое, поскольку в этом случае значения $URI[[http://libmeta.ru/me/formula/aux/1064_8_EVERETTA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1064_9_EVERETTA]]/URI$ вычисляются по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_4_EVERETTA]]/URI
+\]
+
+значение $URI[[http://libmeta.ru/me/formula/aux/1064_10_EVERETTA]]/URI$ используется при нахождении двух значений $URI[[http://libmeta.ru/me/formula/aux/1064_11_EVERETTA]]/URI$.
+
+При ручном счете в случае $URI[[http://libmeta.ru/me/formula/aux/1064_12_EVERETTA]]/URI$ коэфффициент при $URI[[http://libmeta.ru/me/formula/aux/1064_13_EVERETTA]]/URI$ в (2) целесообразно приблизить выражением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_5_EVERETTA]]/URI
+\]
+
+и вместо $URI[[http://libmeta.ru/me/formula/aux/1064_14_EVERETTA]]/URI$ вычислять
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_6_EVERETTA]]/URI
+\]
+
+Параметр $URI[[http://libmeta.ru/me/formula/aux/1064_15_EVERETTA]]/URI$ можно выбирать, напр., из условия минимума главной части величины
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_7_EVERETTA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1064_8_EVERETTA]]/URI
+\]
+
+В этом случае значение $URI[[http://libmeta.ru/me/formula/aux/1064_16_EVERETTA]]/URI$.</text>
+  <text_orig>способ записи интерполяционного многочлена, получающегося из Гаусса интерполячионной формулы для пнтерполирования вперед по узлам $x_{0}, x_{0}+h, x_{0}-h$, $\ldots, x_{0}+n h, x_{0}-n h, x_{0}+(n+1) h$ в точке $x=x_{0}+t h$
+
+\[
+\begin{gathered}
+G_{2 n+1}(x)=G_{2 n+1}\left(x_{0}+t h\right)=f_{0}+t f_{1 / 2}^{\prime}+\frac{t(t-1)}{2 !} f_{0}^{2}+\ldots \\
+\ldots+\frac{t\left(t^{2}-1\right) \ldots\left[t^{2}-(n-1)^{2}\right\rceil\left(t^{2}-n^{2}\right)}{(2 n+1) !} f_{1 / 2}^{2 n+1}
+\end{gathered}
+\]
+
+исключением конечных разностей нечетного порядка при помощи соотношения
+
+\[
+f_{1 / 2}^{2 k+1}=f_{1}^{2 k}-f_{0}^{2 k} \text {. }
+\]
+
+После приведения подобных членов получается Э. и. ф.
+
+\[
+\begin{aligned}
+&amp; E_{2 n+1}\left(x_{0}+t h\right)=S_{0}(u)+S_{1}(t), \\
+&amp; \text { где } u=1-t, \\
+&amp; \quad S_{q}(t)=f_{q} t+f_{q}^{2} \frac{t\left(t^{2}-1\right)}{3 !}+\ldots+f_{q}^{2 n} \frac{t\left(t^{2}-1\right) \ldots\left(t^{2}-n^{2}\right)}{(2 n+1) !} .
+\end{aligned}
+\]
+
+Формула [1] примерно вдвое сокращает работу по сравнению с другими записями интершоляционного многочлена при репении задачи уплотнения таблиц, т. е. когда из данної таблицы значений функции с узлами $x_{0}+k h$ требуется составить таблицу значений функции с узлами $x_{0}+k h^{\prime}$ при $h^{\prime}=h / l$, где $l$ - целое, поскольку в этом случае значения $f\left(x_{0}-t h\right)$ при $0&lt;t&lt;1$ вычисляются по формуле
+
+\[
+f\left(x_{0}-t h\right)=S_{0}(u)+S_{-1}(t)
+\]
+
+значение $S_{0}(u)$ используется при нахождении двух значений $f\left(x_{0} \pm t h\right)$.
+
+При ручном счете в случае $n=2$ коэфффициент при $f_{q}^{4}$ в (2) целесообразно приблизить выражением
+
+\[
+-k \frac{t\left(t^{2}-1\right)}{3 !}
+\]
+
+и вместо $S_{q}(t)$ вычислять
+
+\[
+\bar{S}_{q}(t)=f_{q} t+\left(f_{q}^{2}-\frac{k}{20} f_{q}^{4}\right) \frac{t\left(t^{2}-1\right)}{3 !} .
+\]
+
+Параметр $k$ можно выбирать, напр., из условия минимума главной части величины
+
+\[
+\sup \left|E_{5}\left(x_{0}+t h\right)-\bar{E}_{5}\left(x_{0}+t h\right)\right|,
+\]
+
+где
+
+\[
+\bar{E}_{5}\left(x_{0}+t \dot{h}\right)=\bar{S}_{0}(u)+\overline{S_{1}}(t), u=1-t .
+\]
+
+В этом случае значение $k=3,6785$.
+
+Лum.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а ло о в Н. С.,</text_orig>
+</article>

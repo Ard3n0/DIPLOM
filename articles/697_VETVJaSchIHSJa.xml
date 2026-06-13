@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/697_VETVJaSchIHSJa" alphabetic_pos="697">
+  <title>ВЕТВЯЩИХСЯ ПРОЦЕССОВ РЕГУЛЯРНОСТЬ</title>
+  <authors/>
+  <pages>
+    <start>345</start>
+    <end>346</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] С е в а с т в я н о в Б. А., Ветвящиеся процессы, М., 1971.</literature_orig>
+    <unit>
+      <author>Севаствянов Б. А.</author>
+      <title>Ветвящиеся процессы</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/697_1_VETVJaSchIHSJa">\frac{\partial F(t ; s)}{\partial t}=f(F(t, s))</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/697_2_VETVJaSchIHSJa">\int_{1-\varepsilon}^{1} \frac{d x}{f(x)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/697_3_VETVJaSchIHSJa">F(t ; s)=\int_{0}^{t} h(F(t-u ; s)) d G(u)+s(1-G(t)),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/697_4_VETVJaSchIHSJa">c_{1} t^{n} \leqslant G(t) \leqslant c_{2} t^{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/697_5_VETVJaSchIHSJa">\frac{d^{n} \varphi}{d t^{n}}=h(\varphi)-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/697_6_VETVJaSchIHSJa">\varphi(0)=1, \varphi^{(r)}(0)=0, r=1, \ldots, n-1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/697_7_VETVJaSchIHSJa">0 \leqslant \varphi(t) \leqslant 1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/697_8_VETVJaSchIHSJa">\int_{0}^{\varepsilon} \frac{d x}{x^{1-1 / n}(1-h(1-x))^{1 / n}}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_1_VETVJaSchIHSJa">f(0, s)=s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_2_VETVJaSchIHSJa">f(t, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_3_VETVJaSchIHSJa">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_4_VETVJaSchIHSJa">f(t ; s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_5_VETVJaSchIHSJa">g(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_6_VETVJaSchIHSJa">h(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_7_VETVJaSchIHSJa">t_{0}, c_{1}, c_{2}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_8_VETVJaSchIHSJa">h \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_9_VETVJaSchIHSJa">0 \leqslant t \leqslant t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/697_10_VETVJaSchIHSJa">\varepsilon&gt;0</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/697_1_VETVJaSchIHSJa">
+      <rel_text>интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/697_2_VETVJaSchIHSJa">
+      <rel_text>уравнением</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/697_3_VETVJaSchIHSJa">
+      <rel_text>регулярности ветвящегося процесса</rel_text>
+      <target>http://libmeta.ru/me/article/697_VETVJaSchIHSJa</target>
+    </relation>
+  </relations>
+  <text>свойство ветвящегося процесса, обеспечивающее конечность числа частиц в любой момент времени. Вопрос о В. П. р. сводится, как правило, к вопросу о единственности решения нек-рого дифференциального или интегрального уравнения. Напр., в ветвящемся процессе с непрерывным временем дифференциальное уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_1_VETVJaSchIHSJa]]/URI
+\]
+
+с начальным условием $URI[[http://libmeta.ru/me/formula/aux/697_1_VETVJaSchIHSJa]]/URI$ имеет единственное решение $URI[[http://libmeta.ru/me/formula/aux/697_2_VETVJaSchIHSJa]]/URI$ тогда и только тогда, когда при любом $URI[[http://libmeta.ru/me/formula/aux/697_3_VETVJaSchIHSJa]]/URI$ расходится интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_2_VETVJaSchIHSJa]]/URI
+\]
+
+В ветвящемся Беллмана-Харриса процессе производящая функция $URI[[http://libmeta.ru/me/formula/aux/697_4_VETVJaSchIHSJa]]/URI$ числа частиц есть решение нелинейного интегрального уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_3_VETVJaSchIHSJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/697_5_VETVJaSchIHSJa]]/URI$ - функция распределения времени жизни частиц, $URI[[http://libmeta.ru/me/formula/aux/697_6_VETVJaSchIHSJa]]/URI$ - производящая функция числа непосредственных потомков одной частицы. Если при некоторых $URI[[http://libmeta.ru/me/formula/aux/697_7_VETVJaSchIHSJa]]/URI$ и целом $URI[[http://libmeta.ru/me/formula/aux/697_8_VETVJaSchIHSJa]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/697_9_VETVJaSchIHSJa]]/URI$ выполняются неравенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_4_VETVJaSchIHSJa]]/URI
+\] то единственность решения уравнения (*) имеет место тогда и только тогда, когда уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_5_VETVJaSchIHSJa]]/URI
+\]
+
+с начальными условиями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_6_VETVJaSchIHSJa]]/URI
+\]
+
+имеет единственное решение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_7_VETVJaSchIHSJa]]/URI
+\]
+
+Для URI[[http://libmeta.ru/me/relation/697_3_VETVJaSchIHSJa]]/URI, описываемого URI[[http://libmeta.ru/me/relation/697_2_VETVJaSchIHSJa]]/URI (*), необходимо и достаточно, чтобы Iри любом $URI[[http://libmeta.ru/me/formula/aux/697_10_VETVJaSchIHSJa]]/URI$ URI[[http://libmeta.ru/me/relation/697_1_VETVJaSchIHSJa]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/697_8_VETVJaSchIHSJa]]/URI
+\]
+
+расходился.</text>
+  <text_orig>свойство ветвящегося процесса, обеспечивающее конечность числа частиц в любой момент времени. Вопрос о В. П. р. сводится, как правило, к вопросу о единственности решения нек-рого дифференциального или интегрального уравнения. Напр., в ветвящемся процессе с непрерывным временем дифференциальное уравнение
+
+\[
+\frac{\partial F(t ; s)}{\partial t}=f(F(t, s))
+\]
+
+с начальным условием $F(0, s)=s$ имеет единственное решение $F(t, s)$ тогда и только тогда, когда при любом $\varepsilon&gt;0$ расходится интеграл
+
+\[
+\int_{1-\varepsilon}^{1} \frac{d x}{f(x)}
+\]
+
+В ветвящемся Беллмана-Харриса процессе производящая функция $F(t ; s)$ числа частиц есть решение нелинейного интегрального уравнения
+
+\[
+F(t ; s)=\int_{0}^{t} h(F(t-u ; s)) d G(u)+s(1-G(t)),
+\]
+
+где $G(t)$ - функция распределения времени жизни частиц, $h(t)$ - производящая функция числа непосредственных потомков одной частицы. Если при некоторых $t_{0}, c_{1}, c_{2}&gt;0$ и целом $h \geqslant 1$ для всех $0 \leqslant t \leqslant t_{0}$ выполняются неравенства
+
+\[
+c_{1} t^{n} \leqslant G(t) \leqslant c_{2} t^{n},
+\] то единственность решения уравнения (*) имеет место тогда и только тогда, когда уравнение
+
+\[
+\frac{d^{n} \varphi}{d t^{n}}=h(\varphi)-1
+\]
+
+с начальными условиями
+
+\[
+\varphi(0)=1, \varphi^{(r)}(0)=0, r=1, \ldots, n-1,
+\]
+
+имеет единственное решение
+
+\[
+0 \leqslant \varphi(t) \leqslant 1 .
+\]
+
+Для регулярности ветвящегося процесса, описываемого уравнением (*), необходимо и достаточно, чтобы Iри любом $\varepsilon&gt;0$ интеграл
+
+\[
+\int_{0}^{\varepsilon} \frac{d x}{x^{1-1 / n}(1-h(1-x))^{1 / n}}
+\]
+
+расходился.
+
+Лит.: [1] С е в а с т в я н о в Б. А., Ветвящиеся процессы, М., 1971.</text_orig>
+</article>

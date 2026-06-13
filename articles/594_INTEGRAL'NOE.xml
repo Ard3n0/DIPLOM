@@ -1,0 +1,699 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/594_INTEGRAL'NOE" alphabetic_pos="594">
+  <title>ИНТЕГРАЛЬНОЕ ИСЧИСЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>290</start>
+    <end>293</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: см. [1] - [24] при статье Дифберенциальное исчисление, а также дополнение к разделу «работы основоположников и классиков...»: 125] А р х и м е д, Сочинения, М., 1962;![](https://cdn.mathpix.com/cropped/2023_07_08_95ff634719feaa3d2914g-1.jpg?height=45&amp;width=831&amp;top_left_y=1178&amp;top_left_x=989)с латин.], М.- Л., $1934 ;$; исчисление, пер. с латин., т. 1-3, М., $1956-58$.</literature_orig>
+    <unit>
+      <title>- [24] при статье Дифберенциальное исчисление, а также дополнение к разделу «работы основоположников и классиков...»: 125] А р х и м е д, Сочинения</title>
+      <publication>М.</publication>
+      <year>1962</year>
+      <other>М.- Л., $1934 ;$; исчисление, пер. с латин., т. 1-3, М., $1956-58$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/594_1_INTEGRAL'NOE">\int f(x) d x=F(x)+C .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_2_INTEGRAL'NOE">\int F^{\prime}(x) d x=F(x)+C, \quad d \int f(x) d x=f(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_3_INTEGRAL'NOE">\int f_{1}(x) d x \quad \text { и } \int f_{2}(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_4_INTEGRAL'NOE">\int\left[\lambda_{1} f_{1}(x)+\lambda_{2} f_{2}(x)\right] d x=\lambda_{1} \int f_{1}(x) d x+\lambda_{2} \int f_{2}(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_5_INTEGRAL'NOE">\int u d v=u v-\int v d u</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_6_INTEGRAL'NOE">\int f[\varphi(t)] \varphi^{\prime}(t) d t=\left.\int f(x) d x\right|_{x=\varphi(t)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_7_INTEGRAL'NOE">\int R\left[x,\left(\frac{a x+b}{c x+d}\right)^{r_{1}}, \ldots,\left(\frac{a x+b}{c x+d}\right)^{r} m\right] d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_8_INTEGRAL'NOE">\int R\left(x, \sqrt{a x^{2}+b x+c}\right) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_9_INTEGRAL'NOE">\int R(\sin x, \cos x) d x, \quad \int R(\operatorname{sh} x, \operatorname{ch} x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_10_INTEGRAL'NOE">\begin{array}{ll}\int e^{\alpha x} \cos \beta x d x, &amp; \int e^{\alpha x} \sin \beta x d x, \\\int x^{n} \cos \alpha x d x, &amp; \int x^{n} \sin \alpha x d x, \\\int x^{n} \arcsin x d x, &amp; \int^{n} x^{n} \arccos x d x, \\\int x^{n} \operatorname{arctg} x d x, &amp; \int x^{n} \operatorname{arcctg} x d x, n=0,1,2, \ldots\end{array}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_11_INTEGRAL'NOE">\int \frac{e^{x}}{x^{n}} d x, \quad \int \frac{\sin x}{x^{n}} d x, \quad \int \frac{\cos x}{x^{n}} d x, \quad n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_12_INTEGRAL'NOE">\int_{a}^{b} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_13_INTEGRAL'NOE">\int_{a}^{b} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_14_INTEGRAL'NOE">\lambda_{1} f_{1}(x)+\lambda_{2} f_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_15_INTEGRAL'NOE">\begin{aligned}&amp; \int_{a}^{b}\left[\lambda_{1} f_{1}(x)+\lambda_{2} f_{2}(x)\right] d x= \\= &amp; \lambda_{1} \int_{a}^{b} f_{1}(x) d x+\lambda_{2} \int_{a}^{b} f_{2}(x) d x .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_16_INTEGRAL'NOE">\int_{a}^{b} f(x) d x=\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_17_INTEGRAL'NOE">\int_{a}^{b} f(x) d x \geqslant \int_{a}^{b} g(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_18_INTEGRAL'NOE">\left|\int_{a}^{b} f(x) d x\right| \leqslant \int_{a}^{b}|f(x)| d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_19_INTEGRAL'NOE">\int_{a}^{a} f(x) d x=0 \text { и } \int_{a}^{b} f(x) d x=-\int_{a}^{b} f(x) d x, \quad a&lt;b .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_20_INTEGRAL'NOE">\int_{a}^{b} f(x) g(x) d x=\mu \int_{a}^{b} g(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_21_INTEGRAL'NOE">\int_{a}^{b} f(x) g(x) d x=f(\xi) \int_{a}^{b} g(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_22_INTEGRAL'NOE">\int_{a}^{b} f(x) d x=f(\xi)(b-a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_23_INTEGRAL'NOE">F(x)=\int_{a}^{x} f(t) d t, a \leqslant x \leqslant b,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_24_INTEGRAL'NOE">\frac{d}{d x} \int_{a}^{x} f(t) d t=f(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_25_INTEGRAL'NOE">F(x)=\int_{a}^{x} f(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_26_INTEGRAL'NOE">\int f(x) d x=\int_{a}^{x} f(t) d t+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_27_INTEGRAL'NOE">\int_{a}^{b} f(x) d x=F(b)-F(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_28_INTEGRAL'NOE">\int_{\varphi\left(\alpha_{0}\right)}^{\varphi\left(\beta_{\theta}\right)} f(x) d x=\int_{\alpha_{0}}^{\beta_{0}} f[\varphi(t)] \varphi^{\prime}(t) d t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/594_29_INTEGRAL'NOE">\int_{a}^{b} u(x) d v(x)=\left.u(x) v(x)\right|_{x=a} ^{x=b}-\int_{a}^{b} v(x) d u(x),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_1_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_2_INTEGRAL'NOE">\int f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_3_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_4_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_5_INTEGRAL'NOE">f(x)+c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_6_INTEGRAL'NOE">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_7_INTEGRAL'NOE">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_8_INTEGRAL'NOE">\lambda_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_9_INTEGRAL'NOE">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_10_INTEGRAL'NOE">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_11_INTEGRAL'NOE">\int v d u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_12_INTEGRAL'NOE">\int u d v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_13_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_14_INTEGRAL'NOE">x=\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_15_INTEGRAL'NOE">f[\varphi(t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_16_INTEGRAL'NOE">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_17_INTEGRAL'NOE">\int f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_18_INTEGRAL'NOE">\int x^{\alpha} d x=\frac{x^{\alpha+1}}{\alpha+1}+C, \quad \alpha \neq-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_19_INTEGRAL'NOE">\int \frac{d x}{x}=\ln |x|+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_20_INTEGRAL'NOE">\int a^{x} d x=\frac{a^{x}}{\ln a}+C, \quad a&gt;1, \quad a \neq 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_21_INTEGRAL'NOE">\int e^{x} d x=e^{x}+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_22_INTEGRAL'NOE">\int \sin x d x=-\cos x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_23_INTEGRAL'NOE">\int \cos x d x=\sin x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_24_INTEGRAL'NOE">\int \frac{d x}{\cos ^{2} x}=\operatorname{tg} x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_25_INTEGRAL'NOE">\int \frac{d x}{\sin ^{2} x}=-\operatorname{ctg} x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_26_INTEGRAL'NOE">\int \operatorname{sh} x d x=\operatorname{ch} x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_27_INTEGRAL'NOE">\int \operatorname{ch} x d x=\operatorname{sh} x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_28_INTEGRAL'NOE">\int \frac{d x}{\operatorname{ch}^{2} x}=\operatorname{th} x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_29_INTEGRAL'NOE">\int \frac{d x}{\operatorname{sh}^{2} x}=-\operatorname{cth} x+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_30_INTEGRAL'NOE">\int \frac{d x}{x^{2}+a^{2}}=\frac{1}{a} \operatorname{arctg} \frac{x}{a}+C=-\frac{1}{a} \operatorname{arcctg} \frac{x}{a}+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_31_INTEGRAL'NOE">\int \frac{d x}{x^{2}-a^{2}}=\frac{1}{2 a} \ln \left|\frac{x-a}{x+a}\right|+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_32_INTEGRAL'NOE">\int \frac{d x}{\sqrt{a^{2}-x^{2}}}=\arcsin \frac{x}{a}+C=-\arccos \frac{x}{a}+C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_33_INTEGRAL'NOE">|x|&lt;|a|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_34_INTEGRAL'NOE">\int \frac{d x}{\sqrt{x^{2} \pm a^{2}}}=\ln \left|x+\sqrt{x^{2} \pm a^{2}}\right|+C \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_35_INTEGRAL'NOE">x^{2}-a^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_36_INTEGRAL'NOE">|x|&gt;|a|)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_37_INTEGRAL'NOE">1,2,6,7,11,13,15</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_38_INTEGRAL'NOE">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_39_INTEGRAL'NOE">r_{1}, r_{2}, \ldots, r_{m}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_40_INTEGRAL'NOE">\boldsymbol{r}\left(y_{1}, y_{2}, \ldots, y_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_41_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_42_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_43_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_44_INTEGRAL'NOE">f(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_45_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_46_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_47_INTEGRAL'NOE">f(x), a \leqslant x \leqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_48_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_49_INTEGRAL'NOE">x=a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_50_INTEGRAL'NOE">x=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_51_INTEGRAL'NOE">f_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_52_INTEGRAL'NOE">f_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_53_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_54_INTEGRAL'NOE">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_55_INTEGRAL'NOE">\lambda_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_56_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_57_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_58_INTEGRAL'NOE">[c, d] \subset[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_59_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_60_INTEGRAL'NOE">[c, d]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_61_INTEGRAL'NOE">a&lt;c&lt;b \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_62_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_63_INTEGRAL'NOE">[a, c]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_64_INTEGRAL'NOE">[c, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_65_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_66_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_67_INTEGRAL'NOE">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_68_INTEGRAL'NOE">f(x) \geqslant g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_69_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_70_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_71_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_72_INTEGRAL'NOE">|f(x)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_73_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_74_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_75_INTEGRAL'NOE">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_76_INTEGRAL'NOE">[a, b], \quad m \leqslant f(x) \leqslant M, x \in[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_77_INTEGRAL'NOE">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_78_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_79_INTEGRAL'NOE">m \leqslant \mu \leqslant M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_80_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_81_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_82_INTEGRAL'NOE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_83_INTEGRAL'NOE">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_84_INTEGRAL'NOE">g(x) \equiv 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_85_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_86_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_87_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_88_INTEGRAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_89_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_90_INTEGRAL'NOE">f^{\prime}\left(x_{0}\right)=f\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_91_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_92_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_93_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_94_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_95_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_96_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_97_INTEGRAL'NOE">\int_{a}^{b} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_98_INTEGRAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_99_INTEGRAL'NOE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_100_INTEGRAL'NOE">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_101_INTEGRAL'NOE">\varphi^{\prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_102_INTEGRAL'NOE">(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_103_INTEGRAL'NOE">(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_104_INTEGRAL'NOE">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_105_INTEGRAL'NOE">(a, b): a&lt;\varphi(t)&lt;b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_106_INTEGRAL'NOE">\alpha&lt;t&lt;\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_107_INTEGRAL'NOE">(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_108_INTEGRAL'NOE">f[\varphi(t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_109_INTEGRAL'NOE">\alpha_{0} \in(\alpha, \beta), \beta_{0} \in(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_110_INTEGRAL'NOE">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_111_INTEGRAL'NOE">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_112_INTEGRAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_113_INTEGRAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_114_INTEGRAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/594_115_INTEGRAL'NOE">c</formula>
+  </formulas_aux>
+  <relations n="11">
+    <relation uri="http://libmeta.ru/me/relation/594_1_INTEGRAL'NOE">
+      <rel_text>Эйлера подстановки</rel_text>
+      <target>http://libmeta.ru/me/article/1076_EJLERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_2_INTEGRAL'NOE">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_3_INTEGRAL'NOE">
+      <rel_text>Интегрирование</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_4_INTEGRAL'NOE">
+      <rel_text>процессов</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_5_INTEGRAL'NOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_6_INTEGRAL'NOE">
+      <rel_text>статистике</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_7_INTEGRAL'NOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_8_INTEGRAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_9_INTEGRAL'NOE">
+      <rel_text>интегральных</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_10_INTEGRAL'NOE">
+      <rel_text>диффференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/594_11_INTEGRAL'NOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>раздел математики, в к-ром изучаются понятия интеарала, его свойства и методы вычислений. И. и. непрерывно связано с дифберенциальньл исцислением и составляет вместе с ним основу математич. анализа. Истоки И. и. относятся к античному периоду развития математики и связаны с исчерпьвания методом, разработанным математиками Древней Греции. Этот метод возник при решении задач на вычисление площадей плоских фигур и поверхностей, объемов тел, нек-рых задач статики и гидродинамики. Он основан на аппроксимации рассматриваемых объектов ступенчатыми фигурами или телами, составленными из простейших фигур или пространственных тел (прямоугольников, параллелепипедов, цилиндров и т. П.). В этом смысле метод исчерпывания можно рассматривать как античный интегральный метод. Наибольпіее развитие метод исчерпывания в древнюю эпоху получил в работах Евдокса (4 в. до н. э.) и особенно Архимеда (3 в. до н. э.) . Дальнейшее его применение и совершенствование связано с именами многих ученых 15-17 вв. Основные понятия и теория интегрального и дифференциального исчислений, прежде всего связь операций дифференцирования и интегрирования, а также их применения к решению прикладных задач, были разработаны в трудах И. Ньютона (i. Newton) и Г. Лейбница (g. Leibniz) в конце 17 в. Их исследования явились началом интенсивного развития математич. анализа. Существенную роль в его создании в 18 в. сыграли работы Л. Эйлера (l. Euler), Я. и И. Бернулли (jacob, Johann Bernoulli), Ж. Лагранжа (j. Lagrange). В 19 в. в связи с появлением понятия предела И. и. приобрело логически заверпенную форму [работы О. Коти (а. Саuchy), Б. Римана (b. Riemann) и др.]. Разработка теории и методов И. и. происходила в конце 19 в. и в 20 в. одновременно с исследованиями по теории меры, играющей существенную роль в И. и.
+
+С помощью И. и. стало возможным рептать единым методом многие теоретич. и прикладные задачи, как новые, к-рые ранее не поддавались репению, так и старые, требовавшие прежде специальных искусственных приемов. Основными понятиями И. И. являются два тесно связанных понятия интеграла: неопределенного и определенного.
+
+Н е о п р е д л е н ны й ин т е г р а л от данной действительной функции на нек-ром промежутке определяется как совокупность всех ее первообразных на этом промежутке, т. е. функций, производные к-рых совпадают с заданной функцией. Неопределенный интеграл от функции $URI[[http://libmeta.ru/me/formula/aux/594_1_INTEGRAL'NOE]]/URI$ обозначается через $URI[[http://libmeta.ru/me/formula/aux/594_2_INTEGRAL'NOE]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/594_3_INTEGRAL'NOE]]/URI$ - какая-либо первообразная функция $URI[[http://libmeta.ru/me/formula/aux/594_4_INTEGRAL'NOE]]/URI$, то любая другая ее первообразная имеет вид $URI[[http://libmeta.ru/me/formula/aux/594_5_INTEGRAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/594_6_INTEGRAL'NOE]]/URI$ - произвольная постоянная, поэтому пишут
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_1_INTEGRAL'NOE]]/URI
+\]
+
+Операция нахождения неопределенного интеграла наз. и н т е г р и р о в а н и е м. Интегрирование является операцией, обратной к операции дифференцирования:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_2_INTEGRAL'NOE]]/URI
+\]
+
+Операция интегрирования линейна: если на нек-ром промежутке существуют неопределенные интегралы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_3_INTEGRAL'NOE]]/URI
+\]
+
+то для любых действительных чисел $URI[[http://libmeta.ru/me/formula/aux/594_7_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_8_INTEGRAL'NOE]]/URI$ на том же промежутке существует интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_4_INTEGRAL'NOE]]/URI
+\]
+
+Для неопределенных интегралов справедлива формула интегрирования по частям: если функции $URI[[http://libmeta.ru/me/formula/aux/594_9_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_10_INTEGRAL'NOE]]/URI$ дифференцируемы на нек-ром промежутке и интеграл $URI[[http://libmeta.ru/me/formula/aux/594_11_INTEGRAL'NOE]]/URI$ существует, то существует и интеграл $URI[[http://libmeta.ru/me/formula/aux/594_12_INTEGRAL'NOE]]/URI$, причем имеет место равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_5_INTEGRAL'NOE]]/URI
+\]
+
+Справедлива ф о р м у а з а ме ны п е р е ме нн о г о: если для функций $URI[[http://libmeta.ru/me/formula/aux/594_13_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_14_INTEGRAL'NOE]]/URI$, определенных на нек-рых промежутках, имеет смысл сложная функция $URI[[http://libmeta.ru/me/formula/aux/594_15_INTEGRAL'NOE]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/594_16_INTEGRAL'NOE]]/URI$ дифференцируема и существует интеграл $URI[[http://libmeta.ru/me/formula/aux/594_17_INTEGRAL'NOE]]/URI$, то существует и интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_6_INTEGRAL'NOE]]/URI
+\]
+
+(см. URI[[http://libmeta.ru/me/relation/594_3_INTEGRAL'NOE]]/URI подстановкой). Всякая непрерывная на нек-ром промежутке функция имеет на нем первообразную и, следовательно, для нее существует неопределенный интеграл. Задача фактического нахождения неопределенного интеграла от конкретно заданной функции осложняется тем, что неопределенный интеграл от элементарной функции не является, вообще говоря, әлементарной функцией. Известны многие классы функций, для к-рых оказывается возможным выразить их неопределенные интегралы через әлементарные функции. Простейпими примерами этого являются интегралы, к-рые получаются из таблицы производных основных элементарных функций (см. Дияференциальное исчисление):
+
+1) $URI[[http://libmeta.ru/me/formula/aux/594_18_INTEGRAL'NOE]]/URI$;
+
+2) $URI[[http://libmeta.ru/me/formula/aux/594_19_INTEGRAL'NOE]]/URI$;
+
+3) $URI[[http://libmeta.ru/me/formula/aux/594_20_INTEGRAL'NOE]]/URI$, в частности $URI[[http://libmeta.ru/me/formula/aux/594_21_INTEGRAL'NOE]]/URI$
+
+4) $URI[[http://libmeta.ru/me/formula/aux/594_22_INTEGRAL'NOE]]/URI$;
+
+5) $URI[[http://libmeta.ru/me/formula/aux/594_23_INTEGRAL'NOE]]/URI$;
+
+6) $URI[[http://libmeta.ru/me/formula/aux/594_24_INTEGRAL'NOE]]/URI$;
+
+7) $URI[[http://libmeta.ru/me/formula/aux/594_25_INTEGRAL'NOE]]/URI$;
+
+8) $URI[[http://libmeta.ru/me/formula/aux/594_26_INTEGRAL'NOE]]/URI$
+
+9) $URI[[http://libmeta.ru/me/formula/aux/594_27_INTEGRAL'NOE]]/URI$
+
+10) $URI[[http://libmeta.ru/me/formula/aux/594_28_INTEGRAL'NOE]]/URI$;
+
+11) $URI[[http://libmeta.ru/me/formula/aux/594_29_INTEGRAL'NOE]]/URI$;
+
+12) $URI[[http://libmeta.ru/me/formula/aux/594_30_INTEGRAL'NOE]]/URI$;
+
+13) $URI[[http://libmeta.ru/me/formula/aux/594_31_INTEGRAL'NOE]]/URI$;
+
+14) $URI[[http://libmeta.ru/me/formula/aux/594_32_INTEGRAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/594_33_INTEGRAL'NOE]]/URI$
+
+15) $URI[[http://libmeta.ru/me/formula/aux/594_34_INTEGRAL'NOE]]/URI$ (когда под корнем стоит $URI[[http://libmeta.ru/me/formula/aux/594_35_INTEGRAL'NOE]]/URI$, предполагается, что $URI[[http://libmeta.ru/me/formula/aux/594_36_INTEGRAL'NOE]]/URI$
+
+Если знаменатель подинтегральной функции обращается в нуль в нек-рой точке, то написанные формуэы справедливы лишь для тех промежутков, в к-рых не происходит обращения в нуль указанного знаменателя (см. URI[[http://libmeta.ru/me/relation/594_2_INTEGRAL'NOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/594_37_INTEGRAL'NOE]]/URI$ ).
+
+Неопределенный интеграл от рациональной функции на всяком промежутке, на к-ром знаменатель не обращается в нуль, является суперпозицией рациональных функций, арктангенсов и натуральных логарифомов. Нахождение алгебраич. части неопределенного интеграла от рациональной функции может быть осуществлено Остроградского методом. $URI[[http://libmeta.ru/me/formula/aux/594_38_INTEGRAL'NOE]]/URI$ интегрированию рациональных функций с помощью подстановок сводятся, напр., интегралы вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_7_INTEGRAL'NOE]]/URI
+\] где $URI[[http://libmeta.ru/me/formula/aux/594_39_INTEGRAL'NOE]]/URI$ рациональные числа, интегралы вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_8_INTEGRAL'NOE]]/URI
+\]
+
+(см. URI[[http://libmeta.ru/me/relation/594_1_INTEGRAL'NOE]]/URI), нек-рые случаи интегралов от дифференциальных биномов, интегралы вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_9_INTEGRAL'NOE]]/URI
+\]
+
+(здесь везде $URI[[http://libmeta.ru/me/formula/aux/594_40_INTEGRAL'NOE]]/URI$ - рациональные функции), интегралы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_10_INTEGRAL'NOE]]/URI
+\]
+
+и мн. др. Вместе с тем, напр., интегралы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_11_INTEGRAL'NOE]]/URI
+\]
+
+не выражаются через элементарные функции.
+
+О пределен ным интегра лом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_12_INTEGRAL'NOE]]/URI
+\]
+
+от функции $URI[[http://libmeta.ru/me/formula/aux/594_41_INTEGRAL'NOE]]/URI$, заданной на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_42_INTEGRAL'NOE]]/URI$, наз. предел интегральных сумм определенного вида (см. Коши интеграл, Римана интеграл, Лебега интеграл, Колмогорова интеграл, Стилтьеса интеграл и т. Д.). Если әтот предел существует, функцию $URI[[http://libmeta.ru/me/formula/aux/594_43_INTEGRAL'NOE]]/URI$ наз. и н т е г р ир у е м о й соответственно по Коши, по Риману, по Јебегу и т. д.
+
+Геометрич. смысл интеграла связан с понятием площади: если функция $URI[[http://libmeta.ru/me/formula/aux/594_44_INTEGRAL'NOE]]/URI$ непрерывна на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_45_INTEGRAL'NOE]]/URI$, то значение интеграла
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_13_INTEGRAL'NOE]]/URI
+\]
+
+равно площади криволинейной трапеции, образованной графиком функции $URI[[http://libmeta.ru/me/formula/aux/594_46_INTEGRAL'NOE]]/URI$, т. е. множеством, граница к-рого состоит из графика функции $URI[[http://libmeta.ru/me/formula/aux/594_47_INTEGRAL'NOE]]/URI$, отрезка $URI[[http://libmeta.ru/me/formula/aux/594_48_INTEGRAL'NOE]]/URI$ и двух отрезков прямых $URI[[http://libmeta.ru/me/formula/aux/594_49_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_50_INTEGRAL'NOE]]/URI$, к-рые могут вырождаться в точки. К задаче вычисления предела интегральных сумм, т. е. нахождению определенного интеграла, сводится вычисление многих встречающихся на практике величин: площадей фигур и поверхностей, объемов тел, работы силы, координат центра тяжести, значений моментов инерции различных тел и т. П.
+
+Определенный интеграл обладает свойством линейности: если функции $URI[[http://libmeta.ru/me/formula/aux/594_51_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_52_INTEGRAL'NOE]]/URI$ интегрируемы на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_53_INTEGRAL'NOE]]/URI$, то для произвольных действительных чисел $URI[[http://libmeta.ru/me/formula/aux/594_54_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_55_INTEGRAL'NOE]]/URI$ функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_14_INTEGRAL'NOE]]/URI
+\]
+
+также интегрируема на отрезке и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_15_INTEGRAL'NOE]]/URI
+\]
+
+Интегрируемость функции на отрезке обладает свойством монотонности: если функция $URI[[http://libmeta.ru/me/formula/aux/594_56_INTEGRAL'NOE]]/URI$ интегрируема на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_57_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_58_INTEGRAL'NOE]]/URI$, то функция $URI[[http://libmeta.ru/me/formula/aux/594_59_INTEGRAL'NOE]]/URI$ интегрируема и на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_60_INTEGRAL'NOE]]/URI$. Справедливо свойство аддитивности интеграла относительно отрезков, по к-рым происходит интегрирование: если $URI[[http://libmeta.ru/me/formula/aux/594_61_INTEGRAL'NOE]]/URI$ и Функция $URI[[http://libmeta.ru/me/formula/aux/594_62_INTEGRAL'NOE]]/URI$ интегрируема на отрезках $URI[[http://libmeta.ru/me/formula/aux/594_63_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_64_INTEGRAL'NOE]]/URI$, то она интегрируема и на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_65_INTEGRAL'NOE]]/URI$, причем
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_16_INTEGRAL'NOE]]/URI
+\]
+
+Если функции $URI[[http://libmeta.ru/me/formula/aux/594_66_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_67_INTEGRAL'NOE]]/URI$ интегрируемы, то их произведение также интегрируемо. Если $URI[[http://libmeta.ru/me/formula/aux/594_68_INTEGRAL'NOE]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/594_69_INTEGRAL'NOE]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_17_INTEGRAL'NOE]]/URI
+\]
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/594_70_INTEGRAL'NOE]]/URI$ интегрируема на $URI[[http://libmeta.ru/me/formula/aux/594_71_INTEGRAL'NOE]]/URI$, то ее абсолютная величина $URI[[http://libmeta.ru/me/formula/aux/594_72_INTEGRAL'NOE]]/URI$ также интегрируема на $URI[[http://libmeta.ru/me/formula/aux/594_73_INTEGRAL'NOE]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_18_INTEGRAL'NOE]]/URI
+\]
+
+По определению полагают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_19_INTEGRAL'NOE]]/URI
+\]
+
+Для определенных интегралов справедливы теоремы о среднем. Напр., если $URI[[http://libmeta.ru/me/formula/aux/594_74_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_75_INTEGRAL'NOE]]/URI$ интегрируемы на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_76_INTEGRAL'NOE]]/URI$ и функция $URI[[http://libmeta.ru/me/formula/aux/594_77_INTEGRAL'NOE]]/URI$ не меняет знака на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_78_INTEGRAL'NOE]]/URI$, т. е. либо неотрицательна, либо неположительна на этом отрезке, то существует такое число $URI[[http://libmeta.ru/me/formula/aux/594_79_INTEGRAL'NOE]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_20_INTEGRAL'NOE]]/URI
+\]
+
+При дополнительном предположении непрерывности на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_80_INTEGRAL'NOE]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/594_81_INTEGRAL'NOE]]/URI$ на интервале $URI[[http://libmeta.ru/me/formula/aux/594_82_INTEGRAL'NOE]]/URI$ существует такая точка $URI[[http://libmeta.ru/me/formula/aux/594_83_INTEGRAL'NOE]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_21_INTEGRAL'NOE]]/URI
+\]
+
+В частности, если $URI[[http://libmeta.ru/me/formula/aux/594_84_INTEGRAL'NOE]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_22_INTEGRAL'NOE]]/URI
+\]
+
+Интегралы с переменным ве р хним п р е д е л м. Если функция $URI[[http://libmeta.ru/me/formula/aux/594_85_INTEGRAL'NOE]]/URI$ интегрируема по Риману на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_86_INTEGRAL'NOE]]/URI$, то функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_23_INTEGRAL'NOE]]/URI
+\]
+
+непрерывна на этом отрезке. Если, кроме того, функция $URI[[http://libmeta.ru/me/formula/aux/594_87_INTEGRAL'NOE]]/URI$ непрерывна в точке $URI[[http://libmeta.ru/me/formula/aux/594_88_INTEGRAL'NOE]]/URI$, то функция $URI[[http://libmeta.ru/me/formula/aux/594_89_INTEGRAL'NOE]]/URI$ диффференцируема в этой точке и $URI[[http://libmeta.ru/me/formula/aux/594_90_INTEGRAL'NOE]]/URI$. Иначе говоря, в точках непрерывности функции справедлива формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_24_INTEGRAL'NOE]]/URI
+\]
+
+Следовательно, для всякой интегрируемой по Риману на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_91_INTEGRAL'NOE]]/URI$ функции эта формула справедлива во всех точках, кроме, быть может, множества точек, имеющих меру Лебега, равную нулю, ибо если функция интегрируема по Риману на некотором отрезке, то множество ее точек разрыва имеет меру нуль. Таким образом, если функция $URI[[http://libmeta.ru/me/formula/aux/594_92_INTEGRAL'NOE]]/URI$ непрерывна на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_93_INTEGRAL'NOE]]/URI$, то функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_25_INTEGRAL'NOE]]/URI
+\]
+
+является ее первообразной на этом отрезке. Эта теорема показывает, что операция диффференцирования является обратной к взятию определенного интеграла с переменным верхним пределом, тем самым устанавливая связь между определенным и неопределенным интегралами:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_26_INTEGRAL'NOE]]/URI
+\] Геометрич. смысл этой связи состоит в том, что задача о нахождениғ касательной к кривой и вычисление площадей плоских фигур являются в указанном смысле взаимно обратными.
+
+Для любой первообразной $URI[[http://libmeta.ru/me/formula/aux/594_94_INTEGRAL'NOE]]/URI$ непрерывной функции $URI[[http://libmeta.ru/me/formula/aux/594_95_INTEGRAL'NOE]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_96_INTEGRAL'NOE]]/URI$ имеет место фо о р м у л а тон а - Ле й б н и ца:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_27_INTEGRAL'NOE]]/URI
+\]
+
+Она показывает, что определенный интеграл по некоторому отрезку от непрерывной функции равен разности значений на концах этого отрезка любой из ее первообразных. Әту формулу иногда принимают за определение определенного интеграла. В этом случае доказывается, что введенный таким образом интеграл $URI[[http://libmeta.ru/me/formula/aux/594_97_INTEGRAL'NOE]]/URI$ является пределом соответствующих сумм.
+
+Для определенных интегралов справедливо правило замены переменного и формула интегрирования по частям. Пусть, напр., функция $URI[[http://libmeta.ru/me/formula/aux/594_98_INTEGRAL'NOE]]/URI$ непрерывна на интервале $URI[[http://libmeta.ru/me/formula/aux/594_99_INTEGRAL'NOE]]/URI$ и функция $URI[[http://libmeta.ru/me/formula/aux/594_100_INTEGRAL'NOE]]/URI$ непрерывна вместе со своей производной $URI[[http://libmeta.ru/me/formula/aux/594_101_INTEGRAL'NOE]]/URI$ на интервале $URI[[http://libmeta.ru/me/formula/aux/594_102_INTEGRAL'NOE]]/URI$, причем интервал $URI[[http://libmeta.ru/me/formula/aux/594_103_INTEGRAL'NOE]]/URI$ отображается с помощью функции $URI[[http://libmeta.ru/me/formula/aux/594_104_INTEGRAL'NOE]]/URI$ в интервал $URI[[http://libmeta.ru/me/formula/aux/594_105_INTEGRAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/594_106_INTEGRAL'NOE]]/URI$ и, следовательно, на $URI[[http://libmeta.ru/me/formula/aux/594_107_INTEGRAL'NOE]]/URI$ имеет смысл суперпозиция $URI[[http://libmeta.ru/me/formula/aux/594_108_INTEGRAL'NOE]]/URI$. Тогда, если $URI[[http://libmeta.ru/me/formula/aux/594_109_INTEGRAL'NOE]]/URI$, то имеет место ф о р м у л а замен ы П е ренен ного
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_28_INTEGRAL'NOE]]/URI
+\]
+
+Ф о рмула интег р ир ования поч астям:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/594_29_INTEGRAL'NOE]]/URI
+\]
+
+где функции $URI[[http://libmeta.ru/me/formula/aux/594_110_INTEGRAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/594_111_INTEGRAL'NOE]]/URI$ имеют на отрезке $URI[[http://libmeta.ru/me/formula/aux/594_112_INTEGRAL'NOE]]/URI$ интегрируемые производные.
+
+Формула Ньютона - Лейбница сводит вычисление определенного интеграла к отысканию значений его первообразной. Поскольку задача отыскания первообразной является сама по себе сложной, то большое значение имеют другие методы нахождения определенных интегралов, среди к-рых прежде всего следует отметить метод вычетов и метод диффференцирования и интегрирования по параметру зависящих от параметров интегралов. Разрабатываются также численные методы приближенного вычисления интегралов.
+
+Обобщение понятия интеграла на случай неограниченных функций и случай неограниченного промежутка приводит к понятию несобственного интеграла, к-рый определяется при помощи еще одного дополнительного предельного перехода.
+
+Понятия неопределенного и определенного интегралов переносятся на комплекснозначные функции. Представление любой регулярной функции комплексного переменного в виде Коши интеграла по контуру сыграло важную роль в развитии теории аналитич. ф্রунций.
+
+Обобщение понятия определенного интеграла от функции одного переменного на случай функций многих переменных приводит к понятию кратного интеграла.
+
+Для неограниченных множеств и неограниченных Функций многих переменных, также как и в одномерном случае, вводится понятие несобственного интеграла.
+
+Расширение практич. использования И. и. обусловило введение понятий криволинейного интеграла - интеграла по кривой, поверхностного интеграла - интеграла по поверхности и вообще - интеграла по многообразиям, сводимых в нек-ром смысле к определенному интегралу (криволинейный интеграл - к интегралу по отрезку, поверхностный - к интегралу по области (плоской), интеграл по $URI[[http://libmeta.ru/me/formula/aux/594_113_INTEGRAL'NOE]]/URI$-мерному многооб- разию - к интегралу по $URI[[http://libmeta.ru/me/formula/aux/594_114_INTEGRAL'NOE]]/URI$-мерной области). Интегралы по многообразиям, в частности криволинейные и поверхностные, играют важную роль в И. и. Функций многих переменных; с их помощью можно установить связь между интегрированием по области и ее границе или, в общем случае, по многообразию и его краю. Эта связь устанавливается $URI[[http://libmeta.ru/me/formula/aux/594_115_INTEGRAL'NOE]]/URI$ токса формулой (см. также Остроградского формула, Грина бормулы), являющеӥся обобщением на многомерный случай формулы Ньютона - Лейбница.
+
+Кратные, криволинейные и поверхностные интегралы находят непосредственное применение в математич. физике, в частности в теории поля. Кратные интегралы и связанные с ними понятия широко используются при решении конкретных прикладных задач. Для численного вычисления кратных интегралов разработана теория кубатурных форммул.
+
+Теория и методы И. и. числовых функций конечного числа переменных переносятся и на более общие объекты. Напр., теория интегрирования функций, значения к-рых принадлежат линейным нормированным пространствам, функций, заданных на топологич. группах, обобщенных функций и функций бесконечного числа переменных (континуальный интеграл). Наконец, новое направление И. И. связано также с появлением и развитием конструктивной математики.
+
+И. и. применяется во многих разделах математики (в URI[[http://libmeta.ru/me/relation/594_11_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/594_10_INTEGRAL'NOE]]/URI и URI[[http://libmeta.ru/me/relation/594_9_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/594_8_INTEGRAL'NOE]]/URI, в URI[[http://libmeta.ru/me/relation/594_7_INTEGRAL'NOE]]/URI вероятностей и математич. URI[[http://libmeta.ru/me/relation/594_6_INTEGRAL'NOE]]/URI, в URI[[http://libmeta.ru/me/relation/594_5_INTEGRAL'NOE]]/URI оптимальных URI[[http://libmeta.ru/me/relation/594_4_INTEGRAL'NOE]]/URI и др.), и в ее приложения</text>
+  <text_orig>раздел математики, в к-ром изучаются понятия интеарала, его свойства и методы вычислений. И. и. непрерывно связано с дифберенциальньл исцислением и составляет вместе с ним основу математич. анализа. Истоки И. и. относятся к античному периоду развития математики и связаны с исчерпьвания методом, разработанным математиками Древней Греции. Этот метод возник при решении задач на вычисление площадей плоских фигур и поверхностей, объемов тел, нек-рых задач статики и гидродинамики. Он основан на аппроксимации рассматриваемых объектов ступенчатыми фигурами или телами, составленными из простейших фигур или пространственных тел (прямоугольников, параллелепипедов, цилиндров и т. П.). В этом смысле метод исчерпывания можно рассматривать как античный интегральный метод. Наибольпіее развитие метод исчерпывания в древнюю эпоху получил в работах Евдокса (4 в. до н. э.) и особенно Архимеда (3 в. до н. э.) . Дальнейшее его применение и совершенствование связано с именами многих ученых 15-17 вв. Основные понятия и теория интегрального и дифференциального исчислений, прежде всего связь операций дифференцирования и интегрирования, а также их применения к решению прикладных задач, были разработаны в трудах И. Ньютона (I. Newton) и Г. Лейбница (G. Leibniz) в конце 17 в. Их исследования явились началом интенсивного развития математич. анализа. Существенную роль в его создании в 18 в. сыграли работы Л. Эйлера (L. Euler), Я. и И. Бернулли (Jacob, Johann Bernoulli), Ж. Лагранжа (J. Lagrange). В 19 в. в связи с появлением понятия предела И. и. приобрело логически заверпенную форму [работы О. Коти (А. Саuchy), Б. Римана (B. Riemann) и др.]. Разработка теории и методов И. и. происходила в конце 19 в. и в 20 в. одновременно с исследованиями по теории меры, играющей существенную роль в И. и.
+
+С помощью И. и. стало возможным рептать единым методом многие теоретич. и прикладные задачи, как новые, к-рые ранее не поддавались репению, так и старые, требовавшие прежде специальных искусственных приемов. Основными понятиями И. И. являются два тесно связанных понятия интеграла: неопределенного и определенного.
+
+Н е о п р е д л е н ны й ин т е г р а л от данной действительной функции на нек-ром промежутке определяется как совокупность всех ее первообразных на этом промежутке, т. е. функций, производные к-рых совпадают с заданной функцией. Неопределенный интеграл от функции $f(x)$ обозначается через $\int f(x) d x$. Если $F(x)$ - какая-либо первообразная функция $f(x)$, то любая другая ее первообразная имеет вид $F(x)+C$, где $C$ - произвольная постоянная, поэтому пишут
+
+\[
+\int f(x) d x=F(x)+C .
+\]
+
+Операция нахождения неопределенного интеграла наз. и н т е г р и р о в а н и е м. Интегрирование является операцией, обратной к операции дифференцирования:
+
+\[
+\int F^{\prime}(x) d x=F(x)+C, \quad d \int f(x) d x=f(x) d x .
+\]
+
+Операция интегрирования линейна: если на нек-ром промежутке существуют неопределенные интегралы
+
+\[
+\int f_{1}(x) d x \quad \text { и } \int f_{2}(x) d x
+\]
+
+то для любых действительных чисел $\lambda_{1}$ и $\lambda_{2}$ на том же промежутке существует интеграл
+
+\[
+\int\left[\lambda_{1} f_{1}(x)+\lambda_{2} f_{2}(x)\right] d x=\lambda_{1} \int f_{1}(x) d x+\lambda_{2} \int f_{2}(x) d x .
+\]
+
+Для неопределенных интегралов справедлива формула интегрирования по частям: если функции $u(x)$ и $v(x)$ дифференцируемы на нек-ром промежутке и интеграл $\int v d u$ существует, то существует и интеграл $\int u d v$, причем имеет место равенство
+
+\[
+\int u d v=u v-\int v d u
+\]
+
+Справедлива ф о р м у а з а ме ны п е р е ме нн о г о: если для функций $f(x)$ и $x=\varphi(t)$, определенных на нек-рых промежутках, имеет смысл сложная функция $f[\varphi(t)]$, функция $\varphi(t)$ дифференцируема и существует интеграл $\int f(x) d x$, то существует и интеграл
+
+\[
+\int f[\varphi(t)] \varphi^{\prime}(t) d t=\left.\int f(x) d x\right|_{x=\varphi(t)}
+\]
+
+(см. Интегрирование подстановкой). Всякая непрерывная на нек-ром промежутке функция имеет на нем первообразную и, следовательно, для нее существует неопределенный интеграл. Задача фактического нахождения неопределенного интеграла от конкретно заданной функции осложняется тем, что неопределенный интеграл от элементарной функции не является, вообще говоря, әлементарной функцией. Известны многие классы функций, для к-рых оказывается возможным выразить их неопределенные интегралы через әлементарные функции. Простейпими примерами этого являются интегралы, к-рые получаются из таблицы производных основных элементарных функций (см. Дияференциальное исчисление):
+
+1) $\int x^{\alpha} d x=\frac{x^{\alpha+1}}{\alpha+1}+C, \quad \alpha \neq-1$;
+
+2) $\int \frac{d x}{x}=\ln |x|+C$;
+
+3) $\int a^{x} d x=\frac{a^{x}}{\ln a}+C, \quad a&gt;1, \quad a \neq 1$, в частности $\int e^{x} d x=e^{x}+C$
+
+4) $\int \sin x d x=-\cos x+C$;
+
+5) $\int \cos x d x=\sin x+C$;
+
+6) $\int \frac{d x}{\cos ^{2} x}=\operatorname{tg} x+C$;
+
+7) $\int \frac{d x}{\sin ^{2} x}=-\operatorname{ctg} x+C$;
+
+8) $\int \operatorname{sh} x d x=\operatorname{ch} x+C$
+
+9) $\int \operatorname{ch} x d x=\operatorname{sh} x+C$
+
+10) $\int \frac{d x}{\operatorname{ch}^{2} x}=\operatorname{th} x+C$;
+
+11) $\int \frac{d x}{\operatorname{sh}^{2} x}=-\operatorname{cth} x+C$;
+
+12) $\int \frac{d x}{x^{2}+a^{2}}=\frac{1}{a} \operatorname{arctg} \frac{x}{a}+C=-\frac{1}{a} \operatorname{arcctg} \frac{x}{a}+C$;
+
+13) $\int \frac{d x}{x^{2}-a^{2}}=\frac{1}{2 a} \ln \left|\frac{x-a}{x+a}\right|+C$;
+
+14) $\int \frac{d x}{\sqrt{a^{2}-x^{2}}}=\arcsin \frac{x}{a}+C=-\arccos \frac{x}{a}+C$, $|x|&lt;|a|$
+
+15) $\int \frac{d x}{\sqrt{x^{2} \pm a^{2}}}=\ln \left|x+\sqrt{x^{2} \pm a^{2}}\right|+C \quad$ (когда под корнем стоит $x^{2}-a^{2}$, предполагается, что $|x|&gt;|a|)$
+
+Если знаменатель подинтегральной функции обращается в нуль в нек-рой точке, то написанные формуэы справедливы лишь для тех промежутков, в к-рых не происходит обращения в нуль указанного знаменателя (см. формулы $1,2,6,7,11,13,15$ ).
+
+Неопределенный интеграл от рациональной функции на всяком промежутке, на к-ром знаменатель не обращается в нуль, является суперпозицией рациональных функций, арктангенсов и натуральных логарифомов. Нахождение алгебраич. части неопределенного интеграла от рациональной функции может быть осуществлено Остроградского методом. $\mathrm{K}$ интегрированию рациональных функций с помощью подстановок сводятся, напр., интегралы вида
+
+\[
+\int R\left[x,\left(\frac{a x+b}{c x+d}\right)^{r_{1}}, \ldots,\left(\frac{a x+b}{c x+d}\right)^{r} m\right] d x
+\] где $r_{1}, r_{2}, \ldots, r_{m}-$ рациональные числа, интегралы вида
+
+\[
+\int R\left(x, \sqrt{a x^{2}+b x+c}\right) d x
+\]
+
+(см. Эйлера подстановки), нек-рые случаи интегралов от дифференциальных биномов, интегралы вида
+
+\[
+\int R(\sin x, \cos x) d x, \quad \int R(\operatorname{sh} x, \operatorname{ch} x) d x
+\]
+
+(здесь везде $\boldsymbol{R}\left(y_{1}, y_{2}, \ldots, y_{n}\right)$ - рациональные функции), интегралы
+
+\[
+\begin{array}{ll}
+\int e^{\alpha x} \cos \beta x d x, &amp; \int e^{\alpha x} \sin \beta x d x, \\
+\int x^{n} \cos \alpha x d x, &amp; \int x^{n} \sin \alpha x d x, \\
+\int x^{n} \arcsin x d x, &amp; \int^{n} x^{n} \arccos x d x, \\
+\int x^{n} \operatorname{arctg} x d x, &amp; \int x^{n} \operatorname{arcctg} x d x, n=0,1,2, \ldots
+\end{array}
+\]
+
+и мн. др. Вместе с тем, напр., интегралы
+
+\[
+\int \frac{e^{x}}{x^{n}} d x, \quad \int \frac{\sin x}{x^{n}} d x, \quad \int \frac{\cos x}{x^{n}} d x, \quad n=1,2, \ldots
+\]
+
+не выражаются через элементарные функции.
+
+О пределен ным интегра лом
+
+\[
+\int_{a}^{b} f(x) d x
+\]
+
+от функции $f(x)$, заданной на отрезке $[a, b]$, наз. предел интегральных сумм определенного вида (см. Коши интеграл, Римана интеграл, Лебега интеграл, Колмогорова интеграл, Стилтьеса интеграл и т. Д.). Если әтот предел существует, функцию $f(x)$ наз. и н т е г р ир у е м о й соответственно по Коши, по Риману, по Јебегу и т. д.
+
+Геометрич. смысл интеграла связан с понятием площади: если функция $f(x) \geqslant 0$ непрерывна на отрезке $[a, b]$, то значение интеграла
+
+\[
+\int_{a}^{b} f(x) d x
+\]
+
+равно площади криволинейной трапеции, образованной графиком функции $f(x)$, т. е. множеством, граница к-рого состоит из графика функции $f(x), a \leqslant x \leqslant b$, отрезка $[a, b]$ и двух отрезков прямых $x=a$ и $x=b$, к-рые могут вырождаться в точки. К задаче вычисления предела интегральных сумм, т. е. нахождению определенного интеграла, сводится вычисление многих встречающихся на практике величин: площадей фигур и поверхностей, объемов тел, работы силы, координат центра тяжести, значений моментов инерции различных тел и т. П.
+
+Определенный интеграл обладает свойством линейности: если функции $f_{1}(x)$ и $f_{2}(x)$ интегрируемы на отрезке $[a, b]$, то для произвольных действительных чисел $\lambda_{1}$ и $\lambda_{2}$ функция
+
+\[
+\lambda_{1} f_{1}(x)+\lambda_{2} f_{2}(x)
+\]
+
+также интегрируема на отрезке и
+
+\[
+\begin{aligned}
+&amp; \int_{a}^{b}\left[\lambda_{1} f_{1}(x)+\lambda_{2} f_{2}(x)\right] d x= \\
+= &amp; \lambda_{1} \int_{a}^{b} f_{1}(x) d x+\lambda_{2} \int_{a}^{b} f_{2}(x) d x .
+\end{aligned}
+\]
+
+Интегрируемость функции на отрезке обладает свойством монотонности: если функция $f(x)$ интегрируема на отрезке $[a, b]$ и $[c, d] \subset[a, b]$, то функция $f(x)$ интегрируема и на отрезке $[c, d]$. Справедливо свойство аддитивности интеграла относительно отрезков, по к-рым происходит интегрирование: если $a&lt;c&lt;b \quad$ и Функция $f(x)$ интегрируема на отрезках $[a, c]$ и $[c, b]$, то она интегрируема и на отрезке $[a, b]$, причем
+
+\[
+\int_{a}^{b} f(x) d x=\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x .
+\]
+
+Если функции $f(x)$ и $g(x)$ интегрируемы, то их произведение также интегрируемо. Если $f(x) \geqslant g(x)$ на $[a, b]$, то
+
+\[
+\int_{a}^{b} f(x) d x \geqslant \int_{a}^{b} g(x) d x
+\]
+
+Если функция $f(x)$ интегрируема на $[a, b]$, то ее абсолютная величина $|f(x)|$ также интегрируема на $[a, b]$ и
+
+\[
+\left|\int_{a}^{b} f(x) d x\right| \leqslant \int_{a}^{b}|f(x)| d x .
+\]
+
+По определению полагают
+
+\[
+\int_{a}^{a} f(x) d x=0 \text { и } \int_{a}^{b} f(x) d x=-\int_{a}^{b} f(x) d x, \quad a&lt;b .
+\]
+
+Для определенных интегралов справедливы теоремы о среднем. Напр., если $f(x)$ и $g(x)$ интегрируемы на отрезке $[a, b], \quad m \leqslant f(x) \leqslant M, x \in[a, b]$ и функция $g(x)$ не меняет знака на отрезке $[a, b]$, т. е. либо неотрицательна, либо неположительна на этом отрезке, то существует такое число $m \leqslant \mu \leqslant M$, что
+
+\[
+\int_{a}^{b} f(x) g(x) d x=\mu \int_{a}^{b} g(x) d x .
+\]
+
+При дополнительном предположении непрерывности на отрезке $[a, b]$ функции $f(x)$ на интервале $(a, b)$ существует такая точка $\xi$, что
+
+\[
+\int_{a}^{b} f(x) g(x) d x=f(\xi) \int_{a}^{b} g(x) d x .
+\]
+
+В частности, если $g(x) \equiv 1$, то
+
+\[
+\int_{a}^{b} f(x) d x=f(\xi)(b-a)
+\]
+
+Интегралы с переменным ве р хним п р е д е л м. Если функция $f(x)$ интегрируема по Риману на отрезке $[a, b]$, то функция
+
+\[
+F(x)=\int_{a}^{x} f(t) d t, a \leqslant x \leqslant b,
+\]
+
+непрерывна на этом отрезке. Если, кроме того, функция $f(x)$ непрерывна в точке $x_{0}$, то функция $F(x)$ диффференцируема в этой точке и $F^{\prime}\left(x_{0}\right)=f\left(x_{0}\right)$. Иначе говоря, в точках непрерывности функции справедлива формула
+
+\[
+\frac{d}{d x} \int_{a}^{x} f(t) d t=f(x) .
+\]
+
+Следовательно, для всякой интегрируемой по Риману на отрезке $[a, b]$ функции эта формула справедлива во всех точках, кроме, быть может, множества точек, имеющих меру Лебега, равную нулю, ибо если функция интегрируема по Риману на некотором отрезке, то множество ее точек разрыва имеет меру нуль. Таким образом, если функция $f(x)$ непрерывна на отрезке $[a, b]$, то функция
+
+\[
+F(x)=\int_{a}^{x} f(t) d t
+\]
+
+является ее первообразной на этом отрезке. Эта теорема показывает, что операция диффференцирования является обратной к взятию определенного интеграла с переменным верхним пределом, тем самым устанавливая связь между определенным и неопределенным интегралами:
+
+\[
+\int f(x) d x=\int_{a}^{x} f(t) d t+C
+\] Геометрич. смысл этой связи состоит в том, что задача о нахождениғ касательной к кривой и вычисление площадей плоских фигур являются в указанном смысле взаимно обратными.
+
+Для любой первообразной $F(x)$ непрерывной функции $f(x)$ на отрезке $[a, b]$ имеет место фо о р м у л а тон а - Ле й б н и ца:
+
+\[
+\int_{a}^{b} f(x) d x=F(b)-F(a)
+\]
+
+Она показывает, что определенный интеграл по некоторому отрезку от непрерывной функции равен разности значений на концах этого отрезка любой из ее первообразных. Әту формулу иногда принимают за определение определенного интеграла. В этом случае доказывается, что введенный таким образом интеграл $\int_{a}^{b} f(x) d x$ является пределом соответствующих сумм.
+
+Для определенных интегралов справедливо правило замены переменного и формула интегрирования по частям. Пусть, напр., функция $f(x)$ непрерывна на интервале $(a, b)$ и функция $\varphi(t)$ непрерывна вместе со своей производной $\varphi^{\prime}(t)$ на интервале $(\alpha, \beta)$, причем интервал $(\alpha, \beta)$ отображается с помощью функции $\varphi(t)$ в интервал $(a, b): a&lt;\varphi(t)&lt;b$ при $\alpha&lt;t&lt;\beta$ и, следовательно, на $(\alpha, \beta)$ имеет смысл суперпозиция $f[\varphi(t)]$. Тогда, если $\alpha_{0} \in(\alpha, \beta), \beta_{0} \in(\alpha, \beta)$, то имеет место ф о р м у л а замен ы П е ренен ного
+
+\[
+\int_{\varphi\left(\alpha_{0}\right)}^{\varphi\left(\beta_{\theta}\right)} f(x) d x=\int_{\alpha_{0}}^{\beta_{0}} f[\varphi(t)] \varphi^{\prime}(t) d t .
+\]
+
+Ф о рмула интег р ир ования поч астям:
+
+\[
+\int_{a}^{b} u(x) d v(x)=\left.u(x) v(x)\right|_{x=a} ^{x=b}-\int_{a}^{b} v(x) d u(x),
+\]
+
+где функции $u(x)$ и $v(x)$ имеют на отрезке $[a, b]$ интегрируемые производные.
+
+Формула Ньютона - Лейбница сводит вычисление определенного интеграла к отысканию значений его первообразной. Поскольку задача отыскания первообразной является сама по себе сложной, то большое значение имеют другие методы нахождения определенных интегралов, среди к-рых прежде всего следует отметить метод вычетов и метод диффференцирования и интегрирования по параметру зависящих от параметров интегралов. Разрабатываются также численные методы приближенного вычисления интегралов.
+
+Обобщение понятия интеграла на случай неограниченных функций и случай неограниченного промежутка приводит к понятию несобственного интеграла, к-рый определяется при помощи еще одного дополнительного предельного перехода.
+
+Понятия неопределенного и определенного интегралов переносятся на комплекснозначные функции. Представление любой регулярной функции комплексного переменного в виде Коши интеграла по контуру сыграло важную роль в развитии теории аналитич. ф্রунций.
+
+Обобщение понятия определенного интеграла от функции одного переменного на случай функций многих переменных приводит к понятию кратного интеграла.
+
+Для неограниченных множеств и неограниченных Функций многих переменных, также как и в одномерном случае, вводится понятие несобственного интеграла.
+
+Расширение практич. использования И. и. обусловило введение понятий криволинейного интеграла - интеграла по кривой, поверхностного интеграла - интеграла по поверхности и вообще - интеграла по многообразиям, сводимых в нек-ром смысле к определенному интегралу (криволинейный интеграл - к интегралу по отрезку, поверхностный - к интегралу по области (плоской), интеграл по $n$-мерному многооб- разию - к интегралу по $n$-мерной области). Интегралы по многообразиям, в частности криволинейные и поверхностные, играют важную роль в И. и. Функций многих переменных; с их помощью можно установить связь между интегрированием по области и ее границе или, в общем случае, по многообразию и его краю. Эта связь устанавливается $C$ токса формулой (см. также Остроградского формула, Грина бормулы), являющеӥся обобщением на многомерный случай формулы Ньютона - Лейбница.
+
+Кратные, криволинейные и поверхностные интегралы находят непосредственное применение в математич. физике, в частности в теории поля. Кратные интегралы и связанные с ними понятия широко используются при решении конкретных прикладных задач. Для численного вычисления кратных интегралов разработана теория кубатурных форммул.
+
+Теория и методы И. и. числовых функций конечного числа переменных переносятся и на более общие объекты. Напр., теория интегрирования функций, значения к-рых принадлежат линейным нормированным пространствам, функций, заданных на топологич. группах, обобщенных функций и функций бесконечного числа переменных (континуальный интеграл). Наконец, новое направление И. И. связано также с появлением и развитием конструктивной математики.
+
+И. и. применяется во многих разделах математики (в теории диффференциальных и интегральных уравнений, в теории вероятностей и математич. статистике, в теории оптимальных процессов и др.), и в ее приложения
+
+Лит.: см. [1] - [24] при статье Дифберенциальное исчисление, а также дополнение к разделу «Работы основоположников и классиков...»: 125] А р х и м е д, Сочинения, М., 1962;
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_95ff634719feaa3d2914g-1.jpg?height=45&amp;width=831&amp;top_left_y=1178&amp;top_left_x=989)
+с латин.], М.- Л., $1934 ;$; исчисление, пер. с латин., т. 1-3, М., $1956-58$.</text_orig>
+</article>

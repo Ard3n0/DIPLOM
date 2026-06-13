@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/679_MINIMAL'NOE" alphabetic_pos="679">
+  <title>МИНИМАЛЬНОЕ СВОЙСТВО</title>
+  <authors/>
+  <pages>
+    <start>347</start>
+    <end>347</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Ко л мо горо в А. Н., Фомин С. В., Элементы теории функций и функционального анализа, 5 изд., М., $1981 ;$ [2] К а ч м а ж С., Шi т е й н г а у 3 Г., Теория ортого-нальных рядов, пер. с нем., М., 1958.</literature_orig>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <author>Фомин С. В.</author>
+      <title>Элементы теории функций и функционального анализа</title>
+      <publication>5 изд., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Качмаж С.</author>
+      <author>Шiтейнгау3 Г.</author>
+      <title>Теория ортого-нальных рядов</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1958</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/679_1_MINIMAL'NOE">\begin{gathered}\inf \int_{a}^{b}\left|f(x)-\sum_{k=1}^{n} a_{k} \varphi_{k}(x)\right| d x= \\=\int_{a}^{b}\left|f(x)-S_{n}(f, x)\right|^{2} d x,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/679_2_MINIMAL'NOE">S_{n}(f, x)=\sum_{k=1}^{n} c_{k}(f) \varphi_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/679_3_MINIMAL'NOE">c_{k}(f)=\int_{a}^{b} f(x) \varphi_{k}(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/679_4_MINIMAL'NOE">\begin{gathered}\int_{a}^{b}\left|f(x)-S_{n}(f, x)\right|^{2} d x= \\=\int_{a}^{b} f^{2}(x) d x-\sum_{k=1}^{n}\left|c_{k}(f)\right|^{2}, n=1,2, \ldots\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_1_MINIMAL'NOE">f(x) \in L^{2}[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_2_MINIMAL'NOE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_3_MINIMAL'NOE">\left\{\varphi_{n}(x)\right\}_{k=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_4_MINIMAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_5_MINIMAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_6_MINIMAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_7_MINIMAL'NOE">\left\{\varphi_{k}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/679_8_MINIMAL'NOE">s_{n}(f, x)</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/me/relation/679_1_MINIMAL'NOE">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/679_2_MINIMAL'NOE">
+      <rel_text>полных</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/679_3_MINIMAL'NOE">
+      <rel_text>равенство Парсеваля</rel_text>
+      <target>http://libmeta.ru/me/article/193_PARSEVALJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/679_4_MINIMAL'NOE">
+      <rel_text>Неравенство</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+  </relations>
+  <text>ч а с т ны о р т о г о а л ьны функции $URI[[http://libmeta.ru/me/formula/aux/679_1_MINIMAL'NOE]]/URI$, для любой ортонормированной на $URI[[http://libmeta.ru/me/formula/aux/679_2_MINIMAL'NOE]]/URI$ системы $URI[[http://libmeta.ru/me/formula/aux/679_3_MINIMAL'NOE]]/URI$ и для любого $URI[[http://libmeta.ru/me/formula/aux/679_4_MINIMAL'NOE]]/URI$ имеет место равенство:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/679_1_MINIMAL'NOE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/679_2_MINIMAL'NOE]]/URI
+\]
+
+- $URI[[http://libmeta.ru/me/formula/aux/679_5_MINIMAL'NOE]]/URI$-я частная сумма разложения $URI[[http://libmeta.ru/me/formula/aux/679_6_MINIMAL'NOE]]/URI$ по системе $URI[[http://libmeta.ru/me/formula/aux/679_7_MINIMAL'NOE]]/URI$, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/679_3_MINIMAL'NOE]]/URI
+\]
+
+Этот минимум достигается только на сумме $URI[[http://libmeta.ru/me/formula/aux/679_8_MINIMAL'NOE]]/URI$, при этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/679_4_MINIMAL'NOE]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/679_4_MINIMAL'NOE]]/URI Бесселя, URI[[http://libmeta.ru/me/relation/679_3_MINIMAL'NOE]]/URI для URI[[http://libmeta.ru/me/relation/679_2_MINIMAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/679_1_MINIMAL'NOE]]/URI, а талже нек-рые другие основные свойства ортогональных разложений по существу являются следствиями этого равенства.</text>
+  <text_orig>ч а с т ны о р т о г о а л ьны функции $f(x) \in L^{2}[a, b]$, для любой ортонормированной на $[a, b]$ системы $\left\{\varphi_{n}(x)\right\}_{k=1}^{\infty}$ и для любого $n$ имеет место равенство:
+
+\[
+\begin{gathered}
+\inf \int_{a}^{b}\left|f(x)-\sum_{k=1}^{n} a_{k} \varphi_{k}(x)\right| d x= \\
+=\int_{a}^{b}\left|f(x)-S_{n}(f, x)\right|^{2} d x,
+\end{gathered}
+\]
+
+где
+
+\[
+S_{n}(f, x)=\sum_{k=1}^{n} c_{k}(f) \varphi_{k}
+\]
+
+- $n$-я частная сумма разложения $f(x)$ по системе $\left\{\varphi_{k}(x)\right\}$, т. е.
+
+\[
+c_{k}(f)=\int_{a}^{b} f(x) \varphi_{k}(x) d x .
+\]
+
+Этот минимум достигается только на сумме $S_{n}(f, x)$, при этом
+
+\[
+\begin{gathered}
+\int_{a}^{b}\left|f(x)-S_{n}(f, x)\right|^{2} d x= \\
+=\int_{a}^{b} f^{2}(x) d x-\sum_{k=1}^{n}\left|c_{k}(f)\right|^{2}, n=1,2, \ldots
+\end{gathered}
+\]
+
+Неравенство Бесселя, равенство Парсеваля для полных систем, а талже нек-рые другие основные свойства ортогональных разложений по существу являются следствиями этого равенства.
+
+Лum.: [1] Ко л мо горо в А. Н., Фомин С. В., Элементы теории функций и функционального анализа, 5 изд., М., $1981 ;$ [2] К а ч м а ж С., ШI т е й н г а у 3 Г., Теория ортого-
+нальных рядов, пер. с нем., М., 1958.</text_orig>
+</article>

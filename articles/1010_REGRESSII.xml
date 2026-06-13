@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1010_REGRESSII" alphabetic_pos="1010">
+  <title>РЕГРЕССИИ СПЕКТР</title>
+  <authors/>
+  <pages>
+    <start>464</start>
+    <end>464</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] G r e n a n d e r U., R o s e n b l a t t M., Statistical analysis of stationary time series, Stockh., 1956.</literature_orig>
+    <unit>
+      <author>Grenander U.</author>
+      <author>Rosenblatt M.</author>
+      <title>Statistical analysis of stationary time series, Stockh.</title>
+      <publication/>
+      <year>1956</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1010_1_REGRESSII">y_{t}=m_{t}+x_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1010_2_REGRESSII">m_{t}=\sum_{k=1}^{s} \beta_{k} \varphi_{t}^{(k)}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_1_REGRESSII">y_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_2_REGRESSII">t=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_3_REGRESSII">x_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_4_REGRESSII">е x_{t} \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_5_REGRESSII">е y_{t}=m_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_6_REGRESSII">\varphi^{(k)}=\left(\varphi_{1}^{(k)}, \ldots, \varphi_{n}^{(k)}\right), k=1, \ldots, s,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_7_REGRESSII">\beta_{1}, \ldots, \beta_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_8_REGRESSII">m(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_9_REGRESSII">\varphi^{(1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_10_REGRESSII">\cdots, \varphi^{(s)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_11_REGRESSII">m(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_12_REGRESSII">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_13_REGRESSII">m\left(\lambda_{2}\right)-M\left(\lambda_{1}\right)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_14_REGRESSII">\left(\lambda_{1}, \lambda_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_15_REGRESSII">\lambda, \lambda_{1}&lt;\lambda&lt;\lambda_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1010_16_REGRESSII">\beta</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/1010_1_REGRESSII">
+      <rel_text>наименьших квадратов</rel_text>
+      <target>http://libmeta.ru/me/article/846_NAIMENYІІIH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1010_2_REGRESSII">
+      <rel_text>методу</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1010_3_REGRESSII">
+      <rel_text>необходимое и достаточное условие</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1010_4_REGRESSII">
+      <rel_text>регрессии</rel_text>
+      <target>http://libmeta.ru/me/article/1012_REGRESSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1010_5_REGRESSII">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+  </relations>
+  <text>спектр случайного процесса, входящего в регрессионную схему для стационарвых временны́х рядов. Именно, пусть случайный процесс $URI[[http://libmeta.ru/me/formula/aux/1010_1_REGRESSII]]/URI$, наблюдаемый при $URI[[http://libmeta.ru/me/formula/aux/1010_2_REGRESSII]]/URI$, представляется в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1010_1_REGRESSII]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1010_3_REGRESSII]]/URI$ - стационарный процесс с $URI[[http://libmeta.ru/me/formula/aux/1010_4_REGRESSII]]/URI$, а среднее значение $URI[[http://libmeta.ru/me/formula/aux/1010_5_REGRESSII]]/URI$ выражено в форме линейной регрессии
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1010_2_REGRESSII]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1010_6_REGRESSII]]/URI$ известные регрессионные векторы, $URI[[http://libmeta.ru/me/formula/aux/1010_7_REGRESSII]]/URI$ - неизвестные рeгрессии коэббициенты. Пусть $URI[[http://libmeta.ru/me/formula/aux/1010_8_REGRESSII]]/URI$ - спектральная функция распределения регрессионных векторов $URI[[http://libmeta.ru/me/formula/aux/1010_9_REGRESSII]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1010_10_REGRESSII]]/URI$. С п е к т р о м р е г р е с с и и для $URI[[http://libmeta.ru/me/formula/aux/1010_11_REGRESSII]]/URI$ наз. множество всех $URI[[http://libmeta.ru/me/formula/aux/1010_12_REGRESSII]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/1010_13_REGRESSII]]/URI$ для любого интервала $URI[[http://libmeta.ru/me/formula/aux/1010_14_REGRESSII]]/URI$, содержащего $URI[[http://libmeta.ru/me/formula/aux/1010_15_REGRESSII]]/URI$.
+
+P. с. играет важную роль в URI[[http://libmeta.ru/me/relation/1010_5_REGRESSII]]/URI оценки коэфффициентов URI[[http://libmeta.ru/me/relation/1010_4_REGRESSII]]/URI в схеме (1) - (2). В терминах элементов Р. с. выражается, напр., URI[[http://libmeta.ru/me/relation/1010_3_REGRESSII]]/URI асимптотич. эффективности оценок $URI[[http://libmeta.ru/me/formula/aux/1010_16_REGRESSII]]/URI$ по URI[[http://libmeta.ru/me/relation/1010_2_REGRESSII]]/URI URI[[http://libmeta.ru/me/relation/1010_1_REGRESSII]]/URI.</text>
+  <text_orig>спектр случайного процесса, входящего в регрессионную схему для стационарвых временны́х рядов. Именно, пусть случайный процесс $y_{t}$, наблюдаемый при $t=1, \ldots, n$, представляется в виде
+
+\[
+y_{t}=m_{t}+x_{t}
+\]
+
+где $x_{t}$ - стационарный процесс с $Е x_{t} \equiv 0$, а среднее значение $Е y_{t}=m_{t}$ выражено в форме линейной регрессии
+
+\[
+m_{t}=\sum_{k=1}^{s} \beta_{k} \varphi_{t}^{(k)}
+\]
+
+где $\varphi^{(k)}=\left(\varphi_{1}^{(k)}, \ldots, \varphi_{n}^{(k)}\right), k=1, \ldots, s,-$ известные регрессионные векторы, $\beta_{1}, \ldots, \beta_{s}$ - неизвестные рeгрессии коэббициенты. Пусть $M(\lambda)$ - спектральная функция распределения регрессионных векторов $\varphi^{(1)}$, $\cdots, \varphi^{(s)}$. С п е к т р о м р е г р е с с и и для $M(\lambda)$ наз. множество всех $\lambda$ таких, что $M\left(\lambda_{2}\right)-M\left(\lambda_{1}\right)&gt;0$ для любого интервала $\left(\lambda_{1}, \lambda_{2}\right)$, содержащего $\lambda, \lambda_{1}&lt;\lambda&lt;\lambda_{2}$.
+
+P. с. играет важную роль в задачах оценки коэфффициентов регрессии в схеме (1) - (2). В терминах элементов Р. с. выражается, напр., необходимое и достаточное условие асимптотич. эффективности оценок $\beta$ по методу наименьших квадратов.
+
+Лum.: [1] G r e n a n d e r U., R o s e n b l a t t M., Statistical analysis of stationary time series, Stockh., 1956.</text_orig>
+</article>

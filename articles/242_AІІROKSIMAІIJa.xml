@@ -1,0 +1,427 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/242_AІІROKSIMAІIJa" alphabetic_pos="242">
+  <title>АІІРОКСИМАІИЯ ДИФФЕРЕНЩИАЛЬНОГО ОIЕРАТОРА РАЗНОСТНЫМ</title>
+  <authors>
+    <author>В. В. Рябенъкий</author>
+  </authors>
+  <pages>
+    <start>154</start>
+    <end>155</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Ф и л и п П о в А. Ф., &quot;докл. Ан Ссср&quot;, 1955, т. 100, № 6, с. $1045-48$; [2] Б е р е зи н И. С., Ж и Д к ов Н.П.,Методы вычислений, 3 изд., т. 1, М., 1966.</literature_orig>
+    <unit>
+      <author>Филип Пов А. Ф.</author>
+      <title>&quot;докл. Ан Ссср&quot;</title>
+      <publication/>
+      <year>1955</year>
+      <other>т. 100, № 6, с. $1045-48$</other>
+    </unit>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жи Дков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/242_1_AІІROKSIMAІIJa">\left\|L u-L_{h}[u]_{h}\right\|_{F} \longrightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_2_AІІROKSIMAІIJa">\left\|L u-L_{h}[u]_{h}\right\|_{F_{h}} \leqslant c h^{p}, c=c(u)=\text { const. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_3_AІІROKSIMAІIJa">L=\frac{d}{d x}, \quad \frac{d u}{d x}=f(x), \quad 0 \leqslant x \leqslant 1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_4_AІІROKSIMAІIJa">\begin{gathered}0=x_{0}&lt;\ldots&lt;x_{k}&lt;x_{k+1}&lt;\ldots&lt;x_{N}=1, \\\max _{k}\left(x_{k+1}-x_{k}\right)=h,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_5_AІІROKSIMAІIJa">\begin{gathered}x_{k}^{*}=x_{k}+\theta\left(x_{k+1}-x_{k}\right), \\\theta \leqslant \theta \leqslant 1, \quad \theta=\text { const, } k=0,1, \ldots, N-1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_6_AІІROKSIMAІIJa">\begin{gathered}\left.L_{h}[u]_{h}\right|_{x=x_{k}^{*}}=f_{h}\left(x_{k}^{*}\right)=\frac{u\left(x_{k+1}\right)-u\left(x_{k}\right)}{x_{k+1}-x_{k}}, \\k=0,1, \ldots, N-1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_7_AІІROKSIMAІIJa">\|\varphi\|_{F}=\sup _{x}|\varphi(x)| \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_8_AІІROKSIMAІIJa">\left.L_{h}[u]_{h}\right|_{D_{h F}}=f_{h} \in F_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_9_AІІROKSIMAІIJa">\lim _{h \rightarrow 0}\left\|\{f\}_{h}\right\|_{F_{h}}=\|f\|_{F} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_10_AІІROKSIMAІIJa">\begin{gathered}\left\|\{L u\}_{h}-L_{h}[u]_{h}\right\|_{F_{h}} \longrightarrow 0, \\\left\|\{L u\}_{h}-L_{h}[u]_{h_{h}}\right\|_{F_{h}} \leqslant h^{p} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_11_AІІROKSIMAІIJa">\left|\varepsilon\left(x, h, c_{-k_{0}}, \ldots, c_{k_{0}}\right)\right| \leqslant A_{i j} \sup _{t}\left|u^{(j+r)}(t)\right| h^{r},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_12_AІІROKSIMAІIJa">\Delta, \Delta u \equiv \frac{\partial^{2} u}{\partial x^{2}}+\frac{\partial^{2} u}{\partial y^{2}}=f(x, y),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_13_AІІROKSIMAІIJa">(x, y)=(m h, n h),|m h| \leqslant 1,|n h| \leqslant 1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_14_AІІROKSIMAІIJa">(x, y)=(m h, n h),|m h|&lt;1,|n h|&lt;1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_15_AІІROKSIMAІIJa">\frac{1}{h^{2}}[y(x+h)-2 y(x)+y(x-h)]=y^{\prime \prime}(x)+\frac{h^{2}}{12} y^{(4)}(\xi),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_16_AІІROKSIMAІIJa">\begin{aligned}&amp; L_{h} u_{m, n}=\frac{u_{m+1, n}-2 u_{m, n}+u_{m-1, n}}{h^{2}}+ \\&amp; +\frac{u_{m, m+1}-2 u_{m, n}+u_{m, n-1}}{h^{2}}=f_{m n},\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_1_AІІROKSIMAІIJa">l, L u=f-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_2_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_3_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_4_AІІROKSIMAІIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_5_AІІROKSIMAІIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_6_AІІROKSIMAІIJa">d_{u}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_7_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_8_AІІROKSIMAІIJa">d_{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_9_AІІROKSIMAІIJa">d_{h U}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_10_AІІROKSIMAІIJa">\left.h \rightarrow 0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_11_AІІROKSIMAІIJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_12_AІІROKSIMAІIJa">[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_13_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_14_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_15_AІІROKSIMAІIJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_16_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_17_AІІROKSIMAІIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_18_AІІROKSIMAІIJa">l_{h}, L_{h}[u]_{h}=f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_19_AІІROKSIMAІIJa">h^{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_20_AІІROKSIMAІIJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_21_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_22_AІІROKSIMAІIJa">u \in U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_23_AІІROKSIMAІIJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_24_AІІROKSIMAІIJa">\lim _{h \rightarrow 0} L_{h}[u]_{h}=L u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_25_AІІROKSIMAІIJa">l u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_26_AІІROKSIMAІIJa">[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_27_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_28_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_29_AІІROKSIMAІIJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_30_AІІROKSIMAІIJa">l_{h}[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_31_AІІROKSIMAІIJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_32_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_33_AІІROKSIMAІIJa">[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_34_AІІROKSIMAІIJa">d_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_35_AІІROKSIMAІIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_36_AІІROKSIMAІIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_37_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_38_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_39_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_40_AІІROKSIMAІIJa">l_{h}[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_41_AІІROKSIMAІIJa">[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_42_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_43_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_44_AІІROKSIMAІIJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_45_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_46_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_47_AІІROKSIMAІIJa">d_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_48_AІІROKSIMAІIJa">d_{h U}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_49_AІІROKSIMAІIJa">x_{k}, k=0,1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_50_AІІROKSIMAІIJa">\cdots, N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_51_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_52_AІІROKSIMAІIJa">l_{h}[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_53_AІІROKSIMAІIJa">x_{k}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_54_AІІROKSIMAІIJa">l_{h}[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_55_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_56_AІІROKSIMAІIJa">x_{k}^{*}, k=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_57_AІІROKSIMAІIJa">\ldots, N-2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_58_AІІROKSIMAІIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_59_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_60_AІІROKSIMAІIJa">\theta=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_61_AІІROKSIMAІIJa">\theta=\frac{h}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_62_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_63_AІІROKSIMAІIJa">l=\frac{d}{d x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_64_AІІROKSIMAІIJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_65_AІІROKSIMAІIJa">h^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_66_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_67_AІІROKSIMAІIJa">\theta \in[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_68_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_69_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_70_AІІROKSIMAІIJa">d_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_71_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_72_AІІROKSIMAІIJa">f \in F</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_73_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_74_AІІROKSIMAІIJa">\{f\}_{h} \in F_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_75_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_76_AІІROKSIMAІIJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_77_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_78_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_79_AІІROKSIMAІIJa">h^{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_80_AІІROKSIMAІIJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_81_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_82_AІІROKSIMAІIJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_83_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_84_AІІROKSIMAІIJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_85_AІІROKSIMAІIJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_86_AІІROKSIMAІIJa">i, j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_87_AІІROKSIMAІIJa">k_{0}, 2 k_{0}+1 \geqslant i+j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_88_AІІROKSIMAІIJa">k^{-j} \sum_{k=-k_{0}}^{k_{0}^{0}} c_{k} u(x+k h)=u^{(j)}(x)+\varepsilon\left(x, h, c_{-k_{0}}, \ldots, c_{k_{0}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_89_AІІROKSIMAІIJa">c_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_90_AІІROKSIMAІIJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_91_AІІROKSIMAІIJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_92_AІІROKSIMAІIJa">j+r(r \leqslant i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_93_AІІROKSIMAІIJa">a_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_94_AІІROKSIMAІIJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_95_AІІROKSIMAІIJa">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_96_AІІROKSIMAІIJa">d_{u}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_97_AІІROKSIMAІIJa">|x| \leqslant 1,|y| \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_98_AІІROKSIMAІIJa">d_{p}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_99_AІІROKSIMAІIJa">|x|&lt;1,|y|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_100_AІІROKSIMAІIJa">h=1 / N, N-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_101_AІІROKSIMAІIJa">d_{h U}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_102_AІІROKSIMAІIJa">d_{h F}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_103_AІІROKSIMAІIJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_104_AІІROKSIMAІIJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_105_AІІROKSIMAІIJa">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_106_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_107_AІІROKSIMAІIJa">d_{h F}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_108_AІІROKSIMAІIJa">u_{m, n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_109_AІІROKSIMAІIJa">f_{m, n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_110_AІІROKSIMAІIJa">[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_111_AІІROKSIMAІIJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_112_AІІROKSIMAІIJa">(m h, n h)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_113_AІІROKSIMAІIJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_114_AІІROKSIMAІIJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_115_AІІROKSIMAІIJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_116_AІІROKSIMAІIJa">l u=0</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/242_1_AІІROKSIMAІIJa">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_2_AІІROKSIMAІIJa">
+      <rel_text>дифференциального</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_3_AІІROKSIMAІIJa">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_4_AІІROKSIMAІIJa">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_5_AІІROKSIMAІIJa">
+      <rel_text>порядком</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_6_AІІROKSIMAІIJa">
+      <rel_text>гладких функциях</rel_text>
+      <target>http://libmeta.ru/me/article/1095_GLADKAJa</target>
+    </relation>
+  </relations>
+  <text>приближение дифференциального оператора таким зависящим от параметра оператором, результат применения к-рого к функции определяется ее значениями на нек-ром дискретном множестве точек - сетке, уточняющееся при стремлении параметра (шага сетки) к нулю.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/242_1_AІІROKSIMAІIJa]]/URI$ дифференциальный оператор, переводящий каждую функцию $URI[[http://libmeta.ru/me/formula/aux/242_2_AІІROKSIMAІIJa]]/URI$ из класса функций $URI[[http://libmeta.ru/me/formula/aux/242_3_AІІROKSIMAІIJa]]/URI$ в функцию $URI[[http://libmeta.ru/me/formula/aux/242_4_AІІROKSIMAІIJa]]/URI$ из линейного нормированного пространства $URI[[http://libmeta.ru/me/formula/aux/242_5_AІІROKSIMAІIJa]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/242_6_AІІROKSIMAІIJa]]/URI$ область определения функций из $URI[[http://libmeta.ru/me/formula/aux/242_7_AІІROKSIMAІIJa]]/URI$ и в $URI[[http://libmeta.ru/me/formula/aux/242_8_AІІROKSIMAІIJa]]/URI$ выделено нек-рое дискретное подмножество - сетка $URI[[http://libmeta.ru/me/formula/aux/242_9_AІІROKSIMAІIJa]]/URI$ («сгущающаяся&quot; при $URI[[http://libmeta.ru/me/formula/aux/242_10_AІІROKSIMAІIJa]]/URI$. Рассматривается множество $URI[[http://libmeta.ru/me/formula/aux/242_11_AІІROKSIMAІIJa]]/URI$ всех функций $URI[[http://libmeta.ru/me/formula/aux/242_12_AІІROKSIMAІIJa]]/URI$, определенных только на сетке и совпадающих в точках сетки с $URI[[http://libmeta.ru/me/formula/aux/242_13_AІІROKSIMAІIJa]]/URI$. Разностным оператором наз. всякий оператор $URI[[http://libmeta.ru/me/formula/aux/242_14_AІІROKSIMAІIJa]]/URI$, переводящий сеточные функции из $URI[[http://libmeta.ru/me/formula/aux/242_15_AІІROKSIMAІIJa]]/URI$ в функции $URI[[http://libmeta.ru/me/formula/aux/242_16_AІІROKSIMAІIJa]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/242_17_AІІROKSIMAІIJa]]/URI$. Говорят, что оператор $URI[[http://libmeta.ru/me/formula/aux/242_18_AІІROKSIMAІIJa]]/URI$, аппроксимирует (аппроксимирует с порядком $URI[[http://libmeta.ru/me/formula/aux/242_19_AІІROKSIMAІIJa]]/URI$ ) дифференциальный оператор $URI[[http://libmeta.ru/me/formula/aux/242_20_AІІROKSIMAІIJa]]/URI$ на классе $URI[[http://libmeta.ru/me/formula/aux/242_21_AІІROKSIMAІIJa]]/URI$, если для любой функции $URI[[http://libmeta.ru/me/formula/aux/242_22_AІІROKSIMAІIJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/242_23_AІІROKSIMAІIJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_1_AІІROKSIMAІIJa]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/242_2_AІІROKSIMAІIJa]]/URI
+\]
+
+Иногда аппроксимацию понимают как равенство $URI[[http://libmeta.ru/me/formula/aux/242_24_AІІROKSIMAІIJa]]/URI$
+
+в смысле той или иной слабой сходимости. А. Д. о. р. используется для приближенного вычисления функции $URI[[http://libmeta.ru/me/formula/aux/242_25_AІІROKSIMAІIJa]]/URI$ по таблице $URI[[http://libmeta.ru/me/formula/aux/242_26_AІІROKSIMAІIJa]]/URI$ значений функции $URI[[http://libmeta.ru/me/formula/aux/242_27_AІІROKSIMAІIJa]]/URI$ п для annpoксимации дифференциального уравнения разностным.
+
+Существуют два основных приема построения оператора $URI[[http://libmeta.ru/me/formula/aux/242_28_AІІROKSIMAІIJa]]/URI$, аппроксимирующего $URI[[http://libmeta.ru/me/formula/aux/242_29_AІІROKSIMAІIJa]]/URI$.
+
+Первый состоит в том, что определяют $URI[[http://libmeta.ru/me/formula/aux/242_30_AІІROKSIMAІIJa]]/URI$ как результат применения дифференциального оператора $URI[[http://libmeta.ru/me/formula/aux/242_31_AІІROKSIMAІIJa]]/URI$ к функции из $URI[[http://libmeta.ru/me/formula/aux/242_32_AІІROKSIMAІIJa]]/URI$, полученной с помощью той или иной интерполяционной формулы из сеточной функции $URI[[http://libmeta.ru/me/formula/aux/242_33_AІІROKSIMAІIJa]]/URI$.
+
+Второй способ состоит в следующем. В области $URI[[http://libmeta.ru/me/formula/aux/242_34_AІІROKSIMAІIJa]]/URI$ определения функции $URI[[http://libmeta.ru/me/formula/aux/242_35_AІІROKSIMAІIJa]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/242_36_AІІROKSIMAІIJa]]/URI$ вводят сетку $URI[[http://libmeta.ru/me/formula/aux/242_37_AІІROKSIMAІIJa]]/URI$ и рассматривают линейное пространство $URI[[http://libmeta.ru/me/formula/aux/242_38_AІІROKSIMAІIJa]]/URI$ сеточных функций, определенных на $URI[[http://libmeta.ru/me/formula/aux/242_39_AІІROKSIMAІIJa]]/URI$. Оператор $URI[[http://libmeta.ru/me/formula/aux/242_40_AІІROKSIMAІIJa]]/URI$ строят как произведение двух операторов: оператора, переводящего функцию $URI[[http://libmeta.ru/me/formula/aux/242_41_AІІROKSIMAІIJa]]/URI$ в сеточную функцию $URI[[http://libmeta.ru/me/formula/aux/242_42_AІІROKSIMAІIJa]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/242_43_AІІROKSIMAІIJa]]/URI$, то есть в приближенную таблицу значений функции $URI[[http://libmeta.ru/me/formula/aux/242_44_AІІROKSIMAІIJa]]/URI$, и оператора восполнения $URI[[http://libmeta.ru/me/formula/aux/242_45_AІІROKSIMAІIJa]]/URI$ с сетки $URI[[http://libmeta.ru/me/formula/aux/242_46_AІІROKSIMAІIJa]]/URI$ на всю область $URI[[http://libmeta.ru/me/formula/aux/242_47_AІІROKSIMAІIJa]]/URI$. Напр., для приближения оператора дифференцирования
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_3_AІІROKSIMAІIJa]]/URI
+\]
+
+строится сетка $URI[[http://libmeta.ru/me/formula/aux/242_48_AІІROKSIMAІIJa]]/URI$, состоящая из точек $URI[[http://libmeta.ru/me/formula/aux/242_49_AІІROKSIMAІIJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/242_50_AІІROKSIMAІIJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_4_AІІROKSIMAІIJa]]/URI
+\]
+
+и сетка $URI[[http://libmeta.ru/me/formula/aux/242_51_AІІROKSIMAІIJa]]/URI$, состоящая из точек
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_5_AІІROKSIMAІIJa]]/URI
+\]
+
+Значения оператора $URI[[http://libmeta.ru/me/formula/aux/242_52_AІІROKSIMAІIJa]]/URI$ в точках $URI[[http://libmeta.ru/me/formula/aux/242_53_AІІROKSIMAІIJa]]/URI$ определяются равенствами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_6_AІІROKSIMAІIJa]]/URI
+\]
+
+Затем $URI[[http://libmeta.ru/me/formula/aux/242_54_AІІROKSIMAІIJa]]/URI$ доопределяется вне $URI[[http://libmeta.ru/me/formula/aux/242_55_AІІROKSIMAІIJa]]/URI$ кусочно линейно с изломами, быть может, только в точках $URI[[http://libmeta.ru/me/formula/aux/242_56_AІІROKSIMAІIJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/242_57_AІІROKSIMAІIJa]]/URI$.
+
+Пусть норма в $URI[[http://libmeta.ru/me/formula/aux/242_58_AІІROKSIMAІIJa]]/URI$ определяется формулөй
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_7_AІІROKSIMAІIJa]]/URI
+\]
+
+Тогда на классе функций $URI[[http://libmeta.ru/me/formula/aux/242_59_AІІROKSIMAІIJa]]/URI$, имеющих ограниченную третью производную, при $URI[[http://libmeta.ru/me/formula/aux/242_60_AІІROKSIMAІIJa]]/URI$ п $URI[[http://libmeta.ru/me/formula/aux/242_61_AІІROKSIMAІIJa]]/URI$ оператор $URI[[http://libmeta.ru/me/formula/aux/242_62_AІІROKSIMAІIJa]]/URI$ aппроксимирует $URI[[http://libmeta.ru/me/formula/aux/242_63_AІІROKSIMAІIJa]]/URI$ с порядком $URI[[http://libmeta.ru/me/formula/aux/242_64_AІІROKSIMAІIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/242_65_AІІROKSIMAІIJa]]/URI$ соответственно. На классе $URI[[http://libmeta.ru/me/formula/aux/242_66_AІІROKSIMAІIJa]]/URI$ функций с ограниченными вторыми производными аппроксимация при любом $URI[[http://libmeta.ru/me/formula/aux/242_67_AІІROKSIMAІIJa]]/URI$ имеет лишь первый порядок.
+
+Иногда задачу А. Д. о. р. условно считают решенной, если указан способ построения сеточной функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_8_AІІROKSIMAІIJa]]/URI
+\]
+
+определенной только в точках сетки $URI[[http://libmeta.ru/me/formula/aux/242_68_AІІROKSIMAІIJa]]/URI$, оставляя задачу о восполнении функции $URI[[http://libmeta.ru/me/formula/aux/242_69_AІІROKSIMAІIJa]]/URI$ всюду на $URI[[http://libmeta.ru/me/formula/aux/242_70_AІІROKSIMAІIJa]]/URI$ вне рассмотрения. В таком случае для определения аппроксимации пространство $URI[[http://libmeta.ru/me/formula/aux/242_71_AІІROKSIMAІIJa]]/URI$ считают нормированным и притом относительно сетки и нормы предполагается, что для всякой функции $URI[[http://libmeta.ru/me/formula/aux/242_72_AІІROKSIMAІIJa]]/URI$ совпадающая с ней в точках $URI[[http://libmeta.ru/me/formula/aux/242_73_AІІROKSIMAІIJa]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/242_74_AІІROKSIMAІIJa]]/URI$ удовлетворяет равенству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_9_AІІROKSIMAІIJa]]/URI
+\]
+
+Оператор $URI[[http://libmeta.ru/me/formula/aux/242_75_AІІROKSIMAІIJa]]/URI$ понимают как оператор из $URI[[http://libmeta.ru/me/formula/aux/242_76_AІІROKSIMAІIJa]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/242_77_AІІROKSIMAІIJa]]/URI$ П говорят, что оператор $URI[[http://libmeta.ru/me/formula/aux/242_78_AІІROKSIMAІIJa]]/URI$ аппроксимирует (аппроксимирует с порядком $URI[[http://libmeta.ru/me/formula/aux/242_79_AІІROKSIMAІIJa]]/URI$ ) дифференциальный оператор $URI[[http://libmeta.ru/me/formula/aux/242_80_AІІROKSIMAІIJa]]/URI$ на множестве $URI[[http://libmeta.ru/me/formula/aux/242_81_AІІROKSIMAІIJa]]/URI$, если при $URI[[http://libmeta.ru/me/formula/aux/242_82_AІІROKSIMAІIJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_10_AІІROKSIMAІIJa]]/URI
+\] Для построения оператора $URI[[http://libmeta.ru/me/formula/aux/242_83_AІІROKSIMAІIJa]]/URI$, аппроксимирующего $URI[[http://libmeta.ru/me/formula/aux/242_84_AІІROKSIMAІIJa]]/URI$ на достаточно гладких функциях с заданным порядком, часто прибегают к замене каждой производной, входящей в выражение $URI[[http://libmeta.ru/me/formula/aux/242_85_AІІROKSIMAІIJa]]/URI$, ее разностной аппроксимацией, опираясь для этого на следующий факт. При любых натуральных $URI[[http://libmeta.ru/me/formula/aux/242_86_AІІROKSIMAІIJa]]/URI$ и при любом $URI[[http://libmeta.ru/me/formula/aux/242_87_AІІROKSIMAІIJa]]/URI$ в равенстве
+
+$URI[[http://libmeta.ru/me/formula/aux/242_88_AІІROKSIMAІIJa]]/URI$, используя метод неопределенных коэффициентов и формулу Тейлора, можно так подобрать числа $URI[[http://libmeta.ru/me/formula/aux/242_89_AІІROKSIMAІIJa]]/URI$, не зависящие от $URI[[http://libmeta.ru/me/formula/aux/242_90_AІІROKSIMAІIJa]]/URI$, чтобы для любой функции $URI[[http://libmeta.ru/me/formula/aux/242_91_AІІROKSIMAІIJa]]/URI$, имеющей $URI[[http://libmeta.ru/me/formula/aux/242_92_AІІROKSIMAІIJa]]/URI$ ограниченных производных, выполнялось неравенство вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_11_AІІROKSIMAІIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/242_93_AІІROKSIMAІIJa]]/URI$ зависит только от $URI[[http://libmeta.ru/me/formula/aux/242_94_AІІROKSIMAІIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/242_95_AІІROKSIMAІIJa]]/URI$. Напр., пусть требуется построить аппроксимирующий оператор для оператора Лапласа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_12_AІІROKSIMAІIJa]]/URI
+\]
+
+если $URI[[http://libmeta.ru/me/formula/aux/242_96_AІІROKSIMAІIJa]]/URI$ замкнутый квадрат $URI[[http://libmeta.ru/me/formula/aux/242_97_AІІROKSIMAІIJa]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/242_98_AІІROKSIMAІIJa]]/URI$ его внутренность $URI[[http://libmeta.ru/me/formula/aux/242_99_AІІROKSIMAІIJa]]/URI$. Задается $URI[[http://libmeta.ru/me/formula/aux/242_100_AІІROKSIMAІIJa]]/URI$ ватуральное, и строится сетка, причем к $URI[[http://libmeta.ru/me/formula/aux/242_101_AІІROKSIMAІIJa]]/URI$ относятся точки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_13_AІІROKSIMAІIJa]]/URI
+\]
+
+a к $URI[[http://libmeta.ru/me/formula/aux/242_102_AІІROKSIMAІIJa]]/URI$ точки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_14_AІІROKSIMAІIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/242_103_AІІROKSIMAІIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/242_104_AІІROKSIMAІIJa]]/URI$ - целые. Так как
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_15_AІІROKSIMAІIJa]]/URI
+\]
+
+то $URI[[http://libmeta.ru/me/formula/aux/242_105_AІІROKSIMAІIJa]]/URI$ на достаточно URI[[http://libmeta.ru/me/relation/242_6_AІІROKSIMAІIJa]]/URI аппроксимируется со вторым URI[[http://libmeta.ru/me/relation/242_5_AІІROKSIMAІIJa]]/URI разностным оператором $URI[[http://libmeta.ru/me/formula/aux/242_106_AІІROKSIMAІIJa]]/URI$, если положить в точках $URI[[http://libmeta.ru/me/formula/aux/242_107_AІІROKSIMAІIJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_16_AІІROKSIMAІIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/242_108_AІІROKSIMAІIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/242_109_AІІROKSIMAІIJa]]/URI$ значения URI[[http://libmeta.ru/me/relation/242_4_AІІROKSIMAІIJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/242_110_AІІROKSIMAІIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/242_111_AІІROKSIMAІIJa]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/242_112_AІІROKSIMAІIJa]]/URI$.
+
+Существуют отличные от указанного способы построения операторов $URI[[http://libmeta.ru/me/formula/aux/242_113_AІІROKSIMAІIJa]]/URI$, аппроксимирующих URI[[http://libmeta.ru/me/relation/242_3_AІІROKSIMAІIJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/242_114_AІІROKSIMAІIJa]]/URI$ на решениях $URI[[http://libmeta.ru/me/formula/aux/242_115_AІІROKSIMAІIJa]]/URI$ URI[[http://libmeta.ru/me/relation/242_2_AІІROKSIMAІIJa]]/URI URI[[http://libmeta.ru/me/relation/242_1_AІІROKSIMAІIJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/242_116_AІІROKSIMAІIJa]]/URI$ и удовлетворяющих дополнительным требованиям.</text>
+  <text_orig>приближение дифференциального оператора таким зависящим от параметра оператором, результат применения к-рого к функции определяется ее значениями на нек-ром дискретном множестве точек - сетке, уточняющееся при стремлении параметра (шага сетки) к нулю.
+
+Пусть $L, L u=f-$ дифференциальный оператор, переводящий каждую функцию $u$ из класса функций $U$ в функцию $f$ из линейного нормированного пространства $F$. Пусть $D_{U}-$ область определения функций из $U$ и в $D_{U}$ выделено нек-рое дискретное подмножество - сетка $D_{h U}$ («сгущающаяся&quot; при $\left.h \rightarrow 0\right)$. Рассматривается множество $U_{h}$ всех функций $[u]_{h}$, определенных только на сетке и совпадающих в точках сетки с $u$. Разностным оператором наз. всякий оператор $L_{h}$, переводящий сеточные функции из $U_{h}$ в функции $f_{h}$ из $F$. Говорят, что оператор $L_{h}, L_{h}[u]_{h}=f_{h}$, аппроксимирует (аппроксимирует с порядком $h^{p}$ ) дифференциальный оператор $L$ на классе $U$, если для любой функции $u \in U$ при $h \rightarrow 0$
+
+\[
+\left\|L u-L_{h}[u]_{h}\right\|_{F} \longrightarrow 0
+\]\[
+\left\|L u-L_{h}[u]_{h}\right\|_{F_{h}} \leqslant c h^{p}, c=c(u)=\text { const. }
+\]
+
+Иногда аппроксимацию понимают как равенство $\lim _{h \rightarrow 0} L_{h}[u]_{h}=L u$
+
+в смысле той или иной слабой сходимости. А. Д. о. р. используется для приближенного вычисления функции $L u$ по таблице $[u]_{h}$ значений функции $u$ п для annpoксимации дифференциального уравнения разностным.
+
+Существуют два основных приема построения оператора $L_{h}$, аппроксимирующего $L$.
+
+Первый состоит в том, что определяют $L_{h}[u]_{h}$ как результат применения дифференциального оператора $L$ к функции из $U$, полученной с помощью той или иной интерполяционной формулы из сеточной функции $[u]_{h}$.
+
+Второй способ состоит в следующем. В области $D_{F}$ определения функции $f$ из $F$ вводят сетку $D_{h F}$ и рассматривают линейное пространство $F_{h}$ сеточных функций, определенных на $D_{h F}$. Оператор $L_{h}[u]_{h}$ строят как произведение двух операторов: оператора, переводящего функцию $[u]_{h}$ в сеточную функцию $f_{h}$ из $F_{h}$, то есть в приближенную таблицу значений функции $f(x)$, и оператора восполнения $f_{h}$ с сетки $D_{h F}$ на всю область $D_{F}$. Напр., для приближения оператора дифференцирования
+
+\[
+L=\frac{d}{d x}, \quad \frac{d u}{d x}=f(x), \quad 0 \leqslant x \leqslant 1,
+\]
+
+строится сетка $D_{h U}$, состоящая из точек $x_{k}, k=0,1$, $\cdots, N$
+
+\[
+\begin{gathered}
+0=x_{0}&lt;\ldots&lt;x_{k}&lt;x_{k+1}&lt;\ldots&lt;x_{N}=1, \\
+\max _{k}\left(x_{k+1}-x_{k}\right)=h,
+\end{gathered}
+\]
+
+и сетка $D_{h F}$, состоящая из точек
+
+\[
+\begin{gathered}
+x_{k}^{*}=x_{k}+\theta\left(x_{k+1}-x_{k}\right), \\
+\theta \leqslant \theta \leqslant 1, \quad \theta=\text { const, } k=0,1, \ldots, N-1 .
+\end{gathered}
+\]
+
+Значения оператора $L_{h}[u]_{h}$ в точках $x_{k}^{*}$ определяются равенствами
+
+\[
+\begin{gathered}
+\left.L_{h}[u]_{h}\right|_{x=x_{k}^{*}}=f_{h}\left(x_{k}^{*}\right)=\frac{u\left(x_{k+1}\right)-u\left(x_{k}\right)}{x_{k+1}-x_{k}}, \\
+k=0,1, \ldots, N-1 .
+\end{gathered}
+\]
+
+Затем $L_{h}[u]_{h}$ доопределяется вне $D_{h F}$ кусочно линейно с изломами, быть может, только в точках $x_{k}^{*}, k=1,2$, $\ldots, N-2$.
+
+Пусть норма в $F$ определяется формулөй
+
+\[
+\|\varphi\|_{F}=\sup _{x}|\varphi(x)| \text {. }
+\]
+
+Тогда на классе функций $U$, имеющих ограниченную третью производную, при $\theta=0$ п $\theta=\frac{h}{2}$ оператор $L_{h}$ aппроксимирует $L=\frac{d}{d x}$ с порядком $h$ и $h^{2}$ соответственно. На классе $U$ функций с ограниченными вторыми производными аппроксимация при любом $\theta \in[0,1]$ имеет лишь первый порядок.
+
+Иногда задачу А. Д. о. р. условно считают решенной, если указан способ построения сеточной функции
+
+\[
+\left.L_{h}[u]_{h}\right|_{D_{h F}}=f_{h} \in F_{h}
+\]
+
+определенной только в точках сетки $D_{h F}$, оставляя задачу о восполнении функции $f_{h}$ всюду на $D_{F}$ вне рассмотрения. В таком случае для определения аппроксимации пространство $F_{h}$ считают нормированным и притом относительно сетки и нормы предполагается, что для всякой функции $f \in F$ совпадающая с ней в точках $D_{h F}$ функция $\{f\}_{h} \in F_{h}$ удовлетворяет равенству
+
+\[
+\lim _{h \rightarrow 0}\left\|\{f\}_{h}\right\|_{F_{h}}=\|f\|_{F} \text {. }
+\]
+
+Оператор $L_{h}$ понимают как оператор из $U_{h}$ в $F_{h}$ П говорят, что оператор $L_{h}$ аппроксимирует (аппроксимирует с порядком $h^{p}$ ) дифференциальный оператор $L$ на множестве $U$, если при $h \rightarrow 0$
+
+\[
+\begin{gathered}
+\left\|\{L u\}_{h}-L_{h}[u]_{h}\right\|_{F_{h}} \longrightarrow 0, \\
+\left\|\{L u\}_{h}-L_{h}[u]_{h_{h}}\right\|_{F_{h}} \leqslant h^{p} .
+\end{gathered}
+\] Для построения оператора $L_{h}$, аппроксимирующего $L$ на достаточно гладких функциях с заданным порядком, часто прибегают к замене каждой производной, входящей в выражение $L$, ее разностной аппроксимацией, опираясь для этого на следующий факт. При любых натуральных $i, j$ и при любом $k_{0}, 2 k_{0}+1 \geqslant i+j$ в равенстве
+
+$k^{-j} \sum_{k=-k_{0}}^{k_{0}^{0}} c_{k} u(x+k h)=u^{(j)}(x)+\varepsilon\left(x, h, c_{-k_{0}}, \ldots, c_{k_{0}}\right)$, используя метод неопределенных коэффициентов и формулу Тейлора, можно так подобрать числа $c_{k}$, не зависящие от $h$, чтобы для любой функции $u(x)$, имеющей $j+r(r \leqslant i)$ ограниченных производных, выполнялось неравенство вида
+
+\[
+\left|\varepsilon\left(x, h, c_{-k_{0}}, \ldots, c_{k_{0}}\right)\right| \leqslant A_{i j} \sup _{t}\left|u^{(j+r)}(t)\right| h^{r},
+\]
+
+где $A_{i j}$ зависит только от $i$ и $j$. Напр., пусть требуется построить аппроксимирующий оператор для оператора Лапласа
+
+\[
+\Delta, \Delta u \equiv \frac{\partial^{2} u}{\partial x^{2}}+\frac{\partial^{2} u}{\partial y^{2}}=f(x, y),
+\]
+
+если $D_{U}-$ замкнутый квадрат $|x| \leqslant 1,|y| \leqslant 1$, а $D_{p}-$ его внутренность $|x|&lt;1,|y|&lt;1$. Задается $h=1 / N, N-$ ватуральное, и строится сетка, причем к $D_{h U}$ относятся точки
+
+\[
+(x, y)=(m h, n h),|m h| \leqslant 1,|n h| \leqslant 1,
+\]
+
+a к $D_{h F}-$ точки
+
+\[
+(x, y)=(m h, n h),|m h|&lt;1,|n h|&lt;1,
+\]
+
+где $m$ и $n$ - целые. Так как
+
+\[
+\frac{1}{h^{2}}[y(x+h)-2 y(x)+y(x-h)]=y^{\prime \prime}(x)+\frac{h^{2}}{12} y^{(4)}(\xi),
+\]
+
+то $\Delta$ на достаточно гладких функциях аппроксимируется со вторым порядком разностным оператором $L_{h}$, если положить в точках $D_{h F}$ :
+
+\[
+\begin{aligned}
+&amp; L_{h} u_{m, n}=\frac{u_{m+1, n}-2 u_{m, n}+u_{m-1, n}}{h^{2}}+ \\
+&amp; +\frac{u_{m, m+1}-2 u_{m, n}+u_{m, n-1}}{h^{2}}=f_{m n},
+\end{aligned}
+\]
+
+где $u_{m, n}$ и $f_{m, n}-$ значения функций $[u]_{h}$ и $f_{h}$ в точке $(m h, n h)$.
+
+Существуют отличные от указанного способы построения операторов $L_{h}$, аппроксимирующих оператор $L$ на решениях $u$ дифференциального уравнения $L u=0$ и удовлетворяющих дополнительным требованиям.
+
+Лum.: [1] Ф и л и п П о в А. Ф., &quot;Докл. АН СССР&quot;, 1955, т. 100, № 6, с. $1045-48$; [2] Б е р е зи н И. С., Ж и Д к ов Н.П.,
+Методы вычислений, 3 изд., т. 1, М., 1966. В. В. Рябенъкий.</text_orig>
+</article>

@@ -1,0 +1,583 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/42_AVTOMAT" alphabetic_pos="42">
+  <title>АВТОМАТ КОНЕЧНЫЙ</title>
+  <authors>
+    <author>В. Б. Кудрявчев</author>
+    <author>Ю. И. Янов</author>
+  </authors>
+  <pages>
+    <start>27</start>
+    <end>30</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Автоматы. Сб. статей, под ред. К. Э. Шеннона и Дж. Маккарти, пер. с англ., М., 1956; [2] Г л у ш к о в В. М., Синтез цифровых автоматов, М., 1962: [3] К о 6 р и н с к и й Н. Е., Т р ах т е н б р о т Б. А., Введение в теорию конечных автома́тов, М., 1962.</literature_orig>
+    <unit>
+      <title>Автоматы. Сб. статей, под ред. К. Э. Шеннона и Дж. Маккарти</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1956</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Глушков В. М.</author>
+      <title>Синтез цифровых автоматов</title>
+      <publication>М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ко6ринский Н. Е.</author>
+      <author>Трахтенброт Б. А.</author>
+      <title>Введение в теорию конечных автома́тов</title>
+      <publication>М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/42_1_AVTOMAT">F=\left\{(\alpha, \bar{\varphi}(s, \alpha), \bar{\psi}(s, \alpha)): \alpha \in A^{*}, s \in S\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/42_2_AVTOMAT">L_{S^{\prime}}=\left\{\alpha \in A^{*}: \varphi\left(s_{1}, \alpha\right) \in S^{\prime}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/42_3_AVTOMAT">M_{\gamma}=\left\{\alpha \in A^{\infty}: \varphi\left(s_{1}, \alpha\right) \in \gamma\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/42_4_AVTOMAT">\bar{\psi}(s, \alpha)=\psi(\varphi(s, \alpha])) \psi(\varphi(s, \alpha])) \ldots \psi(\varphi(s, \alpha)),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/42_5_AVTOMAT">\psi\left(s_{1}\right) \psi\left(\varphi\left(s_{1}\right)\right) \psi\left(\varphi^{2}\left(s_{1}\right)\right) \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/42_6_AVTOMAT">s(0)=0, \quad s(t+1)=s(t)+a(t)(\bmod 2), \quad b(t)=s(t) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_1_AVTOMAT">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_2_AVTOMAT">s_{1}, s_{2}, \ldots, s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_3_AVTOMAT">(a, S, B, \varphi, \psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_4_AVTOMAT">a, S, B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_5_AVTOMAT">\uparrow-ф</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_6_AVTOMAT">s \times A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_7_AVTOMAT">s ; \psi-ф</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_8_AVTOMAT">s \times A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_9_AVTOMAT">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_10_AVTOMAT">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_11_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_12_AVTOMAT">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_13_AVTOMAT">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_14_AVTOMAT">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_15_AVTOMAT">s \times A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_16_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_17_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_18_AVTOMAT">\wedge)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_19_AVTOMAT">\varphi(s, \wedge)=s, \quad \varphi(s, \alpha a)=\varphi(\varphi(s, \alpha), a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_20_AVTOMAT">\psi(s, \wedge)=\wedge, \quad \psi(s, \alpha a)=\psi(\varphi(s, \alpha), a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_21_AVTOMAT">s \in S, \alpha \in A^{*}, a \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_22_AVTOMAT">\alpha a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_23_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_24_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_25_AVTOMAT">\varphi(s, \alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_26_AVTOMAT">\psi(s, \alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_27_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_28_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_29_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_30_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_31_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_32_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_33_AVTOMAT">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_34_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_35_AVTOMAT">\bar{\varphi}(s, \alpha), \bar{\psi}(s, \alpha)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_36_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_37_AVTOMAT">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_38_AVTOMAT">\bar{\varphi}(s, \alpha)=\varphi(s, \alpha]) \varphi(s, \alpha]) \ldots \varphi(s, \alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_39_AVTOMAT">\bar{\psi}(s, \alpha)=\psi(s, \alpha]) \psi(s, \alpha]) \ldots \psi(s, \alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_40_AVTOMAT">\bar{\psi}(s, \alpha), \bar{\psi}(s, \alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_41_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_42_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_43_AVTOMAT">\mathfrak{u}=(a, S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_44_AVTOMAT">b, \varphi, \psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_45_AVTOMAT">\bar{\varphi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_46_AVTOMAT">\bar{\psi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_47_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_48_AVTOMAT">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_49_AVTOMAT">\alpha-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_50_AVTOMAT">\varphi(s, \alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_51_AVTOMAT">\bar{\varphi}(s, \alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_52_AVTOMAT">s_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_53_AVTOMAT">\mathfrak{a}_{s_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_54_AVTOMAT">\mathfrak{a}_{s_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_55_AVTOMAT">f(\alpha)=\bar{\psi}\left(s_{1}, \alpha\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_56_AVTOMAT">a^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_57_AVTOMAT">b^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_58_AVTOMAT">a^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_59_AVTOMAT">b^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_60_AVTOMAT">a^{\infty}, B^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_61_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_62_AVTOMAT">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_63_AVTOMAT">\mathfrak{a}_{s_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_64_AVTOMAT">\stackrel{l_{s}}{ } \subseteq A^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_65_AVTOMAT">s^{\prime} \subseteq S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_66_AVTOMAT">l S^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_67_AVTOMAT">\mathfrak{a}_{s_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_68_AVTOMAT">s^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_69_AVTOMAT">f(\alpha)=\bar{\psi}\left(s_{1}, \alpha\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_70_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_71_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_72_AVTOMAT">\mathfrak{a}_{s_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_73_AVTOMAT">m_{\gamma} \sqsubseteq A^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_74_AVTOMAT">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_75_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_76_AVTOMAT">m_{\gamma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_77_AVTOMAT">\mathfrak{u}_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_78_AVTOMAT">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_79_AVTOMAT">a_{1} \times \ldots \times A_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_80_AVTOMAT">b_{1} \times \ldots \times</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_81_AVTOMAT">\times B_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_82_AVTOMAT">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_83_AVTOMAT">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_84_AVTOMAT">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_85_AVTOMAT">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_86_AVTOMAT">a_{1}, \ldots, A_{m}, B_{1}, \ldots, B_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_87_AVTOMAT">\bar{\psi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_88_AVTOMAT">\mathfrak{a}=(a, S, B, \varphi, \psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_89_AVTOMAT">\mathfrak{a}_{s_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_90_AVTOMAT">\varphi^{n+1}(s)=\varphi\left(\varphi^{n}(s)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_91_AVTOMAT">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_92_AVTOMAT">b=s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_93_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_94_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_95_AVTOMAT">\bar{\psi}(s, a)=s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_96_AVTOMAT">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_97_AVTOMAT">(a, S, \varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_98_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_99_AVTOMAT">\alpha(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_100_AVTOMAT">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_101_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_102_AVTOMAT">|\alpha|-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_103_AVTOMAT">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_104_AVTOMAT">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_105_AVTOMAT">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_106_AVTOMAT">(\alpha, \sigma, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_107_AVTOMAT">|\alpha|=|\beta|=|\sigma|-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_108_AVTOMAT">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_109_AVTOMAT">1 \leqslant t \leqslant|\alpha|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_110_AVTOMAT">\sigma(t+1)=\varphi(\sigma(t), \alpha(t)), \beta(t)=\psi(\sigma(t), \alpha(t))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_111_AVTOMAT">\mathfrak{a}_{s_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_112_AVTOMAT">\sigma(1)=s_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_113_AVTOMAT">a^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_114_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_115_AVTOMAT">a=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_116_AVTOMAT">=\{0,1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_117_AVTOMAT">\varphi(a, b)=b, \quad \psi(a)=a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_118_AVTOMAT">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_119_AVTOMAT">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_120_AVTOMAT">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_121_AVTOMAT">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_122_AVTOMAT">\psi\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_123_AVTOMAT">a_{i_{1}}, \ldots, a_{i_{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_124_AVTOMAT">\psi\left(a_{i_{1}}, \ldots, a_{i_{n}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_125_AVTOMAT">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_126_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_127_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_128_AVTOMAT">t+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_129_AVTOMAT">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_130_AVTOMAT">\varphi(a, b)=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_131_AVTOMAT">a^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_132_AVTOMAT">a^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_133_AVTOMAT">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_134_AVTOMAT">m \geqslant 1,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_135_AVTOMAT">n, n \geqslant 1,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_136_AVTOMAT">\left(a^{m}, S, A^{n}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_137_AVTOMAT">\varphi, \psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_138_AVTOMAT">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_139_AVTOMAT">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_140_AVTOMAT">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_141_AVTOMAT">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_142_AVTOMAT">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_143_AVTOMAT">\bar{x}, x \vee y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_144_AVTOMAT">x \&amp; y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_145_AVTOMAT">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_146_AVTOMAT">0,1,2, \ldots, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_147_AVTOMAT">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_148_AVTOMAT">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_149_AVTOMAT">s(t), a(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_150_AVTOMAT">b(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_151_AVTOMAT">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_152_AVTOMAT">(a, S, A, \varphi, \psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_153_AVTOMAT">a=s=\{0,1\}, \varphi(s, a)=s+a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_154_AVTOMAT">(\bmod 2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/42_155_AVTOMAT">(s, a)=s</formula>
+  </formulas_aux>
+  <relations n="43">
+    <relation uri="http://libmeta.ru/me/relation/42_1_AVTOMAT">
+      <rel_text>Автоматов</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_2_AVTOMAT">
+      <rel_text>Автолата</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_3_AVTOMAT">
+      <rel_text>модификации</rel_text>
+      <target>http://libmeta.ru/me/article/743_MODIFIKATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_4_AVTOMAT">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_5_AVTOMAT">
+      <rel_text>автоматов</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_6_AVTOMAT">
+      <rel_text>представить</rel_text>
+      <target>http://libmeta.ru/me/article/606_PREDPORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_7_AVTOMAT">
+      <rel_text>задать</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_8_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_9_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_10_AVTOMAT">
+      <rel_text>нечетное число</rel_text>
+      <target>http://libmeta.ru/me/article/1013_NEChETNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_11_AVTOMAT">
+      <rel_text>моменты</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_12_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_13_AVTOMAT">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_14_AVTOMAT">
+      <rel_text>функціями</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_15_AVTOMAT">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_16_AVTOMAT">
+      <rel_text>применением функций</rel_text>
+      <target>http://libmeta.ru/me/article/654_PRIMITIVNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_17_AVTOMAT">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_18_AVTOMAT">
+      <rel_text>множеств</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_19_AVTOMAT">
+      <rel_text>декартово произведение</rel_text>
+      <target>http://libmeta.ru/me/article/91_DEKARTOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_20_AVTOMAT">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_21_AVTOMAT">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_22_AVTOMAT">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_23_AVTOMAT">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_24_AVTOMAT">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_25_AVTOMAT">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_26_AVTOMAT">
+      <rel_text>отображений</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_27_AVTOMAT">
+      <rel_text>Класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_28_AVTOMAT">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_29_AVTOMAT">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_30_AVTOMAT">
+      <rel_text>последовательности</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_31_AVTOMAT">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_32_AVTOMAT">
+      <rel_text>отображение</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_33_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_34_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_35_AVTOMAT">
+      <rel_text>буква</rel_text>
+      <target>http://libmeta.ru/me/article/562_BUKV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_36_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_37_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_38_AVTOMAT">
+      <rel_text>буква</rel_text>
+      <target>http://libmeta.ru/me/article/562_BUKV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_39_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_40_AVTOMAT">
+      <rel_text>функцией</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_41_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_42_AVTOMAT">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/42_43_AVTOMAT">
+      <rel_text>получаемые</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>математическая модель устройства с конечной памятью, преобразующего дискретную информацию. А. к. является одним из важнейших видов управляющих систем. Содержательно А. к. можно охарактеризовать как устройство, имеющее входной и выходной каналы и находящееся в каждый из моментов дискретного времени, наз. т а к т о в ы м и мом е н т а ми, в одном из $URI[[http://libmeta.ru/me/formula/aux/42_1_AVTOMAT]]/URI$ состояний $URI[[http://libmeta.ru/me/formula/aux/42_2_AVTOMAT]]/URI$. По входному каналу в каждый тактовый момент в устройство поступают сігналы - буквы входного алфавита. В те же моменты по выходному каналу устройство выдает сигна.ты - буквы выходного алфавита. С соответствующей точки зрения, к таким устройствам могут быть отнесены бормальные системы, реальные автоматы, живые організмы і т. П.
+
+Существуют различные подходы к определению понятия А. к. При м а к р о по д х о д е, т. е. когда интересуются только внешним поведением устройств, определение А. к. может быть дано в виде совокупности функций, лшбо в виде конечного ориентированного графа, либо в алгеб́раич. форме - в виде конечной алгебры с унарнымі операциями (см. А втоматов способы задания). При м Ii к р о П о д х о д е А. к. задается множеством элементов и схемой их соединения, т. е. в этом случае кроме функционирования описывается и строение автомата, в связи с чем это понятие обычно наз. с т р ук т у р ным, а сами А. к.- с т р ук т у рными а т то ат ами, или автоматным и с е т я м іi.
+
+Макроподход. А. к.- это система $URI[[http://libmeta.ru/me/formula/aux/42_3_AVTOMAT]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/42_4_AVTOMAT]]/URI$ - конечные, как правило непустые, аліфавиты, наз., соответственно, в х о д ны м а л ф а в и то м, множеством состоянийивыходным алфавн т о м; $URI[[http://libmeta.ru/me/formula/aux/42_5_AVTOMAT]]/URI$ ункц и я п е р е х о д о в, отображающая множество $URI[[http://libmeta.ru/me/formula/aux/42_6_AVTOMAT]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/42_7_AVTOMAT]]/URI$ у н ц и я в ы х од о в, отобразкающая $URI[[http://libmeta.ru/me/formula/aux/42_8_AVTOMAT]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/42_9_AVTOMAT]]/URI$. Такие А. к. иногда называются а в т о а т а м и М и ли. В случае, когда функция выходов $URI[[http://libmeta.ru/me/formula/aux/42_10_AVTOMAT]]/URI$ отображает $URI[[http://libmeta.ru/me/formula/aux/42_11_AVTOMAT]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/42_12_AVTOMAT]]/URI$ (т. е. не зависит от букв входного алфавита), А. к. называют а втом а т о м М у ра. Всякий автомат Мура является автоматом Миліi.
+
+Важнейшей характеристикой А. к. является его поведение (см. URI[[http://libmeta.ru/me/relation/42_2_AVTOMAT]]/URI поведение), к-рое может быть определено по-разному. В зависимости от того, какой тiп поведения рассматривается, А. к. подразделяются на преобразователіг, акцепторы (распознаватели), генераторы и др. Чтобы определить основные виды поведения А. к., функциi $URI[[http://libmeta.ru/me/formula/aux/42_13_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_14_AVTOMAT]]/URI$ распространяют на множество $URI[[http://libmeta.ru/me/formula/aux/42_15_AVTOMAT]]/URI$ * (где $URI[[http://libmeta.ru/me/formula/aux/42_16_AVTOMAT]]/URI$ * - множество всех слов в алфавите $URI[[http://libmeta.ru/me/formula/aux/42_17_AVTOMAT]]/URI$, включая пустое слово $URI[[http://libmeta.ru/me/formula/aux/42_18_AVTOMAT]]/URI$ :
+
+$URI[[http://libmeta.ru/me/formula/aux/42_19_AVTOMAT]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/42_20_AVTOMAT]]/URI$
+
+(здесь $URI[[http://libmeta.ru/me/formula/aux/42_21_AVTOMAT]]/URI$, а запись $URI[[http://libmeta.ru/me/formula/aux/42_22_AVTOMAT]]/URI$ обозначает слово, получаемое путем приписывания буквы $URI[[http://libmeta.ru/me/formula/aux/42_23_AVTOMAT]]/URI$ к слову $URI[[http://libmeta.ru/me/formula/aux/42_24_AVTOMAT]]/URI$ ). Таким образом распространенные функции $URI[[http://libmeta.ru/me/formula/aux/42_25_AVTOMAT]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/42_26_AVTOMAT]]/URI$ для произвольных $URI[[http://libmeta.ru/me/formula/aux/42_27_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_28_AVTOMAT]]/URI$ описывают соответственно состояніг, в к-рое переходит автомат из состояния $URI[[http://libmeta.ru/me/formula/aux/42_29_AVTOMAT]]/URI$ под действіем входного слова $URI[[http://libmeta.ru/me/formula/aux/42_30_AVTOMAT]]/URI$, и выходную букву, Һ-рая выдается автоматом в момент поступления последней буквы входного слова $URI[[http://libmeta.ru/me/formula/aux/42_31_AVTOMAT]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/42_32_AVTOMAT]]/URI$ ] обозначает начало длины $URI[[http://libmeta.ru/me/formula/aux/42_33_AVTOMAT]]/URI$ слова $URI[[http://libmeta.ru/me/formula/aux/42_34_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_35_AVTOMAT]]/URI$ слова в алфавитах $URI[[http://libmeta.ru/me/formula/aux/42_36_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_37_AVTOMAT]]/URI$, определяемые следующим образом: $URI[[http://libmeta.ru/me/formula/aux/42_38_AVTOMAT]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/42_39_AVTOMAT]]/URI$.
+
+Функции $URI[[http://libmeta.ru/me/formula/aux/42_40_AVTOMAT]]/URI$ описывают уже последовательность всех состояниї, в к-рых находился автомат при поступлении в него букв слова $URI[[http://libmeta.ru/me/formula/aux/42_41_AVTOMAT]]/URI$, а также выходное слов0, т. е. последовательность букв выходного алфавита, выдаваемых автоматом под воздействием входного слова $URI[[http://libmeta.ru/me/formula/aux/42_42_AVTOMAT]]/URI$. Тернарное отношение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/42_1_AVTOMAT]]/URI
+\]
+
+наз. ф у н к ц і о н Ii р о в ан и е м А. к. $URI[[http://libmeta.ru/me/formula/aux/42_43_AVTOMAT]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/42_44_AVTOMAT]]/URI$. Функціп $URI[[http://libmeta.ru/me/formula/aux/42_45_AVTOMAT]]/URI$ I $URI[[http://libmeta.ru/me/formula/aux/42_46_AVTOMAT]]/URI$ естественно распространяются I на бесконечные последовательности (с в е р х с л о- в а) в алфавите $URI[[http://libmeta.ru/me/formula/aux/42_47_AVTOMAT]]/URI$. Поэтому под функционированием А. к. иногда понимают отношение вида $URI[[http://libmeta.ru/me/formula/aux/42_48_AVTOMAT]]/URI$, в к-ром $URI[[http://libmeta.ru/me/formula/aux/42_49_AVTOMAT]]/URI$ произвольное сверхслово. В этом случае значение функции $URI[[http://libmeta.ru/me/formula/aux/42_50_AVTOMAT]]/URI$ определяется как множество всех тех и только тех состояний, к-рые встречаются в последовательности $URI[[http://libmeta.ru/me/formula/aux/42_51_AVTOMAT]]/URI$ бесконечное число раз.
+
+А. к. с выделенным начальным состоянием $URI[[http://libmeta.ru/me/formula/aux/42_52_AVTOMAT]]/URI$ наз. и ни ци а ль ным и обозначается $URI[[http://libmeta.ru/me/formula/aux/42_53_AVTOMAT]]/URI$. П о в е д ени е м ин и ц и а ль но г о А. к. $URI[[http://libmeta.ru/me/formula/aux/42_54_AVTOMAT]]/URI$ наз. обычно одно из следующих трех отношений.
+
+1) Функция $URI[[http://libmeta.ru/me/formula/aux/42_55_AVTOMAT]]/URI$, отображающая $URI[[http://libmeta.ru/me/formula/aux/42_56_AVTOMAT]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/42_57_AVTOMAT]]/URI$ (или $URI[[http://libmeta.ru/me/formula/aux/42_58_AVTOMAT]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/42_59_AVTOMAT]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/42_60_AVTOMAT]]/URI$ - множества всех сверхслов в алфавитах $URI[[http://libmeta.ru/me/formula/aux/42_61_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_62_AVTOMAT]]/URI$ соответственно). Эта функция наз. функцией вычислимой, или реализуемой, инициальным А. к. $URI[[http://libmeta.ru/me/formula/aux/42_63_AVTOMAT]]/URI$.
+
+2) Множество $URI[[http://libmeta.ru/me/formula/aux/42_64_AVTOMAT]]/URI$, определяемое для выделенного множества $URI[[http://libmeta.ru/me/formula/aux/42_65_AVTOMAT]]/URI$ з а л ю ч и т е л ь ны х с о ст о я н и й так:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/42_2_AVTOMAT]]/URI
+\]
+
+Множество $URI[[http://libmeta.ru/me/formula/aux/42_66_AVTOMAT]]/URI$ наз. с о б ы т и е м, п р е д с т а в им ы м А. к. $URI[[http://libmeta.ru/me/formula/aux/42_67_AVTOMAT]]/URI$ с множеством $URI[[http://libmeta.ru/me/formula/aux/42_68_AVTOMAT]]/URI$ заключительных состояний.
+
+3) Множество значений функции $URI[[http://libmeta.ru/me/formula/aux/42_69_AVTOMAT]]/URI$ для всевозможных $URI[[http://libmeta.ru/me/formula/aux/42_70_AVTOMAT]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/42_71_AVTOMAT]]/URI$ *, называемое множеством, перечислимым данным А.К. $URI[[http://libmeta.ru/me/formula/aux/42_72_AVTOMAT]]/URI$.
+
+4) Множество $URI[[http://libmeta.ru/me/formula/aux/42_73_AVTOMAT]]/URI$, определяемое для системы $URI[[http://libmeta.ru/me/formula/aux/42_74_AVTOMAT]]/URI$ подмножеств множества $URI[[http://libmeta.ru/me/formula/aux/42_75_AVTOMAT]]/URI$ следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/42_3_AVTOMAT]]/URI
+\]
+
+Множество $URI[[http://libmeta.ru/me/formula/aux/42_76_AVTOMAT]]/URI$ наз. сверхсобытием, представимым А. к. $URI[[http://libmeta.ru/me/formula/aux/42_77_AVTOMAT]]/URI$ с системой $URI[[http://libmeta.ru/me/formula/aux/42_78_AVTOMAT]]/URI$ заключительных подмножеств состояний. А. к. с поведением типа 1) наз. к о н е ч ны м п р е о б р а о в а т е ле м, а с поведением типа 2) коне чным рас познав а те лем, или а кц е П т о р о м.
+
+Если в качестве входного и выходного алфавитов взять декартовы произведения $URI[[http://libmeta.ru/me/formula/aux/42_79_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_80_AVTOMAT]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/42_81_AVTOMAT]]/URI$, соответственно, то поведением типа 1) будет набор из $URI[[http://libmeta.ru/me/formula/aux/42_82_AVTOMAT]]/URI$ функций от $URI[[http://libmeta.ru/me/formula/aux/42_83_AVTOMAT]]/URI$ аргументов. В этом случае говорят, что автомат имеет $URI[[http://libmeta.ru/me/formula/aux/42_84_AVTOMAT]]/URI$ входов и $URI[[http://libmeta.ru/me/formula/aux/42_85_AVTOMAT]]/URI$ выходов, причем алфавиты $URI[[http://libmeta.ru/me/formula/aux/42_86_AVTOMAT]]/URI$ наз., соответственно, в такого автомата. Класс событий, представимых А. к., и класс функций, вычислимых А. к., могут быть описаны различными математич. средствами. Основной результат состоит в том, что события, представимые А. к., совпадают с так наз. регулярными событиями, а функции, вычислимые А. к., совпадают с ограниченно-детерминированными бункциями. Кроме того, класс множеств, перечислимых А. к., совпадает с классом событий, представимых А. к.
+
+Относительно поведений 2), 3) и 4) автоматы Мура эквивалентны автоматам Мили в том смысле, что для всякого автомата Мили найдется әквивалентный ему, т. е. имеющий то же самое поведение, автомат Мура, и обратно. Для поведения 1) это неверно. Однако, еслі в автоматах Мура вместо $URI[[http://libmeta.ru/me/formula/aux/42_87_AVTOMAT]]/URI$ брать функции вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/42_4_AVTOMAT]]/URI
+\]
+
+то автоматы Мура будут эквивалентны автоматам Мили.
+
+Автомат мура $URI[[http://libmeta.ru/me/formula/aux/42_88_AVTOMAT]]/URI$ наз. а в т о н о мны м а в тома том, или ге не р а торо м, если функция переходов не зависит от букв входного алфавита. Под по в е де ни е м иници а льного а вт о но м но го а в то м а т а $URI[[http://libmeta.ru/me/formula/aux/42_89_AVTOMAT]]/URI$ принято понимать сверхслово
+
+\[
+URI[[http://libmeta.ru/me/formula/main/42_5_AVTOMAT]]/URI
+\] где $URI[[http://libmeta.ru/me/formula/aux/42_90_AVTOMAT]]/URI$. Эта последовательность является периодической с нек-рым предпериодом.
+
+А. к. $URI[[http://libmeta.ru/me/formula/aux/42_91_AVTOMAT]]/URI$ наз. п е р е х о д н о й с ис т е м о й, если $URI[[http://libmeta.ru/me/formula/aux/42_92_AVTOMAT]]/URI$ и для всякого $URI[[http://libmeta.ru/me/formula/aux/42_93_AVTOMAT]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/42_94_AVTOMAT]]/URI$ имеет место $URI[[http://libmeta.ru/me/formula/aux/42_95_AVTOMAT]]/URI$, или же если выходной алфавит $URI[[http://libmeta.ru/me/formula/aux/42_96_AVTOMAT]]/URI$ - пустой. Таким образом, переходная система полностью определяется тройкой $URI[[http://libmeta.ru/me/formula/aux/42_97_AVTOMAT]]/URI$.
+
+Понятия А. к. и функционирования А. к. могут быть определены различными эквивалентными способами (см. URI[[http://libmeta.ru/me/relation/42_1_AVTOMAT]]/URI способы задания, Автомата поведение). Широкое распространение получили так наз. к а н они ч е с к и е у р а в не ни я. Для произвольного слова $URI[[http://libmeta.ru/me/formula/aux/42_98_AVTOMAT]]/URI$ пусть $URI[[http://libmeta.ru/me/formula/aux/42_99_AVTOMAT]]/URI$ обозначает $URI[[http://libmeta.ru/me/formula/aux/42_100_AVTOMAT]]/URI$-ю букву слова $URI[[http://libmeta.ru/me/formula/aux/42_101_AVTOMAT]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/42_102_AVTOMAT]]/URI$ длину слова $URI[[http://libmeta.ru/me/formula/aux/42_103_AVTOMAT]]/URI$. Тогда функционирование $URI[[http://libmeta.ru/me/formula/aux/42_104_AVTOMAT]]/URI$ А. к. $URI[[http://libmeta.ru/me/formula/aux/42_105_AVTOMAT]]/URI$ состоит из всех тех и только тех троек слов $URI[[http://libmeta.ru/me/formula/aux/42_106_AVTOMAT]]/URI$, к-рые удовлетворяют условиям: 1) $URI[[http://libmeta.ru/me/formula/aux/42_107_AVTOMAT]]/URI$; 2) для всякого $URI[[http://libmeta.ru/me/formula/aux/42_108_AVTOMAT]]/URI$ такого, что $URI[[http://libmeta.ru/me/formula/aux/42_109_AVTOMAT]]/URI$, имеют место равенства $URI[[http://libmeta.ru/me/formula/aux/42_110_AVTOMAT]]/URI$. Для определения поведения инициального А. к. $URI[[http://libmeta.ru/me/formula/aux/42_111_AVTOMAT]]/URI$ необходимо добавить равенство $URI[[http://libmeta.ru/me/formula/aux/42_112_AVTOMAT]]/URI$. Совокупность этих равенств однозначно определяет поведение инициального А. к. и наз. обычно к а н о н и ч е с к и м и уравнениями. Канонич. уравнения широко используются в задачах анализа и синтеза автоматов.
+
+Микроподход. Рассматривается множество элементов, состоящее из определенных выше А. к. с входными и
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=249&amp;width=645&amp;top_left_y=972&amp;top_left_x=268)
+
+выходными алфавитами вида $URI[[http://libmeta.ru/me/formula/aux/42_113_AVTOMAT]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/42_114_AVTOMAT]]/URI$ - конечный алфавит, одинаковый для всех элементов. Правила построения структурных А. к. из элементов описывают дозволенные соединения (отождествления) входов и выходов, а также определяют множества входов и выходов, получаемых А. к.
+
+Важнейшим примером таких А. к. являются л о гич е с к и е с е т и (л. с.). Ниже приводится один из вариантов этого понятия. В рассматриваемом случае $URI[[http://libmeta.ru/me/formula/aux/42_115_AVTOMAT]]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=320&amp;width=340&amp;top_left_y=1492&amp;top_left_x=115)
+
+Рис. 2. $URI[[http://libmeta.ru/me/formula/aux/42_116_AVTOMAT]]/URI$ и элементами являются такназ. ф ун кци ин а льны е эл е ме н т ы (ф. э.), представляющие собой А. к. с одним состоянием, а также специальные автоматы Мура, наз. з а д е р ж к а м и. Последние характеризуются тем, что они имеют два состояния, к-рые обычно обозначаются буквами 0 и 1 входного алфавита, причем функции переходов и выходов удовлетворяіот условиям: $URI[[http://libmeta.ru/me/formula/aux/42_117_AVTOMAT]]/URI$. Поскольку ф. ә. имеет только одно состояние, то он полностью характеризуется функцией выходов $URI[[http://libmeta.ru/me/formula/aux/42_118_AVTOMAT]]/URI$, являющейся в этом случае булевой фуункцией от $URI[[http://libmeta.ru/me/formula/aux/42_119_AVTOMAT]]/URI$ аргументов, где $URI[[http://libmeta.ru/me/formula/aux/42_120_AVTOMAT]]/URI$ - число входов ф. э. Элементы являются исходными л. с., входы и выходы к-рых совпадают, соответственно, с входами и выходами элементов. Дальнейшее построение более сложных л. с. производится по следующим правилам.
+
+1. Объединение двух л. с. есть л. с., входами и выходами к-рой являются, соответственно, входы и выходы объединяемых л. с. (рис. 1).
+
+2. Результат отождествления любых двух входов л. с. является л. с., выходы к-рой совпадают с выходами исходной л. с., а входами служат все входы исходной л. с., кроме одного из отождествленных (рис. 2).
+
+3. Результат отождествления выхода одной л. с. с входом другой л. с. есть л. с. Ее входамін являются все входы первой л. с. и те входы второй л. с.. к-рые не отождествлялись с выходом первой л. с.; ее выходамш являются все выходы обеих л. с. (ріс. 3).
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=286&amp;width=558&amp;top_left_y=358&amp;top_left_x=1130)
+
+Рис. 3.
+
+4. Результат отождествления выхода л. с.. являющегося выходом задержки, с произвольным входом этой же л. с. есть л. с., входы к-рой - все входы исходной л. с., кроме отождествленного, а выходы - все выходы исходной л. с. (рис. 4). (при нек-рых ограничениях это правило может быть применимо и к выходам, не являющимся выходами задержек.)
+
+5. В любой л. с. можно объявить выходами только часть выходов, определенных согласно правилам 1-4. Л. с., URI[[http://libmeta.ru/me/relation/42_43_AVTOMAT]]/URI из ф. э. с помощью правил 1,2 , 3,5 , наз. обычно схемами из ф. э. Функционирование л. с. содержательно можно описать сле-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=281&amp;width=328&amp;top_left_y=827&amp;top_left_x=1486)
+
+Рис. 4. дующим образом. Пусть в URI[[http://libmeta.ru/me/relation/42_42_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_121_AVTOMAT]]/URI$ всем входам л. с. приписаны входные буквы и определены состояния задержек. Тогда в этот же URI[[http://libmeta.ru/me/relation/42_41_AVTOMAT]]/URI всем входам и выходам элементов л. с., в частности всем выходам л. с., будут приписаны буквы в соответствиi со следующими правилами. Если входам ф. э. с выходной URI[[http://libmeta.ru/me/relation/42_40_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_122_AVTOMAT]]/URI$ пріписаны, соответственно, буквы $URI[[http://libmeta.ru/me/formula/aux/42_123_AVTOMAT]]/URI$, то его выходу в этот же URI[[http://libmeta.ru/me/relation/42_39_AVTOMAT]]/URI будет приписана URI[[http://libmeta.ru/me/relation/42_38_AVTOMAT]]/URI, являющаяся значением $URI[[http://libmeta.ru/me/formula/aux/42_124_AVTOMAT]]/URI$. Если задержка находится в URI[[http://libmeta.ru/me/relation/42_37_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_125_AVTOMAT]]/URI$ в состоянии $URI[[http://libmeta.ru/me/formula/aux/42_126_AVTOMAT]]/URI$, то в этот же URI[[http://libmeta.ru/me/relation/42_36_AVTOMAT]]/URI ее выходу приписывается URI[[http://libmeta.ru/me/relation/42_35_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_127_AVTOMAT]]/URI$. Отождествленным входам и выходам приписываются одинаковые буквы. Далее, в URI[[http://libmeta.ru/me/relation/42_34_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_128_AVTOMAT]]/URI$ состояния задержек определяются входными буквами в URI[[http://libmeta.ru/me/relation/42_33_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_129_AVTOMAT]]/URI$, как было определено выше, т. е. $URI[[http://libmeta.ru/me/formula/aux/42_130_AVTOMAT]]/URI$. Таким образом, при фиксированных начальных состояниях задержек л. с. определяет нек-рое URI[[http://libmeta.ru/me/relation/42_32_AVTOMAT]]/URI входных URI[[http://libmeta.ru/me/relation/42_31_AVTOMAT]]/URI в алфоравите $URI[[http://libmeta.ru/me/formula/aux/42_131_AVTOMAT]]/URI$ в
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=521&amp;width=343&amp;top_left_y=1350&amp;top_left_x=1466)
+
+Рис. 5 . выходные URI[[http://libmeta.ru/me/relation/42_30_AVTOMAT]]/URI в алфавите $URI[[http://libmeta.ru/me/formula/aux/42_132_AVTOMAT]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/42_133_AVTOMAT]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/42_134_AVTOMAT]]/URI$ URI[[http://libmeta.ru/me/relation/42_29_AVTOMAT]]/URI входов, а $URI[[http://libmeta.ru/me/formula/aux/42_135_AVTOMAT]]/URI$ URI[[http://libmeta.ru/me/relation/42_28_AVTOMAT]]/URI выходов л. с. URI[[http://libmeta.ru/me/relation/42_27_AVTOMAT]]/URI таких URI[[http://libmeta.ru/me/relation/42_26_AVTOMAT]]/URI URI[[http://libmeta.ru/me/relation/42_25_AVTOMAT]]/URI с классом URI[[http://libmeta.ru/me/relation/42_24_AVTOMAT]]/URI, реализуемых А. к. в первом смысле (т. е. с классом ограниченно детерминированных URI[[http://libmeta.ru/me/relation/42_23_AVTOMAT]]/URI), поскольку описанное выше функционирование л. с. URI[[http://libmeta.ru/me/relation/42_22_AVTOMAT]]/URI с функционированием А. к. $URI[[http://libmeta.ru/me/formula/aux/42_136_AVTOMAT]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/42_137_AVTOMAT]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/42_138_AVTOMAT]]/URI$ - URI[[http://libmeta.ru/me/relation/42_21_AVTOMAT]]/URI входов, $URI[[http://libmeta.ru/me/formula/aux/42_139_AVTOMAT]]/URI$ - URI[[http://libmeta.ru/me/relation/42_20_AVTOMAT]]/URI выходов л. с., $URI[[http://libmeta.ru/me/formula/aux/42_140_AVTOMAT]]/URI$ - URI[[http://libmeta.ru/me/relation/42_19_AVTOMAT]]/URI URI[[http://libmeta.ru/me/relation/42_18_AVTOMAT]]/URI состояний всех задержек л. с.; URI[[http://libmeta.ru/me/relation/42_17_AVTOMAT]]/URI переходов $URI[[http://libmeta.ru/me/formula/aux/42_141_AVTOMAT]]/URI$ является покоординатным URI[[http://libmeta.ru/me/relation/42_16_AVTOMAT]]/URI переходов задержек, а URI[[http://libmeta.ru/me/relation/42_15_AVTOMAT]]/URI выходов $URI[[http://libmeta.ru/me/formula/aux/42_142_AVTOMAT]]/URI$ определяется в соответствии с вышеописанным функционированием ф. э. и задержек. Пусть, напр., элементами являются задержки (к-рые на рисунке изображаются прямоугольниками) и ф. э. с выходными URI[[http://libmeta.ru/me/relation/42_14_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_143_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_144_AVTOMAT]]/URI$ (треугольники с соответствующими символами URI[[http://libmeta.ru/me/relation/42_13_AVTOMAT]]/URI). На рис. 5 Iiзображена л. с., к-рая в тактовый URI[[http://libmeta.ru/me/relation/42_12_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_145_AVTOMAT]]/URI$ выдает выходную букву 1 в том и только в том случае, если среди входных букв в URI[[http://libmeta.ru/me/relation/42_11_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_146_AVTOMAT]]/URI$ содержится URI[[http://libmeta.ru/me/relation/42_10_AVTOMAT]]/URI букв 1 (задержка в начальный URI[[http://libmeta.ru/me/relation/42_9_AVTOMAT]]/URI имеет состояние 0; буквами $URI[[http://libmeta.ru/me/formula/aux/42_147_AVTOMAT]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/42_148_AVTOMAT]]/URI$ обозначены, соответственно, вход и выход л. с.). Если обозначить через $URI[[http://libmeta.ru/me/formula/aux/42_149_AVTOMAT]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/42_150_AVTOMAT]]/URI$, соответственно, состояние, входную букву и выходную букву в URI[[http://libmeta.ru/me/relation/42_8_AVTOMAT]]/URI $URI[[http://libmeta.ru/me/formula/aux/42_151_AVTOMAT]]/URI$, то функционирование такой л. с. можно URI[[http://libmeta.ru/me/relation/42_7_AVTOMAT]]/URI следующими канонич. уравнениями:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/42_6_AVTOMAT]]/URI
+\]
+
+При макроподходе этот автомат можно URI[[http://libmeta.ru/me/relation/42_6_AVTOMAT]]/URI в виде $URI[[http://libmeta.ru/me/formula/aux/42_152_AVTOMAT]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/42_153_AVTOMAT]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/42_154_AVTOMAT]]/URI$ и \&amp; $URI[[http://libmeta.ru/me/formula/aux/42_155_AVTOMAT]]/URI$.
+
+Понятие А. к. явилось отправным пунктом современной URI[[http://libmeta.ru/me/relation/42_5_AVTOMAT]]/URI URI[[http://libmeta.ru/me/relation/42_4_AVTOMAT]]/URI, изучающей также различные URI[[http://libmeta.ru/me/relation/42_3_AVTOMAT]]/URI и обобщения этого понятия.</text>
+  <text_orig>математическая модель устройства с конечной памятью, преобразующего дискретную информацию. А. к. является одним из важнейших видов управляющих систем. Содержательно А. к. можно охарактеризовать как устройство, имеющее входной и выходной каналы и находящееся в каждый из моментов дискретного времени, наз. т а к т о в ы м и мом е н т а ми, в одном из $n$ состояний $s_{1}, s_{2}, \ldots, s_{n}$. По входному каналу в каждый тактовый момент в устройство поступают сігналы - буквы входного алфавита. В те же моменты по выходному каналу устройство выдает сигна.ты - буквы выходного алфавита. С соответствующей точки зрения, к таким устройствам могут быть отнесены бормальные системы, реальные автоматы, живые організмы і т. П.
+
+Существуют различные подходы к определению понятия А. к. При м а к р о по д х о д е, т. е. когда интересуются только внешним поведением устройств, определение А. к. может быть дано в виде совокупности функций, лшбо в виде конечного ориентированного графа, либо в алгеб́раич. форме - в виде конечной алгебры с унарнымі операциями (см. А втоматов способы задания). При м II к р о П о д х о д е А. к. задается множеством элементов и схемой их соединения, т. е. в этом случае кроме функционирования описывается и строение автомата, в связи с чем это понятие обычно наз. с т р ук т у р ным, а сами А. к.- с т р ук т у рными а т то ат ами, или автоматным и с е т я м іI.
+
+Макроподход. А. к.- это система $(A, S, B, \varphi, \psi)$, где $A, S, B$ - конечные, как правило непустые, аліфавиты, наз., соответственно, в х о д ны м а л ф а в и то м, множеством состоянийивыходным алфавн т о м; $\uparrow-ф$ ункц и я п е р е х о д о в, отображающая множество $S \times A$ в $S ; \psi-ф$ у н ц и я в ы х од о в, отобразкающая $S \times A$ в $B$. Такие А. к. иногда называются а в т о а т а м и М и ли. В случае, когда функция выходов $\psi$ отображает $S$ в $B$ (т. е. не зависит от букв входного алфавита), А. к. называют а втом а т о м М у ра. Всякий автомат Мура является автоматом МиліI.
+
+Важнейшей характеристикой А. к. является его поведение (см. Автолата поведение), к-рое может быть определено по-разному. В зависимости от того, какой тIп поведения рассматривается, А. к. подразделяются на преобразователіг, акцепторы (распознаватели), генераторы и др. Чтобы определить основные виды поведения А. к., функциI $\varphi$ и $\psi$ распространяют на множество $S \times A$ * (где $A$ * - множество всех слов в алфавите $A$, включая пустое слово $\wedge)$ :
+
+$\varphi(s, \wedge)=s, \quad \varphi(s, \alpha a)=\varphi(\varphi(s, \alpha), a)$, $\psi(s, \wedge)=\wedge, \quad \psi(s, \alpha a)=\psi(\varphi(s, \alpha), a)$
+
+(здесь $s \in S, \alpha \in A^{*}, a \in A$, а запись $\alpha a$ обозначает слово, получаемое путем приписывания буквы $a$ к слову $\alpha$ ). Таким образом распространенные функции $\varphi(s, \alpha)$, $\psi(s, \alpha)$ для произвольных $s$ и $\alpha$ описывают соответственно состояніг, в к-рое переходит автомат из состояния $s$ под действіем входного слова $\alpha$, и выходную букву, Һ-рая выдается автоматом в момент поступления последней буквы входного слова $\alpha$. Пусть $\alpha$ ] обозначает начало длины $n$ слова $\alpha$ и $\bar{\varphi}(s, \alpha), \bar{\psi}(s, \alpha)-$ слова в алфавитах $S$ и $B$, определяемые следующим образом: $\bar{\varphi}(s, \alpha)=\varphi(s, \alpha]) \varphi(s, \alpha]) \ldots \varphi(s, \alpha)$, $\bar{\psi}(s, \alpha)=\psi(s, \alpha]) \psi(s, \alpha]) \ldots \psi(s, \alpha)$.
+
+Функции $\bar{\psi}(s, \alpha), \bar{\psi}(s, \alpha)$ описывают уже последовательность всех состояниї, в к-рых находился автомат при поступлении в него букв слова $\alpha$, а также выходное слов0, т. е. последовательность букв выходного алфавита, выдаваемых автоматом под воздействием входного слова $\alpha$. Тернарное отношение
+
+\[
+F=\left\{(\alpha, \bar{\varphi}(s, \alpha), \bar{\psi}(s, \alpha)): \alpha \in A^{*}, s \in S\right\}
+\]
+
+наз. ф у н к ц і о н II р о в ан и е м А. к. $\mathfrak{U}=(A, S$, $B, \varphi, \psi)$. Функціп $\bar{\varphi}$ I $\bar{\psi}$ естественно распространяются I на бесконечные последовательности (с в е р х с л о- в а) в алфавите $A$. Поэтому под функционированием А. к. иногда понимают отношение вида $F$, в к-ром $\alpha-$ произвольное сверхслово. В этом случае значение функции $\varphi(s, \alpha)$ определяется как множество всех тех и только тех состояний, к-рые встречаются в последовательности $\bar{\varphi}(s, \alpha)$ бесконечное число раз.
+
+А. к. с выделенным начальным состоянием $s_{1}$ наз. и ни ци а ль ным и обозначается $\mathfrak{A}_{s_{1}}$. П о в е д ени е м ин и ц и а ль но г о А. к. $\mathfrak{A}_{s_{1}}$ наз. обычно одно из следующих трех отношений.
+
+1) Функция $f(\alpha)=\bar{\psi}\left(s_{1}, \alpha\right)$, отображающая $A^{*}$ в $B^{*}$ (или $A^{\infty}$ в $B^{\infty}$, где $A^{\infty}, B^{\infty}$ - множества всех сверхслов в алфавитах $A$ и $B$ соответственно). Эта функция наз. функцией вычислимой, или реализуемой, инициальным А. к. $\mathfrak{A}_{s_{1}}$.
+
+2) Множество $\stackrel{L_{S}}{ } \subseteq A^{*}$, определяемое для выделенного множества $S^{\prime} \subseteq S$ з а л ю ч и т е л ь ны х с о ст о я н и й так:
+
+\[
+L_{S^{\prime}}=\left\{\alpha \in A^{*}: \varphi\left(s_{1}, \alpha\right) \in S^{\prime}\right\}
+\]
+
+Множество $L S^{\prime}$ наз. с о б ы т и е м, п р е д с т а в им ы м А. к. $\mathfrak{A}_{s_{1}}$ с множеством $S^{\prime}$ заключительных состояний.
+
+3) Множество значений функции $f(\alpha)=\bar{\psi}\left(s_{1}, \alpha\right)$ для всевозможных $\alpha$ из $A$ *, называемое множеством, перечислимым данным А.К. $\mathfrak{A}_{s_{1}}$.
+
+4) Множество $M_{\gamma} \sqsubseteq A^{\infty}$, определяемое для системы $\gamma$ подмножеств множества $S$ следующим образом:
+
+\[
+M_{\gamma}=\left\{\alpha \in A^{\infty}: \varphi\left(s_{1}, \alpha\right) \in \gamma\right\} .
+\]
+
+Множество $M_{\gamma}$ наз. сверхсобытием, представимым А. к. $\mathfrak{U}_{s}$ с системой $\gamma$ заключительных подмножеств состояний. А. к. с поведением типа 1) наз. к о н е ч ны м п р е о б р а о в а т е ле м, а с поведением типа 2) коне чным рас познав а те лем, или а кц е П т о р о м.
+
+Если в качестве входного и выходного алфавитов взять декартовы произведения $A_{1} \times \ldots \times A_{m}$ и $B_{1} \times \ldots \times$ $\times B_{n}$, соответственно, то поведением типа 1) будет набор из $n$ функций от $m$ аргументов. В этом случае говорят, что автомат имеет $m$ входов и $n$ выходов, причем алфавиты $A_{1}, \ldots, A_{m}, B_{1}, \ldots, B_{n}$ наз., соответственно, в такого автомата. Класс событий, представимых А. к., и класс функций, вычислимых А. к., могут быть описаны различными математич. средствами. Основной результат состоит в том, что события, представимые А. к., совпадают с так наз. регулярными событиями, а функции, вычислимые А. к., совпадают с ограниченно-детерминированными бункциями. Кроме того, класс множеств, перечислимых А. к., совпадает с классом событий, представимых А. к.
+
+Относительно поведений 2), 3) и 4) автоматы Мура эквивалентны автоматам Мили в том смысле, что для всякого автомата Мили найдется әквивалентный ему, т. е. имеющий то же самое поведение, автомат Мура, и обратно. Для поведения 1) это неверно. Однако, еслі в автоматах Мура вместо $\bar{\psi}$ брать функции вида
+
+\[
+\bar{\psi}(s, \alpha)=\psi(\varphi(s, \alpha])) \psi(\varphi(s, \alpha])) \ldots \psi(\varphi(s, \alpha)),
+\]
+
+то автоматы Мура будут эквивалентны автоматам Мили.
+
+Автомат мура $\mathfrak{A}=(A, S, B, \varphi, \psi)$ наз. а в т о н о мны м а в тома том, или ге не р а торо м, если функция переходов не зависит от букв входного алфавита. Под по в е де ни е м иници а льного а вт о но м но го а в то м а т а $\mathfrak{A}_{s_{1}}$ принято понимать сверхслово
+
+\[
+\psi\left(s_{1}\right) \psi\left(\varphi\left(s_{1}\right)\right) \psi\left(\varphi^{2}\left(s_{1}\right)\right) \ldots,
+\] где $\varphi^{n+1}(s)=\varphi\left(\varphi^{n}(s)\right)$. Эта последовательность является периодической с нек-рым предпериодом.
+
+А. к. $\mathfrak{A}$ наз. п е р е х о д н о й с ис т е м о й, если $B=S$ и для всякого $s$ из $S$ имеет место $\bar{\psi}(s, a)=s$, или же если выходной алфавит $B$ - пустой. Таким образом, переходная система полностью определяется тройкой $(A, S, \varphi)$.
+
+Понятия А. к. и функционирования А. к. могут быть определены различными эквивалентными способами (см. Автоматов способы задания, Автомата поведение). Широкое распространение получили так наз. к а н они ч е с к и е у р а в не ни я. Для произвольного слова $\alpha$ пусть $\alpha(t)$ обозначает $t$-ю букву слова $\alpha$, а $|\alpha|-$ длину слова $\alpha$. Тогда функционирование $F$ А. к. $\mathfrak{A}$ состоит из всех тех и только тех троек слов $(\alpha, \sigma, \beta)$, к-рые удовлетворяют условиям: 1) $|\alpha|=|\beta|=|\sigma|-1$; 2) для всякого $t$ такого, что $1 \leqslant t \leqslant|\alpha|$, имеют место равенства $\sigma(t+1)=\varphi(\sigma(t), \alpha(t)), \beta(t)=\psi(\sigma(t), \alpha(t))$. Для определения поведения инициального А. к. $\mathfrak{A}_{s_{1}}$ необходимо добавить равенство $\sigma(1)=s_{1}$. Совокупность этих равенств однозначно определяет поведение инициального А. к. и наз. обычно к а н о н и ч е с к и м и уравнениями. Канонич. уравнения широко используются в задачах анализа и синтеза автоматов.
+
+Микроподход. Рассматривается множество элементов, состоящее из определенных выше А. к. с входными и
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=249&amp;width=645&amp;top_left_y=972&amp;top_left_x=268)
+
+выходными алфавитами вида $A^{n}$, где $A$ - конечный алфавит, одинаковый для всех элементов. Правила построения структурных А. к. из элементов описывают дозволенные соединения (отождествления) входов и выходов, а также определяют множества входов и выходов, получаемых А. к.
+
+Важнейшим примером таких А. к. являются л о гич е с к и е с е т и (л. с.). Ниже приводится один из вариантов этого понятия. В рассматриваемом случае $A=$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=320&amp;width=340&amp;top_left_y=1492&amp;top_left_x=115)
+
+Рис. 2. $=\{0,1\}$ и элементами являются такназ. ф ун кци ин а льны е эл е ме н т ы (ф. э.), представляющие собой А. к. с одним состоянием, а также специальные автоматы Мура, наз. з а д е р ж к а м и. Последние характеризуются тем, что они имеют два состояния, к-рые обычно обозначаются буквами 0 и 1 входного алфавита, причем функции переходов и выходов удовлетворяіот условиям: $\varphi(a, b)=b, \quad \psi(a)=a$. Поскольку ф. ә. имеет только одно состояние, то он полностью характеризуется функцией выходов $\psi$, являющейся в этом случае булевой фуункцией от $n$ аргументов, где $n$ - число входов ф. э. Элементы являются исходными л. с., входы и выходы к-рых совпадают, соответственно, с входами и выходами элементов. Дальнейшее построение более сложных л. с. производится по следующим правилам.
+
+1. Объединение двух л. с. есть л. с., входами и выходами к-рой являются, соответственно, входы и выходы объединяемых л. с. (рис. 1).
+
+2. Результат отождествления любых двух входов л. с. является л. с., выходы к-рой совпадают с выходами исходной л. с., а входами служат все входы исходной л. с., кроме одного из отождествленных (рис. 2).
+
+3. Результат отождествления выхода одной л. с. с входом другой л. с. есть л. с. Ее входамін являются все входы первой л. с. и те входы второй л. с.. к-рые не отождествлялись с выходом первой л. с.; ее выходамш являются все выходы обеих л. с. (ріс. 3).
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=286&amp;width=558&amp;top_left_y=358&amp;top_left_x=1130)
+
+Рис. 3.
+
+4. Результат отождествления выхода л. с.. являющегося выходом задержки, с произвольным входом этой же л. с. есть л. с., входы к-рой - все входы исходной л. с., кроме отождествленного, а выходы - все выходы исходной л. с. (рис. 4). (При нек-рых ограничениях это правило может быть применимо и к выходам, не являющимся выходами задержек.)
+
+5. В любой л. с. можно объявить выходами только часть выходов, определенных согласно правилам 1-4. Л. с., получаемые из ф. э. с помощью правил 1,2 , 3,5 , наз. обычно схемами из ф. э. Функционирование л. с. содержательно можно описать сле-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=281&amp;width=328&amp;top_left_y=827&amp;top_left_x=1486)
+
+Рис. 4. дующим образом. Пусть в момент $t$ всем входам л. с. приписаны входные буквы и определены состояния задержек. Тогда в этот же момент всем входам и выходам элементов л. с., в частности всем выходам л. с., будут приписаны буквы в соответствиI со следующими правилами. Если входам ф. э. с выходной функцией $\psi\left(x_{1}, \ldots, x_{n}\right)$ пріписаны, соответственно, буквы $a_{i_{1}}, \ldots, a_{i_{n}}$, то его выходу в этот же момент будет приписана буква, являющаяся значением $\psi\left(a_{i_{1}}, \ldots, a_{i_{n}}\right)$. Если задержка находится в момент $t$ в состоянии $a$, то в этот же момент ее выходу приписывается буква $a$. Отождествленным входам и выходам приписываются одинаковые буквы. Далее, в момент $t+1$ состояния задержек определяются входными буквами в момент $t$, как было определено выше, т. е. $\varphi(a, b)=b$. Таким образом, при фиксированных начальных состояниях задержек л. с. определяет нек-рое отображение входных последовательностей в алфоравите $A^{m}$ в
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_656b4c30efb00c3f2bf9g-1.jpg?height=521&amp;width=343&amp;top_left_y=1350&amp;top_left_x=1466)
+
+Рис. 5 . выходные последовательности в алфавите $A^{n}$, где $m$, $m \geqslant 1,-$ число входов, а $n, n \geqslant 1,-$ число выходов л. с. Класс таких отображений совпадает с классом функций, реализуемых А. к. в первом смысле (т. е. с классом ограниченно детерминированных функций), поскольку описанное выше функционирование л. с. совпадает с функционированием А. к. $\left(A^{m}, S, A^{n}\right.$, $\varphi, \psi)$, где $m$ - число входов, $n$ - число выходов л. с., $S$ - декартово произведение множеств состояний всех задержек л. с.; функция переходов $\varphi$ является покоординатным применением функций переходов задержек, а функция выходов $\psi$ определяется в соответствии с вышеописанным функционированием ф. э. и задержек. Пусть, напр., элементами являются задержки (к-рые на рисунке изображаются прямоугольниками) и ф. э. с выходными функціями $\bar{x}, x \vee y$ и $x \&amp; y$ (треугольники с соответствующими символами функций). На рис. 5 IIзображена л. с., к-рая в тактовый момент $t$ выдает выходную букву 1 в том и только в том случае, если среди входных букв в моменты $0,1,2, \ldots, t$ содержится нечетное число букв 1 (задержка в начальный момент имеет состояние 0; буквами $a$ и $b$ обозначены, соответственно, вход и выход л. с.). Если обозначить через $s(t), a(t)$, $b(t)$, соответственно, состояние, входную букву и выходную букву в момент $t$, то функционирование такой л. с. можно задать следующими канонич. уравнениями:
+
+\[
+s(0)=0, \quad s(t+1)=s(t)+a(t)(\bmod 2), \quad b(t)=s(t) .
+\]
+
+При макроподходе этот автомат можно представить в виде $(A, S, A, \varphi, \psi)$, где $A=S=\{0,1\}, \varphi(s, a)=s+a$ $(\bmod 2)$ и \&amp; $(s, a)=s$.
+
+Понятие А. к. явилось отправным пунктом современной автоматов теории, изучающей также различные модификации и обобщения этого понятия.
+
+Лит.: [1] Автоматы. Сб. статей, под ред. К. Э. Шеннона и Дж. Маккарти, пер. с англ., М., 1956; [2] Г л у ш к о в В. М., Синтез цифровых автоматов, М., 1962: [3] К о 6 р и н с к и й Н. Е., Т р ах т е н б р о т Б. А., Введение в теорию конечных автома́тов, М., 1962. В. Б. Кудрявчев, Ю. И. Янов.</text_orig>
+</article>

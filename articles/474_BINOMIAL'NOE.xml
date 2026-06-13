@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/474_BINOMIAL'NOE" alphabetic_pos="474">
+  <title>БИНОМИАЛЬНОЕ РАСПРЕДЕЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>246</start>
+    <end>246</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г н е д е н к о Б. В., Курс теории вероятностей, 5 изд., М., 1969; [2] Ф е л л е р В., Введение в теорию вероятностей и её приложения, пер. с англ., 2 изд., М., 1967; [3] П р ох о р о в Ю. В., Р о з а н о в Ю. А., Теория вероятностей, 2 изд., М., $1973 ;$; 4 П П р о х о р о в Ю.. В., &quot;успехи математических наук&quot;, 1953, т. 8 , № 3 , с. $135-42 ;$; [5] Б о л в ш е в Л. Н., С м и р н о в Н. В., Таблицы математической статистики, 2 изд., М., 1968.</literature_orig>
+    <unit>
+      <author>Гнеденко Б. В.</author>
+      <title>Курс теории вероятностей</title>
+      <publication>5 изд., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Феллер В.</author>
+      <title>Введение в теорию вероятностей и её приложения</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Прохоров Ю. В.</author>
+      <author>Розанов Ю. А.</author>
+      <title>Теория вероятностей</title>
+      <publication>2 изд., М.</publication>
+      <year>1973</year>
+      <other>&quot;успехи математических наук&quot;, 1953, т. 8, № 3, с. $135-42 ;$; [5] Б о л в ш е в Л. Н., С м и р н о в Н. В., Таблицы математической статистики, 2 изд., М., 1968.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/474_1_BINOMIAL'NOE">\mathrm{P}\{X=x\}=b_{x}(n, p)=C_{n}^{x} p^{x}(1-p)^{n-x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_2_BINOMIAL'NOE">X=Y_{1}+\ldots+Y_{n}, n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_3_BINOMIAL'NOE">b_{0}+b_{1} z+\ldots+b_{n} z^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_4_BINOMIAL'NOE">\begin{gathered}\mathrm{E} X=n p, \\\mathbf{D} X=\mathbf{E}(X-n p)^{2}=n p(1-p), \\\mathbf{E}(X-n p)^{3}=n p(1-p)(1-2 p) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_5_BINOMIAL'NOE">F(y)=\mathrm{P}\{X \leqslant y\}=\sum_{x=0}^{[y]} C_{n}^{x} p^{x}(1-p)^{n-x},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_6_BINOMIAL'NOE">F(y) \equiv \frac{1}{\mathrm{~B}([y]+1, n-[y])} \int_{p}^{1} t^{[y]}(1-t)^{n-[y]-1} d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_7_BINOMIAL'NOE">F(y)=\Phi\left[\frac{y-n p+0,5}{\sqrt{n p(1-p)}}\right]+R_{n}(y, p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_8_BINOMIAL'NOE">R_{n}(y, p)=O\left(n^{-1 / 2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_9_BINOMIAL'NOE">b_{x}(n, p)=C_{n}^{x} p^{x}(1-p)^{n-x} \approx \frac{(n p)^{x}}{x !} e^{-n p} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/474_10_BINOMIAL'NOE">F(y)=\sum_{x=0}^{[y]} \frac{\lambda^{x}}{x !} e^{-\lambda}+O\left(n^{-2}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_1_BINOMIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_2_BINOMIAL'NOE">x=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_3_BINOMIAL'NOE">\left(c_{n}^{x}-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_4_BINOMIAL'NOE">p-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_5_BINOMIAL'NOE">\mathbf{6}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_6_BINOMIAL'NOE">0 \leqslant p \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_7_BINOMIAL'NOE">y_{1}, Y_{2}, \ldots-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_8_BINOMIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_9_BINOMIAL'NOE">1-p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_10_BINOMIAL'NOE">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_11_BINOMIAL'NOE">n=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_12_BINOMIAL'NOE">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_13_BINOMIAL'NOE">y_{i}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_14_BINOMIAL'NOE">y_{i}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_15_BINOMIAL'NOE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_16_BINOMIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_17_BINOMIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_18_BINOMIAL'NOE">\mathrm{ez}^{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_19_BINOMIAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_20_BINOMIAL'NOE">[p z+(1-p)]^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_21_BINOMIAL'NOE">0&lt;y&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_22_BINOMIAL'NOE">[y]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_23_BINOMIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_24_BINOMIAL'NOE">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_25_BINOMIAL'NOE">\pi p и ~ n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_26_BINOMIAL'NOE">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_27_BINOMIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_28_BINOMIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_29_BINOMIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_30_BINOMIAL'NOE">b_{x}(n, p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_31_BINOMIAL'NOE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_32_BINOMIAL'NOE">0&lt;c \leqslant y \leqslant C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_33_BINOMIAL'NOE">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_34_BINOMIAL'NOE">c-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_35_BINOMIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_36_BINOMIAL'NOE">0&lt;p&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_37_BINOMIAL'NOE">&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/474_38_BINOMIAL'NOE">\lambda=\frac{(2 n-[y]) p}{2-p}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/474_1_BINOMIAL'NOE">
+      <rel_text>полиномиальное распределение</rel_text>
+      <target>http://libmeta.ru/me/article/403_POLINOMIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/474_2_BINOMIAL'NOE">
+      <rel_text>Многомерным</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>р а с п р ед е л е н и е Б е р н у л ли,- распределение вероятностей случайной величины $URI[[http://libmeta.ru/me/formula/aux/474_1_BINOMIAL'NOE]]/URI$, принимающей целочисленные значения $URI[[http://libmeta.ru/me/formula/aux/474_2_BINOMIAL'NOE]]/URI$ с вероятностями соответственно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_1_BINOMIAL'NOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/474_3_BINOMIAL'NOE]]/URI$ биномиальный коэффициент; $URI[[http://libmeta.ru/me/formula/aux/474_4_BINOMIAL'NOE]]/URI$ параметр $URI[[http://libmeta.ru/me/formula/aux/474_5_BINOMIAL'NOE]]/URI$. р., наз. вероятностью положительного исхода, принимающей значения на отрезке $URI[[http://libmeta.ru/me/formula/aux/474_6_BINOMIAL'NOE]]/URI$ ). Б. р.- одно из основных распределений вероятностей, связанных с последовательностью независимых испытаний. Пусть $URI[[http://libmeta.ru/me/formula/aux/474_7_BINOMIAL'NOE]]/URI$ последовательность независимых случайных величин, каждая из к-рых может принимать лишь два значения 1 или 0 с вероятностями $URI[[http://libmeta.ru/me/formula/aux/474_8_BINOMIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/474_9_BINOMIAL'NOE]]/URI$ соответственно (т. е. каждая из $URI[[http://libmeta.ru/me/formula/aux/474_10_BINOMIAL'NOE]]/URI$ подчиняется Б. р. при $URI[[http://libmeta.ru/me/formula/aux/474_11_BINOMIAL'NOE]]/URI$ ). Величины $URI[[http://libmeta.ru/me/formula/aux/474_12_BINOMIAL'NOE]]/URI$ можно трактовать как результаты независимых испытаний, причем $URI[[http://libmeta.ru/me/formula/aux/474_13_BINOMIAL'NOE]]/URI$ в случав «положительного исхода» и $URI[[http://libmeta.ru/me/formula/aux/474_14_BINOMIAL'NOE]]/URI$ в случае «отрицательного исхода&quot; испытания с номером $URI[[http://libmeta.ru/me/formula/aux/474_15_BINOMIAL'NOE]]/URI$. Если общее количество независимых испытаний $URI[[http://libmeta.ru/me/formula/aux/474_16_BINOMIAL'NOE]]/URI$ фиксированно, то такая схема наз. Бернулли испьтаниями, причем суммарное количество положительных исходов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_2_BINOMIAL'NOE]]/URI
+\]
+
+в этом случае подчиняется Б. р. с параметром $URI[[http://libmeta.ru/me/formula/aux/474_17_BINOMIAL'NOE]]/URI$.
+
+Математич. ожидание $URI[[http://libmeta.ru/me/formula/aux/474_18_BINOMIAL'NOE]]/URI$ (производящая бункция Б.р.) при любом значении $URI[[http://libmeta.ru/me/formula/aux/474_19_BINOMIAL'NOE]]/URI$ есть многочлен $URI[[http://libmeta.ru/me/formula/aux/474_20_BINOMIAL'NOE]]/URI$, представление к-рого по формуле бинома Ньютона имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_3_BINOMIAL'NOE]]/URI
+\]
+
+(отсюда и произошло само назв. «б. р.»). Моменты Б. р. выражаются формулами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_4_BINOMIAL'NOE]]/URI
+\]
+
+Функция Б. р. определяется при любом действительном значении $URI[[http://libmeta.ru/me/formula/aux/474_21_BINOMIAL'NOE]]/URI$ формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_5_BINOMIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/474_22_BINOMIAL'NOE]]/URI$ - целая часть $URI[[http://libmeta.ru/me/formula/aux/474_23_BINOMIAL'NOE]]/URI$, причем
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_6_BINOMIAL'NOE]]/URI
+\]
+
+(в $URI[[http://libmeta.ru/me/formula/aux/474_24_BINOMIAL'NOE]]/URI$ - бета-функция Эйлера, интеграл в правой части наз. не по лно й бе т а-ф ункцие й).
+
+$URI[[http://libmeta.ru/me/formula/aux/474_25_BINOMIAL'NOE]]/URI$ функция Б. р. выражается в терминах функции Ф стандартного нормального распределения асимптотич. формулой (т е о р е м а М у а в р ал a $URI[[http://libmeta.ru/me/formula/aux/474_26_BINOMIAL'NOE]]/URI$ л a c a)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_7_BINOMIAL'NOE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_8_BINOMIAL'NOE]]/URI
+\]
+
+равномерно для всех действительных $URI[[http://libmeta.ru/me/formula/aux/474_27_BINOMIAL'NOE]]/URI$. Существуют и другие нормальные приближения Б. р. с остатками более высокого порядка малости.
+
+Если количество независімых испытаний $URI[[http://libmeta.ru/me/formula/aux/474_28_BINOMIAL'NOE]]/URI$ велико, а вероятность $URI[[http://libmeta.ru/me/formula/aux/474_29_BINOMIAL'NOE]]/URI$ мала, то индивидуальные вероятности $URI[[http://libmeta.ru/me/formula/aux/474_30_BINOMIAL'NOE]]/URI$ приближенно выражаются в терминах Пуассона распределения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_9_BINOMIAL'NOE]]/URI
+\]
+
+При этом, если $URI[[http://libmeta.ru/me/formula/aux/474_31_BINOMIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/474_32_BINOMIAL'NOE]]/URI$ ( $URI[[http://libmeta.ru/me/formula/aux/474_33_BINOMIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/474_34_BINOMIAL'NOE]]/URI$ постоянные), то равномерно относительно всех $URI[[http://libmeta.ru/me/formula/aux/474_35_BINOMIAL'NOE]]/URI$ из интервала $URI[[http://libmeta.ru/me/formula/aux/474_36_BINOMIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/474_37_BINOMIAL'NOE]]/URI$ имеет место асимптотич. формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/474_10_BINOMIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/474_38_BINOMIAL'NOE]]/URI$.
+
+URI[[http://libmeta.ru/me/relation/474_2_BINOMIAL'NOE]]/URI обобщением Б. р. является URI[[http://libmeta.ru/me/relation/474_1_BINOMIAL'NOE]]/URI.</text>
+  <text_orig>р а с п р ед е л е н и е Б е р н у л ли,- распределение вероятностей случайной величины $X$, принимающей целочисленные значения $x=0,1, \ldots, n$ с вероятностями соответственно
+
+\[
+\mathrm{P}\{X=x\}=b_{x}(n, p)=C_{n}^{x} p^{x}(1-p)^{n-x}
+\]
+
+$\left(C_{n}^{x}-\right.$ биномиальный коэффициент; $p-$ параметр $\mathbf{6}$. р., наз. вероятностью положительного исхода, принимающей значения на отрезке $0 \leqslant p \leqslant 1$ ). Б. р.- одно из основных распределений вероятностей, связанных с последовательностью независимых испытаний. Пусть $Y_{1}, Y_{2}, \ldots-$ последовательность независимых случайных величин, каждая из к-рых может принимать лишь два значения 1 или 0 с вероятностями $p$ и $1-p$ соответственно (т. е. каждая из $Y_{i}$ подчиняется Б. р. при $n=1$ ). Величины $Y_{i}$ можно трактовать как результаты независимых испытаний, причем $Y_{i}=1$ в случав «положительного исхода» и $Y_{i}=0$ в случае «отрицательного исхода&quot; испытания с номером $i$. Если общее количество независимых испытаний $n$ фиксированно, то такая схема наз. Бернулли испьтаниями, причем суммарное количество положительных исходов
+
+\[
+X=Y_{1}+\ldots+Y_{n}, n \geqslant 1
+\]
+
+в этом случае подчиняется Б. р. с параметром $p$.
+
+Математич. ожидание $\mathrm{Ez}^{X}$ (производящая бункция Б.р.) при любом значении $z$ есть многочлен $[p z+(1-p)]^{n}$, представление к-рого по формуле бинома Ньютона имеет вид
+
+\[
+b_{0}+b_{1} z+\ldots+b_{n} z^{n}
+\]
+
+(отсюда и произошло само назв. «Б. р.»). Моменты Б. р. выражаются формулами
+
+\[
+\begin{gathered}
+\mathrm{E} X=n p, \\
+\mathbf{D} X=\mathbf{E}(X-n p)^{2}=n p(1-p), \\
+\mathbf{E}(X-n p)^{3}=n p(1-p)(1-2 p) .
+\end{gathered}
+\]
+
+Функция Б. р. определяется при любом действительном значении $0&lt;y&lt;n$ формулой
+
+\[
+F(y)=\mathrm{P}\{X \leqslant y\}=\sum_{x=0}^{[y]} C_{n}^{x} p^{x}(1-p)^{n-x},
+\]
+
+где $[y]$ - целая часть $y$, причем
+
+\[
+F(y) \equiv \frac{1}{\mathrm{~B}([y]+1, n-[y])} \int_{p}^{1} t^{[y]}(1-t)^{n-[y]-1} d t
+\]
+
+(В $(a, b)$ - бета-функция Эйлера, интеграл в правой части наз. не по лно й бе т а-ф ункцие й).
+
+$\Pi p и ~ n \rightarrow \infty$ функция Б. р. выражается в терминах функции Ф стандартного нормального распределения асимптотич. формулой (т е о р е м а М у а в р аЛ a $\Pi$ л a c a)
+
+\[
+F(y)=\Phi\left[\frac{y-n p+0,5}{\sqrt{n p(1-p)}}\right]+R_{n}(y, p)
+\]
+
+где
+
+\[
+R_{n}(y, p)=O\left(n^{-1 / 2}\right)
+\]
+
+равномерно для всех действительных $y$. Существуют и другие нормальные приближения Б. р. с остатками более высокого порядка малости.
+
+Если количество независімых испытаний $n$ велико, а вероятность $p$ мала, то индивидуальные вероятности $b_{x}(n, p)$ приближенно выражаются в терминах Пуассона распределения:
+
+\[
+b_{x}(n, p)=C_{n}^{x} p^{x}(1-p)^{n-x} \approx \frac{(n p)^{x}}{x !} e^{-n p} .
+\]
+
+При этом, если $n \rightarrow \infty$ и $0&lt;c \leqslant y \leqslant C$ ( $c$ и $C-$ постоянные), то равномерно относительно всех $p$ из интервала $0&lt;p&lt;$ $&lt;1$ имеет место асимптотич. формула
+
+\[
+F(y)=\sum_{x=0}^{[y]} \frac{\lambda^{x}}{x !} e^{-\lambda}+O\left(n^{-2}\right),
+\]
+
+где $\lambda=\frac{(2 n-[y]) p}{2-p}$.
+
+Многомерным обобщением Б. р. является полиномиальное распределение.
+
+Лит.: [1] Г н е д е н к о Б. В., Курс теории вероятностей, 5 изд., М., 1969; [2] Ф е л л е р В., Введение в теорию вероятностей и её приложения, пер. с англ., 2 изд., М., 1967; [3] П р ох о р о в Ю. В., Р о з а н о в Ю. А., Теория вероятностей, 2 изд., М., $1973 ;$; 4 П П р о х о р о в Ю.. В., &quot;Успехи математических наук&quot;, 1953, т. 8 , № 3 , с. $135-42 ;$; [5] Б о л в ш е в Л. Н., С м и р н о в Н. В., Таблицы математической статистики, 2 изд., М., 1968.</text_orig>
+</article>

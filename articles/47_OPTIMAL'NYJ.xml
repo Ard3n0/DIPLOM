@@ -1,0 +1,549 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/47_OPTIMAL'NYJ" alphabetic_pos="47">
+  <title>ОПТИМАЛЬНЫЙ РЕЖИМ ОСОБЫЙ</title>
+  <authors/>
+  <pages>
+    <start>28</start>
+    <end>30</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] К с ли л и Г., &quot;ракетная техника и космонавтика&quot;,![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=40&amp;width=811&amp;top_left_y=2292&amp;top_left_x=140)139-45; [3] К о п п Р,, М о й е р Г., там же, 1965, № 8, с. 84$90 ;$ [4] Б е р щ а н с к и й Я. М., &quot;автоматика и телемеханика&quot;, 1979 , № 3, с. 5-11; [5] Ф у л л е р А. Т., в кн.: Тр. 1 Международного конгресса Международной федерации по автоматичесраивающихся систем, М., 1961, с. 584-605; [6] В а п н я рс к и й И. Б., &quot;ж. вычисл. матем. и матем. физ.&quot;, 1967, т. 7 № 2, c. 259-83; [7] K r e n e r A., &quot;siam J. Contr. and Opti-![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=42&amp;width=806&amp;top_left_y=372&amp;top_left_x=990)«ж. вычисл. матем. и матем. физ.», 1979 , т. 19, N 5 , с. $1134-40$;![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=52&amp;width=809&amp;top_left_y=429&amp;top_left_x=992)</literature_orig>
+    <unit>
+      <author>Кслили Г.</author>
+      <title>&quot;ракетная техника и космонавтика&quot;</title>
+      <publication/>
+      <year>2023</year>
+      <other>М о й е р Г., там же, 1965, № 8, с. 84$90 ;$ [4] Б е р щ а н с к и й Я. М., &quot;автоматика и телемеханика&quot;, 1979, № 3, с. 5-11; [5] Ф у л л е р А. Т., в кн.: Тр. 1 Международного конгресса Международной федерации по автоматичесраивающихся систем, М., 1961, с. 584-605; [6] В а п н я рс к и й И. Б., &quot;ж. вычисл. матем. и матем. физ.&quot;, 1967, т. 7 № 2, c. 259-83; [7] K r e n e r A., &quot;siam J. Contr. and Opti-![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=42&amp;width=806&amp;top_left_y=372&amp;top_left_x=990)«ж. вычисл. матем. и матем. физ.», 1979, т. 19, N 5, с. $1134-40$;![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=52&amp;width=809&amp;top_left_y=429&amp;top_left_x=992)</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/47_1_OPTIMAL'NYJ">\begin{aligned}&amp; \frac{\partial H}{\partial u}=0, \\&amp; \frac{\partial^{2} H}{\partial u^{2}}=0,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_2_OPTIMAL'NYJ">\frac{\partial H}{\partial u_{s}}=0, s=1, \ldots, k,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_3_OPTIMAL'NYJ">\left|\frac{\partial^{2} H}{\partial u_{s} \partial u_{p}}\right|=0, p, s=1, \ldots, k .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_4_OPTIMAL'NYJ">J=\int_{0}^{t_{1}}(F(x)+u \Phi(x)) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_5_OPTIMAL'NYJ">\dot{x}^{i}=f^{i}(x)+u \varphi^{i}(x), \quad i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_6_OPTIMAL'NYJ">x(0)=x_{0}, \quad x\left(t_{1}\right)=x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_7_OPTIMAL'NYJ">|u| \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_8_OPTIMAL'NYJ">H(\psi(t), x(t), u(t))=\max _{|u| \leqslant 1} H(\psi(t), x(t), u),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_9_OPTIMAL'NYJ">\begin{gathered}H(\psi, x, u)=-(F(x)+u \Phi(x))+ \\+\sum_{i=1}^{n} \psi_{i}\left(f^{i}(x)+u \varphi^{i}(x)\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_10_OPTIMAL'NYJ">\dot{\psi}_{i}=-\frac{\partial H(\psi, x, u)}{\partial x^{i}}, i=1, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_11_OPTIMAL'NYJ">u(t)=\operatorname{sign} \frac{\partial H}{\partial u}= \pm 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_12_OPTIMAL'NYJ">|u(t)|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_13_OPTIMAL'NYJ">\frac{\partial H(\psi(t), x(t), u(t))}{\partial u}=0, \quad \tau_{0} \leqslant t \leqslant \tau_{1},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_14_OPTIMAL'NYJ">\left.\begin{array}{c}\frac{\partial}{\partial u}\left(\frac{d^{s}}{d t^{s}}\left(\frac{\partial H}{\partial u}\right)\right)=0, s=1, \ldots, 2 q-1, \\\left(\frac{\partial H}{\partial u}\right)=a(\psi, x)+u \cdot b(\psi, x), b(\psi(t), x(t)) \neq 0,\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_15_OPTIMAL'NYJ">(-1)^{q} b(\psi, x)=(-1)^{q}\left(\frac{\partial}{\partial u}\left(\frac{d^{2 q}}{d t^{2 q}}\left(\frac{\partial H}{\partial u}\right)\right) \leqslant 0 .\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_16_OPTIMAL'NYJ">u(t)=-\frac{a(\psi(t), x(t))}{b(\psi(t), x(t))}, \quad \tau_{0} \leqslant t \leqslant \tau_{1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_17_OPTIMAL'NYJ">\frac{d^{s}}{d t^{s}}\left(\frac{\partial H}{\partial u}\right)=0, s=1, \ldots, 2 q-1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_18_OPTIMAL'NYJ">\begin{gathered}J=\int_{0}^{t_{1}}\left(F(x)+\sum_{s=1}^{k} u_{s} \Phi_{s}(x)\right) d t, \\\dot{x}^{i}=f^{i}(x)+\sum_{s=1}^{k} u_{s} \varphi_{s}^{i}(x),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_19_OPTIMAL'NYJ">\begin{gathered}M_{s}(\psi(t), x(t))=\frac{\partial H(\psi(t), x(t), u(t))}{\partial u_{s}}=0, \\\tau_{0} \leqslant t \leqslant \tau_{1}, \quad s=1, \ldots, k,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_20_OPTIMAL'NYJ">\begin{gathered}H(\psi, x)=-\left(F(x)+\sum_{s=1}^{k} u_{s} \Phi_{s}(x)\right)+ \\+\sum_{i=1}^{n} \psi_{i}\left(f^{i}(x)+\sum_{s=1}^{k} u_{s} \varphi_{s}^{i}(x)\right)= \\=Q(\psi, x)+\sum_{s=1}^{k} u_{s} M_{s}(\psi, x),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_21_OPTIMAL'NYJ">\begin{gathered}\frac{d M_{s}(\psi, x)}{d t}=\sum_{p=1}^{k} u_{p}\left[\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{i}} \varphi_{p}^{i}-\frac{\partial M_{p}}{\partial x^{i}} \varphi_{s}^{i}\right)\right]+ \\+\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{i}} f^{i}-\frac{\partial Q}{\partial x^{i}} \varphi_{s}^{i}\right)=0, s=1, \ldots, k\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_22_OPTIMAL'NYJ">a_{s p}=\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{i}} \varphi_{p}^{i}-\frac{\partial M_{p}}{\partial x^{i}} \varphi_{s}^{i}\right), s, p=1, \ldots, k,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_23_OPTIMAL'NYJ">\sum_{s, p=1}^{k} \frac{\partial}{\partial u_{p}}\left(\frac{d^{2}}{d t^{2}}\left(\frac{\partial H}{\partial u_{s}}\right)\right) \delta u_{s} \delta u_{p} \geqslant 0 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_1_OPTIMAL'NYJ">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_2_OPTIMAL'NYJ">k, k&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_3_OPTIMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_4_OPTIMAL'NYJ">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_5_OPTIMAL'NYJ">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_6_OPTIMAL'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_7_OPTIMAL'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_8_OPTIMAL'NYJ">|u|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_9_OPTIMAL'NYJ">|u|=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_10_OPTIMAL'NYJ">t \in\left[0, t_{1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_11_OPTIMAL'NYJ">\psi=\left(\psi_{1}, \ldots, \psi_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_12_OPTIMAL'NYJ">\frac{\partial H}{\partial u} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_13_OPTIMAL'NYJ">\left[\tau_{0}, \tau_{1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_14_OPTIMAL'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_15_OPTIMAL'NYJ">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_16_OPTIMAL'NYJ">\frac{\partial H}{\partial u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_17_OPTIMAL'NYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_18_OPTIMAL'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_19_OPTIMAL'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_20_OPTIMAL'NYJ">b(\psi(t), x(t)) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_21_OPTIMAL'NYJ">\tau_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_22_OPTIMAL'NYJ">\tau_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_23_OPTIMAL'NYJ">2 q-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_24_OPTIMAL'NYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_25_OPTIMAL'NYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_26_OPTIMAL'NYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_27_OPTIMAL'NYJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_28_OPTIMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_29_OPTIMAL'NYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_30_OPTIMAL'NYJ">k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_31_OPTIMAL'NYJ">k \leqslant n-2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_32_OPTIMAL'NYJ">k=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_33_OPTIMAL'NYJ">=n-q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_34_OPTIMAL'NYJ">q \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_35_OPTIMAL'NYJ">(5)-(8)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_36_OPTIMAL'NYJ">q, q \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_37_OPTIMAL'NYJ">\tau_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_38_OPTIMAL'NYJ">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_39_OPTIMAL'NYJ">\left[\tau_{0}-\varepsilon, \tau_{0}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_40_OPTIMAL'NYJ">q=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_41_OPTIMAL'NYJ">k, k&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_42_OPTIMAL'NYJ">\left[\tau_{0}, \tau_{1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_43_OPTIMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_44_OPTIMAL'NYJ">\left|u_{s}\right|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_45_OPTIMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_46_OPTIMAL'NYJ">\psi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_47_OPTIMAL'NYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_48_OPTIMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_49_OPTIMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_50_OPTIMAL'NYJ">u_{1}, \ldots, u_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_51_OPTIMAL'NYJ">a_{s p}=-a_{p s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_52_OPTIMAL'NYJ">a_{s s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_53_OPTIMAL'NYJ">\left(a_{s p}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_54_OPTIMAL'NYJ">a_{s p}, s \neq p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_55_OPTIMAL'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_56_OPTIMAL'NYJ">\frac{k(k-1)}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_57_OPTIMAL'NYJ">\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{l}} \varphi_{p}^{i}-\frac{\partial M_{p}}{\partial x^{i}} \varphi_{s}^{i}\right)=0, s, p=1, \ldots, k, s&lt;p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_58_OPTIMAL'NYJ">q=1</formula>
+  </formulas_aux>
+  <relations n="15">
+    <relation uri="http://libmeta.ru/me/relation/47_1_OPTIMAL'NYJ">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_2_OPTIMAL'NYJ">
+      <rel_text>вариаций</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_3_OPTIMAL'NYJ">
+      <rel_text>условия оітимальности</rel_text>
+      <target>http://libmeta.ru/me/article/45_OІTIMAL'NOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_4_OPTIMAL'NYJ">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_5_OPTIMAL'NYJ">
+      <rel_text>второй вариации</rel_text>
+      <target>http://libmeta.ru/me/article/814_VTORAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_6_OPTIMAL'NYJ">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_7_OPTIMAL'NYJ">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_8_OPTIMAL'NYJ">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_9_OPTIMAL'NYJ">
+      <rel_text>связанные</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_10_OPTIMAL'NYJ">
+      <rel_text>близких</rel_text>
+      <target>http://libmeta.ru/me/article/499_BLIZNETs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_11_OPTIMAL'NYJ">
+      <rel_text>оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_12_OPTIMAL'NYJ">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_13_OPTIMAL'NYJ">
+      <rel_text>неравенства</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_14_OPTIMAL'NYJ">
+      <rel_text>Клебша условия</rel_text>
+      <target>http://libmeta.ru/me/article/896_KLEBIIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_15_OPTIMAL'NYJ">
+      <rel_text>Лежандра условия</rel_text>
+      <target>http://libmeta.ru/me/article/260_LEZhANDRA</target>
+    </relation>
+  </relations>
+  <text>о с о 6 о е о п ти м а льв о е у п р а в л е н и е,- оптимальное управление, для к-рого на нек-ром участке времени одновременно выполняются условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_1_OPTIMAL'NYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/47_1_OPTIMAL'NYJ]]/URI$ - Галильтона функция. В векторном случае, когда О. р. о. пмеет место по $URI[[http://libmeta.ru/me/formula/aux/47_2_OPTIMAL'NYJ]]/URI$, компонентам управления, условие (1) заменяется на $URI[[http://libmeta.ru/me/formula/aux/47_3_OPTIMAL'NYJ]]/URI$ условиї
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_2_OPTIMAL'NYJ]]/URI
+\]
+
+а вместо равенства (2) требуется обращение в нуль определителя
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_3_OPTIMAL'NYJ]]/URI
+\]
+
+На О. р. о. функция Гамильтона $URI[[http://libmeta.ru/me/formula/aux/47_4_OPTIMAL'NYJ]]/URI$ стационарна, но ее второй дифференциал не является отрицательно определенным, т. е. максимум $URI[[http://libmeta.ru/me/formula/aux/47_5_OPTIMAL'NYJ]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/47_6_OPTIMAL'NYJ]]/URI$ (при $URI[[http://libmeta.ru/me/formula/aux/47_7_OPTIMAL'NYJ]]/URI$, изменяющемся внутри допустимой области) оказывается «размытым».
+
+Наиболее типичными задачами, в к-рых может иметь место О. р. о., являются задачи оптимального управления, в к-рых подинтегральная функция и правые части линейно зависят от управления.
+
+Ниже рассматриваются задачи такого рода сначала со скалярным особым управлением. Пусть требуется определить минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_4_OPTIMAL'NYJ]]/URI
+\]
+
+при условиях связи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_5_OPTIMAL'NYJ]]/URI
+\]
+
+граничных условиях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_6_OPTIMAL'NYJ]]/URI
+\]
+
+и ограничениях на управление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_7_OPTIMAL'NYJ]]/URI
+\]
+
+Необходимые условия, к-рым должен удовлетворять O. p. о., позволяют заранее исследовать задачу (5) - (8) и выделить многообразия особых участков, на к-рых оптимальное управление лежит внутри допустимой области: $URI[[http://libmeta.ru/me/formula/aux/47_8_OPTIMAL'NYJ]]/URI$. Пристраивая к ним неособые участки, удовлетворяющие граничным условиям (7), с управлением $URI[[http://libmeta.ru/me/formula/aux/47_9_OPTIMAL'NYJ]]/URI$, определяемым из Понтрягина принципа максимума, можно получить оптимальное решевие задачи (5) - (8).
+
+Согласно принципу максимума оптимальное управление при любом $URI[[http://libmeta.ru/me/formula/aux/47_10_OPTIMAL'NYJ]]/URI$ должно доставлять максимум функции Гамильтона
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_8_OPTIMAL'NYJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_9_OPTIMAL'NYJ]]/URI
+\]
+
+а $URI[[http://libmeta.ru/me/formula/aux/47_11_OPTIMAL'NYJ]]/URI$ - нек-рая не обращающаяся в нуль сопряженная вектор-функция, удовлетворяющая системе уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_10_OPTIMAL'NYJ]]/URI
+\]
+
+Условие (2) выполняется для любого управления, а не только для О. р. о.
+
+На тех участках времени, на к-рых $URI[[http://libmeta.ru/me/formula/aux/47_12_OPTIMAL'NYJ]]/URI$, условие (9) определяет неособое оптимальное управление, принимаюгее граничные значения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_11_OPTIMAL'NYJ]]/URI
+\]
+
+Таким образом, участки $URI[[http://libmeta.ru/me/formula/aux/47_13_OPTIMAL'NYJ]]/URI$ с оптимальным особым управлением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_12_OPTIMAL'NYJ]]/URI
+\]
+
+могут появиться лишь при выполнении условия (1):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_13_OPTIMAL'NYJ]]/URI
+\]
+
+при к-ром функция Гамильтона перестает явно зависеть от управления $URI[[http://libmeta.ru/me/formula/aux/47_14_OPTIMAL'NYJ]]/URI$. Следовательно, для задач, линейных по управлению, условие (9) не позволяет непосредственно определить оптимальное особое управление $URI[[http://libmeta.ru/me/formula/aux/47_15_OPTIMAL'NYJ]]/URI$.
+
+Пусть функция $URI[[http://libmeta.ru/me/formula/aux/47_16_OPTIMAL'NYJ]]/URI$ дифференцируется по $URI[[http://libmeta.ru/me/formula/aux/47_17_OPTIMAL'NYJ]]/URI$ в силу систем (6), (10) до тех пор, пока управление $URI[[http://libmeta.ru/me/formula/aux/47_18_OPTIMAL'NYJ]]/URI$ не войдет с ненулевым коәффициентом в очередную производную. Доказывается (см. [1]-[3]), что управление $URI[[http://libmeta.ru/me/formula/aux/47_19_OPTIMAL'NYJ]]/URI$ монет войти с ненулевым коәффициентом лишь в четную производную, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_14_OPTIMAL'NYJ]]/URI
+\]
+
+и что необходимым условием оптимальности особого управления является выполнение неравенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_15_OPTIMAL'NYJ]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/47_20_OPTIMAL'NYJ]]/URI$ на всем отрезке, то огтимальное особое управление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_16_OPTIMAL'NYJ]]/URI
+\]
+
+Поскольку условия (12) получены в результате последовательного дифференцирования (11), то на участке особого режима, в частности в точках сопряжения $URI[[http://libmeta.ru/me/formula/aux/47_21_OPTIMAL'NYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/47_22_OPTIMAL'NYJ]]/URI$ особого и неособого участков, помимо равенства (11), выполняется $URI[[http://libmeta.ru/me/formula/aux/47_23_OPTIMAL'NYJ]]/URI$ равенств
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_17_OPTIMAL'NYJ]]/URI
+\]
+
+Анализ условий (11), (14) показывает, что для случаев четного и нечетного $URI[[http://libmeta.ru/me/formula/aux/47_24_OPTIMAL'NYJ]]/URI$ характер сопряжения особого Ii неособого участков траектории различен (см. [4]).
+
+При четном $URI[[http://libmeta.ru/me/formula/aux/47_25_OPTIMAL'NYJ]]/URI$ оптимальное управление на неособом участке не может быть кусочно непрерывным. Разрывы управления (точки переключения) сгущаются к точке сопряжения с особым участком, так что оптимальное управление оказывается измеримой по Лебегу функцией со счетным множеством точек разрыва.
+
+При нечетном $URI[[http://libmeta.ru/me/formula/aux/47_26_OPTIMAL'NYJ]]/URI$ только две кусочно гладкие оптимальные траектории могут входить в точку, лежащую на особом участке (или исходить из нее). Пусть размерность многообразия особых участков в $URI[[http://libmeta.ru/me/formula/aux/47_27_OPTIMAL'NYJ]]/URI$-мерном пространстве фазовых координат равна $URI[[http://libmeta.ru/me/formula/aux/47_28_OPTIMAL'NYJ]]/URI$. Тогда в рассматриваемом случае нечетного $URI[[http://libmeta.ru/me/formula/aux/47_29_OPTIMAL'NYJ]]/URI$ оптимальные траектории с кусочно непрерывным управлением заполняют в фазовом пространстве лишь нек-рую поверхность размерности $URI[[http://libmeta.ru/me/formula/aux/47_30_OPTIMAL'NYJ]]/URI$. Поәтому при $URI[[http://libmeta.ru/me/formula/aux/47_31_OPTIMAL'NYJ]]/URI$ почти все оптимальные траектории будут иметь управление с бесконечным числом точек переключения.
+
+Сформулировано предположение (см. [4]), что $URI[[http://libmeta.ru/me/formula/aux/47_32_OPTIMAL'NYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/47_33_OPTIMAL'NYJ]]/URI$. Если это так, то при $URI[[http://libmeta.ru/me/formula/aux/47_34_OPTIMAL'NYJ]]/URI$ сгущение точек переключения перед выходом на особый участок (или сходом с него) является типичным явлением для задач типа $URI[[http://libmeta.ru/me/formula/aux/47_35_OPTIMAL'NYJ]]/URI$.
+
+Пример сопряжения неособого и особого участков оптимального управления с бесконечным числом переключений приведен в [5].
+
+При четном $URI[[http://libmeta.ru/me/formula/aux/47_36_OPTIMAL'NYJ]]/URI$, оптимальное особое управление на неособом участке, примыкающем к особому, не может быть кусочно непрерывным, а имеет бесконечное число точек переключения, сгущающихся к точке входа $URI[[http://libmeta.ru/me/formula/aux/47_37_OPTIMAL'NYJ]]/URI$, т. е. не существует $URI[[http://libmeta.ru/me/formula/aux/47_38_OPTIMAL'NYJ]]/URI$ такого, что в промежутке $URI[[http://libmeta.ru/me/formula/aux/47_39_OPTIMAL'NYJ]]/URI$ оптимальное управление постоянно.
+
+В наиболее часто встречающемся О. р. о. величина $URI[[http://libmeta.ru/me/formula/aux/47_40_OPTIMAL'NYJ]]/URI$. Для этого случая сопряжение неособого и особого участков осуществляется с помощью кусочно непрерывного оптимального управления.
+
+В более общем случае О. р. о., в к-ром рассматривается $URI[[http://libmeta.ru/me/formula/aux/47_41_OPTIMAL'NYJ]]/URI$, управлений:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_18_OPTIMAL'NYJ]]/URI
+\]
+
+(как и в скалярном случае) условие (4), в силу линейности, выполняется для любого управления. На участке $URI[[http://libmeta.ru/me/formula/aux/47_42_OPTIMAL'NYJ]]/URI$ 0. р. о. по $URI[[http://libmeta.ru/me/formula/aux/47_43_OPTIMAL'NYJ]]/URI$ компонентам с $URI[[http://libmeta.ru/me/formula/aux/47_44_OPTIMAL'NYJ]]/URI$ должны выполняться $URI[[http://libmeta.ru/me/formula/aux/47_45_OPTIMAL'NYJ]]/URI$ условий (3):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_19_OPTIMAL'NYJ]]/URI
+\] где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_20_OPTIMAL'NYJ]]/URI
+\]
+
+а $URI[[http://libmeta.ru/me/formula/aux/47_46_OPTIMAL'NYJ]]/URI$ определяются из (10).
+
+Дальнейшие необходимые условия оптимальности для О. р. о. по нескольким компонентам отличаются от рассмотренного выше случая О. р. о. по одной компоненте следующими особенностями. На участке 0. р. о. Должны выполняться необходимые условия двух видов. Одно из них, типа неравенства, является аналогом условия (13). Другие необходимые условия являются условиями типа равенства и не имеют более ранних аналогий (см. [6]).
+
+Диффференцируя (17) полным образом по $URI[[http://libmeta.ru/me/formula/aux/47_47_OPTIMAL'NYJ]]/URI$, получают систему $URI[[http://libmeta.ru/me/formula/aux/47_48_OPTIMAL'NYJ]]/URI$ линейных уравнений относительно $URI[[http://libmeta.ru/me/formula/aux/47_49_OPTIMAL'NYJ]]/URI$ неизвестных $URI[[http://libmeta.ru/me/formula/aux/47_50_OPTIMAL'NYJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_21_OPTIMAL'NYJ]]/URI
+\]
+
+Матрица коэффициентов системы (18)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_22_OPTIMAL'NYJ]]/URI
+\]
+
+является кососимметричной: $URI[[http://libmeta.ru/me/formula/aux/47_51_OPTIMAL'NYJ]]/URI$. Отсюда, в частности, следует, что әлементы $URI[[http://libmeta.ru/me/formula/aux/47_52_OPTIMAL'NYJ]]/URI$, стоящие на главной диагонали матрицы $URI[[http://libmeta.ru/me/formula/aux/47_53_OPTIMAL'NYJ]]/URI$, равны нулю. Остальные элементы $URI[[http://libmeta.ru/me/formula/aux/47_54_OPTIMAL'NYJ]]/URI$, в системе (18) в общем случае на произвольной траектории, соответствующей нек-рому неоптимальному управлению, отличны от нуля. На O. p. о. по $URI[[http://libmeta.ru/me/formula/aux/47_55_OPTIMAL'NYJ]]/URI$ компонентам должны выполняться необходимые условия, требующие обращения в нуль всех $URI[[http://libmeta.ru/me/formula/aux/47_56_OPTIMAL'NYJ]]/URI$ коэффициентов системы (18) (см. [6]):
+
+$URI[[http://libmeta.ru/me/formula/aux/47_57_OPTIMAL'NYJ]]/URI$.
+
+Кроме әтих условий полжно выполняться условие типа неравенства (являющееся аналогом условия (13) для О. р. о. по одной компоненте при $URI[[http://libmeta.ru/me/formula/aux/47_58_OPTIMAL'NYJ]]/URI$ ):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_23_OPTIMAL'NYJ]]/URI
+\]
+
+Условия (13), (20) можно рассматривать как обобщение URI[[http://libmeta.ru/me/relation/47_15_OPTIMAL'NYJ]]/URI и URI[[http://libmeta.ru/me/relation/47_14_OPTIMAL'NYJ]]/URI на случай O. p. о., поэтому указанные URI[[http://libmeta.ru/me/relation/47_13_OPTIMAL'NYJ]]/URI наз. иногда обобщенным условием Лежанд рак л е б ша
+
+Ваљкость выявления и исследования О. р. о. в URI[[http://libmeta.ru/me/relation/47_12_OPTIMAL'NYJ]]/URI URI[[http://libmeta.ru/me/relation/47_11_OPTIMAL'NYJ]]/URI объясняется следующим свойством О. p. о. (см. [4]): если оптимальная траектория, исходящая из нек-рой точки, содержит участок O. p. о., то әтим же свойством обладают все оптимальные траектории, исходящие из URI[[http://libmeta.ru/me/relation/47_10_OPTIMAL'NYJ]]/URI точек.
+
+Исследованы нек-рые вопросы, URI[[http://libmeta.ru/me/relation/47_9_OPTIMAL'NYJ]]/URI с определением URI[[http://libmeta.ru/me/relation/47_8_OPTIMAL'NYJ]]/URI О. p. о. для линейных и нелинейных по управлению задач (см. [8]).
+
+Все приведенные выше URI[[http://libmeta.ru/me/relation/47_7_OPTIMAL'NYJ]]/URI по О. р. о. URI[[http://libmeta.ru/me/relation/47_6_OPTIMAL'NYJ]]/URI из рассмотрения URI[[http://libmeta.ru/me/relation/47_5_OPTIMAL'NYJ]]/URI ф্фукционала. Оказывается, что можно URI[[http://libmeta.ru/me/relation/47_4_OPTIMAL'NYJ]]/URI дополнительные необходимые URI[[http://libmeta.ru/me/relation/47_3_OPTIMAL'NYJ]]/URI особого режима из рассмотрсния третьей и четвертой URI[[http://libmeta.ru/me/relation/47_2_OPTIMAL'NYJ]]/URI URI[[http://libmeta.ru/me/relation/47_1_OPTIMAL'NYJ]]/URI (см. [9]).</text>
+  <text_orig>о с о 6 о е о п ти м а льв о е у п р а в л е н и е,- оптимальное управление, для к-рого на нек-ром участке времени одновременно выполняются условия
+
+\[
+\begin{aligned}
+&amp; \frac{\partial H}{\partial u}=0, \\
+&amp; \frac{\partial^{2} H}{\partial u^{2}}=0,
+\end{aligned}
+\]
+
+где $H$ - Галильтона функция. В векторном случае, когда О. р. о. пмеет место по $k, k&gt;1$, компонентам управления, условие (1) заменяется на $k$ условиї
+
+\[
+\frac{\partial H}{\partial u_{s}}=0, s=1, \ldots, k,
+\]
+
+а вместо равенства (2) требуется обращение в нуль определителя
+
+\[
+\left|\frac{\partial^{2} H}{\partial u_{s} \partial u_{p}}\right|=0, p, s=1, \ldots, k .
+\]
+
+На О. р. о. функция Гамильтона $H$ стационарна, но ее второй дифференциал не является отрицательно определенным, т. е. максимум $H$ по $u$ (при $u$, изменяющемся внутри допустимой области) оказывается «размытым».
+
+Наиболее типичными задачами, в к-рых может иметь место О. р. о., являются задачи оптимального управления, в к-рых подинтегральная функция и правые части линейно зависят от управления.
+
+Ниже рассматриваются задачи такого рода сначала со скалярным особым управлением. Пусть требуется определить минимум функционала
+
+\[
+J=\int_{0}^{t_{1}}(F(x)+u \Phi(x)) d t
+\]
+
+при условиях связи
+
+\[
+\dot{x}^{i}=f^{i}(x)+u \varphi^{i}(x), \quad i=1, \ldots, n,
+\]
+
+граничных условиях
+
+\[
+x(0)=x_{0}, \quad x\left(t_{1}\right)=x_{1}
+\]
+
+и ограничениях на управление
+
+\[
+|u| \leqslant 1
+\]
+
+Необходимые условия, к-рым должен удовлетворять O. p. о., позволяют заранее исследовать задачу (5) - (8) и выделить многообразия особых участков, на к-рых оптимальное управление лежит внутри допустимой области: $|u|&lt;1$. Пристраивая к ним неособые участки, удовлетворяющие граничным условиям (7), с управлением $|u|=1$, определяемым из Понтрягина принципа максимума, можно получить оптимальное решевие задачи (5) - (8).
+
+Согласно принципу максимума оптимальное управление при любом $t \in\left[0, t_{1}\right]$ должно доставлять максимум функции Гамильтона
+
+\[
+H(\psi(t), x(t), u(t))=\max _{|u| \leqslant 1} H(\psi(t), x(t), u),
+\]
+
+где
+
+\[
+\begin{gathered}
+H(\psi, x, u)=-(F(x)+u \Phi(x))+ \\
++\sum_{i=1}^{n} \psi_{i}\left(f^{i}(x)+u \varphi^{i}(x)\right),
+\end{gathered}
+\]
+
+а $\psi=\left(\psi_{1}, \ldots, \psi_{n}\right)$ - нек-рая не обращающаяся в нуль сопряженная вектор-функция, удовлетворяющая системе уравнений
+
+\[
+\dot{\psi}_{i}=-\frac{\partial H(\psi, x, u)}{\partial x^{i}}, i=1, \ldots, n .
+\]
+
+Условие (2) выполняется для любого управления, а не только для О. р. о.
+
+На тех участках времени, на к-рых $\frac{\partial H}{\partial u} \neq 0$, условие (9) определяет неособое оптимальное управление, принимаюгее граничные значения
+
+\[
+u(t)=\operatorname{sign} \frac{\partial H}{\partial u}= \pm 1
+\]
+
+Таким образом, участки $\left[\tau_{0}, \tau_{1}\right]$ с оптимальным особым управлением
+
+\[
+|u(t)|&lt;1
+\]
+
+могут появиться лишь при выполнении условия (1):
+
+\[
+\frac{\partial H(\psi(t), x(t), u(t))}{\partial u}=0, \quad \tau_{0} \leqslant t \leqslant \tau_{1},
+\]
+
+при к-ром функция Гамильтона перестает явно зависеть от управления $u$. Следовательно, для задач, линейных по управлению, условие (9) не позволяет непосредственно определить оптимальное особое управление $u(t)$.
+
+Пусть функция $\frac{\partial H}{\partial u}$ дифференцируется по $t$ в силу систем (6), (10) до тех пор, пока управление $u$ не войдет с ненулевым коәффициентом в очередную производную. Доказывается (см. [1]-[3]), что управление $u$ монет войти с ненулевым коәффициентом лишь в четную производную, т. е.
+
+\[
+\left.\begin{array}{c}
+\frac{\partial}{\partial u}\left(\frac{d^{s}}{d t^{s}}\left(\frac{\partial H}{\partial u}\right)\right)=0, s=1, \ldots, 2 q-1, \\
+\left(\frac{\partial H}{\partial u}\right)=a(\psi, x)+u \cdot b(\psi, x), b(\psi(t), x(t)) \neq 0,
+\end{array}\right\}
+\]
+
+и что необходимым условием оптимальности особого управления является выполнение неравенства
+
+\[
+(-1)^{q} b(\psi, x)=(-1)^{q}\left(\frac{\partial}{\partial u}\left(\frac{d^{2 q}}{d t^{2 q}}\left(\frac{\partial H}{\partial u}\right)\right) \leqslant 0 .\right.
+\]
+
+Если $b(\psi(t), x(t)) \neq 0$ на всем отрезке, то огтимальное особое управление
+
+\[
+u(t)=-\frac{a(\psi(t), x(t))}{b(\psi(t), x(t))}, \quad \tau_{0} \leqslant t \leqslant \tau_{1} .
+\]
+
+Поскольку условия (12) получены в результате последовательного дифференцирования (11), то на участке особого режима, в частности в точках сопряжения $\tau_{0}$ и $\tau_{1}$ особого и неособого участков, помимо равенства (11), выполняется $2 q-1$ равенств
+
+\[
+\frac{d^{s}}{d t^{s}}\left(\frac{\partial H}{\partial u}\right)=0, s=1, \ldots, 2 q-1 .
+\]
+
+Анализ условий (11), (14) показывает, что для случаев четного и нечетного $q$ характер сопряжения особого II неособого участков траектории различен (см. [4]).
+
+При четном $q$ оптимальное управление на неособом участке не может быть кусочно непрерывным. Разрывы управления (точки переключения) сгущаются к точке сопряжения с особым участком, так что оптимальное управление оказывается измеримой по Лебегу функцией со счетным множеством точек разрыва.
+
+При нечетном $q$ только две кусочно гладкие оптимальные траектории могут входить в точку, лежащую на особом участке (или исходить из нее). Пусть размерность многообразия особых участков в $n$-мерном пространстве фазовых координат равна $k$. Тогда в рассматриваемом случае нечетного $q$ оптимальные траектории с кусочно непрерывным управлением заполняют в фазовом пространстве лишь нек-рую поверхность размерности $k+1$. Поәтому при $k \leqslant n-2$ почти все оптимальные траектории будут иметь управление с бесконечным числом точек переключения.
+
+Сформулировано предположение (см. [4]), что $k=$ $=n-q$. Если это так, то при $q \geqslant 2$ сгущение точек переключения перед выходом на особый участок (или сходом с него) является типичным явлением для задач типа $(5)-(8)$.
+
+Пример сопряжения неособого и особого участков оптимального управления с бесконечным числом переключений приведен в [5].
+
+При четном $q, q \geqslant 2$, оптимальное особое управление на неособом участке, примыкающем к особому, не может быть кусочно непрерывным, а имеет бесконечное число точек переключения, сгущающихся к точке входа $\tau_{0}$, т. е. не существует $\varepsilon&gt;0$ такого, что в промежутке $\left[\tau_{0}-\varepsilon, \tau_{0}\right]$ оптимальное управление постоянно.
+
+В наиболее часто встречающемся О. р. о. величина $q=1$. Для этого случая сопряжение неособого и особого участков осуществляется с помощью кусочно непрерывного оптимального управления.
+
+В более общем случае О. р. о., в к-ром рассматривается $k, k&gt;1$, управлений:
+
+\[
+\begin{gathered}
+J=\int_{0}^{t_{1}}\left(F(x)+\sum_{s=1}^{k} u_{s} \Phi_{s}(x)\right) d t, \\
+\dot{x}^{i}=f^{i}(x)+\sum_{s=1}^{k} u_{s} \varphi_{s}^{i}(x),
+\end{gathered}
+\]
+
+(как и в скалярном случае) условие (4), в силу линейности, выполняется для любого управления. На участке $\left[\tau_{0}, \tau_{1}\right]$ 0. р. о. по $k$ компонентам с $\left|u_{s}\right|&lt;1$ должны выполняться $k$ условий (3):
+
+\[
+\begin{gathered}
+M_{s}(\psi(t), x(t))=\frac{\partial H(\psi(t), x(t), u(t))}{\partial u_{s}}=0, \\
+\tau_{0} \leqslant t \leqslant \tau_{1}, \quad s=1, \ldots, k,
+\end{gathered}
+\] где
+
+\[
+\begin{gathered}
+H(\psi, x)=-\left(F(x)+\sum_{s=1}^{k} u_{s} \Phi_{s}(x)\right)+ \\
++\sum_{i=1}^{n} \psi_{i}\left(f^{i}(x)+\sum_{s=1}^{k} u_{s} \varphi_{s}^{i}(x)\right)= \\
+=Q(\psi, x)+\sum_{s=1}^{k} u_{s} M_{s}(\psi, x),
+\end{gathered}
+\]
+
+а $\psi_{i}$ определяются из (10).
+
+Дальнейшие необходимые условия оптимальности для О. р. о. по нескольким компонентам отличаются от рассмотренного выше случая О. р. о. по одной компоненте следующими особенностями. На участке 0. р. о. Должны выполняться необходимые условия двух видов. Одно из них, типа неравенства, является аналогом условия (13). Другие необходимые условия являются условиями типа равенства и не имеют более ранних аналогий (см. [6]).
+
+Диффференцируя (17) полным образом по $t$, получают систему $k$ линейных уравнений относительно $k$ неизвестных $u_{1}, \ldots, u_{k}$ :
+
+\[
+\begin{gathered}
+\frac{d M_{s}(\psi, x)}{d t}=\sum_{p=1}^{k} u_{p}\left[\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{i}} \varphi_{p}^{i}-\frac{\partial M_{p}}{\partial x^{i}} \varphi_{s}^{i}\right)\right]+ \\
++\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{i}} f^{i}-\frac{\partial Q}{\partial x^{i}} \varphi_{s}^{i}\right)=0, s=1, \ldots, k
+\end{gathered}
+\]
+
+Матрица коэффициентов системы (18)
+
+\[
+a_{s p}=\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{i}} \varphi_{p}^{i}-\frac{\partial M_{p}}{\partial x^{i}} \varphi_{s}^{i}\right), s, p=1, \ldots, k,
+\]
+
+является кососимметричной: $a_{s p}=-a_{p s}$. Отсюда, в частности, следует, что әлементы $a_{s s}$, стоящие на главной диагонали матрицы $\left(a_{s p}\right)$, равны нулю. Остальные элементы $a_{s p}, s \neq p$, в системе (18) в общем случае на произвольной траектории, соответствующей нек-рому неоптимальному управлению, отличны от нуля. На O. p. о. по $k$ компонентам должны выполняться необходимые условия, требующие обращения в нуль всех $\frac{k(k-1)}{2}$ коэффициентов системы (18) (см. [6]):
+
+$\sum_{i=1}^{n}\left(\frac{\partial M_{s}}{\partial x^{l}} \varphi_{p}^{i}-\frac{\partial M_{p}}{\partial x^{i}} \varphi_{s}^{i}\right)=0, s, p=1, \ldots, k, s&lt;p$.
+
+Кроме әтих условий полжно выполняться условие типа неравенства (являющееся аналогом условия (13) для О. р. о. по одной компоненте при $q=1$ ):
+
+\[
+\sum_{s, p=1}^{k} \frac{\partial}{\partial u_{p}}\left(\frac{d^{2}}{d t^{2}}\left(\frac{\partial H}{\partial u_{s}}\right)\right) \delta u_{s} \delta u_{p} \geqslant 0 .
+\]
+
+Условия (13), (20) можно рассматривать как обобщение Лежандра условия и Клебша условия на случай O. p. о., поэтому указанные неравенства наз. иногда обобщенным условием Лежанд раК л е б ша
+
+Ваљкость выявления и исследования О. р. о. в задачах оптимального управления объясняется следующим свойством О. p. о. (см. [4]): если оптимальная траектория, исходящая из нек-рой точки, содержит участок O. p. о., то әтим же свойством обладают все оптимальные траектории, исходящие из близких точек.
+
+Исследованы нек-рые вопросы, связанные с определением порядка О. p. о. для линейных и нелинейных по управлению задач (см. [8]).
+
+Все приведенные выше результаты по О. р. о. получены из рассмотрения второй вариации ф্фукционала. Оказывается, что можно получить дополнительные необходимые условия оітимальности особого режима из рассмотрсния третьей и четвертой вариаций функционала (см. [9]).
+
+Лит.: [1] К с ли л и Г., &quot;Ракетная техника и космонавтика&quot;,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=40&amp;width=811&amp;top_left_y=2292&amp;top_left_x=140)
+
+139-45; [3] К о п п Р,, М о й е р Г., там же, 1965, № 8, с. 84$90 ;$ [4] Б е р щ а н с к и й Я. М., &quot;Автоматика и телемеханика&quot;, 1979 , № 3, с. 5-11; [5] Ф у л л е р А. Т., в кн.: Тр. 1 Международного конгресса Международной федерации по автоматичесраивающихся систем, М., 1961, с. 584-605; [6] В а п н я рс к и й И. Б., &quot;Ж. вычисл. матем. и матем. физ.&quot;, 1967, т. 7 № 2, c. 259-83; [7] K r e n e r A., &quot;SIAM J. Contr. and Opti-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=42&amp;width=806&amp;top_left_y=372&amp;top_left_x=990)
+«Ж. вычисл. матем. и матем. физ.», 1979 , т. 19, N 5 , с. $1134-40$;
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_46ab1fea120072cf5754g-1.jpg?height=52&amp;width=809&amp;top_left_y=429&amp;top_left_x=992)</text_orig>
+</article>

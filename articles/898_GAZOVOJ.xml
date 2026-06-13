@@ -1,0 +1,583 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/898_GAZOVOJ" alphabetic_pos="898">
+  <title>ГАЗОВОЙ ДИНАМТ</title>
+  <authors/>
+  <pages>
+    <start>419</start>
+    <end>421</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Р и х т м а й е р Р. Д., М о р тон К., Разностные методы решения краевых задач, М., пер. с англ., 1972; [2] $\gamma$ одунов С. К., Р я бен нкй В В. С., Разностные схемы, М., 1973; [3] Р ож дественский Б. Ј., Яненко Н. Н., Системы квазилинейных уравнений .., M., 1968; [4] C а м а pс К Й А. А., Введение в теорию разностных схем, М., 1971; [6] X a p л о у $\phi$. Хх., в сб.: Вычислительные методы в гидродинамике, М., 1967, 316-42; [7] Д о р о д н и й ны А. А., В кн.: Труды 3 всесоюзного матем. съезда, т. 3, М., 1958, 447-53; решения задач механики сплошной' среды, М., 1969, $101-213$; решения задач механики сплошной среды, М., $1969,101-213 ;$$[9]$ н е н к о Н. Н., А н уч и н а Н. Н., П е т е н ко В. Е., [1] Я н е н к о Н. Н., А н у ч и н а Н. Н., П е т р е н к о В. к.,Ii о и н Ю. И., в сб.: Численные методы механики сплошной среды, Новосибирск, 1970 , т. 1, 40-62; [10] Я н е н к о Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосибирск, 1967; [11] С а м а р с к и й А. А., [12] $\gamma$ о д ун о в С. К., 3 а б р о д и н А. В., П р о к о по в![](https://cdn.mathpix.com/cropped/2023_07_08_42438eb38651fc5a1d2cg-1.jpg?height=44&amp;width=829&amp;top_left_y=2032&amp;top_left_x=992)</literature_orig>
+    <unit>
+      <author>Рихтмайер Р. Д.</author>
+      <author>Мортон К.</author>
+      <title>Разностные методы решения краевых задач</title>
+      <publication>М., пер. с англ.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$\gamma$одунов С. К.</author>
+      <author>Рябеннкй В В. С.</author>
+      <title>Разностные схемы</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Р ож дественский Б. Ј., Яненко Н. Н., Системы квазилинейных уравнений ..</title>
+      <publication>M.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Cамаpс КЙ А. А.</author>
+      <title>Введение в теорию разностных схем</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other>в сб.: Вычислительные методы в гидродинамике, М., 1967, 316-42; [7] Д о р о д н и й ны А. А., В кн.: Труды 3 всесоюзного матем. съезда, т. 3, М., 1958, 447-53; решения задач механики сплошной' среды, М., 1969, $101-213$; решения задач механики сплошной среды, М., $1969, 101-213 ;$$[9]$ н е н к о Н. Н., А н уч и н а Н. Н., П е т е н ко В. Е., [1] Я н е н к о Н. Н., А н у ч и н а Н. Н., П е т р е н к о В. к., Ii о и н Ю. И., в сб.: Численные методы механики сплошной среды, Новосибирск, 1970, т. 1, 40-62; [10] Я н е н к о Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосибирск, 1967; [11] С а м а р с к и й А. А., [12] $\gamma$ о д ун о в С. К., 3 а б р о д и н А. В., П р о к о по в![](https://cdn.mathpix.com/cropped/2023_07_08_42438eb38651fc5a1d2cg-1.jpg?height=44&amp;width=829&amp;top_left_y=2032&amp;top_left_x=992)</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/898_1_GAZOVOJ">\frac{\partial w^{i}}{\partial t}+\frac{\partial \sum^{i \alpha}}{\partial x^{\alpha}}=F^{i} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_2_GAZOVOJ">\begin{aligned}&amp; \boldsymbol{w}=\left(\begin{array}{l}w^{0} \\w^{1} \\w^{2} \\w^{3} \\w^{\mathbf{4}}\end{array}\right)=\left(\begin{array}{l}\rho \\\rho u^{1} \\\rho u^{2} \\\rho u^{\mathbf{3}} \\\rho E\end{array}\right), \quad \boldsymbol{F}=\left(\begin{array}{l}0 \\F^{1} \\F^{2} \\F^{3} \\F^{\alpha} u^{\alpha}\end{array}\right) \\&amp; \sum^{i \alpha}=\sum^{1} i \alpha+\sum^{2}+\sum^{3} i \alpha \\&amp; \sum^{1} i \alpha=\left(\begin{array}{lll}\rho u^{1} &amp; \rho u^{2} &amp; \rho u^{3} \\\rho u^{1} u^{1} &amp; \rho u^{1} u^{2} &amp; \rho u^{1} u^{3} \\\rho u^{2} u^{1} &amp; \rho u^{2} u^{2} &amp; \rho u^{2} u^{3} \\\rho u^{3} u^{1} &amp; \rho u^{3} u^{2} &amp; \rho u^{3} u^{3} \\\rho E u^{1} &amp; \rho E u^{2} &amp; \rho E u^{3}\end{array}\right) \\&amp; \sum^{2} i \alpha=\left(\begin{array}{ccc}0 &amp; 0 &amp; 0 \\p &amp; 0 &amp; 0 \\0 &amp; p &amp; 0 \\0 &amp; 0 &amp; p \\p u^{\mathbf{1}} &amp; p u^{2} &amp; p u^{3}\end{array}\right) \\&amp; =\left(\begin{array}{ccc}\sum^{3} i \alpha= &amp; 0 \\0 &amp; 0 &amp; -\sigma^{13} \\-\sigma^{11} &amp; -\sigma^{12} &amp; -\sigma^{23} \\-\sigma^{21} &amp; -\sigma^{22} &amp; -\sigma^{33} \\-\sigma^{31} &amp; -x \frac{\partial T}{\partial x^{2}}-\sigma_{\alpha}^{2} u^{\alpha} &amp; -\varkappa \frac{\partial T}{\partial x^{3}}-\sigma_{\alpha}^{3} u^{\alpha}\end{array}\right) \\&amp; \sigma^{\beta k}=\frac{1}{2} \lambda d \underset{\gamma}{\psi} \delta^{\beta k}+\mu d^{\beta k} \\&amp; d^{\beta k}=d_{k}^{\beta}=\frac{1}{2}\left(\frac{\partial u^{\beta}}{\partial x^{k}}+\frac{\partial u^{k}}{\partial x^{\beta}}\right), \\&amp; i=0,1, \ldots, m+1 ; \alpha, \beta, \gamma, k=1,2, \ldots, m,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_3_GAZOVOJ">\frac{w_{j}^{n+1}-w_{i}^{n}}{\tau}+\frac{\sum_{j+1 / 2}^{*}-\sum_{j-1 / 2}^{*}}{h}=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_4_GAZOVOJ">\sum_{j+1 / 2}^{*}=\frac{1}{2}\left(f_{j+1}^{n}+f_{j}^{n}\right)-\frac{h}{2 \tau}\left(w_{j+1}^{n}-w_{j}^{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_5_GAZOVOJ">\frac{w_{j}^{n+1}-w_{j}^{n}}{\tau}+\frac{f_{j+1}^{n}-f_{j-1}^{n}}{2 h}=\frac{h^{2}}{2 \tau} \frac{w_{j+1}^{n}-2 \boldsymbol{w}_{j}^{n}+w_{j-1}^{n}}{h^{2}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_6_GAZOVOJ">\boldsymbol{w}=\left(\begin{array}{c}u \\v \\E\end{array}\right), \quad \boldsymbol{f}=\left(\begin{array}{c}p \\-u \\u p\end{array}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_7_GAZOVOJ">\sum_{j+1 / 2}^{*}=\frac{1}{2}\left(f_{j+1}^{n}+f_{j}^{n}\right)-\frac{\tau}{2 h} A_{j+1 / 2}^{2}\left(w_{j+1}^{n}-w_{j}^{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_8_GAZOVOJ">A_{j+1 / 2}^{2}=A^{2}\left[\frac{1}{2}\left(w_{j+1}^{n}+w_{j}^{n}\right)\right], \quad A=\frac{d f}{d w},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_9_GAZOVOJ">\begin{gathered}\frac{\boldsymbol{w}_{j}^{n+1}-w_{j}^{n}}{\tau}+\frac{f_{j+1}^{n}-f_{j-1}^{n}}{2 h}= \\=\frac{\tau}{2 h^{2}}\left[A_{j+1 / 2}^{2}\left(w_{j+1}^{n}-w_{j}^{n}\right)-A_{j-1 / 2}^{2}\left(w_{j}^{n}-w_{j-1}^{n}\right)\right] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_10_GAZOVOJ">\begin{gathered}\frac{u_{j}^{n+1}-u_{j}^{n}}{\tau}+\alpha \frac{p_{j+1 / 2}^{n+1}-p_{j-1 / 2}^{n+1}}{h}+(1-\alpha) \frac{p_{j+1 / 2}^{n}-p_{j-1 / 2}^{n}}{h}=0, \\\frac{v_{j+1 / 2}^{n+1}-v_{j+1 / 2}^{n}}{\tau}+\alpha \frac{u_{j+1}^{n+1}-u_{j}^{n+1}}{h}+(1-\alpha) \frac{u_{j+1}^{n}-u_{j}^{n}}{h}=0, \\\left.\frac{\varepsilon_{j+1 / 2}^{n+1}-\varepsilon_{j+1 / 2}^{n}}{\tau}+\mid \alpha p_{j+1 / 2}^{n+1}+(1-\alpha) p_{j+1 / 2}^{n}\right] \times \\\quad \times\left[\alpha \frac{u_{j+1}^{n+1}-u_{j}^{n+1}}{h}+(1-\alpha) \frac{u_{j+1}^{n}-u_{j}^{n}}{h}\right]=0\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_11_GAZOVOJ">\begin{gathered}\frac{u_{j}^{n+1 / 2}-u_{j}^{n-1 / 2}}{\tau}+\frac{p_{j+1 / 2}^{n}-p_{j-1 / 2}^{n}}{h}=0, \\\frac{v_{j+1 / 2}^{n+1}-v_{j+1 / 2}^{n}}{\tau}-\frac{u_{j+1}^{n+1 / 2}-u_{j}^{n+1 / 2}}{h}=0, \\\frac{\varepsilon_{j+1 / 2}^{n+1}-\varepsilon_{j+1 / 2}^{n}}{\tau}+\frac{p_{j+1 / 2}^{n+1}+\bar{p}_{j+1 / 2}^{n}}{2} \frac{v_{j+1 / 2}^{n+1}-v_{j+1 / 2}^{n}}{\tau}=0\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/898_12_GAZOVOJ">\begin{gathered}\boldsymbol{p}_{j+1 / 2}^{n}=p_{j+1 / 2}^{n}+\omega_{j+1 / 2}^{n}, \varepsilon_{j+1 / 2}^{n}=\varepsilon\left(p_{j+1 / 2}^{n}, v_{j+1 / 2}^{n}\right), \\\omega_{j+1 / 2}^{n}=-\mu_{0} h^{2} \frac{1}{v_{j+1 / 2}^{n}} \frac{\left|u_{j+1}^{n-1 / 2}-u_{j}^{n-1 / 2}\right|}{h} \frac{u_{j+1}^{n-1 / 2}-u_{j}^{n-1 / 2}}{h}, \\\mu_{0}=\text { const. }\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_1_GAZOVOJ">m=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_2_GAZOVOJ">m=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_3_GAZOVOJ">m=3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_4_GAZOVOJ">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_5_GAZOVOJ">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_6_GAZOVOJ">\boldsymbol{u}=\left\{u^{1}, u^{2}, u^{3}\right\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_7_GAZOVOJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_8_GAZOVOJ">e=\varepsilon+\frac{1}{2} \boldsymbol{u}^{2}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_9_GAZOVOJ">\varepsilon-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_10_GAZOVOJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_11_GAZOVOJ">\mu-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_12_GAZOVOJ">x-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_13_GAZOVOJ">\delta^{\beta k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_14_GAZOVOJ">(\lambda=\mu=x=0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_15_GAZOVOJ">(\lambda \neq 0, \quad \mu \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_16_GAZOVOJ">x=0, \omega=0, \omega-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_17_GAZOVOJ">\omega=1 / c^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_18_GAZOVOJ">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_19_GAZOVOJ">(\lambda \neq 0, \mu \neq 0, x \neq 0, \omega \neq 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_20_GAZOVOJ">\left(\sum^{3} i \alpha \neq 0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_21_GAZOVOJ">\left\{x^{1}, x^{2}, x^{3}, t\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_22_GAZOVOJ">\kappa</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_23_GAZOVOJ">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_24_GAZOVOJ">\boldsymbol{w}_{j}^{n}=\boldsymbol{w}\left(x_{j}, t_{n}\right)=\boldsymbol{w}(j h, n \tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_25_GAZOVOJ">\sum_{j+1 / 2}^{*}, \sum_{j-1 / 2}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_26_GAZOVOJ">w_{j}^{n}, w_{j}^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_27_GAZOVOJ">\sum_{j+1 / 2}^{*}, \sum_{j-1 / 2}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_28_GAZOVOJ">w_{j}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_29_GAZOVOJ">\sum_{j+1 / 2}^{*}, \sum_{j-1 / 2}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_30_GAZOVOJ">w_{j}^{n}, w_{j}^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_31_GAZOVOJ">\left(\sum^{i \alpha}=0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_32_GAZOVOJ">\left(\sum^{3}{ }^{2} \neq 0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_33_GAZOVOJ">0(h)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_34_GAZOVOJ">o(\tau \mathcal{\gamma})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_35_GAZOVOJ">\gamma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_36_GAZOVOJ">\boldsymbol{f}_{j}^{n}=\boldsymbol{f}\left(\boldsymbol{w}_{j}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_37_GAZOVOJ">\tau / h=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_38_GAZOVOJ">\tau / h^{2}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_39_GAZOVOJ">\left.\frac{\partial w}{\partial t}+\frac{\partial f}{\partial x}=\frac{h^{2}}{2 \tau} \frac{\partial^{2} w}{\partial x^{2}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_40_GAZOVOJ">c \tau / h \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_41_GAZOVOJ">c-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_42_GAZOVOJ">\frac{c \tau}{h} \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_43_GAZOVOJ">\alpha=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_44_GAZOVOJ">\alpha \neq 0,0 \leqslant \alpha \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_45_GAZOVOJ">\alpha=1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_46_GAZOVOJ">\alpha \neq</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_47_GAZOVOJ">\neq 1 / 2-1-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_48_GAZOVOJ">\alpha=1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_49_GAZOVOJ">u_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_50_GAZOVOJ">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/898_51_GAZOVOJ">\boldsymbol{u}_{\infty}=\boldsymbol{u}_{l}</formula>
+  </formulas_aux>
+  <relations n="33">
+    <relation uri="http://libmeta.ru/me/relation/898_1_GAZOVOJ">
+      <rel_text>Разностная схема</rel_text>
+      <target>http://libmeta.ru/me/article/901_RAZNOSTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_2_GAZOVOJ">
+      <rel_text>Гиперболического</rel_text>
+      <target>http://libmeta.ru/me/article/1070_GIPERPOVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_3_GAZOVOJ">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_4_GAZOVOJ">
+      <rel_text>моделей</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_5_GAZOVOJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_6_GAZOVOJ">
+      <rel_text>модели</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_7_GAZOVOJ">
+      <rel_text>численные</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_8_GAZOVOJ">
+      <rel_text>сложные</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_9_GAZOVOJ">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_10_GAZOVOJ">
+      <rel_text>вариациях</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_11_GAZOVOJ">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_12_GAZOVOJ">
+      <rel_text>собственные значения</rel_text>
+      <target>http://libmeta.ru/me/article/41_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_13_GAZOVOJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_14_GAZOVOJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_15_GAZOVOJ">
+      <rel_text>газовой динамики</rel_text>
+      <target>http://libmeta.ru/me/article/897_GAZOVOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_16_GAZOVOJ">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_17_GAZOVOJ">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_18_GAZOVOJ">
+      <rel_text>интегрирование</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_19_GAZOVOJ">
+      <rel_text>пограничного</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_20_GAZOVOJ">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_21_GAZOVOJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_22_GAZOVOJ">
+      <rel_text>пограничный</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_23_GAZOVOJ">
+      <rel_text>градиенты</rel_text>
+      <target>http://libmeta.ru/me/article/1147_GRADIEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_24_GAZOVOJ">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_25_GAZOVOJ">
+      <rel_text>границе</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_26_GAZOVOJ">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_27_GAZOVOJ">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_28_GAZOVOJ">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_29_GAZOVOJ">
+      <rel_text>разбивая</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_30_GAZOVOJ">
+      <rel_text>трактовки</rel_text>
+      <target>http://libmeta.ru/me/article/455_TRAKTRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_31_GAZOVOJ">
+      <rel_text>единой</rel_text>
+      <target>http://libmeta.ru/me/article/389_EDINITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_32_GAZOVOJ">
+      <rel_text>измельчение</rel_text>
+      <target>http://libmeta.ru/me/article/502_IZMEL'ChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/898_33_GAZOVOJ">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+  </relations>
+  <text>Задач газовой динамики на основе вычислительных алгоритмов. Рассмотрим основные аспекты теории численных методов решения задач газовой динамики, записав газовой динамики уравнения в виде законов сохранения в инерциальной ортонормированной системе координат:
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_1_GAZOVOJ]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_2_GAZOVOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/898_1_GAZOVOJ]]/URI$ - одномерный случай, $URI[[http://libmeta.ru/me/formula/aux/898_2_GAZOVOJ]]/URI$ - двумерный случай, $URI[[http://libmeta.ru/me/formula/aux/898_3_GAZOVOJ]]/URI$ - трехмерный случай, $URI[[http://libmeta.ru/me/formula/aux/898_4_GAZOVOJ]]/URI$ - плотность газа, $URI[[http://libmeta.ru/me/formula/aux/898_5_GAZOVOJ]]/URI$ - давление газа, $URI[[http://libmeta.ru/me/formula/aux/898_6_GAZOVOJ]]/URI$ скорость газа, $URI[[http://libmeta.ru/me/formula/aux/898_7_GAZOVOJ]]/URI$ - температура газа, $URI[[http://libmeta.ru/me/formula/aux/898_8_GAZOVOJ]]/URI$ полная энергия массы газа, $URI[[http://libmeta.ru/me/formula/aux/898_9_GAZOVOJ]]/URI$ удельная внутренняя энергия, $URI[[http://libmeta.ru/me/formula/aux/898_10_GAZOVOJ]]/URI$ коэффициент вязкости сжатия, $URI[[http://libmeta.ru/me/formula/aux/898_11_GAZOVOJ]]/URI$ коәффициент вязкости сдвига, $URI[[http://libmeta.ru/me/formula/aux/898_12_GAZOVOJ]]/URI$ коәффициент теплопроводности, $URI[[http://libmeta.ru/me/formula/aux/898_13_GAZOVOJ]]/URI$ - символ Кронекера.
+
+Следует различать два основных класса задач газовой динамики: задача Коши для ограниченной или бесконечной области (нестационарные задачи газовой динамики);
+
+стационарные краевые задачи газовой динамики для конечной пли бесконечной области.
+
+В свою очередь эти задачи могут подразделяться на ряд классов в зависимости от физич. свойств течения газа. По этому принципу можно различать:
+
+течения идеального газа $URI[[http://libmeta.ru/me/formula/aux/898_14_GAZOVOJ]]/URI$;
+
+течения вязкого несжимаемого газа $URI[[http://libmeta.ru/me/formula/aux/898_15_GAZOVOJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/898_16_GAZOVOJ]]/URI$ коэффициент сжимаемости, $URI[[http://libmeta.ru/me/formula/aux/898_17_GAZOVOJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/898_18_GAZOVOJ]]/URI$ - скорость звука), описываемые уравнениями Навье Стокса;
+
+течения вязкого сжимаемого теплопроводящего газа $URI[[http://libmeta.ru/me/formula/aux/898_19_GAZOVOJ]]/URI$.
+
+Численные методы решения задач газовой динамики развивались исторически почти независимо по указанным классам задач. Ныне создано большое количество разностных схем различного порядка аппроксимации. Наметились общие принципы построения численных методов, приемлемые для всех задач газовой динамики в целом, хотя и не доказанные математически строго. Эти принципы заключаются в следующем.
+
+1) Представления обобщенного решения уравнений идеального газа как предела соответствующих решений с физическими $URI[[http://libmeta.ru/me/formula/aux/898_20_GAZOVOJ]]/URI$ или искусственными диссипативными членами при стремлении последних к нулю. Искусственные диссипативные члены могут вводиться непосредственно в уравнения газовой динамики или же неявно определяться самой структурой разностной схемы (аппроксимационная вязкость).
+
+2) Расщепления (декомпозиции) интегральных законов сохранения и самих дифференциальных уравнений геометрически, аналитически и по физич. процессам (метод слабой аппроксимации, см. Дробных шагов метод).
+
+3) Представления стационарного решения как предела решений нестационарных задач (метод установления). При этом в качестве вспомогательных нестационарных задач используются уравнения как гиперболического, так и параболического типов.
+
+4) Аппроксимация уравнений не типа Коши - Ковалевской уравнениями типа Коши - Ковалевской при стремлении соответствующего малого параметра к нулю (уравнения Навье - Стокса, уравнения фильтрации).
+
+5) Построение подвижных разностных сеток как регулярного, так и нерегулярного типов.
+
+6) Разделение в разностной схеме задач аппроксимации во внутренних регулярных и граничных точках.
+
+7) Представление сложной системы линейных или нелинейных алгебраич. уравнений в виде рекуррентных соотношений (метод приближенной или точной факторизации).
+
+8) Метод продолжения краевой задачи за границу и включения ее в краевую задачу с простой областью (метод фиктивных областей).
+
+Совокупность этих представлений п методов позволяет в конечном итоге свести алгоритм решения сложных задач газовой динамики к алгоритмам решений простых задач стандартной структуры (модульный анализ алгоритмов). Такой подход пока строго не обоснован, однако практически он себя оправдал и находит все большее распространение.
+
+Численные методы задач газовой динамики можно разделить на два больших класса: методы с явным выделением особенностей (ударные волны, контактные границы, центрированные волны разрежения) и так наз. методы сквозного счета, в к-рых особенности явно не выделяются.
+
+Методы 1-го класса основаны на представлении обобщенного решения уравнений газовой динамики как совокупности классич. решений, определенных в некоторых областях, покрывающих фазовое пространство $URI[[http://libmeta.ru/me/formula/aux/898_21_GAZOVOJ]]/URI$ и примыкающих друг к другу через общие границы (линии разрывов) с соблюдением условий примыкания (условия динамич. совместности). В каждой области можно применять разностную схему, пригоднуюо для классич. решений, а условия примыкания должны разрешаться с помощью системы, вообще говоря, нелинейных алгебраич. уравнений. Одним из наиболее распространенных методов дискретного представления классич. решений является метод характеристик. Этот метод используется только для решения задач газовой динамики, описываемых гиперболич. уравнениями, и основан он на свойстве гиперболич. системы уравнений иметь, напр., в случае двух неизвестных функций и двух независимых переменных семейство характеристик, к-рые образуют характеристич. сетку, строящуюся в процессе счета. Метод характеристик появился в газовой динамике сравнительно давно и с успехом применялся для расчета одномерных нестационарных течений с небольшим количеством особенностей, а также расчета двумерных стационарных течений в области гиперболичности уравнений. В расчетах используются также и модификации метода характеристик, в к-рых расчет ведется по слоям, ограниченным фиксированными линиями. В случае двух независимых переменных (одномерные нестационарные задачи или двумерные стационарные задачи, сверхзвуковое обтекание) метод характеристик дает возможность избежать интерполяций и тем самым әффектов сглаживания и аппроксимационной вязкости. Он позволяет точно определять место возникновения ударных волн внутри поля течения как результат пересечения характеристик одного семейства. При болышом количестве неизвестных и независимых переменных начинают появляться недостатки этого метода: возникает аппроксимационная вязкость, при наличии большого числа особенностей алгоритм становится логически сложным. Существенным недостатком метода характеристик является также ограничение на шаг сетки, связанное с критерием устойчивости Куранта, и нестрогое выполнение законов сохранения. Поэтому методом характеристик целесообразно рассчитывать задачи, в к-рых число разрывов невелико. Для метода характеристик доказана сходимость его решения $URI[[http://libmeta.ru/me/formula/aux/898_22_GAZOVOJ]]/URI$ решению исходной дифференциальной задачи в случае достаточно гладких течений. С развитием Эвм, способных решать сложные логические задачи, метод характеристик будет использоваться более әффективно.
+
+Наряду с методом характеристик для указанных задач газовой динамики широко используется метод интегральных соотношений, применимый $URI[[http://libmeta.ru/me/formula/aux/898_23_GAZOVOJ]]/URI$ уравнениям различных типов. Метод интегральных соотношений строится на основе законов сохранения и сводится в конечном итоге к решению обыкновенных дифференциальных уравнений.
+
+Основой для построения разностных схем задач газовой динамики является аппроксимация законов сохранения на заданной подвижной или неподвижной сетке, к-рая приводит к сложной системе нелинейных соотношений явного (явные разностные схемы) или неявного (неявные разностные схемы) типа (см. URI[[http://libmeta.ru/me/relation/898_2_GAZOVOJ]]/URI типа уравнение; численные методы решения).
+
+Так, для уравнений одномерной газовой динамики в лагранжевых координатах можно построить общую разностную схему в виде:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_3_GAZOVOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/898_24_GAZOVOJ]]/URI$. Для замыкания соотношений (*) следует связать величины $URI[[http://libmeta.ru/me/formula/aux/898_25_GAZOVOJ]]/URI$ с величинами $URI[[http://libmeta.ru/me/formula/aux/898_26_GAZOVOJ]]/URI$. Это делается различными способами, к-рые приводят или к явным разностным схемам, если $URI[[http://libmeta.ru/me/formula/aux/898_27_GAZOVOJ]]/URI$ выражены через $URI[[http://libmeta.ru/me/formula/aux/898_28_GAZOVOJ]]/URI$, или к неявным разностным схемам, если $URI[[http://libmeta.ru/me/formula/aux/898_29_GAZOVOJ]]/URI$ выражены через $URI[[http://libmeta.ru/me/formula/aux/898_30_GAZOVOJ]]/URI$, и нелинейным соотношениям, если применяется один целый шаг, и линейным, еслі применяется два или несколько дробных шагов (метод предикатор-корректор).
+
+Решение получающейся при этом спстемы уравнений может быть сильно упрощено, если применить методы расщепления либо аналитические (метод предикатор-корректор), либо по физич. процессам, либо геометрические. Последние применяются при сведении многомерных задач к задачам меньшей размерности (метод дробных шагов или метод расщепления). Метод расщепления позволяет получить әкономичные абсолютно аппроксимирующие схемы, в к-рых число операций на вычисление искомых функций в одной точке не возрастает с числом точек (см. URI[[http://libmeta.ru/me/relation/898_1_GAZOVOJ]]/URI). Одной из модификаций метода расщепления является метод «частиц в ячейках&quot;, в к-ром расщепление не связано с понижением размерности операторов.
+
+Указанная общая методика приводіт к разностным схемам сквозного счета, как в случае идеального газа $URI[[http://libmeta.ru/me/formula/aux/898_31_GAZOVOJ]]/URI$, так и в случае диссипативного процесса $URI[[http://libmeta.ru/me/formula/aux/898_32_GAZOVOJ]]/URI$. Разностные схемы сквозного счета, вводя аппроксимационную вязкость, сглаживают особенности в переходных областях ширины $URI[[http://libmeta.ru/me/formula/aux/898_33_GAZOVOJ]]/URI$ и преобразуют ударные волны в ударные переходы, контактные разрывы в контактные полосы. Аппроксимационная вязкость разностных схем объединяет в себе диссипативные свойства уравнений газовой динамики і диссипативные свойства самой разностной схемы. Структура аппроксимационной вязкости определяется дифференциальным приближением схем, к-рое отличается от исходной системы уравнений членами порядка $URI[[http://libmeta.ru/me/formula/aux/898_34_GAZOVOJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/898_35_GAZOVOJ]]/URI$ порядок аппроксимации схемы. Во многих случаях представляется важным насколько разностная схема и ее дифференциальное приближение сохраняют групповые свойства исходной системы дифференциальных уравнений. Сохранение разностной схемой групповых свойств имеет большое значение в практич. счете, особенно в задачах газовой динамики, где, напр., неинвариантность первого дифференциального приближения относительно преобразования Галилея приводит к неприятным счетным эффектам (неустойчивость, немонотонность профилей и т. Д.).
+
+Известные разностные схемы сквозного счета имеют на гладких решениях локальную точность, как правило, не выше 3-го порядка и глобальную точность не выше 1-го порядка (учитывая невысокую точность разностной схемы вблизи особенностей). Разностные схемы для уравнений газовой динамики должны удовлетворять, кроме независимых требований аппроксимации и устойчивости, еще ряду практически необходимых требований - дивергентности, экономичности, полной консервативности и т. д. Для многомерных задач строить экономичные разностные схемы позволяет идея расщепления. Дивергентность или консервативность разностной схемы означает выполнение в разностных уравнениях разностных аналогов основных законов сохранения (массы, импульса, полной энергии). Свойство полной консервативности требует выполнения разностных аналогов законов сохранения не только массы, импульса и полной энергии, но и различных видов энергии (кинетической, потенциальной, магнитной).
+
+Рассмотрим несколько конкретных разностных схем вида (*). Полагая в формуле (*)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_4_GAZOVOJ]]/URI
+\] получим явную разностную схему 1-го порядка аппроксимации:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_5_GAZOVOJ]]/URI
+\]
+
+Здесь
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_6_GAZOVOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/898_36_GAZOVOJ]]/URI$. Указанная схема является условно аппроксимирующей при $URI[[http://libmeta.ru/me/formula/aux/898_37_GAZOVOJ]]/URI$ const (при $URI[[http://libmeta.ru/me/formula/aux/898_38_GAZOVOJ]]/URI$ const схема аппроксимирует систему уравнений $URI[[http://libmeta.ru/me/formula/aux/898_39_GAZOVOJ]]/URI$, дивергентной и условно устойчивой. Условие устойчивости имеет вид: $URI[[http://libmeta.ru/me/formula/aux/898_40_GAZOVOJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/898_41_GAZOVOJ]]/URI$ скорость звука.
+
+Полагая в формуле (*)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_7_GAZOVOJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_8_GAZOVOJ]]/URI
+\]
+
+получим абсолютно аппроксимирующую явную разностную схему 2-го порядка аппроксимации:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_9_GAZOVOJ]]/URI
+\]
+
+Это схема - дивергентная и устойчивая при условии $URI[[http://libmeta.ru/me/formula/aux/898_42_GAZOVOJ]]/URI$
+
+Разностная схема
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_10_GAZOVOJ]]/URI
+\]
+
+является явной при $URI[[http://libmeta.ru/me/formula/aux/898_43_GAZOVOJ]]/URI$, неявной при $URI[[http://libmeta.ru/me/formula/aux/898_44_GAZOVOJ]]/URI$; при $URI[[http://libmeta.ru/me/formula/aux/898_45_GAZOVOJ]]/URI$ имеет 2 -й порядок аппроксимации, при $URI[[http://libmeta.ru/me/formula/aux/898_46_GAZOVOJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/898_47_GAZOVOJ]]/URI$ й порядок аппроксимации; при $URI[[http://libmeta.ru/me/formula/aux/898_48_GAZOVOJ]]/URI$ схема полностью консервативная.
+
+Разностная схема
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_11_GAZOVOJ]]/URI
+\]
+
+имеет 2-й порядок аппроксимации, неявная, абсолютно аппроксимирующая и недивергентная. Здесь
+
+\[
+URI[[http://libmeta.ru/me/formula/main/898_12_GAZOVOJ]]/URI
+\]
+
+Успех разностных схем сквозного счета связан с тем обстоятельством, что, хотя аппроксимационная вяз- кость схемы определяет структуру разностного ударного перехода, отличную от физического ударного перехода, консервативная аппроксимация сохраняет скорость ударной волны и воспроизводит условия динамич. совместности.
+
+Однако эти хорошие качества разностных схем сквозного счета теряют свое значение в случаях, когда важно точно передать структуру ударного перехода (задачи радиационной газовой динамики), структуру контактной полосы или пограничного слоя. В случае контактного разрыва хорошая аппроксимация в рамках разностной схемы сквозного счета становится невозможной не только из-за сильного расширения контактной полосы, но и в результате развития неустойчивости Гельмгольца и Тейлора. В этом случае с успехом применяется схема метода частиц в ячейке, к-рая позволяет передать сильные искажения траницы вследствие неустойчивости.
+
+В URI[[http://libmeta.ru/me/relation/898_33_GAZOVOJ]]/URI обтекания вязким газом при достаточно больших числах Рейнольдса эффект аппроксимационной вязкости превосходит әффект физич. вязкости, если разностная сетка недостаточно детальна. Для уменьшения эффекта аппроксимационной вязкости необходимо сильное URI[[http://libmeta.ru/me/relation/898_32_GAZOVOJ]]/URI сетки вблизи обтекаемого тела. Практически в этом случае отходят от URI[[http://libmeta.ru/me/relation/898_31_GAZOVOJ]]/URI URI[[http://libmeta.ru/me/relation/898_30_GAZOVOJ]]/URI течения, URI[[http://libmeta.ru/me/relation/898_29_GAZOVOJ]]/URI URI[[http://libmeta.ru/me/relation/898_28_GAZOVOJ]]/URI URI[[http://libmeta.ru/me/relation/898_27_GAZOVOJ]]/URI на две: URI[[http://libmeta.ru/me/relation/898_26_GAZOVOJ]]/URI обтекания тела идеальным газом, в к-рой, в частности, определяется скорость $URI[[http://libmeta.ru/me/formula/aux/898_49_GAZOVOJ]]/URI$ потока на URI[[http://libmeta.ru/me/relation/898_25_GAZOVOJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/898_50_GAZOVOJ]]/URI$ тела; URI[[http://libmeta.ru/me/relation/898_24_GAZOVOJ]]/URI расчета вязкого течения вблизи тела, где URI[[http://libmeta.ru/me/relation/898_23_GAZOVOJ]]/URI величин вс зики (так наз. URI[[http://libmeta.ru/me/relation/898_22_GAZOVOJ]]/URI слой), с краевыми услов.іями на бесконечности, где задаются значения скорости $URI[[http://libmeta.ru/me/formula/aux/898_51_GAZOVOJ]]/URI$. Постановка URI[[http://libmeta.ru/me/relation/898_21_GAZOVOJ]]/URI в рамках URI[[http://libmeta.ru/me/relation/898_20_GAZOVOJ]]/URI URI[[http://libmeta.ru/me/relation/898_19_GAZOVOJ]]/URI слоя является менее строгой, чем URI[[http://libmeta.ru/me/relation/898_18_GAZOVOJ]]/URI URI[[http://libmeta.ru/me/relation/898_17_GAZOVOJ]]/URI Навье Стокса; однако она является наиболее употребительной в инженерных расчетах при больших числах Рейнольдса.
+
+Особо важный URI[[http://libmeta.ru/me/relation/898_16_GAZOVOJ]]/URI задач URI[[http://libmeta.ru/me/relation/898_15_GAZOVOJ]]/URI составляют URI[[http://libmeta.ru/me/relation/898_14_GAZOVOJ]]/URI гидродинамич. неустойчивости и турбулентности. В этом случае необходимо решать URI[[http://libmeta.ru/me/relation/898_13_GAZOVOJ]]/URI на URI[[http://libmeta.ru/me/relation/898_12_GAZOVOJ]]/URI для URI[[http://libmeta.ru/me/relation/898_11_GAZOVOJ]]/URI гидродинамики вязкой жидкости в URI[[http://libmeta.ru/me/relation/898_10_GAZOVOJ]]/URI (URI[[http://libmeta.ru/me/relation/898_9_GAZOVOJ]]/URI Орра Зоммерфельда) и строить URI[[http://libmeta.ru/me/relation/898_8_GAZOVOJ]]/URI URI[[http://libmeta.ru/me/relation/898_7_GAZOVOJ]]/URI URI[[http://libmeta.ru/me/relation/898_6_GAZOVOJ]]/URI для описания нелинейной неустойчивости и турбулентности. Эти URI[[http://libmeta.ru/me/relation/898_5_GAZOVOJ]]/URI принадлежат к классу наиболее трудных задач вычислительной математики и требуют разработки новых URI[[http://libmeta.ru/me/relation/898_4_GAZOVOJ]]/URI и мощных URI[[http://libmeta.ru/me/relation/898_3_GAZOVOJ]]/URI.</text>
+  <text_orig>Задач газовой динамики на основе вычислительных алгоритмов. Рассмотрим основные аспекты теории численных методов решения задач газовой динамики, записав газовой динамики уравнения в виде законов сохранения в инерциальной ортонормированной системе координат:
+
+Здесь
+
+\[
+\frac{\partial w^{i}}{\partial t}+\frac{\partial \sum^{i \alpha}}{\partial x^{\alpha}}=F^{i} .
+\]
+
+\[
+\begin{aligned}
+&amp; \boldsymbol{w}=\left(\begin{array}{l}
+w^{0} \\
+w^{1} \\
+w^{2} \\
+w^{3} \\
+w^{\mathbf{4}}
+\end{array}\right)=\left(\begin{array}{l}
+\rho \\
+\rho u^{1} \\
+\rho u^{2} \\
+\rho u^{\mathbf{3}} \\
+\rho E
+\end{array}\right), \quad \boldsymbol{F}=\left(\begin{array}{l}
+0 \\
+F^{1} \\
+F^{2} \\
+F^{3} \\
+F^{\alpha} u^{\alpha}
+\end{array}\right) \\
+&amp; \sum^{i \alpha}=\sum^{1} i \alpha+\sum^{2}+\sum^{3} i \alpha \\
+&amp; \sum^{1} i \alpha=\left(\begin{array}{lll}
+\rho u^{1} &amp; \rho u^{2} &amp; \rho u^{3} \\
+\rho u^{1} u^{1} &amp; \rho u^{1} u^{2} &amp; \rho u^{1} u^{3} \\
+\rho u^{2} u^{1} &amp; \rho u^{2} u^{2} &amp; \rho u^{2} u^{3} \\
+\rho u^{3} u^{1} &amp; \rho u^{3} u^{2} &amp; \rho u^{3} u^{3} \\
+\rho E u^{1} &amp; \rho E u^{2} &amp; \rho E u^{3}
+\end{array}\right) \\
+&amp; \sum^{2} i \alpha=\left(\begin{array}{ccc}
+0 &amp; 0 &amp; 0 \\
+p &amp; 0 &amp; 0 \\
+0 &amp; p &amp; 0 \\
+0 &amp; 0 &amp; p \\
+p u^{\mathbf{1}} &amp; p u^{2} &amp; p u^{3}
+\end{array}\right) \\
+&amp; =\left(\begin{array}{ccc}
+\sum^{3} i \alpha= &amp; 0 \\
+0 &amp; 0 &amp; -\sigma^{13} \\
+-\sigma^{11} &amp; -\sigma^{12} &amp; -\sigma^{23} \\
+-\sigma^{21} &amp; -\sigma^{22} &amp; -\sigma^{33} \\
+-\sigma^{31} &amp; -x \frac{\partial T}{\partial x^{2}}-\sigma_{\alpha}^{2} u^{\alpha} &amp; -\varkappa \frac{\partial T}{\partial x^{3}}-\sigma_{\alpha}^{3} u^{\alpha}
+\end{array}\right) \\
+&amp; \sigma^{\beta k}=\frac{1}{2} \lambda d \underset{\gamma}{\psi} \delta^{\beta k}+\mu d^{\beta k} \\
+&amp; d^{\beta k}=d_{k}^{\beta}=\frac{1}{2}\left(\frac{\partial u^{\beta}}{\partial x^{k}}+\frac{\partial u^{k}}{\partial x^{\beta}}\right), \\
+&amp; i=0,1, \ldots, m+1 ; \alpha, \beta, \gamma, k=1,2, \ldots, m,
+\end{aligned}
+\]
+
+$m=1$ - одномерный случай, $m=2$ - двумерный случай, $m=3$ - трехмерный случай, $\rho$ - плотность газа, $p$ - давление газа, $\boldsymbol{u}=\left\{u^{1}, u^{2}, u^{3}\right\}-$ скорость газа, $T$ - температура газа, $E=\varepsilon+\frac{1}{2} \boldsymbol{u}^{2}-$ полная энергия массы газа, $\varepsilon-$ удельная внутренняя энергия, $\lambda$ коэффициент вязкости сжатия, $\mu-$ коәффициент вязкости сдвига, $x-$ коәффициент теплопроводности, $\delta^{\beta k}$ - символ Кронекера.
+
+Следует различать два основных класса задач газовой динамики: задача Коши для ограниченной или бесконечной области (нестационарные задачи газовой динамики);
+
+стационарные краевые задачи газовой динамики для конечной пли бесконечной области.
+
+В свою очередь эти задачи могут подразделяться на ряд классов в зависимости от физич. свойств течения газа. По этому принципу можно различать:
+
+течения идеального газа $(\lambda=\mu=x=0)$;
+
+течения вязкого несжимаемого газа $(\lambda \neq 0, \quad \mu \neq 0$, $x=0, \omega=0, \omega-$ коэффициент сжимаемости, $\omega=1 / c^{2}$, $c$ - скорость звука), описываемые уравнениями Навье Стокса;
+
+течения вязкого сжимаемого теплопроводящего газа $(\lambda \neq 0, \mu \neq 0, x \neq 0, \omega \neq 0)$.
+
+Численные методы решения задач газовой динамики развивались исторически почти независимо по указанным классам задач. Ныне создано большое количество разностных схем различного порядка аппроксимации. Наметились общие принципы построения численных методов, приемлемые для всех задач газовой динамики в целом, хотя и не доказанные математически строго. Эти принципы заключаются в следующем.
+
+1) Представления обобщенного решения уравнений идеального газа как предела соответствующих решений с физическими $\left(\sum^{3} i \alpha \neq 0\right)$ или искусственными диссипативными членами при стремлении последних к нулю. Искусственные диссипативные члены могут вводиться непосредственно в уравнения газовой динамики или же неявно определяться самой структурой разностной схемы (аппроксимационная вязкость).
+
+2) Расщепления (декомпозиции) интегральных законов сохранения и самих дифференциальных уравнений геометрически, аналитически и по физич. процессам (метод слабой аппроксимации, см. Дробных шагов метод).
+
+3) Представления стационарного решения как предела решений нестационарных задач (метод установления). При этом в качестве вспомогательных нестационарных задач используются уравнения как гиперболического, так и параболического типов.
+
+4) Аппроксимация уравнений не типа Коши - Ковалевской уравнениями типа Коши - Ковалевской при стремлении соответствующего малого параметра к нулю (уравнения Навье - Стокса, уравнения фильтрации).
+
+5) Построение подвижных разностных сеток как регулярного, так и нерегулярного типов.
+
+6) Разделение в разностной схеме задач аппроксимации во внутренних регулярных и граничных точках.
+
+7) Представление сложной системы линейных или нелинейных алгебраич. уравнений в виде рекуррентных соотношений (метод приближенной или точной факторизации).
+
+8) Метод продолжения краевой задачи за границу и включения ее в краевую задачу с простой областью (метод фиктивных областей).
+
+Совокупность этих представлений п методов позволяет в конечном итоге свести алгоритм решения сложных задач газовой динамики к алгоритмам решений простых задач стандартной структуры (модульный анализ алгоритмов). Такой подход пока строго не обоснован, однако практически он себя оправдал и находит все большее распространение.
+
+Численные методы задач газовой динамики можно разделить на два больших класса: методы с явным выделением особенностей (ударные волны, контактные границы, центрированные волны разрежения) и так наз. методы сквозного счета, в к-рых особенности явно не выделяются.
+
+Методы 1-го класса основаны на представлении обобщенного решения уравнений газовой динамики как совокупности классич. решений, определенных в некоторых областях, покрывающих фазовое пространство $\left\{x^{1}, x^{2}, x^{3}, t\right\}$ и примыкающих друг к другу через общие границы (линии разрывов) с соблюдением условий примыкания (условия динамич. совместности). В каждой области можно применять разностную схему, пригоднуюо для классич. решений, а условия примыкания должны разрешаться с помощью системы, вообще говоря, нелинейных алгебраич. уравнений. Одним из наиболее распространенных методов дискретного представления классич. решений является метод характеристик. Этот метод используется только для решения задач газовой динамики, описываемых гиперболич. уравнениями, и основан он на свойстве гиперболич. системы уравнений иметь, напр., в случае двух неизвестных функций и двух независимых переменных семейство характеристик, к-рые образуют характеристич. сетку, строящуюся в процессе счета. Метод характеристик появился в газовой динамике сравнительно давно и с успехом применялся для расчета одномерных нестационарных течений с небольшим количеством особенностей, а также расчета двумерных стационарных течений в области гиперболичности уравнений. В расчетах используются также и модификации метода характеристик, в к-рых расчет ведется по слоям, ограниченным фиксированными линиями. В случае двух независимых переменных (одномерные нестационарные задачи или двумерные стационарные задачи, сверхзвуковое обтекание) метод характеристик дает возможность избежать интерполяций и тем самым әффектов сглаживания и аппроксимационной вязкости. Он позволяет точно определять место возникновения ударных волн внутри поля течения как результат пересечения характеристик одного семейства. При болышом количестве неизвестных и независимых переменных начинают появляться недостатки этого метода: возникает аппроксимационная вязкость, при наличии большого числа особенностей алгоритм становится логически сложным. Существенным недостатком метода характеристик является также ограничение на шаг сетки, связанное с критерием устойчивости Куранта, и нестрогое выполнение законов сохранения. Поэтому методом характеристик целесообразно рассчитывать задачи, в к-рых число разрывов невелико. Для метода характеристик доказана сходимость его решения $\kappa$ решению исходной дифференциальной задачи в случае достаточно гладких течений. С развитием ЭВМ, способных решать сложные логические задачи, метод характеристик будет использоваться более әффективно.
+
+Наряду с методом характеристик для указанных задач газовой динамики широко используется метод интегральных соотношений, применимый $к$ уравнениям различных типов. Метод интегральных соотношений строится на основе законов сохранения и сводится в конечном итоге к решению обыкновенных дифференциальных уравнений.
+
+Основой для построения разностных схем задач газовой динамики является аппроксимация законов сохранения на заданной подвижной или неподвижной сетке, к-рая приводит к сложной системе нелинейных соотношений явного (явные разностные схемы) или неявного (неявные разностные схемы) типа (см. Гиперболического типа уравнение; численные методы решения).
+
+Так, для уравнений одномерной газовой динамики в лагранжевых координатах можно построить общую разностную схему в виде:
+
+\[
+\frac{w_{j}^{n+1}-w_{i}^{n}}{\tau}+\frac{\sum_{j+1 / 2}^{*}-\sum_{j-1 / 2}^{*}}{h}=0,
+\]
+
+где $\boldsymbol{w}_{j}^{n}=\boldsymbol{w}\left(x_{j}, t_{n}\right)=\boldsymbol{w}(j h, n \tau)$. Для замыкания соотношений (*) следует связать величины $\sum_{j+1 / 2}^{*}, \sum_{j-1 / 2}^{*}$ с величинами $w_{j}^{n}, w_{j}^{n+1}$. Это делается различными способами, к-рые приводят или к явным разностным схемам, если $\sum_{j+1 / 2}^{*}, \sum_{j-1 / 2}^{*}$ выражены через $w_{j}^{n}$, или к неявным разностным схемам, если $\sum_{j+1 / 2}^{*}, \sum_{j-1 / 2}^{*}$ выражены через $w_{j}^{n}, w_{j}^{n+1}$, и нелинейным соотношениям, если применяется один целый шаг, и линейным, еслі применяется два или несколько дробных шагов (метод предикатор-корректор).
+
+Решение получающейся при этом спстемы уравнений может быть сильно упрощено, если применить методы расщепления либо аналитические (метод предикатор-корректор), либо по физич. процессам, либо геометрические. Последние применяются при сведении многомерных задач к задачам меньшей размерности (метод дробных шагов или метод расщепления). Метод расщепления позволяет получить әкономичные абсолютно аппроксимирующие схемы, в к-рых число операций на вычисление искомых функций в одной точке не возрастает с числом точек (см. Разностная схема). Одной из модификаций метода расщепления является метод «частиц в ячейках&quot;, в к-ром расщепление не связано с понижением размерности операторов.
+
+Указанная общая методика приводіт к разностным схемам сквозного счета, как в случае идеального газа $\left(\sum^{i \alpha}=0\right)$, так и в случае диссипативного процесса $\left(\sum^{3}{ }^{2} \neq 0\right)$. Разностные схемы сквозного счета, вводя аппроксимационную вязкость, сглаживают особенности в переходных областях ширины $0(h)$ и преобразуют ударные волны в ударные переходы, контактные разрывы в контактные полосы. Аппроксимационная вязкость разностных схем объединяет в себе диссипативные свойства уравнений газовой динамики і диссипативные свойства самой разностной схемы. Структура аппроксимационной вязкости определяется дифференциальным приближением схем, к-рое отличается от исходной системы уравнений членами порядка $O(\tau \mathcal{\gamma})$, где $\gamma-$ порядок аппроксимации схемы. Во многих случаях представляется важным насколько разностная схема и ее дифференциальное приближение сохраняют групповые свойства исходной системы дифференциальных уравнений. Сохранение разностной схемой групповых свойств имеет большое значение в практич. счете, особенно в задачах газовой динамики, где, напр., неинвариантность первого дифференциального приближения относительно преобразования Галилея приводит к неприятным счетным эффектам (неустойчивость, немонотонность профилей и т. Д.).
+
+Известные разностные схемы сквозного счета имеют на гладких решениях локальную точность, как правило, не выше 3-го порядка и глобальную точность не выше 1-го порядка (учитывая невысокую точность разностной схемы вблизи особенностей). Разностные схемы для уравнений газовой динамики должны удовлетворять, кроме независимых требований аппроксимации и устойчивости, еще ряду практически необходимых требований - дивергентности, экономичности, полной консервативности и т. д. Для многомерных задач строить экономичные разностные схемы позволяет идея расщепления. Дивергентность или консервативность разностной схемы означает выполнение в разностных уравнениях разностных аналогов основных законов сохранения (массы, импульса, полной энергии). Свойство полной консервативности требует выполнения разностных аналогов законов сохранения не только массы, импульса и полной энергии, но и различных видов энергии (кинетической, потенциальной, магнитной).
+
+Рассмотрим несколько конкретных разностных схем вида (*). Полагая в формуле (*)
+
+\[
+\sum_{j+1 / 2}^{*}=\frac{1}{2}\left(f_{j+1}^{n}+f_{j}^{n}\right)-\frac{h}{2 \tau}\left(w_{j+1}^{n}-w_{j}^{n}\right),
+\] получим явную разностную схему 1-го порядка аппроксимации:
+
+\[
+\frac{w_{j}^{n+1}-w_{j}^{n}}{\tau}+\frac{f_{j+1}^{n}-f_{j-1}^{n}}{2 h}=\frac{h^{2}}{2 \tau} \frac{w_{j+1}^{n}-2 \boldsymbol{w}_{j}^{n}+w_{j-1}^{n}}{h^{2}} .
+\]
+
+Здесь
+
+\[
+\boldsymbol{w}=\left(\begin{array}{c}
+u \\
+v \\
+E
+\end{array}\right), \quad \boldsymbol{f}=\left(\begin{array}{c}
+p \\
+-u \\
+u p
+\end{array}\right),
+\]
+
+$\boldsymbol{f}_{j}^{n}=\boldsymbol{f}\left(\boldsymbol{w}_{j}^{n}\right)$. Указанная схема является условно аппроксимирующей при $\tau / h=$ const (при $\tau / h^{2}=$ const схема аппроксимирует систему уравнений $\left.\frac{\partial w}{\partial t}+\frac{\partial f}{\partial x}=\frac{h^{2}}{2 \tau} \frac{\partial^{2} w}{\partial x^{2}}\right)$, дивергентной и условно устойчивой. Условие устойчивости имеет вид: $c \tau / h \leqslant 1$, где $c-$ скорость звука.
+
+Полагая в формуле (*)
+
+\[
+\sum_{j+1 / 2}^{*}=\frac{1}{2}\left(f_{j+1}^{n}+f_{j}^{n}\right)-\frac{\tau}{2 h} A_{j+1 / 2}^{2}\left(w_{j+1}^{n}-w_{j}^{n}\right),
+\]
+
+где
+
+\[
+A_{j+1 / 2}^{2}=A^{2}\left[\frac{1}{2}\left(w_{j+1}^{n}+w_{j}^{n}\right)\right], \quad A=\frac{d f}{d w},
+\]
+
+получим абсолютно аппроксимирующую явную разностную схему 2-го порядка аппроксимации:
+
+\[
+\begin{gathered}
+\frac{\boldsymbol{w}_{j}^{n+1}-w_{j}^{n}}{\tau}+\frac{f_{j+1}^{n}-f_{j-1}^{n}}{2 h}= \\
+=\frac{\tau}{2 h^{2}}\left[A_{j+1 / 2}^{2}\left(w_{j+1}^{n}-w_{j}^{n}\right)-A_{j-1 / 2}^{2}\left(w_{j}^{n}-w_{j-1}^{n}\right)\right] .
+\end{gathered}
+\]
+
+Это схема - дивергентная и устойчивая при условии $\frac{c \tau}{h} \leqslant 1$
+
+Разностная схема
+
+\[
+\begin{gathered}
+\frac{u_{j}^{n+1}-u_{j}^{n}}{\tau}+\alpha \frac{p_{j+1 / 2}^{n+1}-p_{j-1 / 2}^{n+1}}{h}+(1-\alpha) \frac{p_{j+1 / 2}^{n}-p_{j-1 / 2}^{n}}{h}=0, \\
+\frac{v_{j+1 / 2}^{n+1}-v_{j+1 / 2}^{n}}{\tau}+\alpha \frac{u_{j+1}^{n+1}-u_{j}^{n+1}}{h}+(1-\alpha) \frac{u_{j+1}^{n}-u_{j}^{n}}{h}=0, \\
+\left.\frac{\varepsilon_{j+1 / 2}^{n+1}-\varepsilon_{j+1 / 2}^{n}}{\tau}+\mid \alpha p_{j+1 / 2}^{n+1}+(1-\alpha) p_{j+1 / 2}^{n}\right] \times \\
+\quad \times\left[\alpha \frac{u_{j+1}^{n+1}-u_{j}^{n+1}}{h}+(1-\alpha) \frac{u_{j+1}^{n}-u_{j}^{n}}{h}\right]=0
+\end{gathered}
+\]
+
+является явной при $\alpha=0$, неявной при $\alpha \neq 0,0 \leqslant \alpha \leqslant 1$; при $\alpha=1 / 2$ имеет 2 -й порядок аппроксимации, при $\alpha \neq$ $\neq 1 / 2-1-$ й порядок аппроксимации; при $\alpha=1 / 2$ схема полностью консервативная.
+
+Разностная схема
+
+\[
+\begin{gathered}
+\frac{u_{j}^{n+1 / 2}-u_{j}^{n-1 / 2}}{\tau}+\frac{p_{j+1 / 2}^{n}-p_{j-1 / 2}^{n}}{h}=0, \\
+\frac{v_{j+1 / 2}^{n+1}-v_{j+1 / 2}^{n}}{\tau}-\frac{u_{j+1}^{n+1 / 2}-u_{j}^{n+1 / 2}}{h}=0, \\
+\frac{\varepsilon_{j+1 / 2}^{n+1}-\varepsilon_{j+1 / 2}^{n}}{\tau}+\frac{p_{j+1 / 2}^{n+1}+\bar{p}_{j+1 / 2}^{n}}{2} \frac{v_{j+1 / 2}^{n+1}-v_{j+1 / 2}^{n}}{\tau}=0
+\end{gathered}
+\]
+
+имеет 2-й порядок аппроксимации, неявная, абсолютно аппроксимирующая и недивергентная. Здесь
+
+\[
+\begin{gathered}
+\boldsymbol{p}_{j+1 / 2}^{n}=p_{j+1 / 2}^{n}+\omega_{j+1 / 2}^{n}, \varepsilon_{j+1 / 2}^{n}=\varepsilon\left(p_{j+1 / 2}^{n}, v_{j+1 / 2}^{n}\right), \\
+\omega_{j+1 / 2}^{n}=-\mu_{0} h^{2} \frac{1}{v_{j+1 / 2}^{n}} \frac{\left|u_{j+1}^{n-1 / 2}-u_{j}^{n-1 / 2}\right|}{h} \frac{u_{j+1}^{n-1 / 2}-u_{j}^{n-1 / 2}}{h}, \\
+\mu_{0}=\text { const. }
+\end{gathered}
+\]
+
+Успех разностных схем сквозного счета связан с тем обстоятельством, что, хотя аппроксимационная вяз- кость схемы определяет структуру разностного ударного перехода, отличную от физического ударного перехода, консервативная аппроксимация сохраняет скорость ударной волны и воспроизводит условия динамич. совместности.
+
+Однако эти хорошие качества разностных схем сквозного счета теряют свое значение в случаях, когда важно точно передать структуру ударного перехода (задачи радиационной газовой динамики), структуру контактной полосы или пограничного слоя. В случае контактного разрыва хорошая аппроксимация в рамках разностной схемы сквозного счета становится невозможной не только из-за сильного расширения контактной полосы, но и в результате развития неустойчивости Гельмгольца и Тейлора. В этом случае с успехом применяется схема метода частиц в ячейке, к-рая позволяет передать сильные искажения траницы вследствие неустойчивости.
+
+В задачах обтекания вязким газом при достаточно больших числах Рейнольдса эффект аппроксимационной вязкости превосходит әффект физич. вязкости, если разностная сетка недостаточно детальна. Для уменьшения эффекта аппроксимационной вязкости необходимо сильное измельчение сетки вблизи обтекаемого тела. Практически в этом случае отходят от единой трактовки течения, разбивая задачу интегрирования на две: задачу обтекания тела идеальным газом, в к-рой, в частности, определяется скорость $u_{l}$ потока на границе $l$ тела; задачу расчета вязкого течения вблизи тела, где градиенты величин вс зики (так наз. пограничный слой), с краевыми услов.іями на бесконечности, где задаются значения скорости $\boldsymbol{u}_{\infty}=\boldsymbol{u}_{l}$. Постановка задачи в рамках теории пограничного слоя является менее строгой, чем интегрирование уравнений Навье Стокса; однако она является наиболее употребительной в инженерных расчетах при больших числах Рейнольдса.
+
+Особо важный класс задач газовой динамики составляют задачи гидродинамич. неустойчивости и турбулентности. В этом случае необходимо решать задачи на собственные значения для уравнений гидродинамики вязкой жидкости в вариациях (уравнения Орра Зоммерфельда) и строить сложные численные модели для описания нелинейной неустойчивости и турбулентности. Эти задачи принадлежат к классу наиболее трудных задач вычислительной математики и требуют разработки новых моделей и мощных ЭВМ.
+
+Лит.: [1] Р и х т м а й е р Р. Д., М о р тон К., Разностные методы решения краевых задач, М., пер. с англ., 1972; [2] $\Gamma$ одунов С. К., Р я бен нкй В В. С., Разностные схемы, М., 1973; [3] Р ож дественский Б. Ј., Яненко Н. Н., Системы квазилинейных уравнений .., M., 1968; [4] C а м а pС К Й А. А., Введение в теорию разностных схем, М., 1971; [6] X a p л о у $\Phi$. ХХ., в сб.: Вычислительные методы в гидродинамике, М., 1967, 316-42; [7] Д о р о д н и й ны А. А., В кн.: Труды 3 всесоюзного матем. съезда, т. 3, М., 1958, 447-53; решения задач механики сплошной' среды, М., 1969, $101-213$; решения задач механики сплошной среды, М., $1969,101-213 ;$
+$[9]$ н е н к о Н. Н., А н уч и н а Н. Н., П е т е н ко В. Е., [1] Я н е н к о Н. Н., А н у ч и н а Н. Н., П е т р е н к о В. к.,
+II о и н Ю. И., в сб.: Численные методы механики сплошной среды, Новосибирск, 1970 , т. 1, 40-62; [10] Я н е н к о Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосибирск, 1967; [11] С а м а р с к и й А. А., [12] $\Gamma$ о д ун о в С. К., 3 а б р о д и н А. В., П р о к о по в
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_42438eb38651fc5a1d2cg-1.jpg?height=44&amp;width=829&amp;top_left_y=2032&amp;top_left_x=992)</text_orig>
+</article>

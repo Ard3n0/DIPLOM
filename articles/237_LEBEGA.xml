@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/237_LEBEGA" alphabetic_pos="237">
+  <title>ЛЕБЕГА ФУНКЦИИ</title>
+  <authors>
+    <author>Б. С. Кашин</author>
+  </authors>
+  <pages>
+    <start>110</start>
+    <end>110</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] К а ч м а ж С., Iii т е й н г а у з ортогональных рядов, пер. с нем., М., 1958.</literature_orig>
+    <unit>
+      <author>Качмаж С.</author>
+      <title>Iii т е й н г а у з ортогональных рядов</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1958</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/237_1_LEBEGA">L_{n}^{\Phi}(t)=\int_{a}^{b}\left|\sum_{k=1}^{n} \varphi_{k}(x) \varphi_{k}(t)\right| d x, t \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/237_2_LEBEGA">L_{n}^{\Phi}(t)=\sup _{f:\|f\|_{C}[a, b] \leqslant 1}\left|S_{n}(f)(t)\right|, t \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/237_3_LEBEGA">S_{n}(f)(t)=\sum_{k=1}^{n} c_{k}(f) \varphi_{k}(t)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/237_1_LEBEGA">\phi=\left\{\varphi_{k}\right\}_{k=1}^{\infty}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/237_2_LEBEGA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/237_3_LEBEGA">n=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/237_4_LEBEGA">=1,2,</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/237_5_LEBEGA">f</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/237_1_LEBEGA">
+      <rel_text>Лебега константам</rel_text>
+      <target>http://libmeta.ru/me/article/226_LEBEGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/237_2_LEBEGA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/237_3_LEBEGA">
+      <rel_text>тригонометрич</rel_text>
+      <target>http://libmeta.ru/me/article/505_TRIGONOMETRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/237_4_LEBEGA">
+      <rel_text>системе</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/237_5_LEBEGA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/237_1_LEBEGA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/237_1_LEBEGA]]/URI$ заданная ортонормированная по мере Лебега на отрезке $URI[[http://libmeta.ru/me/formula/aux/237_2_LEBEGA]]/URI$ система функций, $URI[[http://libmeta.ru/me/formula/aux/237_3_LEBEGA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/237_4_LEBEGA]]/URI$. . Аналогично определяются Л. ф. в случае, когда ортонормированная система Ф задана на произвольном пространстве с мерой. Справедливо равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/237_2_LEBEGA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/237_3_LEBEGA]]/URI
+\]
+
+- частная сумма ряда Фурье URI[[http://libmeta.ru/me/relation/237_5_LEBEGA]]/URI $URI[[http://libmeta.ru/me/formula/aux/237_5_LEBEGA]]/URI$ по URI[[http://libmeta.ru/me/relation/237_4_LEBEGA]]/URI Ф. В случае, когда Ф - URI[[http://libmeta.ru/me/relation/237_3_LEBEGA]]/URI. URI[[http://libmeta.ru/me/relation/237_2_LEBEGA]]/URI, Л. ф. постоянны и сводятся к URI[[http://libmeta.ru/me/relation/237_1_LEBEGA]]/URI. Л. Ф. введены А. Лебегом (н. Lebesgue).</text>
+  <text_orig>функции
+
+\[
+L_{n}^{\Phi}(t)=\int_{a}^{b}\left|\sum_{k=1}^{n} \varphi_{k}(x) \varphi_{k}(t)\right| d x, t \in[a, b],
+\]
+
+где $\Phi=\left\{\varphi_{k}\right\}_{k=1}^{\infty}-$ заданная ортонормированная по мере Лебега на отрезке $[a, b]$ система функций, $n=$ $=1,2,$. . Аналогично определяются Л. ф. в случае, когда ортонормированная система Ф задана на произвольном пространстве с мерой. Справедливо равенство
+
+\[
+L_{n}^{\Phi}(t)=\sup _{f:\|f\|_{C}[a, b] \leqslant 1}\left|S_{n}(f)(t)\right|, t \in[a, b],
+\]
+
+где
+
+\[
+S_{n}(f)(t)=\sum_{k=1}^{n} c_{k}(f) \varphi_{k}(t)
+\]
+
+- частная сумма ряда Фурье функции $f$ по системе Ф. В случае, когда Ф - тригонометрич. система, Л. ф. постоянны и сводятся к Лебега константам. Л. Ф. введены А. Лебегом (Н. Lebesgue).
+
+Лum.: [1] К а ч м а ж С., III т е й н г а у з ортогональных рядов, пер. с нем., М., 1958. Б. С. Кашин.</text_orig>
+</article>

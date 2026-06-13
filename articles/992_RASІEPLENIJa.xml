@@ -1,0 +1,392 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/992_RASІEPLENIJa" alphabetic_pos="992">
+  <title>РАСІЕПЛЕНИЯ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>456</start>
+    <end>457</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] м а р ч у к Г. И., Методы вычислительной мате матики, 2 изд., М., 1980 ; [2] С а м а р с к и й А. А., Теория разностных схем, М., 1977; [3] Я н е н к о Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосиб., 1967; [4] Д ь я к о н о в Е. Г., Разностные методы решения краевых задач, в. 1-2, М., 1971-72; [5] К о в е н я В. М., Я н е н к о Н. Н., Метод расщепления в задачах газовой динамики, Новосиб., 1981, [6] Д. р ы я М., в кн.. Banach center pul![](https://cdn.mathpix.com/cropped/2023_07_08_b12a30ddd1d69094bec0g-1.jpg?height=42&amp;width=806&amp;top_left_y=1934&amp;top_left_x=986)[8] H a y e s L. J., &quot;siam J. Numer. Analysis&quot;, 1981 , v. 18, № 4![](https://cdn.mathpix.com/cropped/2023_07_08_b12a30ddd1d69094bec0g-1.jpg?height=22&amp;width=791&amp;top_left_y=2002&amp;top_left_x=995)</literature_orig>
+    <unit>
+      <author>марчук Г. И.</author>
+      <title>Методы вычислительной мате матики</title>
+      <publication>2 изд., М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Самарский А. А.</author>
+      <title>Теория разностных схем</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Яненко Н. Н.</author>
+      <title>Метод дробных шагов решения многомерных задач математической физики, Новосиб.</title>
+      <publication/>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дьяконов Е. Г.</author>
+      <title>Разностные методы решения краевых задач, в. 1-2</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ковеня В. М.</author>
+      <author>Яненко Н. Н.</author>
+      <title>Метод расщепления в задачах газовой динамики, Новосиб.</title>
+      <publication/>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Д.рыя М.</author>
+      <author>вкн..Banachcenterpul![](https://cdn.mathpix.com/cropped/2023_07_08_b12a30ddd1d69094bec0g-1.jpg?height=42&amp;width=806&amp;top_left_y=1934&amp;top_left_x=986)[8]Hayes L. J.</author>
+      <title>&quot;siam J. Numer. Analysis&quot;</title>
+      <publication/>
+      <year>1981</year>
+      <other>v. 18, № 4![](https://cdn.mathpix.com/cropped/2023_07_08_b12a30ddd1d69094bec0g-1.jpg?height=22&amp;width=791&amp;top_left_y=2002&amp;top_left_x=995)</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/992_1_RASІEPLENIJa">A_{\mathrm{S}}^{(n)} u^{n+s / p}=B_{\mathrm{S}}^{(n)}\left(u^{n}, u^{n+1 / p}, \ldots, u^{n+(s-1) / p}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/992_2_RASІEPLENIJa">u^{n} \equiv u\left(t_{n}\right), u^{n+k / p} \equiv u\left(t_{n+1}\right), A_{\mathrm{s}}^{(n)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/992_3_RASІEPLENIJa">\frac{\partial u}{\partial t}=\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}+f, \quad\left(x_{1}, x_{2}\right) \in \Omega,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/992_4_RASІEPLENIJa">\left.\begin{array}{cc}\frac{u_{i}^{n+1 / 2}-u_{i}^{n}}{\tau / 2}+\left[\Lambda_{1}\left(\sigma u^{n+1 / 2}+(1-\sigma) u^{n}\right)\right]_{i}=f_{i}^{n+1 / 2}, \\\overline{x_{i}} \in \Omega_{n} ; \\u_{i}^{n+1 / 2}=\psi_{i}^{n+1 / 2} \text { при } \bar{x}_{i} \in \Gamma, u_{i}^{n+1}=\psi_{i}^{n+1} \text { при } \\\frac{u_{i}^{n+1}-u_{i}^{n+1 / 2}}{\tau / 2}+\left[\Lambda_{2}\left(\sigma u^{n+1}+(1-\sigma) u^{n+1 / 2}\right)\right]_{i}= \\=f_{i}^{n+1 / 2}, &amp; \overline{x_{i}} \in \Omega_{n},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/992_5_RASІEPLENIJa">\begin{gathered}\left(A\left(\frac{u^{n+1}-u^{n}}{\tau}\right)\right)_{i}+\left(\Lambda_{1} u^{n}\right)_{i}+\left(\Lambda_{2} u^{n}\right)_{i}=f_{i}^{n+1 / 2}, \\\bar{x}_{i} \in \Omega_{n} \\u_{i}^{n}=\psi_{i}^{n} \quad \text { при } \bar{x}_{i} \in \Gamma,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/992_6_RASІEPLENIJa">\frac{\partial u}{\partial t}-\frac{\partial^{2} u}{\partial x_{1}^{2}}-\frac{\partial^{2} u}{\partial x_{2}^{2}}+\varepsilon \frac{\partial^{5} u}{\partial x_{1}^{2} \partial x_{2}^{2} \partial t}=f, \quad \varepsilon&gt;0,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_1_RASІEPLENIJa">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_2_RASІEPLENIJa">t_{n+1} t_{n}+\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_3_RASІEPLENIJa">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_4_RASІEPLENIJa">t=t_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_5_RASІEPLENIJa">o(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_6_RASІEPLENIJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_7_RASІEPLENIJa">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_8_RASІEPLENIJa">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_9_RASІEPLENIJa">t_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_10_RASІEPLENIJa">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_11_RASІEPLENIJa">x_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_12_RASІEPLENIJa">x_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_13_RASІEPLENIJa">a_{s}^{(n)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_14_RASІEPLENIJa">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_15_RASІEPLENIJa">x_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_16_RASІEPLENIJa">\left.u\right|_{t=0}=\varphi\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_17_RASІEPLENIJa">\left.u\right|_{\Gamma}=\psi\left(x_{1}, x_{2}, t\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_18_RASІEPLENIJa">\omega \equiv(0,1) \times(0,1), \Gamma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_19_RASІEPLENIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_20_RASІEPLENIJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_21_RASІEPLENIJa">i \equiv\left(i_{1}, i_{2}\right), \bar{x}_{i} \equiv\left(i_{1} h, i_{2} h\right), u_{i}^{n} \equiv u\left(n \tau, \bar{x}_{i}\right), \psi_{i}^{n+1 / 2} \equiv</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_22_RASІEPLENIJa">\equiv \psi\left((n+1 / 2) \tau, \bar{x}_{i}\right),-\Lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_23_RASІEPLENIJa">\lambda_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_24_RASІEPLENIJa">\frac{\partial^{2}}{\partial x_{1}^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_25_RASІEPLENIJa">\frac{\partial^{2}}{\partial x_{2}^{2}}, \Omega_{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_26_RASІEPLENIJa">\bar{x}_{i}, \sigma \geqslant 1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_27_RASІEPLENIJa">u^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_28_RASІEPLENIJa">u^{n+1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_29_RASІEPLENIJa">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_30_RASІEPLENIJa">t_{n+1 / 2} \equiv t_{n}+\tau / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_31_RASІEPLENIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_32_RASІEPLENIJa">a \equiv\left(E+\sigma \tau \Lambda_{1}\right)\left(E+\sigma \tau \Lambda_{2}\right), E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_33_RASІEPLENIJa">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_34_RASІEPLENIJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_35_RASІEPLENIJa">o(\varepsilon)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_36_RASІEPLENIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/992_37_RASІEPLENIJa">o(n)</formula>
+  </formulas_aux>
+  <relations n="45">
+    <relation uri="http://libmeta.ru/me/relation/992_1_RASІEPLENIJa">
+      <rel_text>неравенств</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_2_RASІEPLENIJa">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_3_RASІEPLENIJa">
+      <rel_text>устойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/631_UsTOJChIVOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_4_RASІEPLENIJa">
+      <rel_text>подобного</rel_text>
+      <target>http://libmeta.ru/me/article/368_PODOBЂEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_5_RASІEPLENIJa">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_6_RASІEPLENIJa">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_7_RASІEPLENIJa">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_8_RASІEPLENIJa">
+      <rel_text>подобных</rel_text>
+      <target>http://libmeta.ru/me/article/360_PoDoBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_9_RASІEPLENIJa">
+      <rel_text>матриц</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_10_RASІEPLENIJa">
+      <rel_text>произведения</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_11_RASІEPLENIJa">
+      <rel_text>представимы</rel_text>
+      <target>http://libmeta.ru/me/article/606_PREDPORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_12_RASІEPLENIJa">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_13_RASІEPLENIJa">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_14_RASІEPLENIJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_15_RASІEPLENIJa">
+      <rel_text>трактовать</rel_text>
+      <target>http://libmeta.ru/me/article/455_TRAKTRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_16_RASІEPLENIJa">
+      <rel_text>граничные условия</rel_text>
+      <target>http://libmeta.ru/me/article/1169_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_17_RASІEPLENIJa">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_18_RASІEPLENIJa">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_19_RASІEPLENIJa">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_20_RASІEPLENIJa">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_21_RASІEPLENIJa">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_22_RASІEPLENIJa">
+      <rel_text>трактуются</rel_text>
+      <target>http://libmeta.ru/me/article/455_TRAKTRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_23_RASІEPLENIJa">
+      <rel_text>разностная схема</rel_text>
+      <target>http://libmeta.ru/me/article/901_RAZNOSTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_24_RASІEPLENIJa">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_25_RASІEPLENIJa">
+      <rel_text>устойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/631_UsTOJChIVOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_26_RASІEPLENIJa">
+      <rel_text>процессам</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_27_RASІEPLENIJa">
+      <rel_text>переменным</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_28_RASІEPLENIJa">
+      <rel_text>производится</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_29_RASІEPLENIJa">
+      <rel_text>варианты</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_30_RASІEPLENIJa">
+      <rel_text>получаемых</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_31_RASІEPLENIJa">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_32_RASІEPLENIJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_33_RASІEPLENIJa">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_34_RASІEPLENIJa">
+      <rel_text>трактовать</rel_text>
+      <target>http://libmeta.ru/me/article/455_TRAKTRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_35_RASІEPLENIJa">
+      <rel_text>моменты</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_36_RASІEPLENIJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_37_RASІEPLENIJa">
+      <rel_text>методу</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_38_RASІEPLENIJa">
+      <rel_text>подобно</rel_text>
+      <target>http://libmeta.ru/me/article/360_PoDoBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_39_RASІEPLENIJa">
+      <rel_text>граничные условия</rel_text>
+      <target>http://libmeta.ru/me/article/1169_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_40_RASІEPLENIJa">
+      <rel_text>разностные уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/903_RAZNOSTNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_41_RASІEPLENIJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_42_RASІEPLENIJa">
+      <rel_text>квадратной</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_43_RASІEPLENIJa">
+      <rel_text>граница</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_44_RASІEPLENIJa">
+      <rel_text>краевым условием</rel_text>
+      <target>http://libmeta.ru/me/article/73_KRAEVYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/992_45_RASІEPLENIJa">
+      <rel_text>начальным условием</rel_text>
+      <target>http://libmeta.ru/me/article/867_NAChALYNYE</target>
+    </relation>
+  </relations>
+  <text>сеточный метод решения нестационарных задач со многими пространственными переменными, в к-ром переход от заданного временного слоя $URI[[http://libmeta.ru/me/formula/aux/992_1_RASІEPLENIJa]]/URI$ к новому слою $URI[[http://libmeta.ru/me/formula/aux/992_2_RASІEPLENIJa]]/URI$ осуществляется за счет последовательного решения сеточных аналогов родственных нестационарных задач с меньшим числом пространственных переменных (см. [1] - [4]). Часто в этом классе методов могут быть найдены такие, что 1) весь переход от сеточного слоя в момент времени $URI[[http://libmeta.ru/me/formula/aux/992_3_RASІEPLENIJa]]/URI$ к новому сеточному слою $URI[[http://libmeta.ru/me/formula/aux/992_4_RASІEPLENIJa]]/URI$ является достаточно простым и может быть осуществлен при затрате $URI[[http://libmeta.ru/me/formula/aux/992_5_RASІEPLENIJa]]/URI$ арифметич. действий, где $URI[[http://libmeta.ru/me/formula/aux/992_6_RASІEPLENIJa]]/URI$ - число узлов пространственной сетки; 2) гарантируется абсолютная устойчивость метода, 3) гарантируется наличие приемлемой точности метода (наличие аппроксимации в том или ином смысле). Р. м. довольно широко применяются при практич. решении многомерных задач математич. физики, связанных, напр., с линейными и нелинейными системами параболического, гиперболического или смешанного типа (см. [1] - [8]).
+
+Обычно для задачи с $URI[[http://libmeta.ru/me/formula/aux/992_7_RASІEPLENIJa]]/URI$ пространственными переменными переход от $URI[[http://libmeta.ru/me/formula/aux/992_8_RASІEPLENIJa]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/992_9_RASІEPLENIJa]]/URI$ в Р. м. производится с исшользованием $URI[[http://libmeta.ru/me/formula/aux/992_10_RASІEPLENIJa]]/URI$ вспомогательных (дробных) шагов:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/992_1_RASІEPLENIJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/992_2_RASІEPLENIJa]]/URI
+\]
+
+- матрица, соответствующая разностной аппроксимации нек-рого диффференциального оператора, содержащего производные только по $URI[[http://libmeta.ru/me/formula/aux/992_11_RASІEPLENIJa]]/URI$ (одномерного дифференциального оператора), а правые части (1) легко вычислимы. При соответствующей нумерации неизвестных, связанной с выбором направления $URI[[http://libmeta.ru/me/formula/aux/992_12_RASІEPLENIJa]]/URI$, матрицы $URI[[http://libmeta.ru/me/formula/aux/992_13_RASІEPLENIJa]]/URI$ становятся обычно диагональными и решение систем (1) при каждом $URI[[http://libmeta.ru/me/formula/aux/992_14_RASІEPLENIJa]]/URI$ сводится к многократному решению одномерных разностных систем по направлению $URI[[http://libmeta.ru/me/formula/aux/992_15_RASІEPLENIJa]]/URI$. Поэтому часто Р. м. наз. также или переменных направлений методом или дробных шагов методом.
+
+Одним из типичных примеров в случае уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/992_3_RASІEPLENIJa]]/URI
+\]
+
+с URI[[http://libmeta.ru/me/relation/992_45_RASІEPLENIJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/992_16_RASІEPLENIJa]]/URI$ и URI[[http://libmeta.ru/me/relation/992_44_RASІEPLENIJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/992_17_RASІEPLENIJa]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/992_18_RASІEPLENIJa]]/URI$ URI[[http://libmeta.ru/me/relation/992_43_RASІEPLENIJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/992_19_RASІEPLENIJa]]/URI$, может служить следующий метод, построенный на URI[[http://libmeta.ru/me/relation/992_42_RASІEPLENIJa]]/URI сетке с шагом $URI[[http://libmeta.ru/me/formula/aux/992_20_RASІEPLENIJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/992_4_RASІEPLENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/992_21_RASІEPLENIJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/992_22_RASІEPLENIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/992_23_RASІEPLENIJa]]/URI$ - простейшие разностные аппроксимации для $URI[[http://libmeta.ru/me/formula/aux/992_24_RASІEPLENIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/992_25_RASІEPLENIJa]]/URI$ совокупность внутренних узлов $URI[[http://libmeta.ru/me/formula/aux/992_26_RASІEPLENIJa]]/URI$.
+
+Имеются два альтернативных подхода к URI[[http://libmeta.ru/me/relation/992_41_RASІEPLENIJa]]/URI Р. м. В одном из них промежуточные шаги ни в чем существенном не отличаются от целых шагов, и сами URI[[http://libmeta.ru/me/relation/992_40_RASІEPLENIJa]]/URI на дробных шагах и URI[[http://libmeta.ru/me/relation/992_39_RASІEPLENIJa]]/URI для них, URI[[http://libmeta.ru/me/relation/992_38_RASІEPLENIJa]]/URI URI[[http://libmeta.ru/me/relation/992_37_RASІEPLENIJa]]/URI (2), устроены одинаково, и можно ожидать, что $URI[[http://libmeta.ru/me/formula/aux/992_27_RASІEPLENIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/992_28_RASІEPLENIJa]]/URI$ будут служить аппроксимациями для решения исходной URI[[http://libmeta.ru/me/relation/992_36_RASІEPLENIJa]]/URI в URI[[http://libmeta.ru/me/relation/992_35_RASІEPLENIJa]]/URI времени $URI[[http://libmeta.ru/me/formula/aux/992_29_RASІEPLENIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/992_30_RASІEPLENIJa]]/URI$. Этот подход основан на использовании понятия составной схемы и суммарной аппроксимации (см. [2]). Схемы такого типа часто наз. ло к а ль но о дноме риым и с х е ма и или а д д и т и в ны м и с х е м а м и; их можно также URI[[http://libmeta.ru/me/relation/992_34_RASІEPLENIJa]]/URI как обычные разностные схемы для некрого URI[[http://libmeta.ru/me/relation/992_33_RASІEPLENIJa]]/URI с сильно осциллирующими по времени коәффициентами, решение к-рого должно быть близко к решению исходной URI[[http://libmeta.ru/me/relation/992_32_RASІEPLENIJa]]/URI (см. [1]-[4]). Достоинства этого подхода в его простоте и общности, напр. обобпееия URI[[http://libmeta.ru/me/relation/992_31_RASІEPLENIJa]]/URI (2) возможны и для случая криволинейных областей $URI[[http://libmeta.ru/me/formula/aux/992_31_RASІEPLENIJa]]/URI$ и более общих задач. Точность же URI[[http://libmeta.ru/me/relation/992_30_RASІEPLENIJa]]/URI на этом пути методов обычно не очень высока. Известны и иногда успешно применяются URI[[http://libmeta.ru/me/relation/992_29_RASІEPLENIJa]]/URI Р. м., в к-рых расщепление URI[[http://libmeta.ru/me/relation/992_28_RASІEPLENIJa]]/URI не по пространственным URI[[http://libmeta.ru/me/relation/992_27_RASІEPLENIJa]]/URI, a по физич. URI[[http://libmeta.ru/me/relation/992_26_RASІEPLENIJa]]/URI (cм. [5]).
+
+Второй подход в плане анализа URI[[http://libmeta.ru/me/relation/992_25_RASІEPLENIJa]]/URI и URI[[http://libmeta.ru/me/relation/992_24_RASІEPLENIJa]]/URI исключает какие-либо дробные шаги из рассмотрения. Сама URI[[http://libmeta.ru/me/relation/992_23_RASІEPLENIJa]]/URI и аппроксимация URI[[http://libmeta.ru/me/relation/992_22_RASІEPLENIJa]]/URI традиционным образом. Необычность разностной схемы проявляется лишь в том, что на верхнем слое схемы появляется необычный разностный URI[[http://libmeta.ru/me/relation/992_21_RASІEPLENIJa]]/URI. Напр., вместо URI[[http://libmeta.ru/me/relation/992_20_RASІEPLENIJa]]/URI (2) рассматривается метод
+
+\[
+URI[[http://libmeta.ru/me/formula/main/992_5_RASІEPLENIJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/992_32_RASІEPLENIJa]]/URI$ - тождественный URI[[http://libmeta.ru/me/relation/992_19_RASІEPLENIJa]]/URI. Такие URI[[http://libmeta.ru/me/relation/992_18_RASІEPLENIJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/992_33_RASІEPLENIJa]]/URI$ обычно наз. р а с щ е п л яющим и с я или фа т о р и зов а н ны м и о п е р а т о р а м и. Дробные шаги связываются лишь с методом решения возникающих URI[[http://libmeta.ru/me/relation/992_17_RASІEPLENIJa]]/URI и для одной и той же схемы (3) могут быть введены различными способами, URI[[http://libmeta.ru/me/relation/992_16_RASІEPLENIJa]]/URI для них должны выбираться в зависимости от этого. Сами схемы типа (3) можно URI[[http://libmeta.ru/me/relation/992_15_RASІEPLENIJa]]/URI как обычные схемы с весом для $URI[[http://libmeta.ru/me/formula/aux/992_34_RASІEPLENIJa]]/URI$-уравнения, напр., вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/992_6_RASІEPLENIJa]]/URI
+\]
+
+решения к-рого отличаются от решения исходной URI[[http://libmeta.ru/me/relation/992_14_RASІEPLENIJa]]/URI на $URI[[http://libmeta.ru/me/formula/aux/992_35_RASІEPLENIJa]]/URI$ (см. [4]). В случаз области $URI[[http://libmeta.ru/me/formula/aux/992_36_RASІEPLENIJa]]/URI$, составленной из прямоугольников, URI[[http://libmeta.ru/me/relation/992_13_RASІEPLENIJa]]/URI возникающих URI[[http://libmeta.ru/me/relation/992_12_RASІEPLENIJa]]/URI в методах типа (3) уже не URI[[http://libmeta.ru/me/relation/992_11_RASІEPLENIJa]]/URI в виде URI[[http://libmeta.ru/me/relation/992_10_RASІEPLENIJa]]/URI &quot;одномерных&quot; URI[[http://libmeta.ru/me/relation/992_9_RASІEPLENIJa]]/URI. Все же решения URI[[http://libmeta.ru/me/relation/992_8_RASІEPLENIJa]]/URI URI[[http://libmeta.ru/me/relation/992_7_RASІEPLENIJa]]/URI могут быть найдены при затрате $URI[[http://libmeta.ru/me/formula/aux/992_37_RASІEPLENIJa]]/URI$ URI[[http://libmeta.ru/me/relation/992_6_RASІEPLENIJa]]/URI. действий (см. [4]), URI[[http://libmeta.ru/me/relation/992_5_RASІEPLENIJa]]/URI URI[[http://libmeta.ru/me/relation/992_4_RASІEPLENIJa]]/URI типа наз. р а с ши р енно р а с щ п л я ю пи мися опер а т о р а м и. При исследовании URI[[http://libmeta.ru/me/relation/992_3_RASІEPLENIJa]]/URI и URI[[http://libmeta.ru/me/relation/992_2_RASІEPLENIJa]]/URI схем с расщепляющимися и расширенно расщепляющимися операторами большую роль играет метод энергетич. URI[[http://libmeta.ru/me/relation/992_1_RASІEPLENIJa]]/URI (см. [2], [4], [6] - [8]).</text>
+  <text_orig>сеточный метод решения нестационарных задач со многими пространственными переменными, в к-ром переход от заданного временного слоя $t_{n}$ к новому слою $t_{n+1} t_{n}+\tau$ осуществляется за счет последовательного решения сеточных аналогов родственных нестационарных задач с меньшим числом пространственных переменных (см. [1] - [4]). Часто в этом классе методов могут быть найдены такие, что 1) весь переход от сеточного слоя в момент времени $t_{n}$ к новому сеточному слою $t=t_{n+1}$ является достаточно простым и может быть осуществлен при затрате $O(N)$ арифметич. действий, где $N$ - число узлов пространственной сетки; 2) гарантируется абсолютная устойчивость метода, 3) гарантируется наличие приемлемой точности метода (наличие аппроксимации в том или ином смысле). Р. м. довольно широко применяются при практич. решении многомерных задач математич. физики, связанных, напр., с линейными и нелинейными системами параболического, гиперболического или смешанного типа (см. [1] - [8]).
+
+Обычно для задачи с $p$ пространственными переменными переход от $t_{n}$ к $t_{n+1}$ в Р. м. производится с исшользованием $p$ вспомогательных (дробных) шагов:
+
+\[
+A_{\mathrm{S}}^{(n)} u^{n+s / p}=B_{\mathrm{S}}^{(n)}\left(u^{n}, u^{n+1 / p}, \ldots, u^{n+(s-1) / p}\right),
+\]
+
+где
+
+\[
+u^{n} \equiv u\left(t_{n}\right), u^{n+k / p} \equiv u\left(t_{n+1}\right), A_{\mathrm{s}}^{(n)}
+\]
+
+- матрица, соответствующая разностной аппроксимации нек-рого диффференциального оператора, содержащего производные только по $x_{s}$ (одномерного дифференциального оператора), а правые части (1) легко вычислимы. При соответствующей нумерации неизвестных, связанной с выбором направления $x_{s}$, матрицы $A_{s}^{(n)}$ становятся обычно диагональными и решение систем (1) при каждом $s$ сводится к многократному решению одномерных разностных систем по направлению $x_{s}$. Поэтому часто Р. м. наз. также или переменных направлений методом или дробных шагов методом.
+
+Одним из типичных примеров в случае уравнения
+
+\[
+\frac{\partial u}{\partial t}=\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}+f, \quad\left(x_{1}, x_{2}\right) \in \Omega,
+\]
+
+с начальным условием $\left.u\right|_{t=0}=\varphi\left(x_{1}, x_{2}\right)$ и краевым условием $\left.u\right|_{\Gamma}=\psi\left(x_{1}, x_{2}, t\right)$, где $\Omega \equiv(0,1) \times(0,1), \Gamma-$ граница $\Omega$, может служить следующий метод, построенный на квадратной сетке с шагом $h$ :
+
+\[
+\left.\begin{array}{cc}
+\frac{u_{i}^{n+1 / 2}-u_{i}^{n}}{\tau / 2}+\left[\Lambda_{1}\left(\sigma u^{n+1 / 2}+(1-\sigma) u^{n}\right)\right]_{i}=f_{i}^{n+1 / 2}, \\
+\overline{x_{i}} \in \Omega_{n} ; \\
+u_{i}^{n+1 / 2}=\psi_{i}^{n+1 / 2} \text { при } \bar{x}_{i} \in \Gamma, u_{i}^{n+1}=\psi_{i}^{n+1} \text { при } \\
+\frac{u_{i}^{n+1}-u_{i}^{n+1 / 2}}{\tau / 2}+\left[\Lambda_{2}\left(\sigma u^{n+1}+(1-\sigma) u^{n+1 / 2}\right)\right]_{i}= \\
+=f_{i}^{n+1 / 2}, &amp; \overline{x_{i}} \in \Omega_{n},
+\end{array}\right\}
+\]
+
+где $i \equiv\left(i_{1}, i_{2}\right), \bar{x}_{i} \equiv\left(i_{1} h, i_{2} h\right), u_{i}^{n} \equiv u\left(n \tau, \bar{x}_{i}\right), \psi_{i}^{n+1 / 2} \equiv$ $\equiv \psi\left((n+1 / 2) \tau, \bar{x}_{i}\right),-\Lambda_{1}$ и $\Lambda_{2}$ - простейшие разностные аппроксимации для $\frac{\partial^{2}}{\partial x_{1}^{2}}$ и $\frac{\partial^{2}}{\partial x_{2}^{2}}, \Omega_{n}-$ совокупность внутренних узлов $\bar{x}_{i}, \sigma \geqslant 1 / 2$.
+
+Имеются два альтернативных подхода к теории Р. м. В одном из них промежуточные шаги ни в чем существенном не отличаются от целых шагов, и сами разностные уравнения на дробных шагах и граничные условия для них, подобно методу (2), устроены одинаково, и можно ожидать, что $u^{n}$ и $u^{n+1 / 2}$ будут служить аппроксимациями для решения исходной задачи в моменты времени $t_{n}$ и $t_{n+1 / 2} \equiv t_{n}+\tau / 2$. Этот подход основан на использовании понятия составной схемы и суммарной аппроксимации (см. [2]). Схемы такого типа часто наз. ло к а ль но о дноме риым и с х е ма и или а д д и т и в ны м и с х е м а м и; их можно также трактовать как обычные разностные схемы для некрого уравнения с сильно осциллирующими по времени коәффициентами, решение к-рого должно быть близко к решению исходной задачи (см. [1]-[4]). Достоинства этого подхода в его простоте и общности, напр. обобпееия метода (2) возможны и для случая криволинейных областей $\Omega$ и более общих задач. Точность же получаемых на этом пути методов обычно не очень высока. Известны и иногда успешно применяются варианты Р. м., в к-рых расщепление производится не по пространственным переменным, a по физич. процессам (cм. [5]).
+
+Второй подход в плане анализа устойчивости и сходимости исключает какие-либо дробные шаги из рассмотрения. Сама разностная схема и аппроксимация трактуются традиционным образом. Необычность разностной схемы проявляется лишь в том, что на верхнем слое схемы появляется необычный разностный оператор. Напр., вместо метода (2) рассматривается метод
+
+\[
+\begin{gathered}
+\left(A\left(\frac{u^{n+1}-u^{n}}{\tau}\right)\right)_{i}+\left(\Lambda_{1} u^{n}\right)_{i}+\left(\Lambda_{2} u^{n}\right)_{i}=f_{i}^{n+1 / 2}, \\
+\bar{x}_{i} \in \Omega_{n} \\
+u_{i}^{n}=\psi_{i}^{n} \quad \text { при } \bar{x}_{i} \in \Gamma,
+\end{gathered}
+\]
+
+где $A \equiv\left(E+\sigma \tau \Lambda_{1}\right)\left(E+\sigma \tau \Lambda_{2}\right), E$ - тождественный оператор. Такие операторы $A$ обычно наз. р а с щ е п л яющим и с я или фа т о р и зов а н ны м и о п е р а т о р а м и. Дробные шаги связываются лишь с методом решения возникающих систем и для одной и той же схемы (3) могут быть введены различными способами, граничные условия для них должны выбираться в зависимости от этого. Сами схемы типа (3) можно трактовать как обычные схемы с весом для $\varepsilon$-уравнения, напр., вида
+
+\[
+\frac{\partial u}{\partial t}-\frac{\partial^{2} u}{\partial x_{1}^{2}}-\frac{\partial^{2} u}{\partial x_{2}^{2}}+\varepsilon \frac{\partial^{5} u}{\partial x_{1}^{2} \partial x_{2}^{2} \partial t}=f, \quad \varepsilon&gt;0,
+\]
+
+решения к-рого отличаются от решения исходной задачи на $O(\varepsilon)$ (см. [4]). В случаз области $\Omega$, составленной из прямоугольников, матрицы возникающих систем в методах типа (3) уже не представимы в виде произведения &quot;одномерных&quot; матриц. Все же решения подобных систем могут быть найдены при затрате $O(N)$ арифметич. действий (см. [4]), операторы подобного типа наз. р а с ши р енно р а с щ п л я ю пи мися опер а т о р а м и. При исследовании устойчивости и сходимости схем с расщепляющимися и расширенно расщепляющимися операторами большую роль играет метод энергетич. неравенств (см. [2], [4], [6] - [8]).
+
+Лит.: [1] м а р ч у к Г. И., Методы вычислительной мате матики, 2 изд., М., 1980 ; [2] С а м а р с к и й А. А., Теория разностных схем, М., 1977; [3] Я н е н к о Н. Н., Метод дробных шагов решения многомерных задач математической физики, Новосиб., 1967; [4] Д ь я к о н о в Е. Г., Разностные методы решения краевых задач, в. 1-2, М., 1971-72; [5] К о в е н я В. М., Я н е н к о Н. Н., Метод расщепления в задачах газовой динамики, Новосиб., 1981, [6] Д. р ы я М., в кн.. Banach center pul
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b12a30ddd1d69094bec0g-1.jpg?height=42&amp;width=806&amp;top_left_y=1934&amp;top_left_x=986)
+[8] H a y e s L. J., &quot;SIAM J. Numer. Analysis&quot;, 1981 , v. 18, № 4
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b12a30ddd1d69094bec0g-1.jpg?height=22&amp;width=791&amp;top_left_y=2002&amp;top_left_x=995)</text_orig>
+</article>

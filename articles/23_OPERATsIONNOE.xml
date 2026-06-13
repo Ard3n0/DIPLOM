@@ -1,0 +1,430 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/23_OPERATsIONNOE" alphabetic_pos="23">
+  <title>ОПЕРАЦИОННОЕ ИСЧИСЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>14</start>
+    <end>15</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] Д и т к и н В. А., П р у Д н и ко в А. П., Справочник по операционному исчислению, М., 1965; [2] М и к у с и нм. И. Войчеховский.</literature_orig>
+    <unit>
+      <author>Диткин В. А.</author>
+      <author>Пру Дников А. П.</author>
+      <title>Справочник по операционному исчислению</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <title/>
+      <publication/>
+      <year/>
+      <other>М и к у с и нм. И. Войчеховский.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/23_1_OPERATsIONNOE">h-f * g=\int_{0}^{t} f(t-\tau) g(\tau) d \tau .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_2_OPERATsIONNOE">\{f(t)\} \text { - функция } f(t) \text {; }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_3_OPERATsIONNOE">f(t) \text { - значение } f(t) \text { в точке } t \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_4_OPERATsIONNOE">\{1\}\{f\}=\left\{\int_{0}^{t} f(\tau) d \tau\right\},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_5_OPERATsIONNOE">e p=\left\{\frac{t^{p-1}}{\Gamma(p)}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_6_OPERATsIONNOE">\begin{aligned}&amp; =\int_{0}^{t} \frac{(t-\tau)^{n-1}}{(n-1) !} f(\tau) d \tau \text {; }\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_7_OPERATsIONNOE">s\{a\}=\left\{a^{\prime}\right\}+[a(0)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_8_OPERATsIONNOE">\left\{a^{(n)}\right\}=s^{n}\{a\}-s^{n-1}[a(0)]-\ldots-\left[a^{n-1}(0)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_9_OPERATsIONNOE">\left\{e^{\alpha t}\right\}=\frac{1}{s-a} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_10_OPERATsIONNOE">\alpha_{n} x^{(n)}+\ldots+\alpha_{0} x=f, \alpha_{i}=\text { const, } i=0,1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_11_OPERATsIONNOE">\begin{gathered}x=\frac{\beta_{n-1} s^{n-1}+\ldots+\beta_{0}+f}{\alpha_{n} s^{n}+\ldots+\alpha_{0}}, \\\beta_{v}=\alpha_{v+1} \gamma_{0}+\ldots+\alpha_{n} \gamma_{n-v-1},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_12_OPERATsIONNOE">h(\lambda, t)=\left\{\begin{array}{cl}0 &amp; \text { для } 0 \leqslant t&lt;\lambda, \\t-\lambda &amp; \text { для } 0 \leqslant \lambda \leqslant t,\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_13_OPERATsIONNOE">H(\lambda)=s\{h(\lambda, t)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_14_OPERATsIONNOE">e^{-\lambda s} \equiv s H(\lambda)=s^{2}\{h(\lambda, t)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_15_OPERATsIONNOE">\frac{\partial x}{\partial t}=\alpha^{2} \frac{\partial^{2} x}{\partial \lambda^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_16_OPERATsIONNOE">e-\alpha \lambda \vee \bar{s}=\left\{\frac{\lambda}{2 \sqrt{\pi} t^{3}} \exp \left(-\frac{\lambda^{2}}{4 t}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_17_OPERATsIONNOE">\{f\}=\frac{\int_{0}^{2 \lambda_{0}} e^{-\lambda s_{f}(\lambda) d \lambda}}{1-e^{-2 \lambda_{0} s}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_18_OPERATsIONNOE">\int_{\lambda_{1}}^{\lambda_{2}} e^{-\lambda s} f(\lambda) d \lambda=\left\{\begin{array}{cl}f(\lambda), &amp; \lambda_{1}&lt;t&lt;\lambda_{2}, \\0, &amp; 0 \leqslant t&lt;\lambda_{1}, t&gt;\lambda_{2},\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_19_OPERATsIONNOE">\int_{0}^{\infty} e^{-\lambda s} f(\lambda) d \lambda=\{f(t)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/23_20_OPERATsIONNOE">F(s)=\int_{0}^{\infty} e^{-s t} f(t) d t</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_1_OPERATsIONNOE">\frac{d}{d t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_2_OPERATsIONNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_3_OPERATsIONNOE">0 \leqslant t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_4_OPERATsIONNOE">f, g \in K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_5_OPERATsIONNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_6_OPERATsIONNOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_7_OPERATsIONNOE">\frac{a}{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_8_OPERATsIONNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_9_OPERATsIONNOE">e=\{1\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_10_OPERATsIONNOE">[\alpha][\beta]=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_11_OPERATsIONNOE">=[\alpha, \beta],[\alpha]\{f\}=\{\alpha f\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_12_OPERATsIONNOE">\{\alpha\}\{\beta\}=\{\alpha \beta t\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_13_OPERATsIONNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_14_OPERATsIONNOE">s=\frac{[1]}{e}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_15_OPERATsIONNOE">a(t)=\{a(t)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_16_OPERATsIONNOE">a^{\prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_17_OPERATsIONNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_18_OPERATsIONNOE">d\{f\}=\{-t f(t)\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_19_OPERATsIONNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_20_OPERATsIONNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_21_OPERATsIONNOE">x(0)=\gamma_{0}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_22_OPERATsIONNOE">x^{(n-1)}(0)=\gamma_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_23_OPERATsIONNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_24_OPERATsIONNOE">\boldsymbol{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_25_OPERATsIONNOE">f(\lambda, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_26_OPERATsIONNOE">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_27_OPERATsIONNOE">\lambda \in[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_28_OPERATsIONNOE">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_29_OPERATsIONNOE">f(\lambda)=\{f(\lambda, t)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_30_OPERATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_31_OPERATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_32_OPERATsIONNOE">\lambda \in[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_33_OPERATsIONNOE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_34_OPERATsIONNOE">f_{1}(\lambda)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_35_OPERATsIONNOE">=\left\{f_{1}(\lambda, t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_36_OPERATsIONNOE">f_{1}(\lambda, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_37_OPERATsIONNOE">h(\lambda)=\{h(\lambda, t)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_38_OPERATsIONNOE">\mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_39_OPERATsIONNOE">e^{-\lambda s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_40_OPERATsIONNOE">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_41_OPERATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_42_OPERATsIONNOE">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_43_OPERATsIONNOE">2 \lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_44_OPERATsIONNOE">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_45_OPERATsIONNOE">\left[\lambda_{1}, \lambda_{2}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_46_OPERATsIONNOE">\{f\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_47_OPERATsIONNOE">e^{-\lambda s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_48_OPERATsIONNOE">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_49_OPERATsIONNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_50_OPERATsIONNOE">s=\frac{d}{d t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/23_51_OPERATsIONNOE">b=\frac{d}{d t}\left(t \frac{d}{d t}\right)</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/23_1_OPERATsIONNOE">
+      <rel_text>кольцах</rel_text>
+      <target>http://libmeta.ru/me/article/1000_KOL'Ts</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/23_2_OPERATsIONNOE">
+      <rel_text>дифференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/23_3_OPERATsIONNOE">
+      <rel_text>математически</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/23_4_OPERATsIONNOE">
+      <rel_text>формальное</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/23_5_OPERATsIONNOE">
+      <rel_text>параметра</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/23_6_OPERATsIONNOE">
+      <rel_text>функциями</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/23_7_OPERATsIONNOE">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/23_8_OPERATsIONNOE">
+      <rel_text>преобразование Лапласа</rel_text>
+      <target>http://libmeta.ru/me/article/214_LAPLASA</target>
+    </relation>
+  </relations>
+  <text>один Из методов математич. анализа, позволяющий в ряде случаев сводить исследование дифференциальных операторов, псевдодифференциальных операторов и нек-рых типов интегральных операторов и решение уравнений, содержаших эти операторы, к рассмотрению более простых алгебраич. задач. Развитие и систематич. применение О. и. началось с работ O. Хевисайда (o. Heaviside, 1892), к-рый предложил формальные правила обращения с оператором дифференцирования $URI[[http://libmeta.ru/me/formula/aux/23_1_OPERATsIONNOE]]/URI$ и решил ряд прикладных задач. Однако О. и. не получило у него математич. обоснования: оно было дано с помощью Лапласа преобразования; Я. Микусиньский (j. Mikusiński, 1953) алгебраизировал О. и., опираясь на понятие функционального кольца; наиболее общая концепция О. и. получается с помощью обобценных фу ункций.
+
+Простейший вариант О. и. строится следующим образом. Пусть $URI[[http://libmeta.ru/me/formula/aux/23_2_OPERATsIONNOE]]/URI$ - совокупность функций (с действительными или комплексными значениями), заданных в области $URI[[http://libmeta.ru/me/formula/aux/23_3_OPERATsIONNOE]]/URI$ и абсолютно интегрируемых в любом конечном интервале. С в е р т к о й функций $URI[[http://libmeta.ru/me/formula/aux/23_4_OPERATsIONNOE]]/URI$ наз. интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_1_OPERATsIONNOE]]/URI
+\]
+
+Относительно обычного сложения и операции свертки $URI[[http://libmeta.ru/me/formula/aux/23_5_OPERATsIONNOE]]/URI$ становится кольцом без делителей нуля (теорема Титчмарша, 1924). Элементы п о л я ч а с т ны х $URI[[http://libmeta.ru/me/formula/aux/23_6_OPERATsIONNOE]]/URI$ этого кольца наз. о п е р а т о р а м и и обозначаются $URI[[http://libmeta.ru/me/formula/aux/23_7_OPERATsIONNOE]]/URI$; невыполнимость деления в $URI[[http://libmeta.ru/me/formula/aux/23_8_OPERATsIONNOE]]/URI$ как раз и есть источник нового понятия оператора, обобщающего понятие функции. Для выявления необходимого в О. и. различия между понятиями функции и ее значения в точке введены следуюшце обознатения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_2_OPERATsIONNOE]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/23_3_OPERATsIONNOE]]/URI
+\]
+
+П риме ры о пе рат о ров.
+
+1) $URI[[http://libmeta.ru/me/formula/aux/23_9_OPERATsIONNOE]]/URI$ о пе р а т ор ин т е г ри р о в ани и:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_4_OPERATsIONNOE]]/URI
+\]
+
+при этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_5_OPERATsIONNOE]]/URI
+\]
+
+Ii, в частностіi,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1021c09c310512cf943bg-1.jpg?height=131&amp;width=414&amp;top_left_y=1016&amp;top_left_x=1192)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_6_OPERATsIONNOE]]/URI
+\]
+
+әто - формула Когши, обобщение к-рої на случай проiззольного (нецелого) показателя служит для определения дробного интегрирования.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1021c09c310512cf943bg-1.jpg?height=69&amp;width=792&amp;top_left_y=1323&amp;top_left_x=1011)
+л о в о й о п е р а т о р; поскольку $URI[[http://libmeta.ru/me/formula/aux/23_10_OPERATsIONNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/23_11_OPERATsIONNOE]]/URI$, в то время как $URI[[http://libmeta.ru/me/formula/aux/23_12_OPERATsIONNOE]]/URI$, то числовые операторы ведут себя как обычные числа. Таким образом, оператор является обобщением не только функции, но 'и числа; единицей кольца $URI[[http://libmeta.ru/me/formula/aux/23_13_OPERATsIONNOE]]/URI$ является [1].
+
+3) $URI[[http://libmeta.ru/me/formula/aux/23_14_OPERATsIONNOE]]/URI$ о п е р а т о р ди ффе р е нци и ов а н и я, обратный оператору интегрирования. Так, если функция $URI[[http://libmeta.ru/me/formula/aux/23_15_OPERATsIONNOE]]/URI$ имеет производную $URI[[http://libmeta.ru/me/formula/aux/23_16_OPERATsIONNOE]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_7_OPERATsIONNOE]]/URI
+\]
+
+u
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_8_OPERATsIONNOE]]/URI
+\]
+
+отсюда, напр.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_9_OPERATsIONNOE]]/URI
+\]
+
+На оператор дифференцирования $URI[[http://libmeta.ru/me/formula/aux/23_17_OPERATsIONNOE]]/URI$ можно умножать ше только дифференцируемые функции, однако результат есть уже, вообще говоря, оператор.
+
+4) $URI[[http://libmeta.ru/me/formula/aux/23_18_OPERATsIONNOE]]/URI$ а лге б р а и ческ а я п рои з в о д н а я, она распространяется на произвольные операторы обычным способом, при әтом оказывается, что действие этого оператора на функции от $URI[[http://libmeta.ru/me/formula/aux/23_19_OPERATsIONNOE]]/URI$ совпадают с дифференцированием по $URI[[http://libmeta.ru/me/formula/aux/23_20_OPERATsIONNOE]]/URI$.
+
+О. и. дает удобные способы решения линейных дифференциальных уравнений как обыкновенных, так и с частными производными. Напр., решөние уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_10_OPERATsIONNOE]]/URI
+\]
+
+удовлетворяющее начальным условиям $URI[[http://libmeta.ru/me/formula/aux/23_21_OPERATsIONNOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/23_22_OPERATsIONNOE]]/URI$ автоматически приводится к алгебраич. уравнению и символически выражается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_11_OPERATsIONNOE]]/URI
+\]
+
+решение в обычном виде получается разложением на элементарные дроби от переменной $URI[[http://libmeta.ru/me/formula/aux/23_23_OPERATsIONNOE]]/URI$ с последующим обратным переходом по соответствующим таблицам $URI[[http://libmeta.ru/me/formula/aux/23_24_OPERATsIONNOE]]/URI$ функциям.
+
+Для применения О. и. к уравнениям с частными производными (а также к более общим псевдодифференциальным уравнениям) строятся дифференциальное и интегральное исчисления о п е р а т о р в ы х фу у кц и й, т. е. функций, значениями к-рых являются операторы: вводятся понятия непрерывности, производнӧ̈, сходимости ряда, интеграла и т. Д.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/23_25_OPERATsIONNOE]]/URI$ - нек-рая функция, определенная для $URI[[http://libmeta.ru/me/formula/aux/23_26_OPERATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/23_27_OPERATsIONNOE]]/URI$. П а р а м е т р и ч е с к а я о пер ат о р н а я фу у н ци я $URI[[http://libmeta.ru/me/formula/aux/23_28_OPERATsIONNOE]]/URI$ определяется формулой $URI[[http://libmeta.ru/me/formula/aux/23_29_OPERATsIONNOE]]/URI$; она ставит в соответствие рассматриваемым значениям $URI[[http://libmeta.ru/me/formula/aux/23_30_OPERATsIONNOE]]/URI$ операторы частного вида - функции от $URI[[http://libmeta.ru/me/formula/aux/23_31_OPERATsIONNOE]]/URI$. Операторная функция наз. непрерывной при $URI[[http://libmeta.ru/me/formula/aux/23_32_OPERATsIONNOE]]/URI$, если она представима как произведение некрого оператора $URI[[http://libmeta.ru/me/formula/aux/23_33_OPERATsIONNOE]]/URI$ и такой параметрич. функции $URI[[http://libmeta.ru/me/formula/aux/23_34_OPERATsIONNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/23_35_OPERATsIONNOE]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/23_36_OPERATsIONNOE]]/URI$ непрерывна в обычном смысле. П р и м е р ы. 1) С помощью параметрич. функции $URI[[http://libmeta.ru/me/formula/aux/23_37_OPERATsIONNOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_12_OPERATsIONNOE]]/URI
+\]
+
+определяется ф у н к и я $URI[[http://libmeta.ru/me/formula/aux/23_38_OPERATsIONNOE]]/URI$ е в и с а їі д а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_13_OPERATsIONNOE]]/URI
+\]
+
+значения г и п е р болич и с к о й п о к а з а т е льно Ї̈ ф у нкци и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_14_OPERATsIONNOE]]/URI
+\]
+
+наз. о п е р а то р а м и д в и г а, поскольку умножение данной функции на $URI[[http://libmeta.ru/me/formula/aux/23_39_OPERATsIONNOE]]/URI$ вызывает смещение ее графика на длину $URI[[http://libmeta.ru/me/formula/aux/23_40_OPERATsIONNOE]]/URI$ в положительном направлении оси $URI[[http://libmeta.ru/me/formula/aux/23_41_OPERATsIONNOE]]/URI$.
+
+2) Решение уравнения теплопроводности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_15_OPERATsIONNOE]]/URI
+\]
+
+выражается через п а р а б о ли ч е с ку ю по к аз а т л л в у оф у нкци и (являюццуюся также параметрической операторноӥ функцией):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_16_OPERATsIONNOE]]/URI
+\]
+
+3) Периодич. Функция $URI[[http://libmeta.ru/me/formula/aux/23_42_OPERATsIONNOE]]/URI$ с периодом $URI[[http://libmeta.ru/me/formula/aux/23_43_OPERATsIONNOE]]/URI$ имеет представление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_17_OPERATsIONNOE]]/URI
+\]
+
+4) Если $URI[[http://libmeta.ru/me/formula/aux/23_44_OPERATsIONNOE]]/URI$ принимает числовые значения в интервале $URI[[http://libmeta.ru/me/formula/aux/23_45_OPERATsIONNOE]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_18_OPERATsIONNOE]]/URI
+\]
+
+т. е. умножение данной функции $URI[[http://libmeta.ru/me/formula/aux/23_46_OPERATsIONNOE]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/23_47_OPERATsIONNOE]]/URI$ с последующим интегрированием вызывает у сечен и е ее графика. В частности,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_19_OPERATsIONNOE]]/URI
+\]
+
+такім образом, каждой функции $URI[[http://libmeta.ru/me/formula/aux/23_48_OPERATsIONNOE]]/URI$, для к-рой рассмат- риваемый интеграл
+аналитич. функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/23_20_OPERATsIONNOE]]/URI
+\]
+
+- ее URI[[http://libmeta.ru/me/relation/23_8_OPERATsIONNOE]]/URI. Благодаря этому обстоятельству довольно обширный URI[[http://libmeta.ru/me/relation/23_7_OPERATsIONNOE]]/URI операторов описывается URI[[http://libmeta.ru/me/relation/23_6_OPERATsIONNOE]]/URI одного URI[[http://libmeta.ru/me/relation/23_5_OPERATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/23_49_OPERATsIONNOE]]/URI$, более того, это URI[[http://libmeta.ru/me/relation/23_4_OPERATsIONNOE]]/URI сходство уточняется URI[[http://libmeta.ru/me/relation/23_3_OPERATsIONNOE]]/URI установлением определенного изоморфизма.
+
+Имеются различные обобщения О. и.; таково О. и. URI[[http://libmeta.ru/me/relation/23_2_OPERATsIONNOE]]/URI операторов, отличных от $URI[[http://libmeta.ru/me/formula/aux/23_50_OPERATsIONNOE]]/URI$, напр. $URI[[http://libmeta.ru/me/formula/aux/23_51_OPERATsIONNOE]]/URI$, к-рое основывается на функциональных URI[[http://libmeta.ru/me/relation/23_1_OPERATsIONNOE]]/URI с надлежащим образом определенным произведением.</text>
+  <text_orig>одИН ИЗ методов математич. анализа, позволяющий в ряде случаев сводить исследование дифференциальных операторов, псевдодифференциальных операторов и нек-рых типов интегральных операторов и решение уравнений, содержаших эти операторы, к рассмотрению более простых алгебраич. задач. Развитие и систематич. применение О. и. началось с работ O. Хевисайда (O. Heaviside, 1892), к-рый предложил формальные правила обращения с оператором дифференцирования $\frac{d}{d t}$ и решил ряд прикладных задач. Однако О. и. не получило у него математич. обоснования: оно было дано с помощью Лапласа преобразования; Я. Микусиньский (J. Mikusiński, 1953) алгебраизировал О. и., опираясь на понятие функционального кольца; наиболее общая концепция О. и. получается с помощью обобценных фу ункций.
+
+Простейший вариант О. и. строится следующим образом. Пусть $K$ - совокупность функций (с действительными или комплексными значениями), заданных в области $0 \leqslant t&lt;\infty$ и абсолютно интегрируемых в любом конечном интервале. С в е р т к о й функций $f, g \in K$ наз. интеграл
+
+\[
+h-f * g=\int_{0}^{t} f(t-\tau) g(\tau) d \tau .
+\]
+
+Относительно обычного сложения и операции свертки $K$ становится кольцом без делителей нуля (теорема Титчмарша, 1924). Элементы п о л я ч а с т ны х $P$ этого кольца наз. о п е р а т о р а м и и обозначаются $\frac{a}{b}$; невыполнимость деления в $K$ как раз и есть источник нового понятия оператора, обобщающего понятие функции. Для выявления необходимого в О. и. различия между понятиями функции и ее значения в точке введены следуюшце обознатения:
+
+\[
+\{f(t)\} \text { - функция } f(t) \text {; }
+\]\[
+f(t) \text { - значение } f(t) \text { в точке } t \text {. }
+\]
+
+П риме ры о пе рат о ров.
+
+1) $e=\{1\}-$ о пе р а т ор ин т е г ри р о в ани и:
+
+\[
+\{1\}\{f\}=\left\{\int_{0}^{t} f(\tau) d \tau\right\},
+\]
+
+при этом
+
+\[
+e p=\left\{\frac{t^{p-1}}{\Gamma(p)}\right\}
+\]
+
+II, в частностіI,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1021c09c310512cf943bg-1.jpg?height=131&amp;width=414&amp;top_left_y=1016&amp;top_left_x=1192)
+
+\[
+\begin{aligned}
+&amp; =\int_{0}^{t} \frac{(t-\tau)^{n-1}}{(n-1) !} f(\tau) d \tau \text {; }
+\end{aligned}
+\]
+
+әто - формула Когши, обобщение к-рої на случай проIззольного (нецелого) показателя служит для определения дробного интегрирования.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1021c09c310512cf943bg-1.jpg?height=69&amp;width=792&amp;top_left_y=1323&amp;top_left_x=1011)
+л о в о й о п е р а т о р; поскольку $[\alpha][\beta]=$ $=[\alpha, \beta],[\alpha]\{f\}=\{\alpha f\}$, в то время как $\{\alpha\}\{\beta\}=\{\alpha \beta t\}$, то числовые операторы ведут себя как обычные числа. Таким образом, оператор является обобщением не только функции, но 'и числа; единицей кольца $K$ является [1].
+
+3) $s=\frac{[1]}{e}-$ о п е р а т о р ди ффе р е нци и ов а н и я, обратный оператору интегрирования. Так, если функция $a(t)=\{a(t)\}$ имеет производную $a^{\prime}(t)$, то
+
+\[
+s\{a\}=\left\{a^{\prime}\right\}+[a(0)]
+\]
+
+u
+
+\[
+\left\{a^{(n)}\right\}=s^{n}\{a\}-s^{n-1}[a(0)]-\ldots-\left[a^{n-1}(0)\right]
+\]
+
+отсюда, напр.
+
+\[
+\left\{e^{\alpha t}\right\}=\frac{1}{s-a} \text {. }
+\]
+
+На оператор дифференцирования $s$ можно умножать ше только дифференцируемые функции, однако результат есть уже, вообще говоря, оператор.
+
+4) $D\{f\}=\{-t f(t)\}-$ а лге б р а и ческ а я п рои з в о д н а я, она распространяется на произвольные операторы обычным способом, при әтом оказывается, что действие этого оператора на функции от $s$ совпадают с дифференцированием по $s$.
+
+О. и. дает удобные способы решения линейных дифференциальных уравнений как обыкновенных, так и с частными производными. Напр., решөние уравнения
+
+\[
+\alpha_{n} x^{(n)}+\ldots+\alpha_{0} x=f, \alpha_{i}=\text { const, } i=0,1, \ldots, n,
+\]
+
+удовлетворяющее начальным условиям $x(0)=\gamma_{0}, \ldots$, $x^{(n-1)}(0)=\gamma_{n-1}$ автоматически приводится к алгебраич. уравнению и символически выражается формулой
+
+\[
+\begin{gathered}
+x=\frac{\beta_{n-1} s^{n-1}+\ldots+\beta_{0}+f}{\alpha_{n} s^{n}+\ldots+\alpha_{0}}, \\
+\beta_{v}=\alpha_{v+1} \gamma_{0}+\ldots+\alpha_{n} \gamma_{n-v-1},
+\end{gathered}
+\]
+
+решение в обычном виде получается разложением на элементарные дроби от переменной $s$ с последующим обратным переходом по соответствующим таблицам $\boldsymbol{k}$ функциям.
+
+Для применения О. и. к уравнениям с частными производными (а также к более общим псевдодифференциальным уравнениям) строятся дифференциальное и интегральное исчисления о п е р а т о р в ы х фу у кц и й, т. е. функций, значениями к-рых являются операторы: вводятся понятия непрерывности, производнӧ̈, сходимости ряда, интеграла и т. Д.
+
+Пусть $f(\lambda, t)$ - нек-рая функция, определенная для $t \geqslant 0$ и $\lambda \in[a, b]$. П а р а м е т р и ч е с к а я о пер ат о р н а я фу у н ци я $f(\lambda)$ определяется формулой $f(\lambda)=\{f(\lambda, t)\}$; она ставит в соответствие рассматриваемым значениям $\lambda$ операторы частного вида - функции от $t$. Операторная функция наз. непрерывной при $\lambda \in[a, b]$, если она представима как произведение некрого оператора $q$ и такой параметрич. функции $f_{1}(\lambda)=$ $=\left\{f_{1}(\lambda, t)\right\}$, что $f_{1}(\lambda, t)$ непрерывна в обычном смысле. П р и м е р ы. 1) С помощью параметрич. функции $h(\lambda)=\{h(\lambda, t)\}$
+
+\[
+h(\lambda, t)=\left\{\begin{array}{cl}
+0 &amp; \text { для } 0 \leqslant t&lt;\lambda, \\
+t-\lambda &amp; \text { для } 0 \leqslant \lambda \leqslant t,
+\end{array}\right.
+\]
+
+определяется ф у н к и я $\mathrm{X}$ е в и с а їі д а
+
+\[
+H(\lambda)=s\{h(\lambda, t)\}
+\]
+
+значения г и п е р болич и с к о й п о к а з а т е льно Ї̈ ф у нкци и
+
+\[
+e^{-\lambda s} \equiv s H(\lambda)=s^{2}\{h(\lambda, t)\}
+\]
+
+наз. о п е р а то р а м и д в и г а, поскольку умножение данной функции на $e^{-\lambda s}$ вызывает смещение ее графика на длину $\lambda$ в положительном направлении оси $t$.
+
+2) Решение уравнения теплопроводности
+
+\[
+\frac{\partial x}{\partial t}=\alpha^{2} \frac{\partial^{2} x}{\partial \lambda^{2}}
+\]
+
+выражается через п а р а б о ли ч е с ку ю по к аз а т л л в у оф у нкци и (являюццуюся также параметрической операторноӥ функцией):
+
+\[
+e-\alpha \lambda \vee \bar{s}=\left\{\frac{\lambda}{2 \sqrt{\pi} t^{3}} \exp \left(-\frac{\lambda^{2}}{4 t}\right)\right\}
+\]
+
+3) Периодич. Функция $f(t)$ с периодом $2 \lambda_{0}$ имеет представление
+
+\[
+\{f\}=\frac{\int_{0}^{2 \lambda_{0}} e^{-\lambda s_{f}(\lambda) d \lambda}}{1-e^{-2 \lambda_{0} s}} .
+\]
+
+4) Если $f(\lambda)$ принимает числовые значения в интервале $\left[\lambda_{1}, \lambda_{2}\right]$, то
+
+\[
+\int_{\lambda_{1}}^{\lambda_{2}} e^{-\lambda s} f(\lambda) d \lambda=\left\{\begin{array}{cl}
+f(\lambda), &amp; \lambda_{1}&lt;t&lt;\lambda_{2}, \\
+0, &amp; 0 \leqslant t&lt;\lambda_{1}, t&gt;\lambda_{2},
+\end{array}\right.
+\]
+
+т. е. умножение данной функции $\{f\}$ на $e^{-\lambda s}$ с последующим интегрированием вызывает у сечен и е ее графика. В частности,
+
+\[
+\int_{0}^{\infty} e^{-\lambda s} f(\lambda) d \lambda=\{f(t)\}
+\]
+
+такім образом, каждой функции $f(t)$, для к-рой рассмат- риваемый интеграл
+аналитич. функция
+
+\[
+F(s)=\int_{0}^{\infty} e^{-s t} f(t) d t
+\]
+
+- ее преобразование Лапласа. Благодаря этому обстоятельству довольно обширный класс операторов описывается функциями одного параметра $s$, более того, это формальное сходство уточняется математически установлением определенного изоморфизма.
+
+Имеются различные обобщения О. и.; таково О. и. дифференциальных операторов, отличных от $s=\frac{d}{d t}$, напр. $b=\frac{d}{d t}\left(t \frac{d}{d t}\right)$, к-рое основывается на функциональных кольцах с надлежащим образом определенным произведением.
+
+Лuт.: [1] Д и т к и н В. А., П р у Д н и ко в А. П., Справочник по операционному исчислению, М., 1965; [2] М и к у с и нМ. И. Войчеховский.</text_orig>
+</article>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/380_EVKLIDA" alphabetic_pos="380">
+  <title>ЕВКЛИДА АЛГОРИТМ</title>
+  <authors/>
+  <pages>
+    <start>200</start>
+    <end>200</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/380_1_EVKLIDA">\left.\begin{array}{c}a=n b+b_{1}, \\b=n_{1} b_{1}+b_{2}, \\b_{1}=n_{2} b_{2}+b_{3},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/380_2_EVKLIDA">\begin{gathered}b_{k-2}=n_{k-1} b_{k-1}+b_{k}, \\b_{k-1}=n_{k} b_{k} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_1_EVKLIDA">a \geqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_2_EVKLIDA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_3_EVKLIDA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_4_EVKLIDA">a=n b+b_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_5_EVKLIDA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_6_EVKLIDA">b_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_7_EVKLIDA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_8_EVKLIDA">0 \leqslant b_{1}&lt;b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_9_EVKLIDA">n_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_10_EVKLIDA">0 \leqslant b_{i}&lt;b_{i+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_11_EVKLIDA">b_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_12_EVKLIDA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/380_13_EVKLIDA">b</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/me/relation/380_1_EVKLIDA">
+      <rel_text>процессу</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/380_2_EVKLIDA">
+      <rel_text>отрезков</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/380_3_EVKLIDA">
+      <rel_text>отрезков</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/380_4_EVKLIDA">
+      <rel_text>многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>способ нахо. А. Степанов. ибольшего общего делителя двух целых чисел, двух многочленов (и вообще, двух элементов евклидова кольца) или общей меры двух отрезков. Описан в геометрич. форме в «началах» Евклида (3 в. до н. э.).
+
+Для случая положительных целых чисел $URI[[http://libmeta.ru/me/formula/aux/380_1_EVKLIDA]]/URI$ этот способ состоит в следующем. Деление с остатком числа $URI[[http://libmeta.ru/me/formula/aux/380_2_EVKLIDA]]/URI$ на число $URI[[http://libmeta.ru/me/formula/aux/380_3_EVKLIDA]]/URI$ всегда приводит к результату $URI[[http://libmeta.ru/me/formula/aux/380_4_EVKLIDA]]/URI$, где частное $URI[[http://libmeta.ru/me/formula/aux/380_5_EVKLIDA]]/URI$ - целое положительное число, а остаток $URI[[http://libmeta.ru/me/formula/aux/380_6_EVKLIDA]]/URI$ либо 0 , либо положительное число, меньшее $URI[[http://libmeta.ru/me/formula/aux/380_7_EVKLIDA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/380_8_EVKLIDA]]/URI$. П роизводится последовательное деление:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/380_1_EVKLIDA]]/URI
+\]
+
+где все $URI[[http://libmeta.ru/me/formula/aux/380_9_EVKLIDA]]/URI$ - положительные целые числа и $URI[[http://libmeta.ru/me/formula/aux/380_10_EVKLIDA]]/URI$, до тех пор, пока не получится остаток, равный 0 . Ряд равенств (*) закончится так:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/380_2_EVKLIDA]]/URI
+\]
+
+Последний положительный остаток $URI[[http://libmeta.ru/me/formula/aux/380_11_EVKLIDA]]/URI$ в этом процессе и является наибольшим общим делителем чисел $URI[[http://libmeta.ru/me/formula/aux/380_12_EVKLIDA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/380_13_EVKLIDA]]/URI$.
+
+E. a. для URI[[http://libmeta.ru/me/relation/380_4_EVKLIDA]]/URI или URI[[http://libmeta.ru/me/relation/380_3_EVKLIDA]]/URI аналогичны E. a. для целых чисел. В случае несоизмеримых URI[[http://libmeta.ru/me/relation/380_2_EVKLIDA]]/URI применение Е. а. приводит к бесконечному URI[[http://libmeta.ru/me/relation/380_1_EVKLIDA]]/URI.</text>
+  <text_orig>способ нахо. А. Степанов. ибольшего общего делителя двух целых чисел, двух многочленов (и вообще, двух элементов евклидова кольца) или общей меры двух отрезков. Описан в геометрич. форме в «Началах» Евклида (3 в. до н. э.).
+
+Для случая положительных целых чисел $a \geqslant b$ этот способ состоит в следующем. Деление с остатком числа $a$ на число $b$ всегда приводит к результату $a=n b+b_{1}$, где частное $n$ - целое положительное число, а остаток $b_{1}$ либо 0 , либо положительное число, меньшее $b$, $0 \leqslant b_{1}&lt;b$. П роизводится последовательное деление:
+
+\[
+\left.\begin{array}{c}
+a=n b+b_{1}, \\
+b=n_{1} b_{1}+b_{2}, \\
+b_{1}=n_{2} b_{2}+b_{3},
+\end{array}\right\}
+\]
+
+где все $n_{i}$ - положительные целые числа и $0 \leqslant b_{i}&lt;b_{i+1}$, до тех пор, пока не получится остаток, равный 0 . Ряд равенств (*) закончится так:
+
+\[
+\begin{gathered}
+b_{k-2}=n_{k-1} b_{k-1}+b_{k}, \\
+b_{k-1}=n_{k} b_{k} .
+\end{gathered}
+\]
+
+Последний положительный остаток $b_{k}$ в этом процессе и является наибольшим общим делителем чисел $a$ и $b$.
+
+E. a. для многочленов или отрезков аналогичны E. a. для целых чисел. В случае несоизмеримых отрезков применение Е. а. приводит к бесконечному процессу.</text_orig>
+</article>

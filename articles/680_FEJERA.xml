@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/680_FEJERA" alphabetic_pos="680">
+  <title>ФЕЙЕРА МЕТОД СУММИРОВАНИЯ</title>
+  <authors/>
+  <pages>
+    <start>301</start>
+    <end>301</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] F e J é r L., &quot;math. Ann.&quot;, 1903, Bd 58, S. 51-69; [2] L e b e s g u e H., &quot;math. Ann.&quot;, 1905, Bd 61, S. 251-80; 3 и г м у нд А , Тригонометрические ряды, пер. с англ., т. 12, М., 1965.</literature_orig>
+    <unit>
+      <author>Fe Jér L.</author>
+      <title>&quot;math. Ann.&quot;</title>
+      <publication/>
+      <year>1903</year>
+      <other>Bd 58, S. 51-69</other>
+    </unit>
+    <unit>
+      <author>Lebesgue H.</author>
+      <title>&quot;math. Ann.&quot;</title>
+      <publication/>
+      <year>1905</year>
+      <other>Bd 61, S. 251-80; 3 и г м у нд А, Тригонометрические ряды, пер. с англ., т. 12, М., 1965.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/680_1_FEJERA">\frac{1}{2}+\sum_{n=1}^{\infty}\left(a_{n} \cos n x+b_{n} \sin n x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/680_2_FEJERA">\lim _{n \rightarrow \infty} \sigma_{n}(x)=s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/680_3_FEJERA">\sigma_{n}(x)=\frac{1}{n+1} \sum_{k=0}^{n} s_{k}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/680_4_FEJERA">\begin{gathered}K_{n}(x)=\frac{1}{n+1} \sum_{k=0}^{n}\left(\frac{1}{2}+\sum_{v=1}^{k} \cos v x\right) \equiv \\\equiv \frac{1}{2(n+1)}\left(\frac{\sin (n+1) \frac{x}{2}}{\sin \frac{x}{2}}\right)^{2}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/680_5_FEJERA">\sigma_{n}(x)=\frac{1}{\pi} \int_{-\pi}^{\pi} f(x+u) K_{n}(u) d u</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_1_FEJERA">f(x) \in L(-\pi, \pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_2_FEJERA">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_3_FEJERA">s_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_4_FEJERA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_5_FEJERA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_6_FEJERA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_7_FEJERA">\kappa \frac{f(x+0)+f(x-0)}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_8_FEJERA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_9_FEJERA">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_10_FEJERA">[\alpha, \beta] \subset(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_11_FEJERA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_12_FEJERA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_13_FEJERA">[-\pi, \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_14_FEJERA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_15_FEJERA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_16_FEJERA">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/680_17_FEJERA">f(x)</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/680_1_FEJERA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/680_2_FEJERA">
+      <rel_text>средние</rel_text>
+      <target>http://libmeta.ru/me/article/165_SREDNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/680_3_FEJERA">
+      <rel_text>Функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>средних ариф.метических метод суммирования, примененный к суммированию рядов Фурье. Впервые был применен Л. Фейером [1].
+
+Ряд Фурье
+
+\[
+URI[[http://libmeta.ru/me/formula/main/680_1_FEJERA]]/URI
+\]
+
+функции $URI[[http://libmeta.ru/me/formula/aux/680_1_FEJERA]]/URI$ суммируем Ф. м. с. к сумме $URI[[http://libmeta.ru/me/formula/aux/680_2_FEJERA]]/URI$, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/680_2_FEJERA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/680_3_FEJERA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/680_3_FEJERA]]/URI$ - частичные суммы ряда (1).
+
+Если $URI[[http://libmeta.ru/me/formula/aux/680_4_FEJERA]]/URI$-точка непрерывности функции $URI[[http://libmeta.ru/me/formula/aux/680_5_FEJERA]]/URI$ или точка разрыва 1-го рода, то в этой точке ее ряд Фурье суммируем Ф.м.с. соответственно к $URI[[http://libmeta.ru/me/formula/aux/680_6_FEJERA]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/680_7_FEJERA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/680_8_FEJERA]]/URI$ непрерывна на нек-ром интервале $URI[[http://libmeta.ru/me/formula/aux/680_9_FEJERA]]/URI$, то ее ряд Фурье сумміруем Ф.м.с. равномерно на всяком отрезке $URI[[http://libmeta.ru/me/formula/aux/680_10_FEJERA]]/URI$; если же $URI[[http://libmeta.ru/me/formula/aux/680_11_FEJERA]]/URI$ непрерывна всюду, то указанный ряд суммируем равномерно к $URI[[http://libmeta.ru/me/formula/aux/680_12_FEJERA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/680_13_FEJERA]]/URI$ (т е о р ем а Ф е й е р а).
+
+Этот результат был усилен А. Лебегом [2], показавшим, что для любой суммируемой функции $URI[[http://libmeta.ru/me/formula/aux/680_14_FEJERA]]/URI$ ее ряд Фурье почти всюду суммируем Ф. м. с. к $URI[[http://libmeta.ru/me/formula/aux/680_15_FEJERA]]/URI$.
+
+URI[[http://libmeta.ru/me/relation/680_3_FEJERA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/680_4_FEJERA]]/URI
+\]
+
+наз. я д р о м Ф е й е $URI[[http://libmeta.ru/me/formula/aux/680_16_FEJERA]]/URI$ а. С ее помощью URI[[http://libmeta.ru/me/relation/680_2_FEJERA]]/URI Фейера (2) URI[[http://libmeta.ru/me/relation/680_1_FEJERA]]/URI $URI[[http://libmeta.ru/me/formula/aux/680_17_FEJERA]]/URI$ выражаются в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/680_5_FEJERA]]/URI
+\]</text>
+  <text_orig>средних ариф.метических метод суммирования, примененный к суммированию рядов Фурье. Впервые был применен Л. Фейером [1].
+
+Ряд Фурье
+
+\[
+\frac{1}{2}+\sum_{n=1}^{\infty}\left(a_{n} \cos n x+b_{n} \sin n x\right)
+\]
+
+функции $f(x) \in L(-\pi, \pi)$ суммируем Ф. м. с. к сумме $s(x)$, если
+
+\[
+\lim _{n \rightarrow \infty} \sigma_{n}(x)=s(x)
+\]
+
+где
+
+\[
+\sigma_{n}(x)=\frac{1}{n+1} \sum_{k=0}^{n} s_{k}(x),
+\]
+
+$s_{k}(x)$ - частичные суммы ряда (1).
+
+Если $x$-точка непрерывности функции $f(x)$ или точка разрыва 1-го рода, то в этой точке ее ряд Фурье суммируем Ф.м.с. соответственно к $f(x)$ или $\kappa \frac{f(x+0)+f(x-0)}{2}$. Если $f(x)$ непрерывна на нек-ром интервале $(a, b)$, то ее ряд Фурье сумміруем Ф.м.с. равномерно на всяком отрезке $[\alpha, \beta] \subset(a, b)$; если же $f(x)$ непрерывна всюду, то указанный ряд суммируем равномерно к $f(x)$ на $[-\pi, \pi]$ (т е о р ем а Ф е й е р а).
+
+Этот результат был усилен А. Лебегом [2], показавшим, что для любой суммируемой функции $f(x)$ ее ряд Фурье почти всюду суммируем Ф. м. с. к $f(x)$.
+
+Функция
+
+\[
+\begin{gathered}
+K_{n}(x)=\frac{1}{n+1} \sum_{k=0}^{n}\left(\frac{1}{2}+\sum_{v=1}^{k} \cos v x\right) \equiv \\
+\equiv \frac{1}{2(n+1)}\left(\frac{\sin (n+1) \frac{x}{2}}{\sin \frac{x}{2}}\right)^{2}
+\end{gathered}
+\]
+
+наз. я д р о м Ф е й е $\mathrm{p}$ а. С ее помощью средние Фейера (2) функции $f(x)$ выражаются в виде
+
+\[
+\sigma_{n}(x)=\frac{1}{\pi} \int_{-\pi}^{\pi} f(x+u) K_{n}(u) d u
+\]
+
+Jum.: [1] F e J é r L., &quot;Math. Ann.&quot;, 1903, Bd 58, S. 51-69; [2] L e b e s g u e H., &quot;Math. Ann.&quot;, 1905, Bd 61, S. 251-80; 3 и г м у нд А , Тригонометрические ряды, пер. с англ., т. 12, М., 1965.</text_orig>
+</article>

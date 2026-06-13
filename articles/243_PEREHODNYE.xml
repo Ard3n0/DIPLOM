@@ -1,0 +1,241 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/243_PEREHODNYE" alphabetic_pos="243">
+  <title>ПЕРЕХОДНЫЕ ВЕРОЯТНОСТИ</title>
+  <authors/>
+  <pages>
+    <start>131</start>
+    <end>132</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] Ч ж у н К а й - л а й, Однородные цепи Маркова, пер. c англ., M. ${ }^{1964}$.</literature_orig>
+    <unit>
+      <title>Ч ж у н К а й - л а й, Однородные цепи Маркова</title>
+      <publication>пер. c англ.</publication>
+      <year>1964</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/243_1_PEREHODNYE">p_{i j}(t)=\mathrm{P}\{\xi(t)=j \mid \xi(s)=i\}, s&lt;t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_2_PEREHODNYE">p_{i j}(s, u)=\sum_{k \in S} p_{i k}(s, t) p_{k j}(t, u) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_3_PEREHODNYE">p_{i j}(s, t)=p_{i j}(t-s) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_4_PEREHODNYE">\lim _{n \rightarrow \infty} n^{-1} \sum_{k=1}^{n} p_{i j}(k) \geqslant 0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_5_PEREHODNYE">\sum_{j \in S} p_{i j}(t)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_6_PEREHODNYE">\lim _{t \downarrow 0} p_{i j}(t)=0(i \neq j), \lim _{t \downarrow 0} p_{i i}(t)=1, i, j \in S .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_7_PEREHODNYE">\lambda_{i j}=\lim _{t \downarrow 0} t^{-1}\left(p_{i j}(t)-p_{i j}(0)\right) \leqslant \infty, i, j \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_8_PEREHODNYE">p_{i j}(t) \geqslant 0, \sum_{j \in S} p_{i j}(t) \leqslant 1, i, j \in S, t&gt;0 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_9_PEREHODNYE">\sum_{i=0}^{\infty} \lambda_{i}^{-1}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_10_PEREHODNYE">\begin{gathered}\tau_{0 n}=\inf \{t&gt;0: \xi(t)=n(\xi(0)=0)\}, \\\tau=\lim _{n \rightarrow \infty} \tau_{0 n},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/243_11_PEREHODNYE">\mathbf{E} \tau=\sum_{i=1}^{\infty} \lambda_{i}^{-1}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_1_PEREHODNYE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_2_PEREHODNYE">[s, t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_3_PEREHODNYE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_4_PEREHODNYE">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_5_PEREHODNYE">i, j \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_6_PEREHODNYE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_7_PEREHODNYE">s&lt;t&lt;u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_8_PEREHODNYE">p_{i j}(s, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_9_PEREHODNYE">[s, t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_10_PEREHODNYE">i, j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_11_PEREHODNYE">p_{i j}(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_12_PEREHODNYE">p_{i j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_13_PEREHODNYE">p_{i j}(1), i, j \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_14_PEREHODNYE">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_15_PEREHODNYE">i \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_16_PEREHODNYE">p_{i j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_17_PEREHODNYE">t \in(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_18_PEREHODNYE">\lambda_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_19_PEREHODNYE">\sum_{j \in S} \lambda_{i j}=0, i \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_20_PEREHODNYE">p_{i j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_21_PEREHODNYE">p_{i j}^{\prime}(t)=\sum_{k \in S} \lambda_{i k} p_{k j}(t), \quad p_{i j}^{\prime}(t)=\sum_{k \in S} \lambda_{k j} p_{i k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_22_PEREHODNYE">p_{i i}(0)=1, p_{i i}(0)=0, i \neq j, i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_23_PEREHODNYE">j \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_24_PEREHODNYE">p_{i j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_25_PEREHODNYE">\sum_{j \in S} p_{i j}(t)&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_26_PEREHODNYE">i \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_27_PEREHODNYE">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_28_PEREHODNYE">\sum_{j \in S} p_{i j}(t)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_29_PEREHODNYE">=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_30_PEREHODNYE">i \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_31_PEREHODNYE">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_32_PEREHODNYE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_33_PEREHODNYE">\{0,1, \ldots\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_34_PEREHODNYE">\lambda_{i, i+1}=-\lambda_{i i}=\lambda_{i}&gt;0, \lambda_{i j}=0, i \neq j \neq i+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_35_PEREHODNYE">е \tau&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_36_PEREHODNYE">p\{\tau&lt;\infty\}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/243_37_PEREHODNYE">\xi(t)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/243_1_PEREHODNYE">
+      <rel_text>Ветвящихся процессов регулярность</rel_text>
+      <target>http://libmeta.ru/me/article/697_VETVJaSchIHSJa</target>
+    </relation>
+  </relations>
+  <text>вероятности перехода Маркова цепи $URI[[http://libmeta.ru/me/formula/aux/243_1_PEREHODNYE]]/URI$ на отрөзке времени $URI[[http://libmeta.ru/me/formula/aux/243_2_PEREHODNYE]]/URI$ из состояния $URI[[http://libmeta.ru/me/formula/aux/243_3_PEREHODNYE]]/URI$ в состояние $URI[[http://libmeta.ru/me/formula/aux/243_4_PEREHODNYE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_1_PEREHODNYE]]/URI
+\]
+
+Ввиду основного свойства цепи Маркова для любых состояний $URI[[http://libmeta.ru/me/formula/aux/243_5_PEREHODNYE]]/URI$ (где $URI[[http://libmeta.ru/me/formula/aux/243_6_PEREHODNYE]]/URI$ - множество всех состояний цепи) и любых $URI[[http://libmeta.ru/me/formula/aux/243_7_PEREHODNYE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_2_PEREHODNYE]]/URI
+\]
+
+Обычно рассматриваются однородные цепи Маркова, для к-рых П. в. $URI[[http://libmeta.ru/me/formula/aux/243_8_PEREHODNYE]]/URI$ зависят от длины отрезка $URI[[http://libmeta.ru/me/formula/aux/243_9_PEREHODNYE]]/URI$, но не от его положения на оси времени:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_3_PEREHODNYE]]/URI
+\]
+
+Для любых состояний $URI[[http://libmeta.ru/me/formula/aux/243_10_PEREHODNYE]]/URI$ однородной цепи Маркова с дискретным временем последовательность $URI[[http://libmeta.ru/me/formula/aux/243_11_PEREHODNYE]]/URI$ сходится по Чезаро, т. е. существует
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_4_PEREHODNYE]]/URI
+\]
+
+При нек-рых дополнительных условиях (а также для цепей с непрерывным временем) пределы существуют и в обычном смысле. См. Маркова чепь эргодическая, Маркова цепи положительный класс состолний.
+
+П. в. $URI[[http://libmeta.ru/me/formula/aux/243_12_PEREHODNYE]]/URI$ цепи Маркова с дискретным временем определяются значениями $URI[[http://libmeta.ru/me/formula/aux/243_13_PEREHODNYE]]/URI$; для любых $URI[[http://libmeta.ru/me/formula/aux/243_14_PEREHODNYE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/243_15_PEREHODNYE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_5_PEREHODNYE]]/URI
+\]
+
+B случае цепей Маркова с непрерывным временем обычно предполагается, что П. в. удовлетворяют дополнительным условиям: все $URI[[http://libmeta.ru/me/formula/aux/243_16_PEREHODNYE]]/URI$ измеримы как функции $URI[[http://libmeta.ru/me/formula/aux/243_17_PEREHODNYE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_6_PEREHODNYE]]/URI
+\]
+
+При этих предположениях существуют плотности вероятностей перехода
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_7_PEREHODNYE]]/URI
+\]
+
+если все $URI[[http://libmeta.ru/me/formula/aux/243_18_PEREHODNYE]]/URI$ конечны и $URI[[http://libmeta.ru/me/formula/aux/243_19_PEREHODNYE]]/URI$, то П. в. $URI[[http://libmeta.ru/me/formula/aux/243_20_PEREHODNYE]]/URI$ удовлетворяют системам диффференциальных уравнений Колмогорова - Чепмена
+
+$URI[[http://libmeta.ru/me/formula/aux/243_21_PEREHODNYE]]/URI$
+
+с начальными условиями $URI[[http://libmeta.ru/me/formula/aux/243_22_PEREHODNYE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/243_23_PEREHODNYE]]/URI$ (см. также Колмогорова уравнение, Колмогорова Чепмена уравнение).
+
+При задании цепи Маркова плотностями перехода (1) ее П. в. $URI[[http://libmeta.ru/me/formula/aux/243_24_PEREHODNYE]]/URI$ удовлетворяют условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_8_PEREHODNYE]]/URI
+\]
+
+цепи, для к-рых $URI[[http://libmeta.ru/me/formula/aux/243_25_PEREHODNYE]]/URI$ при нек-рых $URI[[http://libmeta.ru/me/formula/aux/243_26_PEREHODNYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/243_27_PEREHODNYE]]/URI$, наз. н е р е г у л я р ны м и (тогда имеет место неединственность решения систем (2)); если $URI[[http://libmeta.ru/me/formula/aux/243_28_PEREHODNYE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/243_29_PEREHODNYE]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/243_30_PEREHODNYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/243_31_PEREHODNYE]]/URI$, то цепь наз. ре г у л я р но й.
+
+П р и м е р. Цепь Маркова $URI[[http://libmeta.ru/me/formula/aux/243_32_PEREHODNYE]]/URI$ с множеством состояний $URI[[http://libmeta.ru/me/formula/aux/243_33_PEREHODNYE]]/URI$ п плотностями перехода
+
+$URI[[http://libmeta.ru/me/formula/aux/243_34_PEREHODNYE]]/URI$ ![](https://cdn.mathpix.com/cropped/2023_07_08_91b9dede95c244c8aac8g-1.jpg?height=45&amp;width=816&amp;top_left_y=176&amp;top_left_x=140)
+нерегулярна тогда и только тогда, когда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_9_PEREHODNYE]]/URI
+\]
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_10_PEREHODNYE]]/URI
+\]
+
+тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/243_11_PEREHODNYE]]/URI
+\]
+
+и при $URI[[http://libmeta.ru/me/formula/aux/243_35_PEREHODNYE]]/URI$ имеет место $URI[[http://libmeta.ru/me/formula/aux/243_36_PEREHODNYE]]/URI$, т. е. траектория цепи $URI[[http://libmeta.ru/me/formula/aux/243_37_PEREHODNYE]]/URI$ «с вероятностью 1 за конечное время уходит в бесконечность&quot; (см. также URI[[http://libmeta.ru/me/relation/243_1_PEREHODNYE]]/URI).</text>
+  <text_orig>вероятности перехода Маркова цепи $\xi(t)$ на отрөзке времени $[s, t]$ из состояния $i$ в состояние $j$ :
+
+\[
+p_{i j}(t)=\mathrm{P}\{\xi(t)=j \mid \xi(s)=i\}, s&lt;t .
+\]
+
+Ввиду основного свойства цепи Маркова для любых состояний $i, j \in S$ (где $S$ - множество всех состояний цепи) и любых $s&lt;t&lt;u$
+
+\[
+p_{i j}(s, u)=\sum_{k \in S} p_{i k}(s, t) p_{k j}(t, u) .
+\]
+
+Обычно рассматриваются однородные цепи Маркова, для к-рых П. в. $p_{i j}(s, t)$ зависят от длины отрезка $[s, t]$, но не от его положения на оси времени:
+
+\[
+p_{i j}(s, t)=p_{i j}(t-s) \text {. }
+\]
+
+Для любых состояний $i, j$ однородной цепи Маркова с дискретным временем последовательность $p_{i j}(n)$ сходится по Чезаро, т. е. существует
+
+\[
+\lim _{n \rightarrow \infty} n^{-1} \sum_{k=1}^{n} p_{i j}(k) \geqslant 0 .
+\]
+
+При нек-рых дополнительных условиях (а также для цепей с непрерывным временем) пределы существуют и в обычном смысле. См. Маркова чепь эргодическая, Маркова цепи положительный класс состолний.
+
+П. в. $p_{i j}(t)$ цепи Маркова с дискретным временем определяются значениями $p_{i j}(1), i, j \in S$; для любых $t&gt;0$, $i \in S$
+
+\[
+\sum_{j \in S} p_{i j}(t)=1
+\]
+
+B случае цепей Маркова с непрерывным временем обычно предполагается, что П. в. удовлетворяют дополнительным условиям: все $p_{i j}(t)$ измеримы как функции $t \in(0, \infty)$,
+
+\[
+\lim _{t \downarrow 0} p_{i j}(t)=0(i \neq j), \lim _{t \downarrow 0} p_{i i}(t)=1, i, j \in S .
+\]
+
+При этих предположениях существуют плотности вероятностей перехода
+
+\[
+\lambda_{i j}=\lim _{t \downarrow 0} t^{-1}\left(p_{i j}(t)-p_{i j}(0)\right) \leqslant \infty, i, j \in S
+\]
+
+если все $\lambda_{i j}$ конечны и $\sum_{j \in S} \lambda_{i j}=0, i \in S$, то П. в. $p_{i j}(t)$ удовлетворяют системам диффференциальных уравнений Колмогорова - Чепмена
+
+$p_{i j}^{\prime}(t)=\sum_{k \in S} \lambda_{i k} p_{k j}(t), \quad p_{i j}^{\prime}(t)=\sum_{k \in S} \lambda_{k j} p_{i k}(t)$
+
+с начальными условиями $p_{i i}(0)=1, p_{i i}(0)=0, i \neq j, i$, $j \in S$ (см. также Колмогорова уравнение, Колмогорова Чепмена уравнение).
+
+При задании цепи Маркова плотностями перехода (1) ее П. в. $p_{i j}(t)$ удовлетворяют условиям
+
+\[
+p_{i j}(t) \geqslant 0, \sum_{j \in S} p_{i j}(t) \leqslant 1, i, j \in S, t&gt;0 ;
+\]
+
+цепи, для к-рых $\sum_{j \in S} p_{i j}(t)&lt;1$ при нек-рых $i \in S$ и $t&gt;0$, наз. н е р е г у л я р ны м и (тогда имеет место неединственность решения систем (2)); если $\sum_{j \in S} p_{i j}(t)=$ $=1$ для всех $i \in S$ и $t&gt;0$, то цепь наз. ре г у л я р но й.
+
+П р и м е р. Цепь Маркова $\xi(t)$ с множеством состояний $\{0,1, \ldots\}$ п плотностями перехода
+
+$\lambda_{i, i+1}=-\lambda_{i i}=\lambda_{i}&gt;0, \lambda_{i j}=0, i \neq j \neq i+1$ ![](https://cdn.mathpix.com/cropped/2023_07_08_91b9dede95c244c8aac8g-1.jpg?height=45&amp;width=816&amp;top_left_y=176&amp;top_left_x=140)
+нерегулярна тогда и только тогда, когда
+
+\[
+\sum_{i=0}^{\infty} \lambda_{i}^{-1}&lt;\infty
+\]
+
+Пусть
+
+\[
+\begin{gathered}
+\tau_{0 n}=\inf \{t&gt;0: \xi(t)=n(\xi(0)=0)\}, \\
+\tau=\lim _{n \rightarrow \infty} \tau_{0 n},
+\end{gathered}
+\]
+
+тогда
+
+\[
+\mathbf{E} \tau=\sum_{i=1}^{\infty} \lambda_{i}^{-1}
+\]
+
+и при $Е \tau&lt;\infty$ имеет место $P\{\tau&lt;\infty\}=1$, т. е. траектория цепи $\xi(t)$ «с вероятностью 1 за конечное время уходит в бесконечность&quot; (см. также Ветвящихся процессов регулярность).
+
+Лuт.: [1] Ч ж у н К а й - л а й, Однородные цепи Маркова, пер. c англ., M. ${ }^{1964}$.</text_orig>
+</article>

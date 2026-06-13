@@ -1,0 +1,484 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/143_ALGORITM" alphabetic_pos="143">
+  <title>АЛГОРИТМ ЛОКАЛЫНЫЙ</title>
+  <authors>
+    <author>Ю. И. Нуравлев</author>
+  </authors>
+  <pages>
+    <start>105</start>
+    <end>106</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Ж у р а в л е в Ю. И., &quot;кибернетика&quot;, 1965, № 1, с. $12-19 ; 1966, \mathcal{N}_{2} 2$, с. $1-11 ;[2]$ Х у т о р я н с к а н Ю. И., сб. «проблемы кибернетики&quot;, 1962 , вып. 8, с. 5-44.См. также лит. при статье Булевых бункций минимизачия.</literature_orig>
+    <unit>
+      <author>Журавлев Ю. И.</author>
+      <title>&quot;кибернетика&quot;</title>
+      <publication/>
+      <year>1965</year>
+      <other>№ 1, с. $12-19 ; 1966, \mathcal{N}_{2} 2$, с. $1-11</other>
+    </unit>
+    <unit>
+      <author>$Хуторянскан Ю. И.</author>
+      <title>сб. «проблемы кибернетики&quot;</title>
+      <publication/>
+      <year>1962</year>
+      <other>вып. 8, с. 5-44.См. также лит. при статье Булевых бункций минимизачия.</other>
+    </unit>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_1_ALGORITM">\{\mathfrak{m}: \mathfrak{M} \in M\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_2_ALGORITM">(\mathfrak{h}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_3_ALGORITM">\mathfrak{a} \in \mathfrak{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_4_ALGORITM">s(\mathfrak{h}, \mathfrak{M}) \equiv \mathfrak{M}), 3)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_5_ALGORITM">\mathfrak{u} \in \mathfrak{W}_{1}, \mathfrak{Y} \in \mathfrak{M}_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_6_ALGORITM">s\left(\mathfrak{y}, \mathfrak{M} \mathfrak{M}_{1}\right) \sqsubseteq</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_7_ALGORITM">\subseteq \mathfrak{M}_{2} \subseteq \mathfrak{M}_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_8_ALGORITM">s\left(\mathfrak{y}, \mathfrak{M}_{1}\right)=S\left(\mathfrak{Y}, \mathfrak{M}_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_9_ALGORITM">\bar{s}(\mathfrak{h}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_10_ALGORITM">\mathfrak{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_11_ALGORITM">\mathfrak{d} \mathcal{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_12_ALGORITM">\gamma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_13_ALGORITM">\gamma=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_14_ALGORITM">=m_{1} \cup M_{2}, \quad M_{1}=\left\{a_{1}, a_{2}, \ldots, a_{q}\right\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_15_ALGORITM">\gamma, \quad M_{2}=\left\{\left(a_{i_{1}}, a_{i_{2}}\right), \ldots,\left(a_{r_{p}}, a_{r_{t}}\right)\right\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_16_ALGORITM">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_17_ALGORITM">s_{1}(r, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_18_ALGORITM">r=\left(a_{i}, a_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_19_ALGORITM">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_20_ALGORITM">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_21_ALGORITM">s_{1}(r, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_22_ALGORITM">s_{n-1}(R, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_23_ALGORITM">s_{n}(r, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_24_ALGORITM">s_{n-1}(R, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_25_ALGORITM">s_{n}(r, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_26_ALGORITM">s_{1}\left(a_{j}, \Gamma\right), \ldots, S_{n}\left(a_{j}, \Gamma\right), \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_27_ALGORITM">a_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_28_ALGORITM">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_29_ALGORITM">(\mathfrak{h}, \mathfrak{M}), \mathfrak{A} \in \mathfrak{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_30_ALGORITM">p_{1}(\mathfrak{y}, \mathfrak{W}), \ldots, P_{l}(\mathfrak{Y}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_31_ALGORITM">\left\langle P_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_32_ALGORITM">\left.P_{r}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_33_ALGORITM">\left\langle P_{r+1}, \ldots, P_{l}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_34_ALGORITM">\tilde{\alpha}=\left(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_35_ALGORITM">\alpha_{i} \in\{0,1, \Delta\}, i=1,2, \ldots, l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_36_ALGORITM">\tilde{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_37_ALGORITM">\mathfrak{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_38_ALGORITM">\mathfrak{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_39_ALGORITM">\alpha_{i} \neq \Delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_40_ALGORITM">\alpha_{i}=p_{i}(\mathfrak{y}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_41_ALGORITM">j(\mathfrak{u}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_42_ALGORITM">\mathfrak{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_43_ALGORITM">\mathfrak{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_44_ALGORITM">\mathfrak{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_45_ALGORITM">\mathfrak{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_46_ALGORITM">\mathfrak{m}=\left\{\mathfrak{a}_{1}, \ldots, \mathfrak{P}_{q}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_47_ALGORITM">\left(\alpha_{i 1}, \ldots, \alpha_{i l}\right) \in J\left(\mathfrak{P}_{i}, \mathfrak{M}\right), i=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_48_ALGORITM">\mathfrak{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_49_ALGORITM">{ }^{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_50_ALGORITM">j(\mathfrak{m})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_51_ALGORITM">\mathfrak{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_52_ALGORITM">\mathfrak{d} \mathfrak{N}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_53_ALGORITM">\mathfrak{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_54_ALGORITM">p_{1}, P_{2}, \ldots, P_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_55_ALGORITM">s(\mathfrak{h}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_56_ALGORITM">s\left(\mathfrak{h}^{\alpha_{1} \ldots \alpha_{l}}, \mathfrak{M}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_57_ALGORITM">\varphi_{1}, \ldots, \varphi_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_58_ALGORITM">\varphi_{i}\left(\mathfrak{h}^{\alpha_{1} \ldots \alpha_{l}}, S\left(\mathfrak{H}^{\alpha_{1}} \ldots \alpha_{l}, \mathfrak{M}^{*}\right)\right)=\left(\beta_{1}, \ldots, \beta_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_59_ALGORITM">\varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_60_ALGORITM">\left(\mathfrak{h} \alpha_{1} \ldots \alpha_{l}, S\left(\mathfrak{A}^{\alpha_{1}} \ldots \alpha_{l}, \mathfrak{M}^{*}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_61_ALGORITM">\mathfrak{h}^{\alpha_{1} \ldots \alpha_{l}} \in \mathfrak{M}^{*}, \mathfrak{M}^{*} \in J(\mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_62_ALGORITM">\alpha_{i}=\beta_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_63_ALGORITM">j \neq i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_64_ALGORITM">\mathfrak{m}_{\mathcal{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_65_ALGORITM">\mathfrak{m} \mathfrak{Z}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_66_ALGORITM">\mathfrak{y}^{\alpha_{1}} \ldots \alpha_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_67_ALGORITM">\mathfrak{u}_{1} \ldots \beta_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_68_ALGORITM">\mathfrak{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_69_ALGORITM">\tilde{\mathfrak{m}}^{*} \in J(\mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_70_ALGORITM">\left(\mathfrak{h}^{\alpha_{1}} \ldots \alpha_{l}, S\left(\mathfrak{U}^{\alpha_{1}} \ldots \alpha_{l}\right.\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_71_ALGORITM">m_{1}=\{0,1, \Delta\}-\Delta&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_72_ALGORITM">\delta&lt;1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_73_ALGORITM">m_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_74_ALGORITM">l-\left(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{l}\right) \leqslant\left(\beta_{1}, \beta_{2}, \ldots, \beta_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_75_ALGORITM">\alpha_{i} \leqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_76_ALGORITM">\left.\leqslant \beta_{i}, \quad i=1,2, \ldots, l ; 3\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_77_ALGORITM">\mathfrak{h}^{\alpha_{1}} \ldots \alpha_{l} \leqslant \mathfrak{Y}^{\beta_{1}} \ldots \beta_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_78_ALGORITM">\left(\alpha_{1}, \ldots, \alpha_{l}\right) \leqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_79_ALGORITM">\mathfrak{m}_{1}^{*} \leqslant \mathfrak{M}_{2}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_80_ALGORITM">\mathfrak{m}_{1}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_81_ALGORITM">\mathfrak{m}_{2}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_82_ALGORITM">j(\mathfrak{m})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_83_ALGORITM">\mathfrak{h}^{\alpha_{1}} \ldots \alpha_{l} \in \mathfrak{M}_{1}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_84_ALGORITM">\mathfrak{u} \beta_{1} \ldots \beta_{l} \in \mathfrak{M}_{2}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_85_ALGORITM">\left.\left(\alpha_{1}, \ldots, \alpha_{l}\right) \leqslant\left(\beta_{1}, \ldots, \beta_{l}\right) ; 5\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_86_ALGORITM">s\left(\mathfrak{y}^{\alpha_{1}} \ldots \alpha_{l}, \mathfrak{D} \mathfrak{2}^{*}\right)-S_{1} \leqslant S_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_87_ALGORITM">s_{1}=s\left(\mathfrak{p}^{\alpha_{1}} \ldots \alpha_{l}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_88_ALGORITM">\mathfrak{m}_{\mathrm{l}}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_89_ALGORITM">s_{2}=s\left(\mathfrak{h}^{\beta_{1} \ldots \beta_{l}}, \mathfrak{M}_{2}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_90_ALGORITM">s\left(\mathfrak{h}, \mathfrak{D}_{1}\right)=S\left(\mathfrak{A}, \mathfrak{D}_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_91_ALGORITM">\mathfrak{b}^{\gamma_{1} \ldots \gamma_{l}} \in S_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_92_ALGORITM">\mathfrak{b}^{\delta_{1}} \ldots \delta_{l} \in S_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_93_ALGORITM">\left(\gamma_{1}, \ldots, \gamma_{l}\right) \leqslant\left(\delta_{1}, \ldots, \delta_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_94_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_95_ALGORITM">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_96_ALGORITM">a \leqslant B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_97_ALGORITM">a \geqslant B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_98_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_99_ALGORITM">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_100_ALGORITM">a \wedge B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_101_ALGORITM">\varphi\left(\mathfrak{y}, \alpha_{1}, \ldots, \alpha_{l}, S, \mathfrak{D} i^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_102_ALGORITM">s_{1} \leqslant S_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_103_ALGORITM">i=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_104_ALGORITM">=1,2, \ldots, l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_105_ALGORITM">\varphi_{i}\left(\mathfrak{h}, \alpha_{1}, . ., \alpha_{l}, S_{1}, \mathfrak{M}_{1}^{*}\right) \leqslant \varphi_{i}\left(\mathfrak{U}, \beta_{1}, \ldots, \beta_{l}, S_{2}, \mathfrak{M}_{2}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_106_ALGORITM">a_{\pi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_107_ALGORITM">m-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_108_ALGORITM">n=\{1,2, \ldots, l\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_109_ALGORITM">m \widetilde{\times} N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_110_ALGORITM">\left.\mathfrak{U}^{\alpha_{1}} \ldots \alpha_{l}, j\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_111_ALGORITM">\mathfrak{h}^{\alpha_{1} \ldots \alpha_{l}} \in M, j \in N, \alpha_{j}=\Delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_112_ALGORITM">a_{\pi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_113_ALGORITM">m \widetilde{\times} N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_114_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_115_ALGORITM">p_{1}, \ldots, P_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_116_ALGORITM">p_{1}, \ldots, P_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_117_ALGORITM">p_{r+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_118_ALGORITM">\cdots, P_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_119_ALGORITM">\varphi_{1}, \ldots, \varphi_{l}, \varphi_{i}=\varphi_{i}\left(\mathfrak{Y}, \alpha_{1}, \ldots, \alpha_{l}, S, \mathbb{M}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_120_ALGORITM">a_{\pi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_121_ALGORITM">\mathfrak{m}^{*}=\bigcup_{i=1}^{m} \mathfrak{P}_{i}^{\alpha_{i_{1}}} \cdots \alpha_{i l}, \mathfrak{M}^{*} \in J(\mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_122_ALGORITM">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_123_ALGORITM">m \widetilde{\times} N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_124_ALGORITM">m=\mathfrak{m i}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_125_ALGORITM">a_{\pi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_126_ALGORITM">\left(\mathfrak{h}^{\alpha_{1}} \ldots \alpha_{l}, j\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_127_ALGORITM">\varphi_{j}\left(\mathfrak{y}, \alpha_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_128_ALGORITM">\left.\alpha_{l}, S, \mathfrak{M}^{*}\right)=\left(\beta_{1}, \ldots, \beta_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_129_ALGORITM">\mathfrak{h}^{\alpha_{1}} \ldots \alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_130_ALGORITM">\mathfrak{y}^{\beta_{1} \ldots \beta^{\prime}} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_131_ALGORITM">\left(\alpha_{1}, \ldots, \alpha_{l}\right)=\left(\beta_{1}, \ldots, \beta_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_132_ALGORITM">\left(\mathfrak{b}^{2} \gamma_{1} \cdots \gamma_{l}, i\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_133_ALGORITM">\left.\left.\varphi_{i}\left(\mathfrak{B}, \gamma_{1}, \ldots, \gamma_{l}, S, \mathfrak{l}\right)\right\}^{*}\right)=\left(\gamma_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_134_ALGORITM">\left.\gamma_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_135_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_136_ALGORITM">m \widetilde{\times} N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_137_ALGORITM">\left(\alpha_{1}, \ldots, \alpha_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_138_ALGORITM">\left(\beta_{1}, \ldots, \beta_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_139_ALGORITM">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_140_ALGORITM">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_141_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_142_ALGORITM">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_143_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_144_ALGORITM">(n+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_145_ALGORITM">\mathfrak{n}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_146_ALGORITM">\mathfrak{m}_{n}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_147_ALGORITM">\mathfrak{m}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_148_ALGORITM">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_149_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_150_ALGORITM">\varphi_{i}, i=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_151_ALGORITM">=1,2, \ldots, l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_152_ALGORITM">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_153_ALGORITM">a_{\pi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_154_ALGORITM">\left.\mathfrak{D}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_155_ALGORITM">\left\langle\mathfrak{u}_{1}, \ldots, \mathfrak{A}_{q}, \mu_{1}, \ldots, \mu_{q}, M\right\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_156_ALGORITM">\mathfrak{u}_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_157_ALGORITM">\mu_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_158_ALGORITM">\mathfrak{u}_{i}, \quad \mu_{i}&gt;0, \quad i=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_159_ALGORITM">2, \ldots, q, M \subseteq \bigcup_{i=1}^{q} \mathfrak{A}_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_160_ALGORITM">\left(\mathfrak{z}_{i_{1}}, \ldots, \mathfrak{A}_{i_{p}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_161_ALGORITM">\sum_{j=1}^{p} \mu_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_162_ALGORITM">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_163_ALGORITM">\mathfrak{u}_{1}, \ldots, \mathfrak{Q}_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_164_ALGORITM">s_{1}, \ldots, S_{n}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_165_ALGORITM">\mathfrak{u}_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_166_ALGORITM">s_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_167_ALGORITM">p_{1}(\mathfrak{a}, M)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_168_ALGORITM">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_169_ALGORITM">p_{2}(\mathfrak{a}, M)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_170_ALGORITM">(\mathfrak{m}, \mathfrak{D}), \mathfrak{M} \in \mathfrak{D}\}, \mathfrak{M} \in M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_171_ALGORITM">s_{1}(\mathfrak{a}, \quad \mathfrak{W} \mathfrak{Z}) \subseteq S_{2}(\mathfrak{A}, \quad \mathfrak{N}) \subseteq</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_172_ALGORITM">\ldots \sqsubseteq S_{n}(\mathfrak{A}, \mathfrak{D} Z) \sqsubseteq \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_173_ALGORITM">s(\mathfrak{a}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_174_ALGORITM">s_{k-1}(\mathfrak{X}, \quad \mathfrak{D}) \sqsubseteq S(\mathfrak{A}, \quad \mathfrak{D}) \sqsubseteq</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_175_ALGORITM">\subseteq S_{k}(\mathfrak{A}, \sqrt{N})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_176_ALGORITM">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_177_ALGORITM">p_{1}, \ldots, P_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_178_ALGORITM">\mathscr{\mathcal { P }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_179_ALGORITM">\boldsymbol{p}(\mathfrak{q}, \mathfrak{M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_180_ALGORITM">a\left(\prod^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_181_ALGORITM">p_{1}(\mathfrak{a}, \mathfrak{D})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_182_ALGORITM">(k, l)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_183_ALGORITM">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_184_ALGORITM">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_185_ALGORITM">p_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_186_ALGORITM">\mathfrak{m}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_187_ALGORITM">a\left(\mathfrak{d}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_188_ALGORITM">p_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_189_ALGORITM">f\left(x_{1}, \ldots, x_{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_190_ALGORITM">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_191_ALGORITM">p_{1}\left(\mathfrak{a}, f\left(x_{1}, \ldots, x_{n}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_192_ALGORITM">(k, l)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_193_ALGORITM">k l&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_194_ALGORITM">\cdot 2^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_195_ALGORITM">\boldsymbol{p}\left(\mathfrak{a}, f\left(x_{1}, \ldots, x_{n}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_196_ALGORITM">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_197_ALGORITM">f »</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_198_ALGORITM">)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/143_199_ALGORITM">(2,1)</formula>
+  </formulas_aux>
+  <relations n="35">
+    <relation uri="http://libmeta.ru/me/relation/143_1_ALGORITM">
+      <rel_text>Булевых функций минимизачия</rel_text>
+      <target>http://libmeta.ru/me/article/568_BULEVYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_2_ALGORITM">
+      <rel_text>графофа</rel_text>
+      <target>http://libmeta.ru/me/article/1184_GRAFI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_3_ALGORITM">
+      <rel_text>вхождение</rel_text>
+      <target>http://libmeta.ru/me/article/819_VHOZhKDENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_4_ALGORITM">
+      <rel_text>предикатов</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_5_ALGORITM">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_6_ALGORITM">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_7_ALGORITM">
+      <rel_text>предикат</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_8_ALGORITM">
+      <rel_text>Интересно</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_9_ALGORITM">
+      <rel_text>предика-</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_10_ALGORITM">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_11_ALGORITM">
+      <rel_text>форму»</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_12_ALGORITM">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_13_ALGORITM">
+      <rel_text>вычислен</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_14_ALGORITM">
+      <rel_text>предикат</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_15_ALGORITM">
+      <rel_text>предикатом</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_16_ALGORITM">
+      <rel_text>индекса</rel_text>
+      <target>http://libmeta.ru/me/article/566_INDEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_17_ALGORITM">
+      <rel_text>результат</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_18_ALGORITM">
+      <rel_text>предикаты</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_19_ALGORITM">
+      <rel_text>предикатов</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_20_ALGORITM">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_21_ALGORITM">
+      <rel_text>задано</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_22_ALGORITM">
+      <rel_text>предикатов</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_23_ALGORITM">
+      <rel_text>Число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_24_ALGORITM">
+      <rel_text>системе</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_25_ALGORITM">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_26_ALGORITM">
+      <rel_text>задана</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_27_ALGORITM">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_28_ALGORITM">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_29_ALGORITM">
+      <rel_text>программирования</rel_text>
+      <target>http://libmeta.ru/me/article/668_PROGRAMMIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_30_ALGORITM">
+      <rel_text>дискретного</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_31_ALGORITM">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_32_ALGORITM">
+      <rel_text>предложено</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_33_ALGORITM">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_34_ALGORITM">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/143_35_ALGORITM">
+      <rel_text>покрытия</rel_text>
+      <target>http://libmeta.ru/me/article/387_POKRYTI</target>
+    </relation>
+  </relations>
+  <text>алгоритм, устанавливающий свойства элементов множества и использующий на каждом шаге при этом только информацию об окрестности элемента. В терминах А. л. естественно формулируются и решаются задачи о существовании или несуществованіии әффективных алгоритмов для различных дискретных әкстремальных задач.
+
+Пусть задано семейство $URI[[http://libmeta.ru/me/formula/aux/143_1_ALGORITM]]/URI$ множеств, и пусть каждой паре $URI[[http://libmeta.ru/me/formula/aux/143_2_ALGORITM]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/143_3_ALGORITM]]/URI$, сопоставлено
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=34&amp;width=831&amp;top_left_y=1020&amp;top_left_x=120)
+2) $URI[[http://libmeta.ru/me/formula/aux/143_4_ALGORITM]]/URI$ если $URI[[http://libmeta.ru/me/formula/aux/143_5_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_6_ALGORITM]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/143_7_ALGORITM]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/143_8_ALGORITM]]/URI$. Тогда множество $URI[[http://libmeta.ru/me/formula/aux/143_9_ALGORITM]]/URI$ наз. о к р е с т н о с т ь ю $URI[[http://libmeta.ru/me/formula/aux/143_10_ALGORITM]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/143_11_ALGORITM]]/URI$. Примерами окрестностей служат окрестности конъюнкции в сокращенной нормальной форме (см. URI[[http://libmeta.ru/me/relation/143_1_ALGORITM]]/URI).
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/143_12_ALGORITM]]/URI$ конечный неориентированный граф, $URI[[http://libmeta.ru/me/formula/aux/143_13_ALGORITM]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/143_14_ALGORITM]]/URI$ множество вершин $URI[[http://libmeta.ru/me/formula/aux/143_15_ALGORITM]]/URI$ множество ребер $URI[[http://libmeta.ru/me/formula/aux/143_16_ALGORITM]]/URI$. Окрестность $URI[[http://libmeta.ru/me/formula/aux/143_17_ALGORITM]]/URI$ ребра $URI[[http://libmeta.ru/me/formula/aux/143_18_ALGORITM]]/URI$ графа $URI[[http://libmeta.ru/me/formula/aux/143_19_ALGORITM]]/URI$ состолт из всех вершин ребер, инцидентных ребру $URI[[http://libmeta.ru/me/formula/aux/143_20_ALGORITM]]/URI$, а также из всех ребер, вершины к-рых входят в окрестность $URI[[http://libmeta.ru/me/formula/aux/143_21_ALGORITM]]/URI$. Пусть определена окрестность $URI[[http://libmeta.ru/me/formula/aux/143_22_ALGORITM]]/URI$, тогда окрестность $URI[[http://libmeta.ru/me/formula/aux/143_23_ALGORITM]]/URI$ состоит из всех вершин ребер, инцидентных вершинам окрестности $URI[[http://libmeta.ru/me/formula/aux/143_24_ALGORITM]]/URI$, и всех ребер, вершины к-рых принадлежат окрестности $URI[[http://libmeta.ru/me/formula/aux/143_25_ALGORITM]]/URI$. Аналогично вводятся окрестности $URI[[http://libmeta.ru/me/formula/aux/143_26_ALGORITM]]/URI$ для произвольной вершины $URI[[http://libmeta.ru/me/formula/aux/143_27_ALGORITM]]/URI$ графа $URI[[http://libmeta.ru/me/formula/aux/143_28_ALGORITM]]/URI$.
+
+Пусть на парах $URI[[http://libmeta.ru/me/formula/aux/143_29_ALGORITM]]/URI$, определена система двуместных предикатов $URI[[http://libmeta.ru/me/formula/aux/143_30_ALGORITM]]/URI$, к-рая разбита на два непересекающихся подмножества $URI[[http://libmeta.ru/me/formula/aux/143_31_ALGORITM]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/143_32_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_33_ALGORITM]]/URI$. Элементы первого подмножества наз. основным и преди ка т ам и, второгов с помогат е льными предии а тами. Вектор $URI[[http://libmeta.ru/me/formula/aux/143_34_ALGORITM]]/URI$ наз. ин ф о р м а ц и о н ным, если $URI[[http://libmeta.ru/me/formula/aux/143_35_ALGORITM]]/URI$. Вектор $URI[[http://libmeta.ru/me/formula/aux/143_36_ALGORITM]]/URI$ наз. д оп у с тим ы м для $URI[[http://libmeta.ru/me/formula/aux/143_37_ALGORITM]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/143_38_ALGORITM]]/URI$, если для всех $URI[[http://libmeta.ru/me/formula/aux/143_39_ALGORITM]]/URI$ выполнено равенство $URI[[http://libmeta.ru/me/formula/aux/143_40_ALGORITM]]/URI$. Множество $URI[[http://libmeta.ru/me/formula/aux/143_41_ALGORITM]]/URI$ всех информационных векторов, допустимых для $URI[[http://libmeta.ru/me/formula/aux/143_42_ALGORITM]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/143_43_ALGORITM]]/URI$, наз. и нф о р м а ц и о нны м мно жес т в о м $URI[[http://libmeta.ru/me/formula/aux/143_44_ALGORITM]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/143_45_ALGORITM]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/143_46_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_47_ALGORITM]]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=47&amp;width=828&amp;top_left_y=2049&amp;top_left_x=122)
+наз. д о п у с т и м ы м для $URI[[http://libmeta.ru/me/formula/aux/143_48_ALGORITM]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/143_49_ALGORITM]]/URI$ Класс $URI[[http://libmeta.ru/me/formula/aux/143_50_ALGORITM]]/URI$ всех допустимых для $URI[[http://libmeta.ru/me/formula/aux/143_51_ALGORITM]]/URI$ множеств $URI[[http://libmeta.ru/me/formula/aux/143_52_ALGORITM]]/URI$ наз. и нф о р м а ц и о нн ы к классом множества $URI[[http://libmeta.ru/me/formula/aux/143_53_ALGORITM]]/URI$ по системе предикатов $URI[[http://libmeta.ru/me/formula/aux/143_54_ALGORITM]]/URI$. Очевидно, что окрестность $URI[[http://libmeta.ru/me/formula/aux/143_55_ALGORITM]]/URI$ определяет окрестность $URI[[http://libmeta.ru/me/formula/aux/143_56_ALGORITM]]/URI$.
+
+Введем систему функций $URI[[http://libmeta.ru/me/formula/aux/143_57_ALGORITM]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/143_58_ALGORITM]]/URI$. Функции $URI[[http://libmeta.ru/me/formula/aux/143_59_ALGORITM]]/URI$ определены на всех парах $URI[[http://libmeta.ru/me/formula/aux/143_60_ALGORITM]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/143_61_ALGORITM]]/URI$, и удоглетворяют следующим условиям: 1) $URI[[http://libmeta.ru/me/formula/aux/143_62_ALGORITM]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/143_63_ALGORITM]]/URI$; 2) множество $URI[[http://libmeta.ru/me/formula/aux/143_64_ALGORITM]]/URI$, которое получается из $URI[[http://libmeta.ru/me/formula/aux/143_65_ALGORITM]]/URI$ заменой элемента $URI[[http://libmeta.ru/me/formula/aux/143_66_ALGORITM]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/143_67_ALGORITM]]/URI$, допустимо для $URI[[http://libmeta.ru/me/formula/aux/143_68_ALGORITM]]/URI$, т. е. $URI[[http://libmeta.ru/me/formula/aux/143_69_ALGORITM]]/URI$. Для краткости пары $URI[[http://libmeta.ru/me/formula/aux/143_70_ALGORITM]]/URI$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=37&amp;width=731&amp;top_left_y=403&amp;top_left_x=989)
+
+На нек-рых из описанных множеств вводітся частичный порядок: 1) на множестве $URI[[http://libmeta.ru/me/formula/aux/143_71_ALGORITM]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/143_72_ALGORITM]]/URI$ на множестве $URI[[http://libmeta.ru/me/formula/aux/143_73_ALGORITM]]/URI$ информационных векторов длины $URI[[http://libmeta.ru/me/formula/aux/143_74_ALGORITM]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/143_75_ALGORITM]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/143_76_ALGORITM]]/URI$ на множестве элементов с отметками - $URI[[http://libmeta.ru/me/formula/aux/143_77_ALGORITM]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/143_78_ALGORITM]]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=44&amp;width=831&amp;top_left_y=618&amp;top_left_x=989)
+一 $URI[[http://libmeta.ru/me/formula/aux/143_79_ALGORITM]]/URI$, если, во-первых, $URI[[http://libmeta.ru/me/formula/aux/143_80_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_81_ALGORITM]]/URI$ гринадлежат одному информационному классу $URI[[http://libmeta.ru/me/formula/aux/143_82_ALGORITM]]/URI$ и, во-вторых, из того, что $URI[[http://libmeta.ru/me/formula/aux/143_83_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_84_ALGORITM]]/URI$, следует $URI[[http://libmeta.ru/me/formula/aux/143_85_ALGORITM]]/URI$ на множестве окрестностей вица $URI[[http://libmeta.ru/me/formula/aux/143_86_ALGORITM]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/143_87_ALGORITM]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/143_88_ALGORITM]]/URI$ и и $URI[[http://libmeta.ru/me/formula/aux/143_89_ALGORITM]]/URI$, тогда и только тогда, когда $URI[[http://libmeta.ru/me/formula/aux/143_90_ALGORITM]]/URI$ и из условий $URI[[http://libmeta.ru/me/formula/aux/143_91_ALGORITM]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/143_92_ALGORITM]]/URI$ следует, что $URI[[http://libmeta.ru/me/formula/aux/143_93_ALGORITM]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/143_94_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_95_ALGORITM]]/URI$ - элементы одного из множеств 1) 5). Если $URI[[http://libmeta.ru/me/formula/aux/143_96_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_97_ALGORITM]]/URI$, то элементы $URI[[http://libmeta.ru/me/formula/aux/143_98_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_99_ALGORITM]]/URI$ наз. p a вны м и по инфо р м а ц и г, что обозначается $URI[[http://libmeta.ru/me/formula/aux/143_100_ALGORITM]]/URI$. Функция $URI[[http://libmeta.ru/me/formula/aux/143_101_ALGORITM]]/URI$ наз. м о н о т о нн о й, если из соотношения $URI[[http://libmeta.ru/me/formula/aux/143_102_ALGORITM]]/URI$ следует, что для $URI[[http://libmeta.ru/me/formula/aux/143_103_ALGORITM]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/143_104_ALGORITM]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/143_105_ALGORITM]]/URI$.
+
+Для определения А. л. необходімо также ввесті а лгори т м $URI[[http://libmeta.ru/me/formula/aux/143_106_ALGORITM]]/URI$ упо р я д очи в ан ия. Пусть $URI[[http://libmeta.ru/me/formula/aux/143_107_ALGORITM]]/URI$ произвольное множество, составленное из элементов с информационными векторами, а $URI[[http://libmeta.ru/me/formula/aux/143_108_ALGORITM]]/URI$. Рассмотрим множество $URI[[http://libmeta.ru/me/formula/aux/143_109_ALGORITM]]/URI$ всех пар ( $URI[[http://libmeta.ru/me/formula/aux/143_110_ALGORITM]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/143_111_ALGORITM]]/URI$. Алгоритм $URI[[http://libmeta.ru/me/formula/aux/143_112_ALGORITM]]/URI$ упорядочивает множество $URI[[http://libmeta.ru/me/formula/aux/143_113_ALGORITM]]/URI$. А. л. $URI[[http://libmeta.ru/me/formula/aux/143_114_ALGORITM]]/URI$ полностью определяется системой предикатов $URI[[http://libmeta.ru/me/formula/aux/143_115_ALGORITM]]/URI$, разбиением этой системы на основные $URI[[http://libmeta.ru/me/formula/aux/143_116_ALGORITM]]/URI$ и вспомогательные $URI[[http://libmeta.ru/me/formula/aux/143_117_ALGORITM]]/URI$ : $URI[[http://libmeta.ru/me/formula/aux/143_118_ALGORITM]]/URI$ предикаты, системоӥ монотонных функций $URI[[http://libmeta.ru/me/formula/aux/143_119_ALGORITM]]/URI$, и алгоритмом $URI[[http://libmeta.ru/me/formula/aux/143_120_ALGORITM]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/143_121_ALGORITM]]/URI$. Первый шаг А. л. состоит в следующем. $URI[[http://libmeta.ru/me/formula/aux/143_122_ALGORITM]]/URI$ множеству $URI[[http://libmeta.ru/me/formula/aux/143_123_ALGORITM]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/143_124_ALGORITM]]/URI$, применяется алгоритм $URI[[http://libmeta.ru/me/formula/aux/143_125_ALGORITM]]/URI$; для первой по порядку пары $URI[[http://libmeta.ru/me/formula/aux/143_126_ALGORITM]]/URI$ вычисляется $URI[[http://libmeta.ru/me/formula/aux/143_127_ALGORITM]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/143_128_ALGORITM]]/URI$ и э темент $URI[[http://libmeta.ru/me/formula/aux/143_129_ALGORITM]]/URI$ заменяется на $URI[[http://libmeta.ru/me/formula/aux/143_130_ALGORITM]]/URI$ если $URI[[http://libmeta.ru/me/formula/aux/143_131_ALGORITM]]/URI$, то берется вторая пара, и т. д.; если для всех элементов $URI[[http://libmeta.ru/me/formula/aux/143_132_ALGORITM]]/URI$ выполнено равенство $URI[[http://libmeta.ru/me/formula/aux/143_133_ALGORITM]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/143_134_ALGORITM]]/URI$, то А. л. $URI[[http://libmeta.ru/me/formula/aux/143_135_ALGORITM]]/URI$ заканчивается после просмотра всех пар из $URI[[http://libmeta.ru/me/formula/aux/143_136_ALGORITM]]/URI$. В противном случае, после замены вектора $URI[[http://libmeta.ru/me/formula/aux/143_137_ALGORITM]]/URI$ на новый вектор $URI[[http://libmeta.ru/me/formula/aux/143_138_ALGORITM]]/URI$, если нет больше әлементов, у к-рых на первых $URI[[http://libmeta.ru/me/formula/aux/143_139_ALGORITM]]/URI$ местах в информационных векторах имеется хотя бы один символ $URI[[http://libmeta.ru/me/formula/aux/143_140_ALGORITM]]/URI$, алгоритм $URI[[http://libmeta.ru/me/formula/aux/143_141_ALGORITM]]/URI$ заканчивается; если они есть, то заканчивается первый шаг А. л. Пусть выполнено $URI[[http://libmeta.ru/me/formula/aux/143_142_ALGORITM]]/URI$ шагов А. л. $URI[[http://libmeta.ru/me/formula/aux/143_143_ALGORITM]]/URI$. Описание $URI[[http://libmeta.ru/me/formula/aux/143_144_ALGORITM]]/URI$-го шага в точности повторяет описание первого, если вместо множества $URI[[http://libmeta.ru/me/formula/aux/143_145_ALGORITM]]/URI$ рассматривать множество $URI[[http://libmeta.ru/me/formula/aux/143_146_ALGORITM]]/URI$, в к-рое перешло $URI[[http://libmeta.ru/me/formula/aux/143_147_ALGORITM]]/URI$ после первых $URI[[http://libmeta.ru/me/formula/aux/143_148_ALGORITM]]/URI$ шагов А. л. $URI[[http://libmeta.ru/me/formula/aux/143_149_ALGORITM]]/URI$. В силу монотонности функций $URI[[http://libmeta.ru/me/formula/aux/143_150_ALGORITM]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/143_151_ALGORITM]]/URI$, А. л. $URI[[http://libmeta.ru/me/formula/aux/143_152_ALGORITM]]/URI$ закончится после конечцого числа шагов.
+
+Исходными теоремами для А. л. являются т е о р ема единственности и теорем а суще- ![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=23&amp;width=824&amp;top_left_y=197&amp;top_left_x=124)
+Первая теорема утверждает, что результат вычислений основных предикатов не зависит от алгоритма $URI[[http://libmeta.ru/me/formula/aux/143_153_ALGORITM]]/URI$ (порлдка обхода элементов множества $URI[[http://libmeta.ru/me/formula/aux/143_154_ALGORITM]]/URI$. Вторая теорема утверждает существование в весьма общих предположениях н а и л у ч ш е г о А. л., т. е. А. л., к-рый по затанной фиксированной системе окрестностей вычисляет заданные основные предикаты при фиксированных вспомогательных предикатах всегда, когда это делает любой другой А. л. с той же системой окрестностей, основных и вспомогательных предикатов.
+
+Задача получения наилучшего А. л. в явной форме решена для алгоритмов синтеза минималыных покрытий. Пусть задан набор $URI[[http://libmeta.ru/me/formula/aux/143_155_ALGORITM]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/143_156_ALGORITM]]/URI$ множество, $URI[[http://libmeta.ru/me/formula/aux/143_157_ALGORITM]]/URI$ сложность $URI[[http://libmeta.ru/me/formula/aux/143_158_ALGORITM]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/143_159_ALGORITM]]/URI$. Сложность набора $URI[[http://libmeta.ru/me/formula/aux/143_160_ALGORITM]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/143_161_ALGORITM]]/URI$. Требуется построить покрытие $URI[[http://libmeta.ru/me/formula/aux/143_162_ALGORITM]]/URI$ множествами из числа $URI[[http://libmeta.ru/me/formula/aux/143_163_ALGORITM]]/URI$ с минимальной сложностью. Система окрестностей $URI[[http://libmeta.ru/me/formula/aux/143_164_ALGORITM]]/URI$ для каждого $URI[[http://libmeta.ru/me/formula/aux/143_165_ALGORITM]]/URI$ вводится аналогично системе окрестностей для конъюнкций. Наилучший А. л. строится для системы окрестностей $URI[[http://libmeta.ru/me/formula/aux/143_166_ALGORITM]]/URI$ при фиксированных предикатах: множество вспомогательных предикатов пусто; в качестве основных рассматриваются предикаты $URI[[http://libmeta.ru/me/formula/aux/143_167_ALGORITM]]/URI$ («) не входит ни в одно минимальное покрытие $URI[[http://libmeta.ru/me/formula/aux/143_168_ALGORITM]]/URI$ ) и $URI[[http://libmeta.ru/me/formula/aux/143_169_ALGORITM]]/URI$ («\{) входит во все минимальные URI[[http://libmeta.ru/me/relation/143_35_ALGORITM]]/URI М»). Наилучшие А. л. построены также для URI[[http://libmeta.ru/me/relation/143_34_ALGORITM]]/URI простых свойств ребер графа. Большое URI[[http://libmeta.ru/me/relation/143_33_ALGORITM]]/URI разлитных А. л. было URI[[http://libmeta.ru/me/relation/143_32_ALGORITM]]/URI для решения задач милимизации булевых URI[[http://libmeta.ru/me/relation/143_31_ALGORITM]]/URI, URI[[http://libmeta.ru/me/relation/143_30_ALGORITM]]/URI линейного URI[[http://libmeta.ru/me/relation/143_29_ALGORITM]]/URI и т. Д.
+
+Важное место в URI[[http://libmeta.ru/me/relation/143_28_ALGORITM]]/URI А. л. занимают URI[[http://libmeta.ru/me/relation/143_27_ALGORITM]]/URI о невычислимости экстремальных свойств в классе А. л. Если на парах $URI[[http://libmeta.ru/me/formula/aux/143_170_ALGORITM]]/URI$, URI[[http://libmeta.ru/me/relation/143_26_ALGORITM]]/URI URI[[http://libmeta.ru/me/relation/143_25_ALGORITM]]/URI вложенных окрестностей: $URI[[http://libmeta.ru/me/formula/aux/143_171_ALGORITM]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/143_172_ALGORITM]]/URI$ и А. л. работает по URI[[http://libmeta.ru/me/relation/143_24_ALGORITM]]/URI окрестностей $URI[[http://libmeta.ru/me/formula/aux/143_173_ALGORITM]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/143_174_ALGORITM]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/143_175_ALGORITM]]/URI$, то говорят, что А. л. имеет и н д е к с $URI[[http://libmeta.ru/me/formula/aux/143_176_ALGORITM]]/URI$. URI[[http://libmeta.ru/me/relation/143_23_ALGORITM]]/URI URI[[http://libmeta.ru/me/relation/143_22_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_177_ALGORITM]]/URI$ в определении А. л. естественно считать в е ли ч и н о й п а м я т и А. Л. Пусть URI[[http://libmeta.ru/me/relation/143_21_ALGORITM]]/URI URI[[http://libmeta.ru/me/relation/143_20_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_178_ALGORITM]]/URI$ URI[[http://libmeta.ru/me/relation/143_19_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_179_ALGORITM]]/URI$. Считается, что все URI[[http://libmeta.ru/me/relation/143_18_ALGORITM]]/URI, участвующие в определении А. л., принадлежат (p. Пусть $URI[[http://libmeta.ru/me/formula/aux/143_180_ALGORITM]]/URI$ - URI[[http://libmeta.ru/me/relation/143_17_ALGORITM]]/URI примене-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=37&amp;width=828&amp;top_left_y=1510&amp;top_left_x=122)
+кат $URI[[http://libmeta.ru/me/formula/aux/143_181_ALGORITM]]/URI$ говорят, что он не является $URI[[http://libmeta.ru/me/formula/aux/143_182_ALGORITM]]/URI$-в ыч и с л и М м, если для всякого А. л. URI[[http://libmeta.ru/me/relation/143_16_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_183_ALGORITM]]/URI$ с величиной памяти $URI[[http://libmeta.ru/me/formula/aux/143_184_ALGORITM]]/URI$, основным URI[[http://libmeta.ru/me/relation/143_15_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_185_ALGORITM]]/URI$ и вспо-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=37&amp;width=828&amp;top_left_y=1629&amp;top_left_x=122)
+$URI[[http://libmeta.ru/me/formula/aux/143_186_ALGORITM]]/URI$ такое, что в $URI[[http://libmeta.ru/me/formula/aux/143_187_ALGORITM]]/URI$ URI[[http://libmeta.ru/me/relation/143_14_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_188_ALGORITM]]/URI$ будет URI[[http://libmeta.ru/me/relation/143_13_ALGORITM]]/URI не для всех элементов.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/143_189_ALGORITM]]/URI$ совокупность всех булевых бункций от URI[[http://libmeta.ru/me/relation/143_12_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_190_ALGORITM]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/143_191_ALGORITM]]/URI$ -
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=35&amp;width=826&amp;top_left_y=1786&amp;top_left_x=123)
+минимальную дизьюнктивную нормальную URI[[http://libmeta.ru/me/relation/143_11_ALGORITM]]/URI. При естественных ограничениях на URI[[http://libmeta.ru/me/relation/143_10_ALGORITM]]/URI URI[[http://libmeta.ru/me/relation/143_9_ALGORITM]]/URI
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=40&amp;width=828&amp;top_left_y=1878&amp;top_left_x=122)
+не является $URI[[http://libmeta.ru/me/formula/aux/143_192_ALGORITM]]/URI$-вычислимым, если $URI[[http://libmeta.ru/me/formula/aux/143_193_ALGORITM]]/URI$ const $URI[[http://libmeta.ru/me/formula/aux/143_194_ALGORITM]]/URI$. URI[[http://libmeta.ru/me/relation/143_8_ALGORITM]]/URI отметить, что URI[[http://libmeta.ru/me/relation/143_7_ALGORITM]]/URI $URI[[http://libmeta.ru/me/formula/aux/143_195_ALGORITM]]/URI$ «конъюнкция $URI[[http://libmeta.ru/me/formula/aux/143_196_ALGORITM]]/URI$ входит хотя бы в одну тупиковую дизъюнктивную нормальную форму $URI[[http://libmeta.ru/me/formula/aux/143_197_ALGORITM]]/URI$ (см. Булевьх бункчий нормальные бормы $URI[[http://libmeta.ru/me/formula/aux/143_198_ALGORITM]]/URI$ является $URI[[http://libmeta.ru/me/formula/aux/143_199_ALGORITM]]/URI$-вычислимым, но не (1, 1)-вычислимым. Аналогичные URI[[http://libmeta.ru/me/relation/143_6_ALGORITM]]/URI URI[[http://libmeta.ru/me/relation/143_5_ALGORITM]]/URI для URI[[http://libmeta.ru/me/relation/143_4_ALGORITM]]/URI, описываюих URI[[http://libmeta.ru/me/relation/143_3_ALGORITM]]/URI ребра в минимальный путь между заданными вершинами URI[[http://libmeta.ru/me/relation/143_2_ALGORITM]]/URI.</text>
+  <text_orig>алгоритм, устанавливающий свойства элементов множества и использующий на каждом шаге при этом только информацию об окрестности элемента. В терминах А. л. естественно формулируются и решаются задачи о существовании или несуществованіии әффективных алгоритмов для различных дискретных әкстремальных задач.
+
+Пусть задано семейство $\{\mathfrak{M}: \mathfrak{M} \in M\}$ множеств, и пусть каждой паре $(\mathfrak{H}, \mathfrak{M})$, где $\mathfrak{A} \in \mathfrak{M}$, сопоставлено
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=34&amp;width=831&amp;top_left_y=1020&amp;top_left_x=120)
+2) $S(\mathfrak{H}, \mathfrak{M}) \equiv \mathfrak{M}), 3)$ если $\mathfrak{U} \in \mathfrak{W}_{1}, \mathfrak{Y} \in \mathfrak{M}_{2}$ и $S\left(\mathfrak{Y}, \mathfrak{M} \mathfrak{M}_{1}\right) \sqsubseteq$ $\subseteq \mathfrak{M}_{2} \subseteq \mathfrak{M}_{1}$, то $S\left(\mathfrak{Y}, \mathfrak{M}_{1}\right)=S\left(\mathfrak{Y}, \mathfrak{M}_{2}\right)$. Тогда множество $\bar{S}(\mathfrak{H}, \mathfrak{M})$ наз. о к р е с т н о с т ь ю $\mathfrak{H}$ в $\mathfrak{D} \mathcal{2}$. Примерами окрестностей служат окрестности конъюнкции в сокращенной нормальной форме (см. Булевых функций минимизачия).
+
+Пусть $\Gamma-$ конечный неориентированный граф, $\Gamma=$ $=M_{1} \cup M_{2}, \quad M_{1}=\left\{a_{1}, a_{2}, \ldots, a_{q}\right\}-$ множество вершин $\Gamma, \quad M_{2}=\left\{\left(a_{i_{1}}, a_{i_{2}}\right), \ldots,\left(a_{r_{p}}, a_{r_{t}}\right)\right\}-$ множество ребер $\Gamma$. Окрестность $S_{1}(R, \Gamma)$ ребра $R=\left(a_{i}, a_{j}\right)$ графа $\Gamma$ состолт из всех вершин ребер, инцидентных ребру $R$, а также из всех ребер, вершины к-рых входят в окрестность $S_{1}(R, \Gamma)$. Пусть определена окрестность $S_{n-1}(R, \Gamma)$, тогда окрестность $S_{n}(R, \Gamma)$ состоит из всех вершин ребер, инцидентных вершинам окрестности $S_{n-1}(R, \Gamma)$, и всех ребер, вершины к-рых принадлежат окрестности $S_{n}(R, \Gamma)$. Аналогично вводятся окрестности $S_{1}\left(a_{j}, \Gamma\right), \ldots, S_{n}\left(a_{j}, \Gamma\right), \ldots$ для произвольной вершины $a_{j}$ графа $\Gamma$.
+
+Пусть на парах $(\mathfrak{H}, \mathfrak{M}), \mathfrak{A} \in \mathfrak{M}$, определена система двуместных предикатов $P_{1}(\mathfrak{Y}, \mathfrak{W}), \ldots, P_{l}(\mathfrak{Y}, \mathfrak{M})$, к-рая разбита на два непересекающихся подмножества $\left\langle P_{1}, \ldots\right.$, $\left.P_{r}\right\rangle$ и $\left\langle P_{r+1}, \ldots, P_{l}\right\rangle$. Элементы первого подмножества наз. основным и преди ка т ам и, второгов с помогат е льными предии а тами. Вектор $\tilde{\alpha}=\left(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{l}\right)$ наз. ин ф о р м а ц и о н ным, если $\alpha_{i} \in\{0,1, \Delta\}, i=1,2, \ldots, l$. Вектор $\tilde{\alpha}$ наз. д оп у с тим ы м для $\mathfrak{H}$ в $\mathfrak{M}$, если для всех $\alpha_{i} \neq \Delta$ выполнено равенство $\alpha_{i}=P_{i}(\mathfrak{Y}, \mathfrak{M})$. Множество $J(\mathfrak{U}, \mathfrak{M})$ всех информационных векторов, допустимых для $\mathfrak{U}$ в $\mathfrak{M}$, наз. и нф о р м а ц и о нны м мно жес т в о м $\mathfrak{H}$ в $\mathfrak{M}$.
+
+Пусть $\mathfrak{M}=\left\{\mathfrak{A}_{1}, \ldots, \mathfrak{P}_{q}\right\}$ и $\left(\alpha_{i 1}, \ldots, \alpha_{i l}\right) \in J\left(\mathfrak{P}_{i}, \mathfrak{M}\right), i=$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=47&amp;width=828&amp;top_left_y=2049&amp;top_left_x=122)
+наз. д о п у с т и м ы м для $\mathfrak{M}$. ${ }^{1}$ Класс $J(\mathfrak{M})$ всех допустимых для $\mathfrak{M}$ множеств $\mathfrak{D} \mathfrak{N}^{*}$ наз. и нф о р м а ц и о нн ы к классом множества $\mathfrak{M}$ по системе предикатов $P_{1}, P_{2}, \ldots, P_{l}$. Очевидно, что окрестность $S(\mathfrak{H}, \mathfrak{M})$ определяет окрестность $S\left(\mathfrak{H}^{\alpha_{1} \ldots \alpha_{l}}, \mathfrak{M}^{*}\right)$.
+
+Введем систему функций $\varphi_{1}, \ldots, \varphi_{l}$ таких, что $\varphi_{i}\left(\mathfrak{H}^{\alpha_{1} \ldots \alpha_{l}}, S\left(\mathfrak{H}^{\alpha_{1}} \ldots \alpha_{l}, \mathfrak{M}^{*}\right)\right)=\left(\beta_{1}, \ldots, \beta_{l}\right)$. Функции $\varphi_{i}$ определены на всех парах $\left(\mathfrak{H} \alpha_{1} \ldots \alpha_{l}, S\left(\mathfrak{A}^{\alpha_{1}} \ldots \alpha_{l}, \mathfrak{M}^{*}\right)\right)$ таких, что $\mathfrak{H}^{\alpha_{1} \ldots \alpha_{l}} \in \mathfrak{M}^{*}, \mathfrak{M}^{*} \in J(\mathfrak{M})$, и удоглетворяют следующим условиям: 1) $\alpha_{i}=\beta_{j}$, если $j \neq i$; 2) множество $\mathfrak{M}_{\mathcal{2}}$, которое получается из $\mathfrak{M} \mathfrak{Z}^{*}$ заменой элемента $\mathfrak{Y}^{\alpha_{1}} \ldots \alpha_{l}$ на $\mathfrak{U}_{1} \ldots \beta_{l}$, допустимо для $\mathfrak{M}$, т. е. $\tilde{\mathfrak{M}}^{*} \in J(\mathfrak{M})$. Для краткости пары $\left(\mathfrak{H}^{\alpha_{1}} \ldots \alpha_{l}, S\left(\mathfrak{U}^{\alpha_{1}} \ldots \alpha_{l}\right.\right.$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=37&amp;width=731&amp;top_left_y=403&amp;top_left_x=989)
+
+На нек-рых из описанных множеств вводітся частичный порядок: 1) на множестве $M_{1}=\{0,1, \Delta\}-\Delta&lt;0$, $\Delta&lt;1,2)$ на множестве $M_{2}$ информационных векторов длины $l-\left(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{l}\right) \leqslant\left(\beta_{1}, \beta_{2}, \ldots, \beta_{l}\right)$, если $\alpha_{i} \leqslant$ $\left.\leqslant \beta_{i}, \quad i=1,2, \ldots, l ; 3\right)$ на множестве элементов с отметками - $\mathfrak{H}^{\alpha_{1}} \ldots \alpha_{l} \leqslant \mathfrak{Y}^{\beta_{1}} \ldots \beta_{l}$, если $\left(\alpha_{1}, \ldots, \alpha_{l}\right) \leqslant$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a2e4d54377a57c634e91g-1.jpg?height=44&amp;width=831&amp;top_left_y=618&amp;top_left_x=989)
+一 $\mathfrak{M}_{1}^{*} \leqslant \mathfrak{M}_{2}^{*}$, если, во-первых, $\mathfrak{M}_{1}^{*}$ и $\mathfrak{M}_{2}^{*}$ гринадлежат одному информационному классу $J(\mathfrak{M})$ и, во-вторых, из того, что $\mathfrak{H}^{\alpha_{1}} \ldots \alpha_{l} \in \mathfrak{M}_{1}^{*}$ и $\mathfrak{U} \beta_{1} \ldots \beta_{l} \in \mathfrak{M}_{2}^{*}$, следует $\left.\left(\alpha_{1}, \ldots, \alpha_{l}\right) \leqslant\left(\beta_{1}, \ldots, \beta_{l}\right) ; 5\right)$ на множестве окрестностей вица $S\left(\mathfrak{Y}^{\alpha_{1}} \ldots \alpha_{l}, \mathfrak{D} \mathfrak{2}^{*}\right)-S_{1} \leqslant S_{2}$, где $S_{1}=S\left(\mathfrak{P}^{\alpha_{1}} \ldots \alpha_{l}\right.$, $\mathfrak{M}_{\mathrm{L}}^{*}$ и и $S_{2}=S\left(\mathfrak{H}^{\beta_{1} \ldots \beta_{l}}, \mathfrak{M}_{2}^{*}\right)$, тогда и только тогда, когда $S\left(\mathfrak{H}, \mathfrak{D}_{1}\right)=S\left(\mathfrak{A}, \mathfrak{D}_{2}\right)$ и из условий $\mathfrak{B}^{\gamma_{1} \ldots \gamma_{l}} \in S_{1}$, $\mathfrak{B}^{\delta_{1}} \ldots \delta_{l} \in S_{2}$ следует, что $\left(\gamma_{1}, \ldots, \gamma_{l}\right) \leqslant\left(\delta_{1}, \ldots, \delta_{l}\right)$.
+
+Пусть $A$ и $B$ - элементы одного из множеств 1) 5). Если $A \leqslant B$ и $A \geqslant B$, то элементы $A$ и $B$ наз. p a вны м и по инфо р м а ц и г, что обозначается $A \wedge B$. Функция $\varphi\left(\mathfrak{Y}, \alpha_{1}, \ldots, \alpha_{l}, S, \mathfrak{D} i^{*}\right)$ наз. м о н о т о нн о й, если из соотношения $S_{1} \leqslant S_{2}$ следует, что для $i=$ $=1,2, \ldots, l$
+
+$\varphi_{i}\left(\mathfrak{H}, \alpha_{1}, . ., \alpha_{l}, S_{1}, \mathfrak{M}_{1}^{*}\right) \leqslant \varphi_{i}\left(\mathfrak{U}, \beta_{1}, \ldots, \beta_{l}, S_{2}, \mathfrak{M}_{2}^{*}\right)$.
+
+Для определения А. л. необходімо также ввесті а лгори т м $A_{\pi}$ упо р я д очи в ан ия. Пусть $M-$ произвольное множество, составленное из элементов с информационными векторами, а $N=\{1,2, \ldots, l\}$. Рассмотрим множество $M \widetilde{\times} N$ всех пар ( $\left.\mathfrak{U}^{\alpha_{1}} \ldots \alpha_{l}, j\right)$ таких, что $\mathfrak{H}^{\alpha_{1} \ldots \alpha_{l}} \in M, j \in N, \alpha_{j}=\Delta$. Алгоритм $A_{\pi}$ упорядочивает множество $M \widetilde{\times} N$. А. л. $A$ полностью определяется системой предикатов $P_{1}, \ldots, P_{l}$, разбиением этой системы на основные $P_{1}, \ldots, P_{r}$ и вспомогательные $P_{r+1}$ : $\cdots, P_{l}$ предикаты, системоӥ монотонных функций $\varphi_{1}, \ldots, \varphi_{l}, \varphi_{i}=\varphi_{i}\left(\mathfrak{Y}, \alpha_{1}, \ldots, \alpha_{l}, S, \mathbb{M}^{*}\right)$, и алгоритмом $A_{\pi}$.
+
+Пусть $\mathfrak{M}^{*}=\bigcup_{i=1}^{m} \mathfrak{P}_{i}^{\alpha_{i_{1}}} \cdots \alpha_{i l}, \mathfrak{M}^{*} \in J(\mathfrak{M})$. Первый шаг А. л. состоит в следующем. $К$ множеству $M \widetilde{\times} N$, где $M=\mathfrak{M i}^{*}$, применяется алгоритм $A_{\pi}$; для первой по порядку пары $\left(\mathfrak{H}^{\alpha_{1}} \ldots \alpha_{l}, j\right)$ вычисляется $\varphi_{j}\left(\mathfrak{Y}, \alpha_{1}, \ldots\right.$, $\left.\alpha_{l}, S, \mathfrak{M}^{*}\right)=\left(\beta_{1}, \ldots, \beta_{l}\right)$ и э темент $\mathfrak{H}^{\alpha_{1}} \ldots \alpha_{i}$ заменяется на $\mathfrak{Y}^{\beta_{1} \ldots \beta^{\prime}} ;$ если $\left(\alpha_{1}, \ldots, \alpha_{l}\right)=\left(\beta_{1}, \ldots, \beta_{l}\right)$, то берется вторая пара, и т. д.; если для всех элементов $\left(\mathfrak{B}^{2} \gamma_{1} \cdots \gamma_{l}, i\right)$ выполнено равенство $\left.\left.\varphi_{i}\left(\mathfrak{B}, \gamma_{1}, \ldots, \gamma_{l}, S, \mathfrak{l}\right)\right\}^{*}\right)=\left(\gamma_{1}, \ldots\right.$, $\left.\gamma_{l}\right)$, то А. л. $A$ заканчивается после просмотра всех пар из $M \widetilde{\times} N$. В противном случае, после замены вектора $\left(\alpha_{1}, \ldots, \alpha_{l}\right)$ на новый вектор $\left(\beta_{1}, \ldots, \beta_{l}\right)$, если нет больше әлементов, у к-рых на первых $r$ местах в информационных векторах имеется хотя бы один символ $\Delta$, алгоритм $A$ заканчивается; если они есть, то заканчивается первый шаг А. л. Пусть выполнено $n$ шагов А. л. $A$. Описание $(n+1)$-го шага в точности повторяет описание первого, если вместо множества $\mathfrak{N}^{*}$ рассматривать множество $\mathfrak{M}_{n}^{*}$, в к-рое перешло $\mathfrak{M}^{*}$ после первых $n$ шагов А. л. $A$. В силу монотонности функций $\varphi_{i}, i=$ $=1,2, \ldots, l$, А. л. $A$ закончится после конечцого числа шагов.
+
+Исходными теоремами для А. л. являются т е о р ема единственности и теорем а суще- ![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=23&amp;width=824&amp;top_left_y=197&amp;top_left_x=124)
+Первая теорема утверждает, что результат вычислений основных предикатов не зависит от алгоритма $A_{\pi}$ (порлдка обхода элементов множества $\left.\mathfrak{D}^{*}\right)$. Вторая теорема утверждает существование в весьма общих предположениях н а и л у ч ш е г о А. л., т. е. А. л., к-рый по затанной фиксированной системе окрестностей вычисляет заданные основные предикаты при фиксированных вспомогательных предикатах всегда, когда это делает любой другой А. л. с той же системой окрестностей, основных и вспомогательных предикатов.
+
+Задача получения наилучшего А. л. в явной форме решена для алгоритмов синтеза минималыных покрытий. Пусть задан набор $\left\langle\mathfrak{U}_{1}, \ldots, \mathfrak{A}_{q}, \mu_{1}, \ldots, \mu_{q}, M\right\rangle$, где $\mathfrak{U}_{i}-$ множество, $\mu_{i}-$ сложность $\mathfrak{U}_{i}, \quad \mu_{i}&gt;0, \quad i=1$, $2, \ldots, q, M \subseteq \bigcup_{i=1}^{q} \mathfrak{A}_{i}$. Сложность набора $\left(\mathfrak{Z}_{i_{1}}, \ldots, \mathfrak{A}_{i_{p}}\right)$ есть $\sum_{j=1}^{p} \mu_{i j}$. Требуется построить покрытие $M$ множествами из числа $\mathfrak{U}_{1}, \ldots, \mathfrak{Q}_{q}$ с минимальной сложностью. Система окрестностей $S_{1}, \ldots, S_{n}, \ldots$ для каждого $\mathfrak{U}_{i}$ вводится аналогично системе окрестностей для конъюнкций. Наилучший А. л. строится для системы окрестностей $S_{k}$ при фиксированных предикатах: множество вспомогательных предикатов пусто; в качестве основных рассматриваются предикаты $P_{1}(\mathfrak{A}, M)$ («) не входит ни в одно минимальное покрытие $M$ ) и $P_{2}(\mathfrak{A}, M)$ («\{) входит во все минимальные покрытия М»). Наилучшие А. л. построены также для вычисления простых свойств ребер графа. Большое число разлитных А. л. было предложено для решения задач милимизации булевых функций, дискретного линейного программирования и т. Д.
+
+Важное место в теории А. л. занимают задачи о невычислимости экстремальных свойств в классе А. л. Если на парах $(\mathfrak{M}, \mathfrak{D}), \mathfrak{M} \in \mathfrak{D}\}, \mathfrak{M} \in M$, задана система вложенных окрестностей: $S_{1}(\mathfrak{A}, \quad \mathfrak{W} \mathfrak{Z}) \subseteq S_{2}(\mathfrak{A}, \quad \mathfrak{N}) \subseteq$ $\ldots \sqsubseteq S_{n}(\mathfrak{A}, \mathfrak{D} Z) \sqsubseteq \ldots$ и А. л. работает по системе окрестностей $S(\mathfrak{A}, \mathfrak{M})$, где $S_{k-1}(\mathfrak{X}, \quad \mathfrak{D}) \sqsubseteq S(\mathfrak{A}, \quad \mathfrak{D}) \sqsubseteq$ $\subseteq S_{k}(\mathfrak{A}, \sqrt{N})$, то говорят, что А. л. имеет и н д е к с $k$. Число предикатов $P_{1}, \ldots, P_{l}$ в определении А. л. естественно считать в е ли ч и н о й п а м я т и А. Л. Пусть задано множество $\mathscr{\mathcal { P }}$ предикатов $\boldsymbol{P}(\mathfrak{Q}, \mathfrak{M})$. Считается, что все предикаты, участвующие в определении А. л., принадлежат (P. Пусть $A\left(\prod^{*}\right)$ - результат примене-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=37&amp;width=828&amp;top_left_y=1510&amp;top_left_x=122)
+кат $P_{1}(\mathfrak{A}, \mathfrak{D})$ говорят, что он не является $(k, l)$-в ыч и с л и М м, если для всякого А. л. индекса $k$ с величиной памяти $l$, основным предикатом $P_{1}$ и вспо-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=37&amp;width=828&amp;top_left_y=1629&amp;top_left_x=122)
+$\mathfrak{M}^{*}$ такое, что в $A\left(\mathfrak{D}^{*}\right)$ предикат $P_{1}$ будет вычислен не для всех элементов.
+
+Пусть $f\left(x_{1}, \ldots, x_{n}\right)-$ совокупность всех булевых бункций от переменных $x_{1}, \ldots, x_{n}$ и $P_{1}\left(\mathfrak{A}, f\left(x_{1}, \ldots, x_{n}\right)\right)$ -
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=35&amp;width=826&amp;top_left_y=1786&amp;top_left_x=123)
+минимальную дизьюнктивную нормальную форму». При естественных ограничениях на класс предика-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_97aced4d527275a58548g-1.jpg?height=40&amp;width=828&amp;top_left_y=1878&amp;top_left_x=122)
+не является $(k, l)$-вычислимым, если $k l&lt;$ const $\cdot 2^{n}$. Интересно отметить, что предикат $\boldsymbol{P}\left(\mathfrak{A}, f\left(x_{1}, \ldots, x_{n}\right)\right)$ «конъюнкция $\mathfrak{A}$ входит хотя бы в одну тупиковую дизъюнктивную нормальную форму $f »$ (см. Булевьх бункчий нормальные бормы $)$ является $(2,1)$-вычислимым, но не (1, 1)-вычислимым. Аналогичные результаты получены для предикатов, описываюих вхождение ребра в минимальный путь между заданными вершинами графофа.
+
+Jum.: [1] Ж у р а в л е в Ю. И., &quot;Кибернетика&quot;, 1965, № 1, с. $12-19 ; 1966, \mathcal{N}_{2} 2$, с. $1-11 ;[2]$ Х у т о р я н с к а н Ю. И., сб. «Проблемы кибернетики&quot;, 1962 , вып. 8, с. 5-44.
+
+См. также лит. при статье Булевых бункций минимизачия.
+
+Ю. И. Нуравлев.</text_orig>
+</article>

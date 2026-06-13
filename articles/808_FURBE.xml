@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/808_FURBE" alphabetic_pos="808">
+  <title>ФУРБЕ ИНТЕГРАЛ</title>
+  <authors/>
+  <pages>
+    <start>361</start>
+    <end>362</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Т и т ч м а $\mathrm{p}$ ш Е.., Введение в теорию интегралов Фурье, пер. с англ., М.-- Л., 1948, [2] Б о х н е p С., Лекции об интегралах Фурье, пер. с англ., М., 1962; [3] 3 и г м у н д А.,Тригонометрические ряды, пер. с англ., т. 2, М., 1965.</literature_orig>
+    <unit>
+      <title>Т и т ч м а $\mathrm{p}$ ш Е.., Введение в теорию интегралов Фурье</title>
+      <publication>пер. с англ., М.-- Л.</publication>
+      <year>1948</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бохнеp С.</author>
+      <title>Лекции об интегралах Фурье</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>3игмунд А.</author>
+      <title>Тригонометрические ряды</title>
+      <publication>пер. с англ., т. 2, М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/808_1_FURBE">f(x)=\int_{0}^{\infty}[A(\lambda) \cos \lambda x+B(\lambda) \sin \lambda x] d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_2_FURBE">\begin{aligned}&amp; A=\frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \cos \lambda \xi d \xi d \xi, \\&amp; B=\frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \sin \lambda \xi d \xi .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_3_FURBE">f(x)=\frac{1}{\pi} \int_{0}^{\infty} d \lambda \int_{-\infty}^{+\infty} f(\xi) \cos \lambda(x-\xi) d \xi,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_4_FURBE">f(x)=\lim _{N \rightarrow \infty} \frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \frac{\sin N(x-\xi)}{x-\xi} d \xi,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_5_FURBE">\begin{gathered}D(\lambda)=\sqrt{|A(\lambda)|^{2}+|B(\lambda)|^{2}}, \cos \varphi(\lambda)=\frac{B(\lambda)}{D(\lambda)}, \\\sin \varphi(\lambda)=\frac{A(\lambda)}{D(\lambda)},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_6_FURBE">f(x)=\int_{0}^{\infty} D(\lambda) \sin [\lambda x+\varphi(\lambda)] d \lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_7_FURBE">f(x)=\int_{-\infty}^{+\infty} C(\lambda) e^{i \lambda x} d \lambda, C(\lambda)=\frac{1}{\sqrt{2 \pi}} \tilde{f}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_8_FURBE">\tilde{f}(\lambda)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} f(x) e^{-i \lambda x} d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_9_FURBE">\begin{gathered}\frac{1}{\mathrm{~N}} \int_{0}^{N} d \omega\left[\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} \tilde{f}(\lambda) e^{i \lambda x} d \lambda \equiv\right. \\\equiv \frac{1}{\sqrt{2 \pi}} \int_{0}^{N}\left(1-\frac{|\lambda|}{N}\right) \tilde{f}(\lambda) e^{i \lambda x} d \lambda \equiv \\\equiv \frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \frac{2 \sin ^{2} \frac{N(x-\xi)}{2}}{N(x-\xi)^{2}} d \xi\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_10_FURBE">\frac{f(x+0)+f(x-0)}{2}=\lim _{\omega \rightarrow \infty} \frac{1}{\sqrt{2 \pi}} \int_{-\omega}^{+\omega} \tilde{f}(\lambda) e^{i \lambda x} d \lambda .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_11_FURBE">\frac{f(x+0)+f(x-0)}{2}=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} \tilde{f}(\lambda) e^{i \lambda x} d \lambda,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/808_12_FURBE">\tilde{f}(\lambda)=\lim _{A \rightarrow \infty}^{p^{\prime}} \frac{1}{\sqrt{2 \pi}} \int_{-A}^{+A} f(x) e^{-i \lambda x} d x</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_1_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_2_FURBE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_3_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_4_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_5_FURBE">(\mathrm{o}, N)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_6_FURBE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_7_FURBE">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_8_FURBE">(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_9_FURBE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_10_FURBE">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_11_FURBE">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_12_FURBE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_13_FURBE">\tilde{f}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_14_FURBE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_15_FURBE">c(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_16_FURBE">f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_17_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_18_FURBE">f \in L_{1}(-\infty,+\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_19_FURBE">\tilde{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_20_FURBE">\tilde{f}(\lambda) \longrightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_21_FURBE">|\lambda| \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_22_FURBE">\tilde{f}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_23_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_24_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_25_FURBE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_26_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_27_FURBE">f \in L_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_28_FURBE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_29_FURBE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_30_FURBE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_31_FURBE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_32_FURBE">\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_33_FURBE">f \in L_{p}, 1 \leqslant p \leqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_34_FURBE">p^{\prime}, \frac{1}{p}+\frac{1}{p^{\prime}}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_35_FURBE">p=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/808_36_FURBE">n</formula>
+  </formulas_aux>
+  <relations n="20">
+    <relation uri="http://libmeta.ru/me/relation/808_1_FURBE">
+      <rel_text>Планшереля теорема</rel_text>
+      <target>http://libmeta.ru/me/article/299_PLANShERELJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_2_FURBE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_3_FURBE">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_4_FURBE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_5_FURBE">
+      <rel_text>кратных</rel_text>
+      <target>http://libmeta.ru/me/article/82_KRATNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_6_FURBE">
+      <rel_text>теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_7_FURBE">
+      <rel_text>строится</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_8_FURBE">
+      <rel_text>результат</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_9_FURBE">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_10_FURBE">
+      <rel_text>предел</rel_text>
+      <target>http://libmeta.ru/me/article/585_PREDE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_11_FURBE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_12_FURBE">
+      <rel_text>среднем</rel_text>
+      <target>http://libmeta.ru/me/article/165_SREDNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_13_FURBE">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_14_FURBE">
+      <rel_text>предел</rel_text>
+      <target>http://libmeta.ru/me/article/585_PREDE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_15_FURBE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_16_FURBE">
+      <rel_text>предположении</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_17_FURBE">
+      <rel_text>интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_18_FURBE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_19_FURBE">
+      <rel_text>абсолютно интегрируемой URI[[ht</rel_text>
+      <target>http://libmeta.ru/me/article/25_ABSOLJuTNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/808_20_FURBE">
+      <rel_text>интервале</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+  </relations>
+  <text>континуальный аналог Фурье ряда. Для функции, заданной на конечном промежутке действительной оси, важное значение имеет представлөние ее рядом Фурье. Для функции $URI[[http://libmeta.ru/me/formula/aux/808_1_FURBE]]/URI$, заданной на всей оси, аналогичную роль играет разложение $URI[[http://libmeta.ru/me/formula/aux/808_2_FURBE]]/URI$ в интеграл Фурье:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_1_FURBE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_2_FURBE]]/URI
+\]
+
+Разложение (1) можно формально строить в предположениях, обеспечивающих существование написанных интегралов. Оно справедливо, напр., для гладкой финитной функции $URI[[http://libmeta.ru/me/formula/aux/808_3_FURBE]]/URI$. Имеется большое число признаков, обеспечивающих равенство (1) в том или ином смысле. Подстановка (2) в (1) дает т. н. и н т егральн ую форм у л у Ф у р ь е
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_3_FURBE]]/URI
+\]
+
+обоснование к-рой и приводит к упомянутым признакам. Большую пользу приносит при этом представление $URI[[http://libmeta.ru/me/formula/aux/808_4_FURBE]]/URI$ п р о с тым ин те г ра лом Ф у р ье
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_4_FURBE]]/URI
+\] к-рое получается из (3), если записать внешний интеграл как предел по интервалу $URI[[http://libmeta.ru/me/formula/aux/808_5_FURBE]]/URI$ и поменять порядок интегрирования. В прикладных науках представление (1) часто интерпретируется как разложение по гармоникам: если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_5_FURBE]]/URI
+\]
+
+то (1) принимает вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_6_FURBE]]/URI
+\]
+
+и таким образом $URI[[http://libmeta.ru/me/formula/aux/808_6_FURBE]]/URI$ представляется в виде суперпозиции гармоник, частоты $URI[[http://libmeta.ru/me/formula/aux/808_7_FURBE]]/URI$ к-рых непрерывно заполняют действительную полуось $URI[[http://libmeta.ru/me/formula/aux/808_8_FURBE]]/URI$, а амплитуда $URI[[http://libmeta.ru/me/formula/aux/808_9_FURBE]]/URI$ и начальная фаза $URI[[http://libmeta.ru/me/formula/aux/808_10_FURBE]]/URI$ зависят от $URI[[http://libmeta.ru/me/formula/aux/808_11_FURBE]]/URI$.
+
+Во многих случаях (в частности, для комплекснозначных функций $URI[[http://libmeta.ru/me/formula/aux/808_12_FURBE]]/URI$ ) разложение (1) удобнее представлять в әкспоненциальной форме:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_7_FURBE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_8_FURBE]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/808_13_FURBE]]/URI$ именуется при этом Фурье преобразованием функции $URI[[http://libmeta.ru/me/formula/aux/808_14_FURBE]]/URI$ (в прикладных науках $URI[[http://libmeta.ru/me/formula/aux/808_15_FURBE]]/URI$ наз. частотной характеристикой, или с п е к т р о м, $URI[[http://libmeta.ru/me/formula/aux/808_16_FURBE]]/URI$.
+
+При условии, что функция $URI[[http://libmeta.ru/me/formula/aux/808_17_FURBE]]/URI$ суммируема: $URI[[http://libmeta.ru/me/formula/aux/808_18_FURBE]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/808_19_FURBE]]/URI$ ограничена, равномерно непрерывна на оси и $URI[[http://libmeta.ru/me/formula/aux/808_20_FURBE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/808_21_FURBE]]/URI$. Функция $URI[[http://libmeta.ru/me/formula/aux/808_22_FURBE]]/URI$ может оказаться несуммируемой и интеграл (4) - нес уществующим. Однако равенство (4) допускает разумное истолкование, если воспользоваться методами суммирования интегралов [при этом можно рассматривать не только поточечную сходимость, но и сходимость в среднем]. Напр., средние арифометические усеченных Ф. и.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_9_FURBE]]/URI
+\]
+
+суммируемой функции $URI[[http://libmeta.ru/me/formula/aux/808_23_FURBE]]/URI$ сходятся к $URI[[http://libmeta.ru/me/formula/aux/808_24_FURBE]]/URI$ почти всюду и в среднем при $URI[[http://libmeta.ru/me/formula/aux/808_25_FURBE]]/URI$. При наличии дополнительных ограничений на функцию $URI[[http://libmeta.ru/me/formula/aux/808_26_FURBE]]/URI$ получаются более конкретные утверждения. Напр., если $URI[[http://libmeta.ru/me/formula/aux/808_27_FURBE]]/URI$ и имеет ограниченную вариацию в окрестности $URI[[http://libmeta.ru/me/formula/aux/808_28_FURBE]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_10_FURBE]]/URI
+\]
+
+В приложениях часто используется разложение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_11_FURBE]]/URI
+\]
+
+верное для кусочно гладкой в каждом конечном URI[[http://libmeta.ru/me/relation/808_20_FURBE]]/URI URI[[http://libmeta.ru/me/relation/808_19_FURBE]]/URItp://libmeta.ru/me/relation/808_18_FURBE]]/URI $URI[[http://libmeta.ru/me/formula/aux/808_29_FURBE]]/URI$, где URI[[http://libmeta.ru/me/relation/808_17_FURBE]]/URI справа понимается в смысле главного значения (6). Ф. и. изучается также в URI[[http://libmeta.ru/me/relation/808_16_FURBE]]/URI локальной суммируемости URI[[http://libmeta.ru/me/relation/808_15_FURBE]]/URI $URI[[http://libmeta.ru/me/formula/aux/808_30_FURBE]]/URI$ и при тех или иных требованиях, накладывающих ограничения на поведение $URI[[http://libmeta.ru/me/formula/aux/808_31_FURBE]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/808_32_FURBE]]/URI$. Пусть, напр., $URI[[http://libmeta.ru/me/formula/aux/808_33_FURBE]]/URI$, тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/808_12_FURBE]]/URI
+\]
+
+где URI[[http://libmeta.ru/me/relation/808_14_FURBE]]/URI понимастся в смысле URI[[http://libmeta.ru/me/relation/808_13_FURBE]]/URI в URI[[http://libmeta.ru/me/relation/808_12_FURBE]]/URI URI[[http://libmeta.ru/me/relation/808_11_FURBE]]/URI $URI[[http://libmeta.ru/me/formula/aux/808_34_FURBE]]/URI$ [однако URI[[http://libmeta.ru/me/relation/808_10_FURBE]]/URI в (7) существует и в смысле URI[[http://libmeta.ru/me/relation/808_9_FURBE]]/URI почти всюду]. Простую форму приобретает этот URI[[http://libmeta.ru/me/relation/808_8_FURBE]]/URI при $URI[[http://libmeta.ru/me/formula/aux/808_35_FURBE]]/URI$ (см. URI[[http://libmeta.ru/me/relation/808_1_FURBE]]/URI).
+
+Аналогично URI[[http://libmeta.ru/me/relation/808_7_FURBE]]/URI URI[[http://libmeta.ru/me/relation/808_6_FURBE]]/URI URI[[http://libmeta.ru/me/relation/808_5_FURBE]]/URI Ф. и., когда речь идет о разложении URI[[http://libmeta.ru/me/relation/808_4_FURBE]]/URI, заданной в $URI[[http://libmeta.ru/me/formula/aux/808_36_FURBE]]/URI$-мерном URI[[http://libmeta.ru/me/relation/808_3_FURBE]]/URI. Понятие Ф. и. распространяется также и на обобщенные URI[[http://libmeta.ru/me/relation/808_2_FURBE]]/URI.</text>
+  <text_orig>континуальный аналог Фурье ряда. Для функции, заданной на конечном промежутке действительной оси, важное значение имеет представлөние ее рядом Фурье. Для функции $f(x)$, заданной на всей оси, аналогичную роль играет разложение $f$ в интеграл Фурье:
+
+\[
+f(x)=\int_{0}^{\infty}[A(\lambda) \cos \lambda x+B(\lambda) \sin \lambda x] d x
+\]
+
+где
+
+\[
+\begin{aligned}
+&amp; A=\frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \cos \lambda \xi d \xi d \xi, \\
+&amp; B=\frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \sin \lambda \xi d \xi .
+\end{aligned}
+\]
+
+Разложение (1) можно формально строить в предположениях, обеспечивающих существование написанных интегралов. Оно справедливо, напр., для гладкой финитной функции $f(x)$. Имеется большое число признаков, обеспечивающих равенство (1) в том или ином смысле. Подстановка (2) в (1) дает т. н. и н т еГральн ую форм у л у Ф у р ь е
+
+\[
+f(x)=\frac{1}{\pi} \int_{0}^{\infty} d \lambda \int_{-\infty}^{+\infty} f(\xi) \cos \lambda(x-\xi) d \xi,
+\]
+
+обоснование к-рой и приводит к упомянутым признакам. Большую пользу приносит при этом представление $f(x)$ п р о с тым ин те г ра лом Ф у р ье
+
+\[
+f(x)=\lim _{N \rightarrow \infty} \frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \frac{\sin N(x-\xi)}{x-\xi} d \xi,
+\] к-рое получается из (3), если записать внешний интеграл как предел по интервалу $(\mathrm{O}, N)$ и поменять порядок интегрирования. В прикладных науках представление (1) часто интерпретируется как разложение по гармоникам: если
+
+\[
+\begin{gathered}
+D(\lambda)=\sqrt{|A(\lambda)|^{2}+|B(\lambda)|^{2}}, \cos \varphi(\lambda)=\frac{B(\lambda)}{D(\lambda)}, \\
+\sin \varphi(\lambda)=\frac{A(\lambda)}{D(\lambda)},
+\end{gathered}
+\]
+
+то (1) принимает вид:
+
+\[
+f(x)=\int_{0}^{\infty} D(\lambda) \sin [\lambda x+\varphi(\lambda)] d \lambda
+\]
+
+и таким образом $f$ представляется в виде суперпозиции гармоник, частоты $\lambda$ к-рых непрерывно заполняют действительную полуось $(0, \infty)$, а амплитуда $D$ и начальная фаза $\varphi$ зависят от $\lambda$.
+
+Во многих случаях (в частности, для комплекснозначных функций $f$ ) разложение (1) удобнее представлять в әкспоненциальной форме:
+
+\[
+f(x)=\int_{-\infty}^{+\infty} C(\lambda) e^{i \lambda x} d \lambda, C(\lambda)=\frac{1}{\sqrt{2 \pi}} \tilde{f}(\lambda)
+\]
+
+где
+
+\[
+\tilde{f}(\lambda)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} f(x) e^{-i \lambda x} d x
+\]
+
+Функция $\tilde{f}(\lambda)$ именуется при этом Фурье преобразованием функции $f$ (в прикладных науках $C(\lambda)$ наз. частотной характеристикой, или с п е к т р о м, $f)$.
+
+При условии, что функция $f(x)$ суммируема: $f \in L_{1}(-\infty,+\infty)$, функция $\tilde{f}$ ограничена, равномерно непрерывна на оси и $\tilde{f}(\lambda) \longrightarrow 0$ при $|\lambda| \longrightarrow \infty$. Функция $\tilde{f}(\lambda)$ может оказаться несуммируемой и интеграл (4) - нес уществующим. Однако равенство (4) допускает разумное истолкование, если воспользоваться методами суммирования интегралов [при этом можно рассматривать не только поточечную сходимость, но и сходимость в среднем]. Напр., средние арифометические усеченных Ф. и.
+
+\[
+\begin{gathered}
+\frac{1}{\mathrm{~N}} \int_{0}^{N} d \omega\left[\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} \tilde{f}(\lambda) e^{i \lambda x} d \lambda \equiv\right. \\
+\equiv \frac{1}{\sqrt{2 \pi}} \int_{0}^{N}\left(1-\frac{|\lambda|}{N}\right) \tilde{f}(\lambda) e^{i \lambda x} d \lambda \equiv \\
+\equiv \frac{1}{\pi} \int_{-\infty}^{+\infty} f(\xi) \frac{2 \sin ^{2} \frac{N(x-\xi)}{2}}{N(x-\xi)^{2}} d \xi
+\end{gathered}
+\]
+
+суммируемой функции $f(x)$ сходятся к $f(x)$ почти всюду и в среднем при $N \rightarrow \infty$. При наличии дополнительных ограничений на функцию $f(x)$ получаются более конкретные утверждения. Напр., если $f \in L_{1}$ и имеет ограниченную вариацию в окрестности $x$, то
+
+\[
+\frac{f(x+0)+f(x-0)}{2}=\lim _{\omega \rightarrow \infty} \frac{1}{\sqrt{2 \pi}} \int_{-\omega}^{+\omega} \tilde{f}(\lambda) e^{i \lambda x} d \lambda .
+\]
+
+В приложениях часто используется разложение
+
+\[
+\frac{f(x+0)+f(x-0)}{2}=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{+\infty} \tilde{f}(\lambda) e^{i \lambda x} d \lambda,
+\]
+
+верное для кусочно гладкой в каждом конечном интервале абсолютно интегрируемой функции $f(x)$, где интеграл справа понимается в смысле главного значения (6). Ф. и. изучается также в предположении локальной суммируемости функции $f$ и при тех или иных требованиях, накладывающих ограничения на поведение $f$ в $\infty$. Пусть, напр., $f \in L_{p}, 1 \leqslant p \leqslant 2$, тогда
+
+\[
+\tilde{f}(\lambda)=\lim _{A \rightarrow \infty}^{p^{\prime}} \frac{1}{\sqrt{2 \pi}} \int_{-A}^{+A} f(x) e^{-i \lambda x} d x
+\]
+
+где предел понимастся в смысле сходимости в среднем порядка $p^{\prime}, \frac{1}{p}+\frac{1}{p^{\prime}}=1$ [однако предел в (7) существует и в смысле сходимости почти всюду]. Простую форму приобретает этот результат при $p=2$ (см. Планшереля теорема).
+
+Аналогично строится теория кратных Ф. и., когда речь идет о разложении функции, заданной в $n$-мерном пространстве. Понятие Ф. и. распространяется также и на обобщенные функции.
+
+Лит.: [1] Т и т ч м а $\mathrm{p}$ ш Е.., Введение в теорию интегралов Фурье, пер. с англ., М.-- Л., 1948, [2] Б о х н е p С., Лекции об интегралах Фурье, пер. с англ., М., 1962; [3] 3 и г м у н д А.,
+Тригонометрические ряды, пер. с англ., т. 2, М., 1965.</text_orig>
+</article>

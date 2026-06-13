@@ -1,0 +1,592 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/503_TRIGONOMETRIChESKIH" alphabetic_pos="503">
+  <title>ТРИГОНОМЕТРИЧЕСКИХ СУММ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>222</start>
+    <end>223</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/503_1_TRIGONOMETRIChESKIH">\sigma=(\beta-\alpha) P+o(P) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_2_TRIGONOMETRIChESKIH">\psi(x)=\left\{\begin{array}{l}1, \text { если } \alpha&lt;x&lt;\beta, \\0, \text { если } 0 \leqslant x \leqslant \alpha, \quad \beta \leqslant x \leqslant 1 .\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_3_TRIGONOMETRIChESKIH">\sigma=\sum_{x=1}^{P} \psi(f(x)) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_4_TRIGONOMETRIChESKIH">\psi(x)=\sum_{m=-\infty}^{+\infty} c(m) e^{2 \pi i m x}, c(0)=\beta-\alpha .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_5_TRIGONOMETRIChESKIH">\sum_{m=-\infty}^{+\infty}|c(m)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_6_TRIGONOMETRIChESKIH">x=\sum_{m=-\infty, m \neq 0}^{+\infty}|c(m)|\left|\sum_{x=1}^{P} e^{2 \pi i m f(x)}\right| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_7_TRIGONOMETRIChESKIH">|S|=\left|\sum_{x=1}^{P} e^{2 \pi i m f(x)}\right| \leqslant P \Delta,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_8_TRIGONOMETRIChESKIH">\sigma=(\beta-\alpha) P+o(P), o(P)=c P \Delta,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_9_TRIGONOMETRIChESKIH">\sum_{x=1}^{P}\{f(x)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_10_TRIGONOMETRIChESKIH">\int_{0}^{1} e^{2 \pi i \alpha m} d \alpha= \begin{cases}1, &amp; \text { если } m=0, \\ 0, &amp; \text { если } m \neq 0,\end{cases}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_11_TRIGONOMETRIChESKIH">N=u_{1}+\ldots+u_{k}, u_{v} \in U_{v}, v=1, \ldots, k,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_12_TRIGONOMETRIChESKIH">I(N)=\int_{0}^{1} S_{1}(\alpha) \ldots S_{k}(\alpha) e^{-2 \pi i \alpha N} d \alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_13_TRIGONOMETRIChESKIH">S_{v}(\alpha)=\sum_{u_{v} \in U_{v}} e^{2 \pi i \alpha u_{v}}, v=1, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_14_TRIGONOMETRIChESKIH">S=\sum_{x=1}^{P} e^{2 \pi i F(x)}, F(x)=\frac{a x^{8}}{P}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_15_TRIGONOMETRIChESKIH">S=\left\{\begin{array}{r}(1+i) \sqrt{P}, \text { если } P \equiv 0 \bmod (4) \\\sqrt{P}, \text { если } P \equiv 1(\bmod 4) \\0, \text { если } P \equiv 2(\bmod 4) \\i \sqrt{P}, \text { если } P \equiv 3(\bmod 4)\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_16_TRIGONOMETRIChESKIH">f(x)=\alpha_{1} x+\ldots+\alpha_{n} x^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_17_TRIGONOMETRIChESKIH">\frac{c_{1}}{A} \leqslant F^{\prime \prime}(x) \leqslant \frac{c_{2}}{A},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/503_18_TRIGONOMETRIChESKIH">F(x)=t \ln x,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_1_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_2_TRIGONOMETRIChESKIH">x=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_3_TRIGONOMETRIChESKIH">\ldots, \boldsymbol{P}, \boldsymbol{P} \rightarrow+\infty ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_4_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_5_TRIGONOMETRIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_6_TRIGONOMETRIChESKIH">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_7_TRIGONOMETRIChESKIH">0 \leqslant \alpha&lt;\beta&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_8_TRIGONOMETRIChESKIH">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_9_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_10_TRIGONOMETRIChESKIH">(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_11_TRIGONOMETRIChESKIH">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_12_TRIGONOMETRIChESKIH">(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_13_TRIGONOMETRIChESKIH">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_14_TRIGONOMETRIChESKIH">\psi(x+1)=\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_15_TRIGONOMETRIChESKIH">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_16_TRIGONOMETRIChESKIH">\sigma=(\beta-\alpha) P+\sum_{m=-\infty, m \neq 0}^{+\infty} c(m) \sum_{x=1}^{P} e^{2 \pi i m f(x)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_17_TRIGONOMETRIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_18_TRIGONOMETRIChESKIH">\{f(x)\}=\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_19_TRIGONOMETRIChESKIH">\{f(x)\}=\beta ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_20_TRIGONOMETRIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_21_TRIGONOMETRIChESKIH">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_22_TRIGONOMETRIChESKIH">\alpha^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_23_TRIGONOMETRIChESKIH">\beta^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_24_TRIGONOMETRIChESKIH">x=1,2, \ldots, P,\{f(x)\} \neq \alpha^{\prime},\{f(x)\} \neq \beta^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_25_TRIGONOMETRIChESKIH">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_26_TRIGONOMETRIChESKIH">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_27_TRIGONOMETRIChESKIH">c(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_28_TRIGONOMETRIChESKIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_29_TRIGONOMETRIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_30_TRIGONOMETRIChESKIH">\delta=\delta(p) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_31_TRIGONOMETRIChESKIH">p \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_32_TRIGONOMETRIChESKIH">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_33_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_34_TRIGONOMETRIChESKIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_35_TRIGONOMETRIChESKIH">|s|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_36_TRIGONOMETRIChESKIH">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_37_TRIGONOMETRIChESKIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_38_TRIGONOMETRIChESKIH">\delta&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_39_TRIGONOMETRIChESKIH">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_40_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_41_TRIGONOMETRIChESKIH">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_42_TRIGONOMETRIChESKIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_43_TRIGONOMETRIChESKIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_44_TRIGONOMETRIChESKIH">0&lt;|m|&lt;(\ln P)^{A}, A&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_45_TRIGONOMETRIChESKIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_46_TRIGONOMETRIChESKIH">i(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_47_TRIGONOMETRIChESKIH">u_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_48_TRIGONOMETRIChESKIH">u_{v}=u=\left\{1^{n}, 2^{n}, \ldots\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_49_TRIGONOMETRIChESKIH">k=3, U_{v}=U=\{2,3,5,7</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_50_TRIGONOMETRIChESKIH">11, \ldots, p, \ldots\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_51_TRIGONOMETRIChESKIH">s_{v}(\alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_52_TRIGONOMETRIChESKIH">\left|s_{v}(\alpha)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_53_TRIGONOMETRIChESKIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_54_TRIGONOMETRIChESKIH">\alpha_{1}, \ldots, \alpha_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_55_TRIGONOMETRIChESKIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_56_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_57_TRIGONOMETRIChESKIH">f(x)=m f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_58_TRIGONOMETRIChESKIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_59_TRIGONOMETRIChESKIH">m \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_60_TRIGONOMETRIChESKIH">s \mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_61_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_62_TRIGONOMETRIChESKIH">c_{1}, c_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_63_TRIGONOMETRIChESKIH">a=a(p) \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_64_TRIGONOMETRIChESKIH">p \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_65_TRIGONOMETRIChESKIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_66_TRIGONOMETRIChESKIH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_67_TRIGONOMETRIChESKIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_68_TRIGONOMETRIChESKIH">t=t(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_69_TRIGONOMETRIChESKIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/503_70_TRIGONOMETRIChESKIH">\mathrm{pa}-</formula>
+  </formulas_aux>
+  <relations n="54">
+    <relation uri="http://libmeta.ru/me/relation/503_1_TRIGONOMETRIChESKIH">
+      <rel_text>Тригонометрическал</rel_text>
+      <target>http://libmeta.ru/me/article/504_TRIGONOMETRIChESK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_2_TRIGONOMETRIChESKIH">
+      <rel_text>Тригонометрическая</rel_text>
+      <target>http://libmeta.ru/me/article/504_TRIGONOMETRIChESK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_3_TRIGONOMETRIChESKIH">
+      <rel_text>Аддитивиье проблемь</rel_text>
+      <target>http://libmeta.ru/me/article/75_ADDITIVNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_4_TRIGONOMETRIChESKIH">
+      <rel_text>Варинга</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_5_TRIGONOMETRIChESKIH">
+      <rel_text>Виноградова метод</rel_text>
+      <target>http://libmeta.ru/me/article/720_VINOGRADOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_6_TRIGONOMETRIChESKIH">
+      <rel_text>тригонометрич</rel_text>
+      <target>http://libmeta.ru/me/article/505_TRIGONOMETRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_7_TRIGONOMETRIChESKIH">
+      <rel_text>тригонометрич</rel_text>
+      <target>http://libmeta.ru/me/article/505_TRIGONOMETRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_8_TRIGONOMETRIChESKIH">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_9_TRIGONOMETRIChESKIH">
+      <rel_text>задатей</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_10_TRIGONOMETRIChESKIH">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_11_TRIGONOMETRIChESKIH">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_12_TRIGONOMETRIChESKIH">
+      <rel_text>тривиально</rel_text>
+      <target>http://libmeta.ru/me/article/497_TRIVEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_13_TRIGONOMETRIChESKIH">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_14_TRIGONOMETRIChESKIH">
+      <rel_text>распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_15_TRIGONOMETRIChESKIH">
+      <rel_text>тригонометрич</rel_text>
+      <target>http://libmeta.ru/me/article/505_TRIGONOMETRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_16_TRIGONOMETRIChESKIH">
+      <rel_text>Рамануджана</rel_text>
+      <target>http://libmeta.ru/me/article/929_RAMANUTभAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_17_TRIGONOMETRIChESKIH">
+      <rel_text>методу</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_18_TRIGONOMETRIChESKIH">
+      <rel_text>близким</rel_text>
+      <target>http://libmeta.ru/me/article/499_BLIZNETs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_19_TRIGONOMETRIChESKIH">
+      <rel_text>проблема Гольдбаха</rel_text>
+      <target>http://libmeta.ru/me/article/1115_GOL'DBAHA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_20_TRIGONOMETRIChESKIH">
+      <rel_text>проблема Варинга</rel_text>
+      <target>http://libmeta.ru/me/article/609_VARINGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_21_TRIGONOMETRIChESKIH">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_22_TRIGONOMETRIChESKIH">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_23_TRIGONOMETRIChESKIH">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_24_TRIGONOMETRIChESKIH">
+      <rel_text>интервала</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_25_TRIGONOMETRIChESKIH">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_26_TRIGONOMETRIChESKIH">
+      <rel_text>характеристич</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_27_TRIGONOMETRIChESKIH">
+      <rel_text>ряд Фурье</rel_text>
+      <target>http://libmeta.ru/me/article/817_FUR'E</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_28_TRIGONOMETRIChESKIH">
+      <rel_text>представляется</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_29_TRIGONOMETRIChESKIH">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_30_TRIGONOMETRIChESKIH">
+      <rel_text>тригонометрич</rel_text>
+      <target>http://libmeta.ru/me/article/505_TRIGONOMETRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_31_TRIGONOMETRIChESKIH">
+      <rel_text>метрич</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_32_TRIGONOMETRIChESKIH">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_33_TRIGONOMETRIChESKIH">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_34_TRIGONOMETRIChESKIH">
+      <rel_text>интервал</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_35_TRIGONOMETRIChESKIH">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_36_TRIGONOMETRIChESKIH">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_37_TRIGONOMETRIChESKIH">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_38_TRIGONOMETRIChESKIH">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_39_TRIGONOMETRIChESKIH">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_40_TRIGONOMETRIChESKIH">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_41_TRIGONOMETRIChESKIH">
+      <rel_text>модуля</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_42_TRIGONOMETRIChESKIH">
+      <rel_text>параметр</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_43_TRIGONOMETRIChESKIH">
+      <rel_text>функцией</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_44_TRIGONOMETRIChESKIH">
+      <rel_text>дзета-функции Римана</rel_text>
+      <target>http://libmeta.ru/me/article/1097_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_45_TRIGONOMETRIChESKIH">
+      <rel_text>функциональное уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/802_FUNKTsIONAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_46_TRIGONOMETRIChESKIH">
+      <rel_text>приближенное</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_47_TRIGONOMETRIChESKIH">
+      <rel_text>вторая производная</rel_text>
+      <target>http://libmeta.ru/me/article/287_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_48_TRIGONOMETRIChESKIH">
+      <rel_text>функцией</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_49_TRIGONOMETRIChESKIH">
+      <rel_text>рассмотрел</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_50_TRIGONOMETRIChESKIH">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_51_TRIGONOMETRIChESKIH">
+      <rel_text>распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_52_TRIGONOMETRIChESKIH">
+      <rel_text>целое число</rel_text>
+      <target>http://libmeta.ru/me/article/906_TsELOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_53_TRIGONOMETRIChESKIH">
+      <rel_text>функцией</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/503_54_TRIGONOMETRIChESKIH">
+      <rel_text>рассмотрел</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+  </relations>
+  <text>один из общих методов аналитической теории чисел. Две проблемы теории тисел потребовали для своего решения создания Т. с. м.: проблема распределения дробных долей многочлена и проблема представления натурального числа суммою слагаемых определенного вида (аддитивные проблемы теории чисел). Пусть $URI[[http://libmeta.ru/me/formula/aux/503_1_TRIGONOMETRIChESKIH]]/URI$ - действительная функция, $URI[[http://libmeta.ru/me/formula/aux/503_2_TRIGONOMETRIChESKIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/503_3_TRIGONOMETRIChESKIH]]/URI$ говорят, что дробные доли $URI[[http://libmeta.ru/me/formula/aux/503_4_TRIGONOMETRIChESKIH]]/URI$ распределены равномерно (р. р.), если при любых $URI[[http://libmeta.ru/me/formula/aux/503_5_TRIGONOMETRIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/503_6_TRIGONOMETRIChESKIH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/503_7_TRIGONOMETRIChESKIH]]/URI$, число $URI[[http://libmeta.ru/me/formula/aux/503_8_TRIGONOMETRIChESKIH]]/URI$ дробных долей $URI[[http://libmeta.ru/me/formula/aux/503_9_TRIGONOMETRIChESKIH]]/URI$, попадающих на интервал $URI[[http://libmeta.ru/me/formula/aux/503_10_TRIGONOMETRIChESKIH]]/URI$, пропорционально длине этого интервала, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_1_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Пусть, теперь $URI[[http://libmeta.ru/me/formula/aux/503_11_TRIGONOMETRIChESKIH]]/URI$ - характеристич. функция интервала $URI[[http://libmeta.ru/me/formula/aux/503_12_TRIGONOMETRIChESKIH]]/URI$, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_2_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Продолжая $URI[[http://libmeta.ru/me/formula/aux/503_13_TRIGONOMETRIChESKIH]]/URI$ периодически на всю прямую, т. е. полагая $URI[[http://libmeta.ru/me/formula/aux/503_14_TRIGONOMETRIChESKIH]]/URI$, имеют
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_3_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Разлагая $URI[[http://libmeta.ru/me/formula/aux/503_15_TRIGONOMETRIChESKIH]]/URI$ в ряд Фурье, находят
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_4_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Тем самым
+
+$URI[[http://libmeta.ru/me/formula/aux/503_16_TRIGONOMETRIChESKIH]]/URI$.
+
+Последнее соотношение, вообще говоря, не верно, т. к. могут быть такие $URI[[http://libmeta.ru/me/formula/aux/503_17_TRIGONOMETRIChESKIH]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/503_18_TRIGONOMETRIChESKIH]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/503_19_TRIGONOMETRIChESKIH]]/URI$ но числа $URI[[http://libmeta.ru/me/formula/aux/503_20_TRIGONOMETRIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/503_21_TRIGONOMETRIChESKIH]]/URI$ можно заменить близкими $URI[[http://libmeta.ru/me/formula/aux/503_22_TRIGONOMETRIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/503_23_TRIGONOMETRIChESKIH]]/URI$ и такими, что при всех $URI[[http://libmeta.ru/me/formula/aux/503_24_TRIGONOMETRIChESKIH]]/URI$; от такой замены точность соотношения практически не изменится и оно станет верным. Точно также функцию $URI[[http://libmeta.ru/me/formula/aux/503_25_TRIGONOMETRIChESKIH]]/URI$ можно так «сгладить» («подправить»), что величина $URI[[http://libmeta.ru/me/formula/aux/503_26_TRIGONOMETRIChESKIH]]/URI$ практически не изменится, а коэфффициенты $URI[[http://libmeta.ru/me/formula/aux/503_27_TRIGONOMETRIChESKIH]]/URI$ ряда Фурье будут «быстро» убывать с ростом $URI[[http://libmeta.ru/me/formula/aux/503_28_TRIGONOMETRIChESKIH]]/URI$, т. е. будет «быстро» сходиться ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_5_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Второе слагаемое в равенстве (1) по абсолютной величине не превосходит $URI[[http://libmeta.ru/me/formula/aux/503_29_TRIGONOMETRIChESKIH]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_6_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Если известно, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_7_TRIGONOMETRIChESKIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/503_30_TRIGONOMETRIChESKIH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/503_31_TRIGONOMETRIChESKIH]]/URI$, то для $URI[[http://libmeta.ru/me/formula/aux/503_32_TRIGONOMETRIChESKIH]]/URI$ получают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_8_TRIGONOMETRIChESKIH]]/URI
+\]
+
+т. е. дробные доли $URI[[http://libmeta.ru/me/formula/aux/503_33_TRIGONOMETRIChESKIH]]/URI$ распределены равномерно. Таким образом, надо уметь оценивать сверху модуль тригонометрич. суммы. Так как каждое слагаемое в $URI[[http://libmeta.ru/me/formula/aux/503_34_TRIGONOMETRIChESKIH]]/URI$ по модулю равно 1, то тривиальная оценка $URI[[http://libmeta.ru/me/formula/aux/503_35_TRIGONOMETRIChESKIH]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/503_36_TRIGONOMETRIChESKIH]]/URI$, т. е. тривиальная оценка - это число слагаемых суммы $URI[[http://libmeta.ru/me/formula/aux/503_37_TRIGONOMETRIChESKIH]]/URI$. Оценка вида (2) наз. нетривиальной, если $URI[[http://libmeta.ru/me/formula/aux/503_38_TRIGONOMETRIChESKIH]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/503_39_TRIGONOMETRIChESKIH]]/URI$ наз. П о н и ж ю щ и м мн о ж и т е ле м. В задаче о дробных долях $URI[[http://libmeta.ru/me/formula/aux/503_40_TRIGONOMETRIChESKIH]]/URI$ за счет сглаживания $URI[[http://libmeta.ru/me/formula/aux/503_41_TRIGONOMETRIChESKIH]]/URI$ можно добиться того, что оценку (2) надо получать для «небольпого» числа значений $URI[[http://libmeta.ru/me/formula/aux/503_42_TRIGONOMETRIChESKIH]]/URI$, напр., для $URI[[http://libmeta.ru/me/formula/aux/503_43_TRIGONOMETRIChESKIH]]/URI$ из промежутка $URI[[http://libmeta.ru/me/formula/aux/503_44_TRIGONOMETRIChESKIH]]/URI$ - нек-рая погтоянная.
+
+Такой же подход применяется при выводе асимптогич. формулы для суммы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_9_TRIGONOMETRIChESKIH]]/URI
+\]
+
+к-рая возникает в задачах о числе целых точек в областях на плоскости и в пространстве.
+
+В аддитивных проблемах теории чисел тригонометрические суммы появляются следующим образом. При целом $URI[[http://libmeta.ru/me/formula/aux/503_45_TRIGONOMETRIChESKIH]]/URI$ справедлива формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_10_TRIGONOMETRIChESKIH]]/URI
+\]
+
+поэтому, если через $URI[[http://libmeta.ru/me/formula/aux/503_46_TRIGONOMETRIChESKIH]]/URI$ обозначить число решений уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_11_TRIGONOMETRIChESKIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/503_47_TRIGONOMETRIChESKIH]]/URI$ - нек-рые подмножества натурального ряда чисел, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_12_TRIGONOMETRIChESKIH]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_13_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Полагая, в тастности, $URI[[http://libmeta.ru/me/formula/aux/503_48_TRIGONOMETRIChESKIH]]/URI$, получают Варинга проблему; при $URI[[http://libmeta.ru/me/formula/aux/503_49_TRIGONOMETRIChESKIH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/503_50_TRIGONOMETRIChESKIH]]/URI$ - тернарнуіо Гольдбаха проблему и т. Д. Как и в задаче о распределении дробных долей, главным вопросом здесь является вопрос об оценке сверху модуля $URI[[http://libmeta.ru/me/formula/aux/503_51_TRIGONOMETRIChESKIH]]/URI$, т. е. вопрос о верхней грани $URI[[http://libmeta.ru/me/formula/aux/503_52_TRIGONOMETRIChESKIH]]/URI$
+
+Тем самым широкий круг разнообразных проблем теории чисел формулируется единообразно на языке тригонометрич. сумм.
+
+Первая нетривиальная тригонометрич. сумма появилась у K. Гаусcа (c. Gauss, 1811) в одном из его доказательств закона взаимности квадратичных вычетов:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_14_TRIGONOMETRIChESKIH]]/URI
+\]
+
+и К. Гаусс точно вычислил значение $URI[[http://libmeta.ru/me/formula/aux/503_53_TRIGONOMETRIChESKIH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_15_TRIGONOMETRIChESKIH]]/URI
+\]
+
+Целый ряд независимых работ с применением тригонометрич. сумм появился в нач. 20 в.
+
+Г. Вейль (h. Weyl, 1916), изучая распределение дробных долей многочлена
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_16_TRIGONOMETRIChESKIH]]/URI
+\]
+
+с действительными коэффициентами $URI[[http://libmeta.ru/me/formula/aux/503_54_TRIGONOMETRIChESKIH]]/URI$, URI[[http://libmeta.ru/me/relation/503_54_TRIGONOMETRIChESKIH]]/URI суммы $URI[[http://libmeta.ru/me/formula/aux/503_55_TRIGONOMETRIChESKIH]]/URI$ с URI[[http://libmeta.ru/me/relation/503_53_TRIGONOMETRIChESKIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/503_56_TRIGONOMETRIChESKIH]]/URI$ вида $URI[[http://libmeta.ru/me/formula/aux/503_57_TRIGONOMETRIChESKIH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/503_58_TRIGONOMETRIChESKIH]]/URI$ - URI[[http://libmeta.ru/me/relation/503_52_TRIGONOMETRIChESKIH]]/URI, $URI[[http://libmeta.ru/me/formula/aux/503_59_TRIGONOMETRIChESKIH]]/URI$. И. М. Виноградов (1917) при изучении URI[[http://libmeta.ru/me/relation/503_51_TRIGONOMETRIChESKIH]]/URI целых точек в областях на плоскости и в URI[[http://libmeta.ru/me/relation/503_50_TRIGONOMETRIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/503_49_TRIGONOMETRIChESKIH]]/URI суммы $URI[[http://libmeta.ru/me/formula/aux/503_60_TRIGONOMETRIChESKIH]]/URI$ URI[[http://libmeta.ru/me/relation/503_48_TRIGONOMETRIChESKIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/503_61_TRIGONOMETRIChESKIH]]/URI$, от к-рой требовалось только, чтобы ее URI[[http://libmeta.ru/me/relation/503_47_TRIGONOMETRIChESKIH]]/URI удовлетворяла условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_17_TRIGONOMETRIChESKIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/503_62_TRIGONOMETRIChESKIH]]/URI$ - нек-рые абсолютные положительные постоянные, $URI[[http://libmeta.ru/me/formula/aux/503_63_TRIGONOMETRIChESKIH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/503_64_TRIGONOMETRIChESKIH]]/URI$. Г. Харди (g. Hardy) и Дж. Литлвуд (j. Litlewood) (1918), получив URI[[http://libmeta.ru/me/relation/503_46_TRIGONOMETRIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/503_45_TRIGONOMETRIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/503_44_TRIGONOMETRIChESKIH]]/URI, рассмотрелии сумму $URI[[http://libmeta.ru/me/formula/aux/503_65_TRIGONOMETRIChESKIH]]/URI$ с URI[[http://libmeta.ru/me/relation/503_43_TRIGONOMETRIChESKIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/503_66_TRIGONOMETRIChESKIH]]/URI$ вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/503_18_TRIGONOMETRIChESKIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/503_67_TRIGONOMETRIChESKIH]]/URI$ - действительный URI[[http://libmeta.ru/me/relation/503_42_TRIGONOMETRIChESKIH]]/URI, $URI[[http://libmeta.ru/me/formula/aux/503_68_TRIGONOMETRIChESKIH]]/URI$.
+
+Во всех указанных работах требовалось найти возможно лучшую оценку сверху URI[[http://libmeta.ru/me/relation/503_41_TRIGONOMETRIChESKIH]]/URI суммы $URI[[http://libmeta.ru/me/formula/aux/503_69_TRIGONOMETRIChESKIH]]/URI$.
+
+Общая схема исследования названных проблем URI[[http://libmeta.ru/me/relation/503_40_TRIGONOMETRIChESKIH]]/URI чисел Т. с. м. такова: вытисывается точная URI[[http://libmeta.ru/me/relation/503_39_TRIGONOMETRIChESKIH]]/URI, выражающая URI[[http://libmeta.ru/me/relation/503_38_TRIGONOMETRIChESKIH]]/URI решений изучаемого URI[[http://libmeta.ru/me/relation/503_37_TRIGONOMETRIChESKIH]]/URI или URI[[http://libmeta.ru/me/relation/503_36_TRIGONOMETRIChESKIH]]/URI дробных долей изучаемой URI[[http://libmeta.ru/me/relation/503_35_TRIGONOMETRIChESKIH]]/URI, попадающих на заданный URI[[http://libmeta.ru/me/relation/503_34_TRIGONOMETRIChESKIH]]/URI, или URI[[http://libmeta.ru/me/relation/503_33_TRIGONOMETRIChESKIH]]/URI целых точек в заданной области, в виде URI[[http://libmeta.ru/me/relation/503_32_TRIGONOMETRIChESKIH]]/URI от тригоно- URI[[http://libmeta.ru/me/relation/503_31_TRIGONOMETRIChESKIH]]/URI. суммы или в виде ряда, коәффициентами к-рого являются URI[[http://libmeta.ru/me/relation/503_30_TRIGONOMETRIChESKIH]]/URI. суммы; точная URI[[http://libmeta.ru/me/relation/503_29_TRIGONOMETRIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/503_28_TRIGONOMETRIChESKIH]]/URI суммою двух слагаемых - главного и дополнительного (напр., если рассматривается URI[[http://libmeta.ru/me/relation/503_27_TRIGONOMETRIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/503_26_TRIGONOMETRIChESKIH]]/URI. URI[[http://libmeta.ru/me/relation/503_25_TRIGONOMETRIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/503_24_TRIGONOMETRIChESKIH]]/URI, то главный член URI[[http://libmeta.ru/me/relation/503_23_TRIGONOMETRIChESKIH]]/URI от нулевого коәффициента ряда Фурье); главное слагаемое доставляет главный член асимптотич. URI[[http://libmeta.ru/me/relation/503_22_TRIGONOMETRIChESKIH]]/URI, дополнительное - остаточный член. В аддитивных URI[[http://libmeta.ru/me/relation/503_21_TRIGONOMETRIChESKIH]]/URI, таких, как URI[[http://libmeta.ru/me/relation/503_20_TRIGONOMETRIChESKIH]]/URI, URI[[http://libmeta.ru/me/relation/503_19_TRIGONOMETRIChESKIH]]/URI и др., главное слагаемое исследуется методом, URI[[http://libmeta.ru/me/relation/503_18_TRIGONOMETRIChESKIH]]/URI к круговому URI[[http://libmeta.ru/me/relation/503_17_TRIGONOMETRIChESKIH]]/URI Харди - Литлвуда - URI[[http://libmeta.ru/me/relation/503_16_TRIGONOMETRIChESKIH]]/URI (этот метод наз. круговы.м методом Харди - Литлвуда - $URI[[http://libmeta.ru/me/formula/aux/503_70_TRIGONOMETRIChESKIH]]/URI$ мануджана в форме URI[[http://libmeta.ru/me/relation/503_15_TRIGONOMETRIChESKIH]]/URI. сумм Виноградова). В большинстве других задач (URI[[http://libmeta.ru/me/relation/503_14_TRIGONOMETRIChESKIH]]/URI дробных долей, целые точки в областях и др.) главный член URI[[http://libmeta.ru/me/relation/503_13_TRIGONOMETRIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/503_12_TRIGONOMETRIChESKIH]]/URI. Теперь возникает проблема оценки остаточного члена, и если удается доказать, что он является величиной меньшего URI[[http://libmeta.ru/me/relation/503_11_TRIGONOMETRIChESKIH]]/URI, чем главный, то тем самым и доказывается асимптотич. URI[[http://libmeta.ru/me/relation/503_10_TRIGONOMETRIChESKIH]]/URI.
+
+Основной URI[[http://libmeta.ru/me/relation/503_9_TRIGONOMETRIChESKIH]]/URI при оценке остаточного члена является URI[[http://libmeta.ru/me/relation/503_8_TRIGONOMETRIChESKIH]]/URI вовможно более точных оценок URI[[http://libmeta.ru/me/relation/503_7_TRIGONOMETRIChESKIH]]/URI. сумм. О методах оценок URI[[http://libmeta.ru/me/relation/503_6_TRIGONOMETRIChESKIH]]/URI. сумм и оценках см. URI[[http://libmeta.ru/me/relation/503_2_TRIGONOMETRIChESKIH]]/URI сумма, а также URI[[http://libmeta.ru/me/relation/503_5_TRIGONOMETRIChESKIH]]/URI, URI[[http://libmeta.ru/me/relation/503_4_TRIGONOMETRIChESKIH]]/URI проблема, Гольд баха проблема, URI[[http://libmeta.ru/me/relation/503_3_TRIGONOMETRIChESKIH]]/URI.
+
+Лит. см. при ст. URI[[http://libmeta.ru/me/relation/503_1_TRIGONOMETRIChESKIH]]/URI сумма.</text>
+  <text_orig>одИн из общих методов аналитической теории чисел. Две проблемы теории тисел потребовали для своего решения создания Т. с. м.: проблема распределения дробных долей многочлена и проблема представления натурального числа суммою слагаемых определенного вида (аддитивные проблемы теории чисел). Пусть $f(x)$ - действительная функция, $x=1,2, \ldots$ $\ldots, \boldsymbol{P}, \boldsymbol{P} \rightarrow+\infty ;$ говорят, что дробные доли $f(x)$ распределены равномерно (р. р.), если при любых $\alpha$ и $\beta$, $0 \leqslant \alpha&lt;\beta&lt;1$, число $\sigma$ дробных долей $f(x)$, попадающих на интервал $(\alpha, \beta)$, пропорционально длине этого интервала, т. е.
+
+\[
+\sigma=(\beta-\alpha) P+o(P) .
+\]
+
+Пусть, теперь $\psi(x)$ - характеристич. функция интервала $(\alpha, \beta)$, т. е.
+
+\[
+\psi(x)=\left\{\begin{array}{l}
+1, \text { если } \alpha&lt;x&lt;\beta, \\
+0, \text { если } 0 \leqslant x \leqslant \alpha, \quad \beta \leqslant x \leqslant 1 .
+\end{array}\right.
+\]
+
+Продолжая $\psi(x)$ периодически на всю прямую, т. е. полагая $\psi(x+1)=\psi(x)$, имеют
+
+\[
+\sigma=\sum_{x=1}^{P} \psi(f(x)) .
+\]
+
+Разлагая $\psi(x)$ в ряд Фурье, находят
+
+\[
+\psi(x)=\sum_{m=-\infty}^{+\infty} c(m) e^{2 \pi i m x}, c(0)=\beta-\alpha .
+\]
+
+Тем самым
+
+$\sigma=(\beta-\alpha) P+\sum_{m=-\infty, m \neq 0}^{+\infty} c(m) \sum_{x=1}^{P} e^{2 \pi i m f(x)}$.
+
+Последнее соотношение, вообще говоря, не верно, т. к. могут быть такие $x$, что $\{f(x)\}=\alpha$ или $\{f(x)\}=\beta ;$ но числа $\alpha$ и $\beta$ можно заменить близкими $\alpha^{\prime}$ и $\beta^{\prime}$ и такими, что при всех $x=1,2, \ldots, P,\{f(x)\} \neq \alpha^{\prime},\{f(x)\} \neq \beta^{\prime}$; от такой замены точность соотношения практически не изменится и оно станет верным. Точно также функцию $\psi(x)$ можно так «сгладить» («подправить»), что величина $\sigma$ практически не изменится, а коэфффициенты $c(m)$ ряда Фурье будут «быстро» убывать с ростом $m$, т. е. будет «быстро» сходиться ряд
+
+\[
+\sum_{m=-\infty}^{+\infty}|c(m)|
+\]
+
+Второе слагаемое в равенстве (1) по абсолютной величине не превосходит $x$,
+
+\[
+x=\sum_{m=-\infty, m \neq 0}^{+\infty}|c(m)|\left|\sum_{x=1}^{P} e^{2 \pi i m f(x)}\right| .
+\]
+
+Если известно, что
+
+\[
+|S|=\left|\sum_{x=1}^{P} e^{2 \pi i m f(x)}\right| \leqslant P \Delta,
+\]
+
+где $\Delta=\Delta(P) \rightarrow 0$ при $P \rightarrow+\infty$, то для $\sigma$ получают
+
+\[
+\sigma=(\beta-\alpha) P+o(P), o(P)=c P \Delta,
+\]
+
+т. е. дробные доли $f(x)$ распределены равномерно. Таким образом, надо уметь оценивать сверху модуль тригонометрич. суммы. Так как каждое слагаемое в $S$ по модулю равно 1, то тривиальная оценка $|S|$ есть $P$, т. е. тривиальная оценка - это число слагаемых суммы $S$. Оценка вида (2) наз. нетривиальной, если $\Delta&lt;1$, а $\Delta$ наз. П о н и ж ю щ и м мн о ж и т е ле м. В задаче о дробных долях $f(x)$ за счет сглаживания $\psi(x)$ можно добиться того, что оценку (2) надо получать для «небольпого» числа значений $m$, напр., для $m$ из промежутка $0&lt;|m|&lt;(\ln P)^{A}, A&gt;0$ - нек-рая погтоянная.
+
+Такой же подход применяется при выводе асимптогич. формулы для суммы
+
+\[
+\sum_{x=1}^{P}\{f(x)\}
+\]
+
+к-рая возникает в задачах о числе целых точек в областях на плоскости и в пространстве.
+
+В аддитивных проблемах теории чисел тригонометрические суммы появляются следующим образом. При целом $m$ справедлива формула
+
+\[
+\int_{0}^{1} e^{2 \pi i \alpha m} d \alpha= \begin{cases}1, &amp; \text { если } m=0, \\ 0, &amp; \text { если } m \neq 0,\end{cases}
+\]
+
+поэтому, если через $I(N)$ обозначить число решений уравнения
+
+\[
+N=u_{1}+\ldots+u_{k}, u_{v} \in U_{v}, v=1, \ldots, k,
+\]
+
+где $U_{v}$ - нек-рые подмножества натурального ряда чисел, то
+
+\[
+I(N)=\int_{0}^{1} S_{1}(\alpha) \ldots S_{k}(\alpha) e^{-2 \pi i \alpha N} d \alpha
+\]
+
+где
+
+\[
+S_{v}(\alpha)=\sum_{u_{v} \in U_{v}} e^{2 \pi i \alpha u_{v}}, v=1, \ldots, k
+\]
+
+Полагая, в тастности, $U_{v}=U=\left\{1^{n}, 2^{n}, \ldots\right\}$, получают Варинга проблему; при $k=3, U_{v}=U=\{2,3,5,7$, $11, \ldots, p, \ldots\}$ - тернарнуіо Гольдбаха проблему и т. Д. Как и в задаче о распределении дробных долей, главным вопросом здесь является вопрос об оценке сверху модуля $S_{v}(\alpha)$, т. е. вопрос о верхней грани $\left|S_{v}(\alpha)\right|$
+
+Тем самым широкий круг разнообразных проблем теории чисел формулируется единообразно на языке тригонометрич. сумм.
+
+Первая нетривиальная тригонометрич. сумма появилась у K. Гаусcа (C. Gauss, 1811) в одном из его доказательств закона взаимности квадратичных вычетов:
+
+\[
+S=\sum_{x=1}^{P} e^{2 \pi i F(x)}, F(x)=\frac{a x^{8}}{P}
+\]
+
+и К. Гаусс точно вычислил значение $S$ :
+
+\[
+S=\left\{\begin{array}{r}
+(1+i) \sqrt{P}, \text { если } P \equiv 0 \bmod (4) \\
+\sqrt{P}, \text { если } P \equiv 1(\bmod 4) \\
+0, \text { если } P \equiv 2(\bmod 4) \\
+i \sqrt{P}, \text { если } P \equiv 3(\bmod 4)
+\end{array}\right.
+\]
+
+Целый ряд независимых работ с применением тригонометрич. сумм появился в нач. 20 в.
+
+Г. Вейль (H. Weyl, 1916), изучая распределение дробных долей многочлена
+
+\[
+f(x)=\alpha_{1} x+\ldots+\alpha_{n} x^{n}
+\]
+
+с действительными коэффициентами $\alpha_{1}, \ldots, \alpha_{n}$, рассмотрел суммы $S$ с функцией $F(x)$ вида $F(x)=m f(x)$, $m$ - целое число, $m \neq 0$. И. М. Виноградов (1917) при изучении распределения целых точек в областях на плоскости и в пространстве рассмотрел суммы $S \mathrm{c}$ функцией $F(x)$, от к-рой требовалось только, чтобы ее вторая производная удовлетворяла условиям
+
+\[
+\frac{c_{1}}{A} \leqslant F^{\prime \prime}(x) \leqslant \frac{c_{2}}{A},
+\]
+
+где $c_{1}, c_{2}$ - нек-рые абсолютные положительные постоянные, $A=A(P) \rightarrow+\infty$ при $P \rightarrow+\infty$. Г. Харди (G. Hardy) и Дж. Литлвуд (J. Litlewood) (1918), получив приближенное функциональное уравнение дзета-функции Римана, рассмотрелии сумму $S$ с функцией $F(x)$ вида
+
+\[
+F(x)=t \ln x,
+\]
+
+где $t$ - действительный параметр, $t=t(P)$.
+
+Во всех указанных работах требовалось найти возможно лучшую оценку сверху модуля суммы $S$.
+
+Общая схема исследования названных проблем теории чисел Т. с. м. такова: вытисывается точная формула, выражающая число решений изучаемого уравнения или число дробных долей изучаемой функции, попадающих на заданный интервал, или число целых точек в заданной области, в виде интеграла от тригоно- метрич. суммы или в виде ряда, коәффициентами к-рого являются тригонометрич. суммы; точная формула представляется суммою двух слагаемых - главного и дополнительного (напр., если рассматривается ряд Фурье характеристич. функции интервала, то главный член получается от нулевого коәффициента ряда Фурье); главное слагаемое доставляет главный член асимптотич. формулы, дополнительное - остаточный член. В аддитивных задачах, таких, как проблема Варинга, проблема Гольдбаха и др., главное слагаемое исследуется методом, близким к круговому методу Харди - Литлвуда - Рамануджана (этот метод наз. круговы.м методом Харди - Литлвуда - $\mathrm{Pa}-$ мануджана в форме тригонометрич. сумм Виноградова). В большинстве других задач (распределение дробных долей, целые точки в областях и др.) главный член получается тривиально. Теперь возникает проблема оценки остаточного члена, и если удается доказать, что он является величиной меньшего порядка, чем главный, то тем самым и доказывается асимптотич. формула.
+
+Основной задатей при оценке остаточного члена является задача вовможно более точных оценок тригонометрич. сумм. О методах оценок тригонометрич. сумм и оценках см. Тригонометрическая сумма, а также Виноградова метод, Варинга проблема, Гольд баха проблема, Аддитивиье проблемь.
+
+Лит. см. при ст. Тригонометрическал сумма.</text_orig>
+</article>

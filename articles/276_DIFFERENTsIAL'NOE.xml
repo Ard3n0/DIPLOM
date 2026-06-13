@@ -1,0 +1,448 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/276_DIFFERENTsIAL'NOE" alphabetic_pos="276">
+  <title>ДИФФЕРЕНЦИАЛЬНОЕ УРАВНЕНИЕ С ОТКЛОНЯОШИМСЯ АРГУМЕНТОМ</title>
+  <authors/>
+  <pages>
+    <start>148</start>
+    <end>150</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Эль с гольц Л. Э., Н о р к и н С. Б., Введение в теорию дифференіиальных уравнений с отклоняющимся аргументом, М., 1971; [2] П и н н и Э., Обыкновенные Дифференциально-разностные уравнения, пер. с англ., М., 1961; [3] Б е л лм а н Р., К у к К. Л., Дифференциально-разностные урав- нения, пер. с англ., М., 1967; [4] м ыш к и с А. Д.. Линейные дифференциальные уравнения с запаздывающим аргументом, теории устойчивости движения, М., 1959; [6] Н о р к и н С. Б., Дифференциальные уравнения второго порядка с запаздывающим аргументом, М., 1965; [7] Р у б а н и к В. П., Колебания t ö r e l i M. N., Time-Lag control systems, N. Y.- L., 1966;; [9] H a l a n a y A., Differential equations, N.Y.- L.,</literature_orig>
+    <unit>
+      <author>Эльсгольц Л. Э.</author>
+      <author>Норкин С. Б.</author>
+      <title>Введение в теорию дифференіиальных уравнений с отклоняющимся аргументом</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Пинни Э.</author>
+      <title>Обыкновенные Дифференциально-разностные уравнения</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1961</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Беллман Р.</author>
+      <author>Кук К. Л.</author>
+      <title>Дифференциально-разностные урав- нения</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>м ыш к и с А. Д.. Линейные дифференциальные уравнения с запаздывающим аргументом, теории устойчивости движения</title>
+      <publication>М.</publication>
+      <year>1959</year>
+      <other>Дифференциальные уравнения второго порядка с запаздывающим аргументом, М., 1965; [7] Р у б а н и к В. П., Колебания t ö r e l i M. N., Time-Lag control systems, N. Y.- L., 1966;; [9] H a l a n a y A., Differential equations, N.Y.- L.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/276_1_DIFFERENTsIAL'NOE">\begin{gathered}x^{\prime}(t)=a x(t-\tau), \\x^{\prime}(t)=a x(k t),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_2_DIFFERENTsIAL'NOE">x^{(n)}(t)=f\left(t ; x^{\left(m_{1}\right)}\left(t-\tau_{1}\right), \ldots, x^{\left(m_{s}\right)}\left(t-\tau_{s}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_3_DIFFERENTsIAL'NOE">x^{\prime}(t)=f(t, x(t), \quad x(t-\tau)), \quad \tau&gt;0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_4_DIFFERENTsIAL'NOE">\int_{-\tau}^{0} x(t+-s) r(t, s) d s=\int_{t-\tau}^{t} x(s) r_{1}(t, s) d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_5_DIFFERENTsIAL'NOE">\int_{-\tau}^{0} x(t+s) d_{s} r(t, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_6_DIFFERENTsIAL'NOE">x^{\prime}(t)=F[x(t+s) ; t],-\tau \leqslant s \leqslant 0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_7_DIFFERENTsIAL'NOE">x^{\prime}(t)=f\left(t, x(t), x\left(t-\tau_{1}\right), x^{\prime}\left(t-\tau_{2}\right)\right), \tau_{1}, \tau_{2} \geqslant 0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_8_DIFFERENTsIAL'NOE">x^{(n)}(t)=\sum_{j=1}^{N} a_{j} x^{\left(m_{j}\right)}\left(t-\tau_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_9_DIFFERENTsIAL'NOE">P(p) \equiv p^{n}-\sum a_{j} p^{m} e^{-\tau_{j} p}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_10_DIFFERENTsIAL'NOE">\operatorname{Re} p_{r \rightarrow r \rightarrow \infty}-\infty\left(-\infty&lt;\varlimsup_{r \rightarrow \infty} \operatorname{Re} p_{r}&lt;\infty\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_11_DIFFERENTsIAL'NOE">\sup _{r} \operatorname{Re} p_{r}&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_12_DIFFERENTsIAL'NOE">\frac{d}{d t} V[x(t+s) ; t]=V_{1}[x(t+s) ; t] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_13_DIFFERENTsIAL'NOE">f(t, 0,0) \equiv 0 ;(\forall h&gt;0) \inf _{\|\Psi\|&gt;h, t&gt;t_{0}}^{V[\Psi(s) ; t]&gt;0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_14_DIFFERENTsIAL'NOE">V\left[\Psi(s) ; t_{0}\right] \underset{\|\Psi\| \rightarrow 0}{\longrightarrow} 0 ; V_{1} \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_15_DIFFERENTsIAL'NOE">f(+T, x, y) \equiv f(t, x, y), T&gt;0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_16_DIFFERENTsIAL'NOE">U_{k}[\varphi(s)] \equiv x(k T+s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_17_DIFFERENTsIAL'NOE">t^{k} e^{q} r^{t} \alpha(t), \alpha(t+T) \equiv \alpha(t) ; k=0,1, \ldots, k_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/276_18_DIFFERENTsIAL'NOE">x^{\prime}(t)= \pm M(t) x(t-\tau(t)), \quad M(t) \geqslant 0,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_1_DIFFERENTsIAL'NOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_2_DIFFERENTsIAL'NOE">a, \tau, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_3_DIFFERENTsIAL'NOE">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_4_DIFFERENTsIAL'NOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_5_DIFFERENTsIAL'NOE">x(x(t))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_6_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_7_DIFFERENTsIAL'NOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_8_DIFFERENTsIAL'NOE">\tau_{j} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_9_DIFFERENTsIAL'NOE">\max _{j} m_{j}&lt;n,=n,&gt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_10_DIFFERENTsIAL'NOE">t \rightarrow \chi(t), \chi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_11_DIFFERENTsIAL'NOE">\tau \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_12_DIFFERENTsIAL'NOE">t \rightarrow t+\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_13_DIFFERENTsIAL'NOE">\tau&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_14_DIFFERENTsIAL'NOE">\tau_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_15_DIFFERENTsIAL'NOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_16_DIFFERENTsIAL'NOE">k \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_17_DIFFERENTsIAL'NOE">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_18_DIFFERENTsIAL'NOE">t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_19_DIFFERENTsIAL'NOE">\tau_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_20_DIFFERENTsIAL'NOE">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_21_DIFFERENTsIAL'NOE">\varphi(t), t_{0}-\tau \leqslant t \leqslant t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_22_DIFFERENTsIAL'NOE">x\left(t_{0}+0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_23_DIFFERENTsIAL'NOE">x(t), t&gt;t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_24_DIFFERENTsIAL'NOE">t&gt;t_{0}, t-\tau \leqslant t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_25_DIFFERENTsIAL'NOE">x(t-\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_26_DIFFERENTsIAL'NOE">\varphi(t-\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_27_DIFFERENTsIAL'NOE">t_{0}&lt;t \leqslant t_{0}+\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_28_DIFFERENTsIAL'NOE">x(t-\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_29_DIFFERENTsIAL'NOE">\varphi(t-\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_30_DIFFERENTsIAL'NOE">t_{0}+\tau&lt;t \leqslant t_{0}+2 \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_31_DIFFERENTsIAL'NOE">t_{0}&lt;t-\tau \leqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_32_DIFFERENTsIAL'NOE">\leqslant t_{0}+\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_33_DIFFERENTsIAL'NOE">x(t-\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_34_DIFFERENTsIAL'NOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_35_DIFFERENTsIAL'NOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_36_DIFFERENTsIAL'NOE">x\left(t_{0}+0\right)=\varphi\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_37_DIFFERENTsIAL'NOE">t_{0}&lt;t \leqslant t_{0}+h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_38_DIFFERENTsIAL'NOE">f(t, x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_39_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_40_DIFFERENTsIAL'NOE">f, \varphi, \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_41_DIFFERENTsIAL'NOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_42_DIFFERENTsIAL'NOE">x^{\prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_43_DIFFERENTsIAL'NOE">t&gt;t_{0}, x^{\prime \prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_44_DIFFERENTsIAL'NOE">t&gt;t_{0}+\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_45_DIFFERENTsIAL'NOE">\tau=\tau(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_46_DIFFERENTsIAL'NOE">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_47_DIFFERENTsIAL'NOE">t-\tau(t) \leqslant t_{0}, \quad t&gt;t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_48_DIFFERENTsIAL'NOE">\tau(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_49_DIFFERENTsIAL'NOE">\tau \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_50_DIFFERENTsIAL'NOE">x\left(t_{0}+0\right) \neq \varphi\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_51_DIFFERENTsIAL'NOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_52_DIFFERENTsIAL'NOE">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_53_DIFFERENTsIAL'NOE">t_{0} \leqslant t-\tau(t) \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_54_DIFFERENTsIAL'NOE">t \geqslant t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_55_DIFFERENTsIAL'NOE">0 \leqslant k \leqslant 1, t_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_56_DIFFERENTsIAL'NOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_57_DIFFERENTsIAL'NOE">t&gt;t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_58_DIFFERENTsIAL'NOE">\tau_{2}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_59_DIFFERENTsIAL'NOE">a_{j} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_60_DIFFERENTsIAL'NOE">x=e^{p t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_61_DIFFERENTsIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_62_DIFFERENTsIAL'NOE">p(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_63_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_64_DIFFERENTsIAL'NOE">e^{p t}, \ldots, t^{k-1} e^{p t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_65_DIFFERENTsIAL'NOE">\tau_{j} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_66_DIFFERENTsIAL'NOE">p_{1}, p_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_67_DIFFERENTsIAL'NOE">v[\psi(s) ; t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_68_DIFFERENTsIAL'NOE">c[-\tau, 0] \times[0, \infty) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_69_DIFFERENTsIAL'NOE">\left(t_{0}-\tau \leqslant s \leqslant t_{0} ; x(t)\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_70_DIFFERENTsIAL'NOE">\varphi ; k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_71_DIFFERENTsIAL'NOE">k T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/276_72_DIFFERENTsIAL'NOE">k</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/me/relation/276_1_DIFFERENTsIAL'NOE">
+      <rel_text>Стохастическое дифференциальное уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/258_STOHASTIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_2_DIFFERENTsIAL'NOE">
+      <rel_text>математическая</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_3_DIFFERENTsIAL'NOE">
+      <rel_text>Оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_4_DIFFERENTsIAL'NOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_5_DIFFERENTsIAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_6_DIFFERENTsIAL'NOE">
+      <rel_text>теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_7_DIFFERENTsIAL'NOE">
+      <rel_text>оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_8_DIFFERENTsIAL'NOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_9_DIFFERENTsIAL'NOE">
+      <rel_text>усреднения</rel_text>
+      <target>http://libmeta.ru/me/article/624_USREDNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_10_DIFFERENTsIAL'NOE">
+      <rel_text>отклонениями аргумента</rel_text>
+      <target>http://libmeta.ru/me/article/276_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_11_DIFFERENTsIAL'NOE">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_12_DIFFERENTsIAL'NOE">
+      <rel_text>получение</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_13_DIFFERENTsIAL'NOE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/276_14_DIFFERENTsIAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+  </relations>
+  <text>диффференциальное уравнение, связывающее аргумент, искомую функцию и ее производные, взятые, вообе говоря, при различных значениях этого аргумента. П р и м е $URI[[http://libmeta.ru/me/formula/aux/276_1_DIFFERENTsIAL'NOE]]/URI$ ы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_1_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где постоянные $URI[[http://libmeta.ru/me/formula/aux/276_2_DIFFERENTsIAL'NOE]]/URI$ заданы; $URI[[http://libmeta.ru/me/formula/aux/276_3_DIFFERENTsIAL'NOE]]/URI$ в уравнении (1) и $URI[[http://libmeta.ru/me/formula/aux/276_4_DIFFERENTsIAL'NOE]]/URI$-kt в уравнении (2) - о т к л о н е н и я аргумента. Встречаются и более сложные Д. у. с о. а., включающие большее число отклонений аргумента, могуших представлять собой заданные функции (в частности, если они постоянны, то уравнение часто наз. д и ф ф е р е нц и а л ь н о-р а з н о с т ны м) или даже зависеть от искомого решения. Эпизодически рассматривались также Д. у. с о. а., в к-рых искомая функция зависит более чем от одного аргумента. Д. у. с о. а. впервые появились в связи с формальным решением уравнений с частными производными и затем неоднократно рас- сматривались как сами по себе, так и в связи с задачами геометрии, а позднее - в связи с различными приложениями, прежде всего к теории автоматич. управления. Построение систематич. теории Д. у. с о. а. было начато в 1949.
+
+Определение Д. у. с о. а. допускает любые суперпозиции искомого решения [типа $URI[[http://libmeta.ru/me/formula/aux/276_5_DIFFERENTsIAL'NOE]]/URI$ ] и интегралы от него, поэтому формально класс Д. у. с о. а. включает в себя все уравнения математич. анализа. Все же обычно, говоря о Д. у. с о. а., имеют в виду тот или иной естественный класс дифференциальных уравнений, в к-рых введено отклонение аргумента, допускающее построение содержательной теории. При этом ряд свойств Д. у. с о. а. имеет непосредственную аналогию со свойствами обычных дифференциальных уравнений, тогда как иные свойства являются принципиально новыми.
+
+Уравнение (или система уравнений)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_2_DIFFERENTsIAL'NOE]]/URI
+\]
+
+(для системы $URI[[http://libmeta.ru/me/formula/aux/276_6_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/276_7_DIFFERENTsIAL'NOE]]/URI$ - векторы), где все $URI[[http://libmeta.ru/me/formula/aux/276_8_DIFFERENTsIAL'NOE]]/URI$, наз. ур а внением (систем ой) запа зды в вющ е го, ней т р а льного или о п е ре жающ е го ти п а, если $URI[[http://libmeta.ru/me/formula/aux/276_9_DIFFERENTsIAL'NOE]]/URI$, соответственно. Для уравнений иных видов такая классификация проводится на основе преобразования к виду (3) с помощью замены $URI[[http://libmeta.ru/me/formula/aux/276_10_DIFFERENTsIAL'NOE]]/URI$ - возрастающая функция; напр., уравнение (1) запаздывающего типа при $URI[[http://libmeta.ru/me/formula/aux/276_11_DIFFERENTsIAL'NOE]]/URI$ и опережающего (замена $URI[[http://libmeta.ru/me/formula/aux/276_12_DIFFERENTsIAL'NOE]]/URI$ ) - при $URI[[http://libmeta.ru/me/formula/aux/276_13_DIFFERENTsIAL'NOE]]/URI$. Если отклонения $URI[[http://libmeta.ru/me/formula/aux/276_14_DIFFERENTsIAL'NOE]]/URI$ зависят от $URI[[http://libmeta.ru/me/formula/aux/276_15_DIFFERENTsIAL'NOE]]/URI$, то уравнение (3) может менять тип; напр., уравнение (2) для $URI[[http://libmeta.ru/me/formula/aux/276_16_DIFFERENTsIAL'NOE]]/URI$ запаздывающего типа при $URI[[http://libmeta.ru/me/formula/aux/276_17_DIFFERENTsIAL'NOE]]/URI$ и опережающего - при $URI[[http://libmeta.ru/me/formula/aux/276_18_DIFFERENTsIAL'NOE]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/276_19_DIFFERENTsIAL'NOE]]/URI$ зависят от искомого решения, то уравнение (3) может иметь различный тип для различных его решений. Наиболее подробно разработана теория Д. у. с о. а. запаздывающего типа, менее - нейтрального типа и почти не изучена теория уравнений опережающего типа.
+
+Один из простейших классов Д. у. с о. а. следующий:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_3_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Для этого класса Д. у. с о. а. ставится о с нов н а я н а ч а л ь н а я з а д а ч а: заданы начальная точка $URI[[http://libmeta.ru/me/formula/aux/276_20_DIFFERENTsIAL'NOE]]/URI$, начальная функция $URI[[http://libmeta.ru/me/formula/aux/276_21_DIFFERENTsIAL'NOE]]/URI$, и значение $URI[[http://libmeta.ru/me/formula/aux/276_22_DIFFERENTsIAL'NOE]]/URI$; под решением задачи для уравнения (4) понимается функция $URI[[http://libmeta.ru/me/formula/aux/276_23_DIFFERENTsIAL'NOE]]/URI$, обращаюпая уравнение (4) в тождество, причем при $URI[[http://libmeta.ru/me/formula/aux/276_24_DIFFERENTsIAL'NOE]]/URI$ в правую часть вместо $URI[[http://libmeta.ru/me/formula/aux/276_25_DIFFERENTsIAL'NOE]]/URI$ надо подставлять $URI[[http://libmeta.ru/me/formula/aux/276_26_DIFFERENTsIAL'NOE]]/URI$. Для решения поставленной задачи можно применить м е т о д ш̈ а г о в: при $URI[[http://libmeta.ru/me/formula/aux/276_27_DIFFERENTsIAL'NOE]]/URI$ решают начальную задачу для уравнения (4), в к-ром вместо $URI[[http://libmeta.ru/me/formula/aux/276_28_DIFFERENTsIAL'NOE]]/URI$ подставлено $URI[[http://libmeta.ru/me/formula/aux/276_29_DIFFERENTsIAL'NOE]]/URI$; при $URI[[http://libmeta.ru/me/formula/aux/276_30_DIFFERENTsIAL'NOE]]/URI$ будет $URI[[http://libmeta.ru/me/formula/aux/276_31_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/276_32_DIFFERENTsIAL'NOE]]/URI$, т. е. $URI[[http://libmeta.ru/me/formula/aux/276_33_DIFFERENTsIAL'NOE]]/URI$ уже построено, и т. д.; таким образом, на каждом піаге приходится решать задачу Коши для уравнения без отклонения аргумента. Если функции $URI[[http://libmeta.ru/me/formula/aux/276_34_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/276_35_DIFFERENTsIAL'NOE]]/URI$ непрерывны и $URI[[http://libmeta.ru/me/formula/aux/276_36_DIFFERENTsIAL'NOE]]/URI$, то решение задачи сушествует на нек-ром интервале $URI[[http://libmeta.ru/me/formula/aux/276_37_DIFFERENTsIAL'NOE]]/URI$ и может быть продолжено обычным образом, а если функция $URI[[http://libmeta.ru/me/formula/aux/276_38_DIFFERENTsIAL'NOE]]/URI$ удовлетворяет по $URI[[http://libmeta.ru/me/formula/aux/276_39_DIFFERENTsIAL'NOE]]/URI$ условию Липшица, то это решение единственно и непрерывно зависит от $URI[[http://libmeta.ru/me/formula/aux/276_40_DIFFERENTsIAL'NOE]]/URI$. Если при этом функция $URI[[http://libmeta.ru/me/formula/aux/276_41_DIFFERENTsIAL'NOE]]/URI$ достаточно гладкая, то $URI[[http://libmeta.ru/me/formula/aux/276_42_DIFFERENTsIAL'NOE]]/URI$ непрерывна при $URI[[http://libmeta.ru/me/formula/aux/276_43_DIFFERENTsIAL'NOE]]/URI$ непрерывна при $URI[[http://libmeta.ru/me/formula/aux/276_44_DIFFERENTsIAL'NOE]]/URI$ и т. Д. (с в о й с т в о с г ла ж и в ан и я).
+
+Аналогично ставится начальная задача и строится решение для систем уравнений вида (4) и для уравнений высших порядков. В случае нескольких запаздываний за шаг принимают наименьшее из них. Если $URI[[http://libmeta.ru/me/formula/aux/276_45_DIFFERENTsIAL'NOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/276_46_DIFFERENTsIAL'NOE]]/URI$ должна быть задана на всем н а ч а л ьн о м м н о ж е с т в е значений $URI[[http://libmeta.ru/me/formula/aux/276_47_DIFFERENTsIAL'NOE]]/URI$. Наличие у $URI[[http://libmeta.ru/me/formula/aux/276_48_DIFFERENTsIAL'NOE]]/URI$ нулей препятствует применению метода шагов, однако с помощью простых аппроксимационных или итерационных методов можно доказать теорему о разрешимости начальной задачи, аналогичную приведенной выше. Численные методы ее решения в принципе те же, что для $URI[[http://libmeta.ru/me/formula/aux/276_49_DIFFERENTsIAL'NOE]]/URI$. Если заданные функции разрывны или $URI[[http://libmeta.ru/me/formula/aux/276_50_DIFFERENTsIAL'NOE]]/URI$, то понятие решения должно быть естественно обобщено.
+
+Решение сформулированной начальной задачи строится только в направлении возрастания $URI[[http://libmeta.ru/me/formula/aux/276_51_DIFFERENTsIAL'NOE]]/URI$. Другая ее особенность состоит в том, что многообразие решений при произвольной $URI[[http://libmeta.ru/me/formula/aux/276_52_DIFFERENTsIAL'NOE]]/URI$, вообще говоря, бесконечномерное. (исключением служат у р а в не н и я б е з п р е д ы с т о р и и, для к-рых $URI[[http://libmeta.ru/me/formula/aux/276_53_DIFFERENTsIAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/276_54_DIFFERENTsIAL'NOE]]/URI$; напр., уравнение (2) при $URI[[http://libmeta.ru/me/formula/aux/276_55_DIFFERENTsIAL'NOE]]/URI$.) Это существенно отличает теорию Д. у. с о. а. от теории уравнений без отклонения аргумента.
+
+В уравнении (4) запаздывание с о с р е д о т о ч е нн о е. Рассматриваются также уравнения с $URI[[http://libmeta.ru/me/formula/aux/276_56_DIFFERENTsIAL'NOE]]/URI$ а с п р ед е л е н н ы запаздыванием, правая часть к-рых включает интегралы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_4_DIFFERENTsIAL'NOE]]/URI
+\]
+
+(это - интегро-дифференциальные уравнения типа Вольтерра) или, комбинированный случай,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_5_DIFFERENTsIAL'NOE]]/URI
+\]
+
+и т. п. Наиболее общим видом Д. у. с о. а. запаздывающего типа 1-го порядка служит диффференциальнофункциональное уравнение типа Вольтерра
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_6_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где правая часть при каждом $URI[[http://libmeta.ru/me/formula/aux/276_57_DIFFERENTsIAL'NOE]]/URI$ представляет собой функционал. И для таких уравнений начальная задача разрешима.
+
+Для Д. у. с о. а. нейтрального типа, напр.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_7_DIFFERENTsIAL'NOE]]/URI
+\]
+
+постановка и свойства начальной задачи аналогичны указанным выше, однако свойство сглаживания отсутствует; кроме того, возможны осложнения, если переменное запаздывание $URI[[http://libmeta.ru/me/formula/aux/276_58_DIFFERENTsIAL'NOE]]/URI$ имеет нули. Начальная задача для Д. у. с о. а. опережающего типа является некорректной.
+
+Лучше других изучены линейные автономные (т. е. с постоянными коәфффициентами и постоянными отклонениями аргумента) Д. у. с о. а. Уравнение (без подобных членов)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_8_DIFFERENTsIAL'NOE]]/URI
+\]
+
+(все $URI[[http://libmeta.ru/me/formula/aux/276_59_DIFFERENTsIAL'NOE]]/URI$ ) имеет частные решения $URI[[http://libmeta.ru/me/formula/aux/276_60_DIFFERENTsIAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/276_61_DIFFERENTsIAL'NOE]]/URI$ удовлетворяет характеристическому уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_9_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/276_62_DIFFERENTsIAL'NOE]]/URI$ - квазиполином; $URI[[http://libmeta.ru/me/formula/aux/276_63_DIFFERENTsIAL'NOE]]/URI$-кратному корню уравнения (6) отвечают решения $URI[[http://libmeta.ru/me/formula/aux/276_64_DIFFERENTsIAL'NOE]]/URI$ уравнения (5). Если хотя бы одно $URI[[http://libmeta.ru/me/formula/aux/276_65_DIFFERENTsIAL'NOE]]/URI$, то уравнение (6) имеет бесконечное число корней $URI[[http://libmeta.ru/me/formula/aux/276_66_DIFFERENTsIAL'NOE]]/URI$ Чтобы уравнение (5) имело запаздывающий (нейтральный) тип, необходимо и достаточно условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_10_DIFFERENTsIAL'NOE]]/URI
+\]
+
+В әтих случаях каждое решение уравнения (5) разлагается в ряд по указанным частным решениям, а при решении начальной задачи для уравнения (5) и соответствующего неоднородного уравнения можно пользоваться обычными методами операционного исчисления. Аналогичными свойствами обладают системы уравнений и уравнения с распределенным запаздыванием. Обычные определения устойчивости решения непосредственно распространяются на Д. у. с о. а. запаздывающего и нейтрального типов. Для асимптотич. устойчивости решений уравнения (5) необходимо и достаточно условие:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_11_DIFFERENTsIAL'NOE]]/URI
+\]
+
+При выполнении этого условия асимптотически устойчиво и нулевое решение нелинейных автономных уравнений, для к-рых (5) служит линейным приближением.
+
+Метод функций Ляпунова на исследование устойчивости Д. У. с о. а. распространил Н. Н. Красовский [5]. Он предложил пользоваться функционалами $URI[[http://libmeta.ru/me/formula/aux/276_67_DIFFERENTsIAL'NOE]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/276_68_DIFFERENTsIAL'NOE]]/URI$ полную производную такого функционала «вдоль решения» заданного уравнения вида (4) можно вычислить в силу этого уравнения, и она представляет собой функционал того же типа, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_12_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Аналог теоремы Ляпунова об устойчивости: если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_13_DIFFERENTsIAL'NOE]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/276_14_DIFFERENTsIAL'NOE]]/URI
+\]
+
+то тривиальное решение уравнения (4) устойчиво. Основные теоремы об устойчивости, выраженные в таких терминах, допускают обращение.
+
+Ряд результатов получен для периодических Д. у. с о. а. Так, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_15_DIFFERENTsIAL'NOE]]/URI
+\]
+
+то неподвижные точки оператора
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_16_DIFFERENTsIAL'NOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/276_69_DIFFERENTsIAL'NOE]]/URI$ - решение уравнения (4) при начальной функции $URI[[http://libmeta.ru/me/formula/aux/276_70_DIFFERENTsIAL'NOE]]/URI$ - натуральное) определяют $URI[[http://libmeta.ru/me/formula/aux/276_71_DIFFERENTsIAL'NOE]]/URI$-периодич. решения уравнения (4). Этот и другие аналогичные факты дают возможность применить $URI[[http://libmeta.ru/me/formula/aux/276_72_DIFFERENTsIAL'NOE]]/URI$ отысканию периодич. решений и к выяснению их устойчивости методы теории нелинейных операторов. Для линейных однородных Т-периодич. Д. у. с о. а. запаздывающего типа доказана возможность аппроксимации каждого решения с любой степенью точности по шкале экспонент линейной комбинацией решений вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_17_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Из других направлений исследования Д. у. с о. а. выделяются: детальное изучение асимптотических и осцилляционных свойств уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/276_18_DIFFERENTsIAL'NOE]]/URI
+\]
+
+и аналогичных URI[[http://libmeta.ru/me/relation/276_14_DIFFERENTsIAL'NOE]]/URI 2-го URI[[http://libmeta.ru/me/relation/276_13_DIFFERENTsIAL'NOE]]/URI; URI[[http://libmeta.ru/me/relation/276_12_DIFFERENTsIAL'NOE]]/URI асимптотич. выражений для решений URI[[http://libmeta.ru/me/relation/276_11_DIFFERENTsIAL'NOE]]/URI с малыми URI[[http://libmeta.ru/me/relation/276_10_DIFFERENTsIAL'NOE]]/URI или с малой нелинейностью; распространение на Д. у. с о. а. асимптотич. методов Крылова - Боголюбова (см. Крылова - Боголюбова метод URI[[http://libmeta.ru/me/relation/276_9_DIFFERENTsIAL'NOE]]/URI); распространение на Д. у. с о. а. URI[[http://libmeta.ru/me/relation/276_8_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/276_7_DIFFERENTsIAL'NOE]]/URI Јi. С. Понтрягина (см. URI[[http://libmeta.ru/me/relation/276_3_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/276_2_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/276_6_DIFFERENTsIAL'NOE]]/URI); исследование краевых задач; исследование әволючионных URI[[http://libmeta.ru/me/relation/276_5_DIFFERENTsIAL'NOE]]/URI с URI[[http://libmeta.ru/me/relation/276_4_DIFFERENTsIAL'NOE]]/URI и запаздыванием во времени; исследование стохастич. Д. у. с о. а. (см. URI[[http://libmeta.ru/me/relation/276_1_DIFFERENTsIAL'NOE]]/URI) и т. Д.</text>
+  <text_orig>диффференциальное уравнение, связывающее аргумент, искомую функцию и ее производные, взятые, вообе говоря, при различных значениях этого аргумента. П р и м е $\mathrm{p}$ ы:
+
+\[
+\begin{gathered}
+x^{\prime}(t)=a x(t-\tau), \\
+x^{\prime}(t)=a x(k t),
+\end{gathered}
+\]
+
+где постоянные $a, \tau, k$ заданы; $\tau$ в уравнении (1) и $t$-kt в уравнении (2) - о т к л о н е н и я аргумента. Встречаются и более сложные Д. у. с о. а., включающие большее число отклонений аргумента, могуших представлять собой заданные функции (в частности, если они постоянны, то уравнение часто наз. д и ф ф е р е нц и а л ь н о-р а з н о с т ны м) или даже зависеть от искомого решения. Эпизодически рассматривались также Д. у. с о. а., в к-рых искомая функция зависит более чем от одного аргумента. Д. у. с о. а. впервые появились в связи с формальным решением уравнений с частными производными и затем неоднократно рас- сматривались как сами по себе, так и в связи с задачами геометрии, а позднее - в связи с различными приложениями, прежде всего к теории автоматич. управления. Построение систематич. теории Д. у. с о. а. было начато в 1949.
+
+Определение Д. у. с о. а. допускает любые суперпозиции искомого решения [типа $x(x(t))$ ] и интегралы от него, поэтому формально класс Д. у. с о. а. включает в себя все уравнения математич. анализа. Все же обычно, говоря о Д. у. с о. а., имеют в виду тот или иной естественный класс дифференциальных уравнений, в к-рых введено отклонение аргумента, допускающее построение содержательной теории. При этом ряд свойств Д. у. с о. а. имеет непосредственную аналогию со свойствами обычных дифференциальных уравнений, тогда как иные свойства являются принципиально новыми.
+
+Уравнение (или система уравнений)
+
+\[
+x^{(n)}(t)=f\left(t ; x^{\left(m_{1}\right)}\left(t-\tau_{1}\right), \ldots, x^{\left(m_{s}\right)}\left(t-\tau_{s}\right)\right)
+\]
+
+(для системы $x$ и $f$ - векторы), где все $\tau_{j} \geqslant 0$, наз. ур а внением (систем ой) запа зды в вющ е го, ней т р а льного или о п е ре жающ е го ти п а, если $\max _{j} m_{j}&lt;n,=n,&gt;n$, соответственно. Для уравнений иных видов такая классификация проводится на основе преобразования к виду (3) с помощью замены $t \rightarrow \chi(t), \chi$ - возрастающая функция; напр., уравнение (1) запаздывающего типа при $\tau \geqslant 0$ и опережающего (замена $t \rightarrow t+\tau$ ) - при $\tau&lt;0$. Если отклонения $\tau_{j}$ зависят от $t$, то уравнение (3) может менять тип; напр., уравнение (2) для $k \leqslant 1$ запаздывающего типа при $t \geqslant 0$ и опережающего - при $t \leqslant 0$. Если $\tau_{j}$ зависят от искомого решения, то уравнение (3) может иметь различный тип для различных его решений. Наиболее подробно разработана теория Д. у. с о. а. запаздывающего типа, менее - нейтрального типа и почти не изучена теория уравнений опережающего типа.
+
+Один из простейших классов Д. у. с о. а. следующий:
+
+\[
+x^{\prime}(t)=f(t, x(t), \quad x(t-\tau)), \quad \tau&gt;0 .
+\]
+
+Для этого класса Д. у. с о. а. ставится о с нов н а я н а ч а л ь н а я з а д а ч а: заданы начальная точка $t_{0}$, начальная функция $\varphi(t), t_{0}-\tau \leqslant t \leqslant t_{0}$, и значение $x\left(t_{0}+0\right)$; под решением задачи для уравнения (4) понимается функция $x(t), t&gt;t_{0}$, обращаюпая уравнение (4) в тождество, причем при $t&gt;t_{0}, t-\tau \leqslant t_{0}$ в правую часть вместо $x(t-\tau)$ надо подставлять $\varphi(t-\tau)$. Для решения поставленной задачи можно применить м е т о д ш̈ а г о в: при $t_{0}&lt;t \leqslant t_{0}+\tau$ решают начальную задачу для уравнения (4), в к-ром вместо $x(t-\tau)$ подставлено $\varphi(t-\tau)$; при $t_{0}+\tau&lt;t \leqslant t_{0}+2 \tau$ будет $t_{0}&lt;t-\tau \leqslant$ $\leqslant t_{0}+\tau$, т. е. $x(t-\tau)$ уже построено, и т. д.; таким образом, на каждом піаге приходится решать задачу Коши для уравнения без отклонения аргумента. Если функции $f$ и $\varphi$ непрерывны и $x\left(t_{0}+0\right)=\varphi\left(t_{0}\right)$, то решение задачи сушествует на нек-ром интервале $t_{0}&lt;t \leqslant t_{0}+h$ и может быть продолжено обычным образом, а если функция $f(t, x, y)$ удовлетворяет по $x$ условию Липшица, то это решение единственно и непрерывно зависит от $f, \varphi, \tau$. Если при этом функция $f$ достаточно гладкая, то $x^{\prime}(t)$ непрерывна при $t&gt;t_{0}, x^{\prime \prime}(t)$ непрерывна при $t&gt;t_{0}+\tau$ и т. Д. (с в о й с т в о с г ла ж и в ан и я).
+
+Аналогично ставится начальная задача и строится решение для систем уравнений вида (4) и для уравнений высших порядков. В случае нескольких запаздываний за шаг принимают наименьшее из них. Если $\tau=\tau(t)$, то $\varphi(t)$ должна быть задана на всем н а ч а л ьн о м м н о ж е с т в е значений $t-\tau(t) \leqslant t_{0}, \quad t&gt;t_{0}$. Наличие у $\tau(t)$ нулей препятствует применению метода шагов, однако с помощью простых аппроксимационных или итерационных методов можно доказать теорему о разрешимости начальной задачи, аналогичную приведенной выше. Численные методы ее решения в принципе те же, что для $\tau \equiv 0$. Если заданные функции разрывны или $x\left(t_{0}+0\right) \neq \varphi\left(t_{0}\right)$, то понятие решения должно быть естественно обобщено.
+
+Решение сформулированной начальной задачи строится только в направлении возрастания $t$. Другая ее особенность состоит в том, что многообразие решений при произвольной $\varphi(t)$, вообще говоря, бесконечномерное. (Исключением служат у р а в не н и я б е з п р е д ы с т о р и и, для к-рых $t_{0} \leqslant t-\tau(t) \leqslant t$ при $t \geqslant t_{0}$; напр., уравнение (2) при $0 \leqslant k \leqslant 1, t_{0}=0$.) Это существенно отличает теорию Д. у. с о. а. от теории уравнений без отклонения аргумента.
+
+В уравнении (4) запаздывание с о с р е д о т о ч е нн о е. Рассматриваются также уравнения с $\mathrm{p}$ а с п р ед е л е н н ы запаздыванием, правая часть к-рых включает интегралы
+
+\[
+\int_{-\tau}^{0} x(t+-s) r(t, s) d s=\int_{t-\tau}^{t} x(s) r_{1}(t, s) d s
+\]
+
+(это - интегро-дифференциальные уравнения типа Вольтерра) или, комбинированный случай,
+
+\[
+\int_{-\tau}^{0} x(t+s) d_{s} r(t, s)
+\]
+
+и т. п. Наиболее общим видом Д. у. с о. а. запаздывающего типа 1-го порядка служит диффференциальнофункциональное уравнение типа Вольтерра
+
+\[
+x^{\prime}(t)=F[x(t+s) ; t],-\tau \leqslant s \leqslant 0,
+\]
+
+где правая часть при каждом $t&gt;t_{0}$ представляет собой функционал. И для таких уравнений начальная задача разрешима.
+
+Для Д. у. с о. а. нейтрального типа, напр.
+
+\[
+x^{\prime}(t)=f\left(t, x(t), x\left(t-\tau_{1}\right), x^{\prime}\left(t-\tau_{2}\right)\right), \tau_{1}, \tau_{2} \geqslant 0,
+\]
+
+постановка и свойства начальной задачи аналогичны указанным выше, однако свойство сглаживания отсутствует; кроме того, возможны осложнения, если переменное запаздывание $\tau_{2}(t)$ имеет нули. Начальная задача для Д. у. с о. а. опережающего типа является некорректной.
+
+Лучше других изучены линейные автономные (т. е. с постоянными коәфффициентами и постоянными отклонениями аргумента) Д. у. с о. а. Уравнение (без подобных членов)
+
+\[
+x^{(n)}(t)=\sum_{j=1}^{N} a_{j} x^{\left(m_{j}\right)}\left(t-\tau_{j}\right)
+\]
+
+(все $a_{j} \neq 0$ ) имеет частные решения $x=e^{p t}$, где $p$ удовлетворяет характеристическому уравнению
+
+\[
+P(p) \equiv p^{n}-\sum a_{j} p^{m} e^{-\tau_{j} p}=0 .
+\]
+
+Здесь $P(p)$ - квазиполином; $k$-кратному корню уравнения (6) отвечают решения $e^{p t}, \ldots, t^{k-1} e^{p t}$ уравнения (5). Если хотя бы одно $\tau_{j} \neq 0$, то уравнение (6) имеет бесконечное число корней $p_{1}, p_{2}, \ldots$ Чтобы уравнение (5) имело запаздывающий (нейтральный) тип, необходимо и достаточно условие
+
+\[
+\operatorname{Re} p_{r \rightarrow r \rightarrow \infty}-\infty\left(-\infty&lt;\varlimsup_{r \rightarrow \infty} \operatorname{Re} p_{r}&lt;\infty\right) \text {. }
+\]
+
+В әтих случаях каждое решение уравнения (5) разлагается в ряд по указанным частным решениям, а при решении начальной задачи для уравнения (5) и соответствующего неоднородного уравнения можно пользоваться обычными методами операционного исчисления. Аналогичными свойствами обладают системы уравнений и уравнения с распределенным запаздыванием. Обычные определения устойчивости решения непосредственно распространяются на Д. у. с о. а. запаздывающего и нейтрального типов. Для асимптотич. устойчивости решений уравнения (5) необходимо и достаточно условие:
+
+\[
+\sup _{r} \operatorname{Re} p_{r}&lt;0
+\]
+
+При выполнении этого условия асимптотически устойчиво и нулевое решение нелинейных автономных уравнений, для к-рых (5) служит линейным приближением.
+
+Метод функций Ляпунова на исследование устойчивости Д. У. с о. а. распространил Н. Н. Красовский [5]. Он предложил пользоваться функционалами $V[\psi(s) ; t]$ в $C[-\tau, 0] \times[0, \infty) ;$ полную производную такого функционала «вдоль решения» заданного уравнения вида (4) можно вычислить в силу этого уравнения, и она представляет собой функционал того же типа, т. е.
+
+\[
+\frac{d}{d t} V[x(t+s) ; t]=V_{1}[x(t+s) ; t] .
+\]
+
+Аналог теоремы Ляпунова об устойчивости: если
+
+\[
+f(t, 0,0) \equiv 0 ;(\forall h&gt;0) \inf _{\|\Psi\|&gt;h, t&gt;t_{0}}^{V[\Psi(s) ; t]&gt;0}
+\]\[
+V\left[\Psi(s) ; t_{0}\right] \underset{\|\Psi\| \rightarrow 0}{\longrightarrow} 0 ; V_{1} \leqslant 0
+\]
+
+то тривиальное решение уравнения (4) устойчиво. Основные теоремы об устойчивости, выраженные в таких терминах, допускают обращение.
+
+Ряд результатов получен для периодических Д. у. с о. а. Так, если
+
+\[
+f(+T, x, y) \equiv f(t, x, y), T&gt;0,
+\]
+
+то неподвижные точки оператора
+
+\[
+U_{k}[\varphi(s)] \equiv x(k T+s)
+\]
+
+$\left(t_{0}-\tau \leqslant s \leqslant t_{0} ; x(t)\right.$ - решение уравнения (4) при начальной функции $\varphi ; k$ - натуральное) определяют $k T$-периодич. решения уравнения (4). Этот и другие аналогичные факты дают возможность применить $k$ отысканию периодич. решений и к выяснению их устойчивости методы теории нелинейных операторов. Для линейных однородных Т-периодич. Д. у. с о. а. запаздывающего типа доказана возможность аппроксимации каждого решения с любой степенью точности по шкале экспонент линейной комбинацией решений вида
+
+\[
+t^{k} e^{q} r^{t} \alpha(t), \alpha(t+T) \equiv \alpha(t) ; k=0,1, \ldots, k_{r}
+\]
+
+Из других направлений исследования Д. у. с о. а. выделяются: детальное изучение асимптотических и осцилляционных свойств уравнений
+
+\[
+x^{\prime}(t)= \pm M(t) x(t-\tau(t)), \quad M(t) \geqslant 0,
+\]
+
+и аналогичных уравнений 2-го порядка; получение асимптотич. выражений для решений систем с малыми отклонениями аргумента или с малой нелинейностью; распространение на Д. у. с о. а. асимптотич. методов Крылова - Боголюбова (см. Крылова - Боголюбова метод усреднения); распространение на Д. у. с о. а. теории оптимального управления ЈI. С. Понтрягина (см. Оптимального управления математическая теория); исследование краевых задач; исследование әволючионных уравнений с частными производными и запаздыванием во времени; исследование стохастич. Д. у. с о. а. (см. Стохастическое дифференциальное уравнение) и т. Д.
+
+Лит.: [1] Эль с гольц Л. Э., Н о р к и н С. Б., Введение в теорию дифференіиальных уравнений с отклоняющимся аргументом, М., 1971; [2] П и н н и Э., Обыкновенные Дифференциально-разностные уравнения, пер. с англ., М., 1961; [3] Б е л лм а н Р., К у к К. Л., Дифференциально-разностные урав- нения, пер. с англ., М., 1967; [4] м ыш к и с А. Д.. Линейные дифференциальные уравнения с запаздывающим аргументом, теории устойчивости движения, М., 1959; [6] Н о р к и н С. Б., Дифференциальные уравнения второго порядка с запаздывающим аргументом, М., 1965; [7] Р у б а н и к В. П., Колебания t ö r e l i M. N., Time-Lag control systems, N. Y.- L., 1966;; [9] H a l a n a y A., Differential equations, N.Y.- L.,</text_orig>
+</article>

@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/695_FIBONAChChI" alphabetic_pos="695">
+  <title>ФИБОНАЧЧИ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>306</start>
+    <end>307</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/695_1_FIBONAChChI">f(x)\left(x \in\left(a_{0}, b_{0}\right) \subset \mathbb{R}^{1}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/695_2_FIBONAChChI">\left(a_{0}, b_{0}\right) \supset\left(a_{1}, b_{1}\right) \supset \ldots \supset\left(a_{n}, b_{n}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/695_3_FIBONAChChI">\Delta_{i}=b_{i}-a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/695_4_FIBONAChChI">\Delta_{i}=\Delta_{i+1}+\Delta_{i+2} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/695_5_FIBONAChChI">\Delta_{i}=\frac{F_{n+3-i}}{F_{n+2}} \Delta_{0}, i=2, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/695_6_FIBONAChChI">\tau=\lim _{n \rightarrow \infty} \frac{F_{n}}{F_{n+1}}=\frac{\sqrt{5}-1}{2}=0,618033989 \ldots</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_1_FIBONAChChI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_2_FIBONAChChI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_3_FIBONAChChI">\left(a_{i}, b_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_4_FIBONAChChI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_5_FIBONAChChI">\left(a_{i+1}, b_{i+1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_6_FIBONAChChI">\delta_{1}&lt;2 / 3 \cdot \Delta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_7_FIBONAChChI">\delta_{n+1}=\delta_{n+2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_8_FIBONAChChI">x_{\text {opt }} \approx\left(a_{n}+b_{n}\right) / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_9_FIBONAChChI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_10_FIBONAChChI">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_11_FIBONAChChI">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_12_FIBONAChChI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_13_FIBONAChChI">2 \Delta / \varepsilon \leqslant F_{n+2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_14_FIBONAChChI">\forall i \quad \Delta_{i+1}=\tau \Delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/695_15_FIBONAChChI">f(x)</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/695_1_FIBONAChChI">
+      <rel_text>Максимизация и минимизация функций</rel_text>
+      <target>http://libmeta.ru/me/article/529_MAKSIMIZATsIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/695_2_FIBONAChChI">
+      <rel_text>Спуска метод</rel_text>
+      <target>http://libmeta.ru/me/article/155_SPUSKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/695_3_FIBONAChChI">
+      <rel_text>Половинного деления метод</rel_text>
+      <target>http://libmeta.ru/me/article/439_POLOVINNOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/695_4_FIBONAChChI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/695_5_FIBONAChChI">
+      <rel_text>дифференцируемых</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/695_6_FIBONAChChI">
+      <rel_text>дихотомию</rel_text>
+      <target>http://libmeta.ru/me/article/317_DIHOTOMI</target>
+    </relation>
+  </relations>
+  <text>разновидность одномерного поиска экстремума фушкции путем последовательного сужения интервала неопределенности. Единственное ограничение, налагаемое на псследуемую функцию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/695_1_FIBONAChChI]]/URI
+\]
+
+- требование строгой унимодальности на заданном интервале.
+
+При последовательном сужении значения $URI[[http://libmeta.ru/me/formula/aux/695_1_FIBONAChChI]]/URI$ вычисляются (или замеряются) в заранее ограниченном qисле $URI[[http://libmeta.ru/me/formula/aux/695_2_FIBONAChChI]]/URI$ пробных точек. В результате получается последовательность сужающихся интервалов неопределенности, содержащих искомый экстремум:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/695_2_FIBONAChChI]]/URI
+\]
+
+Чтобы сузить интервал веопределенности для произвольной строго унимодальной функции, нужно знать не менее двух ее пробных значений. В Ф.м. внутри каждого текуцего интервала веопределенности $URI[[http://libmeta.ru/me/formula/aux/695_3_FIBONAChChI]]/URI$ подбираются ровно две пробные точки симметрично от середины интервала. Далее, от одной из пробных точек отбрасывается конец интервала с наихудшими значениями $URI[[http://libmeta.ru/me/formula/aux/695_4_FIBONAChChI]]/URI$. Получается $URI[[http://libmeta.ru/me/formula/aux/695_5_FIBONAChChI]]/URI$, где в дополнение к оставшейся старой пробной точке симметрично строится новая. Отсюда для длин интервалов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/695_3_FIBONAChChI]]/URI
+\]
+
+следует рекуррентное уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/695_4_FIBONAChChI]]/URI
+\]
+
+(помимо прочего выше предполагалось, что выполнено условие перекрывания $URI[[http://libmeta.ru/me/formula/aux/695_6_FIBONAChChI]]/URI$.)
+
+Решение уравнения при условии $URI[[http://libmeta.ru/me/formula/aux/695_7_FIBONAChChI]]/URI$ дает
+
+\[
+URI[[http://libmeta.ru/me/formula/main/695_5_FIBONAChChI]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_8b8421b9001badce4539g-1.jpg?height=42&amp;width=404&amp;top_left_y=1913&amp;top_left_x=990)
+
+Точка экстремума $URI[[http://libmeta.ru/me/formula/aux/695_8_FIBONAChChI]]/URI$.
+
+В простейшем варианге Ф. м. (когда предполагается, что пробные точки и пробные звачения $URI[[http://libmeta.ru/me/formula/aux/695_9_FIBONAChChI]]/URI$ определяются абсолютно точно), чтобы сузить исходный интервал веопределенности с $URI[[http://libmeta.ru/me/formula/aux/695_10_FIBONAChChI]]/URI$ до $URI[[http://libmeta.ru/me/formula/aux/695_11_FIBONAChChI]]/URI$, надо взять число $URI[[http://libmeta.ru/me/formula/aux/695_12_FIBONAChChI]]/URI$ пробных точек из неравенства $URI[[http://libmeta.ru/me/formula/aux/695_13_FIBONAChChI]]/URI$. С учетом поправок на точность определения значений функции вышелриведенная оценка несколько усложняется.
+
+Существует предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/695_6_FIBONAChChI]]/URI
+\] Это дает основание ввести ме т о д зо ло т о г о с е ч ен и я-такой вариант Ф.м., где $URI[[http://libmeta.ru/me/formula/aux/695_14_FIBONAChChI]]/URI$, т. е. пробные точки осуществляют золотое сечение текущего интервала. Преимущество последнего метода заключается в том, что число пробных точек заранее не планируется.
+
+Разработаны модификации Ф. м. для нефинититх функций, для сокращения вычислениі при равенстве $URI[[http://libmeta.ru/me/formula/aux/695_15_FIBONAChChI]]/URI$ в двух пробных точках, для повышения устоӥчивости счета и др.
+
+Ф. м. значительно превосходит по әффективности URI[[http://libmeta.ru/me/relation/695_6_FIBONAChChI]]/URI (см. URI[[http://libmeta.ru/me/relation/695_3_FIBONAChChI]]/URI). Однако для оптимизации URI[[http://libmeta.ru/me/relation/695_5_FIBONAChChI]]/URI URI[[http://libmeta.ru/me/relation/695_4_FIBONAChChI]]/URI Ф. м. малоцелесообразен (см. URI[[http://libmeta.ru/me/relation/695_2_FIBONAChChI]]/URI, URI[[http://libmeta.ru/me/relation/695_1_FIBONAChChI]]/URI).
+
+Jum. [1] K i e f e r J., &quot;proc. Amer. Math. Soc.», 1953,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_878bf891c6687bfbe273g-1.jpg?height=48&amp;width=811&amp;top_left_y=657&amp;top_left_x=139)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_878bf891c6687bfbe273g-1.jpg?height=42&amp;width=722&amp;top_left_y=682&amp;top_left_x=139)</text>
+  <text_orig>разновидность одномерного поиска экстремума фушкции путем последовательного сужения интервала неопределенности. Единственное ограничение, налагаемое на псследуемую функцию
+
+\[
+f(x)\left(x \in\left(a_{0}, b_{0}\right) \subset \mathbb{R}^{1}\right),
+\]
+
+- требование строгой унимодальности на заданном интервале.
+
+При последовательном сужении значения $f(x)$ вычисляются (или замеряются) в заранее ограниченном qисле $n$ пробных точек. В результате получается последовательность сужающихся интервалов неопределенности, содержащих искомый экстремум:
+
+\[
+\left(a_{0}, b_{0}\right) \supset\left(a_{1}, b_{1}\right) \supset \ldots \supset\left(a_{n}, b_{n}\right) .
+\]
+
+Чтобы сузить интервал веопределенности для произвольной строго унимодальной функции, нужно знать не менее двух ее пробных значений. В Ф.м. внутри каждого текуцего интервала веопределенности $\left(a_{i}, b_{i}\right)$ подбираются ровно две пробные точки симметрично от середины интервала. Далее, от одной из пробных точек отбрасывается конец интервала с наихудшими значениями $f(x)$. Получается $\left(a_{i+1}, b_{i+1}\right)$, где в дополнение к оставшейся старой пробной точке симметрично строится новая. Отсюда для длин интервалов
+
+\[
+\Delta_{i}=b_{i}-a_{i}
+\]
+
+следует рекуррентное уравнение
+
+\[
+\Delta_{i}=\Delta_{i+1}+\Delta_{i+2} .
+\]
+
+(Помимо прочего выше предполагалось, что выполнено условие перекрывания $\Delta_{1}&lt;2 / 3 \cdot \Delta_{0}$.)
+
+Решение уравнения при условии $\Delta_{n+1}=\Delta_{n+2}$ дает
+
+\[
+\Delta_{i}=\frac{F_{n+3-i}}{F_{n+2}} \Delta_{0}, i=2, \ldots, n,
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_8b8421b9001badce4539g-1.jpg?height=42&amp;width=404&amp;top_left_y=1913&amp;top_left_x=990)
+
+Точка экстремума $x_{\text {opt }} \approx\left(a_{n}+b_{n}\right) / 2$.
+
+В простейшем варианге Ф. м. (когда предполагается, что пробные точки и пробные звачения $f(x)$ определяются абсолютно точно), чтобы сузить исходный интервал веопределенности с $\Delta$ до $\varepsilon$, надо взять число $n$ пробных точек из неравенства $2 \Delta / \varepsilon \leqslant F_{n+2}$. С учетом поправок на точность определения значений функции вышелриведенная оценка несколько усложняется.
+
+Существует предел
+
+\[
+\tau=\lim _{n \rightarrow \infty} \frac{F_{n}}{F_{n+1}}=\frac{\sqrt{5}-1}{2}=0,618033989 \ldots
+\] Это дает основание ввести ме т о д зо ло т о г о с е ч ен и я-такой вариант Ф.м., где $\forall i \quad \Delta_{i+1}=\tau \Delta_{i}$, т. е. пробные точки осуществляют золотое сечение текущего интервала. Преимущество последнего метода заключается в том, что число пробных точек заранее не планируется.
+
+Разработаны модификации Ф. м. для нефинититх функций, для сокращения вычислениі при равенстве $f(x)$ в двух пробных точках, для повышения устоӥчивости счета и др.
+
+Ф. м. значительно превосходит по әффективности дихотомию (см. Половинного деления метод). Однако для оптимизации дифференцируемых функций Ф. м. малоцелесообразен (см. Спуска метод, Максимизация и минимизация функций).
+
+Jum. [1] K i e f e r J., &quot;Proc. Amer. Math. Soc.», 1953,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_878bf891c6687bfbe273g-1.jpg?height=48&amp;width=811&amp;top_left_y=657&amp;top_left_x=139)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_878bf891c6687bfbe273g-1.jpg?height=42&amp;width=722&amp;top_left_y=682&amp;top_left_x=139)</text_orig>
+</article>

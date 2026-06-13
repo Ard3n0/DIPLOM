@@ -1,0 +1,643 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/274_DIFFERENTsIAL'NOE" alphabetic_pos="274">
+  <title>ДИФФЕРЕНЦИАЛЬНОЕ УРАВНЕНИЕ ОБЫКНОВЕННОЕ</title>
+  <authors/>
+  <pages>
+    <start>146</start>
+    <end>148</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б а х в а л о в Н. С., Численные методы, М., 1973; [2] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, т. 2, 2 изд., М., 1962; [3] Мих лин С. Г.,см о лиц и и й интегральных уравнений, М., 1965; [4] м о и с е е в H. H., Численные метопы в теории оптимальных систем, М., 1971; [5] М и л н В. Э., Численное решение дифференциальных уравнений, пер. с англ., М., 1955; [6] К о л л а т ц Л., Численные м., 1953; [7] Х е м м и н г Р. В., Численные методы..., пер. с англ., 2 изд., М., 1972; [8] Г о д у н о в С. К., Р я б е н и к и й К. о л л а т ц Л., Задачи на собственные значения..., пер. с нем., М., 1968 .</literature_orig>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>2 изд., М.</publication>
+      <year>1962</year>
+      <other>т. 2</other>
+    </unit>
+    <unit>
+      <author>Михлин С. Г.</author>
+      <title>см о лиц и и й интегральных уравнений</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>моисеев H. H.</author>
+      <title>Численные метопы в теории оптимальных систем</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Милн В. Э.</author>
+      <title>Численное решение дифференциальных уравнений</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1955</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Коллатц Л.</author>
+      <title>Численные м.</title>
+      <publication/>
+      <year>1953</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Хемминг Р. В.</author>
+      <title>Численные методы...</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Годунов С. К.</author>
+      <author>Рябеникий К.оллатц Л.</author>
+      <title>Задачи на собственные значения...</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/274_1_DIFFERENTsIAL'NOE">y^{\prime}=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_2_DIFFERENTsIAL'NOE">y\left(x_{0}\right)=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_3_DIFFERENTsIAL'NOE">y(x) \approx \sum_{k=0}^{n} \frac{y^{(k)}\left(x_{0}\right)}{k !}\left(x-x_{0}\right)^{k} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_4_DIFFERENTsIAL'NOE">y^{\prime}=f(x, y), \quad y^{\prime \prime}=f_{x}^{\prime}(x, y)+f_{y}^{\prime}(x, y) y^{\prime},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_5_DIFFERENTsIAL'NOE">x_{p}=x_{0}+p h, p=0,1, \ldots, N, h=X / N \text {; }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_6_DIFFERENTsIAL'NOE">y_{p+1}=y_{p}+\int_{x_{p}}^{x_{p+1}} f(x, y) d x,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_7_DIFFERENTsIAL'NOE">y_{p+1}=y_{p}+h f\left(x_{p}, y_{p}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_8_DIFFERENTsIAL'NOE">\int_{x_{p}}^{x_{p+1}} f(x, y) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_9_DIFFERENTsIAL'NOE">y_{p+1}=y_{p}+\frac{h}{2}\left(f\left(x_{p}, y_{p}\right)+f\left(x_{p+1}, y_{n+1}\right)\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_10_DIFFERENTsIAL'NOE">y_{p+1}=y_{p}+\frac{h}{2}\left(k_{1}\left(x_{p}, y_{p}\right)+k_{2}\left(x_{p}, y_{p}\right)\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_11_DIFFERENTsIAL'NOE">k_{1}\left(x_{p}, y_{p}\right)=f\left(x_{p}, y_{p}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_12_DIFFERENTsIAL'NOE">k_{2}\left(x_{p}, y_{p}\right)=f\left(x_{p}+h, y_{p}+h k_{1}\left(x_{p}, y_{p}\right)\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_13_DIFFERENTsIAL'NOE">r_{p+2} \approx \frac{\left|y_{p+2}^{(2)}-y_{p+2}^{(1)}\right|}{2^{s}-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_14_DIFFERENTsIAL'NOE">\sum_{q=0}^{k} a_{-q} y_{p-q}-h \sum_{q=0}^{k} b-q f\left(x_{p-q}, y_{p-q}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_15_DIFFERENTsIAL'NOE">y_{p}-y_{p-1}=h \sum_{q=0}^{k} b-q f\left(x_{p-q}, y_{p-q}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_16_DIFFERENTsIAL'NOE">y_{p+1}^{*}=\frac{2 y_{p-1}+y_{p-2}}{3}+\frac{h}{72}\left(191 f\left(x_{p}, y_{p}\right)-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_17_DIFFERENTsIAL'NOE">y_{p+1}=y_{p+1}^{* *}+\frac{43}{750}\left(y_{p+1}^{*}-y_{p+1}^{* *}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_18_DIFFERENTsIAL'NOE">y^{\prime \prime}=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_19_DIFFERENTsIAL'NOE">\begin{gathered}b_{-2}=1, b_{-3}=1, b_{-4}=\frac{19}{20}, \ldots ; c_{-2}=1, c_{-3}=0, \\c_{-4}=-\frac{1}{120}, \ldots ;\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_20_DIFFERENTsIAL'NOE">y^{\prime \prime}=f\left(x, y, y^{\prime}\right), \quad y(0)=a, \quad y(l)=b .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_21_DIFFERENTsIAL'NOE">y^{\prime \prime}=f\left(x, y, y^{\prime}\right), \quad y(0)=a, \quad y^{\prime}(0)=c,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_22_DIFFERENTsIAL'NOE">y^{\prime \prime}=p(x) y+f, \quad y^{\prime}(0)=a_{0} y(0)+b_{0}, \quad y^{\prime}(l)=a_{1} y(l)+b_{1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_23_DIFFERENTsIAL'NOE">a^{\prime}(x)+a^{2}(x)=p(x), \quad a(0)=a_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_24_DIFFERENTsIAL'NOE">b^{\prime}(x)+a(x) b(x)=f(x), \quad b(0)=b_{0} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_25_DIFFERENTsIAL'NOE">y^{\prime}(l)=a_{1} y(l)+b_{1} \quad \text { и } \quad y^{\prime}(l)=a(l) y(l)+b(l) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_26_DIFFERENTsIAL'NOE">y^{\prime}(x)=a(x) y(x)+b(x), y(l)=y_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/274_27_DIFFERENTsIAL'NOE">y(x)=g\left(a_{1}, \ldots, a_{n}, x\right) \text {; }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_1_DIFFERENTsIAL'NOE">y^{(k)}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_2_DIFFERENTsIAL'NOE">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_3_DIFFERENTsIAL'NOE">y^{\prime \prime \prime}=f_{x x}^{\prime \prime}(x, y)+2 f_{x y}^{\prime \prime}(x, y) y^{\prime}+f_{y y}^{\prime \prime}(x, y) y^{\prime 2}+f_{y}^{\prime}(x, y) y^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_4_DIFFERENTsIAL'NOE">\left(x-x_{0}\right)^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_5_DIFFERENTsIAL'NOE">x-x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_6_DIFFERENTsIAL'NOE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_7_DIFFERENTsIAL'NOE">x-x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_8_DIFFERENTsIAL'NOE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_9_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_10_DIFFERENTsIAL'NOE">y^{\prime}=f(x, y ; \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_11_DIFFERENTsIAL'NOE">y(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_12_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_13_DIFFERENTsIAL'NOE">x_{0} \leqslant x \leqslant x_{0}+X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_14_DIFFERENTsIAL'NOE">y=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_15_DIFFERENTsIAL'NOE">y\left(x_{0}\right)=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_16_DIFFERENTsIAL'NOE">x_{0} \leqslant x \leqslant x_{0}+X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_17_DIFFERENTsIAL'NOE">x_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_18_DIFFERENTsIAL'NOE">h-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_19_DIFFERENTsIAL'NOE">y_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_20_DIFFERENTsIAL'NOE">x_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_21_DIFFERENTsIAL'NOE">h^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_22_DIFFERENTsIAL'NOE">y_{p+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_23_DIFFERENTsIAL'NOE">y_{p+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_24_DIFFERENTsIAL'NOE">h^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_25_DIFFERENTsIAL'NOE">h^{5}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_26_DIFFERENTsIAL'NOE">y_{p+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_27_DIFFERENTsIAL'NOE">y_{p}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_28_DIFFERENTsIAL'NOE">x_{p+1}-x_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_29_DIFFERENTsIAL'NOE">y_{p+2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_30_DIFFERENTsIAL'NOE">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_31_DIFFERENTsIAL'NOE">2 h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_32_DIFFERENTsIAL'NOE">y_{p+2}^{(1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_33_DIFFERENTsIAL'NOE">y_{p+2}^{(2)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_34_DIFFERENTsIAL'NOE">s+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_35_DIFFERENTsIAL'NOE">r_{p+2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_36_DIFFERENTsIAL'NOE">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_37_DIFFERENTsIAL'NOE">s=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_38_DIFFERENTsIAL'NOE">s=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_39_DIFFERENTsIAL'NOE">y_{p+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_40_DIFFERENTsIAL'NOE">y_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_41_DIFFERENTsIAL'NOE">y_{p-i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_42_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_43_DIFFERENTsIAL'NOE">a_{-i}, b_{-i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_44_DIFFERENTsIAL'NOE">a_{0} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_45_DIFFERENTsIAL'NOE">b_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_46_DIFFERENTsIAL'NOE">b_{0} \neq 0,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_47_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_48_DIFFERENTsIAL'NOE">\mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_49_DIFFERENTsIAL'NOE">\left.-107 f\left(x_{p-1}, y_{p-1}\right)+109 f\left(x_{p-2}, y_{p-2}\right)-25 f\left(x_{p-3}, y_{p-3}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_50_DIFFERENTsIAL'NOE">\tilde{y}_{p+1}=y_{p+1}^{*}-\frac{707}{750}\left(y_{p}^{*}-y_{p}^{* *}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_51_DIFFERENTsIAL'NOE">y_{p+1}^{* *} \frac{2 y_{p-1}+y_{p-2}}{3}+\frac{h}{72}\left(25 f\left(x_{p+1}, \tilde{y}_{p+1}\right)+\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_52_DIFFERENTsIAL'NOE">\left.+91 f\left(x_{p}, y_{p}\right)+43 f\left(x_{p-1}, y_{p-1}\right)+9 f\left(x_{p-2}, y_{p-2}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_53_DIFFERENTsIAL'NOE">h^{6}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_54_DIFFERENTsIAL'NOE">y_{p+1}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_55_DIFFERENTsIAL'NOE">\tilde{y}_{p+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_56_DIFFERENTsIAL'NOE">y_{p+1}^{* *}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_57_DIFFERENTsIAL'NOE">y_{p+1} \cdot</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_58_DIFFERENTsIAL'NOE">\delta^{2} y_{p+1}=h^{2} f\left(x_{p}, y_{p}\right)+\frac{h^{2}}{12} \sum_{q=2}^{k} b_{-q} \Delta^{q} f\left(x_{p-q}, y_{p-q}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_59_DIFFERENTsIAL'NOE">\delta^{2} y_{p-1}=h^{2} f\left(x_{p}, y_{p}\right)+\frac{h^{2}}{2} \sum_{q=1}^{k} c_{-q-1} \Delta^{q+1} f\left(x_{p-q}, y_{p-q}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_60_DIFFERENTsIAL'NOE">\delta^{q}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_61_DIFFERENTsIAL'NOE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_62_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_63_DIFFERENTsIAL'NOE">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_64_DIFFERENTsIAL'NOE">y_{p-q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_65_DIFFERENTsIAL'NOE">y_{p-q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_66_DIFFERENTsIAL'NOE">y^{\prime}(0)=c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_67_DIFFERENTsIAL'NOE">0 \leqslant x \leqslant l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_68_DIFFERENTsIAL'NOE">y(l, c)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_69_DIFFERENTsIAL'NOE">y\left(l, c_{0}\right)=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_70_DIFFERENTsIAL'NOE">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_71_DIFFERENTsIAL'NOE">y(0)=a, y^{\prime}(0)=c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_72_DIFFERENTsIAL'NOE">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_73_DIFFERENTsIAL'NOE">y(l, c)=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_74_DIFFERENTsIAL'NOE">a(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_75_DIFFERENTsIAL'NOE">b(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_76_DIFFERENTsIAL'NOE">y^{\prime}(x)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_77_DIFFERENTsIAL'NOE">=a(x) y(x)+b(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_78_DIFFERENTsIAL'NOE">0 \leqslant x \leqslant l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_79_DIFFERENTsIAL'NOE">y(l)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_80_DIFFERENTsIAL'NOE">y^{\prime}(l)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_81_DIFFERENTsIAL'NOE">y(l)=y_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_82_DIFFERENTsIAL'NOE">\boldsymbol{y}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_83_DIFFERENTsIAL'NOE">0 \leqslant x \leqslant l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_84_DIFFERENTsIAL'NOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/274_85_DIFFERENTsIAL'NOE">a_{1}, \ldots, a_{n}</formula>
+  </formulas_aux>
+  <relations n="14">
+    <relation uri="http://libmeta.ru/me/relation/274_1_DIFFERENTsIAL'NOE">
+      <rel_text>Iiiтермера метод</rel_text>
+      <target>http://libmeta.ru/me/article/1049_IIITERERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_2_DIFFERENTsIAL'NOE">
+      <rel_text>Aдалса метод</rel_text>
+      <target>http://libmeta.ru/me/article/64_ADAMSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_3_DIFFERENTsIAL'NOE">
+      <rel_text>связанный</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_4_DIFFERENTsIAL'NOE">
+      <rel_text>изоклин</rel_text>
+      <target>http://libmeta.ru/me/article/512_IZOKLIN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_5_DIFFERENTsIAL'NOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_6_DIFFERENTsIAL'NOE">
+      <rel_text>графич</rel_text>
+      <target>http://libmeta.ru/me/article/1154_GRADU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_7_DIFFERENTsIAL'NOE">
+      <rel_text>приближенного</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_8_DIFFERENTsIAL'NOE">
+      <rel_text>численных</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_9_DIFFERENTsIAL'NOE">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_10_DIFFERENTsIAL'NOE">
+      <rel_text>программ</rel_text>
+      <target>http://libmeta.ru/me/article/667_PROGRAMM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_11_DIFFERENTsIAL'NOE">
+      <rel_text>численных</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_12_DIFFERENTsIAL'NOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_13_DIFFERENTsIAL'NOE">
+      <rel_text>минимума</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/274_14_DIFFERENTsIAL'NOE">
+      <rel_text>параметры</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+  </relations>
+  <text>п р и б л и Ж е н ы е м е т о д ы н и я - методы получения аналитич. выражений (формул), либо численных значений, приближающих с той или иной степенью точности искомое частное решение диффференциального уравнения (д. у.) или системы для одного или нескольких значений аргумента. Важность приближенных методов решения д. у. обусловливается тем, что точные решения в виде аналитич. выражений получаются лишь для немногих типов д. у.
+
+Одним из старейших методов приближенного решения обыкновенных д. у. является метод разложения в ряд Тейлора. Согласно этому методу решение уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_1_DIFFERENTsIAL'NOE]]/URI
+\]
+
+с начальным условием
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_2_DIFFERENTsIAL'NOE]]/URI
+\]
+
+приближается отрезком ряда Тейлора
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_3_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Производные $URI[[http://libmeta.ru/me/formula/aux/274_1_DIFFERENTsIAL'NOE]]/URI$ выражаются через $URI[[http://libmeta.ru/me/formula/aux/274_2_DIFFERENTsIAL'NOE]]/URI$ и ее частные производные:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_4_DIFFERENTsIAL'NOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/274_3_DIFFERENTsIAL'NOE]]/URI$ и т. д. Погрешность метода пропорциональна $URI[[http://libmeta.ru/me/formula/aux/274_4_DIFFERENTsIAL'NOE]]/URI$. При больших значениях $URI[[http://libmeta.ru/me/formula/aux/274_5_DIFFERENTsIAL'NOE]]/URI$ погрешность медленно стремится к нулю при $URI[[http://libmeta.ru/me/formula/aux/274_6_DIFFERENTsIAL'NOE]]/URI$, а если значение $URI[[http://libmeta.ru/me/formula/aux/274_7_DIFFERENTsIAL'NOE]]/URI$ превосходит значение радиуса сходимости ряда Тейлора, то погрешность вообще не стремится к нулю при $URI[[http://libmeta.ru/me/formula/aux/274_8_DIFFERENTsIAL'NOE]]/URI$. Это обстоятельство, а также необходимость вычисления большого числа частных производных резко ограничивают область применения метода. Обычно метод разложения в ряд Тейлора, так же как и методы разложения в ряды более общего вида, применяют для нахождения приближенного решения в виде аналитич. выражения. $URI[[http://libmeta.ru/me/formula/aux/274_9_DIFFERENTsIAL'NOE]]/URI$ методам, применяемым для этой же цели, относятся Чаплыгина метод, использующий дифференциальные неравенства, и последовательных прибли- жений метод. Эти методы применяются в основном в теоретич. исследования и редко используются для шолучения численных решений д. у. в практич. расчетах.
+
+В приложения ч часто используются асимптотич. методы приближенного решения Д. у., основанные на выделении в решаемом уравнении главных членов и членов, малых по сравнению с главными. Примером может служить малого параметра метод для уравнения $URI[[http://libmeta.ru/me/formula/aux/274_10_DIFFERENTsIAL'NOE]]/URI$. Асимптотич. методы используются как для получения аналитич. выражений, приближающих решение, так и для исследований качественного поведения решений.
+
+Наиболее распространенными методами численного решения д. у. являются методы, в к-рых решение итется в виде таблицы приближенных значений искомой функции $URI[[http://libmeta.ru/me/formula/aux/274_11_DIFFERENTsIAL'NOE]]/URI$ для ряда значений аргумента $URI[[http://libmeta.ru/me/formula/aux/274_12_DIFFERENTsIAL'NOE]]/URI$ из отрезка $URI[[http://libmeta.ru/me/formula/aux/274_13_DIFFERENTsIAL'NOE]]/URI$. Напр., пусть ищется решение уравнения $URI[[http://libmeta.ru/me/formula/aux/274_14_DIFFERENTsIAL'NOE]]/URI$ с начальным условием $URI[[http://libmeta.ru/me/formula/aux/274_15_DIFFERENTsIAL'NOE]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/274_16_DIFFERENTsIAL'NOE]]/URI$ в предположении, что решение вычисляется для значений аргумента
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_5_DIFFERENTsIAL'NOE]]/URI
+\]
+
+значения $URI[[http://libmeta.ru/me/formula/aux/274_17_DIFFERENTsIAL'NOE]]/URI$ наз. у з л а и, а величина $URI[[http://libmeta.ru/me/formula/aux/274_18_DIFFERENTsIAL'NOE]]/URI$ Iii aг о м; через $URI[[http://libmeta.ru/me/formula/aux/274_19_DIFFERENTsIAL'NOE]]/URI$ обозначено значение приближенного решения в узле $URI[[http://libmeta.ru/me/formula/aux/274_20_DIFFERENTsIAL'NOE]]/URI$.
+
+Один из простейших численных методов - Эйлера метод основан на приближенном вычислении в тождестве
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_6_DIFFERENTsIAL'NOE]]/URI
+\]
+
+квадратуру по формуле прямоугольников:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_7_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Погрешность метода Эйлера пропорциональна $URI[[http://libmeta.ru/me/formula/aux/274_21_DIFFERENTsIAL'NOE]]/URI$. Приближая интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_8_DIFFERENTsIAL'NOE]]/URI
+\]
+
+более точными квадратурными формулами, можно получить более точные численные методы. Напр., если воснользоваться для приближения (1) формулой трапеций, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_9_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Обычно это уравнение неразрешимо относительно $URI[[http://libmeta.ru/me/formula/aux/274_22_DIFFERENTsIAL'NOE]]/URI$. Для его решения можно воспользоваться итерационными методами, взяв в качестве начального приближения значение $URI[[http://libmeta.ru/me/formula/aux/274_23_DIFFERENTsIAL'NOE]]/URI$, полученное по методу Эйлера. Одна итерация приводит к следующим формулам:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_10_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_11_DIFFERENTsIAL'NOE]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_12_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Эти формулы имеют погрешность порядка $URI[[http://libmeta.ru/me/formula/aux/274_24_DIFFERENTsIAL'NOE]]/URI$. Они относятся к семейству Рунае-Кутта методов. Один из наиболее распространенных методов этого семейства имеет порядок погрешности $URI[[http://libmeta.ru/me/formula/aux/274_25_DIFFERENTsIAL'NOE]]/URI$. Методы Рунге - Кутта наз. одношаговыми, так как для вычисления $URI[[http://libmeta.ru/me/formula/aux/274_26_DIFFERENTsIAL'NOE]]/URI$ достаточно знать лишь $URI[[http://libmeta.ru/me/formula/aux/274_27_DIFFERENTsIAL'NOE]]/URI$ значения приближенного решения на предыдущем шаге. Это обстоятельство позволяет применять формулы метода Рунге - Кутта для неравноотстоящих узлов, то есть в случае, когда разность $URI[[http://libmeta.ru/me/formula/aux/274_28_DIFFERENTsIAL'NOE]]/URI$ непостоянна. При выборе шага интегрирования полезно иметь в распоряжении нек-рую характеристику погрешности метода на шаге. Для оценки погрешности на шаге часто используется прием, называемый ә к с т р а п о л я ц и е й п о Р и ч а р дс о н у: $URI[[http://libmeta.ru/me/formula/aux/274_29_DIFFERENTsIAL'NOE]]/URI$ вычисляется дважды - при помощи двух шагов $URI[[http://libmeta.ru/me/formula/aux/274_30_DIFFERENTsIAL'NOE]]/URI$ и одного шага $URI[[http://libmeta.ru/me/formula/aux/274_31_DIFFERENTsIAL'NOE]]/URI$; полученные значения обозначаются через $URI[[http://libmeta.ru/me/formula/aux/274_32_DIFFERENTsIAL'NOE]]/URI$ И $URI[[http://libmeta.ru/me/formula/aux/274_33_DIFFERENTsIAL'NOE]]/URI$ соответственно; погрешность на шаге
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_13_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/274_34_DIFFERENTsIAL'NOE]]/URI$ - порядок $URI[[http://libmeta.ru/me/formula/aux/274_35_DIFFERENTsIAL'NOE]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/274_36_DIFFERENTsIAL'NOE]]/URI$ (для метода Әйлера $URI[[http://libmeta.ru/me/formula/aux/274_37_DIFFERENTsIAL'NOE]]/URI$, для формулы трапеций $URI[[http://libmeta.ru/me/formula/aux/274_38_DIFFERENTsIAL'NOE]]/URI$ и т. д.). Другой способ оценки погрешности на шаге состоит в получении формул метода Рунге - Кутта с контрольным членом, к-рый с точностью до малых более высокого порядка приближает главный член погрешности метода на шаге. Разработаны так наз. неявные одношаговые методы, к-рые оказались весьма әфффективными для нек-рых классов задач.
+
+Помимо семейства одношаговых методов для численного решения д. у. используются также и многошаговые методы (или конечноразностные). В этих методах для определения $URI[[http://libmeta.ru/me/formula/aux/274_39_DIFFERENTsIAL'NOE]]/URI$ требуются не только $URI[[http://libmeta.ru/me/formula/aux/274_40_DIFFERENTsIAL'NOE]]/URI$, но и значения $URI[[http://libmeta.ru/me/formula/aux/274_41_DIFFERENTsIAL'NOE]]/URI$ в нек-рых нескольких предыдущих узлах. Формулы $URI[[http://libmeta.ru/me/formula/aux/274_42_DIFFERENTsIAL'NOE]]/URI$-шаговых методов имеют вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_14_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/274_43_DIFFERENTsIAL'NOE]]/URI$ - постоянные, $URI[[http://libmeta.ru/me/formula/aux/274_44_DIFFERENTsIAL'NOE]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/274_45_DIFFERENTsIAL'NOE]]/URI$, соот.* ветствующий метод наз. э к с т р а п о л я ц и о н ны м, или я в ны м; если $URI[[http://libmeta.ru/me/formula/aux/274_46_DIFFERENTsIAL'NOE]]/URI$ Ин т е р п о л я ц и о нны м, или не я в н м, методом. Частным случаем многошаговых методов являются методы типа Адамса (см. URI[[http://libmeta.ru/me/relation/274_2_DIFFERENTsIAL'NOE]]/URI):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_15_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Обычно вычисления ведут по паре $URI[[http://libmeta.ru/me/formula/aux/274_47_DIFFERENTsIAL'NOE]]/URI$-шаговых формул, одна из к-рых явная, а другая неявная. Такие пары формул наз. м е т о д а м и П р ог но р е к ц и. В качестве примера формул прогноза и коррекции можно привести ф о р м улы $URI[[http://libmeta.ru/me/formula/aux/274_48_DIFFERENTsIAL'NOE]]/URI$ е м м нr a:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_16_DIFFERENTsIAL'NOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/274_49_DIFFERENTsIAL'NOE]]/URI$;
+
+$URI[[http://libmeta.ru/me/formula/aux/274_50_DIFFERENTsIAL'NOE]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/274_51_DIFFERENTsIAL'NOE]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/274_52_DIFFERENTsIAL'NOE]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_17_DIFFERENTsIAL'NOE]]/URI
+\]
+
+имеющие на шаге погрешность порядка $URI[[http://libmeta.ru/me/formula/aux/274_53_DIFFERENTsIAL'NOE]]/URI$. При счете по формулам Хемминга сначала вычисляется «прогноз&quot; $URI[[http://libmeta.ru/me/formula/aux/274_54_DIFFERENTsIAL'NOE]]/URI$, затем - «поправка» $URI[[http://libmeta.ru/me/formula/aux/274_55_DIFFERENTsIAL'NOE]]/URI$, затем - «коррекция» $URI[[http://libmeta.ru/me/formula/aux/274_56_DIFFERENTsIAL'NOE]]/URI$ и, наконец,- приближенное решение $URI[[http://libmeta.ru/me/formula/aux/274_57_DIFFERENTsIAL'NOE]]/URI$ Iiтермера (см. URI[[http://libmeta.ru/me/relation/274_1_DIFFERENTsIAL'NOE]]/URI), особөнно удобныө для уравнений вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_18_DIFFERENTsIAL'NOE]]/URI
+\]
+
+они имеют вид:
+
+$URI[[http://libmeta.ru/me/formula/aux/274_58_DIFFERENTsIAL'NOE]]/URI$ (я в ная фо р у л а Iii терме р а) и $URI[[http://libmeta.ru/me/formula/aux/274_59_DIFFERENTsIAL'NOE]]/URI$ (нея вная формула Ш терм ер а). В формулах Штермера
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_19_DIFFERENTsIAL'NOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/274_60_DIFFERENTsIAL'NOE]]/URI$ - конечная разность порядка $URI[[http://libmeta.ru/me/formula/aux/274_61_DIFFERENTsIAL'NOE]]/URI$.
+
+Применение многошаговых методов возможно лишь в случае, если известны значения решения в $URI[[http://libmeta.ru/me/formula/aux/274_62_DIFFERENTsIAL'NOE]]/URI$ первых узлах. Для нахождения этих значений обычно пользуются одношаговыми методами, погрешность к-рых пропорциональна соответствующей степени $URI[[http://libmeta.ru/me/formula/aux/274_63_DIFFERENTsIAL'NOE]]/URI$.
+
+Иногда для вычисления $URI[[http://libmeta.ru/me/formula/aux/274_64_DIFFERENTsIAL'NOE]]/URI$ используется несколько предшествующих значений $URI[[http://libmeta.ru/me/formula/aux/274_65_DIFFERENTsIAL'NOE]]/URI$, как в многошаговых методах, но в то же время на каждом шаге производится несколько вычислений правой части, как в методах Рунге - Кутта.
+
+Решение краевых задач для обыкновенных д. у. обычно сводится к решению нескольких задач с начальными условиями. Простейшим методом такого рода является стрельбы метод, применяемый как к линейным, так и к нелинейным краевым задачам. Пусть, напр., требуется решить краевую задачу для одного уравнения 2-го порядка:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_20_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Полагая $URI[[http://libmeta.ru/me/formula/aux/274_66_DIFFERENTsIAL'NOE]]/URI$, можно решить задачу с начальным условием
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_21_DIFFERENTsIAL'NOE]]/URI
+\]
+
+на отрезке $URI[[http://libmeta.ru/me/formula/aux/274_67_DIFFERENTsIAL'NOE]]/URI$ и вычислить значение $URI[[http://libmeta.ru/me/formula/aux/274_68_DIFFERENTsIAL'NOE]]/URI$. Из условия $URI[[http://libmeta.ru/me/formula/aux/274_69_DIFFERENTsIAL'NOE]]/URI$ определяется $URI[[http://libmeta.ru/me/formula/aux/274_70_DIFFERENTsIAL'NOE]]/URI$. Тогда решение краевой задачи будет совпадать с решением задачи с начальными условиями $URI[[http://libmeta.ru/me/formula/aux/274_71_DIFFERENTsIAL'NOE]]/URI$. Корень $URI[[http://libmeta.ru/me/formula/aux/274_72_DIFFERENTsIAL'NOE]]/URI$ уравнения $URI[[http://libmeta.ru/me/formula/aux/274_73_DIFFERENTsIAL'NOE]]/URI$ обычно ищется каким-либо приближенным методом и его нахождение связано с многократным решением задачи с начальными условиями (2). Метод стрельбы часто неустойчив к вычислительной погрешности.
+
+Для линейных краевых задач часто применяют прогонки метод, при к-ром решение краевой задачи для уравнения 2-го порядка сводится к решению трех задач с начальным условием для уравнений 1-го порядка. Напр., пусть решается краевая задача
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_22_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Подбираются функции $URI[[http://libmeta.ru/me/formula/aux/274_74_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/274_75_DIFFERENTsIAL'NOE]]/URI$ такие, что $URI[[http://libmeta.ru/me/formula/aux/274_76_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/274_77_DIFFERENTsIAL'NOE]]/URI$ при всех $URI[[http://libmeta.ru/me/formula/aux/274_78_DIFFERENTsIAL'NOE]]/URI$. Эти функции могут быть получены как решения задач с начальными условиями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_23_DIFFERENTsIAL'NOE]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_24_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Решение этих задач наз. п р я м о й п р о г о н к о й. В результате прямой прогонки получаются два условия для определения $URI[[http://libmeta.ru/me/formula/aux/274_79_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/274_80_DIFFERENTsIAL'NOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_25_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Из этих условий находится $URI[[http://libmeta.ru/me/formula/aux/274_81_DIFFERENTsIAL'NOE]]/URI$, после чего решение $URI[[http://libmeta.ru/me/formula/aux/274_82_DIFFERENTsIAL'NOE]]/URI$ исходной краевой задачи получается как решение задачи с начальным условием
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_26_DIFFERENTsIAL'NOE]]/URI
+\]
+
+на отрезке $URI[[http://libmeta.ru/me/formula/aux/274_83_DIFFERENTsIAL'NOE]]/URI$ - так наз. о б $URI[[http://libmeta.ru/me/formula/aux/274_84_DIFFERENTsIAL'NOE]]/URI$ а т н а я п р ог о н к а. Методы стрельбы и прогонки применимы для решіения краевых задач в случае систем д. у. В вы- числительной практике широко используются разностные аналоги этих методов.
+
+Для решения нелинейных краевых задач, кроме метода стрельбы, используют методы линеаризации в сочетании с методом прогонки. Наиболее распространенным методом этого класса является Ньютона метод.
+
+При решении краевых задач применяются также и различные вариационные методы: Ритца метод, Галеркина метод и др. Вариационные методы сводят решение краевых задач к минимизации нек-рого функционала; приближение к решению ищется в задаваемом виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/274_27_DIFFERENTsIAL'NOE]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/274_14_DIFFERENTsIAL'NOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/274_85_DIFFERENTsIAL'NOE]]/URI$ определяются из условия URI[[http://libmeta.ru/me/relation/274_13_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/274_12_DIFFERENTsIAL'NOE]]/URI.
+
+Большинство URI[[http://libmeta.ru/me/relation/274_11_DIFFERENTsIAL'NOE]]/URI методов решения обыкновенных д. у. реализовано в виде библиотечных URI[[http://libmeta.ru/me/relation/274_10_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/274_9_DIFFERENTsIAL'NOE]]/URI.
+
+Кроме аналитических и URI[[http://libmeta.ru/me/relation/274_8_DIFFERENTsIAL'NOE]]/URI методов для URI[[http://libmeta.ru/me/relation/274_7_DIFFERENTsIAL'NOE]]/URI решения обыкновенных д. у. применяются URI[[http://libmeta.ru/me/relation/274_6_DIFFERENTsIAL'NOE]]/URI. URI[[http://libmeta.ru/me/relation/274_5_DIFFERENTsIAL'NOE]]/URI, напр. метод URI[[http://libmeta.ru/me/relation/274_4_DIFFERENTsIAL'NOE]]/URI, URI[[http://libmeta.ru/me/relation/274_3_DIFFERENTsIAL'NOE]]/URI с построением поля направлений, определяемого д. у. Применяются также аналоговые вычислительные машины и другие моделирующие устройства.</text>
+  <text_orig>п р и б л и Ж е н ы е м е т о д ы н и я - методы получения аналитич. выражений (формул), либо численных значений, приближающих с той или иной степенью точности искомое частное решение диффференциального уравнения (д. у.) или системы для одного или нескольких значений аргумента. Важность приближенных методов решения д. у. обусловливается тем, что точные решения в виде аналитич. выражений получаются лишь для немногих типов д. у.
+
+Одним из старейших методов приближенного решения обыкновенных д. у. является метод разложения в ряд Тейлора. Согласно этому методу решение уравнения
+
+\[
+y^{\prime}=f(x, y)
+\]
+
+с начальным условием
+
+\[
+y\left(x_{0}\right)=y_{0}
+\]
+
+приближается отрезком ряда Тейлора
+
+\[
+y(x) \approx \sum_{k=0}^{n} \frac{y^{(k)}\left(x_{0}\right)}{k !}\left(x-x_{0}\right)^{k} .
+\]
+
+Производные $y^{(k)}\left(x_{0}\right)$ выражаются через $f(x, y)$ и ее частные производные:
+
+\[
+y^{\prime}=f(x, y), \quad y^{\prime \prime}=f_{x}^{\prime}(x, y)+f_{y}^{\prime}(x, y) y^{\prime},
+\]
+
+$y^{\prime \prime \prime}=f_{x x}^{\prime \prime}(x, y)+2 f_{x y}^{\prime \prime}(x, y) y^{\prime}+f_{y y}^{\prime \prime}(x, y) y^{\prime 2}+f_{y}^{\prime}(x, y) y^{\prime \prime}$ и т. д. Погрешность метода пропорциональна $\left(x-x_{0}\right)^{n+1}$. При больших значениях $x-x_{0}$ погрешность медленно стремится к нулю при $n \rightarrow \infty$, а если значение $x-x_{0}$ превосходит значение радиуса сходимости ряда Тейлора, то погрешность вообще не стремится к нулю при $n \rightarrow \infty$. Это обстоятельство, а также необходимость вычисления большого числа частных производных резко ограничивают область применения метода. Обычно метод разложения в ряд Тейлора, так же как и методы разложения в ряды более общего вида, применяют для нахождения приближенного решения в виде аналитич. выражения. $K$ методам, применяемым для этой же цели, относятся Чаплыгина метод, использующий дифференциальные неравенства, и последовательных прибли- жений метод. Эти методы применяются в основном в теоретич. исследования и редко используются для шолучения численных решений д. у. в практич. расчетах.
+
+В приложения ч часто используются асимптотич. методы приближенного решения Д. у., основанные на выделении в решаемом уравнении главных членов и членов, малых по сравнению с главными. Примером может служить малого параметра метод для уравнения $y^{\prime}=f(x, y ; \mu)$. Асимптотич. методы используются как для получения аналитич. выражений, приближающих решение, так и для исследований качественного поведения решений.
+
+Наиболее распространенными методами численного решения д. у. являются методы, в к-рых решение итется в виде таблицы приближенных значений искомой функции $y(x)$ для ряда значений аргумента $x$ из отрезка $x_{0} \leqslant x \leqslant x_{0}+X$. Напр., пусть ищется решение уравнения $y=f(x, y)$ с начальным условием $y\left(x_{0}\right)=y_{0}$ на отрезке $x_{0} \leqslant x \leqslant x_{0}+X$ в предположении, что решение вычисляется для значений аргумента
+
+\[
+x_{p}=x_{0}+p h, p=0,1, \ldots, N, h=X / N \text {; }
+\]
+
+значения $x_{p}$ наз. у з л а и, а величина $h-$ III aг о м; через $y_{p}$ обозначено значение приближенного решения в узле $x_{p}$.
+
+Один из простейших численных методов - Эйлера метод основан на приближенном вычислении в тождестве
+
+\[
+y_{p+1}=y_{p}+\int_{x_{p}}^{x_{p+1}} f(x, y) d x,
+\]
+
+квадратуру по формуле прямоугольников:
+
+\[
+y_{p+1}=y_{p}+h f\left(x_{p}, y_{p}\right) \text {. }
+\]
+
+Погрешность метода Эйлера пропорциональна $h^{2}$. Приближая интеграл
+
+\[
+\int_{x_{p}}^{x_{p+1}} f(x, y) d x
+\]
+
+более точными квадратурными формулами, можно получить более точные численные методы. Напр., если воснользоваться для приближения (1) формулой трапеций, то
+
+\[
+y_{p+1}=y_{p}+\frac{h}{2}\left(f\left(x_{p}, y_{p}\right)+f\left(x_{p+1}, y_{n+1}\right)\right) .
+\]
+
+Обычно это уравнение неразрешимо относительно $y_{p+1}$. Для его решения можно воспользоваться итерационными методами, взяв в качестве начального приближения значение $y_{p+1}$, полученное по методу Эйлера. Одна итерация приводит к следующим формулам:
+
+\[
+y_{p+1}=y_{p}+\frac{h}{2}\left(k_{1}\left(x_{p}, y_{p}\right)+k_{2}\left(x_{p}, y_{p}\right)\right) \text {, }
+\]
+
+где
+
+\[
+k_{1}\left(x_{p}, y_{p}\right)=f\left(x_{p}, y_{p}\right)
+\]
+
+и
+
+\[
+k_{2}\left(x_{p}, y_{p}\right)=f\left(x_{p}+h, y_{p}+h k_{1}\left(x_{p}, y_{p}\right)\right) .
+\]
+
+Эти формулы имеют погрешность порядка $h^{3}$. Они относятся к семейству Рунае-Кутта методов. Один из наиболее распространенных методов этого семейства имеет порядок погрешности $h^{5}$. Методы Рунге - Кутта наз. одношаговыми, так как для вычисления $y_{p+1}$ достаточно знать лишь $y_{p}-$ значения приближенного решения на предыдущем шаге. Это обстоятельство позволяет применять формулы метода Рунге - Кутта для неравноотстоящих узлов, то есть в случае, когда разность $x_{p+1}-x_{p}$ непостоянна. При выборе шага интегрирования полезно иметь в распоряжении нек-рую характеристику погрешности метода на шаге. Для оценки погрешности на шаге часто используется прием, называемый ә к с т р а п о л я ц и е й п о Р и ч а р дс о н у: $y_{p+2}$ вычисляется дважды - при помощи двух шагов $h$ и одного шага $2 h$; полученные значения обозначаются через $y_{p+2}^{(1)}$ И $y_{p+2}^{(2)}$ соответственно; погрешность на шаге
+
+\[
+r_{p+2} \approx \frac{\left|y_{p+2}^{(2)}-y_{p+2}^{(1)}\right|}{2^{s}-1}
+\]
+
+где $s+1$ - порядок $r_{p+2}$ по $h$ (для метода Әйлера $s=1$, для формулы трапеций $s=2$ и т. д.). Другой способ оценки погрешности на шаге состоит в получении формул метода Рунге - Кутта с контрольным членом, к-рый с точностью до малых более высокого порядка приближает главный член погрешности метода на шаге. Разработаны так наз. неявные одношаговые методы, к-рые оказались весьма әфффективными для нек-рых классов задач.
+
+Помимо семейства одношаговых методов для численного решения д. у. используются также и многошаговые методы (или конечноразностные). В этих методах для определения $y_{p+1}$ требуются не только $y_{p}$, но и значения $y_{p-i}$ в нек-рых нескольких предыдущих узлах. Формулы $k$-шаговых методов имеют вид:
+
+\[
+\sum_{q=0}^{k} a_{-q} y_{p-q}-h \sum_{q=0}^{k} b-q f\left(x_{p-q}, y_{p-q}\right)=0
+\]
+
+где $a_{-i}, b_{-i}$ - постоянные, $a_{0} \neq 0$. Если $b_{0}=0$, соот.* ветствующий метод наз. э к с т р а п о л я ц и о н ны м, или я в ны м; если $b_{0} \neq 0,-$ Ин т е р п о л я ц и о нны м, или не я в н м, методом. Частным случаем многошаговых методов являются методы типа Адамса (см. Aдалса метод):
+
+\[
+y_{p}-y_{p-1}=h \sum_{q=0}^{k} b-q f\left(x_{p-q}, y_{p-q}\right) .
+\]
+
+Обычно вычисления ведут по паре $k$-шаговых формул, одна из к-рых явная, а другая неявная. Такие пары формул наз. м е т о д а м и П р ог но р е к ц и. В качестве примера формул прогноза и коррекции можно привести ф о р м улы $\mathrm{X}$ е м м нr a:
+
+\[
+y_{p+1}^{*}=\frac{2 y_{p-1}+y_{p-2}}{3}+\frac{h}{72}\left(191 f\left(x_{p}, y_{p}\right)-\right.
+\]
+
+$\left.-107 f\left(x_{p-1}, y_{p-1}\right)+109 f\left(x_{p-2}, y_{p-2}\right)-25 f\left(x_{p-3}, y_{p-3}\right)\right)$;
+
+$\tilde{y}_{p+1}=y_{p+1}^{*}-\frac{707}{750}\left(y_{p}^{*}-y_{p}^{* *}\right)$,
+
+$y_{p+1}^{* *} \frac{2 y_{p-1}+y_{p-2}}{3}+\frac{h}{72}\left(25 f\left(x_{p+1}, \tilde{y}_{p+1}\right)+\right.$
+
+$\left.+91 f\left(x_{p}, y_{p}\right)+43 f\left(x_{p-1}, y_{p-1}\right)+9 f\left(x_{p-2}, y_{p-2}\right)\right)$.
+
+\[
+y_{p+1}=y_{p+1}^{* *}+\frac{43}{750}\left(y_{p+1}^{*}-y_{p+1}^{* *}\right) \text {, }
+\]
+
+имеющие на шаге погрешность порядка $h^{6}$. При счете по формулам Хемминга сначала вычисляется «прогноз&quot; $y_{p+1}^{*}$, затем - «Поправка» $\tilde{y}_{p+1}$, затем - «коррекция» $y_{p+1}^{* *}$ и, наконец,- приближенное решение $y_{p+1} \cdot$ IIтермера (см. IIIтермера метод), особөнно удобныө для уравнений вида
+
+\[
+y^{\prime \prime}=f(x, y)
+\]
+
+они имеют вид:
+
+$\Delta^{2} y_{p+1}=h^{2} f\left(x_{p}, y_{p}\right)+\frac{h^{2}}{12} \sum_{q=2}^{k} b_{-q} \Delta^{q} f\left(x_{p-q}, y_{p-q}\right)$ (я в ная фо р у л а III терме р а) и $\Delta^{2} y_{p-1}=h^{2} f\left(x_{p}, y_{p}\right)+\frac{h^{2}}{2} \sum_{q=1}^{k} c_{-q-1} \Delta^{q+1} f\left(x_{p-q}, y_{p-q}\right)$ (нея вная формула Ш терм ер а). В формулах Штермера
+
+\[
+\begin{gathered}
+b_{-2}=1, b_{-3}=1, b_{-4}=\frac{19}{20}, \ldots ; c_{-2}=1, c_{-3}=0, \\
+c_{-4}=-\frac{1}{120}, \ldots ;
+\end{gathered}
+\]
+
+$\Delta^{q}(f)$ - конечная разность порядка $q$.
+
+Применение многошаговых методов возможно лишь в случае, если известны значения решения в $k$ первых узлах. Для нахождения этих значений обычно пользуются одношаговыми методами, погрешность к-рых пропорциональна соответствующей степени $h$.
+
+Иногда для вычисления $y_{p-q}$ используется несколько предшествующих значений $y_{p-q}$, как в многошаговых методах, но в то же время на каждом шаге производится несколько вычислений правой части, как в методах Рунге - Кутта.
+
+Решение краевых задач для обыкновенных д. у. обычно сводится к решению нескольких задач с начальными условиями. Простейшим методом такого рода является стрельбы метод, применяемый как к линейным, так и к нелинейным краевым задачам. Пусть, напр., требуется решить краевую задачу для одного уравнения 2-го порядка:
+
+\[
+y^{\prime \prime}=f\left(x, y, y^{\prime}\right), \quad y(0)=a, \quad y(l)=b .
+\]
+
+Полагая $y^{\prime}(0)=c$, можно решить задачу с начальным условием
+
+\[
+y^{\prime \prime}=f\left(x, y, y^{\prime}\right), \quad y(0)=a, \quad y^{\prime}(0)=c,
+\]
+
+на отрезке $0 \leqslant x \leqslant l$ и вычислить значение $y(l, c)$. Из условия $y\left(l, c_{0}\right)=b$ определяется $c_{0}$. Тогда решение краевой задачи будет совпадать с решением задачи с начальными условиями $y(0)=a, y^{\prime}(0)=c_{0}$. Корень $c_{0}$ уравнения $y(l, c)=b$ обычно ищется каким-либо приближенным методом и его нахождение связано с многократным решением задачи с начальными условиями (2). Метод стрельбы часто неустойчив к вычислительной погрешности.
+
+Для линейных краевых задач часто применяют прогонки метод, при к-ром решение краевой задачи для уравнения 2-го порядка сводится к решению трех задач с начальным условием для уравнений 1-го порядка. Напр., пусть решается краевая задача
+
+\[
+y^{\prime \prime}=p(x) y+f, \quad y^{\prime}(0)=a_{0} y(0)+b_{0}, \quad y^{\prime}(l)=a_{1} y(l)+b_{1} .
+\]
+
+Подбираются функции $a(x)$ и $b(x)$ такие, что $y^{\prime}(x)=$ $=a(x) y(x)+b(x)$ при всех $0 \leqslant x \leqslant l$. Эти функции могут быть получены как решения задач с начальными условиями
+
+\[
+a^{\prime}(x)+a^{2}(x)=p(x), \quad a(0)=a_{0}
+\]
+
+и
+
+\[
+b^{\prime}(x)+a(x) b(x)=f(x), \quad b(0)=b_{0} .
+\]
+
+Решение этих задач наз. п р я м о й п р о г о н к о й. В результате прямой прогонки получаются два условия для определения $y(l)$ и $y^{\prime}(l)$ :
+
+\[
+y^{\prime}(l)=a_{1} y(l)+b_{1} \quad \text { и } \quad y^{\prime}(l)=a(l) y(l)+b(l) .
+\]
+
+Из этих условий находится $y(l)=y_{l}$, после чего решение $\boldsymbol{y}(k)$ исходной краевой задачи получается как решение задачи с начальным условием
+
+\[
+y^{\prime}(x)=a(x) y(x)+b(x), y(l)=y_{l}
+\]
+
+на отрезке $0 \leqslant x \leqslant l$ - так наз. о б $\mathrm{p}$ а т н а я п р ог о н к а. Методы стрельбы и прогонки применимы для решіения краевых задач в случае систем д. у. В вы- числительной практике широко используются разностные аналоги этих методов.
+
+Для решения нелинейных краевых задач, кроме метода стрельбы, используют методы линеаризации в сочетании с методом прогонки. Наиболее распространенным методом этого класса является Ньютона метод.
+
+При решении краевых задач применяются также и различные вариационные методы: Ритца метод, Галеркина метод и др. Вариационные методы сводят решение краевых задач к минимизации нек-рого функционала; приближение к решению ищется в задаваемом виде
+
+\[
+y(x)=g\left(a_{1}, \ldots, a_{n}, x\right) \text {; }
+\]
+
+параметры $a_{1}, \ldots, a_{n}$ определяются из условия минимума функционала.
+
+Большинство численных методов решения обыкновенных д. у. реализовано в виде библиотечных программ ЭВМ.
+
+Кроме аналитических и численных методов для приближенного решения обыкновенных д. у. применяются графич. методы, напр. метод изоклин, связанный с построением поля направлений, определяемого д. у. Применяются также аналоговые вычислительные машины и другие моделирующие устройства.
+
+Лит.: [1] Б а х в а л о в Н. С., Численные методы, М., 1973; [2] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, т. 2, 2 изд., М., 1962; [3] Мих лин С. Г.,См о лиц и и й интегральных уравнений, М., 1965; [4] м о и с е е в H. H., Численные метопы в теории оптимальных систем, М., 1971; [5] М и л н В. Э., Численное решение дифференциальных уравнений, пер. с англ., М., 1955; [6] К о л л а т ц Л., Численные м., 1953; [7] Х е м м и н г Р. В., Численные методы..., пер. с англ., 2 изд., М., 1972; [8] Г о д у н о в С. К., Р я б е н и к и й К. о л л а т ц Л., Задачи на собственные значения..., пер. с нем., М., 1968 .</text_orig>
+</article>

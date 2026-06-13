@@ -1,0 +1,320 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/242_STOHASTIChESKAJa" alphabetic_pos="242">
+  <title>СТОХАСТИЧЕСКАЯ АППРОКСИМАЦИЯ</title>
+  <authors>
+    <author>P. З. Хасьминский</author>
+  </authors>
+  <pages>
+    <start>119</start>
+    <end>119</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] В а з а н М., Стохастическая аптроксимация, пер. с англ., М., 1972; [2] Н'е в е л в с о н М. Б., Х а с ь м и нс к и й P. З., Стохастическая аппроксимация и рекуррентное оценивание, М., 1972; [3] Цы п п и н Я. З., Адаптация и обувы теории обучающих систем, М., 1970.</literature_orig>
+    <unit>
+      <author>Вазан М.</author>
+      <title>Стохастическая аптроксимация</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Н'евелвсон М. Б.</author>
+      <author>Хасьминский P. З.</author>
+      <title>Стохастическая аппроксимация и рекуррентное оценивание</title>
+      <publication>М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Цыппин Я. З.</author>
+      <title>Адаптация и обувы теории обучающих систем</title>
+      <publication>М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/242_1_STOHASTIChESKAJa">X_{n+1}=X_{n}+a_{n}\left(Y_{n}\left(X_{n}\right)-\alpha\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_2_STOHASTIChESKAJa">X_{n+1}-X_{n}=\left[Y_{n}\left(X_{n}+C_{n}\right)-Y_{n}\left(X_{n}-C_{n}\right)\right] / 2 C_{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_3_STOHASTIChESKAJa">\begin{gathered}a_{n}&gt;0, \sum c_{n}=\infty, c_{n}&gt;0, \\\sum a_{n} c_{n}&lt;\infty, \sum a_{n}^{2} \mid c_{n}^{2}&lt;\infty, c_{n} \longrightarrow 0 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_4_STOHASTIChESKAJa">d X(t)=a(t) d Y(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_5_STOHASTIChESKAJa">d Y(t)=R(X(t)) d t+\sigma(X(t), t) d w(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_6_STOHASTIChESKAJa">a_{n}=a n^{-1}, Y_{n}\left(X_{n}\right)=R\left(X_{n}\right)+G\left(n, X_{n}, \omega\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_7_STOHASTIChESKAJa">\begin{gathered}R^{\prime}\left(x_{0}\right)&lt;0, a R^{\prime}\left(x_{0}\right)+\frac{1}{2}&lt;0, \\\mathrm{EG}^{2}(n, x, \omega) \longrightarrow S_{0}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_8_STOHASTIChESKAJa">A=a \frac{\partial R}{\partial x}\left(x_{0}\right)+\frac{1}{2} I</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_9_STOHASTIChESKAJa">\mathrm{E} G(n, x, \omega) G^{*}(n, x, \omega)=S(n, x) \longrightarrow S_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_10_STOHASTIChESKAJa">S=a^{2} \int_{0}^{\infty} \exp (A t) S_{0} \exp \left(A^{*} t\right) d t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/242_11_STOHASTIChESKAJa">\theta_{n+1}-\theta_{n}=\frac{1}{n} I^{-1}\left(\theta_{n}\right) \operatorname{grad}_{\theta} \ln f\left(X_{n+1}, \theta_{n}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_1_STOHASTIChESKAJa">y_{n}\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_2_STOHASTIChESKAJa">r(x), x \in</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_3_STOHASTIChESKAJa">\in \mathbb{R}^{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_4_STOHASTIChESKAJa">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_5_STOHASTIChESKAJa">r(x)=\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_6_STOHASTIChESKAJa">\sum a_{n}=\infty, \sum a_{n}^{2}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_7_STOHASTIChESKAJa">r(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_8_STOHASTIChESKAJa">|r(x)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_9_STOHASTIChESKAJa">\mathbf{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_10_STOHASTIChESKAJa">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_11_STOHASTIChESKAJa">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_12_STOHASTIChESKAJa">r(x)=\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_13_STOHASTIChESKAJa">y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_14_STOHASTIChESKAJa">r(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_15_STOHASTIChESKAJa">y_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_16_STOHASTIChESKAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_17_STOHASTIChESKAJa">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_18_STOHASTIChESKAJa">x_{\max }</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_19_STOHASTIChESKAJa">r(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_20_STOHASTIChESKAJa">r^{\prime}(x)\left(x-x_{\max }\right)&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_21_STOHASTIChESKAJa">x \neq x_{\max }</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_22_STOHASTIChESKAJa">|x| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_23_STOHASTIChESKAJa">y_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_24_STOHASTIChESKAJa">w(t)-в u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_25_STOHASTIChESKAJa">x_{n}-x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_26_STOHASTIChESKAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_27_STOHASTIChESKAJa">x_{n} \rightarrow x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_28_STOHASTIChESKAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_29_STOHASTIChESKAJa">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_30_STOHASTIChESKAJa">n \rightarrow \infty, x \rightarrow x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_31_STOHASTIChESKAJa">0, a^{2} S \mid\left(-2 a R^{\prime}\left(x_{0}\right)-1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_32_STOHASTIChESKAJa">z_{n}=\sqrt{n}\left(x_{n}-x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_33_STOHASTIChESKAJa">a_{0}=-\left[R^{\prime}\left(x_{0}\right)\right]^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_34_STOHASTIChESKAJa">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_35_STOHASTIChESKAJa">r(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_36_STOHASTIChESKAJa">a=a(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_37_STOHASTIChESKAJa">a_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_38_STOHASTIChESKAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_39_STOHASTIChESKAJa">n \rightarrow \infty, x \rightarrow x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_40_STOHASTIChESKAJa">x_{n} \rightarrow x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_41_STOHASTIChESKAJa">z_{n}=\sqrt{n}\left(x_{n}-x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_42_STOHASTIChESKAJa">z_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_43_STOHASTIChESKAJa">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_44_STOHASTIChESKAJa">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_45_STOHASTIChESKAJa">f(x, \theta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_46_STOHASTIChESKAJa">x_{1}, \ldots, X_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_47_STOHASTIChESKAJa">(\theta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_48_STOHASTIChESKAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/242_49_STOHASTIChESKAJa">\theta</formula>
+  </formulas_aux>
+  <relations n="12">
+    <relation uri="http://libmeta.ru/me/relation/242_1_STOHASTIChESKAJa">
+      <rel_text>Мартинаал</rel_text>
+      <target>http://libmeta.ru/me/article/572_MARTINGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_2_STOHASTIChESKAJa">
+      <rel_text>обобщения процедур</rel_text>
+      <target>http://libmeta.ru/me/article/13_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_3_STOHASTIChESKAJa">
+      <rel_text>модификации</rel_text>
+      <target>http://libmeta.ru/me/article/743_MODIFIKATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_4_STOHASTIChESKAJa">
+      <rel_text>экстремума</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_5_STOHASTIChESKAJa">
+      <rel_text>регрессии</rel_text>
+      <target>http://libmeta.ru/me/article/1012_REGRESSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_6_STOHASTIChESKAJa">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_7_STOHASTIChESKAJa">
+      <rel_text>процедур</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_8_STOHASTIChESKAJa">
+      <rel_text>непрерывного</rel_text>
+      <target>http://libmeta.ru/me/article/957_NEPRERYVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_9_STOHASTIChESKAJa">
+      <rel_text>процедура</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_10_STOHASTIChESKAJa">
+      <rel_text>параметра</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_11_STOHASTIChESKAJa">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/me/article/316_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/242_12_STOHASTIChESKAJa">
+      <rel_text>матрица</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+  </relations>
+  <text>метод решения класса задач статистич. оценивания, в к-ром новое значение оценки представляет собой поправку к уже имеющейся оценке, основанную на новом наблюдении. Первая процедура С. а. была предложена в 1951 Х. Роббинсом (h. Robbins) и C. Монро (s. Monre).
+
+Пусть каждое измерение $URI[[http://libmeta.ru/me/formula/aux/242_1_STOHASTIChESKAJa]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/242_2_STOHASTIChESKAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/242_3_STOHASTIChESKAJa]]/URI$, в точке $URI[[http://libmeta.ru/me/formula/aux/242_4_STOHASTIChESKAJa]]/URI$ содержит случайную ошибку с нулевым средним. П р о д е д у р а С. а. Р о б б и н с ам о н р о для нахождения корня уравнения $URI[[http://libmeta.ru/me/formula/aux/242_5_STOHASTIChESKAJa]]/URI$ имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_1_STOHASTIChESKAJa]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/242_6_STOHASTIChESKAJa]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/242_7_STOHASTIChESKAJa]]/URI$, напр., убывает, $URI[[http://libmeta.ru/me/formula/aux/242_8_STOHASTIChESKAJa]]/URI$ растет не быстрее, чем линейная функция, $URI[[http://libmeta.ru/me/formula/aux/242_9_STOHASTIChESKAJa]]/URI$ случайные ошибки независимы, то $URI[[http://libmeta.ru/me/formula/aux/242_10_STOHASTIChESKAJa]]/URI$ стремится к корню $URI[[http://libmeta.ru/me/formula/aux/242_11_STOHASTIChESKAJa]]/URI$ уравнения $URI[[http://libmeta.ru/me/formula/aux/242_12_STOHASTIChESKAJa]]/URI$ с вероятностью 1 и в среднем квадратическом (см. [1], [2]). Из (1) видно, что процедура С. а. рекуррентна, т. е. получение нового значения оценки возможно без запоминания старых измерений $URI[[http://libmeta.ru/me/formula/aux/242_13_STOHASTIChESKAJa]]/URI$, и удобна, когда неизвестно заранее, в какой момент потребуется представление оценки - она формируется непрерывно на основании наблюдений, имеющихся к данному моменту. Эти черты сближают С. а. с рекуррентными фильтрами и обусловливают популярность С. а. в теоретических и прикладных работах. Процедура (1) непосредственно обобщается на многомерный случай.
+
+Другая процедура С. а., применимая для нахождения точки максимума функции регрессии $URI[[http://libmeta.ru/me/formula/aux/242_14_STOHASTIChESKAJa]]/URI$, принадлежит Дж. Киферу (j. Kiefer) и Дж. Вольфовицу (j. Wolfowitz). Пусть $URI[[http://libmeta.ru/me/formula/aux/242_15_STOHASTIChESKAJa]]/URI$ - наблюдение в точке $URI[[http://libmeta.ru/me/formula/aux/242_16_STOHASTIChESKAJa]]/URI$. Тогда пр о ц д у а С. а. К и ф е р а - В о лф о в и ц а имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_2_STOHASTIChESKAJa]]/URI
+\]
+
+Доказывается, что $URI[[http://libmeta.ru/me/formula/aux/242_17_STOHASTIChESKAJa]]/URI$ сходится к точке максимума $URI[[http://libmeta.ru/me/formula/aux/242_18_STOHASTIChESKAJa]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/242_19_STOHASTIChESKAJa]]/URI$, если, напр., $URI[[http://libmeta.ru/me/formula/aux/242_20_STOHASTIChESKAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/242_21_STOHASTIChESKAJa]]/URI$, функция регрессии и дисперсия случайных ошибок растут не слишком быстро при $URI[[http://libmeta.ru/me/formula/aux/242_22_STOHASTIChESKAJa]]/URI$ и выполнены условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_3_STOHASTIChESKAJa]]/URI
+\]
+
+Процедура С. а. Кифера - Вольфовица также допускает многомерное обобщение: вместо правой части в (2) следует подставить приближенное значение градиента функции $URI[[http://libmeta.ru/me/formula/aux/242_23_STOHASTIChESKAJa]]/URI$.
+
+Процедуры С. а. естественным образом обобщаются на непрерывный процесс наблюдений. Напр., если процесс наблюдений возмущается гауссовским белым шумом, то аналог процедуры (1) имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_4_STOHASTIChESKAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_5_STOHASTIChESKAJa]]/URI
+\]
+
+- диффференциал наблюдаемого процесса, $URI[[http://libmeta.ru/me/formula/aux/242_24_STOHASTIChESKAJa]]/URI$ неровский процесс. Условия сходимости непрерывных процедур аналогичны приведенным выше условиям для дискретного времени (см. [2]). Основным инструментом доказательства сходимости процедур С. а. является теорема о сходимости неотрицательных супермартингалов (см. URI[[http://libmeta.ru/me/relation/242_1_STOHASTIChESKAJa]]/URI).
+
+Изучалось предельное поведение при соответствующей нормировке разности $URI[[http://libmeta.ru/me/formula/aux/242_25_STOHASTIChESKAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/242_26_STOHASTIChESKAJa]]/URI$. Пусть в (1)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_6_STOHASTIChESKAJa]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/242_27_STOHASTIChESKAJa]]/URI$ почти наверное при $URI[[http://libmeta.ru/me/formula/aux/242_28_STOHASTIChESKAJa]]/URI$. При нек-рых ограничения $URI[[http://libmeta.ru/me/formula/aux/242_29_STOHASTIChESKAJa]]/URI$, основными из к-рых являются требования
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_7_STOHASTIChESKAJa]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/242_30_STOHASTIChESKAJa]]/URI$, доказывается асимштотич. нормальность с параметрами $URI[[http://libmeta.ru/me/formula/aux/242_31_STOHASTIChESKAJa]]/URI$ величины $URI[[http://libmeta.ru/me/formula/aux/242_32_STOHASTIChESKAJa]]/URI$. Наименышая дисперсия предельного распределения достигается при $URI[[http://libmeta.ru/me/formula/aux/242_33_STOHASTIChESKAJa]]/URI$. Такой выбор $URI[[http://libmeta.ru/me/formula/aux/242_34_STOHASTIChESKAJa]]/URI$ невозможен, т. к. функция $URI[[http://libmeta.ru/me/formula/aux/242_35_STOHASTIChESKAJa]]/URI$ и ее производная неизвестны наблюдателю. Однако в ряде работ построены адаптивные процедуры, в к-рых $URI[[http://libmeta.ru/me/formula/aux/242_36_STOHASTIChESKAJa]]/URI$ зависит от наблюдений и приближается к $URI[[http://libmeta.ru/me/formula/aux/242_37_STOHASTIChESKAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/242_38_STOHASTIChESKAJa]]/URI$. Эти процедуры обладают асимптотически оптимальными в смысле асимптотич. дисперсии свойствами.
+
+Результаты об асимптотич. нормальности известны и в многомерном случае. Пусть все корни матрицы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_8_STOHASTIChESKAJa]]/URI
+\]
+
+имеют отрицательные действительные части (i - единичная матрица),
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_9_STOHASTIChESKAJa]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/242_39_STOHASTIChESKAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/242_40_STOHASTIChESKAJa]]/URI$ почти наверное, и выполнены нек-рые другие не слишком ограничительные условия. Тогда вектор $URI[[http://libmeta.ru/me/formula/aux/242_41_STOHASTIChESKAJa]]/URI$ асимптотически нормален с нулевым средним и ковариационной матрицей
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_10_STOHASTIChESKAJa]]/URI
+\]
+
+Приведенный выше результат об асимптотически оптимальной процедуре Роббинса - Монро также обобщен на многомерный случай. Доказано, что случайный процесс $URI[[http://libmeta.ru/me/formula/aux/242_42_STOHASTIChESKAJa]]/URI$ сходится к гауссовскому марковскому процессу в логарифммич. масштабе. При нек-рых условиях доказана сходимость моментов случайной величины $URI[[http://libmeta.ru/me/formula/aux/242_43_STOHASTIChESKAJa]]/URI$ к моментам предельного закона.
+
+Процедуры типа С. а. удобны в непараметрич. ситуации, т. к. они применимы при наличии скудной априорной информации о функции регрессии. Однако они применимы и для оценки параметра $URI[[http://libmeta.ru/me/formula/aux/242_44_STOHASTIChESKAJa]]/URI$ плотности $URI[[http://libmeta.ru/me/formula/aux/242_45_STOHASTIChESKAJa]]/URI$ по независимым наблюдениям $URI[[http://libmeta.ru/me/formula/aux/242_46_STOHASTIChESKAJa]]/URI$ с этой плотностью. При нек-рых ограничениях рекуррентная процедура
+
+\[
+URI[[http://libmeta.ru/me/formula/main/242_11_STOHASTIChESKAJa]]/URI
+\]
+
+(i $URI[[http://libmeta.ru/me/formula/aux/242_47_STOHASTIChESKAJa]]/URI$ - информационная URI[[http://libmeta.ru/me/relation/242_12_STOHASTIChESKAJa]]/URI Фишера URI[[http://libmeta.ru/me/relation/242_11_STOHASTIChESKAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/242_48_STOHASTIChESKAJa]]/URI$ ) является состоятельной и асимптотически әффективной рекуррентной оценкой URI[[http://libmeta.ru/me/relation/242_10_STOHASTIChESKAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/242_49_STOHASTIChESKAJa]]/URI$. Аналогичная URI[[http://libmeta.ru/me/relation/242_9_STOHASTIChESKAJa]]/URI возможна и в случае URI[[http://libmeta.ru/me/relation/242_8_STOHASTIChESKAJa]]/URI времени.
+
+Изучалось поведение URI[[http://libmeta.ru/me/relation/242_7_STOHASTIChESKAJa]]/URI С. а. в случае, когда URI[[http://libmeta.ru/me/relation/242_6_STOHASTIChESKAJa]]/URI URI[[http://libmeta.ru/me/relation/242_5_STOHASTIChESKAJa]]/URI имеет несколько нулей (несколько точек URI[[http://libmeta.ru/me/relation/242_4_STOHASTIChESKAJa]]/URI), различные URI[[http://libmeta.ru/me/relation/242_3_STOHASTIChESKAJa]]/URI и URI[[http://libmeta.ru/me/relation/242_2_STOHASTIChESKAJa]]/URI С. а.</text>
+  <text_orig>метод решения класса задач статистич. оценивания, в к-ром новое значение оценки представляет собой поправку к уже имеющейся оценке, основанную на новом наблюдении. Первая процедура С. а. была предложена в 1951 Х. Роббинсом (H. Robbins) и C. Монро (S. Monre).
+
+Пусть каждое измерение $Y_{n}\left(X_{n}\right)$ функции $R(x), x \in$ $\in \mathbb{R}^{1}$, в точке $X_{n}$ содержит случайную ошибку с нулевым средним. П р о д е д у р а С. а. Р о б б и н с аМ о н р о для нахождения корня уравнения $R(x)=\alpha$ имеет вид
+
+\[
+X_{n+1}=X_{n}+a_{n}\left(Y_{n}\left(X_{n}\right)-\alpha\right) .
+\]
+
+Если $\sum a_{n}=\infty, \sum a_{n}^{2}&lt;\infty$, функция $R(x)$, напр., убывает, $|R(x)|$ растет не быстрее, чем линейная функция, $\mathbf{a}$ случайные ошибки независимы, то $X_{n}$ стремится к корню $x_{0}$ уравнения $R(x)=\alpha$ с вероятностью 1 и в среднем квадратическом (см. [1], [2]). Из (1) видно, что процедура С. а. рекуррентна, т. е. получение нового значения оценки возможно без запоминания старых измерений $Y_{n}$, и удобна, когда неизвестно заранее, в какой момент потребуется представление оценки - она формируется непрерывно на основании наблюдений, имеющихся к данному моменту. Эти черты сближают С. а. с рекуррентными фильтрами и обусловливают популярность С. а. в теоретических и прикладных работах. Процедура (1) непосредственно обобщается на многомерный случай.
+
+Другая процедура С. а., применимая для нахождения точки максимума функции регрессии $R(x)$, принадлежит Дж. Киферу (J. Kiefer) и Дж. Вольфовицу (J. Wolfowitz). Пусть $Y_{n}(x)$ - наблюдение в точке $x$. Тогда пр о ц д у а С. а. К и ф е р а - В о лф о в и ц а имеет вид
+
+\[
+X_{n+1}-X_{n}=\left[Y_{n}\left(X_{n}+C_{n}\right)-Y_{n}\left(X_{n}-C_{n}\right)\right] / 2 C_{n} .
+\]
+
+Доказывается, что $X_{n}$ сходится к точке максимума $x_{\max }$ функции $R(x)$, если, напр., $R^{\prime}(x)\left(x-x_{\max }\right)&lt;0$ при $x \neq x_{\max }$, функция регрессии и дисперсия случайных ошибок растут не слишком быстро при $|x| \rightarrow \infty$ и выполнены условия
+
+\[
+\begin{gathered}
+a_{n}&gt;0, \sum c_{n}=\infty, c_{n}&gt;0, \\
+\sum a_{n} c_{n}&lt;\infty, \sum a_{n}^{2} \mid c_{n}^{2}&lt;\infty, c_{n} \longrightarrow 0 .
+\end{gathered}
+\]
+
+Процедура С. а. Кифера - Вольфовица также допускает многомерное обобщение: вместо правой части в (2) следует подставить приближенное значение градиента функции $Y_{n}(x)$.
+
+Процедуры С. а. естественным образом обобщаются на непрерывный процесс наблюдений. Напр., если процесс наблюдений возмущается гауссовским белым шумом, то аналог процедуры (1) имеет вид
+
+\[
+d X(t)=a(t) d Y(t),
+\]
+
+где
+
+\[
+d Y(t)=R(X(t)) d t+\sigma(X(t), t) d w(t)
+\]
+
+- диффференциал наблюдаемого процесса, $w(t)-в u$ неровский процесс. Условия сходимости непрерывных процедур аналогичны приведенным выше условиям для дискретного времени (см. [2]). Основным инструментом доказательства сходимости процедур С. а. является теорема о сходимости неотрицательных супермартингалов (см. Мартинаал).
+
+Изучалось предельное поведение при соответствующей нормировке разности $X_{n}-x_{0}$ при $n \rightarrow \infty$. Пусть в (1)
+
+\[
+a_{n}=a n^{-1}, Y_{n}\left(X_{n}\right)=R\left(X_{n}\right)+G\left(n, X_{n}, \omega\right)
+\]
+
+и $X_{n} \rightarrow x_{0}$ почти наверное при $n \rightarrow \infty$. При нек-рых ограничения $\mathbf{x}$, основными из к-рых являются требования
+
+\[
+\begin{gathered}
+R^{\prime}\left(x_{0}\right)&lt;0, a R^{\prime}\left(x_{0}\right)+\frac{1}{2}&lt;0, \\
+\mathrm{EG}^{2}(n, x, \omega) \longrightarrow S_{0}
+\end{gathered}
+\]
+
+при $n \rightarrow \infty, x \rightarrow x_{0}$, доказывается асимштотич. нормальность с параметрами $0, a^{2} S \mid\left(-2 a R^{\prime}\left(x_{0}\right)-1\right)$ величины $z_{n}=\sqrt{n}\left(X_{n}-x_{0}\right)$. Наименышая дисперсия предельного распределения достигается при $a_{0}=-\left[R^{\prime}\left(x_{0}\right)\right]^{-1}$. Такой выбор $a$ невозможен, т. к. функция $R(x)$ и ее производная неизвестны наблюдателю. Однако в ряде работ построены адаптивные процедуры, в к-рых $a=a(n)$ зависит от наблюдений и приближается к $a_{0}$ при $n \rightarrow \infty$. Эти процедуры обладают асимптотически оптимальными в смысле асимптотич. дисперсии свойствами.
+
+Результаты об асимптотич. нормальности известны и в многомерном случае. Пусть все корни матрицы
+
+\[
+A=a \frac{\partial R}{\partial x}\left(x_{0}\right)+\frac{1}{2} I
+\]
+
+имеют отрицательные действительные части (I - единичная матрица),
+
+\[
+\mathrm{E} G(n, x, \omega) G^{*}(n, x, \omega)=S(n, x) \longrightarrow S_{0}
+\]
+
+при $n \rightarrow \infty, x \rightarrow x_{0}$ и $X_{n} \rightarrow x_{0}$ почти наверное, и выполнены нек-рые другие не слишком ограничительные условия. Тогда вектор $Z_{n}=\sqrt{n}\left(X_{n}-x_{0}\right)$ асимптотически нормален с нулевым средним и ковариационной матрицей
+
+\[
+S=a^{2} \int_{0}^{\infty} \exp (A t) S_{0} \exp \left(A^{*} t\right) d t .
+\]
+
+Приведенный выше результат об асимптотически оптимальной процедуре Роббинса - Монро также обобщен на многомерный случай. Доказано, что случайный процесс $Z_{n}$ сходится к гауссовскому марковскому процессу в логарифммич. масштабе. При нек-рых условиях доказана сходимость моментов случайной величины $X_{n}$ к моментам предельного закона.
+
+Процедуры типа С. а. удобны в непараметрич. ситуации, т. к. они применимы при наличии скудной априорной информации о функции регрессии. Однако они применимы и для оценки параметра $\theta$ плотности $f(x, \theta)$ по независимым наблюдениям $X_{1}, \ldots, X_{n}$ с этой плотностью. При нек-рых ограничениях рекуррентная процедура
+
+\[
+\theta_{n+1}-\theta_{n}=\frac{1}{n} I^{-1}\left(\theta_{n}\right) \operatorname{grad}_{\theta} \ln f\left(X_{n+1}, \theta_{n}\right)
+\]
+
+(I $(\theta)$ - информационная матрица Фишера плотности $f$ ) является состоятельной и асимптотически әффективной рекуррентной оценкой параметра $\theta$. Аналогичная процедура возможна и в случае непрерывного времени.
+
+Изучалось поведение процедур С. а. в случае, когда функция регрессии имеет несколько нулей (несколько точек экстремума), различные модификации и обобщения процедур С. а.
+
+Лит.: [1] В а з а н М., Стохастическая аптроксимация, пер. с англ., М., 1972; [2] Н'е в е л в с о н М. Б., Х а с ь м и нс к и й P. З., Стохастическая аппроксимация и рекуррентное оценивание, М., 1972; [3] Цы п п и н Я. З., Адаптация и обувы теории обучающих систем, М., 1970. P. З. Хасьминский</text_orig>
+</article>

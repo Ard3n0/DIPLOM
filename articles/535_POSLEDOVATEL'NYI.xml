@@ -1,0 +1,636 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/535_POSLEDOVATEL'NYI" alphabetic_pos="535">
+  <title>ПОСЛЕДОВАТЕЛЬНЫИ АНАЛИЗ</title>
+  <authors>
+    <author>Стати. Н. Ширяев</author>
+  </authors>
+  <pages>
+    <start>255</start>
+    <end>257</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] В а ль д А., Последовательный анализ, пер. с англ., М., 1960; [2] Iii и р я е в А. Н., Статистический последовательный анализ, М., 1976. А. Н.,</literature_orig>
+    <unit>
+      <author>Вальд А.</author>
+      <title>Последовательный анализ</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1960</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Iiiиряев А. Н.</author>
+      <title>Статистический последовательный анализ</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/535_1_POSLEDOVATEL'NYI">R^{\delta}(\pi)=\int_{\Theta} \mathrm{E}_{\theta} W(\tau, \theta, d) \pi(d \theta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_2_POSLEDOVATEL'NYI">g(x) \leqslant f(x), T f(x) \leqslant f(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_3_POSLEDOVATEL'NYI">\tau_{\varepsilon}=\inf \left\{n \geqslant 0: s\left(x_{n}\right) \leqslant g\left(x_{n}\right)+\varepsilon\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_4_POSLEDOVATEL'NYI">s(x)=\max \{g(x), T s(x)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_5_POSLEDOVATEL'NYI">s(x)=\lim _{n \rightarrow \infty} Q^{n} g(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_6_POSLEDOVATEL'NYI">Q g(x)=\max \{g(x), T g(x)\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_7_POSLEDOVATEL'NYI">\tau_{0}=\inf \left\{n \geqslant 0: s\left(x_{n}\right)=g\left(x_{n}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_8_POSLEDOVATEL'NYI">C=\{x: s(x)&gt;g(x)\}, \Gamma=\{x: s(x)=g(x)\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_9_POSLEDOVATEL'NYI">\tau_{0}=\inf \left\{n \geqslant 0: x_{n} \in \Gamma\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_10_POSLEDOVATEL'NYI">W_{1}(\theta, d)=\left\{\begin{array}{l}a, \theta=1, d=0, \\b, \theta=0, d=1, \\0, \text { в остальных случаях }\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_11_POSLEDOVATEL'NYI">W(\tau, \theta, d)=c \tau+W_{\mathbf{1}}(\theta, d),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_12_POSLEDOVATEL'NYI">R^{\delta}(\pi)=c \mathrm{E}_{\pi} \tau+a \alpha_{\pi}(\delta)+b \beta_{\pi}(\delta),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_13_POSLEDOVATEL'NYI">\alpha_{\pi}(\delta)=\mathrm{P}_{\pi}\{d=0 \mid \theta=1\}, \beta_{\pi}(\delta)=\mathrm{P}_{\pi}\{d=1 \mid \theta=0\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_14_POSLEDOVATEL'NYI">R^{\delta}(\pi)=E_{\pi}\left[c \tau+g\left(\pi_{\tau}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_15_POSLEDOVATEL'NYI">g(\pi)=\min (a \pi, b(1-\pi)) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_16_POSLEDOVATEL'NYI">\rho(\pi)=\min \{g(\pi), c+T \rho(\pi)\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_17_POSLEDOVATEL'NYI">\tau_{0}=\inf \left\{n \geqslant 0: \pi_{n} \in \Gamma\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_18_POSLEDOVATEL'NYI">\varphi=\frac{p_{1}\left(\xi_{1}\right) \ldots p_{1}\left(\xi_{n}\right)}{p_{0}\left(\xi_{1}\right) \ldots p_{0}\left(\xi_{n}\right)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_19_POSLEDOVATEL'NYI">C=\left\{\varphi: \frac{A}{1-A} \frac{1-\pi}{\pi}&lt;\varphi&lt;\frac{B}{1-B} \frac{1-\pi}{\pi}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_20_POSLEDOVATEL'NYI">\begin{gathered}\tau=\inf \left\{n \geqslant 0: \varphi_{n} \notin(a, b)\right\}, \\d=\left\{\begin{array}{l}1, \varphi_{\tau} \geqslant b, \\0, \varphi_{\tau} \leqslant a,\end{array}\right.\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_21_POSLEDOVATEL'NYI">E_{0} \tau^{*} \leqslant E_{0} \tau, E_{1} \tau^{*} \leqslant E_{1} \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_22_POSLEDOVATEL'NYI">\begin{aligned}&amp; \tau^{*}=\inf \left\{t \geqslant 0: \lambda_{t} \notin\left(a^{*}, b^{*}\right)\right\}, \\&amp; d^{*}=\left\{\begin{array}{l}1, \lambda_{\tau *} \geqslant b^{*}, \\0, \lambda_{\tau *} \leqslant a^{*},\end{array}\right.\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_23_POSLEDOVATEL'NYI">\frac{1}{\sqrt{2 \pi}} \int_{c_{\gamma}}^{\infty} e^{-x^{2} / 2} d x=\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_24_POSLEDOVATEL'NYI">\omega(x, y)=(1-x) \ln \frac{1-x}{y}+x \ln \frac{x}{1-y},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_25_POSLEDOVATEL'NYI">\frac{E_{0} \tau^{*}}{t(\alpha, \beta)}=2 \frac{\omega(\beta, \alpha)}{\left(c_{\alpha}+c_{\beta}\right)^{2}}, \quad \frac{E_{1} \tau^{*}}{t(\alpha, \beta)}=2 \frac{\omega(\alpha, \beta)}{\left(c_{\alpha}+c_{\beta}\right)^{2}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_26_POSLEDOVATEL'NYI">\frac{\mathrm{E}_{0} \tau^{*}}{t(\alpha, \beta)} \leqslant \frac{17}{30}, \frac{\mathrm{E}_{1} \tau^{*}}{t(\alpha, \beta)} \leqslant \frac{17}{30} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/535_27_POSLEDOVATEL'NYI">\lim _{\alpha \downarrow 0} \frac{E_{0} \tau^{*}}{t(\alpha, \alpha)}=\lim _{\alpha \downarrow 0} \frac{E_{1} \tau^{*}}{t(\alpha, \alpha)}=\frac{1}{4} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_1_POSLEDOVATEL'NYI">\xi_{1}, \xi_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_2_POSLEDOVATEL'NYI">f_{\theta}(x)=\mathrm{p}_{\theta}\left\{\xi_{1} \leqslant x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_3_POSLEDOVATEL'NYI">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_4_POSLEDOVATEL'NYI">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_5_POSLEDOVATEL'NYI">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_6_POSLEDOVATEL'NYI">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_7_POSLEDOVATEL'NYI">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_8_POSLEDOVATEL'NYI">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_9_POSLEDOVATEL'NYI">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_10_POSLEDOVATEL'NYI">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_11_POSLEDOVATEL'NYI">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_12_POSLEDOVATEL'NYI">\mathscr{f}_{n}=\sigma\left\{\omega: \xi_{1}, \ldots, \xi_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_13_POSLEDOVATEL'NYI">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_14_POSLEDOVATEL'NYI">\xi_{1}, \ldots ., \xi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_15_POSLEDOVATEL'NYI">\tau=\tau(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_16_POSLEDOVATEL'NYI">0,1, \ldots,+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_17_POSLEDOVATEL'NYI">\{\tau \leqslant n\} \in \mathscr{F}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_18_POSLEDOVATEL'NYI">n \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_19_POSLEDOVATEL'NYI">_{0}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_20_POSLEDOVATEL'NYI">=\{\varnothing, \Omega\})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_21_POSLEDOVATEL'NYI">\mathscr{f}_{\tau}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_22_POSLEDOVATEL'NYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_23_POSLEDOVATEL'NYI">a \cap\{\tau \leqslant n\} \in \mathscr{F}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_24_POSLEDOVATEL'NYI">n \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_25_POSLEDOVATEL'NYI">\mathscr{f}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_26_POSLEDOVATEL'NYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_27_POSLEDOVATEL'NYI">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_28_POSLEDOVATEL'NYI">d=d(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_29_POSLEDOVATEL'NYI">\mathscr{f}_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_30_POSLEDOVATEL'NYI">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_31_POSLEDOVATEL'NYI">\delta=(\tau, d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_32_POSLEDOVATEL'NYI">w(\tau, \theta, d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_33_POSLEDOVATEL'NYI">\mathrm{e}_{\theta} W(\tau, \theta, d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_34_POSLEDOVATEL'NYI">\delta^{*}=\left(\tau^{*}, d^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_35_POSLEDOVATEL'NYI">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_36_POSLEDOVATEL'NYI">\pi=\pi(d \theta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_37_POSLEDOVATEL'NYI">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_38_POSLEDOVATEL'NYI">\delta^{*}=\left(\tau^{*}, d^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_39_POSLEDOVATEL'NYI">r^{\delta^{*}}(\pi) \leqslant R^{\delta}(\pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_40_POSLEDOVATEL'NYI">w(\tau, \theta, d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_41_POSLEDOVATEL'NYI">c \tau+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_42_POSLEDOVATEL'NYI">+w_{1}(\theta, d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_43_POSLEDOVATEL'NYI">c \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_44_POSLEDOVATEL'NYI">w_{1}(\theta, d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_45_POSLEDOVATEL'NYI">d^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_46_POSLEDOVATEL'NYI">\tau *</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_47_POSLEDOVATEL'NYI">x=\left(x_{n}, \mathcal{F}_{n}, \mathrm{P}_{x}\right), n \geqslant 0, \quad x \in E,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_48_POSLEDOVATEL'NYI">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_49_POSLEDOVATEL'NYI">x_{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_50_POSLEDOVATEL'NYI">n, \sigma-а л г е б р а ~ \mathscr{F} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_51_POSLEDOVATEL'NYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_52_POSLEDOVATEL'NYI">\mathrm{p}_{x}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_53_POSLEDOVATEL'NYI">x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_54_POSLEDOVATEL'NYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_55_POSLEDOVATEL'NYI">g\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_56_POSLEDOVATEL'NYI">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_57_POSLEDOVATEL'NYI">\mathrm{e}_{x} g\left(x_{\tau}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_58_POSLEDOVATEL'NYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_59_POSLEDOVATEL'NYI">s(x)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_60_POSLEDOVATEL'NYI">=\sup E_{x g} g\left(x_{\tau}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_61_POSLEDOVATEL'NYI">s(x) \leqslant \mathrm{E}_{x} g\left(x_{\tau_{\varepsilon}}\right)+\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_62_POSLEDOVATEL'NYI">x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_63_POSLEDOVATEL'NYI">\varepsilon-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_64_POSLEDOVATEL'NYI">o</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_65_POSLEDOVATEL'NYI">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_66_POSLEDOVATEL'NYI">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_67_POSLEDOVATEL'NYI">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_68_POSLEDOVATEL'NYI">|g(x)| \leqslant c&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_69_POSLEDOVATEL'NYI">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_70_POSLEDOVATEL'NYI">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_71_POSLEDOVATEL'NYI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_72_POSLEDOVATEL'NYI">t f(x)=\mathrm{E}_{x} g\left(x_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_73_POSLEDOVATEL'NYI">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_74_POSLEDOVATEL'NYI">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_75_POSLEDOVATEL'NYI">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_76_POSLEDOVATEL'NYI">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_77_POSLEDOVATEL'NYI">\tau_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_78_POSLEDOVATEL'NYI">\mathrm{p}_{x}\left\{\tau_{0}&lt;\infty\right\}=1, x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_79_POSLEDOVATEL'NYI">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_80_POSLEDOVATEL'NYI">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_81_POSLEDOVATEL'NYI">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_82_POSLEDOVATEL'NYI">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_83_POSLEDOVATEL'NYI">1-\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_84_POSLEDOVATEL'NYI">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_85_POSLEDOVATEL'NYI">d=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_86_POSLEDOVATEL'NYI">h_{1}: \theta=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_87_POSLEDOVATEL'NYI">d=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_88_POSLEDOVATEL'NYI">\left.H_{0}: \theta=0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_89_POSLEDOVATEL'NYI">w_{1}(\theta, d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_90_POSLEDOVATEL'NYI">r^{\delta}(\pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_91_POSLEDOVATEL'NYI">p_{\boldsymbol{\pi}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_92_POSLEDOVATEL'NYI">^{-}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_93_POSLEDOVATEL'NYI">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_94_POSLEDOVATEL'NYI">\pi_{n}=\mathrm{p}\left\{\theta=1 \mid \mathscr{F}_{n}\right\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_95_POSLEDOVATEL'NYI">h_{1} ; \theta=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_96_POSLEDOVATEL'NYI">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_97_POSLEDOVATEL'NYI">\mathscr{f}_{n}=\sigma\left\{\omega: \xi_{1}, \ldots, \xi_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_98_POSLEDOVATEL'NYI">x_{n}=\left(n, \pi_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_99_POSLEDOVATEL'NYI">\rho(\pi)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_100_POSLEDOVATEL'NYI">=\inf _{\tau} R^{\delta}(\pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_101_POSLEDOVATEL'NYI">\rho(\pi), g(\pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_102_POSLEDOVATEL'NYI">t \rho(\pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_103_POSLEDOVATEL'NYI">0 \leqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_104_POSLEDOVATEL'NYI">\leqslant A&lt;B \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_105_POSLEDOVATEL'NYI">c=\{\pi: A&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_106_POSLEDOVATEL'NYI">&lt;\pi&lt;b\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_107_POSLEDOVATEL'NYI">\gamma=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_108_POSLEDOVATEL'NYI">=[0,1] \backslash(A, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_109_POSLEDOVATEL'NYI">\left(\pi_{0}=\pi\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_110_POSLEDOVATEL'NYI">p_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_111_POSLEDOVATEL'NYI">p_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_112_POSLEDOVATEL'NYI">f_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_113_POSLEDOVATEL'NYI">f_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_114_POSLEDOVATEL'NYI">d \mu=\frac{1}{2}\left(d F_{0}+d F_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_115_POSLEDOVATEL'NYI">\tau_{0}=\inf \left\{n \geqslant 0: \varphi_{n} \notin C\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_116_POSLEDOVATEL'NYI">\varphi_{\tau_{0}} \geqslant \frac{B}{1-B} \frac{1-\pi}{\pi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_117_POSLEDOVATEL'NYI">d=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_118_POSLEDOVATEL'NYI">h_{1}: \theta=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_119_POSLEDOVATEL'NYI">\varphi_{\tau_{0}} \leqslant \frac{A}{1-A} \frac{1-\pi}{\pi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_120_POSLEDOVATEL'NYI">h_{0}: \theta=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_121_POSLEDOVATEL'NYI">\delta=(\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_122_POSLEDOVATEL'NYI">\alpha(\delta)=p_{1}(d=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_123_POSLEDOVATEL'NYI">=0), \quad \beta(\delta)=P_{0}(d=1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_124_POSLEDOVATEL'NYI">\alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_125_POSLEDOVATEL'NYI">\beta&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_126_POSLEDOVATEL'NYI">\delta(\alpha, \beta)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_127_POSLEDOVATEL'NYI">\alpha(\delta) \leqslant \alpha, \beta(\delta) \leqslant \beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_128_POSLEDOVATEL'NYI">\mathrm{e}_{0} \tau&lt;\infty, \mathrm{E}_{1} \tau&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_129_POSLEDOVATEL'NYI">\alpha+\beta&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_130_POSLEDOVATEL'NYI">\delta=(\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_131_POSLEDOVATEL'NYI">d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_132_POSLEDOVATEL'NYI">\varphi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_133_POSLEDOVATEL'NYI">a=a^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_134_POSLEDOVATEL'NYI">b=b^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_135_POSLEDOVATEL'NYI">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_136_POSLEDOVATEL'NYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_137_POSLEDOVATEL'NYI">\delta^{*}=\left(\tau^{*}, d^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_138_POSLEDOVATEL'NYI">a=a^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_139_POSLEDOVATEL'NYI">b=b^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_140_POSLEDOVATEL'NYI">\delta(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_141_POSLEDOVATEL'NYI">\delta \in \Delta(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_142_POSLEDOVATEL'NYI">\delta^{*}=\left(\tau^{*}, d^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_143_POSLEDOVATEL'NYI">h_{0}: \theta=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_144_POSLEDOVATEL'NYI">h_{1}: 0=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_145_POSLEDOVATEL'NYI">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_146_POSLEDOVATEL'NYI">\xi_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_147_POSLEDOVATEL'NYI">\delta^{*}=\left(\tau^{*}, d^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_148_POSLEDOVATEL'NYI">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_149_POSLEDOVATEL'NYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_150_POSLEDOVATEL'NYI">\lambda_{t}=\ln \varphi_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_151_POSLEDOVATEL'NYI">\theta=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_152_POSLEDOVATEL'NYI">\theta=0) \varphi_{t}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_153_POSLEDOVATEL'NYI">=e^{\xi_{t}-\frac{1}{2} t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_154_POSLEDOVATEL'NYI">b^{*}=\ln \frac{1-\alpha}{\beta}, a^{*}=\ln \frac{\alpha}{1-\beta}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_155_POSLEDOVATEL'NYI">\tilde{\delta}=(\tilde{\tau}, \tilde{d})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_156_POSLEDOVATEL'NYI">c_{\gamma}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_157_POSLEDOVATEL'NYI">\mathrm{e}_{0} \tau^{*}=2 \omega(\alpha, \beta), \mathrm{E}_{1} \tau^{*}=2 \omega(\beta, \alpha), \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_158_POSLEDOVATEL'NYI">\alpha, \beta \leqslant 0,03</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/535_159_POSLEDOVATEL'NYI">\alpha=\beta</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/535_1_POSLEDOVATEL'NYI">
+      <rel_text>Численный</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+  </relations>
+  <text>раздел математич. статистики, характерной чертой к-рого является то, что число производимых наблюдений (момент остановки наблюдений) не фиксируется заранее, а выбирается по ходу наблюдений в зависимости от значений поступающих данных. Стимулом к интенсивному развитию и применению в статистич. практике последовательных методов послужили работы А. Вальда (a. Wald). Им было установлено, тто в задаче различения (по результатам независимых наблюдений) двух простых гипотез т. н. последовательный критерий отношений вероятностей дает значительный выигрыш в среднем числе производимых наблюдений по сравнению с. наиболее мощным классич. способом различения (определяемой леммой Неймана - Ппрсона) с фиксированным объемом выборки и теми же вероятностями ошибочных решений.
+
+Основные принципы П. а. состоят в следующем. Пусть $URI[[http://libmeta.ru/me/formula/aux/535_1_POSLEDOVATEL'NYI]]/URI$ - последовательность независимых одинаково распределенных случайных величин и функция распределения $URI[[http://libmeta.ru/me/formula/aux/535_2_POSLEDOVATEL'NYI]]/URI$ зависит от неизвестного параметра $URI[[http://libmeta.ru/me/formula/aux/535_3_POSLEDOVATEL'NYI]]/URI$, принадлежащего нек-рому параметрич. множеству $URI[[http://libmeta.ru/me/formula/aux/535_4_POSLEDOVATEL'NYI]]/URI$. Задача состоит в том, чтобы по результатам наблюдений вынести то или иное решение об истинном значении неизвестного параметра $URI[[http://libmeta.ru/me/formula/aux/535_5_POSLEDOVATEL'NYI]]/URI$. В основе любой статистич. задачи решения лежат пространство $URI[[http://libmeta.ru/me/formula/aux/535_6_POSLEDOVATEL'NYI]]/URI$ заключительных (терминальных) решений $URI[[http://libmeta.ru/me/formula/aux/535_7_POSLEDOVATEL'NYI]]/URI$ (о значениях параметра $URI[[http://libmeta.ru/me/formula/aux/535_8_POSLEDOVATEL'NYI]]/URI$ ) и правило $URI[[http://libmeta.ru/me/formula/aux/535_9_POSLEDOVATEL'NYI]]/URI$, определяющее момент прекращения наблюдений, в к-рый и выносится заключительное решение. В классич. методах наблюдений момент $URI[[http://libmeta.ru/me/formula/aux/535_10_POSLEDOVATEL'NYI]]/URI$ является неслучайным и фиксированным заранее; в последовательных методах $URI[[http://libmeta.ru/me/formula/aux/535_11_POSLEDOVATEL'NYI]]/URI$ является случайной величиной, не зависящей от «будущего» (марковский момент, момент остановки). Формально, пусть $URI[[http://libmeta.ru/me/formula/aux/535_12_POSLEDOVATEL'NYI]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/535_13_POSLEDOVATEL'NYI]]/URI$-алгебра, порожденная случайными величинами $URI[[http://libmeta.ru/me/formula/aux/535_14_POSLEDOVATEL'NYI]]/URI$. Случайная величина $URI[[http://libmeta.ru/me/formula/aux/535_15_POSLEDOVATEL'NYI]]/URI$, принимающая значения $URI[[http://libmeta.ru/me/formula/aux/535_16_POSLEDOVATEL'NYI]]/URI$, наз. м а р к о в с к и м мо ме н то м, если событие $URI[[http://libmeta.ru/me/formula/aux/535_17_POSLEDOVATEL'NYI]]/URI$ для каждого $URI[[http://libmeta.ru/me/formula/aux/535_18_POSLEDOVATEL'NYI]]/URI$ (i $URI[[http://libmeta.ru/me/formula/aux/535_19_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_20_POSLEDOVATEL'NYI]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/535_21_POSLEDOVATEL'NYI]]/URI$ совокупность тех измеримых множеств $URI[[http://libmeta.ru/me/formula/aux/535_22_POSLEDOVATEL'NYI]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/535_23_POSLEDOVATEL'NYI]]/URI$ и для каждого $URI[[http://libmeta.ru/me/formula/aux/535_24_POSLEDOVATEL'NYI]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/535_25_POSLEDOVATEL'NYI]]/URI$ интерпретируется как совокупность событий, наблюдаемых до случайного момента $URI[[http://libmeta.ru/me/formula/aux/535_26_POSLEDOVATEL'NYI]]/URI$ (вклю-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92192123ccecf73c7112g-1.jpg?height=35&amp;width=814&amp;top_left_y=714&amp;top_left_x=987)
+купность событий, наблюдаемых до случайного момента $URI[[http://libmeta.ru/me/formula/aux/535_27_POSLEDOVATEL'NYI]]/URI$ (включительно). Заключительное (терминальное) решение $URI[[http://libmeta.ru/me/formula/aux/535_28_POSLEDOVATEL'NYI]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/535_29_POSLEDOVATEL'NYI]]/URI$-измеримая функция со значениями в пространстве $URI[[http://libmeta.ru/me/formula/aux/535_30_POSLEDOVATEL'NYI]]/URI$. Пара $URI[[http://libmeta.ru/me/formula/aux/535_31_POSLEDOVATEL'NYI]]/URI$ таких функций наз. (после дов а тельным) ре ші а юи и п р а в и л о м.
+
+Для выделения среди решающих правил «оптимального» задают функцию риска $URI[[http://libmeta.ru/me/formula/aux/535_32_POSLEDOVATEL'NYI]]/URI$ и рассматривают математич. ожидание $URI[[http://libmeta.ru/me/formula/aux/535_33_POSLEDOVATEL'NYI]]/URI$. Существуют разные подходы к определению понятия оптимального решающего правила $URI[[http://libmeta.ru/me/formula/aux/535_34_POSLEDOVATEL'NYI]]/URI$. Один из них, бейесовский, основан на предположении, что параметр $URI[[http://libmeta.ru/me/formula/aux/535_35_POSLEDOVATEL'NYI]]/URI$ являөтся случайной величиной с априорным распределением $URI[[http://libmeta.ru/me/formula/aux/535_36_POSLEDOVATEL'NYI]]/URI$. Тогда имеет смысл говорить о $URI[[http://libmeta.ru/me/formula/aux/535_37_POSLEDOVATEL'NYI]]/URI$-рискө
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_1_POSLEDOVATEL'NYI]]/URI
+\]
+
+и называть правило $URI[[http://libmeta.ru/me/formula/aux/535_38_POSLEDOVATEL'NYI]]/URI$ о п т и м а л ь н ы м бе й е с о в с ким ре шіение м (или л-о п т им а л ь н ы м), если $URI[[http://libmeta.ru/me/formula/aux/535_39_POSLEDOVATEL'NYI]]/URI$ для любого другого (допустимого) правила. Наиболее распространенной формой риска $URI[[http://libmeta.ru/me/formula/aux/535_40_POSLEDOVATEL'NYI]]/URI$ является риск вида $URI[[http://libmeta.ru/me/formula/aux/535_41_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_42_POSLEDOVATEL'NYI]]/URI$, где константа $URI[[http://libmeta.ru/me/formula/aux/535_43_POSLEDOVATEL'NYI]]/URI$ интерпретируется как стоимость единичного наблюдения, а $URI[[http://libmeta.ru/me/formula/aux/535_44_POSLEDOVATEL'NYI]]/URI$ является функцией потерь от заключительного решения.
+
+В бейесовских задачах отыскание оптимального заключительного решения $URI[[http://libmeta.ru/me/formula/aux/535_45_POSLEDOVATEL'NYI]]/URI$, как правило, нс вызываст трудностей, и основные усилıя направлены на отыскание оптимального момента остановки $URI[[http://libmeta.ru/me/formula/aux/535_46_POSLEDOVATEL'NYI]]/URI$. При этом большинство задач П. а. укладывается в следующую схему «оптимальных правил остановки».
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/535_47_POSLEDOVATEL'NYI]]/URI$ цепь Маркова в фазовом пространстве $URI[[http://libmeta.ru/me/formula/aux/535_48_POSLEDOVATEL'NYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/535_49_POSLEDOVATEL'NYI]]/URI$ состояние цепи в момент времени $URI[[http://libmeta.ru/me/formula/aux/535_50_POSLEDOVATEL'NYI]]/URI$ интерпретирустся как совокупность событий, наблюдаемых до момента времени $URI[[http://libmeta.ru/me/formula/aux/535_51_POSLEDOVATEL'NYI]]/URI$ (включительно), а $URI[[http://libmeta.ru/me/formula/aux/535_52_POSLEDOVATEL'NYI]]/URI$ распределение вероятностей, отвечающее начальному состоянию $URI[[http://libmeta.ru/me/formula/aux/535_53_POSLEDOVATEL'NYI]]/URI$. Предполагается, что, прекращая наблюдение в момент времени $URI[[http://libmeta.ru/me/formula/aux/535_54_POSLEDOVATEL'NYI]]/URI$, получают выигрыш $URI[[http://libmeta.ru/me/formula/aux/535_55_POSLEDOVATEL'NYI]]/URI$. Тогда средний выигрыш от остановки в момент $URI[[http://libmeta.ru/me/formula/aux/535_56_POSLEDOVATEL'NYI]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/535_57_POSLEDOVATEL'NYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/535_58_POSLEDOVATEL'NYI]]/URI$ - начальное состояние. Функцию $URI[[http://libmeta.ru/me/formula/aux/535_59_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_60_POSLEDOVATEL'NYI]]/URI$, где sup берется по всем (конечным)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92192123ccecf73c7112g-1.jpg?height=39&amp;width=809&amp;top_left_y=2000&amp;top_left_x=992)
+для к-рого $URI[[http://libmeta.ru/me/formula/aux/535_61_POSLEDOVATEL'NYI]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/535_62_POSLEDOVATEL'NYI]]/URI$, наз. $URI[[http://libmeta.ru/me/formula/aux/535_63_POSLEDOVATEL'NYI]]/URI$ опт има льным моментом остановки. $URI[[http://libmeta.ru/me/formula/aux/535_64_POSLEDOVATEL'NYI]]/URI$-оптимальные моменты наз. о п т и м а л ь н ы и. Основные вопросы теории «оптимальных правил остановки» таковы: какова структура цены $URI[[http://libmeta.ru/me/formula/aux/535_65_POSLEDOVATEL'NYI]]/URI$, как ее найти, когда существуют $URI[[http://libmeta.ru/me/formula/aux/535_66_POSLEDOVATEL'NYI]]/URI$-оптимальные и оптимальные моменты, какова их структура. Ниже приведен один из типичных результатов, касающихся поставленных вопросов Пусть функция $URI[[http://libmeta.ru/me/formula/aux/535_67_POSLEDOVATEL'NYI]]/URI$ ограничена: $URI[[http://libmeta.ru/me/formula/aux/535_68_POSLEDOVATEL'NYI]]/URI$. Тогда цена $URI[[http://libmeta.ru/me/formula/aux/535_69_POSLEDOVATEL'NYI]]/URI$ является наименьшей эксцессивной мажорантой функции $URI[[http://libmeta.ru/me/formula/aux/535_70_POSLEDOVATEL'NYI]]/URI$, т. е наименьшей из функций $URI[[http://libmeta.ru/me/formula/aux/535_71_POSLEDOVATEL'NYI]]/URI$, удовлетворяющих двум свойствам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_2_POSLEDOVATEL'NYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/535_72_POSLEDOVATEL'NYI]]/URI$. При этом момент
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_3_POSLEDOVATEL'NYI]]/URI
+\]
+
+является $URI[[http://libmeta.ru/me/formula/aux/535_73_POSLEDOVATEL'NYI]]/URI$-оптимальным для всякого $URI[[http://libmeta.ru/me/formula/aux/535_74_POSLEDOVATEL'NYI]]/URI$, цена $URI[[http://libmeta.ru/me/formula/aux/535_75_POSLEDOVATEL'NYI]]/URI$ удовлетворяет уравнению Вальда - Беллмана
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_4_POSLEDOVATEL'NYI]]/URI
+\]
+
+и может быть найдена по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_5_POSLEDOVATEL'NYI]]/URI
+\]
+
+гдө
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_6_POSLEDOVATEL'NYI]]/URI
+\]
+
+В том случае, когда множество $URI[[http://libmeta.ru/me/formula/aux/535_76_POSLEDOVATEL'NYI]]/URI$ конечно, момент
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_7_POSLEDOVATEL'NYI]]/URI
+\]
+
+будет оптимальным. В общем случае момент $URI[[http://libmeta.ru/me/formula/aux/535_77_POSLEDOVATEL'NYI]]/URI$ является оптимальным, если $URI[[http://libmeta.ru/me/formula/aux/535_78_POSLEDOVATEL'NYI]]/URI$.
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_8_POSLEDOVATEL'NYI]]/URI
+\]
+
+В соответствии с определением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_9_POSLEDOVATEL'NYI]]/URI
+\]
+
+Иначе говоря, прекращение наблюдений следует производить при первом попадании в множество Г. В связи с этим множество $URI[[http://libmeta.ru/me/formula/aux/535_79_POSLEDOVATEL'NYI]]/URI$ наз. множеством продолжения наблюдений, а $URI[[http://libmeta.ru/me/formula/aux/535_80_POSLEDOVATEL'NYI]]/URI$ - множеством прекращения наблюдений.
+
+Иллюстрацией этих результатов может служить задача различения двух простых гипотез, на к-рой А. Вальд продемонстрировал преимущество последовательных методов по сравнению с классическими. Пусть параметр $URI[[http://libmeta.ru/me/formula/aux/535_81_POSLEDOVATEL'NYI]]/URI$ принимает два значения 1 и 0 с априорными вероятностями $URI[[http://libmeta.ru/me/formula/aux/535_82_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_83_POSLEDOVATEL'NYI]]/URI$ соответственно и множество заключительных решений $URI[[http://libmeta.ru/me/formula/aux/535_84_POSLEDOVATEL'NYI]]/URI$ состоит также из двух точек: $URI[[http://libmeta.ru/me/formula/aux/535_85_POSLEDOVATEL'NYI]]/URI$ (принимается гипотеза $URI[[http://libmeta.ru/me/formula/aux/535_86_POSLEDOVATEL'NYI]]/URI$ ) и $URI[[http://libmeta.ru/me/formula/aux/535_87_POSLEDOVATEL'NYI]]/URI$ (принимается гипотеза $URI[[http://libmeta.ru/me/formula/aux/535_88_POSLEDOVATEL'NYI]]/URI$. Если функцию $URI[[http://libmeta.ru/me/formula/aux/535_89_POSLEDOVATEL'NYI]]/URI$ выбрать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_10_POSLEDOVATEL'NYI]]/URI
+\]
+
+и положить
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_11_POSLEDOVATEL'NYI]]/URI
+\]
+
+то для $URI[[http://libmeta.ru/me/formula/aux/535_90_POSLEDOVATEL'NYI]]/URI$ получают выражение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_12_POSLEDOVATEL'NYI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_13_POSLEDOVATEL'NYI]]/URI
+\]
+
+- вероятности ошибок первого и второго рода, а $URI[[http://libmeta.ru/me/formula/aux/535_91_POSLEDOVATEL'NYI]]/URI$ оз- $URI[[http://libmeta.ru/me/formula/aux/535_92_POSLEDOVATEL'NYI]]/URI$ начает распределение вероятностей в пространстве наблюдений, отвечающее априорному распределению $URI[[http://libmeta.ru/me/formula/aux/535_93_POSLEDOVATEL'NYI]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/535_94_POSLEDOVATEL'NYI]]/URI$ апостериорная вероятность гипотезы $URI[[http://libmeta.ru/me/formula/aux/535_95_POSLEDOVATEL'NYI]]/URI$ относительно $URI[[http://libmeta.ru/me/formula/aux/535_96_POSLEDOVATEL'NYI]]/URI$-алгебры $URI[[http://libmeta.ru/me/formula/aux/535_97_POSLEDOVATEL'NYI]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_14_POSLEDOVATEL'NYI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_15_POSLEDOVATEL'NYI]]/URI
+\]
+
+Из общей теории оптимальных правил остановки, примененної к $URI[[http://libmeta.ru/me/formula/aux/535_98_POSLEDOVATEL'NYI]]/URI$, следует, что функция $URI[[http://libmeta.ru/me/formula/aux/535_99_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_100_POSLEDOVATEL'NYI]]/URI$ удовлетворяет уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_16_POSLEDOVATEL'NYI]]/URI
+\]
+
+Отсюда, в силу выпуклости вверх функций $URI[[http://libmeta.ru/me/formula/aux/535_101_POSLEDOVATEL'NYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/535_102_POSLEDOVATEL'NYI]]/URI$, можно вывести, что найдутся два числа $URI[[http://libmeta.ru/me/formula/aux/535_103_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_104_POSLEDOVATEL'NYI]]/URI$ такие, что область продолжения $URI[[http://libmeta.ru/me/formula/aux/535_105_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_106_POSLEDOVATEL'NYI]]/URI$, а область прекращения наблюдений $URI[[http://libmeta.ru/me/formula/aux/535_107_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_108_POSLEDOVATEL'NYI]]/URI$. При әтом момент остановки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_17_POSLEDOVATEL'NYI]]/URI
+\]
+
+является оптимальным $URI[[http://libmeta.ru/me/formula/aux/535_109_POSLEDOVATEL'NYI]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/535_110_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_111_POSLEDOVATEL'NYI]]/URI$ - плотности распределений $URI[[http://libmeta.ru/me/formula/aux/535_112_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_113_POSLEDOVATEL'NYI]]/URI$ (по мере $URI[[http://libmeta.ru/me/formula/aux/535_114_POSLEDOVATEL'NYI]]/URI$ ), а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_18_POSLEDOVATEL'NYI]]/URI
+\]
+
+- отношение правдолодобия, то область продолжения наблюдений (см. рис. 1) может быть записана в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_19_POSLEDOVATEL'NYI]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/535_115_POSLEDOVATEL'NYI]]/URI$.
+
+При этом если $URI[[http://libmeta.ru/me/formula/aux/535_116_POSLEDOVATEL'NYI]]/URI$, то выносится решение $URI[[http://libmeta.ru/me/formula/aux/535_117_POSLEDOVATEL'NYI]]/URI$, т. е. принимается гипотеза $URI[[http://libmeta.ru/me/formula/aux/535_118_POSLEDOVATEL'NYI]]/URI$. Если же $URI[[http://libmeta.ru/me/formula/aux/535_119_POSLEDOVATEL'NYI]]/URI$, то- гипотеза $URI[[http://libmeta.ru/me/formula/aux/535_120_POSLEDOVATEL'NYI]]/URI$.
+
+Структура этого оптимального решающего правила сохраняется и для задачи различения гипотез в условноэкстремаль н о й постановке, состоящей в следующем. Для каждого решающего правила $URI[[http://libmeta.ru/me/formula/aux/535_121_POSLEDOVATEL'NYI]]/URI$, d) вводят вероятности ошибок $URI[[http://libmeta.ru/me/formula/aux/535_122_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_123_POSLEDOVATEL'NYI]]/URI$ и задают два числа $URI[[http://libmeta.ru/me/formula/aux/535_124_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_125_POSLEDOVATEL'NYI]]/URI$; и пусть, далее, $URI[[http://libmeta.ru/me/formula/aux/535_126_POSLEDOVATEL'NYI]]/URI$ сово-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d993f03ee630042ae8b0g-1.jpg?height=325&amp;width=483&amp;top_left_y=1011&amp;top_left_x=1324)
+
+Рис. 1. купность всех решающих правил с $URI[[http://libmeta.ru/me/formula/aux/535_127_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_128_POSLEDOVATEL'NYI]]/URI$. Следующий фундаментальный результат был получен А. Вальдом. Если $URI[[http://libmeta.ru/me/formula/aux/535_129_POSLEDOVATEL'NYI]]/URI$ и среди критериев $URI[[http://libmeta.ru/me/formula/aux/535_130_POSLEDOVATEL'NYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/535_131_POSLEDOVATEL'NYI]]/URI$, основанных на отношении правдоподобия $URI[[http://libmeta.ru/me/formula/aux/535_132_POSLEDOVATEL'NYI]]/URI$ и имеющих вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_20_POSLEDOVATEL'NYI]]/URI
+\]
+
+найдутся такие $URI[[http://libmeta.ru/me/formula/aux/535_133_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_134_POSLEDOVATEL'NYI]]/URI$, что вероятности опибок первого и второго рода в точности равны $URI[[http://libmeta.ru/me/formula/aux/535_135_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_136_POSLEDOVATEL'NYI]]/URI$, то решающее правило $URI[[http://libmeta.ru/me/formula/aux/535_137_POSLEDOVATEL'NYI]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/535_138_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_139_POSLEDOVATEL'NYI]]/URI$ является в классе $URI[[http://libmeta.ru/me/formula/aux/535_140_POSLEDOVATEL'NYI]]/URI$ оптимальным в том смысле, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_21_POSLEDOVATEL'NYI]]/URI
+\]
+
+для любого $URI[[http://libmeta.ru/me/formula/aux/535_141_POSLEDOVATEL'NYI]]/URI$.
+
+Преимущества последовательного решающего правила $URI[[http://libmeta.ru/me/formula/aux/535_142_POSLEDOVATEL'NYI]]/URI$ по сравнению с классическим проще проиллюстрировать на примере задачи различения двух гипотез $URI[[http://libmeta.ru/me/formula/aux/535_143_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_144_POSLEDOVATEL'NYI]]/URI$ относительно локального среднего значения $URI[[http://libmeta.ru/me/formula/aux/535_145_POSLEDOVATEL'NYI]]/URI$ винеровского процесса $URI[[http://libmeta.ru/me/formula/aux/535_146_POSLEDOVATEL'NYI]]/URI$ с единичной диффузией. Оптимальное последовательное решающее правило $URI[[http://libmeta.ru/me/formula/aux/535_147_POSLEDOVATEL'NYI]]/URI$, обеспеqивающее заданные вероятности ошибок $URI[[http://libmeta.ru/me/formula/aux/535_148_POSLEDOVATEL'NYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/535_149_POSLEDOVATEL'NYI]]/URI$ первого и второго рода соответственно, описывается следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_22_POSLEDOVATEL'NYI]]/URI
+\] где $URI[[http://libmeta.ru/me/formula/aux/535_150_POSLEDOVATEL'NYI]]/URI$ и отношение правдогодобия (производная меры, отвечающей $URI[[http://libmeta.ru/me/formula/aux/535_151_POSLEDOVATEL'NYI]]/URI$, по мере, отвечающей $URI[[http://libmeta.ru/me/formula/aux/535_152_POSLEDOVATEL'NYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/535_153_POSLEDOVATEL'NYI]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/535_154_POSLEDOVATEL'NYI]]/URI$ (см. рис. 2).
+
+Оптимальное классич. правило $URI[[http://libmeta.ru/me/formula/aux/535_155_POSLEDOVATEL'NYI]]/URI$ (согласно лемме Неймана - Пирсона) огисывается следующим
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_08129f7e2037ba97fd49g-1.jpg?height=308&amp;width=478&amp;top_left_y=387&amp;top_left_x=143)
+
+Рис. 2.
+
+а $URI[[http://libmeta.ru/me/formula/aux/535_156_POSLEDOVATEL'NYI]]/URI$ корень уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_23_POSLEDOVATEL'NYI]]/URI
+\]
+
+Поскольку $URI[[http://libmeta.ru/me/formula/aux/535_157_POSLEDOVATEL'NYI]]/URI$ где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_24_POSLEDOVATEL'NYI]]/URI
+\]
+
+ro
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_25_POSLEDOVATEL'NYI]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/535_1_POSLEDOVATEL'NYI]]/URI подсчет показывает, что при $URI[[http://libmeta.ru/me/formula/aux/535_158_POSLEDOVATEL'NYI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_26_POSLEDOVATEL'NYI]]/URI
+\]
+
+Иначе говоря, при рассматриваемых значениях ошибок первого и второго рода оптимальный последовательный метод различения требует примерно в два раза меньше наблюдений, чем оптимальный метод с фиксированным числом наблюдений. Более того, если $URI[[http://libmeta.ru/me/formula/aux/535_159_POSLEDOVATEL'NYI]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/535_27_POSLEDOVATEL'NYI]]/URI
+\]</text>
+  <text_orig>раздел математич. статистики, характерной чертой к-рого является то, что число производимых наблюдений (момент остановки наблюдений) не фиксируется заранее, а выбирается по ходу наблюдений в зависимости от значений поступающих данных. Стимулом к интенсивному развитию и применению в статистич. практике последовательных методов послужили работы А. Вальда (A. Wald). Им было установлено, тто в задаче различения (по результатам независимых наблюдений) двух простых гипотез т. н. последовательный критерий отношений вероятностей дает значительный выигрыш в среднем числе производимых наблюдений по сравнению с. наиболее мощным классич. способом различения (определяемой леммой Неймана - Ппрсона) с фиксированным объемом выборки и теми же вероятностями ошибочных решений.
+
+Основные принципы П. а. состоят в следующем. Пусть $\xi_{1}, \xi_{2}, \ldots$ - последовательность независимых одинаково распределенных случайных величин и функция распределения $F_{\theta}(x)=\mathrm{P}_{\theta}\left\{\xi_{1} \leqslant x\right\}$ зависит от неизвестного параметра $\theta$, принадлежащего нек-рому параметрич. множеству $\Theta$. Задача состоит в том, чтобы по результатам наблюдений вынести то или иное решение об истинном значении неизвестного параметра $\theta$. В основе любой статистич. задачи решения лежат пространство $D$ заключительных (терминальных) решений $d$ (о значениях параметра $\theta$ ) и правило $\tau$, определяющее момент прекращения наблюдений, в к-рый и выносится заключительное решение. В классич. методах наблюдений момент $\tau$ является неслучайным и фиксированным заранее; в последовательных методах $\tau$ является случайной величиной, не зависящей от «будущего» (марковский момент, момент остановки). Формально, пусть $\mathscr{F}_{n}=\sigma\left\{\omega: \xi_{1}, \ldots, \xi_{n}\right\}$ есть $\sigma$-алгебра, порожденная случайными величинами $\xi_{1}, \ldots ., \xi_{n}$. Случайная величина $\tau=\tau(\omega)$, принимающая значения $0,1, \ldots,+\infty$, наз. м а р к о в с к и м мо ме н то м, если событие $\{\tau \leqslant n\} \in \mathscr{F}_{n}$ для каждого $n \geqslant 0$ (I $_{0}=$ $=\{\varnothing, \Omega\})$. Пусть $\mathscr{F}_{\tau}-$ совокупность тех измеримых множеств $A$, для к-рых $A \cap\{\tau \leqslant n\} \in \mathscr{F}_{n}$ и для каждого $n \geqslant 0$. Если $\mathscr{F}_{n}$ интерпретируется как совокупность событий, наблюдаемых до случайного момента $n$ (вклю-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92192123ccecf73c7112g-1.jpg?height=35&amp;width=814&amp;top_left_y=714&amp;top_left_x=987)
+купность событий, наблюдаемых до случайного момента $\tau$ (включительно). Заключительное (терминальное) решение $d=d(\omega)$ есть $\mathscr{F}_{\tau}$-измеримая функция со значениями в пространстве $D$. Пара $\delta=(\tau, d)$ таких функций наз. (после дов а тельным) ре ші а юи и п р а в и л о м.
+
+Для выделения среди решающих правил «оптимального» задают функцию риска $W(\tau, \theta, d)$ и рассматривают математич. ожидание $\mathrm{E}_{\theta} W(\tau, \theta, d)$. Существуют разные подходы к определению понятия оптимального решающего правила $\delta^{*}=\left(\tau^{*}, d^{*}\right)$. Один из них, бейесовский, основан на предположении, что параметр $\theta$ являөтся случайной величиной с априорным распределением $\pi=\pi(d \theta)$. Тогда имеет смысл говорить о $\pi$-рискө
+
+\[
+R^{\delta}(\pi)=\int_{\Theta} \mathrm{E}_{\theta} W(\tau, \theta, d) \pi(d \theta)
+\]
+
+и называть правило $\delta^{*}=\left(\tau^{*}, d^{*}\right)$ о п т и м а л ь н ы м бе й е с о в с ким ре шіение м (или л-о п т им а л ь н ы м), если $R^{\delta^{*}}(\pi) \leqslant R^{\delta}(\pi)$ для любого другого (допустимого) правила. Наиболее распространенной формой риска $W(\tau, \theta, d)$ является риск вида $c \tau+$ $+W_{1}(\theta, d)$, где константа $c \geqslant 0$ интерпретируется как стоимость единичного наблюдения, а $W_{1}(\theta, d)$ является функцией потерь от заключительного решения.
+
+В бейесовских задачах отыскание оптимального заключительного решения $d^{*}$, как правило, нс вызываст трудностей, и основные усилıя направлены на отыскание оптимального момента остановки $\tau *$. При этом большинство задач П. а. укладывается в следующую схему «оптимальных правил остановки».
+
+Пусть $X=\left(x_{n}, \mathcal{F}_{n}, \mathrm{P}_{x}\right), n \geqslant 0, \quad x \in E,-$ цепь Маркова в фазовом пространстве $(E, \mathscr{B})$, где $x_{n}-$ состояние цепи в момент времени $n, \sigma-а л г е б р а ~ \mathscr{F} n$ интерпретирустся как совокупность событий, наблюдаемых до момента времени $n$ (включительно), а $\mathrm{P}_{x}-$ распределение вероятностей, отвечающее начальному состоянию $x \in E$. Предполагается, что, прекращая наблюдение в момент времени $n$, получают выигрыш $g\left(x_{n}\right)$. Тогда средний выигрыш от остановки в момент $\tau$ есть $\mathrm{E}_{x} g\left(x_{\tau}\right)$, где $x$ - начальное состояние. Функцию $s(x)=$ $=\sup E_{x g} g\left(x_{\tau}\right)$, где sup берется по всем (конечным)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92192123ccecf73c7112g-1.jpg?height=39&amp;width=809&amp;top_left_y=2000&amp;top_left_x=992)
+для к-рого $s(x) \leqslant \mathrm{E}_{x} g\left(x_{\tau_{\varepsilon}}\right)+\varepsilon$ для всех $x \in E$, наз. $\varepsilon-$ опт има льным моментом остановки. $O$-оптимальные моменты наз. о п т и м а л ь н ы и. Основные вопросы теории «оптимальных правил остановки» таковы: какова структура цены $s(x)$, как ее найти, когда существуют $\varepsilon$-оптимальные и оптимальные моменты, какова их структура. Ниже приведен один из типичных результатов, касающихся поставленных вопросов Пусть функция $g(x)$ ограничена: $|g(x)| \leqslant c&lt;\infty$. Тогда цена $s(x)$ является наименьшей эксцессивной мажорантой функции $g(x)$, т. е наименьшей из функций $f(x)$, удовлетворяющих двум свойствам
+
+\[
+g(x) \leqslant f(x), T f(x) \leqslant f(x),
+\]
+
+где $T f(x)=\mathrm{E}_{x} g\left(x_{1}\right)$. При этом момент
+
+\[
+\tau_{\varepsilon}=\inf \left\{n \geqslant 0: s\left(x_{n}\right) \leqslant g\left(x_{n}\right)+\varepsilon\right\}
+\]
+
+является $\varepsilon$-оптимальным для всякого $\varepsilon&gt;0$, цена $s(x)$ удовлетворяет уравнению Вальда - Беллмана
+
+\[
+s(x)=\max \{g(x), T s(x)\}
+\]
+
+и может быть найдена по формуле
+
+\[
+s(x)=\lim _{n \rightarrow \infty} Q^{n} g(x),
+\]
+
+гдө
+
+\[
+Q g(x)=\max \{g(x), T g(x)\} .
+\]
+
+В том случае, когда множество $E$ конечно, момент
+
+\[
+\tau_{0}=\inf \left\{n \geqslant 0: s\left(x_{n}\right)=g\left(x_{n}\right)\right\}
+\]
+
+будет оптимальным. В общем случае момент $\tau_{0}$ является оптимальным, если $\mathrm{P}_{x}\left\{\tau_{0}&lt;\infty\right\}=1, x \in E$.
+
+Пусть
+
+\[
+C=\{x: s(x)&gt;g(x)\}, \Gamma=\{x: s(x)=g(x)\} .
+\]
+
+В соответствии с определением
+
+\[
+\tau_{0}=\inf \left\{n \geqslant 0: x_{n} \in \Gamma\right\} .
+\]
+
+Иначе говоря, прекращение наблюдений следует производить при первом попадании в множество Г. В связи с этим множество $C$ наз. множеством продолжения наблюдений, а $\Gamma$ - множеством прекращения наблюдений.
+
+Иллюстрацией этих результатов может служить задача различения двух простых гипотез, на к-рой А. Вальд продемонстрировал преимущество последовательных методов по сравнению с классическими. Пусть параметр $\theta$ принимает два значения 1 и 0 с априорными вероятностями $\pi$ и $1-\pi$ соответственно и множество заключительных решений $D$ состоит также из двух точек: $d=1$ (принимается гипотеза $H_{1}: \theta=1$ ) и $d=0$ (принимается гипотеза $\left.H_{0}: \theta=0\right)$. Если функцию $W_{1}(\theta, d)$ выбрать в виде
+
+\[
+W_{1}(\theta, d)=\left\{\begin{array}{l}
+a, \theta=1, d=0, \\
+b, \theta=0, d=1, \\
+0, \text { в остальных случаях }
+\end{array}\right.
+\]
+
+и положить
+
+\[
+W(\tau, \theta, d)=c \tau+W_{\mathbf{1}}(\theta, d),
+\]
+
+то для $R^{\delta}(\pi)$ получают выражение
+
+\[
+R^{\delta}(\pi)=c \mathrm{E}_{\pi} \tau+a \alpha_{\pi}(\delta)+b \beta_{\pi}(\delta),
+\]
+
+где
+
+\[
+\alpha_{\pi}(\delta)=\mathrm{P}_{\pi}\{d=0 \mid \theta=1\}, \beta_{\pi}(\delta)=\mathrm{P}_{\pi}\{d=1 \mid \theta=0\}
+\]
+
+- вероятности ошибок первого и второго рода, а $P_{\boldsymbol{\pi}}$ оз- $^{-}$ начает распределение вероятностей в пространстве наблюдений, отвечающее априорному распределению $\pi$. Если $\pi_{n}=\mathrm{P}\left\{\theta=1 \mid \mathscr{F}_{n}\right\}-$ апостериорная вероятность гипотезы $H_{1} ; \theta=1$ относительно $\sigma$-алгебры $\mathscr{F}_{n}=\sigma\left\{\omega: \xi_{1}, \ldots, \xi_{n}\right\}$, то
+
+\[
+R^{\delta}(\pi)=E_{\pi}\left[c \tau+g\left(\pi_{\tau}\right)\right]
+\]
+
+где
+
+\[
+g(\pi)=\min (a \pi, b(1-\pi)) .
+\]
+
+Из общей теории оптимальных правил остановки, примененної к $x_{n}=\left(n, \pi_{n}\right)$, следует, что функция $\rho(\pi)=$ $=\inf _{\tau} R^{\delta}(\pi)$ удовлетворяет уравнению
+
+\[
+\rho(\pi)=\min \{g(\pi), c+T \rho(\pi)\} .
+\]
+
+Отсюда, в силу выпуклости вверх функций $\rho(\pi), g(\pi)$, $T \rho(\pi)$, можно вывести, что найдутся два числа $0 \leqslant$ $\leqslant A&lt;B \leqslant 1$ такие, что область продолжения $C=\{\pi: A&lt;$ $&lt;\pi&lt;B\}$, а область прекращения наблюдений $\Gamma=$ $=[0,1] \backslash(A, B)$. При әтом момент остановки
+
+\[
+\tau_{0}=\inf \left\{n \geqslant 0: \pi_{n} \in \Gamma\right\}
+\]
+
+является оптимальным $\left(\pi_{0}=\pi\right)$.
+
+Если $p_{0}(x)$ и $p_{1}(x)$ - плотности распределений $F_{0}(x)$ и $F_{1}(x)$ (по мере $d \mu=\frac{1}{2}\left(d F_{0}+d F_{1}\right)$ ), а
+
+\[
+\varphi=\frac{p_{1}\left(\xi_{1}\right) \ldots p_{1}\left(\xi_{n}\right)}{p_{0}\left(\xi_{1}\right) \ldots p_{0}\left(\xi_{n}\right)}
+\]
+
+- отношение правдолодобия, то область продолжения наблюдений (см. рис. 1) может быть записана в виде
+
+\[
+C=\left\{\varphi: \frac{A}{1-A} \frac{1-\pi}{\pi}&lt;\varphi&lt;\frac{B}{1-B} \frac{1-\pi}{\pi}\right\}
+\]
+
+и $\tau_{0}=\inf \left\{n \geqslant 0: \varphi_{n} \notin C\right\}$.
+
+При этом если $\varphi_{\tau_{0}} \geqslant \frac{B}{1-B} \frac{1-\pi}{\pi}$, то выносится решение $d=1$, т. е. принимается гипотеза $H_{1}: \theta=1$. Если же $\varphi_{\tau_{0}} \leqslant \frac{A}{1-A} \frac{1-\pi}{\pi}$, то- гипотеза $H_{0}: \theta=0$.
+
+Структура этого оптимального решающего правила сохраняется и для задачи различения гипотез в условноэкстремаль н о й постановке, состоящей в следующем. Для каждого решающего правила $\delta=(\tau$, d) вводят вероятности ошибок $\alpha(\delta)=P_{1}(d=$ $=0), \quad \beta(\delta)=P_{0}(d=1)$ и задают два числа $\alpha&gt;0$ и $\beta&gt;0$; и пусть, далее, $\Delta(\alpha, \beta)-$ сово-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d993f03ee630042ae8b0g-1.jpg?height=325&amp;width=483&amp;top_left_y=1011&amp;top_left_x=1324)
+
+Рис. 1. купность всех решающих правил с $\alpha(\delta) \leqslant \alpha, \beta(\delta) \leqslant \beta$ и $\mathrm{E}_{0} \tau&lt;\infty, \mathrm{E}_{1} \tau&lt;\infty$. Следующий фундаментальный результат был получен А. Вальдом. Если $\alpha+\beta&lt;1$ и среди критериев $\delta=(\tau$, $d)$, основанных на отношении правдоподобия $\varphi_{n}$ и имеющих вид
+
+\[
+\begin{gathered}
+\tau=\inf \left\{n \geqslant 0: \varphi_{n} \notin(a, b)\right\}, \\
+d=\left\{\begin{array}{l}
+1, \varphi_{\tau} \geqslant b, \\
+0, \varphi_{\tau} \leqslant a,
+\end{array}\right.
+\end{gathered}
+\]
+
+найдутся такие $a=a^{*}$ и $b=b^{*}$, что вероятности опибок первого и второго рода в точности равны $\alpha$ и $\beta$, то решающее правило $\delta^{*}=\left(\tau^{*}, d^{*}\right)$ с $a=a^{*}$ и $b=b^{*}$ является в классе $\Delta(\alpha, \beta)$ оптимальным в том смысле, что
+
+\[
+E_{0} \tau^{*} \leqslant E_{0} \tau, E_{1} \tau^{*} \leqslant E_{1} \tau
+\]
+
+для любого $\delta \in \Delta(\alpha, \beta)$.
+
+Преимущества последовательного решающего правила $\delta^{*}=\left(\tau^{*}, d^{*}\right)$ по сравнению с классическим проще проиллюстрировать на примере задачи различения двух гипотез $H_{0}: \theta=0$ и $H_{1}: 0=1$ относительно локального среднего значения $\theta$ винеровского процесса $\xi_{t}$ с единичной диффузией. Оптимальное последовательное решающее правило $\delta^{*}=\left(\tau^{*}, d^{*}\right)$, обеспеqивающее заданные вероятности ошибок $\alpha$ и $\beta$ первого и второго рода соответственно, описывается следующим образом:
+
+\[
+\begin{aligned}
+&amp; \tau^{*}=\inf \left\{t \geqslant 0: \lambda_{t} \notin\left(a^{*}, b^{*}\right)\right\}, \\
+&amp; d^{*}=\left\{\begin{array}{l}
+1, \lambda_{\tau *} \geqslant b^{*}, \\
+0, \lambda_{\tau *} \leqslant a^{*},
+\end{array}\right.
+\end{aligned}
+\] где $\lambda_{t}=\ln \varphi_{t}$ и отношение правдогодобия (производная меры, отвечающей $\theta=1$, по мере, отвечающей $\theta=0) \varphi_{t}=$ $=e^{\xi_{t}-\frac{1}{2} t}$, a $b^{*}=\ln \frac{1-\alpha}{\beta}, a^{*}=\ln \frac{\alpha}{1-\beta}$ (см. рис. 2).
+
+Оптимальное классич. правило $\tilde{\delta}=(\tilde{\tau}, \tilde{d})$ (согласно лемме Неймана - Пирсона) огисывается следующим
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_08129f7e2037ba97fd49g-1.jpg?height=308&amp;width=478&amp;top_left_y=387&amp;top_left_x=143)
+
+Рис. 2.
+
+а $c_{\gamma}-$ корень уравнения
+
+\[
+\frac{1}{\sqrt{2 \pi}} \int_{c_{\gamma}}^{\infty} e^{-x^{2} / 2} d x=\gamma
+\]
+
+Поскольку $\mathrm{E}_{0} \tau^{*}=2 \omega(\alpha, \beta), \mathrm{E}_{1} \tau^{*}=2 \omega(\beta, \alpha), \quad$ где
+
+\[
+\omega(x, y)=(1-x) \ln \frac{1-x}{y}+x \ln \frac{x}{1-y},
+\]
+
+ro
+
+\[
+\frac{E_{0} \tau^{*}}{t(\alpha, \beta)}=2 \frac{\omega(\beta, \alpha)}{\left(c_{\alpha}+c_{\beta}\right)^{2}}, \quad \frac{E_{1} \tau^{*}}{t(\alpha, \beta)}=2 \frac{\omega(\alpha, \beta)}{\left(c_{\alpha}+c_{\beta}\right)^{2}} .
+\]
+
+Численный подсчет показывает, что при $\alpha, \beta \leqslant 0,03$
+
+\[
+\frac{\mathrm{E}_{0} \tau^{*}}{t(\alpha, \beta)} \leqslant \frac{17}{30}, \frac{\mathrm{E}_{1} \tau^{*}}{t(\alpha, \beta)} \leqslant \frac{17}{30} .
+\]
+
+Иначе говоря, при рассматриваемых значениях ошибок первого и второго рода оптимальный последовательный метод различения требует примерно в два раза меньше наблюдений, чем оптимальный метод с фиксированным числом наблюдений. Более того, если $\alpha=\beta$, то
+
+\[
+\lim _{\alpha \downarrow 0} \frac{E_{0} \tau^{*}}{t(\alpha, \alpha)}=\lim _{\alpha \downarrow 0} \frac{E_{1} \tau^{*}}{t(\alpha, \alpha)}=\frac{1}{4} .
+\]
+
+Лит.: [1] В а ль д А., Последовательный анализ, пер. с англ., М., 1960; [2] III и р я е в А. Н., Статистический последовательный анализ, М., 1976. А. Н., Стати. Н. Ширяев.</text_orig>
+</article>

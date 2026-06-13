@@ -1,0 +1,191 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/606_MATRIChNOJ" alphabetic_pos="606">
+  <title>МАТРИЧНОЙ ФАКТОРИЗАЦИИ МЕТОД</title>
+  <authors>
+    <author>T. A. Гермогенова</author>
+  </authors>
+  <pages>
+    <start>312</start>
+    <end>312</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] С а м а р ск и й А. А., Введение в теорию разностных схем, М., 1971; [2] О г н е в а В. В., «ж. вычисл. матем. и матем. физики», 1967, т. 7, № 4, с. $803-12$; [3] С а м а р с к и й А. А.. Н и к о л а е в Е. С., Методы решения сеточных уравнений, М., 1978; [4] Г о д у н о в С. К., «ж. вычисл. матем. и матем. физики», 1962 , т. 2 , № 6, с. $972-82$.</literature_orig>
+    <unit>
+      <author>Самарский А. А.</author>
+      <title>Введение в теорию разностных схем</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Огнева В. В.</author>
+      <title>«ж. вычисл. матем. и матем. физики»</title>
+      <publication/>
+      <year>1967</year>
+      <other>т. 7, № 4, с. $803-12$</other>
+    </unit>
+    <unit>
+      <author>Самарский А.А..Николаев Е. С.</author>
+      <title>Методы решения сеточных уравнений</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Годунов С. К.</author>
+      <title>«ж. вычисл. матем. и матем. физики»</title>
+      <publication/>
+      <year>1962</year>
+      <other>т. 2, № 6, с. $972-82$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/606_1_MATRIChNOJ">A_{i} Y_{i-1}-C_{i} Y_{i}+B_{i} Y_{i+1}=-F_{i}, i=1,2, \ldots, N-1 \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/606_2_MATRIChNOJ">-C_{0} Y_{0}+B_{0} Y_{1}=-F_{0}, \quad A_{N} Y_{N-1}-C_{N} Y_{N}=-F_{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/606_3_MATRIChNOJ">Y_{i}=R_{i+1} Y_{i+1}+Q_{i+1}, \quad i=0,1, \ldots, N-1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/606_4_MATRIChNOJ">R_{i+1}=\left(C_{i}-A_{i} R_{i}\right)^{-1} B_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/606_5_MATRIChNOJ">R_{1}=C_{0}^{-1} B_{0}, Q_{1}=C_{0}^{-1} F_{0} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/606_6_MATRIChNOJ">Y_{N}=\left(C_{N}-A_{N} R_{N}\right)^{-1}\left(A_{N} Q_{N}+F_{N}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/606_7_MATRIChNOJ">\begin{gathered}\left\|C_{0}^{-1} B_{0}\right\|&lt;1,\left\|C_{N}^{-1} A_{N}\right\|&lt;1,\left\|C_{i}^{-1} B_{i}\right\|+\left\|C_{i}^{-1} A_{i}\right\|&lt;1, \\i=1,2, \ldots, N-1,\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_1_MATRIChNOJ">y_{i}=\left\{y_{1, i}, y_{2, i}, \ldots, y_{n, i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_2_MATRIChNOJ">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_3_MATRIChNOJ">a_{i}, B_{i}, C_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_4_MATRIChNOJ">r_{i+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_5_MATRIChNOJ">q_{i+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_6_MATRIChNOJ">q_{i+1}=\left(c_{i}-A_{i} R_{i}\right)^{-1}\left(A_{i} Q_{i}+F_{i}\right), \quad i=1,2, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_7_MATRIChNOJ">r_{1}, Q_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_8_MATRIChNOJ">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/606_9_MATRIChNOJ">\left\|r_{i}\right\|&lt;1, i=1,2, \ldots, N</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/606_1_MATRIChNOJ">
+      <rel_text>ортогонолизацией</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/606_2_MATRIChNOJ">
+      <rel_text>обращение матриц</rel_text>
+      <target>http://libmeta.ru/me/article/1132_OBRATNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/606_3_MATRIChNOJ">
+      <rel_text>вариант</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/606_4_MATRIChNOJ">
+      <rel_text>условий устойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/617_USLOVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/606_5_MATRIChNOJ">
+      <rel_text>форма</rel_text>
+      <target>http://libmeta.ru/me/article/728_FORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/606_6_MATRIChNOJ">
+      <rel_text>округления</rel_text>
+      <target>http://libmeta.ru/me/article/6_OKRUGLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/606_7_MATRIChNOJ">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/606_8_MATRIChNOJ">
+      <rel_text>Устойчивость</rel_text>
+      <target>http://libmeta.ru/me/article/631_UsTOJChIVOST</target>
+    </relation>
+  </relations>
+  <text>м е т 0 Д м а т р и ч о й п р о г о н и, - метод решения конечноразностных систем, аппроксимирующих краевые задачи для систем обыкновенных дифференциальных уравнений в одномерных задачах и для уравнений әллиптич. типа в двумерных задачах.
+
+Решение трехточечной разностной схемы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/606_1_MATRIChNOJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/606_1_MATRIChNOJ]]/URI$-искомая сеточная вектор-функция, $URI[[http://libmeta.ru/me/formula/aux/606_2_MATRIChNOJ]]/URI$ - вектор правой части, $URI[[http://libmeta.ru/me/formula/aux/606_3_MATRIChNOJ]]/URI$ заданные квадратные матрицы, при краевых условиях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/606_2_MATRIChNOJ]]/URI
+\]
+
+ищется так же, как в скалярном случае, в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/606_3_MATRIChNOJ]]/URI
+\]
+
+Прогоночные коэфффициенты, матрица $URI[[http://libmeta.ru/me/formula/aux/606_4_MATRIChNOJ]]/URI$ и вектор $URI[[http://libmeta.ru/me/formula/aux/606_5_MATRIChNOJ]]/URI$ определяются рекуррентными соотношениями («прямая прогонка»)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/606_4_MATRIChNOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/606_6_MATRIChNOJ]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/606_7_MATRIChNOJ]]/URI$ - левым краевым условием:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/606_5_MATRIChNOJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/606_8_MATRIChNOJ]]/URI$ считаются по формуле (*) («обратная прогонка»), а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/606_6_MATRIChNOJ]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/606_8_MATRIChNOJ]]/URI этого URI[[http://libmeta.ru/me/relation/606_7_MATRIChNOJ]]/URI по отношению к ошибкам URI[[http://libmeta.ru/me/relation/606_6_MATRIChNOJ]]/URI имеет место при условиях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/606_7_MATRIChNOJ]]/URI
+\]
+
+из к-рых следует, что $URI[[http://libmeta.ru/me/formula/aux/606_9_MATRIChNOJ]]/URI$ (см. [1]). Имеется другая URI[[http://libmeta.ru/me/relation/606_5_MATRIChNOJ]]/URI URI[[http://libmeta.ru/me/relation/606_4_MATRIChNOJ]]/URI (см. [2], [3]). М. ф. м. применяется и к двухточечным разностным схемам (см. [3]). Используется URI[[http://libmeta.ru/me/relation/606_3_MATRIChNOJ]]/URI, в к-ром URI[[http://libmeta.ru/me/relation/606_2_MATRIChNOJ]]/URI заменено URI[[http://libmeta.ru/me/relation/606_1_MATRIChNOJ]]/URI (cм. [4]).</text>
+  <text_orig>м е т 0 Д м а т р и ч о й п р о г о н и, - метод решения конечноразностных систем, аппроксимирующих краевые задачи для систем обыкновенных дифференциальных уравнений в одномерных задачах и для уравнений әллиптич. типа в двумерных задачах.
+
+Решение трехточечной разностной схемы
+
+\[
+A_{i} Y_{i-1}-C_{i} Y_{i}+B_{i} Y_{i+1}=-F_{i}, i=1,2, \ldots, N-1 \text {, }
+\]
+
+где $Y_{i}=\left\{y_{1, i}, y_{2, i}, \ldots, y_{n, i}\right\}$-искомая сеточная вектор-функция, $F_{i}$ - вектор правой части, $A_{i}, B_{i}, C_{i}-$ заданные квадратные матрицы, при краевых условиях
+
+\[
+-C_{0} Y_{0}+B_{0} Y_{1}=-F_{0}, \quad A_{N} Y_{N-1}-C_{N} Y_{N}=-F_{N}
+\]
+
+ищется так же, как в скалярном случае, в виде
+
+\[
+Y_{i}=R_{i+1} Y_{i+1}+Q_{i+1}, \quad i=0,1, \ldots, N-1 .
+\]
+
+Прогоночные коэфффициенты, матрица $R_{i+1}$ и вектор $Q_{i+1}$ определяются рекуррентными соотношениями («прямая прогонка»)
+
+\[
+R_{i+1}=\left(C_{i}-A_{i} R_{i}\right)^{-1} B_{i}
+\]
+
+$Q_{i+1}=\left(C_{i}-A_{i} R_{i}\right)^{-1}\left(A_{i} Q_{i}+F_{i}\right), \quad i=1,2, \ldots, N-1$, a $R_{1}, Q_{1}$ - левым краевым условием:
+
+\[
+R_{1}=C_{0}^{-1} B_{0}, Q_{1}=C_{0}^{-1} F_{0} .
+\]
+
+$Y_{i}$ считаются по формуле (*) («обратная прогонка»), а
+
+\[
+Y_{N}=\left(C_{N}-A_{N} R_{N}\right)^{-1}\left(A_{N} Q_{N}+F_{N}\right) \text {. }
+\]
+
+Устойчивость этого метода по отношению к ошибкам округления имеет место при условиях
+
+\[
+\begin{gathered}
+\left\|C_{0}^{-1} B_{0}\right\|&lt;1,\left\|C_{N}^{-1} A_{N}\right\|&lt;1,\left\|C_{i}^{-1} B_{i}\right\|+\left\|C_{i}^{-1} A_{i}\right\|&lt;1, \\
+i=1,2, \ldots, N-1,
+\end{gathered}
+\]
+
+из к-рых следует, что $\left\|R_{i}\right\|&lt;1, i=1,2, \ldots, N$ (см. [1]). Имеется другая форма условий устойчивости (см. [2], [3]). М. ф. м. применяется и к двухточечным разностным схемам (см. [3]). Используется вариант, в к-ром обращение матриц заменено ортогонолизацией (cм. [4]).
+
+Лum.: [1] С а м а р ск и й А. А., Введение в теорию разностных схем, М., 1971; [2] О г н е в а В. В., «Ж. вычисл. матем. и матем. физики», 1967, т. 7, № 4, с. $803-12$; [3] С а м а р с к и й А. А.. Н и к о л а е в Е. С., Методы решения сеточных уравнений, М., 1978; [4] Г о д у н о в С. К., «Ж. вычисл. матем. и матем. физики», 1962 , т. 2 , № 6, с. $972-82$. T. A. Гермогенова.</text_orig>
+</article>

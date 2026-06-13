@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/688_ITERATsIONNYI" alphabetic_pos="688">
+  <title>ИТЕРАЦИОННЫИ АЛГОРИТМ</title>
+  <authors>
+    <author>В. И. Лебедев</author>
+  </authors>
+  <pages>
+    <start>346</start>
+    <end>347</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] К а н т о р о в и ч Л. В., Аки ло в Г. П., Функциональный анализ, 2 изд., М., 1977; [2] К о л л а т ц Л., Функциональный анализ и вычислительная математика, пер.с нем., М., $1969 ;$ [3] М а р ч у к Г. И., Л е б е д е в В. И., Численные методы в теории переноса нейтронов, М., 1971; [4] сленные методы в теории переноса нейронов, М., 1975; [5] К р а с н о с е л ь с к и й М. А. и др Приближенное решение операторных уравнений, М., 1969; [6] Ј е б е д е в В. И., 13.5; [7] Ф е д о р е н к о Р. П., «успехи матем. наук», 1973 , $135 ;$ т. 28 , в. 2 , с. $121-82$.</literature_orig>
+    <unit>
+      <author>Канторович Л. В.</author>
+      <author>Акилов Г. П.</author>
+      <title>Функциональный анализ</title>
+      <publication>2 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Коллатц Л.</author>
+      <title>Функциональный анализ и вычислительная математика</title>
+      <publication>пер.с нем., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Марчук Г. И.</author>
+      <author>Лебедев В. И.</author>
+      <title>Численные методы в теории переноса нейтронов</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>сленные методы в теории переноса нейронов</title>
+      <publication>М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>К р а с н о с е л ь с к и й М. А. и др Приближенное решение операторных уравнений</title>
+      <publication>М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Јебедев В. И.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>13.5</other>
+    </unit>
+    <unit>
+      <author>Федоренко Р. П.</author>
+      <title>«успехи матем. наук»</title>
+      <publication/>
+      <year>1973</year>
+      <other>$135 ;$ т. 28, в. 2, с. $121-82$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/688_1_ITERATsIONNYI">u^{k+1}=A_{k} u^{k}, \quad k=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/688_2_ITERATsIONNYI">A u=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/688_3_ITERATsIONNYI">A_{k} u^{k}=u^{k}-H_{k}\left(A u^{k}-f\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/688_4_ITERATsIONNYI">u^{k+1}=u-\alpha_{k+1}\left(A u^{k}-f\right), \quad k=0,1, \ldots, N-1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/688_5_ITERATsIONNYI">\alpha_{k+1}=2\left(M+m-(M-m) \cos \frac{2 j_{k}-1}{2 N}\right)^{-1}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_1_ITERATsIONNYI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_2_ITERATsIONNYI">a_{k}: V \rightarrow V</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_3_ITERATsIONNYI">u^{0} \in V</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_4_ITERATsIONNYI">u^{k} \in V</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_5_ITERATsIONNYI">u^{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_6_ITERATsIONNYI">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_7_ITERATsIONNYI">a u=\lambda u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_8_ITERATsIONNYI">u^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_9_ITERATsIONNYI">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_10_ITERATsIONNYI">u^{k} \rightarrow u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_11_ITERATsIONNYI">k \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_12_ITERATsIONNYI">\vec{a}_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_13_ITERATsIONNYI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_14_ITERATsIONNYI">h_{k}(v \rightarrow V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_15_ITERATsIONNYI">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_16_ITERATsIONNYI">h_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_17_ITERATsIONNYI">u^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_18_ITERATsIONNYI">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_19_ITERATsIONNYI">a_{k} u^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_20_ITERATsIONNYI">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_21_ITERATsIONNYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_22_ITERATsIONNYI">[m, M]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_23_ITERATsIONNYI">m&gt;m&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_24_ITERATsIONNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_25_ITERATsIONNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_26_ITERATsIONNYI">x_{n}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_27_ITERATsIONNYI">=\left(j_{1}, j_{2}, \ldots . j_{N}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_28_ITERATsIONNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_29_ITERATsIONNYI">n=2^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_30_ITERATsIONNYI">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_31_ITERATsIONNYI">x_{2}=(1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_32_ITERATsIONNYI">x_{2} i-1=\left(j_{1}, j_{2}, \ldots, j_{2} i-1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_33_ITERATsIONNYI">x_{2} i=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_34_ITERATsIONNYI">=\left(j_{1}, 2^{i}+1-j_{1}, j_{2}, 2^{i}+1-j_{2}, \ldots\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_35_ITERATsIONNYI">n=16</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_36_ITERATsIONNYI">(1,16,8,9,4,13,5,12,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_37_ITERATsIONNYI">15,7,10,3,14,6,11)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_38_ITERATsIONNYI">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_39_ITERATsIONNYI">u^{k}, u^{k-1}, \ldots, u^{k-r+1} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/688_40_ITERATsIONNYI">r</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/688_1_ITERATsIONNYI">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/688_2_ITERATsIONNYI">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/688_3_ITERATsIONNYI">
+      <rel_text>многомерных</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>рекурсивный алгоритм, реализующий в нек-ром топологич. пространстве $URI[[http://libmeta.ru/me/formula/aux/688_1_ITERATsIONNYI]]/URI$ последовательность точечно-множественных отображений $URI[[http://libmeta.ru/me/formula/aux/688_2_ITERATsIONNYI]]/URI$, при помощи к-рых по начальной точке $URI[[http://libmeta.ru/me/formula/aux/688_3_ITERATsIONNYI]]/URI$ вычисляют последовательность точек $URI[[http://libmeta.ru/me/formula/aux/688_4_ITERATsIONNYI]]/URI$ согласно формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/688_1_ITERATsIONNYI]]/URI
+\]
+
+Операцию (1) наз. и т е р а ц и е й, а последовательность $URI[[http://libmeta.ru/me/formula/aux/688_5_ITERATsIONNYI]]/URI$ и е $URI[[http://libmeta.ru/me/formula/aux/688_6_ITERATsIONNYI]]/URI$ а цион ной по с ле до в ат е л ь н о с т в ю.
+
+И. а. (или ме т оды после дова тель ных п р и б л и ж е и й) применяют как для нахождения репения операторного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/688_2_ITERATsIONNYI]]/URI
+\]
+
+или минимума нек-рого функционала, или собственных значений и элементов уравнения $URI[[http://libmeta.ru/me/formula/aux/688_7_ITERATsIONNYI]]/URI$ и т. П., так и для доказательства существования решений этих задач. И. а. (1) наз. с х о д я щ и м с я при начальном приближении $URI[[http://libmeta.ru/me/formula/aux/688_8_ITERATsIONNYI]]/URI$ к решению $URI[[http://libmeta.ru/me/formula/aux/688_9_ITERATsIONNYI]]/URI$ упомянутых задач, если $URI[[http://libmeta.ru/me/formula/aux/688_10_ITERATsIONNYI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/688_11_ITERATsIONNYI]]/URI$.
+
+Операторы $URI[[http://libmeta.ru/me/formula/aux/688_12_ITERATsIONNYI]]/URI$ Для решения уравнения (2), заданного в линейном метрич. пространстве $URI[[http://libmeta.ru/me/formula/aux/688_13_ITERATsIONNYI]]/URI$, обычно строят по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/688_3_ITERATsIONNYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/688_14_ITERATsIONNYI]]/URI$ - некоторая, определяющая тип И. а., последовательность операторов. В основе построения И. а. типа (1), (3) лежат или сжатых отображений принцun и его обобщения, или вариационные методы минимизации нек-рого связанного с задачей функционала. При этом используются различные методы построения операторов $URI[[http://libmeta.ru/me/formula/aux/688_15_ITERATsIONNYI]]/URI$, напр. варианты Ньютона метода, или спуска метода. Операторы $URI[[http://libmeta.ru/me/formula/aux/688_16_ITERATsIONNYI]]/URI$ стараются выбрать так, чтобы быстрая сходимость $URI[[http://libmeta.ru/me/formula/aux/688_17_ITERATsIONNYI]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/688_18_ITERATsIONNYI]]/URI$ обеспечивалась при условии, что численная реализация операции $URI[[http://libmeta.ru/me/formula/aux/688_19_ITERATsIONNYI]]/URI$ при заданном объеме памяти Әвм была достаточно проста, нетрудоемка по количеству операций и устойчива к ошибкам округления.
+
+Хорошо разработаны и исследованы И. а. решения линейных задач. И. а. делятся при этом на линейные и нелинейные. $URI[[http://libmeta.ru/me/formula/aux/688_20_ITERATsIONNYI]]/URI$ линейным относятся, напр., Гаусса метод, Зейделя метод, верхней релаксации метод, И. а. с чебышевскими параметрами; к нелинейным вариационные методы: наискорейщего спуска метод, сопряженных градиентов метод, минимизации невязок метод и т. д. Одним из эффективных И. а. является метод с использованием ч е б ы ші е в с к и х п а р а м е т р о в, когда $URI[[http://libmeta.ru/me/formula/aux/688_21_ITERATsIONNYI]]/URI$ - самосопряженный оператор со спектром на отрезке $URI[[http://libmeta.ru/me/formula/aux/688_22_ITERATsIONNYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/688_23_ITERATsIONNYI]]/URI$. Этот метод дает оптимальную (при данной информации о границах спектра) оценку сходимости на заранее задаваемом $URI[[http://libmeta.ru/me/formula/aux/688_24_ITERATsIONNYI]]/URI$-м шаге. Записывается метод в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/688_4_ITERATsIONNYI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/688_5_ITERATsIONNYI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/688_25_ITERATsIONNYI]]/URI$-ожидаемое число итераций, в нем используется $URI[[http://libmeta.ru/me/formula/aux/688_26_ITERATsIONNYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/688_27_ITERATsIONNYI]]/URI$ специальная перестановка $URI[[http://libmeta.ru/me/formula/aux/688_28_ITERATsIONNYI]]/URI$-го порядка, хоропо перемешивающая для устойчивости счета корни многочлена Чебышева. Для $URI[[http://libmeta.ru/me/formula/aux/688_29_ITERATsIONNYI]]/URI$ перестановку $URI[[http://libmeta.ru/me/formula/aux/688_30_ITERATsIONNYI]]/URI$ можно построить, напр., так: $URI[[http://libmeta.ru/me/formula/aux/688_31_ITERATsIONNYI]]/URI$, и если известна перестановка $URI[[http://libmeta.ru/me/formula/aux/688_32_ITERATsIONNYI]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/688_33_ITERATsIONNYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/688_34_ITERATsIONNYI]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/688_35_ITERATsIONNYI]]/URI$ эта перестановка имеет вид: $URI[[http://libmeta.ru/me/formula/aux/688_36_ITERATsIONNYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/688_37_ITERATsIONNYI]]/URI$.
+
+Существуют И. а., использующие $URI[[http://libmeta.ru/me/formula/aux/688_38_ITERATsIONNYI]]/URI$ предыдущих приближений $URI[[http://libmeta.ru/me/formula/aux/688_39_ITERATsIONNYI]]/URI$ они наз. $URI[[http://libmeta.ru/me/formula/aux/688_40_ITERATsIONNYI]]/URI$-шаговыми и обладают повышенной скоростью сходимости.
+
+И. а. широко применяютяя при решении URI[[http://libmeta.ru/me/relation/688_3_ITERATsIONNYI]]/URI задач математич. физики, для нек-рых классов таких задач существуют специальные быстросходящиеся I. а. Напр., URI[[http://libmeta.ru/me/relation/688_2_ITERATsIONNYI]]/URI направлений метод, метод, Iзложенный в [7] для эллиптических краевых задач, нек-рые URI[[http://libmeta.ru/me/relation/688_1_ITERATsIONNYI]]/URI для задач переноса частиц или излучений (см. [1] - [7]).</text>
+  <text_orig>рекурсивный алгоритм, реализующий в нек-ром топологич. пространстве $V$ последовательность точечно-множественных отображений $A_{k}: V \rightarrow V$, при помощи к-рых по начальной точке $u^{0} \in V$ вычисляют последовательность точек $u^{k} \in V$ согласно формулам
+
+\[
+u^{k+1}=A_{k} u^{k}, \quad k=0,1, \ldots
+\]
+
+Операцию (1) наз. и т е р а ц и е й, а последовательность $u^{k}-$ и е $\mathrm{p}$ а цион ной по с ле до в ат е л ь н о с т в ю.
+
+И. а. (или ме т оды после дова тель ных п р и б л и ж е и й) применяют как для нахождения репения операторного уравнения
+
+\[
+A u=f
+\]
+
+или минимума нек-рого функционала, или собственных значений и элементов уравнения $A u=\lambda u$ и т. П., так и для доказательства существования решений этих задач. И. а. (1) наз. с х о д я щ и м с я при начальном приближении $u^{0}$ к решению $u$ упомянутых задач, если $u^{k} \rightarrow u$ при $k \rightarrow \infty$.
+
+Операторы $\vec{A}_{k}$ Для решения уравнения (2), заданного в линейном метрич. пространстве $V$, обычно строят по формулам
+
+\[
+A_{k} u^{k}=u^{k}-H_{k}\left(A u^{k}-f\right),
+\]
+
+где $H_{k}(V \rightarrow V)$ - некоторая, определяющая тип И. а., последовательность операторов. В основе построения И. а. типа (1), (3) лежат или сжатых отображений принцun и его обобщения, или вариационные методы минимизации нек-рого связанного с задачей функционала. При этом используются различные методы построения операторов $A_{k}$, напр. варианты Ньютона метода, или спуска метода. Операторы $H_{k}$ стараются выбрать так, чтобы быстрая сходимость $u^{k}$ к $u$ обеспечивалась при условии, что численная реализация операции $A_{k} u^{k}$ при заданном объеме памяти ӘВМ была достаточно проста, нетрудоемка по количеству операций и устойчива к ошибкам округления.
+
+Хорошо разработаны и исследованы И. а. решения линейных задач. И. а. делятся при этом на линейные и нелинейные. $\mathrm{K}$ линейным относятся, напр., Гаусса метод, Зейделя метод, верхней релаксации метод, И. а. с чебышевскими параметрами; к нелинейным вариационные методы: наискорейщего спуска метод, сопряженных градиентов метод, минимизации невязок метод и т. д. Одним из эффективных И. а. является метод с использованием ч е б ы ші е в с к и х п а р а м е т р о в, когда $A$ - самосопряженный оператор со спектром на отрезке $[m, M]$, где $M&gt;m&gt;0$. Этот метод дает оптимальную (при данной информации о границах спектра) оценку сходимости на заранее задаваемом $N$-м шаге. Записывается метод в виде
+
+\[
+u^{k+1}=u-\alpha_{k+1}\left(A u^{k}-f\right), \quad k=0,1, \ldots, N-1,
+\]
+
+где
+
+\[
+\alpha_{k+1}=2\left(M+m-(M-m) \cos \frac{2 j_{k}-1}{2 N}\right)^{-1}
+\]
+
+$N$-ожидаемое число итераций, в нем используется $x_{N}=$ $=\left(j_{1}, j_{2}, \ldots . j_{N}\right)-$ специальная перестановка $N$-го порядка, хоропо перемешивающая для устойчивости счета корни многочлена Чебышева. Для $N=2^{n}$ перестановку $x_{N}$ можно построить, напр., так: $x_{2}=(1,2)$, и если известна перестановка $x_{2} i-1=\left(j_{1}, j_{2}, \ldots, j_{2} i-1\right)$, то $x_{2} i=$ $=\left(j_{1}, 2^{i}+1-j_{1}, j_{2}, 2^{i}+1-j_{2}, \ldots\right)$. При $N=16$ эта перестановка имеет вид: $(1,16,8,9,4,13,5,12,2$, $15,7,10,3,14,6,11)$.
+
+Существуют И. а., использующие $r$ предыдущих приближений $u^{k}, u^{k-1}, \ldots, u^{k-r+1} ;$ они наз. $r$-шаговыми и обладают повышенной скоростью сходимости.
+
+И. а. широко применяютяя при решении многомерных задач математич. физики, для нек-рых классов таких задач существуют специальные быстросходящиеся I. а. Напр., переменных направлений метод, метод, Iзложенный в [7] для эллиптических краевых задач, нек-рые методы для задач переноса частиц или излучений (см. [1] - [7]).
+
+Лum.: [1] К а н т о р о в и ч Л. В., Аки ло в Г. П., Функциональный анализ, 2 изд., М., 1977; [2] К о л л а т ц Л., Функциональный анализ и вычислительная математика, пер.
+с нем., М., $1969 ;$ [3] М а р ч у к Г. И., Л е б е д е в В. И., Численные методы в теории переноса нейтронов, М., 1971; [4] сленные методы в теории переноса нейронов, М., 1975; [5] К р а с н о с е л ь с к и й М. А. и др Приближенное решение операторных уравнений, М., 1969; [6] Ј е б е д е в В. И., 13.5; [7] Ф е д о р е н к о Р. П., «Успехи матем. наук», 1973 , $135 ;$ т. 28 , в. 2 , с. $121-82$.
+
+В. И. Лебедев.</text_orig>
+</article>

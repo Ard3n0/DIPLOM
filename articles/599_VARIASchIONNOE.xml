@@ -1,0 +1,758 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/599_VARIASchIONNOE" alphabetic_pos="599">
+  <title>ВАРИАЩИОННОЕ ИСЧИСЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>294</start>
+    <end>297</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М о и с е е в Н. Н., Численные методы в теории оптимальных систем, М., 1971; [2] К а н т о р о в и ч Ј. В., К р ы л о в В. И., Приближенные методы высшего анализа, 5 изд., М.- Л., 1962: [3] И с а е в В. К., С о н и н В. В., «ж. вычисл. матем. и матем. физ.», 1965, т. 5, № 2, с. 252-61; [4] Д жу у ов ич C., M а ин т а й р Д., &quot;ракетная тех-![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=47&amp;width=816&amp;top_left_y=2166&amp;top_left_x=134)![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=47&amp;width=819&amp;top_left_y=2191&amp;top_left_x=131)Iii а т р о в с к и й Л. И., &quot;жк. вычисл. матем. и матем. физ,&quot;,1962 , т. 2 , № 3 , с. $488-91 ;$ [7] Э н е е в Т. М.. &quot;космические исследования&quot;, 1966, т. 4, вып. 5 , с. $651-69$; [8] К р ы ло в И. А., Ч е р н о у с ь к о Ф. Л., &quot;жж. вычисл. матем. и матем. там же, 1964, т. 4, № 6, с. 1045-64; [10] Б е л л м а н $\mathbf{p}$.![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=45&amp;width=829&amp;top_left_y=223&amp;top_left_x=985)[12] М о и с е е в Н. Н., &quot;кибернетика&quot;, 1965, № 1, с. Е р м ол ь е в Ю. М., Гу л е н к о В. П., там же, 1967, № 3,с. $1-20$.</literature_orig>
+    <unit>
+      <author>Моисеев Н. Н.</author>
+      <title>Численные методы в теории оптимальных систем</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>КанторовичЈ. В.</author>
+      <author>Крылов В. И.</author>
+      <title>Приближенные методы высшего анализа</title>
+      <publication>5 изд., М.- Л.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Исаев В. К.</author>
+      <author>Сонин В. В.</author>
+      <title>«ж. вычисл. матем. и матем. физ.»</title>
+      <publication/>
+      <year>1965</year>
+      <other>т. 5, № 2, с. 252-61</other>
+    </unit>
+    <unit>
+      <author>Джууович C.</author>
+      <author>Mаинтайр Д.</author>
+      <author>&quot;ракетнаятех-![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=47&amp;width=816&amp;top_left_y=2166&amp;top_left_x=134)![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=47&amp;width=819&amp;top_left_y=2191&amp;top_left_x=131)Iiiатровский Л. И.</author>
+      <title>&quot;жк. вычисл. матем. и матем. физ, &quot;</title>
+      <publication/>
+      <year>1962</year>
+      <other>т. 2, № 3, с. $488-91 ;$ [7] Э н е е в Т. М.. &quot;космические исследования&quot;, 1966, т. 4, вып. 5, с. $651-69$; [8] К р ы ло в И. А., Ч е р н о у с ь к о Ф. Л., &quot;жж. вычисл. матем. и матем. там же, 1964, т. 4, № 6, с. 1045-64; [10] Б е л л м а н $\mathbf{p}$.![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=45&amp;width=829&amp;top_left_y=223&amp;top_left_x=985)[12] М о и с е е в Н. Н., &quot;кибернетика&quot;, 1965, № 1, с. Е р м ол ь е в Ю. М., Гу л е н к о В. П., там же, 1967, № 3, с. $1-20$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/599_1_VARIASchIONNOE">J=\int_{t_{0}}^{T} f_{0}(t, x, u) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_2_VARIASchIONNOE">\dot{x}=f(t, x, u),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_3_VARIASchIONNOE">x\left(t_{0}\right)=x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_4_VARIASchIONNOE">x(T)=x_{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_5_VARIASchIONNOE">u \in U</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_6_VARIASchIONNOE">\begin{gathered}H(\tilde{u})=\max _{u \in U} H(u)= \\=\max _{u \in U}\left[\sum_{i=1}^{n} \psi_{i} f^{i}(t, x, u)-f^{0}(t, x, u)\right],\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_7_VARIASchIONNOE">\dot{\psi}_{i}=-\frac{\partial \boldsymbol{H}}{\partial x_{i}}, \quad i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_8_VARIASchIONNOE">\varphi_{i}=x^{i}(T)-x_{T}^{i}, \quad i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_9_VARIASchIONNOE">\varphi_{i}\left(\psi_{10}, \ldots, \psi_{n 0}\right)=0, i=1, \ldots, n \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_10_VARIASchIONNOE">\frac{\partial \varphi_{i}}{\partial \psi_{j 0}}, \quad i, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_11_VARIASchIONNOE">\frac{\partial \varphi_{i}}{\partial \psi_{j 0}}=\frac{\varphi_{i}\left(\psi_{10}, \ldots, \psi_{j 0}+\Delta \psi_{j 0}, \ldots, \psi_{n 0}\right)-\varphi_{i}\left(\psi_{10}, \ldots, \psi_{n 0}\right)}{\Delta \psi_{j 0}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_12_VARIASchIONNOE">\psi_{l}\left(t_{0}\right)=\psi_{l_{0}}, \quad \psi_{j}\left(t_{0}\right)=\psi_{j 0}+\Delta \psi_{j 0}, \quad l \neq j</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_13_VARIASchIONNOE">J(x)=\int_{t_{0}}^{t_{1}} F(t, x, \dot{x}) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_14_VARIASchIONNOE">x\left(t_{0}\right)=x_{0}, \quad x\left(t_{1}\right)=x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_15_VARIASchIONNOE">x=\varphi_{0}(t)+\sum_{i=1}^{N} a_{i} \varphi_{i}(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_16_VARIASchIONNOE">J=J\left(a_{1}, \ldots, a_{N}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_17_VARIASchIONNOE">u_{k+1}(t)=u_{k}(t)+\delta u_{k}(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_18_VARIASchIONNOE">J=F(x(T))</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_19_VARIASchIONNOE">\psi_{i}(T)=-\frac{\partial F(x(T))}{\partial x^{i}}, \quad i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_20_VARIASchIONNOE">\delta J=-\int_{t_{0}}^{T} \frac{\partial H}{\partial u} \delta u d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_21_VARIASchIONNOE">\delta u_{k}(t)=x \frac{\partial H}{\partial u}, \quad x&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_22_VARIASchIONNOE">J=F(x(T))+\sum_{i=1}^{n} \lambda_{i}\left(x^{i}(T)-x_{T}^{i}\right)^{2}, \quad \lambda_{i}&gt;0 . \text { (14) }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_23_VARIASchIONNOE">x \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_24_VARIASchIONNOE">J\left(x_{0}, \ldots, x_{N}\right)=\sum_{i=0}^{N-1} f_{i}\left(x_{i}, x_{i+1}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_25_VARIASchIONNOE">x_{i} \in G_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_26_VARIASchIONNOE">l\left(x_{1}\right)=\min _{x_{0} \in G_{0}} f_{0}\left(x_{0}, x_{1}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_27_VARIASchIONNOE">\min _{x_{0} \in G_{0}} J\left(x_{0}, x_{1}, \ldots, x_{N}\right)=l\left(x_{1}\right)+\sum_{i=1}^{N-1} f_{i}\left(x_{i}, x_{i+1}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_28_VARIASchIONNOE">l\left(x_{2}\right)=\min _{x_{1} \in G_{1}}\left(l\left(x_{1}\right)+f_{1}\left(x_{1}, x_{2}\right)\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_29_VARIASchIONNOE">l\left(x_{i+1}\right)=\min _{x_{i} \in G_{i}}\left(l\left(x_{i}\right)+f_{i}\left(x_{i}, x_{i+1}\right)\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_30_VARIASchIONNOE">l=\min _{x_{N} \in G_{N}} l\left(x_{N}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_31_VARIASchIONNOE">l_{k s}(i)=f_{i}\left(\boldsymbol{P}_{k}(i), \boldsymbol{P}_{s}(i+1)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/599_32_VARIASchIONNOE">l_{s}(i+1)=\min _{k}\left(l_{k}(i)+l_{k s}(i)\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_1_VARIASchIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_2_VARIASchIONNOE">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_3_VARIASchIONNOE">x=\left(x^{1}, \ldots, x^{n}\right), u=\left(u^{1}, \ldots, u^{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_4_VARIASchIONNOE">f=\left(f^{1}, \ldots, f^{n}\right), \quad U-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_5_VARIASchIONNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_6_VARIASchIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_7_VARIASchIONNOE">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_8_VARIASchIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_9_VARIASchIONNOE">\psi=\left(\psi_{1}, \ldots, \psi_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_10_VARIASchIONNOE">u(t, x, \psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_11_VARIASchIONNOE">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_12_VARIASchIONNOE">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_13_VARIASchIONNOE">x^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_14_VARIASchIONNOE">\psi_{j}\left(t_{0}\right)=\psi_{j 0}, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_15_VARIASchIONNOE">\psi_{10}, \ldots, \psi_{n 0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_16_VARIASchIONNOE">\varphi_{i}\left(\psi_{10}, \ldots, \psi_{j 0}+\Delta \psi_{j 0}, \ldots, \psi_{n_{0}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_17_VARIASchIONNOE">(2),(7)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_18_VARIASchIONNOE">\delta \psi_{j 0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_19_VARIASchIONNOE">\psi_{j 0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_20_VARIASchIONNOE">2 n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_21_VARIASchIONNOE">\psi_{j 0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_22_VARIASchIONNOE">\left[t_{0}, t_{1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_23_VARIASchIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_24_VARIASchIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_25_VARIASchIONNOE">\varphi_{i}(t), i=0,1, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_26_VARIASchIONNOE">\varphi_{0}\left(t_{0}\right)=x_{0}, \varphi_{0}\left(t_{1}\right)=x_{1}, \varphi_{i}\left(t_{0}\right)=\varphi_{i}\left(t_{1}\right)=0, i=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_27_VARIASchIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_28_VARIASchIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_29_VARIASchIONNOE">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_30_VARIASchIONNOE">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_31_VARIASchIONNOE">\left.a_{i}(\tau)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_32_VARIASchIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_33_VARIASchIONNOE">a_{i}(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_34_VARIASchIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_35_VARIASchIONNOE">u_{k} \in U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_36_VARIASchIONNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_37_VARIASchIONNOE">\delta u_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_38_VARIASchIONNOE">\delta u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_39_VARIASchIONNOE">\partial H / \partial u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_40_VARIASchIONNOE">u_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_41_VARIASchIONNOE">x_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_42_VARIASchIONNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_43_VARIASchIONNOE">u_{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_44_VARIASchIONNOE">|\delta J|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_45_VARIASchIONNOE">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_46_VARIASchIONNOE">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_47_VARIASchIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_48_VARIASchIONNOE">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_49_VARIASchIONNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_50_VARIASchIONNOE">t_{i}, i=0,1, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_51_VARIASchIONNOE">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_52_VARIASchIONNOE">\left\{x_{0}, x_{1}, \ldots, x_{N}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_53_VARIASchIONNOE">x_{0}, \ldots, x_{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_54_VARIASchIONNOE">\sigma_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_55_VARIASchIONNOE">t=t_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_56_VARIASchIONNOE">j\left(x_{0}, \ldots, x_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_57_VARIASchIONNOE">f_{i}\left(x_{i}, x_{i+1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_58_VARIASchIONNOE">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_59_VARIASchIONNOE">\sigma_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_60_VARIASchIONNOE">\sigma_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_61_VARIASchIONNOE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_62_VARIASchIONNOE">\omega_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_63_VARIASchIONNOE">x_{1} \in \Sigma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_64_VARIASchIONNOE">\sigma_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_65_VARIASchIONNOE">\omega_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_66_VARIASchIONNOE">l\left(x_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_67_VARIASchIONNOE">x_{2} \in \Sigma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_68_VARIASchIONNOE">\sigma_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_69_VARIASchIONNOE">\omega_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_70_VARIASchIONNOE">l\left(x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_71_VARIASchIONNOE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_72_VARIASchIONNOE">x_{i+1} \in \Sigma_{i+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_73_VARIASchIONNOE">\sigma_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_74_VARIASchIONNOE">\omega_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_75_VARIASchIONNOE">l\left(x_{i+1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_76_VARIASchIONNOE">\sigma_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_77_VARIASchIONNOE">\sigma_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_78_VARIASchIONNOE">g_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_79_VARIASchIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_80_VARIASchIONNOE">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_81_VARIASchIONNOE">x^{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_82_VARIASchIONNOE">h^{j}(j=1, \ldots, n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_83_VARIASchIONNOE">p_{k}(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_84_VARIASchIONNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_85_VARIASchIONNOE">\sigma_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_86_VARIASchIONNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_87_VARIASchIONNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_88_VARIASchIONNOE">l_{k}(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_89_VARIASchIONNOE">p_{k}(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_90_VARIASchIONNOE">\sigma_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_91_VARIASchIONNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_92_VARIASchIONNOE">g_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_93_VARIASchIONNOE">\sigma_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_94_VARIASchIONNOE">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_95_VARIASchIONNOE">h j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_96_VARIASchIONNOE">h^{j=}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/599_97_VARIASchIONNOE">=o(\tau)</formula>
+  </formulas_aux>
+  <relations n="27">
+    <relation uri="http://libmeta.ru/me/relation/599_1_VARIASchIONNOE">
+      <rel_text>Эйлера метод</rel_text>
+      <target>http://libmeta.ru/me/article/1074_EJLERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_2_VARIASchIONNOE">
+      <rel_text>математическая</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_3_VARIASchIONNOE">
+      <rel_text>Оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_4_VARIASchIONNOE">
+      <rel_text>Эйлера уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/1085_EJLERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_5_VARIASchIONNOE">
+      <rel_text>Вариационное исчисление</rel_text>
+      <target>http://libmeta.ru/me/article/598_VARIATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_6_VARIASchIONNOE">
+      <rel_text>волны</rel_text>
+      <target>http://libmeta.ru/me/article/776_VOLN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_7_VARIASchIONNOE">
+      <rel_text>Локальных вариаций метод</rel_text>
+      <target>http://libmeta.ru/me/article/466_LOKAL'NYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_8_VARIASchIONNOE">
+      <rel_text>экстремум</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_9_VARIASchIONNOE">
+      <rel_text>полученного</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_10_VARIASchIONNOE">
+      <rel_text>экстремум</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_11_VARIASchIONNOE">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_12_VARIASchIONNOE">
+      <rel_text>предъявляет</rel_text>
+      <target>http://libmeta.ru/me/article/606_PREDPORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_13_VARIASchIONNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_14_VARIASchIONNOE">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_15_VARIASchIONNOE">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_16_VARIASchIONNOE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_17_VARIASchIONNOE">
+      <rel_text>экстремум</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_18_VARIASchIONNOE">
+      <rel_text>минимум</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_19_VARIASchIONNOE">
+      <rel_text>гиперплоскости</rel_text>
+      <target>http://libmeta.ru/me/article/1069_GIPERPJOSKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_20_VARIASchIONNOE">
+      <rel_text>минимум</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_21_VARIASchIONNOE">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_22_VARIASchIONNOE">
+      <rel_text>гиперплоскостью</rel_text>
+      <target>http://libmeta.ru/me/article/1069_GIPERPJOSKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_23_VARIASchIONNOE">
+      <rel_text>длина</rel_text>
+      <target>http://libmeta.ru/me/article/319_DLIN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_24_VARIASchIONNOE">
+      <rel_text>отрезка</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_25_VARIASchIONNOE">
+      <rel_text>гиперплоскости</rel_text>
+      <target>http://libmeta.ru/me/article/1069_GIPERPJOSKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_26_VARIASchIONNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/599_27_VARIASchIONNOE">
+      <rel_text>строится</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+  </relations>
+  <text>ч И с л е н н Ы м е т о ды - раздел вычислительной математики, посвященный методам отыскания экстремальных значений функционалов.
+
+Численные методы В. и. принято разделять на два болыших класса: непрямые и прямые методы. Неирямые методы основаны на использовании необходимых условий оптимальности (см. URI[[http://libmeta.ru/me/relation/599_5_VARIASchIONNOE]]/URI, URI[[http://libmeta.ru/me/relation/599_4_VARIASchIONNOE]]/URI, Вейерштрасса условия, Трансверсальности условие, Понтрягина принцип лаксимума), с помощью к-рых исходная вариационная задача сводится к краевой задаче. Поэтому вычислительные достоинства и недостатки непрямых методов полностью определяются свойствами соответствующей краевой задачи. Прямые методы ориентированы на непосредственное отыскание экстремума функционала. Используемые при этом методы оптимизации являются развитием идей математич. программирования. Разделение численных методов В. и. на прямые и вепрямые весьма условно. Нек-рые алгоритмы используют элементы обоих подходов. Кроме того, существуют методы, к-рые непосредственно не относятся к двум выделенным классам. Например, методы, основанные на достаточных условиях оптимальности, образуют самостоятельную группу.
+
+Первые численные методы В. и. появились в работах Л. Эйлера (l. Euler). Однако наибольшее развитие они получили с 50-х гr. 20 в. в результате распространения вычислительной техники й открывшейся в связи с этим возможностью решения сложных технич. задач. При этом разработка численных методов В. и. шла в основном применительно к задачам теории оптимального управления - наиболее важного для практич. приложений раздела В. и. (см. URI[[http://libmeta.ru/me/relation/599_3_VARIASchIONNOE]]/URI URI[[http://libmeta.ru/me/relation/599_2_VARIASchIONNOE]]/URI теория).
+
+Непрямые методы. С появлением принципа максимума Понтрягина (1956) сведение вариационных задач к краевым стало особенно популярным.
+
+Пусть в задаче оптимального управления требуется найти траекторию $URI[[http://libmeta.ru/me/formula/aux/599_1_VARIASchIONNOE]]/URI$ и управление $URI[[http://libmeta.ru/me/formula/aux/599_2_VARIASchIONNOE]]/URI$, доставляющие минимум функционалу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_1_VARIASchIONNOE]]/URI
+\]
+
+при диффференциальных связях:
+
+граничных условиях:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_2_VARIASchIONNOE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_3_VARIASchIONNOE]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/599_4_VARIASchIONNOE]]/URI
+\]
+
+и ограничениях на управление:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_5_VARIASchIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/599_3_VARIASchIONNOE]]/URI$ - векторы фазовых координат и управлений, $URI[[http://libmeta.ru/me/formula/aux/599_4_VARIASchIONNOE]]/URI$ замкнутое множество $URI[[http://libmeta.ru/me/formula/aux/599_5_VARIASchIONNOE]]/URI$-мерного пространства, $URI[[http://libmeta.ru/me/formula/aux/599_6_VARIASchIONNOE]]/URI$ независимое переменное (время).
+
+Согласно принципу максимума Понтрягина, оптимальное управление $URI[[http://libmeta.ru/me/formula/aux/599_7_VARIASchIONNOE]]/URI$ должно при каждом $URI[[http://libmeta.ru/me/formula/aux/599_8_VARIASchIONNOE]]/URI$ доставлять абсолютный максимум Гамильтона бункции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_6_VARIASchIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/599_9_VARIASchIONNOE]]/URI$ определяется системой уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_7_VARIASchIONNOE]]/URI
+\]
+
+Из условия (6) находится управление $URI[[http://libmeta.ru/me/formula/aux/599_10_VARIASchIONNOE]]/URI$ п подставляется в (2) и (7). В ревультате получается замкнутая краевая задача для системы $URI[[http://libmeta.ru/me/formula/aux/599_11_VARIASchIONNOE]]/URI$ дифференциальных уравнений (2) и (7) с $URI[[http://libmeta.ru/me/formula/aux/599_12_VARIASchIONNOE]]/URI$ граничными условиями (3) и (4).
+
+Наиболее распространенной схемой численного решения этой краевой задачи является схема, использующая метод Ньютона с дроблением шага (см. [3]). При этом вводится вектор невязки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_8_VARIASchIONNOE]]/URI
+\]
+
+где значение $URI[[http://libmeta.ru/me/formula/aux/599_13_VARIASchIONNOE]]/URI$ получается из решения задачи Коши для системы (2), (7) с начальными условиями (3) п $URI[[http://libmeta.ru/me/formula/aux/599_14_VARIASchIONNOE]]/URI$. Невязки (8) рассматриваются как функции от неизвестных $URI[[http://libmeta.ru/me/formula/aux/599_15_VARIASchIONNOE]]/URI$, к-рые определяітся из системы уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_9_VARIASchIONNOE]]/URI
+\]
+
+Решение системы (9) проводится Ньютона методом; используемые при этом частные производные
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_10_VARIASchIONNOE]]/URI
+\]
+
+определяются численно по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_11_VARIASchIONNOE]]/URI
+\]
+
+где значения $URI[[http://libmeta.ru/me/formula/aux/599_16_VARIASchIONNOE]]/URI$ получаются путем решения задачи Коши для системы $URI[[http://libmeta.ru/me/formula/aux/599_17_VARIASchIONNOE]]/URI$ с начальными условиями (3) и условиями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_12_VARIASchIONNOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/599_18_VARIASchIONNOE]]/URI$ - малое приращение величины $URI[[http://libmeta.ru/me/formula/aux/599_19_VARIASchIONNOE]]/URI$.
+
+Для определения частных производных известен более точный, но громоздкий метод (см. [4]), в к-ром используется интегрирование системы $URI[[http://libmeta.ru/me/formula/aux/599_20_VARIASchIONNOE]]/URI$ уравнений в вариациях для системы (2), (7).
+
+Трудности в использовании метода Ньютона связаны, во-первых, с проблемой выбора удачного начального приближения для $URI[[http://libmeta.ru/me/formula/aux/599_21_VARIASchIONNOE]]/URI$ и, во-вторых, с неустойчивостью задачи Коши, к-рая особенно сильно проявляется на больших интервалах $URI[[http://libmeta.ru/me/formula/aux/599_22_VARIASchIONNOE]]/URI$. Для преодоления первой трудности не существует универсального подхода. Для преодоления неустойчивости задачи Коши имеется ряд приемов (коши задача; численные методы).
+
+В тех случаях, когда граничные условия и функционал заданы в более общем виде, чем в (3), (4) и (1) [напр., Больца задача с подвижными концами, вариачионная задача со свободными (подвижными) концами], к необходимым условиям оптимальности (6), (7) добавляются трансверсальности условия. После исключения входящих в эти условия произвольных постоянных получаются замкнутая краевая задача и отвечающая ей система уравнений типа (9).
+
+Решение системы (9) может отыскиваться любым другим методом, применяемым для решения нелинейных систем.
+
+Специфич. методы разработаны для решения краевых задач частного вида. Так, линейные краевые задачи решаются методом переноса граничных условий (прогонки метод). Этот метод также используется в качестве составного элемента для итеративного решения нелинейных краевых задач (см. [1]).
+
+Эффективность и относительная простота реализации непрямых методов на Эвм сделали их весьма распространенным средством для решения задач вариационного исчисления. Однако эти методы не стали универсальными: для некоторых важных классов задач В. и., например, содержащих фазовые ограничения, выписывание необходимых условий оптимальности затруднено и приводит к краевым задачам со сложной структурой. Кроме того, необходимые условия не гарантируют, что найденное решение доставляет относительный экстремум функционалу. Для проверки приходится привлекать достаточные условия оптимальности. Все это ограничивает сферу применения непрямых методов.
+
+Прямые методы. Первый прямой метод был предложен Л. Эйлером для решения простейшей задачи В. и. Этот метод известен под названием метода ломаных Эйлера (или конечно разностного метода Эйлера) и заключается в том, что функционал
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_13_VARIASchIONNOE]]/URI
+\]
+
+рассматривается на непрерывных ломаных $URI[[http://libmeta.ru/me/formula/aux/599_23_VARIASchIONNOE]]/URI$, удовлетворяющих заданным граничным условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_14_VARIASchIONNOE]]/URI
+\]
+
+И состоящих из $URI[[http://libmeta.ru/me/formula/aux/599_24_VARIASchIONNOE]]/URI$ прямолинейных отрезков с заданными абсциссами концов. Таким образом, функционал превращается в функцию от ординат вершин этих ломаных, а исходная задача - в задачу минимизации функции многих переменных (см. URI[[http://libmeta.ru/me/relation/599_1_VARIASchIONNOE]]/URI).
+
+Из-за сложности подобных задач для ручного счета прямые методы долгое время оставались в стороне от традиционных исследований по В. И. Интерес к ним вновь возрос в нач. 20 в. Были предложены новые способы редукции к задаче об отыскании экстремума функции многих переменных. Наиболее важным из них является Ритца метод, согласно к-рому решение задачи о минимуме (10) при условии (11) разыскивается на классе функций вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_15_VARIASchIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/599_25_VARIASchIONNOE]]/URI$ - элементы бесконечной полной системы линейно независимых функций, удовлетворяющих граничным условиям
+
+$URI[[http://libmeta.ru/me/formula/aux/599_26_VARIASchIONNOE]]/URI$ Задача сводится к отысканию минимума функции $URI[[http://libmeta.ru/me/formula/aux/599_27_VARIASchIONNOE]]/URI$ переменных
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_16_VARIASchIONNOE]]/URI
+\]
+
+Метод Ритца является достаточно общим. Он применяется для решения вариационных задач математич. физики, заключающихся в минимизации функционала, зависящего от функций многих переменных. Его дальнейшим обобщением для данного класса задач является метод (см. [2]), в к-ром коэффициенты считаются неизвестными функциями одного из независимых переменных (напр., если в задаче две независимые переменные $URI[[http://libmeta.ru/me/formula/aux/599_28_VARIASchIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/599_29_VARIASchIONNOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/599_30_VARIASchIONNOE]]/URI$ могут задаваться в виде $URI[[http://libmeta.ru/me/formula/aux/599_31_VARIASchIONNOE]]/URI$. Исходный функционал становится зависящим от $URI[[http://libmeta.ru/me/formula/aux/599_32_VARIASchIONNOE]]/URI$ функций $URI[[http://libmeta.ru/me/formula/aux/599_33_VARIASchIONNOE]]/URI$, к-рые могут определяться с помощью необходимых условий, т. е., в конечном счете, из решения краевой задачи для системы $URI[[http://libmeta.ru/me/formula/aux/599_34_VARIASchIONNOE]]/URI$ уравнений Әйлера.
+
+Потребности практики увеличили интерес к неклассич. задачам оптимального управления. Наличие в технич. задачах сложных ограничений на фазовые координаты и управляющие функции, разрывность правых частей дифференциальных уравнений, возможность существования особых и скользящих оптимальных режимов И т. Д. - все это потребовало разработки новых разновидностей прямых методов. Наибольшее распространение получили методы, использующие идеи спуска в пространстве управлений и идеи последовательного анализа вариантов (типа динамического програ.м.ирования).
+
+Методы спуска в пространстве управлений основаны на получении последовательности управлений $URI[[http://libmeta.ru/me/formula/aux/599_35_VARIASchIONNOE]]/URI$ вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_17_VARIASchIONNOE]]/URI
+\]
+
+к-рой соответствует монотонно убывающая последовательность значений функционала. Пусть, напр., ищется минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_18_VARIASchIONNOE]]/URI
+\]
+
+при условиях (2), (3) п (5) ( $URI[[http://libmeta.ru/me/formula/aux/599_36_VARIASchIONNOE]]/URI$ - выпуклое и односвязное множество). Отыскание $URI[[http://libmeta.ru/me/formula/aux/599_37_VARIASchIONNOE]]/URI$ производится следующим образом. С помощью уравнений в вариациях для (2) и сопряженной системы (7) с условиями на правом конце
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_19_VARIASchIONNOE]]/URI
+\]
+
+линейная часть приращения функционала (13) от вариации $URI[[http://libmeta.ru/me/formula/aux/599_38_VARIASchIONNOE]]/URI$ представляется в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_20_VARIASchIONNOE]]/URI
+\]
+
+Для уменьшения функционала (13) следует на каждой птерации выбирать приращение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_21_VARIASchIONNOE]]/URI
+\]
+
+где величина $URI[[http://libmeta.ru/me/formula/aux/599_39_VARIASchIONNOE]]/URI$ вычисляется на управлении $URI[[http://libmeta.ru/me/formula/aux/599_40_VARIASchIONNOE]]/URI$ и соответствующей ему траектории $URI[[http://libmeta.ru/me/formula/aux/599_41_VARIASchIONNOE]]/URI$. Закон- ность линеаризации, а следовательно, и уменьшение функционала (13) обеспечиваются выбором достаточно малой величины $URI[[http://libmeta.ru/me/formula/aux/599_42_VARIASchIONNOE]]/URI$. Процесс спуска (12) начинается с нек-рого $URI[[http://libmeta.ru/me/formula/aux/599_43_VARIASchIONNOE]]/URI$ и заканчивается, когда на нек-рой итерации $URI[[http://libmeta.ru/me/formula/aux/599_44_VARIASchIONNOE]]/URI$ становится меныше нек-рого заданного $URI[[http://libmeta.ru/me/formula/aux/599_45_VARIASchIONNOE]]/URI$. Для описанного случая свободного правого конца алгоритм получается наиболее простым (см. [5], [6], [7]). Весьма эффективным для решения задач со свободным концом является метод (см. [8]), к-рый не использует линеаризации исходной задачи. В случае, когда граничные условия заданы и на правом конце, все эти алгоритмы существенно усложняются. Для учета граничных условий в [5] привлекается процедура проектирования градиента, а в [6] вводится штраф за невыполнение граничных условий, т. е. вместо (13) рассматрив ается функционал
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_22_VARIASchIONNOE]]/URI
+\]
+
+К градиентным методам примыкает метод [9], в к-ром приращение управления определяется из решения вспомогательной задачи линейного программирования.
+
+Болышая группа прямых методов численного решения задач оптимального управления основана на идеях последовательного анализа вариантов (см. [10], [11], [12]). Важным достоинством этих методов является то, что с их помощью удается решать задачи с фазовыми ограничениями вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_23_VARIASchIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/599_46_VARIASchIONNOE]]/URI$ - замкнутое множество $URI[[http://libmeta.ru/me/formula/aux/599_47_VARIASchIONNOE]]/URI$-мерного пространства. Их основной недостаток - существенное возрастание трудностей с увеличением размерности пространства. Эти методы используют редукцию исходной задачи к задаче нелинейного программирования специального вида. Распространены два способа такой редукции. Согласно первому способу в конечном итоге получается задача минимизации функции, зависящей только от управлений, заданных в точках дискретной сетки на оси (см. [13]). Во втором способе (см. [12]) управление исключается и задача сводится к минимизации функции вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_24_VARIASchIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/599_48_VARIASchIONNOE]]/URI$ - значение вектора $URI[[http://libmeta.ru/me/formula/aux/599_49_VARIASchIONNOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/599_50_VARIASchIONNOE]]/URI$, при ограничения $URI[[http://libmeta.ru/me/formula/aux/599_51_VARIASchIONNOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_25_VARIASchIONNOE]]/URI
+\]
+
+к-рые получаются из ограничений (3), (4), (15). Для пояснения схемы решения задачи минимизации (16) при условиях (17) удобно использовать следующую геометрич. интерпретацию. Каждой совокупности векторов $URI[[http://libmeta.ru/me/formula/aux/599_52_VARIASchIONNOE]]/URI$ ставится в соответствие ломаная (см. рис.), к-рая проходит через точки $URI[[http://libmeta.ru/me/formula/aux/599_53_VARIASchIONNOE]]/URI$, лежащие в гиперплоскостях $URI[[http://libmeta.ru/me/formula/aux/599_54_VARIASchIONNOE]]/URI$, задаваемых уравненияміи $URI[[http://libmeta.ru/me/formula/aux/599_55_VARIASchIONNOE]]/URI$. Длина этой ломаной $URI[[http://libmeta.ru/me/formula/aux/599_56_VARIASchIONNOE]]/URI$ складывается из длин $URI[[http://libmeta.ru/me/formula/aux/599_57_VARIASchIONNOE]]/URI$ отдельных
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_bf066e4eec0e8313418cg-1.jpg?height=286&amp;width=405&amp;top_left_y=1683&amp;top_left_x=1405)
+звеньев. Область допустимых значений $URI[[http://libmeta.ru/me/formula/aux/599_58_VARIASchIONNOE]]/URI$ задается (17) и эта область отделяется от запретной нек-рой ломаной (на рис. запретная область заштрихована). Задача состоит в отыскании ломаной наименышей длины, лежащей в допустимой области и соединя ющей гиперплоскости $URI[[http://libmeta.ru/me/formula/aux/599_59_VARIASchIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/599_60_VARIASchIONNOE]]/URI$. Алгоритм решения задачи представляет собой многошаговый процесс, на каждом шаге $URI[[http://libmeta.ru/me/formula/aux/599_61_VARIASchIONNOE]]/URI$ к-рого отметается нек-рое множество вариантов $URI[[http://libmeta.ru/me/formula/aux/599_62_VARIASchIONNOE]]/URI$, заведомо не содержащее оптимальной ломаной. На нулевом шаге определяется функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_26_VARIASchIONNOE]]/URI
+\] т. е. длина кратчайшего звена, соединяющего каждую тотку $URI[[http://libmeta.ru/me/formula/aux/599_63_VARIASchIONNOE]]/URI$ с гиперплоскостью $URI[[http://libmeta.ru/me/formula/aux/599_64_VARIASchIONNOE]]/URI$. Так как
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_27_VARIASchIONNOE]]/URI
+\]
+
+то множество ломаных $URI[[http://libmeta.ru/me/formula/aux/599_65_VARIASchIONNOE]]/URI$, не содержащих отрезка $URI[[http://libmeta.ru/me/formula/aux/599_66_VARIASchIONNOE]]/URI$, может быть отброшено. На первом шаге строится кратчайшая ломаная
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_28_VARIASchIONNOE]]/URI
+\]
+
+соединяющая каждую точку $URI[[http://libmeta.ru/me/formula/aux/599_67_VARIASchIONNOE]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/599_68_VARIASchIONNOE]]/URI$, и множество ломаных $URI[[http://libmeta.ru/me/formula/aux/599_69_VARIASchIONNOE]]/URI$, не содержащих ломаной $URI[[http://libmeta.ru/me/formula/aux/599_70_VARIASchIONNOE]]/URI$, также отбрасывается, и т. Д. На $URI[[http://libmeta.ru/me/formula/aux/599_71_VARIASchIONNOE]]/URI$-м шаге строится кратчайшая ломаная
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_29_VARIASchIONNOE]]/URI
+\]
+
+соединяющая каждую точку $URI[[http://libmeta.ru/me/formula/aux/599_72_VARIASchIONNOE]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/599_73_VARIASchIONNOE]]/URI$, и отбрасывается множество ломаных $URI[[http://libmeta.ru/me/formula/aux/599_74_VARIASchIONNOE]]/URI$, не содержащих ломаной $URI[[http://libmeta.ru/me/formula/aux/599_75_VARIASchIONNOE]]/URI$. На последнем шаге находится решение исходной задачи - кратчайшая ломаная, соединяющая гиперповерхности $URI[[http://libmeta.ru/me/formula/aux/599_76_VARIASchIONNOE]]/URI$ п $URI[[http://libmeta.ru/me/formula/aux/599_77_VARIASchIONNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_30_VARIASchIONNOE]]/URI
+\]
+
+Формула (18) - рекуррентное соотношение, описывающее многошаговый процесс отыскания решения. На этом соотношении основаны динамич. программирование и принцип оптимальности Беллмана.
+
+В соответствии с (18) необходимо отыскивать минимум на множествах $URI[[http://libmeta.ru/me/formula/aux/599_78_VARIASchIONNOE]]/URI$, имеющих, вообще говоря, мощность континуума. При численной реализации используется их конечномерная аппроксимация. Для этого, кроме сетки, по $URI[[http://libmeta.ru/me/formula/aux/599_79_VARIASchIONNOE]]/URI$ (напр., с постоянным шагом $URI[[http://libmeta.ru/me/formula/aux/599_80_VARIASchIONNOE]]/URI$ ) URI[[http://libmeta.ru/me/relation/599_27_VARIASchIONNOE]]/URI сетка по $URI[[http://libmeta.ru/me/formula/aux/599_81_VARIASchIONNOE]]/URI$ с шагом $URI[[http://libmeta.ru/me/formula/aux/599_82_VARIASchIONNOE]]/URI$. Тогда URI[[http://libmeta.ru/me/relation/599_26_VARIASchIONNOE]]/URI сводится к отысканию кратчайшего пути на специальном графе с вершинами - узлами сетки. Пусть $URI[[http://libmeta.ru/me/formula/aux/599_83_VARIASchIONNOE]]/URI$ - узел $URI[[http://libmeta.ru/me/formula/aux/599_84_VARIASchIONNOE]]/URI$, лежащий в URI[[http://libmeta.ru/me/relation/599_25_VARIASchIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/599_85_VARIASchIONNOE]]/URI$;
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_31_VARIASchIONNOE]]/URI
+\]
+
+一длина URI[[http://libmeta.ru/me/relation/599_24_VARIASchIONNOE]]/URI, соединяющего два узла $URI[[http://libmeta.ru/me/formula/aux/599_86_VARIASchIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/599_87_VARIASchIONNOE]]/URI$ в соседних гиперплоскостях,$URI[[http://libmeta.ru/me/formula/aux/599_88_VARIASchIONNOE]]/URI$ - URI[[http://libmeta.ru/me/relation/599_23_VARIASchIONNOE]]/URI наикратчайшего пути, соединяющего узел $URI[[http://libmeta.ru/me/formula/aux/599_89_VARIASchIONNOE]]/URI$ с URI[[http://libmeta.ru/me/relation/599_22_VARIASchIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/599_90_VARIASchIONNOE]]/URI$. Тогда рекуррентное соотношение (18) имеет URI[[http://libmeta.ru/me/relation/599_21_VARIASchIONNOE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/599_32_VARIASchIONNOE]]/URI
+\]
+
+где URI[[http://libmeta.ru/me/relation/599_20_VARIASchIONNOE]]/URI берется по номерам $URI[[http://libmeta.ru/me/formula/aux/599_91_VARIASchIONNOE]]/URI$ всех узлов, к-рые лежат в допустимой области $URI[[http://libmeta.ru/me/formula/aux/599_92_VARIASchIONNOE]]/URI$ URI[[http://libmeta.ru/me/relation/599_19_VARIASchIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/599_93_VARIASchIONNOE]]/URI$. В общем случае этот URI[[http://libmeta.ru/me/relation/599_18_VARIASchIONNOE]]/URI отыскивается перебором по всем узлам. Изложенный метод позволяет отыскивать глобальный URI[[http://libmeta.ru/me/relation/599_17_VARIASchIONNOE]]/URI URI[[http://libmeta.ru/me/relation/599_16_VARIASchIONNOE]]/URI (16) при ограничениях (3), (4), (15) с точностью, определяемой шагами сетки $URI[[http://libmeta.ru/me/formula/aux/599_94_VARIASchIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/599_95_VARIASchIONNOE]]/URI$. Для URI[[http://libmeta.ru/me/relation/599_15_VARIASchIONNOE]]/URI URI[[http://libmeta.ru/me/relation/599_14_VARIASchIONNOE]]/URI к решению исходной URI[[http://libmeta.ru/me/relation/599_13_VARIASchIONNOE]]/URI необходимо наличие определенных соотношений между этими шагами [напр., вида $URI[[http://libmeta.ru/me/formula/aux/599_96_VARIASchIONNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/599_97_VARIASchIONNOE]]/URI$. Метод URI[[http://libmeta.ru/me/relation/599_12_VARIASchIONNOE]]/URI большие требования к быстродействию и памяти URI[[http://libmeta.ru/me/relation/599_11_VARIASchIONNOE]]/URI. Поэтому при практич. реализации сначала находят URI[[http://libmeta.ru/me/relation/599_10_VARIASchIONNOE]]/URI на грубой сетке, а затем в окрестности URI[[http://libmeta.ru/me/relation/599_9_VARIASchIONNOE]]/URI решения его уточняют на более мелкой сетке. Это делается с помощью одного из методов, позволяющих отыскивать локальный URI[[http://libmeta.ru/me/relation/599_8_VARIASchIONNOE]]/URI (см. Блуждающей трубки метод, URI[[http://libmeta.ru/me/relation/599_7_VARIASchIONNOE]]/URI. Беаущей URI[[http://libmeta.ru/me/relation/599_6_VARIASchIONNOE]]/URI метод).</text>
+  <text_orig>ч И с л е н н Ы м е т о ды - раздел вычислительной математики, посвященный методам отыскания экстремальных значений функционалов.
+
+Численные методы В. и. принято разделять на два болыших класса: непрямые и прямые методы. Неирямые методы основаны на использовании необходимых условий оптимальности (см. Вариационное исчисление, Эйлера уравнение, Вейерштрасса условия, Трансверсальности условие, Понтрягина принцип лаксимума), с помощью к-рых исходная вариационная задача сводится к краевой задаче. Поэтому вычислительные достоинства и недостатки непрямых методов полностью определяются свойствами соответствующей краевой задачи. Прямые методы ориентированы на непосредственное отыскание экстремума функционала. Используемые при этом методы оптимизации являются развитием идей математич. программирования. Разделение численных методов В. и. на прямые и вепрямые весьма условно. Нек-рые алгоритмы используют элементы обоих подходов. Кроме того, существуют методы, к-рые непосредственно не относятся к двум выделенным классам. Например, методы, основанные на достаточных условиях оптимальности, образуют самостоятельную группу.
+
+Первые численные методы В. и. появились в работах Л. Эйлера (L. Euler). Однако наибольшее развитие они получили с 50-х гr. 20 в. в результате распространения вычислительной техники й открывшейся в связи с этим возможностью решения сложных технич. задач. При этом разработка численных методов В. и. шла в основном применительно к задачам теории оптимального управления - наиболее важного для практич. приложений раздела В. и. (см. Оптимального управления математическая теория).
+
+Непрямые методы. С появлением принципа максимума Понтрягина (1956) сведение вариационных задач к краевым стало особенно популярным.
+
+Пусть в задаче оптимального управления требуется найти траекторию $x(t)$ и управление $u(t)$, доставляющие минимум функционалу
+
+\[
+J=\int_{t_{0}}^{T} f_{0}(t, x, u) d t
+\]
+
+при диффференциальных связях:
+
+граничных условиях:
+
+\[
+\dot{x}=f(t, x, u),
+\]
+
+\[
+x\left(t_{0}\right)=x_{0}
+\]\[
+x(T)=x_{T}
+\]
+
+и ограничениях на управление:
+
+\[
+u \in U
+\]
+
+где $x=\left(x^{1}, \ldots, x^{n}\right), u=\left(u^{1}, \ldots, u^{m}\right)$ - векторы фазовых координат и управлений, $f=\left(f^{1}, \ldots, f^{n}\right), \quad U-$ замкнутое множество $m$-мерного пространства, $t$ независимое переменное (время).
+
+Согласно принципу максимума Понтрягина, оптимальное управление $u(t)$ должно при каждом $t$ доставлять абсолютный максимум Гамильтона бункции
+
+\[
+\begin{gathered}
+H(\tilde{u})=\max _{u \in U} H(u)= \\
+=\max _{u \in U}\left[\sum_{i=1}^{n} \psi_{i} f^{i}(t, x, u)-f^{0}(t, x, u)\right],
+\end{gathered}
+\]
+
+где $\psi=\left(\psi_{1}, \ldots, \psi_{n}\right)$ определяется системой уравнений
+
+\[
+\dot{\psi}_{i}=-\frac{\partial \boldsymbol{H}}{\partial x_{i}}, \quad i=1, \ldots, n
+\]
+
+Из условия (6) находится управление $u(t, x, \psi)$ п подставляется в (2) и (7). В ревультате получается замкнутая краевая задача для системы $2 n$ дифференциальных уравнений (2) и (7) с $2 n$ граничными условиями (3) и (4).
+
+Наиболее распространенной схемой численного решения этой краевой задачи является схема, использующая метод Ньютона с дроблением шага (см. [3]). При этом вводится вектор невязки
+
+\[
+\varphi_{i}=x^{i}(T)-x_{T}^{i}, \quad i=1, \ldots, n
+\]
+
+где значение $x^{i}(T)$ получается из решения задачи Коши для системы (2), (7) с начальными условиями (3) п $\psi_{j}\left(t_{0}\right)=\psi_{j 0}, j=1, \ldots, n$. Невязки (8) рассматриваются как функции от неизвестных $\psi_{10}, \ldots, \psi_{n 0}$, к-рые определяітся из системы уравнений
+
+\[
+\varphi_{i}\left(\psi_{10}, \ldots, \psi_{n 0}\right)=0, i=1, \ldots, n \text {. }
+\]
+
+Решение системы (9) проводится Ньютона методом; используемые при этом частные производные
+
+\[
+\frac{\partial \varphi_{i}}{\partial \psi_{j 0}}, \quad i, j=1, \ldots, n
+\]
+
+определяются численно по формуле
+
+\[
+\frac{\partial \varphi_{i}}{\partial \psi_{j 0}}=\frac{\varphi_{i}\left(\psi_{10}, \ldots, \psi_{j 0}+\Delta \psi_{j 0}, \ldots, \psi_{n 0}\right)-\varphi_{i}\left(\psi_{10}, \ldots, \psi_{n 0}\right)}{\Delta \psi_{j 0}},
+\]
+
+где значения $\varphi_{i}\left(\psi_{10}, \ldots, \psi_{j 0}+\Delta \psi_{j 0}, \ldots, \psi_{n_{0}}\right)$ получаются путем решения задачи Коши для системы $(2),(7)$ с начальными условиями (3) и условиями
+
+\[
+\psi_{l}\left(t_{0}\right)=\psi_{l_{0}}, \quad \psi_{j}\left(t_{0}\right)=\psi_{j 0}+\Delta \psi_{j 0}, \quad l \neq j
+\]
+
+$\Delta \psi_{j 0}$ - малое приращение величины $\psi_{j 0}$.
+
+Для определения частных производных известен более точный, но громоздкий метод (см. [4]), в к-ром используется интегрирование системы $2 n$ уравнений в вариациях для системы (2), (7).
+
+Трудности в использовании метода Ньютона связаны, во-первых, с проблемой выбора удачного начального приближения для $\psi_{j 0}$ и, во-вторых, с неустойчивостью задачи Коши, к-рая особенно сильно проявляется на больших интервалах $\left[t_{0}, t_{1}\right]$. Для преодоления первой трудности не существует универсального подхода. Для преодоления неустойчивости задачи Коши имеется ряд приемов (Коши задача; численные методы).
+
+В тех случаях, когда граничные условия и функционал заданы в более общем виде, чем в (3), (4) и (1) [напр., Больца задача с подвижными концами, вариачионная задача со свободными (подвижными) концами], к необходимым условиям оптимальности (6), (7) добавляются трансверсальности условия. После исключения входящих в эти условия произвольных постоянных получаются замкнутая краевая задача и отвечающая ей система уравнений типа (9).
+
+Решение системы (9) может отыскиваться любым другим методом, применяемым для решения нелинейных систем.
+
+Специфич. методы разработаны для решения краевых задач частного вида. Так, линейные краевые задачи решаются методом переноса граничных условий (прогонки метод). Этот метод также используется в качестве составного элемента для итеративного решения нелинейных краевых задач (см. [1]).
+
+Эффективность и относительная простота реализации непрямых методов на ЭВМ сделали их весьма распространенным средством для решения задач вариационного исчисления. Однако эти методы не стали универсальными: для некоторых важных классов задач В. и., например, содержащих фазовые ограничения, выписывание необходимых условий оптимальности затруднено и приводит к краевым задачам со сложной структурой. Кроме того, необходимые условия не гарантируют, что найденное решение доставляет относительный экстремум функционалу. Для проверки приходится привлекать достаточные условия оптимальности. Все это ограничивает сферу применения непрямых методов.
+
+Прямые методы. Первый прямой метод был предложен Л. Эйлером для решения простейшей задачи В. и. Этот метод известен под названием метода ломаных Эйлера (или конечно разностного метода Эйлера) и заключается в том, что функционал
+
+\[
+J(x)=\int_{t_{0}}^{t_{1}} F(t, x, \dot{x}) d t
+\]
+
+рассматривается на непрерывных ломаных $x(t)$, удовлетворяющих заданным граничным условиям
+
+\[
+x\left(t_{0}\right)=x_{0}, \quad x\left(t_{1}\right)=x_{1}
+\]
+
+И состоящих из $N$ прямолинейных отрезков с заданными абсциссами концов. Таким образом, функционал превращается в функцию от ординат вершин этих ломаных, а исходная задача - в задачу минимизации функции многих переменных (см. Эйлера метод).
+
+Из-за сложности подобных задач для ручного счета прямые методы долгое время оставались в стороне от традиционных исследований по В. И. Интерес к ним вновь возрос в нач. 20 в. Были предложены новые способы редукции к задаче об отыскании экстремума функции многих переменных. Наиболее важным из них является Ритца метод, согласно к-рому решение задачи о минимуме (10) при условии (11) разыскивается на классе функций вида
+
+\[
+x=\varphi_{0}(t)+\sum_{i=1}^{N} a_{i} \varphi_{i}(t),
+\]
+
+где $\varphi_{i}(t), i=0,1, \ldots, N$ - элементы бесконечной полной системы линейно независимых функций, удовлетворяющих граничным условиям
+
+$\varphi_{0}\left(t_{0}\right)=x_{0}, \varphi_{0}\left(t_{1}\right)=x_{1}, \varphi_{i}\left(t_{0}\right)=\varphi_{i}\left(t_{1}\right)=0, i=1,2, \ldots$ Задача сводится к отысканию минимума функции $N$ переменных
+
+\[
+J=J\left(a_{1}, \ldots, a_{N}\right) .
+\]
+
+Метод Ритца является достаточно общим. Он применяется для решения вариационных задач математич. физики, заключающихся в минимизации функционала, зависящего от функций многих переменных. Его дальнейшим обобщением для данного класса задач является метод (см. [2]), в к-ром коэффициенты считаются неизвестными функциями одного из независимых переменных (напр., если в задаче две независимые переменные $t$ и $\tau$, то $a_{i}$ могут задаваться в виде $\left.a_{i}(\tau)\right)$. Исходный функционал становится зависящим от $N$ функций $a_{i}(\tau)$, к-рые могут определяться с помощью необходимых условий, т. е., в конечном счете, из решения краевой задачи для системы $N$ уравнений Әйлера.
+
+Потребности практики увеличили интерес к неклассич. задачам оптимального управления. Наличие в технич. задачах сложных ограничений на фазовые координаты и управляющие функции, разрывность правых частей дифференциальных уравнений, возможность существования особых и скользящих оптимальных режимов И т. Д. - все это потребовало разработки новых разновидностей прямых методов. Наибольшее распространение получили методы, использующие идеи спуска в пространстве управлений и идеи последовательного анализа вариантов (типа динамического програ.м.ирования).
+
+Методы спуска в пространстве управлений основаны на получении последовательности управлений $u_{k} \in U$ вида
+
+\[
+u_{k+1}(t)=u_{k}(t)+\delta u_{k}(t),
+\]
+
+к-рой соответствует монотонно убывающая последовательность значений функционала. Пусть, напр., ищется минимум функционала
+
+\[
+J=F(x(T))
+\]
+
+при условиях (2), (3) п (5) ( $U$ - выпуклое и односвязное множество). Отыскание $\delta u_{k}(t)$ производится следующим образом. С помощью уравнений в вариациях для (2) и сопряженной системы (7) с условиями на правом конце
+
+\[
+\psi_{i}(T)=-\frac{\partial F(x(T))}{\partial x^{i}}, \quad i=1, \ldots, n,
+\]
+
+линейная часть приращения функционала (13) от вариации $\delta u$ представляется в виде
+
+\[
+\delta J=-\int_{t_{0}}^{T} \frac{\partial H}{\partial u} \delta u d t
+\]
+
+Для уменьшения функционала (13) следует на каждой птерации выбирать приращение
+
+\[
+\delta u_{k}(t)=x \frac{\partial H}{\partial u}, \quad x&gt;0
+\]
+
+где величина $\partial H / \partial u$ вычисляется на управлении $u_{k}(t)$ и соответствующей ему траектории $x_{k}(t)$. Закон- ность линеаризации, а следовательно, и уменьшение функционала (13) обеспечиваются выбором достаточно малой величины $x$. Процесс спуска (12) начинается с нек-рого $u_{0}(t)$ и заканчивается, когда на нек-рой итерации $|\delta J|$ становится меныше нек-рого заданного $\varepsilon$. Для описанного случая свободного правого конца алгоритм получается наиболее простым (см. [5], [6], [7]). Весьма эффективным для решения задач со свободным концом является метод (см. [8]), к-рый не использует линеаризации исходной задачи. В случае, когда граничные условия заданы и на правом конце, все эти алгоритмы существенно усложняются. Для учета граничных условий в [5] привлекается процедура проектирования градиента, а в [6] вводится штраф за невыполнение граничных условий, т. е. вместо (13) рассматрив ается функционал
+
+\[
+J=F(x(T))+\sum_{i=1}^{n} \lambda_{i}\left(x^{i}(T)-x_{T}^{i}\right)^{2}, \quad \lambda_{i}&gt;0 . \text { (14) }
+\]
+
+К градиентным методам примыкает метод [9], в к-ром приращение управления определяется из решения вспомогательной задачи линейного программирования.
+
+Болышая группа прямых методов численного решения задач оптимального управления основана на идеях последовательного анализа вариантов (см. [10], [11], [12]). Важным достоинством этих методов является то, что с их помощью удается решать задачи с фазовыми ограничениями вида
+
+\[
+x \in G
+\]
+
+где $G$ - замкнутое множество $n$-мерного пространства. Их основной недостаток - существенное возрастание трудностей с увеличением размерности пространства. Эти методы используют редукцию исходной задачи к задаче нелинейного программирования специального вида. Распространены два способа такой редукции. Согласно первому способу в конечном итоге получается задача минимизации функции, зависящей только от управлений, заданных в точках дискретной сетки на оси (см. [13]). Во втором способе (см. [12]) управление исключается и задача сводится к минимизации функции вида
+
+\[
+J\left(x_{0}, \ldots, x_{N}\right)=\sum_{i=0}^{N-1} f_{i}\left(x_{i}, x_{i+1}\right),
+\]
+
+где $x_{i}$ - значение вектора $x$ в точке $t_{i}, i=0,1, \ldots, N$, при ограничения $\mathbf{x}$
+
+\[
+x_{i} \in G_{i}
+\]
+
+к-рые получаются из ограничений (3), (4), (15). Для пояснения схемы решения задачи минимизации (16) при условиях (17) удобно использовать следующую геометрич. интерпретацию. Каждой совокупности векторов $\left\{x_{0}, x_{1}, \ldots, x_{N}\right\}$ ставится в соответствие ломаная (см. рис.), к-рая проходит через точки $x_{0}, \ldots, x_{N}$, лежащие в гиперплоскостях $\Sigma_{i}$, задаваемых уравненияміи $t=t_{i}$. Длина этой ломаной $J\left(x_{0}, \ldots, x_{N}\right)$ складывается из длин $f_{i}\left(x_{i}, x_{i+1}\right)$ отдельных
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_bf066e4eec0e8313418cg-1.jpg?height=286&amp;width=405&amp;top_left_y=1683&amp;top_left_x=1405)
+звеньев. Область допустимых значений $x_{i}$ задается (17) и эта область отделяется от запретной нек-рой ломаной (на рис. запретная область заштрихована). Задача состоит в отыскании ломаной наименышей длины, лежащей в допустимой области и соединя ющей гиперплоскости $\Sigma_{0}$ и $\Sigma_{N}$. Алгоритм решения задачи представляет собой многошаговый процесс, на каждом шаге $i$ к-рого отметается нек-рое множество вариантов $\Omega_{i}$, заведомо не содержащее оптимальной ломаной. На нулевом шаге определяется функция
+
+\[
+l\left(x_{1}\right)=\min _{x_{0} \in G_{0}} f_{0}\left(x_{0}, x_{1}\right),
+\] т. е. длина кратчайшего звена, соединяющего каждую тотку $x_{1} \in \Sigma_{1}$ с гиперплоскостью $\Sigma_{0}$. Так как
+
+\[
+\min _{x_{0} \in G_{0}} J\left(x_{0}, x_{1}, \ldots, x_{N}\right)=l\left(x_{1}\right)+\sum_{i=1}^{N-1} f_{i}\left(x_{i}, x_{i+1}\right),
+\]
+
+то множество ломаных $\Omega_{0}$, не содержащих отрезка $l\left(x_{1}\right)$, может быть отброшено. На первом шаге строится кратчайшая ломаная
+
+\[
+l\left(x_{2}\right)=\min _{x_{1} \in G_{1}}\left(l\left(x_{1}\right)+f_{1}\left(x_{1}, x_{2}\right)\right),
+\]
+
+соединяющая каждую точку $x_{2} \in \Sigma_{2}$ с $\Sigma_{0}$, и множество ломаных $\Omega_{1}$, не содержащих ломаной $l\left(x_{2}\right)$, также отбрасывается, и т. Д. На $i$-м шаге строится кратчайшая ломаная
+
+\[
+l\left(x_{i+1}\right)=\min _{x_{i} \in G_{i}}\left(l\left(x_{i}\right)+f_{i}\left(x_{i}, x_{i+1}\right)\right),
+\]
+
+соединяющая каждую точку $x_{i+1} \in \Sigma_{i+1}$ с $\Sigma_{0}$, и отбрасывается множество ломаных $\Omega_{i}$, не содержащих ломаной $l\left(x_{i+1}\right)$. На последнем шаге находится решение исходной задачи - кратчайшая ломаная, соединяющая гиперповерхности $\Sigma_{N}$ п $\Sigma_{0}$ :
+
+\[
+l=\min _{x_{N} \in G_{N}} l\left(x_{N}\right) .
+\]
+
+Формула (18) - рекуррентное соотношение, описывающее многошаговый процесс отыскания решения. На этом соотношении основаны динамич. программирование и принцип оптимальности Беллмана.
+
+В соответствии с (18) необходимо отыскивать минимум на множествах $G_{i}$, имеющих, вообще говоря, мощность континуума. При численной реализации используется их конечномерная аппроксимация. Для этого, кроме сетки, по $t$ (напр., с постоянным шагом $\tau$ ) строится сетка по $x^{j}$ с шагом $h^{j}(j=1, \ldots, n)$. Тогда задача сводится к отысканию кратчайшего пути на специальном графе с вершинами - узлами сетки. Пусть $P_{k}(i)$ - узел $k$, лежащий в гиперплоскости $\Sigma_{i}$;
+
+\[
+l_{k s}(i)=f_{i}\left(\boldsymbol{P}_{k}(i), \boldsymbol{P}_{s}(i+1)\right)
+\]
+
+一длина отрезка, соединяющего два узла $k$ и $s$ в соседних гиперплоскостях,$l_{k}(i)$ - длина наикратчайшего пути, соединяющего узел $P_{k}(i)$ с гиперплоскостью $\Sigma_{0}$. Тогда рекуррентное соотношение (18) имеет вид
+
+\[
+l_{s}(i+1)=\min _{k}\left(l_{k}(i)+l_{k s}(i)\right),
+\]
+
+где минимум берется по номерам $k$ всех узлов, к-рые лежат в допустимой области $G_{i}$ гиперплоскости $\Sigma_{i}$. В общем случае этот минимум отыскивается перебором по всем узлам. Изложенный метод позволяет отыскивать глобальный экстремум функции (16) при ограничениях (3), (4), (15) с точностью, определяемой шагами сетки $\tau$ и $h j$. Для сходимости метода к решению исходной задачи необходимо наличие определенных соотношений между этими шагами [напр., вида $h^{j=}$ $=o(\tau)$. Метод предъявляет большие требования к быстродействию и памяти ЭВМ. Поэтому при практич. реализации сначала находят экстремум на грубой сетке, а затем в окрестности полученного решения его уточняют на более мелкой сетке. Это делается с помощью одного из методов, позволяющих отыскивать локальный экстремум (см. Блуждающей трубки метод, Локальных вариаций метод. Беаущей волны метод).
+
+Лum.: [1] М о и с е е в Н. Н., Численные методы в теории оптимальных систем, М., 1971; [2] К а н т о р о в и ч Ј. В., К р ы л о в В. И., Приближенные методы высшего анализа, 5 изд., М.- Л., 1962: [3] И с а е в В. К., С о н и н В. В., «Ж. вычисл. матем. и матем. физ.», 1965, т. 5, № 2, с. 252-61; [4] Д жу у ов ич C., M а ин т а й р Д., &quot;Ракетная тех-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=47&amp;width=816&amp;top_left_y=2166&amp;top_left_x=134)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=47&amp;width=819&amp;top_left_y=2191&amp;top_left_x=131)
+III а т р о в с к и й Л. И., &quot;ЖК. вычисл. матем. и матем. физ,&quot;,
+1962 , т. 2 , № 3 , с. $488-91 ;$ [7] Э н е е в Т. М.. &quot;Космические исследования&quot;, 1966, т. 4, вып. 5 , с. $651-69$; [8] К р ы ло в И. А., Ч е р н о у с ь к о Ф. Л., &quot;ЖЖ. вычисл. матем. и матем. там же, 1964, т. 4, № 6, с. 1045-64; [10] Б е л л м а н $\mathbf{P}$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cf67af7ce7014948157dg-1.jpg?height=45&amp;width=829&amp;top_left_y=223&amp;top_left_x=985)
+[12] М о и с е е в Н. Н., &quot;Кибернетика&quot;, 1965, № 1, с. Е р м ол ь е в Ю. М., Гу л е н к о В. П., там же, 1967, № 3,
+с. $1-20$.</text_orig>
+</article>

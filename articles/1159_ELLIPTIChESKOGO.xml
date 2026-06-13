@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1159_ELLIPTIChESKOGO" alphabetic_pos="1159">
+  <title>ЭЛЛИПТИЧЕСКОГО ТИПА УРАВНЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>498</start>
+    <end>500</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] Л а т т е с Р., Л и о н с Ж.-ЈI., Метод квазиобрашения и его приложения, пер. с франц., М., 1970 ; [2] К а н т о-![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=48&amp;width=806&amp;top_left_y=2050&amp;top_left_x=986)С м о л и к и й $\mathrm{X}$. Ј., Приближенные методы решения диф̆ференциальных х интегральных уравнений, М., 1965; [4] С а-![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=47&amp;width=809&amp;top_left_y=2146&amp;top_left_x=987)для әллиптических уравнений, M., 1976;в кн.: Elliptic problem solvers, $\mathrm{N} . \mathrm{y} .-\mathrm{l} ., 1981$, p. $17-38$; [6] 3 е н к е в и ч O. K., Метод конечных әлементов в технике, пер. с англ., М., 1975; [7] С т р е н г Г., Ф и к с Д ж., Теория метода конечных әлементов, пер. с англ., М., 1977; [8] С ь я р-![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=35&amp;width=801&amp;top_left_y=2295&amp;top_left_x=989) конечных элементов для уравнений с частными производными,![](https://cdn.mathpix.com/cropped/2023_07_09_1c0a5893169b96c905ddg-1.jpg?height=50&amp;width=819&amp;top_left_y=201&amp;top_left_x=139)с к и й А. А., Н и к о лі а в Е. С., Методы решения сеточных уравнений, M., 1978; [12] Д ж о p д ж А., Л Ю Д ж., Численное решение больших разреженных систем уравнений, пер. с англ., М., 1984; [13] Б р е б 6 и а K., у о к е p С.,Применение метода граничных әлементов в технике, пер. $\begin{aligned} &amp; \text { с англ., М., } 1982 . \text { В. Б. Андреев. } \\ &amp; \text {</literature_orig>
+    <unit>
+      <author>Латтес Р.</author>
+      <author>Лионс Ж.-Ј I.</author>
+      <title>Метод квазиобрашения и его приложения</title>
+      <publication>пер. с франц., М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>К а н т о-![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=48&amp;width=806&amp;top_left_y=2050&amp;top_left_x=986)С м о л и к и й $\mathrm{X}$. Ј., Приближенные методы решения диф̆ференциальных х интегральных уравнений</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other>M., 1976;в кн.: Elliptic problem solvers, $\mathrm{N} . \mathrm{y} .-\mathrm{l} ., 1981$, p. $17-38$; [6] 3 е н к е в и ч O. K., Метод конечных әлементов в технике, пер. с англ., М., 1975; [7] С т р е н г Г., Ф и к с Д ж., Теория метода конечных әлементов, пер. с англ., М., 1977; [8] С ь я р-![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=35&amp;width=801&amp;top_left_y=2295&amp;top_left_x=989) конечных элементов для уравнений с частными производными, ![](https://cdn.mathpix.com/cropped/2023_07_09_1c0a5893169b96c905ddg-1.jpg?height=50&amp;width=819&amp;top_left_y=201&amp;top_left_x=139)с к и й А. А., Н и к о лі а в Е. С., Методы решения сеточных уравнений, M., 1978; [12] Д ж о p д ж А., Л Ю Д ж., Численное решение больших разреженных систем уравнений, пер. с англ., М., 1984; [13] Б р е б 6 и а K., у о к е p С., Применение метода граничных әлементов в технике, пер. $\begin{aligned} &amp; \text { с англ., М., } 1982 . \text { В. Б. Андреев. } \\ &amp; \text {</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_1_ELLIPTIChESKOGO">\frac{\partial^{2} u}{\partial x^{2}}+\frac{\partial^{2} u}{\partial y^{2}}=-f(x, y) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_2_ELLIPTIChESKOGO">\left.u(x, y)\right|_{\partial \Omega}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_3_ELLIPTIChESKOGO">\iint_{\Omega}\left(\frac{\partial u}{\partial x} \frac{\partial v}{\partial x}+\frac{\partial u}{\partial y} \frac{\partial v}{\partial y}\right) d x d y=\int_{\Omega} f v d x d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_4_ELLIPTIChESKOGO">u_{h}(x, y)=\sum_{m, n} c_{m n} \varphi_{m n}(x, y)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_1_ELLIPTIChESKOGO">f(x, y) \equiv 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_2_ELLIPTIChESKOGO">(x, y) \in \omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_3_ELLIPTIChESKOGO">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_4_ELLIPTIChESKOGO">\Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_5_ELLIPTIChESKOGO">u \in \dot{w}_{2}^{1}(\omega)=\dot{h}^{1}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_6_ELLIPTIChESKOGO">v \in H^{1}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_7_ELLIPTIChESKOGO">\stackrel{\circ}{H}^{1}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_8_ELLIPTIChESKOGO">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_9_ELLIPTIChESKOGO">u_{h} \in S_{h}(\omega) \subset H^{1}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_10_ELLIPTIChESKOGO">v \in S_{h}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_11_ELLIPTIChESKOGO">S_{h}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_12_ELLIPTIChESKOGO">\Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_13_ELLIPTIChESKOGO">\Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_14_ELLIPTIChESKOGO">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_15_ELLIPTIChESKOGO">S_{h}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_16_ELLIPTIChESKOGO">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_17_ELLIPTIChESKOGO">S_{h}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_18_ELLIPTIChESKOGO">\varphi_{i} \in S_{h}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_19_ELLIPTIChESKOGO">\partial \omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_20_ELLIPTIChESKOGO">\Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_21_ELLIPTIChESKOGO">\Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_22_ELLIPTIChESKOGO">x=m h, y=n h, y=x+p h, m, n, p \in \mathbb{z}, h^{-1}=n \in \mathbb{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_23_ELLIPTIChESKOGO">c_{m n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_24_ELLIPTIChESKOGO">c_{m n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_25_ELLIPTIChESKOGO">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_26_ELLIPTIChESKOGO">O\left(h^{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_27_ELLIPTIChESKOGO">k</formula>
+  </formulas_aux>
+  <relations n="12">
+    <relation uri="http://libmeta.ru/me/relation/1159_1_ELLIPTIChESKOGO">
+      <rel_text>Разностная вариационная схема</rel_text>
+      <target>http://libmeta.ru/me/article/900_RAZNOSTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_2_ELLIPTIChESKOGO">
+      <rel_text>Разностных схем теория</rel_text>
+      <target>http://libmeta.ru/me/article/906_RAZNOSTNYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_3_ELLIPTIChESKOGO">
+      <rel_text>Разностные методь</rel_text>
+      <target>http://libmeta.ru/me/article/904_RAZNOSTNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_4_ELLIPTIChESKOGO">
+      <rel_text>граничных элементов</rel_text>
+      <target>http://libmeta.ru/me/article/1170_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_5_ELLIPTIChESKOGO">
+      <rel_text>приближенного</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_6_ELLIPTIChESKOGO">
+      <rel_text>развитие</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_7_ELLIPTIChESKOGO">
+      <rel_text>матриц</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_8_ELLIPTIChESKOGO">
+      <rel_text>матрицами</rel_text>
+      <target>http://libmeta.ru/me/article/601_MATRITsAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_9_ELLIPTIChESKOGO">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_10_ELLIPTIChESKOGO">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_11_ELLIPTIChESKOGO">
+      <rel_text>системам</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_12_ELLIPTIChESKOGO">
+      <rel_text>конечных разностей</rel_text>
+      <target>http://libmeta.ru/me/article/1036_KONEChNAJa</target>
+    </relation>
+  </relations>
+  <text>ч И сле н ны е м е т о ды р е ші е н и я-методы приближенного отыскания решений диффференциальных уравнений с частными производными әллиптич. типа. Среди различных классов задач, к-рые ставятся для Э. т. у., наиболее хорошо изучены краевые задачи и задачи с данными Коши. Последние поставлены некорректно и требуют для решения специальных методов [1]. Более типичны для Э. т. у. краевые задачи и для их приближенного решения разработано много различных численных методов (см. [2], [3]). Наиболее широкое распространөние в вычислительной практике получили сеточные методы, а среди них - метод конечных разностей (см. URI[[http://libmeta.ru/me/relation/1159_3_ELLIPTIChESKOGO]]/URI, URI[[http://libmeta.ru/me/relation/1159_2_ELLIPTIChESKOGO]]/URI, [4], [5]) и метод конечных элементов (м. к. э.) (см. [6][9]). Хотя указанные методы и различаются подходом к построению приближенного решения - в первом из них аппроксимируются (см. A ппроксимация дифференчиальной краевой задачи разностной) уравнение и граничные (краевые) условия, а во втором - само искомое решение, - однако получающиеся для отыскания приближенного решения алгебраич. системы близки по структуре, а в ряде случаев и вовсе совпадают.
+
+Суть метода конечных разностей состоит в следугщем: область непрерывного изменения аргументов исходной задачи заменяется дискретным множеством то- чек (узлов), вазываемым с е т к о й; производные, входящие в дифференциальное уравнөние и граничные условия, аппроксимируются разностными отношениями; при этом краевая задача для дифференциального уравнения заменяется системой алгебраич. уравнений (р a 3 н о с т в о й с х е м о й). Если полученная таким образом разностная краевая задача разрешима (быть может, только на достаточно мелкой сетке) и ее решение при безграничном измельчении сетки приближается (сходится) к решению исходной задачи для дифференциального уравнения, то полученное на любой фиксированной сетке решение разностной задачи п принимается за приближенное рөшение исходной задачи.
+
+Простейшим примером Э. т. У. является уравнение Пуассона (уравнение Лапласа, если $URI[[http://libmeta.ru/me/formula/aux/1159_1_ELLIPTIChESKOGO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_1_ELLIPTIChESKOGO]]/URI
+\]
+
+Примеры разностных схем для уравнения Пуассона приведены в статьях Краевая задача; численные методы решения для уравнений с частными производными и Разностное уравнение.
+
+В м. к. ә. аппроксимируется обобщенное решение краевой задачи. Если, напр., уравнение (1) задано при $URI[[http://libmeta.ru/me/formula/aux/1159_2_ELLIPTIChESKOGO]]/URI$ и для него рассматривается однородная задача Дирихле, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_2_ELLIPTIChESKOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1159_3_ELLIPTIChESKOGO]]/URI$ - граница $URI[[http://libmeta.ru/me/formula/aux/1159_4_ELLIPTIChESKOGO]]/URI$, то обобщенным решением задачи (1), (2) наз. функция $URI[[http://libmeta.ru/me/formula/aux/1159_5_ELLIPTIChESKOGO]]/URI$, к-рая при любой функции $URI[[http://libmeta.ru/me/formula/aux/1159_6_ELLIPTIChESKOGO]]/URI$ удовлетворяет интегральному тождеству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_3_ELLIPTIChESKOGO]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/1159_7_ELLIPTIChESKOGO]]/URI$ - Соболева пространство функций, обращающихся в нуль (в смысле обобщенных функцйй) на $URI[[http://libmeta.ru/me/formula/aux/1159_8_ELLIPTIChESKOGO]]/URI$. Наиболее важный класс м. к. э. образуют м. к. ә. галеркинского типа (конформные м. к. э.). В Галеркина методе приближенное решение ищется в конечномерном подпространстве того пространства, на к-ром задано интегральное тождество, определяющее обобщенное решение. Применительно к задаче (3) приближенным по Галеркину решением наз. такая функция $URI[[http://libmeta.ru/me/formula/aux/1159_9_ELLIPTIChESKOGO]]/URI$, к-рая при любой функции $URI[[http://libmeta.ru/me/formula/aux/1159_10_ELLIPTIChESKOGO]]/URI$ удовлетворяет интегральному тождеству (3). В м. к. ә. подпространство $URI[[http://libmeta.ru/me/formula/aux/1159_11_ELLIPTIChESKOGO]]/URI$ должно обладать нөк-рыми специальными свойствами (см. URI[[http://libmeta.ru/me/relation/1159_1_ELLIPTIChESKOGO]]/URI).
+
+Специфику конечномерного подпространства, отличаюцую м. к. э. от других реализаций метода Галеркина, иллюстрирует следующий пример. Пусть область $URI[[http://libmeta.ru/me/formula/aux/1159_12_ELLIPTIChESKOGO]]/URI$, в к-рой ищется решение задачи (1), (2), есть многоугольник. Область $URI[[http://libmeta.ru/me/formula/aux/1159_13_ELLIPTIChESKOGO]]/URI$ разбивается на малыө треугольники (конечные элементы) так, чтобы любые два треугольника либо вовсе не содержали общих точек, либо имели одну общую вершину, либо одну общую сторону. В качестве конечномерного подпространства простран-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=47&amp;width=819&amp;top_left_y=1897&amp;top_left_x=139)
+нейных, линейных над каждым треугольником, непрерывных и обращающихся в нуль на $URI[[http://libmeta.ru/me/formula/aux/1159_14_ELLIPTIChESKOGO]]/URI$ функций. Размерность пространства $URI[[http://libmeta.ru/me/formula/aux/1159_15_ELLIPTIChESKOGO]]/URI$ совпадает с числом вершин треугольников (без учета их кратности), не попавіпих на границу $URI[[http://libmeta.ru/me/formula/aux/1159_16_ELLIPTIChESKOGO]]/URI$. Указанные вершины наз. у вл а м и. В гачестве базиса $URI[[http://libmeta.ru/me/formula/aux/1159_17_ELLIPTIChESKOGO]]/URI$ можно взять совокупность таких элементов $URI[[http://libmeta.ru/me/formula/aux/1159_18_ELLIPTIChESKOGO]]/URI$, к-рые отличны от нуля лишь в одном узле. Характерной особенностью этого базиса является то, что у каждого его элемента носитель минимален и образован объединением всех треугольников с общей вершиной в том узле, где данный базисный элемент отличен от нуля. Благодаря этому свойству на каждом конечном әлементе (к. э.) отлично от нуля не более трех (по числу вершин, не попавших на $URI[[http://libmeta.ru/me/formula/aux/1159_19_ELLIPTIChESKOGO]]/URI$ ) базисных функций, что позволяет использовать сужения указанных базисных функций на к. ә. как базис на к. ә. и проводить все вычисления на к. ә. без привлечения информации о других к. э. Указанное свойство базиса делает м. к. э. весьма технологичным с точки зрения использования ӘВМ [10].
+
+Если, напр., $URI[[http://libmeta.ru/me/formula/aux/1159_20_ELLIPTIChESKOGO]]/URI$ - единичный квадрат, а разбиение $URI[[http://libmeta.ru/me/formula/aux/1159_21_ELLIPTIChESKOGO]]/URI$ на к. ә. осуществляется тремя семействами әквидистантных прямых
+
+$URI[[http://libmeta.ru/me/formula/aux/1159_22_ELLIPTIChESKOGO]]/URI$, то при условии, что отличные от нуля значения базисных функций равны единице, для коэффициентов $URI[[http://libmeta.ru/me/formula/aux/1159_23_ELLIPTIChESKOGO]]/URI$ разложения приближенного решения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_4_ELLIPTIChESKOGO]]/URI
+\]
+
+получают систему уравнений, в точности совпадающцую с системой уравнений метода конечных разностей. При этом $URI[[http://libmeta.ru/me/formula/aux/1159_24_ELLIPTIChESKOGO]]/URI$ будут значениями приближенного решения в узлах.
+
+Точность описанного м. к. ә. характеризуется оценкої
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=70&amp;width=325&amp;top_left_y=858&amp;top_left_x=1227)
+
+где $URI[[http://libmeta.ru/me/formula/aux/1159_25_ELLIPTIChESKOGO]]/URI$ - максимальный линейный размер к. ә. Чтобы получить бо́льшую точность, нужно приближенное репение искать не в пространстве кусочно линейных функций, а в гространстве кусочно квадратичных или, вообще, кусочно полиномиальных функций. Точность в этом случае при надлежащейі гладкости искомого решения будет $URI[[http://libmeta.ru/me/formula/aux/1159_26_ELLIPTIChESKOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1159_27_ELLIPTIChESKOGO]]/URI$ - степень используемых многочленов.
+
+Помимо треугольных к. Э. можно использовать и тетырехугольные к. ә., однако, если стороны четырехугольников не параллельны координатным осям, то необходимо применять изопараметрич. технику, т. е. сначала отобразить рассматриваемый к. э. на канонич. к. э. (в данном случае на прямоугольник со сторонами, параллельными координатным осям) при помощи невырожденного преобразования, обратное к к-рому задается теми же самыми функциями, что и приближенное решение на канонич. к. ә. Можно использовать треугольники и четырехугольники с криволинейными сторонами (снова применяя изопараметрич. технику), что необходимо при решении задач в областях с гладкой границей методами более высокого порядка точности, чем первый.
+
+Помимо м. к. ә. галеркинского типа, существуют так наз. неконформные м. К. ә., решения в к-рых ищутся в пространствах, не являющихся подпространствами исходных пространств. Особенно часто такие м. К. э. применяются для задач, связанных с Э. т. у. более высокого, чем второй, порядка.
+
+И метод URI[[http://libmeta.ru/me/relation/1159_12_ELLIPTIChESKOGO]]/URI, и м. к. э. приводят к URI[[http://libmeta.ru/me/relation/1159_11_ELLIPTIChESKOGO]]/URI линейных алгебраич. URI[[http://libmeta.ru/me/relation/1159_10_ELLIPTIChESKOGO]]/URI большого URI[[http://libmeta.ru/me/relation/1159_9_ELLIPTIChESKOGO]]/URI с разреженными URI[[http://libmeta.ru/me/relation/1159_8_ELLIPTIChESKOGO]]/URI; подавляюощее большинство әлементов этих URI[[http://libmeta.ru/me/relation/1159_7_ELLIPTIChESKOGO]]/URI нулевые (см. [11], [12]). Получил значительное URI[[http://libmeta.ru/me/relation/1159_6_ELLIPTIChESKOGO]]/URI еще один метод URI[[http://libmeta.ru/me/relation/1159_5_ELLIPTIChESKOGO]]/URI решения краевых задач для Э. т. у.метод URI[[http://libmeta.ru/me/relation/1159_4_ELLIPTIChESKOGO]]/URI [13].</text>
+  <text_orig>ч И сле н ны е м е т о ды р е ші е н и я-методы приближенного отыскания решений диффференциальных уравнений с частными производными әллиптич. типа. Среди различных классов задач, к-рые ставятся для Э. т. у., наиболее хорошо изучены краевые задачи и задачи с данными Коши. Последние поставлены некорректно и требуют для решения специальных методов [1]. Более типичны для Э. т. у. краевые задачи и для их приближенного решения разработано много различных численных методов (см. [2], [3]). Наиболее широкое распространөние в вычислительной практике получили сеточные методы, а среди них - метод конечных разностей (см. Разностные методь, Разностных схем теория, [4], [5]) и метод конечных элементов (м. к. э.) (см. [6][9]). Хотя указанные методы и различаются подходом к построению приближенного решения - в первом из них аппроксимируются (см. A ппроксимация дифференчиальной краевой задачи разностной) уравнение и граничные (краевые) условия, а во втором - само искомое решение, - однако получающиеся для отыскания приближенного решения алгебраич. системы близки по структуре, а в ряде случаев и вовсе совпадают.
+
+Суть метода конечных разностей состоит в следугщем: область непрерывного изменения аргументов исходной задачи заменяется дискретным множеством то- чек (узлов), вазываемым с е т к о й; производные, входящие в дифференциальное уравнөние и граничные условия, аппроксимируются разностными отношениями; при этом краевая задача для дифференциального уравнения заменяется системой алгебраич. уравнений (р a 3 н о с т в о й с х е м о й). Если полученная таким образом разностная краевая задача разрешима (быть может, только на достаточно мелкой сетке) и ее решение при безграничном измельчении сетки приближается (сходится) к решению исходной задачи для дифференциального уравнения, то полученное на любой фиксированной сетке решение разностной задачи п принимается за приближенное рөшение исходной задачи.
+
+Простейшим примером Э. т. У. является уравнение Пуассона (уравнение Лапласа, если $f(x, y) \equiv 0)$ :
+
+\[
+\frac{\partial^{2} u}{\partial x^{2}}+\frac{\partial^{2} u}{\partial y^{2}}=-f(x, y) .
+\]
+
+Примеры разностных схем для уравнения Пуассона приведены в статьях Краевая задача; численные методы решения для уравнений с частными производными и Разностное уравнение.
+
+В м. к. ә. аппроксимируется обобщенное решение краевой задачи. Если, напр., уравнение (1) задано при $(x, y) \in \Omega$ и для него рассматривается однородная задача Дирихле, т. е.
+
+\[
+\left.u(x, y)\right|_{\partial \Omega}=0
+\]
+
+где $\partial \Omega$ - граница $\Omega$, то обобщенным решением задачи (1), (2) наз. функция $u \in \dot{W}_{2}^{1}(\Omega)=\dot{H}^{1}(\Omega)$, к-рая при любой функции $v \in H^{1}(\Omega)$ удовлетворяет интегральному тождеству
+
+\[
+\iint_{\Omega}\left(\frac{\partial u}{\partial x} \frac{\partial v}{\partial x}+\frac{\partial u}{\partial y} \frac{\partial v}{\partial y}\right) d x d y=\int_{\Omega} f v d x d y
+\]
+
+Здесь $\stackrel{\circ}{H}^{1}(\Omega)$ - Соболева пространство функций, обращающихся в нуль (в смысле обобщенных функцйй) на $\partial \Omega$. Наиболее важный класс м. к. э. образуют м. к. ә. галеркинского типа (конформные м. к. э.). В Галеркина методе приближенное решение ищется в конечномерном подпространстве того пространства, на к-ром задано интегральное тождество, определяющее обобщенное решение. Применительно к задаче (3) приближенным по Галеркину решением наз. такая функция $u_{h} \in S_{h}(\Omega) \subset H^{1}(\Omega)$, к-рая при любой функции $v \in S_{h}(\Omega)$ удовлетворяет интегральному тождеству (3). В м. к. ә. подпространство $S_{h}(\Omega)$ должно обладать нөк-рыми специальными свойствами (см. Разностная вариационная схема).
+
+Специфику конечномерного подпространства, отличаюцую м. к. э. от других реализаций метода Галеркина, иллюстрирует следующий пример. Пусть область $\Omega$, в к-рой ищется решение задачи (1), (2), есть многоугольник. Область $\Omega$ разбивается на малыө треугольники (конечные элементы) так, чтобы любые два треугольника либо вовсе не содержали общих точек, либо имели одну общую вершину, либо одну общую сторону. В качестве конечномерного подпространства простран-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=47&amp;width=819&amp;top_left_y=1897&amp;top_left_x=139)
+нейных, линейных над каждым треугольником, непрерывных и обращающихся в нуль на $\partial \Omega$ функций. Размерность пространства $S_{h}(\Omega)$ совпадает с числом вершин треугольников (без учета их кратности), не попавіпих на границу $\partial \Omega$. Указанные вершины наз. у вл а м и. В гачестве базиса $S_{h}(\Omega)$ можно взять совокупность таких элементов $\varphi_{i} \in S_{h}(\Omega)$, к-рые отличны от нуля лишь в одном узле. Характерной особенностью этого базиса является то, что у каждого его элемента носитель минимален и образован объединением всех треугольников с общей вершиной в том узле, где данный базисный элемент отличен от нуля. Благодаря этому свойству на каждом конечном әлементе (к. э.) отлично от нуля не более трех (по числу вершин, не попавших на $\partial \Omega$ ) базисных функций, что позволяет использовать сужения указанных базисных функций на к. ә. как базис на к. ә. и проводить все вычисления на к. ә. без привлечения информации о других к. э. Указанное свойство базиса делает м. к. э. весьма технологичным с точки зрения использования ӘВМ [10].
+
+Если, напр., $\Omega$ - единичный квадрат, а разбиение $\Omega$ на к. ә. осуществляется тремя семействами әквидистантных прямых
+
+$x=m h, y=n h, y=x+p h, m, n, p \in \mathbb{Z}, h^{-1}=N \in \mathbb{N}$, то при условии, что отличные от нуля значения базисных функций равны единице, для коэффициентов $c_{m n}$ разложения приближенного решения
+
+\[
+u_{h}(x, y)=\sum_{m, n} c_{m n} \varphi_{m n}(x, y)
+\]
+
+получают систему уравнений, в точности совпадающцую с системой уравнений метода конечных разностей. При этом $c_{m n}$ будут значениями приближенного решения в узлах.
+
+Точность описанного м. к. ә. характеризуется оценкої
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=70&amp;width=325&amp;top_left_y=858&amp;top_left_x=1227)
+
+где $h$ - максимальный линейный размер к. ә. Чтобы получить бо́льшую точность, нужно приближенное репение искать не в пространстве кусочно линейных функций, а в гространстве кусочно квадратичных или, вообще, кусочно полиномиальных функций. Точность в этом случае при надлежащейі гладкости искомого решения будет $O\left(h^{k}\right)$, где $k$ - степень используемых многочленов.
+
+Помимо треугольных к. Э. можно использовать и тетырехугольные к. ә., однако, если стороны четырехугольников не параллельны координатным осям, то необходимо применять изопараметрич. технику, т. е. сначала отобразить рассматриваемый к. э. на канонич. к. э. (в данном случае на прямоугольник со сторонами, параллельными координатным осям) при помощи невырожденного преобразования, обратное к к-рому задается теми же самыми функциями, что и приближенное решение на канонич. к. ә. Можно использовать треугольники и четырехугольники с криволинейными сторонами (снова применяя изопараметрич. технику), что необходимо при решении задач в областях с гладкой границей методами более высокого порядка точности, чем первый.
+
+Помимо м. к. ә. галеркинского типа, существуют так наз. неконформные м. К. ә., решения в к-рых ищутся в пространствах, не являющихся подпространствами исходных пространств. Особенно часто такие м. К. э. применяются для задач, связанных с Э. т. у. более высокого, чем второй, порядка.
+
+И метод конечных разностей, и м. к. э. приводят к системам линейных алгебраич. уравнений большого порядка с разреженными матрицами; подавляюощее большинство әлементов этих матриц нулевые (см. [11], [12]). Получил значительное развитие еще один метод приближенного решения краевых задач для Э. т. у.метод граничных элементов [13].
+
+Лuт.: [1] Л а т т е с Р., Л и о н с Ж.-ЈI., Метод квазиобрашения и его приложения, пер. с франц., М., 1970 ; [2] К а н т о-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=48&amp;width=806&amp;top_left_y=2050&amp;top_left_x=986)
+С м о л и к и й $\mathrm{X}$. Ј., Приближенные методы решения диф̆ференциальных х интегральных уравнений, М., 1965; [4] С а-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=47&amp;width=809&amp;top_left_y=2146&amp;top_left_x=987)
+для әллиптических уравнений, M., 1976;
+в кн.: Elliptic problem solvers, $\mathrm{N} . \mathrm{Y} .-\mathrm{L} ., 1981$, p. $17-38$; [6] 3 е н к е в и ч O. K., Метод конечных әлементов в технике, пер. с англ., М., 1975; [7] С т р е н г Г., Ф и к с Д ж., Теория метода конечных әлементов, пер. с англ., М., 1977; [8] С ь я р-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_2931031f7dddb86f9f64g-1.jpg?height=35&amp;width=801&amp;top_left_y=2295&amp;top_left_x=989) конечных элементов для уравнений с частными производными,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_1c0a5893169b96c905ddg-1.jpg?height=50&amp;width=819&amp;top_left_y=201&amp;top_left_x=139)
+с к и й А. А., Н и к о лі а в Е. С., Методы решения сеточных уравнений, M., 1978; [12] Д ж о p д ж А., Л Ю Д ж., Численное решение больших разреженных систем уравнений, пер. с англ., М., 1984; [13] Б р е б 6 и а K., у о к е p С.,
+Применение метода граничных әлементов в технике, пер. $\begin{aligned} &amp; \text { с англ., М., } 1982 . \text { В. Б. Андреев. } \\ &amp; \text {</text_orig>
+</article>

@@ -1,0 +1,509 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/145_ALGORITMA" alphabetic_pos="145">
+  <title>АЛГОРИТМА СЛОभННОСТЬ</title>
+  <authors/>
+  <pages>
+    <start>106</start>
+    <end>108</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М а р к о в А. А., «изв. Ан Ссср. Сер. матем.&quot;, 1967, т. 31 , № 1 , с. 168-208; [2] Б л ю м М., сб. &quot;проблемы математической логики&quot;, М., 1970 , с. 423-31; [3] К у з ьм и н В. А., сб. “проблемы кибернетики&quot;, 1965 вып. 13, с. 75-96; [4] П е т р и Н. В., &quot;докл. Ан Ссср&quot;, 1969, т. 185, № 1, с. 37-39; [5] З в о нк ин А. К., Л е в и н Л. А., «успехи матем. наук», 1970 , т. 25 , вып, 6, с. $85-127$.</literature_orig>
+    <unit>
+      <author>Марков А. А.</author>
+      <title>«изв. Ан Ссср. Сер. матем.&quot;</title>
+      <publication/>
+      <year>1967</year>
+      <other>т. 31, № 1, с. 168-208</other>
+    </unit>
+    <unit>
+      <author>Блюм М.</author>
+      <title>сб. &quot;проблемы математической логики&quot;</title>
+      <publication>М.</publication>
+      <year>1970</year>
+      <other>с. 423-31</other>
+    </unit>
+    <unit>
+      <author>Кузьмин В. А.</author>
+      <title>сб. “проблемы кибернетики&quot;</title>
+      <publication/>
+      <year>1965</year>
+      <other>с. 75-96</other>
+    </unit>
+    <unit>
+      <author>Петри Н. В.</author>
+      <title>&quot;докл. Ан Ссср&quot;</title>
+      <publication/>
+      <year>1969</year>
+      <other>т. 185, № 1, с. 37-39</other>
+    </unit>
+    <unit>
+      <author>Звонкин А. К.</author>
+      <author>Левин Л. А.</author>
+      <title>«успехи матем. наук»</title>
+      <publication/>
+      <year>1970</year>
+      <other>т. 25, вып, 6, с. $85-127$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/145_1_ALGORITMA">R_{\alpha}(x)&gt;T(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/145_2_ALGORITMA">h\left(R_{\beta}(x)\right)&lt;R_{\alpha}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/145_3_ALGORITMA">R_{\beta}(x)&lt;\log _{2} R_{\alpha}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/145_4_ALGORITMA">M_{m}(x) \sim \frac{K(x)}{\log m}, \quad T_{m}(x) \sim \frac{K(x)}{(m-1) \log _{2} K(x)} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_1_ALGORITMA">е</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_2_ALGORITMA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_3_ALGORITMA">t_{m}(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_4_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_5_ALGORITMA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_6_ALGORITMA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_7_ALGORITMA">s_{m}(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_8_ALGORITMA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_9_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_10_ALGORITMA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_11_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_12_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_13_ALGORITMA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_14_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_15_ALGORITMA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_16_ALGORITMA">&gt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_17_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_18_ALGORITMA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_19_ALGORITMA">r(\alpha, x, t)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_20_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_21_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_22_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_23_ALGORITMA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_24_ALGORITMA">r_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_25_ALGORITMA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_26_ALGORITMA">\alpha: R_{\alpha}(x)=t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_27_ALGORITMA">r(\alpha, x, t)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_28_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_29_ALGORITMA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_30_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_31_ALGORITMA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_32_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_33_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_34_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_35_ALGORITMA">r_{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_36_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_37_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_38_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_39_ALGORITMA">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_40_ALGORITMA">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_41_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_42_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_43_ALGORITMA">r_{\alpha}(x) \leqslant G(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_44_ALGORITMA">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_45_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_46_ALGORITMA">r_{\beta}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_47_ALGORITMA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_48_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_49_ALGORITMA">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_50_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_51_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_52_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_53_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_54_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_55_ALGORITMA">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_56_ALGORITMA">h(t)=2^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_57_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_58_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_59_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_60_ALGORITMA">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_61_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_62_ALGORITMA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_63_ALGORITMA">h(t)=2^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_64_ALGORITMA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_65_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_66_ALGORITMA">r(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_67_ALGORITMA">r(n) / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_68_ALGORITMA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_69_ALGORITMA">r(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_70_ALGORITMA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_71_ALGORITMA">r_{\alpha}(p) \leqslant R(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_72_ALGORITMA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_73_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_74_ALGORITMA">n^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_75_ALGORITMA">n \log _{2} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_76_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_77_ALGORITMA">t(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_78_ALGORITMA">t(n) \geqslant n^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_79_ALGORITMA">\sqrt{t(n)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_80_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_81_ALGORITMA">n^{1+\varepsilon}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_82_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_83_ALGORITMA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_84_ALGORITMA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_85_ALGORITMA">\left(m_{i}\right), i=0,1,2, \ldots,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_86_ALGORITMA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_87_ALGORITMA">s(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_88_ALGORITMA">\left.M_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_89_ALGORITMA">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_90_ALGORITMA">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_91_ALGORITMA">у</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_92_ALGORITMA">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_93_ALGORITMA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_94_ALGORITMA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_95_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_96_ALGORITMA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_97_ALGORITMA">t^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_98_ALGORITMA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_99_ALGORITMA">t^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_100_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_101_ALGORITMA">t^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_102_ALGORITMA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_103_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_104_ALGORITMA">\sim 2 \mathrm{~N} / \log _{2} \mathrm{~m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_105_ALGORITMA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_106_ALGORITMA">\sim 2 N / N(m-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_107_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_108_ALGORITMA">\phi=\{0,1, a, b, c\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_109_ALGORITMA">2 N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_110_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_111_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_112_ALGORITMA">\log _{2} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_113_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_114_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_115_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_116_ALGORITMA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_117_ALGORITMA">k(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_118_ALGORITMA">m_{m}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_119_ALGORITMA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_120_ALGORITMA">t_{m}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/145_121_ALGORITMA">m</formula>
+  </formulas_aux>
+  <relations n="49">
+    <relation uri="http://libmeta.ru/me/relation/145_1_ALGORITMA">
+      <rel_text>Алгоритмическая теория информации</rel_text>
+      <target>http://libmeta.ru/me/article/148_ALGORITMIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_2_ALGORITMA">
+      <rel_text>Вычислимая</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_3_ALGORITMA">
+      <rel_text>алгорифма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_4_ALGORITMA">
+      <rel_text>нормального</rel_text>
+      <target>http://libmeta.ru/me/article/1034_NORMALIZATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_5_ALGORITMA">
+      <rel_text>предложено</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_6_ALGORITMA">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_7_ALGORITMA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_8_ALGORITMA">
+      <rel_text>объект</rel_text>
+      <target>http://libmeta.ru/me/article/1156_OB'EK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_9_ALGORITMA">
+      <rel_text>строящего</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_10_ALGORITMA">
+      <rel_text>алгоритма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_11_ALGORITMA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_12_ALGORITMA">
+      <rel_text>порядку</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_13_ALGORITMA">
+      <rel_text>множеств</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_14_ALGORITMA">
+      <rel_text>перечислимых</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_15_ALGORITMA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_16_ALGORITMA">
+      <rel_text>алгорифмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_17_ALGORITMA">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_18_ALGORITMA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_19_ALGORITMA">
+      <rel_text>средств</rel_text>
+      <target>http://libmeta.ru/me/article/165_SREDNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_20_ALGORITMA">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_21_ALGORITMA">
+      <rel_text>порядку</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_22_ALGORITMA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_23_ALGORITMA">
+      <rel_text>алгорифмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_24_ALGORITMA">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_25_ALGORITMA">
+      <rel_text>перечислимое</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_26_ALGORITMA">
+      <rel_text>вхождения</rel_text>
+      <target>http://libmeta.ru/me/article/819_VHOZhKDENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_27_ALGORITMA">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_28_ALGORITMA">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_29_ALGORITMA">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_30_ALGORITMA">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_31_ALGORITMA">
+      <rel_text>алгорифма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_32_ALGORITMA">
+      <rel_text>нормального</rel_text>
+      <target>http://libmeta.ru/me/article/1034_NORMALIZATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_33_ALGORITMA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_34_ALGORITMA">
+      <rel_text>алгорифмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_35_ALGORITMA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_36_ALGORITMA">
+      <rel_text>функцию</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_37_ALGORITMA">
+      <rel_text>реализующего</rel_text>
+      <target>http://libmeta.ru/me/article/1005_REALIZUEMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_38_ALGORITMA">
+      <rel_text>алгорифма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_39_ALGORITMA">
+      <rel_text>нормального</rel_text>
+      <target>http://libmeta.ru/me/article/1034_NORMALIZATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_40_ALGORITMA">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_41_ALGORITMA">
+      <rel_text>алгебры</rel_text>
+      <target>http://libmeta.ru/me/article/93_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_42_ALGORITMA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_43_ALGORITMA">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_44_ALGORITMA">
+      <rel_text>рассмотрел</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_45_ALGORITMA">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_46_ALGORITMA">
+      <rel_text>массовых проблем</rel_text>
+      <target>http://libmeta.ru/me/article/577_MASSOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_47_ALGORITMA">
+      <rel_text>неразрешимых</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_48_ALGORITMA">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/145_49_ALGORITMA">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+  </relations>
+  <text>в Ы ч I с л е н й й функщия, дающая числовую оценку трудностіг (громоздкости) процессов применения алгоритма к исходным данным. Уточнением А. с. вычислений служит понятие си г н л и зи р у ю $URI[[http://libmeta.ru/me/formula/aux/145_1_ALGORITMA]]/URI$ й ф ун к и и (или просто с и г на ли и и р у ю ш е й) - функции, к-рая задается разрешимым отношением между объектамі применения алгоритма и натуральными числами и имеет область определения, совпадающую с областью применимости алгоритма.
+
+Чаще всего рассматриваются временны́е и пространственные характеристики алгоритмич. процессов. 'так, для Тьюринга машины $URI[[http://libmeta.ru/me/formula/aux/145_2_ALGORITMA]]/URI$ с и г на ли зи р у ю щ а я ф у нк ци я в р е м е ни (время работы) $URI[[http://libmeta.ru/me/formula/aux/145_3_ALGORITMA]]/URI$ есть число $URI[[http://libmeta.ru/me/formula/aux/145_4_ALGORITMA]]/URI$ тактов работы $URI[[http://libmeta.ru/me/formula/aux/145_5_ALGORITMA]]/URI$ при преобразовании исходных слоз $URI[[http://libmeta.ru/me/formula/aux/145_6_ALGORITMA]]/URI$ в заключительные; с и г н а л и з и р у ю щ а я п а м я т и (или е мк о с т и) $URI[[http://libmeta.ru/me/formula/aux/145_7_ALGORITMA]]/URI$ определяется как количество ячеек ленты, в к-рых хотя бы раз побывала головка машины при работе над $URI[[http://libmeta.ru/me/formula/aux/145_8_ALGORITMA]]/URI$. Сходным образом определяются сигнализирующие времени и емкости для норлальных алгорифмов, итеративных сетей, многоголовочных и многоленточных машин Тьюринга и т. п.
+
+Общей особенностью этих двух конкретных типов сигнализирующих является наличие эффективной процедуры, позволяющей для любого алгоритма $URI[[http://libmeta.ru/me/formula/aux/145_9_ALGORITMA]]/URI$ (т. е., в частности, для машины Тыоринга, или, точнее, для еe программы), всякого исходного данного $URI[[http://libmeta.ru/me/formula/aux/145_10_ALGORITMA]]/URI$ и натурального числа $URI[[http://libmeta.ru/me/formula/aux/145_11_ALGORITMA]]/URI$ установить, верно ли, что процесс применения $URI[[http://libmeta.ru/me/formula/aux/145_12_ALGORITMA]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/145_13_ALGORITMA]]/URI$ заканчивается со сложностью $URI[[http://libmeta.ru/me/formula/aux/145_14_ALGORITMA]]/URI$. Это обстоятельство положено в основу аксиоматич. построения теории сложности вычислений (см. [1]). Эфффективная процедура $URI[[http://libmeta.ru/me/formula/aux/145_15_ALGORITMA]]/URI$ наз. м е р о й в ы ч и с л ен и й, если она: 1) всегда заканчивается результатом 0 или 1 применительно к тройкам вида 〈алгоритм, исходное данное, натуральное число $URI[[http://libmeta.ru/me/formula/aux/145_16_ALGORITMA]]/URI$, 2) обладает тем свойством, что для любого алгоритма $URI[[http://libmeta.ru/me/formula/aux/145_17_ALGORITMA]]/URI$ и исходного данного $URI[[http://libmeta.ru/me/formula/aux/145_18_ALGORITMA]]/URI$ равенство $URI[[http://libmeta.ru/me/formula/aux/145_19_ALGORITMA]]/URI$ верно не более чем при одном натуральном $URI[[http://libmeta.ru/me/formula/aux/145_20_ALGORITMA]]/URI$, причем такое $URI[[http://libmeta.ru/me/formula/aux/145_21_ALGORITMA]]/URI$ существует тогда и только тогда, когда процесс применения $URI[[http://libmeta.ru/me/formula/aux/145_22_ALGORITMA]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/145_23_ALGORITMA]]/URI$ заканчивается. Вводится с и гнали и и р ую ща я функция $URI[[http://libmeta.ru/me/formula/aux/145_24_ALGORITMA]]/URI$ п о м е р е $URI[[http://libmeta.ru/me/formula/aux/145_25_ALGORITMA]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/145_26_ALGORITMA]]/URI$ тогда и только тогда, когда $URI[[http://libmeta.ru/me/formula/aux/145_27_ALGORITMA]]/URI$
+
+Таким образом, последнее равенство объявляется эквивалентом высказывания «сложность вычисления $URI[[http://libmeta.ru/me/formula/aux/145_28_ALGORITMA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/145_29_ALGORITMA]]/URI$ равна $URI[[http://libmeta.ru/me/formula/aux/145_30_ALGORITMA]]/URI$ (по мере $URI[[http://libmeta.ru/me/formula/aux/145_31_ALGORITMA]]/URI$ )».
+
+Флксируя ту или иную меру вычислений, можно ставить задачи о сложности вычисления конкретных функций $URI[[http://libmeta.ru/me/formula/aux/145_32_ALGORITMA]]/URI$, напр. об отыскании алгоритма $URI[[http://libmeta.ru/me/formula/aux/145_33_ALGORITMA]]/URI$, вычиєляющего $URI[[http://libmeta.ru/me/formula/aux/145_34_ALGORITMA]]/URI$ «лучше других алгоритмов». Однако, как показывает теорема ускорения (см. ниже), подобная поотановка не всегда правомерна, и речь может идти скорее об описании скорости роета тех сигнализирующих $URI[[http://libmeta.ru/me/formula/aux/145_35_ALGORITMA]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/145_36_ALGORITMA]]/URI$ вычисляет $URI[[http://libmeta.ru/me/formula/aux/145_37_ALGORITMA]]/URI$ [напр., об отыскании верхней и нижней границ сложности вычисления $URI[[http://libmeta.ru/me/formula/aux/145_38_ALGORITMA]]/URI$ - двух функций $URI[[http://libmeta.ru/me/formula/aux/145_39_ALGORITMA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/145_40_ALGORITMA]]/URI$ таких, что существует вычисление $URI[[http://libmeta.ru/me/formula/aux/145_41_ALGORITMA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/145_42_ALGORITMA]]/URI$, для к-рого $URI[[http://libmeta.ru/me/formula/aux/145_43_ALGORITMA]]/URI$, и для всякого алгоритма $URI[[http://libmeta.ru/me/formula/aux/145_44_ALGORITMA]]/URI$, вычисляющего $URI[[http://libmeta.ru/me/formula/aux/145_45_ALGORITMA]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/145_46_ALGORITMA]]/URI$ в каком-то смысле мажорирует $URI[[http://libmeta.ru/me/formula/aux/145_47_ALGORITMA]]/URI$ ].
+
+Другим важным направлением в теории сложности вычислений является изучение к л а с с о в с ло жн о с т и - множеств функций, для к-рых существуют вычисления со сложностью, не превышающей к.-л. границы из множества границ, задающих класс. К этому направлению можно отнести и задачи сравнения сложности вычисления для различных типов алгоритмов (автоматов): переход к иной алгоритмич. системе и мере сложности обычно равносилен рассмотрению подходящей новой меры для исходной концепции алгоритмов.
+
+Укажем нек-рые фундаментальные результаты, не зависящие от выбора меры сложности (в том числе и от выбора конкретного уточнения понятия алгоритма) лишь бы существовала, напр., эффективная возможность взаимного моделирования алгоритмов рассматриваемого типа и обыкновенных машин Тьюринга. (для простоты можно представить себе дело так, что речь идет о времени вычисления на машинах Тьюринга натуральнозначных функций натурального аргумента.) Пусть $URI[[http://libmeta.ru/me/formula/aux/145_48_ALGORITMA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/145_49_ALGORITMA]]/URI$ суть вычислимые натуральнозначные функции (см. URI[[http://libmeta.ru/me/relation/145_2_ALGORITMA]]/URI функция) на объектах применения алгоритмов, $URI[[http://libmeta.ru/me/formula/aux/145_50_ALGORITMA]]/URI$ - функция, определенная на тех же объектах и принимающая лишь два значения (например, 0 Ii 1).
+
+Во-первых, существуют сколь угодно сложно вычислимые функции. Точнее, для любой функции $URI[[http://libmeta.ru/me/formula/aux/145_51_ALGORITMA]]/URI$ су- ществует вычислимая функция $URI[[http://libmeta.ru/me/formula/aux/145_52_ALGORITMA]]/URI$ такая, что для всякого алгоритма $URI[[http://libmeta.ru/me/formula/aux/145_53_ALGORITMA]]/URI$, вычисляющего $URI[[http://libmeta.ru/me/formula/aux/145_54_ALGORITMA]]/URI$, неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/145_1_ALGORITMA]]/URI
+\]
+
+неверно лишь в ограниченном числе случаев.
+
+Во-вторых, существуют функции, любое вычисление к-рых в принципе может быть улучшено как угодно сильно. Точнее, имеет место т е о р е м а у с к о р ен и я: для любой функции $URI[[http://libmeta.ru/me/formula/aux/145_55_ALGORITMA]]/URI$ (напр., $URI[[http://libmeta.ru/me/formula/aux/145_56_ALGORITMA]]/URI$ ) можно указать вычислимую функцию $URI[[http://libmeta.ru/me/formula/aux/145_57_ALGORITMA]]/URI$ такую, что для всякого алгоритма $URI[[http://libmeta.ru/me/formula/aux/145_58_ALGORITMA]]/URI$, вычисляющего $URI[[http://libmeta.ru/me/formula/aux/145_59_ALGORITMA]]/URI$, не может не найтись (здесь эффективная процедура не предполагается) алгоритм $URI[[http://libmeta.ru/me/formula/aux/145_60_ALGORITMA]]/URI$, тоже вычисляющий $URI[[http://libmeta.ru/me/formula/aux/145_61_ALGORITMA]]/URI$ и такой, что для всех $URI[[http://libmeta.ru/me/formula/aux/145_62_ALGORITMA]]/URI$ (кроме конечного множества)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/145_2_ALGORITMA]]/URI
+\]
+
+в случае $URI[[http://libmeta.ru/me/formula/aux/145_63_ALGORITMA]]/URI$ это приводит к
+
+\[
+URI[[http://libmeta.ru/me/formula/main/145_3_ALGORITMA]]/URI
+\]
+
+для почти всех $URI[[http://libmeta.ru/me/formula/aux/145_64_ALGORITMA]]/URI$.
+
+Для мер вычислений, определяющих время работы и объем памяти, заключение теоремы ускорения верно для большинства вычислений в такой форме: если $URI[[http://libmeta.ru/me/formula/aux/145_65_ALGORITMA]]/URI$ вычислима со сложностью $URI[[http://libmeta.ru/me/formula/aux/145_66_ALGORITMA]]/URI$, то она вычислима и со сложностью $URI[[http://libmeta.ru/me/formula/aux/145_67_ALGORITMA]]/URI$ (говорят, что $URI[[http://libmeta.ru/me/formula/aux/145_68_ALGORITMA]]/URI$ вычислима со сложностью $URI[[http://libmeta.ru/me/formula/aux/145_69_ALGORITMA]]/URI$, если для нек-рого $URI[[http://libmeta.ru/me/formula/aux/145_70_ALGORITMA]]/URI$, вычисляющего еe, $URI[[http://libmeta.ru/me/formula/aux/145_71_ALGORITMA]]/URI$ для всех слов $URI[[http://libmeta.ru/me/formula/aux/145_72_ALGORITMA]]/URI$ длины $URI[[http://libmeta.ru/me/formula/aux/145_73_ALGORITMA]]/URI$ в рассматриваемом алфавите). Поэтому временна́я и объемная сложности вычислений конкретных функций часто оцениваются с точностью до порядка. Ниже приведены нек-рые конкретные результаты.
+
+Установлено, что время распознавания равенства слов равно (по порядку) $URI[[http://libmeta.ru/me/formula/aux/145_74_ALGORITMA]]/URI$ для машин Тьюринга и нормальных алгорифмов; что всякое свойство слов, распознаваемое на машинах Тьюринга за время, по порядку меньшее функции $URI[[http://libmeta.ru/me/formula/aux/145_75_ALGORITMA]]/URI$, распознается и за время $URI[[http://libmeta.ru/me/formula/aux/145_76_ALGORITMA]]/URI$; что вычисления на машинах Тьюринга со временем $URI[[http://libmeta.ru/me/formula/aux/145_77_ALGORITMA]]/URI$ (для $URI[[http://libmeta.ru/me/formula/aux/145_78_ALGORITMA]]/URI$ по порядку) моделируются на машинах Тьюринга с объемом памяти $URI[[http://libmeta.ru/me/formula/aux/145_79_ALGORITMA]]/URI$. Доказано, что умножение двух $URI[[http://libmeta.ru/me/formula/aux/145_80_ALGORITMA]]/URI$-разрядных чисел на многоленточных машинах Тьюринга осуществимо за время $URI[[http://libmeta.ru/me/formula/aux/145_81_ALGORITMA]]/URI$, но всегда более $URI[[http://libmeta.ru/me/formula/aux/145_82_ALGORITMA]]/URI$ по порядку, а итеративные сети могут умножать в р е а л ь н о е в р е м я, т. е. $URI[[http://libmeta.ru/me/formula/aux/145_83_ALGORITMA]]/URI$-й младший разряд произведения появляется на выходе с подачей на вход $URI[[http://libmeta.ru/me/formula/aux/145_84_ALGORITMA]]/URI$-х разрядов сомножителей. При моделировании алгоритмич. процессов одного типа с помощью других сложность вычислений, вообще говоря, меняется. Так, уменышение размерности итеративных сетей приводит к увеличению времени. В то же время замена многоголовочных машин Тьюринга многоленточными не меняет времени вычисления функций. Для многих типов алгоритмов доказывается возможность их моделирования на машинах Тьюринга с полиномиальным (обычно даже квадратичным) возрастанием времени работы и незначительным увеличением объема памяти.
+
+Сложностный подход оказывается полезным при изученип известных иерархий классов общерекурсивн ых бункций, связанных с логическими и алгебраическими их особенностями. Так, напр., примитивно рекурсивщые функции оказываются в точности теми функциями, к-рые вычислимы на машинах Тьюринга с объемом памяти, ограниченным определенной функцией. Факты существования достаточно сложно распознаваемых свойств, не зависящие от выбора вычислений, доказываются применением диагонального процесса. Их естественные аналоги были обнаружены для нек-рых разрешимых әлементарных теорий и в областях, примыкающих к математич. лингвистике. В то же время для многих практически важных проблем получение хороших нижних гранищ сопряжено со значительными трудностями. Так, в частности, обстоит дело с задачами переборного характера, к-рые уточняются (в одном из вариантов) как задачи об отыскании среди слов опредөленной длины слова, удовлетворяющего вычислимому за полиномиальное время условию. Упомянем еще 0 сложности вычислений на недетерминированных автоматах и автоматах вероятностных. В первом случае речь идет о процессах с әлементами произвола, и под сложностью вычислений понимается сложность «самого простого» варианта процесса. Во втором - конкретный ход процесса определяется, помимо программы и аргумента, последовательностью показаний датчика случайных чисел, а результат должен с большой вероятностью совпадать со значением вычисляемой функции. В обоих случаях удается доказать иногда уменьшение сложности вычислений по сравнению с детерминированными процессами.
+
+Качество алгоритмов оценивают не только с точки зрения А. с. вычислений, но и с точки зрения алгоритма сложности описания. Имеются результаты, совмещающие оба подхода.
+
+Лит.: [1] Х а р т м а н и с Д ж., Х о п к р оф т Д ж. Э.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_5d171c6ff1ee60ac5f51g-1.jpg?height=55&amp;width=749&amp;top_left_y=791&amp;top_left_x=129)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_5d171c6ff1ee60ac5f51g-1.jpg?height=23&amp;width=707&amp;top_left_y=848&amp;top_left_x=166)
+чина, характеризующая длину описания алгоритма. В зависимости от точной концепции алгоритма А. с. описания уточняется по-разному. Единого достаточно устоявшегося уточнения к настоящему моменту (1977) не существует. Ниже рассмотрены наиболее часто встречающиеся случаи.
+
+Под с ло ж н о с т ь ю описания нормального алгорифма обычно понимают длину его изображения, т. е. длину записи всех его формул подстановок в одну строку (между формулами проставляется специальная разделительнал буква). Под с л о ж н о с т ь ю описания Тьюринга машинь обычно понимают число ее внутренних состояний и внешних символов. Иногда для характеристики сложности машины Тьюринга используют число команд данной машины. Для рекурсивных бункций, задаваемых схемами рекурсий, в качестве меры сложности обычно используют число букв в этих схемах.
+
+Предложено также и а к с и о м а т и ч е с к о е о п р е д е ле ни е А. с. описания (см. [2]). Рассмотрим это определение применительно к машинам Тьюринга. Пусть $URI[[http://libmeta.ru/me/formula/aux/145_85_ALGORITMA]]/URI$ естественная нумерация машин Тьюринга, характеризующаяся тем, что по номеру машины можно әффективно восстановить саму машину (т. е. ее программу), а по машине (т. е. программе) - ее номер. Общерекурсивная функция $URI[[http://libmeta.ru/me/formula/aux/145_86_ALGORITMA]]/URI$ наз. м е р о й с ло жно с ти маши н (при этом $URI[[http://libmeta.ru/me/formula/aux/145_87_ALGORITMA]]/URI$ наз. с ло жн о с т ь ю м аш и ны $URI[[http://libmeta.ru/me/formula/aux/145_88_ALGORITMA]]/URI$ тогда и только тогда, когда: а) для любого $URI[[http://libmeta.ru/me/formula/aux/145_89_ALGORITMA]]/URI$ существует не более чем конечное число машин, имеющих сложность $URI[[http://libmeta.ru/me/formula/aux/145_90_ALGORITMA]]/URI$; б) существует эффективная процедура, позволяющая определить для любого $URI[[http://libmeta.ru/me/formula/aux/145_91_ALGORITMA]]/URI$ все те машины, к-рые имеют сложность $URI[[http://libmeta.ru/me/formula/aux/145_92_ALGORITMA]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/145_93_ALGORITMA]]/URI$ - произвольная мера сложности машин Тьюринга. Если $URI[[http://libmeta.ru/me/formula/aux/145_94_ALGORITMA]]/URI$ - произвольный әффективно (т. е. алгоритмически) перечислимый бесконечный подкласс машин Тьюринга, то существует машина $URI[[http://libmeta.ru/me/formula/aux/145_95_ALGORITMA]]/URI$, принадлежащая $URI[[http://libmeta.ru/me/formula/aux/145_96_ALGORITMA]]/URI$, и сушествует машина $URI[[http://libmeta.ru/me/formula/aux/145_97_ALGORITMA]]/URI$ (не обязательно из $URI[[http://libmeta.ru/me/formula/aux/145_98_ALGORITMA]]/URI$ ) такая, что $URI[[http://libmeta.ru/me/formula/aux/145_99_ALGORITMA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/145_100_ALGORITMA]]/URI$ вычисляют одну и ту же функцию, и сложность $URI[[http://libmeta.ru/me/formula/aux/145_101_ALGORITMA]]/URI$ значительно меньше, чем сложность $URI[[http://libmeta.ru/me/formula/aux/145_102_ALGORITMA]]/URI$, Отсюда, в частности, вытекает существование примитивно рекурсивных функций, наименьшая сложность к-рых в примитивно рекурсивной форме (т. е. через схемы примитивной рекурсии) значительно больше, чем их наименьшая сложность в общерекурсивной форме (т. е. через схемы общей рекурсии). Пусть под сложностью нормальных алгорифмов и машин Тьюринга понимаются, соответственно, длина изображения и число внутренних состояний. Тогда любую функцию алгебры логики от $URI[[http://libmeta.ru/me/formula/aux/145_103_ALGORITMA]]/URI$ переменных (см. Булева бункция) можно реализовать (см. [3]): а) нормальным алгорифмом в m-буквенном алфавите со сложностью $URI[[http://libmeta.ru/me/formula/aux/145_104_ALGORITMA]]/URI$; б) машиной Тьюринга с $URI[[http://libmeta.ru/me/formula/aux/145_105_ALGORITMA]]/URI$-буквенным внешним алфавитом со сложностью $URI[[http://libmeta.ru/me/formula/aux/145_106_ALGORITMA]]/URI$.
+
+C 60-х гг. 20 в. начато изучение URI[[http://libmeta.ru/me/relation/145_49_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_48_ALGORITMA]]/URI, решающих конечные куски алгоритмически URI[[http://libmeta.ru/me/relation/145_47_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_46_ALGORITMA]]/URI (так наз. ограниченные URI[[http://libmeta.ru/me/relation/145_45_ALGORITMA]]/URI. проблемы). А. А. Марков URI[[http://libmeta.ru/me/relation/145_44_ALGORITMA]]/URI следующую URI[[http://libmeta.ru/me/relation/145_43_ALGORITMA]]/URI: для любой URI[[http://libmeta.ru/me/relation/145_42_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_41_ALGORITMA]]/URI логики от $URI[[http://libmeta.ru/me/formula/aux/145_107_ALGORITMA]]/URI$ URI[[http://libmeta.ru/me/relation/145_40_ALGORITMA]]/URI построить изображение URI[[http://libmeta.ru/me/relation/145_39_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_38_ALGORITMA]]/URI в алфавите $URI[[http://libmeta.ru/me/formula/aux/145_108_ALGORITMA]]/URI$, URI[[http://libmeta.ru/me/relation/145_37_ALGORITMA]]/URI данную URI[[http://libmeta.ru/me/relation/145_36_ALGORITMA]]/URI и имеющего минимальную URI[[http://libmeta.ru/me/relation/145_35_ALGORITMA]]/URI среди всех таких URI[[http://libmeta.ru/me/relation/145_34_ALGORITMA]]/URI. Показано (см. [1], [4]), что URI[[http://libmeta.ru/me/relation/145_33_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_32_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_31_ALGORITMA]]/URI, решающего эту URI[[http://libmeta.ru/me/relation/145_30_ALGORITMA]]/URI, имеет URI[[http://libmeta.ru/me/relation/145_29_ALGORITMA]]/URI $URI[[http://libmeta.ru/me/formula/aux/145_109_ALGORITMA]]/URI$. Изучен также вопрос о URI[[http://libmeta.ru/me/relation/145_28_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_27_ALGORITMA]]/URI, решающих для первых $URI[[http://libmeta.ru/me/formula/aux/145_110_ALGORITMA]]/URI$ натуральных чисел проблему URI[[http://libmeta.ru/me/relation/145_26_ALGORITMA]]/URI в рекурсивно URI[[http://libmeta.ru/me/relation/145_25_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_24_ALGORITMA]]/URI (с л о ж н о с т ь $URI[[http://libmeta.ru/me/formula/aux/145_111_ALGORITMA]]/URI$-к у с к о в р еку р си вн о переч ислим ых мно же с тв). Показано, что в случае нормальных URI[[http://libmeta.ru/me/relation/145_23_ALGORITMA]]/URI эта URI[[http://libmeta.ru/me/relation/145_22_ALGORITMA]]/URI по URI[[http://libmeta.ru/me/relation/145_21_ALGORITMA]]/URI не превосходит $URI[[http://libmeta.ru/me/formula/aux/145_112_ALGORITMA]]/URI$ и что в общем случае эта оценка не может быть понижена. В то же время существуют URI[[http://libmeta.ru/me/relation/145_20_ALGORITMA]]/URI, задаваемые с помощью достаточно простых логич. URI[[http://libmeta.ru/me/relation/145_19_ALGORITMA]]/URI, к-рые имеют URI[[http://libmeta.ru/me/relation/145_18_ALGORITMA]]/URI $URI[[http://libmeta.ru/me/formula/aux/145_113_ALGORITMA]]/URI$-кусков URI[[http://libmeta.ru/me/relation/145_17_ALGORITMA]]/URI $URI[[http://libmeta.ru/me/formula/aux/145_114_ALGORITMA]]/URI$. Показано также, что при общерекурсивном ограничении времени работы URI[[http://libmeta.ru/me/relation/145_16_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_15_ALGORITMA]]/URI $URI[[http://libmeta.ru/me/formula/aux/145_115_ALGORITMA]]/URI$-кусков рекурсивно URI[[http://libmeta.ru/me/relation/145_14_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_13_ALGORITMA]]/URI может возрастать әкспоненциально и по URI[[http://libmeta.ru/me/relation/145_12_ALGORITMA]]/URI достичь величины $URI[[http://libmeta.ru/me/formula/aux/145_116_ALGORITMA]]/URI$.
+
+Понятие А. с. описания используется в основном при уточнении вопроса о том, какова минимальная URI[[http://libmeta.ru/me/relation/145_11_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_10_ALGORITMA]]/URI, URI[[http://libmeta.ru/me/relation/145_9_ALGORITMA]]/URI тот или иной конечный URI[[http://libmeta.ru/me/relation/145_8_ALGORITMA]]/URI. Эту минимальную URI[[http://libmeta.ru/me/relation/145_7_ALGORITMA]]/URI часто наз. просто с ло жно с т ь к о не чн о го о б ъ е к т а (при данном уточнении понятия А. с. описания).
+
+Определение URI[[http://libmeta.ru/me/relation/145_6_ALGORITMA]]/URI конечных объектов впервые было URI[[http://libmeta.ru/me/relation/145_5_ALGORITMA]]/URI А. Н. Колмогоровым (см. URI[[http://libmeta.ru/me/relation/145_1_ALGORITMA]]/URI). Оказывается, что между сложностью $URI[[http://libmeta.ru/me/formula/aux/145_117_ALGORITMA]]/URI$ по Колмогорову, сложностью $URI[[http://libmeta.ru/me/formula/aux/145_118_ALGORITMA]]/URI$ этих же объектов, выражаемой через длину изображения URI[[http://libmeta.ru/me/relation/145_4_ALGORITMA]]/URI URI[[http://libmeta.ru/me/relation/145_3_ALGORITMA]]/URI в $URI[[http://libmeta.ru/me/formula/aux/145_119_ALGORITMA]]/URI$-буквенном алфавите, и сложностью $URI[[http://libmeta.ru/me/formula/aux/145_120_ALGORITMA]]/URI$, выражаемой числом внутренних состояний машины Тьюринга с $URI[[http://libmeta.ru/me/formula/aux/145_121_ALGORITMA]]/URI$-буквенным внешним алфавитом, существуют асимптотически точные соотношения.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/145_4_ALGORITMA]]/URI
+\]</text>
+  <text_orig>в Ы ч I с л е н й й функщия, дающая числовую оценку трудностіг (громоздкости) процессов применения алгоритма к исходным данным. Уточнением А. с. вычислений служит понятие си г н л и зи р у ю $е$ й ф ун к и и (или просто с и г на ли и и р у ю ш е й) - функции, к-рая задается разрешимым отношением между объектамі применения алгоритма и натуральными числами и имеет область определения, совпадающую с областью применимости алгоритма.
+
+Чаще всего рассматриваются временны́е и пространственные характеристики алгоритмич. процессов. 'Так, для Тьюринга машины $M$ с и г на ли зи р у ю щ а я ф у нк ци я в р е м е ни (время работы) $T_{M}(P)$ есть число $t$ тактов работы $M$ при преобразовании исходных слоз $P$ в заключительные; с и г н а л и з и р у ю щ а я п а м я т и (или е мк о с т и) $S_{M}(P)$ определяется как количество ячеек ленты, в к-рых хотя бы раз побывала головка машины при работе над $P$. Сходным образом определяются сигнализирующие времени и емкости для норлальных алгорифмов, итеративных сетей, многоголовочных и многоленточных машин Тьюринга и т. п.
+
+Общей особенностью этих двух конкретных типов сигнализирующих является наличие эффективной процедуры, позволяющей для любого алгоритма $\alpha$ (т. е., в частности, для машины Тыоринга, или, точнее, для еe программы), всякого исходного данного $x$ и натурального числа $t$ установить, верно ли, что процесс применения $\alpha$ к $x$ заканчивается со сложностью $t$. Это обстоятельство положено в основу аксиоматич. построения теории сложности вычислений (см. [1]). Эфффективная процедура $r$ наз. м е р о й в ы ч и с л ен и й, если она: 1) всегда заканчивается результатом 0 или 1 применительно к тройкам вида 〈алгоритм, исходное данное, натуральное число $&gt;$, 2) обладает тем свойством, что для любого алгоритма $\alpha$ и исходного данного $x$ равенство $r(\alpha, x, t)=1$ верно не более чем при одном натуральном $t$, причем такое $t$ существует тогда и только тогда, когда процесс применения $\alpha$ к $x$ заканчивается. Вводится с и гнали и и р ую ща я функция $R_{\alpha}$ п о м е р е $r$ для $\alpha: R_{\alpha}(x)=t$ тогда и только тогда, когда $r(\alpha, x, t)=1$
+
+Таким образом, последнее равенство объявляется эквивалентом высказывания «сложность вычисления $\alpha$ на $x$ равна $t$ (по мере $r$ )».
+
+Флксируя ту или иную меру вычислений, можно ставить задачи о сложности вычисления конкретных функций $f$, напр. об отыскании алгоритма $\alpha$, вычиєляющего $f$ «лучше других алгоритмов». Однако, как показывает теорема ускорения (см. ниже), подобная поотановка не всегда правомерна, и речь может идти скорее об описании скорости роета тех сигнализирующих $R_{\alpha}$, для к-рых $\alpha$ вычисляет $f$ [напр., об отыскании верхней и нижней границ сложности вычисления $f$ - двух функций $G(x)$ и $g(x)$ таких, что существует вычисление $\alpha$ функции $f$, для к-рого $R_{\alpha}(x) \leqslant G(x)$, и для всякого алгоритма $\beta$, вычисляющего $f$, функция $R_{\beta}$ в каком-то смысле мажорирует $g$ ].
+
+Другим важным направлением в теории сложности вычислений является изучение к л а с с о в с ло жн о с т и - множеств функций, для к-рых существуют вычисления со сложностью, не превышающей к.-л. границы из множества границ, задающих класс. К этому направлению можно отнести и задачи сравнения сложности вычисления для различных типов алгоритмов (автоматов): переход к иной алгоритмич. системе и мере сложности обычно равносилен рассмотрению подходящей новой меры для исходной концепции алгоритмов.
+
+Укажем нек-рые фундаментальные результаты, не зависящие от выбора меры сложности (в том числе и от выбора конкретного уточнения понятия алгоритма) лишь бы существовала, напр., эффективная возможность взаимного моделирования алгоритмов рассматриваемого типа и обыкновенных машин Тьюринга. (Для простоты можно представить себе дело так, что речь идет о времени вычисления на машинах Тьюринга натуральнозначных функций натурального аргумента.) Пусть $T$ и $h$ суть вычислимые натуральнозначные функции (см. Вычислимая функция) на объектах применения алгоритмов, $f$ - функция, определенная на тех же объектах и принимающая лишь два значения (например, 0 II 1).
+
+Во-первых, существуют сколь угодно сложно вычислимые функции. Точнее, для любой функции $T$ су- ществует вычислимая функция $f$ такая, что для всякого алгоритма $\alpha$, вычисляющего $f$, неравенство
+
+\[
+R_{\alpha}(x)&gt;T(x)
+\]
+
+неверно лишь в ограниченном числе случаев.
+
+Во-вторых, существуют функции, любое вычисление к-рых в принципе может быть улучшено как угодно сильно. Точнее, имеет место т е о р е м а у с к о р ен и я: для любой функции $h$ (напр., $h(t)=2^{t}$ ) можно указать вычислимую функцию $f$ такую, что для всякого алгоритма $\alpha$, вычисляющего $f$, не может не найтись (здесь эффективная процедура не предполагается) алгоритм $\beta$, тоже вычисляющий $f$ и такой, что для всех $x$ (кроме конечного множества)
+
+\[
+h\left(R_{\beta}(x)\right)&lt;R_{\alpha}(x)
+\]
+
+в случае $h(t)=2^{t}$ это приводит к
+
+\[
+R_{\beta}(x)&lt;\log _{2} R_{\alpha}(x)
+\]
+
+для почти всех $x$.
+
+Для мер вычислений, определяющих время работы и объем памяти, заключение теоремы ускорения верно для большинства вычислений в такой форме: если $f$ вычислима со сложностью $R(n)$, то она вычислима и со сложностью $R(n) / 2$ (говорят, что $f$ вычислима со сложностью $R(n)$, если для нек-рого $\alpha$, вычисляющего еe, $R_{\alpha}(P) \leqslant R(n)$ для всех слов $P$ длины $n$ в рассматриваемом алфавите). Поэтому временна́я и объемная сложности вычислений конкретных функций часто оцениваются с точностью до порядка. Ниже приведены нек-рые конкретные результаты.
+
+Установлено, что время распознавания равенства слов равно (по порядку) $n^{2}$ для машин Тьюринга и нормальных алгорифмов; что всякое свойство слов, распознаваемое на машинах Тьюринга за время, по порядку меньшее функции $n \log _{2} n$, распознается и за время $n$; что вычисления на машинах Тьюринга со временем $T(n)$ (для $T(n) \geqslant n^{2}$ по порядку) моделируются на машинах Тьюринга с объемом памяти $\sqrt{T(n)}$. Доказано, что умножение двух $n$-разрядных чисел на многоленточных машинах Тьюринга осуществимо за время $n^{1+\varepsilon}$, но всегда более $n$ по порядку, а итеративные сети могут умножать в р е а л ь н о е в р е м я, т. е. $i$-й младший разряд произведения появляется на выходе с подачей на вход $i$-х разрядов сомножителей. При моделировании алгоритмич. процессов одного типа с помощью других сложность вычислений, вообще говоря, меняется. Так, уменышение размерности итеративных сетей приводит к увеличению времени. В то же время замена многоголовочных машин Тьюринга многоленточными не меняет времени вычисления функций. Для многих типов алгоритмов доказывается возможность их моделирования на машинах Тьюринга с полиномиальным (обычно даже квадратичным) возрастанием времени работы и незначительным увеличением объема памяти.
+
+Сложностный подход оказывается полезным при изученип известных иерархий классов общерекурсивн ых бункций, связанных с логическими и алгебраическими их особенностями. Так, напр., примитивно рекурсивщые функции оказываются в точности теми функциями, к-рые вычислимы на машинах Тьюринга с объемом памяти, ограниченным определенной функцией. Факты существования достаточно сложно распознаваемых свойств, не зависящие от выбора вычислений, доказываются применением диагонального процесса. Их естественные аналоги были обнаружены для нек-рых разрешимых әлементарных теорий и в областях, примыкающих к математич. лингвистике. В то же время для многих практически важных проблем получение хороших нижних гранищ сопряжено со значительными трудностями. Так, в частности, обстоит дело с задачами переборного характера, к-рые уточняются (в одном из вариантов) как задачи об отыскании среди слов опредөленной длины слова, удовлетворяющего вычислимому за полиномиальное время условию. Упомянем еще 0 сложности вычислений на недетерминированных автоматах и автоматах вероятностных. В первом случае речь идет о процессах с әлементами произвола, и под сложностью вычислений понимается сложность «самого простого» варианта процесса. Во втором - конкретный ход процесса определяется, помимо программы и аргумента, последовательностью показаний датчика случайных чисел, а результат должен с большой вероятностью совпадать со значением вычисляемой функции. В обоих случаях удается доказать иногда уменьшение сложности вычислений по сравнению с детерминированными процессами.
+
+Качество алгоритмов оценивают не только с точки зрения А. с. вычислений, но и с точки зрения алгоритма сложности описания. Имеются результаты, совмещающие оба подхода.
+
+Лит.: [1] Х а р т м а н и с Д ж., Х о п к р оф т Д ж. Э.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_5d171c6ff1ee60ac5f51g-1.jpg?height=55&amp;width=749&amp;top_left_y=791&amp;top_left_x=129)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_5d171c6ff1ee60ac5f51g-1.jpg?height=23&amp;width=707&amp;top_left_y=848&amp;top_left_x=166)
+чина, характеризующая длину описания алгоритма. В зависимости от точной концепции алгоритма А. с. описания уточняется по-разному. Единого достаточно устоявшегося уточнения к настоящему моменту (1977) не существует. Ниже рассмотрены наиболее часто встречающиеся случаи.
+
+Под с ло ж н о с т ь ю описания нормального алгорифма обычно понимают длину его изображения, т. е. длину записи всех его формул подстановок в одну строку (между формулами проставляется специальная разделительнал буква). Под с л о ж н о с т ь ю описания Тьюринга машинь обычно понимают число ее внутренних состояний и внешних символов. Иногда для характеристики сложности машины Тьюринга используют число команд данной машины. Для рекурсивных бункций, задаваемых схемами рекурсий, в качестве меры сложности обычно используют число букв в этих схемах.
+
+Предложено также и а к с и о м а т и ч е с к о е о п р е д е ле ни е А. с. описания (см. [2]). Рассмотрим это определение применительно к машинам Тьюринга. Пусть $\left(M_{i}\right), i=0,1,2, \ldots,-$ естественная нумерация машин Тьюринга, характеризующаяся тем, что по номеру машины можно әффективно восстановить саму машину (т. е. ее программу), а по машине (т. е. программе) - ее номер. Общерекурсивная функция $s$ наз. м е р о й с ло жно с ти маши н (при этом $s(i)$ наз. с ло жн о с т ь ю м аш и ны $\left.M_{i}\right)$ тогда и только тогда, когда: а) для любого $y$ существует не более чем конечное число машин, имеющих сложность $y$; б) существует эффективная процедура, позволяющая определить для любого $у$ все те машины, к-рые имеют сложность $y$.
+
+Пусть $s$ - произвольная мера сложности машин Тьюринга. Если $U$ - произвольный әффективно (т. е. алгоритмически) перечислимый бесконечный подкласс машин Тьюринга, то существует машина $T$, принадлежащая $U$, и сушествует машина $T^{\prime}$ (не обязательно из $U$ ) такая, что $T^{\prime}$ и $T$ вычисляют одну и ту же функцию, и сложность $T^{\prime}$ значительно меньше, чем сложность $T$, Отсюда, в частности, вытекает существование примитивно рекурсивных функций, наименьшая сложность к-рых в примитивно рекурсивной форме (т. е. через схемы примитивной рекурсии) значительно больше, чем их наименьшая сложность в общерекурсивной форме (т. е. через схемы общей рекурсии). Пусть под сложностью нормальных алгорифмов и машин Тьюринга понимаются, соответственно, длина изображения и число внутренних состояний. Тогда любую функцию алгебры логики от $N$ переменных (см. Булева бункция) можно реализовать (см. [3]): а) нормальным алгорифмом в m-буквенном алфавите со сложностью $\sim 2 \mathrm{~N} / \log _{2} \mathrm{~m}$; б) машиной Тьюринга с $m$-буквенным внешним алфавитом со сложностью $\sim 2 N / N(m-1)$.
+
+C 60-х гг. 20 в. начато изучение сложности алгоритмов, решающих конечные куски алгоритмически неразрешимых массовых проблем (так наз. ограниченные алгоритмич. проблемы). А. А. Марков рассмотрел следующую задачу: для любой функции алгебры логики от $N$ переменных построить изображение нормального алгорифма в алфавите $\Phi=\{0,1, a, b, c\}$, реализующего данную функцию и имеющего минимальную сложность среди всех таких алгорифмов. Показано (см. [1], [4]), что сложность нормального алгорифма, решающего эту задачу, имеет порядок $2 N$. Изучен также вопрос о сложности алгоритмов, решающих для первых $n$ натуральных чисел проблему вхождения в рекурсивно перечислимое множество (с л о ж н о с т ь $n$-к у с к о в р еку р си вн о переч ислим ых мно же с тв). Показано, что в случае нормальных алгорифмов эта сложность по порядку не превосходит $\log _{2} n$ и что в общем случае эта оценка не может быть понижена. В то же время существуют множества, задаваемые с помощью достаточно простых логич. средств, к-рые имеют сложность $n$-кусков порядка $n$. Показано также, что при общерекурсивном ограничении времени работы алгорифмов сложность $n$-кусков рекурсивно перечислимых множеств может возрастать әкспоненциально и по порядку достичь величины $n$.
+
+Понятие А. с. описания используется в основном при уточнении вопроса о том, какова минимальная сложность алгоритма, строящего тот или иной конечный объект. Эту минимальную сложность часто наз. просто с ло жно с т ь к о не чн о го о б ъ е к т а (при данном уточнении понятия А. с. описания).
+
+Определение сложности конечных объектов впервые было предложено А. Н. Колмогоровым (см. Алгоритмическая теория информации). Оказывается, что между сложностью $K(x)$ по Колмогорову, сложностью $M_{m}(x)$ этих же объектов, выражаемой через длину изображения нормального алгорифма в $m$-буквенном алфавите, и сложностью $T_{m}(x)$, выражаемой числом внутренних состояний машины Тьюринга с $m$-буквенным внешним алфавитом, существуют асимптотически точные соотношения.
+
+\[
+M_{m}(x) \sim \frac{K(x)}{\log m}, \quad T_{m}(x) \sim \frac{K(x)}{(m-1) \log _{2} K(x)} .
+\]
+
+Лum.: [1] М а р к о в А. А., «Изв. АН СССР. Сер. матем.&quot;, 1967, т. 31 , № 1 , с. 168-208; [2] Б л ю м М., сб. &quot;Проблемы математической логики&quot;, М., 1970 , с. 423-31; [3] К у з ьм и н В. А., сб. “Проблемы кибернетики&quot;, 1965 вып. 13, с. 75-96; [4] П е т р и Н. В., &quot;Докл. АН СССР&quot;, 1969, т. 185, № 1, с. 37-39; [5] З в о нк ин А. К., Л е в и н Л. А., «Успехи матем. наук», 1970 , т. 25 , вып, 6, с. $85-127$.</text_orig>
+</article>

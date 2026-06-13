@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/682_MINIMAL'NYH" alphabetic_pos="682">
+  <title>МИНИМАЛЬНЫХ ИТЕРАЦИЙ МЕТОД</title>
+  <authors>
+    <author>E. С. Николаев</author>
+  </authors>
+  <pages>
+    <start>348</start>
+    <end>348</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] L a n c z o s C., &quot;j. Res. Nat. Bur. Stand.&quot;, 1950, v. 45, № 4, р. 255-88; [2] Ф а д д е е в Д. К., Ф а д д е е1960 . Н., Вычислительные методы линейной алгебры, мае,</literature_orig>
+    <unit>
+      <author>Lanczos C.</author>
+      <title>&quot;j. Res. Nat. Bur. Stand.&quot;</title>
+      <publication/>
+      <year>1950</year>
+      <other>v. 45, № 4, р. 255-88</other>
+    </unit>
+    <unit>
+      <author>Фаддеев Д. К.</author>
+      <author>Фаддее1960. Н.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Вычислительные методы линейной алгебры, мае</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/682_1_MINIMAL'NYH">p_{n+1}=A p_{k}-\alpha_{k} p_{k}-\beta_{k} p_{k-1}, k=1,2, \ldots, n-2,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/682_2_MINIMAL'NYH">\alpha_{k}=\frac{\left(A p_{k}, A p_{k}\right)}{\left(A p_{k}, \quad p_{k}\right)}, \quad \beta_{k}=\frac{\left(A p_{k}, p_{k}\right)}{\left(A p_{k-1}, p_{k-1}\right)}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_1_MINIMAL'NYH">a x=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_2_MINIMAL'NYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_3_MINIMAL'NYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_4_MINIMAL'NYH">p_{0}, p_{1}, \ldots, p_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_5_MINIMAL'NYH">p_{1}=a p_{0}-\alpha_{0} p, p_{0}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_6_MINIMAL'NYH">\alpha_{k}=\frac{\left(a p_{k}, p_{k}\right)}{\left(p_{k}, p_{k}\right)}, \quad k=0,1, \ldots, n-2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_7_MINIMAL'NYH">\left.\beta_{k}=\frac{\left(p_{k}, p_{k}\right)}{\left(p_{k-1},\right.} p_{k-1}\right), k=1,2, \ldots, n-2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_8_MINIMAL'NYH">a x=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_9_MINIMAL'NYH">x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_10_MINIMAL'NYH">=\sum_{k=0}^{n-1} c_{k} p_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_11_MINIMAL'NYH">c_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_12_MINIMAL'NYH">\left.\begin{array}{l}c_{i-1}+\alpha_{i} c_{i}+\beta_{i+1} c_{i+1}=\frac{\left(b, p_{i}\right)}{\left(p_{i}, p_{i}\right)}, i=1,2, \ldots, n-2, \\ \alpha_{0} c_{0}+\beta_{1} c_{1}=\frac{\left(b, p_{0}\right)}{\left(p_{0}, p_{0}\right)}, c_{n-2}+\alpha_{n-1} c_{n-1}=\frac{\left(b, p_{n-1}\right)}{\left(p_{n-1} p_{n-1}\right)}\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_13_MINIMAL'NYH">p_{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_14_MINIMAL'NYH">r&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_15_MINIMAL'NYH">p_{0}^{(1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_16_MINIMAL'NYH">p_{0}, p_{1}, \ldots, p_{r-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_17_MINIMAL'NYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_18_MINIMAL'NYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_19_MINIMAL'NYH">p_{0}, p_{1}, \ldots, p_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_20_MINIMAL'NYH">c_{k}: c_{k}=\frac{\left(b, p_{k}\right)}{\left(A p_{k}, p_{k}\right)} \cdot</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_21_MINIMAL'NYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_22_MINIMAL'NYH">x_{k+1}=x_{k}+c_{k+1} p_{k+1}, k=0,1, \ldots, n-2, x_{0}=c_{0} p_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_23_MINIMAL'NYH">x=x_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_24_MINIMAL'NYH">p_{0}, p_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/682_25_MINIMAL'NYH">p_{k-1}</formula>
+  </formulas_aux>
+  <relations n="21">
+    <relation uri="http://libmeta.ru/me/relation/682_1_MINIMAL'NYH">
+      <rel_text>обратной матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/1132_OBRATNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_2_MINIMAL'NYH">
+      <rel_text>собственных значений</rel_text>
+      <target>http://libmeta.ru/me/article/41_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_3_MINIMAL'NYH">
+      <rel_text>полной</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_4_MINIMAL'NYH">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_5_MINIMAL'NYH">
+      <rel_text>модификация</rel_text>
+      <target>http://libmeta.ru/me/article/743_MODIFIKATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_6_MINIMAL'NYH">
+      <rel_text>итераций</rel_text>
+      <target>http://libmeta.ru/me/article/689_ITERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_7_MINIMAL'NYH">
+      <rel_text>методу</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_8_MINIMAL'NYH">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_9_MINIMAL'NYH">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_10_MINIMAL'NYH">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_11_MINIMAL'NYH">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_12_MINIMAL'NYH">
+      <rel_text>симметрична</rel_text>
+      <target>http://libmeta.ru/me/article/1306_SIMMTTRIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_13_MINIMAL'NYH">
+      <rel_text>матрица</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_14_MINIMAL'NYH">
+      <rel_text>алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_15_MINIMAL'NYH">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_16_MINIMAL'NYH">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_17_MINIMAL'NYH">
+      <rel_text>полной</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_18_MINIMAL'NYH">
+      <rel_text>систему</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_19_MINIMAL'NYH">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_20_MINIMAL'NYH">
+      <rel_text>ортогонализации</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/682_21_MINIMAL'NYH">
+      <rel_text>алгоритме</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+  </relations>
+  <text>метод решения системы линейных алгебраич. уравнений $URI[[http://libmeta.ru/me/formula/aux/682_1_MINIMAL'NYH]]/URI$, в к-ром решение $URI[[http://libmeta.ru/me/formula/aux/682_2_MINIMAL'NYH]]/URI$ представляется в виде линейной комбинации базисных векторов, ортогональных в нек-рой метрике, связанной с матрицей системы.
+
+В случае симметритной матрицы $URI[[http://libmeta.ru/me/formula/aux/682_3_MINIMAL'NYH]]/URI$ ортогональная система векторов $URI[[http://libmeta.ru/me/formula/aux/682_4_MINIMAL'NYH]]/URI$ строится по трехчленным рекуррентным формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/682_1_MINIMAL'NYH]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/682_5_MINIMAL'NYH]]/URI$ произвольный вектор, где
+
+$URI[[http://libmeta.ru/me/formula/aux/682_6_MINIMAL'NYH]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/682_7_MINIMAL'NYH]]/URI$. Решение системы $URI[[http://libmeta.ru/me/formula/aux/682_8_MINIMAL'NYH]]/URI$ находится по формулам $URI[[http://libmeta.ru/me/formula/aux/682_9_MINIMAL'NYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/682_10_MINIMAL'NYH]]/URI$, а коәффициенты $URI[[http://libmeta.ru/me/formula/aux/682_11_MINIMAL'NYH]]/URI$ дают решение системы $URI[[http://libmeta.ru/me/formula/aux/682_12_MINIMAL'NYH]]/URI$
+
+В случае вырождения в URI[[http://libmeta.ru/me/relation/682_21_MINIMAL'NYH]]/URI URI[[http://libmeta.ru/me/relation/682_20_MINIMAL'NYH]]/URI, т. е. когда $URI[[http://libmeta.ru/me/formula/aux/682_13_MINIMAL'NYH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/682_14_MINIMAL'NYH]]/URI$, выбирают новый начальный URI[[http://libmeta.ru/me/relation/682_19_MINIMAL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/682_15_MINIMAL'NYH]]/URI$, ортогональный $URI[[http://libmeta.ru/me/formula/aux/682_16_MINIMAL'NYH]]/URI$, и достраивают URI[[http://libmeta.ru/me/relation/682_18_MINIMAL'NYH]]/URI базисных векторов цо URI[[http://libmeta.ru/me/relation/682_17_MINIMAL'NYH]]/URI URI[[http://libmeta.ru/me/relation/682_16_MINIMAL'NYH]]/URI. Для случая несимметричной URI[[http://libmeta.ru/me/relation/682_15_MINIMAL'NYH]]/URI разработан биортогональный URI[[http://libmeta.ru/me/relation/682_14_MINIMAL'NYH]]/URI.
+
+Если URI[[http://libmeta.ru/me/relation/682_13_MINIMAL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/682_17_MINIMAL'NYH]]/URI$ URI[[http://libmeta.ru/me/relation/682_12_MINIMAL'NYH]]/URI и положительно определена, то построение $URI[[http://libmeta.ru/me/formula/aux/682_18_MINIMAL'NYH]]/URI$-ортогональной URI[[http://libmeta.ru/me/relation/682_11_MINIMAL'NYH]]/URI векторов $URI[[http://libmeta.ru/me/formula/aux/682_19_MINIMAL'NYH]]/URI$ по URI[[http://libmeta.ru/me/relation/682_10_MINIMAL'NYH]]/URI (1) с
+
+\[
+URI[[http://libmeta.ru/me/formula/main/682_2_MINIMAL'NYH]]/URI
+\]
+
+позволяет избежать решения вспомогательной URI[[http://libmeta.ru/me/relation/682_9_MINIMAL'NYH]]/URI (2) и URI[[http://libmeta.ru/me/relation/682_8_MINIMAL'NYH]]/URI явное выражение для коэффициентов $URI[[http://libmeta.ru/me/formula/aux/682_20_MINIMAL'NYH]]/URI$ При этом URI[[http://libmeta.ru/me/relation/682_7_MINIMAL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/682_21_MINIMAL'NYH]]/URI$-минимальных URI[[http://libmeta.ru/me/relation/682_6_MINIMAL'NYH]]/URI можно придать итерационную форму
+
+$URI[[http://libmeta.ru/me/formula/aux/682_22_MINIMAL'NYH]]/URI$,
+
+причем $URI[[http://libmeta.ru/me/formula/aux/682_23_MINIMAL'NYH]]/URI$. Такая URI[[http://libmeta.ru/me/relation/682_5_MINIMAL'NYH]]/URI URI[[http://libmeta.ru/me/relation/682_4_MINIMAL'NYH]]/URI не требует повторного использования всех векторов $URI[[http://libmeta.ru/me/formula/aux/682_24_MINIMAL'NYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/682_25_MINIMAL'NYH]]/URI$. М. и. м. используется также для реппения URI[[http://libmeta.ru/me/relation/682_3_MINIMAL'NYH]]/URI проблемы URI[[http://libmeta.ru/me/relation/682_2_MINIMAL'NYH]]/URI и для нахождения URI[[http://libmeta.ru/me/relation/682_1_MINIMAL'NYH]]/URI.</text>
+  <text_orig>метод решения системы линейных алгебраич. уравнений $A x=b$, в к-ром решение $x$ представляется в виде линейной комбинации базисных векторов, ортогональных в нек-рой метрике, связанной с матрицей системы.
+
+В случае симметритной матрицы $A$ ортогональная система векторов $p_{0}, p_{1}, \ldots, p_{n-1}$ строится по трехчленным рекуррентным формулам
+
+\[
+p_{n+1}=A p_{k}-\alpha_{k} p_{k}-\beta_{k} p_{k-1}, k=1,2, \ldots, n-2,
+\]
+
+$p_{1}=A p_{0}-\alpha_{0} p, p_{0}-$ произвольный вектор, где
+
+$\alpha_{k}=\frac{\left(A p_{k}, p_{k}\right)}{\left(p_{k}, p_{k}\right)}, \quad k=0,1, \ldots, n-2$,
+
+$\left.\beta_{k}=\frac{\left(p_{k}, p_{k}\right)}{\left(p_{k-1},\right.} p_{k-1}\right), k=1,2, \ldots, n-2$. Решение системы $A x=b$ находится по формулам $x=$ $=\sum_{k=0}^{n-1} c_{k} p_{k}$, а коәффициенты $c_{k}$ дают решение системы $\left.\begin{array}{l}c_{i-1}+\alpha_{i} c_{i}+\beta_{i+1} c_{i+1}=\frac{\left(b, p_{i}\right)}{\left(p_{i}, p_{i}\right)}, i=1,2, \ldots, n-2, \\ \alpha_{0} c_{0}+\beta_{1} c_{1}=\frac{\left(b, p_{0}\right)}{\left(p_{0}, p_{0}\right)}, c_{n-2}+\alpha_{n-1} c_{n-1}=\frac{\left(b, p_{n-1}\right)}{\left(p_{n-1} p_{n-1}\right)}\end{array}\right\}$
+
+В случае вырождения в алгоритме ортогонализации, т. е. когда $p_{2}=0$ при $r&lt;n$, выбирают новый начальный вектор $p_{0}^{(1)}$, ортогональный $p_{0}, p_{1}, \ldots, p_{r-1}$, и достраивают систему базисных векторов цо полной системы. Для случая несимметричной матрицы разработан биортогональный алгоритм.
+
+Если матрица $A$ симметрична и положительно определена, то построение $A$-ортогональной системы векторов $p_{0}, p_{1}, \ldots, p_{n-1}$ по формулам (1) с
+
+\[
+\alpha_{k}=\frac{\left(A p_{k}, A p_{k}\right)}{\left(A p_{k}, \quad p_{k}\right)}, \quad \beta_{k}=\frac{\left(A p_{k}, p_{k}\right)}{\left(A p_{k-1}, p_{k-1}\right)}
+\]
+
+позволяет избежать решения вспомогательной системы (2) и получить явное выражение для коэффициентов $c_{k}: c_{k}=\frac{\left(b, p_{k}\right)}{\left(A p_{k}, p_{k}\right)} \cdot$ При этом методу $A$-минимальных итераций можно придать итерационную форму
+
+$x_{k+1}=x_{k}+c_{k+1} p_{k+1}, k=0,1, \ldots, n-2, x_{0}=c_{0} p_{0}$,
+
+причем $x=x_{n-1}$. Такая модификация метода не требует повторного использования всех векторов $p_{0}, p_{1}, \ldots$, $p_{k-1}$. М. и. м. используется также для реппения полной проблемы собственных значений и для нахождения обратной матрицы.
+
+Jum.: [1] L a n c z o s C., &quot;J. Res. Nat. Bur. Stand.&quot;, 1950, v. 45, № 4, р. 255-88; [2] Ф а д д е е в Д. К., Ф а д д е е1960 . Н., Вычислительные методы линейной алгебры, мае,
+E. С. Николаев.</text_orig>
+</article>

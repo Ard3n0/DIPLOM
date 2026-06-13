@@ -1,0 +1,435 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/45_OІTIMAL'NOSTI" alphabetic_pos="45">
+  <title>ОІТИМАЛЬНОСТИ ДОСТАТОЧНЫЕ УСЛОВИЯ</title>
+  <authors>
+    <author>И. Б. Вапнярский</author>
+  </authors>
+  <pages>
+    <start>27</start>
+    <end>28</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Л а в р е н т в е в М. А., Лю с т е рн ик Л. А.; Курс вариационного исчисления, 2 изд., М.- Л., 1950; 22$]$ англ., М., 1950; [3] Б е л л м а н Р , Динамическое программирование, пер. с англ., М., 1960; [4] Б о л т я н с к и й В. Г. Математические методы оптимального управления, М., 1966 [5] К р о т о в В. Ф. &quot;автоматика и телемеханика», 1962, т. 23, № 12, с. $1571-83 ; 1963$, т. $24, \mathcal{N o}^{2} 5$, c. $581-98 ;[6]$ Б у т к о враспределенными параметрами, М., 1965.</literature_orig>
+    <unit>
+      <author>Лаврентвев М. А.</author>
+      <title>Лю с т е рн ик Л. А.; Курс вариационного исчисления</title>
+      <publication>2 изд., М.- Л.</publication>
+      <year>1950</year>
+      <other>М., 1950; [3] Б е л л м а н Р, Динамическое программирование, пер. с англ., М., 1960; [4] Б о л т я н с к и й В. Г. Математические методы оптимального управления, М., 1966 [5] К р о т о в В. Ф. &quot;автоматика и телемеханика», 1962, т. 23, № 12, с. $1571-83 ; 1963$, т. $24, \mathcal{N o}^{2} 5$, c. $581-98 ;[6]$ Б у т к о враспределенными параметрами, М., 1965.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/45_1_OІTIMAL'NOSTI">J(y)=\int_{x_{0}}^{x_{1}} F\left(x, y, y^{\prime}\right) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_2_OІTIMAL'NOSTI">y\left(x_{0}\right)=y_{0}, \quad y\left(x_{1}\right)=y_{1},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_3_OІTIMAL'NOSTI">F_{y}-\frac{d}{d x} F_{y^{\ell}}=0 \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_4_OІTIMAL'NOSTI">F_{y^{\prime} y^{\prime}}\left(x, y, y^{\prime}\right)&gt;0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_5_OІTIMAL'NOSTI">\left(F_{y y}-\frac{d}{d x} F_{y y^{\prime}}\right) \eta-\frac{d}{d x}\left(F_{y^{\prime} y^{\prime}} \eta^{\prime}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_6_OІTIMAL'NOSTI">\eta\left(x_{0}\right)=0, \quad \eta^{\prime}\left(x_{0}\right)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_7_OІTIMAL'NOSTI">\text { ㅇ }\left(x, y, u(x, y), y^{\prime}\right) \supseteqq 0 \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_8_OІTIMAL'NOSTI">\begin{gathered}\mathscr{O}\left(x, y, u, y^{\prime}\right)=F\left(x, y, y^{\prime}\right)-F(x, y, u)- \\-\left(y^{\prime}-u\right) F_{y^{\prime}}(x, y, u)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_9_OІTIMAL'NOSTI">\mathscr{O}\left(x, \bar{y}, \overline{y^{\prime}}, y^{\prime}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_10_OІTIMAL'NOSTI">J=\int_{0}^{t_{1}} f^{0}(x, u) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_11_OІTIMAL'NOSTI">f^{0}: \mathbb{R}^{n} \times \mathbb{R}^{p} \rightarrow \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_12_OІTIMAL'NOSTI">\begin{gathered}\dot{x}=f(x, u), f: \mathbb{R}^{n} \times \mathbb{R}^{p} \rightarrow \mathbb{R}^{n}, \\x(0)=x_{0}, x\left(t_{1}\right)=x_{1}, \\u \in U,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_13_OІTIMAL'NOSTI">\max _{u \in U}\left(\frac{\partial S}{\partial x} f(x, u)-f^{0}(x, u)\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_14_OІTIMAL'NOSTI">\begin{gathered}\frac{\partial S}{\partial x} f(x, v(x))-f^{0}(x, v(x))= \\=\max _{u \in U}\left(\frac{\partial S}{\partial x} f(x, u)-f^{0}(x, u)\right)=0 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_15_OІTIMAL'NOSTI">R(x, u)=\varphi_{x} f(x, u)-f^{0}(x, u) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_16_OІTIMAL'NOSTI">R(\bar{x}, \bar{u})=\max _{x \in G, u \in U} R(x, u) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_1_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_2_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_3_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_4_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_5_OІTIMAL'NOSTI">x_{0}&lt;x \leqslant x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_6_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_7_OІTIMAL'NOSTI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_8_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_9_OІTIMAL'NOSTI">(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_10_OІTIMAL'NOSTI">y^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_11_OІTIMAL'NOSTI">u(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_12_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_13_OІTIMAL'NOSTI">\bar{y}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_14_OІTIMAL'NOSTI">=f\left(x, \bar{y}, y^{\prime}\right)-F\left(x, \bar{y}, \overline{y^{\prime}}\right)-\left(y^{\prime}-\overline{y^{\prime}}\right) F_{y},\left(x, \bar{y}, \overline{y^{\prime}}\right) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_15_OІTIMAL'NOSTI">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_16_OІTIMAL'NOSTI">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_17_OІTIMAL'NOSTI">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_18_OІTIMAL'NOSTI">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_19_OІTIMAL'NOSTI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_20_OІTIMAL'NOSTI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_21_OІTIMAL'NOSTI">x_{1}, S\left(x_{1}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_22_OІTIMAL'NOSTI">u(t)=v(x(t))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_23_OІTIMAL'NOSTI">0 \leqslant t \leqslant t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_24_OІTIMAL'NOSTI">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_25_OІTIMAL'NOSTI">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_26_OІTIMAL'NOSTI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_27_OІTIMAL'NOSTI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_28_OІTIMAL'NOSTI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_29_OІTIMAL'NOSTI">\frac{\partial S}{\partial t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_30_OІTIMAL'NOSTI">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_31_OІTIMAL'NOSTI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_32_OІTIMAL'NOSTI">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_33_OІTIMAL'NOSTI">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_34_OІTIMAL'NOSTI">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_35_OІTIMAL'NOSTI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_36_OІTIMAL'NOSTI">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_37_OІTIMAL'NOSTI">\bar{u}(t), \bar{x}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_38_OІTIMAL'NOSTI">\varphi(x)</formula>
+  </formulas_aux>
+  <relations n="22">
+    <relation uri="http://libmeta.ru/me/relation/45_1_OІTIMAL'NOSTI">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_2_OІTIMAL'NOSTI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_3_OІTIMAL'NOSTI">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_4_OІTIMAL'NOSTI">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_5_OІTIMAL'NOSTI">
+      <rel_text>связями</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_6_OІTIMAL'NOSTI">
+      <rel_text>диффференциальнымі</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_7_OІTIMAL'NOSTI">
+      <rel_text>кратных</rel_text>
+      <target>http://libmeta.ru/me/article/82_KRATNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_8_OІTIMAL'NOSTI">
+      <rel_text>вариационные задачи</rel_text>
+      <target>http://libmeta.ru/me/article/597_VARIATsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_9_OІTIMAL'NOSTI">
+      <rel_text>скользящих оптимальных</rel_text>
+      <target>http://libmeta.ru/me/article/48_OPTIMAЈ'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_10_OІTIMAL'NOSTI">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_11_OІTIMAL'NOSTI">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_12_OІTIMAL'NOSTI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_13_OІTIMAL'NOSTI">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_14_OІTIMAL'NOSTI">
+      <rel_text>минимум</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_15_OІTIMAL'NOSTI">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_16_OІTIMAL'NOSTI">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_17_OІTIMAL'NOSTI">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_18_OІTIMAL'NOSTI">
+      <rel_text>принципа максимума</rel_text>
+      <target>http://libmeta.ru/me/article/531_MAKSIMINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_19_OІTIMAL'NOSTI">
+      <rel_text>полученные</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_20_OІTIMAL'NOSTI">
+      <rel_text>регулярный</rel_text>
+      <target>http://libmeta.ru/me/article/1037_REGULJaTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_21_OІTIMAL'NOSTI">
+      <rel_text>фазового пространства</rel_text>
+      <target>http://libmeta.ru/me/article/655_FAZOVOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_22_OІTIMAL'NOSTI">
+      <rel_text>принципа максимума</rel_text>
+      <target>http://libmeta.ru/me/article/531_MAKSIMINA</target>
+    </relation>
+  </relations>
+  <text>условия, обеспечивающие оптимальность данного ре- щения задачи вариационного исчисления в выбранном классе кривых сравнения.
+
+О. д. у. с л а бого м и н и м у м а (см. [1]): для того чтобы кривая $URI[[http://libmeta.ru/me/formula/aux/45_1_OІTIMAL'NOSTI]]/URI$ доставляла слабый минимум функционалу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_1_OІTIMAL'NOSTI]]/URI
+\]
+
+при граничных условиях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_2_OІTIMAL'NOSTI]]/URI
+\]
+
+достаточно, чтобы выполнялись следующие условия.
+
+1) Кривая $URI[[http://libmeta.ru/me/formula/aux/45_2_OІTIMAL'NOSTI]]/URI$ должна быть экстремалью, т. е. удовлетворять Эйлера уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_3_OІTIMAL'NOSTI]]/URI
+\]
+
+2) Вдоль кривой $URI[[http://libmeta.ru/me/formula/aux/45_3_OІTIMAL'NOSTI]]/URI$, включая ее концы, должно выполняться усиленное Лгеандра условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_4_OІTIMAL'NOSTI]]/URI
+\]
+
+3) Кривая $URI[[http://libmeta.ru/me/formula/aux/45_4_OІTIMAL'NOSTI]]/URI$ должна удовлетворять усиленному Якобй условию, требующему, чтобы решение уравнения Якобіi
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_5_OІTIMAL'NOSTI]]/URI
+\]
+
+с начальными условиями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_6_OІTIMAL'NOSTI]]/URI
+\]
+
+не обращалось в нуль в точках замкнутого справа интервала $URI[[http://libmeta.ru/me/formula/aux/45_5_OІTIMAL'NOSTI]]/URI$.
+
+Коэфффициенты уравнения Якоби (2), представляющего собої линейное дифференциальное уравненіе 2-го порядка, вычисляются вдоль экстремали $URI[[http://libmeta.ru/me/formula/aux/45_6_OІTIMAL'NOSTI]]/URI$ и представляют известные функции от $URI[[http://libmeta.ru/me/formula/aux/45_7_OІTIMAL'NOSTI]]/URI$.
+
+Для с и л ь Н о Г о м И н и м у м а достаточно, чтобы дополнительно, помимо перечисленных выше, выполнялось следующее условие.
+
+4) Существует окрестность кривої $URI[[http://libmeta.ru/me/formula/aux/45_8_OІTIMAL'NOSTI]]/URI$, в каждой точке $URI[[http://libmeta.ru/me/formula/aux/45_9_OІTIMAL'NOSTI]]/URI$ к-рой при любом $URI[[http://libmeta.ru/me/formula/aux/45_10_OІTIMAL'NOSTI]]/URI$ выполняется неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_7_OІTIMAL'NOSTI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_8_OІTIMAL'NOSTI]]/URI
+\]
+
+- функция Вейерштрасса, а $URI[[http://libmeta.ru/me/formula/aux/45_11_OІTIMAL'NOSTI]]/URI$ - наклов поля экстремалей, окружающего $URI[[http://libmeta.ru/me/formula/aux/45_12_OІTIMAL'NOSTI]]/URI$.
+
+На самой экстремали $URI[[http://libmeta.ru/me/formula/aux/45_13_OІTIMAL'NOSTI]]/URI$ условие (3) прннпмает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_9_OІTIMAL'NOSTI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/45_14_OІTIMAL'NOSTI]]/URI$.
+
+Условие (4) является необходимым для сильного минимума; оно наз. не о бходи мым усло в и е м В е й е р шт р с с а. Таким образом, в отличие от достаточных условий слабого минимума, к-рые требуют выполнения нек-рых усиленных необходимых условиї в точках самой экстремали, в достаточных условиях сильного минимума требуется выполнение необходимого условия Вейерштрасса в нек-рої окрестности әкстремали. В общем случае нельзя ослабить формулировку достаточных условий сильного минимума, заменив требование выполнения условия Вейерштрасса в окрестности экстремали на усиленное условие Вейерштрасса (условие (4) со знаком строгого неравенства) в точках әкстремали (см. [1]).
+
+Для неклассических вариационных задач, рассматриваемых в оптимального управления математической теории, существует несколько подходов к установлению О. д. у. абсолютного әкстремума.
+
+Пусть поставлена задача оптимального управления, в к-рой требуется определить минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_10_OІTIMAL'NOSTI]]/URI
+\]
+
+при условиях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_11_OІTIMAL'NOSTI]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_12_OІTIMAL'NOSTI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/45_15_OІTIMAL'NOSTI]]/URI$ - заданное замкнутое множество $URI[[http://libmeta.ru/me/formula/aux/45_16_OІTIMAL'NOSTI]]/URI$-мерного пространства.
+
+При использовании метода динамического программирования [3] O. Д. у. формулируются следующим образом. Для того чтобы управление $URI[[http://libmeta.ru/me/formula/aux/45_17_OІTIMAL'NOSTI]]/URI$ было оптимальным управлением в задаче (5)-(8), достаточно, чтобы:
+
+1) существовала такая непрерывная функция $URI[[http://libmeta.ru/me/formula/aux/45_18_OІTIMAL'NOSTI]]/URI$, к-рая имеет непрерывные частные производные прі всех $URI[[http://libmeta.ru/me/formula/aux/45_19_OІTIMAL'NOSTI]]/URI$, за исключением, быть может, нек-рого кусочно гладкого множества размерности меньше $URI[[http://libmeta.ru/me/formula/aux/45_20_OІTIMAL'NOSTI]]/URI$, равна нулю в конечной точке $URI[[http://libmeta.ru/me/formula/aux/45_21_OІTIMAL'NOSTI]]/URI$, и удовлетворяет уравнению Беллмана
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_13_OІTIMAL'NOSTI]]/URI
+\]
+
+2) $URI[[http://libmeta.ru/me/formula/aux/45_22_OІTIMAL'NOSTI]]/URI$, при $URI[[http://libmeta.ru/me/formula/aux/45_23_OІTIMAL'NOSTI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/45_24_OІTIMAL'NOSTI]]/URI$ - синтезирующая функция, определяемая из уравнения Беллмана:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_14_OІTIMAL'NOSTI]]/URI
+\]
+
+В действительности при использовании метода динамич. программирования получается более сильный результат: О. Д. У. для множества различных управлений, переводящих фазовую точку из произвольного начального состояния в заданное конечное состояние $URI[[http://libmeta.ru/me/formula/aux/45_25_OІTIMAL'NOSTI]]/URI$.
+
+В более общем случае, когда рассматривается неавтономная система, т. е. подинтегральная функция и вектор-функция правых частей зависят еще и от времени $URI[[http://libmeta.ru/me/formula/aux/45_26_OІTIMAL'NOSTI]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/45_27_OІTIMAL'NOSTI]]/URI$ должна зависеть от $URI[[http://libmeta.ru/me/formula/aux/45_28_OІTIMAL'NOSTI]]/URI$ и к левой части уравнения (9) следует добавить слагаемое $URI[[http://libmeta.ru/me/formula/aux/45_29_OІTIMAL'NOSTI]]/URI$. Имеется доказательство (см. [4]), в к-ром удалось снять весьма стөснительное и не выполняющееся в большинстве задач, но обычно предполагаемое условие непрерывной дифференцируемости функции $URI[[http://libmeta.ru/me/formula/aux/45_30_OІTIMAL'NOSTI]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/45_31_OІTIMAL'NOSTI]]/URI$.
+
+О. д. у. могут быть построены на основе URI[[http://libmeta.ru/me/relation/45_22_OІTIMAL'NOSTI]]/URI Понтрягина. Если в нек-рой области $URI[[http://libmeta.ru/me/formula/aux/45_32_OІTIMAL'NOSTI]]/URI$ URI[[http://libmeta.ru/me/relation/45_21_OІTIMAL'NOSTI]]/URI осуществлен URI[[http://libmeta.ru/me/relation/45_20_OІTIMAL'NOSTI]]/URI синтез, то все траектории, URI[[http://libmeta.ru/me/relation/45_19_OІTIMAL'NOSTI]]/URI с помощью URI[[http://libmeta.ru/me/relation/45_18_OІTIMAL'NOSTI]]/URI при построении регулярного синтеза, являются оптимальными в области $URI[[http://libmeta.ru/me/formula/aux/45_33_OІTIMAL'NOSTI]]/URI$.
+
+Определение регулярного синтеза хотя и является довольно громоздким, но по существу не накладывает особых ограничений на URI[[http://libmeta.ru/me/relation/45_17_OІTIMAL'NOSTI]]/URI (5)-(8).
+
+Существует другой подход к установлению О. д. у. (см. [5]). Пусть $URI[[http://libmeta.ru/me/formula/aux/45_34_OІTIMAL'NOSTI]]/URI$ - URI[[http://libmeta.ru/me/relation/45_16_OІTIMAL'NOSTI]]/URI, непрерывная вместе со своими URI[[http://libmeta.ru/me/relation/45_15_OІTIMAL'NOSTI]]/URI при всех допустимых $URI[[http://libmeta.ru/me/formula/aux/45_35_OІTIMAL'NOSTI]]/URI$, принадлежащих заданной области $URI[[http://libmeta.ru/me/formula/aux/45_36_OІTIMAL'NOSTI]]/URI$, и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_15_OІTIMAL'NOSTI]]/URI
+\]
+
+Для того чтобы пара $URI[[http://libmeta.ru/me/formula/aux/45_37_OІTIMAL'NOSTI]]/URI$ доставляла абсолютный URI[[http://libmeta.ru/me/relation/45_14_OІTIMAL'NOSTI]]/URI в URI[[http://libmeta.ru/me/relation/45_13_OІTIMAL'NOSTI]]/URI (5)-(8), достаточно существование такой URI[[http://libmeta.ru/me/relation/45_12_OІTIMAL'NOSTI]]/URI $URI[[http://libmeta.ru/me/formula/aux/45_38_OІTIMAL'NOSTI]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_16_OІTIMAL'NOSTI]]/URI
+\]
+
+Допускаются соответствующие изменения приведенной формулировки О. д. у. для более общіх случаев неавтономної URI[[http://libmeta.ru/me/relation/45_11_OІTIMAL'NOSTI]]/URI, задач с функционалами типа Майера и Больца (см. Больца URI[[http://libmeta.ru/me/relation/45_10_OІTIMAL'NOSTI]]/URI), а также для URI[[http://libmeta.ru/me/relation/45_9_OІTIMAL'NOSTI]]/URI режимов (см. [5]).
+
+Исследовались URI[[http://libmeta.ru/me/relation/45_8_OІTIMAL'NOSTI]]/URI с функционалами в виде URI[[http://libmeta.ru/me/relation/45_7_OІTIMAL'NOSTI]]/URI интегралов и URI[[http://libmeta.ru/me/relation/45_6_OІTIMAL'NOSTI]]/URI URI[[http://libmeta.ru/me/relation/45_5_OІTIMAL'NOSTI]]/URI в форме URI[[http://libmeta.ru/me/relation/45_4_OІTIMAL'NOSTI]]/URI с URI[[http://libmeta.ru/me/relation/45_3_OІTIMAL'NOSTI]]/URI, в к-рых рассматриваются URI[[http://libmeta.ru/me/relation/45_2_OІTIMAL'NOSTI]]/URI нескольких URI[[http://libmeta.ru/me/relation/45_1_OІTIMAL'NOSTI]]/URI (см. [6]).</text>
+  <text_orig>условия, обеспечивающие оптимальность данного ре- щения задачи вариационного исчисления в выбранном классе кривых сравнения.
+
+О. д. у. с л а бого м и н и м у м а (см. [1]): для того чтобы кривая $\bar{y}(x)$ доставляла слабый минимум функционалу
+
+\[
+J(y)=\int_{x_{0}}^{x_{1}} F\left(x, y, y^{\prime}\right) d x
+\]
+
+при граничных условиях
+
+\[
+y\left(x_{0}\right)=y_{0}, \quad y\left(x_{1}\right)=y_{1},
+\]
+
+достаточно, чтобы выполнялись следующие условия.
+
+1) Кривая $\bar{y}(x)$ должна быть экстремалью, т. е. удовлетворять Эйлера уравнению
+
+\[
+F_{y}-\frac{d}{d x} F_{y^{\ell}}=0 \text {. }
+\]
+
+2) Вдоль кривой $\bar{y}(x)$, включая ее концы, должно выполняться усиленное ЛГеандра условие
+
+\[
+F_{y^{\prime} y^{\prime}}\left(x, y, y^{\prime}\right)&gt;0 .
+\]
+
+3) Кривая $\bar{y}(x)$ должна удовлетворять усиленному Якобй условию, требующему, чтобы решение уравнения ЯкобіI
+
+\[
+\left(F_{y y}-\frac{d}{d x} F_{y y^{\prime}}\right) \eta-\frac{d}{d x}\left(F_{y^{\prime} y^{\prime}} \eta^{\prime}\right)=0
+\]
+
+с начальными условиями
+
+\[
+\eta\left(x_{0}\right)=0, \quad \eta^{\prime}\left(x_{0}\right)=1
+\]
+
+не обращалось в нуль в точках замкнутого справа интервала $x_{0}&lt;x \leqslant x_{1}$.
+
+Коэфффициенты уравнения Якоби (2), представляющего собої линейное дифференциальное уравненіе 2-го порядка, вычисляются вдоль экстремали $\bar{y}(x)$ и представляют известные функции от $x$.
+
+Для с и л ь Н о Г о м И н и м у м а достаточно, чтобы дополнительно, помимо перечисленных выше, выполнялось следующее условие.
+
+4) Существует окрестность кривої $\bar{y}(x)$, в каждой точке $(x, y)$ к-рой при любом $y^{\prime}$ выполняется неравенство
+
+\[
+\text { ㅇ }\left(x, y, u(x, y), y^{\prime}\right) \supseteqq 0 \text {, }
+\]
+
+где
+
+\[
+\begin{gathered}
+\mathscr{O}\left(x, y, u, y^{\prime}\right)=F\left(x, y, y^{\prime}\right)-F(x, y, u)- \\
+-\left(y^{\prime}-u\right) F_{y^{\prime}}(x, y, u)
+\end{gathered}
+\]
+
+- функция Вейерштрасса, а $u(x, y)$ - наклов поля экстремалей, окружающего $\bar{y}(x)$.
+
+На самой экстремали $\bar{y}(x)$ условие (3) прннпмает вид
+
+\[
+\mathscr{O}\left(x, \bar{y}, \overline{y^{\prime}}, y^{\prime}\right)=
+\]
+
+$=F\left(x, \bar{y}, y^{\prime}\right)-F\left(x, \bar{y}, \overline{y^{\prime}}\right)-\left(y^{\prime}-\overline{y^{\prime}}\right) F_{y},\left(x, \bar{y}, \overline{y^{\prime}}\right) \geqslant 0$.
+
+Условие (4) является необходимым для сильного минимума; оно наз. не о бходи мым усло в и е м В е й е р шт р с с а. Таким образом, в отличие от достаточных условий слабого минимума, к-рые требуют выполнения нек-рых усиленных необходимых условиї в точках самой экстремали, в достаточных условиях сильного минимума требуется выполнение необходимого условия Вейерштрасса в нек-рої окрестности әкстремали. В общем случае нельзя ослабить формулировку достаточных условий сильного минимума, заменив требование выполнения условия Вейерштрасса в окрестности экстремали на усиленное условие Вейерштрасса (условие (4) со знаком строгого неравенства) в точках әкстремали (см. [1]).
+
+Для неклассических вариационных задач, рассматриваемых в оптимального управления математической теории, существует несколько подходов к установлению О. д. у. абсолютного әкстремума.
+
+Пусть поставлена задача оптимального управления, в к-рой требуется определить минимум функционала
+
+\[
+J=\int_{0}^{t_{1}} f^{0}(x, u) d t
+\]
+
+при условиях
+
+\[
+f^{0}: \mathbb{R}^{n} \times \mathbb{R}^{p} \rightarrow \mathbb{R}
+\]
+
+\[
+\begin{gathered}
+\dot{x}=f(x, u), f: \mathbb{R}^{n} \times \mathbb{R}^{p} \rightarrow \mathbb{R}^{n}, \\
+x(0)=x_{0}, x\left(t_{1}\right)=x_{1}, \\
+u \in U,
+\end{gathered}
+\]
+
+где $U$ - заданное замкнутое множество $p$-мерного пространства.
+
+При использовании метода динамического программирования [3] O. Д. у. формулируются следующим образом. Для того чтобы управление $u(t)$ было оптимальным управлением в задаче (5)-(8), достаточно, чтобы:
+
+1) существовала такая непрерывная функция $S(x)$, к-рая имеет непрерывные частные производные прі всех $x$, за исключением, быть может, нек-рого кусочно гладкого множества размерности меньше $n$, равна нулю в конечной точке $x_{1}, S\left(x_{1}\right)=0$, и удовлетворяет уравнению Беллмана
+
+\[
+\max _{u \in U}\left(\frac{\partial S}{\partial x} f(x, u)-f^{0}(x, u)\right)=0
+\]
+
+2) $u(t)=v(x(t))$, при $0 \leqslant t \leqslant t_{1}$, где $v(x)$ - синтезирующая функция, определяемая из уравнения Беллмана:
+
+\[
+\begin{gathered}
+\frac{\partial S}{\partial x} f(x, v(x))-f^{0}(x, v(x))= \\
+=\max _{u \in U}\left(\frac{\partial S}{\partial x} f(x, u)-f^{0}(x, u)\right)=0 .
+\end{gathered}
+\]
+
+В действительности при использовании метода динамич. программирования получается более сильный результат: О. Д. У. для множества различных управлений, переводящих фазовую точку из произвольного начального состояния в заданное конечное состояние $x_{1}$.
+
+В более общем случае, когда рассматривается неавтономная система, т. е. подинтегральная функция и вектор-функция правых частей зависят еще и от времени $t$, функция $S$ должна зависеть от $t$ и к левой части уравнения (9) следует добавить слагаемое $\frac{\partial S}{\partial t}$. Имеется доказательство (см. [4]), в к-ром удалось снять весьма стөснительное и не выполняющееся в большинстве задач, но обычно предполагаемое условие непрерывной дифференцируемости функции $S(x)$ для всех $x$.
+
+О. д. у. могут быть построены на основе принципа максимума Понтрягина. Если в нек-рой области $G$ фазового пространства осуществлен регулярный синтез, то все траектории, полученные с помощью принципа максимума при построении регулярного синтеза, являются оптимальными в области $G$.
+
+Определение регулярного синтеза хотя и является довольно громоздким, но по существу не накладывает особых ограничений на задачу (5)-(8).
+
+Существует другой подход к установлению О. д. у. (см. [5]). Пусть $\varphi(x)$ - функция, непрерывная вместе со своими частными производными при всех допустимых $x$, принадлежащих заданной области $G$, и
+
+\[
+R(x, u)=\varphi_{x} f(x, u)-f^{0}(x, u) .
+\]
+
+Для того чтобы пара $\bar{u}(t), \bar{x}(t)$ доставляла абсолютный минимум в задаче (5)-(8), достаточно существование такой функции $\varphi(x)$, что
+
+\[
+R(\bar{x}, \bar{u})=\max _{x \in G, u \in U} R(x, u) .
+\]
+
+Допускаются соответствующие изменения приведенной формулировки О. д. у. для более общіх случаев неавтономної системы, задач с функционалами типа Майера и Больца (см. Больца задача), а также для скользящих оптимальных режимов (см. [5]).
+
+Исследовались вариационные задачи с функционалами в виде кратных интегралов и диффференциальнымі связями в форме уравнений с частными производными, в к-рых рассматриваются функции нескольких переменных (см. [6]).
+
+Лum.: [1] Л а в р е н т в е в М. А., Лю с т е рн ик Л. А.; Курс вариационного исчисления, 2 изд., М.- Л., 1950; 22$]$ англ., М., 1950; [3] Б е л л м а н Р , Динамическое программирование, пер. с англ., М., 1960; [4] Б о л т я н с к и й В. Г. Математические методы оптимального управления, М., 1966 [5] К р о т о в В. Ф. &quot;Автоматика и телемеханика», 1962, т. 23, № 12, с. $1571-83 ; 1963$, т. $24, \mathcal{N o}^{2} 5$, c. $581-98 ;[6]$ Б у т к о враспределенными параметрами, М., 1965. И. Б. Вапнярский.</text_orig>
+</article>

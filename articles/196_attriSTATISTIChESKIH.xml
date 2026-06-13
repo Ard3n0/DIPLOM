@@ -1,0 +1,437 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/196_attriSTATISTIChESKIH" alphabetic_pos="196">
+  <title>attriСТАТИСТИЧЕСКИХ ГИПОТЕЗ ПРОВЕРКА</title>
+  <authors/>
+  <pages>
+    <start>94</start>
+    <end>96</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] N e y m a n J., P e a r s o n E. S., &quot;biometrika», 1928, v. 20 A, p. 175-240; p. 263-94: [2] и х же е, &quot;phil. Trans Roy. Soc.», ser. A, 1933, v. 231, p. 289-337; L3] Ј е м а н Э.,Iiроверка статистических гипотез, иер. с ангт., 2 изд., М., 1979 ; Iiроверка статистических гипотез, пер. с ангт., 2 изд., М., 1979,[4] к р а м е р Г., Математические методы статыстики, і2 изд., пер. с англ., М., 1975; [5] Г а е к Я., Iii и д а к 3., Теория ранговых критериев, пер. с англ., М., 1971.</literature_orig>
+    <unit>
+      <author>Neyman J.</author>
+      <author>Pearson E. S.</author>
+      <title>&quot;biometrika»</title>
+      <publication/>
+      <year>1928</year>
+      <other>v. 20 A, p. 175-240; p. 263-94:</other>
+    </unit>
+    <unit>
+      <title>и х же е, &quot;phil. Trans Roy. Soc.», ser. A</title>
+      <publication/>
+      <year>1933</year>
+      <other>v. 231, p. 289-337; L3] Ј е м а н Э., Iiроверка статистических гипотез, иер. с ангт., 2 изд., М., 1979 ; Iiроверка статистических гипотез, пер. с ангт., 2 изд., М., 1979, [4] к р а м е р Г., Математические методы статыстики, і2 изд., пер. с англ., М., 1975; [5] Г а е к Я., Iii и д а к 3., Теория ранговых критериев, пер. с англ., М., 1971.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/196_1_attriSTATISTIChESKIH">H_{0}=\left\{P_{\theta}, \theta \in \Theta_{0} \subset \Theta\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_2_attriSTATISTIChESKIH">H_{1}=H \backslash H_{0}=\left\{P_{\theta}, \theta \in \Theta_{1}=\Theta \backslash \Theta_{0}\right\},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_3_attriSTATISTIChESKIH">H_{1}=\left\{P_{\theta}, \theta \in \Theta_{1}=\Theta \backslash \Theta_{0}\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_4_attriSTATISTIChESKIH">\begin{gathered}\mathrm{P}\left\{X_{i}&lt;x \mid \theta\right\}=\Phi(x-\theta)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-\frac{1}{2}(t-\theta)^{2}} d t, \\i=1,2, \ldots, n .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_5_attriSTATISTIChESKIH">\beta=\inf _{\theta \in \Theta_{1}} \beta_{n}(\theta)=\inf _{\theta \in \Theta_{1}} E_{\theta} \varphi_{n}(X) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_6_attriSTATISTIChESKIH">\sup _{\theta \in \Theta_{0}} \beta_{n}(\theta)=\sup _{\theta \in \Theta_{0}} E_{0} \varphi_{n}(X)=\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_7_attriSTATISTIChESKIH">\beta_{n}^{*}(\theta) \geqslant \beta_{n}(\theta) \text { при всех } \theta \in \Theta_{1},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_8_attriSTATISTIChESKIH">\sup _{\theta \in \Theta_{0}} \beta_{n}(\theta) \leqslant \inf _{\theta \in \Theta_{1}} \beta_{n}(\theta) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_9_attriSTATISTIChESKIH">\varphi_{n}\left(X^{*}\right)=\left\{\begin{array}{l}1, \text { если }\left|X .-\theta_{0}\right|&gt;\frac{1}{\sqrt{n}} \Phi^{-1}\left(1-\frac{\alpha}{2}\right), \\0, \text { если }\left|X .-\theta_{0}\right| \leqslant \frac{1}{\sqrt{n}} \Phi^{-1}\left(1-\frac{\alpha}{2}\right),\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_10_attriSTATISTIChESKIH">X .=\frac{1}{n}\left(X_{1}+\ldots+X_{n}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_11_attriSTATISTIChESKIH">P\{X .&lt;x \mid \theta\}=\Phi[\sqrt{n}(x-\theta)],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_12_attriSTATISTIChESKIH">\beta_{n}(\theta)=\operatorname{E}_{\theta} \varphi_{n}(X)=\mathbf{P}\left\{\left|X \cdot-\theta_{0}\right|&gt;\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/196_13_attriSTATISTIChESKIH">\lim _{n \rightarrow \infty} \beta_{n}(\theta)=1 \text { для любого } \theta \in \Theta_{1} \text {, }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_1_attriSTATISTIChESKIH">x=\left(x_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_2_attriSTATISTIChESKIH">\left.X_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_3_attriSTATISTIChESKIH">x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_4_attriSTATISTIChESKIH">\left(\mathscr{x}_{n}, \mathscr{B}_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_5_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_6_attriSTATISTIChESKIH">h=\left\{p_{\theta}, \theta \in \Theta\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_7_attriSTATISTIChESKIH">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_8_attriSTATISTIChESKIH">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_9_attriSTATISTIChESKIH">h_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_10_attriSTATISTIChESKIH">з</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_11_attriSTATISTIChESKIH">h_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_12_attriSTATISTIChESKIH">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_13_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_14_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_15_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_16_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_17_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_18_attriSTATISTIChESKIH">h_{0}: \theta \in \Theta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_19_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_20_attriSTATISTIChESKIH">h_{0}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_21_attriSTATISTIChESKIH">=\left\{p_{\theta}, \quad \theta \in \Theta_{0}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_22_attriSTATISTIChESKIH">h_{1}: \theta \in \Theta_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_23_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_24_attriSTATISTIChESKIH">x=\left(x_{1}, \ldots, X_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_25_attriSTATISTIChESKIH">x_{1}, \ldots, X_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_26_attriSTATISTIChESKIH">n_{1}(\theta, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_27_attriSTATISTIChESKIH">\theta=\mathrm{e} X_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_28_attriSTATISTIChESKIH">(|\theta|&lt;\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_29_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_30_attriSTATISTIChESKIH">h_{0}: \theta=\theta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_31_attriSTATISTIChESKIH">h_{1}: \theta \neq \theta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_32_attriSTATISTIChESKIH">\theta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_33_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_34_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_35_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_36_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_37_attriSTATISTIChESKIH">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_38_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_39_attriSTATISTIChESKIH">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_40_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_41_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_42_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_43_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_44_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_45_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_46_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_47_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_48_attriSTATISTIChESKIH">\left.H_{i}\right)(i=0,1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_49_attriSTATISTIChESKIH">\varphi_{n}(\cdot): \mathfrak{X}_{n} \rightarrow[0 ; 1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_50_attriSTATISTIChESKIH">\varphi_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_51_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_52_attriSTATISTIChESKIH">\varphi_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_53_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_54_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_55_attriSTATISTIChESKIH">1-\varphi_{n}(X)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_56_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_57_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_58_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_59_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_60_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_61_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_62_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_63_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_64_attriSTATISTIChESKIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_65_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_66_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_67_attriSTATISTIChESKIH">\theta=\theta_{0} \bigcup \Theta_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_68_attriSTATISTIChESKIH">\beta_{n}(\theta)=\mathrm{e}_{\theta} \quad \varphi_{n}(X)=\int x_{n} \varphi_{n}(x) d P_{\theta}(x), \theta \in \Theta=\Theta_{0} \cup \Theta_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_69_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_70_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_71_attriSTATISTIChESKIH">p_{\theta}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_72_attriSTATISTIChESKIH">\theta \in \Theta=\Theta_{0} \cup \Theta_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_73_attriSTATISTIChESKIH">\varphi_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_74_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_75_attriSTATISTIChESKIH">\beta_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_76_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_77_attriSTATISTIChESKIH">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_78_attriSTATISTIChESKIH">\theta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_79_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_80_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_81_attriSTATISTIChESKIH">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_82_attriSTATISTIChESKIH">\theta_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_83_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_84_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_85_attriSTATISTIChESKIH">1-\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_86_attriSTATISTIChESKIH">\theta_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_87_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_88_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_89_attriSTATISTIChESKIH">\alpha(0&lt;\alpha&lt;1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_90_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_91_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_92_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_93_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_94_attriSTATISTIChESKIH">01 ; 0,05</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_95_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_96_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_97_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_98_attriSTATISTIChESKIH">\sup _{\theta \in \Theta_{0}} \beta_{n}(\theta) \leqslant \alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_99_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_100_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_101_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_102_attriSTATISTIChESKIH">\kappa</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_103_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_104_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_105_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_106_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_107_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_108_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_109_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_110_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_111_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_112_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_113_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_114_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_115_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_116_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_117_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_118_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_119_attriSTATISTIChESKIH">n_{1}(\theta, 1 / n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_120_attriSTATISTIChESKIH">\mathrm{e} X=\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_121_attriSTATISTIChESKIH">\mathrm{d} X=\frac{1}{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_122_attriSTATISTIChESKIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_123_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_124_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_125_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_126_attriSTATISTIChESKIH">\left.&gt;\frac{1}{n} \Phi^{-1}\left(1-\frac{\alpha}{2}\right) \mid \theta\right\}=\Phi\left[\Phi^{-1}\left(\frac{\alpha}{2}\right)+\sqrt{n}\left(\theta_{0}-\theta\right)\right]+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_127_attriSTATISTIChESKIH">+\phi\left[\phi^{-1}\left(\frac{\alpha}{2}\right)-\sqrt{n}\left(\theta_{0}-\theta\right)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_128_attriSTATISTIChESKIH">\beta_{n}(\theta) \geqslant \beta_{n}\left(\theta_{0}\right)=\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_129_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_130_attriSTATISTIChESKIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_131_attriSTATISTIChESKIH">\beta_{n}(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_132_attriSTATISTIChESKIH">\theta=\theta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_133_attriSTATISTIChESKIH">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_134_attriSTATISTIChESKIH">\theta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_135_attriSTATISTIChESKIH">\left|\theta-\theta_{0}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_136_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_137_attriSTATISTIChESKIH">1-\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_138_attriSTATISTIChESKIH">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_139_attriSTATISTIChESKIH">\left\{\beta_{n}(\cdot)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_140_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_141_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_142_attriSTATISTIChESKIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_143_attriSTATISTIChESKIH">x=\left(x_{1}, \ldots, X_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_144_attriSTATISTIChESKIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_145_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_146_attriSTATISTIChESKIH">h_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_147_attriSTATISTIChESKIH">n \rightarrow \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_148_attriSTATISTIChESKIH">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_149_attriSTATISTIChESKIH">i I_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_150_attriSTATISTIChESKIH">h_{0}\left(h_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_151_attriSTATISTIChESKIH">h_{0}\left(h_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/196_152_attriSTATISTIChESKIH">h_{0}\left(h_{1}\right)</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/196_1_attriSTATISTIChESKIH">
+      <rel_text>модели</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/196_2_attriSTATISTIChESKIH">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/196_3_attriSTATISTIChESKIH">
+      <rel_text>результатов</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/196_4_attriSTATISTIChESKIH">
+      <rel_text>противоречий</rel_text>
+      <target>http://libmeta.ru/me/article/756_PROTIVOREChI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/196_5_attriSTATISTIChESKIH">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/196_6_attriSTATISTIChESKIH">
+      <rel_text>статистич</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+  </relations>
+  <text>один из основных разделов математич. статистики, в к-ром развиваются идеи и методы статистич. проверки соответствия между әкспериментальными данными и гипотезами об их вероятностной природе.
+
+Пусть наблюдается слутайный вектор $URI[[http://libmeta.ru/me/formula/aux/196_1_attriSTATISTIChESKIH]]/URI$, . ., $URI[[http://libmeta.ru/me/formula/aux/196_2_attriSTATISTIChESKIH]]/URI$, принимающий значения $URI[[http://libmeta.ru/me/formula/aux/196_3_attriSTATISTIChESKIH]]/URI$ в измеримом пространстве $URI[[http://libmeta.ru/me/formula/aux/196_4_attriSTATISTIChESKIH]]/URI$, и пусть известно, что распределение вероятностей этого случайного вектора $URI[[http://libmeta.ru/me/formula/aux/196_5_attriSTATISTIChESKIH]]/URI$ принадлежит заданному множеству вероятностных распределений $URI[[http://libmeta.ru/me/formula/aux/196_6_attriSTATISTIChESKIH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/196_7_attriSTATISTIChESKIH]]/URI$ - нек-рое параметрич. множество. Множество $URI[[http://libmeta.ru/me/formula/aux/196_8_attriSTATISTIChESKIH]]/URI$ наз. м по ж е с тво м До П у т имых ги пот е 3, а любое его непустое подмножество $URI[[http://libmeta.ru/me/formula/aux/196_9_attriSTATISTIChESKIH]]/URI$ с т а т и с т и ч. г И П от е $URI[[http://libmeta.ru/me/formula/aux/196_10_attriSTATISTIChESKIH]]/URI$ о й или просто г и по т е 3 о й. Если $URI[[http://libmeta.ru/me/formula/aux/196_11_attriSTATISTIChESKIH]]/URI$ содержит ровно один әлемент, то такая гиготеза наз. ш р ос т о ї, в противном случае - с ло ж но й. Далее, пусть в $URI[[http://libmeta.ru/me/formula/aux/196_12_attriSTATISTIChESKIH]]/URI$ выделены две т. н. конкурирующие между собой гипотезы
+
+Ii
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_1_attriSTATISTIChESKIH]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_2_attriSTATISTIChESKIH]]/URI
+\]
+
+одну из к-рых, напр. $URI[[http://libmeta.ru/me/formula/aux/196_13_attriSTATISTIChESKIH]]/URI$, наз. о с н о в н о й, а другуюа л ь т е р н а т и в н о й г и по т е 3 о й или просто альтернативой к $URI[[http://libmeta.ru/me/formula/aux/196_14_attriSTATISTIChESKIH]]/URI$. В терминах гипотез $URI[[http://libmeta.ru/me/formula/aux/196_15_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_16_attriSTATISTIChESKIH]]/URI$ удобно формулировать основную задачу теории С. г. П. в рамках модели Неймана - Пирсона (см. |1], [2]). Шменно, найти оптимальный способ, пользуясь к-рым можно было бы на основе наблюденной реализации случайного вектора $URI[[http://libmeta.ru/me/formula/aux/196_17_attriSTATISTIChESKIH]]/URI$ проверить, справедлива ли гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_18_attriSTATISTIChESKIH]]/URI$, согласно к-рой распределение вероятностей вектора $URI[[http://libmeta.ru/me/formula/aux/196_19_attriSTATISTIChESKIH]]/URI$ гринадлежит множеству $URI[[http://libmeta.ru/me/formula/aux/196_20_attriSTATISTIChESKIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/196_21_attriSTATISTIChESKIH]]/URI$, или же справедлива альтернативная гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_22_attriSTATISTIChESKIH]]/URI$, согласно к-роі распределение вероятностей наб̆людаемого вектора $URI[[http://libmeta.ru/me/formula/aux/196_23_attriSTATISTIChESKIH]]/URI$ принадлежит множеству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_3_attriSTATISTIChESKIH]]/URI
+\]
+
+П р и м е p 1. Пусть наблюдается случайный вектор $URI[[http://libmeta.ru/me/formula/aux/196_24_attriSTATISTIChESKIH]]/URI$, компоненты к-рого $URI[[http://libmeta.ru/me/formula/aux/196_25_attriSTATISTIChESKIH]]/URI$ суть независимые случайные величины, подчиняющиеся одному и тому же нормальному закону $URI[[http://libmeta.ru/me/formula/aux/196_26_attriSTATISTIChESKIH]]/URI$, математич. ожидание к-рого $URI[[http://libmeta.ru/me/formula/aux/196_27_attriSTATISTIChESKIH]]/URI$ неизвестно $URI[[http://libmeta.ru/me/formula/aux/196_28_attriSTATISTIChESKIH]]/URI$, а дисперсия равна 1, т. е. для любого действительного числа $URI[[http://libmeta.ru/me/formula/aux/196_29_attriSTATISTIChESKIH]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_4_attriSTATISTIChESKIH]]/URI
+\]
+
+В этих условиях можно, напр., рассмотреть задачу проверки гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_30_attriSTATISTIChESKIH]]/URI$ против альтернативы $URI[[http://libmeta.ru/me/formula/aux/196_31_attriSTATISTIChESKIH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/196_32_attriSTATISTIChESKIH]]/URI$ - нек-рое заданное число. В данном примере гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_33_attriSTATISTIChESKIH]]/URI$ является простой, а конкурирующая с ней гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_34_attriSTATISTIChESKIH]]/URI$ - сложной.
+
+Формально, конкурирующие гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_35_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_36_attriSTATISTIChESKIH]]/URI$ являются равноправными в задаче различения гипотез и вопрос о том, какое из двух непересекающихся и взаимно дополняющих множеств из $URI[[http://libmeta.ru/me/formula/aux/196_37_attriSTATISTIChESKIH]]/URI$ назвать основноӥ гипотезой, не является существенным и не влияет на построение самой теории С. г. п. Однако, как правило, на выборе основной гипотезы сказывается отношение әкспериментатора к самой задаче, в результате чего основной гипотезой чаще наз. то множество $URI[[http://libmeta.ru/me/formula/aux/196_38_attriSTATISTIChESKIH]]/URI$ из множества всех допустимых гипотез $URI[[http://libmeta.ru/me/formula/aux/196_39_attriSTATISTIChESKIH]]/URI$, к-рое, по мнению экспериментатора, по природе изучаемого явления либо из каких-либо физич. соображений, должно лучше согласовываться с ожидаемыми әкспериментальными данными. Именно поэтому гипотезу $URI[[http://libmeta.ru/me/formula/aux/196_40_attriSTATISTIChESKIH]]/URI$ часто наз. проверяемой гипотезой. В теоретич. плане различие между гипотезами $URI[[http://libmeta.ru/me/formula/aux/196_41_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_42_attriSTATISTIChESKIH]]/URI$ часто сказывается в том, что, как правило, множество $URI[[http://libmeta.ru/me/formula/aux/196_43_attriSTATISTIChESKIH]]/URI$ оказывается более просто устроенным, чем $URI[[http://libmeta.ru/me/formula/aux/196_44_attriSTATISTIChESKIH]]/URI$, что отражает желание әкспериментатора иметь дело с более простой моделью.
+
+В теории С. г. п. суждение о справедливости $URI[[http://libmeta.ru/me/formula/aux/196_45_attriSTATISTIChESKIH]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/196_46_attriSTATISTIChESKIH]]/URI$ делается на основании наблюденной реализации случайного вектора $URI[[http://libmeta.ru/me/formula/aux/196_47_attriSTATISTIChESKIH]]/URI$; при этом решающее правило, с помощью к-рого принимается решение «справедлива гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_48_attriSTATISTIChESKIH]]/URI$, наз. статистическим критерием. Структура любого статистич. критерия полностью определяется его т. н. критич. функцией $URI[[http://libmeta.ru/me/formula/aux/196_49_attriSTATISTIChESKIH]]/URI$. Согласно статистич. критерию, имеющему критич. функцию $URI[[http://libmeta.ru/me/formula/aux/196_50_attriSTATISTIChESKIH]]/URI$, проверяемая гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_51_attriSTATISTIChESKIH]]/URI$ отвергается с вероятностью $URI[[http://libmeta.ru/me/formula/aux/196_52_attriSTATISTIChESKIH]]/URI$ в пользу альтернативы $URI[[http://libmeta.ru/me/formula/aux/196_53_attriSTATISTIChESKIH]]/URI$, а гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_54_attriSTATISTIChESKIH]]/URI$ отвергается с вероятностью $URI[[http://libmeta.ru/me/formula/aux/196_55_attriSTATISTIChESKIH]]/URI$ в пользу $URI[[http://libmeta.ru/me/formula/aux/196_56_attriSTATISTIChESKIH]]/URI$. С практич. точки зрения наибольший интерес представляют т. н. нерандомизированные критерии, критич. функции к-рых принимают лишь два значения: 0 и 1. Какой бы критерий не применялся для различения гипотез $URI[[http://libmeta.ru/me/formula/aux/196_57_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_58_attriSTATISTIChESKIH]]/URI$, в результате его применения можно либо принять правильное решение, либо прийти к ошибочному. В теории С. г. п. ошибочные выводы принято классифици ровать следующим образом.
+
+Если критерий бракует проверяемую гипотезу $URI[[http://libmeta.ru/me/formula/aux/196_59_attriSTATISTIChESKIH]]/URI$, когда она в действительности верна, то говорят, что совершена ошибка 1-го рода. Напротив, если статистич. критериї̈ не отклоняет проверяемую гипотезу $URI[[http://libmeta.ru/me/formula/aux/196_60_attriSTATISTIChESKIH]]/URI$ (и, значит, согласно этому крптерию, гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_61_attriSTATISTIChESKIH]]/URI$ принимается), когда она на самом деле неверна, то говорят, тто совершена ошибка 2-го рода. Задачу проверки гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_62_attriSTATISTIChESKIH]]/URI$ против $URI[[http://libmeta.ru/me/formula/aux/196_63_attriSTATISTIChESKIH]]/URI$ желательно провести таким образом, чтобы минимизировать вероятности әтих ошибок. К сожалению, управлять обеими вероятностями ошибок одновременно при фиксированной размерности $URI[[http://libmeta.ru/me/formula/aux/196_64_attriSTATISTIChESKIH]]/URI$ вектора наблюдений $URI[[http://libmeta.ru/me/formula/aux/196_65_attriSTATISTIChESKIH]]/URI$ невозможно: уменьшение одной из них ведет, как правило, к увеличению другой. Численно вероятности этих ошибок выражаются в терминах т. н. ф у н к ц и и м о щ н о с т и $URI[[http://libmeta.ru/me/formula/aux/196_66_attriSTATISTIChESKIH]]/URI$ статистич. критерия, определенной на множестве $URI[[http://libmeta.ru/me/formula/aux/196_67_attriSTATISTIChESKIH]]/URI$ по следующему правилу:
+
+$URI[[http://libmeta.ru/me/formula/aux/196_68_attriSTATISTIChESKIH]]/URI$. Из определения функции мощности $URI[[http://libmeta.ru/me/formula/aux/196_69_attriSTATISTIChESKIH]]/URI$ следует, что если случайный вектор $URI[[http://libmeta.ru/me/formula/aux/196_70_attriSTATISTIChESKIH]]/URI$ подчиняется закону $URI[[http://libmeta.ru/me/formula/aux/196_71_attriSTATISTIChESKIH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/196_72_attriSTATISTIChESKIH]]/URI$, то статистич. критерий, основанный на критич. функции $URI[[http://libmeta.ru/me/formula/aux/196_73_attriSTATISTIChESKIH]]/URI$, будет отклонять проверяемую гипотезу $URI[[http://libmeta.ru/me/formula/aux/196_74_attriSTATISTIChESKIH]]/URI$ с вероятностью $URI[[http://libmeta.ru/me/formula/aux/196_75_attriSTATISTIChESKIH]]/URI$. Таким образом, сужение функции мощности $URI[[http://libmeta.ru/me/formula/aux/196_76_attriSTATISTIChESKIH]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/196_77_attriSTATISTIChESKIH]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/196_78_attriSTATISTIChESKIH]]/URI$ будет показывать вероятности ошибок 1-го рода, т. е. вероятности напрасного отклонения $URI[[http://libmeta.ru/me/formula/aux/196_79_attriSTATISTIChESKIH]]/URI$. Напротив, сужение функции мощности $URI[[http://libmeta.ru/me/formula/aux/196_80_attriSTATISTIChESKIH]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/196_81_attriSTATISTIChESKIH]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/196_82_attriSTATISTIChESKIH]]/URI$, называемое м о щн о с т ю с т а т и с т и ч. к р и те ри я, показывает другое важное катество статистич. критерия: вероятности отклонения проверяемой гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_83_attriSTATISTIChESKIH]]/URI$, когда в действительности справедлива конкурирующая гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_84_attriSTATISTIChESKIH]]/URI$. Иногда мощностью статистич. критерия наз. число
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_5_attriSTATISTIChESKIH]]/URI
+\]
+
+Дополнение же мощности до 1 , т. е. функция $URI[[http://libmeta.ru/me/formula/aux/196_85_attriSTATISTIChESKIH]]/URI$, заданная на множестве $URI[[http://libmeta.ru/me/formula/aux/196_86_attriSTATISTIChESKIH]]/URI$, позволяет вычислять вероятности ошибок 2-го рода. В рамках классич. модели С. г. П. Неймана - Пирсона задачу проверки $URI[[http://libmeta.ru/me/formula/aux/196_87_attriSTATISTIChESKIH]]/URI$ против $URI[[http://libmeta.ru/me/formula/aux/196_88_attriSTATISTIChESKIH]]/URI$ начинают с выбора верхней границы $URI[[http://libmeta.ru/me/formula/aux/196_89_attriSTATISTIChESKIH]]/URI$ для вероятности напрасного отклонения проверяемої гиіотезы $URI[[http://libmeta.ru/me/formula/aux/196_90_attriSTATISTIChESKIH]]/URI$, т. е. для вероятности опгибки 1-го рода, и уже при заданной границ $URI[[http://libmeta.ru/me/formula/aux/196_91_attriSTATISTIChESKIH]]/URI$ стараются построить такой критерий, к-рый имел бы наибольшую мощность. Исходя из особой роли, к-рую играет гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_92_attriSTATISTIChESKIH]]/URI$ для экспериментатора, число $URI[[http://libmeta.ru/me/formula/aux/196_93_attriSTATISTIChESKIH]]/URI$, наз. у р о в в е м з н а ч и м о с т и критерия, выбирают достаточно малым, напр. равным 0,$URI[[http://libmeta.ru/me/formula/aux/196_94_attriSTATISTIChESKIH]]/URI$; 0,1 и т. п. Выбор уровня значимости $URI[[http://libmeta.ru/me/formula/aux/196_95_attriSTATISTIChESKIH]]/URI$ означает, что множество всех статистич. критериев, предназначенных для проверки $URI[[http://libmeta.ru/me/formula/aux/196_96_attriSTATISTIChESKIH]]/URI$ против $URI[[http://libmeta.ru/me/formula/aux/196_97_attriSTATISTIChESKIH]]/URI$, сужается до множества критериев, удовлетворяющих условию:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_6_attriSTATISTIChESKIH]]/URI
+\]
+
+(иногда вместо условия (1) требуют, чтобы $URI[[http://libmeta.ru/me/formula/aux/196_98_attriSTATISTIChESKIH]]/URI$, что никак не отражается на построении общей теории С. г. п.) Статистич. критерий, удовлетворяющий условию (1), наз. критерием уровня $URI[[http://libmeta.ru/me/formula/aux/196_99_attriSTATISTIChESKIH]]/URI$. Таким образом, в классич. постановке задача проверки $URI[[http://libmeta.ru/me/formula/aux/196_100_attriSTATISTIChESKIH]]/URI$ против $URI[[http://libmeta.ru/me/formula/aux/196_101_attriSTATISTIChESKIH]]/URI$ сводится $URI[[http://libmeta.ru/me/formula/aux/196_102_attriSTATISTIChESKIH]]/URI$ построению такого статистич. критерия уровня $URI[[http://libmeta.ru/me/formula/aux/196_103_attriSTATISTIChESKIH]]/URI$, функция мощности к-рого удовлетворяла бы условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_7_attriSTATISTIChESKIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/196_104_attriSTATISTIChESKIH]]/URI$ - функция мощности произвольного критерия уровня $URI[[http://libmeta.ru/me/formula/aux/196_105_attriSTATISTIChESKIH]]/URI$. В случае, когда гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_106_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_107_attriSTATISTIChESKIH]]/URI$ являются простыми, эфффективное решение этой вариационной задачи дает отношения правдоподобия критерий. Если же гипотеза $URI[[http://libmeta.ru/me/formula/aux/196_108_attriSTATISTIChESKIH]]/URI$ является сложной, то статистич. критериї, удовлетворяющий условию (2), удается построить редко. Но если такої критерий существует, то именно этот критерий признается наилучшим для проверки $URI[[http://libmeta.ru/me/formula/aux/196_109_attriSTATISTIChESKIH]]/URI$ против $URI[[http://libmeta.ru/me/formula/aux/196_110_attriSTATISTIChESKIH]]/URI$ и его наз. равнолерно наиболее мощныл критерием уровня $URI[[http://libmeta.ru/me/formula/aux/196_111_attriSTATISTIChESKIH]]/URI$ в задаче различения статистич. гипотез $URI[[http://libmeta.ru/me/formula/aux/196_112_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_113_attriSTATISTIChESKIH]]/URI$. В силу того что равномерно наиболее мощные критерии существуют редко, приходится сужать класс статистит. критериев с помощью нек-рых дополнительных требований, таких, как несмещенность, шодобие, полнота и др., и уже в более узком классе строить наилучший критерий в смысле (2). Напр., требование несмещенности критерия означает, что его функция мощности должна удовлетворять соотношению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_8_attriSTATISTIChESKIH]]/URI
+\]
+
+П р и ме р 2. В условиях примера 1 при любом фиксированном уровне значимости $URI[[http://libmeta.ru/me/formula/aux/196_114_attriSTATISTIChESKIH]]/URI$ существует нерандомизированный равномерно наиболее мощный несмещенный критерий уровня $URI[[http://libmeta.ru/me/formula/aux/196_115_attriSTATISTIChESKIH]]/URI$ для проверки $URI[[http://libmeta.ru/me/formula/aux/196_116_attriSTATISTIChESKIH]]/URI$ против альтернативы $URI[[http://libmeta.ru/me/formula/aux/196_117_attriSTATISTIChESKIH]]/URI$ - отношения правдоподобия критерий. Кіритич. функция әтого наилучшего критерия определяется следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_9_attriSTATISTIChESKIH]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_10_attriSTATISTIChESKIH]]/URI
+\]
+
+В силу того что статистика $URI[[http://libmeta.ru/me/formula/aux/196_118_attriSTATISTIChESKIH]]/URI$., называемая сгатістикой критерия, подчиняется норлальному закону $URI[[http://libmeta.ru/me/formula/aux/196_119_attriSTATISTIChESKIH]]/URI$ с параметрами $URI[[http://libmeta.ru/me/formula/aux/196_120_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_121_attriSTATISTIChESKIH]]/URI$, т. е для любого действительного числа $URI[[http://libmeta.ru/me/formula/aux/196_122_attriSTATISTIChESKIH]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_11_attriSTATISTIChESKIH]]/URI
+\]
+
+функция мощности $URI[[http://libmeta.ru/me/formula/aux/196_123_attriSTATISTIChESKIH]]/URI$ наилучшего критерия для проверки $URI[[http://libmeta.ru/me/formula/aux/196_124_attriSTATISTIChESKIH]]/URI$ против $URI[[http://libmeta.ru/me/formula/aux/196_125_attriSTATISTIChESKIH]]/URI$ выражается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_12_attriSTATISTIChESKIH]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/196_126_attriSTATISTIChESKIH]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/196_127_attriSTATISTIChESKIH]]/URI$
+
+причем $URI[[http://libmeta.ru/me/formula/aux/196_128_attriSTATISTIChESKIH]]/URI$. Рисунок дает графич. представление о поведении функции мощности $URI[[http://libmeta.ru/me/formula/aux/196_129_attriSTATISTIChESKIH]]/URI$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_de67b7060118b6db10b8g-1.jpg?height=266&amp;width=781&amp;top_left_y=537&amp;top_left_x=1004)
+
+Наименьшее значение, равное уровню значимости $URI[[http://libmeta.ru/me/formula/aux/196_130_attriSTATISTIChESKIH]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/196_131_attriSTATISTIChESKIH]]/URI$ достигает в точке $URI[[http://libmeta.ru/me/formula/aux/196_132_attriSTATISTIChESKIH]]/URI$, и, по мере удаления $URI[[http://libmeta.ru/me/formula/aux/196_133_attriSTATISTIChESKIH]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/196_134_attriSTATISTIChESKIH]]/URI$, ее значения растут, приближаясь тем ближе к 1 , чем больше величина $URI[[http://libmeta.ru/me/formula/aux/196_135_attriSTATISTIChESKIH]]/URI$.
+
+Теория С. г. п. позволяет с единой точки зрения трактовать различные задачи, выдвигаемые практикой: построение интервальных оценок для неизвестных параметров, оценка расхождения между средними значениями вероятностных законов, проверка гипотез о независимости наблюдений, задачи статистич. контроля качества и др. Так, напр., в шримере 2 зона принятия гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_136_attriSTATISTIChESKIH]]/URI$ представляет собой наилучший доверительный интервал с коэффициентом доверия $URI[[http://libmeta.ru/me/formula/aux/196_137_attriSTATISTIChESKIH]]/URI$ для неизвестного математич. ожидания $URI[[http://libmeta.ru/me/formula/aux/196_138_attriSTATISTIChESKIH]]/URI$.
+
+Наряду с классич. подходом Неймана - Пирсона к решению задачи различения гипотез существуют и другие: бейесовскиї подход, минимаксный подход, метод последовательного различения Вальда и др. Кроме того, в теории С. Г. I. рассматриваются приближенные методы, основанные на изучении асимптотич. поведения последовательности $URI[[http://libmeta.ru/me/formula/aux/196_139_attriSTATISTIChESKIH]]/URI$ функций мощности статистич. критериев, предназначенных для проверки $URI[[http://libmeta.ru/me/formula/aux/196_140_attriSTATISTIChESKIH]]/URI$ против $URI[[http://libmeta.ru/me/formula/aux/196_141_attriSTATISTIChESKIH]]/URI$, когда размерность $URI[[http://libmeta.ru/me/formula/aux/196_142_attriSTATISTIChESKIH]]/URI$ вектора наблюдений $URI[[http://libmeta.ru/me/formula/aux/196_143_attriSTATISTIChESKIH]]/URI$ неограниченно растет. В такой ситуации обытно требуют, чтобы построенная последовательность критериев была состоятельной, т. е. чтобы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/196_13_attriSTATISTIChESKIH]]/URI
+\]
+
+что означает, что с ростом $URI[[http://libmeta.ru/me/formula/aux/196_144_attriSTATISTIChESKIH]]/URI$ гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_145_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_146_attriSTATISTIChESKIH]]/URI$ можно будет различать с любой степенью достоверности. В примере 2 построена состоятельная последовательность критериев (если $URI[[http://libmeta.ru/me/formula/aux/196_147_attriSTATISTIChESKIH]]/URI$.
+
+В любом случае, каким бы URI[[http://libmeta.ru/me/relation/196_6_attriSTATISTIChESKIH]]/URI. критерием не пользоваться в URI[[http://libmeta.ru/me/relation/196_5_attriSTATISTIChESKIH]]/URI различения гипотез $URI[[http://libmeta.ru/me/formula/aux/196_148_attriSTATISTIChESKIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/196_149_attriSTATISTIChESKIH]]/URI$, принятие гипотезы $URI[[http://libmeta.ru/me/formula/aux/196_150_attriSTATISTIChESKIH]]/URI$ означает не то, что эта гипгтеза $URI[[http://libmeta.ru/me/formula/aux/196_151_attriSTATISTIChESKIH]]/URI$ в действительности истинна, а лишь факт отсутствия URI[[http://libmeta.ru/me/relation/196_4_attriSTATISTIChESKIH]]/URI URI[[http://libmeta.ru/me/relation/196_3_attriSTATISTIChESKIH]]/URI наблюдений с принимаемой гипотезой на данном этапе исследований. Именно в силу этого согласия опыта и URI[[http://libmeta.ru/me/relation/196_2_attriSTATISTIChESKIH]]/URI у экспериментатора нет оснований не верить в истинность $URI[[http://libmeta.ru/me/formula/aux/196_152_attriSTATISTIChESKIH]]/URI$ до тех пор, пока не появятся новые наблюдения, к-рые могут заставить изменить его отношение к иринятой ранее гипотезе, а может даже и ко всей URI[[http://libmeta.ru/me/relation/196_1_attriSTATISTIChESKIH]]/URI вообще.</text>
+  <text_orig>один из основных разделов математич. статистики, в к-ром развиваются идеи и методы статистич. проверки соответствия между әкспериментальными данными и гипотезами об их вероятностной природе.
+
+Пусть наблюдается слутайный вектор $X=\left(X_{1}\right.$, . ., $\left.X_{n}\right)$, принимающий значения $x=\left(x_{1}, \ldots, x_{n}\right)$ в измеримом пространстве $\left(\mathscr{X}_{n}, \mathscr{B}_{n}\right)$, и пусть известно, что распределение вероятностей этого случайного вектора $X$ принадлежит заданному множеству вероятностных распределений $H=\left\{P_{\theta}, \theta \in \Theta\right\}$, где $\Theta$ - нек-рое параметрич. множество. Множество $H$ наз. м по ж е с тво м До П у т имых ги пот е 3, а любое его непустое подмножество $H_{i}-$ с т а т и с т и ч. г И П от е $з$ о й или просто г и по т е 3 о й. Если $H_{i}$ содержит ровно один әлемент, то такая гиготеза наз. ш р ос т о ї, в противном случае - с ло ж но й. Далее, пусть в $H$ выделены две т. н. конкурирующие между собой гипотезы
+
+II
+
+\[
+H_{0}=\left\{P_{\theta}, \theta \in \Theta_{0} \subset \Theta\right\}
+\]
+
+\[
+H_{1}=H \backslash H_{0}=\left\{P_{\theta}, \theta \in \Theta_{1}=\Theta \backslash \Theta_{0}\right\},
+\]
+
+одну из к-рых, напр. $H_{0}$, наз. о с н о в н о й, а другуюа л ь т е р н а т и в н о й г и по т е 3 о й или просто альтернативой к $H_{0}$. В терминах гипотез $H_{0}$ и $H_{1}$ удобно формулировать основную задачу теории С. г. П. в рамках модели Неймана - Пирсона (см. |1], [2]). Шменно, найти оптимальный способ, пользуясь к-рым можно было бы на основе наблюденной реализации случайного вектора $X$ проверить, справедлива ли гипотеза $H_{0}: \theta \in \Theta_{0}$, согласно к-рой распределение вероятностей вектора $X$ гринадлежит множеству $H_{0}=$ $=\left\{P_{\theta}, \quad \theta \in \Theta_{0}\right\}$, или же справедлива альтернативная гипотеза $H_{1}: \theta \in \Theta_{1}$, согласно к-роі распределение вероятностей наб̆людаемого вектора $X$ принадлежит множеству
+
+\[
+H_{1}=\left\{P_{\theta}, \theta \in \Theta_{1}=\Theta \backslash \Theta_{0}\right\} .
+\]
+
+П р и м е p 1. Пусть наблюдается случайный вектор $X=\left(X_{1}, \ldots, X_{n}\right)$, компоненты к-рого $X_{1}, \ldots, X_{n}$ суть независимые случайные величины, подчиняющиеся одному и тому же нормальному закону $N_{1}(\theta, 1)$, математич. ожидание к-рого $\theta=\mathrm{E} X_{i}$ неизвестно $(|\theta|&lt;\infty)$, а дисперсия равна 1, т. е. для любого действительного числа $x$
+
+\[
+\begin{gathered}
+\mathrm{P}\left\{X_{i}&lt;x \mid \theta\right\}=\Phi(x-\theta)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-\frac{1}{2}(t-\theta)^{2}} d t, \\
+i=1,2, \ldots, n .
+\end{gathered}
+\]
+
+В этих условиях можно, напр., рассмотреть задачу проверки гипотезы $H_{0}: \theta=\theta_{0}$ против альтернативы $H_{1}: \theta \neq \theta_{0}$, где $\theta_{0}$ - нек-рое заданное число. В данном примере гипотеза $H_{0}$ является простой, а конкурирующая с ней гипотеза $H_{1}$ - сложной.
+
+Формально, конкурирующие гипотезы $H_{0}$ и $H_{1}$ являются равноправными в задаче различения гипотез и вопрос о том, какое из двух непересекающихся и взаимно дополняющих множеств из $H$ назвать основноӥ гипотезой, не является существенным и не влияет на построение самой теории С. г. п. Однако, как правило, на выборе основной гипотезы сказывается отношение әкспериментатора к самой задаче, в результате чего основной гипотезой чаще наз. то множество $H_{0}$ из множества всех допустимых гипотез $H$, к-рое, по мнению экспериментатора, по природе изучаемого явления либо из каких-либо физич. соображений, должно лучше согласовываться с ожидаемыми әкспериментальными данными. Именно поэтому гипотезу $H_{0}$ часто наз. проверяемой гипотезой. В теоретич. плане различие между гипотезами $H_{0}$ и $H_{1}$ часто сказывается в том, что, как правило, множество $H_{0}$ оказывается более просто устроенным, чем $H_{1}$, что отражает желание әкспериментатора иметь дело с более простой моделью.
+
+В теории С. г. п. суждение о справедливости $H_{0}$ или $H_{1}$ делается на основании наблюденной реализации случайного вектора $X$; при этом решающее правило, с помощью к-рого принимается решение «справедлива гипотеза $\left.H_{i}\right)(i=0,1)$, наз. статистическим критерием. Структура любого статистич. критерия полностью определяется его т. н. критич. функцией $\varphi_{n}(\cdot): \mathfrak{X}_{n} \rightarrow[0 ; 1]$. Согласно статистич. критерию, имеющему критич. функцию $\varphi_{n}(\cdot)$, проверяемая гипотеза $H_{0}$ отвергается с вероятностью $\varphi_{n}(X)$ в пользу альтернативы $H_{1}$, а гипотеза $H_{1}$ отвергается с вероятностью $1-\varphi_{n}(X)$ в пользу $H_{0}$. С практич. точки зрения наибольший интерес представляют т. н. нерандомизированные критерии, критич. функции к-рых принимают лишь два значения: 0 и 1. Какой бы критерий не применялся для различения гипотез $H_{0}$ и $H_{1}$, в результате его применения можно либо принять правильное решение, либо прийти к ошибочному. В теории С. г. п. ошибочные выводы принято классифици ровать следующим образом.
+
+Если критерий бракует проверяемую гипотезу $H_{0}$, когда она в действительности верна, то говорят, что совершена ошибка 1-го рода. Напротив, если статистич. критериї̈ не отклоняет проверяемую гипотезу $H_{0}$ (и, значит, согласно этому крптерию, гипотеза $H_{0}$ принимается), когда она на самом деле неверна, то говорят, тто совершена ошибка 2-го рода. Задачу проверки гипотезы $H_{0}$ против $H_{1}$ желательно провести таким образом, чтобы минимизировать вероятности әтих ошибок. К сожалению, управлять обеими вероятностями ошибок одновременно при фиксированной размерности $n$ вектора наблюдений $X$ невозможно: уменьшение одной из них ведет, как правило, к увеличению другой. Численно вероятности этих ошибок выражаются в терминах т. н. ф у н к ц и и м о щ н о с т и $\beta_{n}(\cdot)$ статистич. критерия, определенной на множестве $\Theta=\Theta_{0} \bigcup \Theta_{1}$ по следующему правилу:
+
+$\beta_{n}(\theta)=\mathrm{E}_{\theta} \quad \varphi_{n}(X)=\int x_{n} \varphi_{n}(x) d P_{\theta}(x), \theta \in \Theta=\Theta_{0} \cup \Theta_{1}$. Из определения функции мощности $\beta_{n}(\cdot)$ следует, что если случайный вектор $X$ подчиняется закону $P_{\theta}$, $\theta \in \Theta=\Theta_{0} \cup \Theta_{1}$, то статистич. критерий, основанный на критич. функции $\varphi_{n}(\cdot)$, будет отклонять проверяемую гипотезу $H_{0}$ с вероятностью $\beta_{n}(X)$. Таким образом, сужение функции мощности $\beta_{n}(\cdot)$ с $\Theta$ на $\Theta_{0}$ будет показывать вероятности ошибок 1-го рода, т. е. вероятности напрасного отклонения $H_{0}$. Напротив, сужение функции мощности $\beta_{n}(\cdot)$ с $\Theta$ на $\Theta_{1}$, называемое м о щн о с т ю с т а т и с т и ч. к р и те ри я, показывает другое важное катество статистич. критерия: вероятности отклонения проверяемой гипотезы $H_{0}$, когда в действительности справедлива конкурирующая гипотеза $H_{1}$. Иногда мощностью статистич. критерия наз. число
+
+\[
+\beta=\inf _{\theta \in \Theta_{1}} \beta_{n}(\theta)=\inf _{\theta \in \Theta_{1}} E_{\theta} \varphi_{n}(X) .
+\]
+
+Дополнение же мощности до 1 , т. е. функция $1-\beta_{n}(\cdot)$, заданная на множестве $\Theta_{1}$, позволяет вычислять вероятности ошибок 2-го рода. В рамках классич. модели С. г. П. Неймана - Пирсона задачу проверки $H_{0}$ против $H_{1}$ начинают с выбора верхней границы $\alpha(0&lt;\alpha&lt;1)$ для вероятности напрасного отклонения проверяемої гиіотезы $H_{0}$, т. е. для вероятности опгибки 1-го рода, и уже при заданной границ $\alpha$ стараются построить такой критерий, к-рый имел бы наибольшую мощность. Исходя из особой роли, к-рую играет гипотеза $H_{0}$ для экспериментатора, число $\alpha$, наз. у р о в в е м з н а ч и м о с т и критерия, выбирают достаточно малым, напр. равным 0,$01 ; 0,05$; 0,1 и т. п. Выбор уровня значимости $\alpha$ означает, что множество всех статистич. критериев, предназначенных для проверки $H_{0}$ против $H_{1}$, сужается до множества критериев, удовлетворяющих условию:
+
+\[
+\sup _{\theta \in \Theta_{0}} \beta_{n}(\theta)=\sup _{\theta \in \Theta_{0}} E_{0} \varphi_{n}(X)=\alpha
+\]
+
+(Иногда вместо условия (1) требуют, чтобы $\sup _{\theta \in \Theta_{0}} \beta_{n}(\theta) \leqslant \alpha$, что никак не отражается на построении общей теории С. г. п.) Статистич. критерий, удовлетворяющий условию (1), наз. критерием уровня $\alpha$. Таким образом, в классич. постановке задача проверки $H_{0}$ против $H_{1}$ сводится $\kappa$ построению такого статистич. критерия уровня $\alpha$, функция мощности к-рого удовлетворяла бы условию
+
+\[
+\beta_{n}^{*}(\theta) \geqslant \beta_{n}(\theta) \text { при всех } \theta \in \Theta_{1},
+\]
+
+где $\beta_{n}(\cdot)$ - функция мощности произвольного критерия уровня $\alpha$. В случае, когда гипотезы $H_{0}$ и $H_{1}$ являются простыми, эфффективное решение этой вариационной задачи дает отношения правдоподобия критерий. Если же гипотеза $H_{1}$ является сложной, то статистич. критериї, удовлетворяющий условию (2), удается построить редко. Но если такої критерий существует, то именно этот критерий признается наилучшим для проверки $H_{0}$ против $H_{1}$ и его наз. равнолерно наиболее мощныл критерием уровня $\alpha$ в задаче различения статистич. гипотез $H_{0}$ и $H_{1}$. В силу того что равномерно наиболее мощные критерии существуют редко, приходится сужать класс статистит. критериев с помощью нек-рых дополнительных требований, таких, как несмещенность, шодобие, полнота и др., и уже в более узком классе строить наилучший критерий в смысле (2). Напр., требование несмещенности критерия означает, что его функция мощности должна удовлетворять соотношению
+
+\[
+\sup _{\theta \in \Theta_{0}} \beta_{n}(\theta) \leqslant \inf _{\theta \in \Theta_{1}} \beta_{n}(\theta) \text {. }
+\]
+
+П р и ме р 2. В условиях примера 1 при любом фиксированном уровне значимости $\alpha$ существует нерандомизированный равномерно наиболее мощный несмещенный критерий уровня $\alpha$ для проверки $H_{0}$ против альтернативы $H_{1}$ - отношения правдоподобия критерий. Кіритич. функция әтого наилучшего критерия определяется следующим образом:
+
+\[
+\varphi_{n}\left(X^{*}\right)=\left\{\begin{array}{l}
+1, \text { если }\left|X .-\theta_{0}\right|&gt;\frac{1}{\sqrt{n}} \Phi^{-1}\left(1-\frac{\alpha}{2}\right), \\
+0, \text { если }\left|X .-\theta_{0}\right| \leqslant \frac{1}{\sqrt{n}} \Phi^{-1}\left(1-\frac{\alpha}{2}\right),
+\end{array}\right.
+\]
+
+где
+
+\[
+X .=\frac{1}{n}\left(X_{1}+\ldots+X_{n}\right) \text {. }
+\]
+
+В силу того что статистика $X$., называемая сгатістикой критерия, подчиняется норлальному закону $N_{1}(\theta, 1 / n)$ с параметрами $\mathrm{E} X=\theta$ и $\mathrm{D} X=\frac{1}{n}$, т. е для любого действительного числа $x$
+
+\[
+P\{X .&lt;x \mid \theta\}=\Phi[\sqrt{n}(x-\theta)],
+\]
+
+функция мощности $\beta_{n}(\cdot)$ наилучшего критерия для проверки $H_{0}$ против $H_{1}$ выражается формулой
+
+\[
+\beta_{n}(\theta)=\operatorname{E}_{\theta} \varphi_{n}(X)=\mathbf{P}\left\{\left|X \cdot-\theta_{0}\right|&gt;\right.
+\]
+
+$\left.&gt;\frac{1}{n} \Phi^{-1}\left(1-\frac{\alpha}{2}\right) \mid \theta\right\}=\Phi\left[\Phi^{-1}\left(\frac{\alpha}{2}\right)+\sqrt{n}\left(\theta_{0}-\theta\right)\right]+$
+
+$+\Phi\left[\Phi^{-1}\left(\frac{\alpha}{2}\right)-\sqrt{n}\left(\theta_{0}-\theta\right)\right]$
+
+причем $\beta_{n}(\theta) \geqslant \beta_{n}\left(\theta_{0}\right)=\alpha$. Рисунок дает графич. представление о поведении функции мощности $\beta_{n}(\cdot)$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_de67b7060118b6db10b8g-1.jpg?height=266&amp;width=781&amp;top_left_y=537&amp;top_left_x=1004)
+
+Наименьшее значение, равное уровню значимости $\alpha$, функция $\beta_{n}(\cdot)$ достигает в точке $\theta=\theta_{0}$, и, по мере удаления $\theta$ от $\theta_{0}$, ее значения растут, приближаясь тем ближе к 1 , чем больше величина $\left|\theta-\theta_{0}\right|$.
+
+Теория С. г. п. позволяет с единой точки зрения трактовать различные задачи, выдвигаемые практикой: построение интервальных оценок для неизвестных параметров, оценка расхождения между средними значениями вероятностных законов, проверка гипотез о независимости наблюдений, задачи статистич. контроля качества и др. Так, напр., в шримере 2 зона принятия гипотезы $H_{0}$ представляет собой наилучший доверительный интервал с коэффициентом доверия $1-\alpha$ для неизвестного математич. ожидания $\theta$.
+
+Наряду с классич. подходом Неймана - Пирсона к решению задачи различения гипотез существуют и другие: бейесовскиї подход, минимаксный подход, метод последовательного различения Вальда и др. Кроме того, в теории С. Г. I. рассматриваются приближенные методы, основанные на изучении асимптотич. поведения последовательности $\left\{\beta_{n}(\cdot)\right\}$ функций мощности статистич. критериев, предназначенных для проверки $H_{0}$ против $H_{1}$, когда размерность $n$ вектора наблюдений $X=\left(X_{1}, \ldots, X_{n}\right)$ неограниченно растет. В такой ситуации обытно требуют, чтобы построенная последовательность критериев была состоятельной, т. е. чтобы
+
+\[
+\lim _{n \rightarrow \infty} \beta_{n}(\theta)=1 \text { для любого } \theta \in \Theta_{1} \text {, }
+\]
+
+что означает, что с ростом $n$ гипотезы $H_{0}$ и $H_{1}$ можно будет различать с любой степенью достоверности. В примере 2 построена состоятельная последовательность критериев (если $n \rightarrow \infty)$.
+
+В любом случае, каким бы статистич. критерием не пользоваться в задаче различения гипотез $H_{0}$ и $I I_{1}$, принятие гипотезы $H_{0}\left(H_{1}\right)$ означает не то, что эта гипгтеза $H_{0}\left(H_{1}\right)$ в действительности истинна, а лишь факт отсутствия противоречий результатов наблюдений с принимаемой гипотезой на данном этапе исследований. Именно в силу этого согласия опыта и теории у экспериментатора нет оснований не верить в истинность $H_{0}\left(H_{1}\right)$ до тех пор, пока не появятся новые наблюдения, к-рые могут заставить изменить его отношение к иринятой ранее гипотезе, а может даже и ко всей модели вообще.
+
+Jum.: [1] N e y m a n J., P e a r s o n E. S., &quot;biometrika», 1928, v. 20 A, p. 175-240; p. 263-94: [2] и х же е, &quot;Phil. Trans Roy. Soc.», ser. A, 1933, v. 231, p. 289-337; L3] Ј е м а н Э.,
+IIроверка статистических гипотез, иер. с ангт., 2 изд., М., 1979 ; IIроверка статистических гипотез, пер. с ангт., 2 изд., М., 1979,
+[4] к р а м е р Г., Математические методы статыстики, і2 изд., пер. с англ., М., 1975; [5] Г а е к Я., III и д а к 3., Теория ранговых критериев, пер. с англ., М., 1971.</text_orig>
+</article>

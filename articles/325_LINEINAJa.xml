@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/325_LINEINAJa" alphabetic_pos="325">
+  <title>ЛИНЕИНАЯ ИНТЕРПОЛЯЦИЯ</title>
+  <authors/>
+  <pages>
+    <start>153</start>
+    <end>153</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975; [2] Бе р е з и н И. С., Жж и д к о в Н. П., Методывычислений, 3 изд., т. 1, М., 1966.</literature_orig>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жжидков Н. П.</author>
+      <title>Методывычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/325_1_LINEINAJa">L(x)=a\left(x-x_{1}\right)+b</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/325_2_LINEINAJa">L\left(x_{1}\right)=f\left(x_{1}\right), \quad L\left(x_{2}\right)=f\left(x_{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/325_3_LINEINAJa">L(x)=\frac{f\left(x_{2}\right)-f\left(x_{1}\right)}{x_{2}-x_{1}}\left(x-x_{1}\right)+f\left(x_{1}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/325_4_LINEINAJa">f(x)-L(x)=\frac{f^{\prime \prime}(\xi)}{2}\left(x-x_{1}\right)\left(x-x_{2}\right), \quad \xi \in\left[x_{1}, x_{2}\right] .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_1_LINEINAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_2_LINEINAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_3_LINEINAJa">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_4_LINEINAJa">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_5_LINEINAJa">l(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_6_LINEINAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_7_LINEINAJa">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_8_LINEINAJa">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_9_LINEINAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/325_10_LINEINAJa">\left[x_{1}, x_{2}\right]</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/325_1_LINEINAJa">
+      <rel_text>интерполировании</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/325_2_LINEINAJa">
+      <rel_text>Вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+  </relations>
+  <text>способ приближенного вычисления значения функции $URI[[http://libmeta.ru/me/formula/aux/325_1_LINEINAJa]]/URI$, основанный на замене функции $URI[[http://libmeta.ru/me/formula/aux/325_2_LINEINAJa]]/URI$ линейной функцией
+
+\[
+URI[[http://libmeta.ru/me/formula/main/325_1_LINEINAJa]]/URI
+\]
+
+параметры $URI[[http://libmeta.ru/me/formula/aux/325_3_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/325_4_LINEINAJa]]/URI$ к-рой выбираются таким образом, чтобы значения $URI[[http://libmeta.ru/me/formula/aux/325_5_LINEINAJa]]/URI$ совпадали со значениями $URI[[http://libmeta.ru/me/formula/aux/325_6_LINEINAJa]]/URI$ в заданных точках $URI[[http://libmeta.ru/me/formula/aux/325_7_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/325_8_LINEINAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/325_2_LINEINAJa]]/URI
+\]
+
+Этим условиям удовлетворяет единственная функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/325_3_LINEINAJa]]/URI
+\]
+
+приближающая заданную функцию $URI[[http://libmeta.ru/me/formula/aux/325_9_LINEINAJa]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/325_10_LINEINAJa]]/URI$ с погрешностью
+
+\[
+URI[[http://libmeta.ru/me/formula/main/325_4_LINEINAJa]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/325_2_LINEINAJa]]/URI, необходимые для Л. и., легко реализуются при ручном счете, благодаря чему этот способ широко используется при URI[[http://libmeta.ru/me/relation/325_1_LINEINAJa]]/URI табличных данных.</text>
+  <text_orig>способ приближенного вычисления значения функции $f(x)$, основанный на замене функции $f(x)$ линейной функцией
+
+\[
+L(x)=a\left(x-x_{1}\right)+b
+\]
+
+параметры $a$ и $b$ к-рой выбираются таким образом, чтобы значения $L(x)$ совпадали со значениями $f(x)$ в заданных точках $x_{1}$ и $x_{2}$ :
+
+\[
+L\left(x_{1}\right)=f\left(x_{1}\right), \quad L\left(x_{2}\right)=f\left(x_{2}\right) .
+\]
+
+Этим условиям удовлетворяет единственная функция
+
+\[
+L(x)=\frac{f\left(x_{2}\right)-f\left(x_{1}\right)}{x_{2}-x_{1}}\left(x-x_{1}\right)+f\left(x_{1}\right),
+\]
+
+приближающая заданную функцию $f(x)$ на отрезке $\left[x_{1}, x_{2}\right]$ с погрешностью
+
+\[
+f(x)-L(x)=\frac{f^{\prime \prime}(\xi)}{2}\left(x-x_{1}\right)\left(x-x_{2}\right), \quad \xi \in\left[x_{1}, x_{2}\right] .
+\]
+
+Вычисления, необходимые для Л. и., легко реализуются при ручном счете, благодаря чему этот способ широко используется при интерполировании табличных данных.
+
+Лum.: [1] Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975; [2] Бе р е з и н И. С., ЖЖ и д к о в Н. П., Методы
+вычислений, 3 изд., т. 1, М., 1966.</text_orig>
+</article>

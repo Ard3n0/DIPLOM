@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/312_LINDEBERGA" alphabetic_pos="312">
+  <title>ЛИНДЕБЕРГА - ФЕЛЛЕРА ТЕОРЕМА</title>
+  <authors/>
+  <pages>
+    <start>144</start>
+    <end>144</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [i] L i n d e b e r g J. W., «math. Z.», 1922, Bd 15, S. 211-25; [2] F e ll e r W., &quot;math. Z.&quot;, 1935, Bd 40, S. 521$559 ;$ [3] Л' о ә в М., Теория вероятностей, пер. с англ., М., 1962; [4] П е т р о в В. В., Суммы независимых случайных величин,М., 1972 .</literature_orig>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/312_1_LINDEBERGA">B_{n}^{2}=\sum_{j=1}^{n} \sigma_{j}^{2}, \quad V_{j}(x)=\mathrm{P}\left\{X_{j}&lt;x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/312_2_LINDEBERGA">B_{n}^{-2} \max _{1 \leqslant j \leqslant n} \sigma_{j}^{2} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/312_3_LINDEBERGA">B_{n}^{-2} \sum_{j=1}^{n} \int_{\left|x-a_{j}\right| \geqslant \varepsilon B_{n}}\left(x-a_{j}\right)^{2} d V_{j}(x) \longrightarrow 0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_1_LINDEBERGA">x_{1}, X_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_2_LINDEBERGA">a_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_3_LINDEBERGA">a_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_4_LINDEBERGA">\sigma_{1}^{2}, \sigma_{2}^{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_5_LINDEBERGA">\mathrm{p}\left\{b_{n}^{-1} \sum_{j=1}^{n}\left(X_{j}-a_{j}\right)&lt;x\right\} \rightarrow \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-t^{2} / 2} d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_6_LINDEBERGA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_7_LINDEBERGA">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_8_LINDEBERGA">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/312_9_LINDEBERGA">\varepsilon&gt;0</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/312_1_LINDEBERGA">
+      <rel_text>Достаточность</rel_text>
+      <target>http://libmeta.ru/me/article/344_DOSTOVERNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/312_2_LINDEBERGA">
+      <rel_text>необходимо и достаточно</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+  </relations>
+  <text>Теорема, устанавливающая условия асимптотич. нормальности функции распределения суммы независимых случайных величин, обладающих конечными дисперсиями. Пусть $URI[[http://libmeta.ru/me/formula/aux/312_1_LINDEBERGA]]/URI$ последовательность независимых случайных величин с математич. ожиданиями $URI[[http://libmeta.ru/me/formula/aux/312_2_LINDEBERGA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/312_3_LINDEBERGA]]/URI$ и конечными дисперсиями $URI[[http://libmeta.ru/me/formula/aux/312_4_LINDEBERGA]]/URI$, не всө из к-рых равны нулю. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/312_1_LINDEBERGA]]/URI
+\]
+
+Для того чтобы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/312_2_LINDEBERGA]]/URI
+\]
+
+и
+
+$URI[[http://libmeta.ru/me/formula/aux/312_5_LINDEBERGA]]/URI$ для любого $URI[[http://libmeta.ru/me/formula/aux/312_6_LINDEBERGA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/312_7_LINDEBERGA]]/URI$, URI[[http://libmeta.ru/me/relation/312_2_LINDEBERGA]]/URI выполнение следующего условия (у с л о в и я Л и нд е б е р г a):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/312_3_LINDEBERGA]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/312_8_LINDEBERGA]]/URI$ для любого $URI[[http://libmeta.ru/me/formula/aux/312_9_LINDEBERGA]]/URI$. URI[[http://libmeta.ru/me/relation/312_1_LINDEBERGA]]/URI была доказана Дж. Линдебергом [1], необходимость - В. Феллером [2].</text>
+  <text_orig>Теорема, устанавливающая условия асимптотич. нормальности функции распределения суммы независимых случайных величин, обладающих конечными дисперсиями. Пусть $X_{1}, X_{2}, \ldots$ последовательность независимых случайных величин с математич. ожиданиями $a_{1}$, $a_{2}, \ldots$ и конечными дисперсиями $\sigma_{1}^{2}, \sigma_{2}^{2}, \ldots$, не всө из к-рых равны нулю. Пусть
+
+\[
+B_{n}^{2}=\sum_{j=1}^{n} \sigma_{j}^{2}, \quad V_{j}(x)=\mathrm{P}\left\{X_{j}&lt;x\right\}
+\]
+
+Для того чтобы
+
+\[
+B_{n}^{-2} \max _{1 \leqslant j \leqslant n} \sigma_{j}^{2} \rightarrow 0
+\]
+
+и
+
+$\mathrm{P}\left\{B_{n}^{-1} \sum_{j=1}^{n}\left(X_{j}-a_{j}\right)&lt;x\right\} \rightarrow \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-t^{2} / 2} d t$ для любого $x$ при $n \rightarrow \infty$, необходимо и достаточно выполнение следующего условия (у с л о в и я Л и нд е б е р г a):
+
+\[
+B_{n}^{-2} \sum_{j=1}^{n} \int_{\left|x-a_{j}\right| \geqslant \varepsilon B_{n}}\left(x-a_{j}\right)^{2} d V_{j}(x) \longrightarrow 0
+\]
+
+при $n \rightarrow \infty$ для любого $\varepsilon&gt;0$. Достаточность была доказана Дж. Линдебергом [1], необходимость - В. Феллером [2].
+
+Jum.: [i] L i n d e b e r g J. W., «Math. Z.», 1922, Bd 15, S. 211-25; [2] F e ll e r W., &quot;Math. Z.&quot;, 1935, Bd 40, S. 521$559 ;$ [3] Л' о ә в М., Теория вероятностей, пер. с англ., М., 1962; [4] П е т р о в В. В., Суммы независимых случайных величин,
+М., 1972 .</text_orig>
+</article>

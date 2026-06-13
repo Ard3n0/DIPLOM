@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/2_OKAJMLENIJa" alphabetic_pos="2">
+  <title>ОКАЙМЛЕНИЯ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>6</start>
+    <end>7</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] В о е в о д и н В. В., Численные методы алгебры, М., 1966; [2] Ф а д д е с в Д. К., Ф а д л е с в а В. Н., Вычисли-</literature_orig>
+    <unit>
+      <author>Воеводин В. В.</author>
+      <title>Численные методы алгебры</title>
+      <publication>М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Фаддесв Д. К.</author>
+      <author>Фадлесва В. Н.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Вычисли-</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/2_1_OKAJMLENIJa">A_{k-1}=\left\|\begin{array}{lll}a_{1,1} &amp; \ldots &amp; a_{1, k-1} \\\ldots &amp; \ldots &amp; \ldots \\a_{k-1,1} &amp; \ldots &amp; a_{k-1, k-1}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_2_OKAJMLENIJa">A_{k}=\left\|\begin{array}{cc}A_{k-1} &amp; u_{k} \\v_{k} &amp; a_{k k}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_3_OKAJMLENIJa">A_{\bar{k}}^{-1}=\| \begin{array}{cc}A_{k-1}^{-1}+\frac{A_{k-1}^{-1} u_{k} v_{k} A_{k-1}^{-1}}{\alpha_{k}} &amp; -\frac{A_{k-1}^{-1} u_{k}}{\alpha_{k}} \\-\frac{v_{k} A_{k-1}^{-1}}{\alpha_{k}} &amp; \frac{1}{\alpha_{k}} \\\alpha_{k}=a_{k k}-v_{k} A_{k-1}^{-1} u_{k} .\end{array}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_4_OKAJMLENIJa">v_{k}=0 \text { и } A_{k}^{-1}=\| \begin{array}{cc}A_{k-1}^{-1} &amp; -\frac{A_{\bar{k}-1}^{-1} u_{k}}{a_{k k}} \\0 &amp; \frac{1}{a_{k k}}\end{array} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_5_OKAJMLENIJa">\begin{gathered}A_{k}^{-1}=\| \begin{array}{rr}A_{k-1}^{-1}+\frac{P_{k} P_{k}^{*}}{\alpha_{k}} &amp; -\frac{P_{k}}{\alpha_{k}} \\-\frac{P_{k}^{*}}{\alpha_{k}} &amp; \frac{1}{\alpha_{k}}\end{array},, \\P_{k}=A_{k-1}^{-1} u_{k}, \alpha_{k}=a_{k k}-u_{k}^{*} P_{k} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_6_OKAJMLENIJa">A_{k}=\left\|\begin{array}{cc}A_{k-1} &amp; b^{(k-1, k)} \\v_{k} &amp; a_{k k}\end{array}\right\|, \quad b^{(k p)}=\left\|\begin{array}{c}b(k-1, p) \\a_{k p}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_7_OKAJMLENIJa">\begin{gathered}x^{(k, p)}=\left\|\begin{array}{cc}A_{k-1}^{-1} &amp; 0 \\0 &amp; 0\end{array}\right\|\left\|\begin{array}{c}b^{(k-1, p)} \\a_{k p}\end{array}\right\|+ \\+\frac{1}{\alpha_{k}}\left\|\begin{array}{c}x^{(k-1, k)} v_{k} x^{(k-1, p)}-x^{(k-1, k)} b_{k} \\-v_{k} x^{(k-1, p)}+b_{k}\end{array}\right\|= \\=\left\|\begin{array}{c}x^{(k-1, p)} \\0\end{array}\right\|-\frac{v_{k} x^{(k-1, p)}-b_{k}}{a_{k k}-v_{k} x^{(k-1, p)}}\left\|\begin{array}{c}x^{(k-1, k)} \\1\end{array}\right\| .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_8_OKAJMLENIJa">\begin{aligned}&amp; x^{(12)}, \quad x^{(13)}, \ldots, \quad x^{(1 n)}, \quad x^{(1, n+1)}, \\&amp; x^{(23)}, \ldots, \quad x^{(2 n)}, \quad x^{(2, n+1)} \text {, } \\&amp; \ldots, \ldots, \ldots \\&amp; x^{(n-1, n)}, x^{(n-1, n+1)}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/2_9_OKAJMLENIJa">\left|A_{k}\right|=\left|a_{k k}-v_{k} A_{k-1}^{-1} u_{k}\right|\left|A_{k-1}\right| .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_1_OKAJMLENIJa">a x=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_2_OKAJMLENIJa">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_3_OKAJMLENIJa">a_{k-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_4_OKAJMLENIJa">a_{k-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_5_OKAJMLENIJa">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_6_OKAJMLENIJa">u_{k}=\left(a_{1, k}, a_{2, k}, \ldots, a_{k+1, k}\right)^{T}, \quad v_{k}=\left(a_{k, 1}, a_{k, 2}, \ldots, a_{k, k-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_7_OKAJMLENIJa">a_{1}, A_{2}, \ldots, A_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_8_OKAJMLENIJa">a^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_9_OKAJMLENIJa">\alpha_{k}=a_{k k}-v_{k} A_{k-1}^{-1} u_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_10_OKAJMLENIJa">a^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_11_OKAJMLENIJa">a_{k-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_12_OKAJMLENIJa">b^{(k p)}=\left(a_{1}, a_{2 p}, \ldots, a_{k p}\right)^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_13_OKAJMLENIJa">k=1,2, \ldots, n ; b^{(n, n+1)}=-b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_14_OKAJMLENIJa">a_{k-1}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_15_OKAJMLENIJa">x^{(k-1, p)}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_16_OKAJMLENIJa">a_{k-1} x^{(k-1, p)}+b^{(k-1, p)}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_17_OKAJMLENIJa">x^{(k p)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_18_OKAJMLENIJa">a_{k} x^{(k p)}+b^{(k p)}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_19_OKAJMLENIJa">x^{(k-1, p)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_20_OKAJMLENIJa">x^{(k-1, k)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_21_OKAJMLENIJa">a_{k-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_22_OKAJMLENIJa">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_23_OKAJMLENIJa">x^{(n, n+1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_24_OKAJMLENIJa">x^{(k p)}, \quad k=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_25_OKAJMLENIJa">n, p&gt;k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_26_OKAJMLENIJa">x^{(k, p)}, p&gt;k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_27_OKAJMLENIJa">x^{(k-1, p)}, \quad p&gt;(k-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_28_OKAJMLENIJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_29_OKAJMLENIJa">f(k)=k(n-k+1)+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_30_OKAJMLENIJa">+(n+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_31_OKAJMLENIJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_32_OKAJMLENIJa">(n+1)(n+5) \sqrt{4} \approx</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_33_OKAJMLENIJa">\approx(n / 2)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/2_34_OKAJMLENIJa">|a|</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/me/relation/2_1_OKAJMLENIJa">
+      <rel_text>выбора</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/2_2_OKAJMLENIJa">
+      <rel_text>минорами</rel_text>
+      <target>http://libmeta.ru/me/article/694_MINORANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/2_3_OKAJMLENIJa">
+      <rel_text>матриц</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/2_4_OKAJMLENIJa">
+      <rel_text>вычисление</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/2_5_OKAJMLENIJa">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/2_6_OKAJMLENIJa">
+      <rel_text>обрацение матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/1132_OBRATNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/2_7_OKAJMLENIJa">
+      <rel_text>Рекуррентное применение</rel_text>
+      <target>http://libmeta.ru/me/article/654_PRIMITIVNO</target>
+    </relation>
+  </relations>
+  <text>метод решения системы линеӥных алгебраич. уравнений $URI[[http://libmeta.ru/me/formula/aux/2_1_OKAJMLENIJa]]/URI$ с невырожденвой матрицей, обращения матрицы и вычисления определителя, основанный на рекурревтном переходе от решения задачи с матрицей
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_1_OKAJMLENIJa]]/URI
+\]
+
+к решению задачи с матрицей $URI[[http://libmeta.ru/me/formula/aux/2_2_OKAJMLENIJa]]/URI$, рассматриваемой как результат окаймления $URI[[http://libmeta.ru/me/formula/aux/2_3_OKAJMLENIJa]]/URI$.
+
+Вычислительная схема О. м. для обращения матриц такова. Пусть $URI[[http://libmeta.ru/me/formula/aux/2_4_OKAJMLENIJa]]/URI$ - невырожденная матрица. Для обращения матрицы $URI[[http://libmeta.ru/me/formula/aux/2_5_OKAJMLENIJa]]/URI$ используется представление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_2_OKAJMLENIJa]]/URI
+\]
+
+где
+
+$URI[[http://libmeta.ru/me/formula/aux/2_6_OKAJMLENIJa]]/URI$.
+
+Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_3_OKAJMLENIJa]]/URI
+\]
+
+Последовательное обращение матриц $URI[[http://libmeta.ru/me/formula/aux/2_7_OKAJMLENIJa]]/URI$ по этой схеме дает матрицу $URI[[http://libmeta.ru/me/formula/aux/2_8_OKAJMLENIJa]]/URI$.
+
+Описанная схема О. м. пригодна лишь для матриц с отличными от нуля главными минорами. В общем случае следует принять схему О. м. с выбором главного әлемснта. В этой схеме в качестве окаймляющих строки и столбца берутся те, для к-рых $URI[[http://libmeta.ru/me/formula/aux/2_9_OKAJMLENIJa]]/URI$ будет максимальным по модулю. Тогда вычисленная матрица будет отличаться от $URI[[http://libmeta.ru/me/formula/aux/2_10_OKAJMLENIJa]]/URI$ лишь перестановкой строк и столбцов [1].
+
+По быстродействию О. м. не уступает самым быстродействующим из прямых методов обращения матрицы.
+
+О. м. позволяет әффективно обращать треугольные матрицы. Если $URI[[http://libmeta.ru/me/formula/aux/2_11_OKAJMLENIJa]]/URI$ - правая треугольная матрица, то в (1)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_4_OKAJMLENIJa]]/URI
+\]
+
+Объем вычислений в этом случае уменьшается в 6 раз.
+
+Особенно әффективен О. м. при обращении эрмитовых положительно определенных матриц. Для этих матриц не нужно применять схему выбора главного әлемента. Кроме того, они могут быть заданы лишь половиной своих элементов. Вычислительная схема в этом случае упрощается:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_5_OKAJMLENIJa]]/URI
+\] Вычислительная схема О. м. для решения системы состоит в следующем. Пусть $URI[[http://libmeta.ru/me/formula/aux/2_12_OKAJMLENIJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/2_13_OKAJMLENIJa]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/2_14_OKAJMLENIJa]]/URI$ невырожденная матрица и $URI[[http://libmeta.ru/me/formula/aux/2_15_OKAJMLENIJa]]/URI$ решение системы $URI[[http://libmeta.ru/me/formula/aux/2_16_OKAJMLENIJa]]/URI$, то решение $URI[[http://libmeta.ru/me/formula/aux/2_17_OKAJMLENIJa]]/URI$ системы $URI[[http://libmeta.ru/me/formula/aux/2_18_OKAJMLENIJa]]/URI$ находится из представления
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_6_OKAJMLENIJa]]/URI
+\]
+
+и из (2) следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_7_OKAJMLENIJa]]/URI
+\]
+
+Таким образом, по репениям $URI[[http://libmeta.ru/me/formula/aux/2_19_OKAJMLENIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/2_20_OKAJMLENIJa]]/URI$ систем с одной и той же матрицей $URI[[http://libmeta.ru/me/formula/aux/2_21_OKAJMLENIJa]]/URI$ и разными правыми частями легко получить решение системы с окаймленной матрицей $URI[[http://libmeta.ru/me/formula/aux/2_22_OKAJMLENIJa]]/URI$. Решение исходной системы: $URI[[http://libmeta.ru/me/formula/aux/2_23_OKAJMLENIJa]]/URI$. Оно может быть получено рекуррентным применением соотношения (4). Это сводится к последовательному вычислению совокупности векторов $URI[[http://libmeta.ru/me/formula/aux/2_24_OKAJMLENIJa]]/URI$, ..., $URI[[http://libmeta.ru/me/formula/aux/2_25_OKAJMLENIJa]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_8_OKAJMLENIJa]]/URI
+\]
+
+По объему вычислительной работы приведенная схема О. м. равносильна Г аусcа методу, одному из самых быстродеїствующих прямых методов решения систем.
+
+О. м. позволяет решать системы повышенного порядка за счет әфффективного использования памяти Эвм. Это обусловлено тем, что для вычисления векторов $URI[[http://libmeta.ru/me/formula/aux/2_26_OKAJMLENIJa]]/URI$, требуется запоминание только векторов $URI[[http://libmeta.ru/me/formula/aux/2_27_OKAJMLENIJa]]/URI$, и коэффициентов $URI[[http://libmeta.ru/me/formula/aux/2_28_OKAJMLENIJa]]/URI$-го уравнения системы, т. е. массива чисел длины $URI[[http://libmeta.ru/me/formula/aux/2_29_OKAJMLENIJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/2_30_OKAJMLENIJa]]/URI$. Поэтому для решения системы $URI[[http://libmeta.ru/me/formula/aux/2_31_OKAJMLENIJa]]/URI$-го порядка достаточно иметь рабочее поле длины $URI[[http://libmeta.ru/me/formula/aux/2_32_OKAJMLENIJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/2_33_OKAJMLENIJa]]/URI$. При этом элементы матрицы и правой части можно вводить в память Әвм не сразу, а последовательно - по строкам.
+
+О. м. целесообразно использовать при решении системы, для к-рой уже ранее решена усеченная система. Тогда соотношение (4) сразу дает искомое решение.
+
+Описанная схема О. м. может быть использована для вычисления определителя. Из представления (1) следует, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/2_9_OKAJMLENIJa]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/2_7_OKAJMLENIJa]]/URI әтого соотношения дает $URI[[http://libmeta.ru/me/formula/aux/2_34_OKAJMLENIJa]]/URI$.
+
+Так же, как и URI[[http://libmeta.ru/me/relation/2_6_OKAJMLENIJa]]/URI, решение URI[[http://libmeta.ru/me/relation/2_5_OKAJMLENIJa]]/URI и URI[[http://libmeta.ru/me/relation/2_4_OKAJMLENIJa]]/URI определителя по О. м. возможно лишь для URI[[http://libmeta.ru/me/relation/2_3_OKAJMLENIJa]]/URI с ненулевыми главными URI[[http://libmeta.ru/me/relation/2_2_OKAJMLENIJa]]/URI. В общем случае здесь такжке необходимо использовать схему URI[[http://libmeta.ru/me/relation/2_1_OKAJMLENIJa]]/URI главного әлемента.</text>
+  <text_orig>метод решения системы линеӥных алгебраич. уравнений $A x=b$ с невырожденвой матрицей, обращения матрицы и вычисления определителя, основанный на рекурревтном переходе от решения задачи с матрицей
+
+\[
+A_{k-1}=\left\|\begin{array}{lll}
+a_{1,1} &amp; \ldots &amp; a_{1, k-1} \\
+\ldots &amp; \ldots &amp; \ldots \\
+a_{k-1,1} &amp; \ldots &amp; a_{k-1, k-1}
+\end{array}\right\|
+\]
+
+к решению задачи с матрицей $A_{k}$, рассматриваемой как результат окаймления $A_{k-1}$.
+
+Вычислительная схема О. м. для обращения матриц такова. Пусть $A_{k-1}$ - невырожденная матрица. Для обращения матрицы $A_{k}$ используется представление
+
+\[
+A_{k}=\left\|\begin{array}{cc}
+A_{k-1} &amp; u_{k} \\
+v_{k} &amp; a_{k k}
+\end{array}\right\|
+\]
+
+где
+
+$u_{k}=\left(a_{1, k}, a_{2, k}, \ldots, a_{k+1, k}\right)^{T}, \quad v_{k}=\left(a_{k, 1}, a_{k, 2}, \ldots, a_{k, k-1}\right)$.
+
+Тогда
+
+\[
+A_{\bar{k}}^{-1}=\| \begin{array}{cc}
+A_{k-1}^{-1}+\frac{A_{k-1}^{-1} u_{k} v_{k} A_{k-1}^{-1}}{\alpha_{k}} &amp; -\frac{A_{k-1}^{-1} u_{k}}{\alpha_{k}} \\
+-\frac{v_{k} A_{k-1}^{-1}}{\alpha_{k}} &amp; \frac{1}{\alpha_{k}} \\
+\alpha_{k}=a_{k k}-v_{k} A_{k-1}^{-1} u_{k} .
+\end{array}
+\]
+
+Последовательное обращение матриц $A_{1}, A_{2}, \ldots, A_{n}$ по этой схеме дает матрицу $A^{-1}$.
+
+Описанная схема О. м. пригодна лишь для матриц с отличными от нуля главными минорами. В общем случае следует принять схему О. м. с выбором главного әлемснта. В этой схеме в качестве окаймляющих строки и столбца берутся те, для к-рых $\alpha_{k}=a_{k k}-v_{k} A_{k-1}^{-1} u_{k}$ будет максимальным по модулю. Тогда вычисленная матрица будет отличаться от $A^{-1}$ лишь перестановкой строк и столбцов [1].
+
+По быстродействию О. м. не уступает самым быстродействующим из прямых методов обращения матрицы.
+
+О. м. позволяет әффективно обращать треугольные матрицы. Если $A_{k-1}$ - правая треугольная матрица, то в (1)
+
+\[
+v_{k}=0 \text { и } A_{k}^{-1}=\| \begin{array}{cc}
+A_{k-1}^{-1} &amp; -\frac{A_{\bar{k}-1}^{-1} u_{k}}{a_{k k}} \\
+0 &amp; \frac{1}{a_{k k}}
+\end{array} .
+\]
+
+Объем вычислений в этом случае уменьшается в 6 раз.
+
+Особенно әффективен О. м. при обращении эрмитовых положительно определенных матриц. Для этих матриц не нужно применять схему выбора главного әлемента. Кроме того, они могут быть заданы лишь половиной своих элементов. Вычислительная схема в этом случае упрощается:
+
+\[
+\begin{gathered}
+A_{k}^{-1}=\| \begin{array}{rr}
+A_{k-1}^{-1}+\frac{P_{k} P_{k}^{*}}{\alpha_{k}} &amp; -\frac{P_{k}}{\alpha_{k}} \\
+-\frac{P_{k}^{*}}{\alpha_{k}} &amp; \frac{1}{\alpha_{k}}
+\end{array},, \\
+P_{k}=A_{k-1}^{-1} u_{k}, \alpha_{k}=a_{k k}-u_{k}^{*} P_{k} .
+\end{gathered}
+\] Вычислительная схема О. м. для решения системы состоит в следующем. Пусть $b^{(k p)}=\left(a_{1}, a_{2 p}, \ldots, a_{k p}\right)^{T}$, $k=1,2, \ldots, n ; b^{(n, n+1)}=-b$. Если $A_{k-1}-$ невырожденная матрица и $x^{(k-1, p)}-$ решение системы $A_{k-1} x^{(k-1, p)}+b^{(k-1, p)}=0$, то решение $x^{(k p)}$ системы $A_{k} x^{(k p)}+b^{(k p)}=0$ находится из представления
+
+\[
+A_{k}=\left\|\begin{array}{cc}
+A_{k-1} &amp; b^{(k-1, k)} \\
+v_{k} &amp; a_{k k}
+\end{array}\right\|, \quad b^{(k p)}=\left\|\begin{array}{c}
+b(k-1, p) \\
+a_{k p}
+\end{array}\right\|
+\]
+
+и из (2) следующим образом:
+
+\[
+\begin{gathered}
+x^{(k, p)}=\left\|\begin{array}{cc}
+A_{k-1}^{-1} &amp; 0 \\
+0 &amp; 0
+\end{array}\right\|\left\|\begin{array}{c}
+b^{(k-1, p)} \\
+a_{k p}
+\end{array}\right\|+ \\
++\frac{1}{\alpha_{k}}\left\|\begin{array}{c}
+x^{(k-1, k)} v_{k} x^{(k-1, p)}-x^{(k-1, k)} b_{k} \\
+-v_{k} x^{(k-1, p)}+b_{k}
+\end{array}\right\|= \\
+=\left\|\begin{array}{c}
+x^{(k-1, p)} \\
+0
+\end{array}\right\|-\frac{v_{k} x^{(k-1, p)}-b_{k}}{a_{k k}-v_{k} x^{(k-1, p)}}\left\|\begin{array}{c}
+x^{(k-1, k)} \\
+1
+\end{array}\right\| .
+\end{gathered}
+\]
+
+Таким образом, по репениям $x^{(k-1, p)}$ и $x^{(k-1, k)}$ систем с одной и той же матрицей $A_{k-1}$ и разными правыми частями легко получить решение системы с окаймленной матрицей $A_{k}$. Решение исходной системы: $x^{(n, n+1)}$. Оно может быть получено рекуррентным применением соотношения (4). Это сводится к последовательному вычислению совокупности векторов $x^{(k p)}, \quad k=1,2$, ..., $n, p&gt;k$, то есть
+
+\[
+\begin{aligned}
+&amp; x^{(12)}, \quad x^{(13)}, \ldots, \quad x^{(1 n)}, \quad x^{(1, n+1)}, \\
+&amp; x^{(23)}, \ldots, \quad x^{(2 n)}, \quad x^{(2, n+1)} \text {, } \\
+&amp; \ldots, \ldots, \ldots \\
+&amp; x^{(n-1, n)}, x^{(n-1, n+1)}
+\end{aligned}
+\]
+
+По объему вычислительной работы приведенная схема О. м. равносильна Г аусcа методу, одному из самых быстродеїствующих прямых методов решения систем.
+
+О. м. позволяет решать системы повышенного порядка за счет әфффективного использования памяти ЭВМ. Это обусловлено тем, что для вычисления векторов $x^{(k, p)}, p&gt;k$, требуется запоминание только векторов $x^{(k-1, p)}, \quad p&gt;(k-1)$, и коэффициентов $k$-го уравнения системы, т. е. массива чисел длины $f(k)=k(n-k+1)+$ $+(n+1)$. Поэтому для решения системы $n$-го порядка достаточно иметь рабочее поле длины $(n+1)(n+5) \sqrt{4} \approx$ $\approx(n / 2)^{2}$. При этом элементы матрицы и правой части можно вводить в память ӘВМ не сразу, а последовательно - по строкам.
+
+О. м. целесообразно использовать при решении системы, для к-рой уже ранее решена усеченная система. Тогда соотношение (4) сразу дает искомое решение.
+
+Описанная схема О. м. может быть использована для вычисления определителя. Из представления (1) следует, что
+
+\[
+\left|A_{k}\right|=\left|a_{k k}-v_{k} A_{k-1}^{-1} u_{k}\right|\left|A_{k-1}\right| .
+\]
+
+Рекуррентное применение әтого соотношения дает $|A|$.
+
+Так же, как и обрацение матрицы, решение системы и вычисление определителя по О. м. возможно лишь для матриц с ненулевыми главными минорами. В общем случае здесь такжке необходимо использовать схему выбора главного әлемента.
+
+Лum.: [1] В о е в о д и н В. В., Численные методы алгебры, М., 1966; [2] Ф а д д е с в Д. К., Ф а д л е с в а В. Н., Вычисли-</text_orig>
+</article>

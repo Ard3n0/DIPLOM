@@ -1,0 +1,851 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/568_MARKOVSKIJ" alphabetic_pos="568">
+  <title>МАРКОВСКИЙ ПРОЦЕСС,</title>
+  <authors/>
+  <pages>
+    <start>263</start>
+    <end>266</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] К о л м о г о р о в А. Н., Цепи Маркова со счетным числом возможных состояний, М., 1937; [2] Д у б Д ж., я н о в Б. А., «теория вероятн. и ее примен.&quot;, 1957 , т. 2, в. 1 я н о в Б. А., &quot;теория вероятн. и ее примен.&quot;, 1957, т. 2, в. 1,с. $106-16$.</literature_orig>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <title>Цепи Маркова со счетным числом возможных состояний</title>
+      <publication>М.</publication>
+      <year>1937</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Д у б Д ж., я н о в Б. А., «теория вероятн. и ее примен.&quot;</title>
+      <publication/>
+      <year>1957</year>
+      <other>т. 2, в. 1 я н о в Б. А., &quot;теория вероятн. и ее примен.&quot;, 1957, т. 2, в. 1, с. $106-16$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/568_1_MARKOVSKIJ">\mathrm{P}\left\{\Lambda_{1} \Lambda_{2} \mid X(t)\right\}=\mathrm{P}\left\{\Lambda_{1} \mid X(t)\right\} \mathrm{P}\left\{\Lambda_{2} \mid X(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_2_MARKOVSKIJ">\mathrm{P}\left\{\Lambda \mid N_{t}\right\}=\mathbf{P}\{\Lambda \mid X(t)\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_3_MARKOVSKIJ">\mathrm{P}_{s, x}\left\{\Lambda \mid F_{t}^{s}\right\}=\mathrm{P}_{t, x_{t}}\{\Lambda\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_4_MARKOVSKIJ">\lim _{h \downarrow 0} \alpha_{\mathcal{E}}(h)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_5_MARKOVSKIJ">\begin{gathered}\mathbf{P}_{x}=\mathbf{P}_{0 x}, \quad F_{t}=F_{t}^{0}, \quad P(t, x, B)=P(0, x ; t, B), \\x \in E, \quad t \geqslant 0, \quad B \in \mathscr{B} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_6_MARKOVSKIJ">\theta_{t}\left\{\omega: x_{s} \in B\right\}=\left\{\omega: x_{t+s} \in B\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_7_MARKOVSKIJ">\mathrm{P}_{x}\left\{\theta_{t} \Lambda \mid F_{t}\right\}=\mathrm{P}_{x_{t}}\{\Lambda\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_8_MARKOVSKIJ">\mathrm{P}_{\mu}\{\cdot\}=\int \mathrm{P}_{x}\{\cdot\} \mu(d x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_9_MARKOVSKIJ">\theta_{\tau} \Lambda=\bigcup_{t \geqslant 0}\left[\theta_{t} \Lambda \cap\{\omega: \tau=t\}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_10_MARKOVSKIJ">P_{x}\left\{\theta_{\tau} \Lambda \mid F_{\tau}\right\}=P_{x \tau}\{\Lambda\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_11_MARKOVSKIJ">\operatorname{Pt}_{f}(\cdot)=\int f(y) P(t, \cdot ; d y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_12_MARKOVSKIJ">\lim _{t \downarrow 0} P(t, x, U)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_13_MARKOVSKIJ">\begin{gathered}\frac{\partial p}{\partial s}+\sum_{k=1}^{n} a_{k}(s, x) \frac{\partial p}{\partial x_{k}}+\frac{1}{2} \sum_{k, j=1}^{n} b_{k j}(s, x) \frac{\partial^{2} p}{\partial x_{k} \partial x_{j}}= \\=\frac{\partial p}{\partial s}+L(s, x) p=0 \\\frac{\partial p}{\partial t}=-\sum_{k=1}^{n} \frac{\partial}{\partial y_{k}}\left(a_{k}(t, y) p\right)+ \\+\frac{1}{2} \sum_{k, j=1}^{n} \frac{\partial^{2}}{\partial y_{k} \partial y_{j}}\left(b_{k j}(t, y) p\right)=L^{*}(t, y) p\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_14_MARKOVSKIJ">u_{2}(s, x)=\mathrm{E}_{s, x} \int_{s}^{T} f(t, X(t)) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_15_MARKOVSKIJ">\frac{\partial u_{2}}{\partial s}+L(s, x) u_{2}=-f(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_16_MARKOVSKIJ">\begin{gathered}u_{3}(s, x)=\mathrm{E}_{s, x} \int_{s}^{\tau \wedge T} f(t, X(t)) d t+ \\+\mathrm{E}_{s, x}(\tau)(\tau \wedge T, X(\tau \wedge T))\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_17_MARKOVSKIJ">\frac{\partial u}{\partial s}+L(s, x) u=-f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_18_MARKOVSKIJ">\Gamma=\{s&lt;T, x \in \partial D\} \cup\{s=T, x \in D\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_19_MARKOVSKIJ">\begin{gathered}u(s, x)=\mathrm{E}_{s, x} \int_{s}^{\tau \wedge T} \exp \left\{\int_{s}^{v} c(t, X(t)) d t\right\} \times \\\times f(v, X(v)) d v+\mathrm{E}_{s, x}\left\{\exp \left\{\int_{s}^{\tau \wedge T} c(t, X(t)) d t\right\} \times\right. \\\times \varphi(\tau \wedge T, X(\tau \wedge T))\} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_20_MARKOVSKIJ">\begin{aligned}u(x) &amp; =\mathrm{E}_{x} \int_{0}^{\tau} \exp \left\{\int_{0}^{v} c(X(t)) d t\right\} f(X(v)) d v+ \\&amp; +\mathrm{E}_{x}\left\{\exp \left\{\int_{0}^{\tau} c(X(t)) d t\right\} \varphi(X(\tau))\right\}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_21_MARKOVSKIJ">L(x) u+c(x) u=-f(x),\left.\quad u\right|_{\partial D}=\varphi .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_22_MARKOVSKIJ">\mu(A)=\int_{X} \mathrm{P}(x, t, A) \mu(d x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_23_MARKOVSKIJ">\lim _{t \rightarrow \infty} \mathrm{P}(x, t, A)=\mu(A) \text { (слабо). }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_1_MARKOVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_2_MARKOVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_3_MARKOVSKIJ">(\omega, F, \mathrm{P})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_4_MARKOVSKIJ">x(t), t \in T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_5_MARKOVSKIJ">e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_6_MARKOVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_7_MARKOVSKIJ">\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_8_MARKOVSKIJ">n_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_9_MARKOVSKIJ">n^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_10_MARKOVSKIJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_11_MARKOVSKIJ">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_12_MARKOVSKIJ">\boldsymbol{x}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_13_MARKOVSKIJ">s \leqslant t(s \geqslant t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_14_MARKOVSKIJ">s \in T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_15_MARKOVSKIJ">n_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_16_MARKOVSKIJ">n^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_17_MARKOVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_18_MARKOVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_19_MARKOVSKIJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_20_MARKOVSKIJ">t \in T, \Lambda_{1} \in N_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_21_MARKOVSKIJ">\lambda_{2} \in N^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_22_MARKOVSKIJ">t \in T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_23_MARKOVSKIJ">\lambda \in N^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_24_MARKOVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_25_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_26_MARKOVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_27_MARKOVSKIJ">\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_28_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_29_MARKOVSKIJ">t=[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_30_MARKOVSKIJ">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_31_MARKOVSKIJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_32_MARKOVSKIJ">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_33_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_34_MARKOVSKIJ">(\omega, F)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_35_MARKOVSKIJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_36_MARKOVSKIJ">f_{t}^{s} \subset F, 0 \leqslant s \leqslant t \leqslant \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_37_MARKOVSKIJ">f_{t}^{s} \subset F_{v}^{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_38_MARKOVSKIJ">[s, t] \subset[u, v]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_39_MARKOVSKIJ">x_{t}=x_{t}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_40_MARKOVSKIJ">t \in[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_41_MARKOVSKIJ">v \in[0, t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_42_MARKOVSKIJ">\left(\omega, F_{t}^{v}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_43_MARKOVSKIJ">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_44_MARKOVSKIJ">s \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_45_MARKOVSKIJ">x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_46_MARKOVSKIJ">\mathrm{p}_{s, x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_47_MARKOVSKIJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_48_MARKOVSKIJ">f_{\infty}^{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_49_MARKOVSKIJ">\boldsymbol{p}(s, \ldots ; t, B)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_50_MARKOVSKIJ">=\mathrm{p}_{s,} .\left\{x_{t} \in B\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_51_MARKOVSKIJ">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_52_MARKOVSKIJ">s \in[0, t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_53_MARKOVSKIJ">b \in \mathscr{B}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_54_MARKOVSKIJ">x(t)=\left(x_{t}, F_{t}^{s}, \mathrm{P}_{s, x}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_55_MARKOVSKIJ">\mathbf{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_56_MARKOVSKIJ">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_57_MARKOVSKIJ">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_58_MARKOVSKIJ">\mathrm{p}_{s,} x^{- \text {почти наверное }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_59_MARKOVSKIJ">0 \leqslant s \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_60_MARKOVSKIJ">\lambda \in N^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_61_MARKOVSKIJ">\omega-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_62_MARKOVSKIJ">(e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_63_MARKOVSKIJ">\mathscr{b})-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_64_MARKOVSKIJ">\boldsymbol{p}(s, x, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_65_MARKOVSKIJ">b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_66_MARKOVSKIJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_67_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_68_MARKOVSKIJ">\mathscr{b}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_69_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_70_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_71_MARKOVSKIJ">\boldsymbol{p}(s, x ; s,\{x\}) \equiv 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_72_MARKOVSKIJ">\mathrm{p}_{s, x}\{\Lambda\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_73_MARKOVSKIJ">\lambda \in F_{\infty}^{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_74_MARKOVSKIJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_75_MARKOVSKIJ">x_{s}=x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_76_MARKOVSKIJ">\boldsymbol{p}(s, x ; t, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_77_MARKOVSKIJ">(e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_78_MARKOVSKIJ">\mathscr{b})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_79_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_80_MARKOVSKIJ">\mathscr{b}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_81_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_82_MARKOVSKIJ">e-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_83_MARKOVSKIJ">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_84_MARKOVSKIJ">\alpha_{\mathcal{e}}(h)=\sup \left\{P\left(s, x ; t t V_{\mathcal{E}}(x): x \in E, \quad 0&lt;t-s&lt;h\right\}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_85_MARKOVSKIJ">v_{\varepsilon}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_86_MARKOVSKIJ">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_87_MARKOVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_88_MARKOVSKIJ">\alpha_{\varepsilon}(h)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_89_MARKOVSKIJ">=o(h)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_90_MARKOVSKIJ">h \downarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_91_MARKOVSKIJ">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_92_MARKOVSKIJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_93_MARKOVSKIJ">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_94_MARKOVSKIJ">\omega \in \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_95_MARKOVSKIJ">s \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_96_MARKOVSKIJ">\omega^{\prime} \in \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_97_MARKOVSKIJ">x_{t}\left(\omega^{\prime}\right)=x_{t+s}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_98_MARKOVSKIJ">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_99_MARKOVSKIJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_100_MARKOVSKIJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_101_MARKOVSKIJ">\sigma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_102_MARKOVSKIJ">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_103_MARKOVSKIJ">\left\{\omega: x_{s} \in B\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_104_MARKOVSKIJ">\theta_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_105_MARKOVSKIJ">s, t \geqslant 0, \quad B \in \mathscr{B}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_106_MARKOVSKIJ">x(t)=\left(x_{t}, F_{t}, \mathbf{P}_{x}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_107_MARKOVSKIJ">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_108_MARKOVSKIJ">\mathrm{p}_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_109_MARKOVSKIJ">x \in E, t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_110_MARKOVSKIJ">\lambda \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_111_MARKOVSKIJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_112_MARKOVSKIJ">p(t, x, B), \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_113_MARKOVSKIJ">\boldsymbol{p}(0, x,\{x\}) \equiv 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_114_MARKOVSKIJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_115_MARKOVSKIJ">\lambda=\left\{\omega: x_{s} \in B\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_116_MARKOVSKIJ">s \geqslant 0, B \in \mathscr{B}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_117_MARKOVSKIJ">f_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_118_MARKOVSKIJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_119_MARKOVSKIJ">\bar{f}_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_120_MARKOVSKIJ">f_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_121_MARKOVSKIJ">\mathrm{p}_{x}\{x \in E\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_122_MARKOVSKIJ">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_123_MARKOVSKIJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_124_MARKOVSKIJ">\left(x_{t}, F_{t}, \mathbf{P}_{\mu}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_125_MARKOVSKIJ">\mathrm{p}_{\mu}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_126_MARKOVSKIJ">f_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_127_MARKOVSKIJ">\boldsymbol{x}(t)=\left(x_{t}, F_{t}, \mathbf{P}_{x}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_128_MARKOVSKIJ">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_129_MARKOVSKIJ">x(s, \omega)=x_{s}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_130_MARKOVSKIJ">\left([0, t] \times \Omega, \mathscr{B}_{t} \times F_{t}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_131_MARKOVSKIJ">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_132_MARKOVSKIJ">\mathscr{b}_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_133_MARKOVSKIJ">[0, t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_134_MARKOVSKIJ">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_135_MARKOVSKIJ">м . \Pi . \quad X(t)=\left(x_{t}, \quad F_{t}, \mathbf{P}_{x}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_136_MARKOVSKIJ">\tau: \Omega \rightarrow[0, \infty]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_137_MARKOVSKIJ">\{\omega: \tau \leqslant t\} \in F_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_138_MARKOVSKIJ">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_139_MARKOVSKIJ">\lambda \subset \Omega_{\tau}=\{\omega: \tau&lt;\infty\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_140_MARKOVSKIJ">f_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_141_MARKOVSKIJ">\lambda \cap\{\omega: \tau&lt;t\} \in F_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_142_MARKOVSKIJ">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_143_MARKOVSKIJ">f_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_144_MARKOVSKIJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_145_MARKOVSKIJ">\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_146_MARKOVSKIJ">\lambda \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_147_MARKOVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_148_MARKOVSKIJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_149_MARKOVSKIJ">t \geqslant 0, x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_150_MARKOVSKIJ">\lambda \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_151_MARKOVSKIJ">\mathbf{p}_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_152_MARKOVSKIJ">\omega_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_153_MARKOVSKIJ">\lambda=\left\{\omega: x_{s} \in B\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_154_MARKOVSKIJ">s \geqslant 0, B \in \mathscr{B}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_155_MARKOVSKIJ">\theta_{\tau} \Lambda=\left\{\omega: x_{s+\tau} \in B\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_156_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_157_MARKOVSKIJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_158_MARKOVSKIJ">p(t, x, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_159_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_160_MARKOVSKIJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_161_MARKOVSKIJ">x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_162_MARKOVSKIJ">\boldsymbol{p}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_163_MARKOVSKIJ">\boldsymbol{p}(t, x, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_164_MARKOVSKIJ">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_165_MARKOVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_166_MARKOVSKIJ">f_{t}=\bar{f}_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_167_MARKOVSKIJ">t \in[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_168_MARKOVSKIJ">f_{t}=\bigcap_{s&gt;t} F_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_169_MARKOVSKIJ">t \in[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_170_MARKOVSKIJ">\lim _{n \rightarrow \infty} x_{\tau}=x_{\tau} \mathbf{P}_{x^{-п о ч т и ~ н а в е р н о е ~ н а ~ м н о ж е с т в е ~}}\{\omega: \tau&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_171_MARKOVSKIJ">&lt;\infty\}, \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_172_MARKOVSKIJ">\tau=\lim _{n \rightarrow \infty} \tau_{n}, \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_173_MARKOVSKIJ">\tau_{n}(n \geqslant 1)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_174_MARKOVSKIJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_175_MARKOVSKIJ">\tilde{x}(t)=\left(\tilde{x_{t}}, \quad \tilde{F_{t}}, \tilde{\tilde{\mathbf{P}}_{x}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_176_MARKOVSKIJ">(\tilde{e}, \tilde{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_177_MARKOVSKIJ">\tilde{\boldsymbol{p}}(t, x, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_178_MARKOVSKIJ">e \in \tilde{E}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_179_MARKOVSKIJ">\zeta: \Omega \rightarrow[0, \infty]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_180_MARKOVSKIJ">\tilde{x_{t}}(\omega)=e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_181_MARKOVSKIJ">\zeta(\omega) \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_182_MARKOVSKIJ">\tilde{x}_{t}(\omega) \neq e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_183_MARKOVSKIJ">\zeta&gt;0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_184_MARKOVSKIJ">x_{t}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_185_MARKOVSKIJ">t \in[0, \zeta(\omega))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_186_MARKOVSKIJ">x_{t}(\omega)=\tilde{x}_{t}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_187_MARKOVSKIJ">f_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_188_MARKOVSKIJ">\tilde{f}_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_189_MARKOVSKIJ">\{\omega: \zeta&gt;t\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_190_MARKOVSKIJ">x(t)=\left(x_{t}, \zeta, F_{t}, \tilde{\mathrm{P}}_{x}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_191_MARKOVSKIJ">x \in E=E \searrow\{e\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_192_MARKOVSKIJ">\tilde{x}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_193_MARKOVSKIJ">\zeta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_194_MARKOVSKIJ">\zeta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_195_MARKOVSKIJ">(e, \mathscr{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_196_MARKOVSKIJ">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_197_MARKOVSKIJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_198_MARKOVSKIJ">\mathscr{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_199_MARKOVSKIJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_200_MARKOVSKIJ">\tilde{\boldsymbol{p}}(t, x, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_201_MARKOVSKIJ">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_202_MARKOVSKIJ">x \in E, B \in \mathscr{B}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_203_MARKOVSKIJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_204_MARKOVSKIJ">\tilde{x}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_205_MARKOVSKIJ">\zeta \equiv \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_206_MARKOVSKIJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_207_MARKOVSKIJ">p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_208_MARKOVSKIJ">p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_209_MARKOVSKIJ">l(s, x)=L(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_210_MARKOVSKIJ">\mathrm{e}_{s, x}(\cdot)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_211_MARKOVSKIJ">\mathrm{p}_{s, x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_212_MARKOVSKIJ">\mathrm{e}_{s, x} \varphi(X(T))=u_{1}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_213_MARKOVSKIJ">s&lt;t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_214_MARKOVSKIJ">u_{1}(t, x)=\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_215_MARKOVSKIJ">s&lt;t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_216_MARKOVSKIJ">u_{2}(t, x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_217_MARKOVSKIJ">\tau-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_218_MARKOVSKIJ">\partial D</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_219_MARKOVSKIJ">d \subset \mathbb{R}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_220_MARKOVSKIJ">x(t), \quad \tau \wedge T=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_221_MARKOVSKIJ">=\min (\tau, T)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_222_MARKOVSKIJ">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_223_MARKOVSKIJ">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_224_MARKOVSKIJ">c, f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_225_MARKOVSKIJ">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_226_MARKOVSKIJ">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_227_MARKOVSKIJ">(\operatorname{det} b(s, x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_228_MARKOVSKIJ">\partial D</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_229_MARKOVSKIJ">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_230_MARKOVSKIJ">(6),(7)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_231_MARKOVSKIJ">b(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_232_MARKOVSKIJ">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_233_MARKOVSKIJ">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_234_MARKOVSKIJ">l * q=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_235_MARKOVSKIJ">21-86 ;[3]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_236_MARKOVSKIJ">104, \mathrm{~S} .415]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_237_MARKOVSKIJ">\mathbf{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_238_MARKOVSKIJ">1973 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_239_MARKOVSKIJ">\phi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_240_MARKOVSKIJ">1966, \mathbf{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_241_MARKOVSKIJ">\mu(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_242_MARKOVSKIJ">\mu(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_243_MARKOVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_244_MARKOVSKIJ">(t=0,1,2, \ldots)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_245_MARKOVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_246_MARKOVSKIJ">y \subset X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_247_MARKOVSKIJ">y_{1} \in Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_248_MARKOVSKIJ">y_{2} \in Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_249_MARKOVSKIJ">y_{i} \in Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_250_MARKOVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_251_MARKOVSKIJ">k \subset X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_252_MARKOVSKIJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_253_MARKOVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_254_MARKOVSKIJ">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_255_MARKOVSKIJ">v(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_256_MARKOVSKIJ">l V(x) \leqslant-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_257_MARKOVSKIJ">x \notin K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_258_MARKOVSKIJ">\mathrm{p}(x, t, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_259_MARKOVSKIJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_260_MARKOVSKIJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_261_MARKOVSKIJ">l^{*} \mu=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_262_MARKOVSKIJ">l^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_263_MARKOVSKIJ">l *</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_264_MARKOVSKIJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_265_MARKOVSKIJ">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_266_MARKOVSKIJ">l * p=0</formula>
+  </formulas_aux>
+  <relations n="22">
+    <relation uri="http://libmeta.ru/me/relation/568_1_MARKOVSKIJ">
+      <rel_text>операторов полугруппа</rel_text>
+      <target>http://libmeta.ru/me/article/459_POLUGRUPPA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_2_MARKOVSKIJ">
+      <rel_text>Переходных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_3_MARKOVSKIJ">
+      <rel_text>Функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_4_MARKOVSKIJ">
+      <rel_text>квадратурах</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_5_MARKOVSKIJ">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_6_MARKOVSKIJ">
+      <rel_text>уравнению</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_7_MARKOVSKIJ">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/me/article/316_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_8_MARKOVSKIJ">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_9_MARKOVSKIJ">
+      <rel_text>оператору</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_10_MARKOVSKIJ">
+      <rel_text>диффференциальному</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_11_MARKOVSKIJ">
+      <rel_text>сопряженный оператор</rel_text>
+      <target>http://libmeta.ru/me/article/91_SOPRJaभENNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_12_MARKOVSKIJ">
+      <rel_text>процессов</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_13_MARKOVSKIJ">
+      <rel_text>диффузионных</rel_text>
+      <target>http://libmeta.ru/me/article/252_DIFFEOMORFTsZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_14_MARKOVSKIJ">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_15_MARKOVSKIJ">
+      <rel_text>инфинитезимальному оператору</rel_text>
+      <target>http://libmeta.ru/me/article/648_INFINITEZIMAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_16_MARKOVSKIJ">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_17_MARKOVSKIJ">
+      <rel_text>уравнению</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_18_MARKOVSKIJ">
+      <rel_text>распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_19_MARKOVSKIJ">
+      <rel_text>переходных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_20_MARKOVSKIJ">
+      <rel_text>среднее</rel_text>
+      <target>http://libmeta.ru/me/article/165_SREDNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_21_MARKOVSKIJ">
+      <rel_text>стационарный процесс</rel_text>
+      <target>http://libmeta.ru/me/article/206_STATsIONARNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_22_MARKOVSKIJ">
+      <rel_text>распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+  </relations>
+  <text>П р о ц е с с б е 3 п ос л е д е й с т в и я,- случайный процесс, әволюция к-рого после любого заданного значения временного параметра $URI[[http://libmeta.ru/me/formula/aux/568_1_MARKOVSKIJ]]/URI$ не зависит от эволюции, предшествовавшей $URI[[http://libmeta.ru/me/formula/aux/568_2_MARKOVSKIJ]]/URI$, при условии, что значение процесса в этот момент фиксировано (короче: &quot;будущее» и «прошлое» процесса не зависят друг от друга при известном &quot;настоящем»).
+
+Определяющее М. п. свойство принято наз. м а рк о в с к и м; впервые оно было сформулировано А. А. Марковым [1]. Однако уже в работе Л. Башелье [2] можно усмотреть попытку трактовать броуновское движение как М. п., попытку, получившую обоснование после исследований Н. Винера (n. Wiener, 1923). Основы общей теории М. п. с непрерывным временем были заложены А. Н. Колмогоровым [3].
+
+Марковское свойство. Имеются существенно отличающиеся друг от друга определения М. п. Одним из наиболее распространенных является следующее. Пусть на вероятностном пространстве $URI[[http://libmeta.ru/me/formula/aux/568_3_MARKOVSKIJ]]/URI$ задан случайный процесс $URI[[http://libmeta.ru/me/formula/aux/568_4_MARKOVSKIJ]]/URI$, со значениями из измеримого пространства ( $URI[[http://libmeta.ru/me/formula/aux/568_5_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_6_MARKOVSKIJ]]/URI$ - подмножество действительной оси $URI[[http://libmeta.ru/me/formula/aux/568_7_MARKOVSKIJ]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/568_8_MARKOVSKIJ]]/URI$ (соответственно $URI[[http://libmeta.ru/me/formula/aux/568_9_MARKOVSKIJ]]/URI$ ) есть $URI[[http://libmeta.ru/me/formula/aux/568_10_MARKOVSKIJ]]/URI$-алгебра в $URI[[http://libmeta.ru/me/formula/aux/568_11_MARKOVSKIJ]]/URI$, порожденная величинами $URI[[http://libmeta.ru/me/formula/aux/568_12_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_13_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_14_MARKOVSKIJ]]/URI$. Другими словами, $URI[[http://libmeta.ru/me/formula/aux/568_15_MARKOVSKIJ]]/URI$ (соответственно $URI[[http://libmeta.ru/me/formula/aux/568_16_MARKOVSKIJ]]/URI$ ) - это совокупность событий, связанных с әволюцией процесса до момента $URI[[http://libmeta.ru/me/formula/aux/568_17_MARKOVSKIJ]]/URI$ (начиная с $URI[[http://libmeta.ru/me/formula/aux/568_18_MARKOVSKIJ]]/URI$ ). Процесс $URI[[http://libmeta.ru/me/formula/aux/568_19_MARKOVSKIJ]]/URI$ наз. м а р к о в с к и м п роц е с с о м, если (почти наверное) для всех $URI[[http://libmeta.ru/me/formula/aux/568_20_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_21_MARKOVSKIJ]]/URI$ выполняется м а р к о в с к о е с в ой с т в о :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_1_MARKOVSKIJ]]/URI
+\]
+
+или, что то же самое, если для любых $URI[[http://libmeta.ru/me/formula/aux/568_22_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_23_MARKOVSKIJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_2_MARKOVSKIJ]]/URI
+\]
+
+М. п., для к-рого $URI[[http://libmeta.ru/me/formula/aux/568_24_MARKOVSKIJ]]/URI$ содержится в множестве натуральных чисел, наз. Маркова цепью (впрочем, последний термин чаще всего ассоциируется со случаем не более qем счетного $URI[[http://libmeta.ru/me/formula/aux/568_25_MARKOVSKIJ]]/URI$ ). Если $URI[[http://libmeta.ru/me/formula/aux/568_26_MARKOVSKIJ]]/URI$ является интервалом в $URI[[http://libmeta.ru/me/formula/aux/568_27_MARKOVSKIJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/568_28_MARKOVSKIJ]]/URI$ не более чем счетно, М. П. наз. це п ь ю М а рко в а с н е п ре рывным времен е м. Примеры М. п. с непрерывным временем доставляются дифффузионными процессами і процессами с независимыми приращениями, в том числе пуассоновским и винеровским.
+
+В дальнейшем для определенности речь будет идти только о случае $URI[[http://libmeta.ru/me/formula/aux/568_29_MARKOVSKIJ]]/URI$. Формулы (1) и (2) дают ясную интерпретацию принципа независимостіл «iрошлого&quot; и «будущего&quot; при известном «настоящем», но основанное на них определение М. п. оказалось недостаточно гібким в тех многочисленных сітуациях, когда приходится рассматривать не одно, а набор условий типа (1) или (2), отвечающих различным, хотя и согласованным определенным образом, мерам P. Такого рода соображения привели к принятіпо следующего определения (см. [9], [11]).
+
+Пусть заданы:
+
+a) измеримое пространство $URI[[http://libmeta.ru/me/formula/aux/568_30_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_31_MARKOVSKIJ]]/URI$-алгебра $URI[[http://libmeta.ru/me/formula/aux/568_32_MARKOVSKIJ]]/URI$ содержит все одноточечные множества в $URI[[http://libmeta.ru/me/formula/aux/568_33_MARKOVSKIJ]]/URI$;
+
+б) измеримое пространство $URI[[http://libmeta.ru/me/formula/aux/568_34_MARKOVSKIJ]]/URI$, снабженное семейством $URI[[http://libmeta.ru/me/formula/aux/568_35_MARKOVSKIJ]]/URI$-алгебр $URI[[http://libmeta.ru/me/formula/aux/568_36_MARKOVSKIJ]]/URI$, таких, что $URI[[http://libmeta.ru/me/formula/aux/568_37_MARKOVSKIJ]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/568_38_MARKOVSKIJ]]/URI$
+
+в) функция («траектория») $URI[[http://libmeta.ru/me/formula/aux/568_39_MARKOVSKIJ]]/URI$, определяющая при любых $URI[[http://libmeta.ru/me/formula/aux/568_40_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_41_MARKOVSKIJ]]/URI$ измеримое отображение $URI[[http://libmeta.ru/me/formula/aux/568_42_MARKOVSKIJ]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/568_43_MARKOVSKIJ]]/URI$;
+
+г) для каждых $URI[[http://libmeta.ru/me/formula/aux/568_44_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_45_MARKOVSKIJ]]/URI$ вероятностная мера $URI[[http://libmeta.ru/me/formula/aux/568_46_MARKOVSKIJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/568_47_MARKOVSKIJ]]/URI$-алгебре $URI[[http://libmeta.ru/me/formula/aux/568_48_MARKOVSKIJ]]/URI$ такая, что функция $URI[[http://libmeta.ru/me/formula/aux/568_49_MARKOVSKIJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/568_50_MARKOVSKIJ]]/URI$ измерима относительно $URI[[http://libmeta.ru/me/formula/aux/568_51_MARKOVSKIJ]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/568_52_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_53_MARKOVSKIJ]]/URI$.
+
+Набор $URI[[http://libmeta.ru/me/formula/aux/568_54_MARKOVSKIJ]]/URI$ наз. (н $URI[[http://libmeta.ru/me/formula/aux/568_55_MARKOVSKIJ]]/URI$ о б $URI[[http://libmeta.ru/me/formula/aux/568_56_MARKOVSKIJ]]/URI$ ы в а ющи м с я) м а р ко в скй проце с с о м, заданным в $URI[[http://libmeta.ru/me/formula/aux/568_57_MARKOVSKIJ]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/568_58_MARKOVSKIJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_3_MARKOVSKIJ]]/URI
+\]
+
+каковы бы ни были $URI[[http://libmeta.ru/me/formula/aux/568_59_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_60_MARKOVSKIJ]]/URI$. Здесь $URI[[http://libmeta.ru/me/formula/aux/568_61_MARKOVSKIJ]]/URI$ пространство элементарных событий, $URI[[http://libmeta.ru/me/formula/aux/568_62_MARKOVSKIJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/568_63_MARKOVSKIJ]]/URI$ фазовое пространство или пространство состояний, $URI[[http://libmeta.ru/me/formula/aux/568_64_MARKOVSKIJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/568_65_MARKOVSKIJ]]/URI$ - переходная буунция или вероятность перехода процесса $URI[[http://libmeta.ru/me/formula/aux/568_66_MARKOVSKIJ]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/568_67_MARKOVSKIJ]]/URI$ наделено топологией, а $URI[[http://libmeta.ru/me/formula/aux/568_68_MARKOVSKIJ]]/URI$ совокупность борелевских множеств в $URI[[http://libmeta.ru/me/formula/aux/568_69_MARKOVSKIJ]]/URI$, то принято говорить, что М. п. задан в $URI[[http://libmeta.ru/me/formula/aux/568_70_MARKOVSKIJ]]/URI$. Обычно в определение М. П. включают требование, чтобы $URI[[http://libmeta.ru/me/formula/aux/568_71_MARKOVSKIJ]]/URI$, и тогда $URI[[http://libmeta.ru/me/formula/aux/568_72_MARKOVSKIJ]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/568_73_MARKOVSKIJ]]/URI$ истолковывается как вероятность $URI[[http://libmeta.ru/me/formula/aux/568_74_MARKOVSKIJ]]/URI$ При условии, что $URI[[http://libmeta.ru/me/formula/aux/568_75_MARKOVSKIJ]]/URI$.
+
+Возникает вопрос: всякую ли марковскую переходную функцию $URI[[http://libmeta.ru/me/formula/aux/568_76_MARKOVSKIJ]]/URI$, заданную в измеримом пространстве $URI[[http://libmeta.ru/me/formula/aux/568_77_MARKOVSKIJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/568_78_MARKOVSKIJ]]/URI$, можно рассматривать как переходную функцию нек-рого М. п. Ответ положителен, если, напр., $URI[[http://libmeta.ru/me/formula/aux/568_79_MARKOVSKIJ]]/URI$ является сепарабельным локально компактным пространством, а $URI[[http://libmeta.ru/me/formula/aux/568_80_MARKOVSKIJ]]/URI$ совокупностью борелевских множеств в $URI[[http://libmeta.ru/me/formula/aux/568_81_MARKOVSKIJ]]/URI$. Более того, пусть $URI[[http://libmeta.ru/me/formula/aux/568_82_MARKOVSKIJ]]/URI$ полное метрич. пространство и пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_4_MARKOVSKIJ]]/URI
+\]
+
+для любого $URI[[http://libmeta.ru/me/formula/aux/568_83_MARKOVSKIJ]]/URI$, где
+
+$URI[[http://libmeta.ru/me/formula/aux/568_84_MARKOVSKIJ]]/URI$,
+
+a $URI[[http://libmeta.ru/me/formula/aux/568_85_MARKOVSKIJ]]/URI$ - дополнение $URI[[http://libmeta.ru/me/formula/aux/568_86_MARKOVSKIJ]]/URI$-окрестности точкі $URI[[http://libmeta.ru/me/formula/aux/568_87_MARKOVSKIJ]]/URI$. Тогда соответствующий М. п. можно считать непрерывным справа и имеющим пределы слева (т. е. таковыми можно выбрать его траектории). Существование же непрерывного М. п. обеспечивается условием $URI[[http://libmeta.ru/me/formula/aux/568_88_MARKOVSKIJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/568_89_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_90_MARKOVSKIJ]]/URI$ (см. [9], [11]).
+
+В теории М. П. основное внимание уделяется однородным (по времени) процессам. Соответствующее определение предполагает заданной систему объектов a) - г) с той разницей, что для фигурировавших в ее описании параметров $URI[[http://libmeta.ru/me/formula/aux/568_91_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_92_MARKOVSKIJ]]/URI$ теперь допускается лишь значение 0. Упрощаются и обозначения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_5_MARKOVSKIJ]]/URI
+\]
+
+Далее, постулируется однородность пространства $URI[[http://libmeta.ru/me/formula/aux/568_93_MARKOVSKIJ]]/URI$, т. е. требуется, чтобы для любых $URI[[http://libmeta.ru/me/formula/aux/568_94_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_95_MARKOVSKIJ]]/URI$ существовало такое $URI[[http://libmeta.ru/me/formula/aux/568_96_MARKOVSKIJ]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/568_97_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_98_MARKOVSKIJ]]/URI$. Благодаря этому на $URI[[http://libmeta.ru/me/formula/aux/568_99_MARKOVSKIJ]]/URI$-алгебре $URI[[http://libmeta.ru/me/formula/aux/568_100_MARKOVSKIJ]]/URI$, наименьшей из $URI[[http://libmeta.ru/me/formula/aux/568_101_MARKOVSKIJ]]/URI$ алгебр в $URI[[http://libmeta.ru/me/formula/aux/568_102_MARKOVSKIJ]]/URI$, содержащих любое событие вида $URI[[http://libmeta.ru/me/formula/aux/568_103_MARKOVSKIJ]]/URI$, задаются операторы временного сдвига $URI[[http://libmeta.ru/me/formula/aux/568_104_MARKOVSKIJ]]/URI$, к-рые сохраняют операціи объединения, пересечения и вычитания множеств іл для к-рых
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_6_MARKOVSKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/568_105_MARKOVSKIJ]]/URI$.
+
+Набор $URI[[http://libmeta.ru/me/formula/aux/568_106_MARKOVSKIJ]]/URI$ наз. (н е о б р ы в а ющ ися) о днородным мар ко в ским проц е с с о м, заданным в $URI[[http://libmeta.ru/me/formula/aux/568_107_MARKOVSKIJ]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/568_108_MARKOVSKIJ]]/URI$-почти наверное
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_7_MARKOVSKIJ]]/URI
+\]
+
+для $URI[[http://libmeta.ru/me/formula/aux/568_109_MARKOVSKIJ]]/URI$ п $URI[[http://libmeta.ru/me/formula/aux/568_110_MARKOVSKIJ]]/URI$. Переходной функцией процесса $URI[[http://libmeta.ru/me/formula/aux/568_111_MARKOVSKIJ]]/URI$ считается $URI[[http://libmeta.ru/me/formula/aux/568_112_MARKOVSKIJ]]/URI$ причем, если нет специальных оговорок, дополнительно требуют, чтобы $URI[[http://libmeta.ru/me/formula/aux/568_113_MARKOVSKIJ]]/URI$. Полезно иметь в виду, что при проверке (4) достаточно рассматривать лишь множества $URI[[http://libmeta.ru/me/formula/aux/568_114_MARKOVSKIJ]]/URI$ вида $URI[[http://libmeta.ru/me/formula/aux/568_115_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_116_MARKOVSKIJ]]/URI$, и тто в (4) всегда $URI[[http://libmeta.ru/me/formula/aux/568_117_MARKOVSKIJ]]/URI$ можно заменить $URI[[http://libmeta.ru/me/formula/aux/568_118_MARKOVSKIJ]]/URI$-алгеброй $URI[[http://libmeta.ru/me/formula/aux/568_119_MARKOVSKIJ]]/URI$, равной пересечению пополнений $URI[[http://libmeta.ru/me/formula/aux/568_120_MARKOVSKIJ]]/URI$ по всевозможным мерам $URI[[http://libmeta.ru/me/formula/aux/568_121_MARKOVSKIJ]]/URI$. Нередко в $URI[[http://libmeta.ru/me/formula/aux/568_122_MARKOVSKIJ]]/URI$ фиксируют вероятностную меру $URI[[http://libmeta.ru/me/formula/aux/568_123_MARKOVSKIJ]]/URI$ («начальное распределение») и рассматривают марковскую случайную функцию $URI[[http://libmeta.ru/me/formula/aux/568_124_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_125_MARKOVSKIJ]]/URI$ мера на $URI[[http://libmeta.ru/me/formula/aux/568_126_MARKOVSKIJ]]/URI$, заданная равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_8_MARKOVSKIJ]]/URI
+\]
+
+M. п. $URI[[http://libmeta.ru/me/formula/aux/568_127_MARKOVSKIJ]]/URI$ наз. п р о г р е с с и в н о и 3 м е р п мы м, если при каждом $URI[[http://libmeta.ru/me/formula/aux/568_128_MARKOVSKIJ]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/568_129_MARKOVSKIJ]]/URI$ индуцирует измеримое отображение $URI[[http://libmeta.ru/me/formula/aux/568_130_MARKOVSKIJ]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/568_131_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_132_MARKOVSKIJ]]/URI$ есть б-алгебра борелевских подмножеств в $URI[[http://libmeta.ru/me/formula/aux/568_133_MARKOVSKIJ]]/URI$. Непрерывные справа М. п. прогрессивно измеримы. Существует способ сводить неоднородный случай к однородному (см. [11]), и в дальнейшем речь будет идти об однородных М. П.
+
+Строго марковское свойство. Пусть в измеримом пространстве $URI[[http://libmeta.ru/me/formula/aux/568_134_MARKOVSKIJ]]/URI$ задан $URI[[http://libmeta.ru/me/formula/aux/568_135_MARKOVSKIJ]]/URI$. Функция $URI[[http://libmeta.ru/me/formula/aux/568_136_MARKOVSKIJ]]/URI$ наз. марковским моментом, если $URI[[http://libmeta.ru/me/formula/aux/568_137_MARKOVSKIJ]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/568_138_MARKOVSKIJ]]/URI$. При этом множество $URI[[http://libmeta.ru/me/formula/aux/568_139_MARKOVSKIJ]]/URI$ относят к семейству $URI[[http://libmeta.ru/me/formula/aux/568_140_MARKOVSKIJ]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/568_141_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_142_MARKOVSKIJ]]/URI$ (чаще всего $URI[[http://libmeta.ru/me/formula/aux/568_143_MARKOVSKIJ]]/URI$ интерпретируют как совокупность событий, связанных с әволюцией $URI[[http://libmeta.ru/me/formula/aux/568_144_MARKOVSKIJ]]/URI$ до момента $URI[[http://libmeta.ru/me/formula/aux/568_145_MARKOVSKIJ]]/URI$. Для $URI[[http://libmeta.ru/me/formula/aux/568_146_MARKOVSKIJ]]/URI$ полагают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_9_MARKOVSKIJ]]/URI
+\]
+
+Прогрессивно измеримый М. П. $URI[[http://libmeta.ru/me/formula/aux/568_147_MARKOVSKIJ]]/URI$ наз. с т р ого м а р ко в с ким п р ц е с с о м (с. м. П.), если для любого марковского момента $URI[[http://libmeta.ru/me/formula/aux/568_148_MARKOVSKIJ]]/URI$ и всех $URI[[http://libmeta.ru/me/formula/aux/568_149_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_150_MARKOVSKIJ]]/URI$ соотношение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_10_MARKOVSKIJ]]/URI
+\]
+
+(с т р ого ма р ко в с ко с в о й с т во) выполняется $URI[[http://libmeta.ru/me/formula/aux/568_151_MARKOVSKIJ]]/URI$-почти наверное на множестве $URI[[http://libmeta.ru/me/formula/aux/568_152_MARKOVSKIJ]]/URI$. При проверке (5) достаточно рассматривать лишь множества вида $URI[[http://libmeta.ru/me/formula/aux/568_153_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_154_MARKOVSKIJ]]/URI$; в этом случае $URI[[http://libmeta.ru/me/formula/aux/568_155_MARKOVSKIJ]]/URI$. С. м. п. является, напр., любой непрерывный справа феллеровский М. п. в топологич. пространстве $URI[[http://libmeta.ru/me/formula/aux/568_156_MARKOVSKIJ]]/URI$. М. п. наз. фе л л е р о в с к и м ма р ко в с к и п р ц е с с о м, если функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_11_MARKOVSKIJ]]/URI
+\]
+
+непрерывна всякий раз, когда $URI[[http://libmeta.ru/me/formula/aux/568_157_MARKOVSKIJ]]/URI$ непрерывна и ограничена.
+
+В классе с. м. п. выделяются те или иные подклассы. Пусть марковская переходная функция $URI[[http://libmeta.ru/me/formula/aux/568_158_MARKOVSKIJ]]/URI$, заданная в метрическом локально компактном пространстве $URI[[http://libmeta.ru/me/formula/aux/568_159_MARKOVSKIJ]]/URI$, стохастически непрерывна:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_12_MARKOVSKIJ]]/URI
+\]
+
+для любой окрестности $URI[[http://libmeta.ru/me/formula/aux/568_160_MARKOVSKIJ]]/URI$ каждой точки $URI[[http://libmeta.ru/me/formula/aux/568_161_MARKOVSKIJ]]/URI$. Тогда если операторы $URI[[http://libmeta.ru/me/formula/aux/568_162_MARKOVSKIJ]]/URI$ переводят в себя класс непрерывных и обращающихся в 0 в бесконечности функций, то функции $URI[[http://libmeta.ru/me/formula/aux/568_163_MARKOVSKIJ]]/URI$ отвечает с т а н д а $URI[[http://libmeta.ru/me/formula/aux/568_164_MARKOVSKIJ]]/URI$ т ы й М. п. $URI[[http://libmeta.ru/me/formula/aux/568_165_MARKOVSKIJ]]/URI$, т. е. непрерывный справа с. м. п., для к-рого 1) $URI[[http://libmeta.ru/me/formula/aux/568_166_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_167_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_168_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_169_MARKOVSKIJ]]/URI$ и 2) $URI[[http://libmeta.ru/me/formula/aux/568_170_MARKOVSKIJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/568_171_MARKOVSKIJ]]/URI$ где $URI[[http://libmeta.ru/me/formula/aux/568_172_MARKOVSKIJ]]/URI$ а $URI[[http://libmeta.ru/me/formula/aux/568_173_MARKOVSKIJ]]/URI$ неубывающие с ростом $URI[[http://libmeta.ru/me/formula/aux/568_174_MARKOVSKIJ]]/URI$ марковские моменты.
+
+Обрывающийся марковский процесс. Нередко физич. системы целесообразно описывать с помощью необрывающегося М. п., но лишь на временном интервале случайной длины. Кроме того, даже простые преобразования М. п. могут привести к процессу с траекториями, заданными на случайном интервале (см. URI[[http://libmeta.ru/me/relation/568_3_MARKOVSKIJ]]/URI от марковского процесса). Руководствуясь этими соображениями, вводят понятие обрывающегося M. I.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/568_175_MARKOVSKIJ]]/URI$ - однородный М. П. в фазовом пространстве $URI[[http://libmeta.ru/me/formula/aux/568_176_MARKOVSKIJ]]/URI$, имеющий переходную функцию $URI[[http://libmeta.ru/me/formula/aux/568_177_MARKOVSKIJ]]/URI$, п пусть существуют точка $URI[[http://libmeta.ru/me/formula/aux/568_178_MARKOVSKIJ]]/URI$ и функция $URI[[http://libmeta.ru/me/formula/aux/568_179_MARKOVSKIJ]]/URI$ такие, что $URI[[http://libmeta.ru/me/formula/aux/568_180_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_181_MARKOVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_182_MARKOVSKIJ]]/URI$ в противном случае (если нет специальных оговорок, считают $URI[[http://libmeta.ru/me/formula/aux/568_183_MARKOVSKIJ]]/URI$. Новая траектория $URI[[http://libmeta.ru/me/formula/aux/568_184_MARKOVSKIJ]]/URI$ задается лишь для $URI[[http://libmeta.ru/me/formula/aux/568_185_MARKOVSKIJ]]/URI$ посредством равенства $URI[[http://libmeta.ru/me/formula/aux/568_186_MARKOVSKIJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/568_187_MARKOVSKIJ]]/URI$ определяется как след $URI[[http://libmeta.ru/me/formula/aux/568_188_MARKOVSKIJ]]/URI$ в множестве $URI[[http://libmeta.ru/me/formula/aux/568_189_MARKOVSKIJ]]/URI$.
+
+Набор $URI[[http://libmeta.ru/me/formula/aux/568_190_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_191_MARKOVSKIJ]]/URI$, наз. обрывающимся маяковским процесс о м (о. м. п.), полученным из $URI[[http://libmeta.ru/me/formula/aux/568_192_MARKOVSKIJ]]/URI$ с помощью обрыва (или убивания) в момент $URI[[http://libmeta.ru/me/formula/aux/568_193_MARKOVSKIJ]]/URI$. Величина $URI[[http://libmeta.ru/me/formula/aux/568_194_MARKOVSKIJ]]/URI$ наз. м о м е нт о м о б р в а, или в р е ме нем Жи Фазовым пространством нового процесса служит $URI[[http://libmeta.ru/me/formula/aux/568_195_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_196_MARKOVSKIJ]]/URI$ есть след $URI[[http://libmeta.ru/me/formula/aux/568_197_MARKOVSKIJ]]/URI$-алгебры $URI[[http://libmeta.ru/me/formula/aux/568_198_MARKOVSKIJ]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/568_199_MARKOVSKIJ]]/URI$. Переходная функция о. м. п.- это сужение $URI[[http://libmeta.ru/me/formula/aux/568_200_MARKOVSKIJ]]/URI$ на множество $URI[[http://libmeta.ru/me/formula/aux/568_201_MARKOVSKIJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/568_202_MARKOVSKIJ]]/URI$. Процесс $URI[[http://libmeta.ru/me/formula/aux/568_203_MARKOVSKIJ]]/URI$ наз. с т р о г о м а р к о вским проце с сом, или с т анд а р т ным м а р ко в с им проц е с с о м, если соответствующим свойством обладает $URI[[http://libmeta.ru/me/formula/aux/568_204_MARKOVSKIJ]]/URI$. Необрывающийся M. П. можно рассматривать как о. м. П. с моментом обрыва $URI[[http://libmeta.ru/me/formula/aux/568_205_MARKOVSKIJ]]/URI$. Неоднородный о. м. п. определяется аналогичным образом. $URI[[http://libmeta.ru/me/formula/aux/568_206_MARKOVSKIJ]]/URI$. Г. Шyp.
+
+Марковские процессы и дифференциальные уравнения. М. П. типа броуновского движения тесно связаны c дифференциальными уравнениями параболич. типа. Переходная плотность $URI[[http://libmeta.ru/me/formula/aux/568_207_MARKOVSKIJ]]/URI$ дифффузионного процесса удовлетворяет при нек-рых дополнительных предположения обратному и прямому дифференциальным уравнениям Колмогорова:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_13_MARKOVSKIJ]]/URI
+\] Функция $URI[[http://libmeta.ru/me/formula/aux/568_208_MARKOVSKIJ]]/URI$ есть функция Грина уравнений (6) - (7), и первые известные способы построения диффузионных процессов были основаны на теоремах существования этой функции для диффференциальных уравнений (6) - (7). Для однородного по времени процесса оператор $URI[[http://libmeta.ru/me/formula/aux/568_209_MARKOVSKIJ]]/URI$ на гладких функциях совпадает с характеристич. оператором М. п. (см. URI[[http://libmeta.ru/me/relation/568_2_MARKOVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/568_1_MARKOVSKIJ]]/URI).
+
+Математич. ожидания различных функционалов от диффузионных процессов служат решениями соответствующих краевых задач для дифференциального уравнения (1). Пусть $URI[[http://libmeta.ru/me/formula/aux/568_210_MARKOVSKIJ]]/URI$ математич. ожидание по мере $URI[[http://libmeta.ru/me/formula/aux/568_211_MARKOVSKIJ]]/URI$. Тогда функция $URI[[http://libmeta.ru/me/formula/aux/568_212_MARKOVSKIJ]]/URI$ удовлетворяет прі $URI[[http://libmeta.ru/me/formula/aux/568_213_MARKOVSKIJ]]/URI$ уравнению (6) и условию $URI[[http://libmeta.ru/me/formula/aux/568_214_MARKOVSKIJ]]/URI$.
+
+Аналогично, функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_14_MARKOVSKIJ]]/URI
+\]
+
+удовлетворяет при $URI[[http://libmeta.ru/me/formula/aux/568_215_MARKOVSKIJ]]/URI$ уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_15_MARKOVSKIJ]]/URI
+\]
+
+и условию $URI[[http://libmeta.ru/me/formula/aux/568_216_MARKOVSKIJ]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/568_217_MARKOVSKIJ]]/URI$ момент первого достижения границы $URI[[http://libmeta.ru/me/formula/aux/568_218_MARKOVSKIJ]]/URI$ области $URI[[http://libmeta.ru/me/formula/aux/568_219_MARKOVSKIJ]]/URI$ траекторией процесса $URI[[http://libmeta.ru/me/formula/aux/568_220_MARKOVSKIJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/568_221_MARKOVSKIJ]]/URI$. Тогда при нек-рых условиях функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_16_MARKOVSKIJ]]/URI
+\]
+
+удовлетворяет уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_17_MARKOVSKIJ]]/URI
+\]
+
+и принимает значения $URI[[http://libmeta.ru/me/formula/aux/568_222_MARKOVSKIJ]]/URI$ на множестве
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_18_MARKOVSKIJ]]/URI
+\]
+
+Решение 1-ї краевоӥ задачи для общего линейного параболич. уравнения 2-го порядка
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=117&amp;width=618&amp;top_left_y=1348&amp;top_left_x=217)
+
+при довольно общих предположениях может быть записано в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_19_MARKOVSKIJ]]/URI
+\]
+
+В случае, когда оператор $URI[[http://libmeta.ru/me/formula/aux/568_223_MARKOVSKIJ]]/URI$ и функции $URI[[http://libmeta.ru/me/formula/aux/568_224_MARKOVSKIJ]]/URI$ не зависят от $URI[[http://libmeta.ru/me/formula/aux/568_225_MARKOVSKIJ]]/URI$, аналогичное (9) представление возможно и для решения линейного эллиптич. уравнения. Точнее, функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_20_MARKOVSKIJ]]/URI
+\]
+
+при нек-рых предіоложениях есть решение задачи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_21_MARKOVSKIJ]]/URI
+\]
+
+В случае, когда оператор $URI[[http://libmeta.ru/me/formula/aux/568_226_MARKOVSKIJ]]/URI$ вырождается $URI[[http://libmeta.ru/me/formula/aux/568_227_MARKOVSKIJ]]/URI$ ) или граница $URI[[http://libmeta.ru/me/formula/aux/568_228_MARKOVSKIJ]]/URI$ недостаточно &quot;хорошая&quot;, граничные значения могут и не приниматься функциями (9), (10) в отдельных точках или на целых множествах. Понятие регулярной граничной точки для оператора $URI[[http://libmeta.ru/me/formula/aux/568_229_MARKOVSKIJ]]/URI$ имеет вероятностную интерпретацию. В регулярных точках границы граничные значения достигаются функциями (9), (10). Решение задач (8), (11) позволяет изучать свойства соответствующих диффузионных процессов и функционалов от них.
+
+Существуют методы построения М. п., не опирающиеся на построение решений уравнений $URI[[http://libmeta.ru/me/formula/aux/568_230_MARKOVSKIJ]]/URI$, напр. метод стохастических дибберенциальных уравненици, абсолютно непрерывная замена меры и др. Это обстоятельство вместе с формулами (9), (10) позволяет вероятностным путем строить и изучать свойства краевых задач для уравнения (8), а также свойства решений соответствующего эллиптич. уравнения.
+
+Так как решение стохастического дифференциального уравнения нечувствительно к вырождению матрицы $URI[[http://libmeta.ru/me/formula/aux/568_231_MARKOVSKIJ]]/URI$, то вероятностные методы применялись для построения решений вырождающихся әллиптическігх и параболических дифференциальных уравнений. Распространение принципа усреднения Н. М. Крылова и Н. Н. Боголюбова на стохастические дифференциальные уравнения позволило с помощью (9) получить соответствующие результаты для эллиптических Ii параболических диффференциальных уравнений. Нек-рые трудные задачи исследования свойств решений уравнений такого типа с малым параметром при старшей производной оказалось возможным решить с помощью вероятностных соображений. Вероятностный смысл имеет и решение 2-й краевой задачи для уравнения (6). Постановка краевых задач для неогрангченной области тесно связана с возвратностью соответствующего дифффузионного процесса.
+
+В случае однородного по времени процесса ( $URI[[http://libmeta.ru/me/formula/aux/568_232_MARKOVSKIJ]]/URI$, не завислт от $URI[[http://libmeta.ru/me/formula/aux/568_233_MARKOVSKIJ]]/URI$ ) положительное решение уравнения $URI[[http://libmeta.ru/me/formula/aux/568_234_MARKOVSKIJ]]/URI$ с точностью до мультипликатівной постоянной совпадает при нек-рых предположениях со стационарноі́ плотностью распределения М. П. Вероятностные соображения оказываются полезными и при рассмотрении краевых задач для нелинейных параболич. уравнений.
+Р. З. Хасъминский.
+
+Лum.: [1] М а p к о в А. А., &quot;изв. физ.-мат. об-ва Казан.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=50&amp;width=831&amp;top_left_y=1292&amp;top_left_x=984)
+&quot;ann. scient. Ecole norm. supér.», 1900, v. 17, p. $URI[[http://libmeta.ru/me/formula/aux/568_235_MARKOVSKIJ]]/URI$
+K о л м о г о p o в A. H., &quot;math. Ann.&quot;, 1931, Bd $URI[[http://libmeta.ru/me/formula/aux/568_236_MARKOVSKIJ]]/URI$ 458; рус. пер. &quot;успехи матем. наук», 1938, в. 5, с. 5-41; [4] ч ж у н $URI[[http://libmeta.ru/me/formula/aux/568_237_MARKOVSKIJ]]/URI$ а й - л а й, Однородные цепи Маркова, пер. с англ., [6] Д ы н и н Е. Б., Ю Iі к е в и ч А. А., &quot;теория вероятн.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=50&amp;width=826&amp;top_left_y=1434&amp;top_left_x=981)
+Марковские процессы и потенциалы, пер. с англ., М., 1962 ; [8] Д е л л а ш е ри К., Емкости и случайпые процессы, пер. с франц., М., 1975; [9] Д ы н к и н Е. Б., Основания теории марковских процессов, М., 1959; [10] е г о ж е, Марковские Теория случайных процессов, т. 2 , М., $URI[[http://libmeta.ru/me/formula/aux/568_238_MARKOVSKIJ]]/URI$ [12] $URI[[http://libmeta.ru/me/formula/aux/568_239_MARKOVSKIJ]]/URI$ р е й дл и н М. И., в кн.: Итоги науки. Теория вероятностей, математическая статистика. - Теоретическая кибернетика. $URI[[http://libmeta.ru/me/formula/aux/568_240_MARKOVSKIJ]]/URI$. 1967 , с. 7-58; [13] Х а с ь м и н с к и й Р. 3., «теория нероятн.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=42&amp;width=821&amp;top_left_y=1676&amp;top_left_x=989)
+под действием малых случайных возмущений, M., 1979; [15] B l um e n t h a l R. M., G e t o o r R. K., Markov processes Markov processes: Ray processes and right processes, B., 1975 ; [17] К у н ец о в С. F., «теория вероятн. и ее примен.»,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=47&amp;width=814&amp;top_left_y=1832&amp;top_left_x=990)
+марковский процесс, являющийся стационарны.и случайным прочессом. М. с. П., отвечающий однородной марковской переходной функции, существует тогда и только тогда, когда существует стационарное начальное распределение $URI[[http://libmeta.ru/me/formula/aux/568_241_MARKOVSKIJ]]/URI$, отвечающее этой функции, т. е. $URI[[http://libmeta.ru/me/formula/aux/568_242_MARKOVSKIJ]]/URI$ удовлетворяет уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_22_MARKOVSKIJ]]/URI
+\]
+
+Если фазовое пространство процесса $URI[[http://libmeta.ru/me/formula/aux/568_243_MARKOVSKIJ]]/URI$ - конечное множество, то стационарное начальное распределение существует всегда, независимо от того, рассматривается процесс с дискретным $URI[[http://libmeta.ru/me/formula/aux/568_244_MARKOVSKIJ]]/URI$ или непрерывным временем. Для процесса с дискретным временем и счетным множеством $URI[[http://libmeta.ru/me/formula/aux/568_245_MARKOVSKIJ]]/URI$ условие существования стационарного распределения найдено А. Н. Колмоторовым [1]: для этого необходимо и достаточно, чтобы нашелся такой класс сообщающихся состояний $URI[[http://libmeta.ru/me/formula/aux/568_246_MARKOVSKIJ]]/URI$, что математич. ожидание времени попадания из $URI[[http://libmeta.ru/me/formula/aux/568_247_MARKOVSKIJ]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/568_248_MARKOVSKIJ]]/URI$ было конечно для любых $URI[[http://libmeta.ru/me/formula/aux/568_249_MARKOVSKIJ]]/URI$. Этот критерий обобщается на строго марковские процессы с произвольным фазовым пространством $URI[[http://libmeta.ru/me/formula/aux/568_250_MARKOVSKIJ]]/URI$ : для существования стационарного процесса достаточно, чтобы существовал компакт $URI[[http://libmeta.ru/me/formula/aux/568_251_MARKOVSKIJ]]/URI$ такой, что математич. ожидание времени достижения $URI[[http://libmeta.ru/me/formula/aux/568_252_MARKOVSKIJ]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/568_253_MARKOVSKIJ]]/URI$ конечно для всех $URI[[http://libmeta.ru/me/formula/aux/568_254_MARKOVSKIJ]]/URI$. Справедливо следующее достаточное условие существования М. с. П. в терминах Ляпунова стохастических бункций: если существует функция $URI[[http://libmeta.ru/me/formula/aux/568_255_MARKOVSKIJ]]/URI$, для к-рой $URI[[http://libmeta.ru/me/formula/aux/568_256_MARKOVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_257_MARKOVSKIJ]]/URI$, то М. с. п., отвечающий марковской переходноӥ функции $URI[[http://libmeta.ru/me/formula/aux/568_258_MARKOVSKIJ]]/URI$, существует.
+
+В случае, когда стационарное начальное URI[[http://libmeta.ru/me/relation/568_22_MARKOVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/568_259_MARKOVSKIJ]]/URI$ единственно, соответствующий URI[[http://libmeta.ru/me/relation/568_21_MARKOVSKIJ]]/URI эргодичен. В этом случае URI[[http://libmeta.ru/me/relation/568_20_MARKOVSKIJ]]/URI по Чезаро URI[[http://libmeta.ru/me/relation/568_19_MARKOVSKIJ]]/URI вероятностей слабо сходится к $URI[[http://libmeta.ru/me/formula/aux/568_260_MARKOVSKIJ]]/URI$. При нек-рых дополнительных условиях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_23_MARKOVSKIJ]]/URI
+\]
+
+Стационарное начальное URI[[http://libmeta.ru/me/relation/568_18_MARKOVSKIJ]]/URI удовлетворяет URI[[http://libmeta.ru/me/relation/568_17_MARKOVSKIJ]]/URI Фоккера - Планка - Колмогорова $URI[[http://libmeta.ru/me/formula/aux/568_261_MARKOVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_262_MARKOVSKIJ]]/URI$ - URI[[http://libmeta.ru/me/relation/568_16_MARKOVSKIJ]]/URI, сопряженный к URI[[http://libmeta.ru/me/relation/568_15_MARKOVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/568_14_MARKOVSKIJ]]/URI. Напр., для URI[[http://libmeta.ru/me/relation/568_13_MARKOVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/568_12_MARKOVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/568_263_MARKOVSKIJ]]/URI$ - URI[[http://libmeta.ru/me/relation/568_11_MARKOVSKIJ]]/URI к производящему URI[[http://libmeta.ru/me/relation/568_10_MARKOVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/568_9_MARKOVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/568_8_MARKOVSKIJ]]/URI. В этом случае $URI[[http://libmeta.ru/me/formula/aux/568_264_MARKOVSKIJ]]/URI$ имеет URI[[http://libmeta.ru/me/relation/568_7_MARKOVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/568_265_MARKOVSKIJ]]/URI$, относительно лебеговой меры, удовлетворяющую URI[[http://libmeta.ru/me/relation/568_6_MARKOVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/568_266_MARKOVSKIJ]]/URI$. Для одномерного случая әто URI[[http://libmeta.ru/me/relation/568_5_MARKOVSKIJ]]/URI решается в URI[[http://libmeta.ru/me/relation/568_4_MARKOVSKIJ]]/URI.</text>
+  <text_orig>П р о ц е с с б е 3 п ос л е д е й с т в и я,- случайный процесс, әволюция к-рого после любого заданного значения временного параметра $t$ не зависит от эволюции, предшествовавшей $t$, при условии, что значение процесса в этот момент фиксировано (короче: &quot;будущее» и «прошлое» процесса не зависят друг от друга при известном &quot;настоящем»).
+
+Определяющее М. п. свойство принято наз. м а рк о в с к и м; впервые оно было сформулировано А. А. Марковым [1]. Однако уже в работе Л. Башелье [2] можно усмотреть попытку трактовать броуновское движение как М. п., попытку, получившую обоснование после исследований Н. Винера (N. Wiener, 1923). Основы общей теории М. п. с непрерывным временем были заложены А. Н. Колмогоровым [3].
+
+Марковское свойство. Имеются существенно отличающиеся друг от друга определения М. п. Одним из наиболее распространенных является следующее. Пусть на вероятностном пространстве $(\Omega, F, \mathrm{P})$ задан случайный процесс $X(t), t \in T$, со значениями из измеримого пространства ( $E, \mathscr{B})$, где $T$ - подмножество действительной оси $\mathbb{R}$. Пусть $N_{t}$ (соответственно $N^{t}$ ) есть $\sigma$-алгебра в $\Omega$, порожденная величинами $\boldsymbol{X}(s)$ при $s \leqslant t(s \geqslant t)$, где $s \in T$. Другими словами, $N_{t}$ (соответственно $N^{t}$ ) - это совокупность событий, связанных с әволюцией процесса до момента $t$ (начиная с $t$ ). Процесс $X(t)$ наз. м а р к о в с к и м п роц е с с о м, если (почти наверное) для всех $t \in T, \Lambda_{1} \in N_{t}$ и $\Lambda_{2} \in N^{t}$ выполняется м а р к о в с к о е с в ой с т в о :
+
+\[
+\mathrm{P}\left\{\Lambda_{1} \Lambda_{2} \mid X(t)\right\}=\mathrm{P}\left\{\Lambda_{1} \mid X(t)\right\} \mathrm{P}\left\{\Lambda_{2} \mid X(t)\right\}
+\]
+
+или, что то же самое, если для любых $t \in T$ и $\Lambda \in N^{t}$
+
+\[
+\mathrm{P}\left\{\Lambda \mid N_{t}\right\}=\mathbf{P}\{\Lambda \mid X(t)\} .
+\]
+
+М. п., для к-рого $T$ содержится в множестве натуральных чисел, наз. Маркова цепью (впрочем, последний термин чаще всего ассоциируется со случаем не более qем счетного $E$ ). Если $T$ является интервалом в $\mathbb{R}$, а $E$ не более чем счетно, М. П. наз. це п ь ю М а рко в а с н е п ре рывным времен е м. Примеры М. п. с непрерывным временем доставляются дифффузионными процессами і процессами с независимыми приращениями, в том числе пуассоновским и винеровским.
+
+В дальнейшем для определенности речь будет идти только о случае $T=[0, \infty)$. Формулы (1) и (2) дают ясную интерпретацию принципа независимостіл «Iрошлого&quot; и «будущего&quot; при известном «настоящем», но основанное на них определение М. п. оказалось недостаточно гібким в тех многочисленных сітуациях, когда приходится рассматривать не одно, а набор условий типа (1) или (2), отвечающих различным, хотя и согласованным определенным образом, мерам P. Такого рода соображения привели к принятіпо следующего определения (см. [9], [11]).
+
+Пусть заданы:
+
+a) измеримое пространство $(E, \mathscr{B})$, где $\sigma$-алгебра $\mathscr{B}$ содержит все одноточечные множества в $E$;
+
+б) измеримое пространство $(\Omega, F)$, снабженное семейством $\sigma$-алгебр $F_{t}^{s} \subset F, 0 \leqslant s \leqslant t \leqslant \infty$, таких, что $F_{t}^{s} \subset F_{v}^{u}$, если $[s, t] \subset[u, v]$
+
+в) функция («траектория») $x_{t}=x_{t}(\omega)$, определяющая при любых $t \in[0, \infty)$ и $v \in[0, t]$ измеримое отображение $\left(\Omega, F_{t}^{v}\right)$ в $(E, \mathscr{B})$;
+
+г) для каждых $s \geqslant 0$ и $x \in E$ вероятностная мера $\mathrm{P}_{s, x}$ на $\sigma$-алгебре $F_{\infty}^{s}$ такая, что функция $\boldsymbol{P}(s, \ldots ; t, B)=$ $=\mathrm{P}_{s,} .\left\{x_{t} \in B\right\}$ измерима относительно $\mathscr{B}$, если $s \in[0, t]$ и $B \in \mathscr{B}$.
+
+Набор $X(t)=\left(x_{t}, F_{t}^{s}, \mathrm{P}_{s, x}\right)$ наз. (н $\mathbf{e}$ о б $\mathrm{p}$ ы в а ющи м с я) м а р ко в скй проце с с о м, заданным в $(E, \mathscr{B})$, если $\mathrm{P}_{s,} x^{- \text {почти наверное }}$
+
+\[
+\mathrm{P}_{s, x}\left\{\Lambda \mid F_{t}^{s}\right\}=\mathrm{P}_{t, x_{t}}\{\Lambda\}
+\]
+
+каковы бы ни были $0 \leqslant s \leqslant t$ и $\Lambda \in N^{t}$. Здесь $\Omega-$ пространство элементарных событий, $(E$, $\mathscr{B})-$ фазовое пространство или пространство состояний, $\boldsymbol{P}(s, x, t$, $B)$ - переходная буунция или вероятность перехода процесса $X(t)$. Если $E$ наделено топологией, а $\mathscr{B}-$ совокупность борелевских множеств в $E$, то принято говорить, что М. п. задан в $E$. Обычно в определение М. П. включают требование, чтобы $\boldsymbol{P}(s, x ; s,\{x\}) \equiv 1$, и тогда $\mathrm{P}_{s, x}\{\Lambda\}$ с $\Lambda \in F_{\infty}^{s}$ истолковывается как вероятность $\Lambda$ При условии, что $x_{s}=x$.
+
+Возникает вопрос: всякую ли марковскую переходную функцию $\boldsymbol{P}(s, x ; t, B)$, заданную в измеримом пространстве $(E$, $\mathscr{B})$, можно рассматривать как переходную функцию нек-рого М. п. Ответ положителен, если, напр., $E$ является сепарабельным локально компактным пространством, а $\mathscr{B}-$ совокупностью борелевских множеств в $E$. Более того, пусть $E-$ полное метрич. пространство и пусть
+
+\[
+\lim _{h \downarrow 0} \alpha_{\mathcal{E}}(h)=0
+\]
+
+для любого $\varepsilon&gt;0$, где
+
+$\alpha_{\mathcal{E}}(h)=\sup \left\{P\left(s, x ; t t V_{\mathcal{E}}(x): x \in E, \quad 0&lt;t-s&lt;h\right\}\right.$,
+
+a $V_{\varepsilon}(x)$ - дополнение $\varepsilon$-окрестности точкі $x$. Тогда соответствующий М. п. можно считать непрерывным справа и имеющим пределы слева (т. е. таковыми можно выбрать его траектории). Существование же непрерывного М. п. обеспечивается условием $\alpha_{\varepsilon}(h)=$ $=o(h)$ при $h \downarrow 0$ (см. [9], [11]).
+
+В теории М. П. основное внимание уделяется однородным (по времени) процессам. Соответствующее определение предполагает заданной систему объектов a) - г) с той разницей, что для фигурировавших в ее описании параметров $s$ и $u$ теперь допускается лишь значение 0. Упрощаются и обозначения:
+
+\[
+\begin{gathered}
+\mathbf{P}_{x}=\mathbf{P}_{0 x}, \quad F_{t}=F_{t}^{0}, \quad P(t, x, B)=P(0, x ; t, B), \\
+x \in E, \quad t \geqslant 0, \quad B \in \mathscr{B} .
+\end{gathered}
+\]
+
+Далее, постулируется однородность пространства $\Omega$, т. е. требуется, чтобы для любых $\omega \in \Omega$ и $s \geqslant 0$ существовало такое $\omega^{\prime} \in \Omega$, что $x_{t}\left(\omega^{\prime}\right)=x_{t+s}(\omega)$ при $t \geqslant 0$. Благодаря этому на $\sigma$-алгебре $N$, наименьшей из $\sigma-$ алгебр в $\Omega$, содержащих любое событие вида $\left\{\omega: x_{s} \in B\right\}$, задаются операторы временного сдвига $\theta_{t}$, к-рые сохраняют операціи объединения, пересечения и вычитания множеств іл для к-рых
+
+\[
+\theta_{t}\left\{\omega: x_{s} \in B\right\}=\left\{\omega: x_{t+s} \in B\right\}
+\]
+
+где $s, t \geqslant 0, \quad B \in \mathscr{B}$.
+
+Набор $X(t)=\left(x_{t}, F_{t}, \mathbf{P}_{x}\right)$ наз. (н е о б р ы в а ющ ися) о днородным мар ко в ским проц е с с о м, заданным в $(E, \mathscr{B})$, если $\mathrm{P}_{x}$-почти наверное
+
+\[
+\mathrm{P}_{x}\left\{\theta_{t} \Lambda \mid F_{t}\right\}=\mathrm{P}_{x_{t}}\{\Lambda\}
+\]
+
+для $x \in E, t \geqslant 0$ п $\Lambda \in N$. Переходной функцией процесса $X(t)$ считается $P(t, x, B), \quad$ причем, если нет специальных оговорок, дополнительно требуют, чтобы $\boldsymbol{P}(0, x,\{x\}) \equiv 1$. Полезно иметь в виду, что при проверке (4) достаточно рассматривать лишь множества $\Lambda$ вида $\Lambda=\left\{\omega: x_{s} \in B\right\}$, где $s \geqslant 0, B \in \mathscr{B}$, и тто в (4) всегда $F_{t}$ можно заменить $\sigma$-алгеброй $\bar{F}_{t}$, равной пересечению пополнений $F_{t}$ по всевозможным мерам $\mathrm{P}_{x}\{x \in E\}$. Нередко в $\mathscr{B}$ фиксируют вероятностную меру $\mu$ («начальное распределение») и рассматривают марковскую случайную функцию $\left(x_{t}, F_{t}, \mathbf{P}_{\mu}\right)$, где $\mathrm{P}_{\mu}-$ мера на $F_{\infty}$, заданная равенством
+
+\[
+\mathrm{P}_{\mu}\{\cdot\}=\int \mathrm{P}_{x}\{\cdot\} \mu(d x)
+\]
+
+M. п. $\boldsymbol{X}(t)=\left(x_{t}, F_{t}, \mathbf{P}_{x}\right)$ наз. п р о г р е с с и в н о и 3 м е р п мы м, если при каждом $t&gt;0$ функция $x(s, \omega)=x_{s}(\omega)$ индуцирует измеримое отображение $\left([0, t] \times \Omega, \mathscr{B}_{t} \times F_{t}\right)$ в $(E, \mathscr{B})$, где $\mathscr{B}_{t}$ есть б-алгебра борелевских подмножеств в $[0, t]$. Непрерывные справа М. п. прогрессивно измеримы. Существует способ сводить неоднородный случай к однородному (см. [11]), и в дальнейшем речь будет идти об однородных М. П.
+
+Строго марковское свойство. Пусть в измеримом пространстве $(E, \mathscr{B})$ задан $М . \Pi . \quad X(t)=\left(x_{t}, \quad F_{t}, \mathbf{P}_{x}\right)$. Функция $\tau: \Omega \rightarrow[0, \infty]$ наз. марковским моментом, если $\{\omega: \tau \leqslant t\} \in F_{t}$ для всех $t \geqslant 0$. При этом множество $\Lambda \subset \Omega_{\tau}=\{\omega: \tau&lt;\infty\}$ относят к семейству $F_{\tau}$, если $\Lambda \cap\{\omega: \tau&lt;t\} \in F_{t}$ при $t \geqslant 0$ (чаще всего $F_{\tau}$ интерпретируют как совокупность событий, связанных с әволюцией $X(t)$ до момента $\tau)$. Для $\Lambda \in N$ полагают
+
+\[
+\theta_{\tau} \Lambda=\bigcup_{t \geqslant 0}\left[\theta_{t} \Lambda \cap\{\omega: \tau=t\}\right]
+\]
+
+Прогрессивно измеримый М. П. $X$ наз. с т р ого м а р ко в с ким п р ц е с с о м (с. м. П.), если для любого марковского момента $\tau$ и всех $t \geqslant 0, x \in E$ и $\Lambda \in N$ соотношение
+
+\[
+P_{x}\left\{\theta_{\tau} \Lambda \mid F_{\tau}\right\}=P_{x \tau}\{\Lambda\}
+\]
+
+(с т р ого ма р ко в с ко с в о й с т во) выполняется $\mathbf{P}_{x}$-почти наверное на множестве $\Omega_{\tau}$. При проверке (5) достаточно рассматривать лишь множества вида $\Lambda=\left\{\omega: x_{s} \in B\right\}$, где $s \geqslant 0, B \in \mathscr{B}$; в этом случае $\theta_{\tau} \Lambda=\left\{\omega: x_{s+\tau} \in B\right\}$. С. м. п. является, напр., любой непрерывный справа феллеровский М. п. в топологич. пространстве $E$. М. п. наз. фе л л е р о в с к и м ма р ко в с к и п р ц е с с о м, если функция
+
+\[
+\operatorname{Pt}_{f}(\cdot)=\int f(y) P(t, \cdot ; d y)
+\]
+
+непрерывна всякий раз, когда $f$ непрерывна и ограничена.
+
+В классе с. м. п. выделяются те или иные подклассы. Пусть марковская переходная функция $P(t, x, B)$, заданная в метрическом локально компактном пространстве $E$, стохастически непрерывна:
+
+\[
+\lim _{t \downarrow 0} P(t, x, U)=1
+\]
+
+для любой окрестности $U$ каждой точки $x \in E$. Тогда если операторы $\boldsymbol{P}^{t}$ переводят в себя класс непрерывных и обращающихся в 0 в бесконечности функций, то функции $\boldsymbol{P}(t, x, B)$ отвечает с т а н д а $\mathbf{p}$ т ы й М. п. $X$, т. е. непрерывный справа с. м. п., для к-рого 1) $F_{t}=\bar{F}_{t}$ при $t \in[0, \infty)$ и $F_{t}=\bigcap_{s&gt;t} F_{s}$ при $t \in[0, \infty)$ и 2) $\lim _{n \rightarrow \infty} x_{\tau}=x_{\tau} \mathbf{P}_{x^{-п о ч т и ~ н а в е р н о е ~ н а ~ м н о ж е с т в е ~}}\{\omega: \tau&lt;$ $&lt;\infty\}, \quad$ где $\tau=\lim _{n \rightarrow \infty} \tau_{n}, \quad$ а $\tau_{n}(n \geqslant 1)-$ неубывающие с ростом $n$ марковские моменты.
+
+Обрывающийся марковский процесс. Нередко физич. системы целесообразно описывать с помощью необрывающегося М. п., но лишь на временном интервале случайной длины. Кроме того, даже простые преобразования М. п. могут привести к процессу с траекториями, заданными на случайном интервале (см. Функционал от марковского процесса). Руководствуясь этими соображениями, вводят понятие обрывающегося M. I.
+
+Пусть $\tilde{X}(t)=\left(\tilde{x_{t}}, \quad \tilde{F_{t}}, \tilde{\tilde{\mathbf{P}}_{x}}\right)$ - однородный М. П. в фазовом пространстве $(\tilde{E}, \tilde{B})$, имеющий переходную функцию $\tilde{\boldsymbol{P}}(t, x, B)$, п пусть существуют точка $e \in \tilde{E}$ и функция $\zeta: \Omega \rightarrow[0, \infty]$ такие, что $\tilde{x_{t}}(\omega)=e$ при $\zeta(\omega) \leqslant t$ и $\tilde{x}_{t}(\omega) \neq e$ в противном случае (если нет специальных оговорок, считают $\zeta&gt;0)$. Новая траектория $x_{t}(\omega)$ задается лишь для $t \in[0, \zeta(\omega))$ посредством равенства $x_{t}(\omega)=\tilde{x}_{t}(\omega)$, а $F_{t}$ определяется как след $\tilde{F}_{t}$ в множестве $\{\omega: \zeta&gt;t\}$.
+
+Набор $X(t)=\left(x_{t}, \zeta, F_{t}, \tilde{\mathrm{P}}_{x}\right)$, где $x \in E=E \searrow\{e\}$, наз. обрывающимся маяковским процесс о м (о. м. п.), полученным из $\tilde{X}(t)$ с помощью обрыва (или убивания) в момент $\zeta$. Величина $\zeta$ наз. м о м е нт о м о б р в а, или в р е ме нем Жи Фазовым пространством нового процесса служит $(E, \mathscr{B})$, где $\mathscr{B}$ есть след $\sigma$-алгебры $\mathscr{B}$ в $E$. Переходная функция о. м. п.- это сужение $\tilde{\boldsymbol{P}}(t, x, B)$ на множество $t \geqslant 0$, $x \in E, B \in \mathscr{B}$. Процесс $X(t)$ наз. с т р о г о м а р к о вским проце с сом, или с т анд а р т ным м а р ко в с им проц е с с о м, если соответствующим свойством обладает $\tilde{X}(t)$. Необрывающийся M. П. можно рассматривать как о. м. П. с моментом обрыва $\zeta \equiv \infty$. Неоднородный о. м. п. определяется аналогичным образом. $M$. Г. Шyp.
+
+Марковские процессы и дифференциальные уравнения. М. П. типа броуновского движения тесно связаны c дифференциальными уравнениями параболич. типа. Переходная плотность $p(s, x, t, y)$ дифффузионного процесса удовлетворяет при нек-рых дополнительных предположения обратному и прямому дифференциальным уравнениям Колмогорова:
+
+\[
+\begin{gathered}
+\frac{\partial p}{\partial s}+\sum_{k=1}^{n} a_{k}(s, x) \frac{\partial p}{\partial x_{k}}+\frac{1}{2} \sum_{k, j=1}^{n} b_{k j}(s, x) \frac{\partial^{2} p}{\partial x_{k} \partial x_{j}}= \\
+=\frac{\partial p}{\partial s}+L(s, x) p=0 \\
+\frac{\partial p}{\partial t}=-\sum_{k=1}^{n} \frac{\partial}{\partial y_{k}}\left(a_{k}(t, y) p\right)+ \\
++\frac{1}{2} \sum_{k, j=1}^{n} \frac{\partial^{2}}{\partial y_{k} \partial y_{j}}\left(b_{k j}(t, y) p\right)=L^{*}(t, y) p
+\end{gathered}
+\] Функция $p(s, x, t, y)$ есть функция Грина уравнений (6) - (7), и первые известные способы построения диффузионных процессов были основаны на теоремах существования этой функции для диффференциальных уравнений (6) - (7). Для однородного по времени процесса оператор $L(s, x)=L(x)$ на гладких функциях совпадает с характеристич. оператором М. п. (см. Переходных операторов полугруппа).
+
+Математич. ожидания различных функционалов от диффузионных процессов служат решениями соответствующих краевых задач для дифференциального уравнения (1). Пусть $\mathrm{E}_{s, x}(\cdot)-$ математич. ожидание по мере $\mathrm{P}_{s, x}$. Тогда функция $\mathrm{E}_{s, x} \varphi(X(T))=u_{1}(s, x)$ удовлетворяет прі $s&lt;T$ уравнению (6) и условию $u_{1}(T, x)=\varphi(x)$.
+
+Аналогично, функция
+
+\[
+u_{2}(s, x)=\mathrm{E}_{s, x} \int_{s}^{T} f(t, X(t)) d t
+\]
+
+удовлетворяет при $s&lt;T$ уравнению
+
+\[
+\frac{\partial u_{2}}{\partial s}+L(s, x) u_{2}=-f(s, x)
+\]
+
+и условию $u_{2}(T, x)=0$.
+
+Пусть $\tau-$ момент первого достижения границы $\partial D$ области $D \subset \mathbb{R}^{n}$ траекторией процесса $X(t), \quad \tau \wedge T=$ $=\min (\tau, T)$. Тогда при нек-рых условиях функция
+
+\[
+\begin{gathered}
+u_{3}(s, x)=\mathrm{E}_{s, x} \int_{s}^{\tau \wedge T} f(t, X(t)) d t+ \\
++\mathrm{E}_{s, x}(\tau)(\tau \wedge T, X(\tau \wedge T))
+\end{gathered}
+\]
+
+удовлетворяет уравнению
+
+\[
+\frac{\partial u}{\partial s}+L(s, x) u=-f
+\]
+
+и принимает значения $\varphi$ на множестве
+
+\[
+\Gamma=\{s&lt;T, x \in \partial D\} \cup\{s=T, x \in D\} .
+\]
+
+Решение 1-ї краевоӥ задачи для общего линейного параболич. уравнения 2-го порядка
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=117&amp;width=618&amp;top_left_y=1348&amp;top_left_x=217)
+
+при довольно общих предположениях может быть записано в виде
+
+\[
+\begin{gathered}
+u(s, x)=\mathrm{E}_{s, x} \int_{s}^{\tau \wedge T} \exp \left\{\int_{s}^{v} c(t, X(t)) d t\right\} \times \\
+\times f(v, X(v)) d v+\mathrm{E}_{s, x}\left\{\exp \left\{\int_{s}^{\tau \wedge T} c(t, X(t)) d t\right\} \times\right. \\
+\times \varphi(\tau \wedge T, X(\tau \wedge T))\} .
+\end{gathered}
+\]
+
+В случае, когда оператор $L$ и функции $c, f$ не зависят от $s$, аналогичное (9) представление возможно и для решения линейного эллиптич. уравнения. Точнее, функция
+
+\[
+\begin{aligned}
+u(x) &amp; =\mathrm{E}_{x} \int_{0}^{\tau} \exp \left\{\int_{0}^{v} c(X(t)) d t\right\} f(X(v)) d v+ \\
+&amp; +\mathrm{E}_{x}\left\{\exp \left\{\int_{0}^{\tau} c(X(t)) d t\right\} \varphi(X(\tau))\right\}
+\end{aligned}
+\]
+
+при нек-рых предіоложениях есть решение задачи
+
+\[
+L(x) u+c(x) u=-f(x),\left.\quad u\right|_{\partial D}=\varphi .
+\]
+
+В случае, когда оператор $L$ вырождается $(\operatorname{det} b(s, x)=0$ ) или граница $\partial D$ недостаточно &quot;хорошая&quot;, граничные значения могут и не приниматься функциями (9), (10) в отдельных точках или на целых множествах. Понятие регулярной граничной точки для оператора $L$ имеет вероятностную интерпретацию. В регулярных точках границы граничные значения достигаются функциями (9), (10). Решение задач (8), (11) позволяет изучать свойства соответствующих диффузионных процессов и функционалов от них.
+
+Существуют методы построения М. п., не опирающиеся на построение решений уравнений $(6),(7)$, напр. метод стохастических дибберенциальных уравненици, абсолютно непрерывная замена меры и др. Это обстоятельство вместе с формулами (9), (10) позволяет вероятностным путем строить и изучать свойства краевых задач для уравнения (8), а также свойства решений соответствующего эллиптич. уравнения.
+
+Так как решение стохастического дифференциального уравнения нечувствительно к вырождению матрицы $b(s, x)$, то вероятностные методы применялись для построения решений вырождающихся әллиптическігх и параболических дифференциальных уравнений. Распространение принципа усреднения Н. М. Крылова и Н. Н. Боголюбова на стохастические дифференциальные уравнения позволило с помощью (9) получить соответствующие результаты для эллиптических II параболических диффференциальных уравнений. Нек-рые трудные задачи исследования свойств решений уравнений такого типа с малым параметром при старшей производной оказалось возможным решить с помощью вероятностных соображений. Вероятностный смысл имеет и решение 2-й краевой задачи для уравнения (6). Постановка краевых задач для неогрангченной области тесно связана с возвратностью соответствующего дифффузионного процесса.
+
+В случае однородного по времени процесса ( $L$, не завислт от $s$ ) положительное решение уравнения $L * q=0$ с точностью до мультипликатівной постоянной совпадает при нек-рых предположениях со стационарноі́ плотностью распределения М. П. Вероятностные соображения оказываются полезными и при рассмотрении краевых задач для нелинейных параболич. уравнений.
+Р. З. Хасъминский.
+
+Лum.: [1] М а p к о в А. А., &quot;Изв. физ.-мат. об-ва Казан.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=50&amp;width=831&amp;top_left_y=1292&amp;top_left_x=984)
+&quot;Ann. scient. Ecole norm. supér.», 1900, v. 17, p. $21-86 ;[3]$
+K о л м о г о p o в A. H., &quot;Math. Ann.&quot;, 1931, Bd $104, \mathrm{~S} .415]$ 458; рус. пер. &quot;Успехи матем. наук», 1938, в. 5, с. 5-41; [4] ч ж у н $\mathbf{K}$ а й - л а й, Однородные цепи Маркова, пер. с англ., [6] Д ы н и н Е. Б., Ю Iі к е в и ч А. А., &quot;Теория вероятн.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=50&amp;width=826&amp;top_left_y=1434&amp;top_left_x=981)
+Марковские процессы и потенциалы, пер. с англ., М., 1962 ; [8] Д е л л а ш е ри К., Емкости и случайпые процессы, пер. с франц., М., 1975; [9] Д ы н к и н Е. Б., Основания теории марковских процессов, М., 1959; [10] е г о ж е, Марковские Теория случайных процессов, т. 2 , М., $1973 ;$ [12] $\Phi$ р е й дл и н М. И., в кн.: Итоги науки. Теория вероятностей, математическая статистика. - Теоретическая кибернетика. $1966, \mathbf{M}$. 1967 , с. 7-58; [13] Х а с ь м и н с к и й Р. 3., «Теория нероятн.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=42&amp;width=821&amp;top_left_y=1676&amp;top_left_x=989)
+под действием малых случайных возмущений, M., 1979; [15] B l um e n t h a l R. M., G e t o o r R. K., Markov processes Markov processes: Ray processes and right processes, B., 1975 ; [17] К у н ец о в С. F., «Теория вероятн. и ее примен.»,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a41b4eb9aa245ed89faag-1.jpg?height=47&amp;width=814&amp;top_left_y=1832&amp;top_left_x=990)
+марковский процесс, являющийся стационарны.и случайным прочессом. М. с. П., отвечающий однородной марковской переходной функции, существует тогда и только тогда, когда существует стационарное начальное распределение $\mu(A)$, отвечающее этой функции, т. е. $\mu(A)$ удовлетворяет уравнению
+
+\[
+\mu(A)=\int_{X} \mathrm{P}(x, t, A) \mu(d x) .
+\]
+
+Если фазовое пространство процесса $X$ - конечное множество, то стационарное начальное распределение существует всегда, независимо от того, рассматривается процесс с дискретным $(t=0,1,2, \ldots)$ или непрерывным временем. Для процесса с дискретным временем и счетным множеством $X$ условие существования стационарного распределения найдено А. Н. Колмоторовым [1]: для этого необходимо и достаточно, чтобы нашелся такой класс сообщающихся состояний $Y \subset X$, что математич. ожидание времени попадания из $y_{1} \in Y$ в $y_{2} \in Y$ было конечно для любых $y_{i} \in Y$. Этот критерий обобщается на строго марковские процессы с произвольным фазовым пространством $X$ : для существования стационарного процесса достаточно, чтобы существовал компакт $K \subset X$ такой, что математич. ожидание времени достижения $K$ из $x$ конечно для всех $x \in X$. Справедливо следующее достаточное условие существования М. с. П. в терминах Ляпунова стохастических бункций: если существует функция $V(x) \geqslant 0$, для к-рой $L V(x) \leqslant-1$ при $x \notin K$, то М. с. п., отвечающий марковской переходноӥ функции $\mathrm{P}(x, t, A)$, существует.
+
+В случае, когда стационарное начальное распределение $\mu$ единственно, соответствующий стационарный процесс эргодичен. В этом случае среднее по Чезаро переходных вероятностей слабо сходится к $\mu$. При нек-рых дополнительных условиях
+
+\[
+\lim _{t \rightarrow \infty} \mathrm{P}(x, t, A)=\mu(A) \text { (слабо). }
+\]
+
+Стационарное начальное распределение удовлетворяет уравнению Фоккера - Планка - Колмогорова $L^{*} \mu=0$, где $L^{*}$ - оператор, сопряженный к инфинитезимальному оператору процесса. Напр., для диффузионных процессов $L *$ - сопряженный оператор к производящему диффференциальному оператору процесса. В этом случае $\mu$ имеет плотность $p$, относительно лебеговой меры, удовлетворяющую уравнению $L * p=0$. Для одномерного случая әто уравнение решается в квадратурах.
+
+Лит.: [1] К о л м о г о р о в А. Н., Цепи Маркова со счетным числом возможных состояний, М., 1937; [2] Д у б Д ж., я н о в Б. А., «Теория вероятн. и ее примен.&quot;, 1957 , т. 2, в. 1 я н о в Б. А., &quot;Теория вероятн. и ее примен.&quot;, 1957, т. 2, в. 1,
+с. $106-16$.</text_orig>
+</article>

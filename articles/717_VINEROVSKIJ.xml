@@ -1,0 +1,491 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/717_VINEROVSKIJ" alphabetic_pos="717">
+  <title>ВИНЕРОВСКИЙ ПРОЦЁСС</title>
+  <authors/>
+  <pages>
+    <start>350</start>
+    <end>351</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] И т о К., М а к к и н цессы и их траектории, пер. с англ., М., 1968; [2] П р о х о-р о в Ю. В., Р о з а о в Ю. А., Теория вероятностей,![](https://cdn.mathpix.com/cropped/2023_07_08_f7296e4f5efe91037e1fg-1.jpg?height=52&amp;width=827&amp;top_left_y=1992&amp;top_left_x=987)mouvément brownien, 2 éd., P., 1965; [4] П а в л о в B. Ii., Броуновское движение, в кн.: Б̈сэ, 3 изд., т. 4.</literature_orig>
+    <unit>
+      <author>Ито К.</author>
+      <title>М а к к и н цессы и их траектории</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Прохо-ров Ю. В.</author>
+      <author>Розаов Ю. А.</author>
+      <title>Теория вероятностей</title>
+      <publication/>
+      <year>2023</year>
+      <other>2 éd., P., 1965; [4] П а в л о в B. Ii., Броуновское движение, в кн.: Б̈сэ, 3 изд., т. 4.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/717_1_VINEROVSKIJ">\begin{aligned}&amp; X(0)=0, \mathrm{E}(X(t)-X(s))=0, \\&amp; \mathrm{D}[X(t)-X(s)]=t-s, s \leqslant t ;\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_2_VINEROVSKIJ">B(s, t)=\min (s, t) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_3_VINEROVSKIJ">P(t, x, \Gamma)=\int_{\Gamma} p(t, x, y) d y,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_4_VINEROVSKIJ">\frac{\partial p}{\partial t}=\frac{1}{2} \frac{\partial^{2} p}{\partial x^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_5_VINEROVSKIJ">p(t, x, y)=\frac{1}{\sqrt{2 \pi t}} e^{-(y-x)^{2} / 2 t} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_6_VINEROVSKIJ">\boldsymbol{P}(t, x+y, \Gamma)=P(t, x, \Gamma-y),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_7_VINEROVSKIJ">\left\langle X_{1}, X_{2}\right\rangle=\mathrm{E} X_{1} X_{2} \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_8_VINEROVSKIJ">X(t)=\sum_{k=0}^{\infty} z_{k} \varphi_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_9_VINEROVSKIJ">\begin{gathered}E z_{k}=0, \mathrm{D} z_{k}=\frac{1}{\left[\frac{\pi}{2}(2 k+1)\right]^{2}}, \\\varphi_{k}(t)=\sin \left[\frac{\pi}{2}(2 k+1) t\right], k=0,1, \ldots,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_10_VINEROVSKIJ">B \varphi(t)=\int_{0}^{1} B(s, t) \varphi(s) d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_11_VINEROVSKIJ">\lim _{h \rightarrow \infty} \frac{X(h)}{\sqrt{2 h \ln \ln \frac{1}{n}}}=1, X(0)=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_12_VINEROVSKIJ">\lim _{h \rightarrow+0} \sup _{0 \leqslant t \leqslant \delta-h} \frac{|X(t+h)-X(t)|}{\sqrt{2 h \ln \frac{\delta}{h}}}=1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_13_VINEROVSKIJ">\begin{gathered}\lim _{h \rightarrow \infty} \sum_{k=0}^{n-1}|\Delta X(k h)|^{2}=\delta, \\h=\delta / n, \Delta X(t)=X(t+h)-X(t) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_14_VINEROVSKIJ">\lim _{t \rightarrow \infty} \frac{X(t)}{\sqrt{2 t \ln \ln t}}=1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_15_VINEROVSKIJ">\mathrm{P}\left\{\max _{0 \leqslant s \leqslant t} X(s) \geqslant x\right\}=\frac{2}{\sqrt{2 \pi t}} \int_{x}^{\infty} e^{-u^{2} / 2 t} d u,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_16_VINEROVSKIJ">p(s, x)=\frac{1}{\pi \sqrt{s(t-s)}} \frac{x}{s} e^{-x^{2} / 2 s},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_17_VINEROVSKIJ">0 \leqslant s \leqslant t, 0 \leqslant x&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_18_VINEROVSKIJ">P\{\tau \leqslant s\}=\frac{2}{\pi} \arcsin \sqrt{\frac{s}{t}}, 0 \leqslant s \leqslant t,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_19_VINEROVSKIJ">p(s)=\frac{1}{\pi \sqrt{s(t-s)}}, 0 \leqslant s \leqslant t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_20_VINEROVSKIJ">Q(A) \equiv \int Q(d x) P(t, x, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/717_21_VINEROVSKIJ">\frac{T\left(A_{1}\right)}{T\left(A_{2}\right)} \longrightarrow \frac{Q\left(A_{1}\right)}{Q\left(A_{2}\right)} \text { при } T \longrightarrow \infty</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_1_VINEROVSKIJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_2_VINEROVSKIJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_3_VINEROVSKIJ">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_4_VINEROVSKIJ">x(t), 0 \leqslant t \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_5_VINEROVSKIJ">x=x(t), t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_6_VINEROVSKIJ">p(t, x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_7_VINEROVSKIJ">\boldsymbol{p}(t, x, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_8_VINEROVSKIJ">\gamma-y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_9_VINEROVSKIJ">\{z: z+y \in \Gamma\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_10_VINEROVSKIJ">t=k \Delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_11_VINEROVSKIJ">\delta t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_12_VINEROVSKIJ">\delta X(t)(\mathrm{E} \Delta X(t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_13_VINEROVSKIJ">\mathrm{d} \Delta X(t)=\Delta t) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_14_VINEROVSKIJ">\delta t=1 / n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_15_VINEROVSKIJ">x(t)=\sum_{k=0}^{m-1} \Delta X\left(\frac{k}{n}\right)+(n t-m) \Delta X\left(\frac{m}{n}\right), 0 \leqslant t \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_16_VINEROVSKIJ">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_17_VINEROVSKIJ">\delta t=1 / n, m=[n t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_18_VINEROVSKIJ">n t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_19_VINEROVSKIJ">x(t)=n t \Delta X(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_20_VINEROVSKIJ">0 \leqslant t&lt;1 / n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_21_VINEROVSKIJ">\mathrm{p}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_22_VINEROVSKIJ">x=x(t), 0 \leqslant t \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_23_VINEROVSKIJ">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_24_VINEROVSKIJ">x(t), 0 \leqslant t \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_25_VINEROVSKIJ">\mathrm{p}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_26_VINEROVSKIJ">n \rightarrow \infty: \mathrm{P}_{n} \Rightarrow \mathrm{P}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_27_VINEROVSKIJ">l^{2}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_28_VINEROVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_29_VINEROVSKIJ">x^{2}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_30_VINEROVSKIJ">x=x(t), 0 \leqslant t \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_31_VINEROVSKIJ">z_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_32_VINEROVSKIJ">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_33_VINEROVSKIJ">l^{2}[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_34_VINEROVSKIJ">\varphi=\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_35_VINEROVSKIJ">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_36_VINEROVSKIJ">[0, h]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_37_VINEROVSKIJ">x_{1}(t)=t X\left(\frac{1}{t}\right), 0 \leqslant t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_38_VINEROVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_39_VINEROVSKIJ">\max _{0 \leqslant s \leqslant t} X(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_40_VINEROVSKIJ">0 \leqslant x&lt;\infty, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_41_VINEROVSKIJ">0 \leqslant t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_42_VINEROVSKIJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_43_VINEROVSKIJ">x&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_44_VINEROVSKIJ">0 \leqslant t&lt;\infty, \quad x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_45_VINEROVSKIJ">0 \leqslant x&lt;\infty \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_46_VINEROVSKIJ">x \rightarrow-x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_47_VINEROVSKIJ">\tau, 0 \leqslant \tau \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_48_VINEROVSKIJ">\max X(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_49_VINEROVSKIJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_50_VINEROVSKIJ">0 \leqslant s \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_51_VINEROVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_52_VINEROVSKIJ">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_53_VINEROVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_54_VINEROVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_55_VINEROVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_56_VINEROVSKIJ">\tau_{x}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_57_VINEROVSKIJ">\tau_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_58_VINEROVSKIJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_59_VINEROVSKIJ">x^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_60_VINEROVSKIJ">[0, t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_61_VINEROVSKIJ">s=0 \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_62_VINEROVSKIJ">s=t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_63_VINEROVSKIJ">q(d x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_64_VINEROVSKIJ">p(t, x, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_65_VINEROVSKIJ">q(d x)=d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_66_VINEROVSKIJ">t(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_67_VINEROVSKIJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_68_VINEROVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_69_VINEROVSKIJ">a_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_70_VINEROVSKIJ">a_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_71_VINEROVSKIJ">x=x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/717_72_VINEROVSKIJ">t=\left(t_{1}, \ldots, t_{n}\right)</formula>
+  </formulas_aux>
+  <relations n="17">
+    <relation uri="http://libmeta.ru/me/relation/717_1_VINEROVSKIJ">
+      <rel_text>параметра</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_2_VINEROVSKIJ">
+      <rel_text>борелевских множеств</rel_text>
+      <target>http://libmeta.ru/me/article/59_DVUSTORONNEE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_3_VINEROVSKIJ">
+      <rel_text>промежуток</rel_text>
+      <target>http://libmeta.ru/me/article/718_PROMEZhUTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_4_VINEROVSKIJ">
+      <rel_text>множестве</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_5_VINEROVSKIJ">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_6_VINEROVSKIJ">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_7_VINEROVSKIJ">
+      <rel_text>переходной</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_8_VINEROVSKIJ">
+      <rel_text>инвариантная мера</rel_text>
+      <target>http://libmeta.ru/me/article/546_INVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_9_VINEROVSKIJ">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_10_VINEROVSKIJ">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_11_VINEROVSKIJ">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_12_VINEROVSKIJ">
+      <rel_text>вероятное</rel_text>
+      <target>http://libmeta.ru/me/article/675_VEROJaTNOS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_13_VINEROVSKIJ">
+      <rel_text>пересекает</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_14_VINEROVSKIJ">
+      <rel_text>диффференцируемой</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_15_VINEROVSKIJ">
+      <rel_text>формул</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_16_VINEROVSKIJ">
+      <rel_text>вероятности</rel_text>
+      <target>http://libmeta.ru/me/article/675_VEROJaTNOS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/717_17_VINEROVSKIJ">
+      <rel_text>плотностью</rel_text>
+      <target>http://libmeta.ru/me/article/316_PLOTNOST</target>
+    </relation>
+  </relations>
+  <text>однородный 2ауссовский процесс $URI[[http://libmeta.ru/me/formula/aux/717_1_VINEROVSKIJ]]/URI$ с независимыми приращениями. В. п. служит одной из математич. моделей для процесса броуновского движения. Простым преобразованием В. П. может быть превращен в жстандартный» В. П. $URI[[http://libmeta.ru/me/formula/aux/717_2_VINEROVSKIJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/717_3_VINEROVSKIJ]]/URI$, для к-рого
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_1_VINEROVSKIJ]]/URI
+\]
+
+при таких средних значениях и дисперсиях приращений әто единственный непрерывный с вероятностью 1 процесс с независимыми приращениями. Ниже под В. П. будет пониматься именно этот процесс.
+
+В. п. $URI[[http://libmeta.ru/me/formula/aux/717_4_VINEROVSKIJ]]/URI$, определяется также как гауссовский случайный процесс с нулевым математич. ожиданием и корреляционной функцией
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_2_VINEROVSKIJ]]/URI
+\]
+
+В. п. $URI[[http://libmeta.ru/me/formula/aux/717_5_VINEROVSKIJ]]/URI$, может быть определен как однородный марковский процесс с переходной функцией
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_3_VINEROVSKIJ]]/URI
+\]
+
+где п е р е ход ная плотно с т ь $URI[[http://libmeta.ru/me/formula/aux/717_6_VINEROVSKIJ]]/URI$ есть фундаментальное решение параболического дифференциального уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_4_VINEROVSKIJ]]/URI
+\] и описывается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_5_VINEROVSKIJ]]/URI
+\]
+
+Переходная функция $URI[[http://libmeta.ru/me/formula/aux/717_7_VINEROVSKIJ]]/URI$ инвариантна относительно преобразований сдвига в фазовом пространстве:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_6_VINEROVSKIJ]]/URI
+\]
+
+тде $URI[[http://libmeta.ru/me/formula/aux/717_8_VINEROVSKIJ]]/URI$ обозначает множество $URI[[http://libmeta.ru/me/formula/aux/717_9_VINEROVSKIJ]]/URI$.
+
+В. п. является непрерывным аналогом случайного блужәания частицы, к-рая в дискретные моменты времени $URI[[http://libmeta.ru/me/formula/aux/717_10_VINEROVSKIJ]]/URI$ (кратные $URI[[http://libmeta.ru/me/formula/aux/717_11_VINEROVSKIJ]]/URI$ в результате случайного воздействия каждый раз независимо от предшествующих обстоятельств смещается на величину $URI[[http://libmeta.ru/me/formula/aux/717_12_VINEROVSKIJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/717_13_VINEROVSKIJ]]/URI$ точнее, если при $URI[[http://libmeta.ru/me/formula/aux/717_14_VINEROVSKIJ]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/717_15_VINEROVSKIJ]]/URI$,
+
+- случайная траектория движения такой частицы на отрезке $URI[[http://libmeta.ru/me/formula/aux/717_16_VINEROVSKIJ]]/URI$ (здесь $URI[[http://libmeta.ru/me/formula/aux/717_17_VINEROVSKIJ]]/URI$ - целая часть $URI[[http://libmeta.ru/me/formula/aux/717_18_VINEROVSKIJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/717_19_VINEROVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/717_20_VINEROVSKIJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/717_21_VINEROVSKIJ]]/URI$ - соответствующее распределение вероятностей в пространстве непрерывных функций $URI[[http://libmeta.ru/me/formula/aux/717_22_VINEROVSKIJ]]/URI$, то распределение вероятностей $URI[[http://libmeta.ru/me/formula/aux/717_23_VINEROVSKIJ]]/URI$ траектории В. П. $URI[[http://libmeta.ru/me/formula/aux/717_24_VINEROVSKIJ]]/URI$, является предельным (в смысле слабой сходимости) для распределений $URI[[http://libmeta.ru/me/formula/aux/717_25_VINEROVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/717_26_VINEROVSKIJ]]/URI$.
+
+Как функция со значениями в гильбертовом пространстве $URI[[http://libmeta.ru/me/formula/aux/717_27_VINEROVSKIJ]]/URI$ всех случайных величин $URI[[http://libmeta.ru/me/formula/aux/717_28_VINEROVSKIJ]]/URI$, Е $URI[[http://libmeta.ru/me/formula/aux/717_29_VINEROVSKIJ]]/URI$, в к-ром скалярное произведение определено формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_7_VINEROVSKIJ]]/URI
+\]
+
+В. п. $URI[[http://libmeta.ru/me/formula/aux/717_30_VINEROVSKIJ]]/URI$, допускает следующее каноническое представление:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_8_VINEROVSKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/717_31_VINEROVSKIJ]]/URI$ - независимые гауссовские величины:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_9_VINEROVSKIJ]]/URI
+\]
+
+- собственные функции оператора $URI[[http://libmeta.ru/me/formula/aux/717_32_VINEROVSKIJ]]/URI$, определенного формулой:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_10_VINEROVSKIJ]]/URI
+\]
+
+в гильбертовом пространстве $URI[[http://libmeta.ru/me/formula/aux/717_33_VINEROVSKIJ]]/URI$ всех интегрируемых с квадратом (относительно лебеговской меры) функций $URI[[http://libmeta.ru/me/formula/aux/717_34_VINEROVSKIJ]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/717_35_VINEROVSKIJ]]/URI$.
+
+Для почти всех траекторий В. п. имеют место следующие соотношения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_11_VINEROVSKIJ]]/URI
+\]
+
+- закон повторногологарифма;
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_12_VINEROVSKIJ]]/URI
+\]
+
+что характеризует модуль непрерывности на отрезке $URI[[http://libmeta.ru/me/formula/aux/717_36_VINEROVSKIJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_13_VINEROVSKIJ]]/URI
+\]
+
+В применении к В. п. вида $URI[[http://libmeta.ru/me/formula/aux/717_37_VINEROVSKIJ]]/URI$, закон повторного логарифма записывается в форме:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_14_VINEROVSKIJ]]/URI
+\]
+
+Характер смещения броуновской частицы за конечное время $URI[[http://libmeta.ru/me/formula/aux/717_38_VINEROVSKIJ]]/URI$ может быть описан с помощью распределения вероятностей максимума $URI[[http://libmeta.ru/me/formula/aux/717_39_VINEROVSKIJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_15_VINEROVSKIJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/717_40_VINEROVSKIJ]]/URI$ фиксировано, $URI[[http://libmeta.ru/me/formula/aux/717_41_VINEROVSKIJ]]/URI$, а также с помощью распределения времени $URI[[http://libmeta.ru/me/formula/aux/717_42_VINEROVSKIJ]]/URI$ первого достижения броуновской частицей фиксированной точки $URI[[http://libmeta.ru/me/formula/aux/717_43_VINEROVSKIJ]]/URI$ :
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f7296e4f5efe91037e1fg-1.jpg?height=90&amp;width=541&amp;top_left_y=436&amp;top_left_x=1129)
+
+$URI[[http://libmeta.ru/me/formula/aux/717_44_VINEROVSKIJ]]/URI$ фиксировано, $URI[[http://libmeta.ru/me/formula/aux/717_45_VINEROVSKIJ]]/URI$ (закономерности В. п. остаются без изменения при преобразовании фазового пространства $URI[[http://libmeta.ru/me/formula/aux/717_46_VINEROVSKIJ]]/URI$ ). Совместное распределение точкі максимума $URI[[http://libmeta.ru/me/formula/aux/717_47_VINEROVSKIJ]]/URI$, и самого максимума $URI[[http://libmeta.ru/me/formula/aux/717_48_VINEROVSKIJ]]/URI$ имеет плотность вероятности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_16_VINEROVSKIJ]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/717_17_VINEROVSKIJ]]/URI
+\]
+
+а отдельно взятая точка $URI[[http://libmeta.ru/me/formula/aux/717_49_VINEROVSKIJ]]/URI$ (с вероятностью 1 имеется лишь один максимум на отрезке $URI[[http://libmeta.ru/me/formula/aux/717_50_VINEROVSKIJ]]/URI$ ) распределена по арксинуса закону:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_18_VINEROVSKIJ]]/URI
+\]
+
+с URI[[http://libmeta.ru/me/relation/717_17_VINEROVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/717_16_VINEROVSKIJ]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_19_VINEROVSKIJ]]/URI
+\]
+
+Из приведенных выше URI[[http://libmeta.ru/me/relation/717_15_VINEROVSKIJ]]/URI легко выводятся следующие характерные свойства В. П. Броуновская траектория является нигде не URI[[http://libmeta.ru/me/relation/717_14_VINEROVSKIJ]]/URI, причем при выходе из к.-л. точки $URI[[http://libmeta.ru/me/formula/aux/717_51_VINEROVSKIJ]]/URI$ эта траектория за сколь угодно малое время $URI[[http://libmeta.ru/me/formula/aux/717_52_VINEROVSKIJ]]/URI$ с вероятностью 1 бесконечно много раз URI[[http://libmeta.ru/me/relation/717_13_VINEROVSKIJ]]/URI &quot;уровень» $URI[[http://libmeta.ru/me/formula/aux/717_53_VINEROVSKIJ]]/URI$ (возвращаясь в исходную точку); с течением времени $URI[[http://libmeta.ru/me/formula/aux/717_54_VINEROVSKIJ]]/URI$ броуновская траектория обходит все точки $URI[[http://libmeta.ru/me/formula/aux/717_55_VINEROVSKIJ]]/URI$, точнее $URI[[http://libmeta.ru/me/formula/aux/717_56_VINEROVSKIJ]]/URI$, с вероятностью 1 (при этом URI[[http://libmeta.ru/me/relation/717_12_VINEROVSKIJ]]/URI значение $URI[[http://libmeta.ru/me/formula/aux/717_57_VINEROVSKIJ]]/URI$ для больших $URI[[http://libmeta.ru/me/formula/aux/717_58_VINEROVSKIJ]]/URI$ имеет URI[[http://libmeta.ru/me/relation/717_11_VINEROVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/717_59_VINEROVSKIJ]]/URI$ ); рассматриваемая на фиксированном URI[[http://libmeta.ru/me/relation/717_10_VINEROVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/717_60_VINEROVSKIJ]]/URI$, эта траектория имеет тенденцию достигать экстремальных значений вблизи концевых точек $URI[[http://libmeta.ru/me/formula/aux/717_61_VINEROVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/717_62_VINEROVSKIJ]]/URI$.
+
+Для В. п. как марковского однородного URI[[http://libmeta.ru/me/relation/717_9_VINEROVSKIJ]]/URI существует URI[[http://libmeta.ru/me/relation/717_8_VINEROVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/717_63_VINEROVSKIJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_20_VINEROVSKIJ]]/URI
+\]
+
+к-рая в силу упомянутого выше свойства инвариантности URI[[http://libmeta.ru/me/relation/717_7_VINEROVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/717_6_VINEROVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/717_64_VINEROVSKIJ]]/URI$ URI[[http://libmeta.ru/me/relation/717_5_VINEROVSKIJ]]/URI с лебеговской мерой на прямой: $URI[[http://libmeta.ru/me/formula/aux/717_65_VINEROVSKIJ]]/URI$. Время $URI[[http://libmeta.ru/me/formula/aux/717_66_VINEROVSKIJ]]/URI$, проведенное броуновской частицей в URI[[http://libmeta.ru/me/relation/717_4_VINEROVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/717_67_VINEROVSKIJ]]/URI$ за URI[[http://libmeta.ru/me/relation/717_3_VINEROVSKIJ]]/URI от 0 до $URI[[http://libmeta.ru/me/formula/aux/717_68_VINEROVSKIJ]]/URI$, таково, что с вероятностью 1
+
+\[
+URI[[http://libmeta.ru/me/formula/main/717_21_VINEROVSKIJ]]/URI
+\]
+
+для любых ограниченных URI[[http://libmeta.ru/me/relation/717_2_VINEROVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/717_69_VINEROVSKIJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/717_70_VINEROVSKIJ]]/URI$.
+
+Аналогом В. п. $URI[[http://libmeta.ru/me/formula/aux/717_71_VINEROVSKIJ]]/URI$ для векторного URI[[http://libmeta.ru/me/relation/717_1_VINEROVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/717_72_VINEROVSKIJ]]/URI$ являются случайные поля, введенные П. Јеви (p. Lévy, см. [3]).</text>
+  <text_orig>однородныЙ 2ауссовский процесс $X(t)$ с независимыми приращениями. В. п. служит одной из математич. моделей для процесса броуновского движения. Простым преобразованием В. П. может быть превращен в жстандартный» В. П. $X(t)$, $t \geqslant 0$, для к-рого
+
+\[
+\begin{aligned}
+&amp; X(0)=0, \mathrm{E}(X(t)-X(s))=0, \\
+&amp; \mathrm{D}[X(t)-X(s)]=t-s, s \leqslant t ;
+\end{aligned}
+\]
+
+при таких средних значениях и дисперсиях приращений әто единственный непрерывный с вероятностью 1 процесс с независимыми приращениями. Ниже под В. П. будет пониматься именно этот процесс.
+
+В. п. $X(t), 0 \leqslant t \leqslant 1$, определяется также как гауссовский случайный процесс с нулевым математич. ожиданием и корреляционной функцией
+
+\[
+B(s, t)=\min (s, t) .
+\]
+
+В. п. $X=X(t), t \geqslant 0$, может быть определен как однородный марковский процесс с переходной функцией
+
+\[
+P(t, x, \Gamma)=\int_{\Gamma} p(t, x, y) d y,
+\]
+
+где п е р е ход ная плотно с т ь $p(t, x, y)$ есть фундаментальное решение параболического дифференциального уравнения
+
+\[
+\frac{\partial p}{\partial t}=\frac{1}{2} \frac{\partial^{2} p}{\partial x^{2}}
+\] и описывается формулой
+
+\[
+p(t, x, y)=\frac{1}{\sqrt{2 \pi t}} e^{-(y-x)^{2} / 2 t} .
+\]
+
+Переходная функция $\boldsymbol{P}(t, x, \Gamma)$ инвариантна относительно преобразований сдвига в фазовом пространстве:
+
+\[
+\boldsymbol{P}(t, x+y, \Gamma)=P(t, x, \Gamma-y),
+\]
+
+тде $\Gamma-y$ обозначает множество $\{z: z+y \in \Gamma\}$.
+
+В. п. является непрерывным аналогом случайного блужәания частицы, к-рая в дискретные моменты времени $t=k \Delta t$ (кратные $\Delta t)$ в результате случайного воздействия каждый раз независимо от предшествующих обстоятельств смещается на величину $\Delta X(t)(\mathrm{E} \Delta X(t)=0$, $\mathrm{D} \Delta X(t)=\Delta t) ;$ точнее, если при $\Delta t=1 / n$
+
+$X(t)=\sum_{k=0}^{m-1} \Delta X\left(\frac{k}{n}\right)+(n t-m) \Delta X\left(\frac{m}{n}\right), 0 \leqslant t \leqslant 1$,
+
+- случайная траектория движения такой частицы на отрезке $[0,1]$ (здесь $\Delta t=1 / n, m=[n t]$ - целая часть $n t$, $X(t)=n t \Delta X(0)$ при $0 \leqslant t&lt;1 / n)$, а $\mathrm{P}_{n}$ - соответствующее распределение вероятностей в пространстве непрерывных функций $x=x(t), 0 \leqslant t \leqslant 1$, то распределение вероятностей $\mathrm{P}$ траектории В. П. $X(t), 0 \leqslant t \leqslant 1$, является предельным (в смысле слабой сходимости) для распределений $\mathrm{P}_{n}$ при $n \rightarrow \infty: \mathrm{P}_{n} \Rightarrow \mathrm{P}$.
+
+Как функция со значениями в гильбертовом пространстве $L^{2}(\Omega)$ всех случайных величин $X$, Е $X^{2}&lt;\infty$, в к-ром скалярное произведение определено формулой
+
+\[
+\left\langle X_{1}, X_{2}\right\rangle=\mathrm{E} X_{1} X_{2} \text {, }
+\]
+
+В. п. $X=X(t), 0 \leqslant t \leqslant 1$, допускает следующее каноническое представление:
+
+\[
+X(t)=\sum_{k=0}^{\infty} z_{k} \varphi_{k}(t)
+\]
+
+где $z_{k}$ - независимые гауссовские величины:
+
+\[
+\begin{gathered}
+E z_{k}=0, \mathrm{D} z_{k}=\frac{1}{\left[\frac{\pi}{2}(2 k+1)\right]^{2}}, \\
+\varphi_{k}(t)=\sin \left[\frac{\pi}{2}(2 k+1) t\right], k=0,1, \ldots,
+\end{gathered}
+\]
+
+- собственные функции оператора $B$, определенного формулой:
+
+\[
+B \varphi(t)=\int_{0}^{1} B(s, t) \varphi(s) d s
+\]
+
+в гильбертовом пространстве $L^{2}[0,1]$ всех интегрируемых с квадратом (относительно лебеговской меры) функций $\varphi=\varphi(t)$ на отрезке $[0,1]$.
+
+Для почти всех траекторий В. п. имеют место следующие соотношения:
+
+\[
+\lim _{h \rightarrow \infty} \frac{X(h)}{\sqrt{2 h \ln \ln \frac{1}{n}}}=1, X(0)=0,
+\]
+
+- закон повторногологарифма;
+
+\[
+\lim _{h \rightarrow+0} \sup _{0 \leqslant t \leqslant \delta-h} \frac{|X(t+h)-X(t)|}{\sqrt{2 h \ln \frac{\delta}{h}}}=1,
+\]
+
+что характеризует модуль непрерывности на отрезке $[0, h]$
+
+\[
+\begin{gathered}
+\lim _{h \rightarrow \infty} \sum_{k=0}^{n-1}|\Delta X(k h)|^{2}=\delta, \\
+h=\delta / n, \Delta X(t)=X(t+h)-X(t) .
+\end{gathered}
+\]
+
+В применении к В. п. вида $X_{1}(t)=t X\left(\frac{1}{t}\right), 0 \leqslant t&lt;\infty$, закон повторного логарифма записывается в форме:
+
+\[
+\lim _{t \rightarrow \infty} \frac{X(t)}{\sqrt{2 t \ln \ln t}}=1 .
+\]
+
+Характер смещения броуновской частицы за конечное время $t$ может быть описан с помощью распределения вероятностей максимума $\max _{0 \leqslant s \leqslant t} X(s)$ :
+
+\[
+\mathrm{P}\left\{\max _{0 \leqslant s \leqslant t} X(s) \geqslant x\right\}=\frac{2}{\sqrt{2 \pi t}} \int_{x}^{\infty} e^{-u^{2} / 2 t} d u,
+\]
+
+$0 \leqslant x&lt;\infty, t$ фиксировано, $0 \leqslant t&lt;\infty$, а также с помощью распределения времени $\tau$ первого достижения броуновской частицей фиксированной точки $x&gt;0$ :
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f7296e4f5efe91037e1fg-1.jpg?height=90&amp;width=541&amp;top_left_y=436&amp;top_left_x=1129)
+
+$0 \leqslant t&lt;\infty, \quad x$ фиксировано, $0 \leqslant x&lt;\infty \quad$ (закономерности В. п. остаются без изменения при преобразовании фазового пространства $x \rightarrow-x$ ). Совместное распределение точкі максимума $\tau, 0 \leqslant \tau \leqslant t$, и самого максимума $\max X(s)$ имеет плотность вероятности
+
+\[
+p(s, x)=\frac{1}{\pi \sqrt{s(t-s)}} \frac{x}{s} e^{-x^{2} / 2 s},
+\]\[
+0 \leqslant s \leqslant t, 0 \leqslant x&lt;\infty,
+\]
+
+а отдельно взятая точка $\tau$ (с вероятностью 1 имеется лишь один максимум на отрезке $0 \leqslant s \leqslant t$ ) распределена по арксинуса закону:
+
+\[
+P\{\tau \leqslant s\}=\frac{2}{\pi} \arcsin \sqrt{\frac{s}{t}}, 0 \leqslant s \leqslant t,
+\]
+
+с плотностью вероятности
+
+\[
+p(s)=\frac{1}{\pi \sqrt{s(t-s)}}, 0 \leqslant s \leqslant t .
+\]
+
+Из приведенных выше формул легко выводятся следующие характерные свойства В. П. Броуновская траектория является нигде не диффференцируемой, причем при выходе из к.-л. точки $x$ эта траектория за сколь угодно малое время $\delta$ с вероятностью 1 бесконечно много раз пересекает &quot;уровень» $x$ (возвращаясь в исходную точку); с течением времени $t$ броуновская траектория обходит все точки $x$, точнее $\tau_{x}&lt;\infty$, с вероятностью 1 (при этом вероятное значение $\tau_{x}$ для больших $x$ имеет порядок $x^{2}$ ); рассматриваемая на фиксированном отрезке $[0, t]$, эта траектория имеет тенденцию достигать экстремальных значений вблизи концевых точек $s=0 \quad$ и $s=t$.
+
+Для В. п. как марковского однородного процесса существует инвариантная мера $Q(d x)$ :
+
+\[
+Q(A) \equiv \int Q(d x) P(t, x, A)
+\]
+
+к-рая в силу упомянутого выше свойства инвариантности переходной функции $P(t, x, A)$ совпадает с лебеговской мерой на прямой: $Q(d x)=d x$. Время $T(A)$, проведенное броуновской частицей в множестве $A$ за промежуток от 0 до $T$, таково, что с вероятностью 1
+
+\[
+\frac{T\left(A_{1}\right)}{T\left(A_{2}\right)} \longrightarrow \frac{Q\left(A_{1}\right)}{Q\left(A_{2}\right)} \text { при } T \longrightarrow \infty
+\]
+
+для любых ограниченных борелевских множеств $A_{1}$ и $A_{2}$.
+
+Аналогом В. п. $X=X(t)$ для векторного параметра $t=\left(t_{1}, \ldots, t_{n}\right)$ являются случайные поля, введенные П. Јеви (P. Lévy, см. [3]).
+
+Лит.: [1] И т о К., М а к к и н цессы и их траектории, пер. с англ., М., 1968; [2] П р о х о-
+р о в Ю. В., Р о з а о в Ю. А., Теория вероятностей,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f7296e4f5efe91037e1fg-1.jpg?height=52&amp;width=827&amp;top_left_y=1992&amp;top_left_x=987)
+mouvément brownien, 2 éd., P., 1965; [4] П а в л о в B. II., Броуновское движение, в кн.: Б̈СЭ, 3 изд., т. 4.</text_orig>
+</article>

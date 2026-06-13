@@ -1,0 +1,344 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1332_SIMPLEKSNYJ" alphabetic_pos="1332">
+  <title>СИМПЛЕКСНЫЙ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>577</start>
+    <end>578</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ю д и н Д. Б., Г о л ьш т е й н Е. Г., Линейное программирование, М., 1963; [2] Д а н ц и г Ii ж., Линейное программирование, его применения и обобщения, пер. сангл., М., $1966 ;$ [3] А ш м а н в С. А., Јинейное програмангл., М., $1966 ;[3]$ А ш м а н о в С. А., Линейное програм-мирование,М., 1981.</literature_orig>
+    <unit>
+      <author>Юдин Д. Б.</author>
+      <author>Гольштейн Е. Г.</author>
+      <title>Линейное программирование</title>
+      <publication>М.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Д а н ц и г Ii ж., Линейное программирование, его применения и обобщения</title>
+      <publication>пер. сангл., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ашманв С. А.</author>
+      <title>Јинейное програмангл.</title>
+      <publication>М.</publication>
+      <year>1966</year>
+      <other>Линейное програм-мирование, М., 1981.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1332_1_SIMPLEKSNYJ">A_{j}=\sum_{i=1}^{m} x_{i j} A_{s_{i}}, \quad j=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1332_2_SIMPLEKSNYJ">\Delta_{j}=\sum_{i=1}^{m} c_{s_{i}} x_{i j}-c_{j}, j=1, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1332_3_SIMPLEKSNYJ">x^{k}=\left(x_{1}^{k}, \ldots, x_{n}^{k}\right), x_{s_{i}}^{k}=-x_{i k}, i=1, \ldots, m, x_{k}^{k}=1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1332_4_SIMPLEKSNYJ">\theta=\min _{i: x_{i k}&gt;0} \frac{x_{i 0}}{x_{i k}}=\frac{x_{r 0}}{x_{r k}} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_1_SIMPLEKSNYJ">\sum_{j=1}^{n} c_{i} x_{j} \longrightarrow \max ; \sum_{j=1}^{n} A_{j} x_{j}=A_{0} ; x_{j} \geqslant 0, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_2_SIMPLEKSNYJ">a_{j}=\left(a_{1 j}, \ldots, a_{m j}\right)^{\top}, j=0, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_3_SIMPLEKSNYJ">x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_4_SIMPLEKSNYJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_5_SIMPLEKSNYJ">a_{s_{1}}, \ldots, A_{s_{m}}\left(s_{\alpha} \geqslant 1, \alpha=1\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_6_SIMPLEKSNYJ">\ldots, m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_7_SIMPLEKSNYJ">x_{j}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_8_SIMPLEKSNYJ">j \notin\left\{s_{1}, \ldots, s_{m}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_9_SIMPLEKSNYJ">a_{x}=\left(a_{s_{1}}, \ldots, A_{s_{m}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_10_SIMPLEKSNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_11_SIMPLEKSNYJ">x_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_12_SIMPLEKSNYJ">x_{i 0}=x_{s_{i}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_13_SIMPLEKSNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_14_SIMPLEKSNYJ">\delta_{j} \geqslant 0, \forall j(1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_15_SIMPLEKSNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_16_SIMPLEKSNYJ">\delta_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_17_SIMPLEKSNYJ">x_{i k}, i=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_18_SIMPLEKSNYJ">x_{i k}(3)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_19_SIMPLEKSNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_20_SIMPLEKSNYJ">x^{\prime}=x+\theta x^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_21_SIMPLEKSNYJ">x^{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_22_SIMPLEKSNYJ">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_23_SIMPLEKSNYJ">a_{x^{\prime}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_24_SIMPLEKSNYJ">a_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_25_SIMPLEKSNYJ">a_{s_{r}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_26_SIMPLEKSNYJ">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_27_SIMPLEKSNYJ">x_{i j}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_28_SIMPLEKSNYJ">\delta_{j}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_29_SIMPLEKSNYJ">a_{x^{\prime}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_30_SIMPLEKSNYJ">x_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_31_SIMPLEKSNYJ">\delta_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_32_SIMPLEKSNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_33_SIMPLEKSNYJ">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_34_SIMPLEKSNYJ">a_{x}^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_35_SIMPLEKSNYJ">a_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_36_SIMPLEKSNYJ">6 \mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_37_SIMPLEKSNYJ">a=\left(a_{1} A_{2} \ldots A_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_38_SIMPLEKSNYJ">a_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_39_SIMPLEKSNYJ">m n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_40_SIMPLEKSNYJ">a_{x}^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_41_SIMPLEKSNYJ">a_{\boldsymbol{x}}^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_42_SIMPLEKSNYJ">a_{\boldsymbol{x}}^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_43_SIMPLEKSNYJ">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_44_SIMPLEKSNYJ">a_{x}^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_45_SIMPLEKSNYJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1332_46_SIMPLEKSNYJ">n</formula>
+  </formulas_aux>
+  <relations n="44">
+    <relation uri="http://libmeta.ru/me/relation/1332_1_SIMPLEKSNYJ">
+      <rel_text>сравнения</rel_text>
+      <target>http://libmeta.ru/me/article/156_SRAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_2_SIMPLEKSNYJ">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_3_SIMPLEKSNYJ">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_4_SIMPLEKSNYJ">
+      <rel_text>транспортного</rel_text>
+      <target>http://libmeta.ru/me/article/457_TRANZITIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_5_SIMPLEKSNYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_6_SIMPLEKSNYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_7_SIMPLEKSNYJ">
+      <rel_text>варианты</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_8_SIMPLEKSNYJ">
+      <rel_text>многочисленные</rel_text>
+      <target>http://libmeta.ru/me/article/725_MNOGOUGOL'NI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_9_SIMPLEKSNYJ">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_10_SIMPLEKSNYJ">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_11_SIMPLEKSNYJ">
+      <rel_text>матрицей</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_12_SIMPLEKSNYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_13_SIMPLEKSNYJ">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_14_SIMPLEKSNYJ">
+      <rel_text>программные</rel_text>
+      <target>http://libmeta.ru/me/article/675_PROGRESSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_15_SIMPLEKSNYJ">
+      <rel_text>информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_16_SIMPLEKSNYJ">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_17_SIMPLEKSNYJ">
+      <rel_text>выбора</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_18_SIMPLEKSNYJ">
+      <rel_text>стратегия</rel_text>
+      <target>http://libmeta.ru/me/article/261_STRATEGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_19_SIMPLEKSNYJ">
+      <rel_text>алгоритма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_20_SIMPLEKSNYJ">
+      <rel_text>представление</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_21_SIMPLEKSNYJ">
+      <rel_text>результате</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_22_SIMPLEKSNYJ">
+      <rel_text>мультипликаторов</rel_text>
+      <target>http://libmeta.ru/me/article/817_MUL'TIPLIKATOR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_23_SIMPLEKSNYJ">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_24_SIMPLEKSNYJ">
+      <rel_text>мультипликаторов</rel_text>
+      <target>http://libmeta.ru/me/article/817_MUL'TIPLIKATOR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_25_SIMPLEKSNYJ">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_26_SIMPLEKSNYJ">
+      <rel_text>мультипликаторов</rel_text>
+      <target>http://libmeta.ru/me/article/817_MUL'TIPLIKATOR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_27_SIMPLEKSNYJ">
+      <rel_text>множителей</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_28_SIMPLEKSNYJ">
+      <rel_text>матричных</rel_text>
+      <target>http://libmeta.ru/me/article/601_MATRITsAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_29_SIMPLEKSNYJ">
+      <rel_text>произведения</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_30_SIMPLEKSNYJ">
+      <rel_text>представлении</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_31_SIMPLEKSNYJ">
+      <rel_text>информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_32_SIMPLEKSNYJ">
+      <rel_text>компактном</rel_text>
+      <target>http://libmeta.ru/me/article/1022_KOMPOZitsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_33_SIMPLEKSNYJ">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_34_SIMPLEKSNYJ">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_35_SIMPLEKSNYJ">
+      <rel_text>сравнению</rel_text>
+      <target>http://libmeta.ru/me/article/156_SRAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_36_SIMPLEKSNYJ">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_37_SIMPLEKSNYJ">
+      <rel_text>матрица</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_38_SIMPLEKSNYJ">
+      <rel_text>предназначена</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_39_SIMPLEKSNYJ">
+      <rel_text>обратная матрица</rel_text>
+      <target>http://libmeta.ru/me/article/1132_OBRATNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_40_SIMPLEKSNYJ">
+      <rel_text>итерации</rel_text>
+      <target>http://libmeta.ru/me/article/689_ITERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_41_SIMPLEKSNYJ">
+      <rel_text>информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_42_SIMPLEKSNYJ">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_43_SIMPLEKSNYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1332_44_SIMPLEKSNYJ">
+      <rel_text>Программная</rel_text>
+      <target>http://libmeta.ru/me/article/675_PROGRESSI</target>
+    </relation>
+  </relations>
+  <text>с и м п л е к с - м е т о д, ме тод послед о в т е льного ул уч шен и я п л а н а,- метод решения общей задачи линейного программирования:
+
+$URI[[http://libmeta.ru/me/formula/aux/1332_1_SIMPLEKSNYJ]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/1332_2_SIMPLEKSNYJ]]/URI$.
+
+С. м.- наиболее распространенный метод линейного программирования (л. п.). Он состоит в движении по соседним вершинам многогранного множества задачи л. п., определяемого ее ограничениями, и реализуется в виде конечной последовательности итераций. Б а 3 и с ом в е р ши и ы $URI[[http://libmeta.ru/me/formula/aux/1332_3_SIMPLEKSNYJ]]/URI$ многогранного множества задачи наз. такая система $URI[[http://libmeta.ru/me/formula/aux/1332_4_SIMPLEKSNYJ]]/URI$ линейно независимых векторов $URI[[http://libmeta.ru/me/formula/aux/1332_5_SIMPLEKSNYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1332_6_SIMPLEKSNYJ]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/1332_7_SIMPLEKSNYJ]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/1332_8_SIMPLEKSNYJ]]/URI$. Исходная информация для каждой итерации С. м. складывается из базиса $URI[[http://libmeta.ru/me/formula/aux/1332_9_SIMPLEKSNYJ]]/URI$ вершины $URI[[http://libmeta.ru/me/formula/aux/1332_10_SIMPLEKSNYJ]]/URI$, параметров $URI[[http://libmeta.ru/me/formula/aux/1332_11_SIMPLEKSNYJ]]/URI$, определяемых из соотношений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1332_1_SIMPLEKSNYJ]]/URI
+\] (в частности, $URI[[http://libmeta.ru/me/formula/aux/1332_12_SIMPLEKSNYJ]]/URI$ - базисные компоненты вершины $URI[[http://libmeta.ru/me/formula/aux/1332_13_SIMPLEKSNYJ]]/URI$ ), и параметров
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1332_2_SIMPLEKSNYJ]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/1332_14_SIMPLEKSNYJ]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1332_15_SIMPLEKSNYJ]]/URI$ - искомое решение задачи л. п. В противном случае выбирается отрицательный иараметр $URI[[http://libmeta.ru/me/formula/aux/1332_16_SIMPLEKSNYJ]]/URI$. Отсутствие среди $URI[[http://libmeta.ru/me/formula/aux/1332_17_SIMPLEKSNYJ]]/URI$, положительных величин (2) указывает на неразрешимость задачи л. П., обусловленную неограниченностью целевой функции задачи на ее многогранном множестве. В случае положительности нек-рых $URI[[http://libmeta.ru/me/formula/aux/1332_18_SIMPLEKSNYJ]]/URI$ вершина $URI[[http://libmeta.ru/me/formula/aux/1332_19_SIMPLEKSNYJ]]/URI$ заменяется вершиной $URI[[http://libmeta.ru/me/formula/aux/1332_20_SIMPLEKSNYJ]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1332_3_SIMPLEKSNYJ]]/URI
+\]
+
+остальные компоненты $URI[[http://libmeta.ru/me/formula/aux/1332_21_SIMPLEKSNYJ]]/URI$ нули,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1332_4_SIMPLEKSNYJ]]/URI
+\]
+
+Вершина $URI[[http://libmeta.ru/me/formula/aux/1332_22_SIMPLEKSNYJ]]/URI$ имеет базис $URI[[http://libmeta.ru/me/formula/aux/1332_23_SIMPLEKSNYJ]]/URI$, отличающийся от $URI[[http://libmeta.ru/me/formula/aux/1332_24_SIMPLEKSNYJ]]/URI$ тем, что $URI[[http://libmeta.ru/me/formula/aux/1332_25_SIMPLEKSNYJ]]/URI$ заменен на $URI[[http://libmeta.ru/me/formula/aux/1332_26_SIMPLEKSNYJ]]/URI$. Параметры $URI[[http://libmeta.ru/me/formula/aux/1332_27_SIMPLEKSNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1332_28_SIMPLEKSNYJ]]/URI$, связанные с $URI[[http://libmeta.ru/me/formula/aux/1332_29_SIMPLEKSNYJ]]/URI$, определяются по простым рекуррентным формулам, исходя из $URI[[http://libmeta.ru/me/formula/aux/1332_30_SIMPLEKSNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1332_31_SIMPLEKSNYJ]]/URI$.
+
+Случай (1) означает, что вдоль каждого ребра многогранного множества задачи, выходящего из вершины $URI[[http://libmeta.ru/me/formula/aux/1332_32_SIMPLEKSNYJ]]/URI$, целевая функция задачи не возрастает. Случаи (2) и (3) соответствуют наличию ребра, вдоль к-рого целевая функция возрастает, причем в случае (2) это ребро - луч, а в случае (3) - отрезок, другой конец к-рого - вершина $URI[[http://libmeta.ru/me/formula/aux/1332_33_SIMPLEKSNYJ]]/URI$. Итерации проводятся до получения оптимальной вершины либо до выяснения неразрешимости задачи л. п.
+
+URI[[http://libmeta.ru/me/relation/1332_44_SIMPLEKSNYJ]]/URI реализация С.м., рассчитанная на URI[[http://libmeta.ru/me/relation/1332_43_SIMPLEKSNYJ]]/URI достаточно большого размера, обычно основывается на иной его URI[[http://libmeta.ru/me/relation/1332_42_SIMPLEKSNYJ]]/URI. реализации, в к-рой основой исходной URI[[http://libmeta.ru/me/relation/1332_41_SIMPLEKSNYJ]]/URI для каждой URI[[http://libmeta.ru/me/relation/1332_40_SIMPLEKSNYJ]]/URI служит URI[[http://libmeta.ru/me/relation/1332_39_SIMPLEKSNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/1332_34_SIMPLEKSNYJ]]/URI$ базиса $URI[[http://libmeta.ru/me/formula/aux/1332_35_SIMPLEKSNYJ]]/URI$ (м е т о д о $URI[[http://libmeta.ru/me/formula/aux/1332_36_SIMPLEKSNYJ]]/URI$ а тн о й м а т р и цы). Она URI[[http://libmeta.ru/me/relation/1332_38_SIMPLEKSNYJ]]/URI для задач л. п., URI[[http://libmeta.ru/me/relation/1332_37_SIMPLEKSNYJ]]/URI условий $URI[[http://libmeta.ru/me/formula/aux/1332_37_SIMPLEKSNYJ]]/URI$ к-рых обладает с в о й с т в о м с ла б о й 3 а полне нн ос т и (URI[[http://libmeta.ru/me/relation/1332_36_SIMPLEKSNYJ]]/URI ненулевых $URI[[http://libmeta.ru/me/formula/aux/1332_38_SIMPLEKSNYJ]]/URI$ мало по URI[[http://libmeta.ru/me/relation/1332_35_SIMPLEKSNYJ]]/URI с $URI[[http://libmeta.ru/me/formula/aux/1332_39_SIMPLEKSNYJ]]/URI$ ). Слабо заполненные URI[[http://libmeta.ru/me/relation/1332_34_SIMPLEKSNYJ]]/URI хранятся в запоминающих устройствах URI[[http://libmeta.ru/me/relation/1332_33_SIMPLEKSNYJ]]/URI в URI[[http://libmeta.ru/me/relation/1332_32_SIMPLEKSNYJ]]/URI виде, когда фиксированы лишь ненулевые элементы и их позиции. Разработаны специальные приемы хранения обратного базиса, направленные на сокращение URI[[http://libmeta.ru/me/relation/1332_31_SIMPLEKSNYJ]]/URI, необходимой для восстановления $URI[[http://libmeta.ru/me/formula/aux/1332_40_SIMPLEKSNYJ]]/URI$. Они основаны на URI[[http://libmeta.ru/me/relation/1332_30_SIMPLEKSNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/1332_41_SIMPLEKSNYJ]]/URI$ в виде URI[[http://libmeta.ru/me/relation/1332_29_SIMPLEKSNYJ]]/URI URI[[http://libmeta.ru/me/relation/1332_28_SIMPLEKSNYJ]]/URI URI[[http://libmeta.ru/me/relation/1332_27_SIMPLEKSNYJ]]/URI (URI[[http://libmeta.ru/me/relation/1332_26_SIMPLEKSNYJ]]/URI), отличающихся от единичной URI[[http://libmeta.ru/me/relation/1332_25_SIMPLEKSNYJ]]/URI лишь одним столбцом. Заполненность нетривиальных столбцов URI[[http://libmeta.ru/me/relation/1332_24_SIMPLEKSNYJ]]/URI зависит от URI[[http://libmeta.ru/me/relation/1332_23_SIMPLEKSNYJ]]/URI введения векторов в базис. Поэтому после накопления нек-рого числа URI[[http://libmeta.ru/me/relation/1332_22_SIMPLEKSNYJ]]/URI организуется т. н. повторение, в URI[[http://libmeta.ru/me/relation/1332_21_SIMPLEKSNYJ]]/URI к-рого образуется более экономное мультипликативное URI[[http://libmeta.ru/me/relation/1332_20_SIMPLEKSNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/1332_42_SIMPLEKSNYJ]]/URI$.
+
+Важная часть URI[[http://libmeta.ru/me/relation/1332_19_SIMPLEKSNYJ]]/URI С. м.- URI[[http://libmeta.ru/me/relation/1332_18_SIMPLEKSNYJ]]/URI URI[[http://libmeta.ru/me/relation/1332_17_SIMPLEKSNYJ]]/URI URI[[http://libmeta.ru/me/relation/1332_16_SIMPLEKSNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/1332_43_SIMPLEKSNYJ]]/URI$ для включения в базис. С одной стороны, она должна способствовать сокращению URI[[http://libmeta.ru/me/relation/1332_15_SIMPLEKSNYJ]]/URI, необходимой для хранения $URI[[http://libmeta.ru/me/formula/aux/1332_44_SIMPLEKSNYJ]]/URI$; с другой стороны препятствовать попаданию в плохо обусловленный базис.
+
+Существуют URI[[http://libmeta.ru/me/relation/1332_14_SIMPLEKSNYJ]]/URI реализации С. м., позволяющие решать на URI[[http://libmeta.ru/me/relation/1332_13_SIMPLEKSNYJ]]/URI URI[[http://libmeta.ru/me/relation/1332_12_SIMPLEKSNYJ]]/URI л. п. с мало заполненной URI[[http://libmeta.ru/me/relation/1332_11_SIMPLEKSNYJ]]/URI условий при $URI[[http://libmeta.ru/me/formula/aux/1332_45_SIMPLEKSNYJ]]/URI$ URI[[http://libmeta.ru/me/relation/1332_10_SIMPLEKSNYJ]]/URI тысяч и $URI[[http://libmeta.ru/me/formula/aux/1332_46_SIMPLEKSNYJ]]/URI$ URI[[http://libmeta.ru/me/relation/1332_9_SIMPLEKSNYJ]]/URI десятков тысяч. Разработаны URI[[http://libmeta.ru/me/relation/1332_8_SIMPLEKSNYJ]]/URI URI[[http://libmeta.ru/me/relation/1332_7_SIMPLEKSNYJ]]/URI С. м., учитывающие особенности различных специальных классов задач л. п. (блочные URI[[http://libmeta.ru/me/relation/1332_6_SIMPLEKSNYJ]]/URI, URI[[http://libmeta.ru/me/relation/1332_5_SIMPLEKSNYJ]]/URI URI[[http://libmeta.ru/me/relation/1332_4_SIMPLEKSNYJ]]/URI типа и др.). Несмотря на то, что С. м. теоретически не достаточно әффективен (он имеет экспоненциальную оценку трудоемкости на всем классе задач л. п., хотя URI[[http://libmeta.ru/me/relation/1332_3_SIMPLEKSNYJ]]/URI. URI[[http://libmeta.ru/me/relation/1332_2_SIMPLEKSNYJ]]/URI этого класса всего лишь полиномиальна), опыт его применения и URI[[http://libmeta.ru/me/relation/1332_1_SIMPLEKSNYJ]]/URI с другими методами позволяет сделать вывод, что для него пока (1983) нет серьезного конкурента.</text>
+  <text_orig>с и м п л е к с - м е т о д, ме тод послед о в т е льного ул уч шен и я п л а н а,- метод решения общей задачи линейного программирования:
+
+$\sum_{j=1}^{n} c_{i} x_{j} \longrightarrow \max ; \sum_{j=1}^{n} A_{j} x_{j}=A_{0} ; x_{j} \geqslant 0, j=1, \ldots, n$,
+
+где $A_{j}=\left(a_{1 j}, \ldots, a_{m j}\right)^{\top}, j=0, \ldots, n$.
+
+С. м.- наиболее распространенный метод линейного программирования (л. п.). Он состоит в движении по соседним вершинам многогранного множества задачи л. п., определяемого ее ограничениями, и реализуется в виде конечной последовательности итераций. Б а 3 и с ом в е р ши и ы $x=\left(x_{1}, \ldots, x_{n}\right)$ многогранного множества задачи наз. такая система $m$ линейно независимых векторов $A_{s_{1}}, \ldots, A_{s_{m}}\left(s_{\alpha} \geqslant 1, \alpha=1\right.$, $\ldots, m)$, что $x_{j}=0$, если $j \notin\left\{s_{1}, \ldots, s_{m}\right\}$. Исходная информация для каждой итерации С. м. складывается из базиса $A_{x}=\left(A_{s_{1}}, \ldots, A_{s_{m}}\right)$ вершины $x$, параметров $x_{i j}$, определяемых из соотношений
+
+\[
+A_{j}=\sum_{i=1}^{m} x_{i j} A_{s_{i}}, \quad j=0,1, \ldots, n
+\] (в частности, $x_{i 0}=x_{s_{i}}$ - базисные компоненты вершины $x$ ), и параметров
+
+\[
+\Delta_{j}=\sum_{i=1}^{m} c_{s_{i}} x_{i j}-c_{j}, j=1, \ldots, n .
+\]
+
+Если $\Delta_{j} \geqslant 0, \forall j(1)$, то $x$ - искомое решение задачи л. п. В противном случае выбирается отрицательный иараметр $\Delta_{k}$. Отсутствие среди $x_{i k}, i=1, \ldots, m$, положительных величин (2) указывает на неразрешимость задачи л. П., обусловленную неограниченностью целевой функции задачи на ее многогранном множестве. В случае положительности нек-рых $x_{i k}(3)$ вершина $x$ заменяется вершиной $x^{\prime}=x+\theta x^{k}$, где
+
+\[
+x^{k}=\left(x_{1}^{k}, \ldots, x_{n}^{k}\right), x_{s_{i}}^{k}=-x_{i k}, i=1, \ldots, m, x_{k}^{k}=1,
+\]
+
+остальные компоненты $x^{k}-$ нули,
+
+\[
+\theta=\min _{i: x_{i k}&gt;0} \frac{x_{i 0}}{x_{i k}}=\frac{x_{r 0}}{x_{r k}} .
+\]
+
+Вершина $x^{\prime}$ имеет базис $A_{x^{\prime}}$, отличающийся от $A_{x}$ тем, что $A_{s_{r}}$ заменен на $A_{k}$. Параметры $x_{i j}^{\prime}$ и $\Delta_{j}^{\prime}$, связанные с $A_{x^{\prime}}$, определяются по простым рекуррентным формулам, исходя из $x_{i j}$ и $\Delta_{j}$.
+
+Случай (1) означает, что вдоль каждого ребра многогранного множества задачи, выходящего из вершины $x$, целевая функция задачи не возрастает. Случаи (2) и (3) соответствуют наличию ребра, вдоль к-рого целевая функция возрастает, причем в случае (2) это ребро - луч, а в случае (3) - отрезок, другой конец к-рого - вершина $x^{\prime}$. Итерации проводятся до получения оптимальной вершины либо до выяснения неразрешимости задачи л. п.
+
+Программная реализация С.м., рассчитанная на задачи достаточно большого размера, обычно основывается на иной его алгоритмич. реализации, в к-рой основой исходной информации для каждой итерации служит обратная матрица $A_{x}^{-1}$ базиса $A_{x}$ (м е т о д о $6 \mathrm{p}$ а тн о й м а т р и цы). Она предназначена для задач л. п., матрица условий $A=\left(A_{1} A_{2} \ldots A_{n}\right)$ к-рых обладает с в о й с т в о м с ла б о й 3 а полне нн ос т и (число ненулевых $a_{i j}$ мало по сравнению с $m n$ ). Слабо заполненные матрицы хранятся в запоминающих устройствах ЭВМ в компактном виде, когда фиксированы лишь ненулевые элементы и их позиции. Разработаны специальные приемы хранения обратного базиса, направленные на сокращение информации, необходимой для восстановления $A_{x}^{-1}$. Они основаны на представлении $A_{\boldsymbol{x}}^{-1}$ в виде произведения матричных множителей (мультипликаторов), отличающихся от единичной матрицы лишь одним столбцом. Заполненность нетривиальных столбцов мультипликаторов зависит от порядка введения векторов в базис. Поэтому после накопления нек-рого числа мультипликаторов организуется т. н. повторение, в результате к-рого образуется более экономное мультипликативное представление $A_{\boldsymbol{x}}^{-1}$.
+
+Важная часть алгоритма С. м.- стратегия выбора вектора $A_{k}$ для включения в базис. С одной стороны, она должна способствовать сокращению информации, необходимой для хранения $A_{x}^{-1}$; с другой стороны препятствовать попаданию в плохо обусловленный базис.
+
+Существуют программные реализации С. м., позволяющие решать на ЭВМ задачи л. п. с мало заполненной матрицей условий при $m$ порядка тысяч и $n$ порядка десятков тысяч. Разработаны многочисленные варианты С. м., учитывающие особенности различных специальных классов задач л. п. (блочные задачи, задачи транспортного типа и др.). Несмотря на то, что С. м. теоретически не достаточно әффективен (он имеет экспоненциальную оценку трудоемкости на всем классе задач л. п., хотя алгоритмич. сложность этого класса всего лишь полиномиальна), опыт его применения и сравнения с другими методами позволяет сделать вывод, что для него пока (1983) нет серьезного конкурента.
+
+Лит.: [1] Ю д и н Д. Б., Г о л ьш т е й н Е. Г., Линейное программирование, М., 1963; [2] Д а н ц и г II ж., Линейное программирование, его применения и обобщения, пер. с
+англ., М., $1966 ;$ [3] А ш м а н в С. А., Јинейное програмангл., М., $1966 ;[3]$ А ш м а н о в С. А., Линейное програм-
+мирование,
+М., 1981.</text_orig>
+</article>

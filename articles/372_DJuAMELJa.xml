@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/372_DJuAMELJa" alphabetic_pos="372">
+  <title>ДЮАМЕЛЯ ИНТЕГРАЛ̆</title>
+  <authors/>
+  <pages>
+    <start>198</start>
+    <end>198</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Т и х о н о в А. Н., С а м а р с к и й А. А., Уравнения математической физики, 3 изд., М., 1966; [2] й о н Ф.,Плоские волны и сферические средние в применении к дифференциальным уравнениям с частными производными, пер. с англ., $\begin{array}{ll}\text { M., } 1958 . &amp; \text { A. К. Гучин. } \\ &amp; \end{array}$</literature_orig>
+    <unit>
+      <author>Тихонов А. Н.</author>
+      <author>Самарский А. А.</author>
+      <title>Уравнения математической физики</title>
+      <publication>3 изд., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>йон Ф.</author>
+      <title>Плоские волны и сферические средние в применении к дифференциальным уравнениям с частными производными</title>
+      <publication>пер. с англ., $\begin{array}{ll}\text { M.</publication>
+      <year>1958</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/372_1_DJuAMELJa">\frac{\partial^{2} u(t, x)}{\partial t^{2}}+L[u(t, x)]=f(t, x) ; \quad t&gt;0, x \in R_{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_2_DJuAMELJa">\left.u(t, x)\right|_{t=0}=0,\left.\quad \frac{\partial u(t, x)}{\partial t}\right|_{t=0}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_3_DJuAMELJa">\frac{\partial^{2} v(t, x ; \tau)}{\partial t^{2}}+L[v(t, x ; \tau)]=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_4_DJuAMELJa">\left.v(t, x ; \tau)\right|_{t=\tau}=0,\left.\quad \frac{\partial v(t, x ; \tau)}{\partial t}\right|_{t=\tau}=f(\tau, x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_5_DJuAMELJa">u(t, x)=\int_{0}^{t} v(t, x ; \tau) d \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_6_DJuAMELJa">\frac{\partial u(t, x)}{\partial t}+M[u(t, x)]=f(t, x) ; \quad t&gt;0 ; x \in R_{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_7_DJuAMELJa">u(t, x)=\int_{0}^{t} \int_{x-(t-\tau)}^{x+(t-\tau)} f(\tau, \xi) d \xi</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_1_DJuAMELJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_2_DJuAMELJa">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_3_DJuAMELJa">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_4_DJuAMELJa">v(t, x ; \tau), t \geqslant \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_5_DJuAMELJa">\tau \geqslant 0, x \in R_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_6_DJuAMELJa">t&gt;\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_7_DJuAMELJa">t=\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_8_DJuAMELJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_9_DJuAMELJa">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_10_DJuAMELJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_11_DJuAMELJa">u(t, x)=\int_{0}^{t} \int_{R_{n}}[4 \pi(t-\tau)]^{-\frac{n}{2}} e^{-\frac{|x-\xi|^{2}}{4(t-\tau)}} f(\tau, \xi) d \xi d \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_12_DJuAMELJa">n=1</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>представление решения Кощи задачи или смешанной задачи с однородными граничными условиями для неоднородного линейного уравнения с частными производнымі через решение соответствующей задачи для однородного уравнения. Пусть для уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_1_DJuAMELJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/372_1_DJuAMELJa]]/URI$ - линейный дифференциальный оператор с независящими от $URI[[http://libmeta.ru/me/formula/aux/372_2_DJuAMELJa]]/URI$ коэфффициентами, содержащий производные по $URI[[http://libmeta.ru/me/formula/aux/372_3_DJuAMELJa]]/URI$ не выше 1-го порядка, поставлена задача Коши с начальными условиями:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_2_DJuAMELJa]]/URI
+\]
+
+И пусть достаточно гладкая функция $URI[[http://libmeta.ru/me/formula/aux/372_4_DJuAMELJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/372_5_DJuAMELJa]]/URI$, является при $URI[[http://libmeta.ru/me/formula/aux/372_6_DJuAMELJa]]/URI$ решением однородного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_3_DJuAMELJa]]/URI
+\]
+
+удовлетворяющим при $URI[[http://libmeta.ru/me/formula/aux/372_7_DJuAMELJa]]/URI$ начальным условиям:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_4_DJuAMELJa]]/URI
+\]
+
+Тогда решение задачи Коши (1), (2) выражается Д. и.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_5_DJuAMELJa]]/URI
+\]
+
+Сформулированное утверждение носит название п р и н- ц и п а Д ю а м е л я и является аналогом метода вариации постоянных.
+
+Аналогичное построение можно провести и в случае задачи Коши с однородным начальным условием для уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_6_DJuAMELJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/372_8_DJuAMELJa]]/URI$ - линейный дифференциальный оператор с независящими от $URI[[http://libmeta.ru/me/formula/aux/372_9_DJuAMELJa]]/URI$ коэффициентами, содержащий производные только по переменным $URI[[http://libmeta.ru/me/formula/aux/372_10_DJuAMELJa]]/URI$.
+
+Решение задачи Коши с однородными начальными условиями для неоднородного уравнения теплопроводности выражается Д. и.
+
+$URI[[http://libmeta.ru/me/formula/aux/372_11_DJuAMELJa]]/URI$, а для волнового уравнения в случае $URI[[http://libmeta.ru/me/formula/aux/372_12_DJuAMELJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_7_DJuAMELJa]]/URI
+\]
+
+Д. и. наз. по имени ж. Дюамеля (j. Duhamel).</text>
+  <text_orig>представление решения Кощи задачи или смешанной задачи с однородными граничными условиями для неоднородного линейного уравнения с частными производнымі через решение соответствующей задачи для однородного уравнения. Пусть для уравнения
+
+\[
+\frac{\partial^{2} u(t, x)}{\partial t^{2}}+L[u(t, x)]=f(t, x) ; \quad t&gt;0, x \in R_{n},
+\]
+
+где $L$ - линейный дифференциальный оператор с независящими от $t$ коэфффициентами, содержащий производные по $t$ не выше 1-го порядка, поставлена задача Коши с начальными условиями:
+
+\[
+\left.u(t, x)\right|_{t=0}=0,\left.\quad \frac{\partial u(t, x)}{\partial t}\right|_{t=0}=0 .
+\]
+
+И пусть достаточно гладкая функция $v(t, x ; \tau), t \geqslant \tau$, $\tau \geqslant 0, x \in R_{n}$, является при $t&gt;\tau$ решением однородного уравнения
+
+\[
+\frac{\partial^{2} v(t, x ; \tau)}{\partial t^{2}}+L[v(t, x ; \tau)]=0,
+\]
+
+удовлетворяющим при $t=\tau$ начальным условиям:
+
+\[
+\left.v(t, x ; \tau)\right|_{t=\tau}=0,\left.\quad \frac{\partial v(t, x ; \tau)}{\partial t}\right|_{t=\tau}=f(\tau, x) .
+\]
+
+Тогда решение задачи Коши (1), (2) выражается Д. и.:
+
+\[
+u(t, x)=\int_{0}^{t} v(t, x ; \tau) d \tau
+\]
+
+Сформулированное утверждение носит название п р и н- ц и п а Д ю а м е л я и является аналогом метода вариации постоянных.
+
+Аналогичное построение можно провести и в случае задачи Коши с однородным начальным условием для уравнения
+
+\[
+\frac{\partial u(t, x)}{\partial t}+M[u(t, x)]=f(t, x) ; \quad t&gt;0 ; x \in R_{n},
+\]
+
+где $M$ - линейный дифференциальный оператор с независящими от $t$ коэффициентами, содержащий производные только по переменным $x$.
+
+Решение задачи Коши с однородными начальными условиями для неоднородного уравнения теплопроводности выражается Д. и.
+
+$u(t, x)=\int_{0}^{t} \int_{R_{n}}[4 \pi(t-\tau)]^{-\frac{n}{2}} e^{-\frac{|x-\xi|^{2}}{4(t-\tau)}} f(\tau, \xi) d \xi d \tau$, а для волнового уравнения в случае $n=1$
+
+\[
+u(t, x)=\int_{0}^{t} \int_{x-(t-\tau)}^{x+(t-\tau)} f(\tau, \xi) d \xi
+\]
+
+Д. и. наз. по имени ж. Дюамеля (J. Duhamel).
+
+Jum.: [1] Т и х о н о в А. Н., С а м а р с к и й А. А., Уравнения математической физики, 3 изд., М., 1966; [2] й о н Ф.,
+Плоские волны и сферические средние в применении к дифференциальным уравнениям с частными производными, пер. с англ., $\begin{array}{ll}\text { M., } 1958 . &amp; \text { A. К. Гучин. } \\ &amp; \end{array}$</text_orig>
+</article>

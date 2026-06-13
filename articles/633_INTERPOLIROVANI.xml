@@ -1,0 +1,670 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/633_INTERPOLIROVANI" alphabetic_pos="633">
+  <title>ИНТЕРПОЛИРОВАНИЕ</title>
+  <authors>
+    <author>Ю. А. Казъмин</author>
+  </authors>
+  <pages>
+    <start>310</start>
+    <end>312</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б е р е зи н И. С., Ж и д к о в Н. П., Методы вычислений, т. 1,3 изд., М., 1966, т. 2, 2 изд., М., 1962; [2] Г е л ь ф о н Д А. О., Исчисление конечных разностей, М. Л., 1952; [3] Г о нч а р о в В. Ј., Теория интерполирования Д ж.-Л., Интерполяция и аппроксимация рациональными функциями в комплексной области, пер. с англ., М., 1961; [5] Б ибе р б a x J., Аналитическое продолжение, пер. с нем., М., 1967; [6] N ö r l u n d N. E., Vorlesungen über Differenzenrechnung, B., 1924; [7] e r o i e, Leçons sur les séries d'interpolation, P., 1926; [8] W $\mathrm{h}$ i t $\mathrm{t}$ a $k$ e r J. M., The interpolatory function theory, Camb. 1935; [9] D u r e n P. L., Theorie of $\mathrm{h}^{\mathrm{p}}$ spaces, N.Y.- L., 1970; [10] К а з ьм и н Ю. А., Методы ин-терполяции аналитических функций и их приложения, Докт. дисс., М., 1972; [11] К о р о б е й н и к Ю. Ф., «матем. сб.», 1975, т. 97 , № 2, с. 193-229; т. 98, № 1, c. $3-26 ;$ [12] K a[13] С е д л е ц к и й А. М., &quot;докл. Ан Ссср&quot;, 1973, т. 208, $\mathbf{n}_{2} 6$, с. $1293-95 ;$ [14] Ӓ в е &quot; е н к о С. В., &quot;матем. Заметки&quot;, 1977 , т. 21 , № 4, с. 503-08. Д е н к о С. В.,</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., М.</publication>
+      <year>1966</year>
+      <other>т. 1, т. 2, 2 изд., М., 1962</other>
+    </unit>
+    <unit>
+      <author>Гельфон Д А. О.</author>
+      <title>Исчисление конечных разностей, М. Л.</title>
+      <publication/>
+      <year>1952</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Г о нч а р о в В. Ј., Теория интерполирования Д ж.-Л., Интерполяция и аппроксимация рациональными функциями в комплексной области</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1961</year>
+      <other>Аналитическое продолжение, пер. с нем., М., 1967; [6] N ö r l u n d N. E., Vorlesungen über Differenzenrechnung, B., 1924; [7] e r o i e, Leçons sur les séries d'interpolation, P., 1926; [8] W $\mathrm{h}$ i t $\mathrm{t}$ a $k$ e r J. M., The interpolatory function theory, Camb. 1935; [9] D u r e n P. L., Theorie of $\mathrm{h}^{\mathrm{p}}$ spaces, N.Y.- L., 1970; [10] К а з ьм и н Ю. А., Методы ин-терполяции аналитических функций и их приложения, Докт. дисс., М., 1972; [11] К о р о б е й н и к Ю. Ф., «матем. сб.», 1975, т. 97, № 2, с. 193-229; т. 98, № 1, c. $3-26 ;$ [12] K a[13] С е д л е ц к и й А. М., &quot;докл. Ан Ссср&quot;, 1973, т. 208, $\mathbf{n}_{2} 6$, с. $1293-95 ;$ [14] Ӓ в е &quot; е н к о С. В., &quot;матем. Заметки&quot;, 1977, т. 21, № 4, с. 503-08. Д е н к о С. В.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/633_1_INTERPOLIROVANI">f(x) \in K ; f\left(x_{k}\right)=y_{k}, k=0,1, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_2_INTERPOLIROVANI">f(x) \approx L_{n}^{f}(x), \quad x \in \Delta .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_3_INTERPOLIROVANI">R_{n}^{f}(x)=f(x)-L_{n}^{f}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_4_INTERPOLIROVANI">R_{n}^{f}(x)=\frac{f^{(n+1)}(\xi)}{(n+1) !} A(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_5_INTERPOLIROVANI">A(x)=\prod_{k=0}^{n}\left(x-x_{k}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_6_INTERPOLIROVANI">f(x) \in K ; f\left(x_{k}\right)=y_{k}, k=0,1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_7_INTERPOLIROVANI">f\left(x_{k_{j}}\right)=y_{k_{j}}, j=1,2, \ldots, n+1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_8_INTERPOLIROVANI">\left(f_{\alpha}\right)(x)=y_{\alpha}, \quad \forall \alpha, \alpha \in \mathfrak{A} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_9_INTERPOLIROVANI">\left(f_{n}\right)(x)=\left\{x^{n}\right\}=y_{n}, \quad n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_10_INTERPOLIROVANI">S(x)=\left\{f_{k}(x)=x\left(z_{k}\right)\right\}_{k=1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/633_11_INTERPOLIROVANI">\prod_{j} \neq k\left|\frac{z_{k}-z_{j}}{1-\overline{z_{j} z_{k}}}\right|&gt;\delta, k=1,2, \ldots</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_1_INTERPOLIROVANI">n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_2_INTERPOLIROVANI">\left\{x_{k}\right\}_{k=0}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_3_INTERPOLIROVANI">\delta=[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_4_INTERPOLIROVANI">a \leqslant x_{0}&lt;x_{1}&lt;\ldots&lt;x_{n-1}&lt;x_{n} \leqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_5_INTERPOLIROVANI">n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_6_INTERPOLIROVANI">\left\{y_{k}\right\}_{k=0}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_7_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_8_INTERPOLIROVANI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_9_INTERPOLIROVANI">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_10_INTERPOLIROVANI">f \in \pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_11_INTERPOLIROVANI">\pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_12_INTERPOLIROVANI">\leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_13_INTERPOLIROVANI">\left.f \in C^{n+1}(\Delta)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_14_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_15_INTERPOLIROVANI">f\left(x_{k}\right)=y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_16_INTERPOLIROVANI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_17_INTERPOLIROVANI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_18_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_19_INTERPOLIROVANI">\left(x_{k-1}, x_{k}\right), k=1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_20_INTERPOLIROVANI">x_{k}, k=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_21_INTERPOLIROVANI">\left[x_{0}, x_{n}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_22_INTERPOLIROVANI">\left\{x_{n}\right\}_{k=0}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_23_INTERPOLIROVANI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_24_INTERPOLIROVANI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_25_INTERPOLIROVANI">k=\pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_26_INTERPOLIROVANI">\pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_27_INTERPOLIROVANI">l_{n}^{f}(x)=\sum_{k=0}^{n} y_{k} \frac{\left(x-x_{0}\right) \ldots\left(x-x_{n-1}\right)\left(x-x_{n+1}\right) \ldots\left(x-x_{n}\right)}{\left(x_{k}-x_{0}\right) \ldots\left(x_{k}-x_{n-1}\right)\left(x_{k}-x_{n+1}\right) \ldots\left(x_{k}-x_{n}\right)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_28_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_29_INTERPOLIROVANI">\pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_30_INTERPOLIROVANI">l_{n}^{f}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_31_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_32_INTERPOLIROVANI">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_33_INTERPOLIROVANI">x \in \Delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_34_INTERPOLIROVANI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_35_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_36_INTERPOLIROVANI">r_{n}^{f}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_37_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_38_INTERPOLIROVANI">k=c^{n+1}(\delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_39_INTERPOLIROVANI">\alpha&lt;\xi&lt;\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_40_INTERPOLIROVANI">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_41_INTERPOLIROVANI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_42_INTERPOLIROVANI">x_{0}, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_43_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_44_INTERPOLIROVANI">r_{n}^{f}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_45_INTERPOLIROVANI">\left\{x_{k}\right\}_{k=0}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_46_INTERPOLIROVANI">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_47_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_48_INTERPOLIROVANI">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_49_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_50_INTERPOLIROVANI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_51_INTERPOLIROVANI">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_52_INTERPOLIROVANI">\pi_{n} \neq K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_53_INTERPOLIROVANI">\forall n, n=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_54_INTERPOLIROVANI">\left\{x_{k}\right\} \subset \Delta, x_{k} \neq x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_55_INTERPOLIROVANI">k \neq j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_56_INTERPOLIROVANI">\left\{y_{k}\right\}_{k=0}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_57_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_58_INTERPOLIROVANI">\pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_59_INTERPOLIROVANI">l_{n}^{f}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_60_INTERPOLIROVANI">l_{n}^{f}(x) \rightarrow f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_61_INTERPOLIROVANI">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_62_INTERPOLIROVANI">r_{n}^{f}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_63_INTERPOLIROVANI">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_64_INTERPOLIROVANI">f\left(x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_65_INTERPOLIROVANI">f^{(m)}\left(x_{k}\right), m=0,1, \ldots, n_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_66_INTERPOLIROVANI">\pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_67_INTERPOLIROVANI">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_68_INTERPOLIROVANI">\leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_69_INTERPOLIROVANI">\pi_{m, n}=p_{m} / q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_70_INTERPOLIROVANI">p_{m} \in \pi_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_71_INTERPOLIROVANI">q_{n} \in \pi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_72_INTERPOLIROVANI">q_{n} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_73_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_74_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_75_INTERPOLIROVANI">\left\{f_{\alpha}\right\}_{\alpha \in \mathfrak{H}}, f_{\alpha}: X \rightarrow Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_76_INTERPOLIROVANI">\forall \alpha, \alpha \in \mathfrak{H}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_77_INTERPOLIROVANI">\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{A},-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_78_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_79_INTERPOLIROVANI">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_80_INTERPOLIROVANI">\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{H}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_81_INTERPOLIROVANI">x, x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_82_INTERPOLIROVANI">e=e\left(x ; f_{\alpha}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_83_INTERPOLIROVANI">\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{Y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_84_INTERPOLIROVANI">x, x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_85_INTERPOLIROVANI">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_86_INTERPOLIROVANI">\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{Y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_87_INTERPOLIROVANI">\left\{f_{\alpha}\right\}, x \in \mathfrak{P}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_88_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_89_INTERPOLIROVANI">\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{A},-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_90_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_91_INTERPOLIROVANI">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_92_INTERPOLIROVANI">x, x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_93_INTERPOLIROVANI">x_{1}, X \subset X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_94_INTERPOLIROVANI">x, x \in X_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_95_INTERPOLIROVANI">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_96_INTERPOLIROVANI">\left\{y_{\alpha}\right\},\left\{y_{\alpha}\right\} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_97_INTERPOLIROVANI">\left\{f_{\alpha} ; X_{1}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_98_INTERPOLIROVANI">e_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_99_INTERPOLIROVANI">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_100_INTERPOLIROVANI">x, x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_101_INTERPOLIROVANI">e_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_102_INTERPOLIROVANI">x, Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_103_INTERPOLIROVANI">\left\{f_{\alpha}\right\}, \alpha \in \mathfrak{Y}\left(f_{\alpha}: X \rightarrow Y\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_104_INTERPOLIROVANI">\left.\forall \alpha, \alpha \in \mathfrak{H}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_105_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_106_INTERPOLIROVANI">x \in \mathbb{R}, \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_107_INTERPOLIROVANI">\{x\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_108_INTERPOLIROVANI">f_{n}: X \rightarrow Y, n \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_109_INTERPOLIROVANI">\quad X \subset \mathbb{R}, Y=[0,1), \quad f_{n}(x)=\left\{x^{n}\right\}, \quad n=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_110_INTERPOLIROVANI">=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_111_INTERPOLIROVANI">x, X \subset \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_112_INTERPOLIROVANI">\left\{e^{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_113_INTERPOLIROVANI">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_114_INTERPOLIROVANI">\left\{f_{\alpha}\right\}, \alpha \in \mathfrak{H}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_115_INTERPOLIROVANI">f(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_116_INTERPOLIROVANI">f\left(q^{n}\right), n=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_117_INTERPOLIROVANI">=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_118_INTERPOLIROVANI">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_119_INTERPOLIROVANI">\sigma, \sigma&lt;\ln 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_120_INTERPOLIROVANI">f(n), \forall n, n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_121_INTERPOLIROVANI">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_122_INTERPOLIROVANI">\ln 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_123_INTERPOLIROVANI">f(z)=2^{z=}=e^{z \ln 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_124_INTERPOLIROVANI">\sigma=\ln 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_125_INTERPOLIROVANI">n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_126_INTERPOLIROVANI">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_127_INTERPOLIROVANI">x^{*} \kappa</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_128_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_129_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_130_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_131_INTERPOLIROVANI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_132_INTERPOLIROVANI">\left\{\left\{f_{\alpha}\right\}, \alpha \in \mathfrak{A}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_133_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_134_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_135_INTERPOLIROVANI">m=\left\{\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{A}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_136_INTERPOLIROVANI">\left\{y_{\alpha}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_137_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_138_INTERPOLIROVANI">f_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_139_INTERPOLIROVANI">f_{m} \subset F</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_140_INTERPOLIROVANI">\left\{f_{\alpha}\right\}_{\alpha \in \mathfrak{T}} \in F_{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_141_INTERPOLIROVANI">\left\{f_{\alpha}(x), \alpha \in \mathfrak{H}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_142_INTERPOLIROVANI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_143_INTERPOLIROVANI">\subset M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_144_INTERPOLIROVANI">\left.\supset M\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_145_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_146_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_147_INTERPOLIROVANI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_148_INTERPOLIROVANI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_149_INTERPOLIROVANI">(f, M)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_150_INTERPOLIROVANI">\left\{z_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_151_INTERPOLIROVANI">|z|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_152_INTERPOLIROVANI">\mathbb{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_153_INTERPOLIROVANI">x(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_154_INTERPOLIROVANI">h^{\infty}\left(h^{\infty}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_155_INTERPOLIROVANI">|z|&lt;1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_156_INTERPOLIROVANI">z_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_157_INTERPOLIROVANI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_158_INTERPOLIROVANI">x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_159_INTERPOLIROVANI">=h^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_160_INTERPOLIROVANI">y=\mathbb{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_161_INTERPOLIROVANI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_162_INTERPOLIROVANI">l^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_163_INTERPOLIROVANI">c=\left(c_{1}, c_{2}, \ldots\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_164_INTERPOLIROVANI">\left.\|c\|=\sup _{k}\left|c_{k}\right|\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_165_INTERPOLIROVANI">\left\{z_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_166_INTERPOLIROVANI">|z|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_167_INTERPOLIROVANI">f_{m}=f_{l^{\infty}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_168_INTERPOLIROVANI">f_{k}(x)=x\left(z_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_169_INTERPOLIROVANI">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_170_INTERPOLIROVANI">h^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_171_INTERPOLIROVANI">l^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_172_INTERPOLIROVANI">\left\{z_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_173_INTERPOLIROVANI">\left\{z_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_174_INTERPOLIROVANI">f_{m}=f_{l^{\infty}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_175_INTERPOLIROVANI">\left\{z_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_176_INTERPOLIROVANI">|z|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/633_177_INTERPOLIROVANI">\delta&gt;0</formula>
+  </formulas_aux>
+  <relations n="58">
+    <relation uri="http://libmeta.ru/me/relation/633_1_INTERPOLIROVANI">
+      <rel_text>Интерполирование</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_2_INTERPOLIROVANI">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_3_INTERPOLIROVANI">
+      <rel_text>числовых</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_4_INTERPOLIROVANI">
+      <rel_text>пространств</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_5_INTERPOLIROVANI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_6_INTERPOLIROVANI">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_7_INTERPOLIROVANI">
+      <rel_text>интерполяционной</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_8_INTERPOLIROVANI">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_9_INTERPOLIROVANI">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_10_INTERPOLIROVANI">
+      <rel_text>интерполяционных</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_11_INTERPOLIROVANI">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_12_INTERPOLIROVANI">
+      <rel_text>Последовательности</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_13_INTERPOLIROVANI">
+      <rel_text>отображает</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_14_INTERPOLIROVANI">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_15_INTERPOLIROVANI">
+      <rel_text>отображений</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_16_INTERPOLIROVANI">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_17_INTERPOLIROVANI">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_18_INTERPOLIROVANI">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_19_INTERPOLIROVANI">
+      <rel_text>нормой</rel_text>
+      <target>http://libmeta.ru/me/article/1037_NORMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_20_INTERPOLIROVANI">
+      <rel_text>комплексных</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_21_INTERPOLIROVANI">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_22_INTERPOLIROVANI">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_23_INTERPOLIROVANI">
+      <rel_text>пространство</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_24_INTERPOLIROVANI">
+      <rel_text>отображений</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_25_INTERPOLIROVANI">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_26_INTERPOLIROVANI">
+      <rel_text>последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_27_INTERPOLIROVANI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_28_INTERPOLIROVANI">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_29_INTERPOLIROVANI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_30_INTERPOLIROVANI">
+      <rel_text>комплексной</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_31_INTERPOLIROVANI">
+      <rel_text>последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_32_INTERPOLIROVANI">
+      <rel_text>интерполяціонной</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_33_INTERPOLIROVANI">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_34_INTERPOLIROVANI">
+      <rel_text>единое</rel_text>
+      <target>http://libmeta.ru/me/article/389_EDINITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_35_INTERPOLIROVANI">
+      <rel_text>связан</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_36_INTERPOLIROVANI">
+      <rel_text>переменная</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_37_INTERPOLIROVANI">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_38_INTERPOLIROVANI">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_39_INTERPOLIROVANI">
+      <rel_text>необходимых и достаточных условий</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_40_INTERPOLIROVANI">
+      <rel_text>Задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_41_INTERPOLIROVANI">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_42_INTERPOLIROVANI">
+      <rel_text>отображений</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_43_INTERPOLIROVANI">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_44_INTERPOLIROVANI">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_45_INTERPOLIROVANI">
+      <rel_text>Заданы</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_46_INTERPOLIROVANI">
+      <rel_text>представляют</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_47_INTERPOLIROVANI">
+      <rel_text>определенный интерес</rel_text>
+      <target>http://libmeta.ru/me/article/29_OPREDELENNYI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_48_INTERPOLIROVANI">
+      <rel_text>интерполяционных</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_49_INTERPOLIROVANI">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_50_INTERPOLIROVANI">
+      <rel_text>процессов</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_51_INTERPOLIROVANI">
+      <rel_text>подобного</rel_text>
+      <target>http://libmeta.ru/me/article/368_PODOBЂEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_52_INTERPOLIROVANI">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_53_INTERPOLIROVANI">
+      <rel_text>сходимость</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_54_INTERPOLIROVANI">
+      <rel_text>интерполяционный</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_55_INTERPOLIROVANI">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_56_INTERPOLIROVANI">
+      <rel_text>пространством</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_57_INTERPOLIROVANI">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/633_58_INTERPOLIROVANI">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+  </relations>
+  <text>и н т е р п о л я ц и я,в простейшем, классическом смысле - конструктивное восстановленге (быть может, приближенное) функции определенного класса по известным ее значениям или значениям ее производных в данных точках.
+
+Пусть даны $URI[[http://libmeta.ru/me/formula/aux/633_1_INTERPOLIROVANI]]/URI$ точек $URI[[http://libmeta.ru/me/formula/aux/633_2_INTERPOLIROVANI]]/URI$ сегмента $URI[[http://libmeta.ru/me/formula/aux/633_3_INTERPOLIROVANI]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/633_4_INTERPOLIROVANI]]/URI$, и набор из $URI[[http://libmeta.ru/me/formula/aux/633_5_INTERPOLIROVANI]]/URI$ чисел $URI[[http://libmeta.ru/me/formula/aux/633_6_INTERPOLIROVANI]]/URI$ (не обязательно различных). Пусть известно, что нек-рая функция $URI[[http://libmeta.ru/me/formula/aux/633_7_INTERPOLIROVANI]]/URI$, принадлежащая тому или иному фиксированному классу $URI[[http://libmeta.ru/me/formula/aux/633_8_INTERPOLIROVANI]]/URI$ функций, определенных во всяком случае на $URI[[http://libmeta.ru/me/formula/aux/633_9_INTERPOLIROVANI]]/URI$ (напр., $URI[[http://libmeta.ru/me/formula/aux/633_10_INTERPOLIROVANI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/633_11_INTERPOLIROVANI]]/URI$ - множество всех алгебраич. многочленов степени $URI[[http://libmeta.ru/me/formula/aux/633_12_INTERPOLIROVANI]]/URI$, или $URI[[http://libmeta.ru/me/formula/aux/633_13_INTERPOLIROVANI]]/URI$, удовлетворяет системе соотношений:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_1_INTERPOLIROVANI]]/URI
+\]
+
+Точки $URI[[http://libmeta.ru/me/formula/aux/633_14_INTERPOLIROVANI]]/URI$, в к-рых задаются значения $URI[[http://libmeta.ru/me/formula/aux/633_15_INTERPOLIROVANI]]/URI$, наз. у 3 л а м и н т е р поля ци и, или по л ю с а м и и н т е р п о л я ц и и для $URI[[http://libmeta.ru/me/formula/aux/633_16_INTERPOLIROVANI]]/URI$. Естественно возникли главным образом из потребностей приближенных вычислений следугщие две задачи, к-рые и явились отправными моментами развития всей теории И. А именно, спрашивается, как, обладая перечисленными выше сведениями (а) относительно $URI[[http://libmeta.ru/me/formula/aux/633_17_INTERPOLIROVANI]]/URI$, можно с определенной точностью получить информацию: 1) о поведении $URI[[http://libmeta.ru/me/formula/aux/633_18_INTERPOLIROVANI]]/URI$ на интервалах $URI[[http://libmeta.ru/me/formula/aux/633_19_INTERPOLIROVANI]]/URI$, то есть между (лат. inter) полюсами $URI[[http://libmeta.ru/me/formula/aux/633_20_INTERPOLIROVANI]]/URI$, и 2) вне (лат. extra) сегмента $URI[[http://libmeta.ru/me/formula/aux/633_21_INTERPOLIROVANI]]/URI$, содержащего все полюсы $URI[[http://libmeta.ru/me/formula/aux/633_22_INTERPOLIROVANI]]/URI$ ? Упомянутые здесь лат. слова inter и extra привели соответственно к образованию терминов в случае 1) задачи интерполирования (или интерполяции) функции $URI[[http://libmeta.ru/me/formula/aux/633_23_INTERPOLIROVANI]]/URI$ и в случае 2) задачи экстраполирования (или экстраполяции) функции $URI[[http://libmeta.ru/me/formula/aux/633_24_INTERPOLIROVANI]]/URI$, к-рые впоследствии слились в одну проблему интерполирования (а).
+
+Задача (а), понимаемая как задача точного восстановления функции, имеет единственное решение, напр. в классе $URI[[http://libmeta.ru/me/formula/aux/633_25_INTERPOLIROVANI]]/URI$. Ее решением в $URI[[http://libmeta.ru/me/formula/aux/633_26_INTERPOLIROVANI]]/URI$ является интерполяционный многочлен Лагранжа
+
+$URI[[http://libmeta.ru/me/formula/aux/633_27_INTERPOLIROVANI]]/URI$.
+
+Однако, если $URI[[http://libmeta.ru/me/formula/aux/633_28_INTERPOLIROVANI]]/URI$ принадлежит классу, в каком-то смысле «более обширному», чем $URI[[http://libmeta.ru/me/formula/aux/633_29_INTERPOLIROVANI]]/URI$, то интерполяционная задача (а), вообще говоря, не имеет единственного решения. Тем не менее многочлен $URI[[http://libmeta.ru/me/formula/aux/633_30_INTERPOLIROVANI]]/URI$ в нек-рой мере позволяет судить о поведении $URI[[http://libmeta.ru/me/formula/aux/633_31_INTERPOLIROVANI]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/633_32_INTERPOLIROVANI]]/URI$, если считать, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_2_INTERPOLIROVANI]]/URI
+\]
+
+В связи с этим возникает потребность в оценке погрешности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_3_INTERPOLIROVANI]]/URI
+\]
+
+для $URI[[http://libmeta.ru/me/formula/aux/633_33_INTERPOLIROVANI]]/URI$, к-рая во многом зависит от того, какому классу функций $URI[[http://libmeta.ru/me/formula/aux/633_34_INTERPOLIROVANI]]/URI$ принадлежит $URI[[http://libmeta.ru/me/formula/aux/633_35_INTERPOLIROVANI]]/URI$, другими словами, $URI[[http://libmeta.ru/me/formula/aux/633_36_INTERPOLIROVANI]]/URI$ зависит от наперед известных свойств, к-рыми обладает $URI[[http://libmeta.ru/me/formula/aux/633_37_INTERPOLIROVANI]]/URI$. Напр., если $URI[[http://libmeta.ru/me/formula/aux/633_38_INTERPOLIROVANI]]/URI$, то для задачи (a) остаточный член имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_4_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/633_39_INTERPOLIROVANI]]/URI$, а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_5_INTERPOLIROVANI]]/URI
+\]
+
+Здесь через $URI[[http://libmeta.ru/me/formula/aux/633_40_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/633_41_INTERPOLIROVANI]]/URI$ обозначены соответственно наименьшее и наибольшее из чисел $URI[[http://libmeta.ru/me/formula/aux/633_42_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/633_43_INTERPOLIROVANI]]/URI$. Приведенная формула остаточного члена принадлежит О. Коши (a. Cauchy, cм. [3]). Величина $URI[[http://libmeta.ru/me/formula/aux/633_44_INTERPOLIROVANI]]/URI$ во многом зависит от характера распределения и чісла узлов интерполяции $URI[[http://libmeta.ru/me/formula/aux/633_45_INTERPOLIROVANI]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/633_46_INTERPOLIROVANI]]/URI$. При этом естественно предположить, что чем больше узлов интерполяции $URI[[http://libmeta.ru/me/formula/aux/633_47_INTERPOLIROVANI]]/URI$ будет взято и чем «равномерней» они будут расположены на $URI[[http://libmeta.ru/me/formula/aux/633_48_INTERPOLIROVANI]]/URI$, тем «точнее» будет выполняться соотношение (1). Эти соображения в свою очередь приводят к еще более важной интерполяционной задаче, тесно примыкающей к проблеме (а).
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/633_49_INTERPOLIROVANI]]/URI$ принадлежит классу функций $URI[[http://libmeta.ru/me/formula/aux/633_50_INTERPOLIROVANI]]/URI$, определенных на $URI[[http://libmeta.ru/me/formula/aux/633_51_INTERPOLIROVANI]]/URI$, и таких, что $URI[[http://libmeta.ru/me/formula/aux/633_52_INTERPOLIROVANI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/633_53_INTERPOLIROVANI]]/URI$ Предположим, что множество узлов интерполяции $URI[[http://libmeta.ru/me/formula/aux/633_54_INTERPOLIROVANI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/633_55_INTERPOLIROVANI]]/URI$, счетно, и задана последова- тельность чисел $URI[[http://libmeta.ru/me/formula/aux/633_56_INTERPOLIROVANI]]/URI$. Спрашивается, как по имеющимся данным
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_6_INTERPOLIROVANI]]/URI
+\]
+
+восстановіть $URI[[http://libmeta.ru/me/formula/aux/633_57_INTERPOLIROVANI]]/URI$ ? Поставленная задача в общем случае далеко не всегда разрешима и требует ряда уточнений, но это будет сделано несколько позже, а сейчас укажем только ао́ріс одного весьма естественного и важного подхода к решению проблемы (б). Обычно вначале решается &quot;усеченная&quot; задача (a):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_7_INTERPOLIROVANI]]/URI
+\]
+
+в классе $URI[[http://libmeta.ru/me/formula/aux/633_58_INTERPOLIROVANI]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/633_59_INTERPOLIROVANI]]/URI$ - интерполяционный полином, являющийся решением этой усеченной задачи и записанный, например, в виде многочлена Лагранжа. Затем рассматривается возможность осуществления в том или ином смысле предельного перехода $URI[[http://libmeta.ru/me/formula/aux/633_60_INTERPOLIROVANI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/633_61_INTERPOLIROVANI]]/URI$ (что равносильно, в частности, исследованию вопроса о стремлении к нулю остаточного члена $URI[[http://libmeta.ru/me/formula/aux/633_62_INTERPOLIROVANI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/633_63_INTERPOLIROVANI]]/URI$ в рассматриваемом смысле). Приведенный эскиз схемы решения задачи (б) лежит в основе теории сходимості (и расходимости) интерполячионных nроцессов; он является одним из основных методов решения задач интерполирования и имеет приложения не только в различных разделах чистой математики (напр., в теориі чисел, см. [3]), но и в методах вычислений (см. URI[[http://libmeta.ru/me/relation/633_1_INTERPOLIROVANI]]/URI в вычіслительной математике, а также [1]).
+
+В последующем, наряду с интерполяционными задачами рассмотренного здесь вида, определяемыми простейшими функционалами $URI[[http://libmeta.ru/me/formula/aux/633_64_INTERPOLIROVANI]]/URI$, стали исследоваться и другие, в к-рых, напр., задаются значения производных $URI[[http://libmeta.ru/me/formula/aux/633_65_INTERPOLIROVANI]]/URI$, или иные более сложные функционалы. При их решении стали применяться интерполяционные процессы, в к-рых в роли отправного интерполирующего класса вместо класса $URI[[http://libmeta.ru/me/formula/aux/633_66_INTERPOLIROVANI]]/URI$ используются другие множества функций, напр. классы $URI[[http://libmeta.ru/me/formula/aux/633_67_INTERPOLIROVANI]]/URI$ тригонометріч. полиномов степени $URI[[http://libmeta.ru/me/formula/aux/633_68_INTERPOLIROVANI]]/URI$, классы рациональных функций $URI[[http://libmeta.ru/me/formula/aux/633_69_INTERPOLIROVANI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/633_70_INTERPOLIROVANI]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/633_71_INTERPOLIROVANI]]/URI$ Ii $URI[[http://libmeta.ru/me/formula/aux/633_72_INTERPOLIROVANI]]/URI$, классы целых функций специального вида и т. д. См. также интерполячионная бормула.
+
+Проблема Ii. в своей общей постановке заключается в следующем. Пусть $URI[[http://libmeta.ru/me/formula/aux/633_73_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/633_74_INTERPOLIROVANI]]/URI$ - два непустых множества; задано семеӥство отображений $URI[[http://libmeta.ru/me/formula/aux/633_75_INTERPOLIROVANI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/633_76_INTERPOLIROVANI]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/633_77_INTERPOLIROVANI]]/URI$ некоторый заданный набор элементов (не обязательно различных) множества $URI[[http://libmeta.ru/me/formula/aux/633_78_INTERPOLIROVANI]]/URI$, то естественно возникает задача об отыскании множества всех $URI[[http://libmeta.ru/me/formula/aux/633_79_INTERPOLIROVANI]]/URI$, удовлетворяющих следующей системе равенств
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_8_INTERPOLIROVANI]]/URI
+\]
+
+Вообще говоря, не для всякого априори заданного набора элементов $URI[[http://libmeta.ru/me/formula/aux/633_80_INTERPOLIROVANI]]/URI$, задача (в) обязана иметь решения $URI[[http://libmeta.ru/me/formula/aux/633_81_INTERPOLIROVANI]]/URI$. Поэтому сформулированная проблема требует ряда уточнений своей постановки. Эти уточнения состоят в следующем.
+
+I. Выяснить, каково множество $URI[[http://libmeta.ru/me/formula/aux/633_82_INTERPOLIROVANI]]/URI$ всех наборов $URI[[http://libmeta.ru/me/formula/aux/633_83_INTERPOLIROVANI]]/URI$, для к-рых система уравнений (b) (быть может, бесконечная) имеет хотя бы одно решение $URI[[http://libmeta.ru/me/formula/aux/633_84_INTERPOLIROVANI]]/URI$. Другими словами, требуется дать конструктивное описание множества $URI[[http://libmeta.ru/me/formula/aux/633_85_INTERPOLIROVANI]]/URI$ всех допустимых наборов $URI[[http://libmeta.ru/me/formula/aux/633_86_INTERPOLIROVANI]]/URI$, для заданного фиксированного семейства отображений $URI[[http://libmeta.ru/me/formula/aux/633_87_INTERPOLIROVANI]]/URI$, для к-рых система (в) непротиворечива в $URI[[http://libmeta.ru/me/formula/aux/633_88_INTERPOLIROVANI]]/URI$.
+
+Ii. Пусть $URI[[http://libmeta.ru/me/formula/aux/633_89_INTERPOLIROVANI]]/URI$ фиксированный допустимый набор элементов из $URI[[http://libmeta.ru/me/formula/aux/633_90_INTERPOLIROVANI]]/URI$ (т. е. принадлежащий множеству $URI[[http://libmeta.ru/me/formula/aux/633_91_INTERPOLIROVANI]]/URI$ из пункта I) задачи (b); требуется найти множество всех решений $URI[[http://libmeta.ru/me/formula/aux/633_92_INTERPOLIROVANI]]/URI$, системы (b).
+
+При решении задач I и Ii особое значение имеют ответы на следующие вопросы более частного характера.
+
+Iii. Каково подмножество $URI[[http://libmeta.ru/me/formula/aux/633_93_INTERPOLIROVANI]]/URI$, на к-ром система уравнений (в) имеет единственное решение $URI[[http://libmeta.ru/me/formula/aux/633_94_INTERPOLIROVANI]]/URI$, для каждого допустимого для $URI[[http://libmeta.ru/me/formula/aux/633_95_INTERPOLIROVANI]]/URI$ набора $URI[[http://libmeta.ru/me/formula/aux/633_96_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/633_97_INTERPOLIROVANI]]/URI$ ?
+
+Iv. Пусть $URI[[http://libmeta.ru/me/formula/aux/633_98_INTERPOLIROVANI]]/URI$ - некоторое подмножество $URI[[http://libmeta.ru/me/formula/aux/633_99_INTERPOLIROVANI]]/URI$, определяемое обычно заданием лишь некоего ограничительного свойства. Требуется дать конструктивную характеристику множества решений $URI[[http://libmeta.ru/me/formula/aux/633_100_INTERPOLIROVANI]]/URI$, системы (b) при условии, что правые части в (в) «пробегают» все $URI[[http://libmeta.ru/me/formula/aux/633_101_INTERPOLIROVANI]]/URI$. Задание множества $URI[[http://libmeta.ru/me/formula/aux/633_102_INTERPOLIROVANI]]/URI$ и семейства отображений $URI[[http://libmeta.ru/me/formula/aux/633_103_INTERPOLIROVANI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/633_104_INTERPOLIROVANI]]/URI$ в совокупности с сформулированными вопросами I и Ii (и обычно присоединяемым к ним Iii, а иногда и Iv) определяют интерполяционную задачу (в). Класс задач описанного вида иногда наз. классом п р я мы х з а д а ч и н т е рпо л и р о в а ни я.
+
+Каждый в отдельности из перечисленных выше пунктов I, I I, I Ii и Iv представляет и сам по себе научный интерес. Пункт I имеет «пограничный характер»: им занимаются теория чисел, функциональный анализ, теория функций и др. Пусть, напр., $URI[[http://libmeta.ru/me/formula/aux/633_105_INTERPOLIROVANI]]/URI$ является действительным числом, $URI[[http://libmeta.ru/me/formula/aux/633_106_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/633_107_INTERPOLIROVANI]]/URI$ - его дробная часть. Семейство отображений $URI[[http://libmeta.ru/me/formula/aux/633_108_INTERPOLIROVANI]]/URI$, задается следующим образом: $URI[[http://libmeta.ru/me/formula/aux/633_109_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/633_110_INTERPOLIROVANI]]/URI$, и рассматривается следующая конкретизация интерполяционной задачи (b):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_9_INTERPOLIROVANI]]/URI
+\]
+
+Для нек-рых подмножеств $URI[[http://libmeta.ru/me/formula/aux/633_111_INTERPOLIROVANI]]/URI$, пункт I задачи (2) в какой-то мере исследован, но в целом проблема (2) трудна: до сих пор (1978), напр., нет ответа на вопрос о распределении дробных долей $URI[[http://libmeta.ru/me/formula/aux/633_112_INTERPOLIROVANI]]/URI$ степени числа $URI[[http://libmeta.ru/me/formula/aux/633_113_INTERPOLIROVANI]]/URI$ что является весьма частным подвопросом пункта I задачи (2). Связь между вопросом I и проблемами базисности системы әлементов в различных функциональных пространствах отмечались, напр., в [9].
+
+Вопрос Ii самый старый в теории И., он лежит у истоков всей теории И. и связан с именами И. Ньютона (i. Newton), Ж. Лагранжа (j. Lagrange), Н. Абеля (n. Abel), Iii. Эрмита (ch. Hermite) и др. До 20 в. задачи I, Ii и Iv почти не рассматривались, а решение задачи Ii, как правило, носило формальный характер.
+
+Пункт Iii тесно примыкает к пункту Ii, но представляет интерес еще и потому, что во многих задачах он эквивалентен проблеме полноты, а иногда и базисности различных систем элементов $URI[[http://libmeta.ru/me/formula/aux/633_114_INTERPOLIROVANI]]/URI$, в соответствующих функциональных пространствах (полнота обычно устанавливается с помощью критерия С. Банаха (s. Banach), в к-ром доказана эквивалентность проблемы полноты нек-рой задаче единственности).
+
+Важным примером исследований, относящихся к пункту Iv, являются задачи, посвященные изучению классов функций, принимающих целые значения на заданном множестве точек (напр., $URI[[http://libmeta.ru/me/formula/aux/633_115_INTERPOLIROVANI]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/633_116_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/633_117_INTERPOLIROVANI]]/URI$, являются целыми числами). Эта область особенно бурно развивалась после получения Д. Пойа (g. Polya) следующего результата: если целая функция $URI[[http://libmeta.ru/me/formula/aux/633_118_INTERPOLIROVANI]]/URI$ әкспоненциального типа $URI[[http://libmeta.ru/me/formula/aux/633_119_INTERPOLIROVANI]]/URI$, такова, что ее значения $URI[[http://libmeta.ru/me/formula/aux/633_120_INTERPOLIROVANI]]/URI$, являются целыми числами, то $URI[[http://libmeta.ru/me/formula/aux/633_121_INTERPOLIROVANI]]/URI$ - полином. Константа $URI[[http://libmeta.ru/me/formula/aux/633_122_INTERPOLIROVANI]]/URI$ в приведенной теореме точная, ибо функция $URI[[http://libmeta.ru/me/formula/aux/633_123_INTERPOLIROVANI]]/URI$ является целой экспоненциального типа $URI[[http://libmeta.ru/me/formula/aux/633_124_INTERPOLIROVANI]]/URI$, отлична от многочлена и принимает в точках $URI[[http://libmeta.ru/me/formula/aux/633_125_INTERPOLIROVANI]]/URI$ целые значения (см., напр., [5], [10]).
+
+В том случае, когда в URI[[http://libmeta.ru/me/relation/633_58_INTERPOLIROVANI]]/URI (b) URI[[http://libmeta.ru/me/relation/633_57_INTERPOLIROVANI]]/URI X является топологич. URI[[http://libmeta.ru/me/relation/633_56_INTERPOLIROVANI]]/URI и редуцированная в каком-то смысле URI[[http://libmeta.ru/me/relation/633_55_INTERPOLIROVANI]]/URI (в) имеет сравнительно простое решение $URI[[http://libmeta.ru/me/formula/aux/633_126_INTERPOLIROVANI]]/URI$, одним из методов ее решения является URI[[http://libmeta.ru/me/relation/633_54_INTERPOLIROVANI]]/URI процесс, при к-ром исследуется URI[[http://libmeta.ru/me/relation/633_53_INTERPOLIROVANI]]/URI решений $URI[[http://libmeta.ru/me/formula/aux/633_127_INTERPOLIROVANI]]/URI$ решению $URI[[http://libmeta.ru/me/formula/aux/633_128_INTERPOLIROVANI]]/URI$ URI[[http://libmeta.ru/me/relation/633_52_INTERPOLIROVANI]]/URI (в). О частном виде URI[[http://libmeta.ru/me/relation/633_51_INTERPOLIROVANI]]/URI рода URI[[http://libmeta.ru/me/relation/633_50_INTERPOLIROVANI]]/URI упоминалось выше. Однако во многих случаях URI[[http://libmeta.ru/me/relation/633_49_INTERPOLIROVANI]]/URI типа (в) әфффективно решаются функциональными методами (см., напр., [10]). Помимо прямых URI[[http://libmeta.ru/me/relation/633_48_INTERPOLIROVANI]]/URI проблем URI[[http://libmeta.ru/me/relation/633_47_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/633_46_INTERPOLIROVANI]]/URI о б р а т ны е 3 а д а ч и и н т е р по л и ро в а н и. Основное содержание исследований в әтом направлении состоит в следующем. URI[[http://libmeta.ru/me/relation/633_45_INTERPOLIROVANI]]/URI непустые URI[[http://libmeta.ru/me/relation/633_44_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_129_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/633_130_INTERPOLIROVANI]]/URI$ и нек-рый URI[[http://libmeta.ru/me/relation/633_43_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_131_INTERPOLIROVANI]]/URI$ семейств URI[[http://libmeta.ru/me/relation/633_42_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_132_INTERPOLIROVANI]]/URI$, действующих из $URI[[http://libmeta.ru/me/formula/aux/633_133_INTERPOLIROVANI]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/633_134_INTERPOLIROVANI]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/633_135_INTERPOLIROVANI]]/URI$ - некоторая совокупность наборов $URI[[http://libmeta.ru/me/formula/aux/633_136_INTERPOLIROVANI]]/URI$ элементов из URI[[http://libmeta.ru/me/relation/633_41_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_137_INTERPOLIROVANI]]/URI$. URI[[http://libmeta.ru/me/relation/633_40_INTERPOLIROVANI]]/URI состоит в нахождении URI[[http://libmeta.ru/me/relation/633_39_INTERPOLIROVANI]]/URI, к-рым должен удовлетворять подкласс $URI[[http://libmeta.ru/me/formula/aux/633_138_INTERPOLIROVANI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/633_139_INTERPOLIROVANI]]/URI$, для того, чтобы существовало семейство $URI[[http://libmeta.ru/me/formula/aux/633_140_INTERPOLIROVANI]]/URI$, обладающее следующим свойством: URI[[http://libmeta.ru/me/relation/633_38_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_141_INTERPOLIROVANI]]/URI$ URI[[http://libmeta.ru/me/relation/633_37_INTERPOLIROVANI]]/URI с $URI[[http://libmeta.ru/me/formula/aux/633_142_INTERPOLIROVANI]]/URI$ (или $URI[[http://libmeta.ru/me/formula/aux/633_143_INTERPOLIROVANI]]/URI$, или $URI[[http://libmeta.ru/me/formula/aux/633_144_INTERPOLIROVANI]]/URI$, когда URI[[http://libmeta.ru/me/relation/633_36_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_145_INTERPOLIROVANI]]/URI$ пробегает всю совокупность значений $URI[[http://libmeta.ru/me/formula/aux/633_146_INTERPOLIROVANI]]/URI$. Выбор $URI[[http://libmeta.ru/me/formula/aux/633_147_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/633_148_INTERPOLIROVANI]]/URI$ тесно между собой URI[[http://libmeta.ru/me/relation/633_35_INTERPOLIROVANI]]/URI. Поэтому в исследованиях, относящихся к разделу обратных задач И., обычно пара $URI[[http://libmeta.ru/me/formula/aux/633_149_INTERPOLIROVANI]]/URI$ естественным образом составляет URI[[http://libmeta.ru/me/relation/633_34_INTERPOLIROVANI]]/URI целое. В качестве примера обратной URI[[http://libmeta.ru/me/relation/633_33_INTERPOLIROVANI]]/URI описанного здесь вида возьмем одну из формулировок из круга вопросов, примыкающих к известной URI[[http://libmeta.ru/me/relation/633_32_INTERPOLIROVANI]]/URI п р о бле м е H eв а н ли н ны- П ик а. Пусть $URI[[http://libmeta.ru/me/formula/aux/633_150_INTERPOLIROVANI]]/URI$ - URI[[http://libmeta.ru/me/relation/633_31_INTERPOLIROVANI]]/URI точек открытого единичного круга $URI[[http://libmeta.ru/me/formula/aux/633_151_INTERPOLIROVANI]]/URI$ URI[[http://libmeta.ru/me/relation/633_30_INTERPOLIROVANI]]/URI плоскости $URI[[http://libmeta.ru/me/formula/aux/633_152_INTERPOLIROVANI]]/URI$. Каждой URI[[http://libmeta.ru/me/relation/633_29_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_153_INTERPOLIROVANI]]/URI$ из класса $URI[[http://libmeta.ru/me/formula/aux/633_154_INTERPOLIROVANI]]/URI$ - URI[[http://libmeta.ru/me/relation/633_28_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/633_27_INTERPOLIROVANI]]/URI, аналитических и ограниченных в круге $URI[[http://libmeta.ru/me/formula/aux/633_155_INTERPOLIROVANI]]/URI$ ставится в соответствие URI[[http://libmeta.ru/me/relation/633_26_INTERPOLIROVANI]]/URI ее значений в точках $URI[[http://libmeta.ru/me/formula/aux/633_156_INTERPOLIROVANI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_10_INTERPOLIROVANI]]/URI
+\]
+
+Таким образом, задан нек-рый URI[[http://libmeta.ru/me/relation/633_25_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_157_INTERPOLIROVANI]]/URI$ URI[[http://libmeta.ru/me/relation/633_24_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_158_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/633_159_INTERPOLIROVANI]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/633_160_INTERPOLIROVANI]]/URI$. Пусть в качестве $URI[[http://libmeta.ru/me/formula/aux/633_161_INTERPOLIROVANI]]/URI$ берется URI[[http://libmeta.ru/me/relation/633_23_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_162_INTERPOLIROVANI]]/URI$ (URI[[http://libmeta.ru/me/relation/633_22_INTERPOLIROVANI]]/URI всех ограниченных URI[[http://libmeta.ru/me/relation/633_21_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/633_20_INTERPOLIROVANI]]/URI чисел $URI[[http://libmeta.ru/me/formula/aux/633_163_INTERPOLIROVANI]]/URI$ с URI[[http://libmeta.ru/me/relation/633_19_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_164_INTERPOLIROVANI]]/URI$. В рассматриваемом случае обратная URI[[http://libmeta.ru/me/relation/633_18_INTERPOLIROVANI]]/URI конкретизируется следующим образом: требуется дать описание URI[[http://libmeta.ru/me/relation/633_17_INTERPOLIROVANI]]/URI всех URI[[http://libmeta.ru/me/relation/633_16_INTERPOLIROVANI]]/URI точек $URI[[http://libmeta.ru/me/formula/aux/633_165_INTERPOLIROVANI]]/URI$ единичного круга $URI[[http://libmeta.ru/me/formula/aux/633_166_INTERPOLIROVANI]]/URI$ (т. е. класса $URI[[http://libmeta.ru/me/formula/aux/633_167_INTERPOLIROVANI]]/URI$ URI[[http://libmeta.ru/me/relation/633_15_INTERPOLIROVANI]]/URI специального вида $URI[[http://libmeta.ru/me/formula/aux/633_168_INTERPOLIROVANI]]/URI$ ), обладающих следующим свойством: URI[[http://libmeta.ru/me/relation/633_14_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_169_INTERPOLIROVANI]]/URI$ URI[[http://libmeta.ru/me/relation/633_13_INTERPOLIROVANI]]/URI все $URI[[http://libmeta.ru/me/formula/aux/633_170_INTERPOLIROVANI]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/633_171_INTERPOLIROVANI]]/URI$. URI[[http://libmeta.ru/me/relation/633_12_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_172_INTERPOLIROVANI]]/URI$, обладающие указанными качествами, наз. ин т е р п о л я ц и о н ны ми. Таким образом, URI[[http://libmeta.ru/me/relation/633_11_INTERPOLIROVANI]]/URI всех URI[[http://libmeta.ru/me/relation/633_10_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/633_9_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_173_INTERPOLIROVANI]]/URI$ и определяет в данной ситуации URI[[http://libmeta.ru/me/relation/633_8_INTERPOLIROVANI]]/URI $URI[[http://libmeta.ru/me/formula/aux/633_174_INTERPOLIROVANI]]/URI$. Ответ на поставленный вопрос дает т е о р е м а довательность точек $URI[[http://libmeta.ru/me/formula/aux/633_175_INTERPOLIROVANI]]/URI$ открытого единичного круга $URI[[http://libmeta.ru/me/formula/aux/633_176_INTERPOLIROVANI]]/URI$ была URI[[http://libmeta.ru/me/relation/633_7_INTERPOLIROVANI]]/URI, необходимо и достаточно, чтобы существовало $URI[[http://libmeta.ru/me/formula/aux/633_177_INTERPOLIROVANI]]/URI$ такое, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/633_11_INTERPOLIROVANI]]/URI
+\]
+
+(так наз. у с ло в и е раздел е ни я). Обратные URI[[http://libmeta.ru/me/relation/633_6_INTERPOLIROVANI]]/URI И., типа решенной Л. Карлесоном (l. Carleson), рассматривались и для других классов URI[[http://libmeta.ru/me/relation/633_5_INTERPOLIROVANI]]/URI и соответствующих URI[[http://libmeta.ru/me/relation/633_4_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/633_3_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/633_2_INTERPOLIROVANI]]/URI (см., напр., [9], [12], [13], [14]).
+
+См. также Абеля-Гончарова проблема.</text>
+  <text_orig>и н т е р п о л я ц и я,в простейшем, классическом смысле - конструктивное восстановленге (быть может, приближенное) функции определенного класса по известным ее значениям или значениям ее производных в данных точках.
+
+Пусть даны $n+1$ точек $\left\{x_{k}\right\}_{k=0}^{n}$ сегмента $\Delta=[a, b]$, причем $a \leqslant x_{0}&lt;x_{1}&lt;\ldots&lt;x_{n-1}&lt;x_{n} \leqslant b$, и набор из $n+1$ чисел $\left\{y_{k}\right\}_{k=0}^{n}$ (не обязательно различных). Пусть известно, что нек-рая функция $f(x)$, принадлежащая тому или иному фиксированному классу $K$ функций, определенных во всяком случае на $\Delta$ (напр., $f \in \pi_{n}$, где $\pi_{n}$ - множество всех алгебраич. многочленов степени $\leqslant n$, или $\left.f \in C^{n+1}(\Delta)\right)$, удовлетворяет системе соотношений:
+
+\[
+f(x) \in K ; f\left(x_{k}\right)=y_{k}, k=0,1, \ldots, n .
+\]
+
+Точки $x_{k}$, в к-рых задаются значения $f\left(x_{k}\right)=y_{k}$, наз. у 3 л а м и н т е р поля ци и, или по л ю с а м и и н т е р п о л я ц и и для $f$. Естественно возникли главным образом из потребностей приближенных вычислений следугщие две задачи, к-рые и явились отправными моментами развития всей теории И. А именно, спрашивается, как, обладая перечисленными выше сведениями (А) относительно $f$, можно с определенной точностью получить информацию: 1) о поведении $f(x)$ на интервалах $\left(x_{k-1}, x_{k}\right), k=1,2, \ldots, n$, то есть между (лат. inter) полюсами $x_{k}, k=0,1, \ldots, n$, и 2) вне (лат. extra) сегмента $\left[x_{0}, x_{n}\right]$, содержащего все полюсы $\left\{x_{n}\right\}_{k=0}^{n}$ ? Упомянутые здесь лат. слова inter и extra привели соответственно к образованию терминов в случае 1) задачи интерполирования (или интерполяции) функции $f$ и в случае 2) задачи экстраполирования (или экстраполяции) функции $f$, к-рые впоследствии слились в одну проблему интерполирования (А).
+
+Задача (А), понимаемая как задача точного восстановления функции, имеет единственное решение, напр. в классе $K=\pi_{n}$. Ее решением в $\pi_{n}$ является интерполяционный многочлен Лагранжа
+
+$L_{n}^{f}(x)=\sum_{k=0}^{n} y_{k} \frac{\left(x-x_{0}\right) \ldots\left(x-x_{n-1}\right)\left(x-x_{n+1}\right) \ldots\left(x-x_{n}\right)}{\left(x_{k}-x_{0}\right) \ldots\left(x_{k}-x_{n-1}\right)\left(x_{k}-x_{n+1}\right) \ldots\left(x_{k}-x_{n}\right)}$.
+
+Однако, если $f(x)$ принадлежит классу, в каком-то смысле «более обширному», чем $\pi_{n}$, то интерполяционная задача (А), вообще говоря, не имеет единственного решения. Тем не менее многочлен $L_{n}^{f}(x)$ в нек-рой мере позволяет судить о поведении $f(x)$ на $\Delta$, если считать, что
+
+\[
+f(x) \approx L_{n}^{f}(x), \quad x \in \Delta .
+\]
+
+В связи с этим возникает потребность в оценке погрешности
+
+\[
+R_{n}^{f}(x)=f(x)-L_{n}^{f}(x)
+\]
+
+для $x \in \Delta$, к-рая во многом зависит от того, какому классу функций $K$ принадлежит $f(x)$, другими словами, $R_{n}^{f}(x)$ зависит от наперед известных свойств, к-рыми обладает $f(x)$. Напр., если $K=C^{n+1}(\Delta)$, то для задачи (A) остаточный член имеет вид
+
+\[
+R_{n}^{f}(x)=\frac{f^{(n+1)}(\xi)}{(n+1) !} A(x)
+\]
+
+где $\alpha&lt;\xi&lt;\beta$, а
+
+\[
+A(x)=\prod_{k=0}^{n}\left(x-x_{k}\right) .
+\]
+
+Здесь через $\alpha$ и $\beta$ обозначены соответственно наименьшее и наибольшее из чисел $x_{0}, x_{n}$ и $x$. Приведенная формула остаточного члена принадлежит О. Коши (A. Cauchy, cм. [3]). Величина $R_{n}^{f}(x)$ во многом зависит от характера распределения и чісла узлов интерполяции $\left\{x_{k}\right\}_{k=0}^{n}$ на $\Delta$. При этом естественно предположить, что чем больше узлов интерполяции $x_{k}$ будет взято и чем «равномерней» они будут расположены на $\Delta$, тем «точнее» будет выполняться соотношение (1). Эти соображения в свою очередь приводят к еще более важной интерполяционной задаче, тесно примыкающей к проблеме (А).
+
+Пусть $f(x)$ принадлежит классу функций $K$, определенных на $\Delta$, и таких, что $\pi_{n} \neq K$ при $\forall n, n=0,1, \ldots$ Предположим, что множество узлов интерполяции $\left\{x_{k}\right\} \subset \Delta, x_{k} \neq x_{j}$ при $k \neq j$, счетно, и задана последова- тельность чисел $\left\{y_{k}\right\}_{k=0}^{\infty}$. Спрашивается, как по имеющимся данным
+
+\[
+f(x) \in K ; f\left(x_{k}\right)=y_{k}, k=0,1,2, \ldots,
+\]
+
+восстановіть $f(x)$ ? Поставленная задача в общем случае далеко не всегда разрешима и требует ряда уточнений, но это будет сделано несколько позже, а сейчас укажем только ао́ріс одного весьма естественного и важного подхода к решению проблемы (Б). Обычно вначале решается &quot;усеченная&quot; задача (A):
+
+\[
+f\left(x_{k_{j}}\right)=y_{k_{j}}, j=1,2, \ldots, n+1,
+\]
+
+в классе $\pi_{n}$. Пусть $L_{n}^{f}(x)$ - интерполяционный полином, являющийся решением этой усеченной задачи и записанный, например, в виде многочлена Лагранжа. Затем рассматривается возможность осуществления в том или ином смысле предельного перехода $L_{n}^{f}(x) \rightarrow f(x)$ при $n \rightarrow \infty$ (что равносильно, в частности, исследованию вопроса о стремлении к нулю остаточного члена $R_{n}^{f}(x)$ при $n \rightarrow \infty$ в рассматриваемом смысле). Приведенный эскиз схемы решения задачи (Б) лежит в основе теории сходимості (и расходимости) интерполячионных nроцессов; он является одним из основных методов решения задач интерполирования и имеет приложения не только в различных разделах чистой математики (напр., в теориі чисел, см. [3]), но и в методах вычислений (см. Интерполирование в вычіслительной математике, а также [1]).
+
+В последующем, наряду с интерполяционными задачами рассмотренного здесь вида, определяемыми простейшими функционалами $f\left(x_{k}\right)$, стали исследоваться и другие, в к-рых, напр., задаются значения производных $f^{(m)}\left(x_{k}\right), m=0,1, \ldots, n_{k}$, или иные более сложные функционалы. При их решении стали применяться интерполяционные процессы, в к-рых в роли отправного интерполирующего класса вместо класса $\pi_{n}$ используются другие множества функций, напр. классы $T_{n}$ тригонометріч. полиномов степени $\leqslant n$, классы рациональных функций $\pi_{m, n}=p_{m} / q_{n}$, где $p_{m} \in \pi_{m}$, a $q_{n} \in \pi_{n}$ II $q_{n} \neq 0$, классы целых функций специального вида и т. д. См. также интерполячионная бормула.
+
+Проблема II. в своей общей постановке заключается в следующем. Пусть $X$ и $Y$ - два непустых множества; задано семеӥство отображений $\left\{f_{\alpha}\right\}_{\alpha \in \mathfrak{H}}, f_{\alpha}: X \rightarrow Y$, $\forall \alpha, \alpha \in \mathfrak{H}$. Если $\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{A},-$ некоторый заданный набор элементов (не обязательно различных) множества $Y$, то естественно возникает задача об отыскании множества всех $x \in X$, удовлетворяющих следующей системе равенств
+
+\[
+\left(f_{\alpha}\right)(x)=y_{\alpha}, \quad \forall \alpha, \alpha \in \mathfrak{A} .
+\]
+
+Вообще говоря, не для всякого априори заданного набора элементов $\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{H}$, задача (В) обязана иметь решения $x, x \in X$. Поэтому сформулированная проблема требует ряда уточнений своей постановки. Эти уточнения состоят в следующем.
+
+I. Выяснить, каково множество $E=E\left(X ; f_{\alpha}\right)$ всех наборов $\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{Y}$, для к-рых система уравнений (B) (быть может, бесконечная) имеет хотя бы одно решение $x, x \in X$. Другими словами, требуется дать конструктивное описание множества $E$ всех допустимых наборов $\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{Y}$, для заданного фиксированного семейства отображений $\left\{f_{\alpha}\right\}, x \in \mathfrak{P}$, для к-рых система (В) непротиворечива в $X$.
+
+II. Пусть $\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{A},-$ фиксированный допустимый набор элементов из $Y$ (т. е. принадлежащий множеству $E$ из пункта I) задачи (B); требуется найти множество всех решений $x, x \in X$, системы (B).
+
+При решении задач I и II особое значение имеют ответы на следующие вопросы более частного характера.
+
+III. Каково подмножество $X_{1}, X \subset X$, на к-ром система уравнений (В) имеет единственное решение $x, x \in X_{1}$, для каждого допустимого для $X_{1}$ набора $\left\{y_{\alpha}\right\},\left\{y_{\alpha}\right\} \in E$ $\left\{f_{\alpha} ; X_{1}\right\}$ ?
+
+IV. Пусть $E_{1}$ - некоторое подмножество $E$, определяемое обычно заданием лишь некоего ограничительного свойства. Требуется дать конструктивную характеристику множества решений $x, x \in X$, системы (B) при условии, что правые части в (В) «пробегают» все $E_{1}$. Задание множества $X, Y$ и семейства отображений $\left\{f_{\alpha}\right\}, \alpha \in \mathfrak{Y}\left(f_{\alpha}: X \rightarrow Y\right.$ при $\left.\forall \alpha, \alpha \in \mathfrak{H}\right)$ в совокупности с сформулированными вопросами I и II (и обычно присоединяемым к ним III, а иногда и IV) определяют интерполяционную задачу (В). Класс задач описанного вида иногда наз. классом п р я мы х з а д а ч и н т е рпо л и р о в а ни я.
+
+Каждый в отдельности из перечисленных выше пунктов I, I I, I II и IV представляет и сам по себе научный интерес. Пункт I имеет «пограничный характер»: им занимаются теория чисел, функциональный анализ, теория функций и др. Пусть, напр., $x$ является действительным числом, $x \in \mathbb{R}, \quad$ и $\{x\}$ - его дробная часть. Семейство отображений $f_{n}: X \rightarrow Y, n \in N$, задается следующим образом: $\quad X \subset \mathbb{R}, Y=[0,1), \quad f_{n}(x)=\left\{x^{n}\right\}, \quad n=$ $=1,2, \ldots$, и рассматривается следующая конкретизация интерполяционной задачи (B):
+
+\[
+\left(f_{n}\right)(x)=\left\{x^{n}\right\}=y_{n}, \quad n=1,2, \ldots
+\]
+
+Для нек-рых подмножеств $X, X \subset \mathbb{R}$, пункт I задачи (2) в какой-то мере исследован, но в целом проблема (2) трудна: до сих пор (1978), напр., нет ответа на вопрос о распределении дробных долей $\left\{e^{n}\right\}$ степени числа $e$ что является весьма частным подвопросом пункта I задачи (2). Связь между вопросом I и проблемами базисности системы әлементов в различных функциональных пространствах отмечались, напр., в [9].
+
+Вопрос II самый старый в теории И., он лежит у истоков всей теории И. и связан с именами И. Ньютона (I. Newton), Ж. Лагранжа (J. Lagrange), Н. Абеля (N. Abel), III. Эрмита (Ch. Hermite) и др. До 20 в. задачи I, II и IV почти не рассматривались, а решение задачи II, как правило, носило формальный характер.
+
+Пункт III тесно примыкает к пункту II, но представляет интерес еще и потому, что во многих задачах он эквивалентен проблеме полноты, а иногда и базисности различных систем элементов $\left\{f_{\alpha}\right\}, \alpha \in \mathfrak{H}$, в соответствующих функциональных пространствах (полнота обычно устанавливается с помощью критерия С. Банаха (S. Banach), в к-ром доказана эквивалентность проблемы полноты нек-рой задаче единственности).
+
+Важным примером исследований, относящихся к пункту IV, являются задачи, посвященные изучению классов функций, принимающих целые значения на заданном множестве точек (напр., $F(n)$ или $F\left(q^{n}\right), n=$ $=0,1,2, \ldots$, являются целыми числами). Эта область особенно бурно развивалась после получения Д. Пойа (G. Polya) следующего результата: если целая функция $F(z)$ әкспоненциального типа $\sigma, \sigma&lt;\ln 2$, такова, что ее значения $F(n), \forall n, n=0,1,2, \ldots$, являются целыми числами, то $F(z)$ - полином. Константа $\ln 2$ в приведенной теореме точная, ибо функция $F(z)=2^{z=}=e^{z \ln 2}$ является целой экспоненциального типа $\sigma=\ln 2$, отлична от многочлена и принимает в точках $n=0,1,2, \ldots$ целые значения (см., напр., [5], [10]).
+
+В том случае, когда в задаче (B) множество X является топологич. пространством и редуцированная в каком-то смысле задача (В) имеет сравнительно простое решение $x^{*}$, одним из методов ее решения является интерполяционный процесс, при к-ром исследуется сходимость решений $x^{*} \kappa$ решению $x$ системы (В). О частном виде подобного рода процессов упоминалось выше. Однако во многих случаях задачи типа (В) әфффективно решаются функциональными методами (см., напр., [10]). Помимо прямых интерполяционных проблем определенный интерес представляют о б р а т ны е 3 а д а ч и и н т е р по л и ро в а н и. Основное содержание исследований в әтом направлении состоит в следующем. Заданы непустые множества $X$ и $Y$ и нек-рый класс $F$ семейств отображений $\left\{\left\{f_{\alpha}\right\}, \alpha \in \mathfrak{A}\right\}$, действующих из $X$ в $Y$. Пусть $M=\left\{\left\{y_{\alpha}\right\}, \alpha \in \mathfrak{A}\right\}$ - некоторая совокупность наборов $\left\{y_{\alpha}\right\}$ элементов из множества $Y$. Задача состоит в нахождении необходимых и достаточных условий, к-рым должен удовлетворять подкласс $F_{M}$, $F_{M} \subset F$, для того, чтобы существовало семейство $\left\{f_{\alpha}\right\}_{\alpha \in \mathfrak{T}} \in F_{M}$, обладающее следующим свойством: множество $\left\{f_{\alpha}(x), \alpha \in \mathfrak{H}\right\}$ совпадает с $M$ (или $\subset M$, или $\left.\supset M\right)$, когда переменная $x$ пробегает всю совокупность значений $X$. Выбор $F$ и $M$ тесно между собой связан. Поэтому в исследованиях, относящихся к разделу обратных задач И., обычно пара $(F, M)$ естественным образом составляет единое целое. В качестве примера обратной задачи описанного здесь вида возьмем одну из формулировок из круга вопросов, примыкающих к известной интерполяціонной п р о бле м е H eв а н ли н ны- П ик а. Пусть $\left\{z_{k}\right\}$ - последовательность точек открытого единичного круга $|z|&lt;1$ комплексной плоскости $\mathbb{C}$. Каждой функции $x(z)$ из класса $H^{\infty}\left(H^{\infty}\right.$ - класс функций, аналитических и ограниченных в круге $|z|&lt;1)$ ставится в соответствие последовательность ее значений в точках $z_{k}$ :
+
+\[
+S(x)=\left\{f_{k}(x)=x\left(z_{k}\right)\right\}_{k=1}^{\infty}
+\]
+
+Таким образом, задан нек-рый вид $F$ отображений $X=$ $=H^{\infty}$ в $Y=\mathbb{C}$. Пусть в качестве $M$ берется пространство $l^{\infty}$ (множество всех ограниченных последовательностей комплексных чисел $c=\left(c_{1}, c_{2}, \ldots\right)$ с нормой $\left.\|c\|=\sup _{k}\left|c_{k}\right|\right)$. В рассматриваемом случае обратная задача конкретизируется следующим образом: требуется дать описание множества всех последовательностей точек $\left\{z_{k}\right\}$ единичного круга $|z|&lt;1$ (т. е. класса $F_{M}=F_{l^{\infty}}$ отображений специального вида $f_{k}(x)=x\left(z_{k}\right)$ ), обладающих следующим свойством: оператор $S(x)$ отображает все $H^{\infty}$ на $l^{\infty}$. Последовательности $\left\{z_{k}\right\}$, обладающие указанными качествами, наз. ин т е р п о л я ц и о н ны ми. Таким образом, множество всех интерполяционных последовательностей $\left\{z_{k}\right\}$ и определяет в данной ситуации класс $F_{M}=F_{l^{\infty}}$. Ответ на поставленный вопрос дает т е о р е м а довательность точек $\left\{z_{k}\right\}$ открытого единичного круга $|z|&lt;1$ была интерполяционной, необходимо и достаточно, чтобы существовало $\delta&gt;0$ такое, что
+
+\[
+\prod_{j} \neq k\left|\frac{z_{k}-z_{j}}{1-\overline{z_{j} z_{k}}}\right|&gt;\delta, k=1,2, \ldots
+\]
+
+(так наз. у с ло в и е раздел е ни я). Обратные задачи И., типа решенной Л. Карлесоном (L. Carleson), рассматривались и для других классов функций и соответствующих пространств числовых последовательностей (см., напр., [9], [12], [13], [14]).
+
+См. также Абеля-Гончарова проблема.
+
+Лum.: [1] Б е р е зи н И. С., Ж и д к о в Н. П., Методы вычислений, т. 1,3 изд., М., 1966, т. 2, 2 изд., М., 1962; [2] Г е л ь ф о н Д А. О., Исчисление конечных разностей, М. Л., 1952; [3] Г о нч а р о в В. Ј., Теория интерполирования Д ж.-Л., Интерполяция и аппроксимация рациональными функциями в комплексной области, пер. с англ., М., 1961; [5] Б ибе р б a x J., Аналитическое продолжение, пер. с нем., М., 1967; [6] N ö r l u n d N. E., Vorlesungen über Differenzenrechnung, B., 1924; [7] e r o i e, Leçons sur les séries d'interpolation, P., 1926; [8] W $\mathrm{h}$ i t $\mathrm{t}$ a $k$ e r J. M., The interpolatory function theory, Camb. 1935; [9] D u r e n P. L., Theorie of $\mathrm{H}^{\mathrm{p}}$ spaces, N.Y.- L., 1970; [10] К а з ьм и н Ю. А., Методы ин-
+терполяции аналитических функций и их приложения, Докт. дисс., М., 1972; [11] К о р о б е й н и к Ю. Ф., «Матем. сб.», 1975, т. 97 , № 2, с. 193-229; т. 98, № 1, c. $3-26 ;$ [12] K a[13] С е д л е ц к и й А. М., &quot;Докл. АН СССР&quot;, 1973, т. 208, $\mathbf{N}_{2} 6$, с. $1293-95 ;$ [14] Ӓ в е &quot; е н к о С. В., &quot;Матем. Заметки&quot;, 1977 , т. 21 , № 4, с. 503-08. Д е н к о С. В., Ю. А. Казъмин</text_orig>
+</article>

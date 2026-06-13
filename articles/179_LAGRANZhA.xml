@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/179_LAGRANZhA" alphabetic_pos="179">
+  <title>ЛАГРАНЖА ИНТЕРПОЛЯЦИОННАЯ ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>86</start>
+    <end>87</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975.</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/179_1_LAGRANZhA">L_{n}(x)=\sum_{i=0}^{n} f\left(x_{i}\right) \prod_{j \neq i} \frac{x-x_{j}}{x_{i}-x_{j}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_2_LAGRANZhA">\begin{aligned}L_{n}(x)=L_{n} &amp; \left(x_{0}+t h\right)=(-1)^{n} \frac{t(t-1) \ldots(t-n)}{n !} \times \\&amp; \times \sum_{i=0}^{n}(-1)^{i} C_{n}^{i} \frac{f\left(x_{i}\right)}{t-i} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_3_LAGRANZhA">(-1)^{n-i} C_{n}^{i} \frac{t(t-1) \ldots(t-n)}{(t-i) n !}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_4_LAGRANZhA">f(x)-L_{n}(x)=f^{(n+1)}(\xi) \omega_{n}(x) /(n+1) !,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_5_LAGRANZhA">\omega_{n}(x)=\prod_{j=0}^{n}\left(x-x_{j}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_6_LAGRANZhA">\left|f(x)-L_{n}(x)\right| \leqslant M(b-a)^{n+1} /(n+1) ! 2^{2 n+1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_7_LAGRANZhA">L_{n}(z)=\frac{1}{2 \pi i} \int_{\nu} \frac{\omega(\zeta)-\omega(z)}{\omega(\zeta)(\zeta-z)} f(\zeta) d \zeta</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_8_LAGRANZhA">f(z)-L_{n}(z)=\frac{\omega(z)}{2 \pi i} \int_{\nu} \frac{f(\zeta)}{\omega(\zeta)(z-\zeta)} d \zeta .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/179_9_LAGRANZhA">T_{n}(x)=\sum_{k=0}^{n} y_{k} \prod_{j \neq k} \frac{\sin \left(x-x_{j}\right) / 2}{\sin \left(x_{k}-x_{j}\right) / 2},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_1_LAGRANZhA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_2_LAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_3_LAGRANZhA">x_{0}, x_{1}, \ldots, x_{n}:</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_4_LAGRANZhA">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_5_LAGRANZhA">x_{1}-x_{0}=x_{2}-x_{1}=\ldots=x_{n}-x_{n-1}=h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_6_LAGRANZhA">\left(x-x_{0}\right) / h=t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_7_LAGRANZhA">f\left(x_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_8_LAGRANZhA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_9_LAGRANZhA">n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_10_LAGRANZhA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_11_LAGRANZhA">x \in[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_12_LAGRANZhA">\alpha_{x}=\min \left\{x_{0}, x_{1}, \ldots, x_{n}, x\right\}, \beta_{x}=\max \left\{x_{0}, x_{1}, \ldots, x_{n}, x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_13_LAGRANZhA">\xi \in\left[\alpha_{x}, \beta_{x}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_14_LAGRANZhA">f^{(n+1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_15_LAGRANZhA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_16_LAGRANZhA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_17_LAGRANZhA">n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_18_LAGRANZhA">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_19_LAGRANZhA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_20_LAGRANZhA">x \in[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_21_LAGRANZhA">z_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_22_LAGRANZhA">z_{1}, \ldots, z_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_23_LAGRANZhA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_24_LAGRANZhA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_25_LAGRANZhA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_26_LAGRANZhA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_27_LAGRANZhA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_28_LAGRANZhA">x_{0}, x_{1}, . ., x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/179_29_LAGRANZhA">y_{0}, y_{1}, \ldots, y_{n}</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/179_1_LAGRANZhA">
+      <rel_text>Лагранжем</rel_text>
+      <target>http://libmeta.ru/me/article/191_LAGRANभIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/179_2_LAGRANZhA">
+      <rel_text>предложена</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/179_3_LAGRANZhA">
+      <rel_text>Формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+  </relations>
+  <text>форма записи многочлена степени $URI[[http://libmeta.ru/me/formula/aux/179_1_LAGRANZhA]]/URI$ (и н т е р п о л яци нн ого многочлена Л агранжа), интерполирующего заданнуг функцию $URI[[http://libmeta.ru/me/formula/aux/179_2_LAGRANZhA]]/URI$ в узлах $URI[[http://libmeta.ru/me/formula/aux/179_3_LAGRANZhA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_1_LAGRANZhA]]/URI
+\]
+
+В случае, когда значения $URI[[http://libmeta.ru/me/formula/aux/179_4_LAGRANZhA]]/URI$ являются равноотстоящими, т. е. $URI[[http://libmeta.ru/me/formula/aux/179_5_LAGRANZhA]]/URI$, с помощью обозначений $URI[[http://libmeta.ru/me/formula/aux/179_6_LAGRANZhA]]/URI$ формула (1) может быть приведена к виду
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_2_LAGRANZhA]]/URI
+\]
+
+В выражении (2), наз. Л. и. ф. для р а в н о о т с т оя щ и х у з л о в, коэффициенты, стоящие перед $URI[[http://libmeta.ru/me/formula/aux/179_7_LAGRANZhA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_3_LAGRANZhA]]/URI
+\]
+
+наз. ко эффици ентами Ла г р а н жа.
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/179_8_LAGRANZhA]]/URI$ имеет производную порядка $URI[[http://libmeta.ru/me/formula/aux/179_9_LAGRANZhA]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/179_10_LAGRANZhA]]/URI$, все узлы интерполяции лежат на этом отрезке и для любой точки $URI[[http://libmeta.ru/me/formula/aux/179_11_LAGRANZhA]]/URI$ :
+
+$URI[[http://libmeta.ru/me/formula/aux/179_12_LAGRANZhA]]/URI$, то существует такая точка $URI[[http://libmeta.ru/me/formula/aux/179_13_LAGRANZhA]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_4_LAGRANZhA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_5_LAGRANZhA]]/URI
+\]
+
+Если абсолютная величина производной $URI[[http://libmeta.ru/me/formula/aux/179_14_LAGRANZhA]]/URI$ ограничена на отрезке $URI[[http://libmeta.ru/me/formula/aux/179_15_LAGRANZhA]]/URI$ постоянной $URI[[http://libmeta.ru/me/formula/aux/179_16_LAGRANZhA]]/URI$ и если в качестве узлов интерполяции выбраны точки, в к-рые перейдут корни многочлена Чебышева степени $URI[[http://libmeta.ru/me/formula/aux/179_17_LAGRANZhA]]/URI$ при линейном отображении отрезка $URI[[http://libmeta.ru/me/formula/aux/179_18_LAGRANZhA]]/URI$ на отрезок $URI[[http://libmeta.ru/me/formula/aux/179_19_LAGRANZhA]]/URI$, то для любого $URI[[http://libmeta.ru/me/formula/aux/179_20_LAGRANZhA]]/URI$ справедливо неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_6_LAGRANZhA]]/URI
+\]
+
+Если узлы интерполяции - комплексные числа $URI[[http://libmeta.ru/me/formula/aux/179_21_LAGRANZhA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/179_22_LAGRANZhA]]/URI$ и лежат в нек-рой области $URI[[http://libmeta.ru/me/formula/aux/179_23_LAGRANZhA]]/URI$, ограниченной кусочно гладким контуром $URI[[http://libmeta.ru/me/formula/aux/179_24_LAGRANZhA]]/URI$, а функция $URI[[http://libmeta.ru/me/formula/aux/179_25_LAGRANZhA]]/URI$ является однозначной аналитич. функцией в замыкании области $URI[[http://libmeta.ru/me/formula/aux/179_26_LAGRANZhA]]/URI$, то Л. и. ф. имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_7_LAGRANZhA]]/URI
+\]
+
+причем
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_8_LAGRANZhA]]/URI
+\]
+
+Л. и. ф. для интерполирования с помощью тригонометрич. полиномов наз. формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/179_9_LAGRANZhA]]/URI
+\]
+
+дающая тригонометрич. полином порядка $URI[[http://libmeta.ru/me/formula/aux/179_27_LAGRANZhA]]/URI$, принимающий в заданных узлах $URI[[http://libmeta.ru/me/formula/aux/179_28_LAGRANZhA]]/URI$ данные значения $URI[[http://libmeta.ru/me/formula/aux/179_29_LAGRANZhA]]/URI$.
+
+URI[[http://libmeta.ru/me/relation/179_3_LAGRANZhA]]/URI URI[[http://libmeta.ru/me/relation/179_2_LAGRANZhA]]/URI Ж. URI[[http://libmeta.ru/me/relation/179_1_LAGRANZhA]]/URI (j. Lagrange, 1795).</text>
+  <text_orig>форма записи многочлена степени $n$ (и н т е р п о л яци нн ого многочлена Л агранжа), интерполирующего заданнуг функцию $f(x)$ в узлах $x_{0}, x_{1}, \ldots, x_{n}:$
+
+\[
+L_{n}(x)=\sum_{i=0}^{n} f\left(x_{i}\right) \prod_{j \neq i} \frac{x-x_{j}}{x_{i}-x_{j}} .
+\]
+
+В случае, когда значения $x_{i}$ являются равноотстоящими, т. е. $x_{1}-x_{0}=x_{2}-x_{1}=\ldots=x_{n}-x_{n-1}=h$, с помощью обозначений $\left(x-x_{0}\right) / h=t$ формула (1) может быть приведена к виду
+
+\[
+\begin{aligned}
+L_{n}(x)=L_{n} &amp; \left(x_{0}+t h\right)=(-1)^{n} \frac{t(t-1) \ldots(t-n)}{n !} \times \\
+&amp; \times \sum_{i=0}^{n}(-1)^{i} C_{n}^{i} \frac{f\left(x_{i}\right)}{t-i} .
+\end{aligned}
+\]
+
+В выражении (2), наз. Л. и. ф. для р а в н о о т с т оя щ и х у з л о в, коэффициенты, стоящие перед $f\left(x_{i}\right)$ :
+
+\[
+(-1)^{n-i} C_{n}^{i} \frac{t(t-1) \ldots(t-n)}{(t-i) n !}
+\]
+
+наз. ко эффици ентами Ла г р а н жа.
+
+Если функция $f$ имеет производную порядка $n+1$ на отрезке $[a, b]$, все узлы интерполяции лежат на этом отрезке и для любой точки $x \in[a, b]$ :
+
+$\alpha_{x}=\min \left\{x_{0}, x_{1}, \ldots, x_{n}, x\right\}, \beta_{x}=\max \left\{x_{0}, x_{1}, \ldots, x_{n}, x\right\}$, то существует такая точка $\xi \in\left[\alpha_{x}, \beta_{x}\right]$, что
+
+\[
+f(x)-L_{n}(x)=f^{(n+1)}(\xi) \omega_{n}(x) /(n+1) !,
+\]
+
+где
+
+\[
+\omega_{n}(x)=\prod_{j=0}^{n}\left(x-x_{j}\right) .
+\]
+
+Если абсолютная величина производной $f^{(n+1)}$ ограничена на отрезке $[a, b]$ постоянной $M$ и если в качестве узлов интерполяции выбраны точки, в к-рые перейдут корни многочлена Чебышева степени $n+1$ при линейном отображении отрезка $[-1,1]$ на отрезок $[a, b]$, то для любого $x \in[a, b]$ справедливо неравенство
+
+\[
+\left|f(x)-L_{n}(x)\right| \leqslant M(b-a)^{n+1} /(n+1) ! 2^{2 n+1} .
+\]
+
+Если узлы интерполяции - комплексные числа $z_{0}$, $z_{1}, \ldots, z_{n}$ и лежат в нек-рой области $G$, ограниченной кусочно гладким контуром $\gamma$, а функция $f$ является однозначной аналитич. функцией в замыкании области $G$, то Л. и. ф. имеет вид
+
+\[
+L_{n}(z)=\frac{1}{2 \pi i} \int_{\nu} \frac{\omega(\zeta)-\omega(z)}{\omega(\zeta)(\zeta-z)} f(\zeta) d \zeta
+\]
+
+причем
+
+\[
+f(z)-L_{n}(z)=\frac{\omega(z)}{2 \pi i} \int_{\nu} \frac{f(\zeta)}{\omega(\zeta)(z-\zeta)} d \zeta .
+\]
+
+Л. и. ф. для интерполирования с помощью тригонометрич. полиномов наз. формула
+
+\[
+T_{n}(x)=\sum_{k=0}^{n} y_{k} \prod_{j \neq k} \frac{\sin \left(x-x_{j}\right) / 2}{\sin \left(x_{k}-x_{j}\right) / 2},
+\]
+
+дающая тригонометрич. полином порядка $n$, принимающий в заданных узлах $x_{0}, x_{1}, . ., x_{n}$ данные значения $y_{0}, y_{1}, \ldots, y_{n}$.
+
+Формула предложена Ж. Лагранжем (J. Lagrange, 1795).
+
+Лит.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975.</text_orig>
+</article>

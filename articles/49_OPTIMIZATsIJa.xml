@@ -1,0 +1,323 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/49_OPTIMIZATsIJa" alphabetic_pos="49">
+  <title>ОПТИМИЗАЦИЯ ВЫЧИСЛИТЕЛЬНЫХ АЛГОРИТ МОВ</title>
+  <authors>
+    <author>H. С. Бахвалов</author>
+  </authors>
+  <pages>
+    <start>32</start>
+    <end>33</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Н и к о л ь с к и й С. М., Квадратурные формулы, 3 изд., М., 1979; [2] К о л м о г о р о в А. Н., &quot;докл. Ан Ссср&quot;, 1956 , т. 108, N 3 , $385-88$; [3] К о л м о г о р о в А. Н., Т их о м и $\mathrm{p}$ ов B. М., &quot;успехи матем. наук», 1959, т. 14, в. 2, т. Заулирования, М., 1959 ; [5] Б а 6 у у $ш$ а И., С о б о л е в С. Л., табулирования, М., 1959 ; [5] Б а б у Ш К а И., С о б о л е в С. Л., &quot;aplikace mat.&quot;, 1965, t. 10, s. 96-129; [6] Б а х в а Л о в H. С., ный конгеесс математиков в Ницце. 1970. Доклады советских математиков, М., 1972 , с. $27-33$; [8] е г о ж е, в кн.: Численные методы решения дифференциальных и интегральных уравнений и квадратурные формулы, М., 1964, с. 3-63; [9] е г о ж е, «матем. заметки», 1972 , т. 12 , в. 6, с. 655-64; [10] е г о ж е, Численные методы, 2 изд., М., 1975 ; [11] е г о ж е, «ж. вычисчисленные методы, 2 изд., М., 1975; [11] е го Ж е, «ж. вычис-лит. матем. и матем. физ.», 1971, т. 11, № 4, с. $1014-18$; [12] Лит. матем. и матем. Физ.», 1971, т. 11, № 4, с. 1014-18; [12] М., 1967; [13] В а си л ь е в Ф. П., Численные методы решения экстремальных задач, М., 1980; [14] О г а н е с я н Л. А., Р ух о в е ц Л. А., Вариационно-разностные методы решения элпиптических уравнений, Ер., 1979; [15] Т и х о м и р о в В. М., Некоторые вопросы теории приближений, М., 1976; [16] Т и х он о в А. Н., Г о р б у н о в А. Д., “ж. вычислит. матем. и матем. физ.», 1964, т. 4, № 2, с. 232 - 41 .</literature_orig>
+    <unit>
+      <author>Никольский С. М.</author>
+      <title>Квадратурные формулы</title>
+      <publication>3 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <title>&quot;докл. Ан Ссср&quot;</title>
+      <publication/>
+      <year>1956</year>
+      <other>т. 108, N 3, $385-88$</other>
+    </unit>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <author>Тихоми$\mathrm{p}$ов B. М.</author>
+      <title>&quot;успехи матем. наук»</title>
+      <publication/>
+      <year>1959</year>
+      <other>т. 14, в. 2, т. Заулирования, М., 1959 ; [5] Б а 6 у у $ш$ а И., С о б о л е в С. Л., табулирования, М., 1959 ; [5] Б а б у Ш К а И., С о б о л е в С. Л., &quot;aplikace mat.&quot;, 1965, t. 10, s. 96-129; [6] Б а х в а Л о в H. С., ный конгеесс математиков в Ницце. 1970. Доклады советских математиков, М., 1972, с. $27-33$; [8] е г о ж е, в кн.: Численные методы решения дифференциальных и интегральных уравнений и квадратурные формулы, М., 1964, с. 3-63; [9] е г о ж е, «матем. заметки», 1972, т. 12, в. 6, с. 655-64; [10] е г о ж е, Численные методы, 2 изд., М., 1975 ; [11] е г о ж е, «ж. вычисчисленные методы, 2 изд., М., 1975; [11] е го Ж е, «ж. вычис-лит. матем. и матем. физ.», 1971, т. 11, № 4, с. $1014-18$; [12] Лит. матем. и матем. Физ.», 1971, т. 11, № 4, с. 1014-18; [12] М., 1967; [13] В а си л ь е в Ф. П., Численные методы решения экстремальных задач, М., 1980; [14] О г а н е с я н Л. А., Р ух о в е ц Л. А., Вариационно-разностные методы решения элпиптических уравнений, Ер., 1979; [15] Т и х о м и р о в В. М., Некоторые вопросы теории приближений, М., 1976; [16] Т и х он о в А. Н., Г о р б у н о в А. Д., “ж. вычислит. матем. и матем. физ.», 1964, т. 4, № 2, с. 232 - 41 .</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/49_1_OPTIMIZATsIJa">E(P, m)=\sup _{p \in P}|\varepsilon(p, m)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/49_2_OPTIMIZATsIJa">E(P, M)=\inf _{m \in M} E(P, m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/49_3_OPTIMIZATsIJa">E\left(P, m_{0}\right)=E(P, M)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/49_4_OPTIMIZATsIJa">I(f)=\int_{0}^{1} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/49_5_OPTIMIZATsIJa">I(f) \approx \sum_{j=1}^{N} C_{j}^{\top} f\left(x_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/49_6_OPTIMIZATsIJa">I(f) \approx \sum_{j=1}^{N} C_{j} f\left(P_{j}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/49_7_OPTIMIZATsIJa">I(f) \approx S_{N}\left(P_{1}, \ldots, P_{N} ; f\left(P_{1}\right), \ldots, f\left(P_{N}\right)\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_1_OPTIMIZATsIJa">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_2_OPTIMIZATsIJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_3_OPTIMIZATsIJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_4_OPTIMIZATsIJa">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_5_OPTIMIZATsIJa">\varepsilon(p, m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_6_OPTIMIZATsIJa">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_7_OPTIMIZATsIJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_8_OPTIMIZATsIJa">\left|f^{(n)}\right| \leqslant A, M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_9_OPTIMIZATsIJa">2 N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_10_OPTIMIZATsIJa">c_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_11_OPTIMIZATsIJa">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_12_OPTIMIZATsIJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_13_OPTIMIZATsIJa">c_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_14_OPTIMIZATsIJa">p_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_15_OPTIMIZATsIJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_16_OPTIMIZATsIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_17_OPTIMIZATsIJa">p_{1} \in \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_18_OPTIMIZATsIJa">q_{q}=\phi_{q}\left(q_{1}, \ldots, Q_{q-1} ; y_{1}, \ldots, y_{0-1}\right), q=2, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_19_OPTIMIZATsIJa">s_{n}\left(q_{1}, \ldots, Q_{N} ; y_{1}, \ldots, y_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_20_OPTIMIZATsIJa">y_{j}, S_{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_21_OPTIMIZATsIJa">q_{j} \in \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_22_OPTIMIZATsIJa">f\left(p_{1}\right), P_{2}=\Phi_{2}\left(P_{1} ; f\left(P_{1}\right)\right), f\left(P_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_23_OPTIMIZATsIJa">p_{3}=\phi_{3}\left(p_{1}, P_{2} ; f\left(P_{1}\right), f\left(P_{2}\right)\right), \ldots, f\left(P_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_24_OPTIMIZATsIJa">f \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_25_OPTIMIZATsIJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_26_OPTIMIZATsIJa">l(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/49_27_OPTIMIZATsIJa">l(f)</formula>
+  </formulas_aux>
+  <relations n="27">
+    <relation uri="http://libmeta.ru/me/relation/49_1_OPTIMIZATsIJa">
+      <rel_text>Вычислительный алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/893_VYChISLITEL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_2_OPTIMIZATsIJa">
+      <rel_text>Алгоритма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_3_OPTIMIZATsIJa">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_4_OPTIMIZATsIJa">
+      <rel_text>численного</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_5_OPTIMIZATsIJa">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_6_OPTIMIZATsIJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_7_OPTIMIZATsIJa">
+      <rel_text>развитие</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_8_OPTIMIZATsIJa">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_9_OPTIMIZATsIJa">
+      <rel_text>распределению</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_10_OPTIMIZATsIJa">
+      <rel_text>погрешности</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_11_OPTIMIZATsIJa">
+      <rel_text>Производится</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_12_OPTIMIZATsIJa">
+      <rel_text>переменным</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_13_OPTIMIZATsIJa">
+      <rel_text>интегрируется</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_14_OPTIMIZATsIJa">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_15_OPTIMIZATsIJa">
+      <rel_text>Дифференциальное</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_16_OPTIMIZATsIJa">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_17_OPTIMIZATsIJa">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_18_OPTIMIZATsIJa">
+      <rel_text>представляет</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_19_OPTIMIZATsIJa">
+      <rel_text>интерес</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_20_OPTIMIZATsIJa">
+      <rel_text>Супественный</rel_text>
+      <target>http://libmeta.ru/me/article/301_SUPERALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_21_OPTIMIZATsIJa">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_22_OPTIMIZATsIJa">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_23_OPTIMIZATsIJa">
+      <rel_text>погрешности</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_24_OPTIMIZATsIJa">
+      <rel_text>алгоритма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_25_OPTIMIZATsIJa">
+      <rel_text>устойчивостью</rel_text>
+      <target>http://libmeta.ru/me/article/631_UsTOJChIVOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_26_OPTIMIZATsIJa">
+      <rel_text>связанные</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/49_27_OPTIMIZATsIJa">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+  </relations>
+  <text>выбор оптимального вычислительного алгоритма при решении прикладных задач или при разработке систем стандартных программ. При решении конкретной задачи оптимальная тактика поведения может состоять в том, чтобы не оптимизировать метод решения, а подключиться к стандартной программе или воспользоваться простейшим методом, составление программы для к-рого не потребует много усилий.
+
+Теоретич. постановка вопроса об О. в. а. имеет следуюшее основание. При выборе метода решения задачи исследователь ориентируется на нек-рые ее свойства и выбирает алгоритм решения в зависимости от них, причем алгоритм будет применимым и при решении других задач, обладающих этими свойствами. Поәтому при теоретич. исследовании алгоритмов вводят в рассмотрение нек-рый класс задач $URI[[http://libmeta.ru/me/formula/aux/49_1_OPTIMIZATsIJa]]/URI$, обладающих определенными свойствами. При выборе метода решения исследователь располагает нек-рым множеством $URI[[http://libmeta.ru/me/formula/aux/49_2_OPTIMIZATsIJa]]/URI$ методов решения. При применении метода $URI[[http://libmeta.ru/me/formula/aux/49_3_OPTIMIZATsIJa]]/URI$ к решенпю задачи $URI[[http://libmeta.ru/me/formula/aux/49_4_OPTIMIZATsIJa]]/URI$ репение будет получено с нек-рої погрешностью $URI[[http://libmeta.ru/me/formula/aux/49_5_OPTIMIZATsIJa]]/URI$. Величина
+
+\[
+URI[[http://libmeta.ru/me/formula/main/49_1_OPTIMIZATsIJa]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_40f67ade2adf19fa416eg-1.jpg?height=40&amp;width=811&amp;top_left_y=1404&amp;top_left_x=140)
+с. е задач $URI[[http://libmeta.ru/me/formula/aux/49_6_OPTIMIZATsIJa]]/URI$, а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/49_2_OPTIMIZATsIJa]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_40f67ade2adf19fa416eg-1.jpg?height=45&amp;width=816&amp;top_left_y=1548&amp;top_left_x=138)
+п о г р ш н о т и методов із множества $URI[[http://libmeta.ru/me/formula/aux/49_7_OPTIMIZATsIJa]]/URI$. Еслі существует метод такой, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/49_3_OPTIMIZATsIJa]]/URI
+\]
+
+то әтот метод наз. о п т и м а л ь н ы. Такая схема рассмотрения проблемы О. в. а., восходящая А. Н. Колмогорову [2], изучаст множество задач вычисленія пнтеграла
+
+\[
+URI[[http://libmeta.ru/me/formula/main/49_4_OPTIMIZATsIJa]]/URI
+\]
+
+при условии $URI[[http://libmeta.ru/me/formula/aux/49_8_OPTIMIZATsIJa]]/URI$ - множество всевозможных квадратур
+
+\[
+URI[[http://libmeta.ru/me/formula/main/49_5_OPTIMIZATsIJa]]/URI
+\]
+
+каждая квадратура задается совокупностью $URI[[http://libmeta.ru/me/formula/aux/49_9_OPTIMIZATsIJa]]/URI$ чисел $URI[[http://libmeta.ru/me/formula/aux/49_10_OPTIMIZATsIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/49_11_OPTIMIZATsIJa]]/URI$. Задача о минимальном количестве информации (см. [2], [3]), необходимой для запоминания функции из данного класса с требуемой точностью, также может быть уложена в әту схему Р Расматривается [4] более сложная постановка проблемы, где трудоемкость реализации алгоритма в определенном смысле увязывается с объемом исиользуемой памяти. Оптимальные алгоритмы построены для незначительного тисла задач типа [1]. Однако для большого числа вычислительных задач построены методы, по своим асімптотич. характеристикам близкие к оптимальным (см. [5]-[8]).
+
+Исследование характеристик оптимальных на классах вычислительных алгоритмов решения задач (см. [5], [7]) складывается из двух частей: построение конкретных методов решения с возможно лучшими характеристиками и получение оценок снизу характеристик вычислительных алгоритмов (см. [2] - [4], [9]). По существу первая часть вопроса является основной проблемой теории численных методов і в большинстве случаев рассматривается независимо от проблемы оптимизации. Получение оценок снизу обычно сводится к оценке
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_40f67ade2adf19fa416eg-1.jpg?height=33&amp;width=811&amp;top_left_y=569&amp;top_left_x=989)
+пространств; иногда оно проводится независимо, но с использованием техники, аналогичной технике получения указанных оценок.
+
+Вычислительные алгоритмы условно делят на п а сс и в ы е и а к т и в ы е. В первом случае алгоритм решения задачи не зависит от получаемой в ходе репения задачи информации, а во втором - зависит. При вычислении интеграла используемая информация о функции есть обычно информация о ее значениях в $URI[[http://libmeta.ru/me/formula/aux/49_12_OPTIMIZATsIJa]]/URI$ точках. В случае пассивного алгорітма интеграл вычисляется по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/49_6_OPTIMIZATsIJa]]/URI
+\]
+
+где веса $URI[[http://libmeta.ru/me/formula/aux/49_13_OPTIMIZATsIJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/49_14_OPTIMIZATsIJa]]/URI$ из области $URI[[http://libmeta.ru/me/formula/aux/49_15_OPTIMIZATsIJa]]/URI$ определения $URI[[http://libmeta.ru/me/formula/aux/49_16_OPTIMIZATsIJa]]/URI$ задаются заранее. Активные алгорітмы вычисления интеграла укладываются в следуюшую схему: задается точка $URI[[http://libmeta.ru/me/formula/aux/49_17_OPTIMIZATsIJa]]/URI$ п функциіг
+
+$URI[[http://libmeta.ru/me/formula/aux/49_18_OPTIMIZATsIJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/49_19_OPTIMIZATsIJa]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/49_20_OPTIMIZATsIJa]]/URI$ - числа, $URI[[http://libmeta.ru/me/formula/aux/49_21_OPTIMIZATsIJa]]/URI$. Последовательно вычисляют
+
+$URI[[http://libmeta.ru/me/formula/aux/49_22_OPTIMIZATsIJa]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/49_23_OPTIMIZATsIJa]]/URI$
+
+и полагают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/49_7_OPTIMIZATsIJa]]/URI
+\]
+
+В случае выпуклых классов подшнтегральных функций, центрально симметритных относительно функціи $URI[[http://libmeta.ru/me/formula/aux/49_24_OPTIMIZATsIJa]]/URI$, оптимальная оценка на классе пассивных алгоритмов совпадает с оптимальної оценкой на глассе актівных алгорштмов (см. [10], [11]).
+
+В практике численного интегрирования активные алгоритмы типа алгоритмов интегрирования с автоматич. выбором шага (см. [10]) показали свое превосходство над пассивными алгоритмами. Это подтверясдает общепринятую точку зрения о том, что формальная схема О. в. а. зачастую не охватывает специфики реальных задач. При решении задач оптимизации (в частности, задач минимизации) пассивные алгоритмы практически не употребляются (см. [12], [13]). Выше за единицу трудоемкости алгоритма неявно принимается трудоемкость вычисления одного значения функции из нек-рого класса $URI[[http://libmeta.ru/me/formula/aux/49_25_OPTIMIZATsIJa]]/URI$. Возможны и другие подходы к оценке оптимальности характеристик алгоритма. Напр., за единицу трудоемкости принимается трудоемкость вычисления нек-рого функционала $URI[[http://libmeta.ru/me/formula/aux/49_26_OPTIMIZATsIJa]]/URI$ из множества функционалов $URI[[http://libmeta.ru/me/formula/aux/49_27_OPTIMIZATsIJa]]/URI$. В этом случае оценка снизу трудоемкости алгоритмов производится с помощью теории поперечников (см. [14], [15]). Трудоемкость алгоритма складывается не только из трудоемкости получения информации об исходных данных, но и из трудоемкости обработки получевной информации. В настоящее время, по-видимому, нельзя привести примеров классов реальных вычислительных задач, где бы были иолучены оценки свизу трудоемкости алгоритмов, отличные от информационных оценок рассматриваемого типа. Однако для ряда задач невычислительного характера такого типа оценки известны (см. URI[[http://libmeta.ru/me/relation/49_2_OPTIMIZATsIJa]]/URI сложность).
+
+В случае, когда исследование проблемы О.в. а. имеет своей целью решение задач на URI[[http://libmeta.ru/me/relation/49_27_OPTIMIZATsIJa]]/URI, проблема О. в. а. приобретает дополнительные оттенки, URI[[http://libmeta.ru/me/relation/49_26_OPTIMIZATsIJa]]/URI с URI[[http://libmeta.ru/me/relation/49_25_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_24_OPTIMIZATsIJa]]/URI к вычислительной URI[[http://libmeta.ru/me/relation/49_23_OPTIMIZATsIJa]]/URI, с ограничением на объем разных видов используемой памяти (см. URI[[http://libmeta.ru/me/relation/49_1_OPTIMIZATsIJa]]/URI). Выше URI[[http://libmeta.ru/me/relation/49_22_OPTIMIZATsIJa]]/URI О. в. а. рассматривалась как URI[[http://libmeta.ru/me/relation/49_21_OPTIMIZATsIJa]]/URI О. в. а. на классах задач. URI[[http://libmeta.ru/me/relation/49_20_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_19_OPTIMIZATsIJa]]/URI для практики URI[[http://libmeta.ru/me/relation/49_18_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_17_OPTIMIZATsIJa]]/URI О. в. а. на конкретной URI[[http://libmeta.ru/me/relation/49_16_OPTIMIZATsIJa]]/URI (см. [10], [16]). Постановка проблемы оптимизации (см. [16]) заключается в следующем. URI[[http://libmeta.ru/me/relation/49_15_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_14_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_13_OPTIMIZATsIJa]]/URI методом Рунге - Кутта с URI[[http://libmeta.ru/me/relation/49_12_OPTIMIZATsIJa]]/URI шагом. URI[[http://libmeta.ru/me/relation/49_11_OPTIMIZATsIJa]]/URI оценка главного члена оценки URI[[http://libmeta.ru/me/relation/49_10_OPTIMIZATsIJa]]/URI. Затем әта оценка оптимизируется по URI[[http://libmeta.ru/me/relation/49_9_OPTIMIZATsIJa]]/URI узлов URI[[http://libmeta.ru/me/relation/49_8_OPTIMIZATsIJa]]/URI (при общем заданном числе узлов). Такой подход к проблеме оптимизации оказал существенное влияние на URI[[http://libmeta.ru/me/relation/49_7_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_6_OPTIMIZATsIJa]]/URI и практики активных URI[[http://libmeta.ru/me/relation/49_5_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_4_OPTIMIZATsIJa]]/URI URI[[http://libmeta.ru/me/relation/49_3_OPTIMIZATsIJa]]/URI.</text>
+  <text_orig>выбор оптимального вычислительного алгоритма при решении прикладных задач или при разработке систем стандартных программ. При решении конкретной задачи оптимальная тактика поведения может состоять в том, чтобы не оптимизировать метод решения, а подключиться к стандартной программе или воспользоваться простейшим методом, составление программы для к-рого не потребует много усилий.
+
+Теоретич. постановка вопроса об О. в. а. имеет следуюшее основание. При выборе метода решения задачи исследователь ориентируется на нек-рые ее свойства и выбирает алгоритм решения в зависимости от них, причем алгоритм будет применимым и при решении других задач, обладающих этими свойствами. Поәтому при теоретич. исследовании алгоритмов вводят в рассмотрение нек-рый класс задач $P$, обладающих определенными свойствами. При выборе метода решения исследователь располагает нек-рым множеством $M$ методов решения. При применении метода $m$ к решенпю задачи $p$ репение будет получено с нек-рої погрешностью $\varepsilon(p, m)$. Величина
+
+\[
+E(P, m)=\sup _{p \in P}|\varepsilon(p, m)|
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_40f67ade2adf19fa416eg-1.jpg?height=40&amp;width=811&amp;top_left_y=1404&amp;top_left_x=140)
+с. е задач $P$, а
+
+\[
+E(P, M)=\inf _{m \in M} E(P, m)
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_40f67ade2adf19fa416eg-1.jpg?height=45&amp;width=816&amp;top_left_y=1548&amp;top_left_x=138)
+п о г р ш н о т и методов із множества $M$. Еслі существует метод такой, что
+
+\[
+E\left(P, m_{0}\right)=E(P, M)
+\]
+
+то әтот метод наз. о п т и м а л ь н ы. Такая схема рассмотрения проблемы О. в. а., восходящая А. Н. Колмогорову [2], изучаст множество задач вычисленія пнтеграла
+
+\[
+I(f)=\int_{0}^{1} f(x) d x
+\]
+
+при условии $\left|f^{(n)}\right| \leqslant A, M$ - множество всевозможных квадратур
+
+\[
+I(f) \approx \sum_{j=1}^{N} C_{j}^{\top} f\left(x_{j}\right)
+\]
+
+каждая квадратура задается совокупностью $2 N$ чисел $C_{j}$ и $x_{j}$. Задача о минимальном количестве информации (см. [2], [3]), необходимой для запоминания функции из данного класса с требуемой точностью, также может быть уложена в әту схему Р Расматривается [4] более сложная постановка проблемы, где трудоемкость реализации алгоритма в определенном смысле увязывается с объемом исиользуемой памяти. Оптимальные алгоритмы построены для незначительного тисла задач типа [1]. Однако для большого числа вычислительных задач построены методы, по своим асімптотич. характеристикам близкие к оптимальным (см. [5]-[8]).
+
+Исследование характеристик оптимальных на классах вычислительных алгоритмов решения задач (см. [5], [7]) складывается из двух частей: построение конкретных методов решения с возможно лучшими характеристиками и получение оценок снизу характеристик вычислительных алгоритмов (см. [2] - [4], [9]). По существу первая часть вопроса является основной проблемой теории численных методов і в большинстве случаев рассматривается независимо от проблемы оптимизации. Получение оценок снизу обычно сводится к оценке
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_40f67ade2adf19fa416eg-1.jpg?height=33&amp;width=811&amp;top_left_y=569&amp;top_left_x=989)
+пространств; иногда оно проводится независимо, но с использованием техники, аналогичной технике получения указанных оценок.
+
+Вычислительные алгоритмы условно делят на п а сс и в ы е и а к т и в ы е. В первом случае алгоритм решения задачи не зависит от получаемой в ходе репения задачи информации, а во втором - зависит. При вычислении интеграла используемая информация о функции есть обычно информация о ее значениях в $N$ точках. В случае пассивного алгорітма интеграл вычисляется по формуле
+
+\[
+I(f) \approx \sum_{j=1}^{N} C_{j} f\left(P_{j}\right),
+\]
+
+где веса $C_{j}$ и $P_{j}$ из области $\Omega$ определения $f$ задаются заранее. Активные алгорітмы вычисления интеграла укладываются в следуюшую схему: задается точка $P_{1} \in \Omega$ п функциіг
+
+$Q_{q}=\Phi_{q}\left(Q_{1}, \ldots, Q_{q-1} ; y_{1}, \ldots, y_{0-1}\right), q=2, \ldots, N$, $S_{N}\left(Q_{1}, \ldots, Q_{N} ; y_{1}, \ldots, y_{N}\right)$,
+
+где $y_{j}, S_{N}$ - числа, $Q_{j} \in \Omega$. Последовательно вычисляют
+
+$f\left(P_{1}\right), P_{2}=\Phi_{2}\left(P_{1} ; f\left(P_{1}\right)\right), f\left(P_{2}\right)$,
+
+$P_{3}=\Phi_{3}\left(P_{1}, P_{2} ; f\left(P_{1}\right), f\left(P_{2}\right)\right), \ldots, f\left(P_{N}\right)$
+
+и полагают
+
+\[
+I(f) \approx S_{N}\left(P_{1}, \ldots, P_{N} ; f\left(P_{1}\right), \ldots, f\left(P_{N}\right)\right) .
+\]
+
+В случае выпуклых классов подшнтегральных функций, центрально симметритных относительно функціи $f \equiv 0$, оптимальная оценка на классе пассивных алгоритмов совпадает с оптимальної оценкой на глассе актівных алгорштмов (см. [10], [11]).
+
+В практике численного интегрирования активные алгоритмы типа алгоритмов интегрирования с автоматич. выбором шага (см. [10]) показали свое превосходство над пассивными алгоритмами. Это подтверясдает общепринятую точку зрения о том, что формальная схема О. в. а. зачастую не охватывает специфики реальных задач. При решении задач оптимизации (в частности, задач минимизации) пассивные алгоритмы практически не употребляются (см. [12], [13]). Выше за единицу трудоемкости алгоритма неявно принимается трудоемкость вычисления одного значения функции из нек-рого класса $F$. Возможны и другие подходы к оценке оптимальности характеристик алгоритма. Напр., за единицу трудоемкости принимается трудоемкость вычисления нек-рого функционала $l(f)$ из множества функционалов $L(f)$. В этом случае оценка снизу трудоемкости алгоритмов производится с помощью теории поперечников (см. [14], [15]). Трудоемкость алгоритма складывается не только из трудоемкости получения информации об исходных данных, но и из трудоемкости обработки получевной информации. В настоящее время, по-видимому, нельзя привести примеров классов реальных вычислительных задач, где бы были иолучены оценки свизу трудоемкости алгоритмов, отличные от информационных оценок рассматриваемого типа. Однако для ряда задач невычислительного характера такого типа оценки известны (см. Алгоритма сложность).
+
+В случае, когда исследование проблемы О.в. а. имеет своей целью решение задач на ЭВМ, проблема О. в. а. приобретает дополнительные оттенки, связанные с устойчивостью алгоритма к вычислительной погрешности, с ограничением на объем разных видов используемой памяти (см. Вычислительный алгоритм). Выше задача О. в. а. рассматривалась как задача О. в. а. на классах задач. Супественный интерес для практики представляет задача О. в. а. на конкретной задаче (см. [10], [16]). Постановка проблемы оптимизации (см. [16]) заключается в следующем. Дифференциальное уравнение интегрируется методом Рунге - Кутта с переменным шагом. Производится оценка главного члена оценки погрешности. Затем әта оценка оптимизируется по распределению узлов интегрирования (при общем заданном числе узлов). Такой подход к проблеме оптимизации оказал существенное влияние на развитие теории и практики активных алгоритмов численного интегрирования.
+
+Лит.: [1] Н и к о л ь с к и й С. М., Квадратурные формулы, 3 изд., М., 1979; [2] К о л м о г о р о в А. Н., &quot;Докл. АН СССР&quot;, 1956 , т. 108, N 3 , $385-88$; [3] К о л м о г о р о в А. Н., Т их о м и $\mathrm{p}$ ов B. М., &quot;Успехи матем. наук», 1959, т. 14, в. 2, т. Заулирования, М., 1959 ; [5] Б а 6 у у $ш$ а И., С о б о л е в С. Л., табулирования, М., 1959 ; [5] Б а б у Ш К а И., С о б о л е в С. Л., &quot;Aplikace mat.&quot;, 1965, t. 10, s. 96-129; [6] Б а х в а Л о в H. С., ный конгеесс математиков в Ницце. 1970. Доклады советских математиков, М., 1972 , с. $27-33$; [8] е г о ж е, в кн.: Численные методы решения дифференциальных и интегральных уравнений и квадратурные формулы, М., 1964, с. 3-63; [9] е г о ж е, «Матем. заметки», 1972 , т. 12 , в. 6, с. 655-64; [10] е г о ж е, Численные методы, 2 изд., М., 1975 ; [11] е г о ж е, «Ж. вычисЧисленные методы, 2 изд., М., 1975; [11] е го Ж е, «Ж. вычис-
+лит. матем. и матем. физ.», 1971, т. 11, № 4, с. $1014-18$; [12] Лит. матем. и матем. Физ.», 1971, т. 11, № 4, с. 1014-18; [12] М., 1967; [13] В а си л ь е в Ф. П., Численные методы решения экстремальных задач, М., 1980; [14] О г а н е с я н Л. А., Р ух о в е ц Л. А., Вариационно-разностные методы решения элпиптических уравнений, Ер., 1979; [15] Т и х о м и р о в В. М., Некоторые вопросы теории приближений, М., 1976; [16] Т и х он о в А. Н., Г о р б у н о в А. Д., “Ж. вычислит. матем. и матем. физ.», 1964, т. 4, № 2, с. 232 - 41 . H. С. Бахвалов</text_orig>
+</article>

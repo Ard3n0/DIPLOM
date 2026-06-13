@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/664_MILNA" alphabetic_pos="664">
+  <title>МИЛНА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>339</start>
+    <end>340</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б а х в а л о в Н. С., Численные методы, 2 изд., M., $1975 ;[2]$ Д е м и д о в и ч Б. П., М а р о н И. А., Шii., функций, дифференциальные уравнения, М., 1962; [3] М и л н Ф. Э., Численное решение дифференциальных уравнений, пер. с англ., М., 1955.</literature_orig>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., M.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$Демидович Б. П.</author>
+      <author>Марон И. А.</author>
+      <title>Шii., функций, дифференциальные уравнения</title>
+      <publication>М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Милн Ф. Э.</author>
+      <title>Численное решение дифференциальных уравнений</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1955</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/664_1_MILNA">y^{\prime}=f(x, y), y(a)=b .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/664_2_MILNA">y_{i}-y_{i-2}=2 h f\left(x_{i-1}, y_{i-1}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/664_3_MILNA">x_{i}=a+i h, \quad i=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/664_4_MILNA">\bar{y}_{i}=y_{i-4}+\frac{4 h}{3}\left(2 f_{i-3}+f_{i-2}+2 f_{i-1}\right), i=4,5, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/664_5_MILNA">\overline{\bar{y}}_{i}=y_{i-2}+\frac{h}{3}\left(f_{i}+4 f_{i-1}+f_{i-2}\right), i=4,5, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/664_6_MILNA">f_{i}=f\left(x_{i}, y_{i}\right), \quad \bar{f}_{i}=f\left(x_{i}, \bar{y}_{i}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/664_7_MILNA">\varepsilon_{i}=\frac{1}{29}\left(\bar{y}_{i}-\bar{y}_{i}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_1_MILNA">y_{1} \approx y\left(x_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_2_MILNA">y_{i}-y_{i-2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_3_MILNA">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_4_MILNA">i=0,1, \ldots,\left[\frac{A-a}{h}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_5_MILNA">[a, A]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_6_MILNA">\rho(\lambda)=\lambda^{2}-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_7_MILNA">\lambda= \pm 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_8_MILNA">y^{\prime}=a y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_9_MILNA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_10_MILNA">y_{j} \approx y\left(x_{j}\right), j:=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/664_11_MILNA">=1,2,3</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/664_1_MILNA">
+      <rel_text>предложен</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/664_2_MILNA">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/664_3_MILNA">
+      <rel_text>вычисляютс</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/664_4_MILNA">
+      <rel_text>погрешности</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/664_5_MILNA">
+      <rel_text>приближенного</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+  </relations>
+  <text>конечноразностный метод решения задачи Коши для системы обыкновенных диф- ференциальных уравнений 1-го порядка:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/664_1_MILNA]]/URI
+\]
+
+В М. м. Iiспользуется конечноразностная формула:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/664_2_MILNA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/664_3_MILNA]]/URI
+\]
+
+Для вычисления по этой формуле необходимо какимліюо иным способом найти дополнительное начальное значение $URI[[http://libmeta.ru/me/formula/aux/664_1_MILNA]]/URI$. М. М. пмеет 2 -й порядок точности, устойчив по Далквисту, т. е. все решения однородного разностного уравнения $URI[[http://libmeta.ru/me/formula/aux/664_2_MILNA]]/URI$ ограничены равномерно по $URI[[http://libmeta.ru/me/formula/aux/664_3_MILNA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/664_4_MILNA]]/URI$ для любого фиксированного отрезка $URI[[http://libmeta.ru/me/formula/aux/664_5_MILNA]]/URI$. Для устойчивости по Далквисту достаточно, чтобы простые корни характеристiч. многочлена левой части разностного уравнения не превосходили по модулю едіницы, а кратные -были по модулі строго меньше единищы. В данном случае характерістич. многочлен $URI[[http://libmeta.ru/me/formula/aux/664_6_MILNA]]/URI$ имеет корни $URI[[http://libmeta.ru/me/formula/aux/664_7_MILNA]]/URI$ и, следовательно, удовлетворяет указанному условию устойчивости. Однако при решении систем уравнений $URI[[http://libmeta.ru/me/formula/aux/664_8_MILNA]]/URI$ с матрицей $URI[[http://libmeta.ru/me/formula/aux/664_9_MILNA]]/URI$, имеющей отрицательные собственные значения, происходит быстрый рост вычислительной погрешности.
+
+П р е д ск а зы в а юоце - Ii с пра в ля ю шй М. м. использует пару конечноразностных формул: предсказывающуіо
+
+\[
+URI[[http://libmeta.ru/me/formula/main/664_4_MILNA]]/URI
+\]
+
+и пгсправляющую
+
+\[
+URI[[http://libmeta.ru/me/formula/main/664_5_MILNA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/664_6_MILNA]]/URI
+\]
+
+В качестве URI[[http://libmeta.ru/me/relation/664_5_MILNA]]/URI выражения URI[[http://libmeta.ru/me/relation/664_4_MILNA]]/URI берется величина
+
+\[
+URI[[http://libmeta.ru/me/formula/main/664_7_MILNA]]/URI
+\]
+
+Дополнительные начальные значения $URI[[http://libmeta.ru/me/formula/aux/664_10_MILNA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/664_11_MILNA]]/URI$, URI[[http://libmeta.ru/me/relation/664_3_MILNA]]/URI я каким-либо иным способом, напр. методом Рунге - Кутта, имеющим четвертый URI[[http://libmeta.ru/me/relation/664_2_MILNA]]/URI точности. Метод URI[[http://libmeta.ru/me/relation/664_1_MILNA]]/URI в [3].</text>
+  <text_orig>конечноразностный метод решения задачи Коши для системы обыкновенных диф- ференциальных уравнений 1-го порядка:
+
+\[
+y^{\prime}=f(x, y), y(a)=b .
+\]
+
+В М. м. IIспользуется конечноразностная формула:
+
+\[
+y_{i}-y_{i-2}=2 h f\left(x_{i-1}, y_{i-1}\right) \text {, }
+\]
+
+где
+
+\[
+x_{i}=a+i h, \quad i=0,1,2, \ldots
+\]
+
+Для вычисления по этой формуле необходимо какимліюо иным способом найти дополнительное начальное значение $y_{1} \approx y\left(x_{1}\right)$. М. М. пмеет 2 -й порядок точности, устойчив по Далквисту, т. е. все решения однородного разностного уравнения $y_{i}-y_{i-2}=0$ ограничены равномерно по $h$ при $i=0,1, \ldots,\left[\frac{A-a}{h}\right]$ для любого фиксированного отрезка $[a, A]$. Для устойчивости по Далквисту достаточно, чтобы простые корни характеристIч. многочлена левой части разностного уравнения не превосходили по модулю едіницы, а кратные -были по модулі строго меньше единищы. В данном случае характерістич. многочлен $\rho(\lambda)=\lambda^{2}-1$ имеет корни $\lambda= \pm 1$ и, следовательно, удовлетворяет указанному условию устойчивости. Однако при решении систем уравнений $y^{\prime}=A y$ с матрицей $A$, имеющей отрицательные собственные значения, происходит быстрый рост вычислительной погрешности.
+
+П р е д ск а зы в а юоце - II с пра в ля ю шй М. м. использует пару конечноразностных формул: предсказывающуіо
+
+\[
+\bar{y}_{i}=y_{i-4}+\frac{4 h}{3}\left(2 f_{i-3}+f_{i-2}+2 f_{i-1}\right), i=4,5, \ldots,
+\]
+
+и пгсправляющую
+
+\[
+\overline{\bar{y}}_{i}=y_{i-2}+\frac{h}{3}\left(f_{i}+4 f_{i-1}+f_{i-2}\right), i=4,5, \ldots,
+\]
+
+где
+
+\[
+f_{i}=f\left(x_{i}, y_{i}\right), \quad \bar{f}_{i}=f\left(x_{i}, \bar{y}_{i}\right) .
+\]
+
+В качестве приближенного выражения погрешности берется величина
+
+\[
+\varepsilon_{i}=\frac{1}{29}\left(\bar{y}_{i}-\bar{y}_{i}\right)
+\]
+
+Дополнительные начальные значения $y_{j} \approx y\left(x_{j}\right), j:=$ $=1,2,3$, вычисляютс я каким-либо иным способом, напр. методом Рунге - Кутта, имеющим четвертый порядок точности. Метод предложен в [3].
+
+Лum.: [1] Б а х в а л о в Н. С., Численные методы, 2 изд., M., $1975 ;[2]$ Д е м и д о в и ч Б. П., М а р о н И. А., ШII., функций, дифференциальные уравнения, М., 1962; [3] М и л н Ф. Э., Численное решение дифференциальных уравнений, пер. с англ., М., 1955.</text_orig>
+</article>

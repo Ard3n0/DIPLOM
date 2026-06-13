@@ -1,0 +1,440 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/813_PUASSONA" alphabetic_pos="813">
+  <title>ПУАССОНА ПРЕОБРАЗОВАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>379</start>
+    <end>380</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] P o i s s o n S. D., Recherches sur la probabilité des jugements en matière criminelle et en matière civile, précédéesdes règles générales du calcul deś probabilités, $p ., 1837 ;$ [2] $\phi$ e лdes règles générales du calcul deś probabilités, P., 1837; [2] Ф е лс англ., 2 изд., т. 1-2, М., 1967; [3] Б о л в шा е в Л. Н., С м и р1968; [4] Л̈ и в н и к 10 В., о с т р о в с к и й И. В., Разложения случайных величин в векторов, М., 1972.</literature_orig>
+    <unit>
+      <author>Poisson S. D.</author>
+      <title>Recherches sur la probabilité des jugements en matière criminelle et en matière civile, précédéesdes règles générales du calcul deś probabilités, $p .</title>
+      <publication/>
+      <year>1837</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>$\phi$ e лdes règles générales du calcul deś probabilités, P.</title>
+      <publication/>
+      <year>1837</year>
+      <other>2 изд., т. 1-2, М., 1967</other>
+    </unit>
+    <unit>
+      <author>Болвшाев Л. Н.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>С м и р1968</other>
+    </unit>
+    <unit>
+      <author>Л̈ивник10 В.</author>
+      <author>островский И. В.</author>
+      <title>Разложения случайных величин в векторов</title>
+      <publication>М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/813_1_PUASSONA">f(x)=\frac{1}{\pi} \int_{-\infty}^{\infty} \frac{1}{1+(x-t)^{2}} d \alpha(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_2_PUASSONA">f(x)=\frac{1}{\pi} \int_{-\infty}^{\infty} \frac{\varphi(t)}{1+(x-t)^{2}} d t,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_3_PUASSONA">\hat{\boldsymbol{g}}(x)=-\frac{1}{\pi} \int_{0}^{\infty} u^{-2}[g(x+u)-2 g(x)+g(x-u)] d u</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_4_PUASSONA">\begin{gathered}T_{t} g(x)=\sum_{k=0}^{\infty}(-1)^{k} \frac{t^{2 k}}{(2 k) !} g^{(2 k)}(x)+ \\+\sum_{k=0}^{\infty}(-1)^{k} \frac{t^{3 k+1}}{(2 k+1) !} \hat{g}^{(2 k)}(x) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_5_PUASSONA">\begin{gathered}\frac{\alpha(x+0)+\alpha(x-0)}{2}-\frac{\alpha(+0)+\alpha(-0)}{2}= \\=\lim _{t \rightarrow 1-0} \int_{0}^{x} T_{t} f(u) d u\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_6_PUASSONA">\varphi(x)=\lim _{t \rightarrow 1-0} T_{t} f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_7_PUASSONA">C^{*}=\left\{\xi_{:} \xi_{1} x_{1}+\ldots+\xi_{n} x_{n} \geqslant 0, \forall x \in C\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_8_PUASSONA">\mathscr{K}_{C}(z)=\int_{C *} e^{i\left(2_{1} \xi_{1}+\ldots+2_{n} \xi_{n}\right)} d \xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_9_PUASSONA">f * \mathscr{P}_{C}(x, y),(x, y) \in T^{C}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_10_PUASSONA">\mathscr{P}_{C}(x, y)=\frac{\left|K_{C}^{(x+i y)}\right|^{2}}{(2 \pi)^{n} K_{C}(i y)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_11_PUASSONA">P\{X=k\}=e^{-\lambda \frac{\lambda^{k}}{k !}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_12_PUASSONA">\varphi(z)=e^{\lambda(z-1)} \text { и } f(t)=\exp \left[\lambda\left(e^{i t}-1\right)\right] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_13_PUASSONA">F(x)=\sum_{i=0}^{[x]} e^{-\lambda} \frac{\lambda^{i}}{i !}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_14_PUASSONA">F(k)=\frac{1}{k l} \int_{\lambda}^{\infty} y^{k} e-y d y=1-S_{k+1}(\lambda),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_15_PUASSONA">P\{X=k\}=S_{k}(\lambda)-S_{k+1}(\lambda) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_16_PUASSONA">\mathrm{P}\{X(t)=k\}=e^{-\lambda t} \frac{(\lambda t)^{k}}{k !}, k=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_17_PUASSONA">\varphi(t)=\exp \{\lambda(\psi(t)-1)\},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/813_18_PUASSONA">\psi(t)=\frac{1}{\lambda} \log \frac{1}{1-q e^{i t}}, \lambda=\log \frac{1}{p}, q=1-p .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_1_PUASSONA">\alpha(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_2_PUASSONA">\left({ }^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_3_PUASSONA">\alpha(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_4_PUASSONA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_5_PUASSONA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_6_PUASSONA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_7_PUASSONA">\mathbb{r} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_8_PUASSONA">c^{*}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_9_PUASSONA">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_10_PUASSONA">t^{c}=\{z=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_11_PUASSONA">\left.=x+i y ; \quad x \in \mathbb{R}^{n}, y \in C\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_12_PUASSONA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_13_PUASSONA">t C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_14_PUASSONA">\mathcal{n}_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_15_PUASSONA">541-50 ;[2]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_16_PUASSONA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_17_PUASSONA">k=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_18_PUASSONA">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_19_PUASSONA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_20_PUASSONA">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_21_PUASSONA">k=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_22_PUASSONA">s_{k+1}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_23_PUASSONA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_24_PUASSONA">k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_25_PUASSONA">f(k)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_26_PUASSONA">=1-H_{2 k+2}(2 \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_27_PUASSONA">h_{2 k+2}(2 \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_28_PUASSONA">2 \lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_29_PUASSONA">2 k+2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_30_PUASSONA">x_{1}, \ldots, X_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_31_PUASSONA">\lambda_{1}, \ldots, \lambda_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_32_PUASSONA">\lambda_{1}+\ldots+\lambda_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_33_PUASSONA">x_{1}+x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_34_PUASSONA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_35_PUASSONA">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_36_PUASSONA">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_37_PUASSONA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_38_PUASSONA">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_39_PUASSONA">\lambda \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_40_PUASSONA">\frac{x-\lambda}{V \bar{\lambda}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_41_PUASSONA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_42_PUASSONA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_43_PUASSONA">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_44_PUASSONA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_45_PUASSONA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_46_PUASSONA">x_{1}+x_{2}+\ldots+x_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_47_PUASSONA">\underset{v}{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_48_PUASSONA">x_{1}, X_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_49_PUASSONA">v, X_{1}, X_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_50_PUASSONA">v-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_51_PUASSONA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_52_PUASSONA">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_53_PUASSONA">\psi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_54_PUASSONA">x_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_55_PUASSONA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_56_PUASSONA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_57_PUASSONA">\exp \left(\lambda_{n}\left(\psi_{n}(t)-1-i t a_{n}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_58_PUASSONA">h_{n 1} X_{n 1}+\ldots+h_{n k_{n}} X_{n k_{n}}-A_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_59_PUASSONA">\left(x_{n 1}, \ldots, X_{n k_{n}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_60_PUASSONA">h_{n k_{n}}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/813_61_PUASSONA">\boldsymbol{a}_{n}</formula>
+  </formulas_aux>
+  <relations n="18">
+    <relation uri="http://libmeta.ru/me/relation/813_1_PUASSONA">
+      <rel_text>Пуассона теорема</rel_text>
+      <target>http://libmeta.ru/me/article/815_PUASSONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_2_PUASSONA">
+      <rel_text>независимых случайных</rel_text>
+      <target>http://libmeta.ru/me/article/14_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_3_PUASSONA">
+      <rel_text>распределений</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_4_PUASSONA">
+      <rel_text>пределы</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_5_PUASSONA">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_6_PUASSONA">
+      <rel_text>распределөния</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_7_PUASSONA">
+      <rel_text>безгранично делимые URI[[http://l</rel_text>
+      <target>http://libmeta.ru/me/article/363_BEZGRANIChNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_8_PUASSONA">
+      <rel_text>Функциями</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_9_PUASSONA">
+      <rel_text>характеристич</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_10_PUASSONA">
+      <rel_text>пределом</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_11_PUASSONA">
+      <rel_text>распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_12_PUASSONA">
+      <rel_text>безгранично делимое URI[[http://l</rel_text>
+      <target>http://libmeta.ru/me/article/363_BEZGRANIChNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_13_PUASSONA">
+      <rel_text>параметрами</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_14_PUASSONA">
+      <rel_text>отрицательное биномиальное распределение</rel_text>
+      <target>http://libmeta.ru/me/article/139_OTRITsATEL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_15_PUASSONA">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_16_PUASSONA">
+      <rel_text>характеристич</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_17_PUASSONA">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/813_18_PUASSONA">
+      <rel_text>Характеристич</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+  </relations>
+  <text>интегральное преобразование вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_1_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/813_1_PUASSONA]]/URI$ - фувкция ограниченного изменения в каждом нонечном интервале, а также преобразование
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_2_PUASSONA]]/URI
+\]
+
+вытекающее из $URI[[http://libmeta.ru/me/formula/aux/813_2_PUASSONA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/813_3_PUASSONA]]/URI$ абсолютно непрерывная функция. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_3_PUASSONA]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_4_PUASSONA]]/URI
+\] Имеют место следуюгие формулы обращения для П. п.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_5_PUASSONA]]/URI
+\]
+
+при всех $URI[[http://libmeta.ru/me/formula/aux/813_4_PUASSONA]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_6_PUASSONA]]/URI
+\]
+
+для почти всех $URI[[http://libmeta.ru/me/formula/aux/813_5_PUASSONA]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/813_6_PUASSONA]]/URI$ - выпуклый открытый острый конус в $URI[[http://libmeta.ru/me/formula/aux/813_7_PUASSONA]]/URI$ с вершиной в нуле и $URI[[http://libmeta.ru/me/formula/aux/813_8_PUASSONA]]/URI$ сопряженный конус, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_7_PUASSONA]]/URI
+\]
+
+Функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_8_PUASSONA]]/URI
+\]
+
+наз. я д р о м $URI[[http://libmeta.ru/me/formula/aux/813_9_PUASSONA]]/URI$ о шा и трубчатой области $URI[[http://libmeta.ru/me/formula/aux/813_10_PUASSONA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/813_11_PUASSONA]]/URI$ П. П. (обобщенной) функции $URI[[http://libmeta.ru/me/formula/aux/813_12_PUASSONA]]/URI$ наз. свертка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_9_PUASSONA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_10_PUASSONA]]/URI
+\]
+
+- ядро Пуассона трубчатой области $URI[[http://libmeta.ru/me/formula/aux/813_13_PUASSONA]]/URI$ (см. [2]).
+
+Jum.: [1] P o l l a r d H., &quot;trans. Amer. Math. Soc.&quot;, 1955, v. 78, N $URI[[http://libmeta.ru/me/formula/aux/813_14_PUASSONA]]/URI$, p. $URI[[http://libmeta.ru/me/formula/aux/813_15_PUASSONA]]/URI$ B л а д и м и p o в B. С., Обобщенные функции в математической физике, М., 1976. вероятностей случайной величины $URI[[http://libmeta.ru/me/formula/aux/813_16_PUASSONA]]/URI$, принимающей целые нөотрицательные значения $URI[[http://libmeta.ru/me/formula/aux/813_17_PUASSONA]]/URI$, с вероятностями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_11_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/813_18_PUASSONA]]/URI$ - параметр. Производящая функция и характөристич. Функция П. р. определяются соответственно равенствами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_12_PUASSONA]]/URI
+\]
+
+Математич. ожидание, дисперсия и все семиинварианты более высокого порядка равны $URI[[http://libmeta.ru/me/formula/aux/813_19_PUASSONA]]/URI$. Функция распределения П. $URI[[http://libmeta.ru/me/formula/aux/813_20_PUASSONA]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_13_PUASSONA]]/URI
+\]
+
+в точках $URI[[http://libmeta.ru/me/formula/aux/813_21_PUASSONA]]/URI$ выражается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_14_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/813_22_PUASSONA]]/URI$ - значение в точке $URI[[http://libmeta.ru/me/formula/aux/813_23_PUASSONA]]/URI$ функции гамма-распределения с параметром $URI[[http://libmeta.ru/me/formula/aux/813_24_PUASSONA]]/URI$ (или формулой $URI[[http://libmeta.ru/me/formula/aux/813_25_PUASSONA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/813_26_PUASSONA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/813_27_PUASSONA]]/URI$ - значение в точке $URI[[http://libmeta.ru/me/formula/aux/813_28_PUASSONA]]/URI$ функции «хи-квадрат» распределения с $URI[[http://libmeta.ru/me/formula/aux/813_29_PUASSONA]]/URI$ степенями свободы), откуда, в частности, следует соотношение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_15_PUASSONA]]/URI
+\]
+
+Сумма независимых случайных величин $URI[[http://libmeta.ru/me/formula/aux/813_30_PUASSONA]]/URI$, имеющих П. р. с параметрами $URI[[http://libmeta.ru/me/formula/aux/813_31_PUASSONA]]/URI$, подчиняется П. р. с параметром $URI[[http://libmeta.ru/me/formula/aux/813_32_PUASSONA]]/URI$.
+
+Обратно, если сумма $URI[[http://libmeta.ru/me/formula/aux/813_33_PUASSONA]]/URI$ двух независимых случайных величин $URI[[http://libmeta.ru/me/formula/aux/813_34_PUASSONA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/813_35_PUASSONA]]/URI$ имеет $URI[[http://libmeta.ru/me/formula/aux/813_36_PUASSONA]]/URI$. p., то каждая случайная величина $URI[[http://libmeta.ru/me/formula/aux/813_37_PUASSONA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/813_38_PUASSONA]]/URI$ подчинена П. р. Имеются общие необходимые и достаточные условия сходимости распределения сумм независимых случайных величин к П. р. При $URI[[http://libmeta.ru/me/formula/aux/813_39_PUASSONA]]/URI$ случайная величина $URI[[http://libmeta.ru/me/formula/aux/813_40_PUASSONA]]/URI$ имеет в пределе стандартное нормальное распределение.
+
+П. р. было впервые получено С. Пуассоном (s. Роisson, 1837) при выводе приближенной формулы для биномиального распределения в условиях, когда $URI[[http://libmeta.ru/me/formula/aux/813_41_PUASSONA]]/URI$ (число испытавий) велико, а $URI[[http://libmeta.ru/me/formula/aux/813_42_PUASSONA]]/URI$ (вероятность успеха) мало. См. URI[[http://libmeta.ru/me/relation/813_1_PUASSONA]]/URI 2). П. р. с хорошим приближением описывает многие физич. явления (см. [2], т. I, гл. 6). П. р. является предельным для многих дискретных распределений, таких как, вапр., гипергеометрическое распределение, отрицательное биномиальное распределение, Пойа распределение, для распределений, возникающих в задачах о размещении частиц по ячейкам при определенном изменении их параметров. В вероятุостных моделях П. р. играет большую роль как точное распределение вероятностей. Природа П. р. как точного распределения вероятностей наиболее полно раскрывается в теории случайных процессов (см. Пуассоновский процесс), где П. р. появляется как распределение числа $URI[[http://libmeta.ru/me/formula/aux/813_43_PUASSONA]]/URI$ нек-рых случайных событий, происходящих в течение фиксированного интервала времени $URI[[http://libmeta.ru/me/formula/aux/813_44_PUASSONA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_16_PUASSONA]]/URI
+\]
+
+(параметр $URI[[http://libmeta.ru/me/formula/aux/813_45_PUASSONA]]/URI$ - среднее число событий в единицу времени), или, более общо, как распределевие случайного числа точек в нек-рой фиксированной области евклидова пространства (параметр распределения пропорционален объему области).
+
+Наряду с П. р., как оно определено выше, рассматривают и так наз. о б о б ш е н о е или с л о н о е П. р. Так вазывают распределение вероятностей суммы $URI[[http://libmeta.ru/me/formula/aux/813_46_PUASSONA]]/URI$ случайного qисла $URI[[http://libmeta.ru/me/formula/aux/813_47_PUASSONA]]/URI$ одинаково распределенных случайных величин $URI[[http://libmeta.ru/me/formula/aux/813_48_PUASSONA]]/URI$, ... (при этом $URI[[http://libmeta.ru/me/formula/aux/813_49_PUASSONA]]/URI$ считают взаимно независимыми, и $URI[[http://libmeta.ru/me/formula/aux/813_50_PUASSONA]]/URI$ распределенным по П. р. с параметром $URI[[http://libmeta.ru/me/formula/aux/813_51_PUASSONA]]/URI$ ). URI[[http://libmeta.ru/me/relation/813_18_PUASSONA]]/URI. URI[[http://libmeta.ru/me/relation/813_17_PUASSONA]]/URI $URI[[http://libmeta.ru/me/formula/aux/813_52_PUASSONA]]/URI$ обобщенного П. р. равна
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_17_PUASSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/813_53_PUASSONA]]/URI$ - URI[[http://libmeta.ru/me/relation/813_16_PUASSONA]]/URI. URI[[http://libmeta.ru/me/relation/813_15_PUASSONA]]/URI $URI[[http://libmeta.ru/me/formula/aux/813_54_PUASSONA]]/URI$. Нашр., URI[[http://libmeta.ru/me/relation/813_14_PUASSONA]]/URI с URI[[http://libmeta.ru/me/relation/813_13_PUASSONA]]/URI $URI[[http://libmeta.ru/me/formula/aux/813_55_PUASSONA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/813_56_PUASSONA]]/URI$ является обобщенным П. р., так как для него можно положить
+
+\[
+URI[[http://libmeta.ru/me/formula/main/813_18_PUASSONA]]/URI
+\]
+
+Обобщенные П. р. безгранично делимы и каждое URI[[http://libmeta.ru/me/relation/813_12_PUASSONA]]/URIibmeta.ru/me/relation/813_11_PUASSONA]]/URI является URI[[http://libmeta.ru/me/relation/813_10_PUASSONA]]/URI обобщенных П. р. (может быть «сдвинутых», т. е. с URI[[http://libmeta.ru/me/relation/813_9_PUASSONA]]/URI. URI[[http://libmeta.ru/me/relation/813_8_PUASSONA]]/URI вида $URI[[http://libmeta.ru/me/formula/aux/813_57_PUASSONA]]/URI$. Вместе с төм всө URI[[http://libmeta.ru/me/relation/813_7_PUASSONA]]/URIibmeta.ru/me/relation/813_6_PUASSONA]]/URI (и только они) могут быть URI[[http://libmeta.ru/me/relation/813_5_PUASSONA]]/URI как URI[[http://libmeta.ru/me/relation/813_4_PUASSONA]]/URI URI[[http://libmeta.ru/me/relation/813_3_PUASSONA]]/URI сумм вида $URI[[http://libmeta.ru/me/formula/aux/813_58_PUASSONA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/813_59_PUASSONA]]/URI$ образуют схему серий URI[[http://libmeta.ru/me/relation/813_2_PUASSONA]]/URI величин с П. p., $URI[[http://libmeta.ru/me/formula/aux/813_60_PUASSONA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/813_61_PUASSONA]]/URI$-действительные числа.</text>
+  <text_orig>интегральное преобразование вида
+
+\[
+f(x)=\frac{1}{\pi} \int_{-\infty}^{\infty} \frac{1}{1+(x-t)^{2}} d \alpha(t)
+\]
+
+где $\alpha(t)$ - фувкция ограниченного изменения в каждом нонечном интервале, а также преобразование
+
+\[
+f(x)=\frac{1}{\pi} \int_{-\infty}^{\infty} \frac{\varphi(t)}{1+(x-t)^{2}} d t,
+\]
+
+вытекающее из $\left({ }^{*}\right)$, если $\alpha(t)-$ абсолютно непрерывная функция. Пусть
+
+\[
+\hat{\boldsymbol{g}}(x)=-\frac{1}{\pi} \int_{0}^{\infty} u^{-2}[g(x+u)-2 g(x)+g(x-u)] d u
+\]
+
+и
+
+\[
+\begin{gathered}
+T_{t} g(x)=\sum_{k=0}^{\infty}(-1)^{k} \frac{t^{2 k}}{(2 k) !} g^{(2 k)}(x)+ \\
++\sum_{k=0}^{\infty}(-1)^{k} \frac{t^{3 k+1}}{(2 k+1) !} \hat{g}^{(2 k)}(x) .
+\end{gathered}
+\] Имеют место следуюгие формулы обращения для П. п.:
+
+\[
+\begin{gathered}
+\frac{\alpha(x+0)+\alpha(x-0)}{2}-\frac{\alpha(+0)+\alpha(-0)}{2}= \\
+=\lim _{t \rightarrow 1-0} \int_{0}^{x} T_{t} f(u) d u
+\end{gathered}
+\]
+
+при всех $x$ и
+
+\[
+\varphi(x)=\lim _{t \rightarrow 1-0} T_{t} f(x)
+\]
+
+для почти всех $x$.
+
+Пусть $C$ - выпуклый открытый острый конус в $\mathbb{R} n$ с вершиной в нуле и $C^{*}-$ сопряженный конус, т. е.
+
+\[
+C^{*}=\left\{\xi_{:} \xi_{1} x_{1}+\ldots+\xi_{n} x_{n} \geqslant 0, \forall x \in C\right\} .
+\]
+
+Функция
+
+\[
+\mathscr{K}_{C}(z)=\int_{C *} e^{i\left(2_{1} \xi_{1}+\ldots+2_{n} \xi_{n}\right)} d \xi
+\]
+
+наз. я д р о м $\mathrm{K}$ о шा и трубчатой области $T^{C}=\{z=$ $\left.=x+i y ; \quad x \in \mathbb{R}^{n}, y \in C\right\}$ П. П. (обобщенной) функции $f$ наз. свертка
+
+\[
+f * \mathscr{P}_{C}(x, y),(x, y) \in T^{C}
+\]
+
+где
+
+\[
+\mathscr{P}_{C}(x, y)=\frac{\left|K_{C}^{(x+i y)}\right|^{2}}{(2 \pi)^{n} K_{C}(i y)}
+\]
+
+- ядро Пуассона трубчатой области $T C$ (см. [2]).
+
+Jum.: [1] P o l l a r d H., &quot;Trans. Amer. Math. Soc.&quot;, 1955, v. 78, N $\mathcal{N}_{2}$, p. $541-50 ;[2]$ B л а д и м и p o в B. С., Обобщенные функции в математической физике, М., 1976. вероятностей случайной величины $X$, принимающей целые нөотрицательные значения $k=0,1,2, \ldots$, с вероятностями
+
+\[
+P\{X=k\}=e^{-\lambda \frac{\lambda^{k}}{k !}}
+\]
+
+где $\lambda&gt;0$ - параметр. Производящая функция и характөристич. Функция П. р. определяются соответственно равенствами
+
+\[
+\varphi(z)=e^{\lambda(z-1)} \text { и } f(t)=\exp \left[\lambda\left(e^{i t}-1\right)\right] .
+\]
+
+Математич. ожидание, дисперсия и все семиинварианты более высокого порядка равны $\lambda$. Функция распределения П. $\mathbf{p}$.
+
+\[
+F(x)=\sum_{i=0}^{[x]} e^{-\lambda} \frac{\lambda^{i}}{i !}
+\]
+
+в точках $k=0,1,2, \ldots$ выражается формулой
+
+\[
+F(k)=\frac{1}{k l} \int_{\lambda}^{\infty} y^{k} e-y d y=1-S_{k+1}(\lambda),
+\]
+
+где $S_{k+1}(\lambda)$ - значение в точке $\lambda$ функции гамма-распределения с параметром $k+1$ (или формулой $F(k)=$ $=1-H_{2 k+2}(2 \lambda)$, где $H_{2 k+2}(2 \lambda)$ - значение в точке $2 \lambda$ функции «хи-квадрат» распределения с $2 k+2$ степенями свободы), откуда, в частности, следует соотношение
+
+\[
+P\{X=k\}=S_{k}(\lambda)-S_{k+1}(\lambda) \text {. }
+\]
+
+Сумма независимых случайных величин $X_{1}, \ldots, X_{n}$, имеющих П. р. с параметрами $\lambda_{1}, \ldots, \lambda_{n}$, подчиняется П. р. с параметром $\lambda_{1}+\ldots+\lambda_{n}$.
+
+Обратно, если сумма $X_{1}+X_{2}$ двух независимых случайных величин $X_{1}$ и $X_{2}$ имеет $\Pi$. p., то каждая случайная величина $X_{1}$ и $X_{2}$ подчинена П. р. Имеются общие необходимые и достаточные условия сходимости распределения сумм независимых случайных величин к П. р. При $\lambda \rightarrow \infty$ случайная величина $\frac{X-\lambda}{V \bar{\lambda}}$ имеет в пределе стандартное нормальное распределение.
+
+П. р. было впервые получено С. Пуассоном (S. Роisson, 1837) при выводе приближенной формулы для биномиального распределения в условиях, когда $n$ (число испытавий) велико, а $p$ (вероятность успеха) мало. См. Пуассона теорема 2). П. р. с хорошим приближением описывает многие физич. явления (см. [2], т. I, гл. 6). П. р. является предельным для многих дискретных распределений, таких как, вапр., гипергеометрическое распределение, отрицательное биномиальное распределение, Пойа распределение, для распределений, возникающих в задачах о размещении частиц по ячейкам при определенном изменении их параметров. В вероятุостных моделях П. р. играет большую роль как точное распределение вероятностей. Природа П. р. как точного распределения вероятностей наиболее полно раскрывается в теории случайных процессов (см. Пуассоновский процесс), где П. р. появляется как распределение числа $X(t)$ нек-рых случайных событий, происходящих в течение фиксированного интервала времени $t$ :
+
+\[
+\mathrm{P}\{X(t)=k\}=e^{-\lambda t} \frac{(\lambda t)^{k}}{k !}, k=0,1,2, \ldots
+\]
+
+(параметр $\lambda$ - среднее число событий в единицу времени), или, более общо, как распределевие случайного числа точек в нек-рой фиксированной области евклидова пространства (параметр распределения пропорционален объему области).
+
+Наряду с П. р., как оно определено выше, рассматривают и так наз. о б о б ш е н о е или с л о н о е П. р. Так вазывают распределение вероятностей суммы $X_{1}+X_{2}+\ldots+X_{v}$ случайного qисла $\underset{v}{v}$ одинаково распределенных случайных величин $X_{1}, X_{2}$, ... (при этом $v, X_{1}, X_{2}, \ldots$ считают взаимно независимыми, и $v-$ распределенным по П. р. с параметром $\lambda$ ). Характеристич. функция $\varphi(t)$ обобщенного П. р. равна
+
+\[
+\varphi(t)=\exp \{\lambda(\psi(t)-1)\},
+\]
+
+где $\psi(t)$ - характеристич. функция $X_{v}$. Нашр., отрицательное биномиальное распределение с параметрами $n$ и $p$ является обобщенным П. р., так как для него можно положить
+
+\[
+\psi(t)=\frac{1}{\lambda} \log \frac{1}{1-q e^{i t}}, \lambda=\log \frac{1}{p}, q=1-p .
+\]
+
+Обобщенные П. р. безгранично делимы и каждое безгранично делимое распределение является пределом обобщенных П. р. (может быть «сдвинутых», т. е. с характеристич. Функциями вида $\exp \left(\lambda_{n}\left(\psi_{n}(t)-1-i t a_{n}\right)\right)$. Вместе с төм всө безгранично делимые распределөния (и только они) могут быть получены как пределы распределений сумм вида $h_{n 1} X_{n 1}+\ldots+h_{n k_{n}} X_{n k_{n}}-A_{n}$, где $\left(X_{n 1}, \ldots, X_{n k_{n}}\right)$ образуют схему серий независимых случайных величин с П. p., $h_{n k_{n}}&gt;0$ и $\boldsymbol{A}_{n}$-действительные числа.
+
+Jum.: [1] P o i s s o n S. D., Recherches sur la probabilité des jugements en matière criminelle et en matière civile, précédées
+des règles générales du calcul deś probabilités, $P ., 1837 ;$ [2] $\Phi$ e лdes règles générales du calcul deś probabilités, P., 1837; [2] Ф е лс англ., 2 изд., т. 1-2, М., 1967; [3] Б о л в шा е в Л. Н., С м и р1968; [4] Л̈ и в н и к 10 В., о с т р о в с к и й И. В., Разложения случайных величин в векторов, М., 1972.</text_orig>
+</article>

@@ -1,0 +1,672 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/481_IGRA" alphabetic_pos="481">
+  <title>ИГРА С ИЕРАРХИЧЕСКОЙ СТРУКТУРОЙ</title>
+  <authors>
+    <author>И. 'а. Ватель</author>
+    <author>Ф. И. Ерешко</author>
+  </authors>
+  <pages>
+    <start>240</start>
+    <end>242</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г е р м е й е p Ю. Б., Игры с непротивоположными интересами, м., 1972.</literature_orig>
+    <unit>
+      <author>Гермейеp Ю. Б.</author>
+      <title>Игры с непротивоположными интересами</title>
+      <publication>м.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/481_1_IGRA">P\left(x_{1}\right)=\left\{x_{2} \mid f_{2}\left(x_{1}, x_{2}\right)=\max _{y \in X_{2}} f_{2}\left(x_{1}, y\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_2_IGRA">G_{1}=\sup _{x_{1} \in X_{1}} \min _{x_{2} \in P\left(x_{1}\right)} f_{1}\left(x_{1}, x_{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_3_IGRA">G_{2}=\sup _{\tilde{x}_{1} \in \tilde{X}_{1} x_{2} \in P_{2}\left(\tilde{x}_{1}\right)} f_{1}\left(\tilde{x}_{1}, x_{2}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_4_IGRA">\boldsymbol{P}_{2}\left(\tilde{x_{1}}\right)=\left\{x_{2} \mid f_{2}\left(\tilde{x_{1}}, x_{2}\right)=\sup _{y \in X_{2}} f_{2}\left(x_{1}(y), y\right)-\delta\left(\tilde{x}_{1}\right)\right\},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_5_IGRA">G_{3}=\sup _{\tilde{\tilde{x}}_{1} \in \tilde{\tilde{X}}_{1} \tilde{x}_{2} \in P_{3}\left(\tilde{\tilde{x}}_{1}\right)} f_{1}\left(\tilde{\tilde{x}}_{1}, \tilde{x}_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_6_IGRA">y \in \bar{X}_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_7_IGRA">\begin{aligned}&amp; f_{2}\left(x_{1}^{H}\left(x_{2}\right), x_{2}\right)=\min _{x_{1} \in X_{1}} f_{2}\left(x_{1}, x_{2}\right) \\&amp; L_{2}=\max _{x_{2} \in X_{2}} f_{2}\left(x_{1}^{H}\left(x_{2}\right), x_{2}\right)=\max _{x_{2} \in X_{2}} \min _{x_{1} \in X_{1}} f_{2}\left(x_{1}, x_{2}\right) \text {, } \\&amp; E_{2}=\left\{x_{2} \in X_{2} \mid f_{2}\left(x_{1}^{H}\left(x_{2}\right), x_{2}\right)=L_{2}\right\}, \\&amp; K=\left\{\begin{array}{cl}\sup _{\left(x_{1}, x_{2}\right) \in D} f_{1}\left(x_{1}, x_{2}\right), &amp; \text { если } D \neq \varnothing, \\-\infty, &amp; \text { если } D=\varnothing,\end{array}\right. \\&amp; f_{1}\left(x_{1}^{\varepsilon}, x_{2}^{\varepsilon}\right) \geqslant K-\varepsilon, \quad\left(x_{1}^{\varepsilon}, x_{2}^{\varepsilon}\right) \in D \neq \varnothing, \\&amp; M=\inf _{x_{2} \in E_{2}} \sup _{x_{1} \in X_{1}} f_{1}\left(x_{1}, x_{2}\right) \text {, } \\&amp; D=\left\{\left(x_{1}, x_{2}\right) \mid f_{2}\left(x_{1}, x_{2}\right)&gt;L_{2}\right\}, \\&amp; f_{1}\left(x_{1}^{a \varepsilon}\left(x_{2}\right), x_{2}\right) \geqslant \sup _{x_{1} \in X_{1}} f_{1}\left(x_{1}, x_{2}\right)-\varepsilon .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_8_IGRA">\tilde{x}_{1}^{\varepsilon}=\left\{\begin{array}{cl}x_{1}^{\varepsilon}, &amp; \text { если } x_{2}=x_{2}^{\varepsilon}, K&gt;M, \\x_{1}^{a \varepsilon}\left(x_{2}\right), &amp; \text { если } x_{2} \in E_{2}, K \leqslant M, \\x_{1}^{H}\left(x_{2}\right) &amp; \text { в остальшых случаях }\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_9_IGRA">\tilde{x}_{1}^{\varepsilon}= \begin{cases}x_{1}^{\varepsilon}, &amp; \text { если } x_{2}=x_{2}^{\varepsilon}, \\ x_{1}^{H}\left(x_{2}\right), &amp; \text { если } x_{2} \neq x_{2}^{\varepsilon} .\end{cases}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_10_IGRA">w_{1}=f_{1}\left(x_{1}, x_{2}\right)-z, \quad w_{2}=f_{2}\left(x_{1}, x_{2}\right)+z,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_11_IGRA">\begin{gathered}G_{2}=\max _{x_{1}, x_{2}} \min \left[f_{1}\left(x_{1}, x_{2}\right) ; f_{1}\left(x_{1}, x_{2}\right)+f_{2}\left(x_{1}, x_{2}\right)-L_{2}\right], \\f_{2}\left(x_{1}, x_{2}\right) \geqslant L_{2}-z^{0} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/481_12_IGRA">f_{2}^{-}\left(x_{1}, x_{2}\right) \leqslant f_{2}\left(x_{1}, x_{2}\right) \leqslant f_{2}^{+}\left(x_{1}, x_{2}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_1_IGRA">f_{1}\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_2_IGRA">f_{2}\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_3_IGRA">x_{1}, X_{2} ; x_{1} \in X_{1}, x_{2} \in X_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_4_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_5_IGRA">x_{1} \in X_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_6_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_7_IGRA">\tilde{x}_{1}=x_{1}\left(x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_8_IGRA">\tilde{x}_{1} \in \tilde{X}_{1}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_9_IGRA">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_10_IGRA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_11_IGRA">\delta\left(\tilde{x}_{1}\right) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_12_IGRA">\delta\left(\tilde{x}_{1}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_13_IGRA">\max _{y \in X_{2}}\left(x_{1}(y), y\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_14_IGRA">\gamma_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_15_IGRA">\tilde{x}_{2}=x_{2}\left(x_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_16_IGRA">\tilde{x}_{2} \in \tilde{X}_{2}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_17_IGRA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_18_IGRA">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_19_IGRA">\tilde{x}_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_20_IGRA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_21_IGRA">p_{3}\left(\tilde{\tilde{x_{1}}}\right)=\left\{\tilde{x_{2}} \mid f_{2}\left(\tilde{\tilde{x}_{1}}, \tilde{x_{2}}\right)=\sup _{y \in \tilde{X}_{2}} f_{2}\left(x_{1}(y), y\right)-\delta\left(\tilde{\tilde{x}_{1}}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_22_IGRA">\delta\left(\tilde{\tilde{x}}_{1}\right) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_23_IGRA">\delta\left(\tilde{\tilde{x}}_{1}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_24_IGRA">\max f_{2}\left(x_{1}(y), y\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_25_IGRA">g_{1} \leqslant G_{3} \leqslant G_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_26_IGRA">\gamma_{2 m}, m&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_27_IGRA">g_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_28_IGRA">\gamma_{2 m+1}, m&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_29_IGRA">g_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_30_IGRA">g_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_31_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_32_IGRA">g_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_33_IGRA">f_{2}\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_34_IGRA">x_{1}, X_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_35_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_36_IGRA">\max _{x_{2} \in X_{2}} f_{2}\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_37_IGRA">g_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_38_IGRA">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_39_IGRA">g_{2}=\max [K, M]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_40_IGRA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_41_IGRA">\max [K, M]-\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_42_IGRA">\mathbf{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_43_IGRA">l_{2}&lt;f_{2}\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_44_IGRA">f_{2}\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_45_IGRA">l_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_46_IGRA">x_{1} \times X_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_47_IGRA">k \geqslant M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_48_IGRA">\gamma_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_49_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_50_IGRA">x_{1} \in X_{1}, x_{2} \in X_{2}, 0 \leqslant z \leqslant z^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_51_IGRA">x_{1}\left(x_{2}\right), z\left(x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_52_IGRA">g_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_53_IGRA">z\left(x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_54_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_55_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_56_IGRA">f_{2}^{-}\left(x_{1}, x_{2}\right), f_{2}^{+}\left(x_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_57_IGRA">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_58_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_59_IGRA">f_{2}\left(x_{1}, x_{2}, \alpha\right), \alpha \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_60_IGRA">\alpha=\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_61_IGRA">f_{2}\left(x_{1}, x_{2}\right)=f_{2}\left(x_{1}, x_{2}, \alpha_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_62_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_63_IGRA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_64_IGRA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_65_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_66_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_67_IGRA">\hat{\alpha} \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_68_IGRA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_69_IGRA">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_70_IGRA">x_{1}\left(x_{2}, \hat{\alpha}\right), \alpha \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_71_IGRA">g_{2}=\inf _{\alpha \in A} G_{2 \alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_72_IGRA">g_{2 \alpha}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_73_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_74_IGRA">\alpha \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_75_IGRA">x_{2}(\alpha), \alpha \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_76_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_77_IGRA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_78_IGRA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_79_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_80_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_81_IGRA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_82_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_83_IGRA">w_{1}=f_{1}\left(x_{1}, x_{2}, x_{3}\right), w_{2}=f_{2}\left(x_{1}, x_{2}, x_{3}\right), w_{3}=f_{3}\left(x_{1}, x_{2}, x_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_84_IGRA">x_{1} \in X_{1}, x_{2} \in X_{2}, x_{3} \in X_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_85_IGRA">\pi_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_86_IGRA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_87_IGRA">f_{0}\left(x_{0}, x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_88_IGRA">f_{i}\left(x_{0}^{i}, x_{i}\right), i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_89_IGRA">x_{0}=\left\{x_{0}^{i}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_90_IGRA">\left.x_{0}^{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_91_IGRA">\pi_{0}, x_{0} \in X_{0}, x_{0}^{i} \in X_{0}^{i}, x=\left\{x_{1}, \ldots, x_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_92_IGRA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_93_IGRA">x_{i} \in X_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_94_IGRA">\pi_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_95_IGRA">x_{i} \in X_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_96_IGRA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_97_IGRA">x_{0}^{i}=x_{0}^{i}\left(x_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_98_IGRA">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_99_IGRA">x_{0}^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_100_IGRA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_101_IGRA">\gamma_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_102_IGRA">\gamma_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/481_103_IGRA">\gamma_{3}</formula>
+  </formulas_aux>
+  <relations n="75">
+    <relation uri="http://libmeta.ru/me/relation/481_1_IGRA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_2_IGRA">
+      <rel_text>распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_3_IGRA">
+      <rel_text>производства</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_4_IGRA">
+      <rel_text>политику</rel_text>
+      <target>http://libmeta.ru/me/article/397_POLIKRU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_5_IGRA">
+      <rel_text>интерпретацию</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_6_IGRA">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_7_IGRA">
+      <rel_text>результата</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_8_IGRA">
+      <rel_text>информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_9_IGRA">
+      <rel_text>стратегий</rel_text>
+      <target>http://libmeta.ru/me/article/261_STRATEGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_10_IGRA">
+      <rel_text>наибольшего гарантированного результата</rel_text>
+      <target>http://libmeta.ru/me/article/832_NAIBOL'ІEGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_11_IGRA">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_12_IGRA">
+      <rel_text>функцию</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_13_IGRA">
+      <rel_text>стратегию</rel_text>
+      <target>http://libmeta.ru/me/article/261_STRATEGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_14_IGRA">
+      <rel_text>выборах</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_15_IGRA">
+      <rel_text>информацию</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_16_IGRA">
+      <rel_text>Игрок</rel_text>
+      <target>http://libmeta.ru/me/article/483_IGRO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_17_IGRA">
+      <rel_text>непрерывными</rel_text>
+      <target>http://libmeta.ru/me/article/957_NEPRERYVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_18_IGRA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_19_IGRA">
+      <rel_text>компактными</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_20_IGRA">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_21_IGRA">
+      <rel_text>выбором</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_22_IGRA">
+      <rel_text>распоряжается</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_23_IGRA">
+      <rel_text>игрок</rel_text>
+      <target>http://libmeta.ru/me/article/483_IGRO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_24_IGRA">
+      <rel_text>иерархии</rel_text>
+      <target>http://libmeta.ru/me/article/494_IERARHI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_25_IGRA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_26_IGRA">
+      <rel_text>иерархии</rel_text>
+      <target>http://libmeta.ru/me/article/494_IERARHI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_27_IGRA">
+      <rel_text>центр</rel_text>
+      <target>http://libmeta.ru/me/article/911_TsENT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_28_IGRA">
+      <rel_text>игрок</rel_text>
+      <target>http://libmeta.ru/me/article/483_IGRO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_29_IGRA">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_30_IGRA">
+      <rel_text>информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_31_IGRA">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_32_IGRA">
+      <rel_text>коалиция</rel_text>
+      <target>http://libmeta.ru/me/article/920_KOALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_33_IGRA">
+      <rel_text>результат</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_34_IGRA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_35_IGRA">
+      <rel_text>коалиции</rel_text>
+      <target>http://libmeta.ru/me/article/920_KOALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_36_IGRA">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_37_IGRA">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_38_IGRA">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_39_IGRA">
+      <rel_text>выборы</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_40_IGRA">
+      <rel_text>коалицию</rel_text>
+      <target>http://libmeta.ru/me/article/920_KOALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_41_IGRA">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_42_IGRA">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_43_IGRA">
+      <rel_text>информацию</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_44_IGRA">
+      <rel_text>наибольшего гарантированного результата</rel_text>
+      <target>http://libmeta.ru/me/article/832_NAIBOL'ІEGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_45_IGRA">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_46_IGRA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_47_IGRA">
+      <rel_text>передачи информации</rel_text>
+      <target>http://libmeta.ru/me/article/651_INFORMATsII</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_48_IGRA">
+      <rel_text>переносятся</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_49_IGRA">
+      <rel_text>собственной функции</rel_text>
+      <target>http://libmeta.ru/me/article/40_SOBSTVENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_50_IGRA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_51_IGRA">
+      <rel_text>игрок</rel_text>
+      <target>http://libmeta.ru/me/article/483_IGRO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_52_IGRA">
+      <rel_text>результат</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_53_IGRA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_54_IGRA">
+      <rel_text>предположениях</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_55_IGRA">
+      <rel_text>условиях полной</rel_text>
+      <target>http://libmeta.ru/me/article/620_USLOVNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_56_IGRA">
+      <rel_text>близкий</rel_text>
+      <target>http://libmeta.ru/me/article/499_BLIZNETs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_57_IGRA">
+      <rel_text>результат</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_58_IGRA">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_59_IGRA">
+      <rel_text>игрок</rel_text>
+      <target>http://libmeta.ru/me/article/483_IGRO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_60_IGRA">
+      <rel_text>факторе</rel_text>
+      <target>http://libmeta.ru/me/article/659_FAKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_61_IGRA">
+      <rel_text>информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_62_IGRA">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_63_IGRA">
+      <rel_text>моменты</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_64_IGRA">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_65_IGRA">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_66_IGRA">
+      <rel_text>полной</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_67_IGRA">
+      <rel_text>результату</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_68_IGRA">
+      <rel_text>близкий</rel_text>
+      <target>http://libmeta.ru/me/article/499_BLIZNETs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_69_IGRA">
+      <rel_text>результат</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_70_IGRA">
+      <rel_text>получать</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_71_IGRA">
+      <rel_text>процедуры</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_72_IGRA">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_73_IGRA">
+      <rel_text>информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_74_IGRA">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/481_75_IGRA">
+      <rel_text>интересах</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+  </relations>
+  <text>модель конфликтной ситуации при фиксированной последовательности ходов и обмена информацией участников. Основным объектом исследования в теории И. с и. с. является задача об отыскании напбольшего гарантированного результата и оптимальной стратегии выделенного игрока. Пусть игроки I, Ii стремятся к увеличению, соответственно, функций выигрыша $URI[[http://libmeta.ru/me/formula/aux/481_1_IGRA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/481_2_IGRA]]/URI$, непрерывных на произведении компактов $URI[[http://libmeta.ru/me/formula/aux/481_3_IGRA]]/URI$. В зависимости от характера информации и порядка ходов могут быть сформулированы следующие различные игры.
+
+И г р а $URI[[http://libmeta.ru/me/formula/aux/481_4_IGRA]]/URI$. Игрок I выбирает $URI[[http://libmeta.ru/me/formula/aux/481_5_IGRA]]/URI$ и сообщает свой выбор игроку Ii. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_1_IGRA]]/URI
+\]
+
+- множество оптимальных выборов игрока Ii. Тогда наибольший гарантированный результат игрока I равен
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_2_IGRA]]/URI
+\]
+
+И г р a $URI[[http://libmeta.ru/me/formula/aux/481_6_IGRA]]/URI$. Игрок I рассчитывает иметь и действительно будет иметь информацию о выборах игрока Ii; сообщает свою стратегию - функцию $URI[[http://libmeta.ru/me/formula/aux/481_7_IGRA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/481_8_IGRA]]/URI$ множество всех отображений из $URI[[http://libmeta.ru/me/formula/aux/481_9_IGRA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/481_10_IGRA]]/URI$, игроку Ii. Наибольший гарантированный результат игрока I равен
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_3_IGRA]]/URI
+\]
+
+где множество оптимальных выборов игрока Il есть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_4_IGRA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/481_11_IGRA]]/URI$, при этом $URI[[http://libmeta.ru/me/formula/aux/481_12_IGRA]]/URI$ тогда и только тогда, когда достигается $URI[[http://libmeta.ru/me/formula/aux/481_13_IGRA]]/URI$.
+
+И г р а $URI[[http://libmeta.ru/me/formula/aux/481_14_IGRA]]/URI$. Игрок I рассчитывает иметь и действительно будет иметь информацию о выборах игрока Ii вида $URI[[http://libmeta.ru/me/formula/aux/481_15_IGRA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/481_16_IGRA]]/URI$ множество всех отображений из $URI[[http://libmeta.ru/me/formula/aux/481_17_IGRA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/481_18_IGRA]]/URI$; сообщает игроку Ii свою стра-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c374e407e6339903637ag-1.jpg?height=52&amp;width=836&amp;top_left_y=1993&amp;top_left_x=118)
+бражений из $URI[[http://libmeta.ru/me/formula/aux/481_19_IGRA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/481_20_IGRA]]/URI$. Наибольший гарантированный результат игрока I равен
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_5_IGRA]]/URI
+\]
+
+где
+
+$URI[[http://libmeta.ru/me/formula/aux/481_21_IGRA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/481_22_IGRA]]/URI$, при этом $URI[[http://libmeta.ru/me/formula/aux/481_23_IGRA]]/URI$ тогда и толыко тогда, когда достигается $URI[[http://libmeta.ru/me/formula/aux/481_24_IGRA]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_6_IGRA]]/URI
+\]
+
+Соотношение между результатами в этих играх определяет для игрока I значимость информации 0 действиях игрока Ii: $URI[[http://libmeta.ru/me/formula/aux/481_25_IGRA]]/URI$. Пользуясь указанной схемой в построении стратегий игроков, можно формулировать игры с произвольной глубиной рекурсии. Имеет место утверждение: в играх $URI[[http://libmeta.ru/me/formula/aux/481_26_IGRA]]/URI$, наибольший гарантированный результат игрока I равен $URI[[http://libmeta.ru/me/formula/aux/481_27_IGRA]]/URI$; в играх $URI[[http://libmeta.ru/me/formula/aux/481_28_IGRA]]/URI$, наибольший гарантированный результат равен $URI[[http://libmeta.ru/me/formula/aux/481_29_IGRA]]/URI$. Задача отыскания $URI[[http://libmeta.ru/me/formula/aux/481_30_IGRA]]/URI$ относится к классу задач на максимин со связанными ограничениями.
+
+Развиты методы решения игры $URI[[http://libmeta.ru/me/formula/aux/481_31_IGRA]]/URI$, использующие штрафные функции, необходимые условія оптимальности, приближение исходной игры игрой с однозначными ответами игрока Ii. Полностью репены частные классы игр: с близкими интересами, биматричные, билинейные и др. Задача отыскания $URI[[http://libmeta.ru/me/formula/aux/481_32_IGRA]]/URI$ некорректна относительно изменения функции $URI[[http://libmeta.ru/me/formula/aux/481_33_IGRA]]/URI$ в равномерной метрике и множеств $URI[[http://libmeta.ru/me/formula/aux/481_34_IGRA]]/URI$ в метрике Х аусдорфа. Предложен общий метод регуляризации решения игры $URI[[http://libmeta.ru/me/formula/aux/481_35_IGRA]]/URI$; регуляризация задачи по функции выггрыша игрока Ii осуществляется за счет введения искусственной неточности определения $URI[[http://libmeta.ru/me/formula/aux/481_36_IGRA]]/URI$. Отыскание величины $URI[[http://libmeta.ru/me/formula/aux/481_37_IGRA]]/URI$ сводится к решению ряда задач математического программирования.
+
+Пусть для любого $URI[[http://libmeta.ru/me/formula/aux/481_38_IGRA]]/URI$ определены функции, множества и велитины:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_7_IGRA]]/URI
+\]
+
+В указанных условиях $URI[[http://libmeta.ru/me/formula/aux/481_39_IGRA]]/URI$ и стратегия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_8_IGRA]]/URI
+\]
+
+гарантирует игроку I при достаточно малых $URI[[http://libmeta.ru/me/formula/aux/481_40_IGRA]]/URI$ получение $URI[[http://libmeta.ru/me/formula/aux/481_41_IGRA]]/URI$. Как видно из определения, оптимальная стратегия состоит из нескольких ветвей, последняя играет роль с т р а т е г и и на к а $URI[[http://libmeta.ru/me/formula/aux/481_42_IGRA]]/URI$ а н и.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/481_43_IGRA]]/URI$ и у функции $URI[[http://libmeta.ru/me/formula/aux/481_44_IGRA]]/URI$ нет локальных максимумов со значением $URI[[http://libmeta.ru/me/formula/aux/481_45_IGRA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/481_46_IGRA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/481_47_IGRA]]/URI$ и оптимальная стратегия имеет простой вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_9_IGRA]]/URI
+\]
+
+Аналогичным образом может быть найдено решение игры $URI[[http://libmeta.ru/me/formula/aux/481_48_IGRA]]/URI$, оно также сводится к решению ряда задач математич. программирования.
+
+При введении в И. с и. с. побочных платежей со стороны игрока I, как функций от выборов игрока Ii, выражение для наибольшего гарантированного результата игрока I значительно упрощается. В игре $URI[[http://libmeta.ru/me/formula/aux/481_49_IGRA]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_10_IGRA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/481_50_IGRA]]/URI$, и игрок I выбирает стратегии $URI[[http://libmeta.ru/me/formula/aux/481_51_IGRA]]/URI$, отыскание $URI[[http://libmeta.ru/me/formula/aux/481_52_IGRA]]/URI$ сводится к решению задачи математич. программирования
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_11_IGRA]]/URI
+\]
+
+Вообще применение сколь угодно малых побочных платежей $URI[[http://libmeta.ru/me/formula/aux/481_53_IGRA]]/URI$ в И. с і. с. позволяет игроку I реализовать наибольший гарантированный результат, рассчитанный на благожелательность партнера.
+
+Сформулированные игры допускают обобщение на случай постепенного получения и использования информации в динамике. В случае, когда состояние игроков описывается дифференциальными или разностными уравнениями, возникает обширный класс задач, связанный с разнообразием форм информированности игроков о состоянии и течении как физич. процесса, так и процесса принятия решения. Рассмотрены обобщения игр $URI[[http://libmeta.ru/me/formula/aux/481_54_IGRA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/481_55_IGRA]]/URI$ на случай запрещенных ситуаций, т. е. при наличии совместных ограничений на выборы игроков.
+
+Приведенные формулировки относятся к случаю полной информированности игрока I о функции выигрыша и множестве его выборов. Если игроку I известно, что непрерывная функция выигрыша игрока Ii удовлетворяет неравенствам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/481_12_IGRA]]/URI
+\]
+
+при известных непрерывных функциях $URI[[http://libmeta.ru/me/formula/aux/481_56_IGRA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/481_57_IGRA]]/URI$ ), то его наибольший гарантированный результат в игре $URI[[http://libmeta.ru/me/formula/aux/481_58_IGRA]]/URI$ определяется из условия максимизации функции от одной переменной.
+
+Более общий вариант неполной информированности игрока I об интересах игрока Ii состоит в следующем: игроку I известна функция $URI[[http://libmeta.ru/me/formula/aux/481_59_IGRA]]/URI$, и известно, что при нек-ром (неизвестном) значении $URI[[http://libmeta.ru/me/formula/aux/481_60_IGRA]]/URI$ истинная функция $URI[[http://libmeta.ru/me/formula/aux/481_61_IGRA]]/URI$. При такой информированности решение игры $URI[[http://libmeta.ru/me/formula/aux/481_62_IGRA]]/URI$ для конечных множеств $URI[[http://libmeta.ru/me/formula/aux/481_63_IGRA]]/URI$ сводится к максимизации функции нескольких переменных; при бесконечных множествах $URI[[http://libmeta.ru/me/formula/aux/481_64_IGRA]]/URI$ задача еще более сложна. Наличие неопределенных факторов в постановке игры $URI[[http://libmeta.ru/me/formula/aux/481_65_IGRA]]/URI$ не приводит к принципиальному усложнению задачи, поскольку этот случай сводится к игре без неопределенностей. Для игры $URI[[http://libmeta.ru/me/formula/aux/481_66_IGRA]]/URI$ при неопределенности рассмотрен ряд задач, когда понятие стратегии игроков расширено за счет предложения игрока I игроку Ii сообщить свой критерий әффективности, т. е. нек-рое $URI[[http://libmeta.ru/me/formula/aux/481_67_IGRA]]/URI$, так чтобы окончательный выбор $URI[[http://libmeta.ru/me/formula/aux/481_68_IGRA]]/URI$ мог быть сделан по получении информации о $URI[[http://libmeta.ru/me/formula/aux/481_69_IGRA]]/URI$ и критерия әфффективности игрока Ii. Если в этом случае игрок Ii осторожен, т. е. придерживается принципа наибольшего гарантированного результата, а игрок I сообщает ему параметризованную стратегию $URI[[http://libmeta.ru/me/formula/aux/481_70_IGRA]]/URI$, то можно показать, что наибольший гарантированный результат игрока I равен $URI[[http://libmeta.ru/me/formula/aux/481_71_IGRA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/481_72_IGRA]]/URI$ наибольший гарантированный результат игрока I в игре $URI[[http://libmeta.ru/me/formula/aux/481_73_IGRA]]/URI$ при данном $URI[[http://libmeta.ru/me/formula/aux/481_74_IGRA]]/URI$. Аналогичный результат без предположения об осторожности игрока Ii имеет место, когда игроку I известно параметрич. семейство множеств $URI[[http://libmeta.ru/me/formula/aux/481_75_IGRA]]/URI$, одно из к-рых совпадает с истинным.
+
+Близка к рассмотренным задача об отыскании наибольшего гарантированного результата игрока I в игре $URI[[http://libmeta.ru/me/formula/aux/481_76_IGRA]]/URI$ при наличии в функциях выигрышей игроков параметра $URI[[http://libmeta.ru/me/formula/aux/481_77_IGRA]]/URI$, характеризующего природную неопределенность, когда игрок Ii при своем выборе информирован о конкретной величине $URI[[http://libmeta.ru/me/formula/aux/481_78_IGRA]]/URI$, а игрок I не информирован.
+
+В случае, когда игра $URI[[http://libmeta.ru/me/formula/aux/481_79_IGRA]]/URI$ при неопределенности повторяется, информированность игрока I об URI[[http://libmeta.ru/me/relation/481_75_IGRA]]/URI и возможностях игрока URI[[http://libmeta.ru/me/relation/481_74_IGRA]]/URI может быть повышена за счет URI[[http://libmeta.ru/me/relation/481_73_IGRA]]/URI, содержащейся в откликах игрока URI[[http://libmeta.ru/me/relation/481_72_IGRA]]/URI на действия игрока I. Построены соответствующие URI[[http://libmeta.ru/me/relation/481_71_IGRA]]/URI, нозволяющие игроку I, начиная с нек-рой партии, URI[[http://libmeta.ru/me/relation/481_70_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_69_IGRA]]/URI, сколь угодно URI[[http://libmeta.ru/me/relation/481_68_IGRA]]/URI к URI[[http://libmeta.ru/me/relation/481_67_IGRA]]/URI, гарантированному ему при URI[[http://libmeta.ru/me/relation/481_66_IGRA]]/URI информированности. Такие же URI[[http://libmeta.ru/me/relation/481_65_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_64_IGRA]]/URI и в игре $URI[[http://libmeta.ru/me/formula/aux/481_80_IGRA]]/URI$ с неопределенностями. Если URI[[http://libmeta.ru/me/relation/481_63_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_62_IGRA]]/URI игроком I URI[[http://libmeta.ru/me/relation/481_61_IGRA]]/URI о неопределенном URI[[http://libmeta.ru/me/relation/481_60_IGRA]]/URI $URI[[http://libmeta.ru/me/formula/aux/481_81_IGRA]]/URI$ не фиксированы, то URI[[http://libmeta.ru/me/relation/481_59_IGRA]]/URI I может URI[[http://libmeta.ru/me/relation/481_58_IGRA]]/URI в остальных повторениях URI[[http://libmeta.ru/me/relation/481_57_IGRA]]/URI, сколь угодно URI[[http://libmeta.ru/me/relation/481_56_IGRA]]/URI к гарантированному ему в URI[[http://libmeta.ru/me/relation/481_55_IGRA]]/URI информированности, при более слабых URI[[http://libmeta.ru/me/relation/481_54_IGRA]]/URI относительно URI[[http://libmeta.ru/me/relation/481_53_IGRA]]/URI выигрышей участников. Кроме того, в игре $URI[[http://libmeta.ru/me/formula/aux/481_82_IGRA]]/URI$ аналогичный URI[[http://libmeta.ru/me/relation/481_52_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_51_IGRA]]/URI I может URI[[http://libmeta.ru/me/relation/481_50_IGRA]]/URI, наблюдая только за значениями URI[[http://libmeta.ru/me/relation/481_49_IGRA]]/URI выигрыша.
+
+Формулировки рассматриваемых игр естественно URI[[http://libmeta.ru/me/relation/481_48_IGRA]]/URI на случай многих лиц, взаимодействия к-рых в смысле приоритета действий и URI[[http://libmeta.ru/me/relation/481_47_IGRA]]/URI имеют иерархическую структуру. При анализе этих игр необходимо оговаривать также правила взаимодействий игроков одного уровня. Так, при рассмотрении игры трех лиц, где URI[[http://libmeta.ru/me/relation/481_46_IGRA]]/URI выигрышей игроков имеют URI[[http://libmeta.ru/me/relation/481_45_IGRA]]/URI
+
+$URI[[http://libmeta.ru/me/formula/aux/481_83_IGRA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/481_84_IGRA]]/URI$, для отыскания URI[[http://libmeta.ru/me/relation/481_44_IGRA]]/URI выделенного игрока I, обладающего приоритетом в действиях, необходимо конкретизировать его URI[[http://libmeta.ru/me/relation/481_43_IGRA]]/URI о поведении игроков URI[[http://libmeta.ru/me/relation/481_42_IGRA]]/URI и Iii. Если игроки URI[[http://libmeta.ru/me/relation/481_41_IGRA]]/URI и Iii образуют известную игроку I жесткую URI[[http://libmeta.ru/me/relation/481_40_IGRA]]/URI, т. е. формулируют коалиционный критерий и сообща определяют свои URI[[http://libmeta.ru/me/relation/481_39_IGRA]]/URI, то для игрока I данный случай эквивалентен рассмотрснным ранее играм двух лиц. Обозримые URI[[http://libmeta.ru/me/relation/481_38_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_37_IGRA]]/URI также в случае, когда игроки URI[[http://libmeta.ru/me/relation/481_36_IGRA]]/URI и Iii либо находятся в известной игроку I URI[[http://libmeta.ru/me/relation/481_35_IGRA]]/URI, либо действуют индивидуально, если таким образом могут URI[[http://libmeta.ru/me/relation/481_34_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_33_IGRA]]/URI больший, чем дает URI[[http://libmeta.ru/me/relation/481_32_IGRA]]/URI; при этом каждый из игроков URI[[http://libmeta.ru/me/relation/481_31_IGRA]]/URI и Iii не имеет самостоятельной URI[[http://libmeta.ru/me/relation/481_30_IGRA]]/URI о ходе другого и URI[[http://libmeta.ru/me/relation/481_29_IGRA]]/URI их ходов задается игроком I. Подробно проанализированы игры, имеющие «веерную» структуру: выделенный URI[[http://libmeta.ru/me/relation/481_28_IGRA]]/URI (управляющий URI[[http://libmeta.ru/me/relation/481_27_IGRA]]/URI) $URI[[http://libmeta.ru/me/formula/aux/481_85_IGRA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/481_86_IGRA]]/URI$ игроков на следующем уровне URI[[http://libmeta.ru/me/relation/481_26_IGRA]]/URI (производители продукции) стремятся к увеличению URI[[http://libmeta.ru/me/relation/481_25_IGRA]]/URI выигрыша $URI[[http://libmeta.ru/me/formula/aux/481_87_IGRA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/481_88_IGRA]]/URI$, соответственно, где $URI[[http://libmeta.ru/me/formula/aux/481_89_IGRA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/481_90_IGRA]]/URI$ - выбор $URI[[http://libmeta.ru/me/formula/aux/481_91_IGRA]]/URI$ - coвокупный выбор игроков на нижнем уровне URI[[http://libmeta.ru/me/relation/481_24_IGRA]]/URI, причем они действуют независимо, и каждый URI[[http://libmeta.ru/me/relation/481_23_IGRA]]/URI номера $URI[[http://libmeta.ru/me/formula/aux/481_92_IGRA]]/URI$ URI[[http://libmeta.ru/me/relation/481_22_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_21_IGRA]]/URI $URI[[http://libmeta.ru/me/formula/aux/481_93_IGRA]]/URI$. Все URI[[http://libmeta.ru/me/relation/481_20_IGRA]]/URI полагаются URI[[http://libmeta.ru/me/relation/481_19_IGRA]]/URI, а URI[[http://libmeta.ru/me/relation/481_18_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_17_IGRA]]/URI. URI[[http://libmeta.ru/me/relation/481_16_IGRA]]/URI $URI[[http://libmeta.ru/me/formula/aux/481_94_IGRA]]/URI$ рассчитывает на URI[[http://libmeta.ru/me/relation/481_15_IGRA]]/URI (и будет ее иметь) о URI[[http://libmeta.ru/me/relation/481_14_IGRA]]/URI $URI[[http://libmeta.ru/me/formula/aux/481_95_IGRA]]/URI$ и сообщает каждому игроку $URI[[http://libmeta.ru/me/formula/aux/481_96_IGRA]]/URI$ соответствующую URI[[http://libmeta.ru/me/relation/481_13_IGRA]]/URI URI[[http://libmeta.ru/me/relation/481_12_IGRA]]/URI $URI[[http://libmeta.ru/me/formula/aux/481_97_IGRA]]/URI$, определенную на $URI[[http://libmeta.ru/me/formula/aux/481_98_IGRA]]/URI$ со значениями из $URI[[http://libmeta.ru/me/formula/aux/481_99_IGRA]]/URI$. Для И. с и. с. $URI[[http://libmeta.ru/me/formula/aux/481_100_IGRA]]/URI$ лиц URI[[http://libmeta.ru/me/relation/481_11_IGRA]]/URI выражения URI[[http://libmeta.ru/me/relation/481_10_IGRA]]/URI выделенного игрока при различных расширениях его класса URI[[http://libmeta.ru/me/relation/481_9_IGRA]]/URI за счет передачи игрокам нижнего уровня URI[[http://libmeta.ru/me/relation/481_8_IGRA]]/URI о действия партнеров, а также введения элементов блефа. Как и в играх двух лиц, возможность побочного платежа со стороны выделенного игрока значительно упрощает отыскание его гарантированного URI[[http://libmeta.ru/me/relation/481_7_IGRA]]/URI. При помопии И. с и. с. URI[[http://libmeta.ru/me/relation/481_6_IGRA]]/URI естественную URI[[http://libmeta.ru/me/relation/481_5_IGRA]]/URI различные механизмы централизованного управления активнымі экономич. подсистемами. Игра $URI[[http://libmeta.ru/me/formula/aux/481_101_IGRA]]/URI$ описывает процесс централизованного управления при помощи цен; игра $URI[[http://libmeta.ru/me/formula/aux/481_102_IGRA]]/URI$ моделирует URI[[http://libmeta.ru/me/relation/481_4_IGRA]]/URI штрафов и поощрений при стимулировании URI[[http://libmeta.ru/me/relation/481_3_IGRA]]/URI; игрой $URI[[http://libmeta.ru/me/formula/aux/481_103_IGRA]]/URI$ моделируется процесс URI[[http://libmeta.ru/me/relation/481_2_IGRA]]/URI ресурсов как URI[[http://libmeta.ru/me/relation/481_1_IGRA]]/URI от производственных способов использования данных ресурсов.</text>
+  <text_orig>модель конфликтной ситуации при фиксированной последовательности ходов и обмена информацией участников. Основным объектом исследования в теории И. с и. с. является задача об отыскании напбольшего гарантированного результата и оптимальной стратегии выделенного игрока. Пусть игроки I, II стремятся к увеличению, соответственно, функций выигрыша $f_{1}\left(x_{1}, x_{2}\right)$ и $f_{2}\left(x_{1}, x_{2}\right)$, непрерывных на произведении компактов $X_{1}, X_{2} ; x_{1} \in X_{1}, x_{2} \in X_{2}$. В зависимости от характера информации и порядка ходов могут быть сформулированы следующие различные игры.
+
+И г р а $\Gamma_{1}$. Игрок I выбирает $x_{1} \in X_{1}$ и сообщает свой выбор игроку II. Пусть
+
+\[
+P\left(x_{1}\right)=\left\{x_{2} \mid f_{2}\left(x_{1}, x_{2}\right)=\max _{y \in X_{2}} f_{2}\left(x_{1}, y\right)\right\}
+\]
+
+- множество оптимальных выборов игрока II. Тогда наибольший гарантированный результат игрока I равен
+
+\[
+G_{1}=\sup _{x_{1} \in X_{1}} \min _{x_{2} \in P\left(x_{1}\right)} f_{1}\left(x_{1}, x_{2}\right) .
+\]
+
+И г р a $\Gamma_{2}$. Игрок I рассчитывает иметь и действительно будет иметь информацию о выборах игрока II; сообщает свою стратегию - функцию $\tilde{x}_{1}=x_{1}\left(x_{2}\right)$, где $\tilde{x}_{1} \in \tilde{X}_{1}-$ множество всех отображений из $X_{2}$ в $X_{1}$, игроку II. Наибольший гарантированный результат игрока I равен
+
+\[
+G_{2}=\sup _{\tilde{x}_{1} \in \tilde{X}_{1} x_{2} \in P_{2}\left(\tilde{x}_{1}\right)} f_{1}\left(\tilde{x}_{1}, x_{2}\right),
+\]
+
+где множество оптимальных выборов игрока Il есть
+
+\[
+\boldsymbol{P}_{2}\left(\tilde{x_{1}}\right)=\left\{x_{2} \mid f_{2}\left(\tilde{x_{1}}, x_{2}\right)=\sup _{y \in X_{2}} f_{2}\left(x_{1}(y), y\right)-\delta\left(\tilde{x}_{1}\right)\right\},
+\]
+
+$\delta\left(\tilde{x}_{1}\right) \geqslant 0$, при этом $\delta\left(\tilde{x}_{1}\right)=0$ тогда и только тогда, когда достигается $\max _{y \in X_{2}}\left(x_{1}(y), y\right)$.
+
+И г р а $\Gamma_{3}$. Игрок I рассчитывает иметь и действительно будет иметь информацию о выборах игрока II вида $\tilde{x}_{2}=x_{2}\left(x_{1}\right)$, где $\tilde{x}_{2} \in \tilde{X}_{2}-$ множество всех отображений из $X_{1}$ в $X_{2}$; сообщает игроку II свою стра-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c374e407e6339903637ag-1.jpg?height=52&amp;width=836&amp;top_left_y=1993&amp;top_left_x=118)
+бражений из $\tilde{X}_{2}$ в $X_{1}$. Наибольший гарантированный результат игрока I равен
+
+\[
+G_{3}=\sup _{\tilde{\tilde{x}}_{1} \in \tilde{\tilde{X}}_{1} \tilde{x}_{2} \in P_{3}\left(\tilde{\tilde{x}}_{1}\right)} f_{1}\left(\tilde{\tilde{x}}_{1}, \tilde{x}_{2}\right)
+\]
+
+где
+
+$P_{3}\left(\tilde{\tilde{x_{1}}}\right)=\left\{\tilde{x_{2}} \mid f_{2}\left(\tilde{\tilde{x}_{1}}, \tilde{x_{2}}\right)=\sup _{y \in \tilde{X}_{2}} f_{2}\left(x_{1}(y), y\right)-\delta\left(\tilde{\tilde{x}_{1}}\right)\right\}$, $\delta\left(\tilde{\tilde{x}}_{1}\right) \geqslant 0$, при этом $\delta\left(\tilde{\tilde{x}}_{1}\right)=0$ тогда и толыко тогда, когда достигается $\max f_{2}\left(x_{1}(y), y\right)$.
+
+\[
+y \in \bar{X}_{2}
+\]
+
+Соотношение между результатами в этих играх определяет для игрока I значимость информации 0 действиях игрока II: $G_{1} \leqslant G_{3} \leqslant G_{2}$. Пользуясь указанной схемой в построении стратегий игроков, можно формулировать игры с произвольной глубиной рекурсии. Имеет место утверждение: в играх $\Gamma_{2 m}, m&gt;1$, наибольший гарантированный результат игрока I равен $G_{2}$; в играх $\Gamma_{2 m+1}, m&gt;1$, наибольший гарантированный результат равен $G_{3}$. Задача отыскания $G_{1}$ относится к классу задач на максимин со связанными ограничениями.
+
+Развиты методы решения игры $\Gamma_{1}$, использующие штрафные функции, необходимые условія оптимальности, приближение исходной игры игрой с однозначными ответами игрока II. Полностью репены частные классы игр: с близкими интересами, биматричные, билинейные и др. Задача отыскания $G_{1}$ некорректна относительно изменения функции $f_{2}\left(x_{1}, x_{2}\right)$ в равномерной метрике и множеств $X_{1}, X_{2}$ в метрике Х аусдорфа. Предложен общий метод регуляризации решения игры $\Gamma_{1}$; регуляризация задачи по функции выггрыша игрока II осуществляется за счет введения искусственной неточности определения $\max _{x_{2} \in X_{2}} f_{2}\left(x_{1}, x_{2}\right)$. Отыскание величины $G_{2}$ сводится к решению ряда задач математического программирования.
+
+Пусть для любого $\varepsilon&gt;0$ определены функции, множества и велитины:
+
+\[
+\begin{aligned}
+&amp; f_{2}\left(x_{1}^{H}\left(x_{2}\right), x_{2}\right)=\min _{x_{1} \in X_{1}} f_{2}\left(x_{1}, x_{2}\right) \\
+&amp; L_{2}=\max _{x_{2} \in X_{2}} f_{2}\left(x_{1}^{H}\left(x_{2}\right), x_{2}\right)=\max _{x_{2} \in X_{2}} \min _{x_{1} \in X_{1}} f_{2}\left(x_{1}, x_{2}\right) \text {, } \\
+&amp; E_{2}=\left\{x_{2} \in X_{2} \mid f_{2}\left(x_{1}^{H}\left(x_{2}\right), x_{2}\right)=L_{2}\right\}, \\
+&amp; K=\left\{\begin{array}{cl}
+\sup _{\left(x_{1}, x_{2}\right) \in D} f_{1}\left(x_{1}, x_{2}\right), &amp; \text { если } D \neq \varnothing, \\
+-\infty, &amp; \text { если } D=\varnothing,
+\end{array}\right. \\
+&amp; f_{1}\left(x_{1}^{\varepsilon}, x_{2}^{\varepsilon}\right) \geqslant K-\varepsilon, \quad\left(x_{1}^{\varepsilon}, x_{2}^{\varepsilon}\right) \in D \neq \varnothing, \\
+&amp; M=\inf _{x_{2} \in E_{2}} \sup _{x_{1} \in X_{1}} f_{1}\left(x_{1}, x_{2}\right) \text {, } \\
+&amp; D=\left\{\left(x_{1}, x_{2}\right) \mid f_{2}\left(x_{1}, x_{2}\right)&gt;L_{2}\right\}, \\
+&amp; f_{1}\left(x_{1}^{a \varepsilon}\left(x_{2}\right), x_{2}\right) \geqslant \sup _{x_{1} \in X_{1}} f_{1}\left(x_{1}, x_{2}\right)-\varepsilon .
+\end{aligned}
+\]
+
+В указанных условиях $G_{2}=\max [K, M]$ и стратегия
+
+\[
+\tilde{x}_{1}^{\varepsilon}=\left\{\begin{array}{cl}
+x_{1}^{\varepsilon}, &amp; \text { если } x_{2}=x_{2}^{\varepsilon}, K&gt;M, \\
+x_{1}^{a \varepsilon}\left(x_{2}\right), &amp; \text { если } x_{2} \in E_{2}, K \leqslant M, \\
+x_{1}^{H}\left(x_{2}\right) &amp; \text { в остальшых случаях }
+\end{array}\right.
+\]
+
+гарантирует игроку I при достаточно малых $\varepsilon$ получение $\max [K, M]-\varepsilon$. Как видно из определения, оптимальная стратегия состоит из нескольких ветвей, последняя играет роль с т р а т е г и и на к а $\mathbf{a}$ а н и.
+
+Если $L_{2}&lt;f_{2}\left(x_{1}, x_{2}\right)$ и у функции $f_{2}\left(x_{1}, x_{2}\right)$ нет локальных максимумов со значением $L_{2}$ на $X_{1} \times X_{2}$, то $K \geqslant M$ и оптимальная стратегия имеет простой вид:
+
+\[
+\tilde{x}_{1}^{\varepsilon}= \begin{cases}x_{1}^{\varepsilon}, &amp; \text { если } x_{2}=x_{2}^{\varepsilon}, \\ x_{1}^{H}\left(x_{2}\right), &amp; \text { если } x_{2} \neq x_{2}^{\varepsilon} .\end{cases}
+\]
+
+Аналогичным образом может быть найдено решение игры $\Gamma_{3}$, оно также сводится к решению ряда задач математич. программирования.
+
+При введении в И. с и. с. побочных платежей со стороны игрока I, как функций от выборов игрока II, выражение для наибольшего гарантированного результата игрока I значительно упрощается. В игре $\Gamma_{2}$, где
+
+\[
+w_{1}=f_{1}\left(x_{1}, x_{2}\right)-z, \quad w_{2}=f_{2}\left(x_{1}, x_{2}\right)+z,
+\]
+
+$x_{1} \in X_{1}, x_{2} \in X_{2}, 0 \leqslant z \leqslant z^{0}$, и игрок I выбирает стратегии $x_{1}\left(x_{2}\right), z\left(x_{2}\right)$, отыскание $G_{2}$ сводится к решению задачи математич. программирования
+
+\[
+\begin{gathered}
+G_{2}=\max _{x_{1}, x_{2}} \min \left[f_{1}\left(x_{1}, x_{2}\right) ; f_{1}\left(x_{1}, x_{2}\right)+f_{2}\left(x_{1}, x_{2}\right)-L_{2}\right], \\
+f_{2}\left(x_{1}, x_{2}\right) \geqslant L_{2}-z^{0} .
+\end{gathered}
+\]
+
+Вообще применение сколь угодно малых побочных платежей $z\left(x_{2}\right)$ в И. с і. с. позволяет игроку I реализовать наибольший гарантированный результат, рассчитанный на благожелательность партнера.
+
+Сформулированные игры допускают обобщение на случай постепенного получения и использования информации в динамике. В случае, когда состояние игроков описывается дифференциальными или разностными уравнениями, возникает обширный класс задач, связанный с разнообразием форм информированности игроков о состоянии и течении как физич. процесса, так и процесса принятия решения. Рассмотрены обобщения игр $\Gamma_{1}$ и $\Gamma_{2}$ на случай запрещенных ситуаций, т. е. при наличии совместных ограничений на выборы игроков.
+
+Приведенные формулировки относятся к случаю полной информированности игрока I о функции выигрыша и множестве его выборов. Если игроку I известно, что непрерывная функция выигрыша игрока II удовлетворяет неравенствам
+
+\[
+f_{2}^{-}\left(x_{1}, x_{2}\right) \leqslant f_{2}\left(x_{1}, x_{2}\right) \leqslant f_{2}^{+}\left(x_{1}, x_{2}\right)
+\]
+
+при известных непрерывных функциях $f_{2}^{-}\left(x_{1}, x_{2}\right), f_{2}^{+}\left(x_{1}\right.$, $x_{2}$ ), то его наибольший гарантированный результат в игре $\Gamma_{2}$ определяется из условия максимизации функции от одной переменной.
+
+Более общий вариант неполной информированности игрока I об интересах игрока II состоит в следующем: игроку I известна функция $f_{2}\left(x_{1}, x_{2}, \alpha\right), \alpha \in A$, и известно, что при нек-ром (неизвестном) значении $\alpha=\alpha_{0}$ истинная функция $f_{2}\left(x_{1}, x_{2}\right)=f_{2}\left(x_{1}, x_{2}, \alpha_{0}\right)$. При такой информированности решение игры $\Gamma_{2}$ для конечных множеств $A$ сводится к максимизации функции нескольких переменных; при бесконечных множествах $A$ задача еще более сложна. Наличие неопределенных факторов в постановке игры $\Gamma_{1}$ не приводит к принципиальному усложнению задачи, поскольку этот случай сводится к игре без неопределенностей. Для игры $\Gamma_{2}$ при неопределенности рассмотрен ряд задач, когда понятие стратегии игроков расширено за счет предложения игрока I игроку II сообщить свой критерий әффективности, т. е. нек-рое $\hat{\alpha} \in A$, так чтобы окончательный выбор $x_{1}$ мог быть сделан по получении информации о $x_{2}$ и критерия әфффективности игрока II. Если в этом случае игрок II осторожен, т. е. придерживается принципа наибольшего гарантированного результата, а игрок I сообщает ему параметризованную стратегию $x_{1}\left(x_{2}, \hat{\alpha}\right), \alpha \in A$, то можно показать, что наибольший гарантированный результат игрока I равен $G_{2}=\inf _{\alpha \in A} G_{2 \alpha}$, где $G_{2 \alpha}-$ наибольший гарантированный результат игрока I в игре $\Gamma_{2}$ при данном $\alpha \in A$. Аналогичный результат без предположения об осторожности игрока II имеет место, когда игроку I известно параметрич. семейство множеств $X_{2}(\alpha), \alpha \in A$, одно из к-рых совпадает с истинным.
+
+Близка к рассмотренным задача об отыскании наибольшего гарантированного результата игрока I в игре $\Gamma_{2}$ при наличии в функциях выигрышей игроков параметра $\alpha$, характеризующего природную неопределенность, когда игрок II при своем выборе информирован о конкретной величине $\alpha$, а игрок I не информирован.
+
+В случае, когда игра $\Gamma_{2}$ при неопределенности повторяется, информированность игрока I об интересах и возможностях игрока II может быть повышена за счет информации, содержащейся в откликах игрока II на действия игрока I. Построены соответствующие процедуры, нозволяющие игроку I, начиная с нек-рой партии, получать результат, сколь угодно близкий к результату, гарантированному ему при полной информированности. Такие же результаты получены и в игре $\Gamma_{1}$ с неопределенностями. Если моменты получения игроком I информации о неопределенном факторе $\alpha$ не фиксированы, то игрок I может получить в остальных повторениях результат, сколь угодно близкий к гарантированному ему в условиях полной информированности, при более слабых предположениях относительно функций выигрышей участников. Кроме того, в игре $\Gamma_{1}$ аналогичный результат игрок I может получить, наблюдая только за значениями собственной функции выигрыша.
+
+Формулировки рассматриваемых игр естественно переносятся на случай многих лиц, взаимодействия к-рых в смысле приоритета действий и передачи информации имеют иерархическую структуру. При анализе этих игр необходимо оговаривать также правила взаимодействий игроков одного уровня. Так, при рассмотрении игры трех лиц, где функции выигрышей игроков имеют вид
+
+$w_{1}=f_{1}\left(x_{1}, x_{2}, x_{3}\right), w_{2}=f_{2}\left(x_{1}, x_{2}, x_{3}\right), w_{3}=f_{3}\left(x_{1}, x_{2}, x_{3}\right)$, $x_{1} \in X_{1}, x_{2} \in X_{2}, x_{3} \in X_{3}$, для отыскания наибольшего гарантированного результата выделенного игрока I, обладающего приоритетом в действиях, необходимо конкретизировать его информацию о поведении игроков II и III. Если игроки II и III образуют известную игроку I жесткую коалицию, т. е. формулируют коалиционный критерий и сообща определяют свои выборы, то для игрока I данный случай эквивалентен рассмотрснным ранее играм двух лиц. Обозримые результаты получаются также в случае, когда игроки II и III либо находятся в известной игроку I коалиции, либо действуют индивидуально, если таким образом могут получить результат больший, чем дает коалиция; при этом каждый из игроков II и III не имеет самостоятельной информации о ходе другого и порядок их ходов задается игроком I. Подробно проанализированы игры, имеющие «веерную» структуру: выделенный игрок (управляющий центр) $\Pi_{0}$ и $n$ игроков на следующем уровне иерархии (производители продукции) стремятся к увеличению функций выигрыша $f_{0}\left(x_{0}, x\right)$ и $f_{i}\left(x_{0}^{i}, x_{i}\right), i=1, \ldots, n$, соответственно, где $x_{0}=\left\{x_{0}^{i}, \ldots\right.$, $\left.x_{0}^{n}\right\}$ - выбор $\Pi_{0}, x_{0} \in X_{0}, x_{0}^{i} \in X_{0}^{i}, x=\left\{x_{1}, \ldots, x_{n}\right\}$ - coвокупный выбор игроков на нижнем уровне иерархии, причем они действуют независимо, и каждый игрок номера $i$ распоряжается выбором $x_{i} \in X_{i}$. Все множества полагаются компактными, а функции непрерывными. Игрок $\Pi_{0}$ рассчитывает на информацию (и будет ее иметь) о выборах $x_{i} \in X_{i}$ и сообщает каждому игроку $i$ соответствующую стратегию функцию $x_{0}^{i}=x_{0}^{i}\left(x_{i}\right)$, определенную на $X_{i}$ со значениями из $X_{0}^{i}$. Для И. с и. с. $n$ лиц получены выражения наибольшего гарантированного результата выделенного игрока при различных расширениях его класса стратегий за счет передачи игрокам нижнего уровня информации о действия партнеров, а также введения элементов блефа. Как и в играх двух лиц, возможность побочного платежа со стороны выделенного игрока значительно упрощает отыскание его гарантированного результата. При помопии И. с и. с. получают естественную интерпретацию различные механизмы централизованного управления активнымі экономич. подсистемами. Игра $\Gamma_{1}$ описывает процесс централизованного управления при помощи цен; игра $\Gamma_{2}$ моделирует политику штрафов и поощрений при стимулировании производства; игрой $\Gamma_{3}$ моделируется процесс распределения ресурсов как функций от производственных способов использования данных ресурсов.
+
+Лит.: [1] Г е р м е й е p Ю. Б., Игры с непротивоположными интересами, м., 1972. И.'А. Ватель, Ф. И. Ерешко.</text_orig>
+</article>

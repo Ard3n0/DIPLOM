@@ -1,0 +1,564 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/958_GAUSSA" alphabetic_pos="958">
+  <title>ГАУССА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>450</start>
+    <end>451</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Х и л л е Э., Ф и л л и п с Р., Функциональный анализ и полугруппы, 2 изд., пер. с англ., М., 1962; [2] Д и тк и н В. А., П р у д н и к о в А. П., в кн.: Итоги науки. Сер. Математика. Математический анализ. 1966, М.,. 1967, с. 7-82.</literature_orig>
+    <unit>
+      <author>Хилле Э.</author>
+      <author>Филлипс Р.</author>
+      <title>Функциональный анализ и полугруппы</title>
+      <publication>2 изд., пер. с англ., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Диткин В. А.</author>
+      <author>Прудников А. П.</author>
+      <title>в кн.: Итоги науки. Сер. Математика. Математический анализ. 1966</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other>с. 7-82.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/958_1_GAUSSA">p_{1} f_{1}(x)+p_{2} f_{2}(x)+\ldots+p_{m} f_{m}(x)=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_2_GAUSSA">p^{i}=\left(p_{\mathbf{1}}^{i}, p_{\mathbf{2}}^{i}, \ldots, p_{m}^{i}\right), \quad i=1,2, \ldots, l</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_3_GAUSSA">\sum_{j=1}^{m} p_{j}^{i} f_{j}(x)-\sum_{j=1}^{m} p_{j}^{i} a_{j}=0, \quad i=1,2, \ldots, l,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_4_GAUSSA">a_{1 i} p_{1}+a_{2 i} p_{2}+\ldots+a_{m i} p_{m}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_5_GAUSSA">\Delta_{12}=\left|\begin{array}{ll}a_{11} &amp; a_{21} \\a_{12} &amp; a_{22}\end{array}\right| \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_6_GAUSSA">\left\|\begin{array}{cccccc}-\Delta_{23} &amp; \Delta_{13} &amp; -\Delta_{12} &amp; 0 &amp; \ldots &amp; 0 \\-\Delta_{24} &amp; \Delta_{14} &amp; 0 &amp; -\Delta_{12} &amp; \ldots &amp; 0 \\. . &amp; . &amp; \cdots &amp; . &amp; . &amp; . \\-\Delta_{2 m} &amp; \Delta_{1 m} &amp; 0 &amp; 0 &amp; \ldots &amp; -\Delta_{12}\end{array}\right\|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_7_GAUSSA">W(\zeta)[x]=\frac{1}{\sqrt{\pi \zeta}} \int_{-\infty}^{\infty} \exp \left(\frac{u^{2}}{\zeta}\right) x(t+u) d u,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_8_GAUSSA">x(t)=\exp \left\{-\frac{\zeta}{4} \frac{d^{2}}{d t^{2}}\right\} W(\zeta)[x(t)] .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_1_GAUSSA">f_{j}(x)-a_{j}=a_{j 1} x_{1}+\ldots+a_{j n} x_{n}-a_{j}=0, j=1, \ldots, m,\left(S^{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_2_GAUSSA">a_{j i}, a_{j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_3_GAUSSA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_4_GAUSSA">a_{11} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_5_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_6_GAUSSA">a_{21} / a_{11}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_7_GAUSSA">a_{31} / a_{11}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_8_GAUSSA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_9_GAUSSA">a_{m 1} / a_{11}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_10_GAUSSA">s^{1}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_11_GAUSSA">s^{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_12_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_13_GAUSSA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_14_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_15_GAUSSA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_16_GAUSSA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_17_GAUSSA">s^{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_18_GAUSSA">r=m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_19_GAUSSA">s^{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_20_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_21_GAUSSA">s^{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_22_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_23_GAUSSA">\left(x_{r}^{0}, \ldots, x_{n}^{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_24_GAUSSA">s^{r-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_25_GAUSSA">x_{r}^{0}, \ldots, x_{n}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_26_GAUSSA">x_{r}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_27_GAUSSA">s^{r-2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_28_GAUSSA">x_{r-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_29_GAUSSA">x_{r-1}=x_{r-1}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_30_GAUSSA">\left(x_{r-1}^{0}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_31_GAUSSA">\left.x_{r}^{0}, \ldots, x_{n}^{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_32_GAUSSA">s^{r-2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_33_GAUSSA">x_{r-1}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_34_GAUSSA">s^{r-2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_35_GAUSSA">x_{r}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_36_GAUSSA">x_{r-1}^{0}, x_{r}^{0}, \ldots, x_{n}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_37_GAUSSA">s^{r-3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_38_GAUSSA">x_{r-2}=x_{r-2}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_39_GAUSSA">\left(x_{r-2}^{0}, \ldots, x_{n}^{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_40_GAUSSA">x_{1}^{0}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_41_GAUSSA">x_{r-1}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_42_GAUSSA">x_{r}^{0}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_43_GAUSSA">x_{n}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_44_GAUSSA">\left(x_{1}^{0}, x_{2}^{0}, \ldots, x_{n}^{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_45_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_46_GAUSSA">u-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_47_GAUSSA">p^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_48_GAUSSA">p^{m}\left(u^{\prime}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_49_GAUSSA">\left(p_{1}, p_{2}, \ldots, p_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_50_GAUSSA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_51_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_52_GAUSSA">p^{m}(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_53_GAUSSA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_54_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_55_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_56_GAUSSA">p^{m}(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_57_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_58_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_59_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_60_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_61_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_62_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_63_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_64_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_65_GAUSSA">u_{1}, U_{2}, \ldots, U_{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_66_GAUSSA">p^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_67_GAUSSA">e_{1}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_68_GAUSSA">=(1,0, \ldots, 0), e_{2}=(0,1, \ldots, 0), \ldots, e_{n}=(0,0, \ldots, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_69_GAUSSA">u=u_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_70_GAUSSA">\left({ }^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_71_GAUSSA">i=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_72_GAUSSA">a_{11} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_73_GAUSSA">\boldsymbol{p}^{\boldsymbol{m}}\left(u_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_74_GAUSSA">\left(a_{21} / a_{11},-1,0, \ldots, 0\right),\left(a_{31} / a_{11}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_75_GAUSSA">0,-1, \ldots, 0), \ldots,\left(a_{m 1} / a_{11}, 0,0, \ldots,-1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_76_GAUSSA">u_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_77_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_78_GAUSSA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_79_GAUSSA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_80_GAUSSA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_81_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_82_GAUSSA">u=u_{i}+u_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_83_GAUSSA">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_84_GAUSSA">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_85_GAUSSA">i=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_86_GAUSSA">k=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_87_GAUSSA">\left(u_{1}+u_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_88_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_89_GAUSSA">\quad \Delta_{r s}=\left|\begin{array}{cc}a_{r 1} &amp; a_{s 1} \\ a_{r 2} &amp; a_{s 2}\end{array}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_90_GAUSSA">s^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_91_GAUSSA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_92_GAUSSA">1849 ;[2]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_93_GAUSSA">w(\zeta)[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_94_GAUSSA">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_95_GAUSSA">x(t) \in L_{2}(-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_96_GAUSSA">w(\zeta)[x] \in L_{2}(-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_97_GAUSSA">\zeta=\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_98_GAUSSA">w(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_99_GAUSSA">\zeta=4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_100_GAUSSA">\mathrm{r}</formula>
+  </formulas_aux>
+  <relations n="71">
+    <relation uri="http://libmeta.ru/me/relation/958_1_GAUSSA">
+      <rel_text>Формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_2_GAUSSA">
+      <rel_text>положительно определенным</rel_text>
+      <target>http://libmeta.ru/me/article/444_POLOZhITEL'NO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_3_GAUSSA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_4_GAUSSA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_5_GAUSSA">
+      <rel_text>Линейные неравенства</rel_text>
+      <target>http://libmeta.ru/me/article/358_LINEINOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_6_GAUSSA">
+      <rel_text>линейной алгебры</rel_text>
+      <target>http://libmeta.ru/me/article/321_LINEINAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_7_GAUSSA">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_8_GAUSSA">
+      <rel_text>алгоритмы</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_9_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_10_GAUSSA">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_11_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_12_GAUSSA">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_13_GAUSSA">
+      <rel_text>процедура</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_14_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_15_GAUSSA">
+      <rel_text>процедурой</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_16_GAUSSA">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_17_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_18_GAUSSA">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_19_GAUSSA">
+      <rel_text>пространства</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_20_GAUSSA">
+      <rel_text>уравнению</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_21_GAUSSA">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_22_GAUSSA">
+      <rel_text>Математическая</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_23_GAUSSA">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_24_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_25_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_26_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_27_GAUSSA">
+      <rel_text>пространство</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_28_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_29_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_30_GAUSSA">
+      <rel_text>пространства</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_31_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_32_GAUSSA">
+      <rel_text>произвольной</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_33_GAUSSA">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_34_GAUSSA">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_35_GAUSSA">
+      <rel_text>векторного пространства</rel_text>
+      <target>http://libmeta.ru/me/article/657_VEKTORNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_36_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_37_GAUSSA">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_38_GAUSSA">
+      <rel_text>систему</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_39_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_40_GAUSSA">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_41_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_42_GAUSSA">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_43_GAUSSA">
+      <rel_text>уравнении</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_44_GAUSSA">
+      <rel_text>коэфффициент</rel_text>
+      <target>http://libmeta.ru/me/article/64_KOEFFITsIEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_45_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_46_GAUSSA">
+      <rel_text>уравнении</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_47_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_48_GAUSSA">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_49_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_50_GAUSSA">
+      <rel_text>Система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_51_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_52_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_53_GAUSSA">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_54_GAUSSA">
+      <rel_text>ранг</rel_text>
+      <target>http://libmeta.ru/me/article/931_RAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_55_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_56_GAUSSA">
+      <rel_text>ранг</rel_text>
+      <target>http://libmeta.ru/me/article/931_RAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_57_GAUSSA">
+      <rel_text>системой</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_58_GAUSSA">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_59_GAUSSA">
+      <rel_text>уравненій</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_60_GAUSSA">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_61_GAUSSA">
+      <rel_text>коэффициента</rel_text>
+      <target>http://libmeta.ru/me/article/64_KOEFFITsIEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_62_GAUSSA">
+      <rel_text>полученных</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_63_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_64_GAUSSA">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_65_GAUSSA">
+      <rel_text>вычитают</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_66_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_67_GAUSSA">
+      <rel_text>второго уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/287_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_68_GAUSSA">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_69_GAUSSA">
+      <rel_text>линейных уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/366_LINEINOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_70_GAUSSA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_71_GAUSSA">
+      <rel_text>последовательного</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+  </relations>
+  <text>метод URI[[http://libmeta.ru/me/relation/958_71_GAUSSA]]/URI исключения неизвестных для нахождения решений URI[[http://libmeta.ru/me/relation/958_70_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/958_69_GAUSSA]]/URI, впервые описанный К. Гауссом [1]. Пусть дана URI[[http://libmeta.ru/me/relation/958_68_GAUSSA]]/URI
+
+$URI[[http://libmeta.ru/me/formula/aux/958_1_GAUSSA]]/URI$ где $URI[[http://libmeta.ru/me/formula/aux/958_2_GAUSSA]]/URI$ элементы произвольного поля $URI[[http://libmeta.ru/me/formula/aux/958_3_GAUSSA]]/URI$. Без ограничения общности можно считать, что $URI[[http://libmeta.ru/me/formula/aux/958_4_GAUSSA]]/URI$. Г. м. состоит в следующем. Из URI[[http://libmeta.ru/me/relation/958_67_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/958_66_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_5_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_65_GAUSSA]]/URI первое ее URI[[http://libmeta.ru/me/relation/958_64_GAUSSA]]/URI, умноженное почленно на $URI[[http://libmeta.ru/me/formula/aux/958_6_GAUSSA]]/URI$, из третьего - первое, умноженное на $URI[[http://libmeta.ru/me/formula/aux/958_7_GAUSSA]]/URI$, . .., из $URI[[http://libmeta.ru/me/formula/aux/958_8_GAUSSA]]/URI$-го - первое, умноженное на $URI[[http://libmeta.ru/me/formula/aux/958_9_GAUSSA]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/958_10_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_63_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/958_62_GAUSSA]]/URI уравненийразностей. При наличии ненулевого URI[[http://libmeta.ru/me/relation/958_61_GAUSSA]]/URI в $URI[[http://libmeta.ru/me/formula/aux/958_11_GAUSSA]]/URI$ (после возможного изменения URI[[http://libmeta.ru/me/relation/958_60_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/958_59_GAUSSA]]/URI и URI[[http://libmeta.ru/me/relation/958_58_GAUSSA]]/URI) поступают с ней так же, как с URI[[http://libmeta.ru/me/relation/958_57_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_12_GAUSSA]]/URI$, и т. д. Если URI[[http://libmeta.ru/me/relation/958_56_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_13_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_55_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_14_GAUSSA]]/URI$ (т. е. URI[[http://libmeta.ru/me/relation/958_54_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/958_53_GAUSSA]]/URI ее коэффициентов) меныше числа $URI[[http://libmeta.ru/me/formula/aux/958_15_GAUSSA]]/URI$, то на $URI[[http://libmeta.ru/me/formula/aux/958_16_GAUSSA]]/URI$-м шага появляется URI[[http://libmeta.ru/me/relation/958_52_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_17_GAUSSA]]/URI$ с нулевыми коәффициентами при всех неизвестных; при $URI[[http://libmeta.ru/me/formula/aux/958_18_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_51_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_19_GAUSSA]]/URI$ считается п у с т о й. URI[[http://libmeta.ru/me/relation/958_50_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_20_GAUSSA]]/URI$ тогда и только тогда совместна, когда URI[[http://libmeta.ru/me/relation/958_49_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_21_GAUSSA]]/URI$ либо совместна (т. е. не имеет отличных от нуля свободных членов), либо пуста.
+
+Процесс URI[[http://libmeta.ru/me/relation/958_48_GAUSSA]]/URI одного из решений (совместной) URI[[http://libmeta.ru/me/relation/958_47_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_22_GAUSSA]]/URI$ может быть описан следующим образом. Берется к.-л. решение $URI[[http://libmeta.ru/me/formula/aux/958_23_GAUSSA]]/URI$ спстемы $URI[[http://libmeta.ru/me/formula/aux/958_24_GAUSSA]]/URI$. Придавая значения $URI[[http://libmeta.ru/me/formula/aux/958_25_GAUSSA]]/URI$ неизвестным $URI[[http://libmeta.ru/me/formula/aux/958_26_GAUSSA]]/URI$ в к.-л. URI[[http://libmeta.ru/me/relation/958_46_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/958_45_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_27_GAUSSA]]/URI$, имеющем ненулевой URI[[http://libmeta.ru/me/relation/958_44_GAUSSA]]/URI при $URI[[http://libmeta.ru/me/formula/aux/958_28_GAUSSA]]/URI$ (напр., в первом ее URI[[http://libmeta.ru/me/relation/958_43_GAUSSA]]/URI), находят из него $URI[[http://libmeta.ru/me/formula/aux/958_29_GAUSSA]]/URI$ и URI[[http://libmeta.ru/me/relation/958_42_GAUSSA]]/URI решение $URI[[http://libmeta.ru/me/formula/aux/958_30_GAUSSA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/958_31_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_41_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_32_GAUSSA]]/URI$. Иначе говоря, значение $URI[[http://libmeta.ru/me/formula/aux/958_33_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_40_GAUSSA]]/URI из URI[[http://libmeta.ru/me/relation/958_39_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_34_GAUSSA]]/URI$ при замене в ней неизвестных $URI[[http://libmeta.ru/me/formula/aux/958_35_GAUSSA]]/URI$ взятыми их значениямі. Значения $URI[[http://libmeta.ru/me/formula/aux/958_36_GAUSSA]]/URI$ подставляются затем в URI[[http://libmeta.ru/me/relation/958_38_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_37_GAUSSA]]/URI$, находится значение $URI[[http://libmeta.ru/me/formula/aux/958_38_GAUSSA]]/URI$, і URI[[http://libmeta.ru/me/relation/958_37_GAUSSA]]/URI решение $URI[[http://libmeta.ru/me/formula/aux/958_39_GAUSSA]]/URI$ и т. д. Найденные так значения $URI[[http://libmeta.ru/me/formula/aux/958_40_GAUSSA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/958_41_GAUSSA]]/URI$ составляют вместе со взятыми значениями $URI[[http://libmeta.ru/me/formula/aux/958_42_GAUSSA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/958_43_GAUSSA]]/URI$ решение $URI[[http://libmeta.ru/me/formula/aux/958_44_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_36_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_45_GAUSSA]]/URI$ (см. [2]).
+
+Описанный метод допускает следующее обобщение (см. [4]). Пусть $URI[[http://libmeta.ru/me/formula/aux/958_46_GAUSSA]]/URI$ нек-рое подпространство URI[[http://libmeta.ru/me/relation/958_35_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_47_GAUSSA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/958_48_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_34_GAUSSA]]/URI всех решений $URI[[http://libmeta.ru/me/formula/aux/958_49_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_33_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_1_GAUSSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/958_50_GAUSSA]]/URI$ пробегает $URI[[http://libmeta.ru/me/formula/aux/958_51_GAUSSA]]/URI$. Для URI[[http://libmeta.ru/me/relation/958_32_GAUSSA]]/URI конечной URI[[http://libmeta.ru/me/relation/958_31_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_2_GAUSSA]]/URI
+\]
+
+ненулевых образующих элементов URI[[http://libmeta.ru/me/relation/958_30_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_52_GAUSSA]]/URI$ составляется URI[[http://libmeta.ru/me/relation/958_29_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_3_GAUSSA]]/URI
+\]
+
+( $URI[[http://libmeta.ru/me/formula/aux/958_53_GAUSSA]]/URI$ - неизвестное), наз. $URI[[http://libmeta.ru/me/formula/aux/958_54_GAUSSA]]/URI$-с в е р т к о ї URI[[http://libmeta.ru/me/relation/958_28_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_55_GAUSSA]]/URI$. Если URI[[http://libmeta.ru/me/relation/958_27_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_56_GAUSSA]]/URI$ не содержит ненулевых элементов, то считается, что URI[[http://libmeta.ru/me/relation/958_26_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_57_GAUSSA]]/URI$ имеет п у с т у ю $URI[[http://libmeta.ru/me/formula/aux/958_58_GAUSSA]]/URI$-с в е р т к у. Если URI[[http://libmeta.ru/me/relation/958_25_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_59_GAUSSA]]/URI$ совместна, то при любом $URI[[http://libmeta.ru/me/formula/aux/958_60_GAUSSA]]/URI$ ее $URI[[http://libmeta.ru/me/formula/aux/958_61_GAUSSA]]/URI$-свертка совместна или пуста. Установлено, что для совместности URI[[http://libmeta.ru/me/relation/958_24_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_62_GAUSSA]]/URI$ достаточно, чтобы совместной или пустой была ее $URI[[http://libmeta.ru/me/formula/aux/958_63_GAUSSA]]/URI$-свертка хотя бы для одного $URI[[http://libmeta.ru/me/formula/aux/958_64_GAUSSA]]/URI$. Пусть, далее, $URI[[http://libmeta.ru/me/formula/aux/958_65_GAUSSA]]/URI$ подпространства, порождаемые в URI[[http://libmeta.ru/me/relation/958_23_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_66_GAUSSA]]/URI$ векторами $URI[[http://libmeta.ru/me/formula/aux/958_67_GAUSSA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/958_68_GAUSSA]]/URI$.
+
+29 URI[[http://libmeta.ru/me/relation/958_22_GAUSSA]]/URI әнц., т. 1 Для $URI[[http://libmeta.ru/me/formula/aux/958_69_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_21_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_70_GAUSSA]]/URI$ сводится к URI[[http://libmeta.ru/me/relation/958_20_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_4_GAUSSA]]/URI
+\]
+
+Пусть, напр., $URI[[http://libmeta.ru/me/formula/aux/958_71_GAUSSA]]/URI$. Если при этом $URI[[http://libmeta.ru/me/formula/aux/958_72_GAUSSA]]/URI$, то в качестве ненулевых образующих элементов URI[[http://libmeta.ru/me/relation/958_19_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_73_GAUSSA]]/URI$ можно взять URI[[http://libmeta.ru/me/relation/958_18_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_74_GAUSSA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/958_75_GAUSSA]]/URI$, и тогда $URI[[http://libmeta.ru/me/formula/aux/958_76_GAUSSA]]/URI$-свертывание URI[[http://libmeta.ru/me/relation/958_17_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_77_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_16_GAUSSA]]/URI с URI[[http://libmeta.ru/me/relation/958_15_GAUSSA]]/URI исключения неизвестного $URI[[http://libmeta.ru/me/formula/aux/958_78_GAUSSA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/958_79_GAUSSA]]/URI$. м.
+
+$URI[[http://libmeta.ru/me/formula/aux/958_80_GAUSSA]]/URI$-свертывание URI[[http://libmeta.ru/me/relation/958_14_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_81_GAUSSA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/958_82_GAUSSA]]/URI$ есть URI[[http://libmeta.ru/me/relation/958_13_GAUSSA]]/URI одновременного исключения двух неизвестных $URI[[http://libmeta.ru/me/formula/aux/958_83_GAUSSA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/958_84_GAUSSA]]/URI$. Пусть, напр., $URI[[http://libmeta.ru/me/formula/aux/958_85_GAUSSA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/958_86_GAUSSA]]/URI$. Если при этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_5_GAUSSA]]/URI
+\]
+
+то для URI[[http://libmeta.ru/me/relation/958_12_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_87_GAUSSA]]/URI$-свертки URI[[http://libmeta.ru/me/relation/958_11_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_88_GAUSSA]]/URI$ можно взять строки URI[[http://libmeta.ru/me/relation/958_10_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_6_GAUSSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/958_89_GAUSSA]]/URI$
+
+Чередуя исключения отдельных неизвестных с исключением тех или иных пар (или в общем случае наборов) неизвестных, можно для нахождения решений URI[[http://libmeta.ru/me/relation/958_9_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_90_GAUSSA]]/URI$ строить те или иные URI[[http://libmeta.ru/me/relation/958_8_GAUSSA]]/URI, обобщающие $URI[[http://libmeta.ru/me/formula/aux/958_91_GAUSSA]]/URI$. м.
+
+Jum.: [1] G a u s s C. F,, Beiträge zur Theorie der algebra-
+chen Gleichungen, Gött., $URI[[http://libmeta.ru/me/formula/aux/958_92_GAUSSA]]/URI$ K y p o ш A. Г., Kypc ischen Gleichungen, Gött., 1849; [2] К у р о шा А. Г., Курс д е е в а B. Н., Вычислительные URI[[http://libmeta.ru/me/relation/958_7_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/958_6_GAUSSA]]/URI, 2 изд., М. Л., 1963; [4] Ч е р н и к о в С. Н., URI[[http://libmeta.ru/me/relation/958_5_GAUSSA]]/URI, М., 1968. ональное преобразование $URI[[http://libmeta.ru/me/formula/aux/958_93_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_4_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_94_GAUSSA]]/URI$, к-рое определяется интегралом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_7_GAUSSA]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/958_95_GAUSSA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/958_96_GAUSSA]]/URI$ для действительных значений $URI[[http://libmeta.ru/me/formula/aux/958_97_GAUSSA]]/URI$ URI[[http://libmeta.ru/me/relation/958_3_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_98_GAUSSA]]/URI$ является самосопряженным URI[[http://libmeta.ru/me/relation/958_2_GAUSSA]]/URI оператором [1]. URI[[http://libmeta.ru/me/relation/958_1_GAUSSA]]/URI обращения для Г. п.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_8_GAUSSA]]/URI
+\]
+
+При $URI[[http://libmeta.ru/me/formula/aux/958_99_GAUSSA]]/URI$ Г. п. наз. п р е о б р а зо в ан и е м В е йe p Iii $URI[[http://libmeta.ru/me/formula/aux/958_100_GAUSSA]]/URI$ a c c a.</text>
+  <text_orig>метод последовательного исключения неизвестных для нахождения решений системы линейных уравнений, впервые описанный К. Гауссом [1]. Пусть дана система
+
+$f_{j}(x)-a_{j}=a_{j 1} x_{1}+\ldots+a_{j n} x_{n}-a_{j}=0, j=1, \ldots, m,\left(S^{0}\right)$ где $a_{j i}, a_{j}-$ элементы произвольного поля $P$. Без ограничения общности можно считать, что $a_{11} \neq 0$. Г. м. состоит в следующем. Из второго уравнения системы $S^{0}$ вычитают первое ее уравнение, умноженное почленно на $a_{21} / a_{11}$, из третьего - первое, умноженное на $a_{31} / a_{11}$, . .., из $m$-го - первое, умноженное на $a_{m 1} / a_{11}$. Пусть $S^{1}-$ система полученных уравненийразностей. При наличии ненулевого коэффициента в $S^{1}$ (после возможного изменения порядка уравненій и переменных) поступают с ней так же, как с системой $S^{0}$, и т. д. Если ранг $r$ системы $S^{0}$ (т. е. ранг матрицы ее коэффициентов) меныше числа $m$, то на $r$-м шага появляется система $S^{r}$ с нулевыми коәффициентами при всех неизвестных; при $r=m$ система $S^{r}$ считается п у с т о й. Система $S^{0}$ тогда и только тогда совместна, когда система $S^{r}$ либо совместна (т. е. не имеет отличных от нуля свободных членов), либо пуста.
+
+Процесс получения одного из решений (совместной) системы $S^{0}$ может быть описан следующим образом. Берется к.-л. решение $\left(x_{r}^{0}, \ldots, x_{n}^{0}\right)$ спстемы $S^{r-1}$. Придавая значения $x_{r}^{0}, \ldots, x_{n}^{0}$ неизвестным $x_{r}, \ldots, x_{n}$ в к.-л. уравнении системы $S^{r-2}$, имеющем ненулевой коэфффициент при $x_{r-1}$ (напр., в первом ее уравнении), находят из него $x_{r-1}=x_{r-1}^{0}$ и получают решение $\left(x_{r-1}^{0}\right.$, $\left.x_{r}^{0}, \ldots, x_{n}^{0}\right)$ системы $S^{r-2}$. Иначе говоря, значение $x_{r-1}^{0}$ получается из системы $S^{r-2}$ при замене в ней неизвестных $x_{r}, \ldots, x_{n}$ взятыми их значениямі. Значения $x_{r-1}^{0}, x_{r}^{0}, \ldots, x_{n}^{0}$ подставляются затем в систему $S^{r-3}$, находится значение $x_{r-2}=x_{r-2}^{0}$, і получают решение $\left(x_{r-2}^{0}, \ldots, x_{n}^{0}\right)$ и т. д. Найденные так значения $x_{1}^{0}, \ldots$, $x_{r-1}^{0}$ составляют вместе со взятыми значениями $x_{r}^{0}, \ldots$, $x_{n}^{0}$ решение $\left(x_{1}^{0}, x_{2}^{0}, \ldots, x_{n}^{0}\right)$ системы $S^{0}$ (см. [2]).
+
+Описанный метод допускает следующее обобщение (см. [4]). Пусть $U-$ нек-рое подпространство векторного пространства $P^{n}$ и $P^{m}\left(U^{\prime}\right)-$ множество всех решений $\left(p_{1}, p_{2}, \ldots, p_{m}\right)$ уравнения
+
+\[
+p_{1} f_{1}(x)+p_{2} f_{2}(x)+\ldots+p_{m} f_{m}(x)=0,
+\]
+
+где $x$ пробегает $U$. Для произвольной конечной системы
+
+\[
+p^{i}=\left(p_{\mathbf{1}}^{i}, p_{\mathbf{2}}^{i}, \ldots, p_{m}^{i}\right), \quad i=1,2, \ldots, l
+\]
+
+ненулевых образующих элементов пространства $P^{m}(U)$ составляется система
+
+\[
+\sum_{j=1}^{m} p_{j}^{i} f_{j}(x)-\sum_{j=1}^{m} p_{j}^{i} a_{j}=0, \quad i=1,2, \ldots, l,
+\]
+
+( $x$ - неизвестное), наз. $U$-с в е р т к о ї системы $S^{0}$. Если пространство $P^{m}(U)$ не содержит ненулевых элементов, то считается, что система $S^{0}$ имеет п у с т у ю $U$-с в е р т к у. Если система $S^{0}$ совместна, то при любом $U$ ее $U$-свертка совместна или пуста. Установлено, что для совместности системы $S^{0}$ достаточно, чтобы совместной или пустой была ее $U$-свертка хотя бы для одного $U$. Пусть, далее, $U_{1}, U_{2}, \ldots, U_{n}-$ подпространства, порождаемые в пространстве $P^{n}$ векторами $e_{1}=$ $=(1,0, \ldots, 0), e_{2}=(0,1, \ldots, 0), \ldots, e_{n}=(0,0, \ldots, 1)$.
+
+29 Математическая әнц., т. 1 Для $U=U_{i}$ уравнение $\left({ }^{*}\right)$ сводится к уравнению
+
+\[
+a_{1 i} p_{1}+a_{2 i} p_{2}+\ldots+a_{m i} p_{m}=0 .
+\]
+
+Пусть, напр., $i=1$. Если при этом $a_{11} \neq 0$, то в качестве ненулевых образующих элементов пространства $\boldsymbol{P}^{\boldsymbol{m}}\left(U_{1}\right)$ можно взять векторы $\left(a_{21} / a_{11},-1,0, \ldots, 0\right),\left(a_{31} / a_{11}\right.$, $0,-1, \ldots, 0), \ldots,\left(a_{m 1} / a_{11}, 0,0, \ldots,-1\right)$, и тогда $U_{1}$-свертывание системы $S^{0}$ совпадает с процедурой исключения неизвестного $x_{1}$ в $\Gamma$. м.
+
+$U$-свертывание системы $S^{0}$ при $U=U_{i}+U_{k}$ есть процедура одновременного исключения двух неизвестных $x_{i}$ и $x_{k}$. Пусть, напр., $i=1$ и $k=2$. Если при этом
+
+\[
+\Delta_{12}=\left|\begin{array}{ll}
+a_{11} &amp; a_{21} \\
+a_{12} &amp; a_{22}
+\end{array}\right| \neq 0
+\]
+
+то для получения $\left(U_{1}+U_{2}\right)$-свертки системы $S^{0}$ можно взять строки матрицы
+
+\[
+\left\|\begin{array}{cccccc}
+-\Delta_{23} &amp; \Delta_{13} &amp; -\Delta_{12} &amp; 0 &amp; \ldots &amp; 0 \\
+-\Delta_{24} &amp; \Delta_{14} &amp; 0 &amp; -\Delta_{12} &amp; \ldots &amp; 0 \\
+. . &amp; . &amp; \cdots &amp; . &amp; . &amp; . \\
+-\Delta_{2 m} &amp; \Delta_{1 m} &amp; 0 &amp; 0 &amp; \ldots &amp; -\Delta_{12}
+\end{array}\right\|,
+\]
+
+где $\quad \Delta_{r s}=\left|\begin{array}{cc}a_{r 1} &amp; a_{s 1} \\ a_{r 2} &amp; a_{s 2}\end{array}\right|$
+
+Чередуя исключения отдельных неизвестных с исключением тех или иных пар (или в общем случае наборов) неизвестных, можно для нахождения решений системы $S^{0}$ строить те или иные алгоритмы, обобщающие $\Gamma$. м.
+
+Jum.: [1] G a u s s C. F,, Beiträge zur Theorie der algebra-
+chen Gleichungen, Gött., $1849 ;[2]$ K y p o ш A. Г., Kypc ischen Gleichungen, Gött., 1849; [2] К у р о шा А. Г., Курс д е е в а B. Н., Вычислительные методы линейной алгебры, 2 изд., М. Л., 1963; [4] Ч е р н и к о в С. Н., Линейные неравенства, М., 1968. ональное преобразование $W(\zeta)[x]$ функции $x(t)$, к-рое определяется интегралом:
+
+\[
+W(\zeta)[x]=\frac{1}{\sqrt{\pi \zeta}} \int_{-\infty}^{\infty} \exp \left(\frac{u^{2}}{\zeta}\right) x(t+u) d u,
+\]
+
+Если $x(t) \in L_{2}(-\infty, \infty)$, то $W(\zeta)[x] \in L_{2}(-\infty, \infty)$ для действительных значений $\zeta=\xi$ оператор $W(\zeta)$ является самосопряженным положительно определенным оператором [1]. Формула обращения для Г. п.:
+
+\[
+x(t)=\exp \left\{-\frac{\zeta}{4} \frac{d^{2}}{d t^{2}}\right\} W(\zeta)[x(t)] .
+\]
+
+При $\zeta=4$ Г. п. наз. п р е о б р а зо в ан и е м В е йe p III $\mathrm{r}$ a c c a.
+
+Лит.: [1] Х и л л е Э., Ф и л л и п с Р., Функциональный анализ и полугруппы, 2 изд., пер. с англ., М., 1962; [2] Д и тк и н В. А., П р у д н и к о в А. П., в кн.: Итоги науки. Сер. Математика. Математический анализ. 1966, М.,. 1967, с. 7-82.</text_orig>
+</article>

@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/385_POKOORDINATNOGO" alphabetic_pos="385">
+  <title>ПОКООРДИНАТНОГО СПУСКА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>197</start>
+    <end>197</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] В а с и ль е в Ф. П., Численные методы решения экстремальных зарач, M., 1980;' [2] K a p M a о o B B. Г., Математическое программирование, 2 изд., М., 1980.</literature_orig>
+    <unit>
+      <author>Васильев Ф. П.</author>
+      <title>Численные методы решения экстремальных зарач</title>
+      <publication>M.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Kap Maоo B B. Г.</author>
+      <title>Математическое программирование</title>
+      <publication>2 изд., М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/385_1_POKOORDINATNOGO">X=\left\{x=\left(x^{1}, \ldots, x^{n}\right): a_{i} \leqslant x^{i} \leqslant b_{i}, i=1, \ldots, n\right\},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/385_2_POKOORDINATNOGO">x_{k}+\alpha_{k} \boldsymbol{p}_{k} \in X, F\left(\boldsymbol{x}_{k}+\alpha_{k} \boldsymbol{p}_{k}\right)&lt;F\left(\boldsymbol{x}_{k}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/385_3_POKOORDINATNOGO">\boldsymbol{x}_{k}-\alpha_{k} \boldsymbol{p}_{k} \in X, F\left(\boldsymbol{x}_{k}-\alpha_{k} \boldsymbol{p}_{k}\right)&lt;F\left(\boldsymbol{x}_{k}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/385_4_POKOORDINATNOGO">\lim _{k \rightarrow \infty} F\left(x_{k}\right)=\inf _{x \in X} F(x),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_1_POKOORDINATNOGO">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_2_POKOORDINATNOGO">a_{i}, b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_3_POKOORDINATNOGO">a_{i}&lt;b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_4_POKOORDINATNOGO">a_{i}=-\infty, b_{j}=+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_5_POKOORDINATNOGO">e_{i}=(0, \ldots, 0,1,0, \ldots, 0)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_6_POKOORDINATNOGO">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_7_POKOORDINATNOGO">x_{0} \in X, \alpha_{0}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_8_POKOORDINATNOGO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_9_POKOORDINATNOGO">x_{0} \in X, \alpha_{k}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_10_POKOORDINATNOGO">k \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_11_POKOORDINATNOGO">\boldsymbol{p}_{k}=\boldsymbol{e}_{i_{k}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_12_POKOORDINATNOGO">i_{k}=k-n\left[\frac{k}{n}\right]+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_13_POKOORDINATNOGO">[a]-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_14_POKOORDINATNOGO">\boldsymbol{p}_{0}=\boldsymbol{e}_{1}, \ldots, \boldsymbol{p}_{n-1}=\boldsymbol{e}_{n}, \boldsymbol{p}_{n}=\boldsymbol{e}_{1}, \ldots, \boldsymbol{p}_{2 n-1}=\boldsymbol{e}_{n}, \boldsymbol{p}_{2 n}=\boldsymbol{e}_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_15_POKOORDINATNOGO">e_{1}, \ldots, e_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_16_POKOORDINATNOGO">x_{k+1}=x_{k}+\alpha_{k} p_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_17_POKOORDINATNOGO">\alpha_{k+1}=\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_18_POKOORDINATNOGO">x_{k+1}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_19_POKOORDINATNOGO">=x_{k}-\alpha_{k} p_{k}, \alpha_{k+1}=\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_20_POKOORDINATNOGO">\boldsymbol{x}_{k+1}=\boldsymbol{x}_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_21_POKOORDINATNOGO">\alpha_{k+1}=\left\{\begin{array}{l}\lambda \alpha_{k} \text { при } i_{k}=n, x_{k}=x_{k-n+1}, \\ \alpha_{k} \text { при } i_{k} \neq n \text { или } x_{k} \neq x_{k-n+1}, \text { или } 0 \leqslant k \leqslant n-1 ;\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_22_POKOORDINATNOGO">\lambda, 0&lt;\lambda&lt;1,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_23_POKOORDINATNOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_24_POKOORDINATNOGO">e_{1}, \ldots, e_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_25_POKOORDINATNOGO">\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_26_POKOORDINATNOGO">\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_27_POKOORDINATNOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_28_POKOORDINATNOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_29_POKOORDINATNOGO">\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_30_POKOORDINATNOGO">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_31_POKOORDINATNOGO">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_32_POKOORDINATNOGO">\left\{x \in X: F(x) \leqslant F\left(x_{0}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_33_POKOORDINATNOGO">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_34_POKOORDINATNOGO">\left\{x_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_35_POKOORDINATNOGO">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_36_POKOORDINATNOGO">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_37_POKOORDINATNOGO">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/385_38_POKOORDINATNOGO">x</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/me/relation/385_1_POKOORDINATNOGO">
+      <rel_text>сходиться</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/385_2_POKOORDINATNOGO">
+      <rel_text>минимума</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/385_3_POKOORDINATNOGO">
+      <rel_text>множеству</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/385_4_POKOORDINATNOGO">
+      <rel_text>последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+  </relations>
+  <text>один Из методов минимизации функций многих переменных, использующий лишь значения минимизируемой функции. П. с. м. применяется в тех случаях, когда минимизируемая функция недифференцируема или вычисление ее производных требует большого объема работы. Ниже описан П. с. м. для задачи минимизации функции $URI[[http://libmeta.ru/me/formula/aux/385_1_POKOORDINATNOGO]]/URI$ на множестве
+
+\[
+URI[[http://libmeta.ru/me/formula/main/385_1_POKOORDINATNOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/385_2_POKOORDINATNOGO]]/URI$ - заданные числа, $URI[[http://libmeta.ru/me/formula/aux/385_3_POKOORDINATNOGO]]/URI$; случаи, когда все или нек-рые $URI[[http://libmeta.ru/me/formula/aux/385_4_POKOORDINATNOGO]]/URI$, здесь не исключаются. Пусть $URI[[http://libmeta.ru/me/formula/aux/385_5_POKOORDINATNOGO]]/URI$ координатный вектор, у к-рого $URI[[http://libmeta.ru/me/formula/aux/385_6_POKOORDINATNOGO]]/URI$-я координата равна 1 , остальные координаты равны нулю. Задают начальное приближение $URI[[http://libmeta.ru/me/formula/aux/385_7_POKOORDINATNOGO]]/URI$. Пусть известно $URI[[http://libmeta.ru/me/formula/aux/385_8_POKOORDINATNOGO]]/URI$-е при- ближение $URI[[http://libmeta.ru/me/formula/aux/385_9_POKOORDINATNOGO]]/URI$ при каком-либо $URI[[http://libmeta.ru/me/formula/aux/385_10_POKOORDINATNOGO]]/URI$. Полагают $URI[[http://libmeta.ru/me/formula/aux/385_11_POKOORDINATNOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/385_12_POKOORDINATNOGO]]/URI$ (здесь $URI[[http://libmeta.ru/me/formula/aux/385_13_POKOORDINATNOGO]]/URI$ целая часть числа a). Таким образом,
+
+$URI[[http://libmeta.ru/me/formula/aux/385_14_POKOORDINATNOGO]]/URI$, т. е. осуществляется циклич. перебор координатных векторов $URI[[http://libmeta.ru/me/formula/aux/385_15_POKOORDINATNOGO]]/URI$. Сначала проверяют выполнение условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/385_2_POKOORDINATNOGO]]/URI
+\]
+
+Если (1) выполняется, то полагают $URI[[http://libmeta.ru/me/formula/aux/385_16_POKOORDINATNOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/385_17_POKOORDINATNOGO]]/URI$. Если (1) не выполняется, то проверяют условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/385_3_POKOORDINATNOGO]]/URI
+\]
+
+В случае выполнения условия (2) полагают $URI[[http://libmeta.ru/me/formula/aux/385_18_POKOORDINATNOGO]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/385_19_POKOORDINATNOGO]]/URI$. Если оба условия (1), (2) не выполняются, то полагают $URI[[http://libmeta.ru/me/formula/aux/385_20_POKOORDINATNOGO]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/385_21_POKOORDINATNOGO]]/URI$
+
+где $URI[[http://libmeta.ru/me/formula/aux/385_22_POKOORDINATNOGO]]/URI$ параметр метода. Условия (3) означают, что если за один цикл из $URI[[http://libmeta.ru/me/formula/aux/385_23_POKOORDINATNOGO]]/URI$ итераций при переборе всех координатных векторов $URI[[http://libmeta.ru/me/formula/aux/385_24_POKOORDINATNOGO]]/URI$ с шагом $URI[[http://libmeta.ru/me/formula/aux/385_25_POKOORDINATNOGO]]/URI$ выполнилось хотя бы одно из условий (1) или (2), то длина шага $URI[[http://libmeta.ru/me/formula/aux/385_26_POKOORDINATNOGO]]/URI$ не дробится и сохраняется на протяжении по крайней мере следующего цикла из $URI[[http://libmeta.ru/me/formula/aux/385_27_POKOORDINATNOGO]]/URI$ итераций; если же на последних $URI[[http://libmeta.ru/me/formula/aux/385_28_POKOORDINATNOGO]]/URI$ итерациях оба условия (1), (2) ни разу не выполнились, то шаг $URI[[http://libmeta.ru/me/formula/aux/385_29_POKOORDINATNOGO]]/URI$ дробится.
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/385_30_POKOORDINATNOGO]]/URI$ выпукла и непрерывно дифференцируема на $URI[[http://libmeta.ru/me/formula/aux/385_31_POKOORDINATNOGO]]/URI$, множество $URI[[http://libmeta.ru/me/formula/aux/385_32_POKOORDINATNOGO]]/URI$ ограничено, $URI[[http://libmeta.ru/me/formula/aux/385_33_POKOORDINATNOGO]]/URI$ - произвольное положительное число, то метод (1) - (3) сходится, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/385_4_POKOORDINATNOGO]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/385_4_POKOORDINATNOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/385_34_POKOORDINATNOGO]]/URI$ сходится к URI[[http://libmeta.ru/me/relation/385_3_POKOORDINATNOGO]]/URI точек URI[[http://libmeta.ru/me/relation/385_2_POKOORDINATNOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/385_35_POKOORDINATNOGO]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/385_36_POKOORDINATNOGO]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/385_37_POKOORDINATNOGO]]/URI$ недифференцируема на $URI[[http://libmeta.ru/me/formula/aux/385_38_POKOORDINATNOGO]]/URI$, то П. с. м. может не URI[[http://libmeta.ru/me/relation/385_1_POKOORDINATNOGO]]/URI (см. [1], [2]).</text>
+  <text_orig>одиН Из методов минимизации функций многих переменных, использующий лишь значения минимизируемой функции. П. с. м. применяется в тех случаях, когда минимизируемая функция недифференцируема или вычисление ее производных требует большого объема работы. Ниже описан П. с. м. для задачи минимизации функции $F(x)$ на множестве
+
+\[
+X=\left\{x=\left(x^{1}, \ldots, x^{n}\right): a_{i} \leqslant x^{i} \leqslant b_{i}, i=1, \ldots, n\right\},
+\]
+
+где $a_{i}, b_{i}$ - заданные числа, $a_{i}&lt;b_{i}$; случаи, когда все или нек-рые $a_{i}=-\infty, b_{j}=+\infty$, здесь не исключаются. Пусть $e_{i}=(0, \ldots, 0,1,0, \ldots, 0)-$ координатный вектор, у к-рого $i$-я координата равна 1 , остальные координаты равны нулю. Задают начальное приближение $x_{0} \in X, \alpha_{0}&gt;0$. Пусть известно $k$-е при- ближение $x_{0} \in X, \alpha_{k}&gt;0$ при каком-либо $k \geqslant 0$. Полагают $\boldsymbol{p}_{k}=\boldsymbol{e}_{i_{k}}$, где $i_{k}=k-n\left[\frac{k}{n}\right]+1$ (здесь $[a]-$ целая часть числа a). Таким образом,
+
+$\boldsymbol{p}_{0}=\boldsymbol{e}_{1}, \ldots, \boldsymbol{p}_{n-1}=\boldsymbol{e}_{n}, \boldsymbol{p}_{n}=\boldsymbol{e}_{1}, \ldots, \boldsymbol{p}_{2 n-1}=\boldsymbol{e}_{n}, \boldsymbol{p}_{2 n}=\boldsymbol{e}_{1}, \ldots$, т. е. осуществляется циклич. перебор координатных векторов $e_{1}, \ldots, e_{n}$. Сначала проверяют выполнение условия
+
+\[
+x_{k}+\alpha_{k} \boldsymbol{p}_{k} \in X, F\left(\boldsymbol{x}_{k}+\alpha_{k} \boldsymbol{p}_{k}\right)&lt;F\left(\boldsymbol{x}_{k}\right) .
+\]
+
+Если (1) выполняется, то полагают $x_{k+1}=x_{k}+\alpha_{k} p_{k}$, $\alpha_{k+1}=\alpha_{k}$. Если (1) не выполняется, то проверяют условие
+
+\[
+\boldsymbol{x}_{k}-\alpha_{k} \boldsymbol{p}_{k} \in X, F\left(\boldsymbol{x}_{k}-\alpha_{k} \boldsymbol{p}_{k}\right)&lt;F\left(\boldsymbol{x}_{k}\right) .
+\]
+
+В случае выполнения условия (2) полагают $x_{k+1}=$ $=x_{k}-\alpha_{k} p_{k}, \alpha_{k+1}=\alpha_{k}$. Если оба условия (1), (2) не выполняются, то полагают $\boldsymbol{x}_{k+1}=\boldsymbol{x}_{k}$,
+
+$\alpha_{k+1}=\left\{\begin{array}{l}\lambda \alpha_{k} \text { при } i_{k}=n, x_{k}=x_{k-n+1}, \\ \alpha_{k} \text { при } i_{k} \neq n \text { или } x_{k} \neq x_{k-n+1}, \text { или } 0 \leqslant k \leqslant n-1 ;\end{array}\right.$
+
+где $\lambda, 0&lt;\lambda&lt;1,-$ параметр метода. Условия (3) означают, что если за один цикл из $n$ итераций при переборе всех координатных векторов $e_{1}, \ldots, e_{n}$ с шагом $\alpha_{k}$ выполнилось хотя бы одно из условий (1) или (2), то длина шага $\alpha_{k}$ не дробится и сохраняется на протяжении по крайней мере следующего цикла из $n$ итераций; если же на последних $n$ итерациях оба условия (1), (2) ни разу не выполнились, то шаг $\alpha_{k}$ дробится.
+
+Если функция $F(x)$ выпукла и непрерывно дифференцируема на $X$, множество $\left\{x \in X: F(x) \leqslant F\left(x_{0}\right)\right\}$ ограничено, $\alpha_{0}$ - произвольное положительное число, то метод (1) - (3) сходится, т. е.
+
+\[
+\lim _{k \rightarrow \infty} F\left(x_{k}\right)=\inf _{x \in X} F(x),
+\]
+
+последовательность $\left\{x_{k}\right\}$ сходится к множеству точек минимума $F(x)$ на $X$. Если $F(x)$ недифференцируема на $X$, то П. с. м. может не сходиться (см. [1], [2]).
+
+Лит.: [1] В а с и ль е в Ф. П., Численные методы решения экстремальных зарач, M., 1980;' [2] K a p M a о o B B. Г., Математическое программирование, 2 изд., М., 1980.</text_orig>
+</article>

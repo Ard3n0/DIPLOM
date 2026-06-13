@@ -1,0 +1,392 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1164_GRAMMATIKA" alphabetic_pos="1164">
+  <title>ГРАММАТИКА ПОРОЗКДАНОШАЯ</title>
+  <authors/>
+  <pages>
+    <start>547</start>
+    <end>549</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Г р о с с М., Л а н т е н А., Теория формальных грамматик, пер. с франц., М., 1971; [2] Г л а д к и й А. В., Формальные грамматики и языки, М., 1973; [3] Н о p с r of J. E., U $11 \mathrm{~m}$ a $\mathrm{n}$. D., Formal languages and their relation to automata, Reading (mass.), 1969; [4] $\boldsymbol{\gamma}$ л а д к и й А. B.,Д и к о в с к и й А. Я., в кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибернетика, 1972, т. 10, с. $107-42:$ [5] М а с л о в А. Н., С т о ц к и й Э. Д., в кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибервероятностей. Математическая статистика. Теоретическая кибер-нетика, 1975, т. 12 , с. $155-87 ;[6]$ С то ц к и й Э. Д., «проблемы передачи информации&quot;, 1971, т. 7, № 1, с. 87-101; № 3, с. 87-102.![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=32&amp;width=831&amp;top_left_y=1368&amp;top_left_x=120)щ и, Нс-г р а м м а тика, г р а м ма т ика к онт е к с т н а я,- частный случай әрамжатики порождаюцей, $\gamma=\langle V, W, I, R\rangle$, когда каждое ее правило имеет вид $\xi_{1} A \xi_{2} \rightarrow \xi_{1} \theta \xi_{2}$, где $\xi_{1}, \xi_{2}, \theta-$ цепочкі в алфавите $v \cup W, A \in W$ и $\theta$ непуста. Каждый шаг вывода![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=201&amp;width=216&amp;top_left_y=1547&amp;top_left_x=130)в Г. с. состоит в замене одного вхождения символа $a$ вхождением цепочки $\theta$, причем возможность замены обусловлена наличием «контекста» $\xi_{1}, \xi_{2}$. Вхождения символов в $\theta$ потом также могут заменяться и т. д. Таким образом, вхождение символа «развертывается» в нек-рый отрезок возникающей в результате вывода цепочки. Это дает возможность представить вывод в Г. с. с помощью дерева (д е р е в а в ы в о д а): напр., еслі грамматика имеет правила $i \rightarrow A A B$, $a B \rightarrow D B B, a B B \rightarrow a b B, A \rightarrow a, D \rightarrow a, B \rightarrow C, C \rightarrow c(a, b, c-$ основные сімволы, $i, A, B, C, D-$ вспомогательные символы, $i$ - начальный символ), то вывод $(i, A A B$, $a A B, a D B B, a a B B, a a b B, a a b C$, a $a b c)$ имеет дерево, ілзображенное на рис. Множество всех отрезков последней цепочки вывода, получающихся «развертыванием» вхождений вспомогательных символов - иначе говоря, «iроисходящих» от (неконцевых) верішін дерева вывода - при добавлении всех одноточечных отрезков образует систему составляющих указанной цепочки (см. Синтаксическая структура); отсюда п название «г. с.». Если все одноточечные отрезки также получаются заменой вхождений всіомогательных символов, то можно получить размеченную спстему составляіощих, приписывая каждой составляющей в качестве меток те вспомогательные символы, от вхождений к-рых она «происходит»; так, в приведенном выше примере для цепочки $a a b c$ получается размеченная система составляющих\[((a) A((a) D(b) B) A(c) B, C) I\](здесь границы составляющих указаны скобками, после правых скобок записаны метки). Приписывание цепочкам размеченных систем составляющих лежит в основе лингвистич. приложений Г. с. Так, грамматика, имеющая (в числе прочих) правıла$\pi$ Педл $\rightarrow S_{\text {м уж, ед, им }} \tilde{V}^{3}, \quad \tilde{V}^{3} \rightarrow V^{t 3} S_{\text {жен, ед, вин, }}$![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=47&amp;width=776&amp;top_left_y=541&amp;top_left_x=1035)$v^{t 3} \rightarrow 《$ иересекает»,где Предл, $s_{x y z}, \tilde{V}^{3}, V^{t 3}$ - вспомогательные символы, означающие, соответственно, «предлонение», «существительное рода $x$ в числе $y$ и падеже z», «группа глагола в 3-м лице», «переходный глагол в 3-м лице», a символ Предл - начальный, приписывает предложению «эллипс пересекает параболу» размеченную систему составляющих$\left((\right.$ Әлипс $) \quad S_{\text {муж, ед, им }}\left(\left(\right.\right.$ пересекает) $v^{t 3} \quad$ (параболу) $\left.\left.S_{\text {жен, ед, вин }}\right) \tilde{V}^{3}\right)$ Предл.Математич. значение Г. с. определяется прежде всего тем, что порождаемые ими языкі (так наз. Нся з ы к и) представляют собой простой подкласс класса примитивно рекурсивных множеств: класс Нс-языков совпадает с классом языков, допускаемых недетерминированными линейно ограниченнымі Тьюринаа машинами с одной лентой и одной головкой. «конкретные» числовые мнокества при обычных способах кодирования натуралыных чисел весыма часто оказываются Нс-языками (таковы, напр., множество полных квадратов, множество простых чисел, множество десятичных приближений числа $\sqrt{2}$ и т. п.).Для каждой Г. с. может быть построена эквивалентная ей л е в о к о т е к с т н а я (соответственно п р а в о к о н т е к с т на я) Г. с., то есть Г.с., все правила к-рой имеют вид $\xi A \rightarrow \xi \theta$ (соответственно $a \xi \rightarrow \theta \xi)$. В то же время всякая Г. с., все правила к-рой имеют вид $x A y \rightarrow x \theta y$, где $x, y-$ цепочкі в основном алфорите, эквивалентна нек-рой гралиатике бесконтекстной.Класс Нс-языков замкнут относітельно объединения, пересечения, умножения, усеченной итерации, подстановки; неизвестно, замкнут ліг он относительно дополнения.Сложность вывода. Временна́я сложность вывода в Г. с. ограничена сверху показательной функцией. Существуют языки, порождаемые Г. с. с временно́й сложностью порядка $n^{2}$ и не порождаемые никакими Г. с. с меньшей по порядку временно́й сложностью (например, язык $\left.\left\{x b x \mid x \in\left\{a_{1}, a_{2}\right\} *\right\}\right) ;$ примеров более высоких нижних оценок временной сложності неизвестно. Емкость всякой Г. с. очевидным образом равна $n$; для произвольной порождающей грамматıкı, емкость к-рой ограничена сверху линейной функцией\[f(n)=k n\]существует эквивалентная ей $\gamma$. с. (эта $\gamma$. с. может быть построена әффективно, еслі пзвестно $k$ ).Алгоритмические проблемы. Если нек-рый класс языков содержит хотя бы один Нс-язык Ii хотя бы для одного Нс-языка $l_{0}$ содержит разве лишь конечное число «почті совпадающих» с $l_{0}$ языков (языки $l_{1}$ и $l_{2}$ «почти совпадают», если их сімметрпч. разность $\left(l_{1}-L_{2}\right) \cup\left(L_{2}-L_{1}\right)$ конечна), то своїство принадлеяіать данному классу нераспознаваемо в классе Г. с. В частности, нераспознаваемы свойства быть пустым, конечным, автоматным, линейным, бесконтекстным языком, иметь пустое пли конечное дополнение, совпадать c (любым) фиксированным Нс-языком. Примером свойства языков, расгознаваемого в классе Г. с., может служить свойство содержать (любую) фиксированную цепочку.См. также Грамиатика бесконтекстная..</literature_orig>
+    <unit>
+      <author>Гросс М.</author>
+      <author>Лантен А.</author>
+      <title>Теория формальных грамматик</title>
+      <publication>пер. с франц., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гладкий А. В.</author>
+      <title>Формальные грамматики и языки</title>
+      <publication>М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ноpсrof J. E.</author>
+      <author>U$11\mathrm{~m}$a$\mathrm{n}$. D.</author>
+      <title>Formal languages and their relation to automata, Reading (mass.)</title>
+      <publication/>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$\boldsymbol{\gamma}$ладкий А. B.</author>
+      <author>Диковский А. Я.</author>
+      <title>в кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибернетика</title>
+      <publication/>
+      <year>1972</year>
+      <other>т. 10, с. $107-42:$</other>
+    </unit>
+    <unit>
+      <author>Маслов А. Н.</author>
+      <author>Стоцкий Э. Д.</author>
+      <title>в кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибервероятностей. Математическая статистика. Теоретическая кибер-нетика</title>
+      <publication/>
+      <year>1975</year>
+      <other>т. 12, с. $155-87</other>
+    </unit>
+    <unit>
+      <author>$Стоцкий Э. Д.</author>
+      <title>«проблемы передачи информации&quot;</title>
+      <publication/>
+      <year>1971</year>
+      <other>т. 7, № 1, с. 87-101; № 3, с. 87-102.![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=32&amp;width=831&amp;top_left_y=1368&amp;top_left_x=120)щ и, Нс-г р а м м а тика, г р а м ма т ика к онт е к с т н а я, - частный случай әрамжатики порождаюцей, $\gamma=\langle V, W, I, R\rangle$, когда каждое ее правило имеет вид $\xi_{1} A \xi_{2} \rightarrow \xi_{1} \theta \xi_{2}$, где $\xi_{1}, \xi_{2}, \theta-$ цепочкі в алфавите $v \cup W, A \in W$ и $\theta$ непуста. Каждый шаг вывода![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=201&amp;width=216&amp;top_left_y=1547&amp;top_left_x=130)в Г. с. состоит в замене одного вхождения символа $a$ вхождением цепочки $\theta$, причем возможность замены обусловлена наличием «контекста» $\xi_{1}, \xi_{2}$. Вхождения символов в $\theta$ потом также могут заменяться и т. д. Таким образом, вхождение символа «развертывается» в нек-рый отрезок возникающей в результате вывода цепочки. Это дает возможность представить вывод в Г. с. с помощью дерева (д е р е в а в ы в о д а): напр., еслі грамматика имеет правила $i \rightarrow A A B$, $a B \rightarrow D B B, a B B \rightarrow a b B, A \rightarrow a, D \rightarrow a, B \rightarrow C, C \rightarrow c(a, b, c-$ основные сімволы, $i, A, B, C, D-$ вспомогательные символы, $i$ - начальный символ), то вывод $(i, A A B$, $a A B, a D B B, a a B B, a a b B, a a b C$, a $a b c)$ имеет дерево, ілзображенное на рис. Множество всех отрезков последней цепочки вывода, получающихся «развертыванием» вхождений вспомогательных символов - иначе говоря, «iроисходящих» от (неконцевых) верішін дерева вывода - при добавлении всех одноточечных отрезков образует систему составляющих указанной цепочки (см. Синтаксическая структура); отсюда п название «г. с.». Если все одноточечные отрезки также получаются заменой вхождений всіомогательных символов, то можно получить размеченную спстему составляіощих, приписывая каждой составляющей в качестве меток те вспомогательные символы, от вхождений к-рых она «происходит»; так, в приведенном выше примере для цепочки $a a b c$ получается размеченная система составляющих\[((a) A((a) D(b) B) A(c) B, C) I\](здесь границы составляющих указаны скобками, после правых скобок записаны метки). Приписывание цепочкам размеченных систем составляющих лежит в основе лингвистич. приложений Г. с. Так, грамматика, имеющая (в числе прочих) правıла$\pi$ Педл $\rightarrow S_{\text {м уж, ед, им }} \tilde{V}^{3}, \quad \tilde{V}^{3} \rightarrow V^{t 3} S_{\text {жен, ед, вин, }}$![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=47&amp;width=776&amp;top_left_y=541&amp;top_left_x=1035)$v^{t 3} \rightarrow 《$ иересекает», где Предл, $s_{x y z}, \tilde{V}^{3}, V^{t 3}$ - вспомогательные символы, означающие, соответственно, «предлонение», «существительное рода $x$ в числе $y$ и падеже z», «группа глагола в 3-м лице», «переходный глагол в 3-м лице», a символ Предл - начальный, приписывает предложению «эллипс пересекает параболу» размеченную систему составляющих$\left((\right.$ Әлипс $) \quad S_{\text {муж, ед, им }}\left(\left(\right.\right.$ пересекает) $v^{t 3} \quad$ (параболу) $\left.\left.S_{\text {жен, ед, вин }}\right) \tilde{V}^{3}\right)$ Предл.Математич. значение Г. с. определяется прежде всего тем, что порождаемые ими языкі (так наз. Нся з ы к и) представляют собой простой подкласс класса примитивно рекурсивных множеств: класс Нс-языков совпадает с классом языков, допускаемых недетерминированными линейно ограниченнымі Тьюринаа машинами с одной лентой и одной головкой. «конкретные» числовые мнокества при обычных способах кодирования натуралыных чисел весыма часто оказываются Нс-языками (таковы, напр., множество полных квадратов, множество простых чисел, множество десятичных приближений числа $\sqrt{2}$ и т. п.).Для каждой Г. с. может быть построена эквивалентная ей л е в о к о т е к с т н а я (соответственно п р а в о к о н т е к с т на я) Г. с., то есть Г.с., все правила к-рой имеют вид $\xi A \rightarrow \xi \theta$ (соответственно $a \xi \rightarrow \theta \xi)$. В то же время всякая Г. с., все правила к-рой имеют вид $x A y \rightarrow x \theta y$, где $x, y-$ цепочкі в основном алфорите, эквивалентна нек-рой гралиатике бесконтекстной.Класс Нс-языков замкнут относітельно объединения, пересечения, умножения, усеченной итерации, подстановки; неизвестно, замкнут ліг он относительно дополнения.Сложность вывода. Временна́я сложность вывода в Г. с. ограничена сверху показательной функцией. Существуют языки, порождаемые Г. с. с временно́й сложностью порядка $n^{2}$ и не порождаемые никакими Г. с. с меньшей по порядку временно́й сложностью (например, язык $\left.\left\{x b x \mid x \in\left\{a_{1}, a_{2}\right\} *\right\}\right) ;$ примеров более высоких нижних оценок временной сложності неизвестно. Емкость всякой Г. с. очевидным образом равна $n$; для произвольной порождающей грамматıкı, емкость к-рой ограничена сверху линейной функцией\[f(n)=k n\]существует эквивалентная ей $\gamma$. с. (эта $\gamma$. с. может быть построена әффективно, еслі пзвестно $k$ ).Алгоритмические проблемы. Если нек-рый класс языков содержит хотя бы один Нс-язык Ii хотя бы для одного Нс-языка $l_{0}$ содержит разве лишь конечное число «почті совпадающих» с $l_{0}$ языков (языки $l_{1}$ и $l_{2}$ «почти совпадают», если их сімметрпч. разность $\left(l_{1}-L_{2}\right) \cup\left(L_{2}-L_{1}\right)$ конечна), то своїство принадлеяіать данному классу нераспознаваемо в классе Г. с. В частности, нераспознаваемы свойства быть пустым, конечным, автоматным, линейным, бесконтекстным языком, иметь пустое пли конечное дополнение, совпадать c (любым) фиксированным Нс-языком. Примером свойства языков, расгознаваемого в классе Г. с., может служить свойство содержать (любую) фиксированную цепочку.См. также Грамиатика бесконтекстная..</other>
+    </unit>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_1_GRAMMATIKA">г \mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_2_GRAMMATIKA">\gamma=\langle V, W, I, R\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_3_GRAMMATIKA">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_4_GRAMMATIKA">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_5_GRAMMATIKA">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_6_GRAMMATIKA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_7_GRAMMATIKA">\varphi \rightarrow \psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_8_GRAMMATIKA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_9_GRAMMATIKA">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_10_GRAMMATIKA">v \cup W</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_11_GRAMMATIKA">\rightarrow</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_12_GRAMMATIKA">v \cup W ; R</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_13_GRAMMATIKA">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_14_GRAMMATIKA">\eta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_15_GRAMMATIKA">\xi=\chi_{1} \varphi \chi_{2}, \eta=\chi_{1} \psi \chi_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_16_GRAMMATIKA">\varphi \rightarrow \psi-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_17_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_18_GRAMMATIKA">\eta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_19_GRAMMATIKA">\xi \mid=\eta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_20_GRAMMATIKA">\xi \mid=\eta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_21_GRAMMATIKA">\left(\omega_{0}, \omega_{1}, \ldots, \omega_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_22_GRAMMATIKA">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_23_GRAMMATIKA">\omega_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_24_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_25_GRAMMATIKA">\forall i, 1 \leqslant i \leqslant n,\left(\omega_{i-1} \mid=\omega_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_26_GRAMMATIKA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_27_GRAMMATIKA">\omega_{0}=i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_28_GRAMMATIKA">\omega_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_29_GRAMMATIKA">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_30_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_31_GRAMMATIKA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_32_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_33_GRAMMATIKA">l(\gamma))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_34_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_35_GRAMMATIKA">\tau_{\gamma}(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_36_GRAMMATIKA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_37_GRAMMATIKA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_38_GRAMMATIKA">x \in L(\Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_39_GRAMMATIKA">|x| \leqslant n \quad(|x|-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_40_GRAMMATIKA">x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_41_GRAMMATIKA">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_42_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_43_GRAMMATIKA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_44_GRAMMATIKA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_45_GRAMMATIKA">x \in L(\Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_46_GRAMMATIKA">|x| \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_47_GRAMMATIKA">\tau_{\gamma}(n)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_48_GRAMMATIKA">\sigma_{\gamma}(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_49_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_50_GRAMMATIKA">d=\left(\omega_{0}, \ldots, \omega_{s}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_51_GRAMMATIKA">\omega_{i}, i=0,1, \ldots, s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_52_GRAMMATIKA">m^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_53_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_54_GRAMMATIKA">l^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_55_GRAMMATIKA">m^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_56_GRAMMATIKA">l^{\prime} \sqsubseteq L(\Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_57_GRAMMATIKA">m^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_58_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_59_GRAMMATIKA">~\left(\gamma, \Gamma^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_60_GRAMMATIKA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_61_GRAMMATIKA">\alpha-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_62_GRAMMATIKA">\mathscr{g}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_63_GRAMMATIKA">\gamma \in \mathscr{\sigma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_64_GRAMMATIKA">l(\gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_65_GRAMMATIKA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_66_GRAMMATIKA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_67_GRAMMATIKA">\mathscr{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_68_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_69_GRAMMATIKA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_70_GRAMMATIKA">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_71_GRAMMATIKA">p\left(l, \omega_{1}, \ldots, \omega_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_72_GRAMMATIKA">l=l(\gamma), \omega_{1}=x_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_73_GRAMMATIKA">\omega_{n}=x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_74_GRAMMATIKA">p(l, \omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_75_GRAMMATIKA">\omega \in L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_76_GRAMMATIKA">l(\gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_77_GRAMMATIKA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1164_78_GRAMMATIKA">l(\gamma)</formula>
+  </formulas_aux>
+  <relations n="43">
+    <relation uri="http://libmeta.ru/me/relation/1164_1_GRAMMATIKA">
+      <rel_text>Поста каноническая система</rel_text>
+      <target>http://libmeta.ru/me/article/538_POSTA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_2_GRAMMATIKA">
+      <rel_text>лингвистика</rel_text>
+      <target>http://libmeta.ru/me/article/587_MATEMATIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_3_GRAMMATIKA">
+      <rel_text>Математическая</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_4_GRAMMATIKA">
+      <rel_text>Грамматика автоматная</rel_text>
+      <target>http://libmeta.ru/me/article/1159_GRAMMATIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_5_GRAMMATIKA">
+      <rel_text>Грамматика бесконтекстная</rel_text>
+      <target>http://libmeta.ru/me/article/1160_GRAMMATIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_6_GRAMMATIKA">
+      <rel_text>распознавания</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_7_GRAMMATIKA">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_8_GRAMMATIKA">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_9_GRAMMATIKA">
+      <rel_text>алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_10_GRAMMATIKA">
+      <rel_text>произвольной</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_11_GRAMMATIKA">
+      <rel_text>распознавания</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_12_GRAMMATIKA">
+      <rel_text>алгоритме</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_13_GRAMMATIKA">
+      <rel_text>алгоритма</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_14_GRAMMATIKA">
+      <rel_text>распознаваемых</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_15_GRAMMATIKA">
+      <rel_text>распознаваемо</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_16_GRAMMATIKA">
+      <rel_text>алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_17_GRAMMATIKA">
+      <rel_text>класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_18_GRAMMATIKA">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_19_GRAMMATIKA">
+      <rel_text>предыдущем</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_20_GRAMMATIKA">
+      <rel_text>полученной</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_21_GRAMMATIKA">
+      <rel_text>сложным</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_22_GRAMMATIKA">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_23_GRAMMATIKA">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_24_GRAMMATIKA">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_25_GRAMMATIKA">
+      <rel_text>послөдовательности</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_26_GRAMMATIKA">
+      <rel_text>произвольные</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_27_GRAMMATIKA">
+      <rel_text>задано</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_28_GRAMMATIKA">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_29_GRAMMATIKA">
+      <rel_text>полных</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_30_GRAMMATIKA">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_31_GRAMMATIKA">
+      <rel_text>длина</rel_text>
+      <target>http://libmeta.ru/me/article/319_DLIN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_32_GRAMMATIKA">
+      <rel_text>длина</rel_text>
+      <target>http://libmeta.ru/me/article/319_DLIN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_33_GRAMMATIKA">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_34_GRAMMATIKA">
+      <rel_text>емкость</rel_text>
+      <target>http://libmeta.ru/me/article/395_EMKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_35_GRAMMATIKA">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_36_GRAMMATIKA">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_37_GRAMMATIKA">
+      <rel_text>множеств</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_38_GRAMMATIKA">
+      <rel_text>перечислимых</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_39_GRAMMATIKA">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_40_GRAMMATIKA">
+      <rel_text>Класс</rel_text>
+      <target>http://libmeta.ru/me/article/889_KLAS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_41_GRAMMATIKA">
+      <rel_text>Множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_42_GRAMMATIKA">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1164_43_GRAMMATIKA">
+      <rel_text>Последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+  </relations>
+  <text>$URI[[http://libmeta.ru/me/formula/aux/1164_1_GRAMMATIKA]]/URI$ а м м а т ик а Х о м с к о г о,- один из видов формальной гралматики; представляет собой, по существу, частный случай исчисления Поста (см. URI[[http://libmeta.ru/me/relation/1164_1_GRAMMATIKA]]/URI). Систематич. изучение Г. п. было начато в 50-х гr. 20 в. Н. Хомским (n. Chomsky), к-рый указал пути ее приложения в лингвистике и выделил наиболее важные для этих прпложений классы Г. п.- әрамматики составляючих, гралматики бесконтекстные, грамматики автоматные; те же классы оказались особенно интересными и с чігто математич. точкі зрения.
+
+Г. п. есть упорядоченная четверка $URI[[http://libmeta.ru/me/formula/aux/1164_2_GRAMMATIKA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1164_3_GRAMMATIKA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1164_4_GRAMMATIKA]]/URI$ - непересекающиеся конечные множества, наз. соответственно о с н о в н Ы м и в с по м о г ат е льны м а лф а ви т а ми, или с ло в а ря ми (их әлементы наз. соответственно о с н о в н ы м и, или
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6ea32ac020d6d65f31e6g-1.jpg?height=32&amp;width=831&amp;top_left_y=670&amp;top_left_x=990)
+ны ы I, или не те р мин а льны ми, сим в ол а м и), I - элемент $URI[[http://libmeta.ru/me/formula/aux/1164_5_GRAMMATIKA]]/URI$, наз. н а ч а лы ь ы м с и мв о ло м, и $URI[[http://libmeta.ru/me/formula/aux/1164_6_GRAMMATIKA]]/URI$ - конечное множество п р а в и л, имеющих вид $URI[[http://libmeta.ru/me/formula/aux/1164_7_GRAMMATIKA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1164_8_GRAMMATIKA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1164_9_GRAMMATIKA]]/URI$ - цепочки (слова) в алфавите $URI[[http://libmeta.ru/me/formula/aux/1164_10_GRAMMATIKA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1164_11_GRAMMATIKA]]/URI$ не прінадлежит $URI[[http://libmeta.ru/me/formula/aux/1164_12_GRAMMATIKA]]/URI$ наз. с х ем о ї г р а м м т I к п. Если цепочки $URI[[http://libmeta.ru/me/formula/aux/1164_13_GRAMMATIKA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1164_14_GRAMMATIKA]]/URI$ представимы соответственно в виде $URI[[http://libmeta.ru/me/formula/aux/1164_15_GRAMMATIKA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1164_16_GRAMMATIKA]]/URI$ одно из правіл грамматики $URI[[http://libmeta.ru/me/formula/aux/1164_17_GRAMMATIKA]]/URI$, то говорят, что $URI[[http://libmeta.ru/me/formula/aux/1164_18_GRAMMATIKA]]/URI$ н е п о с р е д с т в е нн о в ы во д и ма из (обозначение: $URI[[http://libmeta.ru/me/formula/aux/1164_19_GRAMMATIKA]]/URI$ пли $URI[[http://libmeta.ru/me/formula/aux/1164_20_GRAMMATIKA]]/URI$ ). URI[[http://libmeta.ru/me/relation/1164_43_GRAMMATIKA]]/URI цепочек $URI[[http://libmeta.ru/me/formula/aux/1164_21_GRAMMATIKA]]/URI$ наз. в ы в о д о м $URI[[http://libmeta.ru/me/formula/aux/1164_22_GRAMMATIKA]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/1164_23_GRAMMATIKA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/1164_24_GRAMMATIKA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/1164_25_GRAMMATIKA]]/URI$; URI[[http://libmeta.ru/me/relation/1164_42_GRAMMATIKA]]/URI $URI[[http://libmeta.ru/me/formula/aux/1164_26_GRAMMATIKA]]/URI$ есть д ли н а вывода. Вывод наз. П о лы м, если $URI[[http://libmeta.ru/me/formula/aux/1164_27_GRAMMATIKA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1164_28_GRAMMATIKA]]/URI$ не содержит вспомогательных символов. Если существует
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6ea32ac020d6d65f31e6g-1.jpg?height=39&amp;width=831&amp;top_left_y=1164&amp;top_left_x=989)
+в ы в о и м а из $URI[[http://libmeta.ru/me/formula/aux/1164_29_GRAMMATIKA]]/URI$ в Г. URI[[http://libmeta.ru/me/relation/1164_41_GRAMMATIKA]]/URI цепочек в основном алфавите, выводимых в $URI[[http://libmeta.ru/me/formula/aux/1164_30_GRAMMATIKA]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/1164_31_GRAMMATIKA]]/URI$, наз. я з ы к м, П орожд а е мым г р а м м а т икой $URI[[http://libmeta.ru/me/formula/aux/1164_32_GRAMMATIKA]]/URI$ о (обозначается через $URI[[http://libmeta.ru/me/formula/aux/1164_33_GRAMMATIKA]]/URI$. Две Г. п. ә к в и в а л е н т ны, если они порождают один и тот же язык. URI[[http://libmeta.ru/me/relation/1164_40_GRAMMATIKA]]/URI языков, порождаемых всевозможными Г. п., URI[[http://libmeta.ru/me/relation/1164_39_GRAMMATIKA]]/URI с классом рекурсивно URI[[http://libmeta.ru/me/relation/1164_38_GRAMMATIKA]]/URI URI[[http://libmeta.ru/me/relation/1164_37_GRAMMATIKA]]/URI цепочек.
+
+Для оценки URI[[http://libmeta.ru/me/relation/1164_36_GRAMMATIKA]]/URI вывода в Г. П. используются так наз. с и г н а ли ии р у ю ш и ф у ниции, важнейшими из к-рых являются временна́я URI[[http://libmeta.ru/me/relation/1164_35_GRAMMATIKA]]/URI и URI[[http://libmeta.ru/me/relation/1164_34_GRAMMATIKA]]/URI. В р е ме нн а́ я с л о ж н о с т ь грамматіки $URI[[http://libmeta.ru/me/formula/aux/1164_34_GRAMMATIKA]]/URI$ - это URI[[http://libmeta.ru/me/relation/1164_33_GRAMMATIKA]]/URI натурального аргумента $URI[[http://libmeta.ru/me/formula/aux/1164_35_GRAMMATIKA]]/URI$, значение к-рой для каждого $URI[[http://libmeta.ru/me/formula/aux/1164_36_GRAMMATIKA]]/URI$ равно наименышему из чисел $URI[[http://libmeta.ru/me/formula/aux/1164_37_GRAMMATIKA]]/URI$, обладающих тем свойством, что для любой цепочки $URI[[http://libmeta.ru/me/formula/aux/1164_38_GRAMMATIKA]]/URI$ такой, что $URI[[http://libmeta.ru/me/formula/aux/1164_39_GRAMMATIKA]]/URI$ URI[[http://libmeta.ru/me/relation/1164_32_GRAMMATIKA]]/URI $URI[[http://libmeta.ru/me/formula/aux/1164_40_GRAMMATIKA]]/URI$, существует вывод $URI[[http://libmeta.ru/me/formula/aux/1164_41_GRAMMATIKA]]/URI$ этой цепочки из начального символа $URI[[http://libmeta.ru/me/formula/aux/1164_42_GRAMMATIKA]]/URI$, URI[[http://libmeta.ru/me/relation/1164_31_GRAMMATIKA]]/URI к-рого не превосходит $URI[[http://libmeta.ru/me/formula/aux/1164_43_GRAMMATIKA]]/URI$; если не существует цепочек $URI[[http://libmeta.ru/me/formula/aux/1164_44_GRAMMATIKA]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/1164_45_GRAMMATIKA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1164_46_GRAMMATIKA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1164_47_GRAMMATIKA]]/URI$. Е м к о с т ь $URI[[http://libmeta.ru/me/formula/aux/1164_48_GRAMMATIKA]]/URI$ грамматики $URI[[http://libmeta.ru/me/formula/aux/1164_49_GRAMMATIKA]]/URI$ определяется аналогично с заменой длины вывода $URI[[http://libmeta.ru/me/formula/aux/1164_50_GRAMMATIKA]]/URI$ наибольшей из длин цепочек $URI[[http://libmeta.ru/me/formula/aux/1164_51_GRAMMATIKA]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/1164_52_GRAMMATIKA]]/URI$ - нек-рое URI[[http://libmeta.ru/me/relation/1164_30_GRAMMATIKA]]/URI URI[[http://libmeta.ru/me/relation/1164_29_GRAMMATIKA]]/URI выводов в грамматике $URI[[http://libmeta.ru/me/formula/aux/1164_53_GRAMMATIKA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1164_54_GRAMMATIKA]]/URI$ URI[[http://libmeta.ru/me/relation/1164_28_GRAMMATIKA]]/URI заключительных цепочек выводов, принадлежащих $URI[[http://libmeta.ru/me/formula/aux/1164_55_GRAMMATIKA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1164_56_GRAMMATIKA]]/URI$. Если при этом $URI[[http://libmeta.ru/me/formula/aux/1164_57_GRAMMATIKA]]/URI$ URI[[http://libmeta.ru/me/relation/1164_27_GRAMMATIKA]]/URI әффективно, то говорят, что задан нек-рый способ у п р а в л ен и я в ы во д о м в Изучение способов управления выводом сушцесвенно для приложений, так как возможность использовать не URI[[http://libmeta.ru/me/relation/1164_26_GRAMMATIKA]]/URI, а лишь нек-рые определенные выводы лучше отвечает ситуации, имеющей место в естественном языке. Управление выводом может задаваться, в частности, наложением ограничений на URI[[http://libmeta.ru/me/relation/1164_25_GRAMMATIKA]]/URI применяемых в выводе правил (напр., URI[[http://libmeta.ru/me/relation/1164_24_GRAMMATIKA]]/URI таких «допустимых» URI[[http://libmeta.ru/me/relation/1164_23_GRAMMATIKA]]/URI правил может само порождаться нек-рой Г. п. Г'; в этом случае язык определяется упорядоченной паpoï $URI[[http://libmeta.ru/me/formula/aux/1164_58_GRAMMATIKA]]/URI$..$URI[[http://libmeta.ru/me/formula/aux/1164_59_GRAMMATIKA]]/URI$, к-руюназ. о б о б ш е н н о й $URI[[http://libmeta.ru/me/formula/aux/1164_60_GRAMMATIKA]]/URI$ р а м- м а т и к о й), Iли на URI[[http://libmeta.ru/me/relation/1164_22_GRAMMATIKA]]/URI входящих в выводы цепочек, или к.-л. более URI[[http://libmeta.ru/me/relation/1164_21_GRAMMATIKA]]/URI способом (напр., применяемое на очередном шаге правило может зависеть от вида цепочки, URI[[http://libmeta.ru/me/relation/1164_20_GRAMMATIKA]]/URI на URI[[http://libmeta.ru/me/relation/1164_19_GRAMMATIKA]]/URI шаге).
+
+При изучении Г. П. естественно возникают URI[[http://libmeta.ru/me/relation/1164_18_GRAMMATIKA]]/URI. проблемы. Если $URI[[http://libmeta.ru/me/formula/aux/1164_61_GRAMMATIKA]]/URI$ свойство языков, $URI[[http://libmeta.ru/me/formula/aux/1164_62_GRAMMATIKA]]/URI$ нек-рый URI[[http://libmeta.ru/me/relation/1164_17_GRAMMATIKA]]/URI грамматик, и если существует URI[[http://libmeta.ru/me/relation/1164_16_GRAMMATIKA]]/URI, позволяющий по любой грамматике $URI[[http://libmeta.ru/me/formula/aux/1164_63_GRAMMATIKA]]/URI$ распознать, обладает ли язык $URI[[http://libmeta.ru/me/formula/aux/1164_64_GRAMMATIKA]]/URI$ свойством $URI[[http://libmeta.ru/me/formula/aux/1164_65_GRAMMATIKA]]/URI$, то говорят, что $URI[[http://libmeta.ru/me/formula/aux/1164_66_GRAMMATIKA]]/URI$ р а с п о з н а в а е м о в классе $URI[[http://libmeta.ru/me/formula/aux/1164_67_GRAMMATIKA]]/URI$ В классе всех Г. П. ни одно нетривиальное свойство (т. е. такое, что в соответствующем классе языков есть как языки, обладающие этим свойством, так и не обладающие им) не URI[[http://libmeta.ru/me/relation/1164_15_GRAMMATIKA]]/URI. Аналогичным образом можно говорить о URI[[http://libmeta.ru/me/relation/1164_14_GRAMMATIKA]]/URI в нек-ром классе грамматик отношениях. Возникают также проблемы иного типа, напр. о существовании для данной грамматики $URI[[http://libmeta.ru/me/formula/aux/1164_68_GRAMMATIKA]]/URI$ URI[[http://libmeta.ru/me/relation/1164_13_GRAMMATIKA]]/URI, позволяющего по любым $URI[[http://libmeta.ru/me/formula/aux/1164_69_GRAMMATIKA]]/URI$ цепочкам $URI[[http://libmeta.ru/me/formula/aux/1164_70_GRAMMATIKA]]/URI$ в ес основном алфавите найти значение заданного иредиката $URI[[http://libmeta.ru/me/formula/aux/1164_71_GRAMMATIKA]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/1164_72_GRAMMATIKA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1164_73_GRAMMATIKA]]/URI$. В частности, если $URI[[http://libmeta.ru/me/formula/aux/1164_74_GRAMMATIKA]]/URI$ означает $URI[[http://libmeta.ru/me/formula/aux/1164_75_GRAMMATIKA]]/URI$, то речь идет об URI[[http://libmeta.ru/me/relation/1164_12_GRAMMATIKA]]/URI для URI[[http://libmeta.ru/me/relation/1164_11_GRAMMATIKA]]/URI принадлежкности URI[[http://libmeta.ru/me/relation/1164_10_GRAMMATIKA]]/URI цепочки языку $URI[[http://libmeta.ru/me/formula/aux/1164_76_GRAMMATIKA]]/URI$. Если для грамматики $URI[[http://libmeta.ru/me/formula/aux/1164_77_GRAMMATIKA]]/URI$ такой URI[[http://libmeta.ru/me/relation/1164_9_GRAMMATIKA]]/URI есть, существенное значение имеет вопрос о URI[[http://libmeta.ru/me/relation/1164_8_GRAMMATIKA]]/URI его работы, или, как говорят, о URI[[http://libmeta.ru/me/relation/1164_7_GRAMMATIKA]]/URI URI[[http://libmeta.ru/me/relation/1164_6_GRAMMATIKA]]/URI языка $URI[[http://libmeta.ru/me/formula/aux/1164_78_GRAMMATIKA]]/URI$.
+
+См. также Грамматика составляющих, URI[[http://libmeta.ru/me/relation/1164_5_GRAMMATIKA]]/URI, Грамматика линейная, URI[[http://libmeta.ru/me/relation/1164_4_GRAMMATIKA]]/URI, URI[[http://libmeta.ru/me/relation/1164_3_GRAMMATIKA]]/URI URI[[http://libmeta.ru/me/relation/1164_2_GRAMMATIKA]]/URI.</text>
+  <text_orig>$г \mathrm{p}$ а м м а т ик а Х о м с к о г о,- один из видов формальной гралматики; представляет собой, по существу, частный случай исчисления Поста (см. Поста каноническая система). Систематич. изучение Г. п. было начато в 50-х гr. 20 в. Н. Хомским (N. Chomsky), к-рый указал пути ее приложения в лингвистике и выделил наиболее важные для этих прпложений классы Г. п.- әрамматики составляючих, гралматики бесконтекстные, грамматики автоматные; те же классы оказались особенно интересными и с чігто математич. точкі зрения.
+
+Г. п. есть упорядоченная четверка $\Gamma=\langle V, W, I, R\rangle$, где $V$ и $W$ - непересекающиеся конечные множества, наз. соответственно о с н о в н Ы м и в с по м о г ат е льны м а лф а ви т а ми, или с ло в а ря ми (их әлементы наз. соответственно о с н о в н ы м и, или
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6ea32ac020d6d65f31e6g-1.jpg?height=32&amp;width=831&amp;top_left_y=670&amp;top_left_x=990)
+ны ы I, или не те р мин а льны ми, сим в ол а м и), I - элемент $W$, наз. н а ч а лы ь ы м с и мв о ло м, и $R$ - конечное множество п р а в и л, имеющих вид $\varphi \rightarrow \psi$, где $\varphi$ и $\psi$ - цепочки (слова) в алфавите $V \cup W$ и $\rightarrow$ не прінадлежит $V \cup W ; R$ наз. с х ем о ї г р а м м т I к п. Если цепочки $\xi$ и $\eta$ представимы соответственно в виде $\xi=\chi_{1} \varphi \chi_{2}, \eta=\chi_{1} \psi \chi_{2}$, где $\varphi \rightarrow \psi-$ одно из правіл грамматики $\Gamma$, то говорят, что $\eta$ н е п о с р е д с т в е нн о в ы во д и ма из (обозначение: $\xi \mid=\eta$ пли $\xi \mid=\eta$ ). Последовательность цепочек $\left(\omega_{0}, \omega_{1}, \ldots, \omega_{n}\right)$ наз. в ы в о д о м $\omega_{n}$ из $\omega_{1}$ в $\Gamma$, если $\forall i, 1 \leqslant i \leqslant n,\left(\omega_{i-1} \mid=\omega_{i}\right)$; число $n$ есть д ли н а вывода. Вывод наз. П о лы м, если $\omega_{0}=I$ и $\omega_{n}$ не содержит вспомогательных символов. Если существует
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6ea32ac020d6d65f31e6g-1.jpg?height=39&amp;width=831&amp;top_left_y=1164&amp;top_left_x=989)
+в ы в о и м а из $\xi$ в Г. Множество цепочек в основном алфавите, выводимых в $\Gamma$ из $I$, наз. я з ы к м, П орожд а е мым г р а м м а т икой $\Gamma$ о (обозначается через $L(\Gamma))$. Две Г. п. ә к в и в а л е н т ны, если они порождают один и тот же язык. Класс языков, порождаемых всевозможными Г. п., совпадает с классом рекурсивно перечислимых множеств цепочек.
+
+Для оценки сложности вывода в Г. П. используются так наз. с и г н а ли ии р у ю ш и ф у ниции, важнейшими из к-рых являются временна́я сложность и емкость. В р е ме нн а́ я с л о ж н о с т ь грамматіки $\Gamma$ - это функция натурального аргумента $\tau_{\Gamma}(n)$, значение к-рой для каждого $n$ равно наименышему из чисел $k$, обладающих тем свойством, что для любой цепочки $x \in L(\Gamma)$ такой, что $|x| \leqslant n \quad(|x|-$ длина $x)$, существует вывод $D$ этой цепочки из начального символа $\Gamma$, длина к-рого не превосходит $k$; если не существует цепочек $x$ таких, что $x \in L(\Gamma)$ и $|x| \leqslant n$, то $\tau_{\Gamma}(n)=0$. Е м к о с т ь $\sigma_{\Gamma}(n)$ грамматики $\Gamma$ определяется аналогично с заменой длины вывода $D=\left(\omega_{0}, \ldots, \omega_{s}\right)$ наибольшей из длин цепочек $\omega_{i}, i=0,1, \ldots, s$.
+
+Если $M^{\prime}$ - нек-рое множество полных выводов в грамматике $\Gamma$ и $L^{\prime}-$ множество заключительных цепочек выводов, принадлежащих $M^{\prime}$, то $L^{\prime} \sqsubseteq L(\Gamma)$. Если при этом $M^{\prime}$ задано әффективно, то говорят, что задан нек-рый способ у п р а в л ен и я в ы во д о м в Изучение способов управления выводом сушцесвенно для приложений, так как возможность использовать не произвольные, а лишь нек-рые определенные выводы лучше отвечает ситуации, имеющей место в естественном языке. Управление выводом может задаваться, в частности, наложением ограничений на послөдовательности применяемых в выводе правил (напр., множество таких «допустимых» последовательностей правил может само порождаться нек-рой Г. п. Г'; в этом случае язык определяется упорядоченной паpoï $\Gamma$..$~\left(\Gamma, \Gamma^{\prime}\right)$, к-руюназ. о б о б ш е н н о й $r$ р а м- м а т и к о й), Iли на вид входящих в выводы цепочек, или к.-л. более сложным способом (напр., применяемое на очередном шаге правило может зависеть от вида цепочки, полученной на предыдущем шаге).
+
+При изучении Г. П. естественно возникают алгоритмич. проблемы. Если $\alpha-$ свойство языков, $\mathscr{G}-$ нек-рый класс грамматик, и если существует алгоритм, позволяющий по любой грамматике $\Gamma \in \mathscr{\sigma}$ распознать, обладает ли язык $L(\Gamma)$ свойством $\alpha$, то говорят, что $\alpha$ р а с п о з н а в а е м о в классе $\mathscr{V}$ В классе всех Г. П. ни одно нетривиальное свойство (т. е. такое, что в соответствующем классе языков есть как языки, обладающие этим свойством, так и не обладающие им) не распознаваемо. Аналогичным образом можно говорить о распознаваемых в нек-ром классе грамматик отношениях. Возникают также проблемы иного типа, напр. о существовании для данной грамматики $\Gamma$ алгоритма, позволяющего по любым $n$ цепочкам $x_{1}, \ldots, x_{n}$ в ес основном алфавите найти значение заданного иредиката $P\left(L, \omega_{1}, \ldots, \omega_{n}\right)$ для $L=L(\Gamma), \omega_{1}=x_{1}, \ldots$, $\omega_{n}=x_{n}$. В частности, если $P(L, \omega)$ означает $\omega \in L$, то речь идет об алгоритме для распознавания принадлежкности произвольной цепочки языку $L(\Gamma)$. Если для грамматики $\Gamma$ такой алгоритм есть, существенное значение имеет вопрос о сложности его работы, или, как говорят, о сложности распознавания языка $L(\Gamma)$.
+
+См. также Грамматика составляющих, Грамматика бесконтекстная, Грамматика линейная, Грамматика автоматная, Математическая лингвистика.
+
+Лum.: [1] Г р о с с М., Л а н т е н А., Теория формальных грамматик, пер. с франц., М., 1971; [2] Г л а д к и й А. В., Формальные грамматики и языки, М., 1973; [3] Н о p с r of J. E., U $11 \mathrm{~m}$ a $\mathrm{N}$. D., Formal languages and their relation to automata, Reading (Mass.), 1969; [4] $\boldsymbol{\Gamma}$ л а д к и й А. B.,
+Д и к о в с к и й А. Я., в кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибернетика, 1972, т. 10, с. $107-42:$ [5] М а с л о в А. Н., С т о ц к и й Э. Д., в кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Теоретическая кибервероятностей. Математическая статистика. Теоретическая кибер-
+нетика, 1975, т. 12 , с. $155-87 ;[6]$ С то ц к и й Э. Д., «Проблемы передачи информации&quot;, 1971, т. 7, № 1, с. 87-101; № 3, с. 87-102.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=32&amp;width=831&amp;top_left_y=1368&amp;top_left_x=120)
+щ и, НС-г р а м м а тика, г р а м ма т ика к онт е к с т н а я,- частный случай әрамжатики порождаюцей, $\Gamma=\langle V, W, I, R\rangle$, когда каждое ее правило имеет вид $\xi_{1} A \xi_{2} \rightarrow \xi_{1} \theta \xi_{2}$, где $\xi_{1}, \xi_{2}, \theta-$ цепочкі в алфавите $V \cup W, A \in W$ и $\theta$ непуста. Каждый шаг вывода
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=201&amp;width=216&amp;top_left_y=1547&amp;top_left_x=130)
+в Г. с. состоит в замене одного вхождения символа $A$ вхождением цепочки $\theta$, причем возможность замены обусловлена наличием «контекста» $\xi_{1}, \xi_{2}$. Вхождения символов в $\theta$ потом также могут заменяться и т. д. Таким образом, вхождение символа «развертывается» в нек-рый отрезок возникающей в результате вывода цепочки. Это дает возможность представить вывод в Г. с. с помощью дерева (д е р е в а в ы в о д а): напр., еслі грамматика имеет правила $I \rightarrow A A B$, $A B \rightarrow D B B, a B B \rightarrow a b B, A \rightarrow a, D \rightarrow a, B \rightarrow C, C \rightarrow c(a, b, c-$ основные сімволы, $I, A, B, C, D-$ вспомогательные символы, $I$ - начальный символ), то вывод $(I, A A B$, $a A B, a D B B, a a B B, a a b B, a a b C$, a $a b c)$ имеет дерево, ілзображенное на рис. Множество всех отрезков последней цепочки вывода, получающихся «развертыванием» вхождений вспомогательных символов - иначе говоря, «Iроисходящих» от (неконцевых) верішін дерева вывода - при добавлении всех одноточечных отрезков образует систему составляющих указанной цепочки (см. Синтаксическая структура); отсюда п название «Г. с.». Если все одноточечные отрезки также получаются заменой вхождений всіомогательных символов, то можно получить размеченную спстему составляіощих, приписывая каждой составляющей в качестве меток те вспомогательные символы, от вхождений к-рых она «происходит»; так, в приведенном выше примере для цепочки $a a b c$ получается размеченная система составляющих
+
+\[
+((a) A((a) D(b) B) A(c) B, C) I
+\]
+
+(здесь границы составляющих указаны скобками, после правых скобок записаны метки). Приписывание цепочкам размеченных систем составляющих лежит в основе лингвистич. приложений Г. с. Так, грамматика, имеющая (в числе прочих) правıла
+
+$\Pi$ ПЕДЛ $\rightarrow S_{\text {м уж, ед, им }} \tilde{V}^{3}, \quad \tilde{V}^{3} \rightarrow V^{t 3} S_{\text {жен, ед, вин, }}$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1d99c2d9b0bc5bddbf80g-1.jpg?height=47&amp;width=776&amp;top_left_y=541&amp;top_left_x=1035)
+$V^{t 3} \rightarrow 《$ иересекает»,
+
+где ПРЕДЛ, $S_{x y z}, \tilde{V}^{3}, V^{t 3}$ - вспомогательные символы, означающие, соответственно, «предлонение», «существительное рода $x$ в числе $y$ и падеже z», «группа глагола в 3-м лице», «переходный глагол в 3-м лице», a символ ПРЕДЛ - начальный, приписывает предложению «Эллипс пересекает параболу» размеченную систему составляющих
+
+$\left((\right.$ Әлипс $) \quad S_{\text {муж, ед, им }}\left(\left(\right.\right.$ пересекает) $V^{t 3} \quad$ (параболу) $\left.\left.S_{\text {жен, ед, вин }}\right) \tilde{V}^{3}\right)$ ПРЕДЛ.
+
+Математич. значение Г. с. определяется прежде всего тем, что порождаемые ими языкі (так наз. НСя з ы к и) представляют собой простой подкласс класса примитивно рекурсивных множеств: класс НС-языков совпадает с классом языков, допускаемых недетерминированными линейно ограниченнымі Тьюринаа машинами с одной лентой и одной головкой. «Конкретные» числовые мнокества при обычных способах кодирования натуралыных чисел весыма часто оказываются НС-языками (таковы, напр., множество полных квадратов, множество простых чисел, множество десятичных приближений числа $\sqrt{2}$ и т. п.).
+
+Для каждой Г. с. может быть построена эквивалентная ей л е в о к о т е к с т н а я (соответственно п р а в о к о н т е к с т на я) Г. с., то есть Г.с., все правила к-рой имеют вид $\xi A \rightarrow \xi \theta$ (соответственно $A \xi \rightarrow \theta \xi)$. В то же время всякая Г. с., все правила к-рой имеют вид $x A y \rightarrow x \theta y$, где $x, y-$ цепочкі в основном алфорите, эквивалентна нек-рой гралиатике бесконтекстной.
+
+Класс НС-языков замкнут относітельно объединения, пересечения, умножения, усеченной итерации, подстановки; неизвестно, замкнут ліг он относительно дополнения.
+
+Сложность вывода. Временна́я сложность вывода в Г. с. ограничена сверху показательной функцией. Существуют языки, порождаемые Г. с. с временно́й сложностью порядка $n^{2}$ и не порождаемые никакими Г. с. с меньшей по порядку временно́й сложностью (например, язык $\left.\left\{x b x \mid x \in\left\{a_{1}, a_{2}\right\} *\right\}\right) ;$ примеров более высоких нижних оценок временной сложності неизвестно. Емкость всякой Г. с. очевидным образом равна $n$; для произвольной порождающей грамматıкı, емкость к-рой ограничена сверху линейной функцией
+
+\[
+f(n)=k n
+\]
+
+существует эквивалентная ей $\Gamma$. с. (эта $\Gamma$. с. может быть построена әффективно, еслі пзвестно $k$ ).
+
+Алгоритмические проблемы. Если нек-рый класс языков содержит хотя бы один НС-язык II хотя бы для одного НС-языка $L_{0}$ содержит разве лишь конечное число «почті совпадающих» с $L_{0}$ языков (языки $L_{1}$ и $L_{2}$ «почти совпадают», если их сімметрпч. разность $\left(L_{1}-L_{2}\right) \cup\left(L_{2}-L_{1}\right)$ конечна), то своїство принадлеяіать данному классу нераспознаваемо в классе Г. с. В частности, нераспознаваемы свойства быть пустым, конечным, автоматным, линейным, бесконтекстным языком, иметь пустое пли конечное дополнение, совпадать c (любым) фиксированным НС-языком. Примером свойства языков, расгознаваемого в классе Г. с., может служить свойство содержать (любую) фиксированную цепочку.
+
+См. также Грамиатика бесконтекстная.
+
+.</text_orig>
+</article>

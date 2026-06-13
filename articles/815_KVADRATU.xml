@@ -1,0 +1,456 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/815_KVADRATU" alphabetic_pos="815">
+  <title>КВАДРАТУ РНАЯ ФОРМУ ЛА</title>
+  <authors/>
+  <pages>
+    <start>398</start>
+    <end>399</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] К р ы л о в В. И., Приближенное вычисление![](https://cdn.mathpix.com/cropped/2023_07_08_73e0b7146c583ff5400ag-1.jpg?height=40&amp;width=828&amp;top_left_y=2136&amp;top_left_x=122)Iii у л в г и на Ј. Т., Справочная книга по численному интегрированию, М., 1966 .</literature_orig>
+    <unit>
+      <author>Крылов В. И.</author>
+      <author>Приближенноевычисление![](https://cdn.mathpix.com/cropped/2023_07_08_73e0b7146c583ff5400ag-1.jpg?height=40&amp;width=828&amp;top_left_y=2136&amp;top_left_x=122)IiiулвгинаЈ. Т.</author>
+      <title>Справочная книга по численному интегрированию</title>
+      <publication>М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/815_1_KVADRATU">\int_{a}^{b} p(x) f(x) d x \cong \sum_{j=1}^{N} C_{j} f\left(x_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_2_KVADRATU">P(x)=\sum_{i=1}^{N} L_{i}(x) f\left(x_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_3_KVADRATU">C_{i}=\int_{a}^{b} p(x) L_{i}(x) d x, \quad i=1,2, \ldots, N .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_4_KVADRATU">\mu_{k}=\int_{a}^{b} p(x) x^{k} d x, \quad k=0,1, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_5_KVADRATU">x_{j}=a+j h, j=0,1, \ldots, n, h=(b-a) / n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_6_KVADRATU">\int_{a}^{b} f(x) d x \cong(b-a) f(\xi), \quad a \leqslant \xi \leqslant b,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_7_KVADRATU">p(x) \geqslant 0 \text { на }[a, b], \mu_{0}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_8_KVADRATU">\int_{a}^{b} f(x) d x=\sum_{i=0}^{n-1} \int_{x_{i}}^{x_{i+1}} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_9_KVADRATU">\int_{a}^{b} f(x) d x \cong h \sum_{j=1}^{n} f(\xi+(j-1) h), \quad \xi \in[a, a+h] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_10_KVADRATU">R(f) \stackrel{\text { def }}{=} \int_{a}^{b} p(x) f(x) d x-\sum_{j=1}^{N} C_{j} f\left(x_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_11_KVADRATU">\|\psi\|=\left\|f^{(r)}\right\|_{L} \stackrel{\text { def }}{=}\left\{\int_{0}^{1}\left|f^{(r)}(x)\right|^{q} d x\right\}^{1 / q},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/815_12_KVADRATU">|R(f)| \leqslant\|R\| \cdot\left\|f^{(r)}\right\|_{L_{q}},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_1_KVADRATU">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_2_KVADRATU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_3_KVADRATU">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_4_KVADRATU">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_5_KVADRATU">c_{j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_6_KVADRATU">x_{1}, \ldots, x_{N}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_7_KVADRATU">x_{i} \in[a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_8_KVADRATU">b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_9_KVADRATU">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_10_KVADRATU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_11_KVADRATU">l_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_12_KVADRATU">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_13_KVADRATU">l_{i}\left(x_{j}\right)=\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_14_KVADRATU">\left(\delta_{i j}-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_15_KVADRATU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_16_KVADRATU">p(x) f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_17_KVADRATU">p(x) P(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_18_KVADRATU">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_19_KVADRATU">p(x)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_20_KVADRATU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_21_KVADRATU">d \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_22_KVADRATU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_23_KVADRATU">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_24_KVADRATU">f(x)=x^{d+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_25_KVADRATU">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_26_KVADRATU">d \geqslant N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_27_KVADRATU">p(x)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_28_KVADRATU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_29_KVADRATU">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_30_KVADRATU">n=n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_31_KVADRATU">d=n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_32_KVADRATU">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_33_KVADRATU">d=n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_34_KVADRATU">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_35_KVADRATU">d=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_36_KVADRATU">\xi=(a+b) / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_37_KVADRATU">d=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_38_KVADRATU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_39_KVADRATU">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_40_KVADRATU">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_41_KVADRATU">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_42_KVADRATU">x^{2} N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_43_KVADRATU">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_44_KVADRATU">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_45_KVADRATU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_46_KVADRATU">(1-x)^{\alpha}(1+x)^{\beta} \quad(\alpha&gt;-1, \beta&gt;-1),[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_47_KVADRATU">\alpha=\beta=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_48_KVADRATU">\alpha=\beta=-1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_49_KVADRATU">\alpha=\beta=1{ }_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_50_KVADRATU">\alpha=-\beta=1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_51_KVADRATU">e^{-x^{2}}(-\infty,+\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_52_KVADRATU">x^{\alpha_{e}-x}(\alpha&gt;-1),(0,+\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_53_KVADRATU">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_54_KVADRATU">\int_{c}^{d} f(t) d t \cong \sum_{j=1}^{m} C_{j} f\left(t_{j}\right), \quad \int_{\gamma}^{\delta} \varphi(\tau) d \tau \cong \sum_{j=1}^{m} \Gamma_{j} \varphi\left(\tau_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_55_KVADRATU">t_{j}-c=s\left(\tau_{j}-\gamma\right), C_{j}=s \Gamma_{j}, j=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_56_KVADRATU">\ldots, \quad m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_57_KVADRATU">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_58_KVADRATU">d-c=s(\delta-\gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_59_KVADRATU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_60_KVADRATU">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_61_KVADRATU">\left[x_{i}, x_{i+1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_62_KVADRATU">b-a=2 \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_63_KVADRATU">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_64_KVADRATU">\cos k x, \sin k x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_65_KVADRATU">k=0,1, \ldots, n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_66_KVADRATU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_67_KVADRATU">f^{(r)}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_68_KVADRATU">\boldsymbol{r}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_69_KVADRATU">f^{(r)}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_70_KVADRATU">\boldsymbol{r}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_71_KVADRATU">\boldsymbol{r}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_72_KVADRATU">\boldsymbol{r}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_73_KVADRATU">r-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_74_KVADRATU">[a, b]=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_75_KVADRATU">=[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_76_KVADRATU">p(x)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_77_KVADRATU">w_{q}^{(r)}(q&gt;1, r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_78_KVADRATU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_79_KVADRATU">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_80_KVADRATU">r-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_81_KVADRATU">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_82_KVADRATU">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_83_KVADRATU">w_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_84_KVADRATU">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_85_KVADRATU">w_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_86_KVADRATU">r-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_87_KVADRATU">l_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_88_KVADRATU">l_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_89_KVADRATU">\psi \in L_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_90_KVADRATU">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_91_KVADRATU">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_92_KVADRATU">\nprec</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_93_KVADRATU">l_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_94_KVADRATU">r(\psi)=\boldsymbol{r}(f), f \in \psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_95_KVADRATU">\boldsymbol{r}(\psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_96_KVADRATU">l_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_97_KVADRATU">\|r\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_98_KVADRATU">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_99_KVADRATU">w_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_100_KVADRATU">f \in W_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_101_KVADRATU">\|r\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_102_KVADRATU">x_{k}, c_{k}, k=1,2, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_103_KVADRATU">\|r\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_104_KVADRATU">w_{q}^{(r)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_105_KVADRATU">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_106_KVADRATU">r=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/815_107_KVADRATU">r=2</formula>
+  </formulas_aux>
+  <relations n="26">
+    <relation uri="http://libmeta.ru/me/relation/815_1_KVADRATU">
+      <rel_text>получено</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_2_KVADRATU">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_3_KVADRATU">
+      <rel_text>экстремальной задачи</rel_text>
+      <target>http://libmeta.ru/me/article/1125_EKSTREMAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_4_KVADRATU">
+      <rel_text>пространства</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_5_KVADRATU">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_6_KVADRATU">
+      <rel_text>минимальнуго оценку</rel_text>
+      <target>http://libmeta.ru/me/article/669_MINIMAKSNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_7_KVADRATU">
+      <rel_text>погрешность</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_8_KVADRATU">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_9_KVADRATU">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_10_KVADRATU">
+      <rel_text>неравенство</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_11_KVADRATU">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_12_KVADRATU">
+      <rel_text>характеризует</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_13_KVADRATU">
+      <rel_text>норма</rel_text>
+      <target>http://libmeta.ru/me/article/1044_NORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_14_KVADRATU">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_15_KVADRATU">
+      <rel_text>нормированном</rel_text>
+      <target>http://libmeta.ru/me/article/1034_NORMALIZATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_16_KVADRATU">
+      <rel_text>Функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_17_KVADRATU">
+      <rel_text>погрешности</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_18_KVADRATU">
+      <rel_text>Функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_19_KVADRATU">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_20_KVADRATU">
+      <rel_text>векторным пространством</rel_text>
+      <target>http://libmeta.ru/me/article/657_VEKTORNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_21_KVADRATU">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_22_KVADRATU">
+      <rel_text>многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_23_KVADRATU">
+      <rel_text>векторному пространству</rel_text>
+      <target>http://libmeta.ru/me/article/657_VEKTORNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_24_KVADRATU">
+      <rel_text>факторпространство</rel_text>
+      <target>http://libmeta.ru/me/article/670_FAKTORPREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_25_KVADRATU">
+      <rel_text>эквивалентности</rel_text>
+      <target>http://libmeta.ru/me/article/1105_EKVIVALENTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/815_26_KVADRATU">
+      <rel_text>Множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+  </relations>
+  <text>приближенная формула для вычисления определенного интеграла:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_1_KVADRATU]]/URI
+\]
+
+в левой части стоит интеграл, подлежащий вычислению. Подинтегральная функция записана в виде произведения двух функций. Первая из них $URI[[http://libmeta.ru/me/formula/aux/815_1_KVADRATU]]/URI$ считается фиксированной для данной К. Ф. и наз. в е с о в о й ф у н кц и е й, функция $URI[[http://libmeta.ru/me/formula/aux/815_2_KVADRATU]]/URI$ принадлежит достаточно широкому классу функций, напр. непрерывных и таких, что интеграл в левой части (1) существует. Сумма в правой части (1) наз. К в а д р а т у р н о й с у м м о й, числа $URI[[http://libmeta.ru/me/formula/aux/815_3_KVADRATU]]/URI$ наз. у з л а м и $URI[[http://libmeta.ru/me/formula/aux/815_4_KVADRATU]]/URI$. ф., а числа $URI[[http://libmeta.ru/me/formula/aux/815_5_KVADRATU]]/URI$ к э фф и ц и е н т а м и К. ф. Нахождение приближенного значения интеграла с помощью формулы (1) сводится к вычислению квадратурной суммы; при этом значения узлов и коэффициентов обычно берутся из таблиц (см., напр., [3]).
+
+Наибольшее распространение получили К. ф., основанные на алгебраическом интерполировании. Пусть $URI[[http://libmeta.ru/me/formula/aux/815_6_KVADRATU]]/URI$ попарно различные точки (обычно $URI[[http://libmeta.ru/me/formula/aux/815_7_KVADRATU]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/815_8_KVADRATU]]/URI$, хотя это требование не является обязательным) и $URI[[http://libmeta.ru/me/formula/aux/815_9_KVADRATU]]/URI$ - интерполяционный многочлен функции $URI[[http://libmeta.ru/me/formula/aux/815_10_KVADRATU]]/URI$, построенный по ее значениям в этих точках:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_2_KVADRATU]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/me/formula/aux/815_11_KVADRATU]]/URI$ - многочлен влияния $URI[[http://libmeta.ru/me/formula/aux/815_12_KVADRATU]]/URI$-го узла: $URI[[http://libmeta.ru/me/formula/aux/815_13_KVADRATU]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/815_14_KVADRATU]]/URI$ символ Кронекера). Интеграл по $URI[[http://libmeta.ru/me/formula/aux/815_15_KVADRATU]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/815_16_KVADRATU]]/URI$ приближенно заменяется интегралом от $URI[[http://libmeta.ru/me/formula/aux/815_17_KVADRATU]]/URI$; получается приближенное равенство вида (1), в к-ром
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_3_KVADRATU]]/URI
+\]
+
+Существование интегралов в (2) равносильно существованию моментов весовой функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_4_KVADRATU]]/URI
+\]
+
+(здесь и далее предполагается, что требуемые моменты $URI[[http://libmeta.ru/me/formula/aux/815_18_KVADRATU]]/URI$ существуют, в частности в случае $URI[[http://libmeta.ru/me/formula/aux/815_19_KVADRATU]]/URI$ промежуток $URI[[http://libmeta.ru/me/formula/aux/815_20_KVADRATU]]/URI$ считается конечным).
+
+К. Ф. (1), коэфффиценты к-рой определяются равенствами (2), наз. и н т е р п о л я ц и о н н о й. Целое число $URI[[http://libmeta.ru/me/formula/aux/815_21_KVADRATU]]/URI$ наз. а л г е б р а и ч е ско й с т е п е н ь ю т о ч н о с т и К. ф. (1), если эта формула точна, когда $URI[[http://libmeta.ru/me/formula/aux/815_22_KVADRATU]]/URI$ - любой многочлен степени выше $URI[[http://libmeta.ru/me/formula/aux/815_23_KVADRATU]]/URI$, и не точна для $URI[[http://libmeta.ru/me/formula/aux/815_24_KVADRATU]]/URI$. Чтобы К. ф. (1) была интерполяционной, необходимо и достаточно, чтобы для ее алгебраич. степени точности $URI[[http://libmeta.ru/me/formula/aux/815_25_KVADRATU]]/URI$ выполнялось неравенство $URI[[http://libmeta.ru/me/formula/aux/815_26_KVADRATU]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/815_27_KVADRATU]]/URI$ Ii $URI[[http://libmeta.ru/me/formula/aux/815_28_KVADRATU]]/URI$ конечен. Интерполяционная К. ф. с равноотстоящими узлами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_5_KVADRATU]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/815_29_KVADRATU]]/URI$ - натуральное число, $URI[[http://libmeta.ru/me/formula/aux/815_30_KVADRATU]]/URI$, наз. Ньютона Котеса квадратурной формулой; такая К. ф. имеет алгебраич. степень точности $URI[[http://libmeta.ru/me/formula/aux/815_31_KVADRATU]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/815_32_KVADRATU]]/URI$ нечетном и $URI[[http://libmeta.ru/me/formula/aux/815_33_KVADRATU]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/815_34_KVADRATU]]/URI$ четном. Интерполяционная К. ф. с одним узлом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_6_KVADRATU]]/URI
+\]
+
+наз. прямоугольников формулой, ее алгебраич. степень точности $URI[[http://libmeta.ru/me/formula/aux/815_35_KVADRATU]]/URI$, когда $URI[[http://libmeta.ru/me/formula/aux/815_36_KVADRATU]]/URI$, и $URI[[http://libmeta.ru/me/formula/aux/815_37_KVADRATU]]/URI$ в остальных случаях.
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_7_KVADRATU]]/URI
+\]
+
+Интерполяционная К. ф. (1), у к-рой узлами являются корни ортогонального на $URI[[http://libmeta.ru/me/formula/aux/815_38_KVADRATU]]/URI$ с весом $URI[[http://libmeta.ru/me/formula/aux/815_39_KVADRATU]]/URI$ многочлена степени $URI[[http://libmeta.ru/me/formula/aux/815_40_KVADRATU]]/URI$, наз. к в а д р а т у р н о й ф о р м у ло й г а у с с о в а т и п а; ее называют также квадратурной формулой н а и в ы с ш е й а л г е б р а и ч. с т еп е ни т о ч н о с т и, так как при условиях (4) никакая К. ф. с $URI[[http://libmeta.ru/me/formula/aux/815_41_KVADRATU]]/URI$ узлами не может быть точна для $URI[[http://libmeta.ru/me/formula/aux/815_42_KVADRATU]]/URI$. Наиболее употребительны $URI[[http://libmeta.ru/me/formula/aux/815_43_KVADRATU]]/URI$. ф. гауссова типа, к-рые определяются следующими частными случаями веса $URI[[http://libmeta.ru/me/formula/aux/815_44_KVADRATU]]/URI$ и промежутка $URI[[http://libmeta.ru/me/formula/aux/815_45_KVADRATU]]/URI$ :
+
+вес Якоби $URI[[http://libmeta.ru/me/formula/aux/815_46_KVADRATU]]/URI$ при значениях параметров: а) $URI[[http://libmeta.ru/me/formula/aux/815_47_KVADRATU]]/URI$ (гаусса квадратурная формула), б) $URI[[http://libmeta.ru/me/formula/aux/815_48_KVADRATU]]/URI$ (мелера квадратурная бормула), в) $URI[[http://libmeta.ru/me/formula/aux/815_49_KVADRATU]]/URI$, г) $URI[[http://libmeta.ru/me/formula/aux/815_50_KVADRATU]]/URI$;
+
+вес Әрмита $URI[[http://libmeta.ru/me/formula/aux/815_51_KVADRATU]]/URI$;
+
+вес Лагерра $URI[[http://libmeta.ru/me/formula/aux/815_52_KVADRATU]]/URI$.
+
+Существуют К. ф., в к-рых часть узлов заранее фиксирована, а остальные узлы выбираются так, чтобы К. ф. имела наивысшую алгебраич. степень точности. Таковы, в частности, Лобатто көадратурная бормула и Радо квадратурная формула для вычисления интеграла по $URI[[http://libmeta.ru/me/formula/aux/815_53_KVADRATU]]/URI$ с весом 1. В первой из них фиксированными узлами являются - 1,1 , а во второй - одна из этих точек.
+
+Две К. Ф人. с весом 1
+
+$URI[[http://libmeta.ru/me/formula/aux/815_54_KVADRATU]]/URI$ наз. подобными, если $URI[[http://libmeta.ru/me/formula/aux/815_55_KVADRATU]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/815_56_KVADRATU]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/815_57_KVADRATU]]/URI$ определяется равенством $URI[[http://libmeta.ru/me/formula/aux/815_58_KVADRATU]]/URI$. В случае конечного $URI[[http://libmeta.ru/me/formula/aux/815_59_KVADRATU]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_8_KVADRATU]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/815_60_KVADRATU]]/URI$ определяются равенствами (3). Если для вычисления интегралов по промежуткам $URI[[http://libmeta.ru/me/formula/aux/815_61_KVADRATU]]/URI$ применяются К. ф., подобные одной и той же К. Ф., то равенст- (5) приведет к с о с т а в н о й К. ф. для вычисления интеграла, стоящего в левой его части. Такова, напр., составная К. ф. прямоугольников:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_9_KVADRATU]]/URI
+\]
+
+В случае $URI[[http://libmeta.ru/me/formula/aux/815_62_KVADRATU]]/URI$ эта $URI[[http://libmeta.ru/me/formula/aux/815_63_KVADRATU]]/URI$. Ф. точна для $URI[[http://libmeta.ru/me/formula/aux/815_64_KVADRATU]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/815_65_KVADRATU]]/URI$.
+
+Можно рассматривать интерполяционные К. ф., к-рые получаются интегрированием интерполяционного многочлена Эрмита функции $URI[[http://libmeta.ru/me/formula/aux/815_66_KVADRATU]]/URI$. В квадратурную сумму такой К. Ф. входит не только значение самой функции в узле, но и значения ее последовательных производных до нек-рого порядка. Значения производных подинтегральной функции на концах промежутка интегрирования используются и в Әйлера - Маклорена формуле.
+
+Для погрешности К. ф. (1)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_10_KVADRATU]]/URI
+\]
+
+имеются представления, в к-рые входит производная $URI[[http://libmeta.ru/me/formula/aux/815_67_KVADRATU]]/URI$. Эти представления мало пригодны для фактической оценки $URI[[http://libmeta.ru/me/formula/aux/815_68_KVADRATU]]/URI$, так как при этом требуется оценка производной $URI[[http://libmeta.ru/me/formula/aux/815_69_KVADRATU]]/URI$. Погрешность $URI[[http://libmeta.ru/me/formula/aux/815_70_KVADRATU]]/URI$ является аддитивным и однородным функционалом на векторном пространстве функций, для к-рых она определена.
+
+Другой Подход основан на минимизации нормы функционала погрешности $URI[[http://libmeta.ru/me/formula/aux/815_71_KVADRATU]]/URI$ построению К. ф.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/815_72_KVADRATU]]/URI$ - погрешность К. Ф., к-рая точна для всех многочленов степени не выше $URI[[http://libmeta.ru/me/formula/aux/815_73_KVADRATU]]/URI$, при этом $URI[[http://libmeta.ru/me/formula/aux/815_74_KVADRATU]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/815_75_KVADRATU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/815_76_KVADRATU]]/URI$, и $URI[[http://libmeta.ru/me/formula/aux/815_77_KVADRATU]]/URI$ - натуральное число) - векторное пространство функций $URI[[http://libmeta.ru/me/formula/aux/815_78_KVADRATU]]/URI$, к-рые на $URI[[http://libmeta.ru/me/formula/aux/815_79_KVADRATU]]/URI$ имеют абсолютно непрерывную производную порядка $URI[[http://libmeta.ru/me/formula/aux/815_80_KVADRATU]]/URI$ и суммируемую со степенью $URI[[http://libmeta.ru/me/formula/aux/815_81_KVADRATU]]/URI$ производную порядка $URI[[http://libmeta.ru/me/formula/aux/815_82_KVADRATU]]/URI$. Две функции из $URI[[http://libmeta.ru/me/formula/aux/815_83_KVADRATU]]/URI$ считают эквивалентными, если их разность есть многочлен степени не выше $URI[[http://libmeta.ru/me/formula/aux/815_84_KVADRATU]]/URI$ - 1 . URI[[http://libmeta.ru/me/relation/815_26_KVADRATU]]/URI классов URI[[http://libmeta.ru/me/relation/815_25_KVADRATU]]/URI (URI[[http://libmeta.ru/me/relation/815_24_KVADRATU]]/URI $URI[[http://libmeta.ru/me/formula/aux/815_85_KVADRATU]]/URI$ по URI[[http://libmeta.ru/me/relation/815_23_KVADRATU]]/URI URI[[http://libmeta.ru/me/relation/815_22_KVADRATU]]/URI URI[[http://libmeta.ru/me/relation/815_21_KVADRATU]]/URI не выше $URI[[http://libmeta.ru/me/formula/aux/815_86_KVADRATU]]/URI$ является URI[[http://libmeta.ru/me/relation/815_20_KVADRATU]]/URI, к-рое обозначают $URI[[http://libmeta.ru/me/formula/aux/815_87_KVADRATU]]/URI$. В $URI[[http://libmeta.ru/me/formula/aux/815_88_KVADRATU]]/URI$ можно ввести норму, полагая для класса $URI[[http://libmeta.ru/me/formula/aux/815_89_KVADRATU]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_11_KVADRATU]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/815_90_KVADRATU]]/URI$ - любая URI[[http://libmeta.ru/me/relation/815_19_KVADRATU]]/URI, принадлежащая $URI[[http://libmeta.ru/me/formula/aux/815_91_KVADRATU]]/URI$. URI[[http://libmeta.ru/me/relation/815_18_KVADRATU]]/URI URI[[http://libmeta.ru/me/relation/815_17_KVADRATU]]/URI $URI[[http://libmeta.ru/me/formula/aux/815_92_KVADRATU]]/URI$. Ф. рассматривают на $URI[[http://libmeta.ru/me/formula/aux/815_93_KVADRATU]]/URI$, полагая $URI[[http://libmeta.ru/me/formula/aux/815_94_KVADRATU]]/URI$. URI[[http://libmeta.ru/me/relation/815_16_KVADRATU]]/URI $URI[[http://libmeta.ru/me/formula/aux/815_95_KVADRATU]]/URI$ непрерывен в линейном URI[[http://libmeta.ru/me/relation/815_15_KVADRATU]]/URI URI[[http://libmeta.ru/me/relation/815_14_KVADRATU]]/URI $URI[[http://libmeta.ru/me/formula/aux/815_96_KVADRATU]]/URI$. Его URI[[http://libmeta.ru/me/relation/815_13_KVADRATU]]/URI $URI[[http://libmeta.ru/me/formula/aux/815_97_KVADRATU]]/URI$ URI[[http://libmeta.ru/me/relation/815_12_KVADRATU]]/URI точность $URI[[http://libmeta.ru/me/formula/aux/815_98_KVADRATU]]/URI$. ф. для всех URI[[http://libmeta.ru/me/relation/815_11_KVADRATU]]/URI из $URI[[http://libmeta.ru/me/formula/aux/815_99_KVADRATU]]/URI$ : для любой $URI[[http://libmeta.ru/me/formula/aux/815_100_KVADRATU]]/URI$ справедливо URI[[http://libmeta.ru/me/relation/815_10_KVADRATU]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/815_12_KVADRATU]]/URI
+\]
+
+к-рое является точным. Ясно, что $URI[[http://libmeta.ru/me/formula/aux/815_101_KVADRATU]]/URI$ есть URI[[http://libmeta.ru/me/relation/815_9_KVADRATU]]/URI URI[[http://libmeta.ru/me/relation/815_8_KVADRATU]]/URI $URI[[http://libmeta.ru/me/formula/aux/815_102_KVADRATU]]/URI$, К. Ф., и естественно пытаться их выбрать так, чтобы $URI[[http://libmeta.ru/me/formula/aux/815_103_KVADRATU]]/URI$ принимала наименьшее значение. Это приводит к такой К. Ф. (из класса рассматриваемых), URI[[http://libmeta.ru/me/relation/815_7_KVADRATU]]/URI к-рой имеет URI[[http://libmeta.ru/me/relation/815_6_KVADRATU]]/URI для всех URI[[http://libmeta.ru/me/relation/815_5_KVADRATU]]/URI URI[[http://libmeta.ru/me/relation/815_4_KVADRATU]]/URI $URI[[http://libmeta.ru/me/formula/aux/815_104_KVADRATU]]/URI$. Таким образом, построение $URI[[http://libmeta.ru/me/formula/aux/815_105_KVADRATU]]/URI$. Ф. сводится к решению URI[[http://libmeta.ru/me/relation/815_3_KVADRATU]]/URI. Эта URI[[http://libmeta.ru/me/relation/815_2_KVADRATU]]/URI уже в рассмотренном частном случае весьма сложна и ее решение URI[[http://libmeta.ru/me/relation/815_1_KVADRATU]]/URI (1978) лишь при $URI[[http://libmeta.ru/me/formula/aux/815_106_KVADRATU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/815_107_KVADRATU]]/URI$.</text>
+  <text_orig>приближенная формула для вычисления определенного интеграла:
+
+\[
+\int_{a}^{b} p(x) f(x) d x \cong \sum_{j=1}^{N} C_{j} f\left(x_{j}\right)
+\]
+
+в левой части стоит интеграл, подлежащий вычислению. Подинтегральная функция записана в виде произведения двух функций. Первая из них $p(x)$ считается фиксированной для данной К. Ф. и наз. в е с о в о й ф у н кц и е й, функция $f(x)$ принадлежит достаточно широкому классу функций, напр. непрерывных и таких, что интеграл в левой части (1) существует. Сумма в правой части (1) наз. К в а д р а т у р н о й с у м м о й, числа $x_{j}$ наз. у з л а м и $K$. ф., а числа $C_{j}-$ к э фф и ц и е н т а м и К. ф. Нахождение приближенного значения интеграла с помощью формулы (1) сводится к вычислению квадратурной суммы; при этом значения узлов и коэффициентов обычно берутся из таблиц (см., напр., [3]).
+
+Наибольшее распространение получили К. ф., основанные на алгебраическом интерполировании. Пусть $x_{1}, \ldots, x_{N}-$ попарно различные точки (обычно $x_{i} \in[a$, $b]$, хотя это требование не является обязательным) и $P(x)$ - интерполяционный многочлен функции $f(x)$, построенный по ее значениям в этих точках:
+
+\[
+P(x)=\sum_{i=1}^{N} L_{i}(x) f\left(x_{i}\right)
+\]
+
+здесь $L_{i}(x)$ - многочлен влияния $i$-го узла: $L_{i}\left(x_{j}\right)=\delta_{i j}$ $\left(\delta_{i j}-\right.$ символ Кронекера). Интеграл по $[a, b]$ от $p(x) f(x)$ приближенно заменяется интегралом от $p(x) P(x)$; получается приближенное равенство вида (1), в к-ром
+
+\[
+C_{i}=\int_{a}^{b} p(x) L_{i}(x) d x, \quad i=1,2, \ldots, N .
+\]
+
+Существование интегралов в (2) равносильно существованию моментов весовой функции
+
+\[
+\mu_{k}=\int_{a}^{b} p(x) x^{k} d x, \quad k=0,1, \ldots, N
+\]
+
+(здесь и далее предполагается, что требуемые моменты $p(x)$ существуют, в частности в случае $p(x)=1$ промежуток $[a, b]$ считается конечным).
+
+К. Ф. (1), коэфффиценты к-рой определяются равенствами (2), наз. и н т е р п о л я ц и о н н о й. Целое число $d \geqslant 0$ наз. а л г е б р а и ч е ско й с т е п е н ь ю т о ч н о с т и К. ф. (1), если эта формула точна, когда $f(x)$ - любой многочлен степени выше $d$, и не точна для $f(x)=x^{d+1}$. Чтобы К. ф. (1) была интерполяционной, необходимо и достаточно, чтобы для ее алгебраич. степени точности $d$ выполнялось неравенство $d \geqslant N-1$.
+
+Пусть $p(x)=1$ II $[a, b]$ конечен. Интерполяционная К. ф. с равноотстоящими узлами
+
+\[
+x_{j}=a+j h, j=0,1, \ldots, n, h=(b-a) / n,
+\]
+
+где $n$ - натуральное число, $N=n+1$, наз. Ньютона Котеса квадратурной формулой; такая К. ф. имеет алгебраич. степень точности $d=n$ при $n$ нечетном и $d=n+1$ при $n$ четном. Интерполяционная К. ф. с одним узлом
+
+\[
+\int_{a}^{b} f(x) d x \cong(b-a) f(\xi), \quad a \leqslant \xi \leqslant b,
+\]
+
+наз. прямоугольников формулой, ее алгебраич. степень точности $d=1$, когда $\xi=(a+b) / 2$, и $d=0$ в остальных случаях.
+
+Пусть
+
+\[
+p(x) \geqslant 0 \text { на }[a, b], \mu_{0}&gt;0
+\]
+
+Интерполяционная К. ф. (1), у к-рой узлами являются корни ортогонального на $[a, b]$ с весом $p(x)$ многочлена степени $N$, наз. к в а д р а т у р н о й ф о р м у ло й г а у с с о в а т и п а; ее называют также квадратурной формулой н а и в ы с ш е й а л г е б р а и ч. с т еп е ни т о ч н о с т и, так как при условиях (4) никакая К. ф. с $N$ узлами не может быть точна для $x^{2} N$. Наиболее употребительны $K$. ф. гауссова типа, к-рые определяются следующими частными случаями веса $p(x)$ и промежутка $[a, b]$ :
+
+вес Якоби $(1-x)^{\alpha}(1+x)^{\beta} \quad(\alpha&gt;-1, \beta&gt;-1),[-1,1]$ при значениях параметров: а) $\alpha=\beta=0$ (Гаусса квадратурная формула), б) $\alpha=\beta=-1 / 2$ (Мелера квадратурная бормула), в) $\alpha=\beta=1{ }_{2}$, г) $\alpha=-\beta=1 / 2$;
+
+вес Әрмита $e^{-x^{2}}(-\infty,+\infty)$;
+
+вес Лагерра $x^{\alpha_{e}-x}(\alpha&gt;-1),(0,+\infty)$.
+
+Существуют К. ф., в к-рых часть узлов заранее фиксирована, а остальные узлы выбираются так, чтобы К. ф. имела наивысшую алгебраич. степень точности. Таковы, в частности, Лобатто көадратурная бормула и Радо квадратурная формула для вычисления интеграла по $[-1,1]$ с весом 1. В первой из них фиксированными узлами являются - 1,1 , а во второй - одна из этих точек.
+
+Две К. Ф人. с весом 1
+
+$\int_{c}^{d} f(t) d t \cong \sum_{j=1}^{m} C_{j} f\left(t_{j}\right), \quad \int_{\gamma}^{\delta} \varphi(\tau) d \tau \cong \sum_{j=1}^{m} \Gamma_{j} \varphi\left(\tau_{j}\right)$ наз. подобными, если $t_{j}-c=s\left(\tau_{j}-\gamma\right), C_{j}=s \Gamma_{j}, j=1,2$, $\ldots, \quad m$, где $s$ определяется равенством $d-c=s(\delta-\gamma)$. В случае конечного $[a, b]$
+
+\[
+\int_{a}^{b} f(x) d x=\sum_{i=0}^{n-1} \int_{x_{i}}^{x_{i+1}} f(x) d x
+\]
+
+где $x_{i}$ определяются равенствами (3). Если для вычисления интегралов по промежуткам $\left[x_{i}, x_{i+1}\right]$ применяются К. ф., подобные одной и той же К. Ф., то равенст- (5) приведет к с о с т а в н о й К. ф. для вычисления интеграла, стоящего в левой его части. Такова, напр., составная К. ф. прямоугольников:
+
+\[
+\int_{a}^{b} f(x) d x \cong h \sum_{j=1}^{n} f(\xi+(j-1) h), \quad \xi \in[a, a+h] .
+\]
+
+В случае $b-a=2 \pi$ эта $К$. Ф. точна для $\cos k x, \sin k x$ при $k=0,1, \ldots, n-1$.
+
+Можно рассматривать интерполяционные К. ф., к-рые получаются интегрированием интерполяционного многочлена Эрмита функции $f(x)$. В квадратурную сумму такой К. Ф. входит не только значение самой функции в узле, но и значения ее последовательных производных до нек-рого порядка. Значения производных подинтегральной функции на концах промежутка интегрирования используются и в Әйлера - Маклорена формуле.
+
+Для погрешности К. ф. (1)
+
+\[
+R(f) \stackrel{\text { def }}{=} \int_{a}^{b} p(x) f(x) d x-\sum_{j=1}^{N} C_{j} f\left(x_{j}\right)
+\]
+
+имеются представления, в к-рые входит производная $f^{(r)}(x)$. Эти представления мало пригодны для фактической оценки $\boldsymbol{R}(f)$, так как при этом требуется оценка производной $f^{(r)}(x)$. Погрешность $\boldsymbol{R}(f)$ является аддитивным и однородным функционалом на векторном пространстве функций, для к-рых она определена.
+
+Другой Подход основан на минимизации нормы функционала погрешности $\boldsymbol{R}(f)$ построению К. ф.
+
+Пусть $\boldsymbol{R}(f)$ - погрешность К. Ф., к-рая точна для всех многочленов степени не выше $r-1$, при этом $[a, b]=$ $=[0,1]$ и $p(x)=1$, и $W_{q}^{(r)}(q&gt;1, r$ - натуральное число) - векторное пространство функций $f(x)$, к-рые на $[0,1]$ имеют абсолютно непрерывную производную порядка $r-1$ и суммируемую со степенью $q$ производную порядка $r$. Две функции из $W_{q}^{(r)}$ считают эквивалентными, если их разность есть многочлен степени не выше $r$ - 1 . Множество классов эквивалентности (факторпространство $W_{q}^{(r)}$ по векторному пространству многочленов степени не выше $r-1)$ является векторным пространством, к-рое обозначают $L_{q}^{(r)}$. В $L_{q}^{(r)}$ можно ввести норму, полагая для класса $\psi \in L_{q}^{(r)}$
+
+\[
+\|\psi\|=\left\|f^{(r)}\right\|_{L} \stackrel{\text { def }}{=}\left\{\int_{0}^{1}\left|f^{(r)}(x)\right|^{q} d x\right\}^{1 / q},
+\]
+
+где $f$ - любая функция, принадлежащая $\psi$. Функционал погрешности $\nprec$. Ф. рассматривают на $L_{q}^{(r)}$, полагая $R(\psi)=\boldsymbol{R}(f), f \in \psi$. Функционал $\boldsymbol{R}(\psi)$ непрерывен в линейном нормированном пространстве $L_{q}^{(r)}$. Его норма $\|R\|$ характеризует точность $К$. ф. для всех функций из $W_{q}^{(r)}$ : для любой $f \in W_{q}^{(r)}$ справедливо неравенство
+
+\[
+|R(f)| \leqslant\|R\| \cdot\left\|f^{(r)}\right\|_{L_{q}},
+\]
+
+к-рое является точным. Ясно, что $\|R\|$ есть функция параметров $x_{k}, c_{k}, k=1,2, \ldots, N$, К. Ф., и естественно пытаться их выбрать так, чтобы $\|R\|$ принимала наименьшее значение. Это приводит к такой К. Ф. (из класса рассматриваемых), погрешность к-рой имеет минимальнуго оценку для всех функций пространства $W_{q}^{(r)}$. Таким образом, построение $К$. Ф. сводится к решению экстремальной задачи. Эта задача уже в рассмотренном частном случае весьма сложна и ее решение получено (1978) лишь при $r=1$ и $r=2$.
+
+Лит.: [1] К р ы л о в В. И., Приближенное вычисление
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_73e0b7146c583ff5400ag-1.jpg?height=40&amp;width=828&amp;top_left_y=2136&amp;top_left_x=122)
+III у л в г и на Ј. Т., Справочная книга по численному интегрированию, М., 1966 .</text_orig>
+</article>

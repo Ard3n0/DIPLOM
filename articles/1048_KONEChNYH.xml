@@ -1,0 +1,999 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1048_KONEChNYH" alphabetic_pos="1048">
+  <title>КОНЕЧНЫХ РАЗНОСТЕИ ИСЧИСЛЕНИЕ</title>
+  <authors>
+    <author>А. Ф. Леонтъев</author>
+  </authors>
+  <pages>
+    <start>514</start>
+    <end>517</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] М а р к о в А. А., Исчисление конечных разно-![](https://cdn.mathpix.com/cropped/2023_07_08_eaf21636bc0139e4395bg-1.jpg?height=57&amp;width=834&amp;top_left_y=727&amp;top_left_x=987)Ф. П., Методы вычислений, т. конечных разностей, 3 изд., м. $1967 ;$ [4] Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975: 4] Б а В</literature_orig>
+    <unit>
+      <author>Марков А. А.</author>
+      <author>Исчислениеконечныхразно-![](https://cdn.mathpix.com/cropped/2023_07_08_eaf21636bc0139e4395bg-1.jpg?height=57&amp;width=834&amp;top_left_y=727&amp;top_left_x=987) Ф. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд.</publication>
+      <year>1967</year>
+      <other>т. конечных разностей, Численные методы, 2 изд., М., 1975: 4] Б а В</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_1_KONEChNYH">\Delta y_{k}=\Delta f_{k}=f\left(x_{k+1}\right)-f\left(x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_2_KONEChNYH">\Delta^{n} y_{k}=\Delta^{n} f_{k}=\Delta^{n-1} f_{k+1}-\Delta^{n-1} f_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_3_KONEChNYH">\delta^{2 m-1} y_{i+\frac{1}{2}}, \delta^{2 m} y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_4_KONEChNYH">\begin{gathered}\delta y_{i+\frac{1}{2}}=y_{i+1}-y_{i}, \\\delta^{2} y_{i}=\delta y_{i+\frac{1}{2}}-\delta y_{i-\frac{1}{2}}, \\\delta^{2 m-1} y_{i+\frac{1}{2}}=\delta^{2 m-2} y_{i+1}-\delta^{2 m-2} y_{i}, \\\delta^{2 m} y_{i}=\delta^{2 m-1} y_{i+\frac{1}{2}}-\delta^{2 m-1} y_{i-\frac{1}{2}}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_5_KONEChNYH">\delta^{2 m} y_{i}=\Delta^{2 m} y_{i-m}, \delta^{2 m+1} y_{i+\frac{1}{2}}=\Delta^{2 m+1} y_{i-m} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_6_KONEChNYH">\begin{gathered}{\left[x_{0} ; x_{1}\right]=\frac{y_{0}-y_{1}}{x_{0}-x_{1}},} \\{\left[x_{0} ; x_{1} ; x_{2}\right]=\frac{\left[x_{0} ; x_{1}\right]-\left[x_{1} ; x_{2}\right]}{x_{0}-x_{2}},} \\\left.\cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot x_{n} \cdot \cdot x_{n} ; x_{1} ; \ldots ; x_{n}\right]=\frac{\left[x_{0} ; x_{1} ; \ldots ; x_{n-1}\right]-\left[x_{2} ; \ldots ; x_{n}\right]}{x_{0}-x_{n}}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_7_KONEChNYH">\left\ulcorner x_{0} ; x_{1} ; \ldots ; x_{n}\right]=\sum_{j=0}^{n} \overline{\prod_{i \neq j}\left(x_{j}-x_{i}\right)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_8_KONEChNYH">\left[x_{0} ; x_{1} ; \ldots ; x_{n}\right]=\frac{\Delta^{n} y_{0}}{n ! h^{n}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_9_KONEChNYH">\Delta^{n} y_{k}=h^{n} f^{(n)}(\xi), x_{k}&lt;\xi&lt;x_{k+n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_10_KONEChNYH">\begin{gathered}P_{n}(x)=f\left(x_{0}\right)+\left[x_{0} ; x_{1}\right]\left(x-x_{0}\right)+ \\+\left[x_{0} ; x_{1} ; x_{2}\right]\left(x-x_{0}\right)\left(x-x_{1}\right)+\ldots \\\ldots+\left[x_{0} ; x_{1} ; \ldots ; x_{n}\right]\left(x-x_{0}\right) \ldots\left(x-x_{n-1}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_11_KONEChNYH">P_{n}(x)=f\left(x_{0}\right)+\sum_{k=1}^{n} \frac{\Delta^{k} f\left(x_{0}\right)}{k ! h^{k}}\left(x-x_{0}\right) \ldots\left(x-x_{k-1}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_12_KONEChNYH">f(x)=P_{n}(x)+\frac{f^{(n+1)}(\xi)}{(n+1) !}\left(x-x_{0}\right) \ldots\left(x-x_{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_13_KONEChNYH">f(x)=f\left(x_{0}\right)+\sum_{k=1}^{\infty} \frac{\Delta^{k} f\left(x_{0}\right)}{k ! h^{k}}\left(x-x_{0}\right) \ldots\left(x-x_{k-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_14_KONEChNYH">\begin{gathered}\left|f\left(r e^{i \varphi}\right)\right|&lt;c e^{r h(\varphi)} r^{\alpha+\frac{1}{2}+\varepsilon}, \\h(\varphi)=\cos \varphi \ln (2 \cos \varphi)+\varphi \sin \varphi .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_15_KONEChNYH">\begin{aligned}&amp; x_{0,0} \\&amp; x_{1,0} \quad x_{1,1} \\&amp; \text { • • • • • . } \\&amp; x_{n, 0} \quad x_{n, 1} \ldots x_{n, n}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_16_KONEChNYH">x_{n, k}=\cos \frac{2 k+1}{2 n} \pi, k=0,1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_17_KONEChNYH">\lim _{n \rightarrow \infty} \omega(1 / n) \ln n=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_18_KONEChNYH">S_{n}=f\left(x_{0}\right)+f\left(x_{0}+h\right)+\ldots+f\left(x_{0}+n i h\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_19_KONEChNYH">\Delta F(x)=F(x+1)-F(x)=f(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_20_KONEChNYH">S_{n}=F(n+1)-F(0) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_21_KONEChNYH">Q(x)=a x^{3}+b x^{2}+c x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_22_KONEChNYH">Q(x)=\frac{x^{3}}{3}-\frac{x^{2}}{2}+\frac{x}{6}=\frac{x(x-1)(2 x-1)}{6}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_23_KONEChNYH">\frac{n(n+1)(2 n+1)}{6}=1^{2}+2^{2}+\ldots+n^{2} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_24_KONEChNYH">\begin{gathered}\sum_{x=0}^{n-1} f(x)=\int_{0}^{n} f(x) d x+ \\+\sum_{v=1}^{k-1} \frac{B_{v}}{v !}\left\{f^{(v-1)}(n)-f^{(v-1)}(0)\right\}+ \\+\frac{B_{k}}{k !} \sum_{x=0}^{n-1} f^{(k)}(x+\theta),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_25_KONEChNYH">F\left(x, f(x), \Delta f(x), \ldots, \Delta^{n} f(x)\right)=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_26_KONEChNYH">\Phi(x, f(x), f(x+1), \ldots, f(x+n))=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_27_KONEChNYH">f(x+n)=\psi(x, f(x), \ldots, f(x+n-1)) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_28_KONEChNYH">f(x)=\varphi(x, f(x+1), \ldots, f(x+n)),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_29_KONEChNYH">\begin{gathered}f(x+k)+P_{1}(x) f(x+k-1)+\ldots+P_{k}(x) f(x)= \\=Q(x), x=0,1, \ldots,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_30_KONEChNYH">f(x)=c_{1} f_{1}(x)+\ldots+c_{k} f_{k}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_31_KONEChNYH">f(x+k)+a_{1} f(x+k-1)+\ldots+a_{n} f(x)=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_32_KONEChNYH">\lambda^{k}+a_{1} \lambda^{k-1}+\ldots+a_{k}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_33_KONEChNYH">f(x)=c_{1} \lambda_{1}^{x}+\ldots+c_{n} \lambda_{k}^{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_34_KONEChNYH">f(x+2)=f(x+1)+f(x), \quad f(0)=0, \quad f(1)=1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_35_KONEChNYH">f(x)=c_{1}\left(\frac{1+\sqrt{5}}{2}\right)^{x}+c_{2}\left(\frac{1-\sqrt{5}}{2}\right)^{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_36_KONEChNYH">\begin{gathered}f\left(x+h_{k}\right)+a_{1} f\left(x+h_{k-1}\right)+\ldots+a_{k} f(x)=0 \\0&lt;h_{1}&lt;h_{2}&lt;\ldots&lt;h_{k}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_37_KONEChNYH">f(x)=e^{\lambda x},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_38_KONEChNYH">L(\lambda) \equiv e^{h_{k} \lambda}+a_{1} e^{h_{k-1} \lambda}+\ldots+a_{k}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_39_KONEChNYH">\int_{0}^{\alpha} f(x+t) d \sigma(t)=0, \alpha=h_{k},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_40_KONEChNYH">\psi_{v}(t)=\frac{1}{L^{\prime}\left(\lambda_{v}\right)} \int_{0}^{t} e^{\lambda_{v} \xi} d \sigma(\xi), v \geqslant 1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_41_KONEChNYH">\int_{0}^{\alpha} e^{\lambda_{m} t} \downarrow v(t) d t=\delta_{m v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_42_KONEChNYH">\begin{gathered}f(x) \sim \sum_{v=1}^{\infty} a_{v} e^{\lambda_{v} x}, \\a_{v}=\int_{0}^{\alpha} f(t) \psi_{v}(t) d t .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_43_KONEChNYH">f(x+2 \pi)-f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_44_KONEChNYH">\sum_{n=0}^{\infty} \alpha_{n} f^{(n)}(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_45_KONEChNYH">\frac{\partial^{2} u}{\partial x^{2}}+\frac{\partial^{2} u}{\partial y^{2}}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_46_KONEChNYH">\begin{aligned}&amp; \frac{\partial^{2} u}{\partial x^{2}} \approx \frac{u(x+\Delta x, y)-2 u(x, y)+u(x-\Delta x, y)}{\Delta x^{2}}, \\&amp; \frac{\partial^{2} u}{\partial y^{2}} \approx \frac{u(x, y+\Delta y)-2 u(x, y)+u(x, y-\Delta y)}{\Delta y^{2}},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1048_47_KONEChNYH">\begin{gathered}\frac{u(x+\Delta x, y)-2 u(x, y)+u(x-\Delta x, y)}{\Delta x^{2}}+ \\+\frac{u(x, y+\Delta y)-2 u(x, y)+u(x, y-\Delta y)}{\Delta y^{2}}=0 .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_1_KONEChNYH">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_2_KONEChNYH">x_{k}=x_{0}+k h(h-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_3_KONEChNYH">k-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_4_KONEChNYH">\mathbf{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_5_KONEChNYH">\delta^{2} y_{k}=\Delta^{2} f_{k}=\Delta f_{k+1}-\Delta f_{k}=f\left(x_{k+2}\right)-2 f\left(x_{k+1}\right) \div f\left(x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_6_KONEChNYH">n-\mathrm{r} о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_7_KONEChNYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_8_KONEChNYH">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_9_KONEChNYH">\delta y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_10_KONEChNYH">\delta^{2} y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_11_KONEChNYH">\delta^{3} y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_12_KONEChNYH">\cdots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_13_KONEChNYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_14_KONEChNYH">y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_15_KONEChNYH">\delta y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_16_KONEChNYH">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_17_KONEChNYH">y_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_18_KONEChNYH">\delta y_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_19_KONEChNYH">\delta^{2} y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_20_KONEChNYH">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_21_KONEChNYH">y_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_22_KONEChNYH">\delta y_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_23_KONEChNYH">\delta^{2} y_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_24_KONEChNYH">\delta^{3} y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_25_KONEChNYH">x_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_26_KONEChNYH">y_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_27_KONEChNYH">\delta y_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_28_KONEChNYH">\delta^{2} y_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_29_KONEChNYH">\delta^{3} y_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_30_KONEChNYH">x_{4}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_31_KONEChNYH">y_{4}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_32_KONEChNYH">\cdots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_33_KONEChNYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_34_KONEChNYH">y_{0}, y_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_35_KONEChNYH">\delta^{n} y_{n}=y_{k+n}-C_{n}^{1} y_{k+n-1}+C_{n}^{2} y_{k+n-2}-\ldots+(-1)^{n} y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_36_KONEChNYH">\delta y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_37_KONEChNYH">\mathbf{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_38_KONEChNYH">\nabla y_{k}=f\left(x_{k}\right)-f\left(x_{k-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_39_KONEChNYH">\delta^{n} y_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_40_KONEChNYH">\delta^{\prime \prime} y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_41_KONEChNYH">x_{k+1}-x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_42_KONEChNYH">\left[x_{0} ; x_{1} ; \ldots ; x_{n}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_43_KONEChNYH">f\left(x_{0} ; x_{1} ; \ldots ; x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_44_KONEChNYH">x_{n}=x_{0}+n h, n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_45_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_46_KONEChNYH">x_{k}&lt;x&lt;x_{k+n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_47_KONEChNYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_48_KONEChNYH">f^{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_49_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_50_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_51_KONEChNYH">x_{0}, x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_52_KONEChNYH">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_53_KONEChNYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_54_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_55_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_56_KONEChNYH">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_57_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_58_KONEChNYH">n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_59_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_60_KONEChNYH">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_61_KONEChNYH">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_62_KONEChNYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_63_KONEChNYH">x_{0}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_64_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_65_KONEChNYH">\leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_66_KONEChNYH">f(x)=p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_67_KONEChNYH">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_68_KONEChNYH">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_69_KONEChNYH">f(x)=p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_70_KONEChNYH">x_{0}=0, h=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_71_KONEChNYH">x_{n}=n(n \geqslant 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_72_KONEChNYH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_73_KONEChNYH">\left.x_{0}, x_{1}, \ldots\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_74_KONEChNYH">\operatorname{re} x&gt;\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_75_KONEChNYH">\operatorname{re} x \geqslant \beta&gt;\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_76_KONEChNYH">(\varepsilon&gt;0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_77_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_78_KONEChNYH">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_79_KONEChNYH">(n+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_80_KONEChNYH">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_81_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_82_KONEChNYH">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_83_KONEChNYH">\left(x_{n, k}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_84_KONEChNYH">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_85_KONEChNYH">\omega(\delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_86_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_87_KONEChNYH">[-1,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_88_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_89_KONEChNYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_90_KONEChNYH">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_91_KONEChNYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_92_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_93_KONEChNYH">s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_94_KONEChNYH">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_95_KONEChNYH">x_{0}=0, h=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_96_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_97_KONEChNYH">f(x)=x^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_98_KONEChNYH">s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_99_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_100_KONEChNYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_101_KONEChNYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_102_KONEChNYH">0&lt;\theta&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_103_KONEChNYH">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_104_KONEChNYH">n), B_{v}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_105_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_106_KONEChNYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_107_KONEChNYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_108_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_109_KONEChNYH">\delta^{n} f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_110_KONEChNYH">f(x), f(x+1), \ldots, f(x+n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_111_KONEChNYH">f(x+n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_112_KONEChNYH">f\left(x_{0}\right), f\left(x_{0}+1\right), \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_113_KONEChNYH">f\left(x_{0}+n-1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_114_KONEChNYH">f\left(x_{0}+n\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_115_KONEChNYH">f\left(x_{0}+n+1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_116_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_117_KONEChNYH">x=x_{0}-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_118_KONEChNYH">f\left(x_{0}-1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_119_KONEChNYH">f\left(x_{0}-2\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_120_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_121_KONEChNYH">x_{0}+k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_122_KONEChNYH">k-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_123_KONEChNYH">p_{1}(x), \ldots, P_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_124_KONEChNYH">q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_125_KONEChNYH">x=0,1,2 \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_126_KONEChNYH">f(x+k)+p_{1}(x) f(x+k-1)+\ldots+P_{k}(x) f(x)=0 .(7)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_127_KONEChNYH">f_{1}(x), \ldots, f_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_128_KONEChNYH">c_{1}, \ldots, c_{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_129_KONEChNYH">c_{1}, \ldots, c_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_130_KONEChNYH">f(0), f(1), \ldots, f(k-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_131_KONEChNYH">f_{1}(x), \ldots, f_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_132_KONEChNYH">f(x)=\lambda x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_133_KONEChNYH">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_134_KONEChNYH">\lambda_{1}, \ldots, \lambda_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_135_KONEChNYH">\lambda_{1}^{x}, \ldots, \lambda_{k}^{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_136_KONEChNYH">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_137_KONEChNYH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_138_KONEChNYH">\lambda_{1}^{x}, x \lambda_{1}^{x}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_139_KONEChNYH">x^{s-1} \lambda_{1}^{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_140_KONEChNYH">0,1,1,2,3,5,8,15, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_141_KONEChNYH">f(x), x=0,1,2,3, \ldots,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_142_KONEChNYH">\lambda^{2}-\lambda-1=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_143_KONEChNYH">\lambda_{1}=\frac{1+\sqrt{5}}{2}, \lambda_{2}=\frac{1-\sqrt{5}}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_144_KONEChNYH">c_{1}=1 / \sqrt{5}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_145_KONEChNYH">c_{2}=-1 / \sqrt{5}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_146_KONEChNYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_147_KONEChNYH">0,1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_148_KONEChNYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_149_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_150_KONEChNYH">[0, n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_151_KONEChNYH">(5)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_152_KONEChNYH">x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_153_KONEChNYH">f(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_154_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_155_KONEChNYH">[0, n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_156_KONEChNYH">[0, n]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_157_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_158_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_159_KONEChNYH">[0, n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_160_KONEChNYH">(5), f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_161_KONEChNYH">[0, n]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_162_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_163_KONEChNYH">[0, n]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_164_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_165_KONEChNYH">x \in(n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_166_KONEChNYH">n+1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_167_KONEChNYH">x \in(n+1, n+2]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_168_KONEChNYH">h_{1}, \ldots, h_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_169_KONEChNYH">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_170_KONEChNYH">\lambda_{1}, \lambda_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_171_KONEChNYH">e^{\lambda_{m} x}, m=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_172_KONEChNYH">\sigma(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_173_KONEChNYH">0, h_{1}, \ldots, h_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_174_KONEChNYH">a_{1}, \ldots, a_{k} \cdot</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_175_KONEChNYH">\psi_{v}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_176_KONEChNYH">\left(\delta_{m v}=1\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_177_KONEChNYH">m=v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_178_KONEChNYH">\delta_{m v}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_179_KONEChNYH">\left.m \neq v\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_180_KONEChNYH">\left\{e^{\lambda_{n} t}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_181_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_182_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_183_KONEChNYH">2 \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_184_KONEChNYH">l(\lambda)=e^{2 \pi \lambda-1 ;} \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_185_KONEChNYH">l(\lambda)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_186_KONEChNYH">m i ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_187_KONEChNYH">(m=0, \pm 1, \ldots)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_188_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_189_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_190_KONEChNYH">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_191_KONEChNYH">0 \leqslant x \leqslant a, 0 \leqslant y \leqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_192_KONEChNYH">u(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_193_KONEChNYH">\delta x=a / N, \Delta y=b / M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_194_KONEChNYH">u(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_195_KONEChNYH">(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_196_KONEChNYH">(n-1)(M-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_197_KONEChNYH">u(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_198_KONEChNYH">\delta x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1048_199_KONEChNYH">\delta y</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/me/relation/1048_1_KONEChNYH">
+      <rel_text>задачам</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_2_KONEChNYH">
+      <rel_text>переменного</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_3_KONEChNYH">
+      <rel_text>комплексного</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_4_KONEChNYH">
+      <rel_text>функциям</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_5_KONEChNYH">
+      <rel_text>развитие</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_6_KONEChNYH">
+      <rel_text>получили</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_7_KONEChNYH">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_8_KONEChNYH">
+      <rel_text>характер</rel_text>
+      <target>http://libmeta.ru/me/article/830_HARAKTE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_9_KONEChNYH">
+      <rel_text>развптнем</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1048_10_KONEChNYH">
+      <rel_text>параллельно</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+  </relations>
+  <text>раздел математикі, в к-ром изучаются функции при дігскретном изменении аргумента, в отличие от діюфференциального и интегрального исчислений, где аргумент изменяется непрерывно. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/1048_1_KONEChNYH]]/URI$ задана в точках $URI[[http://libmeta.ru/me/formula/aux/1048_2_KONEChNYH]]/URI$ постоянная, $URI[[http://libmeta.ru/me/formula/aux/1048_3_KONEChNYH]]/URI$ целое). Torдa
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_1_KONEChNYH]]/URI
+\]
+
+- (коне чны е) р а 3 ност пи первого по рядк $URI[[http://libmeta.ru/me/formula/aux/1048_4_KONEChNYH]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/1048_5_KONEChNYH]]/URI$
+
+- разност ї второго порядка, ...,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_2_KONEChNYH]]/URI
+\]
+
+- р а з о с т и $URI[[http://libmeta.ru/me/formula/aux/1048_6_KONEChNYH]]/URI$ по р я д к а. Разностіг удобно располагать в таблицу:
+
+\begin{tabular}{c|c|c|c|c|c}
+\hline$URI[[http://libmeta.ru/me/formula/aux/1048_7_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_8_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_9_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_10_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_11_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_12_KONEChNYH]]/URI$ \\
+\hline$URI[[http://libmeta.ru/me/formula/aux/1048_13_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_14_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_15_KONEChNYH]]/URI$ &amp; &amp; &amp; \\
+$URI[[http://libmeta.ru/me/formula/aux/1048_16_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_17_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_18_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_19_KONEChNYH]]/URI$ &amp; &amp; \\
+$URI[[http://libmeta.ru/me/formula/aux/1048_20_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_21_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_22_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_23_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_24_KONEChNYH]]/URI$ &amp; \\
+$URI[[http://libmeta.ru/me/formula/aux/1048_25_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_26_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_27_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_28_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_29_KONEChNYH]]/URI$ &amp; \\
+$URI[[http://libmeta.ru/me/formula/aux/1048_30_KONEChNYH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/1048_31_KONEChNYH]]/URI$ &amp; &amp; &amp; &amp; \\
+$URI[[http://libmeta.ru/me/formula/aux/1048_32_KONEChNYH]]/URI$ &amp; &amp; &amp; &amp; &amp; \\
+\hline
+\end{tabular}
+
+Разность $URI[[http://libmeta.ru/me/formula/aux/1048_33_KONEChNYH]]/URI$-го порядка через величины $URI[[http://libmeta.ru/me/formula/aux/1048_34_KONEChNYH]]/URI$ выражается формулой:
+
+$URI[[http://libmeta.ru/me/formula/aux/1048_35_KONEChNYH]]/URI$.
+
+Наряду с р а зоостя м и п п ре д $URI[[http://libmeta.ru/me/formula/aux/1048_36_KONEChNYH]]/URI$ употребляются р а 3 н о с т и на $URI[[http://libmeta.ru/me/formula/aux/1048_37_KONEChNYH]]/URI$ а д:
+
+$URI[[http://libmeta.ru/me/formula/aux/1048_38_KONEChNYH]]/URI$.
+
+А33 Математическая әнц., т. 2 В ряде вопросов (в частности, при построении интерполяціонных формул) используют це н т р а л ь ны е р а з н о с т и:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_3_KONEChNYH]]/URI
+\]
+
+к-рые определяются следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_4_KONEChNYH]]/URI
+\]
+
+Между центральными $URI[[http://libmeta.ru/me/formula/aux/1048_39_KONEChNYH]]/URI$ и обычнымі разностями $URI[[http://libmeta.ru/me/formula/aux/1048_40_KONEChNYH]]/URI$ имеется связь
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_5_KONEChNYH]]/URI
+\]
+
+В случае, когда промежутки $URI[[http://libmeta.ru/me/formula/aux/1048_41_KONEChNYH]]/URI$ не постоянны, рассматривают так наз. р а 3 д е ле н ны е р а 3 н ос т и:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_6_KONEChNYH]]/URI
+\]
+
+Имеет место формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_7_KONEChNYH]]/URI
+\]
+
+Иногда вместо $URI[[http://libmeta.ru/me/formula/aux/1048_42_KONEChNYH]]/URI$ употребляется обозначение $URI[[http://libmeta.ru/me/formula/aux/1048_43_KONEChNYH]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/1048_44_KONEChNYH]]/URI$, To
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_8_KONEChNYH]]/URI
+\]
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/1048_45_KONEChNYH]]/URI$ в интервале $URI[[http://libmeta.ru/me/formula/aux/1048_46_KONEChNYH]]/URI$ имеет $URI[[http://libmeta.ru/me/formula/aux/1048_47_KONEChNYH]]/URI$-ю производную $URI[[http://libmeta.ru/me/formula/aux/1048_48_KONEChNYH]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_9_KONEChNYH]]/URI
+\]
+
+К. р. и. тесно связано с общей теорией пріглижения функций, используется в приближенном дифференцировании I интегрировании, в приближенном решении дифференциальных уравнений и других вопросах. Пусть поставлена задача (интерполяционная задача) о восстановлении функций $URI[[http://libmeta.ru/me/formula/aux/1048_49_KONEChNYH]]/URI$, если известны значения $URI[[http://libmeta.ru/me/formula/aux/1048_50_KONEChNYH]]/URI$ в точках $URI[[http://libmeta.ru/me/formula/aux/1048_51_KONEChNYH]]/URI$. Строгтся многочлен $URI[[http://libmeta.ru/me/formula/aux/1048_52_KONEChNYH]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/1048_53_KONEChNYH]]/URI$, к-рый в указанных точках принимает те же значения, что и $URI[[http://libmeta.ru/me/formula/aux/1048_54_KONEChNYH]]/URI$. Его можно записать в различных формах - в форме Лагранжа, в форме Ньютона и т. Д. В форме Ньютона Iнтерполяционный многочлен имеет вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_10_KONEChNYH]]/URI
+\]
+
+а в случае равноотстоящих значений независимого переменного:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_11_KONEChNYH]]/URI
+\]
+
+Функцию $URI[[http://libmeta.ru/me/formula/aux/1048_55_KONEChNYH]]/URI$ принимают приближенно равной $URI[[http://libmeta.ru/me/formula/aux/1048_56_KONEChNYH]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/1048_57_KONEChNYH]]/URI$ имеет $URI[[http://libmeta.ru/me/formula/aux/1048_58_KONEChNYH]]/URI$ производную, то ошибка от замены $URI[[http://libmeta.ru/me/formula/aux/1048_59_KONEChNYH]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/1048_60_KONEChNYH]]/URI$ оценивается соотношением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_12_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_61_KONEChNYH]]/URI$ лежит в интервале, в к-ром находятся точки $URI[[http://libmeta.ru/me/formula/aux/1048_62_KONEChNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1048_63_KONEChNYH]]/URI$. В случае, если $URI[[http://libmeta.ru/me/formula/aux/1048_64_KONEChNYH]]/URI$ - многочлен степени $URI[[http://libmeta.ru/me/formula/aux/1048_65_KONEChNYH]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1048_66_KONEChNYH]]/URI$.
+
+Прі неограниченном увеличении числа узлов пнтерполяции многочлен $URI[[http://libmeta.ru/me/formula/aux/1048_67_KONEChNYH]]/URI$ становится в пределе многочленом $URI[[http://libmeta.ru/me/formula/aux/1048_68_KONEChNYH]]/URI$ «бесконечной» степени и естественно возникает вопрос: когда $URI[[http://libmeta.ru/me/formula/aux/1048_69_KONEChNYH]]/URI$, т. е. когда будет выполняться равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_13_KONEChNYH]]/URI
+\]
+
+(для простоты рассматривается случай равноотстоящих узлов). Пусть $URI[[http://libmeta.ru/me/formula/aux/1048_70_KONEChNYH]]/URI$, так что $URI[[http://libmeta.ru/me/formula/aux/1048_71_KONEChNYH]]/URI$. Есліi ряд (1) сходится в точке $URI[[http://libmeta.ru/me/formula/aux/1048_72_KONEChNYH]]/URI$, отлічной от узлов (ряд (1) всегда сходится в узлах $URI[[http://libmeta.ru/me/formula/aux/1048_73_KONEChNYH]]/URI$, то-он сходится в полуплоскости $URI[[http://libmeta.ru/me/formula/aux/1048_74_KONEChNYH]]/URI$ и представляет собой в этой полуплоскости аналитич. функцію, к-рая в полуплоскости $URI[[http://libmeta.ru/me/formula/aux/1048_75_KONEChNYH]]/URI$ удовлетворяет условию $URI[[http://libmeta.ru/me/formula/aux/1048_76_KONEChNYH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_14_KONEChNYH]]/URI
+\]
+
+Обратно, если $URI[[http://libmeta.ru/me/formula/aux/1048_77_KONEChNYH]]/URI$ аналитична в нек-рой полуплоскости и имеет оценку роста, подобную указанной (несколько лучше ее), то она представляется рядом (1). Таким образом, в ряд (1) (так наз. р я д Н ь ю т о н а) разлагаются функции из весьма узкого класса (только аналігтич. функции с определенным ростом). Изучаются ряды Ньютона, когда узлы - вообще комплексные числа. Такие ряды нашли большое применение в теории трансцендентных чисел. Пусть теперь узлы интерполяциі образуют треугольную матрицу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_15_KONEChNYH]]/URI
+\]
+
+и интерполяционный многочлен $URI[[http://libmeta.ru/me/formula/aux/1048_78_KONEChNYH]]/URI$ строится по узлам, расположөнным в $URI[[http://libmeta.ru/me/formula/aux/1048_79_KONEChNYH]]/URI$-й строчке. Класе функций, для к-рых $URI[[http://libmeta.ru/me/formula/aux/1048_80_KONEChNYH]]/URI$ стремится к $URI[[http://libmeta.ru/me/formula/aux/1048_81_KONEChNYH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1048_82_KONEChNYH]]/URI$, Завісит от матрицы узлов. Напр., в случае, когда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_16_KONEChNYH]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1048_83_KONEChNYH]]/URI$ - корні Чебышева многочлена), для сходімости интерполяционного процесса на отрезке $URI[[http://libmeta.ru/me/formula/aux/1048_84_KONEChNYH]]/URI$ достаточно выполнения условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_17_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_85_KONEChNYH]]/URI$ - непрерывности модуль $URI[[http://libmeta.ru/me/formula/aux/1048_86_KONEChNYH]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/1048_87_KONEChNYH]]/URI$.
+
+Другая важная задача К. р. и.- задача суммирования функций. Пусть дана нек-рая функция $URI[[http://libmeta.ru/me/formula/aux/1048_88_KONEChNYH]]/URI$. Требуется найти в конечном виде, точно плi приближенго, сумму
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_18_KONEChNYH]]/URI
+\]
+
+при фиксированных $URI[[http://libmeta.ru/me/formula/aux/1048_89_KONEChNYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1048_90_KONEChNYH]]/URI$ и большом $URI[[http://libmeta.ru/me/formula/aux/1048_91_KONEChNYH]]/URI$, если известны нек-рые аналитич. свойства $URI[[http://libmeta.ru/me/formula/aux/1048_92_KONEChNYH]]/URI$. Иначе говоря, исслөдуется асимптотич. поведение $URI[[http://libmeta.ru/me/formula/aux/1048_93_KONEChNYH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1048_94_KONEChNYH]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/1048_95_KONEChNYH]]/URI$ (для простоты) и найдена функція $URI[[http://libmeta.ru/me/formula/aux/1048_96_KONEChNYH]]/URI$ такая, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_19_KONEChNYH]]/URI
+\] Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_20_KONEChNYH]]/URI
+\]
+
+Напр., пусть $URI[[http://libmeta.ru/me/formula/aux/1048_97_KONEChNYH]]/URI$. Решение уравнения (2) ищется в виде многочлена третьей степени
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_21_KONEChNYH]]/URI
+\]
+
+с неопределенными коэффициентами. При подстановке в уравнение (2) и приравнивании коэффициентов левой и правой частей при соответствующих степенях многочлен имеет вид:
+
+Ii
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_22_KONEChNYH]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_23_KONEChNYH]]/URI
+\]
+
+Не всегда удается в конечном виде получить решение уравнения (2). Поэтому полезно иметь приближенные формулы для $URI[[http://libmeta.ru/me/formula/aux/1048_98_KONEChNYH]]/URI$. Такой формулой является Әйлера Маклорена борлула суммирования. В случае, если $URI[[http://libmeta.ru/me/formula/aux/1048_99_KONEChNYH]]/URI$ имеет $URI[[http://libmeta.ru/me/formula/aux/1048_100_KONEChNYH]]/URI$ производных и $URI[[http://libmeta.ru/me/formula/aux/1048_101_KONEChNYH]]/URI$ - четное, формулу Эйлера Маклорена можно записать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_24_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_102_KONEChNYH]]/URI$ ( $URI[[http://libmeta.ru/me/formula/aux/1048_103_KONEChNYH]]/URI$ вообще зависит от $URI[[http://libmeta.ru/me/formula/aux/1048_104_KONEChNYH]]/URI$ Бернулли числа. Если $URI[[http://libmeta.ru/me/formula/aux/1048_105_KONEChNYH]]/URI$ - многочлен степени, меньшей $URI[[http://libmeta.ru/me/formula/aux/1048_106_KONEChNYH]]/URI$, то остаточный член равен нулю.
+
+Имеется аналогия между задачами К. р. и. и диффференциальным и интегральным исчислениями. Операция разыскания разности соответствует нахождению производной; решение уравнения (2) как операция, обратная разысканию конечной разности, соответствует нахождению первообразной, т. е. неопределенному интегрированию. Формула (3) есть прямой аналог Ньютоналейбница формулы. Эта аналогия проявляется при рассмотрении уравнений в конечных разностях. Уравнением в конечных разностях наз. соотношение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_25_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_107_KONEChNYH]]/URI$ - заданная функция, а $URI[[http://libmeta.ru/me/formula/aux/1048_108_KONEChNYH]]/URI$ - искомая. Если выразить все $URI[[http://libmeta.ru/me/formula/aux/1048_109_KONEChNYH]]/URI$ через $URI[[http://libmeta.ru/me/formula/aux/1048_110_KONEChNYH]]/URI$, то уравнение в конечных разностях запишется в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_26_KONEChNYH]]/URI
+\]
+
+Его решение относительно $URI[[http://libmeta.ru/me/formula/aux/1048_111_KONEChNYH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_27_KONEChNYH]]/URI
+\]
+
+При задании начальных значений $URI[[http://libmeta.ru/me/formula/aux/1048_112_KONEChNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1048_113_KONEChNYH]]/URI$ можно последовательно найти $URI[[http://libmeta.ru/me/formula/aux/1048_114_KONEChNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1048_115_KONEChNYH]]/URI$ и т. Д. После решения уравнения (4) относительно $URI[[http://libmeta.ru/me/formula/aux/1048_116_KONEChNYH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_28_KONEChNYH]]/URI
+\]
+
+можно, положив $URI[[http://libmeta.ru/me/formula/aux/1048_117_KONEChNYH]]/URI$, найти $URI[[http://libmeta.ru/me/formula/aux/1048_118_KONEChNYH]]/URI$, затем найти $URI[[http://libmeta.ru/me/formula/aux/1048_119_KONEChNYH]]/URI$ и т. Д. Таким образом, из уравнения через начальные данные могут быть найдены значения $URI[[http://libmeta.ru/me/formula/aux/1048_120_KONEChNYH]]/URI$ во всех точках $URI[[http://libmeta.ru/me/formula/aux/1048_121_KONEChNYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1048_122_KONEChNYH]]/URI$ целое. Пусть рассматривается линейное уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_29_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_123_KONEChNYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1048_124_KONEChNYH]]/URI$ - заданные функции на множестве $URI[[http://libmeta.ru/me/formula/aux/1048_125_KONEChNYH]]/URI$. Общее решіение неоднородного уравнения (6) есть сумма частного решения неодно- родного уравнения и общего решения однородного уравнения
+
+$URI[[http://libmeta.ru/me/formula/aux/1048_126_KONEChNYH]]/URI$ Если $URI[[http://libmeta.ru/me/formula/aux/1048_127_KONEChNYH]]/URI$ - линейно независимые решения уравнения (7), то общее решение уравнения (7) выражается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_30_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_128_KONEChNYH]]/URI$ произвольные постоянные. Постоянные $URI[[http://libmeta.ru/me/formula/aux/1048_129_KONEChNYH]]/URI$ можно найти, задав начальные условия, значения $URI[[http://libmeta.ru/me/formula/aux/1048_130_KONEChNYH]]/URI$. Линейно независимые решения $URI[[http://libmeta.ru/me/formula/aux/1048_131_KONEChNYH]]/URI$ (фундаментальная система) легко находятся в случае уравнения с постоянными коэфффициентам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_31_KONEChNYH]]/URI
+\]
+
+Решение уравнения (8) ищется в виде $URI[[http://libmeta.ru/me/formula/aux/1048_132_KONEChNYH]]/URI$. Характеристическое уравнение для $URI[[http://libmeta.ru/me/formula/aux/1048_133_KONEChNYH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_32_KONEChNYH]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/1048_134_KONEChNYH]]/URI$ - его корни и все оніг различны. Тогда фундаментальная система решений уравнения (8) есть система $URI[[http://libmeta.ru/me/formula/aux/1048_135_KONEChNYH]]/URI$ и общее решение уравнения (8) представляется формулой:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_33_KONEChNYH]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/1048_136_KONEChNYH]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/1048_137_KONEChNYH]]/URI$-кратный корень характерістіч. уравнения, то ему соответствуют частные решения $URI[[http://libmeta.ru/me/formula/aux/1048_138_KONEChNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1048_139_KONEChNYH]]/URI$
+
+Пусть, напр., рассматривается последовательность чисел, начинающаяся с нуля и едіницы, в к-рой каждый последующий член равен сумме двух непосредственно предшествующих ему: $URI[[http://libmeta.ru/me/formula/aux/1048_140_KONEChNYH]]/URI$ (фибоначчи числа). Ищется выражение для общего члена последовательности. Пусть $URI[[http://libmeta.ru/me/formula/aux/1048_141_KONEChNYH]]/URI$ общий член последовательности; условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_34_KONEChNYH]]/URI
+\]
+
+является разностным уравнением с заданными начальными условиями. Характеристическое уравнение имеет вид: $URI[[http://libmeta.ru/me/formula/aux/1048_142_KONEChNYH]]/URI$, его корни $URI[[http://libmeta.ru/me/formula/aux/1048_143_KONEChNYH]]/URI$, поэтому
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_35_KONEChNYH]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1048_144_KONEChNYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1048_145_KONEChNYH]]/URI$ находятся из начальных условий.
+
+Уравнение (4) можно изучать не только тогда, когда $URI[[http://libmeta.ru/me/formula/aux/1048_146_KONEChNYH]]/URI$ изменяется дискретно, принимая значенія $URI[[http://libmeta.ru/me/formula/aux/1048_147_KONEChNYH]]/URI$, ... , но и тогда, когда $URI[[http://libmeta.ru/me/formula/aux/1048_148_KONEChNYH]]/URI$ изменяется непрерывно. Пусть $URI[[http://libmeta.ru/me/formula/aux/1048_149_KONEChNYH]]/URI$ задана произвольно в полуинтервале $URI[[http://libmeta.ru/me/formula/aux/1048_150_KONEChNYH]]/URI$. Из $URI[[http://libmeta.ru/me/formula/aux/1048_151_KONEChNYH]]/URI$, положив $URI[[http://libmeta.ru/me/formula/aux/1048_152_KONEChNYH]]/URI$, получают $URI[[http://libmeta.ru/me/formula/aux/1048_153_KONEChNYH]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/1048_154_KONEChNYH]]/URI$ задана непрерывной в $URI[[http://libmeta.ru/me/formula/aux/1048_155_KONEChNYH]]/URI$, то в замкнутом пнтервале $URI[[http://libmeta.ru/me/formula/aux/1048_156_KONEChNYH]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/1048_157_KONEChNYH]]/URI$ может оказаться разрывной. Желая пметь дело с непрерывными решениями, надо $URI[[http://libmeta.ru/me/formula/aux/1048_158_KONEChNYH]]/URI$ так задать в $URI[[http://libmeta.ru/me/formula/aux/1048_159_KONEChNYH]]/URI$, чтобы, в силу $URI[[http://libmeta.ru/me/formula/aux/1048_160_KONEChNYH]]/URI$ оказалась непрерывной в $URI[[http://libmeta.ru/me/formula/aux/1048_161_KONEChNYH]]/URI$. Зная $URI[[http://libmeta.ru/me/formula/aux/1048_162_KONEChNYH]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/1048_163_KONEChNYH]]/URI$, из (5) находят $URI[[http://libmeta.ru/me/formula/aux/1048_164_KONEChNYH]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/1048_165_KONEChNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1048_166_KONEChNYH]]/URI$, затем для $URI[[http://libmeta.ru/me/formula/aux/1048_167_KONEChNYH]]/URI$ и т. Д.
+
+Более общим, чем уравнение (8), является уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_36_KONEChNYH]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/1048_168_KONEChNYH]]/URI$ - необязательно целые і необязательно соизмеримы между собой. Уравнение (9) имеет частные решения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_37_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_169_KONEChNYH]]/URI$ - корень уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_38_KONEChNYH]]/URI
+\] Это уравнение имеет бесконечно много корней $URI[[http://libmeta.ru/me/formula/aux/1048_170_KONEChNYH]]/URI$, ... Следовательно, уравнение (9) имеет бесконечно много частных решений $URI[[http://libmeta.ru/me/formula/aux/1048_171_KONEChNYH]]/URI$. Пусть все корни простые. Для выражения решения уравненія (9) через этіг элементарные частные решения уравненіе удобнее записать в віде:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_39_KONEChNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1048_172_KONEChNYH]]/URI$ - кусочно постоянная функция, имеющая скачкі в точках $URI[[http://libmeta.ru/me/formula/aux/1048_173_KONEChNYH]]/URI$, равные соответственно 1 , $URI[[http://libmeta.ru/me/formula/aux/1048_174_KONEChNYH]]/URI$ Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_40_KONEChNYH]]/URI
+\]
+
+Функции $URI[[http://libmeta.ru/me/formula/aux/1048_175_KONEChNYH]]/URI$ обладают свойством:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_41_KONEChNYH]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1048_176_KONEChNYH]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/1048_177_KONEChNYH]]/URI$, іг $URI[[http://libmeta.ru/me/formula/aux/1048_178_KONEChNYH]]/URI$, еслін $URI[[http://libmeta.ru/me/formula/aux/1048_179_KONEChNYH]]/URI$, т. е. оніг образуют систему, біортогональную к системе $URI[[http://libmeta.ru/me/formula/aux/1048_180_KONEChNYH]]/URI$. На этом основании решенію $URI[[http://libmeta.ru/me/formula/aux/1048_181_KONEChNYH]]/URI$ уравнения (10) пріводітся в соответствие ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_42_KONEChNYH]]/URI
+\]
+
+В случае, когда уравненіе (9) имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_43_KONEChNYH]]/URI
+\]
+
+(т. е. $URI[[http://libmeta.ru/me/formula/aux/1048_182_KONEChNYH]]/URI$ - периодическая функция с періодом $URI[[http://libmeta.ru/me/formula/aux/1048_183_KONEChNYH]]/URI$ ); $URI[[http://libmeta.ru/me/formula/aux/1048_184_KONEChNYH]]/URI$ корні уравнения $URI[[http://libmeta.ru/me/formula/aux/1048_185_KONEChNYH]]/URI$ суть $URI[[http://libmeta.ru/me/formula/aux/1048_186_KONEChNYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1048_187_KONEChNYH]]/URI$ и ряд (11) есть ряд Фурье для функциіл $URI[[http://libmeta.ru/me/formula/aux/1048_188_KONEChNYH]]/URI$, записанный в комплексной форме. Ряд (11) можно рассматрıвать как обобщение на случай разностного уравнения (9) обычного ряда Фурье, соответствующего простейшему разностному уравнению (12). При определенных условиях ряд (11) сходится к решенію $URI[[http://libmeta.ru/me/formula/aux/1048_189_KONEChNYH]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/1048_190_KONEChNYH]]/URI$ - аналитическая функция, то уравненіе (9) представимо в виде бесконечного порядка уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_44_KONEChNYH]]/URI
+\]
+
+Аналогично разностям функций одного переменного вводятся разности функций многих переменных. Так, напр., пусть требуется решіть задачу численного решения уравненія Лапласа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_45_KONEChNYH]]/URI
+\]
+
+в прямоугольнике $URI[[http://libmeta.ru/me/formula/aux/1048_191_KONEChNYH]]/URI$, при заданных значения $URI[[http://libmeta.ru/me/formula/aux/1048_192_KONEChNYH]]/URI$ на гранıце прямоугольника. Прямоугольник разбивается на мелкие прямоугольные ячейки со сторонами $URI[[http://libmeta.ru/me/formula/aux/1048_193_KONEChNYH]]/URI$. В вершинах этіх ячеек ищутся значения решения. В вершинах, к-рые лежат на границе исходного прямоугольника, значения $URI[[http://libmeta.ru/me/formula/aux/1048_194_KONEChNYH]]/URI$ известны. Принимая приближенно (в числителях стоят разності второго порядка)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_46_KONEChNYH]]/URI
+\]
+
+вместо уравнения Лапласа получают систему уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1048_47_KONEChNYH]]/URI
+\]
+
+Точка $URI[[http://libmeta.ru/me/formula/aux/1048_195_KONEChNYH]]/URI$ пробегает те вершины ячеек, к-рые расположены внутри основного прямоугольника. Тем самым строгтся сістема $URI[[http://libmeta.ru/me/formula/aux/1048_196_KONEChNYH]]/URI$ уравнений, содержащая то же число нешзвестных. Решая эту алгебрапч. систему уравнений, получают значенія $URI[[http://libmeta.ru/me/formula/aux/1048_197_KONEChNYH]]/URI$ в вершшнах ячеек. Когда $URI[[http://libmeta.ru/me/formula/aux/1048_198_KONEChNYH]]/URI$ I $URI[[http://libmeta.ru/me/formula/aux/1048_199_KONEChNYH]]/URI$ малы, а решение задачи пмеет определенную гладкость, найденные значения близкі к точным значениям.
+
+К. р. и. развивалось URI[[http://libmeta.ru/me/relation/1048_10_KONEChNYH]]/URI с URI[[http://libmeta.ru/me/relation/1048_9_KONEChNYH]]/URI основных разделов математич. анализа. Начала Ғ. р. I. содержатся в трудах П. Ферма (p. Fermat), И. Барроу (i. Barrow), Г. Јейбница (g. Leibniz). В 18 в. К. p. Iг. приобрело URI[[http://libmeta.ru/me/relation/1048_8_KONEChNYH]]/URI самостоятельной математич. дисциплины. Первое систематич. изложение К. р. I. было дано Б. Тейлором (b. Taylor) в 1715. Труды математıков 19 в. подготовили почву для современных глав К. p. и. Идеи и URI[[http://libmeta.ru/me/relation/1048_7_KONEChNYH]]/URI К. р. и. URI[[http://libmeta.ru/me/relation/1048_6_KONEChNYH]]/URI суцественное URI[[http://libmeta.ru/me/relation/1048_5_KONEChNYH]]/URI в применении к аналитпч. URI[[http://libmeta.ru/me/relation/1048_4_KONEChNYH]]/URI URI[[http://libmeta.ru/me/relation/1048_3_KONEChNYH]]/URI URI[[http://libmeta.ru/me/relation/1048_2_KONEChNYH]]/URI и URI[[http://libmeta.ru/me/relation/1048_1_KONEChNYH]]/URI вычислітельной математіки.</text>
+  <text_orig>раЗдел математикі, в к-ром изучаются функции при дігскретном изменении аргумента, в отличие от діюфференциального и интегрального исчислений, где аргумент изменяется непрерывно. Пусть функция $y=f(x)$ задана в точках $x_{k}=x_{0}+k h(h-$ постоянная, $k-$ целое). Torдa
+
+\[
+\Delta y_{k}=\Delta f_{k}=f\left(x_{k+1}\right)-f\left(x_{k}\right)
+\]
+
+- (коне чны е) р а 3 ност пи первого по рядк $\mathbf{a}$,
+
+$\Delta^{2} y_{k}=\Delta^{2} f_{k}=\Delta f_{k+1}-\Delta f_{k}=f\left(x_{k+2}\right)-2 f\left(x_{k+1}\right) \div f\left(x_{k}\right)$
+
+- разност ї второго порядка, ...,
+
+\[
+\Delta^{n} y_{k}=\Delta^{n} f_{k}=\Delta^{n-1} f_{k+1}-\Delta^{n-1} f_{k}
+\]
+
+- р а з о с т и $n-\mathrm{r} о$ по р я д к а. Разностіг удобно располагать в таблицу:
+
+\begin{tabular}{c|c|c|c|c|c}
+\hline$x$ &amp; $y$ &amp; $\Delta y$ &amp; $\Delta^{2} y$ &amp; $\Delta^{3} y$ &amp; $\cdots$ \\
+\hline$x_{0}$ &amp; $y_{0}$ &amp; $\Delta y_{0}$ &amp; &amp; &amp; \\
+$x_{1}$ &amp; $y_{1}$ &amp; $\Delta y_{1}$ &amp; $\Delta^{2} y_{0}$ &amp; &amp; \\
+$x_{2}$ &amp; $y_{2}$ &amp; $\Delta y_{2}$ &amp; $\Delta^{2} y_{1}$ &amp; $\Delta^{3} y_{0}$ &amp; \\
+$x_{3}$ &amp; $y_{3}$ &amp; $\Delta y_{3}$ &amp; $\Delta^{2} y_{2}$ &amp; $\Delta^{3} y_{1}$ &amp; \\
+$x_{4}$ &amp; $y_{4}$ &amp; &amp; &amp; &amp; \\
+$\cdots$ &amp; &amp; &amp; &amp; &amp; \\
+\hline
+\end{tabular}
+
+Разность $n$-го порядка через величины $y_{0}, y_{1}, \ldots$ выражается формулой:
+
+$\Delta^{n} y_{n}=y_{k+n}-C_{n}^{1} y_{k+n-1}+C_{n}^{2} y_{k+n-2}-\ldots+(-1)^{n} y_{k}$.
+
+Наряду с р а зоостя м и п п ре д $\Delta y_{k}$ употребляются р а 3 н о с т и на $\mathbf{3}$ а д:
+
+$\nabla y_{k}=f\left(x_{k}\right)-f\left(x_{k-1}\right)$.
+
+А33 Математическая әнц., т. 2 В ряде вопросов (в частности, при построении интерполяціонных формул) используют це н т р а л ь ны е р а з н о с т и:
+
+\[
+\delta^{2 m-1} y_{i+\frac{1}{2}}, \delta^{2 m} y_{i}
+\]
+
+к-рые определяются следующим образом:
+
+\[
+\begin{gathered}
+\delta y_{i+\frac{1}{2}}=y_{i+1}-y_{i}, \\
+\delta^{2} y_{i}=\delta y_{i+\frac{1}{2}}-\delta y_{i-\frac{1}{2}}, \\
+\delta^{2 m-1} y_{i+\frac{1}{2}}=\delta^{2 m-2} y_{i+1}-\delta^{2 m-2} y_{i}, \\
+\delta^{2 m} y_{i}=\delta^{2 m-1} y_{i+\frac{1}{2}}-\delta^{2 m-1} y_{i-\frac{1}{2}}
+\end{gathered}
+\]
+
+Между центральными $\delta^{n} y_{l}$ и обычнымі разностями $\Delta^{\prime \prime} y_{k}$ имеется связь
+
+\[
+\delta^{2 m} y_{i}=\Delta^{2 m} y_{i-m}, \delta^{2 m+1} y_{i+\frac{1}{2}}=\Delta^{2 m+1} y_{i-m} .
+\]
+
+В случае, когда промежутки $x_{k+1}-x_{k}$ не постоянны, рассматривают так наз. р а 3 д е ле н ны е р а 3 н ос т и:
+
+\[
+\begin{gathered}
+{\left[x_{0} ; x_{1}\right]=\frac{y_{0}-y_{1}}{x_{0}-x_{1}},} \\
+{\left[x_{0} ; x_{1} ; x_{2}\right]=\frac{\left[x_{0} ; x_{1}\right]-\left[x_{1} ; x_{2}\right]}{x_{0}-x_{2}},} \\
+\left.\cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot x_{n} \cdot \cdot x_{n} ; x_{1} ; \ldots ; x_{n}\right]=\frac{\left[x_{0} ; x_{1} ; \ldots ; x_{n-1}\right]-\left[x_{2} ; \ldots ; x_{n}\right]}{x_{0}-x_{n}}
+\end{gathered}
+\]
+
+Имеет место формула
+
+\[
+\left\ulcorner x_{0} ; x_{1} ; \ldots ; x_{n}\right]=\sum_{j=0}^{n} \overline{\prod_{i \neq j}\left(x_{j}-x_{i}\right)}
+\]
+
+Иногда вместо $\left[x_{0} ; x_{1} ; \ldots ; x_{n}\right]$ употребляется обозначение $f\left(x_{0} ; x_{1} ; \ldots ; x_{n}\right)$. Если $x_{n}=x_{0}+n h, n=0,1,2, \ldots$, To
+
+\[
+\left[x_{0} ; x_{1} ; \ldots ; x_{n}\right]=\frac{\Delta^{n} y_{0}}{n ! h^{n}} .
+\]
+
+Если функция $f(x)$ в интервале $x_{k}&lt;x&lt;x_{k+n}$ имеет $n$-ю производную $f^{n}(x)$, то
+
+\[
+\Delta^{n} y_{k}=h^{n} f^{(n)}(\xi), x_{k}&lt;\xi&lt;x_{k+n} .
+\]
+
+К. р. и. тесно связано с общей теорией пріглижения функций, используется в приближенном дифференцировании I интегрировании, в приближенном решении дифференциальных уравнений и других вопросах. Пусть поставлена задача (интерполяционная задача) о восстановлении функций $f(x)$, если известны значения $f(x)$ в точках $x_{0}, x_{1}, \ldots, x_{n}$. Строгтся многочлен $P(x)$ степени $n$, к-рый в указанных точках принимает те же значения, что и $f(x)$. Его можно записать в различных формах - в форме Лагранжа, в форме Ньютона и т. Д. В форме Ньютона Iнтерполяционный многочлен имеет вид:
+
+\[
+\begin{gathered}
+P_{n}(x)=f\left(x_{0}\right)+\left[x_{0} ; x_{1}\right]\left(x-x_{0}\right)+ \\
++\left[x_{0} ; x_{1} ; x_{2}\right]\left(x-x_{0}\right)\left(x-x_{1}\right)+\ldots \\
+\ldots+\left[x_{0} ; x_{1} ; \ldots ; x_{n}\right]\left(x-x_{0}\right) \ldots\left(x-x_{n-1}\right),
+\end{gathered}
+\]
+
+а в случае равноотстоящих значений независимого переменного:
+
+\[
+P_{n}(x)=f\left(x_{0}\right)+\sum_{k=1}^{n} \frac{\Delta^{k} f\left(x_{0}\right)}{k ! h^{k}}\left(x-x_{0}\right) \ldots\left(x-x_{k-1}\right) .
+\]
+
+Функцию $f(x)$ принимают приближенно равной $P_{n}(x)$. Если $f(x)$ имеет $n+1$ производную, то ошибка от замены $f(x)$ на $P_{n}(x)$ оценивается соотношением
+
+\[
+f(x)=P_{n}(x)+\frac{f^{(n+1)}(\xi)}{(n+1) !}\left(x-x_{0}\right) \ldots\left(x-x_{n}\right),
+\]
+
+где $\xi$ лежит в интервале, в к-ром находятся точки $x$, $x_{0}, \ldots, x_{n}$. В случае, если $f(x)$ - многочлен степени $\leqslant n$, то $f(x)=P_{n}(x)$.
+
+Прі неограниченном увеличении числа узлов пнтерполяции многочлен $P_{n}(x)$ становится в пределе многочленом $P(x)$ «бесконечной» степени и естественно возникает вопрос: когда $f(x)=P(x)$, т. е. когда будет выполняться равенство
+
+\[
+f(x)=f\left(x_{0}\right)+\sum_{k=1}^{\infty} \frac{\Delta^{k} f\left(x_{0}\right)}{k ! h^{k}}\left(x-x_{0}\right) \ldots\left(x-x_{k-1}\right)
+\]
+
+(для простоты рассматривается случай равноотстоящих узлов). Пусть $x_{0}=0, h=1$, так что $x_{n}=n(n \geqslant 0)$. ЕсліI ряд (1) сходится в точке $\alpha$, отлічной от узлов (ряд (1) всегда сходится в узлах $\left.x_{0}, x_{1}, \ldots\right)$, то-он сходится в полуплоскости $\operatorname{Re} x&gt;\alpha$ и представляет собой в этой полуплоскости аналитич. функцію, к-рая в полуплоскости $\operatorname{Re} x \geqslant \beta&gt;\alpha$ удовлетворяет условию $(\varepsilon&gt;0)$ :
+
+\[
+\begin{gathered}
+\left|f\left(r e^{i \varphi}\right)\right|&lt;c e^{r h(\varphi)} r^{\alpha+\frac{1}{2}+\varepsilon}, \\
+h(\varphi)=\cos \varphi \ln (2 \cos \varphi)+\varphi \sin \varphi .
+\end{gathered}
+\]
+
+Обратно, если $f(x)$ аналитична в нек-рой полуплоскости и имеет оценку роста, подобную указанной (несколько лучше ее), то она представляется рядом (1). Таким образом, в ряд (1) (так наз. р я д Н ь ю т о н а) разлагаются функции из весьма узкого класса (только аналігтич. функции с определенным ростом). Изучаются ряды Ньютона, когда узлы - вообще комплексные числа. Такие ряды нашли большое применение в теории трансцендентных чисел. Пусть теперь узлы интерполяциі образуют треугольную матрицу
+
+\[
+\begin{aligned}
+&amp; x_{0,0} \\
+&amp; x_{1,0} \quad x_{1,1} \\
+&amp; \text { • • • • • . } \\
+&amp; x_{n, 0} \quad x_{n, 1} \ldots x_{n, n}
+\end{aligned}
+\]
+
+и интерполяционный многочлен $P_{n}(x)$ строится по узлам, расположөнным в $(n+1)$-й строчке. Класе функций, для к-рых $P_{n}(x)$ стремится к $f(x)$ при $n \rightarrow \infty$, Завісит от матрицы узлов. Напр., в случае, когда
+
+\[
+x_{n, k}=\cos \frac{2 k+1}{2 n} \pi, k=0,1, \ldots, n,
+\]
+
+$\left(x_{n, k}\right.$ - корні Чебышева многочлена), для сходімости интерполяционного процесса на отрезке $[-1,1]$ достаточно выполнения условия
+
+\[
+\lim _{n \rightarrow \infty} \omega(1 / n) \ln n=0,
+\]
+
+где $\omega(\delta)$ - непрерывности модуль $f(x)$ на $[-1,1]$.
+
+Другая важная задача К. р. и.- задача суммирования функций. Пусть дана нек-рая функция $f(x)$. Требуется найти в конечном виде, точно плI приближенго, сумму
+
+\[
+S_{n}=f\left(x_{0}\right)+f\left(x_{0}+h\right)+\ldots+f\left(x_{0}+n i h\right),
+\]
+
+при фиксированных $x_{0}$ и $h$ и большом $n$, если известны нек-рые аналитич. свойства $f(x)$. Иначе говоря, исслөдуется асимптотич. поведение $S_{n}$ при $n \rightarrow \infty$. Пусть $x_{0}=0, h=1$ (для простоты) и найдена функція $F(x)$ такая, что
+
+\[
+\Delta F(x)=F(x+1)-F(x)=f(x) .
+\] Тогда
+
+\[
+S_{n}=F(n+1)-F(0) .
+\]
+
+Напр., пусть $f(x)=x^{2}$. Решение уравнения (2) ищется в виде многочлена третьей степени
+
+\[
+Q(x)=a x^{3}+b x^{2}+c x
+\]
+
+с неопределенными коэффициентами. При подстановке в уравнение (2) и приравнивании коэффициентов левой и правой частей при соответствующих степенях многочлен имеет вид:
+
+II
+
+\[
+Q(x)=\frac{x^{3}}{3}-\frac{x^{2}}{2}+\frac{x}{6}=\frac{x(x-1)(2 x-1)}{6}
+\]
+
+\[
+\frac{n(n+1)(2 n+1)}{6}=1^{2}+2^{2}+\ldots+n^{2} .
+\]
+
+Не всегда удается в конечном виде получить решение уравнения (2). Поэтому полезно иметь приближенные формулы для $S_{n}$. Такой формулой является Әйлера Маклорена борлула суммирования. В случае, если $f(x)$ имеет $k$ производных и $k$ - четное, формулу Эйлера Маклорена можно записать в виде
+
+\[
+\begin{gathered}
+\sum_{x=0}^{n-1} f(x)=\int_{0}^{n} f(x) d x+ \\
++\sum_{v=1}^{k-1} \frac{B_{v}}{v !}\left\{f^{(v-1)}(n)-f^{(v-1)}(0)\right\}+ \\
++\frac{B_{k}}{k !} \sum_{x=0}^{n-1} f^{(k)}(x+\theta),
+\end{gathered}
+\]
+
+где $0&lt;\theta&lt;1$ ( $\theta$ вообще зависит от $n), B_{v}-$ Бернулли числа. Если $f(x)$ - многочлен степени, меньшей $k$, то остаточный член равен нулю.
+
+Имеется аналогия между задачами К. р. и. и диффференциальным и интегральным исчислениями. Операция разыскания разности соответствует нахождению производной; решение уравнения (2) как операция, обратная разысканию конечной разности, соответствует нахождению первообразной, т. е. неопределенному интегрированию. Формула (3) есть прямой аналог НьютонаЛейбница формулы. Эта аналогия проявляется при рассмотрении уравнений в конечных разностях. Уравнением в конечных разностях наз. соотношение
+
+\[
+F\left(x, f(x), \Delta f(x), \ldots, \Delta^{n} f(x)\right)=0,
+\]
+
+где $F$ - заданная функция, а $f(x)$ - искомая. Если выразить все $\Delta^{n} f(x)$ через $f(x), f(x+1), \ldots, f(x+n)$, то уравнение в конечных разностях запишется в виде
+
+\[
+\Phi(x, f(x), f(x+1), \ldots, f(x+n))=0 .
+\]
+
+Его решение относительно $f(x+n)$ :
+
+\[
+f(x+n)=\psi(x, f(x), \ldots, f(x+n-1)) .
+\]
+
+При задании начальных значений $f\left(x_{0}\right), f\left(x_{0}+1\right), \ldots$, $f\left(x_{0}+n-1\right)$ можно последовательно найти $f\left(x_{0}+n\right)$, $f\left(x_{0}+n+1\right)$ и т. Д. После решения уравнения (4) относительно $f(x)$ :
+
+\[
+f(x)=\varphi(x, f(x+1), \ldots, f(x+n)),
+\]
+
+можно, положив $x=x_{0}-1$, найти $f\left(x_{0}-1\right)$, затем найти $f\left(x_{0}-2\right)$ и т. Д. Таким образом, из уравнения через начальные данные могут быть найдены значения $f(x)$ во всех точках $x_{0}+k$, где $k-$ целое. Пусть рассматривается линейное уравнение
+
+\[
+\begin{gathered}
+f(x+k)+P_{1}(x) f(x+k-1)+\ldots+P_{k}(x) f(x)= \\
+=Q(x), x=0,1, \ldots,
+\end{gathered}
+\]
+
+где $P_{1}(x), \ldots, P_{k}(x)$ и $Q(x)$ - заданные функции на множестве $x=0,1,2 \ldots$. Общее решіение неоднородного уравнения (6) есть сумма частного решения неодно- родного уравнения и общего решения однородного уравнения
+
+$f(x+k)+P_{1}(x) f(x+k-1)+\ldots+P_{k}(x) f(x)=0 .(7)$ Если $f_{1}(x), \ldots, f_{k}(x)$ - линейно независимые решения уравнения (7), то общее решение уравнения (7) выражается формулой
+
+\[
+f(x)=c_{1} f_{1}(x)+\ldots+c_{k} f_{k}(x),
+\]
+
+где $c_{1}, \ldots, c_{k}-$ произвольные постоянные. Постоянные $c_{1}, \ldots, c_{k}$ можно найти, задав начальные условия, значения $f(0), f(1), \ldots, f(k-1)$. Линейно независимые решения $f_{1}(x), \ldots, f_{k}(x)$ (фундаментальная система) легко находятся в случае уравнения с постоянными коэфффициентам
+
+\[
+f(x+k)+a_{1} f(x+k-1)+\ldots+a_{n} f(x)=0 .
+\]
+
+Решение уравнения (8) ищется в виде $f(x)=\lambda x$. Характеристическое уравнение для $\lambda$ :
+
+\[
+\lambda^{k}+a_{1} \lambda^{k-1}+\ldots+a_{k}=0 .
+\]
+
+Пусть $\lambda_{1}, \ldots, \lambda_{k}$ - его корни и все оніг различны. Тогда фундаментальная система решений уравнения (8) есть система $\lambda_{1}^{x}, \ldots, \lambda_{k}^{x}$ и общее решение уравнения (8) представляется формулой:
+
+\[
+f(x)=c_{1} \lambda_{1}^{x}+\ldots+c_{n} \lambda_{k}^{x}
+\]
+
+Если $\lambda_{1}$ есть $s$-кратный корень характерістіч. уравнения, то ему соответствуют частные решения $\lambda_{1}^{x}, x \lambda_{1}^{x}, \ldots$, $x^{s-1} \lambda_{1}^{x}$
+
+Пусть, напр., рассматривается последовательность чисел, начинающаяся с нуля и едіницы, в к-рой каждый последующий член равен сумме двух непосредственно предшествующих ему: $0,1,1,2,3,5,8,15, \ldots$ (Фибоначчи числа). Ищется выражение для общего члена последовательности. Пусть $f(x), x=0,1,2,3, \ldots,-$ общий член последовательности; условие
+
+\[
+f(x+2)=f(x+1)+f(x), \quad f(0)=0, \quad f(1)=1,
+\]
+
+является разностным уравнением с заданными начальными условиями. Характеристическое уравнение имеет вид: $\lambda^{2}-\lambda-1=0$, его корни $\lambda_{1}=\frac{1+\sqrt{5}}{2}, \lambda_{2}=\frac{1-\sqrt{5}}{2}$, поэтому
+
+\[
+f(x)=c_{1}\left(\frac{1+\sqrt{5}}{2}\right)^{x}+c_{2}\left(\frac{1-\sqrt{5}}{2}\right)^{x}
+\]
+
+$c_{1}=1 / \sqrt{5}$ и $c_{2}=-1 / \sqrt{5}$ находятся из начальных условий.
+
+Уравнение (4) можно изучать не только тогда, когда $x$ изменяется дискретно, принимая значенія $0,1,2$, ... , но и тогда, когда $x$ изменяется непрерывно. Пусть $f(x)$ задана произвольно в полуинтервале $[0, n)$. Из $(5)$, положив $x=0$, получают $f(n)$. Если $f(x)$ задана непрерывной в $[0, n)$, то в замкнутом пнтервале $[0, n]$ функция $f(x)$ может оказаться разрывной. Желая пметь дело с непрерывными решениями, надо $f(x)$ так задать в $[0, n)$, чтобы, в силу $(5), f(x)$ оказалась непрерывной в $[0, n]$. Зная $f(x)$ в $[0, n]$, из (5) находят $f(x)$ для $x \in(n$, $n+1]$, затем для $x \in(n+1, n+2]$ и т. Д.
+
+Более общим, чем уравнение (8), является уравнение
+
+\[
+\begin{gathered}
+f\left(x+h_{k}\right)+a_{1} f\left(x+h_{k-1}\right)+\ldots+a_{k} f(x)=0 \\
+0&lt;h_{1}&lt;h_{2}&lt;\ldots&lt;h_{k}
+\end{gathered}
+\]
+
+Здесь $h_{1}, \ldots, h_{k}$ - необязательно целые і необязательно соизмеримы между собой. Уравнение (9) имеет частные решения
+
+\[
+f(x)=e^{\lambda x},
+\]
+
+где $\lambda$ - корень уравнения
+
+\[
+L(\lambda) \equiv e^{h_{k} \lambda}+a_{1} e^{h_{k-1} \lambda}+\ldots+a_{k}=0 .
+\] Это уравнение имеет бесконечно много корней $\lambda_{1}, \lambda_{2}$, ... Следовательно, уравнение (9) имеет бесконечно много частных решений $e^{\lambda_{m} x}, m=1,2, \ldots$. Пусть все корни простые. Для выражения решения уравненія (9) через этіг элементарные частные решения уравненіе удобнее записать в віде:
+
+\[
+\int_{0}^{\alpha} f(x+t) d \sigma(t)=0, \alpha=h_{k},
+\]
+
+где $\sigma(t)$ - кусочно постоянная функция, имеющая скачкі в точках $0, h_{1}, \ldots, h_{k}$, равные соответственно 1 , $a_{1}, \ldots, a_{k} \cdot$ Пусть
+
+\[
+\psi_{v}(t)=\frac{1}{L^{\prime}\left(\lambda_{v}\right)} \int_{0}^{t} e^{\lambda_{v} \xi} d \sigma(\xi), v \geqslant 1 .
+\]
+
+Функции $\Psi_{v}(t)$ обладают свойством:
+
+\[
+\int_{0}^{\alpha} e^{\lambda_{m} t} \downarrow v(t) d t=\delta_{m v}
+\]
+
+$\left(\delta_{m v}=1\right.$, если $m=v$, іг $\delta_{m v}=0$, еслін $\left.m \neq v\right)$, т. е. оніг образуют систему, біортогональную к системе $\left\{e^{\lambda_{n} t}\right\}$. На этом основании решенію $f(x)$ уравнения (10) пріводітся в соответствие ряд
+
+\[
+\begin{gathered}
+f(x) \sim \sum_{v=1}^{\infty} a_{v} e^{\lambda_{v} x}, \\
+a_{v}=\int_{0}^{\alpha} f(t) \psi_{v}(t) d t .
+\end{gathered}
+\]
+
+В случае, когда уравненіе (9) имеет вид
+
+\[
+f(x+2 \pi)-f(x)=0
+\]
+
+(т. е. $f(x)$ - периодическая функция с періодом $2 \pi$ ); $L(\lambda)=e^{2 \pi \lambda-1 ;} \quad$ корні уравнения $L(\lambda)=0$ суть $m i ;$ $(m=0, \pm 1, \ldots)$ и ряд (11) есть ряд Фурье для функциіл $f(x)$, записанный в комплексной форме. Ряд (11) можно рассматрıвать как обобщение на случай разностного уравнения (9) обычного ряда Фурье, соответствующего простейшему разностному уравнению (12). При определенных условиях ряд (11) сходится к решенію $f(x)$. Если $f(x)$ - аналитическая функция, то уравненіе (9) представимо в виде бесконечного порядка уравнения
+
+\[
+\sum_{n=0}^{\infty} \alpha_{n} f^{(n)}(x)=0
+\]
+
+Аналогично разностям функций одного переменного вводятся разности функций многих переменных. Так, напр., пусть требуется решіть задачу численного решения уравненія Лапласа
+
+\[
+\frac{\partial^{2} u}{\partial x^{2}}+\frac{\partial^{2} u}{\partial y^{2}}=0
+\]
+
+в прямоугольнике $0 \leqslant x \leqslant a, 0 \leqslant y \leqslant b$, при заданных значения $u(x, y)$ на гранıце прямоугольника. Прямоугольник разбивается на мелкие прямоугольные ячейки со сторонами $\Delta x=a / N, \Delta y=b / M$. В вершинах этіх ячеек ищутся значения решения. В вершинах, к-рые лежат на границе исходного прямоугольника, значения $u(x, y)$ известны. Принимая приближенно (в числителях стоят разності второго порядка)
+
+\[
+\begin{aligned}
+&amp; \frac{\partial^{2} u}{\partial x^{2}} \approx \frac{u(x+\Delta x, y)-2 u(x, y)+u(x-\Delta x, y)}{\Delta x^{2}}, \\
+&amp; \frac{\partial^{2} u}{\partial y^{2}} \approx \frac{u(x, y+\Delta y)-2 u(x, y)+u(x, y-\Delta y)}{\Delta y^{2}},
+\end{aligned}
+\]
+
+вместо уравнения Лапласа получают систему уравнений
+
+\[
+\begin{gathered}
+\frac{u(x+\Delta x, y)-2 u(x, y)+u(x-\Delta x, y)}{\Delta x^{2}}+ \\
++\frac{u(x, y+\Delta y)-2 u(x, y)+u(x, y-\Delta y)}{\Delta y^{2}}=0 .
+\end{gathered}
+\]
+
+Точка $(x, y)$ пробегает те вершины ячеек, к-рые расположены внутри основного прямоугольника. Тем самым строгтся сістема $(N-1)(M-1)$ уравнений, содержащая то же число нешзвестных. Решая эту алгебрапч. систему уравнений, получают значенія $u(x, y)$ в вершшнах ячеек. Когда $\Delta x$ I $\Delta y$ малы, а решение задачи пмеет определенную гладкость, найденные значения близкі к точным значениям.
+
+К. р. и. развивалось параллельно с развптнем основных разделов математич. анализа. Начала Ғ. р. I. содержатся в трудах П. Ферма (P. Fermat), И. Барроу (I. Barrow), Г. Јейбница (G. Leibniz). В 18 в. К. p. Iг. приобрело характер самостоятельной математич. дисциплины. Первое систематич. изложение К. р. I. было дано Б. Тейлором (B. Taylor) в 1715. Труды математıков 19 в. подготовили почву для современных глав К. p. и. Идеи и методы К. р. и. получили суцественное развитие в применении к аналитпч. функциям комплексного переменного и задачам вычислітельной математіки.
+
+Лuт.: [1] М а р к о в А. А., Исчисление конечных разно-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_eaf21636bc0139e4395bg-1.jpg?height=57&amp;width=834&amp;top_left_y=727&amp;top_left_x=987)
+Ф. П., Методы вычислений, т. конечных разностей, 3 изд., м. $1967 ;$ [4] Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975: 4] Б а В А. Ф. Леонтъев.</text_orig>
+</article>

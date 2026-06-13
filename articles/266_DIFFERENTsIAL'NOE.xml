@@ -1,0 +1,947 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/266_DIFFERENTsIAL'NOE" alphabetic_pos="266">
+  <title>ДИФФЕРЕНЦИАЛЬНОЕ ИСЧИСЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>136</start>
+    <end>140</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/266_1_DIFFERENTsIAL'NOE">\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_2_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right)=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_3_DIFFERENTsIAL'NOE">c u \text { (где } c=\mathrm{const}), u \pm v, u v, u / v(v \neq 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_4_DIFFERENTsIAL'NOE">\begin{gathered}(c u)^{\prime}=c u^{\prime} \\(u \pm v)^{\prime}=u^{\prime} \pm v^{\prime} \\(u v)^{\prime}=u^{\prime} v+u v^{\prime} \\\left(\frac{u}{v}\right)^{\prime}=\frac{u^{\prime} v-u v^{\prime}}{v^{2}}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_5_DIFFERENTsIAL'NOE">\lim _{\substack{\Delta x \rightarrow 0 \\ \Delta x&gt;0}} \frac{\Delta y}{\Delta x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_6_DIFFERENTsIAL'NOE">\lim _{\substack{\Delta x \rightarrow 0 \\ \Delta x&lt;0}} \frac{\Delta y}{\Delta x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_7_DIFFERENTsIAL'NOE">f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=A</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_8_DIFFERENTsIAL'NOE">f^{\prime}(x)=\frac{d y}{d x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_9_DIFFERENTsIAL'NOE">\delta(d y)=f^{\prime \prime}(x) d x \delta x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_10_DIFFERENTsIAL'NOE">f_{x}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta x \rightarrow 0} \frac{\Delta_{x} z}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{f\left(x_{0}+\Delta x, y_{0}\right)-f\left(x_{0}, y_{0}\right)}{\Delta x},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_11_DIFFERENTsIAL'NOE">d_{x} z=f_{x}^{\prime}\left(x_{0}, y_{0}\right) d x ; d_{y} z=f_{y}^{\prime}\left(x_{0}, y_{0}\right) d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_12_DIFFERENTsIAL'NOE">\begin{aligned}&amp; \frac{\partial}{\partial x}\left(\frac{\partial z}{\partial x}\right)=\frac{\partial^{2} z}{\partial x^{2}}, \quad \frac{\partial}{\partial y}\left(\frac{\partial z}{\partial x}\right)=\frac{\partial^{2} z}{\partial x \partial y}, \\&amp; \frac{\partial}{\partial x}\left(\frac{\partial z}{\partial y}\right)=\frac{\partial^{2} z}{\partial y \partial x}, \quad \frac{\partial}{\partial y}\left(\frac{\partial z}{\partial y}\right)=\frac{\partial^{2} z}{\partial y^{2}} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_13_DIFFERENTsIAL'NOE">z_{x x}^{\prime \prime}, z_{x^{2}}^{\prime \prime}, \frac{\partial^{2} f(x, y)}{\partial x^{2}}, \quad \frac{\partial^{2} f}{\partial x^{2}}, f_{x x}^{\prime \prime}(x, y), f_{x^{2}}^{\prime \prime}(x, y) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_14_DIFFERENTsIAL'NOE">z_{x y}^{\prime \prime}, \frac{\partial^{2} f(x, y)}{\partial x \partial y}, \frac{\partial^{2} f}{\partial x \partial y}, f_{x y}^{\prime \prime}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_15_DIFFERENTsIAL'NOE">\frac{\partial^{n} z}{\partial x^{n}} d x^{n}, \frac{\partial^{n} z}{\partial x^{p} \partial y^{q}} d x^{p} d y^{q} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_16_DIFFERENTsIAL'NOE">\Delta z=f\left(x_{0}+\Delta x, y_{0}+\Delta y\right)-f\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_17_DIFFERENTsIAL'NOE">\Delta z=A \Delta x+B \Delta y+\omega,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_18_DIFFERENTsIAL'NOE">d z=d f\left(x_{0}, y_{0}\right)=A \Delta x+B \Delta y</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_19_DIFFERENTsIAL'NOE">d z=d f\left(x_{0}, y_{0}\right)=f_{x}^{\prime}\left(x_{0}, y_{0}\right) \Delta x+f_{y}^{\prime}\left(x_{0}, y_{0}\right) \Delta y</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_20_DIFFERENTsIAL'NOE">d z=d f\left(x_{0}, y_{0}\right)=f_{x}^{\prime}\left(x_{0}, y_{0}\right) d x+f_{y}^{\prime}\left(x_{0}, y_{0}\right) d y,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_21_DIFFERENTsIAL'NOE">d^{n} z=d\left(d^{n-1} z\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_22_DIFFERENTsIAL'NOE">\begin{aligned}&amp; \frac{\partial w}{\partial x_{1}}=\frac{\partial f}{\partial u_{1}} \frac{\partial u_{1}}{\partial x_{1}}+\ldots+\frac{\partial f}{\partial u_{n}} \frac{\partial u_{n}}{\partial x_{1}}, \\&amp; \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \frac{\partial f}{\partial u_{n}} \frac{\partial u_{n}}{\partial x_{n}} . \\&amp; \frac{\partial w}{\partial x_{n}}=\frac{\partial f}{\partial u_{1}} \frac{\partial \ell_{1}}{\partial x_{n}}+\ldots+.\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/266_23_DIFFERENTsIAL'NOE">d w=\frac{\partial f}{\partial u_{1}} d u_{1}+\frac{\partial f}{\partial u_{2}} d u_{2}+\ldots+\frac{\partial f}{\partial u_{n}} d u_{n}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_1_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_2_DIFFERENTsIAL'NOE">x_{0}, \Delta x \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_3_DIFFERENTsIAL'NOE">\delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_4_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_5_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_6_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right), \frac{d f\left(x_{0}\right)}{d x}, y^{\prime}, y_{x}^{\prime}, \frac{d y}{d x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_7_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_8_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_9_DIFFERENTsIAL'NOE">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_10_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_11_DIFFERENTsIAL'NOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_12_DIFFERENTsIAL'NOE">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_13_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_14_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_15_DIFFERENTsIAL'NOE">m\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_16_DIFFERENTsIAL'NOE">c, \quad P(x, y)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_17_DIFFERENTsIAL'NOE">c, M P</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_18_DIFFERENTsIAL'NOE">m T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_19_DIFFERENTsIAL'NOE">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_20_DIFFERENTsIAL'NOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_21_DIFFERENTsIAL'NOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_22_DIFFERENTsIAL'NOE">m P</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_23_DIFFERENTsIAL'NOE">x \rightarrow x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_24_DIFFERENTsIAL'NOE">p \in C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_25_DIFFERENTsIAL'NOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_26_DIFFERENTsIAL'NOE">x=x_{0}+\delta x, \Delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_27_DIFFERENTsIAL'NOE">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_28_DIFFERENTsIAL'NOE">m P</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_29_DIFFERENTsIAL'NOE">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_30_DIFFERENTsIAL'NOE">\operatorname{tg} \beta=\frac{\Delta y}{\Delta x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_31_DIFFERENTsIAL'NOE">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_32_DIFFERENTsIAL'NOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_33_DIFFERENTsIAL'NOE">\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_34_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_35_DIFFERENTsIAL'NOE">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_36_DIFFERENTsIAL'NOE">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_37_DIFFERENTsIAL'NOE">\operatorname{tg} \alpha=f^{\prime}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_38_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_39_DIFFERENTsIAL'NOE">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_40_DIFFERENTsIAL'NOE">-\frac{\pi}{2}&lt;\alpha&lt;\frac{\pi}{2} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_41_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right)=\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_42_DIFFERENTsIAL'NOE">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_43_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_44_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_45_DIFFERENTsIAL'NOE">\operatorname{tg} \alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_46_DIFFERENTsIAL'NOE">y=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_47_DIFFERENTsIAL'NOE">=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_48_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_49_DIFFERENTsIAL'NOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_50_DIFFERENTsIAL'NOE">s=f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_51_DIFFERENTsIAL'NOE">\delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_52_DIFFERENTsIAL'NOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_53_DIFFERENTsIAL'NOE">\delta s=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_54_DIFFERENTsIAL'NOE">=f(t+\delta t)-f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_55_DIFFERENTsIAL'NOE">\delta s / \Delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_56_DIFFERENTsIAL'NOE">v_{\mathrm{cp}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_57_DIFFERENTsIAL'NOE">\delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_58_DIFFERENTsIAL'NOE">v_{\mathrm{cp}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_59_DIFFERENTsIAL'NOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_60_DIFFERENTsIAL'NOE">\delta t \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_61_DIFFERENTsIAL'NOE">v=f^{\prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_62_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_63_DIFFERENTsIAL'NOE">f(x)=c=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_64_DIFFERENTsIAL'NOE">f^{\prime}(x)=c^{\prime}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_65_DIFFERENTsIAL'NOE">f(x)=x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_66_DIFFERENTsIAL'NOE">f^{\prime}(x)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_67_DIFFERENTsIAL'NOE">\left(x^{\alpha}\right)^{\prime}=\alpha x^{\alpha-1}, \alpha=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_68_DIFFERENTsIAL'NOE">(x \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_69_DIFFERENTsIAL'NOE">\alpha \leqslant 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_70_DIFFERENTsIAL'NOE">\left(a^{x}\right)^{\prime}=a^{x} \ln a, \quad a=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_71_DIFFERENTsIAL'NOE">&gt;0, a \neq 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_72_DIFFERENTsIAL'NOE">\left(e^{x}\right)^{\prime}=e^{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_73_DIFFERENTsIAL'NOE">\left(\log _{a} x\right)^{\prime}=\frac{\log _{a} e}{x}=\frac{1}{x \ln a}, \quad a=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_74_DIFFERENTsIAL'NOE">&gt;0, \quad a \neq 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_75_DIFFERENTsIAL'NOE">(\ln x)^{\prime}=\frac{1}{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_76_DIFFERENTsIAL'NOE">(\sin x)^{\prime}=\cos x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_77_DIFFERENTsIAL'NOE">(\cos x)^{\prime}=-\sin x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_78_DIFFERENTsIAL'NOE">(\operatorname{tg} x)^{\prime}=\frac{1}{\cos ^{2} x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_79_DIFFERENTsIAL'NOE">(\operatorname{ctg} x)^{\prime}=-\frac{1}{\sin ^{2} x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_80_DIFFERENTsIAL'NOE">(\arcsin x)^{\prime}=\frac{1}{\sqrt{1-x^{2}}}, \quad x \neq \pm 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_81_DIFFERENTsIAL'NOE">(\arccos x)^{\prime}=-\frac{1}{\sqrt{1-x^{2}}}, x \neq \pm 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_82_DIFFERENTsIAL'NOE">(\operatorname{arctg} x)^{\prime}=\frac{1}{1+x^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_83_DIFFERENTsIAL'NOE">(\operatorname{arcctg} x)^{\prime}=-\frac{1}{1+x^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_84_DIFFERENTsIAL'NOE">(\operatorname{sh} x)^{\prime}=\operatorname{ch} x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_85_DIFFERENTsIAL'NOE">(\operatorname{ch} x)^{\prime}=\operatorname{sh} x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_86_DIFFERENTsIAL'NOE">(\operatorname{th} x)^{\prime}=\frac{1}{\operatorname{ch}^{2} x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_87_DIFFERENTsIAL'NOE">(\operatorname{cth} x)^{\prime}=-\frac{1}{\operatorname{sh}^{2} x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_88_DIFFERENTsIAL'NOE">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_89_DIFFERENTsIAL'NOE">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_90_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_91_DIFFERENTsIAL'NOE">y=f(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_92_DIFFERENTsIAL'NOE">u_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_93_DIFFERENTsIAL'NOE">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_94_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_95_DIFFERENTsIAL'NOE">u_{0}=\varphi\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_96_DIFFERENTsIAL'NOE">y=f(\varphi(x))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_97_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_98_DIFFERENTsIAL'NOE">y_{x}^{\prime}=f^{\prime}\left(u_{0}\right) \varphi^{\prime}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_99_DIFFERENTsIAL'NOE">\frac{d y}{d x}=\frac{d y}{d u} \frac{d u}{d x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_100_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_101_DIFFERENTsIAL'NOE">x=g(y)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_102_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_103_DIFFERENTsIAL'NOE">y_{0}=f\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_104_DIFFERENTsIAL'NOE">g^{\prime}\left(y_{0}\right)=\frac{1}{f^{\prime}\left(x_{0}\right)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_105_DIFFERENTsIAL'NOE">\frac{d x}{d y}=\frac{1}{\frac{d y}{d x}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_106_DIFFERENTsIAL'NOE">f^{\prime}\left(x_{0}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_107_DIFFERENTsIAL'NOE">=0\left(f^{\prime}\left(x_{0}\right)=\infty\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_108_DIFFERENTsIAL'NOE">g^{\prime}\left(y_{0}\right)=\infty\left(\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_109_DIFFERENTsIAL'NOE">\left.g^{\prime}\left(y_{0}\right)=0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_110_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_111_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_112_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_113_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_114_DIFFERENTsIAL'NOE">x \geqslant x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_115_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_116_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_117_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_118_DIFFERENTsIAL'NOE">y^{\prime}=f^{\prime}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_119_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_120_DIFFERENTsIAL'NOE">y^{\prime \prime}=f^{\prime \prime}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_121_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_122_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_123_DIFFERENTsIAL'NOE">y^{(n)}=\left(y^{(n-1)}\right)^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_124_DIFFERENTsIAL'NOE">y^{(n-1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_125_DIFFERENTsIAL'NOE">y^{(n)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_126_DIFFERENTsIAL'NOE">f^{(n)}(x), \frac{d^{n} f(x)}{d x^{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_127_DIFFERENTsIAL'NOE">n=2,3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_128_DIFFERENTsIAL'NOE">y^{\prime \prime}, f^{\prime \prime}(x), y^{\prime \prime \prime}, f^{\prime \prime \prime}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_129_DIFFERENTsIAL'NOE">w=\frac{d^{2} s}{d t^{2}}=f^{\prime \prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_130_DIFFERENTsIAL'NOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_131_DIFFERENTsIAL'NOE">s=f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_132_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_133_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_134_DIFFERENTsIAL'NOE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_135_DIFFERENTsIAL'NOE">\delta y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_136_DIFFERENTsIAL'NOE">\delta y=A \Delta x+\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_137_DIFFERENTsIAL'NOE">\omega / \Delta x \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_138_DIFFERENTsIAL'NOE">\delta x \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_139_DIFFERENTsIAL'NOE">\boldsymbol{a} \Delta \boldsymbol{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_140_DIFFERENTsIAL'NOE">d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_141_DIFFERENTsIAL'NOE">d f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_142_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_143_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_144_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_145_DIFFERENTsIAL'NOE">l T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_146_DIFFERENTsIAL'NOE">m T-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_147_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_148_DIFFERENTsIAL'NOE">\left.\left(x_{0}, y_{0}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_149_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_150_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_151_DIFFERENTsIAL'NOE">d y=d f(x)=f^{\prime}(x) \Delta x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_152_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_153_DIFFERENTsIAL'NOE">d x=\Delta x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_154_DIFFERENTsIAL'NOE">d y=f^{\prime}(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_155_DIFFERENTsIAL'NOE">y=f(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_156_DIFFERENTsIAL'NOE">u_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_157_DIFFERENTsIAL'NOE">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_158_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_159_DIFFERENTsIAL'NOE">u_{0}=\varphi\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_160_DIFFERENTsIAL'NOE">y=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_161_DIFFERENTsIAL'NOE">=f(\varphi(x))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_162_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_163_DIFFERENTsIAL'NOE">d y=f^{\prime}\left(u_{0}\right) d u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_164_DIFFERENTsIAL'NOE">d u=\varphi^{\prime}\left(x_{0}\right) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_165_DIFFERENTsIAL'NOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_166_DIFFERENTsIAL'NOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_167_DIFFERENTsIAL'NOE">d u=\Delta u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_168_DIFFERENTsIAL'NOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_169_DIFFERENTsIAL'NOE">d u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_170_DIFFERENTsIAL'NOE">d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_171_DIFFERENTsIAL'NOE">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_172_DIFFERENTsIAL'NOE">y=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_173_DIFFERENTsIAL'NOE">d y=f^{\prime}(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_174_DIFFERENTsIAL'NOE">d x=\Delta x-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_175_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_176_DIFFERENTsIAL'NOE">d x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_177_DIFFERENTsIAL'NOE">d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_178_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_179_DIFFERENTsIAL'NOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_180_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_181_DIFFERENTsIAL'NOE">d^{n} y \stackrel{p}{=} d\left(d^{n-1} y\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_182_DIFFERENTsIAL'NOE">d^{n-1} y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_183_DIFFERENTsIAL'NOE">d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_184_DIFFERENTsIAL'NOE">d^{2} y, d^{3} y, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_185_DIFFERENTsIAL'NOE">y=f(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_186_DIFFERENTsIAL'NOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_187_DIFFERENTsIAL'NOE">d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_188_DIFFERENTsIAL'NOE">\delta(d y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_189_DIFFERENTsIAL'NOE">d x=\delta x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_190_DIFFERENTsIAL'NOE">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_191_DIFFERENTsIAL'NOE">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_192_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_193_DIFFERENTsIAL'NOE">y=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_194_DIFFERENTsIAL'NOE">f\left(x, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_195_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_196_DIFFERENTsIAL'NOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_197_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_198_DIFFERENTsIAL'NOE">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_199_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_200_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_201_DIFFERENTsIAL'NOE">f_{x}^{\prime}\left(x_{0}, y_{0}\right), \frac{\partial f\left(x_{0}, y_{0}\right)}{\partial x}, \frac{\partial f}{\partial x}, z_{x}^{\prime}, \frac{\partial z}{\partial x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_202_DIFFERENTsIAL'NOE">\delta_{x} z=f\left(x_{0}+\Delta x, y_{0}\right)-f\left(x_{0}, y_{0}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_203_DIFFERENTsIAL'NOE">x(\partial z / \partial x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_204_DIFFERENTsIAL'NOE">\partial / \partial x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_205_DIFFERENTsIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_206_DIFFERENTsIAL'NOE">f_{y}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta y \rightarrow 0} \frac{\Delta_{y} z}{\Delta y}=\lim _{\Delta y \rightarrow 0} \frac{f\left(x_{0}, y_{0}+\Delta y\right)-f\left(x_{0}, y_{0}\right)}{\Delta y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_207_DIFFERENTsIAL'NOE">\delta_{y} z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_208_DIFFERENTsIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_209_DIFFERENTsIAL'NOE">\frac{\partial f\left(x_{0}, y_{0}\right)}{\partial y}, \frac{\partial f}{\partial y}, z_{y}^{\prime}, \frac{\partial z}{\partial y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_210_DIFFERENTsIAL'NOE">z_{x}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_211_DIFFERENTsIAL'NOE">y=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_212_DIFFERENTsIAL'NOE">z_{y}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_213_DIFFERENTsIAL'NOE">x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_214_DIFFERENTsIAL'NOE">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_215_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_216_DIFFERENTsIAL'NOE">d x=\Delta x, d y=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_217_DIFFERENTsIAL'NOE">=\delta y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_218_DIFFERENTsIAL'NOE">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_219_DIFFERENTsIAL'NOE">\frac{\partial z}{\partial x}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_220_DIFFERENTsIAL'NOE">=f_{x}^{\prime}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_221_DIFFERENTsIAL'NOE">\frac{\partial z}{\partial y}=f_{y}^{\prime}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_222_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_223_DIFFERENTsIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_224_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_225_DIFFERENTsIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_226_DIFFERENTsIAL'NOE">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_227_DIFFERENTsIAL'NOE">\partial^{2} z / \partial x^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_228_DIFFERENTsIAL'NOE">\partial^{2} z / \partial x \partial y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_229_DIFFERENTsIAL'NOE">\partial^{n} z / \partial x^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_230_DIFFERENTsIAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_231_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_232_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_233_DIFFERENTsIAL'NOE">\partial^{n} z / \partial x^{p} \partial y^{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_234_DIFFERENTsIAL'NOE">n=p+q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_235_DIFFERENTsIAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_236_DIFFERENTsIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_237_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_238_DIFFERENTsIAL'NOE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_239_DIFFERENTsIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_240_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_241_DIFFERENTsIAL'NOE">n-\Gamma о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_242_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_243_DIFFERENTsIAL'NOE">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_244_DIFFERENTsIAL'NOE">f_{x y}^{\prime \prime}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_245_DIFFERENTsIAL'NOE">f_{y x}^{\prime \prime}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_246_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_247_DIFFERENTsIAL'NOE">f_{x y}^{\prime \prime}\left(x_{0}, y_{0}\right)=f_{y x}^{\prime \prime}\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_248_DIFFERENTsIAL'NOE">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_249_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_250_DIFFERENTsIAL'NOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_251_DIFFERENTsIAL'NOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_252_DIFFERENTsIAL'NOE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_253_DIFFERENTsIAL'NOE">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_254_DIFFERENTsIAL'NOE">\omega / \rho \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_255_DIFFERENTsIAL'NOE">\rho=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_256_DIFFERENTsIAL'NOE">=\sqrt{(\delta x)^{2}+(\Delta y)^{2}} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_257_DIFFERENTsIAL'NOE">\left(x_{0}+\delta x\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_258_DIFFERENTsIAL'NOE">\left.y_{0}+\Delta y\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_259_DIFFERENTsIAL'NOE">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_260_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_261_DIFFERENTsIAL'NOE">f_{x}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta x \rightarrow 0} \frac{\Delta_{x} z}{\Delta x}=A, f_{y}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta y \rightarrow 0} \frac{\Delta_{y} z}{\Delta y}=B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_262_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_263_DIFFERENTsIAL'NOE">d x=\Delta x, d y=\Delta y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_264_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_265_DIFFERENTsIAL'NOE">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_266_DIFFERENTsIAL'NOE">f_{x}^{\prime}(x, y) \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_267_DIFFERENTsIAL'NOE">f_{y}^{\prime}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_268_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_269_DIFFERENTsIAL'NOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_270_DIFFERENTsIAL'NOE">d f\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_271_DIFFERENTsIAL'NOE">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_272_DIFFERENTsIAL'NOE">\left(x_{0}, y_{0}, z_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_273_DIFFERENTsIAL'NOE">z_{0}=f\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_274_DIFFERENTsIAL'NOE">d^{n-1} z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_275_DIFFERENTsIAL'NOE">d x, d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_276_DIFFERENTsIAL'NOE">w=f\left(u_{1}, \ldots, u_{m}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_277_DIFFERENTsIAL'NOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_278_DIFFERENTsIAL'NOE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_279_DIFFERENTsIAL'NOE">r^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_280_DIFFERENTsIAL'NOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_281_DIFFERENTsIAL'NOE">u_{1}=\varphi_{1}\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_282_DIFFERENTsIAL'NOE">\ldots, u_{m}=\varphi_{m}\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_283_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_284_DIFFERENTsIAL'NOE">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_285_DIFFERENTsIAL'NOE">\boldsymbol{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_286_DIFFERENTsIAL'NOE">\left(u_{1}, \ldots, u_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_287_DIFFERENTsIAL'NOE">\left(x_{1}, \ldots, x_{n}\right) \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_288_DIFFERENTsIAL'NOE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_289_DIFFERENTsIAL'NOE">\varphi_{1}, \ldots, \varphi_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_290_DIFFERENTsIAL'NOE">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_291_DIFFERENTsIAL'NOE">w=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_292_DIFFERENTsIAL'NOE">=f\left(u_{1}, \ldots, u_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_293_DIFFERENTsIAL'NOE">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_294_DIFFERENTsIAL'NOE">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_295_DIFFERENTsIAL'NOE">\varphi_{1}, \ldots, \varphi_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_296_DIFFERENTsIAL'NOE">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_297_DIFFERENTsIAL'NOE">\left(x_{1}, \ldots, x_{n}\right) \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_298_DIFFERENTsIAL'NOE">w=f\left(u_{1}, \ldots, u_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_299_DIFFERENTsIAL'NOE">d u_{1}, \ldots, d u_{m}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_300_DIFFERENTsIAL'NOE">u_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_301_DIFFERENTsIAL'NOE">u_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_302_DIFFERENTsIAL'NOE">1-2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_303_DIFFERENTsIAL'NOE">1960-63</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_304_DIFFERENTsIAL'NOE">1966 ;[4]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_305_DIFFERENTsIAL'NOE">1-4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_306_DIFFERENTsIAL'NOE">1949 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_307_DIFFERENTsIAL'NOE">1933 ;[16]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_308_DIFFERENTsIAL'NOE">1973 ;[20] \mathrm{H}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_309_DIFFERENTsIAL'NOE">1973 ;[20]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_310_DIFFERENTsIAL'NOE">[21]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_311_DIFFERENTsIAL'NOE">1-2,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_312_DIFFERENTsIAL'NOE">1974 ;[22]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_313_DIFFERENTsIAL'NOE">1-2,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_314_DIFFERENTsIAL'NOE">]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_315_DIFFERENTsIAL'NOE">1967 ;[23]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/266_316_DIFFERENTsIAL'NOE">г</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/266_1_DIFFERENTsIAL'NOE">
+      <rel_text>Неопределенностей раскрытие</rel_text>
+      <target>http://libmeta.ru/me/article/926_NEOPREDELENNOSTEI</target>
+    </relation>
+  </relations>
+  <text>раздел математики, в к-ром изучаются понятия производной и диффференциала и способы их применения к исследованию функций. Развитие Д. и. тесно связано с развитием интегрального исчисления. Неразрывно и их содержание. Вместе они составляют основу математич. анализа, имеющего чрезвычайное значение для естествознания и техники. Основной предпосылкой для создания Д. и. явилось введение в математику переменных величин (p. Декарт, R. Descartes). В общих чертах построение дифференциального и интегрального исчислений было завершено в трудах И. Ньютона (i. Newton) и Г. Лейбница (g. Leibniz) к концу 17 в., однако вопросы обоснования с помощью понятия пре- дела были разработаны О. Коши (а. Couchy) лишь в начале 19 в. Создание дифференциального и интегрального исчисления явилось началом периода бурного развития математики и связанных с ней прикладных наук. Под Д. и. обычно понимают классич. Д. и., в к-ром рассматриваются действительные функции одного или нескольких действительных переменных, хотя в современном толковании может идти речь и о Д. и. в абстрактных пространствах. Д. и. основано на Понятиях действительного числа, функции, предела и непрерывности - важнейших понятий математики, сформировавшихся и получивших современное содержание в процессе развития математич. анализа и работы над его обоснованием. Центральные понятия Д. и. - производная и дифференциал - и разработанный в Д. и. аппарат, связанный с ними, доставляют средства для исследований функций, локально сходных с линейной функцией или многочленом, а именно такие функции в первую очередь интересны для приложений.
+
+П р о и з в о д н а я. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/266_1_DIFFERENTsIAL'NOE]]/URI$ определена в нек-рой окрестности точки $URI[[http://libmeta.ru/me/formula/aux/266_2_DIFFERENTsIAL'NOE]]/URI$ есть приращение аргумента, $URI[[http://libmeta.ru/me/formula/aux/266_3_DIFFERENTsIAL'NOE]]/URI$ coответствующее приращение функции. Если существует (конечный или бесконечный) предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_1_DIFFERENTsIAL'NOE]]/URI
+\]
+
+то он наз. П р о и з в о д н о й функции $URI[[http://libmeta.ru/me/formula/aux/266_4_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_5_DIFFERENTsIAL'NOE]]/URI$ и обозначается $URI[[http://libmeta.ru/me/formula/aux/266_6_DIFFERENTsIAL'NOE]]/URI$. Итак, по определению,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_2_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Операция вычисления производной наз. д и фф ер е н ци р о в а ни е м. Если $URI[[http://libmeta.ru/me/formula/aux/266_7_DIFFERENTsIAL'NOE]]/URI$ - конечна, функция $URI[[http://libmeta.ru/me/formula/aux/266_8_DIFFERENTsIAL'NOE]]/URI$ наз. ди ффф е $URI[[http://libmeta.ru/me/formula/aux/266_9_DIFFERENTsIAL'NOE]]/URI$ е нц и р у е м о й в точке $URI[[http://libmeta.ru/me/formula/aux/266_10_DIFFERENTsIAL'NOE]]/URI$. Функция, дифференцируемая в каждой точке нек-рого промежутка, наз.
+
+ди фф е р е н ц и р у eм о й в п п р о м е ж у т ке.
+
+$URI[[http://libmeta.ru/me/formula/aux/266_11_DIFFERENTsIAL'NOE]]/URI$ е о ме т риче с ко е ис т о ли о в а ни е п р ои 3 в о д н о й. Пусть $URI[[http://libmeta.ru/me/formula/aux/266_12_DIFFERENTsIAL'NOE]]/URI$ плоская кривая, задавная в прямоугольной системе координат уравнением $URI[[http://libmeta.ru/me/formula/aux/266_13_DIFFERENTsIAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/266_14_DIFFERENTsIAL'NOE]]/URI$ определена и непрерывна в нек-ром интервале, $URI[[http://libmeta.ru/me/formula/aux/266_15_DIFFERENTsIAL'NOE]]/URI$ - фиксированная точка на $URI[[http://libmeta.ru/me/formula/aux/266_16_DIFFERENTsIAL'NOE]]/URI$ произвольная точка кривой $URI[[http://libmeta.ru/me/formula/aux/266_17_DIFFERENTsIAL'NOE]]/URI$ - секущая (см. рис. 1). Прямая $URI[[http://libmeta.ru/me/formula/aux/266_18_DIFFERENTsIAL'NOE]]/URI$ наз.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fa892690edbca38e63b6g-1.jpg?height=420&amp;width=382&amp;top_left_y=1363&amp;top_left_x=1429)
+
+Рис. 1. $URI[[http://libmeta.ru/me/formula/aux/266_19_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_20_DIFFERENTsIAL'NOE]]/URI$, если угол $URI[[http://libmeta.ru/me/formula/aux/266_21_DIFFERENTsIAL'NOE]]/URI$ между секущей $URI[[http://libmeta.ru/me/formula/aux/266_22_DIFFERENTsIAL'NOE]]/URI$ и этой прямой стремится к нулю, когда $URI[[http://libmeta.ru/me/formula/aux/266_23_DIFFERENTsIAL'NOE]]/URI$ (иными словами, когда точка $URI[[http://libmeta.ru/me/formula/aux/266_24_DIFFERENTsIAL'NOE]]/URI$ произвольным образом стремится к точке $URI[[http://libmeta.ru/me/formula/aux/266_25_DIFFERENTsIAL'NOE]]/URI$ ). Если упомянутая касательная существует, то она - единственна. Если положить $URI[[http://libmeta.ru/me/formula/aux/266_26_DIFFERENTsIAL'NOE]]/URI$, то для угла $URI[[http://libmeta.ru/me/formula/aux/266_27_DIFFERENTsIAL'NOE]]/URI$ между $URI[[http://libmeta.ru/me/formula/aux/266_28_DIFFERENTsIAL'NOE]]/URI$ и положительным направлением оси $URI[[http://libmeta.ru/me/formula/aux/266_29_DIFFERENTsIAL'NOE]]/URI$ будет иметь место равенство $URI[[http://libmeta.ru/me/formula/aux/266_30_DIFFERENTsIAL'NOE]]/URI$ (см. рис. 1). Кривая $URI[[http://libmeta.ru/me/formula/aux/266_31_DIFFERENTsIAL'NOE]]/URI$ имеет в точке $URI[[http://libmeta.ru/me/formula/aux/266_32_DIFFERENTsIAL'NOE]]/URI$ касательную в том и только в том случае, если существует $URI[[http://libmeta.ru/me/formula/aux/266_33_DIFFERENTsIAL'NOE]]/URI$, т. е. существует $URI[[http://libmeta.ru/me/formula/aux/266_34_DIFFERENTsIAL'NOE]]/URI$. При этом для угла $URI[[http://libmeta.ru/me/formula/aux/266_35_DIFFERENTsIAL'NOE]]/URI$ между касательной и положительным направлением оси $URI[[http://libmeta.ru/me/formula/aux/266_36_DIFFERENTsIAL'NOE]]/URI$ справедливо равенство $URI[[http://libmeta.ru/me/formula/aux/266_37_DIFFERENTsIAL'NOE]]/URI$. В случае конечной производной $URI[[http://libmeta.ru/me/formula/aux/266_38_DIFFERENTsIAL'NOE]]/URI$ касательная образует с $URI[[http://libmeta.ru/me/formula/aux/266_39_DIFFERENTsIAL'NOE]]/URI$ острый угол, т. е. $URI[[http://libmeta.ru/me/formula/aux/266_40_DIFFERENTsIAL'NOE]]/URI$ в случае $URI[[http://libmeta.ru/me/formula/aux/266_41_DIFFERENTsIAL'NOE]]/URI$ касательная образует с $URI[[http://libmeta.ru/me/formula/aux/266_42_DIFFERENTsIAL'NOE]]/URI$ прямой угол (см. рис. 2). Таким образом, производная непрерывной функции $URI[[http://libmeta.ru/me/formula/aux/266_43_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_44_DIFFERENTsIAL'NOE]]/URI$ совпадает
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cb79b66dfdf27bb01276g-1.jpg?height=469&amp;width=504&amp;top_left_y=301&amp;top_left_x=115)
+
+Рис. 2. с угловым коэфффициентом $URI[[http://libmeta.ru/me/formula/aux/266_45_DIFFERENTsIAL'NOE]]/URI$ касательной к кривой, заданной уравнением $URI[[http://libmeta.ru/me/formula/aux/266_46_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_47_DIFFERENTsIAL'NOE]]/URI$, в ее точке с абсциссой $URI[[http://libmeta.ru/me/formula/aux/266_48_DIFFERENTsIAL'NOE]]/URI$.
+
+Механичес к о е истол к о в а ни е п р о и з в о д н о й. Пусть точка $URI[[http://libmeta.ru/me/formula/aux/266_49_DIFFERENTsIAL'NOE]]/URI$ движется прямолинейно по закону $URI[[http://libmeta.ru/me/formula/aux/266_50_DIFFERENTsIAL'NOE]]/URI$. За время $URI[[http://libmeta.ru/me/formula/aux/266_51_DIFFERENTsIAL'NOE]]/URI$ точка $URI[[http://libmeta.ru/me/formula/aux/266_52_DIFFERENTsIAL'NOE]]/URI$ сместится на $URI[[http://libmeta.ru/me/formula/aux/266_53_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_54_DIFFERENTsIAL'NOE]]/URI$. Отношение $URI[[http://libmeta.ru/me/formula/aux/266_55_DIFFERENTsIAL'NOE]]/URI$ представляет собой среднюю скорость $URI[[http://libmeta.ru/me/formula/aux/266_56_DIFFERENTsIAL'NOE]]/URI$ точки за время $URI[[http://libmeta.ru/me/formula/aux/266_57_DIFFERENTsIAL'NOE]]/URI$. При неравномерном движении $URI[[http://libmeta.ru/me/formula/aux/266_58_DIFFERENTsIAL'NOE]]/URI$ не постоянна. М г н о в е н н о й с ко р о с т ь ю момент $URI[[http://libmeta.ru/me/formula/aux/266_59_DIFFERENTsIAL'NOE]]/URI$ наз. предел средней скорости при $URI[[http://libmeta.ru/me/formula/aux/266_60_DIFFERENTsIAL'NOE]]/URI$, т. е. $URI[[http://libmeta.ru/me/formula/aux/266_61_DIFFERENTsIAL'NOE]]/URI$ (в предположении, что әта производная существует).
+
+Таким образом, понятие производной доставляет общее решение задачи о построении касательной к плоской кривой и задачи о вычислении скорости прямолинейного движения. Эти две задачи явились основными предпосылками в формировании понятия производной.
+
+Функция, имеющая в точке $URI[[http://libmeta.ru/me/formula/aux/266_62_DIFFERENTsIAL'NOE]]/URI$ конечную производнуіо, непрерывна в этой точке. В случае бесконечной производной этого может не быть. Непрерывная функция может не иметь ни конечной, ни бесконечной производной. Существуют непрерывные функции, не имеющие производной ни в одной точке области определения.
+
+Для производных основных әлементарных функций справедливы следующие формулы (в любой точке области определения; исключения оговариваются):
+
+1) если $URI[[http://libmeta.ru/me/formula/aux/266_63_DIFFERENTsIAL'NOE]]/URI$ const, то $URI[[http://libmeta.ru/me/formula/aux/266_64_DIFFERENTsIAL'NOE]]/URI$;
+
+2) если $URI[[http://libmeta.ru/me/formula/aux/266_65_DIFFERENTsIAL'NOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/266_66_DIFFERENTsIAL'NOE]]/URI$;
+
+3) $URI[[http://libmeta.ru/me/formula/aux/266_67_DIFFERENTsIAL'NOE]]/URI$ const $URI[[http://libmeta.ru/me/formula/aux/266_68_DIFFERENTsIAL'NOE]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/266_69_DIFFERENTsIAL'NOE]]/URI$;
+
+4) $URI[[http://libmeta.ru/me/formula/aux/266_70_DIFFERENTsIAL'NOE]]/URI$ const $URI[[http://libmeta.ru/me/formula/aux/266_71_DIFFERENTsIAL'NOE]]/URI$, в частности, $URI[[http://libmeta.ru/me/formula/aux/266_72_DIFFERENTsIAL'NOE]]/URI$
+
+5) $URI[[http://libmeta.ru/me/formula/aux/266_73_DIFFERENTsIAL'NOE]]/URI$ const $URI[[http://libmeta.ru/me/formula/aux/266_74_DIFFERENTsIAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/266_75_DIFFERENTsIAL'NOE]]/URI$
+
+6) $URI[[http://libmeta.ru/me/formula/aux/266_76_DIFFERENTsIAL'NOE]]/URI$
+
+7) $URI[[http://libmeta.ru/me/formula/aux/266_77_DIFFERENTsIAL'NOE]]/URI$;
+
+8) $URI[[http://libmeta.ru/me/formula/aux/266_78_DIFFERENTsIAL'NOE]]/URI$
+
+9) $URI[[http://libmeta.ru/me/formula/aux/266_79_DIFFERENTsIAL'NOE]]/URI$;
+
+10) $URI[[http://libmeta.ru/me/formula/aux/266_80_DIFFERENTsIAL'NOE]]/URI$;
+
+11) $URI[[http://libmeta.ru/me/formula/aux/266_81_DIFFERENTsIAL'NOE]]/URI$;
+
+12) $URI[[http://libmeta.ru/me/formula/aux/266_82_DIFFERENTsIAL'NOE]]/URI$;
+
+13) $URI[[http://libmeta.ru/me/formula/aux/266_83_DIFFERENTsIAL'NOE]]/URI$;
+
+14) $URI[[http://libmeta.ru/me/formula/aux/266_84_DIFFERENTsIAL'NOE]]/URI$
+
+15) $URI[[http://libmeta.ru/me/formula/aux/266_85_DIFFERENTsIAL'NOE]]/URI$;
+
+16) $URI[[http://libmeta.ru/me/formula/aux/266_86_DIFFERENTsIAL'NOE]]/URI$;
+
+17) $URI[[http://libmeta.ru/me/formula/aux/266_87_DIFFERENTsIAL'NOE]]/URI$. Имеют место также следующие правила дифференцирования;
+
+1) Если функции $URI[[http://libmeta.ru/me/formula/aux/266_88_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_89_DIFFERENTsIAL'NOE]]/URI$ дифференцируемы в точке $URI[[http://libmeta.ru/me/formula/aux/266_90_DIFFERENTsIAL'NOE]]/URI$, то функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_3_DIFFERENTsIAL'NOE]]/URI
+\]
+
+также дифференцируемы в этой точке, причем
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_4_DIFFERENTsIAL'NOE]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cb79b66dfdf27bb01276g-1.jpg?height=40&amp;width=796&amp;top_left_y=598&amp;top_left_x=1016)
+ф у н к I и и: если функция $URI[[http://libmeta.ru/me/formula/aux/266_91_DIFFERENTsIAL'NOE]]/URI$ дифференцируема в точке $URI[[http://libmeta.ru/me/formula/aux/266_92_DIFFERENTsIAL'NOE]]/URI$, а функция $URI[[http://libmeta.ru/me/formula/aux/266_93_DIFFERENTsIAL'NOE]]/URI$ диффференцируема в точке $URI[[http://libmeta.ru/me/formula/aux/266_94_DIFFERENTsIAL'NOE]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/266_95_DIFFERENTsIAL'NOE]]/URI$, то сложная функция $URI[[http://libmeta.ru/me/formula/aux/266_96_DIFFERENTsIAL'NOE]]/URI$ диффференцируема в точке $URI[[http://libmeta.ru/me/formula/aux/266_97_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_98_DIFFERENTsIAL'NOE]]/URI$ или, в другой запıси, $URI[[http://libmeta.ru/me/formula/aux/266_99_DIFFERENTsIAL'NOE]]/URI$.
+
+3) Теорема о производно ойо б р а т но й ф ун к ции: если $URI[[http://libmeta.ru/me/formula/aux/266_100_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_101_DIFFERENTsIAL'NOE]]/URI$ две взаимно обратные возрастающие (или убывающие) функции, заданные на нек-рых интервалах, и существует конечная производная $URI[[http://libmeta.ru/me/formula/aux/266_102_DIFFERENTsIAL'NOE]]/URI$, то в точке $URI[[http://libmeta.ru/me/formula/aux/266_103_DIFFERENTsIAL'NOE]]/URI$ существует конечная производная $URI[[http://libmeta.ru/me/formula/aux/266_104_DIFFERENTsIAL'NOE]]/URI$, или, в другой записи, $URI[[http://libmeta.ru/me/formula/aux/266_105_DIFFERENTsIAL'NOE]]/URI$. Эта теорема допускает обобщение: если, при выполнении прочих условий, $URI[[http://libmeta.ru/me/formula/aux/266_106_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_107_DIFFERENTsIAL'NOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/266_108_DIFFERENTsIAL'NOE]]/URI$ соответственно $URI[[http://libmeta.ru/me/formula/aux/266_109_DIFFERENTsIAL'NOE]]/URI$
+
+Односто тонние производны е. Если в точке $URI[[http://libmeta.ru/me/formula/aux/266_110_DIFFERENTsIAL'NOE]]/URI$ существует предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_5_DIFFERENTsIAL'NOE]]/URI
+\]
+
+то он наз. П р а в о й п р о и з в о д н о й функции $URI[[http://libmeta.ru/me/formula/aux/266_111_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_112_DIFFERENTsIAL'NOE]]/URI$ (в этом случае нет необходимості требовать, чтобы функция была определена всюду в нек-рой окрестности точки $URI[[http://libmeta.ru/me/formula/aux/266_113_DIFFERENTsIAL'NOE]]/URI$; достаточно потребовать этого лишь для $URI[[http://libmeta.ru/me/formula/aux/266_114_DIFFERENTsIAL'NOE]]/URI$ ). Аналогично определяется ле в а я п р и з в о ная - как предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_6_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/266_115_DIFFERENTsIAL'NOE]]/URI$ имеет производную в точке $URI[[http://libmeta.ru/me/formula/aux/266_116_DIFFERENTsIAL'NOE]]/URI$ в том и только в том случае, если в этой точке существуют равные между собой правая и левая производные. Для непрерывной функции существование в точке правой (соответственно левой) производной равносильно существованию в соответствующей точке ее графика правой (соответственно левой) о дност о ронней полукасательной с угловым коэффиициентом, равным значению
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cb79b66dfdf27bb01276g-1.jpg?height=250&amp;width=395&amp;top_left_y=1711&amp;top_left_x=1430)
+
+Pис. 3 этой односторонней производной. Точки, в к-рых полукасательные не образуют одну прямую, называются у г л о в ы м и то чк ам и (см. рис. 3).
+
+П р ои з в о дны е в Ыс Iii и х П о р я д ко в. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/266_117_DIFFERENTsIAL'NOE]]/URI$ имеет конечную производную $URI[[http://libmeta.ru/me/formula/aux/266_118_DIFFERENTsIAL'NOE]]/URI$ в каждой точке нек-рого интервала; эта производная наз. также п е р в о й п р о и з в о д н о й, или п р о и з во дно й пе р в о г о п о р я д к а, к-рая, будучи функцией от $URI[[http://libmeta.ru/me/formula/aux/266_119_DIFFERENTsIAL'NOE]]/URI$, может, в свою очередь, иметь производную $URI[[http://libmeta.ru/me/formula/aux/266_120_DIFFERENTsIAL'NOE]]/URI$, называемуг в т о р о й П р и з вод но й, или П роиз во д н о й в т ор о го по р я д к а, функции $URI[[http://libmeta.ru/me/formula/aux/266_121_DIFFERENTsIAL'NOE]]/URI$, и т. Д. Вообще
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_35a6c45aed484f03db52g-1.jpg?height=30&amp;width=819&amp;top_left_y=253&amp;top_left_x=134)
+р я д к а $URI[[http://libmeta.ru/me/formula/aux/266_122_DIFFERENTsIAL'NOE]]/URI$, определяется по индукции равенством $URI[[http://libmeta.ru/me/formula/aux/266_123_DIFFERENTsIAL'NOE]]/URI$, в предположении, что $URI[[http://libmeta.ru/me/formula/aux/266_124_DIFFERENTsIAL'NOE]]/URI$ определена на нек-ром интервале. При этом, наряду с $URI[[http://libmeta.ru/me/formula/aux/266_125_DIFFERENTsIAL'NOE]]/URI$, используются также обозначения $URI[[http://libmeta.ru/me/formula/aux/266_126_DIFFERENTsIAL'NOE]]/URI$, а для $URI[[http://libmeta.ru/me/formula/aux/266_127_DIFFERENTsIAL'NOE]]/URI$ еще $URI[[http://libmeta.ru/me/formula/aux/266_128_DIFFERENTsIAL'NOE]]/URI$.
+
+Вторая производная имеет механич. истолкование: это есть ускорение $URI[[http://libmeta.ru/me/formula/aux/266_129_DIFFERENTsIAL'NOE]]/URI$ в момент $URI[[http://libmeta.ru/me/formula/aux/266_130_DIFFERENTsIAL'NOE]]/URI$ точки, движущейся прямолинейно по закону $URI[[http://libmeta.ru/me/formula/aux/266_131_DIFFERENTsIAL'NOE]]/URI$.
+
+Д ифф е р е нци а л. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/266_132_DIFFERENTsIAL'NOE]]/URI$ определена в нек-рой окрестности точки $URI[[http://libmeta.ru/me/formula/aux/266_133_DIFFERENTsIAL'NOE]]/URI$ и существует такое число $URI[[http://libmeta.ru/me/formula/aux/266_134_DIFFERENTsIAL'NOE]]/URI$, что приращение $URI[[http://libmeta.ru/me/formula/aux/266_135_DIFFERENTsIAL'NOE]]/URI$ может быть представлено в виде $URI[[http://libmeta.ru/me/formula/aux/266_136_DIFFERENTsIAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/266_137_DIFFERENTsIAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/266_138_DIFFERENTsIAL'NOE]]/URI$. Член $URI[[http://libmeta.ru/me/formula/aux/266_139_DIFFERENTsIAL'NOE]]/URI$ в этой сумме обычно обозначается символом $URI[[http://libmeta.ru/me/formula/aux/266_140_DIFFERENTsIAL'NOE]]/URI$, или $URI[[http://libmeta.ru/me/formula/aux/266_141_DIFFERENTsIAL'NOE]]/URI$, и наз. д иф ф е р е н ц и а л о м функции $URI[[http://libmeta.ru/me/formula/aux/266_142_DIFFERENTsIAL'NOE]]/URI$ (по переменному $URI[[http://libmeta.ru/me/formula/aux/266_143_DIFFERENTsIAL'NOE]]/URI$ ) в точке $URI[[http://libmeta.ru/me/formula/aux/266_144_DIFFERENTsIAL'NOE]]/URI$. Дифференциал есть главная линейная часть приращения функции (геометрически изображается отрезком $URI[[http://libmeta.ru/me/formula/aux/266_145_DIFFERENTsIAL'NOE]]/URI$ на рис. 1, где $URI[[http://libmeta.ru/me/formula/aux/266_146_DIFFERENTsIAL'NOE]]/URI$ касательная к кривой $URI[[http://libmeta.ru/me/formula/aux/266_147_DIFFERENTsIAL'NOE]]/URI$ в рассматриваемой точке $URI[[http://libmeta.ru/me/formula/aux/266_148_DIFFERENTsIAL'NOE]]/URI$.
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/266_149_DIFFERENTsIAL'NOE]]/URI$ имеет в точке $URI[[http://libmeta.ru/me/formula/aux/266_150_DIFFERENTsIAL'NOE]]/URI$ дифференциал в том и только в том случае, если она имеет в этой точке конечную производную
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_7_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Функция, для к-рой существует диффереңциал, наз. д иф ф е р нци р у е м о й в рассматриваемой точке. Таким образом, дифф е р е ц ир у е мо с т ь ф у н к и и означает одновременно и существование дифференциала, и существование конечной производной. При этом $URI[[http://libmeta.ru/me/formula/aux/266_151_DIFFERENTsIAL'NOE]]/URI$. Для независимого переменного $URI[[http://libmeta.ru/me/formula/aux/266_152_DIFFERENTsIAL'NOE]]/URI$ полагают $URI[[http://libmeta.ru/me/formula/aux/266_153_DIFFERENTsIAL'NOE]]/URI$ и поэтому можно писать $URI[[http://libmeta.ru/me/formula/aux/266_154_DIFFERENTsIAL'NOE]]/URI$, т. е. производная равна отношению диффференциалов:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_8_DIFFERENTsIAL'NOE]]/URI
+\]
+
+См. также Дибференциал.
+
+Формулы и правила вычисления для производных приводят к соответствующим формулам и правилам вычисления для диффференциалов. В частности, справедлива т е о р е м а о д и ф ф р е нциал е с ло жн о й ф у н к ц и и: если функция $URI[[http://libmeta.ru/me/formula/aux/266_155_DIFFERENTsIAL'NOE]]/URI$ диффференцируема в точке $URI[[http://libmeta.ru/me/formula/aux/266_156_DIFFERENTsIAL'NOE]]/URI$, а функция $URI[[http://libmeta.ru/me/formula/aux/266_157_DIFFERENTsIAL'NOE]]/URI$ диффференцируема в точке $URI[[http://libmeta.ru/me/formula/aux/266_158_DIFFERENTsIAL'NOE]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/266_159_DIFFERENTsIAL'NOE]]/URI$, то сложная функция $URI[[http://libmeta.ru/me/formula/aux/266_160_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_161_DIFFERENTsIAL'NOE]]/URI$ диффференцируема в точке $URI[[http://libmeta.ru/me/formula/aux/266_162_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_163_DIFFERENTsIAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/266_164_DIFFERENTsIAL'NOE]]/URI$. Диффференциал сложной функции имеет точно такой же вид, как если бы переменное $URI[[http://libmeta.ru/me/formula/aux/266_165_DIFFERENTsIAL'NOE]]/URI$ было независимым. Это свойство наз. и н в а р и а н тностью ф о рмы ди фф е ре нци ал а. Однако, если $URI[[http://libmeta.ru/me/formula/aux/266_166_DIFFERENTsIAL'NOE]]/URI$ - независимое переменное, $URI[[http://libmeta.ru/me/formula/aux/266_167_DIFFERENTsIAL'NOE]]/URI$ есть произвольное приращение, а если $URI[[http://libmeta.ru/me/formula/aux/266_168_DIFFERENTsIAL'NOE]]/URI$-функция, то $URI[[http://libmeta.ru/me/formula/aux/266_169_DIFFERENTsIAL'NOE]]/URI$ есть диффференциал этой функции, вообще говоря, не совпадающий с ее приращением.
+
+Дифф ер е ци а лы выс ші и поря д ков. Диффференциал $URI[[http://libmeta.ru/me/formula/aux/266_170_DIFFERENTsIAL'NOE]]/URI$ наз. также п е р в ы м д ифф е$URI[[http://libmeta.ru/me/formula/aux/266_171_DIFFERENTsIAL'NOE]]/URI$ е н ци а лом, или ди фф ф е р е нци а лом п̈ е рв о г о п о р я д к а. Пусть $URI[[http://libmeta.ru/me/formula/aux/266_172_DIFFERENTsIAL'NOE]]/URI$ имеет дифференциал $URI[[http://libmeta.ru/me/formula/aux/266_173_DIFFERENTsIAL'NOE]]/URI$ в каждой точке нек-рого интервала. Здесь $URI[[http://libmeta.ru/me/formula/aux/266_174_DIFFERENTsIAL'NOE]]/URI$ некоторое число, не зависящее от $URI[[http://libmeta.ru/me/formula/aux/266_175_DIFFERENTsIAL'NOE]]/URI$, и поэтому можно считать $URI[[http://libmeta.ru/me/formula/aux/266_176_DIFFERENTsIAL'NOE]]/URI$ const. При этом $URI[[http://libmeta.ru/me/formula/aux/266_177_DIFFERENTsIAL'NOE]]/URI$ оказывается функцией только от $URI[[http://libmeta.ru/me/formula/aux/266_178_DIFFERENTsIAL'NOE]]/URI$ и, в свою очередь, может иметь диффференциал, к-рый наз. в т о р ы м д и фф ер енци а лом, или дифф е р енци а лом в т ор о г о п о р я д к а функции $URI[[http://libmeta.ru/me/formula/aux/266_179_DIFFERENTsIAL'NOE]]/URI$, и т. д. Вообще, $URI[[http://libmeta.ru/me/formula/aux/266_180_DIFFERENTsIAL'NOE]]/URI$-й дифф е р еци а л, или дифф е р енци а л п о р я д к а, определяется по индукции равенством $URI[[http://libmeta.ru/me/formula/aux/266_181_DIFFERENTsIAL'NOE]]/URI$ в предположении, что дифференциал $URI[[http://libmeta.ru/me/formula/aux/266_182_DIFFERENTsIAL'NOE]]/URI$ определен в нек-ром интервале и что значение $URI[[http://libmeta.ru/me/formula/aux/266_183_DIFFERENTsIAL'NOE]]/URI$ одно и то же на всех пагах. Свойство инвариантности для $URI[[http://libmeta.ru/me/formula/aux/266_184_DIFFERENTsIAL'NOE]]/URI$, вообще говоря, не имеет места (исключение составляет $URI[[http://libmeta.ru/me/formula/aux/266_185_DIFFERENTsIAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/266_186_DIFFERENTsIAL'NOE]]/URI$ - линейная функция).
+
+П в т о рны й дифф е ре нци а л от $URI[[http://libmeta.ru/me/formula/aux/266_187_DIFFERENTsIAL'NOE]]/URI$ имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_9_DIFFERENTsIAL'NOE]]/URI
+\]
+
+и вторым дифференциалом является значение $URI[[http://libmeta.ru/me/formula/aux/266_188_DIFFERENTsIAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/266_189_DIFFERENTsIAL'NOE]]/URI$.
+
+О с новны е те о рем ы и приложения Д. и. К основным теоремам Д. и. для функций одного переменного обычно относят Р олля теорему, Лагранжа теорему (о конечном приращении), Коши теорему и Teйлора формулу. Эти теоремы лежат в основе наиболее важных приложений Д. и. к исследованию свойств функций - таких, как возрастание и убывание функции, выпуклость и вогнутость графика, к отысканию экстремумов, перегиба точек, асимптот графика. Д. и. позволяет вычислять пределы функций во многих случаях, когда простейшие теоремы $URI[[http://libmeta.ru/me/formula/aux/266_190_DIFFERENTsIAL'NOE]]/URI$ пределах не позволяют сделать этого (см. URI[[http://libmeta.ru/me/relation/266_1_DIFFERENTsIAL'NOE]]/URI). Д. и. находит широкие приложения во многих разделах математики, в частности в геометрии.
+
+Д. и. функций мн огих пере ме нны х. Для простоты рассматривается случай функций двух переменных (за нек-рым исключением), хотя все понятия легко распространяются на случай трех и большего числа переменных. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/266_191_DIFFERENTsIAL'NOE]]/URI$ задана в нек-рой окрестности точки $URI[[http://libmeta.ru/me/formula/aux/266_192_DIFFERENTsIAL'NOE]]/URI$ и пусть зафиксировано значение $URI[[http://libmeta.ru/me/formula/aux/266_193_DIFFERENTsIAL'NOE]]/URI$. Тогда $URI[[http://libmeta.ru/me/formula/aux/266_194_DIFFERENTsIAL'NOE]]/URI$ есть функция только от $URI[[http://libmeta.ru/me/formula/aux/266_195_DIFFERENTsIAL'NOE]]/URI$. Если она имеет в $URI[[http://libmeta.ru/me/formula/aux/266_196_DIFFERENTsIAL'NOE]]/URI$ производную по $URI[[http://libmeta.ru/me/formula/aux/266_197_DIFFERENTsIAL'NOE]]/URI$, то эта производная наз. ч а с т н о й п р о и зв о д н о й функции $URI[[http://libmeta.ru/me/formula/aux/266_198_DIFFERENTsIAL'NOE]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/266_199_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_200_DIFFERENTsIAL'NOE]]/URI$ и обозначается $URI[[http://libmeta.ru/me/formula/aux/266_201_DIFFERENTsIAL'NOE]]/URI$. Итак, по определению,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_10_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/266_202_DIFFERENTsIAL'NOE]]/URI$ ч а с т н о е п р ир а щ е и е функции по $URI[[http://libmeta.ru/me/formula/aux/266_203_DIFFERENTsIAL'NOE]]/URI$ в общем случае нельзя рассматривать как дробь; $URI[[http://libmeta.ru/me/formula/aux/266_204_DIFFERENTsIAL'NOE]]/URI$ есть символ операции).
+
+Аналогично определяется ч а с т а я п ро и зв о д н а я по $URI[[http://libmeta.ru/me/formula/aux/266_205_DIFFERENTsIAL'NOE]]/URI$ :
+
+$URI[[http://libmeta.ru/me/formula/aux/266_206_DIFFERENTsIAL'NOE]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/266_207_DIFFERENTsIAL'NOE]]/URI$ - частное приращение функции по $URI[[http://libmeta.ru/me/formula/aux/266_208_DIFFERENTsIAL'NOE]]/URI$. Другие обозначения: $URI[[http://libmeta.ru/me/formula/aux/266_209_DIFFERENTsIAL'NOE]]/URI$. Частные производные вычисляются по правилам диффференцирования функций одного переменного (при вычислении $URI[[http://libmeta.ru/me/formula/aux/266_210_DIFFERENTsIAL'NOE]]/URI$ нужно считать $URI[[http://libmeta.ru/me/formula/aux/266_211_DIFFERENTsIAL'NOE]]/URI$ const, а при вычислении $URI[[http://libmeta.ru/me/formula/aux/266_212_DIFFERENTsIAL'NOE]]/URI$ считать $URI[[http://libmeta.ru/me/formula/aux/266_213_DIFFERENTsIAL'NOE]]/URI$ const).
+
+Ч а с т ны м ди фф е р е ци а лами функции $URI[[http://libmeta.ru/me/formula/aux/266_214_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_215_DIFFERENTsIAL'NOE]]/URI$ наз. (соответственно) выражения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_11_DIFFERENTsIAL'NOE]]/URI
+\]
+
+(где, как и в случае одного переменного, $URI[[http://libmeta.ru/me/formula/aux/266_216_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_217_DIFFERENTsIAL'NOE]]/URI$ означают приращения независимых переменных).
+
+$URI[[http://libmeta.ru/me/formula/aux/266_218_DIFFERENTsIAL'NOE]]/URI$ е р вы е частны е производны е $URI[[http://libmeta.ru/me/formula/aux/266_219_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_220_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_221_DIFFERENTsIAL'NOE]]/URI$, или ч а с т ны е пр о и з- в о д н ы п е р в о го по р я д к а, являясь функциями от $URI[[http://libmeta.ru/me/formula/aux/266_222_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_223_DIFFERENTsIAL'NOE]]/URI$, могут в свою очередь иметь частные производные по $URI[[http://libmeta.ru/me/formula/aux/266_224_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_225_DIFFERENTsIAL'NOE]]/URI$, к-рые называются, по отношению к функции $URI[[http://libmeta.ru/me/formula/aux/266_226_DIFFERENTsIAL'NOE]]/URI$, ч а с т ны м и п р о и зводным и торого поряд ка, или в торыми частными про изводным и. При этом полагают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_12_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Вместо $URI[[http://libmeta.ru/me/formula/aux/266_227_DIFFERENTsIAL'NOE]]/URI$ употребляют также обозначения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_13_DIFFERENTsIAL'NOE]]/URI
+\]
+
+вместо $URI[[http://libmeta.ru/me/formula/aux/266_228_DIFFERENTsIAL'NOE]]/URI$ - обозначения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_14_DIFFERENTsIAL'NOE]]/URI
+\]
+
+и т. д. Подобным образом вводятся частные производные третьего порядка и выше, и соответствующая символика: $URI[[http://libmeta.ru/me/formula/aux/266_229_DIFFERENTsIAL'NOE]]/URI$ - функция $URI[[http://libmeta.ru/me/formula/aux/266_230_DIFFERENTsIAL'NOE]]/URI$ дифференцируется $URI[[http://libmeta.ru/me/formula/aux/266_231_DIFFERENTsIAL'NOE]]/URI$ раз по $URI[[http://libmeta.ru/me/formula/aux/266_232_DIFFERENTsIAL'NOE]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/266_233_DIFFERENTsIAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/266_234_DIFFERENTsIAL'NOE]]/URI$, - функция $URI[[http://libmeta.ru/me/formula/aux/266_235_DIFFERENTsIAL'NOE]]/URI$ дифференцируется $URI[[http://libmeta.ru/me/formula/aux/266_236_DIFFERENTsIAL'NOE]]/URI$ раз по $URI[[http://libmeta.ru/me/formula/aux/266_237_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_238_DIFFERENTsIAL'NOE]]/URI$ раз по $URI[[http://libmeta.ru/me/formula/aux/266_239_DIFFERENTsIAL'NOE]]/URI$. Частные производные второго и высших порядков, являющиеся результатом дифференцирования по разным переменным, наз. с ме ш а н ным и ч а с т ным и произ во дн ы м и.
+
+Каждой частной производной отвечает нек-рый ч а с т ны й дифф е р е н ц и л, получаемый умпожением ее на диффференциалы независимых переменных, взятые в степенях, равных числу дифференцирований по соответствующему переменному. Так получаются $URI[[http://libmeta.ru/me/formula/aux/266_240_DIFFERENTsIAL'NOE]]/URI$-е ч а с т ны е д и фф е р е н ц и а лы, или ч а с т ны е дифф е ренцй лы $URI[[http://libmeta.ru/me/formula/aux/266_241_DIFFERENTsIAL'NOE]]/URI$ поря дк а:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_15_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Справедлива следующая важная т е о р е м а о с м еш а н н ы х п р о и з в о д ны х: если в нек-рой окрестности точки $URI[[http://libmeta.ru/me/formula/aux/266_242_DIFFERENTsIAL'NOE]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/266_243_DIFFERENTsIAL'NOE]]/URI$ имеет смешанные частные производные $URI[[http://libmeta.ru/me/formula/aux/266_244_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_245_DIFFERENTsIAL'NOE]]/URI$ и эти производные непрерывны в точке $URI[[http://libmeta.ru/me/formula/aux/266_246_DIFFERENTsIAL'NOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/266_247_DIFFERENTsIAL'NOE]]/URI$.
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/266_248_DIFFERENTsIAL'NOE]]/URI$ наз. д и ф ф е р е нц и р у е м о й в точке $URI[[http://libmeta.ru/me/formula/aux/266_249_DIFFERENTsIAL'NOE]]/URI$ по совокупности переменных $URI[[http://libmeta.ru/me/formula/aux/266_250_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_251_DIFFERENTsIAL'NOE]]/URI$, если она определена в нек-рой окрестности этой точки и ее I о ло о п р и р а ен и е
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_16_DIFFERENTsIAL'NOE]]/URI
+\]
+
+может быть представлено в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_17_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/266_252_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_253_DIFFERENTsIAL'NOE]]/URI$ - некоторые числа, $URI[[http://libmeta.ru/me/formula/aux/266_254_DIFFERENTsIAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/266_255_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_256_DIFFERENTsIAL'NOE]]/URI$ (при условии, что точка $URI[[http://libmeta.ru/me/formula/aux/266_257_DIFFERENTsIAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/266_258_DIFFERENTsIAL'NOE]]/URI$ принадлежит упомянутой окрестности). При этом выражение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_18_DIFFERENTsIAL'NOE]]/URI
+\]
+
+наз. п о л ны ди фф е р е нци а л о м (первого порядка) функции $URI[[http://libmeta.ru/me/formula/aux/266_259_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_260_DIFFERENTsIAL'NOE]]/URI$; это есть главная линейная часть приращения. Функция, дифференцируемая в точке, непрерывна в әтой точке (об̈ратное не всегда верно!). Более того, диффференцируемость влечет существование конечных частных производных
+
+$URI[[http://libmeta.ru/me/formula/aux/266_261_DIFFERENTsIAL'NOE]]/URI$. Таким образом, для функции, дифференцируемой в $URI[[http://libmeta.ru/me/formula/aux/266_262_DIFFERENTsIAL'NOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_19_DIFFERENTsIAL'NOE]]/URI
+\]
+
+или
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_20_DIFFERENTsIAL'NOE]]/URI
+\]
+
+если, подобно случаю одного переменного, положить для независимых переменных $URI[[http://libmeta.ru/me/formula/aux/266_263_DIFFERENTsIAL'NOE]]/URI$.
+
+Существование конечных частных производных в общем случае не влечет ее диффференцируемости (здесь нарушается аналогия с функциями одного переменного). Достаточный признак дифференц и р у е м о с т и функции двух переменных: если в нек-рой окрестности точки $URI[[http://libmeta.ru/me/formula/aux/266_264_DIFFERENTsIAL'NOE]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/266_265_DIFFERENTsIAL'NOE]]/URI$ имеет конечные частные производные $URI[[http://libmeta.ru/me/formula/aux/266_266_DIFFERENTsIAL'NOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/266_267_DIFFERENTsIAL'NOE]]/URI$, непрерывные в точке $URI[[http://libmeta.ru/me/formula/aux/266_268_DIFFERENTsIAL'NOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/266_269_DIFFERENTsIAL'NOE]]/URI$ диффференцируема в этой точке. Геомет-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_175b12f1d4533cbf49b3g-1.jpg?height=424&amp;width=484&amp;top_left_y=542&amp;top_left_x=1326)
+
+Puc. 4. рически полный диф ференциал $URI[[http://libmeta.ru/me/formula/aux/266_270_DIFFERENTsIAL'NOE]]/URI$ есть приращение аппликаты касательной плоскости к поверхности $URI[[http://libmeta.ru/me/formula/aux/266_271_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_272_DIFFERENTsIAL'NOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/266_273_DIFFERENTsIAL'NOE]]/URI$ (см. рис. 4).
+
+Полны е диффер е ци а лы в ыс ші и п о р я д к о в, подобно случаю функций одного переменного, вводятся по индукции равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_21_DIFFERENTsIAL'NOE]]/URI
+\]
+
+в предположении, что дифференциал $URI[[http://libmeta.ru/me/formula/aux/266_274_DIFFERENTsIAL'NOE]]/URI$ определен в нек-рой окрестности рассматриваемой точки и что приращения аргументов $URI[[http://libmeta.ru/me/formula/aux/266_275_DIFFERENTsIAL'NOE]]/URI$ берутся одни и те же на всех шагах. Аналогично определяются и повторные дифференциалы.
+
+Производны е и диф ф е ренци алы с ло ж ных фу у н к и й. Пусть $URI[[http://libmeta.ru/me/formula/aux/266_276_DIFFERENTsIAL'NOE]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/266_277_DIFFERENTsIAL'NOE]]/URI$ переменных, дифференцируемая в каждой точке открытой области $URI[[http://libmeta.ru/me/formula/aux/266_278_DIFFERENTsIAL'NOE]]/URI$ m-мерного евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/266_279_DIFFERENTsIAL'NOE]]/URI$, и пусть $URI[[http://libmeta.ru/me/formula/aux/266_280_DIFFERENTsIAL'NOE]]/URI$ функций $URI[[http://libmeta.ru/me/formula/aux/266_281_DIFFERENTsIAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/266_282_DIFFERENTsIAL'NOE]]/URI$ - от $URI[[http://libmeta.ru/me/formula/aux/266_283_DIFFERENTsIAL'NOE]]/URI$ переменных заданы в открытой области $URI[[http://libmeta.ru/me/formula/aux/266_284_DIFFERENTsIAL'NOE]]/URI$-мерного евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/266_285_DIFFERENTsIAL'NOE]]/URI$. Пусть, наконец, точка $URI[[http://libmeta.ru/me/formula/aux/266_286_DIFFERENTsIAL'NOE]]/URI$, соответствующая точке $URI[[http://libmeta.ru/me/formula/aux/266_287_DIFFERENTsIAL'NOE]]/URI$, не выходит из области $URI[[http://libmeta.ru/me/formula/aux/266_288_DIFFERENTsIAL'NOE]]/URI$. Тогда справедливы следующие теоремы:
+
+1) Если функции $URI[[http://libmeta.ru/me/formula/aux/266_289_DIFFERENTsIAL'NOE]]/URI$ имеют конечные частные производные по $URI[[http://libmeta.ru/me/formula/aux/266_290_DIFFERENTsIAL'NOE]]/URI$, то сложная функция $URI[[http://libmeta.ru/me/formula/aux/266_291_DIFFERENTsIAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/266_292_DIFFERENTsIAL'NOE]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/266_293_DIFFERENTsIAL'NOE]]/URI$ также имеет конечные частные производные по $URI[[http://libmeta.ru/me/formula/aux/266_294_DIFFERENTsIAL'NOE]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_22_DIFFERENTsIAL'NOE]]/URI
+\]
+
+2) Если функции $URI[[http://libmeta.ru/me/formula/aux/266_295_DIFFERENTsIAL'NOE]]/URI$ дифференцируемы по совокупности переменных $URI[[http://libmeta.ru/me/formula/aux/266_296_DIFFERENTsIAL'NOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/266_297_DIFFERENTsIAL'NOE]]/URI$, то и сложная функция $URI[[http://libmeta.ru/me/formula/aux/266_298_DIFFERENTsIAL'NOE]]/URI$ дифференцируема в этой точке и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/266_23_DIFFERENTsIAL'NOE]]/URI
+\]
+где $URI[[http://libmeta.ru/me/formula/aux/266_299_DIFFERENTsIAL'NOE]]/URI$ диффференциалы функций $URI[[http://libmeta.ru/me/formula/aux/266_300_DIFFERENTsIAL'NOE]]/URI$,
+$URI[[http://libmeta.ru/me/formula/aux/266_301_DIFFERENTsIAL'NOE]]/URI$. Таким образом, свойство инвариантности первого дифференциала имеет место и для функций нескольких переменных. Для диффференциалов второго и высших порядков это свойство, вообще говоря, нарушается.
+
+Д. и. применяется к изучению свойств функций многих переменных: к отысканию экстремумов, к исследованию функций, задаваемых одним или несколькими неявными уравнениями, к теории поверхностей и т. д. Одним из главных инструментов при этом является Тейлора бормула.
+
+Понятия производной и диффференциала и их простейшие свойства, связанные с арифметич. действиями над функциями и суперпозицией функций, включая свойство инвариантности первого дифференциала, почти без изменений распространяются на комплексные функции одного или нескольких действительных переменных, на действительные и комплексные векторфункции одного или нескольких действительных переменных, на комплексные функции и вектор-функции одного или нескольких комплексных переменных. В функциональном анализе понятия производной и дифференциала распространяются на функции точки абстрактного пространства.
+
+गит.: И с то р и я д и фф ф е р е н ци а л ь ного и и нтег р а льного исчи сле ни я-[1] История матема-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=35&amp;width=831&amp;top_left_y=903&amp;top_left_x=120)
+т. $URI[[http://libmeta.ru/me/formula/aux/266_302_DIFFERENTsIAL'NOE]]/URI$, М., $URI[[http://libmeta.ru/me/formula/aux/266_303_DIFFERENTsIAL'NOE]]/URI$; [3] В и л е й т н е р Г., История математики
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=40&amp;width=828&amp;top_left_y=940&amp;top_left_x=122)
+от декарта до середины Xix столетия, пер. с нем., 2 изд., М.,
+$URI[[http://libmeta.ru/me/formula/aux/266_304_DIFFERENTsIAL'NOE]]/URI$ С т р о й к Д. Я., Краткий курс истории математики, пер. с нем., 2 изд., М., 1969; [5] Б у р б а к и Н., Очерки по истории математики, пер. с франц., М., 1963; [6] C a n t o r M., Vorlesungen über Geschichte der Mathematik, 2 Aufl., Bd $URI[[http://libmeta.ru/me/formula/aux/266_305_DIFFERENTsIAL'NOE]]/URI$, Lpz., 1900-08.
+
+Р а боты основоположниковиклассиков
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=35&amp;width=829&amp;top_left_y=1114&amp;top_left_x=124)
+ч и с л е н и я - [7] Н ь ю т о н и., Математические работы, пер. с латин., М.- Л., 1937; [8] Л е й 6 н и ц Г., Избранные отрывки из математических сочинений, пер. с латин., &quot;успехи матем. наук», 1948 , т. 3, в. 1; [9] Л'о п и т а л ь Г. Ф. де, Анализ бесконечно малых, пер. с фрранц., М.- Л., 1935; [10] Э йл е р Л., Введение в анализ бесконечных, пер. с латин., 2 изд., т. 1, М., 1961; [11] е г о же, Дифференциальное исчисление, т. 1, М., 1961; [11] е г о же, Дифференциальное исчисление,
+пер. с латин., М. -Ј., $URI[[http://libmeta.ru/me/formula/aux/266_306_DIFFERENTsIAL'NOE]]/URI$ [12] К о ш и О. Л., Краткое изложение уроков о дифференциальном и интегральном исчислении, пер. с франц., Спб, 1831; [13] е г о ж е, Алгебраический анализ, пер. с франц., Лейпциг, 1864.
+
+Уче бники й уче бные пособия по ди фф е-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=39&amp;width=833&amp;top_left_y=1402&amp;top_left_x=122)
+н и ю - [14] г у р с а э., Курс математического анализа, пер. с франц., 3 изд., т. 1, М.-Л., 1936; [15] Л а В а л л П у с с е н Iii. Ж. де, Курс анализа бесконечно малых, пер. с франц., т. 1, Ј.-М., $URI[[http://libmeta.ru/me/formula/aux/266_307_DIFFERENTsIAL'NOE]]/URI$ К у р а н т Р., Курс диф̆ ференциального и интегрального исчисления, пер. с нем. и англ., 4 изд., т. 1, М., 1967; [17] Р у д и н Р., Основы математического анализа, пер. с англ., М., 1966; [18] И л в и н В. А., П о зн я к Э. Г., Основы математического анализа, т. 1, 3 изд., М., 1971 ; т. 2, 1973 ; [19] К у д р я в ц е в Л. Д. Математический анализ, 2 изд., М., $URI[[http://libmeta.ru/me/formula/aux/266_308_DIFFERENTsIAL'NOE]]/URI$ и к о л ь с к й й. М., Курс маанализ, 2 изд., М., $URI[[http://libmeta.ru/me/formula/aux/266_309_DIFFERENTsIAL'NOE]]/URI$ Н и к о л ь с к и и С. М., Курс ма-
+тематического анализа, 2 изд., М., 1975; [21] Т о л с т о в Г. П., тематического анализа, 2 изд., м., 1975; $URI[[http://libmeta.ru/me/formula/aux/266_310_DIFFERENTsIAL'NOE]]/URI$ т о л с т о в Г. П.
+Элементы математического анализа, т. $URI[[http://libmeta.ru/me/formula/aux/266_311_DIFFERENTsIAL'NOE]]/URI$ изд., М., $URI[[http://libmeta.ru/me/formula/aux/266_312_DIFFERENTsIAL'NOE]]/URI$ Элементы математического анализа, т. $URI[[http://libmeta.ru/me/formula/aux/266_313_DIFFERENTsIAL'NOE]]/URI$ изд., М., 1974; 122$URI[[http://libmeta.ru/me/formula/aux/266_314_DIFFERENTsIAL'NOE]]/URI$
+С м и р н о в В. И., Курс высшей математики, 22 изд., т. 1, М., С м и р н о в В. И., Курс высшей математики, 22 изд., т. 1, М.,
+$URI[[http://libmeta.ru/me/formula/aux/266_315_DIFFERENTsIAL'NOE]]/URI$ Ф х т е н г о л ь ц $URI[[http://libmeta.ru/me/formula/aux/266_316_DIFFERENTsIAL'NOE]]/URI$. М., Курс дифференциального и интегрального исчисления, 7 изд., М., 1969; [24] Х и н ч и н
+
+А. Я., Восемь лекций по математическому анализу, 3 изд.,
+М. - Л., 1948 .
+Г. Полстов. М. Л. Ј̈., 1948 .</text>
+  <text_orig>раздеЛ математики, в к-ром изучаются понятия производной и диффференциала и способы их применения к исследованию функций. Развитие Д. и. тесно связано с развитием интегрального исчисления. Неразрывно и их содержание. Вместе они составляют основу математич. анализа, имеющего чрезвычайное значение для естествознания и техники. Основной предпосылкой для создания Д. и. явилось введение в математику переменных величин (P. Декарт, R. Descartes). В общих чертах построение дифференциального и интегрального исчислений было завершено в трудах И. Ньютона (I. Newton) и Г. Лейбница (G. Leibniz) к концу 17 в., однако вопросы обоснования с помощью понятия пре- дела были разработаны О. Коши (А. Couchy) лишь в начале 19 в. Создание дифференциального и интегрального исчисления явилось началом периода бурного развития математики и связанных с ней прикладных наук. Под Д. и. обычно понимают классич. Д. и., в к-ром рассматриваются действительные функции одного или нескольких действительных переменных, хотя в современном толковании может идти речь и о Д. и. в абстрактных пространствах. Д. и. основано на Понятиях действительного числа, функции, предела и непрерывности - важнейших понятий математики, сформировавшихся и получивших современное содержание в процессе развития математич. анализа и работы над его обоснованием. Центральные понятия Д. и. - производная и дифференциал - и разработанный в Д. и. аппарат, связанный с ними, доставляют средства для исследований функций, локально сходных с линейной функцией или многочленом, а именно такие функции в первую очередь интересны для приложений.
+
+П р о и з в о д н а я. Пусть функция $y=f(x)$ определена в нек-рой окрестности точки $x_{0}, \Delta x \neq 0$ есть приращение аргумента, $\Delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)-$ coответствующее приращение функции. Если существует (конечный или бесконечный) предел
+
+\[
+\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}
+\]
+
+то он наз. П р о и з в о д н о й функции $f(x)$ в точке $x_{0}$ и обозначается $f^{\prime}\left(x_{0}\right), \frac{d f\left(x_{0}\right)}{d x}, y^{\prime}, y_{x}^{\prime}, \frac{d y}{d x}$. Итак, по определению,
+
+\[
+f^{\prime}\left(x_{0}\right)=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)}{\Delta x} .
+\]
+
+Операция вычисления производной наз. д и фф ер е н ци р о в а ни е м. Если $f^{\prime}\left(x_{0}\right)$ - конечна, функция $f(x)$ наз. ди ффф е $\mathbf{p}$ е нц и р у е м о й в точке $x_{0}$. Функция, дифференцируемая в каждой точке нек-рого промежутка, наз.
+
+ди фф е р е н ц и р у eм о й в п п р о м е ж у т ке.
+
+$\Gamma$ е о ме т риче с ко е ис т о ли о в а ни е п р ои 3 в о д н о й. Пусть $C$ плоская кривая, задавная в прямоугольной системе координат уравнением $y=f(x)$, где $f(x)$ определена и непрерывна в нек-ром интервале, $M\left(x_{0}, y_{0}\right)$ - фиксированная точка на $C, \quad P(x, y)-$ произвольная точка кривой $C, M P$ - секущая (см. рис. 1). Прямая $M T$ наз.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fa892690edbca38e63b6g-1.jpg?height=420&amp;width=382&amp;top_left_y=1363&amp;top_left_x=1429)
+
+Рис. 1. $C$ в точке $M$, если угол $\varphi$ между секущей $M P$ и этой прямой стремится к нулю, когда $x \rightarrow x_{0}$ (иными словами, когда точка $P \in C$ произвольным образом стремится к точке $M$ ). Если упомянутая касательная существует, то она - единственна. Если положить $x=x_{0}+\Delta x, \Delta y=f\left(x_{0}+\Delta x\right)-f\left(x_{0}\right)$, то для угла $\beta$ между $M P$ и положительным направлением оси $O x$ будет иметь место равенство $\operatorname{tg} \beta=\frac{\Delta y}{\Delta x}$ (см. рис. 1). Кривая $C$ имеет в точке $M$ касательную в том и только в том случае, если существует $\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}$, т. е. существует $f^{\prime}\left(x_{0}\right)$. При этом для угла $\alpha$ между касательной и положительным направлением оси $O x$ справедливо равенство $\operatorname{tg} \alpha=f^{\prime}\left(x_{0}\right)$. В случае конечной производной $f^{\prime}\left(x_{0}\right)$ касательная образует с $O x$ острый угол, т. е. $-\frac{\pi}{2}&lt;\alpha&lt;\frac{\pi}{2} ;$ в случае $f^{\prime}\left(x_{0}\right)=\infty$ касательная образует с $O x$ прямой угол (см. рис. 2). Таким образом, производная непрерывной функции $f(x)$ в точке $x_{0}$ совпадает
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cb79b66dfdf27bb01276g-1.jpg?height=469&amp;width=504&amp;top_left_y=301&amp;top_left_x=115)
+
+Рис. 2. с угловым коэфффициентом $\operatorname{tg} \alpha$ касательной к кривой, заданной уравнением $y=$ $=f(x)$, в ее точке с абсциссой $x_{0}$.
+
+Механичес к о е истол к о в а ни е п р о и з в о д н о й. Пусть точка $M$ движется прямолинейно по закону $s=f(t)$. За время $\Delta t$ точка $M$ сместится на $\Delta s=$ $=f(t+\Delta t)-f(t)$. Отношение $\Delta s / \Delta t$ представляет собой среднюю скорость $v_{\mathrm{cp}}$ точки за время $\Delta t$. При неравномерном движении $v_{\mathrm{cp}}$ не постоянна. М г н о в е н н о й с ко р о с т ь ю момент $t$ наз. предел средней скорости при $\Delta t \rightarrow 0$, т. е. $v=f^{\prime}(t)$ (в предположении, что әта производная существует).
+
+Таким образом, понятие производной доставляет общее решение задачи о построении касательной к плоской кривой и задачи о вычислении скорости прямолинейного движения. Эти две задачи явились основными предпосылками в формировании понятия производной.
+
+Функция, имеющая в точке $x_{0}$ конечную производнуіо, непрерывна в этой точке. В случае бесконечной производной этого может не быть. Непрерывная функция может не иметь ни конечной, ни бесконечной производной. Существуют непрерывные функции, не имеющие производной ни в одной точке области определения.
+
+Для производных основных әлементарных функций справедливы следующие формулы (в любой точке области определения; исключения оговариваются):
+
+1) если $f(x)=C=$ const, то $f^{\prime}(x)=C^{\prime}=0$;
+
+2) если $f(x)=x$, то $f^{\prime}(x)=1$;
+
+3) $\left(x^{\alpha}\right)^{\prime}=\alpha x^{\alpha-1}, \alpha=$ const $(x \neq 0$, если $\alpha \leqslant 1)$;
+
+4) $\left(a^{x}\right)^{\prime}=a^{x} \ln a, \quad a=$ const $&gt;0, a \neq 1$, в частности, $\left(e^{x}\right)^{\prime}=e^{x}$
+
+5) $\left(\log _{a} x\right)^{\prime}=\frac{\log _{a} e}{x}=\frac{1}{x \ln a}, \quad a=$ const $&gt;0, \quad a \neq 1$, $(\ln x)^{\prime}=\frac{1}{x}$
+
+6) $(\sin x)^{\prime}=\cos x$
+
+7) $(\cos x)^{\prime}=-\sin x$;
+
+8) $(\operatorname{tg} x)^{\prime}=\frac{1}{\cos ^{2} x}$
+
+9) $(\operatorname{ctg} x)^{\prime}=-\frac{1}{\sin ^{2} x}$;
+
+10) $(\arcsin x)^{\prime}=\frac{1}{\sqrt{1-x^{2}}}, \quad x \neq \pm 1$;
+
+11) $(\arccos x)^{\prime}=-\frac{1}{\sqrt{1-x^{2}}}, x \neq \pm 1$;
+
+12) $(\operatorname{arctg} x)^{\prime}=\frac{1}{1+x^{2}}$;
+
+13) $(\operatorname{arcctg} x)^{\prime}=-\frac{1}{1+x^{2}}$;
+
+14) $(\operatorname{sh} x)^{\prime}=\operatorname{ch} x$
+
+15) $(\operatorname{ch} x)^{\prime}=\operatorname{sh} x$;
+
+16) $(\operatorname{th} x)^{\prime}=\frac{1}{\operatorname{ch}^{2} x}$;
+
+17) $(\operatorname{cth} x)^{\prime}=-\frac{1}{\operatorname{sh}^{2} x}$. Имеют место также следующие правила дифференцирования;
+
+1) Если функции $u(x)$ и $v(x)$ дифференцируемы в точке $x_{0}$, то функции
+
+\[
+c u \text { (где } c=\mathrm{const}), u \pm v, u v, u / v(v \neq 0)
+\]
+
+также дифференцируемы в этой точке, причем
+
+\[
+\begin{gathered}
+(c u)^{\prime}=c u^{\prime} \\
+(u \pm v)^{\prime}=u^{\prime} \pm v^{\prime} \\
+(u v)^{\prime}=u^{\prime} v+u v^{\prime} \\
+\left(\frac{u}{v}\right)^{\prime}=\frac{u^{\prime} v-u v^{\prime}}{v^{2}}
+\end{gathered}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cb79b66dfdf27bb01276g-1.jpg?height=40&amp;width=796&amp;top_left_y=598&amp;top_left_x=1016)
+ф у н к I и и: если функция $y=f(u)$ дифференцируема в точке $u_{0}$, а функция $\varphi(x)$ диффференцируема в точке $x_{0}$, причем $u_{0}=\varphi\left(x_{0}\right)$, то сложная функция $y=f(\varphi(x))$ диффференцируема в точке $x_{0}$ и $y_{x}^{\prime}=f^{\prime}\left(u_{0}\right) \varphi^{\prime}\left(x_{0}\right)$ или, в другой запıси, $\frac{d y}{d x}=\frac{d y}{d u} \frac{d u}{d x}$.
+
+3) Теорема о производно ойо б р а т но й ф ун к ции: если $y=f(x)$ и $x=g(y)-$ две взаимно обратные возрастающие (или убывающие) функции, заданные на нек-рых интервалах, и существует конечная производная $f^{\prime}\left(x_{0}\right) \neq 0$, то в точке $y_{0}=f\left(x_{0}\right)$ существует конечная производная $g^{\prime}\left(y_{0}\right)=\frac{1}{f^{\prime}\left(x_{0}\right)}$, или, в другой записи, $\frac{d x}{d y}=\frac{1}{\frac{d y}{d x}}$. Эта теорема допускает обобщение: если, при выполнении прочих условий, $f^{\prime}\left(x_{0}\right)=$ $=0\left(f^{\prime}\left(x_{0}\right)=\infty\right)$, то $g^{\prime}\left(y_{0}\right)=\infty\left(\right.$ соответственно $\left.g^{\prime}\left(y_{0}\right)=0\right)$
+
+Односто тонние производны е. Если в точке $x_{0}$ существует предел
+
+\[
+\lim _{\substack{\Delta x \rightarrow 0 \\ \Delta x&gt;0}} \frac{\Delta y}{\Delta x}
+\]
+
+то он наз. П р а в о й п р о и з в о д н о й функции $y=f(x)$ в точке $x_{0}$ (в этом случае нет необходимості требовать, чтобы функция была определена всюду в нек-рой окрестности точки $x_{0}$; достаточно потребовать этого лишь для $x \geqslant x_{0}$ ). Аналогично определяется ле в а я п р и з в о ная - как предел
+
+\[
+\lim _{\substack{\Delta x \rightarrow 0 \\ \Delta x&lt;0}} \frac{\Delta y}{\Delta x}
+\]
+
+Функция $f(x)$ имеет производную в точке $x_{0}$ в том и только в том случае, если в этой точке существуют равные между собой правая и левая производные. Для непрерывной функции существование в точке правой (соответственно левой) производной равносильно существованию в соответствующей точке ее графика правой (соответственно левой) о дност о ронней полукасательной с угловым коэффиициентом, равным значению
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cb79b66dfdf27bb01276g-1.jpg?height=250&amp;width=395&amp;top_left_y=1711&amp;top_left_x=1430)
+
+Pис. 3 этой односторонней производной. Точки, в к-рых полукасательные не образуют одну прямую, называются у г л о в ы м и то чк ам и (см. рис. 3).
+
+П р ои з в о дны е в Ыс III и х П о р я д ко в. Пусть функция $y=f(x)$ имеет конечную производную $y^{\prime}=f^{\prime}(x)$ в каждой точке нек-рого интервала; эта производная наз. также п е р в о й п р о и з в о д н о й, или п р о и з во дно й пе р в о г о п о р я д к а, к-рая, будучи функцией от $x$, может, в свою очередь, иметь производную $y^{\prime \prime}=f^{\prime \prime}(x)$, называемуг в т о р о й П р и з вод но й, или П роиз во д н о й в т ор о го по р я д к а, функции $f(x)$, и т. Д. Вообще
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_35a6c45aed484f03db52g-1.jpg?height=30&amp;width=819&amp;top_left_y=253&amp;top_left_x=134)
+р я д к а $n$, определяется по индукции равенством $y^{(n)}=\left(y^{(n-1)}\right)^{\prime}$, в предположении, что $y^{(n-1)}$ определена на нек-ром интервале. При этом, наряду с $y^{(n)}$, используются также обозначения $f^{(n)}(x), \frac{d^{n} f(x)}{d x^{n}}$, а для $n=2,3$ еще $y^{\prime \prime}, f^{\prime \prime}(x), y^{\prime \prime \prime}, f^{\prime \prime \prime}(x)$.
+
+Вторая производная имеет механич. истолкование: это есть ускорение $w=\frac{d^{2} s}{d t^{2}}=f^{\prime \prime}(t)$ в момент $t$ точки, движущейся прямолинейно по закону $s=f(t)$.
+
+Д ифф е р е нци а л. Пусть функция $y=f(x)$ определена в нек-рой окрестности точки $x$ и существует такое число $A$, что приращение $\Delta y$ может быть представлено в виде $\Delta y=A \Delta x+\omega$, где $\omega / \Delta x \rightarrow 0$ при $\Delta x \rightarrow 0$. Член $\boldsymbol{A} \Delta \boldsymbol{x}$ в этой сумме обычно обозначается символом $d y$, или $d f(x)$, и наз. д иф ф е р е н ц и а л о м функции $f(x)$ (по переменному $x$ ) в точке $x$. Дифференциал есть главная линейная часть приращения функции (геометрически изображается отрезком $L T$ на рис. 1, где $M T-$ касательная к кривой $y=f(x)$ в рассматриваемой точке $\left.\left(x_{0}, y_{0}\right)\right)$.
+
+Функция $y=f(x)$ имеет в точке $x$ дифференциал в том и только в том случае, если она имеет в этой точке конечную производную
+
+\[
+f^{\prime}(x)=\lim _{\Delta x \rightarrow 0} \frac{\Delta y}{\Delta x}=A
+\]
+
+Функция, для к-рой существует диффереңциал, наз. д иф ф е р нци р у е м о й в рассматриваемой точке. Таким образом, дифф е р е ц ир у е мо с т ь ф у н к и и означает одновременно и существование дифференциала, и существование конечной производной. При этом $d y=d f(x)=f^{\prime}(x) \Delta x$. Для независимого переменного $x$ полагают $d x=\Delta x$ и поэтому можно писать $d y=f^{\prime}(x) d x$, т. е. производная равна отношению диффференциалов:
+
+\[
+f^{\prime}(x)=\frac{d y}{d x}
+\]
+
+См. также Дибференциал.
+
+Формулы и правила вычисления для производных приводят к соответствующим формулам и правилам вычисления для диффференциалов. В частности, справедлива т е о р е м а о д и ф ф р е нциал е с ло жн о й ф у н к ц и и: если функция $y=f(u)$ диффференцируема в точке $u_{0}$, а функция $\varphi(x)$ диффференцируема в точке $x_{0}$, причем $u_{0}=\varphi\left(x_{0}\right)$, то сложная функция $y=$ $=f(\varphi(x))$ диффференцируема в точке $x_{0}$ и $d y=f^{\prime}\left(u_{0}\right) d u$, где $d u=\varphi^{\prime}\left(x_{0}\right) d x$. Диффференциал сложной функции имеет точно такой же вид, как если бы переменное $u$ было независимым. Это свойство наз. и н в а р и а н тностью ф о рмы ди фф е ре нци ал а. Однако, если $u$ - независимое переменное, $d u=\Delta u$ есть произвольное приращение, а если $u$-функция, то $d u$ есть диффференциал этой функции, вообще говоря, не совпадающий с ее приращением.
+
+Дифф ер е ци а лы выс ші и поря д ков. Диффференциал $d y$ наз. также п е р в ы м д ифф е$\mathbf{p}$ е н ци а лом, или ди фф ф е р е нци а лом п̈ е рв о г о п о р я д к а. Пусть $y=f(x)$ имеет дифференциал $d y=f^{\prime}(x) d x$ в каждой точке нек-рого интервала. Здесь $d x=\Delta x-$ некоторое число, не зависящее от $x$, и поэтому можно считать $d x=$ const. При этом $d y$ оказывается функцией только от $x$ и, в свою очередь, может иметь диффференциал, к-рый наз. в т о р ы м д и фф ер енци а лом, или дифф е р енци а лом в т ор о г о п о р я д к а функции $f(x)$, и т. д. Вообще, $n$-й дифф е р еци а л, или дифф е р енци а л п о р я д к а, определяется по индукции равенством $d^{n} y \stackrel{p}{=} d\left(d^{n-1} y\right)$ в предположении, что дифференциал $d^{n-1} y$ определен в нек-ром интервале и что значение $d x$ одно и то же на всех пагах. Свойство инвариантности для $d^{2} y, d^{3} y, \ldots$, вообще говоря, не имеет места (исключение составляет $y=f(u)$, где $u$ - линейная функция).
+
+П в т о рны й дифф е ре нци а л от $d y$ имеет вид
+
+\[
+\delta(d y)=f^{\prime \prime}(x) d x \delta x
+\]
+
+и вторым дифференциалом является значение $\delta(d y)$ при $d x=\delta x$.
+
+О с новны е те о рем ы и приложения Д. и. К основным теоремам Д. и. для функций одного переменного обычно относят Р олля теорему, Лагранжа теорему (о конечном приращении), Коши теорему и Teйлора формулу. Эти теоремы лежат в основе наиболее важных приложений Д. и. к исследованию свойств функций - таких, как возрастание и убывание функции, выпуклость и вогнутость графика, к отысканию экстремумов, перегиба точек, асимптот графика. Д. и. позволяет вычислять пределы функций во многих случаях, когда простейшие теоремы $о$ пределах не позволяют сделать этого (см. Неопределенностей раскрытие). Д. и. находит широкие приложения во многих разделах математики, в частности в геометрии.
+
+Д. и. функций мн огих пере ме нны х. Для простоты рассматривается случай функций двух переменных (за нек-рым исключением), хотя все понятия легко распространяются на случай трех и большего числа переменных. Пусть функция $z=f(x, y)$ задана в нек-рой окрестности точки $\left(x_{0}, y_{0}\right)$ и пусть зафиксировано значение $y=y_{0}$. Тогда $f\left(x, y_{0}\right)$ есть функция только от $x$. Если она имеет в $x_{0}$ производную по $x$, то эта производная наз. ч а с т н о й п р о и зв о д н о й функции $f(x, y)$ по $x$ в точке $\left(x_{0}, y_{0}\right)$ и обозначается $f_{x}^{\prime}\left(x_{0}, y_{0}\right), \frac{\partial f\left(x_{0}, y_{0}\right)}{\partial x}, \frac{\partial f}{\partial x}, z_{x}^{\prime}, \frac{\partial z}{\partial x}$. Итак, по определению,
+
+\[
+f_{x}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta x \rightarrow 0} \frac{\Delta_{x} z}{\Delta x}=\lim _{\Delta x \rightarrow 0} \frac{f\left(x_{0}+\Delta x, y_{0}\right)-f\left(x_{0}, y_{0}\right)}{\Delta x},
+\]
+
+где $\Delta_{x} z=f\left(x_{0}+\Delta x, y_{0}\right)-f\left(x_{0}, y_{0}\right)-$ ч а с т н о е п р ир а щ е и е функции по $x(\partial z / \partial x$ в общем случае нельзя рассматривать как дробь; $\partial / \partial x$ есть символ операции).
+
+Аналогично определяется ч а с т а я п ро и зв о д н а я по $y$ :
+
+$f_{y}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta y \rightarrow 0} \frac{\Delta_{y} z}{\Delta y}=\lim _{\Delta y \rightarrow 0} \frac{f\left(x_{0}, y_{0}+\Delta y\right)-f\left(x_{0}, y_{0}\right)}{\Delta y}$,
+
+где $\Delta_{y} z$ - частное приращение функции по $y$. Другие обозначения: $\frac{\partial f\left(x_{0}, y_{0}\right)}{\partial y}, \frac{\partial f}{\partial y}, z_{y}^{\prime}, \frac{\partial z}{\partial y}$. Частные производные вычисляются по правилам диффференцирования функций одного переменного (при вычислении $z_{x}^{\prime}$ нужно считать $y=$ const, а при вычислении $z_{y}^{\prime}-$ считать $x=$ const).
+
+Ч а с т ны м ди фф е р е ци а лами функции $z=f(x, y)$ в точке $\left(x_{0}, y_{0}\right)$ наз. (соответственно) выражения
+
+\[
+d_{x} z=f_{x}^{\prime}\left(x_{0}, y_{0}\right) d x ; d_{y} z=f_{y}^{\prime}\left(x_{0}, y_{0}\right) d y
+\]
+
+(где, как и в случае одного переменного, $d x=\Delta x, d y=$ $=\Delta y$ означают приращения независимых переменных).
+
+$\Pi$ е р вы е частны е производны е $\frac{\partial z}{\partial x}=$ $=f_{x}^{\prime}(x, y)$ и $\frac{\partial z}{\partial y}=f_{y}^{\prime}(x, y)$, или ч а с т ны е пр о и з- в о д н ы п е р в о го по р я д к а, являясь функциями от $x$ и $y$, могут в свою очередь иметь частные производные по $x$ и $y$, к-рые называются, по отношению к функции $z=f(x, y)$, ч а с т ны м и п р о и зводным и торого поряд ка, или в торыми частными про изводным и. При этом полагают
+
+\[
+\begin{aligned}
+&amp; \frac{\partial}{\partial x}\left(\frac{\partial z}{\partial x}\right)=\frac{\partial^{2} z}{\partial x^{2}}, \quad \frac{\partial}{\partial y}\left(\frac{\partial z}{\partial x}\right)=\frac{\partial^{2} z}{\partial x \partial y}, \\
+&amp; \frac{\partial}{\partial x}\left(\frac{\partial z}{\partial y}\right)=\frac{\partial^{2} z}{\partial y \partial x}, \quad \frac{\partial}{\partial y}\left(\frac{\partial z}{\partial y}\right)=\frac{\partial^{2} z}{\partial y^{2}} .
+\end{aligned}
+\]
+
+Вместо $\partial^{2} z / \partial x^{2}$ употребляют также обозначения
+
+\[
+z_{x x}^{\prime \prime}, z_{x^{2}}^{\prime \prime}, \frac{\partial^{2} f(x, y)}{\partial x^{2}}, \quad \frac{\partial^{2} f}{\partial x^{2}}, f_{x x}^{\prime \prime}(x, y), f_{x^{2}}^{\prime \prime}(x, y) ;
+\]
+
+вместо $\partial^{2} z / \partial x \partial y$ - обозначения
+
+\[
+z_{x y}^{\prime \prime}, \frac{\partial^{2} f(x, y)}{\partial x \partial y}, \frac{\partial^{2} f}{\partial x \partial y}, f_{x y}^{\prime \prime}(x, y)
+\]
+
+и т. д. Подобным образом вводятся частные производные третьего порядка и выше, и соответствующая символика: $\partial^{n} z / \partial x^{n}$ - функция $z$ дифференцируется $n$ раз по $x$; $\partial^{n} z / \partial x^{p} \partial y^{q}$, где $n=p+q$, - функция $z$ дифференцируется $p$ раз по $x$ и $q$ раз по $y$. Частные производные второго и высших порядков, являющиеся результатом дифференцирования по разным переменным, наз. с ме ш а н ным и ч а с т ным и произ во дн ы м и.
+
+Каждой частной производной отвечает нек-рый ч а с т ны й дифф е р е н ц и л, получаемый умпожением ее на диффференциалы независимых переменных, взятые в степенях, равных числу дифференцирований по соответствующему переменному. Так получаются $n$-е ч а с т ны е д и фф е р е н ц и а лы, или ч а с т ны е дифф е ренцй лы $n-\Gamma о$ поря дк а:
+
+\[
+\frac{\partial^{n} z}{\partial x^{n}} d x^{n}, \frac{\partial^{n} z}{\partial x^{p} \partial y^{q}} d x^{p} d y^{q} \text {. }
+\]
+
+Справедлива следующая важная т е о р е м а о с м еш а н н ы х п р о и з в о д ны х: если в нек-рой окрестности точки $\left(x_{0}, y_{0}\right)$ функция $z=f(x, y)$ имеет смешанные частные производные $f_{x y}^{\prime \prime}(x, y)$ и $f_{y x}^{\prime \prime}(x, y)$ и эти производные непрерывны в точке $\left(x_{0}, y_{0}\right)$, то $f_{x y}^{\prime \prime}\left(x_{0}, y_{0}\right)=f_{y x}^{\prime \prime}\left(x_{0}, y_{0}\right)$.
+
+Функция $z=f(x, y)$ наз. д и ф ф е р е нц и р у е м о й в точке $\left(x_{0}, y_{0}\right)$ по совокупности переменных $x$ и $y$, если она определена в нек-рой окрестности этой точки и ее I о ло о п р и р а ен и е
+
+\[
+\Delta z=f\left(x_{0}+\Delta x, y_{0}+\Delta y\right)-f\left(x_{0}, y_{0}\right)
+\]
+
+может быть представлено в виде
+
+\[
+\Delta z=A \Delta x+B \Delta y+\omega,
+\]
+
+где $A$ и $B$ - некоторые числа, $\omega / \rho \rightarrow 0$ при $\rho=$ $=\sqrt{(\Delta x)^{2}+(\Delta y)^{2}} \rightarrow 0$ (при условии, что точка $\left(x_{0}+\Delta x\right.$, $\left.y_{0}+\Delta y\right)$ принадлежит упомянутой окрестности). При этом выражение
+
+\[
+d z=d f\left(x_{0}, y_{0}\right)=A \Delta x+B \Delta y
+\]
+
+наз. п о л ны ди фф е р е нци а л о м (первого порядка) функции $f(x, y)$ в точке $\left(x_{0}, y_{0}\right)$; это есть главная линейная часть приращения. Функция, дифференцируемая в точке, непрерывна в әтой точке (об̈ратное не всегда верно!). Более того, диффференцируемость влечет существование конечных частных производных
+
+$f_{x}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta x \rightarrow 0} \frac{\Delta_{x} z}{\Delta x}=A, f_{y}^{\prime}\left(x_{0}, y_{0}\right)=\lim _{\Delta y \rightarrow 0} \frac{\Delta_{y} z}{\Delta y}=B$. Таким образом, для функции, дифференцируемой в $\left(x_{0}, y_{0}\right)$
+
+\[
+d z=d f\left(x_{0}, y_{0}\right)=f_{x}^{\prime}\left(x_{0}, y_{0}\right) \Delta x+f_{y}^{\prime}\left(x_{0}, y_{0}\right) \Delta y
+\]
+
+или
+
+\[
+d z=d f\left(x_{0}, y_{0}\right)=f_{x}^{\prime}\left(x_{0}, y_{0}\right) d x+f_{y}^{\prime}\left(x_{0}, y_{0}\right) d y,
+\]
+
+если, подобно случаю одного переменного, положить для независимых переменных $d x=\Delta x, d y=\Delta y$.
+
+Существование конечных частных производных в общем случае не влечет ее диффференцируемости (здесь нарушается аналогия с функциями одного переменного). Достаточный признак дифференц и р у е м о с т и функции двух переменных: если в нек-рой окрестности точки $\left(x_{0}, y_{0}\right)$ функция $f(x, y)$ имеет конечные частные производные $f_{x}^{\prime}(x, y) \quad$ и $f_{y}^{\prime}(x, y)$, непрерывные в точке $\left(x_{0}, y_{0}\right)$, то $f$ диффференцируема в этой точке. Геомет-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_175b12f1d4533cbf49b3g-1.jpg?height=424&amp;width=484&amp;top_left_y=542&amp;top_left_x=1326)
+
+Puc. 4. рически полный диф ференциал $d f\left(x_{0}, y_{0}\right)$ есть приращение аппликаты касательной плоскости к поверхности $z=f(x, y)$ в точке $\left(x_{0}, y_{0}, z_{0}\right)$, где $z_{0}=f\left(x_{0}, y_{0}\right)$ (см. рис. 4).
+
+Полны е диффер е ци а лы в ыс ші и п о р я д к о в, подобно случаю функций одного переменного, вводятся по индукции равенством
+
+\[
+d^{n} z=d\left(d^{n-1} z\right)
+\]
+
+в предположении, что дифференциал $d^{n-1} z$ определен в нек-рой окрестности рассматриваемой точки и что приращения аргументов $d x, d y$ берутся одни и те же на всех шагах. Аналогично определяются и повторные дифференциалы.
+
+Производны е и диф ф е ренци алы с ло ж ных фу у н к и й. Пусть $w=f\left(u_{1}, \ldots, u_{m}\right)-$ функция $m$ переменных, дифференцируемая в каждой точке открытой области $D$ m-мерного евклидова пространства $R^{m}$, и пусть $m$ функций $u_{1}=\varphi_{1}\left(x_{1}, \ldots, x_{n}\right)$, $\ldots, u_{m}=\varphi_{m}\left(x_{1}, \ldots, x_{n}\right)$ - от $n$ переменных заданы в открытой области $G$-мерного евклидова пространства $\boldsymbol{R}^{n}$. Пусть, наконец, точка $\left(u_{1}, \ldots, u_{m}\right)$, соответствующая точке $\left(x_{1}, \ldots, x_{n}\right) \in G$, не выходит из области $D$. Тогда справедливы следующие теоремы:
+
+1) Если функции $\varphi_{1}, \ldots, \varphi_{m}$ имеют конечные частные производные по $x_{1}, \ldots, x_{n}$, то сложная функция $w=$ $=f\left(u_{1}, \ldots, u_{m}\right)$ от $x_{1}, \ldots, x_{n}$ также имеет конечные частные производные по $x_{1}, \ldots, x_{n}$ и
+
+\[
+\begin{aligned}
+&amp; \frac{\partial w}{\partial x_{1}}=\frac{\partial f}{\partial u_{1}} \frac{\partial u_{1}}{\partial x_{1}}+\ldots+\frac{\partial f}{\partial u_{n}} \frac{\partial u_{n}}{\partial x_{1}}, \\
+&amp; \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \frac{\partial f}{\partial u_{n}} \frac{\partial u_{n}}{\partial x_{n}} . \\
+&amp; \frac{\partial w}{\partial x_{n}}=\frac{\partial f}{\partial u_{1}} \frac{\partial \ell_{1}}{\partial x_{n}}+\ldots+.
+\end{aligned}
+\]
+
+2) Если функции $\varphi_{1}, \ldots, \varphi_{m}$ дифференцируемы по совокупности переменных $x_{1}, \ldots, x_{n}$ в точке $\left(x_{1}, \ldots, x_{n}\right) \in G$, то и сложная функция $w=f\left(u_{1}, \ldots, u_{m}\right)$ дифференцируема в этой точке и
+
+\[
+d w=\frac{\partial f}{\partial u_{1}} d u_{1}+\frac{\partial f}{\partial u_{2}} d u_{2}+\ldots+\frac{\partial f}{\partial u_{n}} d u_{n}
+\]
+где $d u_{1}, \ldots, d u_{m}-$ диффференциалы функций $u_{1}, \ldots$,
+$u_{m}$. Таким образом, свойство инвариантности первого дифференциала имеет место и для функций нескольких переменных. Для диффференциалов второго и высших порядков это свойство, вообще говоря, нарушается.
+
+Д. и. применяется к изучению свойств функций многих переменных: к отысканию экстремумов, к исследованию функций, задаваемых одним или несколькими неявными уравнениями, к теории поверхностей и т. д. Одним из главных инструментов при этом является Тейлора бормула.
+
+Понятия производной и диффференциала и их простейшие свойства, связанные с арифметич. действиями над функциями и суперпозицией функций, включая свойство инвариантности первого дифференциала, почти без изменений распространяются на комплексные функции одного или нескольких действительных переменных, на действительные и комплексные векторфункции одного или нескольких действительных переменных, на комплексные функции и вектор-функции одного или нескольких комплексных переменных. В функциональном анализе понятия производной и дифференциала распространяются на функции точки абстрактного пространства.
+
+गит.: И с то р и я д и фф ф е р е н ци а л ь ного и и нтег р а льного исчи сле ни я-[1] История матема-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=35&amp;width=831&amp;top_left_y=903&amp;top_left_x=120)
+т. $1-2$, М., $1960-63$; [3] В и л е й т н е р Г., История математики
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=40&amp;width=828&amp;top_left_y=940&amp;top_left_x=122)
+от декарта до середины XIX столетия, пер. с нем., 2 изд., М.,
+$1966 ;[4]$ С т р о й к Д. Я., Краткий курс истории математики, пер. с нем., 2 изд., М., 1969; [5] Б у р б а к и Н., Очерки по истории математики, пер. с франц., М., 1963; [6] C a n t o r M., Vorlesungen über Geschichte der Mathematik, 2 Aufl., Bd $1-4$, Lpz., 1900-08.
+
+Р а боты основоположниковиклассиков
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=35&amp;width=829&amp;top_left_y=1114&amp;top_left_x=124)
+ч и с л е н и я - [7] Н ь ю т о н и., Математические работы, пер. с латин., М.- Л., 1937; [8] Л е й 6 н и ц Г., Избранные отрывки из математических сочинений, пер. с латин., &quot;Успехи матем. наук», 1948 , т. 3, в. 1; [9] Л'О п и т а л ь Г. Ф. де, Анализ бесконечно малых, пер. с фрранц., М.- Л., 1935; [10] Э йл е р Л., Введение в анализ бесконечных, пер. с латин., 2 изд., т. 1, М., 1961; [11] е г о же, Дифференциальное исчисление, т. 1, М., 1961; [11] е г о же, Дифференциальное исчисление,
+пер. с латин., М. -Ј., $1949 ;$ [12] К о ш и О. Л., Краткое изложение уроков о дифференциальном и интегральном исчислении, пер. с франц., СПБ, 1831; [13] е г о ж е, Алгебраический анализ, пер. с франц., Лейпциг, 1864.
+
+Уче бники й уче бные пособия по ди фф е-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9d213eee0879b0078855g-1.jpg?height=39&amp;width=833&amp;top_left_y=1402&amp;top_left_x=122)
+н и ю - [14] г у р с а э., Курс математического анализа, пер. с франц., 3 изд., т. 1, М.-Л., 1936; [15] Л а В а л л П у с с е н III. Ж. де, Курс анализа бесконечно малых, пер. с франц., т. 1, Ј.-М., $1933 ;[16]$ К у р а н т Р., Курс диф̆ ференциального и интегрального исчисления, пер. с нем. и англ., 4 изд., т. 1, М., 1967; [17] Р у д и н Р., Основы математического анализа, пер. с англ., М., 1966; [18] И л в и н В. А., П о зн я к Э. Г., Основы математического анализа, т. 1, 3 изд., М., 1971 ; т. 2, 1973 ; [19] К у д р я в ц е в Л. Д. Математический анализ, 2 изд., М., $1973 ;[20] \mathrm{H}$ и к о л ь с к й й. М., Курс маанализ, 2 изд., М., $1973 ;[20]$ Н и к о л ь с к и и С. М., Курс ма-
+тематического анализа, 2 изд., М., 1975; [21] Т о л с т о в Г. П., тематического анализа, 2 изд., м., 1975; $[21]$ т о л с т о в Г. П.
+Элементы математического анализа, т. $1-2,2$ изд., М., $1974 ;[22]$ Элементы математического анализа, т. $1-2,2$ изд., М., 1974; 122$]$
+С м и р н о в В. И., Курс высшей математики, 22 изд., т. 1, М., С м и р н о в В. И., Курс высшей математики, 22 изд., т. 1, М.,
+$1967 ;[23]$ Ф х т е н г о л ь ц $Г$. М., Курс дифференциального и интегрального исчисления, 7 изд., М., 1969; [24] Х и н ч и н
+
+А. Я., Восемь лекций по математическому анализу, 3 изд.,
+М. - Л., 1948 .
+Г. Полстов. М. Л. Ј̈., 1948 .</text_orig>
+</article>

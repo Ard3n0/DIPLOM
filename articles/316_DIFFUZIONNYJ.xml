@@ -1,0 +1,292 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/316_DIFFUZIONNYJ" alphabetic_pos="316">
+  <title>ДИФФУЗИОННЫЙ ПРОЦЕСС</title>
+  <authors/>
+  <pages>
+    <start>182</start>
+    <end>183</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г и х м а н И. И., С к ор о х о д А. В., Введение в теорию случайных процессов, М., 1965; [2] и х же , Стохастические дифференциальные уравнения, К., 1968.</literature_orig>
+    <unit>
+      <author>Гихман И. И.</author>
+      <author>Скороход А. В.</author>
+      <title>Введение в теорию случайных процессов</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>и х же, Стохастические дифференциальные уравнения, К.</title>
+      <publication/>
+      <year>1968</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/316_1_DIFFUZIONNYJ">\left.\begin{array}{c}\int_{|y-x|&gt;\varepsilon} p(t, x, t+\Delta t, y) d y=o(\Delta t), \\\int_{|y-x| \leqslant \varepsilon}(y-x) p(t, x, t+\Delta t, y) d y= \\=a(t, x)+o(\Delta t), \\\int_{|y-x| \leqslant \varepsilon}(y-x)^{2} p(t, x, t+\Delta t, y) d y= \\=\sigma^{2}(t, x)+o(\Delta t)\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/316_2_DIFFUZIONNYJ">\begin{gathered}\frac{\partial}{\partial s} p(s, x, t, y)=-a(s, x) \frac{\partial}{\partial x} p(s, x, t, y)- \\-\frac{1}{2} \sigma^{2}(s, x) \frac{\partial^{2}}{\partial x^{2}} p(s, x, t, y),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/316_3_DIFFUZIONNYJ">\begin{gathered}\frac{\partial}{\partial t} p(s, x, t, y)=-\frac{\partial}{\partial y}[a(t, y) p(s, x, t, y)]+ \\+\frac{1}{2} \frac{\partial^{2}}{\partial y^{2}}\left[\sigma^{2}(t, y) p(s, x, t, y)\right],\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/316_4_DIFFUZIONNYJ">d X(t)=a(t, X(t)) d t+\sigma(t, X(t)) d Y(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/316_5_DIFFUZIONNYJ">\begin{gathered}\int_{|y-x|&gt;\varepsilon} p(t, x, t+\Delta t, y) d y=o(\Delta t), \\\int_{|y-x| \leqslant \varepsilon}\left(y_{k}-x_{k}\right) p(t, x, t+\Delta t, y) d y= \\=a_{k}(t, x) \Delta t+o(\Delta t), \\\int_{|y-x| \leqslant \varepsilon}\left(y_{k}-x_{k}\right)\left(y_{j}-x_{j}\right) p(t, x, t+\Delta t, y) d y= \\=2 b_{k j}(t, x) \Delta t+o(\Delta t), \\k, j=1, \ldots, n, \quad x=\left(x_{1}, \ldots, x_{n}\right), y=\left(y_{1}, \ldots, y_{n}\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/316_6_DIFFUZIONNYJ">\begin{gathered}\frac{\partial p}{\partial s}=-\sum_{k=1}^{n} a_{k}(s, x) \frac{\partial p}{\partial x_{k}}-\sum_{k, j=1}^{n} b_{k j}(s, x) \frac{\partial^{2} p}{\partial x_{k} \partial x_{j}}, \\\frac{\partial p}{\partial t}=-\sum_{k=1}^{n} \frac{\partial}{\partial y_{k}}\left[a_{k}(t, y) p\right]+ \\+\sum_{k, j=1}^{n} \frac{\partial^{2}}{\partial y_{k} \partial y_{j}}\left[b_{k j}(t, y) p\right] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/316_7_DIFFUZIONNYJ">d X_{k}(t)=a_{k}(t, X(t)) d t+\sum_{j=1}^{n} \sigma_{k j}(t, X(t)) d Y_{j}(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/316_8_DIFFUZIONNYJ">\sigma_{j}=\left\{\sigma_{1 j}(t, x), \ldots, \sigma_{n j}(t, x)\right\}, \quad j=1, \ldots, n,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_1_DIFFUZIONNYJ">x=x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_2_DIFFUZIONNYJ">p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_3_DIFFUZIONNYJ">a(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_4_DIFFUZIONNYJ">\sigma^{2}(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_5_DIFFUZIONNYJ">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_6_DIFFUZIONNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_7_DIFFUZIONNYJ">t_{0} \leqslant t \leqslant t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_8_DIFFUZIONNYJ">\left.x,-\infty&lt;x&lt;\infty\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_9_DIFFUZIONNYJ">p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_10_DIFFUZIONNYJ">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_11_DIFFUZIONNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_12_DIFFUZIONNYJ">\frac{\partial}{\partial x} p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_13_DIFFUZIONNYJ">\frac{\partial^{2}}{\partial x^{2}} p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_14_DIFFUZIONNYJ">a(t, x)=a(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_15_DIFFUZIONNYJ">\sigma^{2}(t, x)=\sigma^{2}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_16_DIFFUZIONNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_17_DIFFUZIONNYJ">p(s, x, t, y)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_18_DIFFUZIONNYJ">=p(t-s, x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_19_DIFFUZIONNYJ">\frac{\partial}{\partial t} p(t, x, y)=a(x) \frac{\partial}{\partial x} p(t, x, y)+\frac{1}{2} \sigma^{2}(x) \frac{\partial^{2}}{\partial x^{2}} p(t, x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_20_DIFFUZIONNYJ">p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_21_DIFFUZIONNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_22_DIFFUZIONNYJ">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_23_DIFFUZIONNYJ">\frac{\partial}{\partial t} p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_24_DIFFUZIONNYJ">\frac{\partial}{\partial y}[a(t, y) p(s, x, t, y)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_25_DIFFUZIONNYJ">\frac{\partial^{2}}{\partial y^{2}}\left[\sigma^{2}(t, y) p(s, x, t, y)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_26_DIFFUZIONNYJ">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_27_DIFFUZIONNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_28_DIFFUZIONNYJ">\mathbf{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_29_DIFFUZIONNYJ">x(t)=x\left(t_{0}\right)+\int_{t_{0}}^{t} a(s, X(s)) d s+\int_{t_{0}}^{t} \sigma(s, X(s)) d Y(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_30_DIFFUZIONNYJ">y(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_31_DIFFUZIONNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_32_DIFFUZIONNYJ">y(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_33_DIFFUZIONNYJ">x(t)=x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_34_DIFFUZIONNYJ">\delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_35_DIFFUZIONNYJ">\delta X(t)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_36_DIFFUZIONNYJ">=x(t+\delta t)-X(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_37_DIFFUZIONNYJ">\delta X(t) \sim a(t, x) \Delta t+\sigma(t, x) \Delta Y(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_38_DIFFUZIONNYJ">\mathbf{e}\{\delta X(t)-(a(t, x) \Delta t+\sigma(t, x) \Delta Y(t)) \mid X(t)=x\}=o(\Delta t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_39_DIFFUZIONNYJ">\mathrm{e}\left\{\delta X(t)-(a(t, x) \Delta t+\sigma(t, x) \Delta Y(t))^{2} \mid X(t)=x\right\}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_40_DIFFUZIONNYJ">=o(\delta t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_41_DIFFUZIONNYJ">o(\delta t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_42_DIFFUZIONNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_43_DIFFUZIONNYJ">x(t)=\left\{x_{1}(t), \ldots, X_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_44_DIFFUZIONNYJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_45_DIFFUZIONNYJ">e^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_46_DIFFUZIONNYJ">p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_47_DIFFUZIONNYJ">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_48_DIFFUZIONNYJ">a=\left\{a_{1}(t, x), \ldots, a_{n}(t, x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_49_DIFFUZIONNYJ">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_50_DIFFUZIONNYJ">\sigma^{2}=\left\|2 b_{k j}(t, x)\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_51_DIFFUZIONNYJ">k, i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_52_DIFFUZIONNYJ">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_53_DIFFUZIONNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_54_DIFFUZIONNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_55_DIFFUZIONNYJ">t+\delta t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_56_DIFFUZIONNYJ">p(s, x, t, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_57_DIFFUZIONNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_58_DIFFUZIONNYJ">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_59_DIFFUZIONNYJ">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_60_DIFFUZIONNYJ">y_{1}(t), \ldots, Y_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/316_61_DIFFUZIONNYJ">\sigma^{2}=\left\|2 b_{k j}(t, x)\right\|</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/316_1_DIFFUZIONNYJ">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/316_2_DIFFUZIONNYJ">
+      <rel_text>собственные векторы</rel_text>
+      <target>http://libmeta.ru/me/article/45_SOBSTVENNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/316_3_DIFFUZIONNYJ">
+      <rel_text>движения</rel_text>
+      <target>http://libmeta.ru/me/article/25_DVIZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/316_4_DIFFUZIONNYJ">
+      <rel_text>независимые процессы</rel_text>
+      <target>http://libmeta.ru/me/article/14_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/316_5_DIFFUZIONNYJ">
+      <rel_text>ур авненй</rel_text>
+      <target>http://libmeta.ru/me/article/602_UR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/316_6_DIFFUZIONNYJ">
+      <rel_text>Многомерный</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+  </relations>
+  <text>непрерывный марковский прочесс $URI[[http://libmeta.ru/me/formula/aux/316_1_DIFFUZIONNYJ]]/URI$ с переходной плотностью $URI[[http://libmeta.ru/me/formula/aux/316_2_DIFFUZIONNYJ]]/URI$, удовлетворяющей следующим условиям: существуют функции $URI[[http://libmeta.ru/me/formula/aux/316_3_DIFFUZIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/316_4_DIFFUZIONNYJ]]/URI$, называемые соответственно к о фф и ц и е т т м и с н с а д и фф у з и и, такие, что для любого $URI[[http://libmeta.ru/me/formula/aux/316_5_DIFFUZIONNYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_1_DIFFUZIONNYJ]]/URI
+\]
+
+(причем обычно предполагается, что эти предельные соотношения выполняются равномерно по $URI[[http://libmeta.ru/me/formula/aux/316_6_DIFFUZIONNYJ]]/URI$ в каждом конечном интервале $URI[[http://libmeta.ru/me/formula/aux/316_7_DIFFUZIONNYJ]]/URI$ и по $URI[[http://libmeta.ru/me/formula/aux/316_8_DIFFUZIONNYJ]]/URI$. Важнейшим представителем этого класса процессов является процесс броуновского движения, впервые рассмотренный как математич. модель процессов дифффузии (отсюда и название «д. П.»).
+
+Если переходная плотность $URI[[http://libmeta.ru/me/formula/aux/316_9_DIFFUZIONNYJ]]/URI$ непрерывна по $URI[[http://libmeta.ru/me/formula/aux/316_10_DIFFUZIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/316_11_DIFFUZIONNYJ]]/URI$ вместе со своими производными $URI[[http://libmeta.ru/me/formula/aux/316_12_DIFFUZIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/316_13_DIFFUZIONNYJ]]/URI$, то она является фундаментальным решением дифференциального уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_2_DIFFUZIONNYJ]]/URI
+\]
+
+к-роө наз. о б р а т ным у р а в е ни е м К лм о г о р о в а.
+
+В однородном случае, когда коәффициенты сноса $URI[[http://libmeta.ru/me/formula/aux/316_14_DIFFUZIONNYJ]]/URI$ и диффузии $URI[[http://libmeta.ru/me/formula/aux/316_15_DIFFUZIONNYJ]]/URI$ не зависят от времени $URI[[http://libmeta.ru/me/formula/aux/316_16_DIFFUZIONNYJ]]/URI$, обратное уравнение Колмогорова для соответствующей переходной плотности $URI[[http://libmeta.ru/me/formula/aux/316_17_DIFFUZIONNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/316_18_DIFFUZIONNYJ]]/URI$ имеет вид:
+
+$URI[[http://libmeta.ru/me/formula/aux/316_19_DIFFUZIONNYJ]]/URI$.
+
+Если переходная плотность $URI[[http://libmeta.ru/me/formula/aux/316_20_DIFFUZIONNYJ]]/URI$ имеет непрерывную по $URI[[http://libmeta.ru/me/formula/aux/316_21_DIFFUZIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/316_22_DIFFUZIONNYJ]]/URI$ производную $URI[[http://libmeta.ru/me/formula/aux/316_23_DIFFUZIONNYJ]]/URI$ такую, что функции $URI[[http://libmeta.ru/me/formula/aux/316_24_DIFFUZIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/316_25_DIFFUZIONNYJ]]/URI$ непрерывны по $URI[[http://libmeta.ru/me/formula/aux/316_26_DIFFUZIONNYJ]]/URI$, то она является фундаментальным решением диффференциального уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_3_DIFFUZIONNYJ]]/URI
+\]
+
+к-рое наз. у р а в н е н и е м Ф о к к е р а - п л а нк а, или пр ямым ур а вне ни ем К о лмог о р о в а. Диффференциальные уравнения (2) и (3) для плотности вероятности являются основой аналитич. методов изучения Д. П. Существует и другой, чисто «вероятностный», подход к Д. п., основанный на представлении процесса $URI[[http://libmeta.ru/me/formula/aux/316_27_DIFFUZIONNYJ]]/URI$ как решения с т о х а с т ич е с когодифф е р е нци а льного ур а вне ни я Ит $URI[[http://libmeta.ru/me/formula/aux/316_28_DIFFUZIONNYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_4_DIFFUZIONNYJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/316_29_DIFFUZIONNYJ]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/316_30_DIFFUZIONNYJ]]/URI$ - стандартный процесс броуновского движения. Грубо говоря, при таком подходе считают $URI[[http://libmeta.ru/me/formula/aux/316_31_DIFFUZIONNYJ]]/URI$ связанным с нек-рым процессом броуновского движения $URI[[http://libmeta.ru/me/formula/aux/316_32_DIFFUZIONNYJ]]/URI$ таким образом, что при условии $URI[[http://libmeta.ru/me/formula/aux/316_33_DIFFUZIONNYJ]]/URI$ за последующее время $URI[[http://libmeta.ru/me/formula/aux/316_34_DIFFUZIONNYJ]]/URI$ приращение $URI[[http://libmeta.ru/me/formula/aux/316_35_DIFFUZIONNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/316_36_DIFFUZIONNYJ]]/URI$ есть
+
+$URI[[http://libmeta.ru/me/formula/aux/316_37_DIFFUZIONNYJ]]/URI$.
+
+Если понимать это асимптотич. соотношение в том смысле, что
+
+$URI[[http://libmeta.ru/me/formula/aux/316_38_DIFFUZIONNYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/316_39_DIFFUZIONNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/316_40_DIFFUZIONNYJ]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/316_41_DIFFUZIONNYJ]]/URI$ - величины того же типа, что и в равенствах (1), то рассматриваемый процесс $URI[[http://libmeta.ru/me/formula/aux/316_42_DIFFUZIONNYJ]]/URI$ будет диффузионным и в смысле этого определения.
+
+М н о г о м е р н ы м Д. п. обычно наз. непрерывный марковский процесс $URI[[http://libmeta.ru/me/formula/aux/316_43_DIFFUZIONNYJ]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/316_44_DIFFUZIONNYJ]]/URI$-мерном векторном пространстве $URI[[http://libmeta.ru/me/formula/aux/316_45_DIFFUZIONNYJ]]/URI$, переходная плотность $URI[[http://libmeta.ru/me/formula/aux/316_46_DIFFUZIONNYJ]]/URI$ к-рого удовлетворяет следующим условиям: для любого $URI[[http://libmeta.ru/me/formula/aux/316_47_DIFFUZIONNYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_5_DIFFUZIONNYJ]]/URI
+\]
+
+Вектор $URI[[http://libmeta.ru/me/formula/aux/316_48_DIFFUZIONNYJ]]/URI$ характеризует локальный снос процесса $URI[[http://libmeta.ru/me/formula/aux/316_49_DIFFUZIONNYJ]]/URI$, матрица $URI[[http://libmeta.ru/me/formula/aux/316_50_DIFFUZIONNYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/316_51_DIFFUZIONNYJ]]/URI$, характеризует среднеквадратичное отклонение случайного процесса $URI[[http://libmeta.ru/me/formula/aux/316_52_DIFFUZIONNYJ]]/URI$ от исходного положения $URI[[http://libmeta.ru/me/formula/aux/316_53_DIFFUZIONNYJ]]/URI$ за малый промежуток времени от $URI[[http://libmeta.ru/me/formula/aux/316_54_DIFFUZIONNYJ]]/URI$ до $URI[[http://libmeta.ru/me/formula/aux/316_55_DIFFUZIONNYJ]]/URI$.
+
+При нек-рых дополнительных ограничениях переходная плотность $URI[[http://libmeta.ru/me/formula/aux/316_56_DIFFUZIONNYJ]]/URI$ многомерного Д. П. удовлетворяет обратному и прямому дифференциальным уравнениям Колмогорова:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_6_DIFFUZIONNYJ]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/316_6_DIFFUZIONNYJ]]/URI Д. п. $URI[[http://libmeta.ru/me/formula/aux/316_57_DIFFUZIONNYJ]]/URI$ может быть описан также при помощи с тох а с ти ч е с к и $URI[[http://libmeta.ru/me/formula/aux/316_58_DIFFUZIONNYJ]]/URI$ д иф фф е $URI[[http://libmeta.ru/me/formula/aux/316_59_DIFFUZIONNYJ]]/URI$ е нци а льных URI[[http://libmeta.ru/me/relation/316_5_DIFFUZIONNYJ]]/URI й Ито:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_7_DIFFUZIONNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/316_60_DIFFUZIONNYJ]]/URI$ - взаимно URI[[http://libmeta.ru/me/relation/316_4_DIFFUZIONNYJ]]/URI броуновского URI[[http://libmeta.ru/me/relation/316_3_DIFFUZIONNYJ]]/URI, а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/316_8_DIFFUZIONNYJ]]/URI
+\]
+
+суть URI[[http://libmeta.ru/me/relation/316_2_DIFFUZIONNYJ]]/URI URI[[http://libmeta.ru/me/relation/316_1_DIFFUZIONNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/316_61_DIFFUZIONNYJ]]/URI$.</text>
+  <text_orig>непрерывный марковский прочесс $X=X(t)$ с переходной плотностью $p(s, x, t, y)$, удовлетворяющей следующим условиям: существуют функции $a(t, x)$ и $\sigma^{2}(t, x)$, называемые соответственно к о фф и ц и е т т м и с н с а д и фф у з и и, такие, что для любого $\varepsilon&gt;0$
+
+\[
+\left.\begin{array}{c}
+\int_{|y-x|&gt;\varepsilon} p(t, x, t+\Delta t, y) d y=o(\Delta t), \\
+\int_{|y-x| \leqslant \varepsilon}(y-x) p(t, x, t+\Delta t, y) d y= \\
+=a(t, x)+o(\Delta t), \\
+\int_{|y-x| \leqslant \varepsilon}(y-x)^{2} p(t, x, t+\Delta t, y) d y= \\
+=\sigma^{2}(t, x)+o(\Delta t)
+\end{array}\right\}
+\]
+
+(причем обычно предполагается, что эти предельные соотношения выполняются равномерно по $t$ в каждом конечном интервале $t_{0} \leqslant t \leqslant t_{1}$ и по $\left.x,-\infty&lt;x&lt;\infty\right)$. Важнейшим представителем этого класса процессов является процесс броуновского движения, впервые рассмотренный как математич. модель процессов дифффузии (отсюда и название «Д. П.»).
+
+Если переходная плотность $p(s, x, t, y)$ непрерывна по $s$ и $x$ вместе со своими производными $\frac{\partial}{\partial x} p(s, x, t, y)$ и $\frac{\partial^{2}}{\partial x^{2}} p(s, x, t, y)$, то она является фундаментальным решением дифференциального уравнения
+
+\[
+\begin{gathered}
+\frac{\partial}{\partial s} p(s, x, t, y)=-a(s, x) \frac{\partial}{\partial x} p(s, x, t, y)- \\
+-\frac{1}{2} \sigma^{2}(s, x) \frac{\partial^{2}}{\partial x^{2}} p(s, x, t, y),
+\end{gathered}
+\]
+
+к-роө наз. о б р а т ным у р а в е ни е м К лм о г о р о в а.
+
+В однородном случае, когда коәффициенты сноса $a(t, x)=a(x)$ и диффузии $\sigma^{2}(t, x)=\sigma^{2}(x)$ не зависят от времени $t$, обратное уравнение Колмогорова для соответствующей переходной плотности $p(s, x, t, y)=$ $=p(t-s, x, y)$ имеет вид:
+
+$\frac{\partial}{\partial t} p(t, x, y)=a(x) \frac{\partial}{\partial x} p(t, x, y)+\frac{1}{2} \sigma^{2}(x) \frac{\partial^{2}}{\partial x^{2}} p(t, x, y)$.
+
+Если переходная плотность $p(s, x, t, y)$ имеет непрерывную по $t$ и $y$ производную $\frac{\partial}{\partial t} p(s, x, t, y)$ такую, что функции $\frac{\partial}{\partial y}[a(t, y) p(s, x, t, y)]$ и $\frac{\partial^{2}}{\partial y^{2}}\left[\sigma^{2}(t, y) p(s, x, t, y)\right]$ непрерывны по $y$, то она является фундаментальным решением диффференциального уравнения
+
+\[
+\begin{gathered}
+\frac{\partial}{\partial t} p(s, x, t, y)=-\frac{\partial}{\partial y}[a(t, y) p(s, x, t, y)]+ \\
++\frac{1}{2} \frac{\partial^{2}}{\partial y^{2}}\left[\sigma^{2}(t, y) p(s, x, t, y)\right],
+\end{gathered}
+\]
+
+к-рое наз. у р а в н е н и е м Ф о к к е р а - п л а нк а, или пр ямым ур а вне ни ем К о лмог о р о в а. Диффференциальные уравнения (2) и (3) для плотности вероятности являются основой аналитич. методов изучения Д. П. Существует и другой, чисто «вероятностный», подход к Д. п., основанный на представлении процесса $X(t)$ как решения с т о х а с т ич е с когодифф е р е нци а льного ур а вне ни я Ит $\mathbf{0}$
+
+\[
+d X(t)=a(t, X(t)) d t+\sigma(t, X(t)) d Y(t),
+\]
+
+$X(t)=X\left(t_{0}\right)+\int_{t_{0}}^{t} a(s, X(s)) d s+\int_{t_{0}}^{t} \sigma(s, X(s)) d Y(s)$,
+
+где $Y(t)$ - стандартный процесс броуновского движения. Грубо говоря, при таком подходе считают $X(t)$ связанным с нек-рым процессом броуновского движения $Y(t)$ таким образом, что при условии $X(t)=x$ за последующее время $\Delta t$ приращение $\Delta X(t)=$ $=X(t+\Delta t)-X(t)$ есть
+
+$\Delta X(t) \sim a(t, x) \Delta t+\sigma(t, x) \Delta Y(t)$.
+
+Если понимать это асимптотич. соотношение в том смысле, что
+
+$\mathbf{E}\{\Delta X(t)-(a(t, x) \Delta t+\sigma(t, x) \Delta Y(t)) \mid X(t)=x\}=o(\Delta t)$, $\mathrm{E}\left\{\Delta X(t)-(a(t, x) \Delta t+\sigma(t, x) \Delta Y(t))^{2} \mid X(t)=x\right\}=$ $=o(\Delta t)$,
+
+где $o(\Delta t)$ - величины того же типа, что и в равенствах (1), то рассматриваемый процесс $X(t)$ будет диффузионным и в смысле этого определения.
+
+М н о г о м е р н ы м Д. п. обычно наз. непрерывный марковский процесс $X(t)=\left\{X_{1}(t), \ldots, X_{n}(t)\right\}$ в $n$-мерном векторном пространстве $E^{n}$, переходная плотность $p(s, x, t, y)$ к-рого удовлетворяет следующим условиям: для любого $\varepsilon&gt;0$
+
+\[
+\begin{gathered}
+\int_{|y-x|&gt;\varepsilon} p(t, x, t+\Delta t, y) d y=o(\Delta t), \\
+\int_{|y-x| \leqslant \varepsilon}\left(y_{k}-x_{k}\right) p(t, x, t+\Delta t, y) d y= \\
+=a_{k}(t, x) \Delta t+o(\Delta t), \\
+\int_{|y-x| \leqslant \varepsilon}\left(y_{k}-x_{k}\right)\left(y_{j}-x_{j}\right) p(t, x, t+\Delta t, y) d y= \\
+=2 b_{k j}(t, x) \Delta t+o(\Delta t), \\
+k, j=1, \ldots, n, \quad x=\left(x_{1}, \ldots, x_{n}\right), y=\left(y_{1}, \ldots, y_{n}\right) .
+\end{gathered}
+\]
+
+Вектор $a=\left\{a_{1}(t, x), \ldots, a_{n}(t, x)\right\}$ характеризует локальный снос процесса $\xi(t)$, матрица $\sigma^{2}=\left\|2 b_{k j}(t, x)\right\|$, $k, i=1, \ldots, n$, характеризует среднеквадратичное отклонение случайного процесса $\xi(t)$ от исходного положения $x$ за малый промежуток времени от $t$ до $t+\Delta t$.
+
+При нек-рых дополнительных ограничениях переходная плотность $p(s, x, t, y)$ многомерного Д. П. удовлетворяет обратному и прямому дифференциальным уравнениям Колмогорова:
+
+\[
+\begin{gathered}
+\frac{\partial p}{\partial s}=-\sum_{k=1}^{n} a_{k}(s, x) \frac{\partial p}{\partial x_{k}}-\sum_{k, j=1}^{n} b_{k j}(s, x) \frac{\partial^{2} p}{\partial x_{k} \partial x_{j}}, \\
+\frac{\partial p}{\partial t}=-\sum_{k=1}^{n} \frac{\partial}{\partial y_{k}}\left[a_{k}(t, y) p\right]+ \\
++\sum_{k, j=1}^{n} \frac{\partial^{2}}{\partial y_{k} \partial y_{j}}\left[b_{k j}(t, y) p\right] .
+\end{gathered}
+\]
+
+Многомерный Д. п. $X(t)$ может быть описан также при помощи с тох а с ти ч е с к и $\mathbf{x}$ д иф фф е $\mathrm{p}$ е нци а льных ур авненй й Ито:
+
+\[
+d X_{k}(t)=a_{k}(t, X(t)) d t+\sum_{j=1}^{n} \sigma_{k j}(t, X(t)) d Y_{j}(t),
+\]
+
+где $Y_{1}(t), \ldots, Y_{n}(t)$ - взаимно независимые процессы броуновского движения, а
+
+\[
+\sigma_{j}=\left\{\sigma_{1 j}(t, x), \ldots, \sigma_{n j}(t, x)\right\}, \quad j=1, \ldots, n,
+\]
+
+суть собственные векторы матрицы $\sigma^{2}=\left\|2 b_{k j}(t, x)\right\|$.
+
+Лит.: [1] Г и х м а н И. И., С к ор о х о д А. В., Введение в теорию случайных процессов, М., 1965; [2] и х же , Стохастические дифференциальные уравнения, К., 1968.</text_orig>
+</article>

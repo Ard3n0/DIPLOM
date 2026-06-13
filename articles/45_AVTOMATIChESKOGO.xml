@@ -1,0 +1,780 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/45_AVTOMATIChESKOGO" alphabetic_pos="45">
+  <title>АВТОМАТИЧЕСКОГО УПРАВЛЕНИЯ ТЕОРИЯ</title>
+  <authors>
+    <author>А. М. Iпетов</author>
+  </authors>
+  <pages>
+    <start>31</start>
+    <end>34</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М а к с в е л л Д. К., В ыш н е г р а д с к и й И. А., С т о д о ла А., Теория автоматического регулирования, М., 1949; [2] ч е т а е в Н. Г., Устойчивость движения, 3 изд., М., $1965 ;[3]$ К р ас о в с к и й Н. Н., Теория управ-ления движением, М., 1968; [4] П о н т р я г и н Л. С. [и др.] Математическая теория оптимальных прогессов, 2 изд., М., 1969 ; [5] Техническая кибернетика, кн. 1-2, М., 1967; [6] Б а рб а ш и Е. А., Введение в теорию устойчивости, М., 1967; [7] 3 у б о в В. И., Математические методы исследования систем автоматического регулирования, Л., 1959; [8] П уг а-ч е в В. С., Теория случайных функций и ее применение к задачам автоматического управления, 3 изд., М., 1962; [9] Ц ыпк ин Я. З., Основы теории обучающихся систем, М., 1970 ; [10] К р а с о в с к и и Н. Н., Некоторые задачи теории устойп о п о в E. П., теория систем автоматического регулирования, М., 1966; [12] Теория систем с переменной структурой, под ред. С. В. Емепьянова, М., 1970; [13] Л е т о в А. М.,«дифференц. уравнения», 1970 , т. 6 , № 4, с. $592-615 ;[14]$ е г о же, Динамика полета и управление, М., 1969; [15] M а лк ин И. Г., Теория устойчивости движения, 2 изд., М., 1965 ,(дополнение 4 ).</literature_orig>
+    <unit>
+      <author>Максвелл Д. К.</author>
+      <author>Вышнеградский И. А.</author>
+      <author>Стодола А.</author>
+      <title>Теория автоматического регулирования</title>
+      <publication>М.</publication>
+      <year>1949</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>четаев Н. Г.</author>
+      <title>Устойчивость движения</title>
+      <publication>3 изд., М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$Красовский Н. Н.</author>
+      <title>Теория управ-ления движением</title>
+      <publication>М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>П о н т р я г и н Л. С. [и др.] Математическая теория оптимальных прогессов</title>
+      <publication>2 изд., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Техническая кибернетика, кн. 1-2</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Барбаши Е. А.</author>
+      <title>Введение в теорию устойчивости</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>3убов В. И.</author>
+      <title>Математические методы исследования систем автоматического регулирования</title>
+      <publication>Л.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Пуга-чев В. С.</author>
+      <title>Теория случайных функций и ее применение к задачам автоматического управления</title>
+      <publication>3 изд., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Цыпкин Я. З.</author>
+      <title>Основы теории обучающихся систем</title>
+      <publication>М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Красовскии Н. Н.</author>
+      <author>Некоторыезадачитеорииустойпопов E. П.</author>
+      <title>теория систем автоматического регулирования</title>
+      <publication>М.</publication>
+      <year>1966</year>
+      <other>под ред. С. В. Емепьянова, М., 1970; [13] Л е т о в А. М., «дифференц. уравнения», 1970, т. 6, № 4, с. $592-615 ;[14]$ е г о же, Динамика полета и управление, М., 1969; [15] M а лк ин И. Г., Теория устойчивости движения, 2 изд., М., 1965, (дополнение 4 ).</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/45_1_AVTOMATIChESKOGO">\dot{x}=f(x, u, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_2_AVTOMATIChESKOGO">N(x, u, t) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_3_AVTOMATIChESKOGO">\dot{x}=A x+B u</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_4_AVTOMATIChESKOGO">Q=\left\|B, A B, A^{2} B, \ldots, A^{n-1} B\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_5_AVTOMATIChESKOGO">Q=\left\|L_{1}(t), L_{2}(t), \ldots, L_{n}(t)\right\|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_6_AVTOMATIChESKOGO">(i, f)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_7_AVTOMATIChESKOGO">\Delta G=\left.G(x, t)\right|_{i} ^{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_8_AVTOMATIChESKOGO">H(\psi, x, u, t)=\psi \cdot f(x, u, t) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_9_AVTOMATIChESKOGO">\dot{x}=\frac{\partial H}{\partial \psi}, \quad \dot{\psi}=-\frac{\partial H}{\partial x} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_10_AVTOMATIChESKOGO">\left[\delta G-H \delta t+\sum \psi_{\alpha} \delta x_{\alpha}\right]_{i}^{f}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_11_AVTOMATIChESKOGO">H\left(\psi^{0}, x^{0}, u^{0}\right)=C</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_12_AVTOMATIChESKOGO">\dot{y}=A y+B \xi+\varphi(y, \xi, t)+t^{0}(t) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_13_AVTOMATIChESKOGO">\xi=\xi\left(y_{1}, \ldots, y_{\boldsymbol{r}}, t, p\right), r \leqslant n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_14_AVTOMATIChESKOGO">\begin{gathered}\dot{y}=A y+B \xi\left(y_{1}, \ldots, y_{r}, t, p\right)+ \\+\varphi\left(y, \xi\left(y_{1}, \ldots, y_{r}, t, p\right), t\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_15_AVTOMATIChESKOGO">\xi=\left\|\begin{array}{ccc}p_{11} &amp; \cdots &amp; p_{1 r} \\\cdots &amp; \cdots &amp; \cdots \\p_{r 1} &amp; \cdots &amp; p_{r r}\end{array}\right\|\left\|\begin{array}{l}y_{1} \\\cdot \\\cdot \\\dot{y}_{r}\end{array}\right\| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_16_AVTOMATIChESKOGO">A=\left\|\begin{array}{rrrr}0 &amp; m &amp; 0 &amp; 0 \\-m &amp; 0 &amp; 0 &amp; n \\0 &amp; 0 &amp; 0 &amp; k \\0 &amp; -n &amp; k &amp; 0\end{array}\right\|, \quad B=\left\|\begin{array}{ll}0 &amp; 0 \\1 &amp; 0 \\0 &amp; 0 \\0 &amp; 1\end{array}\right\|, \quad u=\left\|\begin{array}{l}u_{2} \\u_{4}\end{array}\right\|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_17_AVTOMATIChESKOGO">\left|u_{2}\right| \leqslant \bar{u}_{2}, \quad\left|u_{4}\right| \leqslant \bar{u}_{4} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_18_AVTOMATIChESKOGO">\dot{y}=\varphi(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_19_AVTOMATIChESKOGO">\left\|y\left(t_{1}, y_{0}\right)\right\|=\varepsilon,\left\|y\left(t, y_{0}\right)\right\|&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_20_AVTOMATIChESKOGO">t^{*}=\sup _{y_{0}} t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_21_AVTOMATIChESKOGO">t^{*}-t_{i} \leqslant T</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_22_AVTOMATIChESKOGO">J=\int_{0}^{\infty} w(y, \xi, t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_23_AVTOMATIChESKOGO">\frac{\partial v^{0}}{\partial t}+\frac{\partial v^{0}}{\partial y}\left(A y+B \xi^{0}+\varphi\left(y, \xi^{0}, t\right)\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_24_AVTOMATIChESKOGO">\frac{\partial v^{0}}{\partial t}+\frac{\partial v^{0}}{\partial y}(A y+B \xi+\varphi(y, \xi, t)) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/45_25_AVTOMATIChESKOGO">v^{0}\left(t_{0}, y_{0}\right)=\min _{\xi} \int_{0}^{\infty} w(y, \xi, t) d t</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_1_AVTOMATIChESKOGO">x\left\{x_{1}, \ldots, x_{n}\right\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_2_AVTOMATIChESKOGO">u\left\{u_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_3_AVTOMATIChESKOGO">\left.\ldots, u_{r}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_4_AVTOMATIChESKOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_5_AVTOMATIChESKOGO">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_6_AVTOMATIChESKOGO">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_7_AVTOMATIChESKOGO">u(t) \in U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_8_AVTOMATIChESKOGO">n(x, u, t) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_9_AVTOMATIChESKOGO">f(x, u, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_10_AVTOMATIChESKOGO">\mathscr{v}=\left[t_{i}, t_{f}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_11_AVTOMATIChESKOGO">\left[t_{i}, t_{f}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_12_AVTOMATIChESKOGO">\left.t_{f}=\infty\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_13_AVTOMATIChESKOGO">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_14_AVTOMATIChESKOGO">n \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_15_AVTOMATIChESKOGO">f(x, u, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_16_AVTOMATIChESKOGO">t \in \mathscr{\%}, x_{0} \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_17_AVTOMATIChESKOGO">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_18_AVTOMATIChESKOGO">f(x, u, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_19_AVTOMATIChESKOGO">x_{i}=x\left(t_{i}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_20_AVTOMATIChESKOGO">\mathrm{a} x_{f}=x\left(t_{f}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_21_AVTOMATIChESKOGO">x_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_22_AVTOMATIChESKOGO">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_23_AVTOMATIChESKOGO">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_24_AVTOMATIChESKOGO">x_{i}, x_{f} \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_25_AVTOMATIChESKOGO">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_26_AVTOMATIChESKOGO">\mathscr{\sigma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_27_AVTOMATIChESKOGO">a, B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_28_AVTOMATIChESKOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_29_AVTOMATIChESKOGO">a, B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_30_AVTOMATIChESKOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_31_AVTOMATIChESKOGO">l_{1}(t)=b(t), L_{k}(t)=A(t) L_{k-1}-\frac{d L_{k-1}}{d t}, k=2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_32_AVTOMATIChESKOGO">t^{*} \in \mathscr{V}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_33_AVTOMATIChESKOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_34_AVTOMATIChESKOGO">x_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_35_AVTOMATIChESKOGO">x_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_36_AVTOMATIChESKOGO">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_37_AVTOMATIChESKOGO">g(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_38_AVTOMATIChESKOGO">\psi\left\{\psi_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_39_AVTOMATIChESKOGO">\left.\psi_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_40_AVTOMATIChESKOGO">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_41_AVTOMATIChESKOGO">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_42_AVTOMATIChESKOGO">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_43_AVTOMATIChESKOGO">\psi\left(t_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_44_AVTOMATIChESKOGO">t \in \mathscr{V}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_45_AVTOMATIChESKOGO">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_46_AVTOMATIChESKOGO">t \in \mathscr{V}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_47_AVTOMATIChESKOGO">x^{0}, u^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_48_AVTOMATIChESKOGO">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_49_AVTOMATIChESKOGO">h(\psi, x, u, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_50_AVTOMATIChESKOGO">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_51_AVTOMATIChESKOGO">x^{0}\left(t, x_{i}, x_{f}\right), u^{0}\left(t, x_{i}, x_{f}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_52_AVTOMATIChESKOGO">h\left(\psi^{0}, x^{0}, u^{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_53_AVTOMATIChESKOGO">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_54_AVTOMATIChESKOGO">u^{0}, x^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_55_AVTOMATIChESKOGO">u^{0}, x^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_56_AVTOMATIChESKOGO">u^{0}, x^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_57_AVTOMATIChESKOGO">(i, f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_58_AVTOMATIChESKOGO">y-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_59_AVTOMATIChESKOGO">\xi-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_60_AVTOMATIChESKOGO">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_61_AVTOMATIChESKOGO">a, B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_62_AVTOMATIChESKOGO">x^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_63_AVTOMATIChESKOGO">u^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_64_AVTOMATIChESKOGO">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_65_AVTOMATIChESKOGO">f(x, u, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_66_AVTOMATIChESKOGO">f^{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_67_AVTOMATIChESKOGO">\|y\| \leqslant \bar{H}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_68_AVTOMATIChESKOGO">\bar{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_69_AVTOMATIChESKOGO">\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_70_AVTOMATIChESKOGO">y_{1}, \ldots, y_{r}, r \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_71_AVTOMATIChESKOGO">t \in \mathscr{V}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_72_AVTOMATIChESKOGO">\boldsymbol{p}\left(y_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_73_AVTOMATIChESKOGO">\left.y_{r}\right), r \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_74_AVTOMATIChESKOGO">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_75_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_76_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_77_AVTOMATIChESKOGO">y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_78_AVTOMATIChESKOGO">y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_79_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_80_AVTOMATIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_81_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_82_AVTOMATIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_83_AVTOMATIChESKOGO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_84_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_85_AVTOMATIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_86_AVTOMATIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_87_AVTOMATIChESKOGO">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_88_AVTOMATIChESKOGO">p \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_89_AVTOMATIChESKOGO">y\left(t_{i}\right)=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_90_AVTOMATIChESKOGO">y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_91_AVTOMATIChESKOGO">y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_92_AVTOMATIChESKOGO">p \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_93_AVTOMATIChESKOGO">y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_94_AVTOMATIChESKOGO">v \geqslant 0, \dot{v} \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_95_AVTOMATIChESKOGO">y\left(t, y_{0}, p\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_96_AVTOMATIChESKOGO">t^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_97_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_98_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_99_AVTOMATIChESKOGO">y\left(t, y_{0}, p\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_100_AVTOMATIChESKOGO">f^{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_101_AVTOMATIChESKOGO">a, B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_102_AVTOMATIChESKOGO">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_103_AVTOMATIChESKOGO">\boldsymbol{p}\left(y_{1}, \ldots, y_{r}\right), r \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_104_AVTOMATIChESKOGO">\boldsymbol{\xi}\left(y_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_105_AVTOMATIChESKOGO">\left.\ldots, y_{r}, t\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_106_AVTOMATIChESKOGO">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_107_AVTOMATIChESKOGO">\boldsymbol{p}\left(y_{1}, \ldots, y_{r}\right), r \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_108_AVTOMATIChESKOGO">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_109_AVTOMATIChESKOGO">p\left(y_{\alpha_{1}}, \ldots, y_{\alpha_{r}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_110_AVTOMATIChESKOGO">m, n, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_111_AVTOMATIChESKOGO">u_{2}, u_{4}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_112_AVTOMATIChESKOGO">\boldsymbol{p}\left(z_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_113_AVTOMATIChESKOGO">\boldsymbol{p}\left(z_{4}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_114_AVTOMATIChESKOGO">y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_115_AVTOMATIChESKOGO">v(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_116_AVTOMATIChESKOGO">w(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_117_AVTOMATIChESKOGO">w(y)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_118_AVTOMATIChESKOGO">y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_119_AVTOMATIChESKOGO">г К</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_120_AVTOMATIChESKOGO">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_121_AVTOMATIChESKOGO">\left\|y_{0}\right\|=r, y_{0}=y_{i},\left\|y\left(t_{1}\right)\right\|=\varepsilon, R \gg \varepsilon-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_122_AVTOMATIChESKOGO">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_123_AVTOMATIChESKOGO">\dot{y}=a y+B \xi\left(y_{1}, \ldots, y_{r}, t\right)+\varphi\left(y, \xi\left(y_{1}, \ldots, y_{r}, t\right), t\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_124_AVTOMATIChESKOGO">y\left(t, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_125_AVTOMATIChESKOGO">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_126_AVTOMATIChESKOGO">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_127_AVTOMATIChESKOGO">y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_128_AVTOMATIChESKOGO">t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_129_AVTOMATIChESKOGO">t&gt;t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_130_AVTOMATIChESKOGO">t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_131_AVTOMATIChESKOGO">t^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_132_AVTOMATIChESKOGO">t^{*}-t_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_133_AVTOMATIChESKOGO">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_134_AVTOMATIChESKOGO">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_135_AVTOMATIChESKOGO">t_{1} \leqslant t^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_136_AVTOMATIChESKOGO">t&gt;t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_137_AVTOMATIChESKOGO">t^{*}=t^{*}(r, \varepsilon, \xi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_138_AVTOMATIChESKOGO">t-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_139_AVTOMATIChESKOGO">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_140_AVTOMATIChESKOGO">m_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_141_AVTOMATIChESKOGO">m_{2}, \ldots, M_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_142_AVTOMATIChESKOGO">k-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_143_AVTOMATIChESKOGO">\gamma К</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_144_AVTOMATIChESKOGO">\gamma K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_145_AVTOMATIChESKOGO">m_{1}, \ldots, M_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_146_AVTOMATIChESKOGO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_147_AVTOMATIChESKOGO">r=n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_148_AVTOMATIChESKOGO">w(y, \xi, t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_149_AVTOMATIChESKOGO">y, \xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_150_AVTOMATIChESKOGO">\xi(y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_151_AVTOMATIChESKOGO">\boldsymbol{p}(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_152_AVTOMATIChESKOGO">\boldsymbol{\xi}=\boldsymbol{\xi}(y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_153_AVTOMATIChESKOGO">v^{0}(y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_154_AVTOMATIChESKOGO">\xi^{0}(y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_155_AVTOMATIChESKOGO">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_156_AVTOMATIChESKOGO">\xi^{0}(y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_157_AVTOMATIChESKOGO">v^{0}(y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_158_AVTOMATIChESKOGO">v(y(\infty), \infty)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_159_AVTOMATIChESKOGO">w, \varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_160_AVTOMATIChESKOGO">y, \xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_161_AVTOMATIChESKOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/45_162_AVTOMATIChESKOGO">w</formula>
+  </formulas_aux>
+  <relations n="16">
+    <relation uri="http://libmeta.ru/me/relation/45_1_AVTOMATIChESKOGO">
+      <rel_text>Устойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/631_UsTOJChIVOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_2_AVTOMATIChESKOGO">
+      <rel_text>условия полной</rel_text>
+      <target>http://libmeta.ru/me/article/620_USLOVNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_3_AVTOMATIChESKOGO">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_4_AVTOMATIChESKOGO">
+      <rel_text>квадратичных</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_5_AVTOMATIChESKOGO">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_6_AVTOMATIChESKOGO">
+      <rel_text>уравнении</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_7_AVTOMATIChESKOGO">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_8_AVTOMATIChESKOGO">
+      <rel_text>функциями</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_9_AVTOMATIChESKOGO">
+      <rel_text>непрерывными</rel_text>
+      <target>http://libmeta.ru/me/article/957_NEPRERYVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_10_AVTOMATIChESKOGO">
+      <rel_text>сходящиеся</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_11_AVTOMATIChESKOGO">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_12_AVTOMATIChESKOGO">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_13_AVTOMATIChESKOGO">
+      <rel_text>Методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_14_AVTOMATIChESKOGO">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_15_AVTOMATIChESKOGO">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/45_16_AVTOMATIChESKOGO">
+      <rel_text>Функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>наука о методах определения законов управ.тения к.-л. объектами, допускающих реализацию с помощью технич. средств автоматики. Исторически сложілось так, что методы А. у. т. получили свое первое развитие прігменительно к процессам, встречающимся главным образом в технике (см. [1]). Напр., летящий самолет представляет собой объект, законы управления к-рым гарантируют его полет по требуемой траекторіи. Они реализуются с помощью совокупности измерите.іьных приборов, преобразующих и исполнительных устройств, называемой автопилотом. Три причины лежат в основе этого развития: многие объекты управления были идентифицированы классиками науки (идентифицировать объект управления - значит написать его математич. модель, т. е. соотношения (1), (2), см. ниже); еще задолго до развития А. у. т., благодаря установлению ряда фундаментальных законов природы, существовал хорошо развитый математич. аппарат діффференциальных уравнений и особенно аппарат теории устойчивости движения (см. [2]); инженеры открыли закон обратной связи (см. ниже) и нашли средства его реализации.
+
+Простейшие объекты управления описываются (векторным) обыкновенным дифференциальным уравнением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_1_AVTOMATIChESKOGO]]/URI
+\]
+
+И неравенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_2_AVTOMATIChESKOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/45_1_AVTOMATIChESKOGO]]/URI$ вектор состоянія объекта, $URI[[http://libmeta.ru/me/formula/aux/45_2_AVTOMATIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/45_3_AVTOMATIChESKOGO]]/URI$ - вектор управления, к-рый можно выбирать, $URI[[http://libmeta.ru/me/formula/aux/45_4_AVTOMATIChESKOGO]]/URI$ - время. Уравнение (1) есть математич. запись законов, к-рым подчинен объект управления; неравенство (2) - область его определения.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/45_5_AVTOMATIChESKOGO]]/URI$ есть к.-л. данный класс функций $URI[[http://libmeta.ru/me/formula/aux/45_6_AVTOMATIChESKOGO]]/URI$ (напр., кусочно непрерывных), принимающих численное значение из (2). Любую функцию $URI[[http://libmeta.ru/me/formula/aux/45_7_AVTOMATIChESKOGO]]/URI$ назовем д о іл у cт и мы м у п р а в л е ни е м. Уравнение (1) наз. ма тем а титеской мод елью о б ьекта у п р а в л е ни я, если:
+
+1) указана область $URI[[http://libmeta.ru/me/formula/aux/45_8_AVTOMATIChESKOGO]]/URI$ определения функции $URI[[http://libmeta.ru/me/formula/aux/45_9_AVTOMATIChESKOGO]]/URI$; 2) указан интервал времени $URI[[http://libmeta.ru/me/formula/aux/45_10_AVTOMATIChESKOGO]]/URI$ (или $URI[[http://libmeta.ru/me/formula/aux/45_11_AVTOMATIChESKOGO]]/URI$ ), если $URI[[http://libmeta.ru/me/formula/aux/45_12_AVTOMATIChESKOGO]]/URI$, на к-ром наблюдается движение $URI[[http://libmeta.ru/me/formula/aux/45_13_AVTOMATIChESKOGO]]/URI$;
+
+3) указан класс допустимых управлений;
+
+4) область $URI[[http://libmeta.ru/me/formula/aux/45_14_AVTOMATIChESKOGO]]/URI$ и функция $URI[[http://libmeta.ru/me/formula/aux/45_15_AVTOMATIChESKOGO]]/URI$ таковы, что уравнение (1) имеет единственное решение, определенное при любом $URI[[http://libmeta.ru/me/formula/aux/45_16_AVTOMATIChESKOGO]]/URI$, каково бы ни было допустимое управление $URI[[http://libmeta.ru/me/formula/aux/45_17_AVTOMATIChESKOGO]]/URI$. Далее всюду в (1) $URI[[http://libmeta.ru/me/formula/aux/45_18_AVTOMATIChESKOGO]]/URI$ предполагается гладкой по всем аргументам.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/45_19_AVTOMATIChESKOGO]]/URI$ начальное, $URI[[http://libmeta.ru/me/formula/aux/45_20_AVTOMATIChESKOGO]]/URI$ конечное состояния объекта управления. Состояние $URI[[http://libmeta.ru/me/formula/aux/45_21_AVTOMATIChESKOGO]]/URI$ наз. ц е л ь ю у п р а л л е и я. Существуют две главные задачи А. У. т.: задача программирования - определение управления $URI[[http://libmeta.ru/me/formula/aux/45_22_AVTOMATIChESKOGO]]/URI$, при к-ром гарантируется достижение цели из $URI[[http://libmeta.ru/me/formula/aux/45_23_AVTOMATIChESKOGO]]/URI$; определение закона обратной связи (см. ниже). Обе задачи разрешаются при условии полной управляемости объекта (1).
+
+Объект (1) наз. п о лн о с т ь ю у п р а в ля е мым, если, каковы бы ни были $URI[[http://libmeta.ru/me/formula/aux/45_24_AVTOMATIChESKOGO]]/URI$, найдутся хптя бы одно допустимое управление $URI[[http://libmeta.ru/me/formula/aux/45_25_AVTOMATIChESKOGO]]/URI$ п интервал $URI[[http://libmeta.ru/me/formula/aux/45_26_AVTOMATIChESKOGO]]/URI$, при к-рых цель управления достижима. В противном случае говорят, что объект у п р а в л я е м н е п о лн о с т ь ю. Поэтому возникает задача предварительного исследования: дана математич. модель (1), требуется установить критерий управляемости. В разрешении этой задачи достигнут (к 1977) незначітельный прогресс. В случае, когда уравнение (1) линейно:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_3_AVTOMATIChESKOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/45_27_AVTOMATIChESKOGO]]/URI$ - стационарные матрицы, критерий полной управляемости формулируется так: для того чтобы сістема (3) была полностью управляема, необходімо і достаточно, чтобы ранг матрицы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_4_AVTOMATIChESKOGO]]/URI
+\]
+
+был равен $URI[[http://libmeta.ru/me/formula/aux/45_28_AVTOMATIChESKOGO]]/URI$. Матрица (4) наз. м а т р и ц е й у п р а вл я е м о с т и.
+
+Еслі $URI[[http://libmeta.ru/me/formula/aux/45_29_AVTOMATIChESKOGO]]/URI$ - известные дифференцируемые функции от $URI[[http://libmeta.ru/me/formula/aux/45_30_AVTOMATIChESKOGO]]/URI$, то матрица управляемости определяется так:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_5_AVTOMATIChESKOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/45_31_AVTOMATIChESKOGO]]/URI$. В этом случае имеет место теорема: для того чтобы сістема (3) была полностью управляема, достаточно, чтобы существовала хотя бы одна точка $URI[[http://libmeta.ru/me/formula/aux/45_32_AVTOMATIChESKOGO]]/URI$, в к-рой ранг матрицы (5) равен $URI[[http://libmeta.ru/me/formula/aux/45_33_AVTOMATIChESKOGO]]/URI$ (см. [3]). Для нелинейных систем критерий управляемости пока (к 1977) не найден.
+
+Первая главная задача А. у. т. заключается в выборе допустимого управления, при к-ром гарантируется достижение цели $URI[[http://libmeta.ru/me/formula/aux/45_34_AVTOMATIChESKOGO]]/URI$. Она имеет два способа решения. Первый из них состоит в проявлении воли главного конструктора (гк) объекта (1) - назначение определенного вида движения, при к-ром цель $URI[[http://libmeta.ru/me/formula/aux/45_35_AVTOMATIChESKOGO]]/URI$ достижима, и в подборе соответствующего управления. Такой способ решения задачи программирования применяется в практіке во многих случаях. При другом способе ищется допустимое управление, минимизирующее заданную плату управления. Математич. Формулировка задачи такова. Даны: математич. модель объекта управления (1), (2); граничные условия на вектор $URI[[http://libmeta.ru/me/formula/aux/45_36_AVTOMATIChESKOGO]]/URI$, к-рые символически запишем в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_6_AVTOMATIChESKOGO]]/URI
+\]
+
+гладкая функция $URI[[http://libmeta.ru/me/formula/aux/45_37_AVTOMATIChESKOGO]]/URI$ и плата за принятое управление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_7_AVTOMATIChESKOGO]]/URI
+\]
+
+3 ад а ч а п р огр а м м и р о в а и я: средіп допустимых управлений требуется найти такое, при к-ром условия (6) выполняются, а функционал (7) принимает минимальное значение. Необходимые условия мини- мума этой неклассической вариаціонной задачи доставляются следующей теоремой, носящей название «принцип максимума Л. С. Понтрягина» (см. [4]). Введем в рассмотрение вспомогательный вектор $URI[[http://libmeta.ru/me/formula/aux/45_38_AVTOMATIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/45_39_AVTOMATIChESKOGO]]/URI$ и вспомогательную скалярную функцию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_8_AVTOMATIChESKOGO]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/45_40_AVTOMATIChESKOGO]]/URI$ позволяет записать уравнение (1) и уравнение для вектора $URI[[http://libmeta.ru/me/formula/aux/45_41_AVTOMATIChESKOGO]]/URI$ в следующей форме:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_9_AVTOMATIChESKOGO]]/URI
+\]
+
+Уравнение (9) является линейным и однородным относительно $URI[[http://libmeta.ru/me/formula/aux/45_42_AVTOMATIChESKOGO]]/URI$, имеет единственное непрерывное решение, определенное при любых начальных условиях $URI[[http://libmeta.ru/me/formula/aux/45_43_AVTOMATIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/45_44_AVTOMATIChESKOGO]]/URI$. Вектор $URI[[http://libmeta.ru/me/formula/aux/45_45_AVTOMATIChESKOGO]]/URI$ наз. нулевым, если хотя бы одна из его компонент не обращается тождественно в нуль при $URI[[http://libmeta.ru/me/formula/aux/45_46_AVTOMATIChESKOGO]]/URI$. Справедлива теорема: для того чтобы кривая $URI[[http://libmeta.ru/me/formula/aux/45_47_AVTOMATIChESKOGO]]/URI$ доставляла сильный минимум функционалу (7), необходимо существование ненулевого непрерывного вектора $URI[[http://libmeta.ru/me/formula/aux/45_48_AVTOMATIChESKOGO]]/URI$, определенного уравнением (9), при к-ром функция $URI[[http://libmeta.ru/me/formula/aux/45_49_AVTOMATIChESKOGO]]/URI$ достигает максімума по $URI[[http://libmeta.ru/me/formula/aux/45_50_AVTOMATIChESKOGO]]/URI$ и выполняется условие т р а с в е р а льности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_10_AVTOMATIChESKOGO]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/45_51_AVTOMATIChESKOGO]]/URI$ решенше, отвечающее задаче. Доказано, что в стационарной системе функция $URI[[http://libmeta.ru/me/formula/aux/45_52_AVTOMATIChESKOGO]]/URI$ удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_11_AVTOMATIChESKOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/45_53_AVTOMATIChESKOGO]]/URI$ - постоянная, то есть (10) - ее первый интеграл. Решение $URI[[http://libmeta.ru/me/formula/aux/45_54_AVTOMATIChESKOGO]]/URI$ наз. п р о г р а м м о й у п р а вл е н і я.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/45_55_AVTOMATIChESKOGO]]/URI$ есть к.-л. (необязательно оптимальная) программа управления. Оказывается, что знание лишь одной программы управления недостаточно для достижения цели. Дело в том, что программа $URI[[http://libmeta.ru/me/formula/aux/45_56_AVTOMATIChESKOGO]]/URI$, как правило, неустойчива относительно любых сколь угодно малых изменений в задаче, в частности нашболее важных изменений начальных значений $URI[[http://libmeta.ru/me/formula/aux/45_57_AVTOMATIChESKOGO]]/URI$, или, иными словами, эта задача некорректна. Особенность некорректности, однако, заключается в том, что она может быть псправлена средствами автоматич. стабилизации, основанными только лишь на использовании «принципа обратной связи». В связи с этим возникает другая главная задача управления - задача определения закона обратной связи.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/45_58_AVTOMATIChESKOGO]]/URI$ вектор возмущенного движения системы, а $URI[[http://libmeta.ru/me/formula/aux/45_59_AVTOMATIChESKOGO]]/URI$ вектор, характеризующий дополнітельное отклонение органа управления, предназначенное для гашения возмущенного движения. Для реализации отклонения $URI[[http://libmeta.ru/me/formula/aux/45_60_AVTOMATIChESKOGO]]/URI$ должен быть заранее предусмотрен соответствующий ресурс управления. Возмущенное движение будет описываться уравнением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_12_AVTOMATIChESKOGO]]/URI
+\]
+
+Здесь: $URI[[http://libmeta.ru/me/formula/aux/45_61_AVTOMATIChESKOGO]]/URI$ - известные матрицы, определенные на движении $URI[[http://libmeta.ru/me/formula/aux/45_62_AVTOMATIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/45_63_AVTOMATIChESKOGO]]/URI$, и суть известные функции времени; $URI[[http://libmeta.ru/me/formula/aux/45_64_AVTOMATIChESKOGO]]/URI$ - нелинейные члены разложенія функции $URI[[http://libmeta.ru/me/formula/aux/45_65_AVTOMATIChESKOGO]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/45_66_AVTOMATIChESKOGO]]/URI$ - постоянно действующая возмущающая сила, происходящая либо от того, что программное движение не определено точно, либо от того, что при построении модели (1) не были учтены к.-л. дополнительные силы. Уравнение (11) определено в окрестности $URI[[http://libmeta.ru/me/formula/aux/45_67_AVTOMATIChESKOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/45_68_AVTOMATIChESKOGO]]/URI$, вообще говоря, достаточно малое, а в нек-рых случаях любое конечное положительное число или даже $URI[[http://libmeta.ru/me/formula/aux/45_69_AVTOMATIChESKOGO]]/URI$.
+
+Заметим, что полная управляемость системы (1), вообще говоря, не гарантирует полной управляемости системы (11).
+
+Будем говорить, что объект управления (11) н а б л юд а е м по к о о р д ин а т а м $URI[[http://libmeta.ru/me/formula/aux/45_70_AVTOMATIChESKOGO]]/URI$, если существует набор готовых к действию измерительных приборов, способных непрерывно производить измерения координат в любой момент времени $URI[[http://libmeta.ru/me/formula/aux/45_71_AVTOMATIChESKOGO]]/URI$. Значение этого определения может быть проиллюстрировано примером управления продольным движением самолета. Хотя авиация существует более 50 лет, до сих пор нет прибора, измеряющего возмущение угла атаки крыла самолета или высоту его полета вблизи земли. Совокупность измеряемых координат назовем п о л е м р е г ули и о в ан іл я и обозначим через $URI[[http://libmeta.ru/me/formula/aux/45_72_AVTOMATIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/45_73_AVTOMATIChESKOGO]]/URI$.
+
+Рассмотрим совокупность допустимых управлениї $URI[[http://libmeta.ru/me/formula/aux/45_74_AVTOMATIChESKOGO]]/URI$, определенных над полем $URI[[http://libmeta.ru/me/formula/aux/45_75_AVTOMATIChESKOGO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_13_AVTOMATIChESKOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/45_76_AVTOMATIChESKOGO]]/URI$ - векторный пли матричный параметр. Будем говорить, что управление (12) представляет собой з ак о н о б р а т н о й с в я з и, если операция замыкания [т. е. подстановка (12) в уравненіе (11)] дает систему
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_14_AVTOMATIChESKOGO]]/URI
+\]
+
+невозмущенное двіжение к-рой $URI[[http://libmeta.ru/me/formula/aux/45_77_AVTOMATIChESKOGO]]/URI$ асимптотически устойqиво (см. Аси.иптотически устойчивое рещение). Система (13) наз. а с іi м п т о т ї ч е с к іi у с т о йч и в о й, если ее невозмущенное движение $URI[[http://libmeta.ru/me/formula/aux/45_78_AVTOMATIChESKOGO]]/URI$ асимптотически устойчіво.
+
+Существует два класса задач, к-рые могут быть сформулированы относітельно замкнутой системы (13): класс задач анализа і класс задач синтеза.
+
+Рассмотрим допустимое управление (12), заданное с точностью до выбора параметра $URI[[http://libmeta.ru/me/formula/aux/45_79_AVTOMATIChESKOGO]]/URI$, напр.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_15_AVTOMATIChESKOGO]]/URI
+\]
+
+3 а д а ч a а н а л I 3 a: требуется определить область $URI[[http://libmeta.ru/me/formula/aux/45_80_AVTOMATIChESKOGO]]/URI$ значений параметра $URI[[http://libmeta.ru/me/formula/aux/45_81_AVTOMATIChESKOGO]]/URI$, для к-рых замкнутая система (13) асимптотически устойчива. Построение области $URI[[http://libmeta.ru/me/formula/aux/45_82_AVTOMATIChESKOGO]]/URI$ осуществляется на основании методов, разработанных в теории устойчивости движения (см. URI[[http://libmeta.ru/me/relation/45_1_AVTOMATIChESKOGO]]/URI теория) и нашедших широкое применение в А. У.т. В частности, отметим методы частотного анализа; методы, основанные: на Ляпунова теории устойчивости по первому приближению (теоремы Гурвица, Рауса и др.), на прямом методе Ляпунова построения $URI[[http://libmeta.ru/me/formula/aux/45_83_AVTOMATIChESKOGO]]/URI$-функций, на теории Ляпунова - Пуанкаре построения периодич. решений, на методе гармонич. баланса, методе Б. В. Булгакова, методе А. А. Андронова, теории точечного преобразования поверхностей (см. [5]). Последняя группа методов дает возможность не только строить в пространстве $URI[[http://libmeta.ru/me/formula/aux/45_84_AVTOMATIChESKOGO]]/URI$ области $URI[[http://libmeta.ru/me/formula/aux/45_85_AVTOMATIChESKOGO]]/URI$, но также проанализировать параметры устойчивых периодич. решений уравнения (13), характеризующих автоколебательные движения системы (13). Все эти методы получили широкое применение в практике автоматич. управления, и их изучают в рамках различных специальностей в высшей школе (cm. [5]).
+
+Если $URI[[http://libmeta.ru/me/formula/aux/45_86_AVTOMATIChESKOGO]]/URI$ не пусто, то управление (12) наз. з а к о н о м о б р а т но й с вя 3 ı, или 3 а к оном р е г у лір о в а н и я. Его реализация, осуществленная с помощью совокупности пзмерительных приборов, усилителей, преобразователей и исполнительных устройств, наз. р е г у л я т о р о м.
+
+С задачей анализа тесно связана другая весьма важная для практики 3 а д а ч а о п о с т р о е н и и г р aни I $URI[[http://libmeta.ru/me/formula/aux/45_87_AVTOMATIChESKOGO]]/URI$ бл а с ти п р и т яже ни я (см. [6], [7]). Рассмотрим систему (13), в к-рой $URI[[http://libmeta.ru/me/formula/aux/45_88_AVTOMATIChESKOGO]]/URI$. Множество значений $URI[[http://libmeta.ru/me/formula/aux/45_89_AVTOMATIChESKOGO]]/URI$, содержащее точку $URI[[http://libmeta.ru/me/formula/aux/45_90_AVTOMATIChESKOGO]]/URI$, для к-рых замк- нутая система (13) сохраняет свойство асимптотич. устойчивости, наз. о б ла с т ь ю п р и т я ж е н и я т р и в а льного р еше ния $URI[[http://libmeta.ru/me/formula/aux/45_91_AVTOMATIChESKOGO]]/URI$. Задача состоит в том, чтобы для данной замкнутой системы (13) и точки $URI[[http://libmeta.ru/me/formula/aux/45_92_AVTOMATIChESKOGO]]/URI$ определить границы области притяжения. Современная научная литература не содержит әф্ффективных методов построения границ области притяжения, за исключением редких случаев, в к-рых удается построить неустойчивые периодич. решения замкнутых систем. Однако имеются нек-рые методы, позволяющие построить границы множества значений $URI[[http://libmeta.ru/me/formula/aux/45_93_AVTOMATIChESKOGO]]/URI$, целиком содержащегося в области притяжения. В большинстве случаев эти методы основаны на оценке области фазового пространства, в к-ром Ляпунова бонкция удовлетворяет условию $URI[[http://libmeta.ru/me/formula/aux/45_94_AVTOMATIChESKOGO]]/URI$ (см. [7]).
+
+Любое решение $URI[[http://libmeta.ru/me/formula/aux/45_95_AVTOMATIChESKOGO]]/URI$ замкнутой системы (13) представляет так наз. п е р е х о ны й п р оц е с с. В большинстве случаев практич. значения нельзя ограничиться решением лишь проблемы устойчивости. При разработке проекта предъявляются дополнительные, имеющие важное практич. значение, требования, при к-рых гарантируется наличие у переходного процесса нек-рых новых свойств. Характер требований и перечень свойств существенно связаны с физич. природой объекта управления. В задачах анализа обеспечение этих свойств переходного процесса, напр. заданного времени регулирования $URI[[http://libmeta.ru/me/formula/aux/45_96_AVTOMATIChESKOGO]]/URI$, в ряде случаев может быть достигнуто за счет выбора параметра $URI[[http://libmeta.ru/me/formula/aux/45_97_AVTOMATIChESKOGO]]/URI$. Задача выбора параметра $URI[[http://libmeta.ru/me/formula/aux/45_98_AVTOMATIChESKOGO]]/URI$ носит назв. п р о бл е мы к а ч е с т в а р е г у ли р о в а н и я (см. [5]), и методы решения этой проблемы связаны с тем или иным построением оценок решений $URI[[http://libmeta.ru/me/formula/aux/45_99_AVTOMATIChESKOGO]]/URI$ : либо фактич. интегрированием уравнения (13), либо нахождением оценки этих решений әкспериментально, с помощью аналоговой или цифровой вычислительной машины.
+
+Задачи анализа переходных процессов имеют много иных формулировок во всех случаях, в к-рых $URI[[http://libmeta.ru/me/formula/aux/45_100_AVTOMATIChESKOGO]]/URI$ представляет собой случайную функцию, как, напр., в следящих системах (см. [5], [8]). Другие формулировки связаны с возможностью случайного изменения матриц $URI[[http://libmeta.ru/me/formula/aux/45_101_AVTOMATIChESKOGO]]/URI$ или даже функции $URI[[http://libmeta.ru/me/formula/aux/45_102_AVTOMATIChESKOGO]]/URI$ (см. [5], [8]). В связи с этим развивались методы исследования случайных процессов, методы адаптации и обучения машин (см. [9]). Исследовались также переходные процессы в системах с запаздыванием и системах с распределенными параметрами (см. [10], [11]), в системах с переменной структурой (см. [12]).
+
+3 а д а ч а с и н е з а: дано уравнение (11), поле регулирования $URI[[http://libmeta.ru/me/formula/aux/45_103_AVTOMATIChESKOGO]]/URI$, и множество $URI[[http://libmeta.ru/me/formula/aux/45_104_AVTOMATIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/45_105_AVTOMATIChESKOGO]]/URI$ допустимых управлений; требуется найти все множество $URI[[http://libmeta.ru/me/formula/aux/45_106_AVTOMATIChESKOGO]]/URI$ законов обратной связи (см. [13]). Одной из наиболее важных разновидностей этой задачи является з а д а ч a о с т р укт у р е мини ма лыных п о л е й. Поле $URI[[http://libmeta.ru/me/formula/aux/45_107_AVTOMATIChESKOGO]]/URI$, наз. м и н и м а л ьным п о ле м, если на нем существует хотя бы один закон обратной связи и если размерность поля $URI[[http://libmeta.ru/me/formula/aux/45_108_AVTOMATIChESKOGO]]/URI$ минимальна. Задача состоит в том, чтобы для данного уравнения (11) и множества допустимых управлений определить структуру $URI[[http://libmeta.ru/me/formula/aux/45_109_AVTOMATIChESKOGO]]/URI$ всех его минимальных полеї. Поясним характер задачи на примере:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_16_AVTOMATIChESKOGO]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/45_110_AVTOMATIChESKOGO]]/URI$ - заданные числа. Допустимые управления множество кусочно непрерывных функций $URI[[http://libmeta.ru/me/formula/aux/45_111_AVTOMATIChESKOGO]]/URI$, принимающих свои значения из области
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_17_AVTOMATIChESKOGO]]/URI
+\] Минимальными полями в задаче являются либо поле $URI[[http://libmeta.ru/me/formula/aux/45_112_AVTOMATIChESKOGO]]/URI$, либо поле $URI[[http://libmeta.ru/me/formula/aux/45_113_AVTOMATIChESKOGO]]/URI$. Размерность каждого поля равна единице и понизить ее нельзя (см. [13]).
+
+Пока известен (1977) лишь один метод синтеза законов обратной связи, основанный на использовании функций Ляпунова (см. [13]). При этом существенную роль играет т е о рем а Б а р б а ш н а - K р aс о в с к о г о (см. [6], [10], [15]): для того чтобы невозмущенное движение $URI[[http://libmeta.ru/me/formula/aux/45_114_AVTOMATIChESKOGO]]/URI$ замкнутой системы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_18_AVTOMATIChESKOGO]]/URI
+\]
+
+было аспмптотическі устойчиво, достаточно существования знакоопределенной положительной функции $URI[[http://libmeta.ru/me/formula/aux/45_115_AVTOMATIChESKOGO]]/URI$, полная производная к-рой, в силу уравнения (14), есть функция $URI[[http://libmeta.ru/me/formula/aux/45_116_AVTOMATIChESKOGO]]/URI$, знакопостоянная отрицательная, однако такая, что на многообразии $URI[[http://libmeta.ru/me/formula/aux/45_117_AVTOMATIChESKOGO]]/URI$ не лежат целые траектории системы (14), кроме $URI[[http://libmeta.ru/me/formula/aux/45_118_AVTOMATIChESKOGO]]/URI$. Задача выяснения существования і структуры минимальных полей Iиеет важное практич. значение, поскольку эти поля отвечают требованиям $URI[[http://libmeta.ru/me/formula/aux/45_119_AVTOMATIChESKOGO]]/URI$ о минимуме веса, габаритов, сложности, стоимості системы управления и ее максимальной надежності. Особый научный и практич. интерес эта задача приобретает для бесконечномерных систем, встречающихся в технике, биологии, медицине, экономике іл социологии.
+
+К сожалению, при проектировании систем управленшя невозможно ограничиться решением задачи синтеза законов обратной связи. В большинстве случаев требования Гк касаются обеспечения нек-рых важных специфич. свойств переходного процесса в замкнутой системе. Важность этих требований видна на примере регулірования атомного реактора. В случае, если переходный процесс затягивается долее 5 сек или максимальное уклонение к.-л. его координаты превосходит заданное значение, происходіт атомный взрыв. В связи с этим возникают новые задачи синтеза законов регулированшя, определенных на множестве $URI[[http://libmeta.ru/me/formula/aux/45_120_AVTOMATIChESKOGO]]/URI$. Приведем формулировку одной из такіх задач. Рассмотрим две сферы: $URI[[http://libmeta.ru/me/formula/aux/45_121_AVTOMATIChESKOGO]]/URI$ заданные числа. Обратимся к множеству $URI[[http://libmeta.ru/me/formula/aux/45_122_AVTOMATIChESKOGO]]/URI$ всех законов обратной связи. Возьмем любой из ніх и произведем замыкание, получiiм уравнение:
+
+$URI[[http://libmeta.ru/me/formula/aux/45_123_AVTOMATIChESKOGO]]/URI$. (15) Рассмотрим все множество решений $URI[[http://libmeta.ru/me/formula/aux/45_124_AVTOMATIChESKOGO]]/URI$ уравнения (15), начинающихся на сфере $URI[[http://libmeta.ru/me/formula/aux/45_125_AVTOMATIChESKOGO]]/URI$. Будем называть іх $URI[[http://libmeta.ru/me/formula/aux/45_126_AVTOMATIChESKOGO]]/URI$ р е ш е н и я м и. Поскольку система (15) асимптотически устойчива для любого $URI[[http://libmeta.ru/me/formula/aux/45_127_AVTOMATIChESKOGO]]/URI$ на сфере, существует момент времени $URI[[http://libmeta.ru/me/formula/aux/45_128_AVTOMATIChESKOGO]]/URI$, при к-ром соблюдаются условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_19_AVTOMATIChESKOGO]]/URI
+\]
+
+прі любом $URI[[http://libmeta.ru/me/formula/aux/45_129_AVTOMATIChESKOGO]]/URI$.
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_20_AVTOMATIChESKOGO]]/URI
+\]
+
+Из определения $URI[[http://libmeta.ru/me/formula/aux/45_130_AVTOMATIChESKOGO]]/URI$ ясно, что $URI[[http://libmeta.ru/me/formula/aux/45_131_AVTOMATIChESKOGO]]/URI$ существует. Интервал $URI[[http://libmeta.ru/me/formula/aux/45_132_AVTOMATIChESKOGO]]/URI$ наз. в р е мен ем регули р ов а ния (з атухан і я пе р е ходного проц е с с a) в замкнутой системе (15), если любое $URI[[http://libmeta.ru/me/formula/aux/45_133_AVTOMATIChESKOGO]]/URI$-решение выходит на сферу $URI[[http://libmeta.ru/me/formula/aux/45_134_AVTOMATIChESKOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/45_135_AVTOMATIChESKOGO]]/URI$ и остается внутри ее при $URI[[http://libmeta.ru/me/formula/aux/45_136_AVTOMATIChESKOGO]]/URI$. Очевидно, что время регулирования есть функционал вида $URI[[http://libmeta.ru/me/formula/aux/45_137_AVTOMATIChESKOGO]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/45_138_AVTOMATIChESKOGO]]/URI$ заданное число. Возникает 3 а д ач а с ин т е 3 а б ы с т р о д е й с т в ующ и х р е г у л я т о р о в: дано множество $URI[[http://libmeta.ru/me/formula/aux/45_139_AVTOMATIChESKOGO]]/URI$ законов обратной связи, требуется выделить такое его подмножество $URI[[http://libmeta.ru/me/formula/aux/45_140_AVTOMATIChESKOGO]]/URI$, на к-ром время регулирования в замкнутой системе удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_21_AVTOMATIChESKOGO]]/URI
+\]
+
+Аналогично могут быть сформулированы задачи синтеза множеств $URI[[http://libmeta.ru/me/formula/aux/45_141_AVTOMATIChESKOGO]]/URI$ законов обратной связи, при к-рых соблюдаются другие $URI[[http://libmeta.ru/me/formula/aux/45_142_AVTOMATIChESKOGO]]/URI$ требований $URI[[http://libmeta.ru/me/formula/aux/45_143_AVTOMATIChESKOGO]]/URI$. Главная задача синтеза об удовлетворении всех требований $URI[[http://libmeta.ru/me/formula/aux/45_144_AVTOMATIChESKOGO]]/URI$ разрешима, если множества $URI[[http://libmeta.ru/me/formula/aux/45_145_AVTOMATIChESKOGO]]/URI$ имеют непустое пересечение (см. [13]).
+
+Наиболее детально задача синтеза изучена для случая, в к-ром поле $URI[[http://libmeta.ru/me/formula/aux/45_146_AVTOMATIChESKOGO]]/URI$ имеет максимальную размерность $URI[[http://libmeta.ru/me/formula/aux/45_147_AVTOMATIChESKOGO]]/URI$, а показатель качества системы характеризуется функціоналом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_22_AVTOMATIChESKOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/45_148_AVTOMATIChESKOGO]]/URI$ знакоопределенная положительная функция по $URI[[http://libmeta.ru/me/formula/aux/45_149_AVTOMATIChESKOGO]]/URI$. В этом случае задача наз. 3 а д а ч е й
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0a7e2c25b86b50fdacc7g-1.jpg?height=35&amp;width=819&amp;top_left_y=533&amp;top_left_x=990)
+о п т и м а льных р егу ля то ров (см. [14]) и формулируется так. Даны уравнение (11), класс допустимых управлений $URI[[http://libmeta.ru/me/formula/aux/45_150_AVTOMATIChESKOGO]]/URI$, определенных над полем $URI[[http://libmeta.ru/me/formula/aux/45_151_AVTOMATIChESKOGO]]/URI$ максимальной размерности, и функционал (16). Требуется найти управление $URI[[http://libmeta.ru/me/formula/aux/45_152_AVTOMATIChESKOGO]]/URI$, при к-ром функционал (16) достигает минимального значения. Эта задача разрешается теоремой: если уравнение (11) таково, что можно найти знакоопределенную положительную допускающую бесконечно малый высший предел функцию $URI[[http://libmeta.ru/me/formula/aux/45_153_AVTOMATIChESKOGO]]/URI$ и функцию $URI[[http://libmeta.ru/me/formula/aux/45_154_AVTOMATIChESKOGO]]/URI$ такие, что выполняется равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_23_AVTOMATIChESKOGO]]/URI
+\]
+
+Ii справедливо неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_24_AVTOMATIChESKOGO]]/URI
+\]
+
+при любых допустимых $URI[[http://libmeta.ru/me/formula/aux/45_155_AVTOMATIChESKOGO]]/URI$, то функция $URI[[http://libmeta.ru/me/formula/aux/45_156_AVTOMATIChESKOGO]]/URI$ разрешает задачу. Прі этом имеет место равенстио
+
+\[
+URI[[http://libmeta.ru/me/formula/main/45_25_AVTOMATIChESKOGO]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/45_16_AVTOMATIChESKOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/45_157_AVTOMATIChESKOGO]]/URI$ наз. о п т и м а льн о й Ф у н к ц и е й Л я п ун о в а (cм. [15]). Она служит решением URI[[http://libmeta.ru/me/relation/45_15_AVTOMATIChESKOGO]]/URI (17) с URI[[http://libmeta.ru/me/relation/45_14_AVTOMATIChESKOGO]]/URI типа Гамильтонаякоби, удовлетворяющего условию $URI[[http://libmeta.ru/me/formula/aux/45_158_AVTOMATIChESKOGO]]/URI$. URI[[http://libmeta.ru/me/relation/45_13_AVTOMATIChESKOGO]]/URI эффективного решения такой URI[[http://libmeta.ru/me/relation/45_12_AVTOMATIChESKOGO]]/URI разработаны для случая, в к-ром URI[[http://libmeta.ru/me/relation/45_11_AVTOMATIChESKOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/45_159_AVTOMATIChESKOGO]]/URI$ допускают разложение в целые URI[[http://libmeta.ru/me/relation/45_10_AVTOMATIChESKOGO]]/URI ряды по $URI[[http://libmeta.ru/me/formula/aux/45_160_AVTOMATIChESKOGO]]/URI$ с коэффициентами, являющимися URI[[http://libmeta.ru/me/relation/45_9_AVTOMATIChESKOGO]]/URI и ограниченными URI[[http://libmeta.ru/me/relation/45_8_AVTOMATIChESKOGO]]/URI от $URI[[http://libmeta.ru/me/formula/aux/45_161_AVTOMATIChESKOGO]]/URI$. При этом прінципиальное значение имеет разрешимость URI[[http://libmeta.ru/me/relation/45_7_AVTOMATIChESKOGO]]/URI по линейному прио́лижению в URI[[http://libmeta.ru/me/relation/45_6_AVTOMATIChESKOGO]]/URI (11) и оптимизации лишь URI[[http://libmeta.ru/me/relation/45_5_AVTOMATIChESKOGO]]/URI от URI[[http://libmeta.ru/me/relation/45_4_AVTOMATIChESKOGO]]/URI членов, удерживаемых в разложении $URI[[http://libmeta.ru/me/formula/aux/45_162_AVTOMATIChESKOGO]]/URI$. Разрешимость же последней URI[[http://libmeta.ru/me/relation/45_3_AVTOMATIChESKOGO]]/URI гарантируется соблюдением URI[[http://libmeta.ru/me/relation/45_2_AVTOMATIChESKOGO]]/URI управляемости (см. [15]).</text>
+  <text_orig>наука о методах определения законов управ.тения к.-л. объектами, допускающих реализацию с помощью технич. средств автоматики. Исторически сложілось так, что методы А. у. т. получили свое первое развитие прігменительно к процессам, встречающимся главным образом в технике (см. [1]). Напр., летящий самолет представляет собой объект, законы управления к-рым гарантируют его полет по требуемой траекторіи. Они реализуются с помощью совокупности измерите.іьных приборов, преобразующих и исполнительных устройств, называемой автопилотом. Три причины лежат в основе этого развития: многие объекты управления были идентифицированы классиками науки (идентифицировать объект управления - значит написать его математич. модель, т. е. соотношения (1), (2), см. ниже); еще задолго до развития А. у. т., благодаря установлению ряда фундаментальных законов природы, существовал хорошо развитый математич. аппарат діффференциальных уравнений и особенно аппарат теории устойчивости движения (см. [2]); инженеры открыли закон обратной связи (см. ниже) и нашли средства его реализации.
+
+Простейшие объекты управления описываются (векторным) обыкновенным дифференциальным уравнением
+
+\[
+\dot{x}=f(x, u, t)
+\]
+
+И неравенством
+
+\[
+N(x, u, t) \geqslant 0
+\]
+
+где $x\left\{x_{1}, \ldots, x_{n}\right\}-$ вектор состоянія объекта, $u\left\{u_{1}\right.$, $\left.\ldots, u_{r}\right\}$ - вектор управления, к-рый можно выбирать, $t$ - время. Уравнение (1) есть математич. запись законов, к-рым подчинен объект управления; неравенство (2) - область его определения.
+
+Пусть $U$ есть к.-л. данный класс функций $u(t)$ (напр., кусочно непрерывных), принимающих численное значение из (2). Любую функцию $u(t) \in U$ назовем д о іл у cт и мы м у п р а в л е ни е м. Уравнение (1) наз. ма тем а титеской мод елью о б ьекта у п р а в л е ни я, если:
+
+1) указана область $N(x, u, t) \geqslant 0$ определения функции $f(x, u, t)$; 2) указан интервал времени $\mathscr{V}=\left[t_{i}, t_{f}\right]$ (или $\left[t_{i}, t_{f}\right.$ ), если $\left.t_{f}=\infty\right)$, на к-ром наблюдается движение $x(t)$;
+
+3) указан класс допустимых управлений;
+
+4) область $N \geqslant 0$ и функция $f(x, u, t)$ таковы, что уравнение (1) имеет единственное решение, определенное при любом $t \in \mathscr{\%}, x_{0} \in N$, каково бы ни было допустимое управление $u(t)$. Далее всюду в (1) $f(x, u, t)$ предполагается гладкой по всем аргументам.
+
+Пусть $x_{i}=x\left(t_{i}\right)-$ начальное, $\mathrm{a} x_{f}=x\left(t_{f}\right)-$ конечное состояния объекта управления. Состояние $x_{f}$ наз. ц е л ь ю у п р а л л е и я. Существуют две главные задачи А. У. т.: задача программирования - определение управления $u(t)$, при к-ром гарантируется достижение цели из $x_{i}$; определение закона обратной связи (см. ниже). Обе задачи разрешаются при условии полной управляемости объекта (1).
+
+Объект (1) наз. п о лн о с т ь ю у п р а в ля е мым, если, каковы бы ни были $x_{i}, x_{f} \in N$, найдутся хптя бы одно допустимое управление $u(t)$ п интервал $\mathscr{\sigma}$, при к-рых цель управления достижима. В противном случае говорят, что объект у п р а в л я е м н е п о лн о с т ь ю. Поэтому возникает задача предварительного исследования: дана математич. модель (1), требуется установить критерий управляемости. В разрешении этой задачи достигнут (к 1977) незначітельный прогресс. В случае, когда уравнение (1) линейно:
+
+\[
+\dot{x}=A x+B u
+\]
+
+где $A, B$ - стационарные матрицы, критерий полной управляемости формулируется так: для того чтобы сістема (3) была полностью управляема, необходімо і достаточно, чтобы ранг матрицы
+
+\[
+Q=\left\|B, A B, A^{2} B, \ldots, A^{n-1} B\right\|
+\]
+
+был равен $n$. Матрица (4) наз. м а т р и ц е й у п р а вл я е м о с т и.
+
+Еслі $A, B$ - известные дифференцируемые функции от $t$, то матрица управляемости определяется так:
+
+\[
+Q=\left\|L_{1}(t), L_{2}(t), \ldots, L_{n}(t)\right\|,
+\]
+
+где $L_{1}(t)=B(t), L_{k}(t)=A(t) L_{k-1}-\frac{d L_{k-1}}{d t}, k=2, \ldots, n$. В этом случае имеет место теорема: для того чтобы сістема (3) была полностью управляема, достаточно, чтобы существовала хотя бы одна точка $t^{*} \in \mathscr{V}$, в к-рой ранг матрицы (5) равен $n$ (см. [3]). Для нелинейных систем критерий управляемости пока (к 1977) не найден.
+
+Первая главная задача А. у. т. заключается в выборе допустимого управления, при к-ром гарантируется достижение цели $x_{f}$. Она имеет два способа решения. Первый из них состоит в проявлении воли главного конструктора (ГК) объекта (1) - назначение определенного вида движения, при к-ром цель $x_{f}$ достижима, и в подборе соответствующего управления. Такой способ решения задачи программирования применяется в практіке во многих случаях. При другом способе ищется допустимое управление, минимизирующее заданную плату управления. Математич. Формулировка задачи такова. Даны: математич. модель объекта управления (1), (2); граничные условия на вектор $x$, к-рые символически запишем в виде
+
+\[
+(i, f)=0
+\]
+
+гладкая функция $G(x, t)$ и плата за принятое управление
+
+\[
+\Delta G=\left.G(x, t)\right|_{i} ^{f}
+\]
+
+3 ад а ч а п р огр а м м и р о в а и я: средіп допустимых управлений требуется найти такое, при к-ром условия (6) выполняются, а функционал (7) принимает минимальное значение. Необходимые условия мини- мума этой неклассической вариаціонной задачи доставляются следующей теоремой, носящей название «принцип максимума Л. С. Понтрягина» (см. [4]). Введем в рассмотрение вспомогательный вектор $\psi\left\{\psi_{1}, \ldots\right.$, $\left.\psi_{n}\right\}$ и вспомогательную скалярную функцию
+
+\[
+H(\psi, x, u, t)=\psi \cdot f(x, u, t) .
+\]
+
+Функция $H$ позволяет записать уравнение (1) и уравнение для вектора $\psi$ в следующей форме:
+
+\[
+\dot{x}=\frac{\partial H}{\partial \psi}, \quad \dot{\psi}=-\frac{\partial H}{\partial x} .
+\]
+
+Уравнение (9) является линейным и однородным относительно $\psi$, имеет единственное непрерывное решение, определенное при любых начальных условиях $\psi\left(t_{i}\right)$ и $t \in \mathscr{V}$. Вектор $\psi$ наз. нулевым, если хотя бы одна из его компонент не обращается тождественно в нуль при $t \in \mathscr{V}$. Справедлива теорема: для того чтобы кривая $x^{0}, u^{0}$ доставляла сильный минимум функционалу (7), необходимо существование ненулевого непрерывного вектора $\psi$, определенного уравнением (9), при к-ром функция $H(\psi, x, u, t)$ достигает максімума по $u$ и выполняется условие т р а с в е р а льности
+
+\[
+\left[\delta G-H \delta t+\sum \psi_{\alpha} \delta x_{\alpha}\right]_{i}^{f}=0 .
+\]
+
+Пусть $x^{0}\left(t, x_{i}, x_{f}\right), u^{0}\left(t, x_{i}, x_{f}\right)-$ решенше, отвечающее задаче. Доказано, что в стационарной системе функция $H\left(\psi^{0}, x^{0}, u^{0}\right)$ удовлетворяет условию
+
+\[
+H\left(\psi^{0}, x^{0}, u^{0}\right)=C
+\]
+
+где $C$ - постоянная, то есть (10) - ее первый интеграл. Решение $u^{0}, x^{0}$ наз. п р о г р а м м о й у п р а вл е н і я.
+
+Пусть $u^{0}, x^{0}$ есть к.-л. (необязательно оптимальная) программа управления. Оказывается, что знание лишь одной программы управления недостаточно для достижения цели. Дело в том, что программа $u^{0}, x^{0}$, как правило, неустойчива относительно любых сколь угодно малых изменений в задаче, в частности нашболее важных изменений начальных значений $(i, f)$, или, иными словами, эта задача некорректна. Особенность некорректности, однако, заключается в том, что она может быть псправлена средствами автоматич. стабилизации, основанными только лишь на использовании «принципа обратной связи». В связи с этим возникает другая главная задача управления - задача определения закона обратной связи.
+
+Пусть $y-$ вектор возмущенного движения системы, а $\xi-$ вектор, характеризующий дополнітельное отклонение органа управления, предназначенное для гашения возмущенного движения. Для реализации отклонения $\xi$ должен быть заранее предусмотрен соответствующий ресурс управления. Возмущенное движение будет описываться уравнением
+
+\[
+\dot{y}=A y+B \xi+\varphi(y, \xi, t)+t^{0}(t) \text {. }
+\]
+
+Здесь: $A, B$ - известные матрицы, определенные на движении $x^{0}$, $u^{0}$, и суть известные функции времени; $\varphi$ - нелинейные члены разложенія функции $f(x, u, t)$; $f^{0}(t)$ - постоянно действующая возмущающая сила, происходящая либо от того, что программное движение не определено точно, либо от того, что при построении модели (1) не были учтены к.-л. дополнительные силы. Уравнение (11) определено в окрестности $\|y\| \leqslant \bar{H}$, где $\bar{H}$, вообще говоря, достаточно малое, а в нек-рых случаях любое конечное положительное число или даже $\infty$.
+
+Заметим, что полная управляемость системы (1), вообще говоря, не гарантирует полной управляемости системы (11).
+
+Будем говорить, что объект управления (11) н а б л юд а е м по к о о р д ин а т а м $y_{1}, \ldots, y_{r}, r \leqslant n$, если существует набор готовых к действию измерительных приборов, способных непрерывно производить измерения координат в любой момент времени $t \in \mathscr{V}$. Значение этого определения может быть проиллюстрировано примером управления продольным движением самолета. Хотя авиация существует более 50 лет, до сих пор нет прибора, измеряющего возмущение угла атаки крыла самолета или высоту его полета вблизи земли. Совокупность измеряемых координат назовем п о л е м р е г ули и о в ан іл я и обозначим через $\boldsymbol{P}\left(y_{1}, \ldots\right.$, $\left.y_{r}\right), r \leqslant n$.
+
+Рассмотрим совокупность допустимых управлениї $\xi$, определенных над полем $P$ :
+
+\[
+\xi=\xi\left(y_{1}, \ldots, y_{\boldsymbol{r}}, t, p\right), r \leqslant n,
+\]
+
+где $p$ - векторный пли матричный параметр. Будем говорить, что управление (12) представляет собой з ак о н о б р а т н о й с в я з и, если операция замыкания [т. е. подстановка (12) в уравненіе (11)] дает систему
+
+\[
+\begin{gathered}
+\dot{y}=A y+B \xi\left(y_{1}, \ldots, y_{r}, t, p\right)+ \\
++\varphi\left(y, \xi\left(y_{1}, \ldots, y_{r}, t, p\right), t\right),
+\end{gathered}
+\]
+
+невозмущенное двіжение к-рой $y=0$ асимптотически устойqиво (см. Аси.иптотически устойчивое рещение). Система (13) наз. а с іI м п т о т ї ч е с к іI у с т о йч и в о й, если ее невозмущенное движение $y=0$ асимптотически устойчіво.
+
+Существует два класса задач, к-рые могут быть сформулированы относітельно замкнутой системы (13): класс задач анализа і класс задач синтеза.
+
+Рассмотрим допустимое управление (12), заданное с точностью до выбора параметра $p$, напр.
+
+\[
+\xi=\left\|\begin{array}{ccc}
+p_{11} &amp; \cdots &amp; p_{1 r} \\
+\cdots &amp; \cdots &amp; \cdots \\
+p_{r 1} &amp; \cdots &amp; p_{r r}
+\end{array}\right\|\left\|\begin{array}{l}
+y_{1} \\
+\cdot \\
+\cdot \\
+\dot{y}_{r}
+\end{array}\right\| .
+\]
+
+3 а д а ч a а н а л I 3 a: требуется определить область $S$ значений параметра $p$, для к-рых замкнутая система (13) асимптотически устойчива. Построение области $S$ осуществляется на основании методов, разработанных в теории устойчивости движения (см. Устойчивости теория) и нашедших широкое применение в А. У.т. В частности, отметим методы частотного анализа; методы, основанные: на Ляпунова теории устойчивости по первому приближению (теоремы Гурвица, Рауса и др.), на прямом методе Ляпунова построения $v$-функций, на теории Ляпунова - Пуанкаре построения периодич. решений, на методе гармонич. баланса, методе Б. В. Булгакова, методе А. А. Андронова, теории точечного преобразования поверхностей (см. [5]). Последняя группа методов дает возможность не только строить в пространстве $P$ области $S$, но также проанализировать параметры устойчивых периодич. решений уравнения (13), характеризующих автоколебательные движения системы (13). Все эти методы получили широкое применение в практике автоматич. управления, и их изучают в рамках различных специальностей в высшей школе (cm. [5]).
+
+Если $S$ не пусто, то управление (12) наз. з а к о н о м о б р а т но й с вя 3 ı, или 3 а к оном р е г у лір о в а н и я. Его реализация, осуществленная с помощью совокупности пзмерительных приборов, усилителей, преобразователей и исполнительных устройств, наз. р е г у л я т о р о м.
+
+С задачей анализа тесно связана другая весьма важная для практики 3 а д а ч а о п о с т р о е н и и г р aни I $о$ бл а с ти п р и т яже ни я (см. [6], [7]). Рассмотрим систему (13), в к-рой $p \in S$. Множество значений $y\left(t_{i}\right)=y_{0}$, содержащее точку $y=0$, для к-рых замк- нутая система (13) сохраняет свойство асимптотич. устойчивости, наз. о б ла с т ь ю п р и т я ж е н и я т р и в а льного р еше ния $y=0$. Задача состоит в том, чтобы для данной замкнутой системы (13) и точки $p \in S$ определить границы области притяжения. Современная научная литература не содержит әф্ффективных методов построения границ области притяжения, за исключением редких случаев, в к-рых удается построить неустойчивые периодич. решения замкнутых систем. Однако имеются нек-рые методы, позволяющие построить границы множества значений $y_{0}$, целиком содержащегося в области притяжения. В большинстве случаев эти методы основаны на оценке области фазового пространства, в к-ром Ляпунова бонкция удовлетворяет условию $v \geqslant 0, \dot{v} \leqslant 0$ (см. [7]).
+
+Любое решение $y\left(t, y_{0}, p\right)$ замкнутой системы (13) представляет так наз. п е р е х о ны й п р оц е с с. В большинстве случаев практич. значения нельзя ограничиться решением лишь проблемы устойчивости. При разработке проекта предъявляются дополнительные, имеющие важное практич. значение, требования, при к-рых гарантируется наличие у переходного процесса нек-рых новых свойств. Характер требований и перечень свойств существенно связаны с физич. природой объекта управления. В задачах анализа обеспечение этих свойств переходного процесса, напр. заданного времени регулирования $t^{*}$, в ряде случаев может быть достигнуто за счет выбора параметра $p$. Задача выбора параметра $p$ носит назв. п р о бл е мы к а ч е с т в а р е г у ли р о в а н и я (см. [5]), и методы решения этой проблемы связаны с тем или иным построением оценок решений $y\left(t, y_{0}, p\right)$ : либо фактич. интегрированием уравнения (13), либо нахождением оценки этих решений әкспериментально, с помощью аналоговой или цифровой вычислительной машины.
+
+Задачи анализа переходных процессов имеют много иных формулировок во всех случаях, в к-рых $f^{0}(t)$ представляет собой случайную функцию, как, напр., в следящих системах (см. [5], [8]). Другие формулировки связаны с возможностью случайного изменения матриц $A, B$ или даже функции $\varphi$ (см. [5], [8]). В связи с этим развивались методы исследования случайных процессов, методы адаптации и обучения машин (см. [9]). Исследовались также переходные процессы в системах с запаздыванием и системах с распределенными параметрами (см. [10], [11]), в системах с переменной структурой (см. [12]).
+
+3 а д а ч а с и н е з а: дано уравнение (11), поле регулирования $\boldsymbol{P}\left(y_{1}, \ldots, y_{r}\right), r \leqslant n$, и множество $\boldsymbol{\xi}\left(y_{1}\right.$, $\left.\ldots, y_{r}, t\right)$ допустимых управлений; требуется найти все множество $M$ законов обратной связи (см. [13]). Одной из наиболее важных разновидностей этой задачи является з а д а ч a о с т р укт у р е мини ма лыных п о л е й. Поле $\boldsymbol{P}\left(y_{1}, \ldots, y_{r}\right), r \leqslant n$, наз. м и н и м а л ьным п о ле м, если на нем существует хотя бы один закон обратной связи и если размерность поля $r$ минимальна. Задача состоит в том, чтобы для данного уравнения (11) и множества допустимых управлений определить структуру $P\left(y_{\alpha_{1}}, \ldots, y_{\alpha_{r}}\right)$ всех его минимальных полеї. Поясним характер задачи на примере:
+
+\[
+A=\left\|\begin{array}{rrrr}
+0 &amp; m &amp; 0 &amp; 0 \\
+-m &amp; 0 &amp; 0 &amp; n \\
+0 &amp; 0 &amp; 0 &amp; k \\
+0 &amp; -n &amp; k &amp; 0
+\end{array}\right\|, \quad B=\left\|\begin{array}{ll}
+0 &amp; 0 \\
+1 &amp; 0 \\
+0 &amp; 0 \\
+0 &amp; 1
+\end{array}\right\|, \quad u=\left\|\begin{array}{l}
+u_{2} \\
+u_{4}
+\end{array}\right\|,
+\]
+
+$m, n, k$ - заданные числа. Допустимые управления множество кусочно непрерывных функций $u_{2}, u_{4}$, принимающих свои значения из области
+
+\[
+\left|u_{2}\right| \leqslant \bar{u}_{2}, \quad\left|u_{4}\right| \leqslant \bar{u}_{4} \text {. }
+\] Минимальными полями в задаче являются либо поле $\boldsymbol{P}\left(z_{2}\right)$, либо поле $\boldsymbol{P}\left(z_{4}\right)$. Размерность каждого поля равна единице и понизить ее нельзя (см. [13]).
+
+Пока известен (1977) лишь один метод синтеза законов обратной связи, основанный на использовании функций Ляпунова (см. [13]). При этом существенную роль играет т е о рем а Б а р б а ш н а - K р aс о в с к о г о (см. [6], [10], [15]): для того чтобы невозмущенное движение $y=0$ замкнутой системы
+
+\[
+\dot{y}=\varphi(y)
+\]
+
+было аспмптотическі устойчиво, достаточно существования знакоопределенной положительной функции $v(y)$, полная производная к-рой, в силу уравнения (14), есть функция $w(y)$, знакопостоянная отрицательная, однако такая, что на многообразии $w(y)=0$ не лежат целые траектории системы (14), кроме $y=0$. Задача выяснения существования і структуры минимальных полей Iиеет важное практич. значение, поскольку эти поля отвечают требованиям $Г К$ о минимуме веса, габаритов, сложности, стоимості системы управления и ее максимальной надежності. Особый научный и практич. интерес эта задача приобретает для бесконечномерных систем, встречающихся в технике, биологии, медицине, экономике іл социологии.
+
+К сожалению, при проектировании систем управленшя невозможно ограничиться решением задачи синтеза законов обратной связи. В большинстве случаев требования ГК касаются обеспечения нек-рых важных специфич. свойств переходного процесса в замкнутой системе. Важность этих требований видна на примере регулірования атомного реактора. В случае, если переходный процесс затягивается долее 5 сек или максимальное уклонение к.-л. его координаты превосходит заданное значение, происходіт атомный взрыв. В связи с этим возникают новые задачи синтеза законов регулированшя, определенных на множестве $M$. Приведем формулировку одной из такіх задач. Рассмотрим две сферы: $\left\|y_{0}\right\|=R, y_{0}=y_{i},\left\|y\left(t_{1}\right)\right\|=\varepsilon, R \gg \varepsilon-$ заданные числа. Обратимся к множеству $M$ всех законов обратной связи. Возьмем любой из ніх и произведем замыкание, получIIм уравнение:
+
+$\dot{y}=A y+B \xi\left(y_{1}, \ldots, y_{r}, t\right)+\varphi\left(y, \xi\left(y_{1}, \ldots, y_{r}, t\right), t\right)$. (15) Рассмотрим все множество решений $y\left(t, y_{0}\right)$ уравнения (15), начинающихся на сфере $R$. Будем называть іх $R$ р е ш е н и я м и. Поскольку система (15) асимптотически устойчива для любого $y_{0}$ на сфере, существует момент времени $t_{1}$, при к-ром соблюдаются условия
+
+\[
+\left\|y\left(t_{1}, y_{0}\right)\right\|=\varepsilon,\left\|y\left(t, y_{0}\right)\right\|&lt;\varepsilon
+\]
+
+прі любом $t&gt;t_{1}$.
+
+Пусть
+
+\[
+t^{*}=\sup _{y_{0}} t_{1}
+\]
+
+Из определения $t_{1}$ ясно, что $t^{*}$ существует. Интервал $t^{*}-t_{i}$ наз. в р е мен ем регули р ов а ния (з атухан і я пе р е ходного проц е с с a) в замкнутой системе (15), если любое $R$-решение выходит на сферу $\varepsilon$ при $t_{1} \leqslant t^{*}$ и остается внутри ее при $t&gt;t_{1}$. Очевидно, что время регулирования есть функционал вида $t^{*}=t^{*}(R, \varepsilon, \xi)$. Пусть $T-$ заданное число. Возникает 3 а д ач а с ин т е 3 а б ы с т р о д е й с т в ующ и х р е г у л я т о р о в: дано множество $M$ законов обратной связи, требуется выделить такое его подмножество $M_{1}$, на к-ром время регулирования в замкнутой системе удовлетворяет условию
+
+\[
+t^{*}-t_{i} \leqslant T
+\]
+
+Аналогично могут быть сформулированы задачи синтеза множеств $M_{2}, \ldots, M_{k}$ законов обратной связи, при к-рых соблюдаются другие $k-1$ требований $\Gamma К$. Главная задача синтеза об удовлетворении всех требований $\Gamma K$ разрешима, если множества $M_{1}, \ldots, M_{k}$ имеют непустое пересечение (см. [13]).
+
+Наиболее детально задача синтеза изучена для случая, в к-ром поле $P$ имеет максимальную размерность $r=n$, а показатель качества системы характеризуется функціоналом
+
+\[
+J=\int_{0}^{\infty} w(y, \xi, t) d t
+\]
+
+где $w(y, \xi, t)-$ знакоопределенная положительная функция по $y, \xi$. В этом случае задача наз. 3 а д а ч е й
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0a7e2c25b86b50fdacc7g-1.jpg?height=35&amp;width=819&amp;top_left_y=533&amp;top_left_x=990)
+о п т и м а льных р егу ля то ров (см. [14]) и формулируется так. Даны уравнение (11), класс допустимых управлений $\xi(y, t)$, определенных над полем $\boldsymbol{P}(y)$ максимальной размерности, и функционал (16). Требуется найти управление $\boldsymbol{\xi}=\boldsymbol{\xi}(y, t)$, при к-ром функционал (16) достигает минимального значения. Эта задача разрешается теоремой: если уравнение (11) таково, что можно найти знакоопределенную положительную допускающую бесконечно малый высший предел функцию $v^{0}(y, t)$ и функцию $\xi^{0}(y, t)$ такие, что выполняется равенство
+
+\[
+\frac{\partial v^{0}}{\partial t}+\frac{\partial v^{0}}{\partial y}\left(A y+B \xi^{0}+\varphi\left(y, \xi^{0}, t\right)\right)=0
+\]
+
+II справедливо неравенство
+
+\[
+\frac{\partial v^{0}}{\partial t}+\frac{\partial v^{0}}{\partial y}(A y+B \xi+\varphi(y, \xi, t)) \geqslant 0
+\]
+
+при любых допустимых $\xi$, то функция $\xi^{0}(y, t)$ разрешает задачу. Прі этом имеет место равенстио
+
+\[
+v^{0}\left(t_{0}, y_{0}\right)=\min _{\xi} \int_{0}^{\infty} w(y, \xi, t) d t
+\]
+
+Функция $v^{0}(y, t)$ наз. о п т и м а льн о й Ф у н к ц и е й Л я п ун о в а (cм. [15]). Она служит решением уравнения (17) с частными производными типа ГамильтонаЯкоби, удовлетворяющего условию $v(y(\infty), \infty)=0$. Методы эффективного решения такой задачи разработаны для случая, в к-ром функции $w, \varphi$ допускают разложение в целые сходящиеся ряды по $y, \xi$ с коэффициентами, являющимися непрерывными и ограниченными функциями от $t$. При этом прінципиальное значение имеет разрешимость задачи по линейному прио́лижению в уравнении (11) и оптимизации лишь интеграла от квадратичных членов, удерживаемых в разложении $w$. Разрешимость же последней задачи гарантируется соблюдением условия полной управляемости (см. [15]). Лum.: [1] М а к с в е л л Д. К., В ыш н е г р а д с к и й И. А., С т о д о ла А., Теория автоматического регулирования, М., 1949; [2] ч е т а е в Н. Г., Устойчивость движения, 3 изд., М., $1965 ;[3]$ К р ас о в с к и й Н. Н., Теория управ-
+ления движением, М., 1968; [4] П о н т р я г и н Л. С. [и др.] Математическая теория оптимальных прогессов, 2 изд., М., 1969 ; [5] Техническая кибернетика, кн. 1-2, М., 1967; [6] Б а рб а ш и Е. А., Введение в теорию устойчивости, М., 1967; [7] 3 у б о в В. И., Математические методы исследования систем автоматического регулирования, Л., 1959; [8] П уг а-
+ч е в В. С., Теория случайных функций и ее применение к задачам автоматического управления, 3 изд., М., 1962; [9] Ц ыпК ин Я. З., Основы теории обучающихся систем, М., 1970 ; [10] К р а с о в с к и и Н. Н., Некоторые задачи теории устойП о п о в E. П., теория систем автоматического регулирования, М., 1966; [12] Теория систем с переменной структурой, под ред. С. В. Емепьянова, М., 1970; [13] Л е т о в А. М.,
+«Дифференц. уравнения», 1970 , т. 6 , № 4, с. $592-615 ;[14]$ е г о же, Динамика полета и управление, М., 1969; [15] M а лк ин И. Г., Теория устойчивости движения, 2 изд., М., 1965 ,
+(дополнение 4 ).
+А. М. IПетов.</text_orig>
+</article>

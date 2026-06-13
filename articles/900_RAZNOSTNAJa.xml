@@ -1,0 +1,851 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/900_RAZNOSTNAJa" alphabetic_pos="900">
+  <title>РАЗНОСТНАЯ ВАРИАЦИОННАЯ СХЕМА</title>
+  <authors/>
+  <pages>
+    <start>417</start>
+    <end>419</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] О г а н е с ян Л. А., Р и в к ин д В. Я., Р у хов е ц Ј. А., Вариационно-разностные методы решения әллиптиf i X G.. An analysis of the finite element method, Englewood Cliffs, 1973; [3] A u b in J.-P., Approximation of elliptic boциональный анализ и теория аппроксимации в численном анализе, пер. с англ., М., 1974; [5] М и х лин С. Г., &quot;зап. научн. семинаров Ломи», 1974 , т. 48, с. $32-188$; [6] М а р ч у к Г.И., Методы вычислительной математики, 2 изд., М., 1980; [7] Д ь яко н ов Е. Г., Разностные методы решения краевых задач,М., 1971.</literature_orig>
+    <unit>
+      <author>Оганесян Л. А.</author>
+      <author>Ривкинд В. Я.</author>
+      <author>РуховецЈ. А.</author>
+      <title>Вариационно-разностные методы решения әллиптиf i X G.. An analysis of the finite element method, Englewood Cliffs</title>
+      <publication/>
+      <year>1973</year>
+      <other>Approximation of elliptic boциональный анализ и теория аппроксимации в численном анализе, пер. с англ., М., 1974; [5] М и х лин С. Г., &quot;зап. научн. семинаров Ломи», 1974, т. 48, с. $32-188$; [6] М а р ч у к Г.И., Методы вычислительной математики, 2 изд., М., 1980; [7] Д ь яко н ов Е. Г., Разностные методы решения краевых задач, М., 1971.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/900_1_RAZNOSTNAJa">\begin{aligned}-\left(p(x) u^{\prime}(x)\right)^{\prime} &amp; =f(x), \quad 0&lt;x&lt;1, \\u(0) &amp; =u(1)=0,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_2_RAZNOSTNAJa">-\int_{0}^{1}\left(p u^{\prime}\right)^{\prime} \varphi d x=\int_{0}^{1} f \varphi d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_3_RAZNOSTNAJa">L(u, \varphi) \equiv \int_{0}^{1} p u^{\prime} \varphi^{\prime} d x=\int_{0}^{1} f \varphi d x,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_4_RAZNOSTNAJa">\varphi_{i}(x)=\psi\left(h^{-1} x-i\right), \quad i=1,2, \ldots, N-1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_5_RAZNOSTNAJa">\psi(t)=\left\{\begin{array}{ccc}1-|t| &amp; \text { при } &amp; |t| \leqslant 1, \\0 &amp; \text { при } &amp; |t|&gt;1 .\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_6_RAZNOSTNAJa">v=\sum_{i=1}^{N-1} v_{i} \varphi_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_7_RAZNOSTNAJa">v_{i}=v\left(x_{i}\right), \quad i=1, \ldots, N-1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_8_RAZNOSTNAJa">\begin{gathered}L\left(v, \varphi_{i}\right)=\sum_{j=1}^{N-1} v_{j} \int_{0}^{1} p(x) \varphi_{j}^{\prime}(x) \varphi_{i}^{\prime}(x) d x= \\=\int_{0}^{1} f(x) \varphi_{i}(x) d x, \quad i=1, \ldots, N-1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_9_RAZNOSTNAJa">\varphi_{i}^{\prime}(x)=\left\{\begin{aligned}1 / h &amp; \text { при } x_{i-1}&lt;x&lt;x_{i} \\-1 / h &amp; \text { при } x_{i}&lt;x&lt;x_{i+1}\end{aligned}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_10_RAZNOSTNAJa">L\left(\varphi_{j}, \varphi_{i}\right)=\int_{0}^{1} p \varphi_{j}^{\prime} \varphi_{i}^{\prime} d x \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_11_RAZNOSTNAJa">i=1, \ldots, N-1 \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_12_RAZNOSTNAJa">\begin{gathered}\alpha_{i-1 / 2}=h^{-1} \int_{x_{i-1}}^{x_{i}} p(x) d x \\f_{i}=h^{-1} \int_{x_{i-1}}^{x_{i+1}} f(x) \varphi_{i}(x) d x, \quad v_{0}=v_{N}=0 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_13_RAZNOSTNAJa">\left(L_{h} w_{h}, w_{h}\right)=\int_{0}^{1} p\left(w^{\prime}\right)^{2} d x,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_14_RAZNOSTNAJa">w=\sum_{i=1}^{N-1} w_{i} \varphi_{i}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_15_RAZNOSTNAJa">\max _{x} u^{2}(x)=\max \left(\int_{0}^{x} u^{\prime}(t) d t\right)^{2} \leqslant \int_{0}^{1}\left(u^{\prime}\right)^{2} d x,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_16_RAZNOSTNAJa">\begin{gathered}\int_{0}^{1} p(x)\left(w^{\prime}(x)\right)^{2} d x \geqslant p_{0} \max _{x}(w(x))^{2} \geqslant \\\geqslant p_{0} h \sum_{i=1}^{N-1} w_{i}^{2},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_17_RAZNOSTNAJa">\left(L_{h} w_{h}, w_{h}\right) \geqslant p_{0} h\left(w_{h}, w_{h}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_18_RAZNOSTNAJa">\lambda_{\max } \leqslant 4 h^{-1} \max _{x} p(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_19_RAZNOSTNAJa">L(u-v, \varphi)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_20_RAZNOSTNAJa">L(u-v, u-v)=L(u-v, u-w),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_21_RAZNOSTNAJa">[L(\varphi, \psi)]^{2} \leqslant L(\varphi, \varphi) L(\psi, \psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_22_RAZNOSTNAJa">\begin{gathered}L(u-v, u-v)=\int_{0}^{1} p(x)\left(u^{\prime}-v^{\prime}\right)^{2} d x&lt; \\\leqslant \inf _{\omega \in K} \int_{0}^{1} p(x)\left(u^{\prime}-w^{\prime}\right)^{2} d x .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_23_RAZNOSTNAJa">|u|=\left(\int_{0}^{1} p u^{\prime 2} d x\right)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_24_RAZNOSTNAJa">|u-v| \leq \inf _{w \in K}|u-w| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_25_RAZNOSTNAJa">\tilde{w}(x)=\sum_{i=1}^{N-1} u\left(x_{i}\right) \varphi_{i}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_26_RAZNOSTNAJa">|u-v| \leqslant C h^{2} \max p(x) \int_{0}^{1}\left(u^{\prime \prime}\right)^{2} d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_27_RAZNOSTNAJa">\|u\|_{p, l}=\sum_{|\alpha| \leqslant l}\left(\int_{\Omega}\left|D^{\alpha} u\right|^{p} d x_{1} \ldots d x_{n}\right)^{1 / p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_28_RAZNOSTNAJa">h^{-1}(x) \equiv\left(h_{1}^{-1} x_{1}, h_{2}^{-1} x_{2}, \ldots, h_{n}^{-1} x_{n}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_29_RAZNOSTNAJa">\varphi_{i}^{\mu}(x)=\varphi^{\mu}\left(h^{-1} x-\imath\right), \quad i \in I, \mu=1, \ldots, r,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_30_RAZNOSTNAJa">w(x)=\sum_{i \in I} \sum_{\mu=1}^{r} w_{i}^{\mu} \varphi_{i}^{\mu}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_31_RAZNOSTNAJa">\|u-w\|_{p, k} \leqslant C \overline{h^{l}}-k\|u\|_{p, l}, \quad 0 \leqslant k&lt;l,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_32_RAZNOSTNAJa">\begin{aligned}&amp; L(u, \varphi) \equiv \sum_{|\alpha|,|\beta| \leqslant m} \int_{\Omega} a_{\alpha \beta} D^{\alpha} u D^{\beta} \varphi d \Omega+ \\&amp; +\sum_{|\rho|,|\tau|&lt;m} \int_{S} b_{\rho \tau} D^{\rho} u D^{\tau} \varphi d S=\int_{\Omega} f \varphi d \Omega,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_33_RAZNOSTNAJa">a_{\alpha \beta}=a_{\beta \alpha}, b_{\rho \tau}=b_{\tau \rho}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_34_RAZNOSTNAJa">\begin{gathered}\gamma\|u-v\|_{2}^{2}, m \leqslant L(u-v, u-v) \leqslant \\\leqslant \inf _{w \in K} L(u-w, u-w) \leqslant C h^{2}(l-m)\|u\|_{2 l}^{2},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_35_RAZNOSTNAJa">\left.\left(\sum_{|\alpha|&lt;m} b_{\alpha}^{j} D^{\alpha} u\right)\right|_{S}=0,0 \leqslant j \leqslant v, \quad v \leqslant m-1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_36_RAZNOSTNAJa">\int_{\Omega}\left(\frac{\partial u}{\partial x} \frac{\partial \varphi}{\partial x}+\frac{\partial u}{\partial y} \frac{\partial \varphi}{\partial y}\right) d \Omega=\int_{\Omega} f \varphi d \Omega .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_37_RAZNOSTNAJa">\begin{aligned}\int_{\Omega}\left(\frac{\partial v}{\partial x} \frac{\partial \varphi}{\partial x}\right. &amp; \left.+\frac{\partial v}{\partial y} \frac{\partial \varphi}{\partial y}\right) d \Omega+\frac{1}{\varepsilon} \int_{S} v \varphi d S= \\&amp; =\int_{\Omega} f \varphi d \Omega, \quad \varepsilon&gt;0 .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_38_RAZNOSTNAJa">\int_{\Omega} \varphi_{j}^{i} \varphi_{m}^{k} d \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_39_RAZNOSTNAJa">w=\sum_{i=1}^{N} \sum_{j=1}^{v(i)} \lambda_{j}^{i} \varphi_{j}^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_40_RAZNOSTNAJa">\inf _{w \in K}\|u-w\|_{2, m} \leqslant C h^{l-m}\|u\|_{2, l}, \quad m&lt;l,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/900_41_RAZNOSTNAJa">\|u-v\|_{2, m} \leqslant C h^{l-m}\|u\|_{2, l} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_1_RAZNOSTNAJa">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_2_RAZNOSTNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_3_RAZNOSTNAJa">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_4_RAZNOSTNAJa">p(x) \geqslant p_{0}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_5_RAZNOSTNAJa">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_6_RAZNOSTNAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_7_RAZNOSTNAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_8_RAZNOSTNAJa">\varphi(x), \varphi(0)=\varphi(1)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_9_RAZNOSTNAJa">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_10_RAZNOSTNAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_11_RAZNOSTNAJa">x_{i}=i h, i=1, \ldots, N-1, h=N^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_12_RAZNOSTNAJa">\left\{x_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_13_RAZNOSTNAJa">x_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_14_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_15_RAZNOSTNAJa">\varphi_{i}(x) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_16_RAZNOSTNAJa">\left[x_{i-1}, x_{i+1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_17_RAZNOSTNAJa">v_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_18_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_19_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_20_RAZNOSTNAJa">\left[x_{i}, x_{i+1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_21_RAZNOSTNAJa">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_22_RAZNOSTNAJa">x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_23_RAZNOSTNAJa">x=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_24_RAZNOSTNAJa">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_25_RAZNOSTNAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_26_RAZNOSTNAJa">\varphi_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_27_RAZNOSTNAJa">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_28_RAZNOSTNAJa">j=i-1, i, i+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_29_RAZNOSTNAJa">h^{-2}\left[-\alpha_{i-1 / 2} v_{i-1}+\left(\alpha_{i-1 / 2}+\alpha_{i+1 / 2}\right) v_{i}-\alpha_{i+1 / 2} v_{i+1}\right]=f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_30_RAZNOSTNAJa">\alpha_{i-1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_31_RAZNOSTNAJa">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_32_RAZNOSTNAJa">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_33_RAZNOSTNAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_34_RAZNOSTNAJa">l_{h}=\left\{l\left(\varphi_{j}, \varphi_{i}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_35_RAZNOSTNAJa">l\left(\varphi_{j}, \varphi_{i}\right)=L\left(\varphi_{i}, \varphi_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_36_RAZNOSTNAJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_37_RAZNOSTNAJa">w_{h}=\left\{w_{i}\right\}_{i=1}^{n-1}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_38_RAZNOSTNAJa">e_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_39_RAZNOSTNAJa">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_40_RAZNOSTNAJa">e_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_41_RAZNOSTNAJa">u(0)=(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_42_RAZNOSTNAJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_43_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_44_RAZNOSTNAJa">p=\lambda_{\max } / \lambda_{\min }</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_45_RAZNOSTNAJa">\lambda_{\max }</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_46_RAZNOSTNAJa">\lambda_{\min }-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_47_RAZNOSTNAJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_48_RAZNOSTNAJa">\lambda_{\min } \geqslant p_{0} h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_49_RAZNOSTNAJa">p=o\left(h^{-2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_50_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_51_RAZNOSTNAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_52_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_53_RAZNOSTNAJa">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_54_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_55_RAZNOSTNAJa">|u|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_56_RAZNOSTNAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_57_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_58_RAZNOSTNAJa">w(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_59_RAZNOSTNAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_60_RAZNOSTNAJa">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_61_RAZNOSTNAJa">w_{p}^{l}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_62_RAZNOSTNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_63_RAZNOSTNAJa">e_{n}, p \geqslant 1, l-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_64_RAZNOSTNAJa">\alpha=\left(\alpha_{1}, \ldots, \alpha_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_65_RAZNOSTNAJa">|\alpha|=\alpha_{1}+\alpha_{2}+\ldots+\alpha_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_66_RAZNOSTNAJa">\varphi^{1}(\xi), \varphi^{2}(\xi), \ldots, \varphi^{r}(\xi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_67_RAZNOSTNAJa">w_{p}^{k}\left(e_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_68_RAZNOSTNAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_69_RAZNOSTNAJa">\left|\xi_{j}\right|&lt;r, j=1,2, . ., n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_70_RAZNOSTNAJa">h=\left(h_{1}, \ldots, h_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_71_RAZNOSTNAJa">i=\left(i_{1}, \ldots, i_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_72_RAZNOSTNAJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_73_RAZNOSTNAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_74_RAZNOSTNAJa">\left|h_{j}^{-1} x_{j}-i_{j}\right|&lt;R, j=1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_75_RAZNOSTNAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_76_RAZNOSTNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_77_RAZNOSTNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_78_RAZNOSTNAJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_79_RAZNOSTNAJa">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_80_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_81_RAZNOSTNAJa">p_{l-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_82_RAZNOSTNAJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_83_RAZNOSTNAJa">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_84_RAZNOSTNAJa">\varphi^{1}(\xi), \ldots, \varphi^{r}(\xi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_85_RAZNOSTNAJa">u(x) \in W_{p}^{l}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_86_RAZNOSTNAJa">w \in K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_87_RAZNOSTNAJa">\bar{h}=\max _{1 \leqslant j \leqslant n} h_{j}, C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_88_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_89_RAZNOSTNAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_90_RAZNOSTNAJa">u \in W_{2}^{m}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_91_RAZNOSTNAJa">\varphi \in W_{2}^{m}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_92_RAZNOSTNAJa">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_93_RAZNOSTNAJa">\omega, a_{\alpha \beta}(x), b_{\rho \tau}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_94_RAZNOSTNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_95_RAZNOSTNAJa">l(u, u) \geqslant \vartheta\|u\|_{2}^{2}, m, \quad \gamma=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_96_RAZNOSTNAJa">&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_97_RAZNOSTNAJa">\varphi_{i}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_98_RAZNOSTNAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_99_RAZNOSTNAJa">w_{2}^{l}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_100_RAZNOSTNAJa">l&gt;m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_101_RAZNOSTNAJa">\varphi_{i}^{\mu}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_102_RAZNOSTNAJa">v-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_103_RAZNOSTNAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_104_RAZNOSTNAJa">w_{2}^{m}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_105_RAZNOSTNAJa">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_106_RAZNOSTNAJa">\varphi \in W_{2}^{m}(\Omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_107_RAZNOSTNAJa">\varphi_{i}^{\mu}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_108_RAZNOSTNAJa">u(x),\left.u\right|_{s}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_109_RAZNOSTNAJa">=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_110_RAZNOSTNAJa">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_111_RAZNOSTNAJa">\left.\varphi\right|_{S}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_112_RAZNOSTNAJa">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_113_RAZNOSTNAJa">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_114_RAZNOSTNAJa">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_115_RAZNOSTNAJa">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_116_RAZNOSTNAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_117_RAZNOSTNAJa">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_118_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_119_RAZNOSTNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_120_RAZNOSTNAJa">z_{i}, i=1,2, \ldots, N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_121_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_122_RAZNOSTNAJa">z_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_123_RAZNOSTNAJa">\varphi_{1}^{i}, \varphi_{2}^{i}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_124_RAZNOSTNAJa">\varphi_{v(i)}^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_125_RAZNOSTNAJa">w_{2}^{m}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_126_RAZNOSTNAJa">v(i) \leqslant M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_127_RAZNOSTNAJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_128_RAZNOSTNAJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_129_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_130_RAZNOSTNAJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_131_RAZNOSTNAJa">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_132_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_133_RAZNOSTNAJa">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_134_RAZNOSTNAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_135_RAZNOSTNAJa">k-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_136_RAZNOSTNAJa">\lambda_{j}^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_137_RAZNOSTNAJa">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_138_RAZNOSTNAJa">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_139_RAZNOSTNAJa">\boldsymbol{p}=o\left(n^{2 m / n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_140_RAZNOSTNAJa">p-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_141_RAZNOSTNAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_142_RAZNOSTNAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_143_RAZNOSTNAJa">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/900_144_RAZNOSTNAJa">\mathrm{p}</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/900_1_RAZNOSTNAJa">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+  </relations>
+  <text>разностная схема, построенная на основе вариационной задачи, соответствующей краевой задаче для диффференциального уравнения. Основная идея построения $URI[[http://libmeta.ru/me/formula/aux/900_1_RAZNOSTNAJa]]/URI$. в. с. состоит в том, чтобы при специальном выборе координатных функдий в Ритца методе получвть систему линейных алгебраич. уравнений, совпадающую по структуре с системой разностных уравнений; обычно неизвестными параметрами являются приближенные значения в узлах сетки точного решения и, возможно, нек-рых его производных. В качестве таких координатных функций можно использовать кусочно линейные, полилинейные и др. функции.
+
+Разностные схемы можно получать также, выбирая специальным образом координатные функции в Галеркина методе. Метод получения разностных схем с помощью метода Галеркина наз. в а р и а ц и о н н оразностным методом (или проекционн о-ра з но с т н ы м м е т о д о м). Вариационноразностный метод иногда наз. м е т о д о м к о н е чн ы х ә л е м е н т о в, хотя последнее название употребляется в более общем смысле.
+
+Пусть поставлена краевая задача:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_1_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_2_RAZNOSTNAJa]]/URI$ - непрерывная функция, $URI[[http://libmeta.ru/me/formula/aux/900_3_RAZNOSTNAJa]]/URI$ - непрерывно дифференцируема и $URI[[http://libmeta.ru/me/formula/aux/900_4_RAZNOSTNAJa]]/URI$.
+
+У множение (1) на произвольную функцию $URI[[http://libmeta.ru/me/formula/aux/900_5_RAZNOSTNAJa]]/URI$, удовлетворяющую условиям (2), и интегрирование по $URI[[http://libmeta.ru/me/formula/aux/900_6_RAZNOSTNAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_2_RAZNOSTNAJa]]/URI
+\]
+
+приводит к тождеству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_3_RAZNOSTNAJa]]/URI
+\]
+
+к-рому удовлетворяет решение задачи (1), (2). Справедливо и обратное утверждение: функция $URI[[http://libmeta.ru/me/formula/aux/900_7_RAZNOSTNAJa]]/URI$, удовлетворяющая граничным условиям (2) и тождеству (3) при произвольных функциях $URI[[http://libmeta.ru/me/formula/aux/900_8_RAZNOSTNAJa]]/URI$, является решением задачи (1), (2). Тождество (3) используется для построения приближенного решения методом Галеркина. Промежуток $URI[[http://libmeta.ru/me/formula/aux/900_9_RAZNOSTNAJa]]/URI$ разбивается на $URI[[http://libmeta.ru/me/formula/aux/900_10_RAZNOSTNAJa]]/URI$ частей точками $URI[[http://libmeta.ru/me/formula/aux/900_11_RAZNOSTNAJa]]/URI$. Множество $URI[[http://libmeta.ru/me/formula/aux/900_12_RAZNOSTNAJa]]/URI$ наз. с е т к о й, точки $URI[[http://libmeta.ru/me/formula/aux/900_13_RAZNOSTNAJa]]/URI$ у зл а м и сетки, $URI[[http://libmeta.ru/me/formula/aux/900_14_RAZNOSTNAJa]]/URI$ - по а г о м сетки. В качестве координатных функций в методе Галеркина берутся функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_4_RAZNOSTNAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_5_RAZNOSTNAJa]]/URI
+\]
+
+Функции $URI[[http://libmeta.ru/me/formula/aux/900_15_RAZNOSTNAJa]]/URI$ вне промежутка $URI[[http://libmeta.ru/me/formula/aux/900_16_RAZNOSTNAJa]]/URI$. Это свойство координатных функций принято называть с в о й с т в ом лок альвости. Пусть приближенное решение задачи ищется в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_6_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_17_RAZNOSTNAJa]]/URI$ - искомые параметры, к-рые являются значениями приближенного решения в узлах сетки:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_7_RAZNOSTNAJa]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/900_18_RAZNOSTNAJa]]/URI$ - множество функций вида (4). Функции из $URI[[http://libmeta.ru/me/formula/aux/900_19_RAZNOSTNAJa]]/URI$ линейны на промежутках $URI[[http://libmeta.ru/me/formula/aux/900_20_RAZNOSTNAJa]]/URI$, непрерывны на $URI[[http://libmeta.ru/me/formula/aux/900_21_RAZNOSTNAJa]]/URI$ и равны нулю при $URI[[http://libmeta.ru/me/formula/aux/900_22_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_23_RAZNOSTNAJa]]/URI$. Система метода Галеркина получается при подстановке в (3) функции $URI[[http://libmeta.ru/me/formula/aux/900_24_RAZNOSTNAJa]]/URI$ вместо $URI[[http://libmeta.ru/me/formula/aux/900_25_RAZNOSTNAJa]]/URI$ и функций $URI[[http://libmeta.ru/me/formula/aux/900_26_RAZNOSTNAJa]]/URI$ вместо $URI[[http://libmeta.ru/me/formula/aux/900_27_RAZNOSTNAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_8_RAZNOSTNAJa]]/URI
+\]
+
+При этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_9_RAZNOSTNAJa]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_10_RAZNOSTNAJa]]/URI
+\]
+
+лишь для $URI[[http://libmeta.ru/me/formula/aux/900_28_RAZNOSTNAJa]]/URI$, т. е. в каждом уравнении имеется не более трех неизвестных.
+
+Система (5) может быть записана в виде
+
+$URI[[http://libmeta.ru/me/formula/aux/900_29_RAZNOSTNAJa]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_11_RAZNOSTNAJa]]/URI
+\]
+
+гіде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_12_RAZNOSTNAJa]]/URI
+\]
+
+Эта система по структуре сходна с обычной разностной. Системы уравнений, полученные таким способом, и наз. разностны м и ва р и а ци онвы ми с х е м а м и. В отличие от обычных разностных схем коэффициенты $URI[[http://libmeta.ru/me/formula/aux/900_30_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_31_RAZNOSTNAJa]]/URI$ являются не значениями функций $URI[[http://libmeta.ru/me/formula/aux/900_32_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_33_RAZNOSTNAJa]]/URI$ в фиксированных точках, а их усреднениями. Это обстоятельство позволяет использовать Р. в. с. для уравнений с «плохими» (напр., разрывными) коэффициентами.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/900_34_RAZNOSTNAJa]]/URI$ - матрица системы (5). Так как $URI[[http://libmeta.ru/me/formula/aux/900_35_RAZNOSTNAJa]]/URI$, то матрица $URI[[http://libmeta.ru/me/formula/aux/900_36_RAZNOSTNAJa]]/URI$ симметрична. Имеет место равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_13_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_37_RAZNOSTNAJa]]/URI$ произвольный вектор из евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/900_38_RAZNOSTNAJa]]/URI$ размерности $URI[[http://libmeta.ru/me/formula/aux/900_39_RAZNOSTNAJa]]/URI$, (.,.) - скалярное провзведение в $URI[[http://libmeta.ru/me/formula/aux/900_40_RAZNOSTNAJa]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_14_RAZNOSTNAJa]]/URI
+\]
+
+Из неравенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_15_RAZNOSTNAJa]]/URI
+\]
+
+справедливого для произвольной непрерывной и дифференцируемой функции, удовлетворяющей условию $URI[[http://libmeta.ru/me/formula/aux/900_41_RAZNOSTNAJa]]/URI$, следует оценка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_16_RAZNOSTNAJa]]/URI
+\]
+
+из к-рой выводится неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_17_RAZNOSTNAJa]]/URI
+\]
+
+Матрица $URI[[http://libmeta.ru/me/formula/aux/900_42_RAZNOSTNAJa]]/URI$ положительно определена; система (5) однозначно разрешима. При малых значениях $URI[[http://libmeta.ru/me/formula/aux/900_43_RAZNOSTNAJa]]/URI$ система (5) состоит из большого числа уравнений. Точность решения системы алгебраич. уравнений и объем необходимой для этого работы в большой степени зависят от величины т. н. чи сла обу словленност и $URI[[http://libmeta.ru/me/formula/aux/900_44_RAZNOSTNAJa]]/URI$ матрицы системы, где $URI[[http://libmeta.ru/me/formula/aux/900_45_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_46_RAZNOSTNAJa]]/URI$ наибольшее и наименьшее собственные значения матрицы $URI[[http://libmeta.ru/me/formula/aux/900_47_RAZNOSTNAJa]]/URI$. Из неравенства (6) следует, что $URI[[http://libmeta.ru/me/formula/aux/900_48_RAZNOSTNAJa]]/URI$. Справедлика также оценка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_18_RAZNOSTNAJa]]/URI
+\]
+
+Число обусловленности $URI[[http://libmeta.ru/me/formula/aux/900_49_RAZNOSTNAJa]]/URI$, что совпадает по порядку $URI[[http://libmeta.ru/me/formula/aux/900_50_RAZNOSTNAJa]]/URI$ с известными оценками для матриц обычных разностных схем.
+
+Сходимость приближенного решения к точному доказывается по обычной для метода Галеркина схеме. Из (3) и (5) для произвольной функции $URI[[http://libmeta.ru/me/formula/aux/900_51_RAZNOSTNAJa]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/900_52_RAZNOSTNAJa]]/URI$ следует, पto
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_19_RAZNOSTNAJa]]/URI
+\]
+
+откуда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_20_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_53_RAZNOSTNAJa]]/URI$ - произвольная функция из $URI[[http://libmeta.ru/me/formula/aux/900_54_RAZNOSTNAJa]]/URI$. Правая часть (8) оценивается с помощью неравенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_21_RAZNOSTNAJa]]/URI
+\]
+
+Таким образом,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_22_RAZNOSTNAJa]]/URI
+\]
+
+Обозначение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_23_RAZNOSTNAJa]]/URI
+\]
+
+(число $URI[[http://libmeta.ru/me/formula/aux/900_55_RAZNOSTNAJa]]/URI$ наз. э н е р г е т и ч е с к о й н о р м о й функции $URI[[http://libmeta.ru/me/formula/aux/900_56_RAZNOSTNAJa]]/URI$ ) позволяет переписать последнее неравенство в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_24_RAZNOSTNAJa]]/URI
+\]
+
+Оценка погрешности Р. в. с. сводится к оценке наилучшего приближения точного решения функциями класса $URI[[http://libmeta.ru/me/formula/aux/900_57_RAZNOSTNAJa]]/URI$. Если в качестве $URI[[http://libmeta.ru/me/formula/aux/900_58_RAZNOSTNAJa]]/URI$ взять кусочно линейную функцию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_25_RAZNOSTNAJa]]/URI
+\]
+
+совпадающую с функцией $URI[[http://libmeta.ru/me/formula/aux/900_59_RAZNOSTNAJa]]/URI$ в узлах сетки, то справедлива оценка:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_26_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_60_RAZNOSTNAJa]]/URI$ - постоянная.
+
+На рассмотренном примере видны нек-рые характөрные черты вариационно-разностного метода: локальность координатных функций, обеспечивающих близость Р. в. с. по структуре к разностным схемам, и применимость техники проекционных методов к исследованию сходимости Р. в. с.
+
+Основным при построении Р. в. с. является выбор локальных координатных функций, обладающих требуемыми аппроксимационными свойствами. Задача аппроксимации ставится в различных функциональных пространствах. Для задач математич. физики важны пространства Соболева $URI[[http://libmeta.ru/me/formula/aux/900_61_RAZNOSTNAJa]]/URI$, т. е. линейные множества функций с конечной нормой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_27_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_62_RAZNOSTNAJa]]/URI$ - область в $URI[[http://libmeta.ru/me/formula/aux/900_63_RAZNOSTNAJa]]/URI$ неотрицательное целое число, $URI[[http://libmeta.ru/me/formula/aux/900_64_RAZNOSTNAJa]]/URI$ - вектор с целочисленными координатами, $URI[[http://libmeta.ru/me/formula/aux/900_65_RAZNOSTNAJa]]/URI$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1b95966907d1ce058431g-1.jpg?height=100&amp;width=360&amp;top_left_y=248&amp;top_left_x=1207)
+
+Многие классы локальных координатных функций строятся по следующей схеме. Пусть заданы функции $URI[[http://libmeta.ru/me/formula/aux/900_66_RAZNOSTNAJa]]/URI$, принадлежащие $URI[[http://libmeta.ru/me/formula/aux/900_67_RAZNOSTNAJa]]/URI$ и равные нулю вне $URI[[http://libmeta.ru/me/formula/aux/900_68_RAZNOSTNAJa]]/URI$-мерного куба $URI[[http://libmeta.ru/me/formula/aux/900_69_RAZNOSTNAJa]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/900_70_RAZNOSTNAJa]]/URI$ - заданный вектор с положительными координатами, $URI[[http://libmeta.ru/me/formula/aux/900_71_RAZNOSTNAJa]]/URI$ - произвольный целочисленный вектор,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_28_RAZNOSTNAJa]]/URI
+\]
+
+Через 1 обозначено множество векторов $URI[[http://libmeta.ru/me/formula/aux/900_72_RAZNOSTNAJa]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/900_73_RAZNOSTNAJa]]/URI$-мерный параллелепипед $URI[[http://libmeta.ru/me/formula/aux/900_74_RAZNOSTNAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/900_75_RAZNOSTNAJa]]/URI$, пересекается с $URI[[http://libmeta.ru/me/formula/aux/900_76_RAZNOSTNAJa]]/URI$. Для данной области $URI[[http://libmeta.ru/me/formula/aux/900_77_RAZNOSTNAJa]]/URI$ в качестве координатных функций выбираются функции вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_29_RAZNOSTNAJa]]/URI
+\]
+
+т. ө. функции, полученные из исходных функций масштабированием аргументов и сдвигом на вектор $URI[[http://libmeta.ru/me/formula/aux/900_78_RAZNOSTNAJa]]/URI$. Такие координатные функции принято называть $URI[[http://libmeta.ru/me/formula/aux/900_79_RAZNOSTNAJa]]/URI$ е г ул я р н м м и. Пусть классом $URI[[http://libmeta.ru/me/formula/aux/900_80_RAZNOSTNAJa]]/URI$ наз. множество функций вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_30_RAZNOSTNAJa]]/URI
+\]
+
+Если любой полином $URI[[http://libmeta.ru/me/formula/aux/900_81_RAZNOSTNAJa]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/900_82_RAZNOSTNAJa]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/900_83_RAZNOSTNAJa]]/URI$ можно представить как линейную комбинацию $URI[[http://libmeta.ru/me/formula/aux/900_84_RAZNOSTNAJa]]/URI$, то для произвольной фушкции $URI[[http://libmeta.ru/me/formula/aux/900_85_RAZNOSTNAJa]]/URI$ можно указать функцию $URI[[http://libmeta.ru/me/formula/aux/900_86_RAZNOSTNAJa]]/URI$ такую, что справедливо аппроксшмационное веравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_31_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_87_RAZNOSTNAJa]]/URI$ не зависит от $URI[[http://libmeta.ru/me/formula/aux/900_88_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_89_RAZNOSTNAJa]]/URI$.
+
+Р. в. с. для краевых задач для эллиптич. уравнений строятся на основе эквивалентных задач нахождения функций, удовлетворяющих интегральным тождествам. Многие из этих задач состоят в нахождении функции $URI[[http://libmeta.ru/me/formula/aux/900_90_RAZNOSTNAJa]]/URI$, удовлетворяющей при произвольной функции $URI[[http://libmeta.ru/me/formula/aux/900_91_RAZNOSTNAJa]]/URI$ интегральному тождөству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_32_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_92_RAZNOSTNAJa]]/URI$ - граница $URI[[http://libmeta.ru/me/formula/aux/900_93_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_94_RAZNOSTNAJa]]/URI$ - заданные функции. Предполагается, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_33_RAZNOSTNAJa]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/900_95_RAZNOSTNAJa]]/URI$ const $URI[[http://libmeta.ru/me/formula/aux/900_96_RAZNOSTNAJa]]/URI$.
+
+Применевие к (10) метода Галеркина с координатными функциями $URI[[http://libmeta.ru/me/formula/aux/900_97_RAZNOSTNAJa]]/URI$ приводит к Р. в. с. для задачи (10). Пусть решение $URI[[http://libmeta.ru/me/formula/aux/900_98_RAZNOSTNAJa]]/URI$ задачи (10) принадлежит $URI[[http://libmeta.ru/me/formula/aux/900_99_RAZNOSTNAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/900_100_RAZNOSTNAJa]]/URI$, и функции $URI[[http://libmeta.ru/me/formula/aux/900_101_RAZNOSTNAJa]]/URI$ удовлетворяют условиям, при к-рых справедливо неравенство (9). Для оценки погрешности Р.в. с. используют стандартную технику метода Галеркина:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_34_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_102_RAZNOSTNAJa]]/URI$ приближенное решение.
+
+Задачи вида (10), для к-рых в качестве функции $URI[[http://libmeta.ru/me/formula/aux/900_103_RAZNOSTNAJa]]/URI$ может быть взята произвольная функция из $URI[[http://libmeta.ru/me/formula/aux/900_104_RAZNOSTNAJa]]/URI$, наз. з а д а ч м и с е с тественными крае- в м и у с ло в я м и. Существует другой класс краевых задач, в к-рых на границе $URI[[http://libmeta.ru/me/formula/aux/900_105_RAZNOSTNAJa]]/URI$ ставятся краевые условия вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_35_RAZNOSTNAJa]]/URI
+\]
+
+В этом случае краевым условиям (11) в тождестве (10) должны удовлетворять и функции $URI[[http://libmeta.ru/me/formula/aux/900_106_RAZNOSTNAJa]]/URI$. Для приближенного решения таких задач методом Галеркина необходимо, чтобы координатные функции удовлетворяли условиям (11). Введенные выше координатные функции $URI[[http://libmeta.ru/me/formula/aux/900_107_RAZNOSTNAJa]]/URI$, в силу самого способа их построения, вообще говоря, не пригодны для представления приближенного решения, удовлетворяющего условиям (11).
+
+Один из приемов построения Р. в. с. для задач с краевыми условиями вида (11) связан с использованием ме то д а ш т р ф а. Пусть, напр., требуется решить задачу Дирихле для уравнения Пуассона. Эта задача әквивалентна определению функции $URI[[http://libmeta.ru/me/formula/aux/900_108_RAZNOSTNAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/900_109_RAZNOSTNAJa]]/URI$, удовлетворяющей при произвольной функции $URI[[http://libmeta.ru/me/formula/aux/900_110_RAZNOSTNAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/900_111_RAZNOSTNAJa]]/URI$, интегральному тождеству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_36_RAZNOSTNAJa]]/URI
+\]
+
+В методе штрафа вводится в рассмотрение функция $URI[[http://libmeta.ru/me/formula/aux/900_112_RAZNOSTNAJa]]/URI$, удовлетворяющая при произвольных функциях $URI[[http://libmeta.ru/me/formula/aux/900_113_RAZNOSTNAJa]]/URI$ интегральному тождеству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_37_RAZNOSTNAJa]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/900_114_RAZNOSTNAJa]]/URI$ является решением задачи с естествөнным краевым условием. Доказывается, что при малых значениях $URI[[http://libmeta.ru/me/formula/aux/900_115_RAZNOSTNAJa]]/URI$ решения $URI[[http://libmeta.ru/me/formula/aux/900_116_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_117_RAZNOSTNAJa]]/URI$ близки. Для приближенного решения последней задачи можно применить Р. в. с. с использованием регулярных координатных функций.
+
+Общий способ построения координатных фу ункций таkob.
+
+Пусть для произвольного положительного числа $URI[[http://libmeta.ru/me/formula/aux/900_118_RAZNOSTNAJa]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/900_119_RAZNOSTNAJa]]/URI$ задано множество точек $URI[[http://libmeta.ru/me/formula/aux/900_120_RAZNOSTNAJa]]/URI$, наз. узлами сетки, такое, что каждая точка области отстоит от какого-либо узла не более чем на $URI[[http://libmeta.ru/me/formula/aux/900_121_RAZNOSTNAJa]]/URI$. Пусть для каждого узла $URI[[http://libmeta.ru/me/formula/aux/900_122_RAZNOSTNAJa]]/URI$ определен набор функций $URI[[http://libmeta.ru/me/formula/aux/900_123_RAZNOSTNAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/900_124_RAZNOSTNAJa]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/900_125_RAZNOSTNAJa]]/URI$, удовлетворяющих заданным граничным условиям (11), причем $URI[[http://libmeta.ru/me/formula/aux/900_126_RAZNOSTNAJa]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/900_127_RAZNOSTNAJa]]/URI$ не зависил от $URI[[http://libmeta.ru/me/formula/aux/900_128_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_129_RAZNOSTNAJa]]/URI$. Пусть при каждом $URI[[http://libmeta.ru/me/formula/aux/900_130_RAZNOSTNAJa]]/URI$ и всех $URI[[http://libmeta.ru/me/formula/aux/900_131_RAZNOSTNAJa]]/URI$ интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_38_RAZNOSTNAJa]]/URI
+\]
+
+отличен от нуля лишь для числа индексов $URI[[http://libmeta.ru/me/formula/aux/900_132_RAZNOSTNAJa]]/URI$, ограниченного числом, не зависящцм от $URI[[http://libmeta.ru/me/formula/aux/900_133_RAZNOSTNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/900_134_RAZNOSTNAJa]]/URI$ (условие локальности координатных функций). Пусть $URI[[http://libmeta.ru/me/formula/aux/900_135_RAZNOSTNAJa]]/URI$ класс функций вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_39_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/900_136_RAZNOSTNAJa]]/URI$ - числовые параметры.
+
+Если решение $URI[[http://libmeta.ru/me/formula/aux/900_137_RAZNOSTNAJa]]/URI$ краевой задачи может быть приближено функціями класса $URI[[http://libmeta.ru/me/formula/aux/900_138_RAZNOSTNAJa]]/URI$ с точностью, характөризуемой неравенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_40_RAZNOSTNAJa]]/URI
+\]
+
+то для решения, полученного при помощи Р. в. с., справедлива оценка погрешности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/900_41_RAZNOSTNAJa]]/URI
+\]
+
+Нерегулярные сетки применяются иногда для более полного учета свойств задачи. Напр., для более точ- ного воспроизведения функции в окрестности угловой точки границы можно расположить узлы на радиальнокольцевой сетке.
+
+Для численной реализации матрица Р. в. с. должна обладать не слишком плохой обусловленностью. Для задач вида (10) оптимальной считается обусловленность, выражаемая соотношением $URI[[http://libmeta.ru/me/formula/aux/900_139_RAZNOSTNAJa]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/900_140_RAZNOSTNAJa]]/URI$ число обусловленности матрицы Р. в. с., $URI[[http://libmeta.ru/me/formula/aux/900_141_RAZNOSTNAJa]]/URI$ - число узлов сетки, $URI[[http://libmeta.ru/me/formula/aux/900_142_RAZNOSTNAJa]]/URI$ - размерность пространства, содержащего область $URI[[http://libmeta.ru/me/formula/aux/900_143_RAZNOSTNAJa]]/URI$. Для многих ковкретных задач такая обусловленность действительно имеет место.
+
+Использование Р. в. с. сочетает достоинства метода сеток и проекционных методов. Структура Р. в. с. позволяет использовать экономпчные методы решения разностных схем. Легко устанавливается разрешимость Р. в. с.: матрица Р. в. с. положительно определена, если положительно определен дифференциальный оператор. Вопрос о сходимости сводится к вопросу об аппроксимации точного решения координатными функциями $URI[[http://libmeta.ru/me/formula/aux/900_144_RAZNOSTNAJa]]/URI$. в. с., и, следовательно, скорость сходимости определяется дифференциальными свойствами точного решения. Р. в. с. можно применять при весьма слабых ограничениях на данные задачи.
+
+Исследования по Р. в. с. проводятся в слөдующих основных направлениях:
+
+1) создание координатных функций, удовлетворяющих краевым условиям, исследование их аппроксимационных свойств;
+
+2) получение оценок точности в различных нормах;
+
+3) построение Р. в. с. для задач, имеющих те или иные особенности (линии разрыва коэффициентов, угловые точки границы и т. Д.);
+
+4) разработка методов решения Р. в. с. и способы оштимизации методов решения;
+
+5) решение нелинейных уравнений;
+
+6) применение Р. в. с. для нестационарных URI[[http://libmeta.ru/me/relation/900_1_RAZNOSTNAJa]]/URI.</text>
+  <text_orig>разностная схема, построенная на основе вариационной задачи, соответствующей краевой задаче для диффференциального уравнения. Основная идея построения $\mathrm{P}$. в. с. состоит в том, чтобы при специальном выборе координатных функдий в Ритца методе получвть систему линейных алгебраич. уравнений, совпадающую по структуре с системой разностных уравнений; обычно неизвестными параметрами являются приближенные значения в узлах сетки точного решения и, возможно, нек-рых его производных. В качестве таких координатных функций можно использовать кусочно линейные, полилинейные и др. функции.
+
+Разностные схемы можно получать также, выбирая специальным образом координатные функции в Галеркина методе. Метод получения разностных схем с помощью метода Галеркина наз. в а р и а ц и о н н оразностным методом (или проекционн о-ра з но с т н ы м м е т о д о м). Вариационноразностный метод иногда наз. м е т о д о м к о н е чн ы х ә л е м е н т о в, хотя последнее название употребляется в более общем смысле.
+
+Пусть поставлена краевая задача:
+
+\[
+\begin{aligned}
+-\left(p(x) u^{\prime}(x)\right)^{\prime} &amp; =f(x), \quad 0&lt;x&lt;1, \\
+u(0) &amp; =u(1)=0,
+\end{aligned}
+\]
+
+где $f(x)$ - непрерывная функция, $p(x)$ - непрерывно дифференцируема и $p(x) \geqslant p_{0}&gt;0$.
+
+У множение (1) на произвольную функцию $\varphi(x)$, удовлетворяющую условиям (2), и интегрирование по $x$ :
+
+\[
+-\int_{0}^{1}\left(p u^{\prime}\right)^{\prime} \varphi d x=\int_{0}^{1} f \varphi d x
+\]
+
+приводит к тождеству
+
+\[
+L(u, \varphi) \equiv \int_{0}^{1} p u^{\prime} \varphi^{\prime} d x=\int_{0}^{1} f \varphi d x,
+\]
+
+к-рому удовлетворяет решение задачи (1), (2). Справедливо и обратное утверждение: функция $u(x)$, удовлетворяющая граничным условиям (2) и тождеству (3) при произвольных функциях $\varphi(x), \varphi(0)=\varphi(1)=0$, является решением задачи (1), (2). Тождество (3) используется для построения приближенного решения методом Галеркина. Промежуток $[0,1]$ разбивается на $N$ частей точками $x_{i}=i h, i=1, \ldots, N-1, h=N^{-1}$. Множество $\left\{x_{i}\right\}$ наз. с е т к о й, точки $x_{i}-$ у зл а м и сетки, $h$ - по а г о м сетки. В качестве координатных функций в методе Галеркина берутся функции
+
+\[
+\varphi_{i}(x)=\psi\left(h^{-1} x-i\right), \quad i=1,2, \ldots, N-1,
+\]
+
+где
+
+\[
+\psi(t)=\left\{\begin{array}{ccc}
+1-|t| &amp; \text { при } &amp; |t| \leqslant 1, \\
+0 &amp; \text { при } &amp; |t|&gt;1 .
+\end{array}\right.
+\]
+
+Функции $\varphi_{i}(x) \equiv 0$ вне промежутка $\left[x_{i-1}, x_{i+1}\right]$. Это свойство координатных функций принято называть с в о й с т в ом лок альвости. Пусть приближенное решение задачи ищется в виде
+
+\[
+v=\sum_{i=1}^{N-1} v_{i} \varphi_{i}(x)
+\]
+
+где $v_{i}$ - искомые параметры, к-рые являются значениями приближенного решения в узлах сетки:
+
+\[
+v_{i}=v\left(x_{i}\right), \quad i=1, \ldots, N-1 .
+\]
+
+Пусть $K$ - множество функций вида (4). Функции из $K$ линейны на промежутках $\left[x_{i}, x_{i+1}\right]$, непрерывны на $[0,1]$ и равны нулю при $x=0$ и $x=1$. Система метода Галеркина получается при подстановке в (3) функции $v(x)$ вместо $u(x)$ и функций $\varphi_{i}(x)$ вместо $\varphi(x)$ :
+
+\[
+\begin{gathered}
+L\left(v, \varphi_{i}\right)=\sum_{j=1}^{N-1} v_{j} \int_{0}^{1} p(x) \varphi_{j}^{\prime}(x) \varphi_{i}^{\prime}(x) d x= \\
+=\int_{0}^{1} f(x) \varphi_{i}(x) d x, \quad i=1, \ldots, N-1 .
+\end{gathered}
+\]
+
+При этом
+
+\[
+\varphi_{i}^{\prime}(x)=\left\{\begin{aligned}
+1 / h &amp; \text { при } x_{i-1}&lt;x&lt;x_{i} \\
+-1 / h &amp; \text { при } x_{i}&lt;x&lt;x_{i+1}
+\end{aligned}\right.
+\]
+
+и
+
+\[
+L\left(\varphi_{j}, \varphi_{i}\right)=\int_{0}^{1} p \varphi_{j}^{\prime} \varphi_{i}^{\prime} d x \neq 0
+\]
+
+лишь для $j=i-1, i, i+1$, т. е. в каждом уравнении имеется не более трех неизвестных.
+
+Система (5) может быть записана в виде
+
+$h^{-2}\left[-\alpha_{i-1 / 2} v_{i-1}+\left(\alpha_{i-1 / 2}+\alpha_{i+1 / 2}\right) v_{i}-\alpha_{i+1 / 2} v_{i+1}\right]=f_{i}$,
+
+\[
+i=1, \ldots, N-1 \text {, }
+\]
+
+гіде
+
+\[
+\begin{gathered}
+\alpha_{i-1 / 2}=h^{-1} \int_{x_{i-1}}^{x_{i}} p(x) d x \\
+f_{i}=h^{-1} \int_{x_{i-1}}^{x_{i+1}} f(x) \varphi_{i}(x) d x, \quad v_{0}=v_{N}=0 .
+\end{gathered}
+\]
+
+Эта система по структуре сходна с обычной разностной. Системы уравнений, полученные таким способом, и наз. разностны м и ва р и а ци онвы ми с х е м а м и. В отличие от обычных разностных схем коэффициенты $\alpha_{i-1 / 2}$ и $f_{i}$ являются не значениями функций $p$ и $f$ в фиксированных точках, а их усреднениями. Это обстоятельство позволяет использовать Р. в. с. для уравнений с «плохими» (напр., разрывными) коэффициентами.
+
+Пусть $L_{h}=\left\{L\left(\varphi_{j}, \varphi_{i}\right)\right\}$ - матрица системы (5). Так как $L\left(\varphi_{j}, \varphi_{i}\right)=L\left(\varphi_{i}, \varphi_{j}\right)$, то матрица $L_{h}$ симметрична. Имеет место равенство
+
+\[
+\left(L_{h} w_{h}, w_{h}\right)=\int_{0}^{1} p\left(w^{\prime}\right)^{2} d x,
+\]
+
+где $w_{h}=\left\{w_{i}\right\}_{i=1}^{N-1}-$ произвольный вектор из евклидова пространства $E_{N-1}$ размерности $N-1$, (.,.) - скалярное провзведение в $E_{N-1}$,
+
+\[
+w=\sum_{i=1}^{N-1} w_{i} \varphi_{i}(x) .
+\]
+
+Из неравенства
+
+\[
+\max _{x} u^{2}(x)=\max \left(\int_{0}^{x} u^{\prime}(t) d t\right)^{2} \leqslant \int_{0}^{1}\left(u^{\prime}\right)^{2} d x,
+\]
+
+справедливого для произвольной непрерывной и дифференцируемой функции, удовлетворяющей условию $u(0)=(0)$, следует оценка
+
+\[
+\begin{gathered}
+\int_{0}^{1} p(x)\left(w^{\prime}(x)\right)^{2} d x \geqslant p_{0} \max _{x}(w(x))^{2} \geqslant \\
+\geqslant p_{0} h \sum_{i=1}^{N-1} w_{i}^{2},
+\end{gathered}
+\]
+
+из к-рой выводится неравенство
+
+\[
+\left(L_{h} w_{h}, w_{h}\right) \geqslant p_{0} h\left(w_{h}, w_{h}\right) .
+\]
+
+Матрица $L_{h}$ положительно определена; система (5) однозначно разрешима. При малых значениях $h$ система (5) состоит из большого числа уравнений. Точность решения системы алгебраич. уравнений и объем необходимой для этого работы в большой степени зависят от величины т. н. чи сла обу словленност и $P=\lambda_{\max } / \lambda_{\min }$ матрицы системы, где $\lambda_{\max }$ и $\lambda_{\min }-$ наибольшее и наименьшее собственные значения матрицы $L_{h}$. Из неравенства (6) следует, что $\lambda_{\min } \geqslant p_{0} h$. Справедлика также оценка
+
+\[
+\lambda_{\max } \leqslant 4 h^{-1} \max _{x} p(x) .
+\]
+
+Число обусловленности $P=O\left(h^{-2}\right)$, что совпадает по порядку $h$ с известными оценками для матриц обычных разностных схем.
+
+Сходимость приближенного решения к точному доказывается по обычной для метода Галеркина схеме. Из (3) и (5) для произвольной функции $\varphi$ из $K$ следует, पTo
+
+\[
+L(u-v, \varphi)=0
+\]
+
+откуда
+
+\[
+L(u-v, u-v)=L(u-v, u-w),
+\]
+
+где $w$ - произвольная функция из $K$. Правая часть (8) оценивается с помощью неравенства
+
+\[
+[L(\varphi, \psi)]^{2} \leqslant L(\varphi, \varphi) L(\psi, \psi)
+\]
+
+Таким образом,
+
+\[
+\begin{gathered}
+L(u-v, u-v)=\int_{0}^{1} p(x)\left(u^{\prime}-v^{\prime}\right)^{2} d x&lt; \\
+\leqslant \inf _{\omega \in K} \int_{0}^{1} p(x)\left(u^{\prime}-w^{\prime}\right)^{2} d x .
+\end{gathered}
+\]
+
+Обозначение
+
+\[
+|u|=\left(\int_{0}^{1} p u^{\prime 2} d x\right)^{1 / 2}
+\]
+
+(число $|u|$ наз. э н е р г е т и ч е с к о й н о р м о й функции $u$ ) позволяет переписать последнее неравенство в виде
+
+\[
+|u-v| \leq \inf _{w \in K}|u-w| .
+\]
+
+Оценка погрешности Р. в. с. сводится к оценке наилучшего приближения точного решения функциями класса $K$. Если в качестве $w(x)$ взять кусочно линейную функцию
+
+\[
+\tilde{w}(x)=\sum_{i=1}^{N-1} u\left(x_{i}\right) \varphi_{i}(x),
+\]
+
+совпадающую с функцией $u(x)$ в узлах сетки, то справедлива оценка:
+
+\[
+|u-v| \leqslant C h^{2} \max p(x) \int_{0}^{1}\left(u^{\prime \prime}\right)^{2} d x
+\]
+
+где $C$ - постоянная.
+
+На рассмотренном примере видны нек-рые характөрные черты вариационно-разностного метода: локальность координатных функций, обеспечивающих близость Р. в. с. по структуре к разностным схемам, и применимость техники проекционных методов к исследованию сходимости Р. в. с.
+
+Основным при построении Р. в. с. является выбор локальных координатных функций, обладающих требуемыми аппроксимационными свойствами. Задача аппроксимации ставится в различных функциональных пространствах. Для задач математич. физики важны пространства Соболева $W_{p}^{l}(\Omega)$, т. е. линейные множества функций с конечной нормой
+
+\[
+\|u\|_{p, l}=\sum_{|\alpha| \leqslant l}\left(\int_{\Omega}\left|D^{\alpha} u\right|^{p} d x_{1} \ldots d x_{n}\right)^{1 / p}
+\]
+
+где $\Omega$ - область в $E_{n}, p \geqslant 1, l-$ неотрицательное целое число, $\alpha=\left(\alpha_{1}, \ldots, \alpha_{n}\right)$ - вектор с целочисленными координатами, $|\alpha|=\alpha_{1}+\alpha_{2}+\ldots+\alpha_{n}$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1b95966907d1ce058431g-1.jpg?height=100&amp;width=360&amp;top_left_y=248&amp;top_left_x=1207)
+
+Многие классы локальных координатных функций строятся по следующей схеме. Пусть заданы функции $\varphi^{1}(\xi), \varphi^{2}(\xi), \ldots, \varphi^{r}(\xi)$, принадлежащие $W_{p}^{k}\left(E_{n}\right)$ и равные нулю вне $n$-мерного куба $\left|\xi_{j}\right|&lt;R, j=1,2, . ., n$. Пусть $h=\left(h_{1}, \ldots, h_{n}\right)$ - заданный вектор с положительными координатами, $i=\left(i_{1}, \ldots, i_{n}\right)$ - произвольный целочисленный вектор,
+
+\[
+h^{-1}(x) \equiv\left(h_{1}^{-1} x_{1}, h_{2}^{-1} x_{2}, \ldots, h_{n}^{-1} x_{n}\right) .
+\]
+
+Через 1 обозначено множество векторов $i$ таких, что $n$-мерный параллелепипед $\left|h_{j}^{-1} x_{j}-i_{j}\right|&lt;R, j=1, \ldots$, $n$, пересекается с $\Omega$. Для данной области $\Omega$ в качестве координатных функций выбираются функции вида
+
+\[
+\varphi_{i}^{\mu}(x)=\varphi^{\mu}\left(h^{-1} x-\imath\right), \quad i \in I, \mu=1, \ldots, r,
+\]
+
+т. ө. функции, полученные из исходных функций масштабированием аргументов и сдвигом на вектор $i$. Такие координатные функции принято называть $\mathrm{p}$ е г ул я р н м м и. Пусть классом $K$ наз. множество функций вида
+
+\[
+w(x)=\sum_{i \in I} \sum_{\mu=1}^{r} w_{i}^{\mu} \varphi_{i}^{\mu}(x) .
+\]
+
+Если любой полином $P_{l-1}$ степени $l$ от $\xi$ можно представить как линейную комбинацию $\varphi^{1}(\xi), \ldots, \varphi^{r}(\xi)$, то для произвольной фушкции $u(x) \in W_{p}^{l}(\Omega)$ можно указать функцию $w \in K$ такую, что справедливо аппроксшмационное веравенство
+
+\[
+\|u-w\|_{p, k} \leqslant C \overline{h^{l}}-k\|u\|_{p, l}, \quad 0 \leqslant k&lt;l,
+\]
+
+где $\bar{h}=\max _{1 \leqslant j \leqslant n} h_{j}, C$ не зависит от $h$ и $u$.
+
+Р. в. с. для краевых задач для эллиптич. уравнений строятся на основе эквивалентных задач нахождения функций, удовлетворяющих интегральным тождествам. Многие из этих задач состоят в нахождении функции $u \in W_{2}^{m}(\Omega)$, удовлетворяющей при произвольной функции $\varphi \in W_{2}^{m}(\Omega)$ интегральному тождөству
+
+\[
+\begin{aligned}
+&amp; L(u, \varphi) \equiv \sum_{|\alpha|,|\beta| \leqslant m} \int_{\Omega} a_{\alpha \beta} D^{\alpha} u D^{\beta} \varphi d \Omega+ \\
+&amp; +\sum_{|\rho|,|\tau|&lt;m} \int_{S} b_{\rho \tau} D^{\rho} u D^{\tau} \varphi d S=\int_{\Omega} f \varphi d \Omega,
+\end{aligned}
+\]
+
+где $S$ - граница $\Omega, a_{\alpha \beta}(x), b_{\rho \tau}(x)$ и $f(x)$ - заданные функции. Предполагается, что
+
+\[
+a_{\alpha \beta}=a_{\beta \alpha}, b_{\rho \tau}=b_{\tau \rho}
+\]
+
+и $L(u, u) \geqslant \vartheta\|u\|_{2}^{2}, m, \quad \gamma=$ const $&gt;0$.
+
+Применевие к (10) метода Галеркина с координатными функциями $\varphi_{i}^{\mu}$ приводит к Р. в. с. для задачи (10). Пусть решение $u(x)$ задачи (10) принадлежит $W_{2}^{l}(\Omega)$, $l&gt;m$, и функции $\varphi_{i}^{\mu}$ удовлетворяют условиям, при к-рых справедливо неравенство (9). Для оценки погрешности Р.в. с. используют стандартную технику метода Галеркина:
+
+\[
+\begin{gathered}
+\gamma\|u-v\|_{2}^{2}, m \leqslant L(u-v, u-v) \leqslant \\
+\leqslant \inf _{w \in K} L(u-w, u-w) \leqslant C h^{2}(l-m)\|u\|_{2 l}^{2},
+\end{gathered}
+\]
+
+где $v-$ приближенное решение.
+
+Задачи вида (10), для к-рых в качестве функции $\varphi$ может быть взята произвольная функция из $W_{2}^{m}(\Omega)$, наз. з а д а ч м и с е с тественными крае- в м и у с ло в я м и. Существует другой класс краевых задач, в к-рых на границе $S$ ставятся краевые условия вида
+
+\[
+\left.\left(\sum_{|\alpha|&lt;m} b_{\alpha}^{j} D^{\alpha} u\right)\right|_{S}=0,0 \leqslant j \leqslant v, \quad v \leqslant m-1 .
+\]
+
+В этом случае краевым условиям (11) в тождестве (10) должны удовлетворять и функции $\varphi \in W_{2}^{m}(\Omega)$. Для приближенного решения таких задач методом Галеркина необходимо, чтобы координатные функции удовлетворяли условиям (11). Введенные выше координатные функции $\varphi_{i}^{\mu}(x)$, в силу самого способа их построения, вообще говоря, не пригодны для представления приближенного решения, удовлетворяющего условиям (11).
+
+Один из приемов построения Р. в. с. для задач с краевыми условиями вида (11) связан с использованием ме то д а ш т р ф а. Пусть, напр., требуется решить задачу Дирихле для уравнения Пуассона. Эта задача әквивалентна определению функции $u(x),\left.u\right|_{s}=$ $=0$, удовлетворяющей при произвольной функции $\varphi(x)$, $\left.\varphi\right|_{S}=0$, интегральному тождеству
+
+\[
+\int_{\Omega}\left(\frac{\partial u}{\partial x} \frac{\partial \varphi}{\partial x}+\frac{\partial u}{\partial y} \frac{\partial \varphi}{\partial y}\right) d \Omega=\int_{\Omega} f \varphi d \Omega .
+\]
+
+В методе штрафа вводится в рассмотрение функция $v$, удовлетворяющая при произвольных функциях $\varphi$ интегральному тождеству
+
+\[
+\begin{aligned}
+\int_{\Omega}\left(\frac{\partial v}{\partial x} \frac{\partial \varphi}{\partial x}\right. &amp; \left.+\frac{\partial v}{\partial y} \frac{\partial \varphi}{\partial y}\right) d \Omega+\frac{1}{\varepsilon} \int_{S} v \varphi d S= \\
+&amp; =\int_{\Omega} f \varphi d \Omega, \quad \varepsilon&gt;0 .
+\end{aligned}
+\]
+
+Функция $v$ является решением задачи с естествөнным краевым условием. Доказывается, что при малых значениях $\varepsilon$ решения $u$ и $v$ близки. Для приближенного решения последней задачи можно применить Р. в. с. с использованием регулярных координатных функций.
+
+Общий способ построения координатных фу ункций таKOB.
+
+Пусть для произвольного положительного числа $h$ в $\Omega$ задано множество точек $z_{i}, i=1,2, \ldots, N$, наз. узлами сетки, такое, что каждая точка области отстоит от какого-либо узла не более чем на $h$. Пусть для каждого узла $z_{i}$ определен набор функций $\varphi_{1}^{i}, \varphi_{2}^{i}, \ldots$, $\varphi_{v(i)}^{i}$ из $W_{2}^{m}(\Omega)$, удовлетворяющих заданным граничным условиям (11), причем $v(i) \leqslant M$, где $M$ не зависил от $i$ и $h$. Пусть при каждом $i$ и всех $j$ интеграл
+
+\[
+\int_{\Omega} \varphi_{j}^{i} \varphi_{m}^{k} d \Omega
+\]
+
+отличен от нуля лишь для числа индексов $k$, ограниченного числом, не зависящцм от $i$ и $h$ (условие локальности координатных функций). Пусть $K-$ класс функций вида
+
+\[
+w=\sum_{i=1}^{N} \sum_{j=1}^{v(i)} \lambda_{j}^{i} \varphi_{j}^{i}
+\]
+
+где $\lambda_{j}^{i}$ - числовые параметры.
+
+Если решение $u(x)$ краевой задачи может быть приближено функціями класса $K$ с точностью, характөризуемой неравенством
+
+\[
+\inf _{w \in K}\|u-w\|_{2, m} \leqslant C h^{l-m}\|u\|_{2, l}, \quad m&lt;l,
+\]
+
+то для решения, полученного при помощи Р. в. с., справедлива оценка погрешности
+
+\[
+\|u-v\|_{2, m} \leqslant C h^{l-m}\|u\|_{2, l} .
+\]
+
+Нерегулярные сетки применяются иногда для более полного учета свойств задачи. Напр., для более точ- ного воспроизведения функции в окрестности угловой точки границы можно расположить узлы на радиальнокольцевой сетке.
+
+Для численной реализации матрица Р. в. с. должна обладать не слишком плохой обусловленностью. Для задач вида (10) оптимальной считается обусловленность, выражаемая соотношением $\boldsymbol{P}=O\left(N^{2 m / n}\right)$, где $P-$ число обусловленности матрицы Р. в. с., $N$ - число узлов сетки, $n$ - размерность пространства, содержащего область $\Omega$. Для многих ковкретных задач такая обусловленность действительно имеет место.
+
+Использование Р. в. с. сочетает достоинства метода сеток и проекционных методов. Структура Р. в. с. позволяет использовать экономпчные методы решения разностных схем. Легко устанавливается разрешимость Р. в. с.: матрица Р. в. с. положительно определена, если положительно определен дифференциальный оператор. Вопрос о сходимости сводится к вопросу об аппроксимации точного решения координатными функциями $\mathrm{P}$. в. с., и, следовательно, скорость сходимости определяется дифференциальными свойствами точного решения. Р. в. с. можно применять при весьма слабых ограничениях на данные задачи.
+
+Исследования по Р. в. с. проводятся в слөдующих основных направлениях:
+
+1) создание координатных функций, удовлетворяющих краевым условиям, исследование их аппроксимационных свойств;
+
+2) получение оценок точности в различных нормах;
+
+3) построение Р. в. с. для задач, имеющих те или иные особенности (линии разрыва коэффициентов, угловые точки границы и т. Д.);
+
+4) разработка методов решения Р. в. с. и способы оштимизации методов решения;
+
+5) решение нелинейных уравнений;
+
+6) применение Р. в. с. для нестационарных уравнений.
+
+Лum.: [1] О г а н е с ян Л. А., Р и в к ин д В. Я., Р у хов е ц Ј. А., Вариационно-разностные методы решения әллиптиF i X G.. An analysis of the finite element method, Englewood Cliffs, 1973; [3] A u b in J.-P., Approximation of elliptic boциональный анализ и теория аппроксимации в численном анализе, пер. с англ., М., 1974; [5] М и х лин С. Г., &quot;Зап. научн. семинаров ЛОМИ», 1974 , т. 48, с. $32-188$; [6] М а р ч у к Г.И., Методы вычислительной математики, 2 изд., М., 1980; [7] Д ь яко н ов Е. Г., Разностные методы решения краевых задач,
+М., 1971.</text_orig>
+</article>

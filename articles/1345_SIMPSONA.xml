@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1345_SIMPSONA" alphabetic_pos="1345">
+  <title>СИМПСОНА ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>586</start>
+    <end>586</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1345_1_SIMPSONA">\int_{a}^{b} f(x) d x \cong \frac{b-a}{6}\left[f(a)+4 f\left(\frac{a+b}{2}\right)+f(b)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1345_2_SIMPSONA">\int_{x_{2 k}}^{x_{2 k+2}} f(x) d x \cong \frac{h}{3}\left[f\left(x_{2 k}\right)+4 f\left(x_{2 k+1}\right)+f\left(x_{2 k+2}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1345_3_SIMPSONA">\begin{aligned}&amp; \int_{a}^{b} f(x) d x \cong \frac{h}{3}\left\{f(a)+f(b)+2\left[f\left(x_{2}\right)+f\left(x_{4}\right)+\ldots\right.\right. \\&amp; \left.\left.\ldots+f\left(x_{n-2}\right)\right]+4\left[f\left(x_{1}\right)+f\left(x_{3}\right)+\ldots+f\left(x_{n-1}\right)\right]\right\},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1345_4_SIMPSONA">R(f)=-\frac{b-a}{180} h^{4} f^{(\mathrm{IV})}(\xi),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_1_SIMPSONA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_2_SIMPSONA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_3_SIMPSONA">\left[x_{i}, x_{i+1}\right], i=0,1,2, \ldots, n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_4_SIMPSONA">h=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_5_SIMPSONA">=(b-a) / n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_6_SIMPSONA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_7_SIMPSONA">\left[x_{2 k}, x_{2 k+2}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_8_SIMPSONA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_9_SIMPSONA">n / 2-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_10_SIMPSONA">x_{j}=a+j h, j=0,1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_11_SIMPSONA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_12_SIMPSONA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_13_SIMPSONA">r(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_14_SIMPSONA">(2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_15_SIMPSONA">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1345_16_SIMPSONA">[a, b]</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/1345_1_SIMPSONA">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1345_2_SIMPSONA">
+      <rel_text>получившего</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1345_3_SIMPSONA">
+      <rel_text>Симпсона</rel_text>
+      <target>http://libmeta.ru/me/article/1330_SIMPЈEK</target>
+    </relation>
+  </relations>
+  <text>частный М. М. Постников. на- Котеса квадратурной форлулы, в к-рой берутся три узла:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1345_1_SIMPSONA]]/URI
+\]
+
+Пустъ промежуток $URI[[http://libmeta.ru/me/formula/aux/1345_1_SIMPSONA]]/URI$ разбит на $URI[[http://libmeta.ru/me/formula/aux/1345_2_SIMPSONA]]/URI$ частичных промежутков $URI[[http://libmeta.ru/me/formula/aux/1345_3_SIMPSONA]]/URI$, длины $URI[[http://libmeta.ru/me/formula/aux/1345_4_SIMPSONA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1345_5_SIMPSONA]]/URI$, при этом $URI[[http://libmeta.ru/me/formula/aux/1345_6_SIMPSONA]]/URI$ считается четным числом, и для вычисления интеграла по промежутку $URI[[http://libmeta.ru/me/formula/aux/1345_7_SIMPSONA]]/URI$. исшользована квадратурная формула (1):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1345_2_SIMPSONA]]/URI
+\]
+
+Суммирование по $URI[[http://libmeta.ru/me/formula/aux/1345_8_SIMPSONA]]/URI$ от 0 до $URI[[http://libmeta.ru/me/formula/aux/1345_9_SIMPSONA]]/URI$ левой и правой частей этого равенства приводит к составной С. ф.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1345_3_SIMPSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1345_10_SIMPSONA]]/URI$. Квадратурную формулу (2) также называют С. ф. (без добавления слова составная). Алгебраич. степень точности квадратурной формулы (2), как и формулы (1), равна 3.
+
+Если подинтегральная функция $URI[[http://libmeta.ru/me/formula/aux/1345_11_SIMPSONA]]/URI$ имеет непрерывную производную 4-го порядка на $URI[[http://libmeta.ru/me/formula/aux/1345_12_SIMPSONA]]/URI$, то погрешность $URI[[http://libmeta.ru/me/formula/aux/1345_13_SIMPSONA]]/URI$ квадратурной формулы $URI[[http://libmeta.ru/me/formula/aux/1345_14_SIMPSONA]]/URI$ - разность между левой и правой частями приближенного равенства (2) - имеет представление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1345_4_SIMPSONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1345_15_SIMPSONA]]/URI$ - нек-рая точка из промежутка $URI[[http://libmeta.ru/me/formula/aux/1345_16_SIMPSONA]]/URI$.
+
+C. ф. названа по имени Т. URI[[http://libmeta.ru/me/relation/1345_3_SIMPSONA]]/URI (th. Simpson), URI[[http://libmeta.ru/me/relation/1345_2_SIMPSONA]]/URI ее в 1743, хотя эта URI[[http://libmeta.ru/me/relation/1345_1_SIMPSONA]]/URI была известна ранее, напр. Дж. Грегори (ј. Gregory, 1668).</text>
+  <text_orig>частный М. М. Постников. на- Котеса квадратурной форлулы, в к-рой берутся три узла:
+
+\[
+\int_{a}^{b} f(x) d x \cong \frac{b-a}{6}\left[f(a)+4 f\left(\frac{a+b}{2}\right)+f(b)\right]
+\]
+
+Пустъ промежуток $[a, b]$ разбит на $n$ частичных промежутков $\left[x_{i}, x_{i+1}\right], i=0,1,2, \ldots, n-1$, длины $h=$ $=(b-a) / n$, при этом $n$ считается четным числом, и для вычисления интеграла по промежутку $\left[x_{2 k}, x_{2 k+2}\right]$. исшользована квадратурная формула (1):
+
+\[
+\int_{x_{2 k}}^{x_{2 k+2}} f(x) d x \cong \frac{h}{3}\left[f\left(x_{2 k}\right)+4 f\left(x_{2 k+1}\right)+f\left(x_{2 k+2}\right)\right]
+\]
+
+Суммирование по $k$ от 0 до $n / 2-1$ левой и правой частей этого равенства приводит к составной С. ф.:
+
+\[
+\begin{aligned}
+&amp; \int_{a}^{b} f(x) d x \cong \frac{h}{3}\left\{f(a)+f(b)+2\left[f\left(x_{2}\right)+f\left(x_{4}\right)+\ldots\right.\right. \\
+&amp; \left.\left.\ldots+f\left(x_{n-2}\right)\right]+4\left[f\left(x_{1}\right)+f\left(x_{3}\right)+\ldots+f\left(x_{n-1}\right)\right]\right\},
+\end{aligned}
+\]
+
+где $x_{j}=a+j h, j=0,1,2, \ldots, n$. Квадратурную формулу (2) также называют С. ф. (без добавления слова составная). Алгебраич. степень точности квадратурной формулы (2), как и формулы (1), равна 3.
+
+Если подинтегральная функция $f(x)$ имеет непрерывную производную 4-го порядка на $[a, b]$, то погрешность $R(f)$ квадратурной формулы $(2)$ - разность между левой и правой частями приближенного равенства (2) - имеет представление
+
+\[
+R(f)=-\frac{b-a}{180} h^{4} f^{(\mathrm{IV})}(\xi),
+\]
+
+где $\xi$ - нек-рая точка из промежутка $[a, b]$.
+
+C. ф. названа по имени Т. Симпсона (Th. Simpson), получившего ее в 1743, хотя эта формула была известна ранее, напр. Дж. Грегори (Ј. Gregory, 1668).</text_orig>
+</article>

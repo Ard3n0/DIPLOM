@@ -1,0 +1,533 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/18_DARBU" alphabetic_pos="18">
+  <title>ДАРБУ СУММА</title>
+  <authors/>
+  <pages>
+    <start>9</start>
+    <end>10</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] D a r b o u x G., &quot;ann. sci. Ecole Norm. supér.&quot;, 1875 , ser. 2, t. 4, p. 57-112; [2] И ль и н В. А., П о 3 н я Э. Г., Основы математического анализа, 3 изд., т. $1-2$, М., 2 изд., т. 1-2, М., 1973; [4] Н и ко л ь с к и й С. М., Курс математического анализа, 2 изд., т. $1-2$, М., 1975.</literature_orig>
+    <unit>
+      <author>Darboux G.</author>
+      <title>&quot;ann. sci. Ecole Norm. supér.&quot;</title>
+      <publication/>
+      <year>1875</year>
+      <other>ser. 2, t. 4, p. 57-112</other>
+    </unit>
+    <unit>
+      <author>Ильин В. А.</author>
+      <author>По3ня Э. Г.</author>
+      <title>Основы математического анализа</title>
+      <publication>3 изд., т. $1-2$, М., 2 изд., т. 1-2, М.</publication>
+      <year>1973</year>
+      <other>Курс математического анализа, 2 изд., т. $1-2$, М., 1975.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/18_1_DARBU">\begin{aligned}&amp; a=x_{0}&lt;x_{1}&lt;\ldots&lt;x_{i-1}&lt;x_{i}&lt;\ldots&lt;x_{k}=b, \\&amp; \Delta x_{i}=x_{i}-x_{i-1}, m_{i}=\quad \text { inf } f(x), \quad M_{i}=\sup f(x) \text {, } \\&amp; x_{i-1} \leqslant x \leqslant x_{i} \quad x_{i-1} \leqslant x \leqslant x_{i} \\&amp; i=1,2, \ldots, k \text {. } \\&amp; s_{\tau}=\sum_{i=1}^{k} m_{i} \Delta x_{i} \quad \text { и } \quad S_{\tau}=\sum_{i=1}^{k} M_{i} \Delta x_{i}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_2_DARBU">\begin{gathered}\sigma_{\tau}=\sum_{i=1}^{k} f\left(\xi_{i}\right) \Delta x_{i}, \\\xi_{i} \in\left[x_{i-1}, x_{i}\right],\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_3_DARBU">\begin{aligned}&amp; s \tau=\inf _{\xi_{1}, \ldots, \xi_{k}} \sigma_{\tau}, \\&amp; S_{\tau}=\sup _{\xi_{1}, \ldots, \xi_{k}} \sigma_{\tau} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_4_DARBU">I_{*}=\sup _{\tau} s_{\tau} \quad \text { п } \quad I^{*}=\inf _{\tau} S_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_5_DARBU">I_{*}=\lim _{\delta_{\tau \rightarrow 0}} s_{\tau}, \quad I^{*}=\lim _{\delta_{\tau} \rightarrow 0} s_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_6_DARBU">\delta_{\tau}=\max _{i=1,2, \ldots, k} \Delta x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_7_DARBU">I_{*}=I^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_8_DARBU">\int_{a}^{b} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_9_DARBU">S_{\tau}-s_{\tau}&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_10_DARBU">\lim _{\delta_{\tau} \rightarrow 0}\left(S_{\tau}-s_{\tau}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_11_DARBU">S_{\tau}-s_{\tau}=\sum_{i=1}^{k} \omega_{i}(f) \Delta x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_12_DARBU">\left[x_{i-1}, x_{i}\right], \quad i=1,2, \ldots, k .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_13_DARBU">\begin{gathered}\bigcup_{i=1}^{k} E_{i}=E, \\\mu\left(E_{i} \cap E_{i^{\prime}}\right)=0 \quad \text { при } i \neq i^{\prime} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_14_DARBU">m_{i}=\inf _{x \in E_{i}} f(x), \quad M_{i}=\sup _{x \in E_{i}} f(x), \quad i=1,2, \ldots, k .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_15_DARBU">s_{\tau}=\sum_{i=1}^{k} m_{i} \mu\left(E_{i}\right), \quad S_{\tau}=\sum_{i=1}^{k} M_{i} \mu\left(E_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_16_DARBU">I_{*}=I^{*}=\int_{E} f(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_17_DARBU">I_{*}=I^{*}=\int_{E} f(x) d \mu .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/18_18_DARBU">\begin{aligned}s_{\tau} &amp; =\sum_{i=1}^{\infty} m_{i} \mu\left(E_{i}\right), \\s_{\tau} &amp; =\sum_{i=1}^{\infty} M_{i} \mu\left(E_{i}\right),\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_1_DARBU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_2_DARBU">[a, b], \tau=\left\{x_{i}\right\}_{i=0}^{i=k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_3_DARBU">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_4_DARBU">\tau^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_5_DARBU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_6_DARBU">s_{\tau} \leqslant S_{\tau^{\prime}}, \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_7_DARBU">\delta x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_8_DARBU">m_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_9_DARBU">m_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_10_DARBU">f(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_11_DARBU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_12_DARBU">x=a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_13_DARBU">x=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_14_DARBU">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_15_DARBU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_16_DARBU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_17_DARBU">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_18_DARBU">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_19_DARBU">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_20_DARBU">\omega_{i}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_21_DARBU">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_22_DARBU">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_23_DARBU">e-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_24_DARBU">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_25_DARBU">n=1,2, \ldots, \tau=\left\{E_{i}\right\}_{i=1}^{i=k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_26_DARBU">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_27_DARBU">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_28_DARBU">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_29_DARBU">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_30_DARBU">i_{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_31_DARBU">i^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_32_DARBU">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_33_DARBU">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_34_DARBU">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_35_DARBU">\im_{\mu}=\{e\}, f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_36_DARBU">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_37_DARBU">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_38_DARBU">\tau=\left\{e_{i}\right\}_{i=1}^{i=k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_39_DARBU">e \in \S_{\mu}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_40_DARBU">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_41_DARBU">e_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_42_DARBU">s_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_43_DARBU">s_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_44_DARBU">(5)-(6)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_45_DARBU">i_{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_46_DARBU">i^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_47_DARBU">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_48_DARBU">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_49_DARBU">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_50_DARBU">e \in \Im_{\mu}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_51_DARBU">\tau=\left\{e_{i}\right\}_{i=1}^{\infty}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_52_DARBU">e \in \Im_{\mu}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_53_DARBU">\left.\bigcup_{i=1}^{\infty} E_{i}=E\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_54_DARBU">m_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_55_DARBU">m_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_56_DARBU">\infty \cdot 0=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_57_DARBU">=0 \cdot \infty=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_58_DARBU">i_{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_59_DARBU">i^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/18_60_DARBU">i=i_{*}=i^{*}</formula>
+  </formulas_aux>
+  <relations n="41">
+    <relation uri="http://libmeta.ru/me/relation/18_1_DARBU">
+      <rel_text>формулах</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_2_DARBU">
+      <rel_text>формулах</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_3_DARBU">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_4_DARBU">
+      <rel_text>разбиение</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_5_DARBU">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_6_DARBU">
+      <rel_text>разбиение</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_7_DARBU">
+      <rel_text>множествах</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_8_DARBU">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_9_DARBU">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_10_DARBU">
+      <rel_text>интегралы</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_11_DARBU">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_12_DARBU">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_13_DARBU">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_14_DARBU">
+      <rel_text>разбиение</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_15_DARBU">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_16_DARBU">
+      <rel_text>полная</rel_text>
+      <target>http://libmeta.ru/me/article/501_POLI0</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_17_DARBU">
+      <rel_text>Лебегу функций</rel_text>
+      <target>http://libmeta.ru/me/article/237_LEBEGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_18_DARBU">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_19_DARBU">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_20_DARBU">
+      <rel_text>интегрируемости</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_21_DARBU">
+      <rel_text>необходимым и достаточным условием</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_22_DARBU">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_23_DARBU">
+      <rel_text>интегралы</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_24_DARBU">
+      <rel_text>множестве</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_25_DARBU">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_26_DARBU">
+      <rel_text>измеримых множеств</rel_text>
+      <target>http://libmeta.ru/me/article/504_IZMERIMOंE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_27_DARBU">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_28_DARBU">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_29_DARBU">
+      <rel_text>разбиение</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_30_DARBU">
+      <rel_text>пространства</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_31_DARBU">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_32_DARBU">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_33_DARBU">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_34_DARBU">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_35_DARBU">
+      <rel_text>колебание функции</rel_text>
+      <target>http://libmeta.ru/me/article/959_KOLEBANIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_36_DARBU">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_37_DARBU">
+      <rel_text>Риману функции</rel_text>
+      <target>http://libmeta.ru/me/article/1107_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_38_DARBU">
+      <rel_text>интегрируемости</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_39_DARBU">
+      <rel_text>необходимым и достаточным</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_40_DARBU">
+      <rel_text>разбиение</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/18_41_DARBU">
+      <rel_text>әквивалентной</rel_text>
+      <target>http://libmeta.ru/me/article/1111_ӘKVIDISTANT</target>
+    </relation>
+  </relations>
+  <text>сумма специального вида. Пусть действительная функция $URI[[http://libmeta.ru/me/formula/aux/18_1_DARBU]]/URI$ определена и ограничена на отрезке $URI[[http://libmeta.ru/me/formula/aux/18_2_DARBU]]/URI$ его разбиение:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_1_DARBU]]/URI
+\]
+
+наз. соответственно ни жн е й и в е р х н е й интегральной Д. с. Для любых двух разбиений $URI[[http://libmeta.ru/me/formula/aux/18_3_DARBU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/18_4_DARBU]]/URI$ отрезка $URI[[http://libmeta.ru/me/formula/aux/18_5_DARBU]]/URI$ справедливо неравенство $URI[[http://libmeta.ru/me/formula/aux/18_6_DARBU]]/URI$ т. е. любая нижняя Д. с. меньше верхней. Если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_2_DARBU]]/URI
+\]
+
+- интегральная сумма Римана, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_3_DARBU]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d6dcb49a0accbbefdedeg-1.jpg?height=330&amp;width=385&amp;top_left_y=1552&amp;top_left_x=1430)
+
+Геометрич. смысл нижней и верхней Д. с. заключается в том, что они равны площадям ступенчатых фигур, состоящих из прямоугольников с основаниями длины $URI[[http://libmeta.ru/me/formula/aux/18_7_DARBU]]/URI$ и высотами соответственно $URI[[http://libmeta.ru/me/formula/aux/18_8_DARBU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/18_9_DARBU]]/URI$ (см. рис.). Эти фигуры в случае, когда $URI[[http://libmeta.ru/me/formula/aux/18_10_DARBU]]/URI$, аппроксимируют изнутри и извне криволинейную трапецию, образованную графиком функции $URI[[http://libmeta.ru/me/formula/aux/18_11_DARBU]]/URI$, осью абсцисс и отрезками прямых $URI[[http://libmeta.ru/me/formula/aux/18_12_DARBU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/18_13_DARBU]]/URI$ (которые могут вырождаться в точки).
+
+Величины
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_4_DARBU]]/URI
+\] наз. соответственно н и ж н и м и в е р х ни м и нт е г р а л м Д а р б у. Они являются пределами нижних и верхних Д. с.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_5_DARBU]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_6_DARBU]]/URI
+\]
+
+- мелкость разбиения $URI[[http://libmeta.ru/me/formula/aux/18_14_DARBU]]/URI$ в. Условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_7_DARBU]]/URI
+\]
+
+является необходимым и достаточным для того, чтобы функция $URI[[http://libmeta.ru/me/formula/aux/18_15_DARBU]]/URI$ была интегрируема по Риману на отрезке $URI[[http://libmeta.ru/me/formula/aux/18_16_DARBU]]/URI$. При этом в случае выполнения условия (2) значение нижнего и верхнего интегралов Дарбу совпадает с интегралом Римана
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_8_DARBU]]/URI
+\]
+
+Условие (2) с помощью Д. с. может быть сформулировано в следующей URI[[http://libmeta.ru/me/relation/18_41_DARBU]]/URI форме: для любого $URI[[http://libmeta.ru/me/formula/aux/18_17_DARBU]]/URI$ существует такое URI[[http://libmeta.ru/me/relation/18_40_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_18_DARBU]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_9_DARBU]]/URI
+\]
+
+Условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_10_DARBU]]/URI
+\]
+
+также является URI[[http://libmeta.ru/me/relation/18_39_DARBU]]/URI для URI[[http://libmeta.ru/me/relation/18_38_DARBU]]/URI по URI[[http://libmeta.ru/me/relation/18_37_DARBU]]/URI на URI[[http://libmeta.ru/me/relation/18_36_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_19_DARBU]]/URI$. При этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_11_DARBU]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/18_20_DARBU]]/URI$ - URI[[http://libmeta.ru/me/relation/18_35_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_21_DARBU]]/URI$ на URI[[http://libmeta.ru/me/relation/18_34_DARBU]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_12_DARBU]]/URI
+\]
+
+Понятие нижних и верхних Д. с. обобщается на случай URI[[http://libmeta.ru/me/relation/18_33_DARBU]]/URI многих URI[[http://libmeta.ru/me/relation/18_32_DARBU]]/URI, измеримых в смысле нек-рой положительной меры $URI[[http://libmeta.ru/me/formula/aux/18_22_DARBU]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/18_23_DARBU]]/URI$ измеримое (напр., по Жордану или по Лебегу) URI[[http://libmeta.ru/me/relation/18_31_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_24_DARBU]]/URI$-мерного URI[[http://libmeta.ru/me/relation/18_30_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_25_DARBU]]/URI$ URI[[http://libmeta.ru/me/relation/18_29_DARBU]]/URI URI[[http://libmeta.ru/me/relation/18_28_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_26_DARBU]]/URI$, т. е. URI[[http://libmeta.ru/me/relation/18_27_DARBU]]/URI таких URI[[http://libmeta.ru/me/relation/18_26_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_27_DARBU]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_13_DARBU]]/URI
+\]
+
+Пусть URI[[http://libmeta.ru/me/relation/18_25_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_28_DARBU]]/URI$ ограничена на URI[[http://libmeta.ru/me/relation/18_24_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_29_DARBU]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_14_DARBU]]/URI
+\]
+
+Суммы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_15_DARBU]]/URI
+\]
+
+также наз. нижней и, соответственно, верхней Д. с. Нижний $URI[[http://libmeta.ru/me/formula/aux/18_30_DARBU]]/URI$ и верхний $URI[[http://libmeta.ru/me/formula/aux/18_31_DARBU]]/URI$ URI[[http://libmeta.ru/me/relation/18_23_DARBU]]/URI определяются по URI[[http://libmeta.ru/me/relation/18_22_DARBU]]/URI (1). В случае меры Жкордана их равенство является URI[[http://libmeta.ru/me/relation/18_21_DARBU]]/URI URI[[http://libmeta.ru/me/relation/18_20_DARBU]]/URI URI[[http://libmeta.ru/me/relation/18_19_DARBU]]/URI по Риману, причем их общее значение URI[[http://libmeta.ru/me/relation/18_18_DARBU]]/URI с интегралом Римана. В случае же меры Лебега для ограниченных измеримых по URI[[http://libmeta.ru/me/relation/18_17_DARBU]]/URI всегда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_16_DARBU]]/URI
+\]
+
+Вообще, если $URI[[http://libmeta.ru/me/formula/aux/18_32_DARBU]]/URI$ - URI[[http://libmeta.ru/me/relation/18_16_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_33_DARBU]]/URI$-аддитивная мера, определенная на $URI[[http://libmeta.ru/me/formula/aux/18_34_DARBU]]/URI$-алгебре $URI[[http://libmeta.ru/me/formula/aux/18_35_DARBU]]/URI$ - ограниченная $URI[[http://libmeta.ru/me/formula/aux/18_36_DARBU]]/URI$-измеримая на $URI[[http://libmeta.ru/me/formula/aux/18_37_DARBU]]/URI$ действительная URI[[http://libmeta.ru/me/relation/18_15_DARBU]]/URI, $URI[[http://libmeta.ru/me/formula/aux/18_38_DARBU]]/URI$ URI[[http://libmeta.ru/me/relation/18_14_DARBU]]/URI URI[[http://libmeta.ru/me/relation/18_13_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_39_DARBU]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/18_40_DARBU]]/URI$-измеримые URI[[http://libmeta.ru/me/relation/18_12_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_41_DARBU]]/URI$, удовлетворяющие условиям (3), (4), Д. с. $URI[[http://libmeta.ru/me/formula/aux/18_42_DARBU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/18_43_DARBU]]/URI$ определяются по URI[[http://libmeta.ru/me/relation/18_11_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_44_DARBU]]/URI$, а URI[[http://libmeta.ru/me/relation/18_10_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_45_DARBU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/18_46_DARBU]]/URI$ - по URI[[http://libmeta.ru/me/relation/18_9_DARBU]]/URI (1), в к-рых везде под $URI[[http://libmeta.ru/me/formula/aux/18_47_DARBU]]/URI$ понимают рассматриваемую меру, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_17_DARBU]]/URI
+\]
+
+Обобщением Д. с. для неограниченных $URI[[http://libmeta.ru/me/formula/aux/18_48_DARBU]]/URI$-измеримых URI[[http://libmeta.ru/me/relation/18_8_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_49_DARBU]]/URI$, определенных на URI[[http://libmeta.ru/me/relation/18_7_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_50_DARBU]]/URI$, являются ряды (если они абсолютно сходятся)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/18_18_DARBU]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/18_51_DARBU]]/URI$ URI[[http://libmeta.ru/me/relation/18_6_DARBU]]/URI URI[[http://libmeta.ru/me/relation/18_5_DARBU]]/URI $URI[[http://libmeta.ru/me/formula/aux/18_52_DARBU]]/URI$ (это URI[[http://libmeta.ru/me/relation/18_4_DARBU]]/URI состоит, вообще говоря, из бесконечного
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c629ac1ece106cfd9065g-1.jpg?height=37&amp;width=819&amp;top_left_y=681&amp;top_left_x=990)
+условию ('t) и, конечно, таких, что $URI[[http://libmeta.ru/me/formula/aux/18_53_DARBU]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/18_54_DARBU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/18_55_DARBU]]/URI$ определяются по URI[[http://libmeta.ru/me/relation/18_3_DARBU]]/URI (5), при этом в URI[[http://libmeta.ru/me/relation/18_2_DARBU]]/URI (7) (как и выше в URI[[http://libmeta.ru/me/relation/18_1_DARBU]]/URI (6)) считается, что $URI[[http://libmeta.ru/me/formula/aux/18_56_DARBU]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/18_57_DARBU]]/URI$. Если снова определить $URI[[http://libmeta.ru/me/formula/aux/18_58_DARBU]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/18_59_DARBU]]/URI$ по (1), по-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c629ac1ece106cfd9065g-1.jpg?height=40&amp;width=824&amp;top_left_y=836&amp;top_left_x=987)
+в случае, когда величина $URI[[http://libmeta.ru/me/formula/aux/18_60_DARBU]]/URI$ является конечной,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c629ac1ece106cfd9065g-1.jpg?height=74&amp;width=824&amp;top_left_y=898&amp;top_left_x=987)</text>
+  <text_orig>сумма специального вида. Пусть действительная функция $f(x)$ определена и ограничена на отрезке $[a, b], \tau=\left\{x_{i}\right\}_{i=0}^{i=k}-$ его разбиение:
+
+\[
+\begin{aligned}
+&amp; a=x_{0}&lt;x_{1}&lt;\ldots&lt;x_{i-1}&lt;x_{i}&lt;\ldots&lt;x_{k}=b, \\
+&amp; \Delta x_{i}=x_{i}-x_{i-1}, m_{i}=\quad \text { inf } f(x), \quad M_{i}=\sup f(x) \text {, } \\
+&amp; x_{i-1} \leqslant x \leqslant x_{i} \quad x_{i-1} \leqslant x \leqslant x_{i} \\
+&amp; i=1,2, \ldots, k \text {. } \\
+&amp; s_{\tau}=\sum_{i=1}^{k} m_{i} \Delta x_{i} \quad \text { и } \quad S_{\tau}=\sum_{i=1}^{k} M_{i} \Delta x_{i}
+\end{aligned}
+\]
+
+наз. соответственно ни жн е й и в е р х н е й интегральной Д. с. Для любых двух разбиений $\tau$ и $\tau^{\prime}$ отрезка $[a, b]$ справедливо неравенство $s_{\tau} \leqslant S_{\tau^{\prime}}, \quad$ т. е. любая нижняя Д. с. меньше верхней. Если
+
+\[
+\begin{gathered}
+\sigma_{\tau}=\sum_{i=1}^{k} f\left(\xi_{i}\right) \Delta x_{i}, \\
+\xi_{i} \in\left[x_{i-1}, x_{i}\right],
+\end{gathered}
+\]
+
+- интегральная сумма Римана, то
+
+\[
+\begin{aligned}
+&amp; s \tau=\inf _{\xi_{1}, \ldots, \xi_{k}} \sigma_{\tau}, \\
+&amp; S_{\tau}=\sup _{\xi_{1}, \ldots, \xi_{k}} \sigma_{\tau} .
+\end{aligned}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_d6dcb49a0accbbefdedeg-1.jpg?height=330&amp;width=385&amp;top_left_y=1552&amp;top_left_x=1430)
+
+Геометрич. смысл нижней и верхней Д. с. заключается в том, что они равны площадям ступенчатых фигур, состоящих из прямоугольников с основаниями длины $\Delta x_{i}$ и высотами соответственно $m_{i}$ и $M_{i}$ (см. рис.). Эти фигуры в случае, когда $f(x) \geqslant 0$, аппроксимируют изнутри и извне криволинейную трапецию, образованную графиком функции $f(x)$, осью абсцисс и отрезками прямых $x=a$ и $x=b$ (которые могут вырождаться в точки).
+
+Величины
+
+\[
+I_{*}=\sup _{\tau} s_{\tau} \quad \text { п } \quad I^{*}=\inf _{\tau} S_{\tau}
+\] наз. соответственно н и ж н и м и в е р х ни м и нт е г р а л м Д а р б у. Они являются пределами нижних и верхних Д. с.:
+
+\[
+I_{*}=\lim _{\delta_{\tau \rightarrow 0}} s_{\tau}, \quad I^{*}=\lim _{\delta_{\tau} \rightarrow 0} s_{\tau}
+\]
+
+где
+
+\[
+\delta_{\tau}=\max _{i=1,2, \ldots, k} \Delta x_{i}
+\]
+
+- мелкость разбиения $\tau$ в. Условие
+
+\[
+I_{*}=I^{*}
+\]
+
+является необходимым и достаточным для того, чтобы функция $f(x)$ была интегрируема по Риману на отрезке $[a, b]$. При этом в случае выполнения условия (2) значение нижнего и верхнего интегралов Дарбу совпадает с интегралом Римана
+
+\[
+\int_{a}^{b} f(x) d x
+\]
+
+Условие (2) с помощью Д. с. может быть сформулировано в следующей әквивалентной форме: для любого $\varepsilon&gt;0$ существует такое разбиение $\tau$, что
+
+\[
+S_{\tau}-s_{\tau}&lt;\varepsilon
+\]
+
+Условие
+
+\[
+\lim _{\delta_{\tau} \rightarrow 0}\left(S_{\tau}-s_{\tau}\right)=0
+\]
+
+также является необходимым и достаточным для интегрируемости по Риману функции на отрезке $[a, b]$. При этом
+
+\[
+S_{\tau}-s_{\tau}=\sum_{i=1}^{k} \omega_{i}(f) \Delta x_{i}
+\]
+
+где $\omega_{i}(f)$ - колебание функции $f(x)$ на отрезке
+
+\[
+\left[x_{i-1}, x_{i}\right], \quad i=1,2, \ldots, k .
+\]
+
+Понятие нижних и верхних Д. с. обобщается на случай функций многих переменных, измеримых в смысле нек-рой положительной меры $\mu$. Пусть $E-$ измеримое (напр., по Жордану или по Лебегу) множество $n$-мерного пространства $n=1,2, \ldots, \tau=\left\{E_{i}\right\}_{i=1}^{i=k}$ разбиение множества $E$, т. е. система таких измеримых множеств $E$, что
+
+\[
+\begin{gathered}
+\bigcup_{i=1}^{k} E_{i}=E, \\
+\mu\left(E_{i} \cap E_{i^{\prime}}\right)=0 \quad \text { при } i \neq i^{\prime} .
+\end{gathered}
+\]
+
+Пусть функция $f$ ограничена на множестве $E$,
+
+\[
+m_{i}=\inf _{x \in E_{i}} f(x), \quad M_{i}=\sup _{x \in E_{i}} f(x), \quad i=1,2, \ldots, k .
+\]
+
+Суммы
+
+\[
+s_{\tau}=\sum_{i=1}^{k} m_{i} \mu\left(E_{i}\right), \quad S_{\tau}=\sum_{i=1}^{k} M_{i} \mu\left(E_{i}\right)
+\]
+
+также наз. нижней и, соответственно, верхней Д. с. Нижний $I_{*}$ и верхний $I^{*}$ интегралы определяются по формулам (1). В случае меры ЖКордана их равенство является необходимым и достаточным условием интегрируемости функции по Риману, причем их общее значение совпадает с интегралом Римана. В случае же меры Лебега для ограниченных измеримых по Лебегу функций всегда
+
+\[
+I_{*}=I^{*}=\int_{E} f(x) d x .
+\]
+
+Вообще, если $\mu$ - полная $\sigma$-аддитивная мера, определенная на $\sigma$-алгебре $\Im_{\mu}=\{E\}, f$ - ограниченная $\mu$-измеримая на $E$ действительная функция, $\tau=\left\{E_{i}\right\}_{i=1}^{i=k}$ разбиение множества $E \in \S_{\mu}$ на $\mu$-измеримые множества $E_{i}$, удовлетворяющие условиям (3), (4), Д. с. $s_{\tau}$ и $S_{\tau}$ определяются по формулам $(5)-(6)$, а интегралы $I_{*}$ и $I^{*}$ - по формулам (1), в к-рых везде под $\mu$ понимают рассматриваемую меру, то
+
+\[
+I_{*}=I^{*}=\int_{E} f(x) d \mu .
+\]
+
+Обобщением Д. с. для неограниченных $\mu$-измеримых функций $f$, определенных на множествах $E \in \Im_{\mu}$, являются ряды (если они абсолютно сходятся)
+
+\[
+\begin{aligned}
+s_{\tau} &amp; =\sum_{i=1}^{\infty} m_{i} \mu\left(E_{i}\right), \\
+s_{\tau} &amp; =\sum_{i=1}^{\infty} M_{i} \mu\left(E_{i}\right),
+\end{aligned}
+\]
+
+где $\tau=\left\{E_{i}\right\}_{i=1}^{\infty}-$ разбиение множества $E \in \Im_{\mu}$ (это разбиение состоит, вообще говоря, из бесконечного
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c629ac1ece106cfd9065g-1.jpg?height=37&amp;width=819&amp;top_left_y=681&amp;top_left_x=990)
+условию ('t) и, конечно, таких, что $\left.\bigcup_{i=1}^{\infty} E_{i}=E\right)$, а $m_{i}$ и $M_{i}$ определяются по формулам (5), при этом в формулах (7) (как и выше в формулах (6)) считается, что $\infty \cdot 0=$ $=0 \cdot \infty=0$. Если снова определить $I_{*}$ и $I^{*}$ по (1), по-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c629ac1ece106cfd9065g-1.jpg?height=40&amp;width=824&amp;top_left_y=836&amp;top_left_x=987)
+в случае, когда величина $I=I_{*}=I^{*}$ является конечной,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c629ac1ece106cfd9065g-1.jpg?height=74&amp;width=824&amp;top_left_y=898&amp;top_left_x=987)
+
+Jum.: [1] D a r b o u x G., &quot;Ann. sci. Ecole Norm. supér.&quot;, 1875 , ser. 2, t. 4, p. 57-112; [2] И ль и н В. А., П о 3 н я Э. Г., Основы математического анализа, 3 изд., т. $1-2$, М., 2 изд., т. 1-2, М., 1973; [4] Н и ко л ь с к и й С. М., Курс математического анализа, 2 изд., т. $1-2$, М., 1975.</text_orig>
+</article>

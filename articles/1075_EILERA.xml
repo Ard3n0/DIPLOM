@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1075_EILERA" alphabetic_pos="1075">
+  <title>ЭИЛЕРА МНОГОЧЛЕНЫІ</title>
+  <authors/>
+  <pages>
+    <start>465</start>
+    <end>465</end>
+  </pages>
+  <literature>
+    <literature_orig>лит.: [1] Э ї Ј e p J., Дифференциальное исчисление, пер. c лат., M. - J., 1949; 12$]$ Norl und N. E., Vorlesungen über</literature_orig>
+    <unit>
+      <author>ЭїЈep J.</author>
+      <title>Дифференциальное исчисление</title>
+      <publication>пер. c лат., M. - J.</publication>
+      <year>1949</year>
+      <other>Vorlesungen über</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_1_EILERA">E_{n}(x)=\sum_{k=0}^{n} C_{n}^{k} \frac{E_{k}}{2^{k}}\left(x-\frac{1}{2}\right)^{n-k},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_2_EILERA">E_{n}(x)+\sum_{s=0}^{n} C_{n}^{s} E_{s}(x)=2 x^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_3_EILERA">E_{0}(x)=1, E_{1}(x)=x-\frac{1}{2}, E_{2}(x)=x(x-1) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_4_EILERA">E_{n}(x+1)+E_{n}(x)=2 x^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_5_EILERA">\frac{d}{d x} E_{n}(x)=n E_{n-1}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_6_EILERA">\frac{2 e^{x t}}{e^{t}+1}=\sum_{n=0}^{\infty} \frac{E_{n}(x)}{n !} t^{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_7_EILERA">\begin{gathered}E_{n}(x)=\frac{n !}{\pi^{n+1}} \sum_{k=0}^{\infty} \frac{\cos \left[(2 k+1) \pi x+\frac{n+1}{2} \pi\right]}{(2 k+1)^{n+1}}, \\0 \leqslant x \leqslant 1, \quad n \geqslant 1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1075_8_EILERA">\begin{gathered}E_{n}(1-x)=(-1)^{n} E_{n}(x), \\E_{n}(m x)=m^{n} \sum_{k=0}^{m-1}(-1)^{k} E_{n}\left(x+\frac{k}{m}\right), \\E_{n}(m x)=-\frac{2 m^{n}}{n+1} \sum_{k=0}^{m-1}(-1)^{k} E_{n+1}\left(x+\frac{k}{m}\right), \\\text { если } m \text { четно. }\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1075_1_EILERA">e_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1075_2_EILERA">a</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/1075_1_EILERA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1075_2_EILERA">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1075_3_EILERA">
+      <rel_text>Колмогорова неравенстве</rel_text>
+      <target>http://libmeta.ru/me/article/970_KOLMOGOROVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1075_4_EILERA">
+      <rel_text>совпадающие</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1075_5_EILERA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1075_6_EILERA">
+      <rel_text>Периодич</rel_text>
+      <target>http://libmeta.ru/me/article/250_PERIMET</target>
+    </relation>
+  </relations>
+  <text>многочлены вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_1_EILERA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1075_1_EILERA]]/URI$ - эйлеровь числа. Ә. м. можно последовательно вычислить по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_2_EILERA]]/URI
+\]
+
+В частности,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_3_EILERA]]/URI
+\]
+
+Э. м. удовлетворяют разностному уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_4_EILERA]]/URI
+\]
+
+и принадлежат классу $URI[[http://libmeta.ru/me/formula/aux/1075_2_EILERA]]/URI$ ппеля многочленов, т. е. удовлетворяют соотношению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_5_EILERA]]/URI
+\]
+
+Производящая функция для Э. м.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_6_EILERA]]/URI
+\]
+
+Для Э. м. справедливо разложение в ряд Фурье
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_7_EILERA]]/URI
+\]
+
+Э. м. удовлетворяют соотношениям:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1075_8_EILERA]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/1075_6_EILERA]]/URI. URI[[http://libmeta.ru/me/relation/1075_5_EILERA]]/URI, URI[[http://libmeta.ru/me/relation/1075_4_EILERA]]/URI с правой частью (*), являются әкстремальными в URI[[http://libmeta.ru/me/relation/1075_3_EILERA]]/URI и ряде других әкстремальных задач URI[[http://libmeta.ru/me/relation/1075_2_EILERA]]/URI URI[[http://libmeta.ru/me/relation/1075_1_EILERA]]/URI. Рассматриваются также обобщенные Э. м.</text>
+  <text_orig>многочлены вида
+
+\[
+E_{n}(x)=\sum_{k=0}^{n} C_{n}^{k} \frac{E_{k}}{2^{k}}\left(x-\frac{1}{2}\right)^{n-k},
+\]
+
+где $E_{k}$ - эйлеровь числа. Ә. м. можно последовательно вычислить по формуле
+
+\[
+E_{n}(x)+\sum_{s=0}^{n} C_{n}^{s} E_{s}(x)=2 x^{n}
+\]
+
+В частности,
+
+\[
+E_{0}(x)=1, E_{1}(x)=x-\frac{1}{2}, E_{2}(x)=x(x-1) .
+\]
+
+Э. м. удовлетворяют разностному уравнению
+
+\[
+E_{n}(x+1)+E_{n}(x)=2 x^{n}
+\]
+
+и принадлежат классу $A$ ппеля многочленов, т. е. удовлетворяют соотношению
+
+\[
+\frac{d}{d x} E_{n}(x)=n E_{n-1}(x) .
+\]
+
+Производящая функция для Э. м.:
+
+\[
+\frac{2 e^{x t}}{e^{t}+1}=\sum_{n=0}^{\infty} \frac{E_{n}(x)}{n !} t^{n} .
+\]
+
+Для Э. м. справедливо разложение в ряд Фурье
+
+\[
+\begin{gathered}
+E_{n}(x)=\frac{n !}{\pi^{n+1}} \sum_{k=0}^{\infty} \frac{\cos \left[(2 k+1) \pi x+\frac{n+1}{2} \pi\right]}{(2 k+1)^{n+1}}, \\
+0 \leqslant x \leqslant 1, \quad n \geqslant 1 .
+\end{gathered}
+\]
+
+Э. м. удовлетворяют соотношениям:
+
+\[
+\begin{gathered}
+E_{n}(1-x)=(-1)^{n} E_{n}(x), \\
+E_{n}(m x)=m^{n} \sum_{k=0}^{m-1}(-1)^{k} E_{n}\left(x+\frac{k}{m}\right), \\
+E_{n}(m x)=-\frac{2 m^{n}}{n+1} \sum_{k=0}^{m-1}(-1)^{k} E_{n+1}\left(x+\frac{k}{m}\right), \\
+\text { если } m \text { четно. }
+\end{gathered}
+\]
+
+Периодич. функции, совпадающие с правой частью (*), являются әкстремальными в Колмогорова неравенстве и ряде других әкстремальных задач теории функций. Рассматриваются также обобщенные Э. м.
+
+лит.: [1] Э ї Ј e p J., Дифференциальное исчисление, пер. c лат., M. - J., 1949; 12$]$ Norl und N. E., Vorlesungen über</text_orig>
+</article>

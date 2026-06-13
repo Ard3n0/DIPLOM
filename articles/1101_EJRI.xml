@@ -1,0 +1,406 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1101_EJRI" alphabetic_pos="1101">
+  <title>ЭЙРИ ФУНКЦИИ</title>
+  <authors/>
+  <pages>
+    <start>471</start>
+    <end>472</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] A i r y G. B., &quot;trans. Camb. Phil. Soc.», 1838, v. 6, p. $379-402 ;[2]$ S t o k e s G. G., там же, 1857, v. 10, p. 105-28; [3] Ф о к В. А., Таблицы функций Эйри, М., 1946; 44] Справочник по специальным функциям, пер. с англ,, М., 1979; [5] Ба б и ч В. М., Б у л д ы р е в В. С., Асимптотические методы в задачах дифракции коротких волн, М., 1972; [6] Ф ед о р ю к М. В., Метод перевала, М., 1977; [7] Ј а н-![](https://cdn.mathpix.com/cropped/2023_07_09_eaf6531b4404acd852d1g-1.jpg?height=43&amp;width=814&amp;top_left_y=2127&amp;top_left_x=141)сическое приближение для уравнений квантовой механики, М., сическое приближение для уравнений квантовой механики, М., 1952, т. 7, в. 6, с. $3-96 ;$ [10] В а 3 о в В., Асимптотические разложения решений обыкновенных диффференциальных уравнений, пер. с англ., М., 1968; [11] Ф е д о р ю к М. В., Асимптотические методы для линейных обыкновенных дифференциальных уравнений, М., 1983 .</literature_orig>
+    <unit>
+      <author>Airy G. B.</author>
+      <title>&quot;trans. Camb. Phil. Soc.»</title>
+      <publication/>
+      <year>1838</year>
+      <other>v. 6, p. $379-402</other>
+    </unit>
+    <unit>
+      <author>$Stokes G. G.</author>
+      <title>там же</title>
+      <publication/>
+      <year>1857</year>
+      <other>v. 10, p. 105-28</other>
+    </unit>
+    <unit>
+      <author>Фок В. А.</author>
+      <title>Таблицы функций Эйри</title>
+      <publication>М.</publication>
+      <year>1946</year>
+      <other>пер. с англ, М., 1979; [5] Ба б и ч В. М., Б у л д ы р е в В. С., Асимптотические методы в задачах дифракции коротких волн, М., 1972; [6] Ф ед о р ю к М. В., Метод перевала, М., 1977; [7] Ј а н-![](https://cdn.mathpix.com/cropped/2023_07_09_eaf6531b4404acd852d1g-1.jpg?height=43&amp;width=814&amp;top_left_y=2127&amp;top_left_x=141)сическое приближение для уравнений квантовой механики, М., сическое приближение для уравнений квантовой механики, М., 1952, т. 7, в. 6, с. $3-96 ;$ [10] В а 3 о в В., Асимптотические разложения решений обыкновенных диффференциальных уравнений, пер. с англ., М., 1968; [11] Ф е д о р ю к М. В., Асимптотические методы для линейных обыкновенных дифференциальных уравнений, М., 1983 .</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_1_EJRI">\operatorname{Ai}(x)=\frac{1}{\pi} \int_{0}^{\infty} \cos \left(\frac{t^{3}}{3}+x t\right) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_2_EJRI">\operatorname{Ai}(z)=\frac{1}{2 \pi} \int_{\gamma} \exp \left(z t-\frac{t^{3}}{3}\right) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_3_EJRI">\begin{gathered}v(z)=\frac{V \bar{\pi}}{2} \mathrm{Ai}(z), \\w_{1}(z)=2 e^{i \pi / 6} v(\omega z), \\w_{2}(z)=2 e^{-i \pi / 6} v\left(\omega^{-1} z\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_4_EJRI">v(z)=\frac{w_{1}(z)-w_{2}(z)}{2 i}, \overline{w_{1}(z)}=w_{2}(\bar{z}) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_5_EJRI">\begin{gathered}v(x)=\frac{1}{2} \frac{x^{-1 / 4}}{\sqrt{\pi}} \exp \left(-\frac{2}{3} x^{3 / 2}\right)\left[1+O\left(x^{-3 / 2}\right)\right], \\x \longrightarrow+\infty, \\v(x)=\frac{|x|^{-1 / 4}}{\sqrt{\pi}}\left[\sin \left(\frac{2}{3}|x|^{3 / 2}+\frac{\pi}{4}\right)+O\left(|x|^{-3 / 2}\right)\right], \\x \longrightarrow-\infty,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_6_EJRI">\begin{gathered}v(z) \sim \frac{1}{2 \sqrt{\pi}} z^{-1 / 4} \exp \left(-\frac{2}{3} z^{3 / 2}\right) \times \\\times \sum_{n=0}^{\infty}(-1)^{n} a_{n} z^{-3 n / 2} \text { при }|\arg z| \leqslant \pi-\varepsilon, \\w_{1}(z) \sim \frac{1}{\sqrt{\pi}} z^{-1 / 4} \exp \left(\frac{2}{3} z^{3 / 2}\right) \times \\\times \sum_{n=0}^{\infty} a_{n} z^{-3 n / 2} \text { при }\left|\arg z-\frac{\pi}{3}\right| \leqslant \pi-\varepsilon .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_7_EJRI">\left|\arg \left(z+\frac{\pi}{3}\right)\right| \leqslant \pi-\varepsilon .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_8_EJRI">I(\lambda, \alpha)=\int_{a}^{b} \exp [i \lambda S(x, \alpha)] f(x, \alpha) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_9_EJRI">S(x, \alpha)=\alpha x-x^{3}+O\left(x^{4}\right) \text { при } x \rightarrow 0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_10_EJRI">y^{\prime \prime}+\lambda^{2} q(x) y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_11_EJRI">a&lt;x_{0}&lt;b, \quad q\left(x_{0}\right)=0, \quad q^{\prime}\left(x_{0}\right) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_12_EJRI">q(x) \neq 0 \text { при } x \in I, x \neq x_{0}, q^{\prime}\left(x_{0}\right)&gt;0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_13_EJRI">\begin{gathered}\xi(x)=\left(\frac{3}{2} \int_{x_{0}}^{x} \sqrt{q(t)} d t\right)^{2 / 3}, \operatorname{sgn} \xi(x)=\operatorname{sgn}\left(x-x_{0}\right), \\Y_{0}(x)=\left(\xi^{\prime}(x)\right)^{-1 / 2} \mathrm{Ai}\left(-\lambda^{2 / 3} \xi(x)\right), \\Y_{1}(x)=\left(\xi^{\prime}(x)\right)^{-1 / 2} \mathrm{Bi}\left(-\lambda^{2 / 3} \xi(x)\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_14_EJRI">w^{\prime \prime}+\lambda^{2} q(z) w=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_15_EJRI">\operatorname{Re} \int_{z_{0}}^{z} \sqrt{q(t)} d t=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1101_16_EJRI">\tilde{w}_{j}(z) \sim(\xi(z))^{-1 / 2} v\left(-\lambda^{2 / 3} w^{j} \xi(z)\right), \omega=e^{2 \pi i / 3},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_1_EJRI">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_2_EJRI">\gamma=\left(\infty e^{-2 \pi i / 3}, 0\right] \bigcup[0,+\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_3_EJRI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_4_EJRI">\mathrm{bi}(z)=i \omega^{2} \mathrm{Ai}\left(\omega^{2} z\right)-i \omega \mathrm{Ai}(\omega z), \omega=e^{2 \pi i / 3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_5_EJRI">\mathrm{ai}(x), \mathrm{Bi}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_6_EJRI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_7_EJRI">v(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_8_EJRI">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_9_EJRI">v(z), w_{1}(z), w_{2}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_10_EJRI">v(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_11_EJRI">\mathrm{ai}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_12_EJRI">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_13_EJRI">x&gt;0, x \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_14_EJRI">x&lt;0,|x| \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_15_EJRI">w_{1}(x), w_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_16_EJRI">x \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_17_EJRI">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_18_EJRI">|z| \rightarrow \infty:</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_19_EJRI">w_{2}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_20_EJRI">(2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_21_EJRI">\varepsilon \in(0, \pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_22_EJRI">\sqrt{z}, \sqrt[4]{z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_23_EJRI">(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_24_EJRI">\arg z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_25_EJRI">|\arg (-z)|&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_26_EJRI">v(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_27_EJRI">w_{1}(z), w_{2}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_28_EJRI">\lambda&gt;0, \lambda \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_29_EJRI">f, S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_30_EJRI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_31_EJRI">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_32_EJRI">\alpha \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_33_EJRI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_34_EJRI">x_{1}(\alpha), x_{2}(\alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_35_EJRI">\alpha=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_36_EJRI">\alpha \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_37_EJRI">\lambda \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_38_EJRI">x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_39_EJRI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_40_EJRI">q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_41_EJRI">i=[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_42_EJRI">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_43_EJRI">q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_44_EJRI">\mathrm{p} \mathrm{e} \mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_45_EJRI">y_{0}(x), y_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_46_EJRI">\lambda \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_47_EJRI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_48_EJRI">y_{j}(x)=y_{j}(x)[1+o(\lambda-1)], \quad a \leqslant x \leqslant x_{0}, j=0,1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_49_EJRI">y_{0}(x)=y_{0}(x)\left[1+o\left(\lambda^{-1}\right)\right]+Y_{1}(x) O\left(\lambda^{-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_50_EJRI">y_{1}(x)-Y_{1}(x)\left[1+O\left(\lambda^{-1}\right)\right]+Y_{0}(x) O\left(\lambda^{-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_51_EJRI">x_{0} \leqslant x \leqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_52_EJRI">q-q(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_53_EJRI">q(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_54_EJRI">q \sim \sum_{n=0}^{\infty} \lambda-n q_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_55_EJRI">\left.\lambda \rightarrow+\infty\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_56_EJRI">q(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_57_EJRI">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_58_EJRI">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_59_EJRI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_60_EJRI">z_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_61_EJRI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_62_EJRI">\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_63_EJRI">q=-z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_64_EJRI">(-\infty, 0),\left(0, e^{ \pm i \pi / 3}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_65_EJRI">z_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_66_EJRI">l_{1}, l_{2}, l_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_67_EJRI">z_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_68_EJRI">2 \pi / 3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_69_EJRI">s_{j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_70_EJRI">z_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_71_EJRI">l_{j}, j=1,2,3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_72_EJRI">s_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_73_EJRI">\tilde{w}_{j}(z), j=1,2,3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1101_74_EJRI">\lambda \rightarrow+\infty, z \in S_{j}</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/1101_1_EJRI">
+      <rel_text>поворота</rel_text>
+      <target>http://libmeta.ru/me/article/335_POVOROTOV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1101_2_EJRI">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1101_3_EJRI">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1101_4_EJRI">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1101_5_EJRI">
+      <rel_text>обыкновенных дифференциальных URI[[http</rel_text>
+      <target>http://libmeta.ru/me/article/273_DIFFERENTsIAL'NOE</target>
+    </relation>
+  </relations>
+  <text>частные решения Эйри уравнения.
+
+Первая Ә. ф. (или просто Ә. ф.) определяется равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_1_EJRI]]/URI
+\]
+
+\section{при комплексных $URI[[http://libmeta.ru/me/formula/aux/1101_1_EJRI]]/URI$}
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_2_EJRI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1101_2_EJRI]]/URI$ - контур в комплексной плоскости $URI[[http://libmeta.ru/me/formula/aux/1101_3_EJRI]]/URI$. Вторая Э. Ф. определяется равенством
+
+$URI[[http://libmeta.ru/me/formula/aux/1101_4_EJRI]]/URI$.
+
+Функции $URI[[http://libmeta.ru/me/formula/aux/1101_5_EJRI]]/URI$ действительны при действительных $URI[[http://libmeta.ru/me/formula/aux/1101_6_EJRI]]/URI$.
+
+Другой набор Э. ф. ввел В. А. Фок:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_3_EJRI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1101_7_EJRI]]/URI$ в этом случае наз. ф у н к ц и е й Э й $URI[[http://libmeta.ru/me/formula/aux/1101_8_EJRI]]/URI$ и - Ф ок а. Справедливы тождества:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_4_EJRI]]/URI
+\]
+
+Любые две из Э. ф. $URI[[http://libmeta.ru/me/formula/aux/1101_9_EJRI]]/URI$ линейно независимы.
+
+Наиболее важна из Э. ф. $URI[[http://libmeta.ru/me/formula/aux/1101_10_EJRI]]/URI$ (или $URI[[http://libmeta.ru/me/formula/aux/1101_11_EJRI]]/URI$ ). Ее асимптотич. поведение на действительной оси таково:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_5_EJRI]]/URI
+\]
+
+так что $URI[[http://libmeta.ru/me/formula/aux/1101_12_EJRI]]/URI$ быстро убывает при $URI[[http://libmeta.ru/me/formula/aux/1101_13_EJRI]]/URI$ и сильно осциллирует при $URI[[http://libmeta.ru/me/formula/aux/1101_14_EJRI]]/URI$. Функции $URI[[http://libmeta.ru/me/formula/aux/1101_15_EJRI]]/URI$ экспоненциально растут при $URI[[http://libmeta.ru/me/formula/aux/1101_16_EJRI]]/URI$. Для Э. ф. справедливы асимптотич. разложения при комплексных $URI[[http://libmeta.ru/me/formula/aux/1101_17_EJRI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1101_18_EJRI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_6_EJRI]]/URI
+\]
+
+Для функции $URI[[http://libmeta.ru/me/formula/aux/1101_19_EJRI]]/URI$ справедливо асимптотич. разложение $URI[[http://libmeta.ru/me/formula/aux/1101_20_EJRI]]/URI$, но в секторе
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_7_EJRI]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/1101_21_EJRI]]/URI$ - любое, ветви $URI[[http://libmeta.ru/me/formula/aux/1101_22_EJRI]]/URI$ положительны на полуоси $URI[[http://libmeta.ru/me/formula/aux/1101_23_EJRI]]/URI$, асимптотич. разложения равномерны по $URI[[http://libmeta.ru/me/formula/aux/1101_24_EJRI]]/URI$ и их можно почленно дифференцировать любое число раз. В оставшемся секторе $URI[[http://libmeta.ru/me/formula/aux/1101_25_EJRI]]/URI$ асимптотич. разложение функции $URI[[http://libmeta.ru/me/formula/aux/1101_26_EJRI]]/URI$ вы ражается через асимптотич. разложения функций $URI[[http://libmeta.ru/me/formula/aux/1101_27_EJRI]]/URI$ с помощью (1), так что ее асимптотич. разложение имеет разный вид в разных секторах комплексной плоскости z. Этот факт был впервые установлен Дж. Стоксом [2] и наз. я в ле ни е м С т о к с а.
+
+Э. ф. возникают при исследовании интегралов от быстроосциллирующих функций:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_8_EJRI]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/1101_28_EJRI]]/URI$. Здесь $URI[[http://libmeta.ru/me/formula/aux/1101_29_EJRI]]/URI$ - гладкие функции, $URI[[http://libmeta.ru/me/formula/aux/1101_30_EJRI]]/URI$ действительна, $URI[[http://libmeta.ru/me/formula/aux/1101_31_EJRI]]/URI$ - действительный параметр. Пусть при малых $URI[[http://libmeta.ru/me/formula/aux/1101_32_EJRI]]/URI$ фаза $URI[[http://libmeta.ru/me/formula/aux/1101_33_EJRI]]/URI$ имеет две близкие невырожденные стационарные точки $URI[[http://libmeta.ru/me/formula/aux/1101_34_EJRI]]/URI$, к-рые совпадают при $URI[[http://libmeta.ru/me/formula/aux/1101_35_EJRI]]/URI$, напр.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_9_EJRI]]/URI
+\]
+
+Тогда при малых $URI[[http://libmeta.ru/me/formula/aux/1101_36_EJRI]]/URI$ и при $URI[[http://libmeta.ru/me/formula/aux/1101_37_EJRI]]/URI$ вклад в асимптотику интеграла от окрестности точки $URI[[http://libmeta.ru/me/formula/aux/1101_38_EJRI]]/URI$ выражается через Э. ф. $URI[[http://libmeta.ru/me/formula/aux/1101_39_EJRI]]/URI$ и ее производную (см. [6]). Такого рода интегралы возникают при исследовании коротковолновых полей вблизи простой каустики (см. [7], [8]); Э. Ф. вовникли в связи с исследованием этой задачи [1].
+
+Пусть рассматривается обыкновенное дифференциальное уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_10_EJRI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1101_40_EJRI]]/URI$ - гладкая на отрезке $URI[[http://libmeta.ru/me/formula/aux/1101_41_EJRI]]/URI$ действительнозначная функция, $URI[[http://libmeta.ru/me/formula/aux/1101_42_EJRI]]/URI$ - большої параметр. Нули функции $URI[[http://libmeta.ru/me/formula/aux/1101_43_EJRI]]/URI$ наз. т о т к а м и п о в о р о т а (или то ч к а и п е $URI[[http://libmeta.ru/me/formula/aux/1101_44_EJRI]]/URI$ о да) уравнения (3). Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_11_EJRI]]/URI
+\]
+
+(такая точка наз. I р о с т о й),
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_12_EJRI]]/URI
+\]
+
+Положим
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_13_EJRI]]/URI
+\]
+
+Уравнение (3) имеет линейно независимые репения $URI[[http://libmeta.ru/me/formula/aux/1101_45_EJRI]]/URI$ такие, что при $URI[[http://libmeta.ru/me/formula/aux/1101_46_EJRI]]/URI$ равномерно по $URI[[http://libmeta.ru/me/formula/aux/1101_47_EJRI]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/1101_48_EJRI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1101_49_EJRI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1101_50_EJRI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1101_51_EJRI]]/URI$.
+
+Этот ревультат обобщен в следуюних направлениях: получены асимптотич. ряды для репгениӥ; исследован случаї $URI[[http://libmeta.ru/me/formula/aux/1101_52_EJRI]]/URI$ (напр., $URI[[http://libmeta.ru/me/formula/aux/1101_53_EJRI]]/URI$ разлагается в асимптотич. ряд $URI[[http://libmeta.ru/me/formula/aux/1101_54_EJRI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1101_55_EJRI]]/URI$; исслөдована асимптотика решений вблизи кратных точек поворота. Другие обобщения относятся к уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_14_EJRI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1101_56_EJRI]]/URI$ - аналитическая в области $URI[[http://libmeta.ru/me/formula/aux/1101_57_EJRI]]/URI$ комплексної плоскости $URI[[http://libmeta.ru/me/formula/aux/1101_58_EJRI]]/URI$ функция. Пусть $URI[[http://libmeta.ru/me/formula/aux/1101_59_EJRI]]/URI$ - максимальная связная компонента линии уровня
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_15_EJRI]]/URI
+\]
+
+выходящая из точки поворота $URI[[http://libmeta.ru/me/formula/aux/1101_60_EJRI]]/URI$ и не содержащая других точек поворота; тогда $URI[[http://libmeta.ru/me/formula/aux/1101_61_EJRI]]/URI$ наз. ли н и е й $URI[[http://libmeta.ru/me/formula/aux/1101_62_EJRI]]/URI$ т о к с а. Если $URI[[http://libmeta.ru/me/formula/aux/1101_63_EJRI]]/URI$ (т. е. (4) есть уравнение Эйри), то линии Стокса - лучи $URI[[http://libmeta.ru/me/formula/aux/1101_64_EJRI]]/URI$. Аналогично, если $URI[[http://libmeta.ru/me/formula/aux/1101_65_EJRI]]/URI$ - простая точка поворота уравнения (4), то из неё выходят три линии Стокса $URI[[http://libmeta.ru/me/formula/aux/1101_66_EJRI]]/URI$ и угол между соседними линиями в точке $URI[[http://libmeta.ru/me/formula/aux/1101_67_EJRI]]/URI$ равен $URI[[http://libmeta.ru/me/formula/aux/1101_68_EJRI]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/1101_69_EJRI]]/URI$ окрестность точки $URI[[http://libmeta.ru/me/formula/aux/1101_70_EJRI]]/URI$, из к-рой удалена окрестность линии Стокса $URI[[http://libmeta.ru/me/formula/aux/1101_71_EJRI]]/URI$. При подходящей нумерации $URI[[http://libmeta.ru/me/formula/aux/1101_72_EJRI]]/URI$ уравнение (4) имеет три решения $URI[[http://libmeta.ru/me/formula/aux/1101_73_EJRI]]/URI$, такие, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1101_16_EJRI]]/URI
+\]
+
+Iгри $URI[[http://libmeta.ru/me/formula/aux/1101_74_EJRI]]/URI$.
+
+Э. ф. возникают также при исследовании асимптотики решений URI[[http://libmeta.ru/me/relation/1101_5_EJRI]]/URI://libmeta.ru/me/relation/1101_4_EJRI]]/URI высокого URI[[http://libmeta.ru/me/relation/1101_3_EJRI]]/URI и URI[[http://libmeta.ru/me/relation/1101_2_EJRI]]/URI вблизи простейших точек URI[[http://libmeta.ru/me/relation/1101_1_EJRI]]/URI.</text>
+  <text_orig>частные решения Эйри уравнения.
+
+Первая Ә. ф. (или просто Ә. ф.) определяется равенством
+
+\[
+\operatorname{Ai}(x)=\frac{1}{\pi} \int_{0}^{\infty} \cos \left(\frac{t^{3}}{3}+x t\right) d t
+\]
+
+\section{При комплексных $z$}
+
+\[
+\operatorname{Ai}(z)=\frac{1}{2 \pi} \int_{\gamma} \exp \left(z t-\frac{t^{3}}{3}\right) d t
+\]
+
+где $\gamma=\left(\infty e^{-2 \pi i / 3}, 0\right] \bigcup[0,+\infty)$ - контур в комплексной плоскости $t$. Вторая Э. Ф. определяется равенством
+
+$\mathrm{Bi}(z)=i \omega^{2} \mathrm{Ai}\left(\omega^{2} z\right)-i \omega \mathrm{Ai}(\omega z), \omega=e^{2 \pi i / 3}$.
+
+Функции $\mathrm{Ai}(x), \mathrm{Bi}(x)$ действительны при действительных $x$.
+
+Другой набор Э. ф. ввел В. А. Фок:
+
+\[
+\begin{gathered}
+v(z)=\frac{V \bar{\pi}}{2} \mathrm{Ai}(z), \\
+w_{1}(z)=2 e^{i \pi / 6} v(\omega z), \\
+w_{2}(z)=2 e^{-i \pi / 6} v\left(\omega^{-1} z\right),
+\end{gathered}
+\]
+
+$v(z)$ в этом случае наз. ф у н к ц и е й Э й $\mathrm{p}$ и - Ф ок а. Справедливы тождества:
+
+\[
+v(z)=\frac{w_{1}(z)-w_{2}(z)}{2 i}, \overline{w_{1}(z)}=w_{2}(\bar{z}) .
+\]
+
+Любые две из Э. ф. $v(z), w_{1}(z), w_{2}(z)$ линейно независимы.
+
+Наиболее важна из Э. ф. $v(z)$ (или $\mathrm{Ai}(z)$ ). Ее асимптотич. поведение на действительной оси таково:
+
+\[
+\begin{gathered}
+v(x)=\frac{1}{2} \frac{x^{-1 / 4}}{\sqrt{\pi}} \exp \left(-\frac{2}{3} x^{3 / 2}\right)\left[1+O\left(x^{-3 / 2}\right)\right], \\
+x \longrightarrow+\infty, \\
+v(x)=\frac{|x|^{-1 / 4}}{\sqrt{\pi}}\left[\sin \left(\frac{2}{3}|x|^{3 / 2}+\frac{\pi}{4}\right)+O\left(|x|^{-3 / 2}\right)\right], \\
+x \longrightarrow-\infty,
+\end{gathered}
+\]
+
+так что $v(x)$ быстро убывает при $x&gt;0, x \geqslant 1$ и сильно осциллирует при $x&lt;0,|x| \geqslant 1$. Функции $w_{1}(x), w_{2}(x)$ экспоненциально растут при $x \rightarrow+\infty$. Для Э. ф. справедливы асимптотич. разложения при комплексных $z$, $|z| \rightarrow \infty:$
+
+\[
+\begin{gathered}
+v(z) \sim \frac{1}{2 \sqrt{\pi}} z^{-1 / 4} \exp \left(-\frac{2}{3} z^{3 / 2}\right) \times \\
+\times \sum_{n=0}^{\infty}(-1)^{n} a_{n} z^{-3 n / 2} \text { при }|\arg z| \leqslant \pi-\varepsilon, \\
+w_{1}(z) \sim \frac{1}{\sqrt{\pi}} z^{-1 / 4} \exp \left(\frac{2}{3} z^{3 / 2}\right) \times \\
+\times \sum_{n=0}^{\infty} a_{n} z^{-3 n / 2} \text { при }\left|\arg z-\frac{\pi}{3}\right| \leqslant \pi-\varepsilon .
+\end{gathered}
+\]
+
+Для функции $w_{2}(z)$ справедливо асимптотич. разложение $(2)$, но в секторе
+
+\[
+\left|\arg \left(z+\frac{\pi}{3}\right)\right| \leqslant \pi-\varepsilon .
+\]
+
+Здесь $\varepsilon \in(0, \pi)$ - любое, ветви $\sqrt{z}, \sqrt[4]{z}$ положительны на полуоси $(0, \infty)$, асимптотич. разложения равномерны по $\arg z$ и их можно почленно дифференцировать любое число раз. В оставшемся секторе $|\arg (-z)|&lt;\varepsilon$ асимптотич. разложение функции $v(z)$ вы ражается через асимптотич. разложения функций $w_{1}(z), w_{2}(z)$ с помощью (1), так что ее асимптотич. разложение имеет разный вид в разных секторах комплексной плоскости z. Этот факт был впервые установлен Дж. Стоксом [2] и наз. я в ле ни е м С т о к с а.
+
+Э. ф. возникают при исследовании интегралов от быстроосциллирующих функций:
+
+\[
+I(\lambda, \alpha)=\int_{a}^{b} \exp [i \lambda S(x, \alpha)] f(x, \alpha) d x
+\]
+
+при $\lambda&gt;0, \lambda \rightarrow+\infty$. Здесь $f, S$ - гладкие функции, $S$ действительна, $\alpha$ - действительный параметр. Пусть при малых $\alpha \geqslant 0$ фаза $S$ имеет две близкие невырожденные стационарные точки $x_{1}(\alpha), x_{2}(\alpha)$, к-рые совпадают при $\alpha=0$, напр.
+
+\[
+S(x, \alpha)=\alpha x-x^{3}+O\left(x^{4}\right) \text { при } x \rightarrow 0 .
+\]
+
+Тогда при малых $\alpha \geqslant 0$ и при $\lambda \rightarrow+\infty$ вклад в асимптотику интеграла от окрестности точки $x=0$ выражается через Э. ф. $v$ и ее производную (см. [6]). Такого рода интегралы возникают при исследовании коротковолновых полей вблизи простой каустики (см. [7], [8]); Э. Ф. вовникли в связи с исследованием этой задачи [1].
+
+Пусть рассматривается обыкновенное дифференциальное уравнение
+
+\[
+y^{\prime \prime}+\lambda^{2} q(x) y=0
+\]
+
+где $q(x)$ - гладкая на отрезке $I=[a, b]$ действительнозначная функция, $\lambda&gt;0$ - большої параметр. Нули функции $q(x)$ наз. т о т к а м и п о в о р о т а (или то ч к а и п е $\mathrm{p} \mathrm{e} \mathrm{x}$ о да) уравнения (3). Пусть
+
+\[
+a&lt;x_{0}&lt;b, \quad q\left(x_{0}\right)=0, \quad q^{\prime}\left(x_{0}\right) \neq 0
+\]
+
+(такая точка наз. I р о с т о й),
+
+\[
+q(x) \neq 0 \text { при } x \in I, x \neq x_{0}, q^{\prime}\left(x_{0}\right)&gt;0 .
+\]
+
+Положим
+
+\[
+\begin{gathered}
+\xi(x)=\left(\frac{3}{2} \int_{x_{0}}^{x} \sqrt{q(t)} d t\right)^{2 / 3}, \operatorname{sgn} \xi(x)=\operatorname{sgn}\left(x-x_{0}\right), \\
+Y_{0}(x)=\left(\xi^{\prime}(x)\right)^{-1 / 2} \mathrm{Ai}\left(-\lambda^{2 / 3} \xi(x)\right), \\
+Y_{1}(x)=\left(\xi^{\prime}(x)\right)^{-1 / 2} \mathrm{Bi}\left(-\lambda^{2 / 3} \xi(x)\right) .
+\end{gathered}
+\]
+
+Уравнение (3) имеет линейно независимые репения $y_{0}(x), y_{1}(x)$ такие, что при $\lambda \rightarrow+\infty$ равномерно по $x$
+
+$y_{j}(x)=Y_{j}(x)[1+O(\lambda-1)], \quad a \leqslant x \leqslant x_{0}, j=0,1$, $y_{0}(x)=Y_{0}(x)\left[1+O\left(\lambda^{-1}\right)\right]+Y_{1}(x) O\left(\lambda^{-1}\right)$, $y_{1}(x)-Y_{1}(x)\left[1+O\left(\lambda^{-1}\right)\right]+Y_{0}(x) O\left(\lambda^{-1}\right)$, $x_{0} \leqslant x \leqslant b$.
+
+Этот ревультат обобщен в следуюних направлениях: получены асимптотич. ряды для репгениӥ; исследован случаї $q-q(x, \lambda)$ (напр., $q(x, \lambda)$ разлагается в асимптотич. ряд $q \sim \sum_{n=0}^{\infty} \lambda-n q_{n}(x)$ при $\left.\lambda \rightarrow+\infty\right)$; исслөдована асимптотика решений вблизи кратных точек поворота. Другие обобщения относятся к уравнению
+
+\[
+w^{\prime \prime}+\lambda^{2} q(z) w=0,
+\]
+
+где $q(z)$ - аналитическая в области $D$ комплексної плоскости $z$ функция. Пусть $l$ - максимальная связная компонента линии уровня
+
+\[
+\operatorname{Re} \int_{z_{0}}^{z} \sqrt{q(t)} d t=0
+\]
+
+выходящая из точки поворота $z_{0}$ и не содержащая других точек поворота; тогда $l$ наз. ли н и е й $\mathrm{C}$ т о к с а. Если $q=-z$ (т. е. (4) есть уравнение Эйри), то линии Стокса - лучи $(-\infty, 0),\left(0, e^{ \pm i \pi / 3}\right)$. Аналогично, если $z_{0}$ - простая точка поворота уравнения (4), то из неё выходят три линии Стокса $l_{1}, l_{2}, l_{3}$ и угол между соседними линиями в точке $z_{0}$ равен $2 \pi / 3$. Пусть $S_{j}-$ окрестность точки $z_{0}$, из к-рой удалена окрестность линии Стокса $l_{j}, j=1,2,3$. При подходящей нумерации $S_{j}$ уравнение (4) имеет три решения $\tilde{w}_{j}(z), j=1,2,3$, такие, что
+
+\[
+\tilde{w}_{j}(z) \sim(\xi(z))^{-1 / 2} v\left(-\lambda^{2 / 3} w^{j} \xi(z)\right), \omega=e^{2 \pi i / 3},
+\]
+
+Iгри $\lambda \rightarrow+\infty, z \in S_{j}$.
+
+Э. ф. возникают также при исследовании асимптотики решений обыкновенных дифференциальных уравнений высокого порядка и систем вблизи простейших точек поворота.
+
+Jum.: [1] A i r y G. B., &quot;Trans. Camb. Phil. Soc.», 1838, v. 6, p. $379-402 ;[2]$ S t o k e s G. G., там же, 1857, v. 10, p. 105-28; [3] Ф о к В. А., Таблицы функций Эйри, М., 1946; 44] Справочник по специальным функциям, пер. с англ,, М., 1979; [5] Ба б и ч В. М., Б у л д ы р е в В. С., Асимптотические методы в задачах дифракции коротких волн, М., 1972; [6] Ф ед о р ю к М. В., Метод перевала, М., 1977; [7] Ј а н-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_eaf6531b4404acd852d1g-1.jpg?height=43&amp;width=814&amp;top_left_y=2127&amp;top_left_x=141)
+сическое приближение для уравнений квантовой механики, М., сическое приближение для уравнений квантовой механики, М., 1952, т. 7, в. 6, с. $3-96 ;$ [10] В а 3 о в В., Асимптотические разложения решений обыкновенных диффференциальных уравнений, пер. с англ., М., 1968; [11] Ф е д о р ю к М. В., Асимптотические методы для линейных обыкновенных дифференциальных уравнений, М., 1983 .</text_orig>
+</article>

@@ -1,0 +1,246 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/957_GAUSSA" alphabetic_pos="957">
+  <title>ГАУССА КВАДРӒТУРНАЯ ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>450</start>
+    <end>450</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] G a u s s C. F., Werke, Bd 3, Gött., 1866, S. 163$196 ;$ [2] К р ы л о в В. И., Приближенное вычисление интегралов, М., 1959 ; [3] К р ы л о в В. И., Ii у л ь г ин а Л. Т., Справочная книга по численному интегрированию, M., 1966; [4]Б а х в а л о в Н. С., Численные методы, M., 1973; [5] S t oб a $\mathbf{x}$ в а л о в H. C., Численные методы, M., 1973; [5] S t r o-$\mathrm{u}$ d A. H., S e c r e s t D., Gaussian Quadrature Formulas, N. Y., 1966; [6] Стандартная программа для вычисления однократных интегралов по квадратурам типа Гаусса, в. 26, М.,![](https://cdn.mathpix.com/cropped/2023_07_08_2d0548083f36df0956b9g-1.jpg?height=32&amp;width=829&amp;top_left_y=362&amp;top_left_x=992)</literature_orig>
+    <unit>
+      <author>Gauss C. F.</author>
+      <title>Werke, Bd 3, Gött.</title>
+      <publication/>
+      <year>1866</year>
+      <other>S. 163$196 ;$</other>
+    </unit>
+    <unit>
+      <author>Крылов В. И.</author>
+      <title>Приближенное вычисление интегралов</title>
+      <publication>М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Крылов В. И.</author>
+      <author>Iiульгина Л. Т.</author>
+      <title>Справочная книга по численному интегрированию</title>
+      <publication>M.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>M.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Stoбa$\mathbf{x}$валов H. C.</author>
+      <title>Численные методы</title>
+      <publication>M.</publication>
+      <year>1973</year>
+      <other>S e c r e s t D., Gaussian Quadrature Formulas, N. Y., 1966</other>
+    </unit>
+    <unit>
+      <title>Стандартная программа для вычисления однократных интегралов по квадратурам типа Гаусса, в. 26</title>
+      <publication>М.</publication>
+      <year>2023</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/957_1_GAUSSA">\int_{a}^{b} p(x) f(x) d x \approx \sum_{i=1}^{n} c_{i} f\left(x_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/957_2_GAUSSA">\sum_{k=0}^{2 n-1} a_{k} \omega_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/957_3_GAUSSA">\begin{gathered}\int_{-1}^{1} f(x) d x=A_{1}^{(n)} f\left(x_{1}\right)+A_{2}^{(n)} f\left(x_{2}\right)+\ldots \\\ldots+A_{n}^{(n)} f\left(x_{n}\right)+R_{n},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/957_4_GAUSSA">\begin{gathered}A_{k}^{(n)}=\frac{2}{\left(1-x_{k}^{2}\right)\left[P_{n}^{\prime}\left(x_{k}\right)\right]^{2}} ; \\R_{n}=\frac{2^{2 n+1}[n !]^{4}}{(2 n+1)[(2 n) !]^{3}} f^{(2 n)}(c), \quad-1&lt;c&lt;1 .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_1_GAUSSA">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_2_GAUSSA">c_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_3_GAUSSA">\omega_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_4_GAUSSA">a=-1, b=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_5_GAUSSA">p(x) \equiv 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_6_GAUSSA">2 n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_7_GAUSSA">x_{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_8_GAUSSA">p_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_9_GAUSSA">a_{k}^{(n)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_10_GAUSSA">r_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_11_GAUSSA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_12_GAUSSA">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_13_GAUSSA">\omega_{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_14_GAUSSA">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_15_GAUSSA">\omega_{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_16_GAUSSA">p(x) \equiv 1, \omega_{j}(x)=x^{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_17_GAUSSA">n=512</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/957_18_GAUSSA">p(x) \equiv 1, \quad \omega_{j}(x)=x^{j}</formula>
+  </formulas_aux>
+  <relations n="24">
+    <relation uri="http://libmeta.ru/me/relation/957_1_GAUSSA">
+      <rel_text>разбиения</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_2_GAUSSA">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_3_GAUSSA">
+      <rel_text>выбором</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_4_GAUSSA">
+      <rel_text>автоматич</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_5_GAUSSA">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_6_GAUSSA">
+      <rel_text>стандартных программах</rel_text>
+      <target>http://libmeta.ru/me/article/180_STANDARTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_7_GAUSSA">
+      <rel_text>таблицы узлов</rel_text>
+      <target>http://libmeta.ru/me/article/539_UZLOV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_8_GAUSSA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_9_GAUSSA">
+      <rel_text>весовой функции</rel_text>
+      <target>http://libmeta.ru/me/article/684_VESOVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_10_GAUSSA">
+      <rel_text>кратных</rel_text>
+      <target>http://libmeta.ru/me/article/82_KRATNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_11_GAUSSA">
+      <rel_text>вычислении</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_12_GAUSSA">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_13_GAUSSA">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_14_GAUSSA">
+      <rel_text>Лежандра многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/255_LEZhANDRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_15_GAUSSA">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_16_GAUSSA">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_17_GAUSSA">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_18_GAUSSA">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_19_GAUSSA">
+      <rel_text>Полученная</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_20_GAUSSA">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_21_GAUSSA">
+      <rel_text>пределы</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_22_GAUSSA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_23_GAUSSA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/957_24_GAUSSA">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+  </relations>
+  <text>квадратурная формула вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/957_1_GAUSSA]]/URI
+\]
+
+в к-рой узлы $URI[[http://libmeta.ru/me/formula/aux/957_1_GAUSSA]]/URI$ и веса $URI[[http://libmeta.ru/me/formula/aux/957_2_GAUSSA]]/URI$ подбираются так, чтобы URI[[http://libmeta.ru/me/relation/957_24_GAUSSA]]/URI была точна для URI[[http://libmeta.ru/me/relation/957_23_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/957_2_GAUSSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/957_3_GAUSSA]]/URI$ - заданные линейно независимые URI[[http://libmeta.ru/me/relation/957_22_GAUSSA]]/URI (URI[[http://libmeta.ru/me/relation/957_21_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/957_20_GAUSSA]]/URI могут быть и бесконечными). Г. к. Ф. введены К. Гауссом (см. [1]) для $URI[[http://libmeta.ru/me/formula/aux/957_4_GAUSSA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/957_5_GAUSSA]]/URI$. URI[[http://libmeta.ru/me/relation/957_19_GAUSSA]]/URI им общая URI[[http://libmeta.ru/me/relation/957_18_GAUSSA]]/URI, точная для произвольного URI[[http://libmeta.ru/me/relation/957_17_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/957_16_GAUSSA]]/URI не выше $URI[[http://libmeta.ru/me/formula/aux/957_6_GAUSSA]]/URI$, имеет URI[[http://libmeta.ru/me/relation/957_15_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/957_3_GAUSSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/957_7_GAUSSA]]/URI$ корни URI[[http://libmeta.ru/me/relation/957_14_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/957_8_GAUSSA]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/957_9_GAUSSA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/957_10_GAUSSA]]/URI$ определяются по URI[[http://libmeta.ru/me/relation/957_13_GAUSSA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/957_4_GAUSSA]]/URI
+\]
+
+Применяется в тех случаях, когда подинтегральная URI[[http://libmeta.ru/me/relation/957_12_GAUSSA]]/URI достаточно гладкая, а выигрыш в числе узлов крайне существен: напр., если $URI[[http://libmeta.ru/me/formula/aux/957_11_GAUSSA]]/URI$ определяется из дорогостоящих экспериментов, или при URI[[http://libmeta.ru/me/relation/957_11_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/957_10_GAUSSA]]/URI интегралов как повторных. При практическом применении в таких случаях очень важен удачный подбор URI[[http://libmeta.ru/me/relation/957_9_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/957_12_GAUSSA]]/URI$ и URI[[http://libmeta.ru/me/relation/957_8_GAUSSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/957_13_GAUSSA]]/URI$.
+
+Для широких классов $URI[[http://libmeta.ru/me/formula/aux/957_14_GAUSSA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/957_15_GAUSSA]]/URI$ составлены URI[[http://libmeta.ru/me/relation/957_7_GAUSSA]]/URI Г. к. ф. (см. [1]), в частности в [5] при $URI[[http://libmeta.ru/me/formula/aux/957_16_GAUSSA]]/URI$ до $URI[[http://libmeta.ru/me/formula/aux/957_17_GAUSSA]]/URI$.
+
+При $URI[[http://libmeta.ru/me/formula/aux/957_18_GAUSSA]]/URI$ Г. к. ф. применяется в URI[[http://libmeta.ru/me/relation/957_6_GAUSSA]]/URI URI[[http://libmeta.ru/me/relation/957_5_GAUSSA]]/URI с URI[[http://libmeta.ru/me/relation/957_4_GAUSSA]]/URI. URI[[http://libmeta.ru/me/relation/957_3_GAUSSA]]/URI шага как метод URI[[http://libmeta.ru/me/relation/957_2_GAUSSA]]/URI интегралов по подотрезкам URI[[http://libmeta.ru/me/relation/957_1_GAUSSA]]/URI (см. [6]).</text>
+  <text_orig>квадратурная формула вида
+
+\[
+\int_{a}^{b} p(x) f(x) d x \approx \sum_{i=1}^{n} c_{i} f\left(x_{i}\right)
+\]
+
+в к-рой узлы $x_{i}$ и веса $c_{i}$ подбираются так, чтобы формула была точна для функций
+
+\[
+\sum_{k=0}^{2 n-1} a_{k} \omega_{k}(x)
+\]
+
+где $\omega_{k}(x)$ - заданные линейно независимые функции (пределы интегрирования могут быть и бесконечными). Г. к. Ф. введены К. Гауссом (см. [1]) для $a=-1, b=1$, $p(x) \equiv 1$. Полученная им общая формула, точная для произвольного многочлена степени не выше $2 n-1$, имеет вид
+
+\[
+\begin{gathered}
+\int_{-1}^{1} f(x) d x=A_{1}^{(n)} f\left(x_{1}\right)+A_{2}^{(n)} f\left(x_{2}\right)+\ldots \\
+\ldots+A_{n}^{(n)} f\left(x_{n}\right)+R_{n},
+\end{gathered}
+\]
+
+где $x_{k}-$ корни Лежандра многочлена $P_{n}(x)$, а $A_{k}^{(n)}$ и $R_{n}$ определяются по формулам
+
+\[
+\begin{gathered}
+A_{k}^{(n)}=\frac{2}{\left(1-x_{k}^{2}\right)\left[P_{n}^{\prime}\left(x_{k}\right)\right]^{2}} ; \\
+R_{n}=\frac{2^{2 n+1}[n !]^{4}}{(2 n+1)[(2 n) !]^{3}} f^{(2 n)}(c), \quad-1&lt;c&lt;1 .
+\end{gathered}
+\]
+
+Применяется в тех случаях, когда подинтегральная функция достаточно гладкая, а выигрыш в числе узлов крайне существен: напр., если $f(x)$ определяется из дорогостоящих экспериментов, или при вычислении кратных интегралов как повторных. При практическом применении в таких случаях очень важен удачный подбор весовой функции $p(x)$ и функций $\omega_{j}(x)$.
+
+Для широких классов $p(x)$ и $\omega_{j}(x)$ составлены таблицы узлов Г. к. ф. (см. [1]), в частности в [5] при $p(x) \equiv 1, \omega_{j}(x)=x^{j}$ до $n=512$.
+
+При $p(x) \equiv 1, \quad \omega_{j}(x)=x^{j}$ Г. к. ф. применяется в стандартных программах интегрирования с автоматич. выбором шага как метод вычисления интегралов по подотрезкам разбиения (см. [6]). Jum.: [1] G a u s s C. F., Werke, Bd 3, Gött., 1866, S. 163$196 ;$ [2] К р ы л о в В. И., Приближенное вычисление интегралов, М., 1959 ; [3] К р ы л о в В. И., II у л ь г ин а Л. Т., Справочная книга по численному интегрированию, M., 1966; [4]
+Б а х в а л о в Н. С., Численные методы, M., 1973; [5] S t oБ a $\mathbf{x}$ в а л о в H. C., Численные методы, M., 1973; [5] S t r o-
+$\mathrm{u}$ d A. H., S e c r e s t D., Gaussian Quadrature Formulas, N. Y., 1966; [6] Стандартная программа для вычисления однократных интегралов по квадратурам типа Гаусса, в. 26, М.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d0548083f36df0956b9g-1.jpg?height=32&amp;width=829&amp;top_left_y=362&amp;top_left_x=992)</text_orig>
+</article>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/158_KUTTA" alphabetic_pos="158">
+  <title>КУТТА - МЕРСОНА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>78</start>
+    <end>79</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/158_1_KUTTA">y^{\prime}(x)=f(x, y(x)), x_{0} \leqslant x \leqslant X, y\left(x_{0}\right)=y_{0},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/158_2_KUTTA">\begin{gathered}k_{1}=h f\left(x_{0}, y_{0}\right), y_{0}=y\left(x_{0}\right), \\k_{2}=h f\left(x_{0}+\frac{1}{3} h, y_{0}+\frac{1}{3} k_{1}\right), \\k_{3}=h f\left(x_{0}+\frac{1}{3} h, y_{0}+\frac{1}{6} k_{1}+\frac{1}{6} k_{2}\right), \\k_{4}=h f\left(x_{0}+\frac{1}{2} h, y_{0}+\frac{1}{8} k_{1}+\frac{3}{8} k_{2}\right), \\k_{5}=h f\left(x_{0}+h, y_{0}+\frac{1}{2} k_{1}-\frac{3}{2} k_{3}+2 k_{4}\right), \\y^{1}\left(x_{0}+h\right)=y_{0}+\frac{1}{2} k_{1}-\frac{3}{2} k_{3}+2 k_{4}, \\y^{2}\left(x_{0}+h\right)=y_{0}+\frac{1}{6} k_{1}+\frac{2}{3} k_{4}+\frac{1}{6} k_{5} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_1_KUTTA">r=0,2\left|y^{1}-y^{2}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_2_KUTTA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_3_KUTTA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_4_KUTTA">r&gt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_5_KUTTA">r&lt;\varepsilon / 64</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_6_KUTTA">\varepsilon / 64&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_7_KUTTA">&lt;r&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_8_KUTTA">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_9_KUTTA">x_{0}+h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_10_KUTTA">y^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_11_KUTTA">y^{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_12_KUTTA">y^{2}\left(x_{0}+h\right)=y_{0}+\frac{1}{6} k_{1}+\frac{2}{3} k_{4}+\frac{1}{6} h f\left(x_{0}+h, y^{1}\left(x_{0}+h\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_13_KUTTA">y^{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_14_KUTTA">y^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/158_15_KUTTA">\mathbf{x} ф</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>пятиэтапный метод Рунге - Кутта 4-го порядка точностіi. Применительно к задаче Кошии
+
+\[
+URI[[http://libmeta.ru/me/formula/main/158_1_KUTTA]]/URI
+\]
+
+метод имеет вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/158_2_KUTTA]]/URI
+\] Величшна $URI[[http://libmeta.ru/me/formula/aux/158_1_KUTTA]]/URI$ служит для оценки погрешности метода и для автоматического выбора шага интегрирования. Есліi $URI[[http://libmeta.ru/me/formula/aux/158_2_KUTTA]]/URI$ - предписанная точность вычислений, то шаг интегрирования выбирается следующим образом. Берется нек-рый начальный шаг и производятся вычисления по формулам (2). Вычисляется величина $URI[[http://libmeta.ru/me/formula/aux/158_3_KUTTA]]/URI$. Пріг $URI[[http://libmeta.ru/me/formula/aux/158_4_KUTTA]]/URI$ шаг интегрирования уменьшается в два раза. Iiрii $URI[[http://libmeta.ru/me/formula/aux/158_5_KUTTA]]/URI$ шаг увеличивается вдвое. Если же $URI[[http://libmeta.ru/me/formula/aux/158_6_KUTTA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/158_7_KUTTA]]/URI$, то піаг считается выбранным правильно. После этого в качестве начальной точки $URI[[http://libmeta.ru/me/formula/aux/158_8_KUTTA]]/URI$ берется точка $URI[[http://libmeta.ru/me/formula/aux/158_9_KUTTA]]/URI$ іг весь процесс повторяется снова. В качестве приблигженного решения выступает величина $URI[[http://libmeta.ru/me/formula/aux/158_10_KUTTA]]/URI$. Величінна $URI[[http://libmeta.ru/me/formula/aux/158_11_KUTTA]]/URI$ носпт вспомогательный характер.
+
+В связи с тем, что
+
+$URI[[http://libmeta.ru/me/formula/aux/158_12_KUTTA]]/URI$, то есть формула для вычисления $URI[[http://libmeta.ru/me/formula/aux/158_13_KUTTA]]/URI$ является как бы «вложенной» в формулу для вычисления $URI[[http://libmeta.ru/me/formula/aux/158_14_KUTTA]]/URI$, описанный выше метод оценкі погрешности и выбора шага интегрированія наз. м е т о дом в ло же н н ы $URI[[http://libmeta.ru/me/formula/aux/158_15_KUTTA]]/URI$ о р м. Имеются стандартные программы К.- М. м. на языке алгос [1], [2].
+
+'tum.: [i] C h r is t i a n s e n J., &quot;numer. Mach.», 1970, Bd 14, S. 317-24: [2] L u k e h a r t P. M., &quot;communs Assoc. Comput. Math.», 1963, v. 6, № 12, p. 737-38; [3] F o x L., Numerical solution of ordinary and partial differential eguations, computers, 1960 . B. B. Ïocnesos.</text>
+  <text_orig>пятиэтапный метод Рунге - Кутта 4-го порядка точностіI. Применительно к задаче Кошии
+
+\[
+y^{\prime}(x)=f(x, y(x)), x_{0} \leqslant x \leqslant X, y\left(x_{0}\right)=y_{0},
+\]
+
+метод имеет вид:
+
+\[
+\begin{gathered}
+k_{1}=h f\left(x_{0}, y_{0}\right), y_{0}=y\left(x_{0}\right), \\
+k_{2}=h f\left(x_{0}+\frac{1}{3} h, y_{0}+\frac{1}{3} k_{1}\right), \\
+k_{3}=h f\left(x_{0}+\frac{1}{3} h, y_{0}+\frac{1}{6} k_{1}+\frac{1}{6} k_{2}\right), \\
+k_{4}=h f\left(x_{0}+\frac{1}{2} h, y_{0}+\frac{1}{8} k_{1}+\frac{3}{8} k_{2}\right), \\
+k_{5}=h f\left(x_{0}+h, y_{0}+\frac{1}{2} k_{1}-\frac{3}{2} k_{3}+2 k_{4}\right), \\
+y^{1}\left(x_{0}+h\right)=y_{0}+\frac{1}{2} k_{1}-\frac{3}{2} k_{3}+2 k_{4}, \\
+y^{2}\left(x_{0}+h\right)=y_{0}+\frac{1}{6} k_{1}+\frac{2}{3} k_{4}+\frac{1}{6} k_{5} .
+\end{gathered}
+\] Величшна $R=0,2\left|y^{1}-y^{2}\right|$ служит для оценки погрешности метода и для автоматического выбора шага интегрирования. ЕсліI $\varepsilon$ - предписанная точность вычислений, то шаг интегрирования выбирается следующим образом. Берется нек-рый начальный шаг и производятся вычисления по формулам (2). Вычисляется величина $R$. Пріг $R&gt;\varepsilon$ шаг интегрирования уменьшается в два раза. IIрII $R&lt;\varepsilon / 64$ шаг увеличивается вдвое. Если же $\varepsilon / 64&lt;$ $&lt;R&lt;\varepsilon$, то піаг считается выбранным правильно. После этого в качестве начальной точки $x_{0}$ берется точка $x_{0}+h$ іг весь процесс повторяется снова. В качестве приблигженного решения выступает величина $y^{2}$. Величінна $y^{1}$ носпт вспомогательный характер.
+
+В связи с тем, что
+
+$y^{2}\left(x_{0}+h\right)=y_{0}+\frac{1}{6} k_{1}+\frac{2}{3} k_{4}+\frac{1}{6} h f\left(x_{0}+h, y^{1}\left(x_{0}+h\right)\right)$, то есть формула для вычисления $y^{1}$ является как бы «вложенной» в формулу для вычисления $y^{2}$, описанный выше метод оценкі погрешности и выбора шага интегрированія наз. м е т о дом в ло же н н ы $\mathbf{x} ф$ о р м. Имеются стандартные программы К.- М. м. на языке алгос [1], [2].
+
+'Tum.: [i] C h r is t i a n s e n J., &quot;Numer. Mach.», 1970, Bd 14, S. 317-24: [2] L u k e h a r t P. M., &quot;Communs Assoc. Comput. Math.», 1963, v. 6, № 12, p. 737-38; [3] F o x L., Numerical solution of ordinary and partial differential eguations, computers, 1960 . B. B. Ïocnesos.</text_orig>
+</article>

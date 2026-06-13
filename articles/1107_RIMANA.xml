@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1107_RIMANA" alphabetic_pos="1107">
+  <title>РИМАНА ФУНКЦИЯ</title>
+  <authors/>
+  <pages>
+    <start>501</start>
+    <end>501</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1107_1_RIMANA">\frac{a_{0}}{2}+\sum_{n=1}^{\infty}\left(a_{n} \cos n x+b_{n} \sin n x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1107_2_RIMANA">\begin{gathered}F(x)=\frac{a_{0} x^{2}}{4}-\sum_{n=1}^{\infty} \frac{1}{n^{2}}\left(a_{n} \cos n x+b_{n} \sin n x\right)+C x+D, \\C, D=\text { const. }\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1107_3_RIMANA">\lim _{n \rightarrow \infty} \frac{F(x+h)+F(x-h)-2 F(x)}{h}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1107_4_RIMANA">F(x)=\int_{0}^{x} d t \int_{0}^{t} f(u) d u+C x+D .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1107_5_RIMANA">\underline{S}(x)=\lim _{n \rightarrow \infty} S_{n}(x) \text { и } \bar{S}(x)=\varlimsup_{n \rightarrow \infty} S_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1107_6_RIMANA">S(x)=\frac{1}{2}(\underline{S}(x)+\bar{S}(x)), \delta(x)=\frac{1}{2}(S(x)-\underline{S}(x)) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_1_RIMANA">\left\{a_{n}\right\},\left\{b_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_2_RIMANA">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_3_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_4_RIMANA">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_5_RIMANA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_6_RIMANA">d_{2} F\left(x_{0}\right)=S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_7_RIMANA">a_{n}, b_{n} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_8_RIMANA">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_9_RIMANA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_10_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_11_RIMANA">[0,2 \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_12_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_13_RIMANA">f(x) \in L[0,2 \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_14_RIMANA">d_{2} F(x)=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_15_RIMANA">[0,2 \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_16_RIMANA">a_{n}, b_{n} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_17_RIMANA">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_18_RIMANA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_19_RIMANA">\underline{d}_{2} F(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_20_RIMANA">\bar{d}_{2} F(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_21_RIMANA">[s-\mu \delta, S+\mu \delta]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_22_RIMANA">\mu-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_23_RIMANA">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1107_24_RIMANA">\mathrm{p}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>1) Р. ф. в т е о р и и т р игоно ме т р и ч е с и х р я д ов- функция, введенная Б. Риманом (b. Riemann, 1851) (cм. [1]) для изучения вопроса о представимости функции тригонометрич. рядом. Пусть дан ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1107_1_RIMANA]]/URI
+\]
+
+c ограниченными последовательностями $URI[[http://libmeta.ru/me/formula/aux/1107_1_RIMANA]]/URI$. Ф у нкци е й $URI[[http://libmeta.ru/me/formula/aux/1107_2_RIMANA]]/URI$ и м а н а для этого ряда наз. функция $URI[[http://libmeta.ru/me/formula/aux/1107_3_RIMANA]]/URI$, полученная почленным двукратным интегрированием данного ряда:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1107_2_RIMANA]]/URI
+\]
+
+Т е о р е м ы Р и м а на. 1) Пусть ряд (*) сходится в точке $URI[[http://libmeta.ru/me/formula/aux/1107_4_RIMANA]]/URI$ к числу $URI[[http://libmeta.ru/me/formula/aux/1107_5_RIMANA]]/URI$. Тогда производная Шіварца $URI[[http://libmeta.ru/me/formula/aux/1107_6_RIMANA]]/URI$. 2) Пусть $URI[[http://libmeta.ru/me/formula/aux/1107_7_RIMANA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1107_8_RIMANA]]/URI$. Тогда в любой точке $URI[[http://libmeta.ru/me/formula/aux/1107_9_RIMANA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1107_3_RIMANA]]/URI
+\]
+
+причем сходимость на любом промежутке равномерная, то есть $URI[[http://libmeta.ru/me/formula/aux/1107_10_RIMANA]]/URI$ - равномерно гладкая функция.
+
+Если ряд (*) сходится на $URI[[http://libmeta.ru/me/formula/aux/1107_11_RIMANA]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/1107_12_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1107_13_RIMANA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1107_14_RIMANA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/1107_15_RIMANA]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1107_4_RIMANA]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/1107_16_RIMANA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1107_17_RIMANA]]/URI$ и пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1107_5_RIMANA]]/URI
+\]
+
+конөчны в точке $URI[[http://libmeta.ru/me/formula/aux/1107_18_RIMANA]]/URI$, a
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1107_6_RIMANA]]/URI
+\]
+
+Тогда нижняя и верхняя производные Шварца $URI[[http://libmeta.ru/me/formula/aux/1107_19_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1107_20_RIMANA]]/URI$ принадлежат $URI[[http://libmeta.ru/me/formula/aux/1107_21_RIMANA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1107_22_RIMANA]]/URI$ нек-рая абсолютная постоянная (ле м м а Д ю б у а - Р е йm $URI[[http://libmeta.ru/me/formula/aux/1107_23_RIMANA]]/URI$ H a). [2] Бит.: [1] Р и м а н Б., Соч., пер. с нем., М.- Јj.,
+
+2) $URI[[http://libmeta.ru/me/formula/aux/1107_24_RIMANA]]/URI$. А. А. Конюшков. у р а в не и й - см. Рияана метод.</text>
+  <text_orig>1) Р. ф. в т е о р и и т р игоно ме т р и ч е с и х р я д ов- функция, введенная Б. Риманом (B. Riemann, 1851) (cм. [1]) для изучения вопроса о представимости функции тригонометрич. рядом. Пусть дан ряд
+
+\[
+\frac{a_{0}}{2}+\sum_{n=1}^{\infty}\left(a_{n} \cos n x+b_{n} \sin n x\right)
+\]
+
+c ограниченными последовательностями $\left\{a_{n}\right\},\left\{b_{n}\right\}$. Ф у нкци е й $\mathbf{P}$ и м а н а для этого ряда наз. функция $F(x)$, полученная почленным двукратным интегрированием данного ряда:
+
+\[
+\begin{gathered}
+F(x)=\frac{a_{0} x^{2}}{4}-\sum_{n=1}^{\infty} \frac{1}{n^{2}}\left(a_{n} \cos n x+b_{n} \sin n x\right)+C x+D, \\
+C, D=\text { const. }
+\end{gathered}
+\]
+
+Т е о р е м ы Р и м а на. 1) Пусть ряд (*) сходится в точке $x_{0}$ к числу $S$. Тогда производная Шіварца $D_{2} F\left(x_{0}\right)=S$. 2) Пусть $a_{n}, b_{n} \rightarrow 0$ при $n \rightarrow \infty$. Тогда в любой точке $x$
+
+\[
+\lim _{n \rightarrow \infty} \frac{F(x+h)+F(x-h)-2 F(x)}{h}=0
+\]
+
+причем сходимость на любом промежутке равномерная, то есть $F(x)$ - равномерно гладкая функция.
+
+Если ряд (*) сходится на $[0,2 \pi]$ к $f(x)$ и $f(x) \in L[0,2 \pi]$, то $D_{2} F(x)=f(x)$ на $[0,2 \pi]$ и
+
+\[
+F(x)=\int_{0}^{x} d t \int_{0}^{t} f(u) d u+C x+D .
+\]
+
+Пусть $a_{n}, b_{n} \rightarrow 0$ при $n \rightarrow \infty$ и пусть
+
+\[
+\underline{S}(x)=\lim _{n \rightarrow \infty} S_{n}(x) \text { и } \bar{S}(x)=\varlimsup_{n \rightarrow \infty} S_{n}(x)
+\]
+
+конөчны в точке $x$, a
+
+\[
+S(x)=\frac{1}{2}(\underline{S}(x)+\bar{S}(x)), \delta(x)=\frac{1}{2}(S(x)-\underline{S}(x)) .
+\]
+
+Тогда нижняя и верхняя производные Шварца $\underline{D}_{2} F(x)$ и $\bar{D}_{2} F(x)$ принадлежат $[S-\mu \delta, S+\mu \delta]$, где $\mu-$ нек-рая абсолютная постоянная (ле м м а Д ю б у а - Р е йM $о$ H a). [2] Бит.: [1] Р и м а н Б., Соч., пер. с нем., М.- ЈJ.,
+
+2) $\mathrm{P}$. А. А. Конюшков. у р а в не и й - см. Рияана метод.</text_orig>
+</article>

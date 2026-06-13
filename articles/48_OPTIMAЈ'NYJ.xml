@@ -1,0 +1,532 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/48_OPTIMAЈ'NYJ" alphabetic_pos="48">
+  <title>ОПТИМАЈЬНЫЙ РЕЖИМ СКОЛЬЗЯЩИЙ</title>
+  <authors>
+    <author>H. С. Бахвалов</author>
+  </authors>
+  <pages>
+    <start>30</start>
+    <end>32</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г а м к р е л и д з е Р. В., “докл. Ан Ссср》, 1962![](https://cdn.mathpix.com/cropped/2023_07_08_70eb7251ff022d8c9e12g-1.jpg?height=40&amp;width=811&amp;top_left_y=2282&amp;top_left_x=989) ски и В. Г., Гамк р е ли д з е Р. В., Мищ ен к о Е. Ф., Математическая теория оптимальных процессов, 2 изд., М., 1969; 1967, т. $7, \mathcal{N}_{2} 2$, с. $259-83 ;[4]$ К р о т о в В. Ф., &quot;автоматика и телемеханика», 1963, т. 24, № 5 , с. $581-98$. обычо то же, что оптимизачия вьчислительны $x$ алао ритмов. Иногда, однако, эти понятия трактуются различно. Напр., можно говорить об оптпмальности конкретного сеточного метода решения краевой задачи на нек-ром классе задач, имея в виду, что он требует вычисления правой части в минимальном числе точек. При рассмотрении вопросов об оптимизации вычислительного алгоритма изучается дополнительно ряд других моментов: способы решения возникающей системы сеточных уравнений, программная реализация этих способов и Т. П.</literature_orig>
+    <unit>
+      <author>Гамкрелидзе Р. В.</author>
+      <title>“докл. Ан Ссср》</title>
+      <publication/>
+      <year>1962</year>
+      <other>Гамк р е ли д з е Р. В., Мищ ен к о Е. Ф., Математическая теория оптимальных процессов, 2 изд., М., 1969; 1967, т. $7, \mathcal{N}_{2} 2$, с. $259-83 ;[4]$ К р о т о в В. Ф., &quot;автоматика и телемеханика», 1963, т. 24, № 5, с. $581-98$. обычо то же, что оптимизачия вьчислительны $x$ алао ритмов. Иногда, однако, эти понятия трактуются различно. Напр., можно говорить об оптпмальности конкретного сеточного метода решения краевой задачи на нек-ром классе задач, имея в виду, что он требует вычисления правой части в минимальном числе точек. При рассмотрении вопросов об оптимизации вычислительного алгоритма изучается дополнительно ряд других моментов: способы решения возникающей системы сеточных уравнений, программная реализация этих способов и Т. П.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/48_1_OPTIMAЈ'NYJ">J(x, u)=\int_{0}^{s}\left(x^{2}-u^{2}\right) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_2_OPTIMAЈ'NYJ">\begin{gathered}\dot{x}=u, \\x(0)=1, \quad x(3)=1, \\|u| \leqslant 1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_3_OPTIMAЈ'NYJ">x(t)=\left\{\begin{array}{cl}1-t, &amp; 0 \leqslant t \leqslant 1, \\0, &amp; 1&lt;t&lt;2, \\t-2, &amp; 2 \leqslant t \leqslant 3 .\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_4_OPTIMAЈ'NYJ">u(t)=+1 \text { или } u(t)=-1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_5_OPTIMAЈ'NYJ">u_{n}(t)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_6_OPTIMAЈ'NYJ">I(x, \alpha, u)=\int_{0}^{3}\left(x^{2}-\alpha_{0} u_{0}^{2}-\alpha_{1} u_{1}^{2}\right) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_7_OPTIMAЈ'NYJ">\begin{gathered}\dot{x}=\alpha_{0} u_{0}+\alpha_{1} u_{1}, \\x(0)=1, \quad x(3)=1,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_8_OPTIMAЈ'NYJ">\begin{aligned}\alpha_{0}(t)=1, u_{0}(t)= &amp; -1, \alpha_{1}(t)=0, u_{1}(t)-\text { любая, } \\&amp; 0 \leqslant t \leqslant 1, \\\alpha_{1}(t)=1, u_{1}(t)= &amp; +1, \alpha_{0}(t)=0, u_{0}(t)-\text { любая, } \\&amp; 2 \leqslant t \leqslant 3 .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_9_OPTIMAЈ'NYJ">\begin{gathered}J(x, u)=\int_{t_{0}}^{t_{1}} f^{0}(t, x, u) d t, \\f^{0}(t, x, u): \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{m} \rightarrow \mathbb{R},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_10_OPTIMAЈ'NYJ">\begin{gathered}\dot{x}=f(t, x, u), f(t, x, u): \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{m} \rightarrow \mathbb{R}^{n}, \\x\left(t_{0}\right)=x_{0}, \quad x\left(t_{1}\right)=x_{1},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_11_OPTIMAЈ'NYJ">H(t, x, \psi, u)=\sum_{i=0}^{n} \psi_{i} f^{i}(t, x, u),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_12_OPTIMAЈ'NYJ">\begin{gathered}I(x, \alpha, u)=\int_{\tau_{1}}^{\tau_{2}} \sum_{s=0}^{k} \alpha_{s} f^{0}\left(t, x, u_{s}\right) d t, \\\dot{x}=\sum_{s=0}^{k} \alpha_{s} f\left(t, x, u_{s}\right), \\x(t)=x_{0}, x\left(t_{1}\right)=x_{1}, \\u_{s} \in U, \sum_{s=0}^{k} \alpha_{s}=1, \alpha_{s} \geqslant 0, s=0,1, \ldots, k .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_13_OPTIMAЈ'NYJ">H(t, x, \psi, \alpha, u)=\sum_{i=0}^{n} \psi_{i}\left(\sum_{s=0}^{k} \alpha_{s} f^{i}\left(t, x, u_{s}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_14_OPTIMAЈ'NYJ">H(t, x, \psi, \alpha, u)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/48_15_OPTIMAЈ'NYJ">=\sum_{s=k}^{k}\left(H\left(t, x, \psi, u_{1}\right)-H\left(t, x, \psi, u_{s}\right)\right) \alpha_{s} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_1_OPTIMAЈ'NYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_2_OPTIMAЈ'NYJ">|x(t)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_3_OPTIMAЈ'NYJ">|u(t)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_4_OPTIMAЈ'NYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_5_OPTIMAЈ'NYJ">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_6_OPTIMAЈ'NYJ">(6)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_7_OPTIMAЈ'NYJ">1&lt;t&lt;2 u(t) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_8_OPTIMAЈ'NYJ">u_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_9_OPTIMAЈ'NYJ">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_10_OPTIMAЈ'NYJ">1&lt;t&lt;2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_11_OPTIMAЈ'NYJ">=\left\{\begin{array}{l}-1,0 \leqslant t \leqslant 1, \\ +1,1+\frac{k}{n}&lt;t \leqslant 1+\frac{2 k+1}{2 n}, k=0,1, \ldots, n-1, \\ -1,1+\frac{2 k+1}{2 n}&lt;t \leqslant 1+\frac{k+1}{n}, k=0,1, \ldots, n-1, \\ +1,2&lt;t \leqslant 3, \quad n=1,2, \ldots,\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_12_OPTIMAЈ'NYJ">\left\{u_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_13_OPTIMAЈ'NYJ">\left\{x_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_14_OPTIMAЈ'NYJ">x_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_15_OPTIMAЈ'NYJ">(1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_16_OPTIMAЈ'NYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_17_OPTIMAЈ'NYJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_18_OPTIMAЈ'NYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_19_OPTIMAЈ'NYJ">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_20_OPTIMAЈ'NYJ">\lim _{n \rightarrow \infty} x_{n}(t)=0,1&lt;t&lt;2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_21_OPTIMAЈ'NYJ">\left\{x_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_22_OPTIMAЈ'NYJ">\left\{u_{n}(t)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_23_OPTIMAЈ'NYJ">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_24_OPTIMAЈ'NYJ">1&lt;t&lt;2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_25_OPTIMAЈ'NYJ">(1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_26_OPTIMAЈ'NYJ">(1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_27_OPTIMAЈ'NYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_28_OPTIMAЈ'NYJ">u=+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_29_OPTIMAЈ'NYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_30_OPTIMAЈ'NYJ">u=-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_31_OPTIMAЈ'NYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_32_OPTIMAЈ'NYJ">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_33_OPTIMAЈ'NYJ">\left|u_{0}\right| \leqslant 1,\left|u_{1}\right| \leqslant 1, \alpha_{0}+\alpha_{1}=1, \alpha_{0} \geqslant 0, \alpha_{1} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_34_OPTIMAЈ'NYJ">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_35_OPTIMAЈ'NYJ">u_{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_36_OPTIMAЈ'NYJ">u_{1}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_37_OPTIMAЈ'NYJ">u_{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_38_OPTIMAЈ'NYJ">u_{1}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_39_OPTIMAЈ'NYJ">\alpha_{0}(t), \alpha_{1}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_40_OPTIMAЈ'NYJ">u_{0}, u_{1}, \alpha_{0}, \alpha_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_41_OPTIMAЈ'NYJ">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_42_OPTIMAЈ'NYJ">\alpha_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_43_OPTIMAЈ'NYJ">\alpha_{0}+\alpha_{1}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_44_OPTIMAЈ'NYJ">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_45_OPTIMAЈ'NYJ">\alpha_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_46_OPTIMAЈ'NYJ">\alpha_{0}(t)=\alpha_{1}(t)=\frac{1}{2}, \quad u_{0}(t)=-1, \quad u_{1}(t)=+1, \quad 1&lt;t&lt;2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_47_OPTIMAЈ'NYJ">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_48_OPTIMAЈ'NYJ">\alpha_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_49_OPTIMAЈ'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_50_OPTIMAЈ'NYJ">\psi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_51_OPTIMAЈ'NYJ">\left[\tau_{1}, \tau_{2}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_52_OPTIMAЈ'NYJ">k+1, k&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_53_OPTIMAЈ'NYJ">u_{0}, u_{1}, \ldots, u_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_54_OPTIMAЈ'NYJ">\alpha_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_55_OPTIMAЈ'NYJ">=\sum_{s=1}^{k}\left(\sum_{i=0}^{n} \psi_{i} f^{i}\left(t, x, u_{0}\right)-\sum_{i=0}^{n} \psi_{i} f^{i}\left(t, x, u_{s}\right)\right) \alpha_{s}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_56_OPTIMAЈ'NYJ">h\left(t, x, \psi, u_{s}\right), s=0,1, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_57_OPTIMAЈ'NYJ">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_58_OPTIMAЈ'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_59_OPTIMAЈ'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_60_OPTIMAЈ'NYJ">\left[\tau_{1}, \tau_{2}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_61_OPTIMAЈ'NYJ">k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_62_OPTIMAЈ'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_63_OPTIMAЈ'NYJ">\alpha_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_64_OPTIMAЈ'NYJ">\ldots, \alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_65_OPTIMAЈ'NYJ">k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_66_OPTIMAЈ'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_67_OPTIMAЈ'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_68_OPTIMAЈ'NYJ">\left(\alpha_{s}, u_{s}\right), s=0,1, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_69_OPTIMAЈ'NYJ">k \leqslant n-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_70_OPTIMAЈ'NYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_71_OPTIMAЈ'NYJ">k=n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_72_OPTIMAЈ'NYJ">k=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_73_OPTIMAЈ'NYJ">k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_74_OPTIMAЈ'NYJ">u_{0}(t), u_{1}(t), \ldots, u_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_75_OPTIMAЈ'NYJ">h(t, x, \psi, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_76_OPTIMAЈ'NYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/48_77_OPTIMAЈ'NYJ">k</formula>
+  </formulas_aux>
+  <relations n="37">
+    <relation uri="http://libmeta.ru/me/relation/48_1_OPTIMAЈ'NYJ">
+      <rel_text>Оптимальный режим особый</rel_text>
+      <target>http://libmeta.ru/me/article/47_OPTIMAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_2_OPTIMAЈ'NYJ">
+      <rel_text>необходимых условий</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_3_OPTIMAЈ'NYJ">
+      <rel_text>компонентам</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_4_OPTIMAЈ'NYJ">
+      <rel_text>особого оптимального</rel_text>
+      <target>http://libmeta.ru/me/article/47_OPTIMAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_5_OPTIMAЈ'NYJ">
+      <rel_text>Гамильтона</rel_text>
+      <target>http://libmeta.ru/me/article/919_GAMIL'TONI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_6_OPTIMAЈ'NYJ">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_7_OPTIMAЈ'NYJ">
+      <rel_text>максимумы</rel_text>
+      <target>http://libmeta.ru/me/article/530_MAKsIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_8_OPTIMAЈ'NYJ">
+      <rel_text>доставляющих</rel_text>
+      <target>http://libmeta.ru/me/article/344_DOSTOVERNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_9_OPTIMAЈ'NYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_10_OPTIMAЈ'NYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_11_OPTIMAЈ'NYJ">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_12_OPTIMAЈ'NYJ">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_13_OPTIMAЈ'NYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_14_OPTIMAЈ'NYJ">
+      <rel_text>оптимальные управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_15_OPTIMAЈ'NYJ">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_16_OPTIMAЈ'NYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_17_OPTIMAЈ'NYJ">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_18_OPTIMAЈ'NYJ">
+      <rel_text>получающихся</rel_text>
+      <target>http://libmeta.ru/me/article/476_POLUPLOSKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_19_OPTIMAЈ'NYJ">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_20_OPTIMAЈ'NYJ">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_21_OPTIMAЈ'NYJ">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_22_OPTIMAЈ'NYJ">
+      <rel_text>границы</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_23_OPTIMAЈ'NYJ">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_24_OPTIMAЈ'NYJ">
+      <rel_text>множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_25_OPTIMAЈ'NYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_26_OPTIMAЈ'NYJ">
+      <rel_text>компонентам</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_27_OPTIMAЈ'NYJ">
+      <rel_text>особый оптимальный режим</rel_text>
+      <target>http://libmeta.ru/me/article/47_OPTIMAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_28_OPTIMAЈ'NYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_29_OPTIMAЈ'NYJ">
+      <rel_text>Гамильтона</rel_text>
+      <target>http://libmeta.ru/me/article/919_GAMIL'TONI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_30_OPTIMAЈ'NYJ">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_31_OPTIMAЈ'NYJ">
+      <rel_text>максимумами коэффициенты</rel_text>
+      <target>http://libmeta.ru/me/article/525_MAKSIMAL'NYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_32_OPTIMAЈ'NYJ">
+      <rel_text>множестве</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_33_OPTIMAЈ'NYJ">
+      <rel_text>максимумы</rel_text>
+      <target>http://libmeta.ru/me/article/530_MAKsIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_34_OPTIMAЈ'NYJ">
+      <rel_text>перегруппировки</rel_text>
+      <target>http://libmeta.ru/me/article/226_PERENORMIROVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_35_OPTIMAЈ'NYJ">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_36_OPTIMAЈ'NYJ">
+      <rel_text>Гамильтона</rel_text>
+      <target>http://libmeta.ru/me/article/919_GAMIL'TONI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/48_37_OPTIMAЈ'NYJ">
+      <rel_text>Функцию</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>термин, используемый в теории оптимального управления для описания оптимального способа управления системой в случае, когда минимизирующая последовательность управляющих функций не имеет предела в классе измеримых по Лебегу функций.
+
+Пусть, напр., требуется найти минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_1_OPTIMAЈ'NYJ]]/URI
+\]
+
+шри услговия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_2_OPTIMAЈ'NYJ]]/URI
+\]
+
+Для получения минимума функционала (1) желательно иметь при каждом $URI[[http://libmeta.ru/me/formula/aux/48_1_OPTIMAЈ'NYJ]]/URI$ как можно меньшее значение $URI[[http://libmeta.ru/me/formula/aux/48_2_OPTIMAЈ'NYJ]]/URI$ и как можно большее значение $URI[[http://libmeta.ru/me/formula/aux/48_3_OPTIMAЈ'NYJ]]/URI$. Первому требованию, с учетом условия связи (2), граничных условий (3) и ограничений на управление (4), удовлетворяет траектория
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_3_OPTIMAЈ'NYJ]]/URI
+\]
+
+Если бы траекторию (5) можно было построить при нек-ром управлении, принимающем при всех $URI[[http://libmeta.ru/me/formula/aux/48_4_OPTIMAЈ'NYJ]]/URI$ граничные значения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_4_OPTIMAЈ'NYJ]]/URI
+\]
+
+был бы получен абсолютный минимум функционала (1). Однако «идеальная» траектория (5) не может быть построена ни при какой управляющей функции $URI[[http://libmeta.ru/me/formula/aux/48_5_OPTIMAЈ'NYJ]]/URI$, удовлетворяющей $URI[[http://libmeta.ru/me/formula/aux/48_6_OPTIMAЈ'NYJ]]/URI$, поскольку при $URI[[http://libmeta.ru/me/formula/aux/48_7_OPTIMAЈ'NYJ]]/URI$. Тем не менее можно, используя управляющие функции $URI[[http://libmeta.ru/me/formula/aux/48_8_OPTIMAЈ'NYJ]]/URI$, реализующие при $URI[[http://libmeta.ru/me/formula/aux/48_9_OPTIMAЈ'NYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_10_OPTIMAЈ'NYJ]]/URI$ все более частые переключения с 1 на -1 и обратно:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_5_OPTIMAЈ'NYJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/48_11_OPTIMAЈ'NYJ]]/URI$
+
+построить минимизирующую последовательность уiравлений $URI[[http://libmeta.ru/me/formula/aux/48_12_OPTIMAЈ'NYJ]]/URI$, удовлетворяющую (6), и минимизирующую последовательность траекторий $URI[[http://libmeta.ru/me/formula/aux/48_13_OPTIMAЈ'NYJ]]/URI$, сходящуюся к «идеальной» траектории (5).
+
+Каждая из траекторий $URI[[http://libmeta.ru/me/formula/aux/48_14_OPTIMAЈ'NYJ]]/URI$ отличается от (5) только на интервале $URI[[http://libmeta.ru/me/formula/aux/48_15_OPTIMAЈ'NYJ]]/URI$, на к-ром вместо точного движения по оси $URI[[http://libmeta.ru/me/formula/aux/48_16_OPTIMAЈ'NYJ]]/URI$ она обеспечивает «пилообразное» движение с $URI[[http://libmeta.ru/me/formula/aux/48_17_OPTIMAЈ'NYJ]]/URI$ одинаковыми «зубьями», расположенными над осью $URI[[http://libmeta.ru/me/formula/aux/48_18_OPTIMAЈ'NYJ]]/URI$. «3убья пилы» становятся все мельче при $URI[[http://libmeta.ru/me/formula/aux/48_19_OPTIMAЈ'NYJ]]/URI$, так что $URI[[http://libmeta.ru/me/formula/aux/48_20_OPTIMAЈ'NYJ]]/URI$. Таким образом, минимизирующая последовательность траекториї $URI[[http://libmeta.ru/me/formula/aux/48_21_OPTIMAЈ'NYJ]]/URI$ сходится к (5), но минимизирующая последовательность управлений $URI[[http://libmeta.ru/me/formula/aux/48_22_OPTIMAЈ'NYJ]]/URI$, реализующих при $URI[[http://libmeta.ru/me/formula/aux/48_23_OPTIMAЈ'NYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_24_OPTIMAЈ'NYJ]]/URI$ все более тастые переключения с 1 на -1 и обратно, не имеет предела в классе измеримых (а тем более в классе кусочно непрерывных) функций. Это означает, что на участке $URI[[http://libmeta.ru/me/formula/aux/48_25_OPTIMAЈ'NYJ]]/URI$ имеет место О. р. с.
+
+Используя не очень строгие рассуждения, можно описать полученный O. р. с. следующим образом: оптимальное управление в каждой точкө интервала $URI[[http://libmeta.ru/me/formula/aux/48_26_OPTIMAЈ'NYJ]]/URI$ «скользит», т. е. перескакивает со значения +1 на -1 и обратно так, что для любого, сколь угодно малого, интервала времени мера множества точек $URI[[http://libmeta.ru/me/formula/aux/48_27_OPTIMAЈ'NYJ]]/URI$, в к-рых $URI[[http://libmeta.ru/me/formula/aux/48_28_OPTIMAЈ'NYJ]]/URI$, равна мере множества точек $URI[[http://libmeta.ru/me/formula/aux/48_29_OPTIMAЈ'NYJ]]/URI$, в к-рых $URI[[http://libmeta.ru/me/formula/aux/48_30_OPTIMAЈ'NYJ]]/URI$, что обеспечивает, в силу уравнения (2), точное движение по оси $URI[[http://libmeta.ru/me/formula/aux/48_31_OPTIMAЈ'NYJ]]/URI$. Приведенное описанше характера изменения оптимального управления на участке скользящего режима является нестрогим, ибо оно не удовлетворяет обычному определению функции.
+
+Можно дать строгое определение О. р. с., если наряду с исходной задачей (1)-(4) ввести в рассмотрение вспомогательную, расщепленную задачу: найти минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_6_OPTIMAЈ'NYJ]]/URI
+\]
+
+при условия $URI[[http://libmeta.ru/me/formula/aux/48_32_OPTIMAЈ'NYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_7_OPTIMAЈ'NYJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/48_33_OPTIMAЈ'NYJ]]/URI$.
+
+Расщепленная задача (8)-(11) отличается от исходной тем, что: вместо одной управляюгей функции $URI[[http://libmeta.ru/me/formula/aux/48_34_OPTIMAЈ'NYJ]]/URI$ вводятся две независимые управляющие функции $URI[[http://libmeta.ru/me/formula/aux/48_35_OPTIMAЈ'NYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_36_OPTIMAЈ'NYJ]]/URI$; подинтегральная функция и функция, стоящая в правой части уравнения (2) исходной задачи, заменяются линейной выпуклой комбинацией соответствующих функций, взятых при различных управлениях $URI[[http://libmeta.ru/me/formula/aux/48_37_OPTIMAЈ'NYJ]]/URI$ п $URI[[http://libmeta.ru/me/formula/aux/48_38_OPTIMAЈ'NYJ]]/URI$ с коэффициентами $URI[[http://libmeta.ru/me/formula/aux/48_39_OPTIMAЈ'NYJ]]/URI$, к-рые также рассматриваются как управляющие функции.
+
+Таким образом, в задаче (8)-(11) имеется 4 управления $URI[[http://libmeta.ru/me/formula/aux/48_40_OPTIMAЈ'NYJ]]/URI$. Поскольку $URI[[http://libmeta.ru/me/formula/aux/48_41_OPTIMAЈ'NYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_42_OPTIMAЈ'NYJ]]/URI$ связаны условием типа равенства $URI[[http://libmeta.ru/me/formula/aux/48_43_OPTIMAЈ'NYJ]]/URI$, то от одного из управлений $URI[[http://libmeta.ru/me/formula/aux/48_44_OPTIMAЈ'NYJ]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/48_45_OPTIMAЈ'NYJ]]/URI$ можно избавиться, выразив его через другое. Однако для удобства последующего анализа целесообразво оставить оба эти управления в явном виде.
+
+В отличие от исходной задачи оптимальное управление в расщепленной задаче (8)-(11) существует. На участке О. р. с. исходной задачи оптимальное управление расщепленної задачи имеет вид
+
+$URI[[http://libmeta.ru/me/formula/aux/48_46_OPTIMAЈ'NYJ]]/URI$,
+
+а на участках входа и выхода
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_8_OPTIMAЈ'NYJ]]/URI
+\]
+
+На участке O. p. с. управления $URI[[http://libmeta.ru/me/formula/aux/48_47_OPTIMAЈ'NYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/48_48_OPTIMAЈ'NYJ]]/URI$, линейно входящие в правую часть и подивтегральную функцию, принимают значения, лежащие внутри допустимой области. Это означает, что О. р. с. исходной задачи (1)(4) есть особый оптимальный режим, или особое оптималььое управление, для вспомогательной, расщепленной задачи (8)-(11).
+
+Аналогичные результаты для О. p. с. имеют место в общем случае задачи оптимального управления. Пусть требуется найти минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_9_OPTIMAЈ'NYJ]]/URI
+\]
+
+при условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_10_OPTIMAЈ'NYJ]]/URI
+\]
+
+O. р. с. характеризуется неединственностью максимума по $URI[[http://libmeta.ru/me/formula/aux/48_49_OPTIMAЈ'NYJ]]/URI$ функции Гамильтона
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_11_OPTIMAЈ'NYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/48_50_OPTIMAЈ'NYJ]]/URI$ - сопряженные переменные (см. [2]). При этом на участке $URI[[http://libmeta.ru/me/formula/aux/48_51_OPTIMAЈ'NYJ]]/URI$ «скольжения» по $URI[[http://libmeta.ru/me/formula/aux/48_52_OPTIMAЈ'NYJ]]/URI$, максимумам $URI[[http://libmeta.ru/me/formula/aux/48_53_OPTIMAЈ'NYJ]]/URI$ исходная задача расщепляется и принимает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_12_OPTIMAЈ'NYJ]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/48_37_OPTIMAЈ'NYJ]]/URI URI[[http://libmeta.ru/me/relation/48_36_OPTIMAЈ'NYJ]]/URI для URI[[http://libmeta.ru/me/relation/48_35_OPTIMAЈ'NYJ]]/URI (16)-(19)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_13_OPTIMAЈ'NYJ]]/URI
+\]
+
+после исключения $URI[[http://libmeta.ru/me/formula/aux/48_54_OPTIMAЈ'NYJ]]/URI$ и URI[[http://libmeta.ru/me/relation/48_34_OPTIMAЈ'NYJ]]/URI слагаемых можно шривести к виду
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_14_OPTIMAЈ'NYJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/48_55_OPTIMAЈ'NYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/48_15_OPTIMAЈ'NYJ]]/URI
+\]
+
+Поскольку все $URI[[http://libmeta.ru/me/formula/aux/48_56_OPTIMAЈ'NYJ]]/URI$, есть равные между собой URI[[http://libmeta.ru/me/relation/48_33_OPTIMAЈ'NYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_57_OPTIMAЈ'NYJ]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/48_58_OPTIMAЈ'NYJ]]/URI$ на URI[[http://libmeta.ru/me/relation/48_32_OPTIMAЈ'NYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_59_OPTIMAЈ'NYJ]]/URI$, то на участке $URI[[http://libmeta.ru/me/formula/aux/48_60_OPTIMAЈ'NYJ]]/URI$ O. p. с. с $URI[[http://libmeta.ru/me/formula/aux/48_61_OPTIMAЈ'NYJ]]/URI$ URI[[http://libmeta.ru/me/relation/48_31_OPTIMAЈ'NYJ]]/URI прп $URI[[http://libmeta.ru/me/formula/aux/48_62_OPTIMAЈ'NYJ]]/URI$ независимых линейных управлениях $URI[[http://libmeta.ru/me/formula/aux/48_63_OPTIMAЈ'NYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/48_64_OPTIMAЈ'NYJ]]/URI$ URI[[http://libmeta.ru/me/relation/48_30_OPTIMAЈ'NYJ]]/URI URI[[http://libmeta.ru/me/relation/48_29_OPTIMAЈ'NYJ]]/URI расщепленной URI[[http://libmeta.ru/me/relation/48_28_OPTIMAЈ'NYJ]]/URI (12)-(15) равны нулю. О. р. с. со «скольжением» по $URI[[http://libmeta.ru/me/formula/aux/48_65_OPTIMAЈ'NYJ]]/URI$ максимумам есть URI[[http://libmeta.ru/me/relation/48_27_OPTIMAЈ'NYJ]]/URI по $URI[[http://libmeta.ru/me/formula/aux/48_66_OPTIMAЈ'NYJ]]/URI$ URI[[http://libmeta.ru/me/relation/48_26_OPTIMAЈ'NYJ]]/URI для расщепленной URI[[http://libmeta.ru/me/relation/48_25_OPTIMAЈ'NYJ]]/URI (16) - (19). Максимально возможное значение $URI[[http://libmeta.ru/me/formula/aux/48_67_OPTIMAЈ'NYJ]]/URI$, к-рое целесообразно брать при исследовании скользящих режимов, определяется из условия выпуклости URI[[http://libmeta.ru/me/relation/48_24_OPTIMAЈ'NYJ]]/URI значений URI[[http://libmeta.ru/me/relation/48_23_OPTIMAЈ'NYJ]]/URI правых частей и выпуклости вниз точной вижней URI[[http://libmeta.ru/me/relation/48_22_OPTIMAЈ'NYJ]]/URI URI[[http://libmeta.ru/me/relation/48_21_OPTIMAЈ'NYJ]]/URI значений подинтегральной URI[[http://libmeta.ru/me/relation/48_20_OPTIMAЈ'NYJ]]/URI расщепленной URI[[http://libmeta.ru/me/relation/48_19_OPTIMAЈ'NYJ]]/URI, URI[[http://libmeta.ru/me/relation/48_18_OPTIMAЈ'NYJ]]/URI, когда URI[[http://libmeta.ru/me/relation/48_17_OPTIMAЈ'NYJ]]/URI управления $URI[[http://libmeta.ru/me/formula/aux/48_68_OPTIMAЈ'NYJ]]/URI$ пробегает всіо допустимую область значений. Таким образом $URI[[http://libmeta.ru/me/formula/aux/48_69_OPTIMAЈ'NYJ]]/URI$ оценка сверху для $URI[[http://libmeta.ru/me/formula/aux/48_70_OPTIMAЈ'NYJ]]/URI$. В самом общем случае все О. p. с. исходной URI[[http://libmeta.ru/me/relation/48_16_OPTIMAЈ'NYJ]]/URI могут быть URI[[http://libmeta.ru/me/relation/48_15_OPTIMAЈ'NYJ]]/URI как особые URI[[http://libmeta.ru/me/relation/48_14_OPTIMAЈ'NYJ]]/URI расщешленной URI[[http://libmeta.ru/me/relation/48_13_OPTIMAЈ'NYJ]]/URI, записанной при $URI[[http://libmeta.ru/me/formula/aux/48_71_OPTIMAЈ'NYJ]]/URI$. В частности, в рассмотренном выше примере расцепленная URI[[http://libmeta.ru/me/relation/48_12_OPTIMAЈ'NYJ]]/URI рассматривалась при $URI[[http://libmeta.ru/me/formula/aux/48_72_OPTIMAЈ'NYJ]]/URI$, поскольку условия связи содержали только одно URI[[http://libmeta.ru/me/relation/48_11_OPTIMAЈ'NYJ]]/URI; исследование расцепленной URI[[http://libmeta.ru/me/relation/48_10_OPTIMAЈ'NYJ]]/URI (8) -(11) было достаточно для исследования 0. p. с. исходной URI[[http://libmeta.ru/me/relation/48_9_OPTIMAЈ'NYJ]]/URI (1)-(4).
+
+Если известны $URI[[http://libmeta.ru/me/formula/aux/48_73_OPTIMAЈ'NYJ]]/URI$ управлений $URI[[http://libmeta.ru/me/formula/aux/48_74_OPTIMAЈ'NYJ]]/URI$ URI[[http://libmeta.ru/me/relation/48_8_OPTIMAЈ'NYJ]]/URI равные между собой абсолютные URI[[http://libmeta.ru/me/relation/48_7_OPTIMAЈ'NYJ]]/URI URI[[http://libmeta.ru/me/relation/48_6_OPTIMAЈ'NYJ]]/URI URI[[http://libmeta.ru/me/relation/48_5_OPTIMAЈ'NYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/48_75_OPTIMAЈ'NYJ]]/URI$ в допустимої области $URI[[http://libmeta.ru/me/formula/aux/48_76_OPTIMAЈ'NYJ]]/URI$, то анализ О. р. с. сводится к исследованию URI[[http://libmeta.ru/me/relation/48_4_OPTIMAЈ'NYJ]]/URI режима по $URI[[http://libmeta.ru/me/formula/aux/48_77_OPTIMAЈ'NYJ]]/URI$ URI[[http://libmeta.ru/me/relation/48_3_OPTIMAЈ'NYJ]]/URI. Это исследование может быть проведено с использованием URI[[http://libmeta.ru/me/relation/48_2_OPTIMAЈ'NYJ]]/URI оптимальности особого управлевия (см. URI[[http://libmeta.ru/me/relation/48_1_OPTIMAЈ'NYJ]]/URI).
+
+Исследовались О. р. с. с помощью достаточных условий оптимальності (см. [4]).</text>
+  <text_orig>термин, используемый в теории оптимального управления для описания оптимального способа управления системой в случае, когда минимизирующая последовательность управляющих функций не имеет предела в классе измеримых по Лебегу функций.
+
+Пусть, напр., требуется найти минимум функционала
+
+\[
+J(x, u)=\int_{0}^{s}\left(x^{2}-u^{2}\right) d t
+\]
+
+шри услговия
+
+\[
+\begin{gathered}
+\dot{x}=u, \\
+x(0)=1, \quad x(3)=1, \\
+|u| \leqslant 1 .
+\end{gathered}
+\]
+
+Для получения минимума функционала (1) желательно иметь при каждом $t$ как можно меньшее значение $|x(t)|$ и как можно большее значение $|u(t)|$. Первому требованию, с учетом условия связи (2), граничных условий (3) и ограничений на управление (4), удовлетворяет траектория
+
+\[
+x(t)=\left\{\begin{array}{cl}
+1-t, &amp; 0 \leqslant t \leqslant 1, \\
+0, &amp; 1&lt;t&lt;2, \\
+t-2, &amp; 2 \leqslant t \leqslant 3 .
+\end{array}\right.
+\]
+
+Если бы траекторию (5) можно было построить при нек-ром управлении, принимающем при всех $t$ граничные значения
+
+\[
+u(t)=+1 \text { или } u(t)=-1,
+\]
+
+был бы получен абсолютный минимум функционала (1). Однако «идеальная» траектория (5) не может быть построена ни при какой управляющей функции $u(t)$, удовлетворяющей $(6)$, поскольку при $1&lt;t&lt;2 u(t) \equiv 0$. Тем не менее можно, используя управляющие функции $u_{n}(t)$, реализующие при $n \rightarrow \infty$ и $1&lt;t&lt;2$ все более частые переключения с 1 на -1 и обратно:
+
+\[
+u_{n}(t)=
+\]
+
+$=\left\{\begin{array}{l}-1,0 \leqslant t \leqslant 1, \\ +1,1+\frac{k}{n}&lt;t \leqslant 1+\frac{2 k+1}{2 n}, k=0,1, \ldots, n-1, \\ -1,1+\frac{2 k+1}{2 n}&lt;t \leqslant 1+\frac{k+1}{n}, k=0,1, \ldots, n-1, \\ +1,2&lt;t \leqslant 3, \quad n=1,2, \ldots,\end{array}\right.$
+
+построить минимизирующую последовательность уIравлений $\left\{u_{n}(t)\right\}$, удовлетворяющую (6), и минимизирующую последовательность траекторий $\left\{x_{n}(t)\right\}$, сходящуюся к «идеальной» траектории (5).
+
+Каждая из траекторий $x_{n}(t)$ отличается от (5) только на интервале $(1,2)$, на к-ром вместо точного движения по оси $x$ она обеспечивает «пилообразное» движение с $n$ одинаковыми «зубьями», расположенными над осью $x$. «3убья пилы» становятся все мельче при $n \rightarrow \infty$, так что $\lim _{n \rightarrow \infty} x_{n}(t)=0,1&lt;t&lt;2$. Таким образом, минимизирующая последовательность траекториї $\left\{x_{n}(t)\right\}$ сходится к (5), но минимизирующая последовательность управлений $\left\{u_{n}(t)\right\}$, реализующих при $n \rightarrow \infty$ и $1&lt;t&lt;2$ все более тастые переключения с 1 на -1 и обратно, не имеет предела в классе измеримых (а тем более в классе кусочно непрерывных) функций. Это означает, что на участке $(1,2)$ имеет место О. р. с.
+
+Используя не очень строгие рассуждения, можно описать полученный O. р. с. следующим образом: оптимальное управление в каждой точкө интервала $(1,2)$ «скользит», т. е. перескакивает со значения +1 на -1 и обратно так, что для любого, сколь угодно малого, интервала времени мера множества точек $t$, в к-рых $u=+1$, равна мере множества точек $t$, в к-рых $u=-1$, что обеспечивает, в силу уравнения (2), точное движение по оси $x$. Приведенное описанше характера изменения оптимального управления на участке скользящего режима является нестрогим, ибо оно не удовлетворяет обычному определению функции.
+
+Можно дать строгое определение О. р. с., если наряду с исходной задачей (1)-(4) ввести в рассмотрение вспомогательную, расщепленную задачу: найти минимум функционала
+
+\[
+I(x, \alpha, u)=\int_{0}^{3}\left(x^{2}-\alpha_{0} u_{0}^{2}-\alpha_{1} u_{1}^{2}\right) d t
+\]
+
+при условия $\mathbf{x}$
+
+\[
+\begin{gathered}
+\dot{x}=\alpha_{0} u_{0}+\alpha_{1} u_{1}, \\
+x(0)=1, \quad x(3)=1,
+\end{gathered}
+\]
+
+$\left|u_{0}\right| \leqslant 1,\left|u_{1}\right| \leqslant 1, \alpha_{0}+\alpha_{1}=1, \alpha_{0} \geqslant 0, \alpha_{1} \geqslant 0$.
+
+Расщепленная задача (8)-(11) отличается от исходной тем, что: вместо одной управляюгей функции $u(t)$ вводятся две независимые управляющие функции $u_{0}(t)$ и $u_{1}(t)$; подинтегральная функция и функция, стоящая в правой части уравнения (2) исходной задачи, заменяются линейной выпуклой комбинацией соответствующих функций, взятых при различных управлениях $u_{0}(t)$ п $u_{1}(t)$ с коэффициентами $\alpha_{0}(t), \alpha_{1}(t)$, к-рые также рассматриваются как управляющие функции.
+
+Таким образом, в задаче (8)-(11) имеется 4 управления $u_{0}, u_{1}, \alpha_{0}, \alpha_{1}$. Поскольку $\alpha_{0}$ и $\alpha_{1}$ связаны условием типа равенства $\alpha_{0}+\alpha_{1}=1$, то от одного из управлений $\alpha_{0}$ или $\alpha_{1}$ можно избавиться, выразив его через другое. Однако для удобства последующего анализа целесообразво оставить оба эти управления в явном виде.
+
+В отличие от исходной задачи оптимальное управление в расщепленной задаче (8)-(11) существует. На участке О. р. с. исходной задачи оптимальное управление расщепленної задачи имеет вид
+
+$\alpha_{0}(t)=\alpha_{1}(t)=\frac{1}{2}, \quad u_{0}(t)=-1, \quad u_{1}(t)=+1, \quad 1&lt;t&lt;2$,
+
+а на участках входа и выхода
+
+\[
+\begin{aligned}
+\alpha_{0}(t)=1, u_{0}(t)= &amp; -1, \alpha_{1}(t)=0, u_{1}(t)-\text { любая, } \\
+&amp; 0 \leqslant t \leqslant 1, \\
+\alpha_{1}(t)=1, u_{1}(t)= &amp; +1, \alpha_{0}(t)=0, u_{0}(t)-\text { любая, } \\
+&amp; 2 \leqslant t \leqslant 3 .
+\end{aligned}
+\]
+
+На участке O. p. с. управления $\alpha_{0}$ и $\alpha_{1}$, линейно входящие в правую часть и подивтегральную функцию, принимают значения, лежащие внутри допустимой области. Это означает, что О. р. с. исходной задачи (1)(4) есть особый оптимальный режим, или особое оптималььое управление, для вспомогательной, расщепленной задачи (8)-(11).
+
+Аналогичные результаты для О. p. с. имеют место в общем случае задачи оптимального управления. Пусть требуется найти минимум функционала
+
+\[
+\begin{gathered}
+J(x, u)=\int_{t_{0}}^{t_{1}} f^{0}(t, x, u) d t, \\
+f^{0}(t, x, u): \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{m} \rightarrow \mathbb{R},
+\end{gathered}
+\]
+
+при условия
+
+\[
+\begin{gathered}
+\dot{x}=f(t, x, u), f(t, x, u): \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{m} \rightarrow \mathbb{R}^{n}, \\
+x\left(t_{0}\right)=x_{0}, \quad x\left(t_{1}\right)=x_{1},
+\end{gathered}
+\]
+
+O. р. с. характеризуется неединственностью максимума по $u$ функции Гамильтона
+
+\[
+H(t, x, \psi, u)=\sum_{i=0}^{n} \psi_{i} f^{i}(t, x, u),
+\]
+
+где $\psi_{i}$ - сопряженные переменные (см. [2]). При этом на участке $\left[\tau_{1}, \tau_{2}\right]$ «скольжения» по $k+1, k&gt;1$, максимумам $u_{0}, u_{1}, \ldots, u_{k}$ исходная задача расщепляется и принимает вид
+
+\[
+\begin{gathered}
+I(x, \alpha, u)=\int_{\tau_{1}}^{\tau_{2}} \sum_{s=0}^{k} \alpha_{s} f^{0}\left(t, x, u_{s}\right) d t, \\
+\dot{x}=\sum_{s=0}^{k} \alpha_{s} f\left(t, x, u_{s}\right), \\
+x(t)=x_{0}, x\left(t_{1}\right)=x_{1}, \\
+u_{s} \in U, \sum_{s=0}^{k} \alpha_{s}=1, \alpha_{s} \geqslant 0, s=0,1, \ldots, k .
+\end{gathered}
+\]
+
+Функцию Гамильтона для задачи (16)-(19)
+
+\[
+H(t, x, \psi, \alpha, u)=\sum_{i=0}^{n} \psi_{i}\left(\sum_{s=0}^{k} \alpha_{s} f^{i}\left(t, x, u_{s}\right)\right)
+\]
+
+после исключения $\alpha_{0}$ и перегруппировки слагаемых можно шривести к виду
+
+\[
+H(t, x, \psi, \alpha, u)=
+\]
+
+$=\sum_{s=1}^{k}\left(\sum_{i=0}^{n} \psi_{i} f^{i}\left(t, x, u_{0}\right)-\sum_{i=0}^{n} \psi_{i} f^{i}\left(t, x, u_{s}\right)\right) \alpha_{s}=$
+
+\[
+=\sum_{s=k}^{k}\left(H\left(t, x, \psi, u_{1}\right)-H\left(t, x, \psi, u_{s}\right)\right) \alpha_{s} .
+\]
+
+Поскольку все $H\left(t, x, \psi, u_{s}\right), s=0,1, \ldots, k$, есть равные между собой максимумы $H$ по $u$ на множестве $U$, то на участке $\left[\tau_{1}, \tau_{2}\right]$ O. p. с. с $k+1$ максимумами коэффициенты прп $k$ независимых линейных управлениях $\alpha_{1}, \ldots$ $\ldots, \alpha_{k}$ функции Гамильтона расщепленной задачи (12)-(15) равны нулю. О. р. с. со «скольжением» по $k+1$ максимумам есть особый оптимальный режим по $k$ компонентам для расщепленной задачи (16) - (19). Максимально возможное значение $k$, к-рое целесообразно брать при исследовании скользящих режимов, определяется из условия выпуклости множества значений вектора правых частей и выпуклости вниз точной вижней границы множества значений подинтегральной функции расщепленной системы, получающихся, когда вектор управления $\left(\alpha_{s}, u_{s}\right), s=0,1, \ldots, k$ пробегает всіо допустимую область значений. Таким образом $k \leqslant n-$ оценка сверху для $k$. В самом общем случае все О. p. с. исходной задачи могут быть получены как особые оптимальные управления расщешленной задачи, записанной при $k=n$. В частности, в рассмотренном выше примере расцепленная задача рассматривалась при $k=1$, поскольку условия связи содержали только одно уравнение; исследование расцепленной задачи (8) -(11) было достаточно для исследования 0. p. с. исходной задачи (1)-(4).
+
+Если известны $k+1$ управлений $u_{0}(t), u_{1}(t), \ldots, u_{k}(t)$ доставляющих равные между собой абсолютные максимумы функции Гамильтона $H(t, x, \psi, u)$ в допустимої области $U$, то анализ О. р. с. сводится к исследованию особого оптимального режима по $k$ компонентам. Это исследование может быть проведено с использованием необходимых условий оптимальности особого управлевия (см. Оптимальный режим особый).
+
+Исследовались О. р. с. с помощью достаточных условий оптимальності (см. [4]).
+
+Лит.: [1] Г а м к р е л и д з е Р. В., “Докл. АН СССР》, 1962
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_70eb7251ff022d8c9e12g-1.jpg?height=40&amp;width=811&amp;top_left_y=2282&amp;top_left_x=989) ски и В. Г., Гамк р е ли д з е Р. В., Мищ ен к о Е. Ф., Математическая теория оптимальных процессов, 2 изд., М., 1969; 1967, т. $7, \mathcal{N}_{2} 2$, с. $259-83 ;[4]$ К р о т о в В. Ф., &quot;Автоматика и телемеханика», 1963, т. 24, № 5 , с. $581-98$. обычо то же, что оптимизачия вьчислительны $x$ алао ритмов. Иногда, однако, эти понятия трактуются различно. Напр., можно говорить об оптпмальности конкретного сеточного метода решения краевой задачи на нек-ром классе задач, имея в виду, что он требует вычисления правой части в минимальном числе точек. При рассмотрении вопросов об оптимизации вычислительного алгоритма изучается дополнительно ряд других моментов: способы решения возникающей системы сеточных уравнений, программная реализация этих способов и Т. П. H. С. Бахвалов.</text_orig>
+</article>

@@ -1,0 +1,655 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1128_EKSTREMAL'NBІE" alphabetic_pos="1128">
+  <title>ЭКСТРЕМАЛЬНБІЕ ЗАДАЧИ</title>
+  <authors/>
+  <pages>
+    <start>483</start>
+    <end>485</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] А ле е к с е e в B. М., Т их х ом и р о в B. М.,![](https://cdn.mathpix.com/cropped/2023_07_09_0b148d5e28a13f3f5e3dg-1.jpg?height=42&amp;width=806&amp;top_left_y=604&amp;top_left_x=153)алгоритмы решения задач оптимивации, К., 1983; [3] Б у т к о вс к и й А. Г., Методы управления системами с распределенными параметрами, М., 1975; [4] В а с и л в е в Ф. П.2 Численные методы решения әкстремальных задач, М., 1980; [5] е г о ж е, Методы решения әкстремальных задач, М., 1981; [6] Е в т у ша е нк о Ю. Г., Методы решения әкстремальных задач и их применение в системах оптимизации, М., 1982; [7] Е г о р о в А. И., Оптимальное управление тепловыми и дифффузионными процессами, М., 1978; [8] К р а с о в с к и й Н. Н., Теория управления движением, М., 1968; [9] Јi и о \&amp; с Ж.-Јi., Оптимальное управление системами, описываемыми уравнениями с частными производными, пер. с франц., М., 1972; [10] П о л я к Б. Т., Введение в оптимизацию, М., 1983; [11] С е а Ж., Оптимизация. Теория и алгоритмы, пер. с франц., М., 1973; [12] С и р а з е тд и н о в Т. $\mathrm{k}$. Оптимизация систем с распределенными параметрами, М., 1977; [13] Т и х о н о в А. Н., А р с е н и н В. Я. Методы решения некорректных задач, 2 изд., М., 1979; [14] $\phi$ е д о р е н к о Р. П., Приближенное решение задач оптимального управления, М., 1978; [15] Э к л а є д И., Т е м а м P., М., 1979.</literature_orig>
+    <unit>
+      <author>Алеексеeв B. М.</author>
+      <author>Тиххомиров B. М.</author>
+      <title>![](https://cdn.mathpix.com/cropped/2023_07_09_0b148d5e28a13f3f5e3dg-1.jpg?height=42&amp;width=806&amp;top_left_y=604&amp;top_left_x=153)алгоритмы решения задач оптимивации, К.</title>
+      <publication/>
+      <year>1983</year>
+      <other>Методы управления системами с распределенными параметрами, М., 1975; [4] В а с и л в е в Ф. П.2 Численные методы решения әкстремальных задач, М., 1980; [5] е г о ж е, Методы решения әкстремальных задач, М., 1981; [6] Е в т у ша е нк о Ю. Г., Методы решения әкстремальных задач и их применение в системах оптимизации, М., 1982; [7] Е г о р о в А. И., Оптимальное управление тепловыми и дифффузионными процессами, М., 1978; [8] К р а с о в с к и й Н. Н., Теория управления движением, М., 1968; [9] Јi и о \&amp; с Ж.-Јi., Оптимальное управление системами, описываемыми уравнениями с частными производными, пер. с франц., М., 1972; [10] П о л я к Б. Т., Введение в оптимизацию, М., 1983; [11] С е а Ж., Оптимизация. Теория и алгоритмы, пер. с франц., М., 1973; [12] С и р а з е тд и н о в Т. $\mathrm{k}$. Оптимизация систем с распределенными параметрами, М., 1977; [13] Т и х о н о в А. Н., А р с е н и н В. Я. Методы решения некорректных задач, 2 изд., М., 1979; [14] $\phi$ е д о р е н к о Р. П., Приближенное решение задач оптимального управления, М., 1978; [15] Э к л а є д И., Т е м а м P., М., 1979.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_1_EKSTREMAL'NBІE">J(u)=\int_{t_{0}}^{T} f^{0}(x(t), u(t), t) d t+F(x(T))</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_2_EKSTREMAL'NBІE">\begin{gathered}\dot{x}=f(x, u(t), t), t_{0} \leqslant t \leqslant T ; x\left(t_{0}\right)=x_{0}, \\u=u(t) \in V(t), t_{0} \leqslant t \leqslant T,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_3_EKSTREMAL'NBІE">\langle u, v\rangle_{L_{2}}=\int_{t_{0}}^{T} \sum_{i=1}^{r} u^{i}(t) v^{i}(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_4_EKSTREMAL'NBІE">\|u\|_{L_{2}^{r}}^{r}=\left(\int_{t_{0}}^{T} \Sigma_{i=1}^{r}\left|u^{i}(t)\right|^{2} d t\right)^{1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_5_EKSTREMAL'NBІE">\begin{gathered}J(u+h)-J(u)=-\int_{t_{0}}^{T} \sum_{i=1}^{r} \frac{\partial H(u)}{\partial u^{i}} h^{i}(t) d t+R= \\=\left\langle-\frac{\partial H(u)}{\partial u}, h\right\rangle_{L_{2}^{r}}+R, R=o\left(\|h\|_{L_{2}^{r}}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_6_EKSTREMAL'NBІE">\begin{aligned}&amp; H(x, \psi, u, t)=\sum_{i=1}^{n} \psi_{i} f^{i}(x, u, t)-f^{0}(x, u, t), \\&amp; \frac{\partial H}{\partial u}=\left(\frac{\partial H}{\partial u^{1}}, \cdots, \frac{\partial H}{\partial u^{r}}\right), \frac{\partial H(u)}{\partial u}=\left.\frac{\partial H}{\partial u}\right|_{\begin{array}{l}u=u(t) \\x=x(t ; u) \\\psi=\psi(t ; u)\end{array}}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_7_EKSTREMAL'NBІE">\begin{gathered}\dot{\psi}_{i}=-\left.\frac{\partial H}{\partial x^{i}}\right|_{\substack{u=u(t) \\x=x(t ; u)}}, t_{0} \leqslant t \leqslant T, i=1, \ldots, n \\\psi_{i}(T)=-\left.\frac{\partial F}{\partial x i}\right|_{x=x(T ; u)} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_8_EKSTREMAL'NBІE">J^{\prime}(u)=-\frac{\partial H(u)}{\partial u} \in L_{2}^{r}\left[t_{0}, T\right] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_9_EKSTREMAL'NBІE">u_{k+1}(t)=u_{k}(t)+\alpha_{k} \frac{\partial H\left(u_{k}\right)}{\partial u}, k=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_10_EKSTREMAL'NBІE">u_{k+1}(t)=P\left(u_{k}(t)+\alpha_{k} \frac{\partial H\left(u_{k}\right)}{\partial u}\right), k=0,1, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_11_EKSTREMAL'NBІE">w^{i}(t)=\left\{\begin{array}{l}\alpha_{i}(t) \text { при } v^{i}(t) \leqslant \alpha_{i}(t), \\v^{i}(t) \text { при } \alpha_{i}(t) \leqslant v^{i}(t) \leqslant \beta_{i}(t), \\\beta_{i}(t) \text { при } v^{i}(t)&gt;\beta_{i}(t), i=1, \ldots, r .\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_12_EKSTREMAL'NBІE">x(t ; u) \in G(t), t_{0} \leqslant t \leqslant T,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_13_EKSTREMAL'NBІE">\begin{gathered}P(u)=\int_{t_{0}}^{T}\left(\sum _ { i = 1 } ^ { m } \left(\max \left\{g_{i}(x(t ; u), t) ; 0\right)^{p}+\right.\right. \\\left.+\sum_{i=m+1}^{s}\left|g_{i}(x(t ; u), t)\right|^{p}\right) d t, p \geqslant 1,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_14_EKSTREMAL'NBІE">J(u)=|x(T ; u)-y|_{E^{n}}^{2},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_15_EKSTREMAL'NBІE">\|u\|_{L_{2}^{r}}^{2}=\int_{t_{0}}^{T}|u(t)|_{E^{r}}^{2} d t \leqslant R^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_16_EKSTREMAL'NBІE">\begin{gathered}J^{\prime}(u)+\gamma u=0, \\\psi\left(\|u\|_{L_{2}^{r}}-R\right)=0, \quad\|u\|_{L_{2}^{r}} \leqslant R ;\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_17_EKSTREMAL'NBІE">\begin{gathered}\dot{\psi}=-A^{T}(t) \psi, t_{0} \leqslant t \leqslant T, \\\psi(T)=2(x(T ; u)-y) ;\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_18_EKSTREMAL'NBІE">B^{T}(t) \psi(t ; u)+\gamma u(t)=0, t_{0} \leqslant t \leqslant T .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_19_EKSTREMAL'NBІE">k=1, \ldots, n \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_20_EKSTREMAL'NBІE">\begin{gathered}a_{k}=\left\langle y, p_{k}(T)\right\rangle_{E^{n}}-\left\langle x_{0}, p_{k}\left(t_{0}\right)\right\rangle_{E^{n}}- \\-\int_{t_{0}}^{T}\left\langle f(t), p_{k}(t)\right\rangle_{E^{r}} d t,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_21_EKSTREMAL'NBІE">\int_{t_{0}}^{T}\left\langle u(t), \quad \varphi_{k}(t)\right\rangle d t=a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_22_EKSTREMAL'NBІE">\psi(t)=\sum_{k=1}^{n} \psi_{k} p_{k}(t), \quad t_{\theta} \leqslant t \leqslant T .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_23_EKSTREMAL'NBІE">u(t ; \gamma)=\sum_{k=1}^{n} u_{k} B^{T}(t) p_{k}(t), \quad t_{0} \leqslant t \leqslant T .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_24_EKSTREMAL'NBІE">u(t)=u(t ; 0)+v(t), \quad t_{0} \leqslant t \leqslant T,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_25_EKSTREMAL'NBІE">\begin{aligned}&amp; \left\{B^{T}(t) p_{k}(t), \quad k=1, \ldots, n\right\}, \\&amp; \|v(t)\|_{L_{2}^{r}}^{2} \leqslant R^{2}-\|u(t ; 0)\|_{L_{2}^{r}}^{2} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1128_26_EKSTREMAL'NBІE">\|u(t ; \gamma)\|_{L_{2}^{r}}=R, \quad \gamma&gt;0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_1_EKSTREMAL'NBІE">l_{2}^{r}\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_2_EKSTREMAL'NBІE">x=\left(x^{1}, \ldots, x^{n}\right), u=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_3_EKSTREMAL'NBІE">=\left(u^{1}, \ldots, u^{r}\right), f=\left(f^{1}, \ldots, f^{n}\right), f^{i}(x, u, t), \quad i=0,1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_4_EKSTREMAL'NBІE">n, F(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_5_EKSTREMAL'NBІE">t_{0}, T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_6_EKSTREMAL'NBІE">t_{0}&lt;t ; x_{0}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_7_EKSTREMAL'NBІE">v(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_8_EKSTREMAL'NBІE">t \in\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_9_EKSTREMAL'NBІE">e^{r} ; L_{2}^{r}\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_10_EKSTREMAL'NBІE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_11_EKSTREMAL'NBІE">u=u(t)=\left(u^{1}(t)\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_12_EKSTREMAL'NBІE">\left.u^{r}(t)\right), t_{0} \leqslant t \leqslant T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_13_EKSTREMAL'NBІE">u^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_14_EKSTREMAL'NBІE">\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_15_EKSTREMAL'NBІE">\left(l_{2}^{1}\left[t_{0}, T\right]=L_{2}\left[t_{0}, T\right]\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_16_EKSTREMAL'NBІE">u(t), v(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_17_EKSTREMAL'NBІE">f^{i}(x, u, t), F(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_18_EKSTREMAL'NBІE">x=x(t ; u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_19_EKSTREMAL'NBІE">u=u(t), \psi=\psi(t ; u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_20_EKSTREMAL'NBІE">l_{2}^{r}\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_21_EKSTREMAL'NBІE">v(t)=e^{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_22_EKSTREMAL'NBІE">v(t)=\left\{u=\left(u^{1}, \ldots, u^{r}\right): \alpha_{i}(t) \leqslant u^{i} \leqslant \beta_{i}(t), \quad i=1\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_23_EKSTREMAL'NBІE">. ., r\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_24_EKSTREMAL'NBІE">\alpha_{i}(t), \beta_{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_25_EKSTREMAL'NBІE">l_{2}\left[t_{0}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_26_EKSTREMAL'NBІE">t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_27_EKSTREMAL'NBІE">p(w)=\left(w^{\mathbf{1}}(t), \ldots, w^{r}(t)\right), t_{0} \leqslant t \leqslant T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_28_EKSTREMAL'NBІE">\alpha_{k}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_29_EKSTREMAL'NBІE">j\left(u_{k+1}\right)&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_30_EKSTREMAL'NBІE">&lt;j\left(u_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_31_EKSTREMAL'NBІE">g(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_32_EKSTREMAL'NBІE">e^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_33_EKSTREMAL'NBІE">g(t)=\left\{x \in E^{n}: g_{i}(x, t) \leqslant 0, i=1, \ldots, m, g_{i}(x, t)=0\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_34_EKSTREMAL'NBІE">i=m+1, \ldots, s\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_35_EKSTREMAL'NBІE">\phi_{k}(u)=j(u)+a_{k} P(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_36_EKSTREMAL'NBІE">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_37_EKSTREMAL'NBІE">\lim A_{k}=+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_38_EKSTREMAL'NBІE">\left.\stackrel{k}{ } \overrightarrow{3}^{\infty}\right)^{\infty},(9)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_39_EKSTREMAL'NBІE">x=x(t ; u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_40_EKSTREMAL'NBІE">\dot{x}=a(t) x+B(t) u(t)+f(t), t_{0} \leqslant t \leqslant T, x\left(t_{0}\right)=x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_41_EKSTREMAL'NBІE">u=u(t) \in L_{2}^{r}\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_42_EKSTREMAL'NBІE">a(t), B(t), f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_43_EKSTREMAL'NBІE">n \times n, n \times r, n \times 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_44_EKSTREMAL'NBІE">t_{0} \leqslant t \leqslant T ; 0&lt;R \leqslant \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_45_EKSTREMAL'NBІE">=\sum_{i=1}^{m} x^{i} y^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_46_EKSTREMAL'NBІE">e^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_47_EKSTREMAL'NBІE">u=u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_48_EKSTREMAL'NBІE">\gamma \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_49_EKSTREMAL'NBІE">r=\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_50_EKSTREMAL'NBІE">\gamma=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_51_EKSTREMAL'NBІE">j^{\prime}(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_52_EKSTREMAL'NBІE">l_{2}^{r}\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_53_EKSTREMAL'NBІE">j^{\prime}(u)=b^{t}(t) \psi(t ; u), t_{0} \leqslant t \leqslant T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_54_EKSTREMAL'NBІE">\psi=\psi(t ; u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_55_EKSTREMAL'NBІE">a^{t}, B^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_56_EKSTREMAL'NBІE">a, B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_57_EKSTREMAL'NBІE">\int_{t_{0}}^{t}\left\langle u(t), B^{T}(t) p_{k}(t)\right\rangle_{E^{r}} d t-\frac{1}{2}\left\langle\psi(T), p_{k}(T)_{E^{n}}=a_{k}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_58_EKSTREMAL'NBІE">p_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_59_EKSTREMAL'NBІE">p_{k}(t)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_60_EKSTREMAL'NBІE">\stackrel{e_{k}}{ }=(0, \ldots, 0,1,0, \ldots, 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_61_EKSTREMAL'NBІE">u=u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_62_EKSTREMAL'NBІE">(14),(15),(17),(18)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_63_EKSTREMAL'NBІE">u(t), \psi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_64_EKSTREMAL'NBІE">\gamma \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_65_EKSTREMAL'NBІE">r=\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_66_EKSTREMAL'NBІE">\gamma=0, \psi(t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_67_EKSTREMAL'NBІE">u=u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_68_EKSTREMAL'NBІE">\varphi_{k}(t)=b^{t}(t) p_{k}(t), k=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_69_EKSTREMAL'NBІE">0&lt;r&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_70_EKSTREMAL'NBІE">\psi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_71_EKSTREMAL'NBІE">ү \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_72_EKSTREMAL'NBІE">\psi(t ; \gamma), u(t ; \gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_73_EKSTREMAL'NBІE">(15),(17),(18)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_74_EKSTREMAL'NBІE">u(t ; \gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_75_EKSTREMAL'NBІE">\psi(t ; \gamma), u(t ; \gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_76_EKSTREMAL'NBІE">\psi_{1}, \ldots, \psi_{n}, u_{1}, \ldots, u_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_77_EKSTREMAL'NBІE">\psi_{1}, \ldots, \psi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_78_EKSTREMAL'NBІE">u_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_79_EKSTREMAL'NBІE">\because \dot{\vec{T}}, u_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_80_EKSTREMAL'NBІE">\left\{\boldsymbol{b}^{\boldsymbol{t}}(t) p_{k}(t), k=1, \ldots, n\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_81_EKSTREMAL'NBІE">\gamma=0, \psi(t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_82_EKSTREMAL'NBІE">u(t ; 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_83_EKSTREMAL'NBІE">(20)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_84_EKSTREMAL'NBІE">\|u(t ; 0)\|_{L_{2}^{r}} \leqslant R</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_85_EKSTREMAL'NBІE">u(t ; 0)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_86_EKSTREMAL'NBІE">v(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_87_EKSTREMAL'NBІE">l_{2}^{r}\left[t_{0}, T\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_88_EKSTREMAL'NBІE">\| u\left(t ; 0 \|_{L_{2}^{r}}&gt;R\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_89_EKSTREMAL'NBІE">\gamma&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_90_EKSTREMAL'NBІE">\psi(t, \gamma), u(t, \gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_91_EKSTREMAL'NBІE">(19),(20)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_92_EKSTREMAL'NBІE">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_93_EKSTREMAL'NBІE">\|u(t ; \gamma)\|_{L_{2}^{r}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_94_EKSTREMAL'NBІE">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_95_EKSTREMAL'NBІE">\gamma&gt;0, \lim _{\gamma \rightarrow+\infty} \| u\left(t ; 0 \|_{L_{2}^{r}}=0\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_96_EKSTREMAL'NBІE">\gamma=\gamma_{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_97_EKSTREMAL'NBІE">u\left(t ; \gamma_{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1128_98_EKSTREMAL'NBІE">\| u\left(t ; 0 \|_{L_{2}^{r}}&gt;R\right.</formula>
+  </formulas_aux>
+  <relations n="20">
+    <relation uri="http://libmeta.ru/me/relation/1128_1_EKSTREMAL'NBІE">
+      <rel_text>Некорректные задачи</rel_text>
+      <target>http://libmeta.ru/me/article/907_NEKORREKTNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_2_EKSTREMAL'NBІE">
+      <rel_text>Интегрирование</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_3_EKSTREMAL'NBІE">
+      <rel_text>численные</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_4_EKSTREMAL'NBІE">
+      <rel_text>Краевая задача</rel_text>
+      <target>http://libmeta.ru/me/article/68_KRAEVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_5_EKSTREMAL'NBІE">
+      <rel_text>Моментов проблема</rel_text>
+      <target>http://libmeta.ru/me/article/764_MOMENTOV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_6_EKSTREMAL'NBІE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_7_EKSTREMAL'NBІE">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_8_EKSTREMAL'NBІE">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_9_EKSTREMAL'NBІE">
+      <rel_text>оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_10_EKSTREMAL'NBІE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_11_EKSTREMAL'NBІE">
+      <rel_text>результате</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_12_EKSTREMAL'NBІE">
+      <rel_text>численное</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_13_EKSTREMAL'NBІE">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_14_EKSTREMAL'NBІE">
+      <rel_text>приближенного</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_15_EKSTREMAL'NBІE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_16_EKSTREMAL'NBІE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_17_EKSTREMAL'NBІE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_18_EKSTREMAL'NBІE">
+      <rel_text>приближенного</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_19_EKSTREMAL'NBІE">
+      <rel_text>предполагает</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1128_20_EKSTREMAL'NBІE">
+      <rel_text>Численная</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+  </relations>
+  <text>ч и с л е н н Ы е м ет о д р е ш е н и я - методы вычислительной математики, применяемые для поиска әкстремумов (максимумов или минимумов) функций и функционалов.
+
+Для численного решения экстрөмальных задач, рассматриваемых в бесконечномерных функциональных пространствах (напр., задач оптимального управления процессами, описываемыми обыкновенными дифференциальными уравнениями или уравнениями с частными производными) могут быть использованы после соответствующего обобщения многие методы математит. программирования, разработанные для задач минимизации или максимизации функций конечного числа переменных. При этом в конкретных задачах весьма важен правильный выбор подходящего функционального пространства, в к-ром следует ее рассматривать. При выборе такого пространства обычно учитываются физпч. соображения, свойства дошустимых управлений, свойства решений соответствующих начально-краевых задач при фиксированном управлении и т. .
+
+Напр., задачу оптимального управления, заключающуюся в минимизации функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_1_EKSTREMAL'NBІE]]/URI
+\]
+
+при условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_2_EKSTREMAL'NBІE]]/URI
+\]
+
+часто бывает удобно рассматривать в функциональном пространстве $URI[[http://libmeta.ru/me/formula/aux/1128_1_EKSTREMAL'NBІE]]/URI$. Здесь $URI[[http://libmeta.ru/me/formula/aux/1128_2_EKSTREMAL'NBІE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1128_3_EKSTREMAL'NBІE]]/URI$, . . n, $URI[[http://libmeta.ru/me/formula/aux/1128_4_EKSTREMAL'NBІE]]/URI$ - заданные фуункции; $URI[[http://libmeta.ru/me/formula/aux/1128_5_EKSTREMAL'NBІE]]/URI$ - известные моменты времени, $URI[[http://libmeta.ru/me/formula/aux/1128_6_EKSTREMAL'NBІE]]/URI$ заданная начальная точка; $URI[[http://libmeta.ru/me/formula/aux/1128_7_EKSTREMAL'NBІE]]/URI$ при каждом $URI[[http://libmeta.ru/me/formula/aux/1128_8_EKSTREMAL'NBІE]]/URI$ - заданное множество из евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/1128_9_EKSTREMAL'NBІE]]/URI$ - гильбертово пространство $URI[[http://libmeta.ru/me/formula/aux/1128_10_EKSTREMAL'NBІE]]/URI$-мерных вектор-функций $URI[[http://libmeta.ru/me/formula/aux/1128_11_EKSTREMAL'NBІE]]/URI$, ... , $URI[[http://libmeta.ru/me/formula/aux/1128_12_EKSTREMAL'NBІE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1128_13_EKSTREMAL'NBІE]]/URI$ - функция, интегрируө- мая на $URI[[http://libmeta.ru/me/formula/aux/1128_14_EKSTREMAL'NBІE]]/URI$ по Лебегу вместе со своим квадратом $URI[[http://libmeta.ru/me/formula/aux/1128_15_EKSTREMAL'NBІE]]/URI$, причем скалярное произведение двух функций $URI[[http://libmeta.ru/me/formula/aux/1128_16_EKSTREMAL'NBІE]]/URI$, в этом пространстве равно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_3_EKSTREMAL'NBІE]]/URI
+\]
+
+норма
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_4_EKSTREMAL'NBІE]]/URI
+\]
+
+При онределенной гладкости функций $URI[[http://libmeta.ru/me/formula/aux/1128_17_EKSTREMAL'NBІE]]/URI$ приращение функционала (1) можно представить в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_5_EKSTREMAL'NBІE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_6_EKSTREMAL'NBІE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1128_18_EKSTREMAL'NBІE]]/URI$ - решение задачи (2) при $URI[[http://libmeta.ru/me/formula/aux/1128_19_EKSTREMAL'NBІE]]/URI$
+
+- решение сопряженной задачи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_7_EKSTREMAL'NBІE]]/URI
+\]
+
+Из формулы (4) следует, тто функционал (1) дифференцируем в пространстве $URI[[http://libmeta.ru/me/formula/aux/1128_20_EKSTREMAL'NBІE]]/URI$ и его градиентом является вектор-функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_8_EKSTREMAL'NBІE]]/URI
+\]
+
+Таким образом, для рөшения задачи (1)-(3) могут быть применены различные методы, использующие градиент функционала. При $URI[[http://libmeta.ru/me/formula/aux/1128_21_EKSTREMAL'NBІE]]/URI$ здесь можно применить градиентный метод
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_9_EKSTREMAL'NBІE]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/1128_22_EKSTREMAL'NBІE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1128_23_EKSTREMAL'NBІE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1128_24_EKSTREMAL'NBІE]]/URI$ - заданные функции из $URI[[http://libmeta.ru/me/formula/aux/1128_25_EKSTREMAL'NBІE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1128_26_EKSTREMAL'NBІE]]/URI$, то возможно применение метода проекции градиента
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_10_EKSTREMAL'NBІE]]/URI
+\]
+де
+
+$URI[[http://libmeta.ru/me/formula/aux/1128_27_EKSTREMAL'NBІE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_11_EKSTREMAL'NBІE]]/URI
+\]
+
+Параметр $URI[[http://libmeta.ru/me/formula/aux/1128_28_EKSTREMAL'NBІE]]/URI$ может выбираться из условия $URI[[http://libmeta.ru/me/formula/aux/1128_29_EKSTREMAL'NBІE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1128_30_EKSTREMAL'NBІE]]/URI$. Аналогично могут быть расписаны для задачи (1) -(3) методы условного градиента, сопряженных градиентов и др. (см. [4]-[6], [11]). Если задача (1)(3) рассматривается при дополнительных ограничениях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_12_EKSTREMAL'NBІE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1128_31_EKSTREMAL'NBІE]]/URI$ - заданное множество из $URI[[http://libmeta.ru/me/formula/aux/1128_32_EKSTREMAL'NBІE]]/URI$, то для учета ограничений (9) может быть использован штрафыных функций метод. Напр., если
+
+$URI[[http://libmeta.ru/me/formula/aux/1128_33_EKSTREMAL'NBІE]]/URI$,
+$URI[[http://libmeta.ru/me/formula/aux/1128_34_EKSTREMAL'NBІE]]/URI$, то в качестве штрафюой функции можно взять
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_13_EKSTREMAL'NBІE]]/URI
+\]
+
+и задачу (1)-(3), (9) заменить задачей минимизации функционала $URI[[http://libmeta.ru/me/formula/aux/1128_35_EKSTREMAL'NBІE]]/URI$ при условиях (2), (3), где $URI[[http://libmeta.ru/me/formula/aux/1128_36_EKSTREMAL'NBІE]]/URI$ - птрафной коэффициент, $URI[[http://libmeta.ru/me/formula/aux/1128_37_EKSTREMAL'NBІE]]/URI$.
+
+Другие методы решения задачи (1) $URI[[http://libmeta.ru/me/formula/aux/1128_38_EKSTREMAL'NBІE]]/URI$ основаны на принципе максимума Понтрягина, на динамич. программировании (см. Понтрягина принцип максияума, Динамическое программирование, Вариационное исчисление; численные методы).
+
+Для решения задачи минимизаций квадратичного функциовала на ретениях систем линейных обыкновенных дифференциальных уравнений или линейных уравнений с частными производными, может быть применен метод моментов (см. [3], [8]). Ниже описан этот метод применительно к задаче минимизации функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_14_EKSTREMAL'NBІE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1128_39_EKSTREMAL'NBІE]]/URI$ - решение задачи $URI[[http://libmeta.ru/me/formula/aux/1128_40_EKSTREMAL'NBІE]]/URI$,
+
+управления $URI[[http://libmeta.ru/me/formula/aux/1128_41_EKSTREMAL'NBІE]]/URI$ таковы, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_15_EKSTREMAL'NBІE]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/me/formula/aux/1128_42_EKSTREMAL'NBІE]]/URI$-заданные матрицы порядка $URI[[http://libmeta.ru/me/formula/aux/1128_43_EKSTREMAL'NBІE]]/URI$ соответственно, имеющие кусочно непрерывные әлементы на отрезке $URI[[http://libmeta.ru/me/formula/aux/1128_44_EKSTREMAL'NBІE]]/URI$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_1ad6f38ee0d6afef83f1g-1.jpg?height=50&amp;width=814&amp;top_left_y=1213&amp;top_left_x=141)
+$URI[[http://libmeta.ru/me/formula/aux/1128_45_EKSTREMAL'NBІE]]/URI$-скалярное шроизведение в $URI[[http://libmeta.ru/me/formula/aux/1128_46_EKSTREMAL'NBІE]]/URI$. Из шравнла множителей Лагранжа следует, что управлевие $URI[[http://libmeta.ru/me/formula/aux/1128_47_EKSTREMAL'NBІE]]/URI$ является оптимальным в задаче (10)-(12) тогда и только тогда, когда существует число $URI[[http://libmeta.ru/me/formula/aux/1128_48_EKSTREMAL'NBІE]]/URI$ (лагранжа множитель для ограничения (12)) такое, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_16_EKSTREMAL'NBІE]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/1128_49_EKSTREMAL'NBІE]]/URI$ здесь $URI[[http://libmeta.ru/me/formula/aux/1128_50_EKSTREMAL'NBІE]]/URI$. Из формул (5)-(8) следует, тто градиент $URI[[http://libmeta.ru/me/formula/aux/1128_51_EKSTREMAL'NBІE]]/URI$ функционала (10) в $URI[[http://libmeta.ru/me/formula/aux/1128_52_EKSTREMAL'NBІE]]/URI$ имеет вид $URI[[http://libmeta.ru/me/formula/aux/1128_53_EKSTREMAL'NBІE]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/1128_54_EKSTREMAL'NBІE]]/URI$ - решение задачи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_17_EKSTREMAL'NBІE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1128_55_EKSTREMAL'NBІE]]/URI$ - матрицы, полученные транспонированием матриц $URI[[http://libmeta.ru/me/formula/aux/1128_56_EKSTREMAL'NBІE]]/URI$ соответственно. Условие (13) тогда примет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_18_EKSTREMAL'NBІE]]/URI
+\]
+
+Условие (16) равносильно соотношениям
+
+$URI[[http://libmeta.ru/me/formula/aux/1128_57_EKSTREMAL'NBІE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_19_EKSTREMAL'NBІE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_20_EKSTREMAL'NBІE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1128_58_EKSTREMAL'NBІE]]/URI$ - решение системы (15) при условии $URI[[http://libmeta.ru/me/formula/aux/1128_59_EKSTREMAL'NBІE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1128_60_EKSTREMAL'NBІE]]/URI$ - единичный вектор. Таким образом, для определения оптимального управления $URI[[http://libmeta.ru/me/formula/aux/1128_61_EKSTREMAL'NBІE]]/URI$ в задаче (10)-(12) нужно решить систему $URI[[http://libmeta.ru/me/formula/aux/1128_62_EKSTREMAL'NBІE]]/URI$ относительно функций $URI[[http://libmeta.ru/me/formula/aux/1128_63_EKSTREMAL'NBІE]]/URI$ и числа $URI[[http://libmeta.ru/me/formula/aux/1128_64_EKSTREMAL'NBІE]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/1128_65_EKSTREMAL'NBІE]]/URI$ здесь $URI[[http://libmeta.ru/me/formula/aux/1128_66_EKSTREMAL'NBІE]]/URI$ и условие (18) приведет к проблеме моментов (см. URI[[http://libmeta.ru/me/relation/1128_5_EKSTREMAL'NBІE]]/URI): найти функцию $URI[[http://libmeta.ru/me/formula/aux/1128_67_EKSTREMAL'NBІE]]/URI$, зная ее моменты
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_21_EKSTREMAL'NBІE]]/URI
+\]
+
+по системе $URI[[http://libmeta.ru/me/formula/aux/1128_68_EKSTREMAL'NBІE]]/URI$.
+
+Система (14), (15), (17), (18) представляет собой обобщенную проблему моментов для задачи (10)-(12) при $URI[[http://libmeta.ru/me/formula/aux/1128_69_EKSTREMAL'NBІE]]/URI$ (см. [3], [8]).
+
+Јюбое решение $URI[[http://libmeta.ru/me/formula/aux/1128_70_EKSTREMAL'NBІE]]/URI$ системы (15) однозначно представимо в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_22_EKSTREMAL'NBІE]]/URI
+\]
+
+При любом фиксированном $URI[[http://libmeta.ru/me/formula/aux/1128_71_EKSTREMAL'NBІE]]/URI$ существует решение $URI[[http://libmeta.ru/me/formula/aux/1128_72_EKSTREMAL'NBІE]]/URI$ системы $URI[[http://libmeta.ru/me/formula/aux/1128_73_EKSTREMAL'NBІE]]/URI$, причем среди всех решений найдется единственное такое, что $URI[[http://libmeta.ru/me/formula/aux/1128_74_EKSTREMAL'NBІE]]/URI$ имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_23_EKSTREMAL'NBІE]]/URI
+\]
+
+Для определения $URI[[http://libmeta.ru/me/formula/aux/1128_75_EKSTREMAL'NBІE]]/URI$ нужно подставить выражения (19), (20) в (17), (18). В результате получится система линейных алгебраических уравнений относительно $URI[[http://libmeta.ru/me/formula/aux/1128_76_EKSTREMAL'NBІE]]/URI$, из к-рой однозначно определяются величины $URI[[http://libmeta.ru/me/formula/aux/1128_77_EKSTREMAL'NBІE]]/URI$, а величины $URI[[http://libmeta.ru/me/formula/aux/1128_78_EKSTREMAL'NBІE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1128_79_EKSTREMAL'NBІE]]/URI$ в случае линейной зависимости системы $URI[[http://libmeta.ru/me/formula/aux/1128_80_EKSTREMAL'NBІE]]/URI$ определяются неоднозначно. сначала положить $URI[[http://libmeta.ru/me/formula/aux/1128_81_EKSTREMAL'NBІE]]/URI$ и из (18) определить $URI[[http://libmeta.ru/me/formula/aux/1128_82_EKSTREMAL'NBІE]]/URI$ вида $URI[[http://libmeta.ru/me/formula/aux/1128_83_EKSTREMAL'NBІE]]/URI$. Затем следует проверить условие $URI[[http://libmeta.ru/me/formula/aux/1128_84_EKSTREMAL'NBІE]]/URI$. Если это неравенство выполняется, то $URI[[http://libmeta.ru/me/formula/aux/1128_85_EKSTREMAL'NBІE]]/URI$ оптимальное управление задачи (10)-(12), имеющее минимальную норму среди всех оптимальных управлений; множество всех оптимальных управлений в этом случае исчерпывается управлениями вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_24_EKSTREMAL'NBІE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1128_86_EKSTREMAL'NBІE]]/URI$ принадлежит ортогональному дополнению в $URI[[http://libmeta.ru/me/formula/aux/1128_87_EKSTREMAL'NBІE]]/URI$ линейной оболочки систем функций
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_25_EKSTREMAL'NBІE]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/1128_88_EKSTREMAL'NBІE]]/URI$, то из (17), (18) при $URI[[http://libmeta.ru/me/formula/aux/1128_89_EKSTREMAL'NBІE]]/URI$ ошределяют решения $URI[[http://libmeta.ru/me/formula/aux/1128_90_EKSTREMAL'NBІE]]/URI$ вида $URI[[http://libmeta.ru/me/formula/aux/1128_91_EKSTREMAL'NBІE]]/URI$ и находят $URI[[http://libmeta.ru/me/formula/aux/1128_92_EKSTREMAL'NBІE]]/URI$ из уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1128_26_EKSTREMAL'NBІE]]/URI
+\]
+
+функция $URI[[http://libmeta.ru/me/formula/aux/1128_93_EKSTREMAL'NBІE]]/URI$ переменной $URI[[http://libmeta.ru/me/formula/aux/1128_94_EKSTREMAL'NBІE]]/URI$ непрерывна, строго монотонно убывает при $URI[[http://libmeta.ru/me/formula/aux/1128_95_EKSTREMAL'NBІE]]/URI$, поэтому из (21) однозначно определяется искомое $URI[[http://libmeta.ru/me/formula/aux/1128_96_EKSTREMAL'NBІE]]/URI$. Управление $URI[[http://libmeta.ru/me/formula/aux/1128_97_EKSTREMAL'NBІE]]/URI$ будет оптимальным для задачи (10)-(12); при $URI[[http://libmeta.ru/me/formula/aux/1128_98_EKSTREMAL'NBІE]]/URI$ эта задача других оптимальных управлений не имеет.
+
+Метод моментов применим также для решения вадачи быстродействия для систем (11) и друғих линейных систем (см. [3], [8]).
+
+Упомянутые выше методы широко используются и для численного решения задач оптимального управления процессами, описываемыми уравнениями с частными производными.
+
+URI[[http://libmeta.ru/me/relation/1128_20_EKSTREMAL'NBІE]]/URI реализация многих методов рөшения задач оцтимального управления URI[[http://libmeta.ru/me/relation/1128_19_EKSTREMAL'NBІE]]/URI использование тех или иных методов URI[[http://libmeta.ru/me/relation/1128_18_EKSTREMAL'NBІE]]/URI решения встречающихся вачально-краевых задач (см. URI[[http://libmeta.ru/me/relation/1128_4_EKSTREMAL'NBІE]]/URI; URI[[http://libmeta.ru/me/relation/1128_3_EKSTREMAL'NBІE]]/URI URI[[http://libmeta.ru/me/relation/1128_17_EKSTREMAL'NBІE]]/URI решения для URI[[http://libmeta.ru/me/relation/1128_16_EKSTREMAL'NBІE]]/URI с URI[[http://libmeta.ru/me/relation/1128_15_EKSTREMAL'NBІE]]/URI), URI[[http://libmeta.ru/me/relation/1128_14_EKSTREMAL'NBІE]]/URI URI[[http://libmeta.ru/me/relation/1128_13_EKSTREMAL'NBІE]]/URI интегралов (см. URI[[http://libmeta.ru/me/relation/1128_2_EKSTREMAL'NBІE]]/URI URI[[http://libmeta.ru/me/relation/1128_12_EKSTREMAL'NBІE]]/URI). В URI[[http://libmeta.ru/me/relation/1128_11_EKSTREMAL'NBІE]]/URI исходная URI[[http://libmeta.ru/me/relation/1128_10_EKSTREMAL'NBІE]]/URI URI[[http://libmeta.ru/me/relation/1128_9_EKSTREMAL'NBІE]]/URI заменяется нек-рым семейством аппроксимирующих задач, зависящим от нек-рых URI[[http://libmeta.ru/me/relation/1128_8_EKSTREMAL'NBІE]]/URI (напр., от пагов разностной сетки). Вопросы построения аппроксимирующих задач, исследование URI[[http://libmeta.ru/me/relation/1128_7_EKSTREMAL'NBІE]]/URI см. в [5].
+
+Широкие классы әкстремальных задач являются некорректно поставленными (см. URI[[http://libmeta.ru/me/relation/1128_1_EKSTREMAL'NBІE]]/URI) и для их решения нужно использовать регуляризации URI[[http://libmeta.ru/me/relation/1128_6_EKSTREMAL'NBІE]]/URI (см. [5], [13]).</text>
+  <text_orig>ч и с л е н н Ы е м ет о д р е ш е н и я - методы вычислительной математики, применяемые для поиска әкстремумов (максимумов или минимумов) функций и функционалов.
+
+Для численного решения экстрөмальных задач, рассматриваемых в бесконечномерных функциональных пространствах (напр., задач оптимального управления процессами, описываемыми обыкновенными дифференциальными уравнениями или уравнениями с частными производными) могут быть использованы после соответствующего обобщения многие методы математит. программирования, разработанные для задач минимизации или максимизации функций конечного числа переменных. При этом в конкретных задачах весьма важен правильный выбор подходящего функционального пространства, в к-ром следует ее рассматривать. При выборе такого пространства обычно учитываются физпч. соображения, свойства дошустимых управлений, свойства решений соответствующих начально-краевых задач при фиксированном управлении и т. .
+
+Напр., задачу оптимального управления, заключающуюся в минимизации функционала
+
+\[
+J(u)=\int_{t_{0}}^{T} f^{0}(x(t), u(t), t) d t+F(x(T))
+\]
+
+при условия
+
+\[
+\begin{gathered}
+\dot{x}=f(x, u(t), t), t_{0} \leqslant t \leqslant T ; x\left(t_{0}\right)=x_{0}, \\
+u=u(t) \in V(t), t_{0} \leqslant t \leqslant T,
+\end{gathered}
+\]
+
+часто бывает удобно рассматривать в функциональном пространстве $L_{2}^{r}\left[t_{0}, T\right]$. Здесь $x=\left(x^{1}, \ldots, x^{n}\right), u=$ $=\left(u^{1}, \ldots, u^{r}\right), f=\left(f^{1}, \ldots, f^{n}\right), f^{i}(x, u, t), \quad i=0,1$, . . n, $n, F(x)$ - заданные фуункции; $t_{0}, T$ - известные моменты времени, $t_{0}&lt;T ; x_{0}-$ заданная начальная точка; $V(t)$ при каждом $t \in\left[t_{0}, T\right]$ - заданное множество из евклидова пространства $E^{r} ; L_{2}^{r}\left[t_{0}, T\right]$ - гильбертово пространство $r$-мерных вектор-функций $u=u(t)=\left(u^{1}(t)\right.$, ... , $\left.u^{r}(t)\right), t_{0} \leqslant t \leqslant T$, где $u^{i}(t)$ - функция, интегрируө- мая на $\left[t_{0}, T\right]$ по Лебегу вместе со своим квадратом $\left(L_{2}^{1}\left[t_{0}, T\right]=L_{2}\left[t_{0}, T\right]\right)$, причем скалярное произведение двух функций $u(t), v(t)$, в этом пространстве равно
+
+\[
+\langle u, v\rangle_{L_{2}}=\int_{t_{0}}^{T} \sum_{i=1}^{r} u^{i}(t) v^{i}(t) d t
+\]
+
+норма
+
+\[
+\|u\|_{L_{2}^{r}}^{r}=\left(\int_{t_{0}}^{T} \Sigma_{i=1}^{r}\left|u^{i}(t)\right|^{2} d t\right)^{1 / 2}
+\]
+
+При онределенной гладкости функций $f^{i}(x, u, t), F(x)$ приращение функционала (1) можно представить в виде
+
+\[
+\begin{gathered}
+J(u+h)-J(u)=-\int_{t_{0}}^{T} \sum_{i=1}^{r} \frac{\partial H(u)}{\partial u^{i}} h^{i}(t) d t+R= \\
+=\left\langle-\frac{\partial H(u)}{\partial u}, h\right\rangle_{L_{2}^{r}}+R, R=o\left(\|h\|_{L_{2}^{r}}\right),
+\end{gathered}
+\]
+
+где
+
+\[
+\begin{aligned}
+&amp; H(x, \psi, u, t)=\sum_{i=1}^{n} \psi_{i} f^{i}(x, u, t)-f^{0}(x, u, t), \\
+&amp; \frac{\partial H}{\partial u}=\left(\frac{\partial H}{\partial u^{1}}, \cdots, \frac{\partial H}{\partial u^{r}}\right), \frac{\partial H(u)}{\partial u}=\left.\frac{\partial H}{\partial u}\right|_{\begin{array}{l}
+u=u(t) \\
+x=x(t ; u) \\
+\psi=\psi(t ; u)
+\end{array}}
+\end{aligned}
+\]
+
+$x=x(t ; u)$ - решение задачи (2) при $u=u(t), \psi=\psi(t ; u)$
+
+- решение сопряженной задачи
+
+\[
+\begin{gathered}
+\dot{\psi}_{i}=-\left.\frac{\partial H}{\partial x^{i}}\right|_{\substack{u=u(t) \\
+x=x(t ; u)}}, t_{0} \leqslant t \leqslant T, i=1, \ldots, n \\
+\psi_{i}(T)=-\left.\frac{\partial F}{\partial x i}\right|_{x=x(T ; u)} .
+\end{gathered}
+\]
+
+Из формулы (4) следует, тто функционал (1) дифференцируем в пространстве $L_{2}^{r}\left[t_{0}, T\right]$ и его градиентом является вектор-функция
+
+\[
+J^{\prime}(u)=-\frac{\partial H(u)}{\partial u} \in L_{2}^{r}\left[t_{0}, T\right] .
+\]
+
+Таким образом, для рөшения задачи (1)-(3) могут быть применены различные методы, использующие градиент функционала. При $V(t)=E^{r}$ здесь можно применить градиентный метод
+
+\[
+u_{k+1}(t)=u_{k}(t)+\alpha_{k} \frac{\partial H\left(u_{k}\right)}{\partial u}, k=0,1, \ldots
+\]
+
+Если $V(t)=\left\{u=\left(u^{1}, \ldots, u^{r}\right): \alpha_{i}(t) \leqslant u^{i} \leqslant \beta_{i}(t), \quad i=1\right.$, $. ., r\}$, где $\alpha_{i}(t), \beta_{i}(t)$ - заданные функции из $L_{2}\left[t_{0}\right.$, $T]$, то возможно применение метода проекции градиента
+
+\[
+u_{k+1}(t)=P\left(u_{k}(t)+\alpha_{k} \frac{\partial H\left(u_{k}\right)}{\partial u}\right), k=0,1, \ldots,
+\]
+де
+
+$P(w)=\left(w^{\mathbf{1}}(t), \ldots, w^{r}(t)\right), t_{0} \leqslant t \leqslant T$,
+
+\[
+w^{i}(t)=\left\{\begin{array}{l}
+\alpha_{i}(t) \text { при } v^{i}(t) \leqslant \alpha_{i}(t), \\
+v^{i}(t) \text { при } \alpha_{i}(t) \leqslant v^{i}(t) \leqslant \beta_{i}(t), \\
+\beta_{i}(t) \text { при } v^{i}(t)&gt;\beta_{i}(t), i=1, \ldots, r .
+\end{array}\right.
+\]
+
+Параметр $\alpha_{k}&gt;0$ может выбираться из условия $J\left(u_{k+1}\right)&lt;$ $&lt;J\left(u_{k}\right)$. Аналогично могут быть расписаны для задачи (1) -(3) методы условного градиента, сопряженных градиентов и др. (см. [4]-[6], [11]). Если задача (1)(3) рассматривается при дополнительных ограничениях
+
+\[
+x(t ; u) \in G(t), t_{0} \leqslant t \leqslant T,
+\]
+
+где $G(t)$ - заданное множество из $E^{n}$, то для учета ограничений (9) может быть использован штрафыных функций метод. Напр., если
+
+$G(t)=\left\{x \in E^{n}: g_{i}(x, t) \leqslant 0, i=1, \ldots, m, g_{i}(x, t)=0\right.$,
+$i=m+1, \ldots, s\}$, то в качестве штрафюой функции можно взять
+
+\[
+\begin{gathered}
+P(u)=\int_{t_{0}}^{T}\left(\sum _ { i = 1 } ^ { m } \left(\max \left\{g_{i}(x(t ; u), t) ; 0\right)^{p}+\right.\right. \\
+\left.+\sum_{i=m+1}^{s}\left|g_{i}(x(t ; u), t)\right|^{p}\right) d t, p \geqslant 1,
+\end{gathered}
+\]
+
+и задачу (1)-(3), (9) заменить задачей минимизации функционала $\Phi_{k}(u)=J(u)+A_{k} P(u)$ при условиях (2), (3), где $A_{k}$ - птрафной коэффициент, $\lim A_{k}=+\infty$.
+
+Другие методы решения задачи (1) $\left.\stackrel{k}{ } \overrightarrow{3}^{\infty}\right)^{\infty},(9)$ основаны на принципе максимума Понтрягина, на динамич. программировании (см. Понтрягина принцип максияума, Динамическое программирование, Вариационное исчисление; численные методы).
+
+Для решения задачи минимизаций квадратичного функциовала на ретениях систем линейных обыкновенных дифференциальных уравнений или линейных уравнений с частными производными, может быть применен метод моментов (см. [3], [8]). Ниже описан этот метод применительно к задаче минимизации функционала
+
+\[
+J(u)=|x(T ; u)-y|_{E^{n}}^{2},
+\]
+
+где $x=x(t ; u)$ - решение задачи $\dot{x}=A(t) x+B(t) u(t)+f(t), t_{0} \leqslant t \leqslant T, x\left(t_{0}\right)=x_{0}$,
+
+управления $u=u(t) \in L_{2}^{r}\left[t_{0}, T\right]$ таковы, что
+
+\[
+\|u\|_{L_{2}^{r}}^{2}=\int_{t_{0}}^{T}|u(t)|_{E^{r}}^{2} d t \leqslant R^{2}
+\]
+
+здесь $A(t), B(t), f(t)$-заданные матрицы порядка $n \times n, n \times r, n \times 1$ соответственно, имеющие кусочно непрерывные әлементы на отрезке $t_{0} \leqslant t \leqslant T ; 0&lt;R \leqslant \infty$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_1ad6f38ee0d6afef83f1g-1.jpg?height=50&amp;width=814&amp;top_left_y=1213&amp;top_left_x=141)
+$=\sum_{i=1}^{m} x^{i} y^{i}$-скалярное шроизведение в $E^{m}$. Из шравнла множителей Лагранжа следует, что управлевие $u=u(t)$ является оптимальным в задаче (10)-(12) тогда и только тогда, когда существует число $\gamma \geqslant 0$ (Лагранжа множитель для ограничения (12)) такое, что
+
+\[
+\begin{gathered}
+J^{\prime}(u)+\gamma u=0, \\
+\psi\left(\|u\|_{L_{2}^{r}}-R\right)=0, \quad\|u\|_{L_{2}^{r}} \leqslant R ;
+\end{gathered}
+\]
+
+при $R=\infty$ здесь $\gamma=0$. Из формул (5)-(8) следует, тто градиент $J^{\prime}(u)$ функционала (10) в $L_{2}^{r}\left[t_{0}, T\right]$ имеет вид $J^{\prime}(u)=B^{T}(t) \psi(t ; u), t_{0} \leqslant t \leqslant T$,
+
+где $\psi=\psi(t ; u)$ - решение задачи
+
+\[
+\begin{gathered}
+\dot{\psi}=-A^{T}(t) \psi, t_{0} \leqslant t \leqslant T, \\
+\psi(T)=2(x(T ; u)-y) ;
+\end{gathered}
+\]
+
+$A^{T}, B^{T}$ - матрицы, полученные транспонированием матриц $A, B$ соответственно. Условие (13) тогда примет вид
+
+\[
+B^{T}(t) \psi(t ; u)+\gamma u(t)=0, t_{0} \leqslant t \leqslant T .
+\]
+
+Условие (16) равносильно соотношениям
+
+$\int_{t_{0}}^{T}\left\langle u(t), B^{T}(t) p_{k}(t)\right\rangle_{E^{r}} d t-\frac{1}{2}\left\langle\psi(T), p_{k}(T)_{E^{n}}=a_{k}\right.$,
+
+\[
+k=1, \ldots, n \text {, }
+\]
+
+где
+
+\[
+\begin{gathered}
+a_{k}=\left\langle y, p_{k}(T)\right\rangle_{E^{n}}-\left\langle x_{0}, p_{k}\left(t_{0}\right)\right\rangle_{E^{n}}- \\
+-\int_{t_{0}}^{T}\left\langle f(t), p_{k}(t)\right\rangle_{E^{r}} d t,
+\end{gathered}
+\]
+
+$p_{k}(t)$ - решение системы (15) при условии $p_{k}(T)=$ $\stackrel{e_{k}}{ }=(0, \ldots, 0,1,0, \ldots, 0)$ - единичный вектор. Таким образом, для определения оптимального управления $u=u(t)$ в задаче (10)-(12) нужно решить систему $(14),(15),(17),(18)$ относительно функций $u(t), \psi(t)$ и числа $\gamma \geqslant 0$. При $R=\infty$ здесь $\gamma=0, \psi(t)=0$ и условие (18) приведет к проблеме моментов (см. Моментов проблема): найти функцию $u=u(t)$, зная ее моменты
+
+\[
+\int_{t_{0}}^{T}\left\langle u(t), \quad \varphi_{k}(t)\right\rangle d t=a_{k}
+\]
+
+по системе $\varphi_{k}(t)=B^{T}(t) p_{k}(t), k=1, \ldots, n$.
+
+Система (14), (15), (17), (18) представляет собой обобщенную проблему моментов для задачи (10)-(12) при $0&lt;R&lt;\infty$ (см. [3], [8]).
+
+Јюбое решение $\psi(t)$ системы (15) однозначно представимо в виде
+
+\[
+\psi(t)=\sum_{k=1}^{n} \psi_{k} p_{k}(t), \quad t_{\theta} \leqslant t \leqslant T .
+\]
+
+При любом фиксированном $ү \geqslant 0$ существует решение $\psi(t ; \gamma), u(t ; \gamma)$ системы $(15),(17),(18)$, причем среди всех решений найдется единственное такое, что $u(t ; \gamma)$ имеет вид
+
+\[
+u(t ; \gamma)=\sum_{k=1}^{n} u_{k} B^{T}(t) p_{k}(t), \quad t_{0} \leqslant t \leqslant T .
+\]
+
+Для определения $\psi(t ; \gamma), u(t ; \gamma)$ нужно подставить выражения (19), (20) в (17), (18). В результате получится система линейных алгебраических уравнений относительно $\psi_{1}, \ldots, \psi_{n}, u_{1}, \ldots, u_{n}$, из к-рой однозначно определяются величины $\psi_{1}, \ldots, \psi_{n}$, а величины $u_{1}$, $\because \dot{\vec{T}}, u_{n}$ в случае линейной зависимости системы $\left\{\boldsymbol{B}^{\boldsymbol{T}}(t) p_{k}(t), k=1, \ldots, n\right\}$ определяются неоднозначно. сначала положить $\gamma=0, \psi(t)=0$ и из (18) определить $u(t ; 0)$ вида $(20)$. Затем следует проверить условие $\|u(t ; 0)\|_{L_{2}^{r}} \leqslant R$. Если это неравенство выполняется, то $u(t ; 0)-$ оптимальное управление задачи (10)-(12), имеющее минимальную норму среди всех оптимальных управлений; множество всех оптимальных управлений в этом случае исчерпывается управлениями вида
+
+\[
+u(t)=u(t ; 0)+v(t), \quad t_{0} \leqslant t \leqslant T,
+\]
+
+где $v(t)$ принадлежит ортогональному дополнению в $L_{2}^{r}\left[t_{0}, T\right]$ линейной оболочки систем функций
+
+\[
+\begin{aligned}
+&amp; \left\{B^{T}(t) p_{k}(t), \quad k=1, \ldots, n\right\}, \\
+&amp; \|v(t)\|_{L_{2}^{r}}^{2} \leqslant R^{2}-\|u(t ; 0)\|_{L_{2}^{r}}^{2} .
+\end{aligned}
+\]
+
+Если $\| u\left(t ; 0 \|_{L_{2}^{r}}&gt;R\right.$, то из (17), (18) при $\gamma&gt;0$ ошределяют решения $\psi(t, \gamma), u(t, \gamma)$ вида $(19),(20)$ и находят $\gamma$ из уравнения
+
+\[
+\|u(t ; \gamma)\|_{L_{2}^{r}}=R, \quad \gamma&gt;0
+\]
+
+функция $\|u(t ; \gamma)\|_{L_{2}^{r}}$ переменной $\gamma$ непрерывна, строго монотонно убывает при $\gamma&gt;0, \lim _{\gamma \rightarrow+\infty} \| u\left(t ; 0 \|_{L_{2}^{r}}=0\right.$, поэтому из (21) однозначно определяется искомое $\gamma=\gamma_{*}$. Управление $u\left(t ; \gamma_{*}\right)$ будет оптимальным для задачи (10)-(12); при $\| u\left(t ; 0 \|_{L_{2}^{r}}&gt;R\right.$ эта задача других оптимальных управлений не имеет.
+
+Метод моментов применим также для решения вадачи быстродействия для систем (11) и друғих линейных систем (см. [3], [8]).
+
+Упомянутые выше методы широко используются и для численного решения задач оптимального управления процессами, описываемыми уравнениями с частными производными.
+
+Численная реализация многих методов рөшения задач оцтимального управления предполагает использование тех или иных методов приближенного решения встречающихся вачально-краевых задач (см. Краевая задача; численные методы решения для уравнений с частными производными), приближенного вычисления интегралов (см. Интегрирование численное). В результате исходная задача оптимального управления заменяется нек-рым семейством аппроксимирующих задач, зависящим от нек-рых параметров (напр., от пагов разностной сетки). Вопросы построения аппроксимирующих задач, исследование сходимости см. в [5].
+
+Широкие классы әкстремальных задач являются некорректно поставленными (см. Некорректные задачи) и для их решения нужно использовать регуляризации методы (см. [5], [13]).
+
+Лum.: [1] А ле е к с е e в B. М., Т их х ом и р о в B. М.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_0b148d5e28a13f3f5e3dg-1.jpg?height=42&amp;width=806&amp;top_left_y=604&amp;top_left_x=153)
+алгоритмы решения задач оптимивации, К., 1983; [3] Б у т к о вс к и й А. Г., Методы управления системами с распределенными параметрами, М., 1975; [4] В а с и л в е в Ф. П.2 Численные методы решения әкстремальных задач, М., 1980; [5] е г о ж е, Методы решения әкстремальных задач, М., 1981; [6] Е в т у ша е нк о Ю. Г., Методы решения әкстремальных задач и их применение в системах оптимизации, М., 1982; [7] Е г о р о в А. И., Оптимальное управление тепловыми и дифффузионными процессами, М., 1978; [8] К р а с о в с к и й Н. Н., Теория управления движением, М., 1968; [9] ЈI и о \&amp; с Ж.-ЈI., Оптимальное управление системами, описываемыми уравнениями с частными производными, пер. с франц., М., 1972; [10] П о л я к Б. Т., Введение в оптимизацию, М., 1983; [11] С е а Ж., Оптимизация. Теория и алгоритмы, пер. с франц., М., 1973; [12] С и р а з е тд и н о в Т. $\mathrm{K}$. Оптимизация систем с распределенными параметрами, М., 1977; [13] Т и х о н о в А. Н., А р с е н и н В. Я. Методы решения некорректных задач, 2 изд., М., 1979; [14] $\Phi$ е д о р е н к о Р. П., Приближенное решение задач оптимального управления, М., 1978; [15] Э к л а є д И., Т е м а м P., М., 1979.</text_orig>
+</article>

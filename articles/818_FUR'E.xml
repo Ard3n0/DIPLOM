@@ -1,0 +1,701 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/818_FUR'E" alphabetic_pos="818">
+  <title>ФУРЬЕ РЯД</title>
+  <authors/>
+  <pages>
+    <start>367</start>
+    <end>370</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/818_1_FUR'E">\sum_{k=0}^{\infty} c_{k} \varphi_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_2_FUR'E">c_{k}=\int_{a}^{b} f(x) \varphi_{k}(x) d x, k=0,1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_3_FUR'E">\frac{a_{0}}{2}+\sum_{k=1}^{\infty}\left(a_{k} \cos k x+b_{k} \sin k x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_4_FUR'E">a_{k}=\frac{1}{\pi} \int_{0}^{2 \pi} f(x) \cos k x d x, b_{k}=\frac{1}{\pi} \int_{0}^{2 \pi} f(x) \sin k x d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_5_FUR'E">t_{n}(x)=A_{0}+\sum_{k=1}^{n}\left(A_{k} \cos k x-1-B_{k} \sin k x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_6_FUR'E">\frac{1}{\pi} \int_{0}^{2 \pi}\left[f(x)-t_{n}(x)\right]^{2} d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_7_FUR'E">s_{n}(f, x)=\frac{a_{0}}{2}+\sum_{k=1}^{n}\left(a_{k} \cos k x+b_{k} \sin k x\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_8_FUR'E">\frac{1}{\pi} \int_{0}^{2 \pi} f^{2}(x) d x-\left[\frac{a_{0}^{2}}{2}+\sum_{k=1}^{n}\left(a_{k}^{2}+b_{k}^{2}\right)\right] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_9_FUR'E">\frac{a_{0}^{2}}{2}+\sum_{k=1}^{\infty}\left(a_{k}^{2}+b_{k}^{2}\right) \leqslant \frac{1}{\pi} \int_{0}^{2 \pi} f^{2}(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_10_FUR'E">\frac{a_{0}^{2}}{2}+\sum_{k=1}^{\infty}\left(a_{k}^{2}+b_{k}^{2}\right)=\frac{1}{\pi} \int_{0}^{2 \pi} f^{2}(x) d x,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_11_FUR'E">\frac{a_{0}^{2}}{2}+\sum_{k=1}^{\infty}\left(a_{k}^{2}+b_{k}^{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_12_FUR'E">a_{k}, b_{k}=o\left(k^{-(r+1)}\right), k \longrightarrow \infty .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_13_FUR'E">\int_{0}^{\pi}\left|\varphi_{x}(t)\right| \frac{d t}{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_14_FUR'E">\begin{gathered}\int_{0}^{h}\left|\varphi_{x}(t)\right| d t=o(h) \\\int_{h}^{\pi}\left|\varphi_{x}(t+h)-\varphi_{x}(t)\right| \frac{d t}{t}=o(1)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_15_FUR'E">t(x+h)-f(x)=o\left(\ln ^{-1} \frac{1}{|h|}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_16_FUR'E">a_{k}=O\left(k^{-\delta}\right), b_{k}=O\left(k^{-\delta}\right), \delta&gt;0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_17_FUR'E">\omega(f, \delta) \ln \delta \longrightarrow 0 \quad \text { при } \delta \longrightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_18_FUR'E">\sigma_{n .}(f, x)=\frac{1}{n+1} \sum_{k=0}^{n} s_{k}(f, x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_19_FUR'E">\sum_{k}\left(\left|a_{k}\right|+\left|b_{k}\right|\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_20_FUR'E">\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}} \omega\left(f, \frac{1}{n}\right)&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_21_FUR'E">\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}} \omega\left(\frac{1}{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_22_FUR'E">\sum_{n=1}^{\infty} \frac{1}{n} \sqrt{\omega\left(f, \frac{1}{n}\right)}&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_23_FUR'E">\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}} e_{n}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_24_FUR'E">\frac{a_{0}}{2}+\sum_{k=1}^{\infty}\left(a_{k}-i b_{k}\right) e^{i k x} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_25_FUR'E">\sum_{k=1}^{\infty}\left(-b_{k} \cos k x+a_{k} \sin k x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_26_FUR'E">\sum_{k} c_{k} e^{i(k, x)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_27_FUR'E">c_{k}=\frac{1}{(2 \pi)^{N}} \int_{0}^{2 \pi} \cdots \int_{0}^{2 \pi} f(x) e^{-i(k, x)} d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_28_FUR'E">\sum_{|k| \leqslant n} c_{k} e^{i(k, x)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/818_29_FUR'E">\sum_{|k| \leqslant n}\left(1-\frac{|k|}{n}\right)^{\alpha} c_{k} e^{i(k, x)} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_1_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_2_FUR'E">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_3_FUR'E">\left\{\varphi_{n}(x)\right\}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_4_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_5_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_6_FUR'E">(a, b)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_7_FUR'E">\left\{\varphi_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_8_FUR'E">ф</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_9_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_10_FUR'E">(0,2 \pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_11_FUR'E">\phi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_12_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_13_FUR'E">(0,2 \pi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_14_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_15_FUR'E">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_16_FUR'E">b_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_17_FUR'E">[0,2 \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_18_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_19_FUR'E">2 \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_20_FUR'E">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_21_FUR'E">f \in L^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_22_FUR'E">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_23_FUR'E">\phi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_24_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_25_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_26_FUR'E">l^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_27_FUR'E">f \in L^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_28_FUR'E">a_{k}, b_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_29_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_30_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_31_FUR'E">l^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_32_FUR'E">a_{k}, b_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_33_FUR'E">f \in L^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_34_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_35_FUR'E">f^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_36_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_37_FUR'E">r \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_38_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_39_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_40_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_41_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_42_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_43_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_44_FUR'E">\frac{1}{2}[f(x+0)+f(x-0)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_45_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_46_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_47_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_48_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_49_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_50_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_51_FUR'E">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_52_FUR'E">|f(x+h)-f(x)| \leqslant M|h|^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_53_FUR'E">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_54_FUR'E">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_55_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_56_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_57_FUR'E">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_58_FUR'E">\varphi_{x}(t)=f(x+t)+f(x-t)-2 S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_59_FUR'E">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_60_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_61_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_62_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_63_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_64_FUR'E">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_65_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_66_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_67_FUR'E">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_68_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_69_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_70_FUR'E">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_71_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_72_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_73_FUR'E">2 \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_74_FUR'E">\omega(\chi, \delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_75_FUR'E">f-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_76_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_77_FUR'E">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_78_FUR'E">[a+\varepsilon, b-\varepsilon], \varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_79_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_80_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_81_FUR'E">l^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_82_FUR'E">l^{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_83_FUR'E">p&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_84_FUR'E">l p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_85_FUR'E">s_{k}(f, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_86_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_87_FUR'E">\sigma_{n}(f, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_88_FUR'E">\kappa ~ f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_89_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_90_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_91_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_92_FUR'E">\omega(f, \delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_93_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_94_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_95_FUR'E">\omega(\delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_96_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_97_FUR'E">\omega(f, \delta) \leqslant \omega(\delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_98_FUR'E">\alpha&gt;\frac{1}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_99_FUR'E">\alpha=\frac{1}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_100_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_101_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_102_FUR'E">e_{n}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_103_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_104_FUR'E">l^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_105_FUR'E">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_106_FUR'E">f \in L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_107_FUR'E">(2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_108_FUR'E">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_109_FUR'E">\tilde{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_110_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_111_FUR'E">\tilde{f} \in L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_112_FUR'E">\tilde{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_113_FUR'E">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_114_FUR'E">l^{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_115_FUR'E">n_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_116_FUR'E">n_{m+1} / n_{m} \geqslant \lambda&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_117_FUR'E">x=\left(x_{1}, \ldots, x_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_118_FUR'E">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_119_FUR'E">k=\left(k_{1}, \ldots, k_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_120_FUR'E">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_121_FUR'E">(k, x)=k_{1} x_{1}+\ldots+k_{N} x_{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_122_FUR'E">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_123_FUR'E">2 \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_124_FUR'E">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_125_FUR'E">[0,2 \pi]^{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_126_FUR'E">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_127_FUR'E">f . \Phi . \mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_128_FUR'E">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_129_FUR'E">|k|=\sqrt{k_{1}^{2}+\ldots+k_{n}^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_130_FUR'E">\alpha \geqslant \frac{N-1}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_131_FUR'E">l^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_132_FUR'E">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_133_FUR'E">\alpha=\frac{n-1}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_134_FUR'E">[0,2 \pi]^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_135_FUR'E">1951,[5] \mathrm{L}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_136_FUR'E">3-69 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_137_FUR'E">28-83</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_138_FUR'E">1927, \mathrm{Bd} 26</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/818_139_FUR'E">432-41</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/818_1_FUR'E">
+      <rel_text>Карлесона теорема</rel_text>
+      <target>http://libmeta.ru/me/article/740_KARLEMANA</target>
+    </relation>
+  </relations>
+  <text>Ф у н к ц и и $URI[[http://libmeta.ru/me/formula/aux/818_1_FUR'E]]/URI$ по ортонормироваа на промежутке $URI[[http://libmeta.ru/me/formula/aux/818_2_FUR'E]]/URI$ системе функций $URI[[http://libmeta.ru/me/formula/aux/818_3_FUR'E]]/URI$ ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_1_FUR'E]]/URI
+\]
+
+коэфффициепты к-рого определяются по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_2_FUR'E]]/URI
+\] и наз. к о э фф и ц и е н т а м и Ф у р ь е функции $URI[[http://libmeta.ru/me/formula/aux/818_4_FUR'E]]/URI$. О функции $URI[[http://libmeta.ru/me/formula/aux/818_5_FUR'E]]/URI$ в общем случае предполагается, что она интегрируема с квадратом на $URI[[http://libmeta.ru/me/formula/aux/818_6_FUR'E]]/URI$. Для многих систем $URI[[http://libmeta.ru/me/formula/aux/818_7_FUR'E]]/URI$ это требование можно ослабить, заменив его каким-либо другим, обеспечивающим существование всех интегралов (1).
+
+По тригонометрич. системе $URI[[http://libmeta.ru/me/formula/aux/818_8_FUR'E]]/URI$. р. огределяется для каждой функции $URI[[http://libmeta.ru/me/formula/aux/818_9_FUR'E]]/URI$, интегрируемоӥ на $URI[[http://libmeta.ru/me/formula/aux/818_10_FUR'E]]/URI$. Это ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_3_FUR'E]]/URI
+\]
+
+с коэффициентами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_4_FUR'E]]/URI
+\]
+
+Аналогично строятся $URI[[http://libmeta.ru/me/formula/aux/818_11_FUR'E]]/URI$. р. для функций от многих шеременных. Дальнейшие обобщения приводят к коэффициентам Фурье и Ф. р. әлементов гильбертова пространства.
+
+Наиболее глубоко разработана теория Ф. р. по тригонометрич. системе, к-рые были первыми гримерами Ф. р. Имея в виду Ф. р. шо тригонометрич. системс, обычно говорят просто о Ф. р., не указывая, по какой системе они строятся.
+
+Ф. р. составляют значительную часть теории гонометрических рядов. Впервые Ф. р. появились в работах Ж. Фурье (ј. Fourier, 1807), посвященных исследованию задач теплопроводности. Он предложил для представления фуншкции $URI[[http://libmeta.ru/me/formula/aux/818_12_FUR'E]]/URI$, заданной на $URI[[http://libmeta.ru/me/formula/aux/818_13_FUR'E]]/URI$, тригонометрич. рядом брать ряд (2) с коэфффициентами, определяемыми по формулам (3). Такой выбор коэфффициентов является естественным со многих точек зрения. Напр., если ряд (2) сходится к функции $URI[[http://libmeta.ru/me/formula/aux/818_14_FUR'E]]/URI$ равномерно, то почленное интегрирование приводит к выражению коәфффициентов $URI[[http://libmeta.ru/me/formula/aux/818_15_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/818_16_FUR'E]]/URI$ по формулам (3). С Iiомощью почленного интегрирования эти формулы шолучал еще Л. Эйлер (l. Euler, 1777).
+
+С помощью формул (3) Ф. р. (2) строится для каждой функции, интегрируемой на $URI[[http://libmeta.ru/me/formula/aux/818_17_FUR'E]]/URI$. Интегрируемость функции может пониматься по-разному, напр. как интегрируемость по Риману или поо Лебегу. В зависимости от этого говорят о рядах Фурье-Римана, Фурьелебега и т. п. Сами понятия интегралов Римана и Лебега возникли в значительной степени в связи с исследованиями Ф. р. Современный вид теория Ф. р. приобрела после построения интеграла Лебега, после чего она развивается главным образом как теория рядов Фурье-Лебега. Ниже о функции $URI[[http://libmeta.ru/me/formula/aux/818_18_FUR'E]]/URI$ предполагается, что она имеет период $URI[[http://libmeta.ru/me/formula/aux/818_19_FUR'E]]/URI$ и интегрируема по Лебегу на периоде.
+
+В теории Ф. р. изучается связь свойств функций со свойствами их Ф. р., в частности исследуются вопросы представления функций с помощью Ф. p.
+
+$URI[[http://libmeta.ru/me/formula/aux/818_20_FUR'E]]/URI$ работе Ф. Бесселя (f. Bessel, 1828) восходит доказательство м ин и ма л ь н о г о с в о й с т в а ч а с т ных с у м м Ф. р.: для функций $URI[[http://libmeta.ru/me/formula/aux/818_21_FUR'E]]/URI$ среци тригонометрич. полиномов порядка $URI[[http://libmeta.ru/me/formula/aux/818_22_FUR'E]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_5_FUR'E]]/URI
+\]
+
+наименьшее значение интегралу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_6_FUR'E]]/URI
+\]
+
+доставляет частная сумма $URI[[http://libmeta.ru/me/formula/aux/818_23_FUR'E]]/URI$. р. (2) функции $URI[[http://libmeta.ru/me/formula/aux/818_24_FUR'E]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_7_FUR'E]]/URI
+\]
+
+Это наименьшее значение равно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_8_FUR'E]]/URI
+\]
+
+Отсюда следует Бесселя неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_9_FUR'E]]/URI
+\]
+
+выполняющееся для каждой функции $URI[[http://libmeta.ru/me/formula/aux/818_25_FUR'E]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/818_26_FUR'E]]/URI$.
+
+Система тригонометрич. Функций является залкнутой системой, т. е. если $URI[[http://libmeta.ru/me/formula/aux/818_27_FUR'E]]/URI$, то справедливо Парсеваля равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_10_FUR'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/818_28_FUR'E]]/URI$-коэфффициенты Фурье функции $URI[[http://libmeta.ru/me/formula/aux/818_29_FUR'E]]/URI$. В частности, для фуникций $URI[[http://libmeta.ru/me/formula/aux/818_30_FUR'E]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/818_31_FUR'E]]/URI$ сходится ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_11_FUR'E]]/URI
+\]
+
+Имеет место и обратное утверждение: если для системы чисел $URI[[http://libmeta.ru/me/formula/aux/818_32_FUR'E]]/URI$ ряд (4) сходится, то эти числа являются коәффициентами Фурье нег-рой функции $URI[[http://libmeta.ru/me/formula/aux/818_33_FUR'E]]/URI$ [ф. Рисс (f. Riesz), Э. Фишер (e. Fischer), 1907].
+
+Коәфффициенты Фурье каждой интегрируемой функции стремятся к нулю. Эту теорему наз. т е о р е м о й Р и м а н а - Л е б е г а. Б. Риман (b. Riemann) доказал ее для рядов Фурье-Римана, А. Лебег (h. Lebesgue) - для рядов Фурье-Лебега.
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/818_34_FUR'E]]/URI$ абсолютно непрерывна, то Ф. p. производной $URI[[http://libmeta.ru/me/formula/aux/818_35_FUR'E]]/URI$ можно получить почленным дифференцированием Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_36_FUR'E]]/URI$. Отсюда следует, что если производная порядка $URI[[http://libmeta.ru/me/formula/aux/818_37_FUR'E]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/818_38_FUR'E]]/URI$ абсолютно непрерывна, то для коэфффициентов Фурье функции $URI[[http://libmeta.ru/me/formula/aux/818_39_FUR'E]]/URI$ справедлива оценка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_12_FUR'E]]/URI
+\]
+
+Первый признак сходимости Ф. р. получил П. Дирихле (р. Dirichlet, 1829). Его результат (дирихле теорема) можно сформулировать так: если функция $URI[[http://libmeta.ru/me/formula/aux/818_40_FUR'E]]/URI$ имеет на периоде конечное число максимумов и минимумов и непрерывна всюду, кроме конечного числа точек, в к-рых она может иметь разрывы 1-го рода, то Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_41_FUR'E]]/URI$ сходится для всех $URI[[http://libmeta.ru/me/formula/aux/818_42_FUR'E]]/URI$, причем в точках непрерывности он сходится к $URI[[http://libmeta.ru/me/formula/aux/818_43_FUR'E]]/URI$, а в точках разрыва к $URI[[http://libmeta.ru/me/formula/aux/818_44_FUR'E]]/URI$. В дальнейшем это утверждение было распространено на произвольные функции ограниченной вариации [к. Жкордан (с. Jordan), 1881].
+
+Согласно принципу локализации, доказанному Б. Риманом (1853), сходимость или расходимость Ф. p. функции $URI[[http://libmeta.ru/me/formula/aux/818_45_FUR'E]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/818_46_FUR'E]]/URI$ и значение суммы в случае сходимости зависят только от поведения функции $URI[[http://libmeta.ru/me/formula/aux/818_47_FUR'E]]/URI$ в как угодно малой окрестности точки $URI[[http://libmeta.ru/me/formula/aux/818_48_FUR'E]]/URI$.
+
+Известно много разных признаков сходимqсти Ф. р. в точке. Р. Липшиц (r. Lipschitz, 1864) установил, что Ф. р. Функции $URI[[http://libmeta.ru/me/formula/aux/818_49_FUR'E]]/URI$ сходится в точке $URI[[http://libmeta.ru/me/formula/aux/818_50_FUR'E]]/URI$, если для достаточно малых $URI[[http://libmeta.ru/me/formula/aux/818_51_FUR'E]]/URI$ выполнено условие $URI[[http://libmeta.ru/me/formula/aux/818_52_FUR'E]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/818_53_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/818_54_FUR'E]]/URI$ - нек-рые положительные постоянные. Более общим является Дини признак: Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_55_FUR'E]]/URI$ сходится в точке $URI[[http://libmeta.ru/me/formula/aux/818_56_FUR'E]]/URI$ к числу $URI[[http://libmeta.ru/me/formula/aux/818_57_FUR'E]]/URI$, если сходится интегралi
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_13_FUR'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/818_58_FUR'E]]/URI$. В качестве числа $URI[[http://libmeta.ru/me/formula/aux/818_59_FUR'E]]/URI$ обычно выступает значение $URI[[http://libmeta.ru/me/formula/aux/818_60_FUR'E]]/URI$. Напр., если Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_61_FUR'E]]/URI$ сходится в точке $URI[[http://libmeta.ru/me/formula/aux/818_62_FUR'E]]/URI$, в к-рой эта функция нөпрерывна, то сумма ряда обязательно равна $URI[[http://libmeta.ru/me/formula/aux/818_63_FUR'E]]/URI$.
+
+А. Лебег (1905) доказал, что если при $URI[[http://libmeta.ru/me/formula/aux/818_64_FUR'E]]/URI$ справедливы оценки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_14_FUR'E]]/URI
+\] то Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_65_FUR'E]]/URI$ сходится в точке $URI[[http://libmeta.ru/me/formula/aux/818_66_FUR'E]]/URI$ к числу $URI[[http://libmeta.ru/me/formula/aux/818_67_FUR'E]]/URI$. Этот Лебеәа признак сильнее как всех приведенных выше, так и Валле Пуссена признака и Юнга признака. Ho проверка его обычно затруднительна.
+
+Iiризнак сходимости другого типа дает т е о р е м а Х а р д и - Ли т л в уд а (1932): Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_68_FUR'E]]/URI$ сходится в точке $URI[[http://libmeta.ru/me/formula/aux/818_69_FUR'E]]/URI$, если выполнены следующие условия:
+
+1) при $URI[[http://libmeta.ru/me/formula/aux/818_70_FUR'E]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_15_FUR'E]]/URI
+\]
+
+2) для коэфффициентов Фурье функции $URI[[http://libmeta.ru/me/formula/aux/818_71_FUR'E]]/URI$ справедливы оценки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_16_FUR'E]]/URI
+\]
+
+Наряду с признаками сходимости Ф. р. в точке, изучаются признаки равномерной сходимости. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/818_72_FUR'E]]/URI$ имеет период $URI[[http://libmeta.ru/me/formula/aux/818_73_FUR'E]]/URI$ и непрерывна. Тогда ее Ф. р. сходится к ней равномерно на всей числовой оси, если $URI[[http://libmeta.ru/me/formula/aux/818_74_FUR'E]]/URI$ - непрерывности лодуль функции $URI[[http://libmeta.ru/me/formula/aux/818_75_FUR'E]]/URI$ удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_17_FUR'E]]/URI
+\]
+
+(дини-Липшица признак) или если $URI[[http://libmeta.ru/me/formula/aux/818_76_FUR'E]]/URI$ имеет ограниченную вариацию (жордана признак).
+
+Отсюда можно получать признаки равномерной сходимости Ф. р. на нек-ром отрезке, если воспользоваться принципом локализации для равномерной сходимости, к-рый формулируется так. Если две функции равны на отрезке $URI[[http://libmeta.ru/me/formula/aux/818_77_FUR'E]]/URI$, то на каждом строго внутреннем к нему отрезке $URI[[http://libmeta.ru/me/formula/aux/818_78_FUR'E]]/URI$, Ф. р. этих функций или оба равномерно сходятся или оба не являются равномерно сходящимися. Другими словами, равномерная сходимость Ф. р. Функции $URI[[http://libmeta.ru/me/formula/aux/818_79_FUR'E]]/URI$ ва отрезке зависит только от поведения функции $URI[[http://libmeta.ru/me/formula/aux/818_80_FUR'E]]/URI$ в произвольно малом расширении этого отрезка.
+
+П. Дюбуа-Реймон (p. Du Bois Reymond, 1873) установил, что непрерывность функции в нек-рой точке не гарантирует сходимость ее Ф. р. в этой точке. В дальнейтем было доказано, что Ф. р. непрерывной функции может расходиться на всюду плотном множестве точек меры нуль, имеющем вторую категорию.
+
+Если о функции не предполагать ничего, кроме интегрируемости, то ее Ф. р. может оказаться расходяцимся почти всюду или даже всюду. Первые примеры таких функций постропл А. Н. Колмогоров (1923). Позднее было выяснено, что этим свойством могут обладать Ф. р. и самой фуннции и функции, сопряженной с ней.
+
+Еще в 1915 Н. Н. Лузин высказал гипотезу, что Ф. р. каждой функции из $URI[[http://libmeta.ru/me/formula/aux/818_81_FUR'E]]/URI$ сходится почти всюду. Долгое время в этом направлении получали лишь частные результаты. В общем виде задата оказалась очень трудной и только в 1966 Л. Карлесоп (l. Carleson) доказал справедливость этой гипотезы (см. URI[[http://libmeta.ru/me/relation/818_1_FUR'E]]/URI). Ф. р. функций из $URI[[http://libmeta.ru/me/formula/aux/818_82_FUR'E]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/818_83_FUR'E]]/URI$ также сходятся почти всюду. Пример Колмогорова показывает, что дальнейшее усиление этого результата в терминах пространств $URI[[http://libmeta.ru/me/formula/aux/818_84_FUR'E]]/URI$ невозможно.
+
+Поскольку частные суммы Ф. р. не всегда сходятся, рассматривается суммирование рядов Фурье, когда для представления функции используются те или иные средние частных сумм ее Ф. р. Один из наиболее простых примеров - Фейера суммы, являющиеся средними арифметическими частных сумм Ф. р. $URI[[http://libmeta.ru/me/formula/aux/818_85_FUR'E]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_18_FUR'E]]/URI
+\]
+
+Для каждой интегрируемой функции $URI[[http://libmeta.ru/me/formula/aux/818_86_FUR'E]]/URI$ суммы $URI[[http://libmeta.ru/me/formula/aux/818_87_FUR'E]]/URI$ сходятся $URI[[http://libmeta.ru/me/formula/aux/818_88_FUR'E]]/URI$ почти всюду, при әтом сходятся в каждой точке непрерывности $URI[[http://libmeta.ru/me/formula/aux/818_89_FUR'E]]/URI$, а если $URI[[http://libmeta.ru/me/formula/aux/818_90_FUR'E]]/URI$ непрерывна всюду, то сходятся равномерно. Согласно Данжуа-Лузина теореме, если тригонометрич. ряд (2) сходится абсолютно на множестве положительной меры, то сходится ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_19_FUR'E]]/URI
+\]
+
+и, значит, ряд (2) абсолютно сходится для всех $URI[[http://libmeta.ru/me/formula/aux/818_91_FUR'E]]/URI$. Таким образом, абсолютная сходимость ряда (2) әквивалентна сходимости ряда (5).
+
+С. Н. Бернштейн (1934) доказал, что если модуль непрерывности $URI[[http://libmeta.ru/me/formula/aux/818_92_FUR'E]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/818_93_FUR'E]]/URI$ удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_20_FUR'E]]/URI
+\]
+
+то Ф. р. Функции $URI[[http://libmeta.ru/me/formula/aux/818_94_FUR'E]]/URI$ сходится абсолютно. Это условие нельзя ослабить: если функция типа модуля непрерывности $URI[[http://libmeta.ru/me/formula/aux/818_95_FUR'E]]/URI$ такова, что ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_21_FUR'E]]/URI
+\]
+
+расходится, то найдется фурнкция $URI[[http://libmeta.ru/me/formula/aux/818_96_FUR'E]]/URI$, для модуля непрерывности к-рой выполняется оценка $URI[[http://libmeta.ru/me/formula/aux/818_97_FUR'E]]/URI$, а ее Ф. р. не сходится абсолютно.
+
+В частности, абсолютно сходятся Ф. р. фунгций, удовлетворяющих Липицца условию порядка $URI[[http://libmeta.ru/me/formula/aux/818_98_FUR'E]]/URI$. А при $URI[[http://libmeta.ru/me/formula/aux/818_99_FUR'E]]/URI$ абсолютной сходимости может не быть (с. Н. Бернштейн, 1914).
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/818_100_FUR'E]]/URI$ имеет ограниченную вариацию и ее модуль нешрерывности удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_22_FUR'E]]/URI
+\]
+
+то Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_101_FUR'E]]/URI$ сходится абсолютно (см. [9]). Условие (6) ослабить нельзя (см. [10]).
+
+В отличие от предыдущих следующая теорема дает критерий абсолютной сходимости для индивидуальной функции. Для абсолютной сходимости Ф. р. функции необходима и достаточна сходимость ряда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_23_FUR'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/818_102_FUR'E]]/URI$ - наилучшее приближение функции $URI[[http://libmeta.ru/me/formula/aux/818_103_FUR'E]]/URI$ в метрике пространства $URI[[http://libmeta.ru/me/formula/aux/818_104_FUR'E]]/URI$ тригонометрич. полиномамі, содер жащими $URI[[http://libmeta.ru/me/formula/aux/818_105_FUR'E]]/URI$ гармоник (см. [11]).
+
+Ряд (2) можно рассматривать как действительную часть степенного ряда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_24_FUR'E]]/URI
+\]
+
+Мнимую часть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_25_FUR'E]]/URI
+\]
+
+наз. рядом, сопряженным с рядом (2).
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/818_106_FUR'E]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/818_107_FUR'E]]/URI$ - ее Ф. р. Тогда для потти всех $URI[[http://libmeta.ru/me/formula/aux/818_108_FUR'E]]/URI$ существует функция
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a4bfcd112af14e3dfbeeg-1.jpg?height=98&amp;width=524&amp;top_left_y=1834&amp;top_left_x=1127)
+
+(и. И. Привалов, 1919). Функцию $URI[[http://libmeta.ru/me/formula/aux/818_109_FUR'E]]/URI$ наз. сопряженной c $URI[[http://libmeta.ru/me/formula/aux/818_110_FUR'E]]/URI$, она может быть неинтегрируемой. Но если $URI[[http://libmeta.ru/me/formula/aux/818_111_FUR'E]]/URI$, то Ф. р. функции $URI[[http://libmeta.ru/me/formula/aux/818_112_FUR'E]]/URI$ является ряд (7) (в. И. Смирнов, 1928).
+
+Во многих случаях по свойствам функции $URI[[http://libmeta.ru/me/formula/aux/818_113_FUR'E]]/URI$ или ее Ф. р. (2) удается установить те или иные свойства сопряженного ряда (7), напр. его сходимость в метрике $URI[[http://libmeta.ru/me/formula/aux/818_114_FUR'E]]/URI$, сходимость или суммируемость в точке, почти всюду И т. Ii.
+
+Изучаются также свойства Ф. р. при специальны предположениях об их коэфффициентах. Напр., лакунарные тригонометрические ряды, когда отличны от нуля только коэффициенты с номерами $URI[[http://libmeta.ru/me/formula/aux/818_115_FUR'E]]/URI$, образующими лакунарную последовательность, т. е. такими, что $URI[[http://libmeta.ru/me/formula/aux/818_116_FUR'E]]/URI$. Другой пример специальных рядов ряды с монотонными коэффициентами.
+
+Все сказанное выше относилось к Ф. р. вида (2). Для Ф. р. по переставленной тригонометрич. системе нек-рые свойства Ф. р. по тригонометрич. системе, взятой в обычном порядке, не имеют места. Напр., существует такая непрерывная функция, тто ее Ф. р. после нек-рой перестановки расходится почти всюду (cm. [12] - [15]).
+
+Теория Ф. р. для функций многих переменных разработана в меньшей степени. Часть многомерных результатов аналогична одномерным. Но имеются и существенные отличия.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/818_117_FUR'E]]/URI$-точка $URI[[http://libmeta.ru/me/formula/aux/818_118_FUR'E]]/URI$-мерного пространства, $URI[[http://libmeta.ru/me/formula/aux/818_119_FUR'E]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/818_120_FUR'E]]/URI$-мерный вектор с целочисленпыми координатами и $URI[[http://libmeta.ru/me/formula/aux/818_121_FUR'E]]/URI$. Для функции $URI[[http://libmeta.ru/me/formula/aux/818_122_FUR'E]]/URI$, имеющей период $URI[[http://libmeta.ru/me/formula/aux/818_123_FUR'E]]/URI$ по каждой переменной и интегрируемой по Лебегу на $URI[[http://libmeta.ru/me/formula/aux/818_124_FUR'E]]/URI$-мерном губе $URI[[http://libmeta.ru/me/formula/aux/818_125_FUR'E]]/URI$, Ф. р. по тригонометрич. системе наз. рял
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_26_FUR'E]]/URI
+\]
+
+где суммирование ведется по всем $URI[[http://libmeta.ru/me/formula/aux/818_126_FUR'E]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_27_FUR'E]]/URI
+\]
+
+- к о ә фф и ц и е т ты Ф у р в е функции $URI[[http://libmeta.ru/me/formula/aux/818_127_FUR'E]]/URI$. (8) записан в комплексной форме. Запись его в тригонометрич. форме как ряда по произведениям косинусов и синусов кратных дуг более громоздка.
+
+Возможны различные определения частных сумм ряда (8), напр. частные суммы по прямоугольникам
+
+по кругам
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_991621900b1f6760476ag-1.jpg?height=75&amp;width=543&amp;top_left_y=1168&amp;top_left_x=274)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_28_FUR'E]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/818_128_FUR'E]]/URI$-радиус и $URI[[http://libmeta.ru/me/formula/aux/818_129_FUR'E]]/URI$.
+
+Для иредставления функциї круговые частные суммы (9) менее пригодны, тем их средние Рисса
+
+\[
+URI[[http://libmeta.ru/me/formula/main/818_29_FUR'E]]/URI
+\]
+
+Для средних Рисса порядка $URI[[http://libmeta.ru/me/formula/aux/818_130_FUR'E]]/URI$ Ф. р. Функций из $URI[[http://libmeta.ru/me/formula/aux/818_131_FUR'E]]/URI$ справедлив принцип локализации, а для меньших $URI[[http://libmeta.ru/me/formula/aux/818_132_FUR'E]]/URI$ это не так (с. Бохнер, S. Bochner, 1936). Среднис Рисса круговых частных сумм критич. порядка $URI[[http://libmeta.ru/me/formula/aux/818_133_FUR'E]]/URI$ играют существенную роль и в других вопросах Ф. p. функций многих переменных.
+
+Существует непрерывная функция двух переменных, Ф. р. к-рой не сходится по прямоугольникам ни в одной внутренней точке квадрата $URI[[http://libmeta.ru/me/formula/aux/818_134_FUR'E]]/URI$ (см. [16]).
+
+Нек-рые результаты, относящиеся к Ф. р. по тригонометрич. системе, допускают значительные обобщения, напр. могут быть соответствующим образом перенесены на спектральные разложения, отвечаюощие самосопряженным эллиптическим дифференциальным операторам.
+
+Лuт.. [1] Б а р и Н. К., Тригонометрические ряды, М., англ., 2 изд., т. 1-2, М., 1965; [3] X а p д и Г. Х., Р ог оз и н с к и й В. В., Ряды Фурье, пер. с англ., М., 1959: [4] Јi узи и Н. Н., Интеграл и тригонометрический ряд, М.- Јі., $URI[[http://libmeta.ru/me/formula/aux/818_135_FUR'E]]/URI$ e b e s g u e H., Leçons sur les séries trigonométriques, P., 1906; [6] П а п л а у с к а с А. Б., Тригонометрические ряды от Әйлера до Јебега, М., 1966 ; [7] у л ь я н о в П. Ј., «успехи матем. наук», 1964, т. 19 , в. 1 , с. $URI[[http://libmeta.ru/me/formula/aux/818_136_FUR'E]]/URI$ [8] А ли и1976, T. 31 , в. 6, c. $URI[[http://libmeta.ru/me/formula/aux/818_137_FUR'E]]/URI$, [9] S a l e m R., &quot;duke Math. J.&quot;,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_991621900b1f6760476ag-1.jpg?height=52&amp;width=820&amp;top_left_y=2260&amp;top_left_x=140)
+
+C. Б., &quot;докл. Ah Cccp», 1955, T. 102, c.. 37-40; [12] K o 1-
+m o g o r of f A., M e n s c h of f D., &quot;math. Z.&quot;, $URI[[http://libmeta.ru/me/formula/aux/818_138_FUR'E]]/URI$, S. $URI[[http://libmeta.ru/me/formula/aux/818_139_FUR'E]]/URI$; [13] i a h or s k i 7 , &quot;c. r. Acad. sci.&quot;, 1960, t 251 , p. 501-03; [14] У л ь я н о в П Л., &quot;успехи матем. паук&quot;, &quot;докл. Ан Ссср», 1961, т. 141, c. 28-31, [16] F e f f e rm a n C., «bull. Amer. Math. Soc.», 1971, v. 77, p. 191-95.</text>
+  <text_orig>Ф у н к ц и и $f(x)$ по ортонормироваа на промежутке $(a, b)$ системе функций $\left\{\varphi_{n}(x)\right\}-$ ряд
+
+\[
+\sum_{k=0}^{\infty} c_{k} \varphi_{k}(x)
+\]
+
+коэфффициепты к-рого определяются по формулам
+
+\[
+c_{k}=\int_{a}^{b} f(x) \varphi_{k}(x) d x, k=0,1,2, \ldots,
+\] и наз. к о э фф и ц и е н т а м и Ф у р ь е функции $f$. О функции $f$ в общем случае предполагается, что она интегрируема с квадратом на $(a, b)$. Для многих систем $\left\{\varphi_{k}\right\}$ это требование можно ослабить, заменив его каким-либо другим, обеспечивающим существование всех интегралов (1).
+
+По тригонометрич. системе $Ф$. р. огределяется для каждой функции $f$, интегрируемоӥ на $(0,2 \pi)$. Это ряд
+
+\[
+\frac{a_{0}}{2}+\sum_{k=1}^{\infty}\left(a_{k} \cos k x+b_{k} \sin k x\right)
+\]
+
+с коэффициентами
+
+\[
+a_{k}=\frac{1}{\pi} \int_{0}^{2 \pi} f(x) \cos k x d x, b_{k}=\frac{1}{\pi} \int_{0}^{2 \pi} f(x) \sin k x d x
+\]
+
+Аналогично строятся $\Phi$. р. для функций от многих шеременных. Дальнейшие обобщения приводят к коэффициентам Фурье и Ф. р. әлементов гильбертова пространства.
+
+Наиболее глубоко разработана теория Ф. р. по тригонометрич. системе, к-рые были первыми гримерами Ф. р. Имея в виду Ф. р. шо тригонометрич. системс, обычно говорят просто о Ф. р., не указывая, по какой системе они строятся.
+
+Ф. р. составляют значительную часть теории гонометрических рядов. Впервые Ф. р. появились в работах Ж. Фурье (Ј. Fourier, 1807), посвященных исследованию задач теплопроводности. Он предложил для представления фуншкции $f$, заданной на $(0,2 \pi)$, тригонометрич. рядом брать ряд (2) с коэфффициентами, определяемыми по формулам (3). Такой выбор коэфффициентов является естественным со многих точек зрения. Напр., если ряд (2) сходится к функции $f(x)$ равномерно, то почленное интегрирование приводит к выражению коәфффициентов $a_{k}$ и $b_{k}$ по формулам (3). С IIомощью почленного интегрирования эти формулы шолучал еще Л. Эйлер (L. Euler, 1777).
+
+С помощью формул (3) Ф. р. (2) строится для каждой функции, интегрируемой на $[0,2 \pi]$. Интегрируемость функции может пониматься по-разному, напр. как интегрируемость по Риману или поо Лебегу. В зависимости от этого говорят о рядах Фурье-Римана, ФурьеЛебега и т. п. Сами понятия интегралов Римана и Лебега возникли в значительной степени в связи с исследованиями Ф. р. Современный вид теория Ф. р. приобрела после построения интеграла Лебега, после чего она развивается главным образом как теория рядов Фурье-Лебега. Ниже о функции $f$ предполагается, что она имеет период $2 \pi$ и интегрируема по Лебегу на периоде.
+
+В теории Ф. р. изучается связь свойств функций со свойствами их Ф. р., в частности исследуются вопросы представления функций с помощью Ф. p.
+
+$\mathrm{K}$ работе Ф. Бесселя (F. Bessel, 1828) восходит доказательство м ин и ма л ь н о г о с в о й с т в а ч а с т ных с у м м Ф. р.: для функций $f \in L^{2}$ среци тригонометрич. полиномов порядка $n$
+
+\[
+t_{n}(x)=A_{0}+\sum_{k=1}^{n}\left(A_{k} \cos k x-1-B_{k} \sin k x\right)
+\]
+
+наименьшее значение интегралу
+
+\[
+\frac{1}{\pi} \int_{0}^{2 \pi}\left[f(x)-t_{n}(x)\right]^{2} d x
+\]
+
+доставляет частная сумма $\Phi$. р. (2) функции $f$ :
+
+\[
+s_{n}(f, x)=\frac{a_{0}}{2}+\sum_{k=1}^{n}\left(a_{k} \cos k x+b_{k} \sin k x\right) .
+\]
+
+Это наименьшее значение равно
+
+\[
+\frac{1}{\pi} \int_{0}^{2 \pi} f^{2}(x) d x-\left[\frac{a_{0}^{2}}{2}+\sum_{k=1}^{n}\left(a_{k}^{2}+b_{k}^{2}\right)\right] .
+\]
+
+Отсюда следует Бесселя неравенство
+
+\[
+\frac{a_{0}^{2}}{2}+\sum_{k=1}^{\infty}\left(a_{k}^{2}+b_{k}^{2}\right) \leqslant \frac{1}{\pi} \int_{0}^{2 \pi} f^{2}(x) d x
+\]
+
+выполняющееся для каждой функции $f$ из $L^{2}$.
+
+Система тригонометрич. Функций является залкнутой системой, т. е. если $f \in L^{2}$, то справедливо Парсеваля равенство
+
+\[
+\frac{a_{0}^{2}}{2}+\sum_{k=1}^{\infty}\left(a_{k}^{2}+b_{k}^{2}\right)=\frac{1}{\pi} \int_{0}^{2 \pi} f^{2}(x) d x,
+\]
+
+где $a_{k}, b_{k}$-коэфффициенты Фурье функции $f$. В частности, для фуникций $f$ из $L^{2}$ сходится ряд
+
+\[
+\frac{a_{0}^{2}}{2}+\sum_{k=1}^{\infty}\left(a_{k}^{2}+b_{k}^{2}\right)
+\]
+
+Имеет место и обратное утверждение: если для системы чисел $a_{k}, b_{k}$ ряд (4) сходится, то эти числа являются коәффициентами Фурье нег-рой функции $f \in L^{2}$ [Ф. Рисс (F. Riesz), Э. Фишер (E. Fischer), 1907].
+
+Коәфффициенты Фурье каждой интегрируемой функции стремятся к нулю. Эту теорему наз. т е о р е м о й Р и м а н а - Л е б е г а. Б. Риман (B. Riemann) доказал ее для рядов Фурье-Римана, А. Лебег (H. Lebesgue) - для рядов Фурье-Лебега.
+
+Если функция $f$ абсолютно непрерывна, то Ф. p. производной $f^{\prime}$ можно получить почленным дифференцированием Ф. р. функции $f$. Отсюда следует, что если производная порядка $r \geqslant 0$ функции $f$ абсолютно непрерывна, то для коэфффициентов Фурье функции $f$ справедлива оценка
+
+\[
+a_{k}, b_{k}=o\left(k^{-(r+1)}\right), k \longrightarrow \infty .
+\]
+
+Первый признак сходимости Ф. р. получил П. Дирихле (Р. Dirichlet, 1829). Его результат (Дирихле теорема) можно сформулировать так: если функция $f$ имеет на периоде конечное число максимумов и минимумов и непрерывна всюду, кроме конечного числа точек, в к-рых она может иметь разрывы 1-го рода, то Ф. р. функции $f$ сходится для всех $x$, причем в точках непрерывности он сходится к $f(x)$, а в точках разрыва к $\frac{1}{2}[f(x+0)+f(x-0)]$. В дальнейшем это утверждение было распространено на произвольные функции ограниченной вариации [К. ЖКордан (С. Jordan), 1881].
+
+Согласно принципу локализации, доказанному Б. Риманом (1853), сходимость или расходимость Ф. p. функции $f$ в точке $x$ и значение суммы в случае сходимости зависят только от поведения функции $f$ в как угодно малой окрестности точки $x$.
+
+Известно много разных признаков сходимqсти Ф. р. в точке. Р. Липшиц (R. Lipschitz, 1864) установил, что Ф. р. Функции $f$ сходится в точке $x$, если для достаточно малых $h$ выполнено условие $|f(x+h)-f(x)| \leqslant M|h|^{\alpha}$, где $M$ и $\alpha$ - нек-рые положительные постоянные. Более общим является Дини признак: Ф. р. функции $f$ сходится в точке $x$ к числу $S$, если сходится интегралI
+
+\[
+\int_{0}^{\pi}\left|\varphi_{x}(t)\right| \frac{d t}{t}
+\]
+
+где $\varphi_{x}(t)=f(x+t)+f(x-t)-2 S$. В качестве числа $S$ обычно выступает значение $f(x)$. Напр., если Ф. р. функции $f$ сходится в точке $x$, в к-рой эта функция нөпрерывна, то сумма ряда обязательно равна $f(x)$.
+
+А. Лебег (1905) доказал, что если при $h \rightarrow 0$ справедливы оценки
+
+\[
+\begin{gathered}
+\int_{0}^{h}\left|\varphi_{x}(t)\right| d t=o(h) \\
+\int_{h}^{\pi}\left|\varphi_{x}(t+h)-\varphi_{x}(t)\right| \frac{d t}{t}=o(1)
+\end{gathered}
+\] то Ф. р. функции $f$ сходится в точке $x$ к числу $S$. Этот Лебеәа признак сильнее как всех приведенных выше, так и Валле Пуссена признака и Юнга признака. Ho проверка его обычно затруднительна.
+
+IIризнак сходимости другого типа дает т е о р е м а Х а р д и - Ли т л в уд а (1932): Ф. р. функции $f$ сходится в точке $x$, если выполнены следующие условия:
+
+1) при $h \rightarrow 0$
+
+\[
+t(x+h)-f(x)=o\left(\ln ^{-1} \frac{1}{|h|}\right),
+\]
+
+2) для коэфффициентов Фурье функции $f$ справедливы оценки
+
+\[
+a_{k}=O\left(k^{-\delta}\right), b_{k}=O\left(k^{-\delta}\right), \delta&gt;0 .
+\]
+
+Наряду с признаками сходимости Ф. р. в точке, изучаются признаки равномерной сходимости. Пусть функция $f$ имеет период $2 \pi$ и непрерывна. Тогда ее Ф. р. сходится к ней равномерно на всей числовой оси, если $\omega(\chi, \delta)$ - непрерывности лодуль функции $f-$ удовлетворяет условию
+
+\[
+\omega(f, \delta) \ln \delta \longrightarrow 0 \quad \text { при } \delta \longrightarrow 0
+\]
+
+(Дини-Липшица признак) или если $f$ имеет ограниченную вариацию (Жордана признак).
+
+Отсюда можно получать признаки равномерной сходимости Ф. р. на нек-ром отрезке, если воспользоваться принципом локализации для равномерной сходимости, к-рый формулируется так. Если две функции равны на отрезке $[a, b]$, то на каждом строго внутреннем к нему отрезке $[a+\varepsilon, b-\varepsilon], \varepsilon&gt;0$, Ф. р. этих функций или оба равномерно сходятся или оба не являются равномерно сходящимися. Другими словами, равномерная сходимость Ф. р. Функции $f$ ва отрезке зависит только от поведения функции $f$ в произвольно малом расширении этого отрезка.
+
+П. Дюбуа-Реймон (P. Du Bois Reymond, 1873) установил, что непрерывность функции в нек-рой точке не гарантирует сходимость ее Ф. р. в этой точке. В дальнейтем было доказано, что Ф. р. непрерывной функции может расходиться на всюду плотном множестве точек меры нуль, имеющем вторую категорию.
+
+Если о функции не предполагать ничего, кроме интегрируемости, то ее Ф. р. может оказаться расходяцимся почти всюду или даже всюду. Первые примеры таких функций постропл А. Н. Колмогоров (1923). Позднее было выяснено, что этим свойством могут обладать Ф. р. и самой фуннции и функции, сопряженной с ней.
+
+Еще в 1915 Н. Н. Лузин высказал гипотезу, что Ф. р. каждой функции из $L^{2}$ сходится почти всюду. Долгое время в этом направлении получали лишь частные результаты. В общем виде задата оказалась очень трудной и только в 1966 Л. Карлесоп (L. Carleson) доказал справедливость этой гипотезы (см. Карлесона теорема). Ф. р. функций из $L^{p}$ при $p&gt;1$ также сходятся почти всюду. Пример Колмогорова показывает, что дальнейшее усиление этого результата в терминах пространств $L p$ невозможно.
+
+Поскольку частные суммы Ф. р. не всегда сходятся, рассматривается суммирование рядов Фурье, когда для представления функции используются те или иные средние частных сумм ее Ф. р. Один из наиболее простых примеров - Фейера суммы, являющиеся средними арифметическими частных сумм Ф. р. $s_{k}(f, x)$,
+
+\[
+\sigma_{n .}(f, x)=\frac{1}{n+1} \sum_{k=0}^{n} s_{k}(f, x) .
+\]
+
+Для каждой интегрируемой функции $f$ суммы $\sigma_{n}(f, x)$ сходятся $\kappa ~ f(x)$ почти всюду, при әтом сходятся в каждой точке непрерывности $f$, а если $f$ непрерывна всюду, то сходятся равномерно. Согласно Данжуа-Лузина теореме, если тригонометрич. ряд (2) сходится абсолютно на множестве положительной меры, то сходится ряд
+
+\[
+\sum_{k}\left(\left|a_{k}\right|+\left|b_{k}\right|\right)
+\]
+
+и, значит, ряд (2) абсолютно сходится для всех $x$. Таким образом, абсолютная сходимость ряда (2) әквивалентна сходимости ряда (5).
+
+С. Н. Бернштейн (1934) доказал, что если модуль непрерывности $\omega(f, \delta)$ функции $f$ удовлетворяет условию
+
+\[
+\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}} \omega\left(f, \frac{1}{n}\right)&lt;\infty,
+\]
+
+то Ф. р. Функции $f$ сходится абсолютно. Это условие нельзя ослабить: если функция типа модуля непрерывности $\omega(\delta)$ такова, что ряд
+
+\[
+\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}} \omega\left(\frac{1}{n}\right)
+\]
+
+расходится, то найдется фурнкция $f$, для модуля непрерывности к-рой выполняется оценка $\omega(f, \delta) \leqslant \omega(\delta)$, а ее Ф. р. не сходится абсолютно.
+
+В частности, абсолютно сходятся Ф. р. фунгций, удовлетворяющих Липицца условию порядка $\alpha&gt;\frac{1}{2}$. А при $\alpha=\frac{1}{2}$ абсолютной сходимости может не быть (С. Н. Бернштейн, 1914).
+
+Если функция $f$ имеет ограниченную вариацию и ее модуль нешрерывности удовлетворяет условию
+
+\[
+\sum_{n=1}^{\infty} \frac{1}{n} \sqrt{\omega\left(f, \frac{1}{n}\right)}&lt;\infty,
+\]
+
+то Ф. р. функции $f$ сходится абсолютно (см. [9]). Условие (6) ослабить нельзя (см. [10]).
+
+В отличие от предыдущих следующая теорема дает критерий абсолютной сходимости для индивидуальной функции. Для абсолютной сходимости Ф. р. функции необходима и достаточна сходимость ряда
+
+\[
+\sum_{n=1}^{\infty} \frac{1}{\sqrt{n}} e_{n}(f)
+\]
+
+где $e_{n}(f)$ - наилучшее приближение функции $f$ в метрике пространства $L^{2}$ тригонометрич. полиномамі, содер жащими $n$ гармоник (см. [11]).
+
+Ряд (2) можно рассматривать как действительную часть степенного ряда
+
+\[
+\frac{a_{0}}{2}+\sum_{k=1}^{\infty}\left(a_{k}-i b_{k}\right) e^{i k x} .
+\]
+
+Мнимую часть
+
+\[
+\sum_{k=1}^{\infty}\left(-b_{k} \cos k x+a_{k} \sin k x\right)
+\]
+
+наз. рядом, сопряженным с рядом (2).
+
+Пусть $f \in L$ и $(2)$ - ее Ф. р. Тогда для потти всех $x$ существует функция
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a4bfcd112af14e3dfbeeg-1.jpg?height=98&amp;width=524&amp;top_left_y=1834&amp;top_left_x=1127)
+
+(И. И. Привалов, 1919). Функцию $\tilde{f}$ наз. сопряженной c $f$, она может быть неинтегрируемой. Но если $\tilde{f} \in L$, то Ф. р. функции $\tilde{f}$ является ряд (7) (В. И. Смирнов, 1928).
+
+Во многих случаях по свойствам функции $f$ или ее Ф. р. (2) удается установить те или иные свойства сопряженного ряда (7), напр. его сходимость в метрике $L^{p}$, сходимость или суммируемость в точке, почти всюду И т. II.
+
+Изучаются также свойства Ф. р. при специальны предположениях об их коэфффициентах. Напр., лакунарные тригонометрические ряды, когда отличны от нуля только коэффициенты с номерами $n_{m}$, образующими лакунарную последовательность, т. е. такими, что $n_{m+1} / n_{m} \geqslant \lambda&gt;1$. Другой пример специальных рядов ряды с монотонными коэффициентами.
+
+Все сказанное выше относилось к Ф. р. вида (2). Для Ф. р. по переставленной тригонометрич. системе нек-рые свойства Ф. р. по тригонометрич. системе, взятой в обычном порядке, не имеют места. Напр., существует такая непрерывная функция, тто ее Ф. р. после нек-рой перестановки расходится почти всюду (cM. [12] - [15]).
+
+Теория Ф. р. для функций многих переменных разработана в меньшей степени. Часть многомерных результатов аналогична одномерным. Но имеются и существенные отличия.
+
+Пусть $x=\left(x_{1}, \ldots, x_{N}\right)$-точка $N$-мерного пространства, $k=\left(k_{1}, \ldots, k_{N}\right)$ есть $N$-мерный вектор с целочисленпыми координатами и $(k, x)=k_{1} x_{1}+\ldots+k_{N} x_{N}$. Для функции $f(x)$, имеющей период $2 \pi$ по каждой переменной и интегрируемой по Лебегу на $N$-мерном губе $[0,2 \pi]^{N}$, Ф. р. по тригонометрич. системе наз. рял
+
+\[
+\sum_{k} c_{k} e^{i(k, x)}
+\]
+
+где суммирование ведется по всем $k$ и
+
+\[
+c_{k}=\frac{1}{(2 \pi)^{N}} \int_{0}^{2 \pi} \cdots \int_{0}^{2 \pi} f(x) e^{-i(k, x)} d x
+\]
+
+- к о ә фф и ц и е т ты Ф у р в е функции $f . \Phi . \mathrm{p}$. (8) записан в комплексной форме. Запись его в тригонометрич. форме как ряда по произведениям косинусов и синусов кратных дуг более громоздка.
+
+Возможны различные определения частных сумм ряда (8), напр. частные суммы по прямоугольникам
+
+по кругам
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_991621900b1f6760476ag-1.jpg?height=75&amp;width=543&amp;top_left_y=1168&amp;top_left_x=274)
+
+\[
+\sum_{|k| \leqslant n} c_{k} e^{i(k, x)}
+\]
+
+где $n$-радиус и $|k|=\sqrt{k_{1}^{2}+\ldots+k_{N}^{2}}$.
+
+Для иредставления функциї круговые частные суммы (9) менее пригодны, тем их средние Рисса
+
+\[
+\sum_{|k| \leqslant n}\left(1-\frac{|k|}{n}\right)^{\alpha} c_{k} e^{i(k, x)} .
+\]
+
+Для средних Рисса порядка $\alpha \geqslant \frac{N-1}{2}$ Ф. р. Функций из $L^{2}$ справедлив принцип локализации, а для меньших $\alpha$ это не так (С. Бохнер, S. Bochner, 1936). Среднис Рисса круговых частных сумм критич. порядка $\alpha=\frac{N-1}{2}$ играют существенную роль и в других вопросах Ф. p. функций многих переменных.
+
+Существует непрерывная функция двух переменных, Ф. р. к-рой не сходится по прямоугольникам ни в одной внутренней точке квадрата $[0,2 \pi]^{2}$ (см. [16]).
+
+Нек-рые результаты, относящиеся к Ф. р. по тригонометрич. системе, допускают значительные обобщения, напр. могут быть соответствующим образом перенесены на спектральные разложения, отвечаюощие самосопряженным эллиптическим дифференциальным операторам.
+
+Лuт.. [1] Б а р и Н. К., Тригонометрические ряды, М., англ., 2 изд., т. 1-2, М., 1965; [3] X а p д и Г. Х., Р ог оз и н с к и й В. В., Ряды Фурье, пер. с англ., М., 1959: [4] ЈI узи и Н. Н., Интеграл и тригонометрический ряд, М.- Јі., $1951,[5] \mathrm{L}$ e b e s g u e H., Leçons sur les séries trigonométriques, P., 1906; [6] П а п л а у с к а с А. Б., Тригонометрические ряды от Әйлера до Јебега, М., 1966 ; [7] у л ь я н о в П. Ј., «Успехи матем. наук», 1964, т. 19 , в. 1 , с. $3-69 ;$ [8] А ли и1976, T. 31 , в. 6, c. $28-83$, [9] S a l e m R., &quot;Duke Math. J.&quot;,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_991621900b1f6760476ag-1.jpg?height=52&amp;width=820&amp;top_left_y=2260&amp;top_left_x=140)
+
+C. Б., &quot;Докл. AH CCCP», 1955, T. 102, c.. 37-40; [12] K o 1-
+m o g o r of f A., M e n s c h of f D., &quot;Math. Z.&quot;, $1927, \mathrm{Bd} 26$, S. $432-41$; [13] i a h or s k i 7 , &quot;C. r. Acad. sci.&quot;, 1960, t 251 , p. 501-03; [14] У л ь я н о в П Л., &quot;Успехи матем. паук&quot;, &quot;Докл. АН СССР», 1961, т. 141, c. 28-31, [16] F e f f e rm a n C., «Bull. Amer. Math. Soc.», 1971, v. 77, p. 191-95.</text_orig>
+</article>

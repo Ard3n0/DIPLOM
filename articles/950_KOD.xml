@@ -1,0 +1,525 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/950_KOD" alphabetic_pos="950">
+  <title>КОД С ИСПРАВЛЕНИЕМ АРИФМЕТИЧЕСКИХ ОIIIИОК</title>
+  <authors>
+    <author>Г. А. Кабатлнский</author>
+  </authors>
+  <pages>
+    <start>465</start>
+    <end>466</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Д а Д а е в Ю. Г., Арифметические коды, исправляющие ошибки, М., 1969; [2] П и т е р с о н У., У э л д о н Э. M a s s e y J. L., G a r c i a O. N., в кh.: Advances in Information Systems Science, v. 4, N. Y.- L., 1972, p. 273-326; [4] Бо я р и н о в И. М., К а б а т я н с к й й Г. А., «проблемы передачи информации&quot;, 1976 , т. 12 , в. 1, с. 16-23.</literature_orig>
+    <unit>
+      <author>Да Даев Ю. Г.</author>
+      <title>Арифметические коды, исправляющие ошибки</title>
+      <publication>М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Питерсон У.</author>
+      <author>Уэлдон Э.Massey J. L.</author>
+      <author>Garcia O. N.</author>
+      <title>в кh.: Advances in Information Systems Science, v. 4, N. Y.- L.</title>
+      <publication/>
+      <year>1972</year>
+      <other>p. 273-326; [4] Бо я р и н о в И. М., К а б а т я н с к й й Г. А., «проблемы передачи информации&quot;, 1976, т. 12, в. 1, с. 16-23.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/950_1_KOD">\rho(K)=\min \rho\left(N_{1}, N_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/950_2_KOD">\rho\left(N_{1}, N_{2}\right)=w\left(N_{1}-N_{2}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/950_3_KOD">N=\sum_{i=0}^{k} N_{i}^{2 i}, \quad N_{i}=0, \pm 1, k=0,1, \ldots</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_1_KOD">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_2_KOD">\mathbb{z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_3_KOD">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_4_KOD">n^{\prime}=n \pm 2^{i}, i=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_5_KOD">\rho\left(n_{1}, N_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_6_KOD">\mathbb{z} \times \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_7_KOD">n_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_8_KOD">n_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_9_KOD">k \subset \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_10_KOD">n_{1}, N_{2} \in K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_11_KOD">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_12_KOD">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_13_KOD">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_14_KOD">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_15_KOD">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_16_KOD">2 t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_17_KOD">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_18_KOD">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_19_KOD">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_20_KOD">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_21_KOD">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_22_KOD">w(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_23_KOD">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_24_KOD">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_25_KOD">(*)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_26_KOD">n_{k} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_27_KOD">n_{i} N_{i+1}=0, i=0,1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_28_KOD">\ldots, k-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_29_KOD">w(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_30_KOD">23=2^{4}+2^{2}+2^{1}+2^{0}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_31_KOD">=2^{5}-2^{3}-2^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_32_KOD">w(23)=3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_33_KOD">\rho\left(n_{1}+n, N_{2}+N\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_34_KOD">=\rho\left(n_{1}, N_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_35_KOD">n_{1}, N_{2}, N \in \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_36_KOD">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_37_KOD">\left[\log _{2} B(K)\right]+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_38_KOD">b(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_39_KOD">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_40_KOD">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_41_KOD">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_42_KOD">\beta(\dot{b})=b_{n-1} \ldots b_{1} b_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_43_KOD">\{0,1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_44_KOD">b=\sum_{i=0}^{n-1} b_{i} 2^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_45_KOD">k \subset \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_46_KOD">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_47_KOD">\{\beta(b): B \in K\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_48_KOD">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_49_KOD">d\left(\beta\left(b_{1}\right), \beta\left(B_{2}\right)\right) \geqslant \rho\left(B_{1}, B_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_50_KOD">d(\cdot, \cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_51_KOD">f:\{0,1, \ldots, M-1\} \rightarrow \mathbb{Z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_52_KOD">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_53_KOD">f(i+j)=f(i)+f(j)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_54_KOD">i+j&lt;m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_55_KOD">f(i)=\boldsymbol{a} \cdot i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_56_KOD">\boldsymbol{a}=f(1))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_57_KOD">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_58_KOD">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_59_KOD">k_{a}, M=\{0, A, \ldots, A(M-1)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_60_KOD">a-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_61_KOD">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_62_KOD">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_63_KOD">w(a \cdot i), i=1, \ldots, M-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_64_KOD">\boldsymbol{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_65_KOD">m=2^{n} \mp 1 / A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_66_KOD">b=\sum_{i=0}^{n-1} b_{i} 2^{i}, b_{i}=0,1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_67_KOD">b^{\prime}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_68_KOD">= \pm b_{n-1}+\sum_{i=1}^{n-1} b_{i} 2^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_69_KOD">\mathbb{n}_{m}=\{0,1, \ldots, m-1\}, \quad m=2^{n} \mp 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_70_KOD">\rho_{m}(x, y)=w_{m}(x-y)=\min \{w(x-y), \quad w(x-y-m)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_71_KOD">(n, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_72_KOD">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_73_KOD">\rho_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_74_KOD">(n, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_75_KOD">\left(n, A^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_76_KOD">a A^{*}=m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_77_KOD">2-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_78_KOD">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_79_KOD">((p-1) / 2, p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_80_KOD">\rho_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_81_KOD">\mathbb{n}_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_82_KOD">(p+1) / 6[</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_83_KOD">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_84_KOD">(q&gt;2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_85_KOD">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_86_KOD">n^{\prime}=n \pm a q^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_87_KOD">a=1, \ldots, q-1 ; i=0,1, \ldots)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_88_KOD">q=2^{l}(l&gt;1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_89_KOD">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_90_KOD">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_91_KOD">q=6</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/950_92_KOD">a</formula>
+  </formulas_aux>
+  <relations n="85">
+    <relation uri="http://libmeta.ru/me/relation/950_1_KOD">
+      <rel_text>Код с исправлением ошибок</rel_text>
+      <target>http://libmeta.ru/me/article/952_KOD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_2_KOD">
+      <rel_text>числовых</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_3_KOD">
+      <rel_text>законов взаимности</rel_text>
+      <target>http://libmeta.ru/me/article/703_VZAIMNOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_4_KOD">
+      <rel_text>связаны</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_5_KOD">
+      <rel_text>ариф্фметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_6_KOD">
+      <rel_text>развитием</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_7_KOD">
+      <rel_text>интерес</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_8_KOD">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_9_KOD">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_10_KOD">
+      <rel_text>границам</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_11_KOD">
+      <rel_text>расстоянием</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_12_KOD">
+      <rel_text>мощности</rel_text>
+      <target>http://libmeta.ru/me/article/804_MOSchNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_13_KOD">
+      <rel_text>границы</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_14_KOD">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_15_KOD">
+      <rel_text>циклических</rel_text>
+      <target>http://libmeta.ru/me/article/935_TsIKLIChESKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_16_KOD">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_17_KOD">
+      <rel_text>Перечисленные</rel_text>
+      <target>http://libmeta.ru/me/article/223_PEREDATOChNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_18_KOD">
+      <rel_text>числами</rel_text>
+      <target>http://libmeta.ru/me/article/540_ChISLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_19_KOD">
+      <rel_text>расстояния</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_20_KOD">
+      <rel_text>пересекаются</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_21_KOD">
+      <rel_text>радиуса</rel_text>
+      <target>http://libmeta.ru/me/article/866_RADIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_22_KOD">
+      <rel_text>метрике</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_23_KOD">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_24_KOD">
+      <rel_text>по модулю простого</rel_text>
+      <target>http://libmeta.ru/me/article/159_SRAVNENIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_25_KOD">
+      <rel_text>корень</rel_text>
+      <target>http://libmeta.ru/me/article/10_KOREN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_26_KOD">
+      <rel_text>первообразный</rel_text>
+      <target>http://libmeta.ru/me/article/217_PERVOOBRAZNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_27_KOD">
+      <rel_text>связан</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_28_KOD">
+      <rel_text>метриках</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_29_KOD">
+      <rel_text>Расстояния</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_30_KOD">
+      <rel_text>метрикой</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_31_KOD">
+      <rel_text>метрического пространства</rel_text>
+      <target>http://libmeta.ru/me/article/651_METRIZUEMOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_32_KOD">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_33_KOD">
+      <rel_text>мощности</rel_text>
+      <target>http://libmeta.ru/me/article/804_MOSchNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_34_KOD">
+      <rel_text>циклические</rel_text>
+      <target>http://libmeta.ru/me/article/935_TsIKLIChESKI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_35_KOD">
+      <rel_text>модулю</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_36_KOD">
+      <rel_text>контроля</rel_text>
+      <target>http://libmeta.ru/me/article/1079_KONTINUU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_37_KOD">
+      <rel_text>Эвм</rel_text>
+      <target>http://libmeta.ru/me/article/360_EVM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_38_KOD">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_39_KOD">
+      <rel_text>мощности</rel_text>
+      <target>http://libmeta.ru/me/article/804_MOSchNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_40_KOD">
+      <rel_text>произвольной</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_41_KOD">
+      <rel_text>расстояние</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_42_KOD">
+      <rel_text>Расстояние</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_43_KOD">
+      <rel_text>сложения</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_44_KOD">
+      <rel_text>результата</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_45_KOD">
+      <rel_text>делимости</rel_text>
+      <target>http://libmeta.ru/me/article/101_DELIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_46_KOD">
+      <rel_text>операция</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_47_KOD">
+      <rel_text>равносильно</rel_text>
+      <target>http://libmeta.ru/me/article/766_RAVNOVELIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_48_KOD">
+      <rel_text>декодирование</rel_text>
+      <target>http://libmeta.ru/me/article/94_DEKODIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_49_KOD">
+      <rel_text>контроля</rel_text>
+      <target>http://libmeta.ru/me/article/1079_KONTINUU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_50_KOD">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_51_KOD">
+      <rel_text>метрика</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_52_KOD">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_53_KOD">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_54_KOD">
+      <rel_text>представлении</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_55_KOD">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_56_KOD">
+      <rel_text>представление</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_57_KOD">
+      <rel_text>представления</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_58_KOD">
+      <rel_text>арифметический</rel_text>
+      <target>http://libmeta.ru/me/article/253_ARIFMETIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_59_KOD">
+      <rel_text>Метрика</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_60_KOD">
+      <rel_text>расстояние</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_61_KOD">
+      <rel_text>радиуса</rel_text>
+      <target>http://libmeta.ru/me/article/866_RADIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_62_KOD">
+      <rel_text>расстояние</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_63_KOD">
+      <rel_text>пересекаются</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_64_KOD">
+      <rel_text>радиуса</rel_text>
+      <target>http://libmeta.ru/me/article/866_RADIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_65_KOD">
+      <rel_text>радиуса</rel_text>
+      <target>http://libmeta.ru/me/article/866_RADIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_66_KOD">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_67_KOD">
+      <rel_text>ариф্метич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_68_KOD">
+      <rel_text>Последовательности</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_69_KOD">
+      <rel_text>минимум</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_70_KOD">
+      <rel_text>характеризуется</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_71_KOD">
+      <rel_text>Произвольное</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_72_KOD">
+      <rel_text>метрикой</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_73_KOD">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_74_KOD">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_75_KOD">
+      <rel_text>Функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_76_KOD">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_77_KOD">
+      <rel_text>кольце</rel_text>
+      <target>http://libmeta.ru/me/article/1000_KOL'Ts</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_78_KOD">
+      <rel_text>степень</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_79_KOD">
+      <rel_text>результата</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_80_KOD">
+      <rel_text>счисления</rel_text>
+      <target>http://libmeta.ru/me/article/351_SChISLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_81_KOD">
+      <rel_text>двоичной системе URI[[http</rel_text>
+      <target>http://libmeta.ru/me/article/29_DVOIChNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_82_KOD">
+      <rel_text>представленных</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_83_KOD">
+      <rel_text>сложении</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_84_KOD">
+      <rel_text>контроля</rel_text>
+      <target>http://libmeta.ru/me/article/1079_KONTINUU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/950_85_KOD">
+      <rel_text>предназначенный</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+  </relations>
+  <text>к о д, и с п $URI[[http://libmeta.ru/me/formula/aux/950_1_KOD]]/URI$ а в л я ю и й а р ифм ет и ч е с к и е о Iі и б к и, - код, URI[[http://libmeta.ru/me/relation/950_85_KOD]]/URI для URI[[http://libmeta.ru/me/relation/950_84_KOD]]/URI работы сумматора. При URI[[http://libmeta.ru/me/relation/950_83_KOD]]/URI чисел, URI[[http://libmeta.ru/me/relation/950_82_KOD]]/URI в URI[[http://libmeta.ru/me/relation/950_81_KOD]]/URI://libmeta.ru/me/relation/950_80_KOD]]/URI, одиночный сбой в работе сумматора приводит, как правило, к изменению URI[[http://libmeta.ru/me/relation/950_79_KOD]]/URI на нек-рую URI[[http://libmeta.ru/me/relation/950_78_KOD]]/URI числа два. В связи с әтим в URI[[http://libmeta.ru/me/relation/950_77_KOD]]/URI целых чисел $URI[[http://libmeta.ru/me/formula/aux/950_2_KOD]]/URI$ вводится понятие (одиночной) а р и ф м е т и ч ес к о й о ші и б к и как преобразования числа $URI[[http://libmeta.ru/me/formula/aux/950_3_KOD]]/URI$ в URI[[http://libmeta.ru/me/relation/950_76_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_4_KOD]]/URI$. URI[[http://libmeta.ru/me/relation/950_75_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_5_KOD]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/950_6_KOD]]/URI$, определяемая как минимальное URI[[http://libmeta.ru/me/relation/950_74_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_73_KOD]]/URI. ошибок, преобразующих $URI[[http://libmeta.ru/me/formula/aux/950_7_KOD]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/950_8_KOD]]/URI$, является URI[[http://libmeta.ru/me/relation/950_72_KOD]]/URI. URI[[http://libmeta.ru/me/relation/950_71_KOD]]/URI конечное подмножество (код) $URI[[http://libmeta.ru/me/formula/aux/950_9_KOD]]/URI$ URI[[http://libmeta.ru/me/relation/950_70_KOD]]/URI р а с т о я н и м м
+
+\[
+URI[[http://libmeta.ru/me/formula/main/950_1_KOD]]/URI
+\]
+
+где URI[[http://libmeta.ru/me/relation/950_69_KOD]]/URI берется по всем различным $URI[[http://libmeta.ru/me/formula/aux/950_10_KOD]]/URI$. URI[[http://libmeta.ru/me/relation/950_68_KOD]]/URI из $URI[[http://libmeta.ru/me/formula/aux/950_11_KOD]]/URI$ или менее URI[[http://libmeta.ru/me/relation/950_67_KOD]]/URI. ошибок преобразуют любое URI[[http://libmeta.ru/me/relation/950_66_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_12_KOD]]/URI$ в метрический пар URI[[http://libmeta.ru/me/relation/950_65_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_13_KOD]]/URI$ с центром в $URI[[http://libmeta.ru/me/formula/aux/950_14_KOD]]/URI$. Поэтому если метрические пары URI[[http://libmeta.ru/me/relation/950_64_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_15_KOD]]/URI$, описанные вокруг любых двух чисел кода, не URI[[http://libmeta.ru/me/relation/950_63_KOD]]/URI (т. е. URI[[http://libmeta.ru/me/relation/950_62_KOD]]/URI кода больпе $URI[[http://libmeta.ru/me/formula/aux/950_16_KOD]]/URI$ ), то код наз. ко до м, и с п р а в л я ю щ им $URI[[http://libmeta.ru/me/formula/aux/950_17_KOD]]/URI$ а р ифме т и ч е с к и х о ші и б о к. Если же метрический шар URI[[http://libmeta.ru/me/relation/950_61_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_18_KOD]]/URI$, описанный вокруг любого числа кода, не содержит других чисел кода (т. е. URI[[http://libmeta.ru/me/relation/950_60_KOD]]/URI кода больше $URI[[http://libmeta.ru/me/formula/aux/950_19_KOD]]/URI$ ), то код наз. к о д о м, о б н а р у ж и в а ющи м $URI[[http://libmeta.ru/me/formula/aux/950_20_KOD]]/URI$ а р ифме т че с к их о пі и б о к. URI[[http://libmeta.ru/me/relation/950_59_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_21_KOD]]/URI$ допускает другое описание:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/950_2_KOD]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/950_22_KOD]]/URI$ - (URI[[http://libmeta.ru/me/relation/950_58_KOD]]/URI) в е с числа $URI[[http://libmeta.ru/me/formula/aux/950_23_KOD]]/URI$, равный минималып возможному числу непулевых гоәффицциентов в URI[[http://libmeta.ru/me/relation/950_57_KOD]]/URI х
+
+\[
+URI[[http://libmeta.ru/me/formula/main/950_3_KOD]]/URI
+\]
+
+Для каждого числа $URI[[http://libmeta.ru/me/formula/aux/950_24_KOD]]/URI$ существует единственное URI[[http://libmeta.ru/me/relation/950_56_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_25_KOD]]/URI$, в к-ром $URI[[http://libmeta.ru/me/formula/aux/950_26_KOD]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/950_27_KOD]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/950_28_KOD]]/URI$, URI[[http://libmeta.ru/me/relation/950_55_KOD]]/URI ненулевых коэфффициентов в этом URI[[http://libmeta.ru/me/relation/950_54_KOD]]/URI равно $URI[[http://libmeta.ru/me/formula/aux/950_29_KOD]]/URI$. Напр., $URI[[http://libmeta.ru/me/formula/aux/950_30_KOD]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/950_31_KOD]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/950_32_KOD]]/URI$. Так как $URI[[http://libmeta.ru/me/formula/aux/950_33_KOD]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/950_34_KOD]]/URI$ для любых $URI[[http://libmeta.ru/me/formula/aux/950_35_KOD]]/URI$, то ограничиваются рассмотрением кодов, не содержащих отрицательных чисел. Д л і н о й к о д а $URI[[http://libmeta.ru/me/formula/aux/950_36_KOD]]/URI$ наз. величина $URI[[http://libmeta.ru/me/formula/aux/950_37_KOD]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/950_38_KOD]]/URI$ - наибольшее URI[[http://libmeta.ru/me/relation/950_53_KOD]]/URI кода $URI[[http://libmeta.ru/me/formula/aux/950_39_KOD]]/URI$. Произвольному числу $URI[[http://libmeta.ru/me/formula/aux/950_40_KOD]]/URI$ кода длины $URI[[http://libmeta.ru/me/formula/aux/950_41_KOD]]/URI$ однозначно coответствует слово $URI[[http://libmeta.ru/me/formula/aux/950_42_KOD]]/URI$ в алф্রавите $URI[[http://libmeta.ru/me/formula/aux/950_43_KOD]]/URI$ такое, что $URI[[http://libmeta.ru/me/formula/aux/950_44_KOD]]/URI$. Если код $URI[[http://libmeta.ru/me/formula/aux/950_45_KOD]]/URI$ исправляет $URI[[http://libmeta.ru/me/formula/aux/950_46_KOD]]/URI$ URI[[http://libmeta.ru/me/relation/950_52_KOD]]/URI. ошибок, то код $URI[[http://libmeta.ru/me/formula/aux/950_47_KOD]]/URI$ исправляет $URI[[http://libmeta.ru/me/formula/aux/950_48_KOD]]/URI$ опибок (типа замещения) в силу того, что $URI[[http://libmeta.ru/me/formula/aux/950_49_KOD]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/950_50_KOD]]/URI$ - URI[[http://libmeta.ru/me/relation/950_51_KOD]]/URI Хемминга (см. URI[[http://libmeta.ru/me/relation/950_1_KOD]]/URI). При исследовании URI[[http://libmeta.ru/me/relation/950_50_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_49_KOD]]/URI сумматора обычно рассматривают кодирования $URI[[http://libmeta.ru/me/formula/aux/950_51_KOD]]/URI$ (см. Кодирование $URI[[http://libmeta.ru/me/formula/aux/950_52_KOD]]/URI$ URI[[http://libmeta.ru/me/relation/950_48_KOD]]/URI), обладающие свойством $URI[[http://libmeta.ru/me/formula/aux/950_53_KOD]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/950_54_KOD]]/URI$ (что URI[[http://libmeta.ru/me/relation/950_47_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_55_KOD]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/950_56_KOD]]/URI$. В этом случае URI[[http://libmeta.ru/me/relation/950_46_KOD]]/URI кодирования состоит в умножении кодируемого числа на $URI[[http://libmeta.ru/me/formula/aux/950_57_KOD]]/URI$, а обнаружение ошибок в работе сумматора заключается в проверке URI[[http://libmeta.ru/me/relation/950_45_KOD]]/URI на $URI[[http://libmeta.ru/me/formula/aux/950_58_KOD]]/URI$ URI[[http://libmeta.ru/me/relation/950_44_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_43_KOD]]/URI. Код $URI[[http://libmeta.ru/me/formula/aux/950_59_KOD]]/URI$ наз. $URI[[http://libmeta.ru/me/formula/aux/950_60_KOD]]/URI$ к о д о м м о щ н о с т и $URI[[http://libmeta.ru/me/formula/aux/950_61_KOD]]/URI$. URI[[http://libmeta.ru/me/relation/950_42_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_62_KOD]]/URI$-кода равно минимальному $URI[[http://libmeta.ru/me/formula/aux/950_63_KOD]]/URI$. Напр., URI[[http://libmeta.ru/me/relation/950_41_KOD]]/URI 3-кода URI[[http://libmeta.ru/me/relation/950_40_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_39_KOD]]/URI равно 2 , код обнаруживает одиночные URI[[http://libmeta.ru/me/relation/950_38_KOD]]/URI. опибки и часто применяется в URI[[http://libmeta.ru/me/relation/950_37_KOD]]/URI (в виде URI[[http://libmeta.ru/me/relation/950_36_KOD]]/URI по URI[[http://libmeta.ru/me/relation/950_35_KOD]]/URI 3). Наиболее исследованы (URI[[http://libmeta.ru/me/relation/950_34_KOD]]/URI и негациклические) $URI[[http://libmeta.ru/me/formula/aux/950_64_KOD]]/URI$-коды URI[[http://libmeta.ru/me/relation/950_33_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_65_KOD]]/URI$, характеризующиеся тем свойством, что вместе с числом $URI[[http://libmeta.ru/me/formula/aux/950_66_KOD]]/URI$, URI[[http://libmeta.ru/me/relation/950_32_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_67_KOD]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/950_68_KOD]]/URI$ также принадлежит коду. Та-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4e56d3154cea90ece0e1g-1.jpg?height=42&amp;width=821&amp;top_left_y=1393&amp;top_left_x=130)
+сматривать как подмножества URI[[http://libmeta.ru/me/relation/950_31_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_69_KOD]]/URI$ с URI[[http://libmeta.ru/me/relation/950_30_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_70_KOD]]/URI$. URI[[http://libmeta.ru/me/relation/950_29_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_71_KOD]]/URI$-кода в URI[[http://libmeta.ru/me/relation/950_28_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_72_KOD]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/950_73_KOD]]/URI$ равны. С каждым $URI[[http://libmeta.ru/me/formula/aux/950_74_KOD]]/URI$-кодом URI[[http://libmeta.ru/me/relation/950_27_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_75_KOD]]/URI$-код, где $URI[[http://libmeta.ru/me/formula/aux/950_76_KOD]]/URI$, называемый д в о й с т в е н н ы м. Если 2 или - $URI[[http://libmeta.ru/me/formula/aux/950_77_KOD]]/URI$ URI[[http://libmeta.ru/me/relation/950_26_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_25_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_24_KOD]]/URI числа $URI[[http://libmeta.ru/me/formula/aux/950_78_KOD]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/950_79_KOD]]/URI$-код Iсправляет одиночные URI[[http://libmeta.ru/me/relation/950_23_KOD]]/URI. ошибки и является совершенным в URI[[http://libmeta.ru/me/relation/950_22_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_80_KOD]]/URI$, т. е. метрические піары URI[[http://libmeta.ru/me/relation/950_21_KOD]]/URI 1 , описанные вокруг чисел кода, не только попарно не URI[[http://libmeta.ru/me/relation/950_20_KOD]]/URI, но и заполняют все $URI[[http://libmeta.ru/me/formula/aux/950_81_KOD]]/URI$. В двойственном коде все URI[[http://libmeta.ru/me/relation/950_19_KOD]]/URI между различными URI[[http://libmeta.ru/me/relation/950_18_KOD]]/URI кода равны] $URI[[http://libmeta.ru/me/formula/aux/950_82_KOD]]/URI$. URI[[http://libmeta.ru/me/relation/950_17_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_16_KOD]]/URI для кодов имеют аналоги в классе двоичных линейных URI[[http://libmeta.ru/me/relation/950_15_KOD]]/URI кодов, исправляющих ошибки. В то же время не известны URI[[http://libmeta.ru/me/relation/950_14_KOD]]/URI. аналоги Бчх-кодов, а также не известны верхние URI[[http://libmeta.ru/me/relation/950_13_KOD]]/URI URI[[http://libmeta.ru/me/relation/950_12_KOD]]/URI кодов с заданными длиной и URI[[http://libmeta.ru/me/relation/950_11_KOD]]/URI, аналогичные URI[[http://libmeta.ru/me/relation/950_10_KOD]]/URI для кодов, исправляющих ошибки. Еще большей спецификой обладают коды, исправляющие $URI[[http://libmeta.ru/me/formula/aux/950_83_KOD]]/URI$-гчные $URI[[http://libmeta.ru/me/formula/aux/950_84_KOD]]/URI$ URI[[http://libmeta.ru/me/relation/950_9_KOD]]/URI. опибки
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4e56d3154cea90ece0e1g-1.jpg?height=38&amp;width=821&amp;top_left_y=2050&amp;top_left_x=135)
+наз. преобразованге числа $URI[[http://libmeta.ru/me/formula/aux/950_85_KOD]]/URI$ в URI[[http://libmeta.ru/me/relation/950_8_KOD]]/URI $URI[[http://libmeta.ru/me/formula/aux/950_86_KOD]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/950_87_KOD]]/URI$, URI[[http://libmeta.ru/me/relation/950_7_KOD]]/URI к к-рым возрастает с URI[[http://libmeta.ru/me/relation/950_6_KOD]]/URI вычислительной техники. Так, в отличие от кодов, ісправляющих ошибки при $URI[[http://libmeta.ru/me/formula/aux/950_88_KOD]]/URI$, не существует совершенных $URI[[http://libmeta.ru/me/formula/aux/950_89_KOD]]/URI$-кодов, исправляющих одиночные $URI[[http://libmeta.ru/me/formula/aux/950_90_KOD]]/URI$-ичные URI[[http://libmeta.ru/me/relation/950_5_KOD]]/URI. опибки, а при $URI[[http://libmeta.ru/me/formula/aux/950_91_KOD]]/URI$ известны примеры таких кодов. Условия существования совершенных $URI[[http://libmeta.ru/me/formula/aux/950_92_KOD]]/URI$-кодов имеют теоретико-числовой ха- рактер и URI[[http://libmeta.ru/me/relation/950_4_KOD]]/URI с изучением URI[[http://libmeta.ru/me/relation/950_3_KOD]]/URI в URI[[http://libmeta.ru/me/relation/950_2_KOD]]/URI полях.</text>
+  <text_orig>к о д, и с п $\mathrm{p}$ а в л я ю и й а р ифм ет и ч е с к и е о Iі и б к и, - код, предназначенный для контроля работы сумматора. При сложении чисел, представленных в двоичной системе счисления, одиночный сбой в работе сумматора приводит, как правило, к изменению результата на нек-рую степень числа два. В связи с әтим в кольце целых чисел $\mathbb{Z}$ вводится понятие (одиночной) а р и ф м е т и ч ес к о й о ші и б к и как преобразования числа $N$ в число $N^{\prime}=N \pm 2^{i}, i=0,1, \ldots$. Функция $\rho\left(N_{1}, N_{2}\right)$ на $\mathbb{Z} \times \mathbb{Z}$, определяемая как минимальное число арифметич. ошибок, преобразующих $N_{1}$ в $N_{2}$, является метрикой. Произвольное конечное подмножество (код) $K \subset \mathbb{Z}$ характеризуется р а с т о я н и м м
+
+\[
+\rho(K)=\min \rho\left(N_{1}, N_{2}\right)
+\]
+
+где минимум берется по всем различным $N_{1}, N_{2} \in K$. Последовательности из $t$ или менее ариф্метич. ошибок преобразуют любое число $N$ в метрический пар радиуса $t$ с центром в $N$. Поэтому если метрические пары радиуса $t$, описанные вокруг любых двух чисел кода, не пересекаются (т. е. расстояние кода больпе $2 t$ ), то код наз. ко до м, и с п р а в л я ю щ им $t$ а р ифме т и ч е с к и х о ші и б о к. Если же метрический шар радиуса $s$, описанный вокруг любого числа кода, не содержит других чисел кода (т. е. расстояние кода больше $s$ ), то код наз. к о д о м, о б н а р у ж и в а ющи м $s$ а р ифме т че с к их о пі и б о к. Метрика $\rho$ допускает другое описание:
+
+\[
+\rho\left(N_{1}, N_{2}\right)=w\left(N_{1}-N_{2}\right),
+\]
+
+где $w(N)$ - (арифметический) в е с числа $N$, равный минималып возможному числу непулевых гоәффицциентов в представления х
+
+\[
+N=\sum_{i=0}^{k} N_{i}^{2 i}, \quad N_{i}=0, \pm 1, k=0,1, \ldots
+\]
+
+Для каждого числа $N$ существует единственное представление $(*)$, в к-ром $N_{k} \neq 0$ и $N_{i} N_{i+1}=0, i=0,1$, $\ldots, k-1$, число ненулевых коэфффициентов в этом представлении равно $w(N)$. Напр., $23=2^{4}+2^{2}+2^{1}+2^{0}=$ $=2^{5}-2^{3}-2^{0}$ и $w(23)=3$. Так как $\rho\left(N_{1}+N, N_{2}+N\right)=$ $=\rho\left(N_{1}, N_{2}\right)$ для любых $N_{1}, N_{2}, N \in \mathbb{Z}$, то ограничиваются рассмотрением кодов, не содержащих отрицательных чисел. Д л і н о й к о д а $K$ наз. величина $\left[\log _{2} B(K)\right]+1$, где $B(K)$ - наибольшее число кода $K$. Произвольному числу $B$ кода длины $n$ однозначно coответствует слово $\beta(\dot{B})=b_{n-1} \ldots b_{1} b_{0}$ в алф্রавите $\{0,1\}$ такое, что $B=\sum_{i=0}^{n-1} b_{i} 2^{i}$. Если код $K \subset \mathbb{Z}$ исправляет $t$ арифметич. ошибок, то код $\{\beta(B): B \in K\}$ исправляет $t$ опибок (типа замещения) в силу того, что $d\left(\beta\left(B_{1}\right), \beta\left(B_{2}\right)\right) \geqslant \rho\left(B_{1}, B_{2}\right)$, где $d(\cdot, \cdot)$ - метрика Хемминга (см. Код с исправлением ошибок). При исследовании задачи контроля сумматора обычно рассматривают кодирования $f:\{0,1, \ldots, M-1\} \rightarrow \mathbb{Z}$ (см. Кодирование $u$ декодирование), обладающие свойством $f(i+j)=f(i)+f(j)$ при $i+j&lt;M$ (что равносильно $f(i)=\boldsymbol{A} \cdot i$, где $\boldsymbol{A}=f(1))$. В этом случае операция кодирования состоит в умножении кодируемого числа на $A$, а обнаружение ошибок в работе сумматора заключается в проверке делимости на $A$ результата сложения. Код $K_{A}, M=\{0, A, \ldots, A(M-1)\}$ наз. $A-$ к о д о м м о щ н о с т и $M$. Расстояние $A$-кода равно минимальному $w(A \cdot i), i=1, \ldots, M-1$. Напр., расстояние 3-кода произвольной мощности равно 2 , код обнаруживает одиночные арифметич. опибки и часто применяется в ЭВМ (в виде контроля по модулю 3). Наиболее исследованы (циклические и негациклические) $\boldsymbol{A}$-коды мощности $M=2^{n} \mp 1 / A$, характеризующиеся тем свойством, что вместе с числом $B=\sum_{i=0}^{n-1} b_{i} 2^{i}, b_{i}=0,1$, число $B^{\prime}=$ $= \pm b_{n-1}+\sum_{i=1}^{n-1} b_{i} 2^{i}$ также принадлежит коду. Та-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4e56d3154cea90ece0e1g-1.jpg?height=42&amp;width=821&amp;top_left_y=1393&amp;top_left_x=130)
+сматривать как подмножества метрического пространства $\mathbb{N}_{m}=\{0,1, \ldots, m-1\}, \quad m=2^{n} \mp 1$ с метрикой $\rho_{m}(x, y)=w_{m}(x-y)=\min \{w(x-y), \quad w(x-y-m)\}$. Расстояния $(n, A)$-кода в метриках $\rho$ и $\rho_{m}$ равны. С каждым $(n, A)$-кодом связан $\left(n, A^{*}\right)$-код, где $A A^{*}=m$, называемый д в о й с т в е н н ы м. Если 2 или - $2-$ первообразный корень по модулю простого числа $p$, то $((p-1) / 2, p)$-код Iсправляет одиночные арифметич. ошибки и является совершенным в метрике $\rho_{m}$, т. е. метрические піары радиуса 1 , описанные вокруг чисел кода, не только попарно не пересекаются, но и заполняют все $\mathbb{N}_{m}$. В двойственном коде все расстояния между различными числами кода равны] $(p+1) / 6[$. Перечисленные результаты для кодов имеют аналоги в классе двоичных линейных циклических кодов, исправляющих ошибки. В то же время не известны арифметич. аналоги БЧХ-кодов, а также не известны верхние границы мощности кодов с заданными длиной и расстоянием, аналогичные границам для кодов, исправляющих ошибки. Еще большей спецификой обладают коды, исправляющие $q$-гчные $(q&gt;2)$ арифметич. опибки
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4e56d3154cea90ece0e1g-1.jpg?height=38&amp;width=821&amp;top_left_y=2050&amp;top_left_x=135)
+наз. преобразованге числа $N$ в число $N^{\prime}=N \pm a q^{i}$, $a=1, \ldots, q-1 ; i=0,1, \ldots)$, интерес к к-рым возрастает с развитием вычислительной техники. Так, в отличие от кодов, ісправляющих ошибки при $q=2^{l}(l&gt;1)$, не существует совершенных $A$-кодов, исправляющих одиночные $q$-ичные ариф্фметич. опибки, а при $q=6$ известны примеры таких кодов. Условия существования совершенных $A$-кодов имеют теоретико-числовой ха- рактер и связаны с изучением законов взаимности в числовых полях.
+
+Лит.: [1] Д а Д а е в Ю. Г., Арифметические коды, исправляющие ошибки, М., 1969; [2] П и т е р с о н У., У э л д о н Э. M a s s e y J. L., G a r c i a O. N., в кH.: Advances in Information Systems Science, v. 4, N. Y.- L., 1972, p. 273-326; [4] Бо я р и н о в И. М., К а б а т я н с к й й Г. А., «Проблемы передачи информации&quot;, 1976 , т. 12 , в. 1, с. 16-23.
+
+Г. А. Кабатлнский.</text_orig>
+</article>

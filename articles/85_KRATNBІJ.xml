@@ -1,0 +1,435 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/85_KRATNBІJ" alphabetic_pos="85">
+  <title>КРАТНБІЙ ИНТЕГРАЛ</title>
+  <authors/>
+  <pages>
+    <start>47</start>
+    <end>48</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ф и х т е н г о л ь ц Г. М., Курс дифференциального и интегрального исчисления, 4 изд., т. 2, М., 1959.</literature_orig>
+    <unit>
+      <author>Фихтенгольц Г. М.</author>
+      <title>Курс дифференциального и интегрального исчисления</title>
+      <publication>4 изд., т. 2, М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/85_1_KRATNBІJ">\delta_{\tau}=\max _{i=1,2, \ldots, k} d\left(E_{i}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_2_KRATNBІJ">\begin{gathered}\sigma_{\tau}=\sigma_{\tau}\left(f ; \xi^{(1)}, \ldots, \xi^{(k)}\right)=\sum_{i=1}^{k} f\left(\xi^{(i)}\right) \mu_{n} E_{i}, \\\xi^{(i)} \in E_{i} \in \tau,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_3_KRATNBІJ">\int_{E} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_4_KRATNBІJ">\iint \cdots \int_{E} f\left(x_{1}, x_{2}, \ldots, x_{n}\right) d x_{1} d x_{2} \ldots d x_{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_5_KRATNBІJ">x^{\prime}=\left(x_{1}, \ldots, x_{n}\right) \in R^{m},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_6_KRATNBІJ">x^{\prime \prime}=\left(x_{m+1}, \ldots, x_{n}\right) \in R^{n-m}, E \subset R^{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_7_KRATNBІJ">\int_{E_{x^{\prime \prime}}} d x \int_{E\left(x^{\prime}\right)} f\left(x^{\prime}, x^{\prime \prime}\right) d x^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_8_KRATNBІJ">\begin{gathered}\int_{E} f(x) d x=\iint_{E} f\left(x^{\prime}, x^{\prime \prime}\right) d x^{\prime} d x^{\prime \prime}= \\=\int_{E_{x^{\prime \prime}}} d x^{\prime} \int_{E\left(x^{\prime}\right)} f\left(x^{\prime}, x^{\prime \prime}\right) d x^{\prime \prime} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_9_KRATNBІJ">E=\left\{(x, y, z):(x, y) \in E_{x y}, \quad \varphi(x, y) \leqslant z \leqslant \psi(x, y)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_10_KRATNBІJ">\begin{aligned}&amp; \iiint_{E} f(x, y, z) d x d y d z= \\= &amp; \int_{E_{x y}} d x d y \int_{\varphi(x, y)}^{\Psi(x, y)} f(x, y, z) d z .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_11_KRATNBІJ">\int_{\varphi(G)} f(x) d x=\int_{G} f(x(t))|J(t)| d t,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_12_KRATNBІJ">A=\{(x, y): x \in E, \quad 0 \leqslant y \leqslant f(x)\} \subset R_{x y}^{n+1},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_13_KRATNBІJ">\int_{E} f(x) d x=\mu_{n+1} A .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_14_KRATNBІJ">F(E)=\int_{E} f(x) d x,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/85_15_KRATNBІJ">\sum_{m, n, \ldots, p=1}^{\infty} u_{m, n, \ldots, p}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_1_KRATNBІJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_2_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_3_KRATNBІJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_4_KRATNBІJ">\mathbb{r} n, \mu_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_5_KRATNBІJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_6_KRATNBІJ">\tau=\left\{e_{i}\right\}_{i=1}^{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_7_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_8_KRATNBІJ">e_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_9_KRATNBІJ">\bigcup_{i=1}^{k} E_{i}=E \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_10_KRATNBІJ">\mu_{n}\left(e_{i} \cap E_{j}\right)=0, \quad i \neq j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_11_KRATNBІJ">i, j=1,2, \cdots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_12_KRATNBІJ">d\left(e_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_13_KRATNBІJ">e_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_14_KRATNBІJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_15_KRATNBІJ">f(x), x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_16_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_17_KRATNBІJ">ф \mathbf{у}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_18_KRATNBІJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_19_KRATNBІJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_20_KRATNBІJ">\lim _{\boldsymbol{\delta} \rightarrow 0} \boldsymbol{\sigma}_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_21_KRATNBІJ">n-\kappa \mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_22_KRATNBІJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_23_KRATNBІJ">-R-и</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_24_KRATNBІJ">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_25_KRATNBІJ">n=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_26_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_27_KRATNBІJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_28_KRATNBІJ">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_29_KRATNBІJ">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_30_KRATNBІJ">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_31_KRATNBІJ">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_32_KRATNBІJ">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_33_KRATNBІJ">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_34_KRATNBІJ">n=2(n=3)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_35_KRATNBІJ">n=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_36_KRATNBІJ">n=3-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_37_KRATNBІJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_38_KRATNBІJ">(n \geqslant 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_39_KRATNBІJ">x=\left(x^{\prime}, x^{\prime \prime}\right) \in R^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_40_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_41_KRATNBІJ">r^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_42_KRATNBІJ">e\left(x_{0}^{\prime}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_43_KRATNBІJ">=e \cap\left\{x^{\prime}=x_{0}^{\prime}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_44_KRATNBІJ">e \quad(n-m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_45_KRATNBІJ">x^{\prime}=x_{0}^{\prime}, E_{x^{\prime \prime}}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_46_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_47_KRATNBІJ">r^{m}=\left\{x: x^{\prime \prime}=0\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_48_KRATNBІJ">e\left(x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_49_KRATNBІJ">e_{x^{\prime \prime}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_50_KRATNBІJ">(n-m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_51_KRATNBІJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_52_KRATNBІJ">t \boldsymbol{R}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_53_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_54_KRATNBІJ">x^{\prime} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_55_KRATNBІJ">(n-m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_56_KRATNBІJ">\mathscr{e}\left(x^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_57_KRATNBІJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_58_KRATNBІJ">n=3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_59_KRATNBІJ">e \subset R_{x y z}^{3}, E_{x y}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_60_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_61_KRATNBІJ">x O y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_62_KRATNBІJ">\varphi(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_63_KRATNBІJ">\psi(x, y),(x, y) \in E_{x y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_64_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_65_KRATNBІJ">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_66_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_67_KRATNBІJ">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_68_KRATNBІJ">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_69_KRATNBІJ">e(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_70_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_71_KRATNBІJ">y O z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_72_KRATNBІJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_73_KRATNBІJ">\iiint_{e} f(x, y, z) d x d y d z=\int_{a}^{b} d x \iint_{E(x)} f(x, y, z) d y d z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_74_KRATNBІJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_75_KRATNBІJ">r_{t}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_76_KRATNBІJ">x=\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_77_KRATNBІJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_78_KRATNBІJ">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_79_KRATNBІJ">r_{x}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_80_KRATNBІJ">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_81_KRATNBІJ">\bar{g}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_82_KRATNBІJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_83_KRATNBІJ">\gamma=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_84_KRATNBІJ">=\varphi(g)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_85_KRATNBІJ">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_86_KRATNBІJ">j(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_87_KRATNBІJ">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_88_KRATNBІJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_89_KRATNBІJ">(n+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_90_KRATNBІJ">\mu_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_91_KRATNBІJ">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_92_KRATNBІJ">e \subset R_{x}^{n}, f(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_93_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_94_KRATNBІJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_95_KRATNBІJ">\mu_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_96_KRATNBІJ">(n+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_97_KRATNBІJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_98_KRATNBІJ">x \times Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_99_KRATNBІJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_100_KRATNBІJ">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_101_KRATNBІJ">\mu_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_102_KRATNBІJ">\mu_{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_103_KRATNBІJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_104_KRATNBІJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_105_KRATNBІJ">\mu_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_106_KRATNBІJ">\mu_{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_107_KRATNBІJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_108_KRATNBІJ">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_109_KRATNBІJ">f(e)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_110_KRATNBІJ">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_111_KRATNBІJ">\left\|u_{m, n}, \ldots, p\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_112_KRATNBІJ">s \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_113_KRATNBІJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/85_114_KRATNBІJ">n, \ldots, p</formula>
+  </formulas_aux>
+  <relations n="11">
+    <relation uri="http://libmeta.ru/me/relation/85_1_KRATNBІJ">
+      <rel_text>Несобственный интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/990_NESOBSTVENNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_2_KRATNBІJ">
+      <rel_text>Фубини теорема</rel_text>
+      <target>http://libmeta.ru/me/article/776_FUBINI'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_3_KRATNBІJ">
+      <rel_text>Римана интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/1099_RIMANA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_4_KRATNBІJ">
+      <rel_text>Абсолютно сходящийся ряд</rel_text>
+      <target>http://libmeta.ru/me/article/28_ABSOLjutNo</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_5_KRATNBІJ">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_6_KRATNBІJ">
+      <rel_text>Теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_7_KRATNBІJ">
+      <rel_text>математического</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_8_KRATNBІJ">
+      <rel_text>математического</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_9_KRATNBІJ">
+      <rel_text>Функционального анализа</rel_text>
+      <target>http://libmeta.ru/me/article/804_FUNKІIONAL'NBІI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_10_KRATNBІJ">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/85_11_KRATNBІJ">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>определенный интеграл от функции нескольких переменных. Имеются различные понятия К. и. (интеграл Римана, интеграл Лебега, интеграл Лебега - Стилтьеса и др.).
+
+Кратный интеграл Римана вводится на основе Жо ордана меры $URI[[http://libmeta.ru/me/formula/aux/85_1_KRATNBІJ]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/85_2_KRATNBІJ]]/URI$ - измеримое по Жордану множество $URI[[http://libmeta.ru/me/formula/aux/85_3_KRATNBІJ]]/URI$-мерного евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/85_4_KRATNBІJ]]/URI$ есть. $URI[[http://libmeta.ru/me/formula/aux/85_5_KRATNBІJ]]/URI$-мерная мера Жордана и $URI[[http://libmeta.ru/me/formula/aux/85_6_KRATNBІJ]]/URI$ разбиение множества $URI[[http://libmeta.ru/me/formula/aux/85_7_KRATNBІJ]]/URI$, т. е. такая система измеримых по Жордану множеств $URI[[http://libmeta.ru/me/formula/aux/85_8_KRATNBІJ]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/85_9_KRATNBІJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/85_10_KRATNBІJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/85_11_KRATNBІJ]]/URI$. Величину
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_1_KRATNBІJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/85_12_KRATNBІJ]]/URI$ - диаметр множества $URI[[http://libmeta.ru/me/formula/aux/85_13_KRATNBІJ]]/URI$, наз. м е л к о с т ь ю ра з б и е н и я $URI[[http://libmeta.ru/me/formula/aux/85_14_KRATNBІJ]]/URI$. Если функция $URI[[http://libmeta.ru/me/formula/aux/85_15_KRATNBІJ]]/URI$, определена на множестве $URI[[http://libmeta.ru/me/formula/aux/85_16_KRATNBІJ]]/URI$, то всякую сумму вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_2_KRATNBІJ]]/URI
+\]
+
+наз. инте г р а льной суммо й Римана $URI[[http://libmeta.ru/me/formula/aux/85_17_KRATNBІJ]]/URI$ н к ц и и $URI[[http://libmeta.ru/me/formula/aux/85_18_KRATNBІJ]]/URI$. Если для функции $URI[[http://libmeta.ru/me/formula/aux/85_19_KRATNBІJ]]/URI$ существует $URI[[http://libmeta.ru/me/formula/aux/85_20_KRATNBІJ]]/URI$, независящий от разбиения, то этот предел наз. $URI[[http://libmeta.ru/me/formula/aux/85_21_KRATNBІJ]]/URI$ а тным ин тег р лом Р иман а и обозначают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_3_KRATNBІJ]]/URI
+\]
+
+или
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_4_KRATNBІJ]]/URI
+\]
+
+Саму функцию $URI[[http://libmeta.ru/me/formula/aux/85_22_KRATNBІJ]]/URI$ наз. в этом случае и н т е г р и р у ем о й по Р и м а у, короче $URI[[http://libmeta.ru/me/formula/aux/85_23_KRATNBІJ]]/URI$ н т е г р и р у ем $URI[[http://libmeta.ru/me/formula/aux/85_24_KRATNBІJ]]/URI$ й.
+
+В случае $URI[[http://libmeta.ru/me/formula/aux/85_25_KRATNBІJ]]/URI$ в качестве множества $URI[[http://libmeta.ru/me/formula/aux/85_26_KRATNBІJ]]/URI$, по к-рому производится интегрирование, обычно берется отрезок, а в качестве его разбиений $URI[[http://libmeta.ru/me/formula/aux/85_27_KRATNBІJ]]/URI$ рассматриваются разбиения, состоящие также только из отрезков (см. URI[[http://libmeta.ru/me/relation/85_3_KRATNBІJ]]/URI). Таким образом, в этом случае как множество, по к-рому производится интегрирование, так и әлементы разбиения представляют собой измеримые по Жкордану множества весьма специального вида - отрезки. Поэтому не все свойства $URI[[http://libmeta.ru/me/formula/aux/85_28_KRATNBІJ]]/URI$-интегрируемых на отрезке функций справөдливы для функций $URI[[http://libmeta.ru/me/formula/aux/85_29_KRATNBІJ]]/URI$-интегрируемых на произвольных измеримых по Жордану множествах. Напр., из того, что любая функция, определенная на множестве жордановой меры нуль, $URI[[http://libmeta.ru/me/formula/aux/85_30_KRATNBІJ]]/URI$-интегрируема на нєм, следует, что $URI[[http://libmeta.ru/me/formula/aux/85_31_KRATNBІJ]]/URI$-интегрируемые функции могут быть неограниченными, это невозможно для $URI[[http://libmeta.ru/me/formula/aux/85_32_KRATNBІJ]]/URI$-интегрируемых функций на отрезках. Чтобы из $URI[[http://libmeta.ru/me/formula/aux/85_33_KRATNBІJ]]/URI$-интегрируемости функции на нек-ром множестве следовала ограниченность функіии, на рассматриваемое множество налагают дополнительные условия, напр. чтобы у него суцествовали сколь угодно мелкие разбиения, все элементы к-рых имеот положительную меру Жорцана. К таким множествам относятся все измеримые по Жордану открытые множества и их замыкания, в частности измеримые по Жордану области и их замыкания. Именно для таких множеств большей частью и используется кратный интеграл Рıмана.
+
+В случае $URI[[http://libmeta.ru/me/formula/aux/85_34_KRATNBІJ]]/URI$ К. и. наз. д в о й н ы м (т р о йн ы м). Поскольку кратный интеграл Римана можно брать только по множествам, измеримым по Жордану (в случае $URI[[http://libmeta.ru/me/formula/aux/85_35_KRATNBІJ]]/URI$ они наз. также к в а д р и р у е м ы м и, а при $URI[[http://libmeta.ru/me/formula/aux/85_36_KRATNBІJ]]/URI$ ку б и р уемы ми м ноже с т в ам и), то двойной (тройной) интеграл Римана рассматривают только на множествах (обычно областях или их замыкания х), гранццы к-рых имеют плоццади (об ьемы) в смысле Жордана, равные нулю.
+
+Интеграл Римана от ограниченных функций $URI[[http://libmeta.ru/me/formula/aux/85_37_KRATNBІJ]]/URI$ переменных $URI[[http://libmeta.ru/me/formula/aux/85_38_KRATNBІJ]]/URI$ обладает обычными свойствами интеграла (линейность, аддитивность относительно множеств, по к-рым производится интегрирование, сохранение при интегрировании нестрогих неравенств, интегрируемость произведения интегрируемых функций и 'с. П.).
+
+Кратный интеграл Римана может быть сведен к повторному интегралу. Пусть $URI[[http://libmeta.ru/me/formula/aux/85_39_KRATNBІJ]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_5_KRATNBІJ]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/85_6_KRATNBІJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/85_40_KRATNBІJ]]/URI$ - измеримое в $URI[[http://libmeta.ru/me/formula/aux/85_41_KRATNBІJ]]/URI$ по Жордану множество, $URI[[http://libmeta.ru/me/formula/aux/85_42_KRATNBІJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/85_43_KRATNBІJ]]/URI$ - сечение множества $URI[[http://libmeta.ru/me/formula/aux/85_44_KRATNBІJ]]/URI$-мерной гиперплоскостью $URI[[http://libmeta.ru/me/formula/aux/85_45_KRATNBІJ]]/URI$ проекция $URI[[http://libmeta.ru/me/formula/aux/85_46_KRATNBІJ]]/URI$ на гиперплоскость $URI[[http://libmeta.ru/me/formula/aux/85_47_KRATNBІJ]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/85_48_KRATNBІJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/85_49_KRATNBІJ]]/URI$ измеримы соответственно в смысле $URI[[http://libmeta.ru/me/formula/aux/85_50_KRATNBІJ]]/URI$-мерной и $URI[[http://libmeta.ru/me/formula/aux/85_51_KRATNBІJ]]/URI$-мерной меры Жордана. Тогда, если функция $URI[[http://libmeta.ru/me/formula/aux/85_52_KRATNBІJ]]/URI$-интегрируема на множестве $URI[[http://libmeta.ru/me/formula/aux/85_53_KRATNBІJ]]/URI$ и для всех $URI[[http://libmeta.ru/me/formula/aux/85_54_KRATNBІJ]]/URI$ существуют $URI[[http://libmeta.ru/me/formula/aux/85_55_KRATNBІJ]]/URI$-кратные интегралы от ее сужения на множестве $URI[[http://libmeta.ru/me/formula/aux/85_56_KRATNBІJ]]/URI$, то существует повторный пнтеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_7_KRATNBІJ]]/URI
+\]
+
+где внешний интег̈рал является $URI[[http://libmeta.ru/me/formula/aux/85_57_KRATNBІJ]]/URI$-кратным интегралом Римана, и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_8_KRATNBІJ]]/URI
+\]
+
+Для случая $URI[[http://libmeta.ru/me/formula/aux/85_58_KRATNBІJ]]/URI$ отсюда следуют формулы: 1) Если $URI[[http://libmeta.ru/me/formula/aux/85_59_KRATNBІJ]]/URI$ проекция $URI[[http://libmeta.ru/me/formula/aux/85_60_KRATNBІJ]]/URI$ на плоскость $URI[[http://libmeta.ru/me/formula/aux/85_61_KRATNBІJ]]/URI$, а функции $URI[[http://libmeta.ru/me/formula/aux/85_62_KRATNBІJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/85_63_KRATNBІJ]]/URI$, таковы, что множество $URI[[http://libmeta.ru/me/formula/aux/85_64_KRATNBІJ]]/URI$ ограничено в направлении оси $URI[[http://libmeta.ru/me/formula/aux/85_65_KRATNBІJ]]/URI$ их графиками, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_9_KRATNBІJ]]/URI
+\]
+
+To
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_10_KRATNBІJ]]/URI
+\]
+
+2) Пусть проекцией множества $URI[[http://libmeta.ru/me/formula/aux/85_66_KRATNBІJ]]/URI$ на ось $URI[[http://libmeta.ru/me/formula/aux/85_67_KRATNBІJ]]/URI$ является отрезок $URI[[http://libmeta.ru/me/formula/aux/85_68_KRATNBІJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/85_69_KRATNBІJ]]/URI$ - сечение множества $URI[[http://libmeta.ru/me/formula/aux/85_70_KRATNBІJ]]/URI$ плоскостью, параллельной плоскости $URI[[http://libmeta.ru/me/formula/aux/85_71_KRATNBІJ]]/URI$ и проходящей через точку $URI[[http://libmeta.ru/me/formula/aux/85_72_KRATNBІJ]]/URI$, тогда
+
+$URI[[http://libmeta.ru/me/formula/aux/85_73_KRATNBІJ]]/URI$.
+
+В случае, когда $URI[[http://libmeta.ru/me/formula/aux/85_74_KRATNBІJ]]/URI$ является измеримой по Жордану областью в пространстве $URI[[http://libmeta.ru/me/formula/aux/85_75_KRATNBІJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/85_76_KRATNBІJ]]/URI$ - взаимно одно- значное отображение $URI[[http://libmeta.ru/me/formula/aux/85_77_KRATNBІJ]]/URI$ на измеримую область $URI[[http://libmeta.ru/me/formula/aux/85_78_KRATNBІJ]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/85_79_KRATNBІJ]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/85_80_KRATNBІJ]]/URI$ непрерывно дифференцируемо на замыкании $URI[[http://libmeta.ru/me/formula/aux/85_81_KRATNBІJ]]/URI$ области $URI[[http://libmeta.ru/me/formula/aux/85_82_KRATNBІJ]]/URI$, для интегрируемой на $URI[[http://libmeta.ru/me/formula/aux/85_83_KRATNBІJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/85_84_KRATNBІJ]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/85_85_KRATNBІJ]]/URI$ справедлива формула замены переменного в интеграле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_11_KRATNBІJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/85_86_KRATNBІJ]]/URI$ - якобиан отображения $URI[[http://libmeta.ru/me/formula/aux/85_87_KRATNBІJ]]/URI$.
+
+Геометрический смысл кратного интеграла Римана от функции $URI[[http://libmeta.ru/me/formula/aux/85_88_KRATNBІJ]]/URI$ переменных связан с понятием $URI[[http://libmeta.ru/me/formula/aux/85_89_KRATNBІJ]]/URI$-мерной меры Жордана $URI[[http://libmeta.ru/me/formula/aux/85_90_KRATNBІJ]]/URI$ : если функция $URI[[http://libmeta.ru/me/formula/aux/85_91_KRATNBІJ]]/URI$ интегрируема на множестве $URI[[http://libmeta.ru/me/formula/aux/85_92_KRATNBІJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/85_93_KRATNBІJ]]/URI$ и
+
+то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_12_KRATNBІJ]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_13_KRATNBІJ]]/URI
+\]
+
+К р а тным интегралом Л е бе га наз. Лебега интеграл от функций многих переменных, его определение базируется на понятии Лебега меры в $URI[[http://libmeta.ru/me/formula/aux/85_94_KRATNBІJ]]/URI$-мерном евклидовом пространстве. Кратный интеграл Лебега может быть сведен к повторному интегралу (см. URI[[http://libmeta.ru/me/relation/85_2_KRATNBІJ]]/URI). Для непрерывно диффференцируемых взаимно однозначных отображений областей справедлива формула замены переменного (1), а также формула (2), выражающая геометрич. смысл кратного интеграла Лебега, в к-рой под мерой $URI[[http://libmeta.ru/me/formula/aux/85_95_KRATNBІJ]]/URI$ следует понимать $URI[[http://libmeta.ru/me/formula/aux/85_96_KRATNBІJ]]/URI$-мерную меру Лебега.
+
+Понятие К. и. переносится на функции, интегрируемые по множеству $URI[[http://libmeta.ru/me/formula/aux/85_97_KRATNBІJ]]/URI$, принадлежащему произведению $URI[[http://libmeta.ru/me/formula/aux/85_98_KRATNBІJ]]/URI$ пространств $URI[[http://libmeta.ru/me/formula/aux/85_99_KRATNBІJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/85_100_KRATNBІJ]]/URI$, в каждом из к-рых заданы б-конечные полные неотрицательные меры, соответственно $URI[[http://libmeta.ru/me/formula/aux/85_101_KRATNBІJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/85_102_KRATNBІJ]]/URI$, при әтом интегрирование по множеству $URI[[http://libmeta.ru/me/formula/aux/85_103_KRATNBІJ]]/URI$ производится по мере $URI[[http://libmeta.ru/me/formula/aux/85_104_KRATNBІJ]]/URI$, являющейся произведением мер $URI[[http://libmeta.ru/me/formula/aux/85_105_KRATNBІJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/85_106_KRATNBІJ]]/URI$.
+
+Для функций многих переменных существует также понятие несобственного К. и. (см. URI[[http://libmeta.ru/me/relation/85_1_KRATNBІJ]]/URI). Понятие К. и. применяется также к неопределенным интегралам функций мшогих переменных. Под неопределенным К. и. понимают функцию множества
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_14_KRATNBІJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/85_107_KRATNBІJ]]/URI$ - измеримое множество. Если, напр., $URI[[http://libmeta.ru/me/formula/aux/85_108_KRATNBІJ]]/URI$ интегрируема по Лебегу на нек-ром множестве, то ее неопределенный интеграл $URI[[http://libmeta.ru/me/formula/aux/85_109_KRATNBІJ]]/URI$ почти всюду на этом множестве имеет функцию $URI[[http://libmeta.ru/me/formula/aux/85_110_KRATNBІJ]]/URI$ своей симметричной производной. В этом смысле (аналогично случаю функций одной переменной) взятие неопределенного К. и. является операцией, обратной к операции дифференцирования функции множества.
+
+Лum.: [1] И ль и н В. А., П о зн я к Э. Г., Основы математического анализа, 2 изд., ч. 2, М., 1980 ; [2] К о л м о г ор о в А. Н., Ф о м и н С. В., Элементы URI[[http://libmeta.ru/me/relation/85_11_KRATNBІJ]]/URI URI[[http://libmeta.ru/me/relation/85_10_KRATNBІJ]]/URI и URI[[http://libmeta.ru/me/relation/85_9_KRATNBІJ]]/URI, 5 изд., М., 1981: [3] Н и к о Јй-
+с к и й С. М., Курс URI[[http://libmeta.ru/me/relation/85_8_KRATNBІJ]]/URI анализа, 2 изд., т. 2, М., 1975. С. М., Курс URI[[http://libmeta.ru/me/relation/85_7_KRATNBІJ]]/URI анализа, Л. Д. К̈удрявцев.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0102621d56d5f417bd2dg-1.jpg?height=40&amp;width=794&amp;top_left_y=1848&amp;top_left_x=156)
+вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/85_15_KRATNBІJ]]/URI
+\]
+
+составленное из членов таблицы $URI[[http://libmeta.ru/me/formula/aux/85_111_KRATNBІJ]]/URI$. Каждый член этой таблицы занумерован $URI[[http://libmeta.ru/me/formula/aux/85_112_KRATNBІJ]]/URI$ индексами $URI[[http://libmeta.ru/me/formula/aux/85_113_KRATNBІJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/85_114_KRATNBІJ]]/URI$, к-рые пробегают независимо друг от друга все натуральные числа. URI[[http://libmeta.ru/me/relation/85_6_KRATNBІJ]]/URI К. р. аналогична URI[[http://libmeta.ru/me/relation/85_5_KRATNBІJ]]/URI двойных рядов. См. также URI[[http://libmeta.ru/me/relation/85_4_KRATNBІJ]]/URI.</text>
+  <text_orig>определенный интеграл от функции нескольких переменных. Имеются различные понятия К. и. (интеграл Римана, интеграл Лебега, интеграл Лебега - Стилтьеса и др.).
+
+Кратный интеграл Римана вводится на основе Жо ордана меры $\mu$. Пусть $E$ - измеримое по Жордану множество $n$-мерного евклидова пространства $\mathbb{R} n, \mu_{n}$ есть. $n$-мерная мера Жордана и $\tau=\left\{E_{i}\right\}_{i=1}^{k}-$ разбиение множества $E$, т. е. такая система измеримых по Жордану множеств $E_{i}$, что $\bigcup_{i=1}^{k} E_{i}=E \quad$ и $\mu_{n}\left(E_{i} \cap E_{j}\right)=0, \quad i \neq j$ $i, j=1,2, \cdots, n$. Величину
+
+\[
+\delta_{\tau}=\max _{i=1,2, \ldots, k} d\left(E_{i}\right),
+\]
+
+где $d\left(E_{i}\right)$ - диаметр множества $E_{i}$, наз. м е л к о с т ь ю ра з б и е н и я $\tau$. Если функция $f(x), x=\left(x_{1}, \ldots, x_{n}\right)$, определена на множестве $E$, то всякую сумму вида
+
+\[
+\begin{gathered}
+\sigma_{\tau}=\sigma_{\tau}\left(f ; \xi^{(1)}, \ldots, \xi^{(k)}\right)=\sum_{i=1}^{k} f\left(\xi^{(i)}\right) \mu_{n} E_{i}, \\
+\xi^{(i)} \in E_{i} \in \tau,
+\end{gathered}
+\]
+
+наз. инте г р а льной суммо й Римана $ф \mathbf{у}$ н к ц и и $f$. Если для функции $f$ существует $\lim _{\boldsymbol{\delta} \rightarrow 0} \boldsymbol{\sigma}_{\tau}$, независящий от разбиения, то этот предел наз. $n-\kappa \mathrm{p}$ а тным ин тег р лом Р иман а и обозначают
+
+\[
+\int_{E} f(x) d x
+\]
+
+или
+
+\[
+\iint \cdots \int_{E} f\left(x_{1}, x_{2}, \ldots, x_{n}\right) d x_{1} d x_{2} \ldots d x_{n} .
+\]
+
+Саму функцию $f$ наз. в этом случае и н т е г р и р у ем о й по Р и м а у, короче $-R-и$ н т е г р и р у еМ $о$ й.
+
+В случае $n=1$ в качестве множества $E$, по к-рому производится интегрирование, обычно берется отрезок, а в качестве его разбиений $\tau$ рассматриваются разбиения, состоящие также только из отрезков (см. Римана интеграл). Таким образом, в этом случае как множество, по к-рому производится интегрирование, так и әлементы разбиения представляют собой измеримые по ЖКордану множества весьма специального вида - отрезки. Поэтому не все свойства $R$-интегрируемых на отрезке функций справөдливы для функций $R$-интегрируемых на произвольных измеримых по Жордану множествах. Напр., из того, что любая функция, определенная на множестве жордановой меры нуль, $R$-интегрируема на нєм, следует, что $R$-интегрируемые функции могут быть неограниченными, это невозможно для $R$-интегрируемых функций на отрезках. Чтобы из $\boldsymbol{R}$-интегрируемости функции на нек-ром множестве следовала ограниченность функіии, на рассматриваемое множество налагают дополнительные условия, напр. чтобы у него суцествовали сколь угодно мелкие разбиения, все элементы к-рых имеот положительную меру Жорцана. К таким множествам относятся все измеримые по Жордану открытые множества и их замыкания, в частности измеримые по Жордану области и их замыкания. Именно для таких множеств большей частью и используется кратный интеграл Рıмана.
+
+В случае $n=2(n=3)$ К. и. наз. д в о й н ы м (т р о йн ы м). Поскольку кратный интеграл Римана можно брать только по множествам, измеримым по Жордану (в случае $n=2$ они наз. также к в а д р и р у е м ы м и, а при $n=3-$ ку б и р уемы ми м ноже с т в ам и), то двойной (тройной) интеграл Римана рассматривают только на множествах (обычно областях или их замыкания х), гранццы к-рых имеют плоццади (об ьемы) в смысле Жордана, равные нулю.
+
+Интеграл Римана от ограниченных функций $n$ переменных $(n \geqslant 1)$ обладает обычными свойствами интеграла (линейность, аддитивность относительно множеств, по к-рым производится интегрирование, сохранение при интегрировании нестрогих неравенств, интегрируемость произведения интегрируемых функций и 'с. П.).
+
+Кратный интеграл Римана может быть сведен к повторному интегралу. Пусть $x=\left(x^{\prime}, x^{\prime \prime}\right) \in R^{n}$,
+
+\[
+x^{\prime}=\left(x_{1}, \ldots, x_{n}\right) \in R^{m},
+\]\[
+x^{\prime \prime}=\left(x_{m+1}, \ldots, x_{n}\right) \in R^{n-m}, E \subset R^{n},
+\]
+
+$E$ - измеримое в $R^{n}$ по Жордану множество, $E\left(x_{0}^{\prime}\right)=$ $=E \cap\left\{x^{\prime}=x_{0}^{\prime}\right\}$ - сечение множества $E \quad(n-m)$-мерной гиперплоскостью $x^{\prime}=x_{0}^{\prime}, E_{x^{\prime \prime}}-$ проекция $E$ на гиперплоскость $R^{m}=\left\{x: x^{\prime \prime}=0\right\}$, причем $E\left(x^{\prime}\right)$ и $E_{x^{\prime \prime}}$ измеримы соответственно в смысле $(n-m)$-мерной и $m$-мерной меры Жордана. Тогда, если функция $t \boldsymbol{R}$-интегрируема на множестве $E$ и для всех $x^{\prime} \in E$ существуют $(n-m)$-кратные интегралы от ее сужения на множестве $\mathscr{E}\left(x^{\prime}\right)$, то существует повторный пнтеграл
+
+\[
+\int_{E_{x^{\prime \prime}}} d x \int_{E\left(x^{\prime}\right)} f\left(x^{\prime}, x^{\prime \prime}\right) d x^{\prime \prime}
+\]
+
+где внешний интег̈рал является $m$-кратным интегралом Римана, и
+
+\[
+\begin{gathered}
+\int_{E} f(x) d x=\iint_{E} f\left(x^{\prime}, x^{\prime \prime}\right) d x^{\prime} d x^{\prime \prime}= \\
+=\int_{E_{x^{\prime \prime}}} d x^{\prime} \int_{E\left(x^{\prime}\right)} f\left(x^{\prime}, x^{\prime \prime}\right) d x^{\prime \prime} .
+\end{gathered}
+\]
+
+Для случая $n=3$ отсюда следуют формулы: 1) Если $E \subset R_{x y z}^{3}, E_{x y}-$ проекция $E$ на плоскость $x O y$, а функции $\varphi(x, y)$ и $\psi(x, y),(x, y) \in E_{x y}$, таковы, что множество $E$ ограничено в направлении оси $z$ их графиками, т. е.
+
+\[
+E=\left\{(x, y, z):(x, y) \in E_{x y}, \quad \varphi(x, y) \leqslant z \leqslant \psi(x, y)\right\}
+\]
+
+To
+
+\[
+\begin{aligned}
+&amp; \iiint_{E} f(x, y, z) d x d y d z= \\
+= &amp; \int_{E_{x y}} d x d y \int_{\varphi(x, y)}^{\Psi(x, y)} f(x, y, z) d z .
+\end{aligned}
+\]
+
+2) Пусть проекцией множества $E$ на ось $O x$ является отрезок $[a, b]$, а $E(x)$ - сечение множества $E$ плоскостью, параллельной плоскости $y O z$ и проходящей через точку $x$, тогда
+
+$\iiint_{E} f(x, y, z) d x d y d z=\int_{a}^{b} d x \iint_{E(x)} f(x, y, z) d y d z$.
+
+В случае, когда $G$ является измеримой по Жордану областью в пространстве $R_{t}^{n}$, а $x=\varphi(t)$ - взаимно одно- значное отображение $G$ на измеримую область $\Gamma$ пространства $R_{x}^{n}$, причем $\varphi$ непрерывно дифференцируемо на замыкании $\bar{G}$ области $G$, для интегрируемой на $\Gamma=$ $=\varphi(G)$ функции $f(x)$ справедлива формула замены переменного в интеграле
+
+\[
+\int_{\varphi(G)} f(x) d x=\int_{G} f(x(t))|J(t)| d t,
+\]
+
+где $J(t)$ - якобиан отображения $\varphi$.
+
+Геометрический смысл кратного интеграла Римана от функции $n$ переменных связан с понятием $(n+1)$-мерной меры Жордана $\mu_{n+1}$ : если функция $f(x)$ интегрируема на множестве $E \subset R_{x}^{n}, f(x) \geqslant 0$ на $E$ и
+
+то
+
+\[
+A=\{(x, y): x \in E, \quad 0 \leqslant y \leqslant f(x)\} \subset R_{x y}^{n+1},
+\]
+
+\[
+\int_{E} f(x) d x=\mu_{n+1} A .
+\]
+
+К р а тным интегралом Л е бе га наз. Лебега интеграл от функций многих переменных, его определение базируется на понятии Лебега меры в $n$-мерном евклидовом пространстве. Кратный интеграл Лебега может быть сведен к повторному интегралу (см. Фубини теорема). Для непрерывно диффференцируемых взаимно однозначных отображений областей справедлива формула замены переменного (1), а также формула (2), выражающая геометрич. смысл кратного интеграла Лебега, в к-рой под мерой $\mu_{n+1}$ следует понимать $(n+1)$-мерную меру Лебега.
+
+Понятие К. и. переносится на функции, интегрируемые по множеству $A$, принадлежащему произведению $X \times Y$ пространств $X$ и $Y$, в каждом из к-рых заданы б-конечные полные неотрицательные меры, соответственно $\mu_{x}$ и $\mu_{y}$, при әтом интегрирование по множеству $A$ производится по мере $\mu$, являющейся произведением мер $\mu_{x}$ и $\mu_{y}$.
+
+Для функций многих переменных существует также понятие несобственного К. и. (см. Несобственный интеграл). Понятие К. и. применяется также к неопределенным интегралам функций мшогих переменных. Под неопределенным К. и. понимают функцию множества
+
+\[
+F(E)=\int_{E} f(x) d x,
+\]
+
+где $E$ - измеримое множество. Если, напр., $f(x)$ интегрируема по Лебегу на нек-ром множестве, то ее неопределенный интеграл $F(E)$ почти всюду на этом множестве имеет функцию $f(x)$ своей симметричной производной. В этом смысле (аналогично случаю функций одной переменной) взятие неопределенного К. и. является операцией, обратной к операции дифференцирования функции множества.
+
+Лum.: [1] И ль и н В. А., П о зн я к Э. Г., Основы математического анализа, 2 изд., ч. 2, М., 1980 ; [2] К о л м о г ор о в А. Н., Ф о м и н С. В., Элементы теории функций и Функционального анализа, 5 изд., М., 1981: [3] Н и к о Јй-
+с к и й С. М., Курс математического анализа, 2 изд., т. 2, М., 1975. С. М., Курс математического анализа, Л. Д. К̈удрявцев.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0102621d56d5f417bd2dg-1.jpg?height=40&amp;width=794&amp;top_left_y=1848&amp;top_left_x=156)
+вида
+
+\[
+\sum_{m, n, \ldots, p=1}^{\infty} u_{m, n, \ldots, p}
+\]
+
+составленное из членов таблицы $\left\|u_{m, n}, \ldots, p\right\|$. Каждый член этой таблицы занумерован $s \geqslant 2$ индексами $m$, $n, \ldots, p$, к-рые пробегают независимо друг от друга все натуральные числа. Теория К. р. аналогична теории двойных рядов. См. также Абсолютно сходящийся ряд.
+
+Лит.: [1] Ф и х т е н г о л ь ц Г. М., Курс дифференциального и интегрального исчисления, 4 изд., т. 2, М., 1959.</text_orig>
+</article>

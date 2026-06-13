@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/505_BLUNKDAІІEE" alphabetic_pos="505">
+  <title>БЛУНКДАІІЕЕ МНОНКЕСТВО</title>
+  <authors/>
+  <pages>
+    <start>255</start>
+    <end>255</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б и р к г оф Д ж. Д., Динамические системы,пер. с англ., М.- Ј., $1941 ;$ [2] Н е м ы ц и й В. В., С т е пер. с англ., М. - Л., 1941; [2] Н е м ыц к и й В. В., С т е-п а н о в В. В., Качественная теория дифференциальных уравнений, 2 изд., М.- J., 1949; [3] С и б и р с к и й К. С., Введение в топосогическую динамику, Кишинев, 1970.![](https://cdn.mathpix.com/cropped/2023_07_08_627b9605bb4838d8715fg-1.jpg?height=42&amp;width=776&amp;top_left_y=1533&amp;top_left_x=164)мых методов численного решения задач оптимального управления с ограничениями на фазовые координаты и управляющце функции. В Б. т. м. исходная задача оптпмального управления в результате дискретизации (по времени $t$ и фазовому вектору $x$ ) и при помощи операщии, исключающей управление, сводится к минимизации функщии вида\[I\left(x_{0}, \ldots, x_{N}\right)=\sum_{i=0}^{N-1} \varphi_{i}\left(x_{i}, x_{i+1}\right),\]где $x_{i}$ - значение вектора $x$ в узловых точках гиперплоскостей, заданных в пространстве $(t, x)$ уравнениями $t=t_{i}$. Дискретизация по $t$ и $x$ производится с заданными шагами $\delta t$ и $\delta x$. Каждой совокупности векторов $\left\{x_{0}, x_{1}, \ldots, x_{N}\right\}$ соответствует ломаная, проходящая через узлы и приближенно представляющая траекторию $x(t)$ исходной задачи оптимального управления. Длина $i\left(x_{0}, \ldots ., x_{N}\right)$ этой ломаной складывается из длин $\varphi_{i}\left(x_{i}, x_{i+1}\right)$ отдельных звеньев. Ломаная наименьшей длины находится с помощью рекуррентного соотношения\[l_{s}(i+1)=\min _{k}\left(l_{k}(i)+l_{k s}(i)\right)\](см. Вариационное исчисление; численные методы).Поиск глобального минимума на всем полученном графе требует большой оперативной памяти и значи- тельных затрат машинного времени Эвм (особенно при дроблении $\delta x$ и $\delta t$ для получения заданной точности решения)В Б. т. м. ценой отказа от решения задачі отыскания глобального минимума удается резко сократить требуемую память и число операций. В этом алгоритме (имеющем характер последовательных приближений) поиск наилучшей траектории производится не на всем графе, а на подграфе, задаваемом «трубкой», содержащей исходную ломаную - начальное приближение. В каждом сечении трубки содержится заданное количество узлов. Найденная ломаная выбирается за очередное приближение, после чего процесс вычислений повторяется на новом подграфе.Оценки показывают, что в Б. т. м. число операций растет линейно с увеличением числа узлов сетки по $x$ (с уменышением шага $\lambda x$ ), тогда как в методе глобального перебора этот рост квадратичен.Частным случаем Б.т.м. является локальных вариаций метод, в к-ром число узлов в каждом сечении трубки минимально и равно двум.Jiит.: [1] M о и с е е в Н. Н., Элементы теории</literature_orig>
+    <unit>
+      <author>Биркгоф Дж. Д.</author>
+      <title>Динамические системы</title>
+      <publication>пер. с англ., М.- Ј.</publication>
+      <year>1941</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Немыций В. В.</author>
+      <title>С т е пер. с англ., М. - Л.</title>
+      <publication/>
+      <year>1941</year>
+      <other>С т е-п а н о в В. В., Качественная теория дифференциальных уравнений, 2 изд., М.- J., 1949</other>
+    </unit>
+    <unit>
+      <author>Сибирский К. С.</author>
+      <title>Введение в топосогическую динамику, Кишинев</title>
+      <publication/>
+      <year>1970</year>
+      <other>исключающей управление, сводится к минимизации функщии вида\[I\left(x_{0}, \ldots, x_{N}\right)=\sum_{i=0}^{N-1} \varphi_{i}\left(x_{i}, x_{i+1}\right), \]где $x_{i}$ - значение вектора $x$ в узловых точках гиперплоскостей, заданных в пространстве $(t, x)$ уравнениями $t=t_{i}$. Дискретизация по $t$ и $x$ производится с заданными шагами $\delta t$ и $\delta x$. Каждой совокупности векторов $\left\{x_{0}, x_{1}, \ldots, x_{N}\right\}$ соответствует ломаная, проходящая через узлы и приближенно представляющая траекторию $x(t)$ исходной задачи оптимального управления. Длина $i\left(x_{0}, \ldots ., x_{N}\right)$ этой ломаной складывается из длин $\varphi_{i}\left(x_{i}, x_{i+1}\right)$ отдельных звеньев. Ломаная наименьшей длины находится с помощью рекуррентного соотношения\[l_{s}(i+1)=\min _{k}\left(l_{k}(i)+l_{k s}(i)\right)\](см. Вариационное исчисление; численные методы).Поиск глобального минимума на всем полученном графе требует большой оперативной памяти и значи- тельных затрат машинного времени Эвм (особенно при дроблении $\delta x$ и $\delta t$ для получения заданной точности решения)В Б. т. м. ценой отказа от решения задачі отыскания глобального минимума удается резко сократить требуемую память и число операций. В этом алгоритме (имеющем характер последовательных приближений) поиск наилучшей траектории производится не на всем графе, а на подграфе, задаваемом «трубкой», содержащей исходную ломаную - начальное приближение. В каждом сечении трубки содержится заданное количество узлов. Найденная ломаная выбирается за очередное приближение, после чего процесс вычислений повторяется на новом подграфе.Оценки показывают, что в Б. т. м. число операций растет линейно с увеличением числа узлов сетки по $x$ (с уменышением шага $\lambda x$ ), тогда как в методе глобального перебора этот рост квадратичен.Частным случаем Б.т.м. является локальных вариаций метод, в к-ром число узлов в каждом сечении трубки минимально и равно двум.Jiит.: [1] M о и с е е в Н. Н., Элементы теории</other>
+    </unit>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_1_BLUNKDAІІEE">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_2_BLUNKDAІІEE">f(p, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_3_BLUNKDAІІEE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_4_BLUNKDAІІEE">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_5_BLUNKDAІІEE">u(q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_6_BLUNKDAІІEE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_7_BLUNKDAІІEE">m=r) W</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_8_BLUNKDAІІEE">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_9_BLUNKDAІІEE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_10_BLUNKDAІІEE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_11_BLUNKDAІІEE">f(q, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_12_BLUNKDAІІEE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_13_BLUNKDAІІEE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_14_BLUNKDAІІEE">f(q, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_15_BLUNKDAІІEE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_16_BLUNKDAІІEE">t \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/505_17_BLUNKDAІІEE">t \rightarrow-\infty</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/me/relation/505_1_BLUNKDAІІEE">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_2_BLUNKDAІІEE">
+      <rel_text>компактном</rel_text>
+      <target>http://libmeta.ru/me/article/1022_KOMPOZitsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_3_BLUNKDAІІEE">
+      <rel_text>Множества</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_4_BLUNKDAІІEE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_5_BLUNKDAІІEE">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_6_BLUNKDAІІEE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_7_BLUNKDAІІEE">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_8_BLUNKDAІІEE">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/me/article/175_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/505_9_BLUNKDAІІEE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+  </relations>
+  <text>URI[[http://libmeta.ru/me/relation/505_9_BLUNKDAІІEE]]/URI $URI[[http://libmeta.ru/me/formula/aux/505_1_BLUNKDAІІEE]]/URI$ всех блуждающциx точек нек-рой URI[[http://libmeta.ru/me/relation/505_8_BLUNKDAІІEE]]/URI. URI[[http://libmeta.ru/me/relation/505_7_BLUNKDAІІEE]]/URI $URI[[http://libmeta.ru/me/formula/aux/505_2_BLUNKDAІІEE]]/URI$. Так как вместе с каждой точкой $URI[[http://libmeta.ru/me/formula/aux/505_3_BLUNKDAІІEE]]/URI$ URI[[http://libmeta.ru/me/relation/505_6_BLUNKDAІІEE]]/URI $URI[[http://libmeta.ru/me/formula/aux/505_4_BLUNKDAІІEE]]/URI$ содержит все точки окрестности $URI[[http://libmeta.ru/me/formula/aux/505_5_BLUNKDAІІEE]]/URI$, оно открыто в URI[[http://libmeta.ru/me/relation/505_5_BLUNKDAІІEE]]/URI $URI[[http://libmeta.ru/me/formula/aux/505_6_BLUNKDAІІEE]]/URI$. В связи с этим URI[[http://libmeta.ru/me/relation/505_4_BLUNKDAІІEE]]/URI $URI[[http://libmeta.ru/me/formula/aux/505_7_BLUNKDAІІEE]]/URI$ всех неблуждающих точек замкнуто. URI[[http://libmeta.ru/me/relation/505_3_BLUNKDAІІEE]]/URI $URI[[http://libmeta.ru/me/formula/aux/505_8_BLUNKDAІІEE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/505_9_BLUNKDAІІEE]]/URI$ и н в р и а н т ни, т. е. вместе с каждой своей точкой $URI[[http://libmeta.ru/me/formula/aux/505_10_BLUNKDAІІEE]]/URI$ они содержат точку $URI[[http://libmeta.ru/me/formula/aux/505_11_BLUNKDAІІEE]]/URI$ при любом $URI[[http://libmeta.ru/me/formula/aux/505_12_BLUNKDAІІEE]]/URI$. В URI[[http://libmeta.ru/me/relation/505_2_BLUNKDAІІEE]]/URI URI[[http://libmeta.ru/me/relation/505_1_BLUNKDAІІEE]]/URI $URI[[http://libmeta.ru/me/formula/aux/505_13_BLUNKDAІІEE]]/URI$ всякая блуждающая точка $URI[[http://libmeta.ru/me/formula/aux/505_14_BLUNKDAІІEE]]/URI$ стремится к $URI[[http://libmeta.ru/me/formula/aux/505_15_BLUNKDAІІEE]]/URI$, как при $URI[[http://libmeta.ru/me/formula/aux/505_16_BLUNKDAІІEE]]/URI$, так и при $URI[[http://libmeta.ru/me/formula/aux/505_17_BLUNKDAІІEE]]/URI$.</text>
+  <text_orig>множество $W$ всех блуждающциx точек нек-рой динамич. системы $f(p, t)$. Так как вместе с каждой точкой $q$ множество $W$ содержит все точки окрестности $U(q)$, оно открыто в пространстве $R$. В связи с этим множество $M=R) W$ всех неблуждающих точек замкнуто. Множества $W$ и $M$ и н в р и а н т ни, т. е. вместе с каждой своей точкой $q$ они содержат точку $f(q, t)$ при любом $t$. В компактном пространстве $R$ всякая блуждающая точка $f(q, t)$ стремится к $M$, как при $t \rightarrow+\infty$, так и при $t \rightarrow-\infty$. Лит.: [1] Б и р к г оф Д ж. Д., Динамические системы,
+пер. с англ., М.- Ј., $1941 ;$ [2] Н е м ы ц и й В. В., С т е пер. с англ., М. - Л., 1941; [2] Н е м ыц к и й В. В., С т е-
+п а н о в В. В., Качественная теория дифференциальных уравнений, 2 изд., М.- J., 1949; [3] С и б и р с к и й К. С., Введение в топосогическую динамику, Кишинев, 1970.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_627b9605bb4838d8715fg-1.jpg?height=42&amp;width=776&amp;top_left_y=1533&amp;top_left_x=164)
+мых методов численного решения задач оптимального управления с ограничениями на фазовые координаты и управляющце функции. В Б. т. м. исходная задача оптпмального управления в результате дискретизации (по времени $T$ и фазовому вектору $x$ ) и при помощи операщии, исключающей управление, сводится к минимизации функщии вида
+
+\[
+I\left(x_{0}, \ldots, x_{N}\right)=\sum_{i=0}^{N-1} \varphi_{i}\left(x_{i}, x_{i+1}\right),
+\]
+
+где $x_{i}$ - значение вектора $x$ в узловых точках гиперплоскостей, заданных в пространстве $(t, x)$ уравнениями $t=t_{i}$. Дискретизация по $t$ и $x$ производится с заданными шагами $\Delta t$ и $\Delta x$. Каждой совокупности векторов $\left\{x_{0}, x_{1}, \ldots, x_{N}\right\}$ соответствует ломаная, проходящая через узлы и приближенно представляющая траекторию $x(t)$ исходной задачи оптимального управления. Длина $I\left(x_{0}, \ldots ., x_{N}\right)$ этой ломаной складывается из длин $\varphi_{i}\left(x_{i}, x_{i+1}\right)$ отдельных звеньев. Ломаная наименьшей длины находится с помощью рекуррентного соотношения
+
+\[
+l_{s}(i+1)=\min _{k}\left(l_{k}(i)+l_{k s}(i)\right)
+\]
+
+(см. Вариационное исчисление; численные методы).
+
+Поиск глобального минимума на всем полученном графе требует большой оперативной памяти и значи- тельных затрат машинного времени ЭВМ (особенно при дроблении $\Delta x$ и $\Delta t$ для получения заданной точности решения)
+
+В Б. т. м. ценой отказа от решения задачі отыскания глобального минимума удается резко сократить требуемую память и число операций. В этом алгоритме (имеющем характер последовательных приближений) поиск наилучшей траектории производится не на всем графе, а на подграфе, задаваемом «трубкой», содержащей исходную ломаную - начальное приближение. В каждом сечении трубки содержится заданное количество узлов. Найденная ломаная выбирается за очередное приближение, после чего процесс вычислений повторяется на новом подграфе.
+
+Оценки показывают, что в Б. т. м. число операций растет линейно с увеличением числа узлов сетки по $x$ (с уменышением шага $\Lambda x$ ), тогда как в методе глобального перебора этот рост квадратичен.
+
+Частным случаем Б.т.м. является локальных вариаций метод, в к-ром число узлов в каждом сечении трубки минимально и равно двум.
+
+JIит.: [1] M о и с е е в Н. Н., Элементы теории</text_orig>
+</article>

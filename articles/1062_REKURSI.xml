@@ -1,0 +1,597 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1062_REKURSI" alphabetic_pos="1062">
+  <title>РЕКУРСИЯ</title>
+  <authors/>
+  <pages>
+    <start>482</start>
+    <end>484</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] П е т е р Р., Рекурсивные функции, пер. с нем., М., 1954; [2] М а льц е в А. И., Алгоритмы и рекурсивные функции, М., 1965; [3] У с п е н с ки й В. А., Јекции о вычислимых функциях, М., 1960; [4] К л и н и С. К., Введение в метаматематику, пер. с англ., M., 1957; [5] M о s c h o v a k i s Y. N;, Elementary induction on abstract structures, Amst.,- [a. o ], 1974.H. B, Белякин.</literature_orig>
+    <unit>
+      <author>Петер Р.</author>
+      <title>Рекурсивные функции</title>
+      <publication>пер. с нем., М.</publication>
+      <year>1954</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Мальцев А. И.</author>
+      <title>Алгоритмы и рекурсивные функции</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Успенский В. А.</author>
+      <title>Јекции о вычислимых функциях</title>
+      <publication>М.</publication>
+      <year>1960</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Клини С. К.</author>
+      <title>Введение в метаматематику</title>
+      <publication>пер. с англ., M.</publication>
+      <year>1957</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>M о s c h o v a k i s Y. N, Elementary induction on abstract structures, Amst., - [a. o ]</title>
+      <publication/>
+      <year>1974</year>
+      <other>Белякин.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1062_1_REKURSI">f\left(0, x_{1}, \ldots, x_{n}\right)=g\left(x_{1}, \ldots, x_{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1062_2_REKURSI">\begin{gathered}f\left(0, x_{1}, \ldots, x_{n}\right)=g\left(x_{1}, \ldots, x_{n}\right), \\f\left(y+1, x_{1}, \ldots, x_{n}\right)=\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1062_3_REKURSI">=h\left(y, f\left(\alpha_{1}(y), x_{1}, \ldots, x_{n}\right), \ldots, f\left(\alpha_{k}(y), x_{1}, \ldots, x_{n}\right)\right. \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1062_4_REKURSI">\left.x_{1}, \ldots, x_{n}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1062_5_REKURSI">\begin{gathered}f(x, y)=g(x, y), \text { если } x=0 \text { или } y=0, \\\quad f(x+1, y+1)= \\=h(x, y, f(x, \alpha(x, y, f(x+1, y))), f(x+1, y)) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_1_REKURSI">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_2_REKURSI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_3_REKURSI">\bar{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_4_REKURSI">\bar{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_5_REKURSI">\bar{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_6_REKURSI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_7_REKURSI">« \bar{x}_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_8_REKURSI">\bar{x}_{2} »</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_9_REKURSI">\bar{x}_{1}, \overline{x_{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_10_REKURSI">\bar{x}_{n}, n=0,1,2,</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_11_REKURSI">\bar{x}_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_12_REKURSI">\left.\bar{x}_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_13_REKURSI">f\left(y+1, x_{1}, \ldots, x_{n}\right)=h\left(y, f\left(y, x_{1}, \ldots, x_{n}\right), x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_14_REKURSI">g, h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_15_REKURSI">f-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_16_REKURSI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_17_REKURSI">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_18_REKURSI">\mathrm{p}_{.}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_19_REKURSI">\alpha_{i}(y) \leqslant y, \quad i=1, \ldots ., k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_20_REKURSI">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_21_REKURSI">f_{i}\left(0, x_{1}, \ldots, x_{n}\right)=g_{i}\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_22_REKURSI">f_{i}\left(y+1, x_{1}, \ldots, x_{n}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_23_REKURSI">=h_{i}\left(y, f_{1}\left(y, x_{1}, \ldots, x_{n}\right), \ldots, f_{k}\left(y, x_{1}, \ldots, x_{n}\right)\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_24_REKURSI">\left.x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_25_REKURSI">i=1, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_26_REKURSI">f(x)=x+1, f(x, y)=y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_27_REKURSI">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_28_REKURSI">f(u, v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_29_REKURSI">u&lt;x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_30_REKURSI">u=x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_31_REKURSI">v&lt;y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_32_REKURSI">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_33_REKURSI">g, h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_34_REKURSI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_35_REKURSI">\mathbf{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_36_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_37_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_38_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_39_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_40_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_41_REKURSI">g(m, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_42_REKURSI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_43_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_44_REKURSI">f_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_45_REKURSI">g(m, x)=f_{m}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_46_REKURSI">g(m, x)=\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_47_REKURSI">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_48_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_49_REKURSI">g(m, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_50_REKURSI">f(x)=g(x, x)+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_51_REKURSI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_52_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_53_REKURSI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_54_REKURSI">f(m)=f_{m}(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_55_REKURSI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_56_REKURSI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_57_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_58_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_59_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_60_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_61_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_62_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_63_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_64_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_65_REKURSI">f_{i}=t_{i}\left(f_{1}, \ldots, f_{n}\right), i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_66_REKURSI">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_67_REKURSI">t_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_68_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_69_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_70_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_71_REKURSI">\varphi \prec \psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_72_REKURSI">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_73_REKURSI">\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_74_REKURSI">i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_75_REKURSI">f_{i}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_76_REKURSI">f_{i}^{k+1}=t_{i}\left(f_{1}^{k}, \ldots, f_{n}^{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_77_REKURSI">f_{i}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_78_REKURSI">f_{i}^{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_79_REKURSI">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_80_REKURSI">f_{i}^{k}(k=0,1,2, \ldots)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_81_REKURSI">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_82_REKURSI">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1062_83_REKURSI">l</formula>
+  </formulas_aux>
+  <relations n="88">
+    <relation uri="http://libmeta.ru/me/relation/1062_1_REKURSI">
+      <rel_text>иерархии</rel_text>
+      <target>http://libmeta.ru/me/article/494_IERARHI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_2_REKURSI">
+      <rel_text>индуктивные определения</rel_text>
+      <target>http://libmeta.ru/me/article/574_INDUKTIVNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_3_REKURSI">
+      <rel_text>трансфинитная</rel_text>
+      <target>http://libmeta.ru/me/article/457_TRANZITIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_4_REKURSI">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_5_REKURSI">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_6_REKURSI">
+      <rel_text>признаются</rel_text>
+      <target>http://libmeta.ru/me/article/645_PRIZMATOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_7_REKURSI">
+      <rel_text>определение обладает</rel_text>
+      <target>http://libmeta.ru/me/article/1110_OBLAST'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_8_REKURSI">
+      <rel_text>предположениях</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_9_REKURSI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_10_REKURSI">
+      <rel_text>вычислимых</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_11_REKURSI">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_12_REKURSI">
+      <rel_text>сочетании</rel_text>
+      <target>http://libmeta.ru/me/article/102_SOChETANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_13_REKURSI">
+      <rel_text>операций</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_14_REKURSI">
+      <rel_text>синтаксич</rel_text>
+      <target>http://libmeta.ru/me/article/1354_SINTAKSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_15_REKURSI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_16_REKURSI">
+      <rel_text>задание</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_17_REKURSI">
+      <rel_text>предіпествования</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_18_REKURSI">
+      <rel_text>задает</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_19_REKURSI">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_20_REKURSI">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_21_REKURSI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_22_REKURSI">
+      <rel_text>определенная функция</rel_text>
+      <target>http://libmeta.ru/me/article/443_POLOZhITEL'NO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_23_REKURSI">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_24_REKURSI">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_25_REKURSI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_26_REKURSI">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_27_REKURSI">
+      <rel_text>монотонными</rel_text>
+      <target>http://libmeta.ru/me/article/779_MONOMORFIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_28_REKURSI">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_29_REKURSI">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_30_REKURSI">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_31_REKURSI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_32_REKURSI">
+      <rel_text>функциональных уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/802_FUNKTsIONAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_33_REKURSI">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_34_REKURSI">
+      <rel_text>объекты</rel_text>
+      <target>http://libmeta.ru/me/article/1156_OB'EK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_35_REKURSI">
+      <rel_text>операторы</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_36_REKURSI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_37_REKURSI">
+      <rel_text>числовые</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_38_REKURSI">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_39_REKURSI">
+      <rel_text>операции</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_40_REKURSI">
+      <rel_text>синтаксич</rel_text>
+      <target>http://libmeta.ru/me/article/1354_SINTAKSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_41_REKURSI">
+      <rel_text>предполагать</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_42_REKURSI">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_43_REKURSI">
+      <rel_text>интерпретацией</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_44_REKURSI">
+      <rel_text>операция</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_45_REKURSI">
+      <rel_text>синтаксич</rel_text>
+      <target>http://libmeta.ru/me/article/1354_SINTAKSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_46_REKURSI">
+      <rel_text>представлениями</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_47_REKURSI">
+      <rel_text>интуитивными</rel_text>
+      <target>http://libmeta.ru/me/article/641_INTUITsIONIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_48_REKURSI">
+      <rel_text>переосмыслением</rel_text>
+      <target>http://libmeta.ru/me/article/226_PERENORMIROVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_49_REKURSI">
+      <rel_text>связано</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_50_REKURSI">
+      <rel_text>пределы</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_51_REKURSI">
+      <rel_text>признаются</rel_text>
+      <target>http://libmeta.ru/me/article/645_PRIZMATOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_52_REKURSI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_53_REKURSI">
+      <rel_text>представляет</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_54_REKURSI">
+      <rel_text>представлений</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_55_REKURSI">
+      <rel_text>интуитивных</rel_text>
+      <target>http://libmeta.ru/me/article/641_INTUITsIONIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_56_REKURSI">
+      <rel_text>расплывчатости</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_57_REKURSI">
+      <rel_text>примитивно рекурсивных</rel_text>
+      <target>http://libmeta.ru/me/article/654_PRIMITIVNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_58_REKURSI">
+      <rel_text>рассуждении</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_59_REKURSI">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_60_REKURSI">
+      <rel_text>вычислима</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_61_REKURSI">
+      <rel_text>представимая</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_62_REKURSI">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_63_REKURSI">
+      <rel_text>одноместной функции</rel_text>
+      <target>http://libmeta.ru/me/article/1167_odNOLISTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_64_REKURSI">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_65_REKURSI">
+      <rel_text>счисления</rel_text>
+      <target>http://libmeta.ru/me/article/351_SChISLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_66_REKURSI">
+      <rel_text>системе</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_67_REKURSI">
+      <rel_text>представимых</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_68_REKURSI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_69_REKURSI">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_70_REKURSI">
+      <rel_text>распознаваемы</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_71_REKURSI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_72_REKURSI">
+      <rel_text>пределы</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_73_REKURSI">
+      <rel_text>синтаксич</rel_text>
+      <target>http://libmeta.ru/me/article/1354_SINTAKSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_74_REKURSI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_75_REKURSI">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_76_REKURSI">
+      <rel_text>связано</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_77_REKURSI">
+      <rel_text>интуитивной</rel_text>
+      <target>http://libmeta.ru/me/article/641_INTUITsIONIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_78_REKURSI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_79_REKURSI">
+      <rel_text>примитивной рекурсии</rel_text>
+      <target>http://libmeta.ru/me/article/653_PRIMITIVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_80_REKURSI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_81_REKURSI">
+      <rel_text>интуитивное</rel_text>
+      <target>http://libmeta.ru/me/article/641_INTUITsIONIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_82_REKURSI">
+      <rel_text>процедур</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_83_REKURSI">
+      <rel_text>алгоритмич</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_84_REKURSI">
+      <rel_text>представлений</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_85_REKURSI">
+      <rel_text>представлений</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_86_REKURSI">
+      <rel_text>математических&quot;</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_87_REKURSI">
+      <rel_text>расплывчатых</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1062_88_REKURSI">
+      <rel_text>Перечисленные</rel_text>
+      <target>http://libmeta.ru/me/article/223_PEREDATOChNA</target>
+    </relation>
+  </relations>
+  <text>способ определения функций, являющийся объектом изучения в теории алгоритмов и других разделах математич. логики. Этот способ давно применяется в арифметике для определения числовых последовательностей (прогрессии, чисел Фибоначчи и пр.). Существенную роль играет Р. в вычислительной математике (рекуррөнтные методы). Наконец, в теории множеств часто используется трансфинитная $URI[[http://libmeta.ru/me/formula/aux/1062_1_REKURSI]]/URI$.
+
+Долгое время термин «р.» употреблялся математиками, не будучи точно определенным. Его приблизительный интуитивный смысл можно описать следующим образом. Значение искомой функции $URI[[http://libmeta.ru/me/formula/aux/1062_2_REKURSI]]/URI$ в произвольной точке $URI[[http://libmeta.ru/me/formula/aux/1062_3_REKURSI]]/URI$ (под точкой подразумевается набор значений аргументов) определяется, вообще говоря, через значения этой же функции в других точках $URI[[http://libmeta.ru/me/formula/aux/1062_4_REKURSI]]/URI$, к-рые в каком-то смысле «предшествуют» $URI[[http://libmeta.ru/me/formula/aux/1062_5_REKURSI]]/URI$. (само слово &quot;рекурсия&quot; означает «возвращение».) Конечно, в нек-рых «исходных» точках значения $URI[[http://libmeta.ru/me/formula/aux/1062_6_REKURSI]]/URI$ должны задаваться непосредственно. Иногда при помощи Р. определяются однов ременно несколько функций; тогда вышеприведенные разъяснения нуждаются в соответствующей мо- дификации. Примеры разнообразных Р. будут даны ниже. Отношение $URI[[http://libmeta.ru/me/formula/aux/1062_7_REKURSI]]/URI$ предшествует $URI[[http://libmeta.ru/me/formula/aux/1062_8_REKURSI]]/URI$ (где $URI[[http://libmeta.ru/me/formula/aux/1062_9_REKURSI]]/URI$ принадлежат области определения искомой функции) в разных видах Р. («рекурсивных схемах») может иметь разный смысл, однако оно должно быть «фундированным» (т. е. не должно существовать бесконечноі̆ последовательности точек $URI[[http://libmeta.ru/me/formula/aux/1062_10_REKURSI]]/URI$. ., такой, что $URI[[http://libmeta.ru/me/formula/aux/1062_11_REKURSI]]/URI$ предшествует $URI[[http://libmeta.ru/me/formula/aux/1062_12_REKURSI]]/URI$. К Һроме того, неявно подразумевается, что оно является &quot;достаточно естественным&quot; (напр., желатөльно, чтобы әто отношение усматривалось из самого описания рекурсивной схемы, а не из процесса ее применения). Последнее условие имеет чисто эвристич. значение (напр., для определения какихнибудь специальных, сравнительно простых видов Р.). Уточнение этого условия по существу неотделимо от уточнения самого понятия P., а для әтого необходимо установить, какого рода формальные выражения могут быть признаны в качестве рекурсивных определений.
+
+В тех случаях, когда речь идет о рекурсивных описаниях числовых функций (т. е. Функций от натуральных аргументов и с натуральными значениями), обычно подразумевается, что такие описания задают способ вычисления определяемых функций. Ниже всгоду (кроме заключительных замечаний) термин «р.» будет пониматься именно в таком смысле. Простейшей и наиболсе употребительной рекурсивной схемой является п р ими т и вна я P.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1062_1_REKURSI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1062_13_REKURSI]]/URI$, где функции $URI[[http://libmeta.ru/me/formula/aux/1062_14_REKURSI]]/URI$ предполагаются известными, $URI[[http://libmeta.ru/me/formula/aux/1062_15_REKURSI]]/URI$ определяемая функция, $URI[[http://libmeta.ru/me/formula/aux/1062_16_REKURSI]]/URI$ - переменная, по к-рой ведется Р., $URI[[http://libmeta.ru/me/formula/aux/1062_17_REKURSI]]/URI$ - гараметры, не участвующие в Р. Ближайшим обобщением әтой схемы является т. н. в о з в р а т н я Р., охватывающая такие виды рекурсивных определений, у к-рых, подобно примитивной Р., только одна переменная участвует в $URI[[http://libmeta.ru/me/formula/aux/1062_18_REKURSI]]/URI$, а соответствующее отношение предшествования совпадает с обычным упорядочением натуральных чисел (иногда, впрочем, әтот термин употребляется и в более широком смысле). Наиболее типичная разновидность в 03 в р а тн о й Р. такова:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1062_2_REKURSI]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1062_3_REKURSI]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1062_4_REKURSI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1062_19_REKURSI]]/URI$. Представляет интерес тот факт, что возвратную Р. можно заменить конечным тислом примитивных Р. и подстановок. Другой пример рекурсивной схемы, сводящейся к примитивної $URI[[http://libmeta.ru/me/formula/aux/1062_20_REKURSI]]/URI$., дает о д н о в р е м е н н а я Р. вида
+
+$URI[[http://libmeta.ru/me/formula/aux/1062_21_REKURSI]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/1062_22_REKURSI]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/1062_23_REKURSI]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/1062_24_REKURSI]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/1062_25_REKURSI]]/URI$. Математич. логика часто имеет дело с п р и м и т ивно ре к у р с ивны ми фу нкция м и, т. е. с такими, к-рые можно получить за конечное число шагов при помощи подстановок и примитивных Р., исходя из нек-рого фиксированного запаса совсем простых функций (вапр., $URI[[http://libmeta.ru/me/formula/aux/1062_26_REKURSI]]/URI$ и т. п.).
+
+Последовательность функциональных равенств, описывающая такое построение, наз. п р и м и т и в н о р е к у р с и в ны м о п и с а н и е м соответствующей функции. Эти описания суть синтаксич. объекты (т. е. цешочки символов), обладающие определенной эфффективно распознаваемой структурой. Практически все тисловые функции, употребляемыс в математике по какому-либо конкретному поводу, оказываются примитивно рекурсивными. Этим в значительной мере объясняется интерес к данному классу функций.
+
+Более слояныые виды рекурсивных определений полутаются, когда Р. идет сразу по нескольким персменным. Такие определения, вообще говоря, выводят из класса примитивно рекурсивных функций, хотя соответствующее отношение предшествования может выглядеть как вполне естественное. Напр., в определении $URI[[http://libmeta.ru/me/formula/aux/1062_27_REKURSI]]/URI$ могут участвовать значения $URI[[http://libmeta.ru/me/formula/aux/1062_28_REKURSI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1062_29_REKURSI]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/1062_30_REKURSI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1062_31_REKURSI]]/URI$, как это имеет место в следующей схеме д в ук р а т н о й P.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1062_5_REKURSI]]/URI
+\]
+
+Эта схема уже не сводится к примитивной $URI[[http://libmeta.ru/me/formula/aux/1062_32_REKURSI]]/URI$. С другой стороны, к ней сводимы многие более сложные рекурсивные определения (см. [1]).
+
+URI[[http://libmeta.ru/me/relation/1062_88_REKURSI]]/URI частные виды Р. имеют тотные математич. определения - в отличие от URI[[http://libmeta.ru/me/relation/1062_87_REKURSI]]/URI «около URI[[http://libmeta.ru/me/relation/1062_86_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_85_REKURSI]]/URI о &quot;рекурсии вообще». Уточнение этих URI[[http://libmeta.ru/me/relation/1062_84_REKURSI]]/URI естественно мыслить как отыскание подходящего URI[[http://libmeta.ru/me/relation/1062_83_REKURSI]]/URI. языка (т. е. формального языка для описания вычислительных URI[[http://libmeta.ru/me/relation/1062_82_REKURSI]]/URI), включающего все вообразимые виды Р., но и не слишком широкого. Правомерно ожидать, что выработка такого уточнения может потребовать дополнительных соглашений, вносящих нечто новое в URI[[http://libmeta.ru/me/relation/1062_81_REKURSI]]/URI понимание Р. В этой связи небезинтересно отметить, что все рассмотренные выше рекурсивные схемы ориентированы на порождение тотальных (всюду определенных) URI[[http://libmeta.ru/me/relation/1062_80_REKURSI]]/URI. Так, если в схеме URI[[http://libmeta.ru/me/relation/1062_79_REKURSI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1062_33_REKURSI]]/URI$ тотальны, то такова же и $URI[[http://libmeta.ru/me/formula/aux/1062_34_REKURSI]]/URI$. И вообще, рекурсивные определения, задающие частичные URI[[http://libmeta.ru/me/relation/1062_78_REKURSI]]/URI, с URI[[http://libmeta.ru/me/relation/1062_77_REKURSI]]/URI точки зрения выглядят несколько искусственно. Однако есть причины привлечь такие Р. к рассмотрению. Это URI[[http://libmeta.ru/me/relation/1062_76_REKURSI]]/URI с т. н. Д и а $URI[[http://libmeta.ru/me/formula/aux/1062_35_REKURSI]]/URI$ oна л ь ны м ме т о д о м. Именно, пусть дан URI[[http://libmeta.ru/me/relation/1062_75_REKURSI]]/URI. язык $URI[[http://libmeta.ru/me/formula/aux/1062_36_REKURSI]]/URI$, в к-ром определимы лишь тотальные URI[[http://libmeta.ru/me/relation/1062_74_REKURSI]]/URI, и пусть URI[[http://libmeta.ru/me/relation/1062_73_REKURSI]]/URI. конструкции $URI[[http://libmeta.ru/me/formula/aux/1062_37_REKURSI]]/URI$ не выводят за URI[[http://libmeta.ru/me/relation/1062_72_REKURSI]]/URI интуитивно понимаемой рекурсивности. Конечно подразумевается, что выражения языка $URI[[http://libmeta.ru/me/formula/aux/1062_38_REKURSI]]/URI$ (являющиеся описаниями URI[[http://libmeta.ru/me/relation/1062_71_REKURSI]]/URI) алгоритмически URI[[http://libmeta.ru/me/relation/1062_70_REKURSI]]/URI и что имеется единообразный способ URI[[http://libmeta.ru/me/relation/1062_69_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_68_REKURSI]]/URI, URI[[http://libmeta.ru/me/relation/1062_67_REKURSI]]/URI в $URI[[http://libmeta.ru/me/formula/aux/1062_39_REKURSI]]/URI$, по их описаниям. Если рассматривать выражения в $URI[[http://libmeta.ru/me/formula/aux/1062_40_REKURSI]]/URI$ просто как цепочки символов, то каждую такую цепочку можно считать изображением натурального числа в подходящей URI[[http://libmeta.ru/me/relation/1062_66_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_65_REKURSI]]/URI, являющегося «кодом» данного выражения. Пусть теперь URI[[http://libmeta.ru/me/relation/1062_64_REKURSI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1062_41_REKURSI]]/URI$ определена так. Если $URI[[http://libmeta.ru/me/formula/aux/1062_42_REKURSI]]/URI$ есть код описания (в языке $URI[[http://libmeta.ru/me/formula/aux/1062_43_REKURSI]]/URI$ ) нек-рой URI[[http://libmeta.ru/me/relation/1062_63_REKURSI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1062_44_REKURSI]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1062_45_REKURSI]]/URI$. В противном случае $URI[[http://libmeta.ru/me/formula/aux/1062_46_REKURSI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1062_47_REKURSI]]/URI$ - какаянибудь фиксированная URI[[http://libmeta.ru/me/relation/1062_62_REKURSI]]/URI, URI[[http://libmeta.ru/me/relation/1062_61_REKURSI]]/URI в $URI[[http://libmeta.ru/me/formula/aux/1062_48_REKURSI]]/URI$. Ясно, что $URI[[http://libmeta.ru/me/formula/aux/1062_49_REKURSI]]/URI$ URI[[http://libmeta.ru/me/relation/1062_60_REKURSI]]/URI и тотальна и такова же URI[[http://libmeta.ru/me/relation/1062_59_REKURSI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1062_50_REKURSI]]/URI$. Но $URI[[http://libmeta.ru/me/formula/aux/1062_51_REKURSI]]/URI$ невыразима в $URI[[http://libmeta.ru/me/formula/aux/1062_52_REKURSI]]/URI$, ибо ни при каком $URI[[http://libmeta.ru/me/formula/aux/1062_53_REKURSI]]/URI$ невозможно равенство $URI[[http://libmeta.ru/me/formula/aux/1062_54_REKURSI]]/URI$. (в этом URI[[http://libmeta.ru/me/relation/1062_58_REKURSI]]/URI существенно использована тотальность $URI[[http://libmeta.ru/me/formula/aux/1062_55_REKURSI]]/URI$.) Возникает вопрос: является ли данное описание $URI[[http://libmeta.ru/me/formula/aux/1062_56_REKURSI]]/URI$ рекурсивным? Если в качестве $URI[[http://libmeta.ru/me/formula/aux/1062_57_REKURSI]]/URI$ взять язык URI[[http://libmeta.ru/me/relation/1062_57_REKURSI]]/URI описаний, то оно окавывается сводимым к двукратной Р. В общем случае ситуация неясна из-за URI[[http://libmeta.ru/me/relation/1062_56_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_55_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_54_REKURSI]]/URI о Р., так что положительный ответ на поставленный вопрос URI[[http://libmeta.ru/me/relation/1062_53_REKURSI]]/URI собой дополнительное соглашение. Если принять его (как это неявно делает современная логика), то язык $URI[[http://libmeta.ru/me/formula/aux/1062_58_REKURSI]]/URI$, описывающий в точности все виды «тотальной» Р., оказывается невозможным. Между тем, если в $URI[[http://libmeta.ru/me/formula/aux/1062_59_REKURSI]]/URI$ выразимы также частичные URI[[http://libmeta.ru/me/relation/1062_52_REKURSI]]/URI (и іх описания URI[[http://libmeta.ru/me/relation/1062_51_REKURSI]]/URI рекурсивными), то диагонализация не обязательно выводит әа URI[[http://libmeta.ru/me/relation/1062_50_REKURSI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1062_60_REKURSI]]/URI$, так что такой язык в принципе может быть пригодным для адекватного уточнения рекурсивности. Правда, это URI[[http://libmeta.ru/me/relation/1062_49_REKURSI]]/URI с нек-рым URI[[http://libmeta.ru/me/relation/1062_48_REKURSI]]/URI самого понятия Р., и современное строгое определение этого понятия не вполне согласовано с имевшимися ранее URI[[http://libmeta.ru/me/relation/1062_47_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_46_REKURSI]]/URI. В новом уточненном смысле Р. есть нек-рая URI[[http://libmeta.ru/me/relation/1062_45_REKURSI]]/URI. URI[[http://libmeta.ru/me/relation/1062_44_REKURSI]]/URI (с фиксированной URI[[http://libmeta.ru/me/relation/1062_43_REKURSI]]/URI), употребляемая для построения выражений̈ в различных URI[[http://libmeta.ru/me/relation/1062_42_REKURSI]]/URI. языках. Если $URI[[http://libmeta.ru/me/formula/aux/1062_61_REKURSI]]/URI$-один из таких языков, то естественно URI[[http://libmeta.ru/me/relation/1062_41_REKURSI]]/URI, что в нем есть и другие URI[[http://libmeta.ru/me/relation/1062_40_REKURSI]]/URI. URI[[http://libmeta.ru/me/relation/1062_39_REKURSI]]/URI, от к-рых зависит конкретный URI[[http://libmeta.ru/me/relation/1062_38_REKURSI]]/URI рекурсивных описаний в $URI[[http://libmeta.ru/me/formula/aux/1062_62_REKURSI]]/URI$. Вообще говоря, выражения языка $URI[[http://libmeta.ru/me/formula/aux/1062_63_REKURSI]]/URI$ не обязательно описывают только URI[[http://libmeta.ru/me/relation/1062_37_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_36_REKURSI]]/URI. Нек-рые из них могут задавать функциональные URI[[http://libmeta.ru/me/relation/1062_35_REKURSI]]/URI и другие URI[[http://libmeta.ru/me/relation/1062_34_REKURSI]]/URI. Это нужно, в частности, для определения Р. Рекурсивные описания в $URI[[http://libmeta.ru/me/formula/aux/1062_64_REKURSI]]/URI$ - это URI[[http://libmeta.ru/me/relation/1062_33_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_32_REKURSI]]/URI вида $URI[[http://libmeta.ru/me/formula/aux/1062_65_REKURSI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1062_66_REKURSI]]/URI$ - определяемые URI[[http://libmeta.ru/me/relation/1062_31_REKURSI]]/URI, а $URI[[http://libmeta.ru/me/formula/aux/1062_67_REKURSI]]/URI$ - выражения в $URI[[http://libmeta.ru/me/formula/aux/1062_68_REKURSI]]/URI$, задающие в совокупности нек-рый URI[[http://libmeta.ru/me/relation/1062_30_REKURSI]]/URI. Но все выразимые в $URI[[http://libmeta.ru/me/formula/aux/1062_69_REKURSI]]/URI$ URI[[http://libmeta.ru/me/relation/1062_29_REKURSI]]/URI должны быть эффективными (поскольку $URI[[http://libmeta.ru/me/formula/aux/1062_70_REKURSI]]/URI$ - URI[[http://libmeta.ru/me/relation/1062_28_REKURSI]]/URI. язык) и потому URI[[http://libmeta.ru/me/relation/1062_27_REKURSI]]/URI (т. е. они сохраняют отношение $URI[[http://libmeta.ru/me/formula/aux/1062_71_REKURSI]]/URI$, означающее, что $URI[[http://libmeta.ru/me/formula/aux/1062_72_REKURSI]]/URI$ доопределяет $URI[[http://libmeta.ru/me/formula/aux/1062_73_REKURSI]]/URI$. В силу этого всякая URI[[http://libmeta.ru/me/relation/1062_26_REKURSI]]/URI указанного вида обладает минимальным (в смысле от亡்шения 孔) решением и, по определению, является рекурсивным описанием URI[[http://libmeta.ru/me/relation/1062_25_REKURSI]]/URI, составляющих әто решение. Исходя из данного описания, искомое минимальное решение можно URI[[http://libmeta.ru/me/relation/1062_24_REKURSI]]/URI посредством следующего URI[[http://libmeta.ru/me/relation/1062_23_REKURSI]]/URI. Для $URI[[http://libmeta.ru/me/formula/aux/1062_74_REKURSI]]/URI$ пусть $URI[[http://libmeta.ru/me/formula/aux/1062_75_REKURSI]]/URI$ - нигде не URI[[http://libmeta.ru/me/relation/1062_22_REKURSI]]/URI и $URI[[http://libmeta.ru/me/formula/aux/1062_76_REKURSI]]/URI$, так что $URI[[http://libmeta.ru/me/formula/aux/1062_77_REKURSI]]/URI$ З $URI[[http://libmeta.ru/me/formula/aux/1062_78_REKURSI]]/URI$. Нетрудно убедиться, что искомые URI[[http://libmeta.ru/me/relation/1062_21_REKURSI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1062_79_REKURSI]]/URI$ URI[[http://libmeta.ru/me/relation/1062_20_REKURSI]]/URI «объединением» $URI[[http://libmeta.ru/me/formula/aux/1062_80_REKURSI]]/URI$. Тем самым задан способ совместного URI[[http://libmeta.ru/me/relation/1062_19_REKURSI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1062_81_REKURSI]]/URI$. Этот же процесс URI[[http://libmeta.ru/me/relation/1062_18_REKURSI]]/URI более или менее естественное отношение URI[[http://libmeta.ru/me/relation/1062_17_REKURSI]]/URI на аргументах, к-рое и оправдывает (в удовлетворительной мере) употребление термина «р.» в данної̈ связи.
+
+Для того чтобы приведенные ранее рекурсивные схемы подходили под такое определение, необходимо, чтобы язык $URI[[http://libmeta.ru/me/formula/aux/1062_82_REKURSI]]/URI$ был не слишком беден. Так, уже в случае примитивной Р. нужны подстановка и «кусочное» определение (т.е. URI[[http://libmeta.ru/me/relation/1062_16_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_15_REKURSI]]/URI несколькими равенствами). Вместе с тем этих двух URI[[http://libmeta.ru/me/relation/1062_14_REKURSI]]/URI. URI[[http://libmeta.ru/me/relation/1062_13_REKURSI]]/URI, в URI[[http://libmeta.ru/me/relation/1062_12_REKURSI]]/URI с только что определенной Р., уже достаточно для URI[[http://libmeta.ru/me/relation/1062_11_REKURSI]]/URI всех URI[[http://libmeta.ru/me/relation/1062_10_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_9_REKURSI]]/URI (исходя из простейших). При соответствующих URI[[http://libmeta.ru/me/relation/1062_8_REKURSI]]/URI об $URI[[http://libmeta.ru/me/formula/aux/1062_83_REKURSI]]/URI$ можно также достаточно уверенно утверждать, что данное определение Р. охватывает все интуитивно мыслимые рекурсивные описания. В то же время введенное общее URI[[http://libmeta.ru/me/relation/1062_7_REKURSI]]/URI характерными чертами неформально понимаемой рекурсивности, к-рые URI[[http://libmeta.ru/me/relation/1062_6_REKURSI]]/URI существенными в современной математике.
+
+Плодотворность данного определения Р. заключается не только в его значении для URI[[http://libmeta.ru/me/relation/1062_5_REKURSI]]/URI URI[[http://libmeta.ru/me/relation/1062_4_REKURSI]]/URI, но и в том, что оно позволяет взглянуть с «алгоритмической» (в обобщенном смысле) точки зрения также и на нек-рые конструкции абстрактной математики, имеющие определенное сходство с «числовыми» Р. (URI[[http://libmeta.ru/me/relation/1062_3_REKURSI]]/URI Р., URI[[http://libmeta.ru/me/relation/1062_2_REKURSI]]/URI, рекурсивные URI[[http://libmeta.ru/me/relation/1062_1_REKURSI]]/URI И Т. П.).</text>
+  <text_orig>способ определения функций, являющийся объектом изучения в теории алгоритмов и других разделах математич. логики. Этот способ давно применяется в арифметике для определения числовых последовательностей (прогрессии, чисел Фибоначчи и пр.). Существенную роль играет Р. в вычислительной математике (рекуррөнтные методы). Наконец, в теории множеств часто используется трансфинитная $\mathrm{P}$.
+
+Долгое время термин «Р.» употреблялся математиками, не будучи точно определенным. Его приблизительный интуитивный смысл можно описать следующим образом. Значение искомой функции $f$ в произвольной точке $\bar{x}$ (под точкой подразумевается набор значений аргументов) определяется, вообще говоря, через значения этой же функции в других точках $\bar{y}$, к-рые в каком-то смысле «предшествуют» $\bar{x}$. (Само слово &quot;рекурсия&quot; означает «возвращение».) Конечно, в нек-рых «Исходных» точках значения $f$ должны задаваться непосредственно. Иногда при помощи Р. определяются однов ременно несколько функций; тогда вышеприведенные разъяснения нуждаются в соответствующей мо- дификации. Примеры разнообразных Р. будут даны ниже. Отношение $« \bar{x}_{1}$ предшествует $\bar{x}_{2} »$ (где $\bar{x}_{1}, \overline{x_{2}}$ принадлежат области определения искомой функции) в разных видах Р. («рекурсивных схемах») может иметь разный смысл, однако оно должно быть «фундированным» (т. е. не должно существовать бесконечноі̆ последовательности точек $\bar{x}_{n}, n=0,1,2,$. ., такой, что $\bar{x}_{n+1}$ предшествует $\left.\bar{x}_{n}\right)$. К Һроме того, неявно подразумевается, что оно является &quot;достаточно естественным&quot; (напр., желатөльно, чтобы әто отношение усматривалось из самого описания рекурсивной схемы, а не из процесса ее применения). Последнее условие имеет чисто эвристич. значение (напр., для определения какихнибудь специальных, сравнительно простых видов Р.). Уточнение этого условия по существу неотделимо от уточнения самого понятия P., а для әтого необходимо установить, какого рода формальные выражения могут быть признаны в качестве рекурсивных определений.
+
+В тех случаях, когда речь идет о рекурсивных описаниях числовых функций (т. е. Функций от натуральных аргументов и с натуральными значениями), обычно подразумевается, что такие описания задают способ вычисления определяемых функций. Ниже всгоду (кроме заключительных замечаний) термин «Р.» будет пониматься именно в таком смысле. Простейшей и наиболсе употребительной рекурсивной схемой является п р ими т и вна я P.:
+
+\[
+f\left(0, x_{1}, \ldots, x_{n}\right)=g\left(x_{1}, \ldots, x_{n}\right),
+\]
+
+$f\left(y+1, x_{1}, \ldots, x_{n}\right)=h\left(y, f\left(y, x_{1}, \ldots, x_{n}\right), x_{1}, \ldots, x_{n}\right)$, где функции $g, h$ предполагаются известными, $f-$ определяемая функция, $y$ - переменная, по к-рой ведется Р., $x_{1}, \ldots, x_{n}$ - гараметры, не участвующие в Р. Ближайшим обобщением әтой схемы является т. н. в о з в р а т н я Р., охватывающая такие виды рекурсивных определений, у к-рых, подобно примитивной Р., только одна переменная участвует в $\mathrm{P}_{.}$, а соответствующее отношение предшествования совпадает с обычным упорядочением натуральных чисел (иногда, впрочем, әтот термин употребляется и в более широком смысле). Наиболее типичная разновидность в 03 в р а тн о й Р. такова:
+
+\[
+\begin{gathered}
+f\left(0, x_{1}, \ldots, x_{n}\right)=g\left(x_{1}, \ldots, x_{n}\right), \\
+f\left(y+1, x_{1}, \ldots, x_{n}\right)=
+\end{gathered}
+\]\[
+=h\left(y, f\left(\alpha_{1}(y), x_{1}, \ldots, x_{n}\right), \ldots, f\left(\alpha_{k}(y), x_{1}, \ldots, x_{n}\right)\right. \text {, }
+\]\[
+\left.x_{1}, \ldots, x_{n}\right) \text {, }
+\]
+
+где $\alpha_{i}(y) \leqslant y, \quad i=1, \ldots ., k$. Представляет интерес тот факт, что возвратную Р. можно заменить конечным тислом примитивных Р. и подстановок. Другой пример рекурсивной схемы, сводящейся к примитивної $\mathrm{P}$., дает о д н о в р е м е н н а я Р. вида
+
+$f_{i}\left(0, x_{1}, \ldots, x_{n}\right)=g_{i}\left(x_{1}, \ldots, x_{n}\right)$,
+
+$f_{i}\left(y+1, x_{1}, \ldots, x_{n}\right)=$
+
+$=h_{i}\left(y, f_{1}\left(y, x_{1}, \ldots, x_{n}\right), \ldots, f_{k}\left(y, x_{1}, \ldots, x_{n}\right)\right.$,
+
+$\left.x_{1}, \ldots, x_{n}\right)$,
+
+где $i=1, \ldots, k$. Математич. логика часто имеет дело с п р и м и т ивно ре к у р с ивны ми фу нкция м и, т. е. с такими, к-рые можно получить за конечное число шагов при помощи подстановок и примитивных Р., исходя из нек-рого фиксированного запаса совсем простых функций (вапр., $f(x)=x+1, f(x, y)=y$ и т. п.).
+
+Последовательность функциональных равенств, описывающая такое построение, наз. п р и м и т и в н о р е к у р с и в ны м о п и с а н и е м соответствующей функции. Эти описания суть синтаксич. объекты (т. е. цешочки символов), обладающие определенной эфффективно распознаваемой структурой. Практически все тисловые функции, употребляемыс в математике по какому-либо конкретному поводу, оказываются примитивно рекурсивными. Этим в значительной мере объясняется интерес к данному классу функций.
+
+Более слояныые виды рекурсивных определений полутаются, когда Р. идет сразу по нескольким персменным. Такие определения, вообще говоря, выводят из класса примитивно рекурсивных функций, хотя соответствующее отношение предшествования может выглядеть как вполне естественное. Напр., в определении $f(x, y)$ могут участвовать значения $f(u, v)$, где $u&lt;x$ или $u=x$, $v&lt;y$, как это имеет место в следующей схеме д в ук р а т н о й P.:
+
+\[
+\begin{gathered}
+f(x, y)=g(x, y), \text { если } x=0 \text { или } y=0, \\
+\quad f(x+1, y+1)= \\
+=h(x, y, f(x, \alpha(x, y, f(x+1, y))), f(x+1, y)) .
+\end{gathered}
+\]
+
+Эта схема уже не сводится к примитивной $\mathrm{P}$. С другой стороны, к ней сводимы многие более сложные рекурсивные определения (см. [1]).
+
+Перечисленные частные виды Р. имеют тотные математич. определения - в отличие от расплывчатых «около математических&quot; представлений о &quot;рекурсии вообще». Уточнение этих представлений естественно мыслить как отыскание подходящего алгоритмич. языка (т. е. формального языка для описания вычислительных процедур), включающего все вообразимые виды Р., но и не слишком широкого. Правомерно ожидать, что выработка такого уточнения может потребовать дополнительных соглашений, вносящих нечто новое в интуитивное понимание Р. В этой связи небезинтересно отметить, что все рассмотренные выше рекурсивные схемы ориентированы на порождение тотальных (всюду определенных) функций. Так, если в схеме примитивной рекурсии $g, h$ тотальны, то такова же и $f$. И вообще, рекурсивные определения, задающие частичные функции, с интуитивной точки зрения выглядят несколько искусственно. Однако есть причины привлечь такие Р. к рассмотрению. Это связано с т. н. Д и а $\mathbf{r}$ oна л ь ны м ме т о д о м. Именно, пусть дан алгоритмич. язык $L$, в к-ром определимы лишь тотальные функции, и пусть синтаксич. конструкции $L$ не выводят за пределы интуитивно понимаемой рекурсивности. Конечно подразумевается, что выражения языка $L$ (являющиеся описаниями функций) алгоритмически распознаваемы и что имеется единообразный способ вычисления функций, представимых в $L$, по их описаниям. Если рассматривать выражения в $L$ просто как цепочки символов, то каждую такую цепочку можно считать изображением натурального числа в подходящей системе счисления, являющегося «кодом» данного выражения. Пусть теперь функция $G(m, x)$ определена так. Если $m$ есть код описания (в языке $L$ ) нек-рой одноместной функции $f_{m}$, то $G(m, x)=f_{m}(x)$. В противном случае $G(m, x)=\varphi(x)$, где $\varphi$ - какаянибудь фиксированная функция, представимая в $L$. Ясно, что $G(m, x)$ вычислима и тотальна и такова же функция $F(x)=G(x, x)+1$. Но $F$ невыразима в $L$, ибо ни при каком $m$ невозможно равенство $F(m)=f_{m}(m)$. (В этом рассуждении существенно использована тотальность $F$.) Возникает вопрос: является ли данное описание $F$ рекурсивным? Если в качестве $L$ взять язык примитивно рекурсивных описаний, то оно окавывается сводимым к двукратной Р. В общем случае ситуация неясна из-за расплывчатости интуитивных представлений о Р., так что положительный ответ на поставленный вопрос представляет собой дополнительное соглашение. Если принять его (как это неявно делает современная логика), то язык $L$, описывающий в точности все виды «тотальной» Р., оказывается невозможным. Между тем, если в $L$ выразимы также частичные функции (и іх описания признаются рекурсивными), то диагонализация не обязательно выводит әа пределы $L$, так что такой язык в принципе может быть пригодным для адекватного уточнения рекурсивности. Правда, это связано с нек-рым переосмыслением самого понятия Р., и современное строгое определение этого понятия не вполне согласовано с имевшимися ранее интуитивными представлениями. В новом уточненном смысле Р. есть нек-рая синтаксич. операция (с фиксированной интерпретацией), употребляемая для построения выражений̈ в различных алгоритмич. языках. Если $L$-один из таких языков, то естественно предполагать, что в нем есть и другие синтаксич. операции, от к-рых зависит конкретный вид рекурсивных описаний в $L$. Вообще говоря, выражения языка $L$ не обязательно описывают только числовые функции. Нек-рые из них могут задавать функциональные операторы и другие объекты. Это нужно, в частности, для определения Р. Рекурсивные описания в $L$ - это системы функциональных уравнений вида $f_{i}=T_{i}\left(f_{1}, \ldots, f_{n}\right), i=1, \ldots, n$, где $f_{i}$ - определяемые функции, а $T_{i}$ - выражения в $L$, задающие в совокупности нек-рый оператор. Но все выразимые в $L$ операторы должны быть эффективными (поскольку $L$ - алгоритмич. язык) и потому монотонными (т. е. они сохраняют отношение $\varphi \prec \psi$, означающее, что $\psi$ доопределяет $\varphi)$. В силу этого всякая система указанного вида обладает минимальным (в смысле от亡்шения 孔) решением и, по определению, является рекурсивным описанием функций, составляющих әто решение. Исходя из данного описания, искомое минимальное решение можно получить посредством следующего процесса. Для $i=1, \ldots, n$ пусть $f_{i}^{0}$ - нигде не определенная функция и $f_{i}^{k+1}=T_{i}\left(f_{1}^{k}, \ldots, f_{n}^{k}\right)$, так что $f_{i}^{k}$ З $f_{i}^{k+1}$. Нетрудно убедиться, что искомые функции $f_{i}$ получаются «объединением» $f_{i}^{k}(k=0,1,2, \ldots)$. Тем самым задан способ совместного вычисления $f_{i}$. Этот же процесс задает более или менее естественное отношение предіпествования на аргументах, к-рое и оправдывает (в удовлетворительной мере) употребление термина «Р.» в данної̈ связи.
+
+Для того чтобы приведенные ранее рекурсивные схемы подходили под такое определение, необходимо, чтобы язык $L$ был не слишком беден. Так, уже в случае примитивной Р. нужны подстановка и «кусочное» определение (т.е. задание функции несколькими равенствами). Вместе с тем этих двух синтаксич. операций, в сочетании с только что определенной Р., уже достаточно для получения всех вычислимых функций (исходя из простейших). При соответствующих предположениях об $L$ можно также достаточно уверенно утверждать, что данное определение Р. охватывает все интуитивно мыслимые рекурсивные описания. В то же время введенное общее определение обладает характерными чертами неформально понимаемой рекурсивности, к-рые признаются существенными в современной математике.
+
+Плодотворность данного определения Р. заключается не только в его значении для теории алгоритмов, но и в том, что оно позволяет взГлянуть с «алгоритмической» (в обобщенном смысле) точки зрения также и на нек-рые конструкции абстрактной математики, имеющие определенное сходство с «числовыми» Р. (трансфинитная Р., индуктивные определения, рекурсивные иерархии И Т. П.).
+
+Лит.: [1] П е т е р Р., Рекурсивные функции, пер. с нем., М., 1954; [2] М а льц е в А. И., Алгоритмы и рекурсивные функции, М., 1965; [3] У с п е н с ки й В. А., Јекции о вычислимых функциях, М., 1960; [4] К л и н и С. К., Введение в метаматематику, пер. с англ., M., 1957; [5] M о s c h o v a k i s Y. N;, Elementary induction on abstract structures, Amst.,- [a. o ], 1974.
+
+H. B, Белякин.</text_orig>
+</article>

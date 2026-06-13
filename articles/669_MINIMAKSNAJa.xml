@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/669_MINIMAKSNAJa" alphabetic_pos="669">
+  <title>МИНИМАКСНАЯ ОЦЕНКА</title>
+  <authors/>
+  <pages>
+    <start>342</start>
+    <end>342</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] з а к с ші., Теория статистических выводов, пер. с англ., М., 1975; [2] К о к с Д., Х и н к л и Д., Теоретиче-ская статистика, пер. с англ., М., 1978.</literature_orig>
+    <unit>
+      <title>з а к с ші., Теория статистических выводов</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Кокс Д.</author>
+      <author>Хинкли Д.</author>
+      <title>Теоретиче-ская статистика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/669_1_MINIMAKSNAJa">t=\frac{X}{n} \frac{V \bar{n}}{1+\sqrt{n}}+\frac{1}{2(1+\sqrt{n})}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/669_2_MINIMAKSNAJa">L(\theta, t)=(\theta-t)^{2} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_1_MINIMAKSNAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_2_MINIMAKSNAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_3_MINIMAKSNAJa">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_4_MINIMAKSNAJa">\theta, 0&lt;\theta&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_5_MINIMAKSNAJa">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_6_MINIMAKSNAJa">x_{1}, \ldots, X_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_7_MINIMAKSNAJa">f(x-\theta),|x|&lt;\infty,|\theta|&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_8_MINIMAKSNAJa">t=t\left(x_{1}, \ldots, X_{n}\right)=X_{(1)}-\frac{\int_{-\infty}^{\infty} x f(x) \prod_{i=2}^{n} f\left(x+X_{i}\right) d x}{\int_{-\infty}^{\infty} f(x) \prod_{i=2}^{n} f\left(x+X_{i}\right) d x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_9_MINIMAKSNAJa">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_10_MINIMAKSNAJa">l(\theta, t)=(\theta-t)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_11_MINIMAKSNAJa">x_{(1)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_12_MINIMAKSNAJa">x_{1}, \ldots, X_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_13_MINIMAKSNAJa">x_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_14_MINIMAKSNAJa">x_{n} \sim N(\theta, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/669_15_MINIMAKSNAJa">t=\left(x_{1}+\ldots+x_{n}\right) / n</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/669_1_MINIMAKSNAJa">
+      <rel_text>выборке</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/669_2_MINIMAKSNAJa">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/669_3_MINIMAKSNAJa">
+      <rel_text>параметра</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/669_4_MINIMAKSNAJa">
+      <rel_text>вероятности</rel_text>
+      <target>http://libmeta.ru/me/article/675_VEROJaTNOS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/669_5_MINIMAKSNAJa">
+      <rel_text>плотность</rel_text>
+      <target>http://libmeta.ru/me/article/316_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/669_6_MINIMAKSNAJa">
+      <rel_text>случайные величины</rel_text>
+      <target>http://libmeta.ru/me/article/1_SLUChAINAJa</target>
+    </relation>
+  </relations>
+  <text>статистическая оценка, к-рая получена в результате конкретизации понятия минияаксности статистической процедуры в задаче статистич. оценивания.
+
+П р и м е p 1. Пусть случайная величина $URI[[http://libmeta.ru/me/formula/aux/669_1_MINIMAKSNAJa]]/URI$ подчиняется биномиальному закону, параметры к-рого суть $URI[[http://libmeta.ru/me/formula/aux/669_2_MINIMAKSNAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/669_3_MINIMAKSNAJa]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/669_4_MINIMAKSNAJa]]/URI$, неизвестен. Статистика
+
+\[
+URI[[http://libmeta.ru/me/formula/main/669_1_MINIMAKSNAJa]]/URI
+\]
+
+является М. о. для параметра $URI[[http://libmeta.ru/me/formula/aux/669_5_MINIMAKSNAJa]]/URI$ относительно функции потерь
+
+\[
+URI[[http://libmeta.ru/me/formula/main/669_2_MINIMAKSNAJa]]/URI
+\]
+
+П р и м е р 2. Пусть $URI[[http://libmeta.ru/me/formula/aux/669_6_MINIMAKSNAJa]]/URI$-независимые URI[[http://libmeta.ru/me/relation/669_6_MINIMAKSNAJa]]/URI, к-рые подчиняются одному и тому же вероятностному закону, имеющему непрерывную URI[[http://libmeta.ru/me/relation/669_5_MINIMAKSNAJa]]/URI URI[[http://libmeta.ru/me/relation/669_4_MINIMAKSNAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/669_7_MINIMAKSNAJa]]/URI$. О ц е нк а П и т м н а
+
+$URI[[http://libmeta.ru/me/formula/aux/669_8_MINIMAKSNAJa]]/URI$ является М. о. для неизвестного URI[[http://libmeta.ru/me/relation/669_3_MINIMAKSNAJa]]/URI сдвига $URI[[http://libmeta.ru/me/formula/aux/669_9_MINIMAKSNAJa]]/URI$ относительно URI[[http://libmeta.ru/me/relation/669_2_MINIMAKSNAJa]]/URI потерь $URI[[http://libmeta.ru/me/formula/aux/669_10_MINIMAKSNAJa]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/669_11_MINIMAKSNAJa]]/URI$ - первый член вариационного ряда, построенного по URI[[http://libmeta.ru/me/relation/669_1_MINIMAKSNAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/669_12_MINIMAKSNAJa]]/URI$. В частности, если $URI[[http://libmeta.ru/me/formula/aux/669_13_MINIMAKSNAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/669_14_MINIMAKSNAJa]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/669_15_MINIMAKSNAJa]]/URI$.</text>
+  <text_orig>статистическая оценка, к-рая получена в результате конкретизации понятия минияаксности статистической процедуры в задаче статистич. оценивания.
+
+П р и м е p 1. Пусть случайная величина $X$ подчиняется биномиальному закону, параметры к-рого суть $n$ и $\theta$, причем $\theta, 0&lt;\theta&lt;1$, неизвестен. Статистика
+
+\[
+t=\frac{X}{n} \frac{V \bar{n}}{1+\sqrt{n}}+\frac{1}{2(1+\sqrt{n})}
+\]
+
+является М. о. для параметра $\theta$ относительно функции потерь
+
+\[
+L(\theta, t)=(\theta-t)^{2} .
+\]
+
+П р и м е р 2. Пусть $X_{1}, \ldots, X_{n}$-независимые случайные величины, к-рые подчиняются одному и тому же вероятностному закону, имеющему непрерывную плотность вероятности $f(x-\theta),|x|&lt;\infty,|\theta|&lt;\infty$. О ц е нк а П и т м н а
+
+$t=t\left(X_{1}, \ldots, X_{n}\right)=X_{(1)}-\frac{\int_{-\infty}^{\infty} x f(x) \prod_{i=2}^{n} f\left(x+X_{i}\right) d x}{\int_{-\infty}^{\infty} f(x) \prod_{i=2}^{n} f\left(x+X_{i}\right) d x}$ является М. о. для неизвестного параметра сдвига $\theta$ относительно функции потерь $L(\theta, t)=(\theta-t)^{2}$, где $X_{(1)}$ - первый член вариационного ряда, построенного по выборке $X_{1}, \ldots, X_{n}$. В частности, если $X_{1}, \ldots$, $X_{n} \sim N(\theta, 1)$, то $t=\left(X_{1}+\ldots+X_{n}\right) / n$.
+
+Лит.: [1] з а к с ші., Теория статистических выводов, пер. с англ., М., 1975; [2] К о к с Д., Х и н к л и Д., Теоретиче-
+ская статистика, пер. с англ., М., 1978.</text_orig>
+</article>

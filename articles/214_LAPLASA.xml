@@ -1,0 +1,811 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/214_LAPLASA" alphabetic_pos="214">
+  <title>ЛАПЛАСА ПРЕОБРАЗОВАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>99</start>
+    <end>101</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] L a p l a c e P. S., Théorie analytique des probabilités, P., 1812; [2] B а н д е p П о л ь Б., Б р е м м е р Х., Операционное исчисление на основе двустороннего преобразования Лапласа, пер. с англ., М., 1952; [3] Б о х н е p С., Лекции об интегралах фурье, пер. с англ., М., 1962; [4] Д и тк и н В. А., П р у д н и к о в А. П., Операционное исчисление, М., 1966; [5] и х ж е, Интегральные преобразования и onepauионное исчисление, 2 изп., M., $1974 ;$ [6] D o e t s c h G.,Handbuch der Laplace-Transformation, Bd $1-3$, Basel, $1950-56 ;$ [7] В л а д и м и р о в В. С., Обобщенные функции в математической физике, М., 1976 ; [8]' 3 е м а н я н А. Г., Интегральные преобразования обобщенных функций, пер. с англ., М., т е ли с к и й А. С., Таблицы для численного преобразования Лапласа и вычисления интегралов вида $\int_{0}^{\infty} x^{s} e^{-x} f(x) d x$, Минск, 1962; [10] S a lz e r H. E., Z u c k e r R., &quot;bull. Amer. Math.![](https://cdn.mathpix.com/cropped/2023_07_08_4a7900e4370936af45d6g-1.jpg?height=45&amp;width=826&amp;top_left_y=1831&amp;top_left_x=986)л я H. С., &quot;изв. Ан Бсср. Сер. физ.-матем. наук&quot;, 1965, № 3,с. $15-23 ;[12]$ К р ы л о в В. И., С к о б л я Н. С., Справочная книга по численному обращению преобразования Лапласа, Минск, 1.968; [13] и х ж е, Методы приближенного преобразования Фурье и обращения преобразования Лапласа, М.,</literature_orig>
+    <unit>
+      <author>Laplace P. S.</author>
+      <title>Théorie analytique des probabilités, P.</title>
+      <publication/>
+      <year>1812</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Bандеp Поль Б.</author>
+      <author>Бреммер Х.</author>
+      <title>Операционное исчисление на основе двустороннего преобразования Лапласа</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1952</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бохнеp С.</author>
+      <title>Лекции об интегралах фурье</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Диткин В. А.</author>
+      <author>Прудников А. П.</author>
+      <title>Операционное исчисление</title>
+      <publication>М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>и х ж е, Интегральные преобразования и onepauионное исчисление, 2 изп.</title>
+      <publication>M.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Doetsch G.</author>
+      <title>Handbuch der Laplace-Transformation, Bd $1-3$, Basel</title>
+      <publication/>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимиров В. С.</author>
+      <title>Обобщенные функции в математической физике</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>'3еманян А. Г.</author>
+      <title>Интегральные преобразования обобщенных функций</title>
+      <publication>пер. с англ., М., т е ли с к и й А. С., Таблицы для численного преобразования Лапласа и вычисления интегралов вида $\int_{0}^{\infty} x^{s} e^{-x} f(x) d x$, Минск</publication>
+      <year>1962</year>
+      <other>Z u c k e r R., &quot;bull. Amer. Math.![](https://cdn.mathpix.com/cropped/2023_07_08_4a7900e4370936af45d6g-1.jpg?height=45&amp;width=826&amp;top_left_y=1831&amp;top_left_x=986)л я H. С., &quot;изв. Ан Бсср. Сер. физ.-матем. наук&quot;, 1965, № 3, с. $15-23 ;[12]$ К р ы л о в В. И., С к о б л я Н. С., Справочная книга по численному обращению преобразования Лапласа, Минск, 1.968; [13] и х ж е, Методы приближенного преобразования Фурье и обращения преобразования Лапласа, М.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/214_1_LAPLASA">F(p)=\int_{L} f(z) e^{-p z} d z</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_2_LAPLASA">F(p)=L[f](p)=\int_{0}^{\infty} f(t) e^{-p t} d t,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_3_LAPLASA">F(p)=L[f](p)=\int_{-\infty}^{\infty} f(t) e^{-p t} d t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_4_LAPLASA">\int_{0}^{\infty}|f(t)| e^{-\sigma t} d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_5_LAPLASA">\begin{gathered}\stackrel{\circ}{f}\left(t_{0}\right)=\frac{f\left(t_{0}+0\right)+f\left(t_{0}-0\right)}{2}= \\=\frac{1}{2 \pi i} \lim _{R \rightarrow \infty} \int_{\sigma-i R}^{\sigma+i R} F(p) e^{p t} d p, \sigma&gt;\sigma_{a} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_6_LAPLASA">F(p)=\int_{c^{*}} f(t) e^{-(p, t)} d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_7_LAPLASA">(p, t)=(\sigma, t)+i(\tau, t)=p_{1} t_{1}+\ldots+p_{n} t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_8_LAPLASA">F(p)=\frac{1}{p} \int_{0}^{\infty} x^{s} e^{-x} \varphi(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_9_LAPLASA">\int_{0}^{\infty} x^{s} e^{-x} \varphi(x) d x \approx \sum_{k=1}^{n} A_{k}^{(s)} \varphi\left(x_{k}^{(s)}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_10_LAPLASA">F(p)=\int_{0}^{\infty} e^{-p t} \beta(t) f(t) d t,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_11_LAPLASA">a_{k}=\sum_{i=0}^{k} \alpha_{i}^{(k)} F(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_12_LAPLASA">\int_{0}^{\infty} e^{-t^{\prime}-\lambda}|f(t)|^{2} d t&lt;\infty, \lambda&gt;-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_13_LAPLASA">f(t)=t^{\lambda} \sum_{k=0}^{\infty} a_{k} \frac{k !}{\Gamma(k+\lambda+1)} L_{k}^{(\lambda)}(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_14_LAPLASA">a_{k}=\frac{(-1)^{k}}{k !} \frac{d^{k}}{d z^{k}}\left\{\frac{1}{z^{\lambda+1}} F\left(\frac{1}{z}\right)\right\}_{z=1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_15_LAPLASA">F(p)=\frac{1}{p^{s}} \varphi(p), s&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_16_LAPLASA">f(t)=\frac{1}{2 \pi i} \int_{\sigma-i \infty}^{\sigma+i \infty} e^{p t} p^{-s} \varphi(p) d p .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_17_LAPLASA">f(t)=\sum_{k=0}^{n} A_{k}^{(s)}(t) \varphi\left(p_{k}\right)+R_{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_18_LAPLASA">A_{k}^{(s)}(t)=\sum_{j=0}^{n} \frac{a_{k j} t^{s+j-1}}{\Gamma(s+j)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_19_LAPLASA">\begin{gathered}f(t)=\frac{1}{2 \pi i} \frac{e^{\sigma_{a} t}}{t} \int_{\varepsilon-i \infty}^{\varepsilon+i_{\infty}} e^{z} F^{:}(z) d z=\frac{e^{\sigma_{a} t}}{t} J(s), \\\varepsilon&gt;0, F^{*}(z)=F\left(\frac{z}{t}+\sigma_{a}\right)=F(p) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_20_LAPLASA">J(s) \approx \sum_{k=1}^{n} A_{k}^{(s)} \varphi\left(z_{k}^{(s)}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/214_21_LAPLASA">f(t) \approx \frac{e^{\sigma_{a} t}}{t} \sum_{k=1}^{n} A_{k}^{(s)}\left(z_{k}^{(s)}\right)^{s} F\left(\frac{z_{k}^{(s)}}{t}+\sigma_{a}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_1_LAPLASA">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_2_LAPLASA">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_3_LAPLASA">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_4_LAPLASA">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_5_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_6_LAPLASA">p=\sigma+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_7_LAPLASA">+i \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_8_LAPLASA">f(t) e^{-\sigma t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_9_LAPLASA">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_10_LAPLASA">f(t) e^{-\sigma t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_11_LAPLASA">0&lt;t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_12_LAPLASA">-\infty&lt;t&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_13_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_14_LAPLASA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_15_LAPLASA">f(p)=l[f](p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_16_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_17_LAPLASA">\sigma_{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_18_LAPLASA">\operatorname{re} p=\sigma&gt;\sigma_{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_19_LAPLASA">\operatorname{re} p=\sigma&lt;\sigma_{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_20_LAPLASA">\sigma_{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_21_LAPLASA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_22_LAPLASA">\left.\sigma_{c}=-\infty ; 3\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_23_LAPLASA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_24_LAPLASA">\sigma_{c}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_25_LAPLASA">=+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_26_LAPLASA">\sigma_{c}&lt;+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_27_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_28_LAPLASA">\operatorname{rep}&gt;\sigma_{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_29_LAPLASA">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_30_LAPLASA">\mathbf{x} о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_31_LAPLASA">\sigma_{a}, \sigma_{c} \leqslant \sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_32_LAPLASA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_33_LAPLASA">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_34_LAPLASA">|f(t)|=o\left(e^{\sigma t}\right), t \rightarrow+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_35_LAPLASA">\sigma_{a}=a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_36_LAPLASA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_37_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_38_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_39_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_40_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_41_LAPLASA">t_{\mathbf{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_42_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_43_LAPLASA">t=\left(t_{1}, \ldots, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_44_LAPLASA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_45_LAPLASA">\mathbb{r}^{n}, p=\left(p_{1}, \ldots, p_{n}\right)=\sigma+i \tau=\left(\sigma_{1}, \ldots, \sigma_{n}\right)+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_46_LAPLASA">+i\left(\tau_{1}, \ldots, \tau_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_47_LAPLASA">n, n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_48_LAPLASA">d t=d t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_49_LAPLASA">d t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_50_LAPLASA">\mathbb{r} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_51_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_52_LAPLASA">\mathbb{c} *=\left\{t \in \mathbb{R}^{n} ; \quad t_{j}&gt;0, \quad j=1, \ldots, n\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_53_LAPLASA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_54_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_55_LAPLASA">\mathbb{c} *</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_56_LAPLASA">p \in \mathbb{C}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_57_LAPLASA">\operatorname{re}(p, t)&gt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_58_LAPLASA">&gt;0, \quad t \in \mathbb{C}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_59_LAPLASA">s=\left\{\sigma \in \mathbb{R}^{n} ; \sigma_{j}&gt;0, j=1, \ldots, n\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_60_LAPLASA">p=\left(p_{1}, \ldots, p_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_61_LAPLASA">\quad T^{s}=S+i \mathbb{R}^{n}=\left\{p=\sigma+i \tau \in \mathbb{C}^{n} ; \quad \sigma \in S, \quad \tau \in \mathbb{R}^{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_62_LAPLASA">\mathbb{c}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_63_LAPLASA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_64_LAPLASA">\mathbb{c} *</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_65_LAPLASA">(5)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_66_LAPLASA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_67_LAPLASA">\mathbb{r}^{\boldsymbol{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_68_LAPLASA">n=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_69_LAPLASA">\mathbb{c} *=\{t \in \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_70_LAPLASA">t&gt;0\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_71_LAPLASA">t^{s}=\{p=\sigma+i \tau \in \mathbb{C}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_72_LAPLASA">\sigma&gt;0\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_73_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_74_LAPLASA">\gamma=\vartheta(\mathbb{r} n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_75_LAPLASA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_76_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_77_LAPLASA">|\hat{t}| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_78_LAPLASA">|t|^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_79_LAPLASA">\gamma^{\prime}=\gamma^{\prime}(\mathbb{r} n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_80_LAPLASA">\gamma=\gamma\left(\mathbb{r}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_81_LAPLASA">l[g]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_82_LAPLASA">g \in \gamma^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_83_LAPLASA">l[g] \in \gamma^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_84_LAPLASA">f(t), 0&lt;t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_85_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_86_LAPLASA">p=\sigma+i \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_87_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_88_LAPLASA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_89_LAPLASA">s \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_90_LAPLASA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_91_LAPLASA">a_{k}^{(s)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_92_LAPLASA">x_{k}^{(s)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_93_LAPLASA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_94_LAPLASA">\leqslant 2 n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_95_LAPLASA">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_96_LAPLASA">a_{k}^{(s)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_97_LAPLASA">x_{k}^{(s)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_98_LAPLASA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_99_LAPLASA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_100_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_101_LAPLASA">\beta(t) f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_102_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_103_LAPLASA">\beta(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_104_LAPLASA">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_105_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_106_LAPLASA">[0, T]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_107_LAPLASA">l_{2}(\beta(t), 0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_108_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_109_LAPLASA">\beta(t) f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_110_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_111_LAPLASA">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_112_LAPLASA">\alpha_{i}^{(k)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_113_LAPLASA">\sum_{i=1}^{k} \alpha_{i}^{(k)} x^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_114_LAPLASA">\boldsymbol{f}(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_115_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_116_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_117_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_118_LAPLASA">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_119_LAPLASA">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_120_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_121_LAPLASA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_122_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_123_LAPLASA">f(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_124_LAPLASA">\varphi(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_125_LAPLASA">\operatorname{re} p&gt;\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_126_LAPLASA">\operatorname{re} p \geqslant \sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_127_LAPLASA">\varphi(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_128_LAPLASA">1 / p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_129_LAPLASA">p_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_130_LAPLASA">\operatorname{re} p=\sigma_{a}, R_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_131_LAPLASA">a_{k j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_132_LAPLASA">p_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_133_LAPLASA">\varphi(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_134_LAPLASA">p_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_135_LAPLASA">r_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_136_LAPLASA">p_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_137_LAPLASA">\varphi(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_138_LAPLASA">\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_139_LAPLASA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_140_LAPLASA">p=z / t+\sigma_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_141_LAPLASA">f^{*}(z)=z^{-s}(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_142_LAPLASA">j(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_143_LAPLASA">\leqslant 2 n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_144_LAPLASA">1 / z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_145_LAPLASA">z_{k}^{(s)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_146_LAPLASA">\omega_{n}^{(s)}(1 / z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_147_LAPLASA">z_{k}^{(s)}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_148_LAPLASA">\omega_{n}^{(s)}(1 / z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_149_LAPLASA">\omega_{n}^{(s)}(1 / z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_150_LAPLASA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_151_LAPLASA">\omega_{n}(1 / z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_152_LAPLASA">a_{k}^{(s)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_153_LAPLASA">s=1,2,3,4,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_154_LAPLASA">n=1(1) 15</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_155_LAPLASA">s=0,01(0,01) 3 ; n=1(1) 10</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/214_156_LAPLASA">7-8</formula>
+  </formulas_aux>
+  <relations n="60">
+    <relation uri="http://libmeta.ru/me/relation/214_1_LAPLASA">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_2_LAPLASA">
+      <rel_text>полуплоскости</rel_text>
+      <target>http://libmeta.ru/me/article/476_POLUPLOSKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_3_LAPLASA">
+      <rel_text>многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_4_LAPLASA">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_5_LAPLASA">
+      <rel_text>производящая</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_6_LAPLASA">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_7_LAPLASA">
+      <rel_text>дифференциальное</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_8_LAPLASA">
+      <rel_text>многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_9_LAPLASA">
+      <rel_text>ортогональных многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/78_ORTOGONAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_10_LAPLASA">
+      <rel_text>формуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_11_LAPLASA">
+      <rel_text>ортогональных многочленов</rel_text>
+      <target>http://libmeta.ru/me/article/78_ORTOGONAL'NYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_12_LAPLASA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_13_LAPLASA">
+      <rel_text>интерполяционной</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_14_LAPLASA">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_15_LAPLASA">
+      <rel_text>переменной</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_16_LAPLASA">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_17_LAPLASA">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_18_LAPLASA">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_19_LAPLASA">
+      <rel_text>квадратурная</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_20_LAPLASA">
+      <rel_text>строится</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_21_LAPLASA">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_22_LAPLASA">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_23_LAPLASA">
+      <rel_text>предполагается</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_24_LAPLASA">
+      <rel_text>прежде</rel_text>
+      <target>http://libmeta.ru/me/article/585_PREDE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_25_LAPLASA">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_26_LAPLASA">
+      <rel_text>Интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_27_LAPLASA">
+      <rel_text>переменной</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_28_LAPLASA">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_29_LAPLASA">
+      <rel_text>параметры</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_30_LAPLASA">
+      <rel_text>рациональных функций</rel_text>
+      <target>http://libmeta.ru/me/article/1000_RATsIONAL'NAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_31_LAPLASA">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_32_LAPLASA">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_33_LAPLASA">
+      <rel_text>квадратурные</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_34_LAPLASA">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_35_LAPLASA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_36_LAPLASA">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_37_LAPLASA">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_38_LAPLASA">
+      <rel_text>связей</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_39_LAPLASA">
+      <rel_text>формул</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_40_LAPLASA">
+      <rel_text>квадратурных</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_41_LAPLASA">
+      <rel_text>интерполяционных</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_42_LAPLASA">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_43_LAPLASA">
+      <rel_text>Задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_44_LAPLASA">
+      <rel_text>вычислены</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_45_LAPLASA">
+      <rel_text>равноотстоящих</rel_text>
+      <target>http://libmeta.ru/me/article/764_RAVNOVE.TIKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_46_LAPLASA">
+      <rel_text>выбора</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_47_LAPLASA">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_48_LAPLASA">
+      <rel_text>расположенные</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_49_LAPLASA">
+      <rel_text>произвольные</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_50_LAPLASA">
+      <rel_text>интерполирования</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_51_LAPLASA">
+      <rel_text>многочленами</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_52_LAPLASA">
+      <rel_text>интерполировании</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_53_LAPLASA">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_54_LAPLASA">
+      <rel_text>квадратурная</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_55_LAPLASA">
+      <rel_text>интерполяционная</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_56_LAPLASA">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_57_LAPLASA">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_58_LAPLASA">
+      <rel_text>Интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_59_LAPLASA">
+      <rel_text>полуплоскости</rel_text>
+      <target>http://libmeta.ru/me/article/476_POLUPLOSKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/214_60_LAPLASA">
+      <rel_text>регулярна</rel_text>
+      <target>http://libmeta.ru/me/article/1037_REGULJaTO</target>
+    </relation>
+  </relations>
+  <text>т р а н с ф о рм а ц и я Л а п л а с а,- в широком смысле - и нтеграл Л а пл а с а вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_1_LAPLASA]]/URI
+\]
+
+где интегрирование производится по нек-рому контуру $URI[[http://libmeta.ru/me/formula/aux/214_1_LAPLASA]]/URI$ в плоскости комплексного переменного $URI[[http://libmeta.ru/me/formula/aux/214_2_LAPLASA]]/URI$, ставящий в соответствие функции $URI[[http://libmeta.ru/me/formula/aux/214_3_LAPLASA]]/URI$, определенной на $URI[[http://libmeta.ru/me/formula/aux/214_4_LAPLASA]]/URI$, аналитич. функцию $URI[[http://libmeta.ru/me/formula/aux/214_5_LAPLASA]]/URI$ комплексного переменного $URI[[http://libmeta.ru/me/formula/aux/214_6_LAPLASA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/214_7_LAPLASA]]/URI$. Многие интегралы вида (1) были рассмотрены П. Лапласом (см. [1门).
+
+В узком смысле под Л. п. подразумевают о д н осторонте преобразование Л аплаc a
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_2_LAPLASA]]/URI
+\]
+
+называемое так в отличие от д в у с т о р о н н е г о преб оразования Л апласа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_3_LAPLASA]]/URI
+\]
+
+Л. П.- частный вид интегра.льных преобразований; преобразования вида (2) или (3) тесно связаны с Фурье преобразованием. Двустороннее Л. П. (3) можно рассматривать как преобразование Фурье функции $URI[[http://libmeta.ru/me/formula/aux/214_8_LAPLASA]]/URI$, одностороннее Л. п. (2) - как преобразование Фурье функции $URI[[http://libmeta.ru/me/formula/aux/214_9_LAPLASA]]/URI$, равной $URI[[http://libmeta.ru/me/formula/aux/214_10_LAPLASA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/214_11_LAPLASA]]/URI$ и равной нулю при $URI[[http://libmeta.ru/me/formula/aux/214_12_LAPLASA]]/URI$.
+
+Подинтегральная комплексная локально суммируемая функция $URI[[http://libmeta.ru/me/formula/aux/214_13_LAPLASA]]/URI$ наз. ф у н к ц и е й - о р и г и на ло м, или просто о р и г и н а ло м; в приложениях часто удобно трактовать переменное $URI[[http://libmeta.ru/me/formula/aux/214_14_LAPLASA]]/URI$ как время. Функция $URI[[http://libmeta.ru/me/formula/aux/214_15_LAPLASA]]/URI$ наз. также п р е о б р а з ов а ни е м Ј а п л а с а оригинала $URI[[http://libmeta.ru/me/formula/aux/214_16_LAPLASA]]/URI$ или и з о бр а ж е н и е м п о Л а п л а с у. Интеграл (2) понимается, вообще говоря, как условно сходящийся на бесконечности. Априори возможны три случая: 1) существует действительное число $URI[[http://libmeta.ru/me/formula/aux/214_17_LAPLASA]]/URI$ такое, что интеграл (2) сходится при $URI[[http://libmeta.ru/me/formula/aux/214_18_LAPLASA]]/URI$, а при $URI[[http://libmeta.ru/me/formula/aux/214_19_LAPLASA]]/URI$ расходится; это число $URI[[http://libmeta.ru/me/formula/aux/214_20_LAPLASA]]/URI$ наз. а б с ц и с с о й (у с л о вно й) с хо д и м о с т и; 2) интеграл (2) сходится при всех $URI[[http://libmeta.ru/me/formula/aux/214_21_LAPLASA]]/URI$, в этом случае полагают $URI[[http://libmeta.ru/me/formula/aux/214_22_LAPLASA]]/URI$ интеграл (2) расходится при всех $URI[[http://libmeta.ru/me/formula/aux/214_23_LAPLASA]]/URI$, в этом случае полагают $URI[[http://libmeta.ru/me/formula/aux/214_24_LAPLASA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/214_25_LAPLASA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/214_26_LAPLASA]]/URI$, то интеграл (2) представляет однозначную аналитич. функцию $URI[[http://libmeta.ru/me/formula/aux/214_27_LAPLASA]]/URI$ в п о л у пл оскости с ходим ости $URI[[http://libmeta.ru/me/formula/aux/214_28_LAPLASA]]/URI$. Обычно ограничиваются рассмотрением абсолютно сходящихся интегралов (2). Точная нижняя грань тех $URI[[http://libmeta.ru/me/formula/aux/214_29_LAPLASA]]/URI$, для к-рых существует интеграл
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_4_LAPLASA]]/URI
+\]
+
+наз. а б с ци с с о й а б с о лю т н о й $URI[[http://libmeta.ru/me/formula/aux/214_30_LAPLASA]]/URI$ д им ос ти $URI[[http://libmeta.ru/me/formula/aux/214_31_LAPLASA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/214_32_LAPLASA]]/URI$ есть нижняя грань тех $URI[[http://libmeta.ru/me/formula/aux/214_33_LAPLASA]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/214_34_LAPLASA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/214_35_LAPLASA]]/URI$; число $URI[[http://libmeta.ru/me/formula/aux/214_36_LAPLASA]]/URI$ иногда наз. пока з а те ле м р оста оригинала $URI[[http://libmeta.ru/me/formula/aux/214_37_LAPLASA]]/URI$.
+
+При нек-рых дополнительных условиях оригинал $URI[[http://libmeta.ru/me/formula/aux/214_38_LAPLASA]]/URI$ однозначно восстанавливается по своему Л. П. $URI[[http://libmeta.ru/me/formula/aux/214_39_LAPLASA]]/URI$. Напр., если $URI[[http://libmeta.ru/me/formula/aux/214_40_LAPLASA]]/URI$ имеет ограниченную вариацию в окрестности точки $URI[[http://libmeta.ru/me/formula/aux/214_41_LAPLASA]]/URI$ или если $URI[[http://libmeta.ru/me/formula/aux/214_42_LAPLASA]]/URI$ кусочногладкая, то имеет место ф о р у у л о б р а ш е и я Л. п.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_5_LAPLASA]]/URI
+\]
+
+Формулы (2) и (4) позволяют получить ряд соотношений между операциями, производимыми над оригиналами и изображениями, а также таблицу изображений для часто встречающихся оригиналов. Все это составляет элементарную часть операционного исчисления.
+
+В математич. физике важные применения находит многомерное Л. П.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_6_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/214_43_LAPLASA]]/URI$ - точка $URI[[http://libmeta.ru/me/formula/aux/214_44_LAPLASA]]/URI$-мерного евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/214_45_LAPLASA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/214_46_LAPLASA]]/URI$ - точка комплексного пространства C $URI[[http://libmeta.ru/me/formula/aux/214_47_LAPLASA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_7_LAPLASA]]/URI
+\]
+
+- скалярное произведение, $URI[[http://libmeta.ru/me/formula/aux/214_48_LAPLASA]]/URI$. . $URI[[http://libmeta.ru/me/formula/aux/214_49_LAPLASA]]/URI$ - элемент объема в $URI[[http://libmeta.ru/me/formula/aux/214_50_LAPLASA]]/URI$. Комплексная функция $URI[[http://libmeta.ru/me/formula/aux/214_51_LAPLASA]]/URI$ в (5) определена и локально суммируема в области интегрирования $URI[[http://libmeta.ru/me/formula/aux/214_52_LAPLASA]]/URI$ - положительном координатном угле пространства $URI[[http://libmeta.ru/me/formula/aux/214_53_LAPLASA]]/URI$. Если функция $URI[[http://libmeta.ru/me/formula/aux/214_54_LAPLASA]]/URI$ ограничена в $URI[[http://libmeta.ru/me/formula/aux/214_55_LAPLASA]]/URI$, то интеграл (5) существует во всех точках $URI[[http://libmeta.ru/me/formula/aux/214_56_LAPLASA]]/URI$, удовлетворяющих условию $URI[[http://libmeta.ru/me/formula/aux/214_57_LAPLASA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/214_58_LAPLASA]]/URI$, к-рое определяет снова положительный координатный угол $URI[[http://libmeta.ru/me/formula/aux/214_59_LAPLASA]]/URI$. Интеграл (5) определяет голоморфную функцию комплексных переменных $URI[[http://libmeta.ru/me/formula/aux/214_60_LAPLASA]]/URI$ в трубчатой об- ласти $URI[[http://libmeta.ru/me/formula/aux/214_61_LAPLASA]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/214_62_LAPLASA]]/URI$ с основанием $URI[[http://libmeta.ru/me/formula/aux/214_63_LAPLASA]]/URI$. В более общем случае в качестве области интегрирования $URI[[http://libmeta.ru/me/formula/aux/214_64_LAPLASA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/214_65_LAPLASA]]/URI$ и основания $URI[[http://libmeta.ru/me/formula/aux/214_66_LAPLASA]]/URI$ трубчатой области можно взять любую пару сопряженных замкнутых выпуклых острых конусов в пространстве $URI[[http://libmeta.ru/me/formula/aux/214_67_LAPLASA]]/URI$ с вершиной в начале координат. При $URI[[http://libmeta.ru/me/formula/aux/214_68_LAPLASA]]/URI$ формула (5) переходит в (2), причем $URI[[http://libmeta.ru/me/formula/aux/214_69_LAPLASA]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/214_70_LAPLASA]]/URI$ - положительная полуось и $URI[[http://libmeta.ru/me/formula/aux/214_71_LAPLASA]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/214_72_LAPLASA]]/URI$ - правая полуплоскость. Л. п. (5) определено и голоморфно и для функций $URI[[http://libmeta.ru/me/formula/aux/214_73_LAPLASA]]/URI$ гораздо более широких классов, напр. для всех быстро убывающих функций, составляющих класс $URI[[http://libmeta.ru/me/formula/aux/214_74_LAPLASA]]/URI$, т. е. для бесконечно дифференцируемых в $URI[[http://libmeta.ru/me/formula/aux/214_75_LAPLASA]]/URI$ функций $URI[[http://libmeta.ru/me/formula/aux/214_76_LAPLASA]]/URI$, убывающих при $URI[[http://libmeta.ru/me/formula/aux/214_77_LAPLASA]]/URI$ вместе со всеми производными быстрее любой степени величины $URI[[http://libmeta.ru/me/formula/aux/214_78_LAPLASA]]/URI$. Элементарные свойства Л. п. с соответствующими изменениями остаются справедливыми и для многомерного случая.
+
+Развитием Л. П. является Л. П. мер и вообще обобщенных функций. Наиболее полно теория Л. п. обобщенных функций развита для важного в математич. физике класса $URI[[http://libmeta.ru/me/formula/aux/214_79_LAPLASA]]/URI$ обобщенных функциї медленного роста, определяемых как линейные непрерывные функционалы на пространстве быстро убывающих основных функций $URI[[http://libmeta.ru/me/formula/aux/214_80_LAPLASA]]/URI$. Такое Л. П. $URI[[http://libmeta.ru/me/formula/aux/214_81_LAPLASA]]/URI$ обобщенной функции медленного роста $URI[[http://libmeta.ru/me/formula/aux/214_82_LAPLASA]]/URI$ снова является обобщенной функцией медленного роста, $URI[[http://libmeta.ru/me/formula/aux/214_83_LAPLASA]]/URI$.
+
+Числени о е пре о б р а зование Ј а пл ас а - численное выполнение преобразования (2), переводящего оригинал $URI[[http://libmeta.ru/me/formula/aux/214_84_LAPLASA]]/URI$, в изображение $URI[[http://libmeta.ru/me/formula/aux/214_85_LAPLASA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/214_86_LAPLASA]]/URI$, а также численное обращение Л. п., т. е. численное нахождение $URI[[http://libmeta.ru/me/formula/aux/214_87_LAPLASA]]/URI$ из интегрального уравнения (2) либо по формуле обрашения (4).
+
+Необходимость применения численного Л. п. возникает вследствие того, что таблицы оригиналов и изображений охватывают далеко не все встречающиеся в практике случаи, а также вследствие того, что орігинал или изображение зачастую выражаются слишком сложными, неудобными для применений формулами.
+
+В случае действительных значений параметра $URI[[http://libmeta.ru/me/formula/aux/214_88_LAPLASA]]/URI$ формулу (2) при нек-рых дополнительных предположениях можно свести к вычислению пнтеграла с весом Лагерра:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_8_LAPLASA]]/URI
+\]
+
+при нек-ром $URI[[http://libmeta.ru/me/formula/aux/214_89_LAPLASA]]/URI$. При нек-рых условиях к интегралу (6) приводится и Л. п. для комплексных $URI[[http://libmeta.ru/me/formula/aux/214_90_LAPLASA]]/URI$ (см. [9]). Для вычисления интеграла в (6) применима квадратурная формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_9_LAPLASA]]/URI
+\]
+
+где коэффициенты $URI[[http://libmeta.ru/me/formula/aux/214_91_LAPLASA]]/URI$ и узлы $URI[[http://libmeta.ru/me/formula/aux/214_92_LAPLASA]]/URI$ выбираются так, чтобы равенство (7) при фиксированном $URI[[http://libmeta.ru/me/formula/aux/214_93_LAPLASA]]/URI$ было точным или для всех многочленов степени $URI[[http://libmeta.ru/me/formula/aux/214_94_LAPLASA]]/URI$, или для некрой системы рациональных функций в зависимости от свойств функции $URI[[http://libmeta.ru/me/formula/aux/214_95_LAPLASA]]/URI$. Коэффициенты $URI[[http://libmeta.ru/me/formula/aux/214_96_LAPLASA]]/URI$ и узлы $URI[[http://libmeta.ru/me/formula/aux/214_97_LAPLASA]]/URI$ для таких квадратурных формул просчитаны для многих значений параметра $URI[[http://libmeta.ru/me/formula/aux/214_98_LAPLASA]]/URI$ (см. [9] - [11]).
+
+Проблема обращения Л. П., как задача отыскания решения $URI[[http://libmeta.ru/me/formula/aux/214_99_LAPLASA]]/URI$ интегрального уравнения первого рода (2), относится к классу некорректных задач и может быть решена, в часгности, посредством регуляризирующего алгоритма.
+
+Задачу численного обращения Л. п. можно также решать методами, основанными на разложении функцииоригинала в функциональный ряд. Сюда в первую очередь можно отнести разложение в степенной ряд, в обобщенный степенной ряд, в ряд по показательным функциям, а также в ряды по ортогональным функциям, в частности по многочленам Чебышева, Лежандра, Якоби и Лагерра. Задача разложения оригинала в ряды по многочленам Чебышева, Лежандра, Якоби в окончательном своем виде сводится к проблеме моментов на конечном промежутке. Пусть известно Л. П. $URI[[http://libmeta.ru/me/formula/aux/214_100_LAPLASA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/214_101_LAPLASA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_10_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/214_102_LAPLASA]]/URI$ - искомая функция, а $URI[[http://libmeta.ru/me/formula/aux/214_103_LAPLASA]]/URI$ - неотрицательная, интегрируемая на $URI[[http://libmeta.ru/me/formula/aux/214_104_LAPLASA]]/URI$ функция. Предполагается, тто функция $URI[[http://libmeta.ru/me/formula/aux/214_105_LAPLASA]]/URI$ пнтегрируема на любом конечном отрезке $URI[[http://libmeta.ru/me/formula/aux/214_106_LAPLASA]]/URI$ Ii принадлежит классу $URI[[http://libmeta.ru/me/formula/aux/214_107_LAPLASA]]/URI$. По изображенио $URI[[http://libmeta.ru/me/formula/aux/214_108_LAPLASA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/214_109_LAPLASA]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/214_110_LAPLASA]]/URI$ строится в виде ряда по смещенным многочленам Якоби, в частности по смещенным многочленам Лежандра, Чебышева первого іи второго рода, коэффициенты к-рого $URI[[http://libmeta.ru/me/formula/aux/214_111_LAPLASA]]/URI$ вычисляются по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_11_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/214_112_LAPLASA]]/URI$ - коэфффициенты смещенного многочлена Лежанцра, Чебышева первого и второго рода соответственно, записанных в виде $URI[[http://libmeta.ru/me/formula/aux/214_113_LAPLASA]]/URI$ (см. [4]).
+
+Пусть задано Л. П. $URI[[http://libmeta.ru/me/formula/aux/214_114_LAPLASA]]/URI$ фұннции $URI[[http://libmeta.ru/me/formula/aux/214_115_LAPLASA]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/214_116_LAPLASA]]/URI$ удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_12_LAPLASA]]/URI
+\]
+
+Тогда $URI[[http://libmeta.ru/me/formula/aux/214_117_LAPLASA]]/URI$ можно разложить в ряд по обобщенным многочленам Лагерра
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_13_LAPLASA]]/URI
+\]
+
+сходящийся к $URI[[http://libmeta.ru/me/formula/aux/214_118_LAPLASA]]/URI$ в среднем. Коэфффициенты $URI[[http://libmeta.ru/me/formula/aux/214_119_LAPLASA]]/URI$ этого ряда вычисляются по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_14_LAPLASA]]/URI
+\]
+
+Другим приемом численного обращения Л. п. является построение квадратурных формул для интеграла обрашения (4).
+
+Изображение $URI[[http://libmeta.ru/me/formula/aux/214_120_LAPLASA]]/URI$ стремится к нулю, если точка $URI[[http://libmeta.ru/me/formula/aux/214_121_LAPLASA]]/URI$ удаляется на бесконечность так, что Rep при этом неограниченно растет. Предполагается, что $URI[[http://libmeta.ru/me/formula/aux/214_122_LAPLASA]]/URI$ убывает по степенному закону, т. е. что $URI[[http://libmeta.ru/me/formula/aux/214_123_LAPLASA]]/URI$ представима в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_15_LAPLASA]]/URI
+\]
+
+a $URI[[http://libmeta.ru/me/formula/aux/214_124_LAPLASA]]/URI$ URI[[http://libmeta.ru/me/relation/214_60_LAPLASA]]/URI в URI[[http://libmeta.ru/me/relation/214_59_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_125_LAPLASA]]/URI$ и непрерывна при $URI[[http://libmeta.ru/me/formula/aux/214_126_LAPLASA]]/URI$. URI[[http://libmeta.ru/me/relation/214_58_LAPLASA]]/URI (4) при этом имеет URI[[http://libmeta.ru/me/relation/214_57_LAPLASA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_16_LAPLASA]]/URI
+\]
+
+Для URI[[http://libmeta.ru/me/relation/214_56_LAPLASA]]/URI (8) построена URI[[http://libmeta.ru/me/relation/214_55_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_54_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_53_LAPLASA]]/URI, основанная на URI[[http://libmeta.ru/me/relation/214_52_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_127_LAPLASA]]/URI$ URI[[http://libmeta.ru/me/relation/214_51_LAPLASA]]/URI от $URI[[http://libmeta.ru/me/formula/aux/214_128_LAPLASA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_17_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/214_129_LAPLASA]]/URI$ - узлы URI[[http://libmeta.ru/me/relation/214_50_LAPLASA]]/URI, URI[[http://libmeta.ru/me/relation/214_49_LAPLASA]]/URI, URI[[http://libmeta.ru/me/relation/214_48_LAPLASA]]/URI справа от прямой $URI[[http://libmeta.ru/me/formula/aux/214_130_LAPLASA]]/URI$ - остаточный член URI[[http://libmeta.ru/me/relation/214_47_LAPLASA]]/URI и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_18_LAPLASA]]/URI
+\]
+
+Коәффициенты $URI[[http://libmeta.ru/me/formula/aux/214_131_LAPLASA]]/URI$ зависят только от выбранных узлов $URI[[http://libmeta.ru/me/formula/aux/214_132_LAPLASA]]/URI$ и для нек-рых способов их URI[[http://libmeta.ru/me/relation/214_46_LAPLASA]]/URI (в частности, Для URI[[http://libmeta.ru/me/relation/214_45_LAPLASA]]/URI узлов) URI[[http://libmeta.ru/me/relation/214_44_LAPLASA]]/URI (см. [12]). URI[[http://libmeta.ru/me/relation/214_43_LAPLASA]]/URI исследования URI[[http://libmeta.ru/me/relation/214_42_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_41_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_40_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_39_LAPLASA]]/URI заключается в выяснении URI[[http://libmeta.ru/me/relation/214_38_LAPLASA]]/URI между своӥствами $URI[[http://libmeta.ru/me/formula/aux/214_133_LAPLASA]]/URI$ и узлами $URI[[http://libmeta.ru/me/formula/aux/214_134_LAPLASA]]/URI$, при к-рых можно быть уверенным в стремлении остаточного члена $URI[[http://libmeta.ru/me/formula/aux/214_135_LAPLASA]]/URI$ URI[[http://libmeta.ru/me/relation/214_37_LAPLASA]]/URI (9) к нулю. Эта URI[[http://libmeta.ru/me/relation/214_36_LAPLASA]]/URI решена для нек-рых конкретных узлов $URI[[http://libmeta.ru/me/formula/aux/214_136_LAPLASA]]/URI$ и для нек-рых частных классов URI[[http://libmeta.ru/me/relation/214_35_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_137_LAPLASA]]/URI$ (см. [13]).
+
+Для URI[[http://libmeta.ru/me/relation/214_34_LAPLASA]]/URI (4) можно строить URI[[http://libmeta.ru/me/relation/214_33_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_32_LAPLASA]]/URI наивысшей URI[[http://libmeta.ru/me/relation/214_31_LAPLASA]]/URI точности в классе URI[[http://libmeta.ru/me/relation/214_30_LAPLASA]]/URI частного вида. Чтобы URI[[http://libmeta.ru/me/relation/214_29_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_28_LAPLASA]]/URI не зависели от $URI[[http://libmeta.ru/me/formula/aux/214_138_LAPLASA]]/URI$ і $URI[[http://libmeta.ru/me/formula/aux/214_139_LAPLASA]]/URI$, выполняется замена URI[[http://libmeta.ru/me/relation/214_27_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_140_LAPLASA]]/URI$. URI[[http://libmeta.ru/me/relation/214_26_LAPLASA]]/URI (4) принимает URI[[http://libmeta.ru/me/relation/214_25_LAPLASA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_19_LAPLASA]]/URI
+\]
+
+Как и URI[[http://libmeta.ru/me/relation/214_24_LAPLASA]]/URI, URI[[http://libmeta.ru/me/relation/214_23_LAPLASA]]/URI, что $URI[[http://libmeta.ru/me/formula/aux/214_141_LAPLASA]]/URI$ и для URI[[http://libmeta.ru/me/relation/214_22_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_21_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_142_LAPLASA]]/URI$ URI[[http://libmeta.ru/me/relation/214_20_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_19_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_18_LAPLASA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_20_LAPLASA]]/URI
+\]
+
+точная для любого URI[[http://libmeta.ru/me/relation/214_17_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_16_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_143_LAPLASA]]/URI$ от URI[[http://libmeta.ru/me/relation/214_15_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_144_LAPLASA]]/URI$. Для этого необходимо и достаточно, чтобы URI[[http://libmeta.ru/me/relation/214_14_LAPLASA]]/URI (10) была URI[[http://libmeta.ru/me/relation/214_13_LAPLASA]]/URI и чтобы узлы $URI[[http://libmeta.ru/me/formula/aux/214_145_LAPLASA]]/URI$ были корнями нек-рой URI[[http://libmeta.ru/me/relation/214_12_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_11_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_146_LAPLASA]]/URI$. Окончательно это условие приводит к URI[[http://libmeta.ru/me/relation/214_10_LAPLASA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/214_21_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/214_147_LAPLASA]]/URI$ корни URI[[http://libmeta.ru/me/relation/214_9_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_148_LAPLASA]]/URI$. Для URI[[http://libmeta.ru/me/relation/214_8_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_149_LAPLASA]]/URI$ известны явное выражение, рекуррентное соотношение, URI[[http://libmeta.ru/me/relation/214_7_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_6_LAPLASA]]/URI, решением к-рого они являются, URI[[http://libmeta.ru/me/relation/214_5_LAPLASA]]/URI URI[[http://libmeta.ru/me/relation/214_4_LAPLASA]]/URI. Для нек-рых частных значений $URI[[http://libmeta.ru/me/formula/aux/214_150_LAPLASA]]/URI$ показано, что корни URI[[http://libmeta.ru/me/relation/214_3_LAPLASA]]/URI $URI[[http://libmeta.ru/me/formula/aux/214_151_LAPLASA]]/URI$ лежат в правой URI[[http://libmeta.ru/me/relation/214_2_LAPLASA]]/URI (см. [13]). В [12] приведены значения узлов и коэффициентов $URI[[http://libmeta.ru/me/formula/aux/214_152_LAPLASA]]/URI$ URI[[http://libmeta.ru/me/relation/214_1_LAPLASA]]/URI (11) для $URI[[http://libmeta.ru/me/formula/aux/214_153_LAPLASA]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/214_154_LAPLASA]]/URI$ с 20 верными десятичными знаками и для $URI[[http://libmeta.ru/me/formula/aux/214_155_LAPLASA]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/214_156_LAPLASA]]/URI$ верными десятичными зна ками.</text>
+  <text_orig>т р а н с ф о рм а ц и я Л а п л а с а,- в широком смысле - и нтеграл Л а пл а с а вида
+
+\[
+F(p)=\int_{L} f(z) e^{-p z} d z
+\]
+
+где интегрирование производится по нек-рому контуру $L$ в плоскости комплексного переменного $z$, ставящий в соответствие функции $f(z)$, определенной на $L$, аналитич. функцию $F(p)$ комплексного переменного $p=\sigma+$ $+i \tau$. Многие интегралы вида (1) были рассмотрены П. Лапласом (см. [1门).
+
+В узком смысле под Л. п. подразумевают о д н осторонте преобразование Л аплаc a
+
+\[
+F(p)=L[f](p)=\int_{0}^{\infty} f(t) e^{-p t} d t,
+\]
+
+называемое так в отличие от д в у с т о р о н н е г о преб оразования Л апласа
+
+\[
+F(p)=L[f](p)=\int_{-\infty}^{\infty} f(t) e^{-p t} d t .
+\]
+
+Л. П.- частный вид интегра.льных преобразований; преобразования вида (2) или (3) тесно связаны с Фурье преобразованием. Двустороннее Л. П. (3) можно рассматривать как преобразование Фурье функции $f(t) e^{-\sigma t}$, одностороннее Л. п. (2) - как преобразование Фурье функции $\varphi(t)$, равной $f(t) e^{-\sigma t}$ при $0&lt;t&lt;\infty$ и равной нулю при $-\infty&lt;t&lt;0$.
+
+Подинтегральная комплексная локально суммируемая функция $f(t)$ наз. ф у н к ц и е й - о р и г и на ло м, или просто о р и г и н а ло м; в приложениях часто удобно трактовать переменное $t$ как время. Функция $F(p)=L[f](p)$ наз. также п р е о б р а з ов а ни е м Ј а п л а с а оригинала $f(t)$ или и з о бр а ж е н и е м п о Л а п л а с у. Интеграл (2) понимается, вообще говоря, как условно сходящийся на бесконечности. Априори возможны три случая: 1) существует действительное число $\sigma_{c}$ такое, что интеграл (2) сходится при $\operatorname{Re} p=\sigma&gt;\sigma_{c}$, а при $\operatorname{Re} p=\sigma&lt;\sigma_{c}$ расходится; это число $\sigma_{c}$ наз. а б с ц и с с о й (у с л о вно й) с хо д и м о с т и; 2) интеграл (2) сходится при всех $p$, в этом случае полагают $\left.\sigma_{c}=-\infty ; 3\right)$ интеграл (2) расходится при всех $p$, в этом случае полагают $\sigma_{c}=$ $=+\infty$. Если $\sigma_{c}&lt;+\infty$, то интеграл (2) представляет однозначную аналитич. функцию $F(p)$ в п о л у пл оскости с ходим ости $\operatorname{Rep}&gt;\sigma_{c}$. Обычно ограничиваются рассмотрением абсолютно сходящихся интегралов (2). Точная нижняя грань тех $\sigma$, для к-рых существует интеграл
+
+\[
+\int_{0}^{\infty}|f(t)| e^{-\sigma t} d t
+\]
+
+наз. а б с ци с с о й а б с о лю т н о й $\mathbf{x} о$ д им ос ти $\sigma_{a}, \sigma_{c} \leqslant \sigma_{a}$. Если $a$ есть нижняя грань тех $\sigma$, для к-рых $|f(t)|=O\left(e^{\sigma t}\right), t \rightarrow+\infty$, то $\sigma_{a}=a$; число $a$ иногда наз. пока з а те ле м р оста оригинала $f(t)$.
+
+При нек-рых дополнительных условиях оригинал $f(t)$ однозначно восстанавливается по своему Л. П. $F(p)$. Напр., если $f(t)$ имеет ограниченную вариацию в окрестности точки $t_{\mathbf{j}}$ или если $f(t)$ кусочногладкая, то имеет место ф о р у у л о б р а ш е и я Л. п.:
+
+\[
+\begin{gathered}
+\stackrel{\circ}{f}\left(t_{0}\right)=\frac{f\left(t_{0}+0\right)+f\left(t_{0}-0\right)}{2}= \\
+=\frac{1}{2 \pi i} \lim _{R \rightarrow \infty} \int_{\sigma-i R}^{\sigma+i R} F(p) e^{p t} d p, \sigma&gt;\sigma_{a} .
+\end{gathered}
+\]
+
+Формулы (2) и (4) позволяют получить ряд соотношений между операциями, производимыми над оригиналами и изображениями, а также таблицу изображений для часто встречающихся оригиналов. Все это составляет элементарную часть операционного исчисления.
+
+В математич. физике важные применения находит многомерное Л. П.
+
+\[
+F(p)=\int_{c^{*}} f(t) e^{-(p, t)} d t
+\]
+
+где $t=\left(t_{1}, \ldots, t_{n}\right)$ - точка $n$-мерного евклидова пространства $\mathbb{R}^{n}, p=\left(p_{1}, \ldots, p_{n}\right)=\sigma+i \tau=\left(\sigma_{1}, \ldots, \sigma_{n}\right)+$ $+i\left(\tau_{1}, \ldots, \tau_{n}\right)$ - точка комплексного пространства C $n, n \geqslant 1$
+
+\[
+(p, t)=(\sigma, t)+i(\tau, t)=p_{1} t_{1}+\ldots+p_{n} t_{n}
+\]
+
+- скалярное произведение, $d t=d t_{1}$. . $d t_{n}$ - элемент объема в $\mathbb{R} n$. Комплексная функция $f(t)$ в (5) определена и локально суммируема в области интегрирования $\mathbb{C} *=\left\{t \in \mathbb{R}^{n} ; \quad t_{j}&gt;0, \quad j=1, \ldots, n\right\}$ - положительном координатном угле пространства $\mathbb{R}^{n}$. Если функция $f(t)$ ограничена в $\mathbb{C} *$, то интеграл (5) существует во всех точках $p \in \mathbb{C}^{n}$, удовлетворяющих условию $\operatorname{Re}(p, t)&gt;$ $&gt;0, \quad t \in \mathbb{C}^{*}$, к-рое определяет снова положительный координатный угол $S=\left\{\sigma \in \mathbb{R}^{n} ; \sigma_{j}&gt;0, j=1, \ldots, n\right\}$. Интеграл (5) определяет голоморфную функцию комплексных переменных $p=\left(p_{1}, \ldots, p_{n}\right)$ в трубчатой об- ласти $\quad T^{s}=S+i \mathbb{R}^{n}=\left\{p=\sigma+i \tau \in \mathbb{C}^{n} ; \quad \sigma \in S, \quad \tau \in \mathbb{R}^{n}\right\}$ пространства $\mathbb{C}^{n}$ с основанием $S$. В более общем случае в качестве области интегрирования $\mathbb{C} *$ в $(5)$ и основания $S$ трубчатой области можно взять любую пару сопряженных замкнутых выпуклых острых конусов в пространстве $\mathbb{R}^{\boldsymbol{n}}$ с вершиной в начале координат. При $n=1$ формула (5) переходит в (2), причем $\mathbb{C} *=\{t \in \mathbb{R}$; $t&gt;0\}$ - положительная полуось и $T^{s}=\{p=\sigma+i \tau \in \mathbb{C}$; $\sigma&gt;0\}$ - правая полуплоскость. Л. п. (5) определено и голоморфно и для функций $f(t)$ гораздо более широких классов, напр. для всех быстро убывающих функций, составляющих класс $\gamma=\vartheta(\mathbb{R} n)$, т. е. для бесконечно дифференцируемых в $\mathbb{R}^{n}$ функций $f(t)$, убывающих при $|\hat{t}| \rightarrow \infty$ вместе со всеми производными быстрее любой степени величины $|t|^{-1}$. Элементарные свойства Л. п. с соответствующими изменениями остаются справедливыми и для многомерного случая.
+
+Развитием Л. П. является Л. П. мер и вообще обобщенных функций. Наиболее полно теория Л. п. обобщенных функций развита для важного в математич. физике класса $\gamma^{\prime}=\gamma^{\prime}(\mathbb{R} n)$ обобщенных функциї медленного роста, определяемых как линейные непрерывные функционалы на пространстве быстро убывающих основных функций $\gamma=\gamma\left(\mathbb{R}^{n}\right)$. Такое Л. П. $L[g]$ обобщенной функции медленного роста $g \in \gamma^{\prime}$ снова является обобщенной функцией медленного роста, $L[g] \in \gamma^{\prime}$.
+
+Числени о е пре о б р а зование Ј а пл ас а - численное выполнение преобразования (2), переводящего оригинал $f(t), 0&lt;t&lt;\infty$, в изображение $F(p)$, $p=\sigma+i \tau$, а также численное обращение Л. п., т. е. численное нахождение $f(t)$ из интегрального уравнения (2) либо по формуле обрашения (4).
+
+Необходимость применения численного Л. п. возникает вследствие того, что таблицы оригиналов и изображений охватывают далеко не все встречающиеся в практике случаи, а также вследствие того, что орігинал или изображение зачастую выражаются слишком сложными, неудобными для применений формулами.
+
+В случае действительных значений параметра $p$ формулу (2) при нек-рых дополнительных предположениях можно свести к вычислению пнтеграла с весом Лагерра:
+
+\[
+F(p)=\frac{1}{p} \int_{0}^{\infty} x^{s} e^{-x} \varphi(x) d x
+\]
+
+при нек-ром $s \geqslant 0$. При нек-рых условиях к интегралу (6) приводится и Л. п. для комплексных $p$ (см. [9]). Для вычисления интеграла в (6) применима квадратурная формула
+
+\[
+\int_{0}^{\infty} x^{s} e^{-x} \varphi(x) d x \approx \sum_{k=1}^{n} A_{k}^{(s)} \varphi\left(x_{k}^{(s)}\right),
+\]
+
+где коэффициенты $A_{k}^{(s)}$ и узлы $x_{k}^{(s)}$ выбираются так, чтобы равенство (7) при фиксированном $n$ было точным или для всех многочленов степени $\leqslant 2 n-1$, или для некрой системы рациональных функций в зависимости от свойств функции $\varphi(x)$. Коэффициенты $A_{k}^{(s)}$ и узлы $x_{k}^{(s)}$ для таких квадратурных формул просчитаны для многих значений параметра $s$ (см. [9] - [11]).
+
+Проблема обращения Л. П., как задача отыскания решения $f(x)$ интегрального уравнения первого рода (2), относится к классу некорректных задач и может быть решена, в часгности, посредством регуляризирующего алгоритма.
+
+Задачу численного обращения Л. п. можно также решать методами, основанными на разложении функцииоригинала в функциональный ряд. Сюда в первую очередь можно отнести разложение в степенной ряд, в обобщенный степенной ряд, в ряд по показательным функциям, а также в ряды по ортогональным функциям, в частности по многочленам Чебышева, Лежандра, Якоби и Лагерра. Задача разложения оригинала в ряды по многочленам Чебышева, Лежандра, Якоби в окончательном своем виде сводится к проблеме моментов на конечном промежутке. Пусть известно Л. П. $F(p)$ функции $\beta(t) f(t)$ :
+
+\[
+F(p)=\int_{0}^{\infty} e^{-p t} \beta(t) f(t) d t,
+\]
+
+где $f(t)$ - искомая функция, а $\beta(t)$ - неотрицательная, интегрируемая на $[0, \infty)$ функция. Предполагается, тто функция $f(t)$ пнтегрируема на любом конечном отрезке $[0, T]$ II принадлежит классу $L_{2}(\beta(t), 0, \infty)$. По изображенио $F(p)$ функции $\beta(t) f(t)$ функция $f(t)$ строится в виде ряда по смещенным многочленам Якоби, в частности по смещенным многочленам Лежандра, Чебышева первого іи второго рода, коэффициенты к-рого $a_{k}$ вычисляются по формуле
+
+\[
+a_{k}=\sum_{i=0}^{k} \alpha_{i}^{(k)} F(i)
+\]
+
+где $\alpha_{i}^{(k)}$ - коэфффициенты смещенного многочлена Лежанцра, Чебышева первого и второго рода соответственно, записанных в виде $\sum_{i=1}^{k} \alpha_{i}^{(k)} x^{i}$ (см. [4]).
+
+Пусть задано Л. П. $\boldsymbol{F}(p)$ фұннции $f(t)$, причем $f(t)$ удовлетворяет условию
+
+\[
+\int_{0}^{\infty} e^{-t^{\prime}-\lambda}|f(t)|^{2} d t&lt;\infty, \lambda&gt;-1
+\]
+
+Тогда $f(t)$ можно разложить в ряд по обобщенным многочленам Лагерра
+
+\[
+f(t)=t^{\lambda} \sum_{k=0}^{\infty} a_{k} \frac{k !}{\Gamma(k+\lambda+1)} L_{k}^{(\lambda)}(t),
+\]
+
+сходящийся к $f(t)$ в среднем. Коэфффициенты $a_{k}$ этого ряда вычисляются по формуле
+
+\[
+a_{k}=\frac{(-1)^{k}}{k !} \frac{d^{k}}{d z^{k}}\left\{\frac{1}{z^{\lambda+1}} F\left(\frac{1}{z}\right)\right\}_{z=1} .
+\]
+
+Другим приемом численного обращения Л. п. является построение квадратурных формул для интеграла обрашения (4).
+
+Изображение $F(p)$ стремится к нулю, если точка $p$ удаляется на бесконечность так, что Rep при этом неограниченно растет. Предполагается, что $F(p)$ убывает по степенному закону, т. е. что $F(p)$ представима в виде
+
+\[
+F(p)=\frac{1}{p^{s}} \varphi(p), s&gt;0
+\]
+
+a $\varphi(p)$ регулярна в полуплоскости $\operatorname{Re} p&gt;\sigma_{a}$ и непрерывна при $\operatorname{Re} p \geqslant \sigma_{a}$. Интеграл (4) при этом имеет вид
+
+\[
+f(t)=\frac{1}{2 \pi i} \int_{\sigma-i \infty}^{\sigma+i \infty} e^{p t} p^{-s} \varphi(p) d p .
+\]
+
+Для интеграла (8) построена интерполяционная квадратурная формула, основанная на интерполировании $\varphi(p)$ многочленами от $1 / p$ :
+
+\[
+f(t)=\sum_{k=0}^{n} A_{k}^{(s)}(t) \varphi\left(p_{k}\right)+R_{n},
+\]
+
+где $p_{k}$ - узлы интерполирования, произвольные, расположенные справа от прямой $\operatorname{Re} p=\sigma_{a}, R_{n}$ - остаточный член формулы и
+
+\[
+A_{k}^{(s)}(t)=\sum_{j=0}^{n} \frac{a_{k j} t^{s+j-1}}{\Gamma(s+j)}
+\]
+
+Коәффициенты $a_{k j}$ зависят только от выбранных узлов $p_{k}$ и для нек-рых способов их выбора (в частности, Для равноотстоящих узлов) вычислены (см. [12]). Задача исследования сходимости интерполяционных квадратурных формул заключается в выяснении связей между своӥствами $\varphi(p)$ и узлами $p_{k}$, при к-рых можно быть уверенным в стремлении остаточного члена $R_{n}$ формулы (9) к нулю. Эта задача решена для нек-рых конкретных узлов $p_{k}$ и для нек-рых частных классов функций $\varphi(p)$ (см. [13]).
+
+Для интеграла (4) можно строить квадратурные формулы наивысшей степени точности в классе рациональных функций частного вида. Чтобы параметры формулы не зависели от $\sigma_{a}$ і $t$, выполняется замена переменной $p=z / t+\sigma_{a}$. Интеграл (4) принимает вид
+
+\[
+\begin{gathered}
+f(t)=\frac{1}{2 \pi i} \frac{e^{\sigma_{a} t}}{t} \int_{\varepsilon-i \infty}^{\varepsilon+i_{\infty}} e^{z} F^{:}(z) d z=\frac{e^{\sigma_{a} t}}{t} J(s), \\
+\varepsilon&gt;0, F^{*}(z)=F\left(\frac{z}{t}+\sigma_{a}\right)=F(p) .
+\end{gathered}
+\]
+
+Как и прежде, предполагается, что $F^{*}(z)=z^{-s}(p)$ и для вычисления интеграла $J(s)$ строится квадратурная формула
+
+\[
+J(s) \approx \sum_{k=1}^{n} A_{k}^{(s)} \varphi\left(z_{k}^{(s)}\right)
+\]
+
+точная для любого многочлена степени $\leqslant 2 n-1$ от переменной $1 / z$. Для этого необходимо и достаточно, чтобы формула (10) была интерполяционной и чтобы узлы $z_{k}^{(S)}$ были корнями нек-рой системы ортогональных многочленов $\omega_{n}^{(s)}(1 / z)$. Окончательно это условие приводит к формуле
+
+\[
+f(t) \approx \frac{e^{\sigma_{a} t}}{t} \sum_{k=1}^{n} A_{k}^{(s)}\left(z_{k}^{(s)}\right)^{s} F\left(\frac{z_{k}^{(s)}}{t}+\sigma_{a}\right),
+\]
+
+где $z_{k}^{(s)}-$ корни ортогональных многочленов $\omega_{n}^{(s)}(1 / z)$. Для многочленов $\omega_{n}^{(s)}(1 / z)$ известны явное выражение, рекуррентное соотношение, дифференциальное уравнение, решением к-рого они являются, производящая функция. Для нек-рых частных значений $s$ показано, что корни многочленов $\omega_{n}(1 / z)$ лежат в правой полуплоскости (см. [13]). В [12] приведены значения узлов и коэффициентов $A_{k}^{(s)}$ формулы (11) для $s=1,2,3,4,5$; $n=1(1) 15$ с 20 верными десятичными знаками и для $s=0,01(0,01) 3 ; n=1(1) 10$ с $7-8$ верными десятичными зна ками.
+
+Jum.: [1] L a p l a c e P. S., Théorie analytique des probabilités, P., 1812; [2] B а н д е p П о л ь Б., Б р е м м е р Х., Операционное исчисление на основе двустороннего преобразования Лапласа, пер. с англ., М., 1952; [3] Б о х н е p С., Лекции об интегралах фурье, пер. с англ., М., 1962; [4] Д и тк и н В. А., П р у д н и к о в А. П., Операционное исчисление, М., 1966; [5] и х ж е, Интегральные преобразования и onepauионное исчисление, 2 изп., M., $1974 ;$ [6] D o e t s c h G.,
+Handbuch der Laplace-Transformation, Bd $1-3$, Basel, $1950-56 ;$ [7] В л а д и м и р о в В. С., Обобщенные функции в математической физике, М., 1976 ; [8]' 3 е м а н я н А. Г., Интегральные преобразования обобщенных функций, пер. с англ., М., т е ли с к и й А. С., Таблицы для численного преобразования Лапласа и вычисления интегралов вида $\int_{0}^{\infty} x^{s} e^{-x} f(x) d x$, Минск, 1962; [10] S a lz e r H. E., Z u c k e r R., &quot;Bull. Amer. Math.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4a7900e4370936af45d6g-1.jpg?height=45&amp;width=826&amp;top_left_y=1831&amp;top_left_x=986)
+л я H. С., &quot;Изв. АН БССР. Сер. физ.-матем. наук&quot;, 1965, № 3,
+с. $15-23 ;[12]$ К р ы л о в В. И., С к о б л я Н. С., Справочная книга по численному обращению преобразования Лапласа, Минск, 1.968; [13] и х ж е, Методы приближенного преобразования Фурье и обращения преобразования Лапласа, М.,</text_orig>
+</article>

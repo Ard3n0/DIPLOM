@@ -1,0 +1,288 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/951_ChAPLYGINA" alphabetic_pos="951">
+  <title>ЧАПЛЫГИНА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>416</start>
+    <end>416</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] Ч а п л ы г и н С. А., Новый метод приближенного интегрирования пифференциальных уравнений, М.-Ј., 1950; академика С. А. Чаплыгина, &quot;тр. ऍаги», 1932, в. 141, с. 1-32; [3] М и х ли н С. Г. С м о л и ц к и й Х. Л., Приближенные методы решения дифференциальных и интегральных уравне-ний, М., 1965 , с. $22-26$.</literature_orig>
+    <unit>
+      <author>Чаплыгин С. А.</author>
+      <title>Новый метод приближенного интегрирования пифференциальных уравнений, М.-Ј.</title>
+      <publication/>
+      <year>1950</year>
+      <other>&quot;тр. ऍаги», 1932, в. 141, с. 1-32; [3] М и х ли н С. Г. С м о л и ц к и й Х. Л., Приближенные методы решения дифференциальных и интегральных уравне-ний, М., 1965, с. $22-26$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/951_1_ChAPLYGINA">\begin{gathered}y^{\prime}=f(x, y), \quad(x, y) \in R, \quad y\left(x_{0}\right)=y_{0}, \\R=\left\{(x, y)|| x-x_{0}|\leqslant a, \quad| y-y_{0} \mid \leqslant b\right\}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_2_ChAPLYGINA">u(x)&lt;y(x)&lt;v(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_3_ChAPLYGINA">u_{0}(x)&lt;u_{1}(x)&lt;y(x)&lt;v_{1}(x)&lt;v_{0}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_4_ChAPLYGINA">z=k(x) y+p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_5_ChAPLYGINA">z=l(x) y+q(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_6_ChAPLYGINA">\begin{gathered}l f(x)=\frac{f\left(x, v_{0}(x)\right)-f\left(x, u_{0}(x)\right)}{v_{0}(x)-u_{0}(x)}, \\q(x)=f\left(x, u_{0}(x)\right)-u_{0}(x) l(x),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_7_ChAPLYGINA">k(x) y+p(x)&lt;f(x, y)&lt;l(x) y+q(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_8_ChAPLYGINA">v_{n}-u_{n} \leqslant c / 2^{2^{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/951_9_ChAPLYGINA">\begin{gathered}u_{n}(x)=u_{n-1}(x)+ \\+\int_{x_{0}}^{x} e^{-k(x-t)}\left[f\left(t, u_{n-1}(t)\right)-u_{n-1}^{\prime}(t)\right] d t, \\v_{n}(x)=v_{n-1}(x)+ \\+\int_{x_{0}}^{x} e^{-k(x-t)}\left[v_{n-1}^{\prime}(t)-f\left(t, v_{n-1}(t)\right)\right] d t,\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_1_ChAPLYGINA">y(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_2_ChAPLYGINA">y=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_3_ChAPLYGINA">y=v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_4_ChAPLYGINA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_5_ChAPLYGINA">\left(x_{0}, y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_6_ChAPLYGINA">x&gt;x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_7_ChAPLYGINA">u^{\prime}(x)-f(x, u(x))&lt;0, \quad v^{\prime}(x)-f(x, v(x))&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_8_ChAPLYGINA">x&gt;x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_9_ChAPLYGINA">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_10_ChAPLYGINA">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_11_ChAPLYGINA">u_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_12_ChAPLYGINA">v_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_13_ChAPLYGINA">u_{1}(x), v_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_14_ChAPLYGINA">\frac{\partial^{2} f}{\partial y^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_15_ChAPLYGINA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_16_ChAPLYGINA">u_{1}(x), v_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_17_ChAPLYGINA">y\left(x_{0}\right)=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_18_ChAPLYGINA">\frac{\partial^{2} f}{\partial y^{2}}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_19_ChAPLYGINA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_20_ChAPLYGINA">x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_21_ChAPLYGINA">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_22_ChAPLYGINA">x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_23_ChAPLYGINA">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_24_ChAPLYGINA">y=u_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_25_ChAPLYGINA">k(x)=f_{y}^{\prime}\left(x, u_{0}(x)\right), \quad p(x)=f\left(x, u_{0}(x)\right)-u_{0}(x) k(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_26_ChAPLYGINA">y=u_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_27_ChAPLYGINA">y=v_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_28_ChAPLYGINA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_29_ChAPLYGINA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_30_ChAPLYGINA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_31_ChAPLYGINA">y=u_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_32_ChAPLYGINA">y^{\prime}=k(x) y+p(x), y\left(x_{0}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_33_ChAPLYGINA">=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_34_ChAPLYGINA">y=v_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_35_ChAPLYGINA">y^{\prime}=l(x) y+p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_36_ChAPLYGINA">y\left(x_{0}\right)=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_37_ChAPLYGINA">u_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_38_ChAPLYGINA">v_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_39_ChAPLYGINA">u_{2}(x), v_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_40_ChAPLYGINA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_41_ChAPLYGINA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_42_ChAPLYGINA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_43_ChAPLYGINA">u_{n}(x), v_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_44_ChAPLYGINA">u_{n-1}(x), v_{n-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_45_ChAPLYGINA">\frac{\partial^{2} f}{\partial y^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_46_ChAPLYGINA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_47_ChAPLYGINA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_48_ChAPLYGINA">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_49_ChAPLYGINA">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_50_ChAPLYGINA">u_{n}(x), v_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_51_ChAPLYGINA">u_{n-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_52_ChAPLYGINA">v_{n-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_53_ChAPLYGINA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/951_54_ChAPLYGINA">u_{0}(x), v_{0}(x)</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/me/relation/951_1_ChAPLYGINA">
+      <rel_text>предложен</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_2_ChAPLYGINA">
+      <rel_text>приближений</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_3_ChAPLYGINA">
+      <rel_text>формуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_4_ChAPLYGINA">
+      <rel_text>скорость сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/331_SHODIMOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_5_ChAPLYGINA">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_6_ChAPLYGINA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_7_ChAPLYGINA">
+      <rel_text>приближений</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_8_ChAPLYGINA">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/951_9_ChAPLYGINA">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+  </relations>
+  <text>метод приближенного репения задачи Коши для системы обыкновенных дифференциальных уравнений 1-го порядка, состояций в одновременном построении двух семейств последовательных приближений к ее решению. Напр., в случае задачи Коши для одного уравнения 1-го порядка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_1_ChAPLYGINA]]/URI
+\]
+
+одно из указанных семейств приближает решение с недостатком, а другое - с избытком.
+
+В основе метода лежит Чаплыгина теорема о дифференциальных неравенствах. Пусть $URI[[http://libmeta.ru/me/formula/aux/951_1_ChAPLYGINA]]/URI$ - решение задачи (1) и пусть кривые $URI[[http://libmeta.ru/me/formula/aux/951_2_ChAPLYGINA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/951_3_ChAPLYGINA]]/URI$ целиком лөжат в прямоугольнике $URI[[http://libmeta.ru/me/formula/aux/951_4_ChAPLYGINA]]/URI$, проходят через точку $URI[[http://libmeta.ru/me/formula/aux/951_5_ChAPLYGINA]]/URI$ и при $URI[[http://libmeta.ru/me/formula/aux/951_6_ChAPLYGINA]]/URI$ удовлетворяют неравенствам
+
+$URI[[http://libmeta.ru/me/formula/aux/951_7_ChAPLYGINA]]/URI$.
+
+Тогда при $URI[[http://libmeta.ru/me/formula/aux/951_8_ChAPLYGINA]]/URI$ справедливы неравенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_2_ChAPLYGINA]]/URI
+\]
+
+Функции $URI[[http://libmeta.ru/me/formula/aux/951_9_ChAPLYGINA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/951_10_ChAPLYGINA]]/URI$, удовлетворяющие условиям теоремы Чаплыгина, дают двустороннюю оценку для решения задачи (1).
+
+Если найдена пара начальных приближений $URI[[http://libmeta.ru/me/formula/aux/951_11_ChAPLYGINA]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/951_12_ChAPLYGINA]]/URI$, удовлетворяющих условиям (2), то Ч. м. позволяет построить пару $URI[[http://libmeta.ru/me/formula/aux/951_13_ChAPLYGINA]]/URI$ более точных приближений, удовлетворяющих условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_3_ChAPLYGINA]]/URI
+\]
+
+В случае когда $URI[[http://libmeta.ru/me/formula/aux/951_14_ChAPLYGINA]]/URI$ сохраняет знак в области $URI[[http://libmeta.ru/me/formula/aux/951_15_ChAPLYGINA]]/URI$, пара $URI[[http://libmeta.ru/me/formula/aux/951_16_ChAPLYGINA]]/URI$ может быть получена пугем решения двух линейных дифференциальных уравнений с начальным условием $URI[[http://libmeta.ru/me/formula/aux/951_17_ChAPLYGINA]]/URI$. Если, напр., $URI[[http://libmeta.ru/me/formula/aux/951_18_ChAPLYGINA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/951_19_ChAPLYGINA]]/URI$, то любая кривая, по к-роӥ плоскость $URI[[http://libmeta.ru/me/formula/aux/951_20_ChAPLYGINA]]/URI$ const пересекает поверхность $URI[[http://libmeta.ru/me/formula/aux/951_21_ChAPLYGINA]]/URI$, выпукла вниз, и каждая ее дуга лежит ниже хорды и выше касательной, проведенных из нек-рой ее точки. Если при нек-ром $URI[[http://libmeta.ru/me/formula/aux/951_22_ChAPLYGINA]]/URI$ const уравнение касательной к кривой $URI[[http://libmeta.ru/me/formula/aux/951_23_ChAPLYGINA]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/951_24_ChAPLYGINA]]/URI$ :
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_4_ChAPLYGINA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/951_25_ChAPLYGINA]]/URI$,
+
+а уравнение хорды, проходящей через точки $URI[[http://libmeta.ru/me/formula/aux/951_26_ChAPLYGINA]]/URI$
+
+и $URI[[http://libmeta.ru/me/formula/aux/951_27_ChAPLYGINA]]/URI$ той же кривой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_5_ChAPLYGINA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_6_ChAPLYGINA]]/URI
+\]
+
+то для этого значения $URI[[http://libmeta.ru/me/formula/aux/951_28_ChAPLYGINA]]/URI$ имеет место неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_7_ChAPLYGINA]]/URI
+\]
+
+Условия (4) выполняются равномерно по $URI[[http://libmeta.ru/me/formula/aux/951_29_ChAPLYGINA]]/URI$ в области $URI[[http://libmeta.ru/me/formula/aux/951_30_ChAPLYGINA]]/URI$; решение $URI[[http://libmeta.ru/me/formula/aux/951_31_ChAPLYGINA]]/URI$ URI[[http://libmeta.ru/me/relation/951_9_ChAPLYGINA]]/URI Коши $URI[[http://libmeta.ru/me/formula/aux/951_32_ChAPLYGINA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/951_33_ChAPLYGINA]]/URI$ и решение $URI[[http://libmeta.ru/me/formula/aux/951_34_ChAPLYGINA]]/URI$ URI[[http://libmeta.ru/me/relation/951_8_ChAPLYGINA]]/URI Коши $URI[[http://libmeta.ru/me/formula/aux/951_35_ChAPLYGINA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/951_36_ChAPLYGINA]]/URI$ удовлетворяют условию (2). Можно показать, что они удовлетворяют и условию (3). Зная пару $URI[[http://libmeta.ru/me/formula/aux/951_37_ChAPLYGINA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/951_38_ChAPLYGINA]]/URI$, можно тем же способом построить слөдующую пару $URI[[http://libmeta.ru/me/formula/aux/951_39_ChAPLYGINA]]/URI$ и т. д. Процесс очень быстро сходится:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_8_ChAPLYGINA]]/URI
+\]
+
+где константа $URI[[http://libmeta.ru/me/formula/aux/951_40_ChAPLYGINA]]/URI$ не зависит ни от $URI[[http://libmeta.ru/me/formula/aux/951_41_ChAPLYGINA]]/URI$, ни от $URI[[http://libmeta.ru/me/formula/aux/951_42_ChAPLYGINA]]/URI$.
+
+Второй способ построения уточненных URI[[http://libmeta.ru/me/relation/951_7_ChAPLYGINA]]/URI $URI[[http://libmeta.ru/me/formula/aux/951_43_ChAPLYGINA]]/URI$ по известным $URI[[http://libmeta.ru/me/formula/aux/951_44_ChAPLYGINA]]/URI$ не требует сохранения знака $URI[[http://libmeta.ru/me/formula/aux/951_45_ChAPLYGINA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/951_46_ChAPLYGINA]]/URI$. В этом способе
+
+\[
+URI[[http://libmeta.ru/me/formula/main/951_9_ChAPLYGINA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/951_47_ChAPLYGINA]]/URI$-Липшица константа URI[[http://libmeta.ru/me/relation/951_6_ChAPLYGINA]]/URI $URI[[http://libmeta.ru/me/formula/aux/951_48_ChAPLYGINA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/951_49_ChAPLYGINA]]/URI$. И в этом случае пары URI[[http://libmeta.ru/me/relation/951_5_ChAPLYGINA]]/URI $URI[[http://libmeta.ru/me/formula/aux/951_50_ChAPLYGINA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/951_51_ChAPLYGINA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/951_52_ChAPLYGINA]]/URI$ удовлетворяют условию (3) равномерно по $URI[[http://libmeta.ru/me/formula/aux/951_53_ChAPLYGINA]]/URI$, но URI[[http://libmeta.ru/me/relation/951_4_ChAPLYGINA]]/URI меньше, чем в URI[[http://libmeta.ru/me/relation/951_3_ChAPLYGINA]]/URI (5).
+
+Основная трудность в применении Ч. м. состоит в построении начальных URI[[http://libmeta.ru/me/relation/951_2_ChAPLYGINA]]/URI $URI[[http://libmeta.ru/me/formula/aux/951_54_ChAPLYGINA]]/URI$.
+
+Метод URI[[http://libmeta.ru/me/relation/951_1_ChAPLYGINA]]/URI С. А. Чаплыгиным в 1919.</text>
+  <text_orig>метод приближенного репения задачи Коши для системы обыкновенных дифференциальных уравнений 1-го порядка, состояций в одновременном построении двух семейств последовательных приближений к ее решению. Напр., в случае задачи Коши для одного уравнения 1-го порядка
+
+\[
+\begin{gathered}
+y^{\prime}=f(x, y), \quad(x, y) \in R, \quad y\left(x_{0}\right)=y_{0}, \\
+R=\left\{(x, y)|| x-x_{0}|\leqslant a, \quad| y-y_{0} \mid \leqslant b\right\}
+\end{gathered}
+\]
+
+одно из указанных семейств приближает решение с недостатком, а другое - с избытком.
+
+В основе метода лежит Чаплыгина теорема о дифференциальных неравенствах. Пусть $y(x)$ - решение задачи (1) и пусть кривые $y=u(x)$ и $y=v(x)$ целиком лөжат в прямоугольнике $R$, проходят через точку $\left(x_{0}, y_{0}\right)$ и при $x&gt;x_{0}$ удовлетворяют неравенствам
+
+$u^{\prime}(x)-f(x, u(x))&lt;0, \quad v^{\prime}(x)-f(x, v(x))&gt;0$.
+
+Тогда при $x&gt;x_{0}$ справедливы неравенства
+
+\[
+u(x)&lt;y(x)&lt;v(x) .
+\]
+
+Функции $u(x)$ и $v(x)$, удовлетворяющие условиям теоремы Чаплыгина, дают двустороннюю оценку для решения задачи (1).
+
+Если найдена пара начальных приближений $u_{0}(x)$. $v_{0}(x)$, удовлетворяющих условиям (2), то Ч. м. позволяет построить пару $u_{1}(x), v_{1}(x)$ более точных приближений, удовлетворяющих условиям
+
+\[
+u_{0}(x)&lt;u_{1}(x)&lt;y(x)&lt;v_{1}(x)&lt;v_{0}(x) .
+\]
+
+В случае когда $\frac{\partial^{2} f}{\partial y^{2}}$ сохраняет знак в области $R$, пара $u_{1}(x), v_{1}(x)$ может быть получена пугем решения двух линейных дифференциальных уравнений с начальным условием $y\left(x_{0}\right)=y_{0}$. Если, напр., $\frac{\partial^{2} f}{\partial y^{2}}&gt;0$ в $R$, то любая кривая, по к-роӥ плоскость $x=$ const пересекает поверхность $z=f(x, y)$, выпукла вниз, и каждая ее дуга лежит ниже хорды и выше касательной, проведенных из нек-рой ее точки. Если при нек-ром $x=$ const уравнение касательной к кривой $z=f(x, y)$ в точке $y=u_{0}(x)$ :
+
+где
+
+\[
+z=k(x) y+p(x)
+\]
+
+$k(x)=f_{y}^{\prime}\left(x, u_{0}(x)\right), \quad p(x)=f\left(x, u_{0}(x)\right)-u_{0}(x) k(x)$,
+
+а уравнение хорды, проходящей через точки $y=u_{0}(x)$
+
+и $y=v_{0}(x)$ той же кривой
+
+\[
+z=l(x) y+q(x)
+\]
+
+где
+
+\[
+\begin{gathered}
+l f(x)=\frac{f\left(x, v_{0}(x)\right)-f\left(x, u_{0}(x)\right)}{v_{0}(x)-u_{0}(x)}, \\
+q(x)=f\left(x, u_{0}(x)\right)-u_{0}(x) l(x),
+\end{gathered}
+\]
+
+то для этого значения $x$ имеет место неравенство
+
+\[
+k(x) y+p(x)&lt;f(x, y)&lt;l(x) y+q(x) .
+\]
+
+Условия (4) выполняются равномерно по $x$ в области $R$; решение $y=u_{1}(x)$ задачи Коши $y^{\prime}=k(x) y+p(x), y\left(x_{0}\right)=$ $=y_{0}$ и решение $y=v_{1}(x)$ задачи Коши $y^{\prime}=l(x) y+p(x)$, $y\left(x_{0}\right)=y_{0}$ удовлетворяют условию (2). Можно показать, что они удовлетворяют и условию (3). Зная пару $u_{1}(x)$, $v_{1}(x)$, можно тем же способом построить слөдующую пару $u_{2}(x), v_{2}(x)$ и т. д. Процесс очень быстро сходится:
+
+\[
+v_{n}-u_{n} \leqslant c / 2^{2^{n}}
+\]
+
+где константа $c$ не зависит ни от $x$, ни от $n$.
+
+Второй способ построения уточненных приближений $u_{n}(x), v_{n}(x)$ по известным $u_{n-1}(x), v_{n-1}(x)$ не требует сохранения знака $\frac{\partial^{2} f}{\partial y^{2}}$ в $R$. В этом способе
+
+\[
+\begin{gathered}
+u_{n}(x)=u_{n-1}(x)+ \\
++\int_{x_{0}}^{x} e^{-k(x-t)}\left[f\left(t, u_{n-1}(t)\right)-u_{n-1}^{\prime}(t)\right] d t, \\
+v_{n}(x)=v_{n-1}(x)+ \\
++\int_{x_{0}}^{x} e^{-k(x-t)}\left[v_{n-1}^{\prime}(t)-f\left(t, v_{n-1}(t)\right)\right] d t,
+\end{gathered}
+\]
+
+где $k$-Липшица константа функции $f(x, y)$ в $\boldsymbol{R}$. И в этом случае пары функций $u_{n}(x), v_{n}(x)$ и $u_{n-1}(x)$, $v_{n-1}(x)$ удовлетворяют условию (3) равномерно по $x$, но скорость сходимости меньше, чем в формуле (5).
+
+Основная трудность в применении Ч. м. состоит в построении начальных приближений $u_{0}(x), v_{0}(x)$.
+
+Метод предложен С. А. Чаплыгиным в 1919.
+
+Лuт.: [1] Ч а п л ы г и н С. А., Новый метод приближенного интегрирования пифференциальных уравнений, М.-Ј., 1950; академика С. А. Чаплыгина, &quot;Тр. ऍАГИ», 1932, в. 141, с. 1-32; [3] М и х ли н С. Г. С м о л и ц к и й Х. Л., Приближенные методы решения дифференциальных и интегральных уравне-
+ний, М., 1965 , с. $22-26$.</text_orig>
+</article>

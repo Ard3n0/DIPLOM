@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/536_POSLEDOVATEL'NYH" alphabetic_pos="536">
+  <title>ПОСЛЕДОВАТЕЛЬНЫХ ПРИБЛИЖЕНИЙ МЕТоД</title>
+  <authors>
+    <author>Б. В. Хведелидзе</author>
+  </authors>
+  <pages>
+    <start>257</start>
+    <end>258</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Ф а д д е е в Д. К., Ф а д д е е в а В. Н., Вычислительные методы линейной алігебры, 2 изд., М. - Ј., 1963 ;![](https://cdn.mathpix.com/cropped/2023_07_08_08129f7e2037ba97fd49g-1.jpg?height=50&amp;width=801&amp;top_left_y=2230&amp;top_left_x=989)![](https://cdn.mathpix.com/cropped/2023_07_08_08129f7e2037ba97fd49g-1.jpg?height=42&amp;width=804&amp;top_left_y=2268&amp;top_left_x=987)ная математика, пер. с нем., М., 1969.</literature_orig>
+    <unit>
+      <author>Фаддеев Д. К.</author>
+      <author>Фаддеева В. Н.</author>
+      <title>Вычислительные методы линейной алігебры</title>
+      <publication>2 изд., М. - Ј.</publication>
+      <year>1963</year>
+      <other>пер. с нем., М., 1969.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/536_1_POSLEDOVATEL'NYH">x=A(x), \quad x \in E .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_2_POSLEDOVATEL'NYH">x_{n+1}=A x_{n}, \quad n=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_3_POSLEDOVATEL'NYH">S=\left\{x \in E: \rho\left(x, x_{0}\right) \leqslant \delta\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_4_POSLEDOVATEL'NYH">\rho(A x, A y) \leqslant \alpha \rho(x, y), 0&lt;\alpha=\text { const }&lt;1 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_5_POSLEDOVATEL'NYH">\rho\left(x_{n}, x_{*}\right) \leqslant \frac{m}{1-\alpha} \alpha^{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_6_POSLEDOVATEL'NYH">\rho(x, y)=\max _{i}\left|x_{i}-y_{i}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_7_POSLEDOVATEL'NYH">\sum_{k=1}^{n} a_{i k} \mid&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_8_POSLEDOVATEL'NYH">\rho(x, y)=\sqrt{\sum_{i=1}^{n}\left(x_{i}-y_{i}\right)^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_9_POSLEDOVATEL'NYH">\sum_{i=1}^{n} \sum_{k=1}^{n} a_{i k}^{2}&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_10_POSLEDOVATEL'NYH">A x(t)=f(t)+\lambda \int_{a}^{b} K(t, s) x(s) d s,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/536_11_POSLEDOVATEL'NYH">|\lambda|&lt;\left(\int_{a}^{b} \int_{a}^{b} K^{2}(s, t) d t d s\right)^{-1 / 2},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_1_POSLEDOVATEL'NYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_2_POSLEDOVATEL'NYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_3_POSLEDOVATEL'NYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_4_POSLEDOVATEL'NYH">x_{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_5_POSLEDOVATEL'NYH">x_{0} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_6_POSLEDOVATEL'NYH">е</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_7_POSLEDOVATEL'NYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_8_POSLEDOVATEL'NYH">\rho</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_9_POSLEDOVATEL'NYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_10_POSLEDOVATEL'NYH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_11_POSLEDOVATEL'NYH">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_12_POSLEDOVATEL'NYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_13_POSLEDOVATEL'NYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_14_POSLEDOVATEL'NYH">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_15_POSLEDOVATEL'NYH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_16_POSLEDOVATEL'NYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_17_POSLEDOVATEL'NYH">\rho\left(a x_{0}, x_{0}\right) \leqslant m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_18_POSLEDOVATEL'NYH">\alpha, \delta, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_19_POSLEDOVATEL'NYH">m /(1-\alpha) \leqslant \delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_20_POSLEDOVATEL'NYH">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_21_POSLEDOVATEL'NYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_22_POSLEDOVATEL'NYH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_23_POSLEDOVATEL'NYH">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_24_POSLEDOVATEL'NYH">x_{*} \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_25_POSLEDOVATEL'NYH">x_{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_26_POSLEDOVATEL'NYH">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_27_POSLEDOVATEL'NYH">x_{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_28_POSLEDOVATEL'NYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_29_POSLEDOVATEL'NYH">x, y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_30_POSLEDOVATEL'NYH">\rho(a x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_31_POSLEDOVATEL'NYH">a y)&lt;\rho(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_32_POSLEDOVATEL'NYH">e=\mathbb{r} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_33_POSLEDOVATEL'NYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_34_POSLEDOVATEL'NYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_35_POSLEDOVATEL'NYH">a x=B x+b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_36_POSLEDOVATEL'NYH">b=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_37_POSLEDOVATEL'NYH">=\left\|a_{i k}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_38_POSLEDOVATEL'NYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_39_POSLEDOVATEL'NYH">b=\left(b_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_40_POSLEDOVATEL'NYH">\left.b_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_41_POSLEDOVATEL'NYH">x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_42_POSLEDOVATEL'NYH">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_43_POSLEDOVATEL'NYH">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_44_POSLEDOVATEL'NYH">i, i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_45_POSLEDOVATEL'NYH">x=a x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_46_POSLEDOVATEL'NYH">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_47_POSLEDOVATEL'NYH">x_{0} \in \mathbb{R} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_48_POSLEDOVATEL'NYH">\mathbb{r} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_49_POSLEDOVATEL'NYH">f, K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_50_POSLEDOVATEL'NYH">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_51_POSLEDOVATEL'NYH">\mid a, b] \lambda^{\prime}[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_52_POSLEDOVATEL'NYH">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/536_53_POSLEDOVATEL'NYH">l_{2}([a, b])</formula>
+  </formulas_aux>
+  <relations n="20">
+    <relation uri="http://libmeta.ru/me/relation/536_1_POSLEDOVATEL'NYH">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_2_POSLEDOVATEL'NYH">
+      <rel_text>принцина сжимающих отображений</rel_text>
+      <target>http://libmeta.ru/me/article/1290_SZhIMAJuShIH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_3_POSLEDOVATEL'NYH">
+      <rel_text>параметр</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_4_POSLEDOVATEL'NYH">
+      <rel_text>числовоӥ</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_5_POSLEDOVATEL'NYH">
+      <rel_text>множествах</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_6_POSLEDOVATEL'NYH">
+      <rel_text>квадратом</rel_text>
+      <target>http://libmeta.ru/me/article/796_KVADRAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_7_POSLEDOVATEL'NYH">
+      <rel_text>интегрируемы</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_8_POSLEDOVATEL'NYH">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_9_POSLEDOVATEL'NYH">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_10_POSLEDOVATEL'NYH">
+      <rel_text>интегральное</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_11_POSLEDOVATEL'NYH">
+      <rel_text>приближений</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_12_POSLEDOVATEL'NYH">
+      <rel_text>условие сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/616_USLOVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_13_POSLEDOVATEL'NYH">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_14_POSLEDOVATEL'NYH">
+      <rel_text>метрика</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_15_POSLEDOVATEL'NYH">
+      <rel_text>приближения</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_16_POSLEDOVATEL'NYH">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_17_POSLEDOVATEL'NYH">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_18_POSLEDOVATEL'NYH">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_19_POSLEDOVATEL'NYH">
+      <rel_text>принципа сжимающих отображений</rel_text>
+      <target>http://libmeta.ru/me/article/1290_SZhIMAJuShIH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/536_20_POSLEDOVATEL'NYH">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+  </relations>
+  <text>ме тод по в то рвых подс т а во во к, ме тод п р о с той и те p ации,- одиниз общих методов приближенного решения операторных уравнений. Во многих случаях хорошая сходимость построенных әтим методом приближений гозволяет применять его в практике вычислений.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/536_1_POSLEDOVATEL'NYH]]/URI$ - нек-рое множество, на к-ром задан оператор $URI[[http://libmeta.ru/me/formula/aux/536_2_POSLEDOVATEL'NYH]]/URI$, отображающий $URI[[http://libmeta.ru/me/formula/aux/536_3_POSLEDOVATEL'NYH]]/URI$ в себя. Требуется найти неподвижную точку этого отображения, т. е. решение уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_1_POSLEDOVATEL'NYH]]/URI
+\]
+
+Пусть уравнение (1) имеет решение $URI[[http://libmeta.ru/me/formula/aux/536_4_POSLEDOVATEL'NYH]]/URI$ и какимлибо способом указано его начальное приближение $URI[[http://libmeta.ru/me/formula/aux/536_5_POSLEDOVATEL'NYH]]/URI$. Все остальные приближения в П. П. М. строятся по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_2_POSLEDOVATEL'NYH]]/URI
+\]
+
+Этот процесс наз. п р о с т о й о д н о ш а г о в о й и т е р а ц и е й.
+
+Для исследования сходимости последовательности (2), а также для доказательства сугцествозания решішия уравнения (1) широко применяется нияке сформулированный п р и ци и с жы м а ющ их о тоб ж $URI[[http://libmeta.ru/me/formula/aux/536_6_POSLEDOVATEL'NYH]]/URI$ Н й. Пусть $URI[[http://libmeta.ru/me/formula/aux/536_7_POSLEDOVATEL'NYH]]/URI$ - полное метрич. пространство с метрикой $URI[[http://libmeta.ru/me/formula/aux/536_8_POSLEDOVATEL'NYH]]/URI$; оператор $URI[[http://libmeta.ru/me/formula/aux/536_9_POSLEDOVATEL'NYH]]/URI$ определен в замкнутом шаре $URI[[http://libmeta.ru/me/formula/aux/536_10_POSLEDOVATEL'NYH]]/URI$ радиуса $URI[[http://libmeta.ru/me/formula/aux/536_11_POSLEDOVATEL'NYH]]/URI$ с центром в $URI[[http://libmeta.ru/me/formula/aux/536_12_POSLEDOVATEL'NYH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_3_POSLEDOVATEL'NYH]]/URI
+\]
+
+для всяких элементов $URI[[http://libmeta.ru/me/formula/aux/536_13_POSLEDOVATEL'NYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/536_14_POSLEDOVATEL'NYH]]/URI$ из шара $URI[[http://libmeta.ru/me/formula/aux/536_15_POSLEDOVATEL'NYH]]/URI$ верно соотношение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_4_POSLEDOVATEL'NYH]]/URI
+\]
+
+для начального приближения $URI[[http://libmeta.ru/me/formula/aux/536_16_POSLEDOVATEL'NYH]]/URI$ вышолнено неравенство $URI[[http://libmeta.ru/me/formula/aux/536_17_POSLEDOVATEL'NYH]]/URI$, для чисел $URI[[http://libmeta.ru/me/formula/aux/536_18_POSLEDOVATEL'NYH]]/URI$ соблюдается условие $URI[[http://libmeta.ru/me/formula/aux/536_19_POSLEDOVATEL'NYH]]/URI$.
+
+Тогда: 1) последовательные приближения $URI[[http://libmeta.ru/me/formula/aux/536_20_POSLEDOVATEL'NYH]]/URI$, выqисляемые по правилу (2), могут быть найдены при всяком знаqении $URI[[http://libmeta.ru/me/formula/aux/536_21_POSLEDOVATEL'NYH]]/URI$, и все они принадлежат шару $URI[[http://libmeta.ru/me/formula/aux/536_22_POSLEDOVATEL'NYH]]/URI$; 2) последовательность $URI[[http://libmeta.ru/me/formula/aux/536_23_POSLEDOVATEL'NYH]]/URI$ сходится к нек-рой точке $URI[[http://libmeta.ru/me/formula/aux/536_24_POSLEDOVATEL'NYH]]/URI$; 3) предельный әлемент $URI[[http://libmeta.ru/me/formula/aux/536_25_POSLEDOVATEL'NYH]]/URI$ есть решение уравнения (1); 4) для приближения $URI[[http://libmeta.ru/me/formula/aux/536_26_POSLEDOVATEL'NYH]]/URI$ верна следующая оценка близости к решению $URI[[http://libmeta.ru/me/formula/aux/536_27_POSLEDOVATEL'NYH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_5_POSLEDOVATEL'NYH]]/URI
+\]
+
+Далее, во всяком подмножестве пространства $URI[[http://libmeta.ru/me/formula/aux/536_28_POSLEDOVATEL'NYH]]/URI$, где для двух любых точек $URI[[http://libmeta.ru/me/formula/aux/536_29_POSLEDOVATEL'NYH]]/URI$ верно неравенство $URI[[http://libmeta.ru/me/formula/aux/536_30_POSLEDOVATEL'NYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/536_31_POSLEDOVATEL'NYH]]/URI$, уравнение (1) не может иметь более одного решения.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/536_32_POSLEDOVATEL'NYH]]/URI$ - арифметическое $URI[[http://libmeta.ru/me/formula/aux/536_33_POSLEDOVATEL'NYH]]/URI$-мерное иространство и оператор $URI[[http://libmeta.ru/me/formula/aux/536_34_POSLEDOVATEL'NYH]]/URI$ в (1) имеет вид $URI[[http://libmeta.ru/me/formula/aux/536_35_POSLEDOVATEL'NYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/536_36_POSLEDOVATEL'NYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/536_37_POSLEDOVATEL'NYH]]/URI$ - квадратная матрица $URI[[http://libmeta.ru/me/formula/aux/536_38_POSLEDOVATEL'NYH]]/URI$-го порядка, $URI[[http://libmeta.ru/me/formula/aux/536_39_POSLEDOVATEL'NYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/536_40_POSLEDOVATEL'NYH]]/URI$ - заданный, а $URI[[http://libmeta.ru/me/formula/aux/536_41_POSLEDOVATEL'NYH]]/URI$ - искомый векторы в $URI[[http://libmeta.ru/me/formula/aux/536_42_POSLEDOVATEL'NYH]]/URI$. Если в этом шространстве метрика определена формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_6_POSLEDOVATEL'NYH]]/URI
+\]
+
+и әлементы URI[[http://libmeta.ru/me/relation/536_20_POSLEDOVATEL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/536_43_POSLEDOVATEL'NYH]]/URI$ удовлетворяют условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_7_POSLEDOVATEL'NYH]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/me/formula/aux/536_44_POSLEDOVATEL'NYH]]/URI$, то из URI[[http://libmeta.ru/me/relation/536_19_POSLEDOVATEL'NYH]]/URI следует, что URI[[http://libmeta.ru/me/relation/536_18_POSLEDOVATEL'NYH]]/URI алгебраич. URI[[http://libmeta.ru/me/relation/536_17_POSLEDOVATEL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/536_45_POSLEDOVATEL'NYH]]/URI$ имеет единственное решение в $URI[[http://libmeta.ru/me/formula/aux/536_46_POSLEDOVATEL'NYH]]/URI$, к-рое можно URI[[http://libmeta.ru/me/relation/536_16_POSLEDOVATEL'NYH]]/URI П.I.м., исходя из произвольного начального URI[[http://libmeta.ru/me/relation/536_15_POSLEDOVATEL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/536_47_POSLEDOVATEL'NYH]]/URI$.
+
+Если в $URI[[http://libmeta.ru/me/formula/aux/536_48_POSLEDOVATEL'NYH]]/URI$ действует евклидова URI[[http://libmeta.ru/me/relation/536_14_POSLEDOVATEL'NYH]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_8_POSLEDOVATEL'NYH]]/URI
+\]
+
+тогда URI[[http://libmeta.ru/me/relation/536_13_POSLEDOVATEL'NYH]]/URI другое URI[[http://libmeta.ru/me/relation/536_12_POSLEDOVATEL'NYH]]/URI носледовательных URI[[http://libmeta.ru/me/relation/536_11_POSLEDOVATEL'NYH]]/URI:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_9_POSLEDOVATEL'NYH]]/URI
+\]
+
+Пусть (1) - URI[[http://libmeta.ru/me/relation/536_10_POSLEDOVATEL'NYH]]/URI URI[[http://libmeta.ru/me/relation/536_9_POSLEDOVATEL'NYH]]/URI, в к-ром
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_10_POSLEDOVATEL'NYH]]/URI
+\]
+
+где известные URI[[http://libmeta.ru/me/relation/536_8_POSLEDOVATEL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/536_49_POSLEDOVATEL'NYH]]/URI$ URI[[http://libmeta.ru/me/relation/536_7_POSLEDOVATEL'NYH]]/URI с URI[[http://libmeta.ru/me/relation/536_6_POSLEDOVATEL'NYH]]/URI соответственно на URI[[http://libmeta.ru/me/relation/536_5_POSLEDOVATEL'NYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/536_50_POSLEDOVATEL'NYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/536_51_POSLEDOVATEL'NYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/536_52_POSLEDOVATEL'NYH]]/URI$-- URI[[http://libmeta.ru/me/relation/536_4_POSLEDOVATEL'NYH]]/URI URI[[http://libmeta.ru/me/relation/536_3_POSLEDOVATEL'NYH]]/URI. Тогда Iiз URI[[http://libmeta.ru/me/relation/536_2_POSLEDOVATEL'NYH]]/URI слецует, что если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/536_11_POSLEDOVATEL'NYH]]/URI
+\]
+
+то рассматривасмое интсгральное URI[[http://libmeta.ru/me/relation/536_1_POSLEDOVATEL'NYH]]/URI имеет единственное решение в шространстве $URI[[http://libmeta.ru/me/formula/aux/536_53_POSLEDOVATEL'NYH]]/URI$, к-рое можно построить П. П. м.</text>
+  <text_orig>ме тод по в то рвых подс т а во во к, ме тод п р о с той и те p ации,- одиниз общих методов приближенного решения операторных уравнений. Во многих случаях хорошая сходимость построенных әтим методом приближений гозволяет применять его в практике вычислений.
+
+Пусть $E$ - нек-рое множество, на к-ром задан оператор $A$, отображающий $E$ в себя. Требуется найти неподвижную точку этого отображения, т. е. решение уравнения
+
+\[
+x=A(x), \quad x \in E .
+\]
+
+Пусть уравнение (1) имеет решение $x_{*}$ и какимлибо способом указано его начальное приближение $x_{0} \in E$. Все остальные приближения в П. П. М. строятся по формуле
+
+\[
+x_{n+1}=A x_{n}, \quad n=0,1,2, \ldots
+\]
+
+Этот процесс наз. п р о с т о й о д н о ш а г о в о й и т е р а ц и е й.
+
+Для исследования сходимости последовательности (2), а также для доказательства сугцествозания решішия уравнения (1) широко применяется нияке сформулированный п р и ци и с жы м а ющ их о тоб ж $е$ Н й. Пусть $E$ - полное метрич. пространство с метрикой $\rho$; оператор $A$ определен в замкнутом шаре $S$ радиуса $\delta$ с центром в $x_{0}$ :
+
+\[
+S=\left\{x \in E: \rho\left(x, x_{0}\right) \leqslant \delta\right\}
+\]
+
+для всяких элементов $x$ и $y$ из шара $S$ верно соотношение
+
+\[
+\rho(A x, A y) \leqslant \alpha \rho(x, y), 0&lt;\alpha=\text { const }&lt;1 ;
+\]
+
+для начального приближения $x_{0}$ вышолнено неравенство $\rho\left(A x_{0}, x_{0}\right) \leqslant m$, для чисел $\alpha, \delta, m$ соблюдается условие $m /(1-\alpha) \leqslant \delta$.
+
+Тогда: 1) последовательные приближения $x_{n}$, выqисляемые по правилу (2), могут быть найдены при всяком знаqении $n$, и все они принадлежат шару $S$; 2) последовательность $x_{n}$ сходится к нек-рой точке $x_{*} \in S$; 3) предельный әлемент $x_{*}$ есть решение уравнения (1); 4) для приближения $x_{n}$ верна следующая оценка близости к решению $x_{*}$ :
+
+\[
+\rho\left(x_{n}, x_{*}\right) \leqslant \frac{m}{1-\alpha} \alpha^{n} .
+\]
+
+Далее, во всяком подмножестве пространства $E$, где для двух любых точек $x, y$ верно неравенство $\rho(A x$, $A y)&lt;\rho(x, y)$, уравнение (1) не может иметь более одного решения.
+
+Пусть $E=\mathbb{R} n$ - арифметическое $n$-мерное иространство и оператор $A$ в (1) имеет вид $A x=B x+b$, где $B=$ $=\left\|a_{i k}\right\|$ - квадратная матрица $n$-го порядка, $b=\left(b_{1}, \ldots\right.$, $\left.b_{n}\right)$ - заданный, а $x=\left(x_{1}, \ldots, x_{n}\right)$ - искомый векторы в $\mathbb{R}^{n}$. Если в этом шространстве метрика определена формулой
+
+\[
+\rho(x, y)=\max _{i}\left|x_{i}-y_{i}\right|
+\]
+
+и әлементы матрицы $B$ удовлетворяют условию
+
+\[
+\sum_{k=1}^{n} a_{i k} \mid&lt;1
+\]
+
+для всех $i, i=1, \ldots, n$, то из принципа сжимающих отображений следует, что система алгебраич. уравнений $x=A x$ имеет единственное решение в $\mathbb{R}^{n}$, к-рое можно получить П.I.м., исходя из произвольного начального приближения $x_{0} \in \mathbb{R} n$.
+
+Если в $\mathbb{R} n$ действует евклидова метрика
+
+\[
+\rho(x, y)=\sqrt{\sum_{i=1}^{n}\left(x_{i}-y_{i}\right)^{2}}
+\]
+
+тогда получается другое условие сходимости носледовательных приближений:
+
+\[
+\sum_{i=1}^{n} \sum_{k=1}^{n} a_{i k}^{2}&lt;1
+\]
+
+Пусть (1) - интегральное уравнение, в к-ром
+
+\[
+A x(t)=f(t)+\lambda \int_{a}^{b} K(t, s) x(s) d s,
+\]
+
+где известные функции $f, K$ интегрируемы с квадратом соответственно на множествах $[a, b]$ и $\mid a, b] \lambda^{\prime}[a, b]$, $\lambda$-- числовоӥ параметр. Тогда IIз принцина сжимающих отображений слецует, что если
+
+\[
+|\lambda|&lt;\left(\int_{a}^{b} \int_{a}^{b} K^{2}(s, t) d t d s\right)^{-1 / 2},
+\]
+
+то рассматривасмое интсгральное уравнение имеет единственное решение в шространстве $L_{2}([a, b])$, к-рое можно построить П. П. м.
+
+Лum.: [1] Ф а д д е е в Д. К., Ф а д д е е в а В. Н., Вычислительные методы линейной алігебры, 2 изд., М. - Ј., 1963 ;
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_08129f7e2037ba97fd49g-1.jpg?height=50&amp;width=801&amp;top_left_y=2230&amp;top_left_x=989)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_08129f7e2037ba97fd49g-1.jpg?height=42&amp;width=804&amp;top_left_y=2268&amp;top_left_x=987)
+ная математика, пер. с нем., М., 1969. Б. В. Хведелидзе.</text_orig>
+</article>

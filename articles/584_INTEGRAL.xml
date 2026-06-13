@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/584_INTEGRAL" alphabetic_pos="584">
+  <title>ИНТЕГРАЛ ВЕРОЯТНОСТИ</title>
+  <authors>
+    <author>А. Б. Иванов</author>
+  </authors>
+  <pages>
+    <start>284</start>
+    <end>285</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б е й т м е н Г., Э р д е й и А., Высшие трансцендентные Функции. Функции Бесселя, Функции параболического цилиндра, ортогональные многочлены, пер. с англ., 2 изд., M., 1974; [2] Я н к е E., Э м д е Ф., Л ё ші Ф., Специальные функции. Формулы, графики, таблицы, пер. с нем., 2 изд., М., кции, пер. с нем., м., 1963; [4] Л е б е д е в Н. Н., Специальные функции и их приложения, 2 изд. М. 1963.</literature_orig>
+    <unit>
+      <author>Бейтмен Г.</author>
+      <author>Эрдейи А.</author>
+      <title>Высшие трансцендентные Функции. Функции Бесселя, Функции параболического цилиндра, ортогональные многочлены</title>
+      <publication>пер. с англ., 2 изд., M.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Янке E.</author>
+      <author>Эмде Ф.</author>
+      <author>Лёші Ф.</author>
+      <title>Специальные функции. Формулы, графики, таблицы</title>
+      <publication>пер. с нем., 2 изд., М., кции, пер. с нем., м.</publication>
+      <year>1963</year>
+      <other>Специальные функции и их приложения, 2 изд. М. 1963.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/584_1_INTEGRAL">\operatorname{erf}(x)=\frac{2}{V \bar{\pi}} \int_{0}^{x} e^{-t^{2}} d t, \quad|x|&lt;\infty .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/584_2_INTEGRAL">\Phi(x)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-t^{2} / 2} d t=\frac{1}{2}\left[1+\operatorname{erf}\left(\frac{x}{\sqrt{2}}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/584_3_INTEGRAL">\begin{aligned}&amp; \frac{1+i}{2} \operatorname{erf}\left(\frac{1-i}{\sqrt{2}} z\right)=C(z)+i S(z), \\&amp; \frac{1-i}{2} \operatorname{erf}\left(\frac{1+i}{\sqrt{2}} z\right)=C(z)-i S(z) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/584_4_INTEGRAL">[\operatorname{erf}(z)]^{\prime}=\frac{2}{V \bar{\pi}} e^{-z^{2}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/584_5_INTEGRAL">\Theta(x)=H(x)=\Phi(x)=\operatorname{erf}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/584_6_INTEGRAL">\operatorname{Erf}(x)=\frac{V \bar{\pi}}{2} \operatorname{erf}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/584_7_INTEGRAL">\alpha(x)=\frac{2}{V \bar{\pi}} \int_{-\infty}^{x} e^{-t^{2 / 2}} d t-1=\frac{2}{\pi} \operatorname{Erf}\left(\frac{x}{V \overline{2}}\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_1_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_2_INTEGRAL">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_3_INTEGRAL">|x| \leqslant t \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_4_INTEGRAL">\operatorname{erf}(t / \sqrt{2})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_5_INTEGRAL">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_6_INTEGRAL">\operatorname{erf}(0)=0, \lim _{x \rightarrow+\infty} \operatorname{erf}(x)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_7_INTEGRAL">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_8_INTEGRAL">\operatorname{erf}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_9_INTEGRAL">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_10_INTEGRAL">z, \operatorname{Re} z&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_11_INTEGRAL">1-\operatorname{erf}(z) \sim \frac{e^{-z^{2}}}{\sqrt{\bar{\pi} z}}\left(1+\sum_{k=1}^{\infty}(-1)^{k} \frac{1 \cdot 3 \cdot \ldots \cdot(2 k-1)}{2 \cdot k} \frac{1}{z^{2 k}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_12_INTEGRAL">z=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_13_INTEGRAL">\operatorname{erf}(z)=\frac{2}{\sqrt{\pi}}\left(z-\frac{z^{3}}{1 ! 3}+\ldots+\frac{(-1)^{k}}{k !(2 k+1)} z^{2 k+1}+\ldots\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_14_INTEGRAL">c(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_15_INTEGRAL">s(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_16_INTEGRAL">\operatorname{erfi}(x)=-i \frac{\sqrt{\pi}}{2} \operatorname{erf}(i x)=\int_{0}^{x} e^{t^{2}} d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/584_17_INTEGRAL">\operatorname{erfc}(x)=\frac{\sqrt{\pi}}{2}-\operatorname{Erf} x=\int_{x}^{\infty} e^{-t^{2}} d t</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/584_1_INTEGRAL">
+      <rel_text>Производная</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+  </relations>
+  <text>и н т е г р а л б о к,- функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/584_1_INTEGRAL]]/URI
+\]
+
+В теории вероятностей используется не И. в., а функция нормального распределения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/584_2_INTEGRAL]]/URI
+\] - так наз. ин т е г р а л в е р о т ности с а. Для случайной величины $URI[[http://libmeta.ru/me/formula/aux/584_1_INTEGRAL]]/URI$, имеющей нормальное распределение с математич. ожиданием 0 и дисперсией
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_10c45a2f388c504976acg-1.jpg?height=330&amp;width=464&amp;top_left_y=277&amp;top_left_x=115)
+$URI[[http://libmeta.ru/me/formula/aux/584_2_INTEGRAL]]/URI$, вероятность неравенства $URI[[http://libmeta.ru/me/formula/aux/584_3_INTEGRAL]]/URI$ равна $URI[[http://libmeta.ru/me/formula/aux/584_4_INTEGRAL]]/URI$. Для действительного $URI[[http://libmeta.ru/me/formula/aux/584_5_INTEGRAL]]/URI$ И. в. принимает действительные значения, в частности $URI[[http://libmeta.ru/me/formula/aux/584_6_INTEGRAL]]/URI$
+
+График И. в. и его производной см. на рис. Рассматриваемый и как функция комплексного переменного $URI[[http://libmeta.ru/me/formula/aux/584_7_INTEGRAL]]/URI$, И. в. $URI[[http://libmeta.ru/me/formula/aux/584_8_INTEGRAL]]/URI$ есть целая функция от $URI[[http://libmeta.ru/me/formula/aux/584_9_INTEGRAL]]/URI$.
+
+Асимптотич. представление при больших $URI[[http://libmeta.ru/me/formula/aux/584_10_INTEGRAL]]/URI$ :
+
+$URI[[http://libmeta.ru/me/formula/aux/584_11_INTEGRAL]]/URI$.
+
+В окрестности $URI[[http://libmeta.ru/me/formula/aux/584_12_INTEGRAL]]/URI$ И. в. представляется в виде ряда $URI[[http://libmeta.ru/me/formula/aux/584_13_INTEGRAL]]/URI$.
+
+С Френеля интегралами $URI[[http://libmeta.ru/me/formula/aux/584_14_INTEGRAL]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/584_15_INTEGRAL]]/URI$ И. в. связан соотнопениями:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/584_3_INTEGRAL]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/584_1_INTEGRAL]]/URI И. в.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/584_4_INTEGRAL]]/URI
+\]
+
+Иногда используются следующие обозначения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/584_5_INTEGRAL]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/584_6_INTEGRAL]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/584_16_INTEGRAL]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/584_17_INTEGRAL]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/584_7_INTEGRAL]]/URI
+\]</text>
+  <text_orig>и н т е г р а л б о к,- функция
+
+\[
+\operatorname{erf}(x)=\frac{2}{V \bar{\pi}} \int_{0}^{x} e^{-t^{2}} d t, \quad|x|&lt;\infty .
+\]
+
+В теории вероятностей используется не И. в., а функция нормального распределения:
+
+\[
+\Phi(x)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-t^{2} / 2} d t=\frac{1}{2}\left[1+\operatorname{erf}\left(\frac{x}{\sqrt{2}}\right)\right]
+\] - так наз. ин т е г р а л в е р о т ности с а. Для случайной величины $X$, имеющей нормальное распределение с математич. ожиданием 0 и дисперсией
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_10c45a2f388c504976acg-1.jpg?height=330&amp;width=464&amp;top_left_y=277&amp;top_left_x=115)
+$\sigma^{2}$, вероятность неравенства $|X| \leqslant t \quad$ равна $\operatorname{erf}(t / \sqrt{2})$. Для действительного $x$ И. в. принимает действительные значения, в частности $\operatorname{erf}(0)=0, \lim _{x \rightarrow+\infty} \operatorname{erf}(x)=1$
+
+График И. в. и его производной см. на рис. Рассматриваемый и как функция комплексного переменного $z$, И. в. $\operatorname{erf}(z)$ есть целая функция от $z$.
+
+Асимптотич. представление при больших $z, \operatorname{Re} z&gt;0$ :
+
+$1-\operatorname{erf}(z) \sim \frac{e^{-z^{2}}}{\sqrt{\bar{\pi} z}}\left(1+\sum_{k=1}^{\infty}(-1)^{k} \frac{1 \cdot 3 \cdot \ldots \cdot(2 k-1)}{2 \cdot k} \frac{1}{z^{2 k}}\right)$.
+
+В окрестности $z=0$ И. в. представляется в виде ряда $\operatorname{erf}(z)=\frac{2}{\sqrt{\pi}}\left(z-\frac{z^{3}}{1 ! 3}+\ldots+\frac{(-1)^{k}}{k !(2 k+1)} z^{2 k+1}+\ldots\right)$.
+
+С Френеля интегралами $C(z)$ и $S(z)$ И. в. связан соотнопениями:
+
+\[
+\begin{aligned}
+&amp; \frac{1+i}{2} \operatorname{erf}\left(\frac{1-i}{\sqrt{2}} z\right)=C(z)+i S(z), \\
+&amp; \frac{1-i}{2} \operatorname{erf}\left(\frac{1+i}{\sqrt{2}} z\right)=C(z)-i S(z) .
+\end{aligned}
+\]
+
+Производная И. в.:
+
+\[
+[\operatorname{erf}(z)]^{\prime}=\frac{2}{V \bar{\pi}} e^{-z^{2}} .
+\]
+
+Иногда используются следующие обозначения:
+
+\[
+\Theta(x)=H(x)=\Phi(x)=\operatorname{erf}(x),
+\]
+
+\[
+\operatorname{Erf}(x)=\frac{V \bar{\pi}}{2} \operatorname{erf}(x)
+\]
+
+$\operatorname{Erfi}(x)=-i \frac{\sqrt{\pi}}{2} \operatorname{erf}(i x)=\int_{0}^{x} e^{t^{2}} d t$,
+
+$\operatorname{Erfc}(x)=\frac{\sqrt{\pi}}{2}-\operatorname{Erf} x=\int_{x}^{\infty} e^{-t^{2}} d t$,
+
+\[
+\alpha(x)=\frac{2}{V \bar{\pi}} \int_{-\infty}^{x} e^{-t^{2 / 2}} d t-1=\frac{2}{\pi} \operatorname{Erf}\left(\frac{x}{V \overline{2}}\right) .
+\]
+
+Лum.: [1] Б е й т м е н Г., Э р д е й и А., Высшие трансцендентные Функции. Функции Бесселя, Функции параболического цилиндра, ортогональные многочлены, пер. с англ., 2 изд., M., 1974; [2] Я н к е E., Э м д е Ф., Л ё ші Ф., Специальные функции. Формулы, графики, таблицы, пер. с нем., 2 изд., М., кции, пер. с нем., м., 1963; [4] Л е б е д е в Н. Н., Специальные функции и их приложения, 2 изд. М. 1963. А. Б. Иванов.</text_orig>
+</article>

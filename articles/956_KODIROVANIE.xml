@@ -1,0 +1,665 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/956_KODIROVANIE" alphabetic_pos="956">
+  <title>КОДИРОВАНИЕ И ДЕКОДИРОВАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>470</start>
+    <end>472</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Iш е н н о н К., Работы по теории информации и кибернетике, пер. с англ., М., 1963; [2] Б е р л е к эм п Э.; Алгебраическая теория кодирования, пер. с англ., М., 1971; [3] П и т е p с о н У., 2 и э л д о н Э., Коды, исправляющие тика и математические вопросы кибернетики,т.1, М., 1974 , раздел 5; [5] Б а с с а лы с о Л. А., З я б л о в В. В., П и н-с к е р м. С., &quot;пробл. передачи информации&quot;, 1977, т. 13, № 3 , c. 5-17; [6] С и д е л ь н и к о в В. М., &quot;матем. сб.»,![](https://cdn.mathpix.com/cropped/2023_07_08_e50734683fbbc45d3de8g-1.jpg?height=40&amp;width=829&amp;top_left_y=2146&amp;top_left_x=992)</literature_orig>
+    <unit>
+      <author>Iшеннон К.</author>
+      <title>Работы по теории информации и кибернетике</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Б е р л е к эм п Э.; Алгебраическая теория кодирования</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Питеpсон У.</author>
+      <author>2иэлдон Э.</author>
+      <title>Коды, исправляющие тика и математические вопросы кибернетики</title>
+      <publication>М.</publication>
+      <year>1974</year>
+      <other>т.1, раздел 5; [5] Б а с с а лы с о Л. А., З я б л о в В. В., П и н-с к е р м. С., &quot;пробл. передачи информации&quot;, 1977, т. 13, № 3, c. 5-17; [6] С и д е л ь н и к о в В. М., &quot;матем. сб.», ![](https://cdn.mathpix.com/cropped/2023_07_08_e50734683fbbc45d3de8g-1.jpg?height=40&amp;width=829&amp;top_left_y=2146&amp;top_left_x=992)</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/956_1_KODIROVANIE">f\left(a_{1} a_{2} \ldots a_{k}\right)=f\left(a_{1}\right) f\left(a_{2}\right) \ldots f\left(a_{k}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/956_2_KODIROVANIE">\sum_{i=0}^{m-1} r^{-l} \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/956_3_KODIROVANIE">H_{r}(P)=-\Sigma_{i=0}^{m-1} p_{i} \log _{r} p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/956_4_KODIROVANIE">C=\max \sum_{i=0}^{r-1} \sum_{j=0}^{r-1} q_{i} p_{i j} \log _{r}\left(p_{i j} / \sum_{h=0}^{m-1} q_{h} p_{h j}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/956_5_KODIROVANIE">\{f(0), \ldots, f(m-1)\} \subset B_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/956_6_KODIROVANIE">I_{2}(n, t) \sim t \log _{2} n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/956_7_KODIROVANIE">I_{\boldsymbol{r}}(n,[p n]) \geqslant n T_{r}(p),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/956_8_KODIROVANIE">I_{r}(n,[p n]) \leqslant n T_{r}(2 p),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_1_KODIROVANIE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_2_KODIROVANIE">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_3_KODIROVANIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_4_KODIROVANIE">n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_5_KODIROVANIE">b_{1} b_{2} \ldots b_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_6_KODIROVANIE">b_{r}=\{0,1, \ldots, r-1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_7_KODIROVANIE">b_{1} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_8_KODIROVANIE">b_{1} r^{l-1}+\ldots+b_{l-1} r+b_{l}=N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_9_KODIROVANIE">b_{2}=\{0,1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_10_KODIROVANIE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_11_KODIROVANIE">\mathfrak{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_12_KODIROVANIE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_13_KODIROVANIE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_14_KODIROVANIE">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_15_KODIROVANIE">a^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_16_KODIROVANIE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_17_KODIROVANIE">a_{i} \in A, i=1,2, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_18_KODIROVANIE">f: A^{*} \rightarrow B^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_19_KODIROVANIE">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_20_KODIROVANIE">b_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_21_KODIROVANIE">f: B_{m} \rightarrow B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_22_KODIROVANIE">f: B_{m \rightarrow}^{*} \rightarrow B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_23_KODIROVANIE">\{f(0), \ldots, f(m-1)\} \subset B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_24_KODIROVANIE">f: B_{m \rightarrow}^{*} \rightarrow B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_25_KODIROVANIE">l_{i}=l_{i}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_26_KODIROVANIE">f(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_27_KODIROVANIE">\left(l_{0}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_28_KODIROVANIE">\left.l_{m-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_29_KODIROVANIE">f: B_{m}^{*} \rightarrow B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_30_KODIROVANIE">f(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_31_KODIROVANIE">l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_32_KODIROVANIE">l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_33_KODIROVANIE">f(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_34_KODIROVANIE">l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_35_KODIROVANIE">\sum_{j=0}^{i-1} r^{-l_{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_36_KODIROVANIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_37_KODIROVANIE">l(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_38_KODIROVANIE">f: B_{m \rightarrow}^{*} B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_39_KODIROVANIE">i \in B_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_40_KODIROVANIE">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_41_KODIROVANIE">p=\left\{p_{0}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_42_KODIROVANIE">\left.p_{m-1}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_43_KODIROVANIE">l(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_44_KODIROVANIE">l_{\mathrm{cp}}(f)=\sum_{i=0}^{m-1} p_{i} l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_45_KODIROVANIE">l^{(t)}(f)=\frac{1}{t} \log _{r} \sum_{i=0}^{m-1} p_{i} r^{t l_{i}}, \quad 0&lt;t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_46_KODIROVANIE">l^{\prime}(f)=\max _{0 \leqslant i \leqslant m-1}\left(l_{i}-p_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_47_KODIROVANIE">p_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_48_KODIROVANIE">\boldsymbol{b}_{\boldsymbol{m}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_49_KODIROVANIE">\left(\sum_{i=0}^{m-1} p_{i}=1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_50_KODIROVANIE">p_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_51_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_52_KODIROVANIE">\left(l^{(t)}(f) \rightarrow L_{\mathrm{cp}}(f)\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_53_KODIROVANIE">t \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_54_KODIROVANIE">l^{(t)}(f) \underset{0 \leqslant i \leqslant m-1}{\rightarrow \max } l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_55_KODIROVANIE">\left.t \rightarrow \infty\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_56_KODIROVANIE">l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_57_KODIROVANIE">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_58_KODIROVANIE">f: B_{m}^{*} \rightarrow B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_59_KODIROVANIE">l(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_60_KODIROVANIE">l(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_61_KODIROVANIE">\left(l_{0}, \ldots, l_{m-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_62_KODIROVANIE">l(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_63_KODIROVANIE">\left(l_{0}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_64_KODIROVANIE">l_{m-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_65_KODIROVANIE">l_{r}(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_66_KODIROVANIE">\left(l_{0}(p), \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_67_KODIROVANIE">\left.l_{m-1}(P)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_68_KODIROVANIE">i(f)=l(f)-L_{r}(P)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_69_KODIROVANIE">i(f) / L(f)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_70_KODIROVANIE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_71_KODIROVANIE">f: B_{m \rightarrow}^{*} \rightarrow B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_72_KODIROVANIE">l_{i}, l_{i}(P) \leqslant l_{i}&lt;l_{i}(P)+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_73_KODIROVANIE">i(f)&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_74_KODIROVANIE">l_{r}(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_75_KODIROVANIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_76_KODIROVANIE">l_{i}(p)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_77_KODIROVANIE">=-\log _{r} p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_78_KODIROVANIE">i(f)=l_{\mathrm{cp}}(f)-H_{r}(P)&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_79_KODIROVANIE">&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_80_KODIROVANIE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_81_KODIROVANIE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_82_KODIROVANIE">1 / k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_83_KODIROVANIE">l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_84_KODIROVANIE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_85_KODIROVANIE">\frac{m-1}{2 k} \log _{r} k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_86_KODIROVANIE">m, r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_87_KODIROVANIE">k \rightarrow \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_88_KODIROVANIE">f: B_{m} \rightarrow B_{r}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_89_KODIROVANIE">\{f(0), \ldots, f(m-1)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_90_KODIROVANIE">b_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_91_KODIROVANIE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_92_KODIROVANIE">b_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_93_KODIROVANIE">b_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_94_KODIROVANIE">i(f)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_95_KODIROVANIE">=n-\log _{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_96_KODIROVANIE">r(f)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_97_KODIROVANIE">=\frac{1}{n} \log _{r} m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_98_KODIROVANIE">b_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_99_KODIROVANIE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_100_KODIROVANIE">f^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_101_KODIROVANIE">r^{n-m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_102_KODIROVANIE">b_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_103_KODIROVANIE">b_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_104_KODIROVANIE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_105_KODIROVANIE">d_{0}, \ldots, D_{m-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_106_KODIROVANIE">f(i) \in D_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_107_KODIROVANIE">f^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_108_KODIROVANIE">f^{-1}\left(D_{i}\right)=i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_109_KODIROVANIE">f(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_110_KODIROVANIE">d_{i}, i=0, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_111_KODIROVANIE">m-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_112_KODIROVANIE">\pm b r^{i}, b=1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_113_KODIROVANIE">r-1, i=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_114_KODIROVANIE">p_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_115_KODIROVANIE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_116_KODIROVANIE">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_117_KODIROVANIE">\left(q_{0}, \ldots, q_{m-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_118_KODIROVANIE">q_{i} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_119_KODIROVANIE">\sum_{i=0}^{m-1} q_{i}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_120_KODIROVANIE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_121_KODIROVANIE">\boldsymbol{r}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_122_KODIROVANIE">p(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_123_KODIROVANIE">b_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_124_KODIROVANIE">d_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_125_KODIROVANIE">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_126_KODIROVANIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_127_KODIROVANIE">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_128_KODIROVANIE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_129_KODIROVANIE">f: B_{m} \rightarrow B_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_130_KODIROVANIE">r(f) \geqslant R</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_131_KODIROVANIE">p(f)&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_132_KODIROVANIE">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_133_KODIROVANIE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_134_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_135_KODIROVANIE">e_{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_136_KODIROVANIE">f(i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_137_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_138_KODIROVANIE">e_{i}(t), i=0, \ldots, m-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_139_KODIROVANIE">e_{i}(t) \subseteq D_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_140_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_141_KODIROVANIE">d(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_142_KODIROVANIE">x \in B_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_143_KODIROVANIE">y \in B_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_144_KODIROVANIE">e_{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_145_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_146_KODIROVANIE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_147_KODIROVANIE">b_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_148_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_149_KODIROVANIE">b_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_150_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_151_KODIROVANIE">d(f(0), f(8))=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_152_KODIROVANIE">d(f(5), f(8))=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_153_KODIROVANIE">i_{r}(n, t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_154_KODIROVANIE">b_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_155_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_156_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_157_KODIROVANIE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_158_KODIROVANIE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_159_KODIROVANIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_160_KODIROVANIE">i_{r}(n, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_161_KODIROVANIE">r&gt;2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_162_KODIROVANIE">r=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_163_KODIROVANIE">t=[p n]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_164_KODIROVANIE">p-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_165_KODIROVANIE">0&lt;p&lt;(r-1) / 2 r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_166_KODIROVANIE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_167_KODIROVANIE">\quad T_{r}(p)=-p \log _{r}(p /(r-1))-(1-p) \log _{r}(1-p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_168_KODIROVANIE">i_{r}(n,[p n]) \sim n T_{r}(2 p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_169_KODIROVANIE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_170_KODIROVANIE">b_{2}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_171_KODIROVANIE">\sqrt{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_172_KODIROVANIE">\left\{\dot{k}_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_173_KODIROVANIE">k_{n} \subseteq B_{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_174_KODIROVANIE">\left\{k_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_175_KODIROVANIE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_176_KODIROVANIE">\bigcup_{n=1}^{\infty} K_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_177_KODIROVANIE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_178_KODIROVANIE">l \log l)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/956_179_KODIROVANIE">n</formula>
+  </formulas_aux>
+  <relations n="64">
+    <relation uri="http://libmeta.ru/me/relation/956_1_KODIROVANIE">
+      <rel_text>Информации</rel_text>
+      <target>http://libmeta.ru/me/article/649_INFORMAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_2_KODIROVANIE">
+      <rel_text>Кодирование алфавитное</rel_text>
+      <target>http://libmeta.ru/me/article/955_KODIROVANIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_3_KODIROVANIE">
+      <rel_text>әлементов</rel_text>
+      <target>http://libmeta.ru/me/article/446_ZVEZDA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_4_KODIROVANIE">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_5_KODIROVANIE">
+      <rel_text>развитие</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_6_KODIROVANIE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_7_KODIROVANIE">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_8_KODIROVANIE">
+      <rel_text>алгебры</rel_text>
+      <target>http://libmeta.ru/me/article/93_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_9_KODIROVANIE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_10_KODIROVANIE">
+      <rel_text>формулами</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_11_KODIROVANIE">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_12_KODIROVANIE">
+      <rel_text>неравенства</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_13_KODIROVANIE">
+      <rel_text>равными</rel_text>
+      <target>http://libmeta.ru/me/article/605_RAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_14_KODIROVANIE">
+      <rel_text>евклидова пространства</rel_text>
+      <target>http://libmeta.ru/me/article/386_EVKLIDOVO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_15_KODIROVANIE">
+      <rel_text>упаковки</rel_text>
+      <target>http://libmeta.ru/me/article/586_UPAKOVK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_16_KODIROVANIE">
+      <rel_text>плотности</rel_text>
+      <target>http://libmeta.ru/me/article/316_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_17_KODIROVANIE">
+      <rel_text>границы</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_18_KODIROVANIE">
+      <rel_text>контактными</rel_text>
+      <target>http://libmeta.ru/me/article/1077_KONTINGENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_19_KODIROVANIE">
+      <rel_text>алгебры</rel_text>
+      <target>http://libmeta.ru/me/article/93_ALGEBR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_20_KODIROVANIE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_21_KODIROVANIE">
+      <rel_text>методе</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_22_KODIROVANIE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_23_KODIROVANIE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_24_KODIROVANIE">
+      <rel_text>границ</rel_text>
+      <target>http://libmeta.ru/me/article/1154_GRADU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_25_KODIROVANIE">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_26_KODIROVANIE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_27_KODIROVANIE">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_28_KODIROVANIE">
+      <rel_text>множеству</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_29_KODIROVANIE">
+      <rel_text>распознающая</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_30_KODIROVANIE">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_31_KODIROVANIE">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_32_KODIROVANIE">
+      <rel_text>предпринимаются</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_33_KODIROVANIE">
+      <rel_text>последовательностей</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_34_KODIROVANIE">
+      <rel_text>теоремы</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_35_KODIROVANIE">
+      <rel_text>представляют</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_36_KODIROVANIE">
+      <rel_text>граница</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_37_KODIROVANIE">
+      <rel_text>теорема</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_38_KODIROVANIE">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_39_KODIROVANIE">
+      <rel_text>связано</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_40_KODIROVANIE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_41_KODIROVANIE">
+      <rel_text>помехоустойчивостью</rel_text>
+      <target>http://libmeta.ru/me/article/510_POMEHOUSToIchIVost</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_42_KODIROVANIE">
+      <rel_text>скоростью передачи</rel_text>
+      <target>http://libmeta.ru/me/article/653_INFORMAІII</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_43_KODIROVANIE">
+      <rel_text>сложности</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_44_KODIROVANIE">
+      <rel_text>границы</rel_text>
+      <target>http://libmeta.ru/me/article/1166_GRANISch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_45_KODIROVANIE">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_46_KODIROVANIE">
+      <rel_text>алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/140_ALGOLІ-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_47_KODIROVANIE">
+      <rel_text>исправлением ошибок</rel_text>
+      <target>http://libmeta.ru/me/article/952_KOD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_48_KODIROVANIE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_49_KODIROVANIE">
+      <rel_text>из функциональных элементов</rel_text>
+      <target>http://libmeta.ru/me/article/328_SHEMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_50_KODIROVANIE">
+      <rel_text>модели</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_51_KODIROVANIE">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_52_KODIROVANIE">
+      <rel_text>избыточность</rel_text>
+      <target>http://libmeta.ru/me/article/496_IZBYTOchNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_53_KODIROVANIE">
+      <rel_text>помехоустойчивости</rel_text>
+      <target>http://libmeta.ru/me/article/510_POMEHOUSToIchIVost</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_54_KODIROVANIE">
+      <rel_text>избыточности</rel_text>
+      <target>http://libmeta.ru/me/article/496_IZBYTOchNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_55_KODIROVANIE">
+      <rel_text>сложность</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_56_KODIROVANIE">
+      <rel_text>кодирование и декодирование</rel_text>
+      <target>http://libmeta.ru/me/article/956_KODIROVANIE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_57_KODIROVANIE">
+      <rel_text>связанные</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_58_KODIROVANIE">
+      <rel_text>длина</rel_text>
+      <target>http://libmeta.ru/me/article/319_DLIN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_59_KODIROVANIE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_60_KODIROVANIE">
+      <rel_text>центральных</rel_text>
+      <target>http://libmeta.ru/me/article/924_TsENTRO-FOKU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_61_KODIROVANIE">
+      <rel_text>предположения</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_62_KODIROVANIE">
+      <rel_text>Доказательство</rel_text>
+      <target>http://libmeta.ru/me/article/331_DOKAZATEL'STV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_63_KODIROVANIE">
+      <rel_text>выбора</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/956_64_KODIROVANIE">
+      <rel_text>полученная</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>процесс представления информации в определенной стандартной форме и обратный процесс восстановления информации по ее такому представлению. В математич. литературе к о д и р о в а н и е м наз. отображение произвольного множества $URI[[http://libmeta.ru/me/formula/aux/956_1_KODIROVANIE]]/URI$ в множество конечных после- довательностей (слов) в нек-ром алфавите $URI[[http://libmeta.ru/me/formula/aux/956_2_KODIROVANIE]]/URI$, а д е к од и р о в а н и е м - обратное отображение. Примерами кодирования являются: представление натуральных чисел в $URI[[http://libmeta.ru/me/formula/aux/956_3_KODIROVANIE]]/URI$-ичной системе счисления, при к-ром каждому числу $URI[[http://libmeta.ru/me/formula/aux/956_4_KODIROVANIE]]/URI$ ставится в соответствие слово $URI[[http://libmeta.ru/me/formula/aux/956_5_KODIROVANIE]]/URI$ в алфавите $URI[[http://libmeta.ru/me/formula/aux/956_6_KODIROVANIE]]/URI$ такое, что $URI[[http://libmeta.ru/me/formula/aux/956_7_KODIROVANIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/956_8_KODIROVANIE]]/URI$; преобразование текстов на русском языке с помощью телеграфного кода в последовательности, составленные из посылок тока и пауз различной плительности; отображение, применяемое при написании цифр почтового индекса (см. рис.). В последнем случае каждой десятичной цифре соответствует слово в алфавите $URI[[http://libmeta.ru/me/formula/aux/956_9_KODIROVANIE]]/URI$ длины 9 , в котором символами 1 отмечены номера использованных линий (напр., цифре 5 соответствует слово 110010011).
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_452f82f85f093eb20115g-1.jpg?height=228&amp;width=151&amp;top_left_y=645&amp;top_left_x=1001)
+
+Исследование различных свойств К. и д. и построение эфффективных в определенном смысле кодирований, обладающих требуемыми свойствами, составляет проблематику т е о р и и к о д и р о в ан и я. Обычно критерий эфффективности кодирования так или иначе связан с минимизацией длин кодовых слов (образов
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_452f82f85f093eb20115g-1.jpg?height=107&amp;width=734&amp;top_left_y=904&amp;top_left_x=1010)
+
+элементов множества $URI[[http://libmeta.ru/me/formula/aux/956_10_KODIROVANIE]]/URI$ ), а требуемые свойства кодирования связаны с обеспечением заданного уровня помехоустойчивости, понимаемой в том или ином смысле. В частности, под помехоустойчивостью понимается возможность однозначного декодирования при отсутствии или допустимом уровне искажений в кодовых словах. Помимо помехоустойчивости, к кодированию может предъявляться ряд дополнительных требованшй. Напр., при выборе кодирования для цифр почтового индекса необходимо согласование с обычным способом напшсания цифр. В качестве дополнительных требований часто используются ограничения, связанные с допустимой сложностью схем, осуществляющих К. и д. Проблематика теории кодирования в основном создавалась под влиянием разработанной $URI[[http://libmeta.ru/me/formula/aux/956_11_KODIROVANIE]]/URI$. Iiенноном (c. Shannon, [1]) теории передачи информациі. Источником новых задач теории кодирования служат созданіге и совершенствование автоматизированных систем сбора, хранения, передачіи и обработки информации. Методы решения задач теории кодирования главным образом комбинаторные, теоретико-вероятностные и алгебраические.
+
+Произвольное кодирование $URI[[http://libmeta.ru/me/formula/aux/956_12_KODIROVANIE]]/URI$ множества (алфавита) $URI[[http://libmeta.ru/me/formula/aux/956_13_KODIROVANIE]]/URI$ словами в алфавите $URI[[http://libmeta.ru/me/formula/aux/956_14_KODIROVANIE]]/URI$ можно распространить на множество $URI[[http://libmeta.ru/me/formula/aux/956_15_KODIROVANIE]]/URI$ всех слов в $URI[[http://libmeta.ru/me/formula/aux/956_16_KODIROVANIE]]/URI$ (сообщений) следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_1_KODIROVANIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/956_17_KODIROVANIE]]/URI$. Такое отображение $URI[[http://libmeta.ru/me/formula/aux/956_18_KODIROVANIE]]/URI$ наз. поб ук в е н ны м ко д и р о в а и е м сообщений. Более общий класс кодирований сообщений образуют а в т о м а т ы е к о и р о в а н и я, реализуемые инициальными асинхронными автоматами, выдающими в каждый момент времени нек-рое (быть может, пустое) слово в алфавите $URI[[http://libmeta.ru/me/formula/aux/956_19_KODIROVANIE]]/URI$. Содержательный смысл этого обобщения заключается в том, что автомат в разных состояниях реализует различные кодирования букв алфавита сообщений. Побуквенное кодірование әто автоматное кодирование, реализуемое автоматом с одним состоянием. Одним из направлений теории кодирования является изучение общих свойств кодирования п построение алгоритмов распознавания этих свойств (см. URI[[http://libmeta.ru/me/relation/956_2_KODIROVANIE]]/URI). В частности, для побуквенных и автоматных кодирований найдены необходимые и достаточные условия для того, чтобы: 1) декодирование было однозначным, 2) существовал декодирующий автомат, т. е. автомат, реализующий декодирование с нек-рой ограниченной задержкой, 3) существовал самонастраивающийся декодирующий автомат (позволяющий в течение ограниченного промежутка времени устранить влияние сбоя во входной последовательности или в работе самого автомата).
+
+Большинство задач теории кодирования сводится к изучению конечных или счетных множеств слов в алфавите $URI[[http://libmeta.ru/me/formula/aux/956_20_KODIROVANIE]]/URI$. Такие множества наз. к о д а м и. В частности, каждому однозначному кодированию $URI[[http://libmeta.ru/me/formula/aux/956_21_KODIROVANIE]]/URI$ (и побуквенному кодированию $URI[[http://libmeta.ru/me/formula/aux/956_22_KODIROVANIE]]/URI$ ) соответствует код $URI[[http://libmeta.ru/me/formula/aux/956_23_KODIROVANIE]]/URI$. Одно из основных утвержденій теоріи кодирования состоит в том, что условие взаимной однозначности побуквенного кодирования $URI[[http://libmeta.ru/me/formula/aux/956_24_KODIROVANIE]]/URI$ накладывает следующее ограничение на длины $URI[[http://libmeta.ru/me/formula/aux/956_25_KODIROVANIE]]/URI$ кодовых слов $URI[[http://libmeta.ru/me/formula/aux/956_26_KODIROVANIE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_2_KODIROVANIE]]/URI
+\]
+
+Справедливо и обратное утверждение: если $URI[[http://libmeta.ru/me/formula/aux/956_27_KODIROVANIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/956_28_KODIROVANIE]]/URI$ - набор натуральных чисел, удовлетворяющих (1), то существует взапмно однозначное побуквенное кодирование $URI[[http://libmeta.ru/me/formula/aux/956_29_KODIROVANIE]]/URI$ такое, что слово $URI[[http://libmeta.ru/me/formula/aux/956_30_KODIROVANIE]]/URI$ имеет длину $URI[[http://libmeta.ru/me/formula/aux/956_31_KODIROVANIE]]/URI$. При этом, если числа $URI[[http://libmeta.ru/me/formula/aux/956_32_KODIROVANIE]]/URI$ упорядочены по возрастанию, то в качестве $URI[[http://libmeta.ru/me/formula/aux/956_33_KODIROVANIE]]/URI$ можно взять первые после запятой $URI[[http://libmeta.ru/me/formula/aux/956_34_KODIROVANIE]]/URI$ символов разложения числа $URI[[http://libmeta.ru/me/formula/aux/956_35_KODIROVANIE]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/956_36_KODIROVANIE]]/URI$-ичную дробь (м е т о д Iii е н н о н а).
+
+Наиболее законченные результаты в теории кодирования связаны с построением эффективных взаимно однозначных кодирований. Описанные здесь конструкции используются на практике для сжатия информации и выборки информации из памяти. Понятие әффективности кодирования зависит от выбора критерия стоимости. При определении с т о и м о с т и $URI[[http://libmeta.ru/me/formula/aux/956_37_KODIROVANIE]]/URI$ взаимно однозначного побуквенного кодирования $URI[[http://libmeta.ru/me/formula/aux/956_38_KODIROVANIE]]/URI$ предполагается, что каждому числу $URI[[http://libmeta.ru/me/formula/aux/956_39_KODIROVANIE]]/URI$ поставлено в соответствие положительное число $URI[[http://libmeta.ru/me/formula/aux/956_40_KODIROVANIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/956_41_KODIROVANIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/956_42_KODIROVANIE]]/URI$. Исследованы следующие варианты определения стоимости $URI[[http://libmeta.ru/me/formula/aux/956_43_KODIROVANIE]]/URI$ :
+
+1) $URI[[http://libmeta.ru/me/formula/aux/956_44_KODIROVANIE]]/URI$
+
+2) $URI[[http://libmeta.ru/me/formula/aux/956_45_KODIROVANIE]]/URI$,
+
+3) $URI[[http://libmeta.ru/me/formula/aux/956_46_KODIROVANIE]]/URI$,
+
+причем предполагается, что в первых двух случаях $URI[[http://libmeta.ru/me/formula/aux/956_47_KODIROVANIE]]/URI$ вероятности, с к-рыми некоторый бернуллиевый источник порождает соответствующие буквы алфавита $URI[[http://libmeta.ru/me/formula/aux/956_48_KODIROVANIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/956_49_KODIROVANIE]]/URI$, а в третьем случае $URI[[http://libmeta.ru/me/formula/aux/956_50_KODIROVANIE]]/URI$ заданные длины кодовых слов. При первом определении стоимость равна средней длине кодового слова, при втором определении с ростом параметра $URI[[http://libmeta.ru/me/formula/aux/956_51_KODIROVANIE]]/URI$ более длинные кодовые слова оказывают все больпее влияние на стоимость $URI[[http://libmeta.ru/me/formula/aux/956_52_KODIROVANIE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/956_53_KODIROVANIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/956_54_KODIROVANIE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/956_55_KODIROVANIE]]/URI$, при третьем определении стоимость равна максимальному превышению длины $URI[[http://libmeta.ru/me/formula/aux/956_56_KODIROVANIE]]/URI$ кодового слова над заданной длиной $URI[[http://libmeta.ru/me/formula/aux/956_57_KODIROVANIE]]/URI$. Задача построения взапмно однозначного побуквенного кодирования $URI[[http://libmeta.ru/me/formula/aux/956_58_KODIROVANIE]]/URI$, минимизирующего стоимость $URI[[http://libmeta.ru/me/formula/aux/956_59_KODIROVANIE]]/URI$, равносильна задаче минимизации функции $URI[[http://libmeta.ru/me/formula/aux/956_60_KODIROVANIE]]/URI$ на наборах $URI[[http://libmeta.ru/me/formula/aux/956_61_KODIROVANIE]]/URI$ из натуральных чисел, удовлетворяющих (1). Решение этой задачи известно при каждом из указанных определений стоимости.
+
+Пусть минимум величины $URI[[http://libmeta.ru/me/formula/aux/956_62_KODIROVANIE]]/URI$ на наборах $URI[[http://libmeta.ru/me/formula/aux/956_63_KODIROVANIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/956_64_KODIROVANIE]]/URI$ ) из произвольных (не обязательно натуральных) чисел равен $URI[[http://libmeta.ru/me/formula/aux/956_65_KODIROVANIE]]/URI$ и достигается на наборе $URI[[http://libmeta.ru/me/formula/aux/956_66_KODIROVANIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/956_67_KODIROVANIE]]/URI$. Неотрицательная величина $URI[[http://libmeta.ru/me/formula/aux/956_68_KODIROVANIE]]/URI$ наз. и 3 б ы т о ч н о с т ь ю, а величина $URI[[http://libmeta.ru/me/formula/aux/956_69_KODIROVANIE]]/URI$ о тн о с и т е ль н о й й 3 бы т о ч нос т ь ю кодирования $URI[[http://libmeta.ru/me/formula/aux/956_70_KODIROVANIE]]/URI$. Для избыточности взаимно однозначного кодирования $URI[[http://libmeta.ru/me/formula/aux/956_71_KODIROVANIE]]/URI$, построенного по методу Iiiеннона для длин $URI[[http://libmeta.ru/me/formula/aux/956_72_KODIROVANIE]]/URI$, справедливо неравенство $URI[[http://libmeta.ru/me/formula/aux/956_73_KODIROVANIE]]/URI$. При первом, наиболее употребительном, определении стоимости как среднего числа кодовых символов, приходящихся на одну букву порождаемого источником сообщения, величина $URI[[http://libmeta.ru/me/formula/aux/956_74_KODIROVANIE]]/URI$ равна әнт ро п и и Ii ен нона
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_3_KODIROVANIE]]/URI
+\]
+
+источника, вычісленной по основанию $URI[[http://libmeta.ru/me/formula/aux/956_75_KODIROVANIE]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/956_76_KODIROVANIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/956_77_KODIROVANIE]]/URI$. Граница избыточности $URI[[http://libmeta.ru/me/formula/aux/956_78_KODIROVANIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/956_79_KODIROVANIE]]/URI$ может быть улучшена с помощью так наз. к о д иро в а н и я бло к а м и длины $URI[[http://libmeta.ru/me/formula/aux/956_80_KODIROVANIE]]/URI$, при к-ром сообщения длины $URI[[http://libmeta.ru/me/formula/aux/956_81_KODIROVANIE]]/URI$ (а не отдельные буквы) кодируются по методу Шеннона. Избыточность такого кодирования не превышает $URI[[http://libmeta.ru/me/formula/aux/956_82_KODIROVANIE]]/URI$. Этот же прием используется для әффективного кодирования зависимых источников. В связи с тем, что определение длин $URI[[http://libmeta.ru/me/formula/aux/956_83_KODIROVANIE]]/URI$ при кодировании по методу Шеннона основано на знании статистики источника, для нек-рых классов источников разработаны методы построения универсального кодирования, гарантирующего определенную верхнюю границу избыточности для любого источника из этого класса. В частности, построено кодирование блоками длины $URI[[http://libmeta.ru/me/formula/aux/956_84_KODIROVANIE]]/URI$, избыточность к-рого для любого бернуллиевого источника асимптотически не превышает $URI[[http://libmeta.ru/me/formula/aux/956_85_KODIROVANIE]]/URI$ (при фиксированных $URI[[http://libmeta.ru/me/formula/aux/956_86_KODIROVANIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/956_87_KODIROVANIE]]/URI$, причем эта асимптотическая граница не может быть улучшена.
+
+Наряду с задачами әффективного сжатия информации рассмотрены задачи оценки избыточности конкретных видов сообщений. Напр., была оценена относительная избыточность нек-рых естественных языков (в частности, английского и русского) в предположении, что тексты на них порождаются марковскими источниками с большим числом состояний.
+
+При исследовании задач построения эффективных помехоустойчивых кодирований обычно рассматривают кодирования $URI[[http://libmeta.ru/me/formula/aux/956_88_KODIROVANIE]]/URI$, к-рым соответствуют коды $URI[[http://libmeta.ru/me/formula/aux/956_89_KODIROVANIE]]/URI$, принадлежащие множеству $URI[[http://libmeta.ru/me/formula/aux/956_90_KODIROVANIE]]/URI$ слов длины $URI[[http://libmeta.ru/me/formula/aux/956_91_KODIROVANIE]]/URI$ в алфавите $URI[[http://libmeta.ru/me/formula/aux/956_92_KODIROVANIE]]/URI$, и предполагают, что буквы алфавита сообщений $URI[[http://libmeta.ru/me/formula/aux/956_93_KODIROVANIE]]/URI$ равновероятны. Эффективность такого кодирования оценивают избыточностью $URI[[http://libmeta.ru/me/formula/aux/956_94_KODIROVANIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/956_95_KODIROVANIE]]/URI$ или ск о р ост ь ю п е ре д а ч и $URI[[http://libmeta.ru/me/formula/aux/956_96_KODIROVANIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/956_97_KODIROVANIE]]/URI$. При определении помехоустойчивости кодирования формализуется понятие ошибки и вводится в рассмотрение нек-рая модель образования ошибок. О Iii и б к о й т I п а 3 а м е е н и я (или просто о Iii и б к о й) наз. преобразование слова, состоящее в замещении одного из его символов другим символом алфавита $URI[[http://libmeta.ru/me/formula/aux/956_98_KODIROVANIE]]/URI$. Напр., проведение липней линии при написании цифры почтового индекса приводит к замещению в кодовом слове символа 0 символом 1 , а отсутствие нужной линии - к замещению символа 1 символом 0. Возможность обнаружения и исправления ошибок основана на том, что для кодирования $URI[[http://libmeta.ru/me/formula/aux/956_99_KODIROVANIE]]/URI$, обладающего ненулевой избыточностью, декодирование $URI[[http://libmeta.ru/me/formula/aux/956_100_KODIROVANIE]]/URI$ может быть произвольным образом доопределено на $URI[[http://libmeta.ru/me/formula/aux/956_101_KODIROVANIE]]/URI$ словах из $URI[[http://libmeta.ru/me/formula/aux/956_102_KODIROVANIE]]/URI$, не являющихся кодовыми. В частности, если множество $URI[[http://libmeta.ru/me/formula/aux/956_103_KODIROVANIE]]/URI$ разбито на $URI[[http://libmeta.ru/me/formula/aux/956_104_KODIROVANIE]]/URI$ непересекающихся подмножеств $URI[[http://libmeta.ru/me/formula/aux/956_105_KODIROVANIE]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/956_106_KODIROVANIE]]/URI$, а декодирование $URI[[http://libmeta.ru/me/formula/aux/956_107_KODIROVANIE]]/URI$ доопределено так, что $URI[[http://libmeta.ru/me/formula/aux/956_108_KODIROVANIE]]/URI$, то при декодировании будут исправлены все ошибки, преобразующие кодовое слово $URI[[http://libmeta.ru/me/formula/aux/956_109_KODIROVANIE]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/956_110_KODIROVANIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/956_111_KODIROVANIE]]/URI$. Аналогичная возможность имеется и в случае ошибок других типов таких, как стирание символа (замещение символом другого алфавита), изменение числового значения кодового слова на $URI[[http://libmeta.ru/me/formula/aux/956_112_KODIROVANIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/956_113_KODIROVANIE]]/URI$ (ариф্еметическая ошибка), выпадение или вставка символа и т. п.
+
+В теории передачи информации (см. URI[[http://libmeta.ru/me/relation/956_1_KODIROVANIE]]/URI передача) рассматриваются вероятностные модели образования ошибок, называемые к а н а л а м и. Простейший канал без памяти задается вероятностями $URI[[http://libmeta.ru/me/formula/aux/956_114_KODIROVANIE]]/URI$ замещения символа $URI[[http://libmeta.ru/me/formula/aux/956_115_KODIROVANIE]]/URI$ символом $URI[[http://libmeta.ru/me/formula/aux/956_116_KODIROVANIE]]/URI$. Для канала определяется величина (п р о п у с к ная с по с о бность)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_4_KODIROVANIE]]/URI
+\]
+
+где максимум берется по всем наборам $URI[[http://libmeta.ru/me/formula/aux/956_117_KODIROVANIE]]/URI$ таким, что $URI[[http://libmeta.ru/me/formula/aux/956_118_KODIROVANIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/956_119_KODIROVANIE]]/URI$. Эфффективность кодирования $URI[[http://libmeta.ru/me/formula/aux/956_120_KODIROVANIE]]/URI$ характеризуется скоростью передачи $URI[[http://libmeta.ru/me/formula/aux/956_121_KODIROVANIE]]/URI$, а помехоустойчивость - средней вероятностью ошибки декодирования $URI[[http://libmeta.ru/me/formula/aux/956_122_KODIROVANIE]]/URI$ (при наилучшем разбиении $URI[[http://libmeta.ru/me/formula/aux/956_123_KODIROVANIE]]/URI$ на подмножества $URI[[http://libmeta.ru/me/formula/aux/956_124_KODIROVANIE]]/URI$ ). Основной результат теории передачи информации ( т е о р е м а Iii е н н о на) cocтоит в том, что пропускная способность $URI[[http://libmeta.ru/me/formula/aux/956_125_KODIROVANIE]]/URI$ является верхней гранью чисел $URI[[http://libmeta.ru/me/formula/aux/956_126_KODIROVANIE]]/URI$ таких, что для любого $URI[[http://libmeta.ru/me/formula/aux/956_127_KODIROVANIE]]/URI$ при всех $URI[[http://libmeta.ru/me/formula/aux/956_128_KODIROVANIE]]/URI$, начиная с нек-рого, существует кодирование $URI[[http://libmeta.ru/me/formula/aux/956_129_KODIROVANIE]]/URI$,для к-рого $URI[[http://libmeta.ru/me/formula/aux/956_130_KODIROVANIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/956_131_KODIROVANIE]]/URI$.
+
+Другая модель образования ошибок (см. Код $URI[[http://libmeta.ru/me/formula/aux/956_132_KODIROVANIE]]/URI$ исправлением ошибок, Код с исправлением арифметических ошибок, Код с исправлением выпадений и вставок) характеризуется тем, что в каждом слове длины $URI[[http://libmeta.ru/me/formula/aux/956_133_KODIROVANIE]]/URI$ происходит не более заданного числа $URI[[http://libmeta.ru/me/formula/aux/956_134_KODIROVANIE]]/URI$ ошибок. Пусть $URI[[http://libmeta.ru/me/formula/aux/956_135_KODIROVANIE]]/URI$ - множество слов, получаемых из $URI[[http://libmeta.ru/me/formula/aux/956_136_KODIROVANIE]]/URI$ в результате $URI[[http://libmeta.ru/me/formula/aux/956_137_KODIROVANIE]]/URI$ или менее ошибок. Если для кода
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_5_KODIROVANIE]]/URI
+\]
+
+множества $URI[[http://libmeta.ru/me/formula/aux/956_138_KODIROVANIE]]/URI$, попарно не пересекаются, то при декодировании таком, что $URI[[http://libmeta.ru/me/formula/aux/956_139_KODIROVANIE]]/URI$, будут исправлены все ошибки, допустимые рассматриваемой моделью образования ошибок, и такой код наз. ко д о м с и с п р а л ением $URI[[http://libmeta.ru/me/formula/aux/956_140_KODIROVANIE]]/URI$ о пі и о к. Для многих типов ошибок (напр., замещений, арифметич. ошибок, выпадений и вставок) функция $URI[[http://libmeta.ru/me/formula/aux/956_141_KODIROVANIE]]/URI$, равная минимальному числу ошибок данного типа, преобразующих слово $URI[[http://libmeta.ru/me/formula/aux/956_142_KODIROVANIE]]/URI$ в слово $URI[[http://libmeta.ru/me/formula/aux/956_143_KODIROVANIE]]/URI$ является метрикой, а множества $URI[[http://libmeta.ru/me/formula/aux/956_144_KODIROVANIE]]/URI$ - метрическими шарами радиуса $URI[[http://libmeta.ru/me/formula/aux/956_145_KODIROVANIE]]/URI$. Поэтому задача построения наиболее әффективного (т. е. максимального по числу слов $URI[[http://libmeta.ru/me/formula/aux/956_146_KODIROVANIE]]/URI$ ) кода в $URI[[http://libmeta.ru/me/formula/aux/956_147_KODIROVANIE]]/URI$ с исправлением $URI[[http://libmeta.ru/me/formula/aux/956_148_KODIROVANIE]]/URI$ ошибок равносильна задаче плотнейшей упаковки метрического пространства $URI[[http://libmeta.ru/me/formula/aux/956_149_KODIROVANIE]]/URI$ шарами радиуса $URI[[http://libmeta.ru/me/formula/aux/956_150_KODIROVANIE]]/URI$. Код для цифр почтового индекса не является кодом с исправлением одной ошибки, так как $URI[[http://libmeta.ru/me/formula/aux/956_151_KODIROVANIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/956_152_KODIROVANIE]]/URI$, хотя все другие расстояния между кодовыми словами не менее 3 .
+
+Задача исследования величины $URI[[http://libmeta.ru/me/formula/aux/956_153_KODIROVANIE]]/URI$ минимальной избыточности кода в $URI[[http://libmeta.ru/me/formula/aux/956_154_KODIROVANIE]]/URI$ с исправлением $URI[[http://libmeta.ru/me/formula/aux/956_155_KODIROVANIE]]/URI$ ошибок типа замещения распадается на два основных случая. В первом случае, когда $URI[[http://libmeta.ru/me/formula/aux/956_156_KODIROVANIE]]/URI$ фиксировано, а $URI[[http://libmeta.ru/me/formula/aux/956_157_KODIROVANIE]]/URI$, справедлива асимптотика
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_6_KODIROVANIE]]/URI
+\]
+
+причем достигается «мощностная» граница, основанная на подсчете числа слов длины $URI[[http://libmeta.ru/me/formula/aux/956_158_KODIROVANIE]]/URI$ в шаре радиуса $URI[[http://libmeta.ru/me/formula/aux/956_159_KODIROVANIE]]/URI$. Асимптотика величины $URI[[http://libmeta.ru/me/formula/aux/956_160_KODIROVANIE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/956_161_KODIROVANIE]]/URI$, а также при $URI[[http://libmeta.ru/me/formula/aux/956_162_KODIROVANIE]]/URI$ для многих других типов ошибок (напр., арифметич. ошибок, выпадений и вставок) не известна (1978). Во втором случае, когда $URI[[http://libmeta.ru/me/formula/aux/956_163_KODIROVANIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/956_164_KODIROVANIE]]/URI$ некоторое фиксированное число, $URI[[http://libmeta.ru/me/formula/aux/956_165_KODIROVANIE]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/956_166_KODIROVANIE]]/URI$, «мощностная» граница
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_7_KODIROVANIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/956_167_KODIROVANIE]]/URI$, существенно улучшена. Имеется предположение, что верхняя граница
+
+\[
+URI[[http://libmeta.ru/me/formula/main/956_8_KODIROVANIE]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/956_64_KODIROVANIE]]/URI методом случайного URI[[http://libmeta.ru/me/relation/956_63_KODIROVANIE]]/URI кода, является асимптотически точной, т. е. $URI[[http://libmeta.ru/me/formula/aux/956_168_KODIROVANIE]]/URI$. URI[[http://libmeta.ru/me/relation/956_62_KODIROVANIE]]/URI или опровержение этого URI[[http://libmeta.ru/me/relation/956_61_KODIROVANIE]]/URI - одна из URI[[http://libmeta.ru/me/relation/956_60_KODIROVANIE]]/URI задач URI[[http://libmeta.ru/me/relation/956_59_KODIROVANIE]]/URI кодирования.
+
+Большинство конструкций помехоустойчивых кодов являются әфффективными, когда URI[[http://libmeta.ru/me/relation/956_58_KODIROVANIE]]/URI $URI[[http://libmeta.ru/me/formula/aux/956_169_KODIROVANIE]]/URI$ кода достаточно велика. В связи с этим особое значение приобретают вопросы, URI[[http://libmeta.ru/me/relation/956_57_KODIROVANIE]]/URI со сложностью устройств, осуществляющих URI[[http://libmeta.ru/me/relation/956_56_KODIROVANIE]]/URI (кодера и декодера). Ограничения на допустимый тип декодера или его URI[[http://libmeta.ru/me/relation/956_55_KODIROVANIE]]/URI могут приводить к увеличению URI[[http://libmeta.ru/me/relation/956_54_KODIROVANIE]]/URI, необходимой для обеспечения заданной URI[[http://libmeta.ru/me/relation/956_53_KODIROVANIE]]/URI. Напр., минимальная URI[[http://libmeta.ru/me/relation/956_52_KODIROVANIE]]/URI кода в $URI[[http://libmeta.ru/me/formula/aux/956_170_KODIROVANIE]]/URI$, для к-рого существует декодер, состоящий из регистра сдвига и одного мажоритарного элемента и исправляющий одну ошибку, имеет URI[[http://libmeta.ru/me/relation/956_51_KODIROVANIE]]/URI $URI[[http://libmeta.ru/me/formula/aux/956_171_KODIROVANIE]]/URI$ (ср. с (2)). В качестве математич. URI[[http://libmeta.ru/me/relation/956_50_KODIROVANIE]]/URI кодера и декодера обычно рассматривают схемы URI[[http://libmeta.ru/me/relation/956_49_KODIROVANIE]]/URI и под сложностью понимают URI[[http://libmeta.ru/me/relation/956_48_KODIROVANIE]]/URI элементов в схеме. Для известных классов кодов с URI[[http://libmeta.ru/me/relation/956_47_KODIROVANIE]]/URI проведено исследование возможных URI[[http://libmeta.ru/me/relation/956_46_KODIROVANIE]]/URI К. и д. и URI[[http://libmeta.ru/me/relation/956_45_KODIROVANIE]]/URI верхние URI[[http://libmeta.ru/me/relation/956_44_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_43_KODIROVANIE]]/URI кодера и декодера. Найдены также нек-рые соотношения между URI[[http://libmeta.ru/me/relation/956_42_KODIROVANIE]]/URI кодирования, URI[[http://libmeta.ru/me/relation/956_41_KODIROVANIE]]/URI кодирования и сложностью декодера (см. [5]).
+
+Еще одно направление исследований в URI[[http://libmeta.ru/me/relation/956_40_KODIROVANIE]]/URI кодирования URI[[http://libmeta.ru/me/relation/956_39_KODIROVANIE]]/URI с тем, что многие URI[[http://libmeta.ru/me/relation/956_38_KODIROVANIE]]/URI (напр., URI[[http://libmeta.ru/me/relation/956_37_KODIROVANIE]]/URI Шеннона и URI[[http://libmeta.ru/me/relation/956_36_KODIROVANIE]]/URI (3)) не являются «конструктивными», а URI[[http://libmeta.ru/me/relation/956_35_KODIROVANIE]]/URI собой URI[[http://libmeta.ru/me/relation/956_34_KODIROVANIE]]/URI существования бесконечных URI[[http://libmeta.ru/me/relation/956_33_KODIROVANIE]]/URI $URI[[http://libmeta.ru/me/formula/aux/956_172_KODIROVANIE]]/URI$ кодов $URI[[http://libmeta.ru/me/formula/aux/956_173_KODIROVANIE]]/URI$. В связи с этим URI[[http://libmeta.ru/me/relation/956_32_KODIROVANIE]]/URI усилия, чтобы доказать эти URI[[http://libmeta.ru/me/relation/956_31_KODIROVANIE]]/URI в классе таких URI[[http://libmeta.ru/me/relation/956_30_KODIROVANIE]]/URI $URI[[http://libmeta.ru/me/formula/aux/956_174_KODIROVANIE]]/URI$ кодов, для к-рых существует мапина Тьюринга, URI[[http://libmeta.ru/me/relation/956_29_KODIROVANIE]]/URI принадлежность произвольного слова длины $URI[[http://libmeta.ru/me/formula/aux/956_175_KODIROVANIE]]/URI$ URI[[http://libmeta.ru/me/relation/956_28_KODIROVANIE]]/URI $URI[[http://libmeta.ru/me/formula/aux/956_176_KODIROVANIE]]/URI$ за время, имеющее медленный URI[[http://libmeta.ru/me/relation/956_27_KODIROVANIE]]/URI роста относительно $URI[[http://libmeta.ru/me/formula/aux/956_177_KODIROVANIE]]/URI$ (напр., $URI[[http://libmeta.ru/me/formula/aux/956_178_KODIROVANIE]]/URI$.
+
+Нек-рые новые конструкции и URI[[http://libmeta.ru/me/relation/956_26_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_25_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_24_KODIROVANIE]]/URI, разработанные в URI[[http://libmeta.ru/me/relation/956_23_KODIROVANIE]]/URI кодирования, привели к существенному продвижению в вопросах, на первый взгляд весьма далеких от традиционных задач URI[[http://libmeta.ru/me/relation/956_22_KODIROVANIE]]/URI кодирования. Здесь следует указать на использование максимального кода с исправлением одной ошибки в асимптотически оптимальном URI[[http://libmeta.ru/me/relation/956_21_KODIROVANIE]]/URI реализации URI[[http://libmeta.ru/me/relation/956_20_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_19_KODIROVANIE]]/URI логики URI[[http://libmeta.ru/me/relation/956_18_KODIROVANIE]]/URI схемами; на принципиальное улучшение верхней URI[[http://libmeta.ru/me/relation/956_17_KODIROVANIE]]/URI для URI[[http://libmeta.ru/me/relation/956_16_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_15_KODIROVANIE]]/URI $URI[[http://libmeta.ru/me/formula/aux/956_179_KODIROVANIE]]/URI$-мерного URI[[http://libmeta.ru/me/relation/956_14_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_13_KODIROVANIE]]/URI шарами; на использование URI[[http://libmeta.ru/me/relation/956_12_KODIROVANIE]]/URI (1) при оценке URI[[http://libmeta.ru/me/relation/956_11_KODIROVANIE]]/URI реализации URI[[http://libmeta.ru/me/relation/956_10_KODIROVANIE]]/URI одного класса URI[[http://libmeta.ru/me/relation/956_9_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_8_KODIROVANIE]]/URI логики. Идеи и URI[[http://libmeta.ru/me/relation/956_7_KODIROVANIE]]/URI URI[[http://libmeta.ru/me/relation/956_6_KODIROVANIE]]/URI кодирования находят свое дальнейшее URI[[http://libmeta.ru/me/relation/956_5_KODIROVANIE]]/URI в URI[[http://libmeta.ru/me/relation/956_4_KODIROVANIE]]/URI синтеза самокорректирующихся схем и надежных схем из ненадежных URI[[http://libmeta.ru/me/relation/956_3_KODIROVANIE]]/URI.</text>
+  <text_orig>процесс представления информации в определенной стандартной форме и обратный процесс восстановления информации по ее такому представлению. В математич. литературе к о д и р о в а н и е м наз. отображение произвольного множества $A$ в множество конечных после- довательностей (слов) в нек-ром алфавите $B$, а д е к од и р о в а н и е м - обратное отображение. Примерами кодирования являются: представление натуральных чисел в $r$-ичной системе счисления, при к-ром каждому числу $N=1,2, \ldots$ ставится в соответствие слово $b_{1} b_{2} \ldots b_{l}$ в алфавите $B_{r}=\{0,1, \ldots, r-1\}$ такое, что $b_{1} \neq 0$ и $b_{1} r^{l-1}+\ldots+b_{l-1} r+b_{l}=N$; преобразование текстов на русском языке с помощью телеграфного кода в последовательности, составленные из посылок тока и пауз различной плительности; отображение, применяемое при написании цифр почтового индекса (см. рис.). В последнем случае каждой десятичной цифре соответствует слово в алфавите $B_{2}=\{0,1\}$ длины 9 , в котором символами 1 отмечены номера использованных линий (напр., цифре 5 соответствует слово 110010011).
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_452f82f85f093eb20115g-1.jpg?height=228&amp;width=151&amp;top_left_y=645&amp;top_left_x=1001)
+
+Исследование различных свойств К. и д. и построение эфффективных в определенном смысле кодирований, обладающих требуемыми свойствами, составляет проблематику т е о р и и к о д и р о в ан и я. Обычно критерий эфффективности кодирования так или иначе связан с минимизацией длин кодовых слов (образов
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_452f82f85f093eb20115g-1.jpg?height=107&amp;width=734&amp;top_left_y=904&amp;top_left_x=1010)
+
+элементов множества $A$ ), а требуемые свойства кодирования связаны с обеспечением заданного уровня помехоустойчивости, понимаемой в том или ином смысле. В частности, под помехоустойчивостью понимается возможность однозначного декодирования при отсутствии или допустимом уровне искажений в кодовых словах. Помимо помехоустойчивости, к кодированию может предъявляться ряд дополнительных требованшй. Напр., при выборе кодирования для цифр почтового индекса необходимо согласование с обычным способом напшсания цифр. В качестве дополнительных требований часто используются ограничения, связанные с допустимой сложностью схем, осуществляющих К. и д. Проблематика теории кодирования в основном создавалась под влиянием разработанной $\mathfrak{K}$. IIенноном (C. Shannon, [1]) теории передачи информациі. Источником новых задач теории кодирования служат созданіге и совершенствование автоматизированных систем сбора, хранения, передачіи и обработки информации. Методы решения задач теории кодирования главным образом комбинаторные, теоретико-вероятностные и алгебраические.
+
+Произвольное кодирование $f$ множества (алфавита) $A$ словами в алфавите $B$ можно распространить на множество $A^{*}$ всех слов в $A$ (сообщений) следующим образом:
+
+\[
+f\left(a_{1} a_{2} \ldots a_{k}\right)=f\left(a_{1}\right) f\left(a_{2}\right) \ldots f\left(a_{k}\right),
+\]
+
+где $a_{i} \in A, i=1,2, \ldots, k$. Такое отображение $f: A^{*} \rightarrow B^{*}$ наз. поб ук в е н ны м ко д и р о в а и е м сообщений. Более общий класс кодирований сообщений образуют а в т о м а т ы е к о и р о в а н и я, реализуемые инициальными асинхронными автоматами, выдающими в каждый момент времени нек-рое (быть может, пустое) слово в алфавите $B$. Содержательный смысл этого обобщения заключается в том, что автомат в разных состояниях реализует различные кодирования букв алфавита сообщений. Побуквенное кодірование әто автоматное кодирование, реализуемое автоматом с одним состоянием. Одним из направлений теории кодирования является изучение общих свойств кодирования п построение алгоритмов распознавания этих свойств (см. Кодирование алфавитное). В частности, для побуквенных и автоматных кодирований найдены необходимые и достаточные условия для того, чтобы: 1) декодирование было однозначным, 2) существовал декодирующий автомат, т. е. автомат, реализующий декодирование с нек-рой ограниченной задержкой, 3) существовал самонастраивающийся декодирующий автомат (позволяющий в течение ограниченного промежутка времени устранить влияние сбоя во входной последовательности или в работе самого автомата).
+
+Большинство задач теории кодирования сводится к изучению конечных или счетных множеств слов в алфавите $B_{r}$. Такие множества наз. к о д а м и. В частности, каждому однозначному кодированию $f: B_{m} \rightarrow B_{r}^{*}$ (и побуквенному кодированию $f: B_{m \rightarrow}^{*} \rightarrow B_{r}^{*}$ ) соответствует код $\{f(0), \ldots, f(m-1)\} \subset B_{r}^{*}$. Одно из основных утвержденій теоріи кодирования состоит в том, что условие взаимной однозначности побуквенного кодирования $f: B_{m \rightarrow}^{*} \rightarrow B_{r}^{*}$ накладывает следующее ограничение на длины $l_{i}=l_{i}(f)$ кодовых слов $f(i)$ :
+
+\[
+\sum_{i=0}^{m-1} r^{-l} \leqslant 1
+\]
+
+Справедливо и обратное утверждение: если $\left(l_{0}, \ldots\right.$, $\left.l_{m-1}\right)$ - набор натуральных чисел, удовлетворяющих (1), то существует взапмно однозначное побуквенное кодирование $f: B_{m}^{*} \rightarrow B_{r}^{*}$ такое, что слово $f(i)$ имеет длину $l_{i}$. При этом, если числа $l_{i}$ упорядочены по возрастанию, то в качестве $f(i)$ можно взять первые после запятой $l_{i}$ символов разложения числа $\sum_{j=0}^{i-1} r^{-l_{j}}$ в $r$-ичную дробь (м е т о д III е н н о н а).
+
+Наиболее законченные результаты в теории кодирования связаны с построением эффективных взаимно однозначных кодирований. Описанные здесь конструкции используются на практике для сжатия информации и выборки информации из памяти. Понятие әффективности кодирования зависит от выбора критерия стоимости. При определении с т о и м о с т и $L(f)$ взаимно однозначного побуквенного кодирования $f: B_{m \rightarrow}^{*} B_{r}^{*}$ предполагается, что каждому числу $i \in B_{m}$ поставлено в соответствие положительное число $p_{i}$ и $P=\left\{p_{0}, \ldots\right.$, $\left.p_{m-1}\right\}$. Исследованы следующие варианты определения стоимости $L(f)$ :
+
+1) $L_{\mathrm{cp}}(f)=\sum_{i=0}^{m-1} p_{i} l_{i}$
+
+2) $L^{(t)}(f)=\frac{1}{t} \log _{r} \sum_{i=0}^{m-1} p_{i} r^{t l_{i}}, \quad 0&lt;t&lt;\infty$,
+
+3) $L^{\prime}(f)=\max _{0 \leqslant i \leqslant m-1}\left(l_{i}-p_{i}\right)$,
+
+причем предполагается, что в первых двух случаях $p_{i}-$ вероятности, с к-рыми некоторый бернуллиевый источник порождает соответствующие буквы алфавита $\boldsymbol{B}_{\boldsymbol{m}}$ $\left(\sum_{i=0}^{m-1} p_{i}=1\right)$, а в третьем случае $p_{i}-$ заданные длины кодовых слов. При первом определении стоимость равна средней длине кодового слова, при втором определении с ростом параметра $t$ более длинные кодовые слова оказывают все больпее влияние на стоимость $\left(L^{(t)}(f) \rightarrow L_{\mathrm{cp}}(f)\right.$ при $t \rightarrow 0$ и $L^{(t)}(f) \underset{0 \leqslant i \leqslant m-1}{\rightarrow \max } l_{i}$ при $\left.t \rightarrow \infty\right)$, при третьем определении стоимость равна максимальному превышению длины $l_{i}$ кодового слова над заданной длиной $p_{i}$. Задача построения взапмно однозначного побуквенного кодирования $f: B_{m}^{*} \rightarrow B_{r}^{*}$, минимизирующего стоимость $L(f)$, равносильна задаче минимизации функции $L(f)$ на наборах $\left(l_{0}, \ldots, l_{m-1}\right)$ из натуральных чисел, удовлетворяющих (1). Решение этой задачи известно при каждом из указанных определений стоимости.
+
+Пусть минимум величины $L(f)$ на наборах $\left(l_{0}, \ldots\right.$, $l_{m-1}$ ) из произвольных (не обязательно натуральных) чисел равен $L_{r}(P)$ и достигается на наборе $\left(l_{0}(P), \ldots\right.$, $\left.l_{m-1}(P)\right)$. Неотрицательная величина $I(f)=L(f)-L_{r}(P)$ наз. и 3 б ы т о ч н о с т ь ю, а величина $I(f) / L(f)-$ о тн о с и т е ль н о й й 3 бы т о ч нос т ь ю кодирования $f$. Для избыточности взаимно однозначного кодирования $f: B_{m \rightarrow}^{*} \rightarrow B_{r}^{*}$, построенного по методу IIIеннона для длин $l_{i}, l_{i}(P) \leqslant l_{i}&lt;l_{i}(P)+1$, справедливо неравенство $I(f)&lt;1$. При первом, наиболее употребительном, определении стоимости как среднего числа кодовых символов, приходящихся на одну букву порождаемого источником сообщения, величина $L_{r}(P)$ равна әнт ро п и и II ен нона
+
+\[
+H_{r}(P)=-\Sigma_{i=0}^{m-1} p_{i} \log _{r} p_{i}
+\]
+
+источника, вычісленной по основанию $r$, a $l_{i}(P)=$ $=-\log _{r} p_{i}$. Граница избыточности $I(f)=L_{\mathrm{cp}}(f)-H_{r}(P)&lt;$ $&lt;1$ может быть улучшена с помощью так наз. к о д иро в а н и я бло к а м и длины $k$, при к-ром сообщения длины $k$ (а не отдельные буквы) кодируются по методу Шеннона. Избыточность такого кодирования не превышает $1 / k$. Этот же прием используется для әффективного кодирования зависимых источников. В связи с тем, что определение длин $l_{i}$ при кодировании по методу Шеннона основано на знании статистики источника, для нек-рых классов источников разработаны методы построения универсального кодирования, гарантирующего определенную верхнюю границу избыточности для любого источника из этого класса. В частности, построено кодирование блоками длины $k$, избыточность к-рого для любого бернуллиевого источника асимптотически не превышает $\frac{m-1}{2 k} \log _{r} k$ (при фиксированных $m, r$ и $k \rightarrow \infty)$, причем эта асимптотическая граница не может быть улучшена.
+
+Наряду с задачами әффективного сжатия информации рассмотрены задачи оценки избыточности конкретных видов сообщений. Напр., была оценена относительная избыточность нек-рых естественных языков (в частности, английского и русского) в предположении, что тексты на них порождаются марковскими источниками с большим числом состояний.
+
+При исследовании задач построения эффективных помехоустойчивых кодирований обычно рассматривают кодирования $f: B_{m} \rightarrow B_{r}^{*}$, к-рым соответствуют коды $\{f(0), \ldots, f(m-1)\}$, принадлежащие множеству $B_{r}^{n}$ слов длины $n$ в алфавите $B_{r}$, и предполагают, что буквы алфавита сообщений $B_{m}$ равновероятны. Эффективность такого кодирования оценивают избыточностью $I(f)=$ $=n-\log _{r}$ или ск о р ост ь ю п е ре д а ч и $R(f)=$ $=\frac{1}{n} \log _{r} m$. При определении помехоустойчивости кодирования формализуется понятие ошибки и вводится в рассмотрение нек-рая модель образования ошибок. О III и б к о й т I п а 3 а м е е н и я (или просто о III и б к о й) наз. преобразование слова, состоящее в замещении одного из его символов другим символом алфавита $B_{r}$. Напр., проведение липней линии при написании цифры почтового индекса приводит к замещению в кодовом слове символа 0 символом 1 , а отсутствие нужной линии - к замещению символа 1 символом 0. Возможность обнаружения и исправления ошибок основана на том, что для кодирования $f$, обладающего ненулевой избыточностью, декодирование $f^{-1}$ может быть произвольным образом доопределено на $r^{n-m}$ словах из $B_{r}^{n}$, не являющихся кодовыми. В частности, если множество $B_{r}^{n}$ разбито на $m$ непересекающихся подмножеств $D_{0}, \ldots, D_{m-1}$ таких, что $f(i) \in D_{i}$, а декодирование $f^{-1}$ доопределено так, что $f^{-1}\left(D_{i}\right)=i$, то при декодировании будут исправлены все ошибки, преобразующие кодовое слово $f(i)$ в $D_{i}, i=0, \ldots$, $m-1$. Аналогичная возможность имеется и в случае ошибок других типов таких, как стирание символа (замещение символом другого алфавита), изменение числового значения кодового слова на $\pm b r^{i}, b=1, \ldots$, $r-1, i=0,1, \ldots$ (ариф্еметическая ошибка), выпадение или вставка символа и т. п.
+
+В теории передачи информации (см. Информации передача) рассматриваются вероятностные модели образования ошибок, называемые к а н а л а м и. Простейший канал без памяти задается вероятностями $p_{i j}$ замещения символа $i$ символом $j$. Для канала определяется величина (п р о п у с к ная с по с о бность)
+
+\[
+C=\max \sum_{i=0}^{r-1} \sum_{j=0}^{r-1} q_{i} p_{i j} \log _{r}\left(p_{i j} / \sum_{h=0}^{m-1} q_{h} p_{h j}\right),
+\]
+
+где максимум берется по всем наборам $\left(q_{0}, \ldots, q_{m-1}\right)$ таким, что $q_{i} \geqslant 0$ и $\sum_{i=0}^{m-1} q_{i}=1$. Эфффективность кодирования $f$ характеризуется скоростью передачи $\boldsymbol{R}(f)$, а помехоустойчивость - средней вероятностью ошибки декодирования $P(f)$ (при наилучшем разбиении $B_{r}^{n}$ на подмножества $D_{i}$ ). Основной результат теории передачи информации ( т е о р е м а III е н н о на) cocтоит в том, что пропускная способность $C$ является верхней гранью чисел $R$ таких, что для любого $\varepsilon&gt;0$ при всех $n$, начиная с нек-рого, существует кодирование $f: B_{m} \rightarrow B_{r}^{n}$,для к-рого $R(f) \geqslant R$ и $P(f)&lt;\varepsilon$.
+
+Другая модель образования ошибок (см. Код $c$ исправлением ошибок, Код с исправлением арифметических ошибок, Код с исправлением выпадений и вставок) характеризуется тем, что в каждом слове длины $n$ происходит не более заданного числа $t$ ошибок. Пусть $E_{i}(t)$ - множество слов, получаемых из $f(i)$ в результате $t$ или менее ошибок. Если для кода
+
+\[
+\{f(0), \ldots, f(m-1)\} \subset B_{r}^{n}
+\]
+
+множества $E_{i}(t), i=0, \ldots, m-1$, попарно не пересекаются, то при декодировании таком, что $E_{i}(t) \subseteq D_{i}$, будут исправлены все ошибки, допустимые рассматриваемой моделью образования ошибок, и такой код наз. ко д о м с и с п р а л ением $t$ о пі и о к. Для многих типов ошибок (напр., замещений, арифметич. ошибок, выпадений и вставок) функция $d(x, y)$, равная минимальному числу ошибок данного типа, преобразующих слово $x \in B_{r}^{n}$ в слово $y \in B_{r}^{n}$ является метрикой, а множества $E_{i}(t)$ - метрическими шарами радиуса $t$. Поэтому задача построения наиболее әффективного (т. е. максимального по числу слов $m$ ) кода в $B_{r}^{n}$ с исправлением $t$ ошибок равносильна задаче плотнейшей упаковки метрического пространства $B_{r}^{n}$ шарами радиуса $t$. Код для цифр почтового индекса не является кодом с исправлением одной ошибки, так как $d(f(0), f(8))=1$ и $d(f(5), f(8))=2$, хотя все другие расстояния между кодовыми словами не менее 3 .
+
+Задача исследования величины $I_{r}(n, t)-$ минимальной избыточности кода в $B_{r}^{n}$ с исправлением $t$ ошибок типа замещения распадается на два основных случая. В первом случае, когда $t$ фиксировано, а $n \rightarrow \infty$, справедлива асимптотика
+
+\[
+I_{2}(n, t) \sim t \log _{2} n,
+\]
+
+причем достигается «мощностная» граница, основанная на подсчете числа слов длины $n$ в шаре радиуса $t$. Асимптотика величины $I_{r}(n, t)$ при $r&gt;2$, а также при $r=2$ для многих других типов ошибок (напр., арифметич. ошибок, выпадений и вставок) не известна (1978). Во втором случае, когда $t=[p n]$, где $p-$ некоторое фиксированное число, $0&lt;p&lt;(r-1) / 2 r$, а $n \rightarrow \infty$, «мощностная» граница
+
+\[
+I_{\boldsymbol{r}}(n,[p n]) \geqslant n T_{r}(p),
+\]
+
+где $\quad T_{r}(p)=-p \log _{r}(p /(r-1))-(1-p) \log _{r}(1-p)$, существенно улучшена. Имеется предположение, что верхняя граница
+
+\[
+I_{r}(n,[p n]) \leqslant n T_{r}(2 p),
+\]
+
+полученная методом случайного выбора кода, является асимптотически точной, т. е. $I_{r}(n,[p n]) \sim n T_{r}(2 p)$. Доказательство или опровержение этого предположения - одна из центральных задач теории кодирования.
+
+Большинство конструкций помехоустойчивых кодов являются әфффективными, когда длина $n$ кода достаточно велика. В связи с этим особое значение приобретают вопросы, связанные со сложностью устройств, осуществляющих кодирование и декодирование (кодера и декодера). Ограничения на допустимый тип декодера или его сложность могут приводить к увеличению избыточности, необходимой для обеспечения заданной помехоустойчивости. Напр., минимальная избыточность кода в $B_{2}^{n}$, для к-рого существует декодер, состоящий из регистра сдвига и одного мажоритарного элемента и исправляющий одну ошибку, имеет порядок $\sqrt{n}$ (ср. с (2)). В качестве математич. модели кодера и декодера обычно рассматривают схемы из функциональных элементов и под сложностью понимают число элементов в схеме. Для известных классов кодов с исправлением ошибок проведено исследование возможных алгоритмов К. и д. и получены верхние границы сложности кодера и декодера. Найдены также нек-рые соотношения между скоростью передачи кодирования, помехоустойчивостью кодирования и сложностью декодера (см. [5]).
+
+Еще одно направление исследований в теории кодирования связано с тем, что многие результаты (напр., теорема Шеннона и граница (3)) не являются «конструктивными», а представляют собой теоремы существования бесконечных последовательностей $\left\{\dot{K}_{n}\right\}$ кодов $K_{n} \subseteq B_{r}^{n}$. В связи с этим предпринимаются усилия, чтобы доказать эти результаты в классе таких последовательностей $\left\{K_{n}\right\}$ кодов, для к-рых существует мапина Тьюринга, распознающая принадлежность произвольного слова длины $l$ множеству $\bigcup_{n=1}^{\infty} K_{n}$ за время, имеющее медленный порядок роста относительно $l$ (напр., $l \log l)$.
+
+Нек-рые новые конструкции и методы получения границ, разработанные в теории кодирования, привели к существенному продвижению в вопросах, на первый взгляд весьма далеких от традиционных задач теории кодирования. Здесь следует указать на использование максимального кода с исправлением одной ошибки в асимптотически оптимальном методе реализации функций алгебры логики контактными схемами; на принципиальное улучшение верхней границы для плотности упаковки $n$-мерного евклидова пространства равными шарами; на использование неравенства (1) при оценке сложности реализации формулами одного класса функций алгебры логики. Идеи и результаты теории кодирования находят свое дальнейшее развитие в задачах синтеза самокорректирующихся схем и надежных схем из ненадежных әлементов.
+
+Лum.: [1] IШ е н н о н К., Работы по теории информации и кибернетике, пер. с англ., М., 1963; [2] Б е р л е к эм п Э.; Алгебраическая теория кодирования, пер. с англ., М., 1971; [3] П и т е p с о н У., 2 и э л д о н Э., Коды, исправляющие тика и математические вопросы кибернетики,т.1, М., 1974 , раздел 5; [5] Б а с с а лы с о Л. А., З я б л о в В. В., П и н-
+с к е р м. С., &quot;Пробл. передачи информации&quot;, 1977, т. 13, № 3 , c. 5-17; [6] С и д е л ь н и к о в В. М., &quot;Матем. сб.»,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_e50734683fbbc45d3de8g-1.jpg?height=40&amp;width=829&amp;top_left_y=2146&amp;top_left_x=992)</text_orig>
+</article>

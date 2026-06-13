@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/6_OKRUGLENI" alphabetic_pos="6">
+  <title>ОКРУГЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>8</start>
+    <end>9</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] К р ы ло в А. Н., Лекции о приближенных вычислениях, 5 изд., М.- Л., 1950 ; [2] Б е р е з и в И. С., Ж и дк о в Н. П., Методы вычислений, 3 изд., т. 1, М 1966 ; [3] Б а хв а л о в Н. С., Численные методы, 2 изд., М., 1975; [4] В о е в оди и В. В., Вычислительные основы линейной алгебры, М.,1977.</literature_orig>
+    <unit>
+      <author>Крылов А. Н.</author>
+      <title>Лекции о приближенных вычислениях</title>
+      <publication>5 изд., М.- Л.</publication>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Березив И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Воеводии В. В.</author>
+      <title>Вычислительные основы линейной алгебры</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main/>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_1_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_2_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_3_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_4_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_5_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_6_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_7_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_8_OKRUGLENI">t \mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_9_OKRUGLENI">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/6_10_OKRUGLENI">o</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/6_1_OKRUGLENI">
+      <rel_text>результата</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/6_2_OKRUGLENI">
+      <rel_text>стратегии</rel_text>
+      <target>http://libmeta.ru/me/article/261_STRATEGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/6_3_OKRUGLENI">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/6_4_OKRUGLENI">
+      <rel_text>характеризовать</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/6_5_OKRUGLENI">
+      <rel_text>численных</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/6_6_OKRUGLENI">
+      <rel_text>развились</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+  </relations>
+  <text>ч и с л а - приближенное представление числа в нек-рої системе счисления с помощью конечного количества цифр. Необходимость О. диктуется потребностями вычислений, в к-рых, как правило, окончательный результат не может быть получен абсолютно точно и следует избегать бесполезного выписывания лишних цифр, ограничивая все числа лишь нужным количеством знаков.
+
+При О. числа оно заменяется другим числом (t-разрядным, т. е. имеющим $URI[[http://libmeta.ru/me/formula/aux/6_1_OKRUGLENI]]/URI$ цифр), представляющим его приближенно. Возникающу при этом погрешность наз. п о г р е ш н о с т ь о к р угле ния, или о Iіи и к о й о к р у л ения.
+
+Применяются различные способы О. числа. Простейший из них состоит в отбрасывании младших разрядов числа, выходящих за $URI[[http://libmeta.ru/me/formula/aux/6_2_OKRUGLENI]]/URI$ разрядов. Абсолютная погрешность О. при әтом не превосходит единицы $URI[[http://libmeta.ru/me/formula/aux/6_3_OKRUGLENI]]/URI$-го разряда числа. Способ О., обычно применяемый в ручных вычислениях, состоит в 0 . числа до ближайшего $URI[[http://libmeta.ru/me/formula/aux/6_4_OKRUGLENI]]/URI$-разрядного числа. Абсолютная ошибка О. при әтом не превосходит половины $URI[[http://libmeta.ru/me/formula/aux/6_5_OKRUGLENI]]/URI$-го разряда округляемого числа. Әтот способ дает минимально возможную ошибку среди всех способов О., использующих $URI[[http://libmeta.ru/me/formula/aux/6_6_OKRUGLENI]]/URI$ разрядов.
+
+Способы О., реализуемые на вычислительной машине, определяются ее назначением, технич. возможностями и, как правило, уступают по точности О. до ближайшего $URI[[http://libmeta.ru/me/formula/aux/6_7_OKRUGLENI]]/URI$-разрядного числа. В Эвм наиболее приняты два режима арифметич. вычислений: т. н. режим с плавающей запятой и режим с фиксированной запятой. В режиме с плавающей запятой результат О. числа имеет определенное количество значащих цифр; в режиме с фиксированной запятой - определенное количество цифр после запятой. В первом случае принято говорить об О. д о $URI[[http://libmeta.ru/me/formula/aux/6_8_OKRUGLENI]]/URI$ а з р я д о в, во втором- об О. До $URI[[http://libmeta.ru/me/formula/aux/6_9_OKRUGLENI]]/URI$ раз я я д в после запя той. При этом в первом случае контролируется относительная погрешность О., во втором - абсолютная погрешность.
+
+В связи с использованием вычислительных машин URI[[http://libmeta.ru/me/relation/6_6_OKRUGLENI]]/URI исследования накопления ошибок $URI[[http://libmeta.ru/me/formula/aux/6_10_OKRUGLENI]]/URI$. в больших вычислениях. Анализ накопления ошибок в URI[[http://libmeta.ru/me/relation/6_5_OKRUGLENI]]/URI методах позволяет URI[[http://libmeta.ru/me/relation/6_4_OKRUGLENI]]/URI URI[[http://libmeta.ru/me/relation/6_3_OKRUGLENI]]/URI по чувствительности их к ошибкам О., строить URI[[http://libmeta.ru/me/relation/6_2_OKRUGLENI]]/URI реализации их в вычислительной практике, учитывающие ошибки О., и оценить точность окончательного URI[[http://libmeta.ru/me/relation/6_1_OKRUGLENI]]/URI.</text>
+  <text_orig>ч и с л а - приближенное представление числа в нек-рої системе счисления с помощью конечного количества цифр. Необходимость О. диктуется потребностями вычислений, в к-рых, как правило, окончательный результат не может быть получен абсолютно точно и следует избегать бесполезного выписывания лишних цифр, ограничивая все числа лишь нужным количеством знаков.
+
+При О. числа оно заменяется другим числом (t-разрядным, т. е. имеющим $t$ цифр), представляющим его приближенно. Возникающу при этом погрешность наз. п о г р е ш н о с т ь о к р угле ния, или о Iіи и к о й о к р у л ения.
+
+Применяются различные способы О. числа. Простейший из них состоит в отбрасывании младших разрядов числа, выходящих за $t$ разрядов. Абсолютная погрешность О. при әтом не превосходит единицы $t$-го разряда числа. Способ О., обычно применяемый в ручных вычислениях, состоит в 0 . числа до ближайшего $t$-разрядного числа. Абсолютная ошибка О. при әтом не превосходит половины $t$-го разряда округляемого числа. Әтот способ дает минимально возможную ошибку среди всех способов О., использующих $t$ разрядов.
+
+Способы О., реализуемые на вычислительной машине, определяются ее назначением, технич. возможностями и, как правило, уступают по точности О. до ближайшего $t$-разрядного числа. В ЭВМ наиболее приняты два режима арифметич. вычислений: т. н. режим с плавающей запятой и режим с фиксированной запятой. В режиме с плавающей запятой результат О. числа имеет определенное количество значащих цифр; в режиме с фиксированной запятой - определенное количество цифр после запятой. В первом случае принято говорить об О. д о $t \mathrm{p}$ а з р я д о в, во втором- об О. До $t$ раз я я д в после запя той. При этом в первом случае контролируется относительная погрешность О., во втором - абсолютная погрешность.
+
+В связи с использованием вычислительных машин развились исследования накопления ошибок $O$. в больших вычислениях. Анализ накопления ошибок в численных методах позволяет характеризовать методы по чувствительности их к ошибкам О., строить стратегии реализации их в вычислительной практике, учитывающие ошибки О., и оценить точность окончательного результата.
+
+Лит.: [1] К р ы ло в А. Н., Лекции о приближенных вычислениях, 5 изд., М.- Л., 1950 ; [2] Б е р е з и в И. С., Ж и дк о в Н. П., Методы вычислений, 3 изд., т. 1, М 1966 ; [3] Б а хв а л о в Н. С., Численные методы, 2 изд., М., 1975; [4] В о е в оди и В. В., Вычислительные основы линейной алгебры, М.,
+1977.</text_orig>
+</article>

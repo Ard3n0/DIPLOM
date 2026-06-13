@@ -1,0 +1,656 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/598_UPRAVLJaEMYJ" alphabetic_pos="598">
+  <title>УПРАВЛЯЕМЫЙ СЛУЧАЙЫЙ ПРОЦЕСС</title>
+  <authors/>
+  <pages>
+    <start>265</start>
+    <end>268</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Г и х м а н И. И., С к о р о х о д А. В., Управляемые случайные процессы, К., 1977, [2] Ю ші к е в и ч А А., «теория вероятностей и ее применения&quot;, 1980, т 25 , №, с 247-70, цессы диффузионого типа, M., 1977; ' [4] F l e m ing w. H., R i s h e l R. W. Deterministic and stochastic op timal control,![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=57&amp;width=819&amp;top_left_y=1680&amp;top_left_x=136)![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=50&amp;width=824&amp;top_left_y=1712&amp;top_left_x=134)W. M. &quot;siam J. Control&quot;, 1968, v. 6, № 2, p. 312-26; 4 . D D a-![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=49&amp;width=819&amp;top_left_y=1774&amp;top_left_x=134)</literature_orig>
+    <unit>
+      <author>Гихман И. И.</author>
+      <author>Скороход А. В.</author>
+      <title>Управляемые случайные процессы, К.</title>
+      <publication/>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Юшікевич А А.</author>
+      <title>«теория вероятностей и ее применения&quot;</title>
+      <publication/>
+      <year>1980</year>
+      <other>т 25, №, с 247-70, цессы диффузионого типа, M., 1977; ' [4] F l e m ing w. H., R i s h e l R. W. Deterministic and stochastic op timal control, ![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=57&amp;width=819&amp;top_left_y=1680&amp;top_left_x=136)![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=50&amp;width=824&amp;top_left_y=1712&amp;top_left_x=134)W. M. &quot;siam J. Control&quot;, 1968, v. 6, № 2, p. 312-26; 4 . D D a-![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=49&amp;width=819&amp;top_left_y=1774&amp;top_left_x=134)</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/598_1_UPRAVLJaEMYJ">\left.\begin{array}{c}\mathrm{P}_{x}^{\alpha}\left\{\tau&gt;t^{\prime} \mid N_{t}\right\}= \\\left.=\exp \left[\int_{t}^{t^{\prime}} q\left(\alpha\left(x_{[0, s)}^{*}\right), s, x_{t}, x_{t}\right) d s\right] \text { (п. н. } \mathrm{P}_{x}^{\alpha}\right), \\\mathrm{P}_{x}^{\alpha}\left\{x_{\tau} \in \Gamma \mid N_{t}(\tau)\right\}= \\\left.=-\frac{q\left(\alpha\left(x^{*}[0, \tau)\right), \tau, x_{t}, \mathrm{r}\right)}{q\left(\alpha\left(x_{[0, \tau)}^{*}\right), \tau, x_{t}, x_{t}\right)} \text { (п. н. } \mathrm{P}_{x}^{\alpha}\right),\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_2_UPRAVLJaEMYJ">v^{\alpha}(x)=\mathrm{E}_{x}^{\alpha}\left[\int_{0}^{T} f^{\alpha} t\left(t, x_{t}\right) d t+g\left(x_{T}\right)\right],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_3_UPRAVLJaEMYJ">v(x)=\sup _{\alpha \in \mathfrak{a}_{E}} v^{\alpha}(x), \quad x \in E .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_4_UPRAVLJaEMYJ">-\frac{\partial v(t, x)}{\partial t}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_5_UPRAVLJaEMYJ">\begin{gathered}v^{\alpha}(x)=\mathrm{E}_{x}^{\alpha} \int_{0}^{\infty} e^{-\lambda t} f^{\alpha} t\left(x_{t}\right) d t, \\v^{\alpha}(x)=\lim _{T \rightarrow \infty} \mathrm{E}_{x}^{\alpha} \frac{1}{T} \int_{0}^{T} f^{\alpha} t\left(x_{t}\right) d t,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_6_UPRAVLJaEMYJ">\lambda v(x)=\sup _{a \in A(x)}\left[f^{a}(x)+\int_{E} v(y) q(a, x, d y)\right] ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_7_UPRAVLJaEMYJ">\begin{gathered}d x_{t}=b\left(\alpha_{t}, s+t, x_{t}\right) d t+\sigma\left(\alpha_{t}, s+t, x_{t}\right) d w_{t}, \\x_{0}=x\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_8_UPRAVLJaEMYJ">\left.\begin{array}{c}\varphi_{t}^{\alpha, s, x}=\int_{0}^{t} C^{\alpha}\left(s+r, x_{r}^{\alpha, s, x}\right) d r \\v^{\alpha}(s, x)=\mathrm{E}_{s, x}^{\alpha}\left[\int_{0}^{\tau} Q e^{-\varphi_{t}} f^{\alpha_{t}}\left(s+t, x_{t}\right) d t+\right. \\\left.+g\left(s+\tau_{Q}, x_{\tau_{Q}}\right) e^{-\varphi_{\tau}} \tau\right],\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_9_UPRAVLJaEMYJ">v(s, x)=\sup _{\alpha \in \mathfrak{A}} v^{\alpha}(s, x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_10_UPRAVLJaEMYJ">\begin{aligned}v(s, x)= &amp; \sup _{\alpha \in \mathfrak{A}} \mathrm{E}_{\mathrm{S}, x}^{\alpha}\left[\int_{0}^{\tau} e^{-\varphi_{t}} f^{\alpha}\left(s+t, x_{t}\right) d t+\right. \\&amp; \left.+v\left(s+\tau, x_{\tau}\right) e^{-\varphi_{\tau}}\right]\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_11_UPRAVLJaEMYJ">\sup _{\alpha \in A}\left(L^{\alpha} v+f^{\alpha}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_12_UPRAVLJaEMYJ">\begin{gathered}L \alpha_{v}=\frac{\partial v}{\partial s}+a^{i j}(a, s, x) \frac{\partial^{2} v}{\partial x^{i} \partial x^{j}}+ \\+b^{i}(\alpha, s, x) \frac{\partial v}{\partial x^{i}}-c^{\alpha}(s, x) v,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_13_UPRAVLJaEMYJ">a(\alpha, s, x)=\left(a^{i j}(\alpha, s, x)\right)=\frac{1}{2} \sigma(\alpha, s, x) \sigma^{*}(\alpha, s, x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_14_UPRAVLJaEMYJ">\begin{gathered}v^{\alpha, \tau}(s, x)=\mathrm{E}_{s, x}^{\alpha}\left[\int_{0}^{\tau_{Q} \wedge \tau} e^{-\varphi_{t}} f^{\alpha_{t}}\left(s+t, x_{t}\right) d t+\right. \\+g\left(s+\tau_{Q} \wedge \tau, \quad x_{\left.\tau_{Q} \wedge \tau\right)} e^{-\varphi_{\tau}}{ }^{\prime} \wedge \tau\right]\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_1_UPRAVLJaEMYJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_2_UPRAVLJaEMYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_3_UPRAVLJaEMYJ">a(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_4_UPRAVLJaEMYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_5_UPRAVLJaEMYJ">a=\bigcup A(x), \quad\{(x, a): a \in</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_6_UPRAVLJaEMYJ">\in A(x), x \in E\} \in \mathscr{B}(E \times A)(\mathscr{B}(M)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_7_UPRAVLJaEMYJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_8_UPRAVLJaEMYJ">a=\alpha(x) \in A(x) ; \quad x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_9_UPRAVLJaEMYJ">q(a, t, x, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_10_UPRAVLJaEMYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_11_UPRAVLJaEMYJ">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_12_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_13_UPRAVLJaEMYJ">a(t \geqslant 0, x \in E, a \in A(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_14_UPRAVLJaEMYJ">\gamma \in \mathscr{B}(E))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_15_UPRAVLJaEMYJ">(a, t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_16_UPRAVLJaEMYJ">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_17_UPRAVLJaEMYJ">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_18_UPRAVLJaEMYJ">a, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_19_UPRAVLJaEMYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_20_UPRAVLJaEMYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_21_UPRAVLJaEMYJ">q(a, t, x, \Gamma) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_22_UPRAVLJaEMYJ">x \notin \Gamma, q(a, t, x, E)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_23_UPRAVLJaEMYJ">\omega=d([0, \infty), E)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_24_UPRAVLJaEMYJ">\omega=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_25_UPRAVLJaEMYJ">=x_{[0, \infty)}=\left(x_{t}\right)_{t \geqslant 0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_26_UPRAVLJaEMYJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_27_UPRAVLJaEMYJ">n_{t}\left(n_{t-}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_28_UPRAVLJaEMYJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_29_UPRAVLJaEMYJ">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_30_UPRAVLJaEMYJ">x_{s}=x_{s}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_31_UPRAVLJaEMYJ">s \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_32_UPRAVLJaEMYJ">s&lt;t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_33_UPRAVLJaEMYJ">n=n_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_34_UPRAVLJaEMYJ">\alpha_{t}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_35_UPRAVLJaEMYJ">(0, \infty) \times \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_36_UPRAVLJaEMYJ">\alpha_{t}(\omega) \in A\left(x_{t}-(\omega)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_37_UPRAVLJaEMYJ">\left\{n_{t-}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_38_UPRAVLJaEMYJ">\alpha_{t}(\omega)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_39_UPRAVLJaEMYJ">=\alpha\left(x_{[0, t)}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_40_UPRAVLJaEMYJ">x_{[0, t)}=\left(x_{s}\right)_{0 \leqslant s&lt;t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_41_UPRAVLJaEMYJ">\alpha_{t}(\omega)=\alpha\left(t, x_{t-}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_42_UPRAVLJaEMYJ">\alpha(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_43_UPRAVLJaEMYJ">(0, \infty) \times E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_44_UPRAVLJaEMYJ">\alpha(t, x) \in A(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_45_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_46_UPRAVLJaEMYJ">\alpha(t, x)=\alpha(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_47_UPRAVLJaEMYJ">\mathbf{p}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_48_UPRAVLJaEMYJ">\mathfrak{a}_{e}, \mathfrak{A}_{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_49_UPRAVLJaEMYJ">\mathfrak{a}_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_50_UPRAVLJaEMYJ">a(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_51_UPRAVLJaEMYJ">\mathfrak{h}_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_52_UPRAVLJaEMYJ">\mathfrak{h}_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_53_UPRAVLJaEMYJ">\mathfrak{h}_{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_54_UPRAVLJaEMYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_55_UPRAVLJaEMYJ">x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_56_UPRAVLJaEMYJ">\alpha \in \mathfrak{A}_{E}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_57_UPRAVLJaEMYJ">\mathrm{p}_{x}^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_58_UPRAVLJaEMYJ">(\omega, N)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_59_UPRAVLJaEMYJ">\mathrm{p}_{x}^{\alpha}\left\{x_{0}=x\right\}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_60_UPRAVLJaEMYJ">t^{\prime} \geqslant t \geqslant 0, \Gamma \in \mathscr{B}(E)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_61_UPRAVLJaEMYJ">\tau=\tau(t, \omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_62_UPRAVLJaEMYJ">t, N_{t}(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_63_UPRAVLJaEMYJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_64_UPRAVLJaEMYJ">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_65_UPRAVLJaEMYJ">n_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_66_UPRAVLJaEMYJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_67_UPRAVLJaEMYJ">x_{u}^{*}=x_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_68_UPRAVLJaEMYJ">0 \leqslant u \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_69_UPRAVLJaEMYJ">x_{u}^{*}=x_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_70_UPRAVLJaEMYJ">u&gt;t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_71_UPRAVLJaEMYJ">\left\{\left(x_{t}\right)_{t \geqslant 0}, P_{x}^{\alpha}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_72_UPRAVLJaEMYJ">x_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_73_UPRAVLJaEMYJ">\left(x_{u}\right)_{u&lt;t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_74_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_75_UPRAVLJaEMYJ">\alpha \in \mathfrak{A}_{E}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_76_UPRAVLJaEMYJ">\left(x_{t}\right)_{t \geqslant 0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_77_UPRAVLJaEMYJ">\alpha \in \mathfrak{A}_{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_78_UPRAVLJaEMYJ">\alpha \in \mathfrak{P}_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_79_UPRAVLJaEMYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_80_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_81_UPRAVLJaEMYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_82_UPRAVLJaEMYJ">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_83_UPRAVLJaEMYJ">q(\alpha(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_84_UPRAVLJaEMYJ">x, \Gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_85_UPRAVLJaEMYJ">f^{a}(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_86_UPRAVLJaEMYJ">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_87_UPRAVLJaEMYJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_88_UPRAVLJaEMYJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_89_UPRAVLJaEMYJ">h^{\alpha_{\tau}}\left(\tau, x_{\tau-}, x_{\tau}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_90_UPRAVLJaEMYJ">\tau-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_91_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_92_UPRAVLJaEMYJ">\varepsilon-0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_93_UPRAVLJaEMYJ">v^{\alpha}(x) \geqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_94_UPRAVLJaEMYJ">\geqslant v(x)-\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_95_UPRAVLJaEMYJ">x \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_96_UPRAVLJaEMYJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_97_UPRAVLJaEMYJ">\varepsilon-0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_98_UPRAVLJaEMYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_99_UPRAVLJaEMYJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_100_UPRAVLJaEMYJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_101_UPRAVLJaEMYJ">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_102_UPRAVLJaEMYJ">[t, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_103_UPRAVLJaEMYJ">\mathfrak{a}(t) \mathrm{E}_{t, x}^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_104_UPRAVLJaEMYJ">v(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_105_UPRAVLJaEMYJ">\mathfrak{p}, \mathrm{E}_{x}^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_106_UPRAVLJaEMYJ">v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_107_UPRAVLJaEMYJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_108_UPRAVLJaEMYJ">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_109_UPRAVLJaEMYJ">\mathfrak{a}_{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_110_UPRAVLJaEMYJ">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_111_UPRAVLJaEMYJ">\{(t, x): v(t, x)&gt;C\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_112_UPRAVLJaEMYJ">v(t, x)=\sup _{\alpha \in \Omega_{E}(t)} \mathrm{E}_{t, x}^{\alpha}\left[\int_{t}^{\tau_{1}} f^{\alpha_{s}}\left(s, x_{s}\right)+v\left(\tau_{1}, x_{\tau_{1}}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_113_UPRAVLJaEMYJ">\tau_{1}=\min \left(\tau(t), t^{\prime}\right), 0 \leqslant t&lt;t^{\prime} \leqslant T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_114_UPRAVLJaEMYJ">t^{\prime} \downarrow t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_115_UPRAVLJaEMYJ">=\sup _{a \in A(x)}\left[f^{a}(t, x)+\int_{E} v(t, y) q(a, t, x, d y)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_116_UPRAVLJaEMYJ">v(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_117_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_118_UPRAVLJaEMYJ">[0, T] \times E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_119_UPRAVLJaEMYJ">v(t, x)=g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_120_UPRAVLJaEMYJ">\alpha \in \mathfrak{A}_{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_121_UPRAVLJaEMYJ">\left(x_{t}\right)_{t \geqslant 0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_122_UPRAVLJaEMYJ">a=\alpha(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_123_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_124_UPRAVLJaEMYJ">a, q, f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_125_UPRAVLJaEMYJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_126_UPRAVLJaEMYJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_127_UPRAVLJaEMYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_128_UPRAVLJaEMYJ">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_129_UPRAVLJaEMYJ">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_130_UPRAVLJaEMYJ">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_131_UPRAVLJaEMYJ">t=\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_132_UPRAVLJaEMYJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_133_UPRAVLJaEMYJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_134_UPRAVLJaEMYJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_135_UPRAVLJaEMYJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_136_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_137_UPRAVLJaEMYJ">\mathfrak{a}_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_138_UPRAVLJaEMYJ">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_139_UPRAVLJaEMYJ">f^{a}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_140_UPRAVLJaEMYJ">a=\alpha(x), \alpha \in \mathfrak{N}_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_141_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_142_UPRAVLJaEMYJ">\mathfrak{a}_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_143_UPRAVLJaEMYJ">\mathfrak{a}_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_144_UPRAVLJaEMYJ">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_145_UPRAVLJaEMYJ">\alpha \in \mathfrak{N}_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_146_UPRAVLJaEMYJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_147_UPRAVLJaEMYJ">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_148_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_149_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_150_UPRAVLJaEMYJ">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_151_UPRAVLJaEMYJ">e_{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_152_UPRAVLJaEMYJ">x_{t} \in E_{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_153_UPRAVLJaEMYJ">d x_{t}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_154_UPRAVLJaEMYJ">=b\left(\alpha_{t}, s+t, x_{t}\right) d t, t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_155_UPRAVLJaEMYJ">\alpha_{t}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_156_UPRAVLJaEMYJ">\left\{\mathscr{f}_{t}, t \geqslant 0\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_157_UPRAVLJaEMYJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_158_UPRAVLJaEMYJ">\mathscr{f}_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_159_UPRAVLJaEMYJ">\mathscr{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_160_UPRAVLJaEMYJ">w_{t}=\left(w_{t}^{i}, i=1, \ldots, d_{1}\right)-d_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_161_UPRAVLJaEMYJ">\left\{\mathscr{\mathscr { F }}_{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_162_UPRAVLJaEMYJ">(\omega, \mathscr{F}, \mathrm{P})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_163_UPRAVLJaEMYJ">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_164_UPRAVLJaEMYJ">w_{t}^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_165_UPRAVLJaEMYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_166_UPRAVLJaEMYJ">w_{t}^{1}, \ldots, w_{t}^{d_{1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_167_UPRAVLJaEMYJ">w_{t}^{i} \mathscr{J}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_168_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_169_UPRAVLJaEMYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_170_UPRAVLJaEMYJ">t, h \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_171_UPRAVLJaEMYJ">\left\{w_{t+h}^{i}-w_{t}^{i}, i=1, \ldots, d_{1}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_172_UPRAVLJaEMYJ">\mathscr{f}_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_173_UPRAVLJaEMYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_174_UPRAVLJaEMYJ">\alpha \in A, \quad t \geqslant 0, \quad x=\left(x^{i}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_175_UPRAVLJaEMYJ">i=1, \ldots, d) \in E_{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_176_UPRAVLJaEMYJ">\sigma(\alpha, t, x), b(\alpha, t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_177_UPRAVLJaEMYJ">\sigma(\alpha, t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_178_UPRAVLJaEMYJ">d \times d_{1}, b(\alpha, t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_179_UPRAVLJaEMYJ">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_180_UPRAVLJaEMYJ">\sigma, b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_181_UPRAVLJaEMYJ">\alpha, t, x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_182_UPRAVLJaEMYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_183_UPRAVLJaEMYJ">\alpha, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_184_UPRAVLJaEMYJ">\left|\sigma^{i j}(\alpha, t, 0)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_185_UPRAVLJaEMYJ">\mid b^{i}(\alpha, t, 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_186_UPRAVLJaEMYJ">\alpha_{t}=\alpha_{t}(\omega), t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_187_UPRAVLJaEMYJ">\omega \in \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_188_UPRAVLJaEMYJ">\left\{\mathscr{f}_{t}\right\}_{\text {и }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_189_UPRAVLJaEMYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_190_UPRAVLJaEMYJ">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_191_UPRAVLJaEMYJ">s \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_192_UPRAVLJaEMYJ">x \in E_{d}, \quad \alpha \in \mathfrak{H}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_193_UPRAVLJaEMYJ">x_{t}^{\alpha, s, x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_194_UPRAVLJaEMYJ">\alpha=\alpha_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_195_UPRAVLJaEMYJ">\mathfrak{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_196_UPRAVLJaEMYJ">c\left([0, \infty), E_{d}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_197_UPRAVLJaEMYJ">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_198_UPRAVLJaEMYJ">e_{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_199_UPRAVLJaEMYJ">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_200_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_201_UPRAVLJaEMYJ">c\left([0, \infty), E_{d}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_202_UPRAVLJaEMYJ">\left.x_{r 0, \infty}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_203_UPRAVLJaEMYJ">n_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_204_UPRAVLJaEMYJ">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_205_UPRAVLJaEMYJ">c\left([0, \infty), E_{d}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_206_UPRAVLJaEMYJ">s \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_207_UPRAVLJaEMYJ">x_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_208_UPRAVLJaEMYJ">\left.x_{[0, \infty)}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_209_UPRAVLJaEMYJ">c\left([0, \infty), E_{d}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_210_UPRAVLJaEMYJ">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_211_UPRAVLJaEMYJ">\alpha=\alpha_{t}\left(x_{[0, \infty)}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_212_UPRAVLJaEMYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_213_UPRAVLJaEMYJ">(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_214_UPRAVLJaEMYJ">\left\{n_{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_215_UPRAVLJaEMYJ">\alpha_{t}=\alpha_{t}\left(x_{(0, \infty)}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_216_UPRAVLJaEMYJ">\left\{\mathscr{j}_{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_217_UPRAVLJaEMYJ">(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_218_UPRAVLJaEMYJ">\mathfrak{a}_{e}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_219_UPRAVLJaEMYJ">\alpha_{t}\left(x_{t}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_220_UPRAVLJaEMYJ">\mathfrak{h}_{m}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_221_UPRAVLJaEMYJ">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_222_UPRAVLJaEMYJ">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_223_UPRAVLJaEMYJ">(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_224_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_225_UPRAVLJaEMYJ">x_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_226_UPRAVLJaEMYJ">[0, t]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_227_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_228_UPRAVLJaEMYJ">\alpha \in \mathfrak{A}_{E}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_229_UPRAVLJaEMYJ">\alpha \in \mathfrak{Y}_{M}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_230_UPRAVLJaEMYJ">s \geqslant 0, x \in E_{d}, \alpha \in \mathfrak{T}_{E}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_231_UPRAVLJaEMYJ">x_{t}^{\alpha, s, x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_232_UPRAVLJaEMYJ">\beta_{t}(\omega)=\alpha_{t}\left(x_{[0, \infty)}^{\alpha,{ }^{\alpha}{ }^{x}}(\omega)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_233_UPRAVLJaEMYJ">\mathfrak{u}_{e}(s, x) \subset \mathfrak{U}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_234_UPRAVLJaEMYJ">x_{t}^{\beta, s, x}=x_{t}^{\alpha, s, x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_235_UPRAVLJaEMYJ">x_{t}^{\alpha}, s, x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_236_UPRAVLJaEMYJ">a \times[0, \infty) \times E_{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_237_UPRAVLJaEMYJ">c^{\alpha}(t, x) \geqslant 0, f^{\alpha}(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_238_UPRAVLJaEMYJ">[0, \infty) \times E_{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_239_UPRAVLJaEMYJ">g(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_240_UPRAVLJaEMYJ">\alpha \in \mathfrak{H}, s \geqslant 0, x \in E_{\boldsymbol{d}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_241_UPRAVLJaEMYJ">\left(s+t, x_{t}^{\alpha, \varsigma, x)}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_242_UPRAVLJaEMYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_243_UPRAVLJaEMYJ">\alpha, s, x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_244_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_245_UPRAVLJaEMYJ">v^{\alpha}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_246_UPRAVLJaEMYJ">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_247_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_248_UPRAVLJaEMYJ">v^{\alpha}(s, x) \geqslant v(s, x)-\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_249_UPRAVLJaEMYJ">(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_250_UPRAVLJaEMYJ">v_{(e)}(s, x)\left(v_{M}(s, x)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_251_UPRAVLJaEMYJ">\mathfrak{a}_{m}(s, x) \subset \mathfrak{A}_{E}(s, x) \subset \mathfrak{A}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_252_UPRAVLJaEMYJ">v_{(m)}(s, x) \leqslant v_{(E)}(s, x) \leqslant v(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_253_UPRAVLJaEMYJ">v_{(e)}=v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_254_UPRAVLJaEMYJ">\sigma, b, c, f, g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_255_UPRAVLJaEMYJ">(\alpha, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_256_UPRAVLJaEMYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_257_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_258_UPRAVLJaEMYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_259_UPRAVLJaEMYJ">c, f, g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_260_UPRAVLJaEMYJ">k(1+|x|)^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_261_UPRAVLJaEMYJ">\alpha, t, x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_262_UPRAVLJaEMYJ">k, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_263_UPRAVLJaEMYJ">\alpha, t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_264_UPRAVLJaEMYJ">v_{(m)}=v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_265_UPRAVLJaEMYJ">\tau^{\alpha, s, x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_266_UPRAVLJaEMYJ">\tau_{q}^{\alpha}, s, x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_267_UPRAVLJaEMYJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_268_UPRAVLJaEMYJ">t \wedge \tau_{Q}=\min \left(t, \tau_{Q}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_269_UPRAVLJaEMYJ">v\left(s+\tau, x_{\tau}\right) e^{-\varphi_{\tau}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_270_UPRAVLJaEMYJ">i, i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_271_UPRAVLJaEMYJ">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_272_UPRAVLJaEMYJ">\partial Q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_273_UPRAVLJaEMYJ">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_274_UPRAVLJaEMYJ">\alpha=\alpha^{0}(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_275_UPRAVLJaEMYJ">(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_276_UPRAVLJaEMYJ">\alpha_{t}^{0}=\alpha^{0}\left(s_{0}+t, x_{t}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_277_UPRAVLJaEMYJ">\left(s_{0}, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_278_UPRAVLJaEMYJ">\alpha^{0}=\left\{\alpha_{t}^{0}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_279_UPRAVLJaEMYJ">\left(s_{0}, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_280_UPRAVLJaEMYJ">v_{m}\left(s_{0}, x_{0}\right)=v\left(s_{0}, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_281_UPRAVLJaEMYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_282_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_283_UPRAVLJaEMYJ">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_284_UPRAVLJaEMYJ">q, a, b, c, f, g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_285_UPRAVLJaEMYJ">q=(-\infty, \infty) \times\left(r_{1}, r_{2}\right), a, b, c, f, g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_286_UPRAVLJaEMYJ">s, a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_287_UPRAVLJaEMYJ">\left(r_{1}, r_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_288_UPRAVLJaEMYJ">\frac{\partial v}{\partial s}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_289_UPRAVLJaEMYJ">v_{x x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_290_UPRAVLJaEMYJ">q=(-\infty, \infty) \times D, D-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_291_UPRAVLJaEMYJ">a, b, c, f, g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_292_UPRAVLJaEMYJ">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_293_UPRAVLJaEMYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_294_UPRAVLJaEMYJ">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_295_UPRAVLJaEMYJ">(a \equiv 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_296_UPRAVLJaEMYJ">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_297_UPRAVLJaEMYJ">\sigma, b, c, f, g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_298_UPRAVLJaEMYJ">q=(-\infty, T) \times E_{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_299_UPRAVLJaEMYJ">t \leqslant \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_300_UPRAVLJaEMYJ">\alpha \in \mathfrak{H}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_301_UPRAVLJaEMYJ">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_302_UPRAVLJaEMYJ">\left(c\left([0, \infty), E_{d}\right), N_{\infty}\right)</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/me/relation/598_1_UPRAVLJaEMYJ">
+      <rel_text>диффузионного</rel_text>
+      <target>http://libmeta.ru/me/article/252_DIFFEOMORFTsZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_2_UPRAVLJaEMYJ">
+      <rel_text>процессам</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_3_UPRAVLJaEMYJ">
+      <rel_text>выбором</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_4_UPRAVLJaEMYJ">
+      <rel_text>процессами</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_5_UPRAVLJaEMYJ">
+      <rel_text>задачам</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_6_UPRAVLJaEMYJ">
+      <rel_text>процессам</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_7_UPRAVLJaEMYJ">
+      <rel_text>теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>случайный процесс, вероятностные характеристики к-рого могут изменяться по ходу наблюдений в зависимости от поставленной цели, заключающейся в минимизации (максимизации) того или иного функционала, определяющего качество управления. Различают разные виды управляемых процессов как по способу их задания и описания, так и по типу целей управления. Наиболее продвинута теория управляемых скачкообразных марковских процессов и управляемых диффузионных процессов, в случае наблюдений по полным данным. Развивается также соответствующая теория в случае наблюдений по неполным данным (частично наблюдаемые процессы).
+
+Управляемый скачкообразный марковский процесс (у.с.м.п.) - управляемый случайный процесс с непрерывным временем и кусочно постоянными траекториями, в к-ром выбор управления влияет на инфинитезимальные характеристики процесса. Обычно (см. [1] , [2]), для построения у.с.м.п. задают: 1) борелевское множество $URI[[http://libmeta.ru/me/formula/aux/598_1_UPRAVLJaEMYJ]]/URI$ состояний; 2) борелевское множество $URI[[http://libmeta.ru/me/formula/aux/598_2_UPRAVLJaEMYJ]]/URI$ управлений и множества $URI[[http://libmeta.ru/me/formula/aux/598_3_UPRAVLJaEMYJ]]/URI$ управлений, допустимых в состоянии $URI[[http://libmeta.ru/me/formula/aux/598_4_UPRAVLJaEMYJ]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/598_5_UPRAVLJaEMYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_6_UPRAVLJaEMYJ]]/URI$ есть б-алгебра борелевских подмножеств борелевского множества $URI[[http://libmeta.ru/me/formula/aux/598_7_UPRAVLJaEMYJ]]/URI$ ), и возможен измеримый выбор $URI[[http://libmeta.ru/me/formula/aux/598_8_UPRAVLJaEMYJ]]/URI$; 3) плотность $URI[[http://libmeta.ru/me/formula/aux/598_9_UPRAVLJaEMYJ]]/URI$ вероятности скачка из $URI[[http://libmeta.ru/me/formula/aux/598_10_UPRAVLJaEMYJ]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/598_11_UPRAVLJaEMYJ]]/URI$ в момент $URI[[http://libmeta.ru/me/formula/aux/598_12_UPRAVLJaEMYJ]]/URI$ при управлении $URI[[http://libmeta.ru/me/formula/aux/598_13_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_14_UPRAVLJaEMYJ]]/URI$, являющуюся борелевской функцией $URI[[http://libmeta.ru/me/formula/aux/598_15_UPRAVLJaEMYJ]]/URI$ при любом $URI[[http://libmeta.ru/me/formula/aux/598_16_UPRAVLJaEMYJ]]/URI$ и счетноаддитивной функцией $URI[[http://libmeta.ru/me/formula/aux/598_17_UPRAVLJaEMYJ]]/URI$ при любых $URI[[http://libmeta.ru/me/formula/aux/598_18_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_19_UPRAVLJaEMYJ]]/URI$, притем функция $URI[[http://libmeta.ru/me/formula/aux/598_20_UPRAVLJaEMYJ]]/URI$ огранитена, $URI[[http://libmeta.ru/me/formula/aux/598_21_UPRAVLJaEMYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/598_22_UPRAVLJaEMYJ]]/URI$
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/598_23_UPRAVLJaEMYJ]]/URI$ - Пространство всех кусочпо постоянных непрерывных справа функций $URI[[http://libmeta.ru/me/formula/aux/598_24_UPRAVLJaEMYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_25_UPRAVLJaEMYJ]]/URI$ со значениями в $URI[[http://libmeta.ru/me/formula/aux/598_26_UPRAVLJaEMYJ]]/URI$, и пусть $URI[[http://libmeta.ru/me/formula/aux/598_27_UPRAVLJaEMYJ]]/URI$ минимальная $URI[[http://libmeta.ru/me/formula/aux/598_28_UPRAVLJaEMYJ]]/URI$-алгебра в $URI[[http://libmeta.ru/me/formula/aux/598_29_UPRAVLJaEMYJ]]/URI$, относительно к-рої измеримы функции $URI[[http://libmeta.ru/me/formula/aux/598_30_UPRAVLJaEMYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/598_31_UPRAVLJaEMYJ]]/URI$ (при $URI[[http://libmeta.ru/me/formula/aux/598_32_UPRAVLJaEMYJ]]/URI$ ) и $URI[[http://libmeta.ru/me/formula/aux/598_33_UPRAVLJaEMYJ]]/URI$. Любая функция $URI[[http://libmeta.ru/me/formula/aux/598_34_UPRAVLJaEMYJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/598_35_UPRAVLJaEMYJ]]/URI$ со значениями $URI[[http://libmeta.ru/me/formula/aux/598_36_UPRAVLJaEMYJ]]/URI$, прогрессивно измеримая относительно семейства $URI[[http://libmeta.ru/me/formula/aux/598_37_UPRAVLJaEMYJ]]/URI$, наз. (естественной) с т р атеги ей. Из определения следует, что $URI[[http://libmeta.ru/me/formula/aux/598_38_UPRAVLJaEMYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_39_UPRAVLJaEMYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/598_40_UPRAVLJaEMYJ]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/598_41_UPRAVLJaEMYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/598_42_UPRAVLJaEMYJ]]/URI$-борелевская функция на $URI[[http://libmeta.ru/me/formula/aux/598_43_UPRAVLJaEMYJ]]/URI$ со свойством $URI[[http://libmeta.ru/me/formula/aux/598_44_UPRAVLJaEMYJ]]/URI$, то стратегия $URI[[http://libmeta.ru/me/formula/aux/598_45_UPRAVLJaEMYJ]]/URI$ наз. м а pко вск о й, а если $URI[[http://libmeta.ru/me/formula/aux/598_46_UPRAVLJaEMYJ]]/URI$, то с т а ци он а $URI[[http://libmeta.ru/me/formula/aux/598_47_UPRAVLJaEMYJ]]/URI$ н о й. Классы естественных, марковских и стационарных стратегий обозначаются соответственно $URI[[http://libmeta.ru/me/formula/aux/598_48_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_49_UPRAVLJaEMYJ]]/URI$. Ввиду возможности измеримого выбора из $URI[[http://libmeta.ru/me/formula/aux/598_50_UPRAVLJaEMYJ]]/URI$ класс $URI[[http://libmeta.ru/me/formula/aux/598_51_UPRAVLJaEMYJ]]/URI$ (следовательно, $URI[[http://libmeta.ru/me/formula/aux/598_52_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_53_UPRAVLJaEMYJ]]/URI$ ) не пуст. Если $URI[[http://libmeta.ru/me/formula/aux/598_54_UPRAVLJaEMYJ]]/URI$ огранитена, то по любым $URI[[http://libmeta.ru/me/formula/aux/598_55_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_56_UPRAVLJaEMYJ]]/URI$ строится единственная вероятностная мера $URI[[http://libmeta.ru/me/formula/aux/598_57_UPRAVLJaEMYJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/598_58_UPRAVLJaEMYJ]]/URI$ такая, что $URI[[http://libmeta.ru/me/formula/aux/598_59_UPRAVLJaEMYJ]]/URI$ и при любых $URI[[http://libmeta.ru/me/formula/aux/598_60_UPRAVLJaEMYJ]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_1_UPRAVLJaEMYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_61_UPRAVLJaEMYJ]]/URI$-момент первого скатка после $URI[[http://libmeta.ru/me/formula/aux/598_62_UPRAVLJaEMYJ]]/URI$ минимальная $URI[[http://libmeta.ru/me/formula/aux/598_63_UPRAVLJaEMYJ]]/URI$-алгебра в $URI[[http://libmeta.ru/me/formula/aux/598_64_UPRAVLJaEMYJ]]/URI$, содержащая $URI[[http://libmeta.ru/me/formula/aux/598_65_UPRAVLJaEMYJ]]/URI$, относительно к-рой $URI[[http://libmeta.ru/me/formula/aux/598_66_UPRAVLJaEMYJ]]/URI$ измеримо, $URI[[http://libmeta.ru/me/formula/aux/598_67_UPRAVLJaEMYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/598_68_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_69_UPRAVLJaEMYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/598_70_UPRAVLJaEMYJ]]/URI$. Слутайный процесс $URI[[http://libmeta.ru/me/formula/aux/598_71_UPRAVLJaEMYJ]]/URI$ и есть у.с.м.п. Марковское свойство у.с.м.п. состоит в том, что при известном «настоящем» $URI[[http://libmeta.ru/me/formula/aux/598_72_UPRAVLJaEMYJ]]/URI$, «прошлое» $URI[[http://libmeta.ru/me/formula/aux/598_73_UPRAVLJaEMYJ]]/URI$ входит в правые части (1) лишь через стратегию $URI[[http://libmeta.ru/me/formula/aux/598_74_UPRAVLJaEMYJ]]/URI$. При произвольной стратегии $URI[[http://libmeta.ru/me/formula/aux/598_75_UPRAVLJaEMYJ]]/URI$ процесс $URI[[http://libmeta.ru/me/formula/aux/598_76_UPRAVLJaEMYJ]]/URI$, вообще говоря, не марковский, но если $URI[[http://libmeta.ru/me/formula/aux/598_77_UPRAVLJaEMYJ]]/URI$, то он будет марковским процессом, а если $URI[[http://libmeta.ru/me/formula/aux/598_78_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_79_UPRAVLJaEMYJ]]/URI$ не зависит от $URI[[http://libmeta.ru/me/formula/aux/598_80_UPRAVLJaEMYJ]]/URI$, то-однородным марковским с плотностью вероятности скачка из $URI[[http://libmeta.ru/me/formula/aux/598_81_UPRAVLJaEMYJ]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/598_82_UPRAVLJaEMYJ]]/URI$, равной $URI[[http://libmeta.ru/me/formula/aux/598_83_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_84_UPRAVLJaEMYJ]]/URI$. Управление процессом состоит в выборе стратегии.
+
+Типичная задача управления-максимизация функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_2_UPRAVLJaEMYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_85_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_86_UPRAVLJaEMYJ]]/URI$ - ограниченные борелевские функ-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_44faaf49a465fcab0c4fg-1.jpg?height=37&amp;width=819&amp;top_left_y=1644&amp;top_left_x=136)
+C. помощью перехода к другим функциям $URI[[http://libmeta.ru/me/formula/aux/598_87_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_88_UPRAVLJaEMYJ]]/URI$ и введения фиктивных состояний к виду (2) приводится более широкий класс функционалов, содержащих также члены $URI[[http://libmeta.ru/me/formula/aux/598_89_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_90_UPRAVLJaEMYJ]]/URI$ момент скачка, и допускающих обрыв или остановку процесса. Фу нк ци е й в ы и г р ыш а (це н о й) наз. функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_3_UPRAVLJaEMYJ]]/URI
+\]
+
+Стратегия $URI[[http://libmeta.ru/me/formula/aux/598_91_UPRAVLJaEMYJ]]/URI$ наз. $URI[[http://libmeta.ru/me/formula/aux/598_92_UPRAVLJaEMYJ]]/URI$ пт и м а ль ной, если $URI[[http://libmeta.ru/me/formula/aux/598_93_UPRAVLJaEMYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_94_UPRAVLJaEMYJ]]/URI$ при всех $URI[[http://libmeta.ru/me/formula/aux/598_95_UPRAVLJaEMYJ]]/URI$, и (п. н. $URI[[http://libmeta.ru/me/formula/aux/598_96_UPRAVLJaEMYJ]]/URI$ ) $URI[[http://libmeta.ru/me/formula/aux/598_97_UPRAVLJaEMYJ]]/URI$ п т и м а льн о й, если то же верно при потти всех $URI[[http://libmeta.ru/me/formula/aux/598_98_UPRAVLJaEMYJ]]/URI$ относительно меры $URI[[http://libmeta.ru/me/formula/aux/598_99_UPRAVLJaEMYJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/598_100_UPRAVLJaEMYJ]]/URI$. 0-оптимальные стратегии наз. о пт имальн ы м и. Пусть в модели, полученной из первоначальной схемы сокращением промежутка $URI[[http://libmeta.ru/me/formula/aux/598_101_UPRAVLJaEMYJ]]/URI$ до $URI[[http://libmeta.ru/me/formula/aux/598_102_UPRAVLJaEMYJ]]/URI$, символы $URI[[http://libmeta.ru/me/formula/aux/598_103_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_104_UPRAVLJaEMYJ]]/URI$ имеют тот же смысл, что $URI[[http://libmeta.ru/me/formula/aux/598_105_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_106_UPRAVLJaEMYJ]]/URI$ в первонатальной модели. Рассматривая скачки как последовательные шаги в управляемой марковской цепи с дискретным временем, можно установить существование (п. н. $URI[[http://libmeta.ru/me/formula/aux/598_107_UPRAVLJaEMYJ]]/URI$ ) $URI[[http://libmeta.ru/me/formula/aux/598_108_UPRAVLJaEMYJ]]/URI$-оптимальных стратегий в классе $URI[[http://libmeta.ru/me/formula/aux/598_109_UPRAVLJaEMYJ]]/URI$ и получить свойство изме римости $URI[[http://libmeta.ru/me/formula/aux/598_110_UPRAVLJaEMYJ]]/URI$ в форме: $URI[[http://libmeta.ru/me/formula/aux/598_111_UPRAVLJaEMYJ]]/URI$ - аналитич. множество. Это позволяет применить идеи динамического програлмирования и вывести соотношение
+
+$URI[[http://libmeta.ru/me/formula/aux/598_112_UPRAVLJaEMYJ]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_113_UPRAVLJaEMYJ]]/URI$ (вариант принципа Беллмана). При $URI[[http://libmeta.ru/me/formula/aux/598_114_UPRAVLJaEMYJ]]/URI$ из (4) и (1) получается Беллмана уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_4_UPRAVLJaEMYJ]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/598_115_UPRAVLJaEMYJ]]/URI$ (i.. в.).
+
+Функция выигрыша $URI[[http://libmeta.ru/me/formula/aux/598_116_UPRAVLJaEMYJ]]/URI$ - единственная ограниченная абсолютно непрерывная по $URI[[http://libmeta.ru/me/formula/aux/598_117_UPRAVLJaEMYJ]]/URI$ функция на $URI[[http://libmeta.ru/me/formula/aux/598_118_UPRAVLJaEMYJ]]/URI$, удовлетворяющая (5) и условию $URI[[http://libmeta.ru/me/formula/aux/598_119_UPRAVLJaEMYJ]]/URI$. Уравнение (5) можно решать методом последовательных приближений. При $URI[[http://libmeta.ru/me/formula/aux/598_120_UPRAVLJaEMYJ]]/URI$ из Колмогорова уравнения для марковского процесса $URI[[http://libmeta.ru/me/formula/aux/598_121_UPRAVLJaEMYJ]]/URI$ следует, что если супремум в (5) достигается при измеримой функции $URI[[http://libmeta.ru/me/formula/aux/598_122_UPRAVLJaEMYJ]]/URI$, то марковская стратегия $URI[[http://libmeta.ru/me/formula/aux/598_123_UPRAVLJaEMYJ]]/URI$ оптимальна. Так устанавливается существование марковских оптимальных стратегий в полунепрерывных моделях (в к-рых $URI[[http://libmeta.ru/me/formula/aux/598_124_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_125_UPRAVLJaEMYJ]]/URI$ удовлетворяют определевным условиям компактвости и непрерывности), в частности в конечных моделях (с ковечными $URI[[http://libmeta.ru/me/formula/aux/598_126_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_127_UPRAVLJaEMYJ]]/URI$ ). В произвольных борелевских моделях с помощью теорем измеримого выбора выводится существование (п. н. $URI[[http://libmeta.ru/me/formula/aux/598_128_UPRAVLJaEMYJ]]/URI$ ) $URI[[http://libmeta.ru/me/formula/aux/598_129_UPRAVLJaEMYJ]]/URI$-оптимальных марковских стратегий при любом $URI[[http://libmeta.ru/me/formula/aux/598_130_UPRAVLJaEMYJ]]/URI$. В счетных моделях получа-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_44faaf49a465fcab0c4fg-1.jpg?height=37&amp;width=811&amp;top_left_y=1118&amp;top_left_x=994)
+частично переносятся на случаи, когда $URI[[http://libmeta.ru/me/formula/aux/598_131_UPRAVLJaEMYJ]]/URI$ и функции $URI[[http://libmeta.ru/me/formula/aux/598_132_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_133_UPRAVLJaEMYJ]]/URI$ не ограничены, но в общей ситуации достаточность марковских стратегий не доказана.
+
+В однородных моделях, где $URI[[http://libmeta.ru/me/formula/aux/598_134_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_135_UPRAVLJaEMYJ]]/URI$ не зависят от $URI[[http://libmeta.ru/me/formula/aux/598_136_UPRAVLJaEMYJ]]/URI$, наряду с (2) рассматривают функционалы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_5_UPRAVLJaEMYJ]]/URI
+\]
+
+причем ставится вопрос о достаточности класса $URI[[http://libmeta.ru/me/formula/aux/598_137_UPRAVLJaEMYJ]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/598_138_UPRAVLJaEMYJ]]/URI$ и борелевская функция $URI[[http://libmeta.ru/me/formula/aux/598_139_UPRAVLJaEMYJ]]/URI$ огравичена, то уравнение (5) для функционала (7) обращается в
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_6_UPRAVLJaEMYJ]]/URI
+\]
+
+оно совпадает с уравнением Беллмана для аналогичной задачи с дискретным временем и имеет единственное ограниченное решение. Если супремум в (8) достигается при $URI[[http://libmeta.ru/me/formula/aux/598_140_UPRAVLJaEMYJ]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/598_141_UPRAVLJaEMYJ]]/URI$ оптимальна. Точно так же с заменой $URI[[http://libmeta.ru/me/formula/aux/598_142_UPRAVLJaEMYJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/598_143_UPRAVLJaEMYJ]]/URI$ переносятся на случай фувкционала (6) и результаты о существовании $URI[[http://libmeta.ru/me/formula/aux/598_144_UPRAVLJaEMYJ]]/URI$-оптимальных стратегий в моделях разных типов. При критерии (7) законченные результаты получены лишь для конечных и специального вида эргодич. у.с.м.п. и подобны случаю дискретного времени: можно выбрать $URI[[http://libmeta.ru/me/formula/aux/598_145_UPRAVLJaEMYJ]]/URI$ и функцию $URI[[http://libmeta.ru/me/formula/aux/598_146_UPRAVLJaEMYJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/598_147_UPRAVLJaEMYJ]]/URI$ так, чтобы $URI[[http://libmeta.ru/me/formula/aux/598_148_UPRAVLJaEMYJ]]/URI$ была оптимальна по критерию (2) сразу при всех $URI[[http://libmeta.ru/me/formula/aux/598_149_UPRAVLJaEMYJ]]/URI$ и, следовательно, оптимальна по критерию (7).
+
+Управляемый диффузионный процесс (у.д.I.) - непрерывный управляемый случайный процесс в $URI[[http://libmeta.ru/me/formula/aux/598_150_UPRAVLJaEMYJ]]/URI$-мерном евклидовом пространстве $URI[[http://libmeta.ru/me/formula/aux/598_151_UPRAVLJaEMYJ]]/URI$, допускающий стохастический дифференциал по отношению к нек-рому винеровскому процессу, не зависящему от управлевий. Теория у.д.п. возникла как обобщение теории управления детерминированным движением нек-рой точки $URI[[http://libmeta.ru/me/formula/aux/598_152_UPRAVLJaEMYJ]]/URI$, уравнение движения к-рой имеет вид $URI[[http://libmeta.ru/me/formula/aux/598_153_UPRAVLJaEMYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_154_UPRAVLJaEMYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/598_155_UPRAVLJaEMYJ]]/URI$ управляющий параметр. Для формального описания у.Д.П. применяется язык
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_f139b2c147ae673957c7g-1.jpg?height=37&amp;width=814&amp;top_left_y=215&amp;top_left_x=141)
+ное вероятностное п ространство, $URI[[http://libmeta.ru/me/formula/aux/598_156_UPRAVLJaEMYJ]]/URI$-семеӥство расширяющихся полных $URI[[http://libmeta.ru/me/formula/aux/598_157_UPRAVLJaEMYJ]]/URI$-алгебр $URI[[http://libmeta.ru/me/formula/aux/598_158_UPRAVLJaEMYJ]]/URI$, вложенных в $URI[[http://libmeta.ru/me/formula/aux/598_159_UPRAVLJaEMYJ]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/598_160_UPRAVLJaEMYJ]]/URI$-мерный винеровский процесс относительно $URI[[http://libmeta.ru/me/formula/aux/598_161_UPRAVLJaEMYJ]]/URI$, определенный на $URI[[http://libmeta.ru/me/formula/aux/598_162_UPRAVLJaEMYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/598_163_UPRAVLJaEMYJ]]/URI$ (т. е. процесс, для к-рого $URI[[http://libmeta.ru/me/formula/aux/598_164_UPRAVLJaEMYJ]]/URI$ являіотя одномерными неп рерывными стандартными винеровскими процессами при каждом $URI[[http://libmeta.ru/me/formula/aux/598_165_UPRAVLJaEMYJ]]/URI$, процессы $URI[[http://libmeta.ru/me/formula/aux/598_166_UPRAVLJaEMYJ]]/URI$ независимы, $URI[[http://libmeta.ru/me/formula/aux/598_167_UPRAVLJaEMYJ]]/URI$-измеримо при всяких $URI[[http://libmeta.ru/me/formula/aux/598_168_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_169_UPRAVLJaEMYJ]]/URI$ и при $URI[[http://libmeta.ru/me/formula/aux/598_170_UPRAVLJaEMYJ]]/URI$ величины $URI[[http://libmeta.ru/me/formula/aux/598_171_UPRAVLJaEMYJ]]/URI$ не зависят от $URI[[http://libmeta.ru/me/formula/aux/598_172_UPRAVLJaEMYJ]]/URI$ ). Пусть $URI[[http://libmeta.ru/me/formula/aux/598_173_UPRAVLJaEMYJ]]/URI$-нек-рое сепарабельное метрич. пространство. При $URI[[http://libmeta.ru/me/formula/aux/598_174_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_175_UPRAVLJaEMYJ]]/URI$ предполагаются заданными функции $URI[[http://libmeta.ru/me/formula/aux/598_176_UPRAVLJaEMYJ]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/598_177_UPRAVLJaEMYJ]]/URI$-матрица размера $URI[[http://libmeta.ru/me/formula/aux/598_178_UPRAVLJaEMYJ]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/598_179_UPRAVLJaEMYJ]]/URI$-мерный вектор. Считают, что $URI[[http://libmeta.ru/me/formula/aux/598_180_UPRAVLJaEMYJ]]/URI$-борелевские функции $URI[[http://libmeta.ru/me/formula/aux/598_181_UPRAVLJaEMYJ]]/URI$, удовлетворяющие условию Липшица по $URI[[http://libmeta.ru/me/formula/aux/598_182_UPRAVLJaEMYJ]]/URI$ с постоянной, не зависящей от $URI[[http://libmeta.ru/me/formula/aux/598_183_UPRAVLJaEMYJ]]/URI$, и такие, что $URI[[http://libmeta.ru/me/formula/aux/598_184_UPRAVLJaEMYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_185_UPRAVLJaEMYJ]]/URI$ ограничены. Пi роизвольный процесс $URI[[http://libmeta.ru/me/formula/aux/598_186_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_187_UPRAVLJaEMYJ]]/URI$, прогрессивно измеримый относительно $URI[[http://libmeta.ru/me/formula/aux/598_188_UPRAVLJaEMYJ]]/URI$ п ринимающий значения из $URI[[http://libmeta.ru/me/formula/aux/598_189_UPRAVLJaEMYJ]]/URI$, наз. с т р а т е г и е й; $URI[[http://libmeta.ru/me/formula/aux/598_190_UPRAVLJaEMYJ]]/URI$ - множество всех стратегий. Для всякого $URI[[http://libmeta.ru/me/formula/aux/598_191_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_192_UPRAVLJaEMYJ]]/URI$, существует и единственно решение стохастич. уравнения Ито
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_7_UPRAVLJaEMYJ]]/URI
+\]
+
+(т е о р е м а И т о). Это решение, обозначаемое $URI[[http://libmeta.ru/me/formula/aux/598_193_UPRAVLJaEMYJ]]/URI$, наз. упр а ля емы м диффузионны м процесс ом (управля емым іл р цес сом диффузионного ти п а); оно управляется с помощью выбора стратегии $URI[[http://libmeta.ru/me/formula/aux/598_194_UPRAVLJaEMYJ]]/URI$. Кроме стратегий из $URI[[http://libmeta.ru/me/formula/aux/598_195_UPRAVLJaEMYJ]]/URI$ рассматриваются другие классы стратегий. Пусть $URI[[http://libmeta.ru/me/formula/aux/598_196_UPRAVLJaEMYJ]]/URI$ пространство непрерывных функций на $URI[[http://libmeta.ru/me/formula/aux/598_197_UPRAVLJaEMYJ]]/URI$ со значениями в $URI[[http://libmeta.ru/me/formula/aux/598_198_UPRAVLJaEMYJ]]/URI$. Полуось $URI[[http://libmeta.ru/me/formula/aux/598_199_UPRAVLJaEMYJ]]/URI$ интерпретируется как множество значений времени $URI[[http://libmeta.ru/me/formula/aux/598_200_UPRAVLJaEMYJ]]/URI$. Элементы $URI[[http://libmeta.ru/me/formula/aux/598_201_UPRAVLJaEMYJ]]/URI$ обозначаются через $URI[[http://libmeta.ru/me/formula/aux/598_202_UPRAVLJaEMYJ]]/URI$. И пусть $URI[[http://libmeta.ru/me/formula/aux/598_203_UPRAVLJaEMYJ]]/URI$-наименьшая $URI[[http://libmeta.ru/me/formula/aux/598_204_UPRAVLJaEMYJ]]/URI$-алгебра подмножеств $URI[[http://libmeta.ru/me/formula/aux/598_205_UPRAVLJaEMYJ]]/URI$, относительно к-рой при $URI[[http://libmeta.ru/me/formula/aux/598_206_UPRAVLJaEMYJ]]/URI$ измеримы функции $URI[[http://libmeta.ru/me/formula/aux/598_207_UPRAVLJaEMYJ]]/URI$ (являющиеся вначением әлемента $URI[[http://libmeta.ru/me/formula/aux/598_208_UPRAVLJaEMYJ]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/598_209_UPRAVLJaEMYJ]]/URI$ в момент времени $URI[[http://libmeta.ru/me/formula/aux/598_210_UPRAVLJaEMYJ]]/URI$. Функция $URI[[http://libmeta.ru/me/formula/aux/598_211_UPRAVLJaEMYJ]]/URI$ со значениями в $URI[[http://libmeta.ru/me/formula/aux/598_212_UPRAVLJaEMYJ]]/URI$ наз. естеств енной стратегией, допустимой в точке $URI[[http://libmeta.ru/me/formula/aux/598_213_UPRAVLJaEMYJ]]/URI$, если она прогрессивно измерима относительно $URI[[http://libmeta.ru/me/formula/aux/598_214_UPRAVLJaEMYJ]]/URI$ и при $URI[[http://libmeta.ru/me/formula/aux/598_215_UPRAVLJaEMYJ]]/URI$ существует хотя бы одно решение уравнения (9), прогрессивно измеримое относительно $URI[[http://libmeta.ru/me/formula/aux/598_216_UPRAVLJaEMYJ]]/URI$. Множество всех естественных стратегий, допустимых в точке $URI[[http://libmeta.ru/me/formula/aux/598_217_UPRAVLJaEMYJ]]/URI$, обозначается $URI[[http://libmeta.ru/me/formula/aux/598_218_UPRAVLJaEMYJ]]/URI$, его подмножество, состоящее из всех естественных стратегий вида $URI[[http://libmeta.ru/me/formula/aux/598_219_UPRAVLJaEMYJ]]/URI$, обозначается $URI[[http://libmeta.ru/me/formula/aux/598_220_UPRAVLJaEMYJ]]/URI$ и наз. множеством м а $URI[[http://libmeta.ru/me/formula/aux/598_221_UPRAVLJaEMYJ]]/URI$ к о в с к и $URI[[http://libmeta.ru/me/formula/aux/598_222_UPRAVLJaEMYJ]]/URI$ с т р а т е г и й, допустимых в точке $URI[[http://libmeta.ru/me/formula/aux/598_223_UPRAVLJaEMYJ]]/URI$. Принято говорить, что естественная стратегия определяет управление в момент времени $URI[[http://libmeta.ru/me/formula/aux/598_224_UPRAVLJaEMYJ]]/URI$ на основании наблюдений за процессом $URI[[http://libmeta.ru/me/formula/aux/598_225_UPRAVLJaEMYJ]]/URI$ на участке времени $URI[[http://libmeta.ru/me/formula/aux/598_226_UPRAVLJaEMYJ]]/URI$, марковская стратегия-на основании наблюдений за процессом только в момент времени $URI[[http://libmeta.ru/me/formula/aux/598_227_UPRAVLJaEMYJ]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/598_228_UPRAVLJaEMYJ]]/URI$ (даже при $URI[[http://libmeta.ru/me/formula/aux/598_229_UPRAVLJaEMYJ]]/URI$ ) решение (9) может не быть единственным. Поэтому для каждых $URI[[http://libmeta.ru/me/formula/aux/598_230_UPRAVLJaEMYJ]]/URI$, произвольным образом фиксируется к.-н. решение уравнения (9) и оно обозначается $URI[[http://libmeta.ru/me/formula/aux/598_231_UPRAVLJaEMYJ]]/URI$. После этого по формуле $URI[[http://libmeta.ru/me/formula/aux/598_232_UPRAVLJaEMYJ]]/URI$ определяется вложение $URI[[http://libmeta.ru/me/formula/aux/598_233_UPRAVLJaEMYJ]]/URI$, при к-ром $URI[[http://libmeta.ru/me/formula/aux/598_234_UPRAVLJaEMYJ]]/URI$ (п. н.).
+
+Целью управления, как правило, является максимизация или минимизация математич. ожидания того или иного функционала от траекторий $URI[[http://libmeta.ru/me/formula/aux/598_235_UPRAVLJaEMYJ]]/URI$. Более общей является следующая задача. Пусть на $URI[[http://libmeta.ru/me/formula/aux/598_236_UPRAVLJaEMYJ]]/URI$ определены борелевские функции $URI[[http://libmeta.ru/me/formula/aux/598_237_UPRAVLJaEMYJ]]/URI$ и на $URI[[http://libmeta.ru/me/formula/aux/598_238_UPRAVLJaEMYJ]]/URI$ определена бо- релевская функция $URI[[http://libmeta.ru/me/formula/aux/598_239_UPRAVLJaEMYJ]]/URI$. Для $URI[[http://libmeta.ru/me/formula/aux/598_240_UPRAVLJaEMYJ]]/URI$, номент первого выхода $URI[[http://libmeta.ru/me/formula/aux/598_241_UPRAVLJaEMYJ]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/598_242_UPRAVLJaEMYJ]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_8_UPRAVLJaEMYJ]]/URI
+\]
+
+где индексы $URI[[http://libmeta.ru/me/formula/aux/598_243_UPRAVLJaEMYJ]]/URI$ у знака математич. ожидания означают, что их нужно вставить под знаком математич. ожидания всюду, где әто возможно. Тогда возникает задача о нахождении стратегии $URI[[http://libmeta.ru/me/formula/aux/598_244_UPRAVLJaEMYJ]]/URI$, максимизирующей $URI[[http://libmeta.ru/me/formula/aux/598_245_UPRAVLJaEMYJ]]/URI$, и $URI[[http://libmeta.ru/me/formula/aux/598_246_UPRAVLJaEMYJ]]/URI$ нахождении ф у н к й и в и г ры Iп а (це н ы)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_9_UPRAVLJaEMYJ]]/URI
+\]
+
+Стратегии $URI[[http://libmeta.ru/me/formula/aux/598_247_UPRAVLJaEMYJ]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/598_248_UPRAVLJaEMYJ]]/URI$, наз. E-о п т и м а ль ь Ы м и для точки $URI[[http://libmeta.ru/me/formula/aux/598_249_UPRAVLJaEMYJ]]/URI$. О п т и ма л ь-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_f139b2c147ae673957c7g-1.jpg?height=37&amp;width=816&amp;top_left_y=795&amp;top_left_x=986)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_f139b2c147ae673957c7g-1.jpg?height=39&amp;width=814&amp;top_left_y=819&amp;top_left_x=987)
+няя грань обозначается $URI[[http://libmeta.ru/me/formula/aux/598_250_UPRAVLJaEMYJ]]/URI$. Поскольку имеют место вложения $URI[[http://libmeta.ru/me/formula/aux/598_251_UPRAVLJaEMYJ]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/598_252_UPRAVLJaEMYJ]]/URI$. При нек-рых достаточно пиироких предположениях известно (см. [3]), что $URI[[http://libmeta.ru/me/formula/aux/598_253_UPRAVLJaEMYJ]]/URI$ (это так, если, напр., $URI[[http://libmeta.ru/me/formula/aux/598_254_UPRAVLJaEMYJ]]/URI$ непрерывны по $URI[[http://libmeta.ru/me/formula/aux/598_255_UPRAVLJaEMYJ]]/URI$, непрерывны по $URI[[http://libmeta.ru/me/formula/aux/598_256_UPRAVLJaEMYJ]]/URI$ равномерно относительно $URI[[http://libmeta.ru/me/formula/aux/598_257_UPRAVLJaEMYJ]]/URI$ при всяком $URI[[http://libmeta.ru/me/formula/aux/598_258_UPRAVLJaEMYJ]]/URI$ и абсолютные величины $URI[[http://libmeta.ru/me/formula/aux/598_259_UPRAVLJaEMYJ]]/URI$ не превосходят $URI[[http://libmeta.ru/me/formula/aux/598_260_UPRAVLJaEMYJ]]/URI$ при всех $URI[[http://libmeta.ru/me/formula/aux/598_261_UPRAVLJaEMYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/598_262_UPRAVLJaEMYJ]]/URI$ не зависят от $URI[[http://libmeta.ru/me/formula/aux/598_263_UPRAVLJaEMYJ]]/URI$. Вопрос о равенстве $URI[[http://libmeta.ru/me/formula/aux/598_264_UPRAVLJaEMYJ]]/URI$ в достаточно общей ситуации является открытым. Формальное применение идей динамич. п рограмми рования приводит к соотношению, наз. принципом Беллмана:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_10_UPRAVLJaEMYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_265_UPRAVLJaEMYJ]]/URI$ - произольным образом оп ределенные марковские моменты, не превосходящие $URI[[http://libmeta.ru/me/formula/aux/598_266_UPRAVLJaEMYJ]]/URI$. Если в (12) в качестве $URI[[http://libmeta.ru/me/formula/aux/598_267_UPRAVLJaEMYJ]]/URI$ взять $URI[[http://libmeta.ru/me/formula/aux/598_268_UPRAVLJaEMYJ]]/URI$, применить к $URI[[http://libmeta.ru/me/formula/aux/598_269_UPRAVLJaEMYJ]]/URI$ форорулу Ито, то после нек-рых нестрогих рассуждений можно прийти к уравнению Беллмана:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_11_UPRAVLJaEMYJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_12_UPRAVLJaEMYJ]]/URI
+\]
+
+по индексам $URI[[http://libmeta.ru/me/formula/aux/598_270_UPRAVLJaEMYJ]]/URI$ предполагается суммирование от 1 до $URI[[http://libmeta.ru/me/formula/aux/598_271_UPRAVLJaEMYJ]]/URI$, матрица
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_13_UPRAVLJaEMYJ]]/URI
+\]
+
+Уравнение Беллмана играет центральную роль в теории у.д.п., так как часто оказывается, что достаточно «хорошее» его решіение, равное на $URI[[http://libmeta.ru/me/formula/aux/598_272_UPRAVLJaEMYJ]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/598_273_UPRAVLJaEMYJ]]/URI$, является функцией выигрыша, а если $URI[[http://libmeta.ru/me/formula/aux/598_274_UPRAVLJaEMYJ]]/URI$ прі каждых $URI[[http://libmeta.ru/me/formula/aux/598_275_UPRAVLJaEMYJ]]/URI$ доставляет верхніо грань в (13) и $URI[[http://libmeta.ru/me/formula/aux/598_276_UPRAVLJaEMYJ]]/URI$ - марковская стратегия, допустимая в $URI[[http://libmeta.ru/me/formula/aux/598_277_UPRAVLJaEMYJ]]/URI$, то стратегия $URI[[http://libmeta.ru/me/formula/aux/598_278_UPRAVLJaEMYJ]]/URI$ является оптимальной в точке $URI[[http://libmeta.ru/me/formula/aux/598_279_UPRAVLJaEMYJ]]/URI$. Т. о., пногда удается показать, что $URI[[http://libmeta.ru/me/formula/aux/598_280_UPRAVLJaEMYJ]]/URI$.
+
+Строгое обоснование справедливости приведенных выше выводов наталкивается на серьезные трудности, связанные с веливейным характером уравнения (13), к-рое в общем случае оказывается нелинейным вырождаюццмся параболич. уравнением. Наиболее простым является случай, когда (13) есть невырождагщееся квазилинейное уравнение (матрица $URI[[http://libmeta.ru/me/formula/aux/598_281_UPRAVLJaEMYJ]]/URI$ не зависит от $URI[[http://libmeta.ru/me/formula/aux/598_282_UPRAVLJaEMYJ]]/URI$ и равномерно невырождена в $URI[[http://libmeta.ru/me/formula/aux/598_283_UPRAVLJaEMYJ]]/URI$ ). Здесь при нек-рых дополнительных ограничениях на $URI[[http://libmeta.ru/me/formula/aux/598_284_UPRAVLJaEMYJ]]/URI$, удается воспользоваться результатами теории квазилинейных параболич. уравнений, доказать разрешимость (13) в гёльдеровских классах функций и дать способ построения є-оптимальных стратегий, основанный на решении уравнений (13). Аналогичный подход используется (см. [3]), когда $URI[[http://libmeta.ru/me/formula/aux/598_285_UPRAVLJaEMYJ]]/URI$ ограничены и не зависят от $URI[[http://libmeta.ru/me/formula/aux/598_286_UPRAVLJaEMYJ]]/URI$ - равномерно отделена от нуля. В этом случае (13) сводится к квазилинейному уравнению 2-го порядка на $URI[[http://libmeta.ru/me/formula/aux/598_287_UPRAVLJaEMYJ]]/URI$, т. к. $URI[[http://libmeta.ru/me/formula/aux/598_288_UPRAVLJaEMYJ]]/URI$ и уравнение (13) можно разрешить относительно старшей производной $URI[[http://libmeta.ru/me/formula/aux/598_289_UPRAVLJaEMYJ]]/URI$. Методы теории диффференциальных уравнений помогают при исследовании уравнения (13) также, если $URI[[http://libmeta.ru/me/formula/aux/598_290_UPRAVLJaEMYJ]]/URI$ двумерная область, $URI[[http://libmeta.ru/me/formula/aux/598_291_UPRAVLJaEMYJ]]/URI$ не зависят от $URI[[http://libmeta.ru/me/formula/aux/598_292_UPRAVLJaEMYJ]]/URI$ (см. лит. в [3]). Здесь, как и в предыдущем случае, допускается зависимость $URI[[http://libmeta.ru/me/formula/aux/598_293_UPRAVLJaEMYJ]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/598_294_UPRAVLJaEMYJ]]/URI$. Уместно упомянуть также случай уравнений Гамильтона - Якоби $URI[[http://libmeta.ru/me/formula/aux/598_295_UPRAVLJaEMYJ]]/URI$, изученный методами теории дифференциальных уравнениї (см. [5]).
+
+Методами теории случайных процессов удается доказать, что функция выигрыша $URI[[http://libmeta.ru/me/formula/aux/598_296_UPRAVLJaEMYJ]]/URI$ удовлетворяет уравнению (13) в довольно общем случае при нек-рых предположениях типа гладкости $URI[[http://libmeta.ru/me/formula/aux/598_297_UPRAVLJaEMYJ]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/598_298_UPRAVLJaEMYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_299_UPRAVLJaEMYJ]]/URI$ (см. [3]).
+
+Наряду с задачами управления движением, в теории у. Д. П. рассматриваются также задачи об огтимальної остановке управляемого лроцесса одним или двумя лицами. Напр., для $URI[[http://libmeta.ru/me/formula/aux/598_300_UPRAVLJaEMYJ]]/URI$ и произвольного марковского момента $URI[[http://libmeta.ru/me/formula/aux/598_301_UPRAVLJaEMYJ]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_14_UPRAVLJaEMYJ]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/598_7_UPRAVLJaEMYJ]]/URI у. Д. П. имеет отнопение к управляемым частично наблюдаемым URI[[http://libmeta.ru/me/relation/598_6_UPRAVLJaEMYJ]]/URI и к URI[[http://libmeta.ru/me/relation/598_5_UPRAVLJaEMYJ]]/URI управления случайными URI[[http://libmeta.ru/me/relation/598_4_UPRAVLJaEMYJ]]/URI, в к-рых управление осуществляөтся URI[[http://libmeta.ru/me/relation/598_3_UPRAVLJaEMYJ]]/URI меры на $URI[[http://libmeta.ru/me/formula/aux/598_302_UPRAVLJaEMYJ]]/URI$ из того или иного заданного класса мер, отвечающих URI[[http://libmeta.ru/me/relation/598_2_UPRAVLJaEMYJ]]/URI URI[[http://libmeta.ru/me/relation/598_1_UPRAVLJaEMYJ]]/URI типа (cм. [3], [4], [6]-[8]).</text>
+  <text_orig>случайный процесс, вероятностные характеристики к-рого могут изменяться по ходу наблюдений в зависимости от поставленной цели, заключающейся в минимизации (максимизации) того или иного функционала, определяющего качество управления. Различают разные виды управляемых процессов как по способу их задания и описания, так и по типу целей управления. Наиболее продвинута теория управляемых скачкообразных марковских процессов и управляемых диффузионных процессов, в случае наблюдений по полным данным. Развивается также соответствующая теория в случае наблюдений по неполным данным (частично наблюдаемые процессы).
+
+Управляемый скачкообразный марковский процесс (у.с.м.п.) - управляемый случайный процесс с непрерывным временем и кусочно постоянными траекториями, в к-ром выбор управления влияет на инфинитезимальные характеристики процесса. Обычно (см. [1] , [2]), для построения у.с.м.п. задают: 1) борелевское множество $E$ состояний; 2) борелевское множество $A$ управлений и множества $A(x)$ управлений, допустимых в состоянии $x$, причем $A=\bigcup A(x), \quad\{(x, a): a \in$ $\in A(x), x \in E\} \in \mathscr{B}(E \times A)(\mathscr{B}(M)$ есть б-алгебра борелевских подмножеств борелевского множества $M$ ), и возможен измеримый выбор $a=\alpha(x) \in A(x) ; \quad x \in E$; 3) плотность $q(a, t, x, \Gamma)$ вероятности скачка из $x$ в $\Gamma$ в момент $t$ при управлении $a(t \geqslant 0, x \in E, a \in A(x)$, $\Gamma \in \mathscr{B}(E))$, являющуюся борелевской функцией $(a, t, x)$ при любом $\Gamma$ и счетноаддитивной функцией $\Gamma$ при любых $a, t$ и $x$, притем функция $q$ огранитена, $q(a, t, x, \Gamma) \geqslant 0$ при $x \notin \Gamma, q(a, t, x, E)=0$
+
+Пусть $\Omega=D([0, \infty), E)$ - Пространство всех кусочпо постоянных непрерывных справа функций $\omega=$ $=x_{[0, \infty)}=\left(x_{t}\right)_{t \geqslant 0}$ со значениями в $E$, и пусть $N_{t}\left(N_{t-}\right)-$ минимальная $\sigma$-алгебра в $\Omega$, относительно к-рої измеримы функции $x_{s}=x_{s}(\omega)$ при $s \leqslant t$ (при $s&lt;t$ ) и $N=N_{\infty}$. Любая функция $\alpha_{t}(\omega)$ на $(0, \infty) \times \Omega$ со значениями $\alpha_{t}(\omega) \in A\left(x_{t}-(\omega)\right)$, прогрессивно измеримая относительно семейства $\left\{N_{t-}\right\}$, наз. (естественной) с т р атеги ей. Из определения следует, что $\alpha_{t}(\omega)=$ $=\alpha\left(x_{[0, t)}\right)$, где $x_{[0, t)}=\left(x_{s}\right)_{0 \leqslant s&lt;t}$. Если $\alpha_{t}(\omega)=\alpha\left(t, x_{t-}\right)$, где $\alpha(t, x)$-борелевская функция на $(0, \infty) \times E$ со свойством $\alpha(t, x) \in A(x)$, то стратегия $\alpha$ наз. м а pко вск о й, а если $\alpha(t, x)=\alpha(x)$, то с т а ци он а $\mathbf{p}-$ н о й. Классы естественных, марковских и стационарных стратегий обозначаются соответственно $\mathfrak{A}_{E}, \mathfrak{A}_{M}$ и $\mathfrak{A}_{s}$. Ввиду возможности измеримого выбора из $A(x)$ класс $\mathfrak{H}_{S}$ (следовательно, $\mathfrak{H}_{M}$ и $\mathfrak{H}_{E}$ ) не пуст. Если $q$ огранитена, то по любым $x \in E$ и $\alpha \in \mathfrak{A}_{E}$ строится единственная вероятностная мера $\mathrm{P}_{x}^{\alpha}$ на $(\Omega, N)$ такая, что $\mathrm{P}_{x}^{\alpha}\left\{x_{0}=x\right\}=1$ и при любых $t^{\prime} \geqslant t \geqslant 0, \Gamma \in \mathscr{B}(E)$
+
+\[
+\left.\begin{array}{c}
+\mathrm{P}_{x}^{\alpha}\left\{\tau&gt;t^{\prime} \mid N_{t}\right\}= \\
+\left.=\exp \left[\int_{t}^{t^{\prime}} q\left(\alpha\left(x_{[0, s)}^{*}\right), s, x_{t}, x_{t}\right) d s\right] \text { (п. н. } \mathrm{P}_{x}^{\alpha}\right), \\
+\mathrm{P}_{x}^{\alpha}\left\{x_{\tau} \in \Gamma \mid N_{t}(\tau)\right\}= \\
+\left.=-\frac{q\left(\alpha\left(x^{*}[0, \tau)\right), \tau, x_{t}, \mathrm{r}\right)}{q\left(\alpha\left(x_{[0, \tau)}^{*}\right), \tau, x_{t}, x_{t}\right)} \text { (п. н. } \mathrm{P}_{x}^{\alpha}\right),
+\end{array}\right\}
+\]
+
+где $\tau=\tau(t, \omega)$-момент первого скатка после $t, N_{t}(\tau)$ минимальная $\sigma$-алгебра в $\Omega$, содержащая $N_{t}$, относительно к-рой $\tau$ измеримо, $x_{u}^{*}=x_{t}$ при $0 \leqslant u \leqslant t$ и $x_{u}^{*}=x_{t}$ при $u&gt;t$. Слутайный процесс $\left\{\left(x_{t}\right)_{t \geqslant 0}, P_{x}^{\alpha}\right\}$ и есть у.с.м.п. Марковское свойство у.с.м.п. состоит в том, что при известном «настоящем» $x_{t}$, «прошлое» $\left(x_{u}\right)_{u&lt;t}$ входит в правые части (1) лишь через стратегию $\alpha$. При произвольной стратегии $\alpha \in \mathfrak{A}_{E}$ процесс $\left(x_{t}\right)_{t \geqslant 0}$, вообще говоря, не марковский, но если $\alpha \in \mathfrak{A}_{M}$, то он будет марковским процессом, а если $\alpha \in \mathfrak{P}_{S}$ и $q$ не зависит от $t$, то-однородным марковским с плотностью вероятности скачка из $x$ в $\Gamma$, равной $q(\alpha(x)$, $x, \Gamma)$. Управление процессом состоит в выборе стратегии.
+
+Типичная задача управления-максимизация функционала
+
+\[
+v^{\alpha}(x)=\mathrm{E}_{x}^{\alpha}\left[\int_{0}^{T} f^{\alpha} t\left(t, x_{t}\right) d t+g\left(x_{T}\right)\right],
+\]
+
+где $f^{a}(t, x)$ и $g(x)$ - ограниченные борелевские функ-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_44faaf49a465fcab0c4fg-1.jpg?height=37&amp;width=819&amp;top_left_y=1644&amp;top_left_x=136)
+C. помощью перехода к другим функциям $f$ и $g$ и введения фиктивных состояний к виду (2) приводится более широкий класс функционалов, содержащих также члены $h^{\alpha_{\tau}}\left(\tau, x_{\tau-}, x_{\tau}\right)$, $\tau-$ момент скачка, и допускающих обрыв или остановку процесса. Фу нк ци е й в ы и г р ыш а (це н о й) наз. функция
+
+\[
+v(x)=\sup _{\alpha \in \mathfrak{a}_{E}} v^{\alpha}(x), \quad x \in E .
+\]
+
+Стратегия $\alpha$ наз. $\varepsilon-0$ пт и м а ль ной, если $v^{\alpha}(x) \geqslant$ $\geqslant v(x)-\varepsilon$ при всех $x \in E$, и (п. н. $\mu$ ) $\varepsilon-0$ п т и м а льн о й, если то же верно при потти всех $x$ относительно меры $\mu$ на $E$. 0-оптимальные стратегии наз. о пт имальн ы м и. Пусть в модели, полученной из первоначальной схемы сокращением промежутка $[0, \infty)$ до $[t, \infty)$, символы $\mathfrak{A}(t) \mathrm{E}_{t, x}^{\alpha}$ и $v(t, x)$ имеют тот же смысл, что $\mathfrak{P}, \mathrm{E}_{x}^{\alpha}$ и $v(x)$ в первонатальной модели. Рассматривая скачки как последовательные шаги в управляемой марковской цепи с дискретным временем, можно установить существование (п. н. $\mu$ ) $\varepsilon$-оптимальных стратегий в классе $\mathfrak{A}_{E}$ и получить свойство изме римости $v$ в форме: $\{(t, x): v(t, x)&gt;C\}$ - аналитич. множество. Это позволяет применить идеи динамического програлмирования и вывести соотношение
+
+$v(t, x)=\sup _{\alpha \in \Omega_{E}(t)} \mathrm{E}_{t, x}^{\alpha}\left[\int_{t}^{\tau_{1}} f^{\alpha_{s}}\left(s, x_{s}\right)+v\left(\tau_{1}, x_{\tau_{1}}\right)\right]$,
+
+где $\tau_{1}=\min \left(\tau(t), t^{\prime}\right), 0 \leqslant t&lt;t^{\prime} \leqslant T$ (вариант принципа Беллмана). При $t^{\prime} \downarrow t$ из (4) и (1) получается Беллмана уравнение
+
+\[
+-\frac{\partial v(t, x)}{\partial t}=
+\]
+
+$=\sup _{a \in A(x)}\left[f^{a}(t, x)+\int_{E} v(t, y) q(a, t, x, d y)\right]$ (I.. в.).
+
+Функция выигрыша $v(t, x)$ - единственная ограниченная абсолютно непрерывная по $t$ функция на $[0, T] \times E$, удовлетворяющая (5) и условию $v(T, x)=g(x)$. Уравнение (5) можно решать методом последовательных приближений. При $\alpha \in \mathfrak{A}_{M}$ из Колмогорова уравнения для марковского процесса $\left(x_{t}\right)_{t \geqslant 0}$ следует, что если супремум в (5) достигается при измеримой функции $a=\alpha(t, x)$, то марковская стратегия $\alpha$ оптимальна. Так устанавливается существование марковских оптимальных стратегий в полунепрерывных моделях (в к-рых $A, q, f$ и $g$ удовлетворяют определевным условиям компактвости и непрерывности), в частности в конечных моделях (с ковечными $E$ и $A$ ). В произвольных борелевских моделях с помощью теорем измеримого выбора выводится существование (п. н. $\mu$ ) $\varepsilon$-оптимальных марковских стратегий при любом $\varepsilon&gt;0$. В счетных моделях получа-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_44faaf49a465fcab0c4fg-1.jpg?height=37&amp;width=811&amp;top_left_y=1118&amp;top_left_x=994)
+частично переносятся на случаи, когда $T=\infty$ и функции $f$ и $g$ не ограничены, но в общей ситуации достаточность марковских стратегий не доказана.
+
+В однородных моделях, где $g$ и $f$ не зависят от $t$, наряду с (2) рассматривают функционалы
+
+\[
+\begin{gathered}
+v^{\alpha}(x)=\mathrm{E}_{x}^{\alpha} \int_{0}^{\infty} e^{-\lambda t} f^{\alpha} t\left(x_{t}\right) d t, \\
+v^{\alpha}(x)=\lim _{T \rightarrow \infty} \mathrm{E}_{x}^{\alpha} \frac{1}{T} \int_{0}^{T} f^{\alpha} t\left(x_{t}\right) d t,
+\end{gathered}
+\]
+
+причем ставится вопрос о достаточности класса $\mathfrak{A}_{s}$. Если $\lambda&gt;0$ и борелевская функция $f^{a}(x)$ огравичена, то уравнение (5) для функционала (7) обращается в
+
+\[
+\lambda v(x)=\sup _{a \in A(x)}\left[f^{a}(x)+\int_{E} v(y) q(a, x, d y)\right] ;
+\]
+
+оно совпадает с уравнением Беллмана для аналогичной задачи с дискретным временем и имеет единственное ограниченное решение. Если супремум в (8) достигается при $a=\alpha(x), \alpha \in \mathfrak{N}_{s}$, то $\alpha$ оптимальна. Точно так же с заменой $\mathfrak{A}_{M}$ на $\mathfrak{A}_{S}$ переносятся на случай фувкционала (6) и результаты о существовании $\varepsilon$-оптимальных стратегий в моделях разных типов. При критерии (7) законченные результаты получены лишь для конечных и специального вида эргодич. у.с.м.п. и подобны случаю дискретного времени: можно выбрать $\alpha \in \mathfrak{N}_{S}$ и функцию $g$ на $E$ так, чтобы $\alpha$ была оптимальна по критерию (2) сразу при всех $T$ и, следовательно, оптимальна по критерию (7).
+
+Управляемый диффузионный процесс (у.д.I.) - непрерывный управляемый случайный процесс в $d$-мерном евклидовом пространстве $E_{d}$, допускающий стохастический дифференциал по отношению к нек-рому винеровскому процессу, не зависящему от управлевий. Теория у.д.п. возникла как обобщение теории управления детерминированным движением нек-рой точки $x_{t} \in E_{d}$, уравнение движения к-рой имеет вид $d x_{t}=$ $=b\left(\alpha_{t}, s+t, x_{t}\right) d t, t \geqslant 0$, где $\alpha_{t}-$ управляющий параметр. Для формального описания у.Д.П. применяется язык
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_f139b2c147ae673957c7g-1.jpg?height=37&amp;width=814&amp;top_left_y=215&amp;top_left_x=141)
+ное вероятностное п ространство, $\left\{\mathscr{F}_{t}, t \geqslant 0\right\}$-семеӥство расширяющихся полных $\sigma$-алгебр $\mathscr{F}_{t}$, вложенных в $\mathscr{F}$. Пусть $w_{t}=\left(w_{t}^{i}, i=1, \ldots, d_{1}\right)-d_{1}$-мерный винеровский процесс относительно $\left\{\mathscr{\mathscr { F }}_{t}\right\}$, определенный на $(\Omega, \mathscr{F}, \mathrm{P})$ при $t \geqslant 0$ (т. е. процесс, для к-рого $w_{t}^{i}$ являіотя одномерными неп рерывными стандартными винеровскими процессами при каждом $i$, процессы $w_{t}^{1}, \ldots, w_{t}^{d_{1}}$ независимы, $w_{t}^{i} \mathscr{J}$-измеримо при всяких $t$, $i$ и при $t, h \geqslant 0$ величины $\left\{w_{t+h}^{i}-w_{t}^{i}, i=1, \ldots, d_{1}\right\}$ не зависят от $\mathscr{F}_{t}$ ). Пусть $A$-нек-рое сепарабельное метрич. пространство. При $\alpha \in A, \quad t \geqslant 0, \quad x=\left(x^{i}\right.$, $i=1, \ldots, d) \in E_{d}$ предполагаются заданными функции $\sigma(\alpha, t, x), b(\alpha, t, x)$, причем $\sigma(\alpha, t, x)$-матрица размера $d \times d_{1}, b(\alpha, t, x)$ есть $d$-мерный вектор. Считают, что $\sigma, b$-борелевские функции $\alpha, t, x$, удовлетворяющие условию Липшица по $x$ с постоянной, не зависящей от $\alpha, t$, и такие, что $\left|\sigma^{i j}(\alpha, t, 0)\right|$ и $\mid b^{i}(\alpha, t, 0)$ ограничены. ПI роизвольный процесс $\alpha_{t}=\alpha_{t}(\omega), t \geqslant 0$, $\omega \in \Omega$, прогрессивно измеримый относительно $\left\{\mathscr{F}_{t}\right\}_{\text {и }}$ п ринимающий значения из $A$, наз. с т р а т е г и е й; $\mathfrak{A}$ - множество всех стратегий. Для всякого $s \geqslant 0$, $x \in E_{d}, \quad \alpha \in \mathfrak{H}$, существует и единственно решение стохастич. уравнения Ито
+
+\[
+\begin{gathered}
+d x_{t}=b\left(\alpha_{t}, s+t, x_{t}\right) d t+\sigma\left(\alpha_{t}, s+t, x_{t}\right) d w_{t}, \\
+x_{0}=x
+\end{gathered}
+\]
+
+(т е о р е м а И т о). Это решение, обозначаемое $x_{t}^{\alpha, s, x}$, наз. упр а ля емы м диффузионны м процесс ом (управля емым іл р цес сом диффузионного ти п а); оно управляется с помощью выбора стратегии $\alpha=\alpha_{t}$. Кроме стратегий из $\mathfrak{U}$ рассматриваются другие классы стратегий. Пусть $C\left([0, \infty), E_{d}\right)-$ пространство непрерывных функций на $[0, \infty)$ со значениями в $E_{d}$. Полуось $[0, \infty)$ интерпретируется как множество значений времени $t$. Элементы $C\left([0, \infty), E_{d}\right)$ обозначаются через $\left.x_{r 0, \infty}\right)$. И пусть $N_{t}$-наименьшая $\sigma$-алгебра подмножеств $C\left([0, \infty), E_{d}\right)$, относительно к-рой при $s \leqslant t$ измеримы функции $x_{s}$ (являющиеся вначением әлемента $\left.x_{[0, \infty)}\right)$ пространства $C\left([0, \infty), E_{d}\right)$ в момент времени $s$. Функция $\alpha=\alpha_{t}\left(x_{[0, \infty)}\right)$ со значениями в $A$ наз. естеств енной стратегией, допустимой в точке $(s, x)$, если она прогрессивно измерима относительно $\left\{N_{t}\right\}$ и при $\alpha_{t}=\alpha_{t}\left(x_{(0, \infty)}\right)$ существует хотя бы одно решение уравнения (9), прогрессивно измеримое относительно $\left\{\mathscr{J}_{t}\right\}$. Множество всех естественных стратегий, допустимых в точке $(s, x)$, обозначается $\mathfrak{A}_{E}(s, x)$, его подмножество, состоящее из всех естественных стратегий вида $\alpha_{t}\left(x_{t}\right)$, обозначается $\mathfrak{H}_{M}(s, x)$ и наз. множеством м а $\mathbf{p}$ к о в с к и $\mathbf{x}$ с т р а т е г и й, допустимых в точке $(s, x)$. Принято говорить, что естественная стратегия определяет управление в момент времени $t$ на основании наблюдений за процессом $x_{r}$ на участке времени $[0, t]$, марковская стратегия-на основании наблюдений за процессом только в момент времени $t$. При $\alpha \in \mathfrak{A}_{E}(s, x)$ (даже при $\alpha \in \mathfrak{Y}_{M}(s, x)$ ) решение (9) может не быть единственным. Поэтому для каждых $s \geqslant 0, x \in E_{d}, \alpha \in \mathfrak{T}_{E}(s, x)$, произвольным образом фиксируется к.-н. решение уравнения (9) и оно обозначается $x_{t}^{\alpha, s, x}$. После этого по формуле $\beta_{t}(\omega)=\alpha_{t}\left(x_{[0, \infty)}^{\alpha,{ }^{\alpha}{ }^{x}}(\omega)\right)$ определяется вложение $\mathfrak{U}_{E}(s, x) \subset \mathfrak{U}$, при к-ром $x_{t}^{\beta, s, x}=x_{t}^{\alpha, s, x}$ (п. н.).
+
+Целью управления, как правило, является максимизация или минимизация математич. ожидания того или иного функционала от траекторий $x_{t}^{\alpha}, s, x$. Более общей является следующая задача. Пусть на $A \times[0, \infty) \times E_{d}$ определены борелевские функции $C^{\alpha}(t, x) \geqslant 0, f^{\alpha}(t, x)$ и на $[0, \infty) \times E_{d}$ определена бо- релевская функция $g(t, x)$. Для $\alpha \in \mathfrak{H}, s \geqslant 0, x \in E_{\boldsymbol{d}}$, номент первого выхода $\left(s+t, x_{t}^{\alpha, \varsigma, x)}\right.$ из $Q$,
+
+\[
+\left.\begin{array}{c}
+\varphi_{t}^{\alpha, s, x}=\int_{0}^{t} C^{\alpha}\left(s+r, x_{r}^{\alpha, s, x}\right) d r \\
+v^{\alpha}(s, x)=\mathrm{E}_{s, x}^{\alpha}\left[\int_{0}^{\tau} Q e^{-\varphi_{t}} f^{\alpha_{t}}\left(s+t, x_{t}\right) d t+\right. \\
+\left.+g\left(s+\tau_{Q}, x_{\tau_{Q}}\right) e^{-\varphi_{\tau}} \tau\right],
+\end{array}\right\}
+\]
+
+где индексы $\alpha, s, x$ у знака математич. ожидания означают, что их нужно вставить под знаком математич. ожидания всюду, где әто возможно. Тогда возникает задача о нахождении стратегии $\alpha$, максимизирующей $v^{\alpha}(s, x)$, и $о$ нахождении ф у н к й и в и г ры Iп а (це н ы)
+
+\[
+v(s, x)=\sup _{\alpha \in \mathfrak{A}} v^{\alpha}(s, x) .
+\]
+
+Стратегии $\alpha$, для к-рых $v^{\alpha}(s, x) \geqslant v(s, x)-\varepsilon$, наз. E-о п т и м а ль ь Ы м и для точки $(s, x)$. О п т и ма л ь-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_f139b2c147ae673957c7g-1.jpg?height=37&amp;width=816&amp;top_left_y=795&amp;top_left_x=986)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_f139b2c147ae673957c7g-1.jpg?height=39&amp;width=814&amp;top_left_y=819&amp;top_left_x=987)
+няя грань обозначается $v_{(E)}(s, x)\left(v_{M}(s, x)\right)$. Поскольку имеют место вложения $\mathfrak{A}_{M}(s, x) \subset \mathfrak{A}_{E}(s, x) \subset \mathfrak{A}$, то $v_{(M)}(s, x) \leqslant v_{(E)}(s, x) \leqslant v(s, x)$. При нек-рых достаточно пиироких предположениях известно (см. [3]), что $v_{(E)}=v$ (это так, если, напр., $\sigma, b, c, f, g$ непрерывны по $(\alpha, x)$, непрерывны по $x$ равномерно относительно $\alpha$ при всяком $t$ и абсолютные величины $c, f, g$ не превосходят $K(1+|x|)^{m}$ при всех $\alpha, t, x$, где $K, m$ не зависят от $\alpha, t, x)$. Вопрос о равенстве $v_{(M)}=v$ в достаточно общей ситуации является открытым. Формальное применение идей динамич. п рограмми рования приводит к соотношению, наз. принципом Беллмана:
+
+\[
+\begin{aligned}
+v(s, x)= &amp; \sup _{\alpha \in \mathfrak{A}} \mathrm{E}_{\mathrm{S}, x}^{\alpha}\left[\int_{0}^{\tau} e^{-\varphi_{t}} f^{\alpha}\left(s+t, x_{t}\right) d t+\right. \\
+&amp; \left.+v\left(s+\tau, x_{\tau}\right) e^{-\varphi_{\tau}}\right]
+\end{aligned}
+\]
+
+где $\tau^{\alpha, s, x}$ - произольным образом оп ределенные марковские моменты, не превосходящие $\tau_{Q}^{\alpha}, s, x$. Если в (12) в качестве $\tau$ взять $t \wedge \tau_{Q}=\min \left(t, \tau_{Q}\right)$, применить к $v\left(s+\tau, x_{\tau}\right) e^{-\varphi_{\tau}}$ форорулу Ито, то после нек-рых нестрогих рассуждений можно прийти к уравнению Беллмана:
+
+\[
+\sup _{\alpha \in A}\left(L^{\alpha} v+f^{\alpha}\right)=0
+\]
+
+где
+
+\[
+\begin{gathered}
+L \alpha_{v}=\frac{\partial v}{\partial s}+a^{i j}(a, s, x) \frac{\partial^{2} v}{\partial x^{i} \partial x^{j}}+ \\
++b^{i}(\alpha, s, x) \frac{\partial v}{\partial x^{i}}-c^{\alpha}(s, x) v,
+\end{gathered}
+\]
+
+по индексам $i, i$ предполагается суммирование от 1 до $d$, матрица
+
+\[
+a(\alpha, s, x)=\left(a^{i j}(\alpha, s, x)\right)=\frac{1}{2} \sigma(\alpha, s, x) \sigma^{*}(\alpha, s, x) .
+\]
+
+Уравнение Беллмана играет центральную роль в теории у.д.п., так как часто оказывается, что достаточно «хорошее» его решіение, равное на $\partial Q$ функции $g$, является функцией выигрыша, а если $\alpha=\alpha^{0}(s, x)$ прі каждых $(s, x)$ доставляет верхніо грань в (13) и $\alpha_{t}^{0}=\alpha^{0}\left(s_{0}+t, x_{t}\right)$ - марковская стратегия, допустимая в $\left(s_{0}, x_{0}\right)$, то стратегия $\alpha^{0}=\left\{\alpha_{t}^{0}\right\}$ является оптимальной в точке $\left(s_{0}, x_{0}\right)$. Т. о., пногда удается показать, что $v_{M}\left(s_{0}, x_{0}\right)=v\left(s_{0}, x_{0}\right)$.
+
+Строгое обоснование справедливости приведенных выше выводов наталкивается на серьезные трудности, связанные с веливейным характером уравнения (13), к-рое в общем случае оказывается нелинейным вырождаюццмся параболич. уравнением. Наиболее простым является случай, когда (13) есть невырождагщееся квазилинейное уравнение (матрица $a$ не зависит от $\alpha$ и равномерно невырождена в $Q$ ). Здесь при нек-рых дополнительных ограничениях на $Q, a, b, c, f, g$, удается воспользоваться результатами теории квазилинейных параболич. уравнений, доказать разрешимость (13) в гёльдеровских классах функций и дать способ построения є-оптимальных стратегий, основанный на решении уравнений (13). Аналогичный подход используется (см. [3]), когда $Q=(-\infty, \infty) \times\left(r_{1}, r_{2}\right), a, b, c, f, g$ ограничены и не зависят от $s, a$ - равномерно отделена от нуля. В этом случае (13) сводится к квазилинейному уравнению 2-го порядка на $\left(r_{1}, r_{2}\right)$, т. к. $\frac{\partial v}{\partial s}=0$ и уравнение (13) можно разрешить относительно старшей производной $v_{x x}$. Методы теории диффференциальных уравнений помогают при исследовании уравнения (13) также, если $Q=(-\infty, \infty) \times D, D-$ двумерная область, $a, b, c, f, g$ не зависят от $s$ (см. лит. в [3]). Здесь, как и в предыдущем случае, допускается зависимость $a$ от $\alpha$. Уместно упомянуть также случай уравнений Гамильтона - Якоби $(a \equiv 0)$, изученный методами теории дифференциальных уравнениї (см. [5]).
+
+Методами теории случайных процессов удается доказать, что функция выигрыша $v$ удовлетворяет уравнению (13) в довольно общем случае при нек-рых предположениях типа гладкости $\sigma, b, c, f, g$, если $Q=(-\infty, T) \times E_{d}$, $T \leqslant \infty$ (см. [3]).
+
+Наряду с задачами управления движением, в теории у. Д. П. рассматриваются также задачи об огтимальної остановке управляемого лроцесса одним или двумя лицами. Напр., для $\alpha \in \mathfrak{H}$ и произвольного марковского момента $\tau$ :
+
+\[
+\begin{gathered}
+v^{\alpha, \tau}(s, x)=\mathrm{E}_{s, x}^{\alpha}\left[\int_{0}^{\tau_{Q} \wedge \tau} e^{-\varphi_{t}} f^{\alpha_{t}}\left(s+t, x_{t}\right) d t+\right. \\
++g\left(s+\tau_{Q} \wedge \tau, \quad x_{\left.\tau_{Q} \wedge \tau\right)} e^{-\varphi_{\tau}}{ }^{\prime} \wedge \tau\right]
+\end{gathered}
+\]
+
+теория у. Д. П. имеет отнопение к управляемым частично наблюдаемым процессам и к задачам управления случайными процессами, в к-рых управление осуществляөтся выбором меры на $\left(C\left([0, \infty), E_{d}\right), N_{\infty}\right)$ из того или иного заданного класса мер, отвечающих процессам диффузионного типа (cм. [3], [4], [6]-[8]).
+
+Jum.: [1] Г и х м а н И. И., С к о р о х о д А. В., Управляемые случайные процессы, К., 1977, [2] Ю ші к е в и ч А А., «Теория вероятностей и ее применения&quot;, 1980, т 25 , №, с 247-70, цессы диффузионого типа, M., 1977; ' [4] F l e m ing w. H., R i s h e l R. W. Deterministic and stochastic op timal control,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=57&amp;width=819&amp;top_left_y=1680&amp;top_left_x=136)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=50&amp;width=824&amp;top_left_y=1712&amp;top_left_x=134)
+W. M. &quot;SIAM J. Control&quot;, 1968, v. 6, № 2, p. 312-26; 4 . D D a-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_eb4ea19c10ad99f19911g-1.jpg?height=49&amp;width=819&amp;top_left_y=1774&amp;top_left_x=134)</text_orig>
+</article>

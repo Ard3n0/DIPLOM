@@ -1,0 +1,515 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1243_JaKOBI" alphabetic_pos="1243">
+  <title>ЯКОБИ ЭЛЈИПТИЧЕСКИЕ ФУНКЦИЙ</title>
+  <authors/>
+  <pages>
+    <start>528</start>
+    <end>530</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] J a c o b i C., Fundamenta nova theoriae functionum ellipticarum, Königsberg, 1829; Gesammelte Werke, Bd 1, B., $1881 ;$ 22] А х и е з е $p$ Н. И., Элемепты теории эллиптитеских![](https://cdn.mathpix.com/cropped/2023_07_09_530abca183dd74cf40f6g-1.jpg?height=38&amp;width=807&amp;top_left_y=2158&amp;top_left_x=141)В а т с о Н Д ж. Н., Курс современного анализа, пер. с англ., 2 ıвд., ч, 2, M., 1963 ; L5] E n n e p e r A., Elliptische Funktionen. Theorie und Geschichte, 2 Aufl., Halle / Saale, 1890; [6] T a nn e r y J., M $01 \mathrm{k}$ J., Ejéments de la théorie des fonctions elliptiques, t. 1-4, P., 1893-1902; [7] Ж у р а в с к и й А. М., Справочник по эллиптическим функциям, М.-- Л., 1941; [8] Ф н к е Е., Э м д е Ф., Л ё ші Ф., Специальные ФункцииФормулы, графики,таблицы, пер. с пем., 3 изд., I., 1977.</literature_orig>
+    <unit>
+      <author>Jacobi C.</author>
+      <title>Fundamenta nova theoriae functionum ellipticarum, Königsberg</title>
+      <publication/>
+      <year>1829</year>
+      <other>Bd 1, B., $1881 ;$ 22] А х и е з е $p$ Н. И., Элемепты теории эллиптитеских![](https://cdn.mathpix.com/cropped/2023_07_09_530abca183dd74cf40f6g-1.jpg?height=38&amp;width=807&amp;top_left_y=2158&amp;top_left_x=141)В а т с о Н Д ж. Н., Курс современного анализа, пер. с англ., 2 ıвд., ч, 2, M., 1963 ; L5] E n n e p e r A., Elliptische Funktionen. Theorie und Geschichte, 2 Aufl., Halle / Saale, 1890; [6] T a nn e r y J., M $01 \mathrm{k}$ J., Ejéments de la théorie des fonctions elliptiques, t. 1-4, P., 1893-1902; [7] Ж у р а в с к и й А. М., Справочник по эллиптическим функциям, М.-- Л., 1941; [8] Ф н к е Е., Э м д е Ф., Л ё ші Ф., Специальные ФункцииФормулы, графики, таблицы, пер. с пем., 3 изд., I., 1977.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_1_JaKOBI">=1+2 \sum_{m=1}^{\infty}(-1)^{m} e^{i \pi m^{2} \tau} \cos (2 \pi m v) \text {; }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_2_JaKOBI">=2 \sum_{m=0}^{\infty}(-1)^{m} e^{i \pi\left(\frac{2 m+1}{2}\right)^{2} \tau} \sin [(2 m+1) \pi v] ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_3_JaKOBI">=2 \sum_{m=0}^{\infty} e^{i \pi\left(\frac{2 m+1}{2}\right)^{2} \tau} \cos [(2 m+1) \pi v] ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_4_JaKOBI">=1+2 \sum_{m=1}^{\infty} e^{i \pi m^{2} \tau} \cos (2 \pi m v) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_5_JaKOBI">\begin{aligned}&amp; \vartheta_{0}(v \pm 1)=\vartheta_{0}(v), \\&amp; \vartheta_{0}(v \pm \tau)=-e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{0}(v) ; \\&amp; \vartheta_{1}(v \pm 1)=-\vartheta_{1}(v), \\&amp; \vartheta_{1}(v \pm \tau)=-e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{1}(v) ; \\&amp; \vartheta_{2}(v \pm 1)=-\vartheta_{2}(v), \\&amp; \vartheta_{2}(v \pm \tau)=e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{2}(v) ; \\&amp; \vartheta_{3}(v \pm 1)=\vartheta_{3}(v), \\&amp; \vartheta_{3}(v \pm \tau)=e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{3}(v),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_6_JaKOBI">\begin{aligned}&amp; \vartheta_{0}\left(v \pm \frac{1}{2}\right)=\vartheta_{3}(v) \\&amp; \vartheta_{0}\left(v \pm \frac{1}{2} \tau\right)= \pm i e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{1}(v) \\&amp; \vartheta_{i}\left(v \pm \frac{1}{2}\right)= \pm \vartheta_{2}(v), \\&amp; \vartheta_{1}\left(v \pm \frac{1}{2} \tau\right)= \pm i e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{0}(v) \\&amp; \vartheta_{2}\left(v \pm \frac{1}{2}\right)=\mp \vartheta_{1}(v), \\&amp; \vartheta_{2}\left(v \pm \frac{1}{2} \tau\right)=e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{3}(v) \\&amp; \vartheta_{3}\left(v \pm \frac{1}{2}\right)=\vartheta_{0}(v), \\&amp; \vartheta_{3}\left(v \pm \frac{1}{2} \tau\right)=e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{2}(v)\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_7_JaKOBI">\frac{\partial^{2} \vartheta}{\partial v^{2}}=4 i \pi \frac{\partial \vartheta}{\partial \tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_8_JaKOBI">\vartheta_{1}^{\prime}(0)=\pi \vartheta_{0}(0) \vartheta_{2}(0) \vartheta_{3}(0), \quad \vartheta_{3}^{4}(0)=\vartheta_{0}^{4}(0)+\vartheta_{2}^{4}(0) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_9_JaKOBI">\begin{gathered}\vartheta_{0}(0)=H_{0} H_{3}^{2}, \quad \vartheta_{2}(0)=2 e^{\frac{1}{4} i \pi \tau} H_{0} H_{1}^{2}, \\\vartheta_{3}(0)=H_{0} H_{2}^{2}, \quad \vartheta_{1}^{\prime}(0)=2 \pi e^{\frac{1}{4} i \pi \tau} H_{0}^{3}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_10_JaKOBI">\begin{aligned}&amp; H_{0}=\prod_{m=1}^{\infty}\left(1-e^{2 i \pi m \tau}\right), \\&amp; H_{1}=\prod_{m=1}^{\infty}\left(1+e^{2 i \pi m \tau}\right), \\&amp; H_{2}=\prod_{m=1}^{\infty}\left(1+e^{(2 m-1) i \pi \tau}\right), \\&amp; H_{3}=\prod_{m=1}^{\infty}\left(1-e^{(2 m-1) i \pi \tau}\right), \\&amp; H_{1} H_{2} H_{3}=1\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_11_JaKOBI">\begin{aligned}\operatorname{ns} u=\frac{1}{\operatorname{sn} u}, &amp; \text { nc } u=\frac{1}{\operatorname{cn} u}, \quad \text { nd } u=\frac{1}{\operatorname{dn} u}, \\\operatorname{cs} u=\frac{\operatorname{cn} u}{\operatorname{sn} u}, &amp; \operatorname{ds} u=\frac{\operatorname{dn} u}{\operatorname{sn} u}, \quad \operatorname{dc} u=\frac{\operatorname{dn} u}{\operatorname{cn} u}, \\\operatorname{sc} u=\frac{\operatorname{sn} u}{\operatorname{cn} u}, &amp; \text { sd } u=\frac{\operatorname{sn} u}{\operatorname{dn} u}, \quad \operatorname{cd} u=\frac{\operatorname{cn} u}{\operatorname{dn} u} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_12_JaKOBI">\begin{gathered}\operatorname{sn}^{2} u+\operatorname{cn}^{2} u=1, \\\operatorname{dn}^{2} u+k^{2} \operatorname{sn}^{2} u=1, \\\operatorname{dn}^{2} u-k^{2} \operatorname{cn}^{2} u=1-k^{2}=k^{\prime 2} \\\frac{d}{d u} \operatorname{sn} u=\operatorname{cn} u \cdot \operatorname{dn} u \\\frac{d}{d u} \operatorname{cn} u=-\operatorname{sn} u \cdot \operatorname{dn} u, \\\frac{d}{d u} \operatorname{dn} u=-k^{2} \operatorname{sn} u \cdot \operatorname{cn} u\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_13_JaKOBI">\begin{gathered}\left(\frac{d}{d u} \operatorname{sn} u\right)^{2}=\left(1-\operatorname{sn}^{2} u\right)\left(1-k^{2} \operatorname{sn}^{2} u\right), \\\left(\frac{d}{d u} \operatorname{cn} u\right)^{2}=\left(1-\operatorname{cn}^{2} u\right)\left(k^{\prime 2}+k^{2} \operatorname{cn}^{2} u\right), \\\left(\frac{d}{d u} \operatorname{dn} u\right)^{2}=\left(1-\operatorname{dn}^{2} u\right)\left(\operatorname{dn}^{2} u-k^{\prime 2}\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_14_JaKOBI">u=\int_{0}^{z} \frac{d t}{\sqrt{\left(1-t^{2}\right)\left(1-k^{2} t^{2}\right)}}=\int_{0}^{\varphi} \frac{d s}{\sqrt{1-k^{2} \sin ^{2} s}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_15_JaKOBI">\begin{gathered}\operatorname{cn} u=\sqrt{1-\operatorname{sn}^{2} u}=\cos \operatorname{am} u, \\\operatorname{dn} u=\sqrt{1-k^{2} \operatorname{sn}^{2} u}=\sqrt{1-k^{2} \sin ^{2} \operatorname{am} u} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_16_JaKOBI">\begin{gathered}K=K(k)=\frac{1}{2} \pi \vartheta_{3}^{2}(0 ; \tau), \quad K^{\prime}=K\left(k^{\prime}\right), \\\tau K=i K^{\prime}, k=\frac{\vartheta_{2}^{2}(0)}{\vartheta_{3}^{2}(0)}, k^{\prime}=\frac{\vartheta_{0}^{2}(0)}{\vartheta_{3}^{2}(0)} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_17_JaKOBI">q=e^{i \pi \tau}=\varepsilon+2 \varepsilon^{5}+15 \varepsilon^{9}+150 \varepsilon^{13}+O\left(\varepsilon^{17}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_18_JaKOBI">\begin{gathered}K=\frac{1}{2} \pi \vartheta_{3}^{2}(0 ; \tau)=\frac{\pi}{2}\left\{1+2 \sum_{m=1}^{\infty} q^{m^{2}}\right\}, \\K^{\prime}=\frac{1}{\pi} K \ln \left(\frac{1}{q}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1243_19_JaKOBI">\begin{gathered}\text { sn }(u ; 0)=\sin u, \quad \text { cn }(u ; 0)=\cos u, \\\operatorname{dn}(u ; 0)=1 ; \quad \operatorname{sn}(u ; 1)=\operatorname{th} u, \\\operatorname{cn}(u ; 1)=\operatorname{dn}(u ; 1)=1 / \operatorname{ch} u .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_1_JaKOBI">\tau-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_2_JaKOBI">\operatorname{im} \tau&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_3_JaKOBI">\vartheta_{0}(v), \vartheta_{1}(v), \vartheta_{2}(v), \vartheta_{3}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_4_JaKOBI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_5_JaKOBI">\vartheta_{0}(v)=\vartheta_{0}(v ; \tau)=\sum_{m=-\infty}^{\infty}(-1)^{m} e^{i \pi m^{2} \tau} e^{2 i \pi m v}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_6_JaKOBI">\vartheta_{1}(v)=\vartheta_{1}(v ; \tau)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_7_JaKOBI">=i \sum_{m=-\infty}^{\infty}(-1)^{m} e^{i \pi\left(\frac{2 m-1}{2}\right)^{2} \tau} e^{(2 m-1) i \pi v}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_8_JaKOBI">\vartheta_{2}(v)=\vartheta_{2}(v ; \tau)=\sum_{m=-\infty}^{\infty} e^{i \pi\left(\frac{2 m-1}{2}\right)^{2} \tau} e^{(2 m-1) i \pi v}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_9_JaKOBI">\vartheta_{3}(v)=\vartheta_{3}(v ; \tau)=\sum_{m=-\infty}^{\infty} e^{i \pi m^{2} \tau} e^{2 i \pi m v}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_10_JaKOBI">\vartheta_{0}(v), \vartheta_{1}(v), \vartheta_{2}(v), \vartheta_{3}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_11_JaKOBI">\vartheta_{0}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_12_JaKOBI">\vartheta_{4}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_13_JaKOBI">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_14_JaKOBI">\quad \Theta(v)=\vartheta_{0}(v / 2 K), \quad H(v)=\vartheta_{1}(v / 2 K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_15_JaKOBI">h_{1}(v)=\vartheta_{2}(v / 2 K), \quad \Theta_{1}(v)=\vartheta_{3}(v / 2 K), \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_16_JaKOBI">k=\pi \vartheta_{3}^{2}(0) / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_17_JaKOBI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_18_JaKOBI">\vartheta_{1}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_19_JaKOBI">\vartheta_{0}(v), \vartheta_{2}(v), \vartheta_{3}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_20_JaKOBI">\vartheta_{0}(0), \vartheta_{1}^{\prime}(0), \vartheta_{2}(0), \vartheta_{3}(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_21_JaKOBI">\vartheta_{1}(0)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_22_JaKOBI">\vartheta_{0}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_23_JaKOBI">m+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_24_JaKOBI">+\left(n-\frac{1}{2}\right) \tau ; \vartheta_{1}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_25_JaKOBI">m+n \tau ; \vartheta_{2}(v)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_26_JaKOBI">m-\frac{1}{2}+n \tau ; \quad \vartheta_{3}(v)-\mathbf{\text { в }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_27_JaKOBI">\quad m-\frac{1}{2}+\left(n-\frac{1}{2}\right) \tau ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_28_JaKOBI">m, n=0, \pm 1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_29_JaKOBI">\operatorname{sn} u(c u н y c a m-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_30_JaKOBI">\operatorname{dn} u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_31_JaKOBI">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_32_JaKOBI">u=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_33_JaKOBI">=\sin \operatorname{am} u, \quad \operatorname{cn} u=\cos \operatorname{am} u, \operatorname{dn} u=\Delta \operatorname{am} u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_34_JaKOBI">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_35_JaKOBI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_36_JaKOBI">u=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_37_JaKOBI">=v \cdot \pi \vartheta_{3}^{2}(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_38_JaKOBI">k=\vartheta_{2}^{2}(0) / \vartheta_{3}^{2}(0)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_39_JaKOBI">\operatorname{sn} u=\operatorname{sn}(u ; k)=\frac{\vartheta_{3}(0)}{\vartheta_{2}(0)} \frac{\vartheta_{1}(v)}{\vartheta_{0}(v)}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_40_JaKOBI">=u-\left(1+k^{2}\right) \frac{u^{3}}{3 !}+\left(1+14 k^{2}+k^{4}\right) \frac{u^{5}}{5 !}-\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_41_JaKOBI">\operatorname{cn} u=\operatorname{cn}(u ; k)=\frac{\vartheta_{0}(0)}{\vartheta_{2}(0)} \frac{\vartheta_{2}(v)}{\vartheta_{0}(v)}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_42_JaKOBI">=1-\frac{u^{2}}{2 !}+\left(1+4 k^{2}\right) \frac{u^{4}}{4 !}-\left(1+44 k^{2}+16 k^{4}\right) \frac{u^{6}}{6 !}+\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_43_JaKOBI">\operatorname{dn} u=\operatorname{dn}(u ; k)=\frac{\vartheta_{0}(0)}{\vartheta_{3}(0)} \frac{\vartheta_{3}(v)}{\vartheta_{0}(v)}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_44_JaKOBI">=1-k^{2} \frac{u^{2}}{2 !}+k^{2}\left(4+k^{2}\right) \frac{u^{4}}{4 !}-k^{2}\left(16+44 k^{2}+k^{4}\right) \frac{u^{6}}{6 !}+\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_45_JaKOBI">\operatorname{sn} u, \operatorname{cn} u, \operatorname{dn} u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_46_JaKOBI">4 K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_47_JaKOBI">2 i K^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_48_JaKOBI">\operatorname{sn} u ; 4 K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_49_JaKOBI">2\left(k+i K^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_50_JaKOBI">\operatorname{cn} u ; 2 K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_51_JaKOBI">4 i K^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_52_JaKOBI">\operatorname{dn} u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_53_JaKOBI">k=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_54_JaKOBI">=k(k)=\pi \vartheta_{3}^{2}(0) / 2, \quad K^{\prime}=K\left(k^{\prime}\right)=-i \tau K-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_55_JaKOBI">k^{\prime}=\sqrt{1-k^{2}}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_56_JaKOBI">2 m K+(2 n+1) i K^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_57_JaKOBI">\operatorname{sd}\left(u_{1}+u_{2}\right)=\frac{\operatorname{sn} u_{1} \cdot \operatorname{cn} u_{2} \cdot \operatorname{dn} u_{2}+\operatorname{sn} u_{2} \cdot \operatorname{cn} u_{1} \cdot \operatorname{dn} u_{1}}{1-R^{2} \operatorname{sn}^{2} u_{1} \cdot \operatorname{sn}^{2} u_{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_58_JaKOBI">\operatorname{cn}\left(u_{1}+u_{2}\right)=\frac{\operatorname{cn} u_{1} \cdot \operatorname{cn} u_{2}-\operatorname{sn} u_{1} \cdot \operatorname{dn} u_{1} \cdot \operatorname{sn} u_{2} \cdot \operatorname{dn} u_{2}}{1-k^{2} \operatorname{sn}^{2} u_{1} \cdot \operatorname{sn}^{2} u_{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_59_JaKOBI">\operatorname{dn}\left(u_{1}+u_{2}\right)=\frac{\operatorname{dn} u_{1} \cdot \operatorname{dn} u_{2}-k^{2} \operatorname{sn} u_{1} \cdot \operatorname{cn} u_{1} \cdot \operatorname{sn} u_{2} \cdot \operatorname{cn} u_{2}}{1-k^{2} \operatorname{sn}^{2} u_{1} \cdot \operatorname{sn}^{2} u_{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_60_JaKOBI">z=\mathrm{sn} u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_61_JaKOBI">\uparrow=a m u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_62_JaKOBI">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_63_JaKOBI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_64_JaKOBI">0&lt;k&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_65_JaKOBI">k^{\prime}=\sqrt{1-k^{2}}, 0&lt;k^{\prime}&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_66_JaKOBI">k, K^{\prime}, \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_67_JaKOBI">q=e^{i \pi \tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_68_JaKOBI">2 \varepsilon=\left(1-\sqrt{k^{\prime}}\right) /\left(1+\sqrt{k^{\prime}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_69_JaKOBI">0&lt;k&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_70_JaKOBI">0&lt;\varepsilon&lt;1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_71_JaKOBI">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_72_JaKOBI">0&lt;\varepsilon&lt;1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_73_JaKOBI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_74_JaKOBI">k^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_75_JaKOBI">k=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_76_JaKOBI">k=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_77_JaKOBI">k, 0&lt;k&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_78_JaKOBI">e_{1}, e_{2}, e_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_79_JaKOBI">e_{1}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_80_JaKOBI">=\left(2-k^{2}\right) / 3, e_{2}=\left(2 k^{2}-1\right) / 3, e_{3}=-\left(1+k^{2}\right) / 3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_81_JaKOBI">g_{2}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_82_JaKOBI">=-4\left(e_{1} e_{2}+e_{2} e_{3}+e_{3} e_{1}\right), g_{3}=4 e_{1} e_{2} e_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_83_JaKOBI">\omega_{1}=k / \sqrt{e_{1}-e_{3}}, \quad \omega_{3}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1243_84_JaKOBI">=i K^{\prime} / \sqrt{e_{1}-e_{3}}</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/1243_1_JaKOBI">
+      <rel_text>эллиптич</rel_text>
+      <target>http://libmeta.ru/me/article/1145_ELLIPSOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1243_2_JaKOBI">
+      <rel_text>вычислить</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1243_3_JaKOBI">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1243_4_JaKOBI">
+      <rel_text>Полупериоды</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1243_5_JaKOBI">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1243_6_JaKOBI">
+      <rel_text>модуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1243_7_JaKOBI">
+      <rel_text>функциї</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1243_8_JaKOBI">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>эллиптические функции, возникпие при непосредственном обращении әллиптических интегралов в нормальной форме Лежандра. Эта задача обращения была решена в 1827 независимо К. Якоби (с. Јасobi) и, в несколько иной форме, Н, Абелем (n. Abel). Конструкция Якоби основывается на применении тета-функций.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/1243_1_JaKOBI]]/URI$ комплексное тисло с $URI[[http://libmeta.ru/me/formula/aux/1243_2_JaKOBI]]/URI$. Тета-функции Якоби $URI[[http://libmeta.ru/me/formula/aux/1243_3_JaKOBI]]/URI$ прөдставляют собой следующие ряды, абсолютно и равномерно сходящиеся на компактах плоскости комплексного переменного $URI[[http://libmeta.ru/me/formula/aux/1243_4_JaKOBI]]/URI$ : $URI[[http://libmeta.ru/me/formula/aux/1243_5_JaKOBI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_1_JaKOBI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_6_JaKOBI]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_7_JaKOBI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_2_JaKOBI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_8_JaKOBI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_3_JaKOBI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_9_JaKOBI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_4_JaKOBI]]/URI
+\]
+
+Эти ряды достаточно быстро сходятся. Обозначения $URI[[http://libmeta.ru/me/formula/aux/1243_10_JaKOBI]]/URI$ восходят к К. Вейерштрассу (k. Weierstrass). Вместо $URI[[http://libmeta.ru/me/formula/aux/1243_11_JaKOBI]]/URI$ часто пипут $URI[[http://libmeta.ru/me/formula/aux/1243_12_JaKOBI]]/URI$, имеются и другие системы обозначений. Сам $URI[[http://libmeta.ru/me/formula/aux/1243_13_JaKOBI]]/URI$. Якоби применял обозначения: $URI[[http://libmeta.ru/me/formula/aux/1243_14_JaKOBI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1243_15_JaKOBI]]/URI$ где $URI[[http://libmeta.ru/me/formula/aux/1243_16_JaKOBI]]/URI$.
+
+Все тета-функции Якоби представляют собой целые трансцендентные функции комплексного переменного $URI[[http://libmeta.ru/me/formula/aux/1243_17_JaKOBI]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/1243_18_JaKOBI]]/URI$ - нечетная функция, а остальные функции $URI[[http://libmeta.ru/me/formula/aux/1243_19_JaKOBI]]/URI$ четные.
+
+Имеют место следующие с о о т н ш е н и я п ер и о д и ч н о с т и:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_5_JaKOBI]]/URI
+\]
+
+из к-рых вытекает, что тета-функции являются эллиптич. функциями Iii рода по Эрмиту.
+
+Различные тета-функции связаны между собой ф о рм улами п р е о б р а з о в а ия:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_6_JaKOBI]]/URI
+\]
+
+Bсе четыре тета-функции удовлетворяют одному и тому жө дифференциальному уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_7_JaKOBI]]/URI
+\]
+
+Важное значение имеют так наз. н у л е в ы е 3 н ачени и т е т а - ф у н к ц и й $URI[[http://libmeta.ru/me/formula/aux/1243_20_JaKOBI]]/URI$; при этом $URI[[http://libmeta.ru/me/formula/aux/1243_21_JaKOBI]]/URI$. Между ними имеются следующие соотношения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_8_JaKOBI]]/URI
+\]
+
+По отдельности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_9_JaKOBI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_10_JaKOBI]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/1243_22_JaKOBI]]/URI$ имеет простые нули в точках $URI[[http://libmeta.ru/me/formula/aux/1243_23_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_24_JaKOBI]]/URI$ - в точках $URI[[http://libmeta.ru/me/formula/aux/1243_25_JaKOBI]]/URI$ в точках $URI[[http://libmeta.ru/me/formula/aux/1243_26_JaKOBI]]/URI$ точках $URI[[http://libmeta.ru/me/formula/aux/1243_27_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_28_JaKOBI]]/URI$
+
+Из соотношений периодичности видно, что нек-рые отношения тета-функций будут эллиптич. Функциями в собственном смысле. О с н о вны е ә л л и п т ич е с ки е ф у нг ци и Я к о б и- $URI[[http://libmeta.ru/me/formula/aux/1243_29_JaKOBI]]/URI$ плитуды), спи (косинус амплитуды) и $URI[[http://libmeta.ru/me/formula/aux/1243_30_JaKOBI]]/URI$ (дельта амплитудыс). Эти обозначения введены Х. Гудерманом (ch. Gudermann, 1838). Названия происходят от старых обозначений, введенных самим $URI[[http://libmeta.ru/me/formula/aux/1243_31_JaKOBI]]/URI$. Якоби (sn $URI[[http://libmeta.ru/me/formula/aux/1243_32_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_33_JaKOBI]]/URI$ и позднее вышедших из употребления.
+
+Новое переменное $URI[[http://libmeta.ru/me/formula/aux/1243_34_JaKOBI]]/URI$ связано с $URI[[http://libmeta.ru/me/formula/aux/1243_35_JaKOBI]]/URI$ соотношением $URI[[http://libmeta.ru/me/formula/aux/1243_36_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_37_JaKOBI]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/1243_38_JaKOBI]]/URI$ м о д у л ь э л ли пт и ч е с к и х ф у к ц и й, то Я. э. ф. следующим образом выражаются через тета-функции или посредством сходящихся в окрестности начала стешенных рядов:
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_39_JaKOBI]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_40_JaKOBI]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_41_JaKOBI]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_42_JaKOBI]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_43_JaKOBI]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/1243_44_JaKOBI]]/URI$
+
+Удобные обозначения для обратных величин и отношений были введены Дж. Глейшером (j. Glaisher, 1882):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_11_JaKOBI]]/URI
+\]
+
+Я. ә. Ф. $URI[[http://libmeta.ru/me/formula/aux/1243_45_JaKOBI]]/URI$ являются эллиптич. функциями 2-го порядка с периодами: $URI[[http://libmeta.ru/me/formula/aux/1243_46_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1243_47_JaKOBI]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/1243_48_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1243_49_JaKOBI]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/1243_50_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1243_51_JaKOBI]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/1243_52_JaKOBI]]/URI$. Здесь $URI[[http://libmeta.ru/me/formula/aux/1243_53_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_54_JaKOBI]]/URI$ значения полных эллиптич. интегралов I рода, $URI[[http://libmeta.ru/me/formula/aux/1243_55_JaKOBI]]/URI$ д ополните льны й модуль эл липти ч ес к и х ф у нк ц и й. Я. ә. ф. имеют только простые полюсы, расположенные в точках $URI[[http://libmeta.ru/me/formula/aux/1243_56_JaKOBI]]/URI$;
+
+Три Я. э. ф. связаны соотнотениями:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_12_JaKOBI]]/URI
+\]
+
+и дифференциальными уравнениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_13_JaKOBI]]/URI
+\] Т е о ре м ы с л ж е н и д для Я. э. ф. имеют вид: $URI[[http://libmeta.ru/me/formula/aux/1243_57_JaKOBI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1243_58_JaKOBI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1243_59_JaKOBI]]/URI$.
+
+Связь Я. э. Ф. с эллиптич. интетралами выражается в том, что если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_14_JaKOBI]]/URI
+\]
+
+- эллиптич. интеграл I рода в нормальной форме Лежандра, то его обральение имеет вид $URI[[http://libmeta.ru/me/formula/aux/1243_60_JaKOBI]]/URI$; в әтом и состоял исходный пункт теории Якоби. Переменная $URI[[http://libmeta.ru/me/formula/aux/1243_61_JaKOBI]]/URI$ есть бесконечнозначная фуункция от $URI[[http://libmeta.ru/me/formula/aux/1243_62_JaKOBI]]/URI$ и наз. а м плитудой эллипти ческаго интег р а л a
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_15_JaKOBI]]/URI
+\]
+
+Основные соотнопения между постоянными:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_16_JaKOBI]]/URI
+\]
+
+В прикладных задачах обычно задан модуль $URI[[http://libmeta.ru/me/formula/aux/1243_63_JaKOBI]]/URI$, причем чапе всето имеет место так наз. н о р м а л ь вы й c. л у ч a ï $URI[[http://libmeta.ru/me/formula/aux/1243_64_JaKOBI]]/URI$, или задан дополнительныӥ модуль $URI[[http://libmeta.ru/me/formula/aux/1243_65_JaKOBI]]/URI$. Требуется найти $URI[[http://libmeta.ru/me/formula/aux/1243_66_JaKOBI]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/1243_67_JaKOBI]]/URI$. Полагая $URI[[http://libmeta.ru/me/formula/aux/1243_68_JaKOBI]]/URI$, при $URI[[http://libmeta.ru/me/formula/aux/1243_69_JaKOBI]]/URI$ имеем $URI[[http://libmeta.ru/me/formula/aux/1243_70_JaKOBI]]/URI$. Для определения $URI[[http://libmeta.ru/me/formula/aux/1243_71_JaKOBI]]/URI$ получается быстро сходящийся при $URI[[http://libmeta.ru/me/formula/aux/1243_72_JaKOBI]]/URI$ ряп
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_17_JaKOBI]]/URI
+\]
+
+Звачения шолных эллиптич. интегралов $URI[[http://libmeta.ru/me/formula/aux/1243_73_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1243_74_JaKOBI]]/URI$ определяются по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_18_JaKOBI]]/URI
+\]
+
+цли при помоцц таблиц.
+
+При $URI[[http://libmeta.ru/me/formula/aux/1243_75_JaKOBI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1243_76_JaKOBI]]/URI$ Я. ә. ф. вырождалотся соответственно в тригонометрич. и гитерболич. функции:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1243_19_JaKOBI]]/URI
+\]
+
+В теоретич. отнопении более простое построение URI[[http://libmeta.ru/me/relation/1243_8_JaKOBI]]/URI әллиттич. URI[[http://libmeta.ru/me/relation/1243_7_JaKOBI]]/URI дано К. Вейерштрассом в 1862-63 (см. Ветерит расса эллиптические финкиии). При ваданном URI[[http://libmeta.ru/me/relation/1243_6_JaKOBI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1243_77_JaKOBI]]/URI$, инвариан'ты Вейерштрасса $URI[[http://libmeta.ru/me/formula/aux/1243_78_JaKOBI]]/URI$ вычисляіотся, напр., по URI[[http://libmeta.ru/me/relation/1243_5_JaKOBI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1243_79_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_80_JaKOBI]]/URI$, и далее $URI[[http://libmeta.ru/me/formula/aux/1243_81_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_82_JaKOBI]]/URI$. URI[[http://libmeta.ru/me/relation/1243_4_JaKOBI]]/URI теперь ппределяются по URI[[http://libmeta.ru/me/relation/1243_3_JaKOBI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1243_83_JaKOBI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1243_84_JaKOBI]]/URI$, что и дает возможность URI[[http://libmeta.ru/me/relation/1243_2_JaKOBI]]/URI все остальные величины, относяшиеся к URI[[http://libmeta.ru/me/relation/1243_1_JaKOBI]]/URI. Џункциям Вейерштрасса.</text>
+  <text_orig>эллиптические функции, возникпие при непосредственном обращении әллиптических интегралов в нормальной форме Лежандра. Эта задача обращения была решена в 1827 независимо К. Якоби (С. Јасobi) и, в несколько иной форме, Н, Абелем (N. Abel). Конструкция Якоби основывается на применении тета-функций.
+
+Пусть $\tau-$ комплексное тисло с $\operatorname{Im} \tau&gt;0$. Тета-функции Якоби $\vartheta_{0}(v), \vartheta_{1}(v), \vartheta_{2}(v), \vartheta_{3}(v)$ прөдставляют собой следующие ряды, абсолютно и равномерно сходящиеся на компактах плоскости комплексного переменного $v$ : $\vartheta_{0}(v)=\vartheta_{0}(v ; \tau)=\sum_{m=-\infty}^{\infty}(-1)^{m} e^{i \pi m^{2} \tau} e^{2 i \pi m v}=$
+
+\[
+=1+2 \sum_{m=1}^{\infty}(-1)^{m} e^{i \pi m^{2} \tau} \cos (2 \pi m v) \text {; }
+\]
+
+$\vartheta_{1}(v)=\vartheta_{1}(v ; \tau)=$
+
+$=i \sum_{m=-\infty}^{\infty}(-1)^{m} e^{i \pi\left(\frac{2 m-1}{2}\right)^{2} \tau} e^{(2 m-1) i \pi v}=$
+
+\[
+=2 \sum_{m=0}^{\infty}(-1)^{m} e^{i \pi\left(\frac{2 m+1}{2}\right)^{2} \tau} \sin [(2 m+1) \pi v] ;
+\]
+
+$\vartheta_{2}(v)=\vartheta_{2}(v ; \tau)=\sum_{m=-\infty}^{\infty} e^{i \pi\left(\frac{2 m-1}{2}\right)^{2} \tau} e^{(2 m-1) i \pi v}=$
+
+\[
+=2 \sum_{m=0}^{\infty} e^{i \pi\left(\frac{2 m+1}{2}\right)^{2} \tau} \cos [(2 m+1) \pi v] ;
+\]
+
+$\vartheta_{3}(v)=\vartheta_{3}(v ; \tau)=\sum_{m=-\infty}^{\infty} e^{i \pi m^{2} \tau} e^{2 i \pi m v}=$
+
+\[
+=1+2 \sum_{m=1}^{\infty} e^{i \pi m^{2} \tau} \cos (2 \pi m v) .
+\]
+
+Эти ряды достаточно быстро сходятся. Обозначения $\vartheta_{0}(v), \vartheta_{1}(v), \vartheta_{2}(v), \vartheta_{3}(v)$ восходят к К. Вейерштрассу (K. Weierstrass). Вместо $\vartheta_{0}(v)$ часто пипут $\vartheta_{4}(v)$, имеются и другие системы обозначений. Сам $\mathrm{K}$. Якоби применял обозначения: $\quad \Theta(v)=\vartheta_{0}(v / 2 K), \quad H(v)=\vartheta_{1}(v / 2 K)$, $H_{1}(v)=\vartheta_{2}(v / 2 K), \quad \Theta_{1}(v)=\vartheta_{3}(v / 2 K), \quad$ где $K=\pi \vartheta_{3}^{2}(0) / 2$.
+
+Все тета-функции Якоби представляют собой целые трансцендентные функции комплексного переменного $v$, причем $\vartheta_{1}(v)$ - нечетная функция, а остальные функции $\vartheta_{0}(v), \vartheta_{2}(v), \vartheta_{3}(v)$ четные.
+
+Имеют место следующие с о о т н ш е н и я п ер и о д и ч н о с т и:
+
+\[
+\begin{aligned}
+&amp; \vartheta_{0}(v \pm 1)=\vartheta_{0}(v), \\
+&amp; \vartheta_{0}(v \pm \tau)=-e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{0}(v) ; \\
+&amp; \vartheta_{1}(v \pm 1)=-\vartheta_{1}(v), \\
+&amp; \vartheta_{1}(v \pm \tau)=-e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{1}(v) ; \\
+&amp; \vartheta_{2}(v \pm 1)=-\vartheta_{2}(v), \\
+&amp; \vartheta_{2}(v \pm \tau)=e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{2}(v) ; \\
+&amp; \vartheta_{3}(v \pm 1)=\vartheta_{3}(v), \\
+&amp; \vartheta_{3}(v \pm \tau)=e^{-i \pi \tau} \cdot e^{\mp 2 i \pi v} \cdot \vartheta_{3}(v),
+\end{aligned}
+\]
+
+из к-рых вытекает, что тета-функции являются эллиптич. функциями III рода по Эрмиту.
+
+Различные тета-функции связаны между собой ф о рм улами п р е о б р а з о в а ия:
+
+\[
+\begin{aligned}
+&amp; \vartheta_{0}\left(v \pm \frac{1}{2}\right)=\vartheta_{3}(v) \\
+&amp; \vartheta_{0}\left(v \pm \frac{1}{2} \tau\right)= \pm i e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{1}(v) \\
+&amp; \vartheta_{i}\left(v \pm \frac{1}{2}\right)= \pm \vartheta_{2}(v), \\
+&amp; \vartheta_{1}\left(v \pm \frac{1}{2} \tau\right)= \pm i e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{0}(v) \\
+&amp; \vartheta_{2}\left(v \pm \frac{1}{2}\right)=\mp \vartheta_{1}(v), \\
+&amp; \vartheta_{2}\left(v \pm \frac{1}{2} \tau\right)=e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{3}(v) \\
+&amp; \vartheta_{3}\left(v \pm \frac{1}{2}\right)=\vartheta_{0}(v), \\
+&amp; \vartheta_{3}\left(v \pm \frac{1}{2} \tau\right)=e^{-\frac{1}{4} i \pi \tau} \cdot e^{\mp i \pi v} \cdot \vartheta_{2}(v)
+\end{aligned}
+\]
+
+Bсе четыре тета-функции удовлетворяют одному и тому жө дифференциальному уравнению
+
+\[
+\frac{\partial^{2} \vartheta}{\partial v^{2}}=4 i \pi \frac{\partial \vartheta}{\partial \tau}
+\]
+
+Важное значение имеют так наз. н у л е в ы е 3 н ачени и т е т а - ф у н к ц и й $\vartheta_{0}(0), \vartheta_{1}^{\prime}(0), \vartheta_{2}(0), \vartheta_{3}(0)$; при этом $\vartheta_{1}(0)=0$. Между ними имеются следующие соотношения:
+
+\[
+\vartheta_{1}^{\prime}(0)=\pi \vartheta_{0}(0) \vartheta_{2}(0) \vartheta_{3}(0), \quad \vartheta_{3}^{4}(0)=\vartheta_{0}^{4}(0)+\vartheta_{2}^{4}(0) .
+\]
+
+По отдельности
+
+\[
+\begin{gathered}
+\vartheta_{0}(0)=H_{0} H_{3}^{2}, \quad \vartheta_{2}(0)=2 e^{\frac{1}{4} i \pi \tau} H_{0} H_{1}^{2}, \\
+\vartheta_{3}(0)=H_{0} H_{2}^{2}, \quad \vartheta_{1}^{\prime}(0)=2 \pi e^{\frac{1}{4} i \pi \tau} H_{0}^{3}
+\end{gathered}
+\]
+
+где
+
+\[
+\begin{aligned}
+&amp; H_{0}=\prod_{m=1}^{\infty}\left(1-e^{2 i \pi m \tau}\right), \\
+&amp; H_{1}=\prod_{m=1}^{\infty}\left(1+e^{2 i \pi m \tau}\right), \\
+&amp; H_{2}=\prod_{m=1}^{\infty}\left(1+e^{(2 m-1) i \pi \tau}\right), \\
+&amp; H_{3}=\prod_{m=1}^{\infty}\left(1-e^{(2 m-1) i \pi \tau}\right), \\
+&amp; H_{1} H_{2} H_{3}=1
+\end{aligned}
+\]
+
+Функция $\vartheta_{0}(v)$ имеет простые нули в точках $m+$ $+\left(n-\frac{1}{2}\right) \tau ; \vartheta_{1}(v)$ - в точках $m+n \tau ; \vartheta_{2}(v)-$ в точках $m-\frac{1}{2}+n \tau ; \quad \vartheta_{3}(v)-\mathbf{\text { в }}$ точках $\quad m-\frac{1}{2}+\left(n-\frac{1}{2}\right) \tau ;$ $m, n=0, \pm 1, \ldots$
+
+Из соотношений периодичности видно, что нек-рые отношения тета-функций будут эллиптич. Функциями в собственном смысле. О с н о вны е ә л л и п т ич е с ки е ф у нг ци и Я к о б и- $\operatorname{sn} u(c u н y c a m-$ плитуды), спи (косинус амплитуды) и $\operatorname{dn} u$ (дельта амплитудыс). Эти обозначения введены Х. Гудерманом (Ch. Gudermann, 1838). Названия происходят от старых обозначений, введенных самим $\mathrm{K}$. Якоби (sn $u=$ $=\sin \operatorname{am} u, \quad \operatorname{cn} u=\cos \operatorname{am} u, \operatorname{dn} u=\Delta \operatorname{am} u)$ и позднее вышедших из употребления.
+
+Новое переменное $u$ связано с $v$ соотношением $u=$ $=v \cdot \pi \vartheta_{3}^{2}(0)$. Если $k=\vartheta_{2}^{2}(0) / \vartheta_{3}^{2}(0)-$ м о д у л ь э л ли пт и ч е с к и х ф у к ц и й, то Я. э. ф. следующим образом выражаются через тета-функции или посредством сходящихся в окрестности начала стешенных рядов:
+
+$\operatorname{sn} u=\operatorname{sn}(u ; k)=\frac{\vartheta_{3}(0)}{\vartheta_{2}(0)} \frac{\vartheta_{1}(v)}{\vartheta_{0}(v)}=$
+
+$=u-\left(1+k^{2}\right) \frac{u^{3}}{3 !}+\left(1+14 k^{2}+k^{4}\right) \frac{u^{5}}{5 !}-\ldots$,
+
+$\operatorname{cn} u=\operatorname{cn}(u ; k)=\frac{\vartheta_{0}(0)}{\vartheta_{2}(0)} \frac{\vartheta_{2}(v)}{\vartheta_{0}(v)}=$
+
+$=1-\frac{u^{2}}{2 !}+\left(1+4 k^{2}\right) \frac{u^{4}}{4 !}-\left(1+44 k^{2}+16 k^{4}\right) \frac{u^{6}}{6 !}+\ldots$,
+
+$\operatorname{dn} u=\operatorname{dn}(u ; k)=\frac{\vartheta_{0}(0)}{\vartheta_{3}(0)} \frac{\vartheta_{3}(v)}{\vartheta_{0}(v)}=$
+
+$=1-k^{2} \frac{u^{2}}{2 !}+k^{2}\left(4+k^{2}\right) \frac{u^{4}}{4 !}-k^{2}\left(16+44 k^{2}+k^{4}\right) \frac{u^{6}}{6 !}+\ldots$
+
+Удобные обозначения для обратных величин и отношений были введены Дж. Глейшером (J. Glaisher, 1882):
+
+\[
+\begin{aligned}
+\operatorname{ns} u=\frac{1}{\operatorname{sn} u}, &amp; \text { nc } u=\frac{1}{\operatorname{cn} u}, \quad \text { nd } u=\frac{1}{\operatorname{dn} u}, \\
+\operatorname{cs} u=\frac{\operatorname{cn} u}{\operatorname{sn} u}, &amp; \operatorname{ds} u=\frac{\operatorname{dn} u}{\operatorname{sn} u}, \quad \operatorname{dc} u=\frac{\operatorname{dn} u}{\operatorname{cn} u}, \\
+\operatorname{sc} u=\frac{\operatorname{sn} u}{\operatorname{cn} u}, &amp; \text { sd } u=\frac{\operatorname{sn} u}{\operatorname{dn} u}, \quad \operatorname{cd} u=\frac{\operatorname{cn} u}{\operatorname{dn} u} .
+\end{aligned}
+\]
+
+Я. ә. Ф. $\operatorname{sn} u, \operatorname{cn} u, \operatorname{dn} u$ являются эллиптич. функциями 2-го порядка с периодами: $4 K$ и $2 i K^{\prime}$ для $\operatorname{sn} u ; 4 K$ и $2\left(K+i K^{\prime}\right)$ для $\operatorname{cn} u ; 2 K$ и $4 i K^{\prime}$ для $\operatorname{dn} u$. Здесь $K=$ $=K(k)=\pi \vartheta_{3}^{2}(0) / 2, \quad K^{\prime}=K\left(k^{\prime}\right)=-i \tau K-$ значения полных эллиптич. интегралов I рода, $k^{\prime}=\sqrt{1-k^{2}}-$ д ополните льны й модуль эл липти ч ес к и х ф у нк ц и й. Я. ә. ф. имеют только простые полюсы, расположенные в точках $2 m K+(2 n+1) i K^{\prime}$;
+
+Три Я. э. ф. связаны соотнотениями:
+
+\[
+\begin{gathered}
+\operatorname{sn}^{2} u+\operatorname{cn}^{2} u=1, \\
+\operatorname{dn}^{2} u+k^{2} \operatorname{sn}^{2} u=1, \\
+\operatorname{dn}^{2} u-k^{2} \operatorname{cn}^{2} u=1-k^{2}=k^{\prime 2} \\
+\frac{d}{d u} \operatorname{sn} u=\operatorname{cn} u \cdot \operatorname{dn} u \\
+\frac{d}{d u} \operatorname{cn} u=-\operatorname{sn} u \cdot \operatorname{dn} u, \\
+\frac{d}{d u} \operatorname{dn} u=-k^{2} \operatorname{sn} u \cdot \operatorname{cn} u
+\end{gathered}
+\]
+
+и дифференциальными уравнениями
+
+\[
+\begin{gathered}
+\left(\frac{d}{d u} \operatorname{sn} u\right)^{2}=\left(1-\operatorname{sn}^{2} u\right)\left(1-k^{2} \operatorname{sn}^{2} u\right), \\
+\left(\frac{d}{d u} \operatorname{cn} u\right)^{2}=\left(1-\operatorname{cn}^{2} u\right)\left(k^{\prime 2}+k^{2} \operatorname{cn}^{2} u\right), \\
+\left(\frac{d}{d u} \operatorname{dn} u\right)^{2}=\left(1-\operatorname{dn}^{2} u\right)\left(\operatorname{dn}^{2} u-k^{\prime 2}\right) .
+\end{gathered}
+\] Т е о ре м ы с л ж е н и д для Я. э. ф. имеют вид: $\operatorname{sD}\left(u_{1}+u_{2}\right)=\frac{\operatorname{sn} u_{1} \cdot \operatorname{cn} u_{2} \cdot \operatorname{dn} u_{2}+\operatorname{sn} u_{2} \cdot \operatorname{cn} u_{1} \cdot \operatorname{dn} u_{1}}{1-R^{2} \operatorname{sn}^{2} u_{1} \cdot \operatorname{sn}^{2} u_{2}}$, $\operatorname{cn}\left(u_{1}+u_{2}\right)=\frac{\operatorname{cn} u_{1} \cdot \operatorname{cn} u_{2}-\operatorname{sn} u_{1} \cdot \operatorname{dn} u_{1} \cdot \operatorname{sn} u_{2} \cdot \operatorname{dn} u_{2}}{1-k^{2} \operatorname{sn}^{2} u_{1} \cdot \operatorname{sn}^{2} u_{2}}$, $\operatorname{dn}\left(u_{1}+u_{2}\right)=\frac{\operatorname{dn} u_{1} \cdot \operatorname{dn} u_{2}-k^{2} \operatorname{sn} u_{1} \cdot \operatorname{cn} u_{1} \cdot \operatorname{sn} u_{2} \cdot \operatorname{cn} u_{2}}{1-k^{2} \operatorname{sn}^{2} u_{1} \cdot \operatorname{sn}^{2} u_{2}}$.
+
+Связь Я. э. Ф. с эллиптич. интетралами выражается в том, что если
+
+\[
+u=\int_{0}^{z} \frac{d t}{\sqrt{\left(1-t^{2}\right)\left(1-k^{2} t^{2}\right)}}=\int_{0}^{\varphi} \frac{d s}{\sqrt{1-k^{2} \sin ^{2} s}}
+\]
+
+- эллиптич. интеграл I рода в нормальной форме Лежандра, то его обральение имеет вид $z=\mathrm{sn} u$; в әтом и состоял исходный пункт теории Якоби. Переменная $\uparrow=a m u$ есть бесконечнозначная фуункция от $u$ и наз. а м плитудой эллипти ческаго интег р а л a
+
+\[
+\begin{gathered}
+\operatorname{cn} u=\sqrt{1-\operatorname{sn}^{2} u}=\cos \operatorname{am} u, \\
+\operatorname{dn} u=\sqrt{1-k^{2} \operatorname{sn}^{2} u}=\sqrt{1-k^{2} \sin ^{2} \operatorname{am} u} .
+\end{gathered}
+\]
+
+Основные соотнопения между постоянными:
+
+\[
+\begin{gathered}
+K=K(k)=\frac{1}{2} \pi \vartheta_{3}^{2}(0 ; \tau), \quad K^{\prime}=K\left(k^{\prime}\right), \\
+\tau K=i K^{\prime}, k=\frac{\vartheta_{2}^{2}(0)}{\vartheta_{3}^{2}(0)}, k^{\prime}=\frac{\vartheta_{0}^{2}(0)}{\vartheta_{3}^{2}(0)} .
+\end{gathered}
+\]
+
+В прикладных задачах обычно задан модуль $k$, причем чапе всето имеет место так наз. н о р м а л ь вы й c. л у ч a ï $0&lt;k&lt;1$, или задан дополнительныӥ модуль $k^{\prime}=\sqrt{1-k^{2}}, 0&lt;k^{\prime}&lt;1$. Требуется найти $K, K^{\prime}, \tau$ или $q=e^{i \pi \tau}$. Полагая $2 \varepsilon=\left(1-\sqrt{k^{\prime}}\right) /\left(1+\sqrt{k^{\prime}}\right)$, при $0&lt;k&lt;1$ имеем $0&lt;\varepsilon&lt;1 / 2$. Для определения $q$ получается быстро сходящийся при $0&lt;\varepsilon&lt;1 / 2$ ряп
+
+\[
+q=e^{i \pi \tau}=\varepsilon+2 \varepsilon^{5}+15 \varepsilon^{9}+150 \varepsilon^{13}+O\left(\varepsilon^{17}\right) .
+\]
+
+Звачения шолных эллиптич. интегралов $K$ и $K^{\prime}$ определяются по формулам
+
+\[
+\begin{gathered}
+K=\frac{1}{2} \pi \vartheta_{3}^{2}(0 ; \tau)=\frac{\pi}{2}\left\{1+2 \sum_{m=1}^{\infty} q^{m^{2}}\right\}, \\
+K^{\prime}=\frac{1}{\pi} K \ln \left(\frac{1}{q}\right),
+\end{gathered}
+\]
+
+цли при помоцц таблиц.
+
+При $k=0$ и $k=1$ Я. ә. ф. вырождалотся соответственно в тригонометрич. и гитерболич. функции:
+
+\[
+\begin{gathered}
+\text { sn }(u ; 0)=\sin u, \quad \text { cn }(u ; 0)=\cos u, \\
+\operatorname{dn}(u ; 0)=1 ; \quad \operatorname{sn}(u ; 1)=\operatorname{th} u, \\
+\operatorname{cn}(u ; 1)=\operatorname{dn}(u ; 1)=1 / \operatorname{ch} u .
+\end{gathered}
+\]
+
+В теоретич. отнопении более простое построение теории әллиттич. функциї дано К. Вейерштрассом в 1862-63 (см. Ветерит расса эллиптические финкиии). При ваданном модуле $k, 0&lt;k&lt;1$, инвариан'ты Вейерштрасса $e_{1}, e_{2}, e_{3}$ вычисляіотся, напр., по формулам $e_{1}=$ $=\left(2-k^{2}\right) / 3, e_{2}=\left(2 k^{2}-1\right) / 3, e_{3}=-\left(1+k^{2}\right) / 3$, и далее $g_{2}=$ $=-4\left(e_{1} e_{2}+e_{2} e_{3}+e_{3} e_{1}\right), g_{3}=4 e_{1} e_{2} e_{3}$. Полупериоды теперь ппределяются по формулам $\omega_{1}=K / \sqrt{e_{1}-e_{3}}, \quad \omega_{3}=$ $=i K^{\prime} / \sqrt{e_{1}-e_{3}}$, что и дает возможность вычислить все остальные величины, относяшиеся к эллиптич. Џункциям Вейерштрасса.
+
+Jum.: [1] J a c o b i C., Fundamenta nova theoriae functionum ellipticarum, Königsberg, 1829; Gesammelte Werke, Bd 1, B., $1881 ;$ 22] А х и е з е $p$ Н. И., Элемепты теории эллиптитеских
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_530abca183dd74cf40f6g-1.jpg?height=38&amp;width=807&amp;top_left_y=2158&amp;top_left_x=141)
+В а т с о Н Д ж. Н., Курс современного анализа, пер. с англ., 2 ıвд., ч, 2, M., 1963 ; L5] E n n e p e r A., Elliptische Funktionen. Theorie und Geschichte, 2 Aufl., Halle / Saale, 1890; [6] T a nn e r y J., M $01 \mathrm{k}$ J., Ejéments de la théorie des fonctions elliptiques, t. 1-4, P., 1893-1902; [7] Ж у р а в с к и й А. М., Справочник по эллиптическим функциям, М.-- Л., 1941; [8] Ф н к е Е., Э м д е Ф., Л ё ші Ф., Специальные Функции
+Формулы, графики,таблицы, пер. с пем., 3 изд., I., 1977.</text_orig>
+</article>

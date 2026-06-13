@@ -1,0 +1,625 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/329_LINEINAJa" alphabetic_pos="329">
+  <title>ЛИНЕИНАЯ КРАЕВАЯ ЗАДАЧА</title>
+  <authors>
+    <author>А. Ф. Шапкин</author>
+  </authors>
+  <pages>
+    <start>153</start>
+    <end>155</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б Б б у ушк а И., В и т а с е к Э., П р аr e p M., Численные пропессы решения дифференциальных уравнений, пер. с англ., М., 1969; [2] Б а х в а Ј о в Н. С., Кіонспекты по курсу “основы вычислительной математики», ч. 4, М., 1968; [3] е г о же е, Численные методы, 2 изд., М., 1975; [4] В а p r a Р., Функциональный анализ и теория аппрокси-мации в численном анализе, пер. с англ., М., 1974; [5] Г а в у-![](https://cdn.mathpix.com/cropped/2023_07_08_6180943d5a198b634764g-1.jpg?height=40&amp;width=828&amp;top_left_y=1099&amp;top_left_x=122)р и н М. К., Ј. Кции по методам вычислений, М., 1971; [6] 2 изд., М., 1977; [7]' Д ь я к о н о в Е. Г., Разностные методы решения краевых задач, в. $1-2$, М., $1971-72$; [8] К а н т о р oв и ч Л. В., А К и ло о в $\gamma$. П., ной математики, 2 изд., М., 1980 ; [i0] М и х ли н С. $\gamma$. л и ц к и й X. Л., Приближенные методы решения диффференциальных и интегральных уравнений, М., 1965; [11] Р и х тма йе p Р. Д., М М р т о н K., Разностные методы решения краевых задач, [пер. с англ.], М., 1972; [12] Р я б е н ь к и й В. С., Фи ли пп о в А. Ф., Об устойчивости разностных уравнений, М., 1956; [13] С а м а р с к и й А. А., Теория разносте в Е. С., Методы решения сеточных иравнений, М.</literature_orig>
+    <unit>
+      <author>ББбуушка И.</author>
+      <author>Витасек Э.</author>
+      <author>Праrep M.</author>
+      <title>Численные пропессы решения дифференциальных уравнений</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>БахваЈов Н. С.</author>
+      <title>Кіонспекты по курсу “основы вычислительной математики», ч. 4</title>
+      <publication>М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>е г о же е, Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Ваpra Р.</author>
+      <title>Функциональный анализ и теория аппрокси-мации в численном анализе</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гаву-![](https://cdn.mathpix.com/cropped/2023_07_08_6180943d5a198b634764g-1.jpg?height=40&amp;width=828&amp;top_left_y=1099&amp;top_left_x=122)рин М. К.</author>
+      <title>Ј. Кции по методам вычислений</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>2 изд.</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>'Дьяконов Е. Г.</author>
+      <title>Разностные методы решения краевых задач, в. $1-2$</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Канторoвич Л. В.</author>
+      <author>АКилоов$\gamma$. П.</author>
+      <title>ной математики</title>
+      <publication>2 изд., М.</publication>
+      <year>1980</year>
+      <other>Приближенные методы решения диффференциальных и интегральных уравнений, М., 1965; [11] Р и х тма йе p Р. Д., М М р т о н K., Разностные методы решения краевых задач, [пер. с англ.], М., 1972; [12] Р я б е н ь к и й В. С., Фи ли пп о в А. Ф., Об устойчивости разностных уравнений, М., 1956; [13] С а м а р с к и й А. А., Теория разносте в Е. С., Методы решения сеточных иравнений, М.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/329_1_LINEINAJa">L u=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_2_LINEINAJa">l_{i} u=\varphi_{i} \text { на } \Gamma_{i}, \quad i=1,2, \ldots, s .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_3_LINEINAJa">\begin{gathered}L_{h} u_{h}=P_{h} f, \\l_{i h} u_{h}=p_{i h} \varphi_{i} \text { на } \Gamma_{i h}, i=1,2, \ldots, s,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_4_LINEINAJa">\begin{gathered}\left\|[u]_{h}\right\|_{\mathrm{U}_{h}} \longrightarrow\|u\| \mathrm{U},\left\|\{f\}_{h}\right\|_{F_{h}} \rightarrow\|f\|_{F}, \\\left\|\left\{\varphi_{i}\right\}_{i h}\right\|_{\Phi_{i h}} \longrightarrow\left\|\varphi_{i}\right\|_{\Phi_{i}}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_5_LINEINAJa">\begin{gathered}z(h)=\left\|L_{h}[u]_{h}-\{L u\}\right\|_{F_{h}}+\left\|P_{h} f-\{f\}_{h}\right\|_{F_{h}}+ \\+\sum_{i=1}^{s}\left\|l_{i h}[u]_{h}-\left\{l_{i} u\right\}_{h}\right\|_{\Phi_{i h}}+\left\|P_{i h} \varphi_{i}-\left\{\varphi_{i}\right\}_{i h}\right\|_{\Phi_{i h}}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_6_LINEINAJa">\rho(h)=\left\|L_{h}[u]_{h}-P_{h} f\right\|_{F_{h}}+\sum_{i=1}^{s}\left\|l_{i h}[u]_{h}-p_{i h} \varphi_{i}\right\|_{P_{i h}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_7_LINEINAJa">L u=\frac{\partial u}{\partial t}-\frac{\partial^{2} u}{\partial x^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_8_LINEINAJa">\|f\|_{F}=\sup _{D}|f(t, x)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_9_LINEINAJa">\begin{gathered}L_{h} u_{h}(t, x)=\frac{1}{\tau}\left[u_{h}\left(t+\frac{\tau}{2}, x\right)-u_{h}\left(t-\frac{\tau}{2}, x\right)\right]- \\-\frac{1}{2 h^{2}}\left[u_{h}\left(t+\frac{\tau}{2}, x+h\right)-2 u_{h}\left(t+\frac{\tau}{2}, x\right)+\right. \\\left.+u_{h}\left(t+\frac{\tau}{2}, x-h\right)\right]-\frac{1}{2 h^{2}}\left[u_{h}\left(t-\frac{\tau}{2}, x+h\right)-\right. \\\left.\quad-2 u_{h}\left(t-\frac{\tau}{2}, x\right)+u_{h}\left(t-\frac{\tau}{2}, x-h\right)\right]\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_10_LINEINAJa">\begin{gathered}P_{h} f=\{f\}_{h} \\\left(\text { или } P_{h} f(t, x)=\int_{x-h}^{x+h} f(t, \xi) d \xi\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_11_LINEINAJa">\left\|\varphi_{1 h}\right\|_{\Phi_{1 h}}=\sup _{\boldsymbol{\Gamma}_{1 h}}\left|\varphi_{1 h}(x)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_12_LINEINAJa">l_{1 h} u_{h}(x)=u_{h}(0, x), \quad p_{1 h} \varphi_{1}=\left\{\varphi_{1}\right\}_{1 h} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_13_LINEINAJa">\left\|\varphi_{2 h}\right\|_{\Phi_{2 h}}=\sup _{\Gamma_{2 h}}\left|\varphi_{2 h}(t)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_14_LINEINAJa">l_{2 h} u_{h}(t)=\frac{1}{2 h}\left[u_{h}(t, h)-u_{h}(t,-h)\right],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_15_LINEINAJa">z(h)=\left\|L_{h}[u]_{h}-\{L u\}_{h}\right\|_{F_{h}}+\left\|l_{2 h}[u]_{h}-\left\{l_{2} u\right\}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_16_LINEINAJa">\begin{gathered}L_{h} u_{h}=f_{h}, \\l_{i h} u_{h}=\varphi_{i h} \text { на } \Gamma_{i h}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_17_LINEINAJa">\left\|u_{h}\right\|_{U_{h}} \leqslant \psi\left(\left\|L_{h} u_{h}\right\|_{F_{h}}+\sum_{i=1}^{s}\left\|l_{i h} u_{h}\right\|_{\Phi_{i h}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_18_LINEINAJa">\left\|u_{h}-[u]_{h}\right\|_{U_{h}} \leqslant \psi(\rho(h))</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_19_LINEINAJa">\left\|u_{h}-[u]_{h}\right\|_{U_{h}} \longrightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_20_LINEINAJa">\|u\|_{U} \leqslant \psi\left(\|L u\|_{F}+\sum_{i=1}^{s}\left\|l_{i} u\right\|_{\Phi_{i}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_21_LINEINAJa">\left\|[u]_{h}-u_{h}-h^{\nu}[z]_{h}\right\|_{U_{h}}=o\left(h^{\nu}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/329_22_LINEINAJa">[z]_{h} \sim\left(u_{h}-u_{H}\right) /\left(H^{\nu}-h^{\nu}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_1_LINEINAJa">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_2_LINEINAJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_3_LINEINAJa">\gamma_{i},-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_4_LINEINAJa">f, \varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_5_LINEINAJa">f, \Phi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_6_LINEINAJa">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_7_LINEINAJa">l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_8_LINEINAJa">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_9_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_10_LINEINAJa">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_11_LINEINAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_12_LINEINAJa">\phi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_13_LINEINAJa">d_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_14_LINEINAJa">d_{h}^{0} \subset D</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_15_LINEINAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_16_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_17_LINEINAJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_18_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_19_LINEINAJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_20_LINEINAJa">d_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_21_LINEINAJa">d_{h}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_22_LINEINAJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_23_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_24_LINEINAJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_25_LINEINAJa">\gamma_{i h} \subset \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_26_LINEINAJa">\phi_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_27_LINEINAJa">\varphi_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_28_LINEINAJa">\gamma_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_29_LINEINAJa">l_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_30_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_31_LINEINAJa">\phi_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_32_LINEINAJa">p_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_33_LINEINAJa">p_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_34_LINEINAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_35_LINEINAJa">\phi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_36_LINEINAJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_37_LINEINAJa">\phi_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_38_LINEINAJa">[u]_{h},\{f\}_{h},\left\{\varphi_{i}\right\}_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_39_LINEINAJa">u, f, \varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_40_LINEINAJa">u, F, \Phi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_41_LINEINAJa">d_{h}, D_{h}^{0}, \Gamma_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_42_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_43_LINEINAJa">\kappa</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_44_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_45_LINEINAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_46_LINEINAJa">u, F, \Phi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_47_LINEINAJa">u, f, \varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_48_LINEINAJa">u \in W, f^{*} \in F, \varphi_{i} \in \Phi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_49_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_50_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_51_LINEINAJa">\boldsymbol{z}(h) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_52_LINEINAJa">\rho(h) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_53_LINEINAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_54_LINEINAJa">z(h)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_55_LINEINAJa">\rho(h)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_56_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_57_LINEINAJa">\boldsymbol{d}(x \geqslant 0, t \geqslant 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_58_LINEINAJa">l_{1} u=\varphi_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_59_LINEINAJa">\gamma_{1}(t=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_60_LINEINAJa">x \geqslant 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_61_LINEINAJa">l_{2} u=\varphi_{2}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_62_LINEINAJa">\gamma_{2}(x=0, t \geqslant 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_63_LINEINAJa">l_{1} u=u, l_{2} u=\partial u / \partial x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_64_LINEINAJa">\varphi_{1}^{\prime}(0)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_65_LINEINAJa">=\varphi_{2}(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_66_LINEINAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_67_LINEINAJa">f(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_68_LINEINAJa">\phi_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_69_LINEINAJa">\phi_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_70_LINEINAJa">\varphi_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_71_LINEINAJa">\varphi_{2}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_72_LINEINAJa">\left\|\varphi_{1}\right\|_{\phi_{1}}=\sup _{\Gamma_{1}}\left|\varphi_{1}(x)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_73_LINEINAJa">\left\|\varphi_{2}\right\|_{\phi_{2}}=\sup _{\Gamma_{2}}\left|\varphi_{2}(t)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_74_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_75_LINEINAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_76_LINEINAJa">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_77_LINEINAJa">u \in U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_78_LINEINAJa">\partial u / \partial t, \partial u / \partial x, \partial^{2} u / \partial x^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_79_LINEINAJa">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_80_LINEINAJa">d_{h}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_81_LINEINAJa">(n \tau, m h), n=0,1,2, \ldots ; m=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_82_LINEINAJa">=-1,0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_83_LINEINAJa">\tau=\tau(h)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_84_LINEINAJa">\tau \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_85_LINEINAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_86_LINEINAJa">d_{h}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_87_LINEINAJa">((n+1 / 2) \tau, m h), n=0,1,2, \ldots ; m=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_88_LINEINAJa">f_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_89_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_90_LINEINAJa">f_{h}(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_91_LINEINAJa">u_{h}(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_92_LINEINAJa">\left\|f_{h}\right\|_{f_{h}}=\sup _{D_{h}^{0}}\left|f_{h}(t, x)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_93_LINEINAJa">\left\|u_{h}\right\|_{u_{h}}=\sup _{D_{h}}\left|u_{h}(t, x)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_94_LINEINAJa">l_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_95_LINEINAJa">\gamma_{1 h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_96_LINEINAJa">(0, m h), m=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_97_LINEINAJa">\phi_{1 h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_98_LINEINAJa">\varphi_{1 h}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_99_LINEINAJa">\gamma_{2 h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_100_LINEINAJa">(n \tau, 0), n=0,1,2, \ldots ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_101_LINEINAJa">\phi_{2 h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_102_LINEINAJa">\varphi_{2 h}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_103_LINEINAJa">l_{2 h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_104_LINEINAJa">p_{2 h} \varphi_{2}=\left\{\varphi_{2}\right\}_{2 h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_105_LINEINAJa">z(h) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_106_LINEINAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_107_LINEINAJa">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_108_LINEINAJa">u \in U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_109_LINEINAJa">\partial^{2} u / \partial t^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_110_LINEINAJa">\partial^{4} u / \partial x^{4}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_111_LINEINAJa">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_112_LINEINAJa">\tau=h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_113_LINEINAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_114_LINEINAJa">f_{h} \in F_{h}, \varphi_{i h} \in \Phi_{i h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_115_LINEINAJa">\psi(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_116_LINEINAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_117_LINEINAJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_118_LINEINAJa">u_{h} \in U_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_119_LINEINAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_120_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_121_LINEINAJa">\left(3^{\prime}\right),\left(4^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_122_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_123_LINEINAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_124_LINEINAJa">z(h) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_125_LINEINAJa">u_{h}=[u]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_126_LINEINAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_127_LINEINAJa">u \in W</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_128_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_129_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_130_LINEINAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_131_LINEINAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_132_LINEINAJa">\psi(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_133_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_134_LINEINAJa">u_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_135_LINEINAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_136_LINEINAJa">h v[z]_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_137_LINEINAJa">\gamma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_138_LINEINAJa">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_139_LINEINAJa">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/329_140_LINEINAJa">u_{h}</formula>
+  </formulas_aux>
+  <relations n="9">
+    <relation uri="http://libmeta.ru/me/relation/329_1_LINEINAJa">
+      <rel_text>выборе</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_2_LINEINAJa">
+      <rel_text>предоставляет</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_3_LINEINAJa">
+      <rel_text>сходимость</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_4_LINEINAJa">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_5_LINEINAJa">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_6_LINEINAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_7_LINEINAJa">
+      <rel_text>проекционного метода</rel_text>
+      <target>http://libmeta.ru/me/article/705_PROEKTsIONNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_8_LINEINAJa">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/329_9_LINEINAJa">
+      <rel_text>выборе</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+  </relations>
+  <text>ч и с Л е н Н Ы е ме то д ы р е ше ни я - методы, позволяюшие получить решение Л. к. 3. в виде таблицы его приближенных значений в точках сетки, не используя предварительной информации об ожидаемом виде решшения. Для теории этих методов типично предположение о том, что решение исходной задачи существует и имеет достаточное число производных. Благодаря отсут- ствию других предположений численные методы отличаются своей универсальностью.
+
+Основой численных методов решения Л. к. з. является замена исходной системы уравнений ее сеточной аппроксимацией. В случае интегро-дифференциальных уравнений такая аппроксимация обычно строится с помощью разностных схем и квадратурных формул. При этом возникают следующие проблемы:
+
+1) насколько быстро точное решение сеточной задачи сходится к решению исходной задачи при измельчении сетки;
+
+2) насколько решение сеточной задачи чувствительно к изменениям исходных данных;
+
+3) как найти, хотя бы приближенно, решение сеточной задачи.
+
+При решении первой и второй проблем используется следующий аппарат. Пусть в замкнутой области $URI[[http://libmeta.ru/me/formula/aux/329_1_LINEINAJa]]/URI$ задано уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_1_LINEINAJa]]/URI
+\]
+
+а на ее границе $URI[[http://libmeta.ru/me/formula/aux/329_2_LINEINAJa]]/URI$, состоящей из компонент $URI[[http://libmeta.ru/me/formula/aux/329_3_LINEINAJa]]/URI$ граничные условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_2_LINEINAJa]]/URI
+\]
+
+Здесь заданные непрерывные функции $URI[[http://libmeta.ru/me/formula/aux/329_4_LINEINAJa]]/URI$ принадлежат нормированным линейным пространствам $URI[[http://libmeta.ru/me/formula/aux/329_5_LINEINAJa]]/URI$ соответственно, а линейные операторы $URI[[http://libmeta.ru/me/formula/aux/329_6_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_7_LINEINAJa]]/URI$ преобразуют нек-рое линейное подмножество $URI[[http://libmeta.ru/me/formula/aux/329_8_LINEINAJa]]/URI$ нормированного линейного пространства $URI[[http://libmeta.ru/me/formula/aux/329_9_LINEINAJa]]/URI$ функций, непрерывных в $URI[[http://libmeta.ru/me/formula/aux/329_10_LINEINAJa]]/URI$, в $URI[[http://libmeta.ru/me/formula/aux/329_11_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_12_LINEINAJa]]/URI$ соответственно.
+
+Пусть для аппроксимации уравнения (1) выбраны сетки $URI[[http://libmeta.ru/me/formula/aux/329_13_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_14_LINEINAJa]]/URI$, зависящие от положительного параметра $URI[[http://libmeta.ru/me/formula/aux/329_15_LINEINAJa]]/URI$; нормированные линейные пространства $URI[[http://libmeta.ru/me/formula/aux/329_16_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_17_LINEINAJa]]/URI$ функций $URI[[http://libmeta.ru/me/formula/aux/329_18_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_19_LINEINAJa]]/URI$, определенных в точках сеток $URI[[http://libmeta.ru/me/formula/aux/329_20_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_21_LINEINAJa]]/URI$ соответственно, а также линейный оператор $URI[[http://libmeta.ru/me/formula/aux/329_22_LINEINAJa]]/URI$, преобразующий $URI[[http://libmeta.ru/me/formula/aux/329_23_LINEINAJa]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/329_24_LINEINAJa]]/URI$. Для аппроксимации граничного условия (2) выбирается сетка $URI[[http://libmeta.ru/me/formula/aux/329_25_LINEINAJa]]/URI$, нормированное линейное пространство $URI[[http://libmeta.ru/me/formula/aux/329_26_LINEINAJa]]/URI$ Функций $URI[[http://libmeta.ru/me/formula/aux/329_27_LINEINAJa]]/URI$, определенных в точках сетки $URI[[http://libmeta.ru/me/formula/aux/329_28_LINEINAJa]]/URI$, и линейный оператор $URI[[http://libmeta.ru/me/formula/aux/329_29_LINEINAJa]]/URI$, преобразующий $URI[[http://libmeta.ru/me/formula/aux/329_30_LINEINAJa]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/329_31_LINEINAJa]]/URI$. Кроме того, выбираются линейные операторы $URI[[http://libmeta.ru/me/formula/aux/329_32_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_33_LINEINAJa]]/URI$, преобразующие $URI[[http://libmeta.ru/me/formula/aux/329_34_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_35_LINEINAJa]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/329_36_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_37_LINEINAJa]]/URI$ соответственно. В результате получается сеточная а п п р о к и м а ц и я
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_3_LINEINAJa]]/URI
+\]
+
+исходной задачи (1), (2). Пусть через $URI[[http://libmeta.ru/me/formula/aux/329_38_LINEINAJa]]/URI$ обозначены следы функций $URI[[http://libmeta.ru/me/formula/aux/329_39_LINEINAJa]]/URI$ из пространств $URI[[http://libmeta.ru/me/formula/aux/329_40_LINEINAJa]]/URI$ на сетках $URI[[http://libmeta.ru/me/formula/aux/329_41_LINEINAJa]]/URI$ соответственно. Исследование сходимости сеточных аппроксимаций $URI[[http://libmeta.ru/me/formula/aux/329_42_LINEINAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/329_43_LINEINAJa]]/URI$ решению $URI[[http://libmeta.ru/me/formula/aux/329_44_LINEINAJa]]/URI$ исходной задачи при $URI[[http://libmeta.ru/me/formula/aux/329_45_LINEINAJa]]/URI$ имеет смысл производить лишь в сеточных нормах, согласованных с нормами в пространствах $URI[[http://libmeta.ru/me/formula/aux/329_46_LINEINAJa]]/URI$, т. е. при условии, что для любых функций $URI[[http://libmeta.ru/me/formula/aux/329_47_LINEINAJa]]/URI$ выполняются предельные соотношения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_4_LINEINAJa]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/329_48_LINEINAJa]]/URI$, то величина
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_5_LINEINAJa]]/URI
+\]
+
+наз. п о г р е шн о с т ь ю п п р о к с и а ци и задачи (1), (2) задачей (3), (4). Если $URI[[http://libmeta.ru/me/formula/aux/329_49_LINEINAJa]]/URI$ - решение задачи (1), (2), то величина
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_6_LINEINAJa]]/URI
+\] наз. погрешностью аппроксимации на әтом решении. Говорят, что задача (3), (4) аппроксимирует задачу (1), (2) (или аппроксимирует ее на решении $URI[[http://libmeta.ru/me/formula/aux/329_50_LINEINAJa]]/URI$ ), если $URI[[http://libmeta.ru/me/formula/aux/329_51_LINEINAJa]]/URI$ (или $URI[[http://libmeta.ru/me/formula/aux/329_52_LINEINAJa]]/URI$ ) при $URI[[http://libmeta.ru/me/formula/aux/329_53_LINEINAJa]]/URI$. Порядок малости величины $URI[[http://libmeta.ru/me/formula/aux/329_54_LINEINAJa]]/URI$ (или величины $URI[[http://libmeta.ru/me/formula/aux/329_55_LINEINAJa]]/URI$ ) наз. п о р я д к о м а п пр о к с и а ци и (или порядком аппроксимации на ренгении $URI[[http://libmeta.ru/me/formula/aux/329_56_LINEINAJa]]/URI$ ).
+
+Пусть, напр., аппроксимируется уравнение теплопроводности. В квадранте $URI[[http://libmeta.ru/me/formula/aux/329_57_LINEINAJa]]/URI$ решается уравнение (1), где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_7_LINEINAJa]]/URI
+\]
+
+при начальном условии $URI[[http://libmeta.ru/me/formula/aux/329_58_LINEINAJa]]/URI$ на полуоси $URI[[http://libmeta.ru/me/formula/aux/329_59_LINEINAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/329_60_LINEINAJa]]/URI$ и граничном условии $URI[[http://libmeta.ru/me/formula/aux/329_61_LINEINAJa]]/URI$ на полуоси $URI[[http://libmeta.ru/me/formula/aux/329_62_LINEINAJa]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/329_63_LINEINAJa]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/329_64_LINEINAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/329_65_LINEINAJa]]/URI$. В качестве $URI[[http://libmeta.ru/me/formula/aux/329_66_LINEINAJa]]/URI$ берется пространство непрерывных функций $URI[[http://libmeta.ru/me/formula/aux/329_67_LINEINAJa]]/URI$ с нормой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_8_LINEINAJa]]/URI
+\]
+
+а в качестве $URI[[http://libmeta.ru/me/formula/aux/329_68_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_69_LINEINAJa]]/URI$ - пространства непрерывных функций $URI[[http://libmeta.ru/me/formula/aux/329_70_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_71_LINEINAJa]]/URI$ с нормами
+
+$URI[[http://libmeta.ru/me/formula/aux/329_72_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_73_LINEINAJa]]/URI$
+
+соответственно. Пространство $URI[[http://libmeta.ru/me/formula/aux/329_74_LINEINAJa]]/URI$ можно считать совпадающим с $URI[[http://libmeta.ru/me/formula/aux/329_75_LINEINAJa]]/URI$, а в качестве $URI[[http://libmeta.ru/me/formula/aux/329_76_LINEINAJa]]/URI$ берется подмножество функций $URI[[http://libmeta.ru/me/formula/aux/329_77_LINEINAJa]]/URI$, имеющих непрерывные частные производные $URI[[http://libmeta.ru/me/formula/aux/329_78_LINEINAJa]]/URI$ в области $URI[[http://libmeta.ru/me/formula/aux/329_79_LINEINAJa]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/329_80_LINEINAJa]]/URI$ множество точек $URI[[http://libmeta.ru/me/formula/aux/329_81_LINEINAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/329_82_LINEINAJa]]/URI$, где шаги сетки связаны функциональной зависимостью вида $URI[[http://libmeta.ru/me/formula/aux/329_83_LINEINAJa]]/URI$ такой, что $URI[[http://libmeta.ru/me/formula/aux/329_84_LINEINAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/329_85_LINEINAJa]]/URI$. Множество $URI[[http://libmeta.ru/me/formula/aux/329_86_LINEINAJa]]/URI$ будет состоять из точек $URI[[http://libmeta.ru/me/formula/aux/329_87_LINEINAJa]]/URI$ качестве $URI[[http://libmeta.ru/me/formula/aux/329_88_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_89_LINEINAJa]]/URI$ выбираются пространства сеточных функций $URI[[http://libmeta.ru/me/formula/aux/329_90_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_91_LINEINAJa]]/URI$ с согласованными нормами
+
+$URI[[http://libmeta.ru/me/formula/aux/329_92_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_93_LINEINAJa]]/URI$.
+
+Оператор $URI[[http://libmeta.ru/me/formula/aux/329_94_LINEINAJa]]/URI$ может быть определен соотношением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_9_LINEINAJa]]/URI
+\]
+
+и пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_10_LINEINAJa]]/URI
+\]
+
+Для аппроксимации начального условия берется сетка $URI[[http://libmeta.ru/me/formula/aux/329_95_LINEINAJa]]/URI$, состоящая из точек $URI[[http://libmeta.ru/me/formula/aux/329_96_LINEINAJa]]/URI$; пространство $URI[[http://libmeta.ru/me/formula/aux/329_97_LINEINAJa]]/URI$ сеточных функций $URI[[http://libmeta.ru/me/formula/aux/329_98_LINEINAJa]]/URI$ с согласованной нормой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_11_LINEINAJa]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_12_LINEINAJa]]/URI
+\]
+
+Для аппроксимации граничного условия берется сетка $URI[[http://libmeta.ru/me/formula/aux/329_99_LINEINAJa]]/URI$, состоящая из точек $URI[[http://libmeta.ru/me/formula/aux/329_100_LINEINAJa]]/URI$ пространство $URI[[http://libmeta.ru/me/formula/aux/329_101_LINEINAJa]]/URI$ сеточных функций $URI[[http://libmeta.ru/me/formula/aux/329_102_LINEINAJa]]/URI$ с согласованной нормой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_13_LINEINAJa]]/URI
+\]
+
+оператор $URI[[http://libmeta.ru/me/formula/aux/329_103_LINEINAJa]]/URI$, определяемый равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_14_LINEINAJa]]/URI
+\]
+
+и оператор $URI[[http://libmeta.ru/me/formula/aux/329_104_LINEINAJa]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_15_LINEINAJa]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/329_105_LINEINAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/329_106_LINEINAJa]]/URI$. Если в качестве $URI[[http://libmeta.ru/me/formula/aux/329_107_LINEINAJa]]/URI$ взять более узкое множество функций $URI[[http://libmeta.ru/me/formula/aux/329_108_LINEINAJa]]/URI$, имеющих, кроме указанных ранее, ограниченные частные производные $URI[[http://libmeta.ru/me/formula/aux/329_109_LINEINAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/329_110_LINEINAJa]]/URI$ в области $URI[[http://libmeta.ru/me/formula/aux/329_111_LINEINAJa]]/URI$, то при $URI[[http://libmeta.ru/me/formula/aux/329_112_LINEINAJa]]/URI$ получают аппроксимацию второго порядка.
+
+Сеточную задачу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_16_LINEINAJa]]/URI
+\]
+
+наз. к о р р е к т н о й, если при достаточно малом $URI[[http://libmeta.ru/me/formula/aux/329_113_LINEINAJa]]/URI$ выполняются следующие условия: эта задача разрешима при любых данных функциях $URI[[http://libmeta.ru/me/formula/aux/329_114_LINEINAJa]]/URI$; существует функция $URI[[http://libmeta.ru/me/formula/aux/329_115_LINEINAJa]]/URI$, не зависящая от $URI[[http://libmeta.ru/me/formula/aux/329_116_LINEINAJa]]/URI$, стремящаяся к нулю вместе с $URI[[http://libmeta.ru/me/formula/aux/329_117_LINEINAJa]]/URI$ и такая, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_17_LINEINAJa]]/URI
+\]
+
+для любой функции $URI[[http://libmeta.ru/me/formula/aux/329_118_LINEINAJa]]/URI$. Решение корректной сеточной задачи равномерно по $URI[[http://libmeta.ru/me/formula/aux/329_119_LINEINAJa]]/URI$ непрерывно зависит от данных функций. Корректность сеточной задачи является необходимым условием малой чувствительности ее решения к округлениям в процессе его вычисления. Если $URI[[http://libmeta.ru/me/formula/aux/329_120_LINEINAJa]]/URI$ - решение задачи (1), (2) и задача $URI[[http://libmeta.ru/me/formula/aux/329_121_LINEINAJa]]/URI$ корректна, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_18_LINEINAJa]]/URI
+\]
+
+Если, кроме того, задача (3), (4) аппроксимирует задачу (1), (2) на решении $URI[[http://libmeta.ru/me/formula/aux/329_122_LINEINAJa]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_19_LINEINAJa]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/329_123_LINEINAJa]]/URI$. Если выполняются условия согласования норм, условие $URI[[http://libmeta.ru/me/formula/aux/329_124_LINEINAJa]]/URI$ и условие (5), то, полагая $URI[[http://libmeta.ru/me/formula/aux/329_125_LINEINAJa]]/URI$ и переходя к пределу в неравенстве (5) при $URI[[http://libmeta.ru/me/formula/aux/329_126_LINEINAJa]]/URI$, получают неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_20_LINEINAJa]]/URI
+\]
+
+справедливое для любой функции $URI[[http://libmeta.ru/me/formula/aux/329_127_LINEINAJa]]/URI$. Таким образом, для исследования корректности краевых задач вида (1), (2) можно использовать такой путь: сначала получить оценку (5), а из нее оценку (7). С помощью оценок типа (5) часто удается доказать существование решения $URI[[http://libmeta.ru/me/formula/aux/329_128_LINEINAJa]]/URI$ задачи (1), (2) как предела сеточной аппроксимации $URI[[http://libmeta.ru/me/formula/aux/329_129_LINEINAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/329_130_LINEINAJa]]/URI$.
+
+Для полного решения проблемы нахождения приближенного решения задачи (1), (2) необходимо построить точный или приближенный метод нахождения решения аппроксимации (3), (4), обладающий свойством устойчивости к округлениям. При исследовании устойчивости полезно использовать понятие замыкания вычислительного алгоритма. В приведенном примере уравнение целесообразно решать прогонки методом по переменной $URI[[http://libmeta.ru/me/formula/aux/329_131_LINEINAJa]]/URI$.
+
+Оценка (6) погрешности сеточного метода обладает тем недостатком, что в выражение функции $URI[[http://libmeta.ru/me/formula/aux/329_132_LINEINAJa]]/URI$ обычно входят производные от точного решения $URI[[http://libmeta.ru/me/formula/aux/329_133_LINEINAJa]]/URI$. В нек-рых случаях удается априори (т. е. еще до решения задачи) оценить эти производные, однако такие оценки обычно оказываются грубыми. Несколько более точными являются оценки, в к-рых производные заменяются разностными отношениями приближенного решения $URI[[http://libmeta.ru/me/formula/aux/329_134_LINEINAJa]]/URI$. В основном же практич. оценка погрешности сеточных методов производится при помощи повторного решения задачи (3), (4) с различными $URI[[http://libmeta.ru/me/formula/aux/329_135_LINEINAJa]]/URI$ и последующего выделения главной части погрешности вида $URI[[http://libmeta.ru/me/formula/aux/329_136_LINEINAJa]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/329_137_LINEINAJa]]/URI$ известный порядок малости погрешности. Так, если справедливо асимптотич. соотношение
+
+To
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_21_LINEINAJa]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/329_22_LINEINAJa]]/URI
+\]
+
+Иногда удается получить уравнения для функции $URI[[http://libmeta.ru/me/formula/aux/329_138_LINEINAJa]]/URI$, содержащие производные от точного решения $URI[[http://libmeta.ru/me/formula/aux/329_139_LINEINAJa]]/URI$. Тогда можно решать их численно на более грубой сетке после решения исходной задачи и по получении главной части погрешности добавить ее к приближенному решению $URI[[http://libmeta.ru/me/formula/aux/329_140_LINEINAJa]]/URI$ и тем самым уточнить его.
+
+В некоторых случаях при специальном URI[[http://libmeta.ru/me/relation/329_9_LINEINAJa]]/URI координатных URI[[http://libmeta.ru/me/relation/329_8_LINEINAJa]]/URI вариационного или URI[[http://libmeta.ru/me/relation/329_7_LINEINAJa]]/URI решения URI[[http://libmeta.ru/me/relation/329_6_LINEINAJa]]/URI (1), (2) URI[[http://libmeta.ru/me/relation/329_5_LINEINAJa]]/URI URI[[http://libmeta.ru/me/relation/329_4_LINEINAJa]]/URI вида (3), (4), обеспечивающие URI[[http://libmeta.ru/me/relation/329_3_LINEINAJa]]/URI не только к классическому, но и к обобщенному решению. Этот способ построения аппроксимаций, наз. иногда м ет о д о м о не чны х ә ле мен то в, URI[[http://libmeta.ru/me/relation/329_2_LINEINAJa]]/URI большую свободу в URI[[http://libmeta.ru/me/relation/329_1_LINEINAJa]]/URI сетки. Возможность целесообразно располагать узлы позволяет достигать требуемой точности при меньшем числе узлов сетки.</text>
+  <text_orig>ч и с Л е н Н Ы е ме то д ы р е ше ни я - методы, позволяюшие получить решение Л. к. 3. в виде таблицы его приближенных значений в точках сетки, не используя предварительной информации об ожидаемом виде решшения. Для теории этих методов типично предположение о том, что решение исходной задачи существует и имеет достаточное число производных. Благодаря отсут- ствию других предположений численные методы отличаются своей универсальностью.
+
+Основой численных методов решения Л. к. з. является замена исходной системы уравнений ее сеточной аппроксимацией. В случае интегро-дифференциальных уравнений такая аппроксимация обычно строится с помощью разностных схем и квадратурных формул. При этом возникают следующие проблемы:
+
+1) насколько быстро точное решение сеточной задачи сходится к решению исходной задачи при измельчении сетки;
+
+2) насколько решение сеточной задачи чувствительно к изменениям исходных данных;
+
+3) как найти, хотя бы приближенно, решение сеточной задачи.
+
+При решении первой и второй проблем используется следующий аппарат. Пусть в замкнутой области $D$ задано уравнение
+
+\[
+L u=f
+\]
+
+а на ее границе $\Gamma$, состоящей из компонент $\Gamma_{i},-$ граничные условия
+
+\[
+l_{i} u=\varphi_{i} \text { на } \Gamma_{i}, \quad i=1,2, \ldots, s .
+\]
+
+Здесь заданные непрерывные функции $f, \varphi_{i}$ принадлежат нормированным линейным пространствам $F, \Phi_{i}$ соответственно, а линейные операторы $L$ и $l_{i}$ преобразуют нек-рое линейное подмножество $W$ нормированного линейного пространства $U$ функций, непрерывных в $D$, в $F$ и $\Phi_{i}$ соответственно.
+
+Пусть для аппроксимации уравнения (1) выбраны сетки $D_{h}$ и $D_{h}^{0} \subset D$, зависящие от положительного параметра $h$; нормированные линейные пространства $U_{h}$ и $F_{h}$ функций $u_{h}$ и $f_{h}$, определенных в точках сеток $D_{h}$ и $D_{h}^{0}$ соответственно, а также линейный оператор $L_{h}$, преобразующий $U_{h}$ в $F_{h}$. Для аппроксимации граничного условия (2) выбирается сетка $\Gamma_{i h} \subset \Gamma$, нормированное линейное пространство $\Phi_{i h}$ Функций $\varphi_{i h}$, определенных в точках сетки $\Gamma_{i h}$, и линейный оператор $l_{i h}$, преобразующий $U_{h}$ в $\Phi_{i h}$. Кроме того, выбираются линейные операторы $P_{h}$ и $p_{i h}$, преобразующие $F$ и $\Phi_{i}$ в $F_{h}$ и $\Phi_{i h}$ соответственно. В результате получается сеточная а п п р о к и м а ц и я
+
+\[
+\begin{gathered}
+L_{h} u_{h}=P_{h} f, \\
+l_{i h} u_{h}=p_{i h} \varphi_{i} \text { на } \Gamma_{i h}, i=1,2, \ldots, s,
+\end{gathered}
+\]
+
+исходной задачи (1), (2). Пусть через $[u]_{h},\{f\}_{h},\left\{\varphi_{i}\right\}_{i h}$ обозначены следы функций $u, f, \varphi_{i}$ из пространств $U, F, \Phi_{i}$ на сетках $D_{h}, D_{h}^{0}, \Gamma_{i h}$ соответственно. Исследование сходимости сеточных аппроксимаций $u_{h}$ $\kappa$ решению $u$ исходной задачи при $h \rightarrow 0$ имеет смысл производить лишь в сеточных нормах, согласованных с нормами в пространствах $U, F, \Phi_{i}$, т. е. при условии, что для любых функций $u, f, \varphi_{i}$ выполняются предельные соотношения
+
+\[
+\begin{gathered}
+\left\|[u]_{h}\right\|_{\mathrm{U}_{h}} \longrightarrow\|u\| \mathrm{U},\left\|\{f\}_{h}\right\|_{F_{h}} \rightarrow\|f\|_{F}, \\
+\left\|\left\{\varphi_{i}\right\}_{i h}\right\|_{\Phi_{i h}} \longrightarrow\left\|\varphi_{i}\right\|_{\Phi_{i}}
+\end{gathered}
+\]
+
+Если $u \in W, f^{*} \in F, \varphi_{i} \in \Phi_{i}$, то величина
+
+\[
+\begin{gathered}
+z(h)=\left\|L_{h}[u]_{h}-\{L u\}\right\|_{F_{h}}+\left\|P_{h} f-\{f\}_{h}\right\|_{F_{h}}+ \\
++\sum_{i=1}^{s}\left\|l_{i h}[u]_{h}-\left\{l_{i} u\right\}_{h}\right\|_{\Phi_{i h}}+\left\|P_{i h} \varphi_{i}-\left\{\varphi_{i}\right\}_{i h}\right\|_{\Phi_{i h}}
+\end{gathered}
+\]
+
+наз. п о г р е шн о с т ь ю п п р о к с и а ци и задачи (1), (2) задачей (3), (4). Если $u$ - решение задачи (1), (2), то величина
+
+\[
+\rho(h)=\left\|L_{h}[u]_{h}-P_{h} f\right\|_{F_{h}}+\sum_{i=1}^{s}\left\|l_{i h}[u]_{h}-p_{i h} \varphi_{i}\right\|_{P_{i h}}
+\] наз. погрешностью аппроксимации на әтом решении. Говорят, что задача (3), (4) аппроксимирует задачу (1), (2) (или аппроксимирует ее на решении $u$ ), если $\boldsymbol{z}(h) \rightarrow 0$ (или $\rho(h) \rightarrow 0$ ) при $h \rightarrow 0$. Порядок малости величины $z(h)$ (или величины $\rho(h)$ ) наз. п о р я д к о м а п пр о к с и а ци и (или порядком аппроксимации на ренгении $u$ ).
+
+Пусть, напр., аппроксимируется уравнение теплопроводности. В квадранте $\boldsymbol{D}(x \geqslant 0, t \geqslant 0)$ решается уравнение (1), где
+
+\[
+L u=\frac{\partial u}{\partial t}-\frac{\partial^{2} u}{\partial x^{2}}
+\]
+
+при начальном условии $l_{1} u=\varphi_{1}(x)$ на полуоси $\Gamma_{1}(t=0$, $x \geqslant 0)$ и граничном условии $l_{2} u=\varphi_{2}(t)$ на полуоси $\Gamma_{2}(x=0, t \geqslant 0)$, где $l_{1} u=u, l_{2} u=\partial u / \partial x$, причем $\varphi_{1}^{\prime}(0)=$ $=\varphi_{2}(0)$. В качестве $F$ берется пространство непрерывных функций $f(t, x)$ с нормой
+
+\[
+\|f\|_{F}=\sup _{D}|f(t, x)|
+\]
+
+а в качестве $\Phi_{1}$ и $\Phi_{2}$ - пространства непрерывных функций $\varphi_{1}(x)$ и $\varphi_{2}(x)$ с нормами
+
+$\left\|\varphi_{1}\right\|_{\Phi_{1}}=\sup _{\Gamma_{1}}\left|\varphi_{1}(x)\right|$ и $\left\|\varphi_{2}\right\|_{\Phi_{2}}=\sup _{\Gamma_{2}}\left|\varphi_{2}(t)\right|$
+
+соответственно. Пространство $U$ можно считать совпадающим с $F$, а в качестве $W$ берется подмножество функций $u \in U$, имеющих непрерывные частные производные $\partial u / \partial t, \partial u / \partial x, \partial^{2} u / \partial x^{2}$ в области $D$. Пусть $D_{h}-$ множество точек $(n \tau, m h), n=0,1,2, \ldots ; m=$ $=-1,0,1, \ldots$, где шаги сетки связаны функциональной зависимостью вида $\tau=\tau(h)$ такой, что $\tau \rightarrow 0$ при $h \rightarrow 0$. Множество $D_{h}^{0}$ будет состоять из точек $((n+1 / 2) \tau, m h), n=0,1,2, \ldots ; m=0,1,2, \ldots$ качестве $F_{h}$ и $U_{h}$ выбираются пространства сеточных функций $f_{h}(t, x)$ и $u_{h}(t, x)$ с согласованными нормами
+
+$\left\|f_{h}\right\|_{F_{h}}=\sup _{D_{h}^{0}}\left|f_{h}(t, x)\right|$ и $\left\|u_{h}\right\|_{U_{h}}=\sup _{D_{h}}\left|u_{h}(t, x)\right|$.
+
+Оператор $L_{h}$ может быть определен соотношением
+
+\[
+\begin{gathered}
+L_{h} u_{h}(t, x)=\frac{1}{\tau}\left[u_{h}\left(t+\frac{\tau}{2}, x\right)-u_{h}\left(t-\frac{\tau}{2}, x\right)\right]- \\
+-\frac{1}{2 h^{2}}\left[u_{h}\left(t+\frac{\tau}{2}, x+h\right)-2 u_{h}\left(t+\frac{\tau}{2}, x\right)+\right. \\
+\left.+u_{h}\left(t+\frac{\tau}{2}, x-h\right)\right]-\frac{1}{2 h^{2}}\left[u_{h}\left(t-\frac{\tau}{2}, x+h\right)-\right. \\
+\left.\quad-2 u_{h}\left(t-\frac{\tau}{2}, x\right)+u_{h}\left(t-\frac{\tau}{2}, x-h\right)\right]
+\end{gathered}
+\]
+
+и пусть
+
+\[
+\begin{gathered}
+P_{h} f=\{f\}_{h} \\
+\left(\text { или } P_{h} f(t, x)=\int_{x-h}^{x+h} f(t, \xi) d \xi\right) .
+\end{gathered}
+\]
+
+Для аппроксимации начального условия берется сетка $\Gamma_{1 h}$, состоящая из точек $(0, m h), m=0,1,2, \ldots$; пространство $\Phi_{1 h}$ сеточных функций $\varphi_{1 h}(x)$ с согласованной нормой
+
+\[
+\left\|\varphi_{1 h}\right\|_{\Phi_{1 h}}=\sup _{\boldsymbol{\Gamma}_{1 h}}\left|\varphi_{1 h}(x)\right|
+\]
+
+и
+
+\[
+l_{1 h} u_{h}(x)=u_{h}(0, x), \quad p_{1 h} \varphi_{1}=\left\{\varphi_{1}\right\}_{1 h} .
+\]
+
+Для аппроксимации граничного условия берется сетка $\Gamma_{2 h}$, состоящая из точек $(n \tau, 0), n=0,1,2, \ldots ;$ пространство $\Phi_{2 h}$ сеточных функций $\varphi_{2 h}(t)$ с согласованной нормой
+
+\[
+\left\|\varphi_{2 h}\right\|_{\Phi_{2 h}}=\sup _{\Gamma_{2 h}}\left|\varphi_{2 h}(t)\right|
+\]
+
+оператор $l_{2 h}$, определяемый равенством
+
+\[
+l_{2 h} u_{h}(t)=\frac{1}{2 h}\left[u_{h}(t, h)-u_{h}(t,-h)\right],
+\]
+
+и оператор $p_{2 h} \varphi_{2}=\left\{\varphi_{2}\right\}_{2 h}$. Тогда
+
+\[
+z(h)=\left\|L_{h}[u]_{h}-\{L u\}_{h}\right\|_{F_{h}}+\left\|l_{2 h}[u]_{h}-\left\{l_{2} u\right\}\right\|
+\]
+
+и $z(h) \rightarrow 0$ при $h \rightarrow 0$. Если в качестве $W$ взять более узкое множество функций $u \in U$, имеющих, кроме указанных ранее, ограниченные частные производные $\partial^{2} u / \partial t^{2}$ и $\partial^{4} u / \partial x^{4}$ в области $D$, то при $\tau=h$ получают аппроксимацию второго порядка.
+
+Сеточную задачу
+
+\[
+\begin{gathered}
+L_{h} u_{h}=f_{h}, \\
+l_{i h} u_{h}=\varphi_{i h} \text { на } \Gamma_{i h}
+\end{gathered}
+\]
+
+наз. к о р р е к т н о й, если при достаточно малом $h$ выполняются следующие условия: эта задача разрешима при любых данных функциях $f_{h} \in F_{h}, \varphi_{i h} \in \Phi_{i h}$; существует функция $\psi(\lambda)$, не зависящая от $h$, стремящаяся к нулю вместе с $\lambda$ и такая, что
+
+\[
+\left\|u_{h}\right\|_{U_{h}} \leqslant \psi\left(\left\|L_{h} u_{h}\right\|_{F_{h}}+\sum_{i=1}^{s}\left\|l_{i h} u_{h}\right\|_{\Phi_{i h}}\right)
+\]
+
+для любой функции $u_{h} \in U_{h}$. Решение корректной сеточной задачи равномерно по $h$ непрерывно зависит от данных функций. Корректность сеточной задачи является необходимым условием малой чувствительности ее решения к округлениям в процессе его вычисления. Если $u$ - решение задачи (1), (2) и задача $\left(3^{\prime}\right),\left(4^{\prime}\right)$ корректна, то
+
+\[
+\left\|u_{h}-[u]_{h}\right\|_{U_{h}} \leqslant \psi(\rho(h))
+\]
+
+Если, кроме того, задача (3), (4) аппроксимирует задачу (1), (2) на решении $u$, то
+
+\[
+\left\|u_{h}-[u]_{h}\right\|_{U_{h}} \longrightarrow 0
+\]
+
+при $h \rightarrow 0$. Если выполняются условия согласования норм, условие $z(h) \rightarrow 0$ и условие (5), то, полагая $u_{h}=[u]_{h}$ и переходя к пределу в неравенстве (5) при $h \rightarrow 0$, получают неравенство
+
+\[
+\|u\|_{U} \leqslant \psi\left(\|L u\|_{F}+\sum_{i=1}^{s}\left\|l_{i} u\right\|_{\Phi_{i}}\right)
+\]
+
+справедливое для любой функции $u \in W$. Таким образом, для исследования корректности краевых задач вида (1), (2) можно использовать такой путь: сначала получить оценку (5), а из нее оценку (7). С помощью оценок типа (5) часто удается доказать существование решения $u$ задачи (1), (2) как предела сеточной аппроксимации $u_{h}$ при $h \rightarrow 0$.
+
+Для полного решения проблемы нахождения приближенного решения задачи (1), (2) необходимо построить точный или приближенный метод нахождения решения аппроксимации (3), (4), обладающий свойством устойчивости к округлениям. При исследовании устойчивости полезно использовать понятие замыкания вычислительного алгоритма. В приведенном примере уравнение целесообразно решать прогонки методом по переменной $x$.
+
+Оценка (6) погрешности сеточного метода обладает тем недостатком, что в выражение функции $\psi(\lambda)$ обычно входят производные от точного решения $u$. В нек-рых случаях удается априори (т. е. еще до решения задачи) оценить эти производные, однако такие оценки обычно оказываются грубыми. Несколько более точными являются оценки, в к-рых производные заменяются разностными отношениями приближенного решения $u_{h}$. В основном же практич. оценка погрешности сеточных методов производится при помощи повторного решения задачи (3), (4) с различными $h$ и последующего выделения главной части погрешности вида $h v[z]_{h}$, где $\gamma-$ известный порядок малости погрешности. Так, если справедливо асимптотич. соотношение
+
+To
+
+\[
+\left\|[u]_{h}-u_{h}-h^{\nu}[z]_{h}\right\|_{U_{h}}=o\left(h^{\nu}\right)
+\]
+
+\[
+[z]_{h} \sim\left(u_{h}-u_{H}\right) /\left(H^{\nu}-h^{\nu}\right)
+\]
+
+Иногда удается получить уравнения для функции $z$, содержащие производные от точного решения $u$. Тогда можно решать их численно на более грубой сетке после решения исходной задачи и по получении главной части погрешности добавить ее к приближенному решению $u_{h}$ и тем самым уточнить его.
+
+В некоторых случаях при специальном выборе координатных функций вариационного или проекционного метода решения задачи (1), (2) получаются уравнения вида (3), (4), обеспечивающие сходимость не только к классическому, но и к обобщенному решению. Этот способ построения аппроксимаций, наз. иногда м ет о д о м о не чны х ә ле мен то в, предоставляет большую свободу в выборе сетки. Возможность целесообразно располагать узлы позволяет достигать требуемой точности при меньшем числе узлов сетки.
+
+Лum.: [1] Б Б б у ушк а И., В и т а с е к Э., П р аr e p M., Численные пропессы решения дифференциальных уравнений, пер. с англ., М., 1969; [2] Б а х в а Ј о в Н. С., Кіонспекты по курсу “Основы вычислительной математики», ч. 4, М., 1968; [3] е г о же е, Численные методы, 2 изд., М., 1975; [4] В а p r a Р., Функциональный анализ и теория аппрокси-
+мации в численном анализе, пер. с англ., М., 1974; [5] Г а в у-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_6180943d5a198b634764g-1.jpg?height=40&amp;width=828&amp;top_left_y=1099&amp;top_left_x=122)
+р и н М. К., Ј. Кции по методам вычислений, М., 1971; [6] 2 изд., М., 1977; [7]' Д ь я к о н о в Е. Г., Разностные методы решения краевых задач, в. $1-2$, М., $1971-72$; [8] К а н т о р oв и ч Л. В., А К и ло о в $\Gamma$. П., ной математики, 2 изд., М., 1980 ; [i0] М и х ли н С. $\Gamma$. л и ц к и й X. Л., Приближенные методы решения диффференциальных и интегральных уравнений, М., 1965; [11] Р и х тма йе p Р. Д., М М р т о н K., Разностные методы решения краевых задач, [пер. с англ.], М., 1972; [12] Р я б е н ь к и й В. С., Фи ли пп о в А. Ф., Об устойчивости разностных уравнений, М., 1956; [13] С а м а р с к и й А. А., Теория разносте в Е. С., Методы решения сеточных иравнений, М.
+
+А. Ф. Шапкин.</text_orig>
+</article>

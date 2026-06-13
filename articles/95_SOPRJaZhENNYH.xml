@@ -1,0 +1,289 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/95_SOPRJaZhENNYH" alphabetic_pos="95">
+  <title>СОПРЯЖЕННЫХ ГРАДИЕНТОВ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>47</start>
+    <end>47</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ф а дд е е в.Д. К., Ф а дд е е в а В. Н., Вычислительные методы линейной алгебры, М., $1963 ;$; [2] Б' е р е3 и н И. С., Ж и д ко в Н. П., Методы вычислений, т. 2 , M., 1960; [3] В о е в о д и н В. В., Численные методы алгебры, 966; [4] Б а х в ал о в Н. С., Числениые методы, М.,</literature_orig>
+    <unit>
+      <author>Фаддеев. Д. К.</author>
+      <author>Фаддеева В. Н.</author>
+      <title>Вычислительные методы линейной алгебры</title>
+      <publication>М.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Б'ере3ин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>M.</publication>
+      <year>1960</year>
+      <other>т. 2</other>
+    </unit>
+    <unit>
+      <author>Воеводин В. В.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Численные методы алгебры, 966</other>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Числениые методы</title>
+      <publication/>
+      <year/>
+      <other>М.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/95_1_SOPRJaZhENNYH">x^{*}-x_{0}=\sum_{j=1}^{n} \alpha_{j} s_{j}, \quad \alpha_{j}=\frac{\left(r_{0}, s_{j}\right)}{\left(s_{j}, A s_{j}\right)},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/95_2_SOPRJaZhENNYH">x_{k}=x_{0}+\sum_{j=1}^{k} \alpha_{j} s_{j}, \quad \alpha_{j}=\frac{\left(r_{0}, s_{j}\right)}{\left(s_{j}, A s_{j}\right)} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/95_3_SOPRJaZhENNYH">\left(r_{i}, r_{j}\right)=0, i \neq j ;\left(r_{i}, s_{j}\right)=0, j=1,2, \ldots, i \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/95_4_SOPRJaZhENNYH">\left.\begin{array}{c}s_{1}=r_{0} ; x_{i}=x_{i-1}+\alpha_{i} s_{i-1}, \alpha_{i}=-\frac{\left(s_{i-1}, r_{i-1}\right)}{\left(s_{i-1}, A s_{i-1}\right)}, \\r_{i}=r_{i-1}+\alpha_{i} A s_{i-1}, s_{i}=r_{i}+\beta_{i} s_{i-1}, \\\beta_{i}=-\frac{\left(r_{i}, A s_{i-1}\right)}{\left(s_{i-1}, A s_{i-1}\right)} .\end{array}\right\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_1_SOPRJaZhENNYH">a x=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_2_SOPRJaZhENNYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_3_SOPRJaZhENNYH">\boldsymbol{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_4_SOPRJaZhENNYH">(x, y)=x^{T} A y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_5_SOPRJaZhENNYH">\left\{s_{1}, s_{2}, \ldots, s_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_6_SOPRJaZhENNYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_7_SOPRJaZhENNYH">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_8_SOPRJaZhENNYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_9_SOPRJaZhENNYH">r_{0}=b-A x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_10_SOPRJaZhENNYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_11_SOPRJaZhENNYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_12_SOPRJaZhENNYH">s_{1}, s_{2}, \ldots, s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_13_SOPRJaZhENNYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_14_SOPRJaZhENNYH">r_{0}, r_{1}, \ldots, r_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_15_SOPRJaZhENNYH">x_{0}, x_{1}, \ldots, x_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_16_SOPRJaZhENNYH">r_{0}, r_{1}, \ldots, r_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_17_SOPRJaZhENNYH">s_{1}, s_{2}, \ldots, s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_18_SOPRJaZhENNYH">k \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_19_SOPRJaZhENNYH">r_{k}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_20_SOPRJaZhENNYH">x^{*}=x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_21_SOPRJaZhENNYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_22_SOPRJaZhENNYH">r_{0}, r_{1}, \ldots, r_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_23_SOPRJaZhENNYH">r_{0}, A r_{0}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_24_SOPRJaZhENNYH">a^{i} r_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_25_SOPRJaZhENNYH">r_{0}, r_{1}, \ldots, r_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_26_SOPRJaZhENNYH">r_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_27_SOPRJaZhENNYH">r_{0}, A r_{0}, \ldots, A^{i} r_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_28_SOPRJaZhENNYH">r_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_29_SOPRJaZhENNYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_30_SOPRJaZhENNYH">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_31_SOPRJaZhENNYH">x_{0}, x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_32_SOPRJaZhENNYH">f(x)=(a x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_33_SOPRJaZhENNYH">x)-2(b, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_34_SOPRJaZhENNYH">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_35_SOPRJaZhENNYH">s_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_36_SOPRJaZhENNYH">f(x)=c \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_37_SOPRJaZhENNYH">(n-i)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_38_SOPRJaZhENNYH">s_{1}, s_{2}, \ldots, s_{i-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_39_SOPRJaZhENNYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_40_SOPRJaZhENNYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/95_41_SOPRJaZhENNYH">n</formula>
+  </formulas_aux>
+  <relations n="32">
+    <relation uri="http://libmeta.ru/me/relation/95_1_SOPRJaZhENNYH">
+      <rel_text>Ортозонализации</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_2_SOPRJaZhENNYH">
+      <rel_text>округления</rel_text>
+      <target>http://libmeta.ru/me/article/6_OKRUGLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_3_SOPRJaZhENNYH">
+      <rel_text>вычислений</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_4_SOPRJaZhENNYH">
+      <rel_text>модификации</rel_text>
+      <target>http://libmeta.ru/me/article/743_MODIFIKATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_5_SOPRJaZhENNYH">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_6_SOPRJaZhENNYH">
+      <rel_text>итераций</rel_text>
+      <target>http://libmeta.ru/me/article/689_ITERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_7_SOPRJaZhENNYH">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_8_SOPRJaZhENNYH">
+      <rel_text>округления</rel_text>
+      <target>http://libmeta.ru/me/article/6_OKRUGLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_9_SOPRJaZhENNYH">
+      <rel_text>арифметики</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_10_SOPRJaZhENNYH">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_11_SOPRJaZhENNYH">
+      <rel_text>стратегич</rel_text>
+      <target>http://libmeta.ru/me/article/261_STRATEGI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_12_SOPRJaZhENNYH">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_13_SOPRJaZhENNYH">
+      <rel_text>близкие</rel_text>
+      <target>http://libmeta.ru/me/article/499_BLIZNETs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_14_SOPRJaZhENNYH">
+      <rel_text>сопряженной направлениям</rel_text>
+      <target>http://libmeta.ru/me/article/87_SOPRJaभENN'E</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_15_SOPRJaZhENNYH">
+      <rel_text>поверхности</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_16_SOPRJaZhENNYH">
+      <rel_text>сечение</rel_text>
+      <target>http://libmeta.ru/me/article/1284_SEChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_17_SOPRJaZhENNYH">
+      <rel_text>представляющем</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_18_SOPRJaZhENNYH">
+      <rel_text>эллипсоиде</rel_text>
+      <target>http://libmeta.ru/me/article/1145_ELLIPSOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_19_SOPRJaZhENNYH">
+      <rel_text>поверхности</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_20_SOPRJaZhENNYH">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_21_SOPRJaZhENNYH">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_22_SOPRJaZhENNYH">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_23_SOPRJaZhENNYH">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_24_SOPRJaZhENNYH">
+      <rel_text>Последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_25_SOPRJaZhENNYH">
+      <rel_text>минимума</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_26_SOPRJaZhENNYH">
+      <rel_text>сходящаяся</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_27_SOPRJaZhENNYH">
+      <rel_text>последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_28_SOPRJaZhENNYH">
+      <rel_text>строится</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_29_SOPRJaZhENNYH">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_30_SOPRJaZhENNYH">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_31_SOPRJaZhENNYH">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/95_32_SOPRJaZhENNYH">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+  </relations>
+  <text>метод решения системы линейных алгебраич. уравнений $URI[[http://libmeta.ru/me/formula/aux/95_1_SOPRJaZhENNYH]]/URI$ с положительно определенной матрицей $URI[[http://libmeta.ru/me/formula/aux/95_2_SOPRJaZhENNYH]]/URI$. Это прямой и итерационный метод одновременно: при любом начальном приближении он сходится за конечное число итераций, давая точное решение. В С. г. м. матрица системы не меняется в процессе вычислений, на каждой итерации она используется лишь для умножения на вектор. Поэтому порядок систем, решаемых на Эвм, может быть высоким, он определяется объемом числовой информации, задающей матрицу.
+
+Структура С. г. м. как прямого метода основана на процессе последовательной $URI[[http://libmeta.ru/me/formula/aux/95_3_SOPRJaZhENNYH]]/URI$-ортогонализации системы векторов, представляющем собой обычный процесс ортогонализации (см. URI[[http://libmeta.ru/me/relation/95_1_SOPRJaZhENNYH]]/URI метод) относительно скалярного произведения $URI[[http://libmeta.ru/me/formula/aux/95_4_SOPRJaZhENNYH]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/95_5_SOPRJaZhENNYH]]/URI$ есть $URI[[http://libmeta.ru/me/formula/aux/95_6_SOPRJaZhENNYH]]/URI$-ортогональный базис пространства, то точное решение $URI[[http://libmeta.ru/me/formula/aux/95_7_SOPRJaZhENNYH]]/URI$ системы при любом наталь- ном приближении $URI[[http://libmeta.ru/me/formula/aux/95_8_SOPRJaZhENNYH]]/URI$ может быть получено из разложения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/95_1_SOPRJaZhENNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/95_9_SOPRJaZhENNYH]]/URI$-невязка $URI[[http://libmeta.ru/me/formula/aux/95_10_SOPRJaZhENNYH]]/URI$. В С. г. м. $URI[[http://libmeta.ru/me/formula/aux/95_11_SOPRJaZhENNYH]]/URI$-ортогональные векторы $URI[[http://libmeta.ru/me/formula/aux/95_12_SOPRJaZhENNYH]]/URI$ строятся процессом $URI[[http://libmeta.ru/me/formula/aux/95_13_SOPRJaZhENNYH]]/URI$-ортогонализации невязок $URI[[http://libmeta.ru/me/formula/aux/95_14_SOPRJaZhENNYH]]/URI$ последовательности приближений $URI[[http://libmeta.ru/me/formula/aux/95_15_SOPRJaZhENNYH]]/URI$, вычисляемых по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/95_2_SOPRJaZhENNYH]]/URI
+\]
+
+Построенные таким образом векторы $URI[[http://libmeta.ru/me/formula/aux/95_16_SOPRJaZhENNYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/95_17_SOPRJaZhENNYH]]/URI$ обладают следующими свойствами:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/95_3_SOPRJaZhENNYH]]/URI
+\]
+
+Расчетные формулы С. г. м. даются следующими рекуррентными соотношениями (см. [1]):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/95_4_SOPRJaZhENNYH]]/URI
+\]
+
+Процесс заканчивается при нек-ром $URI[[http://libmeta.ru/me/formula/aux/95_18_SOPRJaZhENNYH]]/URI$, для к-рого $URI[[http://libmeta.ru/me/formula/aux/95_19_SOPRJaZhENNYH]]/URI$. При этом $URI[[http://libmeta.ru/me/formula/aux/95_20_SOPRJaZhENNYH]]/URI$. Момент обрыва процесса определен начальным приближением $URI[[http://libmeta.ru/me/formula/aux/95_21_SOPRJaZhENNYH]]/URI$. Из рекуррентных соотношений (2) следует, что векторы $URI[[http://libmeta.ru/me/formula/aux/95_22_SOPRJaZhENNYH]]/URI$ являются линейными комбинациями векторов $URI[[http://libmeta.ru/me/formula/aux/95_23_SOPRJaZhENNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/95_24_SOPRJaZhENNYH]]/URI$. Так как векторы $URI[[http://libmeta.ru/me/formula/aux/95_25_SOPRJaZhENNYH]]/URI$ ортогональны, то обращение в нуль $URI[[http://libmeta.ru/me/formula/aux/95_26_SOPRJaZhENNYH]]/URI$ возможно лишь тогда, когда векторы $URI[[http://libmeta.ru/me/formula/aux/95_27_SOPRJaZhENNYH]]/URI$ линейно зависимы, напр. когда в разложении $URI[[http://libmeta.ru/me/formula/aux/95_28_SOPRJaZhENNYH]]/URI$ по базису из собственных векторов $URI[[http://libmeta.ru/me/formula/aux/95_29_SOPRJaZhENNYH]]/URI$ только $URI[[http://libmeta.ru/me/formula/aux/95_30_SOPRJaZhENNYH]]/URI$ компонент отличны от нуля. Этим соображением можно руководствоваться при выборе начального приближения.
+
+С. г. м. относится к классу методов, в к-рых за решение принимается URI[[http://libmeta.ru/me/relation/95_32_SOPRJaZhENNYH]]/URI, минимизирующий нек-рый URI[[http://libmeta.ru/me/relation/95_31_SOPRJaZhENNYH]]/URI. Для URI[[http://libmeta.ru/me/relation/95_30_SOPRJaZhENNYH]]/URI этого URI[[http://libmeta.ru/me/relation/95_29_SOPRJaZhENNYH]]/URI URI[[http://libmeta.ru/me/relation/95_28_SOPRJaZhENNYH]]/URI итерационная URI[[http://libmeta.ru/me/relation/95_27_SOPRJaZhENNYH]]/URI, URI[[http://libmeta.ru/me/relation/95_26_SOPRJaZhENNYH]]/URI к точке URI[[http://libmeta.ru/me/relation/95_25_SOPRJaZhENNYH]]/URI. URI[[http://libmeta.ru/me/relation/95_24_SOPRJaZhENNYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/95_31_SOPRJaZhENNYH]]/URI$ в (2) осуществляет минимизацию URI[[http://libmeta.ru/me/relation/95_23_SOPRJaZhENNYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/95_32_SOPRJaZhENNYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/95_33_SOPRJaZhENNYH]]/URI$. На $URI[[http://libmeta.ru/me/formula/aux/95_34_SOPRJaZhENNYH]]/URI$-м шаге URI[[http://libmeta.ru/me/relation/95_22_SOPRJaZhENNYH]]/URI (2) URI[[http://libmeta.ru/me/relation/95_21_SOPRJaZhENNYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/95_35_SOPRJaZhENNYH]]/URI$ URI[[http://libmeta.ru/me/relation/95_20_SOPRJaZhENNYH]]/URI с направлением скорейшего спуска (градиентом) для URI[[http://libmeta.ru/me/relation/95_19_SOPRJaZhENNYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/95_36_SOPRJaZhENNYH]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/95_37_SOPRJaZhENNYH]]/URI$-мерном URI[[http://libmeta.ru/me/relation/95_18_SOPRJaZhENNYH]]/URI, URI[[http://libmeta.ru/me/relation/95_17_SOPRJaZhENNYH]]/URI собой URI[[http://libmeta.ru/me/relation/95_16_SOPRJaZhENNYH]]/URI URI[[http://libmeta.ru/me/relation/95_15_SOPRJaZhENNYH]]/URI плоскостью, URI[[http://libmeta.ru/me/relation/95_14_SOPRJaZhENNYH]]/URI $URI[[http://libmeta.ru/me/formula/aux/95_38_SOPRJaZhENNYH]]/URI$.
+
+Описанный процесс С. г. м. или URI[[http://libmeta.ru/me/relation/95_13_SOPRJaZhENNYH]]/URI к нему имеют много различных названий: м е т о д Л а ц ц ошіа, метод Хестенс а, ме тод и т. Д. Из всех методов, осуществляющих минимизацию URI[[http://libmeta.ru/me/relation/95_12_SOPRJaZhENNYH]]/URI, С. г. м. является наилучшим в URI[[http://libmeta.ru/me/relation/95_11_SOPRJaZhENNYH]]/URI. плане: он дает максимальную минимизацию за $URI[[http://libmeta.ru/me/formula/aux/95_39_SOPRJaZhENNYH]]/URI$ mагов. Однако URI[[http://libmeta.ru/me/relation/95_10_SOPRJaZhENNYH]]/URI (2) в реальных условиях машинной URI[[http://libmeta.ru/me/relation/95_9_SOPRJaZhENNYH]]/URI чувствительны к ошибкам URI[[http://libmeta.ru/me/relation/95_8_SOPRJaZhENNYH]]/URI, и условия (1) могут быть нарушены. Это препятствует окончанию URI[[http://libmeta.ru/me/relation/95_7_SOPRJaZhENNYH]]/URI за $URI[[http://libmeta.ru/me/formula/aux/95_40_SOPRJaZhENNYH]]/URI$ шагов. Поэтому С. г. м. продолжают за $URI[[http://libmeta.ru/me/formula/aux/95_41_SOPRJaZhENNYH]]/URI$ URI[[http://libmeta.ru/me/relation/95_6_SOPRJaZhENNYH]]/URI, рассматривая его как бесконечный итерационный процесс минимизации URI[[http://libmeta.ru/me/relation/95_5_SOPRJaZhENNYH]]/URI. Известны URI[[http://libmeta.ru/me/relation/95_4_SOPRJaZhENNYH]]/URI схемы URI[[http://libmeta.ru/me/relation/95_3_SOPRJaZhENNYH]]/URI (2) более устойчивые к ошибкам URI[[http://libmeta.ru/me/relation/95_2_SOPRJaZhENNYH]]/URI (см. [3], [4]).</text>
+  <text_orig>метоД решения системы линейных алгебраич. уравнений $A x=b$ с положительно определенной матрицей $A$. Это прямой и итерационный метод одновременно: при любом начальном приближении он сходится за конечное число итераций, давая точное решение. В С. г. м. матрица системы не меняется в процессе вычислений, на каждой итерации она используется лишь для умножения на вектор. Поэтому порядок систем, решаемых на ЭВМ, может быть высоким, он определяется объемом числовой информации, задающей матрицу.
+
+Структура С. г. м. как прямого метода основана на процессе последовательной $\boldsymbol{A}$-ортогонализации системы векторов, представляющем собой обычный процесс ортогонализации (см. Ортозонализации метод) относительно скалярного произведения $(x, y)=x^{T} A y$. Если $\left\{s_{1}, s_{2}, \ldots, s_{n}\right\}$ есть $A$-ортогональный базис пространства, то точное решение $x^{*}$ системы при любом наталь- ном приближении $x_{0}$ может быть получено из разложения
+
+\[
+x^{*}-x_{0}=\sum_{j=1}^{n} \alpha_{j} s_{j}, \quad \alpha_{j}=\frac{\left(r_{0}, s_{j}\right)}{\left(s_{j}, A s_{j}\right)},
+\]
+
+где $r_{0}=b-A x_{0}$-невязка $x_{0}$. В С. г. м. $A$-ортогональные векторы $s_{1}, s_{2}, \ldots, s_{n}$ строятся процессом $A$-ортогонализации невязок $r_{0}, r_{1}, \ldots, r_{n-1}$ последовательности приближений $x_{0}, x_{1}, \ldots, x_{n-1}$, вычисляемых по формулам
+
+\[
+x_{k}=x_{0}+\sum_{j=1}^{k} \alpha_{j} s_{j}, \quad \alpha_{j}=\frac{\left(r_{0}, s_{j}\right)}{\left(s_{j}, A s_{j}\right)} .
+\]
+
+Построенные таким образом векторы $r_{0}, r_{1}, \ldots, r_{n-1}$ и $s_{1}, s_{2}, \ldots, s_{n}$ обладают следующими свойствами:
+
+\[
+\left(r_{i}, r_{j}\right)=0, i \neq j ;\left(r_{i}, s_{j}\right)=0, j=1,2, \ldots, i \text {. }
+\]
+
+Расчетные формулы С. г. м. даются следующими рекуррентными соотношениями (см. [1]):
+
+\[
+\left.\begin{array}{c}
+s_{1}=r_{0} ; x_{i}=x_{i-1}+\alpha_{i} s_{i-1}, \alpha_{i}=-\frac{\left(s_{i-1}, r_{i-1}\right)}{\left(s_{i-1}, A s_{i-1}\right)}, \\
+r_{i}=r_{i-1}+\alpha_{i} A s_{i-1}, s_{i}=r_{i}+\beta_{i} s_{i-1}, \\
+\beta_{i}=-\frac{\left(r_{i}, A s_{i-1}\right)}{\left(s_{i-1}, A s_{i-1}\right)} .
+\end{array}\right\}
+\]
+
+Процесс заканчивается при нек-ром $k \leqslant n$, для к-рого $r_{k}=0$. При этом $x^{*}=x_{k}$. Момент обрыва процесса определен начальным приближением $x_{0}$. Из рекуррентных соотношений (2) следует, что векторы $r_{0}, r_{1}, \ldots, r_{i}$ являются линейными комбинациями векторов $r_{0}, A r_{0}, \ldots$, $A^{i} r_{0}$. Так как векторы $r_{0}, r_{1}, \ldots, r_{i}$ ортогональны, то обращение в нуль $r_{i}$ возможно лишь тогда, когда векторы $r_{0}, A r_{0}, \ldots, A^{i} r_{0}$ линейно зависимы, напр. когда в разложении $r_{0}$ по базису из собственных векторов $A$ только $i$ компонент отличны от нуля. Этим соображением можно руководствоваться при выборе начального приближения.
+
+С. г. м. относится к классу методов, в к-рых за решение принимается вектор, минимизирующий нек-рый функционал. Для вычисления этого вектора строится итерационная последовательность, сходящаяся к точке минимума. Последовательность $x_{0}, x_{1}, \ldots, x_{n}$ в (2) осуществляет минимизацию функционала $f(x)=(A x$, $x)-2(b, x)$. На $i$-м шаге процесса (2) вектор $s_{i}$ совпадает с направлением скорейшего спуска (градиентом) для поверхности $f(x)=c \quad$ в $(n-i)$-мерном эллипсоиде, представляющем собой сечение поверхности плоскостью, сопряженной направлениям $s_{1}, s_{2}, \ldots, s_{i-1}$.
+
+Описанный процесс С. г. м. или близкие к нему имеют много различных названий: м е т о д Л а ц ц ошіа, метод Хестенс а, ме тод и т. Д. Из всех методов, осуществляющих минимизацию функционала, С. г. м. является наилучшим в стратегич. плане: он дает максимальную минимизацию за $n$ mагов. Однако вычисления (2) в реальных условиях машинной арифметики чувствительны к ошибкам округления, и условия (1) могут быть нарушены. Это препятствует окончанию процесса за $n$ шагов. Поэтому С. г. м. продолжают за $n$ итераций, рассматривая его как бесконечный итерационный процесс минимизации функционала. Известны модификации схемы вычислений (2) более устойчивые к ошибкам округления (см. [3], [4]).
+
+Лит.: [1] Ф а дд е е в.Д. К., Ф а дд е е в а В. Н., Вычислительные методы линейной алгебры, М., $1963 ;$; [2] Б' е р е3 и н И. С., Ж и д ко в Н. П., Методы вычислений, т. 2 , M., 1960; [3] В о е в о д и н В. В., Численные методы алгебры, 966; [4] Б а х в ал о в Н. С., Числениые методы, М.,</text_orig>
+</article>

@@ -1,0 +1,881 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/634_INTERPOLIROVANI" alphabetic_pos="634">
+  <title>ИНТЕРПОЛИРОВАНИЕ</title>
+  <authors>
+    <author>Л. А. Янович</author>
+  </authors>
+  <pages>
+    <start>312</start>
+    <end>315</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/634_1_INTERPOLIROVANI">L_{n}(x)=\sum_{i=0}^{n} a_{i} \varphi_{i}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_2_INTERPOLIROVANI">\begin{gathered}L_{1}(x)=\frac{x-x_{k}}{x_{k+1}-x_{k}}\left[f\left(x_{k+1}\right)-f\left(x_{k}\right)\right]+f\left(x_{k}\right), \\x_{k} \leqslant x \leqslant x_{k+1} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_3_INTERPOLIROVANI">\begin{gathered}L_{2}(x)=\frac{\left(x-x_{k}\right)\left(x-x_{k+1}\right)}{\left(x_{k-1}-x_{k}\right)\left(x_{k-1}-x_{k+1}\right)} f\left(x_{k-1}\right)+ \\+\frac{\left(x-x_{k-1}\right)\left(x-x_{k+1}\right)}{\left(x_{k}-x_{k-1}\right)\left(x_{k}-x_{k+1}\right)} f\left(x_{k}\right)+ \\+\frac{\left(x-x_{k-1}\right)\left(x-x_{k}\right)}{\left(x_{k+1}-x_{k-1}\right)\left(x_{k+1}-x_{k}\right)} f\left(x_{k+1}\right), \\x_{k-1} \leqslant x \leqslant x_{k+1} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_4_INTERPOLIROVANI">S_{3}\left(x_{k}\right)=f\left(x_{k}\right), \quad k=0,1, \ldots, n ; n \geqslant 2 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_5_INTERPOLIROVANI">S=\sum_{k=1}^{m}\left[y_{k}-L_{n}\left(x_{k}\right)\right]^{2}, \quad m \geqslant n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_6_INTERPOLIROVANI">\omega_{n_{j}}\left(x_{j}\right)=\prod_{k_{j=0}}^{n_{j}}\left(x_{j}-x_{j}^{k}\right), j=1,2, \ldots, m .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_7_INTERPOLIROVANI">x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}, \quad x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f\left(x_{n-1}, x_{n}\right)},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_8_INTERPOLIROVANI">\begin{gathered}L_{n}(y)=\sum_{k=0}^{n} \frac{\omega_{n}(y)}{\omega_{n}^{\prime}\left(y_{k}\right)\left(y-y_{k}\right)} g\left(y_{k}\right), \\\omega_{n}(y)=\coprod_{k=0}^{n}\left(y-y_{k}\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_9_INTERPOLIROVANI">x_{k+1}=-\omega_{n}(0) \sum_{k=0}^{n} \frac{x_{k}}{\omega_{n}^{\prime}\left(y_{k}\right) y_{k}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_10_INTERPOLIROVANI">\int_{a}^{b} p(x) f(x) d x \approx \sum_{k=1}^{n} A_{k} f\left(x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_11_INTERPOLIROVANI">\begin{aligned}\int_{a}^{b} f(x) d x \approx &amp; \frac{b-a}{3 n}\left[f_{0}+f_{n}+2\left(f_{2}+f_{4}+\ldots+f_{n-2}\right)+\right. \\&amp; \left.+4\left(f_{1}+f_{3}+\ldots+f_{n-1}\right)\right]\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_12_INTERPOLIROVANI">f(x)=L_{n}(x)+R_{n}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_13_INTERPOLIROVANI">f^{(i)}(x)=L_{n}^{(i)}(x)+R_{n}^{(i)}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_14_INTERPOLIROVANI">f^{(i)}(x) \approx L_{n}^{(i)}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_15_INTERPOLIROVANI">f^{\prime}\left(x_{k}\right) \approx \frac{1}{h}\left[f\left(x_{k+1}\right)-f\left(x_{k}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_16_INTERPOLIROVANI">\varphi(x)=\lambda \int_{a}^{b} K(x, s) \varphi(s) d s+f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_17_INTERPOLIROVANI">\begin{gathered}\varphi_{i}=\lambda \sum_{k=0}^{n} M_{k}\left(x_{i}\right) \varphi_{k}+f\left(x_{i}\right), \\M_{k}\left(x_{i}\right)=\int_{a}^{b} K\left(x_{i}, s\right) l_{k}(s) d s, \quad i=0,1, \ldots, n,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_18_INTERPOLIROVANI">y^{\prime}\left(x_{k}\right) \approx \frac{y\left(x_{k+1}\right)-y\left(x_{k}\right)}{h}=\frac{1}{h} \Delta y\left(x_{k}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_19_INTERPOLIROVANI">F\left(x, y, y^{\prime}, y^{\prime \prime}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_20_INTERPOLIROVANI">F\left(x_{k}, y_{k}, \frac{1}{h} \Delta y_{k}, \frac{1}{h^{2}} \Delta^{2} y_{k}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_21_INTERPOLIROVANI">y^{\prime}=f(x, y), \quad y\left(x_{0}\right)=y_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_22_INTERPOLIROVANI">y_{n+1}=y_{n}+h \sum_{j=1}^{n} B_{j} f\left(x_{n-j}, y_{n-j}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_23_INTERPOLIROVANI">y\left(x_{n+1}\right)=y\left(x_{n}\right)+\int_{x_{n}}^{x_{n+1}} f(x \quad y) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_24_INTERPOLIROVANI">\tilde{y}=\tilde{A} \tilde{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_25_INTERPOLIROVANI">L_{1}(F ; x)=F\left(x_{0}\right)+F\left(x_{0}, x_{1}\right)\left(x-x_{0}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_26_INTERPOLIROVANI">F\left(x_{0}, x_{1}\right)\left(x_{0}-x_{1}\right)=F\left(x_{0}\right)-F\left(x_{1}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_27_INTERPOLIROVANI">x_{n+1}=x_{n}-F^{-1}\left(x_{n-1}, x_{n}\right) F\left(x_{n}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_28_INTERPOLIROVANI">\begin{gathered}L_{n}\left[F ; x_{k}\right]=F\left(x_{k}\right), \quad L_{n}\left[\psi_{i} ; x\right] \equiv \psi_{i}(x), \\i=0,1, \ldots, n .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_29_INTERPOLIROVANI">\int_{X} F(x) d \mu(x) \approx \int_{X} L_{n}[F ; x] d \mu(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_30_INTERPOLIROVANI">\begin{aligned}&amp; \text { представляется в виде интеграла Стилтьеса } \\&amp; \qquad L_{1}[F ; x]=F\left(x_{0}\right)+ \\&amp; +\int_{a}^{b} \frac{x(\tau)-x_{0}(\tau)}{x_{1}(\tau)-x_{0}(\tau)} d_{\tau} F\left[x_{0}(\cdot)+\chi(\cdot, \tau)\left(x_{1}(\cdot)-x(\cdot)\right)\right],\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_31_INTERPOLIROVANI">\chi(t, \tau)= \begin{cases}1, &amp; \tau&gt;t, \\ 0, &amp; \tau \leqslant t .\end{cases}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_32_INTERPOLIROVANI">x_{n+1}=x_{n}+\varepsilon_{n} F\left(x_{n-1}, x_{n}\right), \quad \varepsilon_{n}&gt;0, \quad n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_33_INTERPOLIROVANI">\begin{aligned}&amp; L_{2}[F ; x]=F\left(x_{n}\right)+F\left(x_{n-1}, x_{n}\right)\left(x-x_{n}\right)+ \\&amp; +F\left(x_{n-2}, x_{n-1}, x_{n}\right)\left(x-x_{n-1}\right)\left(x-x_{n}\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/634_34_INTERPOLIROVANI">\begin{gathered}x_{n+1}=x_{n}-\varepsilon_{n} \operatorname{grad} L_{2}\left[F ; x_{n}\right], \\\varepsilon_{n}&gt;0, \quad n=2,3, \ldots\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_1_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_2_INTERPOLIROVANI">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_3_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_4_INTERPOLIROVANI">\delta_{n}=\left\{a \leqslant x_{0}&lt;x_{1}&lt;\ldots&lt;x_{n} \leqslant b\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_5_INTERPOLIROVANI">l_{n}(x) \equiv L_{n}(f ; x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_6_INTERPOLIROVANI">l_{n}\left(x_{k}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_7_INTERPOLIROVANI">=f\left(x_{k}\right), k=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_8_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_9_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_10_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_11_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_12_INTERPOLIROVANI">\delta_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_13_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_14_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_15_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_16_INTERPOLIROVANI">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_17_INTERPOLIROVANI">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_18_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_19_INTERPOLIROVANI">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_20_INTERPOLIROVANI">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_21_INTERPOLIROVANI">2 \pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_22_INTERPOLIROVANI">[0,2 \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_23_INTERPOLIROVANI">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_24_INTERPOLIROVANI">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_25_INTERPOLIROVANI">\varphi_{i}(x)=x^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_26_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_27_INTERPOLIROVANI">x_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_28_INTERPOLIROVANI">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_29_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_30_INTERPOLIROVANI">\delta_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_31_INTERPOLIROVANI">s_{3}(x) \equiv S_{3}(f ; x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_32_INTERPOLIROVANI">\left[x_{k-1}, x_{k}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_33_INTERPOLIROVANI">s_{3}^{(i)}(a)=s_{3}^{i}(b), i=1,2 ; S_{3}^{\prime}(a)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_34_INTERPOLIROVANI">=a_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_35_INTERPOLIROVANI">s_{3}^{\prime}(b)=b_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_36_INTERPOLIROVANI">\delta_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_37_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_38_INTERPOLIROVANI">\left\{y_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_39_INTERPOLIROVANI">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_40_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_41_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_42_INTERPOLIROVANI">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_43_INTERPOLIROVANI">l_{n}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_44_INTERPOLIROVANI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_45_INTERPOLIROVANI">\left(x_{k}, y_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_46_INTERPOLIROVANI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_47_INTERPOLIROVANI">f\left(x_{1}, \ldots, x_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_48_INTERPOLIROVANI">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_49_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_50_INTERPOLIROVANI">k=2,3, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_51_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_52_INTERPOLIROVANI">l n_{1} \ldots n_{m}\left(x_{1}, \ldots, x_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_53_INTERPOLIROVANI">f\left(x_{1}, \ldots, x_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_54_INTERPOLIROVANI">\left(x_{1}^{k_{1}}, \ldots, x_{m}^{k_{m}}\right), \quad x_{j}^{v} \neq x_{j}^{\mu} ; \quad v \neq \mu ; \quad k_{j}=0,1, \ldots, n_{j} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_55_INTERPOLIROVANI">j=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_56_INTERPOLIROVANI">\times \frac{f\left(x_{1}^{k_{1}}, \ldots, x_{m}^{k_{m}}\right)}{\left(x_{1}-x_{1}^{k_{1}}\right) \ldots\left(x_{m}-x_{m}^{k_{m}}\right)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_57_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_58_INTERPOLIROVANI">f_{i}\left(x_{1}, x_{2}, \ldots, x_{m}\right)=0, i=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_59_INTERPOLIROVANI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_60_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_61_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_62_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_63_INTERPOLIROVANI">l_{n}(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_64_INTERPOLIROVANI">l_{n}(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_65_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_66_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_67_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_68_INTERPOLIROVANI">x_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_69_INTERPOLIROVANI">f\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_70_INTERPOLIROVANI">f^{\prime}\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_71_INTERPOLIROVANI">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_72_INTERPOLIROVANI">f\left(x_{n-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_73_INTERPOLIROVANI">f\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_74_INTERPOLIROVANI">x_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_75_INTERPOLIROVANI">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_76_INTERPOLIROVANI">f\left(x_{n-1}, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_77_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_78_INTERPOLIROVANI">x_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_79_INTERPOLIROVANI">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_80_INTERPOLIROVANI">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_81_INTERPOLIROVANI">n \rightarrow \infty \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_82_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_83_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_84_INTERPOLIROVANI">x=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_85_INTERPOLIROVANI">=g(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_86_INTERPOLIROVANI">x=g(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_87_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_88_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_89_INTERPOLIROVANI">y_{k}=f\left(x_{k}\right), k=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_90_INTERPOLIROVANI">=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_91_INTERPOLIROVANI">x_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_92_INTERPOLIROVANI">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_93_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_94_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_95_INTERPOLIROVANI">p(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_96_INTERPOLIROVANI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_97_INTERPOLIROVANI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_98_INTERPOLIROVANI">h=\frac{1}{n}(b-a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_99_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_100_INTERPOLIROVANI">f_{k}=f(a+k h), k=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_101_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_102_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_103_INTERPOLIROVANI">r_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_104_INTERPOLIROVANI">r_{n}^{(i)}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_105_INTERPOLIROVANI">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_106_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_107_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_108_INTERPOLIROVANI">r_{1}^{\prime}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_109_INTERPOLIROVANI">r_{1}^{\prime}\left(x_{k}\right)=-\frac{1}{2} f^{\prime \prime}(\xi) h, \quad \xi \in\left(x_{k}, \quad x_{k+1}\right), \quad h=x_{k+1}-x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_110_INTERPOLIROVANI">f\left(x_{k+1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_111_INTERPOLIROVANI">f\left(x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_112_INTERPOLIROVANI">\varepsilon_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_113_INTERPOLIROVANI">\varepsilon_{k}, \varepsilon_{k+1} \neq \varepsilon_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_114_INTERPOLIROVANI">\left(\varepsilon_{k+1}-\varepsilon_{k}\right) / h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_115_INTERPOLIROVANI">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_116_INTERPOLIROVANI">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_117_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_118_INTERPOLIROVANI">\varphi\left(x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_119_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_120_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_121_INTERPOLIROVANI">\varphi(x)=\sum_{k=0}^{n} l_{k}(x) \varphi\left(x_{k}\right)+R_{n}(x) \equiv L_{n}(x)+R_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_122_INTERPOLIROVANI">r_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_123_INTERPOLIROVANI">l_{k}(x)=\omega_{n}(x) / \omega_{n}^{\prime}\left(x_{k}\right)\left(x-x_{k}\right), \omega_{n}(x)=\prod_{k=0}^{n}\left(x-x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_124_INTERPOLIROVANI">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_125_INTERPOLIROVANI">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_126_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_127_INTERPOLIROVANI">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_128_INTERPOLIROVANI">\varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_129_INTERPOLIROVANI">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_130_INTERPOLIROVANI">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_131_INTERPOLIROVANI">\varphi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_132_INTERPOLIROVANI">y^{\prime \prime}\left(x_{k}\right) \approx \frac{1}{h^{2}}\left[y\left(x_{k-1}\right)-2 y\left(x_{k}\right)+\frac{1}{1} y\left(x_{k+1}\right)\right]=\frac{1}{h^{2}} \Delta^{2} y\left(x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_133_INTERPOLIROVANI">x_{k}=x_{0}+k h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_134_INTERPOLIROVANI">y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_135_INTERPOLIROVANI">y(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_136_INTERPOLIROVANI">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_137_INTERPOLIROVANI">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_138_INTERPOLIROVANI">x_{k}=x_{0}+k h, k=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_139_INTERPOLIROVANI">y=a x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_140_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_141_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_142_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_143_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_144_INTERPOLIROVANI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_145_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_146_INTERPOLIROVANI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_147_INTERPOLIROVANI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_148_INTERPOLIROVANI">\tilde{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_149_INTERPOLIROVANI">\tilde{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_150_INTERPOLIROVANI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_151_INTERPOLIROVANI">\tilde{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_152_INTERPOLIROVANI">l_{\mathbf{1}}(f ; x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_153_INTERPOLIROVANI">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_154_INTERPOLIROVANI">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_155_INTERPOLIROVANI">f\left(x_{0}, x_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_156_INTERPOLIROVANI">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_157_INTERPOLIROVANI">f^{-1}\left(x_{n-1}, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_158_INTERPOLIROVANI">f\left(x_{n-1}, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_159_INTERPOLIROVANI">\left\{\psi_{i}(x)\right\}, i=0,1, \ldots, n,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_160_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_161_INTERPOLIROVANI">l_{n}[f ; x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_162_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_163_INTERPOLIROVANI">\left\{x_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_164_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_165_INTERPOLIROVANI">l_{n}[f ; x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_166_INTERPOLIROVANI">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_167_INTERPOLIROVANI">l_{1}[f ; x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_168_INTERPOLIROVANI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_169_INTERPOLIROVANI">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_170_INTERPOLIROVANI">c[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_171_INTERPOLIROVANI">x_{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_172_INTERPOLIROVANI">x_{1}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_173_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_174_INTERPOLIROVANI">l_{1}[f ; x] \equiv F(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_175_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_176_INTERPOLIROVANI">f\left(x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_177_INTERPOLIROVANI">f\left(x_{n-1}, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_178_INTERPOLIROVANI">x_{n-2}, x_{n-1}, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_179_INTERPOLIROVANI">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_180_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_181_INTERPOLIROVANI">f\left(x_{n-2}, x_{n-1}, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_182_INTERPOLIROVANI">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_183_INTERPOLIROVANI">x_{n-2}, x_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_184_INTERPOLIROVANI">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/634_185_INTERPOLIROVANI">x_{n+1}</formula>
+  </formulas_aux>
+  <relations n="15">
+    <relation uri="http://libmeta.ru/me/relation/634_1_INTERPOLIROVANI">
+      <rel_text>Интерполяционный</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_2_INTERPOLIROVANI">
+      <rel_text>Интерполяционная</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_3_INTERPOLIROVANI">
+      <rel_text>теорию</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_4_INTERPOLIROVANI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_5_INTERPOLIROVANI">
+      <rel_text>приближения</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_6_INTERPOLIROVANI">
+      <rel_text>интерполирования</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_7_INTERPOLIROVANI">
+      <rel_text>Теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_8_INTERPOLIROVANI">
+      <rel_text>строиться</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_9_INTERPOLIROVANI">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_10_INTERPOLIROVANI">
+      <rel_text>погрешности</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_11_INTERPOLIROVANI">
+      <rel_text>формул</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_12_INTERPOLIROVANI">
+      <rel_text>интерполяционных</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_13_INTERPOLIROVANI">
+      <rel_text>вычислительных алгоритмов</rel_text>
+      <target>http://libmeta.ru/me/article/634_USTOJChIVOST'</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_14_INTERPOLIROVANI">
+      <rel_text>приближения</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/634_15_INTERPOLIROVANI">
+      <rel_text>Итерационные методы</rel_text>
+      <target>http://libmeta.ru/me/article/687_ITERATsIONNYE</target>
+    </relation>
+  </relations>
+  <text>в В Ч И с ли Т А л м а т е м а т и к е - способ приближенного или точного нахождения какой-либо величины по известным отдельным значениям этой же или других величин, связанных с ней. На основе И. построен ряд приближенных методов решения математич. задач.
+
+Наибольшее значение в вычислительной математике имеет задача построения способов интерполирования функций. Интерполяция функционалов и операторов также широко используется при построении приближенных методов.
+
+П ри ближенное пре д с та влени е и в ч ч и л е ни е ф у н ц цй̈. И. функций рассматривается как один из способов их приближения. И. функции $URI[[http://libmeta.ru/me/formula/aux/634_1_INTERPOLIROVANI]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/634_2_INTERPOLIROVANI]]/URI$ по значениям ее в узлах $URI[[http://libmeta.ru/me/formula/aux/634_3_INTERPOLIROVANI]]/URI$ сетки $URI[[http://libmeta.ru/me/formula/aux/634_4_INTERPOLIROVANI]]/URI$ означает пост роение другой функции $URI[[http://libmeta.ru/me/formula/aux/634_5_INTERPOLIROVANI]]/URI$ такой, что $URI[[http://libmeta.ru/me/formula/aux/634_6_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/634_7_INTERPOLIROVANI]]/URI$. В более общей постановке задача И. функции $URI[[http://libmeta.ru/me/formula/aux/634_8_INTERPOLIROVANI]]/URI$ состоит в построении $URI[[http://libmeta.ru/me/formula/aux/634_9_INTERPOLIROVANI]]/URI$ не только из условия совпадения значений функций $URI[[http://libmeta.ru/me/formula/aux/634_10_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_11_INTERPOLIROVANI]]/URI$ на сетке $URI[[http://libmeta.ru/me/formula/aux/634_12_INTERPOLIROVANI]]/URI$, но и из требования совпадения в отдельных узлах их производных до какого-то порядка или нек-рых других соотношений, связывающих $URI[[http://libmeta.ru/me/formula/aux/634_13_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_14_INTERPOLIROVANI]]/URI$.
+
+Обычно $URI[[http://libmeta.ru/me/formula/aux/634_15_INTERPOLIROVANI]]/URI$ строится в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_1_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/634_16_INTERPOLIROVANI]]/URI$ - некоторая заранее выбранная система линейно независимых функций. Такое И. наз. линейным относительно системы $URI[[http://libmeta.ru/me/formula/aux/634_17_INTERPOLIROVANI]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/634_18_INTERPOLIROVANI]]/URI$ - и н т е р п оляцион ным полиномом по си с теме $URI[[http://libmeta.ru/me/formula/aux/634_19_INTERPOLIROVANI]]/URI$.
+
+Выбор системы $URI[[http://libmeta.ru/me/formula/aux/634_20_INTERPOLIROVANI]]/URI$ определяется свойством того класса функций, для приближения к-рых предназначаются интерполяционные формулы. Напр., для приближения $URI[[http://libmeta.ru/me/formula/aux/634_21_INTERPOLIROVANI]]/URI$-периодических функций на $URI[[http://libmeta.ru/me/formula/aux/634_22_INTERPOLIROVANI]]/URI$ за $URI[[http://libmeta.ru/me/formula/aux/634_23_INTERPOLIROVANI]]/URI$ естественно взять тригонометрическую систему функций, для приближения на полуоси $URI[[http://libmeta.ru/me/formula/aux/634_24_INTERPOLIROVANI]]/URI$ ограниченных или возрастающих функций - систему рациональных или показательных функций, учитывающих поведение приближаемых функций на бесконечности и т. д.
+
+Чаше всего используется алгебраич. И.: $URI[[http://libmeta.ru/me/formula/aux/634_25_INTERPOLIROVANI]]/URI$, простейший вариант которого-ли н е й н о е и нт е р поли ро в а ни е с двумя узлами И. $URI[[http://libmeta.ru/me/formula/aux/634_26_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_27_INTERPOLIROVANI]]/URI$ - определяется формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_2_INTERPOLIROVANI]]/URI
+\]
+
+Алгебраическое И. более высокого порядка в задаче приближения функций на всем отрезке $URI[[http://libmeta.ru/me/formula/aux/634_28_INTERPOLIROVANI]]/URI$ применяется на практике сравнительно редко. Обычно ограничиваются линейным И. по формуле (1) или к в а дра тичным ин те рполи рованием с тремя узлами на частичных отрезках сетки по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_3_INTERPOLIROVANI]]/URI
+\] Имеются различные варианты записи алгебраич. интерполяционных многочленов (см. URI[[http://libmeta.ru/me/relation/634_2_INTERPOLIROVANI]]/URI бормула).
+
+Находит все большее применение И. сплайнами (см. URI[[http://libmeta.ru/me/relation/634_1_INTERPOLIROVANI]]/URI сплайн).
+
+На практике чаще всего используются параболические или кубические сплайны. Интерполяционным кубическим сплайном дефекта 1 для функции $URI[[http://libmeta.ru/me/formula/aux/634_29_INTERPOLIROVANI]]/URI$ относительно сетки $URI[[http://libmeta.ru/me/formula/aux/634_30_INTERPOLIROVANI]]/URI$ наз. ффункцию $URI[[http://libmeta.ru/me/formula/aux/634_31_INTERPOLIROVANI]]/URI$, являющуюся многочленом третьей степени на каждом из отрезков $URI[[http://libmeta.ru/me/formula/aux/634_32_INTERPOLIROVANI]]/URI$, принадлежащую классу дважды непрерывно-диффференцируемых фуунций и удовлетворяющую условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_4_INTERPOLIROVANI]]/URI
+\]
+
+При таком определении имеется еще два свободных параметра, для нахождения к-рых налагаются дополнительные краевые условия: $URI[[http://libmeta.ru/me/formula/aux/634_33_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/634_34_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_35_INTERPOLIROVANI]]/URI$ или нек-рые другие.
+
+Как непосредственно для задачи приближения функций, так и при решении других задач используются сплайны, к-рые в точках сетки $URI[[http://libmeta.ru/me/formula/aux/634_36_INTERPOLIROVANI]]/URI$ совпадают не только со значениями функций $URI[[http://libmeta.ru/me/formula/aux/634_37_INTERPOLIROVANI]]/URI$, но и со значениями производных этой функции до нек-рого порядка.
+
+Часто при обработке эмпирических данных $URI[[http://libmeta.ru/me/formula/aux/634_38_INTERPOLIROVANI]]/URI$ коэфффициенты $URI[[http://libmeta.ru/me/formula/aux/634_39_INTERPOLIROVANI]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/634_40_INTERPOLIROVANI]]/URI$ определяются, исходя из требования минимизации суммы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_5_INTERPOLIROVANI]]/URI
+\]
+
+Такое построение функции $URI[[http://libmeta.ru/me/formula/aux/634_41_INTERPOLIROVANI]]/URI$ наз. и н т е р п о л ированием по методу на им ень пі и к в а д р а т о в.
+
+И. функций многих переменных имеет ряд принципиальных и вычислительных трудностей. Напр., в случае алгебраич. И. интерполяционный многочлен Лагранжа фиксированной степени, вообще говоря, не существует для произвольной системы различных узлов И. В частності, для функций двух переменных $URI[[http://libmeta.ru/me/formula/aux/634_42_INTERPOLIROVANI]]/URI$ такой многочлен $URI[[http://libmeta.ru/me/formula/aux/634_43_INTERPOLIROVANI]]/URI$ суммарной степени не выше $URI[[http://libmeta.ru/me/formula/aux/634_44_INTERPOLIROVANI]]/URI$ может быть построен по узлам $URI[[http://libmeta.ru/me/formula/aux/634_45_INTERPOLIROVANI]]/URI$ лишь при условии, что эти узлы не лежат на алгебраич. кривой порядка $URI[[http://libmeta.ru/me/formula/aux/634_46_INTERPOLIROVANI]]/URI$. Другой подход к И. функций многих переменных $URI[[http://libmeta.ru/me/formula/aux/634_47_INTERPOLIROVANI]]/URI$ состоит в том, что сначала интерполируется функция по переменной $URI[[http://libmeta.ru/me/formula/aux/634_48_INTERPOLIROVANI]]/URI$ при фиксированных $URI[[http://libmeta.ru/me/formula/aux/634_49_INTERPOLIROVANI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/634_50_INTERPOLIROVANI]]/URI$, потом по следующей переменной при фиксированных остальных $URI[[http://libmeta.ru/me/formula/aux/634_51_INTERPOLIROVANI]]/URI$ и т. д. При таком способе построения интерполяционный алгебраич. многочлен $URI[[http://libmeta.ru/me/formula/aux/634_52_INTERPOLIROVANI]]/URI$ для фуункции $URI[[http://libmeta.ru/me/formula/aux/634_53_INTERPOLIROVANI]]/URI$ с узламџ $URI[[http://libmeta.ru/me/formula/aux/634_54_INTERPOLIROVANI]]/URI$ имеет вид $URI[[http://libmeta.ru/me/formula/aux/634_55_INTERPOLIROVANI]]/URI$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_261d39b2c6912f74e1dcg-1.jpg?height=109&amp;width=834&amp;top_left_y=1769&amp;top_left_x=119)
+$URI[[http://libmeta.ru/me/formula/aux/634_56_INTERPOLIROVANI]]/URI$
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_6_INTERPOLIROVANI]]/URI
+\]
+
+Интерполяционные сплайны для функций многих переменных определяются на многомерной сетке при соответствующих изменениях по аналогии с одномерным случаем. И. функций используется для замены сложно вычисляемой функции другой, вычисляемой быстрее; для приближенного восстановления функции на всей области задания по значениям ее в отдельных точках; для получения сглаживающих функций, описывающих плавный процесс. Такого рода задачи имеют как само. стоятельное значение, так и возникают в качестве вспомогательных при решении более сложных задач во многих областях науки и техники. И. Функций применяется также для приближенного нахождения предельных значений функций, в задачах ускорения сходимости последовательностей и рядов и в других вопросах.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_261d39b2c6912f74e1dcg-1.jpg?height=42&amp;width=772&amp;top_left_y=392&amp;top_left_x=1049)
+у р а в н е н и й и с и с тем. Общие идеи построения интерполяционных методов решения уравнения $URI[[http://libmeta.ru/me/formula/aux/634_57_INTERPOLIROVANI]]/URI$. и систем уравнений $URI[[http://libmeta.ru/me/formula/aux/634_58_INTERPOLIROVANI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/634_59_INTERPOLIROVANI]]/URI$, одни и те же. Трудности задачи И. функций многих переменных особенно сказываются при исследовании и практич. использовании такого рода методов для большого числа уравнений. В основу получения интерполяционных методов решения уравнения $URI[[http://libmeta.ru/me/formula/aux/634_60_INTERPOLIROVANI]]/URI$ положена замена функции $URI[[http://libmeta.ru/me/formula/aux/634_61_INTERPOLIROVANI]]/URI$ ее интерполяционным полиномом $URI[[http://libmeta.ru/me/formula/aux/634_62_INTERPOLIROVANI]]/URI$ и последующим решением уравнения $URI[[http://libmeta.ru/me/formula/aux/634_63_INTERPOLIROVANI]]/URI$. Корни уравнения $URI[[http://libmeta.ru/me/formula/aux/634_64_INTERPOLIROVANI]]/URI$ берутся за приближенные решения уравнения $URI[[http://libmeta.ru/me/formula/aux/634_65_INTERPOLIROVANI]]/URI$. Интерполяционный полином $URI[[http://libmeta.ru/me/formula/aux/634_66_INTERPOLIROVANI]]/URI$ используется также при построении итерационных методов решения уравнения $URI[[http://libmeta.ru/me/formula/aux/634_67_INTERPOLIROVANI]]/URI$.
+
+Напр., взяв за $URI[[http://libmeta.ru/me/formula/aux/634_68_INTERPOLIROVANI]]/URI$ корень линейного интерполяціонного алгебраич. многочлена, построенного по значениям $URI[[http://libmeta.ru/me/formula/aux/634_69_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_70_INTERPOLIROVANI]]/URI$ в узле $URI[[http://libmeta.ru/me/formula/aux/634_71_INTERPOLIROVANI]]/URI$, или по значениям $URI[[http://libmeta.ru/me/formula/aux/634_72_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_73_INTERPOLIROVANI]]/URI$ в узлах $URI[[http://libmeta.ru/me/formula/aux/634_74_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_75_INTERPOLIROVANI]]/URI$, приходят соответственно к методам Ньютона и секущих:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_7_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/634_76_INTERPOLIROVANI]]/URI$ - разделенная разность функции $URI[[http://libmeta.ru/me/formula/aux/634_77_INTERPOLIROVANI]]/URI$ для узлов $URI[[http://libmeta.ru/me/formula/aux/634_78_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_79_INTERPOLIROVANI]]/URI$. При выполнении нек-рых условий последовательность значений $URI[[http://libmeta.ru/me/formula/aux/634_80_INTERPOLIROVANI]]/URI$ будет стремиться при $URI[[http://libmeta.ru/me/formula/aux/634_81_INTERPOLIROVANI]]/URI$ к решению уравнения $URI[[http://libmeta.ru/me/formula/aux/634_82_INTERPOLIROVANI]]/URI$.
+
+Другой подход к построенио методов решения уравнения $URI[[http://libmeta.ru/me/formula/aux/634_83_INTERPOLIROVANI]]/URI$ основан на И. обратной функции $URI[[http://libmeta.ru/me/formula/aux/634_84_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/634_85_INTERPOLIROVANI]]/URI$. Пусть в качестве интерполяционной формулы для функции $URI[[http://libmeta.ru/me/formula/aux/634_86_INTERPOLIROVANI]]/URI$ взят интерполяционный алгебраич. многочлен Лагранжа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_8_INTERPOLIROVANI]]/URI
+\]
+
+Предполагается, что обратная функция существует в окрестности искомого корня уравнения $URI[[http://libmeta.ru/me/formula/aux/634_87_INTERPOLIROVANI]]/URI$ и составлена таблица значений $URI[[http://libmeta.ru/me/formula/aux/634_88_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_89_INTERPOLIROVANI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/634_90_INTERPOLIROVANI]]/URI$. За следующее приближенное значение $URI[[http://libmeta.ru/me/formula/aux/634_91_INTERPOLIROVANI]]/URI$ принимается значение пнтерполяционного многочлена в нуле:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_9_INTERPOLIROVANI]]/URI
+\]
+
+Числен ное ин тегр ир о в ан ие. Аппарат И. функций лежит в основе построения многих квадратурных и кубатурных формул. Такого рода формулы строятся путем замены интегрируемой функции на всей области или на ее составных частях интерполяционными полиномами того или иного вида и последующим интегрированием этих полиномов.
+
+Напр., квадратурные формулы наивысшей алгебраич. степени точности, так наз. Гаусса квадратурные борлульг
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_10_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/634_92_INTERPOLIROVANI]]/URI$ - знакопостоянная весовая функция, получаются в результате замены функции $URI[[http://libmeta.ru/me/formula/aux/634_93_INTERPOLIROVANI]]/URI$ интерполяционным алгебраич. многочленом, построенным по корням $URI[[http://libmeta.ru/me/formula/aux/634_94_INTERPOLIROVANI]]/URI$ ортогонального относительно веса $URI[[http://libmeta.ru/me/formula/aux/634_95_INTERPOLIROVANI]]/URI$ многочлена степени $URI[[http://libmeta.ru/me/formula/aux/634_96_INTERPOLIROVANI]]/URI$. Если разделить весь отрезок интегрирования [a, b] на четное число $URI[[http://libmeta.ru/me/formula/aux/634_97_INTERPOLIROVANI]]/URI$ равных частей длины $URI[[http://libmeta.ru/me/formula/aux/634_98_INTERPOLIROVANI]]/URI$ и на каждом сдвоенном частичном отрезке заменить $URI[[http://libmeta.ru/me/formula/aux/634_99_INTERPOLIROVANI]]/URI$ ее квадратичным интерполяционным многочленом с узлами в крайних и средней точках, то придем к составной Силпсона бормуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_11_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/634_100_INTERPOLIROVANI]]/URI$.
+
+Можно взять за основу и интерполяционные сплайны какой-то фиксированной степени. Изложенная выше схема построения формул для приближенного вычисления интегралов применима и в многомерном случае.
+
+Ч исленное дифф е р енци р о в ание. Формулы численного дифференцирования получаются в результате диффференцирования интерполяционных формул. При этом, как правило, заранее известна нек-рая априорная информация о диффференцируемой функции, касающаяся ее гладкости.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/634_101_INTERPOLIROVANI]]/URI$ - интерполяционный полином нек-рого вида для функции $URI[[http://libmeta.ru/me/formula/aux/634_102_INTERPOLIROVANI]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/634_103_INTERPOLIROVANI]]/URI$ - остаток интерполяционной формулы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_12_INTERPOLIROVANI]]/URI
+\]
+
+Если в равенстве
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_13_INTERPOLIROVANI]]/URI
+\]
+
+пренебречь величиной $URI[[http://libmeta.ru/me/formula/aux/634_104_INTERPOLIROVANI]]/URI$, то это приведет к формуле для приближенного вычисления $URI[[http://libmeta.ru/me/formula/aux/634_105_INTERPOLIROVANI]]/URI$-й производной функции $URI[[http://libmeta.ru/me/formula/aux/634_106_INTERPOLIROVANI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_14_INTERPOLIROVANI]]/URI
+\]
+
+Формулы численного дифференцирования, в основе к-рых лежит И., получаются из приближенного равенства (3) в зависимости от выбора интерполяционного полинома $URI[[http://libmeta.ru/me/formula/aux/634_107_INTERPOLIROVANI]]/URI$. При численном дифференцировании используются, как правило, приближенные значения функции в узлах; погрешность формул численного дифференцирования зависит не только от способа И. и шага И., но и от ошибки используемых значений функции в узлах. Напр., в случае линейного И. (1):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_15_INTERPOLIROVANI]]/URI
+\]
+
+причем для остатка $URI[[http://libmeta.ru/me/formula/aux/634_108_INTERPOLIROVANI]]/URI$ имеет место представление: $URI[[http://libmeta.ru/me/formula/aux/634_109_INTERPOLIROVANI]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/634_110_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_111_INTERPOLIROVANI]]/URI$ известны соответственно с погрешностями $URI[[http://libmeta.ru/me/formula/aux/634_112_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_113_INTERPOLIROVANI]]/URI$, то погрешность формулы (4) будет содержать еще член $URI[[http://libmeta.ru/me/formula/aux/634_114_INTERPOLIROVANI]]/URI$, к-рый с уменьшением шага $URI[[http://libmeta.ru/me/formula/aux/634_115_INTERPOLIROVANI]]/URI$ возрастает. Прі использовании формул численного диффференцирования шаг И. должен согласовываться с погрешностью значений функции. Поэтому на практике нередки случаи, когда известная с нек-рой погрепностью на густой сетке функция используется в данной задаче не во всех точках, а на более редкой сетке.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c3cddfc65b5576164611g-1.jpg?height=35&amp;width=791&amp;top_left_y=2079&amp;top_left_x=155)
+у р а в н е н и й. Неизвестная функция $URI[[http://libmeta.ru/me/formula/aux/634_116_INTERPOLIROVANI]]/URI$ заменяется в интегральном уравнении какой-либо интерполяционной формулой (интерполяционным полиномом, интерполяционным сплайном и т. д.) с узлами И. $URI[[http://libmeta.ru/me/formula/aux/634_117_INTERPOLIROVANI]]/URI$, а приближенные значения для $URI[[http://libmeta.ru/me/formula/aux/634_118_INTERPOLIROVANI]]/URI$ находятся из системы, полученной после подстановки вместо независимой переменной $URI[[http://libmeta.ru/me/formula/aux/634_119_INTERPOLIROVANI]]/URI$ узлов И. $URI[[http://libmeta.ru/me/formula/aux/634_120_INTERPOLIROVANI]]/URI$. Напр., для линейного интегрального уравнения Фредгольма 2-го рода
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_16_INTERPOLIROVANI]]/URI
+\]
+
+можно воспользоваться лагранжевым представлением интерполяционного многочлена:
+
+$URI[[http://libmeta.ru/me/formula/aux/634_121_INTERPOLIROVANI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/634_122_INTERPOLIROVANI]]/URI$ - остаток И., $URI[[http://libmeta.ru/me/formula/aux/634_123_INTERPOLIROVANI]]/URI$.
+
+Замена функции $URI[[http://libmeta.ru/me/formula/aux/634_124_INTERPOLIROVANI]]/URI$ в (5) ее интерполяционным многочленом $URI[[http://libmeta.ru/me/formula/aux/634_125_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_126_INTERPOLIROVANI]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/634_127_INTERPOLIROVANI]]/URI$, приводит к линейной системе уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_17_INTERPOLIROVANI]]/URI
+\]
+
+для нахождения приближенных значений $URI[[http://libmeta.ru/me/formula/aux/634_128_INTERPOLIROVANI]]/URI$ решения $URI[[http://libmeta.ru/me/formula/aux/634_129_INTERPOLIROVANI]]/URI$ уравнения (5) в узлах $URI[[http://libmeta.ru/me/formula/aux/634_130_INTERPOLIROVANI]]/URI$. В случае нелинейных интегральных уравнений приближенные значения $URI[[http://libmeta.ru/me/formula/aux/634_131_INTERPOLIROVANI]]/URI$ находятся соответственно из нелинейной системы.
+
+Численн о е ре ші ение дифф е р енциа л ь н методов решения дифференциальных уравнений состоит в замене производных искомых функций интерполяционными формулами численного дифференцирования, а в ряде случаев и заменой интерполяционными формулами других функций и выражений, входящих в уравнения.
+
+Пусть имеются формулы численного дифференцирования
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_18_INTERPOLIROVANI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/634_132_INTERPOLIROVANI]]/URI$ для равноотстоящих узлов $URI[[http://libmeta.ru/me/formula/aux/634_133_INTERPOLIROVANI]]/URI$, получаемые соответственно дифференцированием формул линейной и квадратичной И. (1) и (2). Тогда для обыкновенного диффференциального уравнения 2-го порядка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_19_INTERPOLIROVANI]]/URI
+\]
+
+при нек-рых дополнительных условиях получается с учетом (6) уравнение в конечных разностях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_20_INTERPOLIROVANI]]/URI
+\]
+
+из к-рого вместе с уравнениями, полученными из дополнительных условий, находятся приближенные значения $URI[[http://libmeta.ru/me/formula/aux/634_134_INTERPOLIROVANI]]/URI$ решения $URI[[http://libmeta.ru/me/formula/aux/634_135_INTERPOLIROVANI]]/URI$ в узлах $URI[[http://libmeta.ru/me/formula/aux/634_136_INTERPOLIROVANI]]/URI$.
+
+Сведение дифференциальных уравнений с частными производными $URI[[http://libmeta.ru/me/formula/aux/634_137_INTERPOLIROVANI]]/URI$ соответствующим уравнениям в конечных разностях производится часто также с использованием формул численного диффференцирования.
+
+Интерполяционный метод применим для решения дифференциальных уравнений, записанных в интегральной форме. Напр., для нахождения приближенного решения задачи Коши
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_21_INTERPOLIROVANI]]/URI
+\]
+
+в точках $URI[[http://libmeta.ru/me/formula/aux/634_138_INTERPOLIROVANI]]/URI$, используются разностные формулы типа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_22_INTERPOLIROVANI]]/URI
+\]
+
+получаемые заменой функции под знаком интеграла в равенстве
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_23_INTERPOLIROVANI]]/URI
+\] интерполяционным полиномом и последующим интегрированием. В частности, таким образом получены формулы Адамса для уравнения 1-го порядка (7) формулы Стёрмера для уравнений 2-го порядка и т. д.
+
+Такой подход позволяет строить вычислительные алгоритмы для широкого класса дифференциальных уравнений в том числе и для уравнений в частных производных. Исследование разрешимости, точности и устойчивости решения возникающих конечно разностных уравнений представляет собой основную и наиболее трудную часть теории численного решения дифференциальных уравнений.
+
+Интерполирование операторов и некото р ы р о е и ю ч и с ле н ных ме то д о в. Построение численных методов решения математич. задач, записанных в виде $URI[[http://libmeta.ru/me/formula/aux/634_139_INTERPOLIROVANI]]/URI$, где элементы $URI[[http://libmeta.ru/me/formula/aux/634_140_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_141_INTERPOLIROVANI]]/URI$ принадлежат нек-рым множествам $URI[[http://libmeta.ru/me/formula/aux/634_142_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_143_INTERPOLIROVANI]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/634_144_INTERPOLIROVANI]]/URI$ - заданный оператор, состоит в замене множеств $URI[[http://libmeta.ru/me/formula/aux/634_145_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_146_INTERPOLIROVANI]]/URI$ и оператора $URI[[http://libmeta.ru/me/formula/aux/634_147_INTERPOLIROVANI]]/URI$ или только нек-рых из этих трех объектов другими, удобными для вычислительных целей. При этом замена должна быть сделана так, чтобы решение новой задачи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_24_INTERPOLIROVANI]]/URI
+\]
+
+состоящей в нахождении $URI[[http://libmeta.ru/me/formula/aux/634_148_INTERPOLIROVANI]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/634_149_INTERPOLIROVANI]]/URI$, было в каком-то смысле близко к решению первоначальной задачи. Один из способов замены оператора $URI[[http://libmeta.ru/me/formula/aux/634_150_INTERPOLIROVANI]]/URI$ его приближением $URI[[http://libmeta.ru/me/formula/aux/634_151_INTERPOLIROVANI]]/URI$ состоит в использовании интерполирования операторов. Имеются различные формулировки задачи И. операторов. Линейный интерполяционный оператор $URI[[http://libmeta.ru/me/formula/aux/634_152_INTERPOLIROVANI]]/URI$ для данного оператора записывается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_25_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/634_153_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_154_INTERPOLIROVANI]]/URI$ - узлы И., $URI[[http://libmeta.ru/me/formula/aux/634_155_INTERPOLIROVANI]]/URI$ - оператор разделенной разности 1-го порядка, определяемый как линейный оператор, удовлетворяющий условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_26_INTERPOLIROVANI]]/URI
+\]
+
+Данное определение оператора разделенной разности в ряде случаев конкретизируется. С использованием линейного И. (8) «метод секущих» для уравнения $URI[[http://libmeta.ru/me/formula/aux/634_156_INTERPOLIROVANI]]/URI$ записывается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_27_INTERPOLIROVANI]]/URI
+\]
+
+тде $URI[[http://libmeta.ru/me/formula/aux/634_157_INTERPOLIROVANI]]/URI$ - оператор, обратный к $URI[[http://libmeta.ru/me/formula/aux/634_158_INTERPOLIROVANI]]/URI$.
+
+Постановка задачи И. функционалов, представляющая интерес для теории приближенных методов такова. Пусть $URI[[http://libmeta.ru/me/formula/aux/634_159_INTERPOLIROVANI]]/URI$ некоторые фиксированные функционалы или классы функционалов, определенные на $URI[[http://libmeta.ru/me/formula/aux/634_160_INTERPOLIROVANI]]/URI$. Функционал $URI[[http://libmeta.ru/me/formula/aux/634_161_INTERPOLIROVANI]]/URI$ наз. и н т е рполяци онным ф ункци о а льны м мног о ч л е н о м для данного функционала $URI[[http://libmeta.ru/me/formula/aux/634_162_INTERPOLIROVANI]]/URI$ и системы точек $URI[[http://libmeta.ru/me/formula/aux/634_163_INTERPOLIROVANI]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/634_164_INTERPOLIROVANI]]/URI$, если выполняются соотношения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_28_INTERPOLIROVANI]]/URI
+\]
+
+И. функционалов используется при построении приближенных методов вычисления континуальных интегралов, для нахождения әкстремальных значений функционалов и ряда других задач.
+
+Напр., приближенные интерполяционные формулы для вычисления континуальных интегралов имеют вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_29_INTERPOLIROVANI]]/URI
+\]
+
+при этом интеграл от интерполяционного полинома $URI[[http://libmeta.ru/me/formula/aux/634_165_INTERPOLIROVANI]]/URI$ для нек-рых мер $URI[[http://libmeta.ru/me/formula/aux/634_166_INTERPOLIROVANI]]/URI$ может вычисляться точно или сводиться к конечномерным интегралам. Интерполяционный полином $URI[[http://libmeta.ru/me/formula/aux/634_167_INTERPOLIROVANI]]/URI$, когда $URI[[http://libmeta.ru/me/formula/aux/634_168_INTERPOLIROVANI]]/URI$ есть пространство непрерывных на отрезке $URI[[http://libmeta.ru/me/formula/aux/634_169_INTERPOLIROVANI]]/URI$ функций $URI[[http://libmeta.ru/me/formula/aux/634_170_INTERPOLIROVANI]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_30_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/634_171_INTERPOLIROVANI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/634_172_INTERPOLIROVANI]]/URI$ - узлы И., а функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_31_INTERPOLIROVANI]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/634_173_INTERPOLIROVANI]]/URI$ - постоянный или линейный функционал, то $URI[[http://libmeta.ru/me/formula/aux/634_174_INTERPOLIROVANI]]/URI$.
+
+Применение И. к нахождению экстремальных значений функционалов может быть проиллюстрировано двумя интерполяционными аналогами метода градиента для нахождения локальной точки безусловного минимума функционала $URI[[http://libmeta.ru/me/formula/aux/634_175_INTERPOLIROVANI]]/URI$, определенного на нек-ром гильбертовом пространстве. Первый из этих методов получается, если в градиентном методе заменить grad $URI[[http://libmeta.ru/me/formula/aux/634_176_INTERPOLIROVANI]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/634_177_INTERPOLIROVANI]]/URI$, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_32_INTERPOLIROVANI]]/URI
+\]
+
+Второй метод использует градиент интерполяционного полинома. По приближениям $URI[[http://libmeta.ru/me/formula/aux/634_178_INTERPOLIROVANI]]/URI$ к экстремальной точке $URI[[http://libmeta.ru/me/formula/aux/634_179_INTERPOLIROVANI]]/URI$ функционала $URI[[http://libmeta.ru/me/formula/aux/634_180_INTERPOLIROVANI]]/URI$ строится квадратичный интерполяционный функционал
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_33_INTERPOLIROVANI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/634_181_INTERPOLIROVANI]]/URI$ - разделенная разность 2-го порядка функционала $URI[[http://libmeta.ru/me/formula/aux/634_182_INTERPOLIROVANI]]/URI$ относительно узлов $URI[[http://libmeta.ru/me/formula/aux/634_183_INTERPOLIROVANI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/634_184_INTERPOLIROVANI]]/URI$, и новое приближение $URI[[http://libmeta.ru/me/formula/aux/634_185_INTERPOLIROVANI]]/URI$ находится по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/634_34_INTERPOLIROVANI]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/634_15_INTERPOLIROVANI]]/URI (9) и (10) используют соответственно два и три начальных URI[[http://libmeta.ru/me/relation/634_14_INTERPOLIROVANI]]/URI.
+
+Применение И. функционалов и операторов для построения URI[[http://libmeta.ru/me/relation/634_13_INTERPOLIROVANI]]/URI решения конкретных задач основано на использовании URI[[http://libmeta.ru/me/relation/634_12_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/634_11_INTERPOLIROVANI]]/URI с малой величиной URI[[http://libmeta.ru/me/relation/634_10_INTERPOLIROVANI]]/URI. Такого рода URI[[http://libmeta.ru/me/relation/634_9_INTERPOLIROVANI]]/URI должны URI[[http://libmeta.ru/me/relation/634_8_INTERPOLIROVANI]]/URI для отдельных классов функционалов и операторов с учетом специфики этих классов.
+
+.Тит.: [1] Г о н ч а р о в В. Л., URI[[http://libmeta.ru/me/relation/634_7_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/634_6_INTERPOLIROVANI]]/URI и URI[[http://libmeta.ru/me/relation/634_5_INTERPOLIROVANI]]/URI URI[[http://libmeta.ru/me/relation/634_4_INTERPOLIROVANI]]/URI, 2 изд., М., 1954; [2] Б е р е 3 и н
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4ccadecdfc7427e833efg-1.jpg?height=44&amp;width=821&amp;top_left_y=1556&amp;top_left_x=990)
+2 изд., М., 1975; [4] Кр Ы Ло в В. И., Б о б к о в В. В.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4ccadecdfc7427e833efg-1.jpg?height=47&amp;width=821&amp;top_left_y=1614&amp;top_left_x=989)
+Сплайны в вычислительной математике, М., 1976; [6] С а м а. с к и й А. А., Введение в URI[[http://libmeta.ru/me/relation/634_3_INTERPOLIROVANI]]/URI разностных схем, м., 1971; интегралов по гауссовым мерам, Минск, 1976.</text>
+  <text_orig>в В Ч И с ли Т А л м а т е м а т и к е - способ приближенного или точного нахождения какой-либо величины по известным отдельным значениям этой же или других величин, связанных с ней. На основе И. построен ряд приближенных методов решения математич. задач.
+
+Наибольшее значение в вычислительной математике имеет задача построения способов интерполирования функций. Интерполяция функционалов и операторов также широко используется при построении приближенных методов.
+
+П ри ближенное пре д с та влени е и в ч ч и л е ни е ф у н ц цй̈. И. функций рассматривается как один из способов их приближения. И. функции $f(x)$ на отрезке $[a, b]$ по значениям ее в узлах $x_{k}$ сетки $\Delta_{n}=\left\{a \leqslant x_{0}&lt;x_{1}&lt;\ldots&lt;x_{n} \leqslant b\right\}$ означает пост роение другой функции $L_{n}(x) \equiv L_{n}(f ; x)$ такой, что $L_{n}\left(x_{k}\right)=$ $=f\left(x_{k}\right), k=0,1, \ldots, n$. В более общей постановке задача И. функции $f(x)$ состоит в построении $L_{n}(x)$ не только из условия совпадения значений функций $L_{n}(x)$ и $f(x)$ на сетке $\Delta_{n}$, но и из требования совпадения в отдельных узлах их производных до какого-то порядка или нек-рых других соотношений, связывающих $f(x)$ и $L_{n}(x)$.
+
+Обычно $L_{n}(x)$ строится в виде
+
+\[
+L_{n}(x)=\sum_{i=0}^{n} a_{i} \varphi_{i}(x),
+\]
+
+где $\left\{\varphi_{i}(x)\right\}$ - некоторая заранее выбранная система линейно независимых функций. Такое И. наз. линейным относительно системы $\left\{\varphi_{i}(x)\right\}$, а $L_{n}(x)$ - и н т е р п оляцион ным полиномом по си с теме $\left\{\varphi_{i}(x)\right\}$.
+
+Выбор системы $\left\{\varphi_{i}(x)\right\}$ определяется свойством того класса функций, для приближения к-рых предназначаются интерполяционные формулы. Напр., для приближения $2 \pi$-периодических функций на $[0,2 \pi]$ за $\left\{\varphi_{i}(x)\right\}$ естественно взять тригонометрическую систему функций, для приближения на полуоси $[0, \infty)$ ограниченных или возрастающих функций - систему рациональных или показательных функций, учитывающих поведение приближаемых функций на бесконечности и т. д.
+
+Чаше всего используется алгебраич. И.: $\varphi_{i}(x)=x^{i}$, простейший вариант которого-ли н е й н о е и нт е р поли ро в а ни е с двумя узлами И. $x_{k}$ и $x_{k+1}$ - определяется формулой
+
+\[
+\begin{gathered}
+L_{1}(x)=\frac{x-x_{k}}{x_{k+1}-x_{k}}\left[f\left(x_{k+1}\right)-f\left(x_{k}\right)\right]+f\left(x_{k}\right), \\
+x_{k} \leqslant x \leqslant x_{k+1} .
+\end{gathered}
+\]
+
+Алгебраическое И. более высокого порядка в задаче приближения функций на всем отрезке $[a, b]$ применяется на практике сравнительно редко. Обычно ограничиваются линейным И. по формуле (1) или к в а дра тичным ин те рполи рованием с тремя узлами на частичных отрезках сетки по формуле
+
+\[
+\begin{gathered}
+L_{2}(x)=\frac{\left(x-x_{k}\right)\left(x-x_{k+1}\right)}{\left(x_{k-1}-x_{k}\right)\left(x_{k-1}-x_{k+1}\right)} f\left(x_{k-1}\right)+ \\
++\frac{\left(x-x_{k-1}\right)\left(x-x_{k+1}\right)}{\left(x_{k}-x_{k-1}\right)\left(x_{k}-x_{k+1}\right)} f\left(x_{k}\right)+ \\
++\frac{\left(x-x_{k-1}\right)\left(x-x_{k}\right)}{\left(x_{k+1}-x_{k-1}\right)\left(x_{k+1}-x_{k}\right)} f\left(x_{k+1}\right), \\
+x_{k-1} \leqslant x \leqslant x_{k+1} .
+\end{gathered}
+\] Имеются различные варианты записи алгебраич. интерполяционных многочленов (см. Интерполяционная бормула).
+
+Находит все большее применение И. сплайнами (см. Интерполяционный сплайн).
+
+На практике чаще всего используются параболические или кубические сплайны. Интерполяционным кубическим сплайном дефекта 1 для функции $f(x)$ относительно сетки $\Delta_{n}$ наз. ффункцию $S_{3}(x) \equiv S_{3}(f ; x)$, являющуюся многочленом третьей степени на каждом из отрезков $\left[x_{k-1}, x_{k}\right]$, принадлежащую классу дважды непрерывно-диффференцируемых фуунций и удовлетворяющую условиям
+
+\[
+S_{3}\left(x_{k}\right)=f\left(x_{k}\right), \quad k=0,1, \ldots, n ; n \geqslant 2 .
+\]
+
+При таком определении имеется еще два свободных параметра, для нахождения к-рых налагаются дополнительные краевые условия: $S_{3}^{(i)}(a)=S_{3}^{i}(b), i=1,2 ; S_{3}^{\prime}(a)=$ $=a_{n}$ и $S_{3}^{\prime}(b)=b_{n}$ или нек-рые другие.
+
+Как непосредственно для задачи приближения функций, так и при решении других задач используются сплайны, к-рые в точках сетки $\Delta_{n}$ совпадают не только со значениями функций $f(x)$, но и со значениями производных этой функции до нек-рого порядка.
+
+Часто при обработке эмпирических данных $\left\{y_{k}\right\}$ коэфффициенты $a_{i}$ в $L_{n}(x)$ определяются, исходя из требования минимизации суммы
+
+\[
+S=\sum_{k=1}^{m}\left[y_{k}-L_{n}\left(x_{k}\right)\right]^{2}, \quad m \geqslant n .
+\]
+
+Такое построение функции $L_{n}(x)$ наз. и н т е р п о л ированием по методу на им ень пі и к в а д р а т о в.
+
+И. функций многих переменных имеет ряд принципиальных и вычислительных трудностей. Напр., в случае алгебраич. И. интерполяционный многочлен Лагранжа фиксированной степени, вообще говоря, не существует для произвольной системы различных узлов И. В частності, для функций двух переменных $f(x, y)$ такой многочлен $L_{n}(x, y)$ суммарной степени не выше $n$ может быть построен по узлам $\left(x_{k}, y_{k}\right)$ лишь при условии, что эти узлы не лежат на алгебраич. кривой порядка $n$. Другой подход к И. функций многих переменных $f\left(x_{1}, \ldots, x_{m}\right)$ состоит в том, что сначала интерполируется функция по переменной $x_{1}$ при фиксированных $x_{k}$, $k=2,3, \ldots, m$, потом по следующей переменной при фиксированных остальных $x_{k}$ и т. д. При таком способе построения интерполяционный алгебраич. многочлен $L n_{1} \ldots n_{m}\left(x_{1}, \ldots, x_{m}\right)$ для фуункции $f\left(x_{1}, \ldots, x_{m}\right)$ с узламџ $\left(x_{1}^{k_{1}}, \ldots, x_{m}^{k_{m}}\right), \quad x_{j}^{v} \neq x_{j}^{\mu} ; \quad v \neq \mu ; \quad k_{j}=0,1, \ldots, n_{j} ;$ имеет вид $j=1,2, \ldots, m$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_261d39b2c6912f74e1dcg-1.jpg?height=109&amp;width=834&amp;top_left_y=1769&amp;top_left_x=119)
+$\times \frac{f\left(x_{1}^{k_{1}}, \ldots, x_{m}^{k_{m}}\right)}{\left(x_{1}-x_{1}^{k_{1}}\right) \ldots\left(x_{m}-x_{m}^{k_{m}}\right)}$
+
+где
+
+\[
+\omega_{n_{j}}\left(x_{j}\right)=\prod_{k_{j=0}}^{n_{j}}\left(x_{j}-x_{j}^{k}\right), j=1,2, \ldots, m .
+\]
+
+Интерполяционные сплайны для функций многих переменных определяются на многомерной сетке при соответствующих изменениях по аналогии с одномерным случаем. И. функций используется для замены сложно вычисляемой функции другой, вычисляемой быстрее; для приближенного восстановления функции на всей области задания по значениям ее в отдельных точках; для получения сглаживающих функций, описывающих плавный процесс. Такого рода задачи имеют как само. стоятельное значение, так и возникают в качестве вспомогательных при решении более сложных задач во многих областях науки и техники. И. Функций применяется также для приближенного нахождения предельных значений функций, в задачах ускорения сходимости последовательностей и рядов и в других вопросах.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_261d39b2c6912f74e1dcg-1.jpg?height=42&amp;width=772&amp;top_left_y=392&amp;top_left_x=1049)
+у р а в н е н и й и с и с тем. Общие идеи построения интерполяционных методов решения уравнения $f(x)=0$. и систем уравнений $f_{i}\left(x_{1}, x_{2}, \ldots, x_{m}\right)=0, i=1,2, \ldots$, $m$, одни и те же. Трудности задачи И. функций многих переменных особенно сказываются при исследовании и практич. использовании такого рода методов для большого числа уравнений. В основу получения интерполяционных методов решения уравнения $f(x)=0$ положена замена функции $f(x)$ ее интерполяционным полиномом $L_{n}(x)$ и последующим решением уравнения $L_{n}(x)=0$. Корни уравнения $L_{n}(x)=0$ берутся за приближенные решения уравнения $f(x)=0$. Интерполяционный полином $L_{n}(x)$ используется также при построении итерационных методов решения уравнения $f(x)=0$.
+
+Напр., взяв за $x_{n+1}$ корень линейного интерполяціонного алгебраич. многочлена, построенного по значениям $f\left(x_{n}\right)$ и $f^{\prime}\left(x_{n}\right)$ в узле $x_{n}$, или по значениям $f\left(x_{n-1}\right)$ и $f\left(x_{n}\right)$ в узлах $x_{n-1}$ и $x_{n}$, приходят соответственно к методам Ньютона и секущих:
+
+\[
+x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}, \quad x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f\left(x_{n-1}, x_{n}\right)},
+\]
+
+где $f\left(x_{n-1}, x_{n}\right)$ - разделенная разность функции $f(x)$ для узлов $x_{n-1}$ и $x_{n}$. При выполнении нек-рых условий последовательность значений $x_{n}$ будет стремиться при $n \rightarrow \infty \quad$ к решению уравнения $f(x)=0$.
+
+Другой подход к построенио методов решения уравнения $f(x)=0$ основан на И. обратной функции $x=$ $=g(y)$. Пусть в качестве интерполяционной формулы для функции $x=g(y)$ взят интерполяционный алгебраич. многочлен Лагранжа
+
+\[
+\begin{gathered}
+L_{n}(y)=\sum_{k=0}^{n} \frac{\omega_{n}(y)}{\omega_{n}^{\prime}\left(y_{k}\right)\left(y-y_{k}\right)} g\left(y_{k}\right), \\
+\omega_{n}(y)=\coprod_{k=0}^{n}\left(y-y_{k}\right) .
+\end{gathered}
+\]
+
+Предполагается, что обратная функция существует в окрестности искомого корня уравнения $f(x)=0$ и составлена таблица значений $x_{k}$ и $y_{k}=f\left(x_{k}\right), k=$ $=0,1, \ldots, n$. За следующее приближенное значение $x_{k+1}$ принимается значение пнтерполяционного многочлена в нуле:
+
+\[
+x_{k+1}=-\omega_{n}(0) \sum_{k=0}^{n} \frac{x_{k}}{\omega_{n}^{\prime}\left(y_{k}\right) y_{k}} .
+\]
+
+Числен ное ин тегр ир о в ан ие. Аппарат И. функций лежит в основе построения многих квадратурных и кубатурных формул. Такого рода формулы строятся путем замены интегрируемой функции на всей области или на ее составных частях интерполяционными полиномами того или иного вида и последующим интегрированием этих полиномов.
+
+Напр., квадратурные формулы наивысшей алгебраич. степени точности, так наз. Гаусса квадратурные борлульг
+
+\[
+\int_{a}^{b} p(x) f(x) d x \approx \sum_{k=1}^{n} A_{k} f\left(x_{k}\right)
+\]
+
+где $p(x)$ - знакопостоянная весовая функция, получаются в результате замены функции $f(x)$ интерполяционным алгебраич. многочленом, построенным по корням $x_{k}$ ортогонального относительно веса $p(x)$ многочлена степени $n$. Если разделить весь отрезок интегрирования [a, b] на четное число $n$ равных частей длины $h=\frac{1}{n}(b-a)$ и на каждом сдвоенном частичном отрезке заменить $f(x)$ ее квадратичным интерполяционным многочленом с узлами в крайних и средней точках, то придем к составной Силпсона бормуле
+
+\[
+\begin{aligned}
+\int_{a}^{b} f(x) d x \approx &amp; \frac{b-a}{3 n}\left[f_{0}+f_{n}+2\left(f_{2}+f_{4}+\ldots+f_{n-2}\right)+\right. \\
+&amp; \left.+4\left(f_{1}+f_{3}+\ldots+f_{n-1}\right)\right]
+\end{aligned}
+\]
+
+где $f_{k}=f(a+k h), k=0,1, \ldots, n$.
+
+Можно взять за основу и интерполяционные сплайны какой-то фиксированной степени. Изложенная выше схема построения формул для приближенного вычисления интегралов применима и в многомерном случае.
+
+Ч исленное дифф е р енци р о в ание. Формулы численного дифференцирования получаются в результате диффференцирования интерполяционных формул. При этом, как правило, заранее известна нек-рая априорная информация о диффференцируемой функции, касающаяся ее гладкости.
+
+Пусть $L_{n}(x)$ - интерполяционный полином нек-рого вида для функции $f(x)$, а $R_{n}(x)$ - остаток интерполяционной формулы:
+
+\[
+f(x)=L_{n}(x)+R_{n}(x) .
+\]
+
+Если в равенстве
+
+\[
+f^{(i)}(x)=L_{n}^{(i)}(x)+R_{n}^{(i)}(x)
+\]
+
+пренебречь величиной $R_{n}^{(i)}(x)$, то это приведет к формуле для приближенного вычисления $i$-й производной функции $f(x)$ :
+
+\[
+f^{(i)}(x) \approx L_{n}^{(i)}(x) .
+\]
+
+Формулы численного дифференцирования, в основе к-рых лежит И., получаются из приближенного равенства (3) в зависимости от выбора интерполяционного полинома $L_{n}(x)$. При численном дифференцировании используются, как правило, приближенные значения функции в узлах; погрешность формул численного дифференцирования зависит не только от способа И. и шага И., но и от ошибки используемых значений функции в узлах. Напр., в случае линейного И. (1):
+
+\[
+f^{\prime}\left(x_{k}\right) \approx \frac{1}{h}\left[f\left(x_{k+1}\right)-f\left(x_{k}\right)\right]
+\]
+
+причем для остатка $R_{1}^{\prime}(x)$ имеет место представление: $R_{1}^{\prime}\left(x_{k}\right)=-\frac{1}{2} f^{\prime \prime}(\xi) h, \quad \xi \in\left(x_{k}, \quad x_{k+1}\right), \quad h=x_{k+1}-x_{k}$. Если $f\left(x_{k+1}\right)$ и $f\left(x_{k}\right)$ известны соответственно с погрешностями $\varepsilon_{k+1}$ и $\varepsilon_{k}, \varepsilon_{k+1} \neq \varepsilon_{k}$, то погрешность формулы (4) будет содержать еще член $\left(\varepsilon_{k+1}-\varepsilon_{k}\right) / h$, к-рый с уменьшением шага $h$ возрастает. Прі использовании формул численного диффференцирования шаг И. должен согласовываться с погрешностью значений функции. Поэтому на практике нередки случаи, когда известная с нек-рой погрепностью на густой сетке функция используется в данной задаче не во всех точках, а на более редкой сетке.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c3cddfc65b5576164611g-1.jpg?height=35&amp;width=791&amp;top_left_y=2079&amp;top_left_x=155)
+у р а в н е н и й. Неизвестная функция $\varphi(x)$ заменяется в интегральном уравнении какой-либо интерполяционной формулой (интерполяционным полиномом, интерполяционным сплайном и т. д.) с узлами И. $x_{k}$, а приближенные значения для $\varphi\left(x_{k}\right)$ находятся из системы, полученной после подстановки вместо независимой переменной $x$ узлов И. $x_{k}$. Напр., для линейного интегрального уравнения Фредгольма 2-го рода
+
+\[
+\varphi(x)=\lambda \int_{a}^{b} K(x, s) \varphi(s) d s+f(x)
+\]
+
+можно воспользоваться лагранжевым представлением интерполяционного многочлена:
+
+$\varphi(x)=\sum_{k=0}^{n} l_{k}(x) \varphi\left(x_{k}\right)+R_{n}(x) \equiv L_{n}(x)+R_{n}(x)$, где $R_{n}(x)$ - остаток И., $l_{k}(x)=\omega_{n}(x) / \omega_{n}^{\prime}\left(x_{k}\right)\left(x-x_{k}\right), \omega_{n}(x)=\prod_{k=0}^{n}\left(x-x_{k}\right)$.
+
+Замена функции $\varphi(x)$ в (5) ее интерполяционным многочленом $L_{n}(x)$ и $x$ на $x_{i}$, приводит к линейной системе уравнений
+
+\[
+\begin{gathered}
+\varphi_{i}=\lambda \sum_{k=0}^{n} M_{k}\left(x_{i}\right) \varphi_{k}+f\left(x_{i}\right), \\
+M_{k}\left(x_{i}\right)=\int_{a}^{b} K\left(x_{i}, s\right) l_{k}(s) d s, \quad i=0,1, \ldots, n,
+\end{gathered}
+\]
+
+для нахождения приближенных значений $\varphi_{i}$ решения $\varphi(x)$ уравнения (5) в узлах $x_{i}$. В случае нелинейных интегральных уравнений приближенные значения $\varphi_{i}$ находятся соответственно из нелинейной системы.
+
+Численн о е ре ші ение дифф е р енциа л ь н методов решения дифференциальных уравнений состоит в замене производных искомых функций интерполяционными формулами численного дифференцирования, а в ряде случаев и заменой интерполяционными формулами других функций и выражений, входящих в уравнения.
+
+Пусть имеются формулы численного дифференцирования
+
+\[
+y^{\prime}\left(x_{k}\right) \approx \frac{y\left(x_{k+1}\right)-y\left(x_{k}\right)}{h}=\frac{1}{h} \Delta y\left(x_{k}\right),
+\]
+
+$y^{\prime \prime}\left(x_{k}\right) \approx \frac{1}{h^{2}}\left[y\left(x_{k-1}\right)-2 y\left(x_{k}\right)+\frac{1}{1} y\left(x_{k+1}\right)\right]=\frac{1}{h^{2}} \Delta^{2} y\left(x_{k}\right)$ для равноотстоящих узлов $x_{k}=x_{0}+k h$, получаемые соответственно дифференцированием формул линейной и квадратичной И. (1) и (2). Тогда для обыкновенного диффференциального уравнения 2-го порядка
+
+\[
+F\left(x, y, y^{\prime}, y^{\prime \prime}\right)=0
+\]
+
+при нек-рых дополнительных условиях получается с учетом (6) уравнение в конечных разностях
+
+\[
+F\left(x_{k}, y_{k}, \frac{1}{h} \Delta y_{k}, \frac{1}{h^{2}} \Delta^{2} y_{k}\right)=0
+\]
+
+из к-рого вместе с уравнениями, полученными из дополнительных условий, находятся приближенные значения $y_{k}$ решения $y(x)$ в узлах $x_{k}$.
+
+Сведение дифференциальных уравнений с частными производными $к$ соответствующим уравнениям в конечных разностях производится часто также с использованием формул численного диффференцирования.
+
+Интерполяционный метод применим для решения дифференциальных уравнений, записанных в интегральной форме. Напр., для нахождения приближенного решения задачи Коши
+
+\[
+y^{\prime}=f(x, y), \quad y\left(x_{0}\right)=y_{0}
+\]
+
+в точках $x_{k}=x_{0}+k h, k=0,1, \ldots$, используются разностные формулы типа
+
+\[
+y_{n+1}=y_{n}+h \sum_{j=1}^{n} B_{j} f\left(x_{n-j}, y_{n-j}\right),
+\]
+
+получаемые заменой функции под знаком интеграла в равенстве
+
+\[
+y\left(x_{n+1}\right)=y\left(x_{n}\right)+\int_{x_{n}}^{x_{n+1}} f(x \quad y) d x
+\] интерполяционным полиномом и последующим интегрированием. В частности, таким образом получены формулы Адамса для уравнения 1-го порядка (7) формулы Стёрмера для уравнений 2-го порядка и т. д.
+
+Такой подход позволяет строить вычислительные алгоритмы для широкого класса дифференциальных уравнений в том числе и для уравнений в частных производных. Исследование разрешимости, точности и устойчивости решения возникающих конечно разностных уравнений представляет собой основную и наиболее трудную часть теории численного решения дифференциальных уравнений.
+
+Интерполирование операторов и некото р ы р о е и ю ч и с ле н ных ме то д о в. Построение численных методов решения математич. задач, записанных в виде $y=A x$, где элементы $x$ и $y$ принадлежат нек-рым множествам $X$ и $Y$, а $A$ - заданный оператор, состоит в замене множеств $X$ и $Y$ и оператора $A$ или только нек-рых из этих трех объектов другими, удобными для вычислительных целей. При этом замена должна быть сделана так, чтобы решение новой задачи
+
+\[
+\tilde{y}=\tilde{A} \tilde{x}
+\]
+
+состоящей в нахождении $\tilde{y}$ или $\tilde{x}$, было в каком-то смысле близко к решению первоначальной задачи. Один из способов замены оператора $A$ его приближением $\tilde{A}$ состоит в использовании интерполирования операторов. Имеются различные формулировки задачи И. операторов. Линейный интерполяционный оператор $L_{\mathbf{1}}(F ; x)$ для данного оператора записывается в виде
+
+\[
+L_{1}(F ; x)=F\left(x_{0}\right)+F\left(x_{0}, x_{1}\right)\left(x-x_{0}\right),
+\]
+
+где $x_{0}$ и $x_{1}$ - узлы И., $F\left(x_{0}, x_{1}\right)$ - оператор разделенной разности 1-го порядка, определяемый как линейный оператор, удовлетворяющий условию
+
+\[
+F\left(x_{0}, x_{1}\right)\left(x_{0}-x_{1}\right)=F\left(x_{0}\right)-F\left(x_{1}\right) .
+\]
+
+Данное определение оператора разделенной разности в ряде случаев конкретизируется. С использованием линейного И. (8) «метод секущих» для уравнения $F(x)=0$ записывается в виде
+
+\[
+x_{n+1}=x_{n}-F^{-1}\left(x_{n-1}, x_{n}\right) F\left(x_{n}\right) \text {, }
+\]
+
+тде $F^{-1}\left(x_{n-1}, x_{n}\right)$ - оператор, обратный к $F\left(x_{n-1}, x_{n}\right)$.
+
+Постановка задачи И. функционалов, представляющая интерес для теории приближенных методов такова. Пусть $\left\{\psi_{i}(x)\right\}, i=0,1, \ldots, n,-$ некоторые фиксированные функционалы или классы функционалов, определенные на $X$. Функционал $L_{n}[F ; x]$ наз. и н т е рполяци онным ф ункци о а льны м мног о ч л е н о м для данного функционала $F(x)$ и системы точек $\left\{x_{k}\right\}$ из $X$, если выполняются соотношения
+
+\[
+\begin{gathered}
+L_{n}\left[F ; x_{k}\right]=F\left(x_{k}\right), \quad L_{n}\left[\psi_{i} ; x\right] \equiv \psi_{i}(x), \\
+i=0,1, \ldots, n .
+\end{gathered}
+\]
+
+И. функционалов используется при построении приближенных методов вычисления континуальных интегралов, для нахождения әкстремальных значений функционалов и ряда других задач.
+
+Напр., приближенные интерполяционные формулы для вычисления континуальных интегралов имеют вид
+
+\[
+\int_{X} F(x) d \mu(x) \approx \int_{X} L_{n}[F ; x] d \mu(x),
+\]
+
+при этом интеграл от интерполяционного полинома $L_{n}[F ; x]$ для нек-рых мер $\mu$ может вычисляться точно или сводиться к конечномерным интегралам. Интерполяционный полином $L_{1}[F ; x]$, когда $X$ есть пространство непрерывных на отрезке $[a, b]$ функций $C[a, b]$,
+
+\[
+\begin{aligned}
+&amp; \text { представляется в виде интеграла Стилтьеса } \\
+&amp; \qquad L_{1}[F ; x]=F\left(x_{0}\right)+ \\
+&amp; +\int_{a}^{b} \frac{x(\tau)-x_{0}(\tau)}{x_{1}(\tau)-x_{0}(\tau)} d_{\tau} F\left[x_{0}(\cdot)+\chi(\cdot, \tau)\left(x_{1}(\cdot)-x(\cdot)\right)\right],
+\end{aligned}
+\]
+
+где $x_{0}(t)$ и $x_{1}(t)$ - узлы И., а функция
+
+\[
+\chi(t, \tau)= \begin{cases}1, &amp; \tau&gt;t, \\ 0, &amp; \tau \leqslant t .\end{cases}
+\]
+
+Если $F(x)$ - постоянный или линейный функционал, то $L_{1}[F ; x] \equiv F(x)$.
+
+Применение И. к нахождению экстремальных значений функционалов может быть проиллюстрировано двумя интерполяционными аналогами метода градиента для нахождения локальной точки безусловного минимума функционала $F(x)$, определенного на нек-ром гильбертовом пространстве. Первый из этих методов получается, если в градиентном методе заменить grad $F\left(x_{n}\right)$ на $F\left(x_{n-1}, x_{n}\right)$, т. е.
+
+\[
+x_{n+1}=x_{n}+\varepsilon_{n} F\left(x_{n-1}, x_{n}\right), \quad \varepsilon_{n}&gt;0, \quad n=1,2, \ldots
+\]
+
+Второй метод использует градиент интерполяционного полинома. По приближениям $x_{n-2}, x_{n-1}, x_{n}$ к экстремальной точке $x^{*}$ функционала $F(x)$ строится квадратичный интерполяционный функционал
+
+\[
+\begin{aligned}
+&amp; L_{2}[F ; x]=F\left(x_{n}\right)+F\left(x_{n-1}, x_{n}\right)\left(x-x_{n}\right)+ \\
+&amp; +F\left(x_{n-2}, x_{n-1}, x_{n}\right)\left(x-x_{n-1}\right)\left(x-x_{n}\right),
+\end{aligned}
+\]
+
+где $F\left(x_{n-2}, x_{n-1}, x_{n}\right)$ - разделенная разность 2-го порядка функционала $F(x)$ относительно узлов $x_{n-2}, x_{n-1}$, $x_{n}$, и новое приближение $x_{n+1}$ находится по формуле
+
+\[
+\begin{gathered}
+x_{n+1}=x_{n}-\varepsilon_{n} \operatorname{grad} L_{2}\left[F ; x_{n}\right], \\
+\varepsilon_{n}&gt;0, \quad n=2,3, \ldots
+\end{gathered}
+\]
+
+Итерационные методы (9) и (10) используют соответственно два и три начальных приближения.
+
+Применение И. функционалов и операторов для построения вычислительных алгоритмов решения конкретных задач основано на использовании интерполяционных формул с малой величиной погрешности. Такого рода формулы должны строиться для отдельных классов функционалов и операторов с учетом специфики этих классов.
+
+.Тит.: [1] Г о н ч а р о в В. Л., Теория интерполирования и приближения функций, 2 изд., М., 1954; [2] Б е р е 3 и н
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4ccadecdfc7427e833efg-1.jpg?height=44&amp;width=821&amp;top_left_y=1556&amp;top_left_x=990)
+2 изд., М., 1975; [4] Кр Ы Ло в В. И., Б о б к о в В. В.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4ccadecdfc7427e833efg-1.jpg?height=47&amp;width=821&amp;top_left_y=1614&amp;top_left_x=989)
+Сплайны в вычислительной математике, М., 1976; [6] С а м а. с к и й А. А., Введение в теорию разностных схем, м., 1971; интегралов по гауссовым мерам, Минск, 1976. Л.А. Янович.</text_orig>
+</article>

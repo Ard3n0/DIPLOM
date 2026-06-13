@@ -1,0 +1,477 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/636_INTERPOLJaTsIONNAJa" alphabetic_pos="636">
+  <title>ИНТЕРПОЛЯЦИОННАЯ ФОРМУЛА</title>
+  <authors>
+    <author>М. К. Самарин</author>
+  </authors>
+  <pages>
+    <start>317</start>
+    <end>317</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б е р е з и н И. С., Ж йд о о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а л о в Н. С.,Численные методы, 2 изд., М., 1975.</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жйдоов Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/636_1_INTERPOLJaTsIONNAJa">g(x) \equiv g\left(x ; a_{0}, a_{1}, \ldots, a_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_2_INTERPOLJaTsIONNAJa">g\left(x_{k}\right)=f\left(x_{k}\right), \quad k=0,1, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_3_INTERPOLJaTsIONNAJa">g\left(x ; a_{0}, a_{1}, \ldots, a_{n}\right)=\sum_{i=0}^{n} a_{i} \varphi_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_4_INTERPOLJaTsIONNAJa">1, x, x^{2}, \ldots, x^{n}, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_5_INTERPOLJaTsIONNAJa">1, e^{\alpha_{1} x}, e^{\alpha_{2} x}, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_6_INTERPOLJaTsIONNAJa">\sum_{i=0}^{n} a_{i} x^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_7_INTERPOLJaTsIONNAJa">\varphi_{i}(x)=x^{i}, \quad i=0,1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_8_INTERPOLJaTsIONNAJa">\sum_{i=0}^{n} a_{i} x_{k}^{i}=f\left(x_{k}\right), \quad k=0,1, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_9_INTERPOLJaTsIONNAJa">g_{n}(x)=L_{n}(x)=\sum_{i=0}^{n} f\left(x_{i}\right) \prod_{j \neq i} \frac{x-x_{j}}{x_{i}-x_{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_10_INTERPOLJaTsIONNAJa">\begin{gathered}f(x)-g_{n}(x)=\frac{f^{(n+1)}(\xi)}{(n+1) !} \omega_{n}(x), \\\xi \in\left[y_{1}, y_{2}\right], \quad \omega_{n}(x)=\prod_{i=0}^{n}\left(x-x_{i}\right) ;\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/636_11_INTERPOLJaTsIONNAJa">\bar{T}_{n+1}^{[a, b]}(x)=(b-a)^{n+1} 2^{-1-2 n} T_{n+1}\left(\frac{2 x-(b+a)}{b-a}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_1_INTERPOLJaTsIONNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_2_INTERPOLJaTsIONNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_3_INTERPOLJaTsIONNAJa">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_4_INTERPOLJaTsIONNAJa">i=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_5_INTERPOLJaTsIONNAJa">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_6_INTERPOLJaTsIONNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_7_INTERPOLJaTsIONNAJa">n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_8_INTERPOLJaTsIONNAJa">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_9_INTERPOLJaTsIONNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_10_INTERPOLJaTsIONNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_11_INTERPOLJaTsIONNAJa">\varphi_{0}(x), \varphi_{1}(x), \ldots, \varphi_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_12_INTERPOLJaTsIONNAJa">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_13_INTERPOLJaTsIONNAJa">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_14_INTERPOLJaTsIONNAJa">n+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_15_INTERPOLJaTsIONNAJa">x_{0}, x_{1}, \ldots, x_{n}, x_{i} \in[a, b], x_{i} \neq x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_16_INTERPOLJaTsIONNAJa">i \neq j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_17_INTERPOLJaTsIONNAJa">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_18_INTERPOLJaTsIONNAJa">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_19_INTERPOLJaTsIONNAJa">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_20_INTERPOLJaTsIONNAJa">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_21_INTERPOLJaTsIONNAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_22_INTERPOLJaTsIONNAJa">1, \sin x, \cos x, \sin 2 x, \cos 2 x, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_23_INTERPOLJaTsIONNAJa">\left\{\alpha_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_24_INTERPOLJaTsIONNAJa">\left\{\varphi_{i}(x)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_25_INTERPOLJaTsIONNAJa">f^{n+1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_26_INTERPOLJaTsIONNAJa">y_{1}=\min \left(x_{0}, x_{1}, \ldots, x_{n}, x\right), y_{2}=\max \left(x_{0}, x_{1}, \ldots, x_{n}, x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_27_INTERPOLJaTsIONNAJa">\omega_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_28_INTERPOLJaTsIONNAJa">\sup _{[a, b]}\left|\omega_{n}(x)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_29_INTERPOLJaTsIONNAJa">x_{k}=\frac{1}{2}(b+a)+\frac{1}{2}(b-a) \cos \frac{2 k+1}{2 n+2} \pi, k=0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_30_INTERPOLJaTsIONNAJa">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_31_INTERPOLJaTsIONNAJa">t_{n+1}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/636_32_INTERPOLJaTsIONNAJa">n+1</formula>
+  </formulas_aux>
+  <relations n="56">
+    <relation uri="http://libmeta.ru/me/relation/636_1_INTERPOLJaTsIONNAJa">
+      <rel_text>Фрезера диаграмма</rel_text>
+      <target>http://libmeta.ru/me/article/755_FREZERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_2_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционной</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_3_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяции</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_4_INTERPOLJaTsIONNAJa">
+      <rel_text>производных</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_5_INTERPOLJaTsIONNAJa">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_6_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполирования</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_7_INTERPOLJaTsIONNAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_8_INTERPOLJaTsIONNAJa">
+      <rel_text>вычислений</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_9_INTERPOLJaTsIONNAJa">
+      <rel_text>процессе</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_10_INTERPOLJaTsIONNAJa">
+      <rel_text>строятся</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_11_INTERPOLJaTsIONNAJa">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_12_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлены</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_13_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционные</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_14_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполировании</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_15_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_16_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционного</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_17_INTERPOLJaTsIONNAJa">
+      <rel_text>степень</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_18_INTERPOLJaTsIONNAJa">
+      <rel_text>Эверетта интерполяционная</rel_text>
+      <target>http://libmeta.ru/me/article/1064_EVERETTA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_19_INTERPOLJaTsIONNAJa">
+      <rel_text>Стеффенсена интерполяционная</rel_text>
+      <target>http://libmeta.ru/me/article/223_STEFFENSENA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_20_INTERPOLJaTsIONNAJa">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_21_INTERPOLJaTsIONNAJa">
+      <rel_text>Стирлинга интерполяционная</rel_text>
+      <target>http://libmeta.ru/me/article/234_STIRLINGA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_22_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполячионная</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_23_INTERPOLJaTsIONNAJa">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_24_INTERPOLJaTsIONNAJa">
+      <rel_text>Гаусса интерполяционная URI[[ht</rel_text>
+      <target>http://libmeta.ru/me/article/956_GAUSSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_25_INTERPOLJaTsIONNAJa">
+      <rel_text>Бесселя интерполяционная</rel_text>
+      <target>http://libmeta.ru/me/article/431_BESSELJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_26_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяции</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_27_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_28_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционного</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_29_INTERPOLJaTsIONNAJa">
+      <rel_text>представлений</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_30_INTERPOLJaTsIONNAJa">
+      <rel_text>степени</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_31_INTERPOLJaTsIONNAJa">
+      <rel_text>Чебышева многочлен</rel_text>
+      <target>http://libmeta.ru/me/article/967_ChEBYІІEVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_32_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_33_INTERPOLJaTsIONNAJa">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_34_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяции</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_35_INTERPOLJaTsIONNAJa">
+      <rel_text>Распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_36_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяции</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_37_INTERPOLJaTsIONNAJa">
+      <rel_text>интерес</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_38_INTERPOLJaTsIONNAJa">
+      <rel_text>Представляет</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_39_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_40_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_41_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционного</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_42_INTERPOLJaTsIONNAJa">
+      <rel_text>производной</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_43_INTERPOLJaTsIONNAJa">
+      <rel_text>непрерывности</rel_text>
+      <target>http://libmeta.ru/me/article/957_NEPRERYVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_44_INTERPOLJaTsIONNAJa">
+      <rel_text>предположении</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_45_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_46_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционного</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_47_INTERPOLJaTsIONNAJa">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_48_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_49_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционного</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_50_INTERPOLJaTsIONNAJa">
+      <rel_text>представления</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_51_INTERPOLJaTsIONNAJa">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_52_INTERPOLJaTsIONNAJa">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_53_INTERPOLJaTsIONNAJa">
+      <rel_text>многочлена</rel_text>
+      <target>http://libmeta.ru/me/article/727_MNOGOChLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_54_INTERPOLJaTsIONNAJa">
+      <rel_text>интерполяционного</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_55_INTERPOLJaTsIONNAJa">
+      <rel_text>системой</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/636_56_INTERPOLJaTsIONNAJa">
+      <rel_text>Система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+  </relations>
+  <text>Формула для приближенного вычисления значений функции $URI[[http://libmeta.ru/me/formula/aux/636_1_INTERPOLJaTsIONNAJa]]/URI$, основанного на замене приближаемой функции $URI[[http://libmeta.ru/me/formula/aux/636_2_INTERPOLJaTsIONNAJa]]/URI$ более простой в каком-то смысле функцией
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_1_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+наперед заданного класса, причем параметры $URI[[http://libmeta.ru/me/formula/aux/636_3_INTERPOLJaTsIONNAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/636_4_INTERPOLJaTsIONNAJa]]/URI$, выбираются таким образом, чтобы значения $URI[[http://libmeta.ru/me/formula/aux/636_5_INTERPOLJaTsIONNAJa]]/URI$ совпадали с известными заранее значениями $URI[[http://libmeta.ru/me/formula/aux/636_6_INTERPOLJaTsIONNAJa]]/URI$ для данного множества $URI[[http://libmeta.ru/me/formula/aux/636_7_INTERPOLJaTsIONNAJa]]/URI$ попарно различных значений аргумента:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_2_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+Такой способ приближенного представления функций наз. интерполированием, или и н те р по ля я и е й, a точки $URI[[http://libmeta.ru/me/formula/aux/636_8_INTERPOLJaTsIONNAJa]]/URI$, для к-рых должны выполняться условия (1), - у з л а м и и н те р п о л я ци и. Вместо простейших условий (1) могут быть заданы значения каких-либо иных величин, связанных с $URI[[http://libmeta.ru/me/formula/aux/636_9_INTERPOLJaTsIONNAJa]]/URI$, напр. значения производных функции $URI[[http://libmeta.ru/me/formula/aux/636_10_INTERPOLJaTsIONNAJa]]/URI$ в узлах интерполяции.
+
+Среди методов гнтерполирования самым распространенным является ли и е й н о е ин те р п о л ир о в а н и е, когда приближение ищется в классе (обобщенных) полиномов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_3_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+по некоторой системе функций $URI[[http://libmeta.ru/me/formula/aux/636_11_INTERPOLJaTsIONNAJa]]/URI$. Для того, чтобы для любой функции $URI[[http://libmeta.ru/me/formula/aux/636_12_INTERPOLJaTsIONNAJa]]/URI$, определенной на отрезке $URI[[http://libmeta.ru/me/formula/aux/636_13_INTERPOLJaTsIONNAJa]]/URI$, и для любого набора $URI[[http://libmeta.ru/me/formula/aux/636_14_INTERPOLJaTsIONNAJa]]/URI$ узлов $URI[[http://libmeta.ru/me/formula/aux/636_15_INTERPOLJaTsIONNAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/636_16_INTERPOLJaTsIONNAJa]]/URI$ существовал ин те р по ляц ио н ны й По лин о м (2), необходимо и достаточно, чтобы система функций $URI[[http://libmeta.ru/me/formula/aux/636_17_INTERPOLJaTsIONNAJa]]/URI$ являлась Чебышева системой на отрезке $URI[[http://libmeta.ru/me/formula/aux/636_18_INTERPOLJaTsIONNAJa]]/URI$. При этом интерполяционный полином будет единственным и его коэффициенты $URI[[http://libmeta.ru/me/formula/aux/636_19_INTERPOLJaTsIONNAJa]]/URI$ можно найти непосредственным решением системы (1).
+
+Чаще всего в качестве $URI[[http://libmeta.ru/me/formula/aux/636_20_INTERPOLJaTsIONNAJa]]/URI$ берут последовательность степеней $URI[[http://libmeta.ru/me/formula/aux/636_21_INTERPOLJaTsIONNAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_4_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+последовательность тригонометрических функций:
+
+$URI[[http://libmeta.ru/me/formula/aux/636_22_INTERPOLJaTsIONNAJa]]/URI$,
+
+или последовательность показательных функций
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_5_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/636_23_INTERPOLJaTsIONNAJa]]/URI$ - некоторая подпоследовательность попарно различных действительных чисел.
+
+В случае интерполирования алгебраич. многочленами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_6_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+система функций $URI[[http://libmeta.ru/me/formula/aux/636_24_INTERPOLJaTsIONNAJa]]/URI$ такова:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_7_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+а система уравнений (1) имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_8_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/636_56_INTERPOLJaTsIONNAJa]]/URI (4) является URI[[http://libmeta.ru/me/relation/636_55_INTERPOLJaTsIONNAJa]]/URI Чебышева, что обеспечивает существование и единственность URI[[http://libmeta.ru/me/relation/636_54_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_53_INTERPOLJaTsIONNAJa]]/URI вида (3). Особенностью URI[[http://libmeta.ru/me/relation/636_52_INTERPOLJaTsIONNAJa]]/URI (4) является возможность URI[[http://libmeta.ru/me/relation/636_51_INTERPOLJaTsIONNAJa]]/URI явного URI[[http://libmeta.ru/me/relation/636_50_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_49_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_48_INTERPOLJaTsIONNAJa]]/URI (3), не прибегая к непосредственному решению URI[[http://libmeta.ru/me/relation/636_47_INTERPOLJaTsIONNAJa]]/URI (5). Одну из явных форм URI[[http://libmeta.ru/me/relation/636_46_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_45_INTERPOLJaTsIONNAJa]]/URI (3):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_9_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92374291ac446e37c50ag-1.jpg?height=38&amp;width=821&amp;top_left_y=698&amp;top_left_x=989)
+Л а г р а н ж. В URI[[http://libmeta.ru/me/relation/636_44_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_43_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_42_INTERPOLJaTsIONNAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/636_25_INTERPOLJaTsIONNAJa]]/URI$ остаточный член URI[[http://libmeta.ru/me/relation/636_41_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_40_INTERPOLJaTsIONNAJa]]/URI (6) может быть записан в форме
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_10_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/me/formula/aux/636_26_INTERPOLJaTsIONNAJa]]/URI$. Величина остаточного члена (7) зависит, в частности, от значения URI[[http://libmeta.ru/me/relation/636_39_INTERPOLJaTsIONNAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/636_27_INTERPOLJaTsIONNAJa]]/URI$. URI[[http://libmeta.ru/me/relation/636_38_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_37_INTERPOLJaTsIONNAJa]]/URI такой выбор узлов URI[[http://libmeta.ru/me/relation/636_36_INTERPOLJaTsIONNAJa]]/URI, при к-ром $URI[[http://libmeta.ru/me/formula/aux/636_28_INTERPOLJaTsIONNAJa]]/URI$ был наименьшим. URI[[http://libmeta.ru/me/relation/636_35_INTERPOLJaTsIONNAJa]]/URI узлов будет оптимальным в указанном смысле, если в качестве узлов URI[[http://libmeta.ru/me/relation/636_34_INTERPOLJaTsIONNAJa]]/URI взяты корни
+
+$URI[[http://libmeta.ru/me/formula/aux/636_29_INTERPOLJaTsIONNAJa]]/URI$, наименее уклоняющегося от нуля на URI[[http://libmeta.ru/me/relation/636_33_INTERPOLJaTsIONNAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/636_30_INTERPOLJaTsIONNAJa]]/URI$ URI[[http://libmeta.ru/me/relation/636_32_INTERPOLJaTsIONNAJa]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/636_11_INTERPOLJaTsIONNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/636_31_INTERPOLJaTsIONNAJa]]/URI$ - URI[[http://libmeta.ru/me/relation/636_31_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_30_INTERPOLJaTsIONNAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/636_32_INTERPOLJaTsIONNAJa]]/URI$.
+
+Существует ряд других явных URI[[http://libmeta.ru/me/relation/636_29_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_28_INTERPOLJaTsIONNAJa]]/URI алгебраич. URI[[http://libmeta.ru/me/relation/636_27_INTERPOLJaTsIONNAJa]]/URI (3), более приспособленных для решения тех или иных практпч. задач URI[[http://libmeta.ru/me/relation/636_26_INTERPOLJaTsIONNAJa]]/URI (см., напр., URI[[http://libmeta.ru/me/relation/636_25_INTERPOLJaTsIONNAJa]]/URI бормула, URI[[http://libmeta.ru/me/relation/636_24_INTERPOLJaTsIONNAJa]]/URItp://libmeta.ru/me/relation/636_23_INTERPOLJaTsIONNAJa]]/URI, Ньютона URI[[http://libmeta.ru/me/relation/636_22_INTERPOLJaTsIONNAJa]]/URI форжула, URI[[http://libmeta.ru/me/relation/636_21_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_20_INTERPOLJaTsIONNAJa]]/URI, URI[[http://libmeta.ru/me/relation/636_19_INTERPOLJaTsIONNAJa]]/URI бормула, URI[[http://libmeta.ru/me/relation/636_18_INTERPOLJaTsIONNAJa]]/URI бормула). Если заранее трудно оценить URI[[http://libmeta.ru/me/relation/636_17_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_16_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_15_INTERPOLJaTsIONNAJa]]/URI, требуемую для достижения заданной точности (напр., при URI[[http://libmeta.ru/me/relation/636_14_INTERPOLJaTsIONNAJa]]/URI таблиц), то прибегают к использованию Эйткена схемы, по к-рой URI[[http://libmeta.ru/me/relation/636_13_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_12_INTERPOLJaTsIONNAJa]]/URI все более высокой URI[[http://libmeta.ru/me/relation/636_11_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_10_INTERPOLJaTsIONNAJa]]/URI последовательно, что позволяет контролировать точность в URI[[http://libmeta.ru/me/relation/636_9_INTERPOLJaTsIONNAJa]]/URI URI[[http://libmeta.ru/me/relation/636_8_INTERPOLJaTsIONNAJa]]/URI. Другой подход к построенію И. Ф. см. в ст. URI[[http://libmeta.ru/me/relation/636_1_INTERPOLJaTsIONNAJa]]/URI.
+
+Решение URI[[http://libmeta.ru/me/relation/636_7_INTERPOLJaTsIONNAJa]]/URI алгебраич. URI[[http://libmeta.ru/me/relation/636_6_INTERPOLJaTsIONNAJa]]/URI по значениям URI[[http://libmeta.ru/me/relation/636_5_INTERPOLJaTsIONNAJa]]/URI и ее URI[[http://libmeta.ru/me/relation/636_4_INTERPOLJaTsIONNAJa]]/URI в узлах URI[[http://libmeta.ru/me/relation/636_3_INTERPOLJaTsIONNAJa]]/URI дается Эрмита URI[[http://libmeta.ru/me/relation/636_2_INTERPOLJaTsIONNAJa]]/URI бормулой.</text>
+  <text_orig>Формула для приближенного вычисления значений функции $f(x)$, основанного на замене приближаемой функции $f(x)$ более простой в каком-то смысле функцией
+
+\[
+g(x) \equiv g\left(x ; a_{0}, a_{1}, \ldots, a_{n}\right)
+\]
+
+наперед заданного класса, причем параметры $a_{i}$, $i=0,1, \ldots, n$, выбираются таким образом, чтобы значения $g(x)$ совпадали с известными заранее значениями $f(x)$ для данного множества $n+1$ попарно различных значений аргумента:
+
+\[
+g\left(x_{k}\right)=f\left(x_{k}\right), \quad k=0,1, \ldots, n .
+\]
+
+Такой способ приближенного представления функций наз. интерполированием, или и н те р по ля я и е й, a точки $x_{k}$, для к-рых должны выполняться условия (1), - у з л а м и и н те р п о л я ци и. Вместо простейших условий (1) могут быть заданы значения каких-либо иных величин, связанных с $f(x)$, напр. значения производных функции $f(x)$ в узлах интерполяции.
+
+Среди методов гнтерполирования самым распространенным является ли и е й н о е ин те р п о л ир о в а н и е, когда приближение ищется в классе (обобщенных) полиномов
+
+\[
+g\left(x ; a_{0}, a_{1}, \ldots, a_{n}\right)=\sum_{i=0}^{n} a_{i} \varphi_{i}(x)
+\]
+
+по некоторой системе функций $\varphi_{0}(x), \varphi_{1}(x), \ldots, \varphi_{n}(x)$. Для того, чтобы для любой функции $f(x)$, определенной на отрезке $[a, b]$, и для любого набора $n+1$ узлов $x_{0}, x_{1}, \ldots, x_{n}, x_{i} \in[a, b], x_{i} \neq x_{j}$ при $i \neq j$ существовал ин те р по ляц ио н ны й По лин о м (2), необходимо и достаточно, чтобы система функций $\left\{\varphi_{i}(x)\right\}$ являлась Чебышева системой на отрезке $[a, b]$. При этом интерполяционный полином будет единственным и его коэффициенты $a_{i}$ можно найти непосредственным решением системы (1).
+
+Чаще всего в качестве $\left\{\varphi_{i}(x)\right\}$ берут последовательность степеней $x$ :
+
+\[
+1, x, x^{2}, \ldots, x^{n}, \ldots,
+\]
+
+последовательность тригонометрических функций:
+
+$1, \sin x, \cos x, \sin 2 x, \cos 2 x, \ldots$,
+
+или последовательность показательных функций
+
+\[
+1, e^{\alpha_{1} x}, e^{\alpha_{2} x}, \ldots,
+\]
+
+где $\left\{\alpha_{i}\right\}$ - некоторая подпоследовательность попарно различных действительных чисел.
+
+В случае интерполирования алгебраич. многочленами
+
+\[
+\sum_{i=0}^{n} a_{i} x^{i}
+\]
+
+система функций $\left\{\varphi_{i}(x)\right\}$ такова:
+
+\[
+\varphi_{i}(x)=x^{i}, \quad i=0,1, \ldots, n,
+\]
+
+а система уравнений (1) имеет вид
+
+\[
+\sum_{i=0}^{n} a_{i} x_{k}^{i}=f\left(x_{k}\right), \quad k=0,1, \ldots, n .
+\]
+
+Система (4) является системой Чебышева, что обеспечивает существование и единственность интерполяционного многочлена вида (3). Особенностью системы (4) является возможность получения явного представления интерполяционного многочлена (3), не прибегая к непосредственному решению системы (5). Одну из явных форм интерполяционного многочлена (3):
+
+\[
+g_{n}(x)=L_{n}(x)=\sum_{i=0}^{n} f\left(x_{i}\right) \prod_{j \neq i} \frac{x-x_{j}}{x_{i}-x_{j}}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_92374291ac446e37c50ag-1.jpg?height=38&amp;width=821&amp;top_left_y=698&amp;top_left_x=989)
+Л а г р а н ж. В предположении непрерывности производной $f^{n+1}(x)$ остаточный член интерполяционного многочлена (6) может быть записан в форме
+
+\[
+\begin{gathered}
+f(x)-g_{n}(x)=\frac{f^{(n+1)}(\xi)}{(n+1) !} \omega_{n}(x), \\
+\xi \in\left[y_{1}, y_{2}\right], \quad \omega_{n}(x)=\prod_{i=0}^{n}\left(x-x_{i}\right) ;
+\end{gathered}
+\]
+
+здесь $y_{1}=\min \left(x_{0}, x_{1}, \ldots, x_{n}, x\right), y_{2}=\max \left(x_{0}, x_{1}, \ldots, x_{n}, x\right)$. Величина остаточного члена (7) зависит, в частности, от значения многочлена $\omega_{n}(x)$. Представляет интерес такой выбор узлов интерполяции, при к-ром $\sup _{[a, b]}\left|\omega_{n}(x)\right|$ был наименьшим. Распределение узлов будет оптимальным в указанном смысле, если в качестве узлов интерполяции взяты корни
+
+$x_{k}=\frac{1}{2}(b+a)+\frac{1}{2}(b-a) \cos \frac{2 k+1}{2 n+2} \pi, k=0,1, \ldots, n$, наименее уклоняющегося от нуля на отрезке $[a, b]$ многочлена
+
+\[
+\bar{T}_{n+1}^{[a, b]}(x)=(b-a)^{n+1} 2^{-1-2 n} T_{n+1}\left(\frac{2 x-(b+a)}{b-a}\right),
+\]
+
+где $T_{n+1}(z)$ - Чебышева многочлен степени $n+1$.
+
+Существует ряд других явных представлений интерполяционного алгебраич. многочлена (3), более приспособленных для решения тех или иных практпч. задач интерполяции (см., напр., Бесселя интерполяционная бормула, Гаусса интерполяционная формула, Ньютона интерполячионная форжула, Стирлинга интерполяционная формула, Стеффенсена интерполяционная бормула, Эверетта интерполяционная бормула). Если заранее трудно оценить степень интерполяционного многочлена, требуемую для достижения заданной точности (напр., при интерполировании таблиц), то прибегают к использованию Эйткена схемы, по к-рой интерполяционные многочлены все более высокой степени строятся последовательно, что позволяет контролировать точность в процессе вычислений. Другой подход к построенію И. Ф. см. в ст. Фрезера диаграмма.
+
+Решение задачи алгебраич. интерполирования по значениям функции и ее производных в узлах интерполяции дается Эрмита интерполяционной бормулой.
+
+Лит.: [1] Б е р е з и н И. С., Ж йд о о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а л о в Н. С.,
+Численные методы, 2 изд., М., 1975.
+М. К. Самарин.</text_orig>
+</article>

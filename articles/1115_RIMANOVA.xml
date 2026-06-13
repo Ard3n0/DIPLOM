@@ -1,0 +1,791 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1115_RIMANOVA" alphabetic_pos="1115">
+  <title>РИМАНОВА ГЕОМЕТРИЯ</title>
+  <authors>
+    <author>B. A. Топологов</author>
+  </authors>
+  <pages>
+    <start>503</start>
+    <end>506</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_1_RIMANOVA">\langle X, Y\rangle=g(X, Y), X, Y \in\left(T M^{n}\right)_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_2_RIMANOVA">g_{i j}=\left\langle\partial_{i}, \partial_{j}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_3_RIMANOVA">\langle X, Y\rangle=\sum_{i, j=1}^{n} g_{i j} X^{i} Y^{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_4_RIMANOVA">X=\sum_{i=1}^{n} X^{i} \partial_{i}, \quad Y=\sum_{j=1}^{n} Y^{j} \partial_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_5_RIMANOVA">l=\int_{0}^{1}|\dot{c}| d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_6_RIMANOVA">\dot{c}=\sum_{i=1}^{n} \frac{d x^{i}}{d t} \partial_{i}, \quad l=\int_{0}^{1} \sqrt{\sum_{i, j=1}^{n} g_{i j} \frac{d x^{i}}{d t} \frac{d x^{f}}{d t}} d t .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_7_RIMANOVA">d s^{2}=\sum_{i, j=1}^{n} g_{i j} d x^{i} d x^{j},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_8_RIMANOVA">V(U)=\int_{U}|g|^{1 / 2} d x^{1} \ldots d x^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_9_RIMANOVA">\rho_{M^{n}}(p, q)=\rho_{M_{2}^{n}}(\varphi(p), \varphi(q))</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_10_RIMANOVA">\frac{d^{2} x^{l}}{d t^{2}}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} \frac{d x^{j}}{d t} \frac{d x^{k}}{d t}=0, i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_11_RIMANOVA">\Gamma_{j k, a}=\frac{1}{2}\left(\frac{\partial g_{j a}}{\partial x^{k}}+\frac{\partial g_{k a}}{\partial x^{j}}-\frac{\partial g_{j k}}{\partial x^{a}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_12_RIMANOVA">\nabla_{X} Y-\nabla_{Y} X=[X, Y]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_13_RIMANOVA">Z\langle X, Y\rangle=\left\langle\nabla_{Z} X, Y\right\rangle+\left\langle X, \nabla_{Z} Y\right\rangle,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_14_RIMANOVA">\nabla X Y=\sum_{i=1}^{n}\left(\sum_{k=1}^{n} \frac{\partial Y^{i}}{\partial x^{k}} X^{k}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} X^{j} Y^{k}\right) \partial_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_15_RIMANOVA">\frac{d Y^{i}}{d t}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} Y^{j} \frac{d x^{k}}{d t}, i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_16_RIMANOVA">a_{\alpha \beta}=\sum_{i, j=1}^{n} g_{i j} \frac{\partial x^{i}}{\partial u^{\alpha}} \frac{\partial x^{j}}{\partial u^{\beta}}, \quad \alpha, \beta=1, \ldots, k,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_17_RIMANOVA">B\left(v_{p}\right)(X, Y)=-\left(\nabla X^{v}, Y\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_18_RIMANOVA">k_{1}=\left|\nabla_{\dot{c}} \dot{c}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_19_RIMANOVA">k_{1}=\sqrt{\sum_{i, j=1}^{n} g_{i j} \mu^{i} \mu^{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_20_RIMANOVA">\mu^{i}=\frac{d^{2} x^{i}}{d t^{2}}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} \frac{d x^{j}}{d t} \frac{d x^{k}}{d t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_21_RIMANOVA">\begin{aligned}&amp; \left.\Gamma_{j n}^{i}\right|_{x=q}=\left.\Gamma_{j k,} i\right|_{x=q}=0, \text { то есть } \\&amp; \left.\frac{\partial g_{j k}}{\partial x^{i}}\right|_{x=q}=0, \quad i, j, k=1, \ldots, n\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_22_RIMANOVA">\begin{aligned}\rho_{\left(T M^{n}\right)_{q}}(X, Y) &amp; =|X-Y|=\rho_{M^{n}}(\varphi(X), \varphi(Y)) \times \\&amp; \times(1+\varepsilon(X, Y)),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_23_RIMANOVA">R_{i j}=\sum_{k, l=1}^{n} g^{k l} R_{i k, j l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_24_RIMANOVA">G_{i j}=R_{i j}-\frac{R}{n} g_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_25_RIMANOVA">R=\sum_{i, j=1}^{n} g^{i j} R_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_26_RIMANOVA">R(X, Y) Z=\nabla_{Y}\left(\nabla_{X} Z\right)-\nabla_{X}\left(\nabla_{Y} Z\right)-\nabla_{[X Y]} Z,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_27_RIMANOVA">K(p, \sigma)=\frac{\left\langle R\left(X_{p}, Y_{p}\right) X_{p}, Y_{p}\right\rangle}{\left|X_{p}\right|^{2}\left|Y_{p}\right|^{2}-\left\langle X_{p}, Y_{p}\right\rangle^{2}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_28_RIMANOVA">\begin{aligned}&amp; K(p, \sigma)= \\&amp; =\frac{\sum_{i, j, k, l=1}^{n} R_{i k, j l}\left(X^{i} Y^{k}-X^{k} Y^{i}\right)\left(X^{j} Y^{l}-X^{l} Y^{j}\right)}{\sum_{i, j, k, l=1}^{n}\left|\begin{array}{l}g_{i j} g_{i l} \\g_{k j} g_{k l}\end{array}\right|\left(X^{i} Y^{j}-X^{j} Y^{i}\right)\left(X^{k} Y^{l}-X^{l} Y^{k}\right)},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_29_RIMANOVA">X=\sum_{i=1}^{n} X^{i} \partial_{i}, \quad Y=\sum_{j=1}^{n} Y^{j} \partial_{j} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_30_RIMANOVA">\sum_{i, j=1}^{n} R_{i j} X^{i} X^{j}=\sum_{k=1}^{n} K\left(p, \sigma_{k}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1115_31_RIMANOVA">l=\int_{0}^{1} F(c, \dot{c}) d t</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_1_RIMANOVA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_2_RIMANOVA">m_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_3_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_4_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_5_RIMANOVA">e^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_6_RIMANOVA">e^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_7_RIMANOVA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_8_RIMANOVA">\left(t M^{n}\right)_{p}, p \in M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_9_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_10_RIMANOVA">\langle\cdot, \cdot\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_11_RIMANOVA">p \in M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_12_RIMANOVA">\left(t M^{n}\right)_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_13_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_14_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_15_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_16_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_17_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_18_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_19_RIMANOVA">\left\{x^{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_20_RIMANOVA">\left\{\partial_{i}\right\}, l=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_21_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_22_RIMANOVA">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_23_RIMANOVA">c(t):[0,1] \rightarrow M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_24_RIMANOVA">\dot{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_25_RIMANOVA">c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_26_RIMANOVA">x^{i}=x^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_27_RIMANOVA">c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_28_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_29_RIMANOVA">d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_30_RIMANOVA">g_{i j}(x)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_31_RIMANOVA">v(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_32_RIMANOVA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_33_RIMANOVA">g=\operatorname{det}\left\|g_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_34_RIMANOVA">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_35_RIMANOVA">\rho(p, q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_36_RIMANOVA">p, q \in M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_37_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_38_RIMANOVA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_39_RIMANOVA">\rho_{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_40_RIMANOVA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_41_RIMANOVA">m_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_42_RIMANOVA">m_{2}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_43_RIMANOVA">\varphi: M_{1}^{n} \rightarrow M_{2}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_44_RIMANOVA">l(c)=l(\varphi(c))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_45_RIMANOVA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_46_RIMANOVA">m_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_47_RIMANOVA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_48_RIMANOVA">p \in M_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_49_RIMANOVA">u_{1} \ni p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_50_RIMANOVA">u_{2} \ni \varphi(p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_51_RIMANOVA">g_{i j}^{1}(x)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_52_RIMANOVA">=g_{i j}^{2}(\varphi(x)), x \in U_{1}, i, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_53_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_54_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_55_RIMANOVA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_56_RIMANOVA">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_57_RIMANOVA">\mathbf{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_58_RIMANOVA">\rho(p, q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_59_RIMANOVA">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_60_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_61_RIMANOVA">u \subset M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_62_RIMANOVA">\rho_{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_63_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_64_RIMANOVA">x^{i=} x^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_65_RIMANOVA">i=1, \ldots, n,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_66_RIMANOVA">\left\{x^{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_67_RIMANOVA">x^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_68_RIMANOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_69_RIMANOVA">\quad \Gamma_{j k}^{l}=\sum_{a=1}^{n} g^{a_{i}} \Gamma_{j k, a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_70_RIMANOVA">g^{a b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_71_RIMANOVA">\left\|g_{i j}\right\|, i, j, k, a, b=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_72_RIMANOVA">\nabla</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_73_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_74_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_75_RIMANOVA">x, Y, Z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_76_RIMANOVA">[x, Y]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_77_RIMANOVA">\nabla</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_78_RIMANOVA">\left\{x^{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_79_RIMANOVA">\nabla</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_80_RIMANOVA">\gamma_{k j, i}=\left\langle\nabla_{k} \partial_{j}, \partial_{i}\right\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_81_RIMANOVA">y(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_82_RIMANOVA">c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_83_RIMANOVA">\nabla_{c} \boldsymbol{Y}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_84_RIMANOVA">y(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_85_RIMANOVA">x^{i}=x^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_86_RIMANOVA">c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_87_RIMANOVA">\left(t M^{n}\right)_{c(0)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_88_RIMANOVA">\left(t M^{n}\right)_{c(1)} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_89_RIMANOVA">c(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_90_RIMANOVA">c(1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_91_RIMANOVA">c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_92_RIMANOVA">\nabla c=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_93_RIMANOVA">m^{k}, k \leqslant n,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_94_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_95_RIMANOVA">m^{k}\left(\left(t M^{k}\right)_{p} \subsetneq\left(T M^{n}\right)_{p}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_96_RIMANOVA">m^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_97_RIMANOVA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_98_RIMANOVA">x^{i}=x^{i}\left(u^{1}, \ldots, u^{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_99_RIMANOVA">m^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_100_RIMANOVA">m^{k}, k \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_101_RIMANOVA">b\left(v_{p}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_102_RIMANOVA">v_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_103_RIMANOVA">m^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_104_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_105_RIMANOVA">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_106_RIMANOVA">m^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_107_RIMANOVA">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_108_RIMANOVA">v_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_109_RIMANOVA">b\left(v_{p}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_110_RIMANOVA">m^{1} \equiv c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_111_RIMANOVA">e^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_112_RIMANOVA">k_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_113_RIMANOVA">\mathrm{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_114_RIMANOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_115_RIMANOVA">x^{i}=x^{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_116_RIMANOVA">c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_117_RIMANOVA">\exp _{q}:\left(T M^{n}\right)_{q} \rightarrow M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_118_RIMANOVA">\exp _{q} X=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_119_RIMANOVA">=r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_120_RIMANOVA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_121_RIMANOVA">q, \mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_122_RIMANOVA">x \in\left(T M^{n}\right)_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_123_RIMANOVA">|x|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_124_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_125_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_126_RIMANOVA">\exp _{q}^{-1} p \in\left(T M^{n}\right)_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_127_RIMANOVA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_128_RIMANOVA">g_{i j}=\delta_{i j}-\frac{1}{3} \sum_{k, l=1}^{n} R_{i k, j l} x^{k} x^{l}+\sum_{k, l=1}^{n} \varepsilon_{i k, j l} x^{k} x^{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_129_RIMANOVA">\varepsilon_{i k, j l} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_130_RIMANOVA">x^{i} \rightarrow 0, i, j, k, l=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_131_RIMANOVA">g \in M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_132_RIMANOVA">\varphi \equiv</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_133_RIMANOVA">\equiv \exp _{q}:\left(T M^{n}\right)_{q} \rightarrow M^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_134_RIMANOVA">\varepsilon(x, Y) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_135_RIMANOVA">|x|,|y| \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_136_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_137_RIMANOVA">\left(t M^{n}\right)_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_138_RIMANOVA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_139_RIMANOVA">r_{i k, j l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_140_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_141_RIMANOVA">\left(t M^{n}\right)_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_142_RIMANOVA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_143_RIMANOVA">\left\{x^{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_144_RIMANOVA">r_{i k, j l}=\frac{1}{2}\left(\frac{\partial^{2} g_{i l}}{\partial x^{k} \partial x^{j}}+\frac{\partial^{2} g_{k j}}{\partial x^{i} \partial x^{l}}-\frac{\partial^{2} g_{i j}}{\partial x^{k} \partial x^{l}}-\frac{\partial^{2} g_{k l}}{\partial x^{i} \partial x^{j}}\right)+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_145_RIMANOVA">+\sum_{a, b=1}^{n} g^{a b}\left(\Gamma_{k j, a} \Gamma_{i l, b}-\Gamma_{k l, a}, \Gamma_{i j, b}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_146_RIMANOVA">i, j, k, l, a, b=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_147_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_148_RIMANOVA">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_149_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_150_RIMANOVA">x, Y, Z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_151_RIMANOVA">\boldsymbol{r}(x, Y) Z+R(Y, X) Z=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_152_RIMANOVA">r(x, Y) Z+R(Y, Z) X+R(Z, X) Y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_153_RIMANOVA">\langle R(X, Y) Z, W\rangle=\langle R(X, Y) W, Z\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_154_RIMANOVA">\langle R(X, Y) Z, W\rangle=\langle R(Z, W) X, Y\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_155_RIMANOVA">\nabla_{x}(r(y, Z) W)+\nabla_{Y}(R(Z, X) W)+\nabla_{Z}(R(X, Y) W)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_156_RIMANOVA">k(x, Y)=\langle R(X, Y) Y, X\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_157_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_158_RIMANOVA">y, Z, W)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_159_RIMANOVA">f^{2}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_160_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_161_RIMANOVA">p, \sigma=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_162_RIMANOVA">=\left(t F^{2}\right)_{p}, \Gamma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_163_RIMANOVA">\gamma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_164_RIMANOVA">p, S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_165_RIMANOVA">f^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_166_RIMANOVA">\gamma, z \in\left(T F^{2}\right)_{p}, \bar{z}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_167_RIMANOVA">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_168_RIMANOVA">\gamma, \varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_169_RIMANOVA">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_170_RIMANOVA">\bar{z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_171_RIMANOVA">\boldsymbol{\gamma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_172_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_173_RIMANOVA">k(p, \sigma)=\lim \frac{\varphi}{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_174_RIMANOVA">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_175_RIMANOVA">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_176_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_177_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_178_RIMANOVA">\sigma(k(p, \sigma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_179_RIMANOVA">f^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_180_RIMANOVA">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_181_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_182_RIMANOVA">k(p, \sigma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_183_RIMANOVA">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_184_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_185_RIMANOVA">e^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_186_RIMANOVA">\left.E^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_187_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_188_RIMANOVA">\exp _{p} \sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_189_RIMANOVA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_190_RIMANOVA">m^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_191_RIMANOVA">m_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_192_RIMANOVA">m_{2}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_193_RIMANOVA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_194_RIMANOVA">m_{1}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_195_RIMANOVA">m_{2}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_196_RIMANOVA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_197_RIMANOVA">l_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_198_RIMANOVA">a&lt;0, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_199_RIMANOVA">e_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_200_RIMANOVA">a=0 ; n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_201_RIMANOVA">s^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_202_RIMANOVA">e^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_203_RIMANOVA">1 / \sqrt{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_204_RIMANOVA">a&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_205_RIMANOVA">m_{1}^{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_206_RIMANOVA">\varphi: M_{1}^{n} \rightarrow M_{2}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_207_RIMANOVA">k(p, \sigma)=K(\varphi(p), d \varphi(\sigma))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_208_RIMANOVA">n \geqslant 4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_209_RIMANOVA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_210_RIMANOVA">n=3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_211_RIMANOVA">n=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_212_RIMANOVA">k(p, \sigma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_213_RIMANOVA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_214_RIMANOVA">k(p, \sigma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_215_RIMANOVA">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_216_RIMANOVA">r_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_217_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_218_RIMANOVA">x, Y_{1}, \ldots, Y_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_219_RIMANOVA">\left(t \bar{M}^{n}\right)_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_220_RIMANOVA">\sigma_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_221_RIMANOVA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_222_RIMANOVA">y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_223_RIMANOVA">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_224_RIMANOVA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_225_RIMANOVA">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_226_RIMANOVA">c(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_227_RIMANOVA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_228_RIMANOVA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_229_RIMANOVA">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1115_230_RIMANOVA">\mathbf{~ т ~ а ~ н ~ Э . , ~ Г е о м е т р и я ~ р и м а н о в ы х ~}</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/1115_1_RIMANOVA">
+      <rel_text>пространств</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+  </relations>
+  <text>теория риманова пространства. Р и м а н о в ы м п р о с т р а н т в о м наз. $URI[[http://libmeta.ru/me/formula/aux/1115_1_RIMANOVA]]/URI$-мерное связное диффференцируемое многообразие $URI[[http://libmeta.ru/me/formula/aux/1115_2_RIMANOVA]]/URI$, на к-ром задано диффференцируемое поле ковариантного, симметрического и положительно определенного тензора $URI[[http://libmeta.ru/me/formula/aux/1115_3_RIMANOVA]]/URI$ ранга 2 . Тензор $URI[[http://libmeta.ru/me/formula/aux/1115_4_RIMANOVA]]/URI$ наз. м е т р и ч ес к и м т е н 3 о р о м. Р. г. есть многомерное обобщение внутренней геометрии двухмерных поверхностей в әвклидовом пространстве $URI[[http://libmeta.ru/me/formula/aux/1115_5_RIMANOVA]]/URI$. Метрика риманова пространства с точностью до первого порядка малости, по сравнению с размерами рассматриваемой области, совпадает с евклидовой метрикой. Отличие этих метрик оценивается (локально) римановой кривизной - многомерным обобщением понятия гауссовой кривизны поверхности в $URI[[http://libmeta.ru/me/formula/aux/1115_6_RIMANOVA]]/URI$.
+
+В основании Р. г. лежат три идеи. Первая идея осознание факта существования неевклидовой геометрии - геометрии Н. И. Лобачевского. Вторая идея понятие внутренней геометрии поверхностей, созданной К. Гауссом (c. Gauss). Третья идея - понятие $URI[[http://libmeta.ru/me/formula/aux/1115_7_RIMANOVA]]/URI$ мерного пространства, разработанное в 1-й пол. 19 в. Б. Риман (b. Riemann) соединил и обобщил әти идеи в лекции &quot;о гипотезах, лежащих в основании геометрии». Понятия Р. г. сыграли важную роль в создании А. Эйнштейном (a. Einstein) общей теории относительности, дальнейшее ее развитие связано с созданием аппарата тензорного исчисления. Р. г. и ее многочисленные обобщения успешно развиваются, особенно в той ее части, к-рая наз. римановой геометрией в целом, и находят обширные и глубокие механические и физич. применения.
+
+Основные понятия P. г. следующие.
+
+Скаля рн о п по и з в е д е и е. В каждом касательном пространстве $URI[[http://libmeta.ru/me/formula/aux/1115_8_RIMANOVA]]/URI$, тензор $URI[[http://libmeta.ru/me/formula/aux/1115_9_RIMANOVA]]/URI$ определяет скалярное (внутреннее) произведение $URI[[http://libmeta.ru/me/formula/aux/1115_10_RIMANOVA]]/URI$ по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_1_RIMANOVA]]/URI
+\]
+
+Верно и обратное: если для любого $URI[[http://libmeta.ru/me/formula/aux/1115_11_RIMANOVA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/1115_12_RIMANOVA]]/URI$ определено скалярное произведение, дифференцируемо зависящее от $URI[[http://libmeta.ru/me/formula/aux/1115_13_RIMANOVA]]/URI$, то оно определяет тензорное поле $URI[[http://libmeta.ru/me/formula/aux/1115_14_RIMANOVA]]/URI$ с указанными выше свойствами. Степени гладкости $URI[[http://libmeta.ru/me/formula/aux/1115_15_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_16_RIMANOVA]]/URI$ варьируются в зависимости от поставленной задачи. В большинстве случаев достаточно потребовать, чтобы $URI[[http://libmeta.ru/me/formula/aux/1115_17_RIMANOVA]]/URI$ было трижды непрерывно диффференцируемо, а поле тензора $URI[[http://libmeta.ru/me/formula/aux/1115_18_RIMANOVA]]/URI$ - дважды непрерывно дифференцируемо (далөе необходимая степень гладкости указываться не будет). В локальных координатах $URI[[http://libmeta.ru/me/formula/aux/1115_19_RIMANOVA]]/URI$ с локальным базисом $URI[[http://libmeta.ru/me/formula/aux/1115_20_RIMANOVA]]/URI$, компоненты тензора $URI[[http://libmeta.ru/me/formula/aux/1115_21_RIMANOVA]]/URI$ имеют вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_2_RIMANOVA]]/URI
+\]
+
+так что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_3_RIMANOVA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_4_RIMANOVA]]/URI
+\]
+
+Риманово пространство как мет рическое прост танство. Длина $URI[[http://libmeta.ru/me/formula/aux/1115_22_RIMANOVA]]/URI$ гладкой кривой $URI[[http://libmeta.ru/me/formula/aux/1115_23_RIMANOVA]]/URI$ определяется формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_5_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_24_RIMANOVA]]/URI$ - касательный вектор к $URI[[http://libmeta.ru/me/formula/aux/1115_25_RIMANOVA]]/URI$. Длина кусочно гладкой кривой равна сумме длин ее гладких звеньев. Если $URI[[http://libmeta.ru/me/formula/aux/1115_26_RIMANOVA]]/URI$ - уравнения $URI[[http://libmeta.ru/me/formula/aux/1115_27_RIMANOVA]]/URI$ в локальных координатах, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_6_RIMANOVA]]/URI
+\]
+
+Имея в виду эту формулу, метрику на $URI[[http://libmeta.ru/me/formula/aux/1115_28_RIMANOVA]]/URI$ записывают в традиционной форме
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_7_RIMANOVA]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/1115_29_RIMANOVA]]/URI$ наз. әлементом длины, а функции $URI[[http://libmeta.ru/me/formula/aux/1115_30_RIMANOVA]]/URI$ коэффициентами метрической (основной, первой квадратичной) формы. У г о л между двумя кривыми в точке их пересечения определяется как угол между касательными к ним. Объём $URI[[http://libmeta.ru/me/formula/aux/1115_31_RIMANOVA]]/URI$ области $URI[[http://libmeta.ru/me/formula/aux/1115_32_RIMANOVA]]/URI$, принадлежащей координатной окрестности, определяется формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_8_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_33_RIMANOVA]]/URI$. Объем произвольной области равен сумме объемов ее частей, причем каждая из частей лөжит в нек-рой координатной окрестности.
+
+$URI[[http://libmeta.ru/me/formula/aux/1115_34_RIMANOVA]]/URI$ а с с т о я н и e $URI[[http://libmeta.ru/me/formula/aux/1115_35_RIMANOVA]]/URI$ между точками $URI[[http://libmeta.ru/me/formula/aux/1115_36_RIMANOVA]]/URI$ определяется как точная нижняя грань длин всех кусочно гладких кривых, соединяющих $URI[[http://libmeta.ru/me/formula/aux/1115_37_RIMANOVA]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/1115_38_RIMANOVA]]/URI$. Аналогично определяется метрика $URI[[http://libmeta.ru/me/formula/aux/1115_39_RIMANOVA]]/URI$ в произвольной связной области $URI[[http://libmeta.ru/me/formula/aux/1115_40_RIMANOVA]]/URI$. Два римановых пространства $URI[[http://libmeta.ru/me/formula/aux/1115_41_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_42_RIMANOVA]]/URI$ наз. и з о м т р и ч ны м и, если существует отображение $URI[[http://libmeta.ru/me/formula/aux/1115_43_RIMANOVA]]/URI$, при к-ром
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_9_RIMANOVA]]/URI
+\]
+
+или, что то же, $URI[[http://libmeta.ru/me/formula/aux/1115_44_RIMANOVA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1115_45_RIMANOVA]]/URI$ - произвольная кривая в $URI[[http://libmeta.ru/me/formula/aux/1115_46_RIMANOVA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/1115_47_RIMANOVA]]/URI$ - изометрия, то для любой точки $URI[[http://libmeta.ru/me/formula/aux/1115_48_RIMANOVA]]/URI$ существует координатная окрестность $URI[[http://libmeta.ru/me/formula/aux/1115_49_RIMANOVA]]/URI$ и координатная окрестность $URI[[http://libmeta.ru/me/formula/aux/1115_50_RIMANOVA]]/URI$ такие, что $URI[[http://libmeta.ru/me/formula/aux/1115_51_RIMANOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1115_52_RIMANOVA]]/URI$. Изометрич. отображение $URI[[http://libmeta.ru/me/formula/aux/1115_53_RIMANOVA]]/URI$ на себя наз. д в и ж е н и е м.
+
+Кривая с концами в точках $URI[[http://libmeta.ru/me/formula/aux/1115_54_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_55_RIMANOVA]]/URI$ наз. к $URI[[http://libmeta.ru/me/formula/aux/1115_56_RIMANOVA]]/URI$ а т ч а йшा $URI[[http://libmeta.ru/me/formula/aux/1115_57_RIMANOVA]]/URI$ й, если ее длина равна $URI[[http://libmeta.ru/me/formula/aux/1115_58_RIMANOVA]]/URI$. Стационарная кривая функционала длины $URI[[http://libmeta.ru/me/formula/aux/1115_59_RIMANOVA]]/URI$ наз. г е о д е з и ч е с к о й линией. Каждая кратчайшая в $URI[[http://libmeta.ru/me/formula/aux/1115_60_RIMANOVA]]/URI$ есть геодезическая, и каждая достаточно малая дуга геодезической есть кратчайная. Область $URI[[http://libmeta.ru/me/formula/aux/1115_61_RIMANOVA]]/URI$ наз. г е о д е з и ч е с к и в ы п у к л о й, если кратчайшие, определенные по метрике $URI[[http://libmeta.ru/me/formula/aux/1115_62_RIMANOVA]]/URI$, есть геодезические $URI[[http://libmeta.ru/me/formula/aux/1115_63_RIMANOVA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/1115_64_RIMANOVA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1115_65_RIMANOVA]]/URI$ уравнения геодезпческой в локальной системе координат $URI[[http://libmeta.ru/me/formula/aux/1115_66_RIMANOVA]]/URI$, то функции $URI[[http://libmeta.ru/me/formula/aux/1115_67_RIMANOVA]]/URI$ удовлетворяют системе уравнений, к-рая в случае, когда $URI[[http://libmeta.ru/me/formula/aux/1115_68_RIMANOVA]]/URI$ - параметр, пропорциональный длине дуги, имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_10_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_69_RIMANOVA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_11_RIMANOVA]]/URI
+\]
+
+- символы Кристоффеля, $URI[[http://libmeta.ru/me/formula/aux/1115_70_RIMANOVA]]/URI$ - әлементы матрицы, обратной к $URI[[http://libmeta.ru/me/formula/aux/1115_71_RIMANOVA]]/URI$.
+
+Риманово пространство наз. П о л ны м (г е о д ез и ч е с к и п о л ны м), если оно полно как метрич. пространство (если любую дугу геодезической можно неограниченно продолжить в обе стороны). Риманово пространство полно тогда и только тогда, когда оно геодезически полно. В полном римановом пространстве любые две точки можно соединить кратчайшей (не обязательно единственной). На любом дифференцируемом многообразии можно ввести структуру полного риманова пространства.
+
+Р и а а о в о прос т р анс тво ка к мно гооб разие со свя производная $URI[[http://libmeta.ru/me/formula/aux/1115_72_RIMANOVA]]/URI$ наз. с и м м е т р и ч е с к о й и с о вм е с т н о й с ме т р и к о й $URI[[http://libmeta.ru/me/formula/aux/1115_73_RIMANOVA]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/1115_74_RIMANOVA]]/URI$, если выполняются условия симметричности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_12_RIMANOVA]]/URI
+\]
+
+\section{и совместности}
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_13_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_75_RIMANOVA]]/URI$ - дифференцируемые векторшые поля, а $URI[[http://libmeta.ru/me/formula/aux/1115_76_RIMANOVA]]/URI$ - их коммутатор. Этими уеловиями производная $URI[[http://libmeta.ru/me/formula/aux/1115_77_RIMANOVA]]/URI$ определяется однозначно через поле метрич. тензора g. В локальных координатах $URI[[http://libmeta.ru/me/formula/aux/1115_78_RIMANOVA]]/URI$ компоненты связности $URI[[http://libmeta.ru/me/formula/aux/1115_79_RIMANOVA]]/URI$ имеют вид $URI[[http://libmeta.ru/me/formula/aux/1115_80_RIMANOVA]]/URI$ и совпадают с символом Кристоффеля 1-го рода, а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_14_RIMANOVA]]/URI
+\]
+
+Аналогичной формулой определяется ковариантная производная любого тензора.
+
+Векторное поле $URI[[http://libmeta.ru/me/formula/aux/1115_81_RIMANOVA]]/URI$ вдоль кривой $URI[[http://libmeta.ru/me/formula/aux/1115_82_RIMANOVA]]/URI$ наз. п а р а лл е ль н ы м, если $URI[[http://libmeta.ru/me/formula/aux/1115_83_RIMANOVA]]/URI$. Аналитически параллельное поле $URI[[http://libmeta.ru/me/formula/aux/1115_84_RIMANOVA]]/URI$ определяется решением системы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_15_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_85_RIMANOVA]]/URI$ - уравнения кривой $URI[[http://libmeta.ru/me/formula/aux/1115_86_RIMANOVA]]/URI$. Решения әтой системы при различных начальных условиях дают отображение $URI[[http://libmeta.ru/me/formula/aux/1115_87_RIMANOVA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/1115_88_RIMANOVA]]/URI$ оно оказывается изометричным и наз, п а р а л л ө л ьны м п е р е н ес е н и е м Л е ви-Ч и вит а. Результат перенесения зависит, вообще говоря, не только от конөчных точек $URI[[http://libmeta.ru/me/formula/aux/1115_89_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_90_RIMANOVA]]/URI$, но и от самого пути $URI[[http://libmeta.ru/me/formula/aux/1115_91_RIMANOVA]]/URI$. Кривая, для к-рой $URI[[http://libmeta.ru/me/formula/aux/1115_92_RIMANOVA]]/URI$, является геодезической, и это свойство геодезической можно взять за еө определение.
+
+Подмногооб ра а ия риманова ї рос тр а н с т в а. Если $URI[[http://libmeta.ru/me/formula/aux/1115_93_RIMANOVA]]/URI$ дифференцируемое подмногообразие риманова пространства $URI[[http://libmeta.ru/me/formula/aux/1115_94_RIMANOVA]]/URI$, то в каждом касательном пространстве к $URI[[http://libmeta.ru/me/formula/aux/1115_95_RIMANOVA]]/URI$ индуцируется скалярное произведение и тем самым на $URI[[http://libmeta.ru/me/formula/aux/1115_96_RIMANOVA]]/URI$ возникает структура риманова пространства с метрич. тензором $URI[[http://libmeta.ru/me/formula/aux/1115_97_RIMANOVA]]/URI$, компоненты к-рого вычисляются по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_16_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_98_RIMANOVA]]/URI$ - уравнения $URI[[http://libmeta.ru/me/formula/aux/1115_99_RIMANOVA]]/URI$ в локальных координатах. Внешняя гөометрия $URI[[http://libmeta.ru/me/formula/aux/1115_100_RIMANOVA]]/URI$, описывается вторыми квадратичными формами $URI[[http://libmeta.ru/me/formula/aux/1115_101_RIMANOVA]]/URI$, к-рые определяются для каждой единичной нормали $URI[[http://libmeta.ru/me/formula/aux/1115_102_RIMANOVA]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/1115_103_RIMANOVA]]/URI$ формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_17_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_104_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_105_RIMANOVA]]/URI$ - векторные поля на $URI[[http://libmeta.ru/me/formula/aux/1115_106_RIMANOVA]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/1115_107_RIMANOVA]]/URI$ - произвольное поле единичных нормалей, содержащее $URI[[http://libmeta.ru/me/formula/aux/1115_108_RIMANOVA]]/URI$. Для любой формы $URI[[http://libmeta.ru/me/formula/aux/1115_109_RIMANOVA]]/URI$ определяются нормальные кривизны, главные направления и кривизны, средняя и полная кривизны и т. д. и выводятся уравнения Гаусса - Кoдацци - Риччи, связывающие коэффициенты первой и вторых квадратичных форм. Свойствами вторых форм характеризуются важные классы подмногообразий, напр. минимальные, вполне геодезические, выпуклые и т. п. Для $URI[[http://libmeta.ru/me/formula/aux/1115_110_RIMANOVA]]/URI$ (гладкая кривая) строится төория, аналогичная теории кривых в $URI[[http://libmeta.ru/me/formula/aux/1115_111_RIMANOVA]]/URI$, определяются первая, вторая и т. Д. кривизны и выводятся уравнения, аналогичные формулам Френе. Первая кривизна кривой $URI[[http://libmeta.ru/me/formula/aux/1115_112_RIMANOVA]]/URI$ обычно наз. $URI[[http://libmeta.ru/me/formula/aux/1115_113_RIMANOVA]]/URI$ е о д е 3 и ч е с к о й к р и в и зн о й и вычисляется по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_18_RIMANOVA]]/URI
+\]
+
+если $URI[[http://libmeta.ru/me/formula/aux/1115_114_RIMANOVA]]/URI$ - длина дуги; в локальных координатах
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_19_RIMANOVA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_20_RIMANOVA]]/URI
+\]
+
+а $URI[[http://libmeta.ru/me/formula/aux/1115_115_RIMANOVA]]/URI$ - уравнения $URI[[http://libmeta.ru/me/formula/aux/1115_116_RIMANOVA]]/URI$.
+
+Большой круг задач Р. г. связан с изометрическими погружениями одного риманова пространства в другое и изучением свойств этих погружений. Эти задачи трудны и исследованы мало (более подробно - в двумерном случае).
+
+Экс поненци а льное отоб р а жение $URI[[http://libmeta.ru/me/formula/aux/1115_117_RIMANOVA]]/URI$ определяется условием: $URI[[http://libmeta.ru/me/formula/aux/1115_118_RIMANOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1115_119_RIMANOVA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1115_120_RIMANOVA]]/URI$ - конец дуги геодезической с началом в $URI[[http://libmeta.ru/me/formula/aux/1115_121_RIMANOVA]]/URI$ направлением $URI[[http://libmeta.ru/me/formula/aux/1115_122_RIMANOVA]]/URI$ и длины $URI[[http://libmeta.ru/me/formula/aux/1115_123_RIMANOVA]]/URI$. Если в окрестности точки $URI[[http://libmeta.ru/me/formula/aux/1115_124_RIMANOVA]]/URI$ ввести систему координат, сопоставляя точке $URI[[http://libmeta.ru/me/formula/aux/1115_125_RIMANOVA]]/URI$ декартовы координаты точки $URI[[http://libmeta.ru/me/formula/aux/1115_126_RIMANOVA]]/URI$, то окажется
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_21_RIMANOVA]]/URI
+\]
+
+это - т. н. (римановы) но р м а л ь ны е ко о р дин а т ы.
+
+К р и в и з н а. Если в окрестности точки $URI[[http://libmeta.ru/me/formula/aux/1115_127_RIMANOVA]]/URI$ ввести нормальные координаты, то компоненты метрич. тензора записываются в виде
+
+$URI[[http://libmeta.ru/me/formula/aux/1115_128_RIMANOVA]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_129_RIMANOVA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1115_130_RIMANOVA]]/URI$. Отсюда выводится важное свойство римановой метрики: для любой точки $URI[[http://libmeta.ru/me/formula/aux/1115_131_RIMANOVA]]/URI$ экспоненциальное отображение $URI[[http://libmeta.ru/me/formula/aux/1115_132_RIMANOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1115_133_RIMANOVA]]/URI$ обладает свойством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_22_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_134_RIMANOVA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1115_135_RIMANOVA]]/URI$. Добиться более высокого по порядку малости совпадения метрик $URI[[http://libmeta.ru/me/formula/aux/1115_136_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_137_RIMANOVA]]/URI$ за счет удачного выбора отображения $URI[[http://libmeta.ru/me/formula/aux/1115_138_RIMANOVA]]/URI$ в общем случае невозможно. Поэтому коэффициенты $URI[[http://libmeta.ru/me/formula/aux/1115_139_RIMANOVA]]/URI$ характеризуют отличие метрики $URI[[http://libmeta.ru/me/formula/aux/1115_140_RIMANOVA]]/URI$ от евклидовой метрики $URI[[http://libmeta.ru/me/formula/aux/1115_141_RIMANOVA]]/URI$. Эти коэффициенты являются компонентами т. н. тен 3 ора к р и в и 3 ны, или тен зо р а Р и ма на- K р и с тоффел я (в точке $URI[[http://libmeta.ru/me/formula/aux/1115_142_RIMANOVA]]/URI$ ). В локальных координатах $URI[[http://libmeta.ru/me/formula/aux/1115_143_RIMANOVA]]/URI$ они выражаются через коэффициенты метрич. тензора и их первые и вторые производные по формуле
+
+$URI[[http://libmeta.ru/me/formula/aux/1115_144_RIMANOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1115_145_RIMANOVA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1115_146_RIMANOVA]]/URI$.
+
+С тензором кривизны связан целый ряд других понятий, также (с разњых сторон) характеризующих меру отли- чия метрики $URI[[http://libmeta.ru/me/formula/aux/1115_147_RIMANOVA]]/URI$ от евклидовой. Так, через тензор кривизны огределяются те в зо ры $URI[[http://libmeta.ru/me/formula/aux/1115_148_RIMANOVA]]/URI$ и ч ч и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_23_RIMANOVA]]/URI
+\]
+
+И Э Й н ш т е й н а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_24_RIMANOVA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_25_RIMANOVA]]/URI
+\]
+
+-т.н ск а ля рная к ри визна $URI[[http://libmeta.ru/me/formula/aux/1115_149_RIMANOVA]]/URI$.
+
+Трилинейное отображение, сопоставляющее трем векторным полям $URI[[http://libmeta.ru/me/formula/aux/1115_150_RIMANOVA]]/URI$ поле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_26_RIMANOVA]]/URI
+\]
+
+наз. п р е о б р а о в анием кривизны. Его свойства:
+
+1) $URI[[http://libmeta.ru/me/formula/aux/1115_151_RIMANOVA]]/URI$
+
+2) $URI[[http://libmeta.ru/me/formula/aux/1115_152_RIMANOVA]]/URI$ (т о ждест в о Р и ч ч и),
+
+3) $URI[[http://libmeta.ru/me/formula/aux/1115_153_RIMANOVA]]/URI$;
+
+4) $URI[[http://libmeta.ru/me/formula/aux/1115_154_RIMANOVA]]/URI$.
+
+Кроме того, имеет место то ж д е с т в о Б и ан к и $URI[[http://libmeta.ru/me/formula/aux/1115_155_RIMANOVA]]/URI$. Преобразование кривизны можно связать нек-рой конструкцией с параллельным перенесением. Алгебраич. свойства тензора кривизны выводятся из свойств преобразования кривизны, т. к. через него, а именно через «биквадратичную форму» $URI[[http://libmeta.ru/me/formula/aux/1115_156_RIMANOVA]]/URI$, тензор кривизны (точнее, его значения на векторах $URI[[http://libmeta.ru/me/formula/aux/1115_157_RIMANOVA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1115_158_RIMANOVA]]/URI$ однозначно (алгебраически) выражается (см. К ривизна).
+
+Сек ц и о н ная к ри в и 3 на. Пусть $URI[[http://libmeta.ru/me/formula/aux/1115_159_RIMANOVA]]/URI$ двумерная поверхность в $URI[[http://libmeta.ru/me/formula/aux/1115_160_RIMANOVA]]/URI$, проходящая через $URI[[http://libmeta.ru/me/formula/aux/1115_161_RIMANOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1115_162_RIMANOVA]]/URI$ простая замкнутая кривая на $URI[[http://libmeta.ru/me/formula/aux/1115_163_RIMANOVA]]/URI$, проходящая через $URI[[http://libmeta.ru/me/formula/aux/1115_164_RIMANOVA]]/URI$ - площадь области на $URI[[http://libmeta.ru/me/formula/aux/1115_165_RIMANOVA]]/URI$, ограниченной кривой $URI[[http://libmeta.ru/me/formula/aux/1115_166_RIMANOVA]]/URI$ вектор, полученный из $URI[[http://libmeta.ru/me/formula/aux/1115_167_RIMANOVA]]/URI$ параллельным перенесением вдоль $URI[[http://libmeta.ru/me/formula/aux/1115_168_RIMANOVA]]/URI$ - угол между вектором $URI[[http://libmeta.ru/me/formula/aux/1115_169_RIMANOVA]]/URI$ и касательной составляющей вектора $URI[[http://libmeta.ru/me/formula/aux/1115_170_RIMANOVA]]/URI$. Тогда при стягивании $URI[[http://libmeta.ru/me/formula/aux/1115_171_RIMANOVA]]/URI$ к точке $URI[[http://libmeta.ru/me/formula/aux/1115_172_RIMANOVA]]/URI$ существует предел $URI[[http://libmeta.ru/me/formula/aux/1115_173_RIMANOVA]]/URI$, к-рый наз. римановой с е к ц и о нв $URI[[http://libmeta.ru/me/formula/aux/1115_174_RIMANOVA]]/URI$ й к $URI[[http://libmeta.ru/me/formula/aux/1115_175_RIMANOVA]]/URI$ и в и 3 н о й пространства $URI[[http://libmeta.ru/me/formula/aux/1115_176_RIMANOVA]]/URI$ в данной точке $URI[[http://libmeta.ru/me/formula/aux/1115_177_RIMANOVA]]/URI$ и в данном двумерном направлении $URI[[http://libmeta.ru/me/formula/aux/1115_178_RIMANOVA]]/URI$ не зависит от поверхности $URI[[http://libmeta.ru/me/formula/aux/1115_179_RIMANOVA]]/URI$, а зависит только от $URI[[http://libmeta.ru/me/formula/aux/1115_180_RIMANOVA]]/URI$ ). Секционная кривизна показывает меру «искривления» $URI[[http://libmeta.ru/me/formula/aux/1115_181_RIMANOVA]]/URI$ в данной точке и в данном двумерном направлении. Вообце говоря, в разных двумерных направлениях это искривление различно; но если в каждой точке кривизна $URI[[http://libmeta.ru/me/formula/aux/1115_182_RIMANOVA]]/URI$ не зависит от выбора $URI[[http://libmeta.ru/me/formula/aux/1115_183_RIMANOVA]]/URI$, то она не меняется и от точки к точке (т е о р е м а Iii у р а). Тождественное обращение секционной кривизны в нуль - необходимое и достаточное условие того, чтобы $URI[[http://libmeta.ru/me/formula/aux/1115_184_RIMANOVA]]/URI$ было локально изометрично $URI[[http://libmeta.ru/me/formula/aux/1115_185_RIMANOVA]]/URI$ (в целом оно может отличаться от $URI[[http://libmeta.ru/me/formula/aux/1115_186_RIMANOVA]]/URI$. Секционную кривизну $URI[[http://libmeta.ru/me/formula/aux/1115_187_RIMANOVA]]/URI$ можно связать и с другими объектами Р. г., напр. с дефектом (избытком) геодезич. треугольника (см. Гаусса - Бонне теорема). Сам Б. Риман определял секционную кривизну как гауссову кривизну двумерной поверхности $URI[[http://libmeta.ru/me/formula/aux/1115_188_RIMANOVA]]/URI$, вычисленную по формуле Гаусса в точке $URI[[http://libmeta.ru/me/formula/aux/1115_189_RIMANOVA]]/URI$. В свою очередь, по секционной кривизне метрика $URI[[http://libmeta.ru/me/formula/aux/1115_190_RIMANOVA]]/URI$ определяется однозначно в следующем смысле: если у двух многообразий $URI[[http://libmeta.ru/me/formula/aux/1115_191_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_192_RIMANOVA]]/URI$ секционные кривизны постоянны и равны одному и тому же числу $URI[[http://libmeta.ru/me/formula/aux/1115_193_RIMANOVA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1115_194_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_195_RIMANOVA]]/URI$ локально изометричны, если они к тому же оба односвязны, то просто изометричны. Односвязное риманово пространство постоянной секционной кривизны $URI[[http://libmeta.ru/me/formula/aux/1115_196_RIMANOVA]]/URI$ изометрично: n-мерному пространству Лобачевского $URI[[http://libmeta.ru/me/formula/aux/1115_197_RIMANOVA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1115_198_RIMANOVA]]/URI$ мерному евклидову пространству $URI[[http://libmeta.ru/me/formula/aux/1115_199_RIMANOVA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1115_200_RIMANOVA]]/URI$-мерной сфере $URI[[http://libmeta.ru/me/formula/aux/1115_201_RIMANOVA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/1115_202_RIMANOVA]]/URI$ радиуса $URI[[http://libmeta.ru/me/formula/aux/1115_203_RIMANOVA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1115_204_RIMANOVA]]/URI$. В общем случае известен следующий результат. Если $URI[[http://libmeta.ru/me/formula/aux/1115_205_RIMANOVA]]/URI$ аналитическое риманово пространство непостоянной секционной кривизны и существует диффеоморфизм $URI[[http://libmeta.ru/me/formula/aux/1115_206_RIMANOVA]]/URI$, при к-ром $URI[[http://libmeta.ru/me/formula/aux/1115_207_RIMANOVA]]/URI$, то при $URI[[http://libmeta.ru/me/formula/aux/1115_208_RIMANOVA]]/URI$ отображение $URI[[http://libmeta.ru/me/formula/aux/1115_209_RIMANOVA]]/URI$ - изометрия; в случае $URI[[http://libmeta.ru/me/formula/aux/1115_210_RIMANOVA]]/URI$ это утверждение доказано при нек-рых дополнительных предположениях, а в случае $URI[[http://libmeta.ru/me/formula/aux/1115_211_RIMANOVA]]/URI$ теорема не верна. Однако неизвестно (1983), кроме двумерного случая, какова должна быть функция $URI[[http://libmeta.ru/me/formula/aux/1115_212_RIMANOVA]]/URI$, чтобы для нее существовала метрика $URI[[http://libmeta.ru/me/formula/aux/1115_213_RIMANOVA]]/URI$, для к-рой $URI[[http://libmeta.ru/me/formula/aux/1115_214_RIMANOVA]]/URI$ была бы секционной кривизной. В этом направлении известны только нек-рые отрицательные результаты.
+
+Секционная кривизна связана с преобразованием кривизны формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_27_RIMANOVA]]/URI
+\]
+
+а через компоненты тензора кривизны выражается так:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_28_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_215_RIMANOVA]]/URI$ определено векторами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_29_RIMANOVA]]/URI
+\]
+
+Значение тензора Риччи $URI[[http://libmeta.ru/me/formula/aux/1115_216_RIMANOVA]]/URI$ на векторе $URI[[http://libmeta.ru/me/formula/aux/1115_217_RIMANOVA]]/URI$ связано с секционной кривизной следующим образом: пусть векторы $URI[[http://libmeta.ru/me/formula/aux/1115_218_RIMANOVA]]/URI$ образуют ортонормированный базис в $URI[[http://libmeta.ru/me/formula/aux/1115_219_RIMANOVA]]/URI$, тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_30_RIMANOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1115_220_RIMANOVA]]/URI$ - двумерное направление векторов $URI[[http://libmeta.ru/me/formula/aux/1115_221_RIMANOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1115_222_RIMANOVA]]/URI$. Клас сы риман овых пр о с т р а нств. Помимо общих (произвольных) римановых пространств существуют римановы пространства, на к-рых могут быть введены дополнительные структуры. Эти структуры возникают тогда, когда непосредственно на метрику или на кривизну накладываются те или иные условия геометрического или алгебраич. характера. Таким способом определяются важные классы римановых пространств: многообразия постоянной секционной кривизны (см. Пространственные формы), однородное пространство, симлетрическое пространство, эрмитовы и кәлеровы многообразия, пространства Эйнштейна и т. д.
+
+О б о б щ е н и я. Развитие идей Р. г. и геометрии в целом привело к ряду обобщений понятия Р. г.
+
+П с е в д о риман о в г е о ме т р и т - теория псевдориманова пространства. Псевдоримановым пространством наз. диффференцируемое многообразие, на к-ром задано поле знакопеременного симметричного невырожденного тензора.
+
+Фи н с л е р о в а ге о м е т р и я-теория дифференцируемого многообразия, на касательном расслоении к-рого задана функция $URI[[http://libmeta.ru/me/formula/aux/1115_223_RIMANOVA]]/URI$, однородная первой степени по $URI[[http://libmeta.ru/me/formula/aux/1115_224_RIMANOVA]]/URI$. Длина $URI[[http://libmeta.ru/me/formula/aux/1115_225_RIMANOVA]]/URI$ кривой $URI[[http://libmeta.ru/me/formula/aux/1115_226_RIMANOVA]]/URI$ вычисляется:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1115_31_RIMANOVA]]/URI
+\]
+
+П р ост ранст в о о г р а иченн ой к р ив и 3 н ы - теория двумерных метрич. многообразий с внутренней метрикой (без всяких предположений гладкости), в к-рых определена интегральная кривизна любого ограниченного борелевского множества. Сюда, в частности, относится внутренняя геометрия выпуклых поверхностей. Этот класс метрич. пространства можно получить, присоединяя к двумерным римановым пространствам двумерные метризованные многообразия, метрика к-рых в окрестности каждой точки допускает равномерное приближение римановыми метриками с ограниченными в совокупности интегралами от абсолютной гауссовой кривизны.
+
+П р о с т р а н с в а к р и в иныне боль ш $URI[[http://libmeta.ru/me/formula/aux/1115_227_RIMANOVA]]/URI$ - теория полных метрич. многообразий с внутренней метрикой, в к-рых сумма верхних углов треугольников, составленных из кратчайших, не превосходит суммы углов треугольника на плоскости постоянной кривизны $URI[[http://libmeta.ru/me/formula/aux/1115_228_RIMANOVA]]/URI$ с такими же длинами сторон (кроме того, предполагается, что любые две точки можно соединить единственной кратчайшей).
+
+См. также Геодезических геометрия, Конформная геометрия, Риманово пространство обобщенное.
+
+Лит.. [1] Р и м а н Б., Соч., пер. с нем., М.-Л., 1948; [2] Р а ші е в с к и й П. К. Риманова геометрия и тензорный анализ, 3 изд., М., 1967; [з̉] У й 3 е н х а $URI[[http://libmeta.ru/me/formula/aux/1115_229_RIMANOVA]]/URI$ т Л. П., Риманова геометрия, пер. с англ., М., 1948; [4] Г р о м о л Д., К л и н г е нбе р г В., М е й е р В., Риманова геометрия в целом, пер. с нем., М., 1971; [5] А'ле к с а н д р о в А. Д., Внутренняя геометрия выпуклых поверхностей, М.-Л., 1948; [6] Б у р аг о I0. Д., 3 а л г а л л е р В. А., &quot;успехи матем. наук&quot;, 1977, т. 32, в. 3, с. 3-55; [7] М и л н о р Д ж., Теория Морса, пер. с англ., М., 1965 ; [8] К а $URI[[http://libmeta.ru/me/formula/aux/1115_230_RIMANOVA]]/URI$ URI[[http://libmeta.ru/me/relation/1115_1_RIMANOVA]]/URI, пер. с франц., м.-J., 1936 ;'[9] K u l k a r n i R. S., &quot;ann. Math.&quot;, 1970, v. 91, № 2, p. 311 -31; [10] W o l f J. A., Spaces of constant curvature, N. Y., 1967.</text>
+  <text_orig>теория риманова пространства. Р и м а н о в ы м п р о с т р а н т в о м наз. $n$-мерное связное диффференцируемое многообразие $M_{n}$, на к-ром задано диффференцируемое поле ковариантного, симметрического и положительно определенного тензора $g$ ранга 2 . Тензор $g$ наз. м е т р и ч ес к и м т е н 3 о р о м. Р. г. есть многомерное обобщение внутренней геометрии двухмерных поверхностей в әвклидовом пространстве $E^{3}$. Метрика риманова пространства с точностью до первого порядка малости, по сравнению с размерами рассматриваемой области, совпадает с евклидовой метрикой. Отличие этих метрик оценивается (локально) римановой кривизной - многомерным обобщением понятия гауссовой кривизны поверхности в $E^{3}$.
+
+В основании Р. г. лежат три идеи. Первая идея осознание факта существования неевклидовой геометрии - геометрии Н. И. Лобачевского. Вторая идея понятие внутренней геометрии поверхностей, созданной К. Гауссом (C. Gauss). Третья идея - понятие $n$ мерного пространства, разработанное в 1-й пол. 19 в. Б. Риман (B. Riemann) соединил и обобщил әти идеи в лекции &quot;О гипотезах, лежащих в основании геометрии». Понятия Р. г. сыграли важную роль в создании А. Эйнштейном (A. Einstein) общей теории относительности, дальнейшее ее развитие связано с созданием аппарата тензорного исчисления. Р. г. и ее многочисленные обобщения успешно развиваются, особенно в той ее части, к-рая наз. римановой геометрией в целом, и находят обширные и глубокие механические и физич. применения.
+
+Основные понятия P. г. следующие.
+
+Скаля рн о п по и з в е д е и е. В каждом касательном пространстве $\left(T M^{n}\right)_{p}, p \in M^{n}$, тензор $g$ определяет скалярное (внутреннее) произведение $\langle\cdot, \cdot\rangle$ по формуле
+
+\[
+\langle X, Y\rangle=g(X, Y), X, Y \in\left(T M^{n}\right)_{p}
+\]
+
+Верно и обратное: если для любого $p \in M^{n}$ в $\left(T M^{n}\right)_{p}$ определено скалярное произведение, дифференцируемо зависящее от $p$, то оно определяет тензорное поле $g$ с указанными выше свойствами. Степени гладкости $M^{n}$ и $g$ варьируются в зависимости от поставленной задачи. В большинстве случаев достаточно потребовать, чтобы $M^{n}$ было трижды непрерывно диффференцируемо, а поле тензора $g$ - дважды непрерывно дифференцируемо (далөе необходимая степень гладкости указываться не будет). В локальных координатах $\left\{x^{i}\right\}$ с локальным базисом $\left\{\partial_{i}\right\}, l=1, \ldots, n$, компоненты тензора $g$ имеют вид
+
+\[
+g_{i j}=\left\langle\partial_{i}, \partial_{j}\right\rangle
+\]
+
+так что
+
+\[
+\langle X, Y\rangle=\sum_{i, j=1}^{n} g_{i j} X^{i} Y^{j}
+\]
+
+где
+
+\[
+X=\sum_{i=1}^{n} X^{i} \partial_{i}, \quad Y=\sum_{j=1}^{n} Y^{j} \partial_{j}
+\]
+
+Риманово пространство как мет рическое прост танство. Длина $l$ гладкой кривой $c(t):[0,1] \rightarrow M^{n}$ определяется формулой
+
+\[
+l=\int_{0}^{1}|\dot{c}| d t
+\]
+
+где $\dot{c}$ - касательный вектор к $c(t)$. Длина кусочно гладкой кривой равна сумме длин ее гладких звеньев. Если $x^{i}=x^{i}(t)$ - уравнения $c(t)$ в локальных координатах, то
+
+\[
+\dot{c}=\sum_{i=1}^{n} \frac{d x^{i}}{d t} \partial_{i}, \quad l=\int_{0}^{1} \sqrt{\sum_{i, j=1}^{n} g_{i j} \frac{d x^{i}}{d t} \frac{d x^{f}}{d t}} d t .
+\]
+
+Имея в виду эту формулу, метрику на $M^{n}$ записывают в традиционной форме
+
+\[
+d s^{2}=\sum_{i, j=1}^{n} g_{i j} d x^{i} d x^{j},
+\]
+
+и $d s$ наз. әлементом длины, а функции $g_{i j}(x)-$ коэффициентами метрической (основной, первой квадратичной) формы. У г о л между двумя кривыми в точке их пересечения определяется как угол между касательными к ним. Объём $V(U)$ области $U$, принадлежащей координатной окрестности, определяется формулой
+
+\[
+V(U)=\int_{U}|g|^{1 / 2} d x^{1} \ldots d x^{n}
+\]
+
+где $g=\operatorname{det}\left\|g_{i j}\right\|$. Объем произвольной области равен сумме объемов ее частей, причем каждая из частей лөжит в нек-рой координатной окрестности.
+
+$\mathbf{P}$ а с с т о я н и e $\rho(p, q)$ между точками $p, q \in M^{n}$ определяется как точная нижняя грань длин всех кусочно гладких кривых, соединяющих $p$ с $q$. Аналогично определяется метрика $\rho_{U}$ в произвольной связной области $U$. Два римановых пространства $M_{1}^{n}$ и $M_{2}^{n}$ наз. и з о м т р и ч ны м и, если существует отображение $\varphi: M_{1}^{n} \rightarrow M_{2}^{n}$, при к-ром
+
+\[
+\rho_{M^{n}}(p, q)=\rho_{M_{2}^{n}}(\varphi(p), \varphi(q))
+\]
+
+или, что то же, $l(c)=l(\varphi(c))$, где $c$ - произвольная кривая в $M_{1}^{n}$. Если $\varphi$ - изометрия, то для любой точки $p \in M_{1}^{n}$ существует координатная окрестность $U_{1} \ni p$ и координатная окрестность $U_{2} \ni \varphi(p)$ такие, что $g_{i j}^{1}(x)=$ $=g_{i j}^{2}(\varphi(x)), x \in U_{1}, i, j=1, \ldots, n$. Изометрич. отображение $M^{n}$ на себя наз. д в и ж е н и е м.
+
+Кривая с концами в точках $p$ и $q$ наз. к $\mathrm{p}$ а т ч а йшा $\mathbf{e}$ й, если ее длина равна $\rho(p, q)$. Стационарная кривая функционала длины $l$ наз. г е о д е з и ч е с к о й линией. Каждая кратчайшая в $M^{n}$ есть геодезическая, и каждая достаточно малая дуга геодезической есть кратчайная. Область $U \subset M^{n}$ наз. г е о д е з и ч е с к и в ы п у к л о й, если кратчайшие, определенные по метрике $\rho_{U}$, есть геодезические $M^{n}$. Если $x^{i=} x^{i}(t)$, $i=1, \ldots, n,-$ уравнения геодезпческой в локальной системе координат $\left\{x^{i}\right\}$, то функции $x^{i}(t)$ удовлетворяют системе уравнений, к-рая в случае, когда $t$ - параметр, пропорциональный длине дуги, имеет вид
+
+\[
+\frac{d^{2} x^{l}}{d t^{2}}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} \frac{d x^{j}}{d t} \frac{d x^{k}}{d t}=0, i=1, \ldots, n,
+\]
+
+где $\quad \Gamma_{j k}^{l}=\sum_{a=1}^{n} g^{a_{i}} \Gamma_{j k, a}$,
+
+\[
+\Gamma_{j k, a}=\frac{1}{2}\left(\frac{\partial g_{j a}}{\partial x^{k}}+\frac{\partial g_{k a}}{\partial x^{j}}-\frac{\partial g_{j k}}{\partial x^{a}}\right)
+\]
+
+- символы Кристоффеля, $g^{a b}$ - әлементы матрицы, обратной к $\left\|g_{i j}\right\|, i, j, k, a, b=1, \ldots, n$.
+
+Риманово пространство наз. П о л ны м (г е о д ез и ч е с к и п о л ны м), если оно полно как метрич. пространство (если любую дугу геодезической можно неограниченно продолжить в обе стороны). Риманово пространство полно тогда и только тогда, когда оно геодезически полно. В полном римановом пространстве любые две точки можно соединить кратчайшей (не обязательно единственной). На любом дифференцируемом многообразии можно ввести структуру полного риманова пространства.
+
+Р и а а о в о прос т р анс тво ка к мно гооб разие со свя производная $\nabla$ наз. с и м м е т р и ч е с к о й и с о вм е с т н о й с ме т р и к о й $g$ пространства $M^{n}$, если выполняются условия симметричности
+
+\[
+\nabla_{X} Y-\nabla_{Y} X=[X, Y]
+\]
+
+\section{и совместности}
+
+\[
+Z\langle X, Y\rangle=\left\langle\nabla_{Z} X, Y\right\rangle+\left\langle X, \nabla_{Z} Y\right\rangle,
+\]
+
+где $X, Y, Z$ - дифференцируемые векторшые поля, а $[X, Y]$ - их коммутатор. Этими уеловиями производная $\nabla$ определяется однозначно через поле метрич. тензора g. В локальных координатах $\left\{x^{i}\right\}$ компоненты связности $\nabla$ имеют вид $\Gamma_{k j, i}=\left\langle\nabla_{k} \partial_{j}, \partial_{i}\right\rangle$ и совпадают с символом Кристоффеля 1-го рода, а
+
+\[
+\nabla X Y=\sum_{i=1}^{n}\left(\sum_{k=1}^{n} \frac{\partial Y^{i}}{\partial x^{k}} X^{k}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} X^{j} Y^{k}\right) \partial_{i}
+\]
+
+Аналогичной формулой определяется ковариантная производная любого тензора.
+
+Векторное поле $Y(t)$ вдоль кривой $c(t)$ наз. п а р а лл е ль н ы м, если $\nabla_{c} \boldsymbol{Y}=0$. Аналитически параллельное поле $Y(t)$ определяется решением системы
+
+\[
+\frac{d Y^{i}}{d t}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} Y^{j} \frac{d x^{k}}{d t}, i=1, \ldots, n,
+\]
+
+где $x^{i}=x^{i}(t)$ - уравнения кривой $c(t)$. Решения әтой системы при различных начальных условиях дают отображение $\left(T M^{n}\right)_{c(0)}$ в $\left(T M^{n}\right)_{c(1)} ;$ оно оказывается изометричным и наз, п а р а л л ө л ьны м п е р е н ес е н и е м Л е ви-Ч и вит а. Результат перенесения зависит, вообще говоря, не только от конөчных точек $c(0)$ и $c(1)$, но и от самого пути $c(t)$. Кривая, для к-рой $\nabla c=0$, является геодезической, и это свойство геодезической можно взять за еө определение.
+
+Подмногооб ра а ия риманова ї рос тр а н с т в а. Если $M^{k}, k \leqslant n,-$ дифференцируемое подмногообразие риманова пространства $M^{n}$, то в каждом касательном пространстве к $M^{k}\left(\left(T M^{k}\right)_{p} \subsetneq\left(T M^{n}\right)_{p}\right)$ индуцируется скалярное произведение и тем самым на $M^{k}$ возникает структура риманова пространства с метрич. тензором $a$, компоненты к-рого вычисляются по формулам
+
+\[
+a_{\alpha \beta}=\sum_{i, j=1}^{n} g_{i j} \frac{\partial x^{i}}{\partial u^{\alpha}} \frac{\partial x^{j}}{\partial u^{\beta}}, \quad \alpha, \beta=1, \ldots, k,
+\]
+
+где $x^{i}=x^{i}\left(u^{1}, \ldots, u^{k}\right)$ - уравнения $M^{k}$ в локальных координатах. Внешняя гөометрия $M^{k}, k \geqslant 2$, описывается вторыми квадратичными формами $B\left(v_{p}\right)$, к-рые определяются для каждой единичной нормали $v_{p}$ к $M^{k}$ формулой
+
+\[
+B\left(v_{p}\right)(X, Y)=-\left(\nabla X^{v}, Y\right),
+\]
+
+где $X$ и $Y$ - векторные поля на $M^{k}$, а $v$ - произвольное поле единичных нормалей, содержащее $v_{p}$. Для любой формы $B\left(v_{p}\right)$ определяются нормальные кривизны, главные направления и кривизны, средняя и полная кривизны и т. д. и выводятся уравнения Гаусса - Кoдацци - Риччи, связывающие коэффициенты первой и вторых квадратичных форм. Свойствами вторых форм характеризуются важные классы подмногообразий, напр. минимальные, вполне геодезические, выпуклые и т. п. Для $M^{1} \equiv c(t)$ (гладкая кривая) строится төория, аналогичная теории кривых в $E^{n}$, определяются первая, вторая и т. Д. кривизны и выводятся уравнения, аналогичные формулам Френе. Первая кривизна кривой $k_{1}$ обычно наз. $\mathrm{r}$ е о д е 3 и ч е с к о й к р и в и зн о й и вычисляется по формуле
+
+\[
+k_{1}=\left|\nabla_{\dot{c}} \dot{c}\right|
+\]
+
+если $t$ - длина дуги; в локальных координатах
+
+\[
+k_{1}=\sqrt{\sum_{i, j=1}^{n} g_{i j} \mu^{i} \mu^{j}}
+\]
+
+где
+
+\[
+\mu^{i}=\frac{d^{2} x^{i}}{d t^{2}}+\sum_{j, k=1}^{n} \Gamma_{j k}^{i} \frac{d x^{j}}{d t} \frac{d x^{k}}{d t}
+\]
+
+а $x^{i}=x^{i}(t)$ - уравнения $c(t)$.
+
+Большой круг задач Р. г. связан с изометрическими погружениями одного риманова пространства в другое и изучением свойств этих погружений. Эти задачи трудны и исследованы мало (более подробно - в двумерном случае).
+
+Экс поненци а льное отоб р а жение $\exp _{q}:\left(T M^{n}\right)_{q} \rightarrow M^{n}$ определяется условием: $\exp _{q} X=$ $=r$, где $r$ - конец дуги геодезической с началом в $q, \mathrm{c}$ направлением $X \in\left(T M^{n}\right)_{q}$ и длины $|X|$. Если в окрестности точки $p$ ввести систему координат, сопоставляя точке $p$ декартовы координаты точки $\exp _{q}^{-1} p \in\left(T M^{n}\right)_{q}$, то окажется
+
+\[
+\begin{aligned}
+&amp; \left.\Gamma_{j n}^{i}\right|_{x=q}=\left.\Gamma_{j k,} i\right|_{x=q}=0, \text { то есть } \\
+&amp; \left.\frac{\partial g_{j k}}{\partial x^{i}}\right|_{x=q}=0, \quad i, j, k=1, \ldots, n
+\end{aligned}
+\]
+
+это - т. н. (римановы) но р м а л ь ны е ко о р дин а т ы.
+
+К р и в и з н а. Если в окрестности точки $q$ ввести нормальные координаты, то компоненты метрич. тензора записываются в виде
+
+$g_{i j}=\delta_{i j}-\frac{1}{3} \sum_{k, l=1}^{n} R_{i k, j l} x^{k} x^{l}+\sum_{k, l=1}^{n} \varepsilon_{i k, j l} x^{k} x^{l}$,
+
+где $\varepsilon_{i k, j l} \rightarrow 0$ при $x^{i} \rightarrow 0, i, j, k, l=1, \ldots, n$. Отсюда выводится важное свойство римановой метрики: для любой точки $g \in M^{n}$ экспоненциальное отображение $\varphi \equiv$ $\equiv \exp _{q}:\left(T M^{n}\right)_{q} \rightarrow M^{n}$ обладает свойством
+
+\[
+\begin{aligned}
+\rho_{\left(T M^{n}\right)_{q}}(X, Y) &amp; =|X-Y|=\rho_{M^{n}}(\varphi(X), \varphi(Y)) \times \\
+&amp; \times(1+\varepsilon(X, Y)),
+\end{aligned}
+\]
+
+где $\varepsilon(X, Y) \rightarrow 0$ при $|X|,|Y| \rightarrow 0$. Добиться более высокого по порядку малости совпадения метрик $M^{n}$ и $\left(T M^{n}\right)_{q}$ за счет удачного выбора отображения $\varphi$ в общем случае невозможно. Поэтому коэффициенты $R_{i k, j l}$ характеризуют отличие метрики $M^{n}$ от евклидовой метрики $\left(T M^{n}\right)_{q}$. Эти коэффициенты являются компонентами т. н. тен 3 ора к р и в и 3 ны, или тен зо р а Р и ма на- K р и с тоффел я (в точке $q$ ). В локальных координатах $\left\{x^{i}\right\}$ они выражаются через коэффициенты метрич. тензора и их первые и вторые производные по формуле
+
+$R_{i k, j l}=\frac{1}{2}\left(\frac{\partial^{2} g_{i l}}{\partial x^{k} \partial x^{j}}+\frac{\partial^{2} g_{k j}}{\partial x^{i} \partial x^{l}}-\frac{\partial^{2} g_{i j}}{\partial x^{k} \partial x^{l}}-\frac{\partial^{2} g_{k l}}{\partial x^{i} \partial x^{j}}\right)+$ $+\sum_{a, b=1}^{n} g^{a b}\left(\Gamma_{k j, a} \Gamma_{i l, b}-\Gamma_{k l, a}, \Gamma_{i j, b}\right)$, $i, j, k, l, a, b=1, \ldots, n$.
+
+С тензором кривизны связан целый ряд других понятий, также (с разњых сторон) характеризующих меру отли- чия метрики $M^{n}$ от евклидовой. Так, через тензор кривизны огределяются те в зо ры $\mathrm{P}$ и ч ч и
+
+\[
+R_{i j}=\sum_{k, l=1}^{n} g^{k l} R_{i k, j l}
+\]
+
+И Э Й н ш т е й н а
+
+\[
+G_{i j}=R_{i j}-\frac{R}{n} g_{i j}
+\]
+
+где
+
+\[
+R=\sum_{i, j=1}^{n} g^{i j} R_{i j}
+\]
+
+-т.н ск а ля рная к ри визна $M^{n}$.
+
+Трилинейное отображение, сопоставляющее трем векторным полям $X, Y, Z$ поле
+
+\[
+R(X, Y) Z=\nabla_{Y}\left(\nabla_{X} Z\right)-\nabla_{X}\left(\nabla_{Y} Z\right)-\nabla_{[X Y]} Z,
+\]
+
+наз. п р е о б р а о в анием кривизны. Его свойства:
+
+1) $\boldsymbol{R}(X, Y) Z+R(Y, X) Z=0$
+
+2) $R(X, Y) Z+R(Y, Z) X+R(Z, X) Y=0$ (т о ждест в о Р и ч ч и),
+
+3) $\langle R(X, Y) Z, W\rangle=\langle R(X, Y) W, Z\rangle$;
+
+4) $\langle R(X, Y) Z, W\rangle=\langle R(Z, W) X, Y\rangle$.
+
+Кроме того, имеет место то ж д е с т в о Б и ан к и $\nabla_{X}(R(Y, Z) W)+\nabla_{Y}(R(Z, X) W)+\nabla_{Z}(R(X, Y) W)=0$. Преобразование кривизны можно связать нек-рой конструкцией с параллельным перенесением. Алгебраич. свойства тензора кривизны выводятся из свойств преобразования кривизны, т. к. через него, а именно через «биквадратичную форму» $k(X, Y)=\langle R(X, Y) Y, X\rangle$, тензор кривизны (точнее, его значения на векторах $X$, $Y, Z, W)$ однозначно (алгебраически) выражается (см. К ривизна).
+
+Сек ц и о н ная к ри в и 3 на. Пусть $F^{2}-$ двумерная поверхность в $M^{n}$, проходящая через $p, \sigma=$ $=\left(T F^{2}\right)_{p}, \Gamma-$ простая замкнутая кривая на $\Gamma^{2}$, проходящая через $p, S$ - площадь области на $F^{2}$, ограниченной кривой $\Gamma, z \in\left(T F^{2}\right)_{p}, \bar{z}-$ вектор, полученный из $z$ параллельным перенесением вдоль $\Gamma, \varphi$ - угол между вектором $z$ и касательной составляющей вектора $\bar{z}$. Тогда при стягивании $\boldsymbol{\Gamma}$ к точке $p$ существует предел $K(p, \sigma)=\lim \frac{\varphi}{S}$, к-рый наз. римановой с е к ц и о нв $о$ й к $\mathrm{p}$ и в и 3 н о й пространства $M^{n}$ в данной точке $p$ и в данном двумерном направлении $\sigma(K(p, \sigma)$ не зависит от поверхности $F^{2}$, а зависит только от $\sigma$ ). Секционная кривизна показывает меру «искривления» $M^{n}$ в данной точке и в данном двумерном направлении. Вообце говоря, в разных двумерных направлениях это искривление различно; но если в каждой точке кривизна $K(p, \sigma)$ не зависит от выбора $\sigma$, то она не меняется и от точки к точке (т е о р е м а III у р а). Тождественное обращение секционной кривизны в нуль - необходимое и достаточное условие того, чтобы $M^{n}$ было локально изометрично $E^{n}$ (в целом оно может отличаться от $\left.E^{n}\right)$. Секционную кривизну $M^{n}$ можно связать и с другими объектами Р. г., напр. с дефектом (избытком) геодезич. треугольника (см. Гаусса - Бонне теорема). Сам Б. Риман определял секционную кривизну как гауссову кривизну двумерной поверхности $\exp _{p} \sigma$, вычисленную по формуле Гаусса в точке $p$. В свою очередь, по секционной кривизне метрика $M^{n}$ определяется однозначно в следующем смысле: если у двух многообразий $M_{1}^{n}$ и $M_{2}^{n}$ секционные кривизны постоянны и равны одному и тому же числу $a$, то $M_{1}^{n}$ и $M_{2}^{n}$ локально изометричны, если они к тому же оба односвязны, то просто изометричны. Односвязное риманово пространство постоянной секционной кривизны $a$ изометрично: n-мерному пространству Лобачевского $L_{n}$ при $a&lt;0, n$ мерному евклидову пространству $E_{n}$ при $a=0 ; n$-мерной сфере $S^{n}$ в $E^{n+1}$ радиуса $1 / \sqrt{a}$ при $a&gt;0$. В общем случае известен следующий результат. Если $M_{1}^{n}-$ аналитическое риманово пространство непостоянной секционной кривизны и существует диффеоморфизм $\varphi: M_{1}^{n} \rightarrow M_{2}^{n}$, при к-ром $K(p, \sigma)=K(\varphi(p), d \varphi(\sigma))$, то при $n \geqslant 4$ отображение $\varphi$ - изометрия; в случае $n=3$ это утверждение доказано при нек-рых дополнительных предположениях, а в случае $n=2$ теорема не верна. Однако неизвестно (1983), кроме двумерного случая, какова должна быть функция $K(p, \sigma)$, чтобы для нее существовала метрика $g$, для к-рой $K(p, \sigma)$ была бы секционной кривизной. В этом направлении известны только нек-рые отрицательные результаты.
+
+Секционная кривизна связана с преобразованием кривизны формулой
+
+\[
+K(p, \sigma)=\frac{\left\langle R\left(X_{p}, Y_{p}\right) X_{p}, Y_{p}\right\rangle}{\left|X_{p}\right|^{2}\left|Y_{p}\right|^{2}-\left\langle X_{p}, Y_{p}\right\rangle^{2}},
+\]
+
+а через компоненты тензора кривизны выражается так:
+
+\[
+\begin{aligned}
+&amp; K(p, \sigma)= \\
+&amp; =\frac{\sum_{i, j, k, l=1}^{n} R_{i k, j l}\left(X^{i} Y^{k}-X^{k} Y^{i}\right)\left(X^{j} Y^{l}-X^{l} Y^{j}\right)}{\sum_{i, j, k, l=1}^{n}\left|\begin{array}{l}
+g_{i j} g_{i l} \\
+g_{k j} g_{k l}
+\end{array}\right|\left(X^{i} Y^{j}-X^{j} Y^{i}\right)\left(X^{k} Y^{l}-X^{l} Y^{k}\right)},
+\end{aligned}
+\]
+
+где $\sigma$ определено векторами
+
+\[
+X=\sum_{i=1}^{n} X^{i} \partial_{i}, \quad Y=\sum_{j=1}^{n} Y^{j} \partial_{j} .
+\]
+
+Значение тензора Риччи $R_{i j}$ на векторе $X$ связано с секционной кривизной следующим образом: пусть векторы $X, Y_{1}, \ldots, Y_{n-1}$ образуют ортонормированный базис в $\left(T \bar{M}^{n}\right)_{p}$, тогда
+
+\[
+\sum_{i, j=1}^{n} R_{i j} X^{i} X^{j}=\sum_{k=1}^{n} K\left(p, \sigma_{k}\right),
+\]
+
+где $\sigma_{k}$ - двумерное направление векторов $X$ и $Y_{k}$. Клас сы риман овых пр о с т р а нств. Помимо общих (произвольных) римановых пространств существуют римановы пространства, на к-рых могут быть введены дополнительные структуры. Эти структуры возникают тогда, когда непосредственно на метрику или на кривизну накладываются те или иные условия геометрического или алгебраич. характера. Таким способом определяются важные классы римановых пространств: многообразия постоянной секционной кривизны (см. Пространственные формы), однородное пространство, симлетрическое пространство, эрмитовы и кәлеровы многообразия, пространства Эйнштейна и т. д.
+
+О б о б щ е н и я. Развитие идей Р. г. и геометрии в целом привело к ряду обобщений понятия Р. г.
+
+П с е в д о риман о в г е о ме т р и т - теория псевдориманова пространства. Псевдоримановым пространством наз. диффференцируемое многообразие, на к-ром задано поле знакопеременного симметричного невырожденного тензора.
+
+Фи н с л е р о в а ге о м е т р и я-теория дифференцируемого многообразия, на касательном расслоении к-рого задана функция $F(x, \lambda)$, однородная первой степени по $\lambda$. Длина $l$ кривой $c(t)$ вычисляется:
+
+\[
+l=\int_{0}^{1} F(c, \dot{c}) d t
+\]
+
+П р ост ранст в о о г р а иченн ой к р ив и 3 н ы - теория двумерных метрич. многообразий с внутренней метрикой (без всяких предположений гладкости), в к-рых определена интегральная кривизна любого ограниченного борелевского множества. Сюда, в частности, относится внутренняя геометрия выпуклых поверхностей. Этот класс метрич. пространства можно получить, присоединяя к двумерным римановым пространствам двумерные метризованные многообразия, метрика к-рых в окрестности каждой точки допускает равномерное приближение римановыми метриками с ограниченными в совокупности интегралами от абсолютной гауссовой кривизны.
+
+П р о с т р а н с в а к р и в иныне боль ш $K$ - теория полных метрич. многообразий с внутренней метрикой, в к-рых сумма верхних углов треугольников, составленных из кратчайших, не превосходит суммы углов треугольника на плоскости постоянной кривизны $K$ с такими же длинами сторон (кроме того, предполагается, что любые две точки можно соединить единственной кратчайшей).
+
+См. также Геодезических геометрия, Конформная геометрия, Риманово пространство обобщенное.
+
+Лит.. [1] Р и м а н Б., Соч., пер. с нем., М.-Л., 1948; [2] Р а ші е в с к и й П. К. Риманова геометрия и тензорный анализ, 3 изд., М., 1967; [З̉] У й 3 е н х а $\mathbf{p}$ т Л. П., Риманова геометрия, пер. с англ., М., 1948; [4] Г р о м о л Д., К л и н г е нбе р г В., М е й е р В., Риманова геометрия в целом, пер. с нем., М., 1971; [5] А'ле к с а н д р о в А. Д., Внутренняя геометрия выпуклых поверхностей, М.-Л., 1948; [6] Б у р аг о I0. Д., 3 а л г а л л е р В. А., &quot;Успехи матем. наук&quot;, 1977, т. 32, в. 3, с. 3-55; [7] М и л н о р Д ж., Теория Морса, пер. с англ., М., 1965 ; [8] К а $\mathbf{~ т ~ а ~ н ~ Э . , ~ Г е о м е т р и я ~ р и м а н о в ы х ~}$ пространств, пер. с франц., м.-J., 1936 ;'[9] K u l k a r n i R. S., &quot;Ann. Math.&quot;, 1970, v. 91, № 2, p. 311 -31; [10] W o l f J. A., Spaces of constant curvature, N. Y., 1967. B. A. Топологов.</text_orig>
+</article>

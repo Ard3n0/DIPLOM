@@ -1,0 +1,313 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1174_RUNGE" alphabetic_pos="1174">
+  <title>РУНГЕ - КУТТА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>529</start>
+    <end>530</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_1_RUNGE">u^{\prime}=f(t, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_2_RUNGE">y_{j+1}=y_{j}+\tau \sum_{i=1}^{q} A_{i} k_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_3_RUNGE">y_{j+\alpha} \cong u\left(t_{j}+\alpha \tau\right), \quad k_{1}=f\left(t_{j}, y_{j}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_4_RUNGE">\begin{gathered}y_{j+1}=y_{j}+\frac{1}{6} \tau\left(k_{1}+2 k_{2}+2 k_{3}+k_{4}\right), \\k_{1}=f\left(t_{j}, y_{j}\right), k_{2}=f\left(t_{j}+\frac{1}{2} \tau, y_{j}+\frac{1}{2} \tau k_{1}\right), \\k_{3}=f\left(t_{j}+\frac{1}{2} \tau, y_{j}+\frac{1}{2} \tau k_{2}\right), \quad k_{4}=f\left(t_{j}+\tau, y_{j}+\tau k_{3}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_5_RUNGE">\begin{gathered}k_{n}=f\left(t_{j}+\alpha_{n} \tau, y_{j}+\tau \sum_{m=1}^{q} \beta_{n m} k_{m}\right), \\n=1,2, \ldots, q .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_6_RUNGE">u\left(t_{j}+\tau\right)-u\left(t_{j}\right)=\tau \int_{0}^{1} f\left(t_{j}+\alpha \tau, u\left(t_{j}+\alpha \tau\right)\right) d \alpha .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_7_RUNGE">\sum_{i=1}^{q} A_{i}=1, \sum_{i=1}^{q} A_{i} \alpha_{i}^{n}=\frac{1}{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_8_RUNGE">n=1,2, \ldots, p-1 \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_9_RUNGE">\begin{gathered}y_{j+1 / 4}=y_{j}+\frac{1}{4} \tau f\left(t_{j}, y_{j}\right), \\y_{j+1 / 2}=y_{j}+\frac{1}{2} \tau f\left(t_{j}+\frac{1}{4} \tau, y_{j+1 / 4}\right), \\y_{j+1}^{*}=y_{j}+\tau f\left(t_{j}+\frac{1}{2} \tau, y_{j+1 / 2}\right), \\y_{j+1}=y_{j}+\frac{1}{6} \tau\left(f\left(t_{j}, y_{j}\right)+4 f\left(t_{j}+\frac{1}{2} \tau, y_{j+1 / 2}\right)+\right. \\\left.+f\left(t_{j}+\tau, y_{j+1}^{*}\right)\right) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1174_10_RUNGE">\begin{aligned}y_{j+1}=y_{j}+\frac{1}{2} \tau &amp; \left(f\left(t_{j}, y_{j+1}-\tau f\left(t_{j}+\tau, y_{j+1}\right)\right)+\right. \\&amp; \left.+f\left(t_{j}+\tau, y_{j+1}\right)\right)\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_1_RUNGE">k_{n}=f\left(t_{j}+\alpha_{n} \tau, y_{j}+\tau \sum_{m=1}^{n-1} \beta_{n m} k_{m}\right), n=2,3, \ldots, q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_2_RUNGE">a_{i}, \alpha_{n}, \beta_{n m}, i=1,2, \ldots, q ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_3_RUNGE">n=2,3, \ldots, q ; m=1,2, \ldots, n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_4_RUNGE">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_5_RUNGE">q=4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_6_RUNGE">q=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_7_RUNGE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_8_RUNGE">q&gt;4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_9_RUNGE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_10_RUNGE">q=6</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_11_RUNGE">q=7</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_12_RUNGE">q=9</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_13_RUNGE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_14_RUNGE">a_{i}, \alpha_{n}, \beta_{n m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_15_RUNGE">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_16_RUNGE">k_{n}, n=1,2, \ldots, q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_17_RUNGE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_18_RUNGE">2 q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_19_RUNGE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_20_RUNGE">u\left(t_{j}+\tau\right) \cong u\left(t_{j}\right)+\tau \sum_{i=1}^{q} A_{i} f\left(t_{j}+\alpha_{i} \tau, u\left(t_{j}+\alpha_{i} \tau\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_21_RUNGE">\alpha_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_22_RUNGE">a_{i}, i=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_23_RUNGE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_24_RUNGE">\tau^{p+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_25_RUNGE">p \leqslant 2 q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_26_RUNGE">u\left(t_{j}+\alpha_{i} \tau\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1174_27_RUNGE">\alpha_{i}</formula>
+  </formulas_aux>
+  <relations n="21">
+    <relation uri="http://libmeta.ru/me/relation/1174_1_RUNGE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_2_RUNGE">
+      <rel_text>дифференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_3_RUNGE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_4_RUNGE">
+      <rel_text>Численные</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_5_RUNGE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_6_RUNGE">
+      <rel_text>Численные</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_7_RUNGE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_8_RUNGE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_9_RUNGE">
+      <rel_text>диффференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_10_RUNGE">
+      <rel_text>порядков</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_11_RUNGE">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_12_RUNGE">
+      <rel_text>обыкновенные дифференциальные URI[[http</rel_text>
+      <target>http://libmeta.ru/me/article/273_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_13_RUNGE">
+      <rel_text>распространены</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_14_RUNGE">
+      <rel_text>численных</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_15_RUNGE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_16_RUNGE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_17_RUNGE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_18_RUNGE">
+      <rel_text>единице</rel_text>
+      <target>http://libmeta.ru/me/article/389_EDINITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_19_RUNGE">
+      <rel_text>характера</rel_text>
+      <target>http://libmeta.ru/me/article/830_HARAKTE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_20_RUNGE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1174_21_RUNGE">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+  </relations>
+  <text>одношаговый метод численного решения задачи Коти для системы обыкновенных диффференциальных уравнений вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_1_RUNGE]]/URI
+\]
+
+Основная идея Р.- К. м. была предложена К. Рунге [1] и развита затем В. Кутта [2] и др. Первоначально әта идея использовалась лишь для построения явных схем Р.- К. м., к-рые разыскивались в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_2_RUNGE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_3_RUNGE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1174_1_RUNGE]]/URI$,
+
+при этом значения постоянных $URI[[http://libmeta.ru/me/formula/aux/1174_2_RUNGE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1174_3_RUNGE]]/URI$, определялись из требования, чтобы погрешность равенства (2) на точном решении уравнения (1) имела возможно высокий порядок малости в сравнении с шагом $URI[[http://libmeta.ru/me/formula/aux/1174_4_RUNGE]]/URI$ для любых уравнений вида (1).
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9750cb79bde05e1dc0dbg-1.jpg?height=35&amp;width=766&amp;top_left_y=1466&amp;top_left_x=1026)
+тодов, Р.- К. м., как и всякий одношаговый метод, не требует предварительного построения начала таблицы значений приближенного решения и дает возможность вести вычислительный процесс при естественных для уравнения (1) начальных условиях, что позволяет использовать его непосредственно и в случае неравномерных сеток. Однако поскольку в этом методе не используется информация о решении в предыдущих узлах сетки, то он, вообще говоря, оказывается локально менее экономичным, чем, напр., метод Адамса.
+
+Наиболее широко известным (см., напр., [3]) среди Р. - К. м. является метод
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_4_RUNGE]]/URI
+\]
+принадлежащий зависящему от двух свободных параметров семейству методов четвертого порядка точности вида (2) с $URI[[http://libmeta.ru/me/formula/aux/1174_5_RUNGE]]/URI$. Популярен и простейший явный Р.К. м. первого порядка точности, получающийся из (2) при $URI[[http://libmeta.ru/me/formula/aux/1174_6_RUNGE]]/URI$. Этот метод известен под названием м е т од а Э й л е р а. При значениях $URI[[http://libmeta.ru/me/formula/aux/1174_7_RUNGE]]/URI$, равных 2 и 3 , из (2) могут быть найдены семейства Р.- К. м. второго и третьего порядка точности, зависящие от одного и двух свободных параметров соответственно. В случае $URI[[http://libmeta.ru/me/formula/aux/1174_8_RUNGE]]/URI$ имевшее место ранее соответствие между значением $URI[[http://libmeta.ru/me/formula/aux/1174_9_RUNGE]]/URI$ и порядком точности метода уже нарушается. Р.- К. м. вида (2) пятого порядка точности удается построить лишь при $URI[[http://libmeta.ru/me/formula/aux/1174_10_RUNGE]]/URI$, шестого - при $URI[[http://libmeta.ru/me/formula/aux/1174_11_RUNGE]]/URI$, седьмого - при $URI[[http://libmeta.ru/me/formula/aux/1174_12_RUNGE]]/URI$ и т. Д. В этом случае с увеличением значения $URI[[http://libmeta.ru/me/formula/aux/1174_13_RUNGE]]/URI$ на единицу расширение множества подлежащих выбору в (2) постоянных $URI[[http://libmeta.ru/me/formula/aux/1174_14_RUNGE]]/URI$ часто оказывается уже недостаточным, чтобы удовлетворить условиям, возникающим из требования повышения на единицу порядка точности явного Р.- К. М. С целью увеличения числа выбираемых в (2) параметров можно рассмотреть, напр., следующее обобщение конструкции одношаговых методов, основанных на идее $URI[[http://libmeta.ru/me/formula/aux/1174_15_RUNGE]]/URI$. Рунге:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_5_RUNGE]]/URI
+\]
+
+Методы вида (2), (3) в общем случае являются уже неявными, что значительно осложняет их численную реализацию: величины $URI[[http://libmeta.ru/me/formula/aux/1174_16_RUNGE]]/URI$, на каждом шаге приходится находить из системы, вообще говоря, нелинейных уравнений (3). Однако за счет достигнутого здесь значительного увеличения числа подлежащих выбору констант такие методы приобретают следующее свойство (см. [4]): для каждого значения $URI[[http://libmeta.ru/me/formula/aux/1174_17_RUNGE]]/URI$ существует неявный Р.- К. м. порядка точности $URI[[http://libmeta.ru/me/formula/aux/1174_18_RUNGE]]/URI$. Кроме того, при таком расширении класса Р.- К. м. появляются методы, хорошо ориентированные на случай жестких дибберенциальных систем .
+
+Имеется еще одно видоизменение (см., напр., [5]) идеи К. Рунге конструирования одношаговых методов численного решения уравнений вида (1). Именно, исходя из (1) записывается равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_6_RUNGE]]/URI
+\]
+
+Приближенное представление последнего интеграла квадратурной формулой с $URI[[http://libmeta.ru/me/formula/aux/1174_19_RUNGE]]/URI$ узлами дает
+
+$URI[[http://libmeta.ru/me/formula/aux/1174_20_RUNGE]]/URI$. (4)
+
+Если выбор узлов $URI[[http://libmeta.ru/me/formula/aux/1174_21_RUNGE]]/URI$ и коэффициентов $URI[[http://libmeta.ru/me/formula/aux/1174_22_RUNGE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1174_23_RUNGE]]/URI$, рассматриваемой квадратурной формулы подчинить условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_7_RUNGE]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1174_8_RUNGE]]/URI
+\]
+
+то погрешность приближенного равенства (4) будет величиной порядка $URI[[http://libmeta.ru/me/formula/aux/1174_24_RUNGE]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/1174_25_RUNGE]]/URI$ система уравнений (5) разрешима и приближенное равенство (4) может быть построено. Аналогично можно записать приближенные равенства для неизвестных величин $URI[[http://libmeta.ru/me/formula/aux/1174_26_RUNGE]]/URI$, входящих в правую часть (4), при әтом требования к их точности могут быть понижены на порядок, и т. д.
+
+В качестве примера так построенного одношагового URI[[http://libmeta.ru/me/relation/1174_21_RUNGE]]/URI ниже приводится (см. [6]) метод третьего URI[[http://libmeta.ru/me/relation/1174_20_RUNGE]]/URI точности предсказывающе-исправляющего URI[[http://libmeta.ru/me/relation/1174_19_RUNGE]]/URI:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_9_RUNGE]]/URI
+\]
+
+Если положить в (4) одно из значений $URI[[http://libmeta.ru/me/formula/aux/1174_27_RUNGE]]/URI$ равным URI[[http://libmeta.ru/me/relation/1174_18_RUNGE]]/URI, на этом пути можно строить также и неявные URI[[http://libmeta.ru/me/relation/1174_17_RUNGE]]/URI, напр. метод
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1174_10_RUNGE]]/URI
+\]
+
+второго URI[[http://libmeta.ru/me/relation/1174_16_RUNGE]]/URI точности.
+
+Рассмотренные выше на примере URI[[http://libmeta.ru/me/relation/1174_15_RUNGE]]/URI вида (1) подходы к построению URI[[http://libmeta.ru/me/relation/1174_14_RUNGE]]/URI методов могут быть URI[[http://libmeta.ru/me/relation/1174_13_RUNGE]]/URI на URI[[http://libmeta.ru/me/relation/1174_12_RUNGE]]/URI://libmeta.ru/me/relation/1174_11_RUNGE]]/URI высших URI[[http://libmeta.ru/me/relation/1174_10_RUNGE]]/URI (см. [6], [7]), а также использованы при конструировании разностных схем в случае URI[[http://libmeta.ru/me/relation/1174_9_RUNGE]]/URI URI[[http://libmeta.ru/me/relation/1174_8_RUNGE]]/URI с URI[[http://libmeta.ru/me/relation/1174_7_RUNGE]]/URI.
+
+Jum.. [1] R u ng e C., &quot;math. Ann&quot;, 1895, Bd 46, S. 167178; [2] K u t t a W., &quot;z. Math und Phys.», 1901, Bd 46, S.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_feae6a2271ffe9d26153g-1.jpg?height=45&amp;width=804&amp;top_left_y=645&amp;top_left_x=990)
+50-64; [5] Б о б к о в B. В., “весці Ан Бcср. Сер. фіз.-мат. навук&quot;, 1967, № 4, с. 27-35; [6] К ры Јов В. И., Б о бтоды, т. 2, М , 1977; [7] К о л л а т ц Јі., URI[[http://libmeta.ru/me/relation/1174_6_RUNGE]]/URI URI[[http://libmeta.ru/me/relation/1174_5_RUNGE]]/URI тоды, т. 2, М , 1977; [7] К о л л а т ц Ј., URI[[http://libmeta.ru/me/relation/1174_4_RUNGE]]/URI URI[[http://libmeta.ru/me/relation/1174_3_RUNGE]]/URI
+решения URI[[http://libmeta.ru/me/relation/1174_2_RUNGE]]/URI URI[[http://libmeta.ru/me/relation/1174_1_RUNGE]]/URI, пер. с нем., М., 1953.</text>
+  <text_orig>одношаговый метод численного решения задачи Коти для системы обыкновенных диффференциальных уравнений вида
+
+\[
+u^{\prime}=f(t, u)
+\]
+
+Основная идея Р.- К. м. была предложена К. Рунге [1] и развита затем В. Кутта [2] и др. Первоначально әта идея использовалась лишь для построения явных схем Р.- К. м., к-рые разыскивались в виде
+
+\[
+y_{j+1}=y_{j}+\tau \sum_{i=1}^{q} A_{i} k_{i}
+\]
+
+где
+
+\[
+y_{j+\alpha} \cong u\left(t_{j}+\alpha \tau\right), \quad k_{1}=f\left(t_{j}, y_{j}\right),
+\]
+
+$k_{n}=f\left(t_{j}+\alpha_{n} \tau, y_{j}+\tau \sum_{m=1}^{n-1} \beta_{n m} k_{m}\right), n=2,3, \ldots, q$,
+
+при этом значения постоянных $A_{i}, \alpha_{n}, \beta_{n m}, i=1,2, \ldots, q ;$ $n=2,3, \ldots, q ; m=1,2, \ldots, n-1$, определялись из требования, чтобы погрешность равенства (2) на точном решении уравнения (1) имела возможно высокий порядок малости в сравнении с шагом $\tau$ для любых уравнений вида (1).
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_9750cb79bde05e1dc0dbg-1.jpg?height=35&amp;width=766&amp;top_left_y=1466&amp;top_left_x=1026)
+тодов, Р.- К. м., как и всякий одношаговый метод, не требует предварительного построения начала таблицы значений приближенного решения и дает возможность вести вычислительный процесс при естественных для уравнения (1) начальных условиях, что позволяет использовать его непосредственно и в случае неравномерных сеток. Однако поскольку в этом методе не используется информация о решении в предыдущих узлах сетки, то он, вообще говоря, оказывается локально менее экономичным, чем, напр., метод Адамса.
+
+Наиболее широко известным (см., напр., [3]) среди Р. - К. м. является метод
+
+\[
+\begin{gathered}
+y_{j+1}=y_{j}+\frac{1}{6} \tau\left(k_{1}+2 k_{2}+2 k_{3}+k_{4}\right), \\
+k_{1}=f\left(t_{j}, y_{j}\right), k_{2}=f\left(t_{j}+\frac{1}{2} \tau, y_{j}+\frac{1}{2} \tau k_{1}\right), \\
+k_{3}=f\left(t_{j}+\frac{1}{2} \tau, y_{j}+\frac{1}{2} \tau k_{2}\right), \quad k_{4}=f\left(t_{j}+\tau, y_{j}+\tau k_{3}\right),
+\end{gathered}
+\]
+принадлежащий зависящему от двух свободных параметров семейству методов четвертого порядка точности вида (2) с $q=4$. Популярен и простейший явный Р.К. м. первого порядка точности, получающийся из (2) при $q=1$. Этот метод известен под названием м е т од а Э й л е р а. При значениях $q$, равных 2 и 3 , из (2) могут быть найдены семейства Р.- К. м. второго и третьего порядка точности, зависящие от одного и двух свободных параметров соответственно. В случае $q&gt;4$ имевшее место ранее соответствие между значением $q$ и порядком точности метода уже нарушается. Р.- К. м. вида (2) пятого порядка точности удается построить лишь при $q=6$, шестого - при $q=7$, седьмого - при $q=9$ и т. Д. В этом случае с увеличением значения $q$ на единицу расширение множества подлежащих выбору в (2) постоянных $A_{i}, \alpha_{n}, \beta_{n m}$ часто оказывается уже недостаточным, чтобы удовлетворить условиям, возникающим из требования повышения на единицу порядка точности явного Р.- К. М. С целью увеличения числа выбираемых в (2) параметров можно рассмотреть, напр., следующее обобщение конструкции одношаговых методов, основанных на идее $К$. Рунге:
+
+\[
+\begin{gathered}
+k_{n}=f\left(t_{j}+\alpha_{n} \tau, y_{j}+\tau \sum_{m=1}^{q} \beta_{n m} k_{m}\right), \\
+n=1,2, \ldots, q .
+\end{gathered}
+\]
+
+Методы вида (2), (3) в общем случае являются уже неявными, что значительно осложняет их численную реализацию: величины $k_{n}, n=1,2, \ldots, q$, на каждом шаге приходится находить из системы, вообще говоря, нелинейных уравнений (3). Однако за счет достигнутого здесь значительного увеличения числа подлежащих выбору констант такие методы приобретают следующее свойство (см. [4]): для каждого значения $q$ существует неявный Р.- К. м. порядка точности $2 q$. Кроме того, при таком расширении класса Р.- К. м. появляются методы, хорошо ориентированные на случай жестких дибберенциальных систем .
+
+Имеется еще одно видоизменение (см., напр., [5]) идеи К. Рунге конструирования одношаговых методов численного решения уравнений вида (1). Именно, исходя из (1) записывается равенство
+
+\[
+u\left(t_{j}+\tau\right)-u\left(t_{j}\right)=\tau \int_{0}^{1} f\left(t_{j}+\alpha \tau, u\left(t_{j}+\alpha \tau\right)\right) d \alpha .
+\]
+
+Приближенное представление последнего интеграла квадратурной формулой с $q$ узлами дает
+
+$u\left(t_{j}+\tau\right) \cong u\left(t_{j}\right)+\tau \sum_{i=1}^{q} A_{i} f\left(t_{j}+\alpha_{i} \tau, u\left(t_{j}+\alpha_{i} \tau\right)\right)$. (4)
+
+Если выбор узлов $\alpha_{i}$ и коэффициентов $A_{i}, i=1,2, \ldots$, $q$, рассматриваемой квадратурной формулы подчинить условиям
+
+\[
+\sum_{i=1}^{q} A_{i}=1, \sum_{i=1}^{q} A_{i} \alpha_{i}^{n}=\frac{1}{n+1}
+\]\[
+n=1,2, \ldots, p-1 \text {, }
+\]
+
+то погрешность приближенного равенства (4) будет величиной порядка $\tau^{p+1}$. При $p \leqslant 2 q$ система уравнений (5) разрешима и приближенное равенство (4) может быть построено. Аналогично можно записать приближенные равенства для неизвестных величин $u\left(t_{j}+\alpha_{i} \tau\right)$, входящих в правую часть (4), при әтом требования к их точности могут быть понижены на порядок, и т. д.
+
+В качестве примера так построенного одношагового метода ниже приводится (см. [6]) метод третьего порядка точности предсказывающе-исправляющего характера:
+
+\[
+\begin{gathered}
+y_{j+1 / 4}=y_{j}+\frac{1}{4} \tau f\left(t_{j}, y_{j}\right), \\
+y_{j+1 / 2}=y_{j}+\frac{1}{2} \tau f\left(t_{j}+\frac{1}{4} \tau, y_{j+1 / 4}\right), \\
+y_{j+1}^{*}=y_{j}+\tau f\left(t_{j}+\frac{1}{2} \tau, y_{j+1 / 2}\right), \\
+y_{j+1}=y_{j}+\frac{1}{6} \tau\left(f\left(t_{j}, y_{j}\right)+4 f\left(t_{j}+\frac{1}{2} \tau, y_{j+1 / 2}\right)+\right. \\
+\left.+f\left(t_{j}+\tau, y_{j+1}^{*}\right)\right) .
+\end{gathered}
+\]
+
+Если положить в (4) одно из значений $\alpha_{i}$ равным единице, на этом пути можно строить также и неявные методы, напр. метод
+
+\[
+\begin{aligned}
+y_{j+1}=y_{j}+\frac{1}{2} \tau &amp; \left(f\left(t_{j}, y_{j+1}-\tau f\left(t_{j}+\tau, y_{j+1}\right)\right)+\right. \\
+&amp; \left.+f\left(t_{j}+\tau, y_{j+1}\right)\right)
+\end{aligned}
+\]
+
+второго порядка точности.
+
+Рассмотренные выше на примере уравнений вида (1) подходы к построению численных методов могут быть распространены на обыкновенные дифференциальные уравнения высших порядков (см. [6], [7]), а также использованы при конструировании разностных схем в случае диффференциальных уравнений с частными производными.
+
+Jum.. [1] R u ng e C., &quot;Math. Ann&quot;, 1895, Bd 46, S. 167178; [2] K u t t a W., &quot;Z. Math und Phys.», 1901, Bd 46, S.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_feae6a2271ffe9d26153g-1.jpg?height=45&amp;width=804&amp;top_left_y=645&amp;top_left_x=990)
+50-64; [5] Б о б к о в B. В., “Весці АН БCСР. Сер. фіз.-мат. навук&quot;, 1967, № 4, с. 27-35; [6] К ры Јов В. И., Б о бтоды, т. 2, М , 1977; [7] К о л л а т ц Јі., Численные методы тоды, т. 2, М , 1977; [7] К о л л а т ц Ј., Численные методы
+решения дифференциальных уравнений, пер. с нем., М., 1953.</text_orig>
+</article>

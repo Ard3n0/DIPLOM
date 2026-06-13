@@ -1,0 +1,535 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/687_ITERATsIONNYE" alphabetic_pos="687">
+  <title>ИТЕРАЦИОННЫЕ МЕТОДЫ</title>
+  <authors>
+    <author>X. Д. Икрамов</author>
+  </authors>
+  <pages>
+    <start>344</start>
+    <end>346</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] J a c o b i C. G., &quot;j. reine und angew. Math.&quot;, 1846, Bd 30, № 1, S. 51-94; [2] E b e r l e i n P. J. «j. Soc. Industr. and Appl. Math.&quot;, 1962, v. 101, № 1, p. 74-88; [3] B oе в о д и н В. В., &quot;вычисл. методы и программирование&quot;, 1965,$n_{2} 3$, с. $89-105 ;$ [4] к у б л а н о в с к а я В. Н., &quot;ж. вычисл. матем. и матем. Физ.&quot;, 1961, т. 1, № 4, c. 555-70; [5] F r a nc i s J. G. F., &quot;comput. J.», 1961, v. 4, № 3, p. 265-71; 1962, V. 4, $\mathrm{n}_{2}$ 4, p. 332-45; [6] S t e w a r t G. W., &quot;numer. Math.&quot;,![](https://cdn.mathpix.com/cropped/2023_07_08_91066b24279f7d25f812g-1.jpg?height=40&amp;width=841&amp;top_left_y=2096&amp;top_left_x=120)[9] Res. Nat. Bur. Standards&quot;, 1950, v. 45, No 4, p. 255-82; [9] P a i g e C. C., &quot;j. Inst. Math. and Appl.», 1972, v. 10,p. 373-81.</literature_orig>
+    <unit>
+      <author>Jacobi C. G.</author>
+      <title>&quot;j. reine und angew. Math.&quot;</title>
+      <publication/>
+      <year>1846</year>
+      <other>Bd 30, № 1, S. 51-94</other>
+    </unit>
+    <unit>
+      <title>E b e r l e i n P. J. «j. Soc. Industr. and Appl. Math.&quot;</title>
+      <publication/>
+      <year>1962</year>
+      <other>v. 101, № 1, p. 74-88</other>
+    </unit>
+    <unit>
+      <author>Boеводин В. В.</author>
+      <title>&quot;вычисл. методы и программирование&quot;</title>
+      <publication/>
+      <year>1965</year>
+      <other>$n_{2} 3$, с. $89-105 ;$</other>
+    </unit>
+    <unit>
+      <author>кублановская В. Н.</author>
+      <title>&quot;ж. вычисл. матем. и матем. Физ.&quot;</title>
+      <publication/>
+      <year>1961</year>
+      <other>т. 1, № 4, c. 555-70</other>
+    </unit>
+    <unit>
+      <author>Francis J. G. F.</author>
+      <title>&quot;comput. J.»</title>
+      <publication/>
+      <year>1961</year>
+      <other>v. 4, № 3, p. 265-71; 1962, V. 4, $\mathrm{n}_{2}$ 4, p. 332-45</other>
+    </unit>
+    <unit>
+      <author>Stewart G. W.</author>
+      <title>&quot;numer. Math.&quot;</title>
+      <publication/>
+      <year>2023</year>
+      <other>1950, v. 45, No 4, p. 255-82; [9] P a i g e C. C., &quot;j. Inst. Math. and Appl.», 1972, v. 10, p. 373-81.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/687_1_ITERATsIONNYE">\begin{gathered}\tilde{A}_{k+1}=S_{k}^{-1} A_{k} S_{k}, \\A_{k+1}=T_{k}^{*} \tilde{A}_{k+1}^{*} T_{k} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_2_ITERATsIONNYE">A_{k}=Q_{k} R_{k}, \quad A_{k+1}=R_{k} Q_{k},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_3_ITERATsIONNYE">A_{k+1}=\tilde{Q}_{k}^{*} A_{1} \tilde{Q}_{k}, \quad A_{1}^{k}=\tilde{Q}_{k} \tilde{R}_{k} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_4_ITERATsIONNYE">A_{k}-\varkappa_{k} I=Q_{k} R_{k}, \quad A_{k+1}=R_{k} Q_{k}+\varkappa_{k} I .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_5_ITERATsIONNYE">\left|\lambda_{1}\right| \geqslant\left|\lambda_{2}\right| \geqslant \ldots \geqslant\left|\lambda_{n}\right| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_6_ITERATsIONNYE">x_{k+1}=\rho_{k} A x_{k}, \quad \rho=1 /\left\|A x_{k}\right\| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_7_ITERATsIONNYE">\left(A-\tilde{\lambda}_{0} I\right) x_{k+1}=\rho_{k} x_{k}, \quad\left\|x_{k}\right\|=1, \quad \forall k .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_8_ITERATsIONNYE">\left|\lambda_{1}\right| \geqslant \ldots \geqslant\left|\lambda_{r}\right|&gt;\left|\lambda_{r+1}\right| \geqslant \ldots \geqslant\left|\lambda_{n}\right| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_9_ITERATsIONNYE">\begin{gathered}\tilde{Q}_{k+1}=A Q_{k}, \quad \tilde{Q}_{k+1}=\tilde{\tilde{Q}}_{k+1} R_{k+1}, \\Q_{k+1}=\tilde{\tilde{Q}}_{k+1} W_{k+1} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_10_ITERATsIONNYE">\varphi(A, x)=(A x, x) /(x, x), \quad x \neq 0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/687_11_ITERATsIONNYE">\beta_{k} q_{k+1}=A q_{k}-\beta_{k-1} q_{k-1}-\alpha_{k} q_{k}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_1_ITERATsIONNYE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_2_ITERATsIONNYE">s_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_3_ITERATsIONNYE">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_4_ITERATsIONNYE">t_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_5_ITERATsIONNYE">a_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_6_ITERATsIONNYE">a_{k+1}+\tilde{a}_{k+1}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_7_ITERATsIONNYE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_8_ITERATsIONNYE">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_9_ITERATsIONNYE">s_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_10_ITERATsIONNYE">t_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_11_ITERATsIONNYE">q R-a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_12_ITERATsIONNYE">q R</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_13_ITERATsIONNYE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_14_ITERATsIONNYE">\boldsymbol{r}_{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_15_ITERATsIONNYE">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_16_ITERATsIONNYE">\boldsymbol{a}_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_17_ITERATsIONNYE">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_18_ITERATsIONNYE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_19_ITERATsIONNYE">\boldsymbol{r}_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_20_ITERATsIONNYE">\tilde{q}_{k}=q_{1} \ldots Q_{k}, R_{k}=R_{k} \ldots R_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_21_ITERATsIONNYE">q R</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_22_ITERATsIONNYE">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_23_ITERATsIONNYE">a_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_24_ITERATsIONNYE">\tilde{q}_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_25_ITERATsIONNYE">a_{1}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_26_ITERATsIONNYE">a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_27_ITERATsIONNYE">q R-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_28_ITERATsIONNYE">x_{k}=a_{n n}^{(k)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_29_ITERATsIONNYE">(n, n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_30_ITERATsIONNYE">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_31_ITERATsIONNYE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_32_ITERATsIONNYE">a_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_33_ITERATsIONNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_34_ITERATsIONNYE">\mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_35_ITERATsIONNYE">a_{i j}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_36_ITERATsIONNYE">i&gt;j+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_37_ITERATsIONNYE">q R</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_38_ITERATsIONNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_39_ITERATsIONNYE">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_40_ITERATsIONNYE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_41_ITERATsIONNYE">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_42_ITERATsIONNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_43_ITERATsIONNYE">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_44_ITERATsIONNYE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_45_ITERATsIONNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_46_ITERATsIONNYE">\lambda_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_47_ITERATsIONNYE">\tilde{\lambda_{\theta}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_48_ITERATsIONNYE">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_49_ITERATsIONNYE">\left(a-\tilde{\lambda_{0}} I\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_50_ITERATsIONNYE">1 /\left(\tilde{\lambda}_{0}-\lambda_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_51_ITERATsIONNYE">a-\tilde{\lambda}_{0} I</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_52_ITERATsIONNYE">\boldsymbol{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_53_ITERATsIONNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_54_ITERATsIONNYE">n \times r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_55_ITERATsIONNYE">q_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_56_ITERATsIONNYE">q_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_57_ITERATsIONNYE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_58_ITERATsIONNYE">\boldsymbol{r}_{k+1}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_59_ITERATsIONNYE">r \times r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_60_ITERATsIONNYE">\tilde{\tilde{q}}_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_61_ITERATsIONNYE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_62_ITERATsIONNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_63_ITERATsIONNYE">r \times r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_64_ITERATsIONNYE">b_{k+1} r \times r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_65_ITERATsIONNYE">q_{k}^{*} A Q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_66_ITERATsIONNYE">w_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_67_ITERATsIONNYE">b_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_68_ITERATsIONNYE">w_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_69_ITERATsIONNYE">q R-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_70_ITERATsIONNYE">b_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_71_ITERATsIONNYE">k, 1 \leqslant k \leqslant r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_72_ITERATsIONNYE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_73_ITERATsIONNYE">b_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_74_ITERATsIONNYE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_75_ITERATsIONNYE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_76_ITERATsIONNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_77_ITERATsIONNYE">\lambda_{1}, \ldots, \lambda_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_78_ITERATsIONNYE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_79_ITERATsIONNYE">\left|\lambda_{r+1}\right| /\left|\lambda_{i}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_80_ITERATsIONNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_81_ITERATsIONNYE">p_{0}, A p_{0}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_82_ITERATsIONNYE">a p_{0}^{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_83_ITERATsIONNYE">q_{1}, q_{2}, \ldots, q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_84_ITERATsIONNYE">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_85_ITERATsIONNYE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_86_ITERATsIONNYE">\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_87_ITERATsIONNYE">\beta_{k}, k=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_88_ITERATsIONNYE">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_89_ITERATsIONNYE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_90_ITERATsIONNYE">q_{1}, \ldots, q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_91_ITERATsIONNYE">t_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_92_ITERATsIONNYE">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_93_ITERATsIONNYE">k \ll n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_94_ITERATsIONNYE">t_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_95_ITERATsIONNYE">t_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_96_ITERATsIONNYE">t_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_97_ITERATsIONNYE">\tilde{p}_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_98_ITERATsIONNYE">q_{1}, \ldots, q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/687_99_ITERATsIONNYE">\tilde{k}</formula>
+  </formulas_aux>
+  <relations n="42">
+    <relation uri="http://libmeta.ru/me/relation/687_1_ITERATsIONNYE">
+      <rel_text>Вращений метод</rel_text>
+      <target>http://libmeta.ru/me/article/807_VRASchENIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_2_ITERATsIONNYE">
+      <rel_text>численного</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_3_ITERATsIONNYE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_4_ITERATsIONNYE">
+      <rel_text>разреженных матриц</rel_text>
+      <target>http://libmeta.ru/me/article/908_RAZREZhENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_5_ITERATsIONNYE">
+      <rel_text>спектра</rel_text>
+      <target>http://libmeta.ru/me/article/105_SPEKT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_6_ITERATsIONNYE">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_7_ITERATsIONNYE">
+      <rel_text>трактовка</rel_text>
+      <target>http://libmeta.ru/me/article/455_TRAKTRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_8_ITERATsIONNYE">
+      <rel_text>линейной оболочке</rel_text>
+      <target>http://libmeta.ru/me/article/331_LINEINAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_9_ITERATsIONNYE">
+      <rel_text>приближение</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_10_ITERATsIONNYE">
+      <rel_text>приближений</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_11_ITERATsIONNYE">
+      <rel_text>собственные векторы</rel_text>
+      <target>http://libmeta.ru/me/article/45_SOBSTVENNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_12_ITERATsIONNYE">
+      <rel_text>собственные значения</rel_text>
+      <target>http://libmeta.ru/me/article/41_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_13_ITERATsIONNYE">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_14_ITERATsIONNYE">
+      <rel_text>собственных значений</rel_text>
+      <target>http://libmeta.ru/me/article/41_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_15_ITERATsIONNYE">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_16_ITERATsIONNYE">
+      <rel_text>подматрица</rel_text>
+      <target>http://libmeta.ru/me/article/357_PODMATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_17_ITERATsIONNYE">
+      <rel_text>векторы</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_18_ITERATsIONNYE">
+      <rel_text>ортогонализации</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_19_ITERATsIONNYE">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_20_ITERATsIONNYE">
+      <rel_text>матрицу</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_21_ITERATsIONNYE">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_22_ITERATsIONNYE">
+      <rel_text>строятся</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_23_ITERATsIONNYE">
+      <rel_text>Векторы</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_24_ITERATsIONNYE">
+      <rel_text>матрица</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_25_ITERATsIONNYE">
+      <rel_text>ортонормализации</rel_text>
+      <target>http://libmeta.ru/me/article/66_ORTOGONALӤZADI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_26_ITERATsIONNYE">
+      <rel_text>процессом</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_27_ITERATsIONNYE">
+      <rel_text>полученном</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_28_ITERATsIONNYE">
+      <rel_text>последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_29_ITERATsIONNYE">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_30_ITERATsIONNYE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_31_ITERATsIONNYE">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_32_ITERATsIONNYE">
+      <rel_text>симметричной</rel_text>
+      <target>http://libmeta.ru/me/article/1307_SIMMETRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_33_ITERATsIONNYE">
+      <rel_text>предназначался</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_34_ITERATsIONNYE">
+      <rel_text>матрицы</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_35_ITERATsIONNYE">
+      <rel_text>симметричной</rel_text>
+      <target>http://libmeta.ru/me/article/1307_SIMMETRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_36_ITERATsIONNYE">
+      <rel_text>собственных значений</rel_text>
+      <target>http://libmeta.ru/me/article/41_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_37_ITERATsIONNYE">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/me/article/1207_GRUPІІ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_38_ITERATsIONNYE">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_39_ITERATsIONNYE">
+      <rel_text>одному»</rel_text>
+      <target>http://libmeta.ru/me/article/1189_ODNOchLE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_40_ITERATsIONNYE">
+      <rel_text>собственные значения</rel_text>
+      <target>http://libmeta.ru/me/article/41_SOBSTVENNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_41_ITERATsIONNYE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/687_42_ITERATsIONNYE">
+      <rel_text>Перечисленные</rel_text>
+      <target>http://libmeta.ru/me/article/223_PEREDATOChNA</target>
+    </relation>
+  </relations>
+  <text>$URI[[http://libmeta.ru/me/formula/aux/687_1_ITERATsIONNYE]]/URI$ е ш е н и я п р о бле мы собственных ц ы - методы нахождения собственных значений и собственных векторов (или корневого базиса) матрицы, минующие предварительное вычисление характеристич. многочлена. Эти методы существенно различаются для задач среднего размера, матрицы к-рых могут быть целиком размещены в оперативной памяти вычислительной машины, и для задач большого порядка, в к-рых хранение информации обычно осуществляется в компактной форме.
+
+Первый И. м. был предложен К. Якоби [1] для вычисления собственных значений и векторов действительных симметричных матриц (см. URI[[http://libmeta.ru/me/relation/687_1_ITERATsIONNYE]]/URI). Метод переносится на комплексные эрмитовы матрицы, а также на более широкий класс нормальных матриц.
+
+Имеется ряд обобщений метода Якоби для матриц произвольного вида. Типичный алгоритм этого класса состоит из последовательности элементарных шагов, выполняемых по схеме:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_1_ITERATsIONNYE]]/URI
+\]
+
+При этом роль подобного преобразования с (элементарной) матрицей $URI[[http://libmeta.ru/me/formula/aux/687_2_ITERATsIONNYE]]/URI$ состоит в уменьшении евклидовой нормы текущей матрицы $URI[[http://libmeta.ru/me/formula/aux/687_3_ITERATsIONNYE]]/URI$, т. е. в приближении ее к нек-рой нормальной матрице. В качестве $URI[[http://libmeta.ru/me/formula/aux/687_4_ITERATsIONNYE]]/URI$ обычно берется матрица вращений или ее унитарный аналог. Смысл подобного преобразования с этой матрицей, как и в классич. методе Якоби, заключается в аннулировании внедиагонального элемента в нек-рой эрмитовой матрице, связанной с матрицей $URI[[http://libmeta.ru/me/formula/aux/687_5_ITERATsIONNYE]]/URI$, напр. в матрице $URI[[http://libmeta.ru/me/formula/aux/687_6_ITERATsIONNYE]]/URI$. С ростом $URI[[http://libmeta.ru/me/formula/aux/687_7_ITERATsIONNYE]]/URI$ матрицы $URI[[http://libmeta.ru/me/formula/aux/687_8_ITERATsIONNYE]]/URI$ сходятся к матрице диагонального или квазидиагонального вида, а накопленное произведение матриц $URI[[http://libmeta.ru/me/formula/aux/687_9_ITERATsIONNYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/687_10_ITERATsIONNYE]]/URI$ дает матрицу, столбцами к-рой являются приближенные собственные векторы либо векторы, образующие базисы инвариантных подпространств матрицы (см. [2], [3]).
+
+Наряду с вышеописанными методами развиваются алгоритмы другого класса, так. наз. с т е п е н ны е м е т о д ы. Самым эффективным методом этого направления, наиболее широко применяющимся для решения задач среднего размера, является $URI[[http://libmeta.ru/me/formula/aux/687_11_ITERATsIONNYE]]/URI$ л г о р и т м (см. [4], [5]). Итерации $URI[[http://libmeta.ru/me/formula/aux/687_12_ITERATsIONNYE]]/URI$-алгоритма проводятся по следующей схеме:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_2_ITERATsIONNYE]]/URI
+\]
+
+здесь $URI[[http://libmeta.ru/me/formula/aux/687_13_ITERATsIONNYE]]/URI$ - ортогональная или унитарная, а $URI[[http://libmeta.ru/me/formula/aux/687_14_ITERATsIONNYE]]/URI$ правая треугольная матрица. Для перехода от $URI[[http://libmeta.ru/me/formula/aux/687_15_ITERATsIONNYE]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/687_16_ITERATsIONNYE]]/URI$ сначала находится ортогонально-треугольное разложение матрицы $URI[[http://libmeta.ru/me/formula/aux/687_17_ITERATsIONNYE]]/URI$, после чего матрицы $URI[[http://libmeta.ru/me/formula/aux/687_18_ITERATsIONNYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/687_19_ITERATsIONNYE]]/URI$ перемножаются в обратном порядке. Если положить $URI[[http://libmeta.ru/me/formula/aux/687_20_ITERATsIONNYE]]/URI$, то из (1) следует схема
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_3_ITERATsIONNYE]]/URI
+\]
+
+Таким образом, $URI[[http://libmeta.ru/me/formula/aux/687_21_ITERATsIONNYE]]/URI$-алгоритм генерирует последовательность матриц $URI[[http://libmeta.ru/me/formula/aux/687_22_ITERATsIONNYE]]/URI$, ортогонально подобных исходной матрице $URI[[http://libmeta.ru/me/formula/aux/687_23_ITERATsIONNYE]]/URI$; при этом трансформирующая матрица $URI[[http://libmeta.ru/me/formula/aux/687_24_ITERATsIONNYE]]/URI$ является ортогональной комнонентой в разложении (2) матрицы $URI[[http://libmeta.ru/me/formula/aux/687_25_ITERATsIONNYE]]/URI$.
+
+При итерации по схеме (1) матрицы $URI[[http://libmeta.ru/me/formula/aux/687_26_ITERATsIONNYE]]/URI$ сходятся к правой треугольной или квазитреугольной матрице, причем скорость сходимости поддиагональных элементов к нулю управляется отношениями модулей различных собственных значений и является, вообще говоря, довольно медленной. Для ускорения сходимости $URI[[http://libmeta.ru/me/formula/aux/687_27_ITERATsIONNYE]]/URI$ алгоритма используются так наз. с д в и г и, что приводит к следующему видоизменению схемы (1):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_4_ITERATsIONNYE]]/URI
+\]
+
+Обычно применение сдвигов (напр., $URI[[http://libmeta.ru/me/formula/aux/687_28_ITERATsIONNYE]]/URI$ ) позволяет получить быструю сходимость внедиагональных элементов последней строки к нулю (асимптотически квадратичную в общем случае и кубическую для эрмитовых матриц) и соответственно быструю стабилизацию диагонального элемента $URI[[http://libmeta.ru/me/formula/aux/687_29_ITERATsIONNYE]]/URI$. После того, как значение этого элемента установилось, дальнейшие итерации проводят с главной подматрицей порядка $URI[[http://libmeta.ru/me/formula/aux/687_30_ITERATsIONNYE]]/URI$, и т. д. Собственные векторы результирующей треугольной матрицы после умножения на накопленное произведение ортогональных матриц $URI[[http://libmeta.ru/me/formula/aux/687_31_ITERATsIONNYE]]/URI$ дают собственные векторы исходной матрицы $URI[[http://libmeta.ru/me/formula/aux/687_32_ITERATsIONNYE]]/URI$.
+
+Итерации по схеме (1) либо (3) применяют к матрице, предварительно приведенной к так наз. форме Хессенберга. Говорят, что матрица $URI[[http://libmeta.ru/me/formula/aux/687_33_ITERATsIONNYE]]/URI$ имеет правую ф о р м у $URI[[http://libmeta.ru/me/formula/aux/687_34_ITERATsIONNYE]]/URI$ е с с е н бе р г а, если $URI[[http://libmeta.ru/me/formula/aux/687_35_ITERATsIONNYE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/687_36_ITERATsIONNYE]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/687_37_ITERATsIONNYE]]/URI$-алгоритм обладает свойством сохранять форму Хессенберга исходной матрицы, что намного удешевляет стоимость каждой итерации. Есть и другие важные возможности уменьшения объема вычислений, напр., неявное использование сдвигов, что позволяет находить комплексно сопряженные собственные значения действительных матриц, не прибегая к комплексной арифметике.
+
+В задачах высокого порядка (от нескольких сотен до нескольких тысяч) матрицы обычно бывают разреженными, т. е. имеют относительно небольшое число ненулевых элементов. При этом, как правило, нужно вычислять не все, а лишь несколько собственных значений и соответствующие собственные векторы. В типичном случае требуемые собственные значения наибольпие или наименьпие по модулю.
+
+Описанные выше методы, основанные на подобных преобразованиях, разрушают разреженность матрицы и потому неприемлемы. Основными для задач высокого порядка являются методы, элементарная операция которых - умножение матрицы на вектор. При их опи- сании в дальнейшем предполагается, что собственные значения заданной матрицы $URI[[http://libmeta.ru/me/formula/aux/687_38_ITERATsIONNYE]]/URI$ занумерованы в порядке убывания модулей так, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_5_ITERATsIONNYE]]/URI
+\]
+
+Наиболее пирокую область применимости имеет степенной метод для вычисления собственного значения $URI[[http://libmeta.ru/me/formula/aux/687_39_ITERATsIONNYE]]/URI$ с максимальным модулем. Исходя из начального приближения $URI[[http://libmeta.ru/me/formula/aux/687_40_ITERATsIONNYE]]/URI$ строится последовательность нормированных векторов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_6_ITERATsIONNYE]]/URI
+\]
+
+Эта последовательность сходится к собственному вектору, отвечающему $URI[[http://libmeta.ru/me/formula/aux/687_41_ITERATsIONNYE]]/URI$, при выполнении следующих условий: 1) все элементарные делители матрицы $URI[[http://libmeta.ru/me/formula/aux/687_42_ITERATsIONNYE]]/URI$, относящиеся к $URI[[http://libmeta.ru/me/formula/aux/687_43_ITERATsIONNYE]]/URI$,- линейные; 2) нет других собственных значений с тем же модулем; 3) в разложении исходного вектора $URI[[http://libmeta.ru/me/formula/aux/687_44_ITERATsIONNYE]]/URI$ по корневому базису матрицы $URI[[http://libmeta.ru/me/formula/aux/687_45_ITERATsIONNYE]]/URI$ имеется нетривиальная компонента по собственному подпространству для $URI[[http://libmeta.ru/me/formula/aux/687_46_ITERATsIONNYE]]/URI$. Однако сходимость степенного метода, как правило, медленная и определяется отнопением величин двух старпих по модулю собственных значений.
+
+Если известно приближение $URI[[http://libmeta.ru/me/formula/aux/687_47_ITERATsIONNYE]]/URI$ к желаемому собственному значению $URI[[http://libmeta.ru/me/formula/aux/687_48_ITERATsIONNYE]]/URI$, то быстрая сходимость может быть достигнута посредством метода обратных итераций. Вместо (4) строится последовательность, определяемая соотнопениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_7_ITERATsIONNYE]]/URI
+\]
+
+Метод обратных итераций есть по существу степенной метод для матрицы $URI[[http://libmeta.ru/me/formula/aux/687_49_ITERATsIONNYE]]/URI$, имеющей сильно доминирующее собственное значение $URI[[http://libmeta.ru/me/formula/aux/687_50_ITERATsIONNYE]]/URI$. Реализация формулы (5) требует, однако, решения линейной системы с матрицей $URI[[http://libmeta.ru/me/formula/aux/687_51_ITERATsIONNYE]]/URI$ и даже при использовании специальных методов для разреженных систем предъявляет повышенные требования к оперативной памяти по сравнению со степенным методом.
+
+Для вычисления группы собственных значений применяются так наз. методы одновременных итераций. Они представляют собой обобщение степенного метода, где вместо итераций одного вектора фактически строятся итерации матрицей $URI[[http://libmeta.ru/me/formula/aux/687_52_ITERATsIONNYE]]/URI$ целого подпространства. Типичным для этой группы методов является м е т о д С т ь юa р т a [6]. Пусть собственные значения матрицы $URI[[http://libmeta.ru/me/formula/aux/687_53_ITERATsIONNYE]]/URI$ удовлетворяют соотнопениям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_8_ITERATsIONNYE]]/URI
+\]
+
+Выбирается начальная $URI[[http://libmeta.ru/me/formula/aux/687_54_ITERATsIONNYE]]/URI$-матрица $URI[[http://libmeta.ru/me/formula/aux/687_55_ITERATsIONNYE]]/URI$ с ортонормированными столбцами. Исходя из $URI[[http://libmeta.ru/me/formula/aux/687_56_ITERATsIONNYE]]/URI$, строится последовательность матриц $URI[[http://libmeta.ru/me/formula/aux/687_57_ITERATsIONNYE]]/URI$ по схеме:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_9_ITERATsIONNYE]]/URI
+\]
+
+Во второй из этих формул $URI[[http://libmeta.ru/me/formula/aux/687_58_ITERATsIONNYE]]/URI$ правая треугольная $URI[[http://libmeta.ru/me/formula/aux/687_59_ITERATsIONNYE]]/URI$-матрица, а матрица $URI[[http://libmeta.ru/me/formula/aux/687_60_ITERATsIONNYE]]/URI$ имеет ортонормированные столбцы. Цель этого разложения, к-рое может выполняться не на каждой итерации, состоит в том, чтобы обеспечить линейную независимость столбцов последовательно получаемых матриц $URI[[http://libmeta.ru/me/formula/aux/687_61_ITERATsIONNYE]]/URI$, к-рая в практическом смысле может быть утеряна в результате многократного итерирования матрицей $URI[[http://libmeta.ru/me/formula/aux/687_62_ITERATsIONNYE]]/URI$. Важную роль в ускорении сходимости метода играет третья формула (6). Ортогональная $URI[[http://libmeta.ru/me/formula/aux/687_63_ITERATsIONNYE]]/URI$-матрица, участвующая в этой формуле, имеет следующий смысл. Если обозначить через $URI[[http://libmeta.ru/me/formula/aux/687_64_ITERATsIONNYE]]/URI$-матрицу $URI[[http://libmeta.ru/me/formula/aux/687_65_ITERATsIONNYE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/687_66_ITERATsIONNYE]]/URI$ приводит $URI[[http://libmeta.ru/me/formula/aux/687_67_ITERATsIONNYE]]/URI$ кф о р м е Iii у р а, т. е. правой треугольной матрице. Матрица $URI[[http://libmeta.ru/me/formula/aux/687_68_ITERATsIONNYE]]/URI$ может быть построена посредством $URI[[http://libmeta.ru/me/formula/aux/687_69_ITERATsIONNYE]]/URI$ алгоритма; ее столбцы образуют б а з и с Шш у р a матрицы $URI[[http://libmeta.ru/me/formula/aux/687_70_ITERATsIONNYE]]/URI$, характеризуемый тем, что при любом $URI[[http://libmeta.ru/me/formula/aux/687_71_ITERATsIONNYE]]/URI$, линейная оболочка первых $URI[[http://libmeta.ru/me/formula/aux/687_72_ITERATsIONNYE]]/URI$ векторов есть инвариантное подпространство матрицы $URI[[http://libmeta.ru/me/formula/aux/687_73_ITERATsIONNYE]]/URI$. Матрицы $URI[[http://libmeta.ru/me/formula/aux/687_74_ITERATsIONNYE]]/URI$ метода Стьюарта сходятся к матрице $URI[[http://libmeta.ru/me/formula/aux/687_75_ITERATsIONNYE]]/URI$, столбцы к-рой дают базис Шура для инвариантного подпространства матрицы $URI[[http://libmeta.ru/me/formula/aux/687_76_ITERATsIONNYE]]/URI$, отвечающего собственным значениям $URI[[http://libmeta.ru/me/formula/aux/687_77_ITERATsIONNYE]]/URI$. При этом скорость сходимости $URI[[http://libmeta.ru/me/formula/aux/687_78_ITERATsIONNYE]]/URI$-го столбца определяется отношением $URI[[http://libmeta.ru/me/formula/aux/687_79_ITERATsIONNYE]]/URI$.
+
+В случае действительной симметричной матрицы появляются дополнительные возможности, связанные с трактовкой собственных значений как стационарных точек ф у н к и о н а л а Р э л е я:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_10_ITERATsIONNYE]]/URI
+\]
+
+Для нахождения крайних точек спектра могут быть применены методы безусловной оптимизации функционала (7). Получающаяся здесь теория параллельна теории итерационных методов для решения положительно определенных линейных систем и приводит к тем же самым алгоритмам: координатной релаксации, последовательной сверхрелаксации, наискорейпего спуска, сопряженных градиентов (см. [7]).
+
+URI[[http://libmeta.ru/me/relation/687_42_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_41_ITERATsIONNYE]]/URI находят URI[[http://libmeta.ru/me/relation/687_40_ITERATsIONNYE]]/URI «по URI[[http://libmeta.ru/me/relation/687_39_ITERATsIONNYE]]/URI. Для одновременного URI[[http://libmeta.ru/me/relation/687_38_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_37_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_36_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_35_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_34_ITERATsIONNYE]]/URI используется м е т о д Л а н ц о ші а [8], к-рый URI[[http://libmeta.ru/me/relation/687_33_ITERATsIONNYE]]/URI для трехдиагонализации URI[[http://libmeta.ru/me/relation/687_32_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_31_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_30_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_80_ITERATsIONNYE]]/URI$. В основу URI[[http://libmeta.ru/me/relation/687_29_ITERATsIONNYE]]/URI положено следующее наблюдение: если URI[[http://libmeta.ru/me/relation/687_28_ITERATsIONNYE]]/URI векторов $URI[[http://libmeta.ru/me/formula/aux/687_81_ITERATsIONNYE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/687_82_ITERATsIONNYE]]/URI$ линейно независима, то в базисе $URI[[http://libmeta.ru/me/formula/aux/687_83_ITERATsIONNYE]]/URI$, URI[[http://libmeta.ru/me/relation/687_27_ITERATsIONNYE]]/URI из нее URI[[http://libmeta.ru/me/relation/687_26_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_25_ITERATsIONNYE]]/URI, URI[[http://libmeta.ru/me/relation/687_24_ITERATsIONNYE]]/URI приводится к трехдиагональной форме $URI[[http://libmeta.ru/me/formula/aux/687_84_ITERATsIONNYE]]/URI$. URI[[http://libmeta.ru/me/relation/687_23_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_85_ITERATsIONNYE]]/URI$ URI[[http://libmeta.ru/me/relation/687_22_ITERATsIONNYE]]/URI по трехчленным рекуррентным URI[[http://libmeta.ru/me/relation/687_21_ITERATsIONNYE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/687_11_ITERATsIONNYE]]/URI
+\]
+
+коәффициенты $URI[[http://libmeta.ru/me/formula/aux/687_86_ITERATsIONNYE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/687_87_ITERATsIONNYE]]/URI$, определяют URI[[http://libmeta.ru/me/relation/687_20_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_88_ITERATsIONNYE]]/URI$. После $URI[[http://libmeta.ru/me/formula/aux/687_89_ITERATsIONNYE]]/URI$ патов URI[[http://libmeta.ru/me/relation/687_19_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_18_ITERATsIONNYE]]/URI известны URI[[http://libmeta.ru/me/relation/687_17_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_90_ITERATsIONNYE]]/URI$ и главная URI[[http://libmeta.ru/me/relation/687_16_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_91_ITERATsIONNYE]]/URI$ URI[[http://libmeta.ru/me/relation/687_15_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_92_ITERATsIONNYE]]/URI$. Во многих случаях уже при $URI[[http://libmeta.ru/me/formula/aux/687_93_ITERATsIONNYE]]/URI$ часть URI[[http://libmeta.ru/me/relation/687_14_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_13_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_94_ITERATsIONNYE]]/URI$ достаточно точно приближает нек-рые URI[[http://libmeta.ru/me/relation/687_12_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_95_ITERATsIONNYE]]/URI$; соответствующие URI[[http://libmeta.ru/me/relation/687_11_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_96_ITERATsIONNYE]]/URI$ могут быть использованы для построения URI[[http://libmeta.ru/me/relation/687_10_ITERATsIONNYE]]/URI к собственным векторам A. Если же достигнутая точность еще не удовлетворительна, то можно выбрать новое начальное URI[[http://libmeta.ru/me/relation/687_9_ITERATsIONNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/687_97_ITERATsIONNYE]]/URI$ в URI[[http://libmeta.ru/me/relation/687_8_ITERATsIONNYE]]/URI векторов $URI[[http://libmeta.ru/me/formula/aux/687_98_ITERATsIONNYE]]/URI$ и повторить процесс, проведя $URI[[http://libmeta.ru/me/formula/aux/687_99_ITERATsIONNYE]]/URI$ пагов, и т. д. В этом и состоит итерационная URI[[http://libmeta.ru/me/relation/687_7_ITERATsIONNYE]]/URI URI[[http://libmeta.ru/me/relation/687_6_ITERATsIONNYE]]/URI Ланцоша (см. [9]).
+
+Нахождение внутренних точек URI[[http://libmeta.ru/me/relation/687_5_ITERATsIONNYE]]/URI для URI[[http://libmeta.ru/me/relation/687_4_ITERATsIONNYE]]/URI высокого URI[[http://libmeta.ru/me/relation/687_3_ITERATsIONNYE]]/URI еще не имеет удовлетворительного URI[[http://libmeta.ru/me/relation/687_2_ITERATsIONNYE]]/URI решения.</text>
+  <text_orig>$\mathrm{p}$ е ш е н и я п р о бле мы собственных ц ы - методы нахождения собственных значений и собственных векторов (или корневого базиса) матрицы, минующие предварительное вычисление характеристич. многочлена. Эти методы существенно различаются для задач среднего размера, матрицы к-рых могут быть целиком размещены в оперативной памяти вычислительной машины, и для задач большого порядка, в к-рых хранение информации обычно осуществляется в компактной форме.
+
+Первый И. м. был предложен К. Якоби [1] для вычисления собственных значений и векторов действительных симметричных матриц (см. Вращений метод). Метод переносится на комплексные эрмитовы матрицы, а также на более широкий класс нормальных матриц.
+
+Имеется ряд обобщений метода Якоби для матриц произвольного вида. Типичный алгоритм этого класса состоит из последовательности элементарных шагов, выполняемых по схеме:
+
+\[
+\begin{gathered}
+\tilde{A}_{k+1}=S_{k}^{-1} A_{k} S_{k}, \\
+A_{k+1}=T_{k}^{*} \tilde{A}_{k+1}^{*} T_{k} .
+\end{gathered}
+\]
+
+При этом роль подобного преобразования с (элементарной) матрицей $S_{k}$ состоит в уменьшении евклидовой нормы текущей матрицы $A_{k}$, т. е. в приближении ее к нек-рой нормальной матрице. В качестве $T_{k}$ обычно берется матрица вращений или ее унитарный аналог. Смысл подобного преобразования с этой матрицей, как и в классич. методе Якоби, заключается в аннулировании внедиагонального элемента в нек-рой эрмитовой матрице, связанной с матрицей $A_{k+1}$, напр. в матрице $A_{k+1}+\tilde{A}_{k+1}^{*}$. С ростом $k$ матрицы $A_{k}$ сходятся к матрице диагонального или квазидиагонального вида, а накопленное произведение матриц $S_{k}$ и $T_{k}$ дает матрицу, столбцами к-рой являются приближенные собственные векторы либо векторы, образующие базисы инвариантных подпространств матрицы (см. [2], [3]).
+
+Наряду с вышеописанными методами развиваются алгоритмы другого класса, так. наз. с т е п е н ны е м е т о д ы. Самым эффективным методом этого направления, наиболее широко применяющимся для решения задач среднего размера, является $Q R-a$ л г о р и т м (см. [4], [5]). Итерации $Q R$-алгоритма проводятся по следующей схеме:
+
+\[
+A_{k}=Q_{k} R_{k}, \quad A_{k+1}=R_{k} Q_{k},
+\]
+
+здесь $Q_{k}$ - ортогональная или унитарная, а $\boldsymbol{R}_{k}-$ правая треугольная матрица. Для перехода от $A_{k}$ к $\boldsymbol{A}_{k+1}$ сначала находится ортогонально-треугольное разложение матрицы $A_{k}$, после чего матрицы $Q_{k}$ и $\boldsymbol{R}_{k}$ перемножаются в обратном порядке. Если положить $\tilde{Q}_{k}=Q_{1} \ldots Q_{k}, R_{k}=R_{k} \ldots R_{1}$, то из (1) следует схема
+
+\[
+A_{k+1}=\tilde{Q}_{k}^{*} A_{1} \tilde{Q}_{k}, \quad A_{1}^{k}=\tilde{Q}_{k} \tilde{R}_{k} .
+\]
+
+Таким образом, $Q R$-алгоритм генерирует последовательность матриц $A_{k}$, ортогонально подобных исходной матрице $A_{1}$; при этом трансформирующая матрица $\tilde{Q}_{k}$ является ортогональной комнонентой в разложении (2) матрицы $A_{1}^{k}$.
+
+При итерации по схеме (1) матрицы $A_{k}$ сходятся к правой треугольной или квазитреугольной матрице, причем скорость сходимости поддиагональных элементов к нулю управляется отношениями модулей различных собственных значений и является, вообще говоря, довольно медленной. Для ускорения сходимости $Q R-$ алгоритма используются так наз. с д в и г и, что приводит к следующему видоизменению схемы (1):
+
+\[
+A_{k}-\varkappa_{k} I=Q_{k} R_{k}, \quad A_{k+1}=R_{k} Q_{k}+\varkappa_{k} I .
+\]
+
+Обычно применение сдвигов (напр., $x_{k}=a_{n n}^{(k)}$ ) позволяет получить быструю сходимость внедиагональных элементов последней строки к нулю (асимптотически квадратичную в общем случае и кубическую для эрмитовых матриц) и соответственно быструю стабилизацию диагонального элемента $(n, n)$. После того, как значение этого элемента установилось, дальнейшие итерации проводят с главной подматрицей порядка $n-1$, и т. д. Собственные векторы результирующей треугольной матрицы после умножения на накопленное произведение ортогональных матриц $Q_{k}$ дают собственные векторы исходной матрицы $A_{1}$.
+
+Итерации по схеме (1) либо (3) применяют к матрице, предварительно приведенной к так наз. форме Хессенберга. Говорят, что матрица $A$ имеет правую ф о р м у $\mathrm{X}$ е с с е н бе р г а, если $a_{i j}=0$ при $i&gt;j+1$. $Q R$-алгоритм обладает свойством сохранять форму Хессенберга исходной матрицы, что намного удешевляет стоимость каждой итерации. Есть и другие важные возможности уменьшения объема вычислений, напр., неявное использование сдвигов, что позволяет находить комплексно сопряженные собственные значения действительных матриц, не прибегая к комплексной арифметике.
+
+В задачах высокого порядка (от нескольких сотен до нескольких тысяч) матрицы обычно бывают разреженными, т. е. имеют относительно небольшое число ненулевых элементов. При этом, как правило, нужно вычислять не все, а лишь несколько собственных значений и соответствующие собственные векторы. В типичном случае требуемые собственные значения наибольпие или наименьпие по модулю.
+
+Описанные выше методы, основанные на подобных преобразованиях, разрушают разреженность матрицы и потому неприемлемы. Основными для задач высокого порядка являются методы, элементарная операция которых - умножение матрицы на вектор. При их опи- сании в дальнейшем предполагается, что собственные значения заданной матрицы $A$ занумерованы в порядке убывания модулей так, что
+
+\[
+\left|\lambda_{1}\right| \geqslant\left|\lambda_{2}\right| \geqslant \ldots \geqslant\left|\lambda_{n}\right| .
+\]
+
+Наиболее пирокую область применимости имеет степенной метод для вычисления собственного значения $\lambda_{1}$ с максимальным модулем. Исходя из начального приближения $x_{0}$ строится последовательность нормированных векторов
+
+\[
+x_{k+1}=\rho_{k} A x_{k}, \quad \rho=1 /\left\|A x_{k}\right\| .
+\]
+
+Эта последовательность сходится к собственному вектору, отвечающему $\lambda_{1}$, при выполнении следующих условий: 1) все элементарные делители матрицы $A$, относящиеся к $\lambda_{1}$,- линейные; 2) нет других собственных значений с тем же модулем; 3) в разложении исходного вектора $x_{0}$ по корневому базису матрицы $A$ имеется нетривиальная компонента по собственному подпространству для $\lambda_{1}$. Однако сходимость степенного метода, как правило, медленная и определяется отнопением величин двух старпих по модулю собственных значений.
+
+Если известно приближение $\tilde{\lambda_{\theta}}$ к желаемому собственному значению $\lambda_{i}$, то быстрая сходимость может быть достигнута посредством метода обратных итераций. Вместо (4) строится последовательность, определяемая соотнопениями
+
+\[
+\left(A-\tilde{\lambda}_{0} I\right) x_{k+1}=\rho_{k} x_{k}, \quad\left\|x_{k}\right\|=1, \quad \forall k .
+\]
+
+Метод обратных итераций есть по существу степенной метод для матрицы $\left(A-\tilde{\lambda_{0}} I\right)^{-1}$, имеющей сильно доминирующее собственное значение $1 /\left(\tilde{\lambda}_{0}-\lambda_{0}\right)$. Реализация формулы (5) требует, однако, решения линейной системы с матрицей $A-\tilde{\lambda}_{0} I$ и даже при использовании специальных методов для разреженных систем предъявляет повышенные требования к оперативной памяти по сравнению со степенным методом.
+
+Для вычисления группы собственных значений применяются так наз. методы одновременных итераций. Они представляют собой обобщение степенного метода, где вместо итераций одного вектора фактически строятся итерации матрицей $\boldsymbol{A}$ целого подпространства. Типичным для этой группы методов является м е т о д С т ь юa р т a [6]. Пусть собственные значения матрицы $A$ удовлетворяют соотнопениям
+
+\[
+\left|\lambda_{1}\right| \geqslant \ldots \geqslant\left|\lambda_{r}\right|&gt;\left|\lambda_{r+1}\right| \geqslant \ldots \geqslant\left|\lambda_{n}\right| .
+\]
+
+Выбирается начальная $n \times r$-матрица $Q_{0}$ с ортонормированными столбцами. Исходя из $Q_{0}$, строится последовательность матриц $Q_{k}$ по схеме:
+
+\[
+\begin{gathered}
+\tilde{Q}_{k+1}=A Q_{k}, \quad \tilde{Q}_{k+1}=\tilde{\tilde{Q}}_{k+1} R_{k+1}, \\
+Q_{k+1}=\tilde{\tilde{Q}}_{k+1} W_{k+1} .
+\end{gathered}
+\]
+
+Во второй из этих формул $\boldsymbol{R}_{k+1}-$ правая треугольная $r \times r$-матрица, а матрица $\tilde{\tilde{Q}}_{k+1}$ имеет ортонормированные столбцы. Цель этого разложения, к-рое может выполняться не на каждой итерации, состоит в том, чтобы обеспечить линейную независимость столбцов последовательно получаемых матриц $Q_{k}$, к-рая в практическом смысле может быть утеряна в результате многократного итерирования матрицей $A$. Важную роль в ускорении сходимости метода играет третья формула (6). Ортогональная $r \times r$-матрица, участвующая в этой формуле, имеет следующий смысл. Если обозначить через $B_{k+1} r \times r$-матрицу $Q_{k}^{*} A Q_{k}$, то $W_{k+1}$ приводит $B_{k+1}$ кф о р м е III у р а, т. е. правой треугольной матрице. Матрица $W_{k+1}$ может быть построена посредством $Q R-$ алгоритма; ее столбцы образуют б а з и с ШШ у р a матрицы $B_{k+1}$, характеризуемый тем, что при любом $k, 1 \leqslant k \leqslant r$, линейная оболочка первых $k$ векторов есть инвариантное подпространство матрицы $B_{k+1}$. Матрицы $Q_{k}$ метода Стьюарта сходятся к матрице $Q$, столбцы к-рой дают базис Шура для инвариантного подпространства матрицы $A$, отвечающего собственным значениям $\lambda_{1}, \ldots, \lambda_{r}$. При этом скорость сходимости $i$-го столбца определяется отношением $\left|\lambda_{r+1}\right| /\left|\lambda_{i}\right|$.
+
+В случае действительной симметричной матрицы появляются дополнительные возможности, связанные с трактовкой собственных значений как стационарных точек ф у н к и о н а л а Р э л е я:
+
+\[
+\varphi(A, x)=(A x, x) /(x, x), \quad x \neq 0 .
+\]
+
+Для нахождения крайних точек спектра могут быть применены методы безусловной оптимизации функционала (7). Получающаяся здесь теория параллельна теории итерационных методов для решения положительно определенных линейных систем и приводит к тем же самым алгоритмам: координатной релаксации, последовательной сверхрелаксации, наискорейпего спуска, сопряженных градиентов (см. [7]).
+
+Перечисленные методы находят собственные значения «по одному». Для одновременного вычисления группы собственных значений симметричной матрицы используется м е т о д Л а н ц о ші а [8], к-рый предназначался для трехдиагонализации симметричной матрицы порядка $n$. В основу метода положено следующее наблюдение: если последовательность векторов $p_{0}, A p_{0}, \ldots$, $A p_{0}^{n-1}$ линейно независима, то в базисе $q_{1}, q_{2}, \ldots, q_{n}$, полученном из нее процессом ортонормализации, матрица приводится к трехдиагональной форме $T_{n}$. Векторы $q_{k}$ строятся по трехчленным рекуррентным формулам
+
+\[
+\beta_{k} q_{k+1}=A q_{k}-\beta_{k-1} q_{k-1}-\alpha_{k} q_{k}
+\]
+
+коәффициенты $\alpha_{k}$ и $\beta_{k}, k=1, \ldots, n$, определяют матрицу $T_{n}$. После $k$ патов процесса ортогонализации известны векторы $q_{1}, \ldots, q_{k}$ и главная подматрица $T_{k}$ матрицы $T_{n}$. Во многих случаях уже при $k \ll n$ часть собственных значений матрицы $T_{k}$ достаточно точно приближает нек-рые собственные значения $T_{n}$; соответствующие собственные векторы $T_{k}$ могут быть использованы для построения приближений к собственным векторам A. Если же достигнутая точность еще не удовлетворительна, то можно выбрать новое начальное приближение $\tilde{p}_{0}$ в линейной оболочке векторов $q_{1}, \ldots, q_{k}$ и повторить процесс, проведя $\tilde{k}$ пагов, и т. д. В этом и состоит итерационная трактовка метода Ланцоша (см. [9]).
+
+Нахождение внутренних точек спектра для разреженных матриц высокого порядка еще не имеет удовлетворительного численного решения.
+
+Jum.: [1] J a c o b i C. G., &quot;J. reine und angew. Math.&quot;, 1846, Bd 30, № 1, S. 51-94; [2] E b e r l e i n P. J. «J. Soc. Industr. and Appl. Math.&quot;, 1962, v. 101, № 1, p. 74-88; [3] B oе в о д и н В. В., &quot;Вычисл. методы и программирование&quot;, 1965,
+$N_{2} 3$, с. $89-105 ;$ [4] к у б л а н о в с к а я В. Н., &quot;Ж. вычисл. матем. и матем. Физ.&quot;, 1961, т. 1, № 4, c. 555-70; [5] F r a nc i s J. G. F., &quot;Comput. J.», 1961, v. 4, № 3, p. 265-71; 1962, V. 4, $\mathrm{N}_{2}$ 4, p. 332-45; [6] S t e w a r t G. W., &quot;Numer. Math.&quot;,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_91066b24279f7d25f812g-1.jpg?height=40&amp;width=841&amp;top_left_y=2096&amp;top_left_x=120)
+[9] Res. Nat. Bur. Standards&quot;, 1950, v. 45, No 4, p. 255-82; [9] P a i g e C. C., &quot;J. Inst. Math. and Appl.», 1972, v. 10,
+p. 373-81.
+X. Д. Икрамов.</text_orig>
+</article>

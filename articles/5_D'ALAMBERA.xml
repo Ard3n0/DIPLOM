@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/5_D'ALAMBERA" alphabetic_pos="5">
+  <title>Д'АЛАМБЕРА ФОРМУ ЛА</title>
+  <authors/>
+  <pages>
+    <start>7</start>
+    <end>7</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/5_1_D'ALAMBERA">\frac{\partial^{2} u(t, x)}{\partial t^{2}}-a^{2} \frac{\partial^{2} u(t, x)}{\partial x^{2}}=f(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/5_2_D'ALAMBERA">\left.u(t, x)\right|_{t=0}=\varphi(x),\left.\frac{\partial u(t, x)}{\partial t}\right|_{t=0}=\psi(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/5_3_D'ALAMBERA">\begin{gathered}u(t, x)=\frac{1}{2 a} \int_{0}^{t} \int_{x-a(t-\tau)}^{x+a(t-\tau)} f(\tau, \xi) d \xi d \tau+ \\+\frac{1}{2 a} \int_{x-a t}^{x+a t} \psi(\xi) d \xi+\frac{1}{2}[\varphi(x+a t)+\varphi(x-a t)] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/5_4_D'ALAMBERA">Q_{x_{0}}^{T}=\left\{\left|x-x_{0}\right|&lt;a(T-t), \quad t \geqslant 0\right\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_1_D'ALAMBERA">\varphi(x), \psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_2_D'ALAMBERA">c^{2}(-\infty,+\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_3_D'ALAMBERA">c^{1}(-\infty,+\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_4_D'ALAMBERA">f(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_5_D'ALAMBERA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_6_D'ALAMBERA">\{t \geqslant 0,-\infty&lt;x&lt;-\infty\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_7_D'ALAMBERA">u(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_8_D'ALAMBERA">\{t&gt;0,-\infty&lt;x&lt;\infty\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_9_D'ALAMBERA">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_10_D'ALAMBERA">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_11_D'ALAMBERA">\left\{\left|x-x_{0}\right|&lt;a T\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_12_D'ALAMBERA">f(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_13_D'ALAMBERA">q_{x_{0}}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_14_D'ALAMBERA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_15_D'ALAMBERA">q_{x_{0}}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_16_D'ALAMBERA">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_17_D'ALAMBERA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_18_D'ALAMBERA">q_{x_{0}}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/5_19_D'ALAMBERA">1971 ;[2]</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/5_1_D'ALAMBERA">
+      <rel_text>Формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/5_2_D'ALAMBERA">
+      <rel_text>предел</rel_text>
+      <target>http://libmeta.ru/me/article/585_PREDE</target>
+    </relation>
+  </relations>
+  <text>формула, выражающая решение задачи Коши для волнового уравнения с одной пространственной переменной. Пусть заданные функции $URI[[http://libmeta.ru/me/formula/aux/5_1_D'ALAMBERA]]/URI$ принадлежат соответственно пространствам $URI[[http://libmeta.ru/me/formula/aux/5_2_D'ALAMBERA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/5_3_D'ALAMBERA]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/5_4_D'ALAMBERA]]/URI$ непрерывна вместе с первой производной по $URI[[http://libmeta.ru/me/formula/aux/5_5_D'ALAMBERA]]/URI$ в полуплоскости $URI[[http://libmeta.ru/me/formula/aux/5_6_D'ALAMBERA]]/URI$. Тогда классич. решение $URI[[http://libmeta.ru/me/formula/aux/5_7_D'ALAMBERA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/5_8_D'ALAMBERA]]/URI$ Коши задачи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/5_1_D'ALAMBERA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/5_2_D'ALAMBERA]]/URI
+\]
+
+выражается Д. ф.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/5_3_D'ALAMBERA]]/URI
+\]
+
+Если функции $URI[[http://libmeta.ru/me/formula/aux/5_9_D'ALAMBERA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/5_10_D'ALAMBERA]]/URI$ заданы и удовлетворяют указанным условиям гладкости на интервале $URI[[http://libmeta.ru/me/formula/aux/5_11_D'ALAMBERA]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/5_12_D'ALAMBERA]]/URI$ - в треугольнике
+
+\[
+URI[[http://libmeta.ru/me/formula/main/5_4_D'ALAMBERA]]/URI
+\]
+
+то Д. ф. дает единственное решение задачи (1), (2) в $URI[[http://libmeta.ru/me/formula/aux/5_13_D'ALAMBERA]]/URI$. Требования на заданные функции могут быть ослаблены, если интересоваться решениями в нек-ром обобщенном смысле. Напр., из Д. ф. следует, что при $URI[[http://libmeta.ru/me/formula/aux/5_14_D'ALAMBERA]]/URI$, интегрируемой по любому треугольнику $URI[[http://libmeta.ru/me/formula/aux/5_15_D'ALAMBERA]]/URI$, локально иітегрируемой $URI[[http://libmeta.ru/me/formula/aux/5_16_D'ALAMBERA]]/URI$ и непрерывной $URI[[http://libmeta.ru/me/formula/aux/5_17_D'ALAMBERA]]/URI$ можно определить слабое решение задачи Коши (1),(2) как равномерный (в любом $URI[[http://libmeta.ru/me/formula/aux/5_18_D'ALAMBERA]]/URI$ ) URI[[http://libmeta.ru/me/relation/5_2_D'ALAMBERA]]/URI классич. решений (с гладкими данными) и оно также выражается Д. ф. URI[[http://libmeta.ru/me/relation/5_1_D'ALAMBERA]]/URI названа по имени Ж. Д'аламбера (j . D'alembert, 1747)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_5e874576969b00f94579g-1.jpg?height=47&amp;width=791&amp;top_left_y=1629&amp;top_left_x=160)
+ческой физики, 2 изд, М., $URI[[http://libmeta.ru/me/formula/aux/5_19_D'ALAMBERA]]/URI$ Т и х он о в A. Н., С aм. 1966 .</text>
+  <text_orig>формула, выражающая решение задачи Коши для волнового уравнения с одной пространственной переменной. Пусть заданные функции $\varphi(x), \psi(x)$ принадлежат соответственно пространствам $C^{2}(-\infty,+\infty)$ и $C^{1}(-\infty,+\infty)$, a $f(t, x)$ непрерывна вместе с первой производной по $x$ в полуплоскости $\{t \geqslant 0,-\infty&lt;x&lt;-\infty\}$. Тогда классич. решение $u(t, x)$ в $\{t&gt;0,-\infty&lt;x&lt;\infty\}$ Коши задачи
+
+\[
+\frac{\partial^{2} u(t, x)}{\partial t^{2}}-a^{2} \frac{\partial^{2} u(t, x)}{\partial x^{2}}=f(t, x)
+\]
+
+\[
+\left.u(t, x)\right|_{t=0}=\varphi(x),\left.\frac{\partial u(t, x)}{\partial t}\right|_{t=0}=\psi(x),
+\]
+
+выражается Д. ф.:
+
+\[
+\begin{gathered}
+u(t, x)=\frac{1}{2 a} \int_{0}^{t} \int_{x-a(t-\tau)}^{x+a(t-\tau)} f(\tau, \xi) d \xi d \tau+ \\
++\frac{1}{2 a} \int_{x-a t}^{x+a t} \psi(\xi) d \xi+\frac{1}{2}[\varphi(x+a t)+\varphi(x-a t)] .
+\end{gathered}
+\]
+
+Если функции $\varphi(x)$ и $\psi(x)$ заданы и удовлетворяют указанным условиям гладкости на интервале $\left\{\left|x-x_{0}\right|&lt;a T\right\}$, a $f(t, x)$ - в треугольнике
+
+\[
+Q_{x_{0}}^{T}=\left\{\left|x-x_{0}\right|&lt;a(T-t), \quad t \geqslant 0\right\}
+\]
+
+то Д. ф. дает единственное решение задачи (1), (2) в $Q_{x_{0}}^{T}$. Требования на заданные функции могут быть ослаблены, если интересоваться решениями в нек-ром обобщенном смысле. Напр., из Д. ф. следует, что при $f$, интегрируемой по любому треугольнику $Q_{x_{0}}^{T}$, локально иітегрируемой $\psi$ и непрерывной $\varphi$ можно определить слабое решение задачи Коши (1),(2) как равномерный (в любом $Q_{x_{0}}^{T}$ ) предел классич. решений (с гладкими данными) и оно также выражается Д. ф. Формула названа по имени Ж. Д'Аламбера (J . D'Alembert, 1747)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_5e874576969b00f94579g-1.jpg?height=47&amp;width=791&amp;top_left_y=1629&amp;top_left_x=160)
+ческой физики, 2 изд, М., $1971 ;[2]$ Т и х он о в A. Н., С aМ. 1966 .</text_orig>
+</article>

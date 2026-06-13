@@ -1,0 +1,798 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/190_STATISTIChESKIE" alphabetic_pos="190">
+  <title>СТАТИСТИЧЕСКИЕ ЗАДАЧИ</title>
+  <authors>
+    <author>И. А. Ибрагимов</author>
+  </authors>
+  <pages>
+    <start>87</start>
+    <end>90</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/190_1_STATISTIChESKIE">p(x(\cdot) ; u, v)=p(x(\cdot))=\frac{d P_{u}^{T}}{d P_{v}^{T}}(x(\cdot)) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_2_STATISTIChESKIE">L(\theta)=\frac{d P_{\theta}^{T}}{d \mu}(x(\cdot)),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_3_STATISTIChESKIE">P_{u}^{T}\{x \in A\}=0, \quad P_{v}^{T}\{x \in A\}=1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_4_STATISTIChESKIE">\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} x(t) d t=\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_5_STATISTIChESKIE">p(x(\cdot) ; u, v)=\lim _{n \rightarrow \infty} \frac{p_{n}\left(x\left(t_{1}\right), \ldots, x\left(t_{n}\right)\right)}{p_{v}\left(x\left(t_{1}\right), \ldots, x\left(t_{n}\right)\right)},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_6_STATISTIChESKIE">\frac{d P_{1}^{T}}{d P_{0}^{T}}(x)=\exp \left\{-\frac{1}{2} \int_{0}^{T}\left[m^{\prime}(t)\right]^{2} d t+\int_{0}^{T} m^{\prime}(t) d x(t)\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_7_STATISTIChESKIE">\begin{aligned}&amp; \frac{d P_{\theta}^{T}}{d P_{\theta}^{0}}(x)=\exp \left\{\frac{1}{2} \theta x(0)+\frac{1}{2} \theta x(T)+\right. \\&amp; \left.+\frac{1}{2} \theta \alpha \int_{0}^{T} x(t) d t-\frac{1}{2} \theta^{2}-\frac{1}{4} \theta^{2} \alpha T\right\} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_8_STATISTIChESKIE">x(t)=\sum_{1}^{k} \theta_{j} \varphi_{j}(t)+\xi(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_9_STATISTIChESKIE">\hat{\theta}=\frac{1}{2+\alpha T}\left(x(0)+x(T)+\alpha \int_{0}^{T} x(t) d t\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_10_STATISTIChESKIE">\theta^{*}=\frac{1}{T} \int_{0}^{T} x(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_11_STATISTIChESKIE">\lambda \varphi(s)=\int_{0}^{T} r(s, t) \varphi(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_12_STATISTIChESKIE">m_{i j}=\int_{0}^{T} m_{i}(t) \varphi_{i}(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_13_STATISTIChESKIE">\sum_{j=1}^{\infty}\left(m_{0 j}-m_{1 j}\right)^{2} \lambda_{j}^{-1}&lt;\infty .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_14_STATISTIChESKIE">\begin{aligned}&amp; \frac{d P_{1}^{T}}{d P_{0}^{T}}(x)=\exp \left\{\sum_{i=1}^{\infty} \frac{m_{1 j}-m_{0 j}}{\lambda_{j}} \times\right. \\&amp; \left.\times\left(\int_{0}^{T} x(t) \varphi_{j}(t) d t-\frac{m_{1 j}-m_{0 j}}{2}\right)\right\} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_15_STATISTIChESKIE">\begin{gathered}m^{*}=\frac{1}{T} \int_{0}^{T} x(t) d t, \\r^{*}(t)=\frac{1}{T} \int_{0}^{T-t} x(t+s) x(s) d s .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_16_STATISTIChESKIE">\lim _{\lambda \rightarrow \infty} \frac{f_{0}(\lambda)}{f_{1}(\lambda)}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_17_STATISTIChESKIE">x^{(n)}(t)+\theta_{n} x^{(n-1)}(t)+\ldots+\theta_{1} x(t)=\varepsilon(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_18_STATISTIChESKIE">f(\lambda ; \theta)=(2 \pi)^{-1}|P(i \lambda)|^{-2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_19_STATISTIChESKIE">P(z)=\theta_{1}+\theta_{2} z+\ldots+\theta_{n} z^{n-1}+z^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_20_STATISTIChESKIE">\begin{aligned}&amp; \frac{d P_{\theta}^{T}}{d P_{\theta^{0}}^{T}}=\sqrt{\frac{K(\theta)}{K(\theta)^{0}}} \exp \frac{\theta_{n}-0_{n}}{T}- \\&amp;-\frac{1}{2} \sum_{j=0}^{n-1}\left[\lambda_{j}(\theta)-\lambda_{j}\left(\theta^{0}\right)\right] \times \\&amp;\left.\times \int_{0}^{T}\left[x^{(j)}(t)\right]^{2} d t-\frac{1}{2}\left(\lambda(\theta)-\lambda\left(\theta^{0}\right)\right)\right\} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_21_STATISTIChESKIE">\frac{1}{2 T} \sum_{j=0}^{n-1} \frac{\partial \lambda_{j}(\theta)}{\partial \theta_{i}} \int_{0}^{T}\left[x^{(j)}(t)\right]^{2} d t= \begin{cases}0, &amp; 1 \leqslant i&lt;n, \\ \frac{1}{2}, &amp; i=n .\end{cases}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_22_STATISTIChESKIE">\begin{aligned}&amp; I_{T}(\lambda)=\frac{1}{2 \pi T}\left|\sum_{t=0}^{T} e^{-i t \lambda} x(t)\right| \text { (время дискретно), } \\&amp; I_{T}(\lambda)=\frac{1}{2 \pi T}\left|\int_{0}^{T} e^{-i t \lambda} x(t) d t\right|^{2} \text { (время непрерывно). }\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_23_STATISTIChESKIE">\frac{1}{2 \pi} \sum_{t=-T+1}^{T-1} e^{-i t \lambda} r^{*}(t) c_{T}(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_24_STATISTIChESKIE">r^{*}(t)=\frac{1}{T} \sum_{u=0}^{T-t} x(u+t) x(u),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_25_STATISTIChESKIE">\frac{d P_{\theta}^{T}}{d \mu^{T}}=p_{0}\left(X_{0} ; \theta\right) p\left(X_{1} \mid X_{0} ; \theta\right) \ldots p\left(X_{T} \mid X_{T-1}, \theta\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_26_STATISTIChESKIE">\begin{gathered}\frac{d P_{\lambda \mu}^{T}}{d P_{\lambda_{0}}^{T}, \mu_{0}}(x)= \\=\left(\frac{\lambda}{\lambda_{0}}\right)^{B}\left(\frac{\mu}{\mu_{0}}\right)^{D} \exp \left\{-\left(\lambda+\mu-\lambda_{0}-\mu_{0}\right) \int_{0}^{T} x(s) d s\right\} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_27_STATISTIChESKIE">\lambda_{T}^{*}=\frac{1}{B} \int_{0}^{T} x(s) d s, \quad \mu_{T}^{*}=\frac{1}{D} \int_{0}^{T} x(s) d s .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_28_STATISTIChESKIE">\begin{gathered}\frac{d P_{a, b}^{T}}{d P_{a_{0} b}^{T}}(x)=\exp \left\{-\int_{0}^{T}\left(b(t, x(t))^{-1}(a(t, x(t))-\right.\right. \\-a_{0}(t, x(t)) d x(t)+\frac{1}{2} \int_{0}^{T}\left(b(t, x(t))^{-1}(a(t, x(t)-\right. \\\left.-a_{0}(t, x(t))^{2} d t\right\}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_29_STATISTIChESKIE">d x(t)=a(t, x(t) ; \theta) d t+d w,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_30_STATISTIChESKIE">\mathrm{E}_{\theta}|\tau-\theta|^{2} \geqslant \frac{\left(1+\frac{d \Delta}{d \theta}\right)^{2}}{\mathrm{E}_{\theta} \int_{0}^{T}\left[\frac{\partial}{\partial \theta} a(t, x(t) ; \theta)\right]^{2} d t}+\Delta^{2}(\theta) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/190_31_STATISTIChESKIE">\left.\theta_{T}^{*}=\int_{0}^{T} a(t, x(t)) d t\left(\int_{0}^{T} a^{2}(t, x(t)) d t\right)\right)^{-1} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_1_STATISTIChESKIE">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_2_STATISTIChESKIE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_3_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_4_STATISTIChESKIE">t \in T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_5_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_6_STATISTIChESKIE">x(t), 0 \leqslant t \leqslant T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_7_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_8_STATISTIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_9_STATISTIChESKIE">[0, T]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_10_STATISTIChESKIE">p^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_11_STATISTIChESKIE">\{x(t), 0 \leqslant t \leqslant T\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_12_STATISTIChESKIE">\left\{p^{t}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_13_STATISTIChESKIE">\pi \mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_14_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_15_STATISTIChESKIE">s(t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_16_STATISTIChESKIE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_17_STATISTIChESKIE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_18_STATISTIChESKIE">h_{0}: x(t)=s(t)+\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_19_STATISTIChESKIE">h_{1}: x(t)=\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_20_STATISTIChESKIE">x(t)=s(t)+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_21_STATISTIChESKIE">+\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_22_STATISTIChESKIE">s(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_23_STATISTIChESKIE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_24_STATISTIChESKIE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_25_STATISTIChESKIE">s\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_26_STATISTIChESKIE">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_27_STATISTIChESKIE">x(t)=s(t ; \theta)+\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_28_STATISTIChESKIE">s-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_29_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_30_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_31_STATISTIChESKIE">p_{u}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_32_STATISTIChESKIE">p_{v}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_33_STATISTIChESKIE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_34_STATISTIChESKIE">p_{\theta}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_35_STATISTIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_36_STATISTIChESKIE">[0, T]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_37_STATISTIChESKIE">t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_38_STATISTIChESKIE">p_{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_39_STATISTIChESKIE">p_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_40_STATISTIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_41_STATISTIChESKIE">[0, T]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_42_STATISTIChESKIE">p_{u}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_43_STATISTIChESKIE">p_{v}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_44_STATISTIChESKIE">p_{u}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_45_STATISTIChESKIE">p_{v}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_46_STATISTIChESKIE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_47_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_48_STATISTIChESKIE">p(x ; u, v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_49_STATISTIChESKIE">p_{\theta}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_50_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_51_STATISTIChESKIE">\theta=\{0,1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_52_STATISTIChESKIE">p_{0}^{t}, P_{1}^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_53_STATISTIChESKIE">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_54_STATISTIChESKIE">x \notin A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_55_STATISTIChESKIE">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_56_STATISTIChESKIE">x \in A »</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_57_STATISTIChESKIE">h_{0}: \theta=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_58_STATISTIChESKIE">h_{1}: \theta=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_59_STATISTIChESKIE">x(t)=\theta+\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_60_STATISTIChESKIE">\xi(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_61_STATISTIChESKIE">\theta-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_62_STATISTIChESKIE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_63_STATISTIChESKIE">p_{\theta}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_64_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_65_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_66_STATISTIChESKIE">\{x(t), 0 \leqslant t \leqslant T\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_67_STATISTIChESKIE">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_68_STATISTIChESKIE">p_{u}, \quad p_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_69_STATISTIChESKIE">\left(x\left(t_{1}\right), \ldots . . x\left(t_{n}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_70_STATISTIChESKIE">\left\{t_{1}, t_{2}, \ldots\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_71_STATISTIChESKIE">[0, T]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_72_STATISTIChESKIE">p_{u}, P_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_73_STATISTIChESKIE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_74_STATISTIChESKIE">x(t)=w(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_75_STATISTIChESKIE">w(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_76_STATISTIChESKIE">h_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_77_STATISTIChESKIE">x(t)=m(t)+w(t), m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_78_STATISTIChESKIE">\left.H_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_79_STATISTIChESKIE">p_{0}, P_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_80_STATISTIChESKIE">m^{\prime} \in L_{2}(0, T)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_81_STATISTIChESKIE">m^{\prime} \notin L_{2}(0, T)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_82_STATISTIChESKIE">x(t)=\theta+\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_83_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_84_STATISTIChESKIE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_85_STATISTIChESKIE">r(t)=e^{-\alpha|t|}, \alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_86_STATISTIChESKIE">p_{\theta}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_87_STATISTIChESKIE">x(0)+x(t)+\alpha \int_{0}^{T} x(t) d t-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_88_STATISTIChESKIE">p_{\theta}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_89_STATISTIChESKIE">\mathrm{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_90_STATISTIChESKIE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_91_STATISTIChESKIE">r(t, s), \varphi_{j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_92_STATISTIChESKIE">\theta=\left(\theta_{1}, \ldots, \theta_{k}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_93_STATISTIChESKIE">\left(\theta_{j}-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_94_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_95_STATISTIChESKIE">r^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_96_STATISTIChESKIE">\theta_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_97_STATISTIChESKIE">\sum c_{j} x\left(t_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_98_STATISTIChESKIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_99_STATISTIChESKIE">\hat{\theta}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_100_STATISTIChESKIE">\mathrm{e}_{\theta}\left(\hat{\theta}_{j} \xi\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_101_STATISTIChESKIE">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_102_STATISTIChESKIE">\xi=\sum b_{j} x\left(t_{j}\right), \sum b_{j} \varphi_{l}\left(t_{j}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_103_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_104_STATISTIChESKIE">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_105_STATISTIChESKIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_106_STATISTIChESKIE">5, k=1, \varphi_{1}(t) \equiv 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_107_STATISTIChESKIE">\{x(t), U \leqslant t \leqslant T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_108_STATISTIChESKIE">\left.P_{\theta}^{T}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_109_STATISTIChESKIE">\theta \in \Theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_110_STATISTIChESKIE">p_{u}^{t}, P_{v}^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_111_STATISTIChESKIE">p_{\theta}^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_112_STATISTIChESKIE">m_{\theta}(t)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_113_STATISTIChESKIE">=\mathrm{e}_{\theta} x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_114_STATISTIChESKIE">r_{\theta}(s, t)=\mathrm{E} \theta x(s) x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_115_STATISTIChESKIE">d P_{u}^{T} / d P_{v}^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_116_STATISTIChESKIE">m_{u}, m_{v}, r_{u}, r_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_117_STATISTIChESKIE">r_{u}=r_{v}=r, r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_118_STATISTIChESKIE">\theta=\{0,1\}, r_{0}=r_{1}=r ; \quad \lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_119_STATISTIChESKIE">\varphi_{i}(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_120_STATISTIChESKIE">l_{2}(0, T)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_121_STATISTIChESKIE">m_{0}(t), m_{1}(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_122_STATISTIChESKIE">p_{0}, P_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_123_STATISTIChESKIE">h_{0}: m=m_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_124_STATISTIChESKIE">h_{1}: m=m_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_125_STATISTIChESKIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_126_STATISTIChESKIE">x(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_127_STATISTIChESKIE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_128_STATISTIChESKIE">r(t) ; f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_129_STATISTIChESKIE">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_130_STATISTIChESKIE">m, r, f, F</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_131_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_132_STATISTIChESKIE">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_133_STATISTIChESKIE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_134_STATISTIChESKIE">r(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_135_STATISTIChESKIE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_136_STATISTIChESKIE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_137_STATISTIChESKIE">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_138_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_139_STATISTIChESKIE">f(\lambda ; \theta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_140_STATISTIChESKIE">\theta \in \Theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_141_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_142_STATISTIChESKIE">d P_{\theta} / d P_{\theta^{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_143_STATISTIChESKIE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_144_STATISTIChESKIE">\left(\theta, \frac{c(\theta)}{\sqrt{T}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_145_STATISTIChESKIE">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_146_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_147_STATISTIChESKIE">f(\lambda)=\left|\frac{q(\lambda)}{p(\lambda)}\right|^{2}, P, Q-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_148_STATISTIChESKIE">p_{0}^{t}, P_{1}^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_149_STATISTIChESKIE">f_{0}, f_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_150_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_151_STATISTIChESKIE">\boldsymbol{p}, Q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_152_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_153_STATISTIChESKIE">\varepsilon(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_154_STATISTIChESKIE">\theta=\left(\theta_{1}, \ldots, \theta_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_155_STATISTIChESKIE">\lambda_{j}(\theta), \lambda(\theta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_156_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_157_STATISTIChESKIE">x^{(j)}(t), j=1,2, \ldots,(n-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_158_STATISTIChESKIE">t=0, \quad T ; K(\theta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_159_STATISTIChESKIE">\left(x(0), x^{(1)}(0), \ldots, x^{(n-1)}(0)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_160_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_161_STATISTIChESKIE">\theta_{t}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_162_STATISTIChESKIE">i_{t}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_163_STATISTIChESKIE">f(\lambda), F(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_164_STATISTIChESKIE">\int I_{T}(\lambda) \varphi(\lambda) d \lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_165_STATISTIChESKIE">\int f(\lambda) \varphi(\lambda) d \lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_166_STATISTIChESKIE">\int_{\alpha}^{\beta} J_{T}(\lambda) d \lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_167_STATISTIChESKIE">f(\beta)-F(\alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_168_STATISTIChESKIE">\varphi_{t}\left(\lambda ; \lambda_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_169_STATISTIChESKIE">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_170_STATISTIChESKIE">\delta\left(\lambda-\lambda_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_171_STATISTIChESKIE">\int \varphi_{T}\left(\lambda ; \lambda_{0}\right) I_{T}(\lambda) d \lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_172_STATISTIChESKIE">f\left(\lambda_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_173_STATISTIChESKIE">\varphi_{t}\left(\lambda ; \lambda_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_174_STATISTIChESKIE">a_{t} \psi\left(a_{T}\left(\lambda-\lambda_{0}\right)\right), a_{T} \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_175_STATISTIChESKIE">x(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_176_STATISTIChESKIE">c_{t}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_177_STATISTIChESKIE">\psi, a_{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_178_STATISTIChESKIE">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_179_STATISTIChESKIE">x_{0}, X_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_180_STATISTIChESKIE">x_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_181_STATISTIChESKIE">p_{0}, p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_182_STATISTIChESKIE">\left.\theta \in \Theta \subset R^{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_183_STATISTIChESKIE">x(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_184_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_185_STATISTIChESKIE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_186_STATISTIChESKIE">p_{i j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_187_STATISTIChESKIE">q=\left\|q_{i j}\right\|, q_{i j}=P_{i j}^{\prime}(0), q_{i}=-q_{i i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_188_STATISTIChESKIE">x(0)=i_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_189_STATISTIChESKIE">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_190_STATISTIChESKIE">q_{0}=\left\|q_{i j}^{0}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_191_STATISTIChESKIE">\times \exp \left\{t_{v}\left(q_{i_{n}}-q_{i_{v}}-q_{i_{v}}^{0}+q_{i_{n}}^{0}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_192_STATISTIChESKIE">n(x), t_{v}(x), j v(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_193_STATISTIChESKIE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_194_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_195_STATISTIChESKIE">[0, T), \tau_{v}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_196_STATISTIChESKIE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_197_STATISTIChESKIE">t_{v}=\tau_{v+1}-\tau_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_198_STATISTIChESKIE">z_{v}=x\left(\tau_{v}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_199_STATISTIChESKIE">q_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_200_STATISTIChESKIE">: q_{i j}^{*}=\frac{m_{i j}}{\mu_{i}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_201_STATISTIChESKIE">m_{i j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_202_STATISTIChESKIE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_203_STATISTIChESKIE">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_204_STATISTIChESKIE">[0, T)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_205_STATISTIChESKIE">\mu_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_206_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_207_STATISTIChESKIE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_208_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_209_STATISTIChESKIE">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_210_STATISTIChESKIE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_211_STATISTIChESKIE">q_{i, i+1}=i \lambda, q_{i, i-1}=i \mu, q_{i i}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_212_STATISTIChESKIE">=1-i(\lambda+\mu), q_{i j}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_213_STATISTIChESKIE">|i-j|&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_214_STATISTIChESKIE">x(0) \equiv 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_215_STATISTIChESKIE">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_216_STATISTIChESKIE">+1), \quad D</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_217_STATISTIChESKIE">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_218_STATISTIChESKIE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_219_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_220_STATISTIChESKIE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_221_STATISTIChESKIE">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_222_STATISTIChESKIE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_223_STATISTIChESKIE">d x(t)=a(t, x(t)) d t+b(t, x(t)) d w(t), x(0)=x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_224_STATISTIChESKIE">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_225_STATISTIChESKIE">a_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_226_STATISTIChESKIE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_227_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_228_STATISTIChESKIE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_229_STATISTIChESKIE">\frac{d P_{\theta}^{T}}{d \mu}=\exp \left\{\int_{0}^{T} a(t, x(t) ; \theta) d x-\frac{1}{2} \int_{0}^{T} a^{2}(t, x(t) ; \theta) d t\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_230_STATISTIChESKIE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_231_STATISTIChESKIE">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_232_STATISTIChESKIE">\delta(\theta)=e_{\theta} \tau-\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_233_STATISTIChESKIE">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/190_234_STATISTIChESKIE">1974 ;[10]</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/190_1_STATISTIChESKIE">
+      <rel_text>процессов</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/190_2_STATISTIChESKIE">
+      <rel_text>Статистика</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+  </relations>
+  <text>т е о р и и с л у ч а йн ы $URI[[http://libmeta.ru/me/formula/aux/190_1_STATISTIChESKIE]]/URI$ I $URI[[http://libmeta.ru/me/formula/aux/190_2_STATISTIChESKIE]]/URI$ о ц е с с о в - раздел математич. статистики, посвященный статистич. выводам на основе наблюдений, представимых в виде случайного продесса. В самой общей постановке наблодаются значения случайной функции $URI[[http://libmeta.ru/me/formula/aux/190_3_STATISTIChESKIE]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/190_4_STATISTIChESKIE]]/URI$ и на основании этих наблюдений надлежит сделать статистич. выводы о нек-рых характеристиках случайного процесса $URI[[http://libmeta.ru/me/formula/aux/190_5_STATISTIChESKIE]]/URI$. При столь широком определении сюда формально включается и вся классич. статистика независимых наблюдений. На самом деле под статистикой случайных процессов понимают только статистику зависимых наблюдений, исключая, напр., статистич. анализ большого числа независимых реализаций случайного процесса. При этом основания статистич. теории, основные постановки задач (статистическое оценивание, статистических гипотез проверка), основные понятия (достаточность, несмещенность, состоятельность и т. Д.) - те же, что и в классич. теории. Однако при решении конкретных задач возникают порои значительные трудности и явления нового порядка. Частично эти трудности связаны с наличием зависимости, более сложной структуры наблюдаемого процесса, частично, в случае наблюдений с непрерывным временем, с необходимостью рассматривать распределения в бесконечномерных пространствах.
+
+На самом деле при решении С. 3. теории случайных процессов существенно используется структура наблюдаемого процесса и в соответствии с классификацией случайных процессов рассматривают С. з. гауссовских, марковских, стационарных, ветвящихся, дифффузон ных и т. Д. процессов. При этом наиболее далеко продвинута статистич. теория стационарных процессов (анализ временных рядов).
+
+Необходимость статистич. анализа случайных процессов возникла в 19 в.: анализ метеорологич., экономич. рядов, исследование циклич. процессов (колебавия цен, солнечные пятна). В настоящее время круг задач, связанных со статистич. анализом случайных процессов, трезвычайно широк. Достаточно упомянуть статистич. анализ случайных шумов, вибраций, турбулентных явлений, морского волнения, кардиограмм, энцефалограмм и т. Д. Теоретич. аспекты проблемы выделения сигнала на фоне шума в значительной степени являются С. з. теории случаӥных процессов.
+
+В дальнейшем предполагается, что наблюдается отрезок $URI[[http://libmeta.ru/me/formula/aux/190_6_STATISTIChESKIE]]/URI$, случайного процесса $URI[[http://libmeta.ru/me/formula/aux/190_7_STATISTIChESKIE]]/URI$, причем параметр $URI[[http://libmeta.ru/me/formula/aux/190_8_STATISTIChESKIE]]/URI$ пробегает либо весь отрезок $URI[[http://libmeta.ru/me/formula/aux/190_9_STATISTIChESKIE]]/URI$, либо целые числа этого отрезка. Обычно в С. 3. о распределөнии $URI[[http://libmeta.ru/me/formula/aux/190_10_STATISTIChESKIE]]/URI$ случайного процесса $URI[[http://libmeta.ru/me/formula/aux/190_11_STATISTIChESKIE]]/URI$ известно лишь, что оно принадлежит нек-рому семейству $URI[[http://libmeta.ru/me/formula/aux/190_12_STATISTIChESKIE]]/URI$ распределений. Это семейство всегда можно записать в параметрит. форме.
+
+$URI[[http://libmeta.ru/me/formula/aux/190_13_STATISTIChESKIE]]/URI$ и м е р 1. Наблюдаемый процесс $URI[[http://libmeta.ru/me/formula/aux/190_14_STATISTIChESKIE]]/URI$ представляет собой либо сумму неслучайной функции $URI[[http://libmeta.ru/me/formula/aux/190_15_STATISTIChESKIE]]/URI$ ) («сигнал») и случайной функции $URI[[http://libmeta.ru/me/formula/aux/190_16_STATISTIChESKIE]]/URI$ («шум»), либо одну случайную функцию $URI[[http://libmeta.ru/me/formula/aux/190_17_STATISTIChESKIE]]/URI$. Надлежит проверить гипотезу $URI[[http://libmeta.ru/me/formula/aux/190_18_STATISTIChESKIE]]/URI$ против альтернативы $URI[[http://libmeta.ru/me/formula/aux/190_19_STATISTIChESKIE]]/URI$ (задача обнаружения сигнала в пуме). Это - пример задачи проверки статистич. гипотез.
+
+П р и е р 2. Наблюдаемый процесс $URI[[http://libmeta.ru/me/formula/aux/190_20_STATISTIChESKIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/190_21_STATISTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/190_22_STATISTIChESKIE]]/URI$ - неизвестная наблюдателю неслучайная функция (сигнал), а $URI[[http://libmeta.ru/me/formula/aux/190_23_STATISTIChESKIE]]/URI$ - случайныйі процесс (шум). Надлежит оценить функцию $URI[[http://libmeta.ru/me/formula/aux/190_24_STATISTIChESKIE]]/URI$ или ее значение $URI[[http://libmeta.ru/me/formula/aux/190_25_STATISTIChESKIE]]/URI$ в заданной точке $URI[[http://libmeta.ru/me/formula/aux/190_26_STATISTIChESKIE]]/URI$. Сходным образом можно предположить, что $URI[[http://libmeta.ru/me/formula/aux/190_27_STATISTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/190_28_STATISTIChESKIE]]/URI$ известная функция, зависящая от неизвестного параметра $URI[[http://libmeta.ru/me/formula/aux/190_29_STATISTIChESKIE]]/URI$, к-рый и нужно оценить по наблюдению $URI[[http://libmeta.ru/me/formula/aux/190_30_STATISTIChESKIE]]/URI$ (задачи выделения сигнала на фоне шума). Это - примеры задач оценивания.
+
+Отношение правдо подобиядаяслу ли ч а йны подобия и функция правдоподобия играют большую роль (см. Неймана - Пирсона лемиа, Статистических гипотез проверка, Статистическое оценивание). О тно пе ен и м п р а вдо по до б и я двух распределениї $URI[[http://libmeta.ru/me/formula/aux/190_31_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_32_STATISTIChESKIE]]/URI$ наз. плотность
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_1_STATISTIChESKIE]]/URI
+\] Ф у в к ц и е й п р а в до п о д о б и я наз. функцию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_2_STATISTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/190_33_STATISTIChESKIE]]/URI$ есть б-конечная мера, относительно к-рой абсолютно непрерывны все меры $URI[[http://libmeta.ru/me/formula/aux/190_34_STATISTIChESKIE]]/URI$. В дискретном случае, когда $URI[[http://libmeta.ru/me/formula/aux/190_35_STATISTIChESKIE]]/URI$ пробегает целые точкі отрезка $URI[[http://libmeta.ru/me/formula/aux/190_36_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_37_STATISTIChESKIE]]/URI$, отношение правдоподобия, напр., всегда существует, если распределения $URI[[http://libmeta.ru/me/formula/aux/190_38_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_39_STATISTIChESKIE]]/URI$ имеют положительные плотности распределония, совпадая с отношением этих плотностейі.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/190_40_STATISTIChESKIE]]/URI$ uробегает весь отрезок $URI[[http://libmeta.ru/me/formula/aux/190_41_STATISTIChESKIE]]/URI$, то возможны случаи, когда меры $URI[[http://libmeta.ru/me/formula/aux/190_42_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_43_STATISTIChESKIE]]/URI$ не абсолютно непрерывны относительно друг друга; более того, встречаются ситуации, когда меры $URI[[http://libmeta.ru/me/formula/aux/190_44_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_45_STATISTIChESKIE]]/URI$ взаимно сингулярны, т. е. для нек-рого множества $URI[[http://libmeta.ru/me/formula/aux/190_46_STATISTIChESKIE]]/URI$ в пространстве реализаций $URI[[http://libmeta.ru/me/formula/aux/190_47_STATISTIChESKIE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_3_STATISTIChESKIE]]/URI
+\]
+
+В этом случае $URI[[http://libmeta.ru/me/formula/aux/190_48_STATISTIChESKIE]]/URI$ не существует. Сингулярность мер $URI[[http://libmeta.ru/me/formula/aux/190_49_STATISTIChESKIE]]/URI$ приводит к важным и в какой-то степени парадоксальным статистич. следствиям, позволяя делать безопибочные выводы о параметре $URI[[http://libmeta.ru/me/formula/aux/190_50_STATISTIChESKIE]]/URI$. Пусть, напр., $URI[[http://libmeta.ru/me/formula/aux/190_51_STATISTIChESKIE]]/URI$; сингулярность мер $URI[[http://libmeta.ru/me/formula/aux/190_52_STATISTIChESKIE]]/URI$ ознаqает, что с помощью критерия: «принять $URI[[http://libmeta.ru/me/formula/aux/190_53_STATISTIChESKIE]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/190_54_STATISTIChESKIE]]/URI$, отвергнуть $URI[[http://libmeta.ru/me/formula/aux/190_55_STATISTIChESKIE]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/190_56_STATISTIChESKIE]]/URI$, гипотезы $URI[[http://libmeta.ru/me/formula/aux/190_57_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_58_STATISTIChESKIE]]/URI$ разделяются безошибочно. Наличие таких совершенных критериев часто указывает, что С. 3. поставлена не совсем удачно и из нее исключены какие-то существенные случайные возмущения.
+
+П р и ме р 3. Пусть $URI[[http://libmeta.ru/me/formula/aux/190_59_STATISTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/190_60_STATISTIChESKIE]]/URI$ стациоварный әргодич. процесс с нулевым средним, $URI[[http://libmeta.ru/me/formula/aux/190_61_STATISTIChESKIE]]/URI$ действительный шараметр. Пусть реализации $URI[[http://libmeta.ru/me/formula/aux/190_62_STATISTIChESKIE]]/URI$ с вероятностью 1 аналитичны в полосе, содержащей действительную ось. Iiо эргодич. теореме
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_4_STATISTIChESKIE]]/URI
+\]
+
+и все меры $URI[[http://libmeta.ru/me/formula/aux/190_63_STATISTIChESKIE]]/URI$ взаимно сингулярны. Так как аналитич. функция $URI[[http://libmeta.ru/me/formula/aux/190_64_STATISTIChESKIE]]/URI$ полностью очределяется своими звачениями в окрестности нуля, параметр $URI[[http://libmeta.ru/me/formula/aux/190_65_STATISTIChESKIE]]/URI$ оценивается безошибочно по наблюдениям $URI[[http://libmeta.ru/me/formula/aux/190_66_STATISTIChESKIE]]/URI$ для любого $URI[[http://libmeta.ru/me/formula/aux/190_67_STATISTIChESKIE]]/URI$.
+
+Вычисление отношения правдоподобия в тех случаях, когда оно существует,- трудная задача. Вычшсления часто основаны на иредельном соотношении
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_5_STATISTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/190_68_STATISTIChESKIE]]/URI$ - плотности распределения вектора $URI[[http://libmeta.ru/me/formula/aux/190_69_STATISTIChESKIE]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/190_70_STATISTIChESKIE]]/URI$-плотное в $URI[[http://libmeta.ru/me/formula/aux/190_71_STATISTIChESKIE]]/URI$ множество. Исследование правої части последнего равенства полезно и при доказательстве сингуляршости $URI[[http://libmeta.ru/me/formula/aux/190_72_STATISTIChESKIE]]/URI$.
+
+П р и м е $URI[[http://libmeta.ru/me/formula/aux/190_73_STATISTIChESKIE]]/URI$ 4. Пусть либо наблюдение $URI[[http://libmeta.ru/me/formula/aux/190_74_STATISTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/190_75_STATISTIChESKIE]]/URI$ - винеровскиї процесс (гипотеза $URI[[http://libmeta.ru/me/formula/aux/190_76_STATISTIChESKIE]]/URI$ ), либо $URI[[http://libmeta.ru/me/formula/aux/190_77_STATISTIChESKIE]]/URI$ - неслучайная функция (гипотеза $URI[[http://libmeta.ru/me/formula/aux/190_78_STATISTIChESKIE]]/URI$. Меры $URI[[http://libmeta.ru/me/formula/aux/190_79_STATISTIChESKIE]]/URI$ взаимно абсолютно непрерывны, если $URI[[http://libmeta.ru/me/formula/aux/190_80_STATISTIChESKIE]]/URI$, и взаимно сингулярны, если $URI[[http://libmeta.ru/me/formula/aux/190_81_STATISTIChESKIE]]/URI$. Отношение правдоподобия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_6_STATISTIChESKIE]]/URI
+\]
+
+П р и м е p 5. Пусть $URI[[http://libmeta.ru/me/formula/aux/190_82_STATISTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/190_83_STATISTIChESKIE]]/URI$ - действительный параметр, а $URI[[http://libmeta.ru/me/formula/aux/190_84_STATISTIChESKIE]]/URI$ - стационарныї марковский гауссовский процесс с нулевым средним и известной корреляционной функцией $URI[[http://libmeta.ru/me/formula/aux/190_85_STATISTIChESKIE]]/URI$. Меры $URI[[http://libmeta.ru/me/formula/aux/190_86_STATISTIChESKIE]]/URI$ взаимно абсолютно непрерывны с функцией правдоподобия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_7_STATISTIChESKIE]]/URI
+\]
+
+В частности, $URI[[http://libmeta.ru/me/formula/aux/190_87_STATISTIChESKIE]]/URI$ достаточная статистика для семейства $URI[[http://libmeta.ru/me/formula/aux/190_88_STATISTIChESKIE]]/URI$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_fcd300a8bea8f36a5de5g-1.jpg?height=37&amp;width=776&amp;top_left_y=557&amp;top_left_x=1011)
+ч а й ны $URI[[http://libmeta.ru/me/formula/aux/190_89_STATISTIChESKIE]]/URI$ п р о це с с ов. Пусть наблюдается функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_8_STATISTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/190_90_STATISTIChESKIE]]/URI$ - случайный процесс с нулевым средним и известной корреляционной функцией $URI[[http://libmeta.ru/me/formula/aux/190_91_STATISTIChESKIE]]/URI$ известные неслучайные функции, $URI[[http://libmeta.ru/me/formula/aux/190_92_STATISTIChESKIE]]/URI$ неизвестный параметр $URI[[http://libmeta.ru/me/formula/aux/190_93_STATISTIChESKIE]]/URI$ коэффициенты регрессии), параметрит. множество $URI[[http://libmeta.ru/me/formula/aux/190_94_STATISTIChESKIE]]/URI$ - подпространство $URI[[http://libmeta.ru/me/formula/aux/190_95_STATISTIChESKIE]]/URI$. Линейные оценки для $URI[[http://libmeta.ru/me/formula/aux/190_96_STATISTIChESKIE]]/URI$ суть оценки вида $URI[[http://libmeta.ru/me/formula/aux/190_97_STATISTIChESKIE]]/URI$ или их пределы в среднем квадратичном. Задача отыскания оптимальных в среднем квадратичном несмещенных линейных оценок сводится к решению линейных алгебраических или линейных интегральных уравнений, определяемых $URI[[http://libmeta.ru/me/formula/aux/190_98_STATISTIChESKIE]]/URI$. Именно, такая оптимальная оценка $URI[[http://libmeta.ru/me/formula/aux/190_99_STATISTIChESKIE]]/URI$ определяется уравнениями $URI[[http://libmeta.ru/me/formula/aux/190_100_STATISTIChESKIE]]/URI$ для любой величины $URI[[http://libmeta.ru/me/formula/aux/190_101_STATISTIChESKIE]]/URI$ вида $URI[[http://libmeta.ru/me/formula/aux/190_102_STATISTIChESKIE]]/URI$. В ряде случаев оценки $URI[[http://libmeta.ru/me/formula/aux/190_103_STATISTIChESKIE]]/URI$, полученные по методу наименьших квадратов асимптотически, при $URI[[http://libmeta.ru/me/formula/aux/190_104_STATISTIChESKIE]]/URI$, не хуже оптимальных линейных оценок. Оценки метода наименьших квадратов вычисляются проще и не зависят от $URI[[http://libmeta.ru/me/formula/aux/190_105_STATISTIChESKIE]]/URI$.
+
+П р и м е р 6. В условиях примера $URI[[http://libmeta.ru/me/formula/aux/190_106_STATISTIChESKIE]]/URI$. Оптимальная несмещевная линейная оценка имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_9_STATISTIChESKIE]]/URI
+\]
+
+Оценка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_10_STATISTIChESKIE]]/URI
+\]
+
+имеет асимптотически ту же дисперсию.
+
+Статистические задачи гауссовс к и х п р о ц е с с о в. Пусть процесс $URI[[http://libmeta.ru/me/formula/aux/190_107_STATISTIChESKIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/190_108_STATISTIChESKIE]]/URI$ - гауссовский при всех $URI[[http://libmeta.ru/me/formula/aux/190_109_STATISTIChESKIE]]/URI$. Для гауссовских процессов имеет место альтернатива: любые две меры $URI[[http://libmeta.ru/me/formula/aux/190_110_STATISTIChESKIE]]/URI$ либо взаимно абсолютно непрерывны, либо сингулярны. Так как гауссовское распределение $URI[[http://libmeta.ru/me/formula/aux/190_111_STATISTIChESKIE]]/URI$ полностью определяется средним значением $URI[[http://libmeta.ru/me/formula/aux/190_112_STATISTIChESKIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/190_113_STATISTIChESKIE]]/URI$ и корреляционной функцией $URI[[http://libmeta.ru/me/formula/aux/190_114_STATISTIChESKIE]]/URI$, отношение правдоподобия $URI[[http://libmeta.ru/me/formula/aux/190_115_STATISTIChESKIE]]/URI$ выражается через $URI[[http://libmeta.ru/me/formula/aux/190_116_STATISTIChESKIE]]/URI$ сложным образом. Относительно прост тот случай, когда $URI[[http://libmeta.ru/me/formula/aux/190_117_STATISTIChESKIE]]/URI$ - непрерывная функция. Именно, пусть $URI[[http://libmeta.ru/me/formula/aux/190_118_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_119_STATISTIChESKIE]]/URI$ собственные значения и соответствующие им нормированные в $URI[[http://libmeta.ru/me/formula/aux/190_120_STATISTIChESKIE]]/URI$ собственные функции интегрального уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_11_STATISTIChESKIE]]/URI
+\]
+
+средние $URI[[http://libmeta.ru/me/formula/aux/190_121_STATISTIChESKIE]]/URI$ непрерывные функции, и пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_12_STATISTIChESKIE]]/URI
+\]
+
+Меры $URI[[http://libmeta.ru/me/formula/aux/190_122_STATISTIChESKIE]]/URI$ абсолютно непрерывны в том и только в том случае, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_13_STATISTIChESKIE]]/URI
+\] Прı этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_14_STATISTIChESKIE]]/URI
+\]
+
+Последнее равенство можно использовать для построения критерия для проверки гипотезы $URI[[http://libmeta.ru/me/formula/aux/190_123_STATISTIChESKIE]]/URI$ против альтернативы $URI[[http://libmeta.ru/me/formula/aux/190_124_STATISTIChESKIE]]/URI$ в предположении, что функция $URI[[http://libmeta.ru/me/formula/aux/190_125_STATISTIChESKIE]]/URI$ известна наблюдателю.
+
+Статистические задачи стациона рн ы х п р о ц е с с о в. Пусть наблюдение $URI[[http://libmeta.ru/me/formula/aux/190_126_STATISTIChESKIE]]/URI$ стационарный процесс со средним $URI[[http://libmeta.ru/me/formula/aux/190_127_STATISTIChESKIE]]/URI$ и корреляционной функцией $URI[[http://libmeta.ru/me/formula/aux/190_128_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_129_STATISTIChESKIE]]/URI$ - его спектральная плотность и спектральная функция. Основные задачи статистики стационарных процессов относятся к проверке гипотез или оцениванию, касающихся тех или иных характеристик $URI[[http://libmeta.ru/me/formula/aux/190_130_STATISTIChESKIE]]/URI$. В случае эргодич. процесса $URI[[http://libmeta.ru/me/formula/aux/190_131_STATISTIChESKIE]]/URI$ состоятельными оценками (при $URI[[http://libmeta.ru/me/formula/aux/190_132_STATISTIChESKIE]]/URI$ ) для $URI[[http://libmeta.ru/me/formula/aux/190_133_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_134_STATISTIChESKIE]]/URI$ служат соответственно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_15_STATISTIChESKIE]]/URI
+\]
+
+Задачу оценки $URI[[http://libmeta.ru/me/formula/aux/190_135_STATISTIChESKIE]]/URI$ при известном $URI[[http://libmeta.ru/me/formula/aux/190_136_STATISTIChESKIE]]/URI$ часто рассматривают в рамках линейных задач. К этому последнему кругу задач относятся и более общие задачи оценки коэффициентов регрессии по наблюдениям вида (*) со стационарным $URI[[http://libmeta.ru/me/formula/aux/190_137_STATISTIChESKIE]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/190_138_STATISTIChESKIE]]/URI$ имеет нулевое среднее и спектральную плотность $URI[[http://libmeta.ru/me/formula/aux/190_139_STATISTIChESKIE]]/URI$, зависящую от конечномерного параметра $URI[[http://libmeta.ru/me/formula/aux/190_140_STATISTIChESKIE]]/URI$. Если процесс $URI[[http://libmeta.ru/me/formula/aux/190_141_STATISTIChESKIE]]/URI$ - гауссовский, можно указать формулы для отношения правдоподобия $URI[[http://libmeta.ru/me/formula/aux/190_142_STATISTIChESKIE]]/URI$ (если последнее существует), к-рые в ряде случаев позволяют найти оценки максимального правдоподобия или «хорошие» (при больших $URI[[http://libmeta.ru/me/formula/aux/190_143_STATISTIChESKIE]]/URI$ ) приближения к ним. В достаточно широких предположениях эти оценки асимптотически нормальны $URI[[http://libmeta.ru/me/formula/aux/190_144_STATISTIChESKIE]]/URI$ I асімптотически әффективны.
+
+$URI[[http://libmeta.ru/me/formula/aux/190_145_STATISTIChESKIE]]/URI$ р и м е р 7. Пусть $URI[[http://libmeta.ru/me/formula/aux/190_146_STATISTIChESKIE]]/URI$ - стационарныӥ гауссовский процесс с непрерывным временем и рациональной спектральной плотностью $URI[[http://libmeta.ru/me/formula/aux/190_147_STATISTIChESKIE]]/URI$ многочлены. Меры $URI[[http://libmeta.ru/me/formula/aux/190_148_STATISTIChESKIE]]/URI$, отвечающие рациональным спектральным плотностям $URI[[http://libmeta.ru/me/formula/aux/190_149_STATISTIChESKIE]]/URI$, абсолютно непрерывны в том и только в том случае, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_16_STATISTIChESKIE]]/URI
+\]
+
+Параметром $URI[[http://libmeta.ru/me/formula/aux/190_150_STATISTIChESKIE]]/URI$ здесь служит совокупность всех коэффициентов многочленов $URI[[http://libmeta.ru/me/formula/aux/190_151_STATISTIChESKIE]]/URI$.
+
+П р и м е р 8. Важный класс стационарных гауссовских процессов образуют процессы авторегрессии $URI[[http://libmeta.ru/me/formula/aux/190_152_STATISTIChESKIE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_17_STATISTIChESKIE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/190_153_STATISTIChESKIE]]/URI$ - гауссовский белый шум единичной интенсивности, $URI[[http://libmeta.ru/me/formula/aux/190_154_STATISTIChESKIE]]/URI$ - неизвестный параметр. В этом случае спектральная плотность
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_18_STATISTIChESKIE]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_19_STATISTIChESKIE]]/URI
+\]
+
+Функция правдоподобия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_20_STATISTIChESKIE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/190_155_STATISTIChESKIE]]/URI$ суть квадратичные формы от $URI[[http://libmeta.ru/me/formula/aux/190_156_STATISTIChESKIE]]/URI$, зависящие от значений $URI[[http://libmeta.ru/me/formula/aux/190_157_STATISTIChESKIE]]/URI$, в точках $URI[[http://libmeta.ru/me/formula/aux/190_158_STATISTIChESKIE]]/URI$ - определитель корреляционной матрицы вектора $URI[[http://libmeta.ru/me/formula/aux/190_159_STATISTIChESKIE]]/URI$.
+
+Оценки максимального правдоподобия для параметра авторегрессии $URI[[http://libmeta.ru/me/formula/aux/190_160_STATISTIChESKIE]]/URI$ асимптотически нормальны и асимптотически әффективны. Теми же свойствами обладает и решение $URI[[http://libmeta.ru/me/formula/aux/190_161_STATISTIChESKIE]]/URI$ приближенного уравнения правдоподобия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_21_STATISTIChESKIE]]/URI
+\]
+
+Важную роль при статистич. исследовании спектра стационарного процесса играет периодограмма $URI[[http://libmeta.ru/me/formula/aux/190_162_STATISTIChESKIE]]/URI$. Эта статистика определяется- как
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_22_STATISTIChESKIE]]/URI
+\]
+
+Периодограмма широко используется для построения различного рода оценок для $URI[[http://libmeta.ru/me/formula/aux/190_163_STATISTIChESKIE]]/URI$ и критериев для проверки гипотез об этих характерпстиках. В пирокшх предположениях статистики $URI[[http://libmeta.ru/me/formula/aux/190_164_STATISTIChESKIE]]/URI$ являются состоятельными оценками для $URI[[http://libmeta.ru/me/formula/aux/190_165_STATISTIChESKIE]]/URI$. В частности, $URI[[http://libmeta.ru/me/formula/aux/190_166_STATISTIChESKIE]]/URI$ служат оценкой для $URI[[http://libmeta.ru/me/formula/aux/190_167_STATISTIChESKIE]]/URI$. Если последовательность $URI[[http://libmeta.ru/me/formula/aux/190_168_STATISTIChESKIE]]/URI$ сходится подходящим образом к $URI[[http://libmeta.ru/me/formula/aux/190_169_STATISTIChESKIE]]/URI$ функцци $URI[[http://libmeta.ru/me/formula/aux/190_170_STATISTIChESKIE]]/URI$, то интегралы $URI[[http://libmeta.ru/me/formula/aux/190_171_STATISTIChESKIE]]/URI$ будут состоятельными оценками для $URI[[http://libmeta.ru/me/formula/aux/190_172_STATISTIChESKIE]]/URI$. Часто в качестве функций $URI[[http://libmeta.ru/me/formula/aux/190_173_STATISTIChESKIE]]/URI$ выбирают функции вида $URI[[http://libmeta.ru/me/formula/aux/190_174_STATISTIChESKIE]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/190_175_STATISTIChESKIE]]/URI$ шроцесс с дискретным временем, эти оценки можно записать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_23_STATISTIChESKIE]]/URI
+\]
+
+где эмпирическая корреляционная функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_24_STATISTIChESKIE]]/URI
+\]
+
+а неслучайные коэффициенты $URI[[http://libmeta.ru/me/formula/aux/190_176_STATISTIChESKIE]]/URI$ определяются выбором $URI[[http://libmeta.ru/me/formula/aux/190_177_STATISTIChESKIE]]/URI$. Последниї выбор, в свою очередь, зависит от априорных сведений о $URI[[http://libmeta.ru/me/formula/aux/190_178_STATISTIChESKIE]]/URI$. Аналогичное іредставление имеет место и для процессов с непрерывным временем.
+
+Иногда к задачам статистич. анализа стационарных процессов относят іi задачи әкстраполяции, интерполяции и фильтрации стационарных процессов.
+
+С т а т истические с к и х п р о ц е с с о в. Пусть наблюдения $URI[[http://libmeta.ru/me/formula/aux/190_179_STATISTIChESKIE]]/URI$, ..., $URI[[http://libmeta.ru/me/formula/aux/190_180_STATISTIChESKIE]]/URI$ связаны в однородную цепь Маркова. Iiри достаточно широких іредположениях функция правдоподобия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_25_STATISTIChESKIE]]/URI
+\] где $URI[[http://libmeta.ru/me/formula/aux/190_181_STATISTIChESKIE]]/URI$ - начальная и переходная плотности распределения. Это выражение сходно с функцией правдоподобия для последовательности независимых наблюдений и при соблюдении условий регулярности (гладкость по $URI[[http://libmeta.ru/me/formula/aux/190_182_STATISTIChESKIE]]/URI$ можно построить теорию оценивания и проверки гипотез, аналогичную соответствующей теории для независимых наблюдений.
+
+Более сложная ситуация возникает, если $URI[[http://libmeta.ru/me/formula/aux/190_183_STATISTIChESKIE]]/URI$ марковский процесс с непрерывным временем. Пусть $URI[[http://libmeta.ru/me/formula/aux/190_184_STATISTIChESKIE]]/URI$ - однородный марковский процесс с конечным числом состояний $URI[[http://libmeta.ru/me/formula/aux/190_185_STATISTIChESKIE]]/URI$ и диффференцируемыми вероятностями перехода $URI[[http://libmeta.ru/me/formula/aux/190_186_STATISTIChESKIE]]/URI$. Матрица вероятностей перехода определяется матрицей $URI[[http://libmeta.ru/me/formula/aux/190_187_STATISTIChESKIE]]/URI$. Пусть в начальный момент $URI[[http://libmeta.ru/me/formula/aux/190_188_STATISTIChESKIE]]/URI$ независимо от $URI[[http://libmeta.ru/me/formula/aux/190_189_STATISTIChESKIE]]/URI$. Выбирая какую-нибудь матрицу $URI[[http://libmeta.ru/me/formula/aux/190_190_STATISTIChESKIE]]/URI$, находят
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_ac332bf9521450ef7396g-1.jpg?height=119&amp;width=702&amp;top_left_y=645&amp;top_left_x=150)
+$URI[[http://libmeta.ru/me/formula/aux/190_191_STATISTIChESKIE]]/URI$.
+
+Здесь статистики $URI[[http://libmeta.ru/me/formula/aux/190_192_STATISTIChESKIE]]/URI$ определяются следующим образом: $URI[[http://libmeta.ru/me/formula/aux/190_193_STATISTIChESKIE]]/URI$ - это число скачков $URI[[http://libmeta.ru/me/formula/aux/190_194_STATISTIChESKIE]]/URI$ на интервале $URI[[http://libmeta.ru/me/formula/aux/190_195_STATISTIChESKIE]]/URI$ момент $URI[[http://libmeta.ru/me/formula/aux/190_196_STATISTIChESKIE]]/URI$-го скачка, $URI[[http://libmeta.ru/me/formula/aux/190_197_STATISTIChESKIE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/190_198_STATISTIChESKIE]]/URI$. Из указанного выражения выводятся оценки максимального правдоподобия для параметров $URI[[http://libmeta.ru/me/formula/aux/190_199_STATISTIChESKIE]]/URI$ : $URI[[http://libmeta.ru/me/formula/aux/190_200_STATISTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/190_201_STATISTIChESKIE]]/URI$ число переходов из $URI[[http://libmeta.ru/me/formula/aux/190_202_STATISTIChESKIE]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/190_203_STATISTIChESKIE]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/190_204_STATISTIChESKIE]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/190_205_STATISTIChESKIE]]/URI$ - время, проведенное процессом $URI[[http://libmeta.ru/me/formula/aux/190_206_STATISTIChESKIE]]/URI$ в состоянии $URI[[http://libmeta.ru/me/formula/aux/190_207_STATISTIChESKIE]]/URI$.
+
+П р и м е 9. Пусть $URI[[http://libmeta.ru/me/formula/aux/190_208_STATISTIChESKIE]]/URI$ - рождения и гибели процесс с постоянными интенсивностями размножения $URI[[http://libmeta.ru/me/formula/aux/190_209_STATISTIChESKIE]]/URI$ и гибели $URI[[http://libmeta.ru/me/formula/aux/190_210_STATISTIChESKIE]]/URI$. Это значит, что $URI[[http://libmeta.ru/me/formula/aux/190_211_STATISTIChESKIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/190_212_STATISTIChESKIE]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/190_213_STATISTIChESKIE]]/URI$. В этом примере число состояний бесконечно. Пусть $URI[[http://libmeta.ru/me/formula/aux/190_214_STATISTIChESKIE]]/URI$. Отношение правдоподобия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_26_STATISTIChESKIE]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/190_215_STATISTIChESKIE]]/URI$ - общее число рождений (скачков размера $URI[[http://libmeta.ru/me/formula/aux/190_216_STATISTIChESKIE]]/URI$ - смертей (скачков размера -1). Оденки максимума правдоподобия для $URI[[http://libmeta.ru/me/formula/aux/190_217_STATISTIChESKIE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/190_218_STATISTIChESKIE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_27_STATISTIChESKIE]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/190_219_STATISTIChESKIE]]/URI$ - дифффуионный процесс с коэффициентом сноса $URI[[http://libmeta.ru/me/formula/aux/190_220_STATISTIChESKIE]]/URI$ и коэффициентом диффузии $URI[[http://libmeta.ru/me/formula/aux/190_221_STATISTIChESKIE]]/URI$, так тто $URI[[http://libmeta.ru/me/formula/aux/190_222_STATISTIChESKIE]]/URI$ удовлетворяет следующему стохастическому дифференциальному уравнению
+
+$URI[[http://libmeta.ru/me/formula/aux/190_223_STATISTIChESKIE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/190_224_STATISTIChESKIE]]/URI$ - винеровский процесс. Тогда при определенных ограничениях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_28_STATISTIChESKIE]]/URI
+\]
+
+(здесь $URI[[http://libmeta.ru/me/formula/aux/190_225_STATISTIChESKIE]]/URI$ - фиксированный коэфффициент).
+
+П ри м е р 10. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_29_STATISTIChESKIE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/190_226_STATISTIChESKIE]]/URI$ - известная функция, $URI[[http://libmeta.ru/me/formula/aux/190_227_STATISTIChESKIE]]/URI$ - неизвестный действи. тельный параметр. Если обозначить через $URI[[http://libmeta.ru/me/formula/aux/190_228_STATISTIChESKIE]]/URI$ меру Винера, то функция правдоподобия
+
+$URI[[http://libmeta.ru/me/formula/aux/190_229_STATISTIChESKIE]]/URI$,
+
+и при условиях регулярности выполняется н е р а в е нс т в о K р а м е р а - $URI[[http://libmeta.ru/me/formula/aux/190_230_STATISTIChESKIE]]/URI$ а о: для оценки $URI[[http://libmeta.ru/me/formula/aux/190_231_STATISTIChESKIE]]/URI$ со смещением $URI[[http://libmeta.ru/me/formula/aux/190_232_STATISTIChESKIE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_30_STATISTIChESKIE]]/URI
+\]
+
+Если зависимость от $URI[[http://libmeta.ru/me/formula/aux/190_233_STATISTIChESKIE]]/URI$ линейная, оценки максимального правдоподобия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/190_31_STATISTIChESKIE]]/URI
+\]
+
+Jium.: [1] Г р е н а нд е р У., Случайные процессы и статистические выводы, пер. с англ., М., 1961; [2] X е н н а н Э.,
+Анализ временных рядов, пер. с англ., М., 1964; [3] G r е n a nd e r U., R os e n b a t t M., Statistical analysis of stationary time series, Stockh., 1956; [4] G r e n a n d e r U., Abstract inference, N. Y., 1981; [5]' Р о з а н о в Ю. А., Га́уссовские бесконечномерные распределения, М., 1968 (тр. матем. ин-та им. Стеклова, т. 108); [6] И бр а гим о в И. А., Р о з а н о в Ю. А., Гауссовские случайные процессы, М., 1970; [7] Бр и л Л и н д ж е p Д., Временные ряды, пер. c англ., M.,
+1980 ; [8] B i l l i n g s le y P., Statistical inference for Markov processes, Chi., 1961; [9] Јi и п ц е p P. Iii., Iii и р я е в А. Н., URI[[http://libmeta.ru/me/relation/190_2_STATISTIChESKIE]]/URI случайных URI[[http://libmeta.ru/me/relation/190_1_STATISTIChESKIE]]/URI, М., $URI[[http://libmeta.ru/me/formula/aux/190_234_STATISTIChESKIE]]/URI$ Я г ло м А. M., 1981; [11] А н д е р с о н Т., Статистический анализ временных рядов, пер. с англ., М., 1976 .</text>
+  <text_orig>т е о р и и с л у ч а йн ы $\mathbf{x}$ I $\mathrm{p}$ о ц е с с о в - раздел математич. статистики, посвященный статистич. выводам на основе наблюдений, представимых в виде случайного продесса. В самой общей постановке наблодаются значения случайной функции $x(t)$ для $t \in T$ и на основании этих наблюдений надлежит сделать статистич. выводы о нек-рых характеристиках случайного процесса $x(t)$. При столь широком определении сюда формально включается и вся классич. статистика независимых наблюдений. На самом деле под статистикой случайных процессов понимают только статистику зависимых наблюдений, исключая, напр., статистич. анализ большого числа независимых реализаций случайного процесса. При этом основания статистич. теории, основные постановки задач (статистическое оценивание, статистических гипотез проверка), основные понятия (достаточность, несмещенность, состоятельность и т. Д.) - те же, что и в классич. теории. Однако при решении конкретных задач возникают порои значительные трудности и явления нового порядка. Частично эти трудности связаны с наличием зависимости, более сложной структуры наблюдаемого процесса, частично, в случае наблюдений с непрерывным временем, с необходимостью рассматривать распределения в бесконечномерных пространствах.
+
+На самом деле при решении С. 3. теории случайных процессов существенно используется структура наблюдаемого процесса и в соответствии с классификацией случайных процессов рассматривают С. з. гауссовских, марковских, стационарных, ветвящихся, дифффузон ных и т. Д. процессов. При этом наиболее далеко продвинута статистич. теория стационарных процессов (анализ временных рядов).
+
+Необходимость статистич. анализа случайных процессов возникла в 19 в.: анализ метеорологич., экономич. рядов, исследование циклич. процессов (колебавия цен, солнечные пятна). В настоящее время круг задач, связанных со статистич. анализом случайных процессов, трезвычайно широк. Достаточно упомянуть статистич. анализ случайных шумов, вибраций, турбулентных явлений, морского волнения, кардиограмм, энцефалограмм и т. Д. Теоретич. аспекты проблемы выделения сигнала на фоне шума в значительной степени являются С. з. теории случаӥных процессов.
+
+В дальнейшем предполагается, что наблюдается отрезок $x(t), 0 \leqslant t \leqslant T$, случайного процесса $x(t)$, причем параметр $t$ пробегает либо весь отрезок $[0, T]$, либо целые числа этого отрезка. Обычно в С. 3. о распределөнии $P^{T}$ случайного процесса $\{x(t), 0 \leqslant t \leqslant T\}$ известно лишь, что оно принадлежит нек-рому семейству $\left\{P^{T}\right\}$ распределений. Это семейство всегда можно записать в параметрит. форме.
+
+$\Pi \mathrm{p}$ и м е р 1. Наблюдаемый процесс $x(t)$ представляет собой либо сумму неслучайной функции $s(t$ ) («сигнал») и случайной функции $\xi(t)$ («шум»), либо одну случайную функцию $\xi(t)$. Надлежит проверить гипотезу $H_{0}: x(t)=s(t)+\xi(t)$ против альтернативы $H_{1}: x(t)=\xi(t)$ (задача обнаружения сигнала в пуме). Это - пример задачи проверки статистич. гипотез.
+
+П р и е р 2. Наблюдаемый процесс $x(t)=s(t)+$ $+\xi(t)$, где $s(t)$ - неизвестная наблюдателю неслучайная функция (сигнал), а $\xi(t)$ - случайныйі процесс (шум). Надлежит оценить функцию $s$ или ее значение $s\left(t_{0}\right)$ в заданной точке $t_{0}$. Сходным образом можно предположить, что $x(t)=s(t ; \theta)+\xi(t)$, где $s-$ известная функция, зависящая от неизвестного параметра $\theta$, к-рый и нужно оценить по наблюдению $x(t)$ (задачи выделения сигнала на фоне шума). Это - примеры задач оценивания.
+
+Отношение правдо подобиядаяслу ли ч а йны подобия и функция правдоподобия играют большую роль (см. Неймана - Пирсона лемиа, Статистических гипотез проверка, Статистическое оценивание). О тно пе ен и м п р а вдо по до б и я двух распределениї $P_{u}^{T}$ и $P_{v}^{T}$ наз. плотность
+
+\[
+p(x(\cdot) ; u, v)=p(x(\cdot))=\frac{d P_{u}^{T}}{d P_{v}^{T}}(x(\cdot)) .
+\] Ф у в к ц и е й п р а в до п о д о б и я наз. функцию
+
+\[
+L(\theta)=\frac{d P_{\theta}^{T}}{d \mu}(x(\cdot)),
+\]
+
+где $\mu$ есть б-конечная мера, относительно к-рой абсолютно непрерывны все меры $P_{\theta}^{T}$. В дискретном случае, когда $t$ пробегает целые точкі отрезка $[0, T]$ и $T&lt;\infty$, отношение правдоподобия, напр., всегда существует, если распределения $P_{u}$ и $P_{v}$ имеют положительные плотности распределония, совпадая с отношением этих плотностейі.
+
+Если $t$ uробегает весь отрезок $[0, T]$, то возможны случаи, когда меры $P_{u}^{T}$ и $P_{v}^{T}$ не абсолютно непрерывны относительно друг друга; более того, встречаются ситуации, когда меры $P_{u}^{T}$ и $P_{v}^{T}$ взаимно сингулярны, т. е. для нек-рого множества $A$ в пространстве реализаций $x(t)$
+
+\[
+P_{u}^{T}\{x \in A\}=0, \quad P_{v}^{T}\{x \in A\}=1 .
+\]
+
+В этом случае $p(x ; u, v)$ не существует. Сингулярность мер $P_{\theta}^{T}$ приводит к важным и в какой-то степени парадоксальным статистич. следствиям, позволяя делать безопибочные выводы о параметре $\theta$. Пусть, напр., $\Theta=\{0,1\}$; сингулярность мер $P_{0}^{T}, P_{1}^{T}$ ознаqает, что с помощью критерия: «принять $H_{0}$, если $x \notin A$, отвергнуть $H_{0}$, если $x \in A »$, гипотезы $H_{0}: \theta=0$ и $H_{1}: \theta=1$ разделяются безошибочно. Наличие таких совершенных критериев часто указывает, что С. 3. поставлена не совсем удачно и из нее исключены какие-то существенные случайные возмущения.
+
+П р и ме р 3. Пусть $x(t)=\theta+\xi(t)$, где $\xi(t)-$ стациоварный әргодич. процесс с нулевым средним, $\theta-$ действительный шараметр. Пусть реализации $\xi(t)$ с вероятностью 1 аналитичны в полосе, содержащей действительную ось. IIо эргодич. теореме
+
+\[
+\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} x(t) d t=\theta
+\]
+
+и все меры $P_{\theta}^{\infty}$ взаимно сингулярны. Так как аналитич. функция $x(t)$ полностью очределяется своими звачениями в окрестности нуля, параметр $\theta$ оценивается безошибочно по наблюдениям $\{x(t), 0 \leqslant t \leqslant T\}$ для любого $T&gt;0$.
+
+Вычисление отношения правдоподобия в тех случаях, когда оно существует,- трудная задача. Вычшсления часто основаны на иредельном соотношении
+
+\[
+p(x(\cdot) ; u, v)=\lim _{n \rightarrow \infty} \frac{p_{n}\left(x\left(t_{1}\right), \ldots, x\left(t_{n}\right)\right)}{p_{v}\left(x\left(t_{1}\right), \ldots, x\left(t_{n}\right)\right)},
+\]
+
+где $p_{u}, \quad p_{v}$ - плотности распределения вектора $\left(x\left(t_{1}\right), \ldots . . x\left(t_{n}\right)\right)$, а $\left\{t_{1}, t_{2}, \ldots\right\}$-плотное в $[0, T]$ множество. Исследование правої части последнего равенства полезно и при доказательстве сингуляршости $P_{u}, P_{v}$.
+
+П р и м е $\mathrm{p}$ 4. Пусть либо наблюдение $x(t)=w(t)$, где $w(t)$ - винеровскиї процесс (гипотеза $H_{0}$ ), либо $x(t)=m(t)+w(t), m$ - неслучайная функция (гипотеза $\left.H_{1}\right)$. Меры $P_{0}, P_{1}$ взаимно абсолютно непрерывны, если $m^{\prime} \in L_{2}(0, T)$, и взаимно сингулярны, если $m^{\prime} \notin L_{2}(0, T)$. Отношение правдоподобия
+
+\[
+\frac{d P_{1}^{T}}{d P_{0}^{T}}(x)=\exp \left\{-\frac{1}{2} \int_{0}^{T}\left[m^{\prime}(t)\right]^{2} d t+\int_{0}^{T} m^{\prime}(t) d x(t)\right\} .
+\]
+
+П р и м е p 5. Пусть $x(t)=\theta+\xi(t)$, где $\theta$ - действительный параметр, а $\xi(t)$ - стационарныї марковский гауссовский процесс с нулевым средним и известной корреляционной функцией $r(t)=e^{-\alpha|t|}, \alpha&gt;0$. Меры $P_{\theta}^{T}$ взаимно абсолютно непрерывны с функцией правдоподобия
+
+\[
+\begin{aligned}
+&amp; \frac{d P_{\theta}^{T}}{d P_{\theta}^{0}}(x)=\exp \left\{\frac{1}{2} \theta x(0)+\frac{1}{2} \theta x(T)+\right. \\
+&amp; \left.+\frac{1}{2} \theta \alpha \int_{0}^{T} x(t) d t-\frac{1}{2} \theta^{2}-\frac{1}{4} \theta^{2} \alpha T\right\} .
+\end{aligned}
+\]
+
+В частности, $x(0)+x(T)+\alpha \int_{0}^{T} x(t) d t-$ достаточная статистика для семейства $P_{\theta}^{T}$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_fcd300a8bea8f36a5de5g-1.jpg?height=37&amp;width=776&amp;top_left_y=557&amp;top_left_x=1011)
+ч а й ны $\mathrm{x}$ п р о це с с ов. Пусть наблюдается функция
+
+\[
+x(t)=\sum_{1}^{k} \theta_{j} \varphi_{j}(t)+\xi(t),
+\]
+
+где $\xi(t)$ - случайный процесс с нулевым средним и известной корреляционной функцией $r(t, s), \varphi_{j}-$ известные неслучайные функции, $\theta=\left(\theta_{1}, \ldots, \theta_{k}\right)-$ неизвестный параметр $\left(\theta_{j}-\right.$ коэффициенты регрессии), параметрит. множество $\Theta$ - подпространство $R^{k}$. Линейные оценки для $\theta_{j}$ суть оценки вида $\sum c_{j} x\left(t_{j}\right)$ или их пределы в среднем квадратичном. Задача отыскания оптимальных в среднем квадратичном несмещенных линейных оценок сводится к решению линейных алгебраических или линейных интегральных уравнений, определяемых $r$. Именно, такая оптимальная оценка $\hat{\theta}$ определяется уравнениями $\mathrm{E}_{\theta}\left(\hat{\theta}_{j} \xi\right)=0$ для любой величины $\xi$ вида $\xi=\sum b_{j} x\left(t_{j}\right), \sum b_{j} \varphi_{l}\left(t_{j}\right)=0$. В ряде случаев оценки $\theta$, полученные по методу наименьших квадратов асимптотически, при $T \rightarrow \infty$, не хуже оптимальных линейных оценок. Оценки метода наименьших квадратов вычисляются проще и не зависят от $r$.
+
+П р и м е р 6. В условиях примера $5, k=1, \varphi_{1}(t) \equiv 1$. Оптимальная несмещевная линейная оценка имеет вид
+
+\[
+\hat{\theta}=\frac{1}{2+\alpha T}\left(x(0)+x(T)+\alpha \int_{0}^{T} x(t) d t\right) .
+\]
+
+Оценка
+
+\[
+\theta^{*}=\frac{1}{T} \int_{0}^{T} x(t) d t
+\]
+
+имеет асимптотически ту же дисперсию.
+
+Статистические задачи гауссовс к и х п р о ц е с с о в. Пусть процесс $\{x(t), U \leqslant t \leqslant T$, $\left.P_{\theta}^{T}\right\}$ - гауссовский при всех $\theta \in \Theta$. Для гауссовских процессов имеет место альтернатива: любые две меры $P_{u}^{T}, P_{v}^{T}$ либо взаимно абсолютно непрерывны, либо сингулярны. Так как гауссовское распределение $P_{\theta}^{T}$ полностью определяется средним значением $m_{\theta}(t)=$ $=\mathrm{E}_{\theta} x(t)$ и корреляционной функцией $r_{\theta}(s, t)=\mathrm{E} \theta x(s) x(t)$, отношение правдоподобия $d P_{u}^{T} / d P_{v}^{T}$ выражается через $m_{u}, m_{v}, r_{u}, r_{v}$ сложным образом. Относительно прост тот случай, когда $r_{u}=r_{v}=r, r$ - непрерывная функция. Именно, пусть $\Theta=\{0,1\}, r_{0}=r_{1}=r ; \quad \lambda_{i}$ и $\varphi_{i}(t)-$ собственные значения и соответствующие им нормированные в $L_{2}(0, T)$ собственные функции интегрального уравнения
+
+\[
+\lambda \varphi(s)=\int_{0}^{T} r(s, t) \varphi(t) d t
+\]
+
+средние $m_{0}(t), m_{1}(t)-$ непрерывные функции, и пусть
+
+\[
+m_{i j}=\int_{0}^{T} m_{i}(t) \varphi_{i}(t) d t
+\]
+
+Меры $P_{0}, P_{1}$ абсолютно непрерывны в том и только в том случае, если
+
+\[
+\sum_{j=1}^{\infty}\left(m_{0 j}-m_{1 j}\right)^{2} \lambda_{j}^{-1}&lt;\infty .
+\] Прı этом
+
+\[
+\begin{aligned}
+&amp; \frac{d P_{1}^{T}}{d P_{0}^{T}}(x)=\exp \left\{\sum_{i=1}^{\infty} \frac{m_{1 j}-m_{0 j}}{\lambda_{j}} \times\right. \\
+&amp; \left.\times\left(\int_{0}^{T} x(t) \varphi_{j}(t) d t-\frac{m_{1 j}-m_{0 j}}{2}\right)\right\} .
+\end{aligned}
+\]
+
+Последнее равенство можно использовать для построения критерия для проверки гипотезы $H_{0}: m=m_{0}$ против альтернативы $H_{1}: m=m_{1}$ в предположении, что функция $r$ известна наблюдателю.
+
+Статистические задачи стациона рн ы х п р о ц е с с о в. Пусть наблюдение $x(t)-$ стационарный процесс со средним $m$ и корреляционной функцией $r(t) ; f(\lambda)$ и $F(\lambda)$ - его спектральная плотность и спектральная функция. Основные задачи статистики стационарных процессов относятся к проверке гипотез или оцениванию, касающихся тех или иных характеристик $m, r, f, F$. В случае эргодич. процесса $x(t)$ состоятельными оценками (при $T \rightarrow \infty$ ) для $m$ и $r(t)$ служат соответственно
+
+\[
+\begin{gathered}
+m^{*}=\frac{1}{T} \int_{0}^{T} x(t) d t, \\
+r^{*}(t)=\frac{1}{T} \int_{0}^{T-t} x(t+s) x(s) d s .
+\end{gathered}
+\]
+
+Задачу оценки $m$ при известном $r$ часто рассматривают в рамках линейных задач. К этому последнему кругу задач относятся и более общие задачи оценки коэффициентов регрессии по наблюдениям вида (*) со стационарным $\xi(t)$.
+
+Пусть $x(t)$ имеет нулевое среднее и спектральную плотность $f(\lambda ; \theta)$, зависящую от конечномерного параметра $\theta \in \Theta$. Если процесс $x(t)$ - гауссовский, можно указать формулы для отношения правдоподобия $d P_{\theta} / d P_{\theta^{0}}$ (если последнее существует), к-рые в ряде случаев позволяют найти оценки максимального правдоподобия или «хорошие» (при больших $T$ ) приближения к ним. В достаточно широких предположениях эти оценки асимптотически нормальны $\left(\theta, \frac{c(\theta)}{\sqrt{T}}\right)$ I асімптотически әффективны.
+
+$\Pi$ р и м е р 7. Пусть $x(t)$ - стационарныӥ гауссовский процесс с непрерывным временем и рациональной спектральной плотностью $f(\lambda)=\left|\frac{Q(\lambda)}{P(\lambda)}\right|^{2}, P, Q-$ многочлены. Меры $P_{0}^{T}, P_{1}^{T}$, отвечающие рациональным спектральным плотностям $f_{0}, f_{1}$, абсолютно непрерывны в том и только в том случае, если
+
+\[
+\lim _{\lambda \rightarrow \infty} \frac{f_{0}(\lambda)}{f_{1}(\lambda)}=1
+\]
+
+Параметром $\theta$ здесь служит совокупность всех коэффициентов многочленов $\boldsymbol{P}, Q$.
+
+П р и м е р 8. Важный класс стационарных гауссовских процессов образуют процессы авторегрессии $x(t)$ :
+
+\[
+x^{(n)}(t)+\theta_{n} x^{(n-1)}(t)+\ldots+\theta_{1} x(t)=\varepsilon(t),
+\]
+
+где $\varepsilon(t)$ - гауссовский белый шум единичной интенсивности, $\theta=\left(\theta_{1}, \ldots, \theta_{n}\right)$ - неизвестный параметр. В этом случае спектральная плотность
+
+\[
+f(\lambda ; \theta)=(2 \pi)^{-1}|P(i \lambda)|^{-2}
+\]
+
+где
+
+\[
+P(z)=\theta_{1}+\theta_{2} z+\ldots+\theta_{n} z^{n-1}+z^{n}
+\]
+
+Функция правдоподобия
+
+\[
+\begin{aligned}
+&amp; \frac{d P_{\theta}^{T}}{d P_{\theta^{0}}^{T}}=\sqrt{\frac{K(\theta)}{K(\theta)^{0}}} \exp \frac{\theta_{n}-0_{n}}{T}- \\
+&amp;-\frac{1}{2} \sum_{j=0}^{n-1}\left[\lambda_{j}(\theta)-\lambda_{j}\left(\theta^{0}\right)\right] \times \\
+&amp;\left.\times \int_{0}^{T}\left[x^{(j)}(t)\right]^{2} d t-\frac{1}{2}\left(\lambda(\theta)-\lambda\left(\theta^{0}\right)\right)\right\} .
+\end{aligned}
+\]
+
+Здесь $\lambda_{j}(\theta), \lambda(\theta)$ суть квадратичные формы от $\theta$, зависящие от значений $x^{(j)}(t), j=1,2, \ldots,(n-1)$, в точках $t=0, \quad T ; K(\theta)$ - определитель корреляционной матрицы вектора $\left(x(0), x^{(1)}(0), \ldots, x^{(n-1)}(0)\right)$.
+
+Оценки максимального правдоподобия для параметра авторегрессии $\theta$ асимптотически нормальны и асимптотически әффективны. Теми же свойствами обладает и решение $\theta_{T}^{*}$ приближенного уравнения правдоподобия
+
+\[
+\frac{1}{2 T} \sum_{j=0}^{n-1} \frac{\partial \lambda_{j}(\theta)}{\partial \theta_{i}} \int_{0}^{T}\left[x^{(j)}(t)\right]^{2} d t= \begin{cases}0, &amp; 1 \leqslant i&lt;n, \\ \frac{1}{2}, &amp; i=n .\end{cases}
+\]
+
+Важную роль при статистич. исследовании спектра стационарного процесса играет периодограмма $I_{T}(\lambda)$. Эта статистика определяется- как
+
+\[
+\begin{aligned}
+&amp; I_{T}(\lambda)=\frac{1}{2 \pi T}\left|\sum_{t=0}^{T} e^{-i t \lambda} x(t)\right| \text { (время дискретно), } \\
+&amp; I_{T}(\lambda)=\frac{1}{2 \pi T}\left|\int_{0}^{T} e^{-i t \lambda} x(t) d t\right|^{2} \text { (время непрерывно). }
+\end{aligned}
+\]
+
+Периодограмма широко используется для построения различного рода оценок для $f(\lambda), F(\lambda)$ и критериев для проверки гипотез об этих характерпстиках. В пирокшх предположениях статистики $\int I_{T}(\lambda) \varphi(\lambda) d \lambda$ являются состоятельными оценками для $\int f(\lambda) \varphi(\lambda) d \lambda$. В частности, $\int_{\alpha}^{\beta} J_{T}(\lambda) d \lambda$ служат оценкой для $F(\beta)-F(\alpha)$. Если последовательность $\varphi_{T}\left(\lambda ; \lambda_{0}\right)$ сходится подходящим образом к $\delta$ функцци $\delta\left(\lambda-\lambda_{0}\right)$, то интегралы $\int \varphi_{T}\left(\lambda ; \lambda_{0}\right) I_{T}(\lambda) d \lambda$ будут состоятельными оценками для $f\left(\lambda_{0}\right)$. Часто в качестве функций $\varphi_{T}\left(\lambda ; \lambda_{0}\right)$ выбирают функции вида $a_{T} \psi\left(a_{T}\left(\lambda-\lambda_{0}\right)\right), a_{T} \rightarrow \infty$. Если $x(t)-$ шроцесс с дискретным временем, эти оценки можно записать в виде
+
+\[
+\frac{1}{2 \pi} \sum_{t=-T+1}^{T-1} e^{-i t \lambda} r^{*}(t) c_{T}(t),
+\]
+
+где эмпирическая корреляционная функция
+
+\[
+r^{*}(t)=\frac{1}{T} \sum_{u=0}^{T-t} x(u+t) x(u),
+\]
+
+а неслучайные коэффициенты $c_{T}(t)$ определяются выбором $\psi, a_{T}$. Последниї выбор, в свою очередь, зависит от априорных сведений о $f(\lambda)$. Аналогичное іредставление имеет место и для процессов с непрерывным временем.
+
+Иногда к задачам статистич. анализа стационарных процессов относят іI задачи әкстраполяции, интерполяции и фильтрации стационарных процессов.
+
+С т а т истические с к и х п р о ц е с с о в. Пусть наблюдения $X_{0}, X_{1}$, ..., $X_{T}$ связаны в однородную цепь Маркова. IIри достаточно широких іредположениях функция правдоподобия
+
+\[
+\frac{d P_{\theta}^{T}}{d \mu^{T}}=p_{0}\left(X_{0} ; \theta\right) p\left(X_{1} \mid X_{0} ; \theta\right) \ldots p\left(X_{T} \mid X_{T-1}, \theta\right)
+\] где $p_{0}, p$ - начальная и переходная плотности распределения. Это выражение сходно с функцией правдоподобия для последовательности независимых наблюдений и при соблюдении условий регулярности (гладкость по $\left.\theta \in \Theta \subset R^{k}\right)$ можно построить теорию оценивания и проверки гипотез, аналогичную соответствующей теории для независимых наблюдений.
+
+Более сложная ситуация возникает, если $x(t)-$ марковский процесс с непрерывным временем. Пусть $x(t)$ - однородный марковский процесс с конечным числом состояний $N$ и диффференцируемыми вероятностями перехода $P_{i j}(t)$. Матрица вероятностей перехода определяется матрицей $Q=\left\|q_{i j}\right\|, q_{i j}=P_{i j}^{\prime}(0), q_{i}=-q_{i i}$. Пусть в начальный момент $x(0)=i_{0}$ независимо от $Q$. Выбирая какую-нибудь матрицу $Q_{0}=\left\|q_{i j}^{0}\right\|$, находят
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_ac332bf9521450ef7396g-1.jpg?height=119&amp;width=702&amp;top_left_y=645&amp;top_left_x=150)
+$\times \exp \left\{t_{v}\left(q_{i_{n}}-q_{i_{v}}-q_{i_{v}}^{0}+q_{i_{n}}^{0}\right)\right\}$.
+
+Здесь статистики $n(x), t_{v}(x), j v(x)$ определяются следующим образом: $n$ - это число скачков $x(t)$ на интервале $[0, T), \tau_{v}-$ момент $v$-го скачка, $t_{v}=\tau_{v+1}-\tau_{v}$, $z_{v}=x\left(\tau_{v}\right)$. Из указанного выражения выводятся оценки максимального правдоподобия для параметров $q_{i j}$ : $: q_{i j}^{*}=\frac{m_{i j}}{\mu_{i}}$, где $m_{i j}-$ число переходов из $i$ в $j$ на отрезке $[0, T)$, а $\mu_{i}$ - время, проведенное процессом $x(t)$ в состоянии $i$.
+
+П р и м е 9. Пусть $x(t)$ - рождения и гибели процесс с постоянными интенсивностями размножения $\lambda$ и гибели $\mu$. Это значит, что $q_{i, i+1}=i \lambda, q_{i, i-1}=i \mu, q_{i i}=$ $=1-i(\lambda+\mu), q_{i j}=0$, если $|i-j|&gt;1$. В этом примере число состояний бесконечно. Пусть $x(0) \equiv 1$. Отношение правдоподобия
+
+\[
+\begin{gathered}
+\frac{d P_{\lambda \mu}^{T}}{d P_{\lambda_{0}}^{T}, \mu_{0}}(x)= \\
+=\left(\frac{\lambda}{\lambda_{0}}\right)^{B}\left(\frac{\mu}{\mu_{0}}\right)^{D} \exp \left\{-\left(\lambda+\mu-\lambda_{0}-\mu_{0}\right) \int_{0}^{T} x(s) d s\right\} .
+\end{gathered}
+\]
+
+Здесь $B$ - общее число рождений (скачков размера $+1), \quad D$ - смертей (скачков размера -1). Оденки максимума правдоподобия для $\lambda$ и $\mu$ :
+
+\[
+\lambda_{T}^{*}=\frac{1}{B} \int_{0}^{T} x(s) d s, \quad \mu_{T}^{*}=\frac{1}{D} \int_{0}^{T} x(s) d s .
+\]
+
+Пусть $x(t)$ - дифффуионный процесс с коэффициентом сноса $a$ и коэффициентом диффузии $b$, так тто $x(t)$ удовлетворяет следующему стохастическому дифференциальному уравнению
+
+$d x(t)=a(t, x(t)) d t+b(t, x(t)) d w(t), x(0)=x_{0}$, где $w$ - винеровский процесс. Тогда при определенных ограничениях
+
+\[
+\begin{gathered}
+\frac{d P_{a, b}^{T}}{d P_{a_{0} b}^{T}}(x)=\exp \left\{-\int_{0}^{T}\left(b(t, x(t))^{-1}(a(t, x(t))-\right.\right. \\
+-a_{0}(t, x(t)) d x(t)+\frac{1}{2} \int_{0}^{T}\left(b(t, x(t))^{-1}(a(t, x(t)-\right. \\
+\left.-a_{0}(t, x(t))^{2} d t\right\}
+\end{gathered}
+\]
+
+(здесь $a_{0}$ - фиксированный коэфффициент).
+
+П ри м е р 10. Пусть
+
+\[
+d x(t)=a(t, x(t) ; \theta) d t+d w,
+\]
+
+$a$ - известная функция, $\theta$ - неизвестный действи. тельный параметр. Если обозначить через $\mu$ меру Винера, то функция правдоподобия
+
+$\frac{d P_{\theta}^{T}}{d \mu}=\exp \left\{\int_{0}^{T} a(t, x(t) ; \theta) d x-\frac{1}{2} \int_{0}^{T} a^{2}(t, x(t) ; \theta) d t\right.$,
+
+и при условиях регулярности выполняется н е р а в е нс т в о K р а м е р а - $\mathrm{P}$ а о: для оценки $\tau$ со смещением $\Delta(\theta)=E_{\theta} \tau-\theta$
+
+\[
+\mathrm{E}_{\theta}|\tau-\theta|^{2} \geqslant \frac{\left(1+\frac{d \Delta}{d \theta}\right)^{2}}{\mathrm{E}_{\theta} \int_{0}^{T}\left[\frac{\partial}{\partial \theta} a(t, x(t) ; \theta)\right]^{2} d t}+\Delta^{2}(\theta) .
+\]
+
+Если зависимость от $\theta$ линейная, оценки максимального правдоподобия
+
+\[
+\left.\theta_{T}^{*}=\int_{0}^{T} a(t, x(t)) d t\left(\int_{0}^{T} a^{2}(t, x(t)) d t\right)\right)^{-1} .
+\]
+
+Jium.: [1] Г р е н а нд е р У., Случайные процессы и статистические выводы, пер. с англ., М., 1961; [2] X е н н а н Э.,
+Анализ временных рядов, пер. с англ., М., 1964; [3] G r е n a nd e r U., R os e n b a t t M., Statistical analysis of stationary time series, Stockh., 1956; [4] G r e n a n d e r U., Abstract inference, N. Y., 1981; [5]' Р о з а н о в Ю. А., Га́уссовские бесконечномерные распределения, М., 1968 (Тр. матем. ин-та им. Стеклова, т. 108); [6] И бр а гим о в И. А., Р о з а н о в Ю. А., Гауссовские случайные процессы, М., 1970; [7] Бр и л Л и н д ж е p Д., Временные ряды, пер. c англ., M.,
+1980 ; [8] B i l l i n g s le y P., Statistical inference for Markov processes, Chi., 1961; [9] ЈI и п ц е p P. III., III и р я е в А. Н., Статистика случайных процессов, М., $1974 ;[10]$ Я г ло м А. M., 1981; [11] А н д е р с о н Т., Статистический анализ временных рядов, пер. с англ., М., 1976 . И. А. Ибрагимов.</text_orig>
+</article>

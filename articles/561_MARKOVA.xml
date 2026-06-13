@@ -1,0 +1,428 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/561_MARKOVA" alphabetic_pos="561">
+  <title>МАРКОВА ЦЕПЬ</title>
+  <authors/>
+  <pages>
+    <start>260</start>
+    <end>261</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] M a p к о R A. А., &quot;изв. Петерб. Ан» (6), 1907, т. 1, № 3, c. 61-80; [2] Д у б Д ж., Вероятностные процессы, пер. с англ., М., 1956; [3] Ч ж у Н К а й - л а й, Однородные цепи Маркова, пер. с англ., М., 1964; тения е л л е р В., Ввет. 1, M.,1967.</literature_orig>
+    <unit>
+      <author>Mapко R A. А.</author>
+      <title>&quot;изв. Петерб. Ан» (6)</title>
+      <publication/>
+      <year>1907</year>
+      <other>т. 1, № 3, c. 61-80</other>
+    </unit>
+    <unit>
+      <title>Д у б Д ж., Вероятностные процессы</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1956</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Ч ж у Н К а й - л а й, Однородные цепи Маркова</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1964</year>
+      <other>Ввет. 1, M., 1967.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/561_1_MARKOVA">\begin{aligned}\mathbf{P}\{\xi(t) &amp; \left.=j \mid \xi\left(t_{1}\right)=i_{1}, \ldots, \xi\left(t_{k}\right)=i_{k}\right\}= \\&amp; =\mathbf{P}\left\{\xi(t)=j \mid \xi\left(t_{k}\right)=i_{k}\right\} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_2_MARKOVA">\begin{gathered}\mathbf{P}\{A \cap B \mid \xi(t)=j\}= \\=\mathbf{P}\{A \mid \xi(t)=j\} \mathbf{P}\{B \mid \xi(t)=j\} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_3_MARKOVA">\mathrm{P}\{\xi(t+1)=j \mid \xi(t)=i\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_4_MARKOVA">p_{i j}=\mathbf{P}\{\xi(t+1)=j \mid \xi(t)=i\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_5_MARKOVA">\begin{aligned}&amp; \mathbf{P}\left\{\xi(k)=i_{k}, k=0,1, \ldots, t\right\}= \\&amp; =\mathbf{P}\left\{\xi(0)=i_{0}\right\} \prod_{k=1}^{t} p_{i_{k-1} i_{k}}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_6_MARKOVA">p_{i j}(t)=\mathbf{P}\left\{\xi\left(t_{0}+t\right)=j \mid \xi\left(t_{0}\right)=i\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_7_MARKOVA">p_{i j}\left(t_{1}+t_{\mathbf{2}}\right)=\sum_{k} p_{i k}\left(t_{1}\right) p_{k j}\left(t_{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_8_MARKOVA">\lim _{T \rightarrow \infty} \frac{1}{T+1} \sum_{t=0}^{T} p_{i j}(t)=p_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_9_MARKOVA">\lim _{t \rightarrow \infty} p_{i j}(t)=p_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_10_MARKOVA">\sum_{t} p_{i i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_11_MARKOVA">\eta_{t}=\sum_{u=0}^{t} f(\xi(u))</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_12_MARKOVA">\lim _{t \rightarrow \infty} \mathrm{P}\left\{\frac{\eta_{t}-A t}{\sqrt{B t}}&lt;x\right\}=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\mathcal{c}} e^{-u^{2} / 2} d u</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_13_MARKOVA">\frac{d p_{i j}(t)}{d t}=\sum_{k} p_{i k}(t) q_{k j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_14_MARKOVA">\frac{d p_{i j}(t)}{d t}=\sum_{k} q_{i k} p_{k j}(t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_15_MARKOVA">q_{i, i+1}=\lambda, \quad 0 \leqslant i&lt;n, \quad q_{i, i-1}=i \mu, \quad 1 \leqslant i \leqslant n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_16_MARKOVA">q_{i i}=-(\lambda+i \mu), \quad 0 \leqslant i \leqslant n, \quad q_{n n}=-n \mu, \quad q_{i j}=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/561_17_MARKOVA">\begin{aligned}&amp; p_{i}=\left(\frac{\lambda}{\mu}\right)^{i} \frac{1}{i !} / \sum_{k=0}^{n}\left(\frac{\lambda}{\mu}\right)^{k} \frac{1}{k !}, i=0,1, \ldots, n, \\&amp; p_{i}=0, \quad i&gt;n,\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_1_MARKOVA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_2_MARKOVA">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_3_MARKOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_4_MARKOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_5_MARKOVA">t, j \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_6_MARKOVA">t_{1}&lt;t_{2}&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_7_MARKOVA">&lt;. .&lt;t_{k}&lt;t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_8_MARKOVA">i_{1}, i_{2}, \ldots, i_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_9_MARKOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_10_MARKOVA">\{\xi(t)=j\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_11_MARKOVA">\boldsymbol{\xi}(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_12_MARKOVA">u&lt;t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_13_MARKOVA">\xi(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_14_MARKOVA">u&gt;t,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_15_MARKOVA">t \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_16_MARKOVA">\xi(t)=j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_17_MARKOVA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_18_MARKOVA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_19_MARKOVA">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_20_MARKOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_21_MARKOVA">\mathbf{p}=\left\|p_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_22_MARKOVA">p_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_23_MARKOVA">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_24_MARKOVA">\xi(k)=i_{k}, k=0,1, \ldots, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_25_MARKOVA">p_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_26_MARKOVA">\mathbf{p}\{\xi(0)=i\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_27_MARKOVA">p_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_28_MARKOVA">p_{i j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_29_MARKOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_30_MARKOVA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_31_MARKOVA">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_32_MARKOVA">t_{1}&gt;0, t_{2}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_33_MARKOVA">p_{i j}\left(t_{1}\right)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_34_MARKOVA">p_{j i}\left(t_{2}\right)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_35_MARKOVA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_36_MARKOVA">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_37_MARKOVA">p_{k l}\left(t_{1}\right)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_38_MARKOVA">t_{1} \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_39_MARKOVA">p_{l k}(t) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_40_MARKOVA">t \in N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_41_MARKOVA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_42_MARKOVA">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_43_MARKOVA">p_{i j}(t) \equiv 0, p_{j i}(t) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_44_MARKOVA">\sum_{j} p_{j}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_45_MARKOVA">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_46_MARKOVA">t \geqslant t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_47_MARKOVA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_48_MARKOVA">j p_{i j}(t)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_49_MARKOVA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_50_MARKOVA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_51_MARKOVA">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_52_MARKOVA">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_53_MARKOVA">p_{i j}(t) \rightarrow 0, t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_54_MARKOVA">f(\cdot)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_55_MARKOVA">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_56_MARKOVA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_57_MARKOVA">b&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_58_MARKOVA">\mathrm{d} \eta_{t} \sim B t, \quad t \rightarrow \infty, B&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_59_MARKOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_60_MARKOVA">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_61_MARKOVA">\left.\frac{d p_{i j}(t)}{d t}\right|_{t=0}=q_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_62_MARKOVA">p_{i j}(0)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_63_MARKOVA">=\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_64_MARKOVA">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_65_MARKOVA">\mathrm{p}\{\xi(t)=i\}=p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_66_MARKOVA">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_67_MARKOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_68_MARKOVA">\left\{p_{i}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_69_MARKOVA">m|m| n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_70_MARKOVA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_71_MARKOVA">0,1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_72_MARKOVA">|i-j|&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_73_MARKOVA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/561_74_MARKOVA">\mu^{-1}</formula>
+  </formulas_aux>
+  <relations n="16">
+    <relation uri="http://libmeta.ru/me/relation/561_1_MARKOVA">
+      <rel_text>Маркова цепи нулевой класс состояний</rel_text>
+      <target>http://libmeta.ru/me/article/559_MARKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_2_MARKOVA">
+      <rel_text>Маркова цепи положительный класс состолний</rel_text>
+      <target>http://libmeta.ru/me/article/560_MARKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_3_MARKOVA">
+      <rel_text>Маркова цепь</rel_text>
+      <target>http://libmeta.ru/me/article/561_MARKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_4_MARKOVA">
+      <rel_text>неразложимая</rel_text>
+      <target>http://libmeta.ru/me/article/973_NERAVENSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_5_MARKOVA">
+      <rel_text>Маркова цепь</rel_text>
+      <target>http://libmeta.ru/me/article/561_MARKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_6_MARKOVA">
+      <rel_text>Переход с запрещениями</rel_text>
+      <target>http://libmeta.ru/me/article/241_PEREHOD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_7_MARKOVA">
+      <rel_text>Стохастическая матрица</rel_text>
+      <target>http://libmeta.ru/me/article/246_STOHASTIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_8_MARKOVA">
+      <rel_text>Маркова цепь</rel_text>
+      <target>http://libmeta.ru/me/article/561_MARKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_9_MARKOVA">
+      <rel_text>сложнал</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_10_MARKOVA">
+      <rel_text>Маркова цепь</rel_text>
+      <target>http://libmeta.ru/me/article/561_MARKOVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_11_MARKOVA">
+      <rel_text>стационарное распределение</rel_text>
+      <target>http://libmeta.ru/me/article/204_STATsIONARNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_12_MARKOVA">
+      <rel_text>среднее</rel_text>
+      <target>http://libmeta.ru/me/article/165_SREDNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_13_MARKOVA">
+      <rel_text>системе</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_14_MARKOVA">
+      <rel_text>системе</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_15_MARKOVA">
+      <rel_text>распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/561_16_MARKOVA">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>марковский процесс с конечным или счетным множеством состояний. Теория М. ц. возникла на основе исследований А. А. Маркова, к-рый в 1907 положил начало изучению последовательностей зависимых испытаний и связанных с ними сумм случайных величин [1]. Пусть пространство состояний - множество натуральных чисел $URI[[http://libmeta.ru/me/formula/aux/561_1_MARKOVA]]/URI$ или его конечное подмножество. Пусть $URI[[http://libmeta.ru/me/formula/aux/561_2_MARKOVA]]/URI$ - состояние М. ц. в момент времени $URI[[http://libmeta.ru/me/formula/aux/561_3_MARKOVA]]/URI$. Основным для М. Ц. является марковское свойство, к-рое для М. ц. с дискретным временем (т. е. в случае, когда время $URI[[http://libmeta.ru/me/formula/aux/561_4_MARKOVA]]/URI$ принимает лишь целые неотрицательные значения) определяется следующим образом: для любых $URI[[http://libmeta.ru/me/formula/aux/561_5_MARKOVA]]/URI$, любых целых неотрицательных $URI[[http://libmeta.ru/me/formula/aux/561_6_MARKOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/561_7_MARKOVA]]/URI$ и любых натуральных $URI[[http://libmeta.ru/me/formula/aux/561_8_MARKOVA]]/URI$ имеет место равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_1_MARKOVA]]/URI
+\]
+
+Марковское свойство (1) можно переформулировать следующим образом. Момент времени $URI[[http://libmeta.ru/me/formula/aux/561_9_MARKOVA]]/URI$ и связанные с ним события вида $URI[[http://libmeta.ru/me/formula/aux/561_10_MARKOVA]]/URI$ назовем «настоящим» процесса; события, определяемые значениями $URI[[http://libmeta.ru/me/formula/aux/561_11_MARKOVA]]/URI$ c $URI[[http://libmeta.ru/me/formula/aux/561_12_MARKOVA]]/URI$, - «прошлым» процесса; события, определяемые значениями $URI[[http://libmeta.ru/me/formula/aux/561_13_MARKOVA]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/561_14_MARKOVA]]/URI$ «будущим» процесса. Тогда свойство (1) равносильно следующему: для любого $URI[[http://libmeta.ru/me/formula/aux/561_15_MARKOVA]]/URI$ при фиксированном «настоящем» $URI[[http://libmeta.ru/me/formula/aux/561_16_MARKOVA]]/URI$ любые «прошлое» $URI[[http://libmeta.ru/me/formula/aux/561_17_MARKOVA]]/URI$ и «будущее» $URI[[http://libmeta.ru/me/formula/aux/561_18_MARKOVA]]/URI$ события условно. независимы, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_2_MARKOVA]]/URI
+\]
+
+Для вероятностного описания М. ц. $URI[[http://libmeta.ru/me/formula/aux/561_19_MARKOVA]]/URI$ большую роль играют переходные вероятности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_3_MARKOVA]]/URI
+\]
+
+В случае, когда переходные вероятности (2) не зависят от $URI[[http://libmeta.ru/me/formula/aux/561_20_MARKOVA]]/URI$, М. ц. наз. о д н о р о д н й (во времени); в противном случае - не о д н о р о д н о й. Далее рассматриваются лишь однородные М. ц. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_4_MARKOVA]]/URI
+\]
+
+Матрица $URI[[http://libmeta.ru/me/formula/aux/561_21_MARKOVA]]/URI$ с әлементами $URI[[http://libmeta.ru/me/formula/aux/561_22_MARKOVA]]/URI$ наз. м а т $URI[[http://libmeta.ru/me/formula/aux/561_23_MARKOVA]]/URI$ и це й п е р е ходны х в е р я т нос т е й. Вероятность любой траектории $URI[[http://libmeta.ru/me/formula/aux/561_24_MARKOVA]]/URI$, выражается через переходные вероятности $URI[[http://libmeta.ru/me/formula/aux/561_25_MARKOVA]]/URI$ и начальное распределение $URI[[http://libmeta.ru/me/formula/aux/561_26_MARKOVA]]/URI$ следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_5_MARKOVA]]/URI
+\]
+
+Наряду с переходными вероятностями $URI[[http://libmeta.ru/me/formula/aux/561_27_MARKOVA]]/URI$ в М. ц. рассматриваются также переходные вероятности $URI[[http://libmeta.ru/me/formula/aux/561_28_MARKOVA]]/URI$ за $URI[[http://libmeta.ru/me/formula/aux/561_29_MARKOVA]]/URI$ шагов:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_6_MARKOVA]]/URI
+\]
+
+Эти переходные вероятности удовлетворяют Колмогорова-Чепмена уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_7_MARKOVA]]/URI
+\]
+
+С помощью переходных вероятностей можно произвести следующую классификацию состояниї. Два состояния $URI[[http://libmeta.ru/me/formula/aux/561_30_MARKOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/561_31_MARKOVA]]/URI$ наз. с о о б щ а ю щ им и с я, если найдутся такие $URI[[http://libmeta.ru/me/formula/aux/561_32_MARKOVA]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/561_33_MARKOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/561_34_MARKOVA]]/URI$. Состояние $URI[[http://libmeta.ru/me/formula/aux/561_35_MARKOVA]]/URI$ наз. н е с у щ е с т в е н ны м, если найдется такое состояние $URI[[http://libmeta.ru/me/formula/aux/561_36_MARKOVA]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/561_37_MARKOVA]]/URI$ для нек-рого $URI[[http://libmeta.ru/me/formula/aux/561_38_MARKOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/561_39_MARKOVA]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/561_40_MARKOVA]]/URI$. Все остальные состояния наз. с у е с т в е ны ми. Таким образом, все множество состояний М. ц. разбивается на несущественные и существенные состояния. Множество всех существенных состояний разбивается на непересекающиеся классы сообщающихся состояний так, что любые два состояния из одного класса сообщаются между собой, а для любых двух состояний $URI[[http://libmeta.ru/me/formula/aux/561_41_MARKOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/561_42_MARKOVA]]/URI$ из разных классов $URI[[http://libmeta.ru/me/formula/aux/561_43_MARKOVA]]/URI$. М. ц., все состояния к-рой составляют один класс сообщающихся состояний, наз. н е р а 3 л о ж м о й (см. URI[[http://libmeta.ru/me/relation/561_5_MARKOVA]]/URI URI[[http://libmeta.ru/me/relation/561_4_MARKOVA]]/URI); в противном случае М. ц. наз. раз ло ж и о й (см. URI[[http://libmeta.ru/me/relation/561_3_MARKOVA]]/URI разложимая). Если множество состояний конечно, то разбиение его на эти классы в значительной степени определяет асимптотич. свойства М. ц. Напр., для конечной неразложимой М. ц. всегда существует предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_8_MARKOVA]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/me/formula/aux/561_44_MARKOVA]]/URI$. Если, кроме того, М. ц. н е п е р и од и ч е ск а я, т. е. при нек-ром $URI[[http://libmeta.ru/me/formula/aux/561_45_MARKOVA]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/561_46_MARKOVA]]/URI$ и всех состояний $URI[[http://libmeta.ru/me/formula/aux/561_47_MARKOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/561_48_MARKOVA]]/URI$ (см. также Маркова цепь периодическая), то имеет место более сильное утверждение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_9_MARKOVA]]/URI
+\]
+
+(см. также Маркова чепь эргодическая).
+
+Если множество состояний М. ц. счетно, то ее асимптотич. свойства зависят от более тонких свойств классов сообщающихся состояний. Ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_10_MARKOVA]]/URI
+\]
+
+расходится или сходится сразу для всех состояний данного класса. Класс состояний наз. в о з в р а тн ы м, если для любого состояния $URI[[http://libmeta.ru/me/formula/aux/561_49_MARKOVA]]/URI$ этого класса ряд (5) расходится, и невозвратным, если ряд (5) сходится. В возвратном классе с вероятностью 1 М. ц. возвращается в любое свое состояние, в невозвратном классе вероятность возвращения меньше 1. Еслі среднее время возвращения в возвратном классе конечно, то класс наз. п о л ж и т е л ь н ы м; противном случае класс наз. н у л е в ы м (см. URI[[http://libmeta.ru/me/relation/561_2_MARKOVA]]/URI, URI[[http://libmeta.ru/me/relation/561_1_MARKOVA]]/URI). Если $URI[[http://libmeta.ru/me/formula/aux/561_50_MARKOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/561_51_MARKOVA]]/URI$ принадлежат одному положительному классу состояний, то существует предел (3), а в непериодическом случае и предел (4). Если $URI[[http://libmeta.ru/me/formula/aux/561_52_MARKOVA]]/URI$ принадлежит нулевому классу состояний или несущественно, то $URI[[http://libmeta.ru/me/formula/aux/561_53_MARKOVA]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/561_54_MARKOVA]]/URI$ - действительная функция, определенная на состояниях М. ц. $URI[[http://libmeta.ru/me/formula/aux/561_55_MARKOVA]]/URI$. Если М. ц. неразложима и ее состояния образуют положительный класс, то для сумм
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_11_MARKOVA]]/URI
+\]
+
+справедлива ц е н т р ль н а я п р е де ль н а я т е о р е м a :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_12_MARKOVA]]/URI
+\]
+
+при нек-рых $URI[[http://libmeta.ru/me/formula/aux/561_56_MARKOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/561_57_MARKOVA]]/URI$. Для выполнения (6) достаточно дополнительно потребовать $URI[[http://libmeta.ru/me/formula/aux/561_58_MARKOVA]]/URI$.
+
+Если время $URI[[http://libmeta.ru/me/formula/aux/561_59_MARKOVA]]/URI$ принимает любые значения из $URI[[http://libmeta.ru/me/formula/aux/561_60_MARKOVA]]/URI$, то М. ц. является М. ц. с непрерывным временем, к-рая определяется аналогично с помощью марковского свойства (1). Обычно для М. ц. с непрерывным временем требуют дополнительно, чтобы существовали конечные правые производные $URI[[http://libmeta.ru/me/formula/aux/561_61_MARKOVA]]/URI$, к-рые наз. п ло т н о с т я м ве ро я т нос те й п е р е х о а. Для конечной М. ц. с непрерывным временем из уравнения Колмогорова - Чепмена можно получить две системы ди фф е р е н ц и а л ь н ы ура внени й Колмогоров а:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_13_MARKOVA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_14_MARKOVA]]/URI
+\]
+
+к к-рым присоединяются начальные условия $URI[[http://libmeta.ru/me/formula/aux/561_62_MARKOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/561_63_MARKOVA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/561_64_MARKOVA]]/URI$ - символ Кронекера. При нек-рых дополнительных предположениях системы уравнений (7) и (8) справедливы и для счетных М. ц.
+
+Если М. Д. с непрерывным временем имеет стационарное распределение $URI[[http://libmeta.ru/me/formula/aux/561_65_MARKOVA]]/URI$ (т. е. распределение $URI[[http://libmeta.ru/me/formula/aux/561_66_MARKOVA]]/URI$, не зависящее от времени $URI[[http://libmeta.ru/me/formula/aux/561_67_MARKOVA]]/URI$, то это распределение $URI[[http://libmeta.ru/me/formula/aux/561_68_MARKOVA]]/URI$ удовлетворяет следующей системе линейных уравнений:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_8c3d35762ccbde85ffc9g-1.jpg?height=114&amp;width=462&amp;top_left_y=578&amp;top_left_x=1168)
+
+М. ц. широко используются при решении различных прикладных задач. Напр., в URI[[http://libmeta.ru/me/relation/561_16_MARKOVA]]/URI массового обслуживания для расчета URI[[http://libmeta.ru/me/relation/561_15_MARKOVA]]/URI вероятностей числа занятых приборов в URI[[http://libmeta.ru/me/relation/561_14_MARKOVA]]/URI $URI[[http://libmeta.ru/me/formula/aux/561_69_MARKOVA]]/URI$ с отказами (т. е. в URI[[http://libmeta.ru/me/relation/561_13_MARKOVA]]/URI, состоящей из $URI[[http://libmeta.ru/me/formula/aux/561_70_MARKOVA]]/URI$ приборов с пуассоновским потоком требований и показательным законом времени обслуживания) используется конечная М. ц. с непрерывным временем, состояниями $URI[[http://libmeta.ru/me/formula/aux/561_71_MARKOVA]]/URI$ и со следующими плотностями вероятностей перехода:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_15_MARKOVA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/561_16_MARKOVA]]/URI
+\]
+
+если $URI[[http://libmeta.ru/me/formula/aux/561_72_MARKOVA]]/URI$ (здесь $URI[[http://libmeta.ru/me/formula/aux/561_73_MARKOVA]]/URI$-интенсивность пуассоновского потока требований, $URI[[http://libmeta.ru/me/formula/aux/561_74_MARKOVA]]/URI$ - URI[[http://libmeta.ru/me/relation/561_12_MARKOVA]]/URI время обслуживания). С помощью (9) в этом случае определяется следующее URI[[http://libmeta.ru/me/relation/561_11_MARKOVA]]/URI числа занятых приборов:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/561_17_MARKOVA]]/URI
+\]
+
+к-рое наз. р а с пре де ле нием Ә рл а нга.
+
+См. также URI[[http://libmeta.ru/me/relation/561_10_MARKOVA]]/URI URI[[http://libmeta.ru/me/relation/561_9_MARKOVA]]/URI, URI[[http://libmeta.ru/me/relation/561_8_MARKOVA]]/URI возвратная, Поглощающее состояние, URI[[http://libmeta.ru/me/relation/561_7_MARKOVA]]/URI URI[[http://libmeta.ru/me/relation/561_6_MARKOVA]]/URI.</text>
+  <text_orig>марковский процесс с конечным или счетным множеством состояний. Теория М. ц. возникла на основе исследований А. А. Маркова, к-рый в 1907 положил начало изучению последовательностей зависимых испытаний и связанных с ними сумм случайных величин [1]. Пусть пространство состояний - множество натуральных чисел $N$ или его конечное подмножество. Пусть $\xi(t)$ - состояние М. ц. в момент времени $t$. Основным для М. Ц. является марковское свойство, к-рое для М. ц. с дискретным временем (т. е. в случае, когда время $t$ принимает лишь целые неотрицательные значения) определяется следующим образом: для любых $t, j \in N$, любых целых неотрицательных $t_{1}&lt;t_{2}&lt;$ $&lt;. .&lt;t_{k}&lt;t$ и любых натуральных $i_{1}, i_{2}, \ldots, i_{k}$ имеет место равенство
+
+\[
+\begin{aligned}
+\mathbf{P}\{\xi(t) &amp; \left.=j \mid \xi\left(t_{1}\right)=i_{1}, \ldots, \xi\left(t_{k}\right)=i_{k}\right\}= \\
+&amp; =\mathbf{P}\left\{\xi(t)=j \mid \xi\left(t_{k}\right)=i_{k}\right\} .
+\end{aligned}
+\]
+
+Марковское свойство (1) можно переформулировать следующим образом. Момент времени $t$ и связанные с ним события вида $\{\xi(t)=j\}$ назовем «настоящим» процесса; события, определяемые значениями $\boldsymbol{\xi}(u)$ c $u&lt;t$, - «прошлым» процесса; события, определяемые значениями $\xi(u)$ с $u&gt;t,-$ «будущим» процесса. Тогда свойство (1) равносильно следующему: для любого $t \in N$ при фиксированном «настоящем» $\xi(t)=j$ любые «прошлое» $A$ и «будущее» $B$ события условно. независимы, т. е.
+
+\[
+\begin{gathered}
+\mathbf{P}\{A \cap B \mid \xi(t)=j\}= \\
+=\mathbf{P}\{A \mid \xi(t)=j\} \mathbf{P}\{B \mid \xi(t)=j\} .
+\end{gathered}
+\]
+
+Для вероятностного описания М. ц. $\xi(t)$ большую роль играют переходные вероятности
+
+\[
+\mathrm{P}\{\xi(t+1)=j \mid \xi(t)=i\} .
+\]
+
+В случае, когда переходные вероятности (2) не зависят от $t$, М. ц. наз. о д н о р о д н й (во времени); в противном случае - не о д н о р о д н о й. Далее рассматриваются лишь однородные М. ц. Пусть
+
+\[
+p_{i j}=\mathbf{P}\{\xi(t+1)=j \mid \xi(t)=i\} .
+\]
+
+Матрица $\mathbf{P}=\left\|p_{i j}\right\|$ с әлементами $p_{i j}$ наз. м а т $\mathbf{p}$ и це й п е р е ходны х в е р я т нос т е й. Вероятность любой траектории $\xi(k)=i_{k}, k=0,1, \ldots, t$, выражается через переходные вероятности $p_{i j}$ и начальное распределение $\mathbf{P}\{\xi(0)=i\}$ следующим образом:
+
+\[
+\begin{aligned}
+&amp; \mathbf{P}\left\{\xi(k)=i_{k}, k=0,1, \ldots, t\right\}= \\
+&amp; =\mathbf{P}\left\{\xi(0)=i_{0}\right\} \prod_{k=1}^{t} p_{i_{k-1} i_{k}}
+\end{aligned}
+\]
+
+Наряду с переходными вероятностями $p_{i j}$ в М. ц. рассматриваются также переходные вероятности $p_{i j}(t)$ за $t$ шагов:
+
+\[
+p_{i j}(t)=\mathbf{P}\left\{\xi\left(t_{0}+t\right)=j \mid \xi\left(t_{0}\right)=i\right\} .
+\]
+
+Эти переходные вероятности удовлетворяют Колмогорова-Чепмена уравнению
+
+\[
+p_{i j}\left(t_{1}+t_{\mathbf{2}}\right)=\sum_{k} p_{i k}\left(t_{1}\right) p_{k j}\left(t_{2}\right) .
+\]
+
+С помощью переходных вероятностей можно произвести следующую классификацию состояниї. Два состояния $i$ и $j$ наз. с о о б щ а ю щ им и с я, если найдутся такие $t_{1}&gt;0, t_{2}&gt;0$, что $p_{i j}\left(t_{1}\right)&gt;0$ и $p_{j i}\left(t_{2}\right)&gt;0$. Состояние $k$ наз. н е с у щ е с т в е н ны м, если найдется такое состояние $l$, что $p_{k l}\left(t_{1}\right)&gt;0$ для нек-рого $t_{1} \geqslant 1$ и $p_{l k}(t) \equiv 0$ для всех $t \in N$. Все остальные состояния наз. с у е с т в е ны ми. Таким образом, все множество состояний М. ц. разбивается на несущественные и существенные состояния. Множество всех существенных состояний разбивается на непересекающиеся классы сообщающихся состояний так, что любые два состояния из одного класса сообщаются между собой, а для любых двух состояний $i$ и $j$ из разных классов $p_{i j}(t) \equiv 0, p_{j i}(t) \equiv 0$. М. ц., все состояния к-рой составляют один класс сообщающихся состояний, наз. н е р а 3 л о ж м о й (см. Маркова цепь неразложимая); в противном случае М. ц. наз. раз ло ж и о й (см. Маркова цепь разложимая). Если множество состояний конечно, то разбиение его на эти классы в значительной степени определяет асимптотич. свойства М. ц. Напр., для конечной неразложимой М. ц. всегда существует предел
+
+\[
+\lim _{T \rightarrow \infty} \frac{1}{T+1} \sum_{t=0}^{T} p_{i j}(t)=p_{j}
+\]
+
+причем $\sum_{j} p_{j}=1$. Если, кроме того, М. ц. н е п е р и од и ч е ск а я, т. е. при нек-ром $t_{0}$ для всех $t \geqslant t_{0}$ и всех состояний $i$ и $j p_{i j}(t)&gt;0$ (см. также Маркова цепь периодическая), то имеет место более сильное утверждение
+
+\[
+\lim _{t \rightarrow \infty} p_{i j}(t)=p_{j}
+\]
+
+(см. также Маркова чепь эргодическая).
+
+Если множество состояний М. ц. счетно, то ее асимптотич. свойства зависят от более тонких свойств классов сообщающихся состояний. Ряд
+
+\[
+\sum_{t} p_{i i}(t)
+\]
+
+расходится или сходится сразу для всех состояний данного класса. Класс состояний наз. в о з в р а тн ы м, если для любого состояния $i$ этого класса ряд (5) расходится, и невозвратным, если ряд (5) сходится. В возвратном классе с вероятностью 1 М. ц. возвращается в любое свое состояние, в невозвратном классе вероятность возвращения меньше 1. Еслі среднее время возвращения в возвратном классе конечно, то класс наз. п о л ж и т е л ь н ы м; противном случае класс наз. н у л е в ы м (см. Маркова цепи положительный класс состолний, Маркова цепи нулевой класс состояний). Если $i$ и $j$ принадлежат одному положительному классу состояний, то существует предел (3), а в непериодическом случае и предел (4). Если $j$ принадлежит нулевому классу состояний или несущественно, то $p_{i j}(t) \rightarrow 0, t \rightarrow \infty$.
+
+Пусть $f(\cdot)$ - действительная функция, определенная на состояниях М. ц. $\xi(t)$. Если М. ц. неразложима и ее состояния образуют положительный класс, то для сумм
+
+\[
+\eta_{t}=\sum_{u=0}^{t} f(\xi(u))
+\]
+
+справедлива ц е н т р ль н а я п р е де ль н а я т е о р е м a :
+
+\[
+\lim _{t \rightarrow \infty} \mathrm{P}\left\{\frac{\eta_{t}-A t}{\sqrt{B t}}&lt;x\right\}=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\mathcal{c}} e^{-u^{2} / 2} d u
+\]
+
+при нек-рых $A$ и $B&gt;0$. Для выполнения (6) достаточно дополнительно потребовать $\mathrm{D} \eta_{t} \sim B t, \quad t \rightarrow \infty, B&gt;0$.
+
+Если время $t$ принимает любые значения из $[0, \infty)$, то М. ц. является М. ц. с непрерывным временем, к-рая определяется аналогично с помощью марковского свойства (1). Обычно для М. ц. с непрерывным временем требуют дополнительно, чтобы существовали конечные правые производные $\left.\frac{d p_{i j}(t)}{d t}\right|_{t=0}=q_{i j}$, к-рые наз. п ло т н о с т я м ве ро я т нос те й п е р е х о а. Для конечной М. ц. с непрерывным временем из уравнения Колмогорова - Чепмена можно получить две системы ди фф е р е н ц и а л ь н ы ура внени й Колмогоров а:
+
+\[
+\frac{d p_{i j}(t)}{d t}=\sum_{k} p_{i k}(t) q_{k j}
+\]
+
+\[
+\frac{d p_{i j}(t)}{d t}=\sum_{k} q_{i k} p_{k j}(t),
+\]
+
+к к-рым присоединяются начальные условия $p_{i j}(0)=$ $=\delta_{i j}$, где $\delta_{i j}$ - символ Кронекера. При нек-рых дополнительных предположениях системы уравнений (7) и (8) справедливы и для счетных М. ц.
+
+Если М. Д. с непрерывным временем имеет стационарное распределение $\mathrm{P}\{\xi(t)=i\}=p_{i}$ (т. е. распределение $\xi(t)$, не зависящее от времени $t$, то это распределение $\left\{p_{i}\right\}$ удовлетворяет следующей системе линейных уравнений:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_8c3d35762ccbde85ffc9g-1.jpg?height=114&amp;width=462&amp;top_left_y=578&amp;top_left_x=1168)
+
+М. ц. широко используются при решении различных прикладных задач. Напр., в теории массового обслуживания для расчета распределения вероятностей числа занятых приборов в системе $M|M| n$ с отказами (т. е. в системе, состоящей из $n$ приборов с пуассоновским потоком требований и показательным законом времени обслуживания) используется конечная М. ц. с непрерывным временем, состояниями $0,1, \ldots, n$ и со следующими плотностями вероятностей перехода:
+
+\[
+q_{i, i+1}=\lambda, \quad 0 \leqslant i&lt;n, \quad q_{i, i-1}=i \mu, \quad 1 \leqslant i \leqslant n,
+\]\[
+q_{i i}=-(\lambda+i \mu), \quad 0 \leqslant i \leqslant n, \quad q_{n n}=-n \mu, \quad q_{i j}=0,
+\]
+
+если $|i-j|&gt;1$ (здесь $\lambda$-интенсивность пуассоновского потока требований, $\mu^{-1}$ - среднее время обслуживания). С помощью (9) в этом случае определяется следующее стационарное распределение числа занятых приборов:
+
+\[
+\begin{aligned}
+&amp; p_{i}=\left(\frac{\lambda}{\mu}\right)^{i} \frac{1}{i !} / \sum_{k=0}^{n}\left(\frac{\lambda}{\mu}\right)^{k} \frac{1}{k !}, i=0,1, \ldots, n, \\
+&amp; p_{i}=0, \quad i&gt;n,
+\end{aligned}
+\]
+
+к-рое наз. р а с пре де ле нием Ә рл а нга.
+
+См. также Маркова цепь сложнал, Маркова цепь возвратная, Поглощающее состояние, Стохастическая матрица Переход с запрещениями.
+
+Лum.: [1] M a p к о R A. А., &quot;Изв. Петерб. АН» (6), 1907, т. 1, № 3, c. 61-80; [2] Д у б Д ж., Вероятностные процессы, пер. с англ., М., 1956; [3] Ч ж у Н К а й - л а й, Однородные цепи Маркова, пер. с англ., М., 1964; тения е л л е р В., Ввет. 1, M.,1967.</text_orig>
+</article>

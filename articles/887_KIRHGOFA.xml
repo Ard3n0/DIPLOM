@@ -1,0 +1,381 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/887_KIRHGOFA" alphabetic_pos="887">
+  <title>КИРХГОФА ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>431</start>
+    <end>432</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Б и ц а Д з е А. В., Уравнения математической физики, М., 1976; [2] В л а д и м и р o в B. С., Уравнения Partial Differential equations of Mathematical Physics, $\mathbf{n}, \mathbf{Y}$, 1944, Camb., 1959; [4] M a t $h$ is s o n M., &quot;math. Ann.&quot;, 1932, Bd 107, S. 400-19; [5] e r o ж e, &quot;acta Math.&quot;, 1939, v. 71, № 3-4, p. 249-82; [6] М и х л и н С. Г , Линейные уравнения в частных производных, М., 1977; [7] С о б о л е в С. Л., Некоторые применения функционального анализа в математической физике, Новосиб., 1962; [9] С м и р н о в В. И., Курс высшей математики, т. 4, 3 изд., М., 1957; [10] Т и х оской физики, 4 изд., М., 1972. А., Уравнения математиче-ско. М. Нахушев.</literature_orig>
+    <unit>
+      <author>Бица Дзе А. В.</author>
+      <title>Уравнения математической физики</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Владимирoв B. С.</author>
+      <title>Уравнения Partial Differential equations of Mathematical Physics, $\mathbf{n}, \mathbf{Y}$</title>
+      <publication/>
+      <year>1944</year>
+      <other>Camb., 1959; [4] M a t $h$ is s o n M., &quot;math. Ann.&quot;, 1932, Bd 107, S. 400-19; [5] e r o ж e, &quot;acta Math.&quot;, 1939, v. 71, № 3-4, p. 249-82; [6] М и х л и н С. Г, Линейные уравнения в частных производных, М., 1977; [7] С о б о л е в С. Л., Некоторые применения функционального анализа в математической физике, Новосиб., 1962; [9] С м и р н о в В. И., Курс высшей математики, т. 4, 3 изд., М., 1957; [10] Т и х оской физики, 4 изд., М., 1972. А., Уравнения математиче-ско. М. Нахушев.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/887_1_KIRHGOFA">\begin{gathered}u(x, t)=\frac{1}{4 \pi} \int_{\Omega} \frac{f(y, t-r)}{r} d \Omega_{y}+ \\+\frac{1}{4 \pi} \int_{\sigma}\left[\frac{1}{r} \frac{\partial u}{\partial n}-u \frac{\partial(1 / r)}{\partial n}-1-\frac{1}{r} \frac{\partial u}{\partial \tau} \frac{\partial r}{\partial n}\right]_{\tau=t-r} d \sigma_{y},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_2_KIRHGOFA">u_{t t}-u_{x_{1} x_{1}}-u_{x_{1} x_{2}}-u_{x_{3} x_{3}}=f(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_3_KIRHGOFA">v_{1}(x, t)=\frac{1}{4 \pi} \int_{\Omega} \frac{f(y, t-r)}{r} d \Omega_{y}, y=\left(y_{1}, y_{2}, y_{3}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_4_KIRHGOFA">\begin{gathered}v_{1}(x, t)=\frac{1}{4 \pi} \int_{\sigma} \frac{\mu_{1}(y, t-r)}{r} d \sigma_{y}, \\v_{2}(x, t)=\frac{1}{4 \pi} \int_{\sigma} \frac{\partial^{*}}{\partial^{*} n} \frac{\mu_{2}(y, t-r)}{r} d \sigma_{y},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_5_KIRHGOFA">\frac{\partial^{*}}{\partial^{*} n} \frac{\mu_{2}(y, t-r)}{r}=\frac{1}{r} \frac{\partial r}{\partial n} \frac{\partial \mu_{2}(y, t-r)}{\partial t}-\mu_{2}(y, t-r) \frac{\partial(1 / r)}{\partial n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_6_KIRHGOFA">u(x, t)=v_{1}(x, t)+v_{2}(x, t)+v_{3}(x, t) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_7_KIRHGOFA">\begin{gathered}u(x)=\frac{1}{4 \pi} \int_{\Omega} \frac{f(y)}{r} d \Omega_{y}+ \\+\frac{1}{4 \pi} \int_{\sigma}\left[\frac{1}{r} \frac{\partial u(y)}{\partial n}-u(y) \frac{\partial(1 / r)}{\partial n}\right] d \sigma_{y}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_8_KIRHGOFA">M_{t}[\varphi]=\frac{1}{4 \pi} \int_{|y|=1} \varphi(x+t y) d s_{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_9_KIRHGOFA">\varphi(x)=\left.u\right|_{t=0}, \quad \psi(x)=\left.u_{t}\right|_{t=0} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_10_KIRHGOFA">u(x, t)=t M_{t}[\psi]+\frac{\partial}{\partial t} t M_{t}[\varphi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_11_KIRHGOFA">\Delta u=u_{t t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_12_KIRHGOFA">\sum_{i, j=1}^{m+1} a^{i j}(x) \xi_{i} \xi_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_13_KIRHGOFA">y_{0}^{2}-\sum_{i=1}^{m} y_{i}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_14_KIRHGOFA">u_{t t}-\sum_{i=1}^{m} u_{x_{i} x_{i}}=0, m \equiv 1(\bmod 2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_15_KIRHGOFA">\begin{aligned}&amp; u(y, t)=\gamma \int_{\sigma} \sum_{i=1}^{k}(-1)^{k}\left\{\frac{\partial^{k-i+1}}{\partial n}\left[\frac{\partial^{i-1} u}{\partial t^{i-1}}\right]-\right. \\&amp; \left.-\stackrel{k-i+1}{\varphi}\left[\frac{\partial^{i} u}{\partial n \partial t^{i-1}}\right]-\varphi^{k-i+1} \frac{\partial r}{\partial n}\left[\frac{\partial^{i} u}{\partial t^{i}}\right]\right\} d \sigma_{x}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/887_16_KIRHGOFA">[\psi(x, t)]=\psi_{1}(x, t-r) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_1_KIRHGOFA">\boldsymbol{\gamma} о ф</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_2_KIRHGOFA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_3_KIRHGOFA">x=\left(x_{1}, x_{2}, x_{3}\right) \in \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_4_KIRHGOFA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_5_KIRHGOFA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_6_KIRHGOFA">u(y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_7_KIRHGOFA">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_8_KIRHGOFA">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_9_KIRHGOFA">\tau=t-r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_10_KIRHGOFA">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_11_KIRHGOFA">\sigma, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_12_KIRHGOFA">\sigma, r=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_13_KIRHGOFA">=|x-y|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_14_KIRHGOFA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_15_KIRHGOFA">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_16_KIRHGOFA">v_{1}(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_17_KIRHGOFA">v_{2}(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_18_KIRHGOFA">а</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_19_KIRHGOFA">\mathbf{r} о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_20_KIRHGOFA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_21_KIRHGOFA">u(x, t)=u(x), f(x, t)=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_22_KIRHGOFA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_23_KIRHGOFA">\delta u=-f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_24_KIRHGOFA">\omega-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_25_KIRHGOFA">|y-x| \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_26_KIRHGOFA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_27_KIRHGOFA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_28_KIRHGOFA">u(x, t)=\frac{1}{4 \pi} \int_{r \leqslant t} \frac{f(y, t-r)}{r} d y+t M_{t}[\psi]+\frac{\partial}{\partial t} t M_{t}[\varphi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_29_KIRHGOFA">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_30_KIRHGOFA">|y-x|=t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_31_KIRHGOFA">\varphi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_32_KIRHGOFA">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_33_KIRHGOFA">|x| \leqslant R</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_34_KIRHGOFA">f(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_35_KIRHGOFA">|x|&lt;r, 0 \leqslant t \leqslant R-|x|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_36_KIRHGOFA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_37_KIRHGOFA">|x|&lt;r \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_38_KIRHGOFA">\quad t&lt;R-|x|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_39_KIRHGOFA">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_40_KIRHGOFA">(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_41_KIRHGOFA">x_{1}, x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_42_KIRHGOFA">x_{3}, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_43_KIRHGOFA">\varphi, \partial \varphi / \partial n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_44_KIRHGOFA">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_45_KIRHGOFA">|y-x|=t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_46_KIRHGOFA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_47_KIRHGOFA">|t|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_48_KIRHGOFA">\sum_{i, j=1}^{m+1} a^{i j}(x) u_{x_{i} y_{j}}+\sum_{j=1}^{m+1} b^{j}(x) u_{x_{j}}+c(x) u=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_49_KIRHGOFA">(m+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_50_KIRHGOFA">\omega_{m+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_51_KIRHGOFA">a^{i j}(x), b^{j}(x), c(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_52_KIRHGOFA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_53_KIRHGOFA">x \in \Omega_{m+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_54_KIRHGOFA">m+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_55_KIRHGOFA">x_{1}, \ldots, x_{m+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_56_KIRHGOFA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_57_KIRHGOFA">1 / r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_58_KIRHGOFA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_59_KIRHGOFA">\sigma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_60_KIRHGOFA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_61_KIRHGOFA">\omega_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_62_KIRHGOFA">y, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_63_KIRHGOFA">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_64_KIRHGOFA">\stackrel{i}{\varphi}=\gamma_{i} r^{-k-i+1}, \stackrel{k}{\varphi}=r^{2-m}, r=|y-x| ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_65_KIRHGOFA">\gamma_{i}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_66_KIRHGOFA">i=1, \ldots, k-1 ; k=(m-1) / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_67_KIRHGOFA">[\psi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/887_68_KIRHGOFA">\psi(x, t)</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/887_1_KIRHGOFA">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/887_2_KIRHGOFA">
+      <rel_text>Формулу</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+  </relations>
+  <text>К и р х $URI[[http://libmeta.ru/me/formula/aux/887_1_KIRHGOFA]]/URI$ а и н т е гр а л,- формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_1_KIRHGOFA]]/URI
+\]
+
+которая выражает значение $URI[[http://libmeta.ru/me/formula/aux/887_2_KIRHGOFA]]/URI$ решения неоднородного волнового уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_2_KIRHGOFA]]/URI
+\]
+
+в любой точке $URI[[http://libmeta.ru/me/formula/aux/887_3_KIRHGOFA]]/URI$ в момент времени $URI[[http://libmeta.ru/me/formula/aux/887_4_KIRHGOFA]]/URI$ через 'апаздывающий объемный потенциал
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_3_KIRHGOFA]]/URI
+\]
+
+с плотностью $URI[[http://libmeta.ru/me/formula/aux/887_5_KIRHGOFA]]/URI$ и через значения функции $URI[[http://libmeta.ru/me/formula/aux/887_6_KIRHGOFA]]/URI$ и ее производных 1-го порядка на границе $URI[[http://libmeta.ru/me/formula/aux/887_7_KIRHGOFA]]/URI$ области $URI[[http://libmeta.ru/me/formula/aux/887_8_KIRHGOFA]]/URI$ в момент времени $URI[[http://libmeta.ru/me/formula/aux/887_9_KIRHGOFA]]/URI$. Здесь $URI[[http://libmeta.ru/me/formula/aux/887_10_KIRHGOFA]]/URI$ - ограниченная область трехмерного евклидова пространства с кусочно гладкой границей $URI[[http://libmeta.ru/me/formula/aux/887_11_KIRHGOFA]]/URI$ - внешняя нормаль к $URI[[http://libmeta.ru/me/formula/aux/887_12_KIRHGOFA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/887_13_KIRHGOFA]]/URI$ - расстояние между точками $URI[[http://libmeta.ru/me/formula/aux/887_14_KIRHGOFA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/887_15_KIRHGOFA]]/URI$.
+
+Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_4_KIRHGOFA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_5_KIRHGOFA]]/URI
+\]
+
+Интегралы $URI[[http://libmeta.ru/me/formula/aux/887_16_KIRHGOFA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/887_17_KIRHGOFA]]/URI$ наз. 3 а п а $URI[[http://libmeta.ru/me/formula/aux/887_18_KIRHGOFA]]/URI$ ды в а ющими потенциалами простого и д в о й но $URI[[http://libmeta.ru/me/formula/aux/887_19_KIRHGOFA]]/URI$ с л о е в.
+
+К. Ф. (1) означает, что любое дважды непрерывно дифференцируемое решение $URI[[http://libmeta.ru/me/formula/aux/887_20_KIRHGOFA]]/URI$ уравнения (2) представляется в виде суммы запаздывающих потенциалов простого слоя, двойного слоя и объемного потенциала:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_6_KIRHGOFA]]/URI
+\]
+
+В случае, когда $URI[[http://libmeta.ru/me/formula/aux/887_21_KIRHGOFA]]/URI$ не зависят от $URI[[http://libmeta.ru/me/formula/aux/887_22_KIRHGOFA]]/URI$, К. ф. принимает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_7_KIRHGOFA]]/URI
+\]
+
+и дает решение уравнения Пуассона $URI[[http://libmeta.ru/me/formula/aux/887_23_KIRHGOFA]]/URI$.
+
+К. ф. широко применяется при решении целого ряда задач. Например, если $URI[[http://libmeta.ru/me/formula/aux/887_24_KIRHGOFA]]/URI$ пар $URI[[http://libmeta.ru/me/formula/aux/887_25_KIRHGOFA]]/URI$ радиуса $URI[[http://libmeta.ru/me/formula/aux/887_26_KIRHGOFA]]/URI$ с центром в точке $URI[[http://libmeta.ru/me/formula/aux/887_27_KIRHGOFA]]/URI$, то формула (1) преобразуется в соотнопение
+
+$URI[[http://libmeta.ru/me/formula/aux/887_28_KIRHGOFA]]/URI$,
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_8_KIRHGOFA]]/URI
+\]
+
+- среднее значение функции $URI[[http://libmeta.ru/me/formula/aux/887_29_KIRHGOFA]]/URI$ по поверхности сферы $URI[[http://libmeta.ru/me/formula/aux/887_30_KIRHGOFA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_9_KIRHGOFA]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/887_31_KIRHGOFA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/887_32_KIRHGOFA]]/URI$ - заданные в шаре $URI[[http://libmeta.ru/me/formula/aux/887_33_KIRHGOFA]]/URI$ функции, имеющие непрерывные частные производные 3-го и 2-го порядков соответственно, a $URI[[http://libmeta.ru/me/formula/aux/887_34_KIRHGOFA]]/URI$ дважды непрерывно диффференцируема при $URI[[http://libmeta.ru/me/formula/aux/887_35_KIRHGOFA]]/URI$, то функция $URI[[http://libmeta.ru/me/formula/aux/887_36_KIRHGOFA]]/URI$, заданная формулой (3), является регулярным решением Коши задачи (4) для уравнения (2) при $URI[[http://libmeta.ru/me/formula/aux/887_37_KIRHGOFA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/887_38_KIRHGOFA]]/URI$.
+
+Формула (3) также наз. К. Ф.
+
+К. Ф. в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_10_KIRHGOFA]]/URI
+\]
+
+для волнового уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_11_KIRHGOFA]]/URI
+\]
+
+примечательна тем, что из нее следует Гюйгенса принцun: решение (волна) $URI[[http://libmeta.ru/me/formula/aux/887_39_KIRHGOFA]]/URI$ уравнения (5) в точке $URI[[http://libmeta.ru/me/formula/aux/887_40_KIRHGOFA]]/URI$ пространства независимых переменных $URI[[http://libmeta.ru/me/formula/aux/887_41_KIRHGOFA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/887_42_KIRHGOFA]]/URI$ вполне определяется значениями $URI[[http://libmeta.ru/me/formula/aux/887_43_KIRHGOFA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/887_44_KIRHGOFA]]/URI$ на сфере $URI[[http://libmeta.ru/me/formula/aux/887_45_KIRHGOFA]]/URI$ с центром в точке $URI[[http://libmeta.ru/me/formula/aux/887_46_KIRHGOFA]]/URI$ и радиуса $URI[[http://libmeta.ru/me/formula/aux/887_47_KIRHGOFA]]/URI$.
+
+Пусть дано уравнение н о р м а л ь в о г и п е рбо лич е ско г о т и П а
+
+$URI[[http://libmeta.ru/me/formula/aux/887_48_KIRHGOFA]]/URI$
+
+с достаточно гладкими в нек-рой $URI[[http://libmeta.ru/me/formula/aux/887_49_KIRHGOFA]]/URI$-мерной области $URI[[http://libmeta.ru/me/formula/aux/887_50_KIRHGOFA]]/URI$ коэффициентами $URI[[http://libmeta.ru/me/formula/aux/887_51_KIRHGOFA]]/URI$ и правой частью $URI[[http://libmeta.ru/me/formula/aux/887_52_KIRHGOFA]]/URI$, т. е. уравнение, форма
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_12_KIRHGOFA]]/URI
+\]
+
+к-рого в любой точке $URI[[http://libmeta.ru/me/formula/aux/887_53_KIRHGOFA]]/URI$ с помощью невырожденного линейного преобразования приводится к виду
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_13_KIRHGOFA]]/URI
+\]
+
+К. ф. обобщена на уравнение (6) в случае, когда число $URI[[http://libmeta.ru/me/formula/aux/887_54_KIRHGOFA]]/URI$ независимых переменных $URI[[http://libmeta.ru/me/formula/aux/887_55_KIRHGOFA]]/URI$ четно [4]. При этом супцественным моментом было построение функции $URI[[http://libmeta.ru/me/formula/aux/887_56_KIRHGOFA]]/URI$, обобщающей на случай уравнения (6) ньютоновский потенциал $URI[[http://libmeta.ru/me/formula/aux/887_57_KIRHGOFA]]/URI$. Для частного случая уравнения (6)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_14_KIRHGOFA]]/URI
+\]
+
+обобщенная К. Ф. принимает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_15_KIRHGOFA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/887_58_KIRHGOFA]]/URI$ - некоторое положительное число, $URI[[http://libmeta.ru/me/formula/aux/887_59_KIRHGOFA]]/URI$ кусочно гладкая граница $URI[[http://libmeta.ru/me/formula/aux/887_60_KIRHGOFA]]/URI$-мерной ограниченной области $URI[[http://libmeta.ru/me/formula/aux/887_61_KIRHGOFA]]/URI$, содержащей внутри себя точку $URI[[http://libmeta.ru/me/formula/aux/887_62_KIRHGOFA]]/URI$ - внешняя нормаль к $URI[[http://libmeta.ru/me/formula/aux/887_63_KIRHGOFA]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/887_64_KIRHGOFA]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/887_65_KIRHGOFA]]/URI$ const, $URI[[http://libmeta.ru/me/formula/aux/887_66_KIRHGOFA]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/887_67_KIRHGOFA]]/URI$ означает запаздывающее значение $URI[[http://libmeta.ru/me/formula/aux/887_68_KIRHGOFA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/887_16_KIRHGOFA]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/887_2_KIRHGOFA]]/URI (8) для URI[[http://libmeta.ru/me/relation/887_1_KIRHGOFA]]/URI (6) иногда наз. ф о р м уло й К ирх гоф а - C о б о л е в a.</text>
+  <text_orig>К и р х $\boldsymbol{\Gamma} о ф$ а и н т е гр а л,- формула
+
+\[
+\begin{gathered}
+u(x, t)=\frac{1}{4 \pi} \int_{\Omega} \frac{f(y, t-r)}{r} d \Omega_{y}+ \\
++\frac{1}{4 \pi} \int_{\sigma}\left[\frac{1}{r} \frac{\partial u}{\partial n}-u \frac{\partial(1 / r)}{\partial n}-1-\frac{1}{r} \frac{\partial u}{\partial \tau} \frac{\partial r}{\partial n}\right]_{\tau=t-r} d \sigma_{y},
+\end{gathered}
+\]
+
+которая выражает значение $u(x, t)$ решения неоднородного волнового уравнения
+
+\[
+u_{t t}-u_{x_{1} x_{1}}-u_{x_{1} x_{2}}-u_{x_{3} x_{3}}=f(x, t)
+\]
+
+в любой точке $x=\left(x_{1}, x_{2}, x_{3}\right) \in \Omega$ в момент времени $t$ через 'апаздывающий объемный потенциал
+
+\[
+v_{1}(x, t)=\frac{1}{4 \pi} \int_{\Omega} \frac{f(y, t-r)}{r} d \Omega_{y}, y=\left(y_{1}, y_{2}, y_{3}\right),
+\]
+
+с плотностью $f$ и через значения функции $u(y, t)$ и ее производных 1-го порядка на границе $\sigma$ области $\Omega$ в момент времени $\tau=t-r$. Здесь $\Omega$ - ограниченная область трехмерного евклидова пространства с кусочно гладкой границей $\sigma, n$ - внешняя нормаль к $\sigma, r=$ $=|x-y|$ - расстояние между точками $x$ и $y$.
+
+Пусть
+
+\[
+\begin{gathered}
+v_{1}(x, t)=\frac{1}{4 \pi} \int_{\sigma} \frac{\mu_{1}(y, t-r)}{r} d \sigma_{y}, \\
+v_{2}(x, t)=\frac{1}{4 \pi} \int_{\sigma} \frac{\partial^{*}}{\partial^{*} n} \frac{\mu_{2}(y, t-r)}{r} d \sigma_{y},
+\end{gathered}
+\]
+
+где
+
+\[
+\frac{\partial^{*}}{\partial^{*} n} \frac{\mu_{2}(y, t-r)}{r}=\frac{1}{r} \frac{\partial r}{\partial n} \frac{\partial \mu_{2}(y, t-r)}{\partial t}-\mu_{2}(y, t-r) \frac{\partial(1 / r)}{\partial n} .
+\]
+
+Интегралы $v_{1}(x, t)$ и $v_{2}(x, t)$ наз. 3 а п а $а$ ды в а ющими потенциалами простого и д в о й но $\mathbf{r} о$ с л о е в.
+
+К. Ф. (1) означает, что любое дважды непрерывно дифференцируемое решение $u(x, t)$ уравнения (2) представляется в виде суммы запаздывающих потенциалов простого слоя, двойного слоя и объемного потенциала:
+
+\[
+u(x, t)=v_{1}(x, t)+v_{2}(x, t)+v_{3}(x, t) .
+\]
+
+В случае, когда $u(x, t)=u(x), f(x, t)=f(x)$ не зависят от $t$, К. ф. принимает вид
+
+\[
+\begin{gathered}
+u(x)=\frac{1}{4 \pi} \int_{\Omega} \frac{f(y)}{r} d \Omega_{y}+ \\
++\frac{1}{4 \pi} \int_{\sigma}\left[\frac{1}{r} \frac{\partial u(y)}{\partial n}-u(y) \frac{\partial(1 / r)}{\partial n}\right] d \sigma_{y}
+\end{gathered}
+\]
+
+и дает решение уравнения Пуассона $\Delta u=-f(x)$.
+
+К. ф. широко применяется при решении целого ряда задач. Например, если $\Omega-$ пар $|y-x| \leqslant t$ радиуса $t$ с центром в точке $x$, то формула (1) преобразуется в соотнопение
+
+$u(x, t)=\frac{1}{4 \pi} \int_{r \leqslant t} \frac{f(y, t-r)}{r} d y+t M_{t}[\psi]+\frac{\partial}{\partial t} t M_{t}[\varphi]$,
+
+где
+
+\[
+M_{t}[\varphi]=\frac{1}{4 \pi} \int_{|y|=1} \varphi(x+t y) d s_{y}
+\]
+
+- среднее значение функции $\varphi(x)$ по поверхности сферы $|y-x|=t$,
+
+\[
+\varphi(x)=\left.u\right|_{t=0}, \quad \psi(x)=\left.u_{t}\right|_{t=0} .
+\]
+
+Если $\varphi(x)$ и $\psi(x)$ - заданные в шаре $|x| \leqslant R$ функции, имеющие непрерывные частные производные 3-го и 2-го порядков соответственно, a $f(x, t)$ дважды непрерывно диффференцируема при $|x|&lt;R, 0 \leqslant t \leqslant R-|x|$, то функция $u(x, t)$, заданная формулой (3), является регулярным решением Коши задачи (4) для уравнения (2) при $|x|&lt;R \quad$ и $\quad t&lt;R-|x|$.
+
+Формула (3) также наз. К. Ф.
+
+К. Ф. в виде
+
+\[
+u(x, t)=t M_{t}[\psi]+\frac{\partial}{\partial t} t M_{t}[\varphi]
+\]
+
+для волнового уравнения
+
+\[
+\Delta u=u_{t t}
+\]
+
+примечательна тем, что из нее следует Гюйгенса принцun: решение (волна) $u(x, t)$ уравнения (5) в точке $(x, t)$ пространства независимых переменных $x_{1}, x_{2}$, $x_{3}, t$ вполне определяется значениями $\varphi, \partial \varphi / \partial n$ и $\psi$ на сфере $|y-x|=t$ с центром в точке $x$ и радиуса $|t|$.
+
+Пусть дано уравнение н о р м а л ь в о г и п е рбо лич е ско г о т и П а
+
+$\sum_{i, j=1}^{m+1} a^{i j}(x) u_{x_{i} y_{j}}+\sum_{j=1}^{m+1} b^{j}(x) u_{x_{j}}+c(x) u=f(x)$
+
+с достаточно гладкими в нек-рой $(m+1)$-мерной области $\Omega_{m+1}$ коэффициентами $a^{i j}(x), b^{j}(x), c(x)$ и правой частью $f(x)$, т. е. уравнение, форма
+
+\[
+\sum_{i, j=1}^{m+1} a^{i j}(x) \xi_{i} \xi_{j}
+\]
+
+к-рого в любой точке $x \in \Omega_{m+1}$ с помощью невырожденного линейного преобразования приводится к виду
+
+\[
+y_{0}^{2}-\sum_{i=1}^{m} y_{i}^{2}
+\]
+
+К. ф. обобщена на уравнение (6) в случае, когда число $m+1$ независимых переменных $x_{1}, \ldots, x_{m+1}$ четно [4]. При этом супцественным моментом было построение функции $\varphi$, обобщающей на случай уравнения (6) ньютоновский потенциал $1 / r$. Для частного случая уравнения (6)
+
+\[
+u_{t t}-\sum_{i=1}^{m} u_{x_{i} x_{i}}=0, m \equiv 1(\bmod 2)
+\]
+
+обобщенная К. Ф. принимает вид
+
+\[
+\begin{aligned}
+&amp; u(y, t)=\gamma \int_{\sigma} \sum_{i=1}^{k}(-1)^{k}\left\{\frac{\partial^{k-i+1}}{\partial n}\left[\frac{\partial^{i-1} u}{\partial t^{i-1}}\right]-\right. \\
+&amp; \left.-\stackrel{k-i+1}{\varphi}\left[\frac{\partial^{i} u}{\partial n \partial t^{i-1}}\right]-\varphi^{k-i+1} \frac{\partial r}{\partial n}\left[\frac{\partial^{i} u}{\partial t^{i}}\right]\right\} d \sigma_{x}
+\end{aligned}
+\]
+
+где $\gamma$ - некоторое положительное число, $\sigma-$ кусочно гладкая граница $m$-мерной ограниченной области $\Omega_{m}$, содержащей внутри себя точку $y, n$ - внешняя нормаль к $\sigma$
+
+$\stackrel{i}{\varphi}=\gamma_{i} r^{-k-i+1}, \stackrel{k}{\varphi}=r^{2-m}, r=|y-x| ;$
+
+$\gamma_{i}=$ const, $i=1, \ldots, k-1 ; k=(m-1) / 2$; $[\psi]$ означает запаздывающее значение $\psi(x, t)$ :
+
+\[
+[\psi(x, t)]=\psi_{1}(x, t-r) .
+\]
+
+Формулу (8) для уравнения (6) иногда наз. ф о р м уло й К ирх гоф а - C о б о л е в a.
+
+Jum.: [1] Б и ц а Д з е А. В., Уравнения математической физики, М., 1976; [2] В л а д и м и р o в B. С., Уравнения Partial Differential equations of Mathematical Physics, $\mathbf{N}, \mathbf{Y}$, 1944, Camb., 1959; [4] M a t $h$ is s o n M., &quot;Math. Ann.&quot;, 1932, Bd 107, S. 400-19; [5] e r o ж e, &quot;Acta Math.&quot;, 1939, v. 71, № 3-4, p. 249-82; [6] М и х л и н С. Г , Линейные уравнения в частных производных, М., 1977; [7] С о б о л е в С. Л., Некоторые применения функционального анализа в математической физике, Новосиб., 1962; [9] С м и р н о в В. И., Курс высшей математики, т. 4, 3 изд., М., 1957; [10] Т и х оской физики, 4 изд., М., 1972. А., Уравнения математиче-
+ско. М. Нахушев.</text_orig>
+</article>

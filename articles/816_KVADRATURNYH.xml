@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/816_KVADRATURNYH" alphabetic_pos="816">
+  <title>КВАДРАТУРНЫХ СУММ МЕТОД</title>
+  <authors>
+    <author>А. Б. Бакуиинский</author>
+  </authors>
+  <pages>
+    <start>399</start>
+    <end>399</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/816_1_KVADRATURNYH">\int_{a}^{b} K(x, s) \varphi(s) d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_2_KVADRATURNYH">\lambda \varphi(x)+\int_{a}^{b} K(x, s) \varphi(s) d s=f(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_3_KVADRATURNYH">\int_{a}^{b} K(x, s) \varphi(s) \approx \sum_{i=1}^{N} a_{i}^{(N)} K\left(x, s_{i}\right) \varphi\left(s_{i}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_4_KVADRATURNYH">\lambda \tilde{\varphi}\left(s_{j}\right)+\sum_{i=1}^{N} a_{i}^{(N)} K\left(s_{j}, s_{i}\right) \tilde{\varphi}\left(s_{i}\right)=f\left(s_{i}\right), j=\overline{1, N} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/816_5_KVADRATURNYH">\int_{a}^{b} K(x, s) \varphi(s) d s \approx \sum_{i=1}^{N} a_{i}^{(N)}(x) \varphi\left(s_{i}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_1_KVADRATURNYH">a_{i}^{(n)}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/816_2_KVADRATURNYH">k(x, s)</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/816_1_KVADRATURNYH">
+      <rel_text>интегральных</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_2_KVADRATURNYH">
+      <rel_text>интегральных</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_3_KVADRATURNYH">
+      <rel_text>строящиеся</rel_text>
+      <target>http://libmeta.ru/me/article/266_STROFOID</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_4_KVADRATURNYH">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_5_KVADRATURNYH">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_6_KVADRATURNYH">
+      <rel_text>формула</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_7_KVADRATURNYH">
+      <rel_text>квадратурная</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/816_8_KVADRATURNYH">
+      <rel_text>приближенного</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+  </relations>
+  <text>метод аппроксимации интегрального оператора при построении численных методов решения интегральных уравнений. Простейший вариант К. с. м. состоит в замене интегрального оператора, напр. вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_1_KVADRATURNYH]]/URI
+\]
+
+в интегральном уравнении
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_2_KVADRATURNYH]]/URI
+\]
+
+на оператор с конечномерной областью значений по правилу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_3_KVADRATURNYH]]/URI
+\]
+
+Интегральное уравнение в свою очередь аппроксимируется линейным алгебраич. уравнением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_4_KVADRATURNYH]]/URI
+\]
+
+В правой части URI[[http://libmeta.ru/me/relation/816_8_KVADRATURNYH]]/URI равенства (1) стоит URI[[http://libmeta.ru/me/relation/816_7_KVADRATURNYH]]/URI URI[[http://libmeta.ru/me/relation/816_6_KVADRATURNYH]]/URI для URI[[http://libmeta.ru/me/relation/816_5_KVADRATURNYH]]/URI по s. Возможны разнообразные обобщения аппроксимации (1) вида:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/816_5_KVADRATURNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/816_1_KVADRATURNYH]]/URI$ - некоторые URI[[http://libmeta.ru/me/relation/816_4_KVADRATURNYH]]/URI, URI[[http://libmeta.ru/me/relation/816_3_KVADRATURNYH]]/URI по ядру $URI[[http://libmeta.ru/me/formula/aux/816_2_KVADRATURNYH]]/URI$. К. с. м., обобщенный в виде (2), может применяться при аппроксимации URI[[http://libmeta.ru/me/relation/816_2_KVADRATURNYH]]/URI операторов с особенностями в ядре и даже сингулярных URI[[http://libmeta.ru/me/relation/816_1_KVADRATURNYH]]/URI операторов.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_73e0b7146c583ff5400ag-1.jpg?height=47&amp;width=792&amp;top_left_y=1078&amp;top_left_x=1028)
+,</text>
+  <text_orig>метод аппроксимации интегрального оператора при построении численных методов решения интегральных уравнений. Простейший вариант К. с. м. состоит в замене интегрального оператора, напр. вида
+
+\[
+\int_{a}^{b} K(x, s) \varphi(s) d s
+\]
+
+в интегральном уравнении
+
+\[
+\lambda \varphi(x)+\int_{a}^{b} K(x, s) \varphi(s) d s=f(s)
+\]
+
+на оператор с конечномерной областью значений по правилу
+
+\[
+\int_{a}^{b} K(x, s) \varphi(s) \approx \sum_{i=1}^{N} a_{i}^{(N)} K\left(x, s_{i}\right) \varphi\left(s_{i}\right) .
+\]
+
+Интегральное уравнение в свою очередь аппроксимируется линейным алгебраич. уравнением
+
+\[
+\lambda \tilde{\varphi}\left(s_{j}\right)+\sum_{i=1}^{N} a_{i}^{(N)} K\left(s_{j}, s_{i}\right) \tilde{\varphi}\left(s_{i}\right)=f\left(s_{i}\right), j=\overline{1, N} .
+\]
+
+В правой части приближенного равенства (1) стоит квадратурная формула для интеграла по s. Возможны разнообразные обобщения аппроксимации (1) вида:
+
+\[
+\int_{a}^{b} K(x, s) \varphi(s) d s \approx \sum_{i=1}^{N} a_{i}^{(N)}(x) \varphi\left(s_{i}\right),
+\]
+
+где $a_{i}^{(N)}(x)$ - некоторые функции, строящиеся по ядру $K(x, s)$. К. с. м., обобщенный в виде (2), может применяться при аппроксимации интегральных операторов с особенностями в ядре и даже сингулярных интегральных операторов.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_73e0b7146c583ff5400ag-1.jpg?height=47&amp;width=792&amp;top_left_y=1078&amp;top_left_x=1028)
+, А. Б. Бакуиинский.</text_orig>
+</article>

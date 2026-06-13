@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/216_LAPLASA" alphabetic_pos="216">
+  <title>ЛАПЛАСА РАСПРЕДЕЛЕНИЕ</title>
+  <authors/>
+  <pages>
+    <start>102</start>
+    <end>102</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] L a p l a c e P. S., Théorie analytique des probabilités, Р., 1812; [2] Ф е л л е p В., Введение в теорию вероятностей и ее приложения, пер. с англ., т. 2, М., 1967.</literature_orig>
+    <unit>
+      <author>Laplace P. S.</author>
+      <title>Théorie analytique des probabilités, Р.</title>
+      <publication/>
+      <year>1812</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Феллеp В.</author>
+      <title>Введение в теорию вероятностей и ее приложения</title>
+      <publication>пер. с англ., т. 2, М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/216_1_LAPLASA">p(x)=\frac{1}{2} \alpha e^{-\alpha|x-\beta|},-\infty&lt;x&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/216_2_LAPLASA">e^{i t \beta} \frac{1}{1+t^{2} / \alpha^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/216_3_LAPLASA">\beta+X_{1}-X_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/216_4_LAPLASA">\frac{1}{2} \int_{-\infty}^{\infty} e^{i t x} e^{-|x|} d x=\frac{1}{1+t^{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/216_5_LAPLASA">\frac{1}{\pi} \int_{-\infty}^{\infty} e^{-i t x} \frac{1}{1+t^{2}} d t=e^{-|x|}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_1_LAPLASA">\beta,-\infty&lt;\beta&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_2_LAPLASA">\alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_3_LAPLASA">x=\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_4_LAPLASA">x=\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_5_LAPLASA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_6_LAPLASA">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_7_LAPLASA">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_8_LAPLASA">2 / \alpha^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_9_LAPLASA">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_10_LAPLASA">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_11_LAPLASA">\alpha e^{-\alpha x}, x&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_12_LAPLASA">\frac{1}{2} e^{-|x|}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/216_13_LAPLASA">\frac{1}{\pi} \frac{1}{1+x^{2}}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>непрерывное расшределение вероятностей с плотностью
+
+\[
+URI[[http://libmeta.ru/me/formula/main/216_1_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/216_1_LAPLASA]]/URI$, - параметр сдвига, а $URI[[http://libmeta.ru/me/formula/aux/216_2_LAPLASA]]/URI$, масштабный параметр. Плотность Л. р. симметрична относительно точки $URI[[http://libmeta.ru/me/formula/aux/216_3_LAPLASA]]/URI$, производная плотности имеет разрыв при $URI[[http://libmeta.ru/me/formula/aux/216_4_LAPLASA]]/URI$. Характеристич. функция Л. р. с шараметрами $URI[[http://libmeta.ru/me/formula/aux/216_5_LAPLASA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/216_6_LAPLASA]]/URI$ равна
+
+\[
+URI[[http://libmeta.ru/me/formula/main/216_2_LAPLASA]]/URI
+\]
+
+Л. р. имеет конечные моменты любого порядка, в частности его математич. ожидание равно $URI[[http://libmeta.ru/me/formula/aux/216_7_LAPLASA]]/URI$, а дисшерсия равна $URI[[http://libmeta.ru/me/formula/aux/216_8_LAPLASA]]/URI$.
+
+Л. р. было впервые введено П. Лапласом [1] и часто наз. «п е р вым з а коном р а с пред е ления Л а п л а с а» в отличие от «в т о р ого р а с п р е д е ле ни я Л а п л а с а», как иногда наз. нормальное распределение. Л. р. наз. также д в у с т орониим показательны м ра сп пе дел е н и е м в силу того, что Л. р. совпадает с распределением случайной величины
+
+\[
+URI[[http://libmeta.ru/me/formula/main/216_3_LAPLASA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/216_9_LAPLASA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/216_10_LAPLASA]]/URI$ - независимые случайные величины, имеющие одинаковое показательное распределение с плотностью $URI[[http://libmeta.ru/me/formula/aux/216_11_LAPLASA]]/URI$. П. р. с плотностью $URI[[http://libmeta.ru/me/formula/aux/216_12_LAPLASA]]/URI$ и Коши распределение с плотностью $URI[[http://libmeta.ru/me/formula/aux/216_13_LAPLASA]]/URI$ связаны следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/216_4_LAPLASA]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/216_5_LAPLASA]]/URI
+\]</text>
+  <text_orig>неПрерЫвное расшределение вероятностей с плотностью
+
+\[
+p(x)=\frac{1}{2} \alpha e^{-\alpha|x-\beta|},-\infty&lt;x&lt;\infty,
+\]
+
+где $\beta,-\infty&lt;\beta&lt;\infty$, - параметр сдвига, а $\alpha&gt;0$, масштабный параметр. Плотность Л. р. симметрична относительно точки $x=\beta$, производная плотности имеет разрыв при $x=\beta$. Характеристич. функция Л. р. с шараметрами $\alpha$ и $\beta$ равна
+
+\[
+e^{i t \beta} \frac{1}{1+t^{2} / \alpha^{2}}
+\]
+
+Л. р. имеет конечные моменты любого порядка, в частности его математич. ожидание равно $\beta$, а дисшерсия равна $2 / \alpha^{2}$.
+
+Л. р. было впервые введено П. Лапласом [1] и часто наз. «П е р вым з а коном р а с пред е ления Л а п л а с а» в отличие от «в т о р ого р а с п р е д е ле ни я Л а п л а с а», как иногда наз. нормальное распределение. Л. р. наз. также д в у с т орониим показательны м ра сп пе дел е н и е м в силу того, что Л. р. совпадает с распределением случайной величины
+
+\[
+\beta+X_{1}-X_{2}
+\]
+
+где $X_{1}$ и $X_{2}$ - независимые случайные величины, имеющие одинаковое показательное распределение с плотностью $\alpha e^{-\alpha x}, x&gt;0$. П. р. с плотностью $\frac{1}{2} e^{-|x|}$ и Коши распределение с плотностью $\frac{1}{\pi} \frac{1}{1+x^{2}}$ связаны следующим образом:
+
+\[
+\frac{1}{2} \int_{-\infty}^{\infty} e^{i t x} e^{-|x|} d x=\frac{1}{1+t^{2}}
+\]
+
+и
+
+\[
+\frac{1}{\pi} \int_{-\infty}^{\infty} e^{-i t x} \frac{1}{1+t^{2}} d t=e^{-|x|}
+\]
+
+Лum.: [1] L a p l a c e P. S., Théorie analytique des probabilités, Р., 1812; [2] Ф е л л е p В., Введение в теорию вероятностей и ее приложения, пер. с англ., т. 2, М., 1967.</text_orig>
+</article>

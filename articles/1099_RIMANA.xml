@@ -1,0 +1,503 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1099_RIMANA" alphabetic_pos="1099">
+  <title>РИМАНА ИНТЕГРАЈ</title>
+  <authors/>
+  <pages>
+    <start>497</start>
+    <end>499</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Би и а д з е А. В., Уравнения смешанного типа, М., 1959; [2] K у р а н т P., Уравнения с частными производшей математики, 5 изд., т. 4, М., 1958 . н в А. М., Кахушев.</literature_orig>
+    <unit>
+      <author>Бииадзе А. В.</author>
+      <title>Уравнения смешанного типа</title>
+      <publication>М.</publication>
+      <year>1959</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Kурант P.</author>
+      <title>Уравнения с частными производшей математики</title>
+      <publication>5 изд., т. 4, М.</publication>
+      <year>1958</year>
+      <other>Кахушев.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_1_RIMANA">\begin{gathered}\sigma=f\left(\xi_{1}\right)\left(x_{1}-x_{0}\right)+\ldots+f\left(\xi_{i}\right)\left(x_{i}-x_{i-1}\right)+\ldots \\\ldots+f\left(\xi_{n}\right)\left(x_{n}-x_{n-1}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_2_RIMANA">\int_{a}^{b} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_3_RIMANA">\int_{a}^{a} f(x) d x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_4_RIMANA">\int_{a}^{b} f(x) d x=-\int_{b}^{a} f(x) d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_5_RIMANA">\int_{a}^{b}[\alpha f(x)+\beta g(x)] d x=\alpha \int_{a}^{b} f(x) d x+\beta \int_{a}^{b} g(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_6_RIMANA">\int_{a}^{b} f(x) d x=\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_7_RIMANA">\int_{a}^{b} f(x) d x \geqslant \int_{a}^{b} g(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_8_RIMANA">\left|\int_{a}^{b} f(x) d x\right| \leqslant \int_{a}^{b}|f(x)| d x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_9_RIMANA">\int_{a}^{b} f(x) g(x) d x=\mu \int_{a}^{b} g(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_10_RIMANA">\mu=f(\xi) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_11_RIMANA">\int_{a}^{b} f(x) g(x) d x=g(a) \int_{a}^{\xi} f(x) d x+g(b) \int_{\xi}^{b} f(x) d x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_12_RIMANA">\begin{gathered}L u \equiv u_{x y}+a(x, y) u_{x}+b(x, y) u_{y}+c(x, y) u= \\=f(x, y) .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_13_RIMANA">\begin{aligned}&amp; R(\xi, y ; \xi, \eta)=\exp \int_{\eta}^{y} a(\xi, t) d t ; \\&amp; R(x, \eta ; \xi, \eta)=\exp \int_{\xi}^{x} b(t, \eta) d t\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_14_RIMANA">L * R \equiv R_{x y}-\frac{\partial}{\partial x}(a, R)-\frac{\partial}{\partial y}(b R)+c R=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_15_RIMANA">R_{\xi \eta}+a(\xi, \eta) R_{\xi}+b(\xi, \eta) R_{\eta}+c(\xi, \eta) R=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_16_RIMANA">\begin{gathered}R(x, y ; \xi, \eta)-\int_{\eta}^{y} a(x, \tau) R(x, \tau ; \xi, \eta) d \tau- \\-\int_{\xi}^{x} b(t, y) R(t, y ; \xi, \eta) d t+ \\+\int_{\xi}^{x} d t \int_{\eta}^{y} c(t, \tau) R(t, \tau ; \xi, \eta) d \tau=1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_17_RIMANA">\begin{aligned}&amp; \frac{\partial^{2}}{\partial x \partial y}[u R(x, y ; \xi, \eta)]-R(x, y ; \xi, \eta) L u= \\&amp; =\frac{\partial}{\partial x}\left[u\left(\frac{\partial R}{\partial y}-a R\right)\right]+\frac{\partial}{\partial y}\left[u\left(\frac{\partial R}{\partial x}-b R\right)\right],\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_18_RIMANA">\begin{gathered}u(x, y)=R\left(x, y_{0} ; x, y\right) u\left(x, y_{0}\right)+ \\+R\left(x_{0}, y ; \xi, y\right) u\left(x_{0}, y\right)-R\left(x_{0}, y_{0} ; x, y\right)+ \\+\int_{x_{0}}^{x}\left[b\left(t, y_{0}\right) R\left(t, y_{0} ; x, y\right)-\frac{\partial R\left(t, y_{0} ; x, y\right)}{\partial t}\right] \times \\\times u\left(t, y_{0}\right) d t+\int_{y_{0}}^{y}\left[a\left(x_{0}, \tau\right) R\left(x_{0}, \tau ; x, y\right)-\right. \\\left.-\frac{\partial R\left(x_{0}, \tau ; x, y\right)}{\partial \tau}\right] u\left(x_{0}, \tau\right) d \tau+ \\+\int_{x_{0}}^{x} d t \int_{y_{0}}^{y} R(t, \tau ; x, y) f(x, \tau) d \tau, x&gt;x_{0}, y&gt;y_{0} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_19_RIMANA">u\left(x, y_{0}\right)=\varphi(x), u\left(x_{0}, y_{0}\right)=\psi(y), \varphi\left(x_{0}\right)=\psi\left(y_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_20_RIMANA">u_{x x}+u_{y y}-u_{t t}=f(x, y, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_21_RIMANA">R=\log \left[\sqrt{\frac{(t-\tau)^{2}}{r^{2}}-1}+\frac{\tau-t}{r}\right]</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_1_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_2_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_3_RIMANA">a=x_{0}&lt;x_{1}&lt;\ldots&lt;x_{i-1}&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_4_RIMANA">&lt;x_{i}&lt;\ldots&lt;x_{n}=b, \quad i=1,2, \ldots, n, x_{i}-x_{i-1}=\Delta x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_5_RIMANA">x_{i-1} \leqslant \xi_{i} \leqslant x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_6_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_7_RIMANA">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_8_RIMANA">\xi_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_9_RIMANA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_10_RIMANA">\max \Delta x_{i}&lt;\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_11_RIMANA">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_12_RIMANA">\delta&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_13_RIMANA">\underset{i}{ } \max _{i} \Delta x_{i} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_14_RIMANA">|\sigma-I|&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_15_RIMANA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_16_RIMANA">\underset{i}{\max } \Delta x_{i} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_17_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_18_RIMANA">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_19_RIMANA">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_20_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_21_RIMANA">a&lt;b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_22_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_23_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_24_RIMANA">a=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_25_RIMANA">a&gt;b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_26_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_27_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_28_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_29_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_30_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_31_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_32_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_33_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_34_RIMANA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_35_RIMANA">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_36_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_37_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_38_RIMANA">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_39_RIMANA">[\alpha f(x)+\beta g(x)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_40_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_41_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_42_RIMANA">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_43_RIMANA">f(x) g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_44_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_45_RIMANA">[a, c]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_46_RIMANA">[c, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_47_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_48_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_49_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_50_RIMANA">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_51_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_52_RIMANA">f(x) \geqslant g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_53_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_54_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_55_RIMANA">|f(x)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_56_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_57_RIMANA">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_58_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_59_RIMANA">\boldsymbol{g}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_60_RIMANA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_61_RIMANA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_62_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_63_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_64_RIMANA">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_65_RIMANA">m \leqslant \mu \leqslant M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_66_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_67_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_68_RIMANA">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_69_RIMANA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_70_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_71_RIMANA">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_72_RIMANA">\xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_73_RIMANA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_74_RIMANA">1-2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_75_RIMANA">r=r(x, y ; \xi, \eta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_76_RIMANA">a, b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_77_RIMANA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_78_RIMANA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_79_RIMANA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_80_RIMANA">\xi, \eta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_81_RIMANA">a=b=0, c=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_82_RIMANA">r=j_{0}(\sqrt{4 c(x-\xi)(y-\eta)})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_83_RIMANA">j_{0}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_84_RIMANA">u=u(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_85_RIMANA">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_86_RIMANA">u_{x x}-u_{y y}+a(x, y) u_{x}+b(x, y) u_{y}+c(x, y) u=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_87_RIMANA">a, b, c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_88_RIMANA">m, f=\left(f_{1}, \ldots, f_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_89_RIMANA">u=\left(u_{1}, \ldots, u_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_90_RIMANA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_91_RIMANA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_92_RIMANA">\boldsymbol{t}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_93_RIMANA">r^{2}=(x-\xi)^{2}+(y-\eta)^{2}</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/me/relation/1099_1_RIMANA">
+      <rel_text>предложев</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_2_RIMANA">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_3_RIMANA">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_4_RIMANA">
+      <rel_text>конусе</rel_text>
+      <target>http://libmeta.ru/me/article/1026_KONGR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_5_RIMANA">
+      <rel_text>характеристич</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_6_RIMANA">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_7_RIMANA">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_8_RIMANA">
+      <rel_text>квадратурах</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_9_RIMANA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_10_RIMANA">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+  </relations>
+  <text>обобщение понятия Коши интеграла на нек-рый класс разрывных функций, введенное Б. Риманом (b. Riemann, 1853). Пусть функция $URI[[http://libmeta.ru/me/formula/aux/1099_1_RIMANA]]/URI$ задана на отрезке $URI[[http://libmeta.ru/me/formula/aux/1099_2_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_3_RIMANA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1099_4_RIMANA]]/URI$. Сумму вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_1_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1099_5_RIMANA]]/URI$, наз. и н т е г р а ль н о й с у м мой, отвечающей данному разбиению отрезка $URI[[http://libmeta.ru/me/formula/aux/1099_6_RIMANA]]/URI$ точками $URI[[http://libmeta.ru/me/formula/aux/1099_7_RIMANA]]/URI$ и выбору точек $URI[[http://libmeta.ru/me/formula/aux/1099_8_RIMANA]]/URI$. Число $URI[[http://libmeta.ru/me/formula/aux/1099_9_RIMANA]]/URI$ наз. пределом интегральных сумм (1) при $URI[[http://libmeta.ru/me/formula/aux/1099_10_RIMANA]]/URI$, если для любого $URI[[http://libmeta.ru/me/formula/aux/1099_11_RIMANA]]/URI$ найдется $URI[[http://libmeta.ru/me/formula/aux/1099_12_RIMANA]]/URI$ такое, что при $URI[[http://libmeta.ru/me/formula/aux/1099_13_RIMANA]]/URI$ справедливо неравенство $URI[[http://libmeta.ru/me/formula/aux/1099_14_RIMANA]]/URI$. Если существует конечный предел $URI[[http://libmeta.ru/me/formula/aux/1099_15_RIMANA]]/URI$ интегральных сумм при $URI[[http://libmeta.ru/me/formula/aux/1099_16_RIMANA]]/URI$, то функцию $URI[[http://libmeta.ru/me/formula/aux/1099_17_RIMANA]]/URI$ наз. ин т е г $URI[[http://libmeta.ru/me/formula/aux/1099_18_RIMANA]]/URI$ и р у е м ой в с мыс ле $URI[[http://libmeta.ru/me/formula/aux/1099_19_RIMANA]]/URI$ иман а на отрезке $URI[[http://libmeta.ru/me/formula/aux/1099_20_RIMANA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1099_21_RIMANA]]/URI$, а указанный предел олред еленным интегра лом Р имава от функции $URI[[http://libmeta.ru/me/formula/aux/1099_22_RIMANA]]/URI$ по отрезку $URI[[http://libmeta.ru/me/formula/aux/1099_23_RIMANA]]/URI$ и обозначают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_2_RIMANA]]/URI
+\]
+
+При $URI[[http://libmeta.ru/me/formula/aux/1099_24_RIMANA]]/URI$, по определению, полагают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_3_RIMANA]]/URI
+\]
+
+а при $URI[[http://libmeta.ru/me/formula/aux/1099_25_RIMANA]]/URI$ определяют интеграл (2) с помощью равенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_4_RIMANA]]/URI
+\]
+
+Необходимым и достаточным условием интегрируемости $URI[[http://libmeta.ru/me/formula/aux/1099_26_RIMANA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/1099_27_RIMANA]]/URI$ в смысле Римана являются ограниченность $URI[[http://libmeta.ru/me/formula/aux/1099_28_RIMANA]]/URI$ на этом отрезке и равенство нулю Лебега меры множества всех точек разрыва $URI[[http://libmeta.ru/me/formula/aux/1099_29_RIMANA]]/URI$, содержащихся на $URI[[http://libmeta.ru/me/formula/aux/1099_30_RIMANA]]/URI$.
+
+С в о й с т в а Р. и. 1) Всякая интегрируемая по Риману на отрезке $URI[[http://libmeta.ru/me/formula/aux/1099_31_RIMANA]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/1099_32_RIMANA]]/URI$ ограничена на этом отрезке (обратное неверно: примером ограниченной и неинтегрируемой на $URI[[http://libmeta.ru/me/formula/aux/1099_33_RIMANA]]/URI$ функции служит Дирихле бункция). 2) Л и н е й в о е с в о й с т в о: для любых постоянных $URI[[http://libmeta.ru/me/formula/aux/1099_34_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_35_RIMANA]]/URI$ из интегрируемости на $URI[[http://libmeta.ru/me/formula/aux/1099_36_RIMANA]]/URI$ каждой из функций $URI[[http://libmeta.ru/me/formula/aux/1099_37_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_38_RIMANA]]/URI$ следуют интегрируемость на этом отрезке функции $URI[[http://libmeta.ru/me/formula/aux/1099_39_RIMANA]]/URI$ и равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_5_RIMANA]]/URI
+\]
+
+3) Из интегрируемости на отрезке $URI[[http://libmeta.ru/me/formula/aux/1099_40_RIMANA]]/URI$ каждой из функций $URI[[http://libmeta.ru/me/formula/aux/1099_41_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_42_RIMANA]]/URI$ следует интегрируемость на этом отрезке произведения $URI[[http://libmeta.ru/me/formula/aux/1099_43_RIMANA]]/URI$.
+
+4) А д д и т и в н о с т Б: из интегрируемости функции $URI[[http://libmeta.ru/me/formula/aux/1099_44_RIMANA]]/URI$ на каждом из отрезков $URI[[http://libmeta.ru/me/formula/aux/1099_45_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_46_RIMANA]]/URI$ следуют интегрируемость $URI[[http://libmeta.ru/me/formula/aux/1099_47_RIMANA]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/1099_48_RIMANA]]/URI$ в равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_6_RIMANA]]/URI
+\]
+
+5) Если функции $URI[[http://libmeta.ru/me/formula/aux/1099_49_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_50_RIMANA]]/URI$ интегрируемы на $URI[[http://libmeta.ru/me/formula/aux/1099_51_RIMANA]]/URI$ и если $URI[[http://libmeta.ru/me/formula/aux/1099_52_RIMANA]]/URI$ всюду на этом отрезке, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_7_RIMANA]]/URI
+\]
+
+6) Из интегрируемости на $URI[[http://libmeta.ru/me/formula/aux/1099_53_RIMANA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/1099_54_RIMANA]]/URI$ следуют интегрируемость на этом отрезке функции $URI[[http://libmeta.ru/me/formula/aux/1099_55_RIMANA]]/URI$ и справедливость оценки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_8_RIMANA]]/URI
+\]
+
+7) Ф о р м ул а с ред не го значения: если функции $URI[[http://libmeta.ru/me/formula/aux/1099_56_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_57_RIMANA]]/URI$ интегрируемы на $URI[[http://libmeta.ru/me/formula/aux/1099_58_RIMANA]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/1099_59_RIMANA]]/URI$ неотрицательна или неположительна всюду на этом отрезке, а $URI[[http://libmeta.ru/me/formula/aux/1099_60_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_61_RIMANA]]/URI$ - точные верхняя и нижняя грани $URI[[http://libmeta.ru/me/formula/aux/1099_62_RIMANA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/1099_63_RIMANA]]/URI$, то найдется число $URI[[http://libmeta.ru/me/formula/aux/1099_64_RIMANA]]/URI$ из отрезка $URI[[http://libmeta.ru/me/formula/aux/1099_65_RIMANA]]/URI$ такое, что справедлива формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_9_RIMANA]]/URI
+\]
+
+Если, кроме того, функция $URI[[http://libmeta.ru/me/formula/aux/1099_66_RIMANA]]/URI$ непрерывна на $URI[[http://libmeta.ru/me/formula/aux/1099_67_RIMANA]]/URI$, то на этом отрезке найдется точка $URI[[http://libmeta.ru/me/formula/aux/1099_68_RIMANA]]/URI$ такая, что в формуле (3)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_10_RIMANA]]/URI
+\]
+
+8) В торая фо рмула с реднего значен и я (фо р м у л а Бон н е): если функция $URI[[http://libmeta.ru/me/formula/aux/1099_69_RIMANA]]/URI$ интегрируема на $URI[[http://libmeta.ru/me/formula/aux/1099_70_RIMANA]]/URI$, а функция $URI[[http://libmeta.ru/me/formula/aux/1099_71_RIMANA]]/URI$ монотонна на этом отрезке, то найдется точка $URI[[http://libmeta.ru/me/formula/aux/1099_72_RIMANA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/1099_73_RIMANA]]/URI$ такая, что справедлива формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_11_RIMANA]]/URI
+\]
+
+Jum.: [1] R i e m a n n B., &quot;göttinger Akad. Abhandl.», 1868, Вd 13; [2] И ль и н В. А., П о з н я к Ә. Г., Основы математического анализа, 3 изд., ч. 1, М., 1971, 2 изд., ч. 2, М , 1980; [3] К у д р я в ц е в Л. Д., курс математического анализа, ческого анализа, 2 изд., т. $URI[[http://libmeta.ru/me/formula/aux/1099_74_RIMANA]]/URI$, М., 1975 . М., Кур. м. В. Ильин.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b478b332a06e68c92516g-1.jpg?height=44&amp;width=799&amp;top_left_y=1799&amp;top_left_x=156)
+ме т од,-- метод решения Гурса задачи и Коши задачи для линейных гиперболич. типа уравнений 2-го порядка с двумя независимыми переменными
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_12_RIMANA]]/URI
+\]
+
+В Р. м. фундаментальную роль играет ф у н к ц и я Р и м а н а $URI[[http://libmeta.ru/me/formula/aux/1099_75_RIMANA]]/URI$ к-рая ири определенных предположениях относительно заданных функциї $URI[[http://libmeta.ru/me/formula/aux/1099_76_RIMANA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1099_77_RIMANA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1099_78_RIMANA]]/URI$ однозначно определяется как решение специальвой задачи Гурса:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_13_RIMANA]]/URI
+\]
+
+для сопряженного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_14_RIMANA]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/1099_79_RIMANA]]/URI$ по переменным $URI[[http://libmeta.ru/me/formula/aux/1099_80_RIMANA]]/URI$ является решением однородного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_15_RIMANA]]/URI
+\]
+
+При $URI[[http://libmeta.ru/me/formula/aux/1099_81_RIMANA]]/URI$ const функция $URI[[http://libmeta.ru/me/formula/aux/1099_82_RIMANA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1099_83_RIMANA]]/URI$ - Функция Бесселя порядка нуль.
+
+Функцию Римана можно определить как решение нагруженного интегрального уравнения Вольтерра:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_16_RIMANA]]/URI
+\]
+
+Р. м. решения задачи Гурса реализуется следующим образом: для любой дифференцируемой до соответствующего порядка функции $URI[[http://libmeta.ru/me/formula/aux/1099_84_RIMANA]]/URI$ имеет место тождество
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_17_RIMANA]]/URI
+\]
+
+из к-рого интегрированием по частям получается, что любое решение $URI[[http://libmeta.ru/me/formula/aux/1099_85_RIMANA]]/URI$ уравнения (1) представляет собой решение нагруженного интегрального уравнения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_18_RIMANA]]/URI
+\]
+
+Из (3) непосредственно вытекает корректность задачи Гурса
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_19_RIMANA]]/URI
+\]
+
+для уравнения (1).
+
+Р. м. прпводит решение задачи Коши для уравнения (1) с начальными данными на любой гладкой нехарактеристич. кривой к нахождению функции Римана и дает возможность в квадратурах выписать решение этой задачи.
+
+Р. м. обобщен на широкий класс линейных гиперболич. уравнений и систем.
+
+Для случая гиперболич. типа системы линейных уравнений с частными производными 2-го порядка
+
+$URI[[http://libmeta.ru/me/formula/aux/1099_86_RIMANA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1099_87_RIMANA]]/URI$ - заданные действительные квадратные симметрич. матрицы порядка $URI[[http://libmeta.ru/me/formula/aux/1099_88_RIMANA]]/URI$ - заданныӥ, a $URI[[http://libmeta.ru/me/formula/aux/1099_89_RIMANA]]/URI$ - искомый векторы, м а т р и ц а Р и а в а однозначно определяется как решіение системы нагруженных интегральных уравнений Вольтерра вида (2), в правой части к-рой стоит единичная матрица $URI[[http://libmeta.ru/me/formula/aux/1099_90_RIMANA]]/URI$ порядка $URI[[http://libmeta.ru/me/formula/aux/1099_91_RIMANA]]/URI$.
+
+В. Вольтерра (v. V olterra) впервые обобщил Р. м. на волновое URI[[http://libmeta.ru/me/relation/1099_10_RIMANA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_20_RIMANA]]/URI
+\] Роль URI[[http://libmeta.ru/me/relation/1099_9_RIMANA]]/URI Римана, повволяющей выписать в URI[[http://libmeta.ru/me/relation/1099_8_RIMANA]]/URI решение URI[[http://libmeta.ru/me/relation/1099_7_RIMANA]]/URI Коши с начальными данными на плоскости $URI[[http://libmeta.ru/me/formula/aux/1099_92_RIMANA]]/URI$ const и URI[[http://libmeta.ru/me/relation/1099_6_RIMANA]]/URI Гурса с данными на URI[[http://libmeta.ru/me/relation/1099_5_RIMANA]]/URI. URI[[http://libmeta.ru/me/relation/1099_4_RIMANA]]/URI для URI[[http://libmeta.ru/me/relation/1099_3_RIMANA]]/URI (4), играет URI[[http://libmeta.ru/me/relation/1099_2_RIMANA]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_21_RIMANA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1099_93_RIMANA]]/URI$.
+
+Метод URI[[http://libmeta.ru/me/relation/1099_1_RIMANA]]/URI Б. Риманом (b. Riemann, 1860).</text>
+  <text_orig>обобщение понятия Коши интеграла на нек-рый класс разрывных функций, введенное Б. Риманом (B. Riemann, 1853). Пусть функция $f(x)$ задана на отрезке $[a, b]$ и $a=x_{0}&lt;x_{1}&lt;\ldots&lt;x_{i-1}&lt;$ $&lt;x_{i}&lt;\ldots&lt;x_{n}=b, \quad i=1,2, \ldots, n, x_{i}-x_{i-1}=\Delta x_{i}$. Сумму вида
+
+\[
+\begin{gathered}
+\sigma=f\left(\xi_{1}\right)\left(x_{1}-x_{0}\right)+\ldots+f\left(\xi_{i}\right)\left(x_{i}-x_{i-1}\right)+\ldots \\
+\ldots+f\left(\xi_{n}\right)\left(x_{n}-x_{n-1}\right),
+\end{gathered}
+\]
+
+где $x_{i-1} \leqslant \xi_{i} \leqslant x_{i}$, наз. и н т е г р а ль н о й с у м мой, отвечающей данному разбиению отрезка $[a, b]$ точками $x_{i}$ и выбору точек $\xi_{i}$. Число $I$ наз. пределом интегральных сумм (1) при $\max \Delta x_{i}&lt;\delta$, если для любого $\varepsilon&gt;0$ найдется $\delta&gt;0$ такое, что при $\underset{i}{ } \max _{i} \Delta x_{i} \rightarrow 0$ справедливо неравенство $|\sigma-I|&lt;\varepsilon$. Если существует конечный предел $I$ интегральных сумм при $\underset{i}{\max } \Delta x_{i} \rightarrow 0$, то функцию $f(x)$ наз. ин т е г $\mathbf{p}$ и р у е м ой в с мыс ле $\mathrm{P}$ иман а на отрезке $[a, b]$ при $a&lt;b$, а указанный предел олред еленным интегра лом Р имава от функции $f(x)$ по отрезку $[a, b]$ и обозначают
+
+\[
+\int_{a}^{b} f(x) d x
+\]
+
+При $a=b$, по определению, полагают
+
+\[
+\int_{a}^{a} f(x) d x=0
+\]
+
+а при $a&gt;b$ определяют интеграл (2) с помощью равенства
+
+\[
+\int_{a}^{b} f(x) d x=-\int_{b}^{a} f(x) d x
+\]
+
+Необходимым и достаточным условием интегрируемости $f(x)$ на $[a, b]$ в смысле Римана являются ограниченность $f(x)$ на этом отрезке и равенство нулю Лебега меры множества всех точек разрыва $f(x)$, содержащихся на $[a, b]$.
+
+С в о й с т в а Р. и. 1) Всякая интегрируемая по Риману на отрезке $[a, b]$ функция $f(x)$ ограничена на этом отрезке (обратное неверно: примером ограниченной и неинтегрируемой на $[a, b]$ функции служит Дирихле бункция). 2) Л и н е й в о е с в о й с т в о: для любых постоянных $\alpha$ и $\beta$ из интегрируемости на $[a, b]$ каждой из функций $f(x)$ и $g(x)$ следуют интегрируемость на этом отрезке функции $[\alpha f(x)+\beta g(x)]$ и равенство
+
+\[
+\int_{a}^{b}[\alpha f(x)+\beta g(x)] d x=\alpha \int_{a}^{b} f(x) d x+\beta \int_{a}^{b} g(x) d x .
+\]
+
+3) Из интегрируемости на отрезке $[a, b]$ каждой из функций $f(x)$ и $g(x)$ следует интегрируемость на этом отрезке произведения $f(x) g(x)$.
+
+4) А д д и т и в н о с т Б: из интегрируемости функции $f(x)$ на каждом из отрезков $[a, c]$ и $[c, b]$ следуют интегрируемость $f(x)$ на отрезке $[a, b]$ в равенство
+
+\[
+\int_{a}^{b} f(x) d x=\int_{a}^{c} f(x) d x+\int_{c}^{b} f(x) d x .
+\]
+
+5) Если функции $f(x)$ и $g(x)$ интегрируемы на $[a, b]$ и если $f(x) \geqslant g(x)$ всюду на этом отрезке, то
+
+\[
+\int_{a}^{b} f(x) d x \geqslant \int_{a}^{b} g(x) d x .
+\]
+
+6) Из интегрируемости на $[a, b]$ функции $f(x)$ следуют интегрируемость на этом отрезке функции $|f(x)|$ и справедливость оценки
+
+\[
+\left|\int_{a}^{b} f(x) d x\right| \leqslant \int_{a}^{b}|f(x)| d x
+\]
+
+7) Ф о р м ул а с ред не го значения: если функции $f(x)$ и $g(x)$ интегрируемы на $[a, b]$, функция $\boldsymbol{g}(x)$ неотрицательна или неположительна всюду на этом отрезке, а $M$ и $m$ - точные верхняя и нижняя грани $f(x)$ на $[a, b]$, то найдется число $\mu$ из отрезка $m \leqslant \mu \leqslant M$ такое, что справедлива формула
+
+\[
+\int_{a}^{b} f(x) g(x) d x=\mu \int_{a}^{b} g(x) d x .
+\]
+
+Если, кроме того, функция $f(x)$ непрерывна на $[a, b]$, то на этом отрезке найдется точка $\xi$ такая, что в формуле (3)
+
+\[
+\mu=f(\xi) .
+\]
+
+8) В торая фо рмула с реднего значен и я (фо р м у л а Бон н е): если функция $f(x)$ интегрируема на $[a, b]$, а функция $g(x)$ монотонна на этом отрезке, то найдется точка $\xi$ на $[a, b]$ такая, что справедлива формула
+
+\[
+\int_{a}^{b} f(x) g(x) d x=g(a) \int_{a}^{\xi} f(x) d x+g(b) \int_{\xi}^{b} f(x) d x .
+\]
+
+Jum.: [1] R i e m a n n B., &quot;Göttinger Akad. Abhandl.», 1868, Вd 13; [2] И ль и н В. А., П о з н я к Ә. Г., Основы математического анализа, 3 изд., ч. 1, М., 1971, 2 изд., ч. 2, М , 1980; [3] К у д р я в ц е в Л. Д., курс математического анализа, ческого анализа, 2 изд., т. $1-2$, М., 1975 . М., Кур. м. В. Ильин.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b478b332a06e68c92516g-1.jpg?height=44&amp;width=799&amp;top_left_y=1799&amp;top_left_x=156)
+ме т од,-- метод решения Гурса задачи и Коши задачи для линейных гиперболич. типа уравнений 2-го порядка с двумя независимыми переменными
+
+\[
+\begin{gathered}
+L u \equiv u_{x y}+a(x, y) u_{x}+b(x, y) u_{y}+c(x, y) u= \\
+=f(x, y) .
+\end{gathered}
+\]
+
+В Р. м. фундаментальную роль играет ф у н к ц и я Р и м а н а $R=R(x, y ; \xi, \eta)$ к-рая ири определенных предположениях относительно заданных функциї $a, b$, $c$ и $f$ однозначно определяется как решение специальвой задачи Гурса:
+
+\[
+\begin{aligned}
+&amp; R(\xi, y ; \xi, \eta)=\exp \int_{\eta}^{y} a(\xi, t) d t ; \\
+&amp; R(x, \eta ; \xi, \eta)=\exp \int_{\xi}^{x} b(t, \eta) d t
+\end{aligned}
+\]
+
+для сопряженного уравнения
+
+\[
+L * R \equiv R_{x y}-\frac{\partial}{\partial x}(a, R)-\frac{\partial}{\partial y}(b R)+c R=0 .
+\]
+
+Функция $R$ по переменным $\xi, \eta$ является решением однородного уравнения
+
+\[
+R_{\xi \eta}+a(\xi, \eta) R_{\xi}+b(\xi, \eta) R_{\eta}+c(\xi, \eta) R=0 .
+\]
+
+При $a=b=0, c=$ const функция $R=J_{0}(\sqrt{4 c(x-\xi)(y-\eta)})$, где $J_{0}(z)$ - Функция Бесселя порядка нуль.
+
+Функцию Римана можно определить как решение нагруженного интегрального уравнения Вольтерра:
+
+\[
+\begin{gathered}
+R(x, y ; \xi, \eta)-\int_{\eta}^{y} a(x, \tau) R(x, \tau ; \xi, \eta) d \tau- \\
+-\int_{\xi}^{x} b(t, y) R(t, y ; \xi, \eta) d t+ \\
++\int_{\xi}^{x} d t \int_{\eta}^{y} c(t, \tau) R(t, \tau ; \xi, \eta) d \tau=1 .
+\end{gathered}
+\]
+
+Р. м. решения задачи Гурса реализуется следующим образом: для любой дифференцируемой до соответствующего порядка функции $u=u(x, y)$ имеет место тождество
+
+\[
+\begin{aligned}
+&amp; \frac{\partial^{2}}{\partial x \partial y}[u R(x, y ; \xi, \eta)]-R(x, y ; \xi, \eta) L u= \\
+&amp; =\frac{\partial}{\partial x}\left[u\left(\frac{\partial R}{\partial y}-a R\right)\right]+\frac{\partial}{\partial y}\left[u\left(\frac{\partial R}{\partial x}-b R\right)\right],
+\end{aligned}
+\]
+
+из к-рого интегрированием по частям получается, что любое решение $u$ уравнения (1) представляет собой решение нагруженного интегрального уравнения:
+
+\[
+\begin{gathered}
+u(x, y)=R\left(x, y_{0} ; x, y\right) u\left(x, y_{0}\right)+ \\
++R\left(x_{0}, y ; \xi, y\right) u\left(x_{0}, y\right)-R\left(x_{0}, y_{0} ; x, y\right)+ \\
++\int_{x_{0}}^{x}\left[b\left(t, y_{0}\right) R\left(t, y_{0} ; x, y\right)-\frac{\partial R\left(t, y_{0} ; x, y\right)}{\partial t}\right] \times \\
+\times u\left(t, y_{0}\right) d t+\int_{y_{0}}^{y}\left[a\left(x_{0}, \tau\right) R\left(x_{0}, \tau ; x, y\right)-\right. \\
+\left.-\frac{\partial R\left(x_{0}, \tau ; x, y\right)}{\partial \tau}\right] u\left(x_{0}, \tau\right) d \tau+ \\
++\int_{x_{0}}^{x} d t \int_{y_{0}}^{y} R(t, \tau ; x, y) f(x, \tau) d \tau, x&gt;x_{0}, y&gt;y_{0} .
+\end{gathered}
+\]
+
+Из (3) непосредственно вытекает корректность задачи Гурса
+
+\[
+u\left(x, y_{0}\right)=\varphi(x), u\left(x_{0}, y_{0}\right)=\psi(y), \varphi\left(x_{0}\right)=\psi\left(y_{0}\right)
+\]
+
+для уравнения (1).
+
+Р. м. прпводит решение задачи Коши для уравнения (1) с начальными данными на любой гладкой нехарактеристич. кривой к нахождению функции Римана и дает возможность в квадратурах выписать решение этой задачи.
+
+Р. м. обобщен на широкий класс линейных гиперболич. уравнений и систем.
+
+Для случая гиперболич. типа системы линейных уравнений с частными производными 2-го порядка
+
+$u_{x x}-u_{y y}+a(x, y) u_{x}+b(x, y) u_{y}+c(x, y) u=f(x, y)$, где $a, b, c$ - заданные действительные квадратные симметрич. матрицы порядка $m, f=\left(f_{1}, \ldots, f_{m}\right)$ - заданныӥ, a $u=\left(u_{1}, \ldots, u_{m}\right)$ - искомый векторы, м а т р и ц а Р и а в а однозначно определяется как решіение системы нагруженных интегральных уравнений Вольтерра вида (2), в правой части к-рой стоит единичная матрица $I$ порядка $m$.
+
+В. Вольтерра (V. V olterra) впервые обобщил Р. м. на волновое уравнение
+
+\[
+u_{x x}+u_{y y}-u_{t t}=f(x, y, t)
+\] Роль функции Римана, повволяющей выписать в квадратурах решение задачи Коши с начальными данными на плоскости $\boldsymbol{t}=$ const и задачи Гурса с данными на характеристич. конусе для уравнения (4), играет функция
+
+\[
+R=\log \left[\sqrt{\frac{(t-\tau)^{2}}{r^{2}}-1}+\frac{\tau-t}{r}\right]
+\]
+
+где $r^{2}=(x-\xi)^{2}+(y-\eta)^{2}$.
+
+Метод предложев Б. Риманом (B. Riemann, 1860).
+
+Лит.: [1] Би и а д з е А. В., Уравнения смешанного типа, М., 1959; [2] K у р а н т P., Уравнения с частными производшей математики, 5 изд., т. 4, М., 1958 . н в А. М., Кахушев.</text_orig>
+</article>

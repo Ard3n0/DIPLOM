@@ -1,0 +1,394 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/579_MASSOVOGO" alphabetic_pos="579">
+  <title>МАССОВОГО ОБС ЖИВНИЯ СИСТЕ. А.</title>
+  <authors/>
+  <pages>
+    <start>272</start>
+    <end>273</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/579_1_MASSOVOGO">\mu=\lim _{t \rightarrow \infty} \frac{\mathrm{E}(e(t)-e(0))}{t} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_2_MASSOVOGO">\mu=\mathrm{E}(e(t+1)-e(t))=\mathrm{E}(e(1)-e(0)),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_3_MASSOVOGO">\mu=\frac{\mathrm{E} v_{j}^{e}}{\mathrm{E} \tau_{j}^{e}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_4_MASSOVOGO">\alpha=\lim _{t \rightarrow 0} \frac{\mathrm{P}\{e(t) \geqslant 1\}}{t} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_5_MASSOVOGO">\begin{gathered}\varphi_{k}(t)=\lim _{\tau \rightarrow 0} \frac{\mathrm{P}\{e(t+\tau)-e(\tau)=k, e(\tau) \geqslant 1\}}{\mathrm{P}\{e(\tau) \geqslant 1\}}, \\k=0,1, \ldots\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_6_MASSOVOGO">\begin{gathered}\mathbf{P}\{e(t)=0\}=1-\lambda \int_{0}^{t} \varphi_{0}(u) d u, \\\mathbf{P}\{e(t)=k\}=\lambda \int_{0}^{t}\left[\varphi_{k-1}(u)-\varphi_{k}(u)\right] d u .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_7_MASSOVOGO">\begin{gathered}\varphi_{0}(t)=\mathbf{P}\left\{\tau_{j}^{e} \geqslant t\right\}, \\\sum_{j=0}^{k} \varphi_{j}(t)=\mathbf{P}\left\{\tau_{1}^{e}+\ldots+\tau_{k+1}^{e} \geqslant t\right\} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_8_MASSOVOGO">\begin{gathered}\mathbf{P}\{e(t+u)-e(t)=k\}= \\=\frac{e^{-(A(t+u)-A(t))}}{k !}(A(t+u)-A(t))^{k},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_9_MASSOVOGO">\begin{aligned}&amp; A_{n}(t, u)=\sum_{r=1}^{n} \mathrm{P}\left\{e_{r, n}(t)-e_{r, n}(u) \geqslant 1\right\}, \\&amp; B_{n}(t, u)=\sum_{r=1}^{n} \mathrm{P}\left\{e_{r, n}(t)-e_{r, n}(u) \geqslant 2\right\} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_10_MASSOVOGO">\mathrm{P}\left\{e_{r, n}(t)-e_{r, n}(0) \geqslant 1\right\} \longrightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_11_MASSOVOGO">e_{n}(t)=\sum_{r=1}^{n} e_{r, n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_12_MASSOVOGO">A_{n}(t, u) \longrightarrow A(t)-A(u), \quad B_{n}(t, u) \longrightarrow 0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_13_MASSOVOGO">\sum_{r=1}^{n} \mu_{r, n} \rightarrow \alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_14_MASSOVOGO">\sum_{r=1}^{n} \mu_{r, n} \int_{0}^{t} \varphi_{0}^{(r)}(u) d u \longrightarrow \alpha t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/579_15_MASSOVOGO">\left(1-\varphi_{0}^{(r)}(t)\right) \rightarrow 0</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_1_MASSOVOGO">\left\{\tau_{j}^{e}, v_{j}^{e}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_2_MASSOVOGO">\tau_{j}^{e}, j=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_3_MASSOVOGO">v_{1}^{e} \geqslant 1, v_{2}^{e} \geqslant 1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_4_MASSOVOGO">v_{j}^{e} \equiv 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_5_MASSOVOGO">\{e(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_6_MASSOVOGO">t \geqslant 0\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_7_MASSOVOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_8_MASSOVOGO">e(t)=e(t-0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_9_MASSOVOGO">\left\{\tau_{j}^{e}, v_{j}^{e}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_10_MASSOVOGO">\left\{\tau_{j}^{e}, \quad v_{j}^{e}\right\} \in G_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_11_MASSOVOGO">e(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_12_MASSOVOGO">\left.\{e(t)\} \in G_{I S}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_13_MASSOVOGO">\{e(t)\} \in G_{I S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_14_MASSOVOGO">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_15_MASSOVOGO">\left\{\tau_{j}^{e}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_16_MASSOVOGO">\left\{v_{j}^{e}\right\} \in G_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_17_MASSOVOGO">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_18_MASSOVOGO">\left\{\tau_{j}^{e}, v_{j}^{e}\right\} \in G_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_19_MASSOVOGO">\{e(t)\} \in G_{I S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_20_MASSOVOGO">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_21_MASSOVOGO">e(0)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_22_MASSOVOGO">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_23_MASSOVOGO">\alpha \leqslant \mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_24_MASSOVOGO">\mu&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_25_MASSOVOGO">\alpha=\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_26_MASSOVOGO">e(0)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_27_MASSOVOGO">(0, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_28_MASSOVOGO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_29_MASSOVOGO">e(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_30_MASSOVOGO">\varphi_{k}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_31_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in G_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_32_MASSOVOGO">v_{j}^{e} \equiv 1,\left\{\tau_{j}^{e}\right\} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_33_MASSOVOGO">e(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_34_MASSOVOGO">\{e(t)\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_35_MASSOVOGO">e(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_36_MASSOVOGO">a(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_37_MASSOVOGO">a(t)=\alpha t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_38_MASSOVOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_39_MASSOVOGO">e_{1, n}(t), \ldots, e_{n, n}(t), n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_40_MASSOVOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_41_MASSOVOGO">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_42_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_43_MASSOVOGO">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_44_MASSOVOGO">\left.e_{r, n}(t)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_45_MASSOVOGO">a(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_46_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_47_MASSOVOGO">e_{r+n}(t) \in G_{i S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_48_MASSOVOGO">\mu_{r, n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_49_MASSOVOGO">e_{r, n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_50_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_51_MASSOVOGO">e_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_52_MASSOVOGO">e(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_53_MASSOVOGO">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_54_MASSOVOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_55_MASSOVOGO">\varphi_{0}^{r}(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_56_MASSOVOGO">e_{r, n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_57_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/579_58_MASSOVOGO">r</formula>
+  </formulas_aux>
+  <relations n="17">
+    <relation uri="http://libmeta.ru/me/relation/579_1_MASSOVOGO">
+      <rel_text>Массового обслуживания теория</rel_text>
+      <target>http://libmeta.ru/me/article/583_MASSOVOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_2_MASSOVOGO">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_3_MASSOVOGO">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_4_MASSOVOGO">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_5_MASSOVOGO">
+      <rel_text>параметром</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_6_MASSOVOGO">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_7_MASSOVOGO">
+      <rel_text>распределениям</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_8_MASSOVOGO">
+      <rel_text>процессов</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_9_MASSOVOGO">
+      <rel_text>распределений</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_10_MASSOVOGO">
+      <rel_text>сходімости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_11_MASSOVOGO">
+      <rel_text>интенсивность</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_12_MASSOVOGO">
+      <rel_text>ординарны</rel_text>
+      <target>http://libmeta.ru/me/article/55_ORDINAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_13_MASSOVOGO">
+      <rel_text>процессы</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_14_MASSOVOGO">
+      <rel_text>функццей</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_15_MASSOVOGO">
+      <rel_text>процесса</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_16_MASSOVOGO">
+      <rel_text>распределениям</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/579_17_MASSOVOGO">
+      <rel_text>сходплись</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+  </relations>
+  <text>Боровков.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2b73e5cee3b8dbb07fd9g-1.jpg?height=47&amp;width=839&amp;top_left_y=1675&amp;top_left_x=119)
+цесс, заданный тем или иным образом и описывающий поступление вызовов в систему обслуживания. Входящий поток определяется обычно случайной последовательностью $URI[[http://libmeta.ru/me/formula/aux/579_1_MASSOVOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/579_2_MASSOVOGO]]/URI$, указывают интервалы между поступлениями в систему групп требований объемов соответственно $URI[[http://libmeta.ru/me/formula/aux/579_3_MASSOVOGO]]/URI$ Если $URI[[http://libmeta.ru/me/formula/aux/579_4_MASSOVOGO]]/URI$, то поток наз. о р д ин а р ны м. Эквивалентным образом входящий поток можно задавать с помощью точечного процесса или процесса $URI[[http://libmeta.ru/me/formula/aux/579_5_MASSOVOGO]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/579_6_MASSOVOGO]]/URI$, указывающего количество вызовов, поступивших в систему к моменту времени $URI[[http://libmeta.ru/me/formula/aux/579_7_MASSOVOGO]]/URI$. Можно считать для определенности, что $URI[[http://libmeta.ru/me/formula/aux/579_8_MASSOVOGO]]/URI$.
+
+Наиболее распространенное требование, к-рое обычно предъявляется к входному потоку, состоит в его стационарности. Это условие может быть двояким: либо требуется стационарность в узком смысле последовательности $URI[[http://libmeta.ru/me/formula/aux/579_9_MASSOVOGO]]/URI$ (обозначается $URI[[http://libmeta.ru/me/formula/aux/579_10_MASSOVOGO]]/URI$ ), либо требуется, чтобы процесс $URI[[http://libmeta.ru/me/formula/aux/579_11_MASSOVOGO]]/URI$ был процессом со стационарными в узком смысле приращениями (обо- значается $URI[[http://libmeta.ru/me/formula/aux/579_12_MASSOVOGO]]/URI$. Эти два требования, вообще говоря, не совпадают.
+
+И н т е н с и в н о с т ь ю стационарного потока наз. число
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_1_MASSOVOGO]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/579_13_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_2_MASSOVOGO]]/URI
+\]
+
+так что $URI[[http://libmeta.ru/me/formula/aux/579_14_MASSOVOGO]]/URI$ равно среднему числу вызовов, поступивших в систему за единицу времени. Если последовательность $URI[[http://libmeta.ru/me/formula/aux/579_15_MASSOVOGO]]/URI$ стационарна и эргодична и $URI[[http://libmeta.ru/me/formula/aux/579_16_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_3_MASSOVOGO]]/URI
+\]
+
+В остальных случаях связь $URI[[http://libmeta.ru/me/formula/aux/579_17_MASSOVOGO]]/URI$ с распределением последовательности $URI[[http://libmeta.ru/me/formula/aux/579_18_MASSOVOGO]]/URI$ может быть более сложной.
+
+Пусть дан процесс $URI[[http://libmeta.ru/me/formula/aux/579_19_MASSOVOGO]]/URI$ с интенсивностью $URI[[http://libmeta.ru/me/formula/aux/579_20_MASSOVOGO]]/URI$ и с начальным значением $URI[[http://libmeta.ru/me/formula/aux/579_21_MASSOVOGO]]/URI$. С числом $URI[[http://libmeta.ru/me/formula/aux/579_22_MASSOVOGO]]/URI$ тесно связан другой параметр входного потока, определяемый равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_4_MASSOVOGO]]/URI
+\]
+
+Этот предел всегда существует и $URI[[http://libmeta.ru/me/formula/aux/579_23_MASSOVOGO]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/579_24_MASSOVOGO]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/579_25_MASSOVOGO]]/URI$ тогда и только тогда, когда входной поток ординарен.
+
+При изучении свойств входного потока часто используются т. н. ф у н к ц и и П а ль м а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_5_MASSOVOGO]]/URI
+\]
+
+(здесь $URI[[http://libmeta.ru/me/formula/aux/579_26_MASSOVOGO]]/URI$ ), к-рые имеют смысл условных вероятностей того, что на интервале $URI[[http://libmeta.ru/me/formula/aux/579_27_MASSOVOGO]]/URI$ появится $URI[[http://libmeta.ru/me/formula/aux/579_28_MASSOVOGO]]/URI$ вызовов при условии, что в момент времени 0 пришел вызов. C распределением $URI[[http://libmeta.ru/me/formula/aux/579_29_MASSOVOGO]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/579_30_MASSOVOGO]]/URI$ связавы равенствами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_6_MASSOVOGO]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/579_31_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_7_MASSOVOGO]]/URI
+\]
+
+Значительную роль в теории массового обслуживания играют т. н. простейшие, или п у а с с о но вски е, в х о д н е по т оки-стационарные входные потоки, для к-рых $URI[[http://libmeta.ru/me/formula/aux/579_32_MASSOVOGO]]/URI$. Чтобы определить простейший поток в терминах процесса $URI[[http://libmeta.ru/me/formula/aux/579_33_MASSOVOGO]]/URI$, требуют, чтобы процесс $URI[[http://libmeta.ru/me/formula/aux/579_34_MASSOVOGO]]/URI$ был пуассоновским. Приращения этого процесса на непересекающихся интервалах времени независимы и имеют распределениепуассона с параметрами, пропорциональными длинам интервалов.
+
+Находят широкое применение (особенно в телефонии) также и неоднородные пуассоновские потоки, к-рые характеризуются процессами $URI[[http://libmeta.ru/me/formula/aux/579_35_MASSOVOGO]]/URI$ с независимыми приращениями, распределенными по закону Пуассона
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_8_MASSOVOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/579_36_MASSOVOGO]]/URI$ - ведущая функция процесса (в однородном случае $URI[[http://libmeta.ru/me/formula/aux/579_37_MASSOVOGO]]/URI$. Особая роль пуассоновских процессов в теории массового обслуживания во многом объясняется основной предельной теоремой для входящих потоков, к-рая устанавливает, что в широких предположениях сумма большого числа произвольных независимых стаціонарных входных потоков малой интенсивности сходится к пуассоновскому процессу. Частое использованге предположения о том, что входной поток пуассоновский, обусловливается тем, что во многих приложениях реальные входные потоки образуются именно таким способом (напр., поток вызовов, поступающих на телефонную станцию, представляет собой сумму слабых потоков, исходящих от отдельных абонентов).
+
+Ниже приведена основная предельная теорема в двух формах. Первая относится к суммам произвольных (нестационарных) входных потоков.
+
+Пусть даны возрастающие вместе с $URI[[http://libmeta.ru/me/formula/aux/579_38_MASSOVOGO]]/URI$ совокупности независимых процессов $URI[[http://libmeta.ru/me/formula/aux/579_39_MASSOVOGO]]/URI$, зависящих от параметра $URI[[http://libmeta.ru/me/formula/aux/579_40_MASSOVOGO]]/URI$ (т. е. рассматривается схема серий), и введены следующие обозначения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_9_MASSOVOGO]]/URI
+\]
+
+Пусть, кроме того, при любом фиксированном $URI[[http://libmeta.ru/me/formula/aux/579_41_MASSOVOGO]]/URI$ выполнено условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_10_MASSOVOGO]]/URI
+\]
+
+пріi $URI[[http://libmeta.ru/me/formula/aux/579_42_MASSOVOGO]]/URI$ равномерно по $URI[[http://libmeta.ru/me/formula/aux/579_43_MASSOVOGO]]/URI$ (это и есть условие малой интенсівностіг потоков $URI[[http://libmeta.ru/me/formula/aux/579_44_MASSOVOGO]]/URI$. Тогда, для того чтобы конечномерные распределения процесса
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_11_MASSOVOGO]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/579_17_MASSOVOGO]]/URI к URI[[http://libmeta.ru/me/relation/579_16_MASSOVOGO]]/URI пуассоновского URI[[http://libmeta.ru/me/relation/579_15_MASSOVOGO]]/URI с ведуцей URI[[http://libmeta.ru/me/relation/579_14_MASSOVOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/579_45_MASSOVOGO]]/URI$, необходимо и достаточно, чтобы при $URI[[http://libmeta.ru/me/formula/aux/579_46_MASSOVOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_12_MASSOVOGO]]/URI
+\]
+
+Еслиг в рассматриваемой схеме сериї, URI[[http://libmeta.ru/me/relation/579_13_MASSOVOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/579_47_MASSOVOGO]]/URI$ и URI[[http://libmeta.ru/me/relation/579_12_MASSOVOGO]]/URI, то имеет место также следующее утверждение. Пусть $URI[[http://libmeta.ru/me/formula/aux/579_48_MASSOVOGO]]/URI$ - URI[[http://libmeta.ru/me/relation/579_11_MASSOVOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/579_49_MASSOVOGO]]/URI$ и при $URI[[http://libmeta.ru/me/formula/aux/579_50_MASSOVOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_13_MASSOVOGO]]/URI
+\]
+
+Тогда для URI[[http://libmeta.ru/me/relation/579_10_MASSOVOGO]]/URI конечномерных URI[[http://libmeta.ru/me/relation/579_9_MASSOVOGO]]/URI URI[[http://libmeta.ru/me/relation/579_8_MASSOVOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/579_51_MASSOVOGO]]/URI$ к URI[[http://libmeta.ru/me/relation/579_7_MASSOVOGO]]/URI пуассоновского URI[[http://libmeta.ru/me/relation/579_6_MASSOVOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/579_52_MASSOVOGO]]/URI$ с URI[[http://libmeta.ru/me/relation/579_5_MASSOVOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/579_53_MASSOVOGO]]/URI$ необходимо URI[[http://libmeta.ru/me/relation/579_4_MASSOVOGO]]/URI достаточно, чтобы при каждом $URI[[http://libmeta.ru/me/formula/aux/579_54_MASSOVOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_14_MASSOVOGO]]/URI
+\]
+где $URI[[http://libmeta.ru/me/formula/aux/579_55_MASSOVOGO]]/URI$ - URI[[http://libmeta.ru/me/relation/579_3_MASSOVOGO]]/URI Пальма для URI[[http://libmeta.ru/me/relation/579_2_MASSOVOGO]]/URI $URI[[http://libmeta.ru/me/formula/aux/579_56_MASSOVOGO]]/URI$,
+определенная равенством (1). Если при $URI[[http://libmeta.ru/me/formula/aux/579_57_MASSOVOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/579_15_MASSOVOGO]]/URI
+\]
+
+равномерно по $URI[[http://libmeta.ru/me/formula/aux/579_58_MASSOVOGO]]/URI$, то условие (2) очевидно будет выполнено.
+
+Лит. см. При ст. URI[[http://libmeta.ru/me/relation/579_1_MASSOVOGO]]/URI.</text>
+  <text_orig>Боровков.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2b73e5cee3b8dbb07fd9g-1.jpg?height=47&amp;width=839&amp;top_left_y=1675&amp;top_left_x=119)
+цесс, заданный тем или иным образом и описывающий поступление вызовов в систему обслуживания. Входящий поток определяется обычно случайной последовательностью $\left\{\tau_{j}^{e}, v_{j}^{e}\right\}$, где $\tau_{j}^{e}, j=1,2, \ldots$, указывают интервалы между поступлениями в систему групп требований объемов соответственно $v_{1}^{e} \geqslant 1, v_{2}^{e} \geqslant 1, \ldots$ Если $v_{j}^{e} \equiv 1$, то поток наз. о р д ин а р ны м. Эквивалентным образом входящий поток можно задавать с помощью точечного процесса или процесса $\{e(t)$; $t \geqslant 0\}$, указывающего количество вызовов, поступивших в систему к моменту времени $t$. Можно считать для определенности, что $e(t)=e(t-0)$.
+
+Наиболее распространенное требование, к-рое обычно предъявляется к входному потоку, состоит в его стационарности. Это условие может быть двояким: либо требуется стационарность в узком смысле последовательности $\left\{\tau_{j}^{e}, v_{j}^{e}\right\}$ (обозначается $\left\{\tau_{j}^{e}, \quad v_{j}^{e}\right\} \in G_{S}$ ), либо требуется, чтобы процесс $e(t)$ был процессом со стационарными в узком смысле приращениями (обо- значается $\left.\{e(t)\} \in G_{I S}\right)$. Эти два требования, вообще говоря, не совпадают.
+
+И н т е н с и в н о с т ь ю стационарного потока наз. число
+
+\[
+\mu=\lim _{t \rightarrow \infty} \frac{\mathrm{E}(e(t)-e(0))}{t} .
+\]
+
+Если $\{e(t)\} \in G_{I S}$, то
+
+\[
+\mu=\mathrm{E}(e(t+1)-e(t))=\mathrm{E}(e(1)-e(0)),
+\]
+
+так что $\mu$ равно среднему числу вызовов, поступивших в систему за единицу времени. Если последовательность $\left\{\tau_{j}^{e}\right\}$ стационарна и эргодична и $\left\{v_{j}^{e}\right\} \in G_{l}$, то
+
+\[
+\mu=\frac{\mathrm{E} v_{j}^{e}}{\mathrm{E} \tau_{j}^{e}} .
+\]
+
+В остальных случаях связь $\mu$ с распределением последовательности $\left\{\tau_{j}^{e}, v_{j}^{e}\right\} \in G_{S}$ может быть более сложной.
+
+Пусть дан процесс $\{e(t)\} \in G_{I S}$ с интенсивностью $\mu$ и с начальным значением $e(0)=0$. С числом $\mu$ тесно связан другой параметр входного потока, определяемый равенством
+
+\[
+\alpha=\lim _{t \rightarrow 0} \frac{\mathrm{P}\{e(t) \geqslant 1\}}{t} .
+\]
+
+Этот предел всегда существует и $\alpha \leqslant \mu$. Если $\mu&lt;\infty$, то $\alpha=\mu$ тогда и только тогда, когда входной поток ординарен.
+
+При изучении свойств входного потока часто используются т. н. ф у н к ц и и П а ль м а
+
+\[
+\begin{gathered}
+\varphi_{k}(t)=\lim _{\tau \rightarrow 0} \frac{\mathrm{P}\{e(t+\tau)-e(\tau)=k, e(\tau) \geqslant 1\}}{\mathrm{P}\{e(\tau) \geqslant 1\}}, \\
+k=0,1, \ldots
+\end{gathered}
+\]
+
+(здесь $e(0)=0$ ), к-рые имеют смысл условных вероятностей того, что на интервале $(0, t)$ появится $k$ вызовов при условии, что в момент времени 0 пришел вызов. C распределением $e(t)$ функции $\varphi_{k}(t)$ связавы равенствами
+
+\[
+\begin{gathered}
+\mathbf{P}\{e(t)=0\}=1-\lambda \int_{0}^{t} \varphi_{0}(u) d u, \\
+\mathbf{P}\{e(t)=k\}=\lambda \int_{0}^{t}\left[\varphi_{k-1}(u)-\varphi_{k}(u)\right] d u .
+\end{gathered}
+\]
+
+Если $\left\{\tau_{j}^{e}\right\} \in G_{I}$, то
+
+\[
+\begin{gathered}
+\varphi_{0}(t)=\mathbf{P}\left\{\tau_{j}^{e} \geqslant t\right\}, \\
+\sum_{j=0}^{k} \varphi_{j}(t)=\mathbf{P}\left\{\tau_{1}^{e}+\ldots+\tau_{k+1}^{e} \geqslant t\right\} .
+\end{gathered}
+\]
+
+Значительную роль в теории массового обслуживания играют т. н. простейшие, или п у а с с о но вски е, в х о д н е по т оки-стационарные входные потоки, для к-рых $v_{j}^{e} \equiv 1,\left\{\tau_{j}^{e}\right\} \in E$. Чтобы определить простейший поток в терминах процесса $e(t)$, требуют, чтобы процесс $\{e(t)\}$ был пуассоновским. Приращения этого процесса на непересекающихся интервалах времени независимы и имеют распределениеПуассона с параметрами, пропорциональными длинам интервалов.
+
+Находят широкое применение (особенно в телефонии) также и неоднородные пуассоновские потоки, к-рые характеризуются процессами $e(t)$ с независимыми приращениями, распределенными по закону Пуассона
+
+\[
+\begin{gathered}
+\mathbf{P}\{e(t+u)-e(t)=k\}= \\
+=\frac{e^{-(A(t+u)-A(t))}}{k !}(A(t+u)-A(t))^{k},
+\end{gathered}
+\]
+
+где $A(t)$ - ведущая функция процесса (в однородном случае $A(t)=\alpha t)$. Особая роль пуассоновских процессов в теории массового обслуживания во многом объясняется основной предельной теоремой для входящих потоков, к-рая устанавливает, что в широких предположениях сумма большого числа произвольных независимых стаціонарных входных потоков малой интенсивности сходится к пуассоновскому процессу. Частое использованге предположения о том, что входной поток пуассоновский, обусловливается тем, что во многих приложениях реальные входные потоки образуются именно таким способом (напр., поток вызовов, поступающих на телефонную станцию, представляет собой сумму слабых потоков, исходящих от отдельных абонентов).
+
+Ниже приведена основная предельная теорема в двух формах. Первая относится к суммам произвольных (нестационарных) входных потоков.
+
+Пусть даны возрастающие вместе с $n$ совокупности независимых процессов $e_{1, n}(t), \ldots, e_{n, n}(t), n=1,2, \ldots$, зависящих от параметра $n$ (т. е. рассматривается схема серий), и введены следующие обозначения
+
+\[
+\begin{aligned}
+&amp; A_{n}(t, u)=\sum_{r=1}^{n} \mathrm{P}\left\{e_{r, n}(t)-e_{r, n}(u) \geqslant 1\right\}, \\
+&amp; B_{n}(t, u)=\sum_{r=1}^{n} \mathrm{P}\left\{e_{r, n}(t)-e_{r, n}(u) \geqslant 2\right\} .
+\end{aligned}
+\]
+
+Пусть, кроме того, при любом фиксированном $t&gt;0$ выполнено условие
+
+\[
+\mathrm{P}\left\{e_{r, n}(t)-e_{r, n}(0) \geqslant 1\right\} \longrightarrow 0
+\]
+
+пріI $n \rightarrow \infty$ равномерно по $r$ (это и есть условие малой интенсівностіг потоков $\left.e_{r, n}(t)\right)$. Тогда, для того чтобы конечномерные распределения процесса
+
+\[
+e_{n}(t)=\sum_{r=1}^{n} e_{r, n}(t)
+\]
+
+сходплись к распределениям пуассоновского процесса с ведуцей функццей $A(t)$, необходимо и достаточно, чтобы при $n \rightarrow \infty$
+
+\[
+A_{n}(t, u) \longrightarrow A(t)-A(u), \quad B_{n}(t, u) \longrightarrow 0 .
+\]
+
+Еслиг в рассматриваемой схеме сериї, процессы $e_{r+n}(t) \in G_{i S}$ и ординарны, то имеет место также следующее утверждение. Пусть $\mu_{r, n}$ - интенсивность $e_{r, n}(t)$ и при $n \rightarrow \infty$
+
+\[
+\sum_{r=1}^{n} \mu_{r, n} \rightarrow \alpha
+\]
+
+Тогда для сходімости конечномерных распределений процессов $e_{n}(t)$ к распределениям пуассоновского процесса $e(t)$ с параметром $\alpha$ необходимо II достаточно, чтобы при каждом $t$
+
+\[
+\sum_{r=1}^{n} \mu_{r, n} \int_{0}^{t} \varphi_{0}^{(r)}(u) d u \longrightarrow \alpha t
+\]
+где $\varphi_{0}^{r}(u)$ - функция Пальма для процесса $e_{r, n}(t)$,
+определенная равенством (1). Если при $n \rightarrow \infty$
+
+\[
+\left(1-\varphi_{0}^{(r)}(t)\right) \rightarrow 0
+\]
+
+равномерно по $r$, то условие (2) очевидно будет выполнено.
+
+Лит. см. При ст. Массового обслуживания теория.</text_orig>
+</article>

@@ -1,0 +1,572 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1159_OVRAभNYH" alphabetic_pos="1159">
+  <title>ОВРАभНЫХ ФУНКЦИЙ МЕТОДЫ МИНИМИЗАЦИИ</title>
+  <authors>
+    <author>Ю. В. Ракитский</author>
+  </authors>
+  <pages>
+    <start>578</start>
+    <end>580</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_1_OVRAभNYH">J(x)=J\left(x_{1}, \ldots, x_{m}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_2_OVRAभNYH">\lim _{n \rightarrow \infty} J\left(x_{n}\right)=J\left(x^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_3_OVRAभNYH">J^{\prime}(x)=\left(\frac{\partial J}{\partial x_{1}}, \ldots, \frac{\partial J}{\partial x_{m}}\right)^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_4_OVRAभNYH">J^{\prime \prime}(x)=\left\|\frac{\partial^{2} J(x)}{\partial x_{i} \partial x_{j}}\right\|, \quad i, j=1, \ldots, m,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_5_OVRAभNYH">0&lt;\left|\min _{i} \lambda_{i}(x)\right| \ll \lambda_{1}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_6_OVRAभNYH">S=\lambda_{1} / \mid \min _{i} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_7_OVRAभNYH">\frac{d x}{d t}=-J^{\prime}(x), x(0)=x_{0},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_8_OVRAभNYH">k\left(J^{\prime \prime}(x)\right)=\max _{i} \lambda_{i}(x) / \min _{i} \lambda_{i}(x) \gg 1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_9_OVRAभNYH">k=0,1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_10_OVRAभNYH">x_{k+1}=x_{k}-h_{k} J_{k}^{\prime}, J_{k}^{\prime}=J^{\prime}\left(x_{k}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_11_OVRAभNYH">J\left(x_{k+1}\right)=\min _{h&gt;0} J\left(x_{k}-h J_{k}^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_12_OVRAभNYH">J(x)=\frac{1}{2} x^{T} D x-b^{T} x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_13_OVRAभNYH">\left\|x_{k}-x^{*}\right\| \leqslant C q^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_14_OVRAभNYH">q=\left[k\left(J^{\prime \prime}\left(x^{*}\right)\right)-1\right] /\left[k\left(J^{\prime \prime}\left(x^{*}\right)\right)+1\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_15_OVRAभNYH">x_{k+1}=x_{k}-h J_{k}^{\prime \prime}, J_{k+1}=J\left(x_{k+1}\right), h=\text { const. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_16_OVRAभNYH">x_{k+1}=x_{k}-\frac{h}{1-q} J_{k}^{\prime} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_17_OVRAभNYH">x_{k+1}=x_{k}-\alpha J_{k}^{\prime}+\beta\left(x_{k}-x_{k-1}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_18_OVRAभNYH">x_{k+1}=x_{k}-\left(J_{k}^{\prime \prime}\right)^{-1} J_{k}^{\prime}, J_{k}^{\prime \prime}=J^{\prime \prime}\left(x_{k}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_19_OVRAभNYH">D \boldsymbol{x}=\boldsymbol{b},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_20_OVRAभNYH">x_{k+1}=x_{k}-\left(\beta_{k} E+J_{k}^{\prime \prime}\right)^{-1} J_{k}^{\prime},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_21_OVRAभNYH">\left\|x_{k+1}-x_{k}\right\| \leqslant \varepsilon_{k} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_22_OVRAभNYH">\begin{gathered}x_{k+1}=x_{k}-\Phi\left(2^{N} h_{k}^{0}\right) J_{k}^{\prime} \\\Phi\left(2^{N} h_{k}^{0}\right)=\int_{0}^{2 N h_{k}^{0}} \exp \left(-J_{k}^{\prime \prime} \tau\right) d \tau \\J_{k+1}=\min _{N} J\left(x_{k}-\Phi\left(2^{N} h_{k}^{0}\right) J_{k}^{\prime}\right) \\\left.\Phi\left(h_{k}^{0}\right)=h_{k}^{0}\left[E-\frac{h_{k}^{0}}{2} J_{k}^{\prime \prime}+\frac{\left(h_{k}^{0}\right)^{2}}{6}\left(J_{k}^{\prime \prime}\right)^{2}-\ldots\right], J_{k}^{\prime \prime}\left(2^{s} h_{k}^{0}\right)\right], \\\Phi\left(2^{s+1} h_{k}^{0}\right)=\Phi\left(2^{s} h_{k}^{0}\right)\left[2 E-J_{k}^{\prime \prime}\right) \\s=0,1, \ldots, N-1\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_23_OVRAभNYH">d_{i j}=\sum_{s=1}^{m} u_{i s} u_{j s} \lambda_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_24_OVRAभNYH">\frac{d x}{d t}=-D x+b, x(0)=x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_25_OVRAभNYH">x^{T}(t) u_{1}-\lambda_{1}^{-1} b^{T} u_{1}=\left(x_{0}^{T} u_{1}-\lambda_{1}^{-1} b^{T} u_{1}\right) \exp \left(-\lambda_{1} t\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_26_OVRAभNYH">\sum_{i=1}^{m} u_{i 1} \bar{x}_{i}-\lambda_{1}^{-1} \sum_{i=1}^{m} b_{i} u_{i 1}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_27_OVRAभNYH">J\left(\bar{x}_{1}, \ldots, \bar{x}_{i-1},-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_28_OVRAभNYH">\left.-u_{j 1}^{-1} \sum_{i=1, i \neq j}^{m}\left(u_{i 1} \bar{x}_{i}-\lambda_{1}^{-1} b_{i} u_{i 1}\right), x_{j+1}, \ldots, x_{m}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_29_OVRAभNYH">=\bar{J}\left(\bar{x}_{1}, \ldots, \bar{x}_{j-1}, \bar{x}_{j+1}, \ldots, \bar{x}_{m}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1159_30_OVRAभNYH">D^{k} x=D^{k-1} \boldsymbol{b} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_1_OVRAभNYH">x^{*}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_2_OVRAभNYH">=\left(x_{1}^{*}, \ldots, x_{m}^{*}\right)^{T}\left({ }^{T}-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_3_OVRAभNYH">\left\{x_{n}\right\}, x_{n}=\left(x_{1 n}, \ldots, x_{m n}\right)^{T}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_4_OVRAभNYH">j(x)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_5_OVRAभNYH">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_6_OVRAभNYH">(m-k)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_7_OVRAभNYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_8_OVRAभNYH">m-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_9_OVRAभNYH">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_10_OVRAभNYH">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_11_OVRAभNYH">\boldsymbol{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_12_OVRAभNYH">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_13_OVRAभNYH">\boldsymbol{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_14_OVRAभNYH">g \subset \mathbb{R}^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_15_OVRAभNYH">j^{\prime \prime}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_16_OVRAभNYH">x \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_17_OVRAभNYH">j^{\prime \prime}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_18_OVRAभNYH">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_19_OVRAभNYH">\left|\lambda_{m}(x)\right| \leqslant \ldots \leqslant\left|\lambda_{m-r+1}(x)\right| \ll \lambda_{m-r}(x) \leqslant \ldots \leqslant \lambda_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_20_OVRAभNYH">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_21_OVRAभNYH">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_22_OVRAभNYH">x \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_23_OVRAभNYH">\boldsymbol{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_24_OVRAभNYH">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_25_OVRAभNYH">j\left(x_{1, k+1}, \ldots, x_{i-1, k+1}, x_{i, k+1}, x_{i+1, k}, \ldots, x_{m, k}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_26_OVRAभNYH">=\min _{y} J\left(x_{1, k+1}, \ldots, x_{i-1, k+1}, y, x_{i+1, k}, \ldots, x_{m, k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_27_OVRAभNYH">x_{k}-x_{k-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_28_OVRAभNYH">(k+1)-м</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_29_OVRAभNYH">h_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_30_OVRAभNYH">\left\{x_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_31_OVRAभNYH">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_32_OVRAभNYH">c=\mathrm{const}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_33_OVRAभNYH">k\left(j^{\prime \prime}\left(x^{*}\right)\right) \gg 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_34_OVRAभNYH">q \simeq 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_35_OVRAभNYH">q=\left\|j_{k}^{\prime}\right\| /\left\|J_{k-1}^{\prime}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_36_OVRAभNYH">q=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_37_OVRAभNYH">x_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_38_OVRAभNYH">x_{k+2}-x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_39_OVRAभNYH">x_{k}, x_{k+2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_40_OVRAभNYH">k(d)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_41_OVRAभNYH">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_42_OVRAभNYH">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_43_OVRAभNYH">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_44_OVRAभNYH">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_45_OVRAभNYH">\beta_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_46_OVRAभNYH">j_{k}^{\prime \prime}+\beta_{k} E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_47_OVRAभNYH">\beta_{k}, \varepsilon_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_48_OVRAभNYH">\boldsymbol{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_49_OVRAभNYH">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_50_OVRAभNYH">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_51_OVRAभNYH">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_52_OVRAभNYH">\boldsymbol{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_53_OVRAभNYH">u_{s}=\left(u_{1 s}, \ldots, u_{m s}\right)^{T}, s=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_54_OVRAभNYH">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_55_OVRAभNYH">\exp \left(-\lambda_{1} t\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_56_OVRAभNYH">\tau_{п с}=O(\lambda-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_57_OVRAभNYH">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_58_OVRAभNYH">\bar{x}_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_59_OVRAभNYH">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_60_OVRAभNYH">\bar{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_61_OVRAभNYH">u_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_62_OVRAभNYH">\boldsymbol{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_63_OVRAभNYH">(m-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_64_OVRAभNYH">\bar{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_65_OVRAभNYH">(m-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_66_OVRAभNYH">\bar{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_67_OVRAभNYH">u_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_68_OVRAभNYH">\bar{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_69_OVRAभNYH">\bar{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_70_OVRAभNYH">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_71_OVRAभNYH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_72_OVRAभNYH">1967 ;[7] \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1159_73_OVRAभNYH">295-98 ;</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/1159_1_OVRAभNYH">
+      <rel_text>Алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_2_OVRAभNYH">
+      <rel_text>Жесткая дифференциальная система</rel_text>
+      <target>http://libmeta.ru/me/article/404_ZhESTKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_3_OVRAभNYH">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_4_OVRAभNYH">
+      <rel_text>численные</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_5_OVRAभNYH">
+      <rel_text>Методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1159_6_OVRAभNYH">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+  </relations>
+  <text>численные методы отыскания минимумов функций многих переменных. Пусть задана ограниченная снизу дважды непрерывно дифференцируемая по своим аргументам функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_1_OVRAभNYH]]/URI
+\]
+
+для к-рой известно, что при нек-ром век'оре $URI[[http://libmeta.ru/me/formula/aux/1159_1_OVRAभNYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1159_2_OVRAभNYH]]/URI$ знак транспонирования) она принимает наименьшее значение. Требуется построить последовательность векторов $URI[[http://libmeta.ru/me/formula/aux/1159_3_OVRAभNYH]]/URI$, такую, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_2_OVRAभNYH]]/URI
+\]
+
+Существует много методов, позволяющих получить указанную последовательность векторов. Однако общим недостатком большинства алгоритмов является резкое ухудшение их свойств в случаях, когда поверхности уровня минимизируемой функции $URI[[http://libmeta.ru/me/formula/aux/1159_4_OVRAभNYH]]/URI$ const имеют структуру, сильно отличающуюся от сферической. В этом случае нек-рую область $URI[[http://libmeta.ru/me/formula/aux/1159_5_OVRAभNYH]]/URI$, в к-рой норма вектора-градиента
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_3_OVRAभNYH]]/URI
+\]
+
+существенно меньше, чем в остальной части пространства, наз. д н о м о в р а г а, а саму функцию - о вр а ж н о й ф У н к ц и е й. Если размерность пространства аргументов минимизируемой функции больше двух, то структура поверхностей уровня овражных функций может оказаться весьма сложной. Появляются $URI[[http://libmeta.ru/me/formula/aux/1159_6_OVRAभNYH]]/URI$ мерные овраги, где число $URI[[http://libmeta.ru/me/formula/aux/1159_7_OVRAभNYH]]/URI$ изменяется от 1 до $URI[[http://libmeta.ru/me/formula/aux/1159_8_OVRAभNYH]]/URI$. В трехмерном пространстве, напр., возможны одномерные и двумерные овраги.
+
+Функции овражного типа локально характеризуются плохой обусловленностью матриц двух производных (м а т р и ц $URI[[http://libmeta.ru/me/formula/aux/1159_9_OVRAभNYH]]/URI$ е c c e)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_4_OVRAभNYH]]/URI
+\]
+
+что приводит к сильному изменению функции $URI[[http://libmeta.ru/me/formula/aux/1159_10_OVRAभNYH]]/URI$ вдоль направлений, совпадающих с собственными векторами матрицы Гессе для болыших собственных чисел, и к слабому изменению вдоль других направлений, отвечающих малым собственным значениям матрицы Гессе.
+
+Большинство известных методов опт имизации позволяет достаточно быстро попадать на дно оврага, при- водя иногда к существенному уменьшению значения функции $URI[[http://libmeta.ru/me/formula/aux/1159_11_OVRAभNYH]]/URI$ по сравнению с его значением в начальной точке (спуск на дно оврага). Однако далее процесс резко замедляется и практически останавливается в нек-рой точке из $URI[[http://libmeta.ru/me/formula/aux/1159_12_OVRAभNYH]]/URI$, к-рая может быть расположена очень далеко от истинной точки минимума.
+
+Дважды непрерывно дифференцируемая по своим аргументам функция $URI[[http://libmeta.ru/me/formula/aux/1159_13_OVRAभNYH]]/URI$ наз. о в р а ж н о й ф у н к цие й (см. [1]), если существует нек-рая область $URI[[http://libmeta.ru/me/formula/aux/1159_14_OVRAभNYH]]/URI$, где собственные значения матрицы Гессе $URI[[http://libmeta.ru/me/formula/aux/1159_15_OVRAभNYH]]/URI$, упорядоченные в любой точке $URI[[http://libmeta.ru/me/formula/aux/1159_16_OVRAभNYH]]/URI$ по убыванию модулей, удовлетворяют неравенствам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_5_OVRAभNYH]]/URI
+\]
+
+Степень овражности характеризуется числом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_6_OVRAभNYH]]/URI
+\]
+
+Если собственные значения $URI[[http://libmeta.ru/me/formula/aux/1159_17_OVRAभNYH]]/URI$ в области $URI[[http://libmeta.ru/me/formula/aux/1159_18_OVRAभNYH]]/URI$ удовлетворяют неравенствам
+
+$URI[[http://libmeta.ru/me/formula/aux/1159_19_OVRAभNYH]]/URI$, то число $URI[[http://libmeta.ru/me/formula/aux/1159_20_OVRAभNYH]]/URI$ наз. р а з м р н о с т ю о в р а г а функции $URI[[http://libmeta.ru/me/formula/aux/1159_21_OVRAभNYH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1159_22_OVRAभNYH]]/URI$ (см. [1]).
+
+Системы дифференциальных уравнений, описывающие траекторию спуска овражной функции $URI[[http://libmeta.ru/me/formula/aux/1159_23_OVRAभNYH]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_7_OVRAभNYH]]/URI
+\]
+
+являются жесткими дифберенциальными системами.
+
+В частности, когда функция $URI[[http://libmeta.ru/me/formula/aux/1159_24_OVRAभNYH]]/URI$ сильно выпуклая и матрица Гессе положительно определена (все ее собственные значения строго больше нуля), неравенства (1) совпадают с известным требованием плохой обусловленности матрицы Гессе
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_8_OVRAभNYH]]/URI
+\]
+
+В этом случае спектральное число обусловленности совпадает со степеныо овражности.
+
+Метод покоординатного спуска (см. [2])
+
+$URI[[http://libmeta.ru/me/formula/aux/1159_25_OVRAभNYH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1159_26_OVRAभNYH]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_9_OVRAभNYH]]/URI
+\]
+
+несмотря на простоту и универсальность, в овражной ситуации әффективен лишь в редких случаях ориентации оврагов вдоль координатных осей.
+
+Предложена (см. [2]) модернизапия метода (4), состоящая в использовании процедуры вращения осей координат так, чтобы одна из осей была направлена влоль $URI[[http://libmeta.ru/me/formula/aux/1159_27_OVRAभNYH]]/URI$, после чего начинается псиск на $URI[[http://libmeta.ru/me/formula/aux/1159_28_OVRAभNYH]]/URI$ шаге. Такой подход приводит к тому, что одна из осей имеет тенденцию выстраиваться вдоль образующей дна оврага, позволяя в ряде случаев весьма успешно проводить минимизацию функций с одномерными оврагами. В случае многомерных оврагов метод непригоден.
+
+Схема метода наискорейшего спуска задается разностным уравнением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_10_OVRAभNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1159_29_OVRAभNYH]]/URI$ выбирается из условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_11_OVRAभNYH]]/URI
+\]
+
+Для сильно выпуклой овражной функции, в частности квадратичной
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_12_OVRAभNYH]]/URI
+\] последовательность $URI[[http://libmeta.ru/me/formula/aux/1159_30_OVRAभNYH]]/URI$, построенная алгоритмом (5), сходится к точке минимума функции $URI[[http://libmeta.ru/me/formula/aux/1159_31_OVRAभNYH]]/URI$ по закону геометрич. прогрессии (см. [3])
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_13_OVRAभNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1159_32_OVRAभNYH]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_14_OVRAभNYH]]/URI
+\]
+
+Так как для овражной функции $URI[[http://libmeta.ru/me/formula/aux/1159_33_OVRAभNYH]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1159_34_OVRAभNYH]]/URI$ и сходимость практически отсутствует.
+
+Аналогичная картина наблюдается и для простой градиентной схемы (см. [4])
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_15_OVRAभNYH]]/URI
+\]
+
+Ускорение ее сходимости основано на использовании результатов предыдущих итераций для уточнения дна оврага. Может быть использован (см. [4] [5]) градиентный метод (7) с вычислением на каждой итерации отношения $URI[[http://libmeta.ru/me/formula/aux/1159_35_OVRAभNYH]]/URI$. Когда оно устанавливается около нек-рого постоянного значения $URI[[http://libmeta.ru/me/formula/aux/1159_36_OVRAभNYH]]/URI$, делается большой ускоряющий шаг согласно выражению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_16_OVRAभNYH]]/URI
+\]
+
+Далее из точки $URI[[http://libmeta.ru/me/formula/aux/1159_37_OVRAभNYH]]/URI$ продолжается спуск градиентным методом до следующего ускоряющего шага.
+
+Различные версии метода параллельных касательных (см. [4] - [6]) основаны на выполнении ускоряющего шага вдоль направления $URI[[http://libmeta.ru/me/formula/aux/1159_38_OVRAभNYH]]/URI$, задаваемого точками $URI[[http://libmeta.ru/me/formula/aux/1159_39_OVRAभNYH]]/URI$ в градиентном методе. В методе «тяжелого шарика» (см. [4]) очередное приближение имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_17_OVRAभNYH]]/URI
+\]
+
+В м е т о д е о в р а г о в (см. [7]) предлагается провести локальные спуски градиентным методом (7) из двух случайно выбранных исходных точек, а затем выполнить ускоряющий шаг по направлению, задаваемому двумя полученными на дне оврага точками.
+
+Все эти методы немногим сложнее градиентного метода (7) и построены на его основе. Ускорение сходимости получается для одномерных оврагов. В более общих случаях многомерных оврагов, где сходимость этих схем резко замедляется, приходится обращаться к более мощным методам квадратичной аппроксимации, в основе к-рых лежит метод Ньютона
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_18_OVRAभNYH]]/URI
+\]
+
+Точка минимума функции (6) удовлетворяет системе линейных уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_19_OVRAभNYH]]/URI
+\]
+
+и при условии абсолютной точности всех вычислений для квадратичной функции метод Ньютона независимо от степени овражности (2) и размерности оврагов приводит к минимуму за один шаг. На самом деле, при больших числах обусловленности $URI[[http://libmeta.ru/me/formula/aux/1159_40_OVRAभNYH]]/URI$ при ограниченной разрядности вычислений задача получения решения (9) может быть некорректной, и небольшие деформации элементов матрицы $URI[[http://libmeta.ru/me/formula/aux/1159_41_OVRAभNYH]]/URI$ и вектора $URI[[http://libmeta.ru/me/formula/aux/1159_42_OVRAभNYH]]/URI$ могут приводить к большим вариациям $URI[[http://libmeta.ru/me/formula/aux/1159_43_OVRAभNYH]]/URI$.
+
+При умеренных степенях овражности в выпуклой ситуации метод Ньютона часто оказывается более предпочтительным по скорости сходимости, чем другие, напр. градиентные, методы.
+
+Большой класс квадратичных (квазиньютоновских) методов основан на использовании сопряженных направлений (см. [2], [3], [8]). Эти алгоритмы для случая минимизации выпуклой функции оказываются весьма эффективными, ибо, имея квадратичное окончание, они не требуют вычисления матрицы двух производных. Иногда (см. [8]) итерации строятся по схеме
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_20_OVRAभNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1159_44_OVRAभNYH]]/URI$ - единичная матрица. Скаляр $URI[[http://libmeta.ru/me/formula/aux/1159_45_OVRAभNYH]]/URI$ подбирается так, чтобы матрица $URI[[http://libmeta.ru/me/formula/aux/1159_46_OVRAभNYH]]/URI$ была положительно определенной и чтобы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_21_OVRAभNYH]]/URI
+\]
+
+Существует ряд аналогичных подходов (см. [8]), основанных на получении строго положительно определенных аппроксимаций матрицы Гессе. При минимизации овражных функций такие алгоритмы оказываются малоэффективными из-за трудностей в подборе параметров $URI[[http://libmeta.ru/me/formula/aux/1159_47_OVRAभNYH]]/URI$ и т. Д. Выбор әтих параметров основан на информации о величине наименьших по модулю собственных значений матрицы Гессе, а при реальных вычислениях и большой степени овражности эта информация сильно искажена.
+
+Более целесообразно обобщение метода Ньютона на случай минимизации овражных функций проводится на базе непрерывного принципа оптимизации. Функции $URI[[http://libmeta.ru/me/formula/aux/1159_48_OVRAभNYH]]/URI$ ставится в соответствие дифференциальная система (3), интегрируемая системным методом (см. URI[[http://libmeta.ru/me/relation/1159_2_OVRAभNYH]]/URI). URI[[http://libmeta.ru/me/relation/1159_1_OVRAभNYH]]/URI минимизации принимает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_22_OVRAभNYH]]/URI
+\]
+
+Предложен [1] алгоритм минимизации овражной функции, основанный на использовании свойств жестких систем. Пусть функция $URI[[http://libmeta.ru/me/formula/aux/1159_49_OVRAभNYH]]/URI$ в окрестности $URI[[http://libmeta.ru/me/formula/aux/1159_50_OVRAभNYH]]/URI$ аппроксимируется квадратичной функцией (6). Матрица $URI[[http://libmeta.ru/me/formula/aux/1159_51_OVRAभNYH]]/URI$ и вектор $URI[[http://libmeta.ru/me/formula/aux/1159_52_OVRAभNYH]]/URI$ вычисляются, напр., с помощью конечноразностной аппроксимации. Из представления әлементов матрицы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_23_OVRAभNYH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1159_53_OVRAभNYH]]/URI$,-ортонормированный базис собственных векторов $URI[[http://libmeta.ru/me/formula/aux/1159_54_OVRAभNYH]]/URI$, следует, что неточное измерение этих әлементов искажает информацию о малых собственных значениях плохо обусловленной матрицы, а следовательно, приводит к некорректности задачи минимизации функции (6).
+
+Вместе с тем система дифференциальных уравнений спуска для овражной функции (6)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_24_OVRAभNYH]]/URI
+\]
+
+имеет решение, в к-ром в силу условия (1) слагаемые с сомножителями $URI[[http://libmeta.ru/me/formula/aux/1159_55_OVRAभNYH]]/URI$ оказывают влияние лишь на малом начальном отрезке длиной $URI[[http://libmeta.ru/me/formula/aux/1159_56_OVRAभNYH]]/URI$.
+
+Другими словами, компоненты вектора $URI[[http://libmeta.ru/me/formula/aux/1159_57_OVRAभNYH]]/URI$ удовлетворяют равенству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_25_OVRAभNYH]]/URI
+\]
+
+быстро переходящему в стационарную связь
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_26_OVRAभNYH]]/URI
+\] где $URI[[http://libmeta.ru/me/formula/aux/1159_58_OVRAभNYH]]/URI$ - компоненты вектора, удовлетворяющие равенству (12). Это свойство используется в алгоритме. Выражая $URI[[http://libmeta.ru/me/formula/aux/1159_59_OVRAभNYH]]/URI$-ю компоненту вектора $URI[[http://libmeta.ru/me/formula/aux/1159_60_OVRAभNYH]]/URI$, к-рой соответств ует максимальная компонента вектора $URI[[http://libmeta.ru/me/formula/aux/1159_61_OVRAभNYH]]/URI$, через остальные компоненты, вместо функции $URI[[http://libmeta.ru/me/formula/aux/1159_62_OVRAभNYH]]/URI$ получают новую функцию с аргументом размерности $URI[[http://libmeta.ru/me/formula/aux/1159_63_OVRAभNYH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_27_OVRAभNYH]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1159_28_OVRAभNYH]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1159_29_OVRAभNYH]]/URI
+\]
+
+По функции (13) с помощью конетноразностной аппроксимации находится новая матрица $URI[[http://libmeta.ru/me/formula/aux/1159_64_OVRAभNYH]]/URI$ порядка $URI[[http://libmeta.ru/me/formula/aux/1159_65_OVRAभNYH]]/URI$ и вектор $URI[[http://libmeta.ru/me/formula/aux/1159_66_OVRAभNYH]]/URI$. Здесь важно не только и не столько понижение размерности пространс тва поиска, сколько уменьшение степени овражности, т. к. при минимизации новой функции в подпространстве, ортогональном вектору $URI[[http://libmeta.ru/me/formula/aux/1159_67_OVRAभNYH]]/URI$, большое собственное значение уже не оказывает влияния на вычислительный процесс. Самым существенным моментом здесь является требование получения $URI[[http://libmeta.ru/me/formula/aux/1159_68_OVRAभNYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1159_69_OVRAभNYH]]/URI$ по функции (13), а не по матрице $URI[[http://libmeta.ru/me/formula/aux/1159_70_OVRAभNYH]]/URI$ и вектору b. Коэффициенты связи (12) находят степенным методом, как коэффициенты любого уравнения системы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1159_30_OVRAभNYH]]/URI
+\]
+
+Если степень овражности не понижается или понижается незначительно, то процесс исключения координат вектора $URI[[http://libmeta.ru/me/formula/aux/1159_71_OVRAभNYH]]/URI$ продолжается рекурсивно до необходимого ее уменьшения.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_efed5cd8559aed6a93a7g-1.jpg?height=52&amp;width=804&amp;top_left_y=1130&amp;top_left_x=154)
+ч е р н о p у шा к и й И. г., Численные методы решения жесталгоритмы, пер. с франц., М., 1973; [3] П п е н и ч н ы й Б. Н., Д а в и л и н Ю. М., Численные методы в әкстремальных задачах, М., 1975; [4] По л я к 6 . Т., «энономика и математич. методы», 1967, т. 3, № 6, с. 881-902; [5] Ф а д д е е в Д. К., Ф а д д е е в а В. Н., Вычислительные URI[[http://libmeta.ru/me/relation/1159_6_OVRAभNYH]]/URI линейной ал-
+гебры, 2 изд., М., 1963; [6] у а й л Д Д.- Д ж., URI[[http://libmeta.ru/me/relation/1159_5_OVRAभNYH]]/URI поиска әкстремума, пер. с англ., М., $URI[[http://libmeta.ru/me/formula/aux/1159_72_OVRAभNYH]]/URI$ е л ьф а н д И. М., c. $URI[[http://libmeta.ru/me/formula/aux/1159_73_OVRAभNYH]]/URI$ [8] URI[[http://libmeta.ru/me/relation/1159_4_OVRAभNYH]]/URI URI[[http://libmeta.ru/me/relation/1159_3_OVRAभNYH]]/URI условной оптимизации, пер. с англ., М., 1977.</text>
+  <text_orig>численные методы отыскания минимумов функций многих переменных. Пусть задана ограниченная снизу дважды непрерывно дифференцируемая по своим аргументам функция
+
+\[
+J(x)=J\left(x_{1}, \ldots, x_{m}\right),
+\]
+
+для к-рой известно, что при нек-ром век'оре $x^{*}=$ $=\left(x_{1}^{*}, \ldots, x_{m}^{*}\right)^{T}\left({ }^{T}-\right.$ знак транспонирования) она принимает наименьшее значение. Требуется построить последовательность векторов $\left\{x_{n}\right\}, x_{n}=\left(x_{1 n}, \ldots, x_{m n}\right)^{T}$, такую, что
+
+\[
+\lim _{n \rightarrow \infty} J\left(x_{n}\right)=J\left(x^{*}\right)
+\]
+
+Существует много методов, позволяющих получить указанную последовательность векторов. Однако общим недостатком большинства алгоритмов является резкое ухудшение их свойств в случаях, когда поверхности уровня минимизируемой функции $J(x)=$ const имеют структуру, сильно отличающуюся от сферической. В этом случае нек-рую область $Q$, в к-рой норма вектора-градиента
+
+\[
+J^{\prime}(x)=\left(\frac{\partial J}{\partial x_{1}}, \ldots, \frac{\partial J}{\partial x_{m}}\right)^{T}
+\]
+
+существенно меньше, чем в остальной части пространства, наз. д н о м о в р а г а, а саму функцию - о вр а ж н о й ф У н к ц и е й. Если размерность пространства аргументов минимизируемой функции больше двух, то структура поверхностей уровня овражных функций может оказаться весьма сложной. Появляются $(m-k)-$ мерные овраги, где число $k$ изменяется от 1 до $m-1$. В трехмерном пространстве, напр., возможны одномерные и двумерные овраги.
+
+Функции овражного типа локально характеризуются плохой обусловленностью матриц двух производных (м а т р и ц $\Gamma$ е c c e)
+
+\[
+J^{\prime \prime}(x)=\left\|\frac{\partial^{2} J(x)}{\partial x_{i} \partial x_{j}}\right\|, \quad i, j=1, \ldots, m,
+\]
+
+что приводит к сильному изменению функции $J(x)$ вдоль направлений, совпадающих с собственными векторами матрицы Гессе для болыших собственных чисел, и к слабому изменению вдоль других направлений, отвечающих малым собственным значениям матрицы Гессе.
+
+Большинство известных методов опт имизации позволяет достаточно быстро попадать на дно оврага, при- водя иногда к существенному уменьшению значения функции $\boldsymbol{J}(x)$ по сравнению с его значением в начальной точке (спуск на дно оврага). Однако далее процесс резко замедляется и практически останавливается в нек-рой точке из $Q$, к-рая может быть расположена очень далеко от истинной точки минимума.
+
+Дважды непрерывно дифференцируемая по своим аргументам функция $\boldsymbol{J}(x)$ наз. о в р а ж н о й ф у н к цие й (см. [1]), если существует нек-рая область $G \subset \mathbb{R}^{m}$, где собственные значения матрицы Гессе $J^{\prime \prime}(x)$, упорядоченные в любой точке $x \in G$ по убыванию модулей, удовлетворяют неравенствам
+
+\[
+0&lt;\left|\min _{i} \lambda_{i}(x)\right| \ll \lambda_{1}(x) .
+\]
+
+Степень овражности характеризуется числом
+
+\[
+S=\lambda_{1} / \mid \min _{i} \neq 0
+\]
+
+Если собственные значения $J^{\prime \prime}(x)$ в области $G$ удовлетворяют неравенствам
+
+$\left|\lambda_{m}(x)\right| \leqslant \ldots \leqslant\left|\lambda_{m-r+1}(x)\right| \ll \lambda_{m-r}(x) \leqslant \ldots \leqslant \lambda_{1}(x)$, то число $r$ наз. р а з м р н о с т ю о в р а г а функции $J(x)$ при $x \in G$ (см. [1]).
+
+Системы дифференциальных уравнений, описывающие траекторию спуска овражной функции $\boldsymbol{J}(x)$,
+
+\[
+\frac{d x}{d t}=-J^{\prime}(x), x(0)=x_{0},
+\]
+
+являются жесткими дифберенциальными системами.
+
+В частности, когда функция $J(x)$ сильно выпуклая и матрица Гессе положительно определена (все ее собственные значения строго больше нуля), неравенства (1) совпадают с известным требованием плохой обусловленности матрицы Гессе
+
+\[
+k\left(J^{\prime \prime}(x)\right)=\max _{i} \lambda_{i}(x) / \min _{i} \lambda_{i}(x) \gg 1 .
+\]
+
+В этом случае спектральное число обусловленности совпадает со степеныо овражности.
+
+Метод покоординатного спуска (см. [2])
+
+$J\left(x_{1, k+1}, \ldots, x_{i-1, k+1}, x_{i, k+1}, x_{i+1, k}, \ldots, x_{m, k}\right)=$ $=\min _{y} J\left(x_{1, k+1}, \ldots, x_{i-1, k+1}, y, x_{i+1, k}, \ldots, x_{m, k}\right)$,
+
+\[
+k=0,1,2, \ldots,
+\]
+
+несмотря на простоту и универсальность, в овражной ситуации әффективен лишь в редких случаях ориентации оврагов вдоль координатных осей.
+
+Предложена (см. [2]) модернизапия метода (4), состоящая в использовании процедуры вращения осей координат так, чтобы одна из осей была направлена влоль $x_{k}-x_{k-1}$, после чего начинается псиск на $(k+1)-м$ шаге. Такой подход приводит к тому, что одна из осей имеет тенденцию выстраиваться вдоль образующей дна оврага, позволяя в ряде случаев весьма успешно проводить минимизацию функций с одномерными оврагами. В случае многомерных оврагов метод непригоден.
+
+Схема метода наискорейшего спуска задается разностным уравнением
+
+\[
+x_{k+1}=x_{k}-h_{k} J_{k}^{\prime}, J_{k}^{\prime}=J^{\prime}\left(x_{k}\right),
+\]
+
+где $h_{k}$ выбирается из условия
+
+\[
+J\left(x_{k+1}\right)=\min _{h&gt;0} J\left(x_{k}-h J_{k}^{\prime}\right)
+\]
+
+Для сильно выпуклой овражной функции, в частности квадратичной
+
+\[
+J(x)=\frac{1}{2} x^{T} D x-b^{T} x
+\] последовательность $\left\{x_{k}\right\}$, построенная алгоритмом (5), сходится к точке минимума функции $x^{*}$ по закону геометрич. прогрессии (см. [3])
+
+\[
+\left\|x_{k}-x^{*}\right\| \leqslant C q^{k}
+\]
+
+где $C=\mathrm{const}$,
+
+\[
+q=\left[k\left(J^{\prime \prime}\left(x^{*}\right)\right)-1\right] /\left[k\left(J^{\prime \prime}\left(x^{*}\right)\right)+1\right]
+\]
+
+Так как для овражной функции $k\left(J^{\prime \prime}\left(x^{*}\right)\right) \gg 1$, то $q \simeq 1$ и сходимость практически отсутствует.
+
+Аналогичная картина наблюдается и для простой градиентной схемы (см. [4])
+
+\[
+x_{k+1}=x_{k}-h J_{k}^{\prime \prime}, J_{k+1}=J\left(x_{k+1}\right), h=\text { const. }
+\]
+
+Ускорение ее сходимости основано на использовании результатов предыдущих итераций для уточнения дна оврага. Может быть использован (см. [4] [5]) градиентный метод (7) с вычислением на каждой итерации отношения $q=\left\|J_{k}^{\prime}\right\| /\left\|J_{k-1}^{\prime}\right\|$. Когда оно устанавливается около нек-рого постоянного значения $q=1$, делается большой ускоряющий шаг согласно выражению
+
+\[
+x_{k+1}=x_{k}-\frac{h}{1-q} J_{k}^{\prime} \text {. }
+\]
+
+Далее из точки $x_{k+1}$ продолжается спуск градиентным методом до следующего ускоряющего шага.
+
+Различные версии метода параллельных касательных (см. [4] - [6]) основаны на выполнении ускоряющего шага вдоль направления $x_{k+2}-x_{k}$, задаваемого точками $x_{k}, x_{k+2}$ в градиентном методе. В методе «тяжелого шарика» (см. [4]) очередное приближение имеет вид
+
+\[
+x_{k+1}=x_{k}-\alpha J_{k}^{\prime}+\beta\left(x_{k}-x_{k-1}\right) .
+\]
+
+В м е т о д е о в р а г о в (см. [7]) предлагается провести локальные спуски градиентным методом (7) из двух случайно выбранных исходных точек, а затем выполнить ускоряющий шаг по направлению, задаваемому двумя полученными на дне оврага точками.
+
+Все эти методы немногим сложнее градиентного метода (7) и построены на его основе. Ускорение сходимости получается для одномерных оврагов. В более общих случаях многомерных оврагов, где сходимость этих схем резко замедляется, приходится обращаться к более мощным методам квадратичной аппроксимации, в основе к-рых лежит метод Ньютона
+
+\[
+x_{k+1}=x_{k}-\left(J_{k}^{\prime \prime}\right)^{-1} J_{k}^{\prime}, J_{k}^{\prime \prime}=J^{\prime \prime}\left(x_{k}\right) \text {. }
+\]
+
+Точка минимума функции (6) удовлетворяет системе линейных уравнений
+
+\[
+D \boldsymbol{x}=\boldsymbol{b},
+\]
+
+и при условии абсолютной точности всех вычислений для квадратичной функции метод Ньютона независимо от степени овражности (2) и размерности оврагов приводит к минимуму за один шаг. На самом деле, при больших числах обусловленности $k(D)$ при ограниченной разрядности вычислений задача получения решения (9) может быть некорректной, и небольшие деформации элементов матрицы $D$ и вектора $b$ могут приводить к большим вариациям $x^{*}$.
+
+При умеренных степенях овражности в выпуклой ситуации метод Ньютона часто оказывается более предпочтительным по скорости сходимости, чем другие, напр. градиентные, методы.
+
+Большой класс квадратичных (квазиньютоновских) методов основан на использовании сопряженных направлений (см. [2], [3], [8]). Эти алгоритмы для случая минимизации выпуклой функции оказываются весьма эффективными, ибо, имея квадратичное окончание, они не требуют вычисления матрицы двух производных. Иногда (см. [8]) итерации строятся по схеме
+
+\[
+x_{k+1}=x_{k}-\left(\beta_{k} E+J_{k}^{\prime \prime}\right)^{-1} J_{k}^{\prime},
+\]
+
+где $E$ - единичная матрица. Скаляр $\beta_{k}$ подбирается так, чтобы матрица $J_{k}^{\prime \prime}+\beta_{k} E$ была положительно определенной и чтобы
+
+\[
+\left\|x_{k+1}-x_{k}\right\| \leqslant \varepsilon_{k} .
+\]
+
+Существует ряд аналогичных подходов (см. [8]), основанных на получении строго положительно определенных аппроксимаций матрицы Гессе. При минимизации овражных функций такие алгоритмы оказываются малоэффективными из-за трудностей в подборе параметров $\beta_{k}, \varepsilon_{k}$ и т. Д. Выбор әтих параметров основан на информации о величине наименьших по модулю собственных значений матрицы Гессе, а при реальных вычислениях и большой степени овражности эта информация сильно искажена.
+
+Более целесообразно обобщение метода Ньютона на случай минимизации овражных функций проводится на базе непрерывного принципа оптимизации. Функции $\boldsymbol{J}(x)$ ставится в соответствие дифференциальная система (3), интегрируемая системным методом (см. Жесткая дифференциальная система). Алгоритм минимизации принимает вид
+
+\[
+\begin{gathered}
+x_{k+1}=x_{k}-\Phi\left(2^{N} h_{k}^{0}\right) J_{k}^{\prime} \\
+\Phi\left(2^{N} h_{k}^{0}\right)=\int_{0}^{2 N h_{k}^{0}} \exp \left(-J_{k}^{\prime \prime} \tau\right) d \tau \\
+J_{k+1}=\min _{N} J\left(x_{k}-\Phi\left(2^{N} h_{k}^{0}\right) J_{k}^{\prime}\right) \\
+\left.\Phi\left(h_{k}^{0}\right)=h_{k}^{0}\left[E-\frac{h_{k}^{0}}{2} J_{k}^{\prime \prime}+\frac{\left(h_{k}^{0}\right)^{2}}{6}\left(J_{k}^{\prime \prime}\right)^{2}-\ldots\right], J_{k}^{\prime \prime}\left(2^{s} h_{k}^{0}\right)\right], \\
+\Phi\left(2^{s+1} h_{k}^{0}\right)=\Phi\left(2^{s} h_{k}^{0}\right)\left[2 E-J_{k}^{\prime \prime}\right) \\
+s=0,1, \ldots, N-1
+\end{gathered}
+\]
+
+Предложен [1] алгоритм минимизации овражной функции, основанный на использовании свойств жестких систем. Пусть функция $J(x)$ в окрестности $x_{0}$ аппроксимируется квадратичной функцией (6). Матрица $D$ и вектор $\boldsymbol{b}$ вычисляются, напр., с помощью конечноразностной аппроксимации. Из представления әлементов матрицы
+
+\[
+d_{i j}=\sum_{s=1}^{m} u_{i s} u_{j s} \lambda_{s}
+\]
+
+где $u_{s}=\left(u_{1 s}, \ldots, u_{m s}\right)^{T}, s=1, \ldots, m$,-ортонормированный базис собственных векторов $D$, следует, что неточное измерение этих әлементов искажает информацию о малых собственных значениях плохо обусловленной матрицы, а следовательно, приводит к некорректности задачи минимизации функции (6).
+
+Вместе с тем система дифференциальных уравнений спуска для овражной функции (6)
+
+\[
+\frac{d x}{d t}=-D x+b, x(0)=x_{0}
+\]
+
+имеет решение, в к-ром в силу условия (1) слагаемые с сомножителями $\exp \left(-\lambda_{1} t\right)$ оказывают влияние лишь на малом начальном отрезке длиной $\tau_{п с}=O(\lambda-1)$.
+
+Другими словами, компоненты вектора $x(t)$ удовлетворяют равенству
+
+\[
+x^{T}(t) u_{1}-\lambda_{1}^{-1} b^{T} u_{1}=\left(x_{0}^{T} u_{1}-\lambda_{1}^{-1} b^{T} u_{1}\right) \exp \left(-\lambda_{1} t\right),
+\]
+
+быстро переходящему в стационарную связь
+
+\[
+\sum_{i=1}^{m} u_{i 1} \bar{x}_{i}-\lambda_{1}^{-1} \sum_{i=1}^{m} b_{i} u_{i 1}=0
+\] где $\bar{x}_{i}$ - компоненты вектора, удовлетворяющие равенству (12). Это свойство используется в алгоритме. Выражая $j$-ю компоненту вектора $\bar{x}$, к-рой соответств ует максимальная компонента вектора $u_{1}$, через остальные компоненты, вместо функции $\boldsymbol{J}(x)$ получают новую функцию с аргументом размерности $(m-1)$ :
+
+\[
+J\left(\bar{x}_{1}, \ldots, \bar{x}_{i-1},-\right.
+\]\[
+\left.-u_{j 1}^{-1} \sum_{i=1, i \neq j}^{m}\left(u_{i 1} \bar{x}_{i}-\lambda_{1}^{-1} b_{i} u_{i 1}\right), x_{j+1}, \ldots, x_{m}\right)=
+\]\[
+=\bar{J}\left(\bar{x}_{1}, \ldots, \bar{x}_{j-1}, \bar{x}_{j+1}, \ldots, \bar{x}_{m}\right) \text {. }
+\]
+
+По функции (13) с помощью конетноразностной аппроксимации находится новая матрица $\bar{D}$ порядка $(m-1)$ и вектор $\bar{b}$. Здесь важно не только и не столько понижение размерности пространс тва поиска, сколько уменьшение степени овражности, т. к. при минимизации новой функции в подпространстве, ортогональном вектору $u_{1}$, большое собственное значение уже не оказывает влияния на вычислительный процесс. Самым существенным моментом здесь является требование получения $\bar{D}$ и $\bar{b}$ по функции (13), а не по матрице $D$ и вектору b. Коэффициенты связи (12) находят степенным методом, как коэффициенты любого уравнения системы
+
+\[
+D^{k} x=D^{k-1} \boldsymbol{b} .
+\]
+
+Если степень овражности не понижается или понижается незначительно, то процесс исключения координат вектора $x$ продолжается рекурсивно до необходимого ее уменьшения.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_efed5cd8559aed6a93a7g-1.jpg?height=52&amp;width=804&amp;top_left_y=1130&amp;top_left_x=154)
+ч е р н о p у шा к и й И. г., Численные методы решения жесталгоритмы, пер. с франц., М., 1973; [3] П п е н и ч н ы й Б. Н., Д а в и л и н Ю. М., Численные методы в әкстремальных задачах, М., 1975; [4] По л я к 6 . Т., «Энономика и математич. методы», 1967, т. 3, № 6, с. 881-902; [5] Ф а д д е е в Д. К., Ф а д д е е в а В. Н., Вычислительные методы линейной ал-
+гебры, 2 изд., М., 1963; [6] у а й л Д Д.- Д ж., Методы поиска әкстремума, пер. с англ., М., $1967 ;[7] \Gamma$ е л ьф а н д И. М., c. $295-98 ;$ [8] численные методы условной оптимизации, пер. с англ., М., 1977. Ю. В. Ракитский</text_orig>
+</article>

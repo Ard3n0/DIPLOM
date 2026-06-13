@@ -1,0 +1,642 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/926_KOVARIANTNOE" alphabetic_pos="926">
+  <title>КОВАРИАНТНОЕ ДИФФЕРЕНЦИРОВАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>449</start>
+    <end>451</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] R i c c i G., L e v i-C i v i t a T., &quot;math. Ann.»&quot;,![](https://cdn.mathpix.com/cropped/2023_07_08_cfe0bb63866ce7cad744g-1.jpg?height=45&amp;width=826&amp;top_left_y=1714&amp;top_left_x=122)Риманова геометрия и тензорный анализ, М., Д. е н А. П., Пространства аффинной связности, 2 изд., М., груп;ы голономий, пер. с франц., М., 1960; [5] Х е л г а с о н С., Дифференциальная геометрия и симметрические пространства, пер. с англ., М., 1964; [6] Б и ш о п Р., К р и т т е н д е н Р., Геометрия многообразий, пер. с англ., М., 1967; [7] Г р о м о л Д., К ли н ген берг в., Me й е p В., Риманова геометрия в целом, пер. с нем., M., 1971; [8] K o b a y a s h i S., N o m i$\mathrm{z} \mathbf{u}$ K., Foundations of differential geometry, $\mathrm{v} .1-2$, N. Y.р., 1963-69; [9] Итоги науки. Алгебра. Топология. Геометг е н П., Дифференциальная геометрия и расслоения, пер. с нем., М., 1975.</literature_orig>
+    <unit>
+      <author>Ricci G.</author>
+      <author>Levi-Civita T.</author>
+      <title>&quot;math. Ann.»&quot;</title>
+      <publication/>
+      <year>2023</year>
+      <other>М., Д. е н А. П., Пространства аффинной связности, 2 изд., М., груп;ы голономий, пер. с франц., М., 1960; [5] Х е л г а с о н С., Дифференциальная геометрия и симметрические пространства, пер. с англ., М., 1964; [6] Б и ш о п Р., К р и т т е н д е н Р., Геометрия многообразий, пер. с англ., М., 1967; [7] Г р о м о л Д., К ли н ген берг в., Me й е p В., Риманова геометрия в целом, пер. с нем., M., 1971; [8] K o b a y a s h i S., N o m i$\mathrm{z} \mathbf{u}$ K., Foundations of differential geometry, $\mathrm{v} .1-2$, N. Y.р., 1963-69; [9] Итоги науки. Алгебра. Топология. Геометг е н П., Дифференциальная геометрия и расслоения, пер. с нем., М., 1975.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/926_1_KOVARIANTNOE">\left(\nabla_{X} U\right)_{p}=\lim _{t \rightarrow 0} \frac{\tau_{t}^{-1}\left(U_{x(t)}\right)^{-U_{p}}}{t},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/926_2_KOVARIANTNOE">\left(\nabla_{X} f\right)_{p}=\lim _{t \rightarrow 0} \frac{f(x(t))-f(p)}{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/926_3_KOVARIANTNOE">(D U)_{\nu(0)}=\left(\nabla_{\dot{\gamma}_{(t)}} U\right)_{\nu(0)} d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/926_4_KOVARIANTNOE">\begin{aligned}&amp; (\nabla U)\left(\omega^{1}, \ldots, \omega^{r} ; X_{1}, \ldots, X_{s}, X\right)= \\&amp; =\left(\nabla_{X} U\right)\left(\omega^{1}, \ldots, \omega^{r} ; X_{1}, \ldots, X_{s}\right) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/926_5_KOVARIANTNOE">\begin{gathered}(\nabla X U)_{j}^{i_{1} i_{2}}= \\=\left(\frac{\partial U_{j}^{i_{1} i_{2}}}{\partial x_{k}}+\Gamma_{k m}^{i_{1}} U_{j}^{m i_{2}}+\Gamma_{k m}^{i_{2}} U_{j}^{i_{1} m}-\Gamma_{k j}^{m} U_{m}^{i_{1} i_{2}}\right) X^{k} \equiv \\\equiv \nabla_{k} U_{j}^{i_{1} i_{2}} X^{k} ; \\\left(D U_{\gamma(t)}\right)_{j}^{i_{1} i_{2}}=\nabla_{k} U_{j}^{i_{1} i_{2}} d x^{k}, d x^{k}=\dot{x}^{k} d t, \gamma(t)=\left\{x^{k}(t)\right\}, \\D U=\left(U_{j, k}^{i_{1} i_{2}} e_{i_{1}} \otimes e_{i_{2}} \otimes e^{j}\right) e^{k}, \nabla U=U_{j, k}^{i_{1} i_{2}} e_{i_{1}} \otimes e_{i_{2}} \otimes e^{j} \otimes e^{k}, \\\nabla X^{k}=(D U)(X)=U_{j, k}^{i_{1} i_{2}} X^{k} e_{i_{1}} \otimes e_{i_{2}} \otimes e^{j}=C_{2}^{3}(\nabla U \otimes X),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/926_6_KOVARIANTNOE">\begin{aligned}&amp; \nabla_{\lambda} \nabla_{\mu} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}-\nabla_{\mu} \nabla_{\lambda} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}= \\&amp; =\sum_{k=1}^{r} R_{j \lambda \mu}^{i_{k}} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{k-1} i_{k+1} \ldots i_{r}} \\&amp; -\sum_{k=1}^{s} R_{j_{k} \lambda \mu}^{i} U_{j_{1} \ldots j_{k-1} i_{k+1} \ldots j_{s}}^{i_{1} \ldots i_{r}}-S_{\lambda \mu \nabla k}^{k} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}} \text {, } \\&amp; \text { (тождество Риччи) } \\&amp; \nabla_{X} \nabla_{Y} U-\nabla_{Y} \nabla_{X} U=\left(\sum_{k=1}^{r} R_{j \lambda \mu}^{i_{k}} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{k-1} i_{k+1} \cdots i_{r}}\right. \\&amp; \left.-\sum_{k=1}^{s} R_{j_{k} \lambda \mu}^{i} U_{j_{1} \ldots j_{k-1} i_{k+1} \cdots j_{s}}^{i_{1} \ldots i_{r}}\right) X^{\lambda} X^{\mu}+ \\&amp; +\nabla_{[X, Y]} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/926_7_KOVARIANTNOE">\begin{gathered}R_{j k l}^{i}=\frac{\partial}{\partial x k} \Gamma_{l j}^{i}-\frac{\partial}{\partial x l} \Gamma_{k j}^{i}+\Gamma_{k p}^{i} \Gamma_{l j}^{p}-\Gamma_{k j}^{p} \Gamma_{l p}^{i}, \\S_{j k}^{i}=\Gamma_{j k}^{i}-\Gamma_{k j}^{i} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_1_KOVARIANTNOE">\mathcal{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_2_KOVARIANTNOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_3_KOVARIANTNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_4_KOVARIANTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_5_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_6_KOVARIANTNOE">x_{p} \neq 0, p \in M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_7_KOVARIANTNOE">u-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_8_KOVARIANTNOE">(r, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_9_KOVARIANTNOE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_10_KOVARIANTNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_11_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_12_KOVARIANTNOE">p \in M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_13_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_14_KOVARIANTNOE">(r, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_15_KOVARIANTNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_16_KOVARIANTNOE">\gamma_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_17_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_18_KOVARIANTNOE">x(0)=p, U_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_19_KOVARIANTNOE">u_{x(t)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_20_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_21_KOVARIANTNOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_22_KOVARIANTNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_23_KOVARIANTNOE">\tau_{t}^{-1}\left(U_{x(t)}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_24_KOVARIANTNOE">u_{x(t)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_25_KOVARIANTNOE">\gamma_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_26_KOVARIANTNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_27_KOVARIANTNOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_28_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_29_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_30_KOVARIANTNOE">u_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_31_KOVARIANTNOE">u_{x(t)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_32_KOVARIANTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_33_KOVARIANTNOE">t_{s}^{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_34_KOVARIANTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_35_KOVARIANTNOE">t_{p} M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_36_KOVARIANTNOE">t_{x(t)} M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_37_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_38_KOVARIANTNOE">u_{p} \in T_{s}^{r}\left(T_{p} M\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_39_KOVARIANTNOE">t_{s}^{r}\left(t_{p} M\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_40_KOVARIANTNOE">\gamma_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_41_KOVARIANTNOE">u_{x(t)} \in T_{s}^{r}\left(T_{x(t)} M\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_42_KOVARIANTNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_43_KOVARIANTNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_44_KOVARIANTNOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_45_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_46_KOVARIANTNOE">u_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_47_KOVARIANTNOE">\gamma_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_48_KOVARIANTNOE">\left(\nabla x L^{T}\right)_{p}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_49_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_50_KOVARIANTNOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_51_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_52_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_53_KOVARIANTNOE">\gamma_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_54_KOVARIANTNOE">u_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_55_KOVARIANTNOE">\gamma_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_56_KOVARIANTNOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_57_KOVARIANTNOE">\mathscr{\sigma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_58_KOVARIANTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_59_KOVARIANTNOE">(\nabla X)_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_60_KOVARIANTNOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_61_KOVARIANTNOE">x_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_62_KOVARIANTNOE">x_{p} f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_63_KOVARIANTNOE">x_{p}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_64_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_65_KOVARIANTNOE">(\nabla X U)_{p}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_66_KOVARIANTNOE">d U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_67_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_68_KOVARIANTNOE">\gamma(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_69_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_70_KOVARIANTNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_71_KOVARIANTNOE">d \gamma=\dot{\gamma}(0) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_72_KOVARIANTNOE">\nabla X U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_73_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_74_KOVARIANTNOE">(r, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_75_KOVARIANTNOE">p \in M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_76_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_77_KOVARIANTNOE">d U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_78_KOVARIANTNOE">t_{s}^{r}(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_79_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_80_KOVARIANTNOE">(d U)(X)=\nabla X U ; 2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_81_KOVARIANTNOE">\nabla U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_82_KOVARIANTNOE">(r, s+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_83_KOVARIANTNOE">d U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_84_KOVARIANTNOE">\omega^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_85_KOVARIANTNOE">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_86_KOVARIANTNOE">d U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_87_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_88_KOVARIANTNOE">(d U)(X)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_89_KOVARIANTNOE">(r, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_90_KOVARIANTNOE">p=\gamma(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_91_KOVARIANTNOE">x=\dot{\gamma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_92_KOVARIANTNOE">(d U)_{\gamma(0)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_93_KOVARIANTNOE">\gamma(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_94_KOVARIANTNOE">\nabla U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_95_KOVARIANTNOE">u ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_96_KOVARIANTNOE">x^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_97_KOVARIANTNOE">e_{i}=\left.\frac{\partial}{\partial x^{i}}\right|_{p}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_98_KOVARIANTNOE">e^{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_99_KOVARIANTNOE">x^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_100_KOVARIANTNOE">u_{j_{1} \ldots j_{s}}^{i_{1} \ldots i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_101_KOVARIANTNOE">\gamma_{i j}^{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_102_KOVARIANTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_103_KOVARIANTNOE">\nabla k U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_104_KOVARIANTNOE">\quad U_{j_{1} \ldots j_{s, k}}^{i_{1} \ldots i_{r}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_105_KOVARIANTNOE">\nabla U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_106_KOVARIANTNOE">r=2, s=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_107_KOVARIANTNOE">c_{2}^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_108_KOVARIANTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_109_KOVARIANTNOE">x^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_110_KOVARIANTNOE">(\nabla x U)_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_111_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_112_KOVARIANTNOE">x,\left(\nabla_{k} U\right)_{p}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_113_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_114_KOVARIANTNOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_115_KOVARIANTNOE">x^{k},(d U)_{\gamma(t)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_116_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_117_KOVARIANTNOE">\gamma(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_118_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_119_KOVARIANTNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_120_KOVARIANTNOE">\nabla_{\gamma} U=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_121_KOVARIANTNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_122_KOVARIANTNOE">\nabla_{\gamma} \dot{\gamma}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_123_KOVARIANTNOE">\nabla_{\lambda} \nabla_{\mu} U-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_124_KOVARIANTNOE">-\nabla_{\mu} \nabla_{\lambda} U ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_125_KOVARIANTNOE">\nabla^{m} U=\nabla\left(\nabla^{m-1} U\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_126_KOVARIANTNOE">\nabla^{m} U</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_127_KOVARIANTNOE">r_{j k l}^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_128_KOVARIANTNOE">s_{j k}^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_129_KOVARIANTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_130_KOVARIANTNOE">[x, Y]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_131_KOVARIANTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_132_KOVARIANTNOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_133_KOVARIANTNOE">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_134_KOVARIANTNOE">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_135_KOVARIANTNOE">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_136_KOVARIANTNOE">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/926_137_KOVARIANTNOE">\boldsymbol{k}</formula>
+  </formulas_aux>
+  <relations n="85">
+    <relation uri="http://libmeta.ru/me/relation/926_1_KOVARIANTNOE">
+      <rel_text>многообразий</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_2_KOVARIANTNOE">
+      <rel_text>Подобные</rel_text>
+      <target>http://libmeta.ru/me/article/360_PoDoBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_3_KOVARIANTNOE">
+      <rel_text>результата</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_4_KOVARIANTNOE">
+      <rel_text>сечения</rel_text>
+      <target>http://libmeta.ru/me/article/1284_SEChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_5_KOVARIANTNOE">
+      <rel_text>параллельности</rel_text>
+      <target>http://libmeta.ru/me/article/170_PARALLELEPIPE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_6_KOVARIANTNOE">
+      <rel_text>объекта</rel_text>
+      <target>http://libmeta.ru/me/article/1156_OB'EK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_7_KOVARIANTNOE">
+      <rel_text>перенесения</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_8_KOVARIANTNOE">
+      <rel_text>параллельного</rel_text>
+      <target>http://libmeta.ru/me/article/170_PARALLELEPIPE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_9_KOVARIANTNOE">
+      <rel_text>расслоение</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_10_KOVARIANTNOE">
+      <rel_text>невырожденных матриц</rel_text>
+      <target>http://libmeta.ru/me/article/879_NEVYROZhDENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_11_KOVARIANTNOE">
+      <rel_text>группе</rel_text>
+      <target>http://libmeta.ru/me/article/1207_GRUPІІ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_12_KOVARIANTNOE">
+      <rel_text>представлением</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_13_KOVARIANTNOE">
+      <rel_text>структурной группой</rel_text>
+      <target>http://libmeta.ru/me/article/272_STRUKTURNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_14_KOVARIANTNOE">
+      <rel_text>связностью</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_15_KOVARIANTNOE">
+      <rel_text>расслоению</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_16_KOVARIANTNOE">
+      <rel_text>векторного расслоения</rel_text>
+      <target>http://libmeta.ru/me/article/658_VEKTORNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_17_KOVARIANTNOE">
+      <rel_text>комплексного</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_18_KOVARIANTNOE">
+      <rel_text>сечение</rel_text>
+      <target>http://libmeta.ru/me/article/1284_SEChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_19_KOVARIANTNOE">
+      <rel_text>связностью</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_20_KOVARIANTNOE">
+      <rel_text>тензорного расслоения</rel_text>
+      <target>http://libmeta.ru/me/article/377_TENZORNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_21_KOVARIANTNOE">
+      <rel_text>сечения</rel_text>
+      <target>http://libmeta.ru/me/article/1284_SEChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_22_KOVARIANTNOE">
+      <rel_text>коммутатор</rel_text>
+      <target>http://libmeta.ru/me/article/991_KOMMUTAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_23_KOVARIANTNOE">
+      <rel_text>пространства</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_24_KOVARIANTNOE">
+      <rel_text>связностью</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_25_KOVARIANTNOE">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_26_KOVARIANTNOE">
+      <rel_text>характеризующих</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_27_KOVARIANTNOE">
+      <rel_text>кручения</rel_text>
+      <target>http://libmeta.ru/me/article/130_KRUChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_28_KOVARIANTNOE">
+      <rel_text>порядков</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_29_KOVARIANTNOE">
+      <rel_text>ковариантных производных</rel_text>
+      <target>http://libmeta.ru/me/article/925_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_30_KOVARIANTNOE">
+      <rel_text>компонент</rel_text>
+      <target>http://libmeta.ru/me/article/1009_KOMPLEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_31_KOVARIANTNOE">
+      <rel_text>дифференцирования</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_32_KOVARIANTNOE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_33_KOVARIANTNOE">
+      <rel_text>ковариантные производные</rel_text>
+      <target>http://libmeta.ru/me/article/925_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_34_KOVARIANTNOE">
+      <rel_text>симметричен</rel_text>
+      <target>http://libmeta.ru/me/article/1306_SIMMTTRIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_35_KOVARIANTNOE">
+      <rel_text>получаемый</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_36_KOVARIANTNOE">
+      <rel_text>порядков</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_37_KOVARIANTNOE">
+      <rel_text>ковариантных производных</rel_text>
+      <target>http://libmeta.ru/me/article/925_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_38_KOVARIANTNOE">
+      <rel_text>расслоениях</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_39_KOVARIANTNOE">
+      <rel_text>многообразии</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_40_KOVARIANTNOE">
+      <rel_text>дифференцирование</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_41_KOVARIANTNOE">
+      <rel_text>уравнению</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_42_KOVARIANTNOE">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_43_KOVARIANTNOE">
+      <rel_text>ковариантных производных</rel_text>
+      <target>http://libmeta.ru/me/article/925_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_44_KOVARIANTNOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_45_KOVARIANTNOE">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_46_KOVARIANTNOE">
+      <rel_text>интегрируемости</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_47_KOVARIANTNOE">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_48_KOVARIANTNOE">
+      <rel_text>уравнением</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_49_KOVARIANTNOE">
+      <rel_text>кривой</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_50_KOVARIANTNOE">
+      <rel_text>перенесения</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_51_KOVARIANTNOE">
+      <rel_text>параллельного</rel_text>
+      <target>http://libmeta.ru/me/article/170_PARALLELEPIPE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_52_KOVARIANTNOE">
+      <rel_text>операций</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_53_KOVARIANTNOE">
+      <rel_text>геометрич</rel_text>
+      <target>http://libmeta.ru/me/article/1012_GEOMETRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_54_KOVARIANTNOE">
+      <rel_text>первого порядка</rel_text>
+      <target>http://libmeta.ru/me/article/288_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_55_KOVARIANTNOE">
+      <rel_text>диффференциалами</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_56_KOVARIANTNOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_57_KOVARIANTNOE">
+      <rel_text>связей</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_58_KOVARIANTNOE">
+      <rel_text>диффференцирования</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_59_KOVARIANTNOE">
+      <rel_text>кривой</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_60_KOVARIANTNOE">
+      <rel_text>дифференциалом</rel_text>
+      <target>http://libmeta.ru/me/article/252_DIFFEOMORFTsZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_61_KOVARIANTNOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_62_KOVARIANTNOE">
+      <rel_text>производнӧй</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_63_KOVARIANTNOE">
+      <rel_text>координаты</rel_text>
+      <target>http://libmeta.ru/me/article/1_KOORDiNAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_64_KOVARIANTNOE">
+      <rel_text>пространство</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_65_KOVARIANTNOE">
+      <rel_text>аффинное</rel_text>
+      <target>http://libmeta.ru/me/article/319_AFFINITE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_66_KOVARIANTNOE">
+      <rel_text>операция</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_67_KOVARIANTNOE">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_68_KOVARIANTNOE">
+      <rel_text>координаты</rel_text>
+      <target>http://libmeta.ru/me/article/1_KOORDiNAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_69_KOVARIANTNOE">
+      <rel_text>связности</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_70_KOVARIANTNOE">
+      <rel_text>координаты</rel_text>
+      <target>http://libmeta.ru/me/article/1_KOORDiNAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_71_KOVARIANTNOE">
+      <rel_text>координаты</rel_text>
+      <target>http://libmeta.ru/me/article/1_KOORDiNAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_72_KOVARIANTNOE">
+      <rel_text>производная</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_73_KOVARIANTNOE">
+      <rel_text>ковариантная производная</rel_text>
+      <target>http://libmeta.ru/me/article/925_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_74_KOVARIANTNOE">
+      <rel_text>кривой</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_75_KOVARIANTNOE">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_76_KOVARIANTNOE">
+      <rel_text>локализация</rel_text>
+      <target>http://libmeta.ru/me/article/425_LOKALIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_77_KOVARIANTNOE">
+      <rel_text>поле</rel_text>
+      <target>http://libmeta.ru/me/article/390_POL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_78_KOVARIANTNOE">
+      <rel_text>дифференциалом</rel_text>
+      <target>http://libmeta.ru/me/article/252_DIFFEOMORFTsZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_79_KOVARIANTNOE">
+      <rel_text>ковариантной производной</rel_text>
+      <target>http://libmeta.ru/me/article/925_KOVARIANTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_80_KOVARIANTNOE">
+      <rel_text>поле</rel_text>
+      <target>http://libmeta.ru/me/article/390_POL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_81_KOVARIANTNOE">
+      <rel_text>формуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_82_KOVARIANTNOE">
+      <rel_text>модуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_83_KOVARIANTNOE">
+      <rel_text>диффференциала</rel_text>
+      <target>http://libmeta.ru/me/article/252_DIFFEOMORFTsZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_84_KOVARIANTNOE">
+      <rel_text>поле</rel_text>
+      <target>http://libmeta.ru/me/article/390_POL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/926_85_KOVARIANTNOE">
+      <rel_text>перемещении</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+  </relations>
+  <text>а бс о лют но е ди фферен ц и ров а н и е, - операция, инвариантным образом определяющая понятия производной и дифференциала для полей геометрич. объектов на многообразиях - векторов, тензоров, форм и т. Д. Основные понятия теории К. Д. (под названием абсолютное дифференциальное исчисление) были даны в конце 19 в. в работах Г. Риччи (g. Ricci) и в наиболее полной форме изложены им в 1901 в совместной работе его с Т. Леви-Чивита (t. Levi-Civita) (см. [1]). Сначала теория К. д. строилась на римановых многообразиях и предназначалась в первую очередь для исследования инвариантов дифференциальных форм. Впоследствии оказалось, что определение и свойства К. д. естественным образом связаны с введенными позже понятиями связности и параллельного перенесения на многообразиях, и теперь теория $URI[[http://libmeta.ru/me/formula/aux/926_1_KOVARIANTNOE]]/URI$. д. строится в общих рамках теории связностей. Как аппарат тензорного анализа, $URI[[http://libmeta.ru/me/formula/aux/926_2_KOVARIANTNOE]]/URI$. Д. широко употребляется в теоретич. физике, особенно в общей теории относительности.
+
+Пусть на $URI[[http://libmeta.ru/me/formula/aux/926_3_KOVARIANTNOE]]/URI$-мерном многообразии $URI[[http://libmeta.ru/me/formula/aux/926_4_KOVARIANTNOE]]/URI$ введена афффинная связность и соответствующее параллельное перенесение векторов и вообще тензоров. Пусть $URI[[http://libmeta.ru/me/formula/aux/926_5_KOVARIANTNOE]]/URI$ - гладкое векторное поле, $URI[[http://libmeta.ru/me/formula/aux/926_6_KOVARIANTNOE]]/URI$, и $URI[[http://libmeta.ru/me/formula/aux/926_7_KOVARIANTNOE]]/URI$ тензорное поле типа $URI[[http://libmeta.ru/me/formula/aux/926_8_KOVARIANTNOE]]/URI$, т. е. $URI[[http://libmeta.ru/me/formula/aux/926_9_KOVARIANTNOE]]/URI$ раз контравариантное и $URI[[http://libmeta.ru/me/formula/aux/926_10_KOVARIANTNOE]]/URI$ раз ковариантное; к о в а р и а н т н о й п р о и з в о д о й (относительно данной связности) тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_11_KOVARIANTNOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/926_12_KOVARIANTNOE]]/URI$ вдоль векторного поля $URI[[http://libmeta.ru/me/formula/aux/926_13_KOVARIANTNOE]]/URI$ наз. тензор того же типа $URI[[http://libmeta.ru/me/formula/aux/926_14_KOVARIANTNOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/926_1_KOVARIANTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/926_15_KOVARIANTNOE]]/URI$ - точка интегральной кривой $URI[[http://libmeta.ru/me/formula/aux/926_16_KOVARIANTNOE]]/URI$ векторного поля $URI[[http://libmeta.ru/me/formula/aux/926_17_KOVARIANTNOE]]/URI$ с начальным условием $URI[[http://libmeta.ru/me/formula/aux/926_18_KOVARIANTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/926_19_KOVARIANTNOE]]/URI$ локализации (значения) тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_20_KOVARIANTNOE]]/URI$ в точках $URI[[http://libmeta.ru/me/formula/aux/926_21_KOVARIANTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/926_22_KOVARIANTNOE]]/URI$ соответственно, $URI[[http://libmeta.ru/me/formula/aux/926_23_KOVARIANTNOE]]/URI$ результат параллельного перенесения тензора $URI[[http://libmeta.ru/me/formula/aux/926_24_KOVARIANTNOE]]/URI$ вдоль $URI[[http://libmeta.ru/me/formula/aux/926_25_KOVARIANTNOE]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/926_26_KOVARIANTNOE]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/926_27_KOVARIANTNOE]]/URI$. Таким образом, основная идея определения ковариантной производной тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_28_KOVARIANTNOE]]/URI$ вдоль векторного поля $URI[[http://libmeta.ru/me/formula/aux/926_29_KOVARIANTNOE]]/URI$ заключается в том, что ввиду отсутствия операций между тензорами $URI[[http://libmeta.ru/me/formula/aux/926_30_KOVARIANTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/926_31_KOVARIANTNOE]]/URI$, принадлежащими разным слоям тензорного расслоения над $URI[[http://libmeta.ru/me/formula/aux/926_32_KOVARIANTNOE]]/URI$, т. е. принадлежащими тензорным пространствам $URI[[http://libmeta.ru/me/formula/aux/926_33_KOVARIANTNOE]]/URI$ над разными касательными к $URI[[http://libmeta.ru/me/formula/aux/926_34_KOVARIANTNOE]]/URI$ плоскостями $URI[[http://libmeta.ru/me/formula/aux/926_35_KOVARIANTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/926_36_KOVARIANTNOE]]/URI$, в качестве «приращения» тензора $URI[[http://libmeta.ru/me/formula/aux/926_37_KOVARIANTNOE]]/URI$ рассматривается разность между $URI[[http://libmeta.ru/me/formula/aux/926_38_KOVARIANTNOE]]/URI$ и образом параллельно перенесенного в $URI[[http://libmeta.ru/me/formula/aux/926_39_KOVARIANTNOE]]/URI$ вдоль $URI[[http://libmeta.ru/me/formula/aux/926_40_KOVARIANTNOE]]/URI$ тензора $URI[[http://libmeta.ru/me/formula/aux/926_41_KOVARIANTNOE]]/URI$, и дальше, как обычно, берется предел отношения этого «приращения» к приращению аргумента $URI[[http://libmeta.ru/me/formula/aux/926_42_KOVARIANTNOE]]/URI$. В частности, если для точек $URI[[http://libmeta.ru/me/formula/aux/926_43_KOVARIANTNOE]]/URI$, близких к $URI[[http://libmeta.ru/me/formula/aux/926_44_KOVARIANTNOE]]/URI$, поле $URI[[http://libmeta.ru/me/formula/aux/926_45_KOVARIANTNOE]]/URI$ получено параллельным перенесением тензора $URI[[http://libmeta.ru/me/formula/aux/926_46_KOVARIANTNOE]]/URI$ вдоль $URI[[http://libmeta.ru/me/formula/aux/926_47_KOVARIANTNOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/926_48_KOVARIANTNOE]]/URI$, и тем самым в общем случае ковариантная производная поля $URI[[http://libmeta.ru/me/formula/aux/926_49_KOVARIANTNOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/926_50_KOVARIANTNOE]]/URI$ вдоль $URI[[http://libmeta.ru/me/formula/aux/926_51_KOVARIANTNOE]]/URI$ определяет начальную скорость отличия поля $URI[[http://libmeta.ru/me/formula/aux/926_52_KOVARIANTNOE]]/URI$ вдоль $URI[[http://libmeta.ru/me/formula/aux/926_53_KOVARIANTNOE]]/URI$ от результата параллельного перенесения $URI[[http://libmeta.ru/me/formula/aux/926_54_KOVARIANTNOE]]/URI$ вдоль $URI[[http://libmeta.ru/me/formula/aux/926_55_KOVARIANTNOE]]/URI$. Для тензорных полей нулевой валентности, т. е. для функций $URI[[http://libmeta.ru/me/formula/aux/926_56_KOVARIANTNOE]]/URI$ из кольца диффференцируемых функций $URI[[http://libmeta.ru/me/formula/aux/926_57_KOVARIANTNOE]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/926_58_KOVARIANTNOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/926_2_KOVARIANTNOE]]/URI
+\]
+
+что приводит к совпадению $URI[[http://libmeta.ru/me/formula/aux/926_59_KOVARIANTNOE]]/URI$ с производной $URI[[http://libmeta.ru/me/formula/aux/926_60_KOVARIANTNOE]]/URI$ по вектору $URI[[http://libmeta.ru/me/formula/aux/926_61_KOVARIANTNOE]]/URI$, т. е. с $URI[[http://libmeta.ru/me/formula/aux/926_62_KOVARIANTNOE]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/926_63_KOVARIANTNOE]]/URI$ для любого тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_64_KOVARIANTNOE]]/URI$, по определению, считается $URI[[http://libmeta.ru/me/formula/aux/926_65_KOVARIANTNOE]]/URI$.
+
+Введение ковариантной производной позволяет опроделить к о в а р и а н т ный ди фф е р е нци а л $URI[[http://libmeta.ru/me/formula/aux/926_66_KOVARIANTNOE]]/URI$ для тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_67_KOVARIANTNOE]]/URI$ вдоль гладкой кривой $URI[[http://libmeta.ru/me/formula/aux/926_68_KOVARIANTNOE]]/URI$ как
+
+\[
+URI[[http://libmeta.ru/me/formula/main/926_3_KOVARIANTNOE]]/URI
+\]
+
+и его можно рассматривать как главную линейную часть «приращения&quot; тензора $URI[[http://libmeta.ru/me/formula/aux/926_69_KOVARIANTNOE]]/URI$ (в описанном выше смысле) при URI[[http://libmeta.ru/me/relation/926_85_KOVARIANTNOE]]/URI точки вдоль $URI[[http://libmeta.ru/me/formula/aux/926_70_KOVARIANTNOE]]/URI$ на бесконечно малый участок $URI[[http://libmeta.ru/me/formula/aux/926_71_KOVARIANTNOE]]/URI$. Знание $URI[[http://libmeta.ru/me/formula/aux/926_72_KOVARIANTNOE]]/URI$ для тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_73_KOVARIANTNOE]]/URI$ типа $URI[[http://libmeta.ru/me/formula/aux/926_74_KOVARIANTNOE]]/URI$ в каждой точке $URI[[http://libmeta.ru/me/formula/aux/926_75_KOVARIANTNOE]]/URI$ вдоль каждого векторного поля $URI[[http://libmeta.ru/me/formula/aux/926_76_KOVARIANTNOE]]/URI$ позволяет ввести два поля: 1) URI[[http://libmeta.ru/me/relation/926_84_KOVARIANTNOE]]/URI ковариантного URI[[http://libmeta.ru/me/relation/926_83_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_77_KOVARIANTNOE]]/URI$ как тензорной 1-формы со значениями в URI[[http://libmeta.ru/me/relation/926_82_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_78_KOVARIANTNOE]]/URI$, определенной на векторах $URI[[http://libmeta.ru/me/formula/aux/926_79_KOVARIANTNOE]]/URI$ по URI[[http://libmeta.ru/me/relation/926_81_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_80_KOVARIANTNOE]]/URI$ URI[[http://libmeta.ru/me/relation/926_80_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_79_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_81_KOVARIANTNOE]]/URI$ как тензорного поля типа $URI[[http://libmeta.ru/me/formula/aux/926_82_KOVARIANTNOE]]/URI$, канонически соответствующего форме $URI[[http://libmeta.ru/me/formula/aux/926_83_KOVARIANTNOE]]/URI$ и действующего на 1-форормах $URI[[http://libmeta.ru/me/formula/aux/926_84_KOVARIANTNOE]]/URI$ и векторах $URI[[http://libmeta.ru/me/formula/aux/926_85_KOVARIANTNOE]]/URI$ по фороуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/926_4_KOVARIANTNOE]]/URI
+\]
+
+Обычно под ковариантным URI[[http://libmeta.ru/me/relation/926_78_KOVARIANTNOE]]/URI понимается не сама 1-форма $URI[[http://libmeta.ru/me/formula/aux/926_86_KOVARIANTNOE]]/URI$, а ее значения на векторах $URI[[http://libmeta.ru/me/formula/aux/926_87_KOVARIANTNOE]]/URI$, и в таком толковании $URI[[http://libmeta.ru/me/formula/aux/926_88_KOVARIANTNOE]]/URI$ тоже превращается в тензорное URI[[http://libmeta.ru/me/relation/926_77_KOVARIANTNOE]]/URI типа $URI[[http://libmeta.ru/me/formula/aux/926_89_KOVARIANTNOE]]/URI$, URI[[http://libmeta.ru/me/relation/926_76_KOVARIANTNOE]]/URI к-рого, в частности, при $URI[[http://libmeta.ru/me/formula/aux/926_90_KOVARIANTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/926_91_KOVARIANTNOE]]/URI$ URI[[http://libmeta.ru/me/relation/926_75_KOVARIANTNOE]]/URI с введенным выше ковариантным диф্фференциалом $URI[[http://libmeta.ru/me/formula/aux/926_92_KOVARIANTNOE]]/URI$ вдоль URI[[http://libmeta.ru/me/relation/926_74_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_93_KOVARIANTNOE]]/URI$. Иногда URI[[http://libmeta.ru/me/relation/926_73_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_94_KOVARIANTNOE]]/URI$ называется г ра д и е н т о м т е нз о р а $URI[[http://libmeta.ru/me/formula/aux/926_95_KOVARIANTNOE]]/URI$ а URI[[http://libmeta.ru/me/relation/926_72_KOVARIANTNOE]]/URI ковариантным диффференциалом.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/926_96_KOVARIANTNOE]]/URI$ - локальные URI[[http://libmeta.ru/me/relation/926_71_KOVARIANTNOE]]/URI, $URI[[http://libmeta.ru/me/formula/aux/926_97_KOVARIANTNOE]]/URI$ базисные векторные поля, $URI[[http://libmeta.ru/me/formula/aux/926_98_KOVARIANTNOE]]/URI$ сопряженные базисные 1-формы, $URI[[http://libmeta.ru/me/formula/aux/926_99_KOVARIANTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/926_100_KOVARIANTNOE]]/URI$ URI[[http://libmeta.ru/me/relation/926_70_KOVARIANTNOE]]/URI векторного и тензорного полей в этих базисах, $URI[[http://libmeta.ru/me/formula/aux/926_101_KOVARIANTNOE]]/URI$ коэфффициенты введенной на $URI[[http://libmeta.ru/me/formula/aux/926_102_KOVARIANTNOE]]/URI$ афффинной URI[[http://libmeta.ru/me/relation/926_69_KOVARIANTNOE]]/URI, то, обозначая через $URI[[http://libmeta.ru/me/formula/aux/926_103_KOVARIANTNOE]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/926_104_KOVARIANTNOE]]/URI$ URI[[http://libmeta.ru/me/relation/926_68_KOVARIANTNOE]]/URI тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_105_KOVARIANTNOE]]/URI$, URI[[http://libmeta.ru/me/relation/926_67_KOVARIANTNOE]]/URI следующие выражения (для примера взяты $URI[[http://libmeta.ru/me/formula/aux/926_106_KOVARIANTNOE]]/URI$ )
+
+\[
+URI[[http://libmeta.ru/me/formula/main/926_5_KOVARIANTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/926_107_KOVARIANTNOE]]/URI$ - URI[[http://libmeta.ru/me/relation/926_66_KOVARIANTNOE]]/URI свертки по последним (третьему) контравариантному и (второму) ковариантному индекcam.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/926_108_KOVARIANTNOE]]/URI$ - URI[[http://libmeta.ru/me/relation/926_65_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_64_KOVARIANTNOE]]/URI, $URI[[http://libmeta.ru/me/formula/aux/926_109_KOVARIANTNOE]]/URI$ - афффинные URI[[http://libmeta.ru/me/relation/926_63_KOVARIANTNOE]]/URI, то $URI[[http://libmeta.ru/me/formula/aux/926_110_KOVARIANTNOE]]/URI$ является обычной URI[[http://libmeta.ru/me/relation/926_62_KOVARIANTNOE]]/URI тензорного поля $URI[[http://libmeta.ru/me/formula/aux/926_111_KOVARIANTNOE]]/URI$ по векторному полю $URI[[http://libmeta.ru/me/formula/aux/926_112_KOVARIANTNOE]]/URI$ URI[[http://libmeta.ru/me/relation/926_61_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_113_KOVARIANTNOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/926_114_KOVARIANTNOE]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/926_115_KOVARIANTNOE]]/URI$ обычным URI[[http://libmeta.ru/me/relation/926_60_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_116_KOVARIANTNOE]]/URI$ вдоль URI[[http://libmeta.ru/me/relation/926_59_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_117_KOVARIANTNOE]]/URI$ и, таким образом, К. д. выступает как обобщение обычного URI[[http://libmeta.ru/me/relation/926_58_KOVARIANTNOE]]/URI с сохранением известных URI[[http://libmeta.ru/me/relation/926_57_KOVARIANTNOE]]/URI между URI[[http://libmeta.ru/me/relation/926_56_KOVARIANTNOE]]/URI и URI[[http://libmeta.ru/me/relation/926_55_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_54_KOVARIANTNOE]]/URI.
+
+Значение K. д. заключается в том, что оно дает удобный аналитический аппарат для изучения и записи свойств URI[[http://libmeta.ru/me/relation/926_53_KOVARIANTNOE]]/URI. объектов и URI[[http://libmeta.ru/me/relation/926_52_KOVARIANTNOE]]/URI в инвариантной форме. Напр., условие URI[[http://libmeta.ru/me/relation/926_51_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_50_KOVARIANTNOE]]/URI тензора $URI[[http://libmeta.ru/me/formula/aux/926_118_KOVARIANTNOE]]/URI$ вдоль URI[[http://libmeta.ru/me/relation/926_49_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_119_KOVARIANTNOE]]/URI$ дается URI[[http://libmeta.ru/me/relation/926_48_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_120_KOVARIANTNOE]]/URI$, URI[[http://libmeta.ru/me/relation/926_47_KOVARIANTNOE]]/URI геодезической $URI[[http://libmeta.ru/me/formula/aux/926_121_KOVARIANTNOE]]/URI$ записывается в виде $URI[[http://libmeta.ru/me/formula/aux/926_122_KOVARIANTNOE]]/URI$, условие URI[[http://libmeta.ru/me/relation/926_46_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_45_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_44_KOVARIANTNOE]]/URI в URI[[http://libmeta.ru/me/relation/926_43_KOVARIANTNOE]]/URI 1-го URI[[http://libmeta.ru/me/relation/926_42_KOVARIANTNOE]]/URI сводится к нек-рому URI[[http://libmeta.ru/me/relation/926_41_KOVARIANTNOE]]/URI для альтернированной разности $URI[[http://libmeta.ru/me/formula/aux/926_123_KOVARIANTNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/926_124_KOVARIANTNOE]]/URI$ внешнее URI[[http://libmeta.ru/me/relation/926_40_KOVARIANTNOE]]/URI форм на URI[[http://libmeta.ru/me/relation/926_39_KOVARIANTNOE]]/URI и в URI[[http://libmeta.ru/me/relation/926_38_KOVARIANTNOE]]/URI над ним можно также выразить через К. Д., и т. Д. Определение URI[[http://libmeta.ru/me/relation/926_37_KOVARIANTNOE]]/URI высших URI[[http://libmeta.ru/me/relation/926_36_KOVARIANTNOE]]/URI дается индуктивно: $URI[[http://libmeta.ru/me/formula/aux/926_125_KOVARIANTNOE]]/URI$. Вообе говоря, URI[[http://libmeta.ru/me/relation/926_35_KOVARIANTNOE]]/URI при этом тензор $URI[[http://libmeta.ru/me/formula/aux/926_126_KOVARIANTNOE]]/URI$ не URI[[http://libmeta.ru/me/relation/926_34_KOVARIANTNOE]]/URI относительно последних ковариантных индексов; высшие URI[[http://libmeta.ru/me/relation/926_33_KOVARIANTNOE]]/URI вдоль разных векторных полей также зависят от URI[[http://libmeta.ru/me/relation/926_32_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_31_KOVARIANTNOE]]/URI. Альтернированные разности URI[[http://libmeta.ru/me/relation/926_30_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_29_KOVARIANTNOE]]/URI высших URI[[http://libmeta.ru/me/relation/926_28_KOVARIANTNOE]]/URI выражаются через криєизны тензор $URI[[http://libmeta.ru/me/formula/aux/926_127_KOVARIANTNOE]]/URI$ и URI[[http://libmeta.ru/me/relation/926_27_KOVARIANTNOE]]/URI тензор $URI[[http://libmeta.ru/me/formula/aux/926_128_KOVARIANTNOE]]/URI$, совместно URI[[http://libmeta.ru/me/relation/926_26_KOVARIANTNOE]]/URI отличие URI[[http://libmeta.ru/me/relation/926_25_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_129_KOVARIANTNOE]]/URI$ с данной URI[[http://libmeta.ru/me/relation/926_24_KOVARIANTNOE]]/URI от афффинного URI[[http://libmeta.ru/me/relation/926_23_KOVARIANTNOE]]/URI. Напр.,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/926_6_KOVARIANTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/926_130_KOVARIANTNOE]]/URI$ - URI[[http://libmeta.ru/me/relation/926_22_KOVARIANTNOE]]/URI векторов $URI[[http://libmeta.ru/me/formula/aux/926_131_KOVARIANTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/926_132_KOVARIANTNOE]]/URI$, а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/926_7_KOVARIANTNOE]]/URI
+\]
+
+Определение К. д. и его свойства остаются в силе и в более общем случае, когда вместо URI[[http://libmeta.ru/me/relation/926_21_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_133_KOVARIANTNOE]]/URI$ URI[[http://libmeta.ru/me/relation/926_20_KOVARIANTNOE]]/URI с афффинной URI[[http://libmeta.ru/me/relation/926_19_KOVARIANTNOE]]/URI рассматривается URI[[http://libmeta.ru/me/relation/926_18_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_134_KOVARIANTNOE]]/URI$ произвольного (действительного или URI[[http://libmeta.ru/me/relation/926_17_KOVARIANTNOE]]/URI) URI[[http://libmeta.ru/me/relation/926_16_KOVARIANTNOE]]/URI, ассоциированного нек-рому алавному URI[[http://libmeta.ru/me/relation/926_15_KOVARIANTNOE]]/URI со URI[[http://libmeta.ru/me/relation/926_14_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_135_KOVARIANTNOE]]/URI$ и со URI[[http://libmeta.ru/me/relation/926_13_KOVARIANTNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/926_136_KOVARIANTNOE]]/URI$, к-рая действует на слое своим URI[[http://libmeta.ru/me/relation/926_12_KOVARIANTNOE]]/URI в URI[[http://libmeta.ru/me/relation/926_11_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_10_KOVARIANTNOE]]/URI. Существуют определения $URI[[http://libmeta.ru/me/formula/aux/926_137_KOVARIANTNOE]]/URI$. д. в более общей ситуации, когда URI[[http://libmeta.ru/me/relation/926_9_KOVARIANTNOE]]/URI не обязательно является векторным; общий смысл [9] этих определений заключается в аналитическом выражении URI[[http://libmeta.ru/me/relation/926_8_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_7_KOVARIANTNOE]]/URI URI[[http://libmeta.ru/me/relation/926_6_KOVARIANTNOE]]/URI или URI[[http://libmeta.ru/me/relation/926_5_KOVARIANTNOE]]/URI определяющего его URI[[http://libmeta.ru/me/relation/926_4_KOVARIANTNOE]]/URI как равенства нулю URI[[http://libmeta.ru/me/relation/926_3_KOVARIANTNOE]]/URI К. д. URI[[http://libmeta.ru/me/relation/926_2_KOVARIANTNOE]]/URI подходы имеются и для бесконечномерных URI[[http://libmeta.ru/me/relation/926_1_KOVARIANTNOE]]/URI.</text>
+  <text_orig>а бс о лют но е ди фферен ц и ров а н и е, - операция, инвариантным образом определяющая понятия производной и дифференциала для полей геометрич. объектов на многообразиях - векторов, тензоров, форм и т. Д. Основные понятия теории К. Д. (под названием абсолютное дифференциальное исчисление) были даны в конце 19 в. в работах Г. Риччи (G. Ricci) и в наиболее полной форме изложены им в 1901 в совместной работе его с Т. Леви-Чивита (T. Levi-Civita) (см. [1]). Сначала теория К. д. строилась на римановых многообразиях и предназначалась в первую очередь для исследования инвариантов дифференциальных форм. Впоследствии оказалось, что определение и свойства К. д. естественным образом связаны с введенными позже понятиями связности и параллельного перенесения на многообразиях, и теперь теория $\mathcal{K}$. д. строится в общих рамках теории связностей. Как аппарат тензорного анализа, $K$. Д. широко употребляется в теоретич. физике, особенно в общей теории относительности.
+
+Пусть на $n$-мерном многообразии $M$ введена афффинная связность и соответствующее параллельное перенесение векторов и вообще тензоров. Пусть $X$ - гладкое векторное поле, $X_{p} \neq 0, p \in M$, и $U-$ тензорное поле типа $(r, s)$, т. е. $r$ раз контравариантное и $s$ раз ковариантное; к о в а р и а н т н о й п р о и з в о д о й (относительно данной связности) тензорного поля $U$ в точке $p \in M$ вдоль векторного поля $X$ наз. тензор того же типа $(r, s)$
+
+\[
+\left(\nabla_{X} U\right)_{p}=\lim _{t \rightarrow 0} \frac{\tau_{t}^{-1}\left(U_{x(t)}\right)^{-U_{p}}}{t},
+\]
+
+где $x(t)$ - точка интегральной кривой $\gamma_{X}$ векторного поля $X$ с начальным условием $x(0)=p, U_{p}$ и $U_{x(t)}$ локализации (значения) тензорного поля $U$ в точках $p$ и $x(t)$ соответственно, $\tau_{t}^{-1}\left(U_{x(t)}\right)-$ результат параллельного перенесения тензора $U_{x(t)}$ вдоль $\gamma_{X}$ из $x(t)$ в $p$. Таким образом, основная идея определения ковариантной производной тензорного поля $U$ вдоль векторного поля $X$ заключается в том, что ввиду отсутствия операций между тензорами $U_{p}$ и $U_{x(t)}$, принадлежащими разным слоям тензорного расслоения над $M$, т. е. принадлежащими тензорным пространствам $T_{s}^{r}$ над разными касательными к $M$ плоскостями $T_{p} M$ и $T_{x(t)} M$, в качестве «приращения» тензора $U$ рассматривается разность между $U_{p} \in T_{s}^{r}\left(T_{p} M\right)$ и образом параллельно перенесенного в $T_{s}^{r}\left(T_{p} M\right)$ вдоль $\gamma_{X}$ тензора $U_{x(t)} \in T_{s}^{r}\left(T_{x(t)} M\right)$, и дальше, как обычно, берется предел отношения этого «приращения» к приращению аргумента $t$. В частности, если для точек $x(t)$, близких к $p$, поле $U$ получено параллельным перенесением тензора $U_{p}$ вдоль $\gamma_{X}$, то $\left(\nabla x L^{T}\right)_{p}=0$, и тем самым в общем случае ковариантная производная поля $U$ в точке $p$ вдоль $X$ определяет начальную скорость отличия поля $U$ вдоль $\gamma_{X}$ от результата параллельного перенесения $U_{p}$ вдоль $\gamma_{X}$. Для тензорных полей нулевой валентности, т. е. для функций $f$ из кольца диффференцируемых функций $\mathscr{\sigma}$ на $M$
+
+\[
+\left(\nabla_{X} f\right)_{p}=\lim _{t \rightarrow 0} \frac{f(x(t))-f(p)}{t}
+\]
+
+что приводит к совпадению $(\nabla X)_{p}$ с производной $f$ по вектору $X_{p}$, т. е. с $X_{p} f$. При $X_{p}=0$ для любого тензорного поля $U$, по определению, считается $(\nabla X U)_{p}=0$.
+
+Введение ковариантной производной позволяет опроделить к о в а р и а н т ный ди фф е р е нци а л $D U$ для тензорного поля $U$ вдоль гладкой кривой $\gamma(t)$ как
+
+\[
+(D U)_{\nu(0)}=\left(\nabla_{\dot{\gamma}_{(t)}} U\right)_{\nu(0)} d t
+\]
+
+и его можно рассматривать как главную линейную часть «приращения&quot; тензора $U$ (в описанном выше смысле) при перемещении точки вдоль $\gamma$ на бесконечно малый участок $d \gamma=\dot{\gamma}(0) d t$. Знание $\nabla X U$ для тензорного поля $U$ типа $(r, s)$ в каждой точке $p \in M$ вдоль каждого векторного поля $X$ позволяет ввести два поля: 1) поле ковариантного диффференциала $D U$ как тензорной 1-формы со значениями в модуле $T_{s}^{r}(M)$, определенной на векторах $X$ по формуле $(D U)(X)=\nabla X U ; 2)$ поле ковариантной производной $\nabla U$ как тензорного поля типа $(r, s+1)$, канонически соответствующего форме $D U$ и действующего на 1-форормах $\omega^{i}$ и векторах $X_{i}$ по фороуле
+
+\[
+\begin{aligned}
+&amp; (\nabla U)\left(\omega^{1}, \ldots, \omega^{r} ; X_{1}, \ldots, X_{s}, X\right)= \\
+&amp; =\left(\nabla_{X} U\right)\left(\omega^{1}, \ldots, \omega^{r} ; X_{1}, \ldots, X_{s}\right) .
+\end{aligned}
+\]
+
+Обычно под ковариантным дифференциалом понимается не сама 1-форма $D U$, а ее значения на векторах $X$, и в таком толковании $(D U)(X)$ тоже превращается в тензорное поле типа $(r, s)$, локализация к-рого, в частности, при $p=\gamma(0)$ и $X=\dot{\gamma}$ совпадает с введенным выше ковариантным диф্фференциалом $(D U)_{\gamma(0)}$ вдоль кривой $\gamma(t)$. Иногда ковариантная производная $\nabla U$ называется г ра д и е н т о м т е нз о р а $U ;$ а производная ковариантным диффференциалом.
+
+Если $x^{i}$ - локальные координаты, $e_{i}=\left.\frac{\partial}{\partial x^{i}}\right|_{p}-$ базисные векторные поля, $e^{i}-$ сопряженные базисные 1-формы, $X^{i}$ и $U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i}-$ координаты векторного и тензорного полей в этих базисах, $\Gamma_{i j}^{k}-$ коэфффициенты введенной на $M$ афффинной связности, то, обозначая через $\nabla k U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}$ или $\quad U_{j_{1} \ldots j_{s, k}}^{i_{1} \ldots i_{r}}$ координаты тензорного поля $\nabla U$, получают следующие выражения (для примера взяты $r=2, s=1$ )
+
+\[
+\begin{gathered}
+(\nabla X U)_{j}^{i_{1} i_{2}}= \\
+=\left(\frac{\partial U_{j}^{i_{1} i_{2}}}{\partial x_{k}}+\Gamma_{k m}^{i_{1}} U_{j}^{m i_{2}}+\Gamma_{k m}^{i_{2}} U_{j}^{i_{1} m}-\Gamma_{k j}^{m} U_{m}^{i_{1} i_{2}}\right) X^{k} \equiv \\
+\equiv \nabla_{k} U_{j}^{i_{1} i_{2}} X^{k} ; \\
+\left(D U_{\gamma(t)}\right)_{j}^{i_{1} i_{2}}=\nabla_{k} U_{j}^{i_{1} i_{2}} d x^{k}, d x^{k}=\dot{x}^{k} d t, \gamma(t)=\left\{x^{k}(t)\right\}, \\
+D U=\left(U_{j, k}^{i_{1} i_{2}} e_{i_{1}} \otimes e_{i_{2}} \otimes e^{j}\right) e^{k}, \nabla U=U_{j, k}^{i_{1} i_{2}} e_{i_{1}} \otimes e_{i_{2}} \otimes e^{j} \otimes e^{k}, \\
+\nabla X^{k}=(D U)(X)=U_{j, k}^{i_{1} i_{2}} X^{k} e_{i_{1}} \otimes e_{i_{2}} \otimes e^{j}=C_{2}^{3}(\nabla U \otimes X),
+\end{gathered}
+\]
+
+где $C_{2}^{3}$ - операция свертки по последним (третьему) контравариантному и (второму) ковариантному индекcam.
+
+Если $M$ - аффинное пространство, $x^{i}$ - афффинные координаты, то $(\nabla x U)_{p}$ является обычной производнӧй тензорного поля $U$ по векторному полю $X,\left(\nabla_{k} U\right)_{p}-$ частными производными $U$ в точке $p$ по $x^{k},(D U)_{\gamma(t)}$ обычным дифференциалом $U$ вдоль кривой $\gamma(t)$ и, таким образом, К. д. выступает как обобщение обычного диффференцирования с сохранением известных связей между частными производными и диффференциалами первого порядка.
+
+Значение K. д. заключается в том, что оно дает удобный аналитический аппарат для изучения и записи свойств геометрич. объектов и операций в инвариантной форме. Напр., условие параллельного перенесения тензора $U$ вдоль кривой $\gamma$ дается уравнением $\nabla_{\gamma} U=0$, уравнение геодезической $\gamma$ записывается в виде $\nabla_{\gamma} \dot{\gamma}=0$, условие интегрируемости системы уравнений в ковариантных производных 1-го порядка сводится к нек-рому уравнению для альтернированной разности $\nabla_{\lambda} \nabla_{\mu} U-$ $-\nabla_{\mu} \nabla_{\lambda} U ;$ внешнее дифференцирование форм на многообразии и в расслоениях над ним можно также выразить через К. Д., и т. Д. Определение ковариантных производных высших порядков дается индуктивно: $\nabla^{m} U=\nabla\left(\nabla^{m-1} U\right)$. Вообе говоря, получаемый при этом тензор $\nabla^{m} U$ не симметричен относительно последних ковариантных индексов; высшие ковариантные производные вдоль разных векторных полей также зависят от порядка дифференцирования. Альтернированные разности компонент ковариантных производных высших порядков выражаются через криєизны тензор $R_{j k l}^{i}$ и кручения тензор $S_{j k}^{i}$, совместно характеризующих отличие многообразия $M$ с данной связностью от афффинного пространства. Напр.,
+
+\[
+\begin{aligned}
+&amp; \nabla_{\lambda} \nabla_{\mu} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}-\nabla_{\mu} \nabla_{\lambda} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}= \\
+&amp; =\sum_{k=1}^{r} R_{j \lambda \mu}^{i_{k}} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{k-1} i_{k+1} \ldots i_{r}} \\
+&amp; -\sum_{k=1}^{s} R_{j_{k} \lambda \mu}^{i} U_{j_{1} \ldots j_{k-1} i_{k+1} \ldots j_{s}}^{i_{1} \ldots i_{r}}-S_{\lambda \mu \nabla k}^{k} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}} \text {, } \\
+&amp; \text { (тождество Риччи) } \\
+&amp; \nabla_{X} \nabla_{Y} U-\nabla_{Y} \nabla_{X} U=\left(\sum_{k=1}^{r} R_{j \lambda \mu}^{i_{k}} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{k-1} i_{k+1} \cdots i_{r}}\right. \\
+&amp; \left.-\sum_{k=1}^{s} R_{j_{k} \lambda \mu}^{i} U_{j_{1} \ldots j_{k-1} i_{k+1} \cdots j_{s}}^{i_{1} \ldots i_{r}}\right) X^{\lambda} X^{\mu}+ \\
+&amp; +\nabla_{[X, Y]} U_{j_{1} \ldots j_{s}}^{i_{1} \ldots i_{r}}
+\end{aligned}
+\]
+
+где $[X, Y]$ - коммутатор векторов $X$ и $Y$, а
+
+\[
+\begin{gathered}
+R_{j k l}^{i}=\frac{\partial}{\partial x k} \Gamma_{l j}^{i}-\frac{\partial}{\partial x l} \Gamma_{k j}^{i}+\Gamma_{k p}^{i} \Gamma_{l j}^{p}-\Gamma_{k j}^{p} \Gamma_{l p}^{i}, \\
+S_{j k}^{i}=\Gamma_{j k}^{i}-\Gamma_{k j}^{i} .
+\end{gathered}
+\]
+
+Определение К. д. и его свойства остаются в силе и в более общем случае, когда вместо сечения $U$ тензорного расслоения с афффинной связностью рассматривается сечение $\varphi$ произвольного (действительного или комплексного) векторного расслоения, ассоциированного нек-рому алавному расслоению со связностью $\Gamma$ и со структурной группой $G$, к-рая действует на слое своим представлением в группе невырожденных матриц. Существуют определения $\boldsymbol{K}$. д. в более общей ситуации, когда расслоение не обязательно является векторным; общий смысл [9] этих определений заключается в аналитическом выражении параллельного перенесения объекта или параллельности определяющего его сечения как равенства нулю результата К. д. Подобные подходы имеются и для бесконечномерных многообразий.
+
+Лum.: [1] R i c c i G., L e v i-C i v i t a T., &quot;Math. Ann.»&quot;,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cfe0bb63866ce7cad744g-1.jpg?height=45&amp;width=826&amp;top_left_y=1714&amp;top_left_x=122)
+Риманова геометрия и тензорный анализ, М., Д. е н А. П., Пространства аффинной связности, 2 изд., М., груп;ы голономий, пер. с франц., М., 1960; [5] Х е л г а с о н С., Дифференциальная геометрия и симметрические пространства, пер. с англ., М., 1964; [6] Б и ш о п Р., К р и т т е н д е н Р., Геометрия многообразий, пер. с англ., М., 1967; [7] Г р о м о л Д., К ли н ген берг в., Me й е p В., Риманова геометрия в целом, пер. с нем., M., 1971; [8] K o b a y a s h i S., N o m i$\mathrm{z} \mathbf{u}$ K., Foundations of differential geometry, $\mathrm{v} .1-2$, N. Y.р., 1963-69; [9] Итоги науки. Алгебра. Топология. Геометг е н П., Дифференциальная геометрия и расслоения, пер. с нем., М., 1975.</text_orig>
+</article>

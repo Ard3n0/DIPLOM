@@ -1,0 +1,366 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/979_ChEBYІІEVSKIJ" alphabetic_pos="979">
+  <title>ЧЕБЫІІЕВСКИЙ ИТЕРАЦИОННЫЙ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>425</start>
+    <end>426</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: 【1ј М а р ч у к Г. И., Ј е 6 е д е в В. И., Численные методы в теории переноса нейтронов, 2 изд., М., 1981; [2]Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975; Б a х в а л о в Н. С., Численные методы, 2 изд., М., 1975; 2 изд., М., 1980: [4] С' а м а р с к и й А. А., Теория разностных схем, М., 1977; [5] J е б е д е в В. И., Ф и н ог е н о в С. А., «ж. вычисл. матем. и матем. физ.», 1971, т. 11, № 2, с. 425-38; Ј е б е д е в В. И., там же, 1969, т. 9, № 6, с. 1247-52; е г о ж е, в кн.: Матем. анализ и смежные вопросы математики, $\begin{array}{ll}\text { е г о же, в кн.: Матем. анализ и смежные вопросы математики, } \\ \text { Новосиб., } 1978, \text { с. } 89-108 . &amp; \text { В. И. Лебедев. }\end{array}$</literature_orig>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/979_1_ChEBYІІEVSKIJ">A u=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_2_ChEBYІІEVSKIJ">\begin{gathered}u^{k+1}=u^{k}-\alpha_{k+1}\left(A u^{k}-f\right), \\u^{k+1}=u^{k}-\alpha_{k+1}\left(A u^{k}-f\right)-\beta_{k+1}\left(u^{k}-u^{k-1}\right), \\\beta_{1}=0, k=0,1, \ldots,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_3_ChEBYІІEVSKIJ">\varepsilon^{N}=P_{N}(A) \varepsilon^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_4_ChEBYІІEVSKIJ">P_{N}(t)=\prod_{i=1}^{N}\left(1-\gamma_{i} t\right), P_{N}(0)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_5_ChEBYІІEVSKIJ">\alpha_{k}=\gamma_{j_{k}}, k=1,2, \ldots, N,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_6_ChEBYІІEVSKIJ">\begin{gathered}P_{k+1}(t)=\left(1-\beta_{k+1}-\alpha_{k+1} t\right) P_{k}(t)+\beta_{k+1} P_{k-1}(t), \\P_{0}=1, \beta_{1}=0, k=0,1, \ldots, N-1 . \\\left\|\varepsilon^{N}\right\| \leqslant \sup _{t \in[m, M]}\left|P_{N}(t)\right| \cdot\left\|\varepsilon^{0}\right\| .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_7_ChEBYІІEVSKIJ">P_{N}(t)=T_{N}((M+m-2 t) /(M-m)) / T_{N}(\theta),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_8_ChEBYІІEVSKIJ">\left\|\varepsilon^{N}\right\| \leqslant 2 \tau^{N} /\left(1+\tau^{2 N}\right)\left\|\varepsilon^{0}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_9_ChEBYІІEVSKIJ">\tau=(1-\sqrt{m / M}) /(1+\sqrt{m / M})</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_10_ChEBYІІEVSKIJ">\alpha_{k+1}=4 \delta_{k+1} /(M-m), \beta_{k+1}=-\delta_{k} \delta_{k+1},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_11_ChEBYІІEVSKIJ">\begin{aligned}&amp; \gamma_{j}=2\left(M+m-(M-m) \cos \pi \psi_{j}\right)^{-1}, \\&amp; \psi_{j}=\left(2_{j}-1\right) /(2 N), j=1,2, \ldots, N .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_12_ChEBYІІEVSKIJ">\begin{gathered}x_{3 r}=\left(j_{1}, 2 \cdot 3^{r-1}+j_{1}, 2 \cdot 3^{r-1}+1-j_{1}, \ldots, 2 \cdot 3^{r-1}+\right. \\\left.+1-i_{3} r-1\right) \\r=1,2 \ldots, p .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_13_ChEBYІІEVSKIJ">T_{3 \boldsymbol{N}}(x)=T_{N}(x)\left(2 T_{N}(x)+\sqrt{\overline{3}}\right)\left(2 T_{N}(x)-\sqrt{\overline{3}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_14_ChEBYІІEVSKIJ">\tilde{\psi}_{j}=(2 j-1) /(6 N), 2 j \neq 1(\bmod 3),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_15_ChEBYІІEVSKIJ">\begin{gathered}\alpha_{k+1}=2\left(M+m-(M-m) \cos \pi \omega_{k+1}\right)^{-1}, \\k=0,1, \ldots .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/979_16_ChEBYІІEVSKIJ">B A u=B f,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_1_ChEBYІІEVSKIJ">\operatorname{sp}(a)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_2_ChEBYІІEVSKIJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_3_ChEBYІІEVSKIJ">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_4_ChEBYІІEVSKIJ">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_5_ChEBYІІEVSKIJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_6_ChEBYІІEVSKIJ">\operatorname{sp}(\boldsymbol{a}) \in[m, \quad M]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_7_ChEBYІІEVSKIJ">0&lt;m&lt;m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_8_ChEBYІІEVSKIJ">t_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_9_ChEBYІІEVSKIJ">u^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_10_ChEBYІІEVSKIJ">u^{k} \rightarrow u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_11_ChEBYІІEVSKIJ">k \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_12_ChEBYІІEVSKIJ">\alpha_{i}, \beta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_13_ChEBYІІEVSKIJ">\varepsilon^{k}=u-u^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_14_ChEBYІІEVSKIJ">\varepsilon^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_15_ChEBYІІEVSKIJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_16_ChEBYІІEVSKIJ">\varepsilon^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_17_ChEBYІІEVSKIJ">p_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_18_ChEBYІІEVSKIJ">1 \leqslant j_{k} \leqslant N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_19_ChEBYІІEVSKIJ">x_{n}=\left(j_{1}, i_{2}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_20_ChEBYІІEVSKIJ">\left.j_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_21_ChEBYІІEVSKIJ">\operatorname{sp}(a) \in[m, M]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_22_ChEBYІІEVSKIJ">p_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_23_ChEBYІІEVSKIJ">[m, M]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_24_ChEBYІІEVSKIJ">\theta=(m+m) /(M-m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_25_ChEBYІІEVSKIJ">n=k-1, k, k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_26_ChEBYІІEVSKIJ">\alpha_{k+1}, \beta_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_27_ChEBYІІEVSKIJ">\alpha_{k+1}, \beta_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_28_ChEBYІІEVSKIJ">n \supseteqq 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_29_ChEBYІІEVSKIJ">\left\|\varepsilon^{n}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_30_ChEBYІІEVSKIJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_31_ChEBYІІEVSKIJ">\alpha_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_32_ChEBYІІEVSKIJ">\chi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_33_ChEBYІІEVSKIJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_34_ChEBYІІEVSKIJ">\left\|\varepsilon^{n}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_35_ChEBYІІEVSKIJ">m / M</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_36_ChEBYІІEVSKIJ">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_37_ChEBYІІEVSKIJ">\left\|u^{k}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_38_ChEBYІІEVSKIJ">1 \leqslant k \leqslant N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_39_ChEBYІІEVSKIJ">n=2^{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_40_ChEBYІІEVSKIJ">n=3^{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_41_ChEBYІІEVSKIJ">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_42_ChEBYІІEVSKIJ">x_{1}=(1), \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_43_ChEBYІІEVSKIJ">x_{3 r-1}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_44_ChEBYІІEVSKIJ">=\left(j_{1}, j_{2}, \ldots, j_{3} r-1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_45_ChEBYІІEVSKIJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_46_ChEBYІІEVSKIJ">n_{i} \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_47_ChEBYІІEVSKIJ">n_{i}=3 i N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_48_ChEBYІІEVSKIJ">p_{3 N}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_49_ChEBYІІEVSKIJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_50_ChEBYІІEVSKIJ">\psi_{j} 2 N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_51_ChEBYІІEVSKIJ">3 N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_52_ChEBYІІEVSKIJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_53_ChEBYІІEVSKIJ">i=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_54_ChEBYІІEVSKIJ">\tilde{\psi}_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_55_ChEBYІІEVSKIJ">\pi \cos \tilde{\psi}_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_56_ChEBYІІEVSKIJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_57_ChEBYІІEVSKIJ">\tilde{\psi}_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_58_ChEBYІІEVSKIJ">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_59_ChEBYІІEVSKIJ">n&lt;k&lt;2 N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_60_ChEBYІІEVSKIJ">2 N&lt;k \leqslant 3 N-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_61_ChEBYІІEVSKIJ">x_{3 N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_62_ChEBYІІEVSKIJ">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_63_ChEBYІІEVSKIJ">\left\{\omega_{j}\right\}_{1}^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_64_ChEBYІІEVSKIJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_65_ChEBYІІEVSKIJ">n_{i}=3^{i} N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_66_ChEBYІІEVSKIJ">\operatorname{sp} A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_67_ChEBYІІEVSKIJ">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_68_ChEBYІІEVSKIJ">b v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/979_69_ChEBYІІEVSKIJ">\operatorname{sp}(b A)</formula>
+  </formulas_aux>
+  <relations n="8">
+    <relation uri="http://libmeta.ru/me/relation/979_1_ChEBYІІEVSKIJ">
+      <rel_text>Итерационный алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/688_ITERATsIONNYI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/979_2_ChEBYІІEVSKIJ">
+      <rel_text>сходимость</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/979_3_ChEBYІІEVSKIJ">
+      <rel_text>множеству</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/979_4_ChEBYІІEVSKIJ">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/979_5_ChEBYІІEVSKIJ">
+      <rel_text>алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/979_6_ChEBYІІEVSKIJ">
+      <rel_text>факторами</rel_text>
+      <target>http://libmeta.ru/me/article/660_FAKTORIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/979_7_ChEBYІІEVSKIJ">
+      <rel_text>Оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/979_8_ChEBYІІEVSKIJ">
+      <rel_text>уравнению</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+  </relations>
+  <text>итерационныӥ алгоритм нахождения решения линейного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_1_ChEBYІІEVSKIJ]]/URI
+\]
+
+учитывающий информацию о принадлежности $URI[[http://libmeta.ru/me/formula/aux/979_1_ChEBYІІEVSKIJ]]/URI$ спектра оператора $URI[[http://libmeta.ru/me/formula/aux/979_2_ChEBYІІEVSKIJ]]/URI$ - нек-рому множеству $URI[[http://libmeta.ru/me/formula/aux/979_3_ChEBYІІEVSKIJ]]/URI$, и использующий свойства и параметры многочленов, наименее отклоняющихся от нуля на множестве $URI[[http://libmeta.ru/me/formula/aux/979_4_ChEBYІІEVSKIJ]]/URI$ и равных единице в нуліе.
+
+Наибольшее развитие Ч. и. м. получил, когда в уравнении (1) $URI[[http://libmeta.ru/me/formula/aux/979_5_ChEBYІІEVSKIJ]]/URI$ - линейный самосопряженный оператор и $URI[[http://libmeta.ru/me/formula/aux/979_6_ChEBYІІEVSKIJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/979_7_ChEBYІІEVSKIJ]]/URI$ - точные границы спектра; тогда Ч. и. м. использует свойства многочленов Чебышева 1-го рода $URI[[http://libmeta.ru/me/formula/aux/979_8_ChEBYІІEVSKIJ]]/URI$. Для әтого случая рассматривают два типа Ч. и. м.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_2_ChEBYІІEVSKIJ]]/URI
+\]
+
+в к-рых по заданному $URI[[http://libmeta.ru/me/formula/aux/979_9_ChEBYІІEVSKIJ]]/URI$ образуют последовательность $URI[[http://libmeta.ru/me/formula/aux/979_10_ChEBYІІEVSKIJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/979_11_ChEBYІІEVSKIJ]]/URI$. В (2), (3) $URI[[http://libmeta.ru/me/formula/aux/979_12_ChEBYІІEVSKIJ]]/URI$ - числовые параметры методов. Если $URI[[http://libmeta.ru/me/formula/aux/979_13_ChEBYІІEVSKIJ]]/URI$, то начальная ошибка $URI[[http://libmeta.ru/me/formula/aux/979_14_ChEBYІІEVSKIJ]]/URI$ и ошибка на $URI[[http://libmeta.ru/me/formula/aux/979_15_ChEBYІІEVSKIJ]]/URI$-й итерации $URI[[http://libmeta.ru/me/formula/aux/979_16_ChEBYІІEVSKIJ]]/URI$ будут связаны формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_3_ChEBYІІEVSKIJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_4_ChEBYІІEVSKIJ]]/URI
+\]
+
+Многочлены $URI[[http://libmeta.ru/me/formula/aux/979_17_ChEBYІІEVSKIJ]]/URI$ вычисляют по параметрам каждого из методов (2), (3): для метода (2)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_5_ChEBYІІEVSKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/979_18_ChEBYІІEVSKIJ]]/URI$-элементы перестановки $URI[[http://libmeta.ru/me/formula/aux/979_19_ChEBYІІEVSKIJ]]/URI$, ...,$URI[[http://libmeta.ru/me/formula/aux/979_20_ChEBYІІEVSKIJ]]/URI$, а для метода (3) - пз рекуррентных соотнопіений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_6_ChEBYІІEVSKIJ]]/URI
+\]
+
+Оптимизация методов (2), (3) на классе задач, у к-рых $URI[[http://libmeta.ru/me/formula/aux/979_21_ChEBYІІEVSKIJ]]/URI$, заключается в таком выборе параметров, ттобы $URI[[http://libmeta.ru/me/formula/aux/979_22_ChEBYІІEVSKIJ]]/URI$ вида (4) был многочленом, наименее отклоняющимся от нуля на $URI[[http://libmeta.ru/me/formula/aux/979_23_ChEBYІІEVSKIJ]]/URI$. П. Л. Чебышевым в 1881 было показано, что это будет многочлен
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_7_ChEBYІІEVSKIJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/979_24_ChEBYІІEVSKIJ]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_8_ChEBYІІEVSKIJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_9_ChEBYІІEVSKIJ]]/URI
+\] Iодставляя (7) при $URI[[http://libmeta.ru/me/formula/aux/979_25_ChEBYІІEVSKIJ]]/URI$ в (6), определяют параметры $URI[[http://libmeta.ru/me/formula/aux/979_26_ChEBYІІEVSKIJ]]/URI$ метода (3):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_10_ChEBYІІEVSKIJ]]/URI
+\]
+
+где
+
+Таким образом, вычисляя $URI[[http://libmeta.ru/me/formula/aux/979_27_ChEBYІІEVSKIJ]]/URI$ по формулам (9), (10), получают Ч. и. м. (3), к-рый при любом $URI[[http://libmeta.ru/me/formula/aux/979_28_ChEBYІІEVSKIJ]]/URI$ оптимально уменьшает $URI[[http://libmeta.ru/me/formula/aux/979_29_ChEBYІІEVSKIJ]]/URI$.
+
+В оптимальном методе (2) для заданного $URI[[http://libmeta.ru/me/formula/aux/979_30_ChEBYІІEVSKIJ]]/URI$ параметры $URI[[http://libmeta.ru/me/formula/aux/979_31_ChEBYІІEVSKIJ]]/URI$ выбирают в соответствии с перестановкой $URI[[http://libmeta.ru/me/formula/aux/979_32_ChEBYІІEVSKIJ]]/URI$ по формуле (5) так, qтобы было (7), т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_11_ChEBYІІEVSKIJ]]/URI
+\]
+
+Тогда после $URI[[http://libmeta.ru/me/formula/aux/979_33_ChEBYІІEVSKIJ]]/URI$ итераций для $URI[[http://libmeta.ru/me/formula/aux/979_34_ChEBYІІEVSKIJ]]/URI$ будет справедливо неравенство (8).
+
+Важной проблемой при малых $URI[[http://libmeta.ru/me/formula/aux/979_35_ChEBYІІEVSKIJ]]/URI$ является вопрос об устойч ивости метода (2), (5), (11). Неосмотрительный выбор $URI[[http://libmeta.ru/me/formula/aux/979_36_ChEBYІІEVSKIJ]]/URI$ может привести к катастрофич. возрастанию $URI[[http://libmeta.ru/me/formula/aux/979_37_ChEBYІІEVSKIJ]]/URI$ для нек-рых $URI[[http://libmeta.ru/me/formula/aux/979_38_ChEBYІІEVSKIJ]]/URI$, к потере значащих цифр, к возрастанию ошибок округления, допущенных на промежуточных итерациях. Известны алгоритмы, перемешивающие параметры (11) и гаравтирующие устойчивый счет: для $URI[[http://libmeta.ru/me/formula/aux/979_39_ChEBYІІEVSKIJ]]/URI$ см. ст. URI[[http://libmeta.ru/me/relation/979_1_ChEBYІІEVSKIJ]]/URI, а для $URI[[http://libmeta.ru/me/formula/aux/979_40_ChEBYІІEVSKIJ]]/URI$ один из алгоритмов построения $URI[[http://libmeta.ru/me/formula/aux/979_41_ChEBYІІEVSKIJ]]/URI$ следующий: пусть $URI[[http://libmeta.ru/me/formula/aux/979_42_ChEBYІІEVSKIJ]]/URI$ а $URI[[http://libmeta.ru/me/formula/aux/979_43_ChEBYІІEVSKIJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/979_44_ChEBYІІEVSKIJ]]/URI$-построена, тогда образуют по правилу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_12_ChEBYІІEVSKIJ]]/URI
+\]
+
+Существует класс методов (2) - устойчивые бесконечно продолжаемые оптимальные Ч. п. м. - позволяющих продолжить метод (2), (5), (11) после $URI[[http://libmeta.ru/me/formula/aux/979_45_ChEBYІІEVSKIJ]]/URI$ итераций так, чтобы он был устойчив и вновь становился оптимальным для нек-рой последовательности $URI[[http://libmeta.ru/me/formula/aux/979_46_ChEBYІІEVSKIJ]]/URI$. Для случая $URI[[http://libmeta.ru/me/formula/aux/979_47_ChEBYІІEVSKIJ]]/URI$ нз представления
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_13_ChEBYІІEVSKIJ]]/URI
+\]
+
+видно, что треть параметров $URI[[http://libmeta.ru/me/formula/aux/979_48_ChEBYІІEVSKIJ]]/URI$ совпадает с (11). Если после $URI[[http://libmeta.ru/me/formula/aux/979_49_ChEBYІІEVSKIJ]]/URI$ итераций продолжить итерацип (2), (5), (11) далее, взяв в (11) за $URI[[http://libmeta.ru/me/formula/aux/979_50_ChEBYІІEVSKIJ]]/URI$ значений:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_14_ChEBYІІEVSKIJ]]/URI
+\]
+
+то снова получается после $URI[[http://libmeta.ru/me/formula/aux/979_51_ChEBYІІEVSKIJ]]/URI$ итераций Ч. и. м. Для обеспечения устойчивости множество (14) разбивают на два: к $URI[[http://libmeta.ru/me/formula/aux/979_52_ChEBYІІEVSKIJ]]/URI$-му, $URI[[http://libmeta.ru/me/formula/aux/979_53_ChEBYІІEVSKIJ]]/URI$, относят те $URI[[http://libmeta.ru/me/formula/aux/979_54_ChEBYІІEVSKIJ]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/979_55_ChEBYІІEVSKIJ]]/URI$ является корнем $URI[[http://libmeta.ru/me/formula/aux/979_56_ChEBYІІEVSKIJ]]/URI$-й скобки в (13); внутри каждого из подмножеств $URI[[http://libmeta.ru/me/formula/aux/979_57_ChEBYІІEVSKIJ]]/URI$ перемешивают с помощью перестановки $URI[[http://libmeta.ru/me/formula/aux/979_58_ChEBYІІEVSKIJ]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/979_59_ChEBYІІEVSKIJ]]/URI$ употребляют в (5), (11) элементы первого множества, при $URI[[http://libmeta.ru/me/formula/aux/979_60_ChEBYІІEVSKIJ]]/URI$ второго, тем самым определяется перестановка $URI[[http://libmeta.ru/me/formula/aux/979_61_ChEBYІІEVSKIJ]]/URI$. Продолжив аналогичным образом процесс образовавия параметров, получают бесконечную равномерно распределенную ва $URI[[http://libmeta.ru/me/formula/aux/979_62_ChEBYІІEVSKIJ]]/URI$ последовательность $URI[[http://libmeta.ru/me/formula/aux/979_63_ChEBYІІEVSKIJ]]/URI$, наз. $URI[[http://libmeta.ru/me/formula/aux/979_64_ChEBYІІEVSKIJ]]/URI$-последовательностью, для к-рой метод [2] становится оптимальным при $URI[[http://libmeta.ru/me/formula/aux/979_65_ChEBYІІEVSKIJ]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_15_ChEBYІІEVSKIJ]]/URI
+\]
+
+Теория Ч. и. м. (2), (3) может быть распространена на век-рый класс весамосопряженных операторов, когда $URI[[http://libmeta.ru/me/formula/aux/979_66_ChEBYІІEVSKIJ]]/URI$ лежит на нескольких отрезках или внутри нескольких специальной формы областей (в частности, эллипса), или, когда известна информация о распреде- лении начальної опибки, на случай комбинированных с методом сопряженных градиентов Ч. и. м., на задачи частичной проблемы собственных знаqениї.
+
+Одним из әффективных приемов ускорения сходимости итераций (2), (3) является предварительное преобразование уравнения (1) к әквивалентному уравнению вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/979_16_ChEBYІІEVSKIJ]]/URI
+\]
+
+и применение уже к этому URI[[http://libmeta.ru/me/relation/979_8_ChEBYІІEVSKIJ]]/URI Ч. и. м. URI[[http://libmeta.ru/me/relation/979_7_ChEBYІІEVSKIJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/979_67_ChEBYІІEVSKIJ]]/URI$ определяют, руководствуясь двумя URI[[http://libmeta.ru/me/relation/979_6_ChEBYІІEVSKIJ]]/URI: 1) ттобы URI[[http://libmeta.ru/me/relation/979_5_ChEBYІІEVSKIJ]]/URI URI[[http://libmeta.ru/me/relation/979_4_ChEBYІІEVSKIJ]]/URI величин вида $URI[[http://libmeta.ru/me/formula/aux/979_68_ChEBYІІEVSKIJ]]/URI$ был нетрудоемким, 2) чтобы $URI[[http://libmeta.ru/me/formula/aux/979_69_ChEBYІІEVSKIJ]]/URI$ принадлежал URI[[http://libmeta.ru/me/relation/979_3_ChEBYІІEVSKIJ]]/URI, для к-рого обеспечена быстрая URI[[http://libmeta.ru/me/relation/979_2_ChEBYІІEVSKIJ]]/URI Ч. и. м.</text>
+  <text_orig>итерационныӥ алгоритм нахождения решения линейного уравнения
+
+\[
+A u=f
+\]
+
+учитывающий информацию о принадлежности $\operatorname{Sp}(A)-$ спектра оператора $A$ - нек-рому множеству $\Omega$, и использующий свойства и параметры многочленов, наименее отклоняющихся от нуля на множестве $\Omega$ и равных единице в нуліе.
+
+Наибольшее развитие Ч. и. м. получил, когда в уравнении (1) $A$ - линейный самосопряженный оператор и $\operatorname{Sp}(\boldsymbol{A}) \in[m, \quad M]$, где $0&lt;m&lt;M$ - точные границы спектра; тогда Ч. и. м. использует свойства многочленов Чебышева 1-го рода $T_{n}(x)$. Для әтого случая рассматривают два типа Ч. и. м.:
+
+\[
+\begin{gathered}
+u^{k+1}=u^{k}-\alpha_{k+1}\left(A u^{k}-f\right), \\
+u^{k+1}=u^{k}-\alpha_{k+1}\left(A u^{k}-f\right)-\beta_{k+1}\left(u^{k}-u^{k-1}\right), \\
+\beta_{1}=0, k=0,1, \ldots,
+\end{gathered}
+\]
+
+в к-рых по заданному $u^{0}$ образуют последовательность $u^{k} \rightarrow u$ при $k \rightarrow \infty$. В (2), (3) $\alpha_{i}, \beta_{i}$ - числовые параметры методов. Если $\varepsilon^{k}=u-u^{k}$, то начальная ошибка $\varepsilon^{0}$ и ошибка на $N$-й итерации $\varepsilon^{N}$ будут связаны формулой
+
+\[
+\varepsilon^{N}=P_{N}(A) \varepsilon^{0}
+\]
+
+где
+
+\[
+P_{N}(t)=\prod_{i=1}^{N}\left(1-\gamma_{i} t\right), P_{N}(0)=1
+\]
+
+Многочлены $P_{N}(t)$ вычисляют по параметрам каждого из методов (2), (3): для метода (2)
+
+\[
+\alpha_{k}=\gamma_{j_{k}}, k=1,2, \ldots, N,
+\]
+
+где $1 \leqslant j_{k} \leqslant N$-элементы перестановки $x_{N}=\left(j_{1}, i_{2}\right.$, ...,$\left.j_{N}\right)$, а для метода (3) - пз рекуррентных соотнопіений
+
+\[
+\begin{gathered}
+P_{k+1}(t)=\left(1-\beta_{k+1}-\alpha_{k+1} t\right) P_{k}(t)+\beta_{k+1} P_{k-1}(t), \\
+P_{0}=1, \beta_{1}=0, k=0,1, \ldots, N-1 . \\
+\left\|\varepsilon^{N}\right\| \leqslant \sup _{t \in[m, M]}\left|P_{N}(t)\right| \cdot\left\|\varepsilon^{0}\right\| .
+\end{gathered}
+\]
+
+Оптимизация методов (2), (3) на классе задач, у к-рых $\operatorname{Sp}(A) \in[m, M]$, заключается в таком выборе параметров, ттобы $P_{N}(t)$ вида (4) был многочленом, наименее отклоняющимся от нуля на $[m, M]$. П. Л. Чебышевым в 1881 было показано, что это будет многочлен
+
+\[
+P_{N}(t)=T_{N}((M+m-2 t) /(M-m)) / T_{N}(\theta),
+\]
+
+где $\theta=(M+m) /(M-m)$. Тогда
+
+\[
+\left\|\varepsilon^{N}\right\| \leqslant 2 \tau^{N} /\left(1+\tau^{2 N}\right)\left\|\varepsilon^{0}\right\|
+\]
+
+где
+
+\[
+\tau=(1-\sqrt{m / M}) /(1+\sqrt{m / M})
+\] Iодставляя (7) при $N=k-1, k, k+1$ в (6), определяют параметры $\alpha_{k+1}, \beta_{k+1}$ метода (3):
+
+\[
+\alpha_{k+1}=4 \delta_{k+1} /(M-m), \beta_{k+1}=-\delta_{k} \delta_{k+1},
+\]
+
+где
+
+Таким образом, вычисляя $\alpha_{k+1}, \beta_{k+1}$ по формулам (9), (10), получают Ч. и. м. (3), к-рый при любом $N \supseteqq 1$ оптимально уменьшает $\left\|\varepsilon^{N}\right\|$.
+
+В оптимальном методе (2) для заданного $N$ параметры $\alpha_{k+1}$ выбирают в соответствии с перестановкой $\chi_{N}$ по формуле (5) так, qтобы было (7), т. е.
+
+\[
+\begin{aligned}
+&amp; \gamma_{j}=2\left(M+m-(M-m) \cos \pi \psi_{j}\right)^{-1}, \\
+&amp; \psi_{j}=\left(2_{j}-1\right) /(2 N), j=1,2, \ldots, N .
+\end{aligned}
+\]
+
+Тогда после $N$ итераций для $\left\|\varepsilon^{N}\right\|$ будет справедливо неравенство (8).
+
+Важной проблемой при малых $m / M$ является вопрос об устойч ивости метода (2), (5), (11). Неосмотрительный выбор $x_{N}$ может привести к катастрофич. возрастанию $\left\|u^{k}\right\|$ для нек-рых $1 \leqslant k \leqslant N$, к потере значащих цифр, к возрастанию ошибок округления, допущенных на промежуточных итерациях. Известны алгоритмы, перемешивающие параметры (11) и гаравтирующие устойчивый счет: для $N=2^{p}$ см. ст. Итерационный алгоритм, а для $N=3^{p}$ один из алгоритмов построения $x_{N}$ следующий: пусть $x_{1}=(1), \quad$ а $x_{3 r-1}=$ $=\left(j_{1}, j_{2}, \ldots, j_{3} r-1\right)$-построена, тогда образуют по правилу
+
+\[
+\begin{gathered}
+x_{3 r}=\left(j_{1}, 2 \cdot 3^{r-1}+j_{1}, 2 \cdot 3^{r-1}+1-j_{1}, \ldots, 2 \cdot 3^{r-1}+\right. \\
+\left.+1-i_{3} r-1\right) \\
+r=1,2 \ldots, p .
+\end{gathered}
+\]
+
+Существует класс методов (2) - устойчивые бесконечно продолжаемые оптимальные Ч. п. м. - позволяющих продолжить метод (2), (5), (11) после $N$ итераций так, чтобы он был устойчив и вновь становился оптимальным для нек-рой последовательности $N_{i} \rightarrow \infty$. Для случая $N_{i}=3 i N$ нз представления
+
+\[
+T_{3 \boldsymbol{N}}(x)=T_{N}(x)\left(2 T_{N}(x)+\sqrt{\overline{3}}\right)\left(2 T_{N}(x)-\sqrt{\overline{3}}\right)
+\]
+
+видно, что треть параметров $P_{3 N}(t)$ совпадает с (11). Если после $N$ итераций продолжить итерацип (2), (5), (11) далее, взяв в (11) за $\psi_{j} 2 N$ значений:
+
+\[
+\tilde{\psi}_{j}=(2 j-1) /(6 N), 2 j \neq 1(\bmod 3),
+\]
+
+то снова получается после $3 N$ итераций Ч. и. м. Для обеспечения устойчивости множество (14) разбивают на два: к $i$-му, $i=1,2$, относят те $\tilde{\psi}_{j}$, для к-рых $\pi \cos \tilde{\psi}_{j}$ является корнем $i$-й скобки в (13); внутри каждого из подмножеств $\tilde{\psi}_{j}$ перемешивают с помощью перестановки $x_{N}$. При $N&lt;k&lt;2 N$ употребляют в (5), (11) элементы первого множества, при $2 N&lt;k \leqslant 3 N-$ второго, тем самым определяется перестановка $x_{3 N}$. Продолжив аналогичным образом процесс образовавия параметров, получают бесконечную равномерно распределенную ва $[0,1]$ последовательность $\left\{\omega_{j}\right\}_{1}^{\infty}$, наз. $T$-последовательностью, для к-рой метод [2] становится оптимальным при $N_{i}=3^{i} N$ и
+
+\[
+\begin{gathered}
+\alpha_{k+1}=2\left(M+m-(M-m) \cos \pi \omega_{k+1}\right)^{-1}, \\
+k=0,1, \ldots .
+\end{gathered}
+\]
+
+Теория Ч. и. м. (2), (3) может быть распространена на век-рый класс весамосопряженных операторов, когда $\operatorname{Sp} A$ лежит на нескольких отрезках или внутри нескольких специальной формы областей (в частности, эллипса), или, когда известна информация о распреде- лении начальної опибки, на случай комбинированных с методом сопряженных градиентов Ч. и. м., на задачи частичной проблемы собственных знаqениї.
+
+Одним из әффективных приемов ускорения сходимости итераций (2), (3) является предварительное преобразование уравнения (1) к әквивалентному уравнению вида
+
+\[
+B A u=B f,
+\]
+
+и применение уже к этому уравнению Ч. и. м. Оператор $B$ определяют, руководствуясь двумя факторами: 1) ттобы алгоритм вычисления величин вида $B v$ был нетрудоемким, 2) чтобы $\operatorname{Sp}(B A)$ принадлежал множеству, для к-рого обеспечена быстрая сходимость Ч. и. м.
+
+Лит.: 【1Ј М а р ч у к Г. И., Ј е 6 е д е в В. И., Численные методы в теории переноса нейтронов, 2 изд., М., 1981; [2]
+Б а х в а л о в Н. С., Численные методы, 2 изд., М., 1975; Б a х в а л о в Н. С., Численные методы, 2 изд., М., 1975; 2 изд., М., 1980: [4] С' а м а р с к и й А. А., Теория разностных схем, М., 1977; [5] J е б е д е в В. И., Ф и н ог е н о в С. А., «Ж. вычисл. матем. и матем. физ.», 1971, т. 11, № 2, с. 425-38; Ј е б е д е в В. И., там же, 1969, т. 9, № 6, с. 1247-52; е г о ж е, в кн.: Матем. анализ и смежные вопросы математики, $\begin{array}{ll}\text { е г о же, в кн.: Матем. анализ и смежные вопросы математики, } \\ \text { Новосиб., } 1978, \text { с. } 89-108 . &amp; \text { В. И. Лебедев. }\end{array}$</text_orig>
+</article>

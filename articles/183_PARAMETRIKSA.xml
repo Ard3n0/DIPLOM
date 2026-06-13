@@ -1,0 +1,348 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/183_PARAMETRIKSA" alphabetic_pos="183">
+  <title>ПАРАМЕТРИКСА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>107</start>
+    <end>108</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Б е р с Л., Д жо н Ф., Iii е х т е p М., Уравнения с частными производными, пер. с англ., М., $1966 ;[2]$ М и р а н д а К., Уравневия с частными п3] Х ̈̈ р м a Hд е р Л., в сб.: Псевдодифференциальные операторы, М.; 1967.</literature_orig>
+    <unit>
+      <author>Берс Л.</author>
+      <author>Джон Ф.</author>
+      <author>Iiiехтеp М.</author>
+      <title>Уравнения с частными производными</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$Миранда К.</author>
+      <author>Уравневиясчастнымип3]Х̈̈рмa Hдер Л.</author>
+      <title>в сб.: Псевдодифференциальные операторы</title>
+      <publication/>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/183_1_PARAMETRIKSA">L(x, D)=\sum_{|\alpha| \leqslant m} a_{\alpha}(x) D^{\alpha} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_2_PARAMETRIKSA">L_{0}\left(x_{0}, D\right)=\sum_{|\alpha|=m} a_{\alpha}\left(x_{0}\right) D^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_3_PARAMETRIKSA">\begin{gathered}L(x, D)=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2}}{\partial x_{i} \partial x_{j}}+ \\+\sum_{i=1}^{n} b_{i}(x) \frac{\partial}{\partial x_{i}}+c(x)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_4_PARAMETRIKSA">R(x, y)=\sum_{i, j=1}^{n} A_{i j}(y)\left(x_{i}-y_{i}\right)\left(x_{j}-y_{j}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_5_PARAMETRIKSA">\left(S_{x_{0}} \varphi\right)(x)=\int_{G} \varepsilon\left(x-y, x_{0}\right) \varphi(y) d y,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_6_PARAMETRIKSA">T_{x_{0}}=S_{x_{0}}\left[L_{0}\left(x_{0}, D\right)-L(x, D)\right] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_7_PARAMETRIKSA">L_{0}\left(x_{0}, D\right) S_{x_{0}}=S_{x_{0}} L_{0}\left(x_{0}, D\right)=I,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_8_PARAMETRIKSA">I=S_{x_{0}} L(x, D)+T_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_9_PARAMETRIKSA">\varphi=S_{x_{0}} L(x, D) \varphi+T_{x_{0}} \varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_10_PARAMETRIKSA">\varphi=S_{x_{0}} f+T_{x_{0}} \varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/183_11_PARAMETRIKSA">L(x, D) \varphi=f .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_1_PARAMETRIKSA">g n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_2_PARAMETRIKSA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_3_PARAMETRIKSA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_4_PARAMETRIKSA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_5_PARAMETRIKSA">\alpha=\left(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_6_PARAMETRIKSA">\alpha_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_7_PARAMETRIKSA">|\alpha|=\alpha_{1}+\ldots+\alpha_{n}, D^{\alpha}=D_{1}^{\alpha_{1}} \ldots D_{n}^{\alpha_{n}}, D_{j}=-i \frac{\partial}{\partial x_{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_8_PARAMETRIKSA">x_{0} \in G-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_9_PARAMETRIKSA">\varepsilon\left(x, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_10_PARAMETRIKSA">l_{0}\left(x_{0}, D\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_11_PARAMETRIKSA">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_12_PARAMETRIKSA">\varepsilon\left(x, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_13_PARAMETRIKSA">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_14_PARAMETRIKSA">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_15_PARAMETRIKSA">\varepsilon(x, y)= \begin{cases}\frac{1}{(n-2) \omega_{n} \sqrt{A(y)}}[R(x, y)]^{2-n}, &amp; n&gt;2, \\ \frac{1}{2 \pi \sqrt{A(y)}} \ln R(x, y), &amp; n=2 .\end{cases}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_16_PARAMETRIKSA">\omega_{n}=2 \pi^{n / 2} / \Gamma(n / 2), A(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_17_PARAMETRIKSA">\left\|a_{i j}(y)\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_18_PARAMETRIKSA">a_{i f}(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_19_PARAMETRIKSA">\left\|a_{i j}(y)\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_20_PARAMETRIKSA">s_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_21_PARAMETRIKSA">c_{0}^{\infty}(g)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_22_PARAMETRIKSA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_23_PARAMETRIKSA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_24_PARAMETRIKSA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_25_PARAMETRIKSA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_26_PARAMETRIKSA">l_{\varphi}=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_27_PARAMETRIKSA">i-T_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_28_PARAMETRIKSA">t_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_29_PARAMETRIKSA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_30_PARAMETRIKSA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_31_PARAMETRIKSA">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_32_PARAMETRIKSA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_33_PARAMETRIKSA">t_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_34_PARAMETRIKSA">\left(i-T_{x_{0}}\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_35_PARAMETRIKSA">e=\left(i-T_{x_{0}}\right)^{-1} S_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_36_PARAMETRIKSA">l(x, D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_37_PARAMETRIKSA">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_38_PARAMETRIKSA">l(x, D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_39_PARAMETRIKSA">\varepsilon\left(x, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_40_PARAMETRIKSA">s_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_41_PARAMETRIKSA">\varepsilon\left(x, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_42_PARAMETRIKSA">s_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_43_PARAMETRIKSA">l(x, D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_44_PARAMETRIKSA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_45_PARAMETRIKSA">i-L(x, D) S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_46_PARAMETRIKSA">i-S L(x, D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_47_PARAMETRIKSA">i-S L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_48_PARAMETRIKSA">i-L S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_49_PARAMETRIKSA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_50_PARAMETRIKSA">l(x, D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_51_PARAMETRIKSA">s_{x_{01}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_52_PARAMETRIKSA">t_{x_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_53_PARAMETRIKSA">l(x, D)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_54_PARAMETRIKSA">s^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/183_55_PARAMETRIKSA">s^{\prime \prime}</formula>
+  </formulas_aux>
+  <relations n="20">
+    <relation uri="http://libmeta.ru/me/relation/183_1_PARAMETRIKSA">
+      <rel_text>параметрикса</rel_text>
+      <target>http://libmeta.ru/me/article/174_PARALLELOED</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_2_PARAMETRIKSA">
+      <rel_text>параметриксом</rel_text>
+      <target>http://libmeta.ru/me/article/170_PARALLELEPIPE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_3_PARAMETRIKSA">
+      <rel_text>параметрпкс</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_4_PARAMETRIKSA">
+      <rel_text>параметрикс</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_5_PARAMETRIKSA">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_6_PARAMETRIKSA">
+      <rel_text>ядро</rel_text>
+      <target>http://libmeta.ru/me/article/1224_JaDR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_7_PARAMETRIKSA">
+      <rel_text>дифференцируемое</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_8_PARAMETRIKSA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_9_PARAMETRIKSA">
+      <rel_text>параметриксом</rel_text>
+      <target>http://libmeta.ru/me/article/170_PARALLELEPIPE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_10_PARAMETRIKSA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_11_PARAMETRIKSA">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_12_PARAMETRIKSA">
+      <rel_text>параметриксом</rel_text>
+      <target>http://libmeta.ru/me/article/170_PARALLELEPIPE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_13_PARAMETRIKSA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_14_PARAMETRIKSA">
+      <rel_text>дифференцируемыми</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_15_PARAMETRIKSA">
+      <rel_text>интегральными</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_16_PARAMETRIKSA">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_17_PARAMETRIKSA">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_18_PARAMETRIKSA">
+      <rel_text>параметриксом</rel_text>
+      <target>http://libmeta.ru/me/article/170_PARALLELEPIPE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_19_PARAMETRIKSA">
+      <rel_text>оператора</rel_text>
+      <target>http://libmeta.ru/me/article/17_OPERATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/183_20_PARAMETRIKSA">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>один из методов изучения краевых задач для дифференціальных урав- нений с переменными коэффициентами с помоццо ин.. тегральных уравнений.
+
+Пусть в какой-либо области $URI[[http://libmeta.ru/me/formula/aux/183_1_PARAMETRIKSA]]/URI$-мерного евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/183_2_PARAMETRIKSA]]/URI$ рассматривается эллиптич. дифференциальный оператор порядка $URI[[http://libmeta.ru/me/formula/aux/183_3_PARAMETRIKSA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_1_PARAMETRIKSA]]/URI
+\]
+
+В равенстве (1) символом $URI[[http://libmeta.ru/me/formula/aux/183_4_PARAMETRIKSA]]/URI$ обозначөн мультииндекс $URI[[http://libmeta.ru/me/formula/aux/183_5_PARAMETRIKSA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/183_6_PARAMETRIKSA]]/URI$ - неотрицательные целые числа, $URI[[http://libmeta.ru/me/formula/aux/183_7_PARAMETRIKSA]]/URI$. Каждому оператору (1) сопоставляется однородный эллиптич. оператор
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_2_PARAMETRIKSA]]/URI
+\]
+
+с постоянными коэффициентами, где $URI[[http://libmeta.ru/me/formula/aux/183_8_PARAMETRIKSA]]/URI$ произвольная фиксированная точка. Пусть $URI[[http://libmeta.ru/me/formula/aux/183_9_PARAMETRIKSA]]/URI$ обозначает фундаментальное решение оператора $URI[[http://libmeta.ru/me/formula/aux/183_10_PARAMETRIKSA]]/URI$, параметрически зависящее от $URI[[http://libmeta.ru/me/formula/aux/183_11_PARAMETRIKSA]]/URI$, тогда функция $URI[[http://libmeta.ru/me/formula/aux/183_12_PARAMETRIKSA]]/URI$ наз. п а р а м е т р и к с о м оператора (1) с особенностью в точке $URI[[http://libmeta.ru/me/formula/aux/183_13_PARAMETRIKSA]]/URI$
+
+В частности, для эллиптич. оператора 2-го порядка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_3_PARAMETRIKSA]]/URI
+\]
+
+в качөстве параметрикса с особенностью в точке $URI[[http://libmeta.ru/me/formula/aux/183_14_PARAMETRIKSA]]/URI$ может быть взята ф у н ци и Я Л в в:
+
+$URI[[http://libmeta.ru/me/formula/aux/183_15_PARAMETRIKSA]]/URI$
+
+В равенстве (2) $URI[[http://libmeta.ru/me/formula/aux/183_16_PARAMETRIKSA]]/URI$ - определитель матрицы $URI[[http://libmeta.ru/me/formula/aux/183_17_PARAMETRIKSA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_4_PARAMETRIKSA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/183_18_PARAMETRIKSA]]/URI$ - элементы матрицы, обратной к матрице $URI[[http://libmeta.ru/me/formula/aux/183_19_PARAMETRIKSA]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/183_20_PARAMETRIKSA]]/URI$ - интегральвый оператор
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_5_PARAMETRIKSA]]/URI
+\]
+
+действующий на функциях из $URI[[http://libmeta.ru/me/formula/aux/183_21_PARAMETRIKSA]]/URI$, и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_6_PARAMETRIKSA]]/URI
+\]
+
+Поскольку, в силу определения фундаментального решения,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_7_PARAMETRIKSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/183_22_PARAMETRIKSA]]/URI$ - тождественный оператор, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_8_PARAMETRIKSA]]/URI
+\]
+
+Это равенство означает, что для каждой достаточно гладкой и финитной в области $URI[[http://libmeta.ru/me/formula/aux/183_23_PARAMETRIKSA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/183_24_PARAMETRIKSA]]/URI$ справедливо представление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_9_PARAMETRIKSA]]/URI
+\]
+
+и, кроме того, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_10_PARAMETRIKSA]]/URI
+\]
+
+то $URI[[http://libmeta.ru/me/formula/aux/183_25_PARAMETRIKSA]]/URI$ являстся решением уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/183_11_PARAMETRIKSA]]/URI
+\]
+
+Таким образом, вопрос о локальной разрешимости уравнения $URI[[http://libmeta.ru/me/formula/aux/183_26_PARAMETRIKSA]]/URI$ сводится к вопросу об обратимости оператора $URI[[http://libmeta.ru/me/formula/aux/183_27_PARAMETRIKSA]]/URI$.
+
+Если применять оператор $URI[[http://libmeta.ru/me/formula/aux/183_28_PARAMETRIKSA]]/URI$ к функциям $URI[[http://libmeta.ru/me/formula/aux/183_29_PARAMETRIKSA]]/URI$, к-рые обращаются в нуль вне шара радиуса $URI[[http://libmeta.ru/me/formula/aux/183_30_PARAMETRIKSA]]/URI$ с центром в точке $URI[[http://libmeta.ru/me/formula/aux/183_31_PARAMETRIKSA]]/URI$, то при достаточно малом $URI[[http://libmeta.ru/me/formula/aux/183_32_PARAMETRIKSA]]/URI$ норма оператора $URI[[http://libmeta.ru/me/formula/aux/183_33_PARAMETRIKSA]]/URI$ может быть сделана меныпе единицы. Тогда будет существовать оператор $URI[[http://libmeta.ru/me/formula/aux/183_34_PARAMETRIKSA]]/URI$ и, следовательно, оператор $URI[[http://libmeta.ru/me/formula/aux/183_35_PARAMETRIKSA]]/URI$, к-рый является обратным к оператору $URI[[http://libmeta.ru/me/formula/aux/183_36_PARAMETRIKSA]]/URI$. Оператор $URI[[http://libmeta.ru/me/formula/aux/183_37_PARAMETRIKSA]]/URI$ является пнтегральным оператором, ядро к-рого представляет собой фундаментальное решение оператора $URI[[http://libmeta.ru/me/formula/aux/183_38_PARAMETRIKSA]]/URI$.
+
+Параметриксом иногда наз. не только функцию $URI[[http://libmeta.ru/me/formula/aux/183_39_PARAMETRIKSA]]/URI$, но и интегральный оператор $URI[[http://libmeta.ru/me/formula/aux/183_40_PARAMETRIKSA]]/URI$ с ядром $URI[[http://libmeta.ru/me/formula/aux/183_41_PARAMETRIKSA]]/URI$, определенный равенством (3).
+
+В URI[[http://libmeta.ru/me/relation/183_20_PARAMETRIKSA]]/URI псевдодифференциальвых операторов вместо URI[[http://libmeta.ru/me/relation/183_19_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_42_PARAMETRIKSA]]/URI$ URI[[http://libmeta.ru/me/relation/183_18_PARAMETRIKSA]]/URI URI[[http://libmeta.ru/me/relation/183_17_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_43_PARAMETRIKSA]]/URI$ наз. URI[[http://libmeta.ru/me/relation/183_16_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_44_PARAMETRIKSA]]/URI$ такой, что $URI[[http://libmeta.ru/me/formula/aux/183_45_PARAMETRIKSA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/183_46_PARAMETRIKSA]]/URI$ являются URI[[http://libmeta.ru/me/relation/183_15_PARAMETRIKSA]]/URI операторами с бесконечно URI[[http://libmeta.ru/me/relation/183_14_PARAMETRIKSA]]/URI ядрами. Если же таким оператором является лишь URI[[http://libmeta.ru/me/relation/183_13_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_47_PARAMETRIKSA]]/URI$ (или $URI[[http://libmeta.ru/me/formula/aux/183_48_PARAMETRIKSA]]/URI$ ), то $URI[[http://libmeta.ru/me/formula/aux/183_49_PARAMETRIKSA]]/URI$ наз. левым (соответственно правым) URI[[http://libmeta.ru/me/relation/183_12_PARAMETRIKSA]]/URI URI[[http://libmeta.ru/me/relation/183_11_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_50_PARAMETRIKSA]]/URI$. Иначе говоря, URI[[http://libmeta.ru/me/relation/183_10_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_51_PARAMETRIKSA]]/URI$ в равенстве (4) является левым URI[[http://libmeta.ru/me/relation/183_9_PARAMETRIKSA]]/URI, если URI[[http://libmeta.ru/me/relation/183_8_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_52_PARAMETRIKSA]]/URI$ в этом равенстве имеет бесконечно URI[[http://libmeta.ru/me/relation/183_7_PARAMETRIKSA]]/URI URI[[http://libmeta.ru/me/relation/183_6_PARAMETRIKSA]]/URI. Если у URI[[http://libmeta.ru/me/relation/183_5_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_53_PARAMETRIKSA]]/URI$ существугт левый URI[[http://libmeta.ru/me/relation/183_4_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_54_PARAMETRIKSA]]/URI$ и правый URI[[http://libmeta.ru/me/relation/183_3_PARAMETRIKSA]]/URI $URI[[http://libmeta.ru/me/formula/aux/183_55_PARAMETRIKSA]]/URI$, то каждый из этих операторов является URI[[http://libmeta.ru/me/relation/183_2_PARAMETRIKSA]]/URI. Существование URI[[http://libmeta.ru/me/relation/183_1_PARAMETRIKSA]]/URI цоказано для гипоэллиптических псевдодифференгиальных операторов (cm. [3])</text>
+  <text_orig>один из методов изучения краевых задач для дифференціальных урав- нений с переменными коэффициентами с помоццо ин.. тегральных уравнений.
+
+Пусть в какой-либо области $G n$-мерного евклидова пространства $\mathbb{R}^{n}$ рассматривается эллиптич. дифференциальный оператор порядка $m$
+
+\[
+L(x, D)=\sum_{|\alpha| \leqslant m} a_{\alpha}(x) D^{\alpha} \text {. }
+\]
+
+В равенстве (1) символом $\alpha$ обозначөн мультииндекс $\alpha=\left(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{n}\right)$, где $\alpha_{j}$ - неотрицательные целые числа, $|\alpha|=\alpha_{1}+\ldots+\alpha_{n}, D^{\alpha}=D_{1}^{\alpha_{1}} \ldots D_{n}^{\alpha_{n}}, D_{j}=-i \frac{\partial}{\partial x_{j}}$. Каждому оператору (1) сопоставляется однородный эллиптич. оператор
+
+\[
+L_{0}\left(x_{0}, D\right)=\sum_{|\alpha|=m} a_{\alpha}\left(x_{0}\right) D^{\alpha}
+\]
+
+с постоянными коэффициентами, где $x_{0} \in G-$ произвольная фиксированная точка. Пусть $\varepsilon\left(x, x_{0}\right)$ обозначает фундаментальное решение оператора $L_{0}\left(x_{0}, D\right)$, параметрически зависящее от $x_{0}$, тогда функция $\varepsilon\left(x, x_{0}\right)$ наз. п а р а м е т р и к с о м оператора (1) с особенностью в точке $x_{0}$
+
+В частности, для эллиптич. оператора 2-го порядка
+
+\[
+\begin{gathered}
+L(x, D)=\sum_{i, j=1}^{n} a_{i j}(x) \frac{\partial^{2}}{\partial x_{i} \partial x_{j}}+ \\
++\sum_{i=1}^{n} b_{i}(x) \frac{\partial}{\partial x_{i}}+c(x)
+\end{gathered}
+\]
+
+в качөстве параметрикса с особенностью в точке $y$ может быть взята ф у н ци и Я Л в в:
+
+$\varepsilon(x, y)= \begin{cases}\frac{1}{(n-2) \omega_{n} \sqrt{A(y)}}[R(x, y)]^{2-n}, &amp; n&gt;2, \\ \frac{1}{2 \pi \sqrt{A(y)}} \ln R(x, y), &amp; n=2 .\end{cases}$
+
+В равенстве (2) $\omega_{n}=2 \pi^{n / 2} / \Gamma(n / 2), A(y)$ - определитель матрицы $\left\|a_{i j}(y)\right\|$,
+
+\[
+R(x, y)=\sum_{i, j=1}^{n} A_{i j}(y)\left(x_{i}-y_{i}\right)\left(x_{j}-y_{j}\right),
+\]
+
+$A_{i f}(y)$ - элементы матрицы, обратной к матрице $\left\|a_{i j}(y)\right\|$. Пусть $S_{x_{0}}$ - интегральвый оператор
+
+\[
+\left(S_{x_{0}} \varphi\right)(x)=\int_{G} \varepsilon\left(x-y, x_{0}\right) \varphi(y) d y,
+\]
+
+действующий на функциях из $C_{0}^{\infty}(G)$, и
+
+\[
+T_{x_{0}}=S_{x_{0}}\left[L_{0}\left(x_{0}, D\right)-L(x, D)\right] .
+\]
+
+Поскольку, в силу определения фундаментального решения,
+
+\[
+L_{0}\left(x_{0}, D\right) S_{x_{0}}=S_{x_{0}} L_{0}\left(x_{0}, D\right)=I,
+\]
+
+где $I$ - тождественный оператор, то
+
+\[
+I=S_{x_{0}} L(x, D)+T_{x_{0}}
+\]
+
+Это равенство означает, что для каждой достаточно гладкой и финитной в области $G$ функции $\varphi$ справедливо представление
+
+\[
+\varphi=S_{x_{0}} L(x, D) \varphi+T_{x_{0}} \varphi
+\]
+
+и, кроме того, если
+
+\[
+\varphi=S_{x_{0}} f+T_{x_{0}} \varphi
+\]
+
+то $\varphi$ являстся решением уравнения
+
+\[
+L(x, D) \varphi=f .
+\]
+
+Таким образом, вопрос о локальной разрешимости уравнения $L_{\varphi}=f$ сводится к вопросу об обратимости оператора $I-T_{x_{0}}$.
+
+Если применять оператор $T_{x_{0}}$ к функциям $\varphi$, к-рые обращаются в нуль вне шара радиуса $R$ с центром в точке $x_{0}$, то при достаточно малом $R$ норма оператора $T_{x_{0}}$ может быть сделана меныпе единицы. Тогда будет существовать оператор $\left(I-T_{x_{0}}\right)^{-1}$ и, следовательно, оператор $E=\left(I-T_{x_{0}}\right)^{-1} S_{x_{0}}$, к-рый является обратным к оператору $L(x, D)$. Оператор $E$ является пнтегральным оператором, ядро к-рого представляет собой фундаментальное решение оператора $L(x, D)$.
+
+Параметриксом иногда наз. не только функцию $\varepsilon\left(x, x_{0}\right)$, но и интегральный оператор $S_{x_{0}}$ с ядром $\varepsilon\left(x, x_{0}\right)$, определенный равенством (3).
+
+В теории псевдодифференциальвых операторов вместо оператора $S_{x_{0}}$ параметриксом оператора $L(x, D)$ наз. оператор $S$ такой, что $I-L(x, D) S$ и $I-S L(x, D)$ являются интегральными операторами с бесконечно дифференцируемыми ядрами. Если же таким оператором является лишь оператор $I-S L$ (или $I-L S$ ), то $S$ наз. левым (соответственно правым) параметриксом оператора $L(x, D)$. Иначе говоря, оператор $S_{x_{01}}$ в равенстве (4) является левым параметриксом, если оператор $T_{x_{0}}$ в этом равенстве имеет бесконечно дифФеренцируемое ядро. Если у оператора $L(x, D)$ существугт левый параметрикс $S^{\prime}$ и правый параметрпкс $S^{\prime \prime}$, то каждый из этих операторов является параметриксом. Существование параметрикса цоказано для гипоэллиптических псевдодифференгиальных операторов (cM. [3])
+
+Лum.: [1] Б е р с Л., Д жо н Ф., III е х т е p М., Уравнения с частными производными, пер. с англ., М., $1966 ;[2]$ М и р а н д а К., Уравневия с частными п3] Х ̈̈ р м a Hд е р Л., в сб.: Псевдодифференциальные операторы, М.; 1967.</text_orig>
+</article>

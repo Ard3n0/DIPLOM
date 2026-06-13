@@ -1,0 +1,425 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/958_NEPRERYVNYE" alphabetic_pos="958">
+  <title>НЕПРЕРЫВНЫЕ АНАЛОГИ ИТЕРАЦИОННЫХ МЕТОДОВ</title>
+  <authors/>
+  <pages>
+    <start>497</start>
+    <end>498</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г а в у р и н М. К., &quot;изв. Вузов. Математика&quot;, 1958, № 5(6), с. 18-31; [2] Б а х в а л о в Н. С., Численные методы, 2 изд., т. 1, М., 1975; [3] М а р ч у к Г. И., Л е 6 е д е в В. И., Численные методы в теории переноса нейтронов, онные методы решения нелинейных систем уравнений со многими неизвестными, пер. с англ., М., 1975; [5] Д а в и д е нк о Д. Ф., «ж. вычисл. матем. и матем. физ.&quot;, 1975 , т. 15 ,</literature_orig>
+    <unit>
+      <author>Гавурин М. К.</author>
+      <title>&quot;изв. Вузов. Математика&quot;</title>
+      <publication/>
+      <year>1958</year>
+      <other>№ 5(6), с. 18-31</other>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., т. 1, М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Марчук Г. И.</author>
+      <author>Ле6едев В. И.</author>
+      <title>Численные методы в теории переноса нейтронов, онные методы решения нелинейных систем уравнений со многими неизвестными</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1975</year>
+      <other>«ж. вычисл. матем. и матем. физ.&quot;, 1975, т. 15</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/958_1_NEPRERYVNYE">A u=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_2_NEPRERYVNYE">\left(u^{k+1}-u^{k}\right) / \tau_{k}=-\left(A u^{k}-f\right), u^{0}=v .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_3_NEPRERYVNYE">\frac{d u}{d t}=-\rho(t)(A u-f), u(0)=v .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_4_NEPRERYVNYE">\int_{0}^{t} \rho(t) d t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_5_NEPRERYVNYE">u^{k+1}=u^{k}-\tau_{k} \operatorname{grad} F\left(u^{k}\right), \quad u^{0}=v,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_6_NEPRERYVNYE">\frac{d u}{d t}=-\rho(t) \operatorname{grad} F(u), \quad u(0)=v .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_7_NEPRERYVNYE">u^{k+1}=u^{k}-\alpha_{k}\left(A u^{k}-f\right)-\beta_{k}\left(u^{k}-u^{k-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_8_NEPRERYVNYE">\frac{d^{2} u}{d t^{2}}+\gamma(t) \frac{d u}{d t}+\mu(t) u=-\rho(t)(A u-f) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_9_NEPRERYVNYE">\varphi(u)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_10_NEPRERYVNYE">\Phi(u, \lambda)=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_11_NEPRERYVNYE">\Phi(u, \lambda)=\varphi(u)-(1-\lambda) \varphi\left(u^{0}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_12_NEPRERYVNYE">\frac{d u}{d \lambda}=-\varphi^{\prime}(u)^{-1} \varphi\left(u^{0}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_13_NEPRERYVNYE">u^{k}=u^{k-1}-\Delta \lambda_{k} \varphi^{\prime}\left(u^{k-1}\right)^{-1} \varphi\left(u^{0}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_14_NEPRERYVNYE">\begin{gathered}u_{k}^{i}=u_{k-1}^{i}-\Delta \lambda_{k} \varphi^{\prime}\left(u_{k-1}^{i}\right)^{-1} \varphi\left(u_{0}^{i}\right), \\k=1,2, \ldots, n ; \quad u_{0}^{i}=y_{n}^{i-1}, i=1,2, \ldots, u_{0}^{0}=u^{0} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_15_NEPRERYVNYE">\frac{d u}{d t}=-\varphi^{\prime}(u)^{-1} \varphi(u), u(0)=u^{0} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/958_16_NEPRERYVNYE">u^{k}=u^{k-1}-\Delta t_{k-1} \varphi^{\prime}\left(u^{k-1}\right)^{-1} \varphi\left(u^{k-1}\right),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_1_NEPRERYVNYE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_2_NEPRERYVNYE">\tau_{k}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_3_NEPRERYVNYE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_4_NEPRERYVNYE">u^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_5_NEPRERYVNYE">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_6_NEPRERYVNYE">t=t_{k}, \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_7_NEPRERYVNYE">t_{0}=0&lt;t_{1}&lt;\ldots&lt;t_{k}&lt;t_{k+1}&lt;\ldots, t_{k} \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_8_NEPRERYVNYE">k \rightarrow \infty ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_9_NEPRERYVNYE">\tau_{k}=\rho\left(t_{k}\right)\left(t_{k}-t_{k-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_10_NEPRERYVNYE">\rho(t)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_11_NEPRERYVNYE">t \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_12_NEPRERYVNYE">\delta t_{k}=t_{k+1}-t_{k} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_13_NEPRERYVNYE">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_14_NEPRERYVNYE">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_15_NEPRERYVNYE">u(\infty)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_16_NEPRERYVNYE">f(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_17_NEPRERYVNYE">\rho(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_18_NEPRERYVNYE">f(u)=(a u, u)-2(f, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_19_NEPRERYVNYE">2\left[\left(u^{k+1}-u^{k}\right) / \Delta t_{k}-\left(u^{k}-u^{k-1}\right) / \Delta t_{k-1}\right] /\left(t_{k+1}-t_{k-1}\right)+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_20_NEPRERYVNYE">+\gamma_{k}\left(u^{k+1}-u^{k-1}\right) /\left(t_{k+1}-t_{k-1}\right)+\mu_{k} u_{k}=-\rho_{k}\left(A u^{k}-f\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_21_NEPRERYVNYE">\gamma_{k}, \mu_{k}, \rho_{k}, t_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_22_NEPRERYVNYE">\alpha_{k}, \boldsymbol{\beta}_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_23_NEPRERYVNYE">\delta t_{k} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_24_NEPRERYVNYE">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_25_NEPRERYVNYE">\lambda=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_26_NEPRERYVNYE">u(0)=u^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_27_NEPRERYVNYE">\lambda=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_28_NEPRERYVNYE">u=u(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_29_NEPRERYVNYE">u(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_30_NEPRERYVNYE">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_31_NEPRERYVNYE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_32_NEPRERYVNYE">\lambda_{0}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_33_NEPRERYVNYE">=0&lt;\lambda_{1}&lt;\ldots&lt;\lambda_{n-1}&lt;\lambda_{n}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_34_NEPRERYVNYE">\lambda_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_35_NEPRERYVNYE">u^{k}=u\left(\lambda_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_36_NEPRERYVNYE">\delta \lambda_{k}=\lambda_{k}-\lambda_{k-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_37_NEPRERYVNYE">\delta \lambda_{1}=1, n=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_38_NEPRERYVNYE">\lambda=1-e^{-t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_39_NEPRERYVNYE">t_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/958_40_NEPRERYVNYE">\delta t_{k-1}=1</formula>
+  </formulas_aux>
+  <relations n="26">
+    <relation uri="http://libmeta.ru/me/relation/958_1_NEPRERYVNYE">
+      <rel_text>Установления метод</rel_text>
+      <target>http://libmeta.ru/me/article/625_USTANOVLENIJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_2_NEPRERYVNYE">
+      <rel_text>производных</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_3_NEPRERYVNYE">
+      <rel_text>частными произвотными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_4_NEPRERYVNYE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_5_NEPRERYVNYE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_6_NEPRERYVNYE">
+      <rel_text>дифференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_7_NEPRERYVNYE">
+      <rel_text>итерационному методу</rel_text>
+      <target>http://libmeta.ru/me/article/687_ITERATsIONNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_8_NEPRERYVNYE">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_9_NEPRERYVNYE">
+      <rel_text>интегрирование</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_10_NEPRERYVNYE">
+      <rel_text>вид</rel_text>
+      <target>http://libmeta.ru/me/article/708_VI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_11_NEPRERYVNYE">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_12_NEPRERYVNYE">
+      <rel_text>дифференциальное</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_13_NEPRERYVNYE">
+      <rel_text>переменшая</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_14_NEPRERYVNYE">
+      <rel_text>формуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_15_NEPRERYVNYE">
+      <rel_text>итераций</rel_text>
+      <target>http://libmeta.ru/me/article/689_ITERATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_16_NEPRERYVNYE">
+      <rel_text>Эйлера уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/1085_EJLERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_17_NEPRERYVNYE">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_18_NEPRERYVNYE">
+      <rel_text>итерационного метода</rel_text>
+      <target>http://libmeta.ru/me/article/687_ITERATsIONNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_19_NEPRERYVNYE">
+      <rel_text>формул</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_20_NEPRERYVNYE">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_21_NEPRERYVNYE">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_22_NEPRERYVNYE">
+      <rel_text>численного</rel_text>
+      <target>http://libmeta.ru/me/article/1008_ChISLITEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_23_NEPRERYVNYE">
+      <rel_text>формул</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_24_NEPRERYVNYE">
+      <rel_text>уравнению</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_25_NEPRERYVNYE">
+      <rel_text>отрезок</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/958_26_NEPRERYVNYE">
+      <rel_text>Разбивая</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+  </relations>
+  <text>непрерывные модели, позволяющие исследовать вопросы существования решений нелинейных уравнений, проводить с помощью развитого аппарата непрерывного анализа предварительные исследования сходимости и оптимальности итерационных методов, получать новые классы итерационных методов.
+
+Можно установить соответствие между методами решенія стационарных задач путем установления (см. URI[[http://libmeta.ru/me/relation/958_1_NEPRERYVNYE]]/URI) и нек-рыми итерационными методами (см. [1], [2]). Напр., для решения линейного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_1_NEPRERYVNYE]]/URI
+\]
+
+с положительно определенным самосопряженным оператором $URI[[http://libmeta.ru/me/formula/aux/958_1_NEPRERYVNYE]]/URI$ известны сходящиеся при достаточно малых $URI[[http://libmeta.ru/me/formula/aux/958_2_NEPRERYVNYE]]/URI$ двучленные итерационные методы вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_2_NEPRERYVNYE]]/URI
+\]
+
+Если ввести непрерывное время $URI[[http://libmeta.ru/me/formula/aux/958_3_NEPRERYVNYE]]/URI$, а величины $URI[[http://libmeta.ru/me/formula/aux/958_4_NEPRERYVNYE]]/URI$ рассматривать как значение нек-рой функции $URI[[http://libmeta.ru/me/formula/aux/958_5_NEPRERYVNYE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/958_6_NEPRERYVNYE]]/URI$ где
+
+$URI[[http://libmeta.ru/me/formula/aux/958_7_NEPRERYVNYE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/958_8_NEPRERYVNYE]]/URI$ .если положить $URI[[http://libmeta.ru/me/formula/aux/958_9_NEPRERYVNYE]]/URI$, где непрерывная функция $URI[[http://libmeta.ru/me/formula/aux/958_10_NEPRERYVNYE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/958_11_NEPRERYVNYE]]/URI$, то при переходе к пределу в (2) при $URI[[http://libmeta.ru/me/formula/aux/958_12_NEPRERYVNYE]]/URI$ получают Н. а. и. м. (2):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_3_NEPRERYVNYE]]/URI
+\]
+
+И если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_4_NEPRERYVNYE]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/958_13_NEPRERYVNYE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/958_14_NEPRERYVNYE]]/URI$ стремится к $URI[[http://libmeta.ru/me/formula/aux/958_15_NEPRERYVNYE]]/URI$ решению уравнения (1).
+
+Двучленным градиентным итерационным методам минпмизации функциіi $URI[[http://libmeta.ru/me/formula/aux/958_16_NEPRERYVNYE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_5_NEPRERYVNYE]]/URI
+\]
+
+аналогичным образом можно сопоставить Н. а. и. м. вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_6_NEPRERYVNYE]]/URI
+\]
+
+Здесь функцпя $URI[[http://libmeta.ru/me/formula/aux/958_17_NEPRERYVNYE]]/URI$ влияет лишь на параметризацию линии наискорейшего спуска. Для решенпя уравнения (1) можно взять $URI[[http://libmeta.ru/me/formula/aux/958_18_NEPRERYVNYE]]/URI$, тогда формулы (4) примут вид (2), а уравнение (5) - вид (3):
+
+Трехчленные итерационные методы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_7_NEPRERYVNYE]]/URI
+\]
+
+с помощью преобразований можно записать в впде $URI[[http://libmeta.ru/me/formula/aux/958_19_NEPRERYVNYE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/958_20_NEPRERYVNYE]]/URI$,
+
+где величины $URI[[http://libmeta.ru/me/formula/aux/958_21_NEPRERYVNYE]]/URI$ определяются (неоднозначно) по параметрам $URI[[http://libmeta.ru/me/formula/aux/958_22_NEPRERYVNYE]]/URI$ метола (6). Переход в (7) к пределу при $URI[[http://libmeta.ru/me/formula/aux/958_23_NEPRERYVNYE]]/URI$ приводит к Н. а. и. м. вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_8_NEPRERYVNYE]]/URI
+\]
+
+Метод установления с использованием уравненшя типа (8) носит название м е т о д а т я ж е л о г о ш а р пк а (см. [2]). Существуют итерационные методы, для к-рых Н. а. и. м. содержат дифференциальные операторы более высоких порядков (см. [3]).
+
+Источником получения дпфференциальных уравнений, играющих роль Н. а. и. м., может быть м е т о д Ii р о должения по п а раме т у у (см. [4], [5]). В этом методе для нахождения решения уравнения
+
+строят уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_9_NEPRERYVNYE]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_10_NEPRERYVNYE]]/URI
+\]
+
+зависящее от параметра $URI[[http://libmeta.ru/me/formula/aux/958_24_NEPRERYVNYE]]/URI$ и такое, что при $URI[[http://libmeta.ru/me/formula/aux/958_25_NEPRERYVNYE]]/URI$ решение (10) известно: $URI[[http://libmeta.ru/me/formula/aux/958_26_NEPRERYVNYE]]/URI$, а при $URI[[http://libmeta.ru/me/formula/aux/958_27_NEPRERYVNYE]]/URI$ решения уравнений (9), (10) совпадают. Напр., моясно взять
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_11_NEPRERYVNYE]]/URI
+\]
+
+Дифференцируя уравнение (10) по шараметру и считая $URI[[http://libmeta.ru/me/formula/aux/958_28_NEPRERYVNYE]]/URI$, получают диффференциальное уравнение для $URI[[http://libmeta.ru/me/formula/aux/958_29_NEPRERYVNYE]]/URI$; оно для случая (11) примет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_12_NEPRERYVNYE]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/958_26_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_25_NEPRERYVNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_30_NEPRERYVNYE]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/958_31_NEPRERYVNYE]]/URI$ частей точками $URI[[http://libmeta.ru/me/formula/aux/958_32_NEPRERYVNYE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/958_33_NEPRERYVNYE]]/URI$ и применяя к URI[[http://libmeta.ru/me/relation/958_24_NEPRERYVNYE]]/URI (12) одну из URI[[http://libmeta.ru/me/relation/958_23_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_22_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_21_NEPRERYVNYE]]/URI по точкам $URI[[http://libmeta.ru/me/formula/aux/958_34_NEPRERYVNYE]]/URI$ (метод Эйлера, Рунге - Кутта и т. п.), URI[[http://libmeta.ru/me/relation/958_20_NEPRERYVNYE]]/URI рекуррентные соотношения между величинами $URI[[http://libmeta.ru/me/formula/aux/958_35_NEPRERYVNYE]]/URI$, к-рые используют для построенпя URI[[http://libmeta.ru/me/relation/958_19_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_18_NEPRERYVNYE]]/URI. Так, после применения URI[[http://libmeta.ru/me/relation/958_17_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_16_NEPRERYVNYE]]/URI (12) заменится соотношениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_13_NEPRERYVNYE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/958_36_NEPRERYVNYE]]/URI$, к-рые определяют следующий двуступенчатый итерационный метод, содержащий внутренний и внешний циклы URI[[http://libmeta.ru/me/relation/958_15_NEPRERYVNYE]]/URI:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_14_NEPRERYVNYE]]/URI
+\]
+
+При $URI[[http://libmeta.ru/me/formula/aux/958_37_NEPRERYVNYE]]/URI$ этот метод превращается в классич. метод Ньютона. Н. а. и. м. Ньютона может быть получен и другим путем: в URI[[http://libmeta.ru/me/relation/958_14_NEPRERYVNYE]]/URI (11) заменяется URI[[http://libmeta.ru/me/relation/958_13_NEPRERYVNYE]]/URI $URI[[http://libmeta.ru/me/formula/aux/958_38_NEPRERYVNYE]]/URI$. Тогда URI[[http://libmeta.ru/me/relation/958_12_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_11_NEPRERYVNYE]]/URI (12) принимает URI[[http://libmeta.ru/me/relation/958_10_NEPRERYVNYE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_15_NEPRERYVNYE]]/URI
+\]
+
+Чпсленное URI[[http://libmeta.ru/me/relation/958_9_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_8_NEPRERYVNYE]]/URI (15) методом Эйлера по точкам $URI[[http://libmeta.ru/me/formula/aux/958_39_NEPRERYVNYE]]/URI$ приводит к URI[[http://libmeta.ru/me/relation/958_7_NEPRERYVNYE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/958_16_NEPRERYVNYE]]/URI
+\]
+
+совпадающему при $URI[[http://libmeta.ru/me/formula/aux/958_40_NEPRERYVNYE]]/URI$ с классич. методом Ньютона. Н. а. и. м. решения краевых задач для URI[[http://libmeta.ru/me/relation/958_6_NEPRERYVNYE]]/URI URI[[http://libmeta.ru/me/relation/958_5_NEPRERYVNYE]]/URI математич. физики являются, как правіло, смешанными задачами для URI[[http://libmeta.ru/me/relation/958_4_NEPRERYVNYE]]/URI с URI[[http://libmeta.ru/me/relation/958_3_NEPRERYVNYE]]/URI специального вида (напір., с быстро осциллирующими коэффпциентами или с малыми коәффіциентами при старпих URI[[http://libmeta.ru/me/relation/958_2_NEPRERYVNYE]]/URI).
+
+См. также ст. Замыкание вычислительного а.лгоритма.</text>
+  <text_orig>непрерывные модели, позволяющие исследовать вопросы существования решений нелинейных уравнений, проводить с помощью развитого аппарата непрерывного анализа предварительные исследования сходимости и оптимальности итерационных методов, получать новые классы итерационных методов.
+
+Можно установить соответствие между методами решенія стационарных задач путем установления (см. Установления метод) и нек-рыми итерационными методами (см. [1], [2]). Напр., для решения линейного уравнения
+
+\[
+A u=f
+\]
+
+с положительно определенным самосопряженным оператором $A$ известны сходящиеся при достаточно малых $\tau_{k}&gt;0$ двучленные итерационные методы вида
+
+\[
+\left(u^{k+1}-u^{k}\right) / \tau_{k}=-\left(A u^{k}-f\right), u^{0}=v .
+\]
+
+Если ввести непрерывное время $t$, а величины $u^{k}$ рассматривать как значение нек-рой функции $u(t)$ при $t=t_{k}, \quad$ где
+
+$t_{0}=0&lt;t_{1}&lt;\ldots&lt;t_{k}&lt;t_{k+1}&lt;\ldots, t_{k} \rightarrow \infty$ при $k \rightarrow \infty ;$ .если положить $\tau_{k}=\rho\left(t_{k}\right)\left(t_{k}-t_{k-1}\right)$, где непрерывная функция $\rho(t)&gt;0$ при $t \geqslant 0$, то при переходе к пределу в (2) при $\Delta t_{k}=t_{k+1}-t_{k} \rightarrow 0$ получают Н. а. и. м. (2):
+
+\[
+\frac{d u}{d t}=-\rho(t)(A u-f), u(0)=v .
+\]
+
+И если
+
+\[
+\int_{0}^{t} \rho(t) d t \rightarrow \infty
+\]
+
+при $t \rightarrow \infty$, то $u(t)$ стремится к $u(\infty)-$ решению уравнения (1).
+
+Двучленным градиентным итерационным методам минпмизации функциіI $F(u)$ :
+
+\[
+u^{k+1}=u^{k}-\tau_{k} \operatorname{grad} F\left(u^{k}\right), \quad u^{0}=v,
+\]
+
+аналогичным образом можно сопоставить Н. а. и. м. вида
+
+\[
+\frac{d u}{d t}=-\rho(t) \operatorname{grad} F(u), \quad u(0)=v .
+\]
+
+Здесь функцпя $\rho(t)$ влияет лишь на параметризацию линии наискорейшего спуска. Для решенпя уравнения (1) можно взять $F(u)=(A u, u)-2(f, u)$, тогда формулы (4) примут вид (2), а уравнение (5) - вид (3):
+
+Трехчленные итерационные методы:
+
+\[
+u^{k+1}=u^{k}-\alpha_{k}\left(A u^{k}-f\right)-\beta_{k}\left(u^{k}-u^{k-1}\right)
+\]
+
+с помощью преобразований можно записать в впде $2\left[\left(u^{k+1}-u^{k}\right) / \Delta t_{k}-\left(u^{k}-u^{k-1}\right) / \Delta t_{k-1}\right] /\left(t_{k+1}-t_{k-1}\right)+$ $+\gamma_{k}\left(u^{k+1}-u^{k-1}\right) /\left(t_{k+1}-t_{k-1}\right)+\mu_{k} u_{k}=-\rho_{k}\left(A u^{k}-f\right)$,
+
+где величины $\gamma_{k}, \mu_{k}, \rho_{k}, t_{k}$ определяются (неоднозначно) по параметрам $\alpha_{k}, \boldsymbol{\beta}_{k}$ метола (6). Переход в (7) к пределу при $\Delta t_{k} \rightarrow 0$ приводит к Н. а. и. м. вида
+
+\[
+\frac{d^{2} u}{d t^{2}}+\gamma(t) \frac{d u}{d t}+\mu(t) u=-\rho(t)(A u-f) .
+\]
+
+Метод установления с использованием уравненшя типа (8) носит название м е т о д а т я ж е л о г о ш а р пк а (см. [2]). Существуют итерационные методы, для к-рых Н. а. и. м. содержат дифференциальные операторы более высоких порядков (см. [3]).
+
+Источником получения дпфференциальных уравнений, играющих роль Н. а. и. м., может быть м е т о д II р о должения по п а раме т у у (см. [4], [5]). В этом методе для нахождения решения уравнения
+
+строят уравнение
+
+\[
+\varphi(u)=0
+\]
+
+\[
+\Phi(u, \lambda)=0,
+\]
+
+зависящее от параметра $\lambda$ и такое, что при $\lambda=0$ решение (10) известно: $u(0)=u^{0}$, а при $\lambda=1$ решения уравнений (9), (10) совпадают. Напр., моясно взять
+
+\[
+\Phi(u, \lambda)=\varphi(u)-(1-\lambda) \varphi\left(u^{0}\right) .
+\]
+
+Дифференцируя уравнение (10) по шараметру и считая $u=u(\lambda)$, получают диффференциальное уравнение для $u(\lambda)$; оно для случая (11) примет вид
+
+\[
+\frac{d u}{d \lambda}=-\varphi^{\prime}(u)^{-1} \varphi\left(u^{0}\right) .
+\]
+
+Разбивая отрезок $[0,1]$ на $n$ частей точками $\lambda_{0}=$ $=0&lt;\lambda_{1}&lt;\ldots&lt;\lambda_{n-1}&lt;\lambda_{n}=1$ и применяя к уравнению (12) одну из формул численного интегрирования по точкам $\lambda_{k}$ (метод Эйлера, Рунге - Кутта и т. п.), получают рекуррентные соотношения между величинами $u^{k}=u\left(\lambda_{k}\right)$, к-рые используют для построенпя формул итерационного метода. Так, после применения метода Эйлера уравнение (12) заменится соотношениями
+
+\[
+u^{k}=u^{k-1}-\Delta \lambda_{k} \varphi^{\prime}\left(u^{k-1}\right)^{-1} \varphi\left(u^{0}\right),
+\]
+
+где $\Delta \lambda_{k}=\lambda_{k}-\lambda_{k-1}$, к-рые определяют следующий двуступенчатый итерационный метод, содержащий внутренний и внешний циклы итераций:
+
+\[
+\begin{gathered}
+u_{k}^{i}=u_{k-1}^{i}-\Delta \lambda_{k} \varphi^{\prime}\left(u_{k-1}^{i}\right)^{-1} \varphi\left(u_{0}^{i}\right), \\
+k=1,2, \ldots, n ; \quad u_{0}^{i}=y_{n}^{i-1}, i=1,2, \ldots, u_{0}^{0}=u^{0} .
+\end{gathered}
+\]
+
+При $\Delta \lambda_{1}=1, n=1$ этот метод превращается в классич. метод Ньютона. Н. а. и. м. Ньютона может быть получен и другим путем: в формуле (11) заменяется переменшая $\lambda=1-e^{-t}$. Тогда дифференциальное уравнение (12) принимает вид
+
+\[
+\frac{d u}{d t}=-\varphi^{\prime}(u)^{-1} \varphi(u), u(0)=u^{0} .
+\]
+
+Чпсленное интегрирование уравнения (15) методом Эйлера по точкам $t_{k}$ приводит к итерационному методу
+
+\[
+u^{k}=u^{k-1}-\Delta t_{k-1} \varphi^{\prime}\left(u^{k-1}\right)^{-1} \varphi\left(u^{k-1}\right),
+\]
+
+совпадающему при $\Delta t_{k-1}=1$ с классич. методом Ньютона. Н. а. и. м. решения краевых задач для дифференциальных уравнений математич. физики являются, как правіло, смешанными задачами для уравнений с частными произвотными специального вида (напір., с быстро осциллирующими коэффпциентами или с малыми коәффіциентами при старпих производных).
+
+См. также ст. Замыкание вычислительного а.лгоритма. Лит.: [1] Г а в у р и н М. К., &quot;Изв. ВУЗов. Математика&quot;, 1958, № 5(6), с. 18-31; [2] Б а х в а л о в Н. С., Численные методы, 2 изд., т. 1, М., 1975; [3] М а р ч у к Г. И., Л е 6 е д е в В. И., Численные методы в теории переноса нейтронов, онные методы решения нелинейных систем уравнений со многими неизвестными, пер. с англ., М., 1975; [5] Д а в и д е нк о Д. Ф., «Ж. вычисл. матем. и матем. физ.&quot;, 1975 , т. 15 ,</text_orig>
+</article>

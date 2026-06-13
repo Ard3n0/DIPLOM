@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/3_D'ALAMBERA" alphabetic_pos="3">
+  <title>Д'АЛАМБЕРА ПРИНЦИП</title>
+  <authors>
+    <author>B. В. Румянчев</author>
+  </authors>
+  <pages>
+    <start>6</start>
+    <end>7</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] D'a l e m b e r t J., Traité de dynamique, P., 1743 (рус. пер.: Д а л а м б е р Ж., Динамика, М.-Л., 1950); [2] L a g r a n g e J., Mécanique analytique, P., 1788 (pyc. пер.: 1950); [3] С у сл о в Г. К., Теоретическая механика, 3 изд., M. Ј., 1946.</literature_orig>
+    <unit>
+      <author>D'alembert J.</author>
+      <title>Traité de dynamique, P.</title>
+      <publication/>
+      <year>1743</year>
+      <other>Динамика, М.-Л., 1950)</other>
+    </unit>
+    <unit>
+      <author>Lagrange J.</author>
+      <title>Mécanique analytique, P.</title>
+      <publication/>
+      <year>1788</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Суслов Г. К.</author>
+      <title>Теоретическая механика</title>
+      <publication>3 изд., M. Ј.</publication>
+      <year>1946</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/3_1_D'ALAMBERA">F_{v}+R_{v}-m_{v} w_{v}=0, \quad v=1,2, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/3_2_D'ALAMBERA">F_{v}=m_{v} w_{v}+P_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/3_3_D'ALAMBERA">P_{v}+R_{v}=0, \quad v=1,2, \ldots,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/3_1_D'ALAMBERA">f_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/3_2_D'ALAMBERA">r_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/3_3_D'ALAMBERA">w_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/3_4_D'ALAMBERA">m_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/3_5_D'ALAMBERA">m_{v} w_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/3_6_D'ALAMBERA">f_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/3_7_D'ALAMBERA">p_{v}=f_{v}-m_{v} w_{v}</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/3_1_D'ALAMBERA">
+      <rel_text>связей</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/3_2_D'ALAMBERA">
+      <rel_text>момент</rel_text>
+      <target>http://libmeta.ru/me/article/761_MOMEN</target>
+    </relation>
+  </relations>
+  <text>один из основных принципов динамики несвободных механич. систем; он содержит общий метод, с помощью к-рого уравнения движения любой механич. системы можно вывести в виде уравнений равновесия сил (и в этом смысле Д. П. сводит динамику к статике), а также определить реакции связей. Принцип сформулирован Ж. Д'аламбером [1] в виде правила для определения движений (под к-рыми понимаются векторы скоростей) нескольких тел, действующих одно на другое при помощи нитей или жестких стержней: движения, передаваемые телам, раскладывают каждое на два движения на движение, фактически воспринятое телами, и на нек-рое другое, причем эти два движения должны быть таковыми, что если телам будет передано лишь первое движение, то тела могут совершать это движение, не мешая одно другому, если же телам передано лишь второе движение, то тела будут оставаться в покое.
+
+Д. п. был успешно применен भ. Д'аламбером и другими учеными при решении ряда задач. Однако разложение движений, требуемое принципом, і определение тех сил, к-рые должны уничтожаться, представляют трудную задачу. Это побудило Ж. Лагранжа [2] предложить иную формулировку Д. П., основанную на установлении равновесия между силами и вызванными ими движениями, но направленными противоположно, к-рая близка к современной. Если обозначить через $URI[[http://libmeta.ru/me/formula/aux/3_1_D'ALAMBERA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/3_2_D'ALAMBERA]]/URI$ заданную активную силу и реакцию связей, действующие на движущуюся с ускорением $URI[[http://libmeta.ru/me/formula/aux/3_3_D'ALAMBERA]]/URI$ материальную точку с массой $URI[[http://libmeta.ru/me/formula/aux/3_4_D'ALAMBERA]]/URI$, то, согласно Д. П.,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/3_1_D'ALAMBERA]]/URI
+\]
+
+т. е. в каждый момент времени заданная активная сила и реакция связей, приложенные к движущейся материальной точке, уравновешиваются силой инерции - $URI[[http://libmeta.ru/me/formula/aux/3_5_D'ALAMBERA]]/URI$ точки. Или, если разложить силу $URI[[http://libmeta.ru/me/formula/aux/3_6_D'ALAMBERA]]/URI$ на две составляющие силы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/3_2_D'ALAMBERA]]/URI
+\]
+
+то равенства (*) примут вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/3_3_D'ALAMBERA]]/URI
+\]
+
+т. е. в каждый URI[[http://libmeta.ru/me/relation/3_2_D'ALAMBERA]]/URI времени «потерянная сила» $URI[[http://libmeta.ru/me/formula/aux/3_7_D'ALAMBERA]]/URI$ уравновешивается силой реакции URI[[http://libmeta.ru/me/relation/3_1_D'ALAMBERA]]/URI (см. [3]).</text>
+  <text_orig>один из основныХ принципов динамики несвободных механич. систем; он содержит общий метод, с помощью к-рого уравнения движения любой механич. системы можно вывести в виде уравнений равновесия сил (и в этом смысле Д. П. сводит динамику к статике), а также определить реакции связей. Принцип сформулирован Ж. Д'Аламбером [1] в виде правила для определения движений (под к-рыми понимаются векторы скоростей) нескольких тел, действующих одно на другое при помощи нитей или жестких стержней: движения, передаваемые телам, раскладывают каждое на два движения на движение, фактически воспринятое телами, и на нек-рое другое, причем эти два движения должны быть таковыми, что если телам будет передано лишь первое движение, то тела могут совершать это движение, не мешая одно другому, если же телам передано лишь второе движение, то тела будут оставаться в покое.
+
+Д. п. был успешно применен भ. Д'Аламбером и другими учеными при решении ряда задач. Однако разложение движений, требуемое принципом, і определение тех сил, к-рые должны уничтожаться, представляют трудную задачу. Это побудило Ж. Лагранжа [2] предложить иную формулировку Д. П., основанную на установлении равновесия между силами и вызванными ими движениями, но направленными противоположно, к-рая близка к современной. Если обозначить через $F_{v}$ и $R_{v}$ заданную активную силу и реакцию связей, действующие на движущуюся с ускорением $w_{v}$ материальную точку с массой $m_{v}$, то, согласно Д. П.,
+
+\[
+F_{v}+R_{v}-m_{v} w_{v}=0, \quad v=1,2, \ldots,
+\]
+
+т. е. в каждый момент времени заданная активная сила и реакция связей, приложенные к движущейся материальной точке, уравновешиваются силой инерции - $m_{v} w_{v}$ точки. Или, если разложить силу $F_{v}$ на две составляющие силы:
+
+\[
+F_{v}=m_{v} w_{v}+P_{v}
+\]
+
+то равенства (*) примут вид:
+
+\[
+P_{v}+R_{v}=0, \quad v=1,2, \ldots,
+\]
+
+т. е. в каждый момент времени «потерянная сила» $P_{v}=F_{v}-m_{v} w_{v}$ уравновешивается силой реакции связей (см. [3]). Jum.: [1] D'A l e m b e r t J., Traité de dynamique, P., 1743 (рус. пер.: Д а л а м б е р Ж., Динамика, М.-Л., 1950); [2] L a g r a n g e J., Mécanique analytique, P., 1788 (pyc. пер.: 1950); [3] С у сл о в Г. К., Теоретическая механика, 3 изд., M. Ј., 1946. B. В. Румянчев.</text_orig>
+</article>

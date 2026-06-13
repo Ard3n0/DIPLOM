@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/439_ZAPJaTA" alphabetic_pos="439">
+  <title>ЗАПЯТАЯ</title>
+  <authors/>
+  <pages>
+    <start>222</start>
+    <end>223</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/439_1_ZAPJaTA">x=\sum_{k=-\infty}^{n} \alpha_{k} q^{k},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/439_2_ZAPJaTA">x=\left(\alpha_{n} \alpha_{n-1} \ldots \alpha_{1} \alpha_{0}, \alpha_{-1} \alpha_{-2} \ldots\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/439_3_ZAPJaTA">x= \pm q^{p} \sum_{k=1}^{t} \alpha_{k} q^{-k}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_1_ZAPJaTA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_2_ZAPJaTA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_3_ZAPJaTA">\alpha_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_4_ZAPJaTA">q-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_5_ZAPJaTA">x q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_6_ZAPJaTA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_7_ZAPJaTA">\alpha_{-1}, \alpha_{-2} \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_8_ZAPJaTA">\mathbf{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_9_ZAPJaTA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_10_ZAPJaTA">\left(\alpha_{1} \alpha_{2} \ldots \alpha_{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_11_ZAPJaTA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/439_12_ZAPJaTA">\alpha_{1} \neq 0</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/439_1_ZAPJaTA">
+      <rel_text>нормализуются</rel_text>
+      <target>http://libmeta.ru/me/article/1034_NORMALIZATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/439_2_ZAPJaTA">
+      <rel_text>автоматически</rel_text>
+      <target>http://libmeta.ru/me/article/36_AVTOKOVARIATsI</target>
+    </relation>
+  </relations>
+  <text>термин, относящийся к представлению действительного числа дробью, к способу представления действительных чисел в цифровой вычислительной машине.
+
+Пусть выбрана система счисления с основанием $URI[[http://libmeta.ru/me/formula/aux/439_1_ZAPJaTA]]/URI$, и пусть для действительного числа $URI[[http://libmeta.ru/me/formula/aux/439_2_ZAPJaTA]]/URI$ имеет место разложение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/439_1_ZAPJaTA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/439_3_ZAPJaTA]]/URI$ - целые числа, заключенные в пределах от 0 до $URI[[http://libmeta.ru/me/formula/aux/439_4_ZAPJaTA]]/URI$. В представлении числа $URI[[http://libmeta.ru/me/formula/aux/439_5_ZAPJaTA]]/URI$-ичной дробью
+
+\[
+URI[[http://libmeta.ru/me/formula/main/439_2_ZAPJaTA]]/URI
+\]
+
+3. (так наз. q-ичная запятая) разделяет коэффициенты разложения (1), относящиеся соответственно к неотрицательным и отрицательным степеням $URI[[http://libmeta.ru/me/formula/aux/439_6_ZAPJaTA]]/URI$.
+
+По способу представления действительных чисел цифровые вычислительные машины делятся на машины с фиксированной 3. и машины с плавающей 3 .
+
+Арифметика с ф и к с и р о в а н н о й 3 а п я т о й предполагает, что все числа имеют модуль, меньший 1. Для хранения коәффициентов $URI[[http://libmeta.ru/me/formula/aux/439_7_ZAPJaTA]]/URI$ отводится фиксированное число разрядов. Если при выполнении арифметич. операции над числами с фиксированной 3. результат имеет модуль, больпий 1, то выполнение программы прерывается, и выдается сигнал переполнения. Чтобы избежать этого, программист заранее должен предусмотреть возможность переполнения и предупредить его соответствующим масптабированием. К числу машин с фиксированной 3 . относится, напр., «сетунь&quot;, работающая в троичной системе счисления. Трудности программирования для арифметики с фиксированной З. объясняют тот факт, что большинство современных Эвм используют арифмметику с плавающей З. Число с п л а в а ю щ е й $URI[[http://libmeta.ru/me/formula/aux/439_8_ZAPJaTA]]/URI$ а п я т о й имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/439_3_ZAPJaTA]]/URI
+\]
+
+при этом $URI[[http://libmeta.ru/me/formula/aux/439_9_ZAPJaTA]]/URI$ наз. п о р я д к о м, а $URI[[http://libmeta.ru/me/formula/aux/439_10_ZAPJaTA]]/URI$ м а нт и с с о й числа $URI[[http://libmeta.ru/me/formula/aux/439_11_ZAPJaTA]]/URI$. Для хранения порядка и мантиссы числа с плавающей 3 . обычно отводится фиксированное число разрядов (определяемое длиной машинного слова), что вызывает ограничения на величину порядка такого числа. Число с плавающей 3., У к-рого $URI[[http://libmeta.ru/me/formula/aux/439_12_ZAPJaTA]]/URI$, наз. н о р м а л и зо в а н ны м ч и с л о м. Обычно результаты арифофетич. операций в машине с плавающей 3 . URI[[http://libmeta.ru/me/relation/439_2_ZAPJaTA]]/URI URI[[http://libmeta.ru/me/relation/439_1_ZAPJaTA]]/URI суммирующим устройством машины.</text>
+  <text_orig>термин, относящийся к представлению действительного числа дробью, к способу представления действительных чисел в цифровой вычислительной машине.
+
+Пусть выбрана система счисления с основанием $q$, и пусть для действительного числа $x$ имеет место разложение
+
+\[
+x=\sum_{k=-\infty}^{n} \alpha_{k} q^{k},
+\]
+
+где $\alpha_{k}$ - целые числа, заключенные в пределах от 0 до $q-1$. В представлении числа $x q$-ичной дробью
+
+\[
+x=\left(\alpha_{n} \alpha_{n-1} \ldots \alpha_{1} \alpha_{0}, \alpha_{-1} \alpha_{-2} \ldots\right)
+\]
+
+3. (так наз. q-ичная запятая) разделяет коэффициенты разложения (1), относящиеся соответственно к неотрицательным и отрицательным степеням $q$.
+
+По способу представления действительных чисел цифровые вычислительные машины делятся на машины с фиксированной 3. и машины с плавающей 3 .
+
+Арифметика с ф и к с и р о в а н н о й 3 а п я т о й предполагает, что все числа имеют модуль, меньший 1. Для хранения коәффициентов $\alpha_{-1}, \alpha_{-2} \ldots$ отводится фиксированное число разрядов. Если при выполнении арифметич. операции над числами с фиксированной 3. результат имеет модуль, больпий 1, то выполнение программы прерывается, и выдается сигнал переполнения. Чтобы избежать этого, программист заранее должен предусмотреть возможность переполнения и предупредить его соответствующим масптабированием. К числу машин с фиксированной 3 . относится, напр., «Сетунь&quot;, работающая в троичной системе счисления. Трудности программирования для арифметики с фиксированной З. объясняют тот факт, что большинство современных ЭВМ используют арифмметику с плавающей З. Число с п л а в а ю щ е й $\mathbf{3}$ а п я т о й имеет вид
+
+\[
+x= \pm q^{p} \sum_{k=1}^{t} \alpha_{k} q^{-k}
+\]
+
+при этом $p$ наз. п о р я д к о м, а $\left(\alpha_{1} \alpha_{2} \ldots \alpha_{n}\right)-$ м а нт и с с о й числа $x$. Для хранения порядка и мантиссы числа с плавающей 3 . обычно отводится фиксированное число разрядов (определяемое длиной машинного слова), что вызывает ограничения на величину порядка такого числа. Число с плавающей 3., У к-рого $\alpha_{1} \neq 0$, наз. н о р м а л и зо в а н ны м ч и с л о м. Обычно результаты арифофетич. операций в машине с плавающей 3 . автоматически нормализуются суммирующим устройством машины.</text_orig>
+</article>

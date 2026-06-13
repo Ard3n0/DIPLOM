@@ -1,0 +1,544 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/189_ЈAGRANZhA" alphabetic_pos="189">
+  <title>ЈАГРАНЖА ФУНКЦИЯ</title>
+  <authors>
+    <author>И. Б. Вапнярский</author>
+  </authors>
+  <pages>
+    <start>90</start>
+    <end>92</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/189_1_ЈAGRANZhA">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_2_ЈAGRANZhA">\begin{gathered}F(x, \lambda)=\lambda_{0} f(x)+\lambda_{1}\left[b_{1}-g_{1}(x)\right]+\ldots+ \\+\ldots+\lambda_{m}\left[b_{m}-g_{m}(x)\right]\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_3_ЈAGRANZhA">\begin{gathered}\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}=\lambda_{0}^{*} \frac{\partial f\left(x^{*}\right)}{\partial x_{j}}-\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}=0, \\j=1, \ldots, n, \\\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=b_{i}-g_{i}\left(x^{*}\right)=0, i=1, \ldots, m .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_4_ЈAGRANZhA">G=\left\|\begin{array}{ccc}\frac{\partial g_{1}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{1}}{\partial x_{n}} \\\cdots &amp; \cdots &amp; \cdots \\\frac{\partial g_{m}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{m}}{\partial x_{n}}\end{array}\right\|, \quad G_{f}=\left\|\begin{array}{ccc}\frac{\partial g_{1}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{1}}{\partial x_{n}} \\\cdots &amp; \cdots &amp; \cdots \\\frac{\partial g_{m}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{m}}{\partial x_{n}} \\\frac{\partial f}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial f}{\partial x_{n}}\end{array}\right\| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_5_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_6_ЈAGRANZhA">\begin{aligned}&amp; g_{i}(x) \leqslant b_{i}, \quad i=1, \ldots, m_{1}, \\&amp; g_{i}(x) \geqslant b_{i}, \quad i=m_{1}+1, \ldots, m_{2}, m_{1} \leqslant m_{2}, \\&amp; g_{i}(x)=b_{i}, \quad i=m_{2}+1, \ldots, m, \quad m_{2} \leqslant m, \quad \\&amp; x \geqslant 0 .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_7_ЈAGRANZhA">F(x, \lambda)=f(x)+\sum_{i=1}^{m} \lambda_{i}\left[b_{i}-g_{i}(x)\right] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_8_ЈAGRANZhA">\left.\begin{array}{c}\lambda_{i}^{*} \geqslant 0 \text { при } i=1, \ldots, m_{1}, \\\lambda_{i}^{*} \leqslant 0 \text { при } i=m_{1}+1, \ldots, m_{2}, \\\lambda_{i}^{*} \text { любого знака при } i=m_{2}+1, \ldots, m, \\\lambda_{i}^{*}=0 \text { при } i \in I,\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_9_ЈAGRANZhA">\begin{aligned}&amp; \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}= \\&amp; =\frac{\partial f\left(x^{*}\right)}{\partial x_{j}}-\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}\left\{\begin{array}{l}=0 \text { при } j \in J, \\\leqslant 0 \text { при } j \in J_{0},\end{array}\right. \\&amp; \frac{\partial F\left(x^{*} \cdot \lambda^{*}\right)}{\partial \lambda_{i}}= \\&amp; =b_{i}-g_{i}\left(x^{*}\right)\left\{\begin{array}{lll}\geqslant 0 &amp; \text { при } &amp; i=1, \ldots, m_{1}, \\\leqslant 0 &amp; \text { при } &amp; i=m_{1}+1, \ldots, m_{2}, \\=0 &amp; \text { при } &amp; i=m_{2}+1, \ldots, m .\end{array}\right.\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_10_ЈAGRANZhA">F\left(x, \lambda^{*}\right) \leqslant F\left(x^{*}, \lambda^{*}\right) \leqslant F\left(x^{*}, \lambda\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_11_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_12_ЈAGRANZhA">\begin{gathered}g_{i}(x) \geqslant 0, \quad i=1, \ldots, m, \\x \geqslant 0 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_13_ЈAGRANZhA">F(x, \lambda)=f(x)+\sum_{i=1}^{m} \lambda_{i} g_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_14_ЈAGRANZhA">\lambda_{i}^{*} \geqslant 0, \quad i=1, \ldots, m ; \lambda_{i}^{*}=0, i \in I</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_15_ЈAGRANZhA">\begin{gathered}\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}= \\=\frac{\partial f\left(x^{*}\right)}{\partial x_{j}}+\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}\left\{\begin{array}{l}=0 \text { при } j \in J, \\\leqslant 0 \text { при } j \in J_{0},\end{array}\right. \\\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=g_{i}\left(x^{*}\right) \geqslant 0, \quad i=1, \ldots, m\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_16_ЈAGRANZhA">\begin{aligned}&amp; \sum_{j=1}^{n} x_{j}^{*} \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}=0, \\&amp; \sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=0 .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_17_ЈAGRANZhA">J(x)=\int_{t_{1}}^{t_{2}} f(t, x, \dot{x}) d t+g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_18_ЈAGRANZhA">f: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{n} \longrightarrow \mathbb{R}, \quad g: \mathbb{R} \times \mathbb{R} \boldsymbol{n}^{n} \times \mathbb{R} \times \mathbb{R} \boldsymbol{n} \longrightarrow \mathbb{R}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_19_ЈAGRANZhA">p \leqslant 2 n+2 \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/189_20_ЈAGRANZhA">\lambda_{0}, \quad \lambda_{i}(t), \quad i=1, \ldots, m, e_{\mu}, \mu=1, \ldots, p .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_1_ЈAGRANZhA">g_{i}\left(x_{1}, \ldots, x_{n}\right)=b_{i}, \quad i=1, \ldots, m ; m&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_2_ЈAGRANZhA">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_3_ЈAGRANZhA">\lambda_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_4_ЈAGRANZhA">x^{*}=\left(x_{1}^{*}, . ., x_{n}^{*}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_5_ЈAGRANZhA">\lambda *=\left(\lambda_{0}^{*}, \lambda_{1}^{*}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_6_ЈAGRANZhA">\left.\lambda_{m}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_7_ЈAGRANZhA">\left(x^{*}, \lambda^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_8_ЈAGRANZhA">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_9_ЈAGRANZhA">\lambda_{i}, i \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_10_ЈAGRANZhA">m+n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_11_ЈAGRANZhA">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_12_ЈAGRANZhA">f(x, \lambda *)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_13_ЈAGRANZhA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_14_ЈAGRANZhA">\lambda_{0}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_15_ЈAGRANZhA">\lambda_{0}^{*}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_16_ЈAGRANZhA">\lambda_{0}^{*}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_17_ЈAGRANZhA">\lambda_{0}^{*}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_18_ЈAGRANZhA">\lambda_{0}^{*}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_19_ЈAGRANZhA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_20_ЈAGRANZhA">g_{f}:</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_21_ЈAGRANZhA">r(g)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_22_ЈAGRANZhA">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_23_ЈAGRANZhA">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_24_ЈAGRANZhA">r\left(g_{f}\right)=r(g)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_25_ЈAGRANZhA">\lambda_{0}^{*}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_26_ЈAGRANZhA">r\left(g_{f}\right)&gt;r(g)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_27_ЈAGRANZhA">\lambda_{0}^{*}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_28_ЈAGRANZhA">r\left(g_{f}\right)=r(g)=m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_29_ЈAGRANZhA">\lambda_{i}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_30_ЈAGRANZhA">r\left(g_{f}\right)&gt;r(g)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_31_ЈAGRANZhA">r\left(g_{f}\right)=r(g)&lt;m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_32_ЈAGRANZhA">\lambda_{i}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_33_ЈAGRANZhA">\lambda_{0}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_34_ЈAGRANZhA">m+n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_35_ЈAGRANZhA">m+n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_36_ЈAGRANZhA">x_{1}^{*}, \ldots, x_{n}^{*}, \lambda_{1}^{*}, \ldots, \lambda_{m}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_37_ЈAGRANZhA">\lambda_{i}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_38_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_39_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_40_ЈAGRANZhA">x^{*}=\left(x_{1}^{*}, \ldots, x_{n}^{*}\right) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_41_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_42_ЈAGRANZhA">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_43_ЈAGRANZhA">j-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_44_ЈAGRANZhA">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_45_ЈAGRANZhA">j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_46_ЈAGRANZhA">x_{j}^{*}&gt;0, J_{0}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_47_ЈAGRANZhA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_48_ЈAGRANZhA">x_{j}^{*}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_49_ЈAGRANZhA">i-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_50_ЈAGRANZhA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_51_ЈAGRANZhA">i=1, \ldots, m_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_52_ЈAGRANZhA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_53_ЈAGRANZhA">\lambda^{*}=\left(\lambda_{1}^{*}, \ldots, \lambda_{m}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_54_ЈAGRANZhA">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_55_ЈAGRANZhA">\left(x^{*}, \lambda^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_56_ЈAGRANZhA">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_57_ЈAGRANZhA">\left(x^{*}, \lambda^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_58_ЈAGRANZhA">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_59_ЈAGRANZhA">x \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_60_ЈAGRANZhA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_61_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_62_ЈAGRANZhA">x \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_63_ЈAGRANZhA">g_{i}(x)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_64_ЈAGRANZhA">\lambda_{i}^{*}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_65_ЈAGRANZhA">\lambda_{i}^{*}&lt;0, i=1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_66_ЈAGRANZhA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_67_ЈAGRANZhA">\left(x^{*}, \lambda *\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_68_ЈAGRANZhA">f(x, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_69_ЈAGRANZhA">x \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_70_ЈAGRANZhA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_71_ЈAGRANZhA">f\left(x^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_72_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_73_ЈAGRANZhA">i=1, . ., m_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_74_ЈAGRANZhA">g_{i}(x)=b_{i}, \quad i \triangleright m_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_75_ЈAGRANZhA">g_{i}(x)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_76_ЈAGRANZhA">b_{i} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_77_ЈAGRANZhA">b_{i}-g_{i}(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_78_ЈAGRANZhA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_79_ЈAGRANZhA">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_80_ЈAGRANZhA">i=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_81_ЈAGRANZhA">x^{*} \geqslant 0-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_82_ЈAGRANZhA">\lambda *=\left(\lambda_{1}^{*}, \ldots, \lambda_{m}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_83_ЈAGRANZhA">x_{j}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_84_ЈAGRANZhA">\lambda_{i}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_85_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_86_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_87_ЈAGRANZhA">g_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_88_ЈAGRANZhA">i=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_89_ЈAGRANZhA">\left(x^{*}, \lambda^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_90_ЈAGRANZhA">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_91_ЈAGRANZhA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_92_ЈAGRANZhA">g_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_93_ЈAGRANZhA">\varphi(t, x, \dot{x})=0, \quad \varphi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{n} \longrightarrow \mathbb{R}^{m}, \quad m&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_94_ЈAGRANZhA">\psi\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)=0, \quad \psi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R} \times \mathbb{R}^{n} \rightarrow \mathbb{R} p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_95_ЈAGRANZhA">i(x, \lambda, e)=\int_{t_{\mathbf{1}}}^{t_{2}}\left(\lambda_{0} f(t, x, \dot{x})+\sum_{i=1}^{m} \lambda_{i}(t) \varphi_{i}(t, x, \dot{x})\right) d t+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_96_ЈAGRANZhA">+\lambda_{0} g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)+\sum_{\mu=1}^{p} e_{\mu} \psi_{\mu}\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_97_ЈAGRANZhA">x^{*}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_98_ЈAGRANZhA">\lambda_{i}^{*}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/189_99_ЈAGRANZhA">e_{\mu}^{*}</formula>
+  </formulas_aux>
+  <relations n="16">
+    <relation uri="http://libmeta.ru/me/relation/189_1_ЈAGRANZhA">
+      <rel_text>исчислению</rel_text>
+      <target>http://libmeta.ru/me/article/686_ISChISLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_2_ЈAGRANZhA">
+      <rel_text>исчислению</rel_text>
+      <target>http://libmeta.ru/me/article/686_ISChISLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_3_ЈAGRANZhA">
+      <rel_text>программирование</rel_text>
+      <target>http://libmeta.ru/me/article/668_PROGRAMMIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_4_ЈAGRANZhA">
+      <rel_text>трансверсальности условия</rel_text>
+      <target>http://libmeta.ru/me/article/462_TRANSVERSAL'NOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_5_ЈAGRANZhA">
+      <rel_text>Вейеритрасса условия</rel_text>
+      <target>http://libmeta.ru/me/article/631_VEJERІІTRASSA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_6_ЈAGRANZhA">
+      <rel_text>Эйлера уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/1085_EJLERA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_7_ЈAGRANZhA">
+      <rel_text>множителей</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_8_ЈAGRANZhA">
+      <rel_text>замкнутую систему</rel_text>
+      <target>http://libmeta.ru/me/article/424_ZAMKNUTAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_9_ЈAGRANZhA">
+      <rel_text>представляющие</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_10_ЈAGRANZhA">
+      <rel_text>множителей</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_11_ЈAGRANZhA">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_12_ЈAGRANZhA">
+      <rel_text>экстремума</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_13_ЈAGRANZhA">
+      <rel_text>необходимые условия</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_14_ЈAGRANZhA">
+      <rel_text>получаются</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_15_ЈAGRANZhA">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/189_16_ЈAGRANZhA">
+      <rel_text>Необходимые условия</rel_text>
+      <target>http://libmeta.ru/me/article/923_NEOBHODIMYE</target>
+    </relation>
+  </relations>
+  <text>Функция, используемая при решении задач на условный әкстремум функций многих переменных и функционалов. С помощью Ј. ф. записываются необходимые условия оптимальности в задачах на условный әкстремум. При этом не требуется выражать одни переменные через другие или учитывать, что не все переменные являются независимыми. Получаемые с помощью Л. ф. необходимые условия представляют замкнутую систему соотношений, среди решений к-рой содержится искомое оптимальное решение задачи на условный әкстремум. Л. ф. используется как при рассмотрении теоретич. вопросов линейного и нелинейного программирования, так и при построении нек-рых вычислительных методов.
+
+Пусть, напр., поставлена задача на условный әкстремум функции многих переменных: найти максимум или минимум функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_1_ЈAGRANZhA]]/URI
+\]
+
+при условия
+
+$URI[[http://libmeta.ru/me/formula/aux/189_1_ЈAGRANZhA]]/URI$.
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/189_2_ЈAGRANZhA]]/URI$, определенная выражением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_2_ЈAGRANZhA]]/URI
+\]
+
+наз. ф ункци е й Л а г р а н жа, а числа $URI[[http://libmeta.ru/me/formula/aux/189_3_ЈAGRANZhA]]/URI$ Лагранжа множителями. Имеет место следующее утверждение, называемое пр а в и ло м м но ж и т ел е й: если $URI[[http://libmeta.ru/me/formula/aux/189_4_ЈAGRANZhA]]/URI$ решение задачи на условный экстремум (1), (2), то существует хотя бы одна ненулевая система множителей Лагранжа $URI[[http://libmeta.ru/me/formula/aux/189_5_ЈAGRANZhA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/189_6_ЈAGRANZhA]]/URI$ такая, что точка $URI[[http://libmeta.ru/me/formula/aux/189_7_ЈAGRANZhA]]/URI$ является точкой стационарности Л. ф. по переменным $URI[[http://libmeta.ru/me/formula/aux/189_8_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_9_ЈAGRANZhA]]/URI$, pacсматриваемым как независимые переменные. Необходимые условия стационарности Л. ф. приводят к системе $URI[[http://libmeta.ru/me/formula/aux/189_10_ЈAGRANZhA]]/URI$ уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_3_ЈAGRANZhA]]/URI
+\]
+
+Соотношения (5) полученной системы представляют условия связи (2). Точка $URI[[http://libmeta.ru/me/formula/aux/189_11_ЈAGRANZhA]]/URI$ доставляет обычный (безусловный) әкстремум Л. ф. $URI[[http://libmeta.ru/me/formula/aux/189_12_ЈAGRANZhA]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/189_13_ЈAGRANZhA]]/URI$.
+
+Для большинства практич. задач значение $URI[[http://libmeta.ru/me/formula/aux/189_14_ЈAGRANZhA]]/URI$ в (3), (4) можно принять равным единице. Однако имеются примеры (см. [1]), в к-рых правило множителей при $URI[[http://libmeta.ru/me/formula/aux/189_15_ЈAGRANZhA]]/URI$ не выполняется, а выполняется при $URI[[http://libmeta.ru/me/formula/aux/189_16_ЈAGRANZhA]]/URI$. Для определения условий, позволяющих отличить случаи $URI[[http://libmeta.ru/me/formula/aux/189_17_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_18_ЈAGRANZhA]]/URI$, рассматриваются (см. [2]) матрицы $URI[[http://libmeta.ru/me/formula/aux/189_19_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_20_ЈAGRANZhA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_4_ЈAGRANZhA]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/189_21_ЈAGRANZhA]]/URI$ - ранг матрицы $URI[[http://libmeta.ru/me/formula/aux/189_22_ЈAGRANZhA]]/URI$, рассматриваемой в оптимальной точке $URI[[http://libmeta.ru/me/formula/aux/189_23_ЈAGRANZhA]]/URI$. Тогда если $URI[[http://libmeta.ru/me/formula/aux/189_24_ЈAGRANZhA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/189_25_ЈAGRANZhA]]/URI$; если же $URI[[http://libmeta.ru/me/formula/aux/189_26_ЈAGRANZhA]]/URI$, то для выполнения правіла множителей необходимо положить $URI[[http://libmeta.ru/me/formula/aux/189_27_ЈAGRANZhA]]/URI$. Кроме того, если $URI[[http://libmeta.ru/me/formula/aux/189_28_ЈAGRANZhA]]/URI$ (наиболее распространенный случай в практич. задачах), то $URI[[http://libmeta.ru/me/formula/aux/189_29_ЈAGRANZhA]]/URI$ определены однозначно, а если $URI[[http://libmeta.ru/me/formula/aux/189_30_ЈAGRANZhA]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/189_31_ЈAGRANZhA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/189_32_ЈAGRANZhA]]/URI$ определяются не единственным образом. В зависимости от рассмотренных случаев $URI[[http://libmeta.ru/me/formula/aux/189_33_ЈAGRANZhA]]/URI$ полагается равным 0 или 1. Тогда система (4), (5) превращается в систему $URI[[http://libmeta.ru/me/formula/aux/189_34_ЈAGRANZhA]]/URI$ уравнений с $URI[[http://libmeta.ru/me/formula/aux/189_35_ЈAGRANZhA]]/URI$ неизвестными $URI[[http://libmeta.ru/me/formula/aux/189_36_ЈAGRANZhA]]/URI$. Множителям Лагранжа $URI[[http://libmeta.ru/me/formula/aux/189_37_ЈAGRANZhA]]/URI$ можно дать интерпретацию, имеющую определенный физич. смысл (см. Лагранжа множители).
+
+В случае, когда оптимизируемая функция $URI[[http://libmeta.ru/me/formula/aux/189_38_ЈAGRANZhA]]/URI$ является квадратичной, а условия связи (2) линейны, система необходимых условий (4), (5) оказывается линейной, и ее решение не вызывает затруднений. В общем случае система необходимых условий (4), (5) в задаче на условный әкстремум, получаемая с помощью Л. ф., оказывается нелинейной, и ее решение возможно лишь с применением итерационных методов, напр. Ньютона метода. Основной трудностью при этом, помимо вычислительных трудностей решения системы нелинейных уравнений, оказывается проблема получения всех решений, удовлетворяющих необходимым условиям. Не существует вычислительного процесса, обеспечивающего получение всех решений системы (4), (5), и әто является одним из обстоятельств, ограничивающих применение метода множителей Лагранжа.
+
+Л. ф. применяется в задачах нелинейного программирования, отличающихся от классич. задач на условный экстремум наличием, помимо условий типа равенства, ограничений типа неравенства: найти минимум или максимум
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_5_ЈAGRANZhA]]/URI
+\]
+
+при условиях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_6_ЈAGRANZhA]]/URI
+\]
+
+Для вывода необходимых условий оптимальности в задаче (6) - (8) вводится Л. ф.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_7_ЈAGRANZhA]]/URI
+\]
+
+Для определенности рассматривается случай максимума $URI[[http://libmeta.ru/me/formula/aux/189_39_ЈAGRANZhA]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/189_40_ЈAGRANZhA]]/URI$ доставляет максимум $URI[[http://libmeta.ru/me/formula/aux/189_41_ЈAGRANZhA]]/URI$ при ограничениях (7), (8) и пусть в точке $URI[[http://libmeta.ru/me/formula/aux/189_42_ЈAGRANZhA]]/URI$ выполнено требование регулярности ограничений (см. [2]); пусть $URI[[http://libmeta.ru/me/formula/aux/189_43_ЈAGRANZhA]]/URI$ множество индексов $URI[[http://libmeta.ru/me/formula/aux/189_44_ЈAGRANZhA]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/189_45_ЈAGRANZhA]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/189_46_ЈAGRANZhA]]/URI$ множество индексов $URI[[http://libmeta.ru/me/formula/aux/189_47_ЈAGRANZhA]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/189_48_ЈAGRANZhA]]/URI$, и $URI[[http://libmeta.ru/me/formula/aux/189_49_ЈAGRANZhA]]/URI$ множество индексов $URI[[http://libmeta.ru/me/formula/aux/189_50_ЈAGRANZhA]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/189_51_ЈAGRANZhA]]/URI$, для к-рых ограничения (7) в точке $URI[[http://libmeta.ru/me/formula/aux/189_52_ЈAGRANZhA]]/URI$ * выполняются как строгие неравенства. Тогда существует такой вектор $URI[[http://libmeta.ru/me/formula/aux/189_53_ЈAGRANZhA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_8_ЈAGRANZhA]]/URI
+\]
+
+что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_9_ЈAGRANZhA]]/URI
+\]
+
+Сформулированные необходимые условия обобщают условия (4), (5). Эти условия можно интерпретировать, используя понятие седловой точки функции $URI[[http://libmeta.ru/me/formula/aux/189_54_ЈAGRANZhA]]/URI$. В седловой точке ' $URI[[http://libmeta.ru/me/formula/aux/189_55_ЈAGRANZhA]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/189_56_ЈAGRANZhA]]/URI$ удовлетворяет неравенствам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_10_ЈAGRANZhA]]/URI
+\]
+
+Точка $URI[[http://libmeta.ru/me/formula/aux/189_57_ЈAGRANZhA]]/URI$, в к-рой выполняются условия (10) (12), удовлетворяет необходимым условиям существования седловой точки Л. ф. $URI[[http://libmeta.ru/me/formula/aux/189_58_ЈAGRANZhA]]/URI$ на множестве $URI[[http://libmeta.ru/me/formula/aux/189_59_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_60_ЈAGRANZhA]]/URI$, удовлетворяющем ограничениям (10). В том случае, когда $URI[[http://libmeta.ru/me/formula/aux/189_61_ЈAGRANZhA]]/URI$ - вогнутая при $URI[[http://libmeta.ru/me/formula/aux/189_62_ЈAGRANZhA]]/URI$ функция, а $URI[[http://libmeta.ru/me/formula/aux/189_63_ЈAGRANZhA]]/URI$ выпуклая, если $URI[[http://libmeta.ru/me/formula/aux/189_64_ЈAGRANZhA]]/URI$, и вогнутая, если $URI[[http://libmeta.ru/me/formula/aux/189_65_ЈAGRANZhA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/189_66_ЈAGRANZhA]]/URI$, сформулированные необходимые условия оказываются и достаточными, т. е. найденная из необходимых условий точка $URI[[http://libmeta.ru/me/formula/aux/189_67_ЈAGRANZhA]]/URI$ является седловой точкой Л. ф. $URI[[http://libmeta.ru/me/formula/aux/189_68_ЈAGRANZhA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/189_69_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_70_ЈAGRANZhA]]/URI$, удовлетворяющем ограничениям (10), и $URI[[http://libmeta.ru/me/formula/aux/189_71_ЈAGRANZhA]]/URI$ является абсолютным максимумом $URI[[http://libmeta.ru/me/formula/aux/189_72_ЈAGRANZhA]]/URI$ при ограничениях (7), (8).
+
+Наряду с Л. Ф., записываемой в виде (9), используется и другая форма записи Л. ф., отличающаяся знаком множителей Лагранжа. При этом изменяется и форма записи необходимых условий. Пусть поставлена задача нелинейного программирования: найти максимум
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_11_ЈAGRANZhA]]/URI
+\]
+
+при ограничениях
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_12_ЈAGRANZhA]]/URI
+\]
+
+Ограничения (7) при $URI[[http://libmeta.ru/me/formula/aux/189_73_ЈAGRANZhA]]/URI$ сводятся к (14) простым переобозначением. Условия типа равенства $URI[[http://libmeta.ru/me/formula/aux/189_74_ЈAGRANZhA]]/URI$, заменяются неравенствами $URI[[http://libmeta.ru/me/formula/aux/189_75_ЈAGRANZhA]]/URI$ - $URI[[http://libmeta.ru/me/formula/aux/189_76_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_77_ЈAGRANZhA]]/URI$ и также приводятся к виду (14). Пусть Л.ф. записана в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_13_ЈAGRANZhA]]/URI
+\]
+
+и пусть $URI[[http://libmeta.ru/me/formula/aux/189_78_ЈAGRANZhA]]/URI$ - множество индексов $URI[[http://libmeta.ru/me/formula/aux/189_79_ЈAGRANZhA]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/189_80_ЈAGRANZhA]]/URI$, для к-рых ограничения (14) выполняются как строгие неравенства. Тогда если $URI[[http://libmeta.ru/me/formula/aux/189_81_ЈAGRANZhA]]/URI$ оптимальное решение задачи (13) - (15), то при выполнении требования регулярности ограничений существует такой вектор $URI[[http://libmeta.ru/me/formula/aux/189_82_ЈAGRANZhA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_14_ЈAGRANZhA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_15_ЈAGRANZhA]]/URI
+\]
+
+(см. [2], [3]). Условия (17) - (19) с учетом положительных и нулевых значений $URI[[http://libmeta.ru/me/formula/aux/189_83_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_84_ЈAGRANZhA]]/URI$ иногда записывают следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_16_ЈAGRANZhA]]/URI
+\]
+
+Если ограничения (7) или (14) линейны, то упоминаемое выше условие регулярности ограничений всегда выполнено. Поэтому для линейных ограничений единственным предположением при выводе необходимых условий является дифференцируемость функции $URI[[http://libmeta.ru/me/formula/aux/189_85_ЈAGRANZhA]]/URI$.
+
+Если в задаче (13) - (15) функции $URI[[http://libmeta.ru/me/formula/aux/189_86_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_87_ЈAGRANZhA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/189_88_ЈAGRANZhA]]/URI$, вогнутые, то точка $URI[[http://libmeta.ru/me/formula/aux/189_89_ЈAGRANZhA]]/URI$, удовлетворяющая необходимым условиям (17) - (19), является селловой точкой Л. ф. (16) и $URI[[http://libmeta.ru/me/formula/aux/189_90_ЈAGRANZhA]]/URI$ доставляет абсолютный максимум. То что Л. ф. имеет в этом случае седловую точку, может быть доказано и без предположений о дифференцируемости функций $URI[[http://libmeta.ru/me/formula/aux/189_91_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_92_ЈAGRANZhA]]/URI$.
+
+Аналог Л. ф. применяется и в вариационном исчислении при рассмотрении задач на условный әкстремум функционалов. Здесь также необходимые условия оптимальности в задаче на условный әкстремум оказывается удобным записывать как необходимые условия для некрого составного функционала (аналога Л. ф.), построенного с помощью множителей Лагранжа. Пусть, напр., поставлена Больца задача: найти минимум функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_17_ЈAGRANZhA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/189_18_ЈAGRANZhA]]/URI
+\]
+
+при наличии дифференциальных ограничений типа равенств
+
+$URI[[http://libmeta.ru/me/formula/aux/189_93_ЈAGRANZhA]]/URI$,
+
+и граничных условий
+
+$URI[[http://libmeta.ru/me/formula/aux/189_94_ЈAGRANZhA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_19_ЈAGRANZhA]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/189_16_ЈAGRANZhA]]/URI в этой условноәкстремальной URI[[http://libmeta.ru/me/relation/189_15_ЈAGRANZhA]]/URI URI[[http://libmeta.ru/me/relation/189_14_ЈAGRANZhA]]/URI как URI[[http://libmeta.ru/me/relation/189_13_ЈAGRANZhA]]/URI безусловного URI[[http://libmeta.ru/me/relation/189_12_ЈAGRANZhA]]/URI URI[[http://libmeta.ru/me/relation/189_11_ЈAGRANZhA]]/URI (см. [4])
+
+$URI[[http://libmeta.ru/me/formula/aux/189_95_ЈAGRANZhA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/189_96_ЈAGRANZhA]]/URI$, составленного с помощью URI[[http://libmeta.ru/me/relation/189_10_ЈAGRANZhA]]/URI Лагранжа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/189_20_ЈAGRANZhA]]/URI
+\]
+
+Эти необходимые условия, URI[[http://libmeta.ru/me/relation/189_9_ЈAGRANZhA]]/URI собой URI[[http://libmeta.ru/me/relation/189_8_ЈAGRANZhA]]/URI соотношений для определения оптимального решения $URI[[http://libmeta.ru/me/formula/aux/189_97_ЈAGRANZhA]]/URI$ и соответствующих URI[[http://libmeta.ru/me/relation/189_7_ЈAGRANZhA]]/URI Лагранжа $URI[[http://libmeta.ru/me/formula/aux/189_98_ЈAGRANZhA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/189_99_ЈAGRANZhA]]/URI$, в конкретных постановках записы-. ваются в виде URI[[http://libmeta.ru/me/relation/189_6_ЈAGRANZhA]]/URI, URI[[http://libmeta.ru/me/relation/189_5_ЈAGRANZhA]]/URI п URI[[http://libmeta.ru/me/relation/189_4_ЈAGRANZhA]]/URI.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_98e1c8f90ad073055f68g-1.jpg?height=44&amp;width=802&amp;top_left_y=2228&amp;top_left_x=1023)
+ческое URI[[http://libmeta.ru/me/relation/189_3_ЈAGRANZhA]]/URI, пер. с англ., М., 1967; [3] K и h n H. W., T u c k e r A. W., B кн.: Proceedings of the Second Berkeley Symposium on Mathematical Statistics and Probability, Berk. Los Ang., 1951, р. 481-92; [4] Б л и с с Г. А., Лекции по вариа-
+ционному URI[[http://libmeta.ru/me/relation/189_2_ЈAGRANZhA]]/URI, пер. с англ., М., 1950. И. Б. Вапнярский. ционному URI[[http://libmeta.ru/me/relation/189_1_ЈAGRANZhA]]/URI, пер. с англ., М., 1950.</text>
+  <text_orig>Функция, используемая при решении задач на условный әкстремум функций многих переменных и функционалов. С помощью Ј. ф. записываются необходимые условия оптимальности в задачах на условный әкстремум. При этом не требуется выражать одни переменные через другие или учитывать, что не все переменные являются независимыми. Получаемые с помощью Л. ф. необходимые условия представляют замкнутую систему соотношений, среди решений к-рой содержится искомое оптимальное решение задачи на условный әкстремум. Л. ф. используется как при рассмотрении теоретич. вопросов линейного и нелинейного программирования, так и при построении нек-рых вычислительных методов.
+
+Пусть, напр., поставлена задача на условный әкстремум функции многих переменных: найти максимум или минимум функции
+
+\[
+f\left(x_{1}, \ldots, x_{n}\right)
+\]
+
+при условия
+
+$g_{i}\left(x_{1}, \ldots, x_{n}\right)=b_{i}, \quad i=1, \ldots, m ; m&lt;n$.
+
+Функция $F(x, \lambda)$, определенная выражением
+
+\[
+\begin{gathered}
+F(x, \lambda)=\lambda_{0} f(x)+\lambda_{1}\left[b_{1}-g_{1}(x)\right]+\ldots+ \\
++\ldots+\lambda_{m}\left[b_{m}-g_{m}(x)\right]
+\end{gathered}
+\]
+
+наз. ф ункци е й Л а г р а н жа, а числа $\lambda_{i}$ Лагранжа множителями. Имеет место следующее утверждение, называемое пр а в и ло м м но ж и т ел е й: если $x^{*}=\left(x_{1}^{*}, . ., x_{n}^{*}\right)-$ решение задачи на условный экстремум (1), (2), то существует хотя бы одна ненулевая система множителей Лагранжа $\lambda *=\left(\lambda_{0}^{*}, \lambda_{1}^{*}, \ldots\right.$, $\left.\lambda_{m}^{*}\right)$ такая, что точка $\left(x^{*}, \lambda^{*}\right)$ является точкой стационарности Л. ф. по переменным $x_{j}$ и $\lambda_{i}, i \neq 0$, pacсматриваемым как независимые переменные. Необходимые условия стационарности Л. ф. приводят к системе $m+n$ уравнений
+
+\[
+\begin{gathered}
+\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}=\lambda_{0}^{*} \frac{\partial f\left(x^{*}\right)}{\partial x_{j}}-\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}=0, \\
+j=1, \ldots, n, \\
+\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=b_{i}-g_{i}\left(x^{*}\right)=0, i=1, \ldots, m .
+\end{gathered}
+\]
+
+Соотношения (5) полученной системы представляют условия связи (2). Точка $x^{*}$ доставляет обычный (безусловный) әкстремум Л. ф. $F(x, \lambda *)$ по $x$.
+
+Для большинства практич. задач значение $\lambda_{0}^{*}$ в (3), (4) можно принять равным единице. Однако имеются примеры (см. [1]), в к-рых правило множителей при $\lambda_{0}^{*}=1$ не выполняется, а выполняется при $\lambda_{0}^{*}=0$. Для определения условий, позволяющих отличить случаи $\lambda_{0}^{*}=1$ и $\lambda_{0}^{*}=0$, рассматриваются (см. [2]) матрицы $G$ и $G_{f}:$
+
+\[
+G=\left\|\begin{array}{ccc}
+\frac{\partial g_{1}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{1}}{\partial x_{n}} \\
+\cdots &amp; \cdots &amp; \cdots \\
+\frac{\partial g_{m}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{m}}{\partial x_{n}}
+\end{array}\right\|, \quad G_{f}=\left\|\begin{array}{ccc}
+\frac{\partial g_{1}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{1}}{\partial x_{n}} \\
+\cdots &amp; \cdots &amp; \cdots \\
+\frac{\partial g_{m}}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial g_{m}}{\partial x_{n}} \\
+\frac{\partial f}{\partial x_{1}} &amp; \cdots &amp; \frac{\partial f}{\partial x_{n}}
+\end{array}\right\| .
+\]
+
+Пусть $r(G)$ - ранг матрицы $G$, рассматриваемой в оптимальной точке $x^{*}$. Тогда если $r\left(G_{f}\right)=r(G)$, то $\lambda_{0}^{*}=1$; если же $r\left(G_{f}\right)&gt;r(G)$, то для выполнения правіла множителей необходимо положить $\lambda_{0}^{*}=0$. Кроме того, если $r\left(G_{f}\right)=r(G)=m$ (наиболее распространенный случай в практич. задачах), то $\lambda_{i}^{*}$ определены однозначно, а если $r\left(G_{f}\right)&gt;r(G)$ или $r\left(G_{f}\right)=r(G)&lt;m$, то $\lambda_{i}^{*}$ определяются не единственным образом. В зависимости от рассмотренных случаев $\lambda_{0}^{*}$ полагается равным 0 или 1. Тогда система (4), (5) превращается в систему $m+n$ уравнений с $m+n$ неизвестными $x_{1}^{*}, \ldots, x_{n}^{*}, \lambda_{1}^{*}, \ldots, \lambda_{m}^{*}$. Множителям Лагранжа $\lambda_{i}^{*}$ можно дать интерпретацию, имеющую определенный физич. смысл (см. Лагранжа множители).
+
+В случае, когда оптимизируемая функция $f(x)$ является квадратичной, а условия связи (2) линейны, система необходимых условий (4), (5) оказывается линейной, и ее решение не вызывает затруднений. В общем случае система необходимых условий (4), (5) в задаче на условный әкстремум, получаемая с помощью Л. ф., оказывается нелинейной, и ее решение возможно лишь с применением итерационных методов, напр. Ньютона метода. Основной трудностью при этом, помимо вычислительных трудностей решения системы нелинейных уравнений, оказывается проблема получения всех решений, удовлетворяющих необходимым условиям. Не существует вычислительного процесса, обеспечивающего получение всех решений системы (4), (5), и әто является одним из обстоятельств, ограничивающих применение метода множителей Лагранжа.
+
+Л. ф. применяется в задачах нелинейного программирования, отличающихся от классич. задач на условный экстремум наличием, помимо условий типа равенства, ограничений типа неравенства: найти минимум или максимум
+
+\[
+f(x)
+\]
+
+при условиях
+
+\[
+\begin{aligned}
+&amp; g_{i}(x) \leqslant b_{i}, \quad i=1, \ldots, m_{1}, \\
+&amp; g_{i}(x) \geqslant b_{i}, \quad i=m_{1}+1, \ldots, m_{2}, m_{1} \leqslant m_{2}, \\
+&amp; g_{i}(x)=b_{i}, \quad i=m_{2}+1, \ldots, m, \quad m_{2} \leqslant m, \quad \\
+&amp; x \geqslant 0 .
+\end{aligned}
+\]
+
+Для вывода необходимых условий оптимальности в задаче (6) - (8) вводится Л. ф.
+
+\[
+F(x, \lambda)=f(x)+\sum_{i=1}^{m} \lambda_{i}\left[b_{i}-g_{i}(x)\right] .
+\]
+
+Для определенности рассматривается случай максимума $f(x)$. Пусть $x^{*}=\left(x_{1}^{*}, \ldots, x_{n}^{*}\right) \geqslant 0$ доставляет максимум $f(x)$ при ограничениях (7), (8) и пусть в точке $x^{*}$ выполнено требование регулярности ограничений (см. [2]); пусть $J-$ множество индексов $j$ из $j=1, \ldots, n$, для к-рых $x_{j}^{*}&gt;0, J_{0}-$ множество индексов $i$, для к-рых $x_{j}^{*}=0$, и $I-$ множество индексов $i$ из $i=1, \ldots, m_{2}$, для к-рых ограничения (7) в точке $x$ * выполняются как строгие неравенства. Тогда существует такой вектор $\lambda^{*}=\left(\lambda_{1}^{*}, \ldots, \lambda_{m}^{*}\right)$
+
+\[
+\left.\begin{array}{c}
+\lambda_{i}^{*} \geqslant 0 \text { при } i=1, \ldots, m_{1}, \\
+\lambda_{i}^{*} \leqslant 0 \text { при } i=m_{1}+1, \ldots, m_{2}, \\
+\lambda_{i}^{*} \text { любого знака при } i=m_{2}+1, \ldots, m, \\
+\lambda_{i}^{*}=0 \text { при } i \in I,
+\end{array}\right\}
+\]
+
+что
+
+\[
+\begin{aligned}
+&amp; \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}= \\
+&amp; =\frac{\partial f\left(x^{*}\right)}{\partial x_{j}}-\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}\left\{\begin{array}{l}
+=0 \text { при } j \in J, \\
+\leqslant 0 \text { при } j \in J_{0},
+\end{array}\right. \\
+&amp; \frac{\partial F\left(x^{*} \cdot \lambda^{*}\right)}{\partial \lambda_{i}}= \\
+&amp; =b_{i}-g_{i}\left(x^{*}\right)\left\{\begin{array}{lll}
+\geqslant 0 &amp; \text { при } &amp; i=1, \ldots, m_{1}, \\
+\leqslant 0 &amp; \text { при } &amp; i=m_{1}+1, \ldots, m_{2}, \\
+=0 &amp; \text { при } &amp; i=m_{2}+1, \ldots, m .
+\end{array}\right.
+\end{aligned}
+\]
+
+Сформулированные необходимые условия обобщают условия (4), (5). Эти условия можно интерпретировать, используя понятие седловой точки функции $F(x, \lambda)$. В седловой точке ' $\left(x^{*}, \lambda^{*}\right)$ функция $F(x, \lambda)$ удовлетворяет неравенствам
+
+\[
+F\left(x, \lambda^{*}\right) \leqslant F\left(x^{*}, \lambda^{*}\right) \leqslant F\left(x^{*}, \lambda\right) .
+\]
+
+Точка $\left(x^{*}, \lambda^{*}\right)$, в к-рой выполняются условия (10) (12), удовлетворяет необходимым условиям существования седловой точки Л. ф. $F(x, \lambda)$ на множестве $x \geqslant 0$ и $\lambda$, удовлетворяющем ограничениям (10). В том случае, когда $f(x)$ - вогнутая при $x \geqslant 0$ функция, а $g_{i}(x)-$ выпуклая, если $\lambda_{i}^{*}&gt;0$, и вогнутая, если $\lambda_{i}^{*}&lt;0, i=1, \ldots$, $m$, сформулированные необходимые условия оказываются и достаточными, т. е. найденная из необходимых условий точка $\left(x^{*}, \lambda *\right)$ является седловой точкой Л. ф. $F(x, \lambda)$ при $x \geqslant 0$ и $\lambda$, удовлетворяющем ограничениям (10), и $f\left(x^{*}\right)$ является абсолютным максимумом $f(x)$ при ограничениях (7), (8).
+
+Наряду с Л. Ф., записываемой в виде (9), используется и другая форма записи Л. ф., отличающаяся знаком множителей Лагранжа. При этом изменяется и форма записи необходимых условий. Пусть поставлена задача нелинейного программирования: найти максимум
+
+\[
+f(x)
+\]
+
+при ограничениях
+
+\[
+\begin{gathered}
+g_{i}(x) \geqslant 0, \quad i=1, \ldots, m, \\
+x \geqslant 0 .
+\end{gathered}
+\]
+
+Ограничения (7) при $i=1, . ., m_{2}$ сводятся к (14) простым переобозначением. Условия типа равенства $g_{i}(x)=b_{i}, \quad i \triangleright m_{2}$, заменяются неравенствами $g_{i}(x)-$ - $b_{i} \geqslant 0$ и $b_{i}-g_{i}(x) \geqslant 0$ и также приводятся к виду (14). Пусть Л.ф. записана в виде
+
+\[
+F(x, \lambda)=f(x)+\sum_{i=1}^{m} \lambda_{i} g_{i}(x)
+\]
+
+и пусть $I$ - множество индексов $i$ из $i=1, \ldots, m$, для к-рых ограничения (14) выполняются как строгие неравенства. Тогда если $x^{*} \geqslant 0-$ оптимальное решение задачи (13) - (15), то при выполнении требования регулярности ограничений существует такой вектор $\lambda *=\left(\lambda_{1}^{*}, \ldots, \lambda_{m}^{*}\right)$ :
+
+\[
+\lambda_{i}^{*} \geqslant 0, \quad i=1, \ldots, m ; \lambda_{i}^{*}=0, i \in I
+\]
+
+\[
+\begin{gathered}
+\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}= \\
+=\frac{\partial f\left(x^{*}\right)}{\partial x_{j}}+\sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial g_{i}\left(x^{*}\right)}{\partial x_{j}}\left\{\begin{array}{l}
+=0 \text { при } j \in J, \\
+\leqslant 0 \text { при } j \in J_{0},
+\end{array}\right. \\
+\frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=g_{i}\left(x^{*}\right) \geqslant 0, \quad i=1, \ldots, m
+\end{gathered}
+\]
+
+(см. [2], [3]). Условия (17) - (19) с учетом положительных и нулевых значений $x_{j}^{*}$ и $\lambda_{i}^{*}$ иногда записывают следующим образом:
+
+\[
+\begin{aligned}
+&amp; \sum_{j=1}^{n} x_{j}^{*} \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial x_{j}}=0, \\
+&amp; \sum_{i=1}^{m} \lambda_{i}^{*} \frac{\partial F\left(x^{*}, \lambda^{*}\right)}{\partial \lambda_{i}}=0 .
+\end{aligned}
+\]
+
+Если ограничения (7) или (14) линейны, то упоминаемое выше условие регулярности ограничений всегда выполнено. Поэтому для линейных ограничений единственным предположением при выводе необходимых условий является дифференцируемость функции $f(x)$.
+
+Если в задаче (13) - (15) функции $f(x)$ и $g_{i}(x)$, $i=1, \ldots, m$, вогнутые, то точка $\left(x^{*}, \lambda^{*}\right)$, удовлетворяющая необходимым условиям (17) - (19), является селловой точкой Л. ф. (16) и $x^{*}$ доставляет абсолютный максимум. То что Л. ф. имеет в этом случае седловую точку, может быть доказано и без предположений о дифференцируемости функций $f(x)$ и $g_{i}(x)$.
+
+Аналог Л. ф. применяется и в вариационном исчислении при рассмотрении задач на условный әкстремум функционалов. Здесь также необходимые условия оптимальности в задаче на условный әкстремум оказывается удобным записывать как необходимые условия для некрого составного функционала (аналога Л. ф.), построенного с помощью множителей Лагранжа. Пусть, напр., поставлена Больца задача: найти минимум функционала
+
+\[
+J(x)=\int_{t_{1}}^{t_{2}} f(t, x, \dot{x}) d t+g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right),
+\]\[
+f: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{n} \longrightarrow \mathbb{R}, \quad g: \mathbb{R} \times \mathbb{R} \boldsymbol{n}^{n} \times \mathbb{R} \times \mathbb{R} \boldsymbol{n} \longrightarrow \mathbb{R}
+\]
+
+при наличии дифференциальных ограничений типа равенств
+
+$\varphi(t, x, \dot{x})=0, \quad \varphi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{n} \longrightarrow \mathbb{R}^{m}, \quad m&lt;n$,
+
+и граничных условий
+
+$\psi\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)=0, \quad \psi: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R} \times \mathbb{R}^{n} \rightarrow \mathbb{R} p$,
+
+\[
+p \leqslant 2 n+2 \text {. }
+\]
+
+Необходимые условия в этой условноәкстремальной задаче получаются как необходимые условия безусловного экстремума функционала (см. [4])
+
+$I(x, \lambda, e)=\int_{t_{\mathbf{1}}}^{t_{2}}\left(\lambda_{0} f(t, x, \dot{x})+\sum_{i=1}^{m} \lambda_{i}(t) \varphi_{i}(t, x, \dot{x})\right) d t+$ $+\lambda_{0} g\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)+\sum_{\mu=1}^{p} e_{\mu} \psi_{\mu}\left(t_{1}, x\left(t_{1}\right), t_{2}, x\left(t_{2}\right)\right)$, составленного с помощью множителей Лагранжа
+
+\[
+\lambda_{0}, \quad \lambda_{i}(t), \quad i=1, \ldots, m, e_{\mu}, \mu=1, \ldots, p .
+\]
+
+Эти необходимые условия, представляющие собой замкнутую систему соотношений для определения оптимального решения $x^{*}(t)$ и соответствующих множителей Лагранжа $\lambda_{i}^{*}(t)$ и $e_{\mu}^{*}$, в конкретных постановках записы-. ваются в виде Эйлера уравнения, Вейеритрасса условия п трансверсальности условия.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_98e1c8f90ad073055f68g-1.jpg?height=44&amp;width=802&amp;top_left_y=2228&amp;top_left_x=1023)
+ческое программирование, пер. с англ., М., 1967; [3] K и h n H. W., T u c k e r A. W., B кн.: Proceedings of the Second Berkeley Symposium on Mathematical Statistics and Probability, Berk. Los Ang., 1951, р. 481-92; [4] Б л и с с Г. А., Лекции по вариа-
+ционному исчислению, пер. с англ., М., 1950. И. Б. Вапнярский. ционному исчислению, пер. с англ., М., 1950. И. Б. Вапнярский.</text_orig>
+</article>

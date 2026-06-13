@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/901_RAZNOSTNAJa" alphabetic_pos="901">
+  <title>РАЗНОСТНАЯ СХЕМА</title>
+  <authors>
+    <author>А. В. Гулию</author>
+    <author>А. А. Самарский</author>
+  </authors>
+  <pages>
+    <start>419</start>
+    <end>420</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] С а м а р с к и й А. А., Теория разностных схем, M., 1977; [2] С а м а р с к и й А. А., Н и к о л а е в Е. С., Методы решения сеточных уравнений, М., 1978.</literature_orig>
+    <unit>
+      <author>Самарский А. А.</author>
+      <title>Теория разностных схем</title>
+      <publication>M.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Самарский А. А.</author>
+      <author>Николаев Е. С.</author>
+      <title>Методы решения сеточных уравнений</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/901_1_RAZNOSTNAJa">\left.\begin{array}{c}u^{\prime \prime}(x)-q(x) u(x)=-f(x), \quad q(x) \geqslant 0,0&lt;x&lt;1, \\u^{\prime}(0)=\sigma u(0)-\mu_{1}, \quad u(1)=\mu_{2}, \quad \sigma&gt;0 .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/901_2_RAZNOSTNAJa">G_{h}=\left\{x_{i}=i h, \quad i=0,1, \ldots, N, h N=1\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/901_3_RAZNOSTNAJa">\left.\begin{array}{c}\frac{y_{i+1}-2 y_{i}+y_{i-1}}{h^{2}}-q_{i} y_{i}=-f_{i}, i=1,2, \ldots, N-1, \\\frac{y_{1}-y_{0}}{h}=\left(\sigma+0,5 h q_{0}\right) y_{0}-\left(\mu_{1}+0,5 h f_{0}\right),{ }_{N}=\mu_{2},\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/901_4_RAZNOSTNAJa">\max _{0 \leqslant i \leqslant N}\left|y_{i}-u\left(x_{i}\right)\right| \leqslant M h^{2},</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_1_RAZNOSTNAJa">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_2_RAZNOSTNAJa">g_{h}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_3_RAZNOSTNAJa">g_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_4_RAZNOSTNAJa">g\{0&lt;x&lt;1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_5_RAZNOSTNAJa">y_{i}=y\left(x_{i}\right), q_{i}=q\left(x_{i}\right), x_{i} \in G_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_6_RAZNOSTNAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_7_RAZNOSTNAJa">q(x), f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_8_RAZNOSTNAJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/901_9_RAZNOSTNAJa">h</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/901_1_RAZNOSTNAJa">
+      <rel_text>прогонки</rel_text>
+      <target>http://libmeta.ru/me/article/667_PROGRAMM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/901_2_RAZNOSTNAJa">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+  </relations>
+  <text>система разностных уравнений, аппроксимирующих дифференциальное уравнение и дополнительные (начальные, граничные и др.) условия. Аппроксимация исходной диффференциальной задачи Р. с.- это один из способов приблиякенной дискретизации исходной задачи. Он заключается в том, что заданную область изменения независимых переменных $URI[[http://libmeta.ru/me/formula/aux/901_1_RAZNOSTNAJa]]/URI$ заменяіт дискретным множеством точек $URI[[http://libmeta.ru/me/formula/aux/901_2_RAZNOSTNAJa]]/URI$ с е т к о й, а производные, входящие в дифференциальное уравнение, заменяют на сетке $URI[[http://libmeta.ru/me/formula/aux/901_3_RAZNOSTNAJa]]/URI$ разностными отношениями. В результате такой замены возникает замкнутая система большого числа алгебраич. уравнений (линейных или нелинейных в зависимости от исходной дифференциальной задачи), к-рая и представляет собой P. с. По существу Р. с. - это семейство разностных уравнений, зависящих от шагов сетки. Решение Р. с. также зависит параметрически от шагов сетки. Р. с.многопараметрический и сложный объект. Помимо коэфффициентов исходного дифференциального уравнения она содержит свои собственные параметры такие, как шаги по времени и пространству, весовые множитөли и др. Влияние әтих параметров может существенно исказить представление о поведении исходной дифференциальной задачи.
+
+В связи с разностной аппроксимацией пифференциальных задач изучаются следующие вопросы: о спо- собах построения Р. с., о сходимости при измельчении сетки решения разностной задачи к решению исходной циффференциальной задачи, о методах решения систем разностных уравнений. Все перечисленвые вогросы рассматривает разностных схем теория. Разработаны әффективные численные методы решения типичных Р. с. для обыкновенных дифференциальных уравнений и уравнений с частными производными, предполагающие использование быстродействующих Эвм.
+
+Ниже приводится простой пример Р. с. Пусть имеется дифференциальная задача
+
+\[
+URI[[http://libmeta.ru/me/formula/main/901_1_RAZNOSTNAJa]]/URI
+\]
+
+Область $URI[[http://libmeta.ru/me/formula/aux/901_4_RAZNOSTNAJa]]/URI$ заменяется сеткой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/901_2_RAZNOSTNAJa]]/URI
+\]
+
+Р. с. для задачи (1) имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/901_3_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/901_5_RAZNOSTNAJa]]/URI$. Можно показать, что ıри $URI[[http://libmeta.ru/me/formula/aux/901_6_RAZNOSTNAJa]]/URI$ решение разностной задачи (2) сходится к решению исходной задачи (1) и при достаточной гладкости функции $URI[[http://libmeta.ru/me/formula/aux/901_7_RAZNOSTNAJa]]/URI$.
+
+Р. с. (2) имеет второй URI[[http://libmeta.ru/me/relation/901_2_RAZNOSTNAJa]]/URI точности, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/901_4_RAZNOSTNAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/901_8_RAZNOSTNAJa]]/URI$ - постоянная, не зависящая от $URI[[http://libmeta.ru/me/formula/aux/901_9_RAZNOSTNAJa]]/URI$. Решение Р. с. (2) находится методом URI[[http://libmeta.ru/me/relation/901_1_RAZNOSTNAJa]]/URI.</text>
+  <text_orig>система разностных уравнений, аппроксимирующих дифференциальное уравнение и дополнительные (начальные, граничные и др.) условия. Аппроксимация исходной диффференциальной задачи Р. с.- это один из способов приблиякенной дискретизации исходной задачи. Он заключается в том, что заданную область изменения независимых переменных $G$ заменяіт дискретным множеством точек $G_{h}-$ с е т к о й, а производные, входящие в дифференциальное уравнение, заменяют на сетке $G_{h}$ разностными отношениями. В результате такой замены возникает замкнутая система большого числа алгебраич. уравнений (линейных или нелинейных в зависимости от исходной дифференциальной задачи), к-рая и представляет собой P. с. По существу Р. с. - это семейство разностных уравнений, зависящих от шагов сетки. Решение Р. с. также зависит параметрически от шагов сетки. Р. с.многопараметрический и сложный объект. Помимо коэфффициентов исходного дифференциального уравнения она содержит свои собственные параметры такие, как шаги по времени и пространству, весовые множитөли и др. Влияние әтих параметров может существенно исказить представление о поведении исходной дифференциальной задачи.
+
+В связи с разностной аппроксимацией пифференциальных задач изучаются следующие вопросы: о спо- собах построения Р. с., о сходимости при измельчении сетки решения разностной задачи к решению исходной циффференциальной задачи, о методах решения систем разностных уравнений. Все перечисленвые вогросы рассматривает разностных схем теория. Разработаны әффективные численные методы решения типичных Р. с. для обыкновенных дифференциальных уравнений и уравнений с частными производными, предполагающие использование быстродействующих ЭВМ.
+
+Ниже приводится простой пример Р. с. Пусть имеется дифференциальная задача
+
+\[
+\left.\begin{array}{c}
+u^{\prime \prime}(x)-q(x) u(x)=-f(x), \quad q(x) \geqslant 0,0&lt;x&lt;1, \\
+u^{\prime}(0)=\sigma u(0)-\mu_{1}, \quad u(1)=\mu_{2}, \quad \sigma&gt;0 .
+\end{array}\right\}
+\]
+
+Область $G\{0&lt;x&lt;1\}$ заменяется сеткой
+
+\[
+G_{h}=\left\{x_{i}=i h, \quad i=0,1, \ldots, N, h N=1\right\} .
+\]
+
+Р. с. для задачи (1) имеет вид
+
+\[
+\left.\begin{array}{c}
+\frac{y_{i+1}-2 y_{i}+y_{i-1}}{h^{2}}-q_{i} y_{i}=-f_{i}, i=1,2, \ldots, N-1, \\
+\frac{y_{1}-y_{0}}{h}=\left(\sigma+0,5 h q_{0}\right) y_{0}-\left(\mu_{1}+0,5 h f_{0}\right),{ }_{N}=\mu_{2},
+\end{array}\right\}
+\]
+
+где $y_{i}=y\left(x_{i}\right), q_{i}=q\left(x_{i}\right), x_{i} \in G_{h}$. Можно показать, что ıри $h \rightarrow 0$ решение разностной задачи (2) сходится к решению исходной задачи (1) и при достаточной гладкости функции $q(x), f(x)$.
+
+Р. с. (2) имеет второй порядок точности, т. е.
+
+\[
+\max _{0 \leqslant i \leqslant N}\left|y_{i}-u\left(x_{i}\right)\right| \leqslant M h^{2},
+\]
+
+где $M$ - постоянная, не зависящая от $h$. Решение Р. с. (2) находится методом прогонки.
+
+Лит.: [1] С а м а р с к и й А. А., Теория разностных схем, M., 1977; [2] С а м а р с к и й А. А., Н и к о л а е в Е. С., Методы решения сеточных уравнений, М., 1978.
+
+А. В. Гулию, А. А. Самарский.</text_orig>
+</article>

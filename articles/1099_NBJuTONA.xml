@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1099_NBJuTONA" alphabetic_pos="1099">
+  <title>НБЮТОНА ИНТЕРПОЛЯЩИОННАЯ ФОРМУ</title>
+  <authors/>
+  <pages>
+    <start>547</start>
+    <end>547</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б е ре з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а ло в Н. С.,</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_1_NBJuTONA">\begin{gathered}L_{n}(x)=f\left(x_{0}\right)+\left(x-x_{0}\right) f\left(x_{0} ; x_{1}\right)+ \\+\left(x-x_{0}\right)\left(x-x_{1}\right) f\left(x_{0} ; x_{1} ; x_{2}\right)+\ldots+\left(x-x_{0}\right)\left(x-x_{1}\right) \ldots \\\ldots\left(x-x_{n-1}\right) f\left(x_{0} ; x_{1} ; \ldots ; x_{n}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_2_NBJuTONA">x_{1}-x_{0}=x_{2}-x_{1}=\ldots=x_{n}-x_{n-1}=h,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_3_NBJuTONA">f\left(x_{0} ; x_{1} ; \ldots ; x_{k}\right)=f_{k / 2}^{k} / h^{k} k !, k=0,1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_4_NBJuTONA">L_{n}(x)=L_{n}\left(x_{0}+t h\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_5_NBJuTONA">\begin{gathered}L_{n}(x)=f\left(x_{0}\right)+\left(x-x_{0}\right) f\left(x_{0} ; x_{-1}\right)+ \\\quad+\left(x-x_{0}\right)\left(x-x_{1}\right) f\left(x_{0} ; x-1 ; x_{-2}\right)+\ldots \\\ldots+\left(x-x_{0}\right) \ldots\left(x-x_{-n+1}\right) f\left(x_{0} ; \ldots ; x_{n}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1099_6_NBJuTONA">\begin{gathered}L_{n}(x)=L_{n}\left(x_{0}+t h\right)=f_{0}+t f_{-1 / 2}^{1}+ \\+\frac{t(t+1)}{2 !} f_{-1}^{2}+\ldots+\frac{t(t+1) \ldots(t+n-1)}{n !} f_{-n / 2}^{n} .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_1_NBJuTONA">f\left(x_{0} ; x_{1} ; \ldots ; x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_2_NBJuTONA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_3_NBJuTONA">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_4_NBJuTONA">\left(x-x_{0}\right) / h=t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_5_NBJuTONA">f\left(x_{0} ; \ldots ; x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_6_NBJuTONA">f_{k / 2}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_7_NBJuTONA">l_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_8_NBJuTONA">=f_{0}+t f_{1 / 2}^{1}+\frac{t(t-1)}{2 !} f_{1}^{2}+\ldots+\frac{t(t-1) \ldots(t-n+1)}{n !} f_{n ! 2}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_9_NBJuTONA">l_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_10_NBJuTONA">x_{0}, x_{-1}, \ldots, x_{-n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_11_NBJuTONA">x_{-k}=x_{0}-k h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_12_NBJuTONA">\mathbf{\text { а д: }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_13_NBJuTONA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1099_14_NBJuTONA">x</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/1099_1_NBJuTONA">
+      <rel_text>формуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_2_NBJuTONA">
+      <rel_text>приближения</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_3_NBJuTONA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_4_NBJuTONA">
+      <rel_text>вычислении</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1099_5_NBJuTONA">
+      <rel_text>Формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+  </relations>
+  <text>Ја форма записи Лагранжа интерполяционной формулы, использующая разделенные разности:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_1_NBJuTONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1099_1_NBJuTONA]]/URI$ - разделенные разности $URI[[http://libmeta.ru/me/formula/aux/1099_2_NBJuTONA]]/URI$-го порядка; рассматривалась И. Ньютоном (i. Newton, 1687). Формула (1) наз. Н. и. Ф. д л я н е р а в н ы х п р о м еж у т к о в. В случае, когда значения $URI[[http://libmeta.ru/me/formula/aux/1099_3_NBJuTONA]]/URI$ являются равноотстоящими, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_2_NBJuTONA]]/URI
+\]
+
+введя обозначение $URI[[http://libmeta.ru/me/formula/aux/1099_4_NBJuTONA]]/URI$ и выразив разделенные разности $URI[[http://libmeta.ru/me/formula/aux/1099_5_NBJuTONA]]/URI$ через конечные разности $URI[[http://libmeta.ru/me/formula/aux/1099_6_NBJuTONA]]/URI$ по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_3_NBJuTONA]]/URI
+\]
+
+получают запись многочлена $URI[[http://libmeta.ru/me/formula/aux/1099_7_NBJuTONA]]/URI$ в форме
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_4_NBJuTONA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1099_8_NBJuTONA]]/URI$, (2)
+
+которая наз. Н. и. Ф. д ля и н те р по ли р о в ан и я в п е р е д. Если такая же замена переменных в интерполяционном многочлене $URI[[http://libmeta.ru/me/formula/aux/1099_9_NBJuTONA]]/URI$ производится по узлам $URI[[http://libmeta.ru/me/formula/aux/1099_10_NBJuTONA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1099_11_NBJuTONA]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_5_NBJuTONA]]/URI
+\]
+
+то получается Н. п. Ф. д л я ин т е р по ли р ов а н и я н $URI[[http://libmeta.ru/me/formula/aux/1099_12_NBJuTONA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1099_6_NBJuTONA]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/1099_5_NBJuTONA]]/URI (2), (3) удобны при URI[[http://libmeta.ru/me/relation/1099_4_NBJuTONA]]/URI таблиц заданной URI[[http://libmeta.ru/me/relation/1099_3_NBJuTONA]]/URI $URI[[http://libmeta.ru/me/formula/aux/1099_13_NBJuTONA]]/URI$, если точка $URI[[http://libmeta.ru/me/formula/aux/1099_14_NBJuTONA]]/URI$ находится в начале Iлли конце таблицы, поскольку в этом случае добавление одного или нескольких узлов, вызванное с'гремлением повысить точность URI[[http://libmeta.ru/me/relation/1099_2_NBJuTONA]]/URI, не приводит к повторению всей проделанной работы заново, как при вычислениях по URI[[http://libmeta.ru/me/relation/1099_1_NBJuTONA]]/URI Лагранжа.</text>
+  <text_orig>ЈА форма записи Лагранжа интерполяционной формулы, использующая разделенные разности:
+
+\[
+\begin{gathered}
+L_{n}(x)=f\left(x_{0}\right)+\left(x-x_{0}\right) f\left(x_{0} ; x_{1}\right)+ \\
++\left(x-x_{0}\right)\left(x-x_{1}\right) f\left(x_{0} ; x_{1} ; x_{2}\right)+\ldots+\left(x-x_{0}\right)\left(x-x_{1}\right) \ldots \\
+\ldots\left(x-x_{n-1}\right) f\left(x_{0} ; x_{1} ; \ldots ; x_{n}\right),
+\end{gathered}
+\]
+
+где $f\left(x_{0} ; x_{1} ; \ldots ; x_{k}\right)$ - разделенные разности $k$-го порядка; рассматривалась И. Ньютоном (I. Newton, 1687). Формула (1) наз. Н. и. Ф. д л я н е р а в н ы х п р о м еж у т к о в. В случае, когда значения $x_{i}$ являются равноотстоящими, т. е.
+
+\[
+x_{1}-x_{0}=x_{2}-x_{1}=\ldots=x_{n}-x_{n-1}=h,
+\]
+
+введя обозначение $\left(x-x_{0}\right) / h=t$ и выразив разделенные разности $f\left(x_{0} ; \ldots ; x_{k}\right)$ через конечные разности $f_{k / 2}^{k}$ по формуле
+
+\[
+f\left(x_{0} ; x_{1} ; \ldots ; x_{k}\right)=f_{k / 2}^{k} / h^{k} k !, k=0,1, \ldots, n,
+\]
+
+получают запись многочлена $L_{n}(x)$ в форме
+
+\[
+L_{n}(x)=L_{n}\left(x_{0}+t h\right)=
+\]
+
+$=f_{0}+t f_{1 / 2}^{1}+\frac{t(t-1)}{2 !} f_{1}^{2}+\ldots+\frac{t(t-1) \ldots(t-n+1)}{n !} f_{n ! 2}^{n}$, (2)
+
+которая наз. Н. и. Ф. д ля и н те р по ли р о в ан и я в п е р е д. Если такая же замена переменных в интерполяционном многочлене $L_{n}$ производится по узлам $x_{0}, x_{-1}, \ldots, x_{-n}$, где $x_{-k}=x_{0}-k h$,
+
+\[
+\begin{gathered}
+L_{n}(x)=f\left(x_{0}\right)+\left(x-x_{0}\right) f\left(x_{0} ; x_{-1}\right)+ \\
+\quad+\left(x-x_{0}\right)\left(x-x_{1}\right) f\left(x_{0} ; x-1 ; x_{-2}\right)+\ldots \\
+\ldots+\left(x-x_{0}\right) \ldots\left(x-x_{-n+1}\right) f\left(x_{0} ; \ldots ; x_{n}\right),
+\end{gathered}
+\]
+
+то получается Н. п. Ф. д л я ин т е р по ли р ов а н и я н $\mathbf{\text { а д: }}$
+
+\[
+\begin{gathered}
+L_{n}(x)=L_{n}\left(x_{0}+t h\right)=f_{0}+t f_{-1 / 2}^{1}+ \\
++\frac{t(t+1)}{2 !} f_{-1}^{2}+\ldots+\frac{t(t+1) \ldots(t+n-1)}{n !} f_{-n / 2}^{n} .
+\end{gathered}
+\]
+
+Формулы (2), (3) удобны при вычислении таблиц заданной функции $f(x)$, если точка $x$ находится в начале Iлли конце таблицы, поскольку в этом случае добавление одного или нескольких узлов, вызванное с'гремлением повысить точность приближения, не приводит к повторению всей проделанной работы заново, как при вычислениях по формуле Лагранжа.
+
+Лит.: [1] Б е ре з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] Б а х в а ло в Н. С.,</text_orig>
+</article>

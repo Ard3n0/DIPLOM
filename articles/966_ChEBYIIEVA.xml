@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/966_ChEBYIIEVA" alphabetic_pos="966">
+  <title>ЧЕБЫIIЕВА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>421</start>
+    <end>421</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/966_1_ChEBYIIEVA">f(x)=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/966_2_ChEBYIIEVA">x=F(y)=\alpha+\sum_{n \geqslant 1} d_{n}(y-\beta)^{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/966_3_ChEBYIIEVA">\begin{gathered}x=\alpha-\frac{f(\alpha)}{f^{\prime}(\alpha)}-\left(\frac{f(\alpha)}{f^{\prime}(\alpha)}\right)^{2} \frac{f^{\prime \prime}(\alpha)}{2 f^{\prime}(\alpha)}- \\-\left(\frac{f(\alpha)}{f^{\prime}(\alpha)}\right)^{3}\left(\frac{1}{2}\left(\frac{f^{\prime \prime}(\alpha)}{f^{\prime}(\alpha)}\right)^{2}-\frac{f^{\prime \prime \prime}(\alpha)}{6 f^{\prime}(\alpha)}\right)-\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_1_ChEBYIIEVA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_2_ChEBYIIEVA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_3_ChEBYIIEVA">x=f(y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_4_ChEBYIIEVA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_5_ChEBYIIEVA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_6_ChEBYIIEVA">c_{0}=\beta=f(\alpha), f^{\prime}(\alpha) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_7_ChEBYIIEVA">d_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_8_ChEBYIIEVA">x \equiv F(f(x))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_9_ChEBYIIEVA">c_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_10_ChEBYIIEVA">f(x)=\sum_{n \geqslant 0} c_{n}(x-\alpha)^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_11_ChEBYIIEVA">y=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_12_ChEBYIIEVA">-\left(\frac{f(\alpha)}{f^{\prime}(\alpha)}\right)^{4}\left(\frac{5}{8}\left(\frac{f^{\prime \prime}(\alpha)}{f^{\prime}(\alpha)}\right)^{3}-\frac{5 f^{\prime \prime}(\alpha) f^{\prime \prime \prime}(\alpha)}{12\left(f^{\prime}(\alpha)\right)^{2}}+\frac{f^{1 \mathrm{~V}}(\alpha)}{24 f^{\prime}(\alpha)}\right)-\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_13_ChEBYIIEVA">x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}-\left(\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}\right)^{2} \frac{f^{\prime \prime}\left(x_{n}\right)}{2 f^{\prime}\left(x_{n}\right)}, n=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_14_ChEBYIIEVA">x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/966_15_ChEBYIIEVA">x</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/966_1_ChEBYIIEVA">
+      <rel_text>функциональные уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/802_FUNKTsIONAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/966_2_ChEBYIIEVA">
+      <rel_text>распространен</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/966_3_ChEBYIIEVA">
+      <rel_text>скорость сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/331_SHODIMOSTI</target>
+    </relation>
+  </relations>
+  <text>метољ иолучения класса итерациолыих алгоритмов нахождения однократного дейіствитенного корня уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/966_1_ChEBYIIEVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/966_1_ChEBYIIEVA]]/URI$ - достаточно гладкая функция.
+
+В основе метода лежит формальное представление обратной к $URI[[http://libmeta.ru/me/formula/aux/966_2_ChEBYIIEVA]]/URI$ фувкции $URI[[http://libmeta.ru/me/formula/aux/966_3_ChEBYIIEVA]]/URI$ по формуле Тейлора. Если $URI[[http://libmeta.ru/me/formula/aux/966_4_ChEBYIIEVA]]/URI$ - достаточно точное приближение для корня $URI[[http://libmeta.ru/me/formula/aux/966_5_ChEBYIIEVA]]/URI$ уравнения (1), $URI[[http://libmeta.ru/me/formula/aux/966_6_ChEBYIIEVA]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/966_2_ChEBYIIEVA]]/URI
+\]
+
+где коэффициенты $URI[[http://libmeta.ru/me/formula/aux/966_7_ChEBYIIEVA]]/URI$ рекуррентно определяются из соотношения $URI[[http://libmeta.ru/me/formula/aux/966_8_ChEBYIIEVA]]/URI$ через коэффициенты Тейлора $URI[[http://libmeta.ru/me/formula/aux/966_9_ChEBYIIEVA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/966_10_ChEBYIIEVA]]/URI$. Полагая в (2) $URI[[http://libmeta.ru/me/formula/aux/966_11_ChEBYIIEVA]]/URI$, полутают соотвошение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/966_3_ChEBYIIEVA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/966_12_ChEBYIIEVA]]/URI$
+
+Несколько членов справа в (3) дают формулы итерационного алгоритма; так при двух членах получается Ньютона меюоод, а при трех членах получается итерационный метод вида
+
+$URI[[http://libmeta.ru/me/formula/aux/966_13_ChEBYIIEVA]]/URI$
+
+С ростом числа учитываемых в (3) членов возрастает URI[[http://libmeta.ru/me/relation/966_3_ChEBYIIEVA]]/URI $URI[[http://libmeta.ru/me/formula/aux/966_14_ChEBYIIEVA]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/966_15_ChEBYIIEVA]]/URI$ (см. [2]). Метод может быть URI[[http://libmeta.ru/me/relation/966_2_ChEBYIIEVA]]/URI на URI[[http://libmeta.ru/me/relation/966_1_ChEBYIIEVA]]/URI (см. [3]).
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=38&amp;width=814&amp;top_left_y=1524&amp;top_left_x=987)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=42&amp;width=816&amp;top_left_y=1557&amp;top_left_x=986)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=50&amp;width=814&amp;top_left_y=1578&amp;top_left_x=987)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=37&amp;width=811&amp;top_left_y=1609&amp;top_left_x=989)</text>
+  <text_orig>метољ иолучения класса итерациолыих алгоритмов нахождения однократного дейіствитенного корня уравнения
+
+\[
+f(x)=0,
+\]
+
+где $f(x)$ - достаточно гладкая функция.
+
+В основе метода лежит формальное представление обратной к $f(x)$ фувкции $x=F(y)$ по формуле Тейлора. Если $\alpha$ - достаточно точное приближение для корня $x$ уравнения (1), $c_{0}=\beta=f(\alpha), f^{\prime}(\alpha) \neq 0$, то
+
+\[
+x=F(y)=\alpha+\sum_{n \geqslant 1} d_{n}(y-\beta)^{n},
+\]
+
+где коэффициенты $d_{n}$ рекуррентно определяются из соотношения $x \equiv F(f(x))$ через коэффициенты Тейлора $c_{n}$ функции $f(x)=\sum_{n \geqslant 0} c_{n}(x-\alpha)^{n}$. Полагая в (2) $y=0$, полутают соотвошение
+
+\[
+\begin{gathered}
+x=\alpha-\frac{f(\alpha)}{f^{\prime}(\alpha)}-\left(\frac{f(\alpha)}{f^{\prime}(\alpha)}\right)^{2} \frac{f^{\prime \prime}(\alpha)}{2 f^{\prime}(\alpha)}- \\
+-\left(\frac{f(\alpha)}{f^{\prime}(\alpha)}\right)^{3}\left(\frac{1}{2}\left(\frac{f^{\prime \prime}(\alpha)}{f^{\prime}(\alpha)}\right)^{2}-\frac{f^{\prime \prime \prime}(\alpha)}{6 f^{\prime}(\alpha)}\right)-
+\end{gathered}
+\]
+
+$-\left(\frac{f(\alpha)}{f^{\prime}(\alpha)}\right)^{4}\left(\frac{5}{8}\left(\frac{f^{\prime \prime}(\alpha)}{f^{\prime}(\alpha)}\right)^{3}-\frac{5 f^{\prime \prime}(\alpha) f^{\prime \prime \prime}(\alpha)}{12\left(f^{\prime}(\alpha)\right)^{2}}+\frac{f^{1 \mathrm{~V}}(\alpha)}{24 f^{\prime}(\alpha)}\right)-\ldots$
+
+Несколько членов справа в (3) дают формулы итерационного алгоритма; так при двух членах получается Ньютона меюоод, а при трех членах получается итерационный метод вида
+
+$x_{n+1}=x_{n}-\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}-\left(\frac{f\left(x_{n}\right)}{f^{\prime}\left(x_{n}\right)}\right)^{2} \frac{f^{\prime \prime}\left(x_{n}\right)}{2 f^{\prime}\left(x_{n}\right)}, n=0,1, \ldots$
+
+С ростом числа учитываемых в (3) членов возрастает скорость сходимости $x_{n}$ к $x$ (см. [2]). Метод может быть распространен на функциональные уравнения (см. [3]).
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=38&amp;width=814&amp;top_left_y=1524&amp;top_left_x=987)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=42&amp;width=816&amp;top_left_y=1557&amp;top_left_x=986)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=50&amp;width=814&amp;top_left_y=1578&amp;top_left_x=987)
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_a146c4260c5161602b6ag-1.jpg?height=37&amp;width=811&amp;top_left_y=1609&amp;top_left_x=989)</text_orig>
+</article>

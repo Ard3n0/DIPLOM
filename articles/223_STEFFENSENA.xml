@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/223_STEFFENSENA" alphabetic_pos="223">
+  <title>СТЕФФЕНСЕНА ИНТЕРПОЛЯЦИОННАЯ ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>114</start>
+    <end>114</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] ћ о р н Г., К о р н Т., Справочник по математике для научных работников и инженеров, [пер. с англ.], M., 1973.</literature_orig>
+    <unit>
+      <author>ћорн Г.</author>
+      <author>Корн Т.</author>
+      <title>Справочник по математике для научных работников и инженеров</title>
+      <publication>[пер. с англ.], M.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/223_1_STEFFENSENA">L_{2 n}\left(x_{0}+t h\right)=f_{0}+t f_{0}^{\prime}+\frac{t^{2}}{2 !} f_{0}^{2}+\ldots+</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/223_2_STEFFENSENA">f_{0}^{2 k-1}=\frac{1}{2}\left(f_{1 / 2}^{2 k-1}+f_{-1 / 2}^{2 k-1}\right), \quad f_{0}^{2 k}=f_{1 / 2}^{2 k-1}-f_{-1 / 2}^{2 k-1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/223_3_STEFFENSENA">\cdots+\frac{t\left(t^{2}-1\right) \cdot \ldots \cdot\left[t^{2}-(n-1)^{2}\right](t+n)}{(2 n) !} f_{1 / 2}^{2 n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/223_4_STEFFENSENA">-\frac{t\left(t^{2}-1\right) \cdot \ldots \cdot\left[t^{2}-(n-1)^{2}\right](t-n)}{(2 n) !} f_{-1 / 2}^{2 n-1} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/223_1_STEFFENSENA">x_{0}, x_{0}+h, x_{0}-h, \ldots, x_{0}+n h, x_{0}-n h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/223_2_STEFFENSENA">x=x_{0}+t h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/223_3_STEFFENSENA">+\frac{t\left(t^{2}-1\right) \ldots\left[t^{2}-(n-1)^{2}\right]}{(2 n-1) !} f_{0}^{2 n-1}+\frac{t^{2}\left(t^{2}-1\right) \ldots\left[\left(t^{2}-(n-1)^{2}\right]\right.}{(2 n) !} f_{0}^{2 n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/223_4_STEFFENSENA">l_{2 n}(x)=L_{2 n}\left(x_{0}+t h\right)=f_{0}+\frac{t(t+1)}{2 !} f_{1 / 2}^{\prime}-\frac{t(t-1)}{2 !} f_{1 / 2}^{\prime}+\ldots</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/223_1_STEFFENSENA">
+      <rel_text>подобных</rel_text>
+      <target>http://libmeta.ru/me/article/360_PoDoBI</target>
+    </relation>
+  </relations>
+  <text>форма записи интерполяционного многочлена, получающегося из Стирлинга интерполяционной бормульг по узлам $URI[[http://libmeta.ru/me/formula/aux/223_1_STEFFENSENA]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/223_2_STEFFENSENA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/223_1_STEFFENSENA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/223_3_STEFFENSENA]]/URI$,
+
+с помощью соотношений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/223_2_STEFFENSENA]]/URI
+\]
+
+После приведения URI[[http://libmeta.ru/me/relation/223_1_STEFFENSENA]]/URI членов С. и. ф. записывается в виде
+
+$URI[[http://libmeta.ru/me/formula/aux/223_4_STEFFENSENA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/223_3_STEFFENSENA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/223_4_STEFFENSENA]]/URI
+\]</text>
+  <text_orig>форма записи интерполяционного многочлена, получающегося из Стирлинга интерполяционной бормульг по узлам $x_{0}, x_{0}+h, x_{0}-h, \ldots, x_{0}+n h, x_{0}-n h$ в точке $x=x_{0}+t h$ :
+
+\[
+L_{2 n}\left(x_{0}+t h\right)=f_{0}+t f_{0}^{\prime}+\frac{t^{2}}{2 !} f_{0}^{2}+\ldots+
+\]
+
+$+\frac{t\left(t^{2}-1\right) \ldots\left[t^{2}-(n-1)^{2}\right]}{(2 n-1) !} f_{0}^{2 n-1}+\frac{t^{2}\left(t^{2}-1\right) \ldots\left[\left(t^{2}-(n-1)^{2}\right]\right.}{(2 n) !} f_{0}^{2 n}$,
+
+с помощью соотношений
+
+\[
+f_{0}^{2 k-1}=\frac{1}{2}\left(f_{1 / 2}^{2 k-1}+f_{-1 / 2}^{2 k-1}\right), \quad f_{0}^{2 k}=f_{1 / 2}^{2 k-1}-f_{-1 / 2}^{2 k-1} .
+\]
+
+После приведения подобных членов С. и. ф. записывается в виде
+
+$L_{2 n}(x)=L_{2 n}\left(x_{0}+t h\right)=f_{0}+\frac{t(t+1)}{2 !} f_{1 / 2}^{\prime}-\frac{t(t-1)}{2 !} f_{1 / 2}^{\prime}+\ldots$
+
+\[
+\cdots+\frac{t\left(t^{2}-1\right) \cdot \ldots \cdot\left[t^{2}-(n-1)^{2}\right](t+n)}{(2 n) !} f_{1 / 2}^{2 n-1}
+\]\[
+-\frac{t\left(t^{2}-1\right) \cdot \ldots \cdot\left[t^{2}-(n-1)^{2}\right](t-n)}{(2 n) !} f_{-1 / 2}^{2 n-1} .
+\]
+
+Лuт.: [1] ћ о р н Г., К о р н Т., Справочник по математике для научных работников и инженеров, [пер. с англ.], M., 1973.</text_orig>
+</article>

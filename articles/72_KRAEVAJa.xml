@@ -1,0 +1,535 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/72_KRAEVAJa" alphabetic_pos="72">
+  <title>КРАЕВАЯ ЗАДАЧА</title>
+  <authors/>
+  <pages>
+    <start>43</start>
+    <end>44</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] т и х о н о в A. H., C а м a p c к и й А. A., Уравнения математической физики, 5 изд., М., 1977; [2] C a м а p-с к и й А. А.. Теория разностных схем, М., 1977; [3] М а рс к и й А. А.. Теория разностных схем, М., 1977; [3] М а р-[4] Я н е н к о Н. Н., Методы дробных шагов решегия многомерных задач математической физики, Новосиб., 1967; [5]Д ь я к о н о в E. Г., Разностные методы решения краевых Д ь Я к о н о в E. Г Р Разностные методы решения краевыхзадач, в. 1-2, М., $1971-72 ;$ [6] П о л о ж и й Г. Н., Численное решение двумерных и трехмерных краевых задач математической физики и функции дискретного аргумента, Киев, 1962;[7] Т и х о н о в А. Н., С а м а р с к й А. А., «ж. вы[7] Т и х о н о в А. Н., С а м а р с к и й А. А., «ж. вы-числит. матем. и матем. физ.», 1961 , т. 1, в. 1, с. $5-63$.</literature_orig>
+    <unit>
+      <author>тихонов A. H.</author>
+      <author>Cамapcкий А. A.</author>
+      <title>Уравнения математической физики</title>
+      <publication>5 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>C a м а p-с к и й А. А.. Теория разностных схем</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>М а рс к и й А. А.. Теория разностных схем</title>
+      <publication>М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Яненко Н. Н.</author>
+      <title>Методы дробных шагов решегия многомерных задач математической физики, Новосиб.</title>
+      <publication/>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дьяконов E. Г.</author>
+      <title>Разностные методы решения краевых Д ь Я к о н о в E. Г Р Разностные методы решения краевыхзадач, в. 1-2</title>
+      <publication>М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Положий Г. Н.</author>
+      <title>Численное решение двумерных и трехмерных краевых задач математической физики и функции дискретного аргумента, Киев</title>
+      <publication/>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Тихонов А. Н.</author>
+      <author>Самарскй А. А.</author>
+      <author>«ж.вы[7]Тихонов А. Н.</author>
+      <author>Самарский А. А.</author>
+      <title>«ж. вы-числит. матем. и матем. физ.»</title>
+      <publication/>
+      <year>1961</year>
+      <other>т. 1, в. 1, с. $5-63$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/72_1_KRAEVAJa">\begin{gathered}\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}=-f\left(x_{1}, x_{2}\right),\left(x_{1}, x_{2}\right) \in G, \\u\left(x_{1}, x_{2}\right)=\mu\left(x_{1}, x_{2}\right), \quad\left(x_{1}, x_{2}\right) \in \Gamma .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_2_KRAEVAJa">\begin{gathered}G_{h}=\left\{\left(x_{1}^{(i)}, x_{2}^{(j)}\right) \mid x_{1}^{(i)}=i h, x_{2}^{(j)}=j h\right. \\i, j=1,2, \ldots, N-1\}, h N=1\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_3_KRAEVAJa">\begin{aligned}&amp; \left(\Lambda_{1} u\right)_{i, j}=u_{\bar{x}_{1} x_{1}, i, j}=\left(u_{i+1, j}-2 u_{i, j}+u_{i-1, j}\right) / h^{2}, \\&amp; \left(\Lambda_{2} u\right)_{i, j}=u_{\bar{x}_{2} x_{2}, i, j}=\left(u_{i, j+1}-2 u_{i, j}+u_{i, j-1}\right) / h^{2},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_4_KRAEVAJa">\left(\Delta_{h} y\right)_{i, j}=y_{\bar{x}_{1} x_{1}, t, j}+y_{\bar{x}_{2} x_{2}, i, j}=-f_{i, j} \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_5_KRAEVAJa">i, j=1,2, \ldots, N-1 ;\left.y_{i, j}\right|_{\Gamma_{h}}=\mu_{i, j},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_6_KRAEVAJa">\max _{\left(x_{1}, x_{2}\right) \in G_{h}}\left|y\left(x_{1}, x_{2}\right)-u\left(x_{1}, x_{2}\right)\right| \leqslant M h^{2},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_7_KRAEVAJa">\left.\begin{array}{l}\frac{\partial u}{\partial t}=\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}, t&gt;0,\left(x_{1}, x_{2}\right) \in G, \\u\left(x_{1}, x_{2}, 0\right)=u_{0}\left(x_{1}, x_{2}\right) ; \\u\left(x_{1}, x_{2}, t\right)=0,\left(x_{1}, x_{2}\right) \in \Gamma .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_8_KRAEVAJa">\omega_{\tau}=\left\{t_{n}=n \tau, \quad n=0,1,2, \ldots\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_9_KRAEVAJa">u_{t, i, j}=\frac{u_{i, j}^{n+1}-u_{i, j}^{n}}{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_10_KRAEVAJa">\left.\begin{array}{l}y_{t, i, j}=\sigma\left(\Delta_{h} y\right)_{i, j}^{n+1}+(1-\sigma)\left(\Delta_{h} y\right)_{i, j}^{n} ; \\y_{i, j}^{0}=u_{0}\left(x_{1}^{(i)}, x_{2}^{(j)}\right), \quad i, j=1,2, \ldots, N-1 ; \\\left.y_{i, j}^{n}\right|_{h} \times \omega_{\tau}=0\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_11_KRAEVAJa">\left.\begin{array}{l}y_{i, j}-\sigma \tau\left(\Delta_{h} y\right)_{i, j}=f_{i, j}^{n}, i, j=1,2, \ldots, N-1, \\\left.y_{i, j}\right|_{\Gamma_{h}}=0\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_12_KRAEVAJa">f_{i, j}^{n}=y_{i, j}^{n}+(1-\sigma) \tau\left(\Delta_{h} y\right)_{i, j}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/72_13_KRAEVAJa">\left.\begin{array}{l}\frac{y_{i, j}^{n+1 / 2}-y_{i, j}^{n}}{0,5 \tau}=\Lambda_{1} y_{i, j}^{n+1 / 2}+\Lambda_{2} y_{i, j}^{n}, \\\frac{y_{i, j}^{n+1}-y_{i, j}^{n+1 / 2}}{0,5 \tau}=\Lambda_{1} y_{i, j}^{n+1 / 2}+\Lambda_{2} y_{i, j}^{n+1} .\end{array}\right\}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_1_KRAEVAJa">g=\left\{0&lt;x_{1}, x_{2}&lt;1\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_2_KRAEVAJa">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_3_KRAEVAJa">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_4_KRAEVAJa">g_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_5_KRAEVAJa">h_{\text {, }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_6_KRAEVAJa">\gamma_{h}=\bigcup_{i, j=1}^{N-1}\left\{\left(0, x_{2}^{(j)}\right) \cup\left(1, x_{2}^{(j)}\right) \cup\left(x_{1}^{(i)}, 0\right) \cup\left(x_{1}^{(i)}, 1\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_7_KRAEVAJa">u_{i, j}=u\left(x_{1}^{(i)}, x_{2}^{(j)}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_8_KRAEVAJa">y_{i, j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_9_KRAEVAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_10_KRAEVAJa">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_11_KRAEVAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_12_KRAEVAJa">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_13_KRAEVAJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_14_KRAEVAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_15_KRAEVAJa">(n-1)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_16_KRAEVAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_17_KRAEVAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_18_KRAEVAJa">h^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_19_KRAEVAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_20_KRAEVAJa">h \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_21_KRAEVAJa">\widehat{o}\left(h^{-4}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_22_KRAEVAJa">6\left(h^{-2} \ln h^{-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_23_KRAEVAJa">n_{0}(\varepsilon)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_24_KRAEVAJa">1 / \varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_25_KRAEVAJa">n_{0}(\varepsilon)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_26_KRAEVAJa">h^{-1} \ln \frac{1}{\varepsilon}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_27_KRAEVAJa">\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_28_KRAEVAJa">n_{0}(\varepsilon)=o\left(\ln h^{-1} \ln \frac{1}{\varepsilon}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_29_KRAEVAJa">\tau&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_30_KRAEVAJa">g_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_31_KRAEVAJa">u_{i, j}^{n}=u\left(x_{1}^{(i)}, x_{2}^{(j)}, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_32_KRAEVAJa">u_{t}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_33_KRAEVAJa">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_34_KRAEVAJa">\delta_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_35_KRAEVAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_36_KRAEVAJa">\sigma \geqslant 0,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_37_KRAEVAJa">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_38_KRAEVAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_39_KRAEVAJa">\sigma&lt;0,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_40_KRAEVAJa">\gamma=\tau / h^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_41_KRAEVAJa">(\sigma=0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_42_KRAEVAJa">\gamma \leqslant 1 / 4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_43_KRAEVAJa">\sigma=0,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_44_KRAEVAJa">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_45_KRAEVAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_46_KRAEVAJa">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_47_KRAEVAJa">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_48_KRAEVAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_49_KRAEVAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_50_KRAEVAJa">g_{h} \times \omega_{\tau}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_51_KRAEVAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_52_KRAEVAJa">n=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_53_KRAEVAJa">y_{i, j} j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_54_KRAEVAJa">y_{i, j}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_55_KRAEVAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_56_KRAEVAJa">y_{i, j}=y_{i, j}^{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/72_57_KRAEVAJa">\mathbf{k}</formula>
+  </formulas_aux>
+  <relations n="48">
+    <relation uri="http://libmeta.ru/me/relation/72_1_KRAEVAJa">
+      <rel_text>коәфффициентами</rel_text>
+      <target>http://libmeta.ru/me/article/336_LINEINAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_2_KRAEVAJa">
+      <rel_text>переменными</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_3_KRAEVAJa">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_4_KRAEVAJa">
+      <rel_text>сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_5_KRAEVAJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_6_KRAEVAJa">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_7_KRAEVAJa">
+      <rel_text>интегральные</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_8_KRAEVAJa">
+      <rel_text>Полученные</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_9_KRAEVAJa">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_10_KRAEVAJa">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_11_KRAEVAJa">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_12_KRAEVAJa">
+      <rel_text>степенью</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_13_KRAEVAJa">
+      <rel_text>производные</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_14_KRAEVAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_15_KRAEVAJa">
+      <rel_text>дифференциальной</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_16_KRAEVAJa">
+      <rel_text>газовой динамики</rel_text>
+      <target>http://libmeta.ru/me/article/897_GAZOVOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_17_KRAEVAJa">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_18_KRAEVAJa">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_19_KRAEVAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_20_KRAEVAJa">
+      <rel_text>дифференциальной</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_21_KRAEVAJa">
+      <rel_text>получено</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_22_KRAEVAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_23_KRAEVAJa">
+      <rel_text>последовательного</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_24_KRAEVAJa">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_25_KRAEVAJa">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_26_KRAEVAJa">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_27_KRAEVAJa">
+      <rel_text>последовательности</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_28_KRAEVAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_29_KRAEVAJa">
+      <rel_text>многомерной</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_30_KRAEVAJa">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_31_KRAEVAJa">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_32_KRAEVAJa">
+      <rel_text>многомерных</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_33_KRAEVAJa">
+      <rel_text>алгоритмы</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_34_KRAEVAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_35_KRAEVAJa">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_36_KRAEVAJa">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_37_KRAEVAJa">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_38_KRAEVAJa">
+      <rel_text>начальных условий</rel_text>
+      <target>http://libmeta.ru/me/article/867_NAChALYNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_39_KRAEVAJa">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_40_KRAEVAJa">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_41_KRAEVAJa">
+      <rel_text>первый порядок</rel_text>
+      <target>http://libmeta.ru/me/article/288_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_42_KRAEVAJa">
+      <rel_text>порядок</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_43_KRAEVAJa">
+      <rel_text>разностная схема</rel_text>
+      <target>http://libmeta.ru/me/article/901_RAZNOSTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_44_KRAEVAJa">
+      <rel_text>условно устойчивая</rel_text>
+      <target>http://libmeta.ru/me/article/617_USLOVNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_45_KRAEVAJa">
+      <rel_text>разностная схема</rel_text>
+      <target>http://libmeta.ru/me/article/901_RAZNOSTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_46_KRAEVAJa">
+      <rel_text>устойчивость</rel_text>
+      <target>http://libmeta.ru/me/article/631_UsTOJChIVOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_47_KRAEVAJa">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/72_48_KRAEVAJa">
+      <rel_text>Параметр</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+  </relations>
+  <text>ч и с л е н ы е ме т о ды решения д л я уравненй п р и з о д ным и - приближенные методы решения, в результате к-рых решение задачи представляется таблицей чисел. Точно решения (в виде явных формул, рядов и т. П.) К. з. можно построить лишь в редких случаях. Из приближенных методов решения наибольшее распространение получили разностные методы (см. [1]); они применимы к самым общим задачам и удобны для реализации на Эвм. Сущность разностных методов состоит в том, что исходная область изменения независимых переменных заменяется дискретным множеством точек - сеткой, а производные, входящие в уравнение и в граничные условия, аппроксимируются на әтой сетке разностными отношениями. В результате такой процедуры исходной задаче сопоставляется система конечного числа алгебраич. уравнений (линейных или нелинейных), называемая разностной схемой. За приближенное решение исходной задачи принимается решенше разностной схемы. Точность приближения зависит от способа аппроксимации и от густоты сетки, т. е. от того, насколько плотно сетка заполняет исходную область. В дальнейшем рассматриваются только линейные К. 3. для уравнений с частными производными, причем исходная задача считается корректно поставленной. Обоснование разностных методов связано с исследованием корректности разностной задачи и ее сходимости при измельчении сетки. Разностная задача наз. к о р p е к тн о й, если при любых правых частях ее решение существует, единственно и устойчиво. Под устойчивостью разностной схемы понимается непрерывная зависимость ее решения от правой части, равномерная относительно шагов сетки.
+
+Пусть, напр., требуется решить задачу Дирихле для уравнения Пуассона в квадрате $URI[[http://libmeta.ru/me/formula/aux/72_1_KRAEVAJa]]/URI$ с границей $URI[[http://libmeta.ru/me/formula/aux/72_2_KRAEVAJa]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_1_KRAEVAJa]]/URI
+\]
+
+Область $URI[[http://libmeta.ru/me/formula/aux/72_3_KRAEVAJa]]/URI$ заменяется квадратной сеткой $URI[[http://libmeta.ru/me/formula/aux/72_4_KRAEVAJa]]/URI$ с шагом $URI[[http://libmeta.ru/me/formula/aux/72_5_KRAEVAJa]]/URI$ т. е. множеством точек
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_2_KRAEVAJa]]/URI
+\]
+
+с границей
+
+$URI[[http://libmeta.ru/me/formula/aux/72_6_KRAEVAJa]]/URI$, а производные, входящие в уравнение, - разностными отношениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_3_KRAEVAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/72_7_KRAEVAJa]]/URI$. Разностная схема имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_4_KRAEVAJa]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/72_5_KRAEVAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/72_8_KRAEVAJa]]/URI$ - ее решение.
+
+Решение задачи (1) существует и единственно при любых правых частях $URI[[http://libmeta.ru/me/formula/aux/72_9_KRAEVAJa]]/URI$ и при любых граничных условиях $URI[[http://libmeta.ru/me/formula/aux/72_10_KRAEVAJa]]/URI$ (см. [2]). Более того, решение разностной задачи (1) сходится при $URI[[http://libmeta.ru/me/formula/aux/72_11_KRAEVAJa]]/URI$ к решению исходной задачи, причем схема имеет второй порядок точности в норме $URI[[http://libmeta.ru/me/formula/aux/72_12_KRAEVAJa]]/URI$, то есть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_6_KRAEVAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/72_13_KRAEVAJa]]/URI$ - постоянная, не зависящая от $URI[[http://libmeta.ru/me/formula/aux/72_14_KRAEVAJa]]/URI$.
+
+Разностная схема (1) представляет собой систему линейных алгебраич. уравнений, для к-рой характерно большое число уравнений (именно $URI[[http://libmeta.ru/me/formula/aux/72_15_KRAEVAJa]]/URI$ уравнений, причем $URI[[http://libmeta.ru/me/formula/aux/72_16_KRAEVAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/72_17_KRAEVAJa]]/URI$ ), большое число нулей в мат рице этой системы и плохая обусловленность (отношение наименьшего собственного числа к наибольшему есть величина порядка $URI[[http://libmeta.ru/me/formula/aux/72_18_KRAEVAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/72_19_KRAEVAJa]]/URI$ ). Для решения подобных систем уравнений, возникающих при аппрокси- мациі дифференциальных уравнений разностными, существуют эффективные прямые и итерационные методы. Прямые методы дают точное решение разностной задачи после выполнения конечного числа арифмметич. действий. К прямым методам относятся различные варианты метода прогонки, включая матричную прогонку, метод декомпозиции, быстрое преобразование Фурье, метод суммарных представлений (см. [1], [2], [3], [6]). Эффективность прямых методов оценивается порядком числа действий при $URI[[http://libmeta.ru/me/formula/aux/72_20_KRAEVAJa]]/URI$. Так, матричная прогонка требует для решения задачи (1) числа действий $URI[[http://libmeta.ru/me/formula/aux/72_21_KRAEVAJa]]/URI$, в то время как метод быстрого преобразования Фурьө требует для решения той же задачи $URI[[http://libmeta.ru/me/formula/aux/72_22_KRAEVAJa]]/URI$ действий. Из итерационных методов решения разностных задач используется метод Ричардсона с чебышевским набором параметров, попеременно-треугольный итерационный метод, различные методы переменных направлений (см. [2]). Эффективность итерационных методов оценивается порядком минимального числа итераций $URI[[http://libmeta.ru/me/formula/aux/72_23_KRAEVAJa]]/URI$, необходимых для того, чтобы уменышить погрешность начального приближения в $URI[[http://libmeta.ru/me/formula/aux/72_24_KRAEVAJa]]/URI$ раз. Напр., при решении задачи (1) методом Ричардсона величіна $URI[[http://libmeta.ru/me/formula/aux/72_25_KRAEVAJa]]/URI$ имеет порядок $URI[[http://libmeta.ru/me/formula/aux/72_26_KRAEVAJa]]/URI$, а при решенип методом переменных направлений $URI[[http://libmeta.ru/me/formula/aux/72_27_KRAEVAJa]]/URI$ оптимальным выбором итерационных параметров $URI[[http://libmeta.ru/me/formula/aux/72_28_KRAEVAJa]]/URI$. Итерацпонные методы более универсальны и более просты в реализации, чем прямые, и вследствие этого получили большое распространение при решении разностных задач.
+
+Пусть, напр., требуется решить первую К. з. для уравнения теплопроводності:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_7_KRAEVAJa]]/URI
+\]
+
+Для решения этой задачи задается сетка по времени c шагом $URI[[http://libmeta.ru/me/formula/aux/72_29_KRAEVAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_8_KRAEVAJa]]/URI
+\]
+
+п сетка $URI[[http://libmeta.ru/me/formula/aux/72_30_KRAEVAJa]]/URI$ по пространственным переменным. Пусть $URI[[http://libmeta.ru/me/formula/aux/72_31_KRAEVAJa]]/URI$. Производная $URI[[http://libmeta.ru/me/formula/aux/72_32_KRAEVAJa]]/URI$ аппроксимируется отношением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_9_KRAEVAJa]]/URI
+\]
+
+а лапласиан $URI[[http://libmeta.ru/me/formula/aux/72_33_KRAEVAJa]]/URI$ - разностным оператором $URI[[http://libmeta.ru/me/formula/aux/72_34_KRAEVAJa]]/URI$. Исходному уравнению (2) ставится в соответствие разностная cхема
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_10_KRAEVAJa]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/72_48_KRAEVAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/72_35_KRAEVAJa]]/URI$, входящий в эти URI[[http://libmeta.ru/me/relation/72_47_KRAEVAJa]]/URI, определяет URI[[http://libmeta.ru/me/relation/72_46_KRAEVAJa]]/URI и точность схемы. Если $URI[[http://libmeta.ru/me/formula/aux/72_36_KRAEVAJa]]/URI$, то схема (3) устойчива при любых шагах сетки $URI[[http://libmeta.ru/me/formula/aux/72_37_KRAEVAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/72_38_KRAEVAJa]]/URI$ (абсолютно устойчивая URI[[http://libmeta.ru/me/relation/72_45_KRAEVAJa]]/URI). Если же $URI[[http://libmeta.ru/me/formula/aux/72_39_KRAEVAJa]]/URI$, то схема (3) устойчива при нек-ром ограничении на величину $URI[[http://libmeta.ru/me/formula/aux/72_40_KRAEVAJa]]/URI$ (URI[[http://libmeta.ru/me/relation/72_44_KRAEVAJa]]/URI URI[[http://libmeta.ru/me/relation/72_43_KRAEVAJa]]/URI); напр., явная схема $URI[[http://libmeta.ru/me/formula/aux/72_41_KRAEVAJa]]/URI$ устойчива при условии $URI[[http://libmeta.ru/me/formula/aux/72_42_KRAEVAJa]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/72_43_KRAEVAJa]]/URI$ схема имеет второй URI[[http://libmeta.ru/me/relation/72_42_KRAEVAJa]]/URI точности по $URI[[http://libmeta.ru/me/formula/aux/72_44_KRAEVAJa]]/URI$ и по $URI[[http://libmeta.ru/me/formula/aux/72_45_KRAEVAJa]]/URI$, при остальных $URI[[http://libmeta.ru/me/formula/aux/72_46_KRAEVAJa]]/URI$ - URI[[http://libmeta.ru/me/relation/72_41_KRAEVAJa]]/URI точности по $URI[[http://libmeta.ru/me/formula/aux/72_47_KRAEVAJa]]/URI$ и второй - по $URI[[http://libmeta.ru/me/formula/aux/72_48_KRAEVAJa]]/URI$. Разностная URI[[http://libmeta.ru/me/relation/72_40_KRAEVAJa]]/URI (3) решается &quot;по слоям». Слоем номера $URI[[http://libmeta.ru/me/formula/aux/72_49_KRAEVAJa]]/URI$ наз. URI[[http://libmeta.ru/me/relation/72_39_KRAEVAJa]]/URI всех точек сетки $URI[[http://libmeta.ru/me/formula/aux/72_50_KRAEVAJa]]/URI$ при нек-ром фиксированном $URI[[http://libmeta.ru/me/formula/aux/72_51_KRAEVAJa]]/URI$. На нулевом слое (при $URI[[http://libmeta.ru/me/formula/aux/72_52_KRAEVAJa]]/URI$ ) значения $URI[[http://libmeta.ru/me/formula/aux/72_53_KRAEVAJa]]/URI$ известны из URI[[http://libmeta.ru/me/relation/72_38_KRAEVAJa]]/URI. Если значения $URI[[http://libmeta.ru/me/formula/aux/72_54_KRAEVAJa]]/URI$ на нек-ром слое $URI[[http://libmeta.ru/me/formula/aux/72_55_KRAEVAJa]]/URI$ уже известны, то значения $URI[[http://libmeta.ru/me/formula/aux/72_56_KRAEVAJa]]/URI$ на следующем слое находятся из URI[[http://libmeta.ru/me/relation/72_37_KRAEVAJa]]/URI URI[[http://libmeta.ru/me/relation/72_36_KRAEVAJa]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_11_KRAEVAJa]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_12_KRAEVAJa]]/URI
+\]
+
+Для нахождения решения URI[[http://libmeta.ru/me/relation/72_35_KRAEVAJa]]/URI (4) можно воспользоваться любым из методов решения стационарной URI[[http://libmeta.ru/me/relation/72_34_KRAEVAJa]]/URI (1). Существуют, однако, более әкономичные URI[[http://libmeta.ru/me/relation/72_33_KRAEVAJa]]/URI решения URI[[http://libmeta.ru/me/relation/72_32_KRAEVAJa]]/URI нестационарных $URI[[http://libmeta.ru/me/formula/aux/72_57_KRAEVAJa]]/URI$. 3., а именно URI[[http://libmeta.ru/me/relation/72_31_KRAEVAJa]]/URI URI[[http://libmeta.ru/me/relation/72_30_KRAEVAJa]]/URI направлений (см. [1] [5]), позволяющие сводить решение URI[[http://libmeta.ru/me/relation/72_29_KRAEVAJa]]/URI URI[[http://libmeta.ru/me/relation/72_28_KRAEVAJa]]/URI к решению URI[[http://libmeta.ru/me/relation/72_27_KRAEVAJa]]/URI одномерных задач. Так, для решения URI[[http://libmeta.ru/me/relation/72_26_KRAEVAJa]]/URI теплопроводности можно воспользоваться следующей схемой URI[[http://libmeta.ru/me/relation/72_25_KRAEVAJa]]/URI направлений:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/72_13_KRAEVAJa]]/URI
+\]
+
+Эта схема абсолютно устойчива, имеет второй URI[[http://libmeta.ru/me/relation/72_24_KRAEVAJa]]/URI точности и решается путем URI[[http://libmeta.ru/me/relation/72_23_KRAEVAJa]]/URI обращения одномерных разностных операторов.
+
+Решение разностной URI[[http://libmeta.ru/me/relation/72_22_KRAEVAJa]]/URI, даже если оно URI[[http://libmeta.ru/me/relation/72_21_KRAEVAJa]]/URI точно, может не только количественно, но и качественно отличаться от решения исходной URI[[http://libmeta.ru/me/relation/72_20_KRAEVAJa]]/URI URI[[http://libmeta.ru/me/relation/72_19_KRAEVAJa]]/URI. Особенно сильно это отличие сказывается при счете URI[[http://libmeta.ru/me/relation/72_18_KRAEVAJa]]/URI, имеющих особенности в коэфффициентах или в самом решении (так, при расчете разрывных решений URI[[http://libmeta.ru/me/relation/72_17_KRAEVAJa]]/URI URI[[http://libmeta.ru/me/relation/72_16_KRAEVAJa]]/URI обычно появляются зоны сильного «размазывания» разрывов). Таким образом, непосредственная аппроксимация URI[[http://libmeta.ru/me/relation/72_15_KRAEVAJa]]/URI URI[[http://libmeta.ru/me/relation/72_14_KRAEVAJa]]/URI разностной, когда URI[[http://libmeta.ru/me/relation/72_13_KRAEVAJa]]/URI заменяются с большой URI[[http://libmeta.ru/me/relation/72_12_KRAEVAJa]]/URI произвола разностными отношениями, не всегда приводит к хорошей разностной схеме. Выработан ряд принципов построения разностных схем, позволяющих URI[[http://libmeta.ru/me/relation/72_11_KRAEVAJa]]/URI схемы хорошего качества. Так, успешно применяется метод баланса и URI[[http://libmeta.ru/me/relation/72_10_KRAEVAJa]]/URI аппроксимации вариационного URI[[http://libmeta.ru/me/relation/72_9_KRAEVAJa]]/URI (см. [1] - [3]). URI[[http://libmeta.ru/me/relation/72_8_KRAEVAJa]]/URI этими методами разностные схемы правильно отражают URI[[http://libmeta.ru/me/relation/72_7_KRAEVAJa]]/URI законы сохранения, справедливые для исходных URI[[http://libmeta.ru/me/relation/72_6_KRAEVAJa]]/URI, и обеспечивают знакоопределенность соответствующи разностных операторов. В URI[[http://libmeta.ru/me/relation/72_5_KRAEVAJa]]/URI разностных однородных схем (см. [7]) рассматриваются вопросы построения и исследования URI[[http://libmeta.ru/me/relation/72_4_KRAEVAJa]]/URI разностных схем для URI[[http://libmeta.ru/me/relation/72_3_KRAEVAJa]]/URI с URI[[http://libmeta.ru/me/relation/72_2_KRAEVAJa]]/URI (в том числе и разрывными) URI[[http://libmeta.ru/me/relation/72_1_KRAEVAJa]]/URI.</text>
+  <text_orig>ч и с л е н ы е ме т о ды решения д л я уравненй п р и з о д ным и - приближенные методы решения, в результате к-рых решение задачи представляется таблицей чисел. Точно решения (в виде явных формул, рядов и т. П.) К. з. можно построить лишь в редких случаях. Из приближенных методов решения наибольшее распространение получили разностные методы (см. [1]); они применимы к самым общим задачам и удобны для реализации на ЭВМ. Сущность разностных методов состоит в том, что исходная область изменения независимых переменных заменяется дискретным множеством точек - сеткой, а производные, входящие в уравнение и в граничные условия, аппроксимируются на әтой сетке разностными отношениями. В результате такой процедуры исходной задаче сопоставляется система конечного числа алгебраич. уравнений (линейных или нелинейных), называемая разностной схемой. За приближенное решение исходной задачи принимается решенше разностной схемы. Точность приближения зависит от способа аппроксимации и от густоты сетки, т. е. от того, насколько плотно сетка заполняет исходную область. В дальнейшем рассматриваются только линейные К. 3. для уравнений с частными производными, причем исходная задача считается корректно поставленной. Обоснование разностных методов связано с исследованием корректности разностной задачи и ее сходимости при измельчении сетки. Разностная задача наз. к о р p е к тн о й, если при любых правых частях ее решение существует, единственно и устойчиво. Под устойчивостью разностной схемы понимается непрерывная зависимость ее решения от правой части, равномерная относительно шагов сетки.
+
+Пусть, напр., требуется решить задачу Дирихле для уравнения Пуассона в квадрате $G=\left\{0&lt;x_{1}, x_{2}&lt;1\right\}$ с границей $\Gamma$ :
+
+\[
+\begin{gathered}
+\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}=-f\left(x_{1}, x_{2}\right),\left(x_{1}, x_{2}\right) \in G, \\
+u\left(x_{1}, x_{2}\right)=\mu\left(x_{1}, x_{2}\right), \quad\left(x_{1}, x_{2}\right) \in \Gamma .
+\end{gathered}
+\]
+
+Область $G$ заменяется квадратной сеткой $G_{h}$ с шагом $h_{\text {, }}$ т. е. множеством точек
+
+\[
+\begin{gathered}
+G_{h}=\left\{\left(x_{1}^{(i)}, x_{2}^{(j)}\right) \mid x_{1}^{(i)}=i h, x_{2}^{(j)}=j h\right. \\
+i, j=1,2, \ldots, N-1\}, h N=1
+\end{gathered}
+\]
+
+с границей
+
+$\Gamma_{h}=\bigcup_{i, j=1}^{N-1}\left\{\left(0, x_{2}^{(j)}\right) \cup\left(1, x_{2}^{(j)}\right) \cup\left(x_{1}^{(i)}, 0\right) \cup\left(x_{1}^{(i)}, 1\right)\right\}$, а производные, входящие в уравнение, - разностными отношениями
+
+\[
+\begin{aligned}
+&amp; \left(\Lambda_{1} u\right)_{i, j}=u_{\bar{x}_{1} x_{1}, i, j}=\left(u_{i+1, j}-2 u_{i, j}+u_{i-1, j}\right) / h^{2}, \\
+&amp; \left(\Lambda_{2} u\right)_{i, j}=u_{\bar{x}_{2} x_{2}, i, j}=\left(u_{i, j+1}-2 u_{i, j}+u_{i, j-1}\right) / h^{2},
+\end{aligned}
+\]
+
+где $u_{i, j}=u\left(x_{1}^{(i)}, x_{2}^{(j)}\right)$. Разностная схема имеет вид
+
+\[
+\left(\Delta_{h} y\right)_{i, j}=y_{\bar{x}_{1} x_{1}, t, j}+y_{\bar{x}_{2} x_{2}, i, j}=-f_{i, j} \text {, }
+\]\[
+i, j=1,2, \ldots, N-1 ;\left.y_{i, j}\right|_{\Gamma_{h}}=\mu_{i, j},
+\]
+
+где $y_{i, j}$ - ее решение.
+
+Решение задачи (1) существует и единственно при любых правых частях $f$ и при любых граничных условиях $\mu$ (см. [2]). Более того, решение разностной задачи (1) сходится при $h \rightarrow 0$ к решению исходной задачи, причем схема имеет второй порядок точности в норме $c$, то есть
+
+\[
+\max _{\left(x_{1}, x_{2}\right) \in G_{h}}\left|y\left(x_{1}, x_{2}\right)-u\left(x_{1}, x_{2}\right)\right| \leqslant M h^{2},
+\]
+
+где $M$ - постоянная, не зависящая от $h$.
+
+Разностная схема (1) представляет собой систему линейных алгебраич. уравнений, для к-рой характерно большое число уравнений (именно $(N-1)^{2}$ уравнений, причем $N \rightarrow \infty$ при $h \rightarrow 0$ ), большое число нулей в мат рице этой системы и плохая обусловленность (отношение наименьшего собственного числа к наибольшему есть величина порядка $h^{2}$ при $h \rightarrow 0$ ). Для решения подобных систем уравнений, возникающих при аппрокси- мациі дифференциальных уравнений разностными, существуют эффективные прямые и итерационные методы. Прямые методы дают точное решение разностной задачи после выполнения конечного числа арифмметич. действий. К прямым методам относятся различные варианты метода прогонки, включая матричную прогонку, метод декомпозиции, быстрое преобразование Фурье, метод суммарных представлений (см. [1], [2], [3], [6]). Эффективность прямых методов оценивается порядком числа действий при $h \rightarrow 0$. Так, матричная прогонка требует для решения задачи (1) числа действий $\widehat{O}\left(h^{-4}\right)$, в то время как метод быстрого преобразования Фурьө требует для решения той же задачи $6\left(h^{-2} \ln h^{-1}\right)$ действий. Из итерационных методов решения разностных задач используется метод Ричардсона с чебышевским набором параметров, попеременно-треугольный итерационный метод, различные методы переменных направлений (см. [2]). Эффективность итерационных методов оценивается порядком минимального числа итераций $n_{0}(\varepsilon)$, необходимых для того, чтобы уменышить погрешность начального приближения в $1 / \varepsilon$ раз. Напр., при решении задачи (1) методом Ричардсона величіна $n_{0}(\varepsilon)$ имеет порядок $h^{-1} \ln \frac{1}{\varepsilon}$, а при решенип методом переменных направлений $\mathrm{c}$ оптимальным выбором итерационных параметров $n_{0}(\varepsilon)=O\left(\ln h^{-1} \ln \frac{1}{\varepsilon}\right)$. Итерацпонные методы более универсальны и более просты в реализации, чем прямые, и вследствие этого получили большое распространение при решении разностных задач.
+
+Пусть, напр., требуется решить первую К. з. для уравнения теплопроводності:
+
+\[
+\left.\begin{array}{l}
+\frac{\partial u}{\partial t}=\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}, t&gt;0,\left(x_{1}, x_{2}\right) \in G, \\
+u\left(x_{1}, x_{2}, 0\right)=u_{0}\left(x_{1}, x_{2}\right) ; \\
+u\left(x_{1}, x_{2}, t\right)=0,\left(x_{1}, x_{2}\right) \in \Gamma .
+\end{array}\right\}
+\]
+
+Для решения этой задачи задается сетка по времени c шагом $\tau&gt;0$
+
+\[
+\omega_{\tau}=\left\{t_{n}=n \tau, \quad n=0,1,2, \ldots\right\}
+\]
+
+п сетка $G_{h}$ по пространственным переменным. Пусть $u_{i, j}^{n}=u\left(x_{1}^{(i)}, x_{2}^{(j)}, t_{n}\right)$. Производная $u_{t}^{\prime}$ аппроксимируется отношением
+
+\[
+u_{t, i, j}=\frac{u_{i, j}^{n+1}-u_{i, j}^{n}}{\tau}
+\]
+
+а лапласиан $\Delta$ - разностным оператором $\Delta_{h}$. Исходному уравнению (2) ставится в соответствие разностная cхема
+
+\[
+\left.\begin{array}{l}
+y_{t, i, j}=\sigma\left(\Delta_{h} y\right)_{i, j}^{n+1}+(1-\sigma)\left(\Delta_{h} y\right)_{i, j}^{n} ; \\
+y_{i, j}^{0}=u_{0}\left(x_{1}^{(i)}, x_{2}^{(j)}\right), \quad i, j=1,2, \ldots, N-1 ; \\
+\left.y_{i, j}^{n}\right|_{h} \times \omega_{\tau}=0
+\end{array}\right\}
+\]
+
+Параметр $\sigma$, входящий в эти уравнения, определяет устойчивость и точность схемы. Если $\sigma \geqslant 0,5$, то схема (3) устойчива при любых шагах сетки $\tau$ и $h$ (абсолютно устойчивая разностная схема). Если же $\sigma&lt;0,5$, то схема (3) устойчива при нек-ром ограничении на величину $\gamma=\tau / h^{2}$ (условно устойчивая разностная схема); напр., явная схема $(\sigma=0)$ устойчива при условии $\gamma \leqslant 1 / 4$. При $\sigma=0,5$ схема имеет второй порядок точности по $\tau$ и по $h$, при остальных $\sigma$ - первый порядок точности по $\tau$ и второй - по $h$. Разностная задача (3) решается &quot;по слоям». Слоем номера $n$ наз. множество всех точек сетки $G_{h} \times \omega_{\tau}$ при нек-ром фиксированном $h$. На нулевом слое (при $n=0$ ) значения $y_{i, j} j$ известны из начальных условий. Если значения $y_{i, j}^{n}$ на нек-ром слое $n$ уже известны, то значения $y_{i, j}=y_{i, j}^{n+1}$ на следующем слое находятся из системы уравнений
+
+\[
+\left.\begin{array}{l}
+y_{i, j}-\sigma \tau\left(\Delta_{h} y\right)_{i, j}=f_{i, j}^{n}, i, j=1,2, \ldots, N-1, \\
+\left.y_{i, j}\right|_{\Gamma_{h}}=0
+\end{array}\right\}
+\]
+
+где
+
+\[
+f_{i, j}^{n}=y_{i, j}^{n}+(1-\sigma) \tau\left(\Delta_{h} y\right)_{i, j}^{n}
+\]
+
+Для нахождения решения задачи (4) можно воспользоваться любым из методов решения стационарной задачи (1). Существуют, однако, более әкономичные алгоритмы решения многомерных нестационарных $\mathbf{K}$. 3., а именно методы переменных направлений (см. [1] [5]), позволяющие сводить решение многомерной задачи к решению последовательности одномерных задач. Так, для решения уравнения теплопроводности можно воспользоваться следующей схемой переменных направлений:
+
+\[
+\left.\begin{array}{l}
+\frac{y_{i, j}^{n+1 / 2}-y_{i, j}^{n}}{0,5 \tau}=\Lambda_{1} y_{i, j}^{n+1 / 2}+\Lambda_{2} y_{i, j}^{n}, \\
+\frac{y_{i, j}^{n+1}-y_{i, j}^{n+1 / 2}}{0,5 \tau}=\Lambda_{1} y_{i, j}^{n+1 / 2}+\Lambda_{2} y_{i, j}^{n+1} .
+\end{array}\right\}
+\]
+
+Эта схема абсолютно устойчива, имеет второй порядок точности и решается путем последовательного обращения одномерных разностных операторов.
+
+Решение разностной задачи, даже если оно получено точно, может не только количественно, но и качественно отличаться от решения исходной дифференциальной задачи. Особенно сильно это отличие сказывается при счете уравнений, имеющих особенности в коэфффициентах или в самом решении (так, при расчете разрывных решений уравнений газовой динамики обычно появляются зоны сильного «размазывания» разрывов). Таким образом, непосредственная аппроксимация дифференциальной задачи разностной, когда производные заменяются с большой степенью произвола разностными отношениями, не всегда приводит к хорошей разностной схеме. Выработан ряд принципов построения разностных схем, позволяющих получить схемы хорошего качества. Так, успешно применяется метод баланса и методы аппроксимации вариационного функционала (см. [1] - [3]). Полученные этими методами разностные схемы правильно отражают интегральные законы сохранения, справедливые для исходных уравнений, и обеспечивают знакоопределенность соответствующи разностных операторов. В теории разностных однородных схем (см. [7]) рассматриваются вопросы построения и исследования сходимости разностных схем для уравнений с переменными (в том числе и разрывными) коәфффициентами.
+
+Jum.: [1] т и х о н о в A. H., C а м a p c к и й А. A., Уравнения математической физики, 5 изд., М., 1977; [2] C a м а p-
+с к и й А. А.. Теория разностных схем, М., 1977; [3] М а рс к и й А. А.. Теория разностных схем, М., 1977; [3] М а р-[4] Я н е н к о Н. Н., Методы дробных шагов решегия многомерных задач математической физики, Новосиб., 1967; [5]
+Д ь я к о н о в E. Г., Разностные методы решения краевых Д ь Я к о н о в E. Г Р Разностные методы решения краевых
+задач, в. 1-2, М., $1971-72 ;$ [6] П о л о ж и й Г. Н., Численное решение двумерных и трехмерных краевых задач математической физики и функции дискретного аргумента, Киев, 1962;
+[7] Т и х о н о в А. Н., С а м а р с к й А. А., «Ж. вы[7] Т и х о н о в А. Н., С а м а р с к и й А. А., «Ж. вы-
+числит. матем. и матем. физ.», 1961 , т. 1, в. 1, с. $5-63$.</text_orig>
+</article>

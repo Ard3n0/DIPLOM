@@ -1,0 +1,513 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/288_DIFFERENTsIAL'NOE" alphabetic_pos="288">
+  <title>ДИФФЕРЕНЦИАЛЬНОЕ У РАВНЕНИЕ С ЧАСТНЫМИ ПРОИЗВОДНЫМИ ПЕРВОГО ПОРЯДКА</title>
+  <authors>
+    <author>Н. Н. Кузнечов</author>
+    <author>Б. Л. Рождественский</author>
+  </authors>
+  <pages>
+    <start>163</start>
+    <end>165</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] G o u r s a t E., Leçons sur l'intégration des équa$\begin{array}{ll}\text { tions aux dérivées partielles du premier ordre, } 2 \text { éd., P., 1921; } \\ \text { [2] C a r a h é o d o r y } &amp; \text { C., Variationsrechnung und partielle }\end{array}$ [2] C a r a t h é o d o r y C., Variationsrechnung und partielleDifferentialgleichungen erster Ordnung, Lpz.- B., 1935; [3] Г ю н т е p Н. М., Интегрирование уравнений первого порядка в частных производных, Ј.- M., 1934; [4] к у р а н т П е т р о в с к и й И. Г., Лекции по теории обыкновенных дифференциальных уравнений, 6 изд., М., 1970; [6] е г о же е, Јек-ции об уравнениях с частными производными, 3 изд., М., 1961; ции об уравнениях с частными производными, 3 изд., М., 1961;[7] $\mathcal{k}$ а р т а н Э., Внешние дифференциальные системы и их геометрические приложения, пер. с франц., 1962; [8] P а ш е вс к и й П. К., Геометрическая теория уравнений с частными проних форм Картана в дифференциальной геометрии, М. - Ј., 1948; &quot;[10] Я н е н к о Н. Н., Р ож д е с т в е н с к и й Б. Ј., Системы квазилинейных уравнений и их приложения к газовойдинамике, М., 1968.</literature_orig>
+    <unit>
+      <author>Goursat E.</author>
+      <title>Leçons sur l'intégration des équa$\begin{array}{ll}\text { tions aux dérivées partielles du premier ordre, } 2 \text { éd., P.</title>
+      <publication/>
+      <year>1921</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Carahéodory}&amp;\text{ C.</author>
+      <author>Variationsrechnungundpartielle}\end{array}$[2]Carathéodory C.</author>
+      <title>Variationsrechnung und partielleDifferentialgleichungen erster Ordnung, Lpz.- B.</title>
+      <publication/>
+      <year>1935</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гюнтеp Н. М.</author>
+      <title>Интегрирование уравнений первого порядка в частных производных, Ј.- M.</title>
+      <publication/>
+      <year>1934</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>курант Петровский И. Г.</author>
+      <title>Лекции по теории обыкновенных дифференциальных уравнений</title>
+      <publication>6 изд., М.</publication>
+      <year>1970</year>
+      <other>Јек-ции об уравнениях с частными производными, 3 изд., М., 1961; ции об уравнениях с частными производными, 3 изд., М., 1961;[7] $\mathcal{k}$ а р т а н Э., Внешние дифференциальные системы и их геометрические приложения, пер. с франц., 1962; [8] P а ш е вс к и й П. К., Геометрическая теория уравнений с частными проних форм Картана в дифференциальной геометрии, М. - Ј., 1948; &quot;[10] Я н е н к о Н. Н., Р ож д е с т в е н с к и й Б. Ј., Системы квазилинейных уравнений и их приложения к газовойдинамике, М., 1968.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/288_1_DIFFERENTsIAL'NOE">F\left(x, y, u, u_{x}, u_{y}, u_{x x}, u_{x y}, u_{y y}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_2_DIFFERENTsIAL'NOE">\begin{aligned}&amp; F\left(x, y, u, v, w, v_{x}, v_{y}, w_{y}\right)=0, \\&amp; u_{x}-v=0 \\&amp; u_{y}-w=0 \\&amp; v_{y}-w_{x}=0\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_3_DIFFERENTsIAL'NOE">F(x, u, p)=0 \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_4_DIFFERENTsIAL'NOE">\frac{d x_{1}}{F_{p_{1}}}=\frac{d x_{2}}{F_{p_{2}}}=\ldots=\frac{d x_{n}}{F_{p_{n}}}=\frac{d u}{\sum_{i=1}^{n} p_{i} F_{p_{i}}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_5_DIFFERENTsIAL'NOE">\frac{\partial u}{\partial \sigma}=\sum p_{i} F_{p_{i}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_6_DIFFERENTsIAL'NOE">\frac{d x_{i}}{F_{p_{i}}}=\frac{d u}{\sum p_{j}{ }^{F} p_{j}}=\frac{d p_{i}}{F_{x_{i}}{ }^{+p_{i} F_{u}}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_7_DIFFERENTsIAL'NOE">F(x, u, p)=\sum_{i=1}^{n} f_{i}(x, u) p_{i}+f_{n+1}(x, u) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_8_DIFFERENTsIAL'NOE">\frac{d x_{i}}{f_{i}(x, u)}=-\frac{d u}{f_{n+1}(x, u)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_9_DIFFERENTsIAL'NOE">x_{i}=x_{i}^{0}\left(\lambda_{1}, \ldots, \lambda_{n-1}\right), \quad u=u^{0}\left(\lambda_{1}, \ldots, \lambda_{n-1}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_10_DIFFERENTsIAL'NOE">\frac{\partial u^{0}}{\partial \lambda_{j}}=\sum p_{i}^{0} \frac{\partial x_{i}^{0}}{\partial \lambda_{j}}, j=1, \ldots, n-1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_11_DIFFERENTsIAL'NOE">F\left(x^{0}, u^{0}, p^{0}\right)=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_12_DIFFERENTsIAL'NOE">x_{i}=X_{i}\left(\sigma, \lambda_{1}, \ldots, \lambda_{n-1}\right), \quad u=U\left(\sigma, \lambda_{1}, \ldots, \lambda_{n-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_13_DIFFERENTsIAL'NOE">\begin{gathered}\sum_{i=1}^{n} F_{p_{i}} \frac{\partial p_{k}}{\partial x_{i}}+F_{k} p_{k}+F_{x_{k}}=0, k=1, \ldots, n, \\\sum_{i=1}^{n} F_{p_{i}} \frac{\partial u}{\partial x_{i}}-\sum_{i=1}^{n} p_{i} F_{p_{i}}=0,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_14_DIFFERENTsIAL'NOE">\begin{gathered}\frac{x_{1}-x_{1}^{0}}{p_{1}^{0}}=\frac{x_{2}-x_{2}^{0}}{p_{2}^{0}}=u-u^{0}, \\p_{1}=p_{1}^{0}, p_{2}=p_{2}^{0},\left(p_{1}^{0}\right)^{2}+\left(p_{2}^{0}\right)^{2}=1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_15_DIFFERENTsIAL'NOE">x=\lambda+t u^{0}(\lambda), \quad u=u^{0}(\lambda) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_16_DIFFERENTsIAL'NOE">u=\varphi(x, a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/288_17_DIFFERENTsIAL'NOE">F_{i}(x, p) \equiv \sum_{j=1}^{n} f_{i j}(x) p_{j}=0, \quad i=1, \ldots, m,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_1_DIFFERENTsIAL'NOE">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_2_DIFFERENTsIAL'NOE">d_{i} u=u_{x_{i}}, i=1, \cdots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_3_DIFFERENTsIAL'NOE">x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_4_DIFFERENTsIAL'NOE">u_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_5_DIFFERENTsIAL'NOE">l_{i}-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_6_DIFFERENTsIAL'NOE">l_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_7_DIFFERENTsIAL'NOE">v=u_{x}, w=u_{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_8_DIFFERENTsIAL'NOE">p=\left(p_{1}, p_{2}, \ldots, p_{n}\right)=\left(D_{1} u, D_{2} u, \ldots, D_{n} u\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_9_DIFFERENTsIAL'NOE">u=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_10_DIFFERENTsIAL'NOE">e_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_11_DIFFERENTsIAL'NOE">\left(x_{1}, \ldots, x_{n}, u\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_12_DIFFERENTsIAL'NOE">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_13_DIFFERENTsIAL'NOE">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_14_DIFFERENTsIAL'NOE">(x, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_15_DIFFERENTsIAL'NOE">(n-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_16_DIFFERENTsIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_17_DIFFERENTsIAL'NOE">(x, u)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_18_DIFFERENTsIAL'NOE">(x, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_19_DIFFERENTsIAL'NOE">p=\left(p_{1}, p_{2}, \ldots, p_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_20_DIFFERENTsIAL'NOE">\mathrm{m} о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_21_DIFFERENTsIAL'NOE">p=p(x, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_22_DIFFERENTsIAL'NOE">f(x, u, p)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_23_DIFFERENTsIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_24_DIFFERENTsIAL'NOE">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_25_DIFFERENTsIAL'NOE">u=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_26_DIFFERENTsIAL'NOE">p_{i}=d_{i} u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_27_DIFFERENTsIAL'NOE">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_28_DIFFERENTsIAL'NOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_29_DIFFERENTsIAL'NOE">f(x, u, p)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_30_DIFFERENTsIAL'NOE">f=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_31_DIFFERENTsIAL'NOE">u=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_32_DIFFERENTsIAL'NOE">\left(x_{1}, x_{2}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_33_DIFFERENTsIAL'NOE">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_34_DIFFERENTsIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_35_DIFFERENTsIAL'NOE">(n-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_36_DIFFERENTsIAL'NOE">p_{i}=p_{i}^{0}\left(\lambda_{1}, \ldots, \lambda_{n-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_37_DIFFERENTsIAL'NOE">p_{i}^{0}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_38_DIFFERENTsIAL'NOE">u=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_39_DIFFERENTsIAL'NOE">\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_40_DIFFERENTsIAL'NOE">u=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_41_DIFFERENTsIAL'NOE">\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_42_DIFFERENTsIAL'NOE">\left(d_{1} u\right)^{2}+\left(D_{2} u\right)^{2}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_43_DIFFERENTsIAL'NOE">\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}=0 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_44_DIFFERENTsIAL'NOE">\frac{\partial x}{u}=\frac{\partial u}{0}=\frac{\partial t}{1}, \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_45_DIFFERENTsIAL'NOE">\quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_46_DIFFERENTsIAL'NOE">\quad \frac{x-x_{0}}{t-t_{0}}=u_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_47_DIFFERENTsIAL'NOE">\boldsymbol{u}=u_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_48_DIFFERENTsIAL'NOE">\boldsymbol{u}(x, 0)=u^{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_49_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_50_DIFFERENTsIAL'NOE">a_{1}, a_{2}, \ldots, a_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_51_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_52_DIFFERENTsIAL'NOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_53_DIFFERENTsIAL'NOE">(n-k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_54_DIFFERENTsIAL'NOE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_55_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_56_DIFFERENTsIAL'NOE">\omega_{i}(a)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_57_DIFFERENTsIAL'NOE">i=1,2, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_58_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_59_DIFFERENTsIAL'NOE">n-k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_60_DIFFERENTsIAL'NOE">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_61_DIFFERENTsIAL'NOE">f=f_{p}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_62_DIFFERENTsIAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_63_DIFFERENTsIAL'NOE">k=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_64_DIFFERENTsIAL'NOE">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_65_DIFFERENTsIAL'NOE">m \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_66_DIFFERENTsIAL'NOE">\left\{f_{i}, F_{j}\right\} \equiv \sum_{s=1}^{n}\left(\sum_{l=1}^{n} \frac{\partial f_{i s}}{\partial x_{l}} f_{j l}-f_{i l} \frac{\partial f_{j s}}{\partial x_{l}}\right) p_{s}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_67_DIFFERENTsIAL'NOE">\{</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_68_DIFFERENTsIAL'NOE">\} - скобки Пуассона) являются следствиями ис-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_69_DIFFERENTsIAL'NOE">m=n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_70_DIFFERENTsIAL'NOE">m&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/288_71_DIFFERENTsIAL'NOE">n-m</formula>
+  </formulas_aux>
+  <relations n="23">
+    <relation uri="http://libmeta.ru/me/relation/288_1_DIFFERENTsIAL'NOE">
+      <rel_text>Характеристическое многообразие</rel_text>
+      <target>http://libmeta.ru/me/article/850_HARAKTERISTIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_2_DIFFERENTsIAL'NOE">
+      <rel_text>замкнутая система</rel_text>
+      <target>http://libmeta.ru/me/article/424_ZAMKNUTAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_3_DIFFERENTsIAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_4_DIFFERENTsIAL'NOE">
+      <rel_text>Незамкнутую систему</rel_text>
+      <target>http://libmeta.ru/me/article/894_NEZAVISIMYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_5_DIFFERENTsIAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_6_DIFFERENTsIAL'NOE">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_7_DIFFERENTsIAL'NOE">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_8_DIFFERENTsIAL'NOE">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_9_DIFFERENTsIAL'NOE">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_10_DIFFERENTsIAL'NOE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_11_DIFFERENTsIAL'NOE">
+      <rel_text>переопределенная система</rel_text>
+      <target>http://libmeta.ru/me/article/232_PEREOPREDELENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_12_DIFFERENTsIAL'NOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_13_DIFFERENTsIAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_14_DIFFERENTsIAL'NOE">
+      <rel_text>дифференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_15_DIFFERENTsIAL'NOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_16_DIFFERENTsIAL'NOE">
+      <rel_text>предмет</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_17_DIFFERENTsIAL'NOE">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_18_DIFFERENTsIAL'NOE">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_19_DIFFERENTsIAL'NOE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_20_DIFFERENTsIAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_21_DIFFERENTsIAL'NOE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_22_DIFFERENTsIAL'NOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/288_23_DIFFERENTsIAL'NOE">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+  </relations>
+  <text>уравнение, связывающее искомую функцию $URI[[http://libmeta.ru/me/formula/aux/288_1_DIFFERENTsIAL'NOE]]/URI$, ее первые пропзводные $URI[[http://libmeta.ru/me/formula/aux/288_2_DIFFERENTsIAL'NOE]]/URI$, и независимые переменные $URI[[http://libmeta.ru/me/formula/aux/288_3_DIFFERENTsIAL'NOE]]/URI$. Всякая система дифференциальных уравнений с частными производными может быть приведена к нек-рой системе Д. у. с ч.П.п.п. Для этого достаточно ввести в качестве новых искомых функций все частные производные от каждой функции $URI[[http://libmeta.ru/me/formula/aux/288_4_DIFFERENTsIAL'NOE]]/URI$ до порядка $URI[[http://libmeta.ru/me/formula/aux/288_5_DIFFERENTsIAL'NOE]]/URI$ включительно, если хотя бы одна производная порядка $URI[[http://libmeta.ru/me/formula/aux/288_6_DIFFERENTsIAL'NOE]]/URI$ входит в к.-л. уравнение рассматриваемой системы. При этом систему следует пополнить новыми уравнениями, выражающими равенство различных смешанных производных. Напр., уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_1_DIFFERENTsIAL'NOE]]/URI
+\]
+
+после введения вспомогательных искомых функций $URI[[http://libmeta.ru/me/formula/aux/288_7_DIFFERENTsIAL'NOE]]/URI$ приводится к следующей системе уравнений 1-го порядка:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_2_DIFFERENTsIAL'NOE]]/URI
+\]
+
+(последние три уравнения не независимы).
+
+Одно Д. у. с ч. П. П. П. с одной искомой функцией задается соотношением:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_3_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/288_8_DIFFERENTsIAL'NOE]]/URI$. Всякое решение $URI[[http://libmeta.ru/me/formula/aux/288_9_DIFFERENTsIAL'NOE]]/URI$ уравнения (1) при определенных требованиях определяет нек-рую поверхность (и н т ег р а л ь у ю П о в е р х о о т ь) в пространстве $URI[[http://libmeta.ru/me/formula/aux/288_10_DIFFERENTsIAL'NOE]]/URI$ переменных $URI[[http://libmeta.ru/me/formula/aux/288_11_DIFFERENTsIAL'NOE]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/288_12_DIFFERENTsIAL'NOE]]/URI$ яв.тяются компонентами вектора нормали к этой поверхности. Поэтому уравнение (1) задает связь между составляющими $URI[[http://libmeta.ru/me/formula/aux/288_13_DIFFERENTsIAL'NOE]]/URI$ вектора нормали к интегральной поверхности и в каждой точке $URI[[http://libmeta.ru/me/formula/aux/288_14_DIFFERENTsIAL'NOE]]/URI$ определяет $URI[[http://libmeta.ru/me/formula/aux/288_15_DIFFERENTsIAL'NOE]]/URI$-параметрич. семейство касательных к интегральной поверхности плоскостей [или несколько таких семейств, соответствующих различным решениям уравнения (1) относительно $URI[[http://libmeta.ru/me/formula/aux/288_16_DIFFERENTsIAL'NOE]]/URI$ ]. Огибающая этого семейства плоскостей наз. к о н у с о м М о н ж а [в данной точке $URI[[http://libmeta.ru/me/formula/aux/288_17_DIFFERENTsIAL'NOE]]/URI$, а направления его образующих с т и ч с с к и и н а п р а в л е ни я ми. В каждой точке $URI[[http://libmeta.ru/me/formula/aux/288_18_DIFFERENTsIAL'NOE]]/URI$ эти направления определяются уравнениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_4_DIFFERENTsIAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/288_19_DIFFERENTsIAL'NOE]]/URI$ - любой вектор, удовлетворяющий уравнению (1). Кривая с непрерывно изменяющейся касательной, имеющая в каждой своей точке характеристич. направление, наз. к р и в о й $URI[[http://libmeta.ru/me/formula/aux/288_20_DIFFERENTsIAL'NOE]]/URI$ н ж а, или ф о к а л ь н о й к р и в о й. Фокальная кривая является интегральной кривой системы (2) при произвольно заданном непрерывно диффференцируемом векторе $URI[[http://libmeta.ru/me/formula/aux/288_21_DIFFERENTsIAL'NOE]]/URI$ таком, что $URI[[http://libmeta.ru/me/formula/aux/288_22_DIFFERENTsIAL'NOE]]/URI$.
+
+Поскольку каждой точке фокальной кривой сопоставлен вектор $URI[[http://libmeta.ru/me/formula/aux/288_23_DIFFERENTsIAL'NOE]]/URI$, определяющий направление плоскости, касательной к кривой в этой точке, то фокальная кривая задается одновременно со своими касательными плоскостями и наз. поэтому фо к а л ь н о й п о л о с о й. Если $URI[[http://libmeta.ru/me/formula/aux/288_24_DIFFERENTsIAL'NOE]]/URI$ - параметр на фокальной кривой, то уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_5_DIFFERENTsIAL'NOE]]/URI
+\]
+
+системы (2) наз. у р а в н е н и е м (или у с ло в и е м) п о л о с ы.
+
+Если фокальная кривая принадлежит интегральной поверхности $URI[[http://libmeta.ru/me/formula/aux/288_25_DIFFERENTsIAL'NOE]]/URI$ уравнения (1) и в каждой ее точке выполнены равенства $URI[[http://libmeta.ru/me/formula/aux/288_26_DIFFERENTsIAL'NOE]]/URI$, то она наз. $URI[[http://libmeta.ru/me/formula/aux/288_27_DIFFERENTsIAL'NOE]]/URI$ a $URI[[http://libmeta.ru/me/formula/aux/288_28_DIFFERENTsIAL'NOE]]/URI$ к т е р и с тиче с ко й к р а к т е р и с т и к о й), а соответствующая фокальная полоса - х а р а к т е р и с тич е с ко й по лос о й. Характеристич. полоса определяется системой уравнений:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_6_DIFFERENTsIAL'NOE]]/URI
+\]
+
+к-рая наз. х а р а к т е р и с т и ч е с к о й с и с т ем о й уравнения (1). Функция $URI[[http://libmeta.ru/me/formula/aux/288_29_DIFFERENTsIAL'NOE]]/URI$ является интегралом системы уравнений (3), поэтому условие $URI[[http://libmeta.ru/me/formula/aux/288_30_DIFFERENTsIAL'NOE]]/URI$ выполнено на всей характеристич. кривой, если оно выполнено в к.-л. ее точке. Интегральная поверхность уравнения (1), касаясь в каждой своей точке конуса Монжа, является огибающей семейства конусов Монжа и тем самым - огибающей семейства характеристич. полос. Последнее означает, что интегральная поверхность состоит из характеристич. кривых, так что ее нахождение сводится к интегрированию характеристич. системы (3). Фокальные кривые, не сводящиеся к характеристическим (если они существуют), являются огибаюими последних на интегральной поверхности $URI[[http://libmeta.ru/me/formula/aux/288_31_DIFFERENTsIAL'NOE]]/URI$. Их проекции на пространство $URI[[http://libmeta.ru/me/formula/aux/288_32_DIFFERENTsIAL'NOE]]/URI$ состоят из точек сингулярности решения $URI[[http://libmeta.ru/me/formula/aux/288_33_DIFFERENTsIAL'NOE]]/URI$.
+
+Уравнение (1) наз. к в а 3 и л и н й н ы м, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_7_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Уравнения (2) в этом случае имеют вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_8_DIFFERENTsIAL'NOE]]/URI
+\]
+
+и не содержат $URI[[http://libmeta.ru/me/formula/aux/288_34_DIFFERENTsIAL'NOE]]/URI$; конус Монжа вырождается в прямую (о с ь М о н ж а), и все фокальные кривые являются характеристическими.
+
+3 а д а ч а К о ші и для уравнения (1) состоит в нахождении интегральной поверхности, проходящей через заданное $URI[[http://libmeta.ru/me/formula/aux/288_35_DIFFERENTsIAL'NOE]]/URI$-мерное (начальное) многообразие:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_9_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Эта интегральная поверхность состоит из характеристич. кривых, проведенных через точки начального многообразия. В случае квазилинейного уравнения последние получаются интегрированием характеристич. системы (4) с начальными условиями (5). В общем случае для построения характеристич. кривых условия (5) нужно дополнить заданием начальных значений $URI[[http://libmeta.ru/me/formula/aux/288_36_DIFFERENTsIAL'NOE]]/URI$, к-рые определяются из уравнений:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_10_DIFFERENTsIAL'NOE]]/URI
+\]
+
+получающихся дифференцированием условий (5), и уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_11_DIFFERENTsIAL'NOE]]/URI
+\]
+
+Ввиду нелинейности, уравнения (6) и (7) определяют $URI[[http://libmeta.ru/me/formula/aux/288_37_DIFFERENTsIAL'NOE]]/URI$ и, соответственно, решение задачи Коши (1), (5), вообще говоря, неоднозначно. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_12_DIFFERENTsIAL'NOE]]/URI
+\]
+
+- уравнения характеристич. кривых, проходящих через точки начального многообразия. Если начальное многообразие (5) не является характеристическим (см. URI[[http://libmeta.ru/me/relation/288_1_DIFFERENTsIAL'NOE]]/URI), то эти уравнения - параметрические уравнения искомой интегральной поверхности, они определяют решение $URI[[http://libmeta.ru/me/formula/aux/288_38_DIFFERENTsIAL'NOE]]/URI$ задачи Коши, если эта поверхность однозначно проектируется на пространство независимых переменных $URI[[http://libmeta.ru/me/formula/aux/288_39_DIFFERENTsIAL'NOE]]/URI$. В случаях, когда уравнения (8) определяют поверхность, не представимую, однако, уравнением $URI[[http://libmeta.ru/me/formula/aux/288_40_DIFFERENTsIAL'NOE]]/URI$, т. е. не проектирующуюся однозначно на пространство $URI[[http://libmeta.ru/me/formula/aux/288_41_DIFFERENTsIAL'NOE]]/URI$, вводят понятие обобщенного решения задачи Коши (1), (5).
+
+Решение нелинейного уравнения (1), по существу, сводится к решению системы квазилинейных уравнений с одинаковой главной частью:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_13_DIFFERENTsIAL'NOE]]/URI
+\]
+
+получающейся диффференцированием уравнения (1).
+
+П р и м е р ы. $URI[[http://libmeta.ru/me/formula/aux/288_42_DIFFERENTsIAL'NOE]]/URI$; характеристич. полосы задаются уравнениями:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_14_DIFFERENTsIAL'NOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/288_43_DIFFERENTsIAL'NOE]]/URI$ характеристич. система (3) имеет вид $URI[[http://libmeta.ru/me/formula/aux/288_44_DIFFERENTsIAL'NOE]]/URI$ уравнения $URI[[http://libmeta.ru/me/formula/aux/288_45_DIFFERENTsIAL'NOE]]/URI$ характеристик: $URI[[http://libmeta.ru/me/formula/aux/288_46_DIFFERENTsIAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/288_47_DIFFERENTsIAL'NOE]]/URI$, решение задачи Коши с начальным условием $URI[[http://libmeta.ru/me/formula/aux/288_48_DIFFERENTsIAL'NOE]]/URI$ задается параметрич. уравнениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_15_DIFFERENTsIAL'NOE]]/URI
+\]
+
+П о л ы м ин т е г р а ло м уравнения (1) наз. решение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_16_DIFFERENTsIAL'NOE]]/URI
+\]
+
+уравнения (1), существенно зависящее от $URI[[http://libmeta.ru/me/formula/aux/288_49_DIFFERENTsIAL'NOE]]/URI$ параметров $URI[[http://libmeta.ru/me/formula/aux/288_50_DIFFERENTsIAL'NOE]]/URI$. Решение вида (9) есть полный интеграл, если ранг матрицы
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_90ec8ec2cbd13716b12fg-1.jpg?height=194&amp;width=343&amp;top_left_y=1297&amp;top_left_x=369)
+
+равен $URI[[http://libmeta.ru/me/formula/aux/288_51_DIFFERENTsIAL'NOE]]/URI$ (в нек-рой области изменения переменных). Путем образования огибающих из полного интеграла строятся решения уравнения (1), зависящие от произвольных функций.
+
+Если из $URI[[http://libmeta.ru/me/formula/aux/288_52_DIFFERENTsIAL'NOE]]/URI$-параметрич. семейства поверхностей (9) выделить $URI[[http://libmeta.ru/me/formula/aux/288_53_DIFFERENTsIAL'NOE]]/URI$-параметрич. семейство, предполагая параметры $URI[[http://libmeta.ru/me/formula/aux/288_54_DIFFERENTsIAL'NOE]]/URI$ связанными $URI[[http://libmeta.ru/me/formula/aux/288_55_DIFFERENTsIAL'NOE]]/URI$ соотношениями $URI[[http://libmeta.ru/me/formula/aux/288_56_DIFFERENTsIAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/288_57_DIFFERENTsIAL'NOE]]/URI$, то огибающая этого семейства зависит от $URI[[http://libmeta.ru/me/formula/aux/288_58_DIFFERENTsIAL'NOE]]/URI$ произвольных функций $URI[[http://libmeta.ru/me/formula/aux/288_59_DIFFERENTsIAL'NOE]]/URI$ переменных; соответствующие решения, зависящие от произвольных функций, наз. о б ш м и и н т е г р а л а м и. Огибающая n-параметрич. семейства (9) (если она существует) не содержит никакого произвола и дает о с о6 ы й и н т е г р а л, к-рый можөт быть также найден исключением $URI[[http://libmeta.ru/me/formula/aux/288_60_DIFFERENTsIAL'NOE]]/URI$ из соотнопений $URI[[http://libmeta.ru/me/formula/aux/288_61_DIFFERENTsIAL'NOE]]/URI$.
+
+Многообразие касания поверхности семейства (9) с огибающей этого семейства является характеристич. многообразием $URI[[http://libmeta.ru/me/formula/aux/288_62_DIFFERENTsIAL'NOE]]/URI$ измерений. В частности, при $URI[[http://libmeta.ru/me/formula/aux/288_63_DIFFERENTsIAL'NOE]]/URI$ это многообразие является характеристич. кривой. На этом основан способ построения общего репения характеристич. системы уравнений (3) по полному интегралу уравнения (1) (м е т о д Я к о б и), часто применяемый при интегрировании канонич. уравнений.
+
+П е р е опред еленные си с темы Д. у. с ч. П. п. П. - это URI[[http://libmeta.ru/me/relation/288_23_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/288_22_DIFFERENTsIAL'NOE]]/URI вида (1), в к-рых URI[[http://libmeta.ru/me/relation/288_21_DIFFERENTsIAL'NOE]]/URI независимых URI[[http://libmeta.ru/me/relation/288_20_DIFFERENTsIAL'NOE]]/URI больше числа искомых URI[[http://libmeta.ru/me/relation/288_19_DIFFERENTsIAL'NOE]]/URI. Такие URI[[http://libmeta.ru/me/relation/288_18_DIFFERENTsIAL'NOE]]/URI, вообще говоря, противоре- чивы, и выделение классов непротиворечивых (совместных) URI[[http://libmeta.ru/me/relation/288_17_DIFFERENTsIAL'NOE]]/URI составляет URI[[http://libmeta.ru/me/relation/288_16_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/288_15_DIFFERENTsIAL'NOE]]/URI совместности URI[[http://libmeta.ru/me/relation/288_14_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/288_13_DIFFERENTsIAL'NOE]]/URI с URI[[http://libmeta.ru/me/relation/288_12_DIFFERENTsIAL'NOE]]/URI.
+
+Пусть имеется URI[[http://libmeta.ru/me/relation/288_11_DIFFERENTsIAL'NOE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/288_17_DIFFERENTsIAL'NOE]]/URI
+\]
+
+для одной искомой URI[[http://libmeta.ru/me/relation/288_10_DIFFERENTsIAL'NOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/288_64_DIFFERENTsIAL'NOE]]/URI$. Пусть все URI[[http://libmeta.ru/me/relation/288_9_DIFFERENTsIAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/288_8_DIFFERENTsIAL'NOE]]/URI (10) независимы, так что $URI[[http://libmeta.ru/me/formula/aux/288_65_DIFFERENTsIAL'NOE]]/URI$. Эта URI[[http://libmeta.ru/me/relation/288_7_DIFFERENTsIAL'NOE]]/URI наз. з а м к у т о й, если все URI[[http://libmeta.ru/me/relation/288_6_DIFFERENTsIAL'NOE]]/URI вида
+
+$URI[[http://libmeta.ru/me/formula/aux/288_66_DIFFERENTsIAL'NOE]]/URI$
+
+( $URI[[http://libmeta.ru/me/formula/aux/288_67_DIFFERENTsIAL'NOE]]/URI$,$URI[[http://libmeta.ru/me/formula/aux/288_68_DIFFERENTsIAL'NOE]]/URI$ ходных URI[[http://libmeta.ru/me/relation/288_5_DIFFERENTsIAL'NOE]]/URI, и н е з а м к н у т о й - в противном случае. URI[[http://libmeta.ru/me/relation/288_4_DIFFERENTsIAL'NOE]]/URI с помощью присоединения независимых URI[[http://libmeta.ru/me/relation/288_3_DIFFERENTsIAL'NOE]]/URI вида (11) можно расширить до замкнутой. При $URI[[http://libmeta.ru/me/formula/aux/288_69_DIFFERENTsIAL'NOE]]/URI$ URI[[http://libmeta.ru/me/relation/288_2_DIFFERENTsIAL'NOE]]/URI имеет только тривиальное решение, а при $URI[[http://libmeta.ru/me/formula/aux/288_70_DIFFERENTsIAL'NOE]]/URI$ количество ее независимых решений равно $URI[[http://libmeta.ru/me/formula/aux/288_71_DIFFERENTsIAL'NOE]]/URI$.</text>
+  <text_orig>уравнение, связывающее искомую функцию $u(x)$, ее первые пропзводные $D_{i} u=u_{x_{i}}, i=1, \cdots, n$, и независимые переменные $x=\left(x_{1}, \ldots, x_{n}\right)$. Всякая система дифференциальных уравнений с частными производными может быть приведена к нек-рой системе Д. у. с ч.П.п.п. Для этого достаточно ввести в качестве новых искомых функций все частные производные от каждой функции $u_{i}(x)$ до порядка $l_{i}-1$ включительно, если хотя бы одна производная порядка $l_{i}$ входит в к.-л. уравнение рассматриваемой системы. При этом систему следует пополнить новыми уравнениями, выражающими равенство различных смешанных производных. Напр., уравнение
+
+\[
+F\left(x, y, u, u_{x}, u_{y}, u_{x x}, u_{x y}, u_{y y}\right)=0
+\]
+
+после введения вспомогательных искомых функций $v=u_{x}, w=u_{y}$ приводится к следующей системе уравнений 1-го порядка:
+
+\[
+\begin{aligned}
+&amp; F\left(x, y, u, v, w, v_{x}, v_{y}, w_{y}\right)=0, \\
+&amp; u_{x}-v=0 \\
+&amp; u_{y}-w=0 \\
+&amp; v_{y}-w_{x}=0
+\end{aligned}
+\]
+
+(последние три уравнения не независимы).
+
+Одно Д. у. с ч. П. П. П. с одной искомой функцией задается соотношением:
+
+\[
+F(x, u, p)=0 \text {, }
+\]
+
+где $p=\left(p_{1}, p_{2}, \ldots, p_{n}\right)=\left(D_{1} u, D_{2} u, \ldots, D_{n} u\right)$. Всякое решение $u=u(x)$ уравнения (1) при определенных требованиях определяет нек-рую поверхность (и н т ег р а л ь у ю П о в е р х о о т ь) в пространстве $E_{n+1}$ переменных $\left(x_{1}, \ldots, x_{n}, u\right)$, причем $p_{i}$ яв.тяются компонентами вектора нормали к этой поверхности. Поэтому уравнение (1) задает связь между составляющими $p_{i}$ вектора нормали к интегральной поверхности и в каждой точке $(x, u)$ определяет $(n-1)$-параметрич. семейство касательных к интегральной поверхности плоскостей [или несколько таких семейств, соответствующих различным решениям уравнения (1) относительно $p$ ]. Огибающая этого семейства плоскостей наз. к о н у с о м М о н ж а [в данной точке $(x, u)]$, а направления его образующих с т и ч с с к и и н а п р а в л е ни я ми. В каждой точке $(x, u)$ эти направления определяются уравнениями
+
+\[
+\frac{d x_{1}}{F_{p_{1}}}=\frac{d x_{2}}{F_{p_{2}}}=\ldots=\frac{d x_{n}}{F_{p_{n}}}=\frac{d u}{\sum_{i=1}^{n} p_{i} F_{p_{i}}},
+\]
+
+где $p=\left(p_{1}, p_{2}, \ldots, p_{n}\right)$ - любой вектор, удовлетворяющий уравнению (1). Кривая с непрерывно изменяющейся касательной, имеющая в каждой своей точке характеристич. направление, наз. к р и в о й $\mathrm{M} о$ н ж а, или ф о к а л ь н о й к р и в о й. Фокальная кривая является интегральной кривой системы (2) при произвольно заданном непрерывно диффференцируемом векторе $p=p(x, u)$ таком, что $F(x, u, p)=0$.
+
+Поскольку каждой точке фокальной кривой сопоставлен вектор $p$, определяющий направление плоскости, касательной к кривой в этой точке, то фокальная кривая задается одновременно со своими касательными плоскостями и наз. поэтому фо к а л ь н о й п о л о с о й. Если $\sigma$ - параметр на фокальной кривой, то уравнение
+
+\[
+\frac{\partial u}{\partial \sigma}=\sum p_{i} F_{p_{i}}
+\]
+
+системы (2) наз. у р а в н е н и е м (или у с ло в и е м) п о л о с ы.
+
+Если фокальная кривая принадлежит интегральной поверхности $u=u(x)$ уравнения (1) и в каждой ее точке выполнены равенства $p_{i}=D_{i} u(x)$, то она наз. $\mathbf{x}$ a $\mathrm{p}$ к т е р и с тиче с ко й к р а к т е р и с т и к о й), а соответствующая фокальная полоса - х а р а к т е р и с тич е с ко й по лос о й. Характеристич. полоса определяется системой уравнений:
+
+\[
+\frac{d x_{i}}{F_{p_{i}}}=\frac{d u}{\sum p_{j}{ }^{F} p_{j}}=\frac{d p_{i}}{F_{x_{i}}{ }^{+p_{i} F_{u}}},
+\]
+
+к-рая наз. х а р а к т е р и с т и ч е с к о й с и с т ем о й уравнения (1). Функция $F(x, u, p)$ является интегралом системы уравнений (3), поэтому условие $F=0$ выполнено на всей характеристич. кривой, если оно выполнено в к.-л. ее точке. Интегральная поверхность уравнения (1), касаясь в каждой своей точке конуса Монжа, является огибающей семейства конусов Монжа и тем самым - огибающей семейства характеристич. полос. Последнее означает, что интегральная поверхность состоит из характеристич. кривых, так что ее нахождение сводится к интегрированию характеристич. системы (3). Фокальные кривые, не сводящиеся к характеристическим (если они существуют), являются огибаюими последних на интегральной поверхности $u=u(x)$. Их проекции на пространство $\left(x_{1}, x_{2}, \ldots, x_{n}\right)$ состоят из точек сингулярности решения $u(x)$.
+
+Уравнение (1) наз. к в а 3 и л и н й н ы м, если
+
+\[
+F(x, u, p)=\sum_{i=1}^{n} f_{i}(x, u) p_{i}+f_{n+1}(x, u) .
+\]
+
+Уравнения (2) в этом случае имеют вид:
+
+\[
+\frac{d x_{i}}{f_{i}(x, u)}=-\frac{d u}{f_{n+1}(x, u)}
+\]
+
+и не содержат $p$; конус Монжа вырождается в прямую (о с ь М о н ж а), и все фокальные кривые являются характеристическими.
+
+3 а д а ч а К о ші и для уравнения (1) состоит в нахождении интегральной поверхности, проходящей через заданное $(n-1)$-мерное (начальное) многообразие:
+
+\[
+x_{i}=x_{i}^{0}\left(\lambda_{1}, \ldots, \lambda_{n-1}\right), \quad u=u^{0}\left(\lambda_{1}, \ldots, \lambda_{n-1}\right) .
+\]
+
+Эта интегральная поверхность состоит из характеристич. кривых, проведенных через точки начального многообразия. В случае квазилинейного уравнения последние получаются интегрированием характеристич. системы (4) с начальными условиями (5). В общем случае для построения характеристич. кривых условия (5) нужно дополнить заданием начальных значений $p_{i}=p_{i}^{0}\left(\lambda_{1}, \ldots, \lambda_{n-1}\right)$, к-рые определяются из уравнений:
+
+\[
+\frac{\partial u^{0}}{\partial \lambda_{j}}=\sum p_{i}^{0} \frac{\partial x_{i}^{0}}{\partial \lambda_{j}}, j=1, \ldots, n-1,
+\]
+
+получающихся дифференцированием условий (5), и уравнения
+
+\[
+F\left(x^{0}, u^{0}, p^{0}\right)=0 .
+\]
+
+Ввиду нелинейности, уравнения (6) и (7) определяют $p_{i}^{0}(\lambda)$ и, соответственно, решение задачи Коши (1), (5), вообще говоря, неоднозначно. Пусть
+
+\[
+x_{i}=X_{i}\left(\sigma, \lambda_{1}, \ldots, \lambda_{n-1}\right), \quad u=U\left(\sigma, \lambda_{1}, \ldots, \lambda_{n-1}\right)
+\]
+
+- уравнения характеристич. кривых, проходящих через точки начального многообразия. Если начальное многообразие (5) не является характеристическим (см. Характеристическое многообразие), то эти уравнения - параметрические уравнения искомой интегральной поверхности, они определяют решение $u=u(x)$ задачи Коши, если эта поверхность однозначно проектируется на пространство независимых переменных $\left(x_{1}, \ldots, x_{n}\right)$. В случаях, когда уравнения (8) определяют поверхность, не представимую, однако, уравнением $u=u(x)$, т. е. не проектирующуюся однозначно на пространство $\left(x_{1}, \ldots, x_{n}\right)$, вводят понятие обобщенного решения задачи Коши (1), (5).
+
+Решение нелинейного уравнения (1), по существу, сводится к решению системы квазилинейных уравнений с одинаковой главной частью:
+
+\[
+\begin{gathered}
+\sum_{i=1}^{n} F_{p_{i}} \frac{\partial p_{k}}{\partial x_{i}}+F_{k} p_{k}+F_{x_{k}}=0, k=1, \ldots, n, \\
+\sum_{i=1}^{n} F_{p_{i}} \frac{\partial u}{\partial x_{i}}-\sum_{i=1}^{n} p_{i} F_{p_{i}}=0,
+\end{gathered}
+\]
+
+получающейся диффференцированием уравнения (1).
+
+П р и м е р ы. $\left(D_{1} u\right)^{2}+\left(D_{2} u\right)^{2}=1$; характеристич. полосы задаются уравнениями:
+
+\[
+\begin{gathered}
+\frac{x_{1}-x_{1}^{0}}{p_{1}^{0}}=\frac{x_{2}-x_{2}^{0}}{p_{2}^{0}}=u-u^{0}, \\
+p_{1}=p_{1}^{0}, p_{2}=p_{2}^{0},\left(p_{1}^{0}\right)^{2}+\left(p_{2}^{0}\right)^{2}=1 .
+\end{gathered}
+\]
+
+$\frac{\partial u}{\partial t}+u \frac{\partial u}{\partial x}=0 ;$ характеристич. система (3) имеет вид $\frac{\partial x}{u}=\frac{\partial u}{0}=\frac{\partial t}{1}, \quad$ уравнения $\quad$ характеристик: $\quad \frac{x-x_{0}}{t-t_{0}}=u_{0}$, $\boldsymbol{u}=u_{0}$, решение задачи Коши с начальным условием $\boldsymbol{u}(x, 0)=u^{0}(x)$ задается параметрич. уравнениями
+
+\[
+x=\lambda+t u^{0}(\lambda), \quad u=u^{0}(\lambda) \text {. }
+\]
+
+П о л ы м ин т е г р а ло м уравнения (1) наз. решение
+
+\[
+u=\varphi(x, a)
+\]
+
+уравнения (1), существенно зависящее от $n$ параметров $a_{1}, a_{2}, \ldots, a_{n}$. Решение вида (9) есть полный интеграл, если ранг матрицы
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_90ec8ec2cbd13716b12fg-1.jpg?height=194&amp;width=343&amp;top_left_y=1297&amp;top_left_x=369)
+
+равен $n$ (в нек-рой области изменения переменных). Путем образования огибающих из полного интеграла строятся решения уравнения (1), зависящие от произвольных функций.
+
+Если из $n$-параметрич. семейства поверхностей (9) выделить $(n-k)$-параметрич. семейство, предполагая параметры $a$ связанными $k$ соотношениями $\omega_{i}(a)=0$, $i=1,2, \ldots, k$, то огибающая этого семейства зависит от $k$ произвольных функций $n-k$ переменных; соответствующие решения, зависящие от произвольных функций, наз. о б ш м и и н т е г р а л а м и. Огибающая n-параметрич. семейства (9) (если она существует) не содержит никакого произвола и дает о с о6 ы й и н т е г р а л, к-рый можөт быть также найден исключением $p$ из соотнопений $F=F_{p}=0$.
+
+Многообразие касания поверхности семейства (9) с огибающей этого семейства является характеристич. многообразием $k$ измерений. В частности, при $k=1$ это многообразие является характеристич. кривой. На этом основан способ построения общего репения характеристич. системы уравнений (3) по полному интегралу уравнения (1) (м е т о д Я к о б и), часто применяемый при интегрировании канонич. уравнений.
+
+П е р е опред еленные си с темы Д. у. с ч. П. п. П. - это системы уравнений вида (1), в к-рых число независимых уравнений больше числа искомых функций. Такие системы, вообще говоря, противоре- чивы, и выделение классов непротиворечивых (совместных) систем составляет предмет теории совместности дифференциальных уравнений с частными производными.
+
+Пусть имеется переопределенная система
+
+\[
+F_{i}(x, p) \equiv \sum_{j=1}^{n} f_{i j}(x) p_{j}=0, \quad i=1, \ldots, m,
+\]
+
+для одной искомой функции $u(x)$. Пусть все уравнения системы (10) независимы, так что $m \leqslant n$. Эта система наз. з а м к у т о й, если все уравнения вида
+
+$\left\{F_{i}, F_{j}\right\} \equiv \sum_{s=1}^{n}\left(\sum_{l=1}^{n} \frac{\partial f_{i s}}{\partial x_{l}} f_{j l}-f_{i l} \frac{\partial f_{j s}}{\partial x_{l}}\right) p_{s}=0$
+
+( $\{$,$\} - скобки Пуассона) являются следствиями ис-$ ходных уравнений, и н е з а м к н у т о й - в противном случае. Незамкнутую систему с помощью присоединения независимых уравнений вида (11) можно расширить до замкнутой. При $m=n$ замкнутая система имеет только тривиальное решение, а при $m&lt;n$ количество ее независимых решений равно $n-m$.
+
+Jum.: [1] G o u r s a t E., Leçons sur l'intégration des équa$\begin{array}{ll}\text { tions aux dérivées partielles du premier ordre, } 2 \text { éd., P., 1921; } \\ \text { [2] C a r a h é o d o r y } &amp; \text { C., Variationsrechnung und partielle }\end{array}$ [2] C a r a t h é o d o r y C., Variationsrechnung und partielle
+Differentialgleichungen erster Ordnung, Lpz.- B., 1935; [3] Г ю н т е p Н. М., Интегрирование уравнений первого порядка в частных производных, Ј.- M., 1934; [4] к у р а н т П е т р о в с к и й И. Г., Лекции по теории обыкновенных дифференциальных уравнений, 6 изд., М., 1970; [6] е г о же е, Јек-
+ции об уравнениях с частными производными, 3 изд., М., 1961; ции об уравнениях с частными производными, 3 изд., М., 1961;
+[7] $\mathcal{K}$ а р т а н Э., Внешние дифференциальные системы и их геометрические приложения, пер. с франц., 1962; [8] P а ш е вс к и й П. К., Геометрическая теория уравнений с частными проних форм Картана в дифференциальной геометрии, М. - Ј., 1948; &quot;[10] Я н е н к о Н. Н., Р ож д е с т в е н с к и й Б. Ј., Системы квазилинейных уравнений и их приложения к газовой
+динамике, М., 1968. Н. Н. Кузнечов, Б. Л. Рождественский.</text_orig>
+</article>

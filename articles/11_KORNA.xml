@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/11_KORNA" alphabetic_pos="11">
+  <title>КОРНА НЕРАВЕНСТВО</title>
+  <authors/>
+  <pages>
+    <start>9</start>
+    <end>9</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Ф и к е р а $\gamma$, Теоремы существования в теории упругости, пер. с англ., М., 1974.</literature_orig>
+    <unit>
+      <title>Ф и к е р а $\gamma$, Теоремы существования в теории упругости</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/11_1_KORNA">\begin{gathered}\int_{A} \sum_{i, j=1}^{n}\left(\frac{\partial v_{i}}{\partial x^{j}}+\frac{\partial v_{j}}{\partial x^{i}}\right)^{2} d x+ \\+\int_{A} \sum_{k=1}^{n} v_{k}^{2} \geqslant c\|v\|_{1}^{2},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/11_2_KORNA">\|v\|_{1}=\int_{A}\left\{\sum_{i, j=1}^{n}\left(\frac{\partial v_{i}}{\partial x^{j}}\right)^{2}+\sum_{k=1}^{n} v_{k}^{2}\right\} d x</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/11_1_KORNA">v_{i}\left(x^{j}\right), i, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/11_2_KORNA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/11_3_KORNA">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/11_4_KORNA">h_{1}(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/11_5_KORNA">c^{1}(a)</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/11_1_KORNA">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/11_2_KORNA">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/11_3_KORNA">
+      <rel_text>получения</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/11_4_KORNA">
+      <rel_text>Корном</rel_text>
+      <target>http://libmeta.ru/me/article/10_KOREN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/11_5_KORNA">
+      <rel_text>предложено</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+  </relations>
+  <text>неравенство для векторфункций $URI[[http://libmeta.ru/me/formula/aux/11_1_KORNA]]/URI$, и их производных, определенных в нек-рой ограниченной области $URI[[http://libmeta.ru/me/formula/aux/11_2_KORNA]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/11_3_KORNA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/11_1_KORNA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/11_2_KORNA]]/URI
+\]
+
+К. н. справедливо и для вектор-функций из пространства $URI[[http://libmeta.ru/me/formula/aux/11_4_KORNA]]/URI$, полученного пополнением пространства $URI[[http://libmeta.ru/me/formula/aux/11_5_KORNA]]/URI$ по норме (2). Иногда неравенство (1) наз. в т ор ы м К. н., а п е р в ы м К. н. считается неравенство (1) без второго слагаемого в левой части.
+
+К. н. URI[[http://libmeta.ru/me/relation/11_5_KORNA]]/URI А. URI[[http://libmeta.ru/me/relation/11_4_KORNA]]/URI (а. Korn, 1908) для URI[[http://libmeta.ru/me/relation/11_3_KORNA]]/URI априорной оценки решения неоднородных URI[[http://libmeta.ru/me/relation/11_2_KORNA]]/URI URI[[http://libmeta.ru/me/relation/11_1_KORNA]]/URI упругости.</text>
+  <text_orig>неравенство для векторфункций $v_{i}\left(x^{j}\right), i, j=1, \ldots, n$, и их производных, определенных в нек-рой ограниченной области $A$ пространства $\mathbb{R}^{n}$ :
+
+\[
+\begin{gathered}
+\int_{A} \sum_{i, j=1}^{n}\left(\frac{\partial v_{i}}{\partial x^{j}}+\frac{\partial v_{j}}{\partial x^{i}}\right)^{2} d x+ \\
++\int_{A} \sum_{k=1}^{n} v_{k}^{2} \geqslant c\|v\|_{1}^{2},
+\end{gathered}
+\]
+
+где
+
+\[
+\|v\|_{1}=\int_{A}\left\{\sum_{i, j=1}^{n}\left(\frac{\partial v_{i}}{\partial x^{j}}\right)^{2}+\sum_{k=1}^{n} v_{k}^{2}\right\} d x
+\]
+
+К. н. справедливо и для вектор-функций из пространства $H_{1}(A)$, полученного пополнением пространства $C^{1}(A)$ по норме (2). Иногда неравенство (1) наз. в т ор ы м К. н., а п е р в ы м К. н. считается неравенство (1) без второго слагаемого в левой части.
+
+К. н. предложено А. Корном (А. Korn, 1908) для получения априорной оценки решения неоднородных уравнений теории упругости.
+
+Лит.: [1] Ф и к е р а $\Gamma$, Теоремы существования в теории упругости, пер. с англ., М., 1974.</text_orig>
+</article>

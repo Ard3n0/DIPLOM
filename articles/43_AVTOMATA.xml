@@ -1,0 +1,228 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/43_AVTOMATA" alphabetic_pos="43">
+  <title>АВТОМАТА ПОВЕДЕНИЕ</title>
+  <authors>
+    <author>А. П. Ершов</author>
+  </authors>
+  <pages>
+    <start>30</start>
+    <end>31</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] $\mathbf{5}$ а р з Дин ь Я. М., Т р ахтен б р от Б. А., Конечные автоматы (поведение и синтез), М., 1970; [2] Це т л и н М. Л., Исследования по теории автоматов и моделиро&quot;proc. Nat. Acad. Sci. U.S.A.&quot;, 1956, v. 42 , № 12 , p. $920-923$.![](https://cdn.mathpix.com/cropped/2023_07_08_de54d9f0eadfe11c06d4g-1.jpg?height=42&amp;width=789&amp;top_left_y=1876&amp;top_left_x=1015)пользование вычислительных машин для автоматич. получения машинной программы по нек-рой исходной записи, более близкой к начальной формулировке задачи. Содержание А. П. меняется со временем, отражая общее развитие средств общения человека с вычислительной машиной и методов программирования. В начале А. п. заключалась в передаче машине процесса трансляции (перевода) в машинную программу описания алгоритма решения задачи, выраженного в нек-ром алгоритмическом языке. Затем в процесс А. П. была включена процедура направленного синтеза алгоритма решения по сокращенной записи задачи, принадлежащей нек-рому фиксированному классу. В настоящее вре- мя (70-е гг.) складывается новое содержание А. П. как всеобъемлющей процедуры синтеза алгоритма решения задачи в рамках существенно более широкого языка формулірования задач, не ограничиваемого конкретным классом. Синтез сопровождается контролем правильности алгоритма и привлекает в качестве формального аппарата различные модели семантики естественных языков, исчисление предикатов и методы поиска доказательств.</literature_orig>
+    <unit>
+      <author>$\mathbf{5}$арз Динь Я. М.</author>
+      <author>Трахтенброт Б. А.</author>
+      <title>Конечные автоматы (поведение и синтез)</title>
+      <publication>М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Цетлин М. Л.</author>
+      <title>Исследования по теории автоматов и моделиро&quot;proc. Nat. Acad. Sci. U.S.A.&quot;</title>
+      <publication/>
+      <year>1956</year>
+      <other>v. 42, № 12, p. $920-923$.![](https://cdn.mathpix.com/cropped/2023_07_08_de54d9f0eadfe11c06d4g-1.jpg?height=42&amp;width=789&amp;top_left_y=1876&amp;top_left_x=1015)пользование вычислительных машин для автоматич. получения машинной программы по нек-рой исходной записи, более близкой к начальной формулировке задачи. Содержание А. П. меняется со временем, отражая общее развитие средств общения человека с вычислительной машиной и методов программирования. В начале А. п. заключалась в передаче машине процесса трансляции (перевода) в машинную программу описания алгоритма решения задачи, выраженного в нек-ром алгоритмическом языке. Затем в процесс А. П. была включена процедура направленного синтеза алгоритма решения по сокращенной записи задачи, принадлежащей нек-рому фиксированному классу. В настоящее вре- мя (70-е гг.) складывается новое содержание А. П. как всеобъемлющей процедуры синтеза алгоритма решения задачи в рамках существенно более широкого языка формулірования задач, не ограничиваемого конкретным классом. Синтез сопровождается контролем правильности алгоритма и привлекает в качестве формального аппарата различные модели семантики естественных языков, исчисление предикатов и методы поиска доказательств.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/43_1_AVTOMATA">\begin{aligned}W(\mathfrak{A}, \mathfrak{B})= &amp; \sum_{i=1}^{k} \sigma_{i} p_{i}-\sum_{i=1}^{k} \sigma_{i}\left(1-p_{i}\right)= \\&amp; =\sum_{i=1}^{k} \sigma_{i}\left(2 p_{i}-1\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/43_2_AVTOMATA">\min _{i}\left(2 p_{i}-1\right) \leqslant W(\mathfrak{H}, \mathfrak{B}) \leqslant \max _{i}\left(2 p_{i}-1\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/43_3_AVTOMATA">W(\mathfrak{H}, \mathfrak{B})=W_{0}=\frac{2}{k} \sum_{i=1}^{k} p_{i}-1 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_1_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_2_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_3_AVTOMATA">\mathfrak{\mathcal { A }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_4_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_5_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_6_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_7_AVTOMATA">\mathfrak{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_8_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_9_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_10_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_11_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_12_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_13_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_14_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_15_AVTOMATA">b_{1}, \ldots, b_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_16_AVTOMATA">\mathfrak{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_17_AVTOMATA">p_{1}, \ldots, p_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_18_AVTOMATA">\mathfrak{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_19_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_20_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_21_AVTOMATA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_22_AVTOMATA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_23_AVTOMATA">\sigma_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_24_AVTOMATA">b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_25_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_26_AVTOMATA">\sigma_{1}=\sigma_{2}=\ldots=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_27_AVTOMATA">=\sigma_{k}=1 / k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_28_AVTOMATA">w(\mathfrak{y}, \mathfrak{B})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_29_AVTOMATA">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_30_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_31_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_32_AVTOMATA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_33_AVTOMATA">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_34_AVTOMATA">w(\mathfrak{y}, \mathfrak{B})&gt;W_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_35_AVTOMATA">\mathfrak{u}_{1}, \mathfrak{H}_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_36_AVTOMATA">\mathfrak{a}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_37_AVTOMATA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_38_AVTOMATA">d_{\max }=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_39_AVTOMATA">=\max _{i}\left\{2 p_{i}-1, i=1, \ldots, k\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_40_AVTOMATA">d_{\text {max }} \geqslant 1 / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_41_AVTOMATA">\mathfrak{a}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_42_AVTOMATA">k n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_43_AVTOMATA">s_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_44_AVTOMATA">i=1, \ldots, k, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_45_AVTOMATA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_46_AVTOMATA">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_47_AVTOMATA">\varphi\left(s_{i j}, 1\right)=s_{i, j+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_48_AVTOMATA">j=1,2, \ldots, n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_49_AVTOMATA">\varphi\left(s_{i n}, 1\right)=s_{i n}, \varphi\left(s_{i j}, 0\right)=s_{i, j-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_50_AVTOMATA">j=2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_51_AVTOMATA">\varphi\left(s_{i 1}, 0\right)=s_{i+1,1}, \psi\left(s_{i j}, a\right)=b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/43_52_AVTOMATA">i=1, \ldots, k, j=1, \ldots, n</formula>
+  </formulas_aux>
+  <relations n="18">
+    <relation uri="http://libmeta.ru/me/relation/43_1_AVTOMATA">
+      <rel_text>автоматы</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_2_AVTOMATA">
+      <rel_text>автоматы</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_3_AVTOMATA">
+      <rel_text>средах</rel_text>
+      <target>http://libmeta.ru/me/article/165_SREDNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_4_AVTOMATA">
+      <rel_text>средах</rel_text>
+      <target>http://libmeta.ru/me/article/165_SREDNE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_5_AVTOMATA">
+      <rel_text>сложных</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_6_AVTOMATA">
+      <rel_text>автоматов</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_7_AVTOMATA">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_8_AVTOMATA">
+      <rel_text>переводятся</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_9_AVTOMATA">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_10_AVTOMATA">
+      <rel_text>получаемые</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_11_AVTOMATA">
+      <rel_text>статистике</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_12_AVTOMATA">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_13_AVTOMATA">
+      <rel_text>последовательность</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_14_AVTOMATA">
+      <rel_text>равному</rel_text>
+      <target>http://libmeta.ru/me/article/605_RAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_15_AVTOMATA">
+      <rel_text>автомата</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_16_AVTOMATA">
+      <rel_text>автоматов</rel_text>
+      <target>http://libmeta.ru/me/article/57_AVTONIMI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_17_AVTOMATA">
+      <rel_text>Задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/43_18_AVTOMATA">
+      <rel_text>Функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>математическое понятие, описывающее взаимодействие автомата с внешней средой. Так, для автомата конечного внешней средой обычно является множество входных слов, а поведением - словарная функция, реализуемая автоматом, или событие (иногда сверхсобытие), представимое автоматом. Для автомата над термами (см. А втоматов алгебраическая теория) внешней средой является множество константных термов, а поведением - класс тех термов, значения к-рых, вычисляемые с помощью данного автомата, принадлежат выделенному подмножеству әлементов соответствующей алгебры. Для мозаичных структур внешней средой является множество начальных конфигураций, a поведением - последовательности конфигураций, возникающих в тактовые моменты времени. Вообще, для большинства автоматов А. П. представляет собой ту или иную модификацию поведения конечных автоматов.
+
+Специальным случаем является так наз. А. П. в с л уч а й н о й с р е д е. Под средой здесь можно понимать вероятностный автомат $URI[[http://libmeta.ru/me/formula/aux/43_1_AVTOMATA]]/URI$, преобразующий выходные спгналы рассматриваемого автомата $URI[[http://libmeta.ru/me/formula/aux/43_2_AVTOMATA]]/URI$ в его входные сигналы. Так что можно считать, что автомат $URI[[http://libmeta.ru/me/formula/aux/43_3_AVTOMATA]]/URI$ в случайной среде $URI[[http://libmeta.ru/me/formula/aux/43_4_AVTOMATA]]/URI$ представляет собой автономную логич. сеть, построенную из автоматов $URI[[http://libmeta.ru/me/formula/aux/43_5_AVTOMATA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/43_6_AVTOMATA]]/URI$ путем соединения выхода каждого пзз этих автоматов со входом другого. Тогда поведение автомата $URI[[http://libmeta.ru/me/formula/aux/43_7_AVTOMATA]]/URI$ в случайной среде $URI[[http://libmeta.ru/me/formula/aux/43_8_AVTOMATA]]/URI$ можно рассматривать как функционирование указанной автономной логич. сети. Среда $URI[[http://libmeta.ru/me/formula/aux/43_9_AVTOMATA]]/URI$ наз. с т а ц и о н а рн о й, если она является автоматом с одним состоянием. Если рассматривать выходные сигналы автомата $URI[[http://libmeta.ru/me/formula/aux/43_10_AVTOMATA]]/URI$ как различные «поощрения&quot; или «наказания&quot; автомата $URI[[http://libmeta.ru/me/formula/aux/43_11_AVTOMATA]]/URI$, то естественно возникает задача построения автомата $URI[[http://libmeta.ru/me/formula/aux/43_12_AVTOMATA]]/URI$, поведение к-рого в среде $URI[[http://libmeta.ru/me/formula/aux/43_13_AVTOMATA]]/URI$ является о п т и м а л ьны м, т. е. дает напбольший возможный в данной среде выигрыш. Обычно предполагается, что выходной алфавит среды $URI[[http://libmeta.ru/me/formula/aux/43_14_AVTOMATA]]/URI$ состоит игз букв 0 и 1 и в ответ на выходные сигналы $URI[[http://libmeta.ru/me/formula/aux/43_15_AVTOMATA]]/URI$ автомата $URI[[http://libmeta.ru/me/formula/aux/43_16_AVTOMATA]]/URI$ буква 1 выдается, соответственно, с вероятностями $URI[[http://libmeta.ru/me/formula/aux/43_17_AVTOMATA]]/URI$. При этом «поощрением» автомата $URI[[http://libmeta.ru/me/formula/aux/43_18_AVTOMATA]]/URI$ считается только буква 1.
+
+Если среда গ゙ стационарна, то множество состояний автономной логич. сети совпадает с множеством состояний автомата $URI[[http://libmeta.ru/me/formula/aux/43_19_AVTOMATA]]/URI$. Если, кроме того, выходная буква автомата $URI[[http://libmeta.ru/me/formula/aux/43_20_AVTOMATA]]/URI$ однозначно определяется состоянием, то функционирование этой логич. сети может быть описано стохастич. матрицей $URI[[http://libmeta.ru/me/formula/aux/43_21_AVTOMATA]]/URI$ переходов состояний. Как правило, рассматривают случаи, когда матрица $URI[[http://libmeta.ru/me/formula/aux/43_22_AVTOMATA]]/URI$ эргодическая (см. Эргодичность). Тогда определена функция:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/43_1_AVTOMATA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/43_23_AVTOMATA]]/URI$ сумма финальных вероятностей всех состояний, определяющих выходную букву $URI[[http://libmeta.ru/me/formula/aux/43_24_AVTOMATA]]/URI$. При этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/43_2_AVTOMATA]]/URI
+\]
+
+Если выходные сигналы автомата $URI[[http://libmeta.ru/me/formula/aux/43_25_AVTOMATA]]/URI$ не зависят от воздействий среды и равновероятны, т. е. $URI[[http://libmeta.ru/me/formula/aux/43_26_AVTOMATA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/43_27_AVTOMATA]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/43_3_AVTOMATA]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/43_18_AVTOMATA]]/URI $URI[[http://libmeta.ru/me/formula/aux/43_28_AVTOMATA]]/URI$ является математич. ожиданием величины, наз. в ы и $URI[[http://libmeta.ru/me/formula/aux/43_29_AVTOMATA]]/URI$ р шш е м а в т о м а т а $URI[[http://libmeta.ru/me/formula/aux/43_30_AVTOMATA]]/URI$ в среде $URI[[http://libmeta.ru/me/formula/aux/43_31_AVTOMATA]]/URI$. Говорят, что автомат $URI[[http://libmeta.ru/me/formula/aux/43_32_AVTOMATA]]/URI$ обладает ц е л е с оо б р а з ны м по в е д е н и е м в среде $URI[[http://libmeta.ru/me/formula/aux/43_33_AVTOMATA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/43_34_AVTOMATA]]/URI$. URI[[http://libmeta.ru/me/relation/43_17_AVTOMATA]]/URI об оптимальном поведении в случайной среде ставится следующим образом. Требуется построить так наз. а с им п т о т ич е с к и о п т им а льн ую пос ле до в а те льнос ть URI[[http://libmeta.ru/me/relation/43_16_AVTOMATA]]/URI $URI[[http://libmeta.ru/me/formula/aux/43_35_AVTOMATA]]/URI$ такую, что математич. ожидание выигрыша URI[[http://libmeta.ru/me/relation/43_15_AVTOMATA]]/URI $URI[[http://libmeta.ru/me/formula/aux/43_36_AVTOMATA]]/URI$ с ростом $URI[[http://libmeta.ru/me/formula/aux/43_37_AVTOMATA]]/URI$ стремится к максимальному выигрышу в данной среде, URI[[http://libmeta.ru/me/relation/43_14_AVTOMATA]]/URI величине $URI[[http://libmeta.ru/me/formula/aux/43_38_AVTOMATA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/43_39_AVTOMATA]]/URI$. В рассматриваемом случае такую URI[[http://libmeta.ru/me/relation/43_13_AVTOMATA]]/URI образуют так наз. а в т ом а ты с лине й ной т а к т ико й при условии, что $URI[[http://libmeta.ru/me/formula/aux/43_40_AVTOMATA]]/URI$. [автомат с линейной тактикой $URI[[http://libmeta.ru/me/formula/aux/43_41_AVTOMATA]]/URI$ ckбуквенным выходным алфавитом имеет $URI[[http://libmeta.ru/me/formula/aux/43_42_AVTOMATA]]/URI$ состояний $URI[[http://libmeta.ru/me/formula/aux/43_43_AVTOMATA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/43_44_AVTOMATA]]/URI$, и следующие URI[[http://libmeta.ru/me/relation/43_12_AVTOMATA]]/URI $URI[[http://libmeta.ru/me/formula/aux/43_45_AVTOMATA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/43_46_AVTOMATA]]/URI$ переходов и выходов:
+
+$URI[[http://libmeta.ru/me/formula/aux/43_47_AVTOMATA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/43_48_AVTOMATA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/43_49_AVTOMATA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/43_50_AVTOMATA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/43_51_AVTOMATA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/43_52_AVTOMATA]]/URI$.
+
+Впервые правила асимптотически оптимального поведения в стационарной случайной среде начали изучаться в математич. URI[[http://libmeta.ru/me/relation/43_11_AVTOMATA]]/URI. Однако URI[[http://libmeta.ru/me/relation/43_10_AVTOMATA]]/URI там URI[[http://libmeta.ru/me/relation/43_9_AVTOMATA]]/URI естественно URI[[http://libmeta.ru/me/relation/43_8_AVTOMATA]]/URI на язык URI[[http://libmeta.ru/me/relation/43_7_AVTOMATA]]/URI URI[[http://libmeta.ru/me/relation/43_6_AVTOMATA]]/URI.
+
+Рассматривается А. П. и в более URI[[http://libmeta.ru/me/relation/43_5_AVTOMATA]]/URI URI[[http://libmeta.ru/me/relation/43_4_AVTOMATA]]/URI, а также поведение к о л ле к т и в о в а в т о ма то в в случайных URI[[http://libmeta.ru/me/relation/43_3_AVTOMATA]]/URI. В последнем случае URI[[http://libmeta.ru/me/relation/43_2_AVTOMATA]]/URI рассматриваются как игроки, а правила игры, в к-рой участвуют эти URI[[http://libmeta.ru/me/relation/43_1_AVTOMATA]]/URI, выступают в роли среды.</text>
+  <text_orig>математическое понятие, описывающее взаимодействие автомата с внешней средой. Так, для автомата конечного внешней средой обычно является множество входных слов, а поведением - словарная функция, реализуемая автоматом, или событие (иногда сверхсобытие), представимое автоматом. Для автомата над термами (см. А втоматов алгебраическая теория) внешней средой является множество константных термов, а поведением - класс тех термов, значения к-рых, вычисляемые с помощью данного автомата, принадлежат выделенному подмножеству әлементов соответствующей алгебры. Для мозаичных структур внешней средой является множество начальных конфигураций, a поведением - последовательности конфигураций, возникающих в тактовые моменты времени. Вообще, для большинства автоматов А. П. представляет собой ту или иную модификацию поведения конечных автоматов.
+
+Специальным случаем является так наз. А. П. в с л уч а й н о й с р е д е. Под средой здесь можно понимать вероятностный автомат $\mathfrak{B}$, преобразующий выходные спгналы рассматриваемого автомата $\mathfrak{A}$ в его входные сигналы. Так что можно считать, что автомат $\mathfrak{\mathcal { A }}$ в случайной среде $\mathfrak{B}$ представляет собой автономную логич. сеть, построенную из автоматов $\mathfrak{A}$ и $\mathfrak{B}$ путем соединения выхода каждого пзз этих автоматов со входом другого. Тогда поведение автомата $\mathfrak{U}$ в случайной среде $\mathfrak{B}$ можно рассматривать как функционирование указанной автономной логич. сети. Среда $\mathfrak{B}$ наз. с т а ц и о н а рн о й, если она является автоматом с одним состоянием. Если рассматривать выходные сигналы автомата $\mathfrak{B}$ как различные «поощрения&quot; или «наказания&quot; автомата $\mathfrak{A}$, то естественно возникает задача построения автомата $\mathfrak{A}$, поведение к-рого в среде $\mathfrak{B}$ является о п т и м а л ьны м, т. е. дает напбольший возможный в данной среде выигрыш. Обычно предполагается, что выходной алфавит среды $\mathfrak{B}$ состоит игз букв 0 и 1 и в ответ на выходные сигналы $b_{1}, \ldots, b_{k}$ автомата $\mathfrak{Y}$ буква 1 выдается, соответственно, с вероятностями $p_{1}, \ldots, p_{k}$. При этом «поощрением» автомата $\mathfrak{H}$ считается только буква 1.
+
+Если среда গ゙ стационарна, то множество состояний автономной логич. сети совпадает с множеством состояний автомата $\mathfrak{A}$. Если, кроме того, выходная буква автомата $\mathfrak{A}$ однозначно определяется состоянием, то функционирование этой логич. сети может быть описано стохастич. матрицей $Q$ переходов состояний. Как правило, рассматривают случаи, когда матрица $Q$ эргодическая (см. Эргодичность). Тогда определена функция:
+
+\[
+\begin{aligned}
+W(\mathfrak{A}, \mathfrak{B})= &amp; \sum_{i=1}^{k} \sigma_{i} p_{i}-\sum_{i=1}^{k} \sigma_{i}\left(1-p_{i}\right)= \\
+&amp; =\sum_{i=1}^{k} \sigma_{i}\left(2 p_{i}-1\right),
+\end{aligned}
+\]
+
+где $\sigma_{i}-$ сумма финальных вероятностей всех состояний, определяющих выходную букву $b_{i}$. При этом
+
+\[
+\min _{i}\left(2 p_{i}-1\right) \leqslant W(\mathfrak{H}, \mathfrak{B}) \leqslant \max _{i}\left(2 p_{i}-1\right) .
+\]
+
+Если выходные сигналы автомата $\mathfrak{A}$ не зависят от воздействий среды и равновероятны, т. е. $\sigma_{1}=\sigma_{2}=\ldots=$ $=\sigma_{k}=1 / k$, то
+
+\[
+W(\mathfrak{H}, \mathfrak{B})=W_{0}=\frac{2}{k} \sum_{i=1}^{k} p_{i}-1 .
+\]
+
+Функция $W(\mathfrak{Y}, \mathfrak{B})$ является математич. ожиданием величины, наз. в ы и $\mathbf{p}$ р шш е м а в т о м а т а $\mathfrak{A}$ в среде $\mathfrak{B}$. Говорят, что автомат $\mathfrak{A}$ обладает ц е л е с оо б р а з ны м по в е д е н и е м в среде $\mathfrak{B}$, если $W(\mathfrak{Y}, \mathfrak{B})&gt;W_{0}$. Задача об оптимальном поведении в случайной среде ставится следующим образом. Требуется построить так наз. а с им п т о т ич е с к и о п т им а льн ую пос ле до в а те льнос ть автоматов $\mathfrak{U}_{1}, \mathfrak{H}_{2}, \ldots$ такую, что математич. ожидание выигрыша автомата $\mathfrak{A}_{n}$ с ростом $n$ стремится к максимальному выигрышу в данной среде, равному величине $d_{\max }=$ $=\max _{i}\left\{2 p_{i}-1, i=1, \ldots, k\right\}$. В рассматриваемом случае такую последовательность образуют так наз. а в т ом а ты с лине й ной т а к т ико й при условии, что $d_{\text {max }} \geqslant 1 / 2$. [Автомат с линейной тактикой $\mathfrak{A}_{n}$ ckбуквенным выходным алфавитом имеет $k n$ состояний $s_{i j}$, $i=1, \ldots, k, j=1, \ldots, n$, и следующие функции $\varphi$ и $\psi$ переходов и выходов:
+
+$\varphi\left(s_{i j}, 1\right)=s_{i, j+1}$, если $j=1,2, \ldots, n-1$, $\varphi\left(s_{i n}, 1\right)=s_{i n}, \varphi\left(s_{i j}, 0\right)=s_{i, j-1}$, если $j=2, \ldots, n$, $\varphi\left(s_{i 1}, 0\right)=s_{i+1,1}, \psi\left(s_{i j}, a\right)=b_{i}$ $i=1, \ldots, k, j=1, \ldots, n$.
+
+Впервые правила асимптотически оптимального поведения в стационарной случайной среде начали изучаться в математич. статистике. Однако получаемые там результаты естественно переводятся на язык теории автоматов.
+
+Рассматривается А. П. и в более сложных средах, а также поведение к о л ле к т и в о в а в т о ма то в в случайных средах. В последнем случае автоматы рассматриваются как игроки, а правила игры, в к-рой участвуют эти автоматы, выступают в роли среды.
+
+Лит.: [1] $\mathbf{5}$ а р з Дин ь Я. М., Т р ахтен б р от Б. А., Конечные автоматы (Поведение и синтез), М., 1970; [2] Це т л и н М. Л., Исследования по теории автоматов и моделиро&quot;Proc. Nat. Acad. Sci. U.S.A.&quot;, 1956, v. 42 , № 12 , p. $920-923$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_de54d9f0eadfe11c06d4g-1.jpg?height=42&amp;width=789&amp;top_left_y=1876&amp;top_left_x=1015)
+пользование вычислительных машин для автоматич. получения машинной программы по нек-рой исходной записи, более близкой к начальной формулировке задачи. Содержание А. П. меняется со временем, отражая общее развитие средств общения человека с вычислительной машиной и методов программирования. В начале А. п. заключалась в передаче машине процесса трансляции (перевода) в машинную программу описания алгоритма решения задачи, выраженного в нек-ром алгоритмическом языке. Затем в процесс А. П. была включена процедура направленного синтеза алгоритма решения по сокращенной записи задачи, принадлежащей нек-рому фиксированному классу. В настоящее вре- мя (70-е гг.) складывается новое содержание А. П. как всеобъемлющей процедуры синтеза алгоритма решения задачи в рамках существенно более широкого языка формулірования задач, не ограничиваемого конкретным классом. Синтез сопровождается контролем правильности алгоритма и привлекает в качестве формального аппарата различные модели семантики естественных языков, исчисление предикатов и методы поиска доказательств. А. П. Ершов.</text_orig>
+</article>

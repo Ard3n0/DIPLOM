@@ -1,0 +1,356 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/324_SFERI" alphabetic_pos="324">
+  <title>СФЕРИЧ</title>
+  <authors/>
+  <pages>
+    <start>148</start>
+    <end>149</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] М а р ч ук Г. И., Л е б е д е в В. И., Численные методы в теории переноса нейтронов, 2 изд., М., 1981;[2] С у л т а н г а и у У. М., «ж. вычисл. матем. и матем. физ.», 1974, т. 14, № 1, c. $166-78 ;$ [3] Р и х т м а й е p Р., М о р т о К., Разностные методы решения краевых задач,</literature_orig>
+    <unit>
+      <author>Марчук Г. И.</author>
+      <author>Лебедев В. И.</author>
+      <title>Численные методы в теории переноса нейтронов</title>
+      <publication>2 изд., М.</publication>
+      <year>1981</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Султангаиу У. М.</author>
+      <title>«ж. вычисл. матем. и матем. физ.»</title>
+      <publication/>
+      <year>1974</year>
+      <other>т. 14, № 1, c. $166-78 ;$</other>
+    </unit>
+    <unit>
+      <author>Рихтмайеp Р.</author>
+      <author>Морто К.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Разностные методы решения краевых задач</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/324_1_SFERI">\mu \frac{d \psi(x, \mu)}{d x}+\psi(x, \mu)=\frac{c}{2} \int_{-1}^{+1} \psi\left(x, \mu^{\prime}\right) d \mu^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_2_SFERI">\begin{gathered}\psi_{n}(x)=\int_{-1}^{+1} \psi(x, \mu) P_{n}(\mu) d \mu \\n=0,1,2, \ldots, 2 N-1\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_3_SFERI">\tilde{\psi}_{2 N}(x) \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_4_SFERI">\tilde{\psi}(x, \mu)=\sum_{n=0}^{2 N-1} \frac{2 n+1}{2} \tilde{\psi}_{n}(x) P_{n}(\mu) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_5_SFERI">\left.\begin{array}{lll}\psi(0, \mu)=0 &amp; \text { для } &amp; 0&lt;\mu \leqslant 1, \\\psi(h, \mu)=0 &amp; \text { для } &amp; -1 \leqslant \mu&lt;0 .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_6_SFERI">\left.\begin{array}{c}\int_{0}^{1} P_{n}(\mu) \tilde{\psi}(0, \mu) d \mu=0 \\\int_{-1}^{0} P_{n}(\mu) \tilde{\psi}(h, \mu) d \mu=0 \\n=0,1, \ldots, 2 N-1 .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_7_SFERI">\begin{aligned}&amp; \left.\bigcup_{(\Omega n)&lt;0}(\boldsymbol{\Omega} n) \tilde{\psi}(\boldsymbol{r}, \boldsymbol{\Omega}) Y_{2 k, i}(\boldsymbol{\Omega}) d \boldsymbol{\Omega}\right|_{r \in \Gamma}=0, \\&amp; i=0, \pm 1, \ldots, \pm 2 k ; \quad k=0,1, \ldots, N-1 .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_8_SFERI">\begin{gathered}Y_{k, i}(\boldsymbol{\Omega})=P_{k}^{(|i|)}(\cos \theta) \sin |i| \varphi, i=-k, \ldots,-1, \\Y_{k, i}(\mathbf{\Omega})=P^{(i)}(\cos \theta) \cos i \varphi, \quad i=0,1, \ldots, k,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_9_SFERI">E_{1}(|x-s|)=\int_{0}^{1} \frac{e-|x-s| / \mu}{\mu} d \mu .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_10_SFERI">\tilde{E}_{1}(|x-s|)=\sum_{i=1}^{N} a_{i} \frac{e^{-|x-s| / \mu_{i}}}{\mu_{i}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_11_SFERI">\mu_{i} \frac{\partial \tilde{\tilde{\psi}}_{i}(x)}{\partial x}+\tilde{\tilde{\psi}}_{i}(x)=\frac{c}{2} \sum_{i=-N}^{N} a_{i} \tilde{\tilde{\psi}}_{i}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/324_12_SFERI">\tilde{\psi}_{n}(x)=\sum_{i=-N}^{N} a_{i} \tilde{\psi}_{i}(x) P_{n}\left(\mu_{i}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_1_SFERI">\tilde{\psi}_{n}(x)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_2_SFERI">n \frac{d \tilde{\psi}_{n-1}(x)}{d x}+\left(2 n+1-c \delta_{n 0}\right) \tilde{\psi}_{n}(x)+(n+1) \frac{d \tilde{\psi}_{n+1}(x)}{d x}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_3_SFERI">\psi(x, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_4_SFERI">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_5_SFERI">p_{n}(\mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_6_SFERI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_7_SFERI">p_{2 N-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_8_SFERI">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_9_SFERI">x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_10_SFERI">x=h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_11_SFERI">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_12_SFERI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_13_SFERI">n=2 k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_14_SFERI">k=0,1, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_15_SFERI">\boldsymbol{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_16_SFERI">\boldsymbol{\omega}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_17_SFERI">\{\theta, \varphi\}, \boldsymbol{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_18_SFERI">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_19_SFERI">p_{k}^{(i)}(\mu)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_20_SFERI">\left(p_{k}^{(0)}(\mu)=p_{k}(\mu)-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_21_SFERI">\left(p_{1}, P_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_22_SFERI">p_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_23_SFERI">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_24_SFERI">\tilde{\psi}(x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_25_SFERI">\mu) \rightarrow \psi(x, \mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_26_SFERI">\tilde{\psi}_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_27_SFERI">\psi_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_28_SFERI">у</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_29_SFERI">\tilde{\psi}\left(0, \mu_{i}\right)=0 \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_30_SFERI">\left.0&lt;\mu_{i}&lt;1, \quad i=1,2, \ldots, N, \quad\right\}(9)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_31_SFERI">\tilde{\psi}\left(h, \mu_{i}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_32_SFERI">\left.-1&lt;\mu_{i}&lt;0, i=-1,-2, \ldots,-N,\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_33_SFERI">\mu_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_34_SFERI">p_{2 N}(\mu)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_35_SFERI">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_36_SFERI">-1&lt;\mu_{i}&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_37_SFERI">\frac{e}{\mu}^{-|x-s| / \mu}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_38_SFERI">\kappa</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_39_SFERI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_40_SFERI">\int_{0}^{h}\left|e_{1}(x)-\tilde{E}_{1}(x)\right| d x&lt;\frac{\text { const }}{N},\left|\psi_{0}(x)-\tilde{\psi}_{0}(x)\right|&lt;\frac{\text { const }}{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_41_SFERI">1 / N^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/324_42_SFERI">\mathrm{x} о \mathrm{p}</formula>
+  </formulas_aux>
+  <relations n="16">
+    <relation uri="http://libmeta.ru/me/relation/324_1_SFERI">
+      <rel_text>ординат</rel_text>
+      <target>http://libmeta.ru/me/article/55_ORDINAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_2_SFERI">
+      <rel_text>дискретных</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_3_SFERI">
+      <rel_text>приближениях</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_4_SFERI">
+      <rel_text>задачах</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_5_SFERI">
+      <rel_text>многомерных</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_6_SFERI">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_7_SFERI">
+      <rel_text>линейного преобразования</rel_text>
+      <target>http://libmeta.ru/me/article/362_LINEINOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_8_SFERI">
+      <rel_text>получена</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_9_SFERI">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_10_SFERI">
+      <rel_text>геометрии</rel_text>
+      <target>http://libmeta.ru/me/article/1012_GEOMETRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_11_SFERI">
+      <rel_text>ординат</rel_text>
+      <target>http://libmeta.ru/me/article/55_ORDINAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_12_SFERI">
+      <rel_text>дискретных</rel_text>
+      <target>http://libmeta.ru/me/article/215_DISKREPAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_13_SFERI">
+      <rel_text>систему</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_14_SFERI">
+      <rel_text>приближенную</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_15_SFERI">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/324_16_SFERI">
+      <rel_text>Граничные условия</rel_text>
+      <target>http://libmeta.ru/me/article/1169_GRANIChNYE</target>
+    </relation>
+  </relations>
+  <text>ближенного решения кинетич. уравнения с помощью разложения фазовой плотности частиц в конечную сумму по сферич. функциям от аргументов, задающих направление скорости тастицы (см. [1]). Метод широко применяется при решении задач нейтронной физики.
+
+В одномерной плоской геометрии стационарное интегро-дифференциальное кинетич. уравнение переноса (при изотропном рассеянии частиц)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_1_SFERI]]/URI
+\]
+
+приближенно заменяется системой диффференциальных уравнений для $URI[[http://libmeta.ru/me/formula/aux/324_1_SFERI]]/URI$ приближенных значений коэффициентов Фурье
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_2_SFERI]]/URI
+\]
+
+Система вида
+
+$URI[[http://libmeta.ru/me/formula/aux/324_2_SFERI]]/URI$
+
+возникает при условии
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_3_SFERI]]/URI
+\] Здесь $URI[[http://libmeta.ru/me/formula/aux/324_3_SFERI]]/URI$ - фазовая плотность частиц, распространяющихся в веществе, $URI[[http://libmeta.ru/me/formula/aux/324_4_SFERI]]/URI$ - среднее число вторичных частиц, возникающих в одном акте взаимодействия с частицами вещества, $URI[[http://libmeta.ru/me/formula/aux/324_5_SFERI]]/URI$ - многочлен Лежандра степени $URI[[http://libmeta.ru/me/formula/aux/324_6_SFERI]]/URI$. Система (3) определяет $URI[[http://libmeta.ru/me/formula/aux/324_7_SFERI]]/URI$-приближение С. г. м. для уравнения (1). Приближенное значение фазовой плотности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_4_SFERI]]/URI
+\]
+
+Для уравнения (1) типичные краевые условия имеют вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_5_SFERI]]/URI
+\]
+
+Таковы, напр., краевые условия для задачи нейтронной физики о критич. режиме слоя толшины $URI[[http://libmeta.ru/me/formula/aux/324_8_SFERI]]/URI$ со свободными поверхностями $URI[[http://libmeta.ru/me/formula/aux/324_9_SFERI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/324_10_SFERI]]/URI$ (границы с вакуумом). В этой задаче необходимо найти положительное решение (1), (6) и собственное значение $URI[[http://libmeta.ru/me/formula/aux/324_11_SFERI]]/URI$.
+
+В С. г. М. вместо (6) естественно взять
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_6_SFERI]]/URI
+\]
+
+Однако такой подход дает в два раза больше условий, чем необходимо для частного решения системы (3). На практике был испытан различный выбор значений $URI[[http://libmeta.ru/me/formula/aux/324_12_SFERI]]/URI$ в (7). Наилучший результат дают условия с $URI[[http://libmeta.ru/me/formula/aux/324_13_SFERI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/324_14_SFERI]]/URI$. Для односкоростного уравнения переноса общего вида из Владимирова вариационного принципа получается система уравнений С. Г. М. и указанные граничные условия (при выборе пробных функций в виде линейной комбинации сферических гармоник). Для трехмерной геометрии граничные условия можно записать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_7_SFERI]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/324_15_SFERI]]/URI$ - вектор пространственной координаты, $URI[[http://libmeta.ru/me/formula/aux/324_16_SFERI]]/URI$ единичный вектор скорости частицы, имеющий сферич. координаты $URI[[http://libmeta.ru/me/formula/aux/324_17_SFERI]]/URI$ единичный вектор внешней нормали к кусочно гладкой поверхности $URI[[http://libmeta.ru/me/formula/aux/324_18_SFERI]]/URI$, ограничивающей выпуклую область пространства, в к-рой решается задача
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_8_SFERI]]/URI
+\]
+
+- сферич. функции, $URI[[http://libmeta.ru/me/formula/aux/324_19_SFERI]]/URI$ присоединенные функции Лежандра 1-го рода $URI[[http://libmeta.ru/me/formula/aux/324_20_SFERI]]/URI$ многочлены Лежандра).
+
+Низшие приближения С. Г. м. $URI[[http://libmeta.ru/me/formula/aux/324_21_SFERI]]/URI$ широко используются при решении задач нейтронной физики и дают хорошие результаты вдали от границ области, от источников и сильных поглотителей нейтронов. Теория возраста также строится в $URI[[http://libmeta.ru/me/formula/aux/324_22_SFERI]]/URI$-приближении. Обобщенное решение С. г. м. сходится к решению уравнения переноса при $URI[[http://libmeta.ru/me/formula/aux/324_23_SFERI]]/URI$ (см. [2]). Скорость сходимости $URI[[http://libmeta.ru/me/formula/aux/324_24_SFERI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/324_25_SFERI]]/URI$ легко оценить, сравнив интегральные уравнения для $URI[[http://libmeta.ru/me/formula/aux/324_26_SFERI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/324_27_SFERI]]/URI$, т. е. оценив близость их ядер. $URI[[http://libmeta.ru/me/formula/aux/324_28_SFERI]]/URI$ равнение (1) с граничными условиями (6) приводит к интегральному уравнению с ядром
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_9_SFERI]]/URI
+\]
+
+Система С. г. м. (3) при граничных условиях, аналогичных (6),
+
+$URI[[http://libmeta.ru/me/formula/aux/324_29_SFERI]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/324_30_SFERI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/324_31_SFERI]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/324_32_SFERI]]/URI$ где $URI[[http://libmeta.ru/me/formula/aux/324_33_SFERI]]/URI$ - корни $URI[[http://libmeta.ru/me/formula/aux/324_34_SFERI]]/URI$, приводит к интегральному уравнению с ядром
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_10_SFERI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/324_35_SFERI]]/URI$ - веса квадратурной формулы Гаусса для системы узлов $URI[[http://libmeta.ru/me/formula/aux/324_36_SFERI]]/URI$. Особенность, к-рую имеет функция $URI[[http://libmeta.ru/me/formula/aux/324_37_SFERI]]/URI$, приводит $URI[[http://libmeta.ru/me/formula/aux/324_38_SFERI]]/URI$ медленной сходимости при больших $URI[[http://libmeta.ru/me/formula/aux/324_39_SFERI]]/URI$ :
+
+$URI[[http://libmeta.ru/me/formula/aux/324_40_SFERI]]/URI$.
+
+Приближенное собственное значение сходится к точному со скоростью $URI[[http://libmeta.ru/me/formula/aux/324_41_SFERI]]/URI$.
+
+URI[[http://libmeta.ru/me/relation/324_16_SFERI]]/URI (9) возникают естественно при решении кинетич. URI[[http://libmeta.ru/me/relation/324_15_SFERI]]/URI м е т о д о м д и с к р е тны $URI[[http://libmeta.ru/me/formula/aux/324_42_SFERI]]/URI$ д и н а т, к-рый состоит в замене (1) на URI[[http://libmeta.ru/me/relation/324_14_SFERI]]/URI URI[[http://libmeta.ru/me/relation/324_13_SFERI]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_11_SFERI]]/URI
+\]
+
+Метод URI[[http://libmeta.ru/me/relation/324_12_SFERI]]/URI URI[[http://libmeta.ru/me/relation/324_11_SFERI]]/URI в одномерной URI[[http://libmeta.ru/me/relation/324_10_SFERI]]/URI эквивалентен С. г. м. (см. [3]), т. к. URI[[http://libmeta.ru/me/relation/324_9_SFERI]]/URI (10) может быть URI[[http://libmeta.ru/me/relation/324_8_SFERI]]/URI из (3) с помощьо URI[[http://libmeta.ru/me/relation/324_7_SFERI]]/URI неизвестных URI[[http://libmeta.ru/me/relation/324_6_SFERI]]/URI:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/324_12_SFERI]]/URI
+\]
+
+Однако в URI[[http://libmeta.ru/me/relation/324_5_SFERI]]/URI URI[[http://libmeta.ru/me/relation/324_4_SFERI]]/URI С. г. м. в низших URI[[http://libmeta.ru/me/relation/324_3_SFERI]]/URI дает большую точность, чем метод URI[[http://libmeta.ru/me/relation/324_2_SFERI]]/URI URI[[http://libmeta.ru/me/relation/324_1_SFERI]]/URI.</text>
+  <text_orig>ближенного решения кинетич. уравнения с помощью разложения фазовой плотности частиц в конечную сумму по сферич. функциям от аргументов, задающих направление скорости тастицы (см. [1]). Метод широко применяется при решении задач нейтронной физики.
+
+В одномерной плоской геометрии стационарное интегро-дифференциальное кинетич. уравнение переноса (при изотропном рассеянии частиц)
+
+\[
+\mu \frac{d \psi(x, \mu)}{d x}+\psi(x, \mu)=\frac{c}{2} \int_{-1}^{+1} \psi\left(x, \mu^{\prime}\right) d \mu^{\prime}
+\]
+
+приближенно заменяется системой диффференциальных уравнений для $\tilde{\psi}_{n}(x)-$ приближенных значений коэффициентов Фурье
+
+\[
+\begin{gathered}
+\psi_{n}(x)=\int_{-1}^{+1} \psi(x, \mu) P_{n}(\mu) d \mu \\
+n=0,1,2, \ldots, 2 N-1
+\end{gathered}
+\]
+
+Система вида
+
+$n \frac{d \tilde{\psi}_{n-1}(x)}{d x}+\left(2 n+1-c \delta_{n 0}\right) \tilde{\psi}_{n}(x)+(n+1) \frac{d \tilde{\psi}_{n+1}(x)}{d x}=0$
+
+возникает при условии
+
+\[
+\tilde{\psi}_{2 N}(x) \equiv 0
+\] Здесь $\psi(x, \mu)$ - фазовая плотность частиц, распространяющихся в веществе, $c$ - среднее число вторичных частиц, возникающих в одном акте взаимодействия с частицами вещества, $P_{n}(\mu)$ - многочлен Лежандра степени $n$. Система (3) определяет $P_{2 N-1}$-приближение С. г. м. для уравнения (1). Приближенное значение фазовой плотности
+
+\[
+\tilde{\psi}(x, \mu)=\sum_{n=0}^{2 N-1} \frac{2 n+1}{2} \tilde{\psi}_{n}(x) P_{n}(\mu) .
+\]
+
+Для уравнения (1) типичные краевые условия имеют вид:
+
+\[
+\left.\begin{array}{lll}
+\psi(0, \mu)=0 &amp; \text { для } &amp; 0&lt;\mu \leqslant 1, \\
+\psi(h, \mu)=0 &amp; \text { для } &amp; -1 \leqslant \mu&lt;0 .
+\end{array}\right\}
+\]
+
+Таковы, напр., краевые условия для задачи нейтронной физики о критич. режиме слоя толшины $h$ со свободными поверхностями $x=0$ и $x=h$ (границы с вакуумом). В этой задаче необходимо найти положительное решение (1), (6) и собственное значение $c$.
+
+В С. г. М. вместо (6) естественно взять
+
+\[
+\left.\begin{array}{c}
+\int_{0}^{1} P_{n}(\mu) \tilde{\psi}(0, \mu) d \mu=0 \\
+\int_{-1}^{0} P_{n}(\mu) \tilde{\psi}(h, \mu) d \mu=0 \\
+n=0,1, \ldots, 2 N-1 .
+\end{array}\right\}
+\]
+
+Однако такой подход дает в два раза больше условий, чем необходимо для частного решения системы (3). На практике был испытан различный выбор значений $n$ в (7). Наилучший результат дают условия с $n=2 k+1$, $k=0,1, \ldots, N-1$. Для односкоростного уравнения переноса общего вида из Владимирова вариационного принципа получается система уравнений С. Г. М. и указанные граничные условия (при выборе пробных функций в виде линейной комбинации сферических гармоник). Для трехмерной геометрии граничные условия можно записать в виде
+
+\[
+\begin{aligned}
+&amp; \left.\bigcup_{(\Omega n)&lt;0}(\boldsymbol{\Omega} n) \tilde{\psi}(\boldsymbol{r}, \boldsymbol{\Omega}) Y_{2 k, i}(\boldsymbol{\Omega}) d \boldsymbol{\Omega}\right|_{r \in \Gamma}=0, \\
+&amp; i=0, \pm 1, \ldots, \pm 2 k ; \quad k=0,1, \ldots, N-1 .
+\end{aligned}
+\]
+
+Здесь $\boldsymbol{r}$ - вектор пространственной координаты, $\boldsymbol{\Omega}-$ единичный вектор скорости частицы, имеющий сферич. координаты $\{\theta, \varphi\}, \boldsymbol{n}-$ единичный вектор внешней нормали к кусочно гладкой поверхности $Г$, ограничивающей выпуклую область пространства, в к-рой решается задача
+
+\[
+\begin{gathered}
+Y_{k, i}(\boldsymbol{\Omega})=P_{k}^{(|i|)}(\cos \theta) \sin |i| \varphi, i=-k, \ldots,-1, \\
+Y_{k, i}(\mathbf{\Omega})=P^{(i)}(\cos \theta) \cos i \varphi, \quad i=0,1, \ldots, k,
+\end{gathered}
+\]
+
+- сферич. функции, $P_{k}^{(i)}(\mu)-$ присоединенные функции Лежандра 1-го рода $\left(P_{k}^{(0)}(\mu)=P_{k}(\mu)-\right.$ многочлены Лежандра).
+
+Низшие приближения С. Г. м. $\left(P_{1}, P_{3}\right)$ широко используются при решении задач нейтронной физики и дают хорошие результаты вдали от границ области, от источников и сильных поглотителей нейтронов. Теория возраста также строится в $P_{1}$-приближении. Обобщенное решение С. г. м. сходится к решению уравнения переноса при $N \rightarrow \infty$ (см. [2]). Скорость сходимости $\tilde{\psi}(x$, $\mu) \rightarrow \psi(x, \mu)$ легко оценить, сравнив интегральные уравнения для $\tilde{\psi}_{0}(x)$ и $\psi_{0}(x)$, т. е. оценив близость их ядер. $У$ равнение (1) с граничными условиями (6) приводит к интегральному уравнению с ядром
+
+\[
+E_{1}(|x-s|)=\int_{0}^{1} \frac{e-|x-s| / \mu}{\mu} d \mu .
+\]
+
+Система С. г. м. (3) при граничных условиях, аналогичных (6),
+
+$\tilde{\psi}\left(0, \mu_{i}\right)=0 \quad$ для $\left.0&lt;\mu_{i}&lt;1, \quad i=1,2, \ldots, N, \quad\right\}(9)$ $\tilde{\psi}\left(h, \mu_{i}\right)=0$ для $\left.-1&lt;\mu_{i}&lt;0, i=-1,-2, \ldots,-N,\right\}$ где $\mu_{i}$ - корни $P_{2 N}(\mu)$, приводит к интегральному уравнению с ядром
+
+\[
+\tilde{E}_{1}(|x-s|)=\sum_{i=1}^{N} a_{i} \frac{e^{-|x-s| / \mu_{i}}}{\mu_{i}},
+\]
+
+где $a_{i}$ - веса квадратурной формулы Гаусса для системы узлов $-1&lt;\mu_{i}&lt;1$. Особенность, к-рую имеет функция $\frac{e}{\mu}^{-|x-s| / \mu}$, приводит $\kappa$ медленной сходимости при больших $N$ :
+
+$\int_{0}^{h}\left|E_{1}(x)-\tilde{E}_{1}(x)\right| d x&lt;\frac{\text { const }}{N},\left|\psi_{0}(x)-\tilde{\psi}_{0}(x)\right|&lt;\frac{\text { const }}{N}$.
+
+Приближенное собственное значение сходится к точному со скоростью $1 / N^{2}$.
+
+Граничные условия (9) возникают естественно при решении кинетич. уравнения м е т о д о м д и с к р е тны $\mathrm{x} о \mathrm{p}$ д и н а т, к-рый состоит в замене (1) на приближенную систему
+
+\[
+\mu_{i} \frac{\partial \tilde{\tilde{\psi}}_{i}(x)}{\partial x}+\tilde{\tilde{\psi}}_{i}(x)=\frac{c}{2} \sum_{i=-N}^{N} a_{i} \tilde{\tilde{\psi}}_{i}(x) .
+\]
+
+Метод дискретных ординат в одномерной геометрии эквивалентен С. г. м. (см. [3]), т. к. система (10) может быть получена из (3) с помощьо линейного преобразования неизвестных функций:
+
+\[
+\tilde{\psi}_{n}(x)=\sum_{i=-N}^{N} a_{i} \tilde{\psi}_{i}(x) P_{n}\left(\mu_{i}\right)
+\]
+
+Однако в многомерных задачах С. г. м. в низших приближениях дает большую точность, чем метод дискретных ординат.
+
+Лum.: [1] М а р ч ук Г. И., Л е б е д е в В. И., Численные методы в теории переноса нейтронов, 2 изд., М., 1981;
+[2] С у л т а н г а и у У. М., «Ж. вычисл. матем. и матем. физ.», 1974, т. 14, № 1, c. $166-78 ;$ [3] Р и х т м а й е p Р., М о р т о К., Разностные методы решения краевых задач,</text_orig>
+</article>

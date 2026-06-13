@@ -1,0 +1,267 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1233_JakoBI" alphabetic_pos="1233">
+  <title>ЯкоБИ МЕтоД</title>
+  <authors/>
+  <pages>
+    <start>524</start>
+    <end>524</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Г а н т м a х е p Ф. Р., Теория матриц, 2 изд., M., 1966И. В. Проскурлков.2) Я. м.- простой итерации жетод для решения системы линейных алгебраич. уравнений $a x=b$, в к-ром предварительное преобразование системы к виду $x=b x+g$ осуществляется по правилу\[\begin{gathered}B=E-D^{-1} A, g=D^{-1} b, D=\left(d_{i j}\right), d_{i i}=a_{i i}, \\i=1,2, \ldots, n, d_{i j}=0, i \neq j .\end{gathered}\]3) Я. м.- вращений метод для решения полной проблемы собственных значений и собственных векторов эрмитовой матрицы.</literature_orig>
+    <unit>
+      <author>Гантмaхеp Ф. Р.</author>
+      <title>Теория матриц</title>
+      <publication>2 изд., M.</publication>
+      <year>1966</year>
+      <other>в к-ром предварительное преобразование системы к виду $x=b x+g$ осуществляется по правилу\[\begin{gathered}B=E-D^{-1} A, g=D^{-1} b, D=\left(d_{i j}\right), d_{i i}=a_{i i}, \\i=1, 2, \ldots, n, d_{i j}=0, i \neq j .\end{gathered}\]3) Я. м.- вращений метод для решения полной проблемы собственных значений и собственных векторов эрмитовой матрицы.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_1_JakoBI">f=\sum_{i, k=1}^{n} a_{k i} x_{i} y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_2_JakoBI">\Delta_{k} \neq 0, k=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_3_JakoBI">f=\sum_{k=1}^{n} \frac{u_{k} v_{k}}{\Delta_{k-1} \Delta_{k}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_4_JakoBI">\begin{aligned}&amp; v_{k}=\left\|\begin{array}{ccccc}a_{11} &amp; a_{21} &amp; \ldots &amp; a_{k-11} &amp; \frac{\partial f}{\partial x_{1}} \\a_{12} &amp; a_{22} &amp; \ldots &amp; a_{k-12} &amp; \frac{\partial f}{\partial x_{2}} \\. &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdot \\a_{1 k} &amp; a_{2 k} &amp; \ldots &amp; a_{k-1 k} &amp; \frac{\partial f}{\partial x_{k}}\end{array}\right\| .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_5_JakoBI">f=\sum_{k=1}^{n} \frac{u_{k}^{2}}{\Delta_{k-1} \Delta_{k}}, \Delta_{0}=1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_6_JakoBI">u_{1}=\frac{1}{2} \frac{\partial f}{\partial x_{1}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_7_JakoBI">u_{k}=\sum_{i=k}^{n} c_{k i} x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_8_JakoBI">\begin{aligned}&amp; \Delta_{i} \neq 0, i=1, \ldots, r_{s} \\&amp; \Delta_{r+1}=\ldots=\Delta_{n}=0,\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_9_JakoBI">f=\sum_{k=1}^{r} \frac{1}{\Delta_{k-1} \Delta_{k}} u_{k}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1233_10_JakoBI">1, \Delta_{1}, \Delta_{2}, \ldots, \Delta_{r} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_1_JakoBI">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_2_JakoBI">a=\left\|a_{k i}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_3_JakoBI">\delta_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_4_JakoBI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_5_JakoBI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_6_JakoBI">u_{1}=\frac{\partial f}{\partial y_{1}}, v_{2}=\frac{\partial f}{\partial x_{1}}, \Delta_{0}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_7_JakoBI">k=2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_8_JakoBI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_9_JakoBI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_10_JakoBI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_11_JakoBI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_12_JakoBI">k=2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_13_JakoBI">c_{k i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_14_JakoBI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_15_JakoBI">1,2, \ldots, k-1, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_16_JakoBI">2, \ldots, k-1, i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_17_JakoBI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_18_JakoBI">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_19_JakoBI">\delta_{0}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_20_JakoBI">p=\mathbb{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1233_21_JakoBI">f</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/me/relation/1233_1_JakoBI">
+      <rel_text>Инерции закон</rel_text>
+      <target>http://libmeta.ru/me/article/581_INERTsII</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_2_JakoBI">
+      <rel_text>индекс</rel_text>
+      <target>http://libmeta.ru/me/article/566_INDEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_3_JakoBI">
+      <rel_text>квадратичной</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_4_JakoBI">
+      <rel_text>индекс</rel_text>
+      <target>http://libmeta.ru/me/article/566_INDEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_5_JakoBI">
+      <rel_text>поле</rel_text>
+      <target>http://libmeta.ru/me/article/390_POL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_6_JakoBI">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_7_JakoBI">
+      <rel_text>форма</rel_text>
+      <target>http://libmeta.ru/me/article/728_FORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_8_JakoBI">
+      <rel_text>ранг</rel_text>
+      <target>http://libmeta.ru/me/article/931_RAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_9_JakoBI">
+      <rel_text>квадратичной</rel_text>
+      <target>http://libmeta.ru/me/article/812_KVADRATRIS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1233_10_JakoBI">
+      <rel_text>матрица</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+  </relations>
+  <text>1) Я. м.- метод приведения квадратичной формы к канонич. виду при помощи треугольного преобразования неизвестных, предложенный К. Якоби (с. Јacobi, 1834) (см. [1]).
+
+Пусть дана билинейная форма
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_1_JakoBI]]/URI
+\]
+
+(не обязательно симметрическая) над нек-рым полем $URI[[http://libmeta.ru/me/formula/aux/1233_1_JakoBI]]/URI$, и пусть матрица $URI[[http://libmeta.ru/me/formula/aux/1233_2_JakoBI]]/URI$ этой формы удовлетворяет следуюоему условию:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_2_JakoBI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1233_3_JakoBI]]/URI$ - минор $URI[[http://libmeta.ru/me/formula/aux/1233_4_JakoBI]]/URI$-го порядка, стоящий в ее левом верхнем углу. Тогда форма $URI[[http://libmeta.ru/me/formula/aux/1233_5_JakoBI]]/URI$ можел быть записана в таком виде:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_3_JakoBI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1233_6_JakoBI]]/URI$, а при $URI[[http://libmeta.ru/me/formula/aux/1233_7_JakoBI]]/URI$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_cb55124022ffe42212cag-1.jpg?height=233&amp;width=444&amp;top_left_y=819&amp;top_left_x=309)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_4_JakoBI]]/URI
+\]
+
+В частности, если $URI[[http://libmeta.ru/me/formula/aux/1233_8_JakoBI]]/URI$ - симметрич. матрица и $URI[[http://libmeta.ru/me/formula/aux/1233_9_JakoBI]]/URI$ - квадратичная форма с матрицей $URI[[http://libmeta.ru/me/formula/aux/1233_10_JakoBI]]/URI$, удовлетворяющая условию (1), то форма $URI[[http://libmeta.ru/me/formula/aux/1233_11_JakoBI]]/URI$ приводится к канонич. виду
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_5_JakoBI]]/URI
+\]
+
+при помощи следующего преобразования неизвестных:
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_cb55124022ffe42212cag-1.jpg?height=238&amp;width=469&amp;top_left_y=1531&amp;top_left_x=311)
+
+при $URI[[http://libmeta.ru/me/formula/aux/1233_12_JakoBI]]/URI$, и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_6_JakoBI]]/URI
+\]
+
+Это преобразование пмеет треугольную матрицу и записывается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_7_JakoBI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1233_13_JakoBI]]/URI$ минор матрицы $URI[[http://libmeta.ru/me/formula/aux/1233_14_JakoBI]]/URI$, стоящий в строках с номерами $URI[[http://libmeta.ru/me/formula/aux/1233_15_JakoBI]]/URI$ и столбцах с номерами 1 , $URI[[http://libmeta.ru/me/formula/aux/1233_16_JakoBI]]/URI$.
+
+Формулы (2) - (7) наз. иногда фо о р м у л а м и Я
+
+В случае, когда URI[[http://libmeta.ru/me/relation/1233_10_JakoBI]]/URI URI[[http://libmeta.ru/me/relation/1233_9_JakoBI]]/URI формы $URI[[http://libmeta.ru/me/formula/aux/1233_17_JakoBI]]/URI$ удовлетворяет лишь условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_8_JakoBI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1233_18_JakoBI]]/URI$ - URI[[http://libmeta.ru/me/relation/1233_8_JakoBI]]/URI формы, эта URI[[http://libmeta.ru/me/relation/1233_7_JakoBI]]/URI может быть приведена к каноническому виду
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_9_JakoBI]]/URI
+\]
+
+(здесь $URI[[http://libmeta.ru/me/formula/aux/1233_19_JakoBI]]/URI$ ) треугольным преобразованием неизвестных. Приведение можно осуществить при помощи URI[[http://libmeta.ru/me/relation/1233_6_JakoBI]]/URI Гаусса (см. [1], с. 272-275). В частности, если URI[[http://libmeta.ru/me/relation/1233_5_JakoBI]]/URI $URI[[http://libmeta.ru/me/formula/aux/1233_20_JakoBI]]/URI$, то положительный URI[[http://libmeta.ru/me/relation/1233_4_JakoBI]]/URI инерции URI[[http://libmeta.ru/me/relation/1233_3_JakoBI]]/URI формы $URI[[http://libmeta.ru/me/formula/aux/1233_21_JakoBI]]/URI$ равен числу сохранений знака, а отрицательный URI[[http://libmeta.ru/me/relation/1233_2_JakoBI]]/URI инерции - числу перемен знака в ряду чисел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1233_10_JakoBI]]/URI
+\]
+
+См. также URI[[http://libmeta.ru/me/relation/1233_1_JakoBI]]/URI.</text>
+  <text_orig>1) Я. м.- метод приведения квадратичной формы к канонич. виду при помощи треугольного преобразования неизвестных, предложенный К. Якоби (С. Јacobi, 1834) (см. [1]).
+
+Пусть дана билинейная форма
+
+\[
+f=\sum_{i, k=1}^{n} a_{k i} x_{i} y_{k}
+\]
+
+(не обязательно симметрическая) над нек-рым полем $P$, и пусть матрица $A=\left\|a_{k i}\right\|$ этой формы удовлетворяет следуюоему условию:
+
+\[
+\Delta_{k} \neq 0, k=1, \ldots, n,
+\]
+
+где $\Delta_{k}$ - минор $k$-го порядка, стоящий в ее левом верхнем углу. Тогда форма $f$ можел быть записана в таком виде:
+
+\[
+f=\sum_{k=1}^{n} \frac{u_{k} v_{k}}{\Delta_{k-1} \Delta_{k}}
+\]
+
+где $u_{1}=\frac{\partial f}{\partial y_{1}}, v_{2}=\frac{\partial f}{\partial x_{1}}, \Delta_{0}=1$, а при $k=2, \ldots, n$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_cb55124022ffe42212cag-1.jpg?height=233&amp;width=444&amp;top_left_y=819&amp;top_left_x=309)
+
+\[
+\begin{aligned}
+&amp; v_{k}=\left\|\begin{array}{ccccc}
+a_{11} &amp; a_{21} &amp; \ldots &amp; a_{k-11} &amp; \frac{\partial f}{\partial x_{1}} \\
+a_{12} &amp; a_{22} &amp; \ldots &amp; a_{k-12} &amp; \frac{\partial f}{\partial x_{2}} \\
+. &amp; \cdots &amp; \cdots &amp; \cdots &amp; \cdot \\
+a_{1 k} &amp; a_{2 k} &amp; \ldots &amp; a_{k-1 k} &amp; \frac{\partial f}{\partial x_{k}}
+\end{array}\right\| .
+\end{aligned}
+\]
+
+В частности, если $A$ - симметрич. матрица и $f$ - квадратичная форма с матрицей $A$, удовлетворяющая условию (1), то форма $f$ приводится к канонич. виду
+
+\[
+f=\sum_{k=1}^{n} \frac{u_{k}^{2}}{\Delta_{k-1} \Delta_{k}}, \Delta_{0}=1,
+\]
+
+при помощи следующего преобразования неизвестных:
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_cb55124022ffe42212cag-1.jpg?height=238&amp;width=469&amp;top_left_y=1531&amp;top_left_x=311)
+
+при $k=2, \ldots, n$, и
+
+\[
+u_{1}=\frac{1}{2} \frac{\partial f}{\partial x_{1}} .
+\]
+
+Это преобразование пмеет треугольную матрицу и записывается в виде
+
+\[
+u_{k}=\sum_{i=k}^{n} c_{k i} x_{i}
+\]
+
+где $C_{k i}-$ минор матрицы $A$, стоящий в строках с номерами $1,2, \ldots, k-1, k$ и столбцах с номерами 1 , $2, \ldots, k-1, i$.
+
+Формулы (2) - (7) наз. иногда фо о р м у л а м и Я
+
+В случае, когда матрица квадратичной формы $f$ удовлетворяет лишь условию
+
+\[
+\begin{aligned}
+&amp; \Delta_{i} \neq 0, i=1, \ldots, r_{s} \\
+&amp; \Delta_{r+1}=\ldots=\Delta_{n}=0,
+\end{aligned}
+\]
+
+где $r$ - ранг формы, эта форма может быть приведена к каноническому виду
+
+\[
+f=\sum_{k=1}^{r} \frac{1}{\Delta_{k-1} \Delta_{k}} u_{k}^{2}
+\]
+
+(здесь $\Delta_{0}=1$ ) треугольным преобразованием неизвестных. Приведение можно осуществить при помощи метода Гаусса (см. [1], с. 272-275). В частности, если поле $P=\mathbb{R}$, то положительный индекс инерции квадратичной формы $f$ равен числу сохранений знака, а отрицательный индекс инерции - числу перемен знака в ряду чисел
+
+\[
+1, \Delta_{1}, \Delta_{2}, \ldots, \Delta_{r} .
+\]
+
+См. также Инерции закон.
+
+Jum.: [1] Г а н т м a х е p Ф. Р., Теория матриц, 2 изд., M., 1966
+
+И. В. Проскурлков.
+
+2) Я. м.- простой итерации жетод для решения системы линейных алгебраич. уравнений $A x=b$, в к-ром предварительное преобразование системы к виду $x=B x+g$ осуществляется по правилу
+
+\[
+\begin{gathered}
+B=E-D^{-1} A, g=D^{-1} b, D=\left(d_{i j}\right), d_{i i}=a_{i i}, \\
+i=1,2, \ldots, n, d_{i j}=0, i \neq j .
+\end{gathered}
+\]
+
+3) Я. м.- вращений метод для решения полной проблемы собственных значений и собственных векторов эрмитовой матрицы.</text_orig>
+</article>

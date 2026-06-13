@@ -1,0 +1,913 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/600_MATRITs" alphabetic_pos="600">
+  <title>МАТРИЦА</title>
+  <authors>
+    <author>Д. А. Супруненко</author>
+  </authors>
+  <pages>
+    <start>308</start>
+    <end>310</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] В о е в о д и н В. В., Линейная алгебра, М., 1974 ;[2] Г а н т м а х е р Ф. Р., Теория матриц, 3 изд., М., 1967; К у р о ш А. Г., Курс высшей алгебры, 11 изд., М., 1975; [5]М а л ь ц е в А. И., Основы линейной алгебры, 3 изд., М., 1970; [6] М и ш и н а А.. П., П р о с к у р я к о в И. В., Высшая алгебра, 2 изд., М., 1965; [7] Т ыш к е в и ч Р. И., Ф е д е нк 0 А. С., Јинейная алгебра и аналитическая геометрия, 2 изд., Минск, 1976; 8 ] Б е л Л м а н Р., Введение в теорию матриц,пер. с англ., 2 изд., М., 1976 ; [9] Б у р б а к и Н., Алгебра. Алгебраические структуры. Јинейная и полилинейная алгебра, пер. с франц., М., 1962; [10] Л а н к а с т е р П., Теория матриц,пер. с англ., М., 1978; [11] М а р к у с М., М и н к Х., Обзор по теории матриц и матричных неравенств, пер. с англ., М., 1972.</literature_orig>
+    <unit>
+      <author>Воеводин В. В.</author>
+      <title>Линейная алгебра</title>
+      <publication>М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гантмахер Ф. Р.</author>
+      <title>Теория матриц</title>
+      <publication>3 изд., М.</publication>
+      <year>1967</year>
+      <other>Курс высшей алгебры, 11 изд., М., 1975; [5]М а л ь ц е в А. И., Основы линейной алгебры, 3 изд., М., 1970; [6] М и ш и н а А.. П., П р о с к у р я к о в И. В., Высшая алгебра, 2 изд., М., 1965; [7] Т ыш к е в и ч Р. И., Ф е д е нк 0 А. С., Јинейная алгебра и аналитическая геометрия, 2 изд., Минск, 1976; 8 ] Б е л Л м а н Р., Введение в теорию матриц, пер. с англ., 2 изд., М., 1976 ; [9] Б у р б а к и Н., Алгебра. Алгебраические структуры. Јинейная и полилинейная алгебра, пер. с франц., М., 1962; [10] Л а н к а с т е р П., Теория матриц, пер. с англ., М., 1978; [11] М а р к у с М., М и н к Х., Обзор по теории матриц и матричных неравенств, пер. с англ., М., 1972.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/600_1_MATRITs">\left\|\begin{array}{lll}a_{11} &amp; \ldots &amp; a_{1 n} \\\cdots &amp; \cdots &amp; \cdots \\a_{m 1} &amp; \cdots &amp; a_{m n}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_2_MATRITs">\left[\begin{array}{ccc}a_{11} &amp; \ldots &amp; a_{1 n} \\\ldots &amp; \ldots &amp; \ldots \\a_{m 1} &amp; \ldots &amp; a_{n n}\end{array}\right],\left(\begin{array}{ccc}a_{11} &amp; \ldots &amp; a_{1 m} \\\ldots &amp; \ldots &amp; \ldots \\a_{m 1} &amp; \ldots &amp; a_{m n}\end{array}\right) \text { и }\left\|a_{i j}\right\| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_3_MATRITs">A+B=\left\|a_{i j}+b_{i, i}\right\| \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_4_MATRITs">A+0=0+A=A \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_5_MATRITs">A B=\left\|c_{\mu v}\right\| \in M_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_6_MATRITs">c_{\mu v}=\sum_{j=1}^{k} a_{\mu j} b_{j v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_7_MATRITs">(A B) C=A(B C)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_8_MATRITs">A(B+C)=A B+A C, \quad(B+C) A=B A+C A .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_9_MATRITs">E_{n}=\left\|\begin{array}{ccc}1 &amp; \cdots &amp; 0 \\\cdots &amp; \cdots &amp; \cdots \\0 &amp; \cdots &amp; 1\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_10_MATRITs">E_{n} A=A E_{n}=A</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_11_MATRITs">\begin{aligned}(\alpha+\beta) A=\alpha A+\beta A &amp; , \alpha(\beta A)=(\alpha \beta) A, \alpha(A+B)= \\&amp; =\alpha A+\alpha B .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_12_MATRITs">A=\sum_{i=1}^{m} \sum_{j=1}^{n} a_{i j} e_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_13_MATRITs">A=\left\|\begin{array}{ccc}A_{11} &amp; \cdots &amp; A_{1 l} \\\cdots &amp; \cdots &amp; \cdots \\A_{k 1} &amp; \cdots &amp; A_{k l}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_14_MATRITs">B=\left\|\begin{array}{ccc}B_{11} &amp; \cdots &amp; B_{1 t} \\\cdots &amp; \cdots &amp; \cdots \\B_{l 1} &amp; \cdots &amp; B_{l t}\end{array}\right\|, \quad B_{i j} \in M_{n_{v} p_{j}}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_15_MATRITs">A B=C=\left\|\begin{array}{ccc}C_{11} &amp; \cdots &amp; C_{1 t} \\\cdots &amp; \cdots &amp; \cdots \\C_{k 1} &amp; \cdots &amp; C_{k t}\end{array}\right\|, \quad C_{\mu_{j}}=\sum_{i=1}^{l} A_{\mu_{i} B_{i j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_16_MATRITs">\left\|\begin{array}{cccc}A_{11} &amp; 0_{12} &amp; \ldots &amp; 0_{1 k} \\0_{21} &amp; A_{2} &amp; \ldots &amp; 0_{2 k} \\\cdots &amp; \ldots &amp; \ldots &amp; \ldots \\0_{k 1} &amp; 0_{k 2} &amp; \ldots &amp; A_{k}\end{array}\right\|,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_17_MATRITs">\begin{gathered}\operatorname{diag}\left[A_{1}, \ldots, A_{k}\right]+\operatorname{diag}\left[B_{1}, \ldots, B_{k}\right]= \\=\operatorname{diag}\left[A_{1}+B_{1}, \ldots, A_{k}+b_{k}\right] \\\operatorname{diag}\left[A_{1}, \ldots, A_{k}\right] \operatorname{diag}\left[B_{1}, \ldots, B_{k}\right]= \\=\operatorname{diag}\left[A_{1} B_{1}, \ldots, A_{k} B_{k}\right],\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_18_MATRITs">A^{-1}=\left\|c_{j}\right\|, \quad c_{i j}=\frac{A_{j i}}{\operatorname{det} A}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_19_MATRITs">A B=E_{n} \Longleftrightarrow B A=E_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_20_MATRITs">A^{0}=E_{n} ; A^{k}=A^{k-1} A</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_21_MATRITs">f(x)=\alpha_{0}+\alpha_{1} x+\ldots+\alpha_{t} x^{t}, f(x) \in K[x],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_22_MATRITs">f(A)=\alpha_{0} E_{n}+\alpha_{1} A+\ldots+\alpha_{t} A^{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_23_MATRITs">u_{1}=\sigma\left(v_{1}\right), \ldots, u_{n}=\sigma\left(v_{n}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_24_MATRITs">\left.\begin{array}{l}\sigma\left(v_{1}\right)=v_{1} a_{11}+\ldots+v_{n} a_{n 1}, \\\cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot v_{n} a_{n n}\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_25_MATRITs">\left[\sigma\left(v_{1}\right), \ldots, \sigma\left(v_{n}\right)\right]=\left[v_{1}, \ldots, v_{n}\right] A .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_26_MATRITs">v_{1}=\left\|\begin{array}{l}1 \\0 \\\cdot \\\cdot \\\cdot \\0 \\0\end{array}\right\|, \ldots, v_{n}=\left\|\begin{array}{l}0 \\0 \\\cdot \\\cdot \\\cdot \\0 \\1\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_27_MATRITs">f_{1}(x), \cdots, f_{r}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_28_MATRITs">N=\operatorname{diag}\left[f_{1}(x), \ldots, f_{r}(x), 0, \ldots, 0\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_29_MATRITs">\boldsymbol{B}=\boldsymbol{P} A Q,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_30_MATRITs">x E_{n}-A \in M_{n}(K[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_31_MATRITs">f(x)=\alpha_{0}+\alpha_{1} x+\ldots+\alpha_{n-1} x^{n-1}+x^{n} \in K[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_32_MATRITs">F=\left\|\begin{array}{ccccc}0 &amp; 0 &amp; \ldots &amp; 0 &amp; -\alpha_{0} \\1 &amp; 0 &amp; \ldots &amp; 0 &amp; -\alpha_{1} \\0 &amp; 1 &amp; \ldots &amp; 0 &amp; -\alpha_{2} \\\ldots &amp; \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\0 &amp; 0 &amp; \ldots &amp; 1 &amp; -\alpha_{n-1}\end{array}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_33_MATRITs">\operatorname{det}\left(x E_{n}-A\right)=\left(x-\lambda_{1}\right)^{n_{1}} \ldots\left(x-\lambda_{t}\right)^{n}, \quad \lambda_{j} \in K,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/600_34_MATRITs">\frac{\operatorname{det}\left(x E_{n}-A\right)}{d_{n-1}(x)}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_1_MATRITs">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_2_MATRITs">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_3_MATRITs">a_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_4_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_5_MATRITs">(m \times n)-\mathbf{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_6_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_7_MATRITs">m \times n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_8_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_9_MATRITs">m_{m, n}(K)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_10_MATRITs">(m \times n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_11_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_12_MATRITs">m=n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_13_MATRITs">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_14_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_15_MATRITs">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_16_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_17_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_18_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_19_MATRITs">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_20_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_21_MATRITs">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_22_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_23_MATRITs">a=\left\|a_{i j}\right\|, B=\left\|b_{i j}\right\| \in M_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_24_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_25_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_26_MATRITs">a+b \in M_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_27_MATRITs">m_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_28_MATRITs">a \in M_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_29_MATRITs">a=\left\|a_{i j}\right\| \in M_{m, k}(K), B=\left\|b_{i j}\right\| \in M_{k, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_30_MATRITs">\mathrm{m} . \dot{A}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_31_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_32_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_33_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_34_MATRITs">a \in M_{m, k}(K), \quad B \in M_{k, n}(K), \quad C \in M_{n, p}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_35_MATRITs">a B C \in M_{m}, p(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_36_MATRITs">a \in M_{m, n}(K), \stackrel{m}{B}, C \in M_{n, m}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_37_MATRITs">a, B, C \in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_38_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_39_MATRITs">k-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_40_MATRITs">\mathbf{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_41_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_42_MATRITs">a \in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_43_MATRITs">n \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_44_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_45_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_46_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_47_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_48_MATRITs">a B \neq B A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_49_MATRITs">\alpha \in K, \quad A=\left\|a_{i j}\right\| \in M_{m, n}(K) ; \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_50_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_51_MATRITs">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_52_MATRITs">\alpha A=\left\|\alpha a_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_53_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_54_MATRITs">e_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_55_MATRITs">m_{m, n}(A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_56_MATRITs">(i, j), 1 \leqslant i \leqslant m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_57_MATRITs">1 \leqslant j \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_58_MATRITs">a=\left\|a_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_59_MATRITs">m_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_60_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_61_MATRITs">m_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_62_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_63_MATRITs">m n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_64_MATRITs">e_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_65_MATRITs">m=m_{1}+\ldots+m_{k}, \quad n=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_66_MATRITs">=n_{1}+\ldots .+n_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_67_MATRITs">m_{\mu}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_68_MATRITs">n_{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_69_MATRITs">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_70_MATRITs">a \in M_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_71_MATRITs">a_{\mu v} \in M_{m_{\mu}}, n_{v}(K), \mu=1, \ldots, k, v=1, \ldots, l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_72_MATRITs">b \in M_{n, p}(K), \quad p=p_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_73_MATRITs">+\ldots+p_{t}, p_{i}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_74_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_75_MATRITs">n=k l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_76_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_77_MATRITs">m_{n}(\sigma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_78_MATRITs">\sigma=m_{l}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_79_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_80_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_81_MATRITs">a_{i} \in M_{n_{i}}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_82_MATRITs">0_{i j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_83_MATRITs">m_{n_{i}, n_{j}}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_84_MATRITs">\operatorname{diag}\left[a_{1}, \ldots, A_{k}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_85_MATRITs">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_86_MATRITs">b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_87_MATRITs">i=1, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_88_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_89_MATRITs">a \in M_{n}(K), \operatorname{det} A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_90_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_91_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_92_MATRITs">\operatorname{det} A \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_93_MATRITs">a^{-1} \in</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_94_MATRITs">\in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_95_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_96_MATRITs">a A^{-1}=A^{-1} A=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_97_MATRITs">=e_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_98_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_99_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_100_MATRITs">a_{j i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_101_MATRITs">a_{j i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_102_MATRITs">\operatorname{det} A^{-1}=(\operatorname{det} A)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_103_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_104_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_105_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_106_MATRITs">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_107_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_108_MATRITs">\mathrm{gl}(n, K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_109_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_110_MATRITs">k&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_111_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_112_MATRITs">a^{-k}=\left(A^{-1}\right)^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_113_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_114_MATRITs">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_115_MATRITs">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_116_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_117_MATRITs">v_{1}, . ., v_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_118_MATRITs">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_119_MATRITs">\sigma: V \rightarrow V-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_120_MATRITs">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_121_MATRITs">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_122_MATRITs">a_{i j} \in K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_123_MATRITs">a=\left\|a_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_124_MATRITs">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_125_MATRITs">v_{1}, \ldots, v_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_126_MATRITs">a+b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_127_MATRITs">\sigma+\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_128_MATRITs">a B-\mathrm{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_129_MATRITs">\sigma \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_130_MATRITs">b-\mathrm{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_131_MATRITs">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_132_MATRITs">w_{1}, \ldots, w_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_133_MATRITs">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_134_MATRITs">\left[w_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_135_MATRITs">\left.w_{n}\right]=\left[v_{1}, \ldots, v_{n}\right] T, \quad T \in \operatorname{GL}(n, K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_136_MATRITs">t^{-1} A T-\dot{M} . \dot{\sigma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_137_MATRITs">w_{1}, \ldots, w_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_138_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_139_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_140_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_141_MATRITs">\operatorname{gl}(n, K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_142_MATRITs">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_143_MATRITs">b=t^{-1} A T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_144_MATRITs">\operatorname{det} A=\operatorname{det} T^{-1} A T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_145_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_146_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_147_MATRITs">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_148_MATRITs">\sigma(v)=v ; \sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_149_MATRITs">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_150_MATRITs">m_{n, 1}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_151_MATRITs">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_152_MATRITs">v \in V</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_153_MATRITs">\mathrm{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_154_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_155_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_156_MATRITs">\sigma(v)=a v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_157_MATRITs">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_158_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_159_MATRITs">a \in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_160_MATRITs">m_{n .1}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_161_MATRITs">v \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_162_MATRITs">a v=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_163_MATRITs">a=\left\|a_{i j}\right\| \in M_{m, n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_164_MATRITs">a^{\top}=\left\|a_{i j}^{\top}\right\| \in</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_165_MATRITs">\in M_{n, \boldsymbol{m}}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_166_MATRITs">a_{i j}^{\top}=a_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_167_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_168_MATRITs">a^{\top}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_169_MATRITs">{ }^{t} A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_170_MATRITs">a^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_171_MATRITs">a=\left\|a_{i j}\right\| \in M_{m, n}(\mathbb{C})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_172_MATRITs">\mathrm{m} . \bar{A}=\left\|\overline{a_{i j}}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_173_MATRITs">\overline{a_{i j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_174_MATRITs">a_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_175_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_176_MATRITs">a *=\bar{A}^{\top}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_177_MATRITs">a \in M_{n}(\mathbb{C})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_178_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_179_MATRITs">k-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_180_MATRITs">k[x]-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_181_MATRITs">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_182_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_183_MATRITs">k[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_184_MATRITs">\mathbf{~ и . ~}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_185_MATRITs">m_{n}(k[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_186_MATRITs">k, 2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_187_MATRITs">k[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_188_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_189_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_190_MATRITs">m_{n}(k[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_191_MATRITs">(a \sim B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_192_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_193_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_194_MATRITs">n=\operatorname{diag}\left[f_{1}(x), \ldots, f_{r}(x), 0, \ldots, 0\right] \in M_{n}(K[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_195_MATRITs">\left.f_{i}(x) \neq 0,2\right) f_{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_196_MATRITs">f_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_197_MATRITs">j&gt;i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_198_MATRITs">f_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_199_MATRITs">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_200_MATRITs">m_{n}(k[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_201_MATRITs">a \sim N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_202_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_203_MATRITs">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_204_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_205_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_206_MATRITs">m_{n}(k[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_207_MATRITs">m_{n}(k[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_208_MATRITs">a \sim E_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_209_MATRITs">a \sim E_{n} \Longleftrightarrow \operatorname{det} A \in K \backslash 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_210_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_211_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_212_MATRITs">m_{n}(k[x])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_213_MATRITs">p, Q \in M_{n}(K[x]), \quad P \sim Q \sim E_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_214_MATRITs">a \in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_215_MATRITs">a, \operatorname{adet}\left(x E_{n}-A\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_216_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_217_MATRITs">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_218_MATRITs">\operatorname{det}\left(x E_{n}-F\right)=f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_219_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_220_MATRITs">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_221_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_222_MATRITs">x E_{n}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_223_MATRITs">x E_{n}-B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_224_MATRITs">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_225_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_226_MATRITs">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_227_MATRITs">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_228_MATRITs">k[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_229_MATRITs">a \in M_{n}(K), \quad v \in M_{n, 1}(K), \quad v \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_230_MATRITs">a v=\lambda v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_231_MATRITs">\lambda \in K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_232_MATRITs">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_233_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_234_MATRITs">\lambda-\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_235_MATRITs">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_236_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_237_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_238_MATRITs">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_239_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_240_MATRITs">u \in M_{n, 1}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_241_MATRITs">a u=\lambda u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_242_MATRITs">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_243_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_244_MATRITs">m_{n, 1}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_245_MATRITs">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_246_MATRITs">\lambda E_{n}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_247_MATRITs">\left(d=n-r\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_248_MATRITs">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_249_MATRITs">\left.\lambda E_{n}-A\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_250_MATRITs">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_251_MATRITs">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_252_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_253_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_254_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_255_MATRITs">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_256_MATRITs">a \in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_257_MATRITs">\lambda_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_258_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_259_MATRITs">\lambda_{j}, j=1, \ldots, t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_260_MATRITs">\lambda_{j} E_{n}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_261_MATRITs">n_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_262_MATRITs">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_263_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_264_MATRITs">\mathrm{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_265_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_266_MATRITs">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_267_MATRITs">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_268_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_269_MATRITs">f(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_270_MATRITs">a \in</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_271_MATRITs">\in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_272_MATRITs">m(x) \in K[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_273_MATRITs">m(a)=0,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_274_MATRITs">m(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_275_MATRITs">0 \neq \psi(x) \in K[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_276_MATRITs">\psi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_277_MATRITs">m(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_278_MATRITs">\psi(a) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_279_MATRITs">g(x) \in K[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_280_MATRITs">g(a)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_281_MATRITs">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_282_MATRITs">m(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_283_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_284_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_285_MATRITs">x E_{n}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_286_MATRITs">d_{n-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_287_MATRITs">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_288_MATRITs">x E_{n}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_289_MATRITs">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_290_MATRITs">m_{n}(k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_291_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_292_MATRITs">k[x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_293_MATRITs">a \in M_{n}(K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_294_MATRITs">a^{k}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_295_MATRITs">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_296_MATRITs">\operatorname{det}\left(x E_{n}-A\right)=x^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/600_297_MATRITs">m_{n}(k)</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>прямоугольная таблица
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_1_MATRITs]]/URI
+\]
+
+состоящая из $URI[[http://libmeta.ru/me/formula/aux/600_1_MATRITs]]/URI$ строк и $URI[[http://libmeta.ru/me/formula/aux/600_2_MATRITs]]/URI$ столбцов, элементы к-рой $URI[[http://libmeta.ru/me/formula/aux/600_3_MATRITs]]/URI$ принадлежат нек-рому множеству $URI[[http://libmeta.ru/me/formula/aux/600_4_MATRITs]]/URI$. Таблица (1) наз. также $URI[[http://libmeta.ru/me/formula/aux/600_5_MATRITs]]/URI$ т т и ц е й н а д $URI[[http://libmeta.ru/me/formula/aux/600_6_MATRITs]]/URI$, или м а трице й ра зм е р а $URI[[http://libmeta.ru/me/formula/aux/600_7_MATRITs]]/URI$ на д $URI[[http://libmeta.ru/me/formula/aux/600_8_MATRITs]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_9_MATRITs]]/URI$ совокупность всех $URI[[http://libmeta.ru/me/formula/aux/600_10_MATRITs]]/URI$-матриц над $URI[[http://libmeta.ru/me/formula/aux/600_11_MATRITs]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/600_12_MATRITs]]/URI$, то (1) наз. к в а д р а т н о й м а т р и ц е й п ор я д к а $URI[[http://libmeta.ru/me/formula/aux/600_13_MATRITs]]/URI$. Множество $URI[[http://libmeta.ru/me/formula/aux/600_14_MATRITs]]/URI$ - совокупность всех квадратных М. порядка $URI[[http://libmeta.ru/me/formula/aux/600_15_MATRITs]]/URI$ над $URI[[http://libmeta.ru/me/formula/aux/600_16_MATRITs]]/URI$.
+
+Для М. пользуются также обозначениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_2_MATRITs]]/URI
+\]
+
+В наиболее важных случаях в качестве $URI[[http://libmeta.ru/me/formula/aux/600_17_MATRITs]]/URI$ выступают поле действительных чисел, поле комплексных чисел, произвольное поле, кольцо многочленов, кольцо целых чисел, кольцо функцій, произвольное ассоциативное кольцо. Операции сложения и умножения, определенные на $URI[[http://libmeta.ru/me/formula/aux/600_18_MATRITs]]/URI$, естественным образом переносятся на $URI[[http://libmeta.ru/me/formula/aux/600_19_MATRITs]]/URI$. над $URI[[http://libmeta.ru/me/formula/aux/600_20_MATRITs]]/URI$ и возникает м а т ричн о е исчи с ле ниепредмет теории $URI[[http://libmeta.ru/me/formula/aux/600_21_MATRITs]]/URI$.
+
+Понятие М. впервые появилось в середине 19 в. в работах У. Гамильтона (w. Hamilton) и А. Кәли (а. Сауley). Фундаментальные результаты в теории М. принадлежат К. Вейерптрассу (к. Weierstrass), К. Жордану (c. Jordan), Г. Фробениусу (g. Frobenius). И. А. Лаппо-Данилевский развил теорию аналитич. функций многих матричных переменных и применил ее к изучению систем линейных дифференциальных уравнений.
+
+Действия над матрицами. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_22_MATRITs]]/URI$ - ассоциативное кольцо, $URI[[http://libmeta.ru/me/formula/aux/600_23_MATRITs]]/URI$. Тогда с у м м а M. $URI[[http://libmeta.ru/me/formula/aux/600_24_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_25_MATRITs]]/URI$, по определению, равна
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_3_MATRITs]]/URI
+\]
+
+При этом $URI[[http://libmeta.ru/me/formula/aux/600_26_MATRITs]]/URI$ и сложение М. ассоциативно и коммутатівно. Н у л е в о й М. из $URI[[http://libmeta.ru/me/formula/aux/600_27_MATRITs]]/URI$ наз. М. 0 , все әлементы к-рой равны нулю. Для всякой $URI[[http://libmeta.ru/me/formula/aux/600_28_MATRITs]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_4_MATRITs]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/600_29_MATRITs]]/URI$. П р ои з в д е н и $URI[[http://libmeta.ru/me/formula/aux/600_30_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_31_MATRITs]]/URI$ определяется по правилу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_5_MATRITs]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_6_MATRITs]]/URI
+\]
+
+Произведение двух М. из $URI[[http://libmeta.ru/me/formula/aux/600_32_MATRITs]]/URI$ всегда определено и принадлежит $URI[[http://libmeta.ru/me/formula/aux/600_33_MATRITs]]/URI$. Умножение М. ассоциативно: если $URI[[http://libmeta.ru/me/formula/aux/600_34_MATRITs]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_7_MATRITs]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/600_35_MATRITs]]/URI$. Верен и дистрибутивный закон: для $URI[[http://libmeta.ru/me/formula/aux/600_36_MATRITs]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_8_MATRITs]]/URI
+\]
+
+В частности, (2) верно и для $URI[[http://libmeta.ru/me/formula/aux/600_37_MATRITs]]/URI$. Следовательно, $URI[[http://libmeta.ru/me/formula/aux/600_38_MATRITs]]/URI$ - ассоциативное кольцо. Если $URI[[http://libmeta.ru/me/formula/aux/600_39_MATRITs]]/URI$ кольцо с единицей 1 , то $URI[[http://libmeta.ru/me/formula/aux/600_40_MATRITs]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_9_MATRITs]]/URI
+\]
+
+будет единицей кольца $URI[[http://libmeta.ru/me/formula/aux/600_41_MATRITs]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_10_MATRITs]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/me/formula/aux/600_42_MATRITs]]/URI$. Умножение М. некоммутативно: при $URI[[http://libmeta.ru/me/formula/aux/600_43_MATRITs]]/URI$ для любого ассоциативного кольца $URI[[http://libmeta.ru/me/formula/aux/600_44_MATRITs]]/URI$ с единицей найдутся такие М. $URI[[http://libmeta.ru/me/formula/aux/600_45_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_46_MATRITs]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/600_47_MATRITs]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/600_48_MATRITs]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/600_49_MATRITs]]/URI$ пр о и з в е дени е М. $URI[[http://libmeta.ru/me/formula/aux/600_50_MATRITs]]/URI$ н а э л е м ен т (чи сл о) $URI[[http://libmeta.ru/me/formula/aux/600_51_MATRITs]]/URI$, по определению, равно $URI[[http://libmeta.ru/me/formula/aux/600_52_MATRITs]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_11_MATRITs]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/600_53_MATRITs]]/URI$ - кольцо с единицей. М. $URI[[http://libmeta.ru/me/formula/aux/600_54_MATRITs]]/URI$ определяется как М. в $URI[[http://libmeta.ru/me/formula/aux/600_55_MATRITs]]/URI$, единственный ненулевой әлемент к-рой равен 1 и расположен на позиции $URI[[http://libmeta.ru/me/formula/aux/600_56_MATRITs]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/600_57_MATRITs]]/URI$. Для любой $URI[[http://libmeta.ru/me/formula/aux/600_58_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_59_MATRITs]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_12_MATRITs]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/600_60_MATRITs]]/URI$ - поле, то $URI[[http://libmeta.ru/me/formula/aux/600_61_MATRITs]]/URI$ - векторное пространство над $URI[[http://libmeta.ru/me/formula/aux/600_62_MATRITs]]/URI$ размерности $URI[[http://libmeta.ru/me/formula/aux/600_63_MATRITs]]/URI$, а M. $URI[[http://libmeta.ru/me/formula/aux/600_64_MATRITs]]/URI$ составляют один из базисов этого пространства.
+
+Клеточная матрица. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_65_MATRITs]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/600_66_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_67_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_68_MATRITs]]/URI$ - целые положительные числа. Тогда $URI[[http://libmeta.ru/me/formula/aux/600_69_MATRITs]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/600_70_MATRITs]]/URI$ можно записать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_13_MATRITs]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/600_71_MATRITs]]/URI$; М. (3) наз. к ле т оч н о й. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_72_MATRITs]]/URI$ 十 $URI[[http://libmeta.ru/me/formula/aux/600_73_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_74_MATRITs]]/URI$ записана в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_14_MATRITs]]/URI
+\]
+
+Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_15_MATRITs]]/URI
+\]
+
+Напр., если $URI[[http://libmeta.ru/me/formula/aux/600_75_MATRITs]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/600_76_MATRITs]]/URI$ можно рассматривать как $URI[[http://libmeta.ru/me/formula/aux/600_77_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_78_MATRITs]]/URI$.
+
+M. $URI[[http://libmeta.ru/me/formula/aux/600_79_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_80_MATRITs]]/URI$ вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_16_MATRITs]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/600_81_MATRITs]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/600_82_MATRITs]]/URI$ нулевая М. из $URI[[http://libmeta.ru/me/formula/aux/600_83_MATRITs]]/URI$, обозначается $URI[[http://libmeta.ru/me/formula/aux/600_84_MATRITs]]/URI$ и наз. к ле т о ч н оди а г о на л ь н о й. Причем
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_17_MATRITs]]/URI
+\]
+
+если порядки $URI[[http://libmeta.ru/me/formula/aux/600_85_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_86_MATRITs]]/URI$ совпадают для $URI[[http://libmeta.ru/me/formula/aux/600_87_MATRITs]]/URI$.
+
+Квадратные матрицы над полем. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_88_MATRITs]]/URI$ - Iоле, $URI[[http://libmeta.ru/me/formula/aux/600_89_MATRITs]]/URI$ - определитель матрицы $URI[[http://libmeta.ru/me/formula/aux/600_90_MATRITs]]/URI$. M. $URI[[http://libmeta.ru/me/formula/aux/600_91_MATRITs]]/URI$ наз. н е в ы р о ж д е н н о й, если $URI[[http://libmeta.ru/me/formula/aux/600_92_MATRITs]]/URI$. М. $URI[[http://libmeta.ru/me/formula/aux/600_93_MATRITs]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/600_94_MATRITs]]/URI$ наз. о б р а т н о й к $URI[[http://libmeta.ru/me/formula/aux/600_95_MATRITs]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/600_96_MATRITs]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/600_97_MATRITs]]/URI$. Обратимость $URI[[http://libmeta.ru/me/formula/aux/600_98_MATRITs]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/600_99_MATRITs]]/URI$ равносильна невырожденности и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_18_MATRITs]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/600_100_MATRITs]]/URI$-алгебрачческое дополнение элемента $URI[[http://libmeta.ru/me/formula/aux/600_101_MATRITs]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/600_102_MATRITs]]/URI$. Для $URI[[http://libmeta.ru/me/formula/aux/600_103_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_104_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_105_MATRITs]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_19_MATRITs]]/URI
+\]
+
+Совокупность всех обратимых $URI[[http://libmeta.ru/me/formula/aux/600_106_MATRITs]]/URI$. из $URI[[http://libmeta.ru/me/formula/aux/600_107_MATRITs]]/URI$ образует группу относительно умножения, к-рая наз. П о лн о й л и н е й н о й г р у П П о й и обозначается $URI[[http://libmeta.ru/me/formula/aux/600_108_MATRITs]]/URI$. Степени М. $URI[[http://libmeta.ru/me/formula/aux/600_109_MATRITs]]/URI$ определяются следующим обpazom:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_20_MATRITs]]/URI
+\]
+
+для $URI[[http://libmeta.ru/me/formula/aux/600_110_MATRITs]]/URI$, а если $URI[[http://libmeta.ru/me/formula/aux/600_111_MATRITs]]/URI$ обратима, то $URI[[http://libmeta.ru/me/formula/aux/600_112_MATRITs]]/URI$. Для многочлена
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_21_MATRITs]]/URI
+\]
+
+определяется матричный многочлен
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_22_MATRITs]]/URI
+\]
+
+Всякая М. из $URI[[http://libmeta.ru/me/formula/aux/600_113_MATRITs]]/URI$ задает нек-рое линейное преобразование $URI[[http://libmeta.ru/me/formula/aux/600_114_MATRITs]]/URI$-мерного векторного пространства $URI[[http://libmeta.ru/me/formula/aux/600_115_MATRITs]]/URI$ над $URI[[http://libmeta.ru/me/formula/aux/600_116_MATRITs]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_117_MATRITs]]/URI$ базис в $URI[[http://libmeta.ru/me/formula/aux/600_118_MATRITs]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/600_119_MATRITs]]/URI$ линейное преобразование пространства $URI[[http://libmeta.ru/me/formula/aux/600_120_MATRITs]]/URI$. Тогда $URI[[http://libmeta.ru/me/formula/aux/600_121_MATRITs]]/URI$ однозначно определяется последовательностьо векторов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_23_MATRITs]]/URI
+\]
+
+При этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_24_MATRITs]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/600_122_MATRITs]]/URI$. Матрица $URI[[http://libmeta.ru/me/formula/aux/600_123_MATRITs]]/URI$ наз. М. п р е о б р азо в а ни я $URI[[http://libmeta.ru/me/formula/aux/600_124_MATRITs]]/URI$ в базисе $URI[[http://libmeta.ru/me/formula/aux/600_125_MATRITs]]/URI$. При фиксированном базисе М. $URI[[http://libmeta.ru/me/formula/aux/600_126_MATRITs]]/URI$ будет М. преобразования $URI[[http://libmeta.ru/me/formula/aux/600_127_MATRITs]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/600_128_MATRITs]]/URI$. преобразования $URI[[http://libmeta.ru/me/formula/aux/600_129_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_130_MATRITs]]/URI$. линейного преобразования $URI[[http://libmeta.ru/me/formula/aux/600_131_MATRITs]]/URI$. Равенства (4) можно запıсать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_25_MATRITs]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/600_132_MATRITs]]/URI$ - тоже базис в $URI[[http://libmeta.ru/me/formula/aux/600_133_MATRITs]]/URI$. Тогда $URI[[http://libmeta.ru/me/formula/aux/600_134_MATRITs]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/600_135_MATRITs]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/600_136_MATRITs]]/URI$ в базисе $URI[[http://libmeta.ru/me/formula/aux/600_137_MATRITs]]/URI$. М. $URI[[http://libmeta.ru/me/formula/aux/600_138_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_139_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_140_MATRITs]]/URI$ наз. п о д о ба Ы м, если в $URI[[http://libmeta.ru/me/formula/aux/600_141_MATRITs]]/URI$ найдется такая М. $URI[[http://libmeta.ru/me/formula/aux/600_142_MATRITs]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/600_143_MATRITs]]/URI$. При этом $URI[[http://libmeta.ru/me/formula/aux/600_144_MATRITs]]/URI$ и ранги матриц $URI[[http://libmeta.ru/me/formula/aux/600_145_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_146_MATRITs]]/URI$ совпадают. Линейное преобразование $URI[[http://libmeta.ru/me/formula/aux/600_147_MATRITs]]/URI$ наз. н е в ы р о ж д е н ным, если $URI[[http://libmeta.ru/me/formula/aux/600_148_MATRITs]]/URI$ тогда и только тогда невырождено, когда его М. невырождена. Если $URI[[http://libmeta.ru/me/formula/aux/600_149_MATRITs]]/URI$ трактовать как пространство столбцов $URI[[http://libmeta.ru/me/formula/aux/600_150_MATRITs]]/URI$, то линейное преобразование пространства $URI[[http://libmeta.ru/me/formula/aux/600_151_MATRITs]]/URI$ представляет собой умножение столбцов $URI[[http://libmeta.ru/me/formula/aux/600_152_MATRITs]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/600_153_MATRITs]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/600_154_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_155_MATRITs]]/URI$ слева: $URI[[http://libmeta.ru/me/formula/aux/600_156_MATRITs]]/URI$, и М. преобразования $URI[[http://libmeta.ru/me/formula/aux/600_157_MATRITs]]/URI$ в базисе
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_26_MATRITs]]/URI
+\]
+
+совпадает с $URI[[http://libmeta.ru/me/formula/aux/600_158_MATRITs]]/URI$. М. $URI[[http://libmeta.ru/me/formula/aux/600_159_MATRITs]]/URI$ тогда и только тогда вырождена, когда в $URI[[http://libmeta.ru/me/formula/aux/600_160_MATRITs]]/URI$ существует такой столбец $URI[[http://libmeta.ru/me/formula/aux/600_161_MATRITs]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/600_162_MATRITs]]/URI$.
+
+Транспонирование и матрицы специального вида. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_163_MATRITs]]/URI$. Тогда М. $URI[[http://libmeta.ru/me/formula/aux/600_164_MATRITs]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/600_165_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_166_MATRITs]]/URI$,наз. т р а н с п о н и р о в а нн о й к $URI[[http://libmeta.ru/me/formula/aux/600_167_MATRITs]]/URI$. Матрица $URI[[http://libmeta.ru/me/formula/aux/600_168_MATRITs]]/URI$ обозначается также $URI[[http://libmeta.ru/me/formula/aux/600_169_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_170_MATRITs]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_171_MATRITs]]/URI$. Тогда $URI[[http://libmeta.ru/me/formula/aux/600_172_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_173_MATRITs]]/URI$ - число, комплексно-сопряженное с $URI[[http://libmeta.ru/me/formula/aux/600_174_MATRITs]]/URI$, наз. ко м п ле к сн о-с оп р я е нно й с $URI[[http://libmeta.ru/me/formula/aux/600_175_MATRITs]]/URI$. Матрица $URI[[http://libmeta.ru/me/formula/aux/600_176_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_177_MATRITs]]/URI$, наз. э р м и т о в ос о п р я ж н н о й с $URI[[http://libmeta.ru/me/formula/aux/600_178_MATRITs]]/URI$. Многие М., используемые в приложениях, имеют специальные названия.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_699ba998dc88e34769afg-1.jpg?height=526&amp;width=841&amp;top_left_y=476&amp;top_left_x=984)
+
+Полиномиальные матрицы. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_179_MATRITs]]/URI$ поле, $URI[[http://libmeta.ru/me/formula/aux/600_180_MATRITs]]/URI$ кольцо всех многочленов от $URI[[http://libmeta.ru/me/formula/aux/600_181_MATRITs]]/URI$ с коэффициентами из $URI[[http://libmeta.ru/me/formula/aux/600_182_MATRITs]]/URI$. М. над $URI[[http://libmeta.ru/me/formula/aux/600_183_MATRITs]]/URI$ наз. п о ли ном и а ль н о й. Для $URI[[http://libmeta.ru/me/formula/aux/600_184_MATRITs]]/URI$ из кольца $URI[[http://libmeta.ru/me/formula/aux/600_185_MATRITs]]/URI$ вводятся эле ме н т а р ны е о п е р а ц и и: 1) умножение строки или столбца М. на ненулевой элемент поля $URI[[http://libmeta.ru/me/formula/aux/600_186_MATRITs]]/URI$ прибавление к строке (столбцу) другой строки (столбца) М., умноженной на многочлен из $URI[[http://libmeta.ru/me/formula/aux/600_187_MATRITs]]/URI$. М. $URI[[http://libmeta.ru/me/formula/aux/600_188_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_189_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_190_MATRITs]]/URI$ наз. э кв і в а ле н т н ы м и $URI[[http://libmeta.ru/me/formula/aux/600_191_MATRITs]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/600_192_MATRITs]]/URI$ можно получить из $URI[[http://libmeta.ru/me/formula/aux/600_193_MATRITs]]/URI$ с помощью конечного числа әлементарных операцıй.
+
+Пусть
+
+$URI[[http://libmeta.ru/me/formula/aux/600_194_MATRITs]]/URI$,
+
+где: 1) $URI[[http://libmeta.ru/me/formula/aux/600_195_MATRITs]]/URI$ делится на $URI[[http://libmeta.ru/me/formula/aux/600_196_MATRITs]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/600_197_MATRITs]]/URI$, 3) коэффициенты старших членов многочленов $URI[[http://libmeta.ru/me/formula/aux/600_198_MATRITs]]/URI$ равны 1. Тогда $URI[[http://libmeta.ru/me/formula/aux/600_199_MATRITs]]/URI$ наз. к а н о н и ч е с к о й п о л ин о м и а л ь о й М. В каждом классе әквивалентных М. кольца $URI[[http://libmeta.ru/me/formula/aux/600_200_MATRITs]]/URI$ содержится едннственная канонич. М. Многочлены
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_27_MATRITs]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_28_MATRITs]]/URI
+\]
+
+- каноническая М., а $URI[[http://libmeta.ru/me/formula/aux/600_201_MATRITs]]/URI$, наз. и н в а р и а н тны ми м н ж и т е л я м и М. $URI[[http://libmeta.ru/me/formula/aux/600_202_MATRITs]]/URI$; число $URI[[http://libmeta.ru/me/formula/aux/600_203_MATRITs]]/URI$ совпадает с рангом М. $URI[[http://libmeta.ru/me/formula/aux/600_204_MATRITs]]/URI$. Матрица $URI[[http://libmeta.ru/me/formula/aux/600_205_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_206_MATRITs]]/URI$ тогда и только тогда имеет обратную в $URI[[http://libmeta.ru/me/formula/aux/600_207_MATRITs]]/URI$, когда $URI[[http://libmeta.ru/me/formula/aux/600_208_MATRITs]]/URI$. В свою очередь $URI[[http://libmeta.ru/me/formula/aux/600_209_MATRITs]]/URI$. Матрицы $URI[[http://libmeta.ru/me/formula/aux/600_210_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_211_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_212_MATRITs]]/URI$ тогда и только тогда әквивалентны, когда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_29_MATRITs]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/600_213_MATRITs]]/URI$.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/600_214_MATRITs]]/URI$. Матрица
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_30_MATRITs]]/URI
+\]
+
+наз. х а р ак т е ристическ ой мат рицей матрицы $URI[[http://libmeta.ru/me/formula/aux/600_215_MATRITs]]/URI$ х а р а к т е р и с т ич ес к и м м н о гоч л е но м М. А. Для любого многочлена вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_31_MATRITs]]/URI
+\]
+
+в $URI[[http://libmeta.ru/me/formula/aux/600_216_MATRITs]]/URI$ существует M. $URI[[http://libmeta.ru/me/formula/aux/600_217_MATRITs]]/URI$, для к-рой $URI[[http://libmeta.ru/me/formula/aux/600_218_MATRITs]]/URI$. Такова, напр., матрица
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_32_MATRITs]]/URI
+\]
+
+Характеристич. многочлены двух подобных М. совпадают. Однако из совпадения характеристич. многочленов двух М. еще не вытекает подобие этих М. К р и т ер и ц̆ п о д о б и я: $URI[[http://libmeta.ru/me/formula/aux/600_219_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_220_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_221_MATRITs]]/URI$ тогда и только тогда подобны, когда полиномиальные M. $URI[[http://libmeta.ru/me/formula/aux/600_222_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_223_MATRITs]]/URI$ эквивалентны. Множество всех $URI[[http://libmeta.ru/me/formula/aux/600_224_MATRITs]]/URI$. из $URI[[http://libmeta.ru/me/formula/aux/600_225_MATRITs]]/URI$, имеющих заданный характеристич. многочлен $URI[[http://libmeta.ru/me/formula/aux/600_226_MATRITs]]/URI$, разбивается на конечное число классов подобных M., это множество состоит из одного класса тогда и только тогда, когда $URI[[http://libmeta.ru/me/formula/aux/600_227_MATRITs]]/URI$ не имеет кратных множителей в $URI[[http://libmeta.ru/me/formula/aux/600_228_MATRITs]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/600_229_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_230_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_231_MATRITs]]/URI$. Тогда $URI[[http://libmeta.ru/me/formula/aux/600_232_MATRITs]]/URI$ наз. с об с т в е нным в е к тор ом м. $URI[[http://libmeta.ru/me/formula/aux/600_233_MATRITs]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/600_234_MATRITs]]/URI$ о б с т в н ны м 3 начен и ем. Әлемент $URI[[http://libmeta.ru/me/formula/aux/600_235_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_236_MATRITs]]/URI$ тогда и только тогда является собственным значением М. $URI[[http://libmeta.ru/me/formula/aux/600_237_MATRITs]]/URI$, когда $URI[[http://libmeta.ru/me/formula/aux/600_238_MATRITs]]/URI$-корень характеристич. многочлена М. $URI[[http://libmeta.ru/me/formula/aux/600_239_MATRITs]]/URI$. Совокупность всех столбцов $URI[[http://libmeta.ru/me/formula/aux/600_240_MATRITs]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/600_241_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_242_MATRITs]]/URI$ - фиксированное собственное значение М. $URI[[http://libmeta.ru/me/formula/aux/600_243_MATRITs]]/URI$, является подпространством пространства $URI[[http://libmeta.ru/me/formula/aux/600_244_MATRITs]]/URI$. Размерность этого подпространства равна д е фе к т у $URI[[http://libmeta.ru/me/formula/aux/600_245_MATRITs]]/URI$ M. $URI[[http://libmeta.ru/me/formula/aux/600_246_MATRITs]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/600_247_MATRITs]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/600_248_MATRITs]]/URI$ - ранг М. $URI[[http://libmeta.ru/me/formula/aux/600_249_MATRITs]]/URI$. Число $URI[[http://libmeta.ru/me/formula/aux/600_250_MATRITs]]/URI$ не превышает кратности корня $URI[[http://libmeta.ru/me/formula/aux/600_251_MATRITs]]/URI$, но не обязательно совпадает с ней. Матрица $URI[[http://libmeta.ru/me/formula/aux/600_252_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_253_MATRITs]]/URI$ тогда и только тогда подобна нек-рой диагональной М., когда $URI[[http://libmeta.ru/me/formula/aux/600_254_MATRITs]]/URI$ имеет $URI[[http://libmeta.ru/me/formula/aux/600_255_MATRITs]]/URI$ линейно независимых собственных векторов. Если для $URI[[http://libmeta.ru/me/formula/aux/600_256_MATRITs]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_33_MATRITs]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/600_257_MATRITs]]/URI$ различны, то верно следующее: $URI[[http://libmeta.ru/me/formula/aux/600_258_MATRITs]]/URI$ тогда и только тогда подобна диагональной М., когда для каждого $URI[[http://libmeta.ru/me/formula/aux/600_259_MATRITs]]/URI$, дефект М. $URI[[http://libmeta.ru/me/formula/aux/600_260_MATRITs]]/URI$ совпадает с $URI[[http://libmeta.ru/me/formula/aux/600_261_MATRITs]]/URI$. В частности, М., имеюцая $URI[[http://libmeta.ru/me/formula/aux/600_262_MATRITs]]/URI$ различных собственных значений, подобна диагональной. Для алгебраически замкнутого поля любая М. из $URI[[http://libmeta.ru/me/formula/aux/600_263_MATRITs]]/URI$ подобна нек-рой треугольной $URI[[http://libmeta.ru/me/formula/aux/600_264_MATRITs]]/URI$. из $URI[[http://libmeta.ru/me/formula/aux/600_265_MATRITs]]/URI$. Т е о р е м а $URI[[http://libmeta.ru/me/formula/aux/600_266_MATRITs]]/URI$ а м и л ьт о н а - К ә л и: пусть $URI[[http://libmeta.ru/me/formula/aux/600_267_MATRITs]]/URI$ - характеристич. многочлен М. $URI[[http://libmeta.ru/me/formula/aux/600_268_MATRITs]]/URI$, тогда $URI[[http://libmeta.ru/me/formula/aux/600_269_MATRITs]]/URI$ - нулевая М.
+
+М инима льны м многочленом М. $URI[[http://libmeta.ru/me/formula/aux/600_270_MATRITs]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/600_271_MATRITs]]/URI$ наз. многочлен $URI[[http://libmeta.ru/me/formula/aux/600_272_MATRITs]]/URI$ такой, что: 1) $URI[[http://libmeta.ru/me/formula/aux/600_273_MATRITs]]/URI$ коэффициент старшего члена $URI[[http://libmeta.ru/me/formula/aux/600_274_MATRITs]]/URI$ равен 1, 3) если $URI[[http://libmeta.ru/me/formula/aux/600_275_MATRITs]]/URI$, а степень $URI[[http://libmeta.ru/me/formula/aux/600_276_MATRITs]]/URI$ меньше степени $URI[[http://libmeta.ru/me/formula/aux/600_277_MATRITs]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/600_278_MATRITs]]/URI$. Всякая М. обладает единственным минимальным многочленом. Если $URI[[http://libmeta.ru/me/formula/aux/600_279_MATRITs]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/600_280_MATRITs]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/600_281_MATRITs]]/URI$ делится на минимальный многочлен $URI[[http://libmeta.ru/me/formula/aux/600_282_MATRITs]]/URI$ М. $URI[[http://libmeta.ru/me/formula/aux/600_283_MATRITs]]/URI$. Минимальный многочлен М. $URI[[http://libmeta.ru/me/formula/aux/600_284_MATRITs]]/URI$ совпадает с последним инвариантным множителем М. $URI[[http://libmeta.ru/me/formula/aux/600_285_MATRITs]]/URI$, а характеристич. многочлен - с произведением всех инвариантных множителеі̆. Минимальный многочлен М. равен
+
+\[
+URI[[http://libmeta.ru/me/formula/main/600_34_MATRITs]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/600_286_MATRITs]]/URI$ - наибольший общий делитель миноров порядка $URI[[http://libmeta.ru/me/formula/aux/600_287_MATRITs]]/URI$ М. $URI[[http://libmeta.ru/me/formula/aux/600_288_MATRITs]]/URI$. М. $URI[[http://libmeta.ru/me/formula/aux/600_289_MATRITs]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/600_290_MATRITs]]/URI$ тогда и только тогда подобна диагональной М. над полем $URI[[http://libmeta.ru/me/formula/aux/600_291_MATRITs]]/URI$, когда ее минимальный многочлен есть произведение различных линейных множителей из кольца $URI[[http://libmeta.ru/me/formula/aux/600_292_MATRITs]]/URI$.
+
+M. $URI[[http://libmeta.ru/me/formula/aux/600_293_MATRITs]]/URI$ наз. н и ль п о т е н т н о й, если $URI[[http://libmeta.ru/me/formula/aux/600_294_MATRITs]]/URI$ для нек-рого целого $URI[[http://libmeta.ru/me/formula/aux/600_295_MATRITs]]/URI$. М. нильпотентна тогда и только тогда, когда $URI[[http://libmeta.ru/me/formula/aux/600_296_MATRITs]]/URI$. Любая нильпотентная М. из $URI[[http://libmeta.ru/me/formula/aux/600_297_MATRITs]]/URI$ подобна нек-рой треугольной М. с нулевой диагональю.
+
+[2]</text>
+  <text_orig>прямоугольная таблица
+
+\[
+\left\|\begin{array}{lll}
+a_{11} &amp; \ldots &amp; a_{1 n} \\
+\cdots &amp; \cdots &amp; \cdots \\
+a_{m 1} &amp; \cdots &amp; a_{m n}
+\end{array}\right\|
+\]
+
+состоящая из $m$ строк и $n$ столбцов, элементы к-рой $a_{i j}$ принадлежат нек-рому множеству $K$. Таблица (1) наз. также $(m \times n)-\mathbf{a}$ т т и ц е й н а д $K$, или м а трице й ра зм е р а $m \times n$ на д $K$. Пусть $M_{m, n}(K)-$ совокупность всех $(m \times n)$-матриц над $K$. Если $m=n$, то (1) наз. к в а д р а т н о й м а т р и ц е й п ор я д к а $n$. Множество $M_{n}(K)$ - совокупность всех квадратных М. порядка $n$ над $K$.
+
+Для М. пользуются также обозначениями
+
+\[
+\left[\begin{array}{ccc}
+a_{11} &amp; \ldots &amp; a_{1 n} \\
+\ldots &amp; \ldots &amp; \ldots \\
+a_{m 1} &amp; \ldots &amp; a_{n n}
+\end{array}\right],\left(\begin{array}{ccc}
+a_{11} &amp; \ldots &amp; a_{1 m} \\
+\ldots &amp; \ldots &amp; \ldots \\
+a_{m 1} &amp; \ldots &amp; a_{m n}
+\end{array}\right) \text { и }\left\|a_{i j}\right\| .
+\]
+
+В наиболее важных случаях в качестве $K$ выступают поле действительных чисел, поле комплексных чисел, произвольное поле, кольцо многочленов, кольцо целых чисел, кольцо функцій, произвольное ассоциативное кольцо. Операции сложения и умножения, определенные на $K$, естественным образом переносятся на $M$. над $K$ и возникает м а т ричн о е исчи с ле ниепредмет теории $M$.
+
+Понятие М. впервые появилось в середине 19 в. в работах У. Гамильтона (W. Hamilton) и А. Кәли (А. Сауley). Фундаментальные результаты в теории М. принадлежат К. Вейерптрассу (К. Weierstrass), К. Жордану (C. Jordan), Г. Фробениусу (G. Frobenius). И. А. Лаппо-Данилевский развил теорию аналитич. функций многих матричных переменных и применил ее к изучению систем линейных дифференциальных уравнений.
+
+Действия над матрицами. Пусть $K$ - ассоциативное кольцо, $A=\left\|a_{i j}\right\|, B=\left\|b_{i j}\right\| \in M_{m, n}(K)$. Тогда с у м м а M. $A$ и $B$, по определению, равна
+
+\[
+A+B=\left\|a_{i j}+b_{i, i}\right\| \text {. }
+\]
+
+При этом $A+B \in M_{m, n}(K)$ и сложение М. ассоциативно и коммутатівно. Н у л е в о й М. из $M_{m, n}(K)$ наз. М. 0 , все әлементы к-рой равны нулю. Для всякой $A \in M_{m, n}(K)$
+
+\[
+A+0=0+A=A \text {. }
+\]
+
+Пусть $A=\left\|a_{i j}\right\| \in M_{m, k}(K), B=\left\|b_{i j}\right\| \in M_{k, n}(K)$. П р ои з в д е н и $\mathrm{M} . \dot{A}$ и $B$ определяется по правилу
+
+\[
+A B=\left\|c_{\mu v}\right\| \in M_{m, n}(K)
+\]
+
+где
+
+\[
+c_{\mu v}=\sum_{j=1}^{k} a_{\mu j} b_{j v}
+\]
+
+Произведение двух М. из $M_{n}(K)$ всегда определено и принадлежит $M_{n}(K)$. Умножение М. ассоциативно: если $A \in M_{m, k}(K), \quad B \in M_{k, n}(K), \quad C \in M_{n, p}(K)$, то
+
+\[
+(A B) C=A(B C)
+\]
+
+и $A B C \in M_{m}, p(K)$. Верен и дистрибутивный закон: для $A \in M_{m, n}(K), \stackrel{m}{B}, C \in M_{n, m}(K)$
+
+\[
+A(B+C)=A B+A C, \quad(B+C) A=B A+C A .
+\]
+
+В частности, (2) верно и для $A, B, C \in M_{n}(K)$. Следовательно, $M_{n}(K)$ - ассоциативное кольцо. Если $K-$ кольцо с единицей 1 , то $\mathbf{M}$.
+
+\[
+E_{n}=\left\|\begin{array}{ccc}
+1 &amp; \cdots &amp; 0 \\
+\cdots &amp; \cdots &amp; \cdots \\
+0 &amp; \cdots &amp; 1
+\end{array}\right\|
+\]
+
+будет единицей кольца $M_{n}(K)$ :
+
+\[
+E_{n} A=A E_{n}=A
+\]
+
+для всех $A \in M_{n}(K)$. Умножение М. некоммутативно: при $n \geqslant 2$ для любого ассоциативного кольца $K$ с единицей найдутся такие М. $A$ и $B$ в $M_{n}(K)$, что $A B \neq B A$.
+
+Пусть $\alpha \in K, \quad A=\left\|a_{i j}\right\| \in M_{m, n}(K) ; \quad$ пр о и з в е дени е М. $A$ н а э л е м ен т (чи сл о) $\alpha$, по определению, равно $\alpha A=\left\|\alpha a_{i j}\right\|$. Тогда
+
+\[
+\begin{aligned}
+(\alpha+\beta) A=\alpha A+\beta A &amp; , \alpha(\beta A)=(\alpha \beta) A, \alpha(A+B)= \\
+&amp; =\alpha A+\alpha B .
+\end{aligned}
+\]
+
+Пусть $K$ - кольцо с единицей. М. $e_{i j}$ определяется как М. в $M_{m, n}(A)$, единственный ненулевой әлемент к-рой равен 1 и расположен на позиции $(i, j), 1 \leqslant i \leqslant m$, $1 \leqslant j \leqslant n$. Для любой $A=\left\|a_{i j}\right\|$ из $M_{m, n}(K)$
+
+\[
+A=\sum_{i=1}^{m} \sum_{j=1}^{n} a_{i j} e_{i j}
+\]
+
+Если $K$ - поле, то $M_{m, n}(K)$ - векторное пространство над $K$ размерности $m n$, а M. $e_{i j}$ составляют один из базисов этого пространства.
+
+Клеточная матрица. Пусть $m=m_{1}+\ldots+m_{k}, \quad n=$ $=n_{1}+\ldots .+n_{l}$, где $m_{\mu}$ и $n_{v}$ - целые положительные числа. Тогда $M$. $A \in M_{m, n}(K)$ можно записать в виде
+
+\[
+A=\left\|\begin{array}{ccc}
+A_{11} &amp; \cdots &amp; A_{1 l} \\
+\cdots &amp; \cdots &amp; \cdots \\
+A_{k 1} &amp; \cdots &amp; A_{k l}
+\end{array}\right\|
+\]
+
+где $A_{\mu v} \in M_{m_{\mu}}, n_{v}(K), \mu=1, \ldots, k, v=1, \ldots, l$; М. (3) наз. к ле т оч н о й. Пусть $B \in M_{n, p}(K), \quad p=p_{1}$ 十 $+\ldots+p_{t}, p_{i}&gt;0$ и $B$ записана в виде
+
+\[
+B=\left\|\begin{array}{ccc}
+B_{11} &amp; \cdots &amp; B_{1 t} \\
+\cdots &amp; \cdots &amp; \cdots \\
+B_{l 1} &amp; \cdots &amp; B_{l t}
+\end{array}\right\|, \quad B_{i j} \in M_{n_{v} p_{j}}(K)
+\]
+
+Тогда
+
+\[
+A B=C=\left\|\begin{array}{ccc}
+C_{11} &amp; \cdots &amp; C_{1 t} \\
+\cdots &amp; \cdots &amp; \cdots \\
+C_{k 1} &amp; \cdots &amp; C_{k t}
+\end{array}\right\|, \quad C_{\mu_{j}}=\sum_{i=1}^{l} A_{\mu_{i} B_{i j}}
+\]
+
+Напр., если $n=k l$, то $M_{n}(K)$ можно рассматривать как $M_{n}(\Sigma)$, где $\Sigma=M_{l}(K)$.
+
+M. $A$ из $M_{n}(K)$ вида
+
+\[
+\left\|\begin{array}{cccc}
+A_{11} &amp; 0_{12} &amp; \ldots &amp; 0_{1 k} \\
+0_{21} &amp; A_{2} &amp; \ldots &amp; 0_{2 k} \\
+\cdots &amp; \ldots &amp; \ldots &amp; \ldots \\
+0_{k 1} &amp; 0_{k 2} &amp; \ldots &amp; A_{k}
+\end{array}\right\|,
+\]
+
+где $a_{i} \in M_{n_{i}}(K)$, а $0_{i j}-$ нулевая М. из $M_{n_{i}, n_{j}}(K)$, обозначается $\operatorname{diag}\left[A_{1}, \ldots, A_{k}\right]$ и наз. к ле т о ч н оди а г о на л ь н о й. Причем
+
+\[
+\begin{gathered}
+\operatorname{diag}\left[A_{1}, \ldots, A_{k}\right]+\operatorname{diag}\left[B_{1}, \ldots, B_{k}\right]= \\
+=\operatorname{diag}\left[A_{1}+B_{1}, \ldots, A_{k}+b_{k}\right] \\
+\operatorname{diag}\left[A_{1}, \ldots, A_{k}\right] \operatorname{diag}\left[B_{1}, \ldots, B_{k}\right]= \\
+=\operatorname{diag}\left[A_{1} B_{1}, \ldots, A_{k} B_{k}\right],
+\end{gathered}
+\]
+
+если порядки $A_{i}$ и $B_{i}$ совпадают для $i=1, \ldots, k$.
+
+Квадратные матрицы над полем. Пусть $K$ - Iоле, $A \in M_{n}(K), \operatorname{det} A$ - определитель матрицы $A$. M. $A$ наз. н е в ы р о ж д е н н о й, если $\operatorname{det} A \neq 0$. М. $A^{-1} \in$ $\in M_{n}(K)$ наз. о б р а т н о й к $A$, если $A A^{-1}=A^{-1} A=$ $=E_{n}$. Обратимость $A$ в $M_{n}(K)$ равносильна невырожденности и
+
+\[
+A^{-1}=\left\|c_{j}\right\|, \quad c_{i j}=\frac{A_{j i}}{\operatorname{det} A}
+\]
+
+где $A_{j i}$-алгебрачческое дополнение элемента $a_{j i}$; $\operatorname{det} A^{-1}=(\operatorname{det} A)^{-1}$. Для $A$ и $B$ из $M_{n}(K)$
+
+\[
+A B=E_{n} \Longleftrightarrow B A=E_{n}
+\]
+
+Совокупность всех обратимых $M$. из $M_{n}(K)$ образует группу относительно умножения, к-рая наз. П о лн о й л и н е й н о й г р у П П о й и обозначается $\mathrm{GL}(n, K)$. Степени М. $A$ определяются следующим обpazom:
+
+\[
+A^{0}=E_{n} ; A^{k}=A^{k-1} A
+\]
+
+для $k&gt;0$, а если $A$ обратима, то $A^{-k}=\left(A^{-1}\right)^{k}$. Для многочлена
+
+\[
+f(x)=\alpha_{0}+\alpha_{1} x+\ldots+\alpha_{t} x^{t}, f(x) \in K[x],
+\]
+
+определяется матричный многочлен
+
+\[
+f(A)=\alpha_{0} E_{n}+\alpha_{1} A+\ldots+\alpha_{t} A^{t}
+\]
+
+Всякая М. из $M_{n}(K)$ задает нек-рое линейное преобразование $n$-мерного векторного пространства $V$ над $K$. Пусть $v_{1}, . ., v_{n}$ базис в $V$, а $\sigma: V \rightarrow V-$ линейное преобразование пространства $V$. Тогда $\sigma$ однозначно определяется последовательностьо векторов
+
+\[
+u_{1}=\sigma\left(v_{1}\right), \ldots, u_{n}=\sigma\left(v_{n}\right) \text {. }
+\]
+
+При этом
+
+\[
+\left.\begin{array}{l}
+\sigma\left(v_{1}\right)=v_{1} a_{11}+\ldots+v_{n} a_{n 1}, \\
+\cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot \cdot v_{n} a_{n n}
+\end{array}\right\}
+\]
+
+где $a_{i j} \in K$. Матрица $A=\left\|a_{i j}\right\|$ наз. М. п р е о б р азо в а ни я $\sigma$ в базисе $v_{1}, \ldots, v_{n}$. При фиксированном базисе М. $A+B$ будет М. преобразования $\sigma+\tau$, а $A B-\mathrm{M}$. преобразования $\sigma \tau$, где $B-\mathrm{M}$. линейного преобразования $\tau$. Равенства (4) можно запıсать в виде
+
+\[
+\left[\sigma\left(v_{1}\right), \ldots, \sigma\left(v_{n}\right)\right]=\left[v_{1}, \ldots, v_{n}\right] A .
+\]
+
+Пусть $w_{1}, \ldots, w_{n}$ - тоже базис в $V$. Тогда $\left[w_{1}, \ldots\right.$, $\left.w_{n}\right]=\left[v_{1}, \ldots, v_{n}\right] T, \quad T \in \operatorname{GL}(n, K)$, a $T^{-1} A T-\dot{M} . \dot{\sigma}$ в базисе $w_{1}, \ldots, w_{n}$. М. $A$ и $B$ из $M_{n}(K)$ наз. п о д о бА Ы м, если в $\operatorname{GL}(n, K)$ найдется такая М. $T$, что $B=T^{-1} A T$. При этом $\operatorname{det} A=\operatorname{det} T^{-1} A T$ и ранги матриц $A$ и $B$ совпадают. Линейное преобразование $\sigma$ наз. н е в ы р о ж д е н ным, если $\sigma(V)=V ; \sigma$ тогда и только тогда невырождено, когда его М. невырождена. Если $V$ трактовать как пространство столбцов $M_{n, 1}(K)$, то линейное преобразование пространства $V$ представляет собой умножение столбцов $v \in V$ на $\mathrm{M}$. $A$ из $M_{n}(K)$ слева: $\sigma(v)=A v$, и М. преобразования $\sigma$ в базисе
+
+\[
+v_{1}=\left\|\begin{array}{l}
+1 \\
+0 \\
+\cdot \\
+\cdot \\
+\cdot \\
+0 \\
+0
+\end{array}\right\|, \ldots, v_{n}=\left\|\begin{array}{l}
+0 \\
+0 \\
+\cdot \\
+\cdot \\
+\cdot \\
+0 \\
+1
+\end{array}\right\|
+\]
+
+совпадает с $A$. М. $A \in M_{n}(K)$ тогда и только тогда вырождена, когда в $M_{n .1}(K)$ существует такой столбец $v \neq 0$, что $A v=0$.
+
+Транспонирование и матрицы специального вида. Пусть $A=\left\|a_{i j}\right\| \in M_{m, n}(K)$. Тогда М. $A^{\top}=\left\|a_{i j}^{\top}\right\| \in$ $\in M_{n, \boldsymbol{m}}(K)$, где $a_{i j}^{\top}=a_{i j}$,наз. т р а н с п о н и р о в а нн о й к $A$. Матрица $A^{\top}$ обозначается также ${ }^{t} A$ и $A^{\prime}$. Пусть $A=\left\|a_{i j}\right\| \in M_{m, n}(\mathbb{C})$. Тогда $\mathrm{M} . \bar{A}=\left\|\overline{a_{i j}}\right\|$, где $\overline{a_{i j}}$ - число, комплексно-сопряженное с $a_{i j}$, наз. ко м п ле к сн о-с оп р я е нно й с $A$. Матрица $A *=\bar{A}^{\top}$, где $A \in M_{n}(\mathbb{C})$, наз. э р м и т о в ос о п р я ж н н о й с $A$. Многие М., используемые в приложениях, имеют специальные названия.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_699ba998dc88e34769afg-1.jpg?height=526&amp;width=841&amp;top_left_y=476&amp;top_left_x=984)
+
+Полиномиальные матрицы. Пусть $K-$ поле, $K[x]-$ кольцо всех многочленов от $x$ с коэффициентами из $K$. М. над $K[x]$ наз. п о ли ном и а ль н о й. Для $\mathbf{~ и . ~}$ из кольца $M_{n}(K[x])$ вводятся эле ме н т а р ны е о п е р а ц и и: 1) умножение строки или столбца М. на ненулевой элемент поля $K, 2)$ прибавление к строке (столбцу) другой строки (столбца) М., умноженной на многочлен из $K[x]$. М. $A$ и $B$ из $M_{n}(K[x])$ наз. э кв і в а ле н т н ы м и $(A \sim B)$, если $B$ можно получить из $A$ с помощью конечного числа әлементарных операцıй.
+
+Пусть
+
+$N=\operatorname{diag}\left[f_{1}(x), \ldots, f_{r}(x), 0, \ldots, 0\right] \in M_{n}(K[x])$,
+
+где: 1) $\left.f_{i}(x) \neq 0,2\right) f_{j}(x)$ делится на $f_{i}(x)$ при $j&gt;i$, 3) коэффициенты старших членов многочленов $f_{i}(x)$ равны 1. Тогда $N$ наз. к а н о н и ч е с к о й п о л ин о м и а л ь о й М. В каждом классе әквивалентных М. кольца $M_{n}(K[x])$ содержится едннственная канонич. М. Многочлены
+
+\[
+f_{1}(x), \cdots, f_{r}(x),
+\]
+
+где
+
+\[
+N=\operatorname{diag}\left[f_{1}(x), \ldots, f_{r}(x), 0, \ldots, 0\right]
+\]
+
+- каноническая М., а $A \sim N$, наз. и н в а р и а н тны ми м н ж и т е л я м и М. $A$; число $r$ совпадает с рангом М. $A$. Матрица $A$ из $M_{n}(K[x])$ тогда и только тогда имеет обратную в $M_{n}(K[x])$, когда $A \sim E_{n}$. В свою очередь $A \sim E_{n} \Longleftrightarrow \operatorname{det} A \in K \backslash 0$. Матрицы $A$ и $B$ из $M_{n}(K[x])$ тогда и только тогда әквивалентны, когда
+
+\[
+\boldsymbol{B}=\boldsymbol{P} A Q,
+\]
+
+где $P, Q \in M_{n}(K[x]), \quad P \sim Q \sim E_{n}$.
+
+Пусть $A \in M_{n}(K)$. Матрица
+
+\[
+x E_{n}-A \in M_{n}(K[x])
+\]
+
+наз. х а р ак т е ристическ ой мат рицей матрицы $A, \operatorname{adet}\left(x E_{n}-A\right)-$ х а р а к т е р и с т ич ес к и м м н о гоч л е но м М. А. Для любого многочлена вида
+
+\[
+f(x)=\alpha_{0}+\alpha_{1} x+\ldots+\alpha_{n-1} x^{n-1}+x^{n} \in K[x]
+\]
+
+в $M_{n}(K)$ существует M. $F$, для к-рой $\operatorname{det}\left(x E_{n}-F\right)=f(x)$. Такова, напр., матрица
+
+\[
+F=\left\|\begin{array}{ccccc}
+0 &amp; 0 &amp; \ldots &amp; 0 &amp; -\alpha_{0} \\
+1 &amp; 0 &amp; \ldots &amp; 0 &amp; -\alpha_{1} \\
+0 &amp; 1 &amp; \ldots &amp; 0 &amp; -\alpha_{2} \\
+\ldots &amp; \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\
+0 &amp; 0 &amp; \ldots &amp; 1 &amp; -\alpha_{n-1}
+\end{array}\right\|
+\]
+
+Характеристич. многочлены двух подобных М. совпадают. Однако из совпадения характеристич. многочленов двух М. еще не вытекает подобие этих М. К р и т ер и ц̆ п о д о б и я: $A$ и $B$ из $M_{n}(K)$ тогда и только тогда подобны, когда полиномиальные M. $x E_{n}-A$ и $x E_{n}-B$ эквивалентны. Множество всех $M$. из $M_{n}(K)$, имеющих заданный характеристич. многочлен $f(x)$, разбивается на конечное число классов подобных M., это множество состоит из одного класса тогда и только тогда, когда $f(x)$ не имеет кратных множителей в $K[x]$. Пусть $A \in M_{n}(K), \quad v \in M_{n, 1}(K), \quad v \neq 0$ и $A v=\lambda v$, где $\lambda \in K$. Тогда $v$ наз. с об с т в е нным в е к тор ом м. $A$, а $\lambda-\mathrm{c}$ о б с т в н ны м 3 начен и ем. Әлемент $\lambda$ из $K$ тогда и только тогда является собственным значением М. $A$, когда $\lambda$-корень характеристич. многочлена М. $A$. Совокупность всех столбцов $u \in M_{n, 1}(K)$ таких, что $A u=\lambda u$, где $\lambda$ - фиксированное собственное значение М. $A$, является подпространством пространства $M_{n, 1}(K)$. Размерность этого подпространства равна д е фе к т у $d$ M. $\lambda E_{n}-A$ $\left(d=n-r\right.$, где $r$ - ранг М. $\left.\lambda E_{n}-A\right)$. Число $d$ не превышает кратности корня $\lambda$, но не обязательно совпадает с ней. Матрица $A$ из $M_{n}(K)$ тогда и только тогда подобна нек-рой диагональной М., когда $A$ имеет $n$ линейно независимых собственных векторов. Если для $A \in M_{n}(K)$
+
+\[
+\operatorname{det}\left(x E_{n}-A\right)=\left(x-\lambda_{1}\right)^{n_{1}} \ldots\left(x-\lambda_{t}\right)^{n}, \quad \lambda_{j} \in K,
+\]
+
+и $\lambda_{j}$ различны, то верно следующее: $A$ тогда и только тогда подобна диагональной М., когда для каждого $\lambda_{j}, j=1, \ldots, t$, дефект М. $\lambda_{j} E_{n}-A$ совпадает с $n_{j}$. В частности, М., имеюцая $n$ различных собственных значений, подобна диагональной. Для алгебраически замкнутого поля любая М. из $M_{n}(K)$ подобна нек-рой треугольной $\mathrm{M}$. из $M_{n}(K)$. Т е о р е м а $\Gamma$ а м и л ьт о н а - К ә л и: пусть $f(x)$ - характеристич. многочлен М. $A$, тогда $f(A)$ - нулевая М.
+
+М инима льны м многочленом М. $A \in$ $\in M_{n}(K)$ наз. многочлен $m(x) \in K[x]$ такой, что: 1) $m(A)=0,2)$ коэффициент старшего члена $m(x)$ равен 1, 3) если $0 \neq \psi(x) \in K[x]$, а степень $\psi(x)$ меньше степени $m(x)$, то $\psi(A) \neq 0$. Всякая М. обладает единственным минимальным многочленом. Если $g(x) \in K[x]$ и $g(A)=0$, то $g(x)$ делится на минимальный многочлен $m(x)$ М. $A$. Минимальный многочлен М. $A$ совпадает с последним инвариантным множителем М. $x E_{n}-A$, а характеристич. многочлен - с произведением всех инвариантных множителеі̆. Минимальный многочлен М. равен
+
+\[
+\frac{\operatorname{det}\left(x E_{n}-A\right)}{d_{n-1}(x)}
+\]
+
+где $d_{n-1}(x)$ - наибольший общий делитель миноров порядка $n-1$ М. $x E_{n}-A$. М. $A$ из $M_{n}(K)$ тогда и только тогда подобна диагональной М. над полем $K$, когда ее минимальный многочлен есть произведение различных линейных множителей из кольца $K[x]$.
+
+M. $A \in M_{n}(K)$ наз. н и ль п о т е н т н о й, если $A^{k}=0$ для нек-рого целого $k$. М. нильпотентна тогда и только тогда, когда $\operatorname{det}\left(x E_{n}-A\right)=x^{n}$. Любая нильпотентная М. из $M_{n}(K)$ подобна нек-рой треугольной М. с нулевой диагональю.
+
+[2] Лит.: [1] В о е в о д и н В. В., Линейная алгебра, М., 1974 ;
+
+[2] Г а н т м а х е р Ф. Р., Теория матриц, 3 изд., М., 1967; К у р о ш А. Г., Курс высшей алгебры, 11 изд., М., 1975; [5]
+М а л ь ц е в А. И., Основы линейной алгебры, 3 изд., М., 1970; [6] М и ш и н а А.. П., П р о с к у р я к о в И. В., Высшая алгебра, 2 изд., М., 1965; [7] Т ыш к е в и ч Р. И., Ф е д е нк 0 А. С., Јинейная алгебра и аналитическая геометрия, 2 изд., Минск, 1976; 8 ] Б е л Л м а н Р., Введение в теорию матриц,
+пер. с англ., 2 изд., М., 1976 ; [9] Б у р б а к и Н., Алгебра. Алгебраические структуры. Јинейная и полилинейная алгебра, пер. с франц., М., 1962; [10] Л а н к а с т е р П., Теория матриц,
+пер. с англ., М., 1978; [11] М а р к у с М., М и н к Х., Обзор по теории матриц и матричных неравенств, пер. с англ., М., 1972. Д. А. Супруненко.</text_orig>
+</article>

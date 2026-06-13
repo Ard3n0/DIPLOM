@@ -1,0 +1,709 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/918_TsENTRAЈ'NAJa" alphabetic_pos="918">
+  <title>ЦЕНТРАЈЬНАЯ ПРЕДЕЛЬНАЯ ТЕОРЕМА</title>
+  <authors/>
+  <pages>
+    <start>403</start>
+    <end>406</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] Г н е д е н к о Б. В., Курс теории вероятностей, 5 изд., М., 1969; 22] Ф е л л е р В., Введение в теорию вероятностей и ее приложения, пер. с англ., 2 изд., т. 1-2, М., 1967; [3] к р а м е р Г., Математические методы статистики, пер.с англ., 2 изд., М., 1975; [4] Г н д е н к б. В., К ол м г ор о в А. Н., Предельные распределения для сумм независимых случайных величин, М. - Л., 1949; [5] И $6 \mathrm{p}$ а $\gamma$ им о в И. А., Л и н н и к Ю. Н., Независимые и стационарно независимых случайных величин, М., 1972; [7] Золо т а р е в В. М., «теория вероятн. и ее примен.», 1967, Т. $12, \mathcal{N}_{4}$, с. $666-77 ;$ ' [8] р о т а р ь В. И., «матем. заметки», 1975, т. 18, 수 1, c. $129-35$; [9] ч е бы ш е в П. Л., Изор. тр., М., 1955; [10] Бхаттач а рия Р. Н., Р а нг а Р а о Р., Аппроксимация нормальным распределением и асимптотические разлоapproximation... B.- Hdlb. - N Y 1981: [12! , Nopal ш т е й н С. Н., Собр. соч., т. 4, М., $1964 ;$ [13] M а pк о в A. А., Избр. тр., М., 1951; [14] С' Т а ту л Я в Ич у с А. А., &quot;теория вероятн., и ее примен.&quot;, 1960 ,т.5,№2; [15] L é v y P., Théorie de l'addition des variables aléatoires, 2 éd.,P., 1954.I. $\pi$ poxopos.</literature_orig>
+    <unit>
+      <author>Гнеденко Б. В.</author>
+      <title>Курс теории вероятностей</title>
+      <publication>5 изд., М.</publication>
+      <year>1969</year>
+      <other>Введение в теорию вероятностей и ее приложения, пер. с англ., 2 изд., т. 1-2, М., 1967; [3] к р а м е р Г., Математические методы статистики, пер.с англ., 2 изд., М., 1975; [4] Г н д е н к б. В., К ол м г ор о в А. Н., Предельные распределения для сумм независимых случайных величин, М. - Л., 1949; [5] И $6 \mathrm{p}$ а $\gamma$ им о в И. А., Л и н н и к Ю. Н., Независимые и стационарно независимых случайных величин, М., 1972; [7] Золо т а р е в В. М., «теория вероятн. и ее примен.», 1967, Т. $12, \mathcal{N}_{4}$, с. $666-77 ;$ ' [8] р о т а р ь В. И., «матем. заметки», 1975, т. 18, 수 1, c. $129-35$; [9] ч е бы ш е в П. Л., Изор. тр., М., 1955; [10] Бхаттач а рия Р. Н., Р а нг а Р а о Р., Аппроксимация нормальным распределением и асимптотические разлоapproximation... B.- Hdlb. - N Y 1981: [12!, Nopal ш т е й н С. Н., Собр. соч., т. 4, М., $1964 ;$ [13] M а pк о в A. А., Избр. тр., М., 1951; [14] С' Т а ту л Я в Ич у с А. А., &quot;теория вероятн., и ее примен.&quot;, 1960, т.5, №2; [15] L é v y P., Théorie de l'addition des variables aléatoires, 2 éd., P., 1954.I. $\pi$ poxopos.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/918_1_TsENTRAЈ'NAJa">X_{1}, X_{2}, \ldots, X_{n}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_2_TsENTRAЈ'NAJa">S_{n}=X_{1}+X_{2}+\ldots+X_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_3_TsENTRAЈ'NAJa">F_{n}(x)=\mathrm{P}\left\{Z_{n}&lt;x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_4_TsENTRAЈ'NAJa">Z_{n}=\frac{S_{n}-A_{n}}{V \overline{B_{n}}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_5_TsENTRAЈ'NAJa">\Phi(x)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-z^{2} / 2} d z,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_6_TsENTRAЈ'NAJa">F_{n}(x) \rightarrow \Phi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_7_TsENTRAЈ'NAJa">\rightarrow \Phi(\beta)-\Phi(\alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_8_TsENTRAЈ'NAJa">X_{n, 1}, X_{n, 2}, \ldots, X_{n, n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_9_TsENTRAЈ'NAJa">X_{n, k}=\frac{X_{k}-a_{k}}{\sqrt{B_{n}}}, 1 \leqslant k \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_10_TsENTRAЈ'NAJa">Z_{n}=X_{n, 1}+X_{n, 2}+\ldots+X_{n, n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_11_TsENTRAЈ'NAJa">L_{n}=\frac{1}{B_{n}^{3 / 2}} \sum_{n=1}^{n} \mathrm{E}\left|X_{k}-a_{k}\right|^{3} \rightarrow 0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_12_TsENTRAЈ'NAJa">X_{n, 1}, X_{n, 2}, \ldots, X_{n, k},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_13_TsENTRAЈ'NAJa">\left.\mathrm{P} \max _{1 \leqslant k \leqslant k_{n}}\left|X_{n, k}\right|&gt;\varepsilon\right\} \rightarrow 0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_14_TsENTRAЈ'NAJa">\alpha_{n}=\max _{1 \leqslant k \leqslant k_{n}} L\left(F_{n, k}, \Phi_{n, k}\right) \rightarrow 0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_15_TsENTRAЈ'NAJa">\Delta_{n}(\varepsilon)=\sum_{k=1}^{k} \int_{|x|&gt;\varepsilon} x^{2} d F_{n, k}(x) \rightarrow 0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_16_TsENTRAЈ'NAJa">\left|F_{n}(x)-\Phi(x)\right| \leqslant C \frac{\mathrm{E}\left|X_{1}-a_{1}\right|^{3}}{\sigma_{1}^{3}} \cdot \frac{1}{r^{n}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_17_TsENTRAЈ'NAJa">F(x)-\Phi\left(\frac{x-a_{1}}{\sigma_{1}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_18_TsENTRAЈ'NAJa">\varlimsup_{|t| \rightarrow \infty}\left|\mathrm{E} e^{i t X_{k}}\right|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_19_TsENTRAЈ'NAJa">\begin{aligned}F_{n}(x)-\Phi(x)= &amp; \frac{e^{-x^{2} / 2}}{\sqrt{2 \pi}}\left(\frac{Q_{1}(x)}{\sqrt{n}}+\ldots+\frac{Q_{s-2}^{(x)}}{n^{(s-2) / 2}}+\right. \\&amp; \left.+o\left(\frac{1}{n(s-2) / 2}\right)\right)\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_20_TsENTRAЈ'NAJa">Z_{n}^{\prime}=\frac{X_{1}+X_{2}+\ldots+X_{n}}{\sqrt{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_21_TsENTRAЈ'NAJa">\sup _{A \in \Theta}\left|P_{n}(A)-\Phi_{\Lambda}(A)\right| \rightarrow 0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_22_TsENTRAЈ'NAJa">\mathrm{E} X_{k}=0, \mathrm{E}\left\|X_{k}\right\|^{2}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_23_TsENTRAЈ'NAJa">\Delta_{n}=\sup _{r}\left|\mathrm{P}\left\{Z_{n}^{\prime} \in S_{r}\right\}-\Phi_{\Lambda}\left(S_{r}\right)\right|=O\left(\frac{1}{n}\right) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_24_TsENTRAЈ'NAJa">\Delta_{n}=O\left(\frac{1}{n^{1-\varepsilon}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_25_TsENTRAЈ'NAJa">\begin{aligned}&amp; X_{k}(t)=-t \text { при } 0 \leqslant t \leqslant \theta_{k} \\&amp; X_{k}(t)=1-t \text { при } \theta_{k}&lt;t \leqslant 1 .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_26_TsENTRAЈ'NAJa">Z_{n}^{\prime}(t)=\frac{X_{1}(t)+\ldots+X_{n}(t)}{V_{\bar{n}}}=\sqrt{n}\left(G_{n}(t)-t\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/918_27_TsENTRAЈ'NAJa">\left\|Z_{n}^{\prime}\right\|^{2}=\int_{0}^{1}\left(Z_{n}^{\prime}(t)\right)^{2} d t=n \int_{0}^{1}\left(H_{n}(t)-t\right)^{2} d t</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_1_TsENTRAЈ'NAJa">\mathrm{e} X_{k}=a_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_2_TsENTRAЈ'NAJa">\mathrm{d} X_{k}=b_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_3_TsENTRAЈ'NAJa">a_{n}=\mathrm{e} S_{n}=a_{1}+\ldots+a_{n}, B_{n}=\mathrm{D} S_{n}=b_{1}+\ldots+b_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_4_TsENTRAЈ'NAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_5_TsENTRAЈ'NAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_6_TsENTRAЈ'NAJa">(\alpha, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_7_TsENTRAЈ'NAJa">\mathrm{p}\left\{\alpha&lt;z_{n}&lt;\beta\right\}=\mathrm{p}\left\{a_{n}+\alpha \sqrt{B_{n}}&lt;S_{n}&lt;A_{n}+\beta \sqrt{\bar{B}_{n}}\right\} \rightarrow</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_8_TsENTRAЈ'NAJa">n=1,2,3, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_9_TsENTRAЈ'NAJa">x_{n, k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_10_TsENTRAЈ'NAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_11_TsENTRAЈ'NAJa">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_12_TsENTRAЈ'NAJa">\max _{1 \leqslant k \leqslant n} \mathrm{P}\left\{\left|X_{n, k}\right|&gt;\varepsilon\right\}=\max _{1 \leqslant k \leqslant n} \mathrm{P}\left\{\left|X_{k}-a_{k}\right|&gt;\varepsilon \sqrt{\bar{B}_{n}}\right\} \leqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_13_TsENTRAЈ'NAJa">\leqslant \max _{1 \leqslant k \leqslant n} \frac{1}{\varepsilon^{3} B_{n}^{3 / 2}} \mathrm{E}\left|X_{k}-a_{k}\right|^{3} \leqslant L_{n} \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_14_TsENTRAЈ'NAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_15_TsENTRAЈ'NAJa">n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_16_TsENTRAЈ'NAJa">z_{n}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_17_TsENTRAЈ'NAJa">=x_{n, 1}+\ldots+X_{n, k_{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_18_TsENTRAЈ'NAJa">n \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_19_TsENTRAЈ'NAJa">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_20_TsENTRAЈ'NAJa">z_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_21_TsENTRAЈ'NAJa">z_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_22_TsENTRAЈ'NAJa">z_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_23_TsENTRAЈ'NAJa">\mathrm{e} X_{n, k}=0, \quad \sum_{n=1}^{k_{n}} \mathrm{D} X_{n, k}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_24_TsENTRAЈ'NAJa">f_{n}(x)=\mathrm{p}\left\{z_{n}&lt;x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_25_TsENTRAЈ'NAJa">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_26_TsENTRAЈ'NAJa">n \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_27_TsENTRAЈ'NAJa">l\left(f_{n, k}, \Phi_{n, k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_28_TsENTRAЈ'NAJa">f_{n, k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_29_TsENTRAЈ'NAJa">x_{n, k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_30_TsENTRAЈ'NAJa">\phi_{n, k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_31_TsENTRAЈ'NAJa">f_{n, k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_32_TsENTRAЈ'NAJa">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_33_TsENTRAЈ'NAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_34_TsENTRAЈ'NAJa">k, 1 \leqslant k \leqslant k_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_35_TsENTRAЈ'NAJa">n, k&lt;\sqrt{\alpha_{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_36_TsENTRAЈ'NAJa">f(x)=\mathrm{p}\left\{x_{k}&lt;x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_37_TsENTRAЈ'NAJa">f_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_38_TsENTRAЈ'NAJa">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_39_TsENTRAЈ'NAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_40_TsENTRAЈ'NAJa">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_41_TsENTRAЈ'NAJa">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_42_TsENTRAЈ'NAJa">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_43_TsENTRAЈ'NAJa">c \cdot \frac{4}{\sqrt{2 \pi}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_44_TsENTRAЈ'NAJa">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_45_TsENTRAЈ'NAJa">|x| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_46_TsENTRAЈ'NAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_47_TsENTRAЈ'NAJa">ө</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_48_TsENTRAЈ'NAJa">f_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_49_TsENTRAЈ'NAJa">\phi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_50_TsENTRAЈ'NAJa">l^{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_51_TsENTRAЈ'NAJa">f_{n}(x)-\Phi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_52_TsENTRAЈ'NAJa">\sigma=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_53_TsENTRAЈ'NAJa">f_{n}(x)-\Phi(x)=\frac{e^{-x^{2} / 2}}{\sqrt{2 \pi}}\left(\frac{Q_{1}(x)}{n^{1 / 2}}+\frac{Q_{2}(x)}{n}+\frac{Q_{3}(x)}{n^{3 / 2}}+\ldots\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_54_TsENTRAЈ'NAJa">q_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_55_TsENTRAЈ'NAJa">3 k-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_56_TsENTRAЈ'NAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_57_TsENTRAЈ'NAJa">(k-2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_58_TsENTRAЈ'NAJa">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_59_TsENTRAЈ'NAJa">\beta_{s}=\mathrm{e}\left|x_{k}\right|^{s}, s \geqslant 3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_60_TsENTRAЈ'NAJa">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_61_TsENTRAЈ'NAJa">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_62_TsENTRAЈ'NAJa">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_63_TsENTRAЈ'NAJa">\mathrm{e} X_{k}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_64_TsENTRAЈ'NAJa">\mathrm{e}\left\|x_{k}\right\|^{2}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_65_TsENTRAЈ'NAJa">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_66_TsENTRAЈ'NAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_67_TsENTRAЈ'NAJa">\phi_{\lambda}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_68_TsENTRAЈ'NAJa">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_69_TsENTRAЈ'NAJa">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_70_TsENTRAЈ'NAJa">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_71_TsENTRAЈ'NAJa">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_72_TsENTRAЈ'NAJa">\mathbb{r}^{m}:</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_73_TsENTRAЈ'NAJa">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_74_TsENTRAЈ'NAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_75_TsENTRAЈ'NAJa">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_76_TsENTRAЈ'NAJa">z_{n}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_77_TsENTRAЈ'NAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_78_TsENTRAЈ'NAJa">s_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_79_TsENTRAЈ'NAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_80_TsENTRAЈ'NAJa">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_81_TsENTRAЈ'NAJa">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_82_TsENTRAЈ'NAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_83_TsENTRAЈ'NAJa">\mathrm{e}\left\|x_{k}\right\|^{3+\alpha}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_84_TsENTRAЈ'NAJa">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_85_TsENTRAЈ'NAJa">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_86_TsENTRAЈ'NAJa">\alpha=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_87_TsENTRAЈ'NAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_88_TsENTRAЈ'NAJa">\theta_{1}, \theta_{2}, \ldots, \theta_{n}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_89_TsENTRAЈ'NAJa">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_90_TsENTRAЈ'NAJa">x_{k}(t), k=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_91_TsENTRAЈ'NAJa">=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_92_TsENTRAЈ'NAJa">l^{2}[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_93_TsENTRAЈ'NAJa">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_94_TsENTRAЈ'NAJa">\mathrm{e} X_{k}(t)=0,0 \leqslant t \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_95_TsENTRAЈ'NAJa">g_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_96_TsENTRAЈ'NAJa">\theta_{1}, \theta_{2}, \ldots \theta_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_97_TsENTRAЈ'NAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_98_TsENTRAЈ'NAJa">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_99_TsENTRAЈ'NAJa">\omega_{n}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_100_TsENTRAЈ'NAJa">n \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_101_TsENTRAЈ'NAJa">\omega_{n}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_102_TsENTRAЈ'NAJa">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_103_TsENTRAЈ'NAJa">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_104_TsENTRAЈ'NAJa">\omega_{n}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_105_TsENTRAЈ'NAJa">\omega^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_106_TsENTRAЈ'NAJa">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_107_TsENTRAЈ'NAJa">x_{2}, \ldots, X_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_108_TsENTRAЈ'NAJa">x_{k+p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_109_TsENTRAЈ'NAJa">x_{k+p+1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/918_110_TsENTRAЈ'NAJa">p</formula>
+  </formulas_aux>
+  <relations n="37">
+    <relation uri="http://libmeta.ru/me/relation/918_1_TsENTRAЈ'NAJa">
+      <rel_text>Чисел теория</rel_text>
+      <target>http://libmeta.ru/me/article/1006_ChISEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_2_TsENTRAЈ'NAJa">
+      <rel_text>Случайный элемент</rel_text>
+      <target>http://libmeta.ru/me/article/19_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_3_TsENTRAЈ'NAJa">
+      <rel_text>Распределений</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_4_TsENTRAЈ'NAJa">
+      <rel_text>Леви метрика</rel_text>
+      <target>http://libmeta.ru/me/article/244_LEVI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_5_TsENTRAЈ'NAJa">
+      <rel_text>Ляпунова теорема</rel_text>
+      <target>http://libmeta.ru/me/article/722_FLOKE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_6_TsENTRAЈ'NAJa">
+      <rel_text>Лапласа теорема</rel_text>
+      <target>http://libmeta.ru/me/article/217_LAPLASA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_7_TsENTRAЈ'NAJa">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_8_TsENTRAЈ'NAJa">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/me/article/175_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_9_TsENTRAЈ'NAJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_10_TsENTRAЈ'NAJa">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_11_TsENTRAЈ'NAJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_12_TsENTRAЈ'NAJa">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_13_TsENTRAЈ'NAJa">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_14_TsENTRAЈ'NAJa">
+      <rel_text>случайных величин</rel_text>
+      <target>http://libmeta.ru/me/article/1_SLUChAINAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_15_TsENTRAЈ'NAJa">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_16_TsENTRAЈ'NAJa">
+      <rel_text>расстояний»</rel_text>
+      <target>http://libmeta.ru/me/article/973_RASSLOENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_17_TsENTRAЈ'NAJa">
+      <rel_text>получивший</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_18_TsENTRAЈ'NAJa">
+      <rel_text>композиций»</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_19_TsENTRAЈ'NAJa">
+      <rel_text>дополняет</rel_text>
+      <target>http://libmeta.ru/me/article/335_DOPOLNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_20_TsENTRAЈ'NAJa">
+      <rel_text>функциї</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_21_TsENTRAЈ'NAJa">
+      <rel_text>метод характеристич</rel_text>
+      <target>http://libmeta.ru/me/article/838_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_22_TsENTRAЈ'NAJa">
+      <rel_text>доказательства</rel_text>
+      <target>http://libmeta.ru/me/article/331_DOKAZATEL'STV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_23_TsENTRAЈ'NAJa">
+      <rel_text>касается</rel_text>
+      <target>http://libmeta.ru/me/article/773_KASANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_24_TsENTRAЈ'NAJa">
+      <rel_text>последовательности</rel_text>
+      <target>http://libmeta.ru/me/article/534_POSLEDOVATEL'NOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_25_TsENTRAЈ'NAJa">
+      <rel_text>связаны</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_26_TsENTRAЈ'NAJa">
+      <rel_text>варианты</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_27_TsENTRAЈ'NAJa">
+      <rel_text>многочисленные</rel_text>
+      <target>http://libmeta.ru/me/article/725_MNOGOUGOL'NI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_28_TsENTRAЈ'NAJa">
+      <rel_text>статистит</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_29_TsENTRAЈ'NAJa">
+      <rel_text>распределением</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_30_TsENTRAЈ'NAJa">
+      <rel_text>распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_31_TsENTRAЈ'NAJa">
+      <rel_text>распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_32_TsENTRAЈ'NAJa">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_33_TsENTRAЈ'NAJa">
+      <rel_text>квадрата</rel_text>
+      <target>http://libmeta.ru/me/article/796_KVADRAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_34_TsENTRAЈ'NAJa">
+      <rel_text>распределением</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_35_TsENTRAЈ'NAJa">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_36_TsENTRAЈ'NAJa">
+      <rel_text>распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/918_37_TsENTRAЈ'NAJa">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+  </relations>
+  <text>общее название ряда предельных теорем теории вероятностей, указывающих условия, при выполнении к-рых суммы или другие функции от большого числа независимых или слабо зависимых случайных величин имеют распределения вероятностей, близкие к нормальному распределению.
+
+В классич. варианте Ц. п. т. речь идет о последовательности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_1_TsENTRAЈ'NAJa]]/URI
+\]
+
+независимых слутайных величин, имеющих конечные математич. ожидания $URI[[http://libmeta.ru/me/formula/aux/918_1_TsENTRAЈ'NAJa]]/URI$ и конечные дисперсии $URI[[http://libmeta.ru/me/formula/aux/918_2_TsENTRAЈ'NAJa]]/URI$, и о суммах
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_2_TsENTRAЈ'NAJa]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/918_3_TsENTRAЈ'NAJa]]/URI$. Функции распределения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_3_TsENTRAЈ'NAJa]]/URI
+\]
+
+т. н. &quot;нормированных» сумм
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_4_TsENTRAЈ'NAJa]]/URI
+\]
+
+имеющих математич. ожидание, равное нулю, и дисперсию, равную единице, сравнивают со «стандартной» нормальной функцией распределения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_5_TsENTRAЈ'NAJa]]/URI
+\]
+
+соответствующей нормальному распределению с нулевым математич. ожиданием и единичной дисперсиеї. Утверждение Ц. П. т. в әтом случае состоит в том, что при определенных условиях при $URI[[http://libmeta.ru/me/formula/aux/918_4_TsENTRAЈ'NAJa]]/URI$ и при любом $URI[[http://libmeta.ru/me/formula/aux/918_5_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_6_TsENTRAЈ'NAJa]]/URI
+\]
+
+или, что то же самое, для любого интервала $URI[[http://libmeta.ru/me/formula/aux/918_6_TsENTRAЈ'NAJa]]/URI$ имеет место сходимость
+
+$URI[[http://libmeta.ru/me/formula/aux/918_7_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_7_TsENTRAЈ'NAJa]]/URI
+\]
+
+(см. URI[[http://libmeta.ru/me/relation/918_6_TsENTRAЈ'NAJa]]/URI, URI[[http://libmeta.ru/me/relation/918_5_TsENTRAЈ'NAJa]]/URI).
+
+Понять наиболее отчетливо условия возникновения нормального распределения в качестве предельного для распределений сумм независимых случайных величин можно лишь переходя от схемы последовательности к серий схеме (см. [4]). В данном случае при каждом $URI[[http://libmeta.ru/me/formula/aux/918_8_TsENTRAЈ'NAJa]]/URI$ получают серию величин
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_8_TsENTRAЈ'NAJa]]/URI
+\]
+
+полагая
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_9_TsENTRAЈ'NAJa]]/URI
+\] Тогда случайные величины внутри каждой серии независимы и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_10_TsENTRAЈ'NAJa]]/URI
+\]
+
+Обычные условия приложимости Ц. п. т. (такие, как условие Ляпунова или условие Линдеберга - Феллера теоремы) влекут асимптотическую пренебрегаемость величин $URI[[http://libmeta.ru/me/formula/aux/918_9_TsENTRAЈ'NAJa]]/URI$. Напр., из условия Ляпунова с третьими моментами, т. е. из условия: при $URI[[http://libmeta.ru/me/formula/aux/918_10_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_11_TsENTRAЈ'NAJa]]/URI
+\]
+
+при любом $URI[[http://libmeta.ru/me/formula/aux/918_11_TsENTRAЈ'NAJa]]/URI$ вытекает неравенство $URI[[http://libmeta.ru/me/formula/aux/918_12_TsENTRAЈ'NAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/918_13_TsENTRAЈ'NAJa]]/URI$
+
+при $URI[[http://libmeta.ru/me/formula/aux/918_14_TsENTRAЈ'NAJa]]/URI$, а стремление к нулю величины в крайней левой части этой цепочки нөравенств и означает асимптотич. пренебрегаөмость образующих серии случайных величин.
+
+Пусть теперь дана произвольная схема серий
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_12_TsENTRAЈ'NAJa]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/918_15_TsENTRAЈ'NAJa]]/URI$, асимптотически пренебрегаемых и независимых внутри каждой серии случайных величин. Тогда, если предельное распределение для сумм $URI[[http://libmeta.ru/me/formula/aux/918_16_TsENTRAЈ'NAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/918_17_TsENTRAЈ'NAJa]]/URI$ существует и не является вырожденным, то оно будет нормальным тогда и только тогда, когда ири $URI[[http://libmeta.ru/me/formula/aux/918_18_TsENTRAЈ'NAJa]]/URI$ и любом $URI[[http://libmeta.ru/me/formula/aux/918_19_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_13_TsENTRAЈ'NAJa]]/URI
+\]
+
+т. е. когда максимальное слагаемое в $URI[[http://libmeta.ru/me/formula/aux/918_20_TsENTRAЈ'NAJa]]/URI$ становится исчезающе малым по сравнению со всей этой суммой (без условия (6) можно лишь утверждать, что предельный закон для $URI[[http://libmeta.ru/me/formula/aux/918_21_TsENTRAЈ'NAJa]]/URI$ принадлежит классу безгранично делимых распределений). Два дополнительных условия, к-рые вместе с (6) являются необходимыми и достаточными для с х о д м о с и распределений сумм $URI[[http://libmeta.ru/me/formula/aux/918_22_TsENTRAЈ'NAJa]]/URI$ к предельному, указаны в ст. Серий схема.
+
+При отказе от условия асимптотич. пренебрегаемости величин в рассмотренной выше схеме серий положение усложняется. Известная теорема Крамера о том, что сумма нескольких независимых случайных величин может быть нормально распределенной тогда и только тогда, когда каждое из слагаемых нормально распределено, позволяет предположить (как это сделал П. Леви (см. [15], теорема 38, гл. V), что сумма независимых случайных величин имеет распределение, близкое к нормальному, если «большие» слагаемые почти нормальны, а совокупность «малых» слагаемых подчиняется условиям «нормальности» распределений сумм асимптотически пренебрегаемых слагаемых. Впервые точную форму подобного рода соображения получили для схемы серий (5) с $URI[[http://libmeta.ru/me/formula/aux/918_23_TsENTRAЈ'NAJa]]/URI$ (см. [7]). Здесь для сходимости функций распределений $URI[[http://libmeta.ru/me/formula/aux/918_24_TsENTRAЈ'NAJa]]/URI$ к пормальной функции распределения $URI[[http://libmeta.ru/me/formula/aux/918_25_TsENTRAЈ'NAJa]]/URI$ необходимо и достаточно одновременное выполнение двух условий:
+
+1) при $URI[[http://libmeta.ru/me/formula/aux/918_26_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_14_TsENTRAЈ'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/918_27_TsENTRAЈ'NAJa]]/URI$ - расстояние Леви (см. URI[[http://libmeta.ru/me/relation/918_4_TsENTRAЈ'NAJa]]/URI) между функцией распределения $URI[[http://libmeta.ru/me/formula/aux/918_28_TsENTRAЈ'NAJa]]/URI$ случайной величины $URI[[http://libmeta.ru/me/formula/aux/918_29_TsENTRAЈ'NAJa]]/URI$ и нормальной функцией распределения $URI[[http://libmeta.ru/me/formula/aux/918_30_TsENTRAЈ'NAJa]]/URI$ с такими же математич. ожиданием и дисперсией как у $URI[[http://libmeta.ru/me/formula/aux/918_31_TsENTRAЈ'NAJa]]/URI$; 2) для любого $URI[[http://libmeta.ru/me/formula/aux/918_32_TsENTRAЈ'NAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/918_33_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_15_TsENTRAЈ'NAJa]]/URI
+\]
+
+где сумма распространена на те $URI[[http://libmeta.ru/me/formula/aux/918_34_TsENTRAЈ'NAJa]]/URI$, для к-рых Dx $URI[[http://libmeta.ru/me/formula/aux/918_35_TsENTRAЈ'NAJa]]/URI$.
+
+Эта формулировка всего ближе по звучанию к первоначальному предположению Леви. Возможны и иные, в известном смысле более напоминающие теорему Линдеберга - Феллера, формулировки (см. нашр., [8]).
+
+В настоящее время эта форма Ц. п. т. может быть получена как частный случай более общей теории суммирования в схеме серий без условия асимптотич. пренебрегаемости.
+
+В практич. отношении важно иметь представление о скорости сходимости распределений сумм к нормальному распределению. Этой цели служат неравенства и асимптотич. разложения (а также теория больших отклонений вероятностей, см. также Крамера теорема, Iiредельные теоремы). В последующем для простоты изложения рассматривается схема последовательности, причем величины, образующие последовательность (1), предполагаются одинаково распределенными. Пусть $URI[[http://libmeta.ru/me/formula/aux/918_36_TsENTRAЈ'NAJa]]/URI$. Типичным примером неравенств для отклонений функции распределения $URI[[http://libmeta.ru/me/formula/aux/918_37_TsENTRAЈ'NAJa]]/URI$ нормированной суммы (2) от $URI[[http://libmeta.ru/me/formula/aux/918_38_TsENTRAЈ'NAJa]]/URI$ служит н е р а в е в с т в о Б ә р ри-Э с с е ен а: при всех $URI[[http://libmeta.ru/me/formula/aux/918_39_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_16_TsENTRAЈ'NAJa]]/URI
+\]
+
+гле $URI[[http://libmeta.ru/me/formula/aux/918_40_TsENTRAЈ'NAJa]]/URI$ - абсолютная постоянная (наилучшее возможное значение константы $URI[[http://libmeta.ru/me/formula/aux/918_41_TsENTRAЈ'NAJa]]/URI$ в настоящее время (1984) неизвестно, однако можно утверждать, тто оно не превосходит 0,7655 ). Неравенства типа (7) становятся мало информативными, если слагаемые $URI[[http://libmeta.ru/me/formula/aux/918_42_TsENTRAЈ'NAJa]]/URI$ сами «почтинормальны». Так, если они в точности нормальны, то левая часть (7) равна нулю, а правая $URI[[http://libmeta.ru/me/formula/aux/918_43_TsENTRAЈ'NAJa]]/URI$. Поәтому с нач. 60-х гг. предлагались аналоги неравенства (7), у к-рых в правую часть вместо моментов случайных величин $URI[[http://libmeta.ru/me/formula/aux/918_44_TsENTRAЈ'NAJa]]/URI$ входят другие характеристики, подобные моментам, но определяемые по разности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_17_TsENTRAЈ'NAJa]]/URI
+\]
+
+так, что они становятся тем меньше, чем меньше эта разность. В правой части неравенства (7) и его обобщений можно поставить неограниченно убывающие при $URI[[http://libmeta.ru/me/formula/aux/918_45_TsENTRAЈ'NAJa]]/URI$ функции от $URI[[http://libmeta.ru/me/formula/aux/918_46_TsENTRAЈ'NAJa]]/URI$ (так наз. н е р а в н о м е р ны $URI[[http://libmeta.ru/me/formula/aux/918_47_TsENTRAЈ'NAJa]]/URI$ о ц е н к и). Рассматривают (см. [6]) и другие способы измерения «близости» $URI[[http://libmeta.ru/me/formula/aux/918_48_TsENTRAЈ'NAJa]]/URI$ к $URI[[http://libmeta.ru/me/formula/aux/918_49_TsENTRAЈ'NAJa]]/URI$, напр., в смыслө пространства $URI[[http://libmeta.ru/me/formula/aux/918_50_TsENTRAЈ'NAJa]]/URI$ (в так наз. глобальных вариантах Ц. п. т.) или способы, основанные на сравнении локальных характеристик распределений (см. Локальные предельные теоремы).
+
+Асимштотич. разложения для разности $URI[[http://libmeta.ru/me/formula/aux/918_51_TsENTRAЈ'NAJa]]/URI$ имеют вид (см. [4], [3]) для $URI[[http://libmeta.ru/me/formula/aux/918_52_TsENTRAЈ'NAJa]]/URI$ :
+
+$URI[[http://libmeta.ru/me/formula/aux/918_53_TsENTRAЈ'NAJa]]/URI$. Здесь $URI[[http://libmeta.ru/me/formula/aux/918_54_TsENTRAЈ'NAJa]]/URI$-многочлен степени $URI[[http://libmeta.ru/me/formula/aux/918_55_TsENTRAЈ'NAJa]]/URI$ относительно $URI[[http://libmeta.ru/me/formula/aux/918_56_TsENTRAЈ'NAJa]]/URI$ с коэфффициентами, зависящими только от первых $URI[[http://libmeta.ru/me/formula/aux/918_57_TsENTRAЈ'NAJa]]/URI$ моментов слагаемых. Для биномиального распределения первый член асимптотич. распределения был указан П. Лапласом (р. Laplace, 1812), а полностью, но без точного обоснования, оно было описано П. Л. Чебышевым (1887). Первая оценка остаточного члена в предположении, что конечен $URI[[http://libmeta.ru/me/formula/aux/918_58_TsENTRAЈ'NAJa]]/URI$-й момент $URI[[http://libmeta.ru/me/formula/aux/918_59_TsENTRAЈ'NAJa]]/URI$, и выполнено условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_18_TsENTRAЈ'NAJa]]/URI
+\] - так наз. условие Крамера, была дана Г. Крамером (н. Cramèr, 1928). Этот результат в несколько усиленной формулировке утверждает, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_19_TsENTRAЈ'NAJa]]/URI
+\]
+
+равномерно относительно $URI[[http://libmeta.ru/me/formula/aux/918_60_TsENTRAЈ'NAJa]]/URI$. Әто асимптотич. разложение служит основой для построения широкого класса случайных величин преобразований.
+
+Ц. П. т. может быть распространена на случай, когда последовательность (1) (или обобщающая ее схема серий) образована векторами из $URI[[http://libmeta.ru/me/formula/aux/918_61_TsENTRAЈ'NAJa]]/URI$-мерного евклидова пространства $URI[[http://libmeta.ru/me/formula/aux/918_62_TsENTRAЈ'NAJa]]/URI$. Пусть, напр., случайные векторы (1) независимы, одинаково распределены, не лежат с вероятностью 1 в какой-либо гиперплоскости и $URI[[http://libmeta.ru/me/formula/aux/918_63_TsENTRAЈ'NAJa]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/918_64_TsENTRAЈ'NAJa]]/URI$, где норма-обычная евклидова норма в $URI[[http://libmeta.ru/me/formula/aux/918_65_TsENTRAЈ'NAJa]]/URI$. В этих условия при $URI[[http://libmeta.ru/me/formula/aux/918_66_TsENTRAЈ'NAJa]]/URI$ распределения вероятностей нормированных сумм
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_20_TsENTRAЈ'NAJa]]/URI
+\]
+
+слабо сходятся (см. URI[[http://libmeta.ru/me/relation/918_3_TsENTRAЈ'NAJa]]/URI сходимость) к нормальному распределению $URI[[http://libmeta.ru/me/formula/aux/918_67_TsENTRAЈ'NAJa]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/918_68_TsENTRAЈ'NAJa]]/URI$ с математич. ожиданием, равным нулевому вектору, и матрицей ковариаций $URI[[http://libmeta.ru/me/formula/aux/918_69_TsENTRAЈ'NAJa]]/URI$, совпадающей с матрицей ковариаций $URI[[http://libmeta.ru/me/formula/aux/918_70_TsENTRAЈ'NAJa]]/URI$. Более того, эта сходимость равномерна на широких классах подмножеств $URI[[http://libmeta.ru/me/formula/aux/918_71_TsENTRAЈ'NAJa]]/URI$ (см. [10]). Напр., она равномерна на классе (5, всех борелевских выпуклых подмножеств $URI[[http://libmeta.ru/me/formula/aux/918_72_TsENTRAЈ'NAJa]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/918_73_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_21_TsENTRAЈ'NAJa]]/URI
+\]
+
+При дополнительных предположениях может быть оценена скорость сходимости в (8).
+
+Ц. п. т. может быть распространена и на последовательности (и на серии) независимых случайных векторов со значениями в бесконечномерных пространствах. При этом Ц. П. т. в «привычной» форме может и не иметь места (здесь сказывается влияние «геометрии» пространства, см. URI[[http://libmeta.ru/me/relation/918_2_TsENTRAЈ'NAJa]]/URI). Особый интерес представляет случай, когда члены последовательности (1) принимают значения из сепарабельного гильбертова пространства $URI[[http://libmeta.ru/me/formula/aux/918_74_TsENTRAЈ'NAJa]]/URI$. Приведенное выше утверждение о слабой сходимости в $URI[[http://libmeta.ru/me/formula/aux/918_75_TsENTRAЈ'NAJa]]/URI$ распределений нормированных сумм $URI[[http://libmeta.ru/me/formula/aux/918_76_TsENTRAЈ'NAJa]]/URI$ к нормальному остается верным в $URI[[http://libmeta.ru/me/formula/aux/918_77_TsENTRAЈ'NAJa]]/URI$ в точно той же формулировке. При этом сходимость равномерна на сравнительно узких классах (напр., на классе всех шаров с центром в нуле, или шаров, центры к-рых лежат в каком-либо фиксированном шаре; сходимость на классе всех шаров может не быть равномерной). Пусть $URI[[http://libmeta.ru/me/formula/aux/918_78_TsENTRAЈ'NAJa]]/URI$ - шар в $URI[[http://libmeta.ru/me/formula/aux/918_79_TsENTRAЈ'NAJa]]/URI$ радиуса $URI[[http://libmeta.ru/me/formula/aux/918_80_TsENTRAЈ'NAJa]]/URI$ и с центром в нуле. Аналогом неравенства (7) здесь служат неравенства следующего типа. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_22_TsENTRAЈ'NAJa]]/URI
+\]
+
+и распределение $URI[[http://libmeta.ru/me/formula/aux/918_81_TsENTRAЈ'NAJa]]/URI$ не сосредоточено ни в каком конечномерном подпространстве пространства $URI[[http://libmeta.ru/me/formula/aux/918_82_TsENTRAЈ'NAJa]]/URI$; тогда в специальных случаях (подобных разбираемому в указанном ниже примере)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_23_TsENTRAЈ'NAJa]]/URI
+\]
+
+при условии же $URI[[http://libmeta.ru/me/formula/aux/918_83_TsENTRAЈ'NAJa]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/918_84_TsENTRAЈ'NAJa]]/URI$ фиксировано і не слишком мало, можно утверждать, что при любом $URI[[http://libmeta.ru/me/formula/aux/918_85_TsENTRAЈ'NAJa]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_24_TsENTRAЈ'NAJa]]/URI
+\]
+
+(напр., это верно при $URI[[http://libmeta.ru/me/formula/aux/918_86_TsENTRAЈ'NAJa]]/URI$ ). К Ц. I. т. в бесконечномерных пространствах, и в частності в $URI[[http://libmeta.ru/me/formula/aux/918_87_TsENTRAЈ'NAJa]]/URI$, могут приводить и весьма конкретные задачи, налгр. математич. статистики.
+
+Ii р и м е р. Пусть $URI[[http://libmeta.ru/me/formula/aux/918_88_TsENTRAЈ'NAJa]]/URI$ - последовательность независимых случайных величин, распределенных равномерно на отрезке $URI[[http://libmeta.ru/me/formula/aux/918_89_TsENTRAЈ'NAJa]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/918_90_TsENTRAЈ'NAJa]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/918_91_TsENTRAЈ'NAJa]]/URI$, случайные әлементы лз пространства $URI[[http://libmeta.ru/me/formula/aux/918_92_TsENTRAЈ'NAJa]]/URI$ (пространство функций с интегрируемым по отношению к мере Лебега на $URI[[http://libmeta.ru/me/formula/aux/918_93_TsENTRAЈ'NAJa]]/URI$ квадратом) заданы следующим образом:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_25_TsENTRAЈ'NAJa]]/URI
+\]
+
+Тогда $URI[[http://libmeta.ru/me/formula/aux/918_94_TsENTRAЈ'NAJa]]/URI$ I
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_26_TsENTRAЈ'NAJa]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/918_95_TsENTRAЈ'NAJa]]/URI$ - эмширич. функция распределения, построенная по выборке $URI[[http://libmeta.ru/me/formula/aux/918_96_TsENTRAЈ'NAJa]]/URI$ объема $URI[[http://libmeta.ru/me/formula/aux/918_97_TsENTRAЈ'NAJa]]/URI$ из равномерного на $URI[[http://libmeta.ru/me/formula/aux/918_98_TsENTRAЈ'NAJa]]/URI$ распределения. При этом квадрат нормы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/918_27_TsENTRAЈ'NAJa]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/918_37_TsENTRAЈ'NAJa]]/URI со статистикой $URI[[http://libmeta.ru/me/formula/aux/918_99_TsENTRAЈ'NAJa]]/URI$ критерия Крамера-Мизеса-Смирнова (см. Крамера-Мизеса критерий). В соответствии с Ц. П. т. существует шредельное при $URI[[http://libmeta.ru/me/formula/aux/918_100_TsENTRAЈ'NAJa]]/URI$ URI[[http://libmeta.ru/me/relation/918_36_TsENTRAЈ'NAJa]]/URI для $URI[[http://libmeta.ru/me/formula/aux/918_101_TsENTRAЈ'NAJa]]/URI$. Оно URI[[http://libmeta.ru/me/relation/918_35_TsENTRAЈ'NAJa]]/URI с URI[[http://libmeta.ru/me/relation/918_34_TsENTRAЈ'NAJa]]/URI URI[[http://libmeta.ru/me/relation/918_33_TsENTRAЈ'NAJa]]/URI нормы нек-рого нормально распределенного URI[[http://libmeta.ru/me/relation/918_32_TsENTRAЈ'NAJa]]/URI в $URI[[http://libmeta.ru/me/formula/aux/918_102_TsENTRAЈ'NAJa]]/URI$ и носит название «омегаквадрат» URI[[http://libmeta.ru/me/relation/918_31_TsENTRAЈ'NAJa]]/URI. Таким образом, Ц. П. т. дает обоснование замены при больших $URI[[http://libmeta.ru/me/formula/aux/918_103_TsENTRAЈ'NAJa]]/URI$ URI[[http://libmeta.ru/me/relation/918_30_TsENTRAЈ'NAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/918_104_TsENTRAЈ'NAJa]]/URI$ URI[[http://libmeta.ru/me/relation/918_29_TsENTRAЈ'NAJa]]/URI $URI[[http://libmeta.ru/me/formula/aux/918_105_TsENTRAЈ'NAJa]]/URI$, тто и лежит в основе применения упомянутых выше URI[[http://libmeta.ru/me/relation/918_28_TsENTRAЈ'NAJa]]/URI. критериев.
+
+Известны URI[[http://libmeta.ru/me/relation/918_27_TsENTRAЈ'NAJa]]/URI URI[[http://libmeta.ru/me/relation/918_26_TsENTRAЈ'NAJa]]/URI обобщения Ц.п.т. на суммы зависимых величин (в случае однородных конечных цепей Маркова, простейшей неоднородной цепи с двумя состояниями и нек-рых др. схем; это было сделано самим А. А. Марковым, 1907-1911, дальнейшие обобщения URI[[http://libmeta.ru/me/relation/918_25_TsENTRAЈ'NAJa]]/URI, в первую отередь, с именем С. Н. Бернштейна [12]). Основная черта, свойственная всем такого рода обобщениям Ц.п.т., состоит в том (если говорить о схеме URI[[http://libmeta.ru/me/relation/918_24_TsENTRAЈ'NAJa]]/URI), что зависимость между событиями, определяемыми по $URI[[http://libmeta.ru/me/formula/aux/918_106_TsENTRAЈ'NAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/918_107_TsENTRAЈ'NAJa]]/URI$, и событиями, определяемыми по $URI[[http://libmeta.ru/me/formula/aux/918_108_TsENTRAЈ'NAJa]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/918_109_TsENTRAЈ'NAJa]]/URI$, становится исчезающе малой при неограниченном росте $URI[[http://libmeta.ru/me/formula/aux/918_110_TsENTRAЈ'NAJa]]/URI$.
+
+Что URI[[http://libmeta.ru/me/relation/918_23_TsENTRAЈ'NAJa]]/URI методов URI[[http://libmeta.ru/me/relation/918_22_TsENTRAЈ'NAJa]]/URI Ц. П. т., то в случае независимых слагаемых наиболее мощным является, как правило, URI[[http://libmeta.ru/me/relation/918_21_TsENTRAЈ'NAJa]]/URI. URI[[http://libmeta.ru/me/relation/918_20_TsENTRAЈ'NAJa]]/URI; его URI[[http://libmeta.ru/me/relation/918_19_TsENTRAЈ'NAJa]]/URI, а порой и заменяет так наз. «метод URI[[http://libmeta.ru/me/relation/918_18_TsENTRAЈ'NAJa]]/URI (см. [11]) (а также метод, URI[[http://libmeta.ru/me/relation/918_17_TsENTRAЈ'NAJa]]/URI условное название &quot;метода метрических URI[[http://libmeta.ru/me/relation/918_16_TsENTRAЈ'NAJa]]/URI). В случае зависимых величин наиболее әффективным, в целом, является метод семиинвариантов (см. напр.), [14]). Этот же метод пригоден для изученля URI[[http://libmeta.ru/me/relation/918_15_TsENTRAЈ'NAJa]]/URI от URI[[http://libmeta.ru/me/relation/918_14_TsENTRAЈ'NAJa]]/URI, более обцих чем суммы пли линейные URI[[http://libmeta.ru/me/relation/918_13_TsENTRAЈ'NAJa]]/URI (напр., для квацратичных и других Форм).
+
+Относительно Ц. П. т. в URI[[http://libmeta.ru/me/relation/918_12_TsENTRAЈ'NAJa]]/URI чисел см. URI[[http://libmeta.ru/me/relation/918_1_TsENTRAЈ'NAJa]]/URI вероятностная. Џ. П. т. применима и в нек-рых вопросах URI[[http://libmeta.ru/me/relation/918_11_TsENTRAЈ'NAJa]]/URI URI[[http://libmeta.ru/me/relation/918_10_TsENTRAЈ'NAJa]]/URI и URI[[http://libmeta.ru/me/relation/918_9_TsENTRAЈ'NAJa]]/URI URI[[http://libmeta.ru/me/relation/918_8_TsENTRAЈ'NAJa]]/URI. URI[[http://libmeta.ru/me/relation/918_7_TsENTRAЈ'NAJa]]/URI.</text>
+  <text_orig>общее название ряда предельных теорем теории вероятностей, указывающих условия, при выполнении к-рых суммы или другие функции от большого числа независимых или слабо зависимых случайных величин имеют распределения вероятностей, близкие к нормальному распределению.
+
+В классич. варианте Ц. п. т. речь идет о последовательности
+
+\[
+X_{1}, X_{2}, \ldots, X_{n}, \ldots
+\]
+
+независимых слутайных величин, имеющих конечные математич. ожидания $\mathrm{E} X_{k}=a_{k}$ и конечные дисперсии $\mathrm{D} X_{k}=b_{k}$, и о суммах
+
+\[
+S_{n}=X_{1}+X_{2}+\ldots+X_{n}
+\]
+
+Пусть $A_{n}=\mathrm{E} S_{n}=a_{1}+\ldots+a_{n}, B_{n}=\mathrm{D} S_{n}=b_{1}+\ldots+b_{n}$. Функции распределения
+
+\[
+F_{n}(x)=\mathrm{P}\left\{Z_{n}&lt;x\right\}
+\]
+
+т. н. &quot;нормированных» сумм
+
+\[
+Z_{n}=\frac{S_{n}-A_{n}}{V \overline{B_{n}}}
+\]
+
+имеющих математич. ожидание, равное нулю, и дисперсию, равную единице, сравнивают со «стандартной» нормальной функцией распределения
+
+\[
+\Phi(x)=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-z^{2} / 2} d z,
+\]
+
+соответствующей нормальному распределению с нулевым математич. ожиданием и единичной дисперсиеї. Утверждение Ц. П. т. в әтом случае состоит в том, что при определенных условиях при $n \rightarrow \infty$ и при любом $x$
+
+\[
+F_{n}(x) \rightarrow \Phi(x)
+\]
+
+или, что то же самое, для любого интервала $(\alpha, \beta)$ имеет место сходимость
+
+$\mathrm{P}\left\{\alpha&lt;Z_{n}&lt;\beta\right\}=\mathrm{P}\left\{A_{n}+\alpha \sqrt{B_{n}}&lt;S_{n}&lt;A_{n}+\beta \sqrt{\bar{B}_{n}}\right\} \rightarrow$
+
+\[
+\rightarrow \Phi(\beta)-\Phi(\alpha)
+\]
+
+(см. Лапласа теорема, Ляпунова теорема).
+
+Понять наиболее отчетливо условия возникновения нормального распределения в качестве предельного для распределений сумм независимых случайных величин можно лишь переходя от схемы последовательности к серий схеме (см. [4]). В данном случае при каждом $n=1,2,3, \ldots$ получают серию величин
+
+\[
+X_{n, 1}, X_{n, 2}, \ldots, X_{n, n}
+\]
+
+полагая
+
+\[
+X_{n, k}=\frac{X_{k}-a_{k}}{\sqrt{B_{n}}}, 1 \leqslant k \leqslant n
+\] Тогда случайные величины внутри каждой серии независимы и
+
+\[
+Z_{n}=X_{n, 1}+X_{n, 2}+\ldots+X_{n, n} .
+\]
+
+Обычные условия приложимости Ц. п. т. (такие, как условие Ляпунова или условие Линдеберга - Феллера теоремы) влекут асимптотическую пренебрегаемость величин $X_{n, k}$. Напр., из условия Ляпунова с третьими моментами, т. е. из условия: при $n \rightarrow \infty$
+
+\[
+L_{n}=\frac{1}{B_{n}^{3 / 2}} \sum_{n=1}^{n} \mathrm{E}\left|X_{k}-a_{k}\right|^{3} \rightarrow 0,
+\]
+
+при любом $\varepsilon&gt;0$ вытекает неравенство $\max _{1 \leqslant k \leqslant n} \mathrm{P}\left\{\left|X_{n, k}\right|&gt;\varepsilon\right\}=\max _{1 \leqslant k \leqslant n} \mathrm{P}\left\{\left|X_{k}-a_{k}\right|&gt;\varepsilon \sqrt{\bar{B}_{n}}\right\} \leqslant$ $\leqslant \max _{1 \leqslant k \leqslant n} \frac{1}{\varepsilon^{3} B_{n}^{3 / 2}} \mathrm{E}\left|X_{k}-a_{k}\right|^{3} \leqslant L_{n} \rightarrow 0$
+
+при $n \rightarrow \infty$, а стремление к нулю величины в крайней левой части этой цепочки нөравенств и означает асимптотич. пренебрегаөмость образующих серии случайных величин.
+
+Пусть теперь дана произвольная схема серий
+
+\[
+X_{n, 1}, X_{n, 2}, \ldots, X_{n, k},
+\]
+
+$n=1,2, \ldots$, асимптотически пренебрегаемых и независимых внутри каждой серии случайных величин. Тогда, если предельное распределение для сумм $Z_{n}=$ $=X_{n, 1}+\ldots+X_{n, k_{n}}$ существует и не является вырожденным, то оно будет нормальным тогда и только тогда, когда ири $n \longrightarrow \infty$ и любом $\varepsilon&gt;0$
+
+\[
+\left.\mathrm{P} \max _{1 \leqslant k \leqslant k_{n}}\left|X_{n, k}\right|&gt;\varepsilon\right\} \rightarrow 0,
+\]
+
+т. е. когда максимальное слагаемое в $Z_{n}$ становится исчезающе малым по сравнению со всей этой суммой (без условия (6) можно лишь утверждать, что предельный закон для $Z_{n}$ принадлежит классу безгранично делимых распределений). Два дополнительных условия, к-рые вместе с (6) являются необходимыми и достаточными для с х о д м о с и распределений сумм $Z_{n}$ к предельному, указаны в ст. Серий схема.
+
+При отказе от условия асимптотич. пренебрегаемости величин в рассмотренной выше схеме серий положение усложняется. Известная теорема Крамера о том, что сумма нескольких независимых случайных величин может быть нормально распределенной тогда и только тогда, когда каждое из слагаемых нормально распределено, позволяет предположить (как это сделал П. Леви (см. [15], теорема 38, гл. V), что сумма независимых случайных величин имеет распределение, близкое к нормальному, если «большие» слагаемые почти нормальны, а совокупность «малых» слагаемых подчиняется условиям «нормальности» распределений сумм асимптотически пренебрегаемых слагаемых. Впервые точную форму подобного рода соображения получили для схемы серий (5) с $\mathrm{E} X_{n, k}=0, \quad \sum_{n=1}^{k_{n}} \mathrm{D} X_{n, k}=1$ (см. [7]). Здесь для сходимости функций распределений $F_{n}(x)=\mathrm{P}\left\{Z_{n}&lt;x\right\}$ к пормальной функции распределения $\Phi(x)$ необходимо и достаточно одновременное выполнение двух условий:
+
+1) при $n \longrightarrow \infty$
+
+\[
+\alpha_{n}=\max _{1 \leqslant k \leqslant k_{n}} L\left(F_{n, k}, \Phi_{n, k}\right) \rightarrow 0,
+\]
+
+где $L\left(F_{n, k}, \Phi_{n, k}\right)$ - расстояние Леви (см. Леви метрика) между функцией распределения $F_{n, k}(x)$ случайной величины $X_{n, k}$ и нормальной функцией распределения $\Phi_{n, k}(x)$ с такими же математич. ожиданием и дисперсией как у $F_{n, k}(x)$; 2) для любого $\varepsilon&gt;0$ при $n \rightarrow \infty$
+
+\[
+\Delta_{n}(\varepsilon)=\sum_{k=1}^{k} \int_{|x|&gt;\varepsilon} x^{2} d F_{n, k}(x) \rightarrow 0,
+\]
+
+где сумма распространена на те $k, 1 \leqslant k \leqslant k_{n}$, для к-рых DX $n, k&lt;\sqrt{\alpha_{n}}$.
+
+Эта формулировка всего ближе по звучанию к первоначальному предположению Леви. Возможны и иные, в известном смысле более напоминающие теорему Линдеберга - Феллера, формулировки (см. нашр., [8]).
+
+В настоящее время эта форма Ц. п. т. может быть получена как частный случай более общей теории суммирования в схеме серий без условия асимптотич. пренебрегаемости.
+
+В практич. отношении важно иметь представление о скорости сходимости распределений сумм к нормальному распределению. Этой цели служат неравенства и асимптотич. разложения (а также теория больших отклонений вероятностей, см. также Крамера теорема, IIредельные теоремы). В последующем для простоты изложения рассматривается схема последовательности, причем величины, образующие последовательность (1), предполагаются одинаково распределенными. Пусть $F(x)=\mathrm{P}\left\{X_{k}&lt;x\right\}$. Типичным примером неравенств для отклонений функции распределения $F_{n}(x)$ нормированной суммы (2) от $\Phi(x)$ служит н е р а в е в с т в о Б ә р ри-Э с с е ен а: при всех $x$
+
+\[
+\left|F_{n}(x)-\Phi(x)\right| \leqslant C \frac{\mathrm{E}\left|X_{1}-a_{1}\right|^{3}}{\sigma_{1}^{3}} \cdot \frac{1}{r^{n}},
+\]
+
+гле $C$ - абсолютная постоянная (наилучшее возможное значение константы $C$ в настоящее время (1984) неизвестно, однако можно утверждать, тто оно не превосходит 0,7655 ). Неравенства типа (7) становятся мало информативными, если слагаемые $X_{k}$ сами «почтинормальны». Так, если они в точности нормальны, то левая часть (7) равна нулю, а правая $C \cdot \frac{4}{\sqrt{2 \pi}}$. Поәтому с нач. 60-х гг. предлагались аналоги неравенства (7), у к-рых в правую часть вместо моментов случайных величин $X_{k}$ входят другие характеристики, подобные моментам, но определяемые по разности
+
+\[
+F(x)-\Phi\left(\frac{x-a_{1}}{\sigma_{1}}\right)
+\]
+
+так, что они становятся тем меньше, чем меньше эта разность. В правой части неравенства (7) и его обобщений можно поставить неограниченно убывающие при $|x| \rightarrow \infty$ функции от $x$ (так наз. н е р а в н о м е р ны $ө$ о ц е н к и). Рассматривают (см. [6]) и другие способы измерения «близости» $F_{n}(x)$ к $\Phi(x)$, напр., в смыслө пространства $L^{p}$ (в так наз. глобальных вариантах Ц. п. т.) или способы, основанные на сравнении локальных характеристик распределений (см. Локальные предельные теоремы).
+
+Асимштотич. разложения для разности $F_{n}(x)-\Phi(x)$ имеют вид (см. [4], [3]) для $\sigma=1$ :
+
+$F_{n}(x)-\Phi(x)=\frac{e^{-x^{2} / 2}}{\sqrt{2 \pi}}\left(\frac{Q_{1}(x)}{n^{1 / 2}}+\frac{Q_{2}(x)}{n}+\frac{Q_{3}(x)}{n^{3 / 2}}+\ldots\right)$. Здесь $Q_{k}(x)$-многочлен степени $3 k-1$ относительно $x$ с коэфффициентами, зависящими только от первых $(k-2)$ моментов слагаемых. Для биномиального распределения первый член асимптотич. распределения был указан П. Лапласом (Р. Laplace, 1812), а полностью, но без точного обоснования, оно было описано П. Л. Чебышевым (1887). Первая оценка остаточного члена в предположении, что конечен $s$-й момент $\beta_{s}=\mathrm{E}\left|X_{k}\right|^{s}, s \geqslant 3$, и выполнено условие
+
+\[
+\varlimsup_{|t| \rightarrow \infty}\left|\mathrm{E} e^{i t X_{k}}\right|&lt;1
+\] - так наз. условие Крамера, была дана Г. Крамером (Н. Cramèr, 1928). Этот результат в несколько усиленной формулировке утверждает, что
+
+\[
+\begin{aligned}
+F_{n}(x)-\Phi(x)= &amp; \frac{e^{-x^{2} / 2}}{\sqrt{2 \pi}}\left(\frac{Q_{1}(x)}{\sqrt{n}}+\ldots+\frac{Q_{s-2}^{(x)}}{n^{(s-2) / 2}}+\right. \\
+&amp; \left.+o\left(\frac{1}{n(s-2) / 2}\right)\right)
+\end{aligned}
+\]
+
+равномерно относительно $x$. Әто асимптотич. разложение служит основой для построения широкого класса случайных величин преобразований.
+
+Ц. П. т. может быть распространена на случай, когда последовательность (1) (или обобщающая ее схема серий) образована векторами из $m$-мерного евклидова пространства $\mathbb{R}^{m}$. Пусть, напр., случайные векторы (1) независимы, одинаково распределены, не лежат с вероятностью 1 в какой-либо гиперплоскости и $\mathrm{E} X_{k}=0$ и $\mathrm{E}\left\|X_{k}\right\|^{2}&lt;\infty$, где норма-обычная евклидова норма в $\mathbb{R}^{m}$. В этих условия при $n \rightarrow \infty$ распределения вероятностей нормированных сумм
+
+\[
+Z_{n}^{\prime}=\frac{X_{1}+X_{2}+\ldots+X_{n}}{\sqrt{n}}
+\]
+
+слабо сходятся (см. Распределений сходимость) к нормальному распределению $\Phi_{\Lambda}$ в $\mathbb{R}^{m}$ с математич. ожиданием, равным нулевому вектору, и матрицей ковариаций $\Lambda$, совпадающей с матрицей ковариаций $X_{k}$. Более того, эта сходимость равномерна на широких классах подмножеств $\mathbb{R}^{m}$ (см. [10]). Напр., она равномерна на классе (5, всех борелевских выпуклых подмножеств $\mathbb{R}^{m}:$ при $n \rightarrow \infty$
+
+\[
+\sup _{A \in \Theta}\left|P_{n}(A)-\Phi_{\Lambda}(A)\right| \rightarrow 0 .
+\]
+
+При дополнительных предположениях может быть оценена скорость сходимости в (8).
+
+Ц. п. т. может быть распространена и на последовательности (и на серии) независимых случайных векторов со значениями в бесконечномерных пространствах. При этом Ц. П. т. в «привычной» форме может и не иметь места (здесь сказывается влияние «геометрии» пространства, см. Случайный элемент). Особый интерес представляет случай, когда члены последовательности (1) принимают значения из сепарабельного гильбертова пространства $H$. Приведенное выше утверждение о слабой сходимости в $\mathbb{R}^{m}$ распределений нормированных сумм $Z_{n}^{\prime}$ к нормальному остается верным в $H$ в точно той же формулировке. При этом сходимость равномерна на сравнительно узких классах (напр., на классе всех шаров с центром в нуле, или шаров, центры к-рых лежат в каком-либо фиксированном шаре; сходимость на классе всех шаров может не быть равномерной). Пусть $S_{r}$ - шар в $H$ радиуса $r$ и с центром в нуле. Аналогом неравенства (7) здесь служат неравенства следующего типа. Пусть
+
+\[
+\mathrm{E} X_{k}=0, \mathrm{E}\left\|X_{k}\right\|^{2}&lt;\infty
+\]
+
+и распределение $X_{k}$ не сосредоточено ни в каком конечномерном подпространстве пространства $H$; тогда в специальных случаях (подобных разбираемому в указанном ниже примере)
+
+\[
+\Delta_{n}=\sup _{r}\left|\mathrm{P}\left\{Z_{n}^{\prime} \in S_{r}\right\}-\Phi_{\Lambda}\left(S_{r}\right)\right|=O\left(\frac{1}{n}\right) ;
+\]
+
+при условии же $\mathrm{E}\left\|X_{k}\right\|^{3+\alpha}&lt;\infty$, где $\alpha$ фиксировано і не слишком мало, можно утверждать, что при любом $\varepsilon&gt;0$
+
+\[
+\Delta_{n}=O\left(\frac{1}{n^{1-\varepsilon}}\right)
+\]
+
+(напр., это верно при $\alpha=1$ ). К Ц. I. т. в бесконечномерных пространствах, и в частності в $H$, могут приводить и весьма конкретные задачи, налгр. математич. статистики.
+
+II р и м е р. Пусть $\theta_{1}, \theta_{2}, \ldots, \theta_{n}, \ldots$ - последовательность независимых случайных величин, распределенных равномерно на отрезке $[0,1]$. Пусть $X_{k}(t), k=$ $=1,2, \ldots$, случайные әлементы лз пространства $L^{2}[0,1]$ (пространство функций с интегрируемым по отношению к мере Лебега на $[0,1]$ квадратом) заданы следующим образом:
+
+\[
+\begin{aligned}
+&amp; X_{k}(t)=-t \text { при } 0 \leqslant t \leqslant \theta_{k} \\
+&amp; X_{k}(t)=1-t \text { при } \theta_{k}&lt;t \leqslant 1 .
+\end{aligned}
+\]
+
+Тогда $\mathrm{E} X_{k}(t)=0,0 \leqslant t \leqslant 1$ I
+
+\[
+Z_{n}^{\prime}(t)=\frac{X_{1}(t)+\ldots+X_{n}(t)}{V_{\bar{n}}}=\sqrt{n}\left(G_{n}(t)-t\right),
+\]
+
+где $G_{n}(t)$ - эмширич. функция распределения, построенная по выборке $\theta_{1}, \theta_{2}, \ldots \theta_{n}$ объема $n$ из равномерного на $[0,1]$ распределения. При этом квадрат нормы
+
+\[
+\left\|Z_{n}^{\prime}\right\|^{2}=\int_{0}^{1}\left(Z_{n}^{\prime}(t)\right)^{2} d t=n \int_{0}^{1}\left(H_{n}(t)-t\right)^{2} d t
+\]
+
+совпадает со статистикой $\omega_{n}^{2}$ критерия Крамера-Мизеса-Смирнова (см. Крамера-Мизеса критерий). В соответствии с Ц. П. т. существует шредельное при $n \longrightarrow \infty$ распределение для $\omega_{n}^{2}$. Оно совпадает с распределением квадрата нормы нек-рого нормально распределенного вектора в $H$ и носит название «омегаквадрат» распределения. Таким образом, Ц. П. т. дает обоснование замены при больших $n$ распределения $\omega_{n}^{2}$ распределением $\omega^{2}$, тто и лежит в основе применения упомянутых выше статистит. критериев.
+
+Известны многочисленные варианты обобщения Ц.п.т. на суммы зависимых величин (в случае однородных конечных цепей Маркова, простейшей неоднородной цепи с двумя состояниями и нек-рых др. схем; это было сделано самим А. А. Марковым, 1907-1911, дальнейшие обобщения связаны, в первую отередь, с именем С. Н. Бернштейна [12]). Основная черта, свойственная всем такого рода обобщениям Ц.п.т., состоит в том (если говорить о схеме последовательности), что зависимость между событиями, определяемыми по $X_{1}$, $X_{2}, \ldots, X_{k}$, и событиями, определяемыми по $X_{k+p}$, $X_{k+p+1}, \ldots$, становится исчезающе малой при неограниченном росте $p$.
+
+Что касается методов доказательства Ц. П. т., то в случае независимых слагаемых наиболее мощным является, как правило, метод характеристич. функциї; его дополняет, а порой и заменяет так наз. «метод композиций» (см. [11]) (а также метод, получивший условное название &quot;метода метрических расстояний»). В случае зависимых величин наиболее әффективным, в целом, является метод семиинвариантов (см. напр.), [14]). Этот же метод пригоден для изученля функций от случайных величин, более обцих чем суммы пли линейные функции (напр., для квацратичных и других Форм).
+
+Относительно Ц. П. т. в теории чисел см. Чисел теория вероятностная. Џ. П. т. применима и в нек-рых вопросах теории функций и теории динамич. систем. Лum.: [1] Г н е д е н к о Б. В., Курс теории вероятностей, 5 изд., М., 1969; 22] Ф е л л е р В., Введение в теорию вероятностей и ее приложения, пер. с англ., 2 изд., т. 1-2, М., 1967; [3] к р а м е р Г., Математические методы статистики, пер.
+с англ., 2 изд., М., 1975; [4] Г н д е н к б. В., К ол м г ор о в А. Н., Предельные распределения для сумм независимых случайных величин, М. - Л., 1949; [5] И $6 \mathrm{p}$ а $\Gamma$ им о в И. А., Л и н н и к Ю. Н., Независимые и стационарно независимых случайных величин, М., 1972; [7] Золо т а р е в В. М., «Теория вероятн. и ее примен.», 1967, Т. $12, \mathcal{N}_{4}$, с. $666-77 ;$ ' [8] р о т а р ь В. И., «Матем. заметки», 1975, т. 18, 수 1, c. $129-35$; [9] ч е бы ш е в П. Л., Изор. тр., М., 1955; [10] Бхаттач а рия Р. Н., Р а нг а Р а о Р., Аппроксимация нормальным распределением и асимптотические разлоapproximation... B.- Hdlb. - N Y 1981: [12! , Nopal ш т е й н С. Н., Собр. соч., т. 4, М., $1964 ;$ [13] M а pк о в A. А., Избр. тр., М., 1951; [14] С' Т а ту л Я в Ич у с А. А., &quot;Теория вероятн., и ее примен.&quot;, 1960 ,т.5,№2; [15] L é v y P., Théorie de l'addition des variables aléatoires, 2 éd.,
+P., 1954.
+I. $\Pi$ poxopos.</text_orig>
+</article>

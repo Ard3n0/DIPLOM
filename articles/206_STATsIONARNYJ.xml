@@ -1,0 +1,486 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/206_STATsIONARNYJ" alphabetic_pos="206">
+  <title>СТАЦИОНАРНЫЙ СЛУЧАЙЫЙ ПРОЦЕСС</title>
+  <authors/>
+  <pages>
+    <start>106</start>
+    <end>108</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] С л у ц к и й Е. Е., Избр. труды, М., 1960,![](https://cdn.mathpix.com/cropped/2023_07_09_30a26f9f2c9e301e3c2cg-1.jpg?height=45&amp;width=811&amp;top_left_y=858&amp;top_left_x=984)процессы, М., 1963; [3] К р а м е р Г., Л и д б е т т е p M. функций и их приложения, пер. с англ., М., 1969; [4] Х и нч и н А. Я., &quot;успехи матем. наук», 1938, в. 5, с. 42-51;![](https://cdn.mathpix.com/cropped/2023_07_09_30a26f9f2c9e301e3c2cg-1.jpg?height=37&amp;width=806&amp;top_left_y=979&amp;top_left_x=986)про1, т. 5, № 1, с. $3-14 ;$; С к о р ох о д А. В., Теория случайных процессов, т. 1, М., 1971; [8] W i e n e r N., Extrapolation, interpolation and smoothing of stationary time series, N. Y., 1949; [9] K p e й H M. $\gamma$., «докл. Ah Cccp&quot;, 1954, т. 94, № 1, c. 13-16; [10] D y m H., the inverse spectral problem, N. Y.-[a. o.], 1976; [11] \&amp; $\gamma_{-}$ the inverse spectral problem, N. Y.-La. 0.], 1976; [11] A J12] D o o b &quot;j. L., &quot;ann. Math. Stat.&quot;, 1944, v. 15, p. 229-82.</literature_orig>
+    <unit>
+      <author>Слуцкий Е. Е.</author>
+      <title>Избр. труды</title>
+      <publication>М.</publication>
+      <year>1960</year>
+      <other>![](https://cdn.mathpix.com/cropped/2023_07_09_30a26f9f2c9e301e3c2cg-1.jpg?height=45&amp;width=811&amp;top_left_y=858&amp;top_left_x=984)процессы, М., 1963; [3] К р а м е р Г., Л и д б е т т е p M. функций и их приложения, пер. с англ., М., 1969; [4] Х и нч и н А. Я., &quot;успехи матем. наук», 1938, в. 5, с. 42-51;![](https://cdn.mathpix.com/cropped/2023_07_09_30a26f9f2c9e301e3c2cg-1.jpg?height=37&amp;width=806&amp;top_left_y=979&amp;top_left_x=986)про1, т. 5, № 1, с. $3-14 ;$; С к о р ох о д А. В., Теория случайных процессов, т. 1, М., 1971; [8] W i e n e r N., Extrapolation, interpolation and smoothing of stationary time series, N. Y., 1949; [9] K p e й H M. $\gamma$., «докл. Ah Cccp&quot;, 1954, т. 94, № 1, c. 13-16; [10] D y m H., the inverse spectral problem, N. Y.-[a. o.], 1976; [11] \&amp; $\gamma_{-}$ the inverse spectral problem, N. Y.-La. 0.], 1976; [11] A J12] D o o b &quot;j. L., &quot;ann. Math. Stat.&quot;, 1944, v. 15, p. 229-82.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/206_1_STATsIONARNYJ">\lim _{T-S \rightarrow \infty} \int_{S}^{T} X(t) d t=\hat{X}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_2_STATsIONARNYJ">\lim _{T-S \rightarrow \infty} \sum_{t=S+1}^{T} X(t)=\hat{X}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_3_STATsIONARNYJ">\lim _{T \rightarrow \infty} T^{-1} \int_{0}^{T} b(\tau) d \tau=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_4_STATsIONARNYJ">\lim _{T \rightarrow \infty} T^{-1} \sum_{\tau=0}^{T-1} b(\tau)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_5_STATsIONARNYJ">b(\tau)=B(\tau)-m^{2}=\mathrm{E}[X(t+\tau)-m][X(t)-m],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_6_STATsIONARNYJ">Y_{\Phi}(s)=\Phi[X(t+s)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_7_STATsIONARNYJ">B(\tau)=\int_{\Lambda} e^{i \tau \lambda} d F(\lambda),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_8_STATsIONARNYJ">B(\tau)=\int_{\Lambda} e^{i \tau \lambda} \cdot f(\lambda) d \lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_9_STATsIONARNYJ">X(t)=\int_{\Lambda} e^{i t \lambda} d Z(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/206_10_STATsIONARNYJ">\begin{gathered}\mathrm{E} X(\varphi)=\mathrm{E} X\left(V_{a} \varphi\right), \\\mathrm{EX}\left(V_{a} \varphi_{1}\right) \overline{X\left(V_{a} \varphi_{2}\right)}=\mathrm{EX}\left(\varphi_{1}\right) \overline{X\left(\varphi_{2}\right),}\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_1_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_2_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_3_STATsIONARNYJ">t \rightarrow t+a, \quad X(t) \rightarrow X(t+a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_4_STATsIONARNYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_5_STATsIONARNYJ">\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_6_STATsIONARNYJ">\kappa</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_7_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_8_STATsIONARNYJ">x(t)=m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_9_STATsIONARNYJ">\mathrm{ex}(t+\tau) X(t)=B(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_10_STATsIONARNYJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_11_STATsIONARNYJ">b(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_12_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_13_STATsIONARNYJ">\mathrm{e} X(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_14_STATsIONARNYJ">\mathrm{e} X(t+\tau) X(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_15_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_16_STATsIONARNYJ">f_{t_{1}}, t_{2}, \ldots, t_{n}\left(x_{1}, x_{2}, \ldots, x_{n}\right) \quad n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_17_STATsIONARNYJ">\left\{x\left(t_{1}\right), X\left(t_{2}\right), \ldots, X\left(t_{n}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_18_STATsIONARNYJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_19_STATsIONARNYJ">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_20_STATsIONARNYJ">\left.t_{2}-t_{1}, \ldots, t_{n}-t_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_21_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_22_STATsIONARNYJ">\mathrm{e}|x(t)|&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_23_STATsIONARNYJ">&lt;\infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_24_STATsIONARNYJ">\mathrm{ex}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_25_STATsIONARNYJ">b(\tau) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_26_STATsIONARNYJ">\tau \rightarrow \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_27_STATsIONARNYJ">e X(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_28_STATsIONARNYJ">\phi[x(t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_29_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_30_STATsIONARNYJ">y_{\phi}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_31_STATsIONARNYJ">\hat{y}_{\phi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_32_STATsIONARNYJ">y_{\phi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_33_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_34_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_35_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_36_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_37_STATsIONARNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_38_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_39_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_40_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_41_STATsIONARNYJ">x=u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_42_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_43_STATsIONARNYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_44_STATsIONARNYJ">u \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_45_STATsIONARNYJ">u \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_46_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_47_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_48_STATsIONARNYJ">\left(y_{1}, Y_{2}\right)=\mathrm{E} Y_{\mathbf{1}} \bar{Y}_{\mathbf{2}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_49_STATsIONARNYJ">x(t) \rightarrow X(t+a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_50_STATsIONARNYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_51_STATsIONARNYJ">u_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_52_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_53_STATsIONARNYJ">u_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_54_STATsIONARNYJ">u_{a} U_{b}=U_{a+b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_55_STATsIONARNYJ">x(t)=u_{t} X(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_56_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_57_STATsIONARNYJ">u_{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_58_STATsIONARNYJ">x(t)=u_{t} X(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_59_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_60_STATsIONARNYJ">u_{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_61_STATsIONARNYJ">u_{a} U_{b}=U_{a+b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_62_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_63_STATsIONARNYJ">b(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_64_STATsIONARNYJ">b(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_65_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_66_STATsIONARNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_67_STATsIONARNYJ">\lambda=(-\infty, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_68_STATsIONARNYJ">\lambda=[-\pi, \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_69_STATsIONARNYJ">b(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_70_STATsIONARNYJ">|\tau| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_71_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_72_STATsIONARNYJ">x(t)-m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_73_STATsIONARNYJ">e X(t)=0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_74_STATsIONARNYJ">f(\lambda)=f^{\prime}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_75_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_76_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_77_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_78_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_79_STATsIONARNYJ">x(t)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_80_STATsIONARNYJ">=u_{t} X(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_81_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_82_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_83_STATsIONARNYJ">z(\lambda)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_84_STATsIONARNYJ">e d Z\left(\lambda_{1} \overline{d Z\left(\lambda_{2}\right)}=0\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_85_STATsIONARNYJ">\left.\lambda_{1} \neq \lambda_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_86_STATsIONARNYJ">e|d Z(\lambda)|^{2}=d F^{\prime}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_87_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_88_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_89_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_90_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_91_STATsIONARNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_92_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_93_STATsIONARNYJ">x(t))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_94_STATsIONARNYJ">b(\tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_95_STATsIONARNYJ">x(t) \rightarrow e^{i t \lambda,}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_96_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_97_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_98_STATsIONARNYJ">e^{i t \lambda}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_99_STATsIONARNYJ">l^{2}(d F)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_100_STATsIONARNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_101_STATsIONARNYJ">d F(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_102_STATsIONARNYJ">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_103_STATsIONARNYJ">l^{2}(d F)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_104_STATsIONARNYJ">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_105_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_106_STATsIONARNYJ">l^{2}(d F)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_107_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_108_STATsIONARNYJ">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_109_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_110_STATsIONARNYJ">x^{*}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_111_STATsIONARNYJ">x(s), s&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_112_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_113_STATsIONARNYJ">t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_114_STATsIONARNYJ">\kappa \quad X(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_115_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_116_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_117_STATsIONARNYJ">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_118_STATsIONARNYJ">y^{*} \mathrm{~K}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_119_STATsIONARNYJ">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_120_STATsIONARNYJ">t=s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_121_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_122_STATsIONARNYJ">y(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_123_STATsIONARNYJ">y(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_124_STATsIONARNYJ">x(t)=y(t)+n(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_125_STATsIONARNYJ">n(t))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_126_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_127_STATsIONARNYJ">t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_128_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_129_STATsIONARNYJ">h_{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_130_STATsIONARNYJ">l^{2}(d F)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_131_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_132_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_133_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_134_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_135_STATsIONARNYJ">t=s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_136_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_137_STATsIONARNYJ">x^{*}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_138_STATsIONARNYJ">y^{*}=y^{*}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_139_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_140_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_141_STATsIONARNYJ">t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_142_STATsIONARNYJ">t \leqslant t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_143_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_144_STATsIONARNYJ">x^{*}(s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_145_STATsIONARNYJ">y^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_146_STATsIONARNYJ">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_147_STATsIONARNYJ">e^{i \lambda}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_148_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_149_STATsIONARNYJ">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_150_STATsIONARNYJ">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_151_STATsIONARNYJ">f(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_152_STATsIONARNYJ">t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_153_STATsIONARNYJ">-T \leqslant t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_154_STATsIONARNYJ">[12]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_155_STATsIONARNYJ">x(\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_156_STATsIONARNYJ">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_157_STATsIONARNYJ">\varphi(t))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_158_STATsIONARNYJ">\left\{x\left(v_{a} \varphi_{1}\right), X\left(V_{a} \varphi_{2}\right), \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_159_STATsIONARNYJ">\left.X\left(V_{a} \varphi_{n}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_160_STATsIONARNYJ">v_{a} \varphi(t)=\varphi(t+a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_161_STATsIONARNYJ">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_162_STATsIONARNYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_163_STATsIONARNYJ">\varphi_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_164_STATsIONARNYJ">\varphi_{2}, \ldots . \varphi_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_165_STATsIONARNYJ">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_166_STATsIONARNYJ">\left\{x\left(\varphi_{1}\right), X\left(\varphi_{2}\right), \ldots, X\left(\varphi_{n}\right)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_167_STATsIONARNYJ">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_168_STATsIONARNYJ">x(\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_169_STATsIONARNYJ">b\left(\varphi_{1}, \varphi_{2}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/206_170_STATsIONARNYJ">\left.=E X\left(\varphi_{1}\right) \overline{X\left(\varphi_{2}\right.}\right)</formula>
+  </formulas_aux>
+  <relations n="27">
+    <relation uri="http://libmeta.ru/me/relation/206_1_STATsIONARNYJ">
+      <rel_text>Спектральное разложение</rel_text>
+      <target>http://libmeta.ru/me/article/124_SPEKTRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_2_STATsIONARNYJ">
+      <rel_text>Случайных процессов прогнозирование</rel_text>
+      <target>http://libmeta.ru/me/article/21_SLUChAJYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_3_STATsIONARNYJ">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_4_STATsIONARNYJ">
+      <rel_text>со стационарными приращениями</rel_text>
+      <target>http://libmeta.ru/me/article/15_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_5_STATsIONARNYJ">
+      <rel_text>случайного процесса</rel_text>
+      <target>http://libmeta.ru/me/article/11_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_6_STATsIONARNYJ">
+      <rel_text>спектральное разложение</rel_text>
+      <target>http://libmeta.ru/me/article/124_SPEKTRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_7_STATsIONARNYJ">
+      <rel_text>ля</rel_text>
+      <target>http://libmeta.ru/me/article/1058_L</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_8_STATsIONARNYJ">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_9_STATsIONARNYJ">
+      <rel_text>распределением</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_10_STATsIONARNYJ">
+      <rel_text>совпадает</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_11_STATsIONARNYJ">
+      <rel_text>функциях</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_12_STATsIONARNYJ">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_13_STATsIONARNYJ">
+      <rel_text>распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_14_STATsIONARNYJ">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_15_STATsIONARNYJ">
+      <rel_text>диффференцируемых</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_16_STATsIONARNYJ">
+      <rel_text>финитных</rel_text>
+      <target>http://libmeta.ru/me/article/705_FINItIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_17_STATsIONARNYJ">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_18_STATsIONARNYJ">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_19_STATsIONARNYJ">
+      <rel_text>случайного процесса</rel_text>
+      <target>http://libmeta.ru/me/article/11_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_20_STATsIONARNYJ">
+      <rel_text>марковского процесса</rel_text>
+      <target>http://libmeta.ru/me/article/568_MARKOVSKIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_21_STATsIONARNYJ">
+      <rel_text>многомерного</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_22_STATsIONARNYJ">
+      <rel_text>одномерную компоненту URI[[http://</rel_text>
+      <target>http://libmeta.ru/me/article/1177_ODNORODNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_23_STATsIONARNYJ">
+      <rel_text>представляют</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_24_STATsIONARNYJ">
+      <rel_text>плотностью</rel_text>
+      <target>http://libmeta.ru/me/article/316_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_25_STATsIONARNYJ">
+      <rel_text>процессов</rel_text>
+      <target>http://libmeta.ru/me/article/758_PROTsEDUR</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_26_STATsIONARNYJ">
+      <rel_text>интервале</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/206_27_STATsIONARNYJ">
+      <rel_text>линейной интерполяции</rel_text>
+      <target>http://libmeta.ru/me/article/325_LINEINAJa</target>
+    </relation>
+  </relations>
+  <text>О Дно родный в о в р е мен и с л у ч а йны й п р о ц е с с,- случайный процесс $URI[[http://libmeta.ru/me/formula/aux/206_1_STATsIONARNYJ]]/URI$, статистич. характеристики к-рого не меняются с течением времени $URI[[http://libmeta.ru/me/formula/aux/206_2_STATsIONARNYJ]]/URI$, т. е. инвариантны относительно временны́х сдвигов: $URI[[http://libmeta.ru/me/formula/aux/206_3_STATsIONARNYJ]]/URI$ при любом фиксированном значении $URI[[http://libmeta.ru/me/formula/aux/206_4_STATsIONARNYJ]]/URI$ (действительном или целочисленном в зависимости от того, идет ли речь о случайном процессе $URI[[http://libmeta.ru/me/formula/aux/206_5_STATsIONARNYJ]]/URI$ непрерывным или дискретным временем). Понятие С. с. П. широко исподьзуется в приложениях теории вероятностей $URI[[http://libmeta.ru/me/formula/aux/206_6_STATsIONARNYJ]]/URI$ различным разделам естествознания и техники, т. к. такие процессы с хорошей точностью описывают многие реальные явления, сопровождающиеся неупорядоченными флуктуациями. Так, напр., пульсации силы тока или напряжения в электрич. цепи (электрич. «шум») можно рассматривать как С. с. П., если цепь находится в стационарном режиме; пульсации скорости или давления в точке турбулентного течения представляют собой С. с. п., если течение является установившимся и т. Д.
+
+В математич. теории С. с. I. важную роль играют моменты распределений вероятностей значений процесса $URI[[http://libmeta.ru/me/formula/aux/206_7_STATsIONARNYJ]]/URI$, причем особенно важны моменты первых двух порядков - среднее значение С. с. П. Е $URI[[http://libmeta.ru/me/formula/aux/206_8_STATsIONARNYJ]]/URI$ и его корреляционная функция $URI[[http://libmeta.ru/me/formula/aux/206_9_STATsIONARNYJ]]/URI$. Во многих исследованиях по теории С. с. п. изучаются только те их свойства, к-рые полностью определяются одними лишь характеристиками $URI[[http://libmeta.ru/me/formula/aux/206_10_STATsIONARNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/206_11_STATsIONARNYJ]]/URI$ (т. н. к о рреля ци онная те о р и я или теория второго порядка С. с. п.). В связи с этим случайные процессы $URI[[http://libmeta.ru/me/formula/aux/206_12_STATsIONARNYJ]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/206_13_STATsIONARNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/206_14_STATsIONARNYJ]]/URI$ не зависят от значения $URI[[http://libmeta.ru/me/formula/aux/206_15_STATsIONARNYJ]]/URI$, часто выделяют в особый класс и наз. с т а циона рным и с луч а йными процесс а м и шп и р о к о с м ы с ле. Более частные случайные процессы, все характеристики к-рых не меняются со временем (так что функция распределения $URI[[http://libmeta.ru/me/formula/aux/206_16_STATsIONARNYJ]]/URI$-мерной случайной величины $URI[[http://libmeta.ru/me/formula/aux/206_17_STATsIONARNYJ]]/URI$ здесь при любом $URI[[http://libmeta.ru/me/formula/aux/206_18_STATsIONARNYJ]]/URI$ зависит только от $URI[[http://libmeta.ru/me/formula/aux/206_19_STATsIONARNYJ]]/URI$ разностей $URI[[http://libmeta.ru/me/formula/aux/206_20_STATsIONARNYJ]]/URI$, наз. с т а ци она рным и случ айны мй прод е с с а м и у с этим теория С. с. П. делится на теорию С. с. П. в узком смысле и теорию С. с. П. в широком смысле, использующие разный математич. аппарат.
+
+Теория С. с. п. в узком смысле может излагаться вне рамок теории вероятностей как теория однопараметрич. групп, сохраняющих меру преобразований измеримого пространства с мерой на нем; она близко соприкасается с общей теорией динамич. систем и эргодич. теорией. Важнейшей общей теоремой теории С. с. п. в узком смысле является ә р г о д и ч е с к а я те о р е а Би рк г оф а - Х ин ч ина, согласно к-рой для любого С. с. п. в узком смысле $URI[[http://libmeta.ru/me/formula/aux/206_21_STATsIONARNYJ]]/URI$, имеющего математич. ожидание (т. е. такого, что $URI[[http://libmeta.ru/me/formula/aux/206_22_STATsIONARNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/206_23_STATsIONARNYJ]]/URI$, с вероятностью 1 существует предел
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_1_STATsIONARNYJ]]/URI
+\]
+
+или
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_2_STATsIONARNYJ]]/URI
+\]
+
+(формула (1) относится к С. с. П. с непрерывным временем, а (1a) - п процессам с дискретным временем). В силу относящегося уже к теории С. с. п. в широком смысле результата Е. Е. С.іуцкого [1], утверждающего, что предел (1) или (1a) существует в смысле предела в среднем квадратичном и совпадает с $URI[[http://libmeta.ru/me/formula/aux/206_24_STATsIONARNYJ]]/URI$ тогда и только тогда, гогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_3_STATsIONARNYJ]]/URI
+\]
+
+или соответственно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_4_STATsIONARNYJ]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_5_STATsIONARNYJ]]/URI
+\]
+
+при условии (2) или (2a) (т. е., в частности, всегда, когда $URI[[http://libmeta.ru/me/formula/aux/206_25_STATsIONARNYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/206_26_STATsIONARNYJ]]/URI$ предел (1) или (1а) будет совшадать с $URI[[http://libmeta.ru/me/formula/aux/206_27_STATsIONARNYJ]]/URI$. Теорема Биркгофа - Хинчина может быть приложена и к всевозможным С. с. п. в узком смысле вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_6_STATsIONARNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/206_28_STATsIONARNYJ]]/URI$ - произвольный функционал от С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_29_STATsIONARNYJ]]/URI$, являющийся случайной величиной, имеюпцей математич. ожидание; если для всех таких С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_30_STATsIONARNYJ]]/URI$ соответствующий предел $URI[[http://libmeta.ru/me/formula/aux/206_31_STATsIONARNYJ]]/URI$ совпадает с E $URI[[http://libmeta.ru/me/formula/aux/206_32_STATsIONARNYJ]]/URI$, то С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_33_STATsIONARNYJ]]/URI$ наз. ме т р и ч е с к и т р а в т и в н ы м. Для гауссовских С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_34_STATsIONARNYJ]]/URI$, условие стационарности к-рых в узком смысле совпадаөт с условием стационарности в широком смысле, метрич. транзитивность будет иметь место тогда у только тогда, когда спектральная функция $URI[[http://libmeta.ru/me/formula/aux/206_35_STATsIONARNYJ]]/URI$ процесса $URI[[http://libmeta.ru/me/formula/aux/206_36_STATsIONARNYJ]]/URI$ является непрерывной функцией $URI[[http://libmeta.ru/me/formula/aux/206_37_STATsIONARNYJ]]/URI$ (см., нащр., [2], [3]). В общем случае нет простых необходимых б достаточных условий метрич. транзитивности С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_38_STATsIONARNYJ]]/URI$.
+
+Кроме указанного выше результата, касающегося. метрич. транзитивности, имеется также множество других результатов, относящихся к гауссовским С. с. П.; в частности, для таких процессов подробно изучен вопрос о локальных свойствах реализаций (т. е. отдельных наблюденных значений) С. с. ■. $URI[[http://libmeta.ru/me/formula/aux/206_39_STATsIONARNYJ]]/URI$, о статистич. свойствах последовательности нулей или максимумов реализации С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_40_STATsIONARNYJ]]/URI$ и точек пересечения ею заданного уровня (см., напр., [3]). Тұпичным примером результатов, касающихся пересечений уровня, является утверждение о том, что при широких условиях регулярности совокупность точек пересечения высокого уровня $URI[[http://libmeta.ru/me/formula/aux/206_41_STATsIONARNYJ]]/URI$ гауссовским С. с. Ш. $URI[[http://libmeta.ru/me/formula/aux/206_42_STATsIONARNYJ]]/URI$ в нек-ром специальном масштабе времени (зависящем от $URI[[http://libmeta.ru/me/formula/aux/206_43_STATsIONARNYJ]]/URI$ и быстро стремящемся к бесконечности при $URI[[http://libmeta.ru/me/formula/aux/206_44_STATsIONARNYJ]]/URI$ ) сходится при $URI[[http://libmeta.ru/me/formula/aux/206_45_STATsIONARNYJ]]/URI$ к пуассоновскому потоку событийі единичной интенсивности (см [3]).
+
+При рассмотрении С. с. ш. в широком смысле вводят в рассмотрение гильбертово пространство $URI[[http://libmeta.ru/me/formula/aux/206_46_STATsIONARNYJ]]/URI$ всевозможных линейных комбинаций значений процесса $URI[[http://libmeta.ru/me/formula/aux/206_47_STATsIONARNYJ]]/URI$ и пределов в среднем квадратичном последовательностей таких линейных комбинаций, скалярное произведение в к-ром задается формулой $URI[[http://libmeta.ru/me/formula/aux/206_48_STATsIONARNYJ]]/URI$. В таком случае преобразование $URI[[http://libmeta.ru/me/formula/aux/206_49_STATsIONARNYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/206_50_STATsIONARNYJ]]/URI$ - фиксированное число, будет порождать линейный унитарный оператор $URI[[http://libmeta.ru/me/formula/aux/206_51_STATsIONARNYJ]]/URI$, отображающй̈ пространство $URI[[http://libmeta.ru/me/formula/aux/206_52_STATsIONARNYJ]]/URI$ на себя; при этом семейство операторов $URI[[http://libmeta.ru/me/formula/aux/206_53_STATsIONARNYJ]]/URI$ очевидно удовлетворяет условию $URI[[http://libmeta.ru/me/formula/aux/206_54_STATsIONARNYJ]]/URI$, а значения $URI[[http://libmeta.ru/me/formula/aux/206_55_STATsIONARNYJ]]/URI$ представляют собой совокупность точек (кривую, если время $URI[[http://libmeta.ru/me/formula/aux/206_56_STATsIONARNYJ]]/URI$ непрерывно, и счетную последовательность точек, если время дискретно), переводимую в себя всеми операторами $URI[[http://libmeta.ru/me/formula/aux/206_57_STATsIONARNYJ]]/URI$. Соответственно этому теория С. с. п. в широком смысле может быть переформулирована в терминах функционального анализа как изучение совокупностей точек $URI[[http://libmeta.ru/me/formula/aux/206_58_STATsIONARNYJ]]/URI$ гильбертова пространства $URI[[http://libmeta.ru/me/formula/aux/206_59_STATsIONARNYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/206_60_STATsIONARNYJ]]/URI$ семейство линейных унитарных операторов таких, что $URI[[http://libmeta.ru/me/formula/aux/206_61_STATsIONARNYJ]]/URI$.
+
+Центральное место в теории С. с. п. в широком смысле занимают спектральные рассмотрения, опирающиеся на разложение случайного процесса $URI[[http://libmeta.ru/me/formula/aux/206_62_STATsIONARNYJ]]/URI$ и его корреляционной функции $URI[[http://libmeta.ru/me/formula/aux/206_63_STATsIONARNYJ]]/URI$ в интеграл Фурье - Стилтьеса. В силу теоремы Хинчина [4] (являющейся простым следствием аналитич. теоремы Бохнера об общем виде положительно определенной функции) корреляционная функция $URI[[http://libmeta.ru/me/formula/aux/206_64_STATsIONARNYJ]]/URI$ C. с. п. с непрерывным временем всегда может быть представлена в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_7_STATsIONARNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/206_65_STATsIONARNYJ]]/URI$ - ограниченная монотонно неубывающая функция $URI[[http://libmeta.ru/me/formula/aux/206_66_STATsIONARNYJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/206_67_STATsIONARNYJ]]/URI$; теорема Герглотца об общем виде положительно определенных последовательностей аналогичным образом показывае', тто такое же представление, но только с $URI[[http://libmeta.ru/me/formula/aux/206_68_STATsIONARNYJ]]/URI$, имеет место и для корреляционной функции С. с. П. с дискретным временем. Если корреляционная функция $URI[[http://libmeta.ru/me/formula/aux/206_69_STATsIONARNYJ]]/URI$ достаточно быстро убывает при $URI[[http://libmeta.ru/me/formula/aux/206_70_STATsIONARNYJ]]/URI$ (как әто чаще всего и бывает в приложениях при условии, что под $URI[[http://libmeta.ru/me/formula/aux/206_71_STATsIONARNYJ]]/URI$ понимается разность $URI[[http://libmeta.ru/me/formula/aux/206_72_STATsIONARNYJ]]/URI$, т. е. считается, что $URI[[http://libmeta.ru/me/formula/aux/206_73_STATsIONARNYJ]]/URI$, то интеграл в правой части (3) обращается в обыкновенный интеграл Фурье
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_8_STATsIONARNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/206_74_STATsIONARNYJ]]/URI$ - неотрицательная функция. Функция $URI[[http://libmeta.ru/me/formula/aux/206_75_STATsIONARNYJ]]/URI$ наз. с пе к т р а льн о ї ф у нк п и е й C. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_76_STATsIONARNYJ]]/URI$, а функция $URI[[http://libmeta.ru/me/formula/aux/206_77_STATsIONARNYJ]]/URI$ (в случаях, когда имеет место равенство (4j) - его с п е к т р а л ь н о й п ло тн о с т ь ю. Исходя из формулы Хинчина (3) (или из задания С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_78_STATsIONARNYJ]]/URI$ в виде совокупности точек $URI[[http://libmeta.ru/me/formula/aux/206_79_STATsIONARNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/206_80_STATsIONARNYJ]]/URI$ гильбертова пространства $URI[[http://libmeta.ru/me/formula/aux/206_81_STATsIONARNYJ]]/URI$ и теоремы Стоуна о спектральном представлении однопараметрич. групп унитарных операторов в гильбертовом пространстве), можно также показать, что сам процесс $URI[[http://libmeta.ru/me/formula/aux/206_82_STATsIONARNYJ]]/URI$ допускает спектральное разложение вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_9_STATsIONARNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/206_83_STATsIONARNYJ]]/URI$ с лу ча й ная фу нкция с неко рре ли и о ванными пр и ра шения ми (т. е. такая, что $URI[[http://libmeta.ru/me/formula/aux/206_84_STATsIONARNYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/206_85_STATsIONARNYJ]]/URI$, удовлетворяющая условию $URI[[http://libmeta.ru/me/formula/aux/206_86_STATsIONARNYJ]]/URI$, а интеграл справа понимается как предел в среднем квадратичном соответствующей последовательности интегральных сумм. Разложение (5) дает основание рассматривать любой С. с. п. в широком смысле $URI[[http://libmeta.ru/me/formula/aux/206_87_STATsIONARNYJ]]/URI$ как суперпозицию совокупности некоррелированных друг с другом гармонич. колебаний различных частот со случайным амплитудами и фазами; при этом спектральная функция $URI[[http://libmeta.ru/me/formula/aux/206_88_STATsIONARNYJ]]/URI$ и спектральная плотность $URI[[http://libmeta.ru/me/formula/aux/206_89_STATsIONARNYJ]]/URI$ определяют распределение средней энергии (или, точнее, мощности) входящих в состав $URI[[http://libmeta.ru/me/formula/aux/206_90_STATsIONARNYJ]]/URI$ гармонич. колебаний по спект ру частот $URI[[http://libmeta.ru/me/formula/aux/206_91_STATsIONARNYJ]]/URI$ (в связи с чем в прикладных исследованиях функция $URI[[http://libmeta.ru/me/formula/aux/206_92_STATsIONARNYJ]]/URI$ часто наз. такяе ә н е р г е т и ч ес к и с пек т о м, илис пе к т ром мо що ос т и, С с. П. $URI[[http://libmeta.ru/me/formula/aux/206_93_STATsIONARNYJ]]/URI$.
+
+Спектральное разложение корреляционної функции $URI[[http://libmeta.ru/me/formula/aux/206_94_STATsIONARNYJ]]/URI$, задаваемое формулоӥ (3), показывает, что отображение $URI[[http://libmeta.ru/me/formula/aux/206_95_STATsIONARNYJ]]/URI$ переводящее элементы $URI[[http://libmeta.ru/me/formula/aux/206_96_STATsIONARNYJ]]/URI$ гильбертова пространства $URI[[http://libmeta.ru/me/formula/aux/206_97_STATsIONARNYJ]]/URI$ в әлементы $URI[[http://libmeta.ru/me/formula/aux/206_98_STATsIONARNYJ]]/URI$ гильбертова пространства $URI[[http://libmeta.ru/me/formula/aux/206_99_STATsIONARNYJ]]/URI$ комплекснозначных функций на множестве $URI[[http://libmeta.ru/me/formula/aux/206_100_STATsIONARNYJ]]/URI$ с интегрируемым по $URI[[http://libmeta.ru/me/formula/aux/206_101_STATsIONARNYJ]]/URI$ квадратом модуля, является изометрич. отображением $URI[[http://libmeta.ru/me/formula/aux/206_102_STATsIONARNYJ]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/206_103_STATsIONARNYJ]]/URI$. Это отображение может быть далее продолжено до изометрического Јинеӥного отображения, $URI[[http://libmeta.ru/me/formula/aux/206_104_STATsIONARNYJ]]/URI$ всего пространства $URI[[http://libmeta.ru/me/formula/aux/206_105_STATsIONARNYJ]]/URI$ в пространство $URI[[http://libmeta.ru/me/formula/aux/206_106_STATsIONARNYJ]]/URI$, что позволяет переформулировать многие задачи теории С. с. п. в широком смысле в виде задач теории функций.
+
+Значительная qасть теории С. с. п. в широком смысле посвящена методам решения линейных ашпроксимационных задач для таких процессов, т. е. методам нахождения линейной комбинации каких-то «известных» значений $URI[[http://libmeta.ru/me/formula/aux/206_107_STATsIONARNYJ]]/URI$, к-рая лучше всего (в смысле минимума среднеквадратичной ошибки) приблиякает нек-рое «неизвестное» значение того же процесса или какую-то «неизвестную» случайную величину $URI[[http://libmeta.ru/me/formula/aux/206_108_STATsIONARNYJ]]/URI$. В частности, задача об оптимальной линейной әкстраполяции C. с. Ii. $URI[[http://libmeta.ru/me/formula/aux/206_109_STATsIONARNYJ]]/URI$ состоит в отыскании наилучшего приближения $URI[[http://libmeta.ru/me/formula/aux/206_110_STATsIONARNYJ]]/URI$ к значению $URI[[http://libmeta.ru/me/formula/aux/206_111_STATsIONARNYJ]]/URI$, линейно зависящего от «прошлых значений» $URI[[http://libmeta.ru/me/formula/aux/206_112_STATsIONARNYJ]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/206_113_STATsIONARNYJ]]/URI$; задача об оптимальной линейной интерполяции - в отыскании наилучшего приближения $URI[[http://libmeta.ru/me/formula/aux/206_114_STATsIONARNYJ]]/URI$, линейно зависящего от значений $URI[[http://libmeta.ru/me/formula/aux/206_115_STATsIONARNYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/206_116_STATsIONARNYJ]]/URI$ пробегает все значения, не принадлежащие выделенному интервалу оси вре- мени (к к-рому принадлежит $URI[[http://libmeta.ru/me/formula/aux/206_117_STATsIONARNYJ]]/URI$ ); задача об оптимальной линейной фильтрации может быть сформулирована как задача отыскания наилучшего прибллижения $URI[[http://libmeta.ru/me/formula/aux/206_118_STATsIONARNYJ]]/URI$ нек-рой случайной величине $URI[[http://libmeta.ru/me/formula/aux/206_119_STATsIONARNYJ]]/URI$ (обычно являющейся значением при каком-то $URI[[http://libmeta.ru/me/formula/aux/206_120_STATsIONARNYJ]]/URI$ корреляционно связанного с $URI[[http://libmeta.ru/me/formula/aux/206_121_STATsIONARNYJ]]/URI$ C. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_122_STATsIONARNYJ]]/URI$, причем чаще всего $URI[[http://libmeta.ru/me/formula/aux/206_123_STATsIONARNYJ]]/URI$ здесь играет роль «сигнала», а $URI[[http://libmeta.ru/me/formula/aux/206_124_STATsIONARNYJ]]/URI$ - известная из наблюдений сумма «сигнала» и искажающего его «шума» $URI[[http://libmeta.ru/me/formula/aux/206_125_STATsIONARNYJ]]/URI$, линейно зависящего от значений $URI[[http://libmeta.ru/me/formula/aux/206_126_STATsIONARNYJ]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/206_127_STATsIONARNYJ]]/URI$ (см. URI[[http://libmeta.ru/me/relation/206_2_STATsIONARNYJ]]/URI, Случайных прочессов бильтрация).
+
+Геометрически все эти задачи сводятся к задаче опускания перпендикуляра из нек-рої точки гильбертова пространства $URI[[http://libmeta.ru/me/formula/aux/206_128_STATsIONARNYJ]]/URI$ (или его расширения) на заданное подпространство этого пространства. Опираясь на такую геометрич. интерполяцию и на изоморфизм пространств $URI[[http://libmeta.ru/me/formula/aux/206_129_STATsIONARNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/206_130_STATsIONARNYJ]]/URI$, А. Н. Колмогоров вывел общие формулы, позволяющие по спектральной функции $URI[[http://libmeta.ru/me/formula/aux/206_131_STATsIONARNYJ]]/URI$ C. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_132_STATsIONARNYJ]]/URI$ с дискретным временем $URI[[http://libmeta.ru/me/formula/aux/206_133_STATsIONARNYJ]]/URI$ определить средний квадрат ошибки оптимальной линейной экстраполяции или интерполяции, отвечающей случаю, когда значение $URI[[http://libmeta.ru/me/formula/aux/206_134_STATsIONARNYJ]]/URI$ неизвестно только при $URI[[http://libmeta.ru/me/formula/aux/206_135_STATsIONARNYJ]]/URI$ (см. [2], [5] - [6]). В применении к задаче экстраполяции аналогичные же результаты для С. с. П. $URI[[http://libmeta.ru/me/formula/aux/206_136_STATsIONARNYJ]]/URI$ с непрерывным временем были позже получены М. Г. Крейном и К. Каруненом (к. Karhunen). Н. Винер [8] показал, что нахождение наилучшего приближения $URI[[http://libmeta.ru/me/formula/aux/206_137_STATsIONARNYJ]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/206_138_STATsIONARNYJ]]/URI$ в случае задач об оптимальной линейной экстраполяции и фильтрации может быть сведено к решению нек-рого интегрального уравнения тича Винера - Хопфора пли (в случае дискретного $URI[[http://libmeta.ru/me/formula/aux/206_139_STATsIONARNYJ]]/URI$ ) - дискретного аналога такого уравнения, что позволяет применить здесь метод факторизации (см. Винера - Хопба уравнение, Винера - Хопба метод). Что касается задач об оптимальной линейной экстраполяции или фильтрации С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_140_STATsIONARNYJ]]/URI$ с непрерывным временем в случае, когда известны не все его прошлые значения при $URI[[http://libmeta.ru/me/formula/aux/206_141_STATsIONARNYJ]]/URI$, но лишь значения на конечном интервале - $URI[[http://libmeta.ru/me/formula/aux/206_142_STATsIONARNYJ]]/URI$, а также задачи оптимальной линейной интерполяции такого $URI[[http://libmeta.ru/me/formula/aux/206_143_STATsIONARNYJ]]/URI$, то они могут быть сведены к нек-рым задачам о восстановлении дифференциального уравнения специального вџда («обобщенного уравнения струшы») по его спектру (cm. [9], [10]).
+
+Указанные выше подходы к решению задач об оптимальной линейной экстраполяции, интерполяции и фильтрации только в нек-рых исключительных случаях позволяют получить достаточно простые явные формулы для искомого наилучшего приближения $URI[[http://libmeta.ru/me/formula/aux/206_144_STATsIONARNYJ]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/206_145_STATsIONARNYJ]]/URI$, могущие с успехом применяться на практике. Важный случай, гогда такие явные формулы существуют, - это случаї С. с. п. $URI[[http://libmeta.ru/me/formula/aux/206_146_STATsIONARNYJ]]/URI$ с рациональной относительно $URI[[http://libmeta.ru/me/formula/aux/206_147_STATsIONARNYJ]]/URI$ (если $URI[[http://libmeta.ru/me/formula/aux/206_148_STATsIONARNYJ]]/URI$ дискретно) или относительно $URI[[http://libmeta.ru/me/formula/aux/206_149_STATsIONARNYJ]]/URI$ (если $URI[[http://libmeta.ru/me/formula/aux/206_150_STATsIONARNYJ]]/URI$ непрерывно) спектральной плотностью $URI[[http://libmeta.ru/me/formula/aux/206_151_STATsIONARNYJ]]/URI$, специально изученный (в применении к задачам экстраполяции и фильтрации по значениям при $URI[[http://libmeta.ru/me/formula/aux/206_152_STATsIONARNYJ]]/URI$ ) Н. Винером [8]. Позже было показано, что для таких С. с. п. с рациональной спектральной шлотностью находится явное решение и задач о URI[[http://libmeta.ru/me/relation/206_27_STATsIONARNYJ]]/URI, экстраполяции и фильтрации по данным на конечном URI[[http://libmeta.ru/me/relation/206_26_STATsIONARNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/206_153_STATsIONARNYJ]]/URI$ (см., напр., [2], [11]). Простота URI[[http://libmeta.ru/me/relation/206_25_STATsIONARNYJ]]/URI с рациональной сшектральной URI[[http://libmeta.ru/me/relation/206_24_STATsIONARNYJ]]/URI может быть объяснена тем обстоятельством, что такие С. с. П. (и практически только они) URI[[http://libmeta.ru/me/relation/206_23_STATsIONARNYJ]]/URI собой URI[[http://libmeta.ru/me/relation/206_22_STATsIONARNYJ]]/URIlibmeta.ru/me/relation/206_21_STATsIONARNYJ]]/URI стационарного URI[[http://libmeta.ru/me/relation/206_20_STATsIONARNYJ]]/URI (см. $URI[[http://libmeta.ru/me/formula/aux/206_154_STATsIONARNYJ]]/URI$ ).
+
+Понятие С. с. п. допускает целый ряд обобщений. Одним из них является понятие о б о б щ е н н о г о с т а ци она рного с луча й ного пр о ц е сс а - такого URI[[http://libmeta.ru/me/relation/206_19_STATsIONARNYJ]]/URI обобщенного $URI[[http://libmeta.ru/me/formula/aux/206_155_STATsIONARNYJ]]/URI$ (т. е. случайного линейного URI[[http://libmeta.ru/me/relation/206_18_STATsIONARNYJ]]/URI, заданного на URI[[http://libmeta.ru/me/relation/206_17_STATsIONARNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/206_156_STATsIONARNYJ]]/URI$ URI[[http://libmeta.ru/me/relation/206_16_STATsIONARNYJ]]/URI бесконечно URI[[http://libmeta.ru/me/relation/206_15_STATsIONARNYJ]]/URI URI[[http://libmeta.ru/me/relation/206_14_STATsIONARNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/206_157_STATsIONARNYJ]]/URI$, что или URI[[http://libmeta.ru/me/relation/206_13_STATsIONARNYJ]]/URI вероятностей случайного URI[[http://libmeta.ru/me/relation/206_12_STATsIONARNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/206_158_STATsIONARNYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/206_159_STATsIONARNYJ]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/206_160_STATsIONARNYJ]]/URI$, при любом целом положительном $URI[[http://libmeta.ru/me/formula/aux/206_161_STATsIONARNYJ]]/URI$, действительном $URI[[http://libmeta.ru/me/formula/aux/206_162_STATsIONARNYJ]]/URI$ и URI[[http://libmeta.ru/me/relation/206_11_STATsIONARNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/206_163_STATsIONARNYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/206_164_STATsIONARNYJ]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/206_165_STATsIONARNYJ]]/URI$ URI[[http://libmeta.ru/me/relation/206_10_STATsIONARNYJ]]/URI с URI[[http://libmeta.ru/me/relation/206_9_STATsIONARNYJ]]/URI вероятностей URI[[http://libmeta.ru/me/relation/206_8_STATsIONARNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/206_166_STATsIONARNYJ]]/URI$ (обобщенный С. с. п. в узком смысле), или же
+
+\[
+URI[[http://libmeta.ru/me/formula/main/206_10_STATsIONARNYJ]]/URI
+\]
+
+при всех $URI[[http://libmeta.ru/me/formula/aux/206_167_STATsIONARNYJ]]/URI$ (обобщенный С. с. п. в узком смысле). Обобщенный С. с. П. в широком смысле $URI[[http://libmeta.ru/me/formula/aux/206_168_STATsIONARNYJ]]/URI$ и его к о рре URI[[http://libmeta.ru/me/relation/206_7_STATsIONARNYJ]]/URI ционн ый фу ун ци она л $URI[[http://libmeta.ru/me/formula/aux/206_169_STATsIONARNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/206_170_STATsIONARNYJ]]/URI$ допускают родственное (3) и (5) URI[[http://libmeta.ru/me/relation/206_6_STATsIONARNYJ]]/URI (см. URI[[http://libmeta.ru/me/relation/206_1_STATsIONARNYJ]]/URI с л уч а й но й ф унк ци и). Другими часто используемыми обобщениями понятия С. с. п. являются понятия URI[[http://libmeta.ru/me/relation/206_5_STATsIONARNYJ]]/URI URI[[http://libmeta.ru/me/relation/206_4_STATsIONARNYJ]]/URI нек-рого URI[[http://libmeta.ru/me/relation/206_3_STATsIONARNYJ]]/URI и случайного поля однородного.</text>
+  <text_orig>О Дно родный в о в р е мен и с л у ч а йны й п р о ц е с с,- случайный процесс $X(t)$, статистич. характеристики к-рого не меняются с течением времени $t$, т. е. инвариантны относительно временны́х сдвигов: $t \rightarrow t+a, \quad X(t) \rightarrow X(t+a)$ при любом фиксированном значении $a$ (действительном или целочисленном в зависимости от того, идет ли речь о случайном процессе $\mathrm{c}$ непрерывным или дискретным временем). Понятие С. с. П. широко исподьзуется в приложениях теории вероятностей $\kappa$ различным разделам естествознания и техники, т. к. такие процессы с хорошей точностью описывают многие реальные явления, сопровождающиеся неупорядоченными флуктуациями. Так, напр., пульсации силы тока или напряжения в электрич. цепи (электрич. «шум») можно рассматривать как С. с. П., если цепь находится в стационарном режиме; пульсации скорости или давления в точке турбулентного течения представляют собой С. с. п., если течение является установившимся и т. Д.
+
+В математич. теории С. с. I. важную роль играют моменты распределений вероятностей значений процесса $X(t)$, причем особенно важны моменты первых двух порядков - среднее значение С. с. П. Е $X(t)=m$ и его корреляционная функция $\mathrm{EX}(t+\tau) X(t)=B(\tau)$. Во многих исследованиях по теории С. с. п. изучаются только те их свойства, к-рые полностью определяются одними лишь характеристиками $m$ и $B(\tau)$ (т. н. к о рреля ци онная те о р и я или теория второго порядка С. с. п.). В связи с этим случайные процессы $X(t)$, для к-рых $\mathrm{E} X(t)$ и $\mathrm{E} X(t+\tau) X(t)$ не зависят от значения $t$, часто выделяют в особый класс и наз. с т а циона рным и с луч а йными процесс а м и шп и р о к о с м ы с ле. Более частные случайные процессы, все характеристики к-рых не меняются со временем (так что функция распределения $F_{t_{1}}, t_{2}, \ldots, t_{n}\left(x_{1}, x_{2}, \ldots, x_{n}\right) \quad n$-мерной случайной величины $\left\{X\left(t_{1}\right), X\left(t_{2}\right), \ldots, X\left(t_{n}\right)\right\}$ здесь при любом $n$ зависит только от $n-1$ разностей $\left.t_{2}-t_{1}, \ldots, t_{n}-t_{1}\right)$, наз. с т а ци она рным и случ айны мй проД е с с а м и у с этим теория С. с. П. делится на теорию С. с. П. в узком смысле и теорию С. с. П. в широком смысле, использующие разный математич. аппарат.
+
+Теория С. с. п. в узком смысле может излагаться вне рамок теории вероятностей как теория однопараметрич. групп, сохраняющих меру преобразований измеримого пространства с мерой на нем; она близко соприкасается с общей теорией динамич. систем и эргодич. теорией. Важнейшей общей теоремой теории С. с. п. в узком смысле является ә р г о д и ч е с к а я те о р е а Би рк г оф а - Х ин ч ина, согласно к-рой для любого С. с. п. в узком смысле $X(t)$, имеющего математич. ожидание (т. е. такого, что $\mathrm{E}|X(t)|&lt;$ $&lt;\infty)$, с вероятностью 1 существует предел
+
+\[
+\lim _{T-S \rightarrow \infty} \int_{S}^{T} X(t) d t=\hat{X}
+\]
+
+или
+
+\[
+\lim _{T-S \rightarrow \infty} \sum_{t=S+1}^{T} X(t)=\hat{X}
+\]
+
+(формула (1) относится к С. с. П. с непрерывным временем, а (1a) - п процессам с дискретным временем). В силу относящегося уже к теории С. с. п. в широком смысле результата Е. Е. С.іуцкого [1], утверждающего, что предел (1) или (1a) существует в смысле предела в среднем квадратичном и совпадает с $\mathrm{EX}(t)$ тогда и только тогда, гогда
+
+\[
+\lim _{T \rightarrow \infty} T^{-1} \int_{0}^{T} b(\tau) d \tau=0
+\]
+
+или соответственно
+
+\[
+\lim _{T \rightarrow \infty} T^{-1} \sum_{\tau=0}^{T-1} b(\tau)=0
+\]
+
+где
+
+\[
+b(\tau)=B(\tau)-m^{2}=\mathrm{E}[X(t+\tau)-m][X(t)-m],
+\]
+
+при условии (2) или (2a) (т. е., в частности, всегда, когда $b(\tau) \rightarrow 0$ при $\tau \rightarrow \infty)$ предел (1) или (1а) будет совшадать с $E X(t)$. Теорема Биркгофа - Хинчина может быть приложена и к всевозможным С. с. п. в узком смысле вида
+
+\[
+Y_{\Phi}(s)=\Phi[X(t+s)]
+\]
+
+где $\Phi[X(t)]$ - произвольный функционал от С. с. п. $X(t)$, являющийся случайной величиной, имеюпцей математич. ожидание; если для всех таких С. с. п. $Y_{\Phi}(s)$ соответствующий предел $\hat{Y}_{\Phi}$ совпадает с E $Y_{\Phi}$, то С. с. п. $X(t)$ наз. ме т р и ч е с к и т р а в т и в н ы м. Для гауссовских С. с. п. $X(t)$, условие стационарности к-рых в узком смысле совпадаөт с условием стационарности в широком смысле, метрич. транзитивность будет иметь место тогда у только тогда, когда спектральная функция $F(\lambda)$ процесса $X(t)$ является непрерывной функцией $\lambda$ (см., нащр., [2], [3]). В общем случае нет простых необходимых б достаточных условий метрич. транзитивности С. с. п. $X(t)$.
+
+Кроме указанного выше результата, касающегося. метрич. транзитивности, имеется также множество других результатов, относящихся к гауссовским С. с. П.; в частности, для таких процессов подробно изучен вопрос о локальных свойствах реализаций (т. е. отдельных наблюденных значений) С. с. ■. $X(t)$, о статистич. свойствах последовательности нулей или максимумов реализации С. с. п. $X(t)$ и точек пересечения ею заданного уровня (см., напр., [3]). Тұпичным примером результатов, касающихся пересечений уровня, является утверждение о том, что при широких условиях регулярности совокупность точек пересечения высокого уровня $x=u$ гауссовским С. с. Ш. $X(t)$ в нек-ром специальном масштабе времени (зависящем от $u$ и быстро стремящемся к бесконечности при $u \rightarrow \infty$ ) сходится при $u \rightarrow \infty$ к пуассоновскому потоку событийі единичной интенсивности (см [3]).
+
+При рассмотрении С. с. ш. в широком смысле вводят в рассмотрение гильбертово пространство $H_{X}$ всевозможных линейных комбинаций значений процесса $X(t)$ и пределов в среднем квадратичном последовательностей таких линейных комбинаций, скалярное произведение в к-ром задается формулой $\left(Y_{1}, Y_{2}\right)=\mathrm{E} Y_{\mathbf{1}} \bar{Y}_{\mathbf{2}}$. В таком случае преобразование $X(t) \rightarrow X(t+a)$, где $a$ - фиксированное число, будет порождать линейный унитарный оператор $U_{a}$, отображающй̈ пространство $H_{X}$ на себя; при этом семейство операторов $U_{a}$ очевидно удовлетворяет условию $U_{a} U_{b}=U_{a+b}$, а значения $X(t)=U_{t} X(0)$ представляют собой совокупность точек (кривую, если время $t$ непрерывно, и счетную последовательность точек, если время дискретно), переводимую в себя всеми операторами $U_{a}$. Соответственно этому теория С. с. п. в широком смысле может быть переформулирована в терминах функционального анализа как изучение совокупностей точек $X(t)=U_{t} X(0)$ гильбертова пространства $H_{X}$, где $U_{t}$ семейство линейных унитарных операторов таких, что $U_{a} U_{b}=U_{a+b}$.
+
+Центральное место в теории С. с. п. в широком смысле занимают спектральные рассмотрения, опирающиеся на разложение случайного процесса $X(t)$ и его корреляционной функции $B(\tau)$ в интеграл Фурье - Стилтьеса. В силу теоремы Хинчина [4] (являющейся простым следствием аналитич. теоремы Бохнера об общем виде положительно определенной функции) корреляционная функция $B(\tau)$ C. с. п. с непрерывным временем всегда может быть представлена в виде
+
+\[
+B(\tau)=\int_{\Lambda} e^{i \tau \lambda} d F(\lambda),
+\]
+
+где $F(\lambda)$ - ограниченная монотонно неубывающая функция $\lambda$, а $\Lambda=(-\infty, \infty)$; теорема Герглотца об общем виде положительно определенных последовательностей аналогичным образом показывае', тто такое же представление, но только с $\Lambda=[-\pi, \pi]$, имеет место и для корреляционной функции С. с. П. с дискретным временем. Если корреляционная функция $B(\tau)$ достаточно быстро убывает при $|\tau| \rightarrow \infty$ (как әто чаще всего и бывает в приложениях при условии, что под $X(t)$ понимается разность $X(t)-m$, т. е. считается, что $E X(t)=0)$, то интеграл в правой части (3) обращается в обыкновенный интеграл Фурье
+
+\[
+B(\tau)=\int_{\Lambda} e^{i \tau \lambda} \cdot f(\lambda) d \lambda
+\]
+
+где $f(\lambda)=F^{\prime}(\lambda)$ - неотрицательная функция. Функция $F(\lambda)$ наз. с пе к т р а льн о ї ф у нк п и е й C. с. п. $X(t)$, а функция $f(\lambda)$ (в случаях, когда имеет место равенство (4j) - его с п е к т р а л ь н о й п ло тн о с т ь ю. Исходя из формулы Хинчина (3) (или из задания С. с. п. $X(t)$ в виде совокупности точек $X(t)=$ $=U_{t} X(0)$ гильбертова пространства $H_{X}$ и теоремы Стоуна о спектральном представлении однопараметрич. групп унитарных операторов в гильбертовом пространстве), можно также показать, что сам процесс $X(t)$ допускает спектральное разложение вида
+
+\[
+X(t)=\int_{\Lambda} e^{i t \lambda} d Z(\lambda)
+\]
+
+где $Z(\lambda)-$ с лу ча й ная фу нкция с неко рре ли и о ванными пр и ра шения ми (т. е. такая, что $E d Z\left(\lambda_{1} \overline{d Z\left(\lambda_{2}\right)}=0\right.$ при $\left.\lambda_{1} \neq \lambda_{2}\right)$, удовлетворяющая условию $E|d Z(\lambda)|^{2}=d F^{\prime}(\lambda)$, а интеграл справа понимается как предел в среднем квадратичном соответствующей последовательности интегральных сумм. Разложение (5) дает основание рассматривать любой С. с. п. в широком смысле $X(t)$ как суперпозицию совокупности некоррелированных друг с другом гармонич. колебаний различных частот со случайным амплитудами и фазами; при этом спектральная функция $F(\lambda)$ и спектральная плотность $f(\lambda)$ определяют распределение средней энергии (или, точнее, мощности) входящих в состав $X(t)$ гармонич. колебаний по спект ру частот $\lambda$ (в связи с чем в прикладных исследованиях функция $f(\lambda)$ часто наз. такяе ә н е р г е т и ч ес к и с пек т о м, илис пе к т ром мо що ос т и, С с. П. $X(t))$.
+
+Спектральное разложение корреляционної функции $B(\tau)$, задаваемое формулоӥ (3), показывает, что отображение $X(t) \rightarrow e^{i t \lambda,}$ переводящее элементы $X(t)$ гильбертова пространства $H_{X}$ в әлементы $e^{i t \lambda}$ гильбертова пространства $L^{2}(d F)$ комплекснозначных функций на множестве $\Lambda$ с интегрируемым по $d F(\lambda)$ квадратом модуля, является изометрич. отображением $H$ на $L^{2}(d F)$. Это отображение может быть далее продолжено до изометрического Јинеӥного отображения, $M$ всего пространства $H_{X}$ в пространство $L^{2}(d F)$, что позволяет переформулировать многие задачи теории С. с. п. в широком смысле в виде задач теории функций.
+
+Значительная qасть теории С. с. п. в широком смысле посвящена методам решения линейных ашпроксимационных задач для таких процессов, т. е. методам нахождения линейной комбинации каких-то «известных» значений $X(t)$, к-рая лучше всего (в смысле минимума среднеквадратичной ошибки) приблиякает нек-рое «неизвестное» значение того же процесса или какую-то «неизвестную» случайную величину $Y$. В частности, задача об оптимальной линейной әкстраполяции C. с. II. $X(t)$ состоит в отыскании наилучшего приближения $X^{*}(s)$ к значению $X(s), s&gt;0$, линейно зависящего от «прошлых значений» $X(t)$ с $t \leqslant 0$; задача об оптимальной линейной интерполяции - в отыскании наилучшего приближения $\kappa \quad X(s)$, линейно зависящего от значений $X(t)$, где $t$ пробегает все значения, не принадлежащие выделенному интервалу оси вре- мени (к к-рому принадлежит $s$ ); задача об оптимальной линейной фильтрации может быть сформулирована как задача отыскания наилучшего прибллижения $Y^{*} \mathrm{~K}$ нек-рой случайной величине $Y$ (обычно являющейся значением при каком-то $t=s$ корреляционно связанного с $X(t)$ C. с. п. $Y(t)$, причем чаще всего $Y(t)$ здесь играет роль «сигнала», а $X(t)=Y(t)+N(t)$ - известная из наблюдений сумма «сигнала» и искажающего его «шума» $N(t))$, линейно зависящего от значений $X(t)$ при $t \leqslant 0$ (см. Случайных процессов прогнозирование, Случайных прочессов бильтрация).
+
+Геометрически все эти задачи сводятся к задаче опускания перпендикуляра из нек-рої точки гильбертова пространства $H_{X}$ (или его расширения) на заданное подпространство этого пространства. Опираясь на такую геометрич. интерполяцию и на изоморфизм пространств $H_{X}$ и $L^{2}(d F)$, А. Н. Колмогоров вывел общие формулы, позволяющие по спектральной функции $F(\lambda)$ C. с. п. $X(t)$ с дискретным временем $t$ определить средний квадрат ошибки оптимальной линейной экстраполяции или интерполяции, отвечающей случаю, когда значение $X(t)$ неизвестно только при $t=s$ (см. [2], [5] - [6]). В применении к задаче экстраполяции аналогичные же результаты для С. с. П. $X(t)$ с непрерывным временем были позже получены М. Г. Крейном и К. Каруненом (К. Karhunen). Н. Винер [8] показал, что нахождение наилучшего приближения $X^{*}(s)$ или $Y^{*}=Y^{*}(s)$ в случае задач об оптимальной линейной экстраполяции и фильтрации может быть сведено к решению нек-рого интегрального уравнения тича Винера - Хопфора пли (в случае дискретного $t$ ) - дискретного аналога такого уравнения, что позволяет применить здесь метод факторизации (см. Винера - Хопба уравнение, Винера - Хопба метод). Что касается задач об оптимальной линейной экстраполяции или фильтрации С. с. п. $X(t)$ с непрерывным временем в случае, когда известны не все его прошлые значения при $t \leqslant 0$, но лишь значения на конечном интервале - $T \leqslant t \leqslant 0$, а также задачи оптимальной линейной интерполяции такого $X(t)$, то они могут быть сведены к нек-рым задачам о восстановлении дифференциального уравнения специального вџда («обобщенного уравнения струшы») по его спектру (cM. [9], [10]).
+
+Указанные выше подходы к решению задач об оптимальной линейной экстраполяции, интерполяции и фильтрации только в нек-рых исключительных случаях позволяют получить достаточно простые явные формулы для искомого наилучшего приближения $X^{*}(s)$ или $Y^{*}$, могущие с успехом применяться на практике. Важный случай, гогда такие явные формулы существуют, - это случаї С. с. п. $X(t)$ с рациональной относительно $e^{i \lambda}$ (если $t$ дискретно) или относительно $\lambda$ (если $t$ непрерывно) спектральной плотностью $f(\lambda)$, специально изученный (в применении к задачам экстраполяции и фильтрации по значениям при $t \leqslant 0$ ) Н. Винером [8]. Позже было показано, что для таких С. с. п. с рациональной спектральной шлотностью находится явное решение и задач о линейной интерполяции, экстраполяции и фильтрации по данным на конечном интервале $-T \leqslant t \leqslant 0$ (см., напр., [2], [11]). Простота процессов с рациональной сшектральной плотностью может быть объяснена тем обстоятельством, что такие С. с. П. (и практически только они) представляют собой одномерную компоненту многомерного стационарного марковского процесса (см. $[12]$ ).
+
+Понятие С. с. п. допускает целый ряд обобщений. Одним из них является понятие о б о б щ е н н о г о с т а ци она рного с луча й ного пр о ц е сс а - такого случайного процесса обобщенного $X(\varphi)$ (т. е. случайного линейного функционала, заданного на пространстве $D$ финитных бесконечно диффференцируемых функций $\varphi(t))$, что или распределение вероятностей случайного вектора $\left\{X\left(V_{a} \varphi_{1}\right), X\left(V_{a} \varphi_{2}\right), \ldots\right.$, $\left.X\left(V_{a} \varphi_{n}\right)\right\}$, где $V_{a} \varphi(t)=\varphi(t+a)$, при любом целом положительном $n$, действительном $a$ и функциях $\varphi_{1}$, $\varphi_{2}, \ldots . \varphi_{n}$ из $D$ совпадает с распределением вероятностей вектора $\left\{X\left(\varphi_{1}\right), X\left(\varphi_{2}\right), \ldots, X\left(\varphi_{n}\right)\right\}$ (обобщенный С. с. п. в узком смысле), или же
+
+\[
+\begin{gathered}
+\mathrm{E} X(\varphi)=\mathrm{E} X\left(V_{a} \varphi\right), \\
+\mathrm{EX}\left(V_{a} \varphi_{1}\right) \overline{X\left(V_{a} \varphi_{2}\right)}=\mathrm{EX}\left(\varphi_{1}\right) \overline{X\left(\varphi_{2}\right),}
+\end{gathered}
+\]
+
+при всех $a$ (обобщенный С. с. п. в узком смысле). Обобщенный С. с. П. в широком смысле $X(\varphi)$ и его к о рре ля ционн ый фу ун ци она л $B\left(\varphi_{1}, \varphi_{2}\right)=$ $\left.=E X\left(\varphi_{1}\right) \overline{X\left(\varphi_{2}\right.}\right)$ допускают родственное (3) и (5) спектральное разложение (см. Спектральное разложение с л уч а й но й ф унк ци и). Другими часто используемыми обобщениями понятия С. с. п. являются понятия случайного процесса со стационарными приращениями нек-рого порядка и случайного поля однородного.
+
+Jum.: [1] С л у ц к и й Е. Е., Избр. труды, М., 1960,
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_30a26f9f2c9e301e3c2cg-1.jpg?height=45&amp;width=811&amp;top_left_y=858&amp;top_left_x=984)
+процессы, М., 1963; [3] К р а м е р Г., Л и д б е т т е p M. функций и их приложения, пер. с англ., М., 1969; [4] Х и нч и н А. Я., &quot;Успехи матем. наук», 1938, в. 5, с. 42-51;
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_30a26f9f2c9e301e3c2cg-1.jpg?height=37&amp;width=806&amp;top_left_y=979&amp;top_left_x=986)
+про1, т. 5, № 1, с. $3-14 ;$; С к о р ох о д А. В., Теория случайных процессов, т. 1, М., 1971; [8] W i e n e r N., Extrapolation, interpolation and smoothing of stationary time series, N. Y., 1949; [9] K p e й H M. $\Gamma$., «Докл. AH CCCP&quot;, 1954, т. 94, № 1, c. 13-16; [10] D y m H., the inverse spectral problem, N. Y.-[a. o.], 1976; [11] \&amp; $\Gamma_{-}$ the inverse spectral problem, N. Y.-La. 0.], 1976; [11] A J12] D o o b &quot;J. L., &quot;Ann. Math. Stat.&quot;, 1944, v. 15, p. 229-82.</text_orig>
+</article>

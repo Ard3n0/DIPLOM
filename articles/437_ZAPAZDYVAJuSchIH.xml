@@ -1,0 +1,566 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/437_ZAPAZDYVAJuSchIH" alphabetic_pos="437">
+  <title>ЗАПАЗДЫВАЮЩИХ ПОТЕНЦИАЛОВ МЕТОД</title>
+  <authors>
+    <author>А. М. Нахушев</author>
+  </authors>
+  <pages>
+    <start>221</start>
+    <end>222</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б и ша д з е А. В., Уравнения математической Физики, М., 1976; [2] Б е p с Л., Д ж о н Ф., Iii е х т e p M., Уравнения с частными производными, пер. с англ., м., 1966 3 изд., М., 1976; [4] К у р а н т Р., Уравнения с частными производными, пер. с англ., м., 1964; [5] П о н т р я г и н Л. С. Обынновенные дифференциальные уравнения, 3 изд., М., 1970 [6] Т и х о н о в А. Н., С а м а p с к и й А. А., Уравнения математической физики, 4 изд., М., 1972. А.</literature_orig>
+    <unit>
+      <author>Бишадзе А. В.</author>
+      <title>Уравнения математической Физики</title>
+      <publication>М.</publication>
+      <year>1976</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Беpс Л.</author>
+      <author>Джон Ф.</author>
+      <author>Iiiехтep M.</author>
+      <title>Уравнения с частными производными</title>
+      <publication>пер. с англ., м.</publication>
+      <year>1966</year>
+      <other>М., 1976; [4] К у р а н т Р., Уравнения с частными производными, пер. с англ., м., 1964; [5] П о н т р я г и н Л. С. Обынновенные дифференциальные уравнения, 3 изд., М., 1970 [6] Т и х о н о в А. Н., С а м а p с к и й А. А., Уравнения математической физики, 4 изд., М., 1972. А.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/437_1_ZAPAZDYVAJuSchIH">\frac{\partial^{m} u}{\partial t^{m}}-L u=f(x, t), u=u(x, t), x=\left(x_{1}, \ldots, x_{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_2_ZAPAZDYVAJuSchIH">u(x, t)=\int_{0}^{t} \varphi(x, t ; \tau) d \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_3_ZAPAZDYVAJuSchIH">\frac{\partial^{m} \varphi}{\partial t^{m}}-L \varphi=0, \quad t&gt;\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_4_ZAPAZDYVAJuSchIH">\left.\frac{\partial^{k} \varphi}{\partial t^{k}}\right|_{t=\tau}=\left\{\begin{array}{l}0 \quad \text { прш } k=0,1, \ldots, m-2, \\f(x, \tau) \text { при } k=m-1,\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_5_ZAPAZDYVAJuSchIH">\left.\frac{\partial^{k} u}{\partial t^{k}}\right|_{t=0}=0, \quad k=0,1, \ldots m-1,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_6_ZAPAZDYVAJuSchIH">l u \equiv \frac{d^{m} u}{d t^{m}}-\sum_{j=1}^{m} a_{j}(t) \frac{d^{m-j} u}{d t^{m-j}}=f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_7_ZAPAZDYVAJuSchIH">u(t)=\sum_{j=1}^{m} c^{j}(t) u_{j}(t) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_8_ZAPAZDYVAJuSchIH">\begin{gathered}\sum_{j=1}^{m} \dot{c}^{j}(t) d^{k} u_{j} / d t^{k}=0, \quad k=0,1, \ldots, m-2, \\\sum_{j=1}^{m} \dot{c}^{j}(t) d^{m-1} u_{j} / d t^{m-1}=f(t)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_9_ZAPAZDYVAJuSchIH">u_{f}(t)=\int_{0}^{t} \varphi(\tau) f(t-\tau) d \tau=\int_{0}^{t} \varphi(t-\tau) f(\tau) d \tau,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_10_ZAPAZDYVAJuSchIH">\left.\frac{d^{k} \varphi}{d t^{k}}\right|_{t=0}=\left\{\begin{array}{l}0 \text { при } k=0,1, \ldots, m-2, \\1 \text { при } k=m-1 .\end{array}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_11_ZAPAZDYVAJuSchIH">\square v \equiv v_{t t}-\Delta v=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_12_ZAPAZDYVAJuSchIH">v(x, 0 ; r)=0, \quad v_{t}(x, 0 ; \tau)=f(x, \tau) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_13_ZAPAZDYVAJuSchIH">u(x, t)=\int_{0}^{t} v(x, t-\tau ; \tau) d \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_14_ZAPAZDYVAJuSchIH">u(x, t)=\frac{1}{2 \pi} \int_{0}^{t} d \tau \int_{\rho \leqslant \pi} \frac{f(y, t-\tau) d y}{\sqrt{\tau^{2}-\rho^{2}}}, \quad y=\left(y_{1}, y_{2}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_15_ZAPAZDYVAJuSchIH">u(x, t)=\frac{1}{4 \pi} \int_{\rho \leqslant t} \frac{f(y, t-\rho)}{\rho} d y, \quad y=\left(y_{1}, y_{2}, y_{3}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_16_ZAPAZDYVAJuSchIH">u(x, t)=\frac{1}{2} \int_{0}^{t} d \tau \int_{x-t+\tau}^{x+t-\tau} f(y, \tau) d y, y=y_{1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_17_ZAPAZDYVAJuSchIH">S u \equiv u_{t}+\sum_{i=1}^{n} A^{i} u_{x_{1}}+B u=f(x, t),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_18_ZAPAZDYVAJuSchIH">\varphi(x, \tau ; \tau)=f(x, \tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_19_ZAPAZDYVAJuSchIH">u(x, t)=\int_{0}^{t} \varphi(x, t ; \tau) d \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_20_ZAPAZDYVAJuSchIH">u(x, 0)=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_21_ZAPAZDYVAJuSchIH">u_{t}-a \Delta u=f(x, t), a=\text { const }&gt;0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_22_ZAPAZDYVAJuSchIH">A u_{t t}+B u_{x x}+a u_{t}+b u_{x}+c u=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_23_ZAPAZDYVAJuSchIH">\begin{gathered}A=\left\{\begin{array}{cc}A_{0}=\text { const } &amp; \text { при } \alpha \leqslant x \leqslant 0, \\0 &amp; \text { при } 0 \leqslant x \leqslant \beta,\end{array}\right. \\a= \begin{cases}a_{0}=\text { const }&gt;0 \text { при } 0 \leqslant x \leqslant \beta, \\a_{1}=\text { const } &amp; \text { при } \alpha \leqslant x \leqslant 0,\end{cases}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_24_ZAPAZDYVAJuSchIH">u(\alpha, t)=1, \varphi_{x}(\beta, t)=0,0&lt;t&lt;T,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_25_ZAPAZDYVAJuSchIH">u(x, t)=\frac{\partial}{\partial t} \int_{0}^{t} \varphi(x, t-\tau) f(\tau) d \tau \equiv T f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_26_ZAPAZDYVAJuSchIH">\begin{gathered}u(x, 0)=0, \alpha \leqslant x \leqslant \beta, u_{t}(x, 0)=0, \alpha&lt;x&lt;0, \\u(\alpha, t)=f(t), u_{x}(\beta, t)=0,0&lt;t&lt;T,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_27_ZAPAZDYVAJuSchIH">\frac{d}{d t} T f=T \frac{d f}{d t} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/437_28_ZAPAZDYVAJuSchIH">T f(t-\tau)=\varphi(t-\tau) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_1_ZAPAZDYVAJuSchIH">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_2_ZAPAZDYVAJuSchIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_3_ZAPAZDYVAJuSchIH">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_4_ZAPAZDYVAJuSchIH">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_5_ZAPAZDYVAJuSchIH">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_6_ZAPAZDYVAJuSchIH">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_7_ZAPAZDYVAJuSchIH">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_8_ZAPAZDYVAJuSchIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_9_ZAPAZDYVAJuSchIH">u_{1}(t), u_{2}(t), \ldots, u_{m}(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_10_ZAPAZDYVAJuSchIH">l u=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_11_ZAPAZDYVAJuSchIH">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_12_ZAPAZDYVAJuSchIH">\dot{c}^{j}=d c^{j / d t}, j=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_13_ZAPAZDYVAJuSchIH">f(t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_14_ZAPAZDYVAJuSchIH">t \leqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_15_ZAPAZDYVAJuSchIH">u_{f}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_16_ZAPAZDYVAJuSchIH">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_17_ZAPAZDYVAJuSchIH">u_{f}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_18_ZAPAZDYVAJuSchIH">l \varphi(t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_19_ZAPAZDYVAJuSchIH">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_20_ZAPAZDYVAJuSchIH">f(x, t), x=\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_21_ZAPAZDYVAJuSchIH">(n+1) / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_22_ZAPAZDYVAJuSchIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_23_ZAPAZDYVAJuSchIH">(n+2) / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_24_ZAPAZDYVAJuSchIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_25_ZAPAZDYVAJuSchIH">m_{r}[f(x, t)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_26_ZAPAZDYVAJuSchIH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_27_ZAPAZDYVAJuSchIH">|y-x|=r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_28_ZAPAZDYVAJuSchIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_29_ZAPAZDYVAJuSchIH">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_30_ZAPAZDYVAJuSchIH">\tau \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_31_ZAPAZDYVAJuSchIH">v(x, t ; \tau)=\frac{1}{(n-2) !} \frac{\partial^{n-2}}{\partial t^{n-2}} \int_{0}^{t}\left(t^{2}-r^{2}\right)^{(n-3) / 2} r M_{r}[f(x, \tau)] d r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_32_ZAPAZDYVAJuSchIH">u(x, 0)=0, u_{t}(x, 0)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_33_ZAPAZDYVAJuSchIH">u=f(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_34_ZAPAZDYVAJuSchIH">n=2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_35_ZAPAZDYVAJuSchIH">n=3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_36_ZAPAZDYVAJuSchIH">\rho=|x-y|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_37_ZAPAZDYVAJuSchIH">n=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_38_ZAPAZDYVAJuSchIH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_39_ZAPAZDYVAJuSchIH">u=u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_40_ZAPAZDYVAJuSchIH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_41_ZAPAZDYVAJuSchIH">a^{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_42_ZAPAZDYVAJuSchIH">b-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_43_ZAPAZDYVAJuSchIH">k \times k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_44_ZAPAZDYVAJuSchIH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_45_ZAPAZDYVAJuSchIH">\varphi=\varphi(x, t ; \tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_46_ZAPAZDYVAJuSchIH">\tau \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_47_ZAPAZDYVAJuSchIH">s \varphi=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_48_ZAPAZDYVAJuSchIH">\varphi(x, t ; \tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_49_ZAPAZDYVAJuSchIH">r^{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_50_ZAPAZDYVAJuSchIH">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_51_ZAPAZDYVAJuSchIH">\omega=\{(x, t) \mid \alpha&lt;x&lt;\beta, 0&lt;t&lt;T\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_52_ZAPAZDYVAJuSchIH">b, b, c=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_53_ZAPAZDYVAJuSchIH">b&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_54_ZAPAZDYVAJuSchIH">x&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_55_ZAPAZDYVAJuSchIH">x&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_56_ZAPAZDYVAJuSchIH">\varphi(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_57_ZAPAZDYVAJuSchIH">x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_58_ZAPAZDYVAJuSchIH">\varphi(x, 0)=0, \alpha \leqslant x \leqslant \beta, \varphi_{t}(x, 0)=0, \alpha&lt;x&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_59_ZAPAZDYVAJuSchIH">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_60_ZAPAZDYVAJuSchIH">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_61_ZAPAZDYVAJuSchIH">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_62_ZAPAZDYVAJuSchIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_63_ZAPAZDYVAJuSchIH">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_64_ZAPAZDYVAJuSchIH">u(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_65_ZAPAZDYVAJuSchIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_66_ZAPAZDYVAJuSchIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_67_ZAPAZDYVAJuSchIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_68_ZAPAZDYVAJuSchIH">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_69_ZAPAZDYVAJuSchIH">t&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_70_ZAPAZDYVAJuSchIH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_71_ZAPAZDYVAJuSchIH">t f=u\left(x_{1}, \ldots, x_{n}, t\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_72_ZAPAZDYVAJuSchIH">t&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_73_ZAPAZDYVAJuSchIH">t \int_{\tau_{1}}^{\tau_{2}} f[\theta(t, \tau)] d \tau=\int_{\tau_{1}}^{\tau_{2}} T f[\theta(t, \tau)] d \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_74_ZAPAZDYVAJuSchIH">\theta(t, \tau)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_75_ZAPAZDYVAJuSchIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_76_ZAPAZDYVAJuSchIH">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_77_ZAPAZDYVAJuSchIH">f(0)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_78_ZAPAZDYVAJuSchIH">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_79_ZAPAZDYVAJuSchIH">\operatorname{tf}(t)=\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/437_80_ZAPAZDYVAJuSchIH">\tau&gt;0</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>п р и н ц и п Д ю а м е л я,- метод отыскания решения однородной задачи Коши для неоднородного линейного дифференциального уравнения или системы с частными производными по известному решению однородного уравнения или системы.
+
+Пусть дано уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_1_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_1_ZAPAZDYVAJuSchIH]]/URI$ - произвольный линейный дифференциальный оператор, к-рый не содержит производных по $URI[[http://libmeta.ru/me/formula/aux/437_2_ZAPAZDYVAJuSchIH]]/URI$ выше $URI[[http://libmeta.ru/me/formula/aux/437_3_ZAPAZDYVAJuSchIH]]/URI$ порядка. Частное решение $URI[[http://libmeta.ru/me/formula/aux/437_4_ZAPAZDYVAJuSchIH]]/URI$ уравнения (1) при $URI[[http://libmeta.ru/me/formula/aux/437_5_ZAPAZDYVAJuSchIH]]/URI$ ищется в виде Дюамеля интеграла
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_2_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_6_ZAPAZDYVAJuSchIH]]/URI$ является (регулярным или обобщенным) решением однородного уравнения
+
+Если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_3_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_4_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+то функция (2), полученная с помощью суперпозиции импульсов $URI[[http://libmeta.ru/me/formula/aux/437_7_ZAPAZDYVAJuSchIH]]/URI$, будет решением задачи Коши
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_5_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+для неоднородного уравнения (1).
+
+В случае обыкновенных диффференциальных уравнений и систем 3. п. м. известен под названием м е т о д а в а ри аци и постоян ных, или метод а имп у л ь с о в. Этот метод для линейных обыкновенных диффференциальных уравнений порядка $URI[[http://libmeta.ru/me/formula/aux/437_8_ZAPAZDYVAJuSchIH]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_6_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+заключается в том, что если $URI[[http://libmeta.ru/me/formula/aux/437_9_ZAPAZDYVAJuSchIH]]/URI$ какая-либо фундаментальная система решений уравнения $URI[[http://libmeta.ru/me/formula/aux/437_10_ZAPAZDYVAJuSchIH]]/URI$, то решение $URI[[http://libmeta.ru/me/formula/aux/437_11_ZAPAZDYVAJuSchIH]]/URI$ неоднородного уравнения (4) отыскивается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_7_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+Функции $URI[[http://libmeta.ru/me/formula/aux/437_12_ZAPAZDYVAJuSchIH]]/URI$, однозначно определяются как решения системы алгебраич. уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_8_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+с отличным от нуля детерминантом Вроньского.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/437_13_ZAPAZDYVAJuSchIH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/437_14_ZAPAZDYVAJuSchIH]]/URI$, то решение $URI[[http://libmeta.ru/me/formula/aux/437_15_ZAPAZDYVAJuSchIH]]/URI$ однородной задачи Коши (3) для уравнения (4) принято наз. нормальной реакцией на внешнюю нагрузку $URI[[http://libmeta.ru/me/formula/aux/437_16_ZAPAZDYVAJuSchIH]]/URI$. Функция $URI[[http://libmeta.ru/me/formula/aux/437_17_ZAPAZDYVAJuSchIH]]/URI$ представима в виде свертки или интеграла Дюамеля
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_9_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_18_ZAPAZDYVAJuSchIH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/437_19_ZAPAZDYVAJuSchIH]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_10_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/437_20_ZAPAZDYVAJuSchIH]]/URI$,- функция, имеющая непрерывные частные производные до порядка $URI[[http://libmeta.ru/me/formula/aux/437_21_ZAPAZDYVAJuSchIH]]/URI$ в случае нечетного $URI[[http://libmeta.ru/me/formula/aux/437_22_ZAPAZDYVAJuSchIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/437_23_ZAPAZDYVAJuSchIH]]/URI$ - в случае четного $URI[[http://libmeta.ru/me/formula/aux/437_24_ZAPAZDYVAJuSchIH]]/URI$, a $URI[[http://libmeta.ru/me/formula/aux/437_25_ZAPAZDYVAJuSchIH]]/URI$ - среднее значение $URI[[http://libmeta.ru/me/formula/aux/437_26_ZAPAZDYVAJuSchIH]]/URI$ на сфере $URI[[http://libmeta.ru/me/formula/aux/437_27_ZAPAZDYVAJuSchIH]]/URI$ с центром в точке $URI[[http://libmeta.ru/me/formula/aux/437_28_ZAPAZDYVAJuSchIH]]/URI$ и радиуса $URI[[http://libmeta.ru/me/formula/aux/437_29_ZAPAZDYVAJuSchIH]]/URI$. Зависящая от неотрицательного параметра $URI[[http://libmeta.ru/me/formula/aux/437_30_ZAPAZDYVAJuSchIH]]/URI$ функция
+
+$URI[[http://libmeta.ru/me/formula/aux/437_31_ZAPAZDYVAJuSchIH]]/URI$
+
+является решением волнового уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_11_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+удовлетворяющим начальным условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_12_ZAPAZDYVAJuSchIH]]/URI
+\] Интеграл Дюамеля
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_13_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+представляет собой решение однородной задачи Коши: $URI[[http://libmeta.ru/me/formula/aux/437_32_ZAPAZDYVAJuSchIH]]/URI$ для уравнения [门 $URI[[http://libmeta.ru/me/formula/aux/437_33_ZAPAZDYVAJuSchIH]]/URI$. При $URI[[http://libmeta.ru/me/formula/aux/437_34_ZAPAZDYVAJuSchIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/437_35_ZAPAZDYVAJuSchIH]]/URI$ из (5) получаются выражения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_14_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_15_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_36_ZAPAZDYVAJuSchIH]]/URI$.
+
+Если же $URI[[http://libmeta.ru/me/formula/aux/437_37_ZAPAZDYVAJuSchIH]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_16_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+Интеграл (6) наз. 3 а п а з ды в а ю щ и м по те нц и а л о м с плотностью $URI[[http://libmeta.ru/me/formula/aux/437_38_ZAPAZDYVAJuSchIH]]/URI$.
+
+3. п. м. (метод вариации параметров) особенно прост и полезен, когда он применяется к линейным системам диф্фференциальных уравнений 1-го порядка вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_17_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_39_ZAPAZDYVAJuSchIH]]/URI$ - вектор с $URI[[http://libmeta.ru/me/formula/aux/437_40_ZAPAZDYVAJuSchIH]]/URI$ компонентами, $URI[[http://libmeta.ru/me/formula/aux/437_41_ZAPAZDYVAJuSchIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/437_42_ZAPAZDYVAJuSchIH]]/URI$ заданные матрицы размера $URI[[http://libmeta.ru/me/formula/aux/437_43_ZAPAZDYVAJuSchIH]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/437_44_ZAPAZDYVAJuSchIH]]/URI$ - заданный вектор.
+
+Пусть вектор $URI[[http://libmeta.ru/me/formula/aux/437_45_ZAPAZDYVAJuSchIH]]/URI$, зависящий от параметра $URI[[http://libmeta.ru/me/formula/aux/437_46_ZAPAZDYVAJuSchIH]]/URI$, есть решение задачи Коши
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_18_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+для однородной системы $URI[[http://libmeta.ru/me/formula/aux/437_47_ZAPAZDYVAJuSchIH]]/URI$. Тогда вектор
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_19_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+является решением неоднородной системы (7) с начальным условием
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_20_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+Функция $URI[[http://libmeta.ru/me/formula/aux/437_48_ZAPAZDYVAJuSchIH]]/URI$, соответствующая неоднородному уравнению теплопроводности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_21_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+имеет вид
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_131fbcb2292a111f3ce0g-1.jpg?height=97&amp;width=804&amp;top_left_y=1589&amp;top_left_x=131)
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_49_ZAPAZDYVAJuSchIH]]/URI$ евклидово пространство. Решение $URI[[http://libmeta.ru/me/formula/aux/437_50_ZAPAZDYVAJuSchIH]]/URI$ уравнения (10) с начальным условием (9) задается интегралом Дюамеля (3), где под знаком интеграла стоит функция (11).
+
+3. п. м. используется и при исследовании смешанных задач для уравнений с частными производными параболич. и гиперболич. типов, позволяя общую задачу редуцировать к задачам со специальными начальными и граничными функциями.
+
+Напр., пусть в области $URI[[http://libmeta.ru/me/formula/aux/437_51_ZAPAZDYVAJuSchIH]]/URI$ задано уравнение с частными производными
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_22_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_52_ZAPAZDYVAJuSchIH]]/URI$ const, $URI[[http://libmeta.ru/me/formula/aux/437_53_ZAPAZDYVAJuSchIH]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_23_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+к-рое гиперболично при $URI[[http://libmeta.ru/me/formula/aux/437_54_ZAPAZDYVAJuSchIH]]/URI$ и параболично при $URI[[http://libmeta.ru/me/formula/aux/437_55_ZAPAZDYVAJuSchIH]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/437_56_ZAPAZDYVAJuSchIH]]/URI$ - непрерывно диффференцируемое при $URI[[http://libmeta.ru/me/formula/aux/437_57_ZAPAZDYVAJuSchIH]]/URI$ решение смешанной задачи
+
+$URI[[http://libmeta.ru/me/formula/aux/437_58_ZAPAZDYVAJuSchIH]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_24_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+для уравнения (12) в области $URI[[http://libmeta.ru/me/formula/aux/437_59_ZAPAZDYVAJuSchIH]]/URI$, то, согласно 3. П. м., интеграл Дюамеля
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_25_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+с непрерывно диффференцируемой плотностью $URI[[http://libmeta.ru/me/formula/aux/437_60_ZAPAZDYVAJuSchIH]]/URI$ будет решением смешанной задачи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_26_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+для уравнения (12) в области $URI[[http://libmeta.ru/me/formula/aux/437_61_ZAPAZDYVAJuSchIH]]/URI$.
+
+Интеграл Дюамеля (13) по существу есть формула представления линейного оператора $URI[[http://libmeta.ru/me/formula/aux/437_62_ZAPAZDYVAJuSchIH]]/URI$, к-рый преобразует ваданную граничную функцию $URI[[http://libmeta.ru/me/formula/aux/437_63_ZAPAZDYVAJuSchIH]]/URI$ в решение $URI[[http://libmeta.ru/me/formula/aux/437_64_ZAPAZDYVAJuSchIH]]/URI$. Интегральная формула Дюамеля имеет место не только для оператора $URI[[http://libmeta.ru/me/formula/aux/437_65_ZAPAZDYVAJuSchIH]]/URI$ из (13), но и для всех линейных операторов $URI[[http://libmeta.ru/me/formula/aux/437_66_ZAPAZDYVAJuSchIH]]/URI$, удовлетворяющих следующим условиям.
+
+1) Оператор $URI[[http://libmeta.ru/me/formula/aux/437_67_ZAPAZDYVAJuSchIH]]/URI$ определен для всех функций $URI[[http://libmeta.ru/me/formula/aux/437_68_ZAPAZDYVAJuSchIH]]/URI$, равных нулю при $URI[[http://libmeta.ru/me/formula/aux/437_69_ZAPAZDYVAJuSchIH]]/URI$, и преобразует $URI[[http://libmeta.ru/me/formula/aux/437_70_ZAPAZDYVAJuSchIH]]/URI$ в функцию $URI[[http://libmeta.ru/me/formula/aux/437_71_ZAPAZDYVAJuSchIH]]/URI$, также равную нулю при $URI[[http://libmeta.ru/me/formula/aux/437_72_ZAPAZDYVAJuSchIH]]/URI$.
+
+2) $URI[[http://libmeta.ru/me/formula/aux/437_73_ZAPAZDYVAJuSchIH]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/437_74_ZAPAZDYVAJuSchIH]]/URI$ — некоторая функция $URI[[http://libmeta.ru/me/formula/aux/437_75_ZAPAZDYVAJuSchIH]]/URI$ и параметра $URI[[http://libmeta.ru/me/formula/aux/437_76_ZAPAZDYVAJuSchIH]]/URI$.
+
+3) Если $URI[[http://libmeta.ru/me/formula/aux/437_77_ZAPAZDYVAJuSchIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/437_78_ZAPAZDYVAJuSchIH]]/URI$ диффференцируема, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_27_ZAPAZDYVAJuSchIH]]/URI
+\]
+
+4) Если $URI[[http://libmeta.ru/me/formula/aux/437_79_ZAPAZDYVAJuSchIH]]/URI$, то для всех $URI[[http://libmeta.ru/me/formula/aux/437_80_ZAPAZDYVAJuSchIH]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/437_28_ZAPAZDYVAJuSchIH]]/URI
+\]</text>
+  <text_orig>п р и н ц и п Д ю а м е л я,- метод отыскания решения однородной задачи Коши для неоднородного линейного дифференциального уравнения или системы с частными производными по известному решению однородного уравнения или системы.
+
+Пусть дано уравнение
+
+\[
+\frac{\partial^{m} u}{\partial t^{m}}-L u=f(x, t), u=u(x, t), x=\left(x_{1}, \ldots, x_{n}\right),
+\]
+
+где $L$ - произвольный линейный дифференциальный оператор, к-рый не содержит производных по $t$ выше $n-1$ порядка. Частное решение $u(x, t)$ уравнения (1) при $t&gt;0$ ищется в виде Дюамеля интеграла
+
+\[
+u(x, t)=\int_{0}^{t} \varphi(x, t ; \tau) d \tau
+\]
+
+где $\varphi$ является (регулярным или обобщенным) решением однородного уравнения
+
+Если
+
+\[
+\frac{\partial^{m} \varphi}{\partial t^{m}}-L \varphi=0, \quad t&gt;\tau
+\]
+
+\[
+\left.\frac{\partial^{k} \varphi}{\partial t^{k}}\right|_{t=\tau}=\left\{\begin{array}{l}
+0 \quad \text { прш } k=0,1, \ldots, m-2, \\
+f(x, \tau) \text { при } k=m-1,
+\end{array}\right.
+\]
+
+то функция (2), полученная с помощью суперпозиции импульсов $\varphi$, будет решением задачи Коши
+
+\[
+\left.\frac{\partial^{k} u}{\partial t^{k}}\right|_{t=0}=0, \quad k=0,1, \ldots m-1,
+\]
+
+для неоднородного уравнения (1).
+
+В случае обыкновенных диффференциальных уравнений и систем 3. п. м. известен под названием м е т о д а в а ри аци и постоян ных, или метод а имп у л ь с о в. Этот метод для линейных обыкновенных диффференциальных уравнений порядка $m$ :
+
+\[
+l u \equiv \frac{d^{m} u}{d t^{m}}-\sum_{j=1}^{m} a_{j}(t) \frac{d^{m-j} u}{d t^{m-j}}=f(t)
+\]
+
+заключается в том, что если $u_{1}(t), u_{2}(t), \ldots, u_{m}(t)-$ какая-либо фундаментальная система решений уравнения $l u=0$, то решение $u(t)$ неоднородного уравнения (4) отыскивается в виде
+
+\[
+u(t)=\sum_{j=1}^{m} c^{j}(t) u_{j}(t) .
+\]
+
+Функции $\dot{c}^{j}=d c^{j / d t}, j=1, \ldots, m$, однозначно определяются как решения системы алгебраич. уравнений
+
+\[
+\begin{gathered}
+\sum_{j=1}^{m} \dot{c}^{j}(t) d^{k} u_{j} / d t^{k}=0, \quad k=0,1, \ldots, m-2, \\
+\sum_{j=1}^{m} \dot{c}^{j}(t) d^{m-1} u_{j} / d t^{m-1}=f(t)
+\end{gathered}
+\]
+
+с отличным от нуля детерминантом Вроньского.
+
+Если $f(t)=0$ при $t \leqslant 0$, то решение $u_{f}(t)$ однородной задачи Коши (3) для уравнения (4) принято наз. нормальной реакцией на внешнюю нагрузку $f(t)$. Функция $u_{f}(t)$ представима в виде свертки или интеграла Дюамеля
+
+\[
+u_{f}(t)=\int_{0}^{t} \varphi(\tau) f(t-\tau) d \tau=\int_{0}^{t} \varphi(t-\tau) f(\tau) d \tau,
+\]
+
+где $l \varphi(t)=0$ при $t&gt;0$ и
+
+\[
+\left.\frac{d^{k} \varphi}{d t^{k}}\right|_{t=0}=\left\{\begin{array}{l}
+0 \text { при } k=0,1, \ldots, m-2, \\
+1 \text { при } k=m-1 .
+\end{array}\right.
+\]
+
+Пусть $f(x, t), x=\left(x_{1}, \ldots, x_{n}\right)$,- функция, имеющая непрерывные частные производные до порядка $(n+1) / 2$ в случае нечетного $n$ и $(n+2) / 2$ - в случае четного $n$, a $M_{r}[f(x, t)]$ - среднее значение $f$ на сфере $|y-x|=r$ с центром в точке $x$ и радиуса $r$. Зависящая от неотрицательного параметра $\tau \leqslant t$ функция
+
+$v(x, t ; \tau)=\frac{1}{(n-2) !} \frac{\partial^{n-2}}{\partial t^{n-2}} \int_{0}^{t}\left(t^{2}-r^{2}\right)^{(n-3) / 2} r M_{r}[f(x, \tau)] d r$
+
+является решением волнового уравнения
+
+\[
+\square v \equiv v_{t t}-\Delta v=0
+\]
+
+удовлетворяющим начальным условиям
+
+\[
+v(x, 0 ; r)=0, \quad v_{t}(x, 0 ; \tau)=f(x, \tau) .
+\] Интеграл Дюамеля
+
+\[
+u(x, t)=\int_{0}^{t} v(x, t-\tau ; \tau) d \tau
+\]
+
+представляет собой решение однородной задачи Коши: $u(x, 0)=0, u_{t}(x, 0)=0$ для уравнения [门 $u=f(x, t)$. При $n=2$ и $n=3$ из (5) получаются выражения
+
+\[
+u(x, t)=\frac{1}{2 \pi} \int_{0}^{t} d \tau \int_{\rho \leqslant \pi} \frac{f(y, t-\tau) d y}{\sqrt{\tau^{2}-\rho^{2}}}, \quad y=\left(y_{1}, y_{2}\right) \text {, }
+\]
+
+и
+
+\[
+u(x, t)=\frac{1}{4 \pi} \int_{\rho \leqslant t} \frac{f(y, t-\rho)}{\rho} d y, \quad y=\left(y_{1}, y_{2}, y_{3}\right)
+\]
+
+где $\rho=|x-y|$.
+
+Если же $n=1$, то
+
+\[
+u(x, t)=\frac{1}{2} \int_{0}^{t} d \tau \int_{x-t+\tau}^{x+t-\tau} f(y, \tau) d y, y=y_{1} .
+\]
+
+Интеграл (6) наз. 3 а п а з ды в а ю щ и м по те нц и а л о м с плотностью $f$.
+
+3. п. м. (метод вариации параметров) особенно прост и полезен, когда он применяется к линейным системам диф্фференциальных уравнений 1-го порядка вида
+
+\[
+S u \equiv u_{t}+\sum_{i=1}^{n} A^{i} u_{x_{1}}+B u=f(x, t),
+\]
+
+где $u=u(x, t)$ - вектор с $k$ компонентами, $A^{i}$ и $B-$ заданные матрицы размера $k \times k$, а $f$ - заданный вектор.
+
+Пусть вектор $\varphi=\varphi(x, t ; \tau)$, зависящий от параметра $\tau \leqslant t$, есть решение задачи Коши
+
+\[
+\varphi(x, \tau ; \tau)=f(x, \tau)
+\]
+
+для однородной системы $S \varphi=0$. Тогда вектор
+
+\[
+u(x, t)=\int_{0}^{t} \varphi(x, t ; \tau) d \tau
+\]
+
+является решением неоднородной системы (7) с начальным условием
+
+\[
+u(x, 0)=0 .
+\]
+
+Функция $\varphi(x, t ; \tau)$, соответствующая неоднородному уравнению теплопроводности
+
+\[
+u_{t}-a \Delta u=f(x, t), a=\text { const }&gt;0,
+\]
+
+имеет вид
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_131fbcb2292a111f3ce0g-1.jpg?height=97&amp;width=804&amp;top_left_y=1589&amp;top_left_x=131)
+
+где $R^{n}-$ евклидово пространство. Решение $u(x, t)$ уравнения (10) с начальным условием (9) задается интегралом Дюамеля (3), где под знаком интеграла стоит функция (11).
+
+3. п. м. используется и при исследовании смешанных задач для уравнений с частными производными параболич. и гиперболич. типов, позволяя общую задачу редуцировать к задачам со специальными начальными и граничными функциями.
+
+Напр., пусть в области $\Omega=\{(x, t) \mid \alpha&lt;x&lt;\beta, 0&lt;t&lt;T\}$ задано уравнение с частными производными
+
+\[
+A u_{t t}+B u_{x x}+a u_{t}+b u_{x}+c u=0,
+\]
+
+где $B, b, c=$ const, $B&lt;0$,
+
+\[
+\begin{gathered}
+A=\left\{\begin{array}{cc}
+A_{0}=\text { const } &amp; \text { при } \alpha \leqslant x \leqslant 0, \\
+0 &amp; \text { при } 0 \leqslant x \leqslant \beta,
+\end{array}\right. \\
+a= \begin{cases}a_{0}=\text { const }&gt;0 \text { при } 0 \leqslant x \leqslant \beta, \\
+a_{1}=\text { const } &amp; \text { при } \alpha \leqslant x \leqslant 0,\end{cases}
+\end{gathered}
+\]
+
+к-рое гиперболично при $x&lt;0$ и параболично при $x&gt;0$. Если $\varphi(x, t)$ - непрерывно диффференцируемое при $x=0$ решение смешанной задачи
+
+$\varphi(x, 0)=0, \alpha \leqslant x \leqslant \beta, \varphi_{t}(x, 0)=0, \alpha&lt;x&lt;0$,
+
+\[
+u(\alpha, t)=1, \varphi_{x}(\beta, t)=0,0&lt;t&lt;T,
+\]
+
+для уравнения (12) в области $\Omega$, то, согласно 3. П. м., интеграл Дюамеля
+
+\[
+u(x, t)=\frac{\partial}{\partial t} \int_{0}^{t} \varphi(x, t-\tau) f(\tau) d \tau \equiv T f
+\]
+
+с непрерывно диффференцируемой плотностью $f(t)$ будет решением смешанной задачи
+
+\[
+\begin{gathered}
+u(x, 0)=0, \alpha \leqslant x \leqslant \beta, u_{t}(x, 0)=0, \alpha&lt;x&lt;0, \\
+u(\alpha, t)=f(t), u_{x}(\beta, t)=0,0&lt;t&lt;T,
+\end{gathered}
+\]
+
+для уравнения (12) в области $\Omega$.
+
+Интеграл Дюамеля (13) по существу есть формула представления линейного оператора $T$, к-рый преобразует ваданную граничную функцию $f(t)$ в решение $u(x, t)$. Интегральная формула Дюамеля имеет место не только для оператора $T$ из (13), но и для всех линейных операторов $T$, удовлетворяющих следующим условиям.
+
+1) Оператор $T$ определен для всех функций $f(t)$, равных нулю при $t&lt;0$, и преобразует $f$ в функцию $T f=u\left(x_{1}, \ldots, x_{n}, t\right)$, также равную нулю при $t&lt;0$.
+
+2) $T \int_{\tau_{1}}^{\tau_{2}} f[\theta(t, \tau)] d \tau=\int_{\tau_{1}}^{\tau_{2}} T f[\theta(t, \tau)] d \tau$,
+
+где $\theta(t, \tau)$ — некоторая функция $t$ и параметра $\tau$.
+
+3) Если $f(0)=0$ и $f(t)$ диффференцируема, то
+
+\[
+\frac{d}{d t} T f=T \frac{d f}{d t} \text {. }
+\]
+
+4) Если $\operatorname{Tf}(t)=\varphi(t)$, то для всех $\tau&gt;0$
+
+\[
+T f(t-\tau)=\varphi(t-\tau) .
+\]
+
+Лит.: [1] Б и ша д з е А. В., Уравнения математической Физики, М., 1976; [2] Б е p с Л., Д ж о н Ф., III е х т e p M., Уравнения с частными производными, пер. с англ., м., 1966 3 изд., М., 1976; [4] К у р а н т Р., Уравнения с частными производными, пер. с англ., м., 1964; [5] П о н т р я г и н Л. С. Обынновенные дифференциальные уравнения, 3 изд., М., 1970 [6] Т и х о н о в А. Н., С а м а p с к и й А. А., Уравнения математической физики, 4 изд., М., 1972. А. А. М. Нахушев.</text_orig>
+</article>

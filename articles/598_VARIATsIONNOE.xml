@@ -1,0 +1,1135 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/598_VARIATsIONNOE" alphabetic_pos="598">
+  <title>ВАРИАЦИОННОЕ ИСЧИСЛЕНИЕ</title>
+  <authors>
+    <author>H. Н. Моисеев</author>
+  </authors>
+  <pages>
+    <start>291</start>
+    <end>294</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] С м и р н о в В. И., Курс высшей математики, 5 изд., т. 4, М., 1958; [2] Л а в р е н т ь е в М. А., Ј юо с т е р1950 ; [3] Б л и с с Г. А., Лекции по вариационному исчислению, пер. с англ., М., 1950; [4] М и х ли н С. Г., Вариационные методы в математической физике, М., 1957; [5] П о н т р яг и н Л. С. (и др.), Математическая теория оптимальных процессов, 2 изд., М., 1969; [6] П ш е ни ч н ы й Б. Н., Необхо-![](https://cdn.mathpix.com/cropped/2023_07_08_e50a9a5c81faa5a5e170g-1.jpg?height=42&amp;width=834&amp;top_left_y=1717&amp;top_left_x=987)ционных задачах, м., 1930 .</literature_orig>
+    <unit>
+      <author>Смирнов В. И.</author>
+      <title>Курс высшей математики</title>
+      <publication>5 изд., т. 4, М.</publication>
+      <year>1958</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Лаврентьев М. А.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Ј юо с т е р1950</other>
+    </unit>
+    <unit>
+      <author>Блисс Г. А.</author>
+      <title>Лекции по вариационному исчислению</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1950</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Михлин С. Г.</author>
+      <title>Вариационные методы в математической физике</title>
+      <publication>М.</publication>
+      <year>1957</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>П о н т р яг и н Л. С. (и др.), Математическая теория оптимальных процессов</title>
+      <publication>2 изд., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Пшеничный Б. Н.</author>
+      <title>Необхо-![](https://cdn.mathpix.com/cropped/2023_07_08_e50a9a5c81faa5a5e170g-1.jpg?height=42&amp;width=834&amp;top_left_y=1717&amp;top_left_x=987)ционных задачах</title>
+      <publication>м.</publication>
+      <year>1930</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/598_1_VARIATsIONNOE">J(x)=\int_{T} f(t, x(t), \dot{x}(t)) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_2_VARIATsIONNOE">\dot{x}=\left(\frac{\partial x^{i}}{\partial t_{0}}\right), \quad f: \mathbb{R}^{m} \times \mathbb{R}^{n} \times \mathbb{R}^{m} n \longrightarrow \mathbb{R},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_3_VARIATsIONNOE">\left.\begin{array}{l}\varphi(t, x(t), \dot{x}(t))=0, \\\varphi: \mathbb{R}^{\boldsymbol{m}} \times \mathbb{R}^{n} \times \mathbb{R}^{\boldsymbol{m} n} \longrightarrow \mathbb{R}^{s}\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_4_VARIATsIONNOE">J(x) \sim J\left(x_{0}, x_{1}, \ldots, x_{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_5_VARIATsIONNOE">x\left(t_{0}\right)=x\left(t_{1}\right)=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_6_VARIATsIONNOE">x(t)=\sum_{n=1}^{N} a_{n} \varphi_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_7_VARIATsIONNOE">\delta J(x, h)=\left.\int_{t_{0}}^{t_{1}}\left(\frac{\partial L}{\partial x}-\frac{d}{d t} \frac{\partial L}{\partial \dot{x}}\right)\right|_{x(t)} h(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_8_VARIATsIONNOE">\frac{\partial L}{\partial x}-\frac{d}{d t} \frac{\partial L}{\partial \dot{x}}=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_9_VARIATsIONNOE">J(x)=\int_{t_{0}}^{t_{1}} F\left(x(t), \frac{d x}{d t}, \frac{d^{2} x}{d t^{2}}, \ldots, \frac{d^{s} x}{d t^{s}}\right) d t,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_10_VARIATsIONNOE">J(x, u)=\int_{t_{0}}^{t_{1}} F(t, x, u) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_11_VARIATsIONNOE">\dot{x}=f(t, x, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_12_VARIATsIONNOE">\left(x\left(t_{0}\right), x\left(t_{1}\right)\right) \in E .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_13_VARIATsIONNOE">u(t) \in U \subset \mathbb{R}^{m} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_14_VARIATsIONNOE">\max _{t \in\left[t_{0}, t_{1}\right]}\left|x(t)-x_{0}(t)\right| \leqslant \varepsilon .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_15_VARIATsIONNOE">\left.\begin{array}{c}\dot{x}=\frac{\partial H}{\partial \psi},-\dot{\psi}=\frac{\partial H}{\partial x}, \\\max _{u \in U} H\left(t, x(t), \psi(t), u, \lambda_{0}\right)= \\=H\left(t, x(t), \psi(t), u(t), \lambda_{0}\right) .\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_16_VARIATsIONNOE">\mathscr{E}(t, x(t), \dot{x}(t), \xi) \geqslant 0, \quad \forall t \in\left[t_{0}, t_{1}\right], \xi \in R,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_17_VARIATsIONNOE">a_{i}^{-} \leqslant u^{i} \leqslant a_{i}^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_18_VARIATsIONNOE">\frac{\partial S}{\partial t}+\min _{u \in U}\left(\frac{\partial S}{\partial x},(f(t, x(t), u, \psi(t))-F(t, x(t), u)),\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_19_VARIATsIONNOE">\frac{\partial S}{\partial t}+H\left(t, x, \frac{\partial S}{\partial x}\right)=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_20_VARIATsIONNOE">A x=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_21_VARIATsIONNOE">J(x)=\iint_{\Omega} A_{x x} d \xi d \eta-2 \iint_{\Omega} f x d \xi d \eta,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/598_22_VARIATsIONNOE">f\left(x_{0}+\lambda e\right) \geqslant f\left(x_{0}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_1_VARIATsIONNOE">t \subset \mathbb{R}^{m}, t=\left(t_{1}, \ldots, t_{m}\right), x=\left(x^{\prime}, \ldots, x^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_2_VARIATsIONNOE">\left.x\right|_{\partial T} \in \Gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_3_VARIATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_4_VARIATsIONNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_5_VARIATsIONNOE">j(x)=\int_{t_{0}}^{t_{1}} L(t, x, \dot{x}) d t \longrightarrow \inf ; x\left(t_{0}\right)=x_{0}, x\left(t_{1}\right)=x_{1} .(3)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_6_VARIATsIONNOE">\left[t_{0}, t_{1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_7_VARIATsIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_8_VARIATsIONNOE">\tau_{0}=t_{0}, \tau_{1}=t_{0}+\tau, \ldots ., \tau_{N}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_9_VARIATsIONNOE">=t_{0}+n \tau=t_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_10_VARIATsIONNOE">x_{0}, x_{1}, \ldots ., x_{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_11_VARIATsIONNOE">\left(\tau_{0}, x_{0}\right),\left(\tau_{1}, x_{1}\right), \ldots .,\left(\tau_{N}, x_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_12_VARIATsIONNOE">\left(\tau_{0}, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_13_VARIATsIONNOE">\left(\tau_{n}, x_{N}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_14_VARIATsIONNOE">\dot{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_15_VARIATsIONNOE">\left[\tau_{i}, \tau_{i+1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_16_VARIATsIONNOE">\dot{x}_{i}=\left(x_{i+1}-x_{i}\right) / \tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_17_VARIATsIONNOE">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_18_VARIATsIONNOE">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_19_VARIATsIONNOE">j\left(x_{0}, x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_20_VARIATsIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_21_VARIATsIONNOE">\varphi_{n}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_22_VARIATsIONNOE">\varphi_{i}\left(t_{0}\right)=\varphi_{i}\left(t_{1}\right)=0, i=1, \ldots . N</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_23_VARIATsIONNOE">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_24_VARIATsIONNOE">j(x) \sim J\left(a_{1}, \ldots, a_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_25_VARIATsIONNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_26_VARIATsIONNOE">\left\{\varphi_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_27_VARIATsIONNOE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_28_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_29_VARIATsIONNOE">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_30_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_31_VARIATsIONNOE">\delta J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_32_VARIATsIONNOE">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_33_VARIATsIONNOE">h(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_34_VARIATsIONNOE">h\left(t_{0}\right)=h\left(t_{1}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_35_VARIATsIONNOE">\delta J=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_36_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_37_VARIATsIONNOE">\delta J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_38_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_39_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_40_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_41_VARIATsIONNOE">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_42_VARIATsIONNOE">x\left(t_{0}\right)=x_{0}, x\left(t_{1}\right)=x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_43_VARIATsIONNOE">x\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_44_VARIATsIONNOE">x\left(t_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_45_VARIATsIONNOE">\delta J=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_46_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_47_VARIATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_48_VARIATsIONNOE">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_49_VARIATsIONNOE">\varphi(t, x, \dot{x})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_50_VARIATsIONNOE">x=\left(x^{1}, \ldots, x^{n}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_51_VARIATsIONNOE">u=\left(u^{1}, \ldots, u^{m}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_52_VARIATsIONNOE">f: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{m} \rightarrow R, f: \mathbb{R}^{m} \times \mathbb{R}^{n} \times</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_53_VARIATsIONNOE">\times \mathbb{R}^{m} \rightarrow \mathbb{R}^{n}, E \subset \mathbb{R}^{2 n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_54_VARIATsIONNOE">x_{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_55_VARIATsIONNOE">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_56_VARIATsIONNOE">j(x) \geqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_57_VARIATsIONNOE">\geqslant J\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_58_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_59_VARIATsIONNOE">x\left(t_{0}\right)=x_{0}\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_60_VARIATsIONNOE">x\left(t_{1}\right)=x_{0}\left(t_{1}\right) \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_61_VARIATsIONNOE">\max _{t \in\left[t_{0}, t_{1}\right]}\left|x(t)-x_{0}(t)\right|+\max _{t \in\left[t_{0}, t_{1}\right]}\left|\dot{x}(t)-\dot{x_{0}}(t)\right|&lt;\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_62_VARIATsIONNOE">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_63_VARIATsIONNOE">j(x) \geqslant J\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_64_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_65_VARIATsIONNOE">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_66_VARIATsIONNOE">x\left(t_{0}\right)=x_{0}\left(t_{0}\right), x\left(t_{1}\right)=x_{0}\left(t_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_67_VARIATsIONNOE">x_{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_68_VARIATsIONNOE">(x, u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_69_VARIATsIONNOE">\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_70_VARIATsIONNOE">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_71_VARIATsIONNOE">h\left(t, x, \psi, u, \lambda_{0}\right)=(\psi, f)-\lambda_{0} F</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_72_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_73_VARIATsIONNOE">\mathscr{o}(t, x, \dot{x}, \xi)=L(t, x, \xi)-L(t, x, \dot{x})-(\xi-\dot{x}) L_{\dot{x}}(t, x, \dot{x})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_74_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_75_VARIATsIONNOE">-\frac{d}{d t}\left(\left.\frac{\partial^{2} L}{\partial \dot{x}^{2}}\right|_{x(t)} \frac{d}{d t} h(t)\right)+\left.\left(\frac{\partial^{2} L}{\partial x^{2}}-\frac{d}{d t} \frac{\partial^{2} L}{\partial x \partial \dot{x}}\right)\right|_{x(t)} h(t)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_76_VARIATsIONNOE">h\left(t_{0}\right)=0, \dot{h}\left(t_{0}\right) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_77_VARIATsIONNOE">\left(t_{0}, t_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_78_VARIATsIONNOE">h(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_79_VARIATsIONNOE">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_80_VARIATsIONNOE">\left(t_{0}, t_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_81_VARIATsIONNOE">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_82_VARIATsIONNOE">\delta J=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_83_VARIATsIONNOE">\delta^{2} J \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_84_VARIATsIONNOE">f^{\prime}(x)=0, f^{\prime \prime}(x) \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_85_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_86_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_87_VARIATsIONNOE">\left.\frac{\partial^{2} L}{\partial \dot{x}^{2}}\right|_{x(t)}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_88_VARIATsIONNOE">\left(t_{0}, t_{1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_89_VARIATsIONNOE">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_90_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_91_VARIATsIONNOE">\left(t_{0}, t_{1}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_92_VARIATsIONNOE">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_93_VARIATsIONNOE">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_94_VARIATsIONNOE">u-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_95_VARIATsIONNOE">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_96_VARIATsIONNOE">u^{i}, i=1,2,3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_97_VARIATsIONNOE">a_{\bar{i}}^{\bar{n}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_98_VARIATsIONNOE">a_{i}^{+}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_99_VARIATsIONNOE">s(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_100_VARIATsIONNOE">\left(t_{0}, x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_101_VARIATsIONNOE">(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_102_VARIATsIONNOE">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_103_VARIATsIONNOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_104_VARIATsIONNOE">s(t, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_105_VARIATsIONNOE">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_106_VARIATsIONNOE">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_107_VARIATsIONNOE">\dot{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_108_VARIATsIONNOE">l(t, x, \dot{x})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_109_VARIATsIONNOE">x(\xi, \eta)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_110_VARIATsIONNOE">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_111_VARIATsIONNOE">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_112_VARIATsIONNOE">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_113_VARIATsIONNOE">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_114_VARIATsIONNOE">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_115_VARIATsIONNOE">\delta J=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_116_VARIATsIONNOE">j(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_117_VARIATsIONNOE">g_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_118_VARIATsIONNOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_119_VARIATsIONNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_120_VARIATsIONNOE">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_121_VARIATsIONNOE">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_122_VARIATsIONNOE">\gamma_{g}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_123_VARIATsIONNOE">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_124_VARIATsIONNOE">\lambda_{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_125_VARIATsIONNOE">x=x_{0}+\lambda e \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_126_VARIATsIONNOE">\lambda \in\left(0, \lambda_{e}^{*}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_127_VARIATsIONNOE">\gamma_{f}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_128_VARIATsIONNOE">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_129_VARIATsIONNOE">\lambda_{e}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_130_VARIATsIONNOE">\lambda \in\left[0, \lambda_{e}^{*}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_131_VARIATsIONNOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_132_VARIATsIONNOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_133_VARIATsIONNOE">\gamma_{g}\left(x_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/598_134_VARIATsIONNOE">\gamma_{f}\left(x_{0}\right)</formula>
+  </formulas_aux>
+  <relations n="127">
+    <relation uri="http://libmeta.ru/me/relation/598_1_VARIATsIONNOE">
+      <rel_text>Динамическое программирование</rel_text>
+      <target>http://libmeta.ru/me/article/180_DINAMIChESKOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_2_VARIATsIONNOE">
+      <rel_text>Якоби условие</rel_text>
+      <target>http://libmeta.ru/me/article/1242_JaKOBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_3_VARIATsIONNOE">
+      <rel_text>Вариачия</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_4_VARIATsIONNOE">
+      <rel_text>Галеркина метод</rel_text>
+      <target>http://libmeta.ru/me/article/900_GALERKINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_5_VARIATsIONNOE">
+      <rel_text>Вариация</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_6_VARIATsIONNOE">
+      <rel_text>сложным</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_7_VARIATsIONNOE">
+      <rel_text>подойти</rel_text>
+      <target>http://libmeta.ru/me/article/360_PoDoBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_8_VARIATsIONNOE">
+      <rel_text>получить</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_9_VARIATsIONNOE">
+      <rel_text>результаты</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_10_VARIATsIONNOE">
+      <rel_text>вариации</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_11_VARIATsIONNOE">
+      <rel_text>нуль</rel_text>
+      <target>http://libmeta.ru/me/article/1087_NUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_12_VARIATsIONNOE">
+      <rel_text>пересечение</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_13_VARIATsIONNOE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_14_VARIATsIONNOE">
+      <rel_text>минимум</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_15_VARIATsIONNOE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_16_VARIATsIONNOE">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_17_VARIATsIONNOE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_18_VARIATsIONNOE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_19_VARIATsIONNOE">
+      <rel_text>замкнутого множества</rel_text>
+      <target>http://libmeta.ru/me/article/427_ZAMKNUTOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_20_VARIATsIONNOE">
+      <rel_text>минимуме</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_21_VARIATsIONNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_22_VARIATsIONNOE">
+      <rel_text>пространствах</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_23_VARIATsIONNOE">
+      <rel_text>теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_24_VARIATsIONNOE">
+      <rel_text>вариации</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_25_VARIATsIONNOE">
+      <rel_text>пространств</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_26_VARIATsIONNOE">
+      <rel_text>нормированных</rel_text>
+      <target>http://libmeta.ru/me/article/1034_NORMALIZATO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_27_VARIATsIONNOE">
+      <rel_text>множествах</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_28_VARIATsIONNOE">
+      <rel_text>Круг</rel_text>
+      <target>http://libmeta.ru/me/article/117_KRU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_29_VARIATsIONNOE">
+      <rel_text>теорией</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_30_VARIATsIONNOE">
+      <rel_text>Вариационное исчисление</rel_text>
+      <target>http://libmeta.ru/me/article/598_VARIATsIONNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_31_VARIATsIONNOE">
+      <rel_text>функционального анализа</rel_text>
+      <target>http://libmeta.ru/me/article/804_FUNKІIONAL'NBІI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_32_VARIATsIONNOE">
+      <rel_text>развитие</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_33_VARIATsIONNOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_34_VARIATsIONNOE">
+      <rel_text>дифференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_35_VARIATsIONNOE">
+      <rel_text>качественной теорией URI[[http://libmeta.ru/me/</rel_text>
+      <target>http://libmeta.ru/me/article/794_KAChESTVENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_36_VARIATsIONNOE">
+      <rel_text>подобного</rel_text>
+      <target>http://libmeta.ru/me/article/368_PODOBЂEK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_37_VARIATsIONNOE">
+      <rel_text>замкнутых геодезических</rel_text>
+      <target>http://libmeta.ru/me/article/422_ZAMKNUTAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_38_VARIATsIONNOE">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_39_VARIATsIONNOE">
+      <rel_text>совпадают</rel_text>
+      <target>http://libmeta.ru/me/article/59_SOVPADENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_40_VARIATsIONNOE">
+      <rel_text>замкнутые геодезические</rel_text>
+      <target>http://libmeta.ru/me/article/422_ZAMKNUTAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_41_VARIATsIONNOE">
+      <rel_text>поверхности</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_42_VARIATsIONNOE">
+      <rel_text>вариация</rel_text>
+      <target>http://libmeta.ru/me/article/604_VARIATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_43_VARIATsIONNOE">
+      <rel_text>критич</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_44_VARIATsIONNOE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_45_VARIATsIONNOE">
+      <rel_text>поверхности</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_46_VARIATsIONNOE">
+      <rel_text>кривых</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_47_VARIATsIONNOE">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_48_VARIATsIONNOE">
+      <rel_text>соединяющих</rel_text>
+      <target>http://libmeta.ru/me/article/62_SOEDINENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_49_VARIATsIONNOE">
+      <rel_text>кривых</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_50_VARIATsIONNOE">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_51_VARIATsIONNOE">
+      <rel_text>функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_52_VARIATsIONNOE">
+      <rel_text>пространства</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_53_VARIATsIONNOE">
+      <rel_text>экстремалей</rel_text>
+      <target>http://libmeta.ru/me/article/1123_EKSTREMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_54_VARIATsIONNOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_55_VARIATsIONNOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_56_VARIATsIONNOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_57_VARIATsIONNOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_58_VARIATsIONNOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_59_VARIATsIONNOE">
+      <rel_text>теорем</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_60_VARIATsIONNOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_61_VARIATsIONNOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_62_VARIATsIONNOE">
+      <rel_text>оператор</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_63_VARIATsIONNOE">
+      <rel_text>положительно определенный</rel_text>
+      <target>http://libmeta.ru/me/article/444_POLOZhITEL'NO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_64_VARIATsIONNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_65_VARIATsIONNOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_66_VARIATsIONNOE">
+      <rel_text>уравнением</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_67_VARIATsIONNOE">
+      <rel_text>Уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_68_VARIATsIONNOE">
+      <rel_text>кривой</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_69_VARIATsIONNOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_70_VARIATsIONNOE">
+      <rel_text>минимума</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_71_VARIATsIONNOE">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_72_VARIATsIONNOE">
+      <rel_text>задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_73_VARIATsIONNOE">
+      <rel_text>предположениях</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_74_VARIATsIONNOE">
+      <rel_text>кривой</rel_text>
+      <target>http://libmeta.ru/me/article/90_KRIVA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_75_VARIATsIONNOE">
+      <rel_text>нуль</rel_text>
+      <target>http://libmeta.ru/me/article/1087_NUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_76_VARIATsIONNOE">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_77_VARIATsIONNOE">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_78_VARIATsIONNOE">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_79_VARIATsIONNOE">
+      <rel_text>вариационной задачи</rel_text>
+      <target>http://libmeta.ru/me/article/597_VARIATsIONNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_80_VARIATsIONNOE">
+      <rel_text>әквивалентно</rel_text>
+      <target>http://libmeta.ru/me/article/1111_ӘKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_81_VARIATsIONNOE">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_82_VARIATsIONNOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_83_VARIATsIONNOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_84_VARIATsIONNOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_85_VARIATsIONNOE">
+      <rel_text>связанных</rel_text>
+      <target>http://libmeta.ru/me/article/1233_SvJaZNOSt</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_86_VARIATsIONNOE">
+      <rel_text>Гамильтона</rel_text>
+      <target>http://libmeta.ru/me/article/919_GAMIL'TONI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_87_VARIATsIONNOE">
+      <rel_text>Теория</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_88_VARIATsIONNOE">
+      <rel_text>Лежандра преобразование</rel_text>
+      <target>http://libmeta.ru/me/article/256_LEZhANDRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_89_VARIATsIONNOE">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_90_VARIATsIONNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_91_VARIATsIONNOE">
+      <rel_text>Гамильтона</rel_text>
+      <target>http://libmeta.ru/me/article/919_GAMIL'TONI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_92_VARIATsIONNOE">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_93_VARIATsIONNOE">
+      <rel_text>частными производными</rel_text>
+      <target>http://libmeta.ru/me/article/961_ChASTNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_94_VARIATsIONNOE">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_95_VARIATsIONNOE">
+      <rel_text>дифференциальное</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_96_VARIATsIONNOE">
+      <rel_text>оптимальным управлением</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_97_VARIATsIONNOE">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_98_VARIATsIONNOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_99_VARIATsIONNOE">
+      <rel_text>оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_100_VARIATsIONNOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_101_VARIATsIONNOE">
+      <rel_text>принцип максимума</rel_text>
+      <target>http://libmeta.ru/me/article/531_MAKSIMINA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_102_VARIATsIONNOE">
+      <rel_text>оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_103_VARIATsIONNOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_104_VARIATsIONNOE">
+      <rel_text>получили</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_105_VARIATsIONNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_106_VARIATsIONNOE">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_107_VARIATsIONNOE">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_108_VARIATsIONNOE">
+      <rel_text>вектора</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_109_VARIATsIONNOE">
+      <rel_text>получается</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_110_VARIATsIONNOE">
+      <rel_text>орбиты</rel_text>
+      <target>http://libmeta.ru/me/article/52_ORBIT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_111_VARIATsIONNOE">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_112_VARIATsIONNOE">
+      <rel_text>Функционал</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_113_VARIATsIONNOE">
+      <rel_text>радиуса</rel_text>
+      <target>http://libmeta.ru/me/article/866_RADIA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_114_VARIATsIONNOE">
+      <rel_text>орбита</rel_text>
+      <target>http://libmeta.ru/me/article/52_ORBIT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_115_VARIATsIONNOE">
+      <rel_text>орбита</rel_text>
+      <target>http://libmeta.ru/me/article/52_ORBIT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_116_VARIATsIONNOE">
+      <rel_text>вектор</rel_text>
+      <target>http://libmeta.ru/me/article/645_VEKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_117_VARIATsIONNOE">
+      <rel_text>объекта</rel_text>
+      <target>http://libmeta.ru/me/article/1156_OB'EK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_118_VARIATsIONNOE">
+      <rel_text>динамич</rel_text>
+      <target>http://libmeta.ru/me/article/175_DINAMIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_119_VARIATsIONNOE">
+      <rel_text>движение</rel_text>
+      <target>http://libmeta.ru/me/article/25_DVIZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_120_VARIATsIONNOE">
+      <rel_text>уравнение</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_121_VARIATsIONNOE">
+      <rel_text>Задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_122_VARIATsIONNOE">
+      <rel_text>задаче</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_123_VARIATsIONNOE">
+      <rel_text>подобные</rel_text>
+      <target>http://libmeta.ru/me/article/360_PoDoBI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_124_VARIATsIONNOE">
+      <rel_text>задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_125_VARIATsIONNOE">
+      <rel_text>развития</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_126_VARIATsIONNOE">
+      <rel_text>оптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/598_127_VARIATsIONNOE">
+      <rel_text>Задачи</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+  </relations>
+  <text>раздел математики, посвященный исследованию методов отыскания әкстремумов функционалов, зависящих от выбора одной или нескольких функций при разного рода ограничениях (фазовых, дифференциальных, интегральных и т. п.), накладываемых на эти функции. Этими рамками обозначен класс задач, наз. еще задачами к л а сс и ч е с к о г о В. и. Иногда в термин «в. и.» вкладывают более широкий смысл, понимая под ним тот раздел теории әкстремальных задач, где исследование экстремумов проводят «методом вариаций» (см. URI[[http://libmeta.ru/me/relation/598_5_VARIATsIONNOE]]/URI), т. е. методом малого возмущения аргументов и функционалов; задачи, относящиеся к В. и. в этом широком смысле, противопоставляются д-И с к р е т н ы м задачам оптимизации.
+
+Весьма широкий круг задач классич. В. и. описывает следующая схема. Требуется минимизировать функционал
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_1_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_1_VARIATsIONNOE]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_2_VARIATsIONNOE]]/URI
+\]
+
+при ограничениях типа равенств:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_3_VARIATsIONNOE]]/URI
+\]
+
+и некоторых краевых условиях: $URI[[http://libmeta.ru/me/formula/aux/598_2_VARIATsIONNOE]]/URI$. Задачи такого типа наз. Л агранжа задачами. Кроме задач Лагранжа, рассматривают еще Майера задачи, Больца задачи и ряд других.
+
+Наиболее элементарной среди задач классич. В. и. является п р о с т е й ша я 3 а д а ч а В. и., когда в (1) $URI[[http://libmeta.ru/me/formula/aux/598_3_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_4_VARIATsIONNOE]]/URI$ одномерны, ограничения (2) отсутствуют, а граничные условия закрепленные:
+
+$URI[[http://libmeta.ru/me/formula/aux/598_5_VARIATsIONNOE]]/URI$
+
+К этому типу относится задача о брахистохроне или о кривой наикратчайшего спуска. С задачей о брахи- стохроне обычно связывают начало истории классич. B. И.
+
+Теоретич. основы классич. В. и. были заложены Л. Әйлером (l. Euler) и Ж. Лагранжем (j. Lagrange) в 18 в. Ими же были вскрыты важнейшие связи этой дисциплины с механикой и физикой. На первом же этапе развития В. п. усилиями в основном Г. Лейбница (g. Leibniz), Я. и И. Бернулли (jacob et Johann Bernoulli), Л. Әйлера и Ж. Лагранжа получили решение многие конкретные задачи (о геодезических, о поверхности вращения, ряд изопериметрич. задач и т. П.).
+
+В В. и. изучаются алгоритмич. методы отыскания әкстремумов, методы получения необходимых и достаточных условий, условия, гарантирующие существование экстремума, качественные вопросы и т. п. Среди алгоритмич. методов нахождения әкстремумов важнейшее место занимают прямые методы.
+
+Прямые методы. Л. Эйлер (1768) создал метод приближенного (численного) решения задач В. и., к-рый получил назв. метода ломаных Эйлера. С этого момента начались исследования путей численного решения экстремальных задач. Метод Эйлера был первым представителем болышого класса методов, наз. прямыми методами В. и. Эти методы основаны на редукции задачи отыскания экстремума функционала к задаче математич. анализа об отыскании экстремума функции многих переменных.
+
+Метод ломаных Эйлера в применении к задаче (3) состоит в следующем. Интервал $URI[[http://libmeta.ru/me/formula/aux/598_6_VARIATsIONNOE]]/URI$ разбивается на $URI[[http://libmeta.ru/me/formula/aux/598_7_VARIATsIONNOE]]/URI$ равных частей точками $URI[[http://libmeta.ru/me/formula/aux/598_8_VARIATsIONNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_9_VARIATsIONNOE]]/URI$. Значения функции в этих точках обозначены $URI[[http://libmeta.ru/me/formula/aux/598_10_VARIATsIONNOE]]/URI$ соответственно. Каждая совокупность точек $URI[[http://libmeta.ru/me/formula/aux/598_11_VARIATsIONNOE]]/URI$ определяет нек-рую ломаную. Ставится задача: среди всех возможных ломаных, соединяющих точки $URI[[http://libmeta.ru/me/formula/aux/598_12_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_13_VARIATsIONNOE]]/URI$, найти ту, к-рая доставляет функционалу (1) экстремальное значение. Значение производной $URI[[http://libmeta.ru/me/formula/aux/598_14_VARIATsIONNOE]]/URI$ на отрезке $URI[[http://libmeta.ru/me/formula/aux/598_15_VARIATsIONNOE]]/URI$ будет: $URI[[http://libmeta.ru/me/formula/aux/598_16_VARIATsIONNOE]]/URI$. Функционал $URI[[http://libmeta.ru/me/formula/aux/598_17_VARIATsIONNOE]]/URI$ превращается в функцию конечного числа переменных $URI[[http://libmeta.ru/me/formula/aux/598_18_VARIATsIONNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_4_VARIATsIONNOE]]/URI
+\]
+
+и задача (3) сводится к задаче отыскания экстремума функции $URI[[http://libmeta.ru/me/formula/aux/598_19_VARIATsIONNOE]]/URI$. Для того чтобы ломаная Эйлера, реализующая экстремум этой функции, аппроксимировала решение задачи (3) с высокой точностью, число $URI[[http://libmeta.ru/me/formula/aux/598_20_VARIATsIONNOE]]/URI$ должно быть, вообще говоря, достаточно велико. При этом объем вычислений для отыскания әкстремума функции (3) столь велик, что проведение вычислений «вручную» весьма сложно. Поэтому долгое время прямые методы были в стороне от основных исследований по В. и.
+
+В 20 в. интерес к прямым методам значительно возрос. Прежде всего были предложены новые способы редукции к задаче об экстремуме функции конечного числа переменных. Эти идеи могут быть пояснены на примере минимизации функционала (3) при условии
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_5_VARIATsIONNOE]]/URI
+\]
+
+Пусть разыскивается решение задачи в форме
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_6_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_21_VARIATsIONNOE]]/URI$ - некоторая система функций, удовлетворяющих условиям $URI[[http://libmeta.ru/me/formula/aux/598_22_VARIATsIONNOE]]/URI$. Тогда функционал $URI[[http://libmeta.ru/me/formula/aux/598_23_VARIATsIONNOE]]/URI$ становится функцией коэффициентов $URI[[http://libmeta.ru/me/formula/aux/598_24_VARIATsIONNOE]]/URI$, и задача сводится к отысканию экстремума әтой функции $URI[[http://libmeta.ru/me/formula/aux/598_25_VARIATsIONNOE]]/URI$ переменных. При нек-рых условиях, наложенных на систему функций $URI[[http://libmeta.ru/me/formula/aux/598_26_VARIATsIONNOE]]/URI$, решение задачи стремится при $URI[[http://libmeta.ru/me/formula/aux/598_27_VARIATsIONNOE]]/URI$ к решению задачи (3) (см. URI[[http://libmeta.ru/me/relation/598_4_VARIATsIONNOE]]/URI).
+
+Метод вариаций. Второе направление исследованийизучение необходимых и достаточных условий, к-рым должна удовлетворять функция $URI[[http://libmeta.ru/me/formula/aux/598_28_VARIATsIONNOE]]/URI$, реализующая экстремум функционала $URI[[http://libmeta.ru/me/formula/aux/598_29_VARIATsIONNOE]]/URI$. Основным методом получения необходимых условий является метод вариаций. Пусть тем или иным способом построена нек-рая функция $URI[[http://libmeta.ru/me/formula/aux/598_30_VARIATsIONNOE]]/URI$. Как проверить, является ли эта функция решением вариационной задачи (3)? Первый вариант ответа на этот вопрос был дан Л. Эйлером (1744). В приведенной ниже формулировке ответа употребляется введенное Ж. Лагранжем (1762) понятие вариации (отсюда назв. «в. и.») $URI[[http://libmeta.ru/me/formula/aux/598_31_VARIATsIONNOE]]/URI$ функционала $URI[[http://libmeta.ru/me/formula/aux/598_32_VARIATsIONNOE]]/URI$ (см. URI[[http://libmeta.ru/me/relation/598_3_VARIATsIONNOE]]/URI, Вариачия бункчионала).
+
+Для простейшей задачи В. и.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_7_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_33_VARIATsIONNOE]]/URI$ - произвольная гладкая функция, удовлетворяющая условиям $URI[[http://libmeta.ru/me/formula/aux/598_34_VARIATsIONNOE]]/URI$. Условие $URI[[http://libmeta.ru/me/formula/aux/598_35_VARIATsIONNOE]]/URI$ является необходимым, для того чтобы функция $URI[[http://libmeta.ru/me/formula/aux/598_36_VARIATsIONNOE]]/URI$ реализовала әкстремум функционала (3). Отсюда и из выражения для вариации $URI[[http://libmeta.ru/me/formula/aux/598_37_VARIATsIONNOE]]/URI$ следует: для того чтобы функция $URI[[http://libmeta.ru/me/formula/aux/598_38_VARIATsIONNOE]]/URI$ доставляла экстремум функционалу (3), необходимо, чтобы она удовлетворяла следующему дифференциальному уравнению 2-го порядка относительно функции $URI[[http://libmeta.ru/me/formula/aux/598_39_VARIATsIONNOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_8_VARIATsIONNOE]]/URI
+\]
+
+Это уравнение наз. Эйлера уравнением, а интегральные кривые этого семейства - э к с т р е м а л я м и рассматриваемой вариационной задачи. Функция $URI[[http://libmeta.ru/me/formula/aux/598_40_VARIATsIONNOE]]/URI$, на к-рой $URI[[http://libmeta.ru/me/formula/aux/598_41_VARIATsIONNOE]]/URI$ достигает экстремума, необходимо должна быть решением краевой задачи $URI[[http://libmeta.ru/me/formula/aux/598_42_VARIATsIONNOE]]/URI$ для уравнения (4). Таким образом, возникает второй путь решения экстремальной задачи: надо решить краевую задачу для уравнения Эйлера (в регулярных случаях при этом получится лишь конечное число решений), и далее надо каждую из полученных экстремалей подвергнуть дополнительному исследованию, чтобы определить, имеется ли среди них кривая, дающая решения задачи. Однако указанный метод обладает тем существенным недостатком, что не имеется универсальных способов решения краевых задач для обыкновенных (нелинейных) дифференциальных уравнений.
+
+Весьма тасто встречаются вариачионные задачи с п о д в и ж н ы м и к о н ц а м и. Напр., в простейшей задаче точки $URI[[http://libmeta.ru/me/formula/aux/598_43_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_44_VARIATsIONNOE]]/URI$ могут перемещаться вдоль заданных кривых. Для задач с подвижными концами из условия $URI[[http://libmeta.ru/me/formula/aux/598_45_VARIATsIONNOE]]/URI$ выводятся донолнительные условия, к-рым должны удовлетворять подвижные концы,так наз. трансверсальности условия, к-рые в совокупности с граничными условиями приводят к замкнутой системе условий для краевой задачи.
+
+Основные результаты, относящиеся к простейшей задаче В. и., переносятся на общий случай функционалов вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_9_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_46_VARIATsIONNOE]]/URI$ - вектор-функция произвольной размерности (см. [3]).
+
+Задача Лагранжа. Л. Эйлер и Ж. Лагранж изучали и задачи на условный әкстремум. Простейшим классом задач подобного рода является класс так наз. изопериметрических задач. Ж. Лагранж выделил (в случае, когда $URI[[http://libmeta.ru/me/formula/aux/598_47_VARIATsIONNOE]]/URI$ одномерно) класс задач (1), (2) и получил для них аналог уравнения Эйлера с привлечением так наз. множителей Лагранжа. Такой аналог получается и для самого общего случая - задачи (1), (2). Особое значение задача Лагранжа приобрела в середине 20 в. в связи с созданием оптимального управления математической теории. Далее основные результаты, касающиеся задачи Лагранжа, даются на языке этой теории, возникшем после работ Л. С. Понтрягина и его учеников. Рассмотрим тот случай, когда в задаче (1), (2) $URI[[http://libmeta.ru/me/formula/aux/598_48_VARIATsIONNOE]]/URI$ одномерно и система $URI[[http://libmeta.ru/me/formula/aux/598_49_VARIATsIONNOE]]/URI$ может быть частично разрешена относительно последних переменных. Тогда получается задача о минимизации функционала
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_10_VARIATsIONNOE]]/URI
+\]
+
+при дифференциальной связи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_11_VARIATsIONNOE]]/URI
+\]
+
+и граничных условиях:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_12_VARIATsIONNOE]]/URI
+\]
+
+В (5) - (7) $URI[[http://libmeta.ru/me/formula/aux/598_50_VARIATsIONNOE]]/URI$ вектор-функция, наз. фазовым вектором, $URI[[http://libmeta.ru/me/formula/aux/598_51_VARIATsIONNOE]]/URI$ вектор-функция, наз. управлением, $URI[[http://libmeta.ru/me/formula/aux/598_52_VARIATsIONNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_53_VARIATsIONNOE]]/URI$.
+
+Примером граничных условий типа (7) могут служить закрепленные условия как в задаче (3). В задачах оптимального управления помимо условий (6) и (7) накладывают еще и «неклассические» условия, напр.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_13_VARIATsIONNOE]]/URI
+\]
+
+Слабый и сильный экстремумы. В В. и. обычно различают две топологии - сильную и слабую, и в соответствии с этим оперируют понятиями сильного и слабого экстремумов. Напр., в применении к задаче (3) говорят, что кривая $URI[[http://libmeta.ru/me/formula/aux/598_54_VARIATsIONNOE]]/URI$ реализует с л а б ы й м Пн и м у м, если можно указать такое $URI[[http://libmeta.ru/me/formula/aux/598_55_VARIATsIONNOE]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/598_56_VARIATsIONNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/598_57_VARIATsIONNOE]]/URI$ для всех непрерывно дифференцируемых функций $URI[[http://libmeta.ru/me/formula/aux/598_58_VARIATsIONNOE]]/URI$, удовлетворяющих условиям: $URI[[http://libmeta.ru/me/formula/aux/598_59_VARIATsIONNOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_60_VARIATsIONNOE]]/URI$ и
+
+$URI[[http://libmeta.ru/me/formula/aux/598_61_VARIATsIONNOE]]/URI$.
+
+Иными словами, здесь фиксируется близость не только фазовых переменных, но и скоростей (управлений). Говорят, что функция доставляет с и ль н ы й 9 кс т р е мум, если можно указать такое $URI[[http://libmeta.ru/me/formula/aux/598_62_VARIATsIONNOE]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/598_63_VARIATsIONNOE]]/URI$ для всех допустимых абсолютно непрерывных функций $URI[[http://libmeta.ru/me/formula/aux/598_64_VARIATsIONNOE]]/URI$ (для к-рых $URI[[http://libmeta.ru/me/formula/aux/598_65_VARIATsIONNOE]]/URI$ существует), удовлетворяющих условиям $URI[[http://libmeta.ru/me/formula/aux/598_66_VARIATsIONNOE]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_14_VARIATsIONNOE]]/URI
+\]
+
+Здесь фиксируется лишь близость фазовых переменных.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/598_67_VARIATsIONNOE]]/URI$ реализует сильный экстремум, то эта функция реализует тем более и слабый экстремум, поэтому достаточные условия сильного экстремума являются достаточными условиями и слабого. С другой стороны, из отсутствия слабого экстремума следует отсутствие сильного экстремума, т. е. необходимые условия слабого экстремума являются необходимыми условиями сильного экстремума.
+
+Необходимые и достаточные усповия экстремума. Уравнение Эйлера, о к-ром рассказывалось выше, представляет собой необходимое условие слабого экстремума. В конце 50-х гг. 20 в. Л. С. Понтрягиным был выдвинут принцип максимума для задач (5) (8), являющийся необходимым условием сильного экстремума. Принцип максимума гласит: если пара $URI[[http://libmeta.ru/me/formula/aux/598_68_VARIATsIONNOE]]/URI$ доставляет сильный экстремум в задаче (5) (8), то найдутся вектор-функция $URI[[http://libmeta.ru/me/formula/aux/598_69_VARIATsIONNOE]]/URI$ и число $URI[[http://libmeta.ru/me/formula/aux/598_70_VARIATsIONNOE]]/URI$ такие, что для функции Гамильтона $URI[[http://libmeta.ru/me/formula/aux/598_71_VARIATsIONNOE]]/URI$ выполняются следующие соотношения:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_15_VARIATsIONNOE]]/URI
+\]
+
+Если приложить принцип максимума Понтрягина к задаче (3), то получится, что для того чтобы кривая $URI[[http://libmeta.ru/me/formula/aux/598_72_VARIATsIONNOE]]/URI$ доставляла сильный минимум в задаче (3), необходимо, чтобы она была экстремалью (т. е. удовлетворяла уравнению Эйлера (4)) и, кроме того, чтобы выполнялось необходимое условие Вейерштрасса:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_16_VARIATsIONNOE]]/URI
+\]
+
+где
+
+$URI[[http://libmeta.ru/me/formula/aux/598_73_VARIATsIONNOE]]/URI$
+
+- так наз. £्-функция Вейерштрасса.
+
+Помимо условий типа (4) и (10), носящих л о к а л ьн ы й характер (т. е. проверяемых в каждой точке экстремали), имеется необходимое условие гл о б а л ьн о г о характера, связанное с поведением множества экстремалей, близких к заданной экстремали (см. URI[[http://libmeta.ru/me/relation/598_2_VARIATsIONNOE]]/URI). Для задачи (3) условие Якоби состоит в следующем. Для того чтобы экстремаль $URI[[http://libmeta.ru/me/formula/aux/598_74_VARIATsIONNOE]]/URI$ доставляла минимум в задаче (3), необходимо, чтобы решение уравнения (якоби уравнения)
+
+$URI[[http://libmeta.ru/me/formula/aux/598_75_VARIATsIONNOE]]/URI$
+
+с краевыми условиями $URI[[http://libmeta.ru/me/formula/aux/598_76_VARIATsIONNOE]]/URI$ не имело бы нулей в интервале $URI[[http://libmeta.ru/me/formula/aux/598_77_VARIATsIONNOE]]/URI$. Нули решения $URI[[http://libmeta.ru/me/formula/aux/598_78_VARIATsIONNOE]]/URI$ уравнения (11) наз. то ч к а м и, с о п р я женны ми с т о ч к о й $URI[[http://libmeta.ru/me/formula/aux/598_79_VARIATsIONNOE]]/URI$. Таким образом, условие Якоби заключается в том, что интервал $URI[[http://libmeta.ru/me/formula/aux/598_80_VARIATsIONNOE]]/URI$ не должен содержать точек, сопряженных с $URI[[http://libmeta.ru/me/formula/aux/598_81_VARIATsIONNOE]]/URI$.
+
+Необходимые условия слабого минимума $URI[[http://libmeta.ru/me/formula/aux/598_82_VARIATsIONNOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/598_83_VARIATsIONNOE]]/URI$ являются точными аналогами условий минимума $URI[[http://libmeta.ru/me/formula/aux/598_84_VARIATsIONNOE]]/URI$ для функций одного переменного. Условие Якоби при выполнении Лежандра условия (усиленного) является необходимым условием неотрицательности второй вариации. Это приводит к следующему результату: для того чтобы функция $URI[[http://libmeta.ru/me/formula/aux/598_85_VARIATsIONNOE]]/URI$ реализовывала слабый минимум функционала (3), необходимо, чтобы: а) функция $URI[[http://libmeta.ru/me/formula/aux/598_86_VARIATsIONNOE]]/URI$ удовлетворяла уравнению Эйлера, б) выполнялось условие Лежандра $URI[[http://libmeta.ru/me/formula/aux/598_87_VARIATsIONNOE]]/URI$, в) интервал $URI[[http://libmeta.ru/me/formula/aux/598_88_VARIATsIONNOE]]/URI$ не содержал точек, сопряженных с точкой $URI[[http://libmeta.ru/me/formula/aux/598_89_VARIATsIONNOE]]/URI$ (при условии, что выполняется усиленное условие Лежандра).
+
+Достаточные условия слабого минимума таковы: функция $URI[[http://libmeta.ru/me/formula/aux/598_90_VARIATsIONNOE]]/URI$ должна быть әкстремалью, на ней выполняется усиленное условие Лежандра и полуинтервал $URI[[http://libmeta.ru/me/formula/aux/598_91_VARIATsIONNOE]]/URI$ не содержит точек, сопряженных с точкой $URI[[http://libmeta.ru/me/formula/aux/598_92_VARIATsIONNOE]]/URI$. Для того чтобы кривая $URI[[http://libmeta.ru/me/formula/aux/598_93_VARIATsIONNOE]]/URI$ доставляла сильный минимум, достаточно, чтобы, помимо сформулированных достаточных условий слабого минимума, выполнялось Вейерштрасса условие достаточное.
+
+URI[[http://libmeta.ru/me/relation/598_127_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_126_VARIATsIONNOE]]/URI. Одним из основных направлений URI[[http://libmeta.ru/me/relation/598_125_VARIATsIONNOE]]/URI В. и. являются неклассич. URI[[http://libmeta.ru/me/relation/598_124_VARIATsIONNOE]]/URI В. и., URI[[http://libmeta.ru/me/relation/598_123_VARIATsIONNOE]]/URI сформулированной выше URI[[http://libmeta.ru/me/relation/598_122_VARIATsIONNOE]]/URI (5) - (8). URI[[http://libmeta.ru/me/relation/598_121_VARIATsIONNOE]]/URI, укладывающиеся в эту схему, имеют огромное прикладное значение. Пусть, напр., URI[[http://libmeta.ru/me/relation/598_120_VARIATsIONNOE]]/URI (6) описывает URI[[http://libmeta.ru/me/relation/598_119_VARIATsIONNOE]]/URI нек-рого URI[[http://libmeta.ru/me/relation/598_118_VARIATsIONNOE]]/URI. URI[[http://libmeta.ru/me/relation/598_117_VARIATsIONNOE]]/URI, напр. космич. корабля. Управление - URI[[http://libmeta.ru/me/relation/598_116_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_94_VARIATsIONNOE]]/URI$ тяга его двигателя. Начальное положение корабля это нек-рая URI[[http://libmeta.ru/me/relation/598_115_VARIATsIONNOE]]/URI, конечное положение - это URI[[http://libmeta.ru/me/relation/598_114_VARIATsIONNOE]]/URI другого URI[[http://libmeta.ru/me/relation/598_113_VARIATsIONNOE]]/URI. URI[[http://libmeta.ru/me/relation/598_112_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_95_VARIATsIONNOE]]/URI$ описывает расход горючего на выполнение маневра. Тогда URI[[http://libmeta.ru/me/relation/598_111_VARIATsIONNOE]]/URI (5) - (7) можно применительно к данной ситуации сформулировать следующим образом: определить закон изменения тяги двигателя космич. аппарата, совершающего переход с одной URI[[http://libmeta.ru/me/relation/598_110_VARIATsIONNOE]]/URI на другую за фиксированное время так, чтобы расход топлива был минимальным. При этом необходимо учитывать ограничения на управления: тяга двигателя не может превосходить нек-рой величины и угол поворота тяги также ограничен. Таким образом, в данном примере URI[[http://libmeta.ru/me/relation/598_109_VARIATsIONNOE]]/URI, что компо- ненты $URI[[http://libmeta.ru/me/formula/aux/598_96_VARIATsIONNOE]]/URI$, URI[[http://libmeta.ru/me/relation/598_108_VARIATsIONNOE]]/URI тяги подчинены ограничениям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_17_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_97_VARIATsIONNOE]]/URI$ п $URI[[http://libmeta.ru/me/formula/aux/598_98_VARIATsIONNOE]]/URI$нек-рые заданные числа.
+
+Имеется болышое URI[[http://libmeta.ru/me/relation/598_107_VARIATsIONNOE]]/URI задач, к-рые сводятся к URI[[http://libmeta.ru/me/relation/598_106_VARIATsIONNOE]]/URI Лагранжа, но при дополнительном ограничении типа (8). Такие URI[[http://libmeta.ru/me/relation/598_105_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_104_VARIATsIONNOE]]/URI назв. задач о п т им а л ь н о го у п р а в л е ни я. Для URI[[http://libmeta.ru/me/relation/598_103_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_102_VARIATsIONNOE]]/URI должен был быть разработан специальный аппарат. Им и явился URI[[http://libmeta.ru/me/relation/598_101_VARIATsIONNOE]]/URI Понтрягина.
+
+Возможен и другой подход к тем же проблемам URI[[http://libmeta.ru/me/relation/598_100_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_99_VARIATsIONNOE]]/URI. Пусть $URI[[http://libmeta.ru/me/formula/aux/598_99_VARIATsIONNOE]]/URI$ - значение URI[[http://libmeta.ru/me/relation/598_98_VARIATsIONNOE]]/URI (5) вдоль оптимального решения от точки $URI[[http://libmeta.ru/me/formula/aux/598_100_VARIATsIONNOE]]/URI$ до точки $URI[[http://libmeta.ru/me/formula/aux/598_101_VARIATsIONNOE]]/URI$. Тогда для того чтобы URI[[http://libmeta.ru/me/relation/598_97_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_102_VARIATsIONNOE]]/URI$ была URI[[http://libmeta.ru/me/relation/598_96_VARIATsIONNOE]]/URI, необходимо (а в нек-рых случаях и достаточно), чтобы удовлетворялось следующее URI[[http://libmeta.ru/me/relation/598_95_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_94_VARIATsIONNOE]]/URI с URI[[http://libmeta.ru/me/relation/598_93_VARIATsIONNOE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_18_VARIATsIONNOE]]/URI
+\]
+
+наз. у р а в н е ни е м Б е л л м а н а (см. URI[[http://libmeta.ru/me/relation/598_1_VARIATsIONNOE]]/URI). Для задач классич. В. И. $URI[[http://libmeta.ru/me/formula/aux/598_103_VARIATsIONNOE]]/URI$-функция $URI[[http://libmeta.ru/me/formula/aux/598_104_VARIATsIONNOE]]/URI$ (или URI[[http://libmeta.ru/me/relation/598_92_VARIATsIONNOE]]/URI действия) должна удовлетворять у равнен и ю $URI[[http://libmeta.ru/me/formula/aux/598_105_VARIATsIONNOE]]/URI$ ами ль тона-Я коби:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_19_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_106_VARIATsIONNOE]]/URI$ - URI[[http://libmeta.ru/me/relation/598_91_VARIATsIONNOE]]/URI бункция. Для URI[[http://libmeta.ru/me/relation/598_90_VARIATsIONNOE]]/URI (3) URI[[http://libmeta.ru/me/relation/598_89_VARIATsIONNOE]]/URI есть URI[[http://libmeta.ru/me/relation/598_88_VARIATsIONNOE]]/URI по $URI[[http://libmeta.ru/me/formula/aux/598_107_VARIATsIONNOE]]/URI$ интегранта $URI[[http://libmeta.ru/me/formula/aux/598_108_VARIATsIONNOE]]/URI$. URI[[http://libmeta.ru/me/relation/598_87_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_86_VARIATsIONNOE]]/URI - Якоби является мощным инструментом исследования многих важнейших задач вариационного типа, URI[[http://libmeta.ru/me/relation/598_85_VARIATsIONNOE]]/URI с классич. механикой.
+
+Связь В. и. с задачами URI[[http://libmeta.ru/me/relation/598_84_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_83_VARIATsIONNOE]]/URI с URI[[http://libmeta.ru/me/relation/598_82_VARIATsIONNOE]]/URI была обнаружена уже в 19 в. П. Дирихле (p. Dirichlet) показал, тто решение краевых задач для URI[[http://libmeta.ru/me/relation/598_81_VARIATsIONNOE]]/URI Лапласа URI[[http://libmeta.ru/me/relation/598_80_VARIATsIONNOE]]/URI решению нек-рой URI[[http://libmeta.ru/me/relation/598_79_VARIATsIONNOE]]/URI. Пусть, напр., имеется нек-рое линейное операторное URI[[http://libmeta.ru/me/relation/598_78_VARIATsIONNOE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_20_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_109_VARIATsIONNOE]]/URI$ нек-рая URI[[http://libmeta.ru/me/relation/598_77_VARIATsIONNOE]]/URI двух независимых URI[[http://libmeta.ru/me/relation/598_76_VARIATsIONNOE]]/URI, обращающаяся в URI[[http://libmeta.ru/me/relation/598_75_VARIATsIONNOE]]/URI на замкнутой URI[[http://libmeta.ru/me/relation/598_74_VARIATsIONNOE]]/URI Г. В URI[[http://libmeta.ru/me/relation/598_73_VARIATsIONNOE]]/URI, естественных для нек-рого класса задач физики, URI[[http://libmeta.ru/me/relation/598_72_VARIATsIONNOE]]/URI отыскания решения URI[[http://libmeta.ru/me/relation/598_71_VARIATsIONNOE]]/URI (8) эквивалентна отысканию URI[[http://libmeta.ru/me/relation/598_70_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_69_VARIATsIONNOE]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_21_VARIATsIONNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/598_110_VARIATsIONNOE]]/URI$ - область, ограниченная URI[[http://libmeta.ru/me/relation/598_68_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_111_VARIATsIONNOE]]/URI$. URI[[http://libmeta.ru/me/relation/598_67_VARIATsIONNOE]]/URI (12) в этом случае является URI[[http://libmeta.ru/me/relation/598_66_VARIATsIONNOE]]/URI Эйлера для URI[[http://libmeta.ru/me/relation/598_65_VARIATsIONNOE]]/URI (13).
+
+Редукция URI[[http://libmeta.ru/me/relation/598_64_VARIATsIONNOE]]/URI (12) к (13) возможна, напр., если $URI[[http://libmeta.ru/me/formula/aux/598_112_VARIATsIONNOE]]/URI$ - самосопряженный и URI[[http://libmeta.ru/me/relation/598_63_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_62_VARIATsIONNOE]]/URI. Связь между проблемами для URI[[http://libmeta.ru/me/relation/598_61_VARIATsIONNOE]]/URI с URI[[http://libmeta.ru/me/relation/598_60_VARIATsIONNOE]]/URI и вариационными задачами позволяет, в частности, устанавливать справедливость различных URI[[http://libmeta.ru/me/relation/598_59_VARIATsIONNOE]]/URI существования и единственности; она сыграла важную роль в кристаллизации понятия обобщенного решения. Эта редукция очень важна и для вычислительной математики, поскольку она позволяет использовать прямые URI[[http://libmeta.ru/me/relation/598_58_VARIATsIONNOE]]/URI В. и. для решения краевых задач URI[[http://libmeta.ru/me/relation/598_57_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_56_VARIATsIONNOE]]/URI с URI[[http://libmeta.ru/me/relation/598_55_VARIATsIONNOE]]/URI.
+
+Качественные URI[[http://libmeta.ru/me/relation/598_54_VARIATsIONNOE]]/URI исследования задач В. и. дают возможность ответить на вопросы о существовании решений, об их числе, о качественных особенностях URI[[http://libmeta.ru/me/relation/598_53_VARIATsIONNOE]]/URI и их семейств. В 20 в. была установлена зависимость числа решений вариационных задач от свойств URI[[http://libmeta.ru/me/relation/598_52_VARIATsIONNOE]]/URI, на к-ром определен URI[[http://libmeta.ru/me/relation/598_51_VARIATsIONNOE]]/URI. Так, напр., если URI[[http://libmeta.ru/me/relation/598_50_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_113_VARIATsIONNOE]]/URI$ задан на всевозможных гладких URI[[http://libmeta.ru/me/relation/598_49_VARIATsIONNOE]]/URI тора (на торе), URI[[http://libmeta.ru/me/relation/598_48_VARIATsIONNOE]]/URI две фиксированные точки, или если URI[[http://libmeta.ru/me/relation/598_47_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_114_VARIATsIONNOE]]/URI$ задан на всевозможных замкнутых URI[[http://libmeta.ru/me/relation/598_46_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_45_VARIATsIONNOE]]/URI, топологически эквивалентной тору, то в обоих случаях URI[[http://libmeta.ru/me/relation/598_44_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_43_VARIATsIONNOE]]/URI. элементов - линий, на к-рых URI[[http://libmeta.ru/me/relation/598_42_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_115_VARIATsIONNOE]]/URI$, бесконечно. Л. А. Люстерник и Л. Г. Шнирельман (7) доказали, что на каждой URI[[http://libmeta.ru/me/relation/598_41_VARIATsIONNOE]]/URI, топологически эквивалентной сфере, существует по крайней мере три самопересекающиеся URI[[http://libmeta.ru/me/relation/598_40_VARIATsIONNOE]]/URI различной длины; если же длины хотя бы двух из этих геодезических URI[[http://libmeta.ru/me/relation/598_39_VARIATsIONNOE]]/URI, то существует бесконечное URI[[http://libmeta.ru/me/relation/598_38_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_37_VARIATsIONNOE]]/URI равной длины. Проблемы URI[[http://libmeta.ru/me/relation/598_36_VARIATsIONNOE]]/URI рода указывают на тесную связь В. и. с URI[[http://libmeta.ru/me/relation/598_35_VARIATsIONNOE]]/URIrelation/598_34_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_33_VARIATsIONNOE]]/URI и топологией. При исследовании качественных методов сыграло большую роль URI[[http://libmeta.ru/me/relation/598_32_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_31_VARIATsIONNOE]]/URI. См. также URI[[http://libmeta.ru/me/relation/598_30_VARIATsIONNOE]]/URI в целом.
+
+Связь В. и. с URI[[http://libmeta.ru/me/relation/598_29_VARIATsIONNOE]]/URI конусов. URI[[http://libmeta.ru/me/relation/598_28_VARIATsIONNOE]]/URI вопросов, к-рыми занимается В. И., непрерывно расширяется. В частности, все большее и большее внимание уделяется изучению функционалов $URI[[http://libmeta.ru/me/formula/aux/598_116_VARIATsIONNOE]]/URI$ весьма общего вида, задаваемых на URI[[http://libmeta.ru/me/relation/598_27_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_117_VARIATsIONNOE]]/URI$ элементов URI[[http://libmeta.ru/me/relation/598_26_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_25_VARIATsIONNOE]]/URI. Для задач такого рода уже трудно ввести понятие URI[[http://libmeta.ru/me/relation/598_24_VARIATsIONNOE]]/URI. Потребовалось привлечение нового аппарата исследования. Таким аппаратом оказалась URI[[http://libmeta.ru/me/relation/598_23_VARIATsIONNOE]]/URI конусов в банаховых URI[[http://libmeta.ru/me/relation/598_22_VARIATsIONNOE]]/URI. Напр., пусть поставлена URI[[http://libmeta.ru/me/relation/598_21_VARIATsIONNOE]]/URI о URI[[http://libmeta.ru/me/relation/598_20_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_118_VARIATsIONNOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/598_119_VARIATsIONNOE]]/URI$ - элемент URI[[http://libmeta.ru/me/relation/598_19_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_120_VARIATsIONNOE]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/598_121_VARIATsIONNOE]]/URI$ он у с о м $URI[[http://libmeta.ru/me/formula/aux/598_122_VARIATsIONNOE]]/URI$ наз. URI[[http://libmeta.ru/me/relation/598_18_VARIATsIONNOE]]/URI ненулевых векторов $URI[[http://libmeta.ru/me/formula/aux/598_123_VARIATsIONNOE]]/URI$, каждому из к-рых можно поставить в соответствие положительное URI[[http://libmeta.ru/me/relation/598_17_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_124_VARIATsIONNOE]]/URI$ таким образом, чтобы URI[[http://libmeta.ru/me/relation/598_16_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_125_VARIATsIONNOE]]/URI$ для любого $URI[[http://libmeta.ru/me/formula/aux/598_126_VARIATsIONNOE]]/URI$. Конусом $URI[[http://libmeta.ru/me/formula/aux/598_127_VARIATsIONNOE]]/URI$ наз. URI[[http://libmeta.ru/me/relation/598_15_VARIATsIONNOE]]/URI ненулевых векторов $URI[[http://libmeta.ru/me/formula/aux/598_128_VARIATsIONNOE]]/URI$, каждому из к-рых можно поставить в соответствие положительное $URI[[http://libmeta.ru/me/formula/aux/598_129_VARIATsIONNOE]]/URI$ таким образом, чтобы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/598_22_VARIATsIONNOE]]/URI
+\]
+
+для любого $URI[[http://libmeta.ru/me/formula/aux/598_130_VARIATsIONNOE]]/URI$. Для того чтобы $URI[[http://libmeta.ru/me/formula/aux/598_131_VARIATsIONNOE]]/URI$ реализовал URI[[http://libmeta.ru/me/relation/598_14_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_13_VARIATsIONNOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/598_132_VARIATsIONNOE]]/URI$, необходимо, чтобы URI[[http://libmeta.ru/me/relation/598_12_VARIATsIONNOE]]/URI конусов $URI[[http://libmeta.ru/me/formula/aux/598_133_VARIATsIONNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/598_134_VARIATsIONNOE]]/URI$ было пустым. Это условие столь же элементарно, как и условие обращения в URI[[http://libmeta.ru/me/relation/598_11_VARIATsIONNOE]]/URI URI[[http://libmeta.ru/me/relation/598_10_VARIATsIONNOE]]/URI, однако из него вытекают не только те URI[[http://libmeta.ru/me/relation/598_9_VARIATsIONNOE]]/URI, к-рые можно URI[[http://libmeta.ru/me/relation/598_8_VARIATsIONNOE]]/URI классич. методами В. и.; оно позволяет URI[[http://libmeta.ru/me/relation/598_7_VARIATsIONNOE]]/URI к проблемам гораздо более URI[[http://libmeta.ru/me/relation/598_6_VARIATsIONNOE]]/URI, напр. к исследованию әкстремальных значений недифференцируемых функционалов (см. [6]).</text>
+  <text_orig>раздел математики, посвященный исследованию методов отыскания әкстремумов функционалов, зависящих от выбора одной или нескольких функций при разного рода ограничениях (фазовых, дифференциальных, интегральных и т. п.), накладываемых на эти функции. Этими рамками обозначен класс задач, наз. еще задачами к л а сс и ч е с к о г о В. и. Иногда в термин «В. и.» вкладывают более широкий смысл, понимая под ним тот раздел теории әкстремальных задач, где исследование экстремумов проводят «методом вариаций» (см. Вариация), т. е. методом малого возмущения аргументов и функционалов; задачи, относящиеся к В. и. в этом широком смысле, противопоставляются д-И с к р е т н ы м задачам оптимизации.
+
+Весьма широкий круг задач классич. В. и. описывает следующая схема. Требуется минимизировать функционал
+
+\[
+J(x)=\int_{T} f(t, x(t), \dot{x}(t)) d t
+\]
+
+где $T \subset \mathbb{R}^{m}, t=\left(t_{1}, \ldots, t_{m}\right), x=\left(x^{\prime}, \ldots, x^{n}\right)$,
+
+\[
+\dot{x}=\left(\frac{\partial x^{i}}{\partial t_{0}}\right), \quad f: \mathbb{R}^{m} \times \mathbb{R}^{n} \times \mathbb{R}^{m} n \longrightarrow \mathbb{R},
+\]
+
+при ограничениях типа равенств:
+
+\[
+\left.\begin{array}{l}
+\varphi(t, x(t), \dot{x}(t))=0, \\
+\varphi: \mathbb{R}^{\boldsymbol{m}} \times \mathbb{R}^{n} \times \mathbb{R}^{\boldsymbol{m} n} \longrightarrow \mathbb{R}^{s}
+\end{array}\right\}
+\]
+
+и некоторых краевых условиях: $\left.x\right|_{\partial T} \in \Gamma$. Задачи такого типа наз. Л агранжа задачами. Кроме задач Лагранжа, рассматривают еще Майера задачи, Больца задачи и ряд других.
+
+Наиболее элементарной среди задач классич. В. и. является п р о с т е й ша я 3 а д а ч а В. и., когда в (1) $t$ и $x$ одномерны, ограничения (2) отсутствуют, а граничные условия закрепленные:
+
+$J(x)=\int_{t_{0}}^{t_{1}} L(t, x, \dot{x}) d t \longrightarrow \inf ; x\left(t_{0}\right)=x_{0}, x\left(t_{1}\right)=x_{1} .(3)$
+
+К этому типу относится задача о брахистохроне или о кривой наикратчайшего спуска. С задачей о брахи- стохроне обычно связывают начало истории классич. B. И.
+
+Теоретич. основы классич. В. и. были заложены Л. Әйлером (L. Euler) и Ж. Лагранжем (J. Lagrange) в 18 в. Ими же были вскрыты важнейшие связи этой дисциплины с механикой и физикой. На первом же этапе развития В. п. усилиями в основном Г. Лейбница (G. Leibniz), Я. и И. Бернулли (Jacob et Johann Bernoulli), Л. Әйлера и Ж. Лагранжа получили решение многие конкретные задачи (о геодезических, о поверхности вращения, ряд изопериметрич. задач и т. П.).
+
+В В. и. изучаются алгоритмич. методы отыскания әкстремумов, методы получения необходимых и достаточных условий, условия, гарантирующие существование экстремума, качественные вопросы и т. п. Среди алгоритмич. методов нахождения әкстремумов важнейшее место занимают прямые методы.
+
+Прямые методы. Л. Эйлер (1768) создал метод приближенного (численного) решения задач В. и., к-рый получил назв. метода ломаных Эйлера. С этого момента начались исследования путей численного решения экстремальных задач. Метод Эйлера был первым представителем болышого класса методов, наз. прямыми методами В. и. Эти методы основаны на редукции задачи отыскания экстремума функционала к задаче математич. анализа об отыскании экстремума функции многих переменных.
+
+Метод ломаных Эйлера в применении к задаче (3) состоит в следующем. Интервал $\left[t_{0}, t_{1}\right]$ разбивается на $N$ равных частей точками $\tau_{0}=t_{0}, \tau_{1}=t_{0}+\tau, \ldots ., \tau_{N}=$ $=t_{0}+N \tau=t_{1}$. Значения функции в этих точках обозначены $x_{0}, x_{1}, \ldots ., x_{N}$ соответственно. Каждая совокупность точек $\left(\tau_{0}, x_{0}\right),\left(\tau_{1}, x_{1}\right), \ldots .,\left(\tau_{N}, x_{N}\right)$ определяет нек-рую ломаную. Ставится задача: среди всех возможных ломаных, соединяющих точки $\left(\tau_{0}, x_{0}\right)$ и $\left(\tau_{N}, x_{N}\right)$, найти ту, к-рая доставляет функционалу (1) экстремальное значение. Значение производной $\dot{x}$ на отрезке $\left[\tau_{i}, \tau_{i+1}\right]$ будет: $\dot{x}_{i}=\left(x_{i+1}-x_{i}\right) / \tau$. Функционал $J(x)$ превращается в функцию конечного числа переменных $x_{i}$ :
+
+\[
+J(x) \sim J\left(x_{0}, x_{1}, \ldots, x_{n}\right),
+\]
+
+и задача (3) сводится к задаче отыскания экстремума функции $J\left(x_{0}, x_{1}, \ldots, x_{n}\right)$. Для того чтобы ломаная Эйлера, реализующая экстремум этой функции, аппроксимировала решение задачи (3) с высокой точностью, число $N$ должно быть, вообще говоря, достаточно велико. При этом объем вычислений для отыскания әкстремума функции (3) столь велик, что проведение вычислений «вручную» весьма сложно. Поэтому долгое время прямые методы были в стороне от основных исследований по В. и.
+
+В 20 в. интерес к прямым методам значительно возрос. Прежде всего были предложены новые способы редукции к задаче об экстремуме функции конечного числа переменных. Эти идеи могут быть пояснены на примере минимизации функционала (3) при условии
+
+\[
+x\left(t_{0}\right)=x\left(t_{1}\right)=0 .
+\]
+
+Пусть разыскивается решение задачи в форме
+
+\[
+x(t)=\sum_{n=1}^{N} a_{n} \varphi_{n}(t)
+\]
+
+где $\varphi_{n}(t)$ - некоторая система функций, удовлетворяющих условиям $\varphi_{i}\left(t_{0}\right)=\varphi_{i}\left(t_{1}\right)=0, i=1, \ldots . N$. Тогда функционал $J(x)$ становится функцией коэффициентов $J(x) \sim J\left(a_{1}, \ldots, a_{n}\right)$, и задача сводится к отысканию экстремума әтой функции $N$ переменных. При нек-рых условиях, наложенных на систему функций $\left\{\varphi_{n}\right\}$, решение задачи стремится при $N \rightarrow \infty$ к решению задачи (3) (см. Галеркина метод).
+
+Метод вариаций. Второе направление исследованийизучение необходимых и достаточных условий, к-рым должна удовлетворять функция $x(t)$, реализующая экстремум функционала $J(x)$. Основным методом получения необходимых условий является метод вариаций. Пусть тем или иным способом построена нек-рая функция $x(t)$. Как проверить, является ли эта функция решением вариационной задачи (3)? Первый вариант ответа на этот вопрос был дан Л. Эйлером (1744). В приведенной ниже формулировке ответа употребляется введенное Ж. Лагранжем (1762) понятие вариации (отсюда назв. «В. и.») $\delta J$ функционала $J$ (см. Вариачия, Вариачия бункчионала).
+
+Для простейшей задачи В. и.:
+
+\[
+\delta J(x, h)=\left.\int_{t_{0}}^{t_{1}}\left(\frac{\partial L}{\partial x}-\frac{d}{d t} \frac{\partial L}{\partial \dot{x}}\right)\right|_{x(t)} h(t) d t
+\]
+
+где $h(t)$ - произвольная гладкая функция, удовлетворяющая условиям $h\left(t_{0}\right)=h\left(t_{1}\right)=0$. Условие $\delta J=0$ является необходимым, для того чтобы функция $x(t)$ реализовала әкстремум функционала (3). Отсюда и из выражения для вариации $\delta J$ следует: для того чтобы функция $x(t)$ доставляла экстремум функционалу (3), необходимо, чтобы она удовлетворяла следующему дифференциальному уравнению 2-го порядка относительно функции $x(t)$ :
+
+\[
+\frac{\partial L}{\partial x}-\frac{d}{d t} \frac{\partial L}{\partial \dot{x}}=0 .
+\]
+
+Это уравнение наз. Эйлера уравнением, а интегральные кривые этого семейства - э к с т р е м а л я м и рассматриваемой вариационной задачи. Функция $x(t)$, на к-рой $J(x)$ достигает экстремума, необходимо должна быть решением краевой задачи $x\left(t_{0}\right)=x_{0}, x\left(t_{1}\right)=x_{1}$ для уравнения (4). Таким образом, возникает второй путь решения экстремальной задачи: надо решить краевую задачу для уравнения Эйлера (в регулярных случаях при этом получится лишь конечное число решений), и далее надо каждую из полученных экстремалей подвергнуть дополнительному исследованию, чтобы определить, имеется ли среди них кривая, дающая решения задачи. Однако указанный метод обладает тем существенным недостатком, что не имеется универсальных способов решения краевых задач для обыкновенных (нелинейных) дифференциальных уравнений.
+
+Весьма тасто встречаются вариачионные задачи с п о д в и ж н ы м и к о н ц а м и. Напр., в простейшей задаче точки $x\left(t_{0}\right)$ и $x\left(t_{1}\right)$ могут перемещаться вдоль заданных кривых. Для задач с подвижными концами из условия $\delta J=0$ выводятся донолнительные условия, к-рым должны удовлетворять подвижные концы,так наз. трансверсальности условия, к-рые в совокупности с граничными условиями приводят к замкнутой системе условий для краевой задачи.
+
+Основные результаты, относящиеся к простейшей задаче В. и., переносятся на общий случай функционалов вида
+
+\[
+J(x)=\int_{t_{0}}^{t_{1}} F\left(x(t), \frac{d x}{d t}, \frac{d^{2} x}{d t^{2}}, \ldots, \frac{d^{s} x}{d t^{s}}\right) d t,
+\]
+
+где $x(t)$ - вектор-функция произвольной размерности (см. [3]).
+
+Задача Лагранжа. Л. Эйлер и Ж. Лагранж изучали и задачи на условный әкстремум. Простейшим классом задач подобного рода является класс так наз. изопериметрических задач. Ж. Лагранж выделил (в случае, когда $t$ одномерно) класс задач (1), (2) и получил для них аналог уравнения Эйлера с привлечением так наз. множителей Лагранжа. Такой аналог получается и для самого общего случая - задачи (1), (2). Особое значение задача Лагранжа приобрела в середине 20 в. в связи с созданием оптимального управления математической теории. Далее основные результаты, касающиеся задачи Лагранжа, даются на языке этой теории, возникшем после работ Л. С. Понтрягина и его учеников. Рассмотрим тот случай, когда в задаче (1), (2) $t$ одномерно и система $\varphi(t, x, \dot{x})$ может быть частично разрешена относительно последних переменных. Тогда получается задача о минимизации функционала
+
+\[
+J(x, u)=\int_{t_{0}}^{t_{1}} F(t, x, u) d t
+\]
+
+при дифференциальной связи
+
+\[
+\dot{x}=f(t, x, u)
+\]
+
+и граничных условиях:
+
+\[
+\left(x\left(t_{0}\right), x\left(t_{1}\right)\right) \in E .
+\]
+
+В (5) - (7) $x=\left(x^{1}, \ldots, x^{n}\right)-$ вектор-функция, наз. фазовым вектором, $u=\left(u^{1}, \ldots, u^{m}\right)-$ вектор-функция, наз. управлением, $F: \mathbb{R} \times \mathbb{R}^{n} \times \mathbb{R}^{m} \rightarrow R, f: \mathbb{R}^{m} \times \mathbb{R}^{n} \times$ $\times \mathbb{R}^{m} \rightarrow \mathbb{R}^{n}, E \subset \mathbb{R}^{2 n}$.
+
+Примером граничных условий типа (7) могут служить закрепленные условия как в задаче (3). В задачах оптимального управления помимо условий (6) и (7) накладывают еще и «неклассические» условия, напр.
+
+\[
+u(t) \in U \subset \mathbb{R}^{m} .
+\]
+
+Слабый и сильный экстремумы. В В. и. обычно различают две топологии - сильную и слабую, и в соответствии с этим оперируют понятиями сильного и слабого экстремумов. Напр., в применении к задаче (3) говорят, что кривая $x_{0}(t)$ реализует с л а б ы й м Пн и м у м, если можно указать такое $\varepsilon&gt;0$, что $J(x) \geqslant$ $\geqslant J\left(x_{0}\right)$ для всех непрерывно дифференцируемых функций $x(t)$, удовлетворяющих условиям: $x\left(t_{0}\right)=x_{0}\left(t_{0}\right)$, $x\left(t_{1}\right)=x_{0}\left(t_{1}\right) \quad$ и
+
+$\max _{t \in\left[t_{0}, t_{1}\right]}\left|x(t)-x_{0}(t)\right|+\max _{t \in\left[t_{0}, t_{1}\right]}\left|\dot{x}(t)-\dot{x_{0}}(t)\right|&lt;\varepsilon$.
+
+Иными словами, здесь фиксируется близость не только фазовых переменных, но и скоростей (управлений). Говорят, что функция доставляет с и ль н ы й 9 кс т р е мум, если можно указать такое $\varepsilon&gt;0$, что $J(x) \geqslant J\left(x_{0}\right)$ для всех допустимых абсолютно непрерывных функций $x(t)$ (для к-рых $J(x)$ существует), удовлетворяющих условиям $x\left(t_{0}\right)=x_{0}\left(t_{0}\right), x\left(t_{1}\right)=x_{0}\left(t_{1}\right)$ и
+
+\[
+\max _{t \in\left[t_{0}, t_{1}\right]}\left|x(t)-x_{0}(t)\right| \leqslant \varepsilon .
+\]
+
+Здесь фиксируется лишь близость фазовых переменных.
+
+Если $x_{0}(t)$ реализует сильный экстремум, то эта функция реализует тем более и слабый экстремум, поэтому достаточные условия сильного экстремума являются достаточными условиями и слабого. С другой стороны, из отсутствия слабого экстремума следует отсутствие сильного экстремума, т. е. необходимые условия слабого экстремума являются необходимыми условиями сильного экстремума.
+
+Необходимые и достаточные усповия экстремума. Уравнение Эйлера, о к-ром рассказывалось выше, представляет собой необходимое условие слабого экстремума. В конце 50-х гг. 20 в. Л. С. Понтрягиным был выдвинут принцип максимума для задач (5) (8), являющийся необходимым условием сильного экстремума. Принцип максимума гласит: если пара $(x, u)$ доставляет сильный экстремум в задаче (5) (8), то найдутся вектор-функция $\psi$ и число $\lambda_{0}$ такие, что для функции Гамильтона $H\left(t, x, \psi, u, \lambda_{0}\right)=(\psi, f)-\lambda_{0} F$ выполняются следующие соотношения:
+
+\[
+\left.\begin{array}{c}
+\dot{x}=\frac{\partial H}{\partial \psi},-\dot{\psi}=\frac{\partial H}{\partial x}, \\
+\max _{u \in U} H\left(t, x(t), \psi(t), u, \lambda_{0}\right)= \\
+=H\left(t, x(t), \psi(t), u(t), \lambda_{0}\right) .
+\end{array}\right\}
+\]
+
+Если приложить принцип максимума Понтрягина к задаче (3), то получится, что для того чтобы кривая $x(t)$ доставляла сильный минимум в задаче (3), необходимо, чтобы она была экстремалью (т. е. удовлетворяла уравнению Эйлера (4)) и, кроме того, чтобы выполнялось необходимое условие Вейерштрасса:
+
+\[
+\mathscr{E}(t, x(t), \dot{x}(t), \xi) \geqslant 0, \quad \forall t \in\left[t_{0}, t_{1}\right], \xi \in R,
+\]
+
+где
+
+$\mathscr{O}(t, x, \dot{x}, \xi)=L(t, x, \xi)-L(t, x, \dot{x})-(\xi-\dot{x}) L_{\dot{x}}(t, x, \dot{x})$
+
+- так наз. £्-функция Вейерштрасса.
+
+Помимо условий типа (4) и (10), носящих л о к а л ьн ы й характер (т. е. проверяемых в каждой точке экстремали), имеется необходимое условие гл о б а л ьн о г о характера, связанное с поведением множества экстремалей, близких к заданной экстремали (см. Якоби условие). Для задачи (3) условие Якоби состоит в следующем. Для того чтобы экстремаль $x(t)$ доставляла минимум в задаче (3), необходимо, чтобы решение уравнения (Якоби уравнения)
+
+$-\frac{d}{d t}\left(\left.\frac{\partial^{2} L}{\partial \dot{x}^{2}}\right|_{x(t)} \frac{d}{d t} h(t)\right)+\left.\left(\frac{\partial^{2} L}{\partial x^{2}}-\frac{d}{d t} \frac{\partial^{2} L}{\partial x \partial \dot{x}}\right)\right|_{x(t)} h(t)=0$
+
+с краевыми условиями $h\left(t_{0}\right)=0, \dot{h}\left(t_{0}\right) \neq 0$ не имело бы нулей в интервале $\left(t_{0}, t_{1}\right)$. Нули решения $h(t)$ уравнения (11) наз. то ч к а м и, с о п р я женны ми с т о ч к о й $t_{0}$. Таким образом, условие Якоби заключается в том, что интервал $\left(t_{0}, t_{1}\right)$ не должен содержать точек, сопряженных с $t_{0}$.
+
+Необходимые условия слабого минимума $\delta J=0$, $\delta^{2} J \geqslant 0$ являются точными аналогами условий минимума $f^{\prime}(x)=0, f^{\prime \prime}(x) \geqslant 0$ для функций одного переменного. Условие Якоби при выполнении Лежандра условия (усиленного) является необходимым условием неотрицательности второй вариации. Это приводит к следующему результату: для того чтобы функция $x(t)$ реализовывала слабый минимум функционала (3), необходимо, чтобы: а) функция $x(t)$ удовлетворяла уравнению Эйлера, б) выполнялось условие Лежандра $\left.\frac{\partial^{2} L}{\partial \dot{x}^{2}}\right|_{x(t)}&gt;0$, в) интервал $\left(t_{0}, t_{1}\right)$ не содержал точек, сопряженных с точкой $t_{0}$ (при условии, что выполняется усиленное условие Лежандра).
+
+Достаточные условия слабого минимума таковы: функция $x(t)$ должна быть әкстремалью, на ней выполняется усиленное условие Лежандра и полуинтервал $\left(t_{0}, t_{1}\right]$ не содержит точек, сопряженных с точкой $t_{0}$. Для того чтобы кривая $x(t)$ доставляла сильный минимум, достаточно, чтобы, помимо сформулированных достаточных условий слабого минимума, выполнялось Вейерштрасса условие достаточное.
+
+Задачи оптимального управления. Одним из основных направлений развития В. и. являются неклассич. задачи В. и., подобные сформулированной выше задаче (5) - (8). Задачи, укладывающиеся в эту схему, имеют огромное прикладное значение. Пусть, напр., уравнение (6) описывает движение нек-рого динамич. объекта, напр. космич. корабля. Управление - вектор $u-$ тяга его двигателя. Начальное положение корабля это нек-рая орбита, конечное положение - это орбита другого радиуса. Функционал $J$ описывает расход горючего на выполнение маневра. Тогда задачу (5) - (7) можно применительно к данной ситуации сформулировать следующим образом: определить закон изменения тяги двигателя космич. аппарата, совершающего переход с одной орбиты на другую за фиксированное время так, чтобы расход топлива был минимальным. При этом необходимо учитывать ограничения на управления: тяга двигателя не может превосходить нек-рой величины и угол поворота тяги также ограничен. Таким образом, в данном примере получается, что компо- ненты $u^{i}, i=1,2,3$, вектора тяги подчинены ограничениям
+
+\[
+a_{i}^{-} \leqslant u^{i} \leqslant a_{i}^{+}
+\]
+
+где $a_{\bar{i}}^{\bar{n}}$ п $a_{i}^{+}-$нек-рые заданные числа.
+
+Имеется болышое число задач, к-рые сводятся к задаче Лагранжа, но при дополнительном ограничении типа (8). Такие задачи получили назв. задач о п т им а л ь н о го у п р а в л е ни я. Для теории оптимального управления должен был быть разработан специальный аппарат. Им и явился принцип максимума Понтрягина.
+
+Возможен и другой подход к тем же проблемам теории оптимального управления. Пусть $S(t, x)$ - значение функционала (5) вдоль оптимального решения от точки $\left(t_{0}, x_{0}\right)$ до точки $(t, x)$. Тогда для того чтобы функция $u(t)$ была оптимальным управлением, необходимо (а в нек-рых случаях и достаточно), чтобы удовлетворялось следующее дифференциальное уравнение с частными производными
+
+\[
+\frac{\partial S}{\partial t}+\min _{u \in U}\left(\frac{\partial S}{\partial x},(f(t, x(t), u, \psi(t))-F(t, x(t), u)),\right.
+\]
+
+наз. у р а в н е ни е м Б е л л м а н а (см. Динамическое программирование). Для задач классич. В. И. $S$-функция $S(t, x)$ (или функция действия) должна удовлетворять у равнен и ю $Г$ ами ль тона-Я коби:
+
+\[
+\frac{\partial S}{\partial t}+H\left(t, x, \frac{\partial S}{\partial x}\right)=0,
+\]
+
+где $H$ - Гамильтона бункция. Для задачи (3) функция есть Лежандра преобразование по $\dot{x}$ интегранта $L(t, x, \dot{x})$. Теория Гамильтона - Якоби является мощным инструментом исследования многих важнейших задач вариационного типа, связанных с классич. механикой.
+
+Связь В. и. с задачами теории уравнений с частными производными была обнаружена уже в 19 в. П. Дирихле (P. Dirichlet) показал, тто решение краевых задач для уравнения Лапласа әквивалентно решению нек-рой вариационной задачи. Пусть, напр., имеется нек-рое линейное операторное уравнение
+
+\[
+A x=f
+\]
+
+где $x(\xi, \eta)-$ нек-рая функция двух независимых переменных, обращающаяся в нуль на замкнутой кривой Г. В предположениях, естественных для нек-рого класса задач физики, задача отыскания решения уравнения (8) эквивалентна отысканию минимума функционала
+
+\[
+J(x)=\iint_{\Omega} A_{x x} d \xi d \eta-2 \iint_{\Omega} f x d \xi d \eta,
+\]
+
+где $\Omega$ - область, ограниченная кривой $Г$. Уравнение (12) в этом случае является уравнением Эйлера для функционала (13).
+
+Редукция задачи (12) к (13) возможна, напр., если $A$ - самосопряженный и положительно определенный оператор. Связь между проблемами для уравнений с частными производными и вариационными задачами позволяет, в частности, устанавливать справедливость различных теорем существования и единственности; она сыграла важную роль в кристаллизации понятия обобщенного решения. Эта редукция очень важна и для вычислительной математики, поскольку она позволяет использовать прямые методы В. и. для решения краевых задач теории уравнений с частными производными.
+
+Качественные методы исследования задач В. и. дают возможность ответить на вопросы о существовании решений, об их числе, о качественных особенностях экстремалей и их семейств. В 20 в. была установлена зависимость числа решений вариационных задач от свойств пространства, на к-ром определен функционал. Так, напр., если функционал $J$ задан на всевозможных гладких кривых тора (на торе), соединяющих две фиксированные точки, или если функционал $J$ задан на всевозможных замкнутых кривых поверхности, топологически эквивалентной тору, то в обоих случаях число критич. элементов - линий, на к-рых вариация $\delta J=0$, бесконечно. Л. А. Люстерник и Л. Г. Шнирельман (7) доказали, что на каждой поверхности, топологически эквивалентной сфере, существует по крайней мере три самопересекающиеся замкнутые геодезические различной длины; если же длины хотя бы двух из этих геодезических совпадают, то существует бесконечное множество замкнутых геодезических равной длины. Проблемы подобного рода указывают на тесную связь В. и. с качественной теорией дифференциальных уравнений и топологией. При исследовании качественных методов сыграло большую роль развитие функционального анализа. См. также Вариационное исчисление в целом.
+
+Связь В. и. с теорией конусов. Круг вопросов, к-рыми занимается В. И., непрерывно расширяется. В частности, все большее и большее внимание уделяется изучению функционалов $J(x)$ весьма общего вида, задаваемых на множествах $G_{k}$ элементов нормированных пространств. Для задач такого рода уже трудно ввести понятие вариации. Потребовалось привлечение нового аппарата исследования. Таким аппаратом оказалась теория конусов в банаховых пространствах. Напр., пусть поставлена задача о минимуме $f(x)$, где $x$ - элемент замкнутого множества $G$. $\mathrm{K}$ он у с о м $\Gamma_{G}\left(x_{0}\right)$ наз. множество ненулевых векторов $e$, каждому из к-рых можно поставить в соответствие положительное число $\lambda_{e}$ таким образом, чтобы вектор $x=x_{0}+\lambda e \in G$ для любого $\lambda \in\left(0, \lambda_{e}^{*}\right)$. Конусом $\Gamma_{f}\left(x_{0}\right)$ наз. множество ненулевых векторов $e$, каждому из к-рых можно поставить в соответствие положительное $\lambda_{e}^{*}$ таким образом, чтобы
+
+\[
+f\left(x_{0}+\lambda e\right) \geqslant f\left(x_{0}\right)
+\]
+
+для любого $\lambda \in\left[0, \lambda_{e}^{*}\right]$. Для того чтобы $x_{0}$ реализовал минимум функции $f(x)$, необходимо, чтобы пересечение конусов $\Gamma_{G}\left(x_{0}\right)$ и $\Gamma_{f}\left(x_{0}\right)$ было пустым. Это условие столь же элементарно, как и условие обращения в нуль вариации, однако из него вытекают не только те результаты, к-рые можно получить классич. методами В. и.; оно позволяет подойти к проблемам гораздо более сложным, напр. к исследованию әкстремальных значений недифференцируемых функционалов (см. [6]).
+
+Лum.: [1] С м и р н о в В. И., Курс высшей математики, 5 изд., т. 4, М., 1958; [2] Л а в р е н т ь е в М. А., Ј юо с т е р1950 ; [3] Б л и с с Г. А., Лекции по вариационному исчислению, пер. с англ., М., 1950; [4] М и х ли н С. Г., Вариационные методы в математической физике, М., 1957; [5] П о н т р яг и н Л. С. (и др.), Математическая теория оптимальных процессов, 2 изд., М., 1969; [6] П ш е ни ч н ы й Б. Н., Необхо-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_e50a9a5c81faa5a5e170g-1.jpg?height=42&amp;width=834&amp;top_left_y=1717&amp;top_left_x=987)
+ционных задачах, м., 1930 . H. Н. Моисеев.</text_orig>
+</article>

@@ -1,0 +1,918 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/989_KOMMBINATORNYI" alphabetic_pos="989">
+  <title>КОММБИНАТОРНЫИ АНАЛИЗ</title>
+  <authors/>
+  <pages>
+    <start>488</start>
+    <end>491</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Р и о р д а н П ж., Введение в комбинаторный анализ, пер. с англ., М., 1963; [2] Р а й з е p Г.-Д ж., Комбинаторная математика, пер. с англ., M., 1966 ; [3] Х о л л M.,Комбинаторика, пер. с англ., М., 1970; [4] Прикладная комбикомбинаторика, пер. с англ., М., 1970; [4] Прикладная комби-наторная математика, сб. статей, пер. с англ., M. 1968; [5] X а p a p и Ф., Теория графов, пер. с англ., М., 1973; [6] X ap a p и Ф. П а л м е p Э., Перечисление графов, пер. с англ., методы в комбинаторике, пер. с англ., М., 1976; [8] К о л ч и н В. Ф., Ч и с т я к о в В. П., В кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Тео-ретическая кибернетика, т. 11, М., 1974, с. $5-45 ;$ [9] С а чретическая кибернетика, т. 11, М., 1974, с. 5-45; [9] С a ч-к о в В. Н., в кн.: Вопросы кибернетики. Тр. семинара по комбинаторной математике, М., 1973, с. 146-64; [10] е г о ж е, Комбинаторные методы дискретной математики, М., 1977.'</literature_orig>
+    <unit>
+      <title>Р и о р д а н П ж., Введение в комбинаторный анализ</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1963</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Р а й з е p Г.-Д ж., Комбинаторная математика</title>
+      <publication>пер. с англ., M.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Холл M.</author>
+      <title>Комбинаторика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1970</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Прикладная комбикомбинаторика</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1970</year>
+      <other>сб. статей, пер. с англ., M. 1968</other>
+    </unit>
+    <unit>
+      <author>Xаpapи Ф.</author>
+      <title>Теория графов</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Xapapи Ф.Палмеp Э.</author>
+      <title>Перечисление графов</title>
+      <publication>пер. с англ., методы в комбинаторике, пер. с англ., М.</publication>
+      <year>1976</year>
+      <other>Ч и с т я к о в В. П., В кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Тео-ретическая кибернетика, т. 11, М., 1974, с. $5-45 ;$ [9] С а чретическая кибернетика, т. 11, М., 1974, с. 5-45; [9] С a ч-к о в В. Н., в кн.: Вопросы кибернетики. Тр. семинара по комбинаторной математике, М., 1973, с. 146-64; [10] е г о ж е, Комбинаторные методы дискретной математики, М., 1977.'</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/989_1_KOMMBINATORNYI">C(n, m)=\left(\begin{array}{c}n \\m\end{array}\right)=n(n-1) \ldots(n-m+1) / m !</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_2_KOMMBINATORNYI">(1+t)^{n}=\sum_{m=0}^{n}\left(\begin{array}{l}n \\m\end{array}\right) t^{m},\left(\begin{array}{l}n \\0\end{array}\right)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_3_KOMMBINATORNYI">A(n, m)=n(n-1) . .(n-m+1) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_4_KOMMBINATORNYI">z^{2}=(k-\lambda) x^{2}+(-1)^{(v-1) / 2} \lambda y^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_5_KOMMBINATORNYI">n=a^{2}+b^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_6_KOMMBINATORNYI">\left|X_{i_{1}} \cup \ldots \cup X_{i_{k}}\right| \geqslant k,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_7_KOMMBINATORNYI">\sum_{i=1}^{n} a_{i j}=\sum_{j=1}^{n} a_{i j}=t&gt;0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_8_KOMMBINATORNYI">A=\alpha_{1} \Pi_{1}+\ldots+\alpha_{s} \Pi_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_9_KOMMBINATORNYI">x(x-1) \ldots(x-n+1)=\sum_{k=0}^{n} S(n, k) x^{k} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_10_KOMMBINATORNYI">\sigma(n, k)=\frac{1}{k !} \sum_{j=0}^{k}(-1)^{j}\left(\begin{array}{l}k \\j\end{array}\right)(k-j)^{n} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_11_KOMMBINATORNYI">\operatorname{per} A=\sum\left(j_{1}, \ldots, j_{n}\right)^{a_{1 j_{1}}} a_{2 j_{2}} \ldots a_{n j_{n}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_12_KOMMBINATORNYI">\begin{gathered}\operatorname{per} \boldsymbol{A}=\sum_{k=m-n}^{m}(-1)^{k-m+n}\left(\begin{array}{c}k \\m-n\end{array}\right) S_{k}, \\S_{k}=\sum_{1 \leqslant j_{1}&lt;. .&lt;j_{k} \leqslant m} \prod_{i=1}^{n}\left(\sum_{l=1}^{m} a_{i l}-\sum_{r=1}^{k} a_{i j_{r}}\right)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_13_KOMMBINATORNYI">f(t)=\sum_{n=0}^{\infty} a_{n} t^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_14_KOMMBINATORNYI">f: X \rightarrow Y,|X|=m, \quad|Y|=n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_15_KOMMBINATORNYI">[f]=\sum_{x \in X}[f(x)]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_16_KOMMBINATORNYI">\begin{aligned}F\left(y_{1}, \ldots, y_{k}\right) &amp; =\sum_{\left(s_{1}, \ldots, s_{k}\right)} a\left(s_{1}, \ldots, s_{k}\right) y_{1}^{s_{1}} \ldots y_{k}^{s_{k}}, \\\Phi_{m}\left(y_{1}, \ldots, y_{k}\right) &amp; =\sum_{\left(s_{1}, \ldots, s_{k}\right)} b\left(s_{1}, \ldots, s_{k}\right) y_{1}^{s_{1}} \ldots y_{k}^{s_{k}},\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_17_KOMMBINATORNYI">\Phi_{m}\left(y_{1}, \ldots, y_{k}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_18_KOMMBINATORNYI">Z\left(t_{1}, \ldots, t_{m} ; A\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_19_KOMMBINATORNYI">=\sum_{j_{1}+2 j_{2}+\ldots+m j_{m}=n} C\left(j_{1}, \ldots, j_{m} ; A\right) t_{1}^{j_{1}} \ldots t_{m}^{j_{m}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_20_KOMMBINATORNYI">N(A)=\frac{1}{|A|} \sum_{\alpha \in A} j_{1}(\alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_21_KOMMBINATORNYI">[\sigma]=\left|a_{1}^{\alpha_{1}} \ldots a_{n}^{\alpha_{n}}\right|, \quad \alpha_{1}+\ldots+\alpha_{n}=m,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_22_KOMMBINATORNYI">\begin{gathered}{\left[\left[0^{\beta_{01} \beta_{1}} \ldots m^{\beta_{m}}\right]\right], \beta_{0}+\ldots+\beta_{m}=n,} \\\beta_{1}+2 \beta_{2}+\ldots+m \beta_{m}=m\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_23_KOMMBINATORNYI">[\sigma]=\left[a_{1}^{\alpha_{1}} \ldots a_{n}^{\alpha_{n}}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_24_KOMMBINATORNYI">\Phi\left(t ; x_{1}, \ldots, x_{n} ; \Lambda\right)=\prod_{j=1}^{n} \sum_{\alpha_{j} \in \Lambda_{j}}\left(t x_{j}\right)^{\alpha_{j}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_25_KOMMBINATORNYI">[\sigma]=\left[a_{1}^{\alpha_{1}} \ldots a_{n}^{\alpha_{n}}\right], \alpha_{i} \in \Lambda_{i}, \Lambda=\left(\Lambda_{1}, \ldots, \Lambda_{n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_26_KOMMBINATORNYI">\tilde{\Phi}\left(t ; x_{1}, \ldots, x_{n} ; \Lambda\right)=\prod_{j=1}^{n} \sum_{\alpha_{j} \in \Lambda_{j}} \frac{t^{\alpha_{j}}}{\alpha_{j} !} x_{j j}^{\alpha} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_27_KOMMBINATORNYI">[[\sigma]]=\left[\left[0^{\beta_{01} \beta_{1}} \ldots m^{\beta_{m}}\right] \mid \cdot \beta_{j} \in \Lambda_{j}, \Lambda=\left(\Lambda_{1}, \Lambda_{2}, \ldots\right),\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_28_KOMMBINATORNYI">\Psi\left(t ; x_{1}, \ldots ; \Lambda\right)=\prod_{j=1}^{\infty} \sum_{\beta_{j} \in \Lambda_{j}}\left(x_{j} t^{j}\right)^{\beta} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_29_KOMMBINATORNYI">[[\sigma]]=\left[\left[0^{\beta_{01} \beta_{1}} \ldots m^{\beta} m\right], \beta_{j} \in \Lambda_{j}, \Lambda=\left(\Lambda_{1}, \Lambda_{2}, \ldots\right),\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/989_30_KOMMBINATORNYI">\tilde{\Psi}\left(t ; x_{1}, \ldots ; \Lambda\right)=\coprod_{j=1}^{\infty} \sum_{\beta_{j} \in \Lambda_{j}}\left(\frac{x_{j} t^{j}}{j !}\right)^{\beta_{j}} \frac{1}{\beta_{j} !} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_1_KOMMBINATORNYI">\hat{\kappa}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_2_KOMMBINATORNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_3_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_4_KOMMBINATORNYI">n-\mathrm{M}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_5_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_6_KOMMBINATORNYI">m \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_7_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_8_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_9_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_10_KOMMBINATORNYI">\left(\begin{array}{l}n \\ m\end{array}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_11_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_12_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_13_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_14_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_15_KOMMBINATORNYI">m=n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_16_KOMMBINATORNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_17_KOMMBINATORNYI">p(n)=n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_18_KOMMBINATORNYI">\mathfrak{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_19_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_20_KOMMBINATORNYI">к</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_21_KOMMBINATORNYI">50-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_22_KOMMBINATORNYI">(b, v, r, k, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_23_KOMMBINATORNYI">b k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_24_KOMMBINATORNYI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_25_KOMMBINATORNYI">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_26_KOMMBINATORNYI">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_27_KOMMBINATORNYI">b=v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_28_KOMMBINATORNYI">r=k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_29_KOMMBINATORNYI">b, v, r, k, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_30_KOMMBINATORNYI">(v, k, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_31_KOMMBINATORNYI">(v, k, \lambda)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_32_KOMMBINATORNYI">(v, k, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_33_KOMMBINATORNYI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_34_KOMMBINATORNYI">k-\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_35_KOMMBINATORNYI">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_36_KOMMBINATORNYI">x, y, z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_37_KOMMBINATORNYI">v=n^{2}+n+1, k=n+1, \lambda=1 \quad(v, k, \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_38_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_39_KOMMBINATORNYI">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_40_KOMMBINATORNYI">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_41_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_42_KOMMBINATORNYI">n \equiv 1,2(\bmod 4)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_43_KOMMBINATORNYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_44_KOMMBINATORNYI">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_45_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_46_KOMMBINATORNYI">n=p^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_47_KOMMBINATORNYI">p-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_48_KOMMBINATORNYI">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_49_KOMMBINATORNYI">n=10</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_50_KOMMBINATORNYI">n=4 k+2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_51_KOMMBINATORNYI">k=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_52_KOMMBINATORNYI">\left(x_{1}, \ldots, X_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_53_KOMMBINATORNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_54_KOMMBINATORNYI">\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_55_KOMMBINATORNYI">x_{i} \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_56_KOMMBINATORNYI">x_{i} \neq x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_57_KOMMBINATORNYI">i \neq j:</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_58_KOMMBINATORNYI">i_{1}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_59_KOMMBINATORNYI">\ldots, i_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_60_KOMMBINATORNYI">1 \leqslant i_{1}&lt;\ldots&lt;i_{k} \leqslant n, 1 \leqslant k \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_61_KOMMBINATORNYI">|y|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_62_KOMMBINATORNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_63_KOMMBINATORNYI">k \times n, 1 \leqslant k \leqslant n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_64_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_65_KOMMBINATORNYI">a=\| a_{i j}||, i, j=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_66_KOMMBINATORNYI">\pi_{1}, \ldots, \Pi_{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_67_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_68_KOMMBINATORNYI">s \leqslant(n-1)^{2}+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_69_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_70_KOMMBINATORNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_71_KOMMBINATORNYI">\left(\begin{array}{l}n \\ r\end{array}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_72_KOMMBINATORNYI">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_73_KOMMBINATORNYI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_74_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_75_KOMMBINATORNYI">n_{0}=n_{0}(m, r, k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_76_KOMMBINATORNYI">n \geqslant n_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_77_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_78_KOMMBINATORNYI">y \subset X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_79_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_80_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_81_KOMMBINATORNYI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_82_KOMMBINATORNYI">|s(n, k)|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_83_KOMMBINATORNYI">s(n, k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_84_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_85_KOMMBINATORNYI">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_86_KOMMBINATORNYI">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_87_KOMMBINATORNYI">\mathbf{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_88_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_89_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_90_KOMMBINATORNYI">n ! \sigma(m, n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_91_KOMMBINATORNYI">a=\left\|a_{i j}\right\|, i=1, \ldots, n, j=1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_92_KOMMBINATORNYI">m, n \leqslant m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_93_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_94_KOMMBINATORNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_95_KOMMBINATORNYI">n \times n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_96_KOMMBINATORNYI">(0,1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_97_KOMMBINATORNYI">(0,1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_98_KOMMBINATORNYI">\mathrm{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_99_KOMMBINATORNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_100_KOMMBINATORNYI">n ! / n^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_101_KOMMBINATORNYI">\left(a_{0}, a_{1}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_102_KOMMBINATORNYI">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_103_KOMMBINATORNYI">y^{x}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_104_KOMMBINATORNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_105_KOMMBINATORNYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_106_KOMMBINATORNYI">y^{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_107_KOMMBINATORNYI">\sim</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_108_KOMMBINATORNYI">f \sim f_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_109_KOMMBINATORNYI">\alpha \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_110_KOMMBINATORNYI">f(\alpha(x))=f_{1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_111_KOMMBINATORNYI">x \in X, f, f_{1} \in Y^{X}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_112_KOMMBINATORNYI">y \in Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_113_KOMMBINATORNYI">[y]=\left(s_{1}, \ldots, s_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_114_KOMMBINATORNYI">s_{i}, \quad i=1, \ldots, k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_115_KOMMBINATORNYI">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_116_KOMMBINATORNYI">a\left(s_{1}, \ldots, s_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_117_KOMMBINATORNYI">y \in Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_118_KOMMBINATORNYI">b_{m}\left(s_{1}, \ldots, s_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_119_KOMMBINATORNYI">f \in Y^{X}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_120_KOMMBINATORNYI">\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_121_KOMMBINATORNYI">=z\left(f\left(y_{1}, \ldots, y_{k}\right), F\left(y_{1}^{2}, \ldots, y_{k}^{2}\right), \ldots, F\left(y_{1}^{m}, \ldots, y_{k}^{m}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_122_KOMMBINATORNYI">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_123_KOMMBINATORNYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_124_KOMMBINATORNYI">c\left(j_{1}, \ldots, j_{m} ; \boldsymbol{A}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_125_KOMMBINATORNYI">\left\{1^{j_{1}} 2^{j_{2}} \ldots m^{j} m\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_126_KOMMBINATORNYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_127_KOMMBINATORNYI">\mathrm{g}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_128_KOMMBINATORNYI">\grave{n}(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_129_KOMMBINATORNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_130_KOMMBINATORNYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_131_KOMMBINATORNYI">j_{1}(\alpha)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_132_KOMMBINATORNYI">\alpha \in A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_133_KOMMBINATORNYI">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_134_KOMMBINATORNYI">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_135_KOMMBINATORNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_136_KOMMBINATORNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_137_KOMMBINATORNYI">\quad X=\{1, \ldots, m\}, Y=\left\{a_{1}, \ldots, a_{n}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_138_KOMMBINATORNYI">\sigma: X \rightarrow Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_139_KOMMBINATORNYI">a_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_140_KOMMBINATORNYI">\alpha_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_141_KOMMBINATORNYI">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_142_KOMMBINATORNYI">\alpha_{1}, \alpha_{2}, \ldots, \alpha_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_143_KOMMBINATORNYI">\beta_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_144_KOMMBINATORNYI">\beta_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_145_KOMMBINATORNYI">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_146_KOMMBINATORNYI">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_147_KOMMBINATORNYI">\sigma: X \rightarrow Y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_148_KOMMBINATORNYI">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_149_KOMMBINATORNYI">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_150_KOMMBINATORNYI">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_151_KOMMBINATORNYI">s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_152_KOMMBINATORNYI">g=s_{m}, H=E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_153_KOMMBINATORNYI">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_154_KOMMBINATORNYI">\alpha_{i} \in \Lambda_{i} \subseteq N_{0}=\{0,1, \ldots\}, \quad \Lambda=\left(\Lambda_{1}, \ldots, \Lambda_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_155_KOMMBINATORNYI">g=e, H=E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_156_KOMMBINATORNYI">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_157_KOMMBINATORNYI">g=s_{m}, H=S_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_158_KOMMBINATORNYI">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_159_KOMMBINATORNYI">g=e, H=S_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_160_KOMMBINATORNYI">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_161_KOMMBINATORNYI">\mathcal{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_162_KOMMBINATORNYI">s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/989_163_KOMMBINATORNYI">n \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="49">
+    <relation uri="http://libmeta.ru/me/relation/989_1_KOMMBINATORNYI">
+      <rel_text>Комбинаторные задачи</rel_text>
+      <target>http://libmeta.ru/me/article/988_KOMBINATORNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_2_KOMMBINATORNYI">
+      <rel_text>вероятности</rel_text>
+      <target>http://libmeta.ru/me/article/675_VEROJaTNOS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_3_KOMMBINATORNYI">
+      <rel_text>доказательства</rel_text>
+      <target>http://libmeta.ru/me/article/331_DOKAZATEL'STV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_4_KOMMBINATORNYI">
+      <rel_text>матриц</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_5_KOMMBINATORNYI">
+      <rel_text>вероятности</rel_text>
+      <target>http://libmeta.ru/me/article/675_VEROJaTNOS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_6_KOMMBINATORNYI">
+      <rel_text>матрице</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_7_KOMMBINATORNYI">
+      <rel_text>распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_8_KOMMBINATORNYI">
+      <rel_text>матриц</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_9_KOMMBINATORNYI">
+      <rel_text>вероятности</rel_text>
+      <target>http://libmeta.ru/me/article/675_VEROJaTNOS</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_10_KOMMBINATORNYI">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/me/article/1207_GRUPІІ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_11_KOMMBINATORNYI">
+      <rel_text>симметрической</rel_text>
+      <target>http://libmeta.ru/me/article/1307_SIMMETRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_12_KOMMBINATORNYI">
+      <rel_text>случайного элемента</rel_text>
+      <target>http://libmeta.ru/me/article/19_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_13_KOMMBINATORNYI">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_14_KOMMBINATORNYI">
+      <rel_text>распределение</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_15_KOMMBINATORNYI">
+      <rel_text>предельное</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_16_KOMMBINATORNYI">
+      <rel_text>полугрупп</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_17_KOMMBINATORNYI">
+      <rel_text>симметрических</rel_text>
+      <target>http://libmeta.ru/me/article/1307_SIMMETRIZATsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_18_KOMMBINATORNYI">
+      <rel_text>отображений</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_19_KOMMBINATORNYI">
+      <rel_text>графов</rel_text>
+      <target>http://libmeta.ru/me/article/1154_GRADU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_20_KOMMBINATORNYI">
+      <rel_text>множеств</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_21_KOMMBINATORNYI">
+      <rel_text>разбиения</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_22_KOMMBINATORNYI">
+      <rel_text>ячейки</rel_text>
+      <target>http://libmeta.ru/me/article/1246_JaChEJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_23_KOMMBINATORNYI">
+      <rel_text>предметов</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_24_KOMMBINATORNYI">
+      <rel_text>теоремы</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_25_KOMMBINATORNYI">
+      <rel_text>предельные</rel_text>
+      <target>http://libmeta.ru/me/article/605_PREDNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_26_KOMMBINATORNYI">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_27_KOMMBINATORNYI">
+      <rel_text>развитый</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_28_KOMMBINATORNYI">
+      <rel_text>интерпретация</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_29_KOMMBINATORNYI">
+      <rel_text>случайной величины</rel_text>
+      <target>http://libmeta.ru/me/article/1_SLUChAINAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_30_KOMMBINATORNYI">
+      <rel_text>распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_31_KOMMBINATORNYI">
+      <rel_text>характеристик</rel_text>
+      <target>http://libmeta.ru/me/article/839_HARAKTERISTIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_32_KOMMBINATORNYI">
+      <rel_text>задачу</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_33_KOMMBINATORNYI">
+      <rel_text>характера</rel_text>
+      <target>http://libmeta.ru/me/article/830_HARAKTE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_34_KOMMBINATORNYI">
+      <rel_text>Комбинаторную задачу</rel_text>
+      <target>http://libmeta.ru/me/article/988_KOMBINATORNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_35_KOMMBINATORNYI">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_36_KOMMBINATORNYI">
+      <rel_text>формул</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_37_KOMMBINATORNYI">
+      <rel_text>приближенных</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_38_KOMMBINATORNYI">
+      <rel_text>получении</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_39_KOMMBINATORNYI">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_40_KOMMBINATORNYI">
+      <rel_text>сложных</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_41_KOMMBINATORNYI">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_42_KOMMBINATORNYI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_43_KOMMBINATORNYI">
+      <rel_text>производящей</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_44_KOMMBINATORNYI">
+      <rel_text>Перечисление</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_45_KOMMBINATORNYI">
+      <rel_text>ячейки</rel_text>
+      <target>http://libmeta.ru/me/article/1246_JaChEJK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_46_KOMMBINATORNYI">
+      <rel_text>предметов</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_47_KOMMBINATORNYI">
+      <rel_text>множеств</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_48_KOMMBINATORNYI">
+      <rel_text>разбиений</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/989_49_KOMMBINATORNYI">
+      <rel_text>симметричный</rel_text>
+      <target>http://libmeta.ru/me/article/1307_SIMMETRIZATsI</target>
+    </relation>
+  </relations>
+  <text>к о м б и н а т о р. на я матем а тика, комби на то ри ка,раздел математики, посвященный решению задач выбора и расположения элементов нек-рого, обычно конечного, множества в соответствии с заданными правилами. Каждое такое правило определяет способ построения нек-рой конструкции из элементов исходного множества, называемой к о м б и н а т о р н о й ко нф и г у р а ц и е й. Поэтому можно сказать, что целью $URI[[http://libmeta.ru/me/formula/aux/989_1_KOMMBINATORNYI]]/URI$. а. является изучение комбинаторных конфигураций. Это пзучение включает в себя вопросы существования комбинаторных конфигураций, алгоритмы их пөстроения, оптимизацию таких алгоритмов, а также решение задач перечисления, в частности определение числа конфигураций данного класса. Простейшими примерами комбинаторных конфигураций являются перестановки, сочетания и размещения.
+
+Множество $URI[[http://libmeta.ru/me/formula/aux/989_2_KOMMBINATORNYI]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/989_3_KOMMBINATORNYI]]/URI$ элементов наз. $URI[[http://libmeta.ru/me/formula/aux/989_4_KOMMBINATORNYI]]/URI$ н о ж е с т в о м; любое его $URI[[http://libmeta.ru/me/formula/aux/989_5_KOMMBINATORNYI]]/URI$-подмножество, $URI[[http://libmeta.ru/me/formula/aux/989_6_KOMMBINATORNYI]]/URI$, наз. с о ч е т а н и е м объема $URI[[http://libmeta.ru/me/formula/aux/989_7_KOMMBINATORNYI]]/URI$. Число сочетаний объема $URI[[http://libmeta.ru/me/formula/aux/989_8_KOMMBINATORNYI]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/989_9_KOMMBINATORNYI]]/URI$ различных элементов равно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_1_KOMMBINATORNYI]]/URI
+\]
+
+Имеет место формула:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_2_KOMMBINATORNYI]]/URI
+\]
+
+обычно называемая ф о р м у л о й б и н о м а Н ь ют о н а. Числа $URI[[http://libmeta.ru/me/formula/aux/989_10_KOMMBINATORNYI]]/URI$ наз. бин о м и а л ь ны и и кэ фф и ц и е н т а м и. Упорядоченное $URI[[http://libmeta.ru/me/formula/aux/989_11_KOMMBINATORNYI]]/URI$-подмножество наз. р а з м е щ е н и е м объема $URI[[http://libmeta.ru/me/formula/aux/989_12_KOMMBINATORNYI]]/URI$. Число размещений объема $URI[[http://libmeta.ru/me/formula/aux/989_13_KOMMBINATORNYI]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/989_14_KOMMBINATORNYI]]/URI$ различных элементов равно
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_3_KOMMBINATORNYI]]/URI
+\]
+
+При $URI[[http://libmeta.ru/me/formula/aux/989_15_KOMMBINATORNYI]]/URI$ размещение представляет собой п е р е с т ан о в к у элементов множества $URI[[http://libmeta.ru/me/formula/aux/989_16_KOMMBINATORNYI]]/URI$, причем число таких перестановок равно $URI[[http://libmeta.ru/me/formula/aux/989_17_KOMMBINATORNYI]]/URI$ !
+
+Возникновение основных понятий и развитие $URI[[http://libmeta.ru/me/formula/aux/989_18_KOMMBINATORNYI]]/URI$. шло параллельно с развитием других разделов математики, таких, как алгебра, теория чисел, теория вероятностей, с к-рыми К. а. тесно связан. Еще математикам Древнего Востока были известны формула, выражающая число сочетаний через биномиальные коэффициенты, и формула бинома Ньютона с натуральным показателем $URI[[http://libmeta.ru/me/formula/aux/989_19_KOMMBINATORNYI]]/URI$. С мистическими целями изучались магические квадраты 3-го порядка. Рождение К. а. как раздела математики связано с трудами Б. Паскаля (b. Pascal) и П. Ферма (p. Fermat) по теории азартных игр. Эти труды, составившие основу теории вероятностей, одновременно содержали принципы определения числа комбинаций әлементов конечного множества, устанавливая тем самым ставшую затем традиционной связь К. а. с теорией вероятностей.
+
+Большой вклад в систематическое развитие комбинаторных методов был сделан Г. Лейбницем (g. Leibniz) в его диссертации &quot;ars Combinatoria&quot; («комбинаторное искусство»), где, по-видимому, впервые появился термин «комбинаторный». Большое значение для становления К. а. имела работа Я. Бернулли (ј. Bernoulli) &quot;ars conjectandi» («искусство предположений»), посвященная основным понятиям теории вероятностей, где обстоятельно изложен ряд комбинаторных понятий и указаны их применения для вычисления вероятностей. Можно считать, что с появлением работ Г. Лейбница и Я. Бернулли комбинаторныө методы выделились в самостоятельную часть математики.
+
+Большой вклад в развитие комбинаторных методов сделал Л. Эйлер (l. Euler). В его работах по разбие- ниям і композициям натуральных чисел на слагаемые было положено начало одному из основных методов перечисления комбинаторных конфигураций - методу производящих функций.
+
+Возрождение интереса к $URI[[http://libmeta.ru/me/formula/aux/989_20_KOMMBINATORNYI]]/URI$. а. относится к $URI[[http://libmeta.ru/me/formula/aux/989_21_KOMMBINATORNYI]]/URI$ м гг. 20 в. в связи с бурным развитием кибернетики Ii дискретной математики и широким использованием электронно-вычислительной техники. В этот период активизировался интерес к классическим комбинаторным задачам.
+
+На формирование направлений исследований в дальнейшем оказывают влияние два фактора. С одной стороны, выбор объектов исследований, с другой стороны - формулировка целей Iгследования, зависящая в конечном счете от сложности изучаемых объектов. Если исследуемая комбинаторная конфигурация имеет сложный характер, то целью исследования является выяснение условий ее существования Ii разработка алгоритмов построения.
+
+Большой развивающийся раздел К. а. составляет теория блок-схем (см. также [2], [3], [10]); основные проблемы этого раздела связаны с вопросами классификации, условиями существования и методами построения нек-рых классов блок-схем. Частным случаем блок-схем являются так наз. уравновешенные неполные блок-схемы, или $URI[[http://libmeta.ru/me/formula/aux/989_22_KOMMBINATORNYI]]/URI$-конфигурации, к-рые определяются как совокупности из $URI[[http://libmeta.ru/me/formula/aux/989_23_KOMMBINATORNYI]]/URI$-подмножеств нек-рого $URI[[http://libmeta.ru/me/formula/aux/989_24_KOMMBINATORNYI]]/URI$-множества, называемых блоками, с условием, что каждый элемент появляется в $URI[[http://libmeta.ru/me/formula/aux/989_25_KOMMBINATORNYI]]/URI$ блоках, а каждая пара элементов - в $URI[[http://libmeta.ru/me/formula/aux/989_26_KOMMBINATORNYI]]/URI$ блоках. При $URI[[http://libmeta.ru/me/formula/aux/989_27_KOMMBINATORNYI]]/URI$ и, следовательно, $URI[[http://libmeta.ru/me/formula/aux/989_28_KOMMBINATORNYI]]/URI$ ( $URI[[http://libmeta.ru/me/formula/aux/989_29_KOMMBINATORNYI]]/URI$-конфигурация наз. $URI[[http://libmeta.ru/me/formula/aux/989_30_KOMMBINATORNYI]]/URI$ к о н ф и г у р а ц и й, или симметричной уравновешенной неполной блок-схемой. Даже для $URI[[http://libmeta.ru/me/formula/aux/989_31_KOMMBINATORNYI]]/URI$ конфигураций вопрос о необходимых и достаточных условия х их существования остается пока (1978) открытым. Для существования $URI[[http://libmeta.ru/me/formula/aux/989_32_KOMMBINATORNYI]]/URI$-конфигураций необходимо, чтобы при $URI[[http://libmeta.ru/me/formula/aux/989_33_KOMMBINATORNYI]]/URI$ четном $URI[[http://libmeta.ru/me/formula/aux/989_34_KOMMBINATORNYI]]/URI$ было квадратом, а при $URI[[http://libmeta.ru/me/formula/aux/989_35_KOMMBINATORNYI]]/URI$ нечетном уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_4_KOMMBINATORNYI]]/URI
+\]
+
+имело решение в целых числах $URI[[http://libmeta.ru/me/formula/aux/989_36_KOMMBINATORNYI]]/URI$, одновременно не равных нулю.
+
+При $URI[[http://libmeta.ru/me/formula/aux/989_37_KOMMBINATORNYI]]/URI$-конфиигурация представляет собой П р о е к т и в н у ю п ло ск о с т ь порядка $URI[[http://libmeta.ru/me/formula/aux/989_38_KOMMBINATORNYI]]/URI$, являющуюся частным случаем к о н е ч о й $URI[[http://libmeta.ru/me/formula/aux/989_39_KOMMBINATORNYI]]/URI$ и о м е т р и и, содержащей конечное число точек и прямых с заданными условиями их инцидентности. Каждой проективной плоскості порядка n-1 можно поставить во взаимно однозначное соответствие полное множество из $URI[[http://libmeta.ru/me/formula/aux/989_40_KOMMBINATORNYI]]/URI$ попарно ортогональных латинских квадратов порядка n. Для существования проективной плоскости порядка $URI[[http://libmeta.ru/me/formula/aux/989_41_KOMMBINATORNYI]]/URI$ необходимо, чтобы при $URI[[http://libmeta.ru/me/formula/aux/989_42_KOMMBINATORNYI]]/URI$ существовали целые числа $URI[[http://libmeta.ru/me/formula/aux/989_43_KOMMBINATORNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/989_44_KOMMBINATORNYI]]/URI$, удовлетворяющие равенству
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_5_KOMMBINATORNYI]]/URI
+\]
+
+Вопрос о существовании проективных плоскостей порядка $URI[[http://libmeta.ru/me/formula/aux/989_45_KOMMBINATORNYI]]/URI$ решен положительно только для $URI[[http://libmeta.ru/me/formula/aux/989_46_KOMMBINATORNYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/989_47_KOMMBINATORNYI]]/URI$ простое, а $URI[[http://libmeta.ru/me/formula/aux/989_48_KOMMBINATORNYI]]/URI$ - натуральное числа. Даже для $URI[[http://libmeta.ru/me/formula/aux/989_49_KOMMBINATORNYI]]/URI$ этот вопрос является открытым (1978). К этому кругу вопросов относится результат, связанный с опровержением гипотезы Әйлера о несуществовании пары ортогональных латинских квадратов порядка $URI[[http://libmeta.ru/me/formula/aux/989_50_KOMMBINATORNYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/989_51_KOMMBINATORNYI]]/URI$ (см. URI[[http://libmeta.ru/me/relation/989_1_KOMMBINATORNYI]]/URI).
+
+Другое направление К. а. связано с выбора теоремами. В основе целого ряда результатов этого направления лежит т е о р е м а Ф. Х о л л а о существовании системы различных представителеї ( т p a н cв е р с а л и) семейства подмножеств $URI[[http://libmeta.ru/me/formula/aux/989_52_KOMMBINATORNYI]]/URI$ множества $URI[[http://libmeta.ru/me/formula/aux/989_53_KOMMBINATORNYI]]/URI$, т. е. системы элементов $URI[[http://libmeta.ru/me/formula/aux/989_54_KOMMBINATORNYI]]/URI$ такой, что $URI[[http://libmeta.ru/me/formula/aux/989_55_KOMMBINATORNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/989_56_KOMMBINATORNYI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/989_57_KOMMBINATORNYI]]/URI$ трансверсаль существует тогда и только тогда, когда для любых $URI[[http://libmeta.ru/me/formula/aux/989_58_KOMMBINATORNYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/989_59_KOMMBINATORNYI]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/989_60_KOMMBINATORNYI]]/URI$, справедливо неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_6_KOMMBINATORNYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/989_61_KOMMBINATORNYI]]/URI$ - число элементов в множестве $URI[[http://libmeta.ru/me/formula/aux/989_62_KOMMBINATORNYI]]/URI$. Из теоремы Ф. Холла вытекает теорема о существовании латинского квадрата, состоящая в том, что любой латинский прямоугольник размера $URI[[http://libmeta.ru/me/formula/aux/989_63_KOMMBINATORNYI]]/URI$, можно дополнить до латинского квадрата порядка $URI[[http://libmeta.ru/me/formula/aux/989_64_KOMMBINATORNYI]]/URI$. Другое следствие теоремы Ф. Холла: любую неотрицательную матрицу $URI[[http://libmeta.ru/me/formula/aux/989_65_KOMMBINATORNYI]]/URI$, такую, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_7_KOMMBINATORNYI]]/URI
+\]
+
+можно представить в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_8_KOMMBINATORNYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/989_66_KOMMBINATORNYI]]/URI$ - матрицы подстановкі порядка $URI[[http://libmeta.ru/me/formula/aux/989_67_KOMMBINATORNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/989_68_KOMMBINATORNYI]]/URI$. Из теоремы Ф. Холла следует также теорема о том, что минимальное число строк и столбцов неотрицательной матрицы, содержащих все положительные элементы, равно максимальному числу элементов, попарно не расположенных в одной и той же строке или в одном и том же столбце. Экстремальное свойство частічно упорядоченных множеств, аналогичное этой теореме, устанавливает теорема, утверждающая, что минимальное число непересекающихся цепей совпадает с объемом макспмального подмножества, состоящего из попарно несравнімых элементов. Экстремальный характер носит Ii следующая теорема: если для $URI[[http://libmeta.ru/me/formula/aux/989_69_KOMMBINATORNYI]]/URI$-множества $URI[[http://libmeta.ru/me/formula/aux/989_70_KOMMBINATORNYI]]/URI$ составить все $URI[[http://libmeta.ru/me/formula/aux/989_71_KOMMBINATORNYI]]/URI$ сочетаний по $URI[[http://libmeta.ru/me/formula/aux/989_72_KOMMBINATORNYI]]/URI$ элементов и разбіть их на $URI[[http://libmeta.ru/me/formula/aux/989_73_KOMMBINATORNYI]]/URI$ непересекающихся классов, то для целого $URI[[http://libmeta.ru/me/formula/aux/989_74_KOMMBINATORNYI]]/URI$ существует число $URI[[http://libmeta.ru/me/formula/aux/989_75_KOMMBINATORNYI]]/URI$ такое, что при $URI[[http://libmeta.ru/me/formula/aux/989_76_KOMMBINATORNYI]]/URI$ найдется подмножество из $URI[[http://libmeta.ru/me/formula/aux/989_77_KOMMBINATORNYI]]/URI$ элементов $URI[[http://libmeta.ru/me/formula/aux/989_78_KOMMBINATORNYI]]/URI$, для таний принадлежат одному классу.
+
+Әкстремальной является задача коммивояжера, заключающаяся в составлении кратчайшего маршрута посещения $URI[[http://libmeta.ru/me/formula/aux/989_79_KOMMBINATORNYI]]/URI$ городов с возвращением в исходный пункт при условии, что расстояния между городами известны. Эта задача имеет приложения к изучению транспортных сетей. Комбинаторные задачи экстремального характера рассматриваются в теоріиі потоков в сетях и в теории графов.
+
+Значительную часть К. а. составляют п е р е ч и сли т е ль ны е за д а чи. Прі их решении либо указывается метод перебора комбннаторных конфигураций из данного класса, либо определяется их число, либо делается то и другое. Типичные результаты перечислительных задач: число подстановок степени $URI[[http://libmeta.ru/me/formula/aux/989_80_KOMMBINATORNYI]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/989_81_KOMMBINATORNYI]]/URI$ циклами равно $URI[[http://libmeta.ru/me/formula/aux/989_82_KOMMBINATORNYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/989_83_KOMMBINATORNYI]]/URI$ - числа С т іл pл п н г а 1 - г о р о д а, определяемые равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_9_KOMMBINATORNYI]]/URI
+\]
+
+число разбиений множества из $URI[[http://libmeta.ru/me/formula/aux/989_84_KOMMBINATORNYI]]/URI$ әлементов на $URI[[http://libmeta.ru/me/formula/aux/989_85_KOMMBINATORNYI]]/URI$ подмножеств равно ч и с л у С т ї р л I н г а 2 - г о p $URI[[http://libmeta.ru/me/formula/aux/989_86_KOMMBINATORNYI]]/URI$ д $URI[[http://libmeta.ru/me/formula/aux/989_87_KOMMBINATORNYI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_10_KOMMBINATORNYI]]/URI
+\]
+
+число размещений $URI[[http://libmeta.ru/me/formula/aux/989_88_KOMMBINATORNYI]]/URI$ различных предметов в $URI[[http://libmeta.ru/me/formula/aux/989_89_KOMMBINATORNYI]]/URI$ различных ячейках, когда пустых ячеен нет, равно $URI[[http://libmeta.ru/me/formula/aux/989_90_KOMMBINATORNYI]]/URI$.
+
+Полезным инструментом для решений перечислительных задач является п е р м а н е н т м а т р и цы. Перманент матрицы $URI[[http://libmeta.ru/me/formula/aux/989_91_KOMMBINATORNYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/989_92_KOMMBINATORNYI]]/URI$, с элементами из нек-рого кольца определяется равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_11_KOMMBINATORNYI]]/URI
+\]
+
+где суммирование производится по всевозможным размещениям объема $URI[[http://libmeta.ru/me/formula/aux/989_93_KOMMBINATORNYI]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/989_94_KOMMBINATORNYI]]/URI$ различных элементов. Число трансверсалей нек-рого семейства подмножеств конечного множества равно перманенту соответствующей матрицы пнцидентности.
+
+К вычислению перманентов сводится целый класс задач по определению числа п е р е с т а н о в о к с о г р а н ч е н ным и п о з и и я м и. Эти задачи для удобства иногда формулируются как задачи о расстановке взаимно неатакующих фигур на пахматной доске размером $URI[[http://libmeta.ru/me/formula/aux/989_95_KOMMBINATORNYI]]/URI$. С определением перманентов нек-рых классов матриц связаны варианты 3 а д а ч и о д и м е p a x, возникающей при изучении явления адсорбции и заключающейся в определении числа способов объединения атомов в двухатомные молекулы на нек-рой поверхности. Ее решение может быть также получено через пфаффианы - некоторые функции от матриц, близкие к определителям. Проблема о числе латинских прямоугольников (квадратов) также связана с разработкой эффективных методов вычисления перманентов нек-рых $URI[[http://libmeta.ru/me/formula/aux/989_96_KOMMBINATORNYI]]/URI$-матриц.
+
+Для вычисленпя перманентов применяется формула:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_12_KOMMBINATORNYI]]/URI
+\]
+
+Имеется большое число неравенств, дающих оценку величины перманента в нек-рых классах матриц. Представляет интерес определение экстремальных значений перманента в определенных классах неотрицательных матриц, однако эта задача не репена (1978) даже для $URI[[http://libmeta.ru/me/formula/aux/989_97_KOMMBINATORNYI]]/URI$-матриц с заданным значением числа единиц в строках и столбцах. $URI[[http://libmeta.ru/me/formula/aux/989_98_KOMMBINATORNYI]]/URI$ этой проблеме примыкает гипотеза Ван дер Вардена о том, что минимум перманента дважды стохастической матрицы порядка $URI[[http://libmeta.ru/me/formula/aux/989_99_KOMMBINATORNYI]]/URI$ paвен $URI[[http://libmeta.ru/me/formula/aux/989_100_KOMMBINATORNYI]]/URI$, подтвержденная только для положительно полуопределенных матриц.
+
+Большую роль в решении перечислительных задач играет метод производящих бункций. Пропзводящая функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_13_KOMMBINATORNYI]]/URI
+\]
+
+ставится в соответствие последовательности $URI[[http://libmeta.ru/me/formula/aux/989_101_KOMMBINATORNYI]]/URI$, ...) с элементами из нек-рого поля и рассматривается как формальный степенной ряд. При таком определении производящие функции әффективно пспользуются для решения перечислительных задач параллельно с методами рекуррентных соотношений и конечно разностных уравнений. При получении асимптотіческих формул в качестве производящих функций обычно используются аналитическіе функции действптельного или комплексного переменного. В последнем случае,для отыскания выражений коәффициентов применяют юнтегральную формулу Кошй.
+
+Имеются результаты в направлении возможной унификациі методов перечісления, связанные с рассмотрением так наз. алгебр пнцидентности и использованием функции Мёбиуса на частично упорядоченных множествах (см., напр., [10]). Прп решении перечислительных задач существенную роль играет формализация понятия неразличимості объектов. Использование для этих целей понятия эквивалентности объектов относительно нек-рой группы подстановок в сочетании с применением метода производящіх функций было положено в основу так наз. т е о р и и пе ре чи с ле ни я $URI[[http://libmeta.ru/me/formula/aux/989_102_KOMMBINATORNYI]]/URI$ о й а (см. [10]). Сущность этой теориі состоит в следующем. Рассматривается $URI[[http://libmeta.ru/me/formula/aux/989_103_KOMMBINATORNYI]]/URI$ множество конфигураций
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_14_KOMMBINATORNYI]]/URI
+\]
+
+На множестве $URI[[http://libmeta.ru/me/formula/aux/989_104_KOMMBINATORNYI]]/URI$ действует группа подстановок $URI[[http://libmeta.ru/me/formula/aux/989_105_KOMMBINATORNYI]]/URI$, определяющая на $URI[[http://libmeta.ru/me/formula/aux/989_106_KOMMBINATORNYI]]/URI$ отношение эквивалентности $URI[[http://libmeta.ru/me/formula/aux/989_107_KOMMBINATORNYI]]/URI$, при к-ром $URI[[http://libmeta.ru/me/formula/aux/989_108_KOMMBINATORNYI]]/URI$, если существует такое $URI[[http://libmeta.ru/me/formula/aux/989_109_KOMMBINATORNYI]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/989_110_KOMMBINATORNYI]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/989_111_KOMMBINATORNYI]]/URI$. Каждому $URI[[http://libmeta.ru/me/formula/aux/989_112_KOMMBINATORNYI]]/URI$ ставится в соответствие характеристика $URI[[http://libmeta.ru/me/formula/aux/989_113_KOMMBINATORNYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/989_114_KOMMBINATORNYI]]/URI$, - элементы абелевой группы. Характеристика конфигурации $URI[[http://libmeta.ru/me/formula/aux/989_115_KOMMBINATORNYI]]/URI$ задается равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_15_KOMMBINATORNYI]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/989_116_KOMMBINATORNYI]]/URI$ - число элементов $URI[[http://libmeta.ru/me/formula/aux/989_117_KOMMBINATORNYI]]/URI$ с заданным значением характеристики и $URI[[http://libmeta.ru/me/formula/aux/989_118_KOMMBINATORNYI]]/URI$ - число неэквивалентных конфигураций $URI[[http://libmeta.ru/me/formula/aux/989_119_KOMMBINATORNYI]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_16_KOMMBINATORNYI]]/URI
+\]
+
+то основная т е о рем а $URI[[http://libmeta.ru/me/formula/aux/989_120_KOMMBINATORNYI]]/URI$ о й а утверждает, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_17_KOMMBINATORNYI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/989_121_KOMMBINATORNYI]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/989_122_KOMMBINATORNYI]]/URI$ есть цик лическ й й и де к с г ру ппы $URI[[http://libmeta.ru/me/formula/aux/989_123_KOMMBINATORNYI]]/URI$, определяемый равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_18_KOMMBINATORNYI]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/989_19_KOMMBINATORNYI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/989_124_KOMMBINATORNYI]]/URI$ - число элементов циклового класса
+
+$URI[[http://libmeta.ru/me/formula/aux/989_125_KOMMBINATORNYI]]/URI$ группы $URI[[http://libmeta.ru/me/formula/aux/989_126_KOMMBINATORNYI]]/URI$. Әта теорема основана на л е м м е $URI[[http://libmeta.ru/me/formula/aux/989_127_KOMMBINATORNYI]]/URI$ е р н с а ї д а: число классов эквивалентности $URI[[http://libmeta.ru/me/formula/aux/989_128_KOMMBINATORNYI]]/URI$, определяемых на множестве $URI[[http://libmeta.ru/me/formula/aux/989_129_KOMMBINATORNYI]]/URI$ группой подстановок $URI[[http://libmeta.ru/me/formula/aux/989_130_KOMMBINATORNYI]]/URI$, дается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_20_KOMMBINATORNYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/989_131_KOMMBINATORNYI]]/URI$ - число единичных циклов $URI[[http://libmeta.ru/me/formula/aux/989_132_KOMMBINATORNYI]]/URI$. Теория Пойа имеет применения при решении перечислительных задач теории графов и перечислении углеродных химических соединений. Имеется обобщение теории Пойа на случай, когда эквивалентность конфигураций определяется двумя группами $URI[[http://libmeta.ru/me/formula/aux/989_133_KOMMBINATORNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/989_134_KOMMBINATORNYI]]/URI$, действующими на $URI[[http://libmeta.ru/me/formula/aux/989_135_KOMMBINATORNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/989_136_KOMMBINATORNYI]]/URI$ соответственно (см. [4] и [10]). В таком виде она применяется, напр., для определения числа неизоморфных абстрактных автоматов.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/989_137_KOMMBINATORNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/989_138_KOMMBINATORNYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/989_139_KOMMBINATORNYI]]/URI$ используется $URI[[http://libmeta.ru/me/formula/aux/989_140_KOMMBINATORNYI]]/URI$ раз в качестве образа, то выражение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_21_KOMMBINATORNYI]]/URI
+\]
+
+наз. п е р вич но й с пе ци ф и к аци е й $URI[[http://libmeta.ru/me/formula/aux/989_141_KOMMBINATORNYI]]/URI$. Если числа $URI[[http://libmeta.ru/me/formula/aux/989_142_KOMMBINATORNYI]]/URI$ содержат $URI[[http://libmeta.ru/me/formula/aux/989_143_KOMMBINATORNYI]]/URI$ нулей, $URI[[http://libmeta.ru/me/formula/aux/989_144_KOMMBINATORNYI]]/URI$ единиц и т. д., то выражение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_22_KOMMBINATORNYI]]/URI
+\]
+
+наз. в то р ич но й с пеци и и к а ц е й. При нек-рой специализации групп $URI[[http://libmeta.ru/me/formula/aux/989_145_KOMMBINATORNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/989_146_KOMMBINATORNYI]]/URI$, определяющих эквивалентность конфигураций $URI[[http://libmeta.ru/me/formula/aux/989_147_KOMMBINATORNYI]]/URI$, можно указать способ построения производящих функций для перечисления неэквивалентных конфигураций. Этот способ, называемый о б щ е й ко м б и на то р н о й с х е м й, подразделяется на четыре частных случая в соответствии с тем, принимают группы $URI[[http://libmeta.ru/me/formula/aux/989_148_KOMMBINATORNYI]]/URI$ п $URI[[http://libmeta.ru/me/formula/aux/989_149_KOMMBINATORNYI]]/URI$ значения единичной $URI[[http://libmeta.ru/me/formula/aux/989_150_KOMMBINATORNYI]]/URI$ или симметрической $URI[[http://libmeta.ru/me/formula/aux/989_151_KOMMBINATORNYI]]/URI$ групі соответствующих степеней. Эти частные случаи являются моделями для большинства известных комбинаторных схем (см. [9], [10]).
+
+1. Коммутативный несиммет ричны й с л у ч а й: $URI[[http://libmeta.ru/me/formula/aux/989_152_KOMMBINATORNYI]]/URI$. Моделирует схемы сочетаний, заполнений одинаковых предметов в различные ячейки и др. Производящая функция для пере- числения неэквивалентных конфигураций $URI[[http://libmeta.ru/me/formula/aux/989_153_KOMMBINATORNYI]]/URI$ таких, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_23_KOMMBINATORNYI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/989_154_KOMMBINATORNYI]]/URI$,
+
+имеет вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_24_KOMMBINATORNYI]]/URI
+\]
+
+2. Неноммутативный несимметричны й с луч а й: $URI[[http://libmeta.ru/me/formula/aux/989_155_KOMMBINATORNYI]]/URI$. Моделирует схемы размещений, заполнений различимых предметов в различные ячейки и др. Производящая функция для перечисления неәквивалентных конфигураций $URI[[http://libmeta.ru/me/formula/aux/989_156_KOMMBINATORNYI]]/URI$ таких, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_25_KOMMBINATORNYI]]/URI
+\]
+
+имеет вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_26_KOMMBINATORNYI]]/URI
+\]
+
+3. Коммутативный симмет ричный с л у ч а й: $URI[[http://libmeta.ru/me/formula/aux/989_157_KOMMBINATORNYI]]/URI$. Моделирует схемы заполнения одинаковых предметов в одинаковые ячейки, перечисления разбиений натуральных чисел и др. Перечисление конфигураций $URI[[http://libmeta.ru/me/formula/aux/989_158_KOMMBINATORNYI]]/URI$ таких, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_27_KOMMBINATORNYI]]/URI
+\]
+
+основано на использовании производящей функции вида:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_28_KOMMBINATORNYI]]/URI
+\]
+
+4. Н е комм ут ат и вны й URI[[http://libmeta.ru/me/relation/989_49_KOMMBINATORNYI]]/URI с л у ч а й: $URI[[http://libmeta.ru/me/formula/aux/989_159_KOMMBINATORNYI]]/URI$. Моделирует схемы URI[[http://libmeta.ru/me/relation/989_48_KOMMBINATORNYI]]/URI конечных URI[[http://libmeta.ru/me/relation/989_47_KOMMBINATORNYI]]/URI на блоки, заполнения разлпчимых URI[[http://libmeta.ru/me/relation/989_46_KOMMBINATORNYI]]/URI в одинаковые URI[[http://libmeta.ru/me/relation/989_45_KOMMBINATORNYI]]/URI и др. URI[[http://libmeta.ru/me/relation/989_44_KOMMBINATORNYI]]/URI конфигураций $URI[[http://libmeta.ru/me/formula/aux/989_160_KOMMBINATORNYI]]/URI$ таких, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_29_KOMMBINATORNYI]]/URI
+\]
+
+основано на использовании URI[[http://libmeta.ru/me/relation/989_43_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_42_KOMMBINATORNYI]]/URI вида:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/989_30_KOMMBINATORNYI]]/URI
+\]
+
+Значительное место в $URI[[http://libmeta.ru/me/formula/aux/989_161_KOMMBINATORNYI]]/URI$. а. занимают асимптотические URI[[http://libmeta.ru/me/relation/989_41_KOMMBINATORNYI]]/URI. Они применяются как для упрощения URI[[http://libmeta.ru/me/relation/989_40_KOMMBINATORNYI]]/URI конечных выражений при больших значениях входящих в них URI[[http://libmeta.ru/me/relation/989_39_KOMMBINATORNYI]]/URI, так и при URI[[http://libmeta.ru/me/relation/989_38_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_37_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_36_KOMMBINATORNYI]]/URI обходными путями, когда точные URI[[http://libmeta.ru/me/relation/989_35_KOMMBINATORNYI]]/URI неизвестны. URI[[http://libmeta.ru/me/relation/989_34_KOMMBINATORNYI]]/URI перечислительного URI[[http://libmeta.ru/me/relation/989_33_KOMMBINATORNYI]]/URI иногда удобно сформулировать как URI[[http://libmeta.ru/me/relation/989_32_KOMMBINATORNYI]]/URI отыскания URI[[http://libmeta.ru/me/relation/989_31_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_30_KOMMBINATORNYI]]/URI нек-рой URI[[http://libmeta.ru/me/relation/989_29_KOMMBINATORNYI]]/URI. Такая URI[[http://libmeta.ru/me/relation/989_28_KOMMBINATORNYI]]/URI дает возможность применять URI[[http://libmeta.ru/me/relation/989_27_KOMMBINATORNYI]]/URI аппарат URI[[http://libmeta.ru/me/relation/989_26_KOMMBINATORNYI]]/URI вероятностей, а для отыскания асимптотик - URI[[http://libmeta.ru/me/relation/989_25_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_24_KOMMBINATORNYI]]/URI. Детальному исследованию с этих позицій подвергнута классическая схема случайных размещений URI[[http://libmeta.ru/me/relation/989_23_KOMMBINATORNYI]]/URI в URI[[http://libmeta.ru/me/relation/989_22_KOMMBINATORNYI]]/URI, случайные URI[[http://libmeta.ru/me/relation/989_21_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_20_KOMMBINATORNYI]]/URI, цикловая структура случайных подстановок, а также различные классы случайных URI[[http://libmeta.ru/me/relation/989_19_KOMMBINATORNYI]]/URI, включая графы URI[[http://libmeta.ru/me/relation/989_18_KOMMBINATORNYI]]/URI (см. [8], [9]).
+
+Вероятностный подход применяется при изучении комбинаторных свойств URI[[http://libmeta.ru/me/relation/989_17_KOMMBINATORNYI]]/URI групп и URI[[http://libmeta.ru/me/relation/989_16_KOMMBINATORNYI]]/URI. Исследовано URI[[http://libmeta.ru/me/relation/989_15_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_14_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_13_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_12_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_11_KOMMBINATORNYI]]/URI URI[[http://libmeta.ru/me/relation/989_10_KOMMBINATORNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/989_162_KOMMBINATORNYI]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/989_163_KOMMBINATORNYI]]/URI$, а также асимптотика URI[[http://libmeta.ru/me/relation/989_9_KOMMBINATORNYI]]/URI порождения ее случайными элементами. Для нек-рых классов случайных неотрицательных URI[[http://libmeta.ru/me/relation/989_8_KOMMBINATORNYI]]/URI изучались URI[[http://libmeta.ru/me/relation/989_7_KOMMBINATORNYI]]/URI числа нулевых линий в URI[[http://libmeta.ru/me/relation/989_6_KOMMBINATORNYI]]/URI и перманентов, даны оценки URI[[http://libmeta.ru/me/relation/989_5_KOMMBINATORNYI]]/URI примитивности таких URI[[http://libmeta.ru/me/relation/989_4_KOMMBINATORNYI]]/URI. Для URI[[http://libmeta.ru/me/relation/989_3_KOMMBINATORNYI]]/URI существования комбинаторных конфигураций без их конструирования иногда используется нек-рый специфический вероятностный прием. Сущность этого приема заключается в установлении существования конфигурации без ее конструирования с помощью оценки URI[[http://libmeta.ru/me/relation/989_2_KOMMBINATORNYI]]/URI нек-рого события (см. [7]).</text>
+  <text_orig>к о м б и н а т о р. на я матем а тика, комби на то ри ка,раздел математики, посвященный решению задач выбора и расположения элементов нек-рого, обычно конечного, множества в соответствии с заданными правилами. Каждое такое правило определяет способ построения нек-рой конструкции из элементов исходного множества, называемой к о м б и н а т о р н о й ко нф и г у р а ц и е й. Поэтому можно сказать, что целью $\hat{\kappa}$. а. является изучение комбинаторных конфигураций. Это пзучение включает в себя вопросы существования комбинаторных конфигураций, алгоритмы их пөстроения, оптимизацию таких алгоритмов, а также решение задач перечисления, в частности определение числа конфигураций данного класса. Простейшими примерами комбинаторных конфигураций являются перестановки, сочетания и размещения.
+
+Множество $X$ из $n$ элементов наз. $n-\mathrm{M}$ н о ж е с т в о м; любое его $m$-подмножество, $m \leqslant n$, наз. с о ч е т а н и е м объема $m$. Число сочетаний объема $m$ из $n$ различных элементов равно
+
+\[
+C(n, m)=\left(\begin{array}{c}
+n \\
+m
+\end{array}\right)=n(n-1) \ldots(n-m+1) / m !
+\]
+
+Имеет место формула:
+
+\[
+(1+t)^{n}=\sum_{m=0}^{n}\left(\begin{array}{l}
+n \\
+m
+\end{array}\right) t^{m},\left(\begin{array}{l}
+n \\
+0
+\end{array}\right)=1
+\]
+
+обычно называемая ф о р м у л о й б и н о м а Н ь ют о н а. Числа $\left(\begin{array}{l}n \\ m\end{array}\right)$ наз. бин о м и а л ь ны и и кэ фф и ц и е н т а м и. Упорядоченное $m$-подмножество наз. р а з м е щ е н и е м объема $m$. Число размещений объема $m$ из $n$ различных элементов равно
+
+\[
+A(n, m)=n(n-1) . .(n-m+1) .
+\]
+
+При $m=n$ размещение представляет собой п е р е с т ан о в к у элементов множества $X$, причем число таких перестановок равно $P(n)=n$ !
+
+Возникновение основных понятий и развитие $\mathfrak{k}$. шло параллельно с развитием других разделов математики, таких, как алгебра, теория чисел, теория вероятностей, с к-рыми К. а. тесно связан. Еще математикам Древнего Востока были известны формула, выражающая число сочетаний через биномиальные коэффициенты, и формула бинома Ньютона с натуральным показателем $n$. С мистическими целями изучались магические квадраты 3-го порядка. Рождение К. а. как раздела математики связано с трудами Б. Паскаля (B. Pascal) и П. Ферма (P. Fermat) по теории азартных игр. Эти труды, составившие основу теории вероятностей, одновременно содержали принципы определения числа комбинаций әлементов конечного множества, устанавливая тем самым ставшую затем традиционной связь К. а. с теорией вероятностей.
+
+Большой вклад в систематическое развитие комбинаторных методов был сделан Г. Лейбницем (G. Leibniz) в его диссертации &quot;Ars Combinatoria&quot; («Комбинаторное искусство»), где, по-видимому, впервые появился термин «комбинаторный». Большое значение для становления К. а. имела работа Я. Бернулли (Ј. Bernoulli) &quot;Ars conjectandi» («Искусство предположений»), посвященная основным понятиям теории вероятностей, где обстоятельно изложен ряд комбинаторных понятий и указаны их применения для вычисления вероятностей. Можно считать, что с появлением работ Г. Лейбница и Я. Бернулли комбинаторныө методы выделились в самостоятельную часть математики.
+
+Большой вклад в развитие комбинаторных методов сделал Л. Эйлер (L. Euler). В его работах по разбие- ниям і композициям натуральных чисел на слагаемые было положено начало одному из основных методов перечисления комбинаторных конфигураций - методу производящих функций.
+
+Возрождение интереса к $К$. а. относится к $50-$ м гг. 20 в. в связи с бурным развитием кибернетики II дискретной математики и широким использованием электронно-вычислительной техники. В этот период активизировался интерес к классическим комбинаторным задачам.
+
+На формирование направлений исследований в дальнейшем оказывают влияние два фактора. С одной стороны, выбор объектов исследований, с другой стороны - формулировка целей Iгследования, зависящая в конечном счете от сложности изучаемых объектов. Если исследуемая комбинаторная конфигурация имеет сложный характер, то целью исследования является выяснение условий ее существования II разработка алгоритмов построения.
+
+Большой развивающийся раздел К. а. составляет теория блок-схем (см. также [2], [3], [10]); основные проблемы этого раздела связаны с вопросами классификации, условиями существования и методами построения нек-рых классов блок-схем. Частным случаем блок-схем являются так наз. уравновешенные неполные блок-схемы, или $(b, v, r, k, \lambda)$-конфигурации, к-рые определяются как совокупности из $b k$-подмножеств нек-рого $v$-множества, называемых блоками, с условием, что каждый элемент появляется в $r$ блоках, а каждая пара элементов - в $\lambda$ блоках. При $b=v$ и, следовательно, $r=k$ ( $b, v, r, k, \lambda)$-конфигурация наз. $(v, k, \lambda)$ к о н ф и г у р а ц и й, или симметричной уравновешенной неполной блок-схемой. Даже для $(v, k, \lambda)-$ конфигураций вопрос о необходимых и достаточных условия х их существования остается пока (1978) открытым. Для существования $(v, k, \lambda)$-конфигураций необходимо, чтобы при $v$ четном $k-\lambda$ было квадратом, а при $v$ нечетном уравнение
+
+\[
+z^{2}=(k-\lambda) x^{2}+(-1)^{(v-1) / 2} \lambda y^{2}
+\]
+
+имело решение в целых числах $x, y, z$, одновременно не равных нулю.
+
+При $v=n^{2}+n+1, k=n+1, \lambda=1 \quad(v, k, \lambda)$-конфиигурация представляет собой П р о е к т и в н у ю п ло ск о с т ь порядка $n$, являющуюся частным случаем к о н е ч о й $г$ и о м е т р и и, содержащей конечное число точек и прямых с заданными условиями их инцидентности. Каждой проективной плоскості порядка n-1 можно поставить во взаимно однозначное соответствие полное множество из $n-1$ попарно ортогональных латинских квадратов порядка n. Для существования проективной плоскости порядка $n$ необходимо, чтобы при $n \equiv 1,2(\bmod 4)$ существовали целые числа $a$ и $b$, удовлетворяющие равенству
+
+\[
+n=a^{2}+b^{2}
+\]
+
+Вопрос о существовании проективных плоскостей порядка $n$ решен положительно только для $n=p^{\alpha}$, где $p-$ простое, а $\alpha$ - натуральное числа. Даже для $n=10$ этот вопрос является открытым (1978). К этому кругу вопросов относится результат, связанный с опровержением гипотезы Әйлера о несуществовании пары ортогональных латинских квадратов порядка $n=4 k+2$, $k=1,2, \ldots$ (см. Комбинаторные задачи).
+
+Другое направление К. а. связано с выбора теоремами. В основе целого ряда результатов этого направления лежит т е о р е м а Ф. Х о л л а о существовании системы различных представителеї ( т p a н cв е р с а л и) семейства подмножеств $\left(X_{1}, \ldots, X_{n}\right)$ множества $X$, т. е. системы элементов $\left(x_{1}, \ldots, x_{n}\right)$ такой, что $x_{i} \in X$ и $x_{i} \neq x_{j}$ при $i \neq j:$ трансверсаль существует тогда и только тогда, когда для любых $i_{1}, \ldots$ $\ldots, i_{k}$ таких, что $1 \leqslant i_{1}&lt;\ldots&lt;i_{k} \leqslant n, 1 \leqslant k \leqslant n$, справедливо неравенство
+
+\[
+\left|X_{i_{1}} \cup \ldots \cup X_{i_{k}}\right| \geqslant k,
+\]
+
+где $|Y|$ - число элементов в множестве $Y$. Из теоремы Ф. Холла вытекает теорема о существовании латинского квадрата, состоящая в том, что любой латинский прямоугольник размера $k \times n, 1 \leqslant k \leqslant n-1$, можно дополнить до латинского квадрата порядка $n$. Другое следствие теоремы Ф. Холла: любую неотрицательную матрицу $A=\| a_{i j}||, i, j=1, \ldots, n$, такую, что
+
+\[
+\sum_{i=1}^{n} a_{i j}=\sum_{j=1}^{n} a_{i j}=t&gt;0,
+\]
+
+можно представить в виде
+
+\[
+A=\alpha_{1} \Pi_{1}+\ldots+\alpha_{s} \Pi_{s}
+\]
+
+где $\Pi_{1}, \ldots, \Pi_{s}$ - матрицы подстановкі порядка $n$ и $s \leqslant(n-1)^{2}+1$. Из теоремы Ф. Холла следует также теорема о том, что минимальное число строк и столбцов неотрицательной матрицы, содержащих все положительные элементы, равно максимальному числу элементов, попарно не расположенных в одной и той же строке или в одном и том же столбце. Экстремальное свойство частічно упорядоченных множеств, аналогичное этой теореме, устанавливает теорема, утверждающая, что минимальное число непересекающихся цепей совпадает с объемом макспмального подмножества, состоящего из попарно несравнімых элементов. Экстремальный характер носит II следующая теорема: если для $n$-множества $X$ составить все $\left(\begin{array}{l}n \\ r\end{array}\right)$ сочетаний по $r$ элементов и разбіть их на $k$ непересекающихся классов, то для целого $m$ существует число $n_{0}=n_{0}(m, r, k)$ такое, что при $n \geqslant n_{0}$ найдется подмножество из $m$ элементов $Y \subset X$, для таний принадлежат одному классу.
+
+Әкстремальной является задача коммивояжера, заключающаяся в составлении кратчайшего маршрута посещения $n$ городов с возвращением в исходный пункт при условии, что расстояния между городами известны. Эта задача имеет приложения к изучению транспортных сетей. Комбинаторные задачи экстремального характера рассматриваются в теоріиі потоков в сетях и в теории графов.
+
+Значительную часть К. а. составляют п е р е ч и сли т е ль ны е за д а чи. Прі их решении либо указывается метод перебора комбннаторных конфигураций из данного класса, либо определяется их число, либо делается то и другое. Типичные результаты перечислительных задач: число подстановок степени $n$ с $k$ циклами равно $|S(n, k)|$, где $S(n, k)$ - числа С т іл pл п н г а 1 - г о р о д а, определяемые равенством
+
+\[
+x(x-1) \ldots(x-n+1)=\sum_{k=0}^{n} S(n, k) x^{k} ;
+\]
+
+число разбиений множества из $n$ әлементов на $k$ подмножеств равно ч и с л у С т ї р л I н г а 2 - г о p $о$ д $\mathbf{a}$
+
+\[
+\sigma(n, k)=\frac{1}{k !} \sum_{j=0}^{k}(-1)^{j}\left(\begin{array}{l}
+k \\
+j
+\end{array}\right)(k-j)^{n} ;
+\]
+
+число размещений $m$ различных предметов в $n$ различных ячейках, когда пустых ячеен нет, равно $n ! \sigma(m, n)$.
+
+Полезным инструментом для решений перечислительных задач является п е р м а н е н т м а т р и цы. Перманент матрицы $A=\left\|a_{i j}\right\|, i=1, \ldots, n, j=1, \ldots$, $m, n \leqslant m$, с элементами из нек-рого кольца определяется равенством
+
+\[
+\operatorname{per} A=\sum\left(j_{1}, \ldots, j_{n}\right)^{a_{1 j_{1}}} a_{2 j_{2}} \ldots a_{n j_{n}},
+\]
+
+где суммирование производится по всевозможным размещениям объема $n$ из $m$ различных элементов. Число трансверсалей нек-рого семейства подмножеств конечного множества равно перманенту соответствующей матрицы пнцидентности.
+
+К вычислению перманентов сводится целый класс задач по определению числа п е р е с т а н о в о к с о г р а н ч е н ным и п о з и и я м и. Эти задачи для удобства иногда формулируются как задачи о расстановке взаимно неатакующих фигур на пахматной доске размером $n \times n$. С определением перманентов нек-рых классов матриц связаны варианты 3 а д а ч и о д и м е p a x, возникающей при изучении явления адсорбции и заключающейся в определении числа способов объединения атомов в двухатомные молекулы на нек-рой поверхности. Ее решение может быть также получено через пфаффианы - некоторые функции от матриц, близкие к определителям. Проблема о числе латинских прямоугольников (квадратов) также связана с разработкой эффективных методов вычисления перманентов нек-рых $(0,1)$-матриц.
+
+Для вычисленпя перманентов применяется формула:
+
+\[
+\begin{gathered}
+\operatorname{per} \boldsymbol{A}=\sum_{k=m-n}^{m}(-1)^{k-m+n}\left(\begin{array}{c}
+k \\
+m-n
+\end{array}\right) S_{k}, \\
+S_{k}=\sum_{1 \leqslant j_{1}&lt;. .&lt;j_{k} \leqslant m} \prod_{i=1}^{n}\left(\sum_{l=1}^{m} a_{i l}-\sum_{r=1}^{k} a_{i j_{r}}\right)
+\end{gathered}
+\]
+
+Имеется большое число неравенств, дающих оценку величины перманента в нек-рых классах матриц. Представляет интерес определение экстремальных значений перманента в определенных классах неотрицательных матриц, однако эта задача не репена (1978) даже для $(0,1)$-матриц с заданным значением числа единиц в строках и столбцах. $\mathrm{K}$ этой проблеме примыкает гипотеза Ван дер Вардена о том, что минимум перманента дважды стохастической матрицы порядка $n$ paвен $n ! / n^{n}$, подтвержденная только для положительно полуопределенных матриц.
+
+Большую роль в решении перечислительных задач играет метод производящих бункций. Пропзводящая функция
+
+\[
+f(t)=\sum_{n=0}^{\infty} a_{n} t^{n}
+\]
+
+ставится в соответствие последовательности $\left(a_{0}, a_{1}\right.$, ...) с элементами из нек-рого поля и рассматривается как формальный степенной ряд. При таком определении производящие функции әффективно пспользуются для решения перечислительных задач параллельно с методами рекуррентных соотношений и конечно разностных уравнений. При получении асимптотіческих формул в качестве производящих функций обычно используются аналитическіе функции действптельного или комплексного переменного. В последнем случае,для отыскания выражений коәффициентов применяют юнтегральную формулу Кошй.
+
+Имеются результаты в направлении возможной унификациі методов перечісления, связанные с рассмотрением так наз. алгебр пнцидентности и использованием функции Мёбиуса на частично упорядоченных множествах (см., напр., [10]). Прп решении перечислительных задач существенную роль играет формализация понятия неразличимості объектов. Использование для этих целей понятия эквивалентности объектов относительно нек-рой группы подстановок в сочетании с применением метода производящіх функций было положено в основу так наз. т е о р и и пе ре чи с ле ни я $\Pi$ о й а (см. [10]). Сущность этой теориі состоит в следующем. Рассматривается $Y^{X}-$ множество конфигураций
+
+\[
+f: X \rightarrow Y,|X|=m, \quad|Y|=n .
+\]
+
+На множестве $X$ действует группа подстановок $A$, определяющая на $Y^{X}$ отношение эквивалентности $\sim$, при к-ром $f \sim f_{1}$, если существует такое $\alpha \in A$, что $f(\alpha(x))=f_{1}(x)$ для всех $x \in X, f, f_{1} \in Y^{X}$. Каждому $y \in Y$ ставится в соответствие характеристика $[y]=\left(s_{1}, \ldots, s_{2}\right)$, где $s_{i}, \quad i=1, \ldots, k$, - элементы абелевой группы. Характеристика конфигурации $f$ задается равенством
+
+\[
+[f]=\sum_{x \in X}[f(x)]
+\]
+
+Если $a\left(s_{1}, \ldots, s_{k}\right)$ - число элементов $y \in Y$ с заданным значением характеристики и $b_{m}\left(s_{1}, \ldots, s_{k}\right)$ - число неэквивалентных конфигураций $f \in Y^{X}$,
+
+\[
+\begin{aligned}
+F\left(y_{1}, \ldots, y_{k}\right) &amp; =\sum_{\left(s_{1}, \ldots, s_{k}\right)} a\left(s_{1}, \ldots, s_{k}\right) y_{1}^{s_{1}} \ldots y_{k}^{s_{k}}, \\
+\Phi_{m}\left(y_{1}, \ldots, y_{k}\right) &amp; =\sum_{\left(s_{1}, \ldots, s_{k}\right)} b\left(s_{1}, \ldots, s_{k}\right) y_{1}^{s_{1}} \ldots y_{k}^{s_{k}},
+\end{aligned}
+\]
+
+то основная т е о рем а $\Pi$ о й а утверждает, что
+
+\[
+\Phi_{m}\left(y_{1}, \ldots, y_{k}\right)=
+\]
+
+$=Z\left(F\left(y_{1}, \ldots, y_{k}\right), F\left(y_{1}^{2}, \ldots, y_{k}^{2}\right), \ldots, F\left(y_{1}^{m}, \ldots, y_{k}^{m}\right)\right)$,
+
+где $Z$ есть цик лическ й й и де к с г ру ппы $A$, определяемый равенством
+
+\[
+Z\left(t_{1}, \ldots, t_{m} ; A\right)=
+\]\[
+=\sum_{j_{1}+2 j_{2}+\ldots+m j_{m}=n} C\left(j_{1}, \ldots, j_{m} ; A\right) t_{1}^{j_{1}} \ldots t_{m}^{j_{m}},
+\]
+
+$C\left(j_{1}, \ldots, j_{m} ; \boldsymbol{A}\right)$ - число элементов циклового класса
+
+$\left\{1^{j_{1}} 2^{j_{2}} \ldots m^{j} m\right.$ группы $A$. Әта теорема основана на л е м м е $\mathrm{G}$ е р н с а ї д а: число классов эквивалентности $\grave{N}(A)$, определяемых на множестве $X$ группой подстановок $A$, дается формулой
+
+\[
+N(A)=\frac{1}{|A|} \sum_{\alpha \in A} j_{1}(\alpha)
+\]
+
+где $j_{1}(\alpha)$ - число единичных циклов $\alpha \in A$. Теория Пойа имеет применения при решении перечислительных задач теории графов и перечислении углеродных химических соединений. Имеется обобщение теории Пойа на случай, когда эквивалентность конфигураций определяется двумя группами $G$ и $H$, действующими на $X$ и $Y$ соответственно (см. [4] и [10]). В таком виде она применяется, напр., для определения числа неизоморфных абстрактных автоматов.
+
+Если $\quad X=\{1, \ldots, m\}, Y=\left\{a_{1}, \ldots, a_{n}\right\}$ и $\sigma: X \rightarrow Y$, где $a_{j}$ используется $\alpha_{j}$ раз в качестве образа, то выражение
+
+\[
+[\sigma]=\left|a_{1}^{\alpha_{1}} \ldots a_{n}^{\alpha_{n}}\right|, \quad \alpha_{1}+\ldots+\alpha_{n}=m,
+\]
+
+наз. п е р вич но й с пе ци ф и к аци е й $\sigma$. Если числа $\alpha_{1}, \alpha_{2}, \ldots, \alpha_{n}$ содержат $\beta_{0}$ нулей, $\beta_{1}$ единиц и т. д., то выражение
+
+\[
+\begin{gathered}
+{\left[\left[0^{\beta_{01} \beta_{1}} \ldots m^{\beta_{m}}\right]\right], \beta_{0}+\ldots+\beta_{m}=n,} \\
+\beta_{1}+2 \beta_{2}+\ldots+m \beta_{m}=m
+\end{gathered}
+\]
+
+наз. в то р ич но й с пеци и и к а ц е й. При нек-рой специализации групп $G$ и $H$, определяющих эквивалентность конфигураций $\sigma: X \rightarrow Y$, можно указать способ построения производящих функций для перечисления неэквивалентных конфигураций. Этот способ, называемый о б щ е й ко м б и на то р н о й с х е м й, подразделяется на четыре частных случая в соответствии с тем, принимают группы $G$ п $H$ значения единичной $E$ или симметрической $S_{n}$ групі соответствующих степеней. Эти частные случаи являются моделями для большинства известных комбинаторных схем (см. [9], [10]).
+
+1. Коммутативный несиммет ричны й с л у ч а й: $G=S_{m}, H=E$. Моделирует схемы сочетаний, заполнений одинаковых предметов в различные ячейки и др. Производящая функция для пере- числения неэквивалентных конфигураций $\sigma$ таких, что
+
+\[
+[\sigma]=\left[a_{1}^{\alpha_{1}} \ldots a_{n}^{\alpha_{n}}\right]
+\]
+
+$\alpha_{i} \in \Lambda_{i} \subseteq N_{0}=\{0,1, \ldots\}, \quad \Lambda=\left(\Lambda_{1}, \ldots, \Lambda_{n}\right)$,
+
+имеет вид:
+
+\[
+\Phi\left(t ; x_{1}, \ldots, x_{n} ; \Lambda\right)=\prod_{j=1}^{n} \sum_{\alpha_{j} \in \Lambda_{j}}\left(t x_{j}\right)^{\alpha_{j}} .
+\]
+
+2. Неноммутативный несимметричны й с луч а й: $G=E, H=E$. Моделирует схемы размещений, заполнений различимых предметов в различные ячейки и др. Производящая функция для перечисления неәквивалентных конфигураций $\sigma$ таких, что
+
+\[
+[\sigma]=\left[a_{1}^{\alpha_{1}} \ldots a_{n}^{\alpha_{n}}\right], \alpha_{i} \in \Lambda_{i}, \Lambda=\left(\Lambda_{1}, \ldots, \Lambda_{n}\right),
+\]
+
+имеет вид:
+
+\[
+\tilde{\Phi}\left(t ; x_{1}, \ldots, x_{n} ; \Lambda\right)=\prod_{j=1}^{n} \sum_{\alpha_{j} \in \Lambda_{j}} \frac{t^{\alpha_{j}}}{\alpha_{j} !} x_{j j}^{\alpha} .
+\]
+
+3. Коммутативный симмет ричный с л у ч а й: $G=S_{m}, H=S_{n}$. Моделирует схемы заполнения одинаковых предметов в одинаковые ячейки, перечисления разбиений натуральных чисел и др. Перечисление конфигураций $\sigma$ таких, что
+
+\[
+[[\sigma]]=\left[\left[0^{\beta_{01} \beta_{1}} \ldots m^{\beta_{m}}\right] \mid \cdot \beta_{j} \in \Lambda_{j}, \Lambda=\left(\Lambda_{1}, \Lambda_{2}, \ldots\right),\right.
+\]
+
+основано на использовании производящей функции вида:
+
+\[
+\Psi\left(t ; x_{1}, \ldots ; \Lambda\right)=\prod_{j=1}^{\infty} \sum_{\beta_{j} \in \Lambda_{j}}\left(x_{j} t^{j}\right)^{\beta} .
+\]
+
+4. Н е комм ут ат и вны й симметричный с л у ч а й: $G=E, H=S_{n}$. Моделирует схемы разбиений конечных множеств на блоки, заполнения разлпчимых предметов в одинаковые ячейки и др. Перечисление конфигураций $\sigma$ таких, что
+
+\[
+[[\sigma]]=\left[\left[0^{\beta_{01} \beta_{1}} \ldots m^{\beta} m\right], \beta_{j} \in \Lambda_{j}, \Lambda=\left(\Lambda_{1}, \Lambda_{2}, \ldots\right),\right.
+\]
+
+основано на использовании производящей функции вида:
+
+\[
+\tilde{\Psi}\left(t ; x_{1}, \ldots ; \Lambda\right)=\coprod_{j=1}^{\infty} \sum_{\beta_{j} \in \Lambda_{j}}\left(\frac{x_{j} t^{j}}{j !}\right)^{\beta_{j}} \frac{1}{\beta_{j} !} .
+\]
+
+Значительное место в $\mathcal{K}$. а. занимают асимптотические методы. Они применяются как для упрощения сложных конечных выражений при больших значениях входящих в них параметров, так и при получении приближенных формул обходными путями, когда точные формулы неизвестны. Комбинаторную задачу перечислительного характера иногда удобно сформулировать как задачу отыскания характеристик распределения нек-рой случайной величины. Такая интерпретация дает возможность применять развитый аппарат теории вероятностей, а для отыскания асимптотик - предельные теоремы. Детальному исследованию с этих позицій подвергнута классическая схема случайных размещений предметов в ячейки, случайные разбиения множеств, цикловая структура случайных подстановок, а также различные классы случайных графов, включая графы отображений (см. [8], [9]).
+
+Вероятностный подход применяется при изучении комбинаторных свойств симметрических групп и полугрупп. Исследовано предельное распределение порядка случайного элемента симметрической группы $S_{n}$ при $n \rightarrow \infty$, а также асимптотика вероятности порождения ее случайными элементами. Для нек-рых классов случайных неотрицательных матриц изучались распределения числа нулевых линий в матрице и перманентов, даны оценки вероятности примитивности таких матриц. Для доказательства существования комбинаторных конфигураций без их конструирования иногда используется нек-рый специфический вероятностный прием. Сущность этого приема заключается в установлении существования конфигурации без ее конструирования с помощью оценки вероятности нек-рого события (см. [7]).
+
+Лит.: [1] Р и о р д а н П ж., Введение в комбинаторный анализ, пер. с англ., М., 1963; [2] Р а й з е p Г.-Д ж., Комбинаторная математика, пер. с англ., M., 1966 ; [3] Х о л л M.,
+Комбинаторика, пер. с англ., М., 1970; [4] Прикладная комбиКомбинаторика, пер. с англ., М., 1970; [4] Прикладная комби-
+наторная математика, сб. статей, пер. с англ., M. 1968; [5] X а p a p и Ф., Теория графов, пер. с англ., М., 1973; [6] X ap a p и Ф. П а л м е p Э., Перечисление графов, пер. с англ., методы в комбинаторике, пер. с англ., М., 1976; [8] К о л ч и н В. Ф., Ч и с т я к о в В. П., В кн.: Итоги науки и техники. Теория вероятностей. Математическая статистика. Тео-
+ретическая кибернетика, т. 11, М., 1974, с. $5-45 ;$ [9] С а чретическая кибернетика, т. 11, М., 1974, с. 5-45; [9] С a ч-
+к о в В. Н., в кн.: Вопросы кибернетики. Тр. семинара по комбинаторной математике, М., 1973, с. 146-64; [10] е г о ж е, Комбинаторные методы дискретной математики, М., 1977.'</text_orig>
+</article>

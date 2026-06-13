@@ -1,0 +1,947 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/846_NAIMENYІІIH" alphabetic_pos="846">
+  <title>НАИМЕНЫІІИХ КВАДРАТОВ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>439</start>
+    <end>442</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] М а р к о в А. А., Исчисление вероятностей, 4 изд., М., 1924; [2] К о л м о г о р о в А. Н., &quot;успехи матем. наукл, 1946 , т. 1 , в. 1 , с. $57-70$; [3] Л и н ни к Ю. В., Метод наименыших квадратов и основы математико-статистической теории обработии наблюдений, 2 изд., М., $1962 ;[4]$ Н а лілизе вещества, M., 1960 ; [5] He $1 \mathrm{~m}$ e r t F. R., Die Ausgleichungsrechnung nach der Methode der kleinsten Quadrate, 3 Aufl.,</literature_orig>
+    <unit>
+      <author>Марков А. А.</author>
+      <title>Исчисление вероятностей</title>
+      <publication>4 изд., М.</publication>
+      <year>1924</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Колмогоров А. Н.</author>
+      <title>&quot;успехи матем. наукл</title>
+      <publication/>
+      <year>1946</year>
+      <other>т. 1, в. 1, с. $57-70$</other>
+    </unit>
+    <unit>
+      <author>Линник Ю. В.</author>
+      <title>Метод наименыших квадратов и основы математико-статистической теории обработии наблюдений</title>
+      <publication>2 изд., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>$ Н а лілизе вещества</title>
+      <publication>M.</publication>
+      <year>1960</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>He$1\mathrm{~m}$ert F. R.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Die Ausgleichungsrechnung nach der Methode der kleinsten Quadrate, 3 Aufl.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/846_1_NAIMENYІІIH">p(x ; \mu, \sigma)=\frac{1}{\sqrt{2 \pi} \sigma} \exp \left\{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_2_NAIMENYІІIH">S(X)=\sum_{i=1}^{n} p_{i}\left(X-Y_{i}\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_3_NAIMENYІІIH">p_{i}=k / \sigma_{i}^{2} \text { и } \sigma_{i}^{2}=\mathrm{D}_{i}=\mathrm{E}_{i}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_4_NAIMENYІІIH">\boldsymbol{X}=\overline{\boldsymbol{Y}}=\frac{1}{\boldsymbol{P}} \sum p_{i} Y_{i}, \text { где } \boldsymbol{P}=\sum p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_5_NAIMENYІІIH">\bar{Y}=\frac{1}{n} \sum Y_{i} \text { и } \mathrm{D} \bar{Y}=\sigma^{2} / n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_6_NAIMENYІІIH">I(t)=\frac{2}{\sqrt{2 \pi}} \int_{0}^{t} e^{-u^{2} / 2} d u</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_7_NAIMENYІІIH">k \approx S(\bar{Y}) /(n-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_8_NAIMENYІІIH">\mathrm{D} \bar{Y}=k / P \approx s^{2}=S(\bar{Y}) /[(n-1) P]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_9_NAIMENYІІIH">I_{n-1}(t)=C_{n-1} \int_{0}^{t}\left(1+\frac{v^{2}}{n-1}\right)^{-n / 2} d v,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_10_NAIMENYІІIH">t s=t \sqrt{\sum n_{i}\left(Y_{i}-\bar{Y}\right)^{2} / 90}=2,262 \cdot 0,0048=0,011 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_11_NAIMENYІІIH">Y_{i}=\sum_{j=1}^{m} a_{i j} x_{j}+\delta_{i}, i=1,2, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_12_NAIMENYІІIH">\mu=x_{1} \text { и } m=a_{i 1}=1 ; i=1,2, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_13_NAIMENYІІIH">y_{i}=\sum_{j=1}^{m} a_{i j} x_{j}, \quad i=1,2, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_14_NAIMENYІІIH">Y_{i}=\sum_{j=1}^{m} a_{i j} x_{j}, \quad i=1,2, \ldots, n .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_15_NAIMENYІІIH">S=\sum_{i=1}^{n} p_{i}\left(Y_{i}-\sum_{j=1}^{m} a_{i j} X_{j}\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_16_NAIMENYІІIH">\Delta_{i}=Y_{i}-\sum_{j=1}^{m} a_{i j} X_{j}, \quad i=1,2, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_17_NAIMENYІІIH">\frac{\partial S}{\partial X_{j}}=-2 \sum_{i=1}^{n} p_{i} \Delta_{i}=0, \quad j=1,2, \ldots, m .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_18_NAIMENYІІIH">\left[p a_{j} a_{l}\right]=\sum_{i=1}^{n} p_{i} a_{i j} a_{i l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_19_NAIMENYІІIH">\left[p Y a_{l}\right]=\sum_{i=1}^{n} p_{i} Y_{i} a_{i l} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_20_NAIMENYІІIH">k \approx S /(n-m) \text { и } \mathrm{D} X_{j} \approx s_{j}^{2}=S d_{j j} / d(n-m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_21_NAIMENYІІIH">\mathrm{E} Y_{i}=(\alpha+\beta \bar{t})+\beta\left(t_{i}-\bar{t}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_22_NAIMENYІІIH">\bar{t}=\frac{1}{10} \sum_{i=1}^{10} t_{i}=23,25 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_23_NAIMENYІІIH">Y_{i}=x_{1}+x_{2}\left(t_{i}-\bar{t}\right), \quad i=1,2, \ldots, 10,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_24_NAIMENYІІIH">\left[a_{1} a_{1}\right] X_{1}=\left[Y a_{1}\right] ;\left[a_{2} a_{2}\right] X_{2}=\left[Y a_{2}\right] \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_25_NAIMENYІІIH">\begin{gathered}{\left[a_{1} a_{1}\right]=10,\left[a_{2} a_{2}\right]=\sum\left(t_{i}-\bar{t}\right)^{2}=1569,} \\{\left[Y a_{1}\right]=\sum Y_{i}=-3,5,} \\{\left[Y a_{2}\right]=\sum Y_{i}\left(t_{i}-\bar{t}\right)=-8,225 .}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_26_NAIMENYІІIH">\mathrm{D} X_{1}=\frac{k}{\left[a_{1} a_{1}\right]}=\frac{k}{10} \quad \text { и } \quad \mathrm{D} X_{2}=\frac{k}{\left[a_{2} a_{2}\right]}=\frac{k}{1569},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_27_NAIMENYІІIH">\begin{gathered}k \approx S /(n-m)= \\=\frac{1}{8} \sum_{i=1}^{10}\left[Y_{i}-X_{1}-X_{2}\left(t_{i}-\bar{t}\right)\right]^{2}=0,0427, \\\mathrm{D} X_{1} \approx s_{1}^{2}=0,00427, \mathrm{D} X_{2} \approx s_{2}^{2}=0,000272, \\s_{1}=0,065, \quad s_{2}=0,00522 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_28_NAIMENYІІIH">S=\sum_{i=1}^{n} p_{i}\left[Y_{i}-f_{i}\left(X_{1}, X_{2}, \ldots, X_{m}\right)\right]^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/846_29_NAIMENYІІIH">Y_{i}-\left(f_{i}\right)_{0}=\sum_{j=1}^{m}\left(\frac{\partial f_{i}}{\partial x_{j}}\right)_{0} \xi_{j}, i=1,2, \ldots, n,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_1_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_2_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_3_NAIMENYІІIH">(x-\mu)^{2} ; \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_4_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_5_NAIMENYІІIH">\mathrm{e}(x-\mu)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_6_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_7_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_8_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_9_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_10_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_11_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_12_NAIMENYІІIH">x=\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_13_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_14_NAIMENYІІIH">\mu »)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_15_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_16_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_17_NAIMENYІІIH">y_{1}, Y_{2}, \ldots, Y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_18_NAIMENYІІIH">y_{1}=\mu+\delta_{1}, Y_{2}=\mu+\delta_{2}, \ldots, Y_{n}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_19_NAIMENYІІIH">=\mu+\delta_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_20_NAIMENYІІIH">\delta_{1}, \delta_{2}, \ldots, \delta_{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_21_NAIMENYІІIH">\mathrm{e} \delta_{i}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_22_NAIMENYІІIH">=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_23_NAIMENYІІIH">\mathrm{e} \delta_{i} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_24_NAIMENYІІIH">\mathrm{e} \delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_25_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_26_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_27_NAIMENYІІIH">k&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_28_NAIMENYІІIH">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_29_NAIMENYІІIH">\sigma_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_30_NAIMENYІІIH">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_31_NAIMENYІІIH">\sigma_{1}=\sigma_{2}=\ldots=\sigma_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_32_NAIMENYІІIH">p_{1}=p_{2}=\ldots=p_{n}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_33_NAIMENYІІIH">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_34_NAIMENYІІIH">n_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_35_NAIMENYІІIH">p_{i}=n_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_36_NAIMENYІІIH">s(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_37_NAIMENYІІIH">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_38_NAIMENYІІIH">\bar{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_39_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_40_NAIMENYІІIH">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_41_NAIMENYІІIH">d \bar{Y}=k / P</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_42_NAIMENYІІIH">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_43_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_44_NAIMENYІІIH">\bar{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_45_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_46_NAIMENYІІIH">k / P</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_47_NAIMENYІІIH">\mu \approx \bar{Y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_48_NAIMENYІІIH">t \sqrt{k / P}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_49_NAIMENYІІIH">i(1,96)=0,950 ; I(2,58)=0,990 ; I(3,00)=0,997)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_50_NAIMENYІІIH">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_51_NAIMENYІІIH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_52_NAIMENYІІIH">\bar{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_53_NAIMENYІІIH">\delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_54_NAIMENYІІIH">\mu \approx \bar{Y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_55_NAIMENYІІIH">t s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_56_NAIMENYІІIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_57_NAIMENYІІIH">c_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_58_NAIMENYІІIH">i_{n-1}(\infty)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_59_NAIMENYІІIH">(</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_60_NAIMENYІІIH">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_61_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_62_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_63_NAIMENYІІIH">i=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_64_NAIMENYІІIH">=0,99</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_65_NAIMENYІІIH">t=2,58</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_66_NAIMENYІІIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_67_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_68_NAIMENYІІIH">i_{n-1}(t)=0,99</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_69_NAIMENYІІIH">n \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_70_NAIMENYІІIH">t \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_71_NAIMENYІІIH">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_72_NAIMENYІІIH">)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_73_NAIMENYІІIH">\boldsymbol{y}_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_74_NAIMENYІІIH">\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_75_NAIMENYІІIH">n_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_76_NAIMENYІІIH">\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_77_NAIMENYІІIH">n_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_78_NAIMENYІІIH">\left.Y_{i} ; n=\Sigma n_{i}=10\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_79_NAIMENYІІIH">p_{i}=n_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_80_NAIMENYІІIH">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_81_NAIMENYІІIH">y=\sigma n_{i} Y_{i} / \Sigma n_{i}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_82_NAIMENYІІIH">=18,431</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_83_NAIMENYІІIH">i_{9}=0,95</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_84_NAIMENYІІIH">t=2,262</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_85_NAIMENYІІIH">\mu \approx 18,431</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_86_NAIMENYІІIH">18,420&lt;\mu&lt;18,422</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_87_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_88_NAIMENYІІIH">y_{1}, Y_{2}, \ldots, Y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_89_NAIMENYІІIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_90_NAIMENYІІIH">x_{1}, x_{2}, \ldots, x_{m}(m&lt;n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_91_NAIMENYІІIH">a_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_92_NAIMENYІІIH">\delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_93_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_94_NAIMENYІІIH">\mathrm{e} \delta_{i}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_95_NAIMENYІІIH">y_{i}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_96_NAIMENYІІIH">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_97_NAIMENYІІIH">x_{1}, x_{2}, \ldots, x_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_98_NAIMENYІІIH">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_99_NAIMENYІІIH">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_100_NAIMENYІІIH">\delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_101_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_102_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_103_NAIMENYІІIH">p_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_104_NAIMENYІІIH">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_105_NAIMENYІІIH">\delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_106_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_107_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_108_NAIMENYІІIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_109_NAIMENYІІIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_110_NAIMENYІІIH">x_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_111_NAIMENYІІIH">x_{1}, X_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_112_NAIMENYІІIH">x_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_113_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_114_NAIMENYІІIH">\sum_{j=1}^{m}\left[p a_{j} a_{l}\right] X_{j}=\left[p Y a_{l}\right], \quad l=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_115_NAIMENYІІIH">\left(\mathrm{e} X_{j}=x_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_116_NAIMENYІІIH">\mathrm{d} \boldsymbol{X}_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_117_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_118_NAIMENYІІIH">k d_{j j} / d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_119_NAIMENYІІIH">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_120_NAIMENYІІIH">d_{j j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_121_NAIMENYІІIH">\left.a_{j} a_{j}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_122_NAIMENYІІIH">d_{j j} / d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_123_NAIMENYІІIH">\left.X_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_124_NAIMENYІІIH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_125_NAIMENYІІIH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_126_NAIMENYІІIH">\mathrm{d} X_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_127_NAIMENYІІIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_128_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_129_NAIMENYІІIH">x_{j} \approx X_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_130_NAIMENYІІIH">t s_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_131_NAIMENYІІIH">\delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_132_NAIMENYІІIH">\left(x_{j}-x_{j}\right) / s_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_133_NAIMENYІІIH">n-m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_134_NAIMENYІІIH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_135_NAIMENYІІIH">x_{1}, X_{2}, \ldots, X_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_136_NAIMENYІІIH">\mathrm{d} X_{j} \approx s_{j}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_137_NAIMENYІІIH">\boldsymbol{x}_{\boldsymbol{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_138_NAIMENYІІIH">\boldsymbol{y}_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_139_NAIMENYІІIH">a_{i j}=a_{j}\left(t_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_140_NAIMENYІІIH">\boldsymbol{a}_{j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_141_NAIMENYІІIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_142_NAIMENYІІIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_143_NAIMENYІІIH">t_{1}, t_{2}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_144_NAIMENYІІIH">a_{j}(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_145_NAIMENYІІIH">\left.a_{1}(t)-1, \quad a_{2}(t)=t, \quad a_{3}(t)=t^{2}, \ldots\right) ; \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_146_NAIMENYІІIH">t_{2}-t_{1}=t_{3}-t_{2}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_147_NAIMENYІІIH">=\ldots=t_{n}-t_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_148_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_149_NAIMENYІІIH">a_{j}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_150_NAIMENYІІIH">a_{j}(t)=\cos (j-1) t, j=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_151_NAIMENYІІIH">2, \ldots, m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_152_NAIMENYІІIH">\mathrm{cao}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_153_NAIMENYІІIH">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_154_NAIMENYІІIH">t_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_155_NAIMENYІІIH">\mathrm{cao}, T_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_156_NAIMENYІІIH">\mathrm{cao}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_157_NAIMENYІІIH">y_{i}=t_{i}-t_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_158_NAIMENYІІIH">-0,3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_159_NAIMENYІІIH">-0,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_160_NAIMENYІІIH">-0,4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_161_NAIMENYІІIH">-0,4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_162_NAIMENYІІIH">-0,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_163_NAIMENYІІIH">-0,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_164_NAIMENYІІIH">+0,1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_165_NAIMENYІІIH">-0,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_166_NAIMENYІІIH">-0,6</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_167_NAIMENYІІIH">-0,5</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_168_NAIMENYІІIH">\mathrm{e} Y_{i}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_169_NAIMENYІІIH">\mathrm{e} Y_{i}=\alpha+\beta t_{i}(\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_170_NAIMENYІІIH">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_171_NAIMENYІІIH">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_172_NAIMENYІІIH">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_173_NAIMENYІІIH">x_{1}=\alpha+\bar{\beta} \bar{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_174_NAIMENYІІIH">x_{2}=\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_175_NAIMENYІІIH">a_{i 1}=1, a_{i 2}=t_{i}-\bar{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_176_NAIMENYІІIH">\left.p_{i}=1\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_177_NAIMENYІІIH">\left[a_{1} a_{2}\right]=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_178_NAIMENYІІIH">=\left[a_{2} a_{1}\right]=\Sigma\left(t_{i}-\bar{t}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_179_NAIMENYІІIH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_180_NAIMENYІІIH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_181_NAIMENYІІIH">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_182_NAIMENYІІIH">x_{1}=-0,35</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_183_NAIMENYІІIH">x_{2}=-0,00524</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_184_NAIMENYІІIH">\left|x_{j}-x_{j}\right| / s_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_185_NAIMENYІІIH">j=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_186_NAIMENYІІIH">x_{1}=x_{1}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_187_NAIMENYІІIH">\left|x_{1}\right| ! s_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_188_NAIMENYІІIH">\left|x_{2}\right| / s_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_189_NAIMENYІІIH">n-m=8</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_190_NAIMENYІІIH">x_{1}=x_{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_191_NAIMENYІІIH">\left|x_{1}\right| / s_{1}=5,38&gt;5,04</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_192_NAIMENYІІIH">\left(x_{2}=0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_193_NAIMENYІІIH">\left|x_{2}\right| / s_{2}=1,004&lt;2,31</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_194_NAIMENYІІIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_195_NAIMENYІІIH">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_196_NAIMENYІІIH">t=t+0,35</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_197_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_198_NAIMENYІІIH">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_199_NAIMENYІІIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_200_NAIMENYІІIH">x_{j}(m&lt;n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_201_NAIMENYІІIH">y_{i}=f_{i}\left(x_{1}, x_{2}, \ldots, x_{m}\right)+\delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_202_NAIMENYІІIH">i=1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_203_NAIMENYІІIH">\delta_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_204_NAIMENYІІIH">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_205_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_206_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_207_NAIMENYІІIH">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_208_NAIMENYІІIH">\partial S / \partial X_{j}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_209_NAIMENYІІIH">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_210_NAIMENYІІIH">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_211_NAIMENYІІIH">b=h /\left(x_{1}+H x_{2}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_212_NAIMENYІІIH">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_213_NAIMENYІІIH">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_214_NAIMENYІІIH">b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_215_NAIMENYІІIH">h_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_216_NAIMENYІІIH">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_217_NAIMENYІІIH">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_218_NAIMENYІІIH">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_219_NAIMENYІІIH">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_220_NAIMENYІІIH">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_221_NAIMENYІІIH">x_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_222_NAIMENYІІIH">x_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_223_NAIMENYІІIH">b_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_224_NAIMENYІІIH">\mathrm{d}(1 / B) \approx</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_225_NAIMENYІІIH">\approx B^{-4}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_226_NAIMENYІІIH">1 / B_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_227_NAIMENYІІIH">\left(1 / B_{i}\right)^{4}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_228_NAIMENYІІIH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_229_NAIMENYІІIH">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_230_NAIMENYІІIH">x_{1}^{0}, X_{2}^{0}, \ldots, X_{m}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_231_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_232_NAIMENYІІIH">\xi_{j}=x_{j}-X_{j}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_233_NAIMENYІІIH">y_{i}=f_{i}\left(x_{1}^{0}+\xi_{1}, X_{2}^{0}+\xi_{2}, \ldots, X_{m}^{0}+\xi_{m}\right), i=1,2, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_234_NAIMENYІІIH">\xi_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_235_NAIMENYІІIH">\left(f_{i}\right)_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_236_NAIMENYІІIH">\left(\frac{\partial f_{i}}{\partial x_{j}}\right)_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_237_NAIMENYІІIH">f_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_238_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_239_NAIMENYІІIH">x_{1}=x_{1}^{0}, x_{2}=X_{2}^{0}, \ldots, x_{m}=X_{m}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_240_NAIMENYІІIH">\xi_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_241_NAIMENYІІIH">\xi_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_242_NAIMENYІІIH">x_{j}^{1}=x_{j}^{0}+\xi_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_243_NAIMENYІІIH">x_{i}^{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_244_NAIMENYІІIH">\delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_245_NAIMENYІІIH">d \delta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_246_NAIMENYІІIH">x_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/846_247_NAIMENYІІIH">\sqrt{\overline{\mathrm{d} X_{j}}}</formula>
+  </formulas_aux>
+  <relations n="37">
+    <relation uri="http://libmeta.ru/me/relation/846_1_NAIMENYІІIH">
+      <rel_text>Несмешенная оценка</rel_text>
+      <target>http://libmeta.ru/me/article/987_NESMEShENNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_2_NAIMENYІІIH">
+      <rel_text>параметров</rel_text>
+      <target>http://libmeta.ru/me/article/165_PARABOLOI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_3_NAIMENYІІIH">
+      <rel_text>связей</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_4_NAIMENYІІIH">
+      <rel_text>сложных</rel_text>
+      <target>http://libmeta.ru/me/article/1403_SLOZhENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_5_NAIMENYІІIH">
+      <rel_text>приближение</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_6_NAIMENYІІIH">
+      <rel_text>приближения</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_7_NAIMENYІІIH">
+      <rel_text>операцию</rel_text>
+      <target>http://libmeta.ru/me/article/15_OPERAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_8_NAIMENYІІIH">
+      <rel_text>приближение</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_9_NAIMENYІІIH">
+      <rel_text>приближение</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_10_NAIMENYІІIH">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_11_NAIMENYІІIH">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_12_NAIMENYІІIH">
+      <rel_text>система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_13_NAIMENYІІIH">
+      <rel_text>производных</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_14_NAIMENYІІIH">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_15_NAIMENYІІIH">
+      <rel_text>получают</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_16_NAIMENYІІIH">
+      <rel_text>степеням</rel_text>
+      <target>http://libmeta.ru/me/article/213_STEPEN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_17_NAIMENYІІIH">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_18_NAIMENYІІIH">
+      <rel_text>систему</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_19_NAIMENYІІIH">
+      <rel_text>приближение</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_20_NAIMENYІІIH">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_21_NAIMENYІІIH">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_22_NAIMENYІІIH">
+      <rel_text>нелинейные уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/915_NELINEINOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_23_NAIMENYІІIH">
+      <rel_text>измеряемых</rel_text>
+      <target>http://libmeta.ru/me/article/502_IZMEL'ChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_24_NAIMENYІІIH">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_25_NAIMENYІІIH">
+      <rel_text>измеренным</rel_text>
+      <target>http://libmeta.ru/me/article/502_IZMEL'ChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_26_NAIMENYІІIH">
+      <rel_text>формулой</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_27_NAIMENYІІIH">
+      <rel_text>связана</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_28_NAIMENYІІIH">
+      <rel_text>напряженность</rel_text>
+      <target>http://libmeta.ru/me/article/859_NAPRAVLENNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_29_NAIMENYІІIH">
+      <rel_text>представлять</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_30_NAIMENYІІIH">
+      <rel_text>нормальных уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/1063_NORMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_31_NAIMENYІІIH">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_32_NAIMENYІІIH">
+      <rel_text>квадратов</rel_text>
+      <target>http://libmeta.ru/me/article/796_KVADRAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_33_NAIMENYІІIH">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_34_NAIMENYІІIH">
+      <rel_text>независимые случайные</rel_text>
+      <target>http://libmeta.ru/me/article/14_SLUChAJNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_35_NAIMENYІІIH">
+      <rel_text>связаны</rel_text>
+      <target>http://libmeta.ru/me/article/1222_SVJaZK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_36_NAIMENYІІIH">
+      <rel_text>результатов</rel_text>
+      <target>http://libmeta.ru/me/article/1046_REZUL'TAN</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/846_37_NAIMENYІІIH">
+      <rel_text>луч</rel_text>
+      <target>http://libmeta.ru/me/article/491_LU</target>
+    </relation>
+  </relations>
+  <text>А. Бухитаб. методов ошибок теории для оценки неизвестных величин по результатам измерений, содержащим случайные ошибки. Н. к. м. применяется также для приближенного представления заданной функции другими (более простыми) функциями и часто оказывается полезным при обработке наблюдений. Н. к. м. предложен К. Гауссом (c. Gauss, 1794-95) и А. Лежандром (a. Legendre, 1805-06). Строгое обоснование и установление границ содержательной применимости Н. к. м. даны А. А. Марковым и А. Н. Колмогоровым. В простейшем случае линейных связей (см. ниже) и наблюдений, не содержащих систематич. ошибок, а подверженных лишь случайным ошибкам, оценки неизвестных величин, полученные с помоцью Н. к. м., являются линейными функциями от наблюденных значений. Эти оценки не имеют систематич. ошибок, т. е. являются несмещенными (см. URI[[http://libmeta.ru/me/relation/846_1_NAIMENYІІIH]]/URI). Если случайные ошибки наблюдений независимы и подчиняются нормальному распределению, то Н. к. м. дает оценки неизвестных с наименьшей дисперсией, т. е. эти оценки являются әффективными (см. Статистическое оценивание). В этом смысле Н. к. м. является наилучшим среди всех остальных методов, позволяющих находить несмещенные оценки. Однако если распределение случайных ошибок существенно отличается от нормального, то Н. к. м. может и не быть наилучшим. При обосновании Н. к. м. (по Гауссу) предполагается, что &quot;убыток&quot; от замены точного (неизвестного) значения нек-рой величины $URI[[http://libmeta.ru/me/formula/aux/846_1_NAIMENYІІIH]]/URI$ ее приближенным значением $URI[[http://libmeta.ru/me/formula/aux/846_2_NAIMENYІІIH]]/URI$, вычисленным по результатам наблюдений, пропорционален квадрату ошибки $URI[[http://libmeta.ru/me/formula/aux/846_3_NAIMENYІІIH]]/URI$ оптимальной оценкой считается такая лишенная систематич. ошибки величина $URI[[http://libmeta.ru/me/formula/aux/846_4_NAIMENYІІIH]]/URI$, для к-рой среднее значение $URI[[http://libmeta.ru/me/formula/aux/846_5_NAIMENYІІIH]]/URI$ &quot;убытка&quot; минимально. Именно это требование и составляет основу Н. к. М. В общем случае отыскание оптимальной в смысле Н. к. м. оценки $URI[[http://libmeta.ru/me/formula/aux/846_6_NAIMENYІІIH]]/URI$ - задача весьма сложная, поэтому практически эту задачу сужают и в качестве $URI[[http://libmeta.ru/me/formula/aux/846_7_NAIMENYІІIH]]/URI$ выбирают линейную функцию от результатов наблюдений, лишенную систематич. ошибки, и такую, для к-рой среднее значение убытка минимально в классе всех линейных функций. Если случайные ошибки наблюдений подчиняются нормальному распределению и оцениваемая величина $URI[[http://libmeta.ru/me/formula/aux/846_8_NAIMENYІІIH]]/URI$ зависит от средних значений результатов наблюдений линейно (случай, весьма часто встречающийся в приложениях Н. к. м.), то решение этой задачи будет одновременно являться и решением общей задачи. При этом оптимальная оценка $URI[[http://libmeta.ru/me/formula/aux/846_9_NAIMENYІІIH]]/URI$ также подчиняется нормальному распределению со средним значением $URI[[http://libmeta.ru/me/formula/aux/846_10_NAIMENYІІIH]]/URI$ и, следовательно, плотность вероятности случайной величины $URI[[http://libmeta.ru/me/formula/aux/846_11_NAIMENYІІIH]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_1_NAIMENYІІIH]]/URI
+\]
+
+достигает максимума в точке $URI[[http://libmeta.ru/me/formula/aux/846_12_NAIMENYІІIH]]/URI$ (это свойство и выражает точное содержание распространенного в теории ошибок утверждения: «оценка $URI[[http://libmeta.ru/me/formula/aux/846_13_NAIMENYІІIH]]/URI$, вычисленная согласно Н. к. м., - наиболее вероятное значение неизвестного параметра $URI[[http://libmeta.ru/me/formula/aux/846_14_NAIMENYІІIH]]/URI$.
+
+С луч а й одного неизвестного. Пусть для оценги значения неизвестной величины $URI[[http://libmeta.ru/me/formula/aux/846_15_NAIMENYІІIH]]/URI$ произведено $URI[[http://libmeta.ru/me/formula/aux/846_16_NAIMENYІІIH]]/URI$ независимых наблюдений, давших результаты $URI[[http://libmeta.ru/me/formula/aux/846_17_NAIMENYІІIH]]/URI$, т. e. $URI[[http://libmeta.ru/me/formula/aux/846_18_NAIMENYІІIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/846_19_NAIMENYІІIH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/846_20_NAIMENYІІIH]]/URI$ случайные ошибки (по
+определению, принятому влассич. теории ошибок, с л уч а й ны е о ши б к и-независимые случайные величины с нулевым математич. ожиданием: $URI[[http://libmeta.ru/me/formula/aux/846_21_NAIMENYІІIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/846_22_NAIMENYІІIH]]/URI$; если же $URI[[http://libmeta.ru/me/formula/aux/846_23_NAIMENYІІIH]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/846_24_NAIMENYІІIH]]/URI$ наз. с и с т е м а т и ч ес к и м и о ши б к а и). Согласно Н. к. м. в качестве оценки величины $URI[[http://libmeta.ru/me/formula/aux/846_25_NAIMENYІІIH]]/URI$ принимают такое $URI[[http://libmeta.ru/me/formula/aux/846_26_NAIMENYІІIH]]/URI$, для к-рого будет наименьшей сумма квадратов (отсюда и само название метода):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_2_NAIMENYІІIH]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_3_NAIMENYІІIH]]/URI
+\]
+
+(коәффициент $URI[[http://libmeta.ru/me/formula/aux/846_27_NAIMENYІІIH]]/URI$ можно выбирать произвольно). Величину $URI[[http://libmeta.ru/me/formula/aux/846_28_NAIMENYІІIH]]/URI$ наз. в е с о м, а $URI[[http://libmeta.ru/me/formula/aux/846_29_NAIMENYІІIH]]/URI$ к в а д р а т и ч ным о т к л о н н и е м измерения с номером $URI[[http://libmeta.ru/me/formula/aux/846_30_NAIMENYІІIH]]/URI$. В частности, если все измерения равноточны, то $URI[[http://libmeta.ru/me/formula/aux/846_31_NAIMENYІІIH]]/URI$, и в этом случае можно положить $URI[[http://libmeta.ru/me/formula/aux/846_32_NAIMENYІІIH]]/URI$; если же каждое $URI[[http://libmeta.ru/me/formula/aux/846_33_NAIMENYІІIH]]/URI$ - арифметич. среднее из $URI[[http://libmeta.ru/me/formula/aux/846_34_NAIMENYІІIH]]/URI$ равноточных измерений, то полагают $URI[[http://libmeta.ru/me/formula/aux/846_35_NAIMENYІІIH]]/URI$.
+
+Сумма $URI[[http://libmeta.ru/me/formula/aux/846_36_NAIMENYІІIH]]/URI$ будет наименьшей, если в качестве $URI[[http://libmeta.ru/me/formula/aux/846_37_NAIMENYІІIH]]/URI$ выбрать взвешенное среднее:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_4_NAIMENYІІIH]]/URI
+\]
+
+Оценка $URI[[http://libmeta.ru/me/formula/aux/846_38_NAIMENYІІIH]]/URI$ величины $URI[[http://libmeta.ru/me/formula/aux/846_39_NAIMENYІІIH]]/URI$ лишена систематич. ошибки, имеет вес $URI[[http://libmeta.ru/me/formula/aux/846_40_NAIMENYІІIH]]/URI$ и дисперсию $URI[[http://libmeta.ru/me/formula/aux/846_41_NAIMENYІІIH]]/URI$. В частности, если все измерения равноточны, то $URI[[http://libmeta.ru/me/formula/aux/846_42_NAIMENYІІIH]]/URI$ - арифметич. среднее результатов измерений:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_5_NAIMENYІІIH]]/URI
+\]
+
+При нек-рых общих предположениях можно показать, что если количество наблюдений $URI[[http://libmeta.ru/me/formula/aux/846_43_NAIMENYІІIH]]/URI$ достаточно велико, то распределение оценки $URI[[http://libmeta.ru/me/formula/aux/846_44_NAIMENYІІIH]]/URI$ мало отличается от нормального с математич. ожиданием $URI[[http://libmeta.ru/me/formula/aux/846_45_NAIMENYІІIH]]/URI$ и дисперсией $URI[[http://libmeta.ru/me/formula/aux/846_46_NAIMENYІІIH]]/URI$. В этом случае абсолютная погрешность приближенного равенства $URI[[http://libmeta.ru/me/formula/aux/846_47_NAIMENYІІIH]]/URI$ меньше $URI[[http://libmeta.ru/me/formula/aux/846_48_NAIMENYІІIH]]/URI$ с вероятностью, близкой к значению интеграла
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_6_NAIMENYІІIH]]/URI
+\]
+
+(напр., $URI[[http://libmeta.ru/me/formula/aux/846_49_NAIMENYІІIH]]/URI$.
+
+Если веса измерений $URI[[http://libmeta.ru/me/formula/aux/846_50_NAIMENYІІIH]]/URI$ заданы, а множитель $URI[[http://libmeta.ru/me/formula/aux/846_51_NAIMENYІІIH]]/URI$ до наблюдений остается неопределенным, то этот множитель и дисперсия оценки $URI[[http://libmeta.ru/me/formula/aux/846_52_NAIMENYІІIH]]/URI$ могут быть оценены по формулам:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_7_NAIMENYІІIH]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_8_NAIMENYІІIH]]/URI
+\]
+
+(обе оценки лишены систематич. ошибок).
+
+В том практически важном случае, когда ошибки $URI[[http://libmeta.ru/me/formula/aux/846_53_NAIMENYІІIH]]/URI$ подчиняются нормальному распределению, можно найти точное значение вероятности, с к-рой абсолютная погрешность приближенного равенства $URI[[http://libmeta.ru/me/formula/aux/846_54_NAIMENYІІIH]]/URI$ окажется меньше $URI[[http://libmeta.ru/me/formula/aux/846_55_NAIMENYІІIH]]/URI$ ( $URI[[http://libmeta.ru/me/formula/aux/846_56_NAIMENYІІIH]]/URI$ - произвольное положительное число):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_9_NAIMENYІІIH]]/URI
+\]
+
+где постоянная $URI[[http://libmeta.ru/me/formula/aux/846_57_NAIMENYІІIH]]/URI$ выбрана таким образом, чтобы выполнялось условие $URI[[http://libmeta.ru/me/formula/aux/846_58_NAIMENYІІIH]]/URI$ ( $URI[[http://libmeta.ru/me/formula/aux/846_59_NAIMENYІІIH]]/URI$ тьюдента pacnpeделение с $URI[[http://libmeta.ru/me/formula/aux/846_60_NAIMENYІІIH]]/URI$ степенями свободы). При больших $URI[[http://libmeta.ru/me/formula/aux/846_61_NAIMENYІІIH]]/URI$ формулу (2) можно заменить формулой (1). Однако применение формулы (1) при небольших $URI[[http://libmeta.ru/me/formula/aux/846_62_NAIMENYІІIH]]/URI$ привело бы к грубым ошибкам. Так, напр., согласно (1) значению $URI[[http://libmeta.ru/me/formula/aux/846_63_NAIMENYІІIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/846_64_NAIMENYІІIH]]/URI$ соответствует $URI[[http://libmeta.ru/me/formula/aux/846_65_NAIMENYІІIH]]/URI$; истинные значения $URI[[http://libmeta.ru/me/formula/aux/846_66_NAIMENYІІIH]]/URI$, определяемые при малых $URI[[http://libmeta.ru/me/formula/aux/846_67_NAIMENYІІIH]]/URI$ как решения соответствующих уравнений $URI[[http://libmeta.ru/me/formula/aux/846_68_NAIMENYІІIH]]/URI$, приведены в таблице:
+
+\begin{tabular}{c|c|c|c|c|c|c|c}
+\hline$URI[[http://libmeta.ru/me/formula/aux/846_69_NAIMENYІІIH]]/URI$. &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 10 &amp; 20 &amp; 30 \\
+$URI[[http://libmeta.ru/me/formula/aux/846_70_NAIMENYІІIH]]/URI$ &amp; 63,66 &amp; 9,92 &amp; 5,84 &amp; 4,60 &amp; 3,25 &amp; 2,86 &amp; 2,76 \\
+\hline
+\end{tabular}
+
+П р и м е р. Для определения массы нек-рого тела произведено 10 независимых равноточных взвешиваний, давших результаты $URI[[http://libmeta.ru/me/formula/aux/846_71_NAIMENYІІIH]]/URI$ (в 2$URI[[http://libmeta.ru/me/formula/aux/846_72_NAIMENYІІIH]]/URI$ :
+
+\begin{tabular}{cc|c|c|c|c|c|c}
+\hline $URI[[http://libmeta.ru/me/formula/aux/846_73_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_74_NAIMENYІІIH]]/URI$ &amp; 18,41 &amp; 18,42 &amp; 18,43 &amp; 18,44 &amp; 18,45 &amp; 18,46 \\
+$URI[[http://libmeta.ru/me/formula/aux/846_75_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_76_NAIMENYІІIH]]/URI$ &amp; 1 &amp; 3 &amp; 3 &amp; 1 &amp; 1 &amp; 1 \\
+\hline
+\end{tabular}
+
+(здесь $URI[[http://libmeta.ru/me/formula/aux/846_77_NAIMENYІІIH]]/URI$ - число случаев, в к-рых наблюдалась масса $URI[[http://libmeta.ru/me/formula/aux/846_78_NAIMENYІІIH]]/URI$. Так как все взвешивания равноточные, то следует положить $URI[[http://libmeta.ru/me/formula/aux/846_79_NAIMENYІІIH]]/URI$ и в качестве оценки для неизвестного веса $URI[[http://libmeta.ru/me/formula/aux/846_80_NAIMENYІІIH]]/URI$ выбрать величину $URI[[http://libmeta.ru/me/formula/aux/846_81_NAIMENYІІIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/846_82_NAIMENYІІIH]]/URI$. Задавая, напр., $URI[[http://libmeta.ru/me/formula/aux/846_83_NAIMENYІІIH]]/URI$, по таблицам распределения Стьюдента с девятью степенями свободы можно найти, что $URI[[http://libmeta.ru/me/formula/aux/846_84_NAIMENYІІIH]]/URI$, и поэтому в качестве предельной абсолютной погрешности приближенного равенства $URI[[http://libmeta.ru/me/formula/aux/846_85_NAIMENYІІIH]]/URI$ следует принять величину
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_10_NAIMENYІІIH]]/URI
+\]
+
+Таким образом, $URI[[http://libmeta.ru/me/formula/aux/846_86_NAIMENYІІIH]]/URI$.
+
+С л у ч а й нескольких неиз ве с т ны (ли н е й ны е с в я зи). Пусть $URI[[http://libmeta.ru/me/formula/aux/846_87_NAIMENYІІIH]]/URI$ результатов измерений $URI[[http://libmeta.ru/me/formula/aux/846_88_NAIMENYІІIH]]/URI$ связаны с $URI[[http://libmeta.ru/me/formula/aux/846_89_NAIMENYІІIH]]/URI$ неизвестными величинами $URI[[http://libmeta.ru/me/formula/aux/846_90_NAIMENYІІIH]]/URI$ независимыми линейными соотношениями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_11_NAIMENYІІIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/846_91_NAIMENYІІIH]]/URI$ - известные коәфффициенты, а $URI[[http://libmeta.ru/me/formula/aux/846_92_NAIMENYІІIH]]/URI$ - независимые случайные ошибки измерений. Требуется оценить неиз- вестные величины $URI[[http://libmeta.ru/me/formula/aux/846_93_NAIMENYІІIH]]/URI$ (эту задачу можно рассматривать как обобщение предыдущей, в к-рой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_12_NAIMENYІІIH]]/URI
+\]
+
+Так как $URI[[http://libmeta.ru/me/formula/aux/846_94_NAIMENYІІIH]]/URI$, то средние значения результатов измерений $URI[[http://libmeta.ru/me/formula/aux/846_95_NAIMENYІІIH]]/URI$ Е $URI[[http://libmeta.ru/me/formula/aux/846_96_NAIMENYІІIH]]/URI$ связаны с неизвестными величинами $URI[[http://libmeta.ru/me/formula/aux/846_97_NAIMENYІІIH]]/URI$ линейными уравнениями (линейные свя3и):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_13_NAIMENYІІIH]]/URI
+\]
+
+Следовательно, искомые величины $URI[[http://libmeta.ru/me/formula/aux/846_98_NAIMENYІІIH]]/URI$ представляют собой решение системы (4), уравнения к-рой предполагаются совместными. Точные значения измеряемых величин $URI[[http://libmeta.ru/me/formula/aux/846_99_NAIMENYІІIH]]/URI$ и случайные ошибки $URI[[http://libmeta.ru/me/formula/aux/846_100_NAIMENYІІIH]]/URI$ обычно неизвестны, поэтому вместо систем (3) и (4) принято записывать так наз. условные ур а вне ния
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_14_NAIMENYІІIH]]/URI
+\]
+
+Согласно Н. к. м. в качестве оценок для неизвестных $URI[[http://libmeta.ru/me/formula/aux/846_101_NAIMENYІІIH]]/URI$ применяют такие величины $URI[[http://libmeta.ru/me/formula/aux/846_102_NAIMENYІІIH]]/URI$, для к-рых сумма квадратов отклонений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_15_NAIMENYІІIH]]/URI
+\]
+
+будет наименьшей (как и в предыдущем случае, $URI[[http://libmeta.ru/me/formula/aux/846_103_NAIMENYІІIH]]/URI$ вес измерения, $URI[[http://libmeta.ru/me/formula/aux/846_104_NAIMENYІІIH]]/URI$ - величина, обратно пропорциональная дисперсии случайной отибки $URI[[http://libmeta.ru/me/formula/aux/846_105_NAIMENYІІIH]]/URI$ ). Условные уравнения, как правило, несовместны, т. е. при любых значениях $URI[[http://libmeta.ru/me/formula/aux/846_106_NAIMENYІІIH]]/URI$ разности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_16_NAIMENYІІIH]]/URI
+\]
+
+не могут, вообце говоря, все обратиться в нуль. Н. к. м. предписывает в качестве оценок выбрать такие значения $URI[[http://libmeta.ru/me/formula/aux/846_107_NAIMENYІІIH]]/URI$, к-рые минимизируют сумму $URI[[http://libmeta.ru/me/formula/aux/846_108_NAIMENYІІIH]]/URI$. В тех исключительных случаях, когда условные уравнения совместны и, значит, обладают решением, әто решение совпадает с оценками, полученными согласно Н. к. м.
+
+Сумма квадратов $URI[[http://libmeta.ru/me/formula/aux/846_109_NAIMENYІІIH]]/URI$ представляет собой квадратичный многочлен относительно переменных $URI[[http://libmeta.ru/me/formula/aux/846_110_NAIMENYІІIH]]/URI$; этот многочлен достигает минимума при таких значениях $URI[[http://libmeta.ru/me/formula/aux/846_111_NAIMENYІІIH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/846_112_NAIMENYІІIH]]/URI$, при к-рых обращаются в нуль все первые частные производные:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_17_NAIMENYІІIH]]/URI
+\]
+
+Отсюда следует, что оценки $URI[[http://libmeta.ru/me/formula/aux/846_113_NAIMENYІІIH]]/URI$, полученные согласно Н. к. м., должны удовлетворять системе т. н. н о рма л ьны х ур а в н е и й, к-рая в обозначениях, предложенных К. Гауссом, имеет вид
+
+$URI[[http://libmeta.ru/me/formula/aux/846_114_NAIMENYІІIH]]/URI$,
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_18_NAIMENYІІIH]]/URI
+\]
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_19_NAIMENYІІIH]]/URI
+\]
+
+Оценки, получающиеся в результате решения системы нормальных уравнений, лишены систематич. ошибок $URI[[http://libmeta.ru/me/formula/aux/846_115_NAIMENYІІIH]]/URI$; дисперсии $URI[[http://libmeta.ru/me/formula/aux/846_116_NAIMENYІІIH]]/URI$ величин $URI[[http://libmeta.ru/me/formula/aux/846_117_NAIMENYІІIH]]/URI$ равны $URI[[http://libmeta.ru/me/formula/aux/846_118_NAIMENYІІIH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/846_119_NAIMENYІІIH]]/URI$ - определитель системы (5), а $URI[[http://libmeta.ru/me/formula/aux/846_120_NAIMENYІІIH]]/URI$ - минор, соответствующий диагональному әлементу [pa $URI[[http://libmeta.ru/me/formula/aux/846_121_NAIMENYІІIH]]/URI$ (иными словами, $URI[[http://libmeta.ru/me/formula/aux/846_122_NAIMENYІІIH]]/URI$ - вес оценки $URI[[http://libmeta.ru/me/formula/aux/846_123_NAIMENYІІIH]]/URI$. Если множитель пропорциональности $URI[[http://libmeta.ru/me/formula/aux/846_124_NAIMENYІІIH]]/URI$ ( $URI[[http://libmeta.ru/me/formula/aux/846_125_NAIMENYІІIH]]/URI$ наз. д и с п е p с и е й н a е д ин и ц у в е с а) заранее неизвестен, то для его оценки, a также для оценки дисперсии $URI[[http://libmeta.ru/me/formula/aux/846_126_NAIMENYІІIH]]/URI$ служат формулы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_20_NAIMENYІІIH]]/URI
+\]
+
+( $URI[[http://libmeta.ru/me/formula/aux/846_127_NAIMENYІІIH]]/URI$ - минимальное значение исходной суммы квадра- тов). При нек-рых общих предположениях можно показать, что если количество наблюдений $URI[[http://libmeta.ru/me/formula/aux/846_128_NAIMENYІІIH]]/URI$ достаточно велико, то абсолютная погрешность приближенного равенства $URI[[http://libmeta.ru/me/formula/aux/846_129_NAIMENYІІIH]]/URI$ меньше $URI[[http://libmeta.ru/me/formula/aux/846_130_NAIMENYІІIH]]/URI$ с вероятностью, близкой к значению интеграла (1). Если случайные ошибки наблюдений $URI[[http://libmeta.ru/me/formula/aux/846_131_NAIMENYІІIH]]/URI$ подчиняются нормальному распределению, то все отношения $URI[[http://libmeta.ru/me/formula/aux/846_132_NAIMENYІІIH]]/URI$ распределены по закону Стьюдента с $URI[[http://libmeta.ru/me/formula/aux/846_133_NAIMENYІІIH]]/URI$ степенями свободы (точная оценка абсолютной погрешности приближенного равенства производится здесь с помощью интеграла (2) так же, как в случае одного неизвестного). Кроме того, минимальное значение суммы $URI[[http://libmeta.ru/me/formula/aux/846_134_NAIMENYІІIH]]/URI$ в вероятностном смысле не зависит от $URI[[http://libmeta.ru/me/formula/aux/846_135_NAIMENYІІIH]]/URI$, и потому приближенные значения дисперсий оценок $URI[[http://libmeta.ru/me/formula/aux/846_136_NAIMENYІІIH]]/URI$ не зависят от самих оценок $URI[[http://libmeta.ru/me/formula/aux/846_137_NAIMENYІІIH]]/URI$
+
+Один из наиболее типичных случаев применения Н. к. м. - «выравнивание» таких результатов наблюдений $URI[[http://libmeta.ru/me/formula/aux/846_138_NAIMENYІІIH]]/URI$, для к-рых в уравнениях (3) $URI[[http://libmeta.ru/me/formula/aux/846_139_NAIMENYІІIH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/846_140_NAIMENYІІIH]]/URI$ - известные функции нек-рого параметра $URI[[http://libmeta.ru/me/formula/aux/846_141_NAIMENYІІIH]]/URI$ (если $URI[[http://libmeta.ru/me/formula/aux/846_142_NAIMENYІІIH]]/URI$ - время, то $URI[[http://libmeta.ru/me/formula/aux/846_143_NAIMENYІІIH]]/URI$ - те моменты времени, в к-рые производились наблюдения). Особенно часто встречается в приложениях случай т. н. п а р а б о л и ч е с к о й и н т е р по л я ц и и, когда $URI[[http://libmeta.ru/me/formula/aux/846_144_NAIMENYІІIH]]/URI$ многочлены (напр., $URI[[http://libmeta.ru/me/formula/aux/846_145_NAIMENYІІIH]]/URI$ если $URI[[http://libmeta.ru/me/formula/aux/846_146_NAIMENYІІIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/846_147_NAIMENYІІIH]]/URI$, а наблюдения равноточные, то для вычисления оценок $URI[[http://libmeta.ru/me/formula/aux/846_148_NAIMENYІІIH]]/URI$ можно воспользоваться таблицами ортогональных многочленов. Другой важный для приложений случай - т. н. г а р м о и и е с к а я и нте р п о л ц и я, когда в качестве $URI[[http://libmeta.ru/me/formula/aux/846_149_NAIMENYІІIH]]/URI$ выбирают тригонометрич. функции (напр., $URI[[http://libmeta.ru/me/formula/aux/846_150_NAIMENYІІIH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/846_151_NAIMENYІІIH]]/URI$.
+
+П р и ме р. Для оценки точности одного из методов химич. анализа әтим методом определялась концентрация $URI[[http://libmeta.ru/me/formula/aux/846_152_NAIMENYІІIH]]/URI$ в десяти әталонных пробах заранее известного состава. Результаты наблюдений указаны в таблице ( $URI[[http://libmeta.ru/me/formula/aux/846_153_NAIMENYІІIH]]/URI$ - номер әксперимента, $URI[[http://libmeta.ru/me/formula/aux/846_154_NAIMENYІІIH]]/URI$ истинная концентрация $URI[[http://libmeta.ru/me/formula/aux/846_155_NAIMENYІІIH]]/URI$ - концентрация $URI[[http://libmeta.ru/me/formula/aux/846_156_NAIMENYІІIH]]/URI$, определенная в результате химич. анализа, $URI[[http://libmeta.ru/me/formula/aux/846_157_NAIMENYІІIH]]/URI$ ошибка химич. анализа):
+
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c}
+\hline 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 \\
+\hline 4 &amp; 8 &amp; 12,5 &amp; 16 &amp; 20 &amp; 25 &amp; 31 &amp; 36 &amp; 40 &amp; 40 \\
+\hline$URI[[http://libmeta.ru/me/formula/aux/846_158_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_159_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_160_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_161_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_162_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_163_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_164_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_165_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_166_NAIMENYІІIH]]/URI$ &amp; $URI[[http://libmeta.ru/me/formula/aux/846_167_NAIMENYІІIH]]/URI$ \\
+\hline
+\end{tabular}
+
+Если результаты химич. анализа не имеют систематич. ошибок, то $URI[[http://libmeta.ru/me/formula/aux/846_168_NAIMENYІІIH]]/URI$. Если же такие ошибки имеются, то в первом приближении их можно представить в виде: $URI[[http://libmeta.ru/me/formula/aux/846_169_NAIMENYІІIH]]/URI$ наз. п о с т о я н н о й $URI[[http://libmeta.ru/me/formula/aux/846_170_NAIMENYІІIH]]/URI$ ши б-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c8a1bbe59c1156c5bc2cg-1.jpg?height=44&amp;width=834&amp;top_left_y=1727&amp;top_left_x=987)
+или, что то же самое,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_21_NAIMENYІІIH]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_22_NAIMENYІІIH]]/URI
+\]
+
+Для отыскания оценок $URI[[http://libmeta.ru/me/formula/aux/846_171_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_172_NAIMENYІІIH]]/URI$ достаточно оценить величины $URI[[http://libmeta.ru/me/formula/aux/846_173_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_174_NAIMENYІІIH]]/URI$. Условные уравнения в данном случае имеют вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_23_NAIMENYІІIH]]/URI
+\]
+
+поэтому $URI[[http://libmeta.ru/me/formula/aux/846_175_NAIMENYІІIH]]/URI$ (согласно предположению о равноточности наблюдений все $URI[[http://libmeta.ru/me/formula/aux/846_176_NAIMENYІІIH]]/URI$. Так как $URI[[http://libmeta.ru/me/formula/aux/846_177_NAIMENYІІIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/846_178_NAIMENYІІIH]]/URI$, то система нормальных уравнений записывается особенно просто:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_24_NAIMENYІІIH]]/URI
+\] где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_25_NAIMENYІІIH]]/URI
+\]
+
+Дисперсии компонент решения әтой системы суть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_26_NAIMENYІІIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/846_179_NAIMENYІІIH]]/URI$ - неизвестная дисперсия на единицу веса (в данном случае $URI[[http://libmeta.ru/me/formula/aux/846_180_NAIMENYІІIH]]/URI$ - дисперсия любой из величин $URI[[http://libmeta.ru/me/formula/aux/846_181_NAIMENYІІIH]]/URI$ ). Так как в этом примере компоненты решения принимают значения $URI[[http://libmeta.ru/me/formula/aux/846_182_NAIMENYІІIH]]/URI$, и $URI[[http://libmeta.ru/me/formula/aux/846_183_NAIMENYІІIH]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_27_NAIMENYІІIH]]/URI
+\]
+
+Если случайные ошибки наблюдений подчиняются нормальному распределению, то отношения $URI[[http://libmeta.ru/me/formula/aux/846_184_NAIMENYІІIH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/846_185_NAIMENYІІIH]]/URI$, распределены по закону Стьюдента. В частности, если результаты наблюдений лишены систематич. ошибок, то $URI[[http://libmeta.ru/me/formula/aux/846_186_NAIMENYІІIH]]/URI$, и, значит, закону Стьюдента должны подчиняться отношения $URI[[http://libmeta.ru/me/formula/aux/846_187_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_188_NAIMENYІІIH]]/URI$. С помощью таблиц распределения Стьюдента с $URI[[http://libmeta.ru/me/formula/aux/846_189_NAIMENYІІIH]]/URI$ степенями свободы можно убедиться, что если действительно $URI[[http://libmeta.ru/me/formula/aux/846_190_NAIMENYІІIH]]/URI$, то с вероятностью 0,999 каждое из этих отношений не должно превосхоцить 5,04 и с вероятностью 0,95 не должно превосходить 2,31 . В данном случае $URI[[http://libmeta.ru/me/formula/aux/846_191_NAIMENYІІIH]]/URI$, поэтому гипотезу отсутствия систематич. ошибок целесообразно отвергнуть; в то же время следует признать, что гипотеза об отсутствии методич. ошибки $URI[[http://libmeta.ru/me/formula/aux/846_192_NAIMENYІІIH]]/URI$ не противоречит результатам наблюдений, т. к. $URI[[http://libmeta.ru/me/formula/aux/846_193_NAIMENYІІIH]]/URI$. Таким образом, можно заключить, что для определения $URI[[http://libmeta.ru/me/formula/aux/846_194_NAIMENYІІIH]]/URI$ по результату наблюдения $URI[[http://libmeta.ru/me/formula/aux/846_195_NAIMENYІІIH]]/URI$ целесообразно пользоваться приближенной формулой $URI[[http://libmeta.ru/me/formula/aux/846_196_NAIMENYІІIH]]/URI$.
+
+С URI[[http://libmeta.ru/me/relation/846_37_NAIMENYІІIH]]/URI а й не ско льких не извест ны х (н е ли н е й ны е с в я зи). Пусть $URI[[http://libmeta.ru/me/formula/aux/846_197_NAIMENYІІIH]]/URI$ URI[[http://libmeta.ru/me/relation/846_36_NAIMENYІІIH]]/URI измерений $URI[[http://libmeta.ru/me/formula/aux/846_198_NAIMENYІІIH]]/URI$ URI[[http://libmeta.ru/me/relation/846_35_NAIMENYІІIH]]/URI с $URI[[http://libmeta.ru/me/formula/aux/846_199_NAIMENYІІIH]]/URI$ неизвестными $URI[[http://libmeta.ru/me/formula/aux/846_200_NAIMENYІІIH]]/URI$ функциональной зависимостью $URI[[http://libmeta.ru/me/formula/aux/846_201_NAIMENYІІIH]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/846_202_NAIMENYІІIH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/846_203_NAIMENYІІIH]]/URI$ URI[[http://libmeta.ru/me/relation/846_34_NAIMENYІІIH]]/URI ошибки, а URI[[http://libmeta.ru/me/relation/846_33_NAIMENYІІIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/846_204_NAIMENYІІIH]]/URI$ (в общем случае нелинейные) дифференцируемы. Согласно Н. к. м. в качестве оценок для $URI[[http://libmeta.ru/me/formula/aux/846_205_NAIMENYІІIH]]/URI$ принимают такие величины $URI[[http://libmeta.ru/me/formula/aux/846_206_NAIMENYІІIH]]/URI$, для к-рых сумма URI[[http://libmeta.ru/me/relation/846_32_NAIMENYІІIH]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_28_NAIMENYІІIH]]/URI
+\]
+
+будет наименьшей. Так как URI[[http://libmeta.ru/me/relation/846_31_NAIMENYІІIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/846_207_NAIMENYІІIH]]/URI$ нелинейные, то решение URI[[http://libmeta.ru/me/relation/846_30_NAIMENYІІIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/846_208_NAIMENYІІIH]]/URI$ в этом случае может URI[[http://libmeta.ru/me/relation/846_29_NAIMENYІІIH]]/URI значительные трудности. Иногда нелинейные связи каким-либо преобразованием могут быть приведены к линейным.
+
+Напр., при намагничивании железа URI[[http://libmeta.ru/me/relation/846_28_NAIMENYІІIH]]/URI магнитного поля $URI[[http://libmeta.ru/me/formula/aux/846_209_NAIMENYІІIH]]/URI$ URI[[http://libmeta.ru/me/relation/846_27_NAIMENYІІIH]]/URI с магнитной индукцией $URI[[http://libmeta.ru/me/formula/aux/846_210_NAIMENYІІIH]]/URI$ эмпирич. URI[[http://libmeta.ru/me/relation/846_26_NAIMENYІІIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/846_211_NAIMENYІІIH]]/URI$ ) (коәффициенты $URI[[http://libmeta.ru/me/formula/aux/846_212_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_213_NAIMENYІІIH]]/URI$ определяются по URI[[http://libmeta.ru/me/relation/846_25_NAIMENYІІIH]]/URI значениям $URI[[http://libmeta.ru/me/formula/aux/846_214_NAIMENYІІIH]]/URI$ при заданных $URI[[http://libmeta.ru/me/formula/aux/846_215_NAIMENYІІIH]]/URI$ ). Индукция $URI[[http://libmeta.ru/me/formula/aux/846_216_NAIMENYІІIH]]/URI$ - нелинейная URI[[http://libmeta.ru/me/relation/846_24_NAIMENYІІIH]]/URI от $URI[[http://libmeta.ru/me/formula/aux/846_217_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_218_NAIMENYІІIH]]/URI$. Однако обратная величина индукции зависит от $URI[[http://libmeta.ru/me/formula/aux/846_219_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_220_NAIMENYІІIH]]/URI$ линейно. Применение Н. к. м. к исходному и преобразованному равенствам дает, вообще говоря, различные оценки для неизвестных $URI[[http://libmeta.ru/me/formula/aux/846_221_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_222_NAIMENYІІIH]]/URI$, но если дисперсия случайных ошибок измерения индукции значительно меньше URI[[http://libmeta.ru/me/relation/846_23_NAIMENYІІIH]]/URI величин $URI[[http://libmeta.ru/me/formula/aux/846_223_NAIMENYІІIH]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/846_224_NAIMENYІІIH]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/846_225_NAIMENYІІIH]]/URI$. Поэтому величинам $URI[[http://libmeta.ru/me/formula/aux/846_226_NAIMENYІІIH]]/URI$ следует приписать веса $URI[[http://libmeta.ru/me/formula/aux/846_227_NAIMENYІІIH]]/URI$; естественно ожидать, что при этих условиях различие оценок в нелинейном и линейном случаях будет практически несущественным. В тех случаях, когда не удается тождественными преобразованиями заменить URI[[http://libmeta.ru/me/relation/846_22_NAIMENYІІIH]]/URI линейными, пользуются другим способом линеаризации. Из заданных $URI[[http://libmeta.ru/me/formula/aux/846_228_NAIMENYІІIH]]/URI$ URI[[http://libmeta.ru/me/relation/846_21_NAIMENYІІIH]]/URI отбирают какие-либо $URI[[http://libmeta.ru/me/formula/aux/846_229_NAIMENYІІIH]]/URI$ URI[[http://libmeta.ru/me/relation/846_20_NAIMENYІІIH]]/URI, решение к-рых $URI[[http://libmeta.ru/me/formula/aux/846_230_NAIMENYІІIH]]/URI$ принимают за нулевое URI[[http://libmeta.ru/me/relation/846_19_NAIMENYІІIH]]/URI для неизвестных $URI[[http://libmeta.ru/me/formula/aux/846_231_NAIMENYІІIH]]/URI$. Если положить $URI[[http://libmeta.ru/me/formula/aux/846_232_NAIMENYІІIH]]/URI$, то URI[[http://libmeta.ru/me/relation/846_18_NAIMENYІІIH]]/URI условных URI[[http://libmeta.ru/me/relation/846_17_NAIMENYІІIH]]/URI можно записать в виде:
+
+$URI[[http://libmeta.ru/me/formula/aux/846_233_NAIMENYІІIH]]/URI$. Разлагая правые части в ряд по URI[[http://libmeta.ru/me/relation/846_16_NAIMENYІІIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/846_234_NAIMENYІІIH]]/URI$ и ограничиваясь линейными членами, URI[[http://libmeta.ru/me/relation/846_15_NAIMENYІІIH]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/846_29_NAIMENYІІIH]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/846_235_NAIMENYІІIH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/846_236_NAIMENYІІIH]]/URI$ - значение URI[[http://libmeta.ru/me/relation/846_14_NAIMENYІІIH]]/URI $URI[[http://libmeta.ru/me/formula/aux/846_237_NAIMENYІІIH]]/URI$ и ее URI[[http://libmeta.ru/me/relation/846_13_NAIMENYІІIH]]/URI по $URI[[http://libmeta.ru/me/formula/aux/846_238_NAIMENYІІIH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/846_239_NAIMENYІІIH]]/URI$. Эта URI[[http://libmeta.ru/me/relation/846_12_NAIMENYІІIH]]/URI URI[[http://libmeta.ru/me/relation/846_11_NAIMENYІІIH]]/URI линейна, и поэтому для оценки неизвестных $URI[[http://libmeta.ru/me/formula/aux/846_240_NAIMENYІІIH]]/URI$ легко может быть применен Н. к. м. Оценив $URI[[http://libmeta.ru/me/formula/aux/846_241_NAIMENYІІIH]]/URI$, URI[[http://libmeta.ru/me/relation/846_10_NAIMENYІІIH]]/URI первое URI[[http://libmeta.ru/me/relation/846_9_NAIMENYІІIH]]/URI для неизвестных $URI[[http://libmeta.ru/me/formula/aux/846_242_NAIMENYІІIH]]/URI$. Величины $URI[[http://libmeta.ru/me/formula/aux/846_243_NAIMENYІІIH]]/URI$ берут за исходное URI[[http://libmeta.ru/me/relation/846_8_NAIMENYІІIH]]/URI, и всю URI[[http://libmeta.ru/me/relation/846_7_NAIMENYІІIH]]/URI повторяют, пока с заданной точностью не совпадут два последовательных URI[[http://libmeta.ru/me/relation/846_6_NAIMENYІІIH]]/URI. Если дисперсии ошибок $URI[[http://libmeta.ru/me/formula/aux/846_244_NAIMENYІІIH]]/URI$ уменьшаются, то процесс сходится.
+
+Очень часто при малых $URI[[http://libmeta.ru/me/formula/aux/846_245_NAIMENYІІIH]]/URI$ оказывается вполне достаточным уже первое URI[[http://libmeta.ru/me/relation/846_5_NAIMENYІІIH]]/URI: не имеет смысла требовать нахождения $URI[[http://libmeta.ru/me/formula/aux/846_246_NAIMENYІІIH]]/URI$ с точностью, значительно превышающей $URI[[http://libmeta.ru/me/formula/aux/846_247_NAIMENYІІIH]]/URI$.
+
+Во многих практически важных случаях (и в частности, при огенке URI[[http://libmeta.ru/me/relation/846_4_NAIMENYІІIH]]/URI нелинейных URI[[http://libmeta.ru/me/relation/846_3_NAIMENYІІIH]]/URI) количество неизвестных URI[[http://libmeta.ru/me/relation/846_2_NAIMENYІІIH]]/URI бывает весьма большим, и поэтому реализация Н. к. м. оказывается әффективной лишь при использовании современной вычислительной техники.</text>
+  <text_orig>А. Бухитаб. методов ошибок теории для оценки неизвестных величин по результатам измерений, содержащим случайные ошибки. Н. к. м. применяется также для приближенного представления заданной функции другими (более простыми) функциями и часто оказывается полезным при обработке наблюдений. Н. к. м. предложен К. Гауссом (C. Gauss, 1794-95) и А. Лежандром (A. Legendre, 1805-06). Строгое обоснование и установление границ содержательной применимости Н. к. м. даны А. А. Марковым и А. Н. Колмогоровым. В простейшем случае линейных связей (см. ниже) и наблюдений, не содержащих систематич. ошибок, а подверженных лишь случайным ошибкам, оценки неизвестных величин, полученные с помоцью Н. к. м., являются линейными функциями от наблюденных значений. Эти оценки не имеют систематич. ошибок, т. е. являются несмещенными (см. Несмешенная оценка). Если случайные ошибки наблюдений независимы и подчиняются нормальному распределению, то Н. к. м. дает оценки неизвестных с наименьшей дисперсией, т. е. эти оценки являются әффективными (см. Статистическое оценивание). В этом смысле Н. к. м. является наилучшим среди всех остальных методов, позволяющих находить несмещенные оценки. Однако если распределение случайных ошибок существенно отличается от нормального, то Н. к. м. может и не быть наилучшим. При обосновании Н. к. м. (по Гауссу) предполагается, что &quot;убыток&quot; от замены точного (неизвестного) значения нек-рой величины $\mu$ ее приближенным значением $X$, вычисленным по результатам наблюдений, пропорционален квадрату ошибки $(X-\mu)^{2} ; \quad$ оптимальной оценкой считается такая лишенная систематич. ошибки величина $X$, для к-рой среднее значение $\mathrm{E}(X-\mu)^{2}$ &quot;убытка&quot; минимально. Именно это требование и составляет основу Н. к. М. В общем случае отыскание оптимальной в смысле Н. к. м. оценки $X$ - задача весьма сложная, поэтому практически эту задачу сужают и в качестве $X$ выбирают линейную функцию от результатов наблюдений, лишенную систематич. ошибки, и такую, для к-рой среднее значение убытка минимально в классе всех линейных функций. Если случайные ошибки наблюдений подчиняются нормальному распределению и оцениваемая величина $\mu$ зависит от средних значений результатов наблюдений линейно (случай, весьма часто встречающийся в приложениях Н. к. м.), то решение этой задачи будет одновременно являться и решением общей задачи. При этом оптимальная оценка $X$ также подчиняется нормальному распределению со средним значением $\mu$ и, следовательно, плотность вероятности случайной величины $X$
+
+\[
+p(x ; \mu, \sigma)=\frac{1}{\sqrt{2 \pi} \sigma} \exp \left\{-\frac{(x-\mu)^{2}}{2 \sigma^{2}}\right\}
+\]
+
+достигает максимума в точке $x=\mu$ (это свойство и выражает точное содержание распространенного в теории ошибок утверждения: «оценка $X$, вычисленная согласно Н. к. м., - наиболее вероятное значение неизвестного параметра $\mu »)$.
+
+С луч а й одного неизвестного. Пусть для оценги значения неизвестной величины $\mu$ произведено $n$ независимых наблюдений, давших результаты $Y_{1}, Y_{2}, \ldots, Y_{n}$, т. e. $Y_{1}=\mu+\delta_{1}, Y_{2}=\mu+\delta_{2}, \ldots, Y_{n}=$ $=\mu+\delta_{n}$, где $\delta_{1}, \delta_{2}, \ldots, \delta_{n}-$ случайные ошибки (по
+определению, принятому влассич. теории ошибок, с л уч а й ны е о ши б к и-независимые случайные величины с нулевым математич. ожиданием: $\mathrm{E} \delta_{i}=$ $=0$; если же $\mathrm{E} \delta_{i} \neq 0$, то $\mathrm{E} \delta_{i}$ наз. с и с т е м а т и ч ес к и м и о ши б к а и). Согласно Н. к. м. в качестве оценки величины $\mu$ принимают такое $X$, для к-рого будет наименьшей сумма квадратов (отсюда и само название метода):
+
+\[
+S(X)=\sum_{i=1}^{n} p_{i}\left(X-Y_{i}\right)^{2}
+\]
+
+где
+
+\[
+p_{i}=k / \sigma_{i}^{2} \text { и } \sigma_{i}^{2}=\mathrm{D}_{i}=\mathrm{E}_{i}^{2}
+\]
+
+(коәффициент $k&gt;0$ можно выбирать произвольно). Величину $p_{i}$ наз. в е с о м, а $\sigma_{i}-$ к в а д р а т и ч ным о т к л о н н и е м измерения с номером $i$. В частности, если все измерения равноточны, то $\sigma_{1}=\sigma_{2}=\ldots=\sigma_{n}$, и в этом случае можно положить $p_{1}=p_{2}=\ldots=p_{n}=1$; если же каждое $Y_{i}$ - арифметич. среднее из $n_{i}$ равноточных измерений, то полагают $p_{i}=n_{i}$.
+
+Сумма $S(X)$ будет наименьшей, если в качестве $X$ выбрать взвешенное среднее:
+
+\[
+\boldsymbol{X}=\overline{\boldsymbol{Y}}=\frac{1}{\boldsymbol{P}} \sum p_{i} Y_{i}, \text { где } \boldsymbol{P}=\sum p_{i}
+\]
+
+Оценка $\bar{Y}$ величины $\mu$ лишена систематич. ошибки, имеет вес $P$ и дисперсию $D \bar{Y}=k / P$. В частности, если все измерения равноточны, то $Y$ - арифметич. среднее результатов измерений:
+
+\[
+\bar{Y}=\frac{1}{n} \sum Y_{i} \text { и } \mathrm{D} \bar{Y}=\sigma^{2} / n .
+\]
+
+При нек-рых общих предположениях можно показать, что если количество наблюдений $n$ достаточно велико, то распределение оценки $\bar{Y}$ мало отличается от нормального с математич. ожиданием $\mu$ и дисперсией $k / P$. В этом случае абсолютная погрешность приближенного равенства $\mu \approx \bar{Y}$ меньше $t \sqrt{k / P}$ с вероятностью, близкой к значению интеграла
+
+\[
+I(t)=\frac{2}{\sqrt{2 \pi}} \int_{0}^{t} e^{-u^{2} / 2} d u
+\]
+
+(напр., $I(1,96)=0,950 ; I(2,58)=0,990 ; I(3,00)=0,997)$.
+
+Если веса измерений $p_{i}$ заданы, а множитель $k$ до наблюдений остается неопределенным, то этот множитель и дисперсия оценки $\bar{Y}$ могут быть оценены по формулам:
+
+\[
+k \approx S(\bar{Y}) /(n-1)
+\]
+
+\[
+\mathrm{D} \bar{Y}=k / P \approx s^{2}=S(\bar{Y}) /[(n-1) P]
+\]
+
+(обе оценки лишены систематич. ошибок).
+
+В том практически важном случае, когда ошибки $\delta_{i}$ подчиняются нормальному распределению, можно найти точное значение вероятности, с к-рой абсолютная погрешность приближенного равенства $\mu \approx \bar{Y}$ окажется меньше $t s$ ( $t$ - произвольное положительное число):
+
+\[
+I_{n-1}(t)=C_{n-1} \int_{0}^{t}\left(1+\frac{v^{2}}{n-1}\right)^{-n / 2} d v,
+\]
+
+где постоянная $C_{n-1}$ выбрана таким образом, чтобы выполнялось условие $I_{n-1}(\infty)=1$ ( $($ тьюдента pacnpeделение с $n-1$ степенями свободы). При больших $n$ формулу (2) можно заменить формулой (1). Однако применение формулы (1) при небольших $n$ привело бы к грубым ошибкам. Так, напр., согласно (1) значению $I=$ $=0,99$ соответствует $t=2,58$; истинные значения $t$, определяемые при малых $n$ как решения соответствующих уравнений $I_{n-1}(t)=0,99$, приведены в таблице:
+
+\begin{tabular}{c|c|c|c|c|c|c|c}
+\hline$n \ldots$. &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 10 &amp; 20 &amp; 30 \\
+$t \ldots$ &amp; 63,66 &amp; 9,92 &amp; 5,84 &amp; 4,60 &amp; 3,25 &amp; 2,86 &amp; 2,76 \\
+\hline
+\end{tabular}
+
+П р и м е р. Для определения массы нек-рого тела произведено 10 независимых равноточных взвешиваний, давших результаты $Y_{i}$ (в 2$)$ :
+
+\begin{tabular}{cc|c|c|c|c|c|c}
+\hline $\boldsymbol{Y}_{i}$ &amp; $\ldots$ &amp; 18,41 &amp; 18,42 &amp; 18,43 &amp; 18,44 &amp; 18,45 &amp; 18,46 \\
+$n_{i}$ &amp; $\ldots$ &amp; 1 &amp; 3 &amp; 3 &amp; 1 &amp; 1 &amp; 1 \\
+\hline
+\end{tabular}
+
+(здесь $n_{i}$ - число случаев, в к-рых наблюдалась масса $\left.Y_{i} ; n=\Sigma n_{i}=10\right)$. Так как все взвешивания равноточные, то следует положить $p_{i}=n_{i}$ и в качестве оценки для неизвестного веса $\mu$ выбрать величину $Y=\Sigma n_{i} Y_{i} / \Sigma n_{i}=$ $=18,431$. Задавая, напр., $I_{9}=0,95$, по таблицам распределения Стьюдента с девятью степенями свободы можно найти, что $t=2,262$, и поэтому в качестве предельной абсолютной погрешности приближенного равенства $\mu \approx 18,431$ следует принять величину
+
+\[
+t s=t \sqrt{\sum n_{i}\left(Y_{i}-\bar{Y}\right)^{2} / 90}=2,262 \cdot 0,0048=0,011 .
+\]
+
+Таким образом, $18,420&lt;\mu&lt;18,422$.
+
+С л у ч а й нескольких неиз ве с т ны (ли н е й ны е с в я зи). Пусть $n$ результатов измерений $Y_{1}, Y_{2}, \ldots, Y_{n}$ связаны с $m$ неизвестными величинами $x_{1}, x_{2}, \ldots, x_{m}(m&lt;n)$ независимыми линейными соотношениями
+
+\[
+Y_{i}=\sum_{j=1}^{m} a_{i j} x_{j}+\delta_{i}, i=1,2, \ldots, n,
+\]
+
+где $a_{i j}$ - известные коәфффициенты, а $\delta_{i}$ - независимые случайные ошибки измерений. Требуется оценить неиз- вестные величины $x_{j}$ (эту задачу можно рассматривать как обобщение предыдущей, в к-рой
+
+\[
+\mu=x_{1} \text { и } m=a_{i 1}=1 ; i=1,2, \ldots, n .
+\]
+
+Так как $\mathrm{E} \delta_{i}=0$, то средние значения результатов измерений $y_{i}=$ Е $Y_{i}$ связаны с неизвестными величинами $x_{1}, x_{2}, \ldots, x_{m}$ линейными уравнениями (линейные свя3и):
+
+\[
+y_{i}=\sum_{j=1}^{m} a_{i j} x_{j}, \quad i=1,2, \ldots, n .
+\]
+
+Следовательно, искомые величины $x_{i}$ представляют собой решение системы (4), уравнения к-рой предполагаются совместными. Точные значения измеряемых величин $y_{i}$ и случайные ошибки $\delta_{i}$ обычно неизвестны, поэтому вместо систем (3) и (4) принято записывать так наз. условные ур а вне ния
+
+\[
+Y_{i}=\sum_{j=1}^{m} a_{i j} x_{j}, \quad i=1,2, \ldots, n .
+\]
+
+Согласно Н. к. м. в качестве оценок для неизвестных $x_{j}$ применяют такие величины $X_{j}$, для к-рых сумма квадратов отклонений
+
+\[
+S=\sum_{i=1}^{n} p_{i}\left(Y_{i}-\sum_{j=1}^{m} a_{i j} X_{j}\right)^{2}
+\]
+
+будет наименьшей (как и в предыдущем случае, $p_{i}-$ вес измерения, $Y_{i}$ - величина, обратно пропорциональная дисперсии случайной отибки $\delta_{i}$ ). Условные уравнения, как правило, несовместны, т. е. при любых значениях $X_{j}$ разности
+
+\[
+\Delta_{i}=Y_{i}-\sum_{j=1}^{m} a_{i j} X_{j}, \quad i=1,2, \ldots, n,
+\]
+
+не могут, вообце говоря, все обратиться в нуль. Н. к. м. предписывает в качестве оценок выбрать такие значения $X_{j}$, к-рые минимизируют сумму $S$. В тех исключительных случаях, когда условные уравнения совместны и, значит, обладают решением, әто решение совпадает с оценками, полученными согласно Н. к. м.
+
+Сумма квадратов $S$ представляет собой квадратичный многочлен относительно переменных $X_{f}$; этот многочлен достигает минимума при таких значениях $X_{1}, X_{2}, \ldots$, $X_{m}$, при к-рых обращаются в нуль все первые частные производные:
+
+\[
+\frac{\partial S}{\partial X_{j}}=-2 \sum_{i=1}^{n} p_{i} \Delta_{i}=0, \quad j=1,2, \ldots, m .
+\]
+
+Отсюда следует, что оценки $X_{j}$, полученные согласно Н. к. м., должны удовлетворять системе т. н. н о рма л ьны х ур а в н е и й, к-рая в обозначениях, предложенных К. Гауссом, имеет вид
+
+$\sum_{j=1}^{m}\left[p a_{j} a_{l}\right] X_{j}=\left[p Y a_{l}\right], \quad l=1,2, \ldots, m$,
+
+где
+
+\[
+\left[p a_{j} a_{l}\right]=\sum_{i=1}^{n} p_{i} a_{i j} a_{i l}
+\]
+
+и
+
+\[
+\left[p Y a_{l}\right]=\sum_{i=1}^{n} p_{i} Y_{i} a_{i l} .
+\]
+
+Оценки, получающиеся в результате решения системы нормальных уравнений, лишены систематич. ошибок $\left(\mathrm{E} X_{j}=x_{j}\right)$; дисперсии $\mathrm{D} \boldsymbol{X}_{j}$ величин $X_{j}$ равны $k d_{j j} / d$, где $d$ - определитель системы (5), а $d_{j j}$ - минор, соответствующий диагональному әлементу [pa $\left.a_{j} a_{j}\right]$ (иными словами, $d_{j j} / d$ - вес оценки $\left.X_{j}\right)$. Если множитель пропорциональности $k$ ( $k$ наз. д и с п е p с и е й н a е д ин и ц у в е с а) заранее неизвестен, то для его оценки, a также для оценки дисперсии $\mathrm{D} X_{j}$ служат формулы
+
+\[
+k \approx S /(n-m) \text { и } \mathrm{D} X_{j} \approx s_{j}^{2}=S d_{j j} / d(n-m)
+\]
+
+( $S$ - минимальное значение исходной суммы квадра- тов). При нек-рых общих предположениях можно показать, что если количество наблюдений $n$ достаточно велико, то абсолютная погрешность приближенного равенства $x_{j} \approx X_{j}$ меньше $t s_{j}$ с вероятностью, близкой к значению интеграла (1). Если случайные ошибки наблюдений $\delta_{i}$ подчиняются нормальному распределению, то все отношения $\left(X_{j}-x_{j}\right) / s_{j}$ распределены по закону Стьюдента с $n-m$ степенями свободы (точная оценка абсолютной погрешности приближенного равенства производится здесь с помощью интеграла (2) так же, как в случае одного неизвестного). Кроме того, минимальное значение суммы $S$ в вероятностном смысле не зависит от $X_{1}, X_{2}, \ldots, X_{m}$, и потому приближенные значения дисперсий оценок $\mathrm{D} X_{j} \approx s_{j}^{2}$ не зависят от самих оценок $\boldsymbol{X}_{\boldsymbol{j}}$
+
+Один из наиболее типичных случаев применения Н. к. м. - «выравнивание» таких результатов наблюдений $\boldsymbol{Y}_{j}$, для к-рых в уравнениях (3) $a_{i j}=a_{j}\left(t_{i}\right)$, где $\boldsymbol{a}_{j}(t)$ - известные функции нек-рого параметра $t$ (если $t$ - время, то $t_{1}, t_{2}, \ldots$ - те моменты времени, в к-рые производились наблюдения). Особенно часто встречается в приложениях случай т. н. п а р а б о л и ч е с к о й и н т е р по л я ц и и, когда $a_{j}(t)-$ многочлены (напр., $\left.a_{1}(t)-1, \quad a_{2}(t)=t, \quad a_{3}(t)=t^{2}, \ldots\right) ; \quad$ если $t_{2}-t_{1}=t_{3}-t_{2}=$ $=\ldots=t_{n}-t_{n-1}$, а наблюдения равноточные, то для вычисления оценок $X_{j}$ можно воспользоваться таблицами ортогональных многочленов. Другой важный для приложений случай - т. н. г а р м о и и е с к а я и нте р п о л ц и я, когда в качестве $a_{j}(t)$ выбирают тригонометрич. функции (напр., $a_{j}(t)=\cos (j-1) t, j=1$, $2, \ldots, m)$.
+
+П р и ме р. Для оценки точности одного из методов химич. анализа әтим методом определялась концентрация $\mathrm{CaO}$ в десяти әталонных пробах заранее известного состава. Результаты наблюдений указаны в таблице ( $i$ - номер әксперимента, $t_{i}-$ истинная концентрация $\mathrm{CaO}, T_{i}$ - концентрация $\mathrm{CaO}$, определенная в результате химич. анализа, $Y_{i}=T_{i}-t_{i}-$ ошибка химич. анализа):
+
+\begin{tabular}{c|c|c|c|c|c|c|c|c|c}
+\hline 1 &amp; 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 \\
+\hline 4 &amp; 8 &amp; 12,5 &amp; 16 &amp; 20 &amp; 25 &amp; 31 &amp; 36 &amp; 40 &amp; 40 \\
+\hline$-0,3$ &amp; $-0,2$ &amp; $-0,4$ &amp; $-0,4$ &amp; $-0,2$ &amp; $-0,5$ &amp; $+0,1$ &amp; $-0,5$ &amp; $-0,6$ &amp; $-0,5$ \\
+\hline
+\end{tabular}
+
+Если результаты химич. анализа не имеют систематич. ошибок, то $\mathrm{E} Y_{i}=0$. Если же такие ошибки имеются, то в первом приближении их можно представить в виде: $\mathrm{E} Y_{i}=\alpha+\beta t_{i}(\alpha$ наз. п о с т о я н н о й $о$ ши б-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_c8a1bbe59c1156c5bc2cg-1.jpg?height=44&amp;width=834&amp;top_left_y=1727&amp;top_left_x=987)
+или, что то же самое,
+
+\[
+\mathrm{E} Y_{i}=(\alpha+\beta \bar{t})+\beta\left(t_{i}-\bar{t}\right)
+\]
+
+где
+
+\[
+\bar{t}=\frac{1}{10} \sum_{i=1}^{10} t_{i}=23,25 .
+\]
+
+Для отыскания оценок $\alpha$ и $\beta$ достаточно оценить величины $x_{1}=\alpha+\bar{\beta} \bar{t}$ и $x_{2}=\beta$. Условные уравнения в данном случае имеют вид
+
+\[
+Y_{i}=x_{1}+x_{2}\left(t_{i}-\bar{t}\right), \quad i=1,2, \ldots, 10,
+\]
+
+поэтому $a_{i 1}=1, a_{i 2}=t_{i}-\bar{t}$ (согласно предположению о равноточности наблюдений все $\left.p_{i}=1\right)$. Так как $\left[a_{1} a_{2}\right]=$ $=\left[a_{2} a_{1}\right]=\Sigma\left(t_{i}-\bar{t}\right)=0$, то система нормальных уравнений записывается особенно просто:
+
+\[
+\left[a_{1} a_{1}\right] X_{1}=\left[Y a_{1}\right] ;\left[a_{2} a_{2}\right] X_{2}=\left[Y a_{2}\right] \text {, }
+\] где
+
+\[
+\begin{gathered}
+{\left[a_{1} a_{1}\right]=10,\left[a_{2} a_{2}\right]=\sum\left(t_{i}-\bar{t}\right)^{2}=1569,} \\
+{\left[Y a_{1}\right]=\sum Y_{i}=-3,5,} \\
+{\left[Y a_{2}\right]=\sum Y_{i}\left(t_{i}-\bar{t}\right)=-8,225 .}
+\end{gathered}
+\]
+
+Дисперсии компонент решения әтой системы суть
+
+\[
+\mathrm{D} X_{1}=\frac{k}{\left[a_{1} a_{1}\right]}=\frac{k}{10} \quad \text { и } \quad \mathrm{D} X_{2}=\frac{k}{\left[a_{2} a_{2}\right]}=\frac{k}{1569},
+\]
+
+где $k$ - неизвестная дисперсия на единицу веса (в данном случае $k$ - дисперсия любой из величин $Y_{i}$ ). Так как в этом примере компоненты решения принимают значения $X_{1}=-0,35$, и $X_{2}=-0,00524$, то
+
+\[
+\begin{gathered}
+k \approx S /(n-m)= \\
+=\frac{1}{8} \sum_{i=1}^{10}\left[Y_{i}-X_{1}-X_{2}\left(t_{i}-\bar{t}\right)\right]^{2}=0,0427, \\
+\mathrm{D} X_{1} \approx s_{1}^{2}=0,00427, \mathrm{D} X_{2} \approx s_{2}^{2}=0,000272, \\
+s_{1}=0,065, \quad s_{2}=0,00522 .
+\end{gathered}
+\]
+
+Если случайные ошибки наблюдений подчиняются нормальному распределению, то отношения $\left|X_{j}-x_{j}\right| / s_{j}$, $j=1,2$, распределены по закону Стьюдента. В частности, если результаты наблюдений лишены систематич. ошибок, то $x_{1}=x_{1}=0$, и, значит, закону Стьюдента должны подчиняться отношения $\left|X_{1}\right| ! s_{1}$ и $\left|X_{2}\right| / s_{2}$. С помощью таблиц распределения Стьюдента с $n-m=8$ степенями свободы можно убедиться, что если действительно $x_{1}=x_{2}=0$, то с вероятностью 0,999 каждое из этих отношений не должно превосхоцить 5,04 и с вероятностью 0,95 не должно превосходить 2,31 . В данном случае $\left|X_{1}\right| / s_{1}=5,38&gt;5,04$, поэтому гипотезу отсутствия систематич. ошибок целесообразно отвергнуть; в то же время следует признать, что гипотеза об отсутствии методич. ошибки $\left(x_{2}=0\right)$ не противоречит результатам наблюдений, т. к. $\left|X_{2}\right| / s_{2}=1,004&lt;2,31$. Таким образом, можно заключить, что для определения $t$ по результату наблюдения $T$ целесообразно пользоваться приближенной формулой $t=T+0,35$.
+
+С луч а й не ско льких не извест ны х (н е ли н е й ны е с в я зи). Пусть $n$ результатов измерений $Y_{i}$ связаны с $m$ неизвестными $x_{j}(m&lt;n)$ функциональной зависимостью $Y_{i}=f_{i}\left(x_{1}, x_{2}, \ldots, x_{m}\right)+\delta_{i}$; $i=1,2, \ldots, n$, где $\delta_{i}-$ независимые случайные ошибки, а функции $f_{i}$ (в общем случае нелинейные) дифференцируемы. Согласно Н. к. м. в качестве оценок для $x_{j}$ принимают такие величины $X_{j}$, для к-рых сумма квадратов
+
+\[
+S=\sum_{i=1}^{n} p_{i}\left[Y_{i}-f_{i}\left(X_{1}, X_{2}, \ldots, X_{m}\right)\right]^{2}
+\]
+
+будет наименьшей. Так как функции $f_{i}$ нелинейные, то решение нормальных уравнений $\partial S / \partial X_{j}=0$ в этом случае может представлять значительные трудности. Иногда нелинейные связи каким-либо преобразованием могут быть приведены к линейным.
+
+Напр., при намагничивании железа напряженность магнитного поля $H$ связана с магнитной индукцией $B$ эмпирич. формулой $B=H /\left(x_{1}+H x_{2}\right.$ ) (коәффициенты $x_{1}$ и $x_{2}$ определяются по измеренным значениям $B_{i}$ при заданных $H_{i}$ ). Индукция $B$ - нелинейная функция от $x_{1}$ и $x_{2}$. Однако обратная величина индукции зависит от $x_{1}$ и $x_{2}$ линейно. Применение Н. к. м. к исходному и преобразованному равенствам дает, вообще говоря, различные оценки для неизвестных $x_{1}$ и $x_{2}$, но если дисперсия случайных ошибок измерения индукции значительно меньше измеряемых величин $B_{i}$, то $\mathrm{D}(1 / B) \approx$ $\approx B^{-4}$. Поэтому величинам $1 / B_{i}$ следует приписать веса $\left(1 / B_{i}\right)^{4}$; естественно ожидать, что при этих условиях различие оценок в нелинейном и линейном случаях будет практически несущественным. В тех случаях, когда не удается тождественными преобразованиями заменить нелинейные уравнения линейными, пользуются другим способом линеаризации. Из заданных $n$ уравнений отбирают какие-либо $m$ уравнений, решение к-рых $X_{1}^{0}, X_{2}^{0}, \ldots, X_{m}^{0}$ принимают за нулевое приближение для неизвестных $x_{j}$. Если положить $\xi_{j}=X_{j}-X_{j}^{0}$, то систему условных уравнений можно записать в виде:
+
+$Y_{i}=f_{i}\left(X_{1}^{0}+\xi_{1}, X_{2}^{0}+\xi_{2}, \ldots, X_{m}^{0}+\xi_{m}\right), i=1,2, \ldots, n$. Разлагая правые части в ряд по степеням $\xi_{j}$ и ограничиваясь линейными членами, получают
+
+\[
+Y_{i}-\left(f_{i}\right)_{0}=\sum_{j=1}^{m}\left(\frac{\partial f_{i}}{\partial x_{j}}\right)_{0} \xi_{j}, i=1,2, \ldots, n,
+\]
+
+где $\left(f_{i}\right)_{0}$ и $\left(\frac{\partial f_{i}}{\partial x_{j}}\right)_{0}$ - значение функции $f_{i}$ и ее производных по $x_{j}$ при $x_{1}=X_{1}^{0}, x_{2}=X_{2}^{0}, \ldots, x_{m}=X_{m}^{0}$. Эта система уравнений линейна, и поэтому для оценки неизвестных $\xi_{j}$ легко может быть применен Н. к. м. Оценив $\xi_{j}$, получают первое приближение для неизвестных $X_{j}^{1}=X_{j}^{0}+\xi_{j}$. Величины $X_{i}^{1}$ берут за исходное приближение, и всю операцию повторяют, пока с заданной точностью не совпадут два последовательных приближения. Если дисперсии ошибок $\delta_{i}$ уменьшаются, то процесс сходится.
+
+Очень часто при малых $D \delta_{i}$ оказывается вполне достаточным уже первое приближение: не имеет смысла требовать нахождения $X_{j}$ с точностью, значительно превышающей $\sqrt{\overline{\mathrm{D} X_{j}}}$.
+
+Во многих практически важных случаях (и в частности, при огенке сложных нелинейных связей) количество неизвестных параметров бывает весьма большим, и поэтому реализация Н. к. м. оказывается әффективной лишь при использовании современной вычислительной техники.
+
+Лит.: [1] М а р к о в А. А., Исчисление вероятностей, 4 изд., М., 1924; [2] К о л м о г о р о в А. Н., &quot;Успехи матем. наукл, 1946 , т. 1 , в. 1 , с. $57-70$; [3] Л и н ни к Ю. В., Метод наименыших квадратов и основы математико-статистической теории обработии наблюдений, 2 изд., М., $1962 ;[4]$ Н а лілизе вещества, M., 1960 ; [5] He $1 \mathrm{~m}$ e r t F. R., Die Ausgleichungsrechnung nach der Methode der kleinsten Quadrate, 3 Aufl.,</text_orig>
+</article>

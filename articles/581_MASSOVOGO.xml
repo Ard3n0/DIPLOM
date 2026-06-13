@@ -1,0 +1,786 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/581_MASSOVOGO" alphabetic_pos="581">
+  <title>МАССОВОГО ОБСЛУЖИВАНИЯ СИСТЕМА</title>
+  <authors>
+    <author>А. A. Боровков</author>
+  </authors>
+  <pages>
+    <start>276</start>
+    <end>278</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/581_1_MASSOVOGO">w_{n+1}=\left[\boldsymbol{R}\left(w_{n}+\tau_{n}^{s} \boldsymbol{e}\right)-\tau_{n}^{e} \boldsymbol{i}\right]^{+} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_2_MASSOVOGO">\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n} \geqslant m-k\right\}=\mathrm{P}\left\{w_{k+1}^{0}&gt;0\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_3_MASSOVOGO">\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n}=k\right\}=\lim _{t \rightarrow \infty} \mathrm{P}\{q(t)=k\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_4_MASSOVOGO">p_{k}=\lim _{n \rightarrow \infty} P\left\{q_{n}=k\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_5_MASSOVOGO">\mu=\psi((\mu-1) m \alpha), \quad \psi(\mu)=\mathrm{E} e^{\mu \tau}{ }^{e} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_6_MASSOVOGO">p_{k}=A \mu^{k-m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_7_MASSOVOGO">W(x)=\lim _{n \rightarrow \infty} \mathbf{P}\left\{w_{n, 1}&gt;x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_8_MASSOVOGO">W(x)=\frac{A e^{-m \alpha(1-\mu) x}}{1-\mu} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_9_MASSOVOGO">\lim _{t \rightarrow \infty} P\{q(t)=k\}=P_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_10_MASSOVOGO">\begin{gathered}P_{k}=p_{k-1} / k \alpha \tau^{e} \quad \text { при } \quad 1 \leqslant k&lt;m, \\P_{k}=p_{k-1} / m \alpha \tau^{e} \quad \text { при } \quad k \geqslant m .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_11_MASSOVOGO">\begin{gathered}p_{k}=\frac{p_{0}}{k ! m^{k}} \lambda^{k} \quad \text { при } \quad 1 \leqslant k \leqslant m, \\p_{k}=\frac{p_{0}}{m ! m^{m}} \lambda^{k} \quad \text { при } \quad k \geqslant m,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_12_MASSOVOGO">\lambda=\left[\alpha m \mathrm{E} \tau^{e}\right]^{-1}&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_13_MASSOVOGO">\delta=1 / E \tau^{e}-m / E \tau^{s} \longrightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_14_MASSOVOGO">\frac{\mathrm{D} \tau^{e}}{\left(\mathrm{E} \tau^{e}\right)^{3}}+m \frac{\mathrm{D} \tau^{s}}{\left(\mathrm{E} \tau^{S}\right)^{3}} \longrightarrow \sigma^{2}&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_15_MASSOVOGO">\begin{gathered}\lim _{\delta \rightarrow 0} \mathbf{P}\{q(t)&lt;x /|\delta|\}== \\=\mathbf{P}\left\{w(u)&lt;(x-u \operatorname{sign} \delta) / \sigma ; \quad 0 \leqslant u \leqslant v^{2}\right\},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_16_MASSOVOGO">\lim _{t \rightarrow \infty} \mathrm{P}\{q(t)&lt;x \sqrt{t}\}=\sqrt{\frac{2}{\pi}} \int_{0}^{x / \sigma} e^{-u^{2} / 2} d u ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_17_MASSOVOGO">\lim _{t \rightarrow \infty} P\{q(t)&lt;\delta t+x \sqrt{t}\}=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x / \sigma} e^{-u^{2} / 2} d u .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_18_MASSOVOGO">q^{k}=\sum_{l=0}^{\infty} I\left\{\tau_{k-l}^{s}&gt;\tau_{k-l}^{e}+\ldots+\tau_{k-1}^{e}+\tau_{k}^{e}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_19_MASSOVOGO">q^{0}(x)=\sum_{k=0}^{\infty} I\left\{\tau_{k}^{s}&gt;x+\tau_{0}^{e}+\ldots+\tau_{k}^{e}\right\} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_20_MASSOVOGO">\begin{gathered}\boldsymbol{P}_{j}(x)=\mathrm{P}\left\{q^{0}(x)=j\right\}, \quad j=0,1, \ldots, \\\boldsymbol{P}(x)=\mathrm{P}\left\{\tau^{s}&gt;x\right\}, \quad F(x)=\mathbf{P}\left\{\tau^{e}&lt;x\right\}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_21_MASSOVOGO">\mathbf{P}\left\{q^{k}=j\right\}=\mathbf{P}\left\{q^{\mathbf{0}}(0)=j\right\}=\boldsymbol{P}_{j}(0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_22_MASSOVOGO">\begin{gathered}P_{k}(x)=\int_{0}^{\infty} d F(t) P(t+x) P_{k-1}(t+x)+ \\+\int_{0}^{\infty} d F(t)(1-P(t+x)) P_{k}(t+x), \quad k=1,2, \ldots\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_23_MASSOVOGO">P_{0}(x) \longrightarrow 1, \quad P_{i}(x) \longrightarrow 0 \quad \text { при } i \geqslant 1, x \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_24_MASSOVOGO">\lim _{t \rightarrow \infty} \mathbf{P}\{q(t)=k\}=\lim _{n \rightarrow \infty} \mathbf{P}\left\{q_{n}=k\right\}=\frac{(a \alpha)^{k}}{k !} e^{-a \alpha},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_25_MASSOVOGO">p_{k}=\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n}=k\right\}=\sum_{j=k}^{\infty}(-1)^{j-k}\left(\begin{array}{l}j \\k\end{array}\right) C_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_26_MASSOVOGO">\begin{gathered}C_{0}=1, \quad C_{j}=\prod_{l=1}^{j} \frac{\psi(-l \alpha)}{1-\psi(-l \alpha)}, \\j=1,2, \ldots, \psi(\lambda)=\mathrm{E} e^{\lambda \tau^{e}},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_27_MASSOVOGO">\lim _{t \rightarrow \infty} \mathrm{P}\{q(t)=k\}=p_{k-1} / k \alpha E \tau^{e}, \quad k=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_28_MASSOVOGO">\xi_{T}(t)=\frac{e_{T}(t)-T m(t)}{B(t)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_29_MASSOVOGO">m(t)=t / \mathrm{E} \tau_{j}, \quad B^{2}(T)=T \mathrm{D} \tau_{j} /\left(\mathrm{E} \tau_{j}\right)^{3},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_30_MASSOVOGO">z_{1}(t)=\frac{q(t)-T Q(t)}{B(t)},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_31_MASSOVOGO">Q(t)=\int_{0}^{t} G(t-u) d m(u), \quad G(t)=\mathrm{P}\left\{\tau_{j}^{\mathrm{s}} \geqslant t\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_32_MASSOVOGO">\xi_{1}(t)=\int_{0}^{t} G(t-u) d \xi(u) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_33_MASSOVOGO">z_{2}(t)=\frac{q(t)-T Q(t)}{V \bar{T}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/581_34_MASSOVOGO">\zeta_{2}(t)=\theta(t)+\sigma \int_{0}^{t} G(t-u) d \xi(u),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_1_MASSOVOGO">\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_2_MASSOVOGO">0, \tau_{1}^{e}, \tau_{1}^{e}+\tau_{2}^{e}, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_3_MASSOVOGO">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_4_MASSOVOGO">\tau_{j}^{\varsigma}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_5_MASSOVOGO">m \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_6_MASSOVOGO">t=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_7_MASSOVOGO">w_{n}=\left(w_{n}, 1, \ldots, w_{n, m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_8_MASSOVOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_9_MASSOVOGO">w_{n, i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_10_MASSOVOGO">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_11_MASSOVOGO">w_{n, 1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_12_MASSOVOGO">x^{+}=\max (0, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_13_MASSOVOGO">x^{+}=\left(x_{1}^{+}, \ldots, x_{m}^{+}\right), \boldsymbol{e}=(1,0, \ldots, 0), \quad i=(1,1, \ldots, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_14_MASSOVOGO">\boldsymbol{r}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_15_MASSOVOGO">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_16_MASSOVOGO">\boldsymbol{r}(\boldsymbol{x})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_17_MASSOVOGO">\left.\min \left(x_{1}, \ldots, x_{\boldsymbol{m}}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_18_MASSOVOGO">w_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_19_MASSOVOGO">\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\} \in G_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_20_MASSOVOGO">\mathrm{e}\left(\tau_{n}^{s}-\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_21_MASSOVOGO">\left.-m \tau_{n}^{e}\right)&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_22_MASSOVOGO">\left\{w^{k}\right\} \in G_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_23_MASSOVOGO">w_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_24_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_25_MASSOVOGO">w^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_26_MASSOVOGO">v_{j}^{e} \not 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_27_MASSOVOGO">q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_28_MASSOVOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_29_MASSOVOGO">q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_30_MASSOVOGO">\boldsymbol{w}_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_31_MASSOVOGO">q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_32_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in G_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_33_MASSOVOGO">\boldsymbol{w}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_34_MASSOVOGO">w_{k}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_35_MASSOVOGO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_36_MASSOVOGO">\boldsymbol{w}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_37_MASSOVOGO">k \geqslant m-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_38_MASSOVOGO">\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n}&gt;k\right\}=\mathrm{P}\left\{w_{1}^{e}&gt;\tau_{1}^{e}+\ldots+\tau_{k-m+1}^{e}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_39_MASSOVOGO">m&gt;k \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_40_MASSOVOGO">\tau_{j}^{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_41_MASSOVOGO">q(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_42_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_43_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_44_MASSOVOGO">q_{n}, q(t), w_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_45_MASSOVOGO">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_46_MASSOVOGO">\tau_{j}^{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_47_MASSOVOGO">\alpha m \mathrm{E} \tau^{e}&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_48_MASSOVOGO">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_49_MASSOVOGO">\psi(-j \alpha), j=1, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_50_MASSOVOGO">\mu-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_51_MASSOVOGO">|\mu|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_52_MASSOVOGO">k&gt;m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_53_MASSOVOGO">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_54_MASSOVOGO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_55_MASSOVOGO">\tau_{j}^{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_56_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in E,\left\{\tau_{j}^{s}\right\} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_57_MASSOVOGO">\boldsymbol{w}^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_58_MASSOVOGO">\tau_{j}^{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_59_MASSOVOGO">\tau_{j}^{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_60_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in G_{I}, \quad\left\{\tau_{j}^{s}\right\} \in G_{I}, \quad \mathrm{E}\left(\tau_{n}^{s}-m \tau_{n}^{e}\right)&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_61_MASSOVOGO">\tau_{j}^{(n) e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_62_MASSOVOGO">\tau_{j}^{(n) s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_63_MASSOVOGO">\tau_{j}^{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_64_MASSOVOGO">\tau_{j}^{s} \mathbf{и}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_65_MASSOVOGO">w^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_66_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in G_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_67_MASSOVOGO">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_68_MASSOVOGO">v_{j}^{e} \neq 1, v_{i}^{s} \neq 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_69_MASSOVOGO">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_70_MASSOVOGO">v^{e} / \mathrm{E \tau}^{e}-m \mathrm{E} v^{s} / \mathrm{E \tau}{ }^{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_71_MASSOVOGO">\mathrm{e}\left|\tau^{e}\right|^{2+\varepsilon}, \quad \mathrm{E}\left|\tau^{s}\right|^{2+\varepsilon}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_72_MASSOVOGO">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_73_MASSOVOGO">q(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_74_MASSOVOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_75_MASSOVOGO">t \rightarrow \infty, \delta \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_76_MASSOVOGO">\delta \sqrt{t} \rightarrow v, v \geqslant-\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_77_MASSOVOGO">w(u)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_78_MASSOVOGO">\delta \sqrt{t} \longrightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_79_MASSOVOGO">\delta \sqrt{t} \rightarrow \infty, \delta&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_80_MASSOVOGO">q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_81_MASSOVOGO">w_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_82_MASSOVOGO">\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_83_MASSOVOGO">q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_84_MASSOVOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_85_MASSOVOGO">q(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_86_MASSOVOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_87_MASSOVOGO">q_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_88_MASSOVOGO">q(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_89_MASSOVOGO">q_{1}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_90_MASSOVOGO">\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\} \in G_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_91_MASSOVOGO">\left\{\tau_{j}^{e}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_92_MASSOVOGO">е \tau_{j}^{s}&lt;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_93_MASSOVOGO">&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_94_MASSOVOGO">\left\{q_{n+k}\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_95_MASSOVOGO">k \geqslant 0\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_96_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_97_MASSOVOGO">i\{a\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_98_MASSOVOGO">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_99_MASSOVOGO">\mathrm{e \tau}_{j}^{\mathrm{s}}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_100_MASSOVOGO">m=\infty,\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in G_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_101_MASSOVOGO">q^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_102_MASSOVOGO">q^{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_103_MASSOVOGO">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_104_MASSOVOGO">p_{j}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_105_MASSOVOGO">p_{-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_106_MASSOVOGO">k+1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_107_MASSOVOGO">p_{0}(x), \ldots, P_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_108_MASSOVOGO">q(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_109_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in E, \quad\left\{\tau_{j}^{s}\right\} \in G_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_110_MASSOVOGO">a=e \tau_{j}^{s}, \alpha-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_111_MASSOVOGO">\tau_{j}^{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_112_MASSOVOGO">\left\{\tau_{j}^{e}\right\} \in G_{l},\left\{\tau_{j}^{s}\right\} \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_113_MASSOVOGO">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_114_MASSOVOGO">\tau_{j}^{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_115_MASSOVOGO">\boldsymbol{\tau}_{j}^{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_116_MASSOVOGO">m=\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_117_MASSOVOGO">q^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_118_MASSOVOGO">\left\{\tau^{(n) l}, \tau^{(n) s}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_119_MASSOVOGO">n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_120_MASSOVOGO">\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\} \in G_{S}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_121_MASSOVOGO">\left\{\tau_{j}^{(n) e}, \tau_{j}^{(n) s}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_122_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_123_MASSOVOGO">\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_124_MASSOVOGO">\mathrm{e} \tau_{j}^{(n) s} \rightarrow \mathrm{E} \tau_{j}^{s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_125_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_126_MASSOVOGO">\tau_{-j}^{s}-\sum_{k=-j}^{0} \tau_{k}^{e} \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_127_MASSOVOGO">j \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_128_MASSOVOGO">\left\{q^{(n) k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_129_MASSOVOGO">\left.\left\{\tau_{j}^{(n) e}, \tau_{j}^{(n) s}\right\}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_130_MASSOVOGO">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_131_MASSOVOGO">\left\{q^{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_132_MASSOVOGO">\left\{q^{(n) k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_133_MASSOVOGO">e(t)=e_{t}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_134_MASSOVOGO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_135_MASSOVOGO">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_136_MASSOVOGO">e_{t}(t) \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_137_MASSOVOGO">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_138_MASSOVOGO">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_139_MASSOVOGO">m(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_140_MASSOVOGO">b(t) \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_141_MASSOVOGO">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_142_MASSOVOGO">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_143_MASSOVOGO">\left[0, t_{0}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_144_MASSOVOGO">f\left(\xi_{t}(t)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_145_MASSOVOGO">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_146_MASSOVOGO">f(\xi(t))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_147_MASSOVOGO">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_148_MASSOVOGO">\left\{\tau_{j}\right\} \in G_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_149_MASSOVOGO">\tau_{j}^{e}=\tau_{j} / T</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_150_MASSOVOGO">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_151_MASSOVOGO">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_152_MASSOVOGO">\left\{\tau_{j}^{s}\right\} \in G_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_153_MASSOVOGO">b(t) ! \sqrt{T} \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_154_MASSOVOGO">t \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_155_MASSOVOGO">b(t) / \sqrt{T} \rightarrow \sigma \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_156_MASSOVOGO">\theta(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_157_MASSOVOGO">\xi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_158_MASSOVOGO">\mathrm{e} \Theta(t) \Theta(t+u)=\int_{0}^{t} G(t+u-v)(1-G(t-v)) d m(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_159_MASSOVOGO">m(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_160_MASSOVOGO">g(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_161_MASSOVOGO">z_{i}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_162_MASSOVOGO">\zeta_{i}(t), i=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_163_MASSOVOGO">f\left(z_{i}(t)\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_164_MASSOVOGO">f\left(\zeta_{i}(t)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/581_165_MASSOVOGO">t \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/me/relation/581_1_MASSOVOGO">
+      <rel_text>Массового обслуживания теория</rel_text>
+      <target>http://libmeta.ru/me/article/583_MASSOVOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/581_2_MASSOVOGO">
+      <rel_text>Массового обслуживания система</rel_text>
+      <target>http://libmeta.ru/me/article/581_MASSOVOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/581_3_MASSOVOGO">
+      <rel_text>метрики</rel_text>
+      <target>http://libmeta.ru/me/article/652_METRIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/581_4_MASSOVOGO">
+      <rel_text>равномерной</rel_text>
+      <target>http://libmeta.ru/me/article/766_RAVNOVELIKA</target>
+    </relation>
+  </relations>
+  <text>С О Ж Ид а н и е м мн о г о к а на ль н а я - система массового обслуживания, алгоритм к-рой предусматривает накапливание вызовов в очереди, если в момент их прихода система оказалась занятой; при этом обслуживание вызовов ведется в нескольких каналах одновременно. Основные определения и обозначения см. в ст. URI[[http://libmeta.ru/me/relation/581_2_MASSOVOGO]]/URI.
+
+Функционирование многоканальных систем с очередью, управляемых последовательностью $URI[[http://libmeta.ru/me/formula/aux/581_1_MASSOVOGO]]/URI$, происходит следующим образом. Вызовы прибывают в моменты времени $URI[[http://libmeta.ru/me/formula/aux/581_2_MASSOVOGO]]/URI$. На обслуживание вызова с номером $URI[[http://libmeta.ru/me/formula/aux/581_3_MASSOVOGO]]/URI$ тратится время $URI[[http://libmeta.ru/me/formula/aux/581_4_MASSOVOGO]]/URI$, в каком бы из $URI[[http://libmeta.ru/me/formula/aux/581_5_MASSOVOGO]]/URI$ каналов ни обслуживался әтот вызов. Пришедшие вызовы тут же направляются (в порядке поступления) в любой свободный канал, если каналы не все заняты, или Ждут, когда освободится какойнибудь из каналов, куда и поступают на обслуживание. Пусть для простоты в момент времени $URI[[http://libmeta.ru/me/formula/aux/581_6_MASSOVOGO]]/URI$ система свободна.
+
+1) Для наглядности изложения использованы следующие обозначения: $URI[[http://libmeta.ru/me/formula/aux/581_7_MASSOVOGO]]/URI$ - вектор времени ожидания $URI[[http://libmeta.ru/me/formula/aux/581_8_MASSOVOGO]]/URI$-го вызова, где $URI[[http://libmeta.ru/me/formula/aux/581_9_MASSOVOGO]]/URI$ время, к-рое должен ждать этот вызов до освобождения $URI[[http://libmeta.ru/me/formula/aux/581_10_MASSOVOGO]]/URI$ каналов от вызовов, пришедших раньше, чем он; так что $URI[[http://libmeta.ru/me/formula/aux/581_11_MASSOVOGO]]/URI$ - «истинное» время ожидания. Пусть, кроме того, $URI[[http://libmeta.ru/me/formula/aux/581_12_MASSOVOGO]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/581_13_MASSOVOGO]]/URI$, а вектор $URI[[http://libmeta.ru/me/formula/aux/581_14_MASSOVOGO]]/URI$ получен из $URI[[http://libmeta.ru/me/formula/aux/581_15_MASSOVOGO]]/URI$ упорядочиванием по возрастанию его координат (так что первая координата $URI[[http://libmeta.ru/me/formula/aux/581_16_MASSOVOGO]]/URI$ равна $URI[[http://libmeta.ru/me/formula/aux/581_17_MASSOVOGO]]/URI$. Тогда имеет место следующее рекуррентное соотношение для $URI[[http://libmeta.ru/me/formula/aux/581_18_MASSOVOGO]]/URI$, обобщающее свой одномерный аналог
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_1_MASSOVOGO]]/URI
+\]
+
+Если последовательность $URI[[http://libmeta.ru/me/formula/aux/581_19_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_20_MASSOVOGO]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/581_21_MASSOVOGO]]/URI$, то существует собственная последовательность $URI[[http://libmeta.ru/me/formula/aux/581_22_MASSOVOGO]]/URI$, удовлетворяющая (1) и такая, что функция распределения $URI[[http://libmeta.ru/me/formula/aux/581_23_MASSOVOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/581_24_MASSOVOGO]]/URI$ монотонно сходится к функции распределения $URI[[http://libmeta.ru/me/formula/aux/581_25_MASSOVOGO]]/URI$. Это утверждение допускает обобщение на случай $URI[[http://libmeta.ru/me/formula/aux/581_26_MASSOVOGO]]/URI$ и распространяется также на длину $URI[[http://libmeta.ru/me/formula/aux/581_27_MASSOVOGO]]/URI$ очереди в момент прихода $URI[[http://libmeta.ru/me/formula/aux/581_28_MASSOVOGO]]/URI$-го вызова (под $URI[[http://libmeta.ru/me/formula/aux/581_29_MASSOVOGO]]/URI$ понимают очередь, включая вызовы, находящиеся на обслуживании). Существуют формулы, связывающие предельные распределения для $URI[[http://libmeta.ru/me/formula/aux/581_30_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_31_MASSOVOGO]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/581_32_MASSOVOGO]]/URI$, то (1) позволяет записать интегральное уравнение для стационарного распределения $URI[[http://libmeta.ru/me/formula/aux/581_33_MASSOVOGO]]/URI$. В этом случае можно указать также простые связи между стационарными распределениями длины очереди и времени ожидания. Именно, если $URI[[http://libmeta.ru/me/formula/aux/581_34_MASSOVOGO]]/URI$ означает $URI[[http://libmeta.ru/me/formula/aux/581_35_MASSOVOGO]]/URI$-ю координату вектора $URI[[http://libmeta.ru/me/formula/aux/581_36_MASSOVOGO]]/URI$, то при $URI[[http://libmeta.ru/me/formula/aux/581_37_MASSOVOGO]]/URI$ существуют
+
+$URI[[http://libmeta.ru/me/formula/aux/581_38_MASSOVOGO]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/581_39_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_2_MASSOVOGO]]/URI
+\] Здесь все случайные величины, стоящие под знаком вероятности, независимы.
+
+Если, кроме того, распределение $URI[[http://libmeta.ru/me/formula/aux/581_40_MASSOVOGO]]/URI$ нерешетчато, то аналогичные формулы верны и для предельного распределения $URI[[http://libmeta.ru/me/formula/aux/581_41_MASSOVOGO]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/581_42_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_3_MASSOVOGO]]/URI
+\]
+
+2) Если $URI[[http://libmeta.ru/me/formula/aux/581_43_MASSOVOGO]]/URI$, то можно указать явные формулы для предельных распределений $URI[[http://libmeta.ru/me/formula/aux/581_44_MASSOVOGO]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/581_45_MASSOVOGO]]/URI$ - показатель распределения $URI[[http://libmeta.ru/me/formula/aux/581_46_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_47_MASSOVOGO]]/URI$. Тогда числа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_4_MASSOVOGO]]/URI
+\]
+
+описываются как известного вида рациональные функции от значений $URI[[http://libmeta.ru/me/formula/aux/581_48_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_49_MASSOVOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/581_50_MASSOVOGO]]/URI$ едінственный корень в области $URI[[http://libmeta.ru/me/formula/aux/581_51_MASSOVOGO]]/URI$ уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_5_MASSOVOGO]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/581_52_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_6_MASSOVOGO]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/me/formula/aux/581_53_MASSOVOGO]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/581_54_MASSOVOGO]]/URI$ не зависит. Для предельного распределения времени ожидания
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_7_MASSOVOGO]]/URI
+\]
+
+имеет место равенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_8_MASSOVOGO]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/581_55_MASSOVOGO]]/URI$ - нерешетчатая случайная величина, то существуіот
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_9_MASSOVOGO]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_10_MASSOVOGO]]/URI
+\]
+
+В случае $URI[[http://libmeta.ru/me/formula/aux/581_56_MASSOVOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_11_MASSOVOGO]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_12_MASSOVOGO]]/URI
+\]
+
+3) Теоремы устойчивости (о непрерывной зависимости стационарного распределения $URI[[http://libmeta.ru/me/formula/aux/581_57_MASSOVOGO]]/URI$ от распределений $URI[[http://libmeta.ru/me/formula/aux/581_58_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_59_MASSOVOGO]]/URI$ ) получены в менее общей форме, чем для одноканальных систем, и связаны с условием о существовании т. н. обновляющих событий. Однако в случае $URI[[http://libmeta.ru/me/formula/aux/581_60_MASSOVOGO]]/URI$ это условие с необходимостью выполнено. Если для таких систем в схеме серий распределения $URI[[http://libmeta.ru/me/formula/aux/581_61_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_62_MASSOVOGO]]/URI$ слабо сходятся соответственно к распределениям $URI[[http://libmeta.ru/me/formula/aux/581_63_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_64_MASSOVOGO]]/URI$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a3b452e659093a9a7975g-1.jpg?height=42&amp;width=828&amp;top_left_y=2008&amp;top_left_x=122)
+слабо сходится к распределению $URI[[http://libmeta.ru/me/formula/aux/581_65_MASSOVOGO]]/URI$.
+
+4) Асимптотич. методы исследования многоканальных систем для больших нагрузок дают результаты, аналогичные соответствующим результатам для одноканальных сшстем.
+
+Пусть в схеме серий для управляющих последовательностей $URI[[http://libmeta.ru/me/formula/aux/581_66_MASSOVOGO]]/URI$ выполнено условие
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_13_MASSOVOGO]]/URI
+\]
+
+( $URI[[http://libmeta.ru/me/formula/aux/581_67_MASSOVOGO]]/URI$ равно разности между средним количеством вызовов, поступивших в систему, и средним количеством вызовов, к-рое система может обслужить за единицу времени; если $URI[[http://libmeta.ru/me/formula/aux/581_68_MASSOVOGO]]/URI$, то в качестве параметра $URI[[http://libmeta.ru/me/formula/aux/581_69_MASSOVOGO]]/URI$ можно выбрать число Еv $URI[[http://libmeta.ru/me/formula/aux/581_70_MASSOVOGO]]/URI$, имеюгее тот же смысл). Тогда если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_14_MASSOVOGO]]/URI
+\]
+
+И $URI[[http://libmeta.ru/me/formula/aux/581_71_MASSOVOGO]]/URI$ равномерно ограничены при нек-ром $URI[[http://libmeta.ru/me/formula/aux/581_72_MASSOVOGO]]/URI$, то для длины $URI[[http://libmeta.ru/me/formula/aux/581_73_MASSOVOGO]]/URI$ очереди в момент времени $URI[[http://libmeta.ru/me/formula/aux/581_74_MASSOVOGO]]/URI$ справедливы при $URI[[http://libmeta.ru/me/formula/aux/581_75_MASSOVOGO]]/URI$ следуюшце соотношения:
+
+при $URI[[http://libmeta.ru/me/formula/aux/581_76_MASSOVOGO]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_15_MASSOVOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/581_77_MASSOVOGO]]/URI$ - стандартный винеровский процесс; при $URI[[http://libmeta.ru/me/formula/aux/581_78_MASSOVOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_16_MASSOVOGO]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/581_79_MASSOVOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_17_MASSOVOGO]]/URI
+\]
+
+Аналогичные соотношения верны для длины $URI[[http://libmeta.ru/me/formula/aux/581_80_MASSOVOGO]]/URI$ очереди и для времени $URI[[http://libmeta.ru/me/formula/aux/581_81_MASSOVOGO]]/URI$ ожидания.
+
+Другое возможное направление асимптотич. исследований для многоканальных систем состоит в изучении систем с интенсивным входным потоком и неограниченно возрастающим (вместе с E(e(1)-e(0))) числом каналов обслуживания.
+
+5) Поведение многоканальных систем с бесконечным числом каналов обслуживания, управляемых последовательностью $URI[[http://libmeta.ru/me/formula/aux/581_82_MASSOVOGO]]/URI$, описывается так же, как поведение многоканальных систем с очередью, с той лишь разницей, что здесь всегда есть свободные каналы и, следовательно, время ожидания для любого вызова равно 0. В качестве характеристики состояния системы рассматривают число $URI[[http://libmeta.ru/me/formula/aux/581_83_MASSOVOGO]]/URI$ занятых линий в момент прихода $URI[[http://libmeta.ru/me/formula/aux/581_84_MASSOVOGO]]/URI$-го вызова или число $URI[[http://libmeta.ru/me/formula/aux/581_85_MASSOVOGO]]/URI$ занятых линий в момент времени $URI[[http://libmeta.ru/me/formula/aux/581_86_MASSOVOGO]]/URI$ (как и везде выше $URI[[http://libmeta.ru/me/formula/aux/581_87_MASSOVOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/581_88_MASSOVOGO]]/URI$ - длины очереди и $URI[[http://libmeta.ru/me/formula/aux/581_89_MASSOVOGO]]/URI$ ).
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/581_90_MASSOVOGO]]/URI$ и, кроме того, последовательность $URI[[http://libmeta.ru/me/formula/aux/581_91_MASSOVOGO]]/URI$ метрически транзитивна. Тогда если $URI[[http://libmeta.ru/me/formula/aux/581_92_MASSOVOGO]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/581_93_MASSOVOGO]]/URI$, то распределение последовательности $URI[[http://libmeta.ru/me/formula/aux/581_94_MASSOVOGO]]/URI$; $URI[[http://libmeta.ru/me/formula/aux/581_95_MASSOVOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/581_96_MASSOVOGO]]/URI$ монотонно сходится к распределению собственной стационарной последовательности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_18_MASSOVOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/581_97_MASSOVOGO]]/URI$ индикатор события $URI[[http://libmeta.ru/me/formula/aux/581_98_MASSOVOGO]]/URI$. Условие $URI[[http://libmeta.ru/me/formula/aux/581_99_MASSOVOGO]]/URI$ близко к необходимому условию для конечности (2).
+
+6) Для систем, у к-рых $URI[[http://libmeta.ru/me/formula/aux/581_100_MASSOVOGO]]/URI$, распределение стационарной длины $URI[[http://libmeta.ru/me/formula/aux/581_101_MASSOVOGO]]/URI$ очереди можно описать с помощью уравнений. Для этого следует ввести величины
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_19_MASSOVOGO]]/URI
+\]
+
+Число $URI[[http://libmeta.ru/me/formula/aux/581_102_MASSOVOGO]]/URI$ указывает, сколько вызовов осталось в системе, работающей в стационарном режиме, спустя время $URI[[http://libmeta.ru/me/formula/aux/581_103_MASSOVOGO]]/URI$ после прихода нек-рого вызова, но без учета данного вызова и всех вызовов, поступающих после него. Обозначив
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_20_MASSOVOGO]]/URI
+\]
+
+получают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_21_MASSOVOGO]]/URI
+\]
+
+система функций $URI[[http://libmeta.ru/me/formula/aux/581_104_MASSOVOGO]]/URI$ удовлетворяет уравнениям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_22_MASSOVOGO]]/URI
+\]
+
+Здесь $URI[[http://libmeta.ru/me/formula/aux/581_105_MASSOVOGO]]/URI$ следует положить, равной 0 . Каждые из первых $URI[[http://libmeta.ru/me/formula/aux/581_106_MASSOVOGO]]/URI$ уравнений этой системы относительно $URI[[http://libmeta.ru/me/formula/aux/581_107_MASSOVOGO]]/URI$ имего единственное решение в классе функций ограниченной вариации, обладающих свойствами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_23_MASSOVOGO]]/URI
+\]
+
+Аналогичные утверждения справедливы для распределения прогесса $URI[[http://libmeta.ru/me/formula/aux/581_108_MASSOVOGO]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/581_109_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_24_MASSOVOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/581_110_MASSOVOGO]]/URI$ показатель распределения $URI[[http://libmeta.ru/me/formula/aux/581_111_MASSOVOGO]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/581_112_MASSOVOGO]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_25_MASSOVOGO]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_26_MASSOVOGO]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/581_113_MASSOVOGO]]/URI$ - показатель распределения $URI[[http://libmeta.ru/me/formula/aux/581_114_MASSOVOGO]]/URI$. Если, кроме того, $URI[[http://libmeta.ru/me/formula/aux/581_115_MASSOVOGO]]/URI$ - нерешетчатые случайные величины, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_27_MASSOVOGO]]/URI
+\]
+
+7) Теоремы устойчивости в случае $URI[[http://libmeta.ru/me/formula/aux/581_116_MASSOVOGO]]/URI$, как и в предыдущих разделах, выясняют условия, при к-рых малое изменение управляющих последовательностей влечет за собой малое изменение стационарного распределения числа $URI[[http://libmeta.ru/me/formula/aux/581_117_MASSOVOGO]]/URI$ занятых линий.
+
+Для схемы серий, когда система управляется стационарными последовательностями $URI[[http://libmeta.ru/me/formula/aux/581_118_MASSOVOGO]]/URI$, зависящими от параметра $URI[[http://libmeta.ru/me/formula/aux/581_119_MASSOVOGO]]/URI$, пусть выполнены следующие условия.
+
+(a) Существует последовательность $URI[[http://libmeta.ru/me/formula/aux/581_120_MASSOVOGO]]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d9d406274813767004eg-1.jpg?height=42&amp;width=831&amp;top_left_y=1790&amp;top_left_x=120)
+конечномерные распределения $URI[[http://libmeta.ru/me/formula/aux/581_121_MASSOVOGO]]/URI$ сходятся при $URI[[http://libmeta.ru/me/formula/aux/581_122_MASSOVOGO]]/URI$ к распределениям $URI[[http://libmeta.ru/me/formula/aux/581_123_MASSOVOGO]]/URI$.
+
+(b) $URI[[http://libmeta.ru/me/formula/aux/581_124_MASSOVOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/581_125_MASSOVOGO]]/URI$
+
+(c) Распределения $URI[[http://libmeta.ru/me/formula/aux/581_126_MASSOVOGO]]/URI$ при всех $URI[[http://libmeta.ru/me/formula/aux/581_127_MASSOVOGO]]/URI$ непрерывны ,в точке 0 .
+
+Теорема устойчивости утверждает тогда, что при выполнении условий (а), (в), (с) распределения последовательностей $URI[[http://libmeta.ru/me/formula/aux/581_128_MASSOVOGO]]/URI$ длин очередей (к-рые определяются равенством (2) с управляющими последовательностями $URI[[http://libmeta.ru/me/formula/aux/581_129_MASSOVOGO]]/URI$ сходятся при $URI[[http://libmeta.ru/me/formula/aux/581_130_MASSOVOGO]]/URI$ к распределениям $URI[[http://libmeta.ru/me/formula/aux/581_131_MASSOVOGO]]/URI$.
+
+Все три условия (a), (b), (c), присутствующие в әтом утверждении, существенны; отказ хотя бы от одного из них сразу позволяет строить примеры, где сходимость распределений $URI[[http://libmeta.ru/me/formula/aux/581_132_MASSOVOGO]]/URI$ отсутствует. 8) Асимптотич. анализ систем с бесконечным числом каналов обслуживания становится естественным и эффективным при изучении т. н. нагруженных систем, когда велика интенсивность входного потока. Несомненным преимуществом асимптотич. подхода является большая общность и универсальность установленных закономерностей.
+
+Пусть входной поток $URI[[http://libmeta.ru/me/formula/aux/581_133_MASSOVOGO]]/URI$, означающий число вызовов, поступавших в систему к моменту времени $URI[[http://libmeta.ru/me/formula/aux/581_134_MASSOVOGO]]/URI$, зависит от параметра $URI[[http://libmeta.ru/me/formula/aux/581_135_MASSOVOGO]]/URI$ (схема серий), так что $URI[[http://libmeta.ru/me/formula/aux/581_136_MASSOVOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/581_137_MASSOVOGO]]/URI$ для каждого фиксированного $URI[[http://libmeta.ru/me/formula/aux/581_138_MASSOVOGO]]/URI$, и, кроме того, существуют неубывающая функция $URI[[http://libmeta.ru/me/formula/aux/581_139_MASSOVOGO]]/URI$, функция $URI[[http://libmeta.ru/me/formula/aux/581_140_MASSOVOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/581_141_MASSOVOGO]]/URI$ и непрерывный случайный процесс $URI[[http://libmeta.ru/me/formula/aux/581_142_MASSOVOGO]]/URI$, заданный на $URI[[http://libmeta.ru/me/formula/aux/581_143_MASSOVOGO]]/URI$, такие, что распределения $URI[[http://libmeta.ru/me/formula/aux/581_144_MASSOVOGO]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_28_MASSOVOGO]]/URI
+\]
+
+слабо сходятся при $URI[[http://libmeta.ru/me/formula/aux/581_145_MASSOVOGO]]/URI$ к распределению $URI[[http://libmeta.ru/me/formula/aux/581_146_MASSOVOGO]]/URI$ для любого измеримого и непрерывного относительно равномерной метрики функционала $URI[[http://libmeta.ru/me/formula/aux/581_147_MASSOVOGO]]/URI$.
+
+Если, напр., $URI[[http://libmeta.ru/me/formula/aux/581_148_MASSOVOGO]]/URI$ и управление системой происходит с помоцью последовательности $URI[[http://libmeta.ru/me/formula/aux/581_149_MASSOVOGO]]/URI$, то сформулированные условия будут выполнены при любом $URI[[http://libmeta.ru/me/formula/aux/581_150_MASSOVOGO]]/URI$, при этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_29_MASSOVOGO]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/581_151_MASSOVOGO]]/URI$ - стандартный винеровский процесс.
+
+Относительно обслуживающего устройства предполагают, что $URI[[http://libmeta.ru/me/formula/aux/581_152_MASSOVOGO]]/URI$. Тогда:
+
+1) Если $URI[[http://libmeta.ru/me/formula/aux/581_153_MASSOVOGO]]/URI$, то конечномерные распределения нормированного процесса очереди
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_30_MASSOVOGO]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/581_31_MASSOVOGO]]/URI
+\]
+
+слабо сходятся при $URI[[http://libmeta.ru/me/formula/aux/581_154_MASSOVOGO]]/URI$ к распределениям процесса
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_32_MASSOVOGO]]/URI
+\]
+
+2) Если $URI[[http://libmeta.ru/me/formula/aux/581_155_MASSOVOGO]]/URI$, то конечномерные распределения процесса
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_33_MASSOVOGO]]/URI
+\]
+
+слабо сходятся к конечномерным распределениям процесса
+
+\[
+URI[[http://libmeta.ru/me/formula/main/581_34_MASSOVOGO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/581_156_MASSOVOGO]]/URI$ - центрированный гауссовский процесс, не зависящий от $URI[[http://libmeta.ru/me/formula/aux/581_157_MASSOVOGO]]/URI$, с ковариационной функцией
+
+$URI[[http://libmeta.ru/me/formula/aux/581_158_MASSOVOGO]]/URI$.
+
+Если потребовать от функций $URI[[http://libmeta.ru/me/formula/aux/581_159_MASSOVOGO]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/581_160_MASSOVOGO]]/URI$ нек-рой гладкости, то сходимость процессов $URI[[http://libmeta.ru/me/formula/aux/581_161_MASSOVOGO]]/URI$ к процессам $URI[[http://libmeta.ru/me/formula/aux/581_162_MASSOVOGO]]/URI$, будет иметь место и в более сильном смысле (напр., сходимость распределений $URI[[http://libmeta.ru/me/formula/aux/581_163_MASSOVOGO]]/URI$ ) к $URI[[http://libmeta.ru/me/formula/aux/581_164_MASSOVOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/581_165_MASSOVOGO]]/URI$ для всех функционалов, непрерывных относительно URI[[http://libmeta.ru/me/relation/581_4_MASSOVOGO]]/URI URI[[http://libmeta.ru/me/relation/581_3_MASSOVOGO]]/URI).
+
+Лит. см. при ст. URI[[http://libmeta.ru/me/relation/581_1_MASSOVOGO]]/URI.
+
+Лит. см. пр</text>
+  <text_orig>С О Ж Ид а н и е м мн о г о к а на ль н а я - система массового обслуживания, алгоритм к-рой предусматривает накапливание вызовов в очереди, если в момент их прихода система оказалась занятой; при этом обслуживание вызовов ведется в нескольких каналах одновременно. Основные определения и обозначения см. в ст. Массового обслуживания система.
+
+Функционирование многоканальных систем с очередью, управляемых последовательностью $\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\}$, происходит следующим образом. Вызовы прибывают в моменты времени $0, \tau_{1}^{e}, \tau_{1}^{e}+\tau_{2}^{e}, \ldots$. На обслуживание вызова с номером $i$ тратится время $\tau_{j}^{\varsigma}$, в каком бы из $m \geqslant 1$ каналов ни обслуживался әтот вызов. Пришедшие вызовы тут же направляются (в порядке поступления) в любой свободный канал, если каналы не все заняты, или Ждут, когда освободится какойнибудь из каналов, куда и поступают на обслуживание. Пусть для простоты в момент времени $t=0$ система свободна.
+
+1) Для наглядности изложения использованы следующие обозначения: $w_{n}=\left(w_{n}, 1, \ldots, w_{n, m}\right)$ - вектор времени ожидания $n$-го вызова, где $w_{n, i}-$ время, к-рое должен ждать этот вызов до освобождения $i$ каналов от вызовов, пришедших раньше, чем он; так что $w_{n, 1}$ - «истинное» время ожидания. Пусть, кроме того, $x^{+}=\max (0, x)$,
+
+$x^{+}=\left(x_{1}^{+}, \ldots, x_{m}^{+}\right), \boldsymbol{e}=(1,0, \ldots, 0), \quad i=(1,1, \ldots, 1)$, а вектор $\boldsymbol{R}(x)$ получен из $x$ упорядочиванием по возрастанию его координат (так что первая координата $\boldsymbol{R}(\boldsymbol{x})$ равна $\left.\min \left(x_{1}, \ldots, x_{\boldsymbol{m}}\right)\right)$. Тогда имеет место следующее рекуррентное соотношение для $w_{n}$, обобщающее свой одномерный аналог
+
+\[
+w_{n+1}=\left[\boldsymbol{R}\left(w_{n}+\tau_{n}^{s} \boldsymbol{e}\right)-\tau_{n}^{e} \boldsymbol{i}\right]^{+} .
+\]
+
+Если последовательность $\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\} \in G_{S}$ и $\mathrm{E}\left(\tau_{n}^{s}-\right.$ $\left.-m \tau_{n}^{e}\right)&lt;0$, то существует собственная последовательность $\left\{w^{k}\right\} \in G_{S}$, удовлетворяющая (1) и такая, что функция распределения $w_{n}$ при $n \rightarrow \infty$ монотонно сходится к функции распределения $w^{0}$. Это утверждение допускает обобщение на случай $v_{j}^{e} \not 1$ и распространяется также на длину $q_{n}$ очереди в момент прихода $n$-го вызова (под $q_{n}$ понимают очередь, включая вызовы, находящиеся на обслуживании). Существуют формулы, связывающие предельные распределения для $\boldsymbol{w}_{n}$ и $q_{n}$.
+
+Если $\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in G_{I}$, то (1) позволяет записать интегральное уравнение для стационарного распределения $\boldsymbol{w}^{0}$. В этом случае можно указать также простые связи между стационарными распределениями длины очереди и времени ожидания. Именно, если $w_{k}^{0}$ означает $k$-ю координату вектора $\boldsymbol{w}^{0}$, то при $k \geqslant m-1$ существуют
+
+$\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n}&gt;k\right\}=\mathrm{P}\left\{w_{1}^{e}&gt;\tau_{1}^{e}+\ldots+\tau_{k-m+1}^{e}\right\}$.
+
+Если $m&gt;k \geqslant 0$, то
+
+\[
+\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n} \geqslant m-k\right\}=\mathrm{P}\left\{w_{k+1}^{0}&gt;0\right\} .
+\] Здесь все случайные величины, стоящие под знаком вероятности, независимы.
+
+Если, кроме того, распределение $\tau_{j}^{e}$ нерешетчато, то аналогичные формулы верны и для предельного распределения $q(t)$. Если $\left\{\tau_{j}^{e}\right\} \in E$, то
+
+\[
+\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n}=k\right\}=\lim _{t \rightarrow \infty} \mathrm{P}\{q(t)=k\} .
+\]
+
+2) Если $\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in E$, то можно указать явные формулы для предельных распределений $q_{n}, q(t), w_{n}$. Пусть $\alpha$ - показатель распределения $\tau_{j}^{s}$ и $\alpha m \mathrm{E} \tau^{e}&gt;1$. Тогда числа
+
+\[
+p_{k}=\lim _{n \rightarrow \infty} P\left\{q_{n}=k\right\}
+\]
+
+описываются как известного вида рациональные функции от значений $\mu$ и $\psi(-j \alpha), j=1, \ldots, m$, где $\mu-$ едінственный корень в области $|\mu|&lt;1$ уравнения
+
+\[
+\mu=\psi((\mu-1) m \alpha), \quad \psi(\mu)=\mathrm{E} e^{\mu \tau}{ }^{e} .
+\]
+
+Если $k&gt;m$, то
+
+\[
+p_{k}=A \mu^{k-m}
+\]
+
+причем $A$ от $k$ не зависит. Для предельного распределения времени ожидания
+
+\[
+W(x)=\lim _{n \rightarrow \infty} \mathbf{P}\left\{w_{n, 1}&gt;x\right\}
+\]
+
+имеет место равенство
+
+\[
+W(x)=\frac{A e^{-m \alpha(1-\mu) x}}{1-\mu} .
+\]
+
+Если $\tau_{j}^{e}$ - нерешетчатая случайная величина, то существуіот
+
+\[
+\lim _{t \rightarrow \infty} P\{q(t)=k\}=P_{k}
+\]
+
+где
+
+\[
+\begin{gathered}
+P_{k}=p_{k-1} / k \alpha \tau^{e} \quad \text { при } \quad 1 \leqslant k&lt;m, \\
+P_{k}=p_{k-1} / m \alpha \tau^{e} \quad \text { при } \quad k \geqslant m .
+\end{gathered}
+\]
+
+В случае $\left\{\tau_{j}^{e}\right\} \in E,\left\{\tau_{j}^{s}\right\} \in E$
+
+\[
+\begin{gathered}
+p_{k}=\frac{p_{0}}{k ! m^{k}} \lambda^{k} \quad \text { при } \quad 1 \leqslant k \leqslant m, \\
+p_{k}=\frac{p_{0}}{m ! m^{m}} \lambda^{k} \quad \text { при } \quad k \geqslant m,
+\end{gathered}
+\]
+
+где
+
+\[
+\lambda=\left[\alpha m \mathrm{E} \tau^{e}\right]^{-1}&lt;1
+\]
+
+3) Теоремы устойчивости (о непрерывной зависимости стационарного распределения $\boldsymbol{w}^{0}$ от распределений $\tau_{j}^{e}$ и $\tau_{j}^{S}$ ) получены в менее общей форме, чем для одноканальных систем, и связаны с условием о существовании т. н. обновляющих событий. Однако в случае $\left\{\tau_{j}^{e}\right\} \in G_{I}, \quad\left\{\tau_{j}^{s}\right\} \in G_{I}, \quad \mathrm{E}\left(\tau_{n}^{s}-m \tau_{n}^{e}\right)&lt;0$ это условие с необходимостью выполнено. Если для таких систем в схеме серий распределения $\tau_{j}^{(n) e}$ и $\tau_{j}^{(n) s}$ слабо сходятся соответственно к распределениям $\tau_{j}^{e}$ и $\tau_{j}^{s} \mathbf{и}$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_a3b452e659093a9a7975g-1.jpg?height=42&amp;width=828&amp;top_left_y=2008&amp;top_left_x=122)
+слабо сходится к распределению $w^{0}$.
+
+4) Асимптотич. методы исследования многоканальных систем для больших нагрузок дают результаты, аналогичные соответствующим результатам для одноканальных сшстем.
+
+Пусть в схеме серий для управляющих последовательностей $\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in G_{I}$ выполнено условие
+
+\[
+\delta=1 / E \tau^{e}-m / E \tau^{s} \longrightarrow 0
+\]
+
+( $\delta$ равно разности между средним количеством вызовов, поступивших в систему, и средним количеством вызовов, к-рое система может обслужить за единицу времени; если $v_{j}^{e} \neq 1, v_{i}^{s} \neq 1$, то в качестве параметра $\delta$ можно выбрать число Еv $v^{e} / \mathrm{E \tau}^{e}-m \mathrm{E} v^{s} / \mathrm{E \tau}{ }^{s}$, имеюгее тот же смысл). Тогда если
+
+\[
+\frac{\mathrm{D} \tau^{e}}{\left(\mathrm{E} \tau^{e}\right)^{3}}+m \frac{\mathrm{D} \tau^{s}}{\left(\mathrm{E} \tau^{S}\right)^{3}} \longrightarrow \sigma^{2}&gt;0
+\]
+
+И $\mathrm{E}\left|\tau^{e}\right|^{2+\varepsilon}, \quad \mathrm{E}\left|\tau^{s}\right|^{2+\varepsilon}$ равномерно ограничены при нек-ром $\varepsilon&gt;0$, то для длины $q(t)$ очереди в момент времени $t$ справедливы при $t \rightarrow \infty, \delta \rightarrow 0$ следуюшце соотношения:
+
+при $\delta \sqrt{t} \rightarrow v, v \geqslant-\infty$,
+
+\[
+\begin{gathered}
+\lim _{\delta \rightarrow 0} \mathbf{P}\{q(t)&lt;x /|\delta|\}== \\
+=\mathbf{P}\left\{w(u)&lt;(x-u \operatorname{sign} \delta) / \sigma ; \quad 0 \leqslant u \leqslant v^{2}\right\},
+\end{gathered}
+\]
+
+где $w(u)$ - стандартный винеровский процесс; при $\delta \sqrt{t} \longrightarrow 0$
+
+\[
+\lim _{t \rightarrow \infty} \mathrm{P}\{q(t)&lt;x \sqrt{t}\}=\sqrt{\frac{2}{\pi}} \int_{0}^{x / \sigma} e^{-u^{2} / 2} d u ;
+\]
+
+при $\delta \sqrt{t} \rightarrow \infty, \delta&gt;0$
+
+\[
+\lim _{t \rightarrow \infty} P\{q(t)&lt;\delta t+x \sqrt{t}\}=\frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x / \sigma} e^{-u^{2} / 2} d u .
+\]
+
+Аналогичные соотношения верны для длины $q_{n}$ очереди и для времени $w_{n}$ ожидания.
+
+Другое возможное направление асимптотич. исследований для многоканальных систем состоит в изучении систем с интенсивным входным потоком и неограниченно возрастающим (вместе с E(e(1)-e(0))) числом каналов обслуживания.
+
+5) Поведение многоканальных систем с бесконечным числом каналов обслуживания, управляемых последовательностью $\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\}$, описывается так же, как поведение многоканальных систем с очередью, с той лишь разницей, что здесь всегда есть свободные каналы и, следовательно, время ожидания для любого вызова равно 0. В качестве характеристики состояния системы рассматривают число $q_{n}$ занятых линий в момент прихода $n$-го вызова или число $q(t)$ занятых линий в момент времени $t$ (как и везде выше $q_{n}$ и $q(t)$ - длины очереди и $q_{1}=0$ ).
+
+Пусть $\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\} \in G_{S}$ и, кроме того, последовательность $\left\{\tau_{j}^{e}\right\}$ метрически транзитивна. Тогда если $Е \tau_{j}^{s}&lt;$ $&lt;\infty$, то распределение последовательности $\left\{q_{n+k}\right.$; $k \geqslant 0\}$ при $n \rightarrow \infty$ монотонно сходится к распределению собственной стационарной последовательности
+
+\[
+q^{k}=\sum_{l=0}^{\infty} I\left\{\tau_{k-l}^{s}&gt;\tau_{k-l}^{e}+\ldots+\tau_{k-1}^{e}+\tau_{k}^{e}\right\}
+\]
+
+где $I\{A\}$ индикатор события $A$. Условие $\mathrm{E \tau}_{j}^{\mathrm{s}}&lt;\infty$ близко к необходимому условию для конечности (2).
+
+6) Для систем, у к-рых $m=\infty,\left\{\tau_{j}^{e}\right\} \in G_{I},\left\{\tau_{j}^{s}\right\} \in G_{I}$, распределение стационарной длины $q^{k}$ очереди можно описать с помощью уравнений. Для этого следует ввести величины
+
+\[
+q^{0}(x)=\sum_{k=0}^{\infty} I\left\{\tau_{k}^{s}&gt;x+\tau_{0}^{e}+\ldots+\tau_{k}^{e}\right\} .
+\]
+
+Число $q^{0}(x)$ указывает, сколько вызовов осталось в системе, работающей в стационарном режиме, спустя время $x$ после прихода нек-рого вызова, но без учета данного вызова и всех вызовов, поступающих после него. Обозначив
+
+\[
+\begin{gathered}
+\boldsymbol{P}_{j}(x)=\mathrm{P}\left\{q^{0}(x)=j\right\}, \quad j=0,1, \ldots, \\
+\boldsymbol{P}(x)=\mathrm{P}\left\{\tau^{s}&gt;x\right\}, \quad F(x)=\mathbf{P}\left\{\tau^{e}&lt;x\right\}
+\end{gathered}
+\]
+
+получают
+
+\[
+\mathbf{P}\left\{q^{k}=j\right\}=\mathbf{P}\left\{q^{\mathbf{0}}(0)=j\right\}=\boldsymbol{P}_{j}(0)
+\]
+
+система функций $P_{j}(x)$ удовлетворяет уравнениям
+
+\[
+\begin{gathered}
+P_{k}(x)=\int_{0}^{\infty} d F(t) P(t+x) P_{k-1}(t+x)+ \\
++\int_{0}^{\infty} d F(t)(1-P(t+x)) P_{k}(t+x), \quad k=1,2, \ldots
+\end{gathered}
+\]
+
+Здесь $P_{-1}(x)$ следует положить, равной 0 . Каждые из первых $k+1$ уравнений этой системы относительно $P_{0}(x), \ldots, P_{k}(x)$ имего единственное решение в классе функций ограниченной вариации, обладающих свойствами
+
+\[
+P_{0}(x) \longrightarrow 1, \quad P_{i}(x) \longrightarrow 0 \quad \text { при } i \geqslant 1, x \longrightarrow \infty
+\]
+
+Аналогичные утверждения справедливы для распределения прогесса $q(t)$.
+
+Если $\left\{\tau_{j}^{e}\right\} \in E, \quad\left\{\tau_{j}^{s}\right\} \in G_{i}$, то
+
+\[
+\lim _{t \rightarrow \infty} \mathbf{P}\{q(t)=k\}=\lim _{n \rightarrow \infty} \mathbf{P}\left\{q_{n}=k\right\}=\frac{(a \alpha)^{k}}{k !} e^{-a \alpha},
+\]
+
+где $a=E \tau_{j}^{s}, \alpha-$ показатель распределения $\tau_{j}^{e}$.
+
+Если $\left\{\tau_{j}^{e}\right\} \in G_{l},\left\{\tau_{j}^{s}\right\} \in E$, то
+
+\[
+p_{k}=\lim _{n \rightarrow \infty} \mathrm{P}\left\{q_{n}=k\right\}=\sum_{j=k}^{\infty}(-1)^{j-k}\left(\begin{array}{l}
+j \\
+k
+\end{array}\right) C_{j}
+\]
+
+где
+
+\[
+\begin{gathered}
+C_{0}=1, \quad C_{j}=\prod_{l=1}^{j} \frac{\psi(-l \alpha)}{1-\psi(-l \alpha)}, \\
+j=1,2, \ldots, \psi(\lambda)=\mathrm{E} e^{\lambda \tau^{e}},
+\end{gathered}
+\]
+
+$\alpha$ - показатель распределения $\tau_{j}^{s}$. Если, кроме того, $\boldsymbol{\tau}_{j}^{e}$ - нерешетчатые случайные величины, то
+
+\[
+\lim _{t \rightarrow \infty} \mathrm{P}\{q(t)=k\}=p_{k-1} / k \alpha E \tau^{e}, \quad k=1,2, \ldots
+\]
+
+7) Теоремы устойчивости в случае $m=\infty$, как и в предыдущих разделах, выясняют условия, при к-рых малое изменение управляющих последовательностей влечет за собой малое изменение стационарного распределения числа $q^{k}$ занятых линий.
+
+Для схемы серий, когда система управляется стационарными последовательностями $\left\{\tau^{(n) l}, \tau^{(n) s}\right\}$, зависящими от параметра $n=1,2, \ldots$, пусть выполнены следующие условия.
+
+(A) Существует последовательность $\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\} \in G_{S}$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d9d406274813767004eg-1.jpg?height=42&amp;width=831&amp;top_left_y=1790&amp;top_left_x=120)
+конечномерные распределения $\left\{\tau_{j}^{(n) e}, \tau_{j}^{(n) s}\right\}$ сходятся при $n \rightarrow \infty$ к распределениям $\left\{\tau_{j}^{e}, \tau_{j}^{s}\right\}$.
+
+(B) $\mathrm{E} \tau_{j}^{(n) s} \rightarrow \mathrm{E} \tau_{j}^{s}$ при $n \rightarrow \infty$
+
+(C) Распределения $\tau_{-j}^{s}-\sum_{k=-j}^{0} \tau_{k}^{e} \quad$ при всех $j \geqslant 0$ непрерывны ,в точке 0 .
+
+Теорема устойчивости утверждает тогда, что при выполнении условий (А), (В), (С) распределения последовательностей $\left\{q^{(n) k}\right\}$ длин очередей (к-рые определяются равенством (2) с управляющими последовательностями $\left.\left\{\tau_{j}^{(n) e}, \tau_{j}^{(n) s}\right\}\right)$ сходятся при $n \rightarrow \infty$ к распределениям $\left\{q^{k}\right\}$.
+
+Все три условия (A), (B), (C), присутствующие в әтом утверждении, существенны; отказ хотя бы от одного из них сразу позволяет строить примеры, где сходимость распределений $\left\{q^{(n) k}\right\}$ отсутствует. 8) Асимптотич. анализ систем с бесконечным числом каналов обслуживания становится естественным и эффективным при изучении т. н. нагруженных систем, когда велика интенсивность входного потока. Несомненным преимуществом асимптотич. подхода является большая общность и универсальность установленных закономерностей.
+
+Пусть входной поток $e(t)=e_{T}(t)$, означающий число вызовов, поступавших в систему к моменту времени $t$, зависит от параметра $T \rightarrow \infty$ (схема серий), так что $e_{T}(t) \rightarrow \infty$ при $T \rightarrow \infty$ для каждого фиксированного $t&gt;0$, и, кроме того, существуют неубывающая функция $m(t)$, функция $B(T) \rightarrow \infty$ при $T \rightarrow \infty$ и непрерывный случайный процесс $\xi(t)$, заданный на $\left[0, t_{0}\right]$, такие, что распределения $f\left(\xi_{T}(t)\right)$, где
+
+\[
+\xi_{T}(t)=\frac{e_{T}(t)-T m(t)}{B(t)}
+\]
+
+слабо сходятся при $T \rightarrow \infty$ к распределению $f(\xi(t))$ для любого измеримого и непрерывного относительно равномерной метрики функционала $f$.
+
+Если, напр., $\left\{\tau_{j}\right\} \in G_{I}$ и управление системой происходит с помоцью последовательности $\tau_{j}^{e}=\tau_{j} / T$, то сформулированные условия будут выполнены при любом $t_{0}$, при этом
+
+\[
+m(t)=t / \mathrm{E} \tau_{j}, \quad B^{2}(T)=T \mathrm{D} \tau_{j} /\left(\mathrm{E} \tau_{j}\right)^{3},
+\]
+
+$\xi(t)$ - стандартный винеровский процесс.
+
+Относительно обслуживающего устройства предполагают, что $\left\{\tau_{j}^{s}\right\} \in G_{I}$. Тогда:
+
+1) Если $B(T) ! \sqrt{T} \rightarrow \infty$, то конечномерные распределения нормированного процесса очереди
+
+\[
+z_{1}(t)=\frac{q(t)-T Q(t)}{B(t)},
+\]\[
+Q(t)=\int_{0}^{t} G(t-u) d m(u), \quad G(t)=\mathrm{P}\left\{\tau_{j}^{\mathrm{s}} \geqslant t\right\}
+\]
+
+слабо сходятся при $T \rightarrow \infty$ к распределениям процесса
+
+\[
+\xi_{1}(t)=\int_{0}^{t} G(t-u) d \xi(u) .
+\]
+
+2) Если $B(T) / \sqrt{T} \rightarrow \sigma \geqslant 0$, то конечномерные распределения процесса
+
+\[
+z_{2}(t)=\frac{q(t)-T Q(t)}{V \bar{T}}
+\]
+
+слабо сходятся к конечномерным распределениям процесса
+
+\[
+\zeta_{2}(t)=\theta(t)+\sigma \int_{0}^{t} G(t-u) d \xi(u),
+\]
+
+где $\theta(t)$ - центрированный гауссовский процесс, не зависящий от $\xi(t)$, с ковариационной функцией
+
+$\mathrm{E} \Theta(t) \Theta(t+u)=\int_{0}^{t} G(t+u-v)(1-G(t-v)) d m(v)$.
+
+Если потребовать от функций $m(t)$ или $G(t)$ нек-рой гладкости, то сходимость процессов $z_{i}(t)$ к процессам $\zeta_{i}(t), i=1,2$, будет иметь место и в более сильном смысле (напр., сходимость распределений $f\left(z_{i}(t)\right.$ ) к $f\left(\zeta_{i}(t)\right)$ при $T \rightarrow \infty$ для всех функционалов, непрерывных относительно равномерной метрики).
+
+Лит. см. при ст. Массового обслуживания теория.
+
+Лит. см. пр А. A. Боровков.</text_orig>
+</article>

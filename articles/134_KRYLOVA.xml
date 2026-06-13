@@ -1,0 +1,241 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/134_KRYLOVA" alphabetic_pos="134">
+  <title>КРЫЛОВА - БОГОЛЮБОВА МЕТОД УСРЕДНЕНИЯ</title>
+  <authors/>
+  <pages>
+    <start>68</start>
+    <end>69</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] К р ы ло в Н. М., Бо г о л ю б о в Н. Н., Приложение методов нелинейной механики $к$ теории стационарных колебаний, К., 1934; [2] и х ж е, Введение в нелинейную механику, К., 1937; [3] Б о г о л ю бо в Н. Н., О некоторых статических методах в математической физике, к., 1945; 4] е гоже, «сб. трудов Ин-та строительной механики Ан Усср», 1950 , № 14, с. 9-34; [5] Бо г о л ю 6 о в H. Н., М и т р оп о л ь с к й й Ю. А., Асимптотические мстоды в теории нелинейных колебанйі, 3 изд., М., $1963 ;$ L6] М и т р о п о л ьс к и й Ю. А., Метод усреднения в нелинейпой мсханике, $\mathbf{k}$. $1971 ;$ [7] е го' ж е, Нестационарные процессы в нелинейных колебательных системах, К., 1955; [8] В о л о с о в В. М., в кн.: Механика в Сссp за 50 лет, т. 1, М., 1968, с. $115-35$. К.- один из пяти типов правильных многогранников; имеет 6 квадратных граней, 12 ребер, 8 вершин, в каждой вершине сходятся 3 ребра (они взаимно перпендикулярны). К. иногда наз. ге к с аэ д $\mathbf{p}$ о м.2) К. ч и с л а $a$ - третья степень $a^{3}$ этого числа.</literature_orig>
+    <unit>
+      <author>Крылов Н. М.</author>
+      <author>Боголюбов Н. Н.</author>
+      <title>Приложение методов нелинейной механики $к$ теории стационарных колебаний, К.</title>
+      <publication/>
+      <year>1934</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>и х ж е, Введение в нелинейную механику, К.</title>
+      <publication/>
+      <year>1937</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Боголюбов Н. Н.</author>
+      <title>О некоторых статических методах в математической физике, к.</title>
+      <publication/>
+      <year>1945</year>
+      <other>«сб. трудов Ин-та строительной механики Ан Усср», 1950, № 14, с. 9-34; [5] Бо г о л ю 6 о в H. Н., М и т р оп о л ь с к й й Ю. А., Асимптотические мстоды в теории нелинейных колебанйі, 3 изд., М., $1963 ;$ L6] М и т р о п о л ьс к и й Ю. А., Метод усреднения в нелинейпой мсханике, $\mathbf{k}$. $1971 ;$ [7] е го' ж е, Нестационарные процессы в нелинейных колебательных системах, К., 1955; [8] В о л о с о в В. М., в кн.: Механика в Сссp за 50 лет, т. 1, М., 1968, с. $115-35$. К.- один из пяти типов правильных многогранников; имеет 6 квадратных граней, 12 ребер, 8 вершин, в каждой вершине сходятся 3 ребра (они взаимно перпендикулярны). К. иногда наз. ге к с аэ д $\mathbf{p}$ о м.2) К. ч и с л а $a$ - третья степень $a^{3}$ этого числа.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/134_1_KRYLOVA">\frac{d x}{d t}=\varepsilon X(t, x), \quad x \in \mathbb{R}^{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_2_KRYLOVA">\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} X(t, x) d t=X_{0}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_3_KRYLOVA">x=\xi+\varepsilon F_{1}(t, \xi)+\ldots+\varepsilon^{m} F_{m}(t, \xi),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_4_KRYLOVA">X(t, x)=X(t+2 \pi, x)=\Sigma_{-\infty&lt;k&lt;\infty} X_{k}(x) e^{i k t},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_5_KRYLOVA">F_{1}(t, \xi)=\sum_{k \neq 0} \frac{X_{k}(\xi)}{i k} e^{i k t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_6_KRYLOVA">\begin{gathered}X\left(t, \xi+\varepsilon F_{1}(t, \xi)+\ldots+\varepsilon^{m-1} F_{m-1}(t, \xi)\right)= \\=X(t, \xi)+\varepsilon \frac{\partial X(t, \xi)}{\partial x} F_{1}(t, \xi)+\ldots+ \\+\varepsilon^{m-1} \frac{\partial X(t, \xi)}{\partial x} F_{m-1}(t, \xi)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_7_KRYLOVA">\|x(t)-\xi(t)\| \leqslant \eta(\varepsilon), \quad t \in\left[0, \frac{L}{\varepsilon}\right],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_8_KRYLOVA">\sup _{t \in(-\infty, \infty)}\left\|x(t)-\xi_{0}\right\| \leqslant \eta(\varepsilon)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_9_KRYLOVA">x=f(t, \varphi, \varepsilon), \quad f(t, \varphi+2 \pi, \varepsilon)=f(t, \varphi, \varepsilon),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/134_10_KRYLOVA">\sup _{t, \varphi \in(-\infty, \infty)}\left\|f(t, \varphi, \varepsilon)-\xi_{0}(\varphi)\right\| \leqslant \eta(\varepsilon),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_1_KRYLOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_2_KRYLOVA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_3_KRYLOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_4_KRYLOVA">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_5_KRYLOVA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_6_KRYLOVA">t, x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_7_KRYLOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_8_KRYLOVA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_9_KRYLOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_10_KRYLOVA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_11_KRYLOVA">x=x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_12_KRYLOVA">\xi=\xi(t)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_13_KRYLOVA">\frac{d \xi}{d t}=\varepsilon X_{0}(\xi)+\varepsilon^{2} P_{2}(\xi)+\ldots+\varepsilon^{m} P_{m}(\xi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_14_KRYLOVA">f_{1}, F_{j}, P_{j}, j=2, \ldots, m,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_15_KRYLOVA">\varepsilon^{m+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_16_KRYLOVA">f_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_17_KRYLOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_18_KRYLOVA">f_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_19_KRYLOVA">p_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_20_KRYLOVA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_21_KRYLOVA">f_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_22_KRYLOVA">f_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_23_KRYLOVA">p_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_24_KRYLOVA">m \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_25_KRYLOVA">\eta(\varepsilon) \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_26_KRYLOVA">\varepsilon \rightarrow 0, L-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_27_KRYLOVA">\varepsilon, x(0)=\xi(0) ; 2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_28_KRYLOVA">x=x_{0}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_29_KRYLOVA">\boldsymbol{\xi}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_30_KRYLOVA">=\xi_{0}: X_{0}\left(\xi_{0}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_31_KRYLOVA">\tau</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_32_KRYLOVA">\xi=\xi_{0}(\varphi), \varphi=\varepsilon v, \nu=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/134_33_KRYLOVA">\tau</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/134_1_KRYLOVA">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/134_2_KRYLOVA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+  </relations>
+  <text>метод, применяемый в теории нелинейных колебаний для исследования колебательных прогессов, основанный на принципе усредненія (осреднения), заменяющем точное дифференциальное уравнение движения усредненным.
+
+Разлитные схемы усреднения (гаусса, Фату, Делоне - Хилла и др.) широко применялись в небесноїі механике еще задолго до работ Н. М. Крылова и Н. Н. Боголюбова. Разработка общего алгорптма, получівшего название ме т о д у с р е д не н іл я Б о г о л ю б о в а, и теорема о близости решениї точной и усредненной систем принадлежат Н. М. Крылову и Н. Н. Боголюбову (см. [1], [2]). Создание строгой теории метода усреднения, исчерпывающее выяснение сущности общего принципа усреднения принадлежат Н. Н. Боголюбову (см. [3], [4]), к-рый показал, что метод усреднения связан с существованием нек-рой замены переменных, позволяющей исключіть время $URI[[http://libmeta.ru/me/formula/aux/134_1_KRYLOVA]]/URI$ из правых частей рассматриваемых уравнений с наперед заданной стеленью точности относительно малого параметра $URI[[http://libmeta.ru/me/formula/aux/134_2_KRYLOVA]]/URI$; он же обосновал асимптотiч. характер приближений, получаемых методом усреднения, и установил соответствие между решениями точных Ii усредненных уравнений на бесконечном временном интервале. Эти результаты получили дальнейшее развитіе в работах Ю. А. Митропольского и др. (см. [5]-[8]) и применяются для изучения нелинейных колебаний.
+
+Система уравнений, для к-рых разработан К.- Б. м. у., имеет стандартный вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_1_KRYLOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/134_3_KRYLOVA]]/URI$ - время, $URI[[http://libmeta.ru/me/formula/aux/134_4_KRYLOVA]]/URI$ - малый положительный параметр. Основные предположения, при к-рых рассматривается система (1), сводятся к достаточной гладкости функции $URI[[http://libmeta.ru/me/formula/aux/134_5_KRYLOVA]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/134_6_KRYLOVA]]/URI$ и нек-рой «возвращаемости» ее по $URI[[http://libmeta.ru/me/formula/aux/134_7_KRYLOVA]]/URI$, обеспечивающей существование среднего значения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_2_KRYLOVA]]/URI
+\]
+
+напр. периодичности или почти периодичности $URI[[http://libmeta.ru/me/formula/aux/134_8_KRYLOVA]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/134_9_KRYLOVA]]/URI$.
+
+Согласно К.- Б. м. у. $URI[[http://libmeta.ru/me/formula/aux/134_10_KRYLOVA]]/URI$-е приближение к решению $URI[[http://libmeta.ru/me/formula/aux/134_11_KRYLOVA]]/URI$ системы (1) определяется выражением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_3_KRYLOVA]]/URI
+\]
+
+в к-ром $URI[[http://libmeta.ru/me/formula/aux/134_12_KRYLOVA]]/URI$ решение «усредненного» уравнения $URI[[http://libmeta.ru/me/formula/aux/134_13_KRYLOVA]]/URI$,
+
+$URI[[http://libmeta.ru/me/formula/aux/134_14_KRYLOVA]]/URI$ функции, подбираемые из условия, чтобы выражение (2) удовлетворяло уравнению (1) с точностью до величин порядка $URI[[http://libmeta.ru/me/formula/aux/134_15_KRYLOVA]]/URI$ и чтобы $URI[[http://libmeta.ru/me/formula/aux/134_16_KRYLOVA]]/URI$ обладали по $URI[[http://libmeta.ru/me/formula/aux/134_17_KRYLOVA]]/URI$ той же возвращаемостью, что и правая часть системы (1). Функции $URI[[http://libmeta.ru/me/formula/aux/134_18_KRYLOVA]]/URI$ находятся элементарно, функции $URI[[http://libmeta.ru/me/formula/aux/134_19_KRYLOVA]]/URI$ определяются в результате усреднения правой части системы (1) после подстановки в нее выражения (2). Так, в частности, для системы (1) с периодической по $URI[[http://libmeta.ru/me/formula/aux/134_20_KRYLOVA]]/URI$ правой частью, когда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_4_KRYLOVA]]/URI
+\]
+
+функция $URI[[http://libmeta.ru/me/formula/aux/134_21_KRYLOVA]]/URI$ определяется по (3) согласно формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_5_KRYLOVA]]/URI
+\]
+
+функции $URI[[http://libmeta.ru/me/formula/aux/134_22_KRYLOVA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/134_23_KRYLOVA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/134_24_KRYLOVA]]/URI$ определяются по соотношению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_6_KRYLOVA]]/URI
+\]
+
+аналогичными формулами.
+
+Обоснование метода усреднения сводится к следующему: 1) установление оценки
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_7_KRYLOVA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/134_25_KRYLOVA]]/URI$ прри $URI[[http://libmeta.ru/me/formula/aux/134_26_KRYLOVA]]/URI$ постоянная, не зависящая от $URI[[http://libmeta.ru/me/formula/aux/134_27_KRYLOVA]]/URI$ доказательство существования решения $URI[[http://libmeta.ru/me/formula/aux/134_28_KRYLOVA]]/URI$ системы (1), находящегося в достаточно малой окрестности положения равновесия $URI[[http://libmeta.ru/me/formula/aux/134_29_KRYLOVA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/134_30_KRYLOVA]]/URI$ усредненной системы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_8_KRYLOVA]]/URI
+\]
+
+и установление свойств устойчивости, периодичности или почти периодичности этого решения; 3) доказательство существования интегрального многообразия $URI[[http://libmeta.ru/me/formula/aux/134_31_KRYLOVA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_9_KRYLOVA]]/URI
+\]
+
+системы (1), находящегося вблизи периодической траектории $URI[[http://libmeta.ru/me/formula/aux/134_32_KRYLOVA]]/URI$ const, усредненної системы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/134_10_KRYLOVA]]/URI
+\]
+
+и исследование поведения решений URI[[http://libmeta.ru/me/relation/134_2_KRYLOVA]]/URI (1), начинающихся в окрестности URI[[http://libmeta.ru/me/relation/134_1_KRYLOVA]]/URI $URI[[http://libmeta.ru/me/formula/aux/134_33_KRYLOVA]]/URI$.</text>
+  <text_orig>метод, применяемый в теории нелинейных колебаний для исследования колебательных прогессов, основанный на принципе усредненія (осреднения), заменяющем точное дифференциальное уравнение движения усредненным.
+
+Разлитные схемы усреднения (Гаусса, Фату, Делоне - Хилла и др.) широко применялись в небесноїі механике еще задолго до работ Н. М. Крылова и Н. Н. Боголюбова. Разработка общего алгорптма, получівшего название ме т о д у с р е д не н іл я Б о г о л ю б о в а, и теорема о близости решениї точной и усредненной систем принадлежат Н. М. Крылову и Н. Н. Боголюбову (см. [1], [2]). Создание строгой теории метода усреднения, исчерпывающее выяснение сущности общего принципа усреднения принадлежат Н. Н. Боголюбову (см. [3], [4]), к-рый показал, что метод усреднения связан с существованием нек-рой замены переменных, позволяющей исключіть время $t$ из правых частей рассматриваемых уравнений с наперед заданной стеленью точности относительно малого параметра $\varepsilon$; он же обосновал асимптотIч. характер приближений, получаемых методом усреднения, и установил соответствие между решениями точных II усредненных уравнений на бесконечном временном интервале. Эти результаты получили дальнейшее развитіе в работах Ю. А. Митропольского и др. (см. [5]-[8]) и применяются для изучения нелинейных колебаний.
+
+Система уравнений, для к-рых разработан К.- Б. м. у., имеет стандартный вид:
+
+\[
+\frac{d x}{d t}=\varepsilon X(t, x), \quad x \in \mathbb{R}^{n},
+\]
+
+где $t$ - время, $\varepsilon$ - малый положительный параметр. Основные предположения, при к-рых рассматривается система (1), сводятся к достаточной гладкости функции $X$ по $t, x$ и нек-рой «возвращаемости» ее по $t$, обеспечивающей существование среднего значения
+
+\[
+\lim _{T \rightarrow \infty} \frac{1}{T} \int_{0}^{T} X(t, x) d t=X_{0}(x)
+\]
+
+напр. периодичности или почти периодичности $X$ по $t$.
+
+Согласно К.- Б. м. у. $m$-е приближение к решению $x=x(t)$ системы (1) определяется выражением
+
+\[
+x=\xi+\varepsilon F_{1}(t, \xi)+\ldots+\varepsilon^{m} F_{m}(t, \xi),
+\]
+
+в к-ром $\xi=\xi(t)-$ решение «усредненного» уравнения $\frac{d \xi}{d t}=\varepsilon X_{0}(\xi)+\varepsilon^{2} P_{2}(\xi)+\ldots+\varepsilon^{m} P_{m}(\xi)$,
+
+$F_{1}, F_{j}, P_{j}, j=2, \ldots, m,-$ функции, подбираемые из условия, чтобы выражение (2) удовлетворяло уравнению (1) с точностью до величин порядка $\varepsilon^{m+1}$ и чтобы $F_{j}$ обладали по $t$ той же возвращаемостью, что и правая часть системы (1). Функции $F_{j}$ находятся элементарно, функции $P_{j}$ определяются в результате усреднения правой части системы (1) после подстановки в нее выражения (2). Так, в частности, для системы (1) с периодической по $t$ правой частью, когда
+
+\[
+X(t, x)=X(t+2 \pi, x)=\Sigma_{-\infty&lt;k&lt;\infty} X_{k}(x) e^{i k t},
+\]
+
+функция $F_{1}$ определяется по (3) согласно формуле
+
+\[
+F_{1}(t, \xi)=\sum_{k \neq 0} \frac{X_{k}(\xi)}{i k} e^{i k t}
+\]
+
+функции $F_{m}$ и $P_{m}$ при $m \geqslant 2$ определяются по соотношению
+
+\[
+\begin{gathered}
+X\left(t, \xi+\varepsilon F_{1}(t, \xi)+\ldots+\varepsilon^{m-1} F_{m-1}(t, \xi)\right)= \\
+=X(t, \xi)+\varepsilon \frac{\partial X(t, \xi)}{\partial x} F_{1}(t, \xi)+\ldots+ \\
++\varepsilon^{m-1} \frac{\partial X(t, \xi)}{\partial x} F_{m-1}(t, \xi)
+\end{gathered}
+\]
+
+аналогичными формулами.
+
+Обоснование метода усреднения сводится к следующему: 1) установление оценки
+
+\[
+\|x(t)-\xi(t)\| \leqslant \eta(\varepsilon), \quad t \in\left[0, \frac{L}{\varepsilon}\right],
+\]
+
+где $\eta(\varepsilon) \rightarrow 0$ прри $\varepsilon \rightarrow 0, L-$ постоянная, не зависящая от $\varepsilon, x(0)=\xi(0) ; 2)$ доказательство существования решения $x=x_{0}(t)$ системы (1), находящегося в достаточно малой окрестности положения равновесия $\boldsymbol{\xi}=$ $=\xi_{0}: X_{0}\left(\xi_{0}\right)=0$ усредненной системы:
+
+\[
+\sup _{t \in(-\infty, \infty)}\left\|x(t)-\xi_{0}\right\| \leqslant \eta(\varepsilon)
+\]
+
+и установление свойств устойчивости, периодичности или почти периодичности этого решения; 3) доказательство существования интегрального многообразия $\tau$ :
+
+\[
+x=f(t, \varphi, \varepsilon), \quad f(t, \varphi+2 \pi, \varepsilon)=f(t, \varphi, \varepsilon),
+\]
+
+системы (1), находящегося вблизи периодической траектории $\xi=\xi_{0}(\varphi), \varphi=\varepsilon v, \nu=$ const, усредненної системы:
+
+\[
+\sup _{t, \varphi \in(-\infty, \infty)}\left\|f(t, \varphi, \varepsilon)-\xi_{0}(\varphi)\right\| \leqslant \eta(\varepsilon),
+\]
+
+и исследование поведения решений системы (1), начинающихся в окрестности многообразия $\tau$.
+
+Лum.: [1] К р ы ло в Н. М., Бо г о л ю б о в Н. Н., Приложение методов нелинейной механики $к$ теории стационарных колебаний, К., 1934; [2] и х ж е, Введение в нелинейную механику, К., 1937; [3] Б о г о л ю бо в Н. Н., О некоторых статических методах в математической физике, к., 1945; 4] е го
+же, «Сб. трудов Ин-та строительной механики АН УССР», 1950 , № 14, с. 9-34; [5] Бо г о л ю 6 о в H. Н., М и т р оп о л ь с к й й Ю. А., Асимптотические мстоды в теории нелинейных колебанйі, 3 изд., М., $1963 ;$ L6] М и т р о п о л ьс к и й Ю. А., Метод усреднения в нелинейпой мсханике, $\mathbf{K}$. $1971 ;$ [7] е го' ж е, Нестационарные процессы в нелинейных колебательных системах, К., 1955; [8] В о л о с о в В. М., в кн.: Механика в СССP за 50 лет, т. 1, М., 1968, с. $115-35$. К.- один из пяти типов правильных многогранников; имеет 6 квадратных граней, 12 ребер, 8 вершин, в каждой вершине сходятся 3 ребра (они взаимно перпендикулярны). К. иногда наз. ге к с аэ д $\mathbf{p}$ о м.
+
+2) К. ч и с л а $a$ - третья степень $a^{3}$ этого числа.</text_orig>
+</article>

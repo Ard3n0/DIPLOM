@@ -1,0 +1,376 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/164_PARABOLIChESKOGO" alphabetic_pos="164">
+  <title>ПАРАБОЛИЧЕСКОГО УРАВНЕНИЯ МЕТОД</title>
+  <authors>
+    <author>Ю. А. Брычков</author>
+    <author>А. П. Прудников</author>
+  </authors>
+  <pages>
+    <start>100</start>
+    <end>102</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] Б е й т м е н Г., Э цендентные Функции. Функции Бесселя, Функции параболического цилиндра, ортогональные многочлены, пер. с англ. 2 изд., М., 1974; [2] М и л л е p Д ж.-Ч.-П., Таблицы функций Вебера (функций параболического цилиндра), пер. с англ.,М., 1968 .</literature_orig>
+    <unit>
+      <author>Бейтмен Г.</author>
+      <title>Э цендентные Функции. Функции Бесселя, Функции параболического цилиндра, ортогональные многочлены</title>
+      <publication>пер. с англ. 2 изд., М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Миллеp Дж.-Ч.- П.</author>
+      <title>Таблицы функций Вебера (функций параболического цилиндра)</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/164_1_PARABOLIChESKOGO">\left(\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+k^{2}\right) u=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_2_PARABOLIChESKOGO">\begin{aligned}&amp; \left(1+\frac{n}{\rho}\right)^{-1}\left[\frac{\partial}{\partial n}\left(\left(1+\frac{n}{\rho}\right) \frac{\partial u}{\partial n}\right)+\frac{\partial}{\partial s}\left(\left(1+\frac{n}{\rho}\right)^{-1} \times\right.\right. \\&amp; \left.\left.\times \frac{\partial u}{\partial s}\right)\right]+k^{2} u=0\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_3_PARABOLIChESKOGO">\left.\frac{1}{\rho} \sim \frac{1}{\rho}\right|_{s=0}+s\left(\frac{d}{d s}\left(\frac{1}{\rho}\right)\right)_{s=0}+\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_4_PARABOLIChESKOGO">\sigma=\frac{k^{1 / 3} s}{\sqrt[3]{2} \rho^{2 / 3}}, v=\sqrt[3]{\frac{2}{\rho_{0}}} k^{2 / 3} n, \rho_{0}=\rho(0),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_5_PARABOLIChESKOGO">u \sim e^{i k s}\left(v_{0}(\sigma, v)+k^{-1 / 3} v_{1}(\sigma, v)+\ldots\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_6_PARABOLIChESKOGO">L_{0} v_{0} \equiv i \frac{\partial v_{0}}{\partial \sigma}+\frac{\partial^{2} v_{0}}{\partial v^{2}}+v v_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_7_PARABOLIChESKOGO">\int e^{i \sigma} \sigma(v, \zeta) d \zeta,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_8_PARABOLIChESKOGO">\frac{d^{2} y}{d z^{2}}+\left(v+\frac{1}{2}-\frac{z^{2}}{4}\right) y=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_9_PARABOLIChESKOGO">\frac{d^{n}}{d z^{n}}\left[e^{z^{2} / 4} D_{v}(z)\right]=(-1)^{n}(-v)_{n} e^{z^{2} / 4} D_{v-n}(z),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_10_PARABOLIChESKOGO">\frac{d^{n}}{d z^{n}}\left[e^{-z^{2} / 4} D_{v}(z)\right]=(-1)^{n} e^{-z^{2} / 4} D_{v+n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_11_PARABOLIChESKOGO">\begin{aligned}D_{v+1}(z)-z D_{v}(z)+v D_{v-1}(z) &amp; =0, \\D_{v}^{\prime}(z)+\frac{z}{2} D_{v}(z)-v D_{v-1}(z) &amp; =0, \\D_{v}^{\prime}(z)-\frac{z}{2} D_{v}(z)+D_{v+1}(z) &amp; =0 .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_12_PARABOLIChESKOGO">\begin{aligned}D_{v}(z)=z^{v} e^{-z^{2} / 4} &amp; {\left[\sum_{k=0}^{N} \frac{(-v / 2)_{k}(1 / 2-v / 2)_{k}}{k !}\left(\frac{z^{2}}{-2}\right)^{-k}+\right.} \\&amp; +O\left(|z|^{-2 N-2}\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_13_PARABOLIChESKOGO">\begin{aligned}D_{v}(z)=\frac{1}{\sqrt{2}} &amp; \exp \left[\frac{v}{2} \ln (-v)-\frac{v}{2}-\sqrt{-v} z\right] \times \\&amp; \times\left[1+O\left(\frac{1}{\sqrt{|v|}}\right)\right] .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_14_PARABOLIChESKOGO">D_{n}(z)=2-n / 2 e^{-z^{2} / 4} H_{n}(z / \sqrt{2}), n=0,1,2, \ldots ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_15_PARABOLIChESKOGO">\begin{gathered}D_{-n-1}(z)=\frac{(-1)^{n} \sqrt{2}}{n !} e^{-z^{2} / 4} \frac{d^{n}}{d z^{n}}\left(e^{z^{2} / 2} \operatorname{erf} \frac{z}{\sqrt{z}}\right), \\n=0,1,2, \ldots ;\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/164_16_PARABOLIChESKOGO">D_{-1 / 2}(z)=\sqrt{\frac{\pi z}{2}} K_{1 / 4}\left(\frac{z^{2}}{4}\right) \text {. }</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_1_PARABOLIChESKOGO">(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_2_PARABOLIChESKOGO">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_3_PARABOLIChESKOGO">u \mid s=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_4_PARABOLIChESKOGO">\partial \Omega=S \in C^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_5_PARABOLIChESKOGO">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_6_PARABOLIChESKOGO">e^{i k x}+u^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_7_PARABOLIChESKOGO">u^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_8_PARABOLIChESKOGO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_9_PARABOLIChESKOGO">k \rightarrow \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_10_PARABOLIChESKOGO">o^{\prime} A^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_11_PARABOLIChESKOGO">o A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_12_PARABOLIChESKOGO">\left.O^{\prime} A^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_13_PARABOLIChESKOGO">o</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_14_PARABOLIChESKOGO">o^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_15_PARABOLIChESKOGO">s=\partial \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_16_PARABOLIChESKOGO">o</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_17_PARABOLIChESKOGO">o x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_18_PARABOLIChESKOGO">o</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_19_PARABOLIChESKOGO">s, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_20_PARABOLIChESKOGO">m \notin S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_21_PARABOLIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_22_PARABOLIChESKOGO">o</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_23_PARABOLIChESKOGO">s&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_24_PARABOLIChESKOGO">s&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_25_PARABOLIChESKOGO">m \in \Omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_26_PARABOLIChESKOGO">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_27_PARABOLIChESKOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_28_PARABOLIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_29_PARABOLIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_30_PARABOLIChESKOGO">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_31_PARABOLIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_32_PARABOLIChESKOGO">s, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_33_PARABOLIChESKOGO">(\rho=\rho(s)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_34_PARABOLIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_35_PARABOLIChESKOGO">s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_36_PARABOLIChESKOGO">\frac{1}{\rho}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_37_PARABOLIChESKOGO">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_38_PARABOLIChESKOGO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_39_PARABOLIChESKOGO">k^{-1 / 3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_40_PARABOLIChESKOGO">l_{0} v_{0}=0, L_{0} v_{1}+L_{1} v_{0}=0, L_{0} v_{2}+L_{1} v_{1}+L_{2} v_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_41_PARABOLIChESKOGO">l_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_42_PARABOLIChESKOGO">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_43_PARABOLIChESKOGO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_44_PARABOLIChESKOGO">u \mid s=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_45_PARABOLIChESKOGO">\left.u_{j}\right|_{s}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_46_PARABOLIChESKOGO">|\sigma|, \sigma&lt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_47_PARABOLIChESKOGO">v_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_48_PARABOLIChESKOGO">\phi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_49_PARABOLIChESKOGO">\delta u \doteq k^{2} u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_50_PARABOLIChESKOGO">d_{v}(z) \equiv U\left(-v-\frac{1}{2}, z\right)=2^{(v-1) / 2} e^{-z^{2} / 2} \Psi\left(\frac{1-v}{2}, \frac{3}{2} ; \frac{z^{2}}{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_51_PARABOLIChESKOGO">\psi(a, b ; z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_52_PARABOLIChESKOGO">d_{v}(-z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_53_PARABOLIChESKOGO">d_{-v-1}( \pm i z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_54_PARABOLIChESKOGO">d_{v}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_55_PARABOLIChESKOGO">d_{-v-1}( \pm i z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_56_PARABOLIChESKOGO">v, D_{v}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_57_PARABOLIChESKOGO">d_{v}(-z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_58_PARABOLIChESKOGO">v \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_59_PARABOLIChESKOGO">\pm 1, \pm 2 \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_60_PARABOLIChESKOGO">d_{v}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_61_PARABOLIChESKOGO">\boldsymbol{v}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_62_PARABOLIChESKOGO">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_63_PARABOLIChESKOGO">(n=1,2, \ldots)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_64_PARABOLIChESKOGO">v|\arg z|&lt;3 \pi / 4</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_65_PARABOLIChESKOGO">|z| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_66_PARABOLIChESKOGO">|z|,|\arg (-v)| \leqslant \pi / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/164_67_PARABOLIChESKOGO">|v| \rightarrow \infty</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/164_1_PARABOLIChESKOGO">
+      <rel_text>Дифракции математическая теория</rel_text>
+      <target>http://libmeta.ru/me/article/251_DIFRAKTsII</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/164_2_PARABOLIChESKOGO">
+      <rel_text>функциями</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+  </relations>
+  <text>метод приближенного решения высокочастотных дифракционных задач (см. URI[[http://libmeta.ru/me/relation/164_1_PARABOLIChESKOGO]]/URI). Как правило, к П. у. м. приходится прибегать для нахождения волнового поля в тех областях, где лучевой метод применять нельзя из-за того, что поле лутей терлет в том или ином смыслс рөгулярвость. Пусть, напр., поставлена задача о падевии плоской волны на идеально отражающее выпуклое тело. Волновой процесс описывается уравнением Гельмгольца
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_1_PARABOLIChESKOGO]]/URI
+\]
+
+Здесь точка $URI[[http://libmeta.ru/me/formula/aux/164_1_PARABOLIChESKOGO]]/URI$ пробегает внешность ограниченной выпуклой области $URI[[http://libmeta.ru/me/formula/aux/164_2_PARABOLIChESKOGO]]/URI$, на границе к-рой выполняется краевое условие Дирихле $URI[[http://libmeta.ru/me/formula/aux/164_3_PARABOLIChESKOGO]]/URI$. Предполагается, что $URI[[http://libmeta.ru/me/formula/aux/164_4_PARABOLIChESKOGO]]/URI$ и имеет всюду положительную кривизну. Решение $URI[[http://libmeta.ru/me/formula/aux/164_5_PARABOLIChESKOGO]]/URI$ представимо в виде $URI[[http://libmeta.ru/me/formula/aux/164_6_PARABOLIChESKOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/164_7_PARABOLIChESKOGO]]/URI$ удовлетворяет излучения условиял. Решение такой задачи существует и единственно.
+
+В высокочастотном случае ( $URI[[http://libmeta.ru/me/formula/aux/164_8_PARABOLIChESKOGO]]/URI$ «велико») важно построить формальное коротковолновое решение этой задачи (т. е., грубо говоря, разложение, формально удовлетворяющее всем условиям задачи, достаточно далекие члены к-рого имеют сколь угодно высокий порядок малости при $URI[[http://libmeta.ru/me/formula/aux/164_9_PARABOLIChESKOGO]]/URI$. Можно показать, что в рассматриваемом случав формальное решение будет асимптотич. разложением классич. решения.
+
+Лучевой метод позволяет построить искомое коротковолновое разложение всюду, кроме области тени (см. рис.). Выражеполутень ние для волнового по-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d7d00379cbbd040a1d5g-1.jpg?height=72&amp;width=814&amp;top_left_y=881&amp;top_left_x=139)
+тода, теряет гладкость
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d7d00379cbbd040a1d5g-1.jpg?height=152&amp;width=820&amp;top_left_y=958&amp;top_left_x=138)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d7d00379cbbd040a1d5g-1.jpg?height=152&amp;width=820&amp;top_left_y=958&amp;top_left_x=138)
+$URI[[http://libmeta.ru/me/formula/aux/164_10_PARABOLIChESKOGO]]/URI$ ) коротковолновая асимптотика волнового поля уже не выражается лучевыми формулами. Окрестности $URI[[http://libmeta.ru/me/formula/aux/164_11_PARABOLIChESKOGO]]/URI$ (и $URI[[http://libmeta.ru/me/formula/aux/164_12_PARABOLIChESKOGO]]/URI$ наз. обычно полутенью.
+
+Ключевым моментом при построении формального решения поставленной выше задачи является рассмотрение окрестности точек касания $URI[[http://libmeta.ru/me/formula/aux/164_13_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_14_PARABOLIChESKOGO]]/URI$ лучей падающей волны и кривой $URI[[http://libmeta.ru/me/formula/aux/164_15_PARABOLIChESKOGO]]/URI$. Точка $URI[[http://libmeta.ru/me/formula/aux/164_16_PARABOLIChESKOGO]]/URI$ принята за наqало координат, положительная часть оси $URI[[http://libmeta.ru/me/formula/aux/164_17_PARABOLIChESKOGO]]/URI$ отделяет область тени от освещенной области.
+
+Пусть в окрестности $URI[[http://libmeta.ru/me/formula/aux/164_18_PARABOLIChESKOGO]]/URI$ введены новые координаты $URI[[http://libmeta.ru/me/formula/aux/164_19_PARABOLIChESKOGO]]/URI$. Точка $URI[[http://libmeta.ru/me/formula/aux/164_20_PARABOLIChESKOGO]]/URI$ характеризуется ее расстоянием вдоль $URI[[http://libmeta.ru/me/formula/aux/164_21_PARABOLIChESKOGO]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/164_22_PARABOLIChESKOGO]]/URI$. Считается, что $URI[[http://libmeta.ru/me/formula/aux/164_23_PARABOLIChESKOGO]]/URI$ (соответственно $URI[[http://libmeta.ru/me/formula/aux/164_24_PARABOLIChESKOGO]]/URI$ ) в области тени (соответственно в освещенной области). Если $URI[[http://libmeta.ru/me/formula/aux/164_25_PARABOLIChESKOGO]]/URI$, то точка $URI[[http://libmeta.ru/me/formula/aux/164_26_PARABOLIChESKOGO]]/URI$ характеризуется ее расстоянием $URI[[http://libmeta.ru/me/formula/aux/164_27_PARABOLIChESKOGO]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/164_28_PARABOLIChESKOGO]]/URI$ и координатой $URI[[http://libmeta.ru/me/formula/aux/164_29_PARABOLIChESKOGO]]/URI$ проекции $URI[[http://libmeta.ru/me/formula/aux/164_30_PARABOLIChESKOGO]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/164_31_PARABOLIChESKOGO]]/URI$. В координатах $URI[[http://libmeta.ru/me/formula/aux/164_32_PARABOLIChESKOGO]]/URI$ уравнение Гельмгольца имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_2_PARABOLIChESKOGO]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/164_33_PARABOLIChESKOGO]]/URI$ - радиус кривизны $URI[[http://libmeta.ru/me/formula/aux/164_34_PARABOLIChESKOGO]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/164_35_PARABOLIChESKOGO]]/URI$.
+
+Используя ряд Маклорена для $URI[[http://libmeta.ru/me/formula/aux/164_36_PARABOLIChESKOGO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_3_PARABOLIChESKOGO]]/URI
+\]
+
+можно заменить все коэффициенты уравнения (2) их формальными разложениями по степеням $URI[[http://libmeta.ru/me/formula/aux/164_37_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_38_PARABOLIChESKOGO]]/URI$. В растянутых координатах
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_4_PARABOLIChESKOGO]]/URI
+\]
+
+полагая в уравнении (2)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_5_PARABOLIChESKOGO]]/URI
+\]
+
+ı ириравнивая нулю коәффициенты при последовательных степенях $URI[[http://libmeta.ru/me/formula/aux/164_39_PARABOLIChESKOGO]]/URI$, приходят к типичной для метода пограничного слоя цепочке рекуррентных уравнений $URI[[http://libmeta.ru/me/formula/aux/164_40_PARABOLIChESKOGO]]/URI$. Здесь первое уравнение и есть «параболическое» уравнение, давшее название П. у. м.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_6_PARABOLIChESKOGO]]/URI
+\]
+
+По существу уравнение (4) является уравнением типа Шрёдингера. В операторах $URI[[http://libmeta.ru/me/formula/aux/164_41_PARABOLIChESKOGO]]/URI$ коэфффициенты полиномы от $URI[[http://libmeta.ru/me/formula/aux/164_42_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_43_PARABOLIChESKOGO]]/URI$. Для формального выполнения краевого условия $URI[[http://libmeta.ru/me/formula/aux/164_44_PARABOLIChESKOGO]]/URI$ достаточно потребовать, чтобы $URI[[http://libmeta.ru/me/formula/aux/164_45_PARABOLIChESKOGO]]/URI$. Роль других краевых условий играет требование, чтобы при больших $URI[[http://libmeta.ru/me/formula/aux/164_46_PARABOLIChESKOGO]]/URI$, ряд (3) формально переходил бы в разложение лучевого метода. Для $URI[[http://libmeta.ru/me/formula/aux/164_47_PARABOLIChESKOGO]]/URI$ можно вывести явную формулу (т. н. Ф о р м ул у Ф о к а), имеющую вид интеграла Фурье
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_7_PARABOLIChESKOGO]]/URI
+\]
+
+где Ф сравнительно просто выражается через функции Әйри. Методика склеивания (сращивания) асимптотич. разложений дает возможность получить формулы для волнового поля по всей области тени и полутени.
+
+В случае волн соскальзывания и шепчущей галереи выводятся соответствующие «параболические» уравнения и их решения выражаются через функции Эйри. Развитие теории лазеров привело к необходимости рассматривать волны, сосредоточенные в окрестности изолированных лучей. Выделяя соответствующий фазовый множитель и проводя далее построения, аналогичные построениям метода пограничного слоя, приходят к «параболическому» уравнению, через решение к-рого выражается в первом приближении волновое поле. В этом случае «параболическое» уравнение будет ураввением Iiрёдингера с квадратичным потенциалом. П. у. м. находит применение также при расчете волнового поля в световодах, в статистически неоднородных средах и во многих др. задачах. Аналоги П. у. м. используются в теории нелинейных волн.
+
+Лит.: [1] $URI[[http://libmeta.ru/me/formula/aux/164_48_PARABOLIChESKOGO]]/URI$ о к В. А., Проблемы дифракции и распространения әлектромагнитных волн, М., 1970; [2] Б а б и ч чах дифракции коротких волн, М., 1972; [3] Б а б и ч В. М., К и р п и ч н и к о в а H. Я., Метод пограничного слоя в задачах дифракци, Л., Вебера фу укци и, Вебера-Эрмита ф у н к ц и и, - решения дифференциального уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_8_PARABOLIChESKOGO]]/URI
+\]
+
+к-рое получается в результате разделения переменных в волновом уравнении $URI[[http://libmeta.ru/me/formula/aux/164_49_PARABOLIChESKOGO]]/URI$ в парабалических цилиндриq. координатах. Наиболее часто используется решение
+
+$URI[[http://libmeta.ru/me/formula/aux/164_50_PARABOLIChESKOGO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/164_51_PARABOLIChESKOGO]]/URI$ - вырожденная гипергеометрич. функция. Уравнению (*) удовлетворяют также $URI[[http://libmeta.ru/me/formula/aux/164_52_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/164_53_PARABOLIChESKOGO]]/URI$. Функции $URI[[http://libmeta.ru/me/formula/aux/164_54_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_55_PARABOLIChESKOGO]]/URI$ линейно независимы при любых $URI[[http://libmeta.ru/me/formula/aux/164_56_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_57_PARABOLIChESKOGO]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/164_58_PARABOLIChESKOGO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/164_59_PARABOLIChESKOGO]]/URI$ П. ц. Ф. - целые функции от z. Функция $URI[[http://libmeta.ru/me/formula/aux/164_60_PARABOLIChESKOGO]]/URI$ действительна при действительных $URI[[http://libmeta.ru/me/formula/aux/164_61_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_62_PARABOLIChESKOGO]]/URI$.
+
+Формулы диффференцирования $URI[[http://libmeta.ru/me/formula/aux/164_63_PARABOLIChESKOGO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_9_PARABOLIChESKOGO]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/164_10_PARABOLIChESKOGO]]/URI
+\]
+
+Рекуррентные формулы:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_11_PARABOLIChESKOGO]]/URI
+\] Асимптотика: при фиксированном $URI[[http://libmeta.ru/me/formula/aux/164_64_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_65_PARABOLIChESKOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_12_PARABOLIChESKOGO]]/URI
+\]
+
+пріг ограниченном $URI[[http://libmeta.ru/me/formula/aux/164_66_PARABOLIChESKOGO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/164_67_PARABOLIChESKOGO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_13_PARABOLIChESKOGO]]/URI
+\]
+
+П. ц. Ф. связана с др. функциями следующими соотношениями. С многочленами Эрмита:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_14_PARABOLIChESKOGO]]/URI
+\]
+
+с интегралом вероятности:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_15_PARABOLIChESKOGO]]/URI
+\]
+
+с URI[[http://libmeta.ru/me/relation/164_2_PARABOLIChESKOGO]]/URI Бесселя:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/164_16_PARABOLIChESKOGO]]/URI
+\]</text>
+  <text_orig>метод приближенного решения высокочастотных дифракционных задач (см. Дифракции математическая теория). Как правило, к П. у. м. приходится прибегать для нахождения волнового поля в тех областях, где лучевой метод применять нельзя из-за того, что поле лутей терлет в том или ином смыслс рөгулярвость. Пусть, напр., поставлена задача о падевии плоской волны на идеально отражающее выпуклое тело. Волновой процесс описывается уравнением Гельмгольца
+
+\[
+\left(\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}+k^{2}\right) u=0 .
+\]
+
+Здесь точка $(x, y)$ пробегает внешность ограниченной выпуклой области $\Omega$, на границе к-рой выполняется краевое условие Дирихле $u \mid s=0$. Предполагается, что $\partial \Omega=S \in C^{\infty}$ и имеет всюду положительную кривизну. Решение $u$ представимо в виде $e^{i k x}+u^{0}$, где $u^{0}$ удовлетворяет излучения условиял. Решение такой задачи существует и единственно.
+
+В высокочастотном случае ( $k$ «велико») важно построить формальное коротковолновое решение этой задачи (т. е., грубо говоря, разложение, формально удовлетворяющее всем условиям задачи, достаточно далекие члены к-рого имеют сколь угодно высокий порядок малости при $k \rightarrow \infty)$. Можно показать, что в рассматриваемом случав формальное решение будет асимптотич. разложением классич. решения.
+
+Лучевой метод позволяет построить искомое коротковолновое разложение всюду, кроме области тени (см. рис.). ВыражеПолутень ние для волнового по-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d7d00379cbbd040a1d5g-1.jpg?height=72&amp;width=814&amp;top_left_y=881&amp;top_left_x=139)
+тода, теряет гладкость
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d7d00379cbbd040a1d5g-1.jpg?height=152&amp;width=820&amp;top_left_y=958&amp;top_left_x=138)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_2d7d00379cbbd040a1d5g-1.jpg?height=152&amp;width=820&amp;top_left_y=958&amp;top_left_x=138)
+$O^{\prime} A^{\prime}$ ) коротковолновая асимптотика волнового поля уже не выражается лучевыми формулами. Окрестности $O A$ (и $\left.O^{\prime} A^{\prime}\right)$ наз. обычно полутенью.
+
+Ключевым моментом при построении формального решения поставленной выше задачи является рассмотрение окрестности точек касания $O$ и $O^{\prime}$ лучей падающей волны и кривой $S=\partial \Omega$. Точка $O$ принята за наqало координат, положительная часть оси $O x$ отделяет область тени от освещенной области.
+
+Пусть в окрестности $O$ введены новые координаты $s, n$. Точка $M \notin S$ характеризуется ее расстоянием вдоль $S$ от $O$. Считается, что $s&gt;0$ (соответственно $s&lt;0$ ) в области тени (соответственно в освещенной области). Если $M \in \Omega$, то точка $M$ характеризуется ее расстоянием $n$ от $S$ и координатой $s$ проекции $M$ на $S$. В координатах $s, n$ уравнение Гельмгольца имеет вид
+
+\[
+\begin{aligned}
+&amp; \left(1+\frac{n}{\rho}\right)^{-1}\left[\frac{\partial}{\partial n}\left(\left(1+\frac{n}{\rho}\right) \frac{\partial u}{\partial n}\right)+\frac{\partial}{\partial s}\left(\left(1+\frac{n}{\rho}\right)^{-1} \times\right.\right. \\
+&amp; \left.\left.\times \frac{\partial u}{\partial s}\right)\right]+k^{2} u=0
+\end{aligned}
+\]
+
+$(\rho=\rho(s)&gt;0$ - радиус кривизны $S$ в точке $s)$.
+
+Используя ряд Маклорена для $\frac{1}{\rho}$ :
+
+\[
+\left.\frac{1}{\rho} \sim \frac{1}{\rho}\right|_{s=0}+s\left(\frac{d}{d s}\left(\frac{1}{\rho}\right)\right)_{s=0}+\ldots
+\]
+
+можно заменить все коэффициенты уравнения (2) их формальными разложениями по степеням $s$ и $n$. В растянутых координатах
+
+\[
+\sigma=\frac{k^{1 / 3} s}{\sqrt[3]{2} \rho^{2 / 3}}, v=\sqrt[3]{\frac{2}{\rho_{0}}} k^{2 / 3} n, \rho_{0}=\rho(0),
+\]
+
+полагая в уравнении (2)
+
+\[
+u \sim e^{i k s}\left(v_{0}(\sigma, v)+k^{-1 / 3} v_{1}(\sigma, v)+\ldots\right)
+\]
+
+ı ириравнивая нулю коәффициенты при последовательных степенях $k^{-1 / 3}$, приходят к типичной для метода пограничного слоя цепочке рекуррентных уравнений $L_{0} v_{0}=0, L_{0} v_{1}+L_{1} v_{0}=0, L_{0} v_{2}+L_{1} v_{1}+L_{2} v_{0}=0$. Здесь первое уравнение и есть «параболическое» уравнение, давшее название П. у. м.:
+
+\[
+L_{0} v_{0} \equiv i \frac{\partial v_{0}}{\partial \sigma}+\frac{\partial^{2} v_{0}}{\partial v^{2}}+v v_{0}=0
+\]
+
+По существу уравнение (4) является уравнением типа Шрёдингера. В операторах $L_{j}$ коэфффициенты полиномы от $\sigma$ и $v$. Для формального выполнения краевого условия $u \mid s=0$ достаточно потребовать, чтобы $\left.u_{j}\right|_{s}=0$. Роль других краевых условий играет требование, чтобы при больших $|\sigma|, \sigma&lt;0$, ряд (3) формально переходил бы в разложение лучевого метода. Для $v_{0}$ можно вывести явную формулу (т. н. Ф о р м ул у Ф о к а), имеющую вид интеграла Фурье
+
+\[
+\int e^{i \sigma} \sigma(v, \zeta) d \zeta,
+\]
+
+где Ф сравнительно просто выражается через функции Әйри. Методика склеивания (сращивания) асимптотич. разложений дает возможность получить формулы для волнового поля по всей области тени и полутени.
+
+В случае волн соскальзывания и шепчущей галереи выводятся соответствующие «параболические» уравнения и их решения выражаются через функции Эйри. Развитие теории лазеров привело к необходимости рассматривать волны, сосредоточенные в окрестности изолированных лучей. Выделяя соответствующий фазовый множитель и проводя далее построения, аналогичные построениям метода пограничного слоя, приходят к «параболическому» уравнению, через решение к-рого выражается в первом приближении волновое поле. В этом случае «параболическое» уравнение будет ураввением IIрёдингера с квадратичным потенциалом. П. у. м. находит применение также при расчете волнового поля в световодах, в статистически неоднородных средах и во многих др. задачах. Аналоги П. у. м. используются в теории нелинейных волн.
+
+Лит.: [1] $\Phi$ о к В. А., Проблемы дифракции и распространения әлектромагнитных волн, М., 1970; [2] Б а б и ч чах дифракции коротких волн, М., 1972; [3] Б а б и ч В. М., К и р п и ч н и к о в а H. Я., Метод пограничного слоя в задачах дифракци, Л., Вебера фу укци и, Вебера-Эрмита ф у н к ц и и, - решения дифференциального уравнения
+
+\[
+\frac{d^{2} y}{d z^{2}}+\left(v+\frac{1}{2}-\frac{z^{2}}{4}\right) y=0,
+\]
+
+к-рое получается в результате разделения переменных в волновом уравнении $\Delta u \doteq k^{2} u$ в парабалических цилиндриq. координатах. Наиболее часто используется решение
+
+$D_{v}(z) \equiv U\left(-v-\frac{1}{2}, z\right)=2^{(v-1) / 2} e^{-z^{2} / 2} \Psi\left(\frac{1-v}{2}, \frac{3}{2} ; \frac{z^{2}}{2}\right)$, где $\Psi(a, b ; z)$ - вырожденная гипергеометрич. функция. Уравнению (*) удовлетворяют также $D_{v}(-z)$, $D_{-v-1}( \pm i z)$. Функции $D_{v}(z)$ и $D_{-v-1}( \pm i z)$ линейно независимы при любых $v, D_{v}(z)$ и $D_{v}(-z)$ при $v \neq 0$, $\pm 1, \pm 2 \ldots$ П. ц. Ф. - целые функции от z. Функция $D_{v}(z)$ действительна при действительных $\boldsymbol{v}$ и $z$.
+
+Формулы диффференцирования $(n=1,2, \ldots)$ :
+
+\[
+\frac{d^{n}}{d z^{n}}\left[e^{z^{2} / 4} D_{v}(z)\right]=(-1)^{n}(-v)_{n} e^{z^{2} / 4} D_{v-n}(z),
+\]\[
+\frac{d^{n}}{d z^{n}}\left[e^{-z^{2} / 4} D_{v}(z)\right]=(-1)^{n} e^{-z^{2} / 4} D_{v+n} .
+\]
+
+Рекуррентные формулы:
+
+\[
+\begin{aligned}
+D_{v+1}(z)-z D_{v}(z)+v D_{v-1}(z) &amp; =0, \\
+D_{v}^{\prime}(z)+\frac{z}{2} D_{v}(z)-v D_{v-1}(z) &amp; =0, \\
+D_{v}^{\prime}(z)-\frac{z}{2} D_{v}(z)+D_{v+1}(z) &amp; =0 .
+\end{aligned}
+\] Асимптотика: при фиксированном $v|\arg z|&lt;3 \pi / 4$ и $|z| \rightarrow \infty$
+
+\[
+\begin{aligned}
+D_{v}(z)=z^{v} e^{-z^{2} / 4} &amp; {\left[\sum_{k=0}^{N} \frac{(-v / 2)_{k}(1 / 2-v / 2)_{k}}{k !}\left(\frac{z^{2}}{-2}\right)^{-k}+\right.} \\
+&amp; +O\left(|z|^{-2 N-2}\right),
+\end{aligned}
+\]
+
+пріг ограниченном $|z|,|\arg (-v)| \leqslant \pi / 2$ и $|v| \rightarrow \infty$
+
+\[
+\begin{aligned}
+D_{v}(z)=\frac{1}{\sqrt{2}} &amp; \exp \left[\frac{v}{2} \ln (-v)-\frac{v}{2}-\sqrt{-v} z\right] \times \\
+&amp; \times\left[1+O\left(\frac{1}{\sqrt{|v|}}\right)\right] .
+\end{aligned}
+\]
+
+П. ц. Ф. связана с др. функциями следующими соотношениями. С многочленами Эрмита:
+
+\[
+D_{n}(z)=2-n / 2 e^{-z^{2} / 4} H_{n}(z / \sqrt{2}), n=0,1,2, \ldots ;
+\]
+
+с интегралом вероятности:
+
+\[
+\begin{gathered}
+D_{-n-1}(z)=\frac{(-1)^{n} \sqrt{2}}{n !} e^{-z^{2} / 4} \frac{d^{n}}{d z^{n}}\left(e^{z^{2} / 2} \operatorname{erf} \frac{z}{\sqrt{z}}\right), \\
+n=0,1,2, \ldots ;
+\end{gathered}
+\]
+
+с функциями Бесселя:
+
+\[
+D_{-1 / 2}(z)=\sqrt{\frac{\pi z}{2}} K_{1 / 4}\left(\frac{z^{2}}{4}\right) \text {. }
+\]
+
+Лuт.: [1] Б е й т м е н Г., Э цендентные Функции. Функции Бесселя, Функции параболического цилиндра, ортогональные многочлены, пер. с англ. 2 изд., М., 1974; [2] М и л л е p Д ж.-Ч.-П., Таблицы функций Вебера (Функций параболического цилиндра), пер. с англ.,
+
+М., 1968 . Ю. А. Брычков, А. П. Прудников.</text_orig>
+</article>

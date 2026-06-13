@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/36_OPTIMAL'NAJa" alphabetic_pos="36">
+  <title>ОПТИМАЛЬНАЯ КВАДРАТУРА</title>
+  <authors/>
+  <pages>
+    <start>18</start>
+    <end>19</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Н и к о Л ь с к и й С. М., Квадратурные формулы, 3 изд., М., 1979; [2] Б а х в а л о в Н. С., в кн.: Численвые методы решения дифференциальных и интегральных уравнений и квадратурные формулы, М., 1964, с. 5-63; [3] С о 6 о л е в С. Л., Введение в теорию кубатурных формул, М., 1974.</literature_orig>
+    <unit>
+      <author>Нико Льский С. М.</author>
+      <title>Квадратурные формулы</title>
+      <publication>3 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>в кн.: Численвые методы решения дифференциальных и интегральных уравнений и квадратурные формулы</title>
+      <publication>М.</publication>
+      <year>1964</year>
+      <other>с. 5-63</other>
+    </unit>
+    <unit>
+      <author>Со6олев С. Л.</author>
+      <title>Введение в теорию кубатурных формул</title>
+      <publication>М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/36_1_OPTIMAL'NAJa">I(f)=\int_{\Omega} f(P) \omega(P) d P</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/36_2_OPTIMAL'NAJa">S_{N}(f)=\sum_{k=1}^{N} c_{k} f\left(P_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/36_3_OPTIMAL'NAJa">R_{N}(f)=S_{N}(f)-I(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/36_4_OPTIMAL'NAJa">r_{N}(F)=\sup _{f \in F}\left|R_{N}(f)\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/36_5_OPTIMAL'NAJa">r_{N}(F)=\inf _{c_{k} P_{k}} r_{N}(F),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/36_1_OPTIMAL'NAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/36_2_OPTIMAL'NAJa">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/36_3_OPTIMAL'NAJa">r_{n}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/36_4_OPTIMAL'NAJa">м</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/me/relation/36_1_OPTIMAL'NAJa">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/36_2_OPTIMAL'NAJa">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/36_3_OPTIMAL'NAJa">
+      <rel_text>переменного</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/36_4_OPTIMAL'NAJa">
+      <rel_text>Функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>квадратурная формула, дающая наилучшее приближение интегралу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/36_1_OPTIMAL'NAJa]]/URI
+\] на классе $URI[[http://libmeta.ru/me/formula/aux/36_1_OPTIMAL'NAJa]]/URI$ подинтегральных функций. Если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/36_2_OPTIMAL'NAJa]]/URI
+\]
+
+To
+
+\[
+URI[[http://libmeta.ru/me/formula/main/36_3_OPTIMAL'NAJa]]/URI
+\]
+
+наз. пог р е ш ност ь ю к а д р а т у ы при вычислении интеграла от данной функции, а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/36_4_OPTIMAL'NAJa]]/URI
+\]
+
+наз. п о г р е ш н о с т ь ю к в а д р а т у р ы на класce $URI[[http://libmeta.ru/me/formula/aux/36_2_OPTIMAL'NAJa]]/URI$. Если существует такая квадратура, что для соответствующей ей $URI[[http://libmeta.ru/me/formula/aux/36_3_OPTIMAL'NAJa]]/URI$ выполняется равевство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/36_5_OPTIMAL'NAJa]]/URI
+\]
+
+то эту квадратуру наз. о п т и $URI[[http://libmeta.ru/me/formula/aux/36_4_OPTIMAL'NAJa]]/URI$ а ль о й в а ә том к л а с с е.
+
+О. к. построены липь для нек-рых классов URI[[http://libmeta.ru/me/relation/36_4_OPTIMAL'NAJa]]/URI в основном одного URI[[http://libmeta.ru/me/relation/36_3_OPTIMAL'NAJa]]/URI (см. [1] - [3]). О. к. наз. также н а Iл у ч Iii URI[[http://libmeta.ru/me/relation/36_2_OPTIMAL'NAJa]]/URI м и в а д р а т у р ны ми URI[[http://libmeta.ru/me/relation/36_1_OPTIMAL'NAJa]]/URI и, или әкст р е мальными к вадр а т у рным и фо р м у ла а и.</text>
+  <text_orig>квадратурная формула, дающая наилучшее приближение интегралу
+
+\[
+I(f)=\int_{\Omega} f(P) \omega(P) d P
+\] на классе $F$ подинтегральных функций. Если
+
+\[
+S_{N}(f)=\sum_{k=1}^{N} c_{k} f\left(P_{k}\right)
+\]
+
+To
+
+\[
+R_{N}(f)=S_{N}(f)-I(f)
+\]
+
+наз. пог р е ш ност ь ю к а д р а т у ы при вычислении интеграла от данной функции, а
+
+\[
+r_{N}(F)=\sup _{f \in F}\left|R_{N}(f)\right|
+\]
+
+наз. п о г р е ш н о с т ь ю к в а д р а т у р ы на класce $F$. Если существует такая квадратура, что для соответствующей ей $r_{N}(F)$ выполняется равевство
+
+\[
+r_{N}(F)=\inf _{c_{k} P_{k}} r_{N}(F),
+\]
+
+то эту квадратуру наз. о п т и $м$ а ль о й в а ә том к л а с с е.
+
+О. к. построены липь для нек-рых классов Функций в основном одного переменного (см. [1] - [3]). О. к. наз. также н а Iл у ч III II м и в а д р а т у р ны ми формулам и, или әкст р е мальными к вадр а т у рным и фо р м у ла а и.
+
+Лит.: [1] Н и к о Л ь с к и й С. М., Квадратурные формулы, 3 изд., М., 1979; [2] Б а х в а л о в Н. С., в кн.: Численвые методы решения дифференциальных и интегральных уравнений и квадратурные формулы, М., 1964, с. 5-63; [3] С о 6 о л е в С. Л., Введение в теорию кубатурных формул, М., 1974.</text_orig>
+</article>

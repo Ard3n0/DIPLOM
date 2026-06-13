@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/204_ANGERA" alphabetic_pos="204">
+  <title>АНГЕРА ФУНКЦИЯ</title>
+  <authors/>
+  <pages>
+    <start>146</start>
+    <end>146</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] A ng e r C. T., Neueste Schriften der Naturf. Ges. in Danzig, 1855, Bd 5, S. 1-29; [2] В а т с о н $\gamma$. Н., Теория бесселевых функций, пер. с англ., ч. 1, М., 1949, гл. 10.А.П.Прудников.</literature_orig>
+    <unit>
+      <author>Anger C. T.</author>
+      <title>Neueste Schriften der Naturf. Ges. in Danzig</title>
+      <publication/>
+      <year>1855</year>
+      <other>Bd 5, S. 1-29</other>
+    </unit>
+    <unit>
+      <author>Ватсон$\gamma$. Н.</author>
+      <title>Теория бесселевых функций</title>
+      <publication>пер. с англ., ч. 1, М.</publication>
+      <year>1949</year>
+      <other>гл. 10.А.П.Прудников.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/204_1_ANGERA">\mathbf{J}_{v}(z)=\frac{1}{\pi} \int_{0}^{\pi} \cos (v \varphi-z \sin \varphi) d \varphi,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/204_2_ANGERA">z^{2} y^{\prime \prime}+z y^{\prime}+\left(z^{2}-v^{2}\right) y=\frac{1}{\pi}(z-v) \sin v \pi .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/204_3_ANGERA">\begin{aligned}\mathbf{J}_{v}(z) &amp; =\frac{\sin v \pi}{v \pi}\left[1-\frac{z^{2}}{2^{2}-v^{2}}+\frac{z^{4}}{\left(2^{2}-v^{2}\right)\left(4^{2}-v^{2}\right)}-\right. \\&amp; \left.-\frac{z^{8}}{\left(z^{2}-v^{2}\right)\left(4^{2}-v^{2}\right)\left(6^{2}-v^{2}\right)}+\ldots\right]+ \\&amp; +\frac{\sin v \pi}{\pi}\left[\frac{z}{1^{2}-v^{2}}-\frac{z^{3}}{\left(1^{2}-v^{2}\right)\left(3^{2}-v^{2}\right)}+\right. \\&amp; \left.+\frac{z^{5}}{\left(1^{2}-v^{2}\right)\left(3^{2}-v^{2}\right)\left(5^{2}-v^{2}\right)}-\ldots\right] .\end{aligned}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_1_ANGERA">v=n \quad \mathbf{J}_{v}(z)=J_{n}(z)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_2_ANGERA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_3_ANGERA">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_4_ANGERA">|z| \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_5_ANGERA">|\arg z|&lt;\pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_6_ANGERA">\mathbf{j}_{v}(z) \approx J_{v}(z)+\frac{\sin v \pi}{\pi z}\left[1-\frac{1^{2}-v^{2}}{z^{2}}+\frac{\left(1^{2}-v^{2}\right)\left(3^{2}-v^{2}\right)}{z^{4}}-\ldots\right]-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_7_ANGERA">-\frac{\sin v \pi}{\pi z}\left[\frac{v}{z}-\frac{v\left(2^{2}-v^{2}\right)}{z^{3}}+\frac{v\left(2^{2}-v^{2}\right)\left(4^{2}-v^{2}\right)}{z^{5}}-\ldots\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_8_ANGERA">(*)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/204_9_ANGERA">2 \pi</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/204_1_ANGERA">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/204_2_ANGERA">
+      <rel_text>верхним пределом</rel_text>
+      <target>http://libmeta.ru/me/article/677_VERHNIJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/204_3_ANGERA">
+      <rel_text>функцию</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+  </relations>
+  <text>функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/204_1_ANGERA]]/URI
+\]
+
+удовлетворяющая неоднородному уравнению Бесселя:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/204_2_ANGERA]]/URI
+\]
+
+Для целых $URI[[http://libmeta.ru/me/formula/aux/204_1_ANGERA]]/URI$ Бесселя функции порядка $URI[[http://libmeta.ru/me/formula/aux/204_2_ANGERA]]/URI$. Для нецелых $URI[[http://libmeta.ru/me/formula/aux/204_3_ANGERA]]/URI$ справедливо разложение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/204_3_ANGERA]]/URI
+\]
+
+При $URI[[http://libmeta.ru/me/formula/aux/204_4_ANGERA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/204_5_ANGERA]]/URI$ имеет место асимптотич. разложение
+
+$URI[[http://libmeta.ru/me/formula/aux/204_6_ANGERA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/204_7_ANGERA]]/URI$.
+
+А. ф. наз. по имени К. Т. Ангера [1], к-рый изучал URI[[http://libmeta.ru/me/relation/204_3_ANGERA]]/URI типа $URI[[http://libmeta.ru/me/formula/aux/204_8_ANGERA]]/URI$, но с URI[[http://libmeta.ru/me/relation/204_2_ANGERA]]/URI URI[[http://libmeta.ru/me/relation/204_1_ANGERA]]/URI $URI[[http://libmeta.ru/me/formula/aux/204_9_ANGERA]]/URI$.</text>
+  <text_orig>функция
+
+\[
+\mathbf{J}_{v}(z)=\frac{1}{\pi} \int_{0}^{\pi} \cos (v \varphi-z \sin \varphi) d \varphi,
+\]
+
+удовлетворяющая неоднородному уравнению Бесселя:
+
+\[
+z^{2} y^{\prime \prime}+z y^{\prime}+\left(z^{2}-v^{2}\right) y=\frac{1}{\pi}(z-v) \sin v \pi .
+\]
+
+Для целых $v=n \quad \mathbf{J}_{v}(z)=J_{n}(z)-$ Бесселя функции порядка $n$. Для нецелых $v$ справедливо разложение
+
+\[
+\begin{aligned}
+\mathbf{J}_{v}(z) &amp; =\frac{\sin v \pi}{v \pi}\left[1-\frac{z^{2}}{2^{2}-v^{2}}+\frac{z^{4}}{\left(2^{2}-v^{2}\right)\left(4^{2}-v^{2}\right)}-\right. \\
+&amp; \left.-\frac{z^{8}}{\left(z^{2}-v^{2}\right)\left(4^{2}-v^{2}\right)\left(6^{2}-v^{2}\right)}+\ldots\right]+ \\
+&amp; +\frac{\sin v \pi}{\pi}\left[\frac{z}{1^{2}-v^{2}}-\frac{z^{3}}{\left(1^{2}-v^{2}\right)\left(3^{2}-v^{2}\right)}+\right. \\
+&amp; \left.+\frac{z^{5}}{\left(1^{2}-v^{2}\right)\left(3^{2}-v^{2}\right)\left(5^{2}-v^{2}\right)}-\ldots\right] .
+\end{aligned}
+\]
+
+При $|z| \rightarrow \infty$ и $|\arg z|&lt;\pi$ имеет место асимптотич. разложение
+
+$\mathbf{J}_{v}(z) \approx J_{v}(z)+\frac{\sin v \pi}{\pi z}\left[1-\frac{1^{2}-v^{2}}{z^{2}}+\frac{\left(1^{2}-v^{2}\right)\left(3^{2}-v^{2}\right)}{z^{4}}-\ldots\right]-$ $-\frac{\sin v \pi}{\pi z}\left[\frac{v}{z}-\frac{v\left(2^{2}-v^{2}\right)}{z^{3}}+\frac{v\left(2^{2}-v^{2}\right)\left(4^{2}-v^{2}\right)}{z^{5}}-\ldots\right]$.
+
+А. ф. наз. по имени К. Т. Ангера [1], к-рый изучал функцию типа $(*)$, но с верхним пределом интеграла $2 \pi$. Jum.: [1] A ng e r C. T., Neueste Schriften der Naturf. Ges. in Danzig, 1855, Bd 5, S. 1-29; [2] В а т с о н $\Gamma$. Н., Теория бесселевых функций, пер. с англ., ч. 1, М., 1949, гл. 10.
+
+А.П.Прудников.</text_orig>
+</article>

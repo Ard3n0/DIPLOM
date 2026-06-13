@@ -1,0 +1,428 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/330_POVERHNOSTNYI" alphabetic_pos="330">
+  <title>ПОВЕРХНОСТНЫИ ИНТЕГРАЛ</title>
+  <authors>
+    <author>Л. Д. Кудрлвчев</author>
+  </authors>
+  <pages>
+    <start>170</start>
+    <end>172</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] И л ь и н В. А., П о з н я к Э., Г., Основы матемацич в Ј. Д., Курс математического анадлиза, т. 2, М., 1981; [3] Н и к о л в с к и й С. М., Курс математического анализа, 2 изд., т. 2, М., 1975; [4] Д у б р о в и н Б. А., Н о в и к о в С. П., Ф ом е н к о А. Т., Современная геометрия, М., 1979; [5] М и-щ е н к о А. С., Фом е н к о А. Т., Курс дифференциальной геометрии и топологии, М., 1980. ,</literature_orig>
+    <unit>
+      <author>Ильин В. А.</author>
+      <author>Позняк Э.</author>
+      <author> Г.</author>
+      <author>ОсновыматемацичвЈ. Д.</author>
+      <title>Курс математического анадлиза</title>
+      <publication>М.</publication>
+      <year>1981</year>
+      <other>т. 2, Курс математического анализа, 2 изд., т. 2, М., 1975; [4] Д у б р о в и н Б. А., Н о в и к о в С. П., Ф ом е н к о А. Т., Современная геометрия, М., 1979; [5] М и-щ е н к о А. С., Фом е н к о А. Т., Курс дифференциальной геометрии и топологии, М., 1980.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/330_1_POVERHNOSTNYI">\boldsymbol{r}=\boldsymbol{r}(u, v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_2_POVERHNOSTNYI">g_{11}=\left(\frac{\partial r}{\partial u}\right)^{2}, g_{12}=\frac{\partial r}{\partial u} \frac{\partial r}{\partial v}, g_{22}=\left(\frac{\partial r}{\partial v}\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_3_POVERHNOSTNYI">\iint_{S} F(x, y, z) d S=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_4_POVERHNOSTNYI">\operatorname{mes} S_{i}=\iint_{E_{i}} \sqrt{g_{11} g_{22}-g_{12}^{2}} d u d v</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_5_POVERHNOSTNYI">\iint_{S} F(x, y, z) d S=</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_6_POVERHNOSTNYI">\begin{gathered}\iint_{S} F(x, y, z) d S= \\=\iint_{G} F(x, y, f(x, y)) \sqrt{1+\left(\frac{\partial f}{\partial x}\right)^{2}+\left(\frac{\partial f}{\partial y}\right)^{2}} d x d y .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_7_POVERHNOSTNYI">\iint_{S^{-}} F(x, y, z) d x d y=-\iint_{S_{+}} F(x, y, z) d x d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_8_POVERHNOSTNYI">=\iint_{G} F(x(u, v), y(u, v), z(u, v)) \frac{\partial(x, y)}{\partial(u, v)} d u d v .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/330_9_POVERHNOSTNYI">\iint_{S} \operatorname{an} d S</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_1_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_2_POVERHNOSTNYI">\mathbb{r}^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_3_POVERHNOSTNYI">x, y, z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_4_POVERHNOSTNYI">\quad \boldsymbol{r}(u, v)=(x(u, v), y(u, v), z(u, v))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_5_POVERHNOSTNYI">\bar{g}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_6_POVERHNOSTNYI">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_7_POVERHNOSTNYI">u, v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_8_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_9_POVERHNOSTNYI">f(x, y, z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_10_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_11_POVERHNOSTNYI">f(x(u, v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_12_POVERHNOSTNYI">y(u, v), z(u, v))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_13_POVERHNOSTNYI">=\iint_{g} F(x(u, v), y(u, v), z(u, v)) \sqrt{g_{11} g_{22}-g_{12}^{2}} d u d v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_14_POVERHNOSTNYI">f(x(u, v), y(u, v), z(u, v))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_15_POVERHNOSTNYI">\tau=\left\{s_{i}\right\}_{i=1}^{i=k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_16_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_17_POVERHNOSTNYI">s_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_18_POVERHNOSTNYI">e_{i} \subset \bar{G}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_19_POVERHNOSTNYI">\tau_{0}=\left\{e_{i}\right\}_{i=1}^{i=t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_20_POVERHNOSTNYI">\bar{g}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_21_POVERHNOSTNYI">s_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_22_POVERHNOSTNYI">=\lim _{\delta_{\tau_{0}} \rightarrow 0} \sum_{i=1}^{k} F\left(x\left(\xi_{i}, \eta_{i}\right), \quad y\left(\xi_{i}, \eta_{i}\right), \quad z\left(\xi_{i}, \eta_{i}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_23_POVERHNOSTNYI">s_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_24_POVERHNOSTNYI">\delta_{\tau_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_25_POVERHNOSTNYI">\tau_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_26_POVERHNOSTNYI">\left(\xi_{i}, \eta_{i}\right) \in E_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_27_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_28_POVERHNOSTNYI">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_29_POVERHNOSTNYI">(x, y) \in \bar{G}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_30_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_31_POVERHNOSTNYI">\boldsymbol{r}_{u} \times \boldsymbol{r}_{v} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_32_POVERHNOSTNYI">\boldsymbol{n}=(\cos \alpha, \cos \beta, \cos \gamma)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_33_POVERHNOSTNYI">\boldsymbol{n}=\frac{{ }_{{ }^{r}} \times \boldsymbol{r}_{v}}{\mid{ }^{r_{a} \times r_{v} \mid}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_34_POVERHNOSTNYI">s+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_35_POVERHNOSTNYI">\left.\begin{array}{l}\iint_{S^{+}} F(x, y, z) d x d y=\iint_{S} F(x, y, z) \cos \gamma d S, \\ \iint_{S^{+}} F(x, y, z) d y d z=\iint_{S} F(x, y, z) \cos \alpha d S,\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_36_POVERHNOSTNYI">\iint_{s^{+}} F(x, y, z) d y d z=\iint_{S} F(x, y, z) \cos \beta d S, \int</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_37_POVERHNOSTNYI">s^{--}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_38_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_39_POVERHNOSTNYI">s^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_40_POVERHNOSTNYI">\boldsymbol{n}=\frac{\boldsymbol{r}_{u} \times \boldsymbol{r}_{v}}{\left|\boldsymbol{r}_{u} \times \boldsymbol{r}_{v}\right|}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_41_POVERHNOSTNYI">\iint_{s+} F(x, y, z) d x d y=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_42_POVERHNOSTNYI">z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_43_POVERHNOSTNYI">(x, y) \in \bar{G}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_44_POVERHNOSTNYI">\iint_{s+} F(x, y, z) d x d y=\iint_{G} F(x, y, f(x, y)) d x d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_45_POVERHNOSTNYI">\iint_{s^{-}} F(x, y, z) d x d y=-\iint_{G} F(x, y, f(x, y)) d x d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_46_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_47_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_48_POVERHNOSTNYI">x=u, y=v, z=f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_49_POVERHNOSTNYI">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_50_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_51_POVERHNOSTNYI">s+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_52_POVERHNOSTNYI">s-\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_53_POVERHNOSTNYI">s^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_54_POVERHNOSTNYI">\iint_{s} d S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_55_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_56_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_57_POVERHNOSTNYI">f(x, y, z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_58_POVERHNOSTNYI">\iint_{s} F(\dot{x}, y, z) d S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_59_POVERHNOSTNYI">\boldsymbol{a}=\boldsymbol{a}(x, y, z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_60_POVERHNOSTNYI">\boldsymbol{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_61_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_62_POVERHNOSTNYI">\boldsymbol{\text { по через }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_63_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_64_POVERHNOSTNYI">\mathbb{r}^{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_65_POVERHNOSTNYI">\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_66_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_67_POVERHNOSTNYI">\varphi_{j}(x, y, z), j=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_68_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_69_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_70_POVERHNOSTNYI">\sum_{j=1}^{m} \varphi_{j}(x, y, z)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_71_POVERHNOSTNYI">(x, y, z) \in S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_72_POVERHNOSTNYI">f(x, y, z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_73_POVERHNOSTNYI">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_74_POVERHNOSTNYI">\iint_{s} F(x, y, z) d S=\sum_{j=1}^{m} \iint_{S} \varphi_{j}(x, y, z) F(x, y, z) d S</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_75_POVERHNOSTNYI">s^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_76_POVERHNOSTNYI">\iint_{s+} F(x, y, z) d x d y=\sum_{j=1}^{m} \iint_{S+} \varphi_{j}(x, y, z) F(x, y, z) d x d y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/330_77_POVERHNOSTNYI">s</formula>
+  </formulas_aux>
+  <relations n="29">
+    <relation uri="http://libmeta.ru/me/relation/330_1_POVERHNOSTNYI">
+      <rel_text>Кратный</rel_text>
+      <target>http://libmeta.ru/me/article/82_KRATNO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_2_POVERHNOSTNYI">
+      <rel_text>многообразии</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_3_POVERHNOSTNYI">
+      <rel_text>единицы</rel_text>
+      <target>http://libmeta.ru/me/article/389_EDINITs</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_4_POVERHNOSTNYI">
+      <rel_text>разбиения</rel_text>
+      <target>http://libmeta.ru/me/article/880_RAZBIENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_5_POVERHNOSTNYI">
+      <rel_text>выбора</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_6_POVERHNOSTNYI">
+      <rel_text>двумерное многообразие</rel_text>
+      <target>http://libmeta.ru/me/article/55_DVUMERNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_7_POVERHNOSTNYI">
+      <rel_text>интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_8_POVERHNOSTNYI">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_9_POVERHNOSTNYI">
+      <rel_text>многообразия</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_10_POVERHNOSTNYI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_11_POVERHNOSTNYI">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_12_POVERHNOSTNYI">
+      <rel_text>дифференцируемые</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_13_POVERHNOSTNYI">
+      <rel_text>многообразием</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_14_POVERHNOSTNYI">
+      <rel_text>дифференцируемым</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_15_POVERHNOSTNYI">
+      <rel_text>поверхность</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_16_POVERHNOSTNYI">
+      <rel_text>простого слоя потенциал</rel_text>
+      <target>http://libmeta.ru/me/article/734_PROSTOGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_17_POVERHNOSTNYI">
+      <rel_text>потенциал</rel_text>
+      <target>http://libmeta.ru/me/article/549_POTENTsIAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_18_POVERHNOSTNYI">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_19_POVERHNOSTNYI">
+      <rel_text>координат</rel_text>
+      <target>http://libmeta.ru/me/article/1_KOORDiNAT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_20_POVERHNOSTNYI">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_21_POVERHNOSTNYI">
+      <rel_text>выбора</rel_text>
+      <target>http://libmeta.ru/me/article/822_VYBORK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_22_POVERHNOSTNYI">
+      <rel_text>поверхность</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_23_POVERHNOSTNYI">
+      <rel_text>поверхности</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_24_POVERHNOSTNYI">
+      <rel_text>нормали</rel_text>
+      <target>http://libmeta.ru/me/article/1037_NORMAL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_25_POVERHNOSTNYI">
+      <rel_text>векторная функция</rel_text>
+      <target>http://libmeta.ru/me/article/650_VEKTORNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_26_POVERHNOSTNYI">
+      <rel_text>плотностью</rel_text>
+      <target>http://libmeta.ru/me/article/316_PLOTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_27_POVERHNOSTNYI">
+      <rel_text>распределена</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_28_POVERHNOSTNYI">
+      <rel_text>поверхности</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/330_29_POVERHNOSTNYI">
+      <rel_text>поверхности</rel_text>
+      <target>http://libmeta.ru/me/article/332_POVERHNOST</target>
+    </relation>
+  </relations>
+  <text>интеграл по поверхности. Пусть поверхность $URI[[http://libmeta.ru/me/formula/aux/330_1_POVERHNOSTNYI]]/URI$, расположенная в трехмерном евклидовом пространстве $URI[[http://libmeta.ru/me/formula/aux/330_2_POVERHNOSTNYI]]/URI$ с декартовыми координатами $URI[[http://libmeta.ru/me/formula/aux/330_3_POVERHNOSTNYI]]/URI$ и имеющая, быть может, самопересепения, задана векторным представлением
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_1_POVERHNOSTNYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/330_4_POVERHNOSTNYI]]/URI$
+
+- непрерывно дифференцируемая вектор-фувкция, определенная на замыкании $URI[[http://libmeta.ru/me/formula/aux/330_5_POVERHNOSTNYI]]/URI$ двумерной измеримой по Жордану области $URI[[http://libmeta.ru/me/formula/aux/330_6_POVERHNOSTNYI]]/URI$, расположенной на плоскости с декартовыми координатами $URI[[http://libmeta.ru/me/formula/aux/330_7_POVERHNOSTNYI]]/URI$. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_2_POVERHNOSTNYI]]/URI
+\]
+
+- коәффициенты первой квадратичной формы поверхности $URI[[http://libmeta.ru/me/formula/aux/330_8_POVERHNOSTNYI]]/URI$. Если через $URI[[http://libmeta.ru/me/formula/aux/330_9_POVERHNOSTNYI]]/URI$ обозначить функцию, определенную на поверхности $URI[[http://libmeta.ru/me/formula/aux/330_10_POVERHNOSTNYI]]/URI$, т. е. функцию $URI[[http://libmeta.ru/me/formula/aux/330_11_POVERHNOSTNYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/330_12_POVERHNOSTNYI]]/URI$, то П о в е р х во с т н Ый й т егра л пе рвого рода (или ин т е г р а л по п ло а а пове пхности) определяют равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_3_POVERHNOSTNYI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/330_13_POVERHNOSTNYI]]/URI$. (2) Это определение не зависит от выбора представления поверхности. П. и. 1-го рода является пределом соответствующих интегральных сумм, к-рые могут быть описаны в терминах, связанных с поверхностью. Напр., если функция $URI[[http://libmeta.ru/me/formula/aux/330_14_POVERHNOSTNYI]]/URI$ интегрируема по Риману, $URI[[http://libmeta.ru/me/formula/aux/330_15_POVERHNOSTNYI]]/URI$ разбиение поверхности $URI[[http://libmeta.ru/me/formula/aux/330_16_POVERHNOSTNYI]]/URI$ на части $URI[[http://libmeta.ru/me/formula/aux/330_17_POVERHNOSTNYI]]/URI$, являющиеся образами при отображении (1) множеств $URI[[http://libmeta.ru/me/formula/aux/330_18_POVERHNOSTNYI]]/URI$, образующих разбиение $URI[[http://libmeta.ru/me/formula/aux/330_19_POVERHNOSTNYI]]/URI$ множества $URI[[http://libmeta.ru/me/formula/aux/330_20_POVERHNOSTNYI]]/URI$ (см. URI[[http://libmeta.ru/me/relation/330_1_POVERHNOSTNYI]]/URI интеграл), и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_4_POVERHNOSTNYI]]/URI
+\]
+
+- площадь $URI[[http://libmeta.ru/me/formula/aux/330_21_POVERHNOSTNYI]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_5_POVERHNOSTNYI]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/330_22_POVERHNOSTNYI]]/URI$ mes $URI[[http://libmeta.ru/me/formula/aux/330_23_POVERHNOSTNYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/330_24_POVERHNOSTNYI]]/URI$ - мелкость разбиения $URI[[http://libmeta.ru/me/formula/aux/330_25_POVERHNOSTNYI]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/330_26_POVERHNOSTNYI]]/URI$. В случае явного задания поверхности $URI[[http://libmeta.ru/me/formula/aux/330_27_POVERHNOSTNYI]]/URI$ в виде $URI[[http://libmeta.ru/me/formula/aux/330_28_POVERHNOSTNYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/330_29_POVERHNOSTNYI]]/URI$, формула (2) принимает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_6_POVERHNOSTNYI]]/URI
+\]
+
+Если на поверхности $URI[[http://libmeta.ru/me/formula/aux/330_30_POVERHNOSTNYI]]/URI$ с векторным представлением (1) нет особых точек, т. е. $URI[[http://libmeta.ru/me/formula/aux/330_31_POVERHNOSTNYI]]/URI$, то ее можно ориентировать, выбрав на ней нөпрерывную единичную нормаль $URI[[http://libmeta.ru/me/formula/aux/330_32_POVERHNOSTNYI]]/URI$, напр. $URI[[http://libmeta.ru/me/formula/aux/330_33_POVERHNOSTNYI]]/URI$.
+
+Для ориентированной поверхности $URI[[http://libmeta.ru/me/formula/aux/330_34_POVERHNOSTNYI]]/URI$ определяют поверхностные интегралы второго р о д а по формулам
+
+$URI[[http://libmeta.ru/me/formula/aux/330_35_POVERHNOSTNYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/330_36_POVERHNOSTNYI]]/URI$
+
+где в правой части стоят П. и. 1-го рода. Если $URI[[http://libmeta.ru/me/formula/aux/330_37_POVERHNOSTNYI]]/URI$ поверхность $URI[[http://libmeta.ru/me/formula/aux/330_38_POVERHNOSTNYI]]/URI$ с ориентацией, противоположной ориентации $URI[[http://libmeta.ru/me/formula/aux/330_39_POVERHNOSTNYI]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_7_POVERHNOSTNYI]]/URI
+\]
+
+Аналогичные равенства имеют место в случае остальных П. и. 2-го рода (3). Как и П. и. 1-го рода, П. и. 2-го рода являются пределами интегральных сумм, к-рые можно описать в терминах поверхности.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/330_40_POVERHNOSTNYI]]/URI$, то справедлива формула
+
+$URI[[http://libmeta.ru/me/formula/aux/330_41_POVERHNOSTNYI]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_8_POVERHNOSTNYI]]/URI
+\]
+
+Аналогичные формулы справедливы и для других П. и. 2-го рода (3).
+
+В частности, для случая поверхности $URI[[http://libmeta.ru/me/formula/aux/330_42_POVERHNOSTNYI]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/330_43_POVERHNOSTNYI]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/330_44_POVERHNOSTNYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/330_45_POVERHNOSTNYI]]/URI$.
+
+Первый из әтих интегралов наз. интегралом по «верхней» стороне поверхности $URI[[http://libmeta.ru/me/formula/aux/330_46_POVERHNOSTNYI]]/URI$, а второй - по «нижней».
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1e7f34a4bfb776057680g-1.jpg?height=74&amp;width=814&amp;top_left_y=856&amp;top_left_x=990)
+в случае явного задания поверхности $URI[[http://libmeta.ru/me/formula/aux/330_47_POVERHNOSTNYI]]/URI$, т. е. когда $URI[[http://libmeta.ru/me/formula/aux/330_48_POVERHNOSTNYI]]/URI$, составляет острый угол с осью $URI[[http://libmeta.ru/me/formula/aux/330_49_POVERHNOSTNYI]]/URI$, т. е. направлен «вверх&quot;, а во втором случае - тупой угол и, следовательно, направлен «вниз».
+
+Если гладкая поверхность $URI[[http://libmeta.ru/me/formula/aux/330_50_POVERHNOSTNYI]]/URI$ является границей ограниченной области и $URI[[http://libmeta.ru/me/formula/aux/330_51_POVERHNOSTNYI]]/URI$ обозначает ее ориентацию с помощью внешней, а, значит, $URI[[http://libmeta.ru/me/formula/aux/330_52_POVERHNOSTNYI]]/URI$ помощью внутренней, нормали по отношению к указанной области, то П. и. 2-го рода по ориентированной поверхности $URI[[http://libmeta.ru/me/formula/aux/330_53_POVERHNOSTNYI]]/URI$ наз. П. и. п о в е шн е й с то р о не по в е р
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1e7f34a4bfb776057680g-1.jpg?height=40&amp;width=809&amp;top_left_y=1213&amp;top_left_x=992)
+с т о р о н е.
+
+П. и. по кусочно гладким поверхностям, к-рые могут быть разбиты на конечное число частей, каждая из к-рых имеет векторное представление (1), определяются как суммы П. и. по соответствующим частям. Так, определенные П. и. по кусочно гладким поверхностям не зависят от способа разбиения поверхности на указанные части.
+
+Остроградского бормула устанавливает связь между тройным интегралом по трехмерной ограниченной области и П. и. по ее границе, а Стокса бормула между П. и. и криволинейным интегралом по контуру, являющимся ее краем.
+
+П. и. $URI[[http://libmeta.ru/me/formula/aux/330_54_POVERHNOSTNYI]]/URI$ равен площади URI[[http://libmeta.ru/me/relation/330_29_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_55_POVERHNOSTNYI]]/URI$. Если на URI[[http://libmeta.ru/me/relation/330_28_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_56_POVERHNOSTNYI]]/URI$ URI[[http://libmeta.ru/me/relation/330_27_POVERHNOSTNYI]]/URI масса с URI[[http://libmeta.ru/me/relation/330_26_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_57_POVERHNOSTNYI]]/URI$, то П. и. $URI[[http://libmeta.ru/me/formula/aux/330_58_POVERHNOSTNYI]]/URI$ равен величине всей этой массы. Если $URI[[http://libmeta.ru/me/formula/aux/330_59_POVERHNOSTNYI]]/URI$ - URI[[http://libmeta.ru/me/relation/330_25_POVERHNOSTNYI]]/URI, заданная на ориентированной с помощью единичной URI[[http://libmeta.ru/me/relation/330_24_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_60_POVERHNOSTNYI]]/URI$ URI[[http://libmeta.ru/me/relation/330_23_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_61_POVERHNOSTNYI]]/URI$, то П. и.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/330_9_POVERHNOSTNYI]]/URI
+\]
+
+наз. потоком ве к торного поля $URI[[http://libmeta.ru/me/formula/aux/330_62_POVERHNOSTNYI]]/URI$ URI[[http://libmeta.ru/me/relation/330_22_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_63_POVERHNOSTNYI]]/URI$. Очевидно, он не зависит от URI[[http://libmeta.ru/me/relation/330_21_POVERHNOSTNYI]]/URI URI[[http://libmeta.ru/me/relation/330_20_POVERHNOSTNYI]]/URI URI[[http://libmeta.ru/me/relation/330_19_POVERHNOSTNYI]]/URI в URI[[http://libmeta.ru/me/relation/330_18_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_64_POVERHNOSTNYI]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/330_65_POVERHNOSTNYI]]/URI$ помощью П. и. записывают двойного слол URI[[http://libmeta.ru/me/relation/330_17_POVERHNOSTNYI]]/URI и URI[[http://libmeta.ru/me/relation/330_16_POVERHNOSTNYI]]/URI.
+
+Если URI[[http://libmeta.ru/me/relation/330_15_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_66_POVERHNOSTNYI]]/URI$ является URI[[http://libmeta.ru/me/relation/330_14_POVERHNOSTNYI]]/URI URI[[http://libmeta.ru/me/relation/330_13_POVERHNOSTNYI]]/URI, непрерывно URI[[http://libmeta.ru/me/relation/330_12_POVERHNOSTNYI]]/URI неотрицательные URI[[http://libmeta.ru/me/relation/330_11_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_67_POVERHNOSTNYI]]/URI$, образуют р а з би е н и е д и ни цы на $URI[[http://libmeta.ru/me/formula/aux/330_68_POVERHNOSTNYI]]/URI$, т. е. носитель каждой URI[[http://libmeta.ru/me/relation/330_10_POVERHNOSTNYI]]/URI содержится в нек-рой карте URI[[http://libmeta.ru/me/relation/330_9_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_69_POVERHNOSTNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/330_70_POVERHNOSTNYI]]/URI$ для каждой точки $URI[[http://libmeta.ru/me/formula/aux/330_71_POVERHNOSTNYI]]/URI$, а URI[[http://libmeta.ru/me/relation/330_8_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_72_POVERHNOSTNYI]]/URI$ определена на $URI[[http://libmeta.ru/me/formula/aux/330_73_POVERHNOSTNYI]]/URI$, то, по определению,
+
+$URI[[http://libmeta.ru/me/formula/aux/330_74_POVERHNOSTNYI]]/URI$ где каждый URI[[http://libmeta.ru/me/relation/330_7_POVERHNOSTNYI]]/URI в правой части понимается в смысле (2). Если $URI[[http://libmeta.ru/me/formula/aux/330_75_POVERHNOSTNYI]]/URI$- ориентированное URI[[http://libmeta.ru/me/relation/330_6_POVERHNOSTNYI]]/URI, то
+
+$URI[[http://libmeta.ru/me/formula/aux/330_76_POVERHNOSTNYI]]/URI$
+
+Аналогично определяются П. и. 2-го рода других типов (3). Определения (4) и (5) не зависят от URI[[http://libmeta.ru/me/relation/330_5_POVERHNOSTNYI]]/URI URI[[http://libmeta.ru/me/relation/330_4_POVERHNOSTNYI]]/URI URI[[http://libmeta.ru/me/relation/330_3_POVERHNOSTNYI]]/URI на URI[[http://libmeta.ru/me/relation/330_2_POVERHNOSTNYI]]/URI $URI[[http://libmeta.ru/me/formula/aux/330_77_POVERHNOSTNYI]]/URI$.</text>
+  <text_orig>интеграл по поверхности. Пусть поверхность $S$, расположенная в трехмерном евклидовом пространстве $\mathbb{R}^{3}$ с декартовыми координатами $x, y, z$ и имеющая, быть может, самопересепения, задана векторным представлением
+
+\[
+\boldsymbol{r}=\boldsymbol{r}(u, v)
+\]
+
+где $\quad \boldsymbol{r}(u, v)=(x(u, v), y(u, v), z(u, v))$
+
+- непрерывно дифференцируемая вектор-фувкция, определенная на замыкании $\bar{G}$ двумерной измеримой по Жордану области $G$, расположенной на плоскости с декартовыми координатами $u, v$. Пусть
+
+\[
+g_{11}=\left(\frac{\partial r}{\partial u}\right)^{2}, g_{12}=\frac{\partial r}{\partial u} \frac{\partial r}{\partial v}, g_{22}=\left(\frac{\partial r}{\partial v}\right)^{2}
+\]
+
+- коәффициенты первой квадратичной формы поверхности $S$. Если через $F(x, y, z)$ обозначить функцию, определенную на поверхности $S$, т. е. функцию $F(x(u, v)$, $y(u, v), z(u, v))$, то П о в е р х во с т н Ый й т егра л пе рвого рода (или ин т е г р а л по п ло а а пове пхности) определяют равенством
+
+\[
+\iint_{S} F(x, y, z) d S=
+\]
+
+$=\iint_{G} F(x(u, v), y(u, v), z(u, v)) \sqrt{g_{11} g_{22}-g_{12}^{2}} d u d v$. (2) Это определение не зависит от выбора представления поверхности. П. и. 1-го рода является пределом соответствующих интегральных сумм, к-рые могут быть описаны в терминах, связанных с поверхностью. Напр., если функция $F(x(u, v), y(u, v), z(u, v))$ интегрируема по Риману, $\tau=\left\{S_{i}\right\}_{i=1}^{i=k}-$ разбиение поверхности $S$ на части $S_{i}$, являющиеся образами при отображении (1) множеств $E_{i} \subset \bar{G}$, образующих разбиение $\tau_{0}=\left\{E_{i}\right\}_{i=1}^{i=t}$ множества $\bar{G}$ (см. Кратный интеграл), и
+
+\[
+\operatorname{mes} S_{i}=\iint_{E_{i}} \sqrt{g_{11} g_{22}-g_{12}^{2}} d u d v
+\]
+
+- площадь $S_{i}$, то
+
+\[
+\iint_{S} F(x, y, z) d S=
+\]
+
+$=\lim _{\delta_{\tau_{0}} \rightarrow 0} \sum_{i=1}^{k} F\left(x\left(\xi_{i}, \eta_{i}\right), \quad y\left(\xi_{i}, \eta_{i}\right), \quad z\left(\xi_{i}, \eta_{i}\right)\right)$ mes $S_{i}$, где $\delta_{\tau_{0}}$ - мелкость разбиения $\tau_{0}$, а $\left(\xi_{i}, \eta_{i}\right) \in E_{i}$. В случае явного задания поверхности $S$ в виде $z=f(x, y)$, $(x, y) \in \bar{G}$, формула (2) принимает вид
+
+\[
+\begin{gathered}
+\iint_{S} F(x, y, z) d S= \\
+=\iint_{G} F(x, y, f(x, y)) \sqrt{1+\left(\frac{\partial f}{\partial x}\right)^{2}+\left(\frac{\partial f}{\partial y}\right)^{2}} d x d y .
+\end{gathered}
+\]
+
+Если на поверхности $S$ с векторным представлением (1) нет особых точек, т. е. $\boldsymbol{r}_{u} \times \boldsymbol{r}_{v} \neq 0$, то ее можно ориентировать, выбрав на ней нөпрерывную единичную нормаль $\boldsymbol{n}=(\cos \alpha, \cos \beta, \cos \gamma)$, напр. $\boldsymbol{n}=\frac{{ }_{{ }^{r}} \times \boldsymbol{r}_{v}}{\mid{ }^{r_{a} \times r_{v} \mid}}$.
+
+Для ориентированной поверхности $S+$ определяют поверхностные интегралы второго р о д а по формулам
+
+$\left.\begin{array}{l}\iint_{S^{+}} F(x, y, z) d x d y=\iint_{S} F(x, y, z) \cos \gamma d S, \\ \iint_{S^{+}} F(x, y, z) d y d z=\iint_{S} F(x, y, z) \cos \alpha d S,\end{array}\right\}$ $\iint_{S^{+}} F(x, y, z) d y d z=\iint_{S} F(x, y, z) \cos \beta d S, \int$
+
+где в правой части стоят П. и. 1-го рода. Если $S^{--}$ поверхность $S$ с ориентацией, противоположной ориентации $S^{+}$, то
+
+\[
+\iint_{S^{-}} F(x, y, z) d x d y=-\iint_{S_{+}} F(x, y, z) d x d y
+\]
+
+Аналогичные равенства имеют место в случае остальных П. и. 2-го рода (3). Как и П. и. 1-го рода, П. и. 2-го рода являются пределами интегральных сумм, к-рые можно описать в терминах поверхности.
+
+Если $\boldsymbol{n}=\frac{\boldsymbol{r}_{u} \times \boldsymbol{r}_{v}}{\left|\boldsymbol{r}_{u} \times \boldsymbol{r}_{v}\right|}$, то справедлива формула
+
+$\iint_{S+} F(x, y, z) d x d y=$
+
+\[
+=\iint_{G} F(x(u, v), y(u, v), z(u, v)) \frac{\partial(x, y)}{\partial(u, v)} d u d v .
+\]
+
+Аналогичные формулы справедливы и для других П. и. 2-го рода (3).
+
+В частности, для случая поверхности $z=f(x, y)$, $(x, y) \in \bar{G}$
+
+$\iint_{S+} F(x, y, z) d x d y=\iint_{G} F(x, y, f(x, y)) d x d y$ $\iint_{S^{-}} F(x, y, z) d x d y=-\iint_{G} F(x, y, f(x, y)) d x d y$.
+
+Первый из әтих интегралов наз. интегралом по «верхней» стороне поверхности $S$, а второй - по «нижней».
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1e7f34a4bfb776057680g-1.jpg?height=74&amp;width=814&amp;top_left_y=856&amp;top_left_x=990)
+в случае явного задания поверхности $S$, т. е. когда $x=u, y=v, z=f(x, y)$, составляет острый угол с осью $z$, т. е. направлен «вверх&quot;, а во втором случае - тупой угол и, следовательно, направлен «вниз».
+
+Если гладкая поверхность $S$ является границей ограниченной области и $S+$ обозначает ее ориентацию с помощью внешней, а, значит, $S-\mathrm{c}$ помощью внутренней, нормали по отношению к указанной области, то П. и. 2-го рода по ориентированной поверхности $S^{+}$ наз. П. и. п о в е шн е й с то р о не по в е р
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_1e7f34a4bfb776057680g-1.jpg?height=40&amp;width=809&amp;top_left_y=1213&amp;top_left_x=992)
+с т о р о н е.
+
+П. и. по кусочно гладким поверхностям, к-рые могут быть разбиты на конечное число частей, каждая из к-рых имеет векторное представление (1), определяются как суммы П. и. по соответствующим частям. Так, определенные П. и. по кусочно гладким поверхностям не зависят от способа разбиения поверхности на указанные части.
+
+Остроградского бормула устанавливает связь между тройным интегралом по трехмерной ограниченной области и П. и. по ее границе, а Стокса бормула между П. и. и криволинейным интегралом по контуру, являющимся ее краем.
+
+П. и. $\iint_{S} d S$ равен площади поверхности $S$. Если на поверхности $S$ распределена масса с плотностью $F(x, y, z)$, то П. и. $\iint_{S} F(\dot{x}, y, z) d S$ равен величине всей этой массы. Если $\boldsymbol{a}=\boldsymbol{a}(x, y, z)$ - векторная функция, заданная на ориентированной с помощью единичной нормали $\boldsymbol{n}$ поверхности $S$, то П. и.
+
+\[
+\iint_{S} \operatorname{an} d S
+\]
+
+наз. потоком ве к торного поля $\boldsymbol{\text { по через }}$ поверхность $S$. Очевидно, он не зависит от выбора системы координат в пространстве $\mathbb{R}^{3}$. $\mathrm{C}$ помощью П. и. записывают двойного слол потенциал и простого слоя потенциал.
+
+Если поверхность $S$ является дифференцируемым многообразием, непрерывно дифференцируемые неотрицательные функции $\varphi_{j}(x, y, z), j=1,2, \ldots, m$, образуют р а з би е н и е д и ни цы на $S$, т. е. носитель каждой функции содержится в нек-рой карте многообразия $S$ и $\sum_{j=1}^{m} \varphi_{j}(x, y, z)=1$ для каждой точки $(x, y, z) \in S$, а функция $F(x, y, z)$ определена на $S$, то, по определению,
+
+$\iint_{S} F(x, y, z) d S=\sum_{j=1}^{m} \iint_{S} \varphi_{j}(x, y, z) F(x, y, z) d S$ где каждый интеграл в правой части понимается в смысле (2). Если $S^{+}$- ориентированное двумерное многообразие, то
+
+$\iint_{S+} F(x, y, z) d x d y=\sum_{j=1}^{m} \iint_{S+} \varphi_{j}(x, y, z) F(x, y, z) d x d y$
+
+Аналогично определяются П. и. 2-го рода других типов (3). Определения (4) и (5) не зависят от выбора разбиения единицы на многообразии $S$.
+
+Лum.: [1] И л ь и н В. А., П о з н я к Э., Г., Основы матемацич в Ј. Д., Курс математического анадлиза, т. 2, М., 1981; [3] Н и к о л в с к и й С. М., Курс математического анализа, 2 изд., т. 2, М., 1975; [4] Д у б р о в и н Б. А., Н о в и к о в С. П., Ф ом е н к о А. Т., Современная геометрия, М., 1979; [5] М и-
+щ е н к о А. С., Фом е н к о А. Т., Курс дифференциальной геометрии и топологии, М., 1980. , Л. Д. Кудрлвчев.</text_orig>
+</article>

@@ -1,0 +1,563 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/372_TEHZO" alphabetic_pos="372">
+  <title>ТEHЗОР</title>
+  <authors>
+    <author>А. Л. Оницик</author>
+  </authors>
+  <pages>
+    <start>164</start>
+    <end>166</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б у р б а к и Н., Алгебра. Алгебраические структуры. Линейная и полилинейная алгебра, пер. с франц., М., 1962; [2] $\gamma$ е л ь Ф а н д И. М., Лекции по линейной алгебре, 4 изд., М., 1971; [3] К о с т р ик и н А. И., М а н и н Ю. И., Јинейная алгебра и геометрия, М., 1980; [4] П ос т н ик о в М. М., Линейная алгебра и дифференциальная геометрия, М., 1979; [5] Р а шा е в с К и й П. К., Риманова геометрияи тензорный анализ, 3 изд., М., 1967.</literature_orig>
+    <unit>
+      <author>Бурбаки Н.</author>
+      <title>Алгебра. Алгебраические структуры. Линейная и полилинейная алгебра</title>
+      <publication>пер. с франц., М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$\gamma$ель Фанд И. М.</author>
+      <title>Лекции по линейной алгебре</title>
+      <publication>4 изд., М.</publication>
+      <year>1971</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Кострикин А. И.</author>
+      <author>Манин Ю. И.</author>
+      <title>Јинейная алгебра и геометрия</title>
+      <publication>М.</publication>
+      <year>1980</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Постников М. М.</author>
+      <title>Линейная алгебра и дифференциальная геометрия</title>
+      <publication>М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рашाевс Кий П. К.</author>
+      <title>Риманова геометрияи тензорный анализ</title>
+      <publication>3 изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/372_1_TEHZO">T^{p, q}(V)=(\stackrel{p}{\otimes} V) \otimes\left(\stackrel{q}{\otimes} V^{*}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_2_TEHZO">t=\sum_{i=1}^{s} h_{i 1} \otimes \ldots \otimes h_{i q},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_3_TEHZO">\hat{t}\left(x_{1}, \ldots, x_{q}\right)=\sum_{i=1}^{s} h_{i 1}\left(x_{1}\right) \ldots h_{i q}\left(x_{q}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_4_TEHZO">t=\sum_{i=1}^{s} x_{i} \otimes h_{i} \in T^{1,1}(V),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_5_TEHZO">\hat{t}(y)=\sum_{i=1}^{s} h_{i}(y) x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_6_TEHZO">v_{i_{1} \ldots i_{p}}^{i_{1} \ldots i_{l}}=v_{i_{i}} \otimes \ldots \otimes v_{i_{p}} \otimes v^{i_{1}} \otimes \ldots \otimes v^{j} q</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_7_TEHZO">\tilde{t}_{i_{1} \ldots i_{q}}^{i_{1} \ldots j_{p}}=b_{k_{1}}^{i_{1}} \ldots b_{k_{p}}^{i_{p}} a_{i_{1}}^{l_{1}} \ldots a_{i_{q}}^{l_{q}} t_{l_{1}, l_{q}}^{k_{1} \ldots k_{p}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_8_TEHZO">T^{p, q}(V) \otimes T^{r, s}(V) \cong T^{p+r, \quad q+s}(V),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_9_TEHZO">\begin{gathered}\left(x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q}\right) \otimes \\\otimes\left(x_{1}^{\prime} \otimes \ldots \otimes x_{r}^{\prime} \otimes h_{1}^{\prime} \otimes \ldots \otimes h_{s}\right)\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_10_TEHZO">\otimes h_{1} \otimes \ldots \otimes h_{q} \otimes h_{1}^{\prime} \otimes \ldots \otimes h_{s}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_11_TEHZO">v_{j_{1} \ldots i_{q+s}}^{i_{1} \ldots i_{p+r}}=t_{i_{1} \ldots i_{q}}^{i_{1} \ldots i_{p}} u_{i_{q+1} \ldots i_{q+s}}^{i_{p+1} \ldots i_{p+r}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_12_TEHZO">\begin{gathered}Y_{\beta}^{\alpha}\left(x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q}\right)= \\=h_{\beta}\left(x_{\alpha}\right) x_{1} \otimes \ldots \otimes x_{\alpha-1} \otimes x_{\alpha+1} \otimes \ldots \otimes x_{p} \otimes \\\otimes h_{1} \otimes \ldots \otimes h_{\beta-1} \otimes h_{\beta+1} \otimes \ldots \otimes h_{q} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_13_TEHZO">\left(Y_{\beta}^{\alpha} t\right)_{j_{1} \ldots j_{q-1}}^{i_{1} \ldots i_{p-1}}=t_{j_{1} \ldots j_{\beta-1} i_{\beta+1} i_{\alpha+1} j_{q}}^{i_{1} \ldots i_{\alpha-1} i i_{\alpha+1} \ldots i_{p}} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_14_TEHZO">\gamma(x)(y)=g(x, y), \quad x, y \in V .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_15_TEHZO">\begin{gathered}x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q} \mapsto \\\mapsto x_{1} \otimes \ldots \otimes x_{\alpha-1} \otimes x_{\alpha+1} \otimes \ldots \otimes x_{p} \otimes \\\otimes \gamma\left(x_{\alpha}\right) \otimes h_{1} \otimes \ldots \otimes h_{q}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_16_TEHZO">\gamma^{\alpha}(t)=Y_{1}^{\alpha}(g \otimes t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_17_TEHZO">\gamma^{\alpha}(t)_{j_{1} \ldots j_{q+1}}^{i_{1} \ldots i_{p-1}}=g_{i j_{1}} t_{i_{2} \ldots i_{q+1}}^{i_{1} \ldots i_{\alpha-1} i i_{\alpha+1} \ldots i_{p-1}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_18_TEHZO">\begin{gathered}\gamma_{\beta}: x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q} \mapsto \\\mapsto x_{1} \otimes \ldots \otimes x_{p} \otimes \gamma^{-1}\left(h_{\beta}\right) \otimes\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_19_TEHZO">\otimes h_{1} \otimes \ldots \otimes h_{\beta-1} \otimes h_{\beta+1} \otimes \ldots \otimes h_{q},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_20_TEHZO">\gamma_{\beta}(t)_{j_{1} \ldots j_{q-1}}^{i_{1} \ldots i_{p+1}}=g^{i i} p+1 t_{i_{1} \ldots i_{\beta-1} i i_{\beta} \ldots i_{q-1}}^{i_{1} \ldots i_{p}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_21_TEHZO">T^{p, 0}(f)=\bigotimes^{p} f: T^{p, 0}(V) \longrightarrow T^{p, 0}(W)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_22_TEHZO">T^{q, 0}\left(f^{*}\right)=\otimes^{q} f^{*}: T^{0, q}(W) \longrightarrow T^{0, q}(V) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/372_23_TEHZO">T^{p, q}(f): T^{p, q}(V) \longrightarrow T^{p, q}(W),</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_1_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_2_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_3_TEHZO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_4_TEHZO">v^{*}=\operatorname{hom}(v, k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_5_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_6_TEHZO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_7_TEHZO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_8_TEHZO">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_9_TEHZO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_10_TEHZO">(p, q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_11_TEHZO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_12_TEHZO">p+q-06</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_13_TEHZO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_14_TEHZO">t^{0,0}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_15_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_16_TEHZO">(p, 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_17_TEHZO">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_18_TEHZO">\mathbf{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_19_TEHZO">(0, q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_20_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_21_TEHZO">(1,0))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_22_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_23_TEHZO">(0,1))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_24_TEHZO">\mathrm{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_25_TEHZO">h_{i j} \in V^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_26_TEHZO">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_27_TEHZO">\hat{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_28_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_29_TEHZO">t \longmapsto \hat{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_30_TEHZO">t^{0, q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_31_TEHZO">l^{q}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_32_TEHZO">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_33_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_34_TEHZO">\operatorname{dim} V&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_35_TEHZO">(0, q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_36_TEHZO">t^{p, 0}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_37_TEHZO">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_38_TEHZO">v^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_39_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_40_TEHZO">\mathrm{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_41_TEHZO">x_{i} \in V, h_{i} \in V^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_42_TEHZO">\hat{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_43_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_44_TEHZO">\operatorname{dim} V&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_45_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_46_TEHZO">(1,1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_47_TEHZO">(1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_48_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_49_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_50_TEHZO">\operatorname{dim} V&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_51_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_52_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_53_TEHZO">(1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_54_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_55_TEHZO">v_{1}, \ldots, v_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_56_TEHZO">v^{1}, \ldots, v^{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_57_TEHZO">v^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_58_TEHZO">\mathrm{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_59_TEHZO">t^{p, q}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_60_TEHZO">t_{j_{1} \ldots j_{q}}^{i_{1} \ldots i_{p}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_61_TEHZO">t \in T^{p, q}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_62_TEHZO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_63_TEHZO">v_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_64_TEHZO">v_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_65_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_66_TEHZO">\left(v_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_67_TEHZO">\left(v^{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_68_TEHZO">(0,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_69_TEHZO">(1,1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_70_TEHZO">\tilde{v}_{1}, \ldots, \tilde{v}_{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_71_TEHZO">v, \tilde{v}_{j}=a_{j}^{i} v_{i},\left\|b_{j}^{i}\right\|=\left(\left\|a_{j}^{i}\right\|^{\top}\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_72_TEHZO">t_{j_{1}, \ldots, j_{q}}^{i_{1}, \ldots, i_{p}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_73_TEHZO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_74_TEHZO">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_75_TEHZO">n p+q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_76_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_77_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_78_TEHZO">(p, q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_79_TEHZO">t^{p, q}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_80_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_81_TEHZO">\quad x_{1} \otimes \ldots \otimes x_{p} \otimes x_{1}^{\prime} \otimes \ldots \otimes x_{r}^{\prime} \otimes</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_82_TEHZO">t \in T^{p, q}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_83_TEHZO">u \in T^{r, s}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_84_TEHZO">v=t \otimes u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_85_TEHZO">\mathrm{t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_86_TEHZO">(p+r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_87_TEHZO">q+s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_88_TEHZO">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_89_TEHZO">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_90_TEHZO">p&gt;0, q&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_91_TEHZO">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_92_TEHZO">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_93_TEHZO">1 \leqslant \alpha \leqslant p, 1 \leqslant \beta \leqslant q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_94_TEHZO">y_{\beta}^{\alpha}: T^{p, q}(V) \rightarrow T^{p-1, q-1}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_95_TEHZO">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_96_TEHZO">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_97_TEHZO">y_{1}^{1} t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_98_TEHZO">(1,1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_99_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_100_TEHZO">v-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_101_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_102_TEHZO">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_103_TEHZO">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_104_TEHZO">\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_105_TEHZO">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_106_TEHZO">\gamma: V \rightarrow V^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_107_TEHZO">p&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_108_TEHZO">\alpha, 1 \leqslant \alpha \leqslant p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_109_TEHZO">\gamma^{\alpha}: T^{p, q}(V) \rightarrow T^{p-1, q+1}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_110_TEHZO">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_111_TEHZO">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_112_TEHZO">(1 \leqslant \beta \leqslant q)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_113_TEHZO">t^{p, q}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_114_TEHZO">t^{p+1, q-1}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_115_TEHZO">\left\|g^{k l}\right\|=\left(\left\|g_{i j}\right\|^{\top}\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_116_TEHZO">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_117_TEHZO">(2,0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_118_TEHZO">g^{k l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_119_TEHZO">t \in T^{2,0}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_120_TEHZO">\gamma^{2}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_121_TEHZO">t_{j}^{i \cdot}=g_{k j} t^{i k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_122_TEHZO">f: V \rightarrow W</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_123_TEHZO">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_124_TEHZO">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_125_TEHZO">t^{0, q}(f)=T^{q, 0}\left(f^{*}\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_126_TEHZO">f \mapsto T^{p, q}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_127_TEHZO">a \longmapsto T^{p}, q(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_128_TEHZO">\mathrm{gl}(v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_129_TEHZO">t^{p, q}(V)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/372_130_TEHZO">о</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/372_1_TEHZO">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/372_2_TEHZO">
+      <rel_text>группы</rel_text>
+      <target>http://libmeta.ru/me/article/1207_GRUPІІ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/372_3_TEHZO">
+      <rel_text>линейное представление</rel_text>
+      <target>http://libmeta.ru/me/article/361_LINEJNOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/372_4_TEHZO">
+      <rel_text>функторными</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/372_5_TEHZO">
+      <rel_text>отображение</rel_text>
+      <target>http://libmeta.ru/me/article/128_OTOBRAZhENI</target>
+    </relation>
+  </relations>
+  <text>на век т о р ном п р о с т р а н т в $URI[[http://libmeta.ru/me/formula/aux/372_1_TEHZO]]/URI$ на д по л е м $URI[[http://libmeta.ru/me/formula/aux/372_2_TEHZO]]/URI$ - элемент $URI[[http://libmeta.ru/me/formula/aux/372_3_TEHZO]]/URI$ векторного пространства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_1_TEHZO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/372_4_TEHZO]]/URI$ - пространство, сопряженное с $URI[[http://libmeta.ru/me/formula/aux/372_5_TEHZO]]/URI$. Говорят, что тензор $URI[[http://libmeta.ru/me/formula/aux/372_6_TEHZO]]/URI$ является $URI[[http://libmeta.ru/me/formula/aux/372_7_TEHZO]]/URI$ раз контравариантным и $URI[[http://libmeta.ru/me/formula/aux/372_8_TEHZO]]/URI$ раз ковариантным или что $URI[[http://libmeta.ru/me/formula/aux/372_9_TEHZO]]/URI$ имеет тип $URI[[http://libmeta.ru/me/formula/aux/372_10_TEHZO]]/URI$. Число $URI[[http://libmeta.ru/me/formula/aux/372_11_TEHZO]]/URI$ наз. К о н т р а в а р и а н т о й в а л е н т но-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_c55401158e3ae4ad009eg-1.jpg?height=35&amp;width=809&amp;top_left_y=1843&amp;top_left_x=990)
+с т ь ю, а число $URI[[http://libmeta.ru/me/formula/aux/372_12_TEHZO]]/URI$ е й в а ленте о с тью тензора $URI[[http://libmeta.ru/me/formula/aux/372_13_TEHZO]]/URI$. Пространство $URI[[http://libmeta.ru/me/formula/aux/372_14_TEHZO]]/URI$ отождествляется с $URI[[http://libmeta.ru/me/formula/aux/372_15_TEHZO]]/URI$. Тензоры типа $URI[[http://libmeta.ru/me/formula/aux/372_16_TEHZO]]/URI$ наз. к о н т $URI[[http://libmeta.ru/me/formula/aux/372_17_TEHZO]]/URI$ а в а $URI[[http://libmeta.ru/me/formula/aux/372_18_TEHZO]]/URI$ и а н т ным и, типа $URI[[http://libmeta.ru/me/formula/aux/372_19_TEHZO]]/URI$ - к о в а р и а в т ны м и, а остальные - с м е ї а н н ы ми.
+
+П р и м е р Ы Т. 1) Вектор пространства $URI[[http://libmeta.ru/me/formula/aux/372_20_TEHZO]]/URI$ (т. типа $URI[[http://libmeta.ru/me/formula/aux/372_21_TEHZO]]/URI$.
+
+2) Ковектор пространства $URI[[http://libmeta.ru/me/formula/aux/372_22_TEHZO]]/URI$ (т. типа $URI[[http://libmeta.ru/me/formula/aux/372_23_TEHZO]]/URI$.
+
+3) Каждый ковариантный $URI[[http://libmeta.ru/me/formula/aux/372_24_TEHZO]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_2_TEHZO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/372_25_TEHZO]]/URI$, определяет $URI[[http://libmeta.ru/me/formula/aux/372_26_TEHZO]]/URI$-линейную форму $URI[[http://libmeta.ru/me/formula/aux/372_27_TEHZO]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/372_28_TEHZO]]/URI$ по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_3_TEHZO]]/URI
+\] отображение $URI[[http://libmeta.ru/me/formula/aux/372_29_TEHZO]]/URI$ простравства $URI[[http://libmeta.ru/me/formula/aux/372_30_TEHZO]]/URI$ в пространство $URI[[http://libmeta.ru/me/formula/aux/372_31_TEHZO]]/URI$ всех $URI[[http://libmeta.ru/me/formula/aux/372_32_TEHZO]]/URI$-линейных форм на $URI[[http://libmeta.ru/me/formula/aux/372_33_TEHZO]]/URI$ линейно и инъективно; если $URI[[http://libmeta.ru/me/formula/aux/372_34_TEHZO]]/URI$, то это отображение является изоморфизмом, так что любая q-линейная форма отвечает нек-рому Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_35_TEHZO]]/URI$.
+
+4) Аналогично, каяддый ковтравариантный Т. из $URI[[http://libmeta.ru/me/formula/aux/372_36_TEHZO]]/URI$ определяет нек-рую $URI[[http://libmeta.ru/me/formula/aux/372_37_TEHZO]]/URI$-линейную форму на $URI[[http://libmeta.ru/me/formula/aux/372_38_TEHZO]]/URI$, а если $URI[[http://libmeta.ru/me/formula/aux/372_39_TEHZO]]/URI$ конечномерно, то верно и обратное.
+
+5) Каждый $URI[[http://libmeta.ru/me/formula/aux/372_40_TEHZO]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_4_TEHZO]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/372_41_TEHZO]]/URI$, определяет линейное преобразование $URI[[http://libmeta.ru/me/formula/aux/372_42_TEHZO]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/372_43_TEHZO]]/URI$, заданное формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_5_TEHZO]]/URI
+\]
+
+если $URI[[http://libmeta.ru/me/formula/aux/372_44_TEHZO]]/URI$, то любое линейное преобразование пространства $URI[[http://libmeta.ru/me/formula/aux/372_45_TEHZO]]/URI$ определяется Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_46_TEHZO]]/URI$.
+
+6) Аналогично, любой Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_47_TEHZO]]/URI$ определяет в $URI[[http://libmeta.ru/me/formula/aux/372_48_TEHZO]]/URI$ билинейную операцию, т. е. структуру $URI[[http://libmeta.ru/me/formula/aux/372_49_TEHZO]]/URI$-алгебры; при этом, если $URI[[http://libmeta.ru/me/formula/aux/372_50_TEHZO]]/URI$, то любая структура $URI[[http://libmeta.ru/me/formula/aux/372_51_TEHZO]]/URI$-алгебры в $URI[[http://libmeta.ru/me/formula/aux/372_52_TEHZO]]/URI$ определяется нек-рым Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_53_TEHZO]]/URI$, к-рый наз. с трукту у ным тен зором алгебры.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/372_54_TEHZO]]/URI$ конечномерно и $URI[[http://libmeta.ru/me/formula/aux/372_55_TEHZO]]/URI$ - его базис, $URI[[http://libmeta.ru/me/formula/aux/372_56_TEHZO]]/URI$ сопряженный базис простравства $URI[[http://libmeta.ru/me/formula/aux/372_57_TEHZO]]/URI$. Тогда $URI[[http://libmeta.ru/me/formula/aux/372_58_TEHZO]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_6_TEHZO]]/URI
+\]
+
+составляют базис простравства $URI[[http://libmeta.ru/me/formula/aux/372_59_TEHZO]]/URI$. Координаты $URI[[http://libmeta.ru/me/formula/aux/372_60_TEHZO]]/URI$ тензора $URI[[http://libmeta.ru/me/formula/aux/372_61_TEHZO]]/URI$ в этом базисе наз. также к оо рдиват а ии тензора $URI[[http://libmeta.ru/me/formula/aux/372_62_TEHZO]]/URI$ в базис е $URI[[http://libmeta.ru/me/formula/aux/372_63_TEHZO]]/URI$, ..., $URI[[http://libmeta.ru/me/formula/aux/372_64_TEHZO]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/372_65_TEHZO]]/URI$. Напр., координаты вектора и ковектора совпадают с их обычными координатами в базисах $URI[[http://libmeta.ru/me/formula/aux/372_66_TEHZO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/372_67_TEHZO]]/URI$, координаты Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_68_TEHZO]]/URI$ совпадают с элемевтами матрицы соответствующей билинейной формы, координаты Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_69_TEHZO]]/URI$ - с элемевтами матрицы соответствующего линейного преобразования, координаты структурного Т. алгебры - c ее структурными константами. Если $URI[[http://libmeta.ru/me/formula/aux/372_70_TEHZO]]/URI$ другой базис простравства $URI[[http://libmeta.ru/me/formula/aux/372_71_TEHZO]]/URI$, то коордиваты $URI[[http://libmeta.ru/me/formula/aux/372_72_TEHZO]]/URI$ тензора $URI[[http://libmeta.ru/me/formula/aux/372_73_TEHZO]]/URI$ в этом базисе определяются по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_7_TEHZO]]/URI
+\]
+
+Здесь, как это часто делается в тензорном исчислении, применимо Ii рав и ло с у м м и ров а ния Э й нші т е й н а: по каждой паре одинаковых индексов, один из к-рых - верхний, а другой - нижний, подразумевается суммирование от 1 до $URI[[http://libmeta.ru/me/formula/aux/372_74_TEHZO]]/URI$. Обратно, если система $URI[[http://libmeta.ru/me/formula/aux/372_75_TEHZO]]/URI$ элементов поля $URI[[http://libmeta.ru/me/formula/aux/372_76_TEHZO]]/URI$, зависящая от базиса пространства $URI[[http://libmeta.ru/me/formula/aux/372_77_TEHZO]]/URI$, изменяется при переходе от базиса к базису по формулам (1), то эта система является набором координат нек-рого Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_78_TEHZO]]/URI$.
+
+В векторном пространстве $URI[[http://libmeta.ru/me/formula/aux/372_79_TEHZO]]/URI$ определены операции сложения Т. и умножения Т. на скаляр из $URI[[http://libmeta.ru/me/formula/aux/372_80_TEHZO]]/URI$. При этих операциях соответствующие координаты Т. складываются или умножаются на скаляр. Определена также операция умножения T. разных типов, к-рая вводится следующим образом. Имеет место естественный изоморфизм векторных пространств
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_8_TEHZO]]/URI
+\]
+
+переводящиї
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_9_TEHZO]]/URI
+\]
+
+в $URI[[http://libmeta.ru/me/formula/aux/372_81_TEHZO]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_10_TEHZO]]/URI
+\]
+
+Поэтому для любых $URI[[http://libmeta.ru/me/formula/aux/372_82_TEHZO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/372_83_TEHZO]]/URI$ элемент $URI[[http://libmeta.ru/me/formula/aux/372_84_TEHZO]]/URI$ может рассматриваться как $URI[[http://libmeta.ru/me/formula/aux/372_85_TEHZO]]/URI$. типа $URI[[http://libmeta.ru/me/formula/aux/372_86_TEHZO]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/372_87_TEHZO]]/URI$, к-рый и ваз. пр о и з в е де н и е м те в 3 ор о в $URI[[http://libmeta.ru/me/formula/aux/372_88_TEHZO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/372_89_TEHZO]]/URI$. Координаты произведения вычисляются по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_11_TEHZO]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/372_90_TEHZO]]/URI$ и пусть фиксированы числа $URI[[http://libmeta.ru/me/formula/aux/372_91_TEHZO]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/372_92_TEHZO]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/372_93_TEHZO]]/URI$. Тогда определено линейное отображение $URI[[http://libmeta.ru/me/formula/aux/372_94_TEHZO]]/URI$ такое, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_12_TEHZO]]/URI
+\]
+
+Оно наз. с в е р т ы в а н и е м (или с в е р т к о й) по $URI[[http://libmeta.ru/me/formula/aux/372_95_TEHZO]]/URI$-му контравариантному и $URI[[http://libmeta.ru/me/formula/aux/372_96_TEHZO]]/URI$-му ковариантному индексам. В координатах свертка записывается формулами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_13_TEHZO]]/URI
+\]
+
+Напр., свертка $URI[[http://libmeta.ru/me/formula/aux/372_97_TEHZO]]/URI$ Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_98_TEHZO]]/URI$ есть след соответствующего линейного преобразования.
+
+Аналогично ошределяются T. на произвольном унитарном модуле $URI[[http://libmeta.ru/me/formula/aux/372_99_TEHZO]]/URI$ над коммутативно-ассоциативным кольцом с единицей. Перечисленные выше примеры и свойства Т. переносятся с соответствующими изменениями на этот случай, причем иногда надо предполагать, тто $URI[[http://libmeta.ru/me/formula/aux/372_100_TEHZO]]/URI$ свободный или конечно порожденный свободный модуль.
+
+Пусть в конечномерном векторном пространстве над полем $URI[[http://libmeta.ru/me/formula/aux/372_101_TEHZO]]/URI$ фиксирована невырожденная билинейная форма $URI[[http://libmeta.ru/me/formula/aux/372_102_TEHZO]]/URI$ (вапр., $URI[[http://libmeta.ru/me/formula/aux/372_103_TEHZO]]/URI$ - евклидово или псевдоевклидово пространство вад $URI[[http://libmeta.ru/me/formula/aux/372_104_TEHZO]]/URI$; форму $URI[[http://libmeta.ru/me/formula/aux/372_105_TEHZO]]/URI$ называют в әтом случае ме т р и q е с к и т ен зором. Метрический Т. определяет изоморфизм $URI[[http://libmeta.ru/me/formula/aux/372_106_TEHZO]]/URI$ по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_14_TEHZO]]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/372_107_TEHZO]]/URI$ и пусть фиксирован ивдекс $URI[[http://libmeta.ru/me/formula/aux/372_108_TEHZO]]/URI$. Тогда формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_15_TEHZO]]/URI
+\]
+
+определяет изоморфизм $URI[[http://libmeta.ru/me/formula/aux/372_109_TEHZO]]/URI$, называемый о п у с к а в и е м $URI[[http://libmeta.ru/me/formula/aux/372_110_TEHZO]]/URI$-го контравариантного индекса. Иначе,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_16_TEHZO]]/URI
+\]
+
+В координатах опускание ивдекса имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_17_TEHZO]]/URI
+\]
+
+Аналогично определяется изоморфизм по д ъ е м а
+
+$URI[[http://libmeta.ru/me/formula/aux/372_111_TEHZO]]/URI$-го ковариантного индекса $URI[[http://libmeta.ru/me/formula/aux/372_112_TEHZO]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_18_TEHZO]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/372_19_TEHZO]]/URI
+\]
+
+отображающий $URI[[http://libmeta.ru/me/formula/aux/372_113_TEHZO]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/372_114_TEHZO]]/URI$. В координатах подъем индекса записывается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_20_TEHZO]]/URI
+\] где $URI[[http://libmeta.ru/me/formula/aux/372_115_TEHZO]]/URI$. В частности, подъем сначала 1-го, а потом и оставшегося ковариантного индекса метрич. тензора $URI[[http://libmeta.ru/me/formula/aux/372_116_TEHZO]]/URI$ приводит к Т. типа $URI[[http://libmeta.ru/me/formula/aux/372_117_TEHZO]]/URI$ с координатами $URI[[http://libmeta.ru/me/formula/aux/372_118_TEHZO]]/URI$ (к он т р а в а р и антны й ме т ри ч ес ки й т е н 3 о р). Иногда опущенный (поднятый) индекс не Iередвигают на первое (последнее) место, а пишут на том же месте в нижней (верхней) группе индексов, ставя на образовавшемся пустом месте точку. Напр., для $URI[[http://libmeta.ru/me/formula/aux/372_119_TEHZO]]/URI$ координаты T. $URI[[http://libmeta.ru/me/formula/aux/372_120_TEHZO]]/URI$ записывают в виде $URI[[http://libmeta.ru/me/formula/aux/372_121_TEHZO]]/URI$
+
+Любое линейное отображение $URI[[http://libmeta.ru/me/formula/aux/372_122_TEHZO]]/URI$ векторных пространств над $URI[[http://libmeta.ru/me/formula/aux/372_123_TEHZO]]/URI$ естественным образом определяет линейные отображения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_21_TEHZO]]/URI
+\]
+
+И
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_22_TEHZO]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/372_124_TEHZO]]/URI$ - изоморфизм, то определяется также линеӥнос URI[[http://libmeta.ru/me/relation/372_5_TEHZO]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/372_23_TEHZO]]/URI
+\]
+
+причем $URI[[http://libmeta.ru/me/formula/aux/372_125_TEHZO]]/URI$. Соответствие $URI[[http://libmeta.ru/me/formula/aux/372_126_TEHZO]]/URI$ обладает URI[[http://libmeta.ru/me/relation/372_4_TEHZO]]/URI свойствами. В частности, оно определяет URI[[http://libmeta.ru/me/relation/372_3_TEHZO]]/URI $URI[[http://libmeta.ru/me/formula/aux/372_127_TEHZO]]/URI$ URI[[http://libmeta.ru/me/relation/372_2_TEHZO]]/URI $URI[[http://libmeta.ru/me/formula/aux/372_128_TEHZO]]/URI$ в URI[[http://libmeta.ru/me/relation/372_1_TEHZO]]/URI $URI[[http://libmeta.ru/me/formula/aux/372_129_TEHZO]]/URI$ (т е н $URI[[http://libmeta.ru/me/formula/aux/372_130_TEHZO]]/URI$ о р н о е п р е д с т а в л е ни е).</text>
+  <text_orig>на век т о р ном п р о с т р а н т в $V$ на д по л е м $k$ - элемент $t$ векторного пространства
+
+\[
+T^{p, q}(V)=(\stackrel{p}{\otimes} V) \otimes\left(\stackrel{q}{\otimes} V^{*}\right),
+\]
+
+где $V^{*}=\operatorname{Hom}(V, k)$ - пространство, сопряженное с $V$. Говорят, что тензор $t$ является $p$ раз контравариантным и $q$ раз ковариантным или что $t$ имеет тип $(p, q)$. Число $p$ наз. К о н т р а в а р и а н т о й в а л е н т но-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_c55401158e3ae4ad009eg-1.jpg?height=35&amp;width=809&amp;top_left_y=1843&amp;top_left_x=990)
+с т ь ю, а число $p+q-06$ е й в а ленте о с тью тензора $t$. Пространство $T^{0,0}(V)$ отождествляется с $k$. Тензоры типа $(p, 0)$ наз. к о н т $\mathbf{p}$ а в а $\mathbf{p}$ и а н т ным и, типа $(0, q)$ - к о в а р и а в т ны м и, а остальные - с м е ї а н н ы ми.
+
+П р и м е р Ы Т. 1) Вектор пространства $V$ (Т. типа $(1,0))$.
+
+2) Ковектор пространства $V$ (Т. типа $(0,1))$.
+
+3) Каждый ковариантный $\mathrm{T}$.
+
+\[
+t=\sum_{i=1}^{s} h_{i 1} \otimes \ldots \otimes h_{i q},
+\]
+
+где $h_{i j} \in V^{*}$, определяет $q$-линейную форму $\hat{t}$ на $V$ по формуле
+
+\[
+\hat{t}\left(x_{1}, \ldots, x_{q}\right)=\sum_{i=1}^{s} h_{i 1}\left(x_{1}\right) \ldots h_{i q}\left(x_{q}\right)
+\] отображение $t \longmapsto \hat{t}$ простравства $T^{0, q}$ в пространство $L^{q}(V)$ всех $q$-линейных форм на $V$ линейно и инъективно; если $\operatorname{dim} V&lt;\infty$, то это отображение является изоморфизмом, так что любая q-линейная форма отвечает нек-рому Т. типа $(0, q)$.
+
+4) Аналогично, каяддый ковтравариантный Т. из $T^{p, 0}(V)$ определяет нек-рую $p$-линейную форму на $V^{*}$, а если $V$ конечномерно, то верно и обратное.
+
+5) Каждый $\mathrm{T}$.
+
+\[
+t=\sum_{i=1}^{s} x_{i} \otimes h_{i} \in T^{1,1}(V),
+\]
+
+где $x_{i} \in V, h_{i} \in V^{*}$, определяет линейное преобразование $\hat{t}$ пространства $V$, заданное формулой
+
+\[
+\hat{t}(y)=\sum_{i=1}^{s} h_{i}(y) x_{i}
+\]
+
+если $\operatorname{dim} V&lt;\infty$, то любое линейное преобразование пространства $V$ определяется Т. типа $(1,1)$.
+
+6) Аналогично, любой Т. типа $(1,2)$ определяет в $V$ билинейную операцию, т. е. структуру $k$-алгебры; при этом, если $\operatorname{dim} V&lt;\infty$, то любая структура $k$-алгебры в $V$ определяется нек-рым Т. типа $(1,2)$, к-рый наз. с трукту у ным тен зором алгебры.
+
+Пусть $V$ конечномерно и $v_{1}, \ldots, v_{n}$ - его базис, $v^{1}, \ldots, v^{n}-$ сопряженный базис простравства $V^{*}$. Тогда $\mathrm{T}$.
+
+\[
+v_{i_{1} \ldots i_{p}}^{i_{1} \ldots i_{l}}=v_{i_{i}} \otimes \ldots \otimes v_{i_{p}} \otimes v^{i_{1}} \otimes \ldots \otimes v^{j} q
+\]
+
+составляют базис простравства $T^{p, q}(V)$. Координаты $t_{j_{1} \ldots j_{q}}^{i_{1} \ldots i_{p}}$ тензора $t \in T^{p, q}(V)$ в этом базисе наз. также к оо рдиват а ии тензора $t$ в базис е $v_{1}$, ..., $v_{n}$ пространства $V$. Напр., координаты вектора и ковектора совпадают с их обычными координатами в базисах $\left(v_{i}\right)$ и $\left(v^{j}\right)$, координаты Т. типа $(0,2)$ совпадают с элемевтами матрицы соответствующей билинейной формы, координаты Т. типа $(1,1)$ - с элемевтами матрицы соответствующего линейного преобразования, координаты структурного Т. алгебры - c ее структурными константами. Если $\tilde{v}_{1}, \ldots, \tilde{v}_{n}-$ другой базис простравства $V, \tilde{v}_{j}=a_{j}^{i} v_{i},\left\|b_{j}^{i}\right\|=\left(\left\|a_{j}^{i}\right\|^{\top}\right)^{-1}$, то коордиваты $t_{j_{1}, \ldots, j_{q}}^{i_{1}, \ldots, i_{p}}$ тензора $t$ в этом базисе определяются по формулам
+
+\[
+\tilde{t}_{i_{1} \ldots i_{q}}^{i_{1} \ldots j_{p}}=b_{k_{1}}^{i_{1}} \ldots b_{k_{p}}^{i_{p}} a_{i_{1}}^{l_{1}} \ldots a_{i_{q}}^{l_{q}} t_{l_{1}, l_{q}}^{k_{1} \ldots k_{p}} .
+\]
+
+Здесь, как это часто делается в тензорном исчислении, применимо II рав и ло с у м м и ров а ния Э й нші т е й н а: по каждой паре одинаковых индексов, один из к-рых - верхний, а другой - нижний, подразумевается суммирование от 1 до $n$. Обратно, если система $n p+q$ элементов поля $k$, зависящая от базиса пространства $V$, изменяется при переходе от базиса к базису по формулам (1), то эта система является набором координат нек-рого Т. типа $(p, q)$.
+
+В векторном пространстве $T^{p, q}(V)$ определены операции сложения Т. и умножения Т. на скаляр из $k$. При этих операциях соответствующие координаты Т. складываются или умножаются на скаляр. Определена также операция умножения T. разных типов, к-рая вводится следующим образом. Имеет место естественный изоморфизм векторных пространств
+
+\[
+T^{p, q}(V) \otimes T^{r, s}(V) \cong T^{p+r, \quad q+s}(V),
+\]
+
+переводящиї
+
+\[
+\begin{gathered}
+\left(x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q}\right) \otimes \\
+\otimes\left(x_{1}^{\prime} \otimes \ldots \otimes x_{r}^{\prime} \otimes h_{1}^{\prime} \otimes \ldots \otimes h_{s}\right)
+\end{gathered}
+\]
+
+в $\quad x_{1} \otimes \ldots \otimes x_{p} \otimes x_{1}^{\prime} \otimes \ldots \otimes x_{r}^{\prime} \otimes$
+
+\[
+\otimes h_{1} \otimes \ldots \otimes h_{q} \otimes h_{1}^{\prime} \otimes \ldots \otimes h_{s}^{\prime}
+\]
+
+Поэтому для любых $t \in T^{p, q}(V)$ и $u \in T^{r, s}(V)$ элемент $v=t \otimes u$ может рассматриваться как $\mathrm{T}$. типа $(p+r$, $q+s)$, к-рый и ваз. пр о и з в е де н и е м те в 3 ор о в $t$ и $u$. Координаты произведения вычисляются по формуле
+
+\[
+v_{j_{1} \ldots i_{q+s}}^{i_{1} \ldots i_{p+r}}=t_{i_{1} \ldots i_{q}}^{i_{1} \ldots i_{p}} u_{i_{q+1} \ldots i_{q+s}}^{i_{p+1} \ldots i_{p+r}} .
+\]
+
+Пусть $p&gt;0, q&gt;0$ и пусть фиксированы числа $\alpha$ и $\beta$, где $1 \leqslant \alpha \leqslant p, 1 \leqslant \beta \leqslant q$. Тогда определено линейное отображение $Y_{\beta}^{\alpha}: T^{p, q}(V) \rightarrow T^{p-1, q-1}(V)$ такое, что
+
+\[
+\begin{gathered}
+Y_{\beta}^{\alpha}\left(x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q}\right)= \\
+=h_{\beta}\left(x_{\alpha}\right) x_{1} \otimes \ldots \otimes x_{\alpha-1} \otimes x_{\alpha+1} \otimes \ldots \otimes x_{p} \otimes \\
+\otimes h_{1} \otimes \ldots \otimes h_{\beta-1} \otimes h_{\beta+1} \otimes \ldots \otimes h_{q} .
+\end{gathered}
+\]
+
+Оно наз. с в е р т ы в а н и е м (или с в е р т к о й) по $\alpha$-му контравариантному и $\beta$-му ковариантному индексам. В координатах свертка записывается формулами
+
+\[
+\left(Y_{\beta}^{\alpha} t\right)_{j_{1} \ldots j_{q-1}}^{i_{1} \ldots i_{p-1}}=t_{j_{1} \ldots j_{\beta-1} i_{\beta+1} i_{\alpha+1} j_{q}}^{i_{1} \ldots i_{\alpha-1} i i_{\alpha+1} \ldots i_{p}} .
+\]
+
+Напр., свертка $Y_{1}^{1} t$ Т. типа $(1,1)$ есть след соответствующего линейного преобразования.
+
+Аналогично ошределяются T. на произвольном унитарном модуле $V$ над коммутативно-ассоциативным кольцом с единицей. Перечисленные выше примеры и свойства Т. переносятся с соответствующими изменениями на этот случай, причем иногда надо предполагать, тто $V-$ свободный или конечно порожденный свободный модуль.
+
+Пусть в конечномерном векторном пространстве над полем $k$ фиксирована невырожденная билинейная форма $g$ (вапр., $V$ - евклидово или псевдоевклидово пространство вад $\mathbb{R})$; форму $g$ называют в әтом случае ме т р и q е с к и т ен зором. Метрический Т. определяет изоморфизм $\gamma: V \rightarrow V^{*}$ по формуле
+
+\[
+\gamma(x)(y)=g(x, y), \quad x, y \in V .
+\]
+
+Пусть $p&gt;0$ и пусть фиксирован ивдекс $\alpha, 1 \leqslant \alpha \leqslant p$. Тогда формула
+
+\[
+\begin{gathered}
+x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q} \mapsto \\
+\mapsto x_{1} \otimes \ldots \otimes x_{\alpha-1} \otimes x_{\alpha+1} \otimes \ldots \otimes x_{p} \otimes \\
+\otimes \gamma\left(x_{\alpha}\right) \otimes h_{1} \otimes \ldots \otimes h_{q}
+\end{gathered}
+\]
+
+определяет изоморфизм $\gamma^{\alpha}: T^{p, q}(V) \rightarrow T^{p-1, q+1}(V)$, называемый о п у с к а в и е м $\alpha$-го контравариантного индекса. Иначе,
+
+\[
+\gamma^{\alpha}(t)=Y_{1}^{\alpha}(g \otimes t)
+\]
+
+В координатах опускание ивдекса имеет вид
+
+\[
+\gamma^{\alpha}(t)_{j_{1} \ldots j_{q+1}}^{i_{1} \ldots i_{p-1}}=g_{i j_{1}} t_{i_{2} \ldots i_{q+1}}^{i_{1} \ldots i_{\alpha-1} i i_{\alpha+1} \ldots i_{p-1}}
+\]
+
+Аналогично определяется изоморфизм по д ъ е м а
+
+$\beta$-го ковариантного индекса $(1 \leqslant \beta \leqslant q)$ :
+
+\[
+\begin{gathered}
+\gamma_{\beta}: x_{1} \otimes \ldots \otimes x_{p} \otimes h_{1} \otimes \ldots \otimes h_{q} \mapsto \\
+\mapsto x_{1} \otimes \ldots \otimes x_{p} \otimes \gamma^{-1}\left(h_{\beta}\right) \otimes
+\end{gathered}
+\]\[
+\otimes h_{1} \otimes \ldots \otimes h_{\beta-1} \otimes h_{\beta+1} \otimes \ldots \otimes h_{q},
+\]
+
+отображающий $T^{p, q}(V)$ на $T^{p+1, q-1}(V)$. В координатах подъем индекса записывается формулой
+
+\[
+\gamma_{\beta}(t)_{j_{1} \ldots j_{q-1}}^{i_{1} \ldots i_{p+1}}=g^{i i} p+1 t_{i_{1} \ldots i_{\beta-1} i i_{\beta} \ldots i_{q-1}}^{i_{1} \ldots i_{p}},
+\] где $\left\|g^{k l}\right\|=\left(\left\|g_{i j}\right\|^{\top}\right)^{-1}$. В частности, подъем сначала 1-го, а потом и оставшегося ковариантного индекса метрич. тензора $g$ приводит к Т. типа $(2,0)$ с координатами $g^{k l}$ (к он т р а в а р и антны й ме т ри ч ес ки й т е н 3 о р). Иногда опущенный (поднятый) индекс не Iередвигают на первое (последнее) место, а пишут на том же месте в нижней (верхней) группе индексов, ставя на образовавшемся пустом месте точку. Напр., для $t \in T^{2,0}(V)$ координаты T. $\gamma^{2}(t)$ записывают в виде $t_{j}^{i \cdot}=g_{k j} t^{i k}$
+
+Любое линейное отображение $f: V \rightarrow W$ векторных пространств над $k$ естественным образом определяет линейные отображения
+
+\[
+T^{p, 0}(f)=\bigotimes^{p} f: T^{p, 0}(V) \longrightarrow T^{p, 0}(W)
+\]
+
+И
+
+\[
+T^{q, 0}\left(f^{*}\right)=\otimes^{q} f^{*}: T^{0, q}(W) \longrightarrow T^{0, q}(V) .
+\]
+
+Если $f$ - изоморфизм, то определяется также линеӥнос отображение
+
+\[
+T^{p, q}(f): T^{p, q}(V) \longrightarrow T^{p, q}(W),
+\]
+
+причем $T^{0, q}(f)=T^{q, 0}\left(f^{*}\right)^{-1}$. Соответствие $f \mapsto T^{p, q}(f)$ обладает функторными свойствами. В частности, оно определяет линейное представление $a \longmapsto T^{p}, q(a)$ группы $\mathrm{GL}(V)$ в пространстве $T^{p, q}(V)$ (т е н $о$ о р н о е п р е д с т а в л е ни е).
+
+Лит.: [1] Б у р б а к и Н., Алгебра. Алгебраические структуры. Линейная и полилинейная алгебра, пер. с франц., М., 1962; [2] $\Gamma$ е л ь Ф а н д И. М., Лекции по линейной алгебре, 4 изд., М., 1971; [3] К о с т р ик и н А. И., М а н и н Ю. И., Јинейная алгебра и геометрия, М., 1980; [4] П ос т н ик о в М. М., Линейная алгебра и дифференциальная геометрия, М., 1979; [5] Р а шा е в с К и й П. К., Риманова геометрия
+и тензорный анализ, 3 изд., М., 1967.
+А. Л. Оницик.</text_orig>
+</article>

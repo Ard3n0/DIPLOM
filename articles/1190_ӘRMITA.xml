@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1190_ӘRMITA" alphabetic_pos="1190">
+  <title>ӘРМИТА ИНТЕРПОЛЯЦИОННАЯ ФОРМУЛА</title>
+  <authors/>
+  <pages>
+    <start>509</start>
+    <end>509</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966 .</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1190_1_ӘRMITA">\begin{aligned}&amp; H_{m}\left(x_{0}\right)=f\left(x_{0}\right), H_{m}^{\prime}\left(x_{0}\right)=f^{\prime}\left(x_{0}\right), \ldots \\&amp; \ldots, H_{m}^{\left(\alpha_{0}-1\right)}\left(x_{0}\right)=f^{\left(\alpha_{0}-1\right)}\left(x_{0}\right)\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1190_2_ӘRMITA">\begin{aligned}&amp; \ldots, H_{m}^{\left(\alpha_{n}-1\right)}\left(x_{n}\right)=f^{\left(\alpha_{n}-1\right)}\left(x_{0}\right) \\&amp; m=\sum_{i=0}^{n} \alpha_{i}-1\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1190_3_ӘRMITA">\begin{gathered}H_{m}(x)=\sum_{i=0}^{n} \sum_{j=0}^{\alpha_{i}-1} \sum_{k=0}^{\alpha_{i}-1} f^{(j)}\left(x_{i}\right) \times \\\times \frac{1}{k !} \frac{1}{j !}\left[\frac{\left(x-x_{i}\right)_{i}}{\Omega(x)}\right]_{x=x_{i}}^{(k)} \frac{\Omega(x)}{\left(x-x_{i}\right)^{\alpha_{i} \cdots j-k}},\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1190_1_ӘRMITA">h_{m}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1190_2_ӘRMITA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1190_3_ӘRMITA">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1190_4_ӘRMITA">x_{0}, x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1190_5_ӘRMITA">\omega(x)=\left(x-x_{0}\right)^{\alpha_{0}}\left(x-x_{1}\right)^{\alpha_{1}} \ldots\left(x-x_{n}\right)^{\alpha_{n}}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>форма записи многочлена $URI[[http://libmeta.ru/me/formula/aux/1190_1_ӘRMITA]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/1190_2_ӘRMITA]]/URI$, репающего задачу интерполирования функции $URI[[http://libmeta.ru/me/formula/aux/1190_3_ӘRMITA]]/URI$ и ее производных в точках $URI[[http://libmeta.ru/me/formula/aux/1190_4_ӘRMITA]]/URI$, т. е. удовлетворяющего условиям:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1190_1_ӘRMITA]]/URI
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_cfb98be8e8d608371d7cg-1.jpg?height=64&amp;width=730&amp;top_left_y=1893&amp;top_left_x=156)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1190_2_ӘRMITA]]/URI
+\]
+
+Э. и. ф. может быть записана в виде:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1190_3_ӘRMITA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1190_5_ӘRMITA]]/URI$.</text>
+  <text_orig>форма записи многочлена $H_{m}(x)$ степени $m$, репающего задачу интерполирования функции $f(x)$ и ее производных в точках $x_{0}, x_{1}, \ldots, x_{n}$, т. е. удовлетворяющего условиям:
+
+\[
+\begin{aligned}
+&amp; H_{m}\left(x_{0}\right)=f\left(x_{0}\right), H_{m}^{\prime}\left(x_{0}\right)=f^{\prime}\left(x_{0}\right), \ldots \\
+&amp; \ldots, H_{m}^{\left(\alpha_{0}-1\right)}\left(x_{0}\right)=f^{\left(\alpha_{0}-1\right)}\left(x_{0}\right)
+\end{aligned}
+\]
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_cfb98be8e8d608371d7cg-1.jpg?height=64&amp;width=730&amp;top_left_y=1893&amp;top_left_x=156)
+
+\[
+\begin{aligned}
+&amp; \ldots, H_{m}^{\left(\alpha_{n}-1\right)}\left(x_{n}\right)=f^{\left(\alpha_{n}-1\right)}\left(x_{0}\right) \\
+&amp; m=\sum_{i=0}^{n} \alpha_{i}-1
+\end{aligned}
+\]
+
+Э. и. ф. может быть записана в виде:
+
+\[
+\begin{gathered}
+H_{m}(x)=\sum_{i=0}^{n} \sum_{j=0}^{\alpha_{i}-1} \sum_{k=0}^{\alpha_{i}-1} f^{(j)}\left(x_{i}\right) \times \\
+\times \frac{1}{k !} \frac{1}{j !}\left[\frac{\left(x-x_{i}\right)_{i}}{\Omega(x)}\right]_{x=x_{i}}^{(k)} \frac{\Omega(x)}{\left(x-x_{i}\right)^{\alpha_{i} \cdots j-k}},
+\end{gathered}
+\]
+
+где $\Omega(x)=\left(x-x_{0}\right)^{\alpha_{0}}\left(x-x_{1}\right)^{\alpha_{1}} \ldots\left(x-x_{n}\right)^{\alpha_{n}}$.
+
+Лит.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966 .</text_orig>
+</article>

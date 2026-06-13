@@ -1,0 +1,300 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/601_MATRITsAN" alphabetic_pos="601">
+  <title>МАТРИЦАНТ</title>
+  <authors>
+    <author>Ю. В. Комленко</author>
+  </authors>
+  <pages>
+    <start>310</start>
+    <end>311</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б у р б а к и Н., Функции действительного переменного. Элементарная теория, пер. с франц., М., 1965; [2] Г а н тм а х е p Ф. Р., Теория матриц, 2 изд., М., 1966; [3] Д е м и д ов и ч Б. П., Лекции по математической теории устойчивости, М., 1967; [4] Я к у бо в и ч В. А., С т а р жин с к и й В. М.,Линейные дифференциальные уравнения с периодическими коәффициентами и их приложения, М., 1972.</literature_orig>
+    <unit>
+      <author>Бурбаки Н.</author>
+      <title>Функции действительного переменного. Элементарная теория</title>
+      <publication>пер. с франц., М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гантмахеp Ф. Р.</author>
+      <title>Теория матриц</title>
+      <publication>2 изд., М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Демидович Б. П.</author>
+      <title>Лекции по математической теории устойчивости</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Якубович В. А.</author>
+      <author>Старжинский В. М.</author>
+      <title>Линейные дифференциальные уравнения с периодическими коәффициентами и их приложения</title>
+      <publication>М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/601_1_MATRITsAN">\dot{x}=A(t) x, \quad x \in \mathbb{R}^{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_2_MATRITsAN">\dot{X}=A(t) X, \quad X\left(t_{0}\right)=I</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_3_MATRITsAN">X(t)=I+\int_{t_{0}}^{t} A(s) d s+\int_{t_{0}}^{t} A(s) \int_{t_{0}}^{s} A(r) d r d s+\ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_4_MATRITsAN">\operatorname{det} X(t)=\exp \int_{t_{0}}^{t} \operatorname{sp} A(s) d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_5_MATRITsAN">A(t) \cdot \int_{t_{0}}^{t} A(s) d s=\int_{t_{0}}^{t} A(s) d s \cdot A(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_6_MATRITsAN">X(t)=\exp \int_{t_{0}}^{t} A(s) d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_7_MATRITsAN">X(t)=e^{A\left(t-t_{0}\right)} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_8_MATRITsAN">X_{A+B}(t)=X_{A}(t) X_{D}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_9_MATRITsAN">D(t)=\left[X_{A}(t)\right]^{-1} B(t) X_{A}(t) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_10_MATRITsAN">\dot{x}=A(t) x+b(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_11_MATRITsAN">x(t)=X(t) x\left(t_{0}\right)+\int_{t_{0}}^{t} C(t, s) b(s) d s, \quad t \in J,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_12_MATRITsAN">C(t, s)=X(t)[X(s)]^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_13_MATRITsAN">\dot{x}=-A^{*}(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/601_14_MATRITsAN">H(t, s)=\left[C^{*}(t, s)\right]^{-1}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_1_MATRITsAN">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_2_MATRITsAN">t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_3_MATRITsAN">a(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_4_MATRITsAN">j \subset \mathbb{R}, \quad t \in J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_5_MATRITsAN">m(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_6_MATRITsAN">x_{1}, \ldots, x_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_7_MATRITsAN">(*)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_8_MATRITsAN">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_9_MATRITsAN">m(t)=x(t) M\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_10_MATRITsAN">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_11_MATRITsAN">(*)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_12_MATRITsAN">x(t)=x(t) x\left(t_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_13_MATRITsAN">t \in J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_14_MATRITsAN">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_15_MATRITsAN">a(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_16_MATRITsAN">a(t) \equiv A-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_17_MATRITsAN">x_{a}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_18_MATRITsAN">a(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_19_MATRITsAN">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_20_MATRITsAN">b(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_21_MATRITsAN">c(t, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_22_MATRITsAN">j \times J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_23_MATRITsAN">t, s, r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_24_MATRITsAN">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_25_MATRITsAN">c(t, s)=C\left(t, t_{0}\right)\left[C\left(s, t_{0}\right)\right]^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_26_MATRITsAN">c(t, s)=C(t, r) C(r, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_27_MATRITsAN">c(s, t)=[C(t, s)]^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_28_MATRITsAN">c(t, t)=I</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_29_MATRITsAN">|c(t, s)| \leqslant \exp \int_{s}^{t}|A(r)| d r, s \leqslant t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_30_MATRITsAN">|\cdot|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_31_MATRITsAN">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/601_32_MATRITsAN">h(t, s)</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/601_1_MATRITsAN">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+  </relations>
+  <text>фундаментальная матрица $URI[[http://libmeta.ru/me/formula/aux/601_1_MATRITsAN]]/URI$ peшений системы обыкновенных диффференциальных уравнений
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_1_MATRITsAN]]/URI
+\]
+
+нормированная в точке $URI[[http://libmeta.ru/me/formula/aux/601_2_MATRITsAN]]/URI$. М. является единственным непрерывным решением матричной начальной задачи
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_2_MATRITsAN]]/URI
+\]
+
+(i - единичная матрица), если матричная функция $URI[[http://libmeta.ru/me/formula/aux/601_3_MATRITsAN]]/URI$ локально суммируема на нек-ром интервале $URI[[http://libmeta.ru/me/formula/aux/601_4_MATRITsAN]]/URI$.
+
+Для любой матрицы $URI[[http://libmeta.ru/me/formula/aux/601_5_MATRITsAN]]/URI$, составленной из столбцоврешений $URI[[http://libmeta.ru/me/formula/aux/601_6_MATRITsAN]]/URI$ системы $URI[[http://libmeta.ru/me/formula/aux/601_7_MATRITsAN]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/601_8_MATRITsAN]]/URI$ - натуральное число, справедливо представление $URI[[http://libmeta.ru/me/formula/aux/601_9_MATRITsAN]]/URI$. В частности, любое решение $URI[[http://libmeta.ru/me/formula/aux/601_10_MATRITsAN]]/URI$ системы $URI[[http://libmeta.ru/me/formula/aux/601_11_MATRITsAN]]/URI$ запысывается в виде $URI[[http://libmeta.ru/me/formula/aux/601_12_MATRITsAN]]/URI$.
+
+Для М. справедливы разложение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_3_MATRITsAN]]/URI
+\]
+
+сходящееся абсолютно для всякого $URI[[http://libmeta.ru/me/formula/aux/601_13_MATRITsAN]]/URI$ и равномерно на каждом конечном отрезке из $URI[[http://libmeta.ru/me/formula/aux/601_14_MATRITsAN]]/URI$, и Лиувилля Остроградского бормула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_4_MATRITsAN]]/URI
+\]
+
+Если матрица $URI[[http://libmeta.ru/me/formula/aux/601_15_MATRITsAN]]/URI$ удовлетворяет у с ло в п ю Л а пп о - Д н и л е в с к о г о
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_5_MATRITsAN]]/URI
+\]
+
+To
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_6_MATRITsAN]]/URI
+\]
+
+В частности, если $URI[[http://libmeta.ru/me/formula/aux/601_16_MATRITsAN]]/URI$ постоянная матрица, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_7_MATRITsAN]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/601_17_MATRITsAN]]/URI$ есть М. системы (*) с матрицей $URI[[http://libmeta.ru/me/formula/aux/601_18_MATRITsAN]]/URI$, то
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_8_MATRITsAN]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_9_MATRITsAN]]/URI
+\]
+
+M. позволяет записать любое решение неоднородной системы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_10_MATRITsAN]]/URI
+\]
+
+с локально суммируемой на $URI[[http://libmeta.ru/me/formula/aux/601_19_MATRITsAN]]/URI$ функцией $URI[[http://libmeta.ru/me/formula/aux/601_20_MATRITsAN]]/URI$ по формуле Коши:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_11_MATRITsAN]]/URI
+\]
+
+при этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_12_MATRITsAN]]/URI
+\]
+
+наз. м а т р и ц е й Коши $URI[[http://libmeta.ru/me/formula/aux/601_21_MATRITsAN]]/URI$ непрерывна по совокупности аргументов на $URI[[http://libmeta.ru/me/formula/aux/601_22_MATRITsAN]]/URI$ и для любых $URI[[http://libmeta.ru/me/formula/aux/601_23_MATRITsAN]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/601_24_MATRITsAN]]/URI$ обладает свойствами:
+
+1) $URI[[http://libmeta.ru/me/formula/aux/601_25_MATRITsAN]]/URI$;
+
+2) $URI[[http://libmeta.ru/me/formula/aux/601_26_MATRITsAN]]/URI$;
+
+3) $URI[[http://libmeta.ru/me/formula/aux/601_27_MATRITsAN]]/URI$; 4) $URI[[http://libmeta.ru/me/formula/aux/601_28_MATRITsAN]]/URI$
+
+5) $URI[[http://libmeta.ru/me/formula/aux/601_29_MATRITsAN]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/601_30_MATRITsAN]]/URI$-норма в $URI[[http://libmeta.ru/me/formula/aux/601_31_MATRITsAN]]/URI$;
+
+6) если $URI[[http://libmeta.ru/me/formula/aux/601_32_MATRITsAN]]/URI$-матрица Коши сопряженной URI[[http://libmeta.ru/me/relation/601_1_MATRITsAN]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_13_MATRITsAN]]/URI
+\]
+
+то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/601_14_MATRITsAN]]/URI
+\]</text>
+  <text_orig>фундаментальная матрица $X(t)$ peшений системы обыкновенных диффференциальных уравнений
+
+\[
+\dot{x}=A(t) x, \quad x \in \mathbb{R}^{n},
+\]
+
+нормированная в точке $t_{0}$. М. является единственным непрерывным решением матричной начальной задачи
+
+\[
+\dot{X}=A(t) X, \quad X\left(t_{0}\right)=I
+\]
+
+(I - единичная матрица), если матричная функция $A(t)$ локально суммируема на нек-ром интервале $J \subset \mathbb{R}, \quad t \in J$.
+
+Для любой матрицы $M(t)$, составленной из столбцоврешений $x_{1}, \ldots, x_{m}$ системы $(*)$, где $m$ - натуральное число, справедливо представление $M(t)=X(t) M\left(t_{0}\right)$. В частности, любое решение $x(t)$ системы $(*)$ запысывается в виде $x(t)=X(t) x\left(t_{0}\right)$.
+
+Для М. справедливы разложение
+
+\[
+X(t)=I+\int_{t_{0}}^{t} A(s) d s+\int_{t_{0}}^{t} A(s) \int_{t_{0}}^{s} A(r) d r d s+\ldots,
+\]
+
+сходящееся абсолютно для всякого $t \in J$ и равномерно на каждом конечном отрезке из $J$, и Лиувилля Остроградского бормула
+
+\[
+\operatorname{det} X(t)=\exp \int_{t_{0}}^{t} \operatorname{sp} A(s) d s
+\]
+
+Если матрица $A(t)$ удовлетворяет у с ло в п ю Л а пп о - Д н и л е в с к о г о
+
+\[
+A(t) \cdot \int_{t_{0}}^{t} A(s) d s=\int_{t_{0}}^{t} A(s) d s \cdot A(t)
+\]
+
+To
+
+\[
+X(t)=\exp \int_{t_{0}}^{t} A(s) d s
+\]
+
+В частности, если $A(t) \equiv A-$ постоянная матрица, то
+
+\[
+X(t)=e^{A\left(t-t_{0}\right)} .
+\]
+
+Если $X_{A}(t)$ есть М. системы (*) с матрицей $A(t)$, то
+
+где
+
+\[
+X_{A+B}(t)=X_{A}(t) X_{D}(t)
+\]
+
+\[
+D(t)=\left[X_{A}(t)\right]^{-1} B(t) X_{A}(t) .
+\]
+
+M. позволяет записать любое решение неоднородной системы
+
+\[
+\dot{x}=A(t) x+b(t)
+\]
+
+с локально суммируемой на $J$ функцией $b(t)$ по формуле Коши:
+
+\[
+x(t)=X(t) x\left(t_{0}\right)+\int_{t_{0}}^{t} C(t, s) b(s) d s, \quad t \in J,
+\]
+
+при этом
+
+\[
+C(t, s)=X(t)[X(s)]^{-1}
+\]
+
+наз. м а т р и ц е й Коши $C(t, s)$ непрерывна по совокупности аргументов на $J \times J$ и для любых $t, s, r$ из $J$ обладает свойствами:
+
+1) $C(t, s)=C\left(t, t_{0}\right)\left[C\left(s, t_{0}\right)\right]^{-1}$;
+
+2) $C(t, s)=C(t, r) C(r, s)$;
+
+3) $C(s, t)=[C(t, s)]^{-1}$; 4) $C(t, t)=I$
+
+5) $|C(t, s)| \leqslant \exp \int_{s}^{t}|A(r)| d r, s \leqslant t$,
+
+где $|\cdot|$-норма в $\mathbb{R}^{n}$;
+
+6) если $H(t, s)$-матрица Коши сопряженной системы
+
+\[
+\dot{x}=-A^{*}(t) x
+\]
+
+то
+
+\[
+H(t, s)=\left[C^{*}(t, s)\right]^{-1}
+\]
+
+Лит.: [1] Б у р б а к и Н., Функции действительного переменного. Элементарная теория, пер. с франц., М., 1965; [2] Г а н тм а х е p Ф. Р., Теория матриц, 2 изд., М., 1966; [3] Д е м и д ов и ч Б. П., Лекции по математической теории устойчивости, М., 1967; [4] Я к у бо в и ч В. А., С т а р жин с к и й В. М.,
+Линейные дифференциальные уравнения с периодическими коәффициентами и их приложения, М., 1972. Ю. В. Комленко.</text_orig>
+</article>

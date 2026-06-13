@@ -1,0 +1,286 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/180_DINAMIChESKOE" alphabetic_pos="180">
+  <title>ДИНАМИЧЕСКОЕ ПРОГРАММИРОВАНИЕ</title>
+  <authors/>
+  <pages>
+    <start>78</start>
+    <end>79</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] D i n i U., Serie di Fourier e altre rappresentazioni analitiche delle funzione di una variable reale, Pisa, 1880; [2] 3 и г м у н д А., Тригонометрические ряды, пер. с англ., т. 1,М., 1965.</literature_orig>
+    <unit>
+      <author>Dini U.</author>
+      <title>Serie di Fourier e altre rappresentazioni analitiche delle funzione di una variable reale, Pisa</title>
+      <publication/>
+      <year>1880</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>3игмунд А.</author>
+      <title>Тригонометрические ряды</title>
+      <publication>пер. с англ., т. 1, М.</publication>
+      <year>1965</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/180_1_DINAMIChESKOE">x_{i}=f_{i}\left(x_{i-1}, y_{i}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_2_DINAMIChESKOE">F^{*}=\max _{y_{1}, y_{2}, \ldots, y_{m}} F\left(x_{0}, y_{1}, x_{1}, y_{2}, \ldots, y_{m}, x_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_3_DINAMIChESKOE">F=\sum_{i=1}^{m} \varphi_{i}\left(x_{i-1}, y_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_4_DINAMIChESKOE">x_{i}=f_{i}\left(x_{i-1}, y_{i}, x_{i-2}, y_{i-1}, \ldots, y_{1}, x_{0}\right) \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_5_DINAMIChESKOE">F_{k}=\sum_{i=k+1}^{m} \varphi_{i}\left(x_{i-1}, y_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_6_DINAMIChESKOE">\omega_{m}(x)=0, \quad \omega_{k-1}(x)=\max _{y}\left[\varphi_{k}(x, y)+\omega_{k}\left(f_{k}(x, y)\right)\right],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_7_DINAMIChESKOE">\omega_{0}\left(x_{0}\right)=F^{*}, y_{1}, x_{1}, y_{2}, \ldots, y_{m}, x_{m} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_8_DINAMIChESKOE">\int_{0}^{\delta} \frac{1}{x}\left|f\left(x_{0}+x\right)+f\left(x_{0}-x\right)-2 S\right| d x&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/180_9_DINAMIChESKOE">|f(t)-f(0)| \leqslant \mu(t)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_1_DINAMIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_2_DINAMIChESKOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_3_DINAMIChESKOE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_4_DINAMIChESKOE">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_5_DINAMIChESKOE">x_{i-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_6_DINAMIChESKOE">(i-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_7_DINAMIChESKOE">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_8_DINAMIChESKOE">f_{i}(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_9_DINAMIChESKOE">x_{i-1}, y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_10_DINAMIChESKOE">y_{1}, y_{2}, \ldots, y_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_11_DINAMIChESKOE">x_{0} \in X_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_12_DINAMIChESKOE">x_{n} \in X_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_13_DINAMIChESKOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_14_DINAMIChESKOE">x_{m}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_15_DINAMIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_16_DINAMIChESKOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_17_DINAMIChESKOE">y_{1}, y_{2}, \ldots, y_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_18_DINAMIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_19_DINAMIChESKOE">f\left(x_{0}, y_{1}, x_{1}, y_{2}, \ldots, y_{m}, x_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_20_DINAMIChESKOE">f^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_21_DINAMIChESKOE">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_22_DINAMIChESKOE">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_23_DINAMIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_24_DINAMIChESKOE">y_{1}, y_{2}, \ldots, y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_25_DINAMIChESKOE">x_{0}, x_{1}, \ldots, x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_26_DINAMIChESKOE">y_{k+1}, y_{k+2}, \ldots, y_{\boldsymbol{m}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_27_DINAMIChESKOE">\left.x_{k+1}, x_{k+2}, \ldots, x_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_28_DINAMIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_29_DINAMIChESKOE">k=1,2, \ldots, m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_30_DINAMIChESKOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_31_DINAMIChESKOE">\omega_{k-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_32_DINAMIChESKOE">\omega_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_33_DINAMIChESKOE">\omega_{k-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_34_DINAMIChESKOE">k-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_35_DINAMIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_36_DINAMIChESKOE">\omega_{k-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_37_DINAMIChESKOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_38_DINAMIChESKOE">\omega_{k-1}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_39_DINAMIChESKOE">y_{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_40_DINAMIChESKOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_41_DINAMIChESKOE">k-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_42_DINAMIChESKOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_43_DINAMIChESKOE">1960 ;[2]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_44_DINAMIChESKOE">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_45_DINAMIChESKOE">[0,2 \pi]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_46_DINAMIChESKOE">s,-\infty&lt;S&lt;+\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_47_DINAMIChESKOE">\delta&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_48_DINAMIChESKOE">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_49_DINAMIChESKOE">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_50_DINAMIChESKOE">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_51_DINAMIChESKOE">\mu(t) \geqslant 0-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_52_DINAMIChESKOE">\mu(t) / t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_53_DINAMIChESKOE">t=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_54_DINAMIChESKOE">f(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_55_DINAMIChESKOE">t=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/180_56_DINAMIChESKOE">t</formula>
+  </formulas_aux>
+  <relations n="10">
+    <relation uri="http://libmeta.ru/me/relation/180_1_DINAMIChESKOE">
+      <rel_text>математическая</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_2_DINAMIChESKOE">
+      <rel_text>Oптимального управления</rel_text>
+      <target>http://libmeta.ru/me/article/43_OPTIMAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_3_DINAMIChESKOE">
+      <rel_text>ряд Фурье</rel_text>
+      <target>http://libmeta.ru/me/article/817_FUR'E</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_4_DINAMIChESKOE">
+      <rel_text>непрерывную функцию</rel_text>
+      <target>http://libmeta.ru/me/article/947_NEPRERYShNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_5_DINAMIChESKOE">
+      <rel_text>интегрируема</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_6_DINAMIChESKOE">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_7_DINAMIChESKOE">
+      <rel_text>непрерывная функция</rel_text>
+      <target>http://libmeta.ru/me/article/947_NEPRERYShNAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_8_DINAMIChESKOE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_9_DINAMIChESKOE">
+      <rel_text>ряд Фурье</rel_text>
+      <target>http://libmeta.ru/me/article/817_FUR'E</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/180_10_DINAMIChESKOE">
+      <rel_text>отрезке</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+  </relations>
+  <text>раздел математики, посвященный теории и методам решения многошаговых задач оптимального управления.
+
+В Д. П. для управляемых процессов среди всевозможных управлений ищется то, к-рое доставляет экстремальное (наименьшее или наибольшее) значение целевой функции - нек-рой числовой характеристики процесса. Под м н о г о ші а г о в о с т в ю понимают либо многоступенчатую структуру процесса, либо что управление разбивается на ряд последовательных этапов (шагов), соответствующих, как правило, различным моментам времени. В ряде задач многошаговость проистекает из существа процесса (напр., в задаче определения оптимальных размеров ступеней многоступенчатой ракеты или при нахождении наиболее экономичного режима полета самолетов), но она может вводиться искусственно для того, чтобы обеспечить возможность применения метода Д. П. Таким образом, в названии Д. п. под программированием понимают принятие решений, планирование, а слово динамическое указывает на существенную роль времени и порядка выполнения операций в рассматриваемых процессах и методах.
+
+Методы Д. П. являются составной частью методов, используемых в исследовании операций, и применяются в задачах оптимального планирования (напр., в задачах об оптимальных распределениях ресурсов, в теории управления запасами, в задачах замены оборудования и т. д.) и при решении многих технических проблем (напр., в задачах управления последовательными химическими процессами, в задачах оптимального проектирования прокладки дорог и др.).
+
+Проиллюстрируем основную идею. Пусть процесс управления нек-рой системой $URI[[http://libmeta.ru/me/formula/aux/180_1_DINAMIChESKOE]]/URI$ состоит из $URI[[http://libmeta.ru/me/formula/aux/180_2_DINAMIChESKOE]]/URI$ пагов (этапов); на $URI[[http://libmeta.ru/me/formula/aux/180_3_DINAMIChESKOE]]/URI$-м паге управление $URI[[http://libmeta.ru/me/formula/aux/180_4_DINAMIChESKOE]]/URI$ переводит систему из состояния $URI[[http://libmeta.ru/me/formula/aux/180_5_DINAMIChESKOE]]/URI$, достигнутого в результате $URI[[http://libmeta.ru/me/formula/aux/180_6_DINAMIChESKOE]]/URI$-го тшага, в новое состояние $URI[[http://libmeta.ru/me/formula/aux/180_7_DINAMIChESKOE]]/URI$. Этот процесс перехода осуществляет заданная функция $URI[[http://libmeta.ru/me/formula/aux/180_8_DINAMIChESKOE]]/URI$, и новое состояние определяется значениями $URI[[http://libmeta.ru/me/formula/aux/180_9_DINAMIChESKOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_1_DINAMIChESKOE]]/URI
+\]
+
+Таким образом, управления $URI[[http://libmeta.ru/me/formula/aux/180_10_DINAMIChESKOE]]/URI$ переводят систему из начального состояния $URI[[http://libmeta.ru/me/formula/aux/180_11_DINAMIChESKOE]]/URI$ в конечное $URI[[http://libmeta.ru/me/formula/aux/180_12_DINAMIChESKOE]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/180_13_DINAMIChESKOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/180_14_DINAMIChESKOE]]/URI$ совокупности допустимых начальных и конечных состояний системы $URI[[http://libmeta.ru/me/formula/aux/180_15_DINAMIChESKOE]]/URI$. Опишем одну из возможных постановок экстремальной задачи. Начальное состояние $URI[[http://libmeta.ru/me/formula/aux/180_16_DINAMIChESKOE]]/URI$ задано. Требуется выбрать управления $URI[[http://libmeta.ru/me/formula/aux/180_17_DINAMIChESKOE]]/URI$ таким образом, чтобы система $URI[[http://libmeta.ru/me/formula/aux/180_18_DINAMIChESKOE]]/URI$ перепла в допустимое конечное состояние и при этом заданная целевая функция $URI[[http://libmeta.ru/me/formula/aux/180_19_DINAMIChESKOE]]/URI$ достигла максимального значения $URI[[http://libmeta.ru/me/formula/aux/180_20_DINAMIChESKOE]]/URI$, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_2_DINAMIChESKOE]]/URI
+\]
+
+Важной особенностью метода Д. П. является то, что он применим лишь для аддитивной целевой функции. В рассмотренном примере это означает, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_3_DINAMIChESKOE]]/URI
+\]
+
+Кроме того, в методе Д. П. требуется, чтобы задача характеризовалась отсутствием «последействия»: решения (управления), принимаемые на шаге, оказывают влияние только на состояние $URI[[http://libmeta.ru/me/formula/aux/180_21_DINAMIChESKOE]]/URI$ системы в момент $URI[[http://libmeta.ru/me/formula/aux/180_22_DINAMIChESKOE]]/URI$. Другими словами, процессы, описываемые функциями вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_4_DINAMIChESKOE]]/URI
+\]
+
+не рассматриваются. Оба упомянутых ограничительных условия можно ослабить, но только за счет существенного усложнения метода. Для решения задач Д. П. обычные методы математического анализа либо вообе неприменимы, либо приводят к огромному числу вычислений. В основе метода Д. п. лежит п р и ц ци п о п ти м а ль н о с ти, сформулированный P. Беллманом (r. Bellman): предположим, что осуществляя управление дискретной системой $URI[[http://libmeta.ru/me/formula/aux/180_23_DINAMIChESKOE]]/URI$, мы уже выбрали некоторые управления дискретной системой $URI[[http://libmeta.ru/me/formula/aux/180_24_DINAMIChESKOE]]/URI$ и тем самым т р а е кт о р и ю состояний $URI[[http://libmeta.ru/me/formula/aux/180_25_DINAMIChESKOE]]/URI$, и хотим завершить процесс, т. е. выбрать $URI[[http://libmeta.ru/me/formula/aux/180_26_DINAMIChESKOE]]/URI$ (а значит и $URI[[http://libmeta.ru/me/formula/aux/180_27_DINAMIChESKOE]]/URI$; тогда, если завершающая часть процесса не будет оптимальной в смысле достижения максимума функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_5_DINAMIChESKOE]]/URI
+\]
+
+то и весь процесс не будет оптимальным.
+
+Пользуясь принципом оптимальности, легко получить основное функциональное соотношение. Определим последовательность функций переменной $URI[[http://libmeta.ru/me/formula/aux/180_28_DINAMIChESKOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_6_DINAMIChESKOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/180_29_DINAMIChESKOE]]/URI$. Здесь максимум берется по всем управлениям, допустимым на шаге $URI[[http://libmeta.ru/me/formula/aux/180_30_DINAMIChESKOE]]/URI$. Соотношение, определяющее зависимость $URI[[http://libmeta.ru/me/formula/aux/180_31_DINAMIChESKOE]]/URI$ от $URI[[http://libmeta.ru/me/formula/aux/180_32_DINAMIChESKOE]]/URI$, принято называть Беллмана уравнением. Смысл функций $URI[[http://libmeta.ru/me/formula/aux/180_33_DINAMIChESKOE]]/URI$ нагляден: если система на паге $URI[[http://libmeta.ru/me/formula/aux/180_34_DINAMIChESKOE]]/URI$ оказалась в состоянии $URI[[http://libmeta.ru/me/formula/aux/180_35_DINAMIChESKOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/180_36_DINAMIChESKOE]]/URI$ есть максимально возможное значение функции $URI[[http://libmeta.ru/me/formula/aux/180_37_DINAMIChESKOE]]/URI$. Одновременно с построением функций $URI[[http://libmeta.ru/me/formula/aux/180_38_DINAMIChESKOE]]/URI$ находятся у л овны е опт им а ль ны е у пр а в л е н и я $URI[[http://libmeta.ru/me/formula/aux/180_39_DINAMIChESKOE]]/URI$ на каждом шаге (т. е. значения оптимального управления при всевозможных предположениях о состоянии $URI[[http://libmeta.ru/me/formula/aux/180_40_DINAMIChESKOE]]/URI$ системы на шаге $URI[[http://libmeta.ru/me/formula/aux/180_41_DINAMIChESKOE]]/URI$ ). Окончательно оптимальные управления находятся последовательным вычислением величин
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_7_DINAMIChESKOE]]/URI
+\]
+
+Из сказанного очевидна следующая особенность метода Д. П.- с его помощью решается не одна конкретная задача при определенном $URI[[http://libmeta.ru/me/formula/aux/180_42_DINAMIChESKOE]]/URI$, а сразу все подобные однотипные задачи при любом начальном состоянии. Поскольку численная реализация метода Д. п. весьма сложна, т. к. требует большого объема памяти Әвм, то его целесообразно применять в тех случаях, когда необходимо многократно решать типовые задачи (скажем, определение оптимального режима полета самолета при меняющихся погодных условиях). Несмотря на то, что задача Д. П. формулируется для дискретных процессов, в ряде случаев метод Д. П. с успехом применяется для решения динамических задач с непрерывными параметрами.
+
+Д. П. дало новый подход ко многим задачам вариационного исчисления.
+
+Важным разделом Д. п. являются с т о х а с т и ч ес к и е з а д а ч и Д. П.- задачи, в к-рых на состояние системы и на целевую функцию влияют случайные факторы. К таким задачам относятся, напр., задачи оптимального регулирования запасов с учетом возможностей случайного пополнения запасов. Здесь наиболее естественной областью применения Д. П. являются управляемые марковские процессы.
+
+Метод Д. п. был предложен Р. Беллманом. Строгое обоснование метода Д. П. было получено в результате работ Л. С. Понтрягина и его учеников по математической теории управляемых процессов (см. URI[[http://libmeta.ru/me/relation/180_2_DINAMIChESKOE]]/URI URI[[http://libmeta.ru/me/relation/180_1_DINAMIChESKOE]]/URI теория).
+
+Хотя метод Д. П. существенно упрощает исходные задачи, однако явное его применение, как правило, весьма громоздко. Для преодоления этих трудностей разрабатываются приближенные методы Д. П. Лuт.: [1] Б е л л м а н Р., Динамическое программирование, пер. с англ., М., $URI[[http://libmeta.ru/me/formula/aux/180_43_DINAMIChESKOE]]/URI$ Б о л т я н с к и й В. Г., Математические методы оптимального управления, М., 1966; [3] $URI[[http://libmeta.ru/me/formula/aux/180_44_DINAMIChESKOE]]/URI$ е д л и Д ж., Нелинейное и динамическое программирование, пер. с англ., М., 1967; [4] Х е д л и Д. Ж., у а й т и н Т [5] X о в а р д Р. А., Динамическое программирование и марковские процессы, пер. с англ., М., 1964.
+
+В. Г. Карманов. руемая на URI[[http://libmeta.ru/me/relation/180_10_DINAMIChESKOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/180_45_DINAMIChESKOE]]/URI$ летворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_8_DINAMIChESKOE]]/URI
+\]
+
+при фиксированном числе $URI[[http://libmeta.ru/me/formula/aux/180_46_DINAMIChESKOE]]/URI$, и какомлибо $URI[[http://libmeta.ru/me/formula/aux/180_47_DINAMIChESKOE]]/URI$, то URI[[http://libmeta.ru/me/relation/180_9_DINAMIChESKOE]]/URI URI[[http://libmeta.ru/me/relation/180_8_DINAMIChESKOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/180_48_DINAMIChESKOE]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/180_49_DINAMIChESKOE]]/URI$ сходится к числу $URI[[http://libmeta.ru/me/formula/aux/180_50_DINAMIChESKOE]]/URI$. Д. П. доказан У. Дини [1]. Его утверждение окончательно в следующем смысле. Если $URI[[http://libmeta.ru/me/formula/aux/180_51_DINAMIChESKOE]]/URI$ такая URI[[http://libmeta.ru/me/relation/180_7_DINAMIChESKOE]]/URI, что URI[[http://libmeta.ru/me/relation/180_6_DINAMIChESKOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/180_52_DINAMIChESKOE]]/URI$ не URI[[http://libmeta.ru/me/relation/180_5_DINAMIChESKOE]]/URI в окрестности точки $URI[[http://libmeta.ru/me/formula/aux/180_53_DINAMIChESKOE]]/URI$, то можно найти URI[[http://libmeta.ru/me/relation/180_4_DINAMIChESKOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/180_54_DINAMIChESKOE]]/URI$, URI[[http://libmeta.ru/me/relation/180_3_DINAMIChESKOE]]/URI к-рой расходится в точке $URI[[http://libmeta.ru/me/formula/aux/180_55_DINAMIChESKOE]]/URI$, причем
+
+\[
+URI[[http://libmeta.ru/me/formula/main/180_9_DINAMIChESKOE]]/URI
+\]
+
+для малых $URI[[http://libmeta.ru/me/formula/aux/180_56_DINAMIChESKOE]]/URI$.</text>
+  <text_orig>раздел математики, посвященный теории и методам решения многошаговых задач оптимального управления.
+
+В Д. П. для управляемых процессов среди всевозможных управлений ищется то, к-рое доставляет экстремальное (наименьшее или наибольшее) значение целевой функции - нек-рой числовой характеристики процесса. Под м н о г о ші а г о в о с т в ю понимают либо многоступенчатую структуру процесса, либо что управление разбивается на ряд последовательных этапов (шагов), соответствующих, как правило, различным моментам времени. В ряде задач многошаговость проистекает из существа процесса (напр., в задаче определения оптимальных размеров ступеней многоступенчатой ракеты или при нахождении наиболее экономичного режима полета самолетов), но она может вводиться искусственно для того, чтобы обеспечить возможность применения метода Д. П. Таким образом, в названии Д. п. под программированием понимают принятие решений, планирование, а слово динамическое указывает на существенную роль времени и порядка выполнения операций в рассматриваемых процессах и методах.
+
+Методы Д. П. являются составной частью методов, используемых в исследовании операций, и применяются в задачах оптимального планирования (напр., в задачах об оптимальных распределениях ресурсов, в теории управления запасами, в задачах замены оборудования и т. д.) и при решении многих технических проблем (напр., в задачах управления последовательными химическими процессами, в задачах оптимального проектирования прокладки дорог и др.).
+
+Проиллюстрируем основную идею. Пусть процесс управления нек-рой системой $X$ состоит из $m$ пагов (этапов); на $i$-м паге управление $y_{i}$ переводит систему из состояния $x_{i-1}$, достигнутого в результате $(i-1)$-го тшага, в новое состояние $x_{i}$. Этот процесс перехода осуществляет заданная функция $f_{i}(x, y)$, и новое состояние определяется значениями $x_{i-1}, y_{i}$ :
+
+\[
+x_{i}=f_{i}\left(x_{i-1}, y_{i}\right) \text {. }
+\]
+
+Таким образом, управления $y_{1}, y_{2}, \ldots, y_{m}$ переводят систему из начального состояния $x_{0} \in X_{0}$ в конечное $x_{n} \in X_{m}$, где $X_{0}$ и $X_{m}-$ совокупности допустимых начальных и конечных состояний системы $X$. Опишем одну из возможных постановок экстремальной задачи. Начальное состояние $x_{0}$ задано. Требуется выбрать управления $y_{1}, y_{2}, \ldots, y_{m}$ таким образом, чтобы система $X$ перепла в допустимое конечное состояние и при этом заданная целевая функция $F\left(x_{0}, y_{1}, x_{1}, y_{2}, \ldots, y_{m}, x_{m}\right)$ достигла максимального значения $F^{*}$, т. е.
+
+\[
+F^{*}=\max _{y_{1}, y_{2}, \ldots, y_{m}} F\left(x_{0}, y_{1}, x_{1}, y_{2}, \ldots, y_{m}, x_{m}\right)
+\]
+
+Важной особенностью метода Д. П. является то, что он применим лишь для аддитивной целевой функции. В рассмотренном примере это означает, что
+
+\[
+F=\sum_{i=1}^{m} \varphi_{i}\left(x_{i-1}, y_{i}\right)
+\]
+
+Кроме того, в методе Д. П. требуется, чтобы задача характеризовалась отсутствием «последействия»: решения (управления), принимаемые на шаге, оказывают влияние только на состояние $x_{i}$ системы в момент $i$. Другими словами, процессы, описываемые функциями вида
+
+\[
+x_{i}=f_{i}\left(x_{i-1}, y_{i}, x_{i-2}, y_{i-1}, \ldots, y_{1}, x_{0}\right) \text {, }
+\]
+
+не рассматриваются. Оба упомянутых ограничительных условия можно ослабить, но только за счет существенного усложнения метода. Для решения задач Д. П. обычные методы математического анализа либо вообе неприменимы, либо приводят к огромному числу вычислений. В основе метода Д. п. лежит п р и ц ци п о п ти м а ль н о с ти, сформулированный P. Беллманом (R. Bellman): предположим, что осуществляя управление дискретной системой $X$, мы уже выбрали некоторые управления дискретной системой $y_{1}, y_{2}, \ldots, y_{k}$ и тем самым т р а е кт о р и ю состояний $x_{0}, x_{1}, \ldots, x_{k}$, и хотим завершить процесс, т. е. выбрать $y_{k+1}, y_{k+2}, \ldots, y_{\boldsymbol{m}}$ (а значит и $\left.x_{k+1}, x_{k+2}, \ldots, x_{m}\right)$; тогда, если завершающая часть процесса не будет оптимальной в смысле достижения максимума функции
+
+\[
+F_{k}=\sum_{i=k+1}^{m} \varphi_{i}\left(x_{i-1}, y_{i}\right)
+\]
+
+то и весь процесс не будет оптимальным.
+
+Пользуясь принципом оптимальности, легко получить основное функциональное соотношение. Определим последовательность функций переменной $x$ :
+
+\[
+\omega_{m}(x)=0, \quad \omega_{k-1}(x)=\max _{y}\left[\varphi_{k}(x, y)+\omega_{k}\left(f_{k}(x, y)\right)\right],
+\]
+
+$k=1,2, \ldots, m$. Здесь максимум берется по всем управлениям, допустимым на шаге $k$. Соотношение, определяющее зависимость $\omega_{k-1}$ от $\omega_{k}$, принято называть Беллмана уравнением. Смысл функций $\omega_{k-1}(x)$ нагляден: если система на паге $k-1$ оказалась в состоянии $x$, то $\omega_{k-1}(x)$ есть максимально возможное значение функции $F$. Одновременно с построением функций $\omega_{k-1}(x)$ находятся у л овны е опт им а ль ны е у пр а в л е н и я $y_{k}(x)$ на каждом шаге (т. е. значения оптимального управления при всевозможных предположениях о состоянии $x$ системы на шаге $k-1$ ). Окончательно оптимальные управления находятся последовательным вычислением величин
+
+\[
+\omega_{0}\left(x_{0}\right)=F^{*}, y_{1}, x_{1}, y_{2}, \ldots, y_{m}, x_{m} .
+\]
+
+Из сказанного очевидна следующая особенность метода Д. П.- с его помощью решается не одна конкретная задача при определенном $x_{0}$, а сразу все подобные однотипные задачи при любом начальном состоянии. Поскольку численная реализация метода Д. п. весьма сложна, т. к. требует большого объема памяти ӘВМ, то его целесообразно применять в тех случаях, когда необходимо многократно решать типовые задачи (скажем, определение оптимального режима полета самолета при меняющихся погодных условиях). Несмотря на то, что задача Д. П. формулируется для дискретных процессов, в ряде случаев метод Д. П. с успехом применяется для решения динамических задач с непрерывными параметрами.
+
+Д. П. дало новый подход ко многим задачам вариационного исчисления.
+
+Важным разделом Д. п. являются с т о х а с т и ч ес к и е з а д а ч и Д. П.- задачи, в к-рых на состояние системы и на целевую функцию влияют случайные факторы. К таким задачам относятся, напр., задачи оптимального регулирования запасов с учетом возможностей случайного пополнения запасов. Здесь наиболее естественной областью применения Д. П. являются управляемые марковские процессы.
+
+Метод Д. п. был предложен Р. Беллманом. Строгое обоснование метода Д. П. было получено в результате работ Л. С. Понтрягина и его учеников по математической теории управляемых процессов (см. Oптимального управления математическая теория).
+
+Хотя метод Д. П. существенно упрощает исходные задачи, однако явное его применение, как правило, весьма громоздко. Для преодоления этих трудностей разрабатываются приближенные методы Д. П. Лuт.: [1] Б е л л м а н Р., Динамическое программирование, пер. с англ., М., $1960 ;[2]$ Б о л т я н с к и й В. Г., Математические методы оптимального управления, М., 1966; [3] $\mathbf{X}$ е д л и Д ж., Нелинейное и динамическое программирование, пер. с англ., М., 1967; [4] Х е д л и Д. Ж., у а й т и н Т [5] X о в а р д Р. А., Динамическое программирование и марковские процессы, пер. с англ., М., 1964.
+
+В. Г. Карманов. руемая на отрезке $[0,2 \pi]$ летворяет условию
+
+\[
+\int_{0}^{\delta} \frac{1}{x}\left|f\left(x_{0}+x\right)+f\left(x_{0}-x\right)-2 S\right| d x&lt;\infty
+\]
+
+при фиксированном числе $S,-\infty&lt;S&lt;+\infty$, и какомлибо $\delta&gt;0$, то ряд Фурье функции $f(x)$ в точке $x_{0}$ сходится к числу $S$. Д. П. доказан У. Дини [1]. Его утверждение окончательно в следующем смысле. Если $\mu(t) \geqslant 0-$ такая непрерывная функция, что функция $\mu(t) / t$ не интегрируема в окрестности точки $t=0$, то можно найти непрерывную функцию $f(t)$, ряд Фурье к-рой расходится в точке $t=0$, причем
+
+\[
+|f(t)-f(0)| \leqslant \mu(t)
+\]
+
+для малых $t$.
+
+Jum.: [1] D i n i U., Serie di Fourier e altre rappresentazioni analitiche delle funzione di una variable reale, Pisa, 1880; [2] 3 и г м у н д А., Тригонометрические ряды, пер. с англ., т. 1,
+М., 1965.</text_orig>
+</article>

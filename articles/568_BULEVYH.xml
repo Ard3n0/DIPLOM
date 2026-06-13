@@ -1,0 +1,514 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/568_BULEVYH" alphabetic_pos="568">
+  <title>БУЛЕВЫХ ФУНКЦИЙ МИНИМИЗАЦИЯ</title>
+  <authors>
+    <author>Ю. Н. Журавлев</author>
+  </authors>
+  <pages>
+    <start>280</start>
+    <end>283</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Я б л о н с к и й С. В., Функциональные построе-![](https://cdn.mathpix.com/cropped/2023_07_08_25f9609b897826ea4267g-1.jpg?height=35&amp;width=816&amp;top_left_y=955&amp;top_left_x=134)т. 51); [2] Ж у р а в л е в Ю. И., &quot;проблемы кибернетики&quot;, 1962 , в. 8, c. 5-44; [3] Qu in e W. V., &quot;amer. Math. Monthly&quot;,1959 , v. 66, № 9, p. $755-60$.</literature_orig>
+    <unit>
+      <author>Яблонский С. В.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>Функциональные построе-![](https://cdn.mathpix.com/cropped/2023_07_08_25f9609b897826ea4267g-1.jpg?height=35&amp;width=816&amp;top_left_y=955&amp;top_left_x=134)т. 51)</other>
+    </unit>
+    <unit>
+      <author>Журавлев Ю. И.</author>
+      <title>&quot;проблемы кибернетики&quot;</title>
+      <publication/>
+      <year>1962</year>
+      <other>в. 8, c. 5-44</other>
+    </unit>
+    <unit>
+      <author>Quine W. V.</author>
+      <title>&quot;amer. Math. Monthly&quot;</title>
+      <publication/>
+      <year>1959</year>
+      <other>v. 66, № 9, p. $755-60$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/568_1_BULEVYH">l(n) \sim \frac{n}{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_2_BULEVYH">\begin{gathered}A \vee A \cdot B \Rightarrow A \text { (поглощение), } \\x A \vee \bar{x} B \Rightarrow x A \vee \bar{x} B \vee A B .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_3_BULEVYH">N=N_{\Re_{1}} \cup \ldots \cup N_{\Re_{m}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_4_BULEVYH">f=\mathfrak{A}_{1} \vee \ldots \vee \mathfrak{A}_{m} \quad \text { и } \quad N_{f}=N_{\mathfrak{A}_{1}} \cup \ldots \cup N_{\mathfrak{A}_{m}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_5_BULEVYH">S_{k-1}(\mathfrak{A}, \mathfrak{R})=\left\{\mathfrak{A}, \mathfrak{A}_{1}, \ldots, \mathfrak{A}_{l}\right\},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_6_BULEVYH">S_{k}(\mathfrak{A}, \mathfrak{N})=\left\{\mathfrak{A}, \mathfrak{A}_{1}, \ldots, \mathfrak{A}_{l}, \mathfrak{A}_{l+1}, \ldots, \mathfrak{A}_{m}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/568_7_BULEVYH">\begin{gathered}N_{S_{k-1}}=N_{\mathfrak{A}} \cup \cup_{i=1}^{l} N_{\mathfrak{A}_{j}}, \quad N_{S_{k}}=N_{\mathfrak{A}} \cup \cup_{j=1}^{m} N_{\mathfrak{G} j}, \\Q\left(S_{k}\right)=N_{S_{k}} \backslash N_{S_{k-1}},\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_1_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_2_BULEVYH">m_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_3_BULEVYH">k_{f}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_4_BULEVYH">l(n)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_5_BULEVYH">k_{f} / m_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_6_BULEVYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_7_BULEVYH">f\left(x_{1}, x_{2}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_8_BULEVYH">\mathrm{oh}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_9_BULEVYH">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_10_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_11_BULEVYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_12_BULEVYH">e_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_13_BULEVYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_14_BULEVYH">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_15_BULEVYH">n_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_16_BULEVYH">n_{f} \equiv E_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_17_BULEVYH">\tilde{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_18_BULEVYH">f(\tilde{\alpha})=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_19_BULEVYH">\mathfrak{h}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_20_BULEVYH">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_21_BULEVYH">n_{\text {э }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_22_BULEVYH">\mathrm{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_23_BULEVYH">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_24_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_25_BULEVYH">n_{\re_{1}}, \ldots, N_{\mathfrak{9} m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_26_BULEVYH">n \sqsubseteq E_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_27_BULEVYH">n_{\re}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_28_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_29_BULEVYH">n_{\mathfrak{\re}} \subseteq N_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_30_BULEVYH">n_{\mathfrak{r}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_31_BULEVYH">n_{\mathfrak{a}} \subset N_{\mathfrak{B}} \sqsubseteq N_{\boldsymbol{f}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_32_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_33_BULEVYH">n_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_34_BULEVYH">n_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_35_BULEVYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_36_BULEVYH">2^{2 n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_37_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_38_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_39_BULEVYH">\mathbf{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_40_BULEVYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_41_BULEVYH">s_{k}(\mathfrak{a}, \mathfrak{l})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_42_BULEVYH">\mathfrak{n}, \mathfrak{\mathfrak { U }} \in \mathfrak{N}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_43_BULEVYH">s_{0}(\mathfrak{a}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_44_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_45_BULEVYH">s_{k-1}(\mathfrak{A}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_46_BULEVYH">(k-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_47_BULEVYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_48_BULEVYH">s_{k}(\mathfrak{a}, \mathfrak{\Re})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_49_BULEVYH">\mathfrak{a}_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_50_BULEVYH">\mathfrak{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_51_BULEVYH">n_{\mathfrak{a}_{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_52_BULEVYH">s_{k-1}(\mathfrak{H}, \mathfrak{l})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_53_BULEVYH">n_{\mathfrak{\re}_{j}} \subseteq \bigcup_{i=1}^{r} N_{\mathfrak{B}_{i}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_54_BULEVYH">n_{\mathfrak{b}_{i}}, i=1,2, \ldots, r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_55_BULEVYH">s_{1}(\mathfrak{a}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_56_BULEVYH">\mathfrak{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_57_BULEVYH">p_{1}(\mathfrak{a}, \mathfrak{N})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_58_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_59_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_60_BULEVYH">s_{1}(\mathfrak{h}, \mathfrak{\Re})=\left\{\mathfrak{Y}, \mathfrak{U}_{1}, \ldots, \mathfrak{A}_{m}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_61_BULEVYH">\mathfrak{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_62_BULEVYH">\mathfrak{\re}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_63_BULEVYH">\re</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_64_BULEVYH">\mathfrak{r}_{1}, \ldots, \mathfrak{B}_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_65_BULEVYH">\mathfrak{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_66_BULEVYH">\mathfrak{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_67_BULEVYH">n_{\mathfrak{b}} \subseteq \bigcup_{i=1}^{q} N_{\mathfrak{B}_{i}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_68_BULEVYH">\mathfrak{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_69_BULEVYH">s_{2}(\mathfrak{a}, \mathfrak{A})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_70_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_71_BULEVYH">\mathfrak{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_72_BULEVYH">\tilde{\alpha}-\Pi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_73_BULEVYH">\mathfrak{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_74_BULEVYH">\tilde{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_75_BULEVYH">n_{\mathfrak{r}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_76_BULEVYH">m(\tilde{\alpha}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_77_BULEVYH">n_{\mathfrak{\vartheta}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_78_BULEVYH">\mathfrak{\re}_{j} \in \mathfrak{\Re}, \tilde{\alpha} \in N_{\mathfrak{\Re}_{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_79_BULEVYH">\mathfrak{x}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_80_BULEVYH">\mathfrak{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_81_BULEVYH">\tilde{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_82_BULEVYH">n_{\mathfrak{a}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_83_BULEVYH">(\mathfrak{h}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_84_BULEVYH">\tilde{\alpha}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_85_BULEVYH">\tilde{\alpha}^{\prime} \in N_{\mathfrak{R}} \backslash N_{\text {१্ }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_86_BULEVYH">m(\tilde{\alpha}, \mathfrak{N}) \subseteq M(\tilde{\alpha}, \mathfrak{N})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_87_BULEVYH">m \subseteq N_{\Re}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_88_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_89_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_90_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_91_BULEVYH">n_{\mathfrak{a}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_92_BULEVYH">(\mathfrak{a}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_93_BULEVYH">n_{\re}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_94_BULEVYH">s_{2}(\mathfrak{h}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_95_BULEVYH">s_{1}(\mathfrak{a}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_96_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_97_BULEVYH">\mathfrak{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_98_BULEVYH">\mathfrak{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_99_BULEVYH">p_{2}(\mathfrak{a}, \mathfrak{R})-\ll \mathfrak{Y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_100_BULEVYH">\mathfrak{\re} »</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_101_BULEVYH">p_{i}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_102_BULEVYH">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_103_BULEVYH">p_{i}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_104_BULEVYH">\left(\omega_{1}, \omega_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_105_BULEVYH">\omega_{i} \in\{0,1, \Delta\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_106_BULEVYH">\omega_{i}=\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_107_BULEVYH">p_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_108_BULEVYH">(i=1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_109_BULEVYH">\omega_{i}=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_110_BULEVYH">p_{i}=\omega_{i}(i=1,2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_111_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_112_BULEVYH">\left(\omega_{1}, \omega_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_113_BULEVYH">\mathfrak{u}^{\omega_{1} \omega_{2}}, A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_114_BULEVYH">p_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_115_BULEVYH">p_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_116_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_117_BULEVYH">\mathfrak{\re}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_118_BULEVYH">s_{2}(\mathfrak{a}, \mathfrak{\Re})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_119_BULEVYH">\mathfrak{a}_{1}, \ldots, \mathfrak{U}_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_120_BULEVYH">r_{1}, \ldots, r_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_121_BULEVYH">m \subseteq \bigcup_{j=1}^{m} N_{\mathfrak{N}_{j}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_122_BULEVYH">r&gt;\sum_{j=\mathbf{1}}^{m} r_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_123_BULEVYH">\mathfrak{r}_{1} \backslash \mathfrak{N}_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_124_BULEVYH">\mathfrak{l}_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_125_BULEVYH">\mathfrak{r}_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_126_BULEVYH">\mathfrak{n}_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_127_BULEVYH">\mathfrak{r}_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_128_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_129_BULEVYH">\mathfrak{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_130_BULEVYH">(\delta, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_131_BULEVYH">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_132_BULEVYH">(1, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_133_BULEVYH">\mathfrak{a}_{1}^{\prime}, \ldots, \mathfrak{A}_{s}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_134_BULEVYH">(\delta, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_135_BULEVYH">\mathfrak{a}_{1}^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_136_BULEVYH">\mathfrak{a}_{t}^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_137_BULEVYH">(i+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_138_BULEVYH">\mathfrak{x} \backslash\left(\vee{ }_{j=1}^{s} \mathfrak{A}_{j}^{\prime} \vee \vee{ }_{j=1}^{t} \mathfrak{Y}_{j}^{\prime \prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_139_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_140_BULEVYH">\stackrel{\mathfrak{x}}{\mathfrak{x}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_141_BULEVYH">s_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_142_BULEVYH">s_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_143_BULEVYH">\tilde{\mathfrak{l}}=\mathfrak{\re} \backslash\left(\vee{ }_{j=1}^{t} \mathfrak{X}_{j}^{\prime \prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_144_BULEVYH">n_{\mathfrak{r}} \equiv \bigcup_{\mathfrak{B} \in\left(S_{1}(\mathfrak{F}, \tilde{\mathfrak{R}}) \backslash \mathfrak{R}\right)} N_{\mathfrak{B}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_145_BULEVYH">(\delta, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_146_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_147_BULEVYH">(1, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_148_BULEVYH">(i+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_149_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_150_BULEVYH">n_{\re}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_151_BULEVYH">m_{1} \cup M_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_152_BULEVYH">m_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_153_BULEVYH">(\delta, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_154_BULEVYH">\mathfrak{\mathcal { X }}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_155_BULEVYH">(\delta, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_156_BULEVYH">(i+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_157_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_158_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_159_BULEVYH">\mathfrak{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_160_BULEVYH">\mathfrak{n}_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_161_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_162_BULEVYH">(\delta, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_163_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_164_BULEVYH">\mathfrak{n}_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_165_BULEVYH">(1, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_166_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_167_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_168_BULEVYH">\left(\omega_{1}, \omega_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_169_BULEVYH">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_170_BULEVYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_171_BULEVYH">s_{k}(\mathfrak{h}, \mathfrak{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_172_BULEVYH">n \subseteq Q\left(S_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_173_BULEVYH">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_174_BULEVYH">m_{0}^{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_175_BULEVYH">e_{n} \backslash N_{S_{k}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_176_BULEVYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_177_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_178_BULEVYH">f_{k}(\mathfrak{x})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_179_BULEVYH">\mathfrak{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_180_BULEVYH">(\delta, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_181_BULEVYH">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_182_BULEVYH">(1, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_183_BULEVYH">\mathfrak{a}_{1}^{\prime}, \ldots, \mathfrak{A}_{s}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_184_BULEVYH">(\delta, 1)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_185_BULEVYH">\mathfrak{h}_{1}^{\prime \prime}, \ldots, \mathfrak{A}_{t}^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_186_BULEVYH">(i+1)-\mathbf{и}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_187_BULEVYH">\mathfrak{n} \backslash\left(\vee \stackrel{s=1}{s} \mathfrak{A}_{j}^{\prime} \vee \vee\left(\mathfrak{H}_{j=1}^{t} \mathfrak{a}_{j}^{\prime \prime}\right)\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_188_BULEVYH">\mathfrak{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_189_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_190_BULEVYH">f_{k}(\mathfrak{\re})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_191_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_192_BULEVYH">s_{k}(\mathfrak{a}, \mathfrak{\Re})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_193_BULEVYH">\mathfrak{u}_{1}^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_194_BULEVYH">\mathfrak{a}_{t}^{\prime \prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_195_BULEVYH">\mathfrak{a}_{j}^{\prime}, j=1,2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_196_BULEVYH">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_197_BULEVYH">\quad N_{\mathfrak{a}_{j}^{\prime}} \cap\left(N_{S_{k}} \backslash N\right)=\varnothing</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_198_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_199_BULEVYH">f_{k}(\mathfrak{h})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_200_BULEVYH">\mathfrak{u}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_201_BULEVYH">(1, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_202_BULEVYH">(i+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_203_BULEVYH">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_204_BULEVYH">(\delta, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_205_BULEVYH">(\delta, 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_206_BULEVYH">(i+1)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_207_BULEVYH">(i+1)-м</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_208_BULEVYH">\mathfrak{r}_{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_209_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_210_BULEVYH">(1, \Delta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_211_BULEVYH">(\delta, 1))</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_212_BULEVYH">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_213_BULEVYH">s_{k}(\mathfrak{a}, \mathfrak{l})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_214_BULEVYH">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_215_BULEVYH">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_216_BULEVYH">p_{1}, P_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/568_217_BULEVYH">n</formula>
+  </formulas_aux>
+  <relations n="7">
+    <relation uri="http://libmeta.ru/me/relation/568_1_BULEVYH">
+      <rel_text>Алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_2_BULEVYH">
+      <rel_text>Булевьх функций нормальнье</rel_text>
+      <target>http://libmeta.ru/me/article/569_BULEVBІH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_3_BULEVYH">
+      <rel_text>Булевых функций нормальные</rel_text>
+      <target>http://libmeta.ru/me/article/569_BULEVBІH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_4_BULEVYH">
+      <rel_text>множество</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_5_BULEVYH">
+      <rel_text>алгоритме</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_6_BULEVYH">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/568_7_BULEVYH">
+      <rel_text>Задача</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+  </relations>
+  <text>представление булевых функций нормальными формами (см. URI[[http://libmeta.ru/me/relation/568_3_BULEVYH]]/URI форов), простейши- ми относительно нек-рой меры сложности. Обычно под сложн о с т ь ю но р ма льно й фо р мы понимается число букв в ней. В этом случае простейшая форма наз. м и н и м а л ь н о й. Иногда в качестве меры сложности рассматривается число әлементарных конъюнкций в дизъюнктивной нормальной форме или число сомножителей в конъюнктивной нормальной форме. В этом случае простейшая форма наз. к р а т ч а йш е й. В силу двойственности дизъюнктивных и конъюнктивных нормальных форм достаточно рассматривать только дизъюнктивные нормальные формы (д. н. ф.).
+
+Построение кратчайших и минимальных д. н. ф. имеет каждое свою специфику. Множества минимальных и кратчайших д. н. Ф. одной и той же функции могут находиться в любых теоретико-множественных соотношениях: содержаться одно в другом, иметь пустое пересечение или непустую симметрическую разность. Если для функции $URI[[http://libmeta.ru/me/formula/aux/568_1_BULEVYH]]/URI$ обозначить через $URI[[http://libmeta.ru/me/formula/aux/568_2_BULEVYH]]/URI$ сложность минимальной д. н. ф., через $URI[[http://libmeta.ru/me/formula/aux/568_3_BULEVYH]]/URI$ минимальную сложность кратчайшей д. н. ф., а через $URI[[http://libmeta.ru/me/formula/aux/568_4_BULEVYH]]/URI$ наибольшее из отношений $URI[[http://libmeta.ru/me/formula/aux/568_5_BULEVYH]]/URI$ по всем функциям от $URI[[http://libmeta.ru/me/formula/aux/568_6_BULEVYH]]/URI$ переменных, то справедливо асимптотич. соотношение:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_1_BULEVYH]]/URI
+\]
+
+Обычно под задачей Б. Ф. м. понимается задача построения их минимальных д. н. ф. Существует тривиальный алгоритм построения всех минимальных д. н. ф. для произвольной булевой функции $URI[[http://libmeta.ru/me/formula/aux/568_7_BULEVYH]]/URI$. $URI[[http://libmeta.ru/me/formula/aux/568_8_BULEVYH]]/URI$ состоит в просмотре всех д. н. Ф. с переменными $URI[[http://libmeta.ru/me/formula/aux/568_9_BULEVYH]]/URI$ и выделении тех из них, к-рые реализуют функцию $URI[[http://libmeta.ru/me/formula/aux/568_10_BULEVYH]]/URI$ и имеют минимальную сложность. Этот алгоритм фактически неприменим уже при небольших $URI[[http://libmeta.ru/me/formula/aux/568_11_BULEVYH]]/URI$ ввиду быстрого роста числа операций. Поэтому было построено болышое число других алгоритмов, к-рые, однако, әффективно применимы не ко всем функциям.
+
+Исходным заданием функции в задаче минимизации обычно считают таблицу, совершенную д. н. Ф. (см. URI[[http://libmeta.ru/me/relation/568_2_BULEVYH]]/URI формы) или произвольную д. н. ф. На первом этапе от исходного задания осуществляется переход к так наз. сокращенной д. н. ф., к-рая определена для каждой функции однозначно. Существует большое число методов реализации этого перехода. Наиболее универсальный метод состоит в выполнении над д. н. ф. преобразований вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_2_BULEVYH]]/URI
+\]
+
+Сокращенная д. н. Ф. обладает тем свойством, что любая минимальная д. н. ф. получается из нее удалением нек-рых элементарных конъюнкций. Второй, наиболее трудоемкий, этап состоит в получении из сокращенной д. н. Ф. всех тупиковых д. н. ф., среди к-рых содержатся и все минимальные. На этом этапе обычно используется геометрич. представление булевых функций. Пусть $URI[[http://libmeta.ru/me/formula/aux/568_12_BULEVYH]]/URI$ обозначает множество всех вершин $URI[[http://libmeta.ru/me/formula/aux/568_13_BULEVYH]]/URI$-мерного единичного куба. Каждой булевой функции $URI[[http://libmeta.ru/me/formula/aux/568_14_BULEVYH]]/URI$ взаимно однозначно соответствует подмножество $URI[[http://libmeta.ru/me/formula/aux/568_15_BULEVYH]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/568_16_BULEVYH]]/URI$, таких вершин $URI[[http://libmeta.ru/me/formula/aux/568_17_BULEVYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_18_BULEVYH]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/568_19_BULEVYH]]/URI$ элементарная конъюнкция ранга $URI[[http://libmeta.ru/me/formula/aux/568_20_BULEVYH]]/URI$, тогда множество $URI[[http://libmeta.ru/me/formula/aux/568_21_BULEVYH]]/URI$ наз. и н т е р в а л о м р а н $URI[[http://libmeta.ru/me/formula/aux/568_22_BULEVYH]]/URI$ a $URI[[http://libmeta.ru/me/formula/aux/568_23_BULEVYH]]/URI$, соответствующим әлементарной конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_24_BULEVYH]]/URI$. Говорят, что система интервалов $URI[[http://libmeta.ru/me/formula/aux/568_25_BULEVYH]]/URI$ образует множества $URI[[http://libmeta.ru/me/formula/aux/568_26_BULEVYH]]/URI$, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_3_BULEVYH]]/URI
+\]
+
+Так как равенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_4_BULEVYH]]/URI
+\]
+
+эквивалентны, то задача Б. Ф. м. равносильна отысканию покрытий, сумма рангов интервалов к-рых мини- мальна. Такие покрытия наз. м и н и м а л ь ны м п. Интервал $URI[[http://libmeta.ru/me/formula/aux/568_27_BULEVYH]]/URI$ наз. м а к с и м а л ь н ы м для функции $URI[[http://libmeta.ru/me/formula/aux/568_28_BULEVYH]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/568_29_BULEVYH]]/URI$ и не существует интервала $URI[[http://libmeta.ru/me/formula/aux/568_30_BULEVYH]]/URI$ такого, что $URI[[http://libmeta.ru/me/formula/aux/568_31_BULEVYH]]/URI$. Построение тупиковых д. н. ф. функции $URI[[http://libmeta.ru/me/formula/aux/568_32_BULEVYH]]/URI$ сводится к отысканию таких покрытий множества $URI[[http://libmeta.ru/me/formula/aux/568_33_BULEVYH]]/URI$ максимальными интервалами, никакое собственное подмножество к-рых не является покрытием множества $URI[[http://libmeta.ru/me/formula/aux/568_34_BULEVYH]]/URI$. Эти покрытия соответствуют тупиковым д. н. ф. и наз. н е п р и в о д и м ы м и. Они получаются из покрытий, соответствующих сокращенным д. н. ф., путем удаления нек-рых интервалов.
+
+Выбор минимальных д. н. Ф. из всех тупиковых также оказывается весьма трудоемким процессом, поскольку для «почти всех» булевых функций от $URI[[http://libmeta.ru/me/formula/aux/568_35_BULEVYH]]/URI$ аргументов различных тупиковых д. н. ф. не меньше, чем $URI[[http://libmeta.ru/me/formula/aux/568_36_BULEVYH]]/URI$. При этом разброс сложностей тупиковых д. н. ф. может быть очень велик, так что выбор случайной тупиковой д. н. ф. вместо минимальной может привести к болышой погрешности.
+
+Оценки числа тупиковых д. н. Ф. и разброса сложностей показывают, что естественным путем улучшения эффективности алгоритмов минимизации является путь более тонких рассмотрений при удалении элементарной конъюнкции из д. н. Ф. Удалять (или, наоборот, закреплять до конца процесса) конъюнкцию следует лишь в том случае, если для нее посредством нек-рой процедуры удается установить, что она не входит ни в одну минимальную д. н. Ф. для $URI[[http://libmeta.ru/me/formula/aux/568_37_BULEVYH]]/URI$ (входит во все минимальные д. н. ф. для $URI[[http://libmeta.ru/me/formula/aux/568_38_BULEVYH]]/URI$ ). Последний факт устанавливается обычно при помощи анализа конъюнкций, близких к рассматриваемой, т. е. входящих в окрестность этой конъюнкции (см. URI[[http://libmeta.ru/me/relation/568_1_BULEVYH]]/URI локальный). При этом разрешается накапливать информацию об элементарных конъюнкциях и использовать ее в дальнейшем анализе. Процедуры указанного вида получили назв. л о к а л ь н ы $URI[[http://libmeta.ru/me/formula/aux/568_39_BULEVYH]]/URI$ ал го ритмов у п р щ е ния. Ниже приводятся нек-рые из них. В их описании используется понятие о к р е с т но с т п $URI[[http://libmeta.ru/me/formula/aux/568_40_BULEVYH]]/URI$-г о п о р я д к а $URI[[http://libmeta.ru/me/formula/aux/568_41_BULEVYH]]/URI$ э л е мен т а р ной ко н ь ю кции $URI[[http://libmeta.ru/me/formula/aux/568_42_BULEVYH]]/URI$.
+
+Окрестность нулевого порядка $URI[[http://libmeta.ru/me/formula/aux/568_43_BULEVYH]]/URI$ состоит из одной конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_44_BULEVYH]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/568_45_BULEVYH]]/URI$ есть окрестность $URI[[http://libmeta.ru/me/formula/aux/568_46_BULEVYH]]/URI$-го порядка, то окрестность $URI[[http://libmeta.ru/me/formula/aux/568_47_BULEVYH]]/URI$-го порядка $URI[[http://libmeta.ru/me/formula/aux/568_48_BULEVYH]]/URI$ состоит из всех конъюнкций $URI[[http://libmeta.ru/me/formula/aux/568_49_BULEVYH]]/URI$ д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_50_BULEVYH]]/URI$, удовлетворяющих одному из следующих условий: 1) $URI[[http://libmeta.ru/me/formula/aux/568_51_BULEVYH]]/URI$ имеет непустое пересечение хотя бы с одним интервалом, соответствующим конъюнкции из $URI[[http://libmeta.ru/me/formula/aux/568_52_BULEVYH]]/URI$; 2) $URI[[http://libmeta.ru/me/formula/aux/568_53_BULEVYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_54_BULEVYH]]/URI$, удовлетворяют условию 1).
+
+А л г о и тм К у а й н а. На каждом шаге рассматривается окрестность $URI[[http://libmeta.ru/me/formula/aux/568_55_BULEVYH]]/URI$ одной из конъюнкций в д. н. Ф. $URI[[http://libmeta.ru/me/formula/aux/568_56_BULEVYH]]/URI$. В процессе работы алгоритма для каждой из конъюнкций делается попытка вычислить одно из свойств: $URI[[http://libmeta.ru/me/formula/aux/568_57_BULEVYH]]/URI$ -
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fda8d2fcb92dc89da0f8g-1.jpg?height=42&amp;width=796&amp;top_left_y=1815&amp;top_left_x=1026)
+« - не входит ни в одну минимальную д. н. ф.». Алгоритм работает следующим образом. 1) По очереди для каждой конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_58_BULEVYH]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/568_59_BULEVYH]]/URI$ строится окрестность $URI[[http://libmeta.ru/me/formula/aux/568_60_BULEVYH]]/URI$. Проверяется вклю-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fda8d2fcb92dc89da0f8g-1.jpg?height=47&amp;width=836&amp;top_left_y=1966&amp;top_left_x=986)
+отмечается нек-рым способом как входящая во все минимальные д. н. ф. В этом случае говорят, что $URI[[http://libmeta.ru/me/formula/aux/568_61_BULEVYH]]/URI$ входит в ядро д. н. Ф. $URI[[http://libmeta.ru/me/formula/aux/568_62_BULEVYH]]/URI$ (является я д р о в о й к о н ъ ю н кц и е й ). 2) Пусть на первом этапе в $URI[[http://libmeta.ru/me/formula/aux/568_63_BULEVYH]]/URI$ отмечены конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_64_BULEVYH]]/URI$. Остальные конъюнкции из $URI[[http://libmeta.ru/me/formula/aux/568_65_BULEVYH]]/URI$ упорядочиваются, и для каждой такой конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_66_BULEVYH]]/URI$ проверяется включение $URI[[http://libmeta.ru/me/formula/aux/568_67_BULEVYH]]/URI$. Конъюнкции, для к-рых это соотношение выполнено, не входят ни в одну минимальную д. н. ф.; они удаляются из $URI[[http://libmeta.ru/me/formula/aux/568_68_BULEVYH]]/URI$. Алгоритм регуля рных точе к. Этот алгоритм на каждом шаге осматривает окрестность $URI[[http://libmeta.ru/me/formula/aux/568_69_BULEVYH]]/URI$ конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_70_BULEVYH]]/URI$ в д. н. Ф. $URI[[http://libmeta.ru/me/formula/aux/568_71_BULEVYH]]/URI$ и удаляет конъюнкции, не входящие ни в одну тупиковую и, следовательно, ни в одну минимальную д. н. ф. В описании алгоритма используется понятие $URI[[http://libmeta.ru/me/formula/aux/568_72_BULEVYH]]/URI$ у ч к а в д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_73_BULEVYH]]/URI$, представляющего собой для рассматриваемой точки $URI[[http://libmeta.ru/me/formula/aux/568_74_BULEVYH]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/568_75_BULEVYH]]/URI$ множество $URI[[http://libmeta.ru/me/formula/aux/568_76_BULEVYH]]/URI$ интервалов $URI[[http://libmeta.ru/me/formula/aux/568_77_BULEVYH]]/URI$ таких, что $URI[[http://libmeta.ru/me/formula/aux/568_78_BULEVYH]]/URI$ Для конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_79_BULEVYH]]/URI$ из д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_80_BULEVYH]]/URI$ точка $URI[[http://libmeta.ru/me/formula/aux/568_81_BULEVYH]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/568_82_BULEVYH]]/URI$ наз. р е г у ля р но й о тнос и те ль но $URI[[http://libmeta.ru/me/formula/aux/568_83_BULEVYH]]/URI$, если существует точка $URI[[http://libmeta.ru/me/formula/aux/568_84_BULEVYH]]/URI$ такая, что $URI[[http://libmeta.ru/me/formula/aux/568_85_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_86_BULEVYH]]/URI$. Множество $URI[[http://libmeta.ru/me/formula/aux/568_87_BULEVYH]]/URI$ наз. р е-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=40&amp;width=836&amp;top_left_y=630&amp;top_left_x=118)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=37&amp;width=831&amp;top_left_y=666&amp;top_left_x=120)
+мый алгоритм основывается на том, что конъюнкция $URI[[http://libmeta.ru/me/formula/aux/568_88_BULEVYH]]/URI$ из сокращенной д. н. ф. Функции $URI[[http://libmeta.ru/me/formula/aux/568_89_BULEVYH]]/URI$ не входит ни в одну тупиковую д. н. ф. функции $URI[[http://libmeta.ru/me/formula/aux/568_90_BULEVYH]]/URI$ тогда и только тогда, когда $URI[[http://libmeta.ru/me/formula/aux/568_91_BULEVYH]]/URI$ есть множество, регулярное относительно $URI[[http://libmeta.ru/me/formula/aux/568_92_BULEVYH]]/URI$. Алгоритм проверяет в нек-ром порядке, являются ли интервалы конъюнкций, входящих в д. н. ф., регулярными множествами, и удаляет те из них, интервалы к-рых регулярны. Свойство интервала $URI[[http://libmeta.ru/me/formula/aux/568_93_BULEVYH]]/URI$ быть
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=39&amp;width=836&amp;top_left_y=948&amp;top_left_x=118)
+ляется окрестностью $URI[[http://libmeta.ru/me/formula/aux/568_94_BULEVYH]]/URI$ и, вообще говоря, не определяется окрестностью $URI[[http://libmeta.ru/me/formula/aux/568_95_BULEVYH]]/URI$.
+
+$URI[[http://libmeta.ru/me/formula/aux/568_96_BULEVYH]]/URI$-а л г о р и т м. Здесь используется понятие д. н. ф.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=35&amp;width=831&amp;top_left_y=1084&amp;top_left_x=120)
+т. е. такой д. н. Ф., к-рая минимальна среди всех д. н. Ф.,, эквивалентных $URI[[http://libmeta.ru/me/formula/aux/568_97_BULEVYH]]/URI$ и получающихся из $URI[[http://libmeta.ru/me/formula/aux/568_98_BULEVYH]]/URI$ опусканием нек-рых әлементарных контюнкций. Рассматриваются два свойства элементарной конъюнкции в д. н. Ф.:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=37&amp;width=814&amp;top_left_y=1232&amp;top_left_x=141)
+относительно গ̊, и
+
+$URI[[http://libmeta.ru/me/formula/aux/568_99_BULEVYH]]/URI$ не входит ни в одну д. н. ф., минимальную относительно $URI[[http://libmeta.ru/me/formula/aux/568_100_BULEVYH]]/URI$.
+
+Считается, что $URI[[http://libmeta.ru/me/formula/aux/568_101_BULEVYH]]/URI$, если свойство $URI[[http://libmeta.ru/me/formula/aux/568_102_BULEVYH]]/URI$ имеет место, п $URI[[http://libmeta.ru/me/formula/aux/568_103_BULEVYH]]/URI$ в противном случае. Предполагается, что д. н. Ф. составлены из конъюнкций с информационными отметками $URI[[http://libmeta.ru/me/formula/aux/568_104_BULEVYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_105_BULEVYH]]/URI$. При этом равенство $URI[[http://libmeta.ru/me/formula/aux/568_106_BULEVYH]]/URI$ означает, что свойство $URI[[http://libmeta.ru/me/formula/aux/568_107_BULEVYH]]/URI$ не вычислено $URI[[http://libmeta.ru/me/formula/aux/568_108_BULEVYH]]/URI$, а равенства $URI[[http://libmeta.ru/me/formula/aux/568_109_BULEVYH]]/URI$ означают, что $URI[[http://libmeta.ru/me/formula/aux/568_110_BULEVYH]]/URI$. Конъюнкция $URI[[http://libmeta.ru/me/formula/aux/568_111_BULEVYH]]/URI$ с информационными отметками $URI[[http://libmeta.ru/me/formula/aux/568_112_BULEVYH]]/URI$ обозначается через $URI[[http://libmeta.ru/me/formula/aux/568_113_BULEVYH]]/URI$-алгоритм вычисляет значения свойств $URI[[http://libmeta.ru/me/formula/aux/568_114_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_115_BULEVYH]]/URI$ для конъюнкций $URI[[http://libmeta.ru/me/formula/aux/568_116_BULEVYH]]/URI$ из д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_117_BULEVYH]]/URI$, используя для этого лишь конъюнкции из окрестности $URI[[http://libmeta.ru/me/formula/aux/568_118_BULEVYH]]/URI$ и их информационные отметки. Для конъюнк-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=40&amp;width=836&amp;top_left_y=1682&amp;top_left_x=118)
+же с твом перво го типа относ итель-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=39&amp;width=836&amp;top_left_y=1747&amp;top_left_x=118)
+$URI[[http://libmeta.ru/me/formula/aux/568_119_BULEVYH]]/URI$ рангов $URI[[http://libmeta.ru/me/formula/aux/568_120_BULEVYH]]/URI$ такие, что $URI[[http://libmeta.ru/me/formula/aux/568_121_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_122_BULEVYH]]/URI$.
+
+Р а 3 н о с т ь ю $URI[[http://libmeta.ru/me/formula/aux/568_123_BULEVYH]]/URI$ д. н. Ф. $URI[[http://libmeta.ru/me/formula/aux/568_124_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_125_BULEVYH]]/URI$ наз. д. н. ф., состоящая из элементарных конъюнкций, входящих в $URI[[http://libmeta.ru/me/formula/aux/568_126_BULEVYH]]/URI$ и не входящих в $URI[[http://libmeta.ru/me/formula/aux/568_127_BULEVYH]]/URI$.
+
+До применения $URI[[http://libmeta.ru/me/formula/aux/568_128_BULEVYH]]/URI$-алгоритма все конъюнкции из рассматриваемой д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_129_BULEVYH]]/URI$ имеют отметку $URI[[http://libmeta.ru/me/formula/aux/568_130_BULEVYH]]/URI$. Если выполнены $URI[[http://libmeta.ru/me/formula/aux/568_131_BULEVYH]]/URI$ шагов И отметку $URI[[http://libmeta.ru/me/formula/aux/568_132_BULEVYH]]/URI$ получили конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_133_BULEVYH]]/URI$, а отметку $URI[[http://libmeta.ru/me/formula/aux/568_134_BULEVYH]]/URI$ - конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_135_BULEVYH]]/URI$, . . ., $URI[[http://libmeta.ru/me/formula/aux/568_136_BULEVYH]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/568_137_BULEVYH]]/URI$-й шаг состоит в следующем. Упорядочивают нек-рым способом конъюнкции из д. н. ф. Если д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_138_BULEVYH]]/URI$ пустая, то $URI[[http://libmeta.ru/me/formula/aux/568_139_BULEVYH]]/URI$-алгоритм заканчивает свою работу. В противном случае после упорядочивания к.-л. способом конъюнкций из этой д. н. ф. выделяются первая по порядку конъюнкция $URI[[http://libmeta.ru/me/formula/aux/568_140_BULEVYH]]/URI$ и еe окрестности $URI[[http://libmeta.ru/me/formula/aux/568_141_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_142_BULEVYH]]/URI$ в д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_143_BULEVYH]]/URI$ и проверяется соотношение $URI[[http://libmeta.ru/me/formula/aux/568_144_BULEVYH]]/URI$.
+
+Если оно выполнено, то отметка $URI[[http://libmeta.ru/me/formula/aux/568_145_BULEVYH]]/URI$ над $URI[[http://libmeta.ru/me/formula/aux/568_146_BULEVYH]]/URI$ заменяется на $URI[[http://libmeta.ru/me/formula/aux/568_147_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_148_BULEVYH]]/URI$-й шаг $URI[[http://libmeta.ru/me/formula/aux/568_149_BULEVYH]]/URI$-алгоритма заканчивается. Если оно не выполнено, то проверяется, можно ли $URI[[http://libmeta.ru/me/formula/aux/568_150_BULEVYH]]/URI$ представить в виде $URI[[http://libmeta.ru/me/formula/aux/568_151_BULEVYH]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/568_152_BULEVYH]]/URI$ - множество, ре-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=37&amp;width=829&amp;top_left_y=413&amp;top_left_x=992)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=40&amp;width=829&amp;top_left_y=439&amp;top_left_x=992)
+ставить в таком виде, то отметка $URI[[http://libmeta.ru/me/formula/aux/568_153_BULEVYH]]/URI$ над $URI[[http://libmeta.ru/me/formula/aux/568_154_BULEVYH]]/URI$ заменяется на отметку $URI[[http://libmeta.ru/me/formula/aux/568_155_BULEVYH]]/URI$, и $URI[[http://libmeta.ru/me/formula/aux/568_156_BULEVYH]]/URI$-й шаг $URI[[http://libmeta.ru/me/formula/aux/568_157_BULEVYH]]/URI$-алгоритма заканчивается; если - нельзя, то описанная процедура применяется ко второй по порядку конъюнкции, и т. д. Если при этом ни у одной из конъюнкций отметка не изменится, то после просмотра всех конъюнкций работа $URI[[http://libmeta.ru/me/formula/aux/568_158_BULEVYH]]/URI$-алгоритма заканчивается.
+
+Если за д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_159_BULEVYH]]/URI$ принять сокращенную д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_160_BULEVYH]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/568_161_BULEVYH]]/URI$, то все конъюнкции, получившие в алгоритме отметку $URI[[http://libmeta.ru/me/formula/aux/568_162_BULEVYH]]/URI$, не входят ни в одну минимальную д. н. ф. функции $URI[[http://libmeta.ru/me/formula/aux/568_163_BULEVYH]]/URI$; они удаляются из $URI[[http://libmeta.ru/me/formula/aux/568_164_BULEVYH]]/URI$. Конъюнкции, получившие отметку $URI[[http://libmeta.ru/me/formula/aux/568_165_BULEVYH]]/URI$, входят во все минимальные д. н. Ф. функции $URI[[http://libmeta.ru/me/formula/aux/568_166_BULEVYH]]/URI$. Рассматривались также различные частные случаи $URI[[http://libmeta.ru/me/formula/aux/568_167_BULEVYH]]/URI$-алгоритма.
+
+К о л ц це в о й а л г о р и т расставляет над конъюнкциями информационные отметки $URI[[http://libmeta.ru/me/formula/aux/568_168_BULEVYH]]/URI$, значение к-рых то же, что и в $URI[[http://libmeta.ru/me/formula/aux/568_169_BULEVYH]]/URI$-алгоритме. На каждом шаге кольцевой алгоритм использует конъюнкции, входящие в окрестность $URI[[http://libmeta.ru/me/formula/aux/568_170_BULEVYH]]/URI$-го порядка нек-рой конъюнкции, и их информационные отметки. Ниже излагается упрощенный вариант этого алгоритма. В полном виде кольцевой алгоритм - наилучший в классе локальных алгоритмов со специальной памятью по окрестностям $URI[[http://libmeta.ru/me/formula/aux/568_171_BULEVYH]]/URI$. Описанные выше алгоритмы являются частными случаями о б щ е го ко льце в о го а л г ор и т м а. Если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_5_BULEVYH]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/568_6_BULEVYH]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/568_7_BULEVYH]]/URI
+\]
+
+то каждому подмножеству $URI[[http://libmeta.ru/me/formula/aux/568_172_BULEVYH]]/URI$ сопоставляется не всюду определенная булева функция $URI[[http://libmeta.ru/me/formula/aux/568_173_BULEVYH]]/URI$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=47&amp;width=833&amp;top_left_y=1554&amp;top_left_x=990)
+$URI[[http://libmeta.ru/me/formula/aux/568_174_BULEVYH]]/URI$ нулей есть $URI[[http://libmeta.ru/me/formula/aux/568_175_BULEVYH]]/URI$; на множестве $URI[[http://libmeta.ru/me/formula/aux/568_176_BULEVYH]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/568_177_BULEVYH]]/URI$ не определена. Множество таких функций обозначается через $URI[[http://libmeta.ru/me/formula/aux/568_178_BULEVYH]]/URI$. До начала работы алгоритма все конъюнкции из рассматриваемой д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_179_BULEVYH]]/URI$ имеют отметку $URI[[http://libmeta.ru/me/formula/aux/568_180_BULEVYH]]/URI$. Если выполнены $URI[[http://libmeta.ru/me/formula/aux/568_181_BULEVYH]]/URI$ шагов и отметку $URI[[http://libmeta.ru/me/formula/aux/568_182_BULEVYH]]/URI$ получили конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_183_BULEVYH]]/URI$, а отметку $URI[[http://libmeta.ru/me/formula/aux/568_184_BULEVYH]]/URI$ конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_185_BULEVYH]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/568_186_BULEVYH]]/URI$ шаг состоит в следующем. Упорядочивают нек-рым способом конъюнкции из д. н. ф. Если д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_187_BULEVYH]]/URI$ пустая, то алгоритм заканчивает свою работу. В противном случае после упорядочения к.-л. способом всех конъюнкций этой д. Н. Ф. для конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_188_BULEVYH]]/URI$, являющейся первой из них, и для каждой функции $URI[[http://libmeta.ru/me/formula/aux/568_189_BULEVYH]]/URI$ из множества $URI[[http://libmeta.ru/me/formula/aux/568_190_BULEVYH]]/URI$ находятся все д. н. Ф., реализующие $URI[[http://libmeta.ru/me/formula/aux/568_191_BULEVYH]]/URI$ на ее области определения, к-рые составлены из конъюнкций окрестности $URI[[http://libmeta.ru/me/formula/aux/568_192_BULEVYH]]/URI$ и содержат по сравнению с другими такими д. н. ф. наименьшее число символов переменных. Среди них выделяются все те д. н. ф., к-рые, во-первых, не содержат конъюнкций $URI[[http://libmeta.ru/me/formula/aux/568_193_BULEVYH]]/URI$, . ., $URI[[http://libmeta.ru/me/formula/aux/568_194_BULEVYH]]/URI$ и, во-вторых, содержат все конъюнкции $URI[[http://libmeta.ru/me/formula/aux/568_195_BULEVYH]]/URI$, ..., $URI[[http://libmeta.ru/me/formula/aux/568_196_BULEVYH]]/URI$, удовлетворяющие условию $URI[[http://libmeta.ru/me/formula/aux/568_197_BULEVYH]]/URI$. Если для всех $URI[[http://libmeta.ru/me/formula/aux/568_198_BULEVYH]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/568_199_BULEVYH]]/URI$ конъюнкция $URI[[http://libmeta.ru/me/formula/aux/568_200_BULEVYH]]/URI$ входит во все
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_25f9609b897826ea4267g-1.jpg?height=38&amp;width=821&amp;top_left_y=219&amp;top_left_x=133)
+ется на отметку $URI[[http://libmeta.ru/me/formula/aux/568_201_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_202_BULEVYH]]/URI$-й шаг алгоритма заканчивается. Если $URI[[http://libmeta.ru/me/formula/aux/568_203_BULEVYH]]/URI$ не входит ни в одну из выделенных д. н. ф., то отметка $URI[[http://libmeta.ru/me/formula/aux/568_204_BULEVYH]]/URI$ заменяется на отметку $URI[[http://libmeta.ru/me/formula/aux/568_205_BULEVYH]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/568_206_BULEVYH]]/URI$ й шаг алгоритма заканчивается. В остальных случаях описанная процедура применяется ко второй по порядку конъюнкции и т. д. Если ни у одной из конъюнкций не удается изменить отметку, то на $URI[[http://libmeta.ru/me/formula/aux/568_207_BULEVYH]]/URI$ шаге работа алгоритма заканчивается. Все конъюнкции, получившие в кольцевом алгоритме над сокращенной д. н. ф. $URI[[http://libmeta.ru/me/formula/aux/568_208_BULEVYH]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/568_209_BULEVYH]]/URI$ отметки $URI[[http://libmeta.ru/me/formula/aux/568_210_BULEVYH]]/URI$ (соответственно $URI[[http://libmeta.ru/me/formula/aux/568_211_BULEVYH]]/URI$, входят во все минимальные д. н. Ф. (соответственно не входят ни в одну минимальную д. н. Ф.) функции $URI[[http://libmeta.ru/me/formula/aux/568_212_BULEVYH]]/URI$. Результат применения описанных выше алгоритмов не зависит от способа упорядочения конъюнкций в д. н. ф.
+
+URI[[http://libmeta.ru/me/relation/568_7_BULEVYH]]/URI выделения всех конъюнкций, входящих хотя бы в одну и не входящих ни в одну минимальную д. н. ф., не может быть решена алгоритмами, работающими с $URI[[http://libmeta.ru/me/formula/aux/568_213_BULEVYH]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/568_214_BULEVYH]]/URI$, ограниченных или недостаточно быстро растущих с ростом $URI[[http://libmeta.ru/me/formula/aux/568_215_BULEVYH]]/URI$ числа URI[[http://libmeta.ru/me/relation/568_6_BULEVYH]]/URI. Ситуация не изменится, если к запоминаемым в URI[[http://libmeta.ru/me/relation/568_5_BULEVYH]]/URI свойствам $URI[[http://libmeta.ru/me/formula/aux/568_216_BULEVYH]]/URI$ добавить ограниченное или недостаточно быстро растущее с ростом $URI[[http://libmeta.ru/me/formula/aux/568_217_BULEVYH]]/URI$ URI[[http://libmeta.ru/me/relation/568_4_BULEVYH]]/URI свойств.</text>
+  <text_orig>представление булевых функций нормальными формами (см. Булевых функций нормальные форов), простейши- ми относительно нек-рой меры сложности. Обычно под сложн о с т ь ю но р ма льно й фо р мы понимается число букв в ней. В этом случае простейшая форма наз. м и н и м а л ь н о й. Иногда в качестве меры сложности рассматривается число әлементарных конъюнкций в дизъюнктивной нормальной форме или число сомножителей в конъюнктивной нормальной форме. В этом случае простейшая форма наз. к р а т ч а йш е й. В силу двойственности дизъюнктивных и конъюнктивных нормальных форм достаточно рассматривать только дизъюнктивные нормальные формы (д. н. ф.).
+
+Построение кратчайших и минимальных д. н. ф. имеет каждое свою специфику. Множества минимальных и кратчайших д. н. Ф. одной и той же функции могут находиться в любых теоретико-множественных соотношениях: содержаться одно в другом, иметь пустое пересечение или непустую симметрическую разность. Если для функции $f$ обозначить через $m_{f}$ сложность минимальной д. н. ф., через $k_{f}-$ минимальную сложность кратчайшей д. н. ф., а через $l(n)-$ наибольшее из отношений $k_{f} / m_{f}$ по всем функциям от $n$ переменных, то справедливо асимптотич. соотношение:
+
+\[
+l(n) \sim \frac{n}{2}
+\]
+
+Обычно под задачей Б. Ф. м. понимается задача построения их минимальных д. н. ф. Существует тривиальный алгоритм построения всех минимальных д. н. ф. для произвольной булевой функции $f\left(x_{1}, x_{2}, \ldots, x_{n}\right)$. $\mathrm{OH}$ состоит в просмотре всех д. н. Ф. с переменными $x_{1}, \ldots, x_{n}$ и выделении тех из них, к-рые реализуют функцию $f$ и имеют минимальную сложность. Этот алгоритм фактически неприменим уже при небольших $n$ ввиду быстрого роста числа операций. Поэтому было построено болышое число других алгоритмов, к-рые, однако, әффективно применимы не ко всем функциям.
+
+Исходным заданием функции в задаче минимизации обычно считают таблицу, совершенную д. н. Ф. (см. Булевьх функций нормальнье формы) или произвольную д. н. ф. На первом этапе от исходного задания осуществляется переход к так наз. сокращенной д. н. ф., к-рая определена для каждой функции однозначно. Существует большое число методов реализации этого перехода. Наиболее универсальный метод состоит в выполнении над д. н. ф. преобразований вида
+
+\[
+\begin{gathered}
+A \vee A \cdot B \Rightarrow A \text { (поглощение), } \\
+x A \vee \bar{x} B \Rightarrow x A \vee \bar{x} B \vee A B .
+\end{gathered}
+\]
+
+Сокращенная д. н. Ф. обладает тем свойством, что любая минимальная д. н. ф. получается из нее удалением нек-рых элементарных конъюнкций. Второй, наиболее трудоемкий, этап состоит в получении из сокращенной д. н. Ф. всех тупиковых д. н. ф., среди к-рых содержатся и все минимальные. На этом этапе обычно используется геометрич. представление булевых функций. Пусть $E_{n}$ обозначает множество всех вершин $n$-мерного единичного куба. Каждой булевой функции $f\left(x_{1}, \ldots, x_{n}\right)$ взаимно однозначно соответствует подмножество $N_{f}$, $N_{f} \equiv E_{n}$, таких вершин $\tilde{\alpha}$, где $f(\tilde{\alpha})=1$. Пусть $\mathfrak{H}-$ элементарная конъюнкция ранга $r$, тогда множество $N_{\text {э }}$ наз. и н т е р в а л о м р а н $\mathrm{r}$ a $r$, соответствующим әлементарной конъюнкции $\mathfrak{A}$. Говорят, что система интервалов $N_{\Re_{1}}, \ldots, N_{\mathfrak{9} m}$ образует множества $N \sqsubseteq E_{n}$, если
+
+\[
+N=N_{\Re_{1}} \cup \ldots \cup N_{\Re_{m}}
+\]
+
+Так как равенства
+
+\[
+f=\mathfrak{A}_{1} \vee \ldots \vee \mathfrak{A}_{m} \quad \text { и } \quad N_{f}=N_{\mathfrak{A}_{1}} \cup \ldots \cup N_{\mathfrak{A}_{m}}
+\]
+
+эквивалентны, то задача Б. Ф. м. равносильна отысканию покрытий, сумма рангов интервалов к-рых мини- мальна. Такие покрытия наз. м и н и м а л ь ны м п. Интервал $N_{\Re}$ наз. м а к с и м а л ь н ы м для функции $f$, если $N_{\mathfrak{\Re}} \subseteq N_{f}$ и не существует интервала $N_{\mathfrak{R}}$ такого, что $N_{\mathfrak{A}} \subset N_{\mathfrak{B}} \sqsubseteq N_{\boldsymbol{f}}$. Построение тупиковых д. н. ф. функции $f$ сводится к отысканию таких покрытий множества $N_{f}$ максимальными интервалами, никакое собственное подмножество к-рых не является покрытием множества $N_{f}$. Эти покрытия соответствуют тупиковым д. н. ф. и наз. н е п р и в о д и м ы м и. Они получаются из покрытий, соответствующих сокращенным д. н. ф., путем удаления нек-рых интервалов.
+
+Выбор минимальных д. н. Ф. из всех тупиковых также оказывается весьма трудоемким процессом, поскольку для «почти всех» булевых функций от $n$ аргументов различных тупиковых д. н. ф. не меньше, чем $2^{2 n}$. При этом разброс сложностей тупиковых д. н. ф. может быть очень велик, так что выбор случайной тупиковой д. н. ф. вместо минимальной может привести к болышой погрешности.
+
+Оценки числа тупиковых д. н. Ф. и разброса сложностей показывают, что естественным путем улучшения эффективности алгоритмов минимизации является путь более тонких рассмотрений при удалении элементарной конъюнкции из д. н. Ф. Удалять (или, наоборот, закреплять до конца процесса) конъюнкцию следует лишь в том случае, если для нее посредством нек-рой процедуры удается установить, что она не входит ни в одну минимальную д. н. Ф. для $f$ (входит во все минимальные д. н. ф. для $f$ ). Последний факт устанавливается обычно при помощи анализа конъюнкций, близких к рассматриваемой, т. е. входящих в окрестность этой конъюнкции (см. Алгоритм локальный). При этом разрешается накапливать информацию об элементарных конъюнкциях и использовать ее в дальнейшем анализе. Процедуры указанного вида получили назв. л о к а л ь н ы $\mathbf{x}$ ал го ритмов у п р щ е ния. Ниже приводятся нек-рые из них. В их описании используется понятие о к р е с т но с т п $k$-г о п о р я д к а $S_{k}(\mathfrak{A}, \mathfrak{l})$ э л е мен т а р ной ко н ь ю кции $\mathfrak{N}, \mathfrak{\mathfrak { U }} \in \mathfrak{N}$.
+
+Окрестность нулевого порядка $S_{0}(\mathfrak{A}, \mathfrak{R})$ состоит из одной конъюнкции $\mathfrak{A}$. Если $S_{k-1}(\mathfrak{A}, \mathfrak{R})$ есть окрестность $(k-1)$-го порядка, то окрестность $k$-го порядка $S_{k}(\mathfrak{A}, \mathfrak{\Re})$ состоит из всех конъюнкций $\mathfrak{A}_{j}$ д. н. ф. $\mathfrak{R}$, удовлетворяющих одному из следующих условий: 1) $N_{\mathfrak{A}_{j}}$ имеет непустое пересечение хотя бы с одним интервалом, соответствующим конъюнкции из $S_{k-1}(\mathfrak{H}, \mathfrak{l})$; 2) $N_{\mathfrak{\Re}_{j}} \subseteq \bigcup_{i=1}^{r} N_{\mathfrak{B}_{i}}$, где $N_{\mathfrak{B}_{i}}, i=1,2, \ldots, r$, удовлетворяют условию 1).
+
+А л г о и тм К у а й н а. На каждом шаге рассматривается окрестность $S_{1}(\mathfrak{A}, \mathfrak{R})$ одной из конъюнкций в д. н. Ф. $\mathfrak{R}$. В процессе работы алгоритма для каждой из конъюнкций делается попытка вычислить одно из свойств: $P_{1}(\mathfrak{A}, \mathfrak{N})$ -
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fda8d2fcb92dc89da0f8g-1.jpg?height=42&amp;width=796&amp;top_left_y=1815&amp;top_left_x=1026)
+« - не входит ни в одну минимальную д. н. ф.». Алгоритм работает следующим образом. 1) По очереди для каждой конъюнкции $\mathfrak{A}$ из $\mathfrak{A}$ строится окрестность $S_{1}(\mathfrak{H}, \mathfrak{\Re})=\left\{\mathfrak{Y}, \mathfrak{U}_{1}, \ldots, \mathfrak{A}_{m}\right\}$. Проверяется вклю-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_fda8d2fcb92dc89da0f8g-1.jpg?height=47&amp;width=836&amp;top_left_y=1966&amp;top_left_x=986)
+отмечается нек-рым способом как входящая во все минимальные д. н. ф. В этом случае говорят, что $\mathfrak{Y}$ входит в ядро д. н. Ф. $\mathfrak{\Re}$ (является я д р о в о й к о н ъ ю н кц и е й ). 2) Пусть на первом этапе в $\Re$ отмечены конъюнкции $\mathfrak{R}_{1}, \ldots, \mathfrak{B}_{q}$. Остальные конъюнкции из $\mathfrak{l}$ упорядочиваются, и для каждой такой конъюнкции $\mathfrak{B}$ проверяется включение $N_{\mathfrak{B}} \subseteq \bigcup_{i=1}^{q} N_{\mathfrak{B}_{i}}$. Конъюнкции, для к-рых это соотношение выполнено, не входят ни в одну минимальную д. н. ф.; они удаляются из $\mathfrak{R}$. Алгоритм регуля рных точе к. Этот алгоритм на каждом шаге осматривает окрестность $S_{2}(\mathfrak{A}, \mathfrak{A})$ конъюнкции $\mathfrak{A}$ в д. н. Ф. $\mathfrak{X}$ и удаляет конъюнкции, не входящие ни в одну тупиковую и, следовательно, ни в одну минимальную д. н. ф. В описании алгоритма используется понятие $\tilde{\alpha}-\Pi$ у ч к а в д. н. ф. $\mathfrak{l}$, представляющего собой для рассматриваемой точки $\tilde{\alpha}$ из $N_{\mathfrak{R}}$ множество $M(\tilde{\alpha}, \mathfrak{R})$ интервалов $N_{\mathfrak{\vartheta}}$ таких, что $\mathfrak{\Re}_{j} \in \mathfrak{\Re}, \tilde{\alpha} \in N_{\mathfrak{\Re}_{j}}$ Для конъюнкции $\mathfrak{X}$ из д. н. ф. $\mathfrak{N}$ точка $\tilde{\alpha}$ из $N_{\mathfrak{A}}$ наз. р е г у ля р но й о тнос и те ль но $(\mathfrak{H}, \mathfrak{R})$, если существует точка $\tilde{\alpha}^{\prime}$ такая, что $\tilde{\alpha}^{\prime} \in N_{\mathfrak{R}} \backslash N_{\text {१্ }}$ и $M(\tilde{\alpha}, \mathfrak{N}) \subseteq M(\tilde{\alpha}, \mathfrak{N})$. Множество $M \subseteq N_{\Re}$ наз. р е-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=40&amp;width=836&amp;top_left_y=630&amp;top_left_x=118)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=37&amp;width=831&amp;top_left_y=666&amp;top_left_x=120)
+мый алгоритм основывается на том, что конъюнкция $\mathfrak{A}$ из сокращенной д. н. ф. Функции $f$ не входит ни в одну тупиковую д. н. ф. функции $f$ тогда и только тогда, когда $N_{\mathfrak{A}}$ есть множество, регулярное относительно $(\mathfrak{A}, \mathfrak{R})$. Алгоритм проверяет в нек-ром порядке, являются ли интервалы конъюнкций, входящих в д. н. ф., регулярными множествами, и удаляет те из них, интервалы к-рых регулярны. Свойство интервала $N_{\Re}$ быть
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=39&amp;width=836&amp;top_left_y=948&amp;top_left_x=118)
+ляется окрестностью $S_{2}(\mathfrak{H}, \mathfrak{R})$ и, вообще говоря, не определяется окрестностью $S_{1}(\mathfrak{A}, \mathfrak{R})$.
+
+$A$-а л г о р и т м. Здесь используется понятие д. н. ф.,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=35&amp;width=831&amp;top_left_y=1084&amp;top_left_x=120)
+т. е. такой д. н. Ф., к-рая минимальна среди всех д. н. Ф.,, эквивалентных $\mathfrak{R}$ и получающихся из $\mathfrak{R}$ опусканием нек-рых әлементарных контюнкций. Рассматриваются два свойства элементарной конъюнкции в д. н. Ф.:
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=37&amp;width=814&amp;top_left_y=1232&amp;top_left_x=141)
+относительно গ̊, и
+
+$P_{2}(\mathfrak{A}, \mathfrak{R})-\ll \mathfrak{Y}$ не входит ни в одну д. н. ф., минимальную относительно $\mathfrak{\Re} »$.
+
+Считается, что $P_{i}=1$, если свойство $P_{i}$ имеет место, п $P_{i}=0$ в противном случае. Предполагается, что д. н. Ф. составлены из конъюнкций с информационными отметками $\left(\omega_{1}, \omega_{2}\right)$, где $\omega_{i} \in\{0,1, \Delta\}$. При этом равенство $\omega_{i}=\Delta$ означает, что свойство $P_{i}$ не вычислено $(i=1,2)$, а равенства $\omega_{i}=1$ означают, что $P_{i}=\omega_{i}(i=1,2)$. Конъюнкция $\mathfrak{A}$ с информационными отметками $\left(\omega_{1}, \omega_{2}\right)$ обозначается через $\mathfrak{U}^{\omega_{1} \omega_{2}}, A$-алгоритм вычисляет значения свойств $P_{1}$ и $P_{2}$ для конъюнкций $\mathfrak{A}$ из д. н. ф. $\mathfrak{\Re}$, используя для этого лишь конъюнкции из окрестности $S_{2}(\mathfrak{A}, \mathfrak{\Re})$ и их информационные отметки. Для конъюнк-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=40&amp;width=836&amp;top_left_y=1682&amp;top_left_x=118)
+же с твом перво го типа относ итель-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=39&amp;width=836&amp;top_left_y=1747&amp;top_left_x=118)
+$\mathfrak{A}_{1}, \ldots, \mathfrak{U}_{m}$ рангов $r_{1}, \ldots, r_{m}$ такие, что $M \subseteq \bigcup_{j=1}^{m} N_{\mathfrak{N}_{j}}$ и $r&gt;\sum_{j=\mathbf{1}}^{m} r_{j}$.
+
+Р а 3 н о с т ь ю $\mathfrak{R}_{1} \backslash \mathfrak{N}_{2}$ д. н. Ф. $\mathfrak{l}_{1}$ и $\mathfrak{R}_{2}$ наз. д. н. ф., состоящая из элементарных конъюнкций, входящих в $\mathfrak{N}_{1}$ и не входящих в $\mathfrak{R}_{2}$.
+
+До применения $A$-алгоритма все конъюнкции из рассматриваемой д. н. ф. $\mathfrak{l}$ имеют отметку $(\Delta, \Delta)$. Если выполнены $i$ шагов И отметку $(1, \Delta)$ получили конъюнкции $\mathfrak{A}_{1}^{\prime}, \ldots, \mathfrak{A}_{s}^{\prime}$, а отметку $(\Delta, 1)$ - конъюнкции $\mathfrak{A}_{1}^{\prime \prime}$, . . ., $\mathfrak{A}_{t}^{\prime \prime}$, то $(i+1)$-й шаг состоит в следующем. Упорядочивают нек-рым способом конъюнкции из д. н. ф. Если д. н. ф. $\mathfrak{X} \backslash\left(\vee{ }_{j=1}^{s} \mathfrak{A}_{j}^{\prime} \vee \vee{ }_{j=1}^{t} \mathfrak{Y}_{j}^{\prime \prime}\right)$ пустая, то $A$-алгоритм заканчивает свою работу. В противном случае после упорядочивания к.-л. способом конъюнкций из этой д. н. ф. выделяются первая по порядку конъюнкция $\stackrel{\mathfrak{X}}{\mathfrak{X}}$ и еe окрестности $S_{1}$ и $S_{2}$ в д. н. ф. $\tilde{\mathfrak{l}}=\mathfrak{\Re} \backslash\left(\vee{ }_{j=1}^{t} \mathfrak{X}_{j}^{\prime \prime}\right)$ и проверяется соотношение $N_{\mathfrak{R}} \equiv \bigcup_{\mathfrak{B} \in\left(S_{1}(\mathfrak{F}, \tilde{\mathfrak{R}}) \backslash \mathfrak{R}\right)} N_{\mathfrak{B}}$.
+
+Если оно выполнено, то отметка $(\Delta, \Delta)$ над $\mathfrak{A}$ заменяется на $(1, \Delta)$ и $(i+1)$-й шаг $A$-алгоритма заканчивается. Если оно не выполнено, то проверяется, можно ли $N_{\Re}$ представить в виде $M_{1} \cup M_{2}$, где $M_{1}$ - множество, ре-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=37&amp;width=829&amp;top_left_y=413&amp;top_left_x=992)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=40&amp;width=829&amp;top_left_y=439&amp;top_left_x=992)
+ставить в таком виде, то отметка $(\Delta, \Delta)$ над $\mathfrak{\mathcal { X }}$ заменяется на отметку $(\Delta, 1)$, и $(i+1)$-й шаг $A$-алгоритма заканчивается; если - нельзя, то описанная процедура применяется ко второй по порядку конъюнкции, и т. д. Если при этом ни у одной из конъюнкций отметка не изменится, то после просмотра всех конъюнкций работа $A$-алгоритма заканчивается.
+
+Если за д. н. ф. $\mathfrak{N}$ принять сокращенную д. н. ф. $\mathfrak{N}_{f}$ функции $f$, то все конъюнкции, получившие в алгоритме отметку $(\Delta, 1)$, не входят ни в одну минимальную д. н. ф. функции $f$; они удаляются из $\mathfrak{N}_{f}$. Конъюнкции, получившие отметку $(1, \Delta)$, входят во все минимальные д. н. Ф. функции $f$. Рассматривались также различные частные случаи $A$-алгоритма.
+
+К о л ц це в о й а л г о р и т расставляет над конъюнкциями информационные отметки $\left(\omega_{1}, \omega_{2}\right)$, значение к-рых то же, что и в $A$-алгоритме. На каждом шаге кольцевой алгоритм использует конъюнкции, входящие в окрестность $k$-го порядка нек-рой конъюнкции, и их информационные отметки. Ниже излагается упрощенный вариант этого алгоритма. В полном виде кольцевой алгоритм - наилучший в классе локальных алгоритмов со специальной памятью по окрестностям $S_{k}(\mathfrak{H}, \mathfrak{R})$. Описанные выше алгоритмы являются частными случаями о б щ е го ко льце в о го а л г ор и т м а. Если
+
+\[
+S_{k-1}(\mathfrak{A}, \mathfrak{R})=\left\{\mathfrak{A}, \mathfrak{A}_{1}, \ldots, \mathfrak{A}_{l}\right\},
+\]\[
+S_{k}(\mathfrak{A}, \mathfrak{N})=\left\{\mathfrak{A}, \mathfrak{A}_{1}, \ldots, \mathfrak{A}_{l}, \mathfrak{A}_{l+1}, \ldots, \mathfrak{A}_{m}\right\}
+\]
+
+\[
+\begin{gathered}
+N_{S_{k-1}}=N_{\mathfrak{A}} \cup \cup_{i=1}^{l} N_{\mathfrak{A}_{j}}, \quad N_{S_{k}}=N_{\mathfrak{A}} \cup \cup_{j=1}^{m} N_{\mathfrak{G} j}, \\
+Q\left(S_{k}\right)=N_{S_{k}} \backslash N_{S_{k-1}},
+\end{gathered}
+\]
+
+то каждому подмножеству $N \subseteq Q\left(S_{k}\right)$ сопоставляется не всюду определенная булева функция $f\left(x_{1}, \ldots, x_{n}\right)$,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_f9e6319b67cb8e4fc534g-1.jpg?height=47&amp;width=833&amp;top_left_y=1554&amp;top_left_x=990)
+$M_{0}^{f}$ нулей есть $E_{n} \backslash N_{S_{k}}$; на множестве $N$ функция $f$ не определена. Множество таких функций обозначается через $F_{k}(\mathfrak{X})$. До начала работы алгоритма все конъюнкции из рассматриваемой д. н. ф. $\mathfrak{N}$ имеют отметку $(\Delta, \Delta)$. Если выполнены $i$ шагов и отметку $(1, \Delta)$ получили конъюнкции $\mathfrak{A}_{1}^{\prime}, \ldots, \mathfrak{A}_{s}^{\prime}$, а отметку $(\Delta, 1)-$ конъюнкции $\mathfrak{H}_{1}^{\prime \prime}, \ldots, \mathfrak{A}_{t}^{\prime \prime}$, то $(i+1)-\mathbf{и}$ шаг состоит в следующем. Упорядочивают нек-рым способом конъюнкции из д. н. ф. Если д. н. ф. $\mathfrak{N} \backslash\left(\vee \stackrel{s=1}{s} \mathfrak{A}_{j}^{\prime} \vee \vee\left(\mathfrak{H}_{j=1}^{t} \mathfrak{a}_{j}^{\prime \prime}\right)\right.$ пустая, то алгоритм заканчивает свою работу. В противном случае после упорядочения к.-л. способом всех конъюнкций этой д. Н. Ф. для конъюнкции $\mathfrak{H}$, являющейся первой из них, и для каждой функции $f$ из множества $F_{k}(\mathfrak{\Re})$ находятся все д. н. Ф., реализующие $f$ на ее области определения, к-рые составлены из конъюнкций окрестности $S_{k}(\mathfrak{A}, \mathfrak{\Re})$ и содержат по сравнению с другими такими д. н. ф. наименьшее число символов переменных. Среди них выделяются все те д. н. ф., к-рые, во-первых, не содержат конъюнкций $\mathfrak{U}_{1}^{\prime \prime}$, . ., $\mathfrak{A}_{t}^{\prime \prime}$ и, во-вторых, содержат все конъюнкции $\mathfrak{A}_{j}^{\prime}, j=1,2$, ..., $s$, удовлетворяющие условию $\quad N_{\mathfrak{a}_{j}^{\prime}} \cap\left(N_{S_{k}} \backslash N\right)=\varnothing$. Если для всех $f$ из $F_{k}(\mathfrak{H})$ конъюнкция $\mathfrak{U}$ входит во все
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_25f9609b897826ea4267g-1.jpg?height=38&amp;width=821&amp;top_left_y=219&amp;top_left_x=133)
+ется на отметку $(1, \Delta)$ и $(i+1)$-й шаг алгоритма заканчивается. Если $\mathfrak{A}$ не входит ни в одну из выделенных д. н. ф., то отметка $(\Delta, \Delta)$ заменяется на отметку $(\Delta, 1)$ и $(i+1)-$ й шаг алгоритма заканчивается. В остальных случаях описанная процедура применяется ко второй по порядку конъюнкциИ и т. д. Если ни у одной из конъюнкций не удается изменить отметку, то на $(i+1)-м$ шаге работа алгоритма заканчивается. Все конъюнкции, получившие в кольцевом алгоритме над сокращенной д. н. ф. $\mathfrak{R}_{f}$ функции $f$ отметки $(1, \Delta)$ (соответственно $(\Delta, 1))$, входят во все минимальные д. н. Ф. (соответственно не входят ни в одну минимальную д. н. Ф.) функции $f$. Результат применения описанных выше алгоритмов не зависит от способа упорядочения конъюнкций в д. н. ф.
+
+Задача выделения всех конъюнкций, входящих хотя бы в одну и не входящих ни в одну минимальную д. н. ф., не может быть решена алгоритмами, работающими с $S_{k}(\mathfrak{A}, \mathfrak{l})$ при $k$, ограниченных или недостаточно быстро растущих с ростом $n$ числа переменных. Ситуация не изменится, если к запоминаемым в алгоритме свойствам $P_{1}, P_{2}$ добавить ограниченное или недостаточно быстро растущее с ростом $n$ множество свойств.
+
+Лит.: [1] Я б л о н с к и й С. В., Функциональные построе-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_25f9609b897826ea4267g-1.jpg?height=35&amp;width=816&amp;top_left_y=955&amp;top_left_x=134)
+т. 51); [2] Ж у р а в л е в Ю. И., &quot;Проблемы кибернетики&quot;, 1962 , в. 8, c. 5-44; [3] Qu in e W. V., &quot;Amer. Math. Monthly&quot;,
+1959 , v. 66, № 9, p. $755-60$.
+Ю. Н. Журавлев.</text_orig>
+</article>

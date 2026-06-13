@@ -1,0 +1,371 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1011_REGRESSIONNYI" alphabetic_pos="1011">
+  <title>РЕГРЕССИОННЫИ АНАЛИЗ</title>
+  <authors>
+    <author>А. В. Прохоров</author>
+  </authors>
+  <pages>
+    <start>464</start>
+    <end>466</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] К е н д а л л М. Д ж., С ть ю а р т А., Статистические выводы и связи, пер. с англ., М., 1973; [2] С м и рн о в Н. В., Д у н и н-Б а р к о в с к и й Н. В., Курс теории вероятностей и математической статистики для технических приложений, 3 изд., М., 1969; [3] А й в а з я н С. А., Статистическое исследование зависимостей, М., 1968; [4] Р а о С. Р., Линейные статистические методы и их применения, пер. с англ., М., 1968; [5] Д р е й п е р Н., С м и т Г., Прикладной регрес-сионный анализ, пер. с англ., М., 1973.</literature_orig>
+    <unit>
+      <title>К е н д а л л М. Д ж., С ть ю а р т А., Статистические выводы и связи</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Смирнов Н. В.</author>
+      <author>Дунин-Барковский Н. В.</author>
+      <title>Курс теории вероятностей и математической статистики для технических приложений</title>
+      <publication>3 изд., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Айвазян С. А.</author>
+      <title>Статистическое исследование зависимостей</title>
+      <publication>М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Рао С. Р.</author>
+      <title>Линейные статистические методы и их применения</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1968</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Дрейпер Н.</author>
+      <author>Смит Г.</author>
+      <title>Прикладной регрес-сионный анализ</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_1_REGRESSIONNYI">E(Y \mid x)=g(x, \beta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_2_REGRESSIONNYI">y_{i}=g\left(x_{i}, \beta\right)+\varepsilon_{i}, \quad i=1, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_3_REGRESSIONNYI">g(x, \beta)=\beta_{0} g_{0}(x)+\ldots+\beta_{m} g_{m}(x) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_4_REGRESSIONNYI">g(x, \beta)=\beta_{0}+\beta_{1} x+\ldots+\beta_{m} x^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_5_REGRESSIONNYI">g(x, \beta)=\beta_{0}+\beta_{1} x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_6_REGRESSIONNYI">\sum_{i=1}^{n}\left(y_{i}-g\left(x_{i}\right)\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_7_REGRESSIONNYI">\hat{g}(x)=\hat{\boldsymbol{\beta}}_{0}+\hat{\beta}_{1} x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_8_REGRESSIONNYI">\begin{gathered}\widehat{\beta}_{0}=\bar{y}-\hat{\beta}_{1} \bar{x}, \hat{\beta}_{1}=\frac{\sum_{i}\left(x_{i}-\bar{x}\right)\left(y_{i}-y\right)}{\sum_{i}\left(x_{i}-\bar{x}\right)^{2}}, \\\bar{x}=\frac{1}{n} \sum_{i} x_{i}, \quad \bar{y}=\frac{1}{n} \sum_{i} y_{i} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_9_REGRESSIONNYI">s^{2}=\sum_{i=1}^{n}\left(y_{i}-\hat{g}\left(x_{i}\right)\right)^{2} /(n-m) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_10_REGRESSIONNYI">\mathrm{E}\left(Y \mid x_{1}, \ldots, x_{k}\right)=X \beta, \mathrm{D}\left(Y \mid x_{1}, \ldots, x_{k}\right)=\sigma^{2} I,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_11_REGRESSIONNYI">\mathrm{E}\left(Y \mid x_{1}, \ldots, x_{k}\right)=X \beta, \mathrm{D}\left(Y \mid x_{1}, \ldots, x_{k}\right)=\sigma^{2} A,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_12_REGRESSIONNYI">\hat{\beta}=\left(X^{\top} X\right)^{-1} X^{\top} y,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_13_REGRESSIONNYI">s^{2}=\frac{1}{n-k}\left(y^{\top} y-\hat{\boldsymbol{\beta}}^{\top} X^{\top} y\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1011_14_REGRESSIONNYI">t=\left(\widehat{\beta}_{i}-\beta_{i}\right) /\left[s^{2} b_{i i}\right]^{1 / 2}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_1_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_2_REGRESSIONNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_3_REGRESSIONNYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_4_REGRESSIONNYI">g(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_5_REGRESSIONNYI">\left(x_{1}, y_{1}\right), \ldots,\left(x_{n}, y_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_6_REGRESSIONNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_7_REGRESSIONNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_8_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_9_REGRESSIONNYI">\varepsilon_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_10_REGRESSIONNYI">\left(x_{1}, y_{1},\right), \ldots,\left(x_{n}, y_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_11_REGRESSIONNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_12_REGRESSIONNYI">\beta, 2)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_13_REGRESSIONNYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_14_REGRESSIONNYI">g_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_15_REGRESSIONNYI">(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_16_REGRESSIONNYI">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_17_REGRESSIONNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_18_REGRESSIONNYI">m, 1 \leqslant m&lt;n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_19_REGRESSIONNYI">\beta_{0}, \ldots, \beta_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_20_REGRESSIONNYI">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_21_REGRESSIONNYI">\beta_{0}, \ldots, \beta_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_22_REGRESSIONNYI">\hat{\beta}_{0}, \ldots, \hat{\beta}_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_23_REGRESSIONNYI">\hat{g}(x)=\widehat{\beta}_{0}+\ldots+\widehat{\beta}_{m} x^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_24_REGRESSIONNYI">\widehat{\beta}_{0}, . ., \widehat{\beta}_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_25_REGRESSIONNYI">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_26_REGRESSIONNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_27_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_28_REGRESSIONNYI">x_{1}, \ldots, x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_29_REGRESSIONNYI">у</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_30_REGRESSIONNYI">y_{1}, \ldots, y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_31_REGRESSIONNYI">\beta=\left(\beta_{1}, \ldots, \beta_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_32_REGRESSIONNYI">x=\left\|x_{i j}\right\|, i=1, \ldots, n, \quad j=1, . ., k,-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_33_REGRESSIONNYI">i-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_34_REGRESSIONNYI">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_35_REGRESSIONNYI">n&gt;k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_36_REGRESSIONNYI">\left|x^{\top} X\right| \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_37_REGRESSIONNYI">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_38_REGRESSIONNYI">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_39_REGRESSIONNYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_40_REGRESSIONNYI">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_41_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_42_REGRESSIONNYI">x_{1}, \ldots, x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_43_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_44_REGRESSIONNYI">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_45_REGRESSIONNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_46_REGRESSIONNYI">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_47_REGRESSIONNYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_48_REGRESSIONNYI">d \widehat{\hat{\beta}}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_49_REGRESSIONNYI">=\sigma^{2}\left(x^{\top} X\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_50_REGRESSIONNYI">x^{\top} X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_51_REGRESSIONNYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_52_REGRESSIONNYI">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_53_REGRESSIONNYI">y_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_54_REGRESSIONNYI">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_55_REGRESSIONNYI">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_56_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_57_REGRESSIONNYI">\grave{\boldsymbol{\beta}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_58_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_59_REGRESSIONNYI">\hat{\beta}_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_60_REGRESSIONNYI">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_61_REGRESSIONNYI">\mathrm{d} \hat{\beta}_{i}=\sigma^{2} b_{i i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_62_REGRESSIONNYI">b_{i i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_63_REGRESSIONNYI">\left(x^{\top} X\right)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_64_REGRESSIONNYI">s^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_65_REGRESSIONNYI">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_66_REGRESSIONNYI">\hat{\beta,}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_67_REGRESSIONNYI">(n-k) s^{2} / \sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_68_REGRESSIONNYI">(n-k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_69_REGRESSIONNYI">n-k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_70_REGRESSIONNYI">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_71_REGRESSIONNYI">\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_72_REGRESSIONNYI">\mathrm{e}\left(y \mid x_{1}, \ldots, x_{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_73_REGRESSIONNYI">(n+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_74_REGRESSIONNYI">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_75_REGRESSIONNYI">\widehat{\beta}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1011_76_REGRESSIONNYI">\beta</formula>
+  </formulas_aux>
+  <relations n="6">
+    <relation uri="http://libmeta.ru/me/relation/1011_1_REGRESSIONNYI">
+      <rel_text>Регрессия</rel_text>
+      <target>http://libmeta.ru/me/article/1012_REGRESSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1011_2_REGRESSIONNYI">
+      <rel_text>многомерном</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1011_3_REGRESSIONNYI">
+      <rel_text>модели</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1011_4_REGRESSIONNYI">
+      <rel_text>дисперсионный анализ</rel_text>
+      <target>http://libmeta.ru/me/article/241_DISPERSIONNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1011_5_REGRESSIONNYI">
+      <rel_text>статистики</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1011_6_REGRESSIONNYI">
+      <rel_text>моделях</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+  </relations>
+  <text>раздел̀ математич. статистіки, объединяющий практич. методы исследования регрессионноӥ зависимости между величинами по статистич. данным (см. URI[[http://libmeta.ru/me/relation/1011_1_REGRESSIONNYI]]/URI). Проблема регрессии в математич. статистике характерна тем, что о распределения х изучаемых величин нет достаточной информации. Пусть, напр., имеются основания предполагать, что случайная величина $URI[[http://libmeta.ru/me/formula/aux/1011_1_REGRESSIONNYI]]/URI$ имеет нек-рое распределение вероятностей при фиксированном значении $URI[[http://libmeta.ru/me/formula/aux/1011_2_REGRESSIONNYI]]/URI$ другой величины, так что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_1_REGRESSIONNYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1011_3_REGRESSIONNYI]]/URI$ - совокупность неизвестных параметров, определяющих функцию $URI[[http://libmeta.ru/me/formula/aux/1011_4_REGRESSIONNYI]]/URI$, и нужно по результатам наблюдений определить значения параметров. В зависимости от природы задачи и целей анализа результаты әксперимента $URI[[http://libmeta.ru/me/formula/aux/1011_5_REGRESSIONNYI]]/URI$ по-разному интерпретируются в отношении переменной $URI[[http://libmeta.ru/me/formula/aux/1011_6_REGRESSIONNYI]]/URI$. Для установления связи между величинами в эксперименте используется модель, основанная на упрощенных допущениях: величина $URI[[http://libmeta.ru/me/formula/aux/1011_7_REGRESSIONNYI]]/URI$ является контролируемой величиной, значения к-рой заранее задаются при планировании эксперимента, а наблюдаемые значения $URI[[http://libmeta.ru/me/formula/aux/1011_8_REGRESSIONNYI]]/URI$ представимы в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_2_REGRESSIONNYI]]/URI
+\] где величины $URI[[http://libmeta.ru/me/formula/aux/1011_9_REGRESSIONNYI]]/URI$ характеризуют ошибки, независимые при различных измерениях и одинаково распределенные с нулевым средним и постоянной дисперсией. В случае неконтролируемой переменной результаты наблюдений $URI[[http://libmeta.ru/me/formula/aux/1011_10_REGRESSIONNYI]]/URI$ представляют собой выборку из нек-рой двумерной совокупности. Методы Р. а. одинаковы и в том, и в другом случае, однако интерпретация результатов различается (в последнем случае анализ существенно дополняется методами теории корреляции).
+
+Исследование регрессии по экспериментальным данным производится методами, основанными на принципах средней квадратич. регрессии. Р. а. решает следующие основные задачи: 1) выбор модели регрессии, что заключает в себе предположения о зависимости функций регрессии от $URI[[http://libmeta.ru/me/formula/aux/1011_11_REGRESSIONNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1011_12_REGRESSIONNYI]]/URI$ оценка параметров $URI[[http://libmeta.ru/me/formula/aux/1011_13_REGRESSIONNYI]]/URI$ в выбранной модели методом наименьших квадратов, 3) проверка статистич. гипотез о регрессии.
+
+Наиболее естественной с точки зрения единого метода оценки неизвестных параметров является модель регрессии, линейная относительно этих параметров:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_3_REGRESSIONNYI]]/URI
+\]
+
+Выбор функций $URI[[http://libmeta.ru/me/formula/aux/1011_14_REGRESSIONNYI]]/URI$ иногда определяется по расположению экспериментальных значений $URI[[http://libmeta.ru/me/formula/aux/1011_15_REGRESSIONNYI]]/URI$ на диаграмме рассеяния, чаще - теоретич. соображениями. Предполагается также, что дисперсия $URI[[http://libmeta.ru/me/formula/aux/1011_16_REGRESSIONNYI]]/URI$ результатов наблюдений постоянна (или пропорциональна известной функции от $URI[[http://libmeta.ru/me/formula/aux/1011_17_REGRESSIONNYI]]/URI$ ). Стандартный метод оценки регрессии основан на использовании многочлена нек-рой степени $URI[[http://libmeta.ru/me/formula/aux/1011_18_REGRESSIONNYI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_4_REGRESSIONNYI]]/URI
+\]
+
+или в простейшем случае - линейной функции (линейная регрессия)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_5_REGRESSIONNYI]]/URI
+\]
+
+Существуют критерии линейности и рекомендации по выбору степени аппроксимирующего многочлена.
+
+В соответствии с принципами средней квадратич. регрессии оценка неизвестных регрессии коәббициентов $URI[[http://libmeta.ru/me/formula/aux/1011_19_REGRESSIONNYI]]/URI$ и дисперсии $URI[[http://libmeta.ru/me/formula/aux/1011_20_REGRESSIONNYI]]/URI$ осуществляется методом наименьших квадратов. Согласно этому методу в качестве статистич. оценок параметров $URI[[http://libmeta.ru/me/formula/aux/1011_21_REGRESSIONNYI]]/URI$ выбираются такие значения $URI[[http://libmeta.ru/me/formula/aux/1011_22_REGRESSIONNYI]]/URI$, к-рые обращают в минимум выражение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_6_REGRESSIONNYI]]/URI
+\]
+
+Многочлен $URI[[http://libmeta.ru/me/formula/aux/1011_23_REGRESSIONNYI]]/URI$, построенный методом наименьших квадратов, наз. э м п и р и ч е с к о й ли ни ё̈̈ р е г р е с сии и является статистич. оценкой неизвестной истинной линии регрессии. При гипотезе линейности регрессии уравнение эмпирич. прямой регрессии имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_7_REGRESSIONNYI]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_8_REGRESSIONNYI]]/URI
+\]
+
+Случайные величины $URI[[http://libmeta.ru/me/formula/aux/1011_24_REGRESSIONNYI]]/URI$ наз. в ы 6 о р о чными коэффициентами регрес сии. Несмещенная оценка параметра $URI[[http://libmeta.ru/me/formula/aux/1011_25_REGRESSIONNYI]]/URI$ дается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_9_REGRESSIONNYI]]/URI
+\]
+
+Есліi дисперсия зависит от $URI[[http://libmeta.ru/me/formula/aux/1011_26_REGRESSIONNYI]]/URI$, то метод наименьших квадратов применим с нек-рыми видоизменениями. Если изучается зависимость случайной величины $URI[[http://libmeta.ru/me/formula/aux/1011_27_REGRESSIONNYI]]/URI$ от нескольких переменных $URI[[http://libmeta.ru/me/formula/aux/1011_28_REGRESSIONNYI]]/URI$, то общую линейную модель регрессии удобнее записывать в матричной форме: вектор наблюдений $URI[[http://libmeta.ru/me/formula/aux/1011_29_REGRESSIONNYI]]/URI$ с независимыми компонентами $URI[[http://libmeta.ru/me/formula/aux/1011_30_REGRESSIONNYI]]/URI$ имеет среднее значение и ковариационную матрицу
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_10_REGRESSIONNYI]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1011_31_REGRESSIONNYI]]/URI$ - вектор коэффициентов регрессии, $URI[[http://libmeta.ru/me/formula/aux/1011_32_REGRESSIONNYI]]/URI$ матрица известных величин, связанных друг с другом, вообще говоря, произвольным образом, $URI[[http://libmeta.ru/me/formula/aux/1011_33_REGRESSIONNYI]]/URI$ единичная матрица $URI[[http://libmeta.ru/me/formula/aux/1011_34_REGRESSIONNYI]]/URI$-го порядка; при этом $URI[[http://libmeta.ru/me/formula/aux/1011_35_REGRESSIONNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1011_36_REGRESSIONNYI]]/URI$. В более общем случае допускается корреляция между наблюдениями $URI[[http://libmeta.ru/me/formula/aux/1011_37_REGRESSIONNYI]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_11_REGRESSIONNYI]]/URI
+\]
+
+где матрица $URI[[http://libmeta.ru/me/formula/aux/1011_38_REGRESSIONNYI]]/URI$ известна, но эта схема сводится к модели (*). Несмещенной оценкой $URI[[http://libmeta.ru/me/formula/aux/1011_39_REGRESSIONNYI]]/URI$ по методу наименьших квадратов является величина
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_12_REGRESSIONNYI]]/URI
+\]
+
+а смещенной оценкой для $URI[[http://libmeta.ru/me/formula/aux/1011_40_REGRESSIONNYI]]/URI$ служит
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_13_REGRESSIONNYI]]/URI
+\]
+
+Модель (*) является наиболее общей линейной моделью, поскольку она применима к различным регрессионным ситуациям и включает в себя все виды параболической регрессии $URI[[http://libmeta.ru/me/formula/aux/1011_41_REGRESSIONNYI]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/1011_42_REGRESSIONNYI]]/URI$ (в частности, рассмотренная выше параболич. регрессия $URI[[http://libmeta.ru/me/formula/aux/1011_43_REGRESSIONNYI]]/URI$ по $URI[[http://libmeta.ru/me/formula/aux/1011_44_REGRESSIONNYI]]/URI$ порядка $URI[[http://libmeta.ru/me/formula/aux/1011_45_REGRESSIONNYI]]/URI$ может быть сведена к модели (*), в к-рой $URI[[http://libmeta.ru/me/formula/aux/1011_46_REGRESSIONNYI]]/URI$ регрессионных переменных функционально связаны). При таком линейёом понимании Р. а. задача оценки $URI[[http://libmeta.ru/me/formula/aux/1011_47_REGRESSIONNYI]]/URI$ и вычисления ковариационной матрицы оценок $URI[[http://libmeta.ru/me/formula/aux/1011_48_REGRESSIONNYI]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1011_49_REGRESSIONNYI]]/URI$ сводится к задаче обращения матрицы $URI[[http://libmeta.ru/me/formula/aux/1011_50_REGRESSIONNYI]]/URI$
+
+Указанный метод построения эмпирич. регрессии в предположении нормального распределения результатов наблюдений приводит к оценкам для $URI[[http://libmeta.ru/me/formula/aux/1011_51_REGRESSIONNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1011_52_REGRESSIONNYI]]/URI$, совпадающим с оценками наибольшего правдоподобия. Однако оценки, полученные этим методом, являются в нек-ром смысле наилучшими и в случае отклонения от нормальности, если только объем выборки достаточно велик.
+
+В данной матричной форме общая линейная модель регрессии (*) допускает простое обобщение на тот случай, когда наблюдаемые величины $URI[[http://libmeta.ru/me/formula/aux/1011_53_REGRESSIONNYI]]/URI$ являются векторными случайными величинами. При этом никакой новой статистич. задачи не возникает (см. Реәрессии матрица).
+
+Задачи Р. а. не ограничиваются построением точечных оценок параметров $URI[[http://libmeta.ru/me/formula/aux/1011_54_REGRESSIONNYI]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1011_55_REGRESSIONNYI]]/URI$ общей линейной модели (*). Проблема точности Iостроенной эмпирич. зависимости наиболее эффективно разрешается при допущении, что вектор наблюдений $URI[[http://libmeta.ru/me/formula/aux/1011_56_REGRESSIONNYI]]/URI$ распределен нормально. Если вектор у распределен нормально и любая оценка $URI[[http://libmeta.ru/me/formula/aux/1011_57_REGRESSIONNYI]]/URI$ является линейной функцией от $URI[[http://libmeta.ru/me/formula/aux/1011_58_REGRESSIONNYI]]/URI$, можно заключить, что величина $URI[[http://libmeta.ru/me/formula/aux/1011_59_REGRESSIONNYI]]/URI$ распределена нормально со средним $URI[[http://libmeta.ru/me/formula/aux/1011_60_REGRESSIONNYI]]/URI$ и дисперсией $URI[[http://libmeta.ru/me/formula/aux/1011_61_REGRESSIONNYI]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1011_62_REGRESSIONNYI]]/URI$ - диагональный элемент матрицы $URI[[http://libmeta.ru/me/formula/aux/1011_63_REGRESSIONNYI]]/URI$. Кроме того, оценка $URI[[http://libmeta.ru/me/formula/aux/1011_64_REGRESSIONNYI]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/1011_65_REGRESSIONNYI]]/URI$ распределена независимо от любой компоненты вектора $URI[[http://libmeta.ru/me/formula/aux/1011_66_REGRESSIONNYI]]/URI$ а величина $URI[[http://libmeta.ru/me/formula/aux/1011_67_REGRESSIONNYI]]/URI$ имеет «xuквадрат» распределение с $URI[[http://libmeta.ru/me/formula/aux/1011_68_REGRESSIONNYI]]/URI$ степенями свободы. Отсюда следует, что статистика
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1011_14_REGRESSIONNYI]]/URI
+\]
+
+подчиняется Стьюдента распределению с $URI[[http://libmeta.ru/me/formula/aux/1011_69_REGRESSIONNYI]]/URI$ степенями свободы. Этот факт используется для построения до- верительных интервалов для параметров $URI[[http://libmeta.ru/me/formula/aux/1011_70_REGRESSIONNYI]]/URI$ и для проверки гипотез о значениях, к-рые принимает величина $URI[[http://libmeta.ru/me/formula/aux/1011_71_REGRESSIONNYI]]/URI$. К роме того, появляется возможность найти доверительные интервалы для $URI[[http://libmeta.ru/me/formula/aux/1011_72_REGRESSIONNYI]]/URI$ при фиксированных значениях всех регрессионных переменных и доверительные интервалы, содержащие следующее $URI[[http://libmeta.ru/me/formula/aux/1011_73_REGRESSIONNYI]]/URI$-е значение величины $URI[[http://libmeta.ru/me/formula/aux/1011_74_REGRESSIONNYI]]/URI$ (т. н. интервалы предсказания). Наконец, можно на основе вектора выборочных коэффициентов регрессии $URI[[http://libmeta.ru/me/formula/aux/1011_75_REGRESSIONNYI]]/URI$ построить доверительный эллипсоид для вектора $URI[[http://libmeta.ru/me/formula/aux/1011_76_REGRESSIONNYI]]/URI$ или для любой совокупности неизвестных коэффициентов регрессии, а также доверительную область для всей линии или прямой регрессии.
+
+Р. а. является одним из наиболее распространенных методов обработки экспериментальных данвых при изучении зависимостей в физике, биологии, экономике, технике и др. областях. На URI[[http://libmeta.ru/me/relation/1011_6_REGRESSIONNYI]]/URI Р. а. основаны такие разделы математич. URI[[http://libmeta.ru/me/relation/1011_5_REGRESSIONNYI]]/URI, как URI[[http://libmeta.ru/me/relation/1011_4_REGRESSIONNYI]]/URI и планирование әксперимента, эти URI[[http://libmeta.ru/me/relation/1011_3_REGRESSIONNYI]]/URI широко используются в URI[[http://libmeta.ru/me/relation/1011_2_REGRESSIONNYI]]/URI статистическом анализе.</text>
+  <text_orig>раздел̀ математич. статистіки, объединяющий практич. методы исследования регрессионноӥ зависимости между величинами по статистич. данным (см. Регрессия). Проблема регрессии в математич. статистике характерна тем, что о распределения х изучаемых величин нет достаточной информации. Пусть, напр., имеются основания предполагать, что случайная величина $Y$ имеет нек-рое распределение вероятностей при фиксированном значении $x$ другой величины, так что
+
+\[
+E(Y \mid x)=g(x, \beta)
+\]
+
+где $\beta$ - совокупность неизвестных параметров, определяющих функцию $g(x)$, и нужно по результатам наблюдений определить значения параметров. В зависимости от природы задачи и целей анализа результаты әксперимента $\left(x_{1}, y_{1}\right), \ldots,\left(x_{n}, y_{n}\right)$ по-разному интерпретируются в отношении переменной $x$. Для установления связи между величинами в эксперименте используется модель, основанная на упрощенных допущениях: величина $x$ является контролируемой величиной, значения к-рой заранее задаются при планировании эксперимента, а наблюдаемые значения $y$ представимы в виде
+
+\[
+y_{i}=g\left(x_{i}, \beta\right)+\varepsilon_{i}, \quad i=1, \ldots, n,
+\] где величины $\varepsilon_{i}$ характеризуют ошибки, независимые при различных измерениях и одинаково распределенные с нулевым средним и постоянной дисперсией. В случае неконтролируемой переменной результаты наблюдений $\left(x_{1}, y_{1},\right), \ldots,\left(x_{n}, y_{n}\right)$ представляют собой выборку из нек-рой двумерной совокупности. Методы Р. а. одинаковы и в том, и в другом случае, однако интерпретация результатов различается (в последнем случае анализ существенно дополняется методами теории корреляции).
+
+Исследование регрессии по экспериментальным данным производится методами, основанными на принципах средней квадратич. регрессии. Р. а. решает следующие основные задачи: 1) выбор модели регрессии, что заключает в себе предположения о зависимости функций регрессии от $x$ и $\beta, 2)$ оценка параметров $\beta$ в выбранной модели методом наименьших квадратов, 3) проверка статистич. гипотез о регрессии.
+
+Наиболее естественной с точки зрения единого метода оценки неизвестных параметров является модель регрессии, линейная относительно этих параметров:
+
+\[
+g(x, \beta)=\beta_{0} g_{0}(x)+\ldots+\beta_{m} g_{m}(x) .
+\]
+
+Выбор функций $g_{i}(x)$ иногда определяется по расположению экспериментальных значений $(x, y)$ на диаграмме рассеяния, чаще - теоретич. соображениями. Предполагается также, что дисперсия $\sigma^{2}$ результатов наблюдений постоянна (или пропорциональна известной функции от $x$ ). Стандартный метод оценки регрессии основан на использовании многочлена нек-рой степени $m, 1 \leqslant m&lt;n$ :
+
+\[
+g(x, \beta)=\beta_{0}+\beta_{1} x+\ldots+\beta_{m} x^{m}
+\]
+
+или в простейшем случае - линейной функции (линейная регрессия)
+
+\[
+g(x, \beta)=\beta_{0}+\beta_{1} x .
+\]
+
+Существуют критерии линейности и рекомендации по выбору степени аппроксимирующего многочлена.
+
+В соответствии с принципами средней квадратич. регрессии оценка неизвестных регрессии коәббициентов $\beta_{0}, \ldots, \beta_{m}$ и дисперсии $\sigma^{2}$ осуществляется методом наименьших квадратов. Согласно этому методу в качестве статистич. оценок параметров $\beta_{0}, \ldots, \beta_{m}$ выбираются такие значения $\hat{\beta}_{0}, \ldots, \hat{\beta}_{m}$, к-рые обращают в минимум выражение
+
+\[
+\sum_{i=1}^{n}\left(y_{i}-g\left(x_{i}\right)\right)^{2}
+\]
+
+Многочлен $\hat{g}(x)=\widehat{\beta}_{0}+\ldots+\widehat{\beta}_{m} x^{m}$, построенный методом наименьших квадратов, наз. э м п и р и ч е с к о й ли ни ё̈̈ р е г р е с сии и является статистич. оценкой неизвестной истинной линии регрессии. При гипотезе линейности регрессии уравнение эмпирич. прямой регрессии имеет вид
+
+\[
+\hat{g}(x)=\hat{\boldsymbol{\beta}}_{0}+\hat{\beta}_{1} x
+\]
+
+где
+
+\[
+\begin{gathered}
+\widehat{\beta}_{0}=\bar{y}-\hat{\beta}_{1} \bar{x}, \hat{\beta}_{1}=\frac{\sum_{i}\left(x_{i}-\bar{x}\right)\left(y_{i}-y\right)}{\sum_{i}\left(x_{i}-\bar{x}\right)^{2}}, \\
+\bar{x}=\frac{1}{n} \sum_{i} x_{i}, \quad \bar{y}=\frac{1}{n} \sum_{i} y_{i} .
+\end{gathered}
+\]
+
+Случайные величины $\widehat{\beta}_{0}, . ., \widehat{\beta}_{m}$ наз. в ы 6 о р о чными коэффициентами регрес сии. Несмещенная оценка параметра $\sigma^{2}$ дается формулой
+
+\[
+s^{2}=\sum_{i=1}^{n}\left(y_{i}-\hat{g}\left(x_{i}\right)\right)^{2} /(n-m) .
+\]
+
+ЕсліI дисперсия зависит от $x$, то метод наименьших квадратов применим с нек-рыми видоизменениями. Если изучается зависимость случайной величины $Y$ от нескольких переменных $x_{1}, \ldots, x_{k}$, то общую линейную модель регрессии удобнее записывать в матричной форме: вектор наблюдений $у$ с независимыми компонентами $y_{1}, \ldots, y_{n}$ имеет среднее значение и ковариационную матрицу
+
+\[
+\mathrm{E}\left(Y \mid x_{1}, \ldots, x_{k}\right)=X \beta, \mathrm{D}\left(Y \mid x_{1}, \ldots, x_{k}\right)=\sigma^{2} I,
+\]
+
+где $\beta=\left(\beta_{1}, \ldots, \beta_{k}\right)$ - вектор коэффициентов регрессии, $X=\left\|x_{i j}\right\|, i=1, \ldots, n, \quad j=1, . ., k,-$ матрица известных величин, связанных друг с другом, вообще говоря, произвольным образом, $I-$ единичная матрица $n$-го порядка; при этом $n&gt;k$ и $\left|X^{\top} X\right| \neq 0$. В более общем случае допускается корреляция между наблюдениями $y_{i}$ :
+
+\[
+\mathrm{E}\left(Y \mid x_{1}, \ldots, x_{k}\right)=X \beta, \mathrm{D}\left(Y \mid x_{1}, \ldots, x_{k}\right)=\sigma^{2} A,
+\]
+
+где матрица $A$ известна, но эта схема сводится к модели (*). Несмещенной оценкой $\beta$ по методу наименьших квадратов является величина
+
+\[
+\hat{\beta}=\left(X^{\top} X\right)^{-1} X^{\top} y,
+\]
+
+а смещенной оценкой для $\sigma^{2}$ служит
+
+\[
+s^{2}=\frac{1}{n-k}\left(y^{\top} y-\hat{\boldsymbol{\beta}}^{\top} X^{\top} y\right) .
+\]
+
+Модель (*) является наиболее общей линейной моделью, поскольку она применима к различным регрессионным ситуациям и включает в себя все виды параболической регрессии $Y$ по $x_{1}, \ldots, x_{k}$ (в частности, рассмотренная выше параболич. регрессия $Y$ по $x$ порядка $m$ может быть сведена к модели (*), в к-рой $m$ регрессионных переменных функционально связаны). При таком линейёом понимании Р. а. задача оценки $\beta$ и вычисления ковариационной матрицы оценок $D \widehat{\hat{\beta}}=$ $=\sigma^{2}\left(X^{\top} X\right)^{-1}$ сводится к задаче обращения матрицы $X^{\top} X$
+
+Указанный метод построения эмпирич. регрессии в предположении нормального распределения результатов наблюдений приводит к оценкам для $\beta$ и $\sigma^{2}$, совпадающим с оценками наибольшего правдоподобия. Однако оценки, полученные этим методом, являются в нек-ром смысле наилучшими и в случае отклонения от нормальности, если только объем выборки достаточно велик.
+
+В данной матричной форме общая линейная модель регрессии (*) допускает простое обобщение на тот случай, когда наблюдаемые величины $y_{i}$ являются векторными случайными величинами. При этом никакой новой статистич. задачи не возникает (см. Реәрессии матрица).
+
+Задачи Р. а. не ограничиваются построением точечных оценок параметров $\beta$ и $\sigma^{2}$ общей линейной модели (*). Проблема точности Iостроенной эмпирич. зависимости наиболее эффективно разрешается при допущении, что вектор наблюдений $y$ распределен нормально. Если вектор у распределен нормально и любая оценка $\grave{\boldsymbol{\beta}}$ является линейной функцией от $y$, можно заключить, что величина $\hat{\beta}_{i}$ распределена нормально со средним $\beta_{i}$ и дисперсией $\mathrm{D} \hat{\beta}_{i}=\sigma^{2} b_{i i}$, где $b_{i i}$ - диагональный элемент матрицы $\left(X^{\top} X\right)^{-1}$. Кроме того, оценка $s^{2}$ для $\sigma^{2}$ распределена независимо от любой компоненты вектора $\hat{\beta,}$ а величина $(n-k) s^{2} / \sigma^{2}$ имеет «xuквадрат» распределение с $(n-k)$ степенями свободы. Отсюда следует, что статистика
+
+\[
+t=\left(\widehat{\beta}_{i}-\beta_{i}\right) /\left[s^{2} b_{i i}\right]^{1 / 2}
+\]
+
+подчиняется Стьюдента распределению с $n-k$ степенями свободы. Этот факт используется для построения до- верительных интервалов для параметров $\beta_{i}$ и для проверки гипотез о значениях, к-рые принимает величина $\beta_{i}$. К роме того, появляется возможность найти доверительные интервалы для $\mathrm{E}\left(Y \mid x_{1}, \ldots, x_{k}\right)$ при фиксированных значениях всех регрессионных переменных и доверительные интервалы, содержащие следующее $(n+1)$-е значение величины $y$ (т. н. интервалы предсказания). Наконец, можно на основе вектора выборочных коэффициентов регрессии $\widehat{\beta}$ построить доверительный эллипсоид для вектора $\beta$ или для любой совокупности неизвестных коэффициентов регрессии, а также доверительную область для всей линии или прямой регрессии.
+
+Р. а. является одним из наиболее распространенных методов обработки экспериментальных данвых при изучении зависимостей в физике, биологии, экономике, технике и др. областях. На моделях Р. а. основаны такие разделы математич. статистики, как дисперсионный анализ и планирование әксперимента, эти модели широко используются в многомерном статистическом анализе.
+
+Лuт.: [1] К е н д а л л М. Д ж., С ть ю а р т А., Статистические выводы и связи, пер. с англ., М., 1973; [2] С м и рн о в Н. В., Д у н и н-Б а р к о в с к и й Н. В., Курс теории вероятностей и математической статистики для технических приложений, 3 изд., М., 1969; [3] А й в а з я н С. А., Статистическое исследование зависимостей, М., 1968; [4] Р а о С. Р., Линейные статистические методы и их применения, пер. с англ., М., 1968; [5] Д р е й п е р Н., С м и т Г., Прикладной регрес-
+сионный анализ, пер. с англ., М., 1973.
+А. В. Прохоров.</text_orig>
+</article>

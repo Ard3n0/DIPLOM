@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/315_LINDELEFA" alphabetic_pos="315">
+  <title>ЛИНДЕЛЕФА МЕТОД СУММИРОВАНИЯ</title>
+  <authors>
+    <author>И. И. Волков</author>
+  </authors>
+  <pages>
+    <start>144</start>
+    <end>145</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] L i n d e l ö f E., &quot;j. math.», 1903, t. 9, p. 213théorie des fonctions, $\mathbf{p} .1905 ;[3]$ X a p д и $\gamma$., Расходящиеся ряды, пер. с англ., М., 1951; [4] К у к Р., Бесконечные матрицы и пространства последовательностей, пер. с англ., М., 1960.</literature_orig>
+    <unit>
+      <author>Lindelöf E.</author>
+      <title>&quot;j. math.»</title>
+      <publication/>
+      <year>1903</year>
+      <other>t. 9, p. 213théorie des fonctions, $\mathbf{p} .1905 ;[3]$ X a p д и $\gamma$., Расходящиеся ряды, пер. с англ., М., 1951; [4] К у к Р., Бесконечные матрицы и пространства последовательностей, пер. с англ., М., 1960.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/315_1_LINDELEFA">\sum_{k=0}^{\infty} u_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/315_2_LINDELEFA">\lim _{\delta \rightarrow 0}\left[u_{0}+\sum_{k=0}^{\infty} \exp (-\delta k \ln k) u_{k}\right]=s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/315_3_LINDELEFA">\sum_{k=0}^{\infty} a_{k} z^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/315_4_LINDELEFA">a_{k}(\omega)=\frac{c_{k+1} \omega^{k+1}}{E(\omega)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/315_5_LINDELEFA">E(\omega)=\sum_{k=0}^{\infty} c_{k} \omega^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/315_6_LINDELEFA">E(\omega)=\sum_{k=0}^{\infty}\left[\frac{\omega}{\ln (k+\beta)}\right]^{k}, \quad \beta&gt;1 .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_1_LINDELEFA">g_{0}(\delta)=1, g_{k}(\delta)=\exp (-\delta k \ln k), \delta&gt;0, k=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_2_LINDELEFA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_3_LINDELEFA">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_4_LINDELEFA">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_5_LINDELEFA">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_6_LINDELEFA">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_7_LINDELEFA">a_{k}(\omega)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/315_8_LINDELEFA">\left\|a_{k}(\omega)\right\|</formula>
+  </formulas_aux>
+  <relations n="1">
+    <relation uri="http://libmeta.ru/me/relation/315_1_LINDELEFA">
+      <rel_text>Матрицу</rel_text>
+      <target>http://libmeta.ru/me/article/600_MATRITs</target>
+    </relation>
+  </relations>
+  <text>полунепрерывный метод суммирования числовых и функциональных рядов, определенный последовательностью функций
+
+$URI[[http://libmeta.ru/me/formula/aux/315_1_LINDELEFA]]/URI$
+
+Ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/315_1_LINDELEFA]]/URI
+\]
+
+суммируем ме тод ом с умми рован ия Линд е л ё ф а к сумме $URI[[http://libmeta.ru/me/formula/aux/315_2_LINDELEFA]]/URI$, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/315_2_LINDELEFA]]/URI
+\]
+
+и ряд под знаком предела сходится. Метод был введен Э. Линделёфом [1] для суммирования степенных рядов.
+
+Л. м. с. является регулярным (см. Реаулярные методы суммирования) и применяется как аппарат для аналитич. продолжения функций. Если $URI[[http://libmeta.ru/me/formula/aux/315_3_LINDELEFA]]/URI$ - главная ветвь аналитич. функции, регулярной в нуле и представимой рядом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/315_3_LINDELEFA]]/URI
+\]
+
+для малых $URI[[http://libmeta.ru/me/formula/aux/315_4_LINDELEFA]]/URI$, то этот ряд суммируем Л. м. с. к $URI[[http://libmeta.ru/me/formula/aux/315_5_LINDELEFA]]/URI$ во всей звезде функции $URI[[http://libmeta.ru/me/formula/aux/315_6_LINDELEFA]]/URI$, причем равномерно во всякої замкнутой ограниченной области, содержащейся внутри звезды.
+
+Из методов суммирования, определенных преобразованием последовательности в последовательность полунепрерывными матрицами $URI[[http://libmeta.ru/me/formula/aux/315_7_LINDELEFA]]/URI$ типа
+
+\[
+URI[[http://libmeta.ru/me/formula/main/315_4_LINDELEFA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/315_5_LINDELEFA]]/URI
+\]
+
+- целая функция, Ә. Линделёфом рассматривался случай, когда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/315_6_LINDELEFA]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/315_1_LINDELEFA]]/URI $URI[[http://libmeta.ru/me/formula/aux/315_8_LINDELEFA]]/URI$ с такой целої фуункцией наз. м а триц и ї Јін н де л ё фа.</text>
+  <text_orig>поЛУнепрерывный метод суммирования числовых и функциональных рядов, определенный последовательностью функций
+
+$g_{0}(\delta)=1, g_{k}(\delta)=\exp (-\delta k \ln k), \delta&gt;0, k=1,2, \ldots$
+
+Ряд
+
+\[
+\sum_{k=0}^{\infty} u_{k}
+\]
+
+суммируем ме тод ом с умми рован ия Линд е л ё ф а к сумме $s$, если
+
+\[
+\lim _{\delta \rightarrow 0}\left[u_{0}+\sum_{k=0}^{\infty} \exp (-\delta k \ln k) u_{k}\right]=s
+\]
+
+и ряд под знаком предела сходится. Метод был введен Э. Линделёфом [1] для суммирования степенных рядов.
+
+Л. м. с. является регулярным (см. Реаулярные методы суммирования) и применяется как аппарат для аналитич. продолжения функций. Если $f(z)$ - главная ветвь аналитич. функции, регулярной в нуле и представимой рядом
+
+\[
+\sum_{k=0}^{\infty} a_{k} z^{k}
+\]
+
+для малых $z$, то этот ряд суммируем Л. м. с. к $f(z)$ во всей звезде функции $f(z)$, причем равномерно во всякої замкнутой ограниченной области, содержащейся внутри звезды.
+
+Из методов суммирования, определенных преобразованием последовательности в последовательность полунепрерывными матрицами $a_{k}(\omega)$ типа
+
+\[
+a_{k}(\omega)=\frac{c_{k+1} \omega^{k+1}}{E(\omega)}
+\]
+
+где
+
+\[
+E(\omega)=\sum_{k=0}^{\infty} c_{k} \omega^{k}
+\]
+
+- целая функция, Ә. Линделёфом рассматривался случай, когда
+
+\[
+E(\omega)=\sum_{k=0}^{\infty}\left[\frac{\omega}{\ln (k+\beta)}\right]^{k}, \quad \beta&gt;1 .
+\]
+
+Матрицу $\left\|a_{k}(\omega)\right\|$ с такой целої фуункцией наз. м а триц и ї Јін н де л ё фа.
+
+Jum.: [1] L i n d e l ö f E., &quot;J. math.», 1903, t. 9, p. 213théorie des fonctions, $\mathbf{P} .1905 ;[3]$ X a p д и $\Gamma$., Расходящиеся ряды, пер. с англ., М., 1951; [4] К у к Р., Бесконечные матрицы и пространства последовательностей, пер. с англ., М., 1960.
+
+И. И. Волков.</text_orig>
+</article>

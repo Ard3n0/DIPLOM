@@ -1,0 +1,267 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/988_GENIENA" alphabetic_pos="988">
+  <title>ГЕНIЕНА ФОРМАЛЬНАЯ СИСТЕМА</title>
+  <authors/>
+  <pages>
+    <start>461</start>
+    <end>462</end>
+  </pages>
+  <literature>
+    <literature_orig>Лuт.: [1] К л и н и С. К., Введение в метаматематику, пер. с англ., М., 1957; [2] Г е н це н Г., в кн.: Математическая теория логического вывода, Сб. переводов, М., 1967, с. 9-76; c aнrл., M., 1969; [4] P r a w i t z D., Ideas and results in proof theory, в кh.: Proc. 2 Scand. logic symposium, Amst. - L., 1971.</literature_orig>
+    <unit>
+      <author>Клини С. К.</author>
+      <title>Введение в метаматематику</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1957</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Генцен Г.</author>
+      <title>в кн.: Математическая теория логического вывода, Сб. переводов</title>
+      <publication>М.</publication>
+      <year>1967</year>
+      <other>с. 9-76; c aнrл., M., 1969; [4] P r a w i t z D., Ideas and results in proof theory, в кh.: Proc. 2 Scand. logic symposium, Amst. - L., 1971.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/988_1_GENIENA">\begin{gathered}\left.\frac{A, \Gamma \rightarrow B}{\Gamma \rightarrow(A \supset B)}\left(\supset^{+}\right), \quad \frac{A, \Gamma \rightarrow B A, \Sigma \rightarrow \eta B}{\Gamma, \Sigma \rightarrow\urcorner A}(\urcorner^{+}\right), \\\frac{\Gamma \rightarrow A(b)}{\Gamma \rightarrow \forall x A(x)}\left(\nabla^{+}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_2_GENIENA">\begin{gathered}\frac{\Gamma \rightarrow A \Sigma \rightarrow(A \supset B)}{\Gamma, \Sigma \rightarrow B}\left(\supset^{-}\right), \quad \frac{\Gamma \rightarrow \forall x A(x)}{\Gamma \rightarrow A(t)}(\forall-), \\\frac{\Gamma \rightarrow B \Sigma \rightarrow \eta^{-} B}{\Gamma, \Sigma \rightarrow \Delta}\left(7^{-}\right), \quad \frac{\Gamma \rightarrow \eta\urcorner A}{\Gamma \rightarrow A}\left(7^{-}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_3_GENIENA">\frac{\Gamma \rightarrow C}{A, \Gamma \rightarrow C}(\text { у т о н ч е н и е), }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_4_GENIENA">\frac{\Gamma \rightarrow A \quad A, \Sigma \rightarrow \Delta}{\Gamma, \Sigma \rightarrow \Delta}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_5_GENIENA">\begin{gathered}\frac{A, \Gamma \rightarrow B}{\Gamma \rightarrow(A \supset B)}(\longrightarrow \supset), \quad \frac{A, \Gamma \rightarrow \Delta}{\Gamma \rightarrow \Delta,\urcorner A}(\longrightarrow 7), \\\frac{\Gamma \rightarrow \Delta, A(b)}{\Gamma \rightarrow \Delta, \nabla x A(x)}(\longrightarrow \forall),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_6_GENIENA">\begin{aligned}&amp; \frac{\Gamma \rightarrow \Delta, A}{\urcorner A, \Gamma \rightarrow \Delta}(\neg \longrightarrow), \quad \frac{A(t), \Gamma \rightarrow \Delta}{\forall x A(x), \Gamma \rightarrow \Delta}(\forall \longrightarrow), \\&amp; \frac{\Gamma \rightarrow \Delta, A \quad B, \Gamma \rightarrow \Delta}{A \supset B, \Gamma \rightarrow \Delta}(\supset \longrightarrow) .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/988_7_GENIENA">\frac{A(0), A(1), \ldots, A(N), \ldots}{\forall x A(x)} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_1_GENIENA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_2_GENIENA">\{\forall, \supset, 7\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_3_GENIENA">a \rightarrow A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_4_GENIENA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_5_GENIENA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_6_GENIENA">\forall x A(x) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_7_GENIENA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_8_GENIENA">\frac{a, A, \Gamma \rightarrow C}{A, \Gamma \rightarrow C}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_9_GENIENA">\frac{\gamma, A, B, \Sigma \rightarrow C}{\Gamma, B, A, \Sigma \rightarrow C}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_10_GENIENA">a \rightarrow A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_11_GENIENA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_12_GENIENA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_13_GENIENA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_14_GENIENA">a \supset B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_15_GENIENA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_16_GENIENA">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_17_GENIENA">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_18_GENIENA">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_19_GENIENA">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_20_GENIENA">d \mathrm{~K} V</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_21_GENIENA">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_22_GENIENA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_23_GENIENA">\gamma \rightarrow C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_24_GENIENA">\gamma-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_25_GENIENA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_26_GENIENA">\gamma \rightarrow C</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_27_GENIENA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_28_GENIENA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_29_GENIENA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_30_GENIENA">\left.\left(\supset^{-}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_31_GENIENA">\left(\forall^{-}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_32_GENIENA">\left(7^{-}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_33_GENIENA">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_34_GENIENA">\{\supset, 7</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_35_GENIENA">a \rightarrow A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_36_GENIENA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_37_GENIENA">\gamma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_38_GENIENA">\forall x A(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_39_GENIENA">г</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/988_40_GENIENA">\omega</formula>
+  </formulas_aux>
+  <relations n="13">
+    <relation uri="http://libmeta.ru/me/relation/988_1_GENIENA">
+      <rel_text>Секвенция</rel_text>
+      <target>http://libmeta.ru/me/article/1253_SEKVENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_2_GENIENA">
+      <rel_text>множеством</rel_text>
+      <target>http://libmeta.ru/me/article/733_MNOZhESTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_3_GENIENA">
+      <rel_text>системы</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_4_GENIENA">
+      <rel_text>полуформальные</rel_text>
+      <target>http://libmeta.ru/me/article/476_POLUPLOSKOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_5_GENIENA">
+      <rel_text>выводимость</rel_text>
+      <target>http://libmeta.ru/me/article/839_VYVODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_6_GENIENA">
+      <rel_text>секвенции</rel_text>
+      <target>http://libmeta.ru/me/article/1253_SEKVENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_7_GENIENA">
+      <rel_text>непротиворечивость</rel_text>
+      <target>http://libmeta.ru/me/article/972_NEPROTIVOREChIVOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_8_GENIENA">
+      <rel_text>системах</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_9_GENIENA">
+      <rel_text>сечения</rel_text>
+      <target>http://libmeta.ru/me/article/1284_SEChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_10_GENIENA">
+      <rel_text>произвольных</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_11_GENIENA">
+      <rel_text>секвенций</rel_text>
+      <target>http://libmeta.ru/me/article/1253_SEKVENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_12_GENIENA">
+      <rel_text>систем</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/988_13_GENIENA">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>Логико-Математич. исчисление, служащее для формализации и исследования содержательных доказательств, оперирующих с допущениями (гипотезами). Введены Г. Генценом (g. Gentzen, [2]). Г. ф. с. делят на с и с т е м ы е сте с т в енного вы в о д а (или на т у р а л ьны е, имитирующие форму обычных математич. умозаключений и потому особенно подходящие для формализованной записи их) и с е к в е н ц и а ль н ы е (или л о г и с т и ч е с к и е, направленные на анализ возможных доказательств данной формулы, на получение результатов о нормальной форме доказательств и их использование в доказательств теории и в теории доказательства теорем на Эвм). Иногда Г. ф. с. отождествляют с системами секвенциального типа; тем не менее натуральные Г. ф. с. могут использовать секвенции, а секвенциальные $URI[[http://libmeta.ru/me/formula/aux/988_1_GENIENA]]/URI$. ф. с. иногда оформляют в виде исчисления формул, а не секвенций; иногда все Г. ф. с. считают натуральными, т. к. все они в той или иной степени отражают обычные приемы оперирования с логич. связками и допущениями.
+
+Натуральные Г. ф. с. содержат правила введения логич. символов и правила удаления символов. Логич. аксиомы немногочисленны (обычно одна - две). Напр., натуральный вариант классич. исчисления предикатов для языка $URI[[http://libmeta.ru/me/formula/aux/988_2_GENIENA]]/URI$ задается аксиомой $URI[[http://libmeta.ru/me/formula/aux/988_3_GENIENA]]/URI$, п р ави ла ми в в едени я
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_1_GENIENA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/988_4_GENIENA]]/URI$ не входит в $URI[[http://libmeta.ru/me/formula/aux/988_5_GENIENA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/988_6_GENIENA]]/URI$ п р а в и ла м и уд але н и я
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_2_GENIENA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/988_7_GENIENA]]/URI$ - произвольный терм, и с т р ук т у р ны м и п р а в и л а м и:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_3_GENIENA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/988_8_GENIENA]]/URI$ (с о к р а ще н и е п о в т о р е ни й), $URI[[http://libmeta.ru/me/formula/aux/988_9_GENIENA]]/URI$ (п е ре с т ан о в к а).
+
+Секвенция, находящаяся под чертой, наз. з а к л юч е н и е м п р а в и л а, а секвенции, находящиеся над чертой, - п о с ы л к а м и. Аксиома $URI[[http://libmeta.ru/me/formula/aux/988_10_GENIENA]]/URI$ изображает введение допущения $URI[[http://libmeta.ru/me/formula/aux/988_11_GENIENA]]/URI$; правило (つ+) иллюстрирует освобождение от допущения: формула $URI[[http://libmeta.ru/me/formula/aux/988_12_GENIENA]]/URI$ верхней секвенции зависит от допущения $URI[[http://libmeta.ru/me/formula/aux/988_13_GENIENA]]/URI$, формула $URI[[http://libmeta.ru/me/formula/aux/988_14_GENIENA]]/URI$ нижней секвенции уже не зависит от $URI[[http://libmeta.ru/me/formula/aux/988_15_GENIENA]]/URI$. Г. ф. с. натурального типа задается иногда в виде исчисления формул (а не секвенций) с неявной записью зависимости от допущений: вывод в таком исчислении - это древовидный граф, в вершинах к-рого могут находиться произвольные формулы (не обязательно аксиомы), а все переходы производятся по правилам вывода. Эти правила получаются вычеркиванием антецедентов из соответствующих правил натуральной системы, описанной с помощью секвенций, причем в случае, когда происходит освобождение от допущений, добавляются соответствующие условия, напр.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_098eb8115e9caf8409b5g-1.jpg?height=159&amp;width=432&amp;top_left_y=871&amp;top_left_x=1186)
+
+Считается, что вхождение $URI[[http://libmeta.ru/me/formula/aux/988_16_GENIENA]]/URI$ формулы в такой вывод зависит от допущения $URI[[http://libmeta.ru/me/formula/aux/988_17_GENIENA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/988_18_GENIENA]]/URI$ не является аксиомой, находится на вершине вывода над $URI[[http://libmeta.ru/me/formula/aux/988_19_GENIENA]]/URI$, и в ветви, ведущей от рассматриваемого вхождения $URI[[http://libmeta.ru/me/formula/aux/988_20_GENIENA]]/URI$, не происходит освобождения от допущения $URI[[http://libmeta.ru/me/formula/aux/988_21_GENIENA]]/URI$. При истолковании такого вывода каждому вхождению формулы $URI[[http://libmeta.ru/me/formula/aux/988_22_GENIENA]]/URI$ сопоставляется секвенция $URI[[http://libmeta.ru/me/formula/aux/988_23_GENIENA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/988_24_GENIENA]]/URI$ полный список допущений, от которых зависит рассматриваемое вхождение формулы $URI[[http://libmeta.ru/me/formula/aux/988_25_GENIENA]]/URI$. Связь натуральных Г. ф. с. с обычными (гильбертовскими) вариантами соответствующих систем устанавливается с помощью утверждения: $URI[[http://libmeta.ru/me/formula/aux/988_26_GENIENA]]/URI$ выводимо в натуральной системе тогда и только тогда, когда $URI[[http://libmeta.ru/me/formula/aux/988_27_GENIENA]]/URI$ выводимо из $URI[[http://libmeta.ru/me/formula/aux/988_28_GENIENA]]/URI$ с фиксированными переменными в обычной системе.
+
+Натуральные Г. ф. с. в их первоначальной форме плохо приспособлены для поиска вывода путем анализа: при попытке выяснить, по какому правилу из каких посылок могла получиться данная формула (секвенция), возникает неоднозначность - в принципе это может быть правило введения соответствующей логич. связки или любое из правил удаления. При этом множество возможных посылок в правилах удаления потенциально неограничено (за счет варьирования формулы $URI[[http://libmeta.ru/me/formula/aux/988_29_GENIENA]]/URI$ в правиле $URI[[http://libmeta.ru/me/formula/aux/988_30_GENIENA]]/URI$. Поэтому полезно иметь правила, обладающие с в о й с т в о м п о д фо р м у л ьн о с т и: в посылки входят только подформулы заключения, а бесконечность проявляется лишь за счет варьирования вида термов в правилах типа $URI[[http://libmeta.ru/me/formula/aux/988_31_GENIENA]]/URI$. В секвенциальных Г. ф. с. либо все правила обладают свойством подформульности, либо это свойство нарушается лишь для одного правила - п р а в и л а с еч ен и я:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_4_GENIENA]]/URI
+\]
+
+или другого правила близкого вида, напр. для правила $URI[[http://libmeta.ru/me/formula/aux/988_32_GENIENA]]/URI$. Поэтому Г. ф. с., обладающие свойством подформульности, наз. также с в о бодны ми о т с е ч ен и я или $URI[[http://libmeta.ru/me/formula/aux/988_33_GENIENA]]/URI$. ф. с. бе з с ечения.
+
+П р и м е р. Свободный от сечения вариант классич. исчисления предикатов Lk. Выводимые объекты произвольные секвенции, составленные из $URI[[http://libmeta.ru/me/formula/aux/988_34_GENIENA]]/URI$, А формул. Аксиома $URI[[http://libmeta.ru/me/formula/aux/988_35_GENIENA]]/URI$. Сукцедентны е пр а вил а:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_5_GENIENA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/988_36_GENIENA]]/URI$ не входит в $URI[[http://libmeta.ru/me/formula/aux/988_37_GENIENA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/988_38_GENIENA]]/URI$.
+
+Антецед ентны е п р а ви ла:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_6_GENIENA]]/URI
+\]
+
+С т р ук т у р ны е п р а в и л а: сечение, перестановка, утончение и сокращение повторений в антецеденте и сукцеденте (см. URI[[http://libmeta.ru/me/relation/988_1_GENIENA]]/URI).
+
+При сравнении секвенциальных и натуральных Г. ф. с. правилам введения соответствуют сукцедентные правила, правилам удаления - антецедентные правила. При моделировании в секвенциальных Г. Ф. с. правил удаления используется сечение. Свойство подформульности для Lk обеспечивает основная т e o p eм а с ти с е ч ени я): по всякому выводу в Lk можно построить вывод (той же секвенции) без сечения. Эта теорема позволяет устанавливать разрешимость бескванторных систем: из подформул данной бескванторной формулы можно составить лишь конечное число несходных секвенций (секвенции с х о д н ы, если они отличаются лишь порядком и повторениями членов в антецеденте и сукцеденте), из к-рых, в свою очередь, можно составить лишь конечное число «кандидатов» в выводы; данная формула доказуема, если среди этих кандидатов найдется вывод.
+
+Г. ф. с. позволяют отражать содержательные особенности URI[[http://libmeta.ru/me/relation/988_13_GENIENA]]/URI с помощью чисто структурных соображений; так, Г. ф. с. конструктивной математики часто отличаются от соответствующих классич. URI[[http://libmeta.ru/me/relation/988_12_GENIENA]]/URI лишь использованием односукцедентных URI[[http://libmeta.ru/me/relation/988_11_GENIENA]]/URI вместо URI[[http://libmeta.ru/me/relation/988_10_GENIENA]]/URI. В свободных от URI[[http://libmeta.ru/me/relation/988_9_GENIENA]]/URI URI[[http://libmeta.ru/me/relation/988_8_GENIENA]]/URI легко доказывается URI[[http://libmeta.ru/me/relation/988_7_GENIENA]]/URI (т. е. невыводимость пустой URI[[http://libmeta.ru/me/relation/988_6_GENIENA]]/URI), а также URI[[http://libmeta.ru/me/relation/988_5_GENIENA]]/URI одного из дизъюнктивных членов выводимой дизъюнкции.
+
+Важным обобщением $URI[[http://libmeta.ru/me/formula/aux/988_39_GENIENA]]/URI$. ф. с. являются URI[[http://libmeta.ru/me/relation/988_4_GENIENA]]/URI URI[[http://libmeta.ru/me/relation/988_3_GENIENA]]/URI, содержащие правила с бесконечным URI[[http://libmeta.ru/me/relation/988_2_GENIENA]]/URI посылок, напр. п р а в и л о б е с к о н е чн о й и н д у к ц и и ( $URI[[http://libmeta.ru/me/formula/aux/988_40_GENIENA]]/URI$-правило):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/988_7_GENIENA]]/URI
+\]</text>
+  <text_orig>ЛОГИКО-Математич. исчисление, служащее для формализации и исследования содержательных доказательств, оперирующих с допущениями (гипотезами). Введены Г. Генценом (G. Gentzen, [2]). Г. ф. с. делят на с и с т е м ы е сте с т в енного вы в о д а (или на т у р а л ьны е, имитирующие форму обычных математич. умозаключений и потому особенно подходящие для формализованной записи их) и с е к в е н ц и а ль н ы е (или л о г и с т и ч е с к и е, направленные на анализ возможных доказательств данной формулы, на получение результатов о нормальной форме доказательств и их использование в доказательств теории и в теории доказательства теорем на ЭВМ). Иногда Г. ф. с. отождествляют с системами секвенциального типа; тем не менее натуральные Г. ф. с. могут использовать секвенции, а секвенциальные $\Gamma$. ф. с. иногда оформляют в виде исчисления формул, а не секвенций; иногда все Г. ф. с. считают натуральными, т. к. все они в той или иной степени отражают обычные приемы оперирования с логич. связками и допущениями.
+
+Натуральные Г. ф. с. содержат правила введения логич. символов и правила удаления символов. Логич. аксиомы немногочисленны (обычно одна - две). Напр., натуральный вариант классич. исчисления предикатов для языка $\{\forall, \supset, 7\}$ задается аксиомой $A \rightarrow A$, п р ави ла ми в в едени я
+
+\[
+\begin{gathered}
+\left.\frac{A, \Gamma \rightarrow B}{\Gamma \rightarrow(A \supset B)}\left(\supset^{+}\right), \quad \frac{A, \Gamma \rightarrow B A, \Sigma \rightarrow \eta B}{\Gamma, \Sigma \rightarrow\urcorner A}(\urcorner^{+}\right), \\
+\frac{\Gamma \rightarrow A(b)}{\Gamma \rightarrow \forall x A(x)}\left(\nabla^{+}\right),
+\end{gathered}
+\]
+
+где $b$ не входит в $\Gamma$ и $\forall x A(x) ;$ п р а в и ла м и уд але н и я
+
+\[
+\begin{gathered}
+\frac{\Gamma \rightarrow A \Sigma \rightarrow(A \supset B)}{\Gamma, \Sigma \rightarrow B}\left(\supset^{-}\right), \quad \frac{\Gamma \rightarrow \forall x A(x)}{\Gamma \rightarrow A(t)}(\forall-), \\
+\frac{\Gamma \rightarrow B \Sigma \rightarrow \eta^{-} B}{\Gamma, \Sigma \rightarrow \Delta}\left(7^{-}\right), \quad \frac{\Gamma \rightarrow \eta\urcorner A}{\Gamma \rightarrow A}\left(7^{-}\right),
+\end{gathered}
+\]
+
+где $t$ - произвольный терм, и с т р ук т у р ны м и п р а в и л а м и:
+
+\[
+\frac{\Gamma \rightarrow C}{A, \Gamma \rightarrow C}(\text { у т о н ч е н и е), }
+\]
+
+$\frac{A, A, \Gamma \rightarrow C}{A, \Gamma \rightarrow C}$ (с о к р а ще н и е п о в т о р е ни й), $\frac{\Gamma, A, B, \Sigma \rightarrow C}{\Gamma, B, A, \Sigma \rightarrow C}$ (п е ре с т ан о в к а).
+
+Секвенция, находящаяся под чертой, наз. з а к л юч е н и е м п р а в и л а, а секвенции, находящиеся над чертой, - п о с ы л к а м и. Аксиома $A \rightarrow A$ изображает введение допущения $A$; правило (つ+) иллюстрирует освобождение от допущения: формула $B$ верхней секвенции зависит от допущения $A$, формула $A \supset B$ нижней секвенции уже не зависит от $A$. Г. ф. с. натурального типа задается иногда в виде исчисления формул (а не секвенций) с неявной записью зависимости от допущений: вывод в таком исчислении - это древовидный граф, в вершинах к-рого могут находиться произвольные формулы (не обязательно аксиомы), а все переходы производятся по правилам вывода. Эти правила получаются вычеркиванием антецедентов из соответствующих правил натуральной системы, описанной с помощью секвенций, причем в случае, когда происходит освобождение от допущений, добавляются соответствующие условия, напр.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_098eb8115e9caf8409b5g-1.jpg?height=159&amp;width=432&amp;top_left_y=871&amp;top_left_x=1186)
+
+Считается, что вхождение $V$ формулы в такой вывод зависит от допущения $D$, если $D$ не является аксиомой, находится на вершине вывода над $V$, и в ветви, ведущей от рассматриваемого вхождения $D \mathrm{~K} V$, не происходит освобождения от допущения $D$. При истолковании такого вывода каждому вхождению формулы $C$ сопоставляется секвенция $\Gamma \rightarrow C$, где $\Gamma-$ полный список допущений, от которых зависит рассматриваемое вхождение формулы $C$. Связь натуральных Г. ф. с. с обычными (гильбертовскими) вариантами соответствующих систем устанавливается с помощью утверждения: $\Gamma \rightarrow C$ выводимо в натуральной системе тогда и только тогда, когда $C$ выводимо из $\Gamma$ с фиксированными переменными в обычной системе.
+
+Натуральные Г. ф. с. в их первоначальной форме плохо приспособлены для поиска вывода путем анализа: при попытке выяснить, по какому правилу из каких посылок могла получиться данная формула (секвенция), возникает неоднозначность - в принципе это может быть правило введения соответствующей логич. связки или любое из правил удаления. При этом множество возможных посылок в правилах удаления потенциально неограничено (за счет варьирования формулы $A$ в правиле $\left.\left(\supset^{-}\right)\right)$. Поэтому полезно иметь правила, обладающие с в о й с т в о м п о д фо р м у л ьн о с т и: в посылки входят только подформулы заключения, а бесконечность проявляется лишь за счет варьирования вида термов в правилах типа $\left(\forall^{-}\right)$. В секвенциальных Г. ф. с. либо все правила обладают свойством подформульности, либо это свойство нарушается лишь для одного правила - п р а в и л а с еч ен и я:
+
+\[
+\frac{\Gamma \rightarrow A \quad A, \Sigma \rightarrow \Delta}{\Gamma, \Sigma \rightarrow \Delta}
+\]
+
+или другого правила близкого вида, напр. для правила $\left(7^{-}\right)$. Поэтому Г. ф. с., обладающие свойством подформульности, наз. также с в о бодны ми о т с е ч ен и я или $Г$. ф. с. бе з с ечения.
+
+П р и м е р. Свободный от сечения вариант классич. исчисления предикатов LK. Выводимые объекты произвольные секвенции, составленные из $\{\supset, 7$, А формул. Аксиома $A \rightarrow A$. Сукцедентны е пр а вил а:
+
+\[
+\begin{gathered}
+\frac{A, \Gamma \rightarrow B}{\Gamma \rightarrow(A \supset B)}(\longrightarrow \supset), \quad \frac{A, \Gamma \rightarrow \Delta}{\Gamma \rightarrow \Delta,\urcorner A}(\longrightarrow 7), \\
+\frac{\Gamma \rightarrow \Delta, A(b)}{\Gamma \rightarrow \Delta, \nabla x A(x)}(\longrightarrow \forall),
+\end{gathered}
+\]
+
+где $b$ не входит в $\Gamma$ и $\forall x A(x)$.
+
+Антецед ентны е п р а ви ла:
+
+\[
+\begin{aligned}
+&amp; \frac{\Gamma \rightarrow \Delta, A}{\urcorner A, \Gamma \rightarrow \Delta}(\neg \longrightarrow), \quad \frac{A(t), \Gamma \rightarrow \Delta}{\forall x A(x), \Gamma \rightarrow \Delta}(\forall \longrightarrow), \\
+&amp; \frac{\Gamma \rightarrow \Delta, A \quad B, \Gamma \rightarrow \Delta}{A \supset B, \Gamma \rightarrow \Delta}(\supset \longrightarrow) .
+\end{aligned}
+\]
+
+С т р ук т у р ны е п р а в и л а: сечение, перестановка, утончение и сокращение повторений в антецеденте и сукцеденте (см. Секвенция).
+
+При сравнении секвенциальных и натуральных Г. ф. с. правилам введения соответствуют сукцедентные правила, правилам удаления - антецедентные правила. При моделировании в секвенциальных Г. Ф. с. правил удаления используется сечение. Свойство подформульности для LK обеспечивает основная т e o p eм а с ти с е ч ени я): по всякому выводу в LK можно построить вывод (той же секвенции) без сечения. Эта теорема позволяет устанавливать разрешимость бескванторных систем: из подформул данной бескванторной формулы можно составить лишь конечное число несходных секвенций (секвенции с х о д н ы, если они отличаются лишь порядком и повторениями членов в антецеденте и сукцеденте), из к-рых, в свою очередь, можно составить лишь конечное число «кандидатов» в выводы; данная формула доказуема, если среди этих кандидатов найдется вывод.
+
+Г. ф. с. позволяют отражать содержательные особенности теории с помощью чисто структурных соображений; так, Г. ф. с. конструктивной математики часто отличаются от соответствующих классич. систем лишь использованием односукцедентных секвенций вместо произвольных. В свободных от сечения системах легко доказывается непротиворечивость (т. е. невыводимость пустой секвенции), а также выводимость одного из дизъюнктивных членов выводимой дизъюнкции.
+
+Важным обобщением $Г$. ф. с. являются полуформальные системы, содержащие правила с бесконечным множеством посылок, напр. п р а в и л о б е с к о н е чн о й и н д у к ц и и ( $\omega$-правило):
+
+\[
+\frac{A(0), A(1), \ldots, A(N), \ldots}{\forall x A(x)} .
+\]
+
+Лuт.: [1] К л и н и С. К., Введение в метаматематику, пер. с англ., М., 1957; [2] Г е н це н Г., в кн.: Математическая теория логического вывода, Сб. переводов, М., 1967, с. 9-76; c aнrл., M., 1969; [4] P r a w i t z D., Ideas and results in proof theory, в кH.: Proc. 2 Scand. logic symposium, Amst. - L., 1971.</text_orig>
+</article>

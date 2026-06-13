@@ -1,0 +1,763 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/751_FREDGOL'MA" alphabetic_pos="751">
+  <title>ФРЕДГОЛЬМА УРАВНЕНИЕ</title>
+  <authors>
+    <author>В. В. Хведелидзе</author>
+  </authors>
+  <pages>
+    <start>327</start>
+    <end>329</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] С м и р н о в В. И., Курс высшей математики, 6 изд., т. 4, ч. 1, М., 1974; [2] Г у р с а Э., Курс математического анализа, Т. 3, ч. 2, пер. с франц., М.-Јј., 1934; [3] П1 е т р о вс к и й И. Г., Лекщии по теории интегральных уравнений, уравнения, пер. с англ., М., 1957; [5] М и х л и н С. Г., Лекции по линейным ингегральным уравнениям, М., $1959 ;[6] \mathrm{K}$ а нт о р о в и ч Ј. В., К р ы п о в В. И., Приближенные методы![](https://cdn.mathpix.com/cropped/2023_07_09_d8e022684d711c8df3c9g-1.jpg?height=47&amp;width=819&amp;top_left_y=1316&amp;top_left_x=985)&quot;досta math.&quot;, 1918 , v. 41, p. 71-98; рус. пер.: &quot;успехи матем. наук&quot;, 1936, в. 1, c. 175-99; [9] C a r l e m a n T., &quot;math. Z.&quot;, 1930, №2, p. 183-96; [11] S m i t h i e s F., «duke Math. J.), 1941, № 8, p. 107-30.</literature_orig>
+    <unit>
+      <author>Смирнов В. И.</author>
+      <title>Курс высшей математики</title>
+      <publication>6 изд., т. 4, ч. 1, М.</publication>
+      <year>1974</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Гурса Э.</author>
+      <title>Курс математического анализа</title>
+      <publication>ч. 2, пер. с франц., М.-Јј.</publication>
+      <year>1934</year>
+      <other>Т. 3</other>
+    </unit>
+    <unit>
+      <author>П1етровский И. Г.</author>
+      <title>Лекщии по теории интегральных уравнений, уравнения</title>
+      <publication>пер. с англ., М.</publication>
+      <year>1957</year>
+      <other>Лекции по линейным ингегральным уравнениям, М., $1959 ;[6] \mathrm{K}$ а нт о р о в и ч Ј. В., К р ы п о в В. И., Приближенные методы![](https://cdn.mathpix.com/cropped/2023_07_09_d8e022684d711c8df3c9g-1.jpg?height=47&amp;width=819&amp;top_left_y=1316&amp;top_left_x=985)&quot;досta math.&quot;, 1918, v. 41, p. 71-98; рус. пер.: &quot;успехи матем. наук&quot;, 1936, в. 1, c. 175-99; [9] C a r l e m a n T., &quot;math. Z.&quot;, 1930, №2, p. 183-96; [11] S m i t h i e s F., «duke Math. J.), 1941, № 8, p. 107-30.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/751_1_FREDGOL'MA">\int_{a}^{b} K(x, s) \varphi(s) d s=f(x), x \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_2_FREDGOL'MA">\varphi(x)-\lambda \int_{a}^{b} K(x, s) \varphi(s) d s=f(x), x \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_3_FREDGOL'MA">K \varphi(x)=\int_{a}^{b} K(x, s) \varphi(s) d s, x \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_4_FREDGOL'MA">B^{2}=\int_{a}^{b} \int_{a}^{b}|K(x, s)|^{2} d x d s&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_5_FREDGOL'MA">\varphi(x)=f(x)+\lambda K \varphi(x), x \in[a, b] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_6_FREDGOL'MA">\varphi_{n}=f+\lambda K \varphi_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_7_FREDGOL'MA">\varphi_{n}=\sum_{m=0}^{n} \lambda^{m} K_{m} f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_8_FREDGOL'MA">\sum_{m=0}^{\infty} \lambda^{m} K_{m} f</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_9_FREDGOL'MA">\int_{a}^{b}|K(x, s)|^{2} d s \leqslant A, x \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_10_FREDGOL'MA">\varphi(x)-\lambda h \sum_{j=1}^{n} K\left(x, s_{j}\right) \varphi\left(s_{j}\right)=f(x), x \in[a, b] .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_11_FREDGOL'MA">\varphi_{i}-\lambda h \sum_{j=0}^{n} K_{i j} \varphi_{j}=f_{i}, i=1,2, \ldots, n,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_12_FREDGOL'MA">\varphi(x) \approx f(x)+\lambda \frac{Q\left(x, s_{1}, \ldots, s_{n} ; \lambda\right)}{\Delta(\lambda)},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_13_FREDGOL'MA">\varphi(x)=f(x)+\lambda \int_{a}^{b} R(x, s ; \lambda) f(s) d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_14_FREDGOL'MA">R(x, s ; \lambda)=D(x, s ; \lambda) / D(\lambda),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_15_FREDGOL'MA">D(\lambda)=\sum_{m=0}^{\infty} \frac{(-1)^{m}}{m !} A_{m} \lambda^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_16_FREDGOL'MA">D(x, s ; \lambda)=\sum_{m=0}^{\infty} \frac{(-1)^{m}}{m !} B_{m}(x, s) \lambda^{m} \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_17_FREDGOL'MA">A_{m}=\int_{a}^{b} \ldots \int_{a}^{b} K\left(\begin{array}{lll}s_{1}, s_{2}, \ldots, &amp; s_{m} \\s_{1}, s_{2}, \ldots, &amp; s_{m}\end{array}\right) d s_{1} \ldots d s_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_18_FREDGOL'MA">\begin{gathered}A_{0}=1, \quad B_{0}(x, s)=K(x, s), \Lambda_{m}=\int_{a}^{b} B_{m-1}(s, s) d s, \\B_{m}(x, s)=K(x, s) A_{m}-m \int_{a}^{b} K(x, t) B_{m-1}(t, s) d t \\m=1,2, \ldots .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_19_FREDGOL'MA">\varphi(x)-\lambda \int_{a}^{b} K(x, s) \varphi(s) d s=0, x \in[a, b],</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_20_FREDGOL'MA">\begin{aligned}&amp; B_{0}\left(\begin{array}{ccc}x_{1}, &amp; \ldots, &amp; x_{p} \\s_{1}, &amp; \ldots, &amp; s_{p}\end{array}\right)=K\left(\begin{array}{lll}x_{1}, &amp; \ldots, &amp; x_{p} \\s_{1}, &amp; \ldots, &amp; s_{p}\end{array}\right) \\&amp; B_{m}\left(\begin{array}{c}x_{1}, \ldots, x_{p} \\s_{1}, \ldots, s_{p}\end{array}\right)=\int_{a}^{b} \ldots \int_{a}^{b} K\left(\begin{array}{c}x_{1}, \ldots, x_{p}, t_{1}, \ldots, t_{m} \\s_{1}, \ldots, s_{p}, t_{1}, \ldots, t_{m}\end{array}\right) \times \\&amp; \times d t_{1} \ldots d t_{m} \text {. }\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_21_FREDGOL'MA">\begin{aligned}&amp; D\left(\begin{array}{c}x_{1}, \ldots, x_{p} \\s_{1}, \ldots, s_{p} ; \lambda\end{array}\right)= \\&amp; =\sum_{m=0}^{\infty} \frac{(-1)^{m}}{m !} B_{m}\left(\begin{array}{c}x_{1}, \ldots, x_{p} \\s_{1}, \ldots, s_{p}\end{array}\right) \lambda^{m+p} \text {, }\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_22_FREDGOL'MA">D\left(\begin{array}{lll}x_{1}^{\prime}, &amp; \ldots, &amp; x_{q}^{\prime} \\s_{1}^{\prime}, &amp; \ldots, &amp; s_{q}^{\prime}\end{array}\right) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_23_FREDGOL'MA">\varphi_{k}(x)=\frac{D\left(\begin{array}{c}x_{1}^{\prime}, \ldots, x_{k-1}^{\prime}, x, x_{k+1}^{\prime}, \ldots, x_{q}^{\prime} \\s_{1}^{\prime}, \ldots, s_{k-1}^{\prime}, s_{k}^{\prime}, s_{k+1}^{\prime}, \ldots, s_{q}^{\prime} ; \lambda_{0}\end{array}\right)}{D\left(\begin{array}{l}x_{1}^{\prime}, \ldots, x_{q}^{\prime} \\s_{1}^{\prime}, \ldots, s_{q}^{\prime} ;\end{array} \lambda_{0}\right)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_24_FREDGOL'MA">\psi(x)-\lambda_{0} \int_{a}^{b} K(s, x) \psi(s) d s=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_25_FREDGOL'MA">\int_{a}^{b} f(t) \psi_{k}(t) d t=0, \quad k=1,2, \ldots, q,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_26_FREDGOL'MA">\varphi(x)=f(x)+\int_{a}^{b} H(x, s) f(s) d s+\sum_{k=1}^{q} c_{k} \varphi_{k}(x),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_27_FREDGOL'MA">H(x, s)=\frac{D\left(\begin{array}{l}x, x_{1}^{\prime}, \ldots, x_{q}^{\prime} \\s, s_{1}^{\prime}, \ldots, s_{q}^{\prime} ; \lambda_{0}\end{array}\right)}{D\left(\begin{array}{l}x_{1}^{\prime}, \ldots, x_{q}^{\prime} ; \lambda_{0} \\s_{1}^{\prime}, \ldots, s_{q}^{\prime}\end{array}\right)} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_28_FREDGOL'MA">\psi(x)-\overline{\lambda_{0}} \int_{a}^{b} \overline{K(s, x)} \psi(s) d s=0 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_29_FREDGOL'MA">\int_{a}^{b} f(t) \overline{\psi_{k}(t)} d t=0, \quad k=1, \ldots, q .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_30_FREDGOL'MA">\psi-V^{*} \psi=0, \quad \psi \in E^{*},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_31_FREDGOL'MA">\varphi-\lambda V \varphi=f, \quad f, \varphi \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/751_32_FREDGOL'MA">\varphi_{0}+\sum_{k=1}^{q} c_{k} \varphi_{k}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_1_FREDGOL'MA">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_2_FREDGOL'MA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_3_FREDGOL'MA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_4_FREDGOL'MA">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_5_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_6_FREDGOL'MA">e=l_{2}([a, b])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_7_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_8_FREDGOL'MA">f, \varphi, K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_9_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_10_FREDGOL'MA">e=l_{2}([a, b])</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_11_FREDGOL'MA">\varphi_{0}=f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_12_FREDGOL'MA">(n-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_13_FREDGOL'MA">\varphi_{n-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_14_FREDGOL'MA">k_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_15_FREDGOL'MA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_16_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_17_FREDGOL'MA">|\lambda|&lt;b^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_18_FREDGOL'MA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_19_FREDGOL'MA">|\lambda| \geqslant B^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_20_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_21_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_22_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_23_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_24_FREDGOL'MA">[a, b] \times</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_25_FREDGOL'MA">\times[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_26_FREDGOL'MA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_27_FREDGOL'MA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_28_FREDGOL'MA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_29_FREDGOL'MA">h=(b-a) / n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_30_FREDGOL'MA">x=s_{1}, \ldots, s_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_31_FREDGOL'MA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_32_FREDGOL'MA">s_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_33_FREDGOL'MA">f\left(s_{i}\right)=f_{i}, \varphi\left(s_{i}\right)=\varphi_{i}, K\left(s_{i}, s_{j}\right)=K_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_34_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_35_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_36_FREDGOL'MA">\varphi_{i}=\varphi\left(s_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_37_FREDGOL'MA">(7)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_38_FREDGOL'MA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_39_FREDGOL'MA">\delta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_40_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_41_FREDGOL'MA">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_42_FREDGOL'MA">b_{m}(x, s)=\int_{a}^{b} \ldots \int_{a}^{b} K\left(\begin{array}{ccc}x, s_{1}, \ldots, s_{m} \\ s, s_{1}, \ldots, s_{m}\end{array}\right) d s_{1} \ldots d s_{m},(15)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_43_FREDGOL'MA">k\left(\begin{array}{c}x_{1}, x_{2}, \ldots, x_{n} \\ s_{1}, s_{2}, \ldots, s_{n}\end{array}\right)=\left|\begin{array}{c}K\left(x_{1}, s_{1}\right) K\left(x_{1}, s_{2}\right) \ldots K\left(x_{1}, s_{n}\right) \\ \left.\left.\dot{K\left(x_{n}\right.}, \dot{s_{1}}\right) \dot{K} \dot{\left(x_{n}\right.}, \dot{s_{2}}\right) \ldots \dot{K}\left(\dot{x}_{n}, \dot{s_{n}}\right)\end{array}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_44_FREDGOL'MA">a_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_45_FREDGOL'MA">b_{n}(x, s)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_46_FREDGOL'MA">d(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_47_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_48_FREDGOL'MA">d(x, s ; \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_49_FREDGOL'MA">d(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_50_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_51_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_52_FREDGOL'MA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_53_FREDGOL'MA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_54_FREDGOL'MA">[a, b] \times[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_55_FREDGOL'MA">d(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_56_FREDGOL'MA">d(x, s ; \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_57_FREDGOL'MA">d(\lambda) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_58_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_59_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_60_FREDGOL'MA">d(\lambda)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_61_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_62_FREDGOL'MA">\left(1_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_63_FREDGOL'MA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_64_FREDGOL'MA">d(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_65_FREDGOL'MA">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_66_FREDGOL'MA">d(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_67_FREDGOL'MA">p=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_68_FREDGOL'MA">d(x, s ; \lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_69_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_70_FREDGOL'MA">x_{1}, \ldots, x_{p}, s_{1}, \ldots, s_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_71_FREDGOL'MA">a \leqslant x_{n} \leqslant b, \quad a \leqslant s_{n} \leqslant b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_72_FREDGOL'MA">k=1, \ldots, p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_73_FREDGOL'MA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_74_FREDGOL'MA">k ; D\left(\lambda_{0}\right)=0, \lambda_{0} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_75_FREDGOL'MA">d(0)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_76_FREDGOL'MA">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_77_FREDGOL'MA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_78_FREDGOL'MA">d\left(\lambda_{0}\right)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_79_FREDGOL'MA">q \leqslant r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_80_FREDGOL'MA">d\left(\lambda_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_81_FREDGOL'MA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_82_FREDGOL'MA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_83_FREDGOL'MA">x_{1}^{\prime}, \ldots, x_{q}^{\prime}, s_{1}^{\prime}, \ldots, s_{q}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_84_FREDGOL'MA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_85_FREDGOL'MA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_86_FREDGOL'MA">\left(1_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_87_FREDGOL'MA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_88_FREDGOL'MA">\varphi_{1}, \ldots ., \varphi_{q} \cdot</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_89_FREDGOL'MA">\left(1_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_90_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_91_FREDGOL'MA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_92_FREDGOL'MA">\varphi_{1}, \ldots, \varphi_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_93_FREDGOL'MA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_94_FREDGOL'MA">\left(1_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_95_FREDGOL'MA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_96_FREDGOL'MA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_97_FREDGOL'MA">\left(1_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_98_FREDGOL'MA">\left(1_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_99_FREDGOL'MA">(17)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_100_FREDGOL'MA">\left(1_{0}^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_101_FREDGOL'MA">k(s, x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_102_FREDGOL'MA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_103_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_104_FREDGOL'MA">q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_105_FREDGOL'MA">\psi_{1}, \ldots, \psi_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_106_FREDGOL'MA">c_{1}, \ldots, c_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_107_FREDGOL'MA">\left\{\varphi_{k}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_108_FREDGOL'MA">\left(1_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_109_FREDGOL'MA">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_110_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_111_FREDGOL'MA">\lambda=\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_112_FREDGOL'MA">\left.1_{0}^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_113_FREDGOL'MA">f, \varphi, K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_114_FREDGOL'MA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_115_FREDGOL'MA">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_116_FREDGOL'MA">e^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_117_FREDGOL'MA">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_118_FREDGOL'MA">v^{*}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_119_FREDGOL'MA">\varphi-V \varphi=0, \quad \varphi \in E</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_120_FREDGOL'MA">\varphi_{1}, \ldots, \varphi_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_121_FREDGOL'MA">\psi_{1}, \ldots, \psi_{q}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_122_FREDGOL'MA">\varphi_{k}(f)=0, \quad k=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_123_FREDGOL'MA">2, \ldots, q</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_124_FREDGOL'MA">\varphi_{0}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_125_FREDGOL'MA">c_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_126_FREDGOL'MA">r \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_127_FREDGOL'MA">|\lambda| \leqslant r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_128_FREDGOL'MA">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_129_FREDGOL'MA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_130_FREDGOL'MA">\varphi-\lambda V=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_131_FREDGOL'MA">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/751_132_FREDGOL'MA">d</formula>
+  </formulas_aux>
+  <relations n="11">
+    <relation uri="http://libmeta.ru/me/relation/751_1_FREDGOL'MA">
+      <rel_text>Интегральный</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_2_FREDGOL'MA">
+      <rel_text>Интегральное</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_3_FREDGOL'MA">
+      <rel_text>уравнение с симметричным ядром</rel_text>
+      <target>http://libmeta.ru/me/article/601_INTEGRAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_4_FREDGOL'MA">
+      <rel_text>Интегральное</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_5_FREDGOL'MA">
+      <rel_text>интеграл</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_6_FREDGOL'MA">
+      <rel_text>интеграла</rel_text>
+      <target>http://libmeta.ru/me/article/583_INTEGRA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_7_FREDGOL'MA">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_8_FREDGOL'MA">
+      <rel_text>измеримое множество</rel_text>
+      <target>http://libmeta.ru/me/article/504_IZMERIMOंE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_9_FREDGOL'MA">
+      <rel_text>уравнении</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_10_FREDGOL'MA">
+      <rel_text>отрезка</rel_text>
+      <target>http://libmeta.ru/me/article/135_OTREZO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/751_11_FREDGOL'MA">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+  </relations>
+  <text>интегральное уравнение вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_1_FREDGOL'MA]]/URI
+\]
+
+— Ф. у. 1-г о р о д а, или вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_2_FREDGOL'MA]]/URI
+\]
+
+- Ф. у. 2-г о р о д а, если интөгральный оператор
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_3_FREDGOL'MA]]/URI
+\]
+
+является виолне непрерывным в нек-ром функциональном пространстве $URI[[http://libmeta.ru/me/formula/aux/751_1_FREDGOL'MA]]/URI$. Предполагается, что свободчый член $URI[[http://libmeta.ru/me/formula/aux/751_2_FREDGOL'MA]]/URI$ и искомая функция $URI[[http://libmeta.ru/me/formula/aux/751_3_FREDGOL'MA]]/URI$ принадлежат пространству $URI[[http://libmeta.ru/me/formula/aux/751_4_FREDGOL'MA]]/URI$ : Важным примером Ф. у. является уравнение, в к-ром ядро $URI[[http://libmeta.ru/me/formula/aux/751_5_FREDGOL'MA]]/URI$ удовлетворяет условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_4_FREDGOL'MA]]/URI
+\]
+
+a $URI[[http://libmeta.ru/me/formula/aux/751_6_FREDGOL'MA]]/URI$ Численный параметр $URI[[http://libmeta.ru/me/formula/aux/751_7_FREDGOL'MA]]/URI$ и функции $URI[[http://libmeta.ru/me/formula/aux/751_8_FREDGOL'MA]]/URI$ могут принимать как действительные, так и комплексныө значения. О Ф. у. 1-го рода см. URI[[http://libmeta.ru/me/relation/751_4_FREDGOL'MA]]/URI URI[[http://libmeta.ru/me/relation/751_3_FREDGOL'MA]]/URI и Некорректные задачи. Ниже рассматриваются лишь Ф. у. 2-го рода.
+
+М етод послед о в т т льных при ближений р е шен ия Ф. у. 2-го ро д а. Этопервый метод, к-рый был предложен для решения уравнения (1). Для формулировки этого метода пусть ураввение (1) записано в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_5_FREDGOL'MA]]/URI
+\]
+
+Предполагается, что ядро $URI[[http://libmeta.ru/me/formula/aux/751_9_FREDGOL'MA]]/URI$ удовлетворяет условию (3), а $URI[[http://libmeta.ru/me/formula/aux/751_10_FREDGOL'MA]]/URI$. Пусть начальное приближение искомого решения $URI[[http://libmeta.ru/me/formula/aux/751_11_FREDGOL'MA]]/URI$; если $URI[[http://libmeta.ru/me/formula/aux/751_12_FREDGOL'MA]]/URI$-е приближени $URI[[http://libmeta.ru/me/formula/aux/751_13_FREDGOL'MA]]/URI$ построено, то
+
+Iри этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_6_FREDGOL'MA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_7_FREDGOL'MA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/751_14_FREDGOL'MA]]/URI$ обозначает $URI[[http://libmeta.ru/me/formula/aux/751_15_FREDGOL'MA]]/URI$-е итерированное ядро ядра $URI[[http://libmeta.ru/me/formula/aux/751_16_FREDGOL'MA]]/URI$. Функция (5) является частичной суммой ряда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_8_FREDGOL'MA]]/URI
+\]
+
+к-рый наз. р я д о м Јi и у в и л л я- Н е й м а на). Если $URI[[http://libmeta.ru/me/formula/aux/751_17_FREDGOL'MA]]/URI$, то ряд (6) сходится в среднем к решению уравнения (1), Ii это решение - единственное (см., напр., [5]). Если существует такая положительная постоянная $URI[[http://libmeta.ru/me/formula/aux/751_18_FREDGOL'MA]]/URI$, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_9_FREDGOL'MA]]/URI
+\]
+
+то ряд (6) сходится абсолютно и равномерно. Вообще говоря, ряд (6) расходится, если $URI[[http://libmeta.ru/me/formula/aux/751_19_FREDGOL'MA]]/URI$. Именно, это так, если ядро $URI[[http://libmeta.ru/me/formula/aux/751_20_FREDGOL'MA]]/URI$ имеет характеристич. число. Если же ядро не имеөт характеристич. чисел (как, напр., в случае ядра Вольтерра), то ряд (6) сходится при любом значении $URI[[http://libmeta.ru/me/formula/aux/751_21_FREDGOL'MA]]/URI$.
+
+М е тод Фред гольма решения Ф. у. 2 - г о р о д а. Метод последовательных приблиякений дает возможность цостроить решение уравнения (1), вообще говоря, лишь при малых значениях параметра 2. Метод, дающий возможность решить уравнение (1) для любого значения параметра $URI[[http://libmeta.ru/me/formula/aux/751_22_FREDGOL'MA]]/URI$, был впервые предложен Ә. Фредгольмом (e. Fredholm, 1903). В предположении, что ядро $URI[[http://libmeta.ru/me/formula/aux/751_23_FREDGOL'MA]]/URI$ нопрерывно на квадрате $URI[[http://libmeta.ru/me/formula/aux/751_24_FREDGOL'MA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/751_25_FREDGOL'MA]]/URI$, а свободный члөн и искомое решение непрерывны на сегменте $URI[[http://libmeta.ru/me/formula/aux/751_26_FREDGOL'MA]]/URI$, ниже кратко описана идея әтого мөтода.
+
+Отрезок $URI[[http://libmeta.ru/me/formula/aux/751_27_FREDGOL'MA]]/URI$ делится на $URI[[http://libmeta.ru/me/formula/aux/751_28_FREDGOL'MA]]/URI$ равных частей длины $URI[[http://libmeta.ru/me/formula/aux/751_29_FREDGOL'MA]]/URI$. Если заменить интеграл в (1) интегральной суммой, то точное уравнение (1) заменяется приближенным
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_10_FREDGOL'MA]]/URI
+\]
+
+Полагая в (7) последовательно $URI[[http://libmeta.ru/me/formula/aux/751_30_FREDGOL'MA]]/URI$ для определения приближенного значения неизвестной функции $URI[[http://libmeta.ru/me/formula/aux/751_31_FREDGOL'MA]]/URI$ в точках $URI[[http://libmeta.ru/me/formula/aux/751_32_FREDGOL'MA]]/URI$, получают линейную алгебраич. систему
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_11_FREDGOL'MA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/751_33_FREDGOL'MA]]/URI$. Разрешимость системы (8) зависит от значения определителя
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_d7d5e31992ab74d4cf57g-1.jpg?height=127&amp;width=663&amp;top_left_y=2154&amp;top_left_x=1063)
+
+к-рый является многочленом относительно $URI[[http://libmeta.ru/me/formula/aux/751_34_FREDGOL'MA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/751_35_FREDGOL'MA]]/URI$ отличен от корней этого многочлена, то система (8) разрешима. Решив ату систему и подставив полученные значения $URI[[http://libmeta.ru/me/formula/aux/751_36_FREDGOL'MA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/751_37_FREDGOL'MA]]/URI$, получают приближенное решение уравнения (1)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_12_FREDGOL'MA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/751_38_FREDGOL'MA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/751_39_FREDGOL'MA]]/URI$ - многочлены относительно $URI[[http://libmeta.ru/me/formula/aux/751_40_FREDGOL'MA]]/URI$. Приведенный путь является одним из возможных вариантов построения приближенного решения Ф. у. (1) (см. [6]).
+
+Можно ожидать, что в пределе, когда $URI[[http://libmeta.ru/me/formula/aux/751_41_FREDGOL'MA]]/URI$ так, что интегральная сумма в (7) совпадает с интегралом в (1), предел правой части в (9) совпадает с точным решением уравнения (1). С помощью формальных переходов к пределам в соответствующих выражениях Э. Фредгольм установил формулу, к-рая должна представлять решение уравнения (1)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_13_FREDGOL'MA]]/URI
+\]
+
+гдө
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_14_FREDGOL'MA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/751_15_FREDGOL'MA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/751_16_FREDGOL'MA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_17_FREDGOL'MA]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/751_42_FREDGOL'MA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/751_43_FREDGOL'MA]]/URI$. Для вычисления $URI[[http://libmeta.ru/me/formula/aux/751_44_FREDGOL'MA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/751_45_FREDGOL'MA]]/URI$ вместо формул (14), (15) можно воспользоваться следующими рекуррентными соотношениями:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_18_FREDGOL'MA]]/URI
+\]
+
+Ряды (12) и (13) наз. р я д а м и Ф р е д г о л м а. Функцию $URI[[http://libmeta.ru/me/formula/aux/751_46_FREDGOL'MA]]/URI$ наз. о і р е ле ли те ле м Ф г о л ь м а ядра $URI[[http://libmeta.ru/me/formula/aux/751_47_FREDGOL'MA]]/URI$, функцию $URI[[http://libmeta.ru/me/formula/aux/751_48_FREDGOL'MA]]/URI$ - первым м ин о р о м Ф р е д г о лм а пля $URI[[http://libmeta.ru/me/formula/aux/751_49_FREDGOL'MA]]/URI$, а функцию (11) - р е 3 о ль в е н т о ї (или р а з р е ші а ю щ и м я д р о м, илии в 3 а и ным я д р о м) ядра $URI[[http://libmeta.ru/me/formula/aux/751_50_FREDGOL'MA]]/URI$ (или уравнения (1)).
+
+Обоснование упомянутых выше предельных переходов, к-рые приводят к формуле (10), было сделано Д. Гильбертом (см. URI[[http://libmeta.ru/me/relation/751_2_FREDGOL'MA]]/URI уравнение). Э. Фредгольм, построив формально ряды (12), (13), затем непосредственно строго доказал, что они сходятся для всех конечных значений параметра $URI[[http://libmeta.ru/me/formula/aux/751_51_FREDGOL'MA]]/URI$, а ряд (13), кроме того, сходится равномерно гіо $URI[[http://libmeta.ru/me/formula/aux/751_52_FREDGOL'MA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/751_53_FREDGOL'MA]]/URI$ на квадрате $URI[[http://libmeta.ru/me/formula/aux/751_54_FREDGOL'MA]]/URI$. Установление связи между функциями $URI[[http://libmeta.ru/me/formula/aux/751_55_FREDGOL'MA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/751_56_FREDGOL'MA]]/URI$ позволило ему доказать следующее предложение: если $URI[[http://libmeta.ru/me/formula/aux/751_57_FREDGOL'MA]]/URI$, то уравнение (1) имеет одно и только одно решение, к-рое выражается формулої (10).
+
+Из этого предложения вытекает, что вначение параметра $URI[[http://libmeta.ru/me/formula/aux/751_58_FREDGOL'MA]]/URI$, когорое не является корнем определителя Фредгольма, есть регулярное значение для однородного уравнения, соответствуюпего уравнению (1):
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_19_FREDGOL'MA]]/URI
+\]
+
+т. е. это уравнение в рассматриваемом случае имеет лишь нулевое решение. Если $URI[[http://libmeta.ru/me/formula/aux/751_59_FREDGOL'MA]]/URI$ - корень уравнения $URI[[http://libmeta.ru/me/formula/aux/751_60_FREDGOL'MA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/751_61_FREDGOL'MA]]/URI$ есть полюс резольвенты (11) уравнения $URI[[http://libmeta.ru/me/formula/aux/751_62_FREDGOL'MA]]/URI$ и характеристич. число этого последнего уравнения. Чтобы построить по методу Фредгольма собственные функции, принадлежащие ртому характеристическому числу, вводится понятие $URI[[http://libmeta.ru/me/formula/aux/751_63_FREDGOL'MA]]/URI$-го минора $URI[[http://libmeta.ru/me/formula/aux/751_64_FREDGOL'MA]]/URI$. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_20_FREDGOL'MA]]/URI
+\]
+
+Тогда $URI[[http://libmeta.ru/me/formula/aux/751_65_FREDGOL'MA]]/URI$-м м и н о р о м для $URI[[http://libmeta.ru/me/formula/aux/751_66_FREDGOL'MA]]/URI$ наз. ряд
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_21_FREDGOL'MA]]/URI
+\]
+
+к-рый при $URI[[http://libmeta.ru/me/formula/aux/751_67_FREDGOL'MA]]/URI$ обращается в $URI[[http://libmeta.ru/me/formula/aux/751_68_FREDGOL'MA]]/URI$. Ряд (16) сходится абсолютно для всех конечных значений $URI[[http://libmeta.ru/me/formula/aux/751_69_FREDGOL'MA]]/URI$ и равномерно относительно $URI[[http://libmeta.ru/me/formula/aux/751_70_FREDGOL'MA]]/URI$, Удовлетворяющих неравенствам $URI[[http://libmeta.ru/me/formula/aux/751_71_FREDGOL'MA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/751_72_FREDGOL'MA]]/URI$. Пусть теперь $URI[[http://libmeta.ru/me/formula/aux/751_73_FREDGOL'MA]]/URI$ есть характеристич. число ядра $URI[[http://libmeta.ru/me/formula/aux/751_74_FREDGOL'MA]]/URI$, так как $URI[[http://libmeta.ru/me/formula/aux/751_75_FREDGOL'MA]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/751_76_FREDGOL'MA]]/URI$-кратность корня $URI[[http://libmeta.ru/me/formula/aux/751_77_FREDGOL'MA]]/URI$ уравнения $URI[[http://libmeta.ru/me/formula/aux/751_78_FREDGOL'MA]]/URI$. Существует такое натуральное число $URI[[http://libmeta.ru/me/formula/aux/751_79_FREDGOL'MA]]/URI$, тто все миноры для $URI[[http://libmeta.ru/me/formula/aux/751_80_FREDGOL'MA]]/URI$, порядок к-рых меныше $URI[[http://libmeta.ru/me/formula/aux/751_81_FREDGOL'MA]]/URI$, тождественно равны нулю, а минор порядка $URI[[http://libmeta.ru/me/formula/aux/751_82_FREDGOL'MA]]/URI$ отличен от нуля. Существует нек-рая совокупность знатений $URI[[http://libmeta.ru/me/formula/aux/751_83_FREDGOL'MA]]/URI$ таких, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_22_FREDGOL'MA]]/URI
+\]
+
+Число $URI[[http://libmeta.ru/me/formula/aux/751_84_FREDGOL'MA]]/URI$ наз. равгом характеристич. числа $URI[[http://libmeta.ru/me/formula/aux/751_85_FREDGOL'MA]]/URI$. Функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_23_FREDGOL'MA]]/URI
+\]
+
+являются линейно независимыми решениями уравнения $URI[[http://libmeta.ru/me/formula/aux/751_86_FREDGOL'MA]]/URI$.
+
+Пусть характеристич. числу $URI[[http://libmeta.ru/me/formula/aux/751_87_FREDGOL'MA]]/URI$ принадлежат собственные функции $URI[[http://libmeta.ru/me/formula/aux/751_88_FREDGOL'MA]]/URI$ Эти функции наз.
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_95c9fa747dddf0af24ccg-1.jpg?height=45&amp;width=809&amp;top_left_y=1632&amp;top_left_x=992)
+ц и й уравнения $URI[[http://libmeta.ru/me/formula/aux/751_89_FREDGOL'MA]]/URI$ (или ядра $URI[[http://libmeta.ru/me/formula/aux/751_90_FREDGOL'MA]]/URI$ ), принадлежащих числу $URI[[http://libmeta.ru/me/formula/aux/751_91_FREDGOL'MA]]/URI$, если любая другая собственная функция, принадлежащая этому числу, есть линейная комбинация функций $URI[[http://libmeta.ru/me/formula/aux/751_92_FREDGOL'MA]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/751_93_FREDGOL'MA]]/URI$ является характеристич. числом однородного уравнения $URI[[http://libmeta.ru/me/formula/aux/751_94_FREDGOL'MA]]/URI$ с рангом $URI[[http://libmeta.ru/me/formula/aux/751_95_FREDGOL'MA]]/URI$, то оно будет также собственным значением с рангом $URI[[http://libmeta.ru/me/formula/aux/751_96_FREDGOL'MA]]/URI$ и для союзного с $URI[[http://libmeta.ru/me/formula/aux/751_97_FREDGOL'MA]]/URI$ уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_24_FREDGOL'MA]]/URI
+\]
+
+причем полная система собственных функций уравнения $URI[[http://libmeta.ru/me/formula/aux/751_98_FREDGOL'MA]]/URI$ определяется формулами $URI[[http://libmeta.ru/me/formula/aux/751_99_FREDGOL'MA]]/URI$, а для уравнения $URI[[http://libmeta.ru/me/formula/aux/751_100_FREDGOL'MA]]/URI$ - аналогичными формулами, построенными для союзного ядра $URI[[http://libmeta.ru/me/formula/aux/751_101_FREDGOL'MA]]/URI$.
+
+Если $URI[[http://libmeta.ru/me/formula/aux/751_102_FREDGOL'MA]]/URI$ - характеристич. число ядра $URI[[http://libmeta.ru/me/formula/aux/751_103_FREDGOL'MA]]/URI$ с рангом $URI[[http://libmeta.ru/me/formula/aux/751_104_FREDGOL'MA]]/URI$, то уравнение (1) имеет решение тогда и только тогда, когда удовлетворяются условия:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_25_FREDGOL'MA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/751_105_FREDGOL'MA]]/URI$ составляют полную систему собствен- ных функций уравнения (10́). Если условия (18) выполняются, то все решения уравнения (1) определяются формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_26_FREDGOL'MA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/751_106_FREDGOL'MA]]/URI$ - произвольные постоянные, $URI[[http://libmeta.ru/me/formula/aux/751_107_FREDGOL'MA]]/URI$ - полная система собственных функций однородного уравнения $URI[[http://libmeta.ru/me/formula/aux/751_108_FREDGOL'MA]]/URI$, а функция $URI[[http://libmeta.ru/me/formula/aux/751_109_FREDGOL'MA]]/URI$ определяется равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_27_FREDGOL'MA]]/URI
+\]
+
+Непрерывное ядро $URI[[http://libmeta.ru/me/formula/aux/751_110_FREDGOL'MA]]/URI$ имеет не более счетного множества характеристич. чисел, к-рые могут иметь предельную точку только при $URI[[http://libmeta.ru/me/formula/aux/751_111_FREDGOL'MA]]/URI$.
+
+Сформулированные выше предложения для уравненйя (1) называются Фредгольма теоремами. Эти төоремы Э. Фредгольм распространил на случай системы таких же уравнений, а также на случай одного класса ядер со слабой особенностью (см. URI[[http://libmeta.ru/me/relation/751_1_FREDGOL'MA]]/URI onepamop).
+
+Из сопоставления теорем Фредгольма вытекает Фредгольла альтернатива.
+
+Часто в теоремах Фредгольаа вместо союзного уравнения (1 $URI[[http://libmeta.ru/me/formula/aux/751_112_FREDGOL'MA]]/URI$ рассматривают сопряженное с (1) уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_28_FREDGOL'MA]]/URI
+\]
+
+В атом случае условия (18) заменяются условиями
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_29_FREDGOL'MA]]/URI
+\]
+
+Изложенный выше метод Фредгольма был обобщен T. Карлеманом [9] (см. также [7], [11]) на случай, когда $URI[[http://libmeta.ru/me/formula/aux/751_113_FREDGOL'MA]]/URI$ в уравнении (1) шредполагаются интегрируемыми с квадратом функциями. В этих предположениях справедливы сформулированные выше ревультаты Фредгольма.
+
+Кроме метода последовательных приближений и метода Фредгольма для решения Ф.у., Э. Шмидт (e. Smidt) под влиянием исследований Д. Гильберта разработал метод, основой к-рого является построение, независимо от теории Фредгольма, теории уравнения (1) с симметричным действительным ядром.
+
+Исследования Д. Гильберта и Э. Шiмидта подготовили почву для абстрактного изложения теории Фредгольма. Д. Гильберт обратил внимание на то, что теория Фредгольма в основном опирается на свойство т. Н. полной непрерывности интегрального преобразования с ядром $URI[[http://libmeta.ru/me/formula/aux/751_114_FREDGOL'MA]]/URI$. Это свойство Д. Гильберт сформулировал для билинейных форм. Ф. Рисс (см. [8]) показал, что основные результаты теории Фредгольма остаются в силе, если в уравнении (1) интегральный оператор заменить произвольным вполне непрерывным оператором, действующим в полном функциональном пространстве. Исследования Ф. Рисса были пополнены Ю. Шаудером (см. [10]) с помощью введения понятия сопряженного оператора в банаховом пространстве, что и дало возможность окончательной абстрактной формулировки в пространствах Банаха аналогов теорем Фредгольма. Эти теоремы часто наз. т е о р е м а-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_d8e022684d711c8df3c9g-1.jpg?height=40&amp;width=814&amp;top_left_y=2076&amp;top_left_x=136)
+вующий в нижешриведенных формулировках әтих теорем, предполагается действующим в банаховом пространстве $URI[[http://libmeta.ru/me/formula/aux/751_115_FREDGOL'MA]]/URI$; через $URI[[http://libmeta.ru/me/formula/aux/751_116_FREDGOL'MA]]/URI$ обозначено банахово пространетво, сопряженное с $URI[[http://libmeta.ru/me/formula/aux/751_117_FREDGOL'MA]]/URI$, а через $URI[[http://libmeta.ru/me/formula/aux/751_118_FREDGOL'MA]]/URI$ сопряженный оператор.
+
+Т е о е м а 1. Однородное уравнение $URI[[http://libmeta.ru/me/formula/aux/751_119_FREDGOL'MA]]/URI$ и сопряженное с ним уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_30_FREDGOL'MA]]/URI
+\]
+
+имеют лишь нулевые решения или одинаковое конечное число линейно независимых решений $URI[[http://libmeta.ru/me/formula/aux/751_120_FREDGOL'MA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/751_121_FREDGOL'MA]]/URI$.
+
+Т е о е м а 2. Для разрепимости неоднородного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_31_FREDGOL'MA]]/URI
+\]
+
+необходимо и достаточно, чтобы $URI[[http://libmeta.ru/me/formula/aux/751_122_FREDGOL'MA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/751_123_FREDGOL'MA]]/URI$; если эти условия выполнены и $URI[[http://libmeta.ru/me/formula/aux/751_124_FREDGOL'MA]]/URI$ какоелибо решение уравнения (21), то его общее решение имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/751_32_FREDGOL'MA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/751_125_FREDGOL'MA]]/URI$ - произвольные постоянные.
+
+Т е о р ем а 3. Каково бы ни было $URI[[http://libmeta.ru/me/formula/aux/751_126_FREDGOL'MA]]/URI$, круг $URI[[http://libmeta.ru/me/formula/aux/751_127_FREDGOL'MA]]/URI$ содержит разве лишь конечное число характеристических значений оператора $URI[[http://libmeta.ru/me/formula/aux/751_128_FREDGOL'MA]]/URI$, т. е. значений $URI[[http://libmeta.ru/me/formula/aux/751_129_FREDGOL'MA]]/URI$, для к-рых уравнение $URI[[http://libmeta.ru/me/formula/aux/751_130_FREDGOL'MA]]/URI$ имеет отличные от нуля решіения.
+
+Эти теоремы даю' возможность обосновать справедливость теорем Фредгольма для уравнения (1) в случае различных конкретных классов интегрального оператора (2). Напр., если заданные и искомая функции интегрируемы с квадратом.
+
+В качестве области URI[[http://libmeta.ru/me/relation/751_11_FREDGOL'MA]]/URI вместо URI[[http://libmeta.ru/me/relation/751_10_FREDGOL'MA]]/URI $URI[[http://libmeta.ru/me/formula/aux/751_131_FREDGOL'MA]]/URI$ в URI[[http://libmeta.ru/me/relation/751_9_FREDGOL'MA]]/URI (1) можно рассматривать век-рое ограниченное или неограниченное URI[[http://libmeta.ru/me/relation/751_8_FREDGOL'MA]]/URI $URI[[http://libmeta.ru/me/formula/aux/751_132_FREDGOL'MA]]/URI$ в URI[[http://libmeta.ru/me/relation/751_7_FREDGOL'MA]]/URI любого числа измерений. Вместо обычного URI[[http://libmeta.ru/me/relation/751_6_FREDGOL'MA]]/URI можно брать URI[[http://libmeta.ru/me/relation/751_5_FREDGOL'MA]]/URI Стилтьеса относительно неотрицательной меры.</text>
+  <text_orig>интегральное уравнение вида
+
+\[
+\int_{a}^{b} K(x, s) \varphi(s) d s=f(x), x \in[a, b],
+\]
+
+— Ф. у. 1-г о р о д а, или вида
+
+\[
+\varphi(x)-\lambda \int_{a}^{b} K(x, s) \varphi(s) d s=f(x), x \in[a, b],
+\]
+
+- Ф. у. 2-г о р о д а, если интөгральный оператор
+
+\[
+K \varphi(x)=\int_{a}^{b} K(x, s) \varphi(s) d s, x \in[a, b],
+\]
+
+является виолне непрерывным в нек-ром функциональном пространстве $E$. Предполагается, что свободчый член $f$ и искомая функция $\varphi$ принадлежат пространству $E$ : Важным примером Ф. у. является уравнение, в к-ром ядро $K$ удовлетворяет условию
+
+\[
+B^{2}=\int_{a}^{b} \int_{a}^{b}|K(x, s)|^{2} d x d s&lt;\infty,
+\]
+
+a $E=L_{2}([a, b])$ Численный параметр $\lambda$ и функции $f, \varphi, K$ могут принимать как действительные, так и комплексныө значения. О Ф. у. 1-го рода см. Интегральное уравнение с симметричным ядром и Некорректные задачи. Ниже рассматриваются лишь Ф. у. 2-го рода.
+
+М етод послед о в т т льных при ближений р е шен ия Ф. у. 2-го ро д а. Этопервый метод, к-рый был предложен для решения уравнения (1). Для формулировки этого метода пусть ураввение (1) записано в виде
+
+\[
+\varphi(x)=f(x)+\lambda K \varphi(x), x \in[a, b] .
+\]
+
+Предполагается, что ядро $K$ удовлетворяет условию (3), а $E=L_{2}([a, b])$. Пусть начальное приближение искомого решения $\varphi_{0}=f$; если $(n-1)$-е приближени $\varphi_{n-1}$ построено, то
+
+Iри этом
+
+\[
+\varphi_{n}=f+\lambda K \varphi_{n-1}
+\]
+
+\[
+\varphi_{n}=\sum_{m=0}^{n} \lambda^{m} K_{m} f
+\]
+
+где $K_{m}$ обозначает $m$-е итерированное ядро ядра $K$. Функция (5) является частичной суммой ряда
+
+\[
+\sum_{m=0}^{\infty} \lambda^{m} K_{m} f
+\]
+
+к-рый наз. р я д о м ЈI и у в и л л я- Н е й м а на). Если $|\lambda|&lt;B^{-1}$, то ряд (6) сходится в среднем к решению уравнения (1), II это решение - единственное (см., напр., [5]). Если существует такая положительная постоянная $A$, что
+
+\[
+\int_{a}^{b}|K(x, s)|^{2} d s \leqslant A, x \in[a, b],
+\]
+
+то ряд (6) сходится абсолютно и равномерно. Вообще говоря, ряд (6) расходится, если $|\lambda| \geqslant B^{-1}$. Именно, это так, если ядро $K$ имеет характеристич. число. Если же ядро не имеөт характеристич. чисел (как, напр., в случае ядра Вольтерра), то ряд (6) сходится при любом значении $\lambda$.
+
+М е тод Фред гольма решения Ф. у. 2 - г о р о д а. Метод последовательных приблиякений дает возможность цостроить решение уравнения (1), вообще говоря, лишь при малых значениях параметра 2. Метод, дающий возможность решить уравнение (1) для любого значения параметра $\lambda$, был впервые предложен Ә. Фредгольмом (E. Fredholm, 1903). В предположении, что ядро $K$ нопрерывно на квадрате $[a, b] \times$ $\times[a, b]$, а свободный члөн и искомое решение непрерывны на сегменте $[a, b]$, ниже кратко описана идея әтого мөтода.
+
+Отрезок $[a, b]$ делится на $n$ равных частей длины $h=(b-a) / n$. Если заменить интеграл в (1) интегральной суммой, то точное уравнение (1) заменяется приближенным
+
+\[
+\varphi(x)-\lambda h \sum_{j=1}^{n} K\left(x, s_{j}\right) \varphi\left(s_{j}\right)=f(x), x \in[a, b] .
+\]
+
+Полагая в (7) последовательно $x=s_{1}, \ldots, s_{n}$ для определения приближенного значения неизвестной функции $\varphi$ в точках $s_{j}$, получают линейную алгебраич. систему
+
+\[
+\varphi_{i}-\lambda h \sum_{j=0}^{n} K_{i j} \varphi_{j}=f_{i}, i=1,2, \ldots, n,
+\]
+
+где $f\left(s_{i}\right)=f_{i}, \varphi\left(s_{i}\right)=\varphi_{i}, K\left(s_{i}, s_{j}\right)=K_{i j}$. Разрешимость системы (8) зависит от значения определителя
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_d7d5e31992ab74d4cf57g-1.jpg?height=127&amp;width=663&amp;top_left_y=2154&amp;top_left_x=1063)
+
+к-рый является многочленом относительно $\lambda$. Если $\lambda$ отличен от корней этого многочлена, то система (8) разрешима. Решив ату систему и подставив полученные значения $\varphi_{i}=\varphi\left(s_{j}\right)$ в $(7)$, получают приближенное решение уравнения (1)
+
+\[
+\varphi(x) \approx f(x)+\lambda \frac{Q\left(x, s_{1}, \ldots, s_{n} ; \lambda\right)}{\Delta(\lambda)},
+\]
+
+где $Q$ и $\Delta$ - многочлены относительно $\lambda$. Приведенный путь является одним из возможных вариантов построения приближенного решения Ф. у. (1) (см. [6]).
+
+Можно ожидать, что в пределе, когда $n \rightarrow \infty$ так, что интегральная сумма в (7) совпадает с интегралом в (1), предел правой части в (9) совпадает с точным решением уравнения (1). С помощью формальных переходов к пределам в соответствующих выражениях Э. Фредгольм установил формулу, к-рая должна представлять решение уравнения (1)
+
+\[
+\varphi(x)=f(x)+\lambda \int_{a}^{b} R(x, s ; \lambda) f(s) d s
+\]
+
+гдө
+
+\[
+R(x, s ; \lambda)=D(x, s ; \lambda) / D(\lambda),
+\]\[
+D(\lambda)=\sum_{m=0}^{\infty} \frac{(-1)^{m}}{m !} A_{m} \lambda^{m}
+\]\[
+D(x, s ; \lambda)=\sum_{m=0}^{\infty} \frac{(-1)^{m}}{m !} B_{m}(x, s) \lambda^{m} \text {, }
+\]
+
+\[
+A_{m}=\int_{a}^{b} \ldots \int_{a}^{b} K\left(\begin{array}{lll}
+s_{1}, s_{2}, \ldots, &amp; s_{m} \\
+s_{1}, s_{2}, \ldots, &amp; s_{m}
+\end{array}\right) d s_{1} \ldots d s_{m}
+\]
+
+$B_{m}(x, s)=\int_{a}^{b} \ldots \int_{a}^{b} K\left(\begin{array}{ccc}x, s_{1}, \ldots, s_{m} \\ s, s_{1}, \ldots, s_{m}\end{array}\right) d s_{1} \ldots d s_{m},(15)$ $K\left(\begin{array}{c}x_{1}, x_{2}, \ldots, x_{n} \\ s_{1}, s_{2}, \ldots, s_{n}\end{array}\right)=\left|\begin{array}{c}K\left(x_{1}, s_{1}\right) K\left(x_{1}, s_{2}\right) \ldots K\left(x_{1}, s_{n}\right) \\ \left.\left.\dot{K\left(x_{n}\right.}, \dot{s_{1}}\right) \dot{K} \dot{\left(x_{n}\right.}, \dot{s_{2}}\right) \ldots \dot{K}\left(\dot{x}_{n}, \dot{s_{n}}\right)\end{array}\right|$. Для вычисления $A_{m}$ и $B_{n}(x, s)$ вместо формул (14), (15) можно воспользоваться следующими рекуррентными соотношениями:
+
+\[
+\begin{gathered}
+A_{0}=1, \quad B_{0}(x, s)=K(x, s), \Lambda_{m}=\int_{a}^{b} B_{m-1}(s, s) d s, \\
+B_{m}(x, s)=K(x, s) A_{m}-m \int_{a}^{b} K(x, t) B_{m-1}(t, s) d t \\
+m=1,2, \ldots .
+\end{gathered}
+\]
+
+Ряды (12) и (13) наз. р я д а м и Ф р е д г о л м а. Функцию $D(\lambda)$ наз. о і р е ле ли те ле м Ф г о л ь м а ядра $K$, функцию $D(x, s ; \lambda)$ - первым м ин о р о м Ф р е д г о лм а пля $D(\lambda)$, а функцию (11) - р е 3 о ль в е н т о ї (или р а з р е ші а ю щ и м я д р о м, илии в 3 а и ным я д р о м) ядра $K$ (или уравнения (1)).
+
+Обоснование упомянутых выше предельных переходов, к-рые приводят к формуле (10), было сделано Д. Гильбертом (см. Интегральное уравнение). Э. Фредгольм, построив формально ряды (12), (13), затем непосредственно строго доказал, что они сходятся для всех конечных значений параметра $\lambda$, а ряд (13), кроме того, сходится равномерно гіо $x$ и $s$ на квадрате $[a, b] \times[a, b]$. Установление связи между функциями $D(\lambda)$ и $D(x, s ; \lambda)$ позволило ему доказать следующее предложение: если $D(\lambda) \neq 0$, то уравнение (1) имеет одно и только одно решение, к-рое выражается формулої (10).
+
+Из этого предложения вытекает, что вначение параметра $\lambda$, когорое не является корнем определителя Фредгольма, есть регулярное значение для однородного уравнения, соответствуюпего уравнению (1):
+
+\[
+\varphi(x)-\lambda \int_{a}^{b} K(x, s) \varphi(s) d s=0, x \in[a, b],
+\]
+
+т. е. это уравнение в рассматриваемом случае имеет лишь нулевое решение. Если $\lambda$ - корень уравнения $D(\lambda)=0$, то $\lambda$ есть полюс резольвенты (11) уравнения $\left(1_{0}\right)$ и характеристич. число этого последнего уравнения. Чтобы построить по методу Фредгольма собственные функции, принадлежащие ртому характеристическому числу, вводится понятие $p$-го минора $D(\lambda)$. Пусть
+
+\[
+\begin{aligned}
+&amp; B_{0}\left(\begin{array}{ccc}
+x_{1}, &amp; \ldots, &amp; x_{p} \\
+s_{1}, &amp; \ldots, &amp; s_{p}
+\end{array}\right)=K\left(\begin{array}{lll}
+x_{1}, &amp; \ldots, &amp; x_{p} \\
+s_{1}, &amp; \ldots, &amp; s_{p}
+\end{array}\right) \\
+&amp; B_{m}\left(\begin{array}{c}
+x_{1}, \ldots, x_{p} \\
+s_{1}, \ldots, s_{p}
+\end{array}\right)=\int_{a}^{b} \ldots \int_{a}^{b} K\left(\begin{array}{c}
+x_{1}, \ldots, x_{p}, t_{1}, \ldots, t_{m} \\
+s_{1}, \ldots, s_{p}, t_{1}, \ldots, t_{m}
+\end{array}\right) \times \\
+&amp; \times d t_{1} \ldots d t_{m} \text {. }
+\end{aligned}
+\]
+
+Тогда $p$-м м и н о р о м для $D(\lambda)$ наз. ряд
+
+\[
+\begin{aligned}
+&amp; D\left(\begin{array}{c}
+x_{1}, \ldots, x_{p} \\
+s_{1}, \ldots, s_{p} ; \lambda
+\end{array}\right)= \\
+&amp; =\sum_{m=0}^{\infty} \frac{(-1)^{m}}{m !} B_{m}\left(\begin{array}{c}
+x_{1}, \ldots, x_{p} \\
+s_{1}, \ldots, s_{p}
+\end{array}\right) \lambda^{m+p} \text {, }
+\end{aligned}
+\]
+
+к-рый при $p=1$ обращается в $D(x, s ; \lambda)$. Ряд (16) сходится абсолютно для всех конечных значений $\lambda$ и равномерно относительно $x_{1}, \ldots, x_{p}, s_{1}, \ldots, s_{p}$, Удовлетворяющих неравенствам $a \leqslant x_{n} \leqslant b, \quad a \leqslant s_{n} \leqslant b$, $k=1, \ldots, p$. Пусть теперь $\lambda_{0}$ есть характеристич. число ядра $K ; D\left(\lambda_{0}\right)=0, \lambda_{0} \neq 0$, так как $D(0)=1$. Пусть $r$-кратность корня $\lambda_{0}$ уравнения $D\left(\lambda_{0}\right)=0$. Существует такое натуральное число $q \leqslant r$, тто все миноры для $D\left(\lambda_{0}\right)$, порядок к-рых меныше $q$, тождественно равны нулю, а минор порядка $q$ отличен от нуля. Существует нек-рая совокупность знатений $x_{1}^{\prime}, \ldots, x_{q}^{\prime}, s_{1}^{\prime}, \ldots, s_{q}^{\prime}$ таких, что
+
+\[
+D\left(\begin{array}{lll}
+x_{1}^{\prime}, &amp; \ldots, &amp; x_{q}^{\prime} \\
+s_{1}^{\prime}, &amp; \ldots, &amp; s_{q}^{\prime}
+\end{array}\right) \neq 0
+\]
+
+Число $q$ наз. равгом характеристич. числа $\lambda_{0}$. Функции
+
+\[
+\varphi_{k}(x)=\frac{D\left(\begin{array}{c}
+x_{1}^{\prime}, \ldots, x_{k-1}^{\prime}, x, x_{k+1}^{\prime}, \ldots, x_{q}^{\prime} \\
+s_{1}^{\prime}, \ldots, s_{k-1}^{\prime}, s_{k}^{\prime}, s_{k+1}^{\prime}, \ldots, s_{q}^{\prime} ; \lambda_{0}
+\end{array}\right)}{D\left(\begin{array}{l}
+x_{1}^{\prime}, \ldots, x_{q}^{\prime} \\
+s_{1}^{\prime}, \ldots, s_{q}^{\prime} ;
+\end{array} \lambda_{0}\right)}
+\]
+
+являются линейно независимыми решениями уравнения $\left(1_{0}\right)$.
+
+Пусть характеристич. числу $\lambda_{0}$ принадлежат собственные функции $\varphi_{1}, \ldots ., \varphi_{q} \cdot$ Эти функции наз.
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_95c9fa747dddf0af24ccg-1.jpg?height=45&amp;width=809&amp;top_left_y=1632&amp;top_left_x=992)
+ц и й уравнения $\left(1_{0}\right)$ (или ядра $K$ ), принадлежащих числу $\lambda_{0}$, если любая другая собственная функция, принадлежащая этому числу, есть линейная комбинация функций $\varphi_{1}, \ldots, \varphi_{q}$.
+
+Если $\lambda_{0}$ является характеристич. числом однородного уравнения $\left(1_{0}\right)$ с рангом $q$, то оно будет также собственным значением с рангом $q$ и для союзного с $\left(1_{0}\right)$ уравнения
+
+\[
+\psi(x)-\lambda_{0} \int_{a}^{b} K(s, x) \psi(s) d s=0,
+\]
+
+причем полная система собственных функций уравнения $\left(1_{0}\right)$ определяется формулами $(17)$, а для уравнения $\left(1_{0}^{\prime}\right)$ - аналогичными формулами, построенными для союзного ядра $K(s, x)$.
+
+Если $\lambda_{0}$ - характеристич. число ядра $K$ с рангом $q$, то уравнение (1) имеет решение тогда и только тогда, когда удовлетворяются условия:
+
+\[
+\int_{a}^{b} f(t) \psi_{k}(t) d t=0, \quad k=1,2, \ldots, q,
+\]
+
+где $\psi_{1}, \ldots, \psi_{q}$ составляют полную систему собствен- ных функций уравнения (10́). Если условия (18) выполняются, то все решения уравнения (1) определяются формулой
+
+\[
+\varphi(x)=f(x)+\int_{a}^{b} H(x, s) f(s) d s+\sum_{k=1}^{q} c_{k} \varphi_{k}(x),
+\]
+
+где $c_{1}, \ldots, c_{q}$ - произвольные постоянные, $\left\{\varphi_{k}\right\}$ - полная система собственных функций однородного уравнения $\left(1_{0}\right)$, а функция $H$ определяется равенством
+
+\[
+H(x, s)=\frac{D\left(\begin{array}{l}
+x, x_{1}^{\prime}, \ldots, x_{q}^{\prime} \\
+s, s_{1}^{\prime}, \ldots, s_{q}^{\prime} ; \lambda_{0}
+\end{array}\right)}{D\left(\begin{array}{l}
+x_{1}^{\prime}, \ldots, x_{q}^{\prime} ; \lambda_{0} \\
+s_{1}^{\prime}, \ldots, s_{q}^{\prime}
+\end{array}\right)} .
+\]
+
+Непрерывное ядро $K$ имеет не более счетного множества характеристич. чисел, к-рые могут иметь предельную точку только при $\lambda=\infty$.
+
+Сформулированные выше предложения для уравненйя (1) называются Фредгольма теоремами. Эти төоремы Э. Фредгольм распространил на случай системы таких же уравнений, а также на случай одного класса ядер со слабой особенностью (см. Интегральный onepamop).
+
+Из сопоставления теорем Фредгольма вытекает Фредгольла альтернатива.
+
+Часто в теоремах Фредгольаа вместо союзного уравнения (1 $\left.1_{0}^{\prime}\right)$ рассматривают сопряженное с (1) уравнение
+
+\[
+\psi(x)-\overline{\lambda_{0}} \int_{a}^{b} \overline{K(s, x)} \psi(s) d s=0 .
+\]
+
+В атом случае условия (18) заменяются условиями
+
+\[
+\int_{a}^{b} f(t) \overline{\psi_{k}(t)} d t=0, \quad k=1, \ldots, q .
+\]
+
+Изложенный выше метод Фредгольма был обобщен T. Карлеманом [9] (см. также [7], [11]) на случай, когда $f, \varphi, K$ в уравнении (1) шредполагаются интегрируемыми с квадратом функциями. В этих предположениях справедливы сформулированные выше ревультаты Фредгольма.
+
+Кроме метода последовательных приближений и метода Фредгольма для решения Ф.у., Э. Шмидт (E. Smidt) под влиянием исследований Д. Гильберта разработал метод, основой к-рого является построение, независимо от теории Фредгольма, теории уравнения (1) с симметричным действительным ядром.
+
+Исследования Д. Гильберта и Э. ШIмидта подготовили почву для абстрактного изложения теории Фредгольма. Д. Гильберт обратил внимание на то, что теория Фредгольма в основном опирается на свойство т. Н. полной непрерывности интегрального преобразования с ядром $K$. Это свойство Д. Гильберт сформулировал для билинейных форм. Ф. Рисс (см. [8]) показал, что основные результаты теории Фредгольма остаются в силе, если в уравнении (1) интегральный оператор заменить произвольным вполне непрерывным оператором, действующим в полном функциональном пространстве. Исследования Ф. Рисса были пополнены Ю. Шаудером (см. [10]) с помощью введения понятия сопряженного оператора в банаховом пространстве, что и дало возможность окончательной абстрактной формулировки в пространствах Банаха аналогов теорем Фредгольма. Эти теоремы часто наз. т е о р е м а-
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_d8e022684d711c8df3c9g-1.jpg?height=40&amp;width=814&amp;top_left_y=2076&amp;top_left_x=136)
+вующий в нижешриведенных формулировках әтих теорем, предполагается действующим в банаховом пространстве $E$; через $E^{*}$ обозначено банахово пространетво, сопряженное с $E$, а через $V^{*}-$ сопряженный оператор.
+
+Т е о е м а 1. Однородное уравнение $\varphi-V \varphi=0, \quad \varphi \in E$ и сопряженное с ним уравнение
+
+\[
+\psi-V^{*} \psi=0, \quad \psi \in E^{*},
+\]
+
+имеют лишь нулевые решения или одинаковое конечное число линейно независимых решений $\varphi_{1}, \ldots, \varphi_{q}$, $\psi_{1}, \ldots, \psi_{q}$.
+
+Т е о е м а 2. Для разрепимости неоднородного уравнения
+
+\[
+\varphi-\lambda V \varphi=f, \quad f, \varphi \in E
+\]
+
+необходимо и достаточно, чтобы $\varphi_{k}(f)=0, \quad k=1$, $2, \ldots, q$; если эти условия выполнены и $\varphi_{0}-$ какоелибо решение уравнения (21), то его общее решение имеет вид
+
+\[
+\varphi_{0}+\sum_{k=1}^{q} c_{k} \varphi_{k}
+\]
+
+где $c_{k}$ - произвольные постоянные.
+
+Т е о р ем а 3. Каково бы ни было $r \neq 0$, круг $|\lambda| \leqslant r$ содержит разве лишь конечное число характеристических значений оператора $V$, т. е. значений $\lambda$, для к-рых уравнение $\varphi-\lambda V=0$ имеет отличные от нуля решіения.
+
+Эти теоремы даю' возможность обосновать справедливость теорем Фредгольма для уравнения (1) в случае различных конкретных классов интегрального оператора (2). Напр., если заданные и искомая функции интегрируемы с квадратом.
+
+В качестве области интегрирования вместо отрезка $[a, b]$ в уравнении (1) можно рассматривать век-рое ограниченное или неограниченное измеримое множество $D$ в пространстве любого числа измерений. Вместо обычного интеграла можно брать интеграл Стилтьеса относительно неотрицательной меры.
+
+Лит.: [1] С м и р н о в В. И., Курс высшей математики, 6 изд., т. 4, ч. 1, М., 1974; [2] Г у р с а Э., Курс математического анализа, Т. 3, ч. 2, пер. с франц., М.-ЈЈ., 1934; [3] П1 е т р о вс к и й И. Г., Лекщии по теории интегральных уравнений, уравнения, пер. с англ., М., 1957; [5] М и х л и н С. Г., Лекции по линейным ингегральным уравнениям, М., $1959 ;[6] \mathrm{K}$ а нт о р о в и ч Ј. В., К р ы п о в В. И., Приближенные методы
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_d8e022684d711c8df3c9g-1.jpg?height=47&amp;width=819&amp;top_left_y=1316&amp;top_left_x=985)
+&quot;Досta math.&quot;, 1918 , v. 41, p. 71-98; рус. пер.: &quot;Успехи матем. наук&quot;, 1936, в. 1, c. 175-99; [9] C a r l e m a n T., &quot;Math. Z.&quot;, 1930, №2, p. 183-96; [11] S m i t h i e s F., «Duke Math. J.), 1941, № 8, p. 107-30. В. В. Хведелидзе.</text_orig>
+</article>

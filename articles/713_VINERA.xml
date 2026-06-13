@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/713_VINERA" alphabetic_pos="713">
+  <title>ВИНЕРА МЕРА</title>
+  <authors/>
+  <pages>
+    <start>349</start>
+    <end>349</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/713_1_VINERA">\begin{gathered}\mu_{W}\left(C\left(t_{1}, \ldots, t_{n} ; A_{1}, \ldots, A_{n}\right)\right)= \\=\int_{A_{1}} p\left(t_{1}, x_{1}\right) d x_{1} \int_{A_{2}}^{p\left(t_{2}-t_{1}, x_{2}-x_{1}\right) d x_{2} \ldots} \\\cdots \int_{A_{n}} p\left(t_{n}-t_{n-1}, x_{n}-x_{n-1}\right) d x_{n},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/713_2_VINERA">p(t, x)=\frac{1}{\sqrt{2 \pi t}} \exp \left\{-\frac{x^{2}}{2 t}\right\} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_1_VINERA">\mu_{w}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_2_VINERA">c[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_3_VINERA">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_4_VINERA">[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_5_VINERA">0&lt;t_{1}&lt;\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_6_VINERA">\ldots&lt;t_{n} \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_7_VINERA">[0,1], \boldsymbol{A}_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_8_VINERA">\because ., A_{n}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_9_VINERA">c\left(t_{1}, \ldots, t_{n}, A_{1}, \ldots, A_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_10_VINERA">x(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_11_VINERA">c[0,1]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_12_VINERA">x\left(t_{k}\right) \in A_{k}, k=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_13_VINERA">\mu_{w}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/713_14_VINERA">c[0,1]</formula>
+  </formulas_aux>
+  <relations n="3">
+    <relation uri="http://libmeta.ru/me/relation/713_1_VINERA">
+      <rel_text>пространства</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/713_2_VINERA">
+      <rel_text>борелевских множествах</rel_text>
+      <target>http://libmeta.ru/me/article/59_DVUSTORONNEE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/713_3_VINERA">
+      <rel_text>теоремы</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+  </relations>
+  <text>ви н е р о в с к а я ме р а,-вeроятностная мера $URI[[http://libmeta.ru/me/formula/aux/713_1_VINERA]]/URI$, определенная на пространстве $URI[[http://libmeta.ru/me/formula/aux/713_2_VINERA]]/URI$ непрерывных числовых функций $URI[[http://libmeta.ru/me/formula/aux/713_3_VINERA]]/URI$, заданных на отрезке $URI[[http://libmeta.ru/me/formula/aux/713_4_VINERA]]/URI$, следующим образом. Пусть $URI[[http://libmeta.ru/me/formula/aux/713_5_VINERA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/713_6_VINERA]]/URI$ - произвольный набор точек из $URI[[http://libmeta.ru/me/formula/aux/713_7_VINERA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/713_8_VINERA]]/URI$ борелевские множества на прямой. Пусть $URI[[http://libmeta.ru/me/formula/aux/713_9_VINERA]]/URI$ обозначает множество функций $URI[[http://libmeta.ru/me/formula/aux/713_10_VINERA]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/713_11_VINERA]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/713_12_VINERA]]/URI$. Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/713_1_VINERA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/713_2_VINERA]]/URI
+\]
+
+С помощью URI[[http://libmeta.ru/me/relation/713_3_VINERA]]/URI о продолжении меры можно, исходя из равенства (*), определить значение меры $URI[[http://libmeta.ru/me/formula/aux/713_13_VINERA]]/URI$ на всех URI[[http://libmeta.ru/me/relation/713_2_VINERA]]/URI URI[[http://libmeta.ru/me/relation/713_1_VINERA]]/URI $URI[[http://libmeta.ru/me/formula/aux/713_14_VINERA]]/URI$.</text>
+  <text_orig>ви н е р о в с к а я ме р а,-вeроятностная мера $\mu_{W}$, определенная на пространстве $C[0,1]$ непрерывных числовых функций $x(t)$, заданных на отрезке $[0,1]$, следующим образом. Пусть $0&lt;t_{1}&lt;\ldots$ $\ldots&lt;t_{n} \leqslant 1$ - произвольный набор точек из $[0,1], \boldsymbol{A}_{1}$, $\because ., A_{n}-$ борелевские множества на прямой. Пусть $C\left(t_{1}, \ldots, t_{n}, A_{1}, \ldots, A_{n}\right)$ обозначает множество функций $x(t)$ из $C[0,1]$, для к-рых $x\left(t_{k}\right) \in A_{k}, k=1, \ldots, n$. Тогда
+
+\[
+\begin{gathered}
+\mu_{W}\left(C\left(t_{1}, \ldots, t_{n} ; A_{1}, \ldots, A_{n}\right)\right)= \\
+=\int_{A_{1}} p\left(t_{1}, x_{1}\right) d x_{1} \int_{A_{2}}^{p\left(t_{2}-t_{1}, x_{2}-x_{1}\right) d x_{2} \ldots} \\
+\cdots \int_{A_{n}} p\left(t_{n}-t_{n-1}, x_{n}-x_{n-1}\right) d x_{n},
+\end{gathered}
+\]
+
+где
+
+\[
+p(t, x)=\frac{1}{\sqrt{2 \pi t}} \exp \left\{-\frac{x^{2}}{2 t}\right\} .
+\]
+
+С помощью теоремы о продолжении меры можно, исходя из равенства (*), определить значение меры $\mu_{W}$ на всех борелевских множествах пространства $C[0,1]$.</text_orig>
+</article>

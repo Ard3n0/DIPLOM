@@ -1,0 +1,1336 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/459_POLUGRUPPA" alphabetic_pos="459">
+  <title>ПОЛУГРУППА ОПЕРАТОРОВ</title>
+  <authors>
+    <author>Л. Н. Шеврин</author>
+  </authors>
+  <pages>
+    <start>225</start>
+    <end>229</end>
+  </pages>
+  <literature>
+    <literature_orig>Лum.: [1] К л и фф о р д А., П р е с т о н г., Алгебраическая теория полугрупп, пер. с англ., т. 2, М., 1972; [2] Ш е в-![](https://cdn.mathpix.com/cropped/2023_07_08_4abc749737b184994105g-1.jpg?height=49&amp;width=804&amp;top_left_y=380&amp;top_left_x=985)c. 925-35; [4] е г о ж е, “изв. Вузов. Матем.», 1974, Nㅗ 5 , c. 205-15; [5] E p mо в а Т. И., там же, 1977, № 11, c. 7-14; [7] $\mathrm{k}$ o z h u k h o v I. B., &quot;semigroup Forum&quot;, 1980, v. 21, № 4, p. 337-50; [8] P a s ti j n F., там же, 1977, v. 14, 그 3 ,p. $247-64$.</literature_orig>
+    <unit>
+      <author>Клиффорд А.</author>
+      <title>П р е с т о н г., Алгебраическая теория полугрупп</title>
+      <publication>пер. с англ., т. 2, М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Ш е в-![](https://cdn.mathpix.com/cropped/2023_07_08_4abc749737b184994105g-1.jpg?height=49&amp;width=804&amp;top_left_y=380&amp;top_left_x=985)c. 925-35; [4] е г о ж е, “изв. Вузов. Матем.»</title>
+      <publication/>
+      <year>1974</year>
+      <other>Nㅗ 5, c. 205-15; [5] E p mо в а Т. И., там же, 1977, № 11, c. 7-14; [7] $\mathrm{k}$ o z h u k h o v I. B., &quot;semigroup Forum&quot;, 1980, v. 21, № 4, p. 337-50; [8] P a s ti j n F., там же, 1977, v. 14, 그 3, p. $247-64$.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/459_1_POLUGRUPPA">T(t+\tau) x=T(t) T(\tau) x, t, \tau&gt;0, x \in X .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_2_POLUGRUPPA">\omega=\lim _{t \rightarrow \infty} t^{-1} \ln \|T(t)\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_3_POLUGRUPPA">A_{0} x=\lim _{t \rightarrow 0} t^{-1}[T(t) x-x]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_4_POLUGRUPPA">\|R(\lambda, A)\| \leqslant(\lambda-\omega)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_5_POLUGRUPPA">\lim _{t \rightarrow 0} \frac{1}{t} \int_{0}^{t} T(s) x d s=x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_6_POLUGRUPPA">\int_{0}^{\infty} e^{-\lambda t} T(t) x d t=-R(\lambda) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_7_POLUGRUPPA">\begin{gathered}\int_{0}^{\infty} e^{-\omega_{1} t} \varphi(t, x) d t&lt;\infty, \\\varlimsup_{t \rightarrow \infty} t^{-1} \ln \varphi(t)&lt;\infty, \varphi(t, x) \leqslant \varphi(t)\|x\|, \\\left\|R^{n}(\lambda, A) x\right\| \leqslant \frac{1}{(n-1) !} \int_{0}^{\infty} t^{n-1} e^{-\lambda t} \varphi(t, x) d t .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_8_POLUGRUPPA">\|T(t) x\| \leqslant \varphi(t, x), \quad\|T(t)\| \leqslant \varphi(t) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_9_POLUGRUPPA">\begin{gathered}\int_{0}^{\infty} \varphi(t) e^{-\omega_{1} t} d t&lt;\infty, \\\left\|R^{n}(\lambda, A)\right\| \leqslant \\\leqslant \frac{1}{(n-1) !} \int_{0}^{\infty} t^{n-1} e^{-\lambda t} \varphi(t) d t, \lambda&gt;\omega, n=1,2, \ldots\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_10_POLUGRUPPA">\begin{gathered}S_{n}(\lambda, A) A x=A S_{n}(\lambda, A) x, x \in D(A), \\S_{n}(\lambda, A)(A-\lambda I)^{n+1} x=x, x \in D\left(A^{n+1}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_11_POLUGRUPPA">\|T(t)\| \leqslant M t-\alpha_{e} \omega t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_12_POLUGRUPPA">\begin{aligned}&amp; S_{n}(\lambda, B) x=\frac{1}{n !} \int_{0}^{\infty} t^{n} e^{-\lambda t} T(t) x d t, \operatorname{Re} \lambda&gt;\omega, \\&amp; \left\|\frac{d^{k} S_{n}(\lambda, B)}{d \lambda k} x\right\| \leqslant \\&amp; \leqslant \frac{M \Gamma(k+n+1-\alpha)}{n !(\operatorname{Re} \lambda-\omega)^{k+n+1-\alpha}}, \operatorname{Re} \lambda&gt;\omega, k=0,1, \ldots\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_13_POLUGRUPPA">\|T(t)\| \leqslant M t-\alpha_{e} \omega t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_14_POLUGRUPPA">\frac{d T(t)}{d t} x=A_{0} T(t) x=T(t) A_{0} x .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_15_POLUGRUPPA">\operatorname{Re} \lambda&gt;a-b \ln |\operatorname{Im} \lambda|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_16_POLUGRUPPA">\|\operatorname{Re}(\lambda, A)\| \leqslant c|\operatorname{Im} \lambda| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_17_POLUGRUPPA">\operatorname{Re} \lambda&gt;a_{b}-b \ln |\operatorname{Im} \lambda|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_18_POLUGRUPPA">\|R(\lambda, A)\| \leqslant c_{b}|\operatorname{Im} \lambda| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_19_POLUGRUPPA">\varlimsup_{\tau \rightarrow \infty} \ln |\tau|\|R(\mu+i \tau, A)\|=t_{0}&lt;\infty,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_20_POLUGRUPPA">\|I-T(t)\| \leqslant 2-c t \ln t^{-1},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_21_POLUGRUPPA">\frac{d T(t)}{d t} x=A T(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_22_POLUGRUPPA">\|A T(t)\| \leqslant M_{1} t-\beta^{\omega t} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_23_POLUGRUPPA">\|\operatorname{Re}(\lambda, A)\| \leqslant M|\lambda-\omega|^{-1} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_24_POLUGRUPPA">\left\|\frac{d T}{d t}\right\| \leqslant M t^{-1} e^{\omega t} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_25_POLUGRUPPA">\varlimsup_{t \rightarrow 0}\|I-T(t)\|&lt;2</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_26_POLUGRUPPA">\left\|S_{n}(\lambda, A)\right\| \leqslant|\lambda|^{\alpha-n-1} M(\psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_27_POLUGRUPPA">\left\|S_{n}(\lambda, B)\right\| \leqslant \lambda^{\alpha-n-1} M .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_28_POLUGRUPPA">\varphi * \psi=\int_{-\infty}^{\infty} \varphi(t-s) \psi(s) d s</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_29_POLUGRUPPA">T(\varphi) y=\int_{0}^{\infty} \varphi(t) u(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_30_POLUGRUPPA">\|R(\lambda, A)\| \leqslant C(1+|\lambda|)^{m} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_31_POLUGRUPPA">\|x\|_{n}=\sum_{k=0}^{n}\left\|A^{k} r\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_32_POLUGRUPPA">\frac{d T}{d t} x=A T(t) x=T(t) A x, 0 \leqslant t&lt;\infty, x \in D(A) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_33_POLUGRUPPA">\begin{gathered}T(t) x=\lim _{k \rightarrow \infty}\left(\exp \left[-\lambda_{k}-\lambda_{k}^{2} R\left(\lambda_{k}, A\right)\right] t\right) x, \\t \geqslant 0, x \in X .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_34_POLUGRUPPA">e^{\alpha \lambda} \frac{d^{n} H \pm(\lambda)}{d \lambda^{n}}, \frac{\lambda^{n+1}}{n !} \frac{d^{n} R(\lambda)}{d \lambda^{n}}, \lambda&gt;\omega, n=0,1, \ldots,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_35_POLUGRUPPA">\left.T(\varphi) x \in D(A), T^{\prime}(\varphi) x=A T(\varphi) x+\varphi(0) x,\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_36_POLUGRUPPA">T^{\prime}(\varphi) x=T(\varphi) A x+\varphi(0) x, x \in D(A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_37_POLUGRUPPA">(\tilde{A} \hat{F})(\hat{\varphi})=A(\hat{F}(\hat{\varphi}))=A F(\varphi) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_38_POLUGRUPPA">(\tilde{\lambda} \hat{F})(\hat{\varphi})=\lambda \hat{F}(\hat{\varphi})=F^{\prime}(\varphi)=-F\left(\varphi^{\prime}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_39_POLUGRUPPA">T(\varphi) x=(\tilde{R}(1 \otimes x))(\hat{\varphi}), \varphi \in D(\mathbb{R}), x \in X,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/459_40_POLUGRUPPA">(1 \bigotimes x)(\hat{\varphi})=(\delta \otimes x) \varphi=\varphi(0) x .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_1_POLUGRUPPA">\{t\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_2_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_3_POLUGRUPPA">\mathfrak{a}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_4_POLUGRUPPA">\{t\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_5_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_6_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_7_POLUGRUPPA">t(t), t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_8_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_9_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_10_POLUGRUPPA">d\left(a_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_11_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_12_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_13_POLUGRUPPA">d\left(a_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_14_POLUGRUPPA">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_15_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_16_POLUGRUPPA">x_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_17_POLUGRUPPA">t(t) x \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_18_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_19_POLUGRUPPA">x_{0}=x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_20_POLUGRUPPA">t(t) x \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_21_POLUGRUPPA">x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_22_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_23_POLUGRUPPA">t(t) x \rightarrow x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_24_POLUGRUPPA">t \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_25_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_26_POLUGRUPPA">\|t(t)\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_27_POLUGRUPPA">(0, a]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_28_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_29_POLUGRUPPA">a=a_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_30_POLUGRUPPA">r(\lambda, A)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_31_POLUGRUPPA">=(a-\lambda I)^{-1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_32_POLUGRUPPA">\left\|r^{n}(\lambda, A)\right\| \leqslant M(\lambda-\omega)^{-n}, n=1,2, \ldots ; \lambda&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_33_POLUGRUPPA">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_34_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_35_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_36_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_37_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_38_POLUGRUPPA">\|t(t)\| \leqslant M e^{\omega t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_39_POLUGRUPPA">\omega=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_40_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_41_POLUGRUPPA">\|t(t)\| \leqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_42_POLUGRUPPA">\|t(t) x\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_43_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_44_POLUGRUPPA">a=\bar{a}_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_45_POLUGRUPPA">a_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_46_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_47_POLUGRUPPA">\operatorname{re} \lambda&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_48_POLUGRUPPA">r(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_49_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_50_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_51_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_52_POLUGRUPPA">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_53_POLUGRUPPA">r(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_54_POLUGRUPPA">\operatorname{re} \lambda&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_55_POLUGRUPPA">\| R(\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_56_POLUGRUPPA">a) \| \leqslant M, \operatorname{Re} \lambda&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_57_POLUGRUPPA">\varphi(t, x), t&gt;0, x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_58_POLUGRUPPA">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_59_POLUGRUPPA">[a, b] \subset(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_60_POLUGRUPPA">\omega_{1}&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_61_POLUGRUPPA">\|t(t)\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_62_POLUGRUPPA">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_63_POLUGRUPPA">\omega_{1}&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_64_POLUGRUPPA">\|t(t)\| \leqslant \varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_65_POLUGRUPPA">\varphi(t)=m e^{\omega t}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_66_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_67_POLUGRUPPA">\varphi(t)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_68_POLUGRUPPA">=m t-e^{\omega t}, 0 \leqslant \alpha&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_69_POLUGRUPPA">\left\|r^{n}(\lambda, A)\right\| \leqslant \frac{M \Gamma(n-\alpha)}{(n-1) !(\lambda-\omega)^{n-\alpha}}, \lambda&gt;\omega, n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_70_POLUGRUPPA">\alpha \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_71_POLUGRUPPA">n \leqslant</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_72_POLUGRUPPA">\leqslant \alpha-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_73_POLUGRUPPA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_74_POLUGRUPPA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_75_POLUGRUPPA">s_{n}(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_76_POLUGRUPPA">r^{n+1}(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_77_POLUGRUPPA">s_{n}(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_78_POLUGRUPPA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_79_POLUGRUPPA">g \subset \mathbb{C}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_80_POLUGRUPPA">\lambda \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_81_POLUGRUPPA">s_{n}(\lambda, A) x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_82_POLUGRUPPA">\lambda \in G</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_83_POLUGRUPPA">x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_84_POLUGRUPPA">\bar{d}\left(a^{n+1}\right)=x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_85_POLUGRUPPA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_86_POLUGRUPPA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_87_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_88_POLUGRUPPA">\alpha \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_89_POLUGRUPPA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_90_POLUGRUPPA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_91_POLUGRUPPA">n&gt;\alpha-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_92_POLUGRUPPA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_93_POLUGRUPPA">\lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_94_POLUGRUPPA">s_{n}(\lambda, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_95_POLUGRUPPA">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_96_POLUGRUPPA">n&gt;\alpha-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_97_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_98_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_99_POLUGRUPPA">s_{n}(\lambda, A)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_100_POLUGRUPPA">=s_{n}(\lambda, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_101_POLUGRUPPA">x \in D\left(A_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_102_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_103_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_104_POLUGRUPPA">x \notin D\left(A_{0}\right)=D(A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_105_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_106_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_107_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_108_POLUGRUPPA">t(t) x, t&gt;t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_109_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_110_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_111_POLUGRUPPA">t&gt;2 t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_112_POLUGRUPPA">t&gt;3 t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_113_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_114_POLUGRUPPA">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_115_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_116_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_117_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_118_POLUGRUPPA">t_{0} \geqslant 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_119_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_120_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_121_POLUGRUPPA">t&gt;t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_122_POLUGRUPPA">a, b, c&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_123_POLUGRUPPA">r(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_124_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_125_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_126_POLUGRUPPA">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_127_POLUGRUPPA">b&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_128_POLUGRUPPA">a_{b}, c_{b}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_129_POLUGRUPPA">r(\lambda, a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_130_POLUGRUPPA">\mu&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_131_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_132_POLUGRUPPA">t&gt;t_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_133_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_134_POLUGRUPPA">t_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_135_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_136_POLUGRUPPA">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_137_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_138_POLUGRUPPA">c&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_139_POLUGRUPPA">\delta_{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_140_POLUGRUPPA">0&lt;t&lt;\delta_{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_141_POLUGRUPPA">t(t) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_142_POLUGRUPPA">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_143_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_144_POLUGRUPPA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_145_POLUGRUPPA">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_146_POLUGRUPPA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_147_POLUGRUPPA">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_148_POLUGRUPPA">\beta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_149_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_150_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_151_POLUGRUPPA">\lambda&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_152_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_153_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_154_POLUGRUPPA">t(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_155_POLUGRUPPA">|\arg z|&lt;\varphi \leqslant \pi / 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_156_POLUGRUPPA">\|t(z)\| \leqslant c|z|^{\alpha}, \alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_157_POLUGRUPPA">s_{n}(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_158_POLUGRUPPA">n&gt;\alpha-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_159_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_160_POLUGRUPPA">\star 15</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_161_POLUGRUPPA">|\arg \lambda|&lt;\pi / 2+\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_162_POLUGRUPPA">|\arg \lambda| \leqslant \pi / 2+\psi, \quad \psi&lt;\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_163_POLUGRUPPA">s_{n}(\lambda, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_164_POLUGRUPPA">b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_165_POLUGRUPPA">|\arg \lambda|&lt;\pi / 2+\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_166_POLUGRUPPA">|\arg z|&lt;\psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_167_POLUGRUPPA">t(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_168_POLUGRUPPA">\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_169_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_170_POLUGRUPPA">s_{n}(\lambda, A)=S_{n}(\lambda, B)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_171_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_172_POLUGRUPPA">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_173_POLUGRUPPA">\int_{-\infty}^{+\infty} T(t) \varphi(t) d t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_174_POLUGRUPPA">\varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_175_POLUGRUPPA">d(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_176_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_177_POLUGRUPPA">t(\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_178_POLUGRUPPA">d(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_179_POLUGRUPPA">l(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_180_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_181_POLUGRUPPA">t(\varphi)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_182_POLUGRUPPA">\operatorname{supp} \varphi \subset</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_183_POLUGRUPPA">\subset(-\infty, 0) ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_184_POLUGRUPPA">\varphi, \psi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_185_POLUGRUPPA">d+(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_186_POLUGRUPPA">d(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_187_POLUGRUPPA">(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_188_POLUGRUPPA">t(\varphi * \psi)=T(\varphi) T(\psi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_189_POLUGRUPPA">t(\varphi) x=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_190_POLUGRUPPA">\varphi \in D+(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_191_POLUGRUPPA">x=0 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_192_POLUGRUPPA">t(\varphi) x, \varphi \in D+(\mathbb{R}), x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_193_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_194_POLUGRUPPA">y=t(\psi) x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_195_POLUGRUPPA">\psi \in D+(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_196_POLUGRUPPA">(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_197_POLUGRUPPA">u(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_198_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_199_POLUGRUPPA">u(0)=y \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_200_POLUGRUPPA">\varphi \in D(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_201_POLUGRUPPA">a_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_202_POLUGRUPPA">\left\{\rho_{n}\right\} \subset D+(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_203_POLUGRUPPA">t\left(\rho_{n}\right) x \rightarrow x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_204_POLUGRUPPA">t\left(-\rho_{n}^{\prime}\right) x \rightarrow y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_205_POLUGRUPPA">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_206_POLUGRUPPA">x \in D\left(A_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_207_POLUGRUPPA">y=a_{0} x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_208_POLUGRUPPA">a=\overline{a_{0}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_209_POLUGRUPPA">\bigcap_{n=1}^{\infty} D\left(A_{0}^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_210_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_211_POLUGRUPPA">t(\varphi) X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_212_POLUGRUPPA">\varphi \in D^{+}(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_213_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_214_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_215_POLUGRUPPA">a, b \geqslant 0, c&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_216_POLUGRUPPA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_217_POLUGRUPPA">\operatorname{re} \lambda \geqslant a \ln (1+|\lambda|)+b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_218_POLUGRUPPA">r(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_219_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_220_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_221_POLUGRUPPA">\bigcap_{n=1}^{\infty} D\left(A^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_222_POLUGRUPPA">x_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_223_POLUGRUPPA">a_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_224_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_225_POLUGRUPPA">x_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_226_POLUGRUPPA">x_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_227_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_228_POLUGRUPPA">a_{\infty}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_229_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_230_POLUGRUPPA">t \geqslant 0, T(0)=I</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_231_POLUGRUPPA">x_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_232_POLUGRUPPA">x_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_233_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_234_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_235_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_236_POLUGRUPPA">x_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_237_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_238_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_239_POLUGRUPPA">q, 1 \leqslant q&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_240_POLUGRUPPA">\omega&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_241_POLUGRUPPA">\exp \left(-\omega t^{q}\right) T(\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_242_POLUGRUPPA">d^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_243_POLUGRUPPA">s(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_244_POLUGRUPPA">r(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_245_POLUGRUPPA">\left\{\lambda: \operatorname{Re} \lambda \geqslant[\alpha \ln (1+|\operatorname{Im} \lambda|+\beta)]^{1-1 / q}, \operatorname{Re} \lambda&gt;\omega\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_246_POLUGRUPPA">\alpha, \beta&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_247_POLUGRUPPA">q=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_248_POLUGRUPPA">a_{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_249_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_250_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_251_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_252_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_253_POLUGRUPPA">t(t) x \rightarrow x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_254_POLUGRUPPA">t \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_255_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_256_POLUGRUPPA">\left.l C_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_257_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_258_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_259_POLUGRUPPA">(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_260_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_261_POLUGRUPPA">\left.u C_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_262_POLUGRUPPA">t(t), 0 \leqslant t&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_263_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_264_POLUGRUPPA">l C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_265_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_266_POLUGRUPPA">d(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_267_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_268_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_269_POLUGRUPPA">\bigcap_{n=1}^{\infty} D\left(A^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_270_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_271_POLUGRUPPA">d(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_272_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_273_POLUGRUPPA">u C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_274_POLUGRUPPA">\operatorname{re} \lambda&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_275_POLUGRUPPA">r(\lambda, A)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_276_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_277_POLUGRUPPA">u C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_278_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_279_POLUGRUPPA">\lambda_{k} \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_280_POLUGRUPPA">\lambda_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_281_POLUGRUPPA">r\left(\lambda_{k}, \quad A\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_282_POLUGRUPPA">\left[\lambda_{k} R\left(\lambda_{k}, A\right)\right]^{n}, k, n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_283_POLUGRUPPA">l C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_284_POLUGRUPPA">a=\frac{d}{d s}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_285_POLUGRUPPA">c^{\infty}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_286_POLUGRUPPA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_287_POLUGRUPPA">\mathbb{r} \quad B</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_288_POLUGRUPPA">a-\lambda I</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_289_POLUGRUPPA">r(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_290_POLUGRUPPA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_291_POLUGRUPPA">\lambda \subset \mathbb{C}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_292_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_293_POLUGRUPPA">a R(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_294_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_295_POLUGRUPPA">r(\lambda) A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_296_POLUGRUPPA">d(a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_297_POLUGRUPPA">b(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_298_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_299_POLUGRUPPA">\lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_300_POLUGRUPPA">\lambda</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_301_POLUGRUPPA">h^{+}(\lambda) x \rightarrow 0, H^{-}(\lambda) x \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_302_POLUGRUPPA">\lambda \rightarrow \lambda_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_303_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_304_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_305_POLUGRUPPA">h+(\lambda)=(a-\lambda I) R(\lambda)-I, \quad H-(\lambda)=B(\lambda)-\lambda R(\lambda)-I</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_306_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_307_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_308_POLUGRUPPA">l C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_309_POLUGRUPPA">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_310_POLUGRUPPA">\alpha&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_311_POLUGRUPPA">\lambda&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_312_POLUGRUPPA">r(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_313_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_314_POLUGRUPPA">r(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_315_POLUGRUPPA">h^{+}(\lambda), H^{-}(\lambda)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_316_POLUGRUPPA">\lambda&gt;\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_317_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_318_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_319_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_320_POLUGRUPPA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_321_POLUGRUPPA">t^{\prime}(t) f \rightarrow f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_322_POLUGRUPPA">t \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_323_POLUGRUPPA">f \in X^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_324_POLUGRUPPA">\sigma\left(x^{\top}, X\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_325_POLUGRUPPA">a-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_326_POLUGRUPPA">a^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_327_POLUGRUPPA">t^{\prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_328_POLUGRUPPA">d\left(a^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_329_POLUGRUPPA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_330_POLUGRUPPA">t^{-1}\left[T^{\prime}(t)-I\right] f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_331_POLUGRUPPA">t \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_332_POLUGRUPPA">a^{\prime} f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_333_POLUGRUPPA">d\left(a^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_334_POLUGRUPPA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_335_POLUGRUPPA">a^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_336_POLUGRUPPA">x^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_337_POLUGRUPPA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_338_POLUGRUPPA">t^{\prime}(f) \rightarrow f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_339_POLUGRUPPA">t \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_340_POLUGRUPPA">x^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_341_POLUGRUPPA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_342_POLUGRUPPA">t^{\prime}(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_343_POLUGRUPPA">x^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_344_POLUGRUPPA">t(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_345_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_346_POLUGRUPPA">x^{+}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_347_POLUGRUPPA">x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_348_POLUGRUPPA">d\left(a^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_349_POLUGRUPPA">x^{+}=x^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_350_POLUGRUPPA">c_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_351_POLUGRUPPA">l C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_352_POLUGRUPPA">u C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_353_POLUGRUPPA">x+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_354_POLUGRUPPA">t(\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_355_POLUGRUPPA">t(\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_356_POLUGRUPPA">\left.l D^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_357_POLUGRUPPA">k \subset D(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_358_POLUGRUPPA">\{t(\varphi)\}, \varphi \in K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_359_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_360_POLUGRUPPA">l D^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_361_POLUGRUPPA">a_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_362_POLUGRUPPA">l D^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_363_POLUGRUPPA">\left(a_{0}=a\right), \bigcap_{n=1}^{\infty} D\left(A^{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_364_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_365_POLUGRUPPA">x \in X</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_366_POLUGRUPPA">\varphi \in D(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_367_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_368_POLUGRUPPA">[0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_369_POLUGRUPPA">\frac{d}{d t}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_370_POLUGRUPPA">a-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_371_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_372_POLUGRUPPA">l D^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_373_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_374_POLUGRUPPA">\frac{d}{d t}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_375_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_376_POLUGRUPPA">f(t(\varphi) x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_377_POLUGRUPPA">\left.f \in X^{\prime}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_378_POLUGRUPPA">\hat{\varphi}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_379_POLUGRUPPA">\varphi \in D(\mathbb{R})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_380_POLUGRUPPA">\hat{d}(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_381_POLUGRUPPA">d(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_382_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_383_POLUGRUPPA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_384_POLUGRUPPA">\hat{f}(\widehat{\varphi})=f(\varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_385_POLUGRUPPA">\hat{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_386_POLUGRUPPA">\hat{d}(\mathbb{r})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_387_POLUGRUPPA">l(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_388_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_389_POLUGRUPPA">\hat{d}_{+}^{\prime}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_390_POLUGRUPPA">\hat{f}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_391_POLUGRUPPA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_392_POLUGRUPPA">(0, \infty)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_393_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_394_POLUGRUPPA">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_395_POLUGRUPPA">\bar{a}_{\text {в пространстве } \tilde{D}_{+}^{\prime}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_396_POLUGRUPPA">\hat{f} \in \hat{D}_{+}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_397_POLUGRUPPA">\varphi \in D(R)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_398_POLUGRUPPA">\widehat{d}_{+}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_399_POLUGRUPPA">\widehat{d}_{+}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_400_POLUGRUPPA">\tilde{\lambda}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_401_POLUGRUPPA">\tilde{a}-\tilde{\lambda}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_402_POLUGRUPPA">\tilde{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_403_POLUGRUPPA">\widehat{d}_{+}^{\prime}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_404_POLUGRUPPA">\widetilde{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_405_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_406_POLUGRUPPA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_407_POLUGRUPPA">\frac{d}{d t}-A</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_408_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_409_POLUGRUPPA">t</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_410_POLUGRUPPA">l C_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_411_POLUGRUPPA">15, ﹎{2} 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_412_POLUGRUPPA">363-66</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_413_POLUGRUPPA">\%</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_414_POLUGRUPPA">495-98</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_415_POLUGRUPPA">1968, \mathrm{v} .17, \mathrm{NN}_{2} 12, \mathrm{p}, 1131-41 ;[14]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_416_POLUGRUPPA">437-40</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_417_POLUGRUPPA">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_418_POLUGRUPPA">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_419_POLUGRUPPA">\theta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_420_POLUGRUPPA">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_421_POLUGRUPPA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_422_POLUGRUPPA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_423_POLUGRUPPA">k_{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_424_POLUGRUPPA">g_{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_425_POLUGRUPPA">k_{e}&gt;g_{e}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_426_POLUGRUPPA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_427_POLUGRUPPA">s</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_428_POLUGRUPPA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_429_POLUGRUPPA">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_430_POLUGRUPPA">m_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_431_POLUGRUPPA">m_{r}, M_{J}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_432_POLUGRUPPA">\mathscr{l}-, \mathscr{R}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_433_POLUGRUPPA">\mathscr{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_434_POLUGRUPPA">m_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_435_POLUGRUPPA">\mathscr{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_436_POLUGRUPPA">m_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_437_POLUGRUPPA">m_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_438_POLUGRUPPA">m_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_439_POLUGRUPPA">m_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_440_POLUGRUPPA">m_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_441_POLUGRUPPA">m_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_442_POLUGRUPPA">m_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_443_POLUGRUPPA">m_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_444_POLUGRUPPA">m_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_445_POLUGRUPPA">m_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_446_POLUGRUPPA">m_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_447_POLUGRUPPA">m_{h}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_448_POLUGRUPPA">m_{l}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_449_POLUGRUPPA">m_{r}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/459_450_POLUGRUPPA">m_{l}</formula>
+  </formulas_aux>
+  <relations n="29">
+    <relation uri="http://libmeta.ru/me/relation/459_1_POLUGRUPPA">
+      <rel_text>полугруппы</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_2_POLUGRUPPA">
+      <rel_text>Идеальный ряд</rel_text>
+      <target>http://libmeta.ru/me/article/488_IDEAL'NYI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_3_POLUGRUPPA">
+      <rel_text>Финитно</rel_text>
+      <target>http://libmeta.ru/me/article/705_FINItIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_4_POLUGRUPPA">
+      <rel_text>финитная</rel_text>
+      <target>http://libmeta.ru/me/article/705_FINItIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_5_POLUGRUPPA">
+      <rel_text>Локально конечная полугруппа</rel_text>
+      <target>http://libmeta.ru/me/article/439_LOKAL'NO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_6_POLUGRUPPA">
+      <rel_text>Периодическая</rel_text>
+      <target>http://libmeta.ru/me/article/259_PERIODOGRAMM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_7_POLUGRUPPA">
+      <rel_text>подгрупп</rel_text>
+      <target>http://libmeta.ru/me/article/353_PODGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_8_POLUGRUPPA">
+      <rel_text>условию минимальности</rel_text>
+      <target>http://libmeta.ru/me/article/1213_GRUPІA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_9_POLUGRUPPA">
+      <rel_text>конгруэнций</rel_text>
+      <target>http://libmeta.ru/me/article/1028_KONGRUENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_10_POLUGRUPPA">
+      <rel_text>полугруппа</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_11_POLUGRUPPA">
+      <rel_text>конгруэнций</rel_text>
+      <target>http://libmeta.ru/me/article/1028_KONGRUENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_12_POLUGRUPPA">
+      <rel_text>полугрупп</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_13_POLUGRUPPA">
+      <rel_text>подгрупп</rel_text>
+      <target>http://libmeta.ru/me/article/353_PODGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_14_POLUGRUPPA">
+      <rel_text>условию минимальности</rel_text>
+      <target>http://libmeta.ru/me/article/1213_GRUPІA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_15_POLUGRUPPA">
+      <rel_text>число</rel_text>
+      <target>http://libmeta.ru/me/article/1009_ChISL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_16_POLUGRUPPA">
+      <rel_text>полугруппа</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_17_POLUGRUPPA">
+      <rel_text>конгруэнций</rel_text>
+      <target>http://libmeta.ru/me/article/1028_KONGRUENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_18_POLUGRUPPA">
+      <rel_text>условию минимальности</rel_text>
+      <target>http://libmeta.ru/me/article/1213_GRUPІA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_19_POLUGRUPPA">
+      <rel_text>әквивалентно</rel_text>
+      <target>http://libmeta.ru/me/article/1111_ӘKVIDISTANT</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_20_POLUGRUPPA">
+      <rel_text>конгруәнций</rel_text>
+      <target>http://libmeta.ru/me/article/1028_KONGRUENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_21_POLUGRUPPA">
+      <rel_text>условие минимальности</rel_text>
+      <target>http://libmeta.ru/me/article/1213_GRUPІA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_22_POLUGRUPPA">
+      <rel_text>полугруппах</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_23_POLUGRUPPA">
+      <rel_text>инверсных</rel_text>
+      <target>http://libmeta.ru/me/article/560_INVERSI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_24_POLUGRUPPA">
+      <rel_text>полугруппа</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_25_POLUGRUPPA">
+      <rel_text>подгруппы</rel_text>
+      <target>http://libmeta.ru/me/article/353_PODGRUPP</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_26_POLUGRUPPA">
+      <rel_text>периодической</rel_text>
+      <target>http://libmeta.ru/me/article/259_PERIODOGRAMM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_27_POLUGRUPPA">
+      <rel_text>конгруәнций</rel_text>
+      <target>http://libmeta.ru/me/article/1028_KONGRUENTsI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_28_POLUGRUPPA">
+      <rel_text>условием минимальности</rel_text>
+      <target>http://libmeta.ru/me/article/1213_GRUPІA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/459_29_POLUGRUPPA">
+      <rel_text>Полугруппа</rel_text>
+      <target>http://libmeta.ru/me/article/457_POLUGRUPP</target>
+    </relation>
+  </relations>
+  <text>семейство операторов $URI[[http://libmeta.ru/me/formula/aux/459_1_POLUGRUPPA]]/URI$ в банаховом или топологическом векторном пространстве, обладающее тем свойством, что композиция любых двух операторов семейства снова принадлежит семейству. Если операторы $URI[[http://libmeta.ru/me/formula/aux/459_2_POLUGRUPPA]]/URI$ «занумерованы» элементами нек-рой абстрактной полугруппы $URI[[http://libmeta.ru/me/formula/aux/459_3_POLUGRUPPA]]/URI$ и бинарной операции полугруппы отвечает композиция операторов, то полугруппа $URI[[http://libmeta.ru/me/formula/aux/459_4_POLUGRUPPA]]/URI$ наз. п р е д с т а в л е-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b6d589cf43c39b095bdeg-1.jpg?height=35&amp;width=806&amp;top_left_y=1848&amp;top_left_x=153)
+чены однопараметрические полугруппы линейных ограниченных операторов в банаховом пространстве $URI[[http://libmeta.ru/me/formula/aux/459_5_POLUGRUPPA]]/URI$, дающие представление аддитивной полугруппы всех положительных чисел, т. е. семейства $URI[[http://libmeta.ru/me/formula/aux/459_6_POLUGRUPPA]]/URI$ со свойством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_1_POLUGRUPPA]]/URI
+\]
+
+Из сильной измеримости $URI[[http://libmeta.ru/me/formula/aux/459_7_POLUGRUPPA]]/URI$, следует, что $URI[[http://libmeta.ru/me/formula/aux/459_8_POLUGRUPPA]]/URI$ - сильно непрерывная полугруппа, поэтому в дальнейшем только такие и рассматриваются.
+
+Существует число
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_2_POLUGRUPPA]]/URI
+\]
+
+- ти п по л у г р у п пы. Все функции $URI[[http://libmeta.ru/me/formula/aux/459_9_POLUGRUPPA]]/URI$ растут не быстрее әкспоненты. Важной характеристикой является и н ф и н т езимальны й опе ра тор по лу у р у п I ы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_3_POLUGRUPPA]]/URI
+\]
+
+определенный на линейном множестве $URI[[http://libmeta.ru/me/formula/aux/459_10_POLUGRUPPA]]/URI$ тех элементов $URI[[http://libmeta.ru/me/formula/aux/459_11_POLUGRUPPA]]/URI$, на к-рых предел существует, и его замыкание $URI[[http://libmeta.ru/me/formula/aux/459_12_POLUGRUPPA]]/URI$ (если оно существует) - п р о и 3 в о д я щ и й о п ер а т о р по л у г р у п п ы. Множество $URI[[http://libmeta.ru/me/formula/aux/459_13_POLUGRUPPA]]/URI$ плотно на подпространстве $URI[[http://libmeta.ru/me/formula/aux/459_14_POLUGRUPPA]]/URI$, являющемся замыканием объединения всех значений $URI[[http://libmeta.ru/me/formula/aux/459_15_POLUGRUPPA]]/URI$. Если в $URI[[http://libmeta.ru/me/formula/aux/459_16_POLUGRUPPA]]/URI$ нет ненулевых әлементов, на к-рых $URI[[http://libmeta.ru/me/formula/aux/459_17_POLUGRUPPA]]/URI$, то существует производящий оператор $URI[[http://libmeta.ru/me/formula/aux/459_18_POLUGRUPPA]]/URI$. В дальнейшем всегда предполагается, что $URI[[http://libmeta.ru/me/formula/aux/459_19_POLUGRUPPA]]/URI$ и что из $URI[[http://libmeta.ru/me/formula/aux/459_20_POLUGRUPPA]]/URI$ следует $URI[[http://libmeta.ru/me/formula/aux/459_21_POLUGRUPPA]]/URI$.
+
+Наиболее простой класс полугрупп - класс $URI[[http://libmeta.ru/me/formula/aux/459_22_POLUGRUPPA]]/URI$ - выделяется условием: $URI[[http://libmeta.ru/me/formula/aux/459_23_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_24_POLUGRUPPA]]/URI$ и любом $URI[[http://libmeta.ru/me/formula/aux/459_25_POLUGRUPPA]]/URI$. Для выполнения этого условия необходимо и достаточно, чтобы функция $URI[[http://libmeta.ru/me/formula/aux/459_26_POLUGRUPPA]]/URI$ была ограниченной на какомнибудь промежутке $URI[[http://libmeta.ru/me/formula/aux/459_27_POLUGRUPPA]]/URI$. В этом случае $URI[[http://libmeta.ru/me/formula/aux/459_28_POLUGRUPPA]]/URI$ имеет производящий оператор $URI[[http://libmeta.ru/me/formula/aux/459_29_POLUGRUPPA]]/URI$, для резольвенты $URI[[http://libmeta.ru/me/formula/aux/459_30_POLUGRUPPA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/459_31_POLUGRUPPA]]/URI$ к-рого выполнено
+
+$URI[[http://libmeta.ru/me/formula/aux/459_32_POLUGRUPPA]]/URI$,
+
+где $URI[[http://libmeta.ru/me/formula/aux/459_33_POLUGRUPPA]]/URI$ - тип полугруппы. Обратно, если $URI[[http://libmeta.ru/me/formula/aux/459_34_POLUGRUPPA]]/URI$ - замкнутый оператор с плотной в $URI[[http://libmeta.ru/me/formula/aux/459_35_POLUGRUPPA]]/URI$ областью определения, для резольвенты к-рого выполнено (1), то он является производящим оператором нек-рой полугруппы $URI[[http://libmeta.ru/me/formula/aux/459_36_POLUGRUPPA]]/URI$ класса $URI[[http://libmeta.ru/me/formula/aux/459_37_POLUGRUPPA]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/459_38_POLUGRUPPA]]/URI$. Условия (1) выполняются, если
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_4_POLUGRUPPA]]/URI
+\]
+
+(усл о в и е Хилле - Ио с и ды). Если при этом $URI[[http://libmeta.ru/me/formula/aux/459_39_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_40_POLUGRUPPA]]/URI$ - сжатий полугр упnа: $URI[[http://libmeta.ru/me/formula/aux/459_41_POLUGRUPPA]]/URI$.
+
+С умми р у м а я пол уг р у п п а - та, для к-рой функции $URI[[http://libmeta.ru/me/formula/aux/459_42_POLUGRUPPA]]/URI$ суммируемы на любом конечном отрезке при всех $URI[[http://libmeta.ru/me/formula/aux/459_43_POLUGRUPPA]]/URI$. Суммируемая полугруппа имеет производящий оператор $URI[[http://libmeta.ru/me/formula/aux/459_44_POLUGRUPPA]]/URI$. Оператор $URI[[http://libmeta.ru/me/formula/aux/459_45_POLUGRUPPA]]/URI$ замкнут тогда и только тогда, когда при любом $URI[[http://libmeta.ru/me/formula/aux/459_46_POLUGRUPPA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_5_POLUGRUPPA]]/URI
+\]
+
+Для суммируемой полугруппы при $URI[[http://libmeta.ru/me/formula/aux/459_47_POLUGRUPPA]]/URI$ определено преобразов ание Л а пл а с а
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_6_POLUGRUPPA]]/URI
+\]
+
+дающее линейный ограниченный оператор $URI[[http://libmeta.ru/me/formula/aux/459_48_POLUGRUPPA]]/URI$, обладающий многими свойствами резольвенты.
+
+Для того чтобы замкнутый оператор $URI[[http://libmeta.ru/me/formula/aux/459_49_POLUGRUPPA]]/URI$ с плотной в $URI[[http://libmeta.ru/me/formula/aux/459_50_POLUGRUPPA]]/URI$ областью определения был производящим оператором суммируемой полугруппы $URI[[http://libmeta.ru/me/formula/aux/459_51_POLUGRUPPA]]/URI$, необходимо и достаточно, чтобы для нек-рого $URI[[http://libmeta.ru/me/formula/aux/459_52_POLUGRUPPA]]/URI$ существовала резольвента $URI[[http://libmeta.ru/me/formula/aux/459_53_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_54_POLUGRUPPA]]/URI$ и выполнялись условия: а) $URI[[http://libmeta.ru/me/formula/aux/459_55_POLUGRUPPA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/459_56_POLUGRUPPA]]/URI$; б) существуют такие неотрицательная и непрерывная по совокупности переменных функция $URI[[http://libmeta.ru/me/formula/aux/459_57_POLUGRUPPA]]/URI$, и неотрицательная функция $URI[[http://libmeta.ru/me/formula/aux/459_58_POLUGRUPPA]]/URI$, ограниченная на любом промежутке $URI[[http://libmeta.ru/me/formula/aux/459_59_POLUGRUPPA]]/URI$, что при $URI[[http://libmeta.ru/me/formula/aux/459_60_POLUGRUPPA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_7_POLUGRUPPA]]/URI
+\]
+
+При этом
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_8_POLUGRUPPA]]/URI
+\]
+
+Если дополнительно потребовать, чтобы функция $URI[[http://libmeta.ru/me/formula/aux/459_61_POLUGRUPPA]]/URI$ была суммируемой на конечных громежутках, то необходимо и доста'очно существование такой непрерывной функции $URI[[http://libmeta.ru/me/formula/aux/459_62_POLUGRUPPA]]/URI$, что при $URI[[http://libmeta.ru/me/formula/aux/459_63_POLUGRUPPA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_9_POLUGRUPPA]]/URI
+\]
+
+При этом $URI[[http://libmeta.ru/me/formula/aux/459_64_POLUGRUPPA]]/URI$. Выбирая различные функции, удовлетворяющие (3), можно выделять различные подклассы суммируемых полугрупп. Если $URI[[http://libmeta.ru/me/formula/aux/459_65_POLUGRUPPA]]/URI$, то получается класс $URI[[http://libmeta.ru/me/formula/aux/459_66_POLUGRUPPA]]/URI$ и из (4) вытекает (1). Если $URI[[http://libmeta.ru/me/formula/aux/459_67_POLUGRUPPA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/459_68_POLUGRUPPA]]/URI$, то из (4) получается условие $URI[[http://libmeta.ru/me/formula/aux/459_69_POLUGRUPPA]]/URI$
+
+Полугруппа со степенными особенностями. Если в предыдущем примере $URI[[http://libmeta.ru/me/formula/aux/459_70_POLUGRUPPA]]/URI$, то в (4) интегралы при $URI[[http://libmeta.ru/me/formula/aux/459_71_POLUGRUPPA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/459_72_POLUGRUPPA]]/URI$ расходятся. В соответствии с этим производящий оператор соответствующих полугрупп может не иметь резольвенты ни при каких $URI[[http://libmeta.ru/me/formula/aux/459_73_POLUGRUPPA]]/URI$, т. е. иметь спектр, совпадающий со всей комплексной плоскостью. Однако для таких операторов, начиная с нек-рого $URI[[http://libmeta.ru/me/formula/aux/459_74_POLUGRUPPA]]/URI$, существуют функции $URI[[http://libmeta.ru/me/formula/aux/459_75_POLUGRUPPA]]/URI$, совпадающие в предыдущих случаях c $URI[[http://libmeta.ru/me/formula/aux/459_76_POLUGRUPPA]]/URI$. Оператор-функция $URI[[http://libmeta.ru/me/formula/aux/459_77_POLUGRUPPA]]/URI$ наз. р ез о л ь в е н т о й п о р я д к а $URI[[http://libmeta.ru/me/formula/aux/459_78_POLUGRUPPA]]/URI$, если она аналитична в нек-рой области $URI[[http://libmeta.ru/me/formula/aux/459_79_POLUGRUPPA]]/URI$ и при $URI[[http://libmeta.ru/me/formula/aux/459_80_POLUGRUPPA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_10_POLUGRUPPA]]/URI
+\]
+
+и из того, что $URI[[http://libmeta.ru/me/formula/aux/459_81_POLUGRUPPA]]/URI$ при всех $URI[[http://libmeta.ru/me/formula/aux/459_82_POLUGRUPPA]]/URI$, следует, что $URI[[http://libmeta.ru/me/formula/aux/459_83_POLUGRUPPA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/459_84_POLUGRUPPA]]/URI$, то оператор может иметь единственную резольвенту порядка $URI[[http://libmeta.ru/me/formula/aux/459_85_POLUGRUPPA]]/URI$, для к-рой имеется максимальная область аналитичности, наз. р е з о л ьв е н т ны м множ е с т в о м по о я д к а $URI[[http://libmeta.ru/me/formula/aux/459_86_POLUGRUPPA]]/URI$.
+
+Пусть для сильно непрерывной полугруппы $URI[[http://libmeta.ru/me/formula/aux/459_87_POLUGRUPPA]]/URI$ выполняется неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_11_POLUGRUPPA]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/459_88_POLUGRUPPA]]/URI$. Тогда өе производящий оператор $URI[[http://libmeta.ru/me/formula/aux/459_89_POLUGRUPPA]]/URI$ имеет резольвөнту порядка $URI[[http://libmeta.ru/me/formula/aux/459_90_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_91_POLUGRUPPA]]/URI$, причөм
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_12_POLUGRUPPA]]/URI
+\]
+
+Обратно, пусть оператор $URI[[http://libmeta.ru/me/formula/aux/459_92_POLUGRUPPA]]/URI$ имеет при Re $URI[[http://libmeta.ru/me/formula/aux/459_93_POLUGRUPPA]]/URI$ резольвенту $URI[[http://libmeta.ru/me/formula/aux/459_94_POLUGRUPPA]]/URI$ порядка $URI[[http://libmeta.ru/me/formula/aux/459_95_POLUGRUPPA]]/URI$, для к-рой выполнено (5) іри $URI[[http://libmeta.ru/me/formula/aux/459_96_POLUGRUPPA]]/URI$. Тогда существует единственная полугруппа $URI[[http://libmeta.ru/me/formula/aux/459_97_POLUGRUPPA]]/URI$ с оценкой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_13_POLUGRUPPA]]/URI
+\]
+
+для производящего оператора $URI[[http://libmeta.ru/me/formula/aux/459_98_POLUGRUPPA]]/URI$ к-рой $URI[[http://libmeta.ru/me/formula/aux/459_99_POLUGRUPPA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/459_100_POLUGRUPPA]]/URI$.
+
+Гладкая полугруппа. Если $URI[[http://libmeta.ru/me/formula/aux/459_101_POLUGRUPPA]]/URI$, то функция $URI[[http://libmeta.ru/me/formula/aux/459_102_POLUGRUPPA]]/URI$ непрерывно дифференцируема и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_14_POLUGRUPPA]]/URI
+\]
+
+Существуют полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_103_POLUGRUPPA]]/URI$, для к-рых при $URI[[http://libmeta.ru/me/formula/aux/459_104_POLUGRUPPA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/459_105_POLUGRUPPA]]/URI$ недифференцируемы при всех $URI[[http://libmeta.ru/me/formula/aux/459_106_POLUGRUPPA]]/URI$. Однако для важных классов полугрупп наблюдается явление повышения их гладкости с увеличением $URI[[http://libmeta.ru/me/formula/aux/459_107_POLUGRUPPA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/459_108_POLUGRUPPA]]/URI$, диффференцируемы при любом $URI[[http://libmeta.ru/me/formula/aux/459_109_POLUGRUPPA]]/URI$, то из полугруппового свойства следует, что $URI[[http://libmeta.ru/me/formula/aux/459_110_POLUGRUPPA]]/URI$ дважды дифференцируема при $URI[[http://libmeta.ru/me/formula/aux/459_111_POLUGRUPPA]]/URI$, трижды - при $URI[[http://libmeta.ru/me/formula/aux/459_112_POLUGRUPPA]]/URI$ и т. д. Поэтому если $URI[[http://libmeta.ru/me/formula/aux/459_113_POLUGRUPPA]]/URI$ дифференцируемы при любых $URI[[http://libmeta.ru/me/formula/aux/459_114_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_115_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_116_POLUGRUPPA]]/URI$ бесконечно дифференцируемы. Для того чтобы для полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_117_POLUGRUPPA]]/URI$ при нек-ром $URI[[http://libmeta.ru/me/formula/aux/459_118_POLUGRUPPA]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/459_119_POLUGRUPPA]]/URI$ были дифференцируемы при всех $URI[[http://libmeta.ru/me/formula/aux/459_120_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_121_POLUGRUPPA]]/URI$, необходимо и достаточно существование таких чисел $URI[[http://libmeta.ru/me/formula/aux/459_122_POLUGRUPPA]]/URI$, что резольвента $URI[[http://libmeta.ru/me/formula/aux/459_123_POLUGRUPPA]]/URI$ определена в области
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_15_POLUGRUPPA]]/URI
+\]
+
+И в этой области
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_16_POLUGRUPPA]]/URI
+\]
+
+Для того чтобы $URI[[http://libmeta.ru/me/formula/aux/459_124_POLUGRUPPA]]/URI$ были бескокечно диффференцируемыми при всех $URI[[http://libmeta.ru/me/formula/aux/459_125_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_126_POLUGRUPPA]]/URI$, необходимо и достаточно, чтобы для каждого $URI[[http://libmeta.ru/me/formula/aux/459_127_POLUGRUPPA]]/URI$ нашлись такие $URI[[http://libmeta.ru/me/formula/aux/459_128_POLUGRUPPA]]/URI$, что резольвента $URI[[http://libmeta.ru/me/formula/aux/459_129_POLUGRUPPA]]/URI$ определена при
+
+и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_17_POLUGRUPPA]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_18_POLUGRUPPA]]/URI
+\]
+
+Достаточные условия: если при нек-ром $URI[[http://libmeta.ru/me/formula/aux/459_130_POLUGRUPPA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_19_POLUGRUPPA]]/URI
+\]
+
+то $URI[[http://libmeta.ru/me/formula/aux/459_131_POLUGRUPPA]]/URI$ дифференцируемы при $URI[[http://libmeta.ru/me/formula/aux/459_132_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_133_POLUGRUPPA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/459_134_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_135_POLUGRUPPA]]/URI$ бесконечно диффференцируемы при всех $URI[[http://libmeta.ru/me/formula/aux/459_136_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_137_POLUGRUPPA]]/URI$.
+
+Иногда о гладкости полугруппы можно судить по ее поведению в нуле; напр., если для каждого $URI[[http://libmeta.ru/me/formula/aux/459_138_POLUGRUPPA]]/URI$ существует такое $URI[[http://libmeta.ru/me/formula/aux/459_139_POLUGRUPPA]]/URI$, что при $URI[[http://libmeta.ru/me/formula/aux/459_140_POLUGRUPPA]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_20_POLUGRUPPA]]/URI
+\]
+
+то $URI[[http://libmeta.ru/me/formula/aux/459_141_POLUGRUPPA]]/URI$ бесконечно дифференцируемы при всех $URI[[http://libmeta.ru/me/formula/aux/459_142_POLUGRUPPA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/459_143_POLUGRUPPA]]/URI$.
+
+Имеются условия гладкости суммируемых полугрупп и полугрупп степенного роста. Если полугруппа степенного роста $URI[[http://libmeta.ru/me/formula/aux/459_144_POLUGRUPPA]]/URI$ бесконечно дифференцируема при $URI[[http://libmeta.ru/me/formula/aux/459_145_POLUGRUPPA]]/URI$, то функция
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_21_POLUGRUPPA]]/URI
+\]
+
+часто также имест степенной рост:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_22_POLUGRUPPA]]/URI
+\]
+
+Между числами $URI[[http://libmeta.ru/me/formula/aux/459_146_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_147_POLUGRUPPA]]/URI$ в общем случае нет жесткой связи, и число $URI[[http://libmeta.ru/me/formula/aux/459_148_POLUGRUPPA]]/URI$ может служить для более детальной классификации бесконечно дифференцируемых полугрупп степенного роста.
+
+Аналитическая полугруппа. Важный класс полугрупшы, связанный с уравнениями с частными производными параболич. тџпа, состоит из полугрупп $URI[[http://libmeta.ru/me/formula/aux/459_149_POLUGRUPPA]]/URI$, допускающих аналитич. продолжение в нек-рый сектор комплексной плоскости, содержащий положительную полуось. Для того чтобы полугруппа класса $URI[[http://libmeta.ru/me/formula/aux/459_150_POLUGRUPPA]]/URI$ обладала этим свойством, необходимо и достаточно, чтобы в нек-рой правой полуплоскости Re $URI[[http://libmeta.ru/me/formula/aux/459_151_POLUGRUPPA]]/URI$ для резольвенты выполнялось неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_23_POLUGRUPPA]]/URI
+\]
+
+Также необходимо и достаточно, чтобы полугруппа была сильно диффференцируемой и чтобы для ее провзводной имелась оценка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_24_POLUGRUPPA]]/URI
+\]
+
+Наконец, из неравөнства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_25_POLUGRUPPA]]/URI
+\]
+
+также следует аналитичность $URI[[http://libmeta.ru/me/formula/aux/459_152_POLUGRUPPA]]/URI$.
+
+Если полугруппа $URI[[http://libmeta.ru/me/formula/aux/459_153_POLUGRUPPA]]/URI$ допускает аналитич. продолжение $URI[[http://libmeta.ru/me/formula/aux/459_154_POLUGRUPPA]]/URI$ в сектор $URI[[http://libmeta.ru/me/formula/aux/459_155_POLUGRUPPA]]/URI$ и имеет степенной рост в нуле, $URI[[http://libmeta.ru/me/formula/aux/459_156_POLUGRUPPA]]/URI$, то резольвента $URI[[http://libmeta.ru/me/formula/aux/459_157_POLUGRUPPA]]/URI$ порядка $URI[[http://libmeta.ru/me/formula/aux/459_158_POLUGRUPPA]]/URI$ ее производящего оператора $URI[[http://libmeta.ru/me/formula/aux/459_159_POLUGRUPPA]]/URI$ допу-
+
+$URI[[http://libmeta.ru/me/formula/aux/459_160_POLUGRUPPA]]/URI$ Математическая энц., т. 4 скает аналитич. продолжение в сектор $URI[[http://libmeta.ru/me/formula/aux/459_161_POLUGRUPPA]]/URI$ и в любом секторе $URI[[http://libmeta.ru/me/formula/aux/459_162_POLUGRUPPA]]/URI$, допускает оценку
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_26_POLUGRUPPA]]/URI
+\]
+
+Обратно, пусть резольвента $URI[[http://libmeta.ru/me/formula/aux/459_163_POLUGRUPPA]]/URI$ оператора $URI[[http://libmeta.ru/me/formula/aux/459_164_POLUGRUPPA]]/URI$ определена в секторе $URI[[http://libmeta.ru/me/formula/aux/459_165_POLUGRUPPA]]/URI$ и справедливо неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_27_POLUGRUPPA]]/URI
+\]
+
+Тогда существует аналитическая в секторе $URI[[http://libmeta.ru/me/formula/aux/459_166_POLUGRUPPA]]/URI$ полугруппа $URI[[http://libmeta.ru/me/formula/aux/459_167_POLUGRUPPA]]/URI$ роста $URI[[http://libmeta.ru/me/formula/aux/459_168_POLUGRUPPA]]/URI$, для производящего оператора $URI[[http://libmeta.ru/me/formula/aux/459_169_POLUGRUPPA]]/URI$ к-рой $URI[[http://libmeta.ru/me/formula/aux/459_170_POLUGRUPPA]]/URI$.
+
+Полугруппа-распределение. В соответствии с общей концепцией теории распределений (обобценных бункций) можно отказатъся от того, чтобы оператор-функция $URI[[http://libmeta.ru/me/formula/aux/459_171_POLUGRUPPA]]/URI$ была определена при каждом $URI[[http://libmeta.ru/me/formula/aux/459_172_POLUGRUPPA]]/URI$, а потребовать лишь вычислимость интегралов $URI[[http://libmeta.ru/me/formula/aux/459_173_POLUGRUPPA]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/459_174_POLUGRUPPA]]/URI$ из пространства $URI[[http://libmeta.ru/me/formula/aux/459_175_POLUGRUPPA]]/URI$ всех финитных бесконечно дифференцируемых функций. Тогда возникает определение: по лугруп пой - р а сп р е деление м в банаховом пространстве $URI[[http://libmeta.ru/me/formula/aux/459_176_POLUGRUPPA]]/URI$ наз. линейное непрерывное отображение $URI[[http://libmeta.ru/me/formula/aux/459_177_POLUGRUPPA]]/URI$ пространства $URI[[http://libmeta.ru/me/formula/aux/459_178_POLUGRUPPA]]/URI$ в пространство $URI[[http://libmeta.ru/me/formula/aux/459_179_POLUGRUPPA]]/URI$ всех линейных ограниченных операторов в $URI[[http://libmeta.ru/me/formula/aux/459_180_POLUGRUPPA]]/URI$, обладающее свойствами a) $URI[[http://libmeta.ru/me/formula/aux/459_181_POLUGRUPPA]]/URI$, если $URI[[http://libmeta.ru/me/formula/aux/459_182_POLUGRUPPA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/459_183_POLUGRUPPA]]/URI$ б) для $URI[[http://libmeta.ru/me/formula/aux/459_184_POLUGRUPPA]]/URI$ ив пространства $URI[[http://libmeta.ru/me/formula/aux/459_185_POLUGRUPPA]]/URI$, состоящего из всех функций из $URI[[http://libmeta.ru/me/formula/aux/459_186_POLUGRUPPA]]/URI$ с носителями в $URI[[http://libmeta.ru/me/formula/aux/459_187_POLUGRUPPA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/459_188_POLUGRUPPA]]/URI$, где свертка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_28_POLUGRUPPA]]/URI
+\]
+
+(полугрупповое свойство); в) если $URI[[http://libmeta.ru/me/formula/aux/459_189_POLUGRUPPA]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/459_190_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_191_POLUGRUPPA]]/URI$ г) линейная оболочка объединения всех значений $URI[[http://libmeta.ru/me/formula/aux/459_192_POLUGRUPPA]]/URI$, плотна в $URI[[http://libmeta.ru/me/formula/aux/459_193_POLUGRUPPA]]/URI$; д) для любого $URI[[http://libmeta.ru/me/formula/aux/459_194_POLUGRUPPA]]/URI$ с $URI[[http://libmeta.ru/me/formula/aux/459_195_POLUGRUPPA]]/URI$ существует такая нешрерывная на $URI[[http://libmeta.ru/me/formula/aux/459_196_POLUGRUPPA]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/459_197_POLUGRUPPA]]/URI$ со значениями в $URI[[http://libmeta.ru/me/formula/aux/459_198_POLUGRUPPA]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/459_199_POLUGRUPPA]]/URI$ и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_29_POLUGRUPPA]]/URI
+\]
+
+для всех $URI[[http://libmeta.ru/me/formula/aux/459_200_POLUGRUPPA]]/URI$.
+
+Инфините зима льны й опе ра тор $URI[[http://libmeta.ru/me/formula/aux/459_201_POLUGRUPPA]]/URI$ полугруппы-распределения определяется так: если существует дельта-послөдовательность $URI[[http://libmeta.ru/me/formula/aux/459_202_POLUGRUPPA]]/URI$ такая, что $URI[[http://libmeta.ru/me/formula/aux/459_203_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_204_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_205_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_206_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_207_POLUGRUPPA]]/URI$. Инфинитезимальный оператор допускает замыкание $URI[[http://libmeta.ru/me/formula/aux/459_208_POLUGRUPPA]]/URI$, к-рое наз п р о и з в о д ящи и оператором полугруппы-ра сп р е д е л е в и я. Множество $URI[[http://libmeta.ru/me/formula/aux/459_209_POLUGRUPPA]]/URI$ плотно в $URI[[http://libmeta.ru/me/formula/aux/459_210_POLUGRUPPA]]/URI$ и содержит $URI[[http://libmeta.ru/me/formula/aux/459_211_POLUGRUPPA]]/URI$ при любой $URI[[http://libmeta.ru/me/formula/aux/459_212_POLUGRUPPA]]/URI$.
+
+Замкнутый линейный оператор $URI[[http://libmeta.ru/me/formula/aux/459_213_POLUGRUPPA]]/URI$ с плотной в $URI[[http://libmeta.ru/me/formula/aux/459_214_POLUGRUPPA]]/URI$ областью определения является производящим оператором полугруппы-распределения тогда и только тогда, когда найдутся числа $URI[[http://libmeta.ru/me/formula/aux/459_215_POLUGRUPPA]]/URI$ и натуральное $URI[[http://libmeta.ru/me/formula/aux/459_216_POLUGRUPPA]]/URI$ такие, что при $URI[[http://libmeta.ru/me/formula/aux/459_217_POLUGRUPPA]]/URI$ существует резольвента $URI[[http://libmeta.ru/me/formula/aux/459_218_POLUGRUPPA]]/URI$ и выполнено неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_30_POLUGRUPPA]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/459_219_POLUGRUPPA]]/URI$ - замкнутый линейный опсратор в $URI[[http://libmeta.ru/me/formula/aux/459_220_POLUGRUPPA]]/URI$, то множество $URI[[http://libmeta.ru/me/formula/aux/459_221_POLUGRUPPA]]/URI$ можно превратить в пространство Фреше $URI[[http://libmeta.ru/me/formula/aux/459_222_POLUGRUPPA]]/URI$, введя в нем систему норм
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_31_POLUGRUPPA]]/URI
+\]
+
+Сужение $URI[[http://libmeta.ru/me/formula/aux/459_223_POLUGRUPPA]]/URI$ оператора $URI[[http://libmeta.ru/me/formula/aux/459_224_POLUGRUPPA]]/URI$ ва $URI[[http://libmeta.ru/me/formula/aux/459_225_POLUGRUPPA]]/URI$ оставляет $URI[[http://libmeta.ru/me/formula/aux/459_226_POLUGRUPPA]]/URI$ инвариантным. Если $URI[[http://libmeta.ru/me/formula/aux/459_227_POLUGRUPPA]]/URI$ - производящий оператор полугруппы-распределения, то $URI[[http://libmeta.ru/me/formula/aux/459_228_POLUGRUPPA]]/URI$ производящий оператор полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_229_POLUGRUPPA]]/URI$ (непрерывный при $URI[[http://libmeta.ru/me/formula/aux/459_230_POLUGRUPPA]]/URI$ ) в пространстве $URI[[http://libmeta.ru/me/formula/aux/459_231_POLUGRUPPA]]/URI$. Обратно, если $URI[[http://libmeta.ru/me/formula/aux/459_232_POLUGRUPPA]]/URI$ плотно в $URI[[http://libmeta.ru/me/formula/aux/459_233_POLUGRUPPA]]/URI$, оператор $URI[[http://libmeta.ru/me/formula/aux/459_234_POLUGRUPPA]]/URI$ имеет непустое резольвентное множество и является производящим оператором полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_235_POLUGRUPPA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/459_236_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_237_POLUGRUPPA]]/URI$ - производящий оператор полугруппыраспределения в $URI[[http://libmeta.ru/me/formula/aux/459_238_POLUGRUPPA]]/URI$.
+
+Полугруппа-распределение имеет экспоненциальный порядок роста не выше $URI[[http://libmeta.ru/me/formula/aux/459_239_POLUGRUPPA]]/URI$, если при нек-ром $URI[[http://libmeta.ru/me/formula/aux/459_240_POLUGRUPPA]]/URI$ отображение $URI[[http://libmeta.ru/me/formula/aux/459_241_POLUGRUPPA]]/URI$ непрерывно в топологии, индуцированной на $URI[[http://libmeta.ru/me/formula/aux/459_242_POLUGRUPPA]]/URI$пространством $URI[[http://libmeta.ru/me/formula/aux/459_243_POLUGRUPPA]]/URI$ быстро убывающих функций. Для того чтобы замкнутый линейный оператор был производящим оператором такой полугруппы-распределения, необходимо и достаточно, чтобы он имел резольвенту $URI[[http://libmeta.ru/me/formula/aux/459_244_POLUGRUPPA]]/URI$, для к-рой выполнено (6) в области
+
+$URI[[http://libmeta.ru/me/formula/aux/459_245_POLUGRUPPA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/459_246_POLUGRUPPA]]/URI$. В частности, если $URI[[http://libmeta.ru/me/formula/aux/459_247_POLUGRUPPA]]/URI$, то полугруппа наз. ә к с п о н е н ц и а л ь н о й и неравенство (6) выполняется в нек-рой полуплоскости. Имеется характеристика полугрупп указанных типов в терминах свойств оператора $URI[[http://libmeta.ru/me/formula/aux/459_248_POLUGRUPPA]]/URI$. Для полугруппы-распределений изучены вопросы гладкости и аналитичности.
+
+Полугруппа операторов в (отделимом) локально выпуклом пространстве $URI[[http://libmeta.ru/me/formula/aux/459_249_POLUGRUPPA]]/URI$. Определение сильно непрерывной полугруппы непрерывных в $URI[[http://libmeta.ru/me/formula/aux/459_250_POLUGRUPPA]]/URI$ операторов $URI[[http://libmeta.ru/me/formula/aux/459_251_POLUGRUPPA]]/URI$ остается таким же, как и в банаховом пространстве. Аналогично класс $URI[[http://libmeta.ru/me/formula/aux/459_252_POLUGRUPPA]]/URI$ выделяется свойством $URI[[http://libmeta.ru/me/formula/aux/459_253_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_254_POLUGRUPPA]]/URI$ и любом $URI[[http://libmeta.ru/me/formula/aux/459_255_POLUGRUPPA]]/URI$. Полугруппа наз. л о к а л ьв о э к в и н е п р е р ы в н о й (принадлежит классу $URI[[http://libmeta.ru/me/formula/aux/459_256_POLUGRUPPA]]/URI$, если семейство операторов $URI[[http://libmeta.ru/me/formula/aux/459_257_POLUGRUPPA]]/URI$ равностепенно непрерывно, когда $URI[[http://libmeta.ru/me/formula/aux/459_258_POLUGRUPPA]]/URI$ пробегает любой конечный промежуток из $URI[[http://libmeta.ru/me/formula/aux/459_259_POLUGRUPPA]]/URI$. В бочечном пространстве полугруппа класса $URI[[http://libmeta.ru/me/formula/aux/459_260_POLUGRUPPA]]/URI$ всегда локально эквинепрерывна.
+
+Полугруппа наз. а к в и н ө п р е р ы в н о й (принадлежит классу $URI[[http://libmeta.ru/me/formula/aux/459_261_POLUGRUPPA]]/URI$, если семейство $URI[[http://libmeta.ru/me/formula/aux/459_262_POLUGRUPPA]]/URI$, равностепенно непрерывно.
+
+Инфинитезимальный и производящий операторы полугрупіы определяются так же, как и в банаховом случае.
+
+В дальнейшем предполагается, что пространство $URI[[http://libmeta.ru/me/formula/aux/459_263_POLUGRUPPA]]/URI$ секвенциально полно. Для полугрупп класса $URI[[http://libmeta.ru/me/formula/aux/459_264_POLUGRUPPA]]/URI$ производящий оператор $URI[[http://libmeta.ru/me/formula/aux/459_265_POLUGRUPPA]]/URI$ совпадаөт с инфинитезимальным, его область определөния $URI[[http://libmeta.ru/me/formula/aux/459_266_POLUGRUPPA]]/URI$ плотна в $URI[[http://libmeta.ru/me/formula/aux/459_267_POLUGRUPPA]]/URI$ и, более того, плотно в $URI[[http://libmeta.ru/me/formula/aux/459_268_POLUGRUPPA]]/URI$ множество $URI[[http://libmeta.ru/me/formula/aux/459_269_POLUGRUPPA]]/URI$. Полугруппа $URI[[http://libmeta.ru/me/formula/aux/459_270_POLUGRUPPA]]/URI$ оставляет $URI[[http://libmeta.ru/me/formula/aux/459_271_POLUGRUPPA]]/URI$ инвариантной и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_32_POLUGRUPPA]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/459_272_POLUGRUPPA]]/URI$ - производящий оператор полугруппы класca $URI[[http://libmeta.ru/me/formula/aux/459_273_POLUGRUPPA]]/URI$, то при $URI[[http://libmeta.ru/me/formula/aux/459_274_POLUGRUPPA]]/URI$ опредөлена резольвента $URI[[http://libmeta.ru/me/formula/aux/459_275_POLUGRUPPA]]/URI$ и она является преобразованием Лапласа от полугруппы.
+
+Линейный оператор $URI[[http://libmeta.ru/me/formula/aux/459_276_POLUGRUPPA]]/URI$ является производящим оператором полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_277_POLUGRUPPA]]/URI$ тогда и только тогда, когда он замкнут, имеет плотную в $URI[[http://libmeta.ru/me/formula/aux/459_278_POLUGRUPPA]]/URI$ область определения и существует такая последоватөльность положительных чисел $URI[[http://libmeta.ru/me/formula/aux/459_279_POLUGRUPPA]]/URI$, что для любого $URI[[http://libmeta.ru/me/formula/aux/459_280_POLUGRUPPA]]/URI$ определена резольвента $URI[[http://libmeta.ru/me/formula/aux/459_281_POLUGRUPPA]]/URI$ и семейство операторов $URI[[http://libmeta.ru/me/formula/aux/459_282_POLUGRUPPA]]/URI$, равностепенно непрерывно. При этом полугруппа может быть построена по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_33_POLUGRUPPA]]/URI
+\]
+
+В ненормируемом локально выпуклом пространстве производящий опера'ор полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_283_POLUGRUPPA]]/URI$ может не иметь резольвенты ни в одной точке. Пример: $URI[[http://libmeta.ru/me/formula/aux/459_284_POLUGRUPPA]]/URI$ в пространстве $URI[[http://libmeta.ru/me/formula/aux/459_285_POLUGRUPPA]]/URI$ бесконечно дифференцируемых функций от $URI[[http://libmeta.ru/me/formula/aux/459_286_POLUGRUPPA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/459_287_POLUGRUPPA]]/URI$ качестве оператора, заменяющего резольвенту, может быть взят непрерывный оператор, умножение к-рого на оператор $URI[[http://libmeta.ru/me/formula/aux/459_288_POLUGRUPPA]]/URI$ справа и слева «мало» отличается от единичного оператора Непрерывный оператор $URI[[http://libmeta.ru/me/formula/aux/459_289_POLUGRUPPA]]/URI$, определенный для $URI[[http://libmeta.ru/me/formula/aux/459_290_POLUGRUPPA]]/URI$ из множества $URI[[http://libmeta.ru/me/formula/aux/459_291_POLUGRUPPA]]/URI$, наз а с и м п т о т и ч е с к о й р е з о л в в е н т о й линейного оператора $URI[[http://libmeta.ru/me/formula/aux/459_292_POLUGRUPPA]]/URI$, если оператор $URI[[http://libmeta.ru/me/formula/aux/459_293_POLUGRUPPA]]/URI$ непрерывен в $URI[[http://libmeta.ru/me/formula/aux/459_294_POLUGRUPPA]]/URI$, оператор $URI[[http://libmeta.ru/me/formula/aux/459_295_POLUGRUPPA]]/URI$ допускает расширение с $URI[[http://libmeta.ru/me/formula/aux/459_296_POLUGRUPPA]]/URI$ до неірерывного оператора $URI[[http://libmeta.ru/me/formula/aux/459_297_POLUGRUPPA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/459_298_POLUGRUPPA]]/URI$ и супцесвует такая предельная точка $URI[[http://libmeta.ru/me/formula/aux/459_299_POLUGRUPPA]]/URI$ множества $URI[[http://libmeta.ru/me/formula/aux/459_300_POLUGRUPPA]]/URI$, что $URI[[http://libmeta.ru/me/formula/aux/459_301_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_302_POLUGRUPPA]]/URI$ для любого $URI[[http://libmeta.ru/me/formula/aux/459_303_POLUGRUPPA]]/URI$ из $URI[[http://libmeta.ru/me/formula/aux/459_304_POLUGRUPPA]]/URI$, где
+
+$URI[[http://libmeta.ru/me/formula/aux/459_305_POLUGRUPPA]]/URI$. Асимптотич. резольвента обладает рядом свойств, близких к свойствам обычной резольвенты.
+
+Для того чтобы замкнутый линейный оператор $URI[[http://libmeta.ru/me/formula/aux/459_306_POLUGRUPPA]]/URI$ с плотной в $URI[[http://libmeta.ru/me/formula/aux/459_307_POLUGRUPPA]]/URI$ областью определения был производящим оператором полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_308_POLUGRUPPA]]/URI$, необходимо и достаточно, чтобы существовали такие числа $URI[[http://libmeta.ru/me/formula/aux/459_309_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_310_POLUGRUPPA]]/URI$, что при $URI[[http://libmeta.ru/me/formula/aux/459_311_POLUGRUPPA]]/URI$ определена асимптотич. резольвента $URI[[http://libmeta.ru/me/formula/aux/459_312_POLUGRUPPA]]/URI$ оператора $URI[[http://libmeta.ru/me/formula/aux/459_313_POLUGRUPPA]]/URI$, обладающая свойствами: функции $URI[[http://libmeta.ru/me/formula/aux/459_314_POLUGRUPPA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/459_315_POLUGRUPPA]]/URI$ сильно бесконечно диффференцируемы шри $URI[[http://libmeta.ru/me/formula/aux/459_316_POLUGRUPPA]]/URI$, сөмейства операторов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_34_POLUGRUPPA]]/URI
+\]
+
+равностепенно непрерывны.
+
+Теоремы порождения получөны и для других классов П. о. в локально выпуклом пространстве.
+
+Сопряженная полугруппа. Если $URI[[http://libmeta.ru/me/formula/aux/459_317_POLUGRUPPA]]/URI$ - полугрупиа класса $URI[[http://libmeta.ru/me/formula/aux/459_318_POLUGRUPPA]]/URI$ в банаховом пространстве $URI[[http://libmeta.ru/me/formula/aux/459_319_POLUGRUPPA]]/URI$, то сопряжөнные операторы образуют полугрупыы ограниченных операторов в сопряженном пространстве $URI[[http://libmeta.ru/me/formula/aux/459_320_POLUGRUPPA]]/URI$. Однако соотношение $URI[[http://libmeta.ru/me/formula/aux/459_321_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_322_POLUGRUPPA]]/URI$ и любом $URI[[http://libmeta.ru/me/formula/aux/459_323_POLUGRUPPA]]/URI$ выполняөтся лишь в смысле слабой топологии $URI[[http://libmeta.ru/me/formula/aux/459_324_POLUGRUPPA]]/URI$. Если $URI[[http://libmeta.ru/me/formula/aux/459_325_POLUGRUPPA]]/URI$ проивводящий оператор, то сопряженный оператор $URI[[http://libmeta.ru/me/formula/aux/459_326_POLUGRUPPA]]/URI$ будет слабым производящим оператором $URI[[http://libmeta.ru/me/formula/aux/459_327_POLUGRUPPA]]/URI$ в том смысле, что $URI[[http://libmeta.ru/me/formula/aux/459_328_POLUGRUPPA]]/URI$ состоит из всех тех $URI[[http://libmeta.ru/me/formula/aux/459_329_POLUGRUPPA]]/URI$, для к-рых существует в смысле слабой сходимости предел $URI[[http://libmeta.ru/me/formula/aux/459_330_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_331_POLUGRUPPA]]/URI$, равный $URI[[http://libmeta.ru/me/formula/aux/459_332_POLUGRUPPA]]/URI$. Область определения $URI[[http://libmeta.ru/me/formula/aux/459_333_POLUGRUPPA]]/URI$ плотна в $URI[[http://libmeta.ru/me/formula/aux/459_334_POLUGRUPPA]]/URI$ в смысле слабой топологии, и оператор $URI[[http://libmeta.ru/me/formula/aux/459_335_POLUGRUPPA]]/URI$ замкнут в этой топологии.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/459_336_POLUGRUPPA]]/URI$- совокупность тех элементов ив $URI[[http://libmeta.ru/me/formula/aux/459_337_POLUGRUPPA]]/URI$, для к-рых $URI[[http://libmeta.ru/me/formula/aux/459_338_POLUGRUPPA]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/459_339_POLUGRUPPA]]/URI$ в сильном смысле, тогда $URI[[http://libmeta.ru/me/formula/aux/459_340_POLUGRUPPA]]/URI$- замкнутое подпространство $URI[[http://libmeta.ru/me/formula/aux/459_341_POLUGRUPPA]]/URI$, инвариантное относительно всех $URI[[http://libmeta.ru/me/formula/aux/459_342_POLUGRUPPA]]/URI$. В $URI[[http://libmeta.ru/me/formula/aux/459_343_POLUGRUPPA]]/URI$операторы $URI[[http://libmeta.ru/me/formula/aux/459_344_POLUGRUPPA]]/URI$ образуют полугруппы класса $URI[[http://libmeta.ru/me/formula/aux/459_345_POLUGRUPPA]]/URI$. Пространство $URI[[http://libmeta.ru/me/formula/aux/459_346_POLUGRUPPA]]/URI$может быть получено как сильное замыкание в $URI[[http://libmeta.ru/me/formula/aux/459_347_POLUGRUPPA]]/URI$ множества $URI[[http://libmeta.ru/me/formula/aux/459_348_POLUGRUPPA]]/URI$. Если исходное пространство рефлексивно, то $URI[[http://libmeta.ru/me/formula/aux/459_349_POLUGRUPPA]]/URI$. Для полугрупі класса $URI[[http://libmeta.ru/me/formula/aux/459_350_POLUGRUPPA]]/URI$ в локально выпуклых пространствах сіраведливы аналогичные факты. Полугруппы классов $URI[[http://libmeta.ru/me/formula/aux/459_351_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_352_POLUGRUPPA]]/URI$ порождают полугруппы таких же классов в пространстве $URI[[http://libmeta.ru/me/formula/aux/459_353_POLUGRUPPA]]/URI$.
+
+Полугруппа-распределение в (отделимом) локально выпуклом пространстве. Полугруппа-распредөлөние $URI[[http://libmeta.ru/me/formula/aux/459_354_POLUGRUPPA]]/URI$ в сөквенциально полном локально выпуклом пространстве определяется так жө, как и в банаховом пространстве. Полугруппа $URI[[http://libmeta.ru/me/formula/aux/459_355_POLUGRUPPA]]/URI$ наз. л о к а л в н о э к в ин е п р е р ы в н о й (класса $URI[[http://libmeta.ru/me/formula/aux/459_356_POLUGRUPPA]]/URI$, если для любого компакта $URI[[http://libmeta.ru/me/formula/aux/459_357_POLUGRUPPA]]/URI$ сөмейство операторов $URI[[http://libmeta.ru/me/formula/aux/459_358_POLUGRUPPA]]/URI$, равностөшенно нөпрерывно. В бочечном пространстве $URI[[http://libmeta.ru/me/formula/aux/459_359_POLUGRUPPA]]/URI$ всякая полугруппа-распределение принадлөжит классу $URI[[http://libmeta.ru/me/formula/aux/459_360_POLUGRUPPA]]/URI$. Аналогично случаю банахова пространства определяется инфинитезимальный оператор $URI[[http://libmeta.ru/me/formula/aux/459_361_POLUGRUPPA]]/URI$ полугруппырасıределения. Для полугрупп класса $URI[[http://libmeta.ru/me/formula/aux/459_362_POLUGRUPPA]]/URI$ он замкнут $URI[[http://libmeta.ru/me/formula/aux/459_363_POLUGRUPPA]]/URI$ шлотно в $URI[[http://libmeta.ru/me/formula/aux/459_364_POLUGRUPPA]]/URI$, при любых $URI[[http://libmeta.ru/me/formula/aux/459_365_POLUGRUPPA]]/URI$ г $URI[[http://libmeta.ru/me/formula/aux/459_366_POLUGRUPPA]]/URI$ выполнено
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_35_POLUGRUPPA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/459_36_POLUGRUPPA]]/URI
+\]
+
+Обобщенную функцию $URI[[http://libmeta.ru/me/formula/aux/459_367_POLUGRUPPA]]/URI$ с носителем на $URI[[http://libmeta.ru/me/formula/aux/459_368_POLUGRUPPA]]/URI$, обладающую свойствами (7), естественно назвать ф у н д аментальн о й фунцией о пе р а то р а $URI[[http://libmeta.ru/me/formula/aux/459_369_POLUGRUPPA]]/URI$. Таким образом, если $URI[[http://libmeta.ru/me/formula/aux/459_370_POLUGRUPPA]]/URI$ производящий опе- ратор полугруппы $URI[[http://libmeta.ru/me/formula/aux/459_371_POLUGRUPPA]]/URI$ класса $URI[[http://libmeta.ru/me/formula/aux/459_372_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_373_POLUGRUPPA]]/URI$ является фундаментальной функцией оператора $URI[[http://libmeta.ru/me/formula/aux/459_374_POLUGRUPPA]]/URI$. Обратное утверждение верно при дополнительных предположениях относительно порядка сингулярности фундаментальной функции $URI[[http://libmeta.ru/me/formula/aux/459_375_POLUGRUPPA]]/URI$ (точнее, функций $URI[[http://libmeta.ru/me/formula/aux/459_376_POLUGRUPPA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/459_377_POLUGRUPPA]]/URI$.
+
+Для характеривации полугруппы в локально выпуклом пространстве полезным является понятие о б о бщ е н н о й р е з о л в в е н т ы. Через $URI[[http://libmeta.ru/me/formula/aux/459_378_POLUGRUPPA]]/URI$ обозначается образ функции $URI[[http://libmeta.ru/me/formula/aux/459_379_POLUGRUPPA]]/URI$ при преобразовании Лапласа, в пространстве $URI[[http://libmeta.ru/me/formula/aux/459_380_POLUGRUPPA]]/URI$ всех образов вводится топология, индуцируемая преобразованием Лапласа из топологии $URI[[http://libmeta.ru/me/formula/aux/459_381_POLUGRUPPA]]/URI$. П реобразование Лапласа $URI[[http://libmeta.ru/me/formula/aux/459_382_POLUGRUPPA]]/URI$-значной обобщенной функции $URI[[http://libmeta.ru/me/formula/aux/459_383_POLUGRUPPA]]/URI$ определяөтся равенством $URI[[http://libmeta.ru/me/formula/aux/459_384_POLUGRUPPA]]/URI$. При этом $URI[[http://libmeta.ru/me/formula/aux/459_385_POLUGRUPPA]]/URI$ является непрерывным отображением из $URI[[http://libmeta.ru/me/formula/aux/459_386_POLUGRUPPA]]/URI$ в пространстве $URI[[http://libmeta.ru/me/formula/aux/459_387_POLUGRUPPA]]/URI$ линейных непрерывных операторов на $URI[[http://libmeta.ru/me/formula/aux/459_388_POLUGRUPPA]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/459_389_POLUGRUPPA]]/URI$ прострапство всех $URI[[http://libmeta.ru/me/formula/aux/459_390_POLUGRUPPA]]/URI$, полученных из $URI[[http://libmeta.ru/me/formula/aux/459_391_POLUGRUPPA]]/URI$ с носителем на $URI[[http://libmeta.ru/me/formula/aux/459_392_POLUGRUPPA]]/URI$, с естественной топологией. Если $URI[[http://libmeta.ru/me/formula/aux/459_393_POLUGRUPPA]]/URI$ - линейный оператор в $URI[[http://libmeta.ru/me/formula/aux/459_394_POLUGRUPPA]]/URI$, то его можно «поднять&quot; до оператора $URI[[http://libmeta.ru/me/formula/aux/459_395_POLUGRUPPA]]/URI$ с помощью равенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_37_POLUGRUPPA]]/URI
+\]
+
+Таким образом, он определен на тех $URI[[http://libmeta.ru/me/formula/aux/459_396_POLUGRUPPA]]/URI$, для к-рых правая часть определена при любой $URI[[http://libmeta.ru/me/formula/aux/459_397_POLUGRUPPA]]/URI$ и иродолжаөт обобщевную функцию из $URI[[http://libmeta.ru/me/formula/aux/459_398_POLUGRUPPA]]/URI$. На $URI[[http://libmeta.ru/me/formula/aux/459_399_POLUGRUPPA]]/URI$ опредөляется непрерывный оператор $URI[[http://libmeta.ru/me/formula/aux/459_400_POLUGRUPPA]]/URI$ равенством
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_38_POLUGRUPPA]]/URI
+\]
+
+Если оператор $URI[[http://libmeta.ru/me/formula/aux/459_401_POLUGRUPPA]]/URI$ имеет непрерывный обратный $URI[[http://libmeta.ru/me/formula/aux/459_402_POLUGRUPPA]]/URI$ на $URI[[http://libmeta.ru/me/formula/aux/459_403_POLUGRUPPA]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/459_404_POLUGRUPPA]]/URI$ наз. о б о бщ ен но й ре золь в е н то й оператора $URI[[http://libmeta.ru/me/formula/aux/459_405_POLUGRUPPA]]/URI$.
+
+Oператор $URI[[http://libmeta.ru/me/formula/aux/459_406_POLUGRUPPA]]/URI$ имеет обобщенную рөзольвенту тогда и только тогда, когда у оператора $URI[[http://libmeta.ru/me/formula/aux/459_407_POLUGRUPPA]]/URI$ существует локально әквинепрерывная фундаментальная функция $URI[[http://libmeta.ru/me/formula/aux/459_408_POLUGRUPPA]]/URI$, к-рая строится по формуле:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_39_POLUGRUPPA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/459_40_POLUGRUPPA]]/URI
+\]
+
+При дополнительных условиях $URI[[http://libmeta.ru/me/formula/aux/459_409_POLUGRUPPA]]/URI$ будет полугруппойраспределением. В терминах обобщенной резольвенты получена также төорема порождения П. о. класса $URI[[http://libmeta.ru/me/formula/aux/459_410_POLUGRUPPA]]/URI$.
+
+См. также Полуаруппа нелинейных операторов.
+
+Лит.: [1] Х и л л е Э., Ф и л л и п с Р., Функциональный анализ и полугруппы, пер. с англ., 2 иэд., М., 1962; [2] В у в ун и н я н Ю. М., в кн.: Теория операторов в функциональных
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=43&amp;width=814&amp;top_left_y=1735&amp;top_left_x=987)
+П. П, З а Ф и е в с к и&quot; &quot; А. В., &quot;докл. Ан Ссср&quot;, 1969 , тем. Ф-та Воронеж. ун-та&quot;, 1970, в. 1, с. 206-10; [5] И о с ид а K., Функциональный анализ, пер. с англ., М., 1967; [6]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=76&amp;width=814&amp;top_left_y=1836&amp;top_left_x=987)
+&quot;дифференı. уравнения&quot;, 1979, т. $URI[[http://libmeta.ru/me/formula/aux/459_411_POLUGRUPPA]]/URI$, c. $URI[[http://libmeta.ru/me/formula/aux/459_412_POLUGRUPPA]]/URI$; 8] C h a-
+z a r a in J. &quot;j. Funct. Analys.&quot;, 1971, v. 7, № 3, p. 386 446;
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=47&amp;width=814&amp;top_left_y=1912&amp;top_left_x=990)
+v. 34, p. 34-41; [10] e e $URI[[http://libmeta.ru/me/formula/aux/459_413_POLUGRUPPA]]/URI$ e, &quot;rev roum. math. pures et appl.», 1977, v. 22, № 8, p. 1053-68; [11] K a to T T., &quot;proc. Amer. Math. Soo.&quot;, 1970, v. 25, № 3, p. $URI[[http://libmeta.ru/me/formula/aux/459_414_POLUGRUPPA]]/URI$, [12] L i o n s J., &quot;portugal. Math &quot;, 1960, v, 19, p. 141-64; [13] P a z y A., &quot;j. Math. Mech.&quot;, 1968, v. 17, No 12, p. 1131-41; [14] e r o ж e &quot;j. Math. Mech.&quot; $URI[[http://libmeta.ru/me/formula/aux/459_415_POLUGRUPPA]]/URI$ e r o , 世
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=45&amp;width=814&amp;top_left_y=2089&amp;top_left_x=990)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=47&amp;width=809&amp;top_left_y=2114&amp;top_left_x=992)
+&quot;c. r. Acad. sci.&quot;, 1977, t. A 285, p. $URI[[http://libmeta.ru/me/formula/aux/459_416_POLUGRUPPA]]/URI$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=27&amp;width=521&amp;top_left_y=2193&amp;top_left_x=1037)
+полугруппа, обладающая нек-рым свойством $URI[[http://libmeta.ru/me/formula/aux/459_417_POLUGRUPPA]]/URI$ таким, что всякая конечная полугруппа обладает этим свойством (такое свойство $URI[[http://libmeta.ru/me/formula/aux/459_418_POLUGRUPPA]]/URI$ наз. У с ло в и е м к о н е ч о- с т и). В определении свойства $URI[[http://libmeta.ru/me/formula/aux/459_419_POLUGRUPPA]]/URI$ могут фигурировать әлементы полугруппы, ее подполугруппы и т. п.
+
+Примеры условий конечности: периодичность (см. URI[[http://libmeta.ru/me/relation/459_6_POLUGRUPPA]]/URI полугруппа), локальная конечность (см. URI[[http://libmeta.ru/me/relation/459_5_POLUGRUPPA]]/URI), URI[[http://libmeta.ru/me/relation/459_4_POLUGRUPPA]]/URI аппроксимируемость (см. URI[[http://libmeta.ru/me/relation/459_3_POLUGRUPPA]]/URI аппроксимируемая полугруппа), конечная порожденность, конечная определенность. Исследования конечно определенных полугрупп в значительной степени ведутся с точки зрения алгоритмич. проблем. Наиболее известное условие, при к-ром конечная порожденность полугруппы влечет ее конечную определенность, - коммутативность (т е о р е м а $URI[[http://libmeta.ru/me/formula/aux/459_420_POLUGRUPPA]]/URI$ ед е и). Всякая счетная полугруппа вложима в полугруппу с двумя порождающими, а также в полугруппу с тремя идемпотентными порождающими [8].
+
+Целый ряд условий конечности формулируется в терминах решетки подполугрупп (напр., условие минимальности для подполугрупп). Полугруппа $URI[[http://libmeta.ru/me/formula/aux/459_421_POLUGRUPPA]]/URI$ тогда и только тогда удовлетворяет условию минимальности для подполугрупп, когда $URI[[http://libmeta.ru/me/formula/aux/459_422_POLUGRUPPA]]/URI$ периодическая, имеет лишь конечное число классов кручения, в каждом классе кручения $URI[[http://libmeta.ru/me/formula/aux/459_423_POLUGRUPPA]]/URI$ наибольшая подгруппа $URI[[http://libmeta.ru/me/formula/aux/459_424_POLUGRUPPA]]/URI$ удовлетворяет условию минимальности для подгрупп, а разность $URI[[http://libmeta.ru/me/formula/aux/459_425_POLUGRUPPA]]/URI$ ковечна [2]. Аналогичное строение имеют полугруппы конечного ранга (конечность ранга означает, что минимальное число порождающих каждой конечно порожденной подполугруппы полугрупшы $URI[[http://libmeta.ru/me/formula/aux/459_426_POLUGRUPPA]]/URI$ не превосходит фиксированного числа), полугруппы конечной ширины (конечность ширины для $URI[[http://libmeta.ru/me/formula/aux/459_427_POLUGRUPPA]]/URI$ означает, что из любого конечного множества $URI[[http://libmeta.ru/me/formula/aux/459_428_POLUGRUPPA]]/URI$ ее элементов можно выделить подмножество, порождающее ту же подполугруппу, что и $URI[[http://libmeta.ru/me/formula/aux/459_429_POLUGRUPPA]]/URI$, мощность к-рого не превосходит фиксированного числа), периодические полугруппы с условием максимальности для подполугрушп и др. (см. [3], [4]).
+
+Инверсная полугруппа удовлетворяет условию минимальности для инверсных подполугрупп тогда и только тогда, когда она обладает главным рядом (см. URI[[http://libmeta.ru/me/relation/459_2_POLUGRUPPA]]/URI URI[[http://libmeta.ru/me/relation/459_1_POLUGRUPPA]]/URI), каждый фактор к-рого есть Брандта полугр упnа с конечным числом идемпотентов, все максимальные подгруппы к-рой удовлетворяют условию минимальности для подгруппы. Аналогичные описания получены для условия максимальности, конечности ранга и др. (см. [5]).
+
+Из условий конечности, формулируемых в терминах частично упорядоченного множества идеалов полугруппы, наиболее известны условия минимальности $URI[[http://libmeta.ru/me/formula/aux/459_430_POLUGRUPPA]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/459_431_POLUGRUPPA]]/URI$ для главных левых, правых, двусторонних идеалов (эти условия часто определяются в терминах $URI[[http://libmeta.ru/me/formula/aux/459_432_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_433_POLUGRUPPA]]/URI$-классов, см. Грина отношения эквивалентности). Аналогично определяется условие $URI[[http://libmeta.ru/me/formula/aux/459_434_POLUGRUPPA]]/URI$ для $URI[[http://libmeta.ru/me/formula/aux/459_435_POLUGRUPPA]]/URI$ классов. Конъюнкция условий $URI[[http://libmeta.ru/me/formula/aux/459_436_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_437_POLUGRUPPA]]/URI$ эквивалентна конъюнкции условий $URI[[http://libmeta.ru/me/formula/aux/459_438_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_439_POLUGRUPPA]]/URI$, в остальном эти условия независимы; в частности, полугруппа с условиями $URI[[http://libmeta.ru/me/formula/aux/459_440_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_441_POLUGRUPPA]]/URI$ не обязательно удовлетворяет условиям $URI[[http://libmeta.ru/me/formula/aux/459_442_POLUGRUPPA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/459_443_POLUGRUPPA]]/URI$. Вместе с тем полупростая (см. Главный бактор полугруппы) полугруппа с условием $URI[[http://libmeta.ru/me/formula/aux/459_444_POLUGRUPPA]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/459_445_POLUGRUPPA]]/URI$ удовлетворяет условию $URI[[http://libmeta.ru/me/formula/aux/459_446_POLUGRUPPA]]/URI$. Для регулярных полугрупп все четыре условия эквивалентны; всякая полугруппа с условием $URI[[http://libmeta.ru/me/formula/aux/459_447_POLUGRUPPA]]/URI$ будет квазипериодической. Конечно порожденная полугруппа с условием $URI[[http://libmeta.ru/me/formula/aux/459_448_POLUGRUPPA]]/URI$ или $URI[[http://libmeta.ru/me/formula/aux/459_449_POLUGRUPPA]]/URI$, все подгруппы к-рой конечны, сама конечна [6].
+
+URI[[http://libmeta.ru/me/relation/459_29_POLUGRUPPA]]/URI с URI[[http://libmeta.ru/me/relation/459_28_POLUGRUPPA]]/URI для правых URI[[http://libmeta.ru/me/relation/459_27_POLUGRUPPA]]/URI является URI[[http://libmeta.ru/me/relation/459_26_POLUGRUPPA]]/URI, удовлетворяет условию $URI[[http://libmeta.ru/me/formula/aux/459_450_POLUGRUPPA]]/URI$ и двойственному условию максимальности для главных левых идеалов; если при этом все ее URI[[http://libmeta.ru/me/relation/459_25_POLUGRUPPA]]/URI конечны, то сама URI[[http://libmeta.ru/me/relation/459_24_POLUGRUPPA]]/URI конечна [6]. В URI[[http://libmeta.ru/me/relation/459_23_POLUGRUPPA]]/URI URI[[http://libmeta.ru/me/relation/459_22_POLUGRUPPA]]/URI URI[[http://libmeta.ru/me/relation/459_21_POLUGRUPPA]]/URI для правых URI[[http://libmeta.ru/me/relation/459_20_POLUGRUPPA]]/URI URI[[http://libmeta.ru/me/relation/459_19_POLUGRUPPA]]/URI URI[[http://libmeta.ru/me/relation/459_18_POLUGRUPPA]]/URI для левых URI[[http://libmeta.ru/me/relation/459_17_POLUGRUPPA]]/URI, а также тому, что URI[[http://libmeta.ru/me/relation/459_16_POLUGRUPPA]]/URI имеет липь конечное URI[[http://libmeta.ru/me/relation/459_15_POLUGRUPPA]]/URI идемпотентов и удовлетворяет URI[[http://libmeta.ru/me/relation/459_14_POLUGRUPPA]]/URI для URI[[http://libmeta.ru/me/relation/459_13_POLUGRUPPA]]/URI [7]. Изучен ряд свойств URI[[http://libmeta.ru/me/relation/459_12_POLUGRUPPA]]/URI с условием максимальности для односторонних URI[[http://libmeta.ru/me/relation/459_11_POLUGRUPPA]]/URI. Коммутативная URI[[http://libmeta.ru/me/relation/459_10_POLUGRUPPA]]/URI удовлетворяет условию минимальности (максимальности) для URI[[http://libmeta.ru/me/relation/459_9_POLUGRUPPA]]/URI тогда и только тогда, когда она имеет главный ряд и удовлетворяет URI[[http://libmeta.ru/me/relation/459_8_POLUGRUPPA]]/URI для URI[[http://libmeta.ru/me/relation/459_7_POLUGRUPPA]]/URI [7] (конечно порождена).</text>
+  <text_orig>семейство операторов $\{T\}$ в банаховом или топологическом векторном пространстве, обладающее тем свойством, что композиция любых двух операторов семейства снова принадлежит семейству. Если операторы $T$ «занумерованы» элементами нек-рой абстрактной полугруппы $\mathfrak{A}$ и бинарной операции полугруппы отвечает композиция операторов, то полугруппа $\{T\}$ наз. п р е д с т а в л е-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_b6d589cf43c39b095bdeg-1.jpg?height=35&amp;width=806&amp;top_left_y=1848&amp;top_left_x=153)
+чены однопараметрические полугруппы линейных ограниченных операторов в банаховом пространстве $X$, дающие представление аддитивной полугруппы всех положительных чисел, т. е. семейства $T(t)$ со свойством
+
+\[
+T(t+\tau) x=T(t) T(\tau) x, t, \tau&gt;0, x \in X .
+\]
+
+Из сильной измеримости $T(t), t&gt;0$, следует, что $T(t)$ - сильно непрерывная полугруппа, поэтому в дальнейшем только такие и рассматриваются.
+
+Существует число
+
+\[
+\omega=\lim _{t \rightarrow \infty} t^{-1} \ln \|T(t)\|
+\]
+
+- ти п по л у г р у п пы. Все функции $T(t) x$ растут не быстрее әкспоненты. Важной характеристикой является и н ф и н т езимальны й опе ра тор по лу у р у п I ы
+
+\[
+A_{0} x=\lim _{t \rightarrow 0} t^{-1}[T(t) x-x]
+\]
+
+определенный на линейном множестве $D\left(A_{0}\right)$ тех элементов $x$, на к-рых предел существует, и его замыкание $A$ (если оно существует) - п р о и 3 в о д я щ и й о п ер а т о р по л у г р у п п ы. Множество $D\left(A_{0}\right)$ плотно на подпространстве $X_{0}$, являющемся замыканием объединения всех значений $T(t) x$. Если в $X_{0}$ нет ненулевых әлементов, на к-рых $T(t) x \equiv 0$, то существует производящий оператор $A$. В дальнейшем всегда предполагается, что $X_{0}=X$ и что из $T(t) x \equiv 0$ следует $x=0$.
+
+Наиболее простой класс полугрупп - класс $C_{0}$ - выделяется условием: $T(t) x \rightarrow x$ при $t \rightarrow 0$ и любом $x \in X$. Для выполнения этого условия необходимо и достаточно, чтобы функция $\|T(t)\|$ была ограниченной на какомнибудь промежутке $(0, a]$. В этом случае $T(t)$ имеет производящий оператор $A=A_{0}$, для резольвенты $R(\lambda, A)=$ $=(A-\lambda I)^{-1}$ к-рого выполнено
+
+$\left\|R^{n}(\lambda, A)\right\| \leqslant M(\lambda-\omega)^{-n}, n=1,2, \ldots ; \lambda&gt;\omega$,
+
+где $\omega$ - тип полугруппы. Обратно, если $A$ - замкнутый оператор с плотной в $X$ областью определения, для резольвенты к-рого выполнено (1), то он является производящим оператором нек-рой полугруппы $T(t)$ класса $C_{0}$, причем $\|T(t)\| \leqslant M e^{\omega t}$. Условия (1) выполняются, если
+
+\[
+\|R(\lambda, A)\| \leqslant(\lambda-\omega)^{-1}
+\]
+
+(усл о в и е Хилле - Ио с и ды). Если при этом $\omega=0$, то $T(t)$ - сжатий полугр упnа: $\|T(t)\| \leqslant 1$.
+
+С умми р у м а я пол уг р у п п а - та, для к-рой функции $\|T(t) x\|$ суммируемы на любом конечном отрезке при всех $x \in X$. Суммируемая полугруппа имеет производящий оператор $A=\bar{A}_{0}$. Оператор $A_{0}$ замкнут тогда и только тогда, когда при любом $x \in X$
+
+\[
+\lim _{t \rightarrow 0} \frac{1}{t} \int_{0}^{t} T(s) x d s=x .
+\]
+
+Для суммируемой полугруппы при $\operatorname{Re} \lambda&gt;\omega$ определено преобразов ание Л а пл а с а
+
+\[
+\int_{0}^{\infty} e^{-\lambda t} T(t) x d t=-R(\lambda) x
+\]
+
+дающее линейный ограниченный оператор $R(\lambda)$, обладающий многими свойствами резольвенты.
+
+Для того чтобы замкнутый оператор $A$ с плотной в $X$ областью определения был производящим оператором суммируемой полугруппы $T(t)$, необходимо и достаточно, чтобы для нек-рого $\omega$ существовала резольвента $R(\lambda, A)$ при $\operatorname{Re} \lambda&gt;\omega$ и выполнялись условия: а) $\| R(\lambda$, $A) \| \leqslant M, \operatorname{Re} \lambda&gt;\omega$; б) существуют такие неотрицательная и непрерывная по совокупности переменных функция $\varphi(t, x), t&gt;0, x \in X$, и неотрицательная функция $\varphi(t)$, ограниченная на любом промежутке $[a, b] \subset(0, \infty)$, что при $\omega_{1}&gt;\omega$
+
+\[
+\begin{gathered}
+\int_{0}^{\infty} e^{-\omega_{1} t} \varphi(t, x) d t&lt;\infty, \\
+\varlimsup_{t \rightarrow \infty} t^{-1} \ln \varphi(t)&lt;\infty, \varphi(t, x) \leqslant \varphi(t)\|x\|, \\
+\left\|R^{n}(\lambda, A) x\right\| \leqslant \frac{1}{(n-1) !} \int_{0}^{\infty} t^{n-1} e^{-\lambda t} \varphi(t, x) d t .
+\end{gathered}
+\]
+
+При этом
+
+\[
+\|T(t) x\| \leqslant \varphi(t, x), \quad\|T(t)\| \leqslant \varphi(t) .
+\]
+
+Если дополнительно потребовать, чтобы функция $\|T(t)\|$ была суммируемой на конечных громежутках, то необходимо и доста'очно существование такой непрерывной функции $\varphi(t)$, что при $\omega_{1}&gt;\omega$
+
+\[
+\begin{gathered}
+\int_{0}^{\infty} \varphi(t) e^{-\omega_{1} t} d t&lt;\infty, \\
+\left\|R^{n}(\lambda, A)\right\| \leqslant \\
+\leqslant \frac{1}{(n-1) !} \int_{0}^{\infty} t^{n-1} e^{-\lambda t} \varphi(t) d t, \lambda&gt;\omega, n=1,2, \ldots
+\end{gathered}
+\]
+
+При этом $\|T(t)\| \leqslant \varphi(t)$. Выбирая различные функции, удовлетворяющие (3), можно выделять различные подклассы суммируемых полугрупп. Если $\varphi(t)=M e^{\omega t}$, то получается класс $C_{0}$ и из (4) вытекает (1). Если $\varphi(t)=$ $=M t-e^{\omega t}, 0 \leqslant \alpha&lt;1$, то из (4) получается условие $\left\|R^{n}(\lambda, A)\right\| \leqslant \frac{M \Gamma(n-\alpha)}{(n-1) !(\lambda-\omega)^{n-\alpha}}, \lambda&gt;\omega, n=1,2, \ldots$
+
+Полугруппа со степенными особенностями. Если в предыдущем примере $\alpha \geqslant 1$, то в (4) интегралы при $n \leqslant$ $\leqslant \alpha-1$ расходятся. В соответствии с этим производящий оператор соответствующих полугрупп может не иметь резольвенты ни при каких $\lambda$, т. е. иметь спектр, совпадающий со всей комплексной плоскостью. Однако для таких операторов, начиная с нек-рого $n$, существуют функции $S_{n}(\lambda, A)$, совпадающие в предыдущих случаях c $R^{n+1}(\lambda, A)$. Оператор-функция $S_{n}(\lambda, A)$ наз. р ез о л ь в е н т о й п о р я д к а $n$, если она аналитична в нек-рой области $G \subset \mathbb{C}$ и при $\lambda \in G$
+
+\[
+\begin{gathered}
+S_{n}(\lambda, A) A x=A S_{n}(\lambda, A) x, x \in D(A), \\
+S_{n}(\lambda, A)(A-\lambda I)^{n+1} x=x, x \in D\left(A^{n+1}\right),
+\end{gathered}
+\]
+
+и из того, что $S_{n}(\lambda, A) x=0$ при всех $\lambda \in G$, следует, что $x=0$. Если $\bar{D}\left(A^{n+1}\right)=X$, то оператор может иметь единственную резольвенту порядка $n$, для к-рой имеется максимальная область аналитичности, наз. р е з о л ьв е н т ны м множ е с т в о м по о я д к а $n$.
+
+Пусть для сильно непрерывной полугруппы $T(t)$ выполняется неравенство
+
+\[
+\|T(t)\| \leqslant M t-\alpha_{e} \omega t
+\]
+
+при $\alpha \geqslant 1$. Тогда өе производящий оператор $B$ имеет резольвөнту порядка $n$ при $n&gt;\alpha-1$, причөм
+
+\[
+\begin{aligned}
+&amp; S_{n}(\lambda, B) x=\frac{1}{n !} \int_{0}^{\infty} t^{n} e^{-\lambda t} T(t) x d t, \operatorname{Re} \lambda&gt;\omega, \\
+&amp; \left\|\frac{d^{k} S_{n}(\lambda, B)}{d \lambda k} x\right\| \leqslant \\
+&amp; \leqslant \frac{M \Gamma(k+n+1-\alpha)}{n !(\operatorname{Re} \lambda-\omega)^{k+n+1-\alpha}}, \operatorname{Re} \lambda&gt;\omega, k=0,1, \ldots
+\end{aligned}
+\]
+
+Обратно, пусть оператор $B$ имеет при Re $\lambda&gt;0$ резольвенту $S_{n}(\lambda, B)$ порядка $n$, для к-рой выполнено (5) іри $n&gt;\alpha-1$. Тогда существует единственная полугруппа $T(t)$ с оценкой
+
+\[
+\|T(t)\| \leqslant M t-\alpha_{e} \omega t
+\]
+
+для производящего оператора $A$ к-рой $S_{n}(\lambda, A)=$ $=S_{n}(\lambda, B)$.
+
+Гладкая полугруппа. Если $x \in D\left(A_{0}\right)$, то функция $T(t) x$ непрерывно дифференцируема и
+
+\[
+\frac{d T(t)}{d t} x=A_{0} T(t) x=T(t) A_{0} x .
+\]
+
+Существуют полугруппы класса $C_{0}$, для к-рых при $x \notin D\left(A_{0}\right)=D(A)$ функции $T(t) x$ недифференцируемы при всех $t$. Однако для важных классов полугрупп наблюдается явление повышения их гладкости с увеличением $t$. Если $T(t) x, t&gt;t_{0}$, диффференцируемы при любом $x \in X$, то из полугруппового свойства следует, что $T(t) x$ дважды дифференцируема при $t&gt;2 t_{0}$, трижды - при $t&gt;3 t_{0}$ и т. д. Поэтому если $T(t) x$ дифференцируемы при любых $t&gt;0$ и $x \in X$, то $T(t) x$ бесконечно дифференцируемы. Для того чтобы для полугруппы класса $C_{0}$ при нек-ром $t_{0} \geqslant 0$ функции $T(t) x$ были дифференцируемы при всех $x \in X$ и $t&gt;t_{0}$, необходимо и достаточно существование таких чисел $a, b, c&gt;0$, что резольвента $R(\lambda, A)$ определена в области
+
+\[
+\operatorname{Re} \lambda&gt;a-b \ln |\operatorname{Im} \lambda|
+\]
+
+И в этой области
+
+\[
+\|\operatorname{Re}(\lambda, A)\| \leqslant c|\operatorname{Im} \lambda| .
+\]
+
+Для того чтобы $T(t) x$ были бескокечно диффференцируемыми при всех $x \in X$ и $t&gt;0$, необходимо и достаточно, чтобы для каждого $b&gt;0$ нашлись такие $a_{b}, c_{b}$, что резольвента $R(\lambda, a)$ определена при
+
+и
+
+\[
+\operatorname{Re} \lambda&gt;a_{b}-b \ln |\operatorname{Im} \lambda|
+\]
+
+\[
+\|R(\lambda, A)\| \leqslant c_{b}|\operatorname{Im} \lambda| .
+\]
+
+Достаточные условия: если при нек-ром $\mu&gt;\omega$
+
+\[
+\varlimsup_{\tau \rightarrow \infty} \ln |\tau|\|R(\mu+i \tau, A)\|=t_{0}&lt;\infty,
+\]
+
+то $T(t) x$ дифференцируемы при $t&gt;t_{0}$ и $x \in X$, если $t_{0}=0$, то $T(t) x$ бесконечно диффференцируемы при всех $t&gt;0$ и $x \in X$.
+
+Иногда о гладкости полугруппы можно судить по ее поведению в нуле; напр., если для каждого $c&gt;0$ существует такое $\delta_{c}$, что при $0&lt;t&lt;\delta_{c}$
+
+\[
+\|I-T(t)\| \leqslant 2-c t \ln t^{-1},
+\]
+
+то $T(t) x$ бесконечно дифференцируемы при всех $t&gt;0$, $x \in X$.
+
+Имеются условия гладкости суммируемых полугрупп и полугрупп степенного роста. Если полугруппа степенного роста $\alpha$ бесконечно дифференцируема при $t&gt;0$, то функция
+
+\[
+\frac{d T(t)}{d t} x=A T(t) x
+\]
+
+часто также имест степенной рост:
+
+\[
+\|A T(t)\| \leqslant M_{1} t-\beta^{\omega t} .
+\]
+
+Между числами $\alpha$ и $\beta$ в общем случае нет жесткой связи, и число $\beta$ может служить для более детальной классификации бесконечно дифференцируемых полугрупп степенного роста.
+
+Аналитическая полугруппа. Важный класс полугрупшы, связанный с уравнениями с частными производными параболич. тџпа, состоит из полугрупп $T(t)$, допускающих аналитич. продолжение в нек-рый сектор комплексной плоскости, содержащий положительную полуось. Для того чтобы полугруппа класса $C_{0}$ обладала этим свойством, необходимо и достаточно, чтобы в нек-рой правой полуплоскости Re $\lambda&gt;\omega$ для резольвенты выполнялось неравенство
+
+\[
+\|\operatorname{Re}(\lambda, A)\| \leqslant M|\lambda-\omega|^{-1} .
+\]
+
+Также необходимо и достаточно, чтобы полугруппа была сильно диффференцируемой и чтобы для ее провзводной имелась оценка
+
+\[
+\left\|\frac{d T}{d t}\right\| \leqslant M t^{-1} e^{\omega t} .
+\]
+
+Наконец, из неравөнства
+
+\[
+\varlimsup_{t \rightarrow 0}\|I-T(t)\|&lt;2
+\]
+
+также следует аналитичность $T(t)$.
+
+Если полугруппа $T(t)$ допускает аналитич. продолжение $T(z)$ в сектор $|\arg z|&lt;\varphi \leqslant \pi / 2$ и имеет степенной рост в нуле, $\|T(z)\| \leqslant c|z|^{\alpha}, \alpha&gt;0$, то резольвента $S_{n}(\lambda, A)$ порядка $n&gt;\alpha-1$ ее производящего оператора $A$ допу-
+
+$\star 15$ Математическая энц., т. 4 скает аналитич. продолжение в сектор $|\arg \lambda|&lt;\pi / 2+\varphi$ и в любом секторе $|\arg \lambda| \leqslant \pi / 2+\psi, \quad \psi&lt;\varphi$, допускает оценку
+
+\[
+\left\|S_{n}(\lambda, A)\right\| \leqslant|\lambda|^{\alpha-n-1} M(\psi)
+\]
+
+Обратно, пусть резольвента $S_{n}(\lambda, B)$ оператора $B$ определена в секторе $|\arg \lambda|&lt;\pi / 2+\psi$ и справедливо неравенство
+
+\[
+\left\|S_{n}(\lambda, B)\right\| \leqslant \lambda^{\alpha-n-1} M .
+\]
+
+Тогда существует аналитическая в секторе $|\arg z|&lt;\psi$ полугруппа $T(z)$ роста $\alpha$, для производящего оператора $A$ к-рой $S_{n}(\lambda, A)=S_{n}(\lambda, B)$.
+
+Полугруппа-распределение. В соответствии с общей концепцией теории распределений (обобценных бункций) можно отказатъся от того, чтобы оператор-функция $T(t)$ была определена при каждом $t&gt;0$, а потребовать лишь вычислимость интегралов $\int_{-\infty}^{+\infty} T(t) \varphi(t) d t$ для всех $\varphi$ из пространства $D(\mathbb{R})$ всех финитных бесконечно дифференцируемых функций. Тогда возникает определение: по лугруп пой - р а сп р е деление м в банаховом пространстве $X$ наз. линейное непрерывное отображение $T(\varphi)$ пространства $D(\mathbb{R})$ в пространство $L(X)$ всех линейных ограниченных операторов в $X$, обладающее свойствами a) $T(\varphi)=0$, если $\operatorname{supp} \varphi \subset$ $\subset(-\infty, 0) ;$ б) для $\varphi, \psi$ ив пространства $D+(\mathbb{R})$, состоящего из всех функций из $D(\mathbb{R})$ с носителями в $(0, \infty)$, $T(\varphi * \psi)=T(\varphi) T(\psi)$, где свертка
+
+\[
+\varphi * \psi=\int_{-\infty}^{\infty} \varphi(t-s) \psi(s) d s
+\]
+
+(полугрупповое свойство); в) если $T(\varphi) x=0$ для всех $\varphi \in D+(\mathbb{R})$, то $x=0 ;$ г) линейная оболочка объединения всех значений $T(\varphi) x, \varphi \in D+(\mathbb{R}), x \in X$, плотна в $X$; д) для любого $y=T(\psi) x$ с $\psi \in D+(\mathbb{R})$ существует такая нешрерывная на $(0, \infty)$ функция $u(t)$ со значениями в $X$, что $u(0)=y \quad$ и
+
+\[
+T(\varphi) y=\int_{0}^{\infty} \varphi(t) u(t) d t
+\]
+
+для всех $\varphi \in D(\mathbb{R})$.
+
+Инфините зима льны й опе ра тор $A_{0}$ полугруппы-распределения определяется так: если существует дельта-послөдовательность $\left\{\rho_{n}\right\} \subset D+(\mathbb{R})$ такая, что $T\left(\rho_{n}\right) x \rightarrow x$ и $T\left(-\rho_{n}^{\prime}\right) x \rightarrow y$ при $n \rightarrow \infty$, то $x \in D\left(A_{0}\right)$ и $y=A_{0} x$. Инфинитезимальный оператор допускает замыкание $A=\overline{A_{0}}$, к-рое наз п р о и з в о д ящи и оператором полугруппы-ра сп р е д е л е в и я. Множество $\bigcap_{n=1}^{\infty} D\left(A_{0}^{n}\right)$ плотно в $X$ и содержит $T(\varphi) X$ при любой $\varphi \in D^{+}(\mathbb{R})$.
+
+Замкнутый линейный оператор $A$ с плотной в $X$ областью определения является производящим оператором полугруппы-распределения тогда и только тогда, когда найдутся числа $a, b \geqslant 0, c&gt;0$ и натуральное $m$ такие, что при $\operatorname{Re} \lambda \geqslant a \ln (1+|\lambda|)+b$ существует резольвента $R(\lambda, A)$ и выполнено неравенство
+
+\[
+\|R(\lambda, A)\| \leqslant C(1+|\lambda|)^{m} .
+\]
+
+Если $A$ - замкнутый линейный опсратор в $X$, то множество $\bigcap_{n=1}^{\infty} D\left(A^{n}\right)$ можно превратить в пространство Фреше $X_{\infty}$, введя в нем систему норм
+
+\[
+\|x\|_{n}=\sum_{k=0}^{n}\left\|A^{k} r\right\|
+\]
+
+Сужение $A_{\infty}$ оператора $A$ ва $X_{\infty}$ оставляет $X_{\infty}$ инвариантным. Если $A$ - производящий оператор полугруппы-распределения, то $A_{\infty}-$ производящий оператор полугруппы класса $C_{0}$ (непрерывный при $t \geqslant 0, T(0)=I$ ) в пространстве $X_{\infty}$. Обратно, если $X_{\infty}$ плотно в $X$, оператор $A$ имеет непустое резольвентное множество и является производящим оператором полугруппы класса $C_{0}$ в $X_{\infty}$, то $A$ - производящий оператор полугруппыраспределения в $X$.
+
+Полугруппа-распределение имеет экспоненциальный порядок роста не выше $q, 1 \leqslant q&lt;\infty$, если при нек-ром $\omega&gt;0$ отображение $\exp \left(-\omega t^{q}\right) T(\varphi)$ непрерывно в топологии, индуцированной на $D^{+}$пространством $S(\mathbb{R})$ быстро убывающих функций. Для того чтобы замкнутый линейный оператор был производящим оператором такой полугруппы-распределения, необходимо и достаточно, чтобы он имел резольвенту $R(\lambda, A)$, для к-рой выполнено (6) в области
+
+$\left\{\lambda: \operatorname{Re} \lambda \geqslant[\alpha \ln (1+|\operatorname{Im} \lambda|+\beta)]^{1-1 / q}, \operatorname{Re} \lambda&gt;\omega\right\}$, где $\alpha, \beta&gt;0$. В частности, если $q=1$, то полугруппа наз. ә к с п о н е н ц и а л ь н о й и неравенство (6) выполняется в нек-рой полуплоскости. Имеется характеристика полугрупп указанных типов в терминах свойств оператора $A_{\infty}$. Для полугруппы-распределений изучены вопросы гладкости и аналитичности.
+
+Полугруппа операторов в (отделимом) локально выпуклом пространстве $X$. Определение сильно непрерывной полугруппы непрерывных в $X$ операторов $T(t)$ остается таким же, как и в банаховом пространстве. Аналогично класс $C_{0}$ выделяется свойством $T(t) x \rightarrow x$ при $t \rightarrow 0$ и любом $x \in X$. Полугруппа наз. л о к а л ьв о э к в и н е п р е р ы в н о й (принадлежит классу $\left.l C_{0}\right)$, если семейство операторов $T(t)$ равностепенно непрерывно, когда $t$ пробегает любой конечный промежуток из $(0, \infty)$. В бочечном пространстве полугруппа класса $C_{0}$ всегда локально эквинепрерывна.
+
+Полугруппа наз. а к в и н ө п р е р ы в н о й (принадлежит классу $\left.u C_{0}\right)$, если семейство $T(t), 0 \leqslant t&lt;\infty$, равностепенно непрерывно.
+
+Инфинитезимальный и производящий операторы полугрупіы определяются так же, как и в банаховом случае.
+
+В дальнейшем предполагается, что пространство $X$ секвенциально полно. Для полугрупп класса $l C_{0}$ производящий оператор $A$ совпадаөт с инфинитезимальным, его область определөния $D(A)$ плотна в $X$ и, более того, плотно в $X$ множество $\bigcap_{n=1}^{\infty} D\left(A^{n}\right)$. Полугруппа $T(t)$ оставляет $D(A)$ инвариантной и
+
+\[
+\frac{d T}{d t} x=A T(t) x=T(t) A x, 0 \leqslant t&lt;\infty, x \in D(A) .
+\]
+
+Если $A$ - производящий оператор полугруппы класca $u C_{0}$, то при $\operatorname{Re} \lambda&gt;0$ опредөлена резольвента $R(\lambda, A)$ и она является преобразованием Лапласа от полугруппы.
+
+Линейный оператор $A$ является производящим оператором полугруппы класса $u C_{0}$ тогда и только тогда, когда он замкнут, имеет плотную в $X$ область определения и существует такая последоватөльность положительных чисел $\lambda_{k} \rightarrow \infty$, что для любого $\lambda_{k}$ определена резольвента $R\left(\lambda_{k}, \quad A\right)$ и семейство операторов $\left[\lambda_{k} R\left(\lambda_{k}, A\right)\right]^{n}, k, n=1,2, \ldots$, равностепенно непрерывно. При этом полугруппа может быть построена по формуле
+
+\[
+\begin{gathered}
+T(t) x=\lim _{k \rightarrow \infty}\left(\exp \left[-\lambda_{k}-\lambda_{k}^{2} R\left(\lambda_{k}, A\right)\right] t\right) x, \\
+t \geqslant 0, x \in X .
+\end{gathered}
+\]
+
+В ненормируемом локально выпуклом пространстве производящий опера'ор полугруппы класса $l C_{0}$ может не иметь резольвенты ни в одной точке. Пример: $A=\frac{d}{d s}$ в пространстве $C^{\infty}$ бесконечно дифференцируемых функций от $s$ на $\mathbb{R} \quad B$ качестве оператора, заменяющего резольвенту, может быть взят непрерывный оператор, умножение к-рого на оператор $A-\lambda I$ справа и слева «мало» отличается от единичного оператора Непрерывный оператор $R(\lambda)$, определенный для $\lambda$ из множества $\Lambda \subset \mathbb{C}$, наз а с и м п т о т и ч е с к о й р е з о л в в е н т о й линейного оператора $A$, если оператор $A R(\lambda)$ непрерывен в $X$, оператор $R(\lambda) A$ допускает расширение с $D(A)$ до неірерывного оператора $B(\lambda)$ в $X$ и супцесвует такая предельная точка $\lambda_{0}$ множества $\Lambda$, что $H^{+}(\lambda) x \rightarrow 0, H^{-}(\lambda) x \rightarrow 0$ при $\lambda \rightarrow \lambda_{0}$ для любого $x$ из $X$, где
+
+$H+(\lambda)=(A-\lambda I) R(\lambda)-I, \quad H-(\lambda)=B(\lambda)-\lambda R(\lambda)-I$. Асимптотич. резольвента обладает рядом свойств, близких к свойствам обычной резольвенты.
+
+Для того чтобы замкнутый линейный оператор $A$ с плотной в $X$ областью определения был производящим оператором полугруппы класса $l C_{0}$, необходимо и достаточно, чтобы существовали такие числа $\omega$ и $\alpha&gt;0$, что при $\lambda&gt;\omega$ определена асимптотич. резольвента $R(\lambda)$ оператора $A$, обладающая свойствами: функции $R(\lambda)$, $H^{+}(\lambda), H^{-}(\lambda)$ сильно бесконечно диффференцируемы шри $\lambda&gt;\omega$, сөмейства операторов
+
+\[
+e^{\alpha \lambda} \frac{d^{n} H \pm(\lambda)}{d \lambda^{n}}, \frac{\lambda^{n+1}}{n !} \frac{d^{n} R(\lambda)}{d \lambda^{n}}, \lambda&gt;\omega, n=0,1, \ldots,
+\]
+
+равностепенно непрерывны.
+
+Теоремы порождения получөны и для других классов П. о. в локально выпуклом пространстве.
+
+Сопряженная полугруппа. Если $T(t)$ - полугрупиа класса $C_{0}$ в банаховом пространстве $X$, то сопряжөнные операторы образуют полугрупыы ограниченных операторов в сопряженном пространстве $X^{\prime}$. Однако соотношение $T^{\prime}(t) f \rightarrow f$ при $t \rightarrow 0$ и любом $f \in X^{\prime}$ выполняөтся лишь в смысле слабой топологии $\sigma\left(X^{\top}, X\right)$. Если $A-$ проивводящий оператор, то сопряженный оператор $A^{\prime}$ будет слабым производящим оператором $T^{\prime}(t)$ в том смысле, что $D\left(A^{\prime}\right)$ состоит из всех тех $f$, для к-рых существует в смысле слабой сходимости предел $t^{-1}\left[T^{\prime}(t)-I\right] f$ при $t \rightarrow 0$, равный $A^{\prime} f$. Область определения $D\left(A^{\prime}\right)$ плотна в $X^{\prime}$ в смысле слабой топологии, и оператор $A^{\prime}$ замкнут в этой топологии.
+
+Пусть $X^{+}$- совокупность тех элементов ив $X^{\prime}$, для к-рых $T^{\prime}(f) \rightarrow f$ при $t \rightarrow 0$ в сильном смысле, тогда $X^{+}$- замкнутое подпространство $X^{\prime}$, инвариантное относительно всех $T^{\prime}(t)$. В $X^{+}$операторы $T(t)$ образуют полугруппы класса $C_{0}$. Пространство $X^{+}$может быть получено как сильное замыкание в $X^{\prime}$ множества $D\left(A^{\prime}\right)$. Если исходное пространство рефлексивно, то $X^{+}=X^{\prime}$. Для полугрупі класса $C_{0}$ в локально выпуклых пространствах сіраведливы аналогичные факты. Полугруппы классов $l C_{0}$ и $u C_{0}$ порождают полугруппы таких же классов в пространстве $X+$.
+
+Полугруппа-распределение в (отделимом) локально выпуклом пространстве. Полугруппа-распредөлөние $T(\varphi)$ в сөквенциально полном локально выпуклом пространстве определяется так жө, как и в банаховом пространстве. Полугруппа $T(\varphi)$ наз. л о к а л в н о э к в ин е п р е р ы в н о й (класса $\left.l D^{\prime}\right)$, если для любого компакта $K \subset D(\mathbb{R})$ сөмейство операторов $\{T(\varphi)\}, \varphi \in K$, равностөшенно нөпрерывно. В бочечном пространстве $X$ всякая полугруппа-распределение принадлөжит классу $l D^{\prime}$. Аналогично случаю банахова пространства определяется инфинитезимальный оператор $A_{0}$ полугруппырасıределения. Для полугрупп класса $l D^{\prime}$ он замкнут $\left(A_{0}=A\right), \bigcap_{n=1}^{\infty} D\left(A^{n}\right)$ шлотно в $X$, при любых $x \in X$ г $\varphi \in D(\mathbb{R})$ выполнено
+
+\[
+\left.T(\varphi) x \in D(A), T^{\prime}(\varphi) x=A T(\varphi) x+\varphi(0) x,\right\}
+\]\[
+T^{\prime}(\varphi) x=T(\varphi) A x+\varphi(0) x, x \in D(A)
+\]
+
+Обобщенную функцию $T$ с носителем на $[0, \infty)$, обладающую свойствами (7), естественно назвать ф у н д аментальн о й фунцией о пе р а то р а $\frac{d}{d t}-A$. Таким образом, если $A-$ производящий опе- ратор полугруппы $T$ класса $l D^{\prime}$, то $T$ является фундаментальной функцией оператора $\frac{d}{d t}-A$. Обратное утверждение верно при дополнительных предположениях относительно порядка сингулярности фундаментальной функции $T$ (точнее, функций $f(T(\varphi) x)$, где $\left.f \in X^{\prime}\right)$.
+
+Для характеривации полугруппы в локально выпуклом пространстве полезным является понятие о б о бщ е н н о й р е з о л в в е н т ы. Через $\hat{\varphi}$ обозначается образ функции $\varphi \in D(\mathbb{R})$ при преобразовании Лапласа, в пространстве $\hat{D}(\mathbb{R})$ всех образов вводится топология, индуцируемая преобразованием Лапласа из топологии $D(\mathbb{R})$. П реобразование Лапласа $X$-значной обобщенной функции $F$ определяөтся равенством $\hat{F}(\widehat{\varphi})=F(\varphi)$. При этом $\hat{F}$ является непрерывным отображением из $\hat{D}(\mathbb{R})$ в пространстве $L(X)$ линейных непрерывных операторов на $X$. Пусть $\hat{D}_{+}^{\prime}-$ прострапство всех $\hat{F}$, полученных из $F$ с носителем на $(0, \infty)$, с естественной топологией. Если $A$ - линейный оператор в $X$, то его можно «поднять&quot; до оператора $\bar{A}_{\text {в пространстве } \tilde{D}_{+}^{\prime}}$ с помощью равенства
+
+\[
+(\tilde{A} \hat{F})(\hat{\varphi})=A(\hat{F}(\hat{\varphi}))=A F(\varphi) .
+\]
+
+Таким образом, он определен на тех $\hat{F} \in \hat{D}_{+}^{\prime}$, для к-рых правая часть определена при любой $\varphi \in D(R)$ и иродолжаөт обобщевную функцию из $\widehat{D}_{+}^{\prime}$. На $\widehat{D}_{+}^{\prime}$ опредөляется непрерывный оператор $\tilde{\lambda}$ равенством
+
+\[
+(\tilde{\lambda} \hat{F})(\hat{\varphi})=\lambda \hat{F}(\hat{\varphi})=F^{\prime}(\varphi)=-F\left(\varphi^{\prime}\right) .
+\]
+
+Если оператор $\tilde{A}-\tilde{\lambda}$ имеет непрерывный обратный $\tilde{R}$ на $\widehat{D}_{+}^{\prime}$, то $\widetilde{R}$ наз. о б о бщ ен но й ре золь в е н то й оператора $A$.
+
+Oператор $A$ имеет обобщенную рөзольвенту тогда и только тогда, когда у оператора $\frac{d}{d t}-A$ существует локально әквинепрерывная фундаментальная функция $T$, к-рая строится по формуле:
+
+\[
+T(\varphi) x=(\tilde{R}(1 \otimes x))(\hat{\varphi}), \varphi \in D(\mathbb{R}), x \in X,
+\]
+
+где
+
+\[
+(1 \bigotimes x)(\hat{\varphi})=(\delta \otimes x) \varphi=\varphi(0) x .
+\]
+
+При дополнительных условиях $T$ будет полугруппойраспределением. В терминах обобщенной резольвенты получена также төорема порождения П. о. класса $l C_{0}$.
+
+См. также Полуаруппа нелинейных операторов.
+
+Лит.: [1] Х и л л е Э., Ф и л л и п с Р., Функциональный анализ и полугруппы, пер. с англ., 2 иэд., М., 1962; [2] В у в ун и н я н Ю. М., в кн.: Теория операторов в функциональных
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=43&amp;width=814&amp;top_left_y=1735&amp;top_left_x=987)
+П. П, З а Ф и е в с к и&quot; &quot; А. В., &quot;Докл. Ан СССР&quot;, 1969 , тем. Ф-та Воронеж. ун-та&quot;, 1970, в. 1, с. 206-10; [5] И о с ид а K., Функциональный анализ, пер. с англ., М., 1967; [6]
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=76&amp;width=814&amp;top_left_y=1836&amp;top_left_x=987)
+&quot;Дифференı. уравнения&quot;, 1979, т. $15, ﹎{2} 2$, c. $363-66$; 8] C h a-
+z a r a in J. &quot;J. Funct. Analys.&quot;, 1971, v. 7, № 3, p. 386 446;
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=47&amp;width=814&amp;top_left_y=1912&amp;top_left_x=990)
+v. 34, p. 34-41; [10] e e $\%$ e, &quot;Rev roum. math. pures et appl.», 1977, v. 22, № 8, p. 1053-68; [11] K a to T T., &quot;Proc. Amer. Math. Soo.&quot;, 1970, v. 25, № 3, p. $495-98$, [12] L i o n s J., &quot;Portugal. Math &quot;, 1960, v, 19, p. 141-64; [13] P a z y A., &quot;J. Math. Mech.&quot;, 1968, v. 17, No 12, p. 1131-41; [14] e r o ж e &quot;J. Math. Mech.&quot; $1968, \mathrm{v} .17, \mathrm{NN}_{2} 12, \mathrm{p}, 1131-41 ;[14]$ e r o , 世
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=45&amp;width=814&amp;top_left_y=2089&amp;top_left_x=990)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=47&amp;width=809&amp;top_left_y=2114&amp;top_left_x=992)
+&quot;C. r. Acad. sci.&quot;, 1977, t. A 285, p. $437-40$.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_891b02faea66ff312144g-1.jpg?height=27&amp;width=521&amp;top_left_y=2193&amp;top_left_x=1037)
+полугруппа, обладающая нек-рым свойством $\theta$ таким, что всякая конечная полугруппа обладает этим свойством (такое свойство $\theta$ наз. У с ло в и е м к о н е ч о- с т и). В определении свойства $\theta$ могут фигурировать әлементы полугруппы, ее подполугруппы и т. п.
+
+Примеры условий конечности: периодичность (см. Периодическая полугруппа), локальная конечность (см. Локально конечная полугруппа), финитная аппроксимируемость (см. Финитно аппроксимируемая полугруппа), конечная порожденность, конечная определенность. Исследования конечно определенных полугрупп в значительной степени ведутся с точки зрения алгоритмич. проблем. Наиболее известное условие, при к-ром конечная порожденность полугруппы влечет ее конечную определенность, - коммутативность (т е о р е м а $\mathrm{P}$ ед е и). Всякая счетная полугруппа вложима в полугруппу с двумя порождающими, а также в полугруппу с тремя идемпотентными порождающими [8].
+
+Целый ряд условий конечности формулируется в терминах решетки подполугрупп (напр., условие минимальности для подполугрупп). Полугруппа $S$ тогда и только тогда удовлетворяет условию минимальности для подполугрупп, когда $S$ периодическая, имеет лишь конечное число классов кручения, в каждом классе кручения $K_{e}$ наибольшая подгруппа $G_{e}$ удовлетворяет условию минимальности для подгрупп, а разность $K_{e}&gt;G_{e}$ ковечна [2]. Аналогичное строение имеют полугруппы конечного ранга (конечность ранга означает, что минимальное число порождающих каждой конечно порожденной подполугруппы полугрупшы $S$ не превосходит фиксированного числа), полугруппы конечной ширины (конечность ширины для $S$ означает, что из любого конечного множества $M$ ее элементов можно выделить подмножество, порождающее ту же подполугруппу, что и $M$, мощность к-рого не превосходит фиксированного числа), периодические полугруппы с условием максимальности для подполугрушп и др. (см. [3], [4]).
+
+Инверсная полугруппа удовлетворяет условию минимальности для инверсных подполугрупп тогда и только тогда, когда она обладает главным рядом (см. Идеальный ряд полугруппы), каждый фактор к-рого есть Брандта полугр упnа с конечным числом идемпотентов, все максимальные подгруппы к-рой удовлетворяют условию минимальности для подгруппы. Аналогичные описания получены для условия максимальности, конечности ранга и др. (см. [5]).
+
+Из условий конечности, формулируемых в терминах частично упорядоченного множества идеалов полугруппы, наиболее известны условия минимальности $M_{L}$, $M_{R}, M_{J}$ для главных левых, правых, двусторонних идеалов (эти условия часто определяются в терминах $\mathscr{L}-, \mathscr{R}-$ и $\mathscr{y}$-классов, см. Грина отношения эквивалентности). Аналогично определяется условие $M_{H}$ для $\mathscr{H}$ классов. Конъюнкция условий $M_{L}$ и $M_{R}$ эквивалентна конъюнкции условий $M_{J}$ и $M_{H}$, в остальном эти условия независимы; в частности, полугруппа с условиями $M_{L}$ и $M_{J}$ не обязательно удовлетворяет условиям $M_{R}$ и $M_{H}$. Вместе с тем полупростая (см. Главный бактор полугруппы) полугруппа с условием $M_{L}$ или $M_{R}$ удовлетворяет условию $M_{J}$. Для регулярных полугрупп все четыре условия эквивалентны; всякая полугруппа с условием $M_{H}$ будет квазипериодической. Конечно порожденная полугруппа с условием $M_{L}$ или $M_{R}$, все подгруппы к-рой конечны, сама конечна [6].
+
+Полугруппа с условием минимальности для правых конгруәнций является периодической, удовлетворяет условию $M_{L}$ и двойственному условию максимальности для главных левых идеалов; если при этом все ее подгруппы конечны, то сама полугруппа конечна [6]. В инверсных полугруппах условие минимальности для правых конгруәнций әквивалентно условию минимальности для левых конгруэнций, а также тому, что полугруппа имеет липь конечное число идемпотентов и удовлетворяет условию минимальности для подгрупп [7]. Изучен ряд свойств полугрупп с условием максимальности для односторонних конгруэнций. Коммутативная полугруппа удовлетворяет условию минимальности (максимальности) для конгруэнций тогда и только тогда, когда она имеет главный ряд и удовлетворяет условию минимальности для подгрупп [7] (конечно порождена).
+
+Лum.: [1] К л и фф о р д А., П р е с т о н г., Алгебраическая теория полугрупп, пер. с англ., т. 2, М., 1972; [2] Ш е в-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_4abc749737b184994105g-1.jpg?height=49&amp;width=804&amp;top_left_y=380&amp;top_left_x=985)
+c. 925-35; [4] е г о ж е, “Изв. ВУЗов. Матем.», 1974, Nㅗ 5 , c. 205-15; [5] E p mо в а Т. И., там же, 1977, № 11, c. 7-14; [7] $\mathrm{K}$ o z h u k h o v I. B., &quot;Semigroup Forum&quot;, 1980, v. 21, № 4, p. 337-50; [8] P a s ti j n F., там же, 1977, v. 14, 그 3 ,
+p. $247-64$.
+Л. Н. Шеврин.</text_orig>
+</article>

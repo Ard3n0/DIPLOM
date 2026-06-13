@@ -1,0 +1,650 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/597_INTEGRAL'NOE" alphabetic_pos="597">
+  <title>ИНТЕГРАЛЬНОЕ ПРЕДСТАВЛЕНИЕ АНАЛИТИЧЕСКОИ ФУНКЦИИ</title>
+  <authors/>
+  <pages>
+    <start>294</start>
+    <end>296</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/597_1_INTEGRAL'NOE">f(z)=\int_{L} K(z, \xi) v(\zeta) d \xi</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_2_INTEGRAL'NOE">\begin{gathered}\mathfrak{R}_{z}[f](z)=\int_{L} \mathfrak{l}_{z}[K](z, \zeta) v(\zeta) d \zeta= \\=\int_{L} \mathfrak{M}_{\zeta}[K](z, \zeta) v(\zeta) d \zeta= \\=\int_{L} K(z, \zeta) \tilde{\mathfrak{R}}_{\zeta}[v](\zeta) d \zeta+P[v, K],\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_3_INTEGRAL'NOE">\begin{gathered}K(z, \zeta)=e^{z \zeta} \text { или } \quad K(z, \zeta)=e^{i z \zeta} \\K(z, \zeta)=z^{\zeta} \text { и } K(z, \zeta)=(z-\zeta)^{\alpha}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_4_INTEGRAL'NOE">J_{p}(z)=\frac{\Gamma(1 / 2-p)}{2 i \pi^{3 / 2}}\left(\frac{z}{2}\right)^{p} \int_{L} e^{i z \zeta}\left(\zeta^{2}-1\right)^{p-1 / 2} d \zeta,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_5_INTEGRAL'NOE">\Gamma(z)=\int_{0}^{\infty} t^{z-1} e^{-t} d t, \quad \operatorname{Re} z&gt;0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_6_INTEGRAL'NOE">\Gamma(z)=\frac{1}{e^{2 i \pi z}-1} \int_{L_{1}} \zeta^{z-1} e^{-\zeta} d \zeta,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_7_INTEGRAL'NOE">K(z, \zeta)=\frac{1}{2 \pi i} \frac{1}{(\zeta-z)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_8_INTEGRAL'NOE">f(z)=\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \zeta}{\zeta-z} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_9_INTEGRAL'NOE">\frac{\partial}{\partial \bar{z}}=\frac{1}{2}\left(\frac{\partial}{\partial x}+i \frac{\partial}{\partial y}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_10_INTEGRAL'NOE">f(z)=\int_{L} K(z, \zeta) d \mu(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_11_INTEGRAL'NOE">f(z)=\int \frac{\zeta+z}{\zeta-z} d \mu(\zeta)+i c, \quad \operatorname{Im} c=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_12_INTEGRAL'NOE">f(z)=\int \frac{z d \mu(\zeta)}{(z-\zeta)(z-\bar{\zeta})}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_13_INTEGRAL'NOE">f(z)=\varphi\left\{\int K(z, \zeta) d \mu(\zeta)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_14_INTEGRAL'NOE">\hat{V}(z)=\left\langle V_{\zeta}, K(z, \zeta)\right\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_15_INTEGRAL'NOE">f(z)=\int v(\zeta) \omega(z, \zeta),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_16_INTEGRAL'NOE">f(z)=\int f(\zeta) \omega(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_17_INTEGRAL'NOE">f(z)=\left\langle V_{\zeta}, K(z, \zeta)\right\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/597_18_INTEGRAL'NOE">f(z)=\left\langle V_{\zeta}, \omega(z, \zeta)\right\rangle,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_1_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_2_INTEGRAL'NOE">v(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_3_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_4_INTEGRAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_5_INTEGRAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_6_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_7_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_8_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_9_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_10_INTEGRAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_11_INTEGRAL'NOE">\zeta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_12_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_13_INTEGRAL'NOE">z, \zeta-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_14_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_15_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_16_INTEGRAL'NOE">\mathfrak{r}_{z}[f](z)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_17_INTEGRAL'NOE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_18_INTEGRAL'NOE">\mathfrak{r}_{z}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_19_INTEGRAL'NOE">\quad \mathfrak{R}_{z}[K]=\mathfrak{M}_{\varepsilon}[K]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_20_INTEGRAL'NOE">\tilde{\mathscr{r}}_{\zeta}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_21_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_22_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_23_INTEGRAL'NOE">\tilde{\mathscr{r}}_{\zeta}[v](\zeta)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_24_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_25_INTEGRAL'NOE">p[v, K]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_26_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_27_INTEGRAL'NOE">\mathfrak{r}_{z}[f](z)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_28_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_29_INTEGRAL'NOE">v(\zeta)=\left(\zeta^{2}-1\right)^{p-1 / 2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_30_INTEGRAL'NOE">j_{p}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_31_INTEGRAL'NOE">j_{p}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_32_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_33_INTEGRAL'NOE">\gamma(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_34_INTEGRAL'NOE">r e z&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_35_INTEGRAL'NOE">l_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_36_INTEGRAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_37_INTEGRAL'NOE">z=-1,-2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_38_INTEGRAL'NOE">\gamma(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_39_INTEGRAL'NOE">о</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_40_INTEGRAL'NOE">0 \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_41_INTEGRAL'NOE">\mathbf{a}:</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_42_INTEGRAL'NOE">\mathrm{b}(z, w)=\int_{0}^{1} t^{z-1}(1-t)^{w-1} d t, \quad \operatorname{Re} z&gt;0, \quad \operatorname{Re} w&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_43_INTEGRAL'NOE">\mathrm{b}(z, w)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_44_INTEGRAL'NOE">\operatorname{re} z&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_45_INTEGRAL'NOE">\operatorname{re} w&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_46_INTEGRAL'NOE">l_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_47_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_48_INTEGRAL'NOE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_49_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_50_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_51_INTEGRAL'NOE">\bar{d}=d \cup L</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_52_INTEGRAL'NOE">c \bar{D}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_53_INTEGRAL'NOE">\infty \in C \bar{D}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_54_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_55_INTEGRAL'NOE">\mathrm{c}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_56_INTEGRAL'NOE">v(\zeta)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_57_INTEGRAL'NOE">=f(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_58_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_59_INTEGRAL'NOE">1 / 2 \pi i(\zeta-z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_60_INTEGRAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_61_INTEGRAL'NOE">\bar{d}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_62_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_63_INTEGRAL'NOE">z=\zeta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_64_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_65_INTEGRAL'NOE">v(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_66_INTEGRAL'NOE">f(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_67_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_68_INTEGRAL'NOE">v(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_69_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_70_INTEGRAL'NOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_71_INTEGRAL'NOE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_72_INTEGRAL'NOE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_73_INTEGRAL'NOE">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_74_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_75_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_76_INTEGRAL'NOE">d=\{z ;|z|&lt;1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_77_INTEGRAL'NOE">\operatorname{re} f(z)&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_78_INTEGRAL'NOE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_79_INTEGRAL'NOE">l=\{\zeta ;|\zeta|=1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_80_INTEGRAL'NOE">f(z)=z+c_{2} z^{2}+\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_81_INTEGRAL'NOE">d=\{z ;|z|&lt;1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_82_INTEGRAL'NOE">\operatorname{im} f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_83_INTEGRAL'NOE">-1&lt;x&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_84_INTEGRAL'NOE">f(z) \times</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_85_INTEGRAL'NOE">\times \operatorname{Im} z&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_86_INTEGRAL'NOE">\operatorname{im} z \neq 0)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_87_INTEGRAL'NOE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_88_INTEGRAL'NOE">l=\{\zeta ;|\zeta|=1\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_89_INTEGRAL'NOE">\|\mu\|=\int d \mu(\zeta)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_90_INTEGRAL'NOE">\varphi: \mathbb{C} \rightarrow \mathbb{C}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_91_INTEGRAL'NOE">\varphi(z)=\exp z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_92_INTEGRAL'NOE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_93_INTEGRAL'NOE">\langle\mu \xi, K(z, \zeta)\rangle</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_94_INTEGRAL'NOE">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_95_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_96_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_97_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_98_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_99_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_100_INTEGRAL'NOE">\hat{v}(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_101_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_102_INTEGRAL'NOE">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_103_INTEGRAL'NOE">z \neq \zeta]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_104_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_105_INTEGRAL'NOE">z=\left(z_{1}, \ldots, z_{n}\right), n \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_106_INTEGRAL'NOE">v(\zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_107_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_108_INTEGRAL'NOE">\omega(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_109_INTEGRAL'NOE">\zeta=\left(\zeta_{1}, \ldots, \zeta_{n}\right), \bar{\zeta}=\left(\bar{\zeta}_{1}, \ldots, \bar{\zeta}_{n}\right), \quad</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_110_INTEGRAL'NOE">z=\left(z_{1}, \ldots, z_{n}\right), \bar{z}=\left(\overline{z_{1}}, \ldots, \overline{z_{n}}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_111_INTEGRAL'NOE">\partial D</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_112_INTEGRAL'NOE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_113_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_114_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_115_INTEGRAL'NOE">d=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_116_INTEGRAL'NOE">=d_{1} \times \ldots \times D_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_117_INTEGRAL'NOE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_118_INTEGRAL'NOE">d</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_119_INTEGRAL'NOE">\omega</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_120_INTEGRAL'NOE">\omega(z, \zeta)=\frac{1}{(2 \pi i)^{n}} \frac{d \zeta_{1} \wedge \ldots \wedge d \zeta_{n}}{\left(\zeta_{1}-z_{1}\right) \ldots\left(\xi_{n}-z_{n}\right)}=K(z, \zeta) d \zeta</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_121_INTEGRAL'NOE">\gamma=\partial D_{1} \times \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_122_INTEGRAL'NOE">f(z)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_123_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_124_INTEGRAL'NOE">k(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_125_INTEGRAL'NOE">\omega(z, \zeta)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_126_INTEGRAL'NOE">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/597_127_INTEGRAL'NOE">1968 ;</formula>
+  </formulas_aux>
+  <relations n="42">
+    <relation uri="http://libmeta.ru/me/relation/597_1_INTEGRAL'NOE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_2_INTEGRAL'NOE">
+      <rel_text>переменные</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_3_INTEGRAL'NOE">
+      <rel_text>комплексные</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_4_INTEGRAL'NOE">
+      <rel_text>Распределения</rel_text>
+      <target>http://libmeta.ru/me/article/950_RASPREDELENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_5_INTEGRAL'NOE">
+      <rel_text>комплексный</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_6_INTEGRAL'NOE">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_7_INTEGRAL'NOE">
+      <rel_text>комплексных</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_8_INTEGRAL'NOE">
+      <rel_text>переменных</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_9_INTEGRAL'NOE">
+      <rel_text>комплексных</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_10_INTEGRAL'NOE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_11_INTEGRAL'NOE">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_12_INTEGRAL'NOE">
+      <rel_text>Методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_13_INTEGRAL'NOE">
+      <rel_text>комплексной</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_14_INTEGRAL'NOE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_15_INTEGRAL'NOE">
+      <rel_text>представления</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_16_INTEGRAL'NOE">
+      <rel_text>Интегральные</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_17_INTEGRAL'NOE">
+      <rel_text>Краевые задачи</rel_text>
+      <target>http://libmeta.ru/me/article/68_KRAEVAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_18_INTEGRAL'NOE">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_19_INTEGRAL'NOE">
+      <rel_text>интегральные</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_20_INTEGRAL'NOE">
+      <rel_text>переменного</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_21_INTEGRAL'NOE">
+      <rel_text>комплексного</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_22_INTEGRAL'NOE">
+      <rel_text>Функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_23_INTEGRAL'NOE">
+      <rel_text>рия</rel_text>
+      <target>http://libmeta.ru/me/article/428_RI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_24_INTEGRAL'NOE">
+      <rel_text>аналитических функций</rel_text>
+      <target>http://libmeta.ru/me/article/183_ANALITIChESKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_25_INTEGRAL'NOE">
+      <rel_text>Граничные свойства</rel_text>
+      <target>http://libmeta.ru/me/article/1168_GRANIChNYE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_26_INTEGRAL'NOE">
+      <rel_text>функции</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_27_INTEGRAL'NOE">
+      <rel_text>диффференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_28_INTEGRAL'NOE">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_29_INTEGRAL'NOE">
+      <rel_text>поток</rel_text>
+      <target>http://libmeta.ru/me/article/559_POTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_30_INTEGRAL'NOE">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_31_INTEGRAL'NOE">
+      <rel_text>пространстве</rel_text>
+      <target>http://libmeta.ru/me/article/748_PROSTRANSTV</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_32_INTEGRAL'NOE">
+      <rel_text>функция</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_33_INTEGRAL'NOE">
+      <rel_text>интерпретируется</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_34_INTEGRAL'NOE">
+      <rel_text>форме-ядре</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_35_INTEGRAL'NOE">
+      <rel_text>функционала</rel_text>
+      <target>http://libmeta.ru/me/article/796_FUNKTsIONA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_36_INTEGRAL'NOE">
+      <rel_text>функцию</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_37_INTEGRAL'NOE">
+      <rel_text>представления</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_38_INTEGRAL'NOE">
+      <rel_text>развитием</rel_text>
+      <target>http://libmeta.ru/me/article/882_RAZVERTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_39_INTEGRAL'NOE">
+      <rel_text>переменного</rel_text>
+      <target>http://libmeta.ru/me/article/222_PEREGÓROD</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_40_INTEGRAL'NOE">
+      <rel_text>комплексного</rel_text>
+      <target>http://libmeta.ru/me/article/1005_KOMPAKTNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_41_INTEGRAL'NOE">
+      <rel_text>представление</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/597_42_INTEGRAL'NOE">
+      <rel_text>ние</rel_text>
+      <target>http://libmeta.ru/me/article/1099_NI</target>
+    </relation>
+  </relations>
+  <text>представление аналитич. функции в виде интеграла, зависящего от параметра. И. п. а. ф. возникли на ранних стадиях развития теории функций и математич. анализа вообще как удобный аппарат для обозримого представления аналитич. решениї дифференциальных уравнений, для исследования асимптотіки этих решений и пх аналитич. продолжения. Несколько позже И. п. а. ф. наплi применения для решения граничных задач теории аналитических функций Ii сингулярных интегральных уравнений, исследованія внутренних и граничных свойст ческих функций различных классов, а также для решения других, самых разнообразных вопросов математич. анализа. В процессе развития теории функций изучение свойств отдельных, напболее важных, типов И. п. а. ф. обособлялось в виде самостоятельных глав теории функцшй (см., напр., Коии интеарал, Пуассона интеграл, Iiiварча интеграл).
+
+Обширный класс И. П. а. ф., используемых для получения и исследования аналитич. решений дифференциальных уравнений, описывается общей формулой:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_1_INTEGRAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/597_1_INTEGRAL'NOE]]/URI$ - ядро интегрального представления, $URI[[http://libmeta.ru/me/formula/aux/597_2_INTEGRAL'NOE]]/URI$ - плотность и $URI[[http://libmeta.ru/me/formula/aux/597_3_INTEGRAL'NOE]]/URI$ - контур (или система контуров) в совмещенной плоскости комплексных переменных $URI[[http://libmeta.ru/me/formula/aux/597_4_INTEGRAL'NOE]]/URI$, ک. Целесообразное и, по возможности, наиболее простое решение трех взашмосвязанных вопросов о выборе ядра $URI[[http://libmeta.ru/me/formula/aux/597_5_INTEGRAL'NOE]]/URI$, плотности $URI[[http://libmeta.ru/me/formula/aux/597_6_INTEGRAL'NOE]]/URI$ и контура $URI[[http://libmeta.ru/me/formula/aux/597_7_INTEGRAL'NOE]]/URI$ для представления данной функции $URI[[http://libmeta.ru/me/formula/aux/597_8_INTEGRAL'NOE]]/URI$ (или данного класса функций) является определяющим с точки зрения успешного применения м е т о д а И. П. а. ф. При этом свойства представления (1), в первую очередь, существенно зависят от того, является ли ядро $URI[[http://libmeta.ru/me/formula/aux/597_9_INTEGRAL'NOE]]/URI$ целой функцией комплексных переменных $URI[[http://libmeta.ru/me/formula/aux/597_10_INTEGRAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/597_11_INTEGRAL'NOE]]/URI$, или же ядро $URI[[http://libmeta.ru/me/formula/aux/597_12_INTEGRAL'NOE]]/URI$ сингулярное, т. е. имеет те или иные особенности. Вообще говоря, ядро И. П. а. ф. не обязательно является аналитич. функцией переменных $URI[[http://libmeta.ru/me/formula/aux/597_13_INTEGRAL'NOE]]/URI$ аналитичность функции $URI[[http://libmeta.ru/me/formula/aux/597_14_INTEGRAL'NOE]]/URI$ может обеспечиваться за счет специфич. свойств плотности. Формула (1) как формула простого однократного интегрирования также, вообще говоря, не обязательна - имеются типы И. П. а. Ф., в к-рых используются повторные інтегралы.
+
+Общая схема получения интегральных представлений специальных функций $URI[[http://libmeta.ru/me/formula/aux/597_15_INTEGRAL'NOE]]/URI$, являющихся решениями нек-рого обыкновенного дифференциального уравнения $URI[[http://libmeta.ru/me/formula/aux/597_16_INTEGRAL'NOE]]/URI$, сводится в основном к следующему. За счет целесообразного выбора, чаще всего несингулярного, ядра $URI[[http://libmeta.ru/me/formula/aux/597_17_INTEGRAL'NOE]]/URI$ должна оказаться осуществимой следующая переброска действия оператора $URI[[http://libmeta.ru/me/formula/aux/597_18_INTEGRAL'NOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_2_INTEGRAL'NOE]]/URI
+\]
+
+т. е. ядро должно, в первую очередь, удовлетворять по возможности простому уравнению с частными производными $URI[[http://libmeta.ru/me/formula/aux/597_19_INTEGRAL'NOE]]/URI$, допускающему последующее интегрирование по частям с целью восстановления первоначального вида ядра под интегралом и переброску действия получающегося при этом сопряженного оператора $URI[[http://libmeta.ru/me/formula/aux/597_20_INTEGRAL'NOE]]/URI$ на плотность $URI[[http://libmeta.ru/me/formula/aux/597_21_INTEGRAL'NOE]]/URI$. Получив формулу вида (2), подбирают достаточно простую плотность $URI[[http://libmeta.ru/me/formula/aux/597_22_INTEGRAL'NOE]]/URI$, удовлетворяющую сопряженному уравнению $URI[[http://libmeta.ru/me/formula/aux/597_23_INTEGRAL'NOE]]/URI$, и контур $URI[[http://libmeta.ru/me/formula/aux/597_24_INTEGRAL'NOE]]/URI$, обеспечивающий обращение в нуль обинтегрированного члена $URI[[http://libmeta.ru/me/formula/aux/597_25_INTEGRAL'NOE]]/URI$. При этом необходимо иметь в виду, что выбор контура $URI[[http://libmeta.ru/me/formula/aux/597_26_INTEGRAL'NOE]]/URI$ определяет частное решение исходного уравнения $URI[[http://libmeta.ru/me/formula/aux/597_27_INTEGRAL'NOE]]/URI$. Наибольшее применение находят ядра:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_3_INTEGRAL'NOE]]/URI
+\]
+
+иногда называемые соответственно я д р о м Л а Пласа-Фурье, я д р ом Мел лина и яд ром Ә й л е р а. Различные замены переменных приводят к видоизмененным формам ядер. В описанном виде получение И. п. а. Ф. самым тесным образом связано с методом интегральных преобразований.
+
+Таким путем, напр., получается известное интегральное представление функций Бесселя:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_4_INTEGRAL'NOE]]/URI
+\]
+
+где контур $URI[[http://libmeta.ru/me/formula/aux/597_28_INTEGRAL'NOE]]/URI$ имеет вид восьмерки, охватывающей точки -1 и +1. Представление (3) характерно, с одной стороны, тем, что его плотность $URI[[http://libmeta.ru/me/formula/aux/597_29_INTEGRAL'NOE]]/URI$ гораздо проще, чем представляемые трансцендентные функции $URI[[http://libmeta.ru/me/formula/aux/597_30_INTEGRAL'NOE]]/URI$, а с другой стороны - тем, что оно позволяет довольно просто обозреть свойства ф্ункций $URI[[http://libmeta.ru/me/formula/aux/597_31_INTEGRAL'NOE]]/URI$ и, в частности, изучить их асимптотику.
+
+Целесообразное изменение контура $URI[[http://libmeta.ru/me/formula/aux/597_32_INTEGRAL'NOE]]/URI$ позволяет осуществить аналитич. продолженіе, т. е., иными словами, позволяет получить И. п. а. ф., пригодное во всей ее области сушествования. Напр., и н т е г p а л
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cc9ad42adc3a026336c6g-1.jpg?height=37&amp;width=521&amp;top_left_y=1167&amp;top_left_x=990)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_5_INTEGRAL'NOE]]/URI
+\]
+
+представляет гамма-функцию $URI[[http://libmeta.ru/me/formula/aux/597_33_INTEGRAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/597_34_INTEGRAL'NOE]]/URI$, а если выбрать контур интегрирования $URI[[http://libmeta.ru/me/formula/aux/597_35_INTEGRAL'NOE]]/URI$ в виде петли (рис. 1), то получается интегральное представление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_6_INTEGRAL'NOE]]/URI
+\]
+
+пригодное для всех $URI[[http://libmeta.ru/me/formula/aux/597_36_INTEGRAL'NOE]]/URI$, кроме точек $URI[[http://libmeta.ru/me/formula/aux/597_37_INTEGRAL'NOE]]/URI$ в к-рых $URI[[http://libmeta.ru/me/formula/aux/597_38_INTEGRAL'NOE]]/URI$ имеет простые полюсы. Аналогично, анали-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cc9ad42adc3a026336c6g-1.jpg?height=168&amp;width=402&amp;top_left_y=1531&amp;top_left_x=990)
+
+Рис. 1.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cc9ad42adc3a026336c6g-1.jpg?height=179&amp;width=418&amp;top_left_y=1528&amp;top_left_x=1406)
+
+Рис. 2. тич. продолжение и н т е г р а л а Э й л е р а п е рв $URI[[http://libmeta.ru/me/formula/aux/597_39_INTEGRAL'NOE]]/URI$ г $URI[[http://libmeta.ru/me/formula/aux/597_40_INTEGRAL'NOE]]/URI$ р о д $URI[[http://libmeta.ru/me/formula/aux/597_41_INTEGRAL'NOE]]/URI$
+
+$URI[[http://libmeta.ru/me/formula/aux/597_42_INTEGRAL'NOE]]/URI$, выражающего бета-фуункцию $URI[[http://libmeta.ru/me/formula/aux/597_43_INTEGRAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/597_44_INTEGRAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/597_45_INTEGRAL'NOE]]/URI$, осуществляется путем перехода к контуру интегрирования в виде двойной петли $URI[[http://libmeta.ru/me/formula/aux/597_46_INTEGRAL'NOE]]/URI$ (рис. 2).
+
+Изучались интегральные представления специальных функций (см. [1], [2]); интегральные представления весьма обширных классов функций в связи с интегральными преобразованиями [7].
+
+Универсальный характер в теории аналитич. функций имеют сингулярное я д р о К о и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_7_INTEGRAL'NOE]]/URI
+\]
+
+И соответствующее И. П. а. Ф.- Коши интеграл:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_8_INTEGRAL'NOE]]/URI
+\] Это И. П. а. Ф. выражает значения однозначной аналитич. функции $URI[[http://libmeta.ru/me/formula/aux/597_47_INTEGRAL'NOE]]/URI$ в области $URI[[http://libmeta.ru/me/formula/aux/597_48_INTEGRAL'NOE]]/URI$, ограниченной простым замкнутым контуром $URI[[http://libmeta.ru/me/formula/aux/597_49_INTEGRAL'NOE]]/URI$ (или системой таких контуров), напр., в случае, когда функция $URI[[http://libmeta.ru/me/formula/aux/597_50_INTEGRAL'NOE]]/URI$ непрерывна в замкнутой области $URI[[http://libmeta.ru/me/formula/aux/597_51_INTEGRAL'NOE]]/URI$; в дополнительной области $URI[[http://libmeta.ru/me/formula/aux/597_52_INTEGRAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/597_53_INTEGRAL'NOE]]/URI$, интеграл из правой части (4) тождественно обращается в нуль. Фундаментальная роль представления (4) в теории аналитич. функций обусловливается тем, что интеграл Когіи есть свертка $URI[[http://libmeta.ru/me/formula/aux/597_54_INTEGRAL'NOE]]/URI$ с фундаментальным решением 1/2лiz оператора Коши - Римана
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_9_INTEGRAL'NOE]]/URI
+\]
+
+поэтому из представления (4) получаются все основные свойства аналитич. функций. $URI[[http://libmeta.ru/me/formula/aux/597_55_INTEGRAL'NOE]]/URI$ точки зрения общих свойств И. П. а. ф. интеграл Коши выделяется особенно простой структурой ядра и тем, что плотность $URI[[http://libmeta.ru/me/formula/aux/597_56_INTEGRAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/597_57_INTEGRAL'NOE]]/URI$ совпадает со значениями представляемой функции на контуре $URI[[http://libmeta.ru/me/formula/aux/597_58_INTEGRAL'NOE]]/URI$. Это последнее свойство остается в силе, если под интегралом (4) заменить ядро Коши $URI[[http://libmeta.ru/me/formula/aux/597_59_INTEGRAL'NOE]]/URI$ на любую однозначную аналитическую по $URI[[http://libmeta.ru/me/formula/aux/597_60_INTEGRAL'NOE]]/URI$ в замкнутой области $URI[[http://libmeta.ru/me/formula/aux/597_61_INTEGRAL'NOE]]/URI$ функцию $URI[[http://libmeta.ru/me/formula/aux/597_62_INTEGRAL'NOE]]/URI$, имеющую в точке $URI[[http://libmeta.ru/me/formula/aux/597_63_INTEGRAL'NOE]]/URI$ простой полюс с вычетом 1. Среди таких функций $URI[[http://libmeta.ru/me/formula/aux/597_64_INTEGRAL'NOE]]/URI$ ядро Коши наиболее простое, но указанная свобода выбора ядра в интеграле Коши часто используется при решении граничных задач.
+
+Совпадение плотности $URI[[http://libmeta.ru/me/formula/aux/597_65_INTEGRAL'NOE]]/URI$ с граничными значениями $URI[[http://libmeta.ru/me/formula/aux/597_66_INTEGRAL'NOE]]/URI$ аналитич. функции $URI[[http://libmeta.ru/me/formula/aux/597_67_INTEGRAL'NOE]]/URI$ в сущности есть лишь форма выражения свойства аналитичности. При использовании интегрального представления (4) с априори произвольно заданной плотностью $URI[[http://libmeta.ru/me/formula/aux/597_68_INTEGRAL'NOE]]/URI$ получается пнтеграл типа Коши, в к-ром связь плотности с граничными значениями выражается гораздо сложнее через сингулярный интеграл по контуру $URI[[http://libmeta.ru/me/formula/aux/597_69_INTEGRAL'NOE]]/URI$.
+
+В граничных задачах теории аналитич. функций для решения сингулярных интегральных уравнений роль интегралов типа Коши и их модификаций исключительно важна (см. [5], [6]).
+
+При исследовании внутренних и граничных свойств аналитич. функций различных классов применяются более общие И. п. а. ф., чем (1), в виде зависящих от параметра интегралов
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_10_INTEGRAL'NOE]]/URI
+\]
+
+по борелевской г $URI[[http://libmeta.ru/me/formula/aux/597_70_INTEGRAL'NOE]]/URI$ а н и ч н о й м е р е $URI[[http://libmeta.ru/me/formula/aux/597_71_INTEGRAL'NOE]]/URI$, вообще говоря комплексной, сосредоточенной на ограничивающем область $URI[[http://libmeta.ru/me/formula/aux/597_72_INTEGRAL'NOE]]/URI$ контуре $URI[[http://libmeta.ru/me/formula/aux/597_73_INTEGRAL'NOE]]/URI$ и выражающейся при помощи той или иной процедуры через представляемую функцию $URI[[http://libmeta.ru/me/formula/aux/597_74_INTEGRAL'NOE]]/URI$.
+
+Напр., все функции $URI[[http://libmeta.ru/me/formula/aux/597_75_INTEGRAL'NOE]]/URI$, регулярные в единичном круге $URI[[http://libmeta.ru/me/formula/aux/597_76_INTEGRAL'NOE]]/URI$ и имеющие положительную действительную часть, $URI[[http://libmeta.ru/me/formula/aux/597_77_INTEGRAL'NOE]]/URI$, характеризуются представимостью по фо р муле Гергло тц а :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_11_INTEGRAL'NOE]]/URI
+\]
+
+идея к-рой по существу восходит к Шiварца интегралу. Здесь $URI[[http://libmeta.ru/me/formula/aux/597_78_INTEGRAL'NOE]]/URI$ - произвольная положительная мера, сосредоточенная на окружности $URI[[http://libmeta.ru/me/formula/aux/597_79_INTEGRAL'NOE]]/URI$. В теории однолистных функций находят существенные применения и другие весьма разнообразные И. П. а. Ф. вида (5), известные также под названиями параметрических представлений, или с т р ук т у р ных фо р м у л. Так, для класса т и п и ч о в е е е с т в е н ных ф. у н к ци й $URI[[http://libmeta.ru/me/formula/aux/597_80_INTEGRAL'NOE]]/URI$ в круге $URI[[http://libmeta.ru/me/formula/aux/597_81_INTEGRAL'NOE]]/URI$ (т. е. таких, что $URI[[http://libmeta.ru/me/formula/aux/597_82_INTEGRAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/597_83_INTEGRAL'NOE]]/URI$ и Im $URI[[http://libmeta.ru/me/formula/aux/597_84_INTEGRAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/597_85_INTEGRAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/597_86_INTEGRAL'NOE]]/URI$ характерно представление
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_12_INTEGRAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/597_87_INTEGRAL'NOE]]/URI$ - произвольная положительная мера, сосредоточенная на окружности $URI[[http://libmeta.ru/me/formula/aux/597_88_INTEGRAL'NOE]]/URI$ и нормированная условием $URI[[http://libmeta.ru/me/formula/aux/597_89_INTEGRAL'NOE]]/URI$. Часто применяются такжө модификации представления (5) в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_13_INTEGRAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/597_90_INTEGRAL'NOE]]/URI$ некоторая особо подбираемая, по возможности простая, функция, напр. $URI[[http://libmeta.ru/me/formula/aux/597_91_INTEGRAL'NOE]]/URI$.
+
+Исходя из понимания меры $URI[[http://libmeta.ru/me/formula/aux/597_92_INTEGRAL'NOE]]/URI$ как функционала, И. П. а. Ф. (5) можно истолковать как значениө $URI[[http://libmeta.ru/me/formula/aux/597_93_INTEGRAL'NOE]]/URI$ функционала $URI[[http://libmeta.ru/me/formula/aux/597_94_INTEGRAL'NOE]]/URI$ на ядре $URI[[http://libmeta.ru/me/formula/aux/597_95_INTEGRAL'NOE]]/URI$. Следовательно, развитием метода И. П. а. Ф. является аналитич. представление обобщенных функций $URI[[http://libmeta.ru/me/formula/aux/597_96_INTEGRAL'NOE]]/URI$ в видө значения $URI[[http://libmeta.ru/me/formula/aux/597_97_INTEGRAL'NOE]]/URI$ на ядре $URI[[http://libmeta.ru/me/formula/aux/597_98_INTEGRAL'NOE]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_14_INTEGRAL'NOE]]/URI
+\]
+
+При этом в дополнении носителя обобщенной функции $URI[[http://libmeta.ru/me/formula/aux/597_99_INTEGRAL'NOE]]/URI$ функция $URI[[http://libmeta.ru/me/formula/aux/597_100_INTEGRAL'NOE]]/URI$ является аналитической [ядро $URI[[http://libmeta.ru/me/formula/aux/597_101_INTEGRAL'NOE]]/URI$ предполагается аналитическим по $URI[[http://libmeta.ru/me/formula/aux/597_102_INTEGRAL'NOE]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/597_103_INTEGRAL'NOE]]/URI$. Представления вида (6) находят важные применения в математич. физике (см. [10], [11]).
+
+В теории аналитич. функций $URI[[http://libmeta.ru/me/formula/aux/597_104_INTEGRAL'NOE]]/URI$ нескольких комплексных переменных $URI[[http://libmeta.ru/me/formula/aux/597_105_INTEGRAL'NOE]]/URI$, И. П. а. Ф. простейшего вида выражаются общей формулой:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_15_INTEGRAL'NOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/597_106_INTEGRAL'NOE]]/URI$ - плотность, так или иначе связанная с $URI[[http://libmeta.ru/me/formula/aux/597_107_INTEGRAL'NOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/597_108_INTEGRAL'NOE]]/URI$ - диффференциальная форма по переменным $URI[[http://libmeta.ru/me/formula/aux/597_109_INTEGRAL'NOE]]/URI$ коәффициенты к-рой зависят от параметров $URI[[http://libmeta.ru/me/formula/aux/597_110_INTEGRAL'NOE]]/URI$, причем интегрирование производится по всей границе $URI[[http://libmeta.ru/me/formula/aux/597_111_INTEGRAL'NOE]]/URI$ области определения $URI[[http://libmeta.ru/me/formula/aux/597_112_INTEGRAL'NOE]]/URI$ функции $URI[[http://libmeta.ru/me/formula/aux/597_113_INTEGRAL'NOE]]/URI$ или по нек-рой еѐ части. Употребляются и представления в виде линейной комбинации интегралов типа (7). Напр., функция $URI[[http://libmeta.ru/me/formula/aux/597_114_INTEGRAL'NOE]]/URI$, голоморфная в поликруговой области $URI[[http://libmeta.ru/me/formula/aux/597_115_INTEGRAL'NOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/597_116_INTEGRAL'NOE]]/URI$ и непрерывная в замыкании $URI[[http://libmeta.ru/me/formula/aux/597_117_INTEGRAL'NOE]]/URI$, всюду в $URI[[http://libmeta.ru/me/formula/aux/597_118_INTEGRAL'NOE]]/URI$ представима в виде интеграла Коши:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_16_INTEGRAL'NOE]]/URI
+\]
+
+где диффференциальная форма $URI[[http://libmeta.ru/me/formula/aux/597_119_INTEGRAL'NOE]]/URI$ имеет особенно простой вид
+
+$URI[[http://libmeta.ru/me/formula/aux/597_120_INTEGRAL'NOE]]/URI$,
+
+а интегрирование производится по остову $URI[[http://libmeta.ru/me/formula/aux/597_121_INTEGRAL'NOE]]/URI$ ... URI[[http://libmeta.ru/me/relation/597_42_INTEGRAL'NOE]]/URI, Лере бормула, Бохнера-Мартинелли URI[[http://libmeta.ru/me/relation/597_41_INTEGRAL'NOE]]/URI, а также [8], [9]).
+
+Как и в случае одного URI[[http://libmeta.ru/me/relation/597_40_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_39_INTEGRAL'NOE]]/URI, дальнейшим URI[[http://libmeta.ru/me/relation/597_38_INTEGRAL'NOE]]/URI И. П. а. ф. (7) являются URI[[http://libmeta.ru/me/relation/597_37_INTEGRAL'NOE]]/URI вида:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_17_INTEGRAL'NOE]]/URI
+\]
+
+или
+
+\[
+URI[[http://libmeta.ru/me/formula/main/597_18_INTEGRAL'NOE]]/URI
+\]
+
+выражающие аналитич. URI[[http://libmeta.ru/me/relation/597_36_INTEGRAL'NOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/597_122_INTEGRAL'NOE]]/URI$ в нек-рой области в виде значения URI[[http://libmeta.ru/me/relation/597_35_INTEGRAL'NOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/597_123_INTEGRAL'NOE]]/URI$ на ядре $URI[[http://libmeta.ru/me/formula/aux/597_124_INTEGRAL'NOE]]/URI$ или на URI[[http://libmeta.ru/me/relation/597_34_INTEGRAL'NOE]]/URI $URI[[http://libmeta.ru/me/formula/aux/597_125_INTEGRAL'NOE]]/URI$. При этом $URI[[http://libmeta.ru/me/formula/aux/597_126_INTEGRAL'NOE]]/URI$ URI[[http://libmeta.ru/me/relation/597_33_INTEGRAL'NOE]]/URI, соответственно, как обобщенная URI[[http://libmeta.ru/me/relation/597_32_INTEGRAL'NOE]]/URI на определенном URI[[http://libmeta.ru/me/relation/597_31_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_30_INTEGRAL'NOE]]/URI или как URI[[http://libmeta.ru/me/relation/597_29_INTEGRAL'NOE]]/URI на определенном URI[[http://libmeta.ru/me/relation/597_28_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_27_INTEGRAL'NOE]]/URI форм.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_eae8f0c5af09e2f73315g-1.jpg?height=50&amp;width=831&amp;top_left_y=2188&amp;top_left_x=994)
+т. 3, ч. 2, 6 изд., М., 1956; [2] К р а тц е р А., Фр а н ц В., Транс-
+уендентные URI[[http://libmeta.ru/me/relation/597_26_INTEGRAL'NOE]]/URI, пер. с нем., М., 1963; [3] I р и в а л о в и. И., URI[[http://libmeta.ru/me/relation/597_25_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_24_INTEGRAL'NOE]]/URI, 2 изд.,
+М.- J., 1950; [4] URI[[http://libmeta.ru/me/relation/597_23_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_22_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_21_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_20_INTEGRAL'NOE]]/URI, 2 изд., М., 1966; [5] М у с х е л и ш в л и Н. И., Сингулярные URI[[http://libmeta.ru/me/relation/597_19_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_18_INTEGRAL'NOE]]/URI, 3 изд., М., $URI[[http://libmeta.ru/me/formula/aux/597_127_INTEGRAL'NOE]]/URI$ [6] Г а х о в Ф. Д., URI[[http://libmeta.ru/me/relation/597_17_INTEGRAL'NOE]]/URI, 3 изд., М., 1976; [7] Д ж р б а ш я н М. М., URI[[http://libmeta.ru/me/relation/597_16_INTEGRAL'NOE]]/URI преобразования и URI[[http://libmeta.ru/me/relation/597_15_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_14_INTEGRAL'NOE]]/URI в URI[[http://libmeta.ru/me/relation/597_13_INTEGRAL'NOE]]/URI области, м., 1966; [8] В л а д и м и р о в В. С., URI[[http://libmeta.ru/me/relation/597_12_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_11_INTEGRAL'NOE]]/URI
+URI[[http://libmeta.ru/me/relation/597_10_INTEGRAL'NOE]]/URI многих URI[[http://libmeta.ru/me/relation/597_9_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_8_INTEGRAL'NOE]]/URI, М., 1964; [9] Iii aфункций многих URI[[http://libmeta.ru/me/relation/597_7_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_6_INTEGRAL'NOE]]/URI, м., 1964; [9] 11 а-
+бат Б. В., Введение в URI[[http://libmeta.ru/me/relation/597_5_INTEGRAL'NOE]]/URI анализ, 2 изд., М., 1976; [10] Б р е м е р м а н Г., URI[[http://libmeta.ru/me/relation/597_4_INTEGRAL'NOE]]/URI, URI[[http://libmeta.ru/me/relation/597_3_INTEGRAL'NOE]]/URI URI[[http://libmeta.ru/me/relation/597_2_INTEGRAL'NOE]]/URI и преобразования Фурье, пер. с англ., М., 1968; [11] В л а д и м и р о в В. С., Обобщенные URI[[http://libmeta.ru/me/relation/597_1_INTEGRAL'NOE]]/URI в</text>
+  <text_orig>представление аналитич. функции в виде интеграла, зависящего от параметра. И. п. а. ф. возникли на ранних стадиях развития теории функций и математич. анализа вообще как удобный аппарат для обозримого представления аналитич. решениї дифференциальных уравнений, для исследования асимптотіки этих решений и пх аналитич. продолжения. Несколько позже И. п. а. ф. наплI применения для решения граничных задач теории аналитических функций II сингулярных интегральных уравнений, исследованія внутренних и граничных свойст ческих функций различных классов, а также для решения других, самых разнообразных вопросов математич. анализа. В процессе развития теории функций изучение свойств отдельных, напболее важных, типов И. п. а. ф. обособлялось в виде самостоятельных глав теории функцшй (см., напр., Коии интеарал, Пуассона интеграл, IIIварча интеграл).
+
+Обширный класс И. П. а. ф., используемых для получения и исследования аналитич. решений дифференциальных уравнений, описывается общей формулой:
+
+\[
+f(z)=\int_{L} K(z, \xi) v(\zeta) d \xi
+\]
+
+где $K(z, \zeta)$ - ядро интегрального представления, $v(\zeta)$ - плотность и $L$ - контур (или система контуров) в совмещенной плоскости комплексных переменных $z$, ک. Целесообразное и, по возможности, наиболее простое решение трех взашмосвязанных вопросов о выборе ядра $K$, плотности $v$ и контура $L$ для представления данной функции $f(z)$ (или данного класса функций) является определяющим с точки зрения успешного применения м е т о д а И. П. а. ф. При этом свойства представления (1), в первую очередь, существенно зависят от того, является ли ядро $K(z, \zeta)$ целой функцией комплексных переменных $z$, $\zeta$, или же ядро $K(z, \zeta)$ сингулярное, т. е. имеет те или иные особенности. Вообще говоря, ядро И. П. а. ф. не обязательно является аналитич. функцией переменных $z, \zeta-$ аналитичность функции $f(z)$ может обеспечиваться за счет специфич. свойств плотности. Формула (1) как формула простого однократного интегрирования также, вообще говоря, не обязательна - имеются типы И. П. а. Ф., в к-рых используются повторные інтегралы.
+
+Общая схема получения интегральных представлений специальных функций $f(z)$, являющихся решениями нек-рого обыкновенного дифференциального уравнения $\mathfrak{R}_{z}[f](z)=0$, сводится в основном к следующему. За счет целесообразного выбора, чаще всего несингулярного, ядра $K$ должна оказаться осуществимой следующая переброска действия оператора $\mathfrak{R}_{z}$ :
+
+\[
+\begin{gathered}
+\mathfrak{R}_{z}[f](z)=\int_{L} \mathfrak{l}_{z}[K](z, \zeta) v(\zeta) d \zeta= \\
+=\int_{L} \mathfrak{M}_{\zeta}[K](z, \zeta) v(\zeta) d \zeta= \\
+=\int_{L} K(z, \zeta) \tilde{\mathfrak{R}}_{\zeta}[v](\zeta) d \zeta+P[v, K],
+\end{gathered}
+\]
+
+т. е. ядро должно, в первую очередь, удовлетворять по возможности простому уравнению с частными производными $\quad \mathfrak{R}_{z}[K]=\mathfrak{M}_{\varepsilon}[K]$, допускающему последующее интегрирование по частям с целью восстановления первоначального вида ядра под интегралом и переброску действия получающегося при этом сопряженного оператора $\tilde{\mathscr{R}}_{\zeta}$ на плотность $v$. Получив формулу вида (2), подбирают достаточно простую плотность $v$, удовлетворяющую сопряженному уравнению $\tilde{\mathscr{R}}_{\zeta}[v](\zeta)=0$, и контур $L$, обеспечивающий обращение в нуль обинтегрированного члена $P[v, K]$. При этом необходимо иметь в виду, что выбор контура $L$ определяет частное решение исходного уравнения $\mathfrak{R}_{z}[f](z)=0$. Наибольшее применение находят ядра:
+
+\[
+\begin{gathered}
+K(z, \zeta)=e^{z \zeta} \text { или } \quad K(z, \zeta)=e^{i z \zeta} \\
+K(z, \zeta)=z^{\zeta} \text { и } K(z, \zeta)=(z-\zeta)^{\alpha}
+\end{gathered}
+\]
+
+иногда называемые соответственно я д р о м Л а Пласа-Фурье, я д р ом Мел лина и яд ром Ә й л е р а. Различные замены переменных приводят к видоизмененным формам ядер. В описанном виде получение И. п. а. Ф. самым тесным образом связано с методом интегральных преобразований.
+
+Таким путем, напр., получается известное интегральное представление функций Бесселя:
+
+\[
+J_{p}(z)=\frac{\Gamma(1 / 2-p)}{2 i \pi^{3 / 2}}\left(\frac{z}{2}\right)^{p} \int_{L} e^{i z \zeta}\left(\zeta^{2}-1\right)^{p-1 / 2} d \zeta,
+\]
+
+где контур $L$ имеет вид восьмерки, охватывающей точки -1 и +1. Представление (3) характерно, с одной стороны, тем, что его плотность $v(\zeta)=\left(\zeta^{2}-1\right)^{p-1 / 2}$ гораздо проще, чем представляемые трансцендентные функции $J_{p}(z)$, а с другой стороны - тем, что оно позволяет довольно просто обозреть свойства ф্ункций $J_{p}(z)$ и, в частности, изучить их асимптотику.
+
+Целесообразное изменение контура $L$ позволяет осуществить аналитич. продолженіе, т. е., иными словами, позволяет получить И. п. а. ф., пригодное во всей ее области сушествования. Напр., и н т е г p а л
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cc9ad42adc3a026336c6g-1.jpg?height=37&amp;width=521&amp;top_left_y=1167&amp;top_left_x=990)
+
+\[
+\Gamma(z)=\int_{0}^{\infty} t^{z-1} e^{-t} d t, \quad \operatorname{Re} z&gt;0,
+\]
+
+представляет гамма-функцию $\Gamma(z)$ при $R e z&gt;0$, а если выбрать контур интегрирования $L_{1}$ в виде петли (рис. 1), то получается интегральное представление
+
+\[
+\Gamma(z)=\frac{1}{e^{2 i \pi z}-1} \int_{L_{1}} \zeta^{z-1} e^{-\zeta} d \zeta,
+\]
+
+пригодное для всех $z$, кроме точек $z=-1,-2, \ldots$ в к-рых $\Gamma(z)$ имеет простые полюсы. Аналогично, анали-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cc9ad42adc3a026336c6g-1.jpg?height=168&amp;width=402&amp;top_left_y=1531&amp;top_left_x=990)
+
+Рис. 1.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_cc9ad42adc3a026336c6g-1.jpg?height=179&amp;width=418&amp;top_left_y=1528&amp;top_left_x=1406)
+
+Рис. 2. тич. продолжение и н т е г р а л а Э й л е р а п е рв $о$ г $0 \quad$ р о д $\mathbf{a}:$
+
+$\mathrm{B}(z, w)=\int_{0}^{1} t^{z-1}(1-t)^{w-1} d t, \quad \operatorname{Re} z&gt;0, \quad \operatorname{Re} w&gt;0$, выражающего бета-фуункцию $\mathrm{B}(z, w)$ при $\operatorname{Re} z&gt;0$, $\operatorname{Re} w&gt;0$, осуществляется путем перехода к контуру интегрирования в виде двойной петли $L_{2}$ (рис. 2).
+
+Изучались интегральные представления специальных функций (см. [1], [2]); интегральные представления весьма обширных классов функций в связи с интегральными преобразованиями [7].
+
+Универсальный характер в теории аналитич. функций имеют сингулярное я д р о К о и
+
+\[
+K(z, \zeta)=\frac{1}{2 \pi i} \frac{1}{(\zeta-z)}
+\]
+
+И соответствующее И. П. а. Ф.- Коши интеграл:
+
+\[
+f(z)=\frac{1}{2 \pi i} \int_{L} \frac{f(\zeta) d \zeta}{\zeta-z} .
+\] Это И. П. а. Ф. выражает значения однозначной аналитич. функции $f(z)$ в области $D$, ограниченной простым замкнутым контуром $L$ (или системой таких контуров), напр., в случае, когда функция $f(z)$ непрерывна в замкнутой области $\bar{D}=D \cup L$; в дополнительной области $C \bar{D}$, $\infty \in C \bar{D}$, интеграл из правой части (4) тождественно обращается в нуль. Фундаментальная роль представления (4) в теории аналитич. функций обусловливается тем, что интеграл Когіи есть свертка $f(z)$ с фундаментальным решением 1/2лiz оператора Коши - Римана
+
+\[
+\frac{\partial}{\partial \bar{z}}=\frac{1}{2}\left(\frac{\partial}{\partial x}+i \frac{\partial}{\partial y}\right)
+\]
+
+поэтому из представления (4) получаются все основные свойства аналитич. функций. $\mathrm{C}$ точки зрения общих свойств И. П. а. ф. интеграл Коши выделяется особенно простой структурой ядра и тем, что плотность $v(\zeta)=$ $=f(\zeta)$ совпадает со значениями представляемой функции на контуре $L$. Это последнее свойство остается в силе, если под интегралом (4) заменить ядро Коши $1 / 2 \pi i(\zeta-z)$ на любую однозначную аналитическую по $z$ в замкнутой области $\bar{D}$ функцию $K(z, \zeta)$, имеющую в точке $z=\zeta$ простой полюс с вычетом 1. Среди таких функций $K(z, \zeta)$ ядро Коши наиболее простое, но указанная свобода выбора ядра в интеграле Коши часто используется при решении граничных задач.
+
+Совпадение плотности $v(\zeta)$ с граничными значениями $f(\zeta)$ аналитич. функции $f(z)$ в сущности есть лишь форма выражения свойства аналитичности. При использовании интегрального представления (4) с априори произвольно заданной плотностью $v(\zeta)$ получается пнтеграл типа Коши, в к-ром связь плотности с граничными значениями выражается гораздо сложнее через сингулярный интеграл по контуру $L$.
+
+В граничных задачах теории аналитич. функций для решения сингулярных интегральных уравнений роль интегралов типа Коши и их модификаций исключительно важна (см. [5], [6]).
+
+При исследовании внутренних и граничных свойств аналитич. функций различных классов применяются более общие И. п. а. ф., чем (1), в виде зависящих от параметра интегралов
+
+\[
+f(z)=\int_{L} K(z, \zeta) d \mu(\zeta)
+\]
+
+по борелевской г $\mathrm{p}$ а н и ч н о й м е р е $\mu$, вообще говоря комплексной, сосредоточенной на ограничивающем область $D$ контуре $L$ и выражающейся при помощи той или иной процедуры через представляемую функцию $f(z)$.
+
+Напр., все функции $f(z)$, регулярные в единичном круге $D=\{z ;|z|&lt;1\}$ и имеющие положительную действительную часть, $\operatorname{Re} f(z)&gt;0$, характеризуются представимостью по фо р муле Гергло тц а :
+
+\[
+f(z)=\int \frac{\zeta+z}{\zeta-z} d \mu(\zeta)+i c, \quad \operatorname{Im} c=0,
+\]
+
+идея к-рой по существу восходит к ШIварца интегралу. Здесь $\mu$ - произвольная положительная мера, сосредоточенная на окружности $L=\{\zeta ;|\zeta|=1\}$. В теории однолистных функций находят существенные применения и другие весьма разнообразные И. П. а. Ф. вида (5), известные также под названиями параметрических представлений, или с т р ук т у р ных фо р м у л. Так, для класса т и п и ч о в е е е с т в е н ных ф. у н к ци й $f(z)=z+c_{2} z^{2}+\ldots$ в круге $D=\{z ;|z|&lt;1\}$ (т. е. таких, что $\operatorname{Im} f(x)=0$ при $-1&lt;x&lt;1$ и Im $f(z) \times$ $\times \operatorname{Im} z&gt;0$ при $\operatorname{Im} z \neq 0)$ характерно представление
+
+\[
+f(z)=\int \frac{z d \mu(\zeta)}{(z-\zeta)(z-\bar{\zeta})}
+\]
+
+где $\mu$ - произвольная положительная мера, сосредоточенная на окружности $L=\{\zeta ;|\zeta|=1\}$ и нормированная условием $\|\mu\|=\int d \mu(\zeta)=1$. Часто применяются такжө модификации представления (5) в виде
+
+\[
+f(z)=\varphi\left\{\int K(z, \zeta) d \mu(\zeta)\right\}
+\]
+
+где $\varphi: \mathbb{C} \rightarrow \mathbb{C}-$ некоторая особо подбираемая, по возможности простая, функция, напр. $\varphi(z)=\exp z$.
+
+Исходя из понимания меры $\mu$ как функционала, И. П. а. Ф. (5) можно истолковать как значениө $\langle\mu \xi, K(z, \zeta)\rangle$ функционала $\mu$ на ядре $K(z, \zeta)$. Следовательно, развитием метода И. П. а. Ф. является аналитич. представление обобщенных функций $V$ в видө значения $V$ на ядре $K(z, \zeta)$ :
+
+\[
+\hat{V}(z)=\left\langle V_{\zeta}, K(z, \zeta)\right\rangle
+\]
+
+При этом в дополнении носителя обобщенной функции $V$ функция $\hat{V}(z)$ является аналитической [ядро $K(z, \zeta)$ предполагается аналитическим по $z$ при $z \neq \zeta]$. Представления вида (6) находят важные применения в математич. физике (см. [10], [11]).
+
+В теории аналитич. функций $f(z)$ нескольких комплексных переменных $z=\left(z_{1}, \ldots, z_{n}\right), n \geqslant 1$, И. П. а. Ф. простейшего вида выражаются общей формулой:
+
+\[
+f(z)=\int v(\zeta) \omega(z, \zeta),
+\]
+
+где $v(\zeta)$ - плотность, так или иначе связанная с $f(z)$, $\omega(z, \zeta)$ - диффференциальная форма по переменным $\zeta=\left(\zeta_{1}, \ldots, \zeta_{n}\right), \bar{\zeta}=\left(\bar{\zeta}_{1}, \ldots, \bar{\zeta}_{n}\right), \quad$ коәффициенты к-рой зависят от параметров $z=\left(z_{1}, \ldots, z_{n}\right), \bar{z}=\left(\overline{z_{1}}, \ldots, \overline{z_{n}}\right)$, причем интегрирование производится по всей границе $\partial D$ области определения $D$ функции $f(z)$ или по нек-рой еѐ части. Употребляются и представления в виде линейной комбинации интегралов типа (7). Напр., функция $f(z)$, голоморфная в поликруговой области $D=$ $=D_{1} \times \ldots \times D_{n}$ и непрерывная в замыкании $D$, всюду в $D$ представима в виде интеграла Коши:
+
+\[
+f(z)=\int f(\zeta) \omega(z, \zeta)
+\]
+
+где диффференциальная форма $\omega$ имеет особенно простой вид
+
+$\omega(z, \zeta)=\frac{1}{(2 \pi i)^{n}} \frac{d \zeta_{1} \wedge \ldots \wedge d \zeta_{n}}{\left(\zeta_{1}-z_{1}\right) \ldots\left(\xi_{n}-z_{n}\right)}=K(z, \zeta) d \zeta$,
+
+а интегрирование производится по остову $\Gamma=\partial D_{1} \times \ldots$ ... ние, Лере бормула, Бохнера-Мартинелли представление, а также [8], [9]).
+
+Как и в случае одного комплексного переменного, дальнейшим развитием И. П. а. ф. (7) являются представления вида:
+
+\[
+f(z)=\left\langle V_{\zeta}, K(z, \zeta)\right\rangle
+\]
+
+или
+
+\[
+f(z)=\left\langle V_{\zeta}, \omega(z, \zeta)\right\rangle,
+\]
+
+выражающие аналитич. функцию $f(z)$ в нек-рой области в виде значения функционала $V$ на ядре $K(z, \zeta)$ или на форме-ядре $\omega(z, \zeta)$. При этом $V$ интерпретируется, соответственно, как обобщенная функция на определенном пространстве функций или как поток на определенном пространстве диффференциальных форм.
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_eae8f0c5af09e2f73315g-1.jpg?height=50&amp;width=831&amp;top_left_y=2188&amp;top_left_x=994)
+т. 3, ч. 2, 6 изд., М., 1956; [2] К р а тц е р А., Фр а н ц В., Транс-
+уендентные функции, пер. с нем., М., 1963; [3] I р и в а л о в и. И., Граничные свойства аналитических функций, 2 изд.,
+М.- J., 1950; [4] рия Функций комплексного переменного, 2 изд., М., 1966; [5] М у с х е л и ш в л и Н. И., Сингулярные интегральные уравнения, 3 изд., М., $1968 ;$ [6] Г а х о в Ф. Д., Краевые задачи, 3 изд., М., 1976; [7] Д ж р б а ш я н М. М., Интегральные преобразования и представления функций в комплексной области, м., 1966; [8] В л а д и м и р о в В. С., Методы теории
+функций многих комплексных переменных, М., 1964; [9] III aфункций многих комплексных переменных, м., 1964; [9] 11 а-
+бат Б. В., Введение в комплексный анализ, 2 изд., М., 1976; [10] Б р е м е р м а н Г., Распределения, комплексные переменные и преобразования Фурье, пер. с англ., М., 1968; [11] В л а д и м и р о в В. С., Обобщенные функции в</text_orig>
+</article>

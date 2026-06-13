@@ -1,0 +1,184 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/64_ADAMSA" alphabetic_pos="64">
+  <title>АДАМСА МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>45</start>
+    <end>46</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Бе р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 2 изд., т. 2, М., $1962 ;[2]$ Б а х в а л о в Н. С.,Численные методы, 2 изд., М., $1975 ;[3]$ Т и х о н о в А. Н., Г о р б у н о в А. Д., «ж. вычисл. матем. и матем. физ.», 1962 , т. 2, № 4, с. $537-48 ;$ [4] Л о з и н с к и й С. М., «изв. высш. учебн. заведений. Математика», $1958, \mathcal{N}_{2} 5$, с. $52-90 ;[5]$ Б ел е н ь к и й В. З., в сб.: Вычислительные методы и программирование, М., 1965, с. $253-61$; [6] Б а х в а л о в Н. С., «докл.</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>2 изд., т. 2, М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>$Тихонов А. Н.</author>
+      <author>Горбунов А. Д.</author>
+      <title>«ж. вычисл. матем. и матем. физ.»</title>
+      <publication/>
+      <year>1962</year>
+      <other>т. 2, № 4, с. $537-48 ;$</other>
+    </unit>
+    <unit>
+      <author>Лозинский С. М.</author>
+      <title>«изв. высш. учебн. заведений. Математика»</title>
+      <publication/>
+      <year>1958</year>
+      <other>\mathcal{N}_{2} 5$, с. $52-90</other>
+    </unit>
+    <unit>
+      <author>$Беленький В. З.</author>
+      <title>в сб.: Вычислительные методы и программирование</title>
+      <publication>М.</publication>
+      <year>1965</year>
+      <other>с. $253-61$</other>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title/>
+      <publication/>
+      <year/>
+      <other>«докл.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/64_1_ADAMSA">y^{\prime}=f(x, y), \quad y\left(x_{0}\right)=y_{0} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/64_2_ADAMSA">y_{n+1}=y_{n}+h \sum_{\lambda=0}^{k} u_{-\lambda} f\left(x_{n-\lambda}, y_{n-\lambda}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/64_3_ADAMSA">y_{n+1}=y_{n}+h \sum_{\lambda=-1}^{k-1} v_{-\lambda} f\left(x_{n-\lambda}, y_{n-\lambda}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/64_4_ADAMSA">\chi_{k+1}\left(\int_{x_{0}}^{x_{n}} \Omega(x, t) y^{(k+2)}(t) d t\right) h^{k+1}+O\left(h^{k+2}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/64_5_ADAMSA">\frac{d \Omega(x, t)}{d x}=f_{y}(x, y(x)) \Omega(x, t) \quad \text { при } \quad \Omega(t, t)=E .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/64_6_ADAMSA">y_{n+1}=y_{n}+h \sum_{\lambda=0}^{k} u_{-\lambda}\left(-a y_{n-\lambda}\right) \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/64_7_ADAMSA">\mu^{k+1}=\mu^{k}-a h \sum_{\lambda=0}^{k} u_{-\lambda} \mu^{k-\lambda}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_1_ADAMSA">x_{n}=x_{0}+n h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_2_ADAMSA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_3_ADAMSA">y_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_4_ADAMSA">y_{n+1}^{(i+1)}=y_{n}+h \sum_{\lambda=0}^{k-1} v_{-\lambda} f\left(x_{n-\lambda}, y_{n-\lambda}\right)+h v_{1} f\left(x_{n+1}, y_{n+1}^{(i)}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_5_ADAMSA">h\left|v_{1}\right|\|(\partial f / \partial y)\|&lt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_6_ADAMSA">y_{1}, \ldots, y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_7_ADAMSA">\omega(x, t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_8_ADAMSA">o\left(h^{k+2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_9_ADAMSA">h</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_10_ADAMSA">y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_11_ADAMSA">y^{\prime}=-a y, a&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_12_ADAMSA">y_{n}=c \mu^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_13_ADAMSA">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_14_ADAMSA">a h \sum_{\lambda=0}^{k}\left|u_{-\lambda}\right|&gt;2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/64_15_ADAMSA">|\mu|&gt;1</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>конечно разностный метод решения задачи Коши для систем дифференциальных уравнений 1-го порядка
+
+\[
+URI[[http://libmeta.ru/me/formula/main/64_1_ADAMSA]]/URI
+\]
+
+При интегрировании по сетке с постоянным шагом $URI[[http://libmeta.ru/me/formula/aux/64_1_ADAMSA]]/URI$ расчетные формулы імеют вид: а) экстраполяционные
+
+\[
+URI[[http://libmeta.ru/me/formula/main/64_2_ADAMSA]]/URI
+\]
+
+б) интерполяционные
+
+\[
+URI[[http://libmeta.ru/me/formula/main/64_3_ADAMSA]]/URI
+\]
+
+При одном и том же $URI[[http://libmeta.ru/me/formula/aux/64_2_ADAMSA]]/URI$ формула б) точнее, но требует решения нелинейной системы уравнений для нахождения значения $URI[[http://libmeta.ru/me/formula/aux/64_3_ADAMSA]]/URI$.
+
+На практике находят приближение из а), а затем приводят одно-два уточнения по формуле
+
+$URI[[http://libmeta.ru/me/formula/aux/64_4_ADAMSA]]/URI$ уточнения сходятся при условии $URI[[http://libmeta.ru/me/formula/aux/64_5_ADAMSA]]/URI$. Начальные условия $URI[[http://libmeta.ru/me/formula/aux/64_6_ADAMSA]]/URI$ для А. м., необходимые для начала вычислений по формулам а), определяются каким-либо специальным образом. Погрешность решения записывается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/64_4_ADAMSA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/64_7_ADAMSA]]/URI$ - решение системы
+
+\[
+URI[[http://libmeta.ru/me/formula/main/64_5_ADAMSA]]/URI
+\]
+
+Структура члена $URI[[http://libmeta.ru/me/formula/aux/64_8_ADAMSA]]/URI$ такова, что обычно при малых $URI[[http://libmeta.ru/me/formula/aux/64_9_ADAMSA]]/URI$ он равномерно мал по сравнению с главным членом на больших промежутках интегрирования. Это обстоятельство обеспечивает возможность применения А. м. на больших промежутках интегрирования в случае абсолютно устойчивого решения дифференциальной задачи; в частности, в отличие от Милна метода, его можно применять для отыскания устойчивых периодич. решений дифференциальных уравнений. Стандартная программа А. м. интегрирования с автоматич. выбором шага существенно сложнее стандартной программы Рун- ге - Кутта метода, вследствие более сложного алгоритма при изменении шага и нестандартного выбора начальных значений $URI[[http://libmeta.ru/me/formula/aux/64_10_ADAMSA]]/URI$.
+
+Для случая уравнений $URI[[http://libmeta.ru/me/formula/aux/64_11_ADAMSA]]/URI$, расчетная формула а) имеет від:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/64_6_ADAMSA]]/URI
+\]
+
+Әто уравнение имеет частные решения $URI[[http://libmeta.ru/me/formula/aux/64_12_ADAMSA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/64_13_ADAMSA]]/URI$ - корень уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/64_7_ADAMSA]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/64_14_ADAMSA]]/URI$, то среди корней этого уравненія есть корень $URI[[http://libmeta.ru/me/formula/aux/64_15_ADAMSA]]/URI$, и ошибки округления сильно возрастают. При интегрировании с автоматич. выбором шага в ряде случаев это обстоятельство вызывает неоправданное измельчение шага. Однако в большинстве случаев А. м. оказывается несколько более экономичным по сравнению с методом Рунге - Кутта. А. м. предложен впервые Дж. К. Адамсом (j . С. Adams, 1855).</text>
+  <text_orig>конечно разностный метод решения задачи Коши для систем дифференциальных уравнений 1-го порядка
+
+\[
+y^{\prime}=f(x, y), \quad y\left(x_{0}\right)=y_{0} .
+\]
+
+При интегрировании по сетке с постоянным шагом $x_{n}=x_{0}+n h$ расчетные формулы імеют вид: а) экстраполяционные
+
+\[
+y_{n+1}=y_{n}+h \sum_{\lambda=0}^{k} u_{-\lambda} f\left(x_{n-\lambda}, y_{n-\lambda}\right),
+\]
+
+б) интерполяционные
+
+\[
+y_{n+1}=y_{n}+h \sum_{\lambda=-1}^{k-1} v_{-\lambda} f\left(x_{n-\lambda}, y_{n-\lambda}\right)
+\]
+
+При одном и том же $k$ формула б) точнее, но требует решения нелинейной системы уравнений для нахождения значения $y_{n+1}$.
+
+На практике находят приближение из а), а затем приводят одно-два уточнения по формуле
+
+$y_{n+1}^{(i+1)}=y_{n}+h \sum_{\lambda=0}^{k-1} v_{-\lambda} f\left(x_{n-\lambda}, y_{n-\lambda}\right)+h v_{1} f\left(x_{n+1}, y_{n+1}^{(i)}\right)$ уточнения сходятся при условии $h\left|v_{1}\right|\|(\partial f / \partial y)\|&lt;1$. Начальные условия $y_{1}, \ldots, y_{k}$ для А. м., необходимые для начала вычислений по формулам а), определяются каким-либо специальным образом. Погрешность решения записывается в виде
+
+\[
+\chi_{k+1}\left(\int_{x_{0}}^{x_{n}} \Omega(x, t) y^{(k+2)}(t) d t\right) h^{k+1}+O\left(h^{k+2}\right),
+\]
+
+где $\Omega(x, t)$ - решение системы
+
+\[
+\frac{d \Omega(x, t)}{d x}=f_{y}(x, y(x)) \Omega(x, t) \quad \text { при } \quad \Omega(t, t)=E .
+\]
+
+Структура члена $O\left(h^{k+2}\right)$ такова, что обычно при малых $h$ он равномерно мал по сравнению с главным членом на больших промежутках интегрирования. Это обстоятельство обеспечивает возможность применения А. м. на больших промежутках интегрирования в случае абсолютно устойчивого решения дифференциальной задачи; в частности, в отличие от Милна метода, его можно применять для отыскания устойчивых периодич. решений дифференциальных уравнений. Стандартная программа А. м. интегрирования с автоматич. выбором шага существенно сложнее стандартной программы Рун- ге - Кутта метода, вследствие более сложного алгоритма при изменении шага и нестандартного выбора начальных значений $y_{k}$.
+
+Для случая уравнений $y^{\prime}=-a y, a&gt;0$, расчетная формула а) имеет від:
+
+\[
+y_{n+1}=y_{n}+h \sum_{\lambda=0}^{k} u_{-\lambda}\left(-a y_{n-\lambda}\right) \text {. }
+\]
+
+Әто уравнение имеет частные решения $y_{n}=C \mu^{n}$, где $\mu$ - корень уравнения
+
+\[
+\mu^{k+1}=\mu^{k}-a h \sum_{\lambda=0}^{k} u_{-\lambda} \mu^{k-\lambda}
+\]
+
+Если $a h \sum_{\lambda=0}^{k}\left|u_{-\lambda}\right|&gt;2$, то среди корней этого уравненія есть корень $|\mu|&gt;1$, и ошибки округления сильно возрастают. При интегрировании с автоматич. выбором шага в ряде случаев это обстоятельство вызывает неоправданное измельчение шага. Однако в большинстве случаев А. м. оказывается несколько более экономичным по сравнению с методом Рунге - Кутта. А. м. предложен впервые Дж. К. Адамсом (J . С. Adams, 1855).
+
+Лит.: [1] Бе р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 2 изд., т. 2, М., $1962 ;[2]$ Б а х в а л о в Н. С.,
+Численные методы, 2 изд., М., $1975 ;[3]$ Т и х о н о в А. Н., Г о р б у н о в А. Д., «Ж. вычисл. матем. и матем. физ.», 1962 , т. 2, № 4, с. $537-48 ;$ [4] Л о з и н с к и й С. М., «Изв. высш. учебн. заведений. Математика», $1958, \mathcal{N}_{2} 5$, с. $52-90 ;[5]$ Б ел е н ь к и й В. З., в сб.: Вычислительные методы и программирование, М., 1965, с. $253-61$; [6] Б а х в а л о в Н. С., «Докл.</text_orig>
+</article>

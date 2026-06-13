@@ -1,0 +1,287 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/317_PLOTNOST'" alphabetic_pos="317">
+  <title>ПЛОТНОСТЬ ВЕРОЯТНОСТИ</title>
+  <authors>
+    <author>Н. Г. Ушаков</author>
+  </authors>
+  <pages>
+    <start>163</start>
+    <end>163</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] П р о х о р о в Ю. В., Р о з а н о в Ю. А., Теорияроятностей, 2 изд., М., 1973; [2] Ф е л л е р В., Введение в теовероятностей, 2 изд., М., 1973; [2] $\phi$ е л л е р В., Введение в тео-рию вероятностей и ее приложения, пер. с англ., 2 изд., т. 2, M., 1967; [3] Л е м а н Э. Проверка статистических гипоте,пер. с англ., 2 изд., М., 1979.</literature_orig>
+    <unit>
+      <author>Прохоров Ю. В.</author>
+      <author>Розанов Ю. А.</author>
+      <title>Теорияроятностей</title>
+      <publication>2 изд., М.</publication>
+      <year>1973</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Феллер В.</author>
+      <title>Введение в теовероятностей</title>
+      <publication>2 изд., М.</publication>
+      <year>1973</year>
+      <other>Введение в тео-рию вероятностей и ее приложения, пер. с англ., 2 изд., т. 2, M., 1967</other>
+    </unit>
+    <unit>
+      <title>Л е м а н Э. Проверка статистических гипоте</title>
+      <publication>пер. с англ., 2 изд., М.</publication>
+      <year>1979</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/317_1_PLOTNOST'">F\left(x_{1}, \ldots, x_{n}\right)=\int_{-\infty}^{x_{1}} \ldots \int_{-\infty}^{x_{n}} f\left(u_{1}, \ldots, u_{n}\right) d u_{1} \ldots d u_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/317_2_PLOTNOST'">\mathbf{P}\{\boldsymbol{X} \in \boldsymbol{A}\}=\int_{\boldsymbol{A}} \cdots \int f\left(u_{1}, \ldots, u_{n}\right) d u_{1} \ldots d u_{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/317_3_PLOTNOST'">\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f\left(x_{1}, \ldots, x_{n}\right) d x_{1} \ldots d x_{n}=1 \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/317_4_PLOTNOST'">\begin{gathered}h\left(x_{1}, \ldots, x_{n}\right)=\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f\left(x_{1}-u_{1}, \ldots, x_{n}-u_{n}\right) \times \\\times g\left(u_{1}, \ldots, u_{n}\right) d u_{1} \ldots d u_{n}= \\=\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f\left(u_{1}, \ldots, u_{n}\right) g\left(x_{1}-u_{1}, \ldots, x_{n}-u_{n}\right) \times \\\times d u_{1} \ldots d u_{n} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/317_5_PLOTNOST'">\begin{gathered}\varphi\left(t_{1}, \ldots, t_{n}\right)=\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} e^{i\left(t_{1} x_{1}+\ldots+t_{n} x_{n}\right)} \times \\\times f\left(x_{1}, \ldots, x_{n}\right) d x_{1} \ldots d x_{n},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/317_6_PLOTNOST'">\begin{aligned}f\left(x_{1}, \ldots, x_{n}\right)= &amp; \frac{1}{(2 \pi)^{n}} \int_{-\infty}^{\infty} \cdots \int_{-\infty}^{\infty} e^{-i\left(t_{1} x_{1}+\ldots+t_{n} x_{n}\right)} \times \\&amp; \times \varphi\left(t_{1}, \ldots, t_{n}\right) d t_{1} \ldots d t_{n} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/317_7_PLOTNOST'">\begin{aligned}&amp; \int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f^{2}\left(x_{1}, \ldots, x_{n}\right) d x_{1} \ldots d x_{n}= \\= &amp; \frac{1}{(2 \pi)^{n}} \int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty}\left|\varphi\left(t_{1}, \ldots, t_{n}\right)\right|^{2} d t_{1} \ldots d t_{n} .\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/317_8_PLOTNOST'">v(A)=\int_{A} f d \mu</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_1_PLOTNOST'">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_2_PLOTNOST'">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_3_PLOTNOST'">\mathbb{r}^{n}(n \geqslant 1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_4_PLOTNOST'">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_5_PLOTNOST'">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_6_PLOTNOST'">x_{1}, \ldots, x_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_7_PLOTNOST'">f\left(x_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_8_PLOTNOST'">\left.x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_9_PLOTNOST'">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_10_PLOTNOST'">a \subset \mathbb{R} n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_11_PLOTNOST'">f\left(x_{1}, \cdots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_12_PLOTNOST'">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_13_PLOTNOST'">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_14_PLOTNOST'">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_15_PLOTNOST'">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_16_PLOTNOST'">g\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_17_PLOTNOST'">x+y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_18_PLOTNOST'">h\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_19_PLOTNOST'">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_20_PLOTNOST'">g</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_21_PLOTNOST'">x=\left(x_{1}, \ldots, X_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_22_PLOTNOST'">y=\left(y_{1}, \ldots, Y_{m}\right)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_23_PLOTNOST'">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_24_PLOTNOST'">\mathbb{r}^{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_25_PLOTNOST'">z=\left(x_{1}, \ldots . X_{n}, Y_{1}, \ldots\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_26_PLOTNOST'">\left.Y_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_27_PLOTNOST'">\mathbb{r}^{n+m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_28_PLOTNOST'">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_29_PLOTNOST'">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_30_PLOTNOST'">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_31_PLOTNOST'">h\left(t_{1}, \ldots, t_{n+m}\right)=f\left(t_{1}, \ldots, t_{n}\right) g\left(t_{n+1}, \ldots, t_{n+m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_32_PLOTNOST'">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_33_PLOTNOST'">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_34_PLOTNOST'">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_35_PLOTNOST'">\varphi\left(t_{1}, \ldots, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_36_PLOTNOST'">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_37_PLOTNOST'">f\left(x_{1}, \ldots, x_{m}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_38_PLOTNOST'">\varphi\left(t_{1}, \ldots, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_39_PLOTNOST'">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_40_PLOTNOST'">f\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_41_PLOTNOST'">\varphi\left(t_{1}, \ldots, t_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_42_PLOTNOST'">f^{2}\left(x_{1}, \ldots, x_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_43_PLOTNOST'">\left|\varphi\left(t_{1}, \ldots, t_{n}\right)\right|^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_44_PLOTNOST'">(\omega, \mathcal{A})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_45_PLOTNOST'">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_46_PLOTNOST'">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_47_PLOTNOST'">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_48_PLOTNOST'">(\omega, \mathcal{A})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_49_PLOTNOST'">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_50_PLOTNOST'">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_51_PLOTNOST'">\mu(a)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_52_PLOTNOST'">v(a)=0, A \in \mathcal{A}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_53_PLOTNOST'">(\omega, \mathcal{A})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_54_PLOTNOST'">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_55_PLOTNOST'">a \in \mathcal{A}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_56_PLOTNOST'">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_57_PLOTNOST'">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_58_PLOTNOST'">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_59_PLOTNOST'">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_60_PLOTNOST'">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_61_PLOTNOST'">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_62_PLOTNOST'">\mathscr{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_63_PLOTNOST'">(\omega, \mathcal{A})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_64_PLOTNOST'">(\omega, \mathcal{A})</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_65_PLOTNOST'">\sigma</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_66_PLOTNOST'">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_67_PLOTNOST'">\mathscr{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_68_PLOTNOST'">\mu</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_69_PLOTNOST'">\mathscr{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/317_70_PLOTNOST'">\mu</formula>
+  </formulas_aux>
+  <relations n="2">
+    <relation uri="http://libmeta.ru/me/relation/317_1_PLOTNOST'">
+      <rel_text>статистики</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/317_2_PLOTNOST'">
+      <rel_text>Предположение</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+  </relations>
+  <text>п л о т н о с т ь р а сд ределен и я ве роя т нос тей,- производная функции распределения, отвечающей абсолютно непрерывной вероятностной мере.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/317_1_PLOTNOST']]/URI$ - случайный вектор, принимающий значения в $URI[[http://libmeta.ru/me/formula/aux/317_2_PLOTNOST']]/URI$-мерном евклидовом пространстве $URI[[http://libmeta.ru/me/formula/aux/317_3_PLOTNOST']]/URI$, $URI[[http://libmeta.ru/me/formula/aux/317_4_PLOTNOST']]/URI$ - его функция распределения и пусть существует неотрицательная функция $URI[[http://libmeta.ru/me/formula/aux/317_5_PLOTNOST']]/URI$ такая, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_1_PLOTNOST']]/URI
+\]
+
+для любых действительных $URI[[http://libmeta.ru/me/formula/aux/317_6_PLOTNOST']]/URI$. Тогда $URI[[http://libmeta.ru/me/formula/aux/317_7_PLOTNOST']]/URI$, $URI[[http://libmeta.ru/me/formula/aux/317_8_PLOTNOST']]/URI$ наз. П ло т но с т ь ю в е р о я т но с т и случайного вектора $URI[[http://libmeta.ru/me/formula/aux/317_9_PLOTNOST']]/URI$ и для любого борелевского множества $URI[[http://libmeta.ru/me/formula/aux/317_10_PLOTNOST']]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_2_PLOTNOST']]/URI
+\]
+
+Любая неотрицательная интегрируемая функция $URI[[http://libmeta.ru/me/formula/aux/317_11_PLOTNOST']]/URI$, удовлөтворяющая условию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_3_PLOTNOST']]/URI
+\]
+
+является П. в. нек-рого случайного вектора.
+
+Если случайные векторы $URI[[http://libmeta.ru/me/formula/aux/317_12_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_13_PLOTNOST']]/URI$, принимающие значения в $URI[[http://libmeta.ru/me/formula/aux/317_14_PLOTNOST']]/URI$, независимы и имеют П. в. $URI[[http://libmeta.ru/me/formula/aux/317_15_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_16_PLOTNOST']]/URI$ соответственно, то случайный вектор $URI[[http://libmeta.ru/me/formula/aux/317_17_PLOTNOST']]/URI$ имеет П. в. $URI[[http://libmeta.ru/me/formula/aux/317_18_PLOTNOST']]/URI$, к-рая является сверткой функций $URI[[http://libmeta.ru/me/formula/aux/317_19_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_20_PLOTNOST']]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_4_PLOTNOST']]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/317_21_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_22_PLOTNOST']]/URI$ случайныө векторы, принимающие значения в $URI[[http://libmeta.ru/me/formula/aux/317_23_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_24_PLOTNOST']]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_af99ab77409529be8c72g-1.jpg?height=54&amp;width=816&amp;top_left_y=1444&amp;top_left_x=143)
+соответственно, и пусть $URI[[http://libmeta.ru/me/formula/aux/317_25_PLOTNOST']]/URI$,
+$URI[[http://libmeta.ru/me/formula/aux/317_26_PLOTNOST']]/URI$ - случайный вектор в $URI[[http://libmeta.ru/me/formula/aux/317_27_PLOTNOST']]/URI$. Тогда если $URI[[http://libmeta.ru/me/formula/aux/317_28_PLOTNOST']]/URI$ и,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_af99ab77409529be8c72g-1.jpg?height=55&amp;width=804&amp;top_left_y=1521&amp;top_left_x=151)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_af99ab77409529be8c72g-1.jpg?height=42&amp;width=806&amp;top_left_y=1562&amp;top_left_x=153)
+ле ния в е р о я т н с т е й случайных векторов $URI[[http://libmeta.ru/me/formula/aux/317_29_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_30_PLOTNOST']]/URI$, причем
+
+$URI[[http://libmeta.ru/me/formula/aux/317_31_PLOTNOST']]/URI$ (1)
+
+И обратно, если $URI[[http://libmeta.ru/me/formula/aux/317_32_PLOTNOST']]/URI$ имеет П. в., удовлетворяющую соотношению (1), то $URI[[http://libmeta.ru/me/formula/aux/317_33_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_34_PLOTNOST']]/URI$ независимы.
+
+Характеристич. функция $URI[[http://libmeta.ru/me/formula/aux/317_35_PLOTNOST']]/URI$ случайного вектора $URI[[http://libmeta.ru/me/formula/aux/317_36_PLOTNOST']]/URI$, имеющего П. в. $URI[[http://libmeta.ru/me/formula/aux/317_37_PLOTNOST']]/URI$, выражается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_5_PLOTNOST']]/URI
+\]
+
+причем если $URI[[http://libmeta.ru/me/formula/aux/317_38_PLOTNOST']]/URI$ абсолютно интегрируема, то $URI[[http://libmeta.ru/me/formula/aux/317_39_PLOTNOST']]/URI$ является ограниченной непрерывной функцией и
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_6_PLOTNOST']]/URI
+\]
+
+П. в. $URI[[http://libmeta.ru/me/formula/aux/317_40_PLOTNOST']]/URI$ и соответствующая характеристич. функция $URI[[http://libmeta.ru/me/formula/aux/317_41_PLOTNOST']]/URI$ связавы также следующцим соотношением (т о ж д е с т в о П л а н ш е р е л я): функция $URI[[http://libmeta.ru/me/formula/aux/317_42_PLOTNOST']]/URI$ интегрируема тогда и только тогда, когда интегрируема функция $URI[[http://libmeta.ru/me/formula/aux/317_43_PLOTNOST']]/URI$, и в этом случае
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_7_PLOTNOST']]/URI
+\]
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/317_44_PLOTNOST']]/URI$ - измеримое пространство, $URI[[http://libmeta.ru/me/formula/aux/317_45_PLOTNOST']]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/317_46_PLOTNOST']]/URI$ суть $URI[[http://libmeta.ru/me/formula/aux/317_47_PLOTNOST']]/URI$-конечные меры на $URI[[http://libmeta.ru/me/formula/aux/317_48_PLOTNOST']]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/317_49_PLOTNOST']]/URI$ абсолютно непрерывна относительно $URI[[http://libmeta.ru/me/formula/aux/317_50_PLOTNOST']]/URI$, т. е. из равенства $URI[[http://libmeta.ru/me/formula/aux/317_51_PLOTNOST']]/URI$ следует равенство $URI[[http://libmeta.ru/me/formula/aux/317_52_PLOTNOST']]/URI$. В этом случае на $URI[[http://libmeta.ru/me/formula/aux/317_53_PLOTNOST']]/URI$ существует неотрицательная измеримая функция $URI[[http://libmeta.ru/me/formula/aux/317_54_PLOTNOST']]/URI$ такая, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/317_8_PLOTNOST']]/URI
+\]
+
+для любого $URI[[http://libmeta.ru/me/formula/aux/317_55_PLOTNOST']]/URI$. Функция $URI[[http://libmeta.ru/me/formula/aux/317_56_PLOTNOST']]/URI$ наз. п р о и з в о д н о й Р а дона- Ни ко д и м а меры $URI[[http://libmeta.ru/me/formula/aux/317_57_PLOTNOST']]/URI$ по мере $URI[[http://libmeta.ru/me/formula/aux/317_58_PLOTNOST']]/URI$, а в случае, когда $URI[[http://libmeta.ru/me/formula/aux/317_59_PLOTNOST']]/URI$ - вероятностная мера, также П. в. $URI[[http://libmeta.ru/me/formula/aux/317_60_PLOTNOST']]/URI$ по отношению к $URI[[http://libmeta.ru/me/formula/aux/317_61_PLOTNOST']]/URI$.
+
+С понятием П. в. тесно связано понятие д о м и н иро ванного с е ме йств т ра с пре де лен и й. Семейство вероятностных распределений $URI[[http://libmeta.ru/me/formula/aux/317_62_PLOTNOST']]/URI$ на измеримом пространстве $URI[[http://libmeta.ru/me/formula/aux/317_63_PLOTNOST']]/URI$ наз. доминированным, если на $URI[[http://libmeta.ru/me/formula/aux/317_64_PLOTNOST']]/URI$ существует $URI[[http://libmeta.ru/me/formula/aux/317_65_PLOTNOST']]/URI$-конеqная мера $URI[[http://libmeta.ru/me/formula/aux/317_66_PLOTNOST']]/URI$ такая, что каждая вероятностная мера из $URI[[http://libmeta.ru/me/formula/aux/317_67_PLOTNOST']]/URI$ имеет П. в. по отношению к $URI[[http://libmeta.ru/me/formula/aux/317_68_PLOTNOST']]/URI$ (или, что то же самое, каждая мера из $URI[[http://libmeta.ru/me/formula/aux/317_69_PLOTNOST']]/URI$ абсолютно непрерывна относительно $URI[[http://libmeta.ru/me/formula/aux/317_70_PLOTNOST']]/URI$ ). URI[[http://libmeta.ru/me/relation/317_2_PLOTNOST']]/URI о доминированности является существенным в нек-рых теоремах математич. URI[[http://libmeta.ru/me/relation/317_1_PLOTNOST']]/URI.</text>
+  <text_orig>п л о т н о с т ь р а сД ределен и я ве роя т нос тей,- производная функции распределения, отвечающей абсолютно непрерывной вероятностной мере.
+
+Пусть $X$ - случайный вектор, принимающий значения в $n$-мерном евклидовом пространстве $\mathbb{R}^{n}(n \geqslant 1)$, $F\left(x_{1}, \ldots, x_{n}\right)$ - его функция распределения и пусть существует неотрицательная функция $f\left(x_{1}, \ldots, x_{n}\right)$ такая, что
+
+\[
+F\left(x_{1}, \ldots, x_{n}\right)=\int_{-\infty}^{x_{1}} \ldots \int_{-\infty}^{x_{n}} f\left(u_{1}, \ldots, u_{n}\right) d u_{1} \ldots d u_{n}
+\]
+
+для любых действительных $x_{1}, \ldots, x_{n}$. Тогда $f\left(x_{1}, \ldots\right.$, $\left.x_{n}\right)$ наз. П ло т но с т ь ю в е р о я т но с т и случайного вектора $X$ и для любого борелевского множества $A \subset \mathbb{R} n$
+
+\[
+\mathbf{P}\{\boldsymbol{X} \in \boldsymbol{A}\}=\int_{\boldsymbol{A}} \cdots \int f\left(u_{1}, \ldots, u_{n}\right) d u_{1} \ldots d u_{n} .
+\]
+
+Любая неотрицательная интегрируемая функция $f\left(x_{1}, \cdots, x_{n}\right)$, удовлөтворяющая условию
+
+\[
+\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f\left(x_{1}, \ldots, x_{n}\right) d x_{1} \ldots d x_{n}=1 \text {, }
+\]
+
+является П. в. нек-рого случайного вектора.
+
+Если случайные векторы $X$ и $Y$, принимающие значения в $\mathbb{R}^{n}$, независимы и имеют П. в. $f\left(x_{1}, \ldots, x_{n}\right)$ и $g\left(x_{1}, \ldots, x_{n}\right)$ соответственно, то случайный вектор $X+Y$ имеет П. в. $h\left(x_{1}, \ldots, x_{n}\right)$, к-рая является сверткой функций $f$ и $g$ :
+
+\[
+\begin{gathered}
+h\left(x_{1}, \ldots, x_{n}\right)=\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f\left(x_{1}-u_{1}, \ldots, x_{n}-u_{n}\right) \times \\
+\times g\left(u_{1}, \ldots, u_{n}\right) d u_{1} \ldots d u_{n}= \\
+=\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f\left(u_{1}, \ldots, u_{n}\right) g\left(x_{1}-u_{1}, \ldots, x_{n}-u_{n}\right) \times \\
+\times d u_{1} \ldots d u_{n} .
+\end{gathered}
+\]
+
+Пусть $X=\left(X_{1}, \ldots, X_{n}\right)$ и $Y=\left(Y_{1}, \ldots, Y_{m}\right)-$ случайныө векторы, принимающие значения в $\mathbb{R}^{n}$ и $\mathbb{R}^{m}$
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_af99ab77409529be8c72g-1.jpg?height=54&amp;width=816&amp;top_left_y=1444&amp;top_left_x=143)
+соответственно, и пусть $Z=\left(X_{1}, \ldots . X_{n}, Y_{1}, \ldots\right.$,
+$\left.Y_{m}\right)$ - случайный вектор в $\mathbb{R}^{n+m}$. Тогда если $X$ и,
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_af99ab77409529be8c72g-1.jpg?height=55&amp;width=804&amp;top_left_y=1521&amp;top_left_x=151)
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_af99ab77409529be8c72g-1.jpg?height=42&amp;width=806&amp;top_left_y=1562&amp;top_left_x=153)
+ле ния в е р о я т н с т е й случайных векторов $X$ и $Y$, причем
+
+$h\left(t_{1}, \ldots, t_{n+m}\right)=f\left(t_{1}, \ldots, t_{n}\right) g\left(t_{n+1}, \ldots, t_{n+m}\right)$ (1)
+
+И обратно, если $Z$ имеет П. в., удовлетворяющую соотношению (1), то $X$ и $Y$ независимы.
+
+Характеристич. функция $\varphi\left(t_{1}, \ldots, t_{n}\right)$ случайного вектора $X$, имеющего П. в. $f\left(x_{1}, \ldots, x_{m}\right)$, выражается формулой
+
+\[
+\begin{gathered}
+\varphi\left(t_{1}, \ldots, t_{n}\right)=\int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} e^{i\left(t_{1} x_{1}+\ldots+t_{n} x_{n}\right)} \times \\
+\times f\left(x_{1}, \ldots, x_{n}\right) d x_{1} \ldots d x_{n},
+\end{gathered}
+\]
+
+причем если $\varphi\left(t_{1}, \ldots, t_{n}\right)$ абсолютно интегрируема, то $f\left(x_{1}, \ldots, x_{n}\right)$ является ограниченной непрерывной функцией и
+
+\[
+\begin{aligned}
+f\left(x_{1}, \ldots, x_{n}\right)= &amp; \frac{1}{(2 \pi)^{n}} \int_{-\infty}^{\infty} \cdots \int_{-\infty}^{\infty} e^{-i\left(t_{1} x_{1}+\ldots+t_{n} x_{n}\right)} \times \\
+&amp; \times \varphi\left(t_{1}, \ldots, t_{n}\right) d t_{1} \ldots d t_{n} .
+\end{aligned}
+\]
+
+П. в. $f\left(x_{1}, \ldots, x_{n}\right)$ и соответствующая характеристич. функция $\varphi\left(t_{1}, \ldots, t_{n}\right)$ связавы также следующцим соотношением (т о ж д е с т в о П л а н ш е р е л я): функция $f^{2}\left(x_{1}, \ldots, x_{n}\right)$ интегрируема тогда и только тогда, когда интегрируема функция $\left|\varphi\left(t_{1}, \ldots, t_{n}\right)\right|^{2}$, и в этом случае
+
+\[
+\begin{aligned}
+&amp; \int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty} f^{2}\left(x_{1}, \ldots, x_{n}\right) d x_{1} \ldots d x_{n}= \\
+= &amp; \frac{1}{(2 \pi)^{n}} \int_{-\infty}^{\infty} \ldots \int_{-\infty}^{\infty}\left|\varphi\left(t_{1}, \ldots, t_{n}\right)\right|^{2} d t_{1} \ldots d t_{n} .
+\end{aligned}
+\]
+
+Пусть $(\Omega, \mathcal{A})$ - измеримое пространство, $v$ и $\mu$ суть $\sigma$-конечные меры на $(\Omega, \mathcal{A})$, причем $v$ абсолютно непрерывна относительно $\mu$, т. е. из равенства $\mu(A)=0$ следует равенство $v(A)=0, A \in \mathcal{A}$. В этом случае на $(\Omega, \mathcal{A})$ существует неотрицательная измеримая функция $f$ такая, что
+
+\[
+v(A)=\int_{A} f d \mu
+\]
+
+для любого $A \in \mathcal{A}$. Функция $f$ наз. п р о и з в о д н о й Р а дона- Ни ко д и м а меры $v$ по мере $\mu$, а в случае, когда $v$ - вероятностная мера, также П. в. $v$ по отношению к $\mu$.
+
+С понятием П. в. тесно связано понятие д о м и н иро ванного с е ме йств т ра с пре де лен и й. Семейство вероятностных распределений $\mathscr{P}$ на измеримом пространстве $(\Omega, \mathcal{A})$ наз. доминированным, если на $(\Omega, \mathcal{A})$ существует $\sigma$-конеqная мера $\mu$ такая, что каждая вероятностная мера из $\mathscr{P}$ имеет П. в. по отношению к $\mu$ (или, что то же самое, каждая мера из $\mathscr{P}$ абсолютно непрерывна относительно $\mu$ ). Предположение о доминированности является существенным в нек-рых теоремах математич. статистики.
+
+Лит.: [1] П р о х о р о в Ю. В., Р о з а н о в Ю. А., Теория
+роятностей, 2 изд., М., 1973; [2] Ф е л л е р В., Введение в теовероятностей, 2 изд., М., 1973; [2] $\Phi$ е л л е р В., Введение в тео-
+рию вероятностей и ее приложения, пер. с англ., 2 изд., т. 2, M., 1967; [3] Л е м а н Э. Проверка статистических гипоте,
+пер. с англ., 2 изд., М., 1979.
+Н. Г. Ушаков.</text_orig>
+</article>

@@ -1,0 +1,577 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/903_RAZNOSTNOE" alphabetic_pos="903">
+  <title>РАЗНОСТНОЕ УРАВНЕНИЕ</title>
+  <authors>
+    <author>А. В. Гулиж</author>
+    <author>А. А. Самарский</author>
+  </authors>
+  <pages>
+    <start>420</start>
+    <end>422</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Г е ль фон Д А. О., Исчисление конечных разностей, 3 изд., М., 1967; [2] С а м а р с к и й А. А., Н и к о-л а е в Е. С., Методы решения сеточных уравнений, М., 1978; Л а е в Е. С., Методы решения сеточных уравнений, М., 1978; уравнения, М., 1978; [4] М а р т ы н ю к Д. И., Лекции по качественной теории разностных уравнений, К., 1972; [5] Х а л ан а й А., В е к с л е p Д., Качественная теория импульсных систем, пер. с рум., М., $1971 ;[6]$ С а м а р с к и й А. А., Теория разностных схем, М., 1977; [7] Бе р е 3 й И. С. 2 Ж и дк о в Н. П., Методы вычислений, 2 изд., т. 2, М., 1962; [8] Б а хб у н о в А. Д., Разностные уравнения, М., 1972.</literature_orig>
+    <unit>
+      <author>Гельфон Д А. О.</author>
+      <title>Исчисление конечных разностей</title>
+      <publication>3 изд., М.</publication>
+      <year>1967</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Самарский А. А.</author>
+      <author>Нико-лаев Е. С.</author>
+      <title>Методы решения сеточных уравнений</title>
+      <publication>М.</publication>
+      <year>1978</year>
+      <other>Методы решения сеточных уравнений, М., 1978; уравнения, М., 1978; [4] М а р т ы н ю к Д. И., Лекции по качественной теории разностных уравнений, К., 1972; [5] Х а л ан а й А., В е к с л е p Д., Качественная теория импульсных систем, пер. с рум., М., $1971 ;[6]$ С а м а р с к и й А. А., Теория разностных схем, М., 1977; [7] Бе р е 3 й И. С. 2 Ж и дк о в Н. П., Методы вычислений, 2 изд., т. 2, М., 1962; [8] Б а хб у н о в А. Д., Разностные уравнения, М., 1972.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/903_1_RAZNOSTNOE">\begin{gathered}\Delta y_{n}=y_{n+1}-y_{n}, \quad \Delta^{m+1} y_{n}=\Delta\left(\Delta^{m} y_{n}\right), \\\Delta^{1} y_{n}=\Delta y_{n}, \quad m=1,2, \ldots,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_2_RAZNOSTNOE">\Delta^{m} y_{n}=\sum_{k=0}^{m}(-1)^{m-k} C_{m}^{k} y_{n+k} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_3_RAZNOSTNOE">F\left(n ; y_{n}, \Delta y_{n}, \ldots, \Delta^{m} y_{n}\right)=0,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_4_RAZNOSTNOE">F\left(n ; y_{n}, y_{n+1}, \ldots, y_{n+m}\right)=0 \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_5_RAZNOSTNOE">a_{m}(n) y_{n+m}+a_{m-1}(n) y_{n+m-1}+\ldots+a_{0}(n) y_{n}=0 \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_6_RAZNOSTNOE">\left|\begin{array}{cccc}y_{0}^{(1)} &amp; y_{0}^{(2)} &amp; \cdots &amp; y_{0}^{(m)} \\y_{1}^{(1)} &amp; y_{1}^{(2)} &amp; \cdots &amp; y_{1}^{(m)} \\y_{m-1}^{(1)} &amp; y_{m-1}^{(2)} &amp; \cdots &amp; y_{m-1}^{(m)}\end{array}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_7_RAZNOSTNOE">y_{n}=\sum_{k=1}^{m} c_{k} y_{n}^{(k)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_8_RAZNOSTNOE">a_{m} y_{m+n}+a_{m-1} y_{m+n-1}+\ldots+a_{0} y_{n}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_9_RAZNOSTNOE">a_{m} q^{m}+a_{m-1} q^{m-1}+\ldots+a_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_10_RAZNOSTNOE">y_{n}^{(1)}=q_{1}^{(n)}, y_{n}^{(2)}=q_{2}^{(n)}, \ldots, y_{n}^{(m)}=q_{m}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_11_RAZNOSTNOE">q_{k}^{n}, n q_{k}^{n}, n^{2} g_{k}^{n}, \ldots, n^{r-1} q_{k}^{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_12_RAZNOSTNOE">a_{2} y_{n+2}+a_{1} y_{n+1}+a_{0} y_{n}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_13_RAZNOSTNOE">a_{2} q^{2}+a_{1} q+a_{0}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_14_RAZNOSTNOE">q_{1,2}=\left(-a_{1} \pm \sqrt{a_{1}^{2}-4 a_{0} a_{2}}\right) /\left(2 a_{2}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_15_RAZNOSTNOE">y_{n}=c_{1} \frac{q_{2} q_{1}^{n}-q_{1} q_{2}^{n}}{q_{2}-q_{1}}+c_{2} \frac{q_{2}^{n}-q_{1}^{n}}{q_{2}-q_{1}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_16_RAZNOSTNOE">q_{1,2}=\rho(\cos \varphi \pm i \sin \varphi),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_17_RAZNOSTNOE">y_{n}=-c_{1} \rho^{n} \frac{\sin (n-1) \varphi}{\sin \varphi}+c_{2} \rho^{n-1} \frac{\sin n \varphi}{\sin \varphi} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_18_RAZNOSTNOE">y_{n}=-c_{1}(n-1) q_{1}^{n}+c_{2} n q_{1}^{n-1} \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_19_RAZNOSTNOE">\left.\begin{array}{c}\left.T_{n+2}(x)-2 x T_{n+1}(x)+T_{n}(x)=0, n=0,1, \ldots,\right\} \\T_{0}(x)=1, T_{1}(x)=x\end{array}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_20_RAZNOSTNOE">\begin{gathered}T_{n}(x)=\cos (n \arccos x)= \\=0,5\left[\left(x+\sqrt{x^{2}-1}\right)^{n}+\left(x+\sqrt{x^{2}-1}\right)^{-n}\right] .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_21_RAZNOSTNOE">L y_{n}=a_{n} y_{n-1}-c_{n} y_{n}+b_{n} y_{n+1}=-f_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_22_RAZNOSTNOE">y_{0}=x_{1} y_{1}+\mu_{1}, y_{N}=x_{2} y_{N^{-1}}+\mu_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_23_RAZNOSTNOE">y_{0}=\mu_{1}, y_{N}=\mu_{2} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_24_RAZNOSTNOE">a_{n}&gt;0, b_{n}&gt;0, c_{n} \geqslant a_{n}+b_{n}, n=1,2, \ldots, N-1 .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_25_RAZNOSTNOE">y_{n+1}=f_{n}\left(y_{n}\right), n=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_26_RAZNOSTNOE">\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}=-f\left(x_{1}, x_{2}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/903_27_RAZNOSTNOE">\begin{gathered}u_{i, j}=u\left(x_{1}^{(i)}, x_{2}^{(j)}\right), x_{1}^{(i)}=i h_{1}, x_{2}^{(j)}=j h_{2}, \\i, j=0, \pm 1, \pm 2, \ldots,\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_1_RAZNOSTNOE">y(n)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_2_RAZNOSTNOE">=y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_3_RAZNOSTNOE">n=0, \pm 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_4_RAZNOSTNOE">\pm 2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_5_RAZNOSTNOE">\delta^{m} y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_6_RAZNOSTNOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_7_RAZNOSTNOE">(m+1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_8_RAZNOSTNOE">n, n+1, \ldots, n+m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_9_RAZNOSTNOE">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_10_RAZNOSTNOE">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_11_RAZNOSTNOE">\frac{\partial F}{\partial y_{n}} \neq 0, \frac{\partial F}{\partial y_{n}+m} \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_12_RAZNOSTNOE">y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_13_RAZNOSTNOE">y_{n+m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_14_RAZNOSTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_15_RAZNOSTNOE">a_{m}(n) y_{n+m}+a_{m-1}(n) y_{n+m-1}+\ldots+a_{0}(n) y_{n}=f_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_16_RAZNOSTNOE">f_{n}=f(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_17_RAZNOSTNOE">a_{k}(n), k=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_18_RAZNOSTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_19_RAZNOSTNOE">a_{m}(n) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_20_RAZNOSTNOE">a_{0}(n) \neq 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_21_RAZNOSTNOE">y_{n}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_22_RAZNOSTNOE">=y(n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_23_RAZNOSTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_24_RAZNOSTNOE">y_{0}, y_{1}, \ldots, y_{m-1}, f_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_25_RAZNOSTNOE">y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_26_RAZNOSTNOE">n=m, m+1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_27_RAZNOSTNOE">y_{n}^{(1)}, y_{n}^{(2)}, \ldots, y_{n}^{(k)}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_28_RAZNOSTNOE">c_{1}, c_{2}, \ldots, c_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_29_RAZNOSTNOE">c_{1} y_{n}^{(1)}+c_{2} y_{n}^{(2)}+\ldots+c_{k} y_{n}^{(k)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_30_RAZNOSTNOE">y_{n}^{(1)}, \ldots, y_{n}^{(m)}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_31_RAZNOSTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_32_RAZNOSTNOE">c_{k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_33_RAZNOSTNOE">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_34_RAZNOSTNOE">q_{1}, q_{2}, \ldots, q_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_35_RAZNOSTNOE">q_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_36_RAZNOSTNOE">r</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_37_RAZNOSTNOE">a_{0}, a_{1}, \ldots, a_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_38_RAZNOSTNOE">q_{k}=\rho(\cos \varphi+i \sin \varphi)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_39_RAZNOSTNOE">q_{k}^{n}, q_{k}^{-n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_40_RAZNOSTNOE">\rho^{n} \cos n \varphi, \quad \rho^{n} \sin n \varphi</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_41_RAZNOSTNOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_42_RAZNOSTNOE">q_{2} \neq q_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_43_RAZNOSTNOE">c_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_44_RAZNOSTNOE">c_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_45_RAZNOSTNOE">q_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_46_RAZNOSTNOE">q_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_47_RAZNOSTNOE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_48_RAZNOSTNOE">t_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_49_RAZNOSTNOE">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_50_RAZNOSTNOE">y_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_51_RAZNOSTNOE">n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_52_RAZNOSTNOE">n-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_53_RAZNOSTNOE">l y_{n} \geqslant 0 \quad\left(L y_{n} \leqslant 0\right), n=1,2, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_54_RAZNOSTNOE">y_{n} \not</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_55_RAZNOSTNOE">n=1,2, \ldots, N-1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_56_RAZNOSTNOE">\mu_{1}, \mu_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_57_RAZNOSTNOE">f_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_58_RAZNOSTNOE">\mathrm{p} . \mathrm{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_59_RAZNOSTNOE">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_60_RAZNOSTNOE">\mathrm{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_61_RAZNOSTNOE">\mathbf{y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_62_RAZNOSTNOE">\frac{u_{i+1, j^{-2}} u_{i, j}+u_{i-1, j}}{h_{1}^{2}}+\frac{u_{i, j+1}-2 u_{i, j}+u_{i, j+1}}{h_{2}^{2}}=-f_{i, j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/903_63_RAZNOSTNOE">h_{1}, h_{2}</formula>
+  </formulas_aux>
+  <relations n="16">
+    <relation uri="http://libmeta.ru/me/relation/903_1_RAZNOSTNOE">
+      <rel_text>Разностных схем теория</rel_text>
+      <target>http://libmeta.ru/me/article/906_RAZNOSTNYH</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_2_RAZNOSTNOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_3_RAZNOSTNOE">
+      <rel_text>диффференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_4_RAZNOSTNOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_5_RAZNOSTNOE">
+      <rel_text>приближенные</rel_text>
+      <target>http://libmeta.ru/me/article/629_PRIBLIभ่ENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_6_RAZNOSTNOE">
+      <rel_text>модели</rel_text>
+      <target>http://libmeta.ru/me/article/741_MODEL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_7_RAZNOSTNOE">
+      <rel_text>математические</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_8_RAZNOSTNOE">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_9_RAZNOSTNOE">
+      <rel_text>диффференциальных</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_10_RAZNOSTNOE">
+      <rel_text>измельчении</rel_text>
+      <target>http://libmeta.ru/me/article/502_IZMEL'ChENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_11_RAZNOSTNOE">
+      <rel_text>сходимость</rel_text>
+      <target>http://libmeta.ru/me/article/333_SHODIMOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_12_RAZNOSTNOE">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_13_RAZNOSTNOE">
+      <rel_text>корректность</rel_text>
+      <target>http://libmeta.ru/me/article/17_KORRELOGRAMM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_14_RAZNOSTNOE">
+      <rel_text>многомерными</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_15_RAZNOSTNOE">
+      <rel_text>многомерных</rel_text>
+      <target>http://libmeta.ru/me/article/438_MNOGOOBRAZI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/903_16_RAZNOSTNOE">
+      <rel_text>Система</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+  </relations>
+  <text>уравнение, содержащее конечные разности искомой функции. Пусть $URI[[http://libmeta.ru/me/formula/aux/903_1_RAZNOSTNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/903_2_RAZNOSTNOE]]/URI$ - функция целочисленного аргумента $URI[[http://libmeta.ru/me/formula/aux/903_3_RAZNOSTNOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/903_4_RAZNOSTNOE]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_1_RAZNOSTNOE]]/URI
+\]
+
+- конөчные разности. Выражение $URI[[http://libmeta.ru/me/formula/aux/903_5_RAZNOSTNOE]]/URI$ содержит значения функции $URI[[http://libmeta.ru/me/formula/aux/903_6_RAZNOSTNOE]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/903_7_RAZNOSTNOE]]/URI$-й точке $URI[[http://libmeta.ru/me/formula/aux/903_8_RAZNOSTNOE]]/URI$. Справедлива формула
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_2_RAZNOSTNOE]]/URI
+\]
+
+Р а зост тным уравнен и е наз. уравнение вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_3_RAZNOSTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/903_9_RAZNOSTNOE]]/URI$ - искомая и $URI[[http://libmeta.ru/me/formula/aux/903_10_RAZNOSTNOE]]/URI$ - заданная функции. Замена в (2) конечных разностей их выражениями через значения искомой функции согласно (1) приводит к уравнению вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_4_RAZNOSTNOE]]/URI
+\] Если $URI[[http://libmeta.ru/me/formula/aux/903_11_RAZNOSTNOE]]/URI$, т. е. уравнение (3) действительно содержит как $URI[[http://libmeta.ru/me/formula/aux/903_12_RAZNOSTNOE]]/URI$, так и $URI[[http://libmeta.ru/me/formula/aux/903_13_RAZNOSTNOE]]/URI$, то уравневие (3) наз. р а з ноствы м ур а в не н и е м $URI[[http://libmeta.ru/me/formula/aux/903_14_RAZNOSTNOE]]/URI$-го по рядк а, или диффферевци а льноразностным у ра внением.
+
+Наиболее развита теория линейных P. У., к-рая имеет много общего с теорией обыкновенных линейных дифференциальных уравнений (см. [1] - [3]). Линейным Р. у. m-го порядка наз. уравнение $URI[[http://libmeta.ru/me/formula/aux/903_15_RAZNOSTNOE]]/URI$, (4) где $URI[[http://libmeta.ru/me/formula/aux/903_16_RAZNOSTNOE]]/URI$ - заданная функция, $URI[[http://libmeta.ru/me/formula/aux/903_17_RAZNOSTNOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/903_18_RAZNOSTNOE]]/URI$, - заданные коэфффициенты, причем $URI[[http://libmeta.ru/me/formula/aux/903_19_RAZNOSTNOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/903_20_RAZNOSTNOE]]/URI$. Решением Р. У. (4) наз. всякая функция $URI[[http://libmeta.ru/me/formula/aux/903_21_RAZNOSTNOE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/903_22_RAZNOSTNOE]]/URI$, удовлетворяющая уравнению (4). Как и в случае дифференциальных уравнений, различают частное и общее решения Р. у. (4). 0 б ш и м р е ше н и е м Р. у. (4) наз. его решение, зависящее от $URI[[http://libmeta.ru/me/formula/aux/903_23_RAZNOSTNOE]]/URI$ произвольных параметров и такое, что каждое частное решение может быть получено из этого общего решения при нек-ром значении параметров. Обычно конкретные значения параметров находятся из дополнительных условий. Типичной является задача Коши: по заданным $URI[[http://libmeta.ru/me/formula/aux/903_24_RAZNOSTNOE]]/URI$ найти решение $URI[[http://libmeta.ru/me/formula/aux/903_25_RAZNOSTNOE]]/URI$ уравнения (4) при $URI[[http://libmeta.ru/me/formula/aux/903_26_RAZNOSTNOE]]/URI$ Существование и способ построения решения P. у. (4) устанавливаются по следующей схеме. Наряду с (4) рассматривается однородное Р. у.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_5_RAZNOSTNOE]]/URI
+\]
+
+Справедливы следующие утверждения.
+
+1) Пусть $URI[[http://libmeta.ru/me/formula/aux/903_27_RAZNOSTNOE]]/URI$ решения уравнения (5) и $URI[[http://libmeta.ru/me/formula/aux/903_28_RAZNOSTNOE]]/URI$ - произвольный набор постоянных. Тогда функция $URI[[http://libmeta.ru/me/formula/aux/903_29_RAZNOSTNOE]]/URI$ также является решением уравнения (5).
+
+2) Если $URI[[http://libmeta.ru/me/formula/aux/903_30_RAZNOSTNOE]]/URI$ суть $URI[[http://libmeta.ru/me/formula/aux/903_31_RAZNOSTNOE]]/URI$ решений уравнения (5) и определитель
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_6_RAZNOSTNOE]]/URI
+\]
+
+отличен от нуля, то общее решение однородного Р. у. (5) имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_7_RAZNOSTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/903_32_RAZNOSTNOE]]/URI$ произвольные постоянные.
+
+3) Общее решение неоднородного Р. у. (4) представляется в виде суммы какого-либо частного его решения и общего решения однородного Р. у. (5).
+
+Частное решение неоднородного уравнения (5) можно построить, исходя из общего решения (6) однородного уравнения, путем применения метода вариации произвольных постоянных (см., напр., [2]). В случае Р. у. с постоянными коəффициентами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_8_RAZNOSTNOE]]/URI
+\]
+
+можно непосредственно найти $URI[[http://libmeta.ru/me/formula/aux/903_33_RAZNOSTNOE]]/URI$ линейно независимых частных решений. Для этого рассматривается характеристич. уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_9_RAZNOSTNOE]]/URI
+\]
+
+и ищутся его корни $URI[[http://libmeta.ru/me/formula/aux/903_34_RAZNOSTNOE]]/URI$. Если все корни простые, то функции
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_10_RAZNOSTNOE]]/URI
+\]
+
+образуют линейно независимую систему решений урав- нения (7). В случае, когда $URI[[http://libmeta.ru/me/formula/aux/903_35_RAZNOSTNOE]]/URI$ - корень кратности $URI[[http://libmeta.ru/me/formula/aux/903_36_RAZNOSTNOE]]/URI$, линейно независимыми являются решения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_11_RAZNOSTNOE]]/URI
+\]
+
+Если коэфффициенты $URI[[http://libmeta.ru/me/formula/aux/903_37_RAZNOSTNOE]]/URI$ действительные и уравнение (8) имеет комплексный корень, напр. простой корень $URI[[http://libmeta.ru/me/formula/aux/903_38_RAZNOSTNOE]]/URI$, то вместо комплексных решений $URI[[http://libmeta.ru/me/formula/aux/903_39_RAZNOSTNOE]]/URI$ выделяют два линейно независимых действительных решения $URI[[http://libmeta.ru/me/formula/aux/903_40_RAZNOSTNOE]]/URI$.
+
+Пусть имеется $URI[[http://libmeta.ru/me/formula/aux/903_41_RAZNOSTNOE]]/URI$. у. 2-го порядка с постоянными действительными коэфффцциентами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_12_RAZNOSTNOE]]/URI
+\]
+
+Характеристич. уравнение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_13_RAZNOSTNOE]]/URI
+\]
+
+имеет корни
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_14_RAZNOSTNOE]]/URI
+\]
+
+Общее решение уравнения (9) в случае $URI[[http://libmeta.ru/me/formula/aux/903_42_RAZNOSTNOE]]/URI$ удобно записывать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_15_RAZNOSTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/903_43_RAZNOSTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/903_44_RAZNOSTNOE]]/URI$ - произвольные постоянные. Есди $URI[[http://libmeta.ru/me/formula/aux/903_45_RAZNOSTNOE]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/903_46_RAZNOSTNOE]]/URI$ комплексно сопряженные корни:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_16_RAZNOSTNOE]]/URI
+\]
+
+то другое представление общего решения имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_17_RAZNOSTNOE]]/URI
+\]
+
+В случае кратного корня общее решение может быть получено предельным переходом из (10) или (11). Оно имеет вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_18_RAZNOSTNOE]]/URI
+\]
+
+Как и в случае уравнений произвольного порядка, для Р. У. 2-го порядка можно рассматривать задачу Коши или различные краевые задачи. Напр., для задачи Коши
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_19_RAZNOSTNOE]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/903_47_RAZNOSTNOE]]/URI$ - любое действительное число, решением (12) является многочлен $URI[[http://libmeta.ru/me/formula/aux/903_48_RAZNOSTNOE]]/URI$ степени $URI[[http://libmeta.ru/me/formula/aux/903_49_RAZNOSTNOE]]/URI$ (м н о гоч л е н ч е б ы шіе в а 1-г о р о д а), к-рый определяется формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_20_RAZNOSTNOE]]/URI
+\]
+
+Краевая задача Р. у. 2-го порядка состоит в нахождении функции $URI[[http://libmeta.ru/me/formula/aux/903_50_RAZNOSTNOE]]/URI$, удовлетворяющей при $URI[[http://libmeta.ru/me/formula/aux/903_51_RAZNOSTNOE]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/903_52_RAZNOSTNOE]]/URI$ уравнению
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_21_RAZNOSTNOE]]/URI
+\]
+
+и двум линейно независимым краевым условиям. Такими краевыми условиями могут быть, напр., условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_22_RAZNOSTNOE]]/URI
+\]
+
+или условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_23_RAZNOSTNOE]]/URI
+\]
+
+Для P. у. 2-го порядка справедлив следующий принцип максимума. Пусть дана задача (13), (15) и пусть выполнены условия
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_24_RAZNOSTNOE]]/URI
+\]
+
+Тогда если $URI[[http://libmeta.ru/me/formula/aux/903_53_RAZNOSTNOE]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/903_54_RAZNOSTNOE]]/URI$ const не может принимать наибольшего положи- тельного (наименьшего отрицательного) значения при $URI[[http://libmeta.ru/me/formula/aux/903_55_RAZNOSTNOE]]/URI$. Из принципа максимума следует однозначная разрешимость краевой задачи (13), (15) и устойчивость ее решения относительно изменения граничных условий $URI[[http://libmeta.ru/me/formula/aux/903_56_RAZNOSTNOE]]/URI$ и правых частей $URI[[http://libmeta.ru/me/formula/aux/903_57_RAZNOSTNOE]]/URI$. Для решения разностных краевых задач (13), (14) применяется прогонки метод (см. [2]).
+
+Построить в явном виде решения нелинейных $URI[[http://libmeta.ru/me/formula/aux/903_58_RAZNOSTNOE]]/URI$.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_25_RAZNOSTNOE]]/URI
+\]
+
+удается лишь в отдельных очень частных случаях. Для уравнений вида (16) изучаются в основном качественные вопросы поведения решений при $URI[[http://libmeta.ru/me/formula/aux/903_59_RAZNOSTNOE]]/URI$ и развита теория устойчивости, аналогичная теории устойчивости обыкновенных дифференциальных уравнений (см. [4], [5]).
+
+При разностной аппроксимации уравнений с частными производными возникают многомерные $URI[[http://libmeta.ru/me/formula/aux/903_60_RAZNOSTNOE]]/URI$. у. (см. [2], [6]). Напр., уравнение П уассона
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_26_RAZNOSTNOE]]/URI
+\]
+
+можно аппроксимировать Р. $URI[[http://libmeta.ru/me/formula/aux/903_61_RAZNOSTNOE]]/URI$.
+
+$URI[[http://libmeta.ru/me/formula/aux/903_62_RAZNOSTNOE]]/URI$ где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/903_27_RAZNOSTNOE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/903_63_RAZNOSTNOE]]/URI$ - шаги сетки.
+
+URI[[http://libmeta.ru/me/relation/903_16_RAZNOSTNOE]]/URI URI[[http://libmeta.ru/me/relation/903_15_RAZNOSTNOE]]/URI Р. у. в совокупности с дополнительными начальными и граничными условиями образует разностную схему. В связи с URI[[http://libmeta.ru/me/relation/903_14_RAZNOSTNOE]]/URI Р. у. изучаются такие вопросы, как URI[[http://libmeta.ru/me/relation/903_13_RAZNOSTNOE]]/URI разностных задач, URI[[http://libmeta.ru/me/relation/903_12_RAZNOSTNOE]]/URI их решения, URI[[http://libmeta.ru/me/relation/903_11_RAZNOSTNOE]]/URI при URI[[http://libmeta.ru/me/relation/903_10_RAZNOSTNOE]]/URI сетки к решениям исходных URI[[http://libmeta.ru/me/relation/903_9_RAZNOSTNOE]]/URI URI[[http://libmeta.ru/me/relation/903_8_RAZNOSTNOE]]/URI (см. URI[[http://libmeta.ru/me/relation/903_1_RAZNOSTNOE]]/URI).
+
+Хотя существуют различные URI[[http://libmeta.ru/me/relation/903_7_RAZNOSTNOE]]/URI и технич. URI[[http://libmeta.ru/me/relation/903_6_RAZNOSTNOE]]/URI, приводящие к Р. у. (см., напр., [4], [5]), основной областью их применения являются URI[[http://libmeta.ru/me/relation/903_5_RAZNOSTNOE]]/URI URI[[http://libmeta.ru/me/relation/903_4_RAZNOSTNOE]]/URI решения URI[[http://libmeta.ru/me/relation/903_3_RAZNOSTNOE]]/URI URI[[http://libmeta.ru/me/relation/903_2_RAZNOSTNOE]]/URI (см. [6], [9])</text>
+  <text_orig>уравнение, содержащее конечные разности искомой функции. Пусть $y(n)=$ $=y_{n}$ - функция целочисленного аргумента $n=0, \pm 1$, $\pm 2, \ldots$
+
+\[
+\begin{gathered}
+\Delta y_{n}=y_{n+1}-y_{n}, \quad \Delta^{m+1} y_{n}=\Delta\left(\Delta^{m} y_{n}\right), \\
+\Delta^{1} y_{n}=\Delta y_{n}, \quad m=1,2, \ldots,
+\end{gathered}
+\]
+
+- конөчные разности. Выражение $\Delta^{m} y_{n}$ содержит значения функции $y$ в $(m+1)$-й точке $n, n+1, \ldots, n+m$. Справедлива формула
+
+\[
+\Delta^{m} y_{n}=\sum_{k=0}^{m}(-1)^{m-k} C_{m}^{k} y_{n+k} .
+\]
+
+Р а зост тным уравнен и е наз. уравнение вида
+
+\[
+F\left(n ; y_{n}, \Delta y_{n}, \ldots, \Delta^{m} y_{n}\right)=0,
+\]
+
+где $y$ - искомая и $F$ - заданная функции. Замена в (2) конечных разностей их выражениями через значения искомой функции согласно (1) приводит к уравнению вида
+
+\[
+F\left(n ; y_{n}, y_{n+1}, \ldots, y_{n+m}\right)=0 \text {. }
+\] Если $\frac{\partial F}{\partial y_{n}} \neq 0, \frac{\partial F}{\partial y_{n}+m} \neq 0$, т. е. уравнение (3) действительно содержит как $y_{n}$, так и $y_{n+m}$, то уравневие (3) наз. р а з ноствы м ур а в не н и е м $m$-го по рядк а, или диффферевци а льноразностным у ра внением.
+
+Наиболее развита теория линейных P. У., к-рая имеет много общего с теорией обыкновенных линейных дифференциальных уравнений (см. [1] - [3]). Линейным Р. у. m-го порядка наз. уравнение $a_{m}(n) y_{n+m}+a_{m-1}(n) y_{n+m-1}+\ldots+a_{0}(n) y_{n}=f_{n}$, (4) где $f_{n}=f(n)$ - заданная функция, $a_{k}(n), k=0,1, \ldots$, $m$, - заданные коэфффициенты, причем $a_{m}(n) \neq 0$, $a_{0}(n) \neq 0$. Решением Р. У. (4) наз. всякая функция $y_{n}=$ $=y(n)$, удовлетворяющая уравнению (4). Как и в случае дифференциальных уравнений, различают частное и общее решения Р. у. (4). 0 б ш и м р е ше н и е м Р. у. (4) наз. его решение, зависящее от $m$ произвольных параметров и такое, что каждое частное решение может быть получено из этого общего решения при нек-ром значении параметров. Обычно конкретные значения параметров находятся из дополнительных условий. Типичной является задача Коши: по заданным $y_{0}, y_{1}, \ldots, y_{m-1}, f_{n}$ найти решение $y_{n}$ уравнения (4) при $n=m, m+1, \ldots$ Существование и способ построения решения P. у. (4) устанавливаются по следующей схеме. Наряду с (4) рассматривается однородное Р. у.
+
+\[
+a_{m}(n) y_{n+m}+a_{m-1}(n) y_{n+m-1}+\ldots+a_{0}(n) y_{n}=0 \text {. }
+\]
+
+Справедливы следующие утверждения.
+
+1) Пусть $y_{n}^{(1)}, y_{n}^{(2)}, \ldots, y_{n}^{(k)}-$ решения уравнения (5) и $c_{1}, c_{2}, \ldots, c_{k}$ - произвольный набор постоянных. Тогда функция $c_{1} y_{n}^{(1)}+c_{2} y_{n}^{(2)}+\ldots+c_{k} y_{n}^{(k)}$ также является решением уравнения (5).
+
+2) Если $y_{n}^{(1)}, \ldots, y_{n}^{(m)}$ суть $m$ решений уравнения (5) и определитель
+
+\[
+\left|\begin{array}{cccc}
+y_{0}^{(1)} &amp; y_{0}^{(2)} &amp; \cdots &amp; y_{0}^{(m)} \\
+y_{1}^{(1)} &amp; y_{1}^{(2)} &amp; \cdots &amp; y_{1}^{(m)} \\
+y_{m-1}^{(1)} &amp; y_{m-1}^{(2)} &amp; \cdots &amp; y_{m-1}^{(m)}
+\end{array}\right|
+\]
+
+отличен от нуля, то общее решение однородного Р. у. (5) имеет вид
+
+\[
+y_{n}=\sum_{k=1}^{m} c_{k} y_{n}^{(k)}
+\]
+
+где $c_{k}-$ произвольные постоянные.
+
+3) Общее решение неоднородного Р. у. (4) представляется в виде суммы какого-либо частного его решения и общего решения однородного Р. у. (5).
+
+Частное решение неоднородного уравнения (5) можно построить, исходя из общего решения (6) однородного уравнения, путем применения метода вариации произвольных постоянных (см., напр., [2]). В случае Р. у. с постоянными коəффициентами
+
+\[
+a_{m} y_{m+n}+a_{m-1} y_{m+n-1}+\ldots+a_{0} y_{n}=0
+\]
+
+можно непосредственно найти $m$ линейно независимых частных решений. Для этого рассматривается характеристич. уравнение
+
+\[
+a_{m} q^{m}+a_{m-1} q^{m-1}+\ldots+a_{0}=0
+\]
+
+и ищутся его корни $q_{1}, q_{2}, \ldots, q_{m}$. Если все корни простые, то функции
+
+\[
+y_{n}^{(1)}=q_{1}^{(n)}, y_{n}^{(2)}=q_{2}^{(n)}, \ldots, y_{n}^{(m)}=q_{m}^{n}
+\]
+
+образуют линейно независимую систему решений урав- нения (7). В случае, когда $q_{k}$ - корень кратности $r$, линейно независимыми являются решения
+
+\[
+q_{k}^{n}, n q_{k}^{n}, n^{2} g_{k}^{n}, \ldots, n^{r-1} q_{k}^{n} .
+\]
+
+Если коэфффициенты $a_{0}, a_{1}, \ldots, a_{m}$ действительные и уравнение (8) имеет комплексный корень, напр. простой корень $q_{k}=\rho(\cos \varphi+i \sin \varphi)$, то вместо комплексных решений $q_{k}^{n}, q_{k}^{-n}$ выделяют два линейно независимых действительных решения $\rho^{n} \cos n \varphi, \quad \rho^{n} \sin n \varphi$.
+
+Пусть имеется $\mathrm{P}$. у. 2-го порядка с постоянными действительными коэфффцциентами
+
+\[
+a_{2} y_{n+2}+a_{1} y_{n+1}+a_{0} y_{n}=0
+\]
+
+Характеристич. уравнение
+
+\[
+a_{2} q^{2}+a_{1} q+a_{0}=0
+\]
+
+имеет корни
+
+\[
+q_{1,2}=\left(-a_{1} \pm \sqrt{a_{1}^{2}-4 a_{0} a_{2}}\right) /\left(2 a_{2}\right) .
+\]
+
+Общее решение уравнения (9) в случае $q_{2} \neq q_{1}$ удобно записывать в виде
+
+\[
+y_{n}=c_{1} \frac{q_{2} q_{1}^{n}-q_{1} q_{2}^{n}}{q_{2}-q_{1}}+c_{2} \frac{q_{2}^{n}-q_{1}^{n}}{q_{2}-q_{1}},
+\]
+
+где $c_{1}$ и $c_{2}$ - произвольные постоянные. Есди $q_{1}$ и $q_{2}$ комплексно сопряженные корни:
+
+\[
+q_{1,2}=\rho(\cos \varphi \pm i \sin \varphi),
+\]
+
+то другое представление общего решения имеет вид
+
+\[
+y_{n}=-c_{1} \rho^{n} \frac{\sin (n-1) \varphi}{\sin \varphi}+c_{2} \rho^{n-1} \frac{\sin n \varphi}{\sin \varphi} .
+\]
+
+В случае кратного корня общее решение может быть получено предельным переходом из (10) или (11). Оно имеет вид
+
+\[
+y_{n}=-c_{1}(n-1) q_{1}^{n}+c_{2} n q_{1}^{n-1} \text {. }
+\]
+
+Как и в случае уравнений произвольного порядка, для Р. У. 2-го порядка можно рассматривать задачу Коши или различные краевые задачи. Напр., для задачи Коши
+
+\[
+\left.\begin{array}{c}
+\left.T_{n+2}(x)-2 x T_{n+1}(x)+T_{n}(x)=0, n=0,1, \ldots,\right\} \\
+T_{0}(x)=1, T_{1}(x)=x
+\end{array}\right\}
+\]
+
+где $x$ - любое действительное число, решением (12) является многочлен $T_{n}(x)$ степени $n$ (м н о гоч л е н ч е б ы шіе в а 1-г о р о д а), к-рый определяется формулой
+
+\[
+\begin{gathered}
+T_{n}(x)=\cos (n \arccos x)= \\
+=0,5\left[\left(x+\sqrt{x^{2}-1}\right)^{n}+\left(x+\sqrt{x^{2}-1}\right)^{-n}\right] .
+\end{gathered}
+\]
+
+Краевая задача Р. у. 2-го порядка состоит в нахождении функции $y_{n}$, удовлетворяющей при $n=1,2, \ldots$, $N-1$ уравнению
+
+\[
+L y_{n}=a_{n} y_{n-1}-c_{n} y_{n}+b_{n} y_{n+1}=-f_{n}
+\]
+
+и двум линейно независимым краевым условиям. Такими краевыми условиями могут быть, напр., условия
+
+\[
+y_{0}=x_{1} y_{1}+\mu_{1}, y_{N}=x_{2} y_{N^{-1}}+\mu_{2}
+\]
+
+или условия
+
+\[
+y_{0}=\mu_{1}, y_{N}=\mu_{2} .
+\]
+
+Для P. у. 2-го порядка справедлив следующий принцип максимума. Пусть дана задача (13), (15) и пусть выполнены условия
+
+\[
+a_{n}&gt;0, b_{n}&gt;0, c_{n} \geqslant a_{n}+b_{n}, n=1,2, \ldots, N-1 .
+\]
+
+Тогда если $L y_{n} \geqslant 0 \quad\left(L y_{n} \leqslant 0\right), n=1,2, \ldots, N-1$, то $y_{n} \not$ const не может принимать наибольшего положи- тельного (наименьшего отрицательного) значения при $n=1,2, \ldots, N-1$. Из принципа максимума следует однозначная разрешимость краевой задачи (13), (15) и устойчивость ее решения относительно изменения граничных условий $\mu_{1}, \mu_{2}$ и правых частей $f_{n}$. Для решения разностных краевых задач (13), (14) применяется прогонки метод (см. [2]).
+
+Построить в явном виде решения нелинейных $\mathrm{P} . \mathrm{y}$.
+
+\[
+y_{n+1}=f_{n}\left(y_{n}\right), n=0,1, \ldots
+\]
+
+удается лишь в отдельных очень частных случаях. Для уравнений вида (16) изучаются в основном качественные вопросы поведения решений при $n \rightarrow \infty$ и развита теория устойчивости, аналогичная теории устойчивости обыкновенных дифференциальных уравнений (см. [4], [5]).
+
+При разностной аппроксимации уравнений с частными производными возникают многомерные $\mathrm{P}$. у. (см. [2], [6]). Напр., уравнение П уассона
+
+\[
+\frac{\partial^{2} u}{\partial x_{1}^{2}}+\frac{\partial^{2} u}{\partial x_{2}^{2}}=-f\left(x_{1}, x_{2}\right)
+\]
+
+можно аппроксимировать Р. $\mathbf{y}$.
+
+$\frac{u_{i+1, j^{-2}} u_{i, j}+u_{i-1, j}}{h_{1}^{2}}+\frac{u_{i, j+1}-2 u_{i, j}+u_{i, j+1}}{h_{2}^{2}}=-f_{i, j}$ где
+
+\[
+\begin{gathered}
+u_{i, j}=u\left(x_{1}^{(i)}, x_{2}^{(j)}\right), x_{1}^{(i)}=i h_{1}, x_{2}^{(j)}=j h_{2}, \\
+i, j=0, \pm 1, \pm 2, \ldots,
+\end{gathered}
+\]
+
+$h_{1}, h_{2}$ - шаги сетки.
+
+Система многомерных Р. у. в совокупности с дополнительными начальными и граничными условиями образует разностную схему. В связи с многомерными Р. у. изучаются такие вопросы, как корректность разностных задач, методы их решения, сходимость при измельчении сетки к решениям исходных диффференциальных уравнений (см. Разностных схем теория).
+
+Хотя существуют различные математические и технич. модели, приводящие к Р. у. (см., напр., [4], [5]), основной областью их применения являются приближенные методы решения диффференциальных уравнений (см. [6], [9])
+
+Лит.: [1] Г е ль фон Д А. О., Исчисление конечных разностей, 3 изд., М., 1967; [2] С а м а р с к и й А. А., Н и к о-
+л а е в Е. С., Методы решения сеточных уравнений, М., 1978; Л а е в Е. С., Методы решения сеточных уравнений, М., 1978; уравнения, М., 1978; [4] М а р т ы н ю к Д. И., Лекции по качественной теории разностных уравнений, К., 1972; [5] Х а л ан а й А., В е к с л е p Д., Качественная теория импульсных систем, пер. с рум., М., $1971 ;[6]$ С а м а р с к и й А. А., Теория разностных схем, М., 1977; [7] Бе р е 3 й И. С. 2 Ж и дк о в Н. П., Методы вычислений, 2 изд., т. 2, М., 1962; [8] Б а хб у н о в А. Д., Разностные уравнения, М., 1972.
+
+А. В. Гулиж, А. А. Самарский.</text_orig>
+</article>

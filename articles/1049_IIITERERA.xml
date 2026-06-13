@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1049_IIITERERA" alphabetic_pos="1049">
+  <title>IIIТЁРЕРА МЕТОД</title>
+  <authors>
+    <author>C. С. Гайсарян</author>
+  </authors>
+  <pages>
+    <start>452</start>
+    <end>453</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б а х в а лы в Н. С., Численные методы, 2 изд;, Mary differential equations, N.' Y.-[a. 0.], 1973; [3] M u Xли н С. Г., С м о Ј и и к и й х. Ј. П. Приближенные метовы решения дифференциальных и интегральных уравнений, М., $1965 . \quad$</literature_orig>
+    <unit>
+      <author>Бахвалыв Н. С.</author>
+      <title>Численные методы, 2 изд, Mary differential equations, N.' Y.-[a. 0.]</title>
+      <publication/>
+      <year>1973</year>
+      <other>С м о Ј и и к и й х. Ј. П. Приближенные метовы решения дифференциальных и интегральных уравнений, М., $1965 . \quad$</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_1_IIITERERA">y^{\prime \prime}=-f(x, y), y\left(x_{0}\right)=y_{0}, y^{\prime}\left(x_{0}\right)=y_{0}^{\prime} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_2_IIITERERA">\begin{gathered}y_{n+1}-2_{y_{n}}+y_{n-1}=h^{2} \sum_{\lambda=0}^{k}{ }^{b-\lambda} f_{n-\lambda,} f_{n}=f\left(x_{n}, y_{n}\right), \\n=0,1, \ldots,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_3_IIITERERA">y_{n+1}-2 y_{n}+y_{n-1}=h^{2} \sum_{p=0}^{k} \beta_{p} \nabla^{p} f_{n},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_4_IIITERERA">\nabla^{p} f_{n}=\nabla\left(\nabla^{p+1} f_{n}\right)=\nabla^{p-1} f_{n}-\nabla^{p-1} f_{n-i},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_5_IIITERERA">\beta_{p}=\frac{1}{p !}\left(\int_{0}^{1}(1-t) t(t+1) \ldots(t+(p-1)) d t+\right.</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_6_IIITERERA">\left.+\int_{0}^{-1}(-1-t) t \ldots(t+(p-1)) d t\right), p=0,1, \ldots, k,</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_7_IIITERERA">u-\lambda=\sum_{p=\lambda}^{k}\left(\begin{array}{l}p \\\lambda\end{array}\right) \beta_{p}, \lambda=0,1, \ldots, k ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_8_IIITERERA">y_{n+1}-2 y_{n}+y_{n-1}=h^{2} \sum_{\lambda=-1}^{k} v_{-\lambda} f_{n-\lambda}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_9_IIITERERA">y_{n+1}-2 y_{n}+y_{n-1}=h^{2} \sum_{p=0}^{k} \gamma_{p} \nabla^{p} f_{n+1} \text {, }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_10_IIITERERA">\begin{gathered}\gamma_{p}=\frac{1}{p !}\left(\int_{0}^{1}(1-t)(t-1) t \ldots(t+(p-2)) d t+\right. \\\left.+\int_{0}^{-1}(-1-t)(t-1) t \ldots(t+(p-2)) d t\right), \\v-\lambda=\sum_{p=\lambda}^{k+1}\left(\begin{array}{l}p \\\lambda\end{array}\right) \gamma_{p}, \lambda=-1,0,1, \ldots, k .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_11_IIITERERA">\begin{gathered}\beta_{0}=1, \beta_{1}=0, \beta_{2}=\frac{1}{12}, \beta_{3}=\frac{1}{12}, \beta_{4}=\frac{19}{240}, \beta_{5}=\frac{3}{40}, \\\beta_{6}=\frac{863}{12096} ; \\\gamma_{0}=1, \gamma_{1}=-1, \gamma_{2}=\frac{1}{12}, \gamma_{3}=0, \gamma_{4}=-\frac{1}{240}, \\\gamma_{5}=-\frac{1}{240}, \gamma_{6}=-\frac{221}{60480} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_12_IIITERERA">\begin{gathered}y_{n+1}^{(i+1)}-2 y_{n}+y_{n-1}= \\=h^{2}\left(v_{1} f_{n+1}^{(i)}+\sum_{\lambda=0}^{k} v-\lambda f_{n-\lambda}\right), i=0,1,2, \\f_{n+1}^{(i)}=f\left(x_{n+1}, y_{n+1}^{(i)}\right), y_{n+1}=y_{n+1}^{(3)} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1049_13_IIITERERA">y_{n+2}-2 y_{n+1}+y_{n}=\frac{h^{2}}{12}\left(f_{n+2}+10 f_{n+1}+f_{n}\right) .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_1_IIITERERA">x_{n}=x_{0}+n h, \quad n=1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_2_IIITERERA">\boldsymbol{\beta}_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_3_IIITERERA">\gamma_{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_4_IIITERERA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_5_IIITERERA">y_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_6_IIITERERA">y_{n+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_7_IIITERERA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_8_IIITERERA">y_{0}, y_{1}, \ldots, y_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_9_IIITERERA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_10_IIITERERA">o\left(h^{k+1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_11_IIITERERA">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_12_IIITERERA">o\left(h^{k+1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_13_IIITERERA">k=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1049_14_IIITERERA">=4,5,6</formula>
+  </formulas_aux>
+  <relations n="11">
+    <relation uri="http://libmeta.ru/me/relation/1049_1_IIITERERA">
+      <rel_text>предложен</rel_text>
+      <target>http://libmeta.ru/me/article/582_PREDBAZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_2_IIITERERA">
+      <rel_text>интериоляционных</rel_text>
+      <target>http://libmeta.ru/me/article/633_INTERPOLIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_3_IIITERERA">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_4_IIITERERA">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_5_IIITERERA">
+      <rel_text>погрешностью</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_6_IIITERERA">
+      <rel_text>формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_7_IIITERERA">
+      <rel_text>метода</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_8_IIITERERA">
+      <rel_text>погрешности</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_9_IIITERERA">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_10_IIITERERA">
+      <rel_text>погрешность</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1049_11_IIITERERA">
+      <rel_text>Формулы</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+  </relations>
+  <text>м е т о л С т ё р м е p a,конечно разностный метод решения задачи Коши для системы обыкновенных дифференциальных уравнений 2-го порядка, не содержащей первой производной от неизвестноӥ функции:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_1_IIITERERA]]/URI
+\]
+
+При интегрировании по сетке с постоянным шагом $URI[[http://libmeta.ru/me/formula/aux/1049_1_IIITERERA]]/URI$, расчетные формулы имеют вид:
+
+а) экстраполяционные:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_2_IIITERERA]]/URI
+\]
+
+или (в разностной форме)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_3_IIITERERA]]/URI
+\]
+
+rise
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_4_IIITERERA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1049_5_IIITERERA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1049_6_IIITERERA]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/1049_7_IIITERERA]]/URI
+\]
+
+б) интерполяционные:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_8_IIITERERA]]/URI
+\]
+
+или (в разностной форме)
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_9_IIITERERA]]/URI
+\]
+
+где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_10_IIITERERA]]/URI
+\] Первые значения коэффициентов $URI[[http://libmeta.ru/me/formula/aux/1049_2_IIITERERA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1049_3_IIITERERA]]/URI$ :
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_11_IIITERERA]]/URI
+\]
+
+При одном и том же $URI[[http://libmeta.ru/me/formula/aux/1049_4_IIITERERA]]/URI$ формула б) точнее, но требует решения нелинейной системы уравнений для нахождевия значения $URI[[http://libmeta.ru/me/formula/aux/1049_5_IIITERERA]]/URI$. На практике сначала находят прпближенное значение решения $URI[[http://libmeta.ru/me/formula/aux/1049_6_IIITERERA]]/URI$ по формуле а), a затем проводят два-три уточнения по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_12_IIITERERA]]/URI
+\]
+
+Применение Ш. м. предполагает, что уже известны приближенные значения репения в первых $URI[[http://libmeta.ru/me/formula/aux/1049_7_IIITERERA]]/URI$ узлах сетки: $URI[[http://libmeta.ru/me/formula/aux/1049_8_IIITERERA]]/URI$ (опорные значения). Этı значсвия вычисляют по Рунге - Кутта методу, либо используя разложение решения по формуле Теїлора. Необходимость использования специальных формул для вычисления значений в начале счета и в случае изменения шага сетки, по к-рої ведется интегрирование, приводит к существенному усложнению расчетных ирограмм на Эвм.
+
+URI[[http://libmeta.ru/me/relation/1049_11_IIITERERA]]/URI Ш. м. с $URI[[http://libmeta.ru/me/formula/aux/1049_9_IIITERERA]]/URI$ членами в правой части имеют URI[[http://libmeta.ru/me/relation/1049_10_IIITERERA]]/URI URI[[http://libmeta.ru/me/relation/1049_9_IIITERERA]]/URI $URI[[http://libmeta.ru/me/formula/aux/1049_10_IIITERERA]]/URI$. Оценка URI[[http://libmeta.ru/me/relation/1049_8_IIITERERA]]/URI аналогична соответствующеї оценке для Адамса URI[[http://libmeta.ru/me/relation/1049_7_IIITERERA]]/URI. Можно показать, что для любого $URI[[http://libmeta.ru/me/formula/aux/1049_11_IIITERERA]]/URI$ существуют устойqивые URI[[http://libmeta.ru/me/relation/1049_6_IIITERERA]]/URI с URI[[http://libmeta.ru/me/relation/1049_5_IIITERERA]]/URI URI[[http://libmeta.ru/me/relation/1049_4_IIITERERA]]/URI $URI[[http://libmeta.ru/me/formula/aux/1049_12_IIITERERA]]/URI$.
+
+На практике обычно используются URI[[http://libmeta.ru/me/relation/1049_3_IIITERERA]]/URI с $URI[[http://libmeta.ru/me/formula/aux/1049_13_IIITERERA]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/1049_14_IIITERERA]]/URI$. Широко используется Н у м е р о в а пет о д, принадлежащиї к семейству URI[[http://libmeta.ru/me/relation/1049_2_IIITERERA]]/URI Iii. м.:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1049_13_IIITERERA]]/URI
+\]
+
+Метод URI[[http://libmeta.ru/me/relation/1049_1_IIITERERA]]/URI К. Штёрмером (c. Störmer, 1920).</text>
+  <text_orig>м е т о л С т ё р м е p a,конечно разностный метод решения задачи Коши для системы обыкновенных дифференциальных уравнений 2-го порядка, не содержащей первой производной от неизвестноӥ функции:
+
+\[
+y^{\prime \prime}=-f(x, y), y\left(x_{0}\right)=y_{0}, y^{\prime}\left(x_{0}\right)=y_{0}^{\prime} .
+\]
+
+При интегрировании по сетке с постоянным шагом $x_{n}=x_{0}+n h, \quad n=1,2, \ldots$, расчетные формулы имеют вид:
+
+а) экстраполяционные:
+
+\[
+\begin{gathered}
+y_{n+1}-2_{y_{n}}+y_{n-1}=h^{2} \sum_{\lambda=0}^{k}{ }^{b-\lambda} f_{n-\lambda,} f_{n}=f\left(x_{n}, y_{n}\right), \\
+n=0,1, \ldots,
+\end{gathered}
+\]
+
+или (в разностной форме)
+
+\[
+y_{n+1}-2 y_{n}+y_{n-1}=h^{2} \sum_{p=0}^{k} \beta_{p} \nabla^{p} f_{n},
+\]
+
+rise
+
+\[
+\nabla^{p} f_{n}=\nabla\left(\nabla^{p+1} f_{n}\right)=\nabla^{p-1} f_{n}-\nabla^{p-1} f_{n-i},
+\]\[
+\beta_{p}=\frac{1}{p !}\left(\int_{0}^{1}(1-t) t(t+1) \ldots(t+(p-1)) d t+\right.
+\]\[
+\left.+\int_{0}^{-1}(-1-t) t \ldots(t+(p-1)) d t\right), p=0,1, \ldots, k,
+\]\[
+u-\lambda=\sum_{p=\lambda}^{k}\left(\begin{array}{l}
+p \\
+\lambda
+\end{array}\right) \beta_{p}, \lambda=0,1, \ldots, k ;
+\]
+
+б) интерполяционные:
+
+\[
+y_{n+1}-2 y_{n}+y_{n-1}=h^{2} \sum_{\lambda=-1}^{k} v_{-\lambda} f_{n-\lambda}
+\]
+
+или (в разностной форме)
+
+\[
+y_{n+1}-2 y_{n}+y_{n-1}=h^{2} \sum_{p=0}^{k} \gamma_{p} \nabla^{p} f_{n+1} \text {, }
+\]
+
+где
+
+\[
+\begin{gathered}
+\gamma_{p}=\frac{1}{p !}\left(\int_{0}^{1}(1-t)(t-1) t \ldots(t+(p-2)) d t+\right. \\
+\left.+\int_{0}^{-1}(-1-t)(t-1) t \ldots(t+(p-2)) d t\right), \\
+v-\lambda=\sum_{p=\lambda}^{k+1}\left(\begin{array}{l}
+p \\
+\lambda
+\end{array}\right) \gamma_{p}, \lambda=-1,0,1, \ldots, k .
+\end{gathered}
+\] Первые значения коэффициентов $\boldsymbol{\beta}_{p}$ и $\gamma_{p}$ :
+
+\[
+\begin{gathered}
+\beta_{0}=1, \beta_{1}=0, \beta_{2}=\frac{1}{12}, \beta_{3}=\frac{1}{12}, \beta_{4}=\frac{19}{240}, \beta_{5}=\frac{3}{40}, \\
+\beta_{6}=\frac{863}{12096} ; \\
+\gamma_{0}=1, \gamma_{1}=-1, \gamma_{2}=\frac{1}{12}, \gamma_{3}=0, \gamma_{4}=-\frac{1}{240}, \\
+\gamma_{5}=-\frac{1}{240}, \gamma_{6}=-\frac{221}{60480} .
+\end{gathered}
+\]
+
+При одном и том же $k$ формула б) точнее, но требует решения нелинейной системы уравнений для нахождевия значения $y_{n+1}$. На практике сначала находят прпближенное значение решения $y_{n+1}$ по формуле а), a затем проводят два-три уточнения по формуле
+
+\[
+\begin{gathered}
+y_{n+1}^{(i+1)}-2 y_{n}+y_{n-1}= \\
+=h^{2}\left(v_{1} f_{n+1}^{(i)}+\sum_{\lambda=0}^{k} v-\lambda f_{n-\lambda}\right), i=0,1,2, \\
+f_{n+1}^{(i)}=f\left(x_{n+1}, y_{n+1}^{(i)}\right), y_{n+1}=y_{n+1}^{(3)} .
+\end{gathered}
+\]
+
+Применение Ш. м. предполагает, что уже известны приближенные значения репения в первых $k$ узлах сетки: $y_{0}, y_{1}, \ldots, y_{k}$ (опорные значения). Этı значсвия вычисляют по Рунге - Кутта методу, либо используя разложение решения по формуле Теїлора. Необходимость использования специальных формул для вычисления значений в начале счета и в случае изменения шага сетки, по к-рої ведется интегрирование, приводит к существенному усложнению расчетных ирограмм на ЭВМ.
+
+Формулы Ш. м. с $k$ членами в правой части имеют погрешность порядка $O\left(h^{k+1}\right)$. Оценка погрешности аналогична соответствующеї оценке для Адамса метода. Можно показать, что для любого $k$ существуют устойqивые формулы с погрешностью порядка $O\left(h^{k+1}\right)$.
+
+На практике обычно используются формулы с $k=$ $=4,5,6$. Широко используется Н у м е р о в а пет о д, принадлежащиї к семейству интериоляционных III. м.:
+
+\[
+y_{n+2}-2 y_{n+1}+y_{n}=\frac{h^{2}}{12}\left(f_{n+2}+10 f_{n+1}+f_{n}\right) .
+\]
+
+Метод предложен К. Штёрмером (C. Störmer, 1920). Лит.: [1] Б а х в а лы в Н. С., Численные методы, 2 изд;, Mary differential equations, N.' Y.-[a. 0.], 1973; [3] M u Xли н С. Г., С м о Ј и и к и й х. Ј. П. Приближенные метовы решения дифференциальных и интегральных уравнений, М., $1965 . \quad$ C. С. Гайсарян.</text_orig>
+</article>

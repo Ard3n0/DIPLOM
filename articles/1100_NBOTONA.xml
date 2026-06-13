@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1100_NBOTONA" alphabetic_pos="1100">
+  <title>НБОТОНА МЕТОД</title>
+  <authors>
+    <author>Ю. А. Кузнечов</author>
+  </authors>
+  <pages>
+    <start>547</start>
+    <end>548</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] К а н т о ро в и ч Л. В., &quot;успехи матем. наук&quot;,1948, т. З, в. 6, с. 89-185; [2] К а н т о р о в и ч Лi. В., А к ило в Г. Г. П., Функциональный анализ, 2 изд., М., 1977; [3] К о л л а т ц Ј., Функциональный анализ и вычислительная математика, пер.' с нем., М., 1969; [4] Приближенное решение Численные методы, 2 изд., М., 1975. Ћ</literature_orig>
+    <unit>
+      <author>Канторович Л. В.</author>
+      <title>&quot;успехи матем. наук&quot;</title>
+      <publication/>
+      <year>1948</year>
+      <other>т. З, в. 6, с. 89-185</other>
+    </unit>
+    <unit>
+      <author>Канторович Лi. В.</author>
+      <author>Акилов Г. Г. П.</author>
+      <title>Функциональный анализ</title>
+      <publication>2 изд., М.</publication>
+      <year>1977</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>К о л л а т ц Ј., Функциональный анализ и вычислительная математика</title>
+      <publication>пер.' с нем., М.</publication>
+      <year>1969</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Приближенное решение Численные методы</title>
+      <publication>2 изд., М.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1100_1_NBOTONA">f(x)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1100_2_NBOTONA">x^{k+1}=x^{k}-\left[f^{\prime}\left(x^{k}\right)\right]^{-1} f\left(x^{k}\right), \quad k=0,1,2, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1100_3_NBOTONA">\left|x^{k+1}-x^{*}\right| \leqslant c\left|x^{k}-x^{*}\right|^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1100_4_NBOTONA">x^{k+1}=x^{k}-\left[f^{\prime}\left(x^{0}\right)\right]^{-1} f\left(x^{k}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1100_5_NBOTONA">u^{k+1}=u^{k}-\left[A^{\prime}\left(u^{k}\right)\right]^{-1} A\left(u^{k}\right), \quad k=0,1, \ldots,</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_1_NBOTONA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_2_NBOTONA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_3_NBOTONA">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_4_NBOTONA">x^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_5_NBOTONA">x^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_6_NBOTONA">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_7_NBOTONA">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_8_NBOTONA">x^{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_9_NBOTONA">a(u)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_10_NBOTONA">a: B_{1} \rightarrow B_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_11_NBOTONA">b_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_12_NBOTONA">b_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_13_NBOTONA">a^{\prime}\left(u^{k}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_14_NBOTONA">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_15_NBOTONA">u^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_16_NBOTONA">b_{1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1100_17_NBOTONA">b_{2}</formula>
+  </formulas_aux>
+  <relations n="0"/>
+  <text>м е т о д к а с а т е л ь н Ы х,метод приближенного нахождения корней действительного уравнения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1100_1_NBOTONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1100_1_NBOTONA]]/URI$ - дифференцируемая функция. Последовательные приближения Н. м. вычисляются по формулам
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1100_2_NBOTONA]]/URI
+\]
+
+Если функция $URI[[http://libmeta.ru/me/formula/aux/1100_2_NBOTONA]]/URI$ дважды непрерывно дифференцируема, $URI[[http://libmeta.ru/me/formula/aux/1100_3_NBOTONA]]/URI$ - простой корень уравнения (1) и начальное приближение $URI[[http://libmeta.ru/me/formula/aux/1100_4_NBOTONA]]/URI$ лежит достаточно близко к $URI[[http://libmeta.ru/me/formula/aux/1100_5_NBOTONA]]/URI$, то Н. м. обладает квадратичной сходимостью, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1100_3_NBOTONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1100_6_NBOTONA]]/URI$ - константа, зависящая только от функции $URI[[http://libmeta.ru/me/formula/aux/1100_7_NBOTONA]]/URI$ и начального приближения $URI[[http://libmeta.ru/me/formula/aux/1100_8_NBOTONA]]/URI$.
+
+Часто вместо (2) для решения задачи (1) применяется т. н. мо диф ици р о в а ны й ме то д Н ь ют о н a:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1100_4_NBOTONA]]/URI
+\]
+
+При тех же предположениях, при к-рых Н. м. имеет квадратичную сходимость, метод (3) имеет линейную сходимость, т. е. сходится со скоростью геометрич. прогрессии со знаменателем меньше единицы.
+
+Применительно к решению нелинейного операторного уравнения $URI[[http://libmeta.ru/me/formula/aux/1100_9_NBOTONA]]/URI$ с оператором $URI[[http://libmeta.ru/me/formula/aux/1100_10_NBOTONA]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1100_11_NBOTONA]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1100_12_NBOTONA]]/URI$ - нек-рые банаховы пространства, обобщение (2) наз. м е т о д о м Н ю т о н а-К а н т ор о в и ч а. Формулы әтого метода имеют вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1100_5_NBOTONA]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1100_13_NBOTONA]]/URI$ - производная Фреше оператора $URI[[http://libmeta.ru/me/formula/aux/1100_14_NBOTONA]]/URI$ в точке $URI[[http://libmeta.ru/me/formula/aux/1100_15_NBOTONA]]/URI$, являющаяся обратимым оператором, действующим из $URI[[http://libmeta.ru/me/formula/aux/1100_16_NBOTONA]]/URI$ в $URI[[http://libmeta.ru/me/formula/aux/1100_17_NBOTONA]]/URI$. При специальных предположениях метод Ньютона - Канторовича обладает квадратичной сходимостью, а соответствующий модифицированный метод - линейной сходимостью.
+
+H. м. разработан И. Ньютоном (i. Newton, 1669).</text>
+  <text_orig>м е т о д к а с а т е л ь н Ы х,метод приближенного нахождения корней действительного уравнения
+
+\[
+f(x)=0
+\]
+
+где $f$ - дифференцируемая функция. Последовательные приближения Н. м. вычисляются по формулам
+
+\[
+x^{k+1}=x^{k}-\left[f^{\prime}\left(x^{k}\right)\right]^{-1} f\left(x^{k}\right), \quad k=0,1,2, \ldots
+\]
+
+Если функция $f$ дважды непрерывно дифференцируема, $x^{*}$ - простой корень уравнения (1) и начальное приближение $x^{0}$ лежит достаточно близко к $x^{*}$, то Н. м. обладает квадратичной сходимостью, т. е.
+
+\[
+\left|x^{k+1}-x^{*}\right| \leqslant c\left|x^{k}-x^{*}\right|^{2}
+\]
+
+где $c$ - константа, зависящая только от функции $f$ и начального приближения $x^{0}$.
+
+Часто вместо (2) для решения задачи (1) применяется т. н. мо диф ици р о в а ны й ме то д Н ь ют о н a:
+
+\[
+x^{k+1}=x^{k}-\left[f^{\prime}\left(x^{0}\right)\right]^{-1} f\left(x^{k}\right) .
+\]
+
+При тех же предположениях, при к-рых Н. м. имеет квадратичную сходимость, метод (3) имеет линейную сходимость, т. е. сходится со скоростью геометрич. прогрессии со знаменателем меньше единицы.
+
+Применительно к решению нелинейного операторного уравнения $A(u)=0$ с оператором $A: B_{1} \rightarrow B_{2}$, где $B_{1}$ и $B_{2}$ - нек-рые банаховы пространства, обобщение (2) наз. м е т о д о м Н ю т о н а-К а н т ор о в и ч а. Формулы әтого метода имеют вид
+
+\[
+u^{k+1}=u^{k}-\left[A^{\prime}\left(u^{k}\right)\right]^{-1} A\left(u^{k}\right), \quad k=0,1, \ldots,
+\]
+
+где $A^{\prime}\left(u^{k}\right)$ - производная Фреше оператора $A$ в точке $u^{k}$, являющаяся обратимым оператором, действующим из $B_{1}$ в $B_{2}$. При специальных предположениях метод Ньютона - Канторовича обладает квадратичной сходимостью, а соответствующий модифицированный метод - линейной сходимостью.
+
+H. м. разработан И. Ньютоном (I. Newton, 1669). Лит.: [1] К а н т о ро в и ч Л. В., &quot;Успехи матем. наук&quot;,
+1948, т. З, в. 6, с. 89-185; [2] К а н т о р о в и ч ЛI. В., А к ило в Г. Г. П., Функциональный анализ, 2 изд., М., 1977; [3] К о л л а т ц Ј., Функциональный анализ и вычислительная математика, пер.' с нем., М., 1969; [4] Приближенное решение Численные методы, 2 изд., М., 1975. Ћ Ю. А. Кузнечов.</text_orig>
+</article>

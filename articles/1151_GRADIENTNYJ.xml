@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1151_GRADIENTNYJ" alphabetic_pos="1151">
+  <title>ГРАДИЕНТНЫЙ МЕТОД</title>
+  <authors/>
+  <pages>
+    <start>543</start>
+    <end>543</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1151_1_GRADIENTNYJ">x^{n+1}=x^{n}-\delta_{n} \operatorname{grad} F\left(x^{n}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1151_2_GRADIENTNYJ">F\left(x^{n}-\delta_{n} \operatorname{grad} F\left(x^{n}\right)\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1151_1_GRADIENTNYJ">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1151_2_GRADIENTNYJ">\delta_{n}</formula>
+  </formulas_aux>
+  <relations n="4">
+    <relation uri="http://libmeta.ru/me/relation/1151_1_GRADIENTNYJ">
+      <rel_text>Наискорейшего спуска</rel_text>
+      <target>http://libmeta.ru/me/article/848_NAISKOREJІEGO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1151_2_GRADIENTNYJ">
+      <rel_text>Спуска метод</rel_text>
+      <target>http://libmeta.ru/me/article/155_SPUSKA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1151_3_GRADIENTNYJ">
+      <rel_text>минимума</rel_text>
+      <target>http://libmeta.ru/me/article/687_MINIMU</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1151_4_GRADIENTNYJ">
+      <rel_text>Параметр</rel_text>
+      <target>http://libmeta.ru/me/article/154_PARABOL</target>
+    </relation>
+  </relations>
+  <text>метод минимизации функций многих переменных. Г. м. состоит в том, что последующее приближение функции $URI[[http://libmeta.ru/me/formula/aux/1151_1_GRADIENTNYJ]]/URI$ получается из предыдущего смещением в направлении градиента функции:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1151_1_GRADIENTNYJ]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/1151_4_GRADIENTNYJ]]/URI $URI[[http://libmeta.ru/me/formula/aux/1151_2_GRADIENTNYJ]]/URI$ может быть определен, напр., из условия URI[[http://libmeta.ru/me/relation/1151_3_GRADIENTNYJ]]/URI величины
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1151_2_GRADIENTNYJ]]/URI
+\]
+
+См. URI[[http://libmeta.ru/me/relation/1151_2_GRADIENTNYJ]]/URI, URI[[http://libmeta.ru/me/relation/1151_1_GRADIENTNYJ]]/URI метод.</text>
+  <text_orig>метод минимизации функций многих переменных. Г. м. состоит в том, что последующее приближение функции $F(x)$ получается из предыдущего смещением в направлении градиента функции:
+
+\[
+x^{n+1}=x^{n}-\delta_{n} \operatorname{grad} F\left(x^{n}\right) .
+\]
+
+Параметр $\delta_{n}$ может быть определен, напр., из условия минимума величины
+
+\[
+F\left(x^{n}-\delta_{n} \operatorname{grad} F\left(x^{n}\right)\right)
+\]
+
+См. Спуска метод, Наискорейшего спуска метод.</text_orig>
+</article>

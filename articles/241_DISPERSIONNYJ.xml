@@ -1,0 +1,546 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/241_DISPERSIONNYJ" alphabetic_pos="241">
+  <title>ДИСПЕРСИОННЫЙ АНАЛИЗ</title>
+  <authors>
+    <author>Л. Н. Большев</author>
+  </authors>
+  <pages>
+    <start>110</start>
+    <end>113</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/241_1_DISPERSIONNYJ">\begin{gathered}x_{i j k}=a_{i}+b_{i j}+y_{i j k}, \\i=1, \ldots, I ; \quad j=1, \ldots, J, k=1, \ldots, K,\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_2_DISPERSIONNYJ">\begin{gathered}c_{i *}=\frac{1}{J} \sum_{j} c_{i j}, \quad c_{* j}=\frac{1}{I} \sum_{i} c_{i j}, \\c_{* * *}=\frac{1}{I J} \sum_{i j} c_{i j}=\frac{1}{I} \sum_{i} c_{i *}=\frac{1}{J} \sum_{j} c_{* j} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_3_DISPERSIONNYJ">\left(c_{i j}\right)=\left(\alpha_{i j}\right)+\left(\beta_{i j}\right)+\left(\gamma_{i j}\right)+\left(\delta_{i j}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_4_DISPERSIONNYJ">\max c_{i j}=\alpha+\max \beta_{i}+\max \gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_5_DISPERSIONNYJ">\hat{c}_{i j}=x_{i j *}=\frac{1}{K} \sum_{k} X_{i j k} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_6_DISPERSIONNYJ">\begin{gathered}\hat{\alpha}=x_{* * * *}, \quad \hat{\beta}_{i}=x_{i * * *}-x_{* * *}, \quad \hat{\gamma}_{j}=x_{* j_{*}}-x_{* * *}, \\\hat{\delta}_{i j}=x_{i j *}-x_{i * *}-x_{* j_{*}}+x_{* * * * *},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_7_DISPERSIONNYJ">x_{i j k}-x_{i j_{*}}=x_{i j k}-\hat{c}_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_8_DISPERSIONNYJ">\begin{gathered}x_{i j k}-x_{i j_{*}}=y_{i j k}-y_{i j_{*}}, \quad \hat{\beta}_{i}=\beta_{i}+\left(y_{i * *}-y_{* * *}\right), \\\hat{\gamma}_{j}=\gamma_{j}+\left(y_{* j_{*}}-y_{* * *}\right), \\\hat{\delta}_{i j}=\delta_{i j}+\left(y_{i j_{*}}-y_{i * *}-y_{* j_{*}}+y_{* * *}\right),\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_9_DISPERSIONNYJ">\begin{gathered}S^{2}=\frac{1}{I J K} \sum_{i j k}\left(x_{i j k}-x_{* * *}\right)^{2} \\S_{0}^{2}=\frac{1}{I J K} \sum_{i j k}\left(x_{i j k}-x_{i j *}\right)^{2}=\frac{1}{I J K} \sum_{i j k}\left(y_{i j k}-y_{i j_{*}}\right)^{2} \\S_{1}^{2}=\frac{1}{I} \sum_{i} \hat{\beta}_{i}^{2}=\frac{1}{I} \sum_{i}\left[\beta_{i}+\left(y_{i * *}-y_{* * *}\right)\right]^{2} \\S_{2}^{2}=\frac{1}{J} \sum_{j} \hat{\gamma}_{i}^{2}=\frac{1}{J} \sum_{j}\left[\gamma_{j}+\left(y_{* j *}-y_{* * *}\right)\right]^{2}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_10_DISPERSIONNYJ">S_{3}^{2}=\frac{1}{I J} \sum_{i j} \widehat{\delta}_{i j}^{2}=\frac{1}{I J} \sum_{i j}\left[\delta_{i j}+\left(y_{i j *}-y_{i * *}-y_{* j_{*}}+y_{* * *}\right)\right]^{2} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_11_DISPERSIONNYJ">S^{2}=S_{0}^{2}+S_{1}^{2}+S_{2}^{2}+S_{3}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_12_DISPERSIONNYJ">\begin{gathered}s_{0}^{2}=\frac{K}{K-1} S_{0}^{2}, \quad s_{1}^{2}=\frac{I J K}{I-1} S_{1}^{2}, \quad s_{2}^{2}=\frac{I J K}{J-1} S_{2}^{2}, \\s_{3}^{2}=\frac{I J K}{(I-1)(J-1)} S_{3}^{2},\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_13_DISPERSIONNYJ">E s_{3}^{2}=\sigma^{2}+\frac{K}{(I-1)(J-1)} \sum_{i j} \delta_{i j}^{2},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_14_DISPERSIONNYJ">\frac{(I J K-I-J-1) s_{2}^{2}}{I J(K-1) s_{0}^{2}+(I-1)(J-1) s_{3}^{2}}=F_{2}^{*} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_15_DISPERSIONNYJ">\begin{gathered}I J(K-1) \frac{s_{0}^{2}}{\sigma^{2}}, \quad(I-1) \frac{s_{1}^{2}}{\sigma^{2}}, \quad(J-1) \frac{s_{2}^{2}}{\sigma^{2}}, \\(I-1)(J-1) \frac{s_{3}^{2}}{\sigma^{2}}\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_16_DISPERSIONNYJ">\begin{gathered}\lambda_{0}=0, \quad \lambda_{1}=J K \sum_{i} \beta_{i}^{2} / \sigma^{2}, \quad \lambda_{2}=I K \sum_{j} \gamma_{j}^{2} / \sigma^{2}, \\\lambda_{3}=K \sum_{i j} \delta_{i j}^{2} / \sigma^{2} .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_17_DISPERSIONNYJ">c_{i j}=c\left[u\left(z_{i}, w_{j}\right), \quad v\left(z_{i}, w_{j}\right)\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/241_18_DISPERSIONNYJ">\delta_{i j}=c_{i j}-c_{i *}-c_{* j}+c_{* *}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_1_DISPERSIONNYJ">a_{1}, \ldots, a_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_2_DISPERSIONNYJ">m_{1}, \ldots, M_{J}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_3_DISPERSIONNYJ">b_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_4_DISPERSIONNYJ">m_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_5_DISPERSIONNYJ">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_6_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_7_DISPERSIONNYJ">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_8_DISPERSIONNYJ">m_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_9_DISPERSIONNYJ">y_{i j k}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_10_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_11_DISPERSIONNYJ">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_12_DISPERSIONNYJ">m_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_13_DISPERSIONNYJ">y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_14_DISPERSIONNYJ">\left.Е y_{i j k}=0\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_15_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_16_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_17_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_18_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_19_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_20_DISPERSIONNYJ">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_21_DISPERSIONNYJ">i, b_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_22_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_23_DISPERSIONNYJ">i, x_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_24_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_25_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_26_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_27_DISPERSIONNYJ">y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_28_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_29_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_30_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_31_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_32_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_33_DISPERSIONNYJ">b_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_34_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_35_DISPERSIONNYJ">;-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_36_DISPERSIONNYJ">x_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_37_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_38_DISPERSIONNYJ">y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_39_DISPERSIONNYJ">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_40_DISPERSIONNYJ">c_{i j}=a_{i}+b_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_41_DISPERSIONNYJ">c_{i *}, c_{* j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_42_DISPERSIONNYJ">c_{* *}-\mathrm{pe}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_43_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_44_DISPERSIONNYJ">\alpha=c_{* *}, \beta_{i}=c_{i *}-c_{* *}, \gamma_{j}=c_{* j}-c_{* *}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_45_DISPERSIONNYJ">\delta_{i j}=c_{i j}-c_{i *}-c_{* j}+c_{* *}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_46_DISPERSIONNYJ">c_{i j}=\alpha+\beta_{i}+\gamma_{j}+\delta_{i j}, \quad i=1, \ldots, I, j=1, \ldots, J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_47_DISPERSIONNYJ">\left(c_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_48_DISPERSIONNYJ">i J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_49_DISPERSIONNYJ">\left\|c_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_50_DISPERSIONNYJ">i \times J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_51_DISPERSIONNYJ">i J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_52_DISPERSIONNYJ">\alpha_{i j}=\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_53_DISPERSIONNYJ">\beta_{i j}=\beta_{i}, \gamma_{i j}=\gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_54_DISPERSIONNYJ">\alpha_{i j}=\alpha</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_55_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_56_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_57_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_58_DISPERSIONNYJ">\left.\sum_{i j}\left(c_{i j}-\alpha\right)^{2}\right]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_59_DISPERSIONNYJ">\alpha_{i j}+\beta_{i j}=\alpha+\beta_{i}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_60_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_61_DISPERSIONNYJ">i, \alpha_{i j}+\gamma_{i j}=\alpha+\gamma_{j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_62_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_63_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_64_DISPERSIONNYJ">\alpha_{i j}+\beta_{i j}+\gamma_{i j}=\alpha+\beta_{i}+\gamma_{j}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_65_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_66_DISPERSIONNYJ">\alpha+\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_67_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_68_DISPERSIONNYJ">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_69_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_70_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_71_DISPERSIONNYJ">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_72_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_73_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_74_DISPERSIONNYJ">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_75_DISPERSIONNYJ">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_76_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_77_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_78_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_79_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_80_DISPERSIONNYJ">(i+j) K)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_81_DISPERSIONNYJ">\delta_{l j}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_82_DISPERSIONNYJ">\max c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_83_DISPERSIONNYJ">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_84_DISPERSIONNYJ">i J K</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_85_DISPERSIONNYJ">\gamma_{i j}=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_86_DISPERSIONNYJ">=\gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_87_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_88_DISPERSIONNYJ">\gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_89_DISPERSIONNYJ">\gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_90_DISPERSIONNYJ">\gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_91_DISPERSIONNYJ">\alpha+\beta_{1}+\gamma_{j}, \ldots, \alpha+\beta_{I}+\gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_92_DISPERSIONNYJ">j=1, \ldots, J</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_93_DISPERSIONNYJ">\alpha_{i j}+\beta_{i j}=\alpha+\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_94_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_95_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_96_DISPERSIONNYJ">\alpha+\beta_{i}=a_{i}+b_{i *} \neq a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_97_DISPERSIONNYJ">\alpha+\beta_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_98_DISPERSIONNYJ">\alpha+</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_99_DISPERSIONNYJ">+\beta_{i}+\gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_100_DISPERSIONNYJ">j</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_101_DISPERSIONNYJ">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_102_DISPERSIONNYJ">a_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_103_DISPERSIONNYJ">b_{i *}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_104_DISPERSIONNYJ">\alpha+\beta_{i}=a_{i}+b_{i *}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_105_DISPERSIONNYJ">i</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_106_DISPERSIONNYJ">a_{i}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_107_DISPERSIONNYJ">\alpha+\beta_{i}=b_{i *}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_108_DISPERSIONNYJ">\alpha, \beta_{i}, \gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_109_DISPERSIONNYJ">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_110_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_111_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_112_DISPERSIONNYJ">x_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_113_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_114_DISPERSIONNYJ">\alpha, \beta_{i}, \gamma_{j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_115_DISPERSIONNYJ">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_116_DISPERSIONNYJ">\left\|c_{i j}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_117_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_118_DISPERSIONNYJ">\hat{c}_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_119_DISPERSIONNYJ">\left(\hat{\alpha}_{i j}\right),\left(\hat{\beta}_{i j}\right),\left(\hat{\gamma}_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_120_DISPERSIONNYJ">\left(\hat{\delta}_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_121_DISPERSIONNYJ">\left(\alpha_{i j}\right),\left(\beta_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_122_DISPERSIONNYJ">\left(\gamma_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_123_DISPERSIONNYJ">\left(\delta_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_124_DISPERSIONNYJ">\left\{x_{i j k}\right\},\left\{x_{i j k}-x_{i j *}\right\},\left\{\hat{\beta}_{i}\right\},\left\{\hat{\gamma_{j}}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_125_DISPERSIONNYJ">\left\{\hat{\delta}_{i j}\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_126_DISPERSIONNYJ">y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_127_DISPERSIONNYJ">i, J, K \geqslant 2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_128_DISPERSIONNYJ">e s_{0}^{2}=\sigma^{2}, \quad E s_{1}^{2}=\sigma^{2}+\frac{J K}{I-1} \sum_{i} \beta_{i}^{2}, \quad E s_{2}^{2}=\sigma^{2}+\frac{I K}{J-1} \sum_{j} \gamma_{j}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_129_DISPERSIONNYJ">\sigma^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_130_DISPERSIONNYJ">y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_131_DISPERSIONNYJ">\sum_{i j} \delta_{i j}^{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_132_DISPERSIONNYJ">s_{\mathbf{3}}^{2} / s_{0}^{2}=F_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_133_DISPERSIONNYJ">\sum_{j} \gamma_{j}^{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_134_DISPERSIONNYJ">s_{2}^{2} / s_{0}^{2}=F_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_135_DISPERSIONNYJ">\sum_{i j} \delta_{i j}^{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_136_DISPERSIONNYJ">f_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_137_DISPERSIONNYJ">\sum_{i} \beta_{i}^{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_138_DISPERSIONNYJ">y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_139_DISPERSIONNYJ">y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_140_DISPERSIONNYJ">\left(\hat{\alpha}_{i j}\right),\left(\beta_{i j}\right),\left(\hat{\gamma}_{i j}\right),\left(\delta_{i j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_141_DISPERSIONNYJ">s_{0}^{2}, s_{1}^{2}, s_{2}^{2}, s_{3}^{2}-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_142_DISPERSIONNYJ">f_{m}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_143_DISPERSIONNYJ">\lambda_{m}, m=0,1,2,3</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_144_DISPERSIONNYJ">f_{0}=i J(K-1), f_{1}=I-1, f_{2}=J-1, f_{3}=(I-1)(J-1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_145_DISPERSIONNYJ">\lambda_{3}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_146_DISPERSIONNYJ">s_{3}^{2} / s_{0}^{2}=F_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_147_DISPERSIONNYJ">f</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_148_DISPERSIONNYJ">f_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_149_DISPERSIONNYJ">f_{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_150_DISPERSIONNYJ">x-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_151_DISPERSIONNYJ">\left\{f_{3}&gt;x\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_152_DISPERSIONNYJ">\varepsilon</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_153_DISPERSIONNYJ">x=x\left(\varepsilon ; f_{3}, f_{0}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_154_DISPERSIONNYJ">\lambda_{3}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_155_DISPERSIONNYJ">f_{3}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_156_DISPERSIONNYJ">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_157_DISPERSIONNYJ">f_{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_158_DISPERSIONNYJ">f_{2}^{*}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_159_DISPERSIONNYJ">\dot{\lambda}_{3}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_160_DISPERSIONNYJ">\lambda_{3}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_161_DISPERSIONNYJ">\lambda_{2}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_162_DISPERSIONNYJ">\lambda_{3}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_163_DISPERSIONNYJ">\lambda_{3}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_164_DISPERSIONNYJ">\hat{\alpha}+\hat{\beta}_{i}, i=1, \ldots, I</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_165_DISPERSIONNYJ">\lambda_{3}=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_166_DISPERSIONNYJ">x_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_167_DISPERSIONNYJ">(i, j)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_168_DISPERSIONNYJ">\delta_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_169_DISPERSIONNYJ">\left\|x_{i j *}\right\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_170_DISPERSIONNYJ">x_{i j k}=c_{i j}+y_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_171_DISPERSIONNYJ">x_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_172_DISPERSIONNYJ">c=c(u, v)-</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_173_DISPERSIONNYJ">u=u(z, w)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_174_DISPERSIONNYJ">v=v(z, w)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_175_DISPERSIONNYJ">z</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_176_DISPERSIONNYJ">w</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_177_DISPERSIONNYJ">z_{1}, \ldots, z_{I}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_178_DISPERSIONNYJ">w_{1}, \ldots, w_{J}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_179_DISPERSIONNYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_180_DISPERSIONNYJ">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_181_DISPERSIONNYJ">c_{i j}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_182_DISPERSIONNYJ">x_{i j k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_183_DISPERSIONNYJ">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_184_DISPERSIONNYJ">v</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_185_DISPERSIONNYJ">\sum_{i j} \delta_{i j}^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_186_DISPERSIONNYJ">c(u, v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_187_DISPERSIONNYJ">z=z(u, v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_188_DISPERSIONNYJ">w=w(u, v)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/241_189_DISPERSIONNYJ">1956 ;[4]</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/241_1_DISPERSIONNYJ">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/241_2_DISPERSIONNYJ">
+      <rel_text>статистика</rel_text>
+      <target>http://libmeta.ru/me/article/184_STATISTK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/241_3_DISPERSIONNYJ">
+      <rel_text>Математическая</rel_text>
+      <target>http://libmeta.ru/me/article/899_mateRAZMESchENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/241_4_DISPERSIONNYJ">
+      <rel_text>Дисперсионный анализ</rel_text>
+      <target>http://libmeta.ru/me/article/241_DISPERSIONNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/241_5_DISPERSIONNYJ">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+  </relations>
+  <text>в м а т е м а т й ч ес к о й с т а т и с т и к е - статистический метод, предназначенный для выявления влияния отдельных факторов на результат эксперимента, а также для последующего планирования аналогичных экспериментов. Первоначально Д. а. был предложен Р. Фишером [1] для обработки результатов агрономич. опытов по выявлению условий, при к-рых испытываемый сорт сельскохозяйственной культуры дает максимальный урожай. Современные приложения Д. а. охватывают широкий круг задач экономики, социологии, биологии и техники и трактуются обычно в терминах статистич. теории выявления систематич. различий между результатами непосредственных измерений, выполненных при тех или иных меняющихся условиях. Если значения неизвестных постоянных $URI[[http://libmeta.ru/me/formula/aux/241_1_DISPERSIONNYJ]]/URI$ могут быть измерены с помощью различных методов или измерительных средств $URI[[http://libmeta.ru/me/formula/aux/241_2_DISPERSIONNYJ]]/URI$, и в каждом случае систематич. ошибка $URI[[http://libmeta.ru/me/formula/aux/241_3_DISPERSIONNYJ]]/URI$ может, вообще говоря, зависеть как от выбранного метода $URI[[http://libmeta.ru/me/formula/aux/241_4_DISPERSIONNYJ]]/URI$, так и от неизвестного измеряемого значения $URI[[http://libmeta.ru/me/formula/aux/241_5_DISPERSIONNYJ]]/URI$, то результаты таких измерений представляют собой суммы вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_1_DISPERSIONNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/241_6_DISPERSIONNYJ]]/URI$ - количество независимых измерений неизвестной велічины $URI[[http://libmeta.ru/me/formula/aux/241_7_DISPERSIONNYJ]]/URI$ методом $URI[[http://libmeta.ru/me/formula/aux/241_8_DISPERSIONNYJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/241_9_DISPERSIONNYJ]]/URI$ случайная ошибка $URI[[http://libmeta.ru/me/formula/aux/241_10_DISPERSIONNYJ]]/URI$-го измерения величины $URI[[http://libmeta.ru/me/formula/aux/241_11_DISPERSIONNYJ]]/URI$ методом $URI[[http://libmeta.ru/me/formula/aux/241_12_DISPERSIONNYJ]]/URI$ (предполагается, что все $URI[[http://libmeta.ru/me/formula/aux/241_13_DISPERSIONNYJ]]/URI$ - независимые одинаково распределенные случайные величины, имеюшие нулевое математич, ожндание: $URI[[http://libmeta.ru/me/formula/aux/241_14_DISPERSIONNYJ]]/URI$. Такая линейная модель наз. Д в у х ф а к т о р н о й с х е м о й Д. а.; первый фактор - истинное значение измеряемой величины, второй - метод измерения, причем в данном случае для каждой возможной комбинации значений первого и второго факторов осуществляется одинаковое количество $URI[[http://libmeta.ru/me/formula/aux/241_15_DISPERSIONNYJ]]/URI$ независимых измерений (это допущение для целей Д. а. не является существенным и введено здесь лишь ради простоты изложения).
+
+Пршмером подобной ситуации могут служить спортивные соревнования $URI[[http://libmeta.ru/me/formula/aux/241_16_DISPERSIONNYJ]]/URI$ спортсменов, мастерство к-рых оценівается $URI[[http://libmeta.ru/me/formula/aux/241_17_DISPERSIONNYJ]]/URI$ судьями, причем каждый участник соревнований выступает $URI[[http://libmeta.ru/me/formula/aux/241_18_DISPERSIONNYJ]]/URI$ раз (имеет $URI[[http://libmeta.ru/me/formula/aux/241_19_DISPERSIONNYJ]]/URI$ «попыток»). В этом случае $URI[[http://libmeta.ru/me/formula/aux/241_20_DISPERSIONNYJ]]/URI$ - истинное значение показателя мастерства спортсмена с номером $URI[[http://libmeta.ru/me/formula/aux/241_21_DISPERSIONNYJ]]/URI$ - систематич. ошибка, вносімая в оценку мастерства $URI[[http://libmeta.ru/me/formula/aux/241_22_DISPERSIONNYJ]]/URI$-го спортсмена судьей с номером $URI[[http://libmeta.ru/me/formula/aux/241_23_DISPERSIONNYJ]]/URI$ - оценка, выставленная $URI[[http://libmeta.ru/me/formula/aux/241_24_DISPERSIONNYJ]]/URI$-м судьей $URI[[http://libmeta.ru/me/formula/aux/241_25_DISPERSIONNYJ]]/URI$-му спортсмену после выполнений последним $URI[[http://libmeta.ru/me/formula/aux/241_26_DISPERSIONNYJ]]/URI$-й попытки, a $URI[[http://libmeta.ru/me/formula/aux/241_27_DISPERSIONNYJ]]/URI$ - соответствующая случайная погрешность. Подобная схема типична для так наз. субъективной экспертізы качества нескольких объектов, осуществляемой группой независимых экспертов. Другой пример статистич. исследование урожайности сельскохозяйственной культуры в зависимости от одного из $URI[[http://libmeta.ru/me/formula/aux/241_28_DISPERSIONNYJ]]/URI$ сортов почвы п $URI[[http://libmeta.ru/me/formula/aux/241_29_DISPERSIONNYJ]]/URI$ методов ее обработки, причем для каждого сорта $URI[[http://libmeta.ru/me/formula/aux/241_30_DISPERSIONNYJ]]/URI$ почвы и каждого метода обработки с номером $URI[[http://libmeta.ru/me/formula/aux/241_31_DISPERSIONNYJ]]/URI$ осуществляется $URI[[http://libmeta.ru/me/formula/aux/241_32_DISPERSIONNYJ]]/URI$ независимых экспериментов (в этом примере $URI[[http://libmeta.ru/me/formula/aux/241_33_DISPERSIONNYJ]]/URI$ - истинное значение урожайности для $URI[[http://libmeta.ru/me/formula/aux/241_34_DISPERSIONNYJ]]/URI$-го сорта почвы при $URI[[http://libmeta.ru/me/formula/aux/241_35_DISPERSIONNYJ]]/URI$ м способе обработки, $URI[[http://libmeta.ru/me/formula/aux/241_36_DISPERSIONNYJ]]/URI$ - соответствующая экспериментально наблюдаемая урожайность в $URI[[http://libmeta.ru/me/formula/aux/241_37_DISPERSIONNYJ]]/URI$-м опыте, а $URI[[http://libmeta.ru/me/formula/aux/241_38_DISPERSIONNYJ]]/URI$ - ее случайная ошибка, возникающая пз-за тех или иных случайных причин; что же касается величин $URI[[http://libmeta.ru/me/formula/aux/241_39_DISPERSIONNYJ]]/URI$, то в агрономич. огытах их разумно считать равными нулю).
+
+Положим $URI[[http://libmeta.ru/me/formula/aux/241_40_DISPERSIONNYJ]]/URI$, и пусть $URI[[http://libmeta.ru/me/formula/aux/241_41_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_42_DISPERSIONNYJ]]/URI$ зультаты осреднений $URI[[http://libmeta.ru/me/formula/aux/241_43_DISPERSIONNYJ]]/URI$ по соответствующим индексам, T. e.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_2_DISPERSIONNYJ]]/URI
+\]
+
+Пусть, кроме того, $URI[[http://libmeta.ru/me/formula/aux/241_44_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_45_DISPERSIONNYJ]]/URI$ Идея Д. а. основана на очевид-
+ном тождестве
+
+$URI[[http://libmeta.ru/me/formula/aux/241_46_DISPERSIONNYJ]]/URI$. (1) Если символом $URI[[http://libmeta.ru/me/formula/aux/241_47_DISPERSIONNYJ]]/URI$ обозначить вектор размерности $URI[[http://libmeta.ru/me/formula/aux/241_48_DISPERSIONNYJ]]/URI$, получаемый из матрицы $URI[[http://libmeta.ru/me/formula/aux/241_49_DISPERSIONNYJ]]/URI$ порядка $URI[[http://libmeta.ru/me/formula/aux/241_50_DISPERSIONNYJ]]/URI$ с помощью какого-либо заранее фиксированного способа упорядочивания ее элементов, то (1) можно записать в виде равенства
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_3_DISPERSIONNYJ]]/URI
+\]
+
+где все векторы имеют размерность $URI[[http://libmeta.ru/me/formula/aux/241_51_DISPERSIONNYJ]]/URI$, причем $URI[[http://libmeta.ru/me/formula/aux/241_52_DISPERSIONNYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/241_53_DISPERSIONNYJ]]/URI$. Так как четыре вектора в правой части (2) ортогональны, то $URI[[http://libmeta.ru/me/formula/aux/241_54_DISPERSIONNYJ]]/URI$ - наилучшее приближение функции $URI[[http://libmeta.ru/me/formula/aux/241_55_DISPERSIONNYJ]]/URI$ от аргументов $URI[[http://libmeta.ru/me/formula/aux/241_56_DISPERSIONNYJ]]/URI$ п $URI[[http://libmeta.ru/me/formula/aux/241_57_DISPERSIONNYJ]]/URI$ постоянной величиной [в смысле минимальности суммы квадратов отклонений $URI[[http://libmeta.ru/me/formula/aux/241_58_DISPERSIONNYJ]]/URI$. В том же смысле $URI[[http://libmeta.ru/me/formula/aux/241_59_DISPERSIONNYJ]]/URI$ наилучшее приближение $URI[[http://libmeta.ru/me/formula/aux/241_60_DISPERSIONNYJ]]/URI$ функцией, зависящей лишь от $URI[[http://libmeta.ru/me/formula/aux/241_61_DISPERSIONNYJ]]/URI$ наилучшее приближение $URI[[http://libmeta.ru/me/formula/aux/241_62_DISPERSIONNYJ]]/URI$ функцией, зависящей лишь от $URI[[http://libmeta.ru/me/formula/aux/241_63_DISPERSIONNYJ]]/URI$, а $URI[[http://libmeta.ru/me/formula/aux/241_64_DISPERSIONNYJ]]/URI$ наилучшее приближение $URI[[http://libmeta.ru/me/formula/aux/241_65_DISPERSIONNYJ]]/URI$ суммой функций, из к-рых одна (напр., $URI[[http://libmeta.ru/me/formula/aux/241_66_DISPERSIONNYJ]]/URI$ ) зависит лишь от $URI[[http://libmeta.ru/me/formula/aux/241_67_DISPERSIONNYJ]]/URI$, а другая - лишь от j. Этот факт, установленный Р. Фишером (см. [1]) в 1918 , позднее послужил основой теории квадратичных приближений функций.
+
+В примере, связанном со спортивными соревнованиями, функция $URI[[http://libmeta.ru/me/formula/aux/241_68_DISPERSIONNYJ]]/URI$ выражает «взаимодействие» $URI[[http://libmeta.ru/me/formula/aux/241_69_DISPERSIONNYJ]]/URI$-го спортсмена и $URI[[http://libmeta.ru/me/formula/aux/241_70_DISPERSIONNYJ]]/URI$-го судыи (положительное значение $URI[[http://libmeta.ru/me/formula/aux/241_71_DISPERSIONNYJ]]/URI$ означает «подсуживание», т. е. систематич. завышение $URI[[http://libmeta.ru/me/formula/aux/241_72_DISPERSIONNYJ]]/URI$-м судьей оценки мастерства $URI[[http://libmeta.ru/me/formula/aux/241_73_DISPERSIONNYJ]]/URI$-го спортсмена, а отрицательное значение $URI[[http://libmeta.ru/me/formula/aux/241_74_DISPERSIONNYJ]]/URI$ означает «засуживание», т. е. систематич. снижение оценки). Равенство всех $URI[[http://libmeta.ru/me/formula/aux/241_75_DISPERSIONNYJ]]/URI$ нулю - необходимое требование, к-рое надлежит предъявлять к работе группы экспертов. В случае же агрономич. опытов такое равенство рассматривается как гипотеза, подлежащая проверке по результатам экспериментов, поскольку основная цель здесь - отыскание таких значений $URI[[http://libmeta.ru/me/formula/aux/241_76_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_77_DISPERSIONNYJ]]/URI$, при к-рых функция (1) достигает максимального значения. Если эта гипотеза верна, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_4_DISPERSIONNYJ]]/URI
+\]
+
+и значит, выявление наилучших «почвы» и «обработки» может быть осуществлено раздельно, что приводит к существенному сокращению числа экспериментов (напр., можно при каком-либо одном способе обработки испытать все $URI[[http://libmeta.ru/me/formula/aux/241_78_DISPERSIONNYJ]]/URI$ сортов «почвы» и определить наилучший сорт, а затем на этом сорте опробовать все $URI[[http://libmeta.ru/me/formula/aux/241_79_DISPERSIONNYJ]]/URI$ способов «обработки» и найти наилучший способ; общее количество экспериментов с повторениями будет равно $URI[[http://libmeta.ru/me/formula/aux/241_80_DISPERSIONNYJ]]/URI$. Если же гипотеза \{все $URI[[http://libmeta.ru/me/formula/aux/241_81_DISPERSIONNYJ]]/URI$ \} неверна, то для определения $URI[[http://libmeta.ru/me/formula/aux/241_82_DISPERSIONNYJ]]/URI$ необходим описанный выше «полный план», требующий при $URI[[http://libmeta.ru/me/formula/aux/241_83_DISPERSIONNYJ]]/URI$ повторениях $URI[[http://libmeta.ru/me/formula/aux/241_84_DISPERSIONNYJ]]/URI$ экспериментов.
+
+В ситуации спортивных соревнований функция $URI[[http://libmeta.ru/me/formula/aux/241_85_DISPERSIONNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/241_86_DISPERSIONNYJ]]/URI$ может трактоваться как систематич. ошибка, допускаемая $URI[[http://libmeta.ru/me/formula/aux/241_87_DISPERSIONNYJ]]/URI$-м судьей по отношению ко всем спортсменам. В конечном счете $URI[[http://libmeta.ru/me/formula/aux/241_88_DISPERSIONNYJ]]/URI$ - характеристика &quot;строгости» или «либеральности» ;-го судьи. В идеале хотелось бы, чтобы все $URI[[http://libmeta.ru/me/formula/aux/241_89_DISPERSIONNYJ]]/URI$ были нулевыми, но в реальных условиях приходится мириться с наличием ненулевых значений $URI[[http://libmeta.ru/me/formula/aux/241_90_DISPERSIONNYJ]]/URI$ и учитывать это обстоятельство при подведении итогов экспертизы (напр., за основу сравнения мастерства спортсменов можно принять не последовательности истинных значений $URI[[http://libmeta.ru/me/formula/aux/241_91_DISPERSIONNYJ]]/URI$, a лишь результаты упорядочиваний этих чисел по их величине, поскольку при всех $URI[[http://libmeta.ru/me/formula/aux/241_92_DISPERSIONNYJ]]/URI$ такие упорядочивания будут одинаковыми). Наконец, сумма двух оставшихся функций $URI[[http://libmeta.ru/me/formula/aux/241_93_DISPERSIONNYJ]]/URI$ зависит лишь от $URI[[http://libmeta.ru/me/formula/aux/241_94_DISPERSIONNYJ]]/URI$ и поэтому может быть использована для характеризации мастерства $URI[[http://libmeta.ru/me/formula/aux/241_95_DISPERSIONNYJ]]/URI$-го спортсмена. Однако здесь нужно помнить, что $URI[[http://libmeta.ru/me/formula/aux/241_96_DISPERSIONNYJ]]/URI$. Поэтому упорядочивание всех спортсменов по значениям $URI[[http://libmeta.ru/me/formula/aux/241_97_DISPERSIONNYJ]]/URI$ (или по $URI[[http://libmeta.ru/me/formula/aux/241_98_DISPERSIONNYJ]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/241_99_DISPERSIONNYJ]]/URI$ при каждом фиксированном $URI[[http://libmeta.ru/me/formula/aux/241_100_DISPERSIONNYJ]]/URI$ ) может не совпадать с упорядочиванием по значениям $URI[[http://libmeta.ru/me/formula/aux/241_101_DISPERSIONNYJ]]/URI$. При практической обработке экспертных оценок этим обстоятельством приходится пренебрегать, так как упомянутый полный план экспериментов не позволяет оценивать отдельно $URI[[http://libmeta.ru/me/formula/aux/241_102_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_103_DISPERSIONNYJ]]/URI$. Таким образом, число $URI[[http://libmeta.ru/me/formula/aux/241_104_DISPERSIONNYJ]]/URI$ характеризует не только мастерство $URI[[http://libmeta.ru/me/formula/aux/241_105_DISPERSIONNYJ]]/URI$-го спортсмена, но и в той или иной мере отношение экспертов к этому мастерству. Поэтому, напр., результаты субъективных экспертных оценок, осуществленных в разное время (в частности, на нескольких Олимпийских играх), едва ли можно считать сопоставимыми. В случае же агрономич. опытов подобные трудности не возникают, поскольку все $URI[[http://libmeta.ru/me/formula/aux/241_106_DISPERSIONNYJ]]/URI$ и значит, $URI[[http://libmeta.ru/me/formula/aux/241_107_DISPERSIONNYJ]]/URI$. Истинные значения функций $URI[[http://libmeta.ru/me/formula/aux/241_108_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_109_DISPERSIONNYJ]]/URI$ неизвестны и выражаются в терминах неизвестных функций $URI[[http://libmeta.ru/me/formula/aux/241_110_DISPERSIONNYJ]]/URI$. Поэтому первый этап Д. а. заключается в отыскании статистич. оценок для $URI[[http://libmeta.ru/me/formula/aux/241_111_DISPERSIONNYJ]]/URI$ по результатам наблюдений $URI[[http://libmeta.ru/me/formula/aux/241_112_DISPERSIONNYJ]]/URI$. Несмещенная и имеющая минимальную дисперсию линейная оценка для $URI[[http://libmeta.ru/me/formula/aux/241_113_DISPERSIONNYJ]]/URI$ выражается формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_5_DISPERSIONNYJ]]/URI
+\]
+
+Так как $URI[[http://libmeta.ru/me/formula/aux/241_114_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_115_DISPERSIONNYJ]]/URI$ - линейные функции от элементов матрицы $URI[[http://libmeta.ru/me/formula/aux/241_116_DISPERSIONNYJ]]/URI$, то несмещенные линейные оценки для этих функций, имеющие минимальную дисперсию, получаются в результате замены аргументов $URI[[http://libmeta.ru/me/formula/aux/241_117_DISPERSIONNYJ]]/URI$ соответствующими оценками, $URI[[http://libmeta.ru/me/formula/aux/241_118_DISPERSIONNYJ]]/URI$, т. е.
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_6_DISPERSIONNYJ]]/URI
+\]
+
+причем случайные векторы $URI[[http://libmeta.ru/me/formula/aux/241_119_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_120_DISPERSIONNYJ]]/URI$, определенные так же, как введенные выше $URI[[http://libmeta.ru/me/formula/aux/241_121_DISPERSIONNYJ]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/241_122_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_123_DISPERSIONNYJ]]/URI$, обладают свойством ортогональности, и значит, они представляют собой некоррелированные случайные векторы (иными словами, любые две компоненты, принадлежащие разным векторам, имеют нулевой коэффициент корреляции). Кроме того, любая разность вида
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_7_DISPERSIONNYJ]]/URI
+\]
+
+некоррелирована с любой из компонент этих четырех векторов. Рассмотрим пять совокупностей случайных величин $URI[[http://libmeta.ru/me/formula/aux/241_124_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_125_DISPERSIONNYJ]]/URI$. Так как
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_8_DISPERSIONNYJ]]/URI
+\]
+
+то дисперсии эмпирич. распределений, соответствующих указанным совокупностям, выражаются формулами
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_9_DISPERSIONNYJ]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/241_10_DISPERSIONNYJ]]/URI
+\]
+
+Эти эмпирич. дисперсии представляют собой суммы квадратов случайных величин, любые две из к-рых некоррелированы, если только они принадлежат разным суммам; при этом относительно всех $URI[[http://libmeta.ru/me/formula/aux/241_126_DISPERSIONNYJ]]/URI$ справедливо тождество
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_11_DISPERSIONNYJ]]/URI
+\]
+
+объясняющее происхождение термина «д. а.».
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/241_127_DISPERSIONNYJ]]/URI$ и пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_12_DISPERSIONNYJ]]/URI
+\]
+
+в таком случае
+
+$URI[[http://libmeta.ru/me/formula/aux/241_128_DISPERSIONNYJ]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_13_DISPERSIONNYJ]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/241_129_DISPERSIONNYJ]]/URI$ - дисперсия случайных ошибок $URI[[http://libmeta.ru/me/formula/aux/241_130_DISPERSIONNYJ]]/URI$. На основе этих формул и строится второй этап Д. а., посвященный выявлению влияния первого іг второго факторов на результаты эксперимента (в агрономич. опытах первый фактор - copт «почвы», второй - способ «обработки»). Напр., если требуется проверіть гипотезу отсутствия «взаимодействия» факторов, к-рая выражается равенством $URI[[http://libmeta.ru/me/formula/aux/241_131_DISPERSIONNYJ]]/URI$, то разумно вычислить д и с п е р с и онно е о т н о шени е $URI[[http://libmeta.ru/me/formula/aux/241_132_DISPERSIONNYJ]]/URI$. Если это отношение значимо отличается от единицы, то проверяемая гипотеза отвергается. Точно так же для проверки гипотезы $URI[[http://libmeta.ru/me/formula/aux/241_133_DISPERSIONNYJ]]/URI$ полезно отношение $URI[[http://libmeta.ru/me/formula/aux/241_134_DISPERSIONNYJ]]/URI$, к-рое надлежит также сравнить с единицей; еслі при этом известно, что $URI[[http://libmeta.ru/me/formula/aux/241_135_DISPERSIONNYJ]]/URI$, то вместо $URI[[http://libmeta.ru/me/formula/aux/241_136_DISPERSIONNYJ]]/URI$ целесообразно сравнить с единицей отношение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_14_DISPERSIONNYJ]]/URI
+\]
+
+Аналогичным образом можно постролть статистику, позволяющую дать заключение о справедливости или ложности гипотезы $URI[[http://libmeta.ru/me/formula/aux/241_137_DISPERSIONNYJ]]/URI$.
+
+Точный смысл понятия значимого отличия указанных отношений от единицы может быть определен лишь с учетом закона распределения случайных ошшбок $URI[[http://libmeta.ru/me/formula/aux/241_138_DISPERSIONNYJ]]/URI$. В Д. а. наиболее обстоятельно изучена ситуація, в к-рой все $URI[[http://libmeta.ru/me/formula/aux/241_139_DISPERSIONNYJ]]/URI$ распределены нормально. В этом случае $URI[[http://libmeta.ru/me/formula/aux/241_140_DISPERSIONNYJ]]/URI$ - независимые случайные векторы, а $URI[[http://libmeta.ru/me/formula/aux/241_141_DISPERSIONNYJ]]/URI$ независимые случайные велічіны, причем отношения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_15_DISPERSIONNYJ]]/URI
+\]
+
+подчиняются нецентральным распределениям хи-квадрат с $URI[[http://libmeta.ru/me/formula/aux/241_142_DISPERSIONNYJ]]/URI$ степенями свободы и параметрами нецентральности $URI[[http://libmeta.ru/me/formula/aux/241_143_DISPERSIONNYJ]]/URI$, где
+
+$URI[[http://libmeta.ru/me/formula/aux/241_144_DISPERSIONNYJ]]/URI$;
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_16_DISPERSIONNYJ]]/URI
+\]
+
+Если параметр нецентральности равен нулю, то нецентральное распределение хи-квадрат совпадает с обычным распределением хи-квадрат. Поэтому в случае справедливости гипотезы $URI[[http://libmeta.ru/me/formula/aux/241_145_DISPERSIONNYJ]]/URI$ отношение $URI[[http://libmeta.ru/me/formula/aux/241_146_DISPERSIONNYJ]]/URI$ подчиняется $URI[[http://libmeta.ru/me/formula/aux/241_147_DISPERSIONNYJ]]/URI$-распределению (распределению дисперсіонного отношения) с параметрами $URI[[http://libmeta.ru/me/formula/aux/241_148_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_149_DISPERSIONNYJ]]/URI$. Пусть $URI[[http://libmeta.ru/me/formula/aux/241_150_DISPERSIONNYJ]]/URI$ такое число, для к-рого вероятность события $URI[[http://libmeta.ru/me/formula/aux/241_151_DISPERSIONNYJ]]/URI$ равна заданному значению $URI[[http://libmeta.ru/me/formula/aux/241_152_DISPERSIONNYJ]]/URI$, называемому у р о в н е м 3 н а ч им о с т и (таблицы функции $URI[[http://libmeta.ru/me/formula/aux/241_153_DISPERSIONNYJ]]/URI$ имеются в большинстве пособий по математич. статистике). Критерием для проверки гипотезы $URI[[http://libmeta.ru/me/formula/aux/241_154_DISPERSIONNYJ]]/URI$ служит правпло, согласно к-рому эта гипотеза отвергается, если наб́людаемое значение $URI[[http://libmeta.ru/me/formula/aux/241_155_DISPERSIONNYJ]]/URI$ превышает $URI[[http://libmeta.ru/me/formula/aux/241_156_DISPERSIONNYJ]]/URI$; п противном случає гипотеза считается не противоречащей результатам наблюдений. Аналогичным образом конструируются критерии, основанные на статистиках $URI[[http://libmeta.ru/me/formula/aux/241_157_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_158_DISPERSIONNYJ]]/URI$.
+
+Дальнейшие этапы Д. а. существенно завпсят не только от реального содержания конкретной задачii, но также и от результатов статистич. проверки гіпотез на втором этапе. Напр., в условиях агрономич. опытов справедливость гипотезы $URI[[http://libmeta.ru/me/formula/aux/241_159_DISPERSIONNYJ]]/URI$, как указано выше, позволяет более экономно спланировать аналогічные дальнейшие эксперименты (если помимо гипотезы $URI[[http://libmeta.ru/me/formula/aux/241_160_DISPERSIONNYJ]]/URI$ справедлива также и гипотеза $URI[[http://libmeta.ru/me/formula/aux/241_161_DISPERSIONNYJ]]/URI$, то это означает, что урожайность зависит лишь от сорта «почвы», Ii поэтому в дальнейших опытах можно воспользоваться схемой однофакторного Д. а.); если же гипотеза $URI[[http://libmeta.ru/me/formula/aux/241_162_DISPERSIONNYJ]]/URI$ отвергается, то разумно проверить, нет ли в данной задаче неучтенного третьего фактора? Если сорта «почвы» и способы ее «обработки» варьировались не в одном и том же месте, а в различных географич. зонах, то таким фактором могут быть климатич. или географич. условия, и «обработка&quot; наблюдений потребует применения трехфакторного Д. а.
+
+В случае экспертных оценок статистически подтвержденная справедливость гипотезы $URI[[http://libmeta.ru/me/formula/aux/241_163_DISPERSIONNYJ]]/URI$ дает основание для упорядочивания сравниваемых объектов (напр., спортсменов) по значениям величин $URI[[http://libmeta.ru/me/formula/aux/241_164_DISPERSIONNYJ]]/URI$. Если же гипотеза $URI[[http://libmeta.ru/me/formula/aux/241_165_DISPERSIONNYJ]]/URI$ отвергается (в задаче о спортивных соревнованиях әто означает статистич. обнаружение «взаимодействия» нек-рых спортсменов и судей), то естественно попытаться перевычислить все результаты заново, предварітельно исключив из рассмотрения $URI[[http://libmeta.ru/me/formula/aux/241_166_DISPERSIONNYJ]]/URI$ с такими парами индексов $URI[[http://libmeta.ru/me/formula/aux/241_167_DISPERSIONNYJ]]/URI$, для к-рых абсолютные значения статистич. оценок $URI[[http://libmeta.ru/me/formula/aux/241_168_DISPERSIONNYJ]]/URI$ превышают нек-рый заранее установленный допустимый уровень. Это означает, что из матрıцы $URI[[http://libmeta.ru/me/formula/aux/241_169_DISPERSIONNYJ]]/URI$ вычеркиваются нек-рые элементы, и значит, план Д. а. становится неполным.
+
+Модели современного Д. а. охватывают широкий круг реальных экспериментальных схем (напр., схемы неполных планов, со случайно или неслучайно отобран-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0243441cfa13aaa74c7bg-1.jpg?height=43&amp;width=831&amp;top_left_y=941&amp;top_left_x=120)
+статістич. выводы во многих случаях находятся в стадии разработкі. В частности, еще (к 1978) далеки от окончательного решения те задачи, в к-рых результаты наблюдений $URI[[http://libmeta.ru/me/formula/aux/241_170_DISPERSIONNYJ]]/URI$ не являются одинаково распределеннымі случайными величинами; еще более трудная задача возникает в случае зависимости величин $URI[[http://libmeta.ru/me/formula/aux/241_171_DISPERSIONNYJ]]/URI$. Неизвестно решение проблемы выбора факторов (даже в линейном случае). Суть этӧй проблемы заключается в следующем: пусть $URI[[http://libmeta.ru/me/formula/aux/241_172_DISPERSIONNYJ]]/URI$ непрерывная функция и пусть $URI[[http://libmeta.ru/me/formula/aux/241_173_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_174_DISPERSIONNYJ]]/URI$ - какие-либо линейные функции от переменных $URI[[http://libmeta.ru/me/formula/aux/241_175_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_176_DISPERSIONNYJ]]/URI$. Фиксируя значения $URI[[http://libmeta.ru/me/formula/aux/241_177_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_178_DISPERSIONNYJ]]/URI$, можно при каждом заданном выборе линейных функций $URI[[http://libmeta.ru/me/formula/aux/241_179_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_180_DISPERSIONNYJ]]/URI$ определить $URI[[http://libmeta.ru/me/formula/aux/241_181_DISPERSIONNYJ]]/URI$ формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_17_DISPERSIONNYJ]]/URI
+\]
+
+и построить Д. а. этих величин по результатам соответствующих наблюдений $URI[[http://libmeta.ru/me/formula/aux/241_182_DISPERSIONNYJ]]/URI$. Проблема заключается в отыскании таких линейных функций $URI[[http://libmeta.ru/me/formula/aux/241_183_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_184_DISPERSIONNYJ]]/URI$, к-рым соответствует минимальное значение суммы квадратов $URI[[http://libmeta.ru/me/formula/aux/241_185_DISPERSIONNYJ]]/URI$, где
+
+\[
+URI[[http://libmeta.ru/me/formula/main/241_18_DISPERSIONNYJ]]/URI
+\]
+
+(предполагается, что функция $URI[[http://libmeta.ru/me/formula/aux/241_186_DISPERSIONNYJ]]/URI$ неизвестна). В терминах Д. а. эта проблема сводится к статистич. отысканію таких факторов $URI[[http://libmeta.ru/me/formula/aux/241_187_DISPERSIONNYJ]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/241_188_DISPERSIONNYJ]]/URI$, к-рым соответствует &quot;наименьшее взаимодействие».
+
+URI[[http://libmeta.ru/me/relation/241_5_DISPERSIONNYJ]]/URI um.: [1] F i s h e r R. A., Statistical methods for research workers, Edinburgh, 1925; [2] Ш е ф ф е Г., URI[[http://libmeta.ru/me/relation/241_4_DISPERSIONNYJ]]/URI, пер. с англ., М., 1963; [3] X а л ь д А., URI[[http://libmeta.ru/me/relation/241_3_DISPERSIONNYJ]]/URI URI[[http://libmeta.ru/me/relation/241_2_DISPERSIONNYJ]]/URI с техническими приложениями, пер. с англ., М.,
+$URI[[http://libmeta.ru/me/formula/aux/241_189_DISPERSIONNYJ]]/URI$ С е д е к о р Д ж. У., Статистические URI[[http://libmeta.ru/me/relation/241_1_DISPERSIONNYJ]]/URI в применении к исстедованиям в сельском хозяйстве и биологии, пер. с англ., М., 1961 .</text>
+  <text_orig>в м а т е м а т й ч ес к о й с т а т и с т и к е - статистический метод, предназначенный для выявления влияния отдельных факторов на результат эксперимента, а также для последующего планирования аналогичных экспериментов. Первоначально Д. а. был предложен Р. Фишером [1] для обработки результатов агрономич. опытов по выявлению условий, при к-рых испытываемый сорт сельскохозяйственной культуры дает максимальный урожай. Современные приложения Д. а. охватывают широкий круг задач экономики, социологии, биологии и техники и трактуются обычно в терминах статистич. теории выявления систематич. различий между результатами непосредственных измерений, выполненных при тех или иных меняющихся условиях. Если значения неизвестных постоянных $a_{1}, \ldots, a_{I}$ могут быть измерены с помощью различных методов или измерительных средств $M_{1}, \ldots, M_{J}$, и в каждом случае систематич. ошибка $b_{i j}$ может, вообще говоря, зависеть как от выбранного метода $M_{j}$, так и от неизвестного измеряемого значения $a_{i}$, то результаты таких измерений представляют собой суммы вида
+
+\[
+\begin{gathered}
+x_{i j k}=a_{i}+b_{i j}+y_{i j k}, \\
+i=1, \ldots, I ; \quad j=1, \ldots, J, k=1, \ldots, K,
+\end{gathered}
+\]
+
+где $K$ - количество независимых измерений неизвестной велічины $a_{i}$ методом $M_{j}$, а $y_{i j k}-$ случайная ошибка $k$-го измерения величины $a_{i}$ методом $M_{j}$ (предполагается, что все $y_{i j k}$ - независимые одинаково распределенные случайные величины, имеюшие нулевое математич, ожндание: $\left.Е y_{i j k}=0\right)$. Такая линейная модель наз. Д в у х ф а к т о р н о й с х е м о й Д. а.; первый фактор - истинное значение измеряемой величины, второй - метод измерения, причем в данном случае для каждой возможной комбинации значений первого и второго факторов осуществляется одинаковое количество $K$ независимых измерений (это допущение для целей Д. а. не является существенным и введено здесь лишь ради простоты изложения).
+
+Пршмером подобной ситуации могут служить спортивные соревнования $I$ спортсменов, мастерство к-рых оценівается $J$ судьями, причем каждый участник соревнований выступает $K$ раз (имеет $K$ «попыток»). В этом случае $a_{i}$ - истинное значение показателя мастерства спортсмена с номером $i, b_{i j}$ - систематич. ошибка, вносімая в оценку мастерства $i$-го спортсмена судьей с номером $i, x_{i j k}$ - оценка, выставленная $j$-м судьей $i$-му спортсмену после выполнений последним $k$-й попытки, a $y_{i j k}$ - соответствующая случайная погрешность. Подобная схема типична для так наз. субъективной экспертізы качества нескольких объектов, осуществляемой группой независимых экспертов. Другой пример статистич. исследование урожайности сельскохозяйственной культуры в зависимости от одного из $I$ сортов почвы п $J$ методов ее обработки, причем для каждого сорта $i$ почвы и каждого метода обработки с номером $j$ осуществляется $k$ независимых экспериментов (в этом примере $b_{i j}$ - истинное значение урожайности для $i$-го сорта почвы при $;-$ м способе обработки, $x_{i j k}$ - соответствующая экспериментально наблюдаемая урожайность в $k$-м опыте, а $y_{i j k}$ - ее случайная ошибка, возникающая пз-за тех или иных случайных причин; что же касается величин $a_{i}$, то в агрономич. огытах их разумно считать равными нулю).
+
+Положим $c_{i j}=a_{i}+b_{i j}$, и пусть $c_{i *}, c_{* j}$ и $c_{* *}-\mathrm{pe}-$ зультаты осреднений $c_{i j}$ по соответствующим индексам, T. e.
+
+\[
+\begin{gathered}
+c_{i *}=\frac{1}{J} \sum_{j} c_{i j}, \quad c_{* j}=\frac{1}{I} \sum_{i} c_{i j}, \\
+c_{* * *}=\frac{1}{I J} \sum_{i j} c_{i j}=\frac{1}{I} \sum_{i} c_{i *}=\frac{1}{J} \sum_{j} c_{* j} .
+\end{gathered}
+\]
+
+Пусть, кроме того, $\alpha=c_{* *}, \beta_{i}=c_{i *}-c_{* *}, \gamma_{j}=c_{* j}-c_{* *}$ и $\delta_{i j}=c_{i j}-c_{i *}-c_{* j}+c_{* *}$ Идея Д. а. основана на очевид-
+ном тождестве
+
+$c_{i j}=\alpha+\beta_{i}+\gamma_{j}+\delta_{i j}, \quad i=1, \ldots, I, j=1, \ldots, J$. (1) Если символом $\left(c_{i j}\right)$ обозначить вектор размерности $I J$, получаемый из матрицы $\left\|c_{i j}\right\|$ порядка $I \times J$ с помощью какого-либо заранее фиксированного способа упорядочивания ее элементов, то (1) можно записать в виде равенства
+
+\[
+\left(c_{i j}\right)=\left(\alpha_{i j}\right)+\left(\beta_{i j}\right)+\left(\gamma_{i j}\right)+\left(\delta_{i j}\right),
+\]
+
+где все векторы имеют размерность $I J$, причем $\alpha_{i j}=\alpha$, $\beta_{i j}=\beta_{i}, \gamma_{i j}=\gamma_{j}$. Так как четыре вектора в правой части (2) ортогональны, то $\alpha_{i j}=\alpha$ - наилучшее приближение функции $c_{i j}$ от аргументов $i$ п $j$ постоянной величиной [в смысле минимальности суммы квадратов отклонений $\left.\sum_{i j}\left(c_{i j}-\alpha\right)^{2}\right]$. В том же смысле $\alpha_{i j}+\beta_{i j}=\alpha+\beta_{i}-$ наилучшее приближение $c_{i j}$ функцией, зависящей лишь от $i, \alpha_{i j}+\gamma_{i j}=\alpha+\gamma_{j}-$ наилучшее приближение $c_{i j}$ функцией, зависящей лишь от $j$, а $\alpha_{i j}+\beta_{i j}+\gamma_{i j}=\alpha+\beta_{i}+\gamma_{j}-$ наилучшее приближение $c_{i j}$ суммой функций, из к-рых одна (напр., $\alpha+\beta_{i}$ ) зависит лишь от $i$, а другая - лишь от j. Этот факт, установленный Р. Фишером (см. [1]) в 1918 , позднее послужил основой теории квадратичных приближений функций.
+
+В примере, связанном со спортивными соревнованиями, функция $\delta_{i j}$ выражает «взаимодействие» $i$-го спортсмена и $j$-го судыи (положительное значение $\delta_{i j}$ означает «подсуживание», т. е. систематич. завышение $j$-м судьей оценки мастерства $i$-го спортсмена, а отрицательное значение $\delta_{i j}$ означает «засуживание», т. е. систематич. снижение оценки). Равенство всех $\delta_{i j}$ нулю - необходимое требование, к-рое надлежит предъявлять к работе группы экспертов. В случае же агрономич. опытов такое равенство рассматривается как гипотеза, подлежащая проверке по результатам экспериментов, поскольку основная цель здесь - отыскание таких значений $i$ и $i$, при к-рых функция (1) достигает максимального значения. Если эта гипотеза верна, то
+
+\[
+\max c_{i j}=\alpha+\max \beta_{i}+\max \gamma_{j}
+\]
+
+и значит, выявление наилучших «почвы» и «обработки» может быть осуществлено раздельно, что приводит к существенному сокращению числа экспериментов (напр., можно при каком-либо одном способе обработки испытать все $I$ сортов «почвы» и определить наилучший сорт, а затем на этом сорте опробовать все $J$ способов «обработки» и найти наилучший способ; общее количество экспериментов с повторениями будет равно $(I+J) K)$. Если же гипотеза \{все $\delta_{l j}=0$ \} неверна, то для определения $\max c_{i j}$ необходим описанный выше «полный план», требующий при $K$ повторениях $I J K$ экспериментов.
+
+В ситуации спортивных соревнований функция $\gamma_{i j}=$ $=\gamma_{j}$ может трактоваться как систематич. ошибка, допускаемая $j$-м судьей по отношению ко всем спортсменам. В конечном счете $\gamma_{j}$ - характеристика &quot;строгости» или «либеральности» ;-го судьи. В идеале хотелось бы, чтобы все $\gamma_{j}$ были нулевыми, но в реальных условиях приходится мириться с наличием ненулевых значений $\gamma_{j}$ и учитывать это обстоятельство при подведении итогов экспертизы (напр., за основу сравнения мастерства спортсменов можно принять не последовательности истинных значений $\alpha+\beta_{1}+\gamma_{j}, \ldots, \alpha+\beta_{I}+\gamma_{j}$, a лишь результаты упорядочиваний этих чисел по их величине, поскольку при всех $j=1, \ldots, J$ такие упорядочивания будут одинаковыми). Наконец, сумма двух оставшихся функций $\alpha_{i j}+\beta_{i j}=\alpha+\beta_{i}$ зависит лишь от $i$ и поэтому может быть использована для характеризации мастерства $i$-го спортсмена. Однако здесь нужно помнить, что $\alpha+\beta_{i}=a_{i}+b_{i *} \neq a_{i}$. Поэтому упорядочивание всех спортсменов по значениям $\alpha+\beta_{i}$ (или по $\alpha+$ $+\beta_{i}+\gamma_{j}$ при каждом фиксированном $j$ ) может не совпадать с упорядочиванием по значениям $a_{i}$. При практической обработке экспертных оценок этим обстоятельством приходится пренебрегать, так как упомянутый полный план экспериментов не позволяет оценивать отдельно $a_{i}$ и $b_{i *}$. Таким образом, число $\alpha+\beta_{i}=a_{i}+b_{i *}$ характеризует не только мастерство $i$-го спортсмена, но и в той или иной мере отношение экспертов к этому мастерству. Поэтому, напр., результаты субъективных экспертных оценок, осуществленных в разное время (в частности, на нескольких Олимпийских играх), едва ли можно считать сопоставимыми. В случае же агрономич. опытов подобные трудности не возникают, поскольку все $a_{i}=0$ и значит, $\alpha+\beta_{i}=b_{i *}$. Истинные значения функций $\alpha, \beta_{i}, \gamma_{j}$ и $\delta_{i j}$ неизвестны и выражаются в терминах неизвестных функций $c_{i j}$. Поэтому первый этап Д. а. заключается в отыскании статистич. оценок для $c_{i j}$ по результатам наблюдений $x_{i j k}$. Несмещенная и имеющая минимальную дисперсию линейная оценка для $c_{i j}$ выражается формулой
+
+\[
+\hat{c}_{i j}=x_{i j *}=\frac{1}{K} \sum_{k} X_{i j k} .
+\]
+
+Так как $\alpha, \beta_{i}, \gamma_{j}$ и $\delta_{i j}$ - линейные функции от элементов матрицы $\left\|c_{i j}\right\|$, то несмещенные линейные оценки для этих функций, имеющие минимальную дисперсию, получаются в результате замены аргументов $c_{i j}$ соответствующими оценками, $\hat{c}_{i j}$, т. е.
+
+\[
+\begin{gathered}
+\hat{\alpha}=x_{* * * *}, \quad \hat{\beta}_{i}=x_{i * * *}-x_{* * *}, \quad \hat{\gamma}_{j}=x_{* j_{*}}-x_{* * *}, \\
+\hat{\delta}_{i j}=x_{i j *}-x_{i * *}-x_{* j_{*}}+x_{* * * * *},
+\end{gathered}
+\]
+
+причем случайные векторы $\left(\hat{\alpha}_{i j}\right),\left(\hat{\beta}_{i j}\right),\left(\hat{\gamma}_{i j}\right)$ и $\left(\hat{\delta}_{i j}\right)$, определенные так же, как введенные выше $\left(\alpha_{i j}\right),\left(\beta_{i j}\right)$, $\left(\gamma_{i j}\right)$ и $\left(\delta_{i j}\right)$, обладают свойством ортогональности, и значит, они представляют собой некоррелированные случайные векторы (иными словами, любые две компоненты, принадлежащие разным векторам, имеют нулевой коэффициент корреляции). Кроме того, любая разность вида
+
+\[
+x_{i j k}-x_{i j_{*}}=x_{i j k}-\hat{c}_{i j}
+\]
+
+некоррелирована с любой из компонент этих четырех векторов. Рассмотрим пять совокупностей случайных величин $\left\{x_{i j k}\right\},\left\{x_{i j k}-x_{i j *}\right\},\left\{\hat{\beta}_{i}\right\},\left\{\hat{\gamma_{j}}\right\}$ и $\left\{\hat{\delta}_{i j}\right\}$. Так как
+
+\[
+\begin{gathered}
+x_{i j k}-x_{i j_{*}}=y_{i j k}-y_{i j_{*}}, \quad \hat{\beta}_{i}=\beta_{i}+\left(y_{i * *}-y_{* * *}\right), \\
+\hat{\gamma}_{j}=\gamma_{j}+\left(y_{* j_{*}}-y_{* * *}\right), \\
+\hat{\delta}_{i j}=\delta_{i j}+\left(y_{i j_{*}}-y_{i * *}-y_{* j_{*}}+y_{* * *}\right),
+\end{gathered}
+\]
+
+то дисперсии эмпирич. распределений, соответствующих указанным совокупностям, выражаются формулами
+
+\[
+\begin{gathered}
+S^{2}=\frac{1}{I J K} \sum_{i j k}\left(x_{i j k}-x_{* * *}\right)^{2} \\
+S_{0}^{2}=\frac{1}{I J K} \sum_{i j k}\left(x_{i j k}-x_{i j *}\right)^{2}=\frac{1}{I J K} \sum_{i j k}\left(y_{i j k}-y_{i j_{*}}\right)^{2} \\
+S_{1}^{2}=\frac{1}{I} \sum_{i} \hat{\beta}_{i}^{2}=\frac{1}{I} \sum_{i}\left[\beta_{i}+\left(y_{i * *}-y_{* * *}\right)\right]^{2} \\
+S_{2}^{2}=\frac{1}{J} \sum_{j} \hat{\gamma}_{i}^{2}=\frac{1}{J} \sum_{j}\left[\gamma_{j}+\left(y_{* j *}-y_{* * *}\right)\right]^{2}
+\end{gathered}
+\]\[
+S_{3}^{2}=\frac{1}{I J} \sum_{i j} \widehat{\delta}_{i j}^{2}=\frac{1}{I J} \sum_{i j}\left[\delta_{i j}+\left(y_{i j *}-y_{i * *}-y_{* j_{*}}+y_{* * *}\right)\right]^{2} .
+\]
+
+Эти эмпирич. дисперсии представляют собой суммы квадратов случайных величин, любые две из к-рых некоррелированы, если только они принадлежат разным суммам; при этом относительно всех $y_{i j k}$ справедливо тождество
+
+\[
+S^{2}=S_{0}^{2}+S_{1}^{2}+S_{2}^{2}+S_{3}^{2}
+\]
+
+объясняющее происхождение термина «Д. а.».
+
+Пусть $I, J, K \geqslant 2$ и пусть
+
+\[
+\begin{gathered}
+s_{0}^{2}=\frac{K}{K-1} S_{0}^{2}, \quad s_{1}^{2}=\frac{I J K}{I-1} S_{1}^{2}, \quad s_{2}^{2}=\frac{I J K}{J-1} S_{2}^{2}, \\
+s_{3}^{2}=\frac{I J K}{(I-1)(J-1)} S_{3}^{2},
+\end{gathered}
+\]
+
+в таком случае
+
+$E s_{0}^{2}=\sigma^{2}, \quad E s_{1}^{2}=\sigma^{2}+\frac{J K}{I-1} \sum_{i} \beta_{i}^{2}, \quad E s_{2}^{2}=\sigma^{2}+\frac{I K}{J-1} \sum_{j} \gamma_{j}^{2}$,
+
+\[
+E s_{3}^{2}=\sigma^{2}+\frac{K}{(I-1)(J-1)} \sum_{i j} \delta_{i j}^{2},
+\]
+
+где $\sigma^{2}$ - дисперсия случайных ошибок $y_{i j k}$. На основе этих формул и строится второй этап Д. а., посвященный выявлению влияния первого іг второго факторов на результаты эксперимента (в агрономич. опытах первый фактор - copт «почвы», второй - способ «обработки»). Напр., если требуется проверіть гипотезу отсутствия «взаимодействия» факторов, к-рая выражается равенством $\sum_{i j} \delta_{i j}^{2}=0$, то разумно вычислить д и с п е р с и онно е о т н о шени е $s_{\mathbf{3}}^{2} / s_{0}^{2}=F_{3}$. Если это отношение значимо отличается от единицы, то проверяемая гипотеза отвергается. Точно так же для проверки гипотезы $\sum_{j} \gamma_{j}^{2}=0$ полезно отношение $s_{2}^{2} / s_{0}^{2}=F_{2}$, к-рое надлежит также сравнить с единицей; еслі при этом известно, что $\sum_{i j} \delta_{i j}^{2}=0$, то вместо $F_{2}$ целесообразно сравнить с единицей отношение
+
+\[
+\frac{(I J K-I-J-1) s_{2}^{2}}{I J(K-1) s_{0}^{2}+(I-1)(J-1) s_{3}^{2}}=F_{2}^{*} .
+\]
+
+Аналогичным образом можно постролть статистику, позволяющую дать заключение о справедливости или ложности гипотезы $\sum_{i} \beta_{i}^{2}=0$.
+
+Точный смысл понятия значимого отличия указанных отношений от единицы может быть определен лишь с учетом закона распределения случайных ошшбок $y_{i j k}$. В Д. а. наиболее обстоятельно изучена ситуація, в к-рой все $y_{i j k}$ распределены нормально. В этом случае $\left(\hat{\alpha}_{i j}\right),\left(\beta_{i j}\right),\left(\hat{\gamma}_{i j}\right),\left(\delta_{i j}\right)$ - независимые случайные векторы, а $s_{0}^{2}, s_{1}^{2}, s_{2}^{2}, s_{3}^{2}-$ независимые случайные велічіны, причем отношения
+
+\[
+\begin{gathered}
+I J(K-1) \frac{s_{0}^{2}}{\sigma^{2}}, \quad(I-1) \frac{s_{1}^{2}}{\sigma^{2}}, \quad(J-1) \frac{s_{2}^{2}}{\sigma^{2}}, \\
+(I-1)(J-1) \frac{s_{3}^{2}}{\sigma^{2}}
+\end{gathered}
+\]
+
+подчиняются нецентральным распределениям хи-квадрат с $f_{m}$ степенями свободы и параметрами нецентральности $\lambda_{m}, m=0,1,2,3$, где
+
+$f_{0}=I J(K-1), f_{1}=I-1, f_{2}=J-1, f_{3}=(I-1)(J-1)$;
+
+\[
+\begin{gathered}
+\lambda_{0}=0, \quad \lambda_{1}=J K \sum_{i} \beta_{i}^{2} / \sigma^{2}, \quad \lambda_{2}=I K \sum_{j} \gamma_{j}^{2} / \sigma^{2}, \\
+\lambda_{3}=K \sum_{i j} \delta_{i j}^{2} / \sigma^{2} .
+\end{gathered}
+\]
+
+Если параметр нецентральности равен нулю, то нецентральное распределение хи-квадрат совпадает с обычным распределением хи-квадрат. Поэтому в случае справедливости гипотезы $\lambda_{3}=0$ отношение $s_{3}^{2} / s_{0}^{2}=F_{3}$ подчиняется $F$-распределению (распределению дисперсіонного отношения) с параметрами $f_{3}$ и $f_{0}$. Пусть $x-$ такое число, для к-рого вероятность события $\left\{F_{3}&gt;x\right\}$ равна заданному значению $\varepsilon$, называемому у р о в н е м 3 н а ч им о с т и (таблицы функции $x=x\left(\varepsilon ; f_{3}, f_{0}\right)$ имеются в большинстве пособий по математич. статистике). Критерием для проверки гипотезы $\lambda_{3}=0$ служит правпло, согласно к-рому эта гипотеза отвергается, если наб́людаемое значение $F_{3}$ превышает $x$; п противном случає гипотеза считается не противоречащей результатам наблюдений. Аналогичным образом конструируются критерии, основанные на статистиках $F_{2}$ и $F_{2}^{*}$.
+
+Дальнейшие этапы Д. а. существенно завпсят не только от реального содержания конкретной задачII, но также и от результатов статистич. проверки гіпотез на втором этапе. Напр., в условиях агрономич. опытов справедливость гипотезы $\dot{\lambda}_{3}=0$, как указано выше, позволяет более экономно спланировать аналогічные дальнейшие эксперименты (если помимо гипотезы $\lambda_{3}=0$ справедлива также и гипотеза $\lambda_{2}=0$, то это означает, что урожайность зависит лишь от сорта «почвы», II поэтому в дальнейших опытах можно воспользоваться схемой однофакторного Д. а.); если же гипотеза $\lambda_{3}=0$ отвергается, то разумно проверить, нет ли в данной задаче неучтенного третьего фактора? Если сорта «почвы» и способы ее «обработки» варьировались не в одном и том же месте, а в различных географич. зонах, то таким фактором могут быть климатич. или географич. условия, и «обработка&quot; наблюдений потребует применения трехфакторного Д. а.
+
+В случае экспертных оценок статистически подтвержденная справедливость гипотезы $\lambda_{3}=0$ дает основание для упорядочивания сравниваемых объектов (напр., спортсменов) по значениям величин $\hat{\alpha}+\hat{\beta}_{i}, i=1, \ldots, I$. Если же гипотеза $\lambda_{3}=0$ отвергается (в задаче о спортивных соревнованиях әто означает статистич. обнаружение «взаимодействия» нек-рых спортсменов и судей), то естественно попытаться перевычислить все результаты заново, предварітельно исключив из рассмотрения $x_{i j k}$ с такими парами индексов $(i, j)$, для к-рых абсолютные значения статистич. оценок $\delta_{i j}$ превышают нек-рый заранее установленный допустимый уровень. Это означает, что из матрıцы $\left\|x_{i j *}\right\|$ вычеркиваются нек-рые элементы, и значит, план Д. а. становится неполным.
+
+Модели современного Д. а. охватывают широкий круг реальных экспериментальных схем (напр., схемы неполных планов, со случайно или неслучайно отобран-
+
+![](https://cdn.mathpix.com/cropped/2023_07_08_0243441cfa13aaa74c7bg-1.jpg?height=43&amp;width=831&amp;top_left_y=941&amp;top_left_x=120)
+статістич. выводы во многих случаях находятся в стадии разработкі. В частности, еще (к 1978) далеки от окончательного решения те задачи, в к-рых результаты наблюдений $x_{i j k}=c_{i j}+y_{i j k}$ не являются одинаково распределеннымі случайными величинами; еще более трудная задача возникает в случае зависимости величин $x_{i j k}$. Неизвестно решение проблемы выбора факторов (даже в линейном случае). Суть этӧй проблемы заключается в следующем: пусть $c=c(u, v)-$ непрерывная функция и пусть $u=u(z, w)$ и $v=v(z, w)$ - какие-либо линейные функции от переменных $z$ и $w$. Фиксируя значения $z_{1}, \ldots, z_{I}$ и $w_{1}, \ldots, w_{J}$, можно при каждом заданном выборе линейных функций $u$ и $v$ определить $c_{i j}$ формулой
+
+\[
+c_{i j}=c\left[u\left(z_{i}, w_{j}\right), \quad v\left(z_{i}, w_{j}\right)\right]
+\]
+
+и построить Д. а. этих величин по результатам соответствующих наблюдений $x_{i j k}$. Проблема заключается в отыскании таких линейных функций $u$ и $v$, к-рым соответствует минимальное значение суммы квадратов $\sum_{i j} \delta_{i j}^{2}$, где
+
+\[
+\delta_{i j}=c_{i j}-c_{i *}-c_{* j}+c_{* *}
+\]
+
+(предполагается, что функция $c(u, v)$ неизвестна). В терминах Д. а. эта проблема сводится к статистич. отысканію таких факторов $z=z(u, v)$ и $w=w(u, v)$, к-рым соответствует &quot;наименьшее взаимодействие».
+
+II um.: [1] F i s h e r R. A., Statistical methods for research workers, Edinburgh, 1925; [2] Ш е ф ф е Г., Дисперсионный анализ, пер. с англ., М., 1963; [3] X а л ь д А., Математическая статистика с техническими приложениями, пер. с англ., М.,
+$1956 ;[4]$ С е д е к о р Д ж. У., Статистические методы в применении к исстедованиям в сельском хозяйстве и биологии, пер. с англ., М., 1961 . Л. Н. Большев.</text_orig>
+</article>

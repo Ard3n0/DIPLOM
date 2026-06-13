@@ -1,0 +1,361 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/47_KOІІIIADACh" alphabetic_pos="47">
+  <title>КОІІИИАДАЧА</title>
+  <authors/>
+  <pages>
+    <start>26</start>
+    <end>27</end>
+  </pages>
+  <literature>
+    <literature_orig>Лит.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 2 изд., т. 2, М., 1962; [2] Б а х в а л о в Н. С., Численные методы, 2 изд., M., 1975; [3] Modern Numerical Methods for ordinary differential equations, Oxf., 1976.</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>2 изд., т. 2, М.</publication>
+      <year>1962</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Бахвалов Н. С.</author>
+      <title>Численные методы</title>
+      <publication>2 изд., M.</publication>
+      <year>1975</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>Modern Numerical Methods for ordinary differential equations, Oxf.</title>
+      <publication/>
+      <year>1976</year>
+      <other/>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/47_1_KOІІIIADACh">y(x)=\left\{y_{1}(x), y_{2}(x), \ldots, y_{n}(x)\right\},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_2_KOІІIIADACh">f(x, y)=\left\{f_{1}(x, y), f_{2}(x, y), \ldots, f_{n}(x, y)\right\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_3_KOІІIIADACh">y^{\prime}(x)=f(x, y), y\left(x_{0}\right)=y_{0}, x_{0} \in I, y_{0} \in \Pi .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_4_KOІІIIADACh">\left\|f\left(x, y_{1}\right)-f\left(x, y_{2}\right)\right\| \leqslant \omega\left(\left\|y_{1}-y_{2}\right\|\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_5_KOІІIIADACh">\int_{\varepsilon}^{c} \frac{d t}{\omega(t)} \longrightarrow \infty, \varepsilon \rightarrow 0, c&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_6_KOІІIIADACh">\left\|f\left(x, y_{1}\right)-f\left(x, y_{2}\right)\right\| \leqslant L\left\|y_{1}-y_{2}\right\| \text {. }</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_7_KOІІIIADACh">L=\sup _{x \in I, y \in \Pi}\left\|\frac{\partial f}{\partial y}\right\| .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_8_KOІІIIADACh">y(\dot{x})=y\left(x_{k}\right)+y^{\prime}\left(x_{k}\right)\left(x-x_{k}\right)+y^{\prime \prime}\left(x_{k}\right) \frac{\left(x-x_{k}\right)^{2}}{2}+\ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_9_KOІІIIADACh">y_{k+1}=y_{k}+\left(x_{k+1}-x_{k}\right) f\left(x_{k}, y_{k}\right) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_10_KOІІIIADACh">\begin{aligned}&amp; y_{n+1}=y_{n}+\frac{h}{2}\left(3 \bar{f}_{n}-f_{n-1}\right), \\&amp; \bar{y}_{n+1}=y_{n}+\frac{h}{2}\left(f_{n+1}+f_{n}\right),\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/47_11_KOІІIIADACh">f_{n}=f\left(x_{n}, y_{n}\right), \bar{f}_{n}=f\left(x_{n}, \bar{y}_{n}\right)</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_1_KOІІIIADACh">i=\{x,|x-a| \leqslant A\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_2_KOІІIIADACh">\pi=\{(x, y),|x-a| \leqslant A,\|y-b\| \leqslant B\}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_3_KOІІIIADACh">\|\cdot\|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_4_KOІІIIADACh">\mathbb{r}^{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_5_KOІІIIADACh">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_6_KOІІIIADACh">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_7_KOІІIIADACh">\omega(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_8_KOІІIIADACh">l</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_9_KOІІIIADACh">f(x, y)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_10_KOІІIIADACh">y</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_11_KOІІIIADACh">\frac{\partial f}{\partial y}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_12_KOІІIIADACh">y(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_13_KOІІIIADACh">x_{k}, k=0,1, \ldots</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_14_KOІІIIADACh">x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_15_KOІІIIADACh">x-x_{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_16_KOІІIIADACh">\left(x-x_{k}\right)^{2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_17_KOІІIIADACh">y(x) \approx y\left(x_{k}\right)+y^{\prime}\left(x_{k}\right)\left(x-x_{k}\right), \quad y^{\prime}\left(x_{k}\right)=f\left(x_{k}, y\left(x_{k}\right)\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_18_KOІІIIADACh">x_{k+1}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_19_KOІІIIADACh">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/47_20_KOІІIIADACh">f(x, y)</formula>
+  </formulas_aux>
+  <relations n="32">
+    <relation uri="http://libmeta.ru/me/relation/47_1_KOІІIIADACh">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_2_KOІІIIADACh">
+      <rel_text>производные</rel_text>
+      <target>http://libmeta.ru/me/article/1045_PROIZVODNA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_3_KOІІIIADACh">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_4_KOІІIIADACh">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_5_KOІІIIADACh">
+      <rel_text>дифференциального</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_6_KOІІIIADACh">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_7_KOІІIIADACh">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_8_KOІІIIADACh">
+      <rel_text>системе</rel_text>
+      <target>http://libmeta.ru/me/article/350_SISTEM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_9_KOІІIIADACh">
+      <rel_text>формально</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_10_KOІІIIADACh">
+      <rel_text>порядка</rel_text>
+      <target>http://libmeta.ru/me/article/531_PORJaDO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_11_KOІІIIADACh">
+      <rel_text>уравнения</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_12_KOІІIIADACh">
+      <rel_text>дифференциальные</rel_text>
+      <target>http://libmeta.ru/me/article/302_DIFFERENTsIROVANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_13_KOІІIIADACh">
+      <rel_text>уравнений</rel_text>
+      <target>http://libmeta.ru/me/article/106_URAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_14_KOІІIIADACh">
+      <rel_text>обыкновенных дифференциальных URI[[http</rel_text>
+      <target>http://libmeta.ru/me/article/273_DIFFERENTsIAL'NOE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_15_KOІІIIADACh">
+      <rel_text>жестких систем</rel_text>
+      <target>http://libmeta.ru/me/article/404_ZhESTKAJa</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_16_KOІІIIADACh">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_17_KOІІIIADACh">
+      <rel_text>предсказывающая</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_18_KOІІIIADACh">
+      <rel_text>предсказывающая</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_19_KOІІIIADACh">
+      <rel_text>формул</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_20_KOІІIIADACh">
+      <rel_text>представляют</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_21_KOІІIIADACh">
+      <rel_text>предсказания</rel_text>
+      <target>http://libmeta.ru/me/article/3_PREDSTAVLENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_22_KOІІIIADACh">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_23_KOІІIIADACh">
+      <rel_text>интегрирования</rel_text>
+      <target>http://libmeta.ru/me/article/622_INTEGRIRUGMA</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_24_KOІІIIADACh">
+      <rel_text>формулам</rel_text>
+      <target>http://libmeta.ru/me/article/731_FORMALIZ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_25_KOІІIIADACh">
+      <rel_text>алгоритм</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_26_KOІІIIADACh">
+      <rel_text>вычислить</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_27_KOІІIIADACh">
+      <rel_text>прежде</rel_text>
+      <target>http://libmeta.ru/me/article/585_PREDE</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_28_KOІІIIADACh">
+      <rel_text>формуле</rel_text>
+      <target>http://libmeta.ru/me/article/741_FORMUL</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_29_KOІІIIADACh">
+      <rel_text>вычисления</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_30_KOІІIIADACh">
+      <rel_text>достоинством</rel_text>
+      <target>http://libmeta.ru/me/article/344_DOSTOVERNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_31_KOІІIIADACh">
+      <rel_text>вычисление</rel_text>
+      <target>http://libmeta.ru/me/article/894_VYChITANI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/47_32_KOІІIIADACh">
+      <rel_text>методе</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+  </relations>
+  <text>ч и с л е н н ы е ме т о д Ы р ешения д ля обыкновен ного диффе е ре нци а льного у р а внен и я. Задачей Коши наз. задача определения функции или нескольких функций, удовлетворяющих одному или, соответственно, системе диффференциальных уравнений и принимающих заданные значения в нек-рой фиксированной точке. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_1_KOІІIIADACh]]/URI
+\]\[
+URI[[http://libmeta.ru/me/formula/main/47_2_KOІІIIADACh]]/URI
+\]
+
+- вектор-функции, определенные и непрерывные соответственно на отрезке $URI[[http://libmeta.ru/me/formula/aux/47_1_KOІІIIADACh]]/URI$ и в замкнутой области $URI[[http://libmeta.ru/me/formula/aux/47_2_KOІІIIADACh]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/47_3_KOІІIIADACh]]/URI$ - некоторая норма в конечномерном пространстве $URI[[http://libmeta.ru/me/formula/aux/47_4_KOІІIIADACh]]/URI$. В этих обозначениях $URI[[http://libmeta.ru/me/formula/aux/47_5_KOІІIIADACh]]/URI$. з. для системы обыкновенных дифференциальных уравнений 1-го порядка записывается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_3_KOІІIIADACh]]/URI
+\]
+
+Вводя соответствующим образом новые неизвестные функции, можно привести к такому виду К. з. для любой системы обыкновенных диффференциальных уравнений произвольного порядка.
+
+Решение задачи (1) существует, если функция $URI[[http://libmeta.ru/me/formula/aux/47_6_KOІІIIADACh]]/URI$ непрерывна в П. Для того чтобы это решение было единственным, достаточно, чтобы выполнялось у с л о в и е O с г у д а:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_4_KOІІIIADACh]]/URI
+\]
+
+где функция $URI[[http://libmeta.ru/me/formula/aux/47_7_KOІІIIADACh]]/URI$ - такова, что
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_5_KOІІIIADACh]]/URI
+\]
+
+или более сильное у с л о и е Л и п ш и ц а:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_6_KOІІIIADACh]]/URI
+\]
+
+Величина $URI[[http://libmeta.ru/me/formula/aux/47_8_KOІІIIADACh]]/URI$ наз. п о с т о я н н о й Л и п п и ц а. Если функция $URI[[http://libmeta.ru/me/formula/aux/47_9_KOІІIIADACh]]/URI$ непрерывно дифференцируема по $URI[[http://libmeta.ru/me/formula/aux/47_10_KOІІIIADACh]]/URI$, то в качестве постоянной Липшица можно взять величину
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_7_KOІІIIADACh]]/URI
+\]
+
+Оценка (3) с постоянной Липшица (4) оказывается в ряде случаев слишком грубой для успешного применения численных методов решения К. з., несмотря на то, что теоретически решение этой задачи существует и оно единственно. Это происходит, в частности, в тех случаях, когда собственные значения матрицы $URI[[http://libmeta.ru/me/formula/aux/47_11_KOІІIIADACh]]/URI$ имеют «большой разброс», т. е. наибольшее собственное значение в сотни или даже тысячи раз больше наименьшего собственного значения. Такие системы дифференциальных уравнений наз. Ж е с т к и м и с и с т е м ам и, а соответствующие задачи - ж е с т к и м и 3 ад а ч а м и К о ш и. Одним из источников возникновения жестких систем является сведение уравнений с частными производными к системе обыкновенных дифференциальных уравнений, напр. с помощью метода прямых.
+
+Численные методы для обыкновенных диффференциальных уравнений представляют собой, как правило, оцно или несколько соотношений, связывающих иекомую функцию $URI[[http://libmeta.ru/me/formula/aux/47_12_KOІІIIADACh]]/URI$ в дискретной последовательности точке $URI[[http://libmeta.ru/me/formula/aux/47_13_KOІІIIADACh]]/URI$, множество к-рых наз. сеткой. Ос- новы численных методов вообще и для дифференциальных уравнений в частности были заложены Л. Эйлеpoм (l. Euler). Его именем называется один из самых простых методов решения К. З., к-рый состоит в следующем. Пусть решение задачи (1) в окрестности точки $URI[[http://libmeta.ru/me/formula/aux/47_14_KOІІIIADACh]]/URI$ разложено в ряд Тейлора
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_8_KOІІIIADACh]]/URI
+\]
+
+Если величина $URI[[http://libmeta.ru/me/formula/aux/47_15_KOІІIIADACh]]/URI$ мала, то, отбрасывая члены порядка $URI[[http://libmeta.ru/me/formula/aux/47_16_KOІІIIADACh]]/URI$ и более высокого, получают приближенное равенство
+
+$URI[[http://libmeta.ru/me/formula/aux/47_17_KOІІIIADACh]]/URI$. В точке $URI[[http://libmeta.ru/me/formula/aux/47_18_KOІІIIADACh]]/URI$ приближенное решение может быть вычислено по формуле
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_9_KOІІIIADACh]]/URI
+\]
+
+Это соотношение и наз. м е т о д о м Э й л е р а.
+
+В дальнейшем численные методы были значительно усовершенствованы. Это развитие велось в основном в двух направлениях: методы, получившие в дальнейшем название Рунге-Кутта методов и конечноразностные методы, важнейшим представителем к-рых является $URI[[http://libmeta.ru/me/formula/aux/47_19_KOІІIIADACh]]/URI$ дамса метод.
+
+К достоинствам методов Рунге - Кутта следует отнести то, что алгоритмы, получающиеся на их основе, являются однородными, т. е. не изменяющимися при переходе от одной точки сетки к другой. Кроме того, в методах Рунге - Кутта можно изменять шаг интегрирования в соответствии с требуемой точностью вычислений без значительного усложнения самого алгоритма (см. Кутта- Мерсона метод, Рунге правило). На основе этих методов созданы достаточно надежные двусторонние методы. Основным недостатком является то, что для вычисления приближенного решения в одной точке сетки требуется несколько вычислений правой части $URI[[http://libmeta.ru/me/formula/aux/47_20_KOІІIIADACh]]/URI$ дифференциального уравнения (1). Это приводит, в особенности при сложных правых частях, к зиачительному увеличению времени вычислений.
+
+В конечноразностных методах, в том числе в URI[[http://libmeta.ru/me/relation/47_32_KOІІIIADACh]]/URI Адамса, требуется лишь одно URI[[http://libmeta.ru/me/relation/47_31_KOІІIIADACh]]/URI правой части на один узел сетки. Это является главным URI[[http://libmeta.ru/me/relation/47_30_KOІІIIADACh]]/URI конечноразностных методов. Однако для того чтобы начать URI[[http://libmeta.ru/me/relation/47_29_KOІІIIADACh]]/URI по какой-либо конечноразностной URI[[http://libmeta.ru/me/relation/47_28_KOІІIIADACh]]/URI, необходимо URI[[http://libmeta.ru/me/relation/47_27_KOІІIIADACh]]/URI URI[[http://libmeta.ru/me/relation/47_26_KOІІIIADACh]]/URI дополнительные «начальные значения». Это приводит к тому, что URI[[http://libmeta.ru/me/relation/47_25_KOІІIIADACh]]/URI оказывается неоднородным - первые несколько значений должны вычисляться по другим URI[[http://libmeta.ru/me/relation/47_24_KOІІIIADACh]]/URI. Более существенным недостатком конечноразностных методов является невозможность простого изменения шага URI[[http://libmeta.ru/me/relation/47_23_KOІІIIADACh]]/URI, т. е. необходимость использовать сетки с постоянным шагом.
+
+На основе конечноразностных методов разработаны так. наз. URI[[http://libmeta.ru/me/relation/47_22_KOІІIIADACh]]/URI URI[[http://libmeta.ru/me/relation/47_21_KOІІIIADACh]]/URI - уточнения, к-рые URI[[http://libmeta.ru/me/relation/47_20_KOІІIIADACh]]/URI собой пару конечноразностных URI[[http://libmeta.ru/me/relation/47_19_KOІІIIADACh]]/URI, одна из к-рых (URI[[http://libmeta.ru/me/relation/47_18_KOІІIIADACh]]/URI) является, как правило, явной, а вторая (уточняющая) - неявной, напр., URI[[http://libmeta.ru/me/relation/47_17_KOІІIIADACh]]/URI:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_10_KOІІIIADACh]]/URI
+\]
+
+уточняющая:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/47_11_KOІІIIADACh]]/URI
+\]
+
+Предсказывающе-уточняющие URI[[http://libmeta.ru/me/relation/47_16_KOІІIIADACh]]/URI находят успешное применение при решении URI[[http://libmeta.ru/me/relation/47_15_KOІІIIADACh]]/URI URI[[http://libmeta.ru/me/relation/47_14_KOІІIIADACh]]/URI://libmeta.ru/me/relation/47_13_KOІІIIADACh]]/URI.
+
+Несмотря на то, что URI[[http://libmeta.ru/me/relation/47_12_KOІІIIADACh]]/URI URI[[http://libmeta.ru/me/relation/47_11_KOІІIIADACh]]/URI высокого URI[[http://libmeta.ru/me/relation/47_10_KOІІIIADACh]]/URI URI[[http://libmeta.ru/me/relation/47_9_KOІІIIADACh]]/URI сводятся к URI[[http://libmeta.ru/me/relation/47_8_KOІІIIADACh]]/URI урав- нений 1-го URI[[http://libmeta.ru/me/relation/47_7_KOІІIIADACh]]/URI, URI[[http://libmeta.ru/me/relation/47_6_KOІІIIADACh]]/URI, приспособленные к конкретному виду URI[[http://libmeta.ru/me/relation/47_5_KOІІIIADACh]]/URI URI[[http://libmeta.ru/me/relation/47_4_KOІІIIADACh]]/URI, иногда оказываются значительно более әффективными. В связи с этим развиваются конечноразностные URI[[http://libmeta.ru/me/relation/47_3_KOІІIIADACh]]/URI, использующие URI[[http://libmeta.ru/me/relation/47_2_KOІІIIADACh]]/URI высшего URI[[http://libmeta.ru/me/relation/47_1_KOІІIIADACh]]/URI, напр. Iii термера метод.</text>
+  <text_orig>ч и с л е н н ы е ме т о д Ы р ешения д ля обыкновен ного диффе е ре нци а льного у р а внен и я. Задачей Коши наз. задача определения функции или нескольких функций, удовлетворяющих одному или, соответственно, системе диффференциальных уравнений и принимающих заданные значения в нек-рой фиксированной точке. Пусть
+
+\[
+y(x)=\left\{y_{1}(x), y_{2}(x), \ldots, y_{n}(x)\right\},
+\]\[
+f(x, y)=\left\{f_{1}(x, y), f_{2}(x, y), \ldots, f_{n}(x, y)\right\}
+\]
+
+- вектор-функции, определенные и непрерывные соответственно на отрезке $I=\{x,|x-a| \leqslant A\}$ и в замкнутой области $\Pi=\{(x, y),|x-a| \leqslant A,\|y-b\| \leqslant B\}$, где $\|\cdot\|$ - некоторая норма в конечномерном пространстве $\mathbb{R}^{n}$. В этих обозначениях $K$. з. для системы обыкновенных дифференциальных уравнений 1-го порядка записывается в виде
+
+\[
+y^{\prime}(x)=f(x, y), y\left(x_{0}\right)=y_{0}, x_{0} \in I, y_{0} \in \Pi .
+\]
+
+Вводя соответствующим образом новые неизвестные функции, можно привести к такому виду К. з. для любой системы обыкновенных диффференциальных уравнений произвольного порядка.
+
+Решение задачи (1) существует, если функция $f(x, y)$ непрерывна в П. Для того чтобы это решение было единственным, достаточно, чтобы выполнялось у с л о в и е O с г у д а:
+
+\[
+\left\|f\left(x, y_{1}\right)-f\left(x, y_{2}\right)\right\| \leqslant \omega\left(\left\|y_{1}-y_{2}\right\|\right)
+\]
+
+где функция $\omega(t)$ - такова, что
+
+\[
+\int_{\varepsilon}^{c} \frac{d t}{\omega(t)} \longrightarrow \infty, \varepsilon \rightarrow 0, c&gt;0
+\]
+
+или более сильное у с л о и е Л и п ш и ц а:
+
+\[
+\left\|f\left(x, y_{1}\right)-f\left(x, y_{2}\right)\right\| \leqslant L\left\|y_{1}-y_{2}\right\| \text {. }
+\]
+
+Величина $L$ наз. п о с т о я н н о й Л и п п и ц а. Если функция $f(x, y)$ непрерывно дифференцируема по $y$, то в качестве постоянной Липшица можно взять величину
+
+\[
+L=\sup _{x \in I, y \in \Pi}\left\|\frac{\partial f}{\partial y}\right\| .
+\]
+
+Оценка (3) с постоянной Липшица (4) оказывается в ряде случаев слишком грубой для успешного применения численных методов решения К. з., несмотря на то, что теоретически решение этой задачи существует и оно единственно. Это происходит, в частности, в тех случаях, когда собственные значения матрицы $\frac{\partial f}{\partial y}$ имеют «большой разброс», т. е. наибольшее собственное значение в сотни или даже тысячи раз больше наименьшего собственного значения. Такие системы дифференциальных уравнений наз. Ж е с т к и м и с и с т е м ам и, а соответствующие задачи - ж е с т к и м и 3 ад а ч а м и К о ш и. Одним из источников возникновения жестких систем является сведение уравнений с частными производными к системе обыкновенных дифференциальных уравнений, напр. с помощью метода прямых.
+
+Численные методы для обыкновенных диффференциальных уравнений представляют собой, как правило, оцно или несколько соотношений, связывающих иекомую функцию $y(x)$ в дискретной последовательности точке $x_{k}, k=0,1, \ldots$, множество к-рых наз. сеткой. Ос- новы численных методов вообще и для дифференциальных уравнений в частности были заложены Л. Эйлеpoм (L. Euler). Его именем называется один из самых простых методов решения К. З., к-рый состоит в следующем. Пусть решение задачи (1) в окрестности точки $x_{k}$ разложено в ряд Тейлора
+
+\[
+y(\dot{x})=y\left(x_{k}\right)+y^{\prime}\left(x_{k}\right)\left(x-x_{k}\right)+y^{\prime \prime}\left(x_{k}\right) \frac{\left(x-x_{k}\right)^{2}}{2}+\ldots
+\]
+
+Если величина $x-x_{k}$ мала, то, отбрасывая члены порядка $\left(x-x_{k}\right)^{2}$ и более высокого, получают приближенное равенство
+
+$y(x) \approx y\left(x_{k}\right)+y^{\prime}\left(x_{k}\right)\left(x-x_{k}\right), \quad y^{\prime}\left(x_{k}\right)=f\left(x_{k}, y\left(x_{k}\right)\right)$. В точке $x_{k+1}$ приближенное решение может быть вычислено по формуле
+
+\[
+y_{k+1}=y_{k}+\left(x_{k+1}-x_{k}\right) f\left(x_{k}, y_{k}\right) .
+\]
+
+Это соотношение и наз. м е т о д о м Э й л е р а.
+
+В дальнейшем численные методы были значительно усовершенствованы. Это развитие велось в основном в двух направлениях: методы, получившие в дальнейшем название Рунге-Кутта методов и конечноразностные методы, важнейшим представителем к-рых является $A$ дамса метод.
+
+К достоинствам методов Рунге - Кутта следует отнести то, что алгоритмы, получающиеся на их основе, являются однородными, т. е. не изменяющимися при переходе от одной точки сетки к другой. Кроме того, в методах Рунге - Кутта можно изменять шаг интегрирования в соответствии с требуемой точностью вычислений без значительного усложнения самого алгоритма (см. Кутта- Мерсона метод, Рунге правило). На основе этих методов созданы достаточно надежные двусторонние методы. Основным недостатком является то, что для вычисления приближенного решения в одной точке сетки требуется несколько вычислений правой части $f(x, y)$ дифференциального уравнения (1). Это приводит, в особенности при сложных правых частях, к зиачительному увеличению времени вычислений.
+
+В конечноразностных методах, в том числе в методе Адамса, требуется лишь одно вычисление правой части на один узел сетки. Это является главным достоинством конечноразностных методов. Однако для того чтобы начать вычисления по какой-либо конечноразностной формуле, необходимо прежде вычислить дополнительные «начальные значения». Это приводит к тому, что алгоритм оказывается неоднородным - первые несколько значений должны вычисляться по другим формулам. Более существенным недостатком конечноразностных методов является невозможность простого изменения шага интегрирования, т. е. необходимость использовать сетки с постоянным шагом.
+
+На основе конечноразностных методов разработаны так. наз. методы предсказания - уточнения, к-рые представляют собой пару конечноразностных формул, одна из к-рых (предсказывающая) является, как правило, явной, а вторая (уточняющая) - неявной, напр., предсказывающая:
+
+\[
+\begin{aligned}
+&amp; y_{n+1}=y_{n}+\frac{h}{2}\left(3 \bar{f}_{n}-f_{n-1}\right), \\
+&amp; \bar{y}_{n+1}=y_{n}+\frac{h}{2}\left(f_{n+1}+f_{n}\right),
+\end{aligned}
+\]
+
+уточняющая:
+
+\[
+f_{n}=f\left(x_{n}, y_{n}\right), \bar{f}_{n}=f\left(x_{n}, \bar{y}_{n}\right)
+\]
+
+Предсказывающе-уточняющие методы находят успешное применение при решении жестких систем обыкновенных дифференциальных уравнений.
+
+Несмотря на то, что дифференциальные уравнения высокого порядка формально сводятся к системе урав- нений 1-го порядка, методы, приспособленные к конкретному виду дифференциального уравнения, иногда оказываются значительно более әффективными. В связи с этим развиваются конечноразностные методы, использующие производные высшего порядка, напр. III термера метод.
+
+Лит.: [1] Б е р е з и н И. С., Ж и д к о в Н. П., Методы вычислений, 2 изд., т. 2, М., 1962; [2] Б а х в а л о в Н. С., Численные методы, 2 изд., M., 1975; [3] Modern Numerical Methods for ordinary differential equations, Oxf., 1976.</text_orig>
+</article>

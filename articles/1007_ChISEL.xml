@@ -1,0 +1,538 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/1007_ChISEL" alphabetic_pos="1007">
+  <title>ЧИСЕЛ ТЕОРИЯ</title>
+  <authors/>
+  <pages>
+    <start>436</start>
+    <end>438</end>
+  </pages>
+  <literature>
+    <literature_orig/>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_1_ChISEL">\begin{gathered}\lim _{m \rightarrow \infty} \inf \omega(m)=1, \\\lim _{m \rightarrow \infty} \sup \omega(m)(\ln m)^{-1} \ln \ln m=1 .\end{gathered}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_2_ChISEL">\frac{1}{n} \sum_{m=1}^{n} f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_3_ChISEL">A_{n}=\sum_{p \leqslant n} \frac{f(p)}{p}, B_{n}^{2}=\sum_{p}{ }^{\alpha} \frac{f^{2}\left(p^{\alpha}\right)}{p^{\alpha}},</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_4_ChISEL">\frac{1}{n} \sum_{m=1}^{n}\left(f(m)-A_{n}\right)^{2} \leqslant B_{n}^{2}\left(\frac{3}{2}+\frac{c}{\ln n}\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_5_ChISEL">\left|f(m)-A_{n}\right|&lt;t B_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_6_ChISEL">|\omega(m)-\ln \ln n|&lt;t \sqrt{\ln \ln n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_7_ChISEL">\frac{1}{n} N_{n}(f(m) \in E)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_8_ChISEL">F_{n}\left(C_{n}+D_{n} x\right)=\frac{1}{n} N_{n}\left(f(m)&lt;C_{n}+D_{n} x\right),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_9_ChISEL">f(m)=a \ln m+g(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_10_ChISEL">\sum_{|g(p)| \geqslant 1} \frac{1}{p}&lt;\infty, \sum_{|g(p)|&lt;1} \frac{g^{2}(p)}{p}&lt;\infty .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_11_ChISEL">C_{n}=a \ln n+\sum_{\substack{p \leqslant n,|g(p)|&lt;1}} \frac{g(p)}{p}+C+o(1),</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_12_ChISEL">\sum_{|f(p)| \geqslant 1} \frac{1}{p}, \sum_{|f(p)|&lt;1} \frac{f(p)}{p}, \sum_{|f(p)|&lt;1} \frac{f^{2}(p)}{p}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_13_ChISEL">F_{n}\left(A_{n}+B_{n} x\right) \rightarrow \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-u^{2} / 2} d u=\Phi(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_14_ChISEL">\begin{aligned}&amp; B_{n}^{-2} \sum_{p^{\alpha} \leqslant n,} \frac{f^{2}\left(p^{\alpha}\right)}{p^{\alpha}} \rightarrow V(u) . \\&amp; f\left(p^{\alpha}\right)&lt;u B_{n}\end{aligned}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_15_ChISEL">\varphi(t)=\exp \left(\int_{-\infty}^{\infty}\left(e^{i t u}-1-i t u\right)\right) u^{-2} d V(u) .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_16_ChISEL">\mu_{n}=B_{n}^{-1} \max _{p \leqslant n}|f(p)| \rightarrow 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_17_ChISEL">F_{n}\left(A_{n}+B_{n} x\right)=\Phi(x)+O\left(\mu_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_18_ChISEL">\lambda_{l}(f)=\lim _{n \rightarrow \infty} \frac{1}{n} N_{n}\left(f(m)=c_{l}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_19_ChISEL">\sum_{l} \lambda_{l}(f)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_20_ChISEL">\sum_{l} \lambda_{l}(f) e^{i t c} l=\prod_{p}(1-1 / p) \sum_{\alpha=0}^{\infty} p^{-\alpha} e^{i t f\left(p^{\alpha}\right)} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_21_ChISEL">\mu_{k}(f)=\lim _{n \rightarrow \infty} \frac{1}{n} N_{n}(/(m)=k)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_22_ChISEL">\sum_{k} \mu_{k}(f)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_23_ChISEL">\sum_{f(p) \neq 0} 1 / p&lt;\infty .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/1007_24_ChISEL">\left|\frac{1}{n} N_{n}(f(m)=k)-\mu_{k}(f)\right| \leqslant C n^{-1 / 2} .</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_1_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_2_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_3_ChISEL">\psi_{1}(m), \psi_{2}(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_4_ChISEL">\psi_{1}(m) \leqslant f(m) \leqslant \psi_{2}(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_5_ChISEL">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_6_ChISEL">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_7_ChISEL">\omega(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_8_ChISEL">m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_9_ChISEL">\omega(m) \geqslant 1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_10_ChISEL">m&gt;1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_11_ChISEL">\omega(m) \leqslant 2(\ln \ln m)^{-1} \ln m</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_12_ChISEL">m \geqslant m_{0} ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_13_ChISEL">\omega(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_14_ChISEL">(1+o(1) \ln \ln n)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_15_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_16_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_17_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_18_ChISEL">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_19_ChISEL">p^{\alpha}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_20_ChISEL">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_21_ChISEL">t&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_22_ChISEL">m \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_23_ChISEL">&lt;\left(\frac{3}{2}+\frac{c}{\ln n}\right) n t^{-2}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_24_ChISEL">н a)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_25_ChISEL">\omega(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_26_ChISEL">n_{n}(\ldots)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_27_ChISEL">m \leqslant n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_28_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_29_ChISEL">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_30_ChISEL">e</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_31_ChISEL">n \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_32_ChISEL">c_{n}, D_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_33_ChISEL">f_{n}\left(c_{n}+d_{n} x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_34_ChISEL">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_35_ChISEL">f(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_36_ChISEL">d_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_37_ChISEL">f_{n}\left(c_{n}+x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_38_ChISEL">f_{n}\left(c_{n}+x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_39_ChISEL">c_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_40_ChISEL">n \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_41_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_42_ChISEL">a</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_43_ChISEL">g(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_44_ChISEL">c_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_45_ChISEL">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_46_ChISEL">c_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_47_ChISEL">c+o(1)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_48_ChISEL">\sum_{f(p) \neq 0} \frac{1}{p}&lt;\infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_49_ChISEL">f_{n}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_50_ChISEL">c_{n} \equiv 0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_51_ChISEL">d_{n} \longrightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_52_ChISEL">c_{n}=a_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_53_ChISEL">d_{n}=b_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_54_ChISEL">\varepsilon&gt;0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_55_ChISEL">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_56_ChISEL">b_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_57_ChISEL">\ln n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_58_ChISEL">b_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_59_ChISEL">b_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_60_ChISEL">\ln n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_61_ChISEL">f_{n}\left(a_{n}+b_{n} x\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_62_ChISEL">v(u),-\infty&lt;u&lt;\infty, V(-\infty)=0, V(\infty)=1</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_63_ChISEL">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_64_ChISEL">u</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_65_ChISEL">u=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_66_ChISEL">\varphi(t)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_67_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_68_ChISEL">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_69_ChISEL">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_70_ChISEL">n \rightarrow \infty</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_71_ChISEL">\frac{1}{n} N_{n}(f(m)=c)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_72_ChISEL">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_73_ChISEL">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_74_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_75_ChISEL">\mu_{k}(f)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_76_ChISEL">c</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_77_ChISEL">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_78_ChISEL">f(m)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_79_ChISEL">f(p)=0</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_80_ChISEL">p</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_81_ChISEL">\frac{1}{n} N_{n}\left(f(m)=k_{n}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_82_ChISEL">k_{n}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_83_ChISEL">n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_84_ChISEL">1963 ;</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_85_ChISEL">\mathbf{0}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_86_ChISEL">1974 ;[4] \mathrm{J} \mathrm{и} \mathrm{H-}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_87_ChISEL">1-2</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/1007_88_ChISEL">1979-80</formula>
+  </formulas_aux>
+  <relations n="15">
+    <relation uri="http://libmeta.ru/me/relation/1007_1_ChISEL">
+      <rel_text>диофантовых приближений</rel_text>
+      <target>http://libmeta.ru/me/article/188_DIOFANTOVY</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_2_ChISEL">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_3_ChISEL">
+      <rel_text>сравнений</rel_text>
+      <target>http://libmeta.ru/me/article/156_SRAVNENI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_4_ChISEL">
+      <rel_text>теорип</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_5_ChISEL">
+      <rel_text>Әргодические</rel_text>
+      <target>http://libmeta.ru/me/article/1186_ӘRGODIChNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_6_ChISEL">
+      <rel_text>Дисперсионный метод</rel_text>
+      <target>http://libmeta.ru/me/article/242_DISPERSIONNYJ</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_7_ChISEL">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_8_ChISEL">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_9_ChISEL">
+      <rel_text>методы</rel_text>
+      <target>http://libmeta.ru/me/article/685_METRI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_10_ChISEL">
+      <rel_text>теории</rel_text>
+      <target>http://libmeta.ru/me/article/381_TEORI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_11_ChISEL">
+      <rel_text>независимость</rel_text>
+      <target>http://libmeta.ru/me/article/890_NEZAVISIMӦST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_12_ChISEL">
+      <rel_text>функций</rel_text>
+      <target>http://libmeta.ru/me/article/790_FUNKTO</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_13_ChISEL">
+      <rel_text>арифметич</rel_text>
+      <target>http://libmeta.ru/me/article/254_ARIFMETIK</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_14_ChISEL">
+      <rel_text>скорость сходимости</rel_text>
+      <target>http://libmeta.ru/me/article/331_SHODIMOSTI</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/1007_15_ChISEL">
+      <rel_text>Ii</rel_text>
+      <target>http://libmeta.ru/me/article/370_II</target>
+    </relation>
+  </relations>
+  <text>в е р о я т о о с т н а я - в широком смысле раздел теории чисел, в к-ром используются идеи и методы теории вероятностей.
+
+Под вероятностной Ч. т. в узком смысле понимается статистич. теория распределения значений арифметических функций.
+
+Подавляющее большинство арифметич. функций, изучаемых в теории чисел, являются аддитивными или мультипликативными. Их значения обычно распределены очень сложно. Если проследить за изменением значений таких функций, когда аргумент пробегает последовательные натуральные числа, получится весьма хаотическая картина, к-рая обычно наблюдается при рассмотрении аддитивных свойств целых чисел совместно с мультипликативными. В классич. исследованиях при рассмотрении распределения значений действительных арифметич. функций $URI[[http://libmeta.ru/me/formula/aux/1007_1_ChISEL]]/URI$ обычно изучалось асимптотич. поведение самой функции $URI[[http://libmeta.ru/me/formula/aux/1007_2_ChISEL]]/URI$ или ее среднего значения. В первом случае ищутся простые функции $URI[[http://libmeta.ru/me/formula/aux/1007_3_ChISEL]]/URI$, чтобы было $URI[[http://libmeta.ru/me/formula/aux/1007_4_ChISEL]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/1007_5_ChISEL]]/URI$ или хотя бы для всех достатотно больших $URI[[http://libmeta.ru/me/formula/aux/1007_6_ChISEL]]/URI$. Напр., если $URI[[http://libmeta.ru/me/formula/aux/1007_7_ChISEL]]/URI$ означает число всех различных простых делителей числа $URI[[http://libmeta.ru/me/formula/aux/1007_8_ChISEL]]/URI$, то $URI[[http://libmeta.ru/me/formula/aux/1007_9_ChISEL]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/1007_10_ChISEL]]/URI$, $URI[[http://libmeta.ru/me/formula/aux/1007_11_ChISEL]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1007_12_ChISEL]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_1_ChISEL]]/URI
+\]
+
+Во втором случае рассматривается поведение
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_2_ChISEL]]/URI
+\]
+
+Для $URI[[http://libmeta.ru/me/formula/aux/1007_13_ChISEL]]/URI$ среднее значение (1) равно $URI[[http://libmeta.ru/me/formula/aux/1007_14_ChISEL]]/URI$. Решение как первой, так и второй задачи в общем случае дает мало информации о поведении функции $URI[[http://libmeta.ru/me/formula/aux/1007_15_ChISEL]]/URI$, об ее колебаниях. Функция может значительно отклоняться от своего среднего значения. При этом оказывается, что большие отклонения встречаются вообще довольно редко. Ставится задача отыскания границ, в к-рых могут колебаться значения функции $URI[[http://libmeta.ru/me/formula/aux/1007_16_ChISEL]]/URI$ для подавляющего большинства значений аргумента. Если $URI[[http://libmeta.ru/me/formula/aux/1007_17_ChISEL]]/URI$ - действительная аддитивная арифмметич. функция,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_3_ChISEL]]/URI
+\]
+
+где суммы берутся по простым числам $URI[[http://libmeta.ru/me/formula/aux/1007_18_ChISEL]]/URI$ и по степеням простых чисел $URI[[http://libmeta.ru/me/formula/aux/1007_19_ChISEL]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_4_ChISEL]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1007_20_ChISEL]]/URI$ - абсолютная константа. Следовательно, для любого $URI[[http://libmeta.ru/me/formula/aux/1007_21_ChISEL]]/URI$ и всех $URI[[http://libmeta.ru/me/formula/aux/1007_22_ChISEL]]/URI$, за исключением $URI[[http://libmeta.ru/me/formula/aux/1007_23_ChISEL]]/URI$ чисел, имеет место неравенство
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_5_ChISEL]]/URI
+\]
+
+(аналог теоретико-вероятностного больиих чисел зако$URI[[http://libmeta.ru/me/formula/aux/1007_24_ChISEL]]/URI$. Для функции $URI[[http://libmeta.ru/me/formula/aux/1007_25_ChISEL]]/URI$ это неравенство можно записать в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_6_ChISEL]]/URI
+\]
+
+Пусть через $URI[[http://libmeta.ru/me/formula/aux/1007_26_ChISEL]]/URI$ обозначено число натуральных $URI[[http://libmeta.ru/me/formula/aux/1007_27_ChISEL]]/URI$, удовлетворяющих условиям, к-рые будут указываться в скобках вместо многоточия. Желая более точно охарактеризовать распределение значений действительных арифметич. функций $URI[[http://libmeta.ru/me/formula/aux/1007_28_ChISEL]]/URI$, приходят к рассмотрению асимптотич. поведения частоты
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_7_ChISEL]]/URI
+\]
+
+при $URI[[http://libmeta.ru/me/formula/aux/1007_29_ChISEL]]/URI$, где $URI[[http://libmeta.ru/me/formula/aux/1007_30_ChISEL]]/URI$ - любое борелевское множество. Среди асимптотич. законов для (3) наибольший интерес представляют законы двух типов: интегральные і локальвые.
+
+Интегральные законы. Изучается асимптотич. поведение функции распределения
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_8_ChISEL]]/URI
+\]
+
+прпи $URI[[http://libmeta.ru/me/formula/aux/1007_31_ChISEL]]/URI$ и заданных $URI[[http://libmeta.ru/me/formula/aux/1007_32_ChISEL]]/URI$.
+
+В случае арифометических аддитивных функциї ищутся условия, при к-рых $URI[[http://libmeta.ru/me/formula/aux/1007_33_ChISEL]]/URI$ стремится К нек-рой функции распределенія $URI[[http://libmeta.ru/me/formula/aux/1007_34_ChISEL]]/URI$ во всех ее точках непрерывности. При этом, если $URI[[http://libmeta.ru/me/formula/aux/1007_35_ChISEL]]/URI$ не вырождены, то $URI[[http://libmeta.ru/me/formula/aux/1007_36_ChISEL]]/URI$ обязательно должно стремиться к конечному (отличному от 0 ) или бесконечному пределу.
+
+В случае конечного предела достаточно ограничиться рассмотрением $URI[[http://libmeta.ru/me/formula/aux/1007_37_ChISEL]]/URI$. Для того чтобы $URI[[http://libmeta.ru/me/formula/aux/1007_38_ChISEL]]/URI$ с какими-либо $URI[[http://libmeta.ru/me/formula/aux/1007_39_ChISEL]]/URI$ при $URI[[http://libmeta.ru/me/formula/aux/1007_40_ChISEL]]/URI$ имела невырожденное предельное распределение, необходимо и достаточно, чтобы $URI[[http://libmeta.ru/me/formula/aux/1007_41_ChISEL]]/URI$ Iмела вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_9_ChISEL]]/URI
+\]
+
+где $URI[[http://libmeta.ru/me/formula/aux/1007_42_ChISEL]]/URI$ - константа, а функция $URI[[http://libmeta.ru/me/formula/aux/1007_43_ChISEL]]/URI$ удовлетворяет условиям
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_10_ChISEL]]/URI
+\]
+
+При этом $URI[[http://libmeta.ru/me/formula/aux/1007_44_ChISEL]]/URI$ должны быть равными
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_11_ChISEL]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/1007_45_ChISEL]]/URI$-константа. Выбор $URI[[http://libmeta.ru/me/formula/aux/1007_46_ChISEL]]/URI$ однозначев с точностью до слагаемых $URI[[http://libmeta.ru/me/formula/aux/1007_47_ChISEL]]/URI$. Предельно распределение является дискретным, когда $URI[[http://libmeta.ru/me/formula/aux/1007_48_ChISEL]]/URI$, и непрерывным в противном случае.
+
+В частности, $URI[[http://libmeta.ru/me/formula/aux/1007_49_ChISEL]]/URI$ (случай $URI[[http://libmeta.ru/me/formula/aux/1007_50_ChISEL]]/URI$ ) тогда пl только тогда имеет предельное распределение, когда сходятся ряды
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_12_ChISEL]]/URI
+\]
+
+(аналог теоретико-вероятностной теоремы о трех рядах).
+
+Случай $URI[[http://libmeta.ru/me/formula/aux/1007_51_ChISEL]]/URI$ не исследован до конца. Ниже приведены нек-рые наиболее простые результаты, когда $URI[[http://libmeta.ru/me/formula/aux/1007_52_ChISEL]]/URI$ и $URI[[http://libmeta.ru/me/formula/aux/1007_53_ChISEL]]/URI$ определены формулами (2).
+
+Если для всякого фиксированного $URI[[http://libmeta.ru/me/formula/aux/1007_54_ChISEL]]/URI$
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_c0184e6a865f9c443b70g-1.jpg?height=145&amp;width=482&amp;top_left_y=334&amp;top_left_x=1168)
+
+при $URI[[http://libmeta.ru/me/formula/aux/1007_55_ChISEL]]/URI$ (аналог условия Лпндеберга, см. Линдеберга - Феллера теорема), то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_13_ChISEL]]/URI
+\]
+
+(нормальный закон). Если выполнено (4), то $URI[[http://libmeta.ru/me/formula/aux/1007_56_ChISEL]]/URI$ является медленно меняющейся функцией от $URI[[http://libmeta.ru/me/formula/aux/1007_57_ChISEL]]/URI$ в смысле Карамата. Более того, если $URI[[http://libmeta.ru/me/formula/aux/1007_58_ChISEL]]/URI$ является такой функцией, то для справедливости (5) условие (4) является необходимым.
+
+Пусть $URI[[http://libmeta.ru/me/formula/aux/1007_59_ChISEL]]/URI$ является медленно меняющейся функцией от $URI[[http://libmeta.ru/me/formula/aux/1007_60_ChISEL]]/URI$. Для того чтобы $URI[[http://libmeta.ru/me/formula/aux/1007_61_ChISEL]]/URI$ сходилась к предельному распределению с дисперсией 1 , необходимо и достаточно, чтобы существовала такая неубывающая функция $URI[[http://libmeta.ru/me/formula/aux/1007_62_ChISEL]]/URI$, что при $URI[[http://libmeta.ru/me/formula/aux/1007_63_ChISEL]]/URI$ для всех $URI[[http://libmeta.ru/me/formula/aux/1007_64_ChISEL]]/URI$, за исключением, быть может, $URI[[http://libmeta.ru/me/formula/aux/1007_65_ChISEL]]/URI$,
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_14_ChISEL]]/URI
+\]
+
+Характеристич. функция $URI[[http://libmeta.ru/me/formula/aux/1007_66_ChISEL]]/URI$ предельного закона в случае его существования определяется формулой
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_15_ChISEL]]/URI
+\]
+
+Изучается быстрота сходимости к предельному закону. Так, напр., если $URI[[http://libmeta.ru/me/formula/aux/1007_67_ChISEL]]/URI$ - сильно аддитивная функция Ii
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_16_ChISEL]]/URI
+\]
+
+ири $URI[[http://libmeta.ru/me/formula/aux/1007_68_ChISEL]]/URI$, то
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_17_ChISEL]]/URI
+\]
+
+равномерно по $URI[[http://libmeta.ru/me/formula/aux/1007_69_ChISEL]]/URI$.
+
+Для мультипликативных арифметич. функций имеют место аналогичныс результаты.
+
+Јокальные законы. Изучается поведение при $URI[[http://libmeta.ru/me/formula/aux/1007_70_ChISEL]]/URI$ частоты $URI[[http://libmeta.ru/me/formula/aux/1007_71_ChISEL]]/URI$ при заданных $URI[[http://libmeta.ru/me/formula/aux/1007_72_ChISEL]]/URI$. В случае действительных аддитивных арифметит. функций әта частота всегда имеет предел, к-рый отличен от 0 липь для не более тем счетного множества значениї $URI[[http://libmeta.ru/me/formula/aux/1007_73_ChISEL]]/URI$. Пусть
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_18_ChISEL]]/URI
+\]
+
+- не равные нулю пределы, причем хотя бы один такой предел существует. Тогда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_19_ChISEL]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/1007_15_ChISEL]]/URI
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_20_ChISEL]]/URI
+\]
+
+Если $URI[[http://libmeta.ru/me/formula/aux/1007_74_ChISEL]]/URI$ принимает лишь целые значения,
+
+To
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_21_ChISEL]]/URI
+\]
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_22_ChISEL]]/URI
+\] тогда и только тогда, когда
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_23_ChISEL]]/URI
+\]
+
+Изучается URI[[http://libmeta.ru/me/relation/1007_14_ChISEL]]/URI к $URI[[http://libmeta.ru/me/formula/aux/1007_75_ChISEL]]/URI$. Существует такая абсолютная константа $URI[[http://libmeta.ru/me/formula/aux/1007_76_ChISEL]]/URI$, что для всех пелых $URI[[http://libmeta.ru/me/formula/aux/1007_77_ChISEL]]/URI$ и всех целозначных аддитивных URI[[http://libmeta.ru/me/relation/1007_13_ChISEL]]/URI. URI[[http://libmeta.ru/me/relation/1007_12_ChISEL]]/URI $URI[[http://libmeta.ru/me/formula/aux/1007_78_ChISEL]]/URI$ с условием $URI[[http://libmeta.ru/me/formula/aux/1007_79_ChISEL]]/URI$ для всех простых $URI[[http://libmeta.ru/me/formula/aux/1007_80_ChISEL]]/URI$
+
+\[
+URI[[http://libmeta.ru/me/formula/main/1007_24_ChISEL]]/URI
+\]
+
+Изучается также асимштотич. поведение частоты $URI[[http://libmeta.ru/me/formula/aux/1007_81_ChISEL]]/URI$, когда $URI[[http://libmeta.ru/me/formula/aux/1007_82_ChISEL]]/URI$ может расти вместе с $URI[[http://libmeta.ru/me/formula/aux/1007_83_ChISEL]]/URI$.
+
+Лlит.: [1] К а « М., Статистическая URI[[http://libmeta.ru/me/relation/1007_11_ChISEL]]/URI в теприи вероятностей, анализе и URI[[http://libmeta.ru/me/relation/1007_10_ChISEL]]/URI чисел, пер. с англ., М., $URI[[http://libmeta.ru/me/formula/aux/1007_84_ChISEL]]/URI$ [2] К у $URI[[http://libmeta.ru/me/formula/aux/1007_85_ChISEL]]/URI$ и п ю с И. П., Вероятностные URI[[http://libmeta.ru/me/relation/1007_9_ChISEL]]/URI в URI[[http://libmeta.ru/me/relation/1007_8_ChISEL]]/URI чисел, 2 изд., Вильнюс, 1962; [3] е г о же, в сб.: Актуальные проблемы анапитической URI[[http://libmeta.ru/me/relation/1007_7_ChISEL]]/URI чисел, Минск, $URI[[http://libmeta.ru/me/formula/aux/1007_86_ChISEL]]/URI$ н и К Ю. В., URI[[http://libmeta.ru/me/relation/1007_6_ChISEL]]/URI в бинарных аддитивных залачах, Ј., 1961; [5] е г о ж е, URI[[http://libmeta.ru/me/relation/1007_5_ChISEL]]/URI свойства алгебраических попей, Ј., 1967; [6] П о с т н и к о в А. Г., Эргодические вопросы URI[[http://libmeta.ru/me/relation/1007_4_ChISEL]]/URI URI[[http://libmeta.ru/me/relation/1007_3_ChISEL]]/URI и URI[[http://libmeta.ru/me/relation/1007_2_ChISEL]]/URI URI[[http://libmeta.ru/me/relation/1007_1_ChISEL]]/URI, M., 1966; [7] E l l i o t t P. D. T. A., Probabilistic number theory, V. $URI[[http://libmeta.ru/me/formula/aux/1007_87_ChISEL]]/URI$, N.-Y.- Hdlb. - B., $URI[[http://libmeta.ru/me/formula/aux/1007_88_ChISEL]]/URI$.</text>
+  <text_orig>в е р о я т о о с т н а я - в широком смысле раздел теории чисел, в к-ром используются идеи и методы теории вероятностей.
+
+Под вероятностной Ч. т. в узком смысле понимается статистич. теория распределения значений арифметических функций.
+
+Подавляющее большинство арифметич. функций, изучаемых в теории чисел, являются аддитивными или мультипликативными. Их значения обычно распределены очень сложно. Если проследить за изменением значений таких функций, когда аргумент пробегает последовательные натуральные числа, получится весьма хаотическая картина, к-рая обычно наблюдается при рассмотрении аддитивных свойств целых чисел совместно с мультипликативными. В классич. исследованиях при рассмотрении распределения значений действительных арифметич. функций $f(m)$ обычно изучалось асимптотич. поведение самой функции $f(m)$ или ее среднего значения. В первом случае ищутся простые функции $\psi_{1}(m), \psi_{2}(m)$, чтобы было $\psi_{1}(m) \leqslant f(m) \leqslant \psi_{2}(m)$ для всех $m$ или хотя бы для всех достатотно больших $m$. Напр., если $\omega(m)$ означает число всех различных простых делителей числа $m$, то $\omega(m) \geqslant 1$ для всех $m&gt;1$, $\omega(m) \leqslant 2(\ln \ln m)^{-1} \ln m$ при $m \geqslant m_{0} ;$
+
+\[
+\begin{gathered}
+\lim _{m \rightarrow \infty} \inf \omega(m)=1, \\
+\lim _{m \rightarrow \infty} \sup \omega(m)(\ln m)^{-1} \ln \ln m=1 .
+\end{gathered}
+\]
+
+Во втором случае рассматривается поведение
+
+\[
+\frac{1}{n} \sum_{m=1}^{n} f(m)
+\]
+
+Для $\omega(m)$ среднее значение (1) равно $(1+o(1) \ln \ln n)$. Решение как первой, так и второй задачи в общем случае дает мало информации о поведении функции $f(m)$, об ее колебаниях. Функция может значительно отклоняться от своего среднего значения. При этом оказывается, что большие отклонения встречаются вообще довольно редко. Ставится задача отыскания границ, в к-рых могут колебаться значения функции $f(m)$ для подавляющего большинства значений аргумента. Если $f(m)$ - действительная аддитивная арифмметич. функция,
+
+\[
+A_{n}=\sum_{p \leqslant n} \frac{f(p)}{p}, B_{n}^{2}=\sum_{p}{ }^{\alpha} \frac{f^{2}\left(p^{\alpha}\right)}{p^{\alpha}},
+\]
+
+где суммы берутся по простым числам $p$ и по степеням простых чисел $p^{\alpha}$, то
+
+\[
+\frac{1}{n} \sum_{m=1}^{n}\left(f(m)-A_{n}\right)^{2} \leqslant B_{n}^{2}\left(\frac{3}{2}+\frac{c}{\ln n}\right),
+\]
+
+где $c$ - абсолютная константа. Следовательно, для любого $t&gt;0$ и всех $m \leqslant n$, за исключением $&lt;\left(\frac{3}{2}+\frac{c}{\ln n}\right) n t^{-2}$ чисел, имеет место неравенство
+
+\[
+\left|f(m)-A_{n}\right|&lt;t B_{n}
+\]
+
+(аналог теоретико-вероятностного больиих чисел зако$н a)$. Для функции $\omega(m)$ это неравенство можно записать в виде
+
+\[
+|\omega(m)-\ln \ln n|&lt;t \sqrt{\ln \ln n} .
+\]
+
+Пусть через $N_{n}(\ldots)$ обозначено число натуральных $m \leqslant n$, удовлетворяющих условиям, к-рые будут указываться в скобках вместо многоточия. Желая более точно охарактеризовать распределение значений действительных арифметич. функций $f(m)$, приходят к рассмотрению асимптотич. поведения частоты
+
+\[
+\frac{1}{n} N_{n}(f(m) \in E)
+\]
+
+при $n \rightarrow \infty$, где $E$ - любое борелевское множество. Среди асимптотич. законов для (3) наибольший интерес представляют законы двух типов: интегральные і локальвые.
+
+Интегральные законы. Изучается асимптотич. поведение функции распределения
+
+\[
+F_{n}\left(C_{n}+D_{n} x\right)=\frac{1}{n} N_{n}\left(f(m)&lt;C_{n}+D_{n} x\right),
+\]
+
+прпи $n \longrightarrow \infty$ и заданных $C_{n}, D_{n}$.
+
+В случае арифометических аддитивных функциї ищутся условия, при к-рых $F_{n}\left(C_{n}+D_{n} x\right)$ стремится К нек-рой функции распределенія $F(x)$ во всех ее точках непрерывности. При этом, если $F(x)$ не вырождены, то $D_{n}$ обязательно должно стремиться к конечному (отличному от 0 ) или бесконечному пределу.
+
+В случае конечного предела достаточно ограничиться рассмотрением $F_{n}\left(C_{n}+x\right)$. Для того чтобы $F_{n}\left(C_{n}+x\right)$ с какими-либо $C_{n}$ при $n \longrightarrow \infty$ имела невырожденное предельное распределение, необходимо и достаточно, чтобы $f(m)$ Iмела вид
+
+\[
+f(m)=a \ln m+g(m)
+\]
+
+где $a$ - константа, а функция $g(m)$ удовлетворяет условиям
+
+\[
+\sum_{|g(p)| \geqslant 1} \frac{1}{p}&lt;\infty, \sum_{|g(p)|&lt;1} \frac{g^{2}(p)}{p}&lt;\infty .
+\]
+
+При этом $C_{n}$ должны быть равными
+
+\[
+C_{n}=a \ln n+\sum_{\substack{p \leqslant n,|g(p)|&lt;1}} \frac{g(p)}{p}+C+o(1),
+\]
+
+$C$-константа. Выбор $C_{n}$ однозначев с точностью до слагаемых $C+o(1)$. Предельно распределение является дискретным, когда $\sum_{f(p) \neq 0} \frac{1}{p}&lt;\infty$, и непрерывным в противном случае.
+
+В частности, $F_{n}(x)$ (случай $C_{n} \equiv 0$ ) тогда пl только тогда имеет предельное распределение, когда сходятся ряды
+
+\[
+\sum_{|f(p)| \geqslant 1} \frac{1}{p}, \sum_{|f(p)|&lt;1} \frac{f(p)}{p}, \sum_{|f(p)|&lt;1} \frac{f^{2}(p)}{p}
+\]
+
+(аналог теоретико-вероятностной теоремы о трех рядах).
+
+Случай $D_{n} \longrightarrow \infty$ не исследован до конца. Ниже приведены нек-рые наиболее простые результаты, когда $C_{n}=A_{n}$ и $D_{n}=B_{n}$ определены формулами (2).
+
+Если для всякого фиксированного $\varepsilon&gt;0$
+
+![](https://cdn.mathpix.com/cropped/2023_07_09_c0184e6a865f9c443b70g-1.jpg?height=145&amp;width=482&amp;top_left_y=334&amp;top_left_x=1168)
+
+при $n \rightarrow \infty$ (аналог условия Лпндеберга, см. Линдеберга - Феллера теорема), то
+
+\[
+F_{n}\left(A_{n}+B_{n} x\right) \rightarrow \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{x} e^{-u^{2} / 2} d u=\Phi(x)
+\]
+
+(нормальный закон). Если выполнено (4), то $B_{n}$ является медленно меняющейся функцией от $\ln n$ в смысле Карамата. Более того, если $B_{n}$ является такой функцией, то для справедливости (5) условие (4) является необходимым.
+
+Пусть $B_{n}$ является медленно меняющейся функцией от $\ln n$. Для того чтобы $F_{n}\left(A_{n}+B_{n} x\right)$ сходилась к предельному распределению с дисперсией 1 , необходимо и достаточно, чтобы существовала такая неубывающая функция $V(u),-\infty&lt;u&lt;\infty, V(-\infty)=0, V(\infty)=1$, что при $n \rightarrow \infty$ для всех $u$, за исключением, быть может, $u=0$,
+
+\[
+\begin{aligned}
+&amp; B_{n}^{-2} \sum_{p^{\alpha} \leqslant n,} \frac{f^{2}\left(p^{\alpha}\right)}{p^{\alpha}} \rightarrow V(u) . \\
+&amp; f\left(p^{\alpha}\right)&lt;u B_{n}
+\end{aligned}
+\]
+
+Характеристич. функция $\varphi(t)$ предельного закона в случае его существования определяется формулой
+
+\[
+\varphi(t)=\exp \left(\int_{-\infty}^{\infty}\left(e^{i t u}-1-i t u\right)\right) u^{-2} d V(u) .
+\]
+
+Изучается быстрота сходимости к предельному закону. Так, напр., если $f(m)$ - сильно аддитивная функция II
+
+\[
+\mu_{n}=B_{n}^{-1} \max _{p \leqslant n}|f(p)| \rightarrow 0
+\]
+
+ири $n \rightarrow \infty$, то
+
+\[
+F_{n}\left(A_{n}+B_{n} x\right)=\Phi(x)+O\left(\mu_{n}\right)
+\]
+
+равномерно по $x$.
+
+Для мультипликативных арифметич. функций имеют место аналогичныс результаты.
+
+Јокальные законы. Изучается поведение при $n \rightarrow \infty$ частоты $\frac{1}{n} N_{n}(f(m)=c)$ при заданных $c$. В случае действительных аддитивных арифметит. функций әта частота всегда имеет предел, к-рый отличен от 0 липь для не более тем счетного множества значениї $c$. Пусть
+
+\[
+\lambda_{l}(f)=\lim _{n \rightarrow \infty} \frac{1}{n} N_{n}\left(f(m)=c_{l}\right)
+\]
+
+- не равные нулю пределы, причем хотя бы один такой предел существует. Тогда
+
+\[
+\sum_{l} \lambda_{l}(f)=1
+\]
+
+II
+
+\[
+\sum_{l} \lambda_{l}(f) e^{i t c} l=\prod_{p}(1-1 / p) \sum_{\alpha=0}^{\infty} p^{-\alpha} e^{i t f\left(p^{\alpha}\right)} .
+\]
+
+Если $f(m)$ принимает лишь целые значения,
+
+To
+
+\[
+\mu_{k}(f)=\lim _{n \rightarrow \infty} \frac{1}{n} N_{n}(/(m)=k)
+\]
+
+\[
+\sum_{k} \mu_{k}(f)=1
+\] тогда и только тогда, когда
+
+\[
+\sum_{f(p) \neq 0} 1 / p&lt;\infty .
+\]
+
+Изучается скорость сходимости к $\mu_{k}(f)$. Существует такая абсолютная константа $C$, что для всех пелых $k$ и всех целозначных аддитивных арифметич. функций $f(m)$ с условием $f(p)=0$ для всех простых $p$
+
+\[
+\left|\frac{1}{n} N_{n}(f(m)=k)-\mu_{k}(f)\right| \leqslant C n^{-1 / 2} .
+\]
+
+Изучается также асимштотич. поведение частоты $\frac{1}{n} N_{n}\left(f(m)=k_{n}\right)$, когда $k_{n}$ может расти вместе с $n$.
+
+Лlит.: [1] К а « М., Статистическая независимость в теприи вероятностей, анализе и теории чисел, пер. с англ., М., $1963 ;$ [2] К у $\mathbf{0}$ и п ю с И. П., Вероятностные методы в теории чисел, 2 изд., Вильнюс, 1962; [3] е г о же, в сб.: Актуальные проблемы анапитической теории чисел, Минск, $1974 ;[4] \mathrm{J} \mathrm{и} \mathrm{H-}$ н и К Ю. В., Дисперсионный метод в бинарных аддитивных залачах, Ј., 1961; [5] е г о ж е, Әргодические свойства алгебраических попей, Ј., 1967; [6] П о с т н и к о в А. Г., Эргодические вопросы теорип сравнений и теории диофантовых приближений, M., 1966; [7] E l l i o t t P. D. T. A., Probabilistic number theory, V. $1-2$, N.-Y.- Hdlb. - B., $1979-80$.</text_orig>
+</article>

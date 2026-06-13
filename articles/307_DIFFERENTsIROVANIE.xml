@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<article uri="http://libmeta.ru/me/article/307_DIFFERENTsIROVANIE" alphabetic_pos="307">
+  <title>ДИФФЕРЕНЦИРОВАНИЕ ЧИСЛЕННОЕ</title>
+  <authors/>
+  <pages>
+    <start>178</start>
+    <end>178</end>
+  </pages>
+  <literature>
+    <literature_orig>Jum.: [1] Б е р е зи н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] А л ь б е р г Д ж., Н и льс о н Э., У о л Ii म пер. с англ., М., 1972; [3] М о р о з о в В. А., в кн.: Вычислительные методы и программирование, в. 14, М., 1970, с. 46-62.</literature_orig>
+    <unit>
+      <author>Березин И. С.</author>
+      <author>Жидков Н. П.</author>
+      <title>Методы вычислений</title>
+      <publication>3 изд., т. 1, М.</publication>
+      <year>1966</year>
+      <other/>
+    </unit>
+    <unit>
+      <title>А л ь б е р г Д ж., Н и льс о н Э.</title>
+      <publication>У о л Ii म пер. с англ., М.</publication>
+      <year>1972</year>
+      <other/>
+    </unit>
+    <unit>
+      <author>Морозов В. А.</author>
+      <title>в кн.: Вычислительные методы и программирование, в. 14</title>
+      <publication>М.</publication>
+      <year>1970</year>
+      <other>с. 46-62.</other>
+    </unit>
+  </literature>
+  <formulas_main>
+    <formula uri="http://libmeta.ru/me/formula/main/307_1_DIFFERENTsIROVANIE">u_{n}^{k}(x)=\sum_{i=1}^{n} u_{i} a_{i}^{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/307_2_DIFFERENTsIROVANIE">u_{n}(x)=\sum_{i=1}^{n} u_{i} a_{i}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/307_3_DIFFERENTsIROVANIE">u_{n}^{k}(x) \equiv \frac{d^{k} u_{n}(x)}{d x^{k}}=\sum_{i=1}^{n} u_{i} \frac{d^{k} a_{i}(x)}{d x^{k}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/307_4_DIFFERENTsIROVANIE">u_{n}^{k}\left(x_{j}\right)=\sum_{i=1}^{n} u_{i} a_{i j}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/307_5_DIFFERENTsIROVANIE">\frac{d^{k} u\left(x_{j}\right)}{d x^{k}}-\sum_{i=1}^{n} u_{i} a_{i j}^{k}=\xi_{j}^{n} .</formula>
+    <formula uri="http://libmeta.ru/me/formula/main/307_6_DIFFERENTsIROVANIE">\begin{gathered}\frac{d u\left(x_{j}\right)}{d x}=\frac{u_{j+1}-u_{j}}{h}+O\left(h_{n}\right)=\frac{u_{j}-u_{j-1}}{h}+O\left(h_{n}\right), \\\frac{d u\left(x_{j}\right)}{d x}=\frac{u_{j+1}-u_{j-1}}{2 h}+O\left(h^{2}\right), \\\frac{d^{2} u\left(x_{j}\right)}{d x^{2}}=\frac{u_{j+1}-2 u_{j}+u_{j-1}}{h^{2}}+O\left(h^{2}\right) .\end{gathered}</formula>
+  </formulas_main>
+  <formulas_aux>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_1_DIFFERENTsIROVANIE">[a, b]</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_2_DIFFERENTsIROVANIE">u=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_3_DIFFERENTsIROVANIE">x_{i}, \quad a=x_{1}&lt;x_{2}&lt;\ldots&lt;x_{n}=b</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_4_DIFFERENTsIROVANIE">\left(x_{i}, u_{i}=u\left(x_{i}\right)\right), i=1, \ldots, n</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_5_DIFFERENTsIROVANIE">u_{n}^{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_6_DIFFERENTsIROVANIE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_7_DIFFERENTsIROVANIE">\frac{d^{k} u(x)}{d x^{\underline{k}}}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_8_DIFFERENTsIROVANIE">x_{n}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_9_DIFFERENTsIROVANIE">x</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_10_DIFFERENTsIROVANIE">u_{n}^{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_11_DIFFERENTsIROVANIE">x \in X_{n}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_12_DIFFERENTsIROVANIE">a_{i}^{k}(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_13_DIFFERENTsIROVANIE">x_{n}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_14_DIFFERENTsIROVANIE">u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_15_DIFFERENTsIROVANIE">u=u(x)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_16_DIFFERENTsIROVANIE">x_{i}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_17_DIFFERENTsIROVANIE">u_{n}^{k}\left(x_{j}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_18_DIFFERENTsIROVANIE">k</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_19_DIFFERENTsIROVANIE">a_{i j}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_20_DIFFERENTsIROVANIE">a_{i j}^{k}</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_21_DIFFERENTsIROVANIE">h_{n}=\max _{i j}\left|x_{i+1}-x_{i}\right|</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_22_DIFFERENTsIROVANIE">h=h_{n}=\left(x_{2}-x_{1}\right)=\left(x_{3}-x_{2}\right)=</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_23_DIFFERENTsIROVANIE">=\ldots=\left(x_{n}-x_{n-1}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_24_DIFFERENTsIROVANIE">u\left(x_{i}\right)</formula>
+    <formula uri="http://libmeta.ru/me/formula/aux/307_25_DIFFERENTsIROVANIE">\operatorname{tax}</formula>
+  </formulas_aux>
+  <relations n="5">
+    <relation uri="http://libmeta.ru/me/relation/307_1_DIFFERENTsIROVANIE">
+      <rel_text>погрешностям</rel_text>
+      <target>http://libmeta.ru/me/article/344_POGREShNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/307_2_DIFFERENTsIROVANIE">
+      <rel_text>предварительное</rel_text>
+      <target>http://libmeta.ru/me/article/596_PREDIKATIVNOST</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/307_3_DIFFERENTsIROVANIE">
+      <rel_text>получены</rel_text>
+      <target>http://libmeta.ru/me/article/473_POLUNORM</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/307_4_DIFFERENTsIROVANIE">
+      <rel_text>заданы</rel_text>
+      <target>http://libmeta.ru/me/article/10_ZAdAch</target>
+    </relation>
+    <relation uri="http://libmeta.ru/me/relation/307_5_DIFFERENTsIROVANIE">
+      <rel_text>Алгоритмы</rel_text>
+      <target>http://libmeta.ru/me/article/139_ALGOL-6</target>
+    </relation>
+  </relations>
+  <text>Нахождение производной функции численными методами. Д. ч. используется в случаях, когда методы диффференциального исчисления неприменимы (функция задана таблично), или их применение вызывает значительные трудности (функция имеет сложное аналитическое выражение).
+
+Пусть на отрезке $URI[[http://libmeta.ru/me/formula/aux/307_1_DIFFERENTsIROVANIE]]/URI$ определена функция $URI[[http://libmeta.ru/me/formula/aux/307_2_DIFFERENTsIROVANIE]]/URI$ и заданы узловые точки $URI[[http://libmeta.ru/me/formula/aux/307_3_DIFFERENTsIROVANIE]]/URI$. Совокупность точек $URI[[http://libmeta.ru/me/formula/aux/307_4_DIFFERENTsIROVANIE]]/URI$, наз. таблицей. Результатом Д. ч. таблицы является функция $URI[[http://libmeta.ru/me/formula/aux/307_5_DIFFERENTsIROVANIE]]/URI$, в каком-либо смысле приближающая $URI[[http://libmeta.ru/me/formula/aux/307_6_DIFFERENTsIROVANIE]]/URI$-ю про- изводную $URI[[http://libmeta.ru/me/formula/aux/307_7_DIFFERENTsIROVANIE]]/URI$ функции на нек-ром множестве $URI[[http://libmeta.ru/me/formula/aux/307_8_DIFFERENTsIROVANIE]]/URI$ точек $URI[[http://libmeta.ru/me/formula/aux/307_9_DIFFERENTsIROVANIE]]/URI$. Применение Д. ч. целесообразно, когда получение функции $URI[[http://libmeta.ru/me/formula/aux/307_10_DIFFERENTsIROVANIE]]/URI$ для каждого $URI[[http://libmeta.ru/me/formula/aux/307_11_DIFFERENTsIROVANIE]]/URI$ требует незначительной затраты вычислительных средств. Обычно используются линейные методы Д. ч., где результат Д. ч. записывается в виде
+
+\[
+URI[[http://libmeta.ru/me/formula/main/307_1_DIFFERENTsIROVANIE]]/URI
+\]
+
+$URI[[http://libmeta.ru/me/formula/aux/307_12_DIFFERENTsIROVANIE]]/URI$ - функции, определенные на $URI[[http://libmeta.ru/me/formula/aux/307_13_DIFFERENTsIROVANIE]]/URI$. Наиболее распространенный метод получения формул (1) состоит в следующем: строят функцию
+
+\[
+URI[[http://libmeta.ru/me/formula/main/307_2_DIFFERENTsIROVANIE]]/URI
+\]
+
+интерполирующую $URI[[http://libmeta.ru/me/formula/aux/307_14_DIFFERENTsIROVANIE]]/URI$, и полагают
+
+\[
+URI[[http://libmeta.ru/me/formula/main/307_3_DIFFERENTsIROVANIE]]/URI
+\]
+
+Точность алгоритмов, основанных на интерполяционных формулах Лагранжа, Ньютона и др., существенным образом определяется выбором способа интерполяции и может быть иногда весьма низкой даже для достаточно гладких функций $URI[[http://libmeta.ru/me/formula/aux/307_15_DIFFERENTsIROVANIE]]/URI$ и при большом числе узловых точек (см. [1]). От әтого недостатка часто свободны алгоритмы Д. ч., использующие сплайн-интерполяцию (см. [2]). Если требуется вычисление приближенных значений производной только в узловых точках $URI[[http://libmeta.ru/me/formula/aux/307_16_DIFFERENTsIROVANIE]]/URI$, то формула (1) принимает вид
+
+\[
+URI[[http://libmeta.ru/me/formula/main/307_4_DIFFERENTsIROVANIE]]/URI
+\]
+
+и $URI[[http://libmeta.ru/me/formula/aux/307_17_DIFFERENTsIROVANIE]]/URI$ полностью определяется заданием для данного $URI[[http://libmeta.ru/me/formula/aux/307_18_DIFFERENTsIROVANIE]]/URI$ матрицы коэфффициентов $URI[[http://libmeta.ru/me/formula/aux/307_19_DIFFERENTsIROVANIE]]/URI$. Формулы типа (2) наз. разностными формулами Д. ч. Коәфффициенты $URI[[http://libmeta.ru/me/formula/aux/307_20_DIFFERENTsIROVANIE]]/URI$ этих формул определяют из условия наивысшего порядка малости по $URI[[http://libmeta.ru/me/formula/aux/307_21_DIFFERENTsIROVANIE]]/URI$ разности
+
+\[
+URI[[http://libmeta.ru/me/formula/main/307_5_DIFFERENTsIROVANIE]]/URI
+\]
+
+Формулы (2), как правило, весьма просты и удобны на практике. Напр., при $URI[[http://libmeta.ru/me/formula/aux/307_22_DIFFERENTsIROVANIE]]/URI$ $URI[[http://libmeta.ru/me/formula/aux/307_23_DIFFERENTsIROVANIE]]/URI$ они имеют вид:
+
+\[
+URI[[http://libmeta.ru/me/formula/main/307_6_DIFFERENTsIROVANIE]]/URI
+\]
+
+URI[[http://libmeta.ru/me/relation/307_5_DIFFERENTsIROVANIE]]/URI Д.ч. часто применяются к таким таблицам, в к-рых значения $URI[[http://libmeta.ru/me/formula/aux/307_24_DIFFERENTsIROVANIE]]/URI$ URI[[http://libmeta.ru/me/relation/307_4_DIFFERENTsIROVANIE]]/URI (или URI[[http://libmeta.ru/me/relation/307_3_DIFFERENTsIROVANIE]]/URI) неточно. В этом случае требуется их URI[[http://libmeta.ru/me/relation/307_2_DIFFERENTsIROVANIE]]/URI сглаживание, так как непосредственное применение Д.ч. может привести к большим URI[[http://libmeta.ru/me/relation/307_1_DIFFERENTsIROVANIE]]/URI в результа$URI[[http://libmeta.ru/me/formula/aux/307_25_DIFFERENTsIROVANIE]]/URI$ (cm. [3]).</text>
+  <text_orig>НаХождение производной функции численными методами. Д. ч. используется в случаях, когда методы диффференциального исчисления неприменимы (функция задана таблично), или их применение вызывает значительные трудности (функция имеет сложное аналитическое выражение).
+
+Пусть на отрезке $[a, b]$ определена функция $u=u(x)$ и заданы узловые точки $x_{i}, \quad a=x_{1}&lt;x_{2}&lt;\ldots&lt;x_{n}=b$. Совокупность точек $\left(x_{i}, u_{i}=u\left(x_{i}\right)\right), i=1, \ldots, n$, наз. таблицей. Результатом Д. ч. таблицы является функция $u_{n}^{k}(x)$, в каком-либо смысле приближающая $k$-ю про- изводную $\frac{d^{k} u(x)}{d x^{\underline{k}}}$ функции на нек-ром множестве $X_{n}^{k}$ точек $x$. Применение Д. ч. целесообразно, когда получение функции $u_{n}^{k}(x)$ для каждого $x \in X_{n}^{k}$ требует незначительной затраты вычислительных средств. Обычно используются линейные методы Д. ч., где результат Д. ч. записывается в виде
+
+\[
+u_{n}^{k}(x)=\sum_{i=1}^{n} u_{i} a_{i}^{k}(x)
+\]
+
+$a_{i}^{k}(x)$ - функции, определенные на $X_{n}^{k}$. Наиболее распространенный метод получения формул (1) состоит в следующем: строят функцию
+
+\[
+u_{n}(x)=\sum_{i=1}^{n} u_{i} a_{i}(x)
+\]
+
+интерполирующую $u(x)$, и полагают
+
+\[
+u_{n}^{k}(x) \equiv \frac{d^{k} u_{n}(x)}{d x^{k}}=\sum_{i=1}^{n} u_{i} \frac{d^{k} a_{i}(x)}{d x^{k}}
+\]
+
+Точность алгоритмов, основанных на интерполяционных формулах Лагранжа, Ньютона и др., существенным образом определяется выбором способа интерполяции и может быть иногда весьма низкой даже для достаточно гладких функций $u=u(x)$ и при большом числе узловых точек (см. [1]). От әтого недостатка часто свободны алгоритмы Д. ч., использующие сплайн-интерполяцию (см. [2]). Если требуется вычисление приближенных значений производной только в узловых точках $x_{i}$, то формула (1) принимает вид
+
+\[
+u_{n}^{k}\left(x_{j}\right)=\sum_{i=1}^{n} u_{i} a_{i j}^{k}
+\]
+
+и $u_{n}^{k}\left(x_{j}\right)$ полностью определяется заданием для данного $k$ матрицы коэфффициентов $a_{i j}^{k}$. Формулы типа (2) наз. разностными формулами Д. ч. Коәфффициенты $a_{i j}^{k}$ этих формул определяют из условия наивысшего порядка малости по $h_{n}=\max _{i j}\left|x_{i+1}-x_{i}\right|$ разности
+
+\[
+\frac{d^{k} u\left(x_{j}\right)}{d x^{k}}-\sum_{i=1}^{n} u_{i} a_{i j}^{k}=\xi_{j}^{n} .
+\]
+
+Формулы (2), как правило, весьма просты и удобны на практике. Напр., при $h=h_{n}=\left(x_{2}-x_{1}\right)=\left(x_{3}-x_{2}\right)=$ $=\ldots=\left(x_{n}-x_{n-1}\right)$ они имеют вид:
+
+\[
+\begin{gathered}
+\frac{d u\left(x_{j}\right)}{d x}=\frac{u_{j+1}-u_{j}}{h}+O\left(h_{n}\right)=\frac{u_{j}-u_{j-1}}{h}+O\left(h_{n}\right), \\
+\frac{d u\left(x_{j}\right)}{d x}=\frac{u_{j+1}-u_{j-1}}{2 h}+O\left(h^{2}\right), \\
+\frac{d^{2} u\left(x_{j}\right)}{d x^{2}}=\frac{u_{j+1}-2 u_{j}+u_{j-1}}{h^{2}}+O\left(h^{2}\right) .
+\end{gathered}
+\]
+
+Алгоритмы Д.ч. часто применяются к таким таблицам, в к-рых значения $u\left(x_{i}\right)$ заданы (или получены) неточно. В этом случае требуется их предварительное сглаживание, так как непосредственное применение Д.ч. может привести к большим погрешностям в результа$\operatorname{Tax}$ (cM. [3]).
+
+Jum.: [1] Б е р е зи н И. С., Ж и д к о в Н. П., Методы вычислений, 3 изд., т. 1, М., 1966; [2] А л ь б е р г Д ж., Н и льс о н Э., У о л II म пер. с англ., М., 1972; [3] М о р о з о в В. А., в кн.: Вычислительные методы и программирование, в. 14, М., 1970, с. 46-62.</text_orig>
+</article>
